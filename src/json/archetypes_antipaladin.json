@@ -32,8 +32,7 @@
 			"**Unnatural Champion (Ex):** At 20th level, when a blighted myrmidon uses smite nature and strikes an elemental or fey creature with the extraplanar subtype, the target is also subject to the effects of a [banishment](spell/banishment) spell, using her blighted myrmidon level as her caster level, and her weapon and unholy symbol automatically count as objects that the subject hates. This ability otherwise functions as unholy champion.",
 			"",
 			"This alters unholy champion."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"dread_vanguard": {
 		"name": "Dread Vanguard",
@@ -65,8 +64,7 @@
 			"At 17th level, the dread vanguard can also mark the site with a [symbol of pain](spell/symbol_of_pain), and at 20th level, he adds a [symbol of weakness](spell/symbol_of_weakness). If available, all three of these effects overlap. Creatures must save against each effect individually, and the effects stack. The caster level for all effects is equal to the dread vanguard's class level. The save DC is equal to 10 + 1/2 the antipaladin's level + his Charisma modifier. A location remains marked in this way for up to 1 day per antipaladin level. During this time, the [crushing despair](spell/crushing_despair) and symbols are triggered when the first target enters each spell's area. They remain active for 10 minutes, then can be triggered again if targets are within range. If the effects are disabled, they become inactive for 10 minutes, but then can be triggered again as normal. [Dispel magic](spell/dispel_magic) and similar spells suppress the effects, and all effects of dark emissary can be removed by a [consecrate](spell/consecrate) spell cast on the location by a cleric of a level equal to or higher than the dread vanguard.",
 			"",
 			"Allies or evil creatures who serve the same power or organization as the dread vanguard are immune to the [crushing despair](spell/crushing_despair) and symbol effects, and automatically know that the location has been marked for their masters. They can treat this location as very familiar for the purpose of [teleport](spell/teleport) and similar spells and can use [scrying](spell/scrying) and related spells as though they were familiar with any subject within 20 feet of it. At 14th level, a dread vanguard can have one marked site active at a time. At 17th and 20th levels, he can add one additional site that is simultaneously active. Marking a new site beyond this limit ends all effects on the oldest active site. This ability replaces aura of sin."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"fearmonger": {
 		"name": "Fearmonger",
@@ -86,8 +84,7 @@
 			"**Panicked:** The target is panicked for 1 round per 4 class levels the antipaladin possesses. The antipaladin must have the shaken and frightened cruelties before selecting this cruelty.",
 			"",
 			"This class feature alters cruelty."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"insinuator": {
 		"name": "Insinuator",
@@ -143,8 +140,7 @@
 			"Ex-Insinuators",
 			"",
 			"An insinuator who willfully commits selfless acts or engages in violence that doesn't further his own ends loses all class features (including his outsider servant, but not bonus feats or weapon, armor, and shield proficiencies). He can't progress any further in levels as an insinuator. He regains his abilities and advancement potential if he atones for his faltering ambition (see the atonement spell). If he violates the code of conduct of his invoked outsider patron, he must similarly seek atonement from outsiders of that alignment again."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"iron_tyrant": {
 		"name": "Iron Tyrant",
@@ -174,8 +170,7 @@
 			"If a suit of bonded armor with a fiendish spirit is destroyed, the iron tyrant loses the use of this ability for 30 days, or until he gains a level, whichever comes first. During this 30-day period, the iron tyrant takes a -1 penalty on attack rolls and weapon damage rolls.",
 			"",
 			"This ability replaces fiendish boon."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"knight_of_the_sepulcher": {
 		"name": "Knight of the Sepulcher",
@@ -203,8 +198,7 @@
 			"**Soul of the Crypt (Su):** At 17th level, a knight of the sepulcher gains DR 5/bludgeoning and good. This ability replaces aura of depravity.",
 			"",
 			"**Undying Champion (Ex):** At 20th level, a knight of the sepulcher joins the ranks of the undead. His DR increases to 10/bludgeoning and good. His type changes to undead, and he acquires all undead traits. Although immune to disease, he can still carry and spread diseases with the antipaladin's plague bringer ability. The undying champion no longer has a Constitution score. He uses his Charisma score for calculating hit points, Fortitude saves, and any special abilities that rely on Constitution. This ability replaces unholy champion."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"rough_rampager": {
 		"name": "Rough Rampager",
@@ -220,8 +214,7 @@
 			"**Aura of Putrefaction (Su):** At 8th level, a rough rampager radiates an aura that causes the wounds of enemies within 10 feet to weep blood. Injured enemies in the area take 1 point of bleed damage per round. This ability functions only while the antipaladin is conscious. This ability replaces aura of despair.",
 			"",
 			"**Aura of Quietus (Su):** At 14th level, a rough rampager radiates an aura that causes the failure of healing spells, spell-like abilities, and supernatural abilities used to restore enemies within 10 feet of him. This is not an antimagic field, however, and ongoing or passive effects are not affected. Casters can overcome this ability with a successful caster level check versus the rough rampager's class level + 11. This ability replaces aura of sin."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"seal-breaker": {
 		"name": "Seal-Breaker",
@@ -245,8 +238,7 @@
 			"**Aura of Rebirth (Su):** At 11th level, if a living creature is slain within 10 feet of the seal-breaker, the seal-breaker can spend two uses of his smite good ability at the start of his next turn as a standard action to summon the spirit of a dead murderer to reanimate the corpse as a mohrg. The mohrg immediately rises and attacks the seal breaker's foes, acting under the antipaladin's command. After 1 minute, the murderer's soul leaves the body, which collapses, again lifeless. At 15th level, the seal-breaker can activate this ability as a move action. At 19th level, he can activate this ability as a swift action. This ability replaces aura of vengeance.",
 			"",
 			"**Code of Conduct:** The seal-breaker is dedicated to releasing the Whispering Tyrant from his prison. If a sealbreaker willingly and altruistically commits a good act, he loses all class features except proficiencies. This doesn't mean that a seal-breaker can't take actions someone else might qualify as good, only that such actions must always lead toward the eventual release of the Whispering Tyrant. A seal-breaker's code requires that he place the ultimate release of Tar-Baphon above all else, as well as impose tyranny, take advantage whenever possible, and punish the good and just (provided such actions don't interfere with his ultimate goal)."
-		],
-		"display": "archetype/antipaladin"
+		]
 	},
 	"tyrant": {
 		"name": "Tyrant",
@@ -268,7 +260,6 @@
 			"**Diabolic Boon (Sp):** At 5th level, if a tyrant chooses to gain the services of a fiendish servant with his fiendish boon ability, he must choose a fiendish animal or a creature with the lawful and evil subtypes.",
 			"",
 			"This ability alters fiendish boon."
-		],
-		"display": "archetype/antipaladin"
+		]
 	}
 }

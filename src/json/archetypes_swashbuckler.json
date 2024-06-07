@@ -38,8 +38,7 @@
 			"**Versatile Weapon Mastery (Ex):** At 20th level, an arrow champion gains the benefits of swashbuckler weapon mastery when using a light or one-handed piercing melee weapon or a bow.",
 			"",
 			"This alters swashbuckler weapon mastery."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"azatariel": {
 		"name": "Azatariel",
@@ -81,8 +80,7 @@
 			"**Affection of Elysium (Su):** An azatariel's affection relieves harmful afflictions. At 4th level and every 4 levels thereafter, an azatariel selects a mercy from those available to a paladin whose class level is equal to her swashbuckler level. She can show her affection to a willing, adjacent creature as a standard action to apply the effects of these mercies to the targeted creature, treating her swashbuckler level as her paladin level. An azatariel can use this ability a number of times per day equal to half her swashbuckler level plus her Charisma modifier.",
 			"",
 			"This replaces the swashbuckler's bonus feats."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"courser": {
 		"name": "Courser",
@@ -116,8 +114,7 @@
 			"**Swift Strikes (Ex):** At 11th level, the courser can spend 1 panache point to target two separate creatures when she uses the Spring Attack feat. She rolls the attack once and compares the result to each target's Armor Class separately. Additional damage-such as from a critical hit or weapon property-applies to only the first target struck. Her movement still provokes attacks of opportunity normally from any creature she doesn't attack.",
 			"",
 			"This deed replaces the bleeding wound deed."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"daring_infiltrator": {
 		"name": "Daring Infiltrator",
@@ -141,8 +138,7 @@
 			"**Silence Is Golden (Ex):** At 3rd level, when a daring infiltrator with at least 1 panache point succeeds at a trip or grapple combat maneuver check, the target is rendered mute for 1 round. For every 5 by which the result of the combat maneuver check exceeds the opponent's CMD, the target remains mute for an additional round. A mute creature cannot speak, use language-dependent effects or verbal components, or use command words. This deed replaces menacing swordplay.",
 			"",
 			"**Authoritative Bluff (Ex):** At 11th level, a daring infiltrator can spend 1 panache point to reroll a Bluff check after the roll is made but before the results are revealed. She must take the result of the second roll, even if it is lower. Additionally, a daring infiltrator with at least 1 panache point gains a +5 bonus on Bluff checks to pretend to be someone's superior (socially or in the military). If she succeeds at the check, the target obeys any reasonable orders she gives as it would those of an actual superior in the situation. This deed replaces bleeding wound."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"dashing_thief": {
 		"name": "Dashing Thief",
@@ -172,8 +168,7 @@
 			"**Swaying Charm Deed (Su):** A dashing thief eventually becomes truly irresistible. At 15th level, when a dashing thief successfully dazes a creature using her dazing charm deed, she can instead charm the target for 1 day (as per charm monster). Only one creature can be charmed this way at a time; if the dashing thief charms another creature this way, the first charm effect immediately ends.",
 			"",
 			"This ability replaces the dizzying defense deed."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"flying_blade": {
 		"name": "Flying Blade",
@@ -205,8 +200,7 @@
 			"Every 4 levels thereafter, the bonus on attack and damage rolls increases by 1, and the range increment increases by 5 feet. This ability replaces swashbuckler weapon training.",
 			"",
 			"**Flying Blade Mastery (Ex):** At 20th level, when an attack that a flying blade makes with a dagger or starknife threatens a critical hit, that critical hit is automatically confirmed. Furthermore, the critical modifiers of daggers and starknives increase by 1 (&times;2 becomes &times;3, and so on). This ability replaces swashbuckler weapon mastery."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"guiding_blade": {
 		"name": "Guiding Blade",
@@ -240,8 +234,7 @@
 			"Upon performing a successful redirection, if the guiding blade has at least 1 panache point, the guiding blade can, as an immediate action, make an attack against the creature whose attack she redirected, provided that creature is within reach. A guiding blade can't select opportune redirection and riposte as a signature deed.",
 			"",
 			"This deed replaces the kip-up deed."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"inspired_blade": {
 		"name": "Inspired Blade",
@@ -265,8 +258,7 @@
 			"**Rapier Training (Ex):** At 5th level, an inspired blade gains a +1 bonus on attack rolls and a +2 bonus on damage rolls with rapiers. While wielding a rapier, she gains the benefit of the Improved Critical feat. These attack and damage bonuses increase by 1 for every 4 levels beyond 5th (to a maximum of +4 on attack rolls and +5 on damage rolls at 17th level). This ability replaces swashbuckler weapon training.",
 			"",
 			"**Rapier Weapon Mastery (Ex):** At 20th level, when an inspired blade threatens a critical hit with a rapier, that critical hit is automatically confirmed. Furthermore, the critical threat range increases by 1 (this increase to the critical threat range stacks with the increases from rapier training, to a total threat range of 14-20), and the critical modifier of the weapon increases by 1 (&times;2 becomes &times;3, for example). This ability replaces swashbuckler weapon mastery."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"mouser": {
 		"name": "Mouser",
@@ -288,8 +280,7 @@
 			"**Hamstring (Ex):** At 7th level, as long as a mouser has at least 1 panache point when she hits a foe whose size is larger than her own with a light or one-handed piercing melee weapon, she can as a swift action attempt a dirty trick combat maneuver check. Instead of the normal conditions that can be applied with dirty trick, this deed can only stagger the target if the check is successful. This deed replaces targeted strike.",
 			"",
 			"**Cat's Charge (Ex):** At 11th level, as long as a mouser has at least 1 panache point, when she charges a foe whose size is larger than her own, the mouser can end her charge in any space she can reach, not just the closest space. All other requirements of the charge must still be satisfied. This deed replaces bleeding wound."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"musketeer": {
 		"name": "Musketeer",
@@ -307,8 +298,7 @@
 			"**Deed:** The musketeer gains the following deed, which replaces an existing deed.",
 			"",
 			"**Quick Clear (Ex):** At 1st level, as a standard action the musketeer can spend 1 panache point to remove the broken condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire. This deed replaces dodging panache."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"mysterious_avenger": {
 		"name": "Mysterious Avenger",
@@ -336,8 +326,7 @@
 			"At 10th, 15th, and 20th levels, these mysterious avenger's bonuses against a studied target increase by 1. In addition, at each such interval, a mysterious avenger is able to maintain these bonuses against an additional studied target at the same time. A mysterious avenger can discard this connection to a studied target as a free action, allowing her to study another target in its place.",
 			"",
 			"At 10th level, a mysterious avenger can study an opponent as a move or swift action. This ability replaces swashbuckler weapon training."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"noble_fencer": {
 		"name": "Noble Fencer",
@@ -367,8 +356,7 @@
 			"**Aristocratic Discipline (Ex):** At 2nd level, a noble fencer relies on his extremely honed training and discipline to protect his mind, rather than luck. The noble fencer gains a +1 bonus on Will saves against mind-affecting effects. This bonus increases by 1 at 6th level and every 4 swashbuckler levels thereafter.",
 			"",
 			"This ability replaces charmed life."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"okayo_corsair": {
 		"name": "Okayo Corsair",
@@ -412,8 +400,7 @@
 			"**Bonus Feats:** At 4th level, an Okayo corsair's swashbuckler levels are considered both fighter levels and monk levels for the purpose of meeting combat feat prerequisites.",
 			"",
 			"This alters the bonus feat class ability."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"picaroon": {
 		"name": "Picaroon",
@@ -437,8 +424,7 @@
 			"**Lightning Reload (Ex):** At 11th level, once per round the picaroon can spend 1 panache point to reload a single barrel of a one-handed firearm as a swift action. If she has the Rapid Reload feat or is using an alchemical cartridge, she can instead reload a single barrel of the weapon as a free action each round. Using this deed doesn't provoke attacks of opportunity. This deed replaces bleeding wound.",
 			"",
 			"**Two-Weapon Finesse (Ex):** A picaroon gains the benefits of the Weapon Finesse feat with light or one-handed piercing melee weapons. She also gains the effects of the Two-Weapon Fighting feat as long as she is wielding a light or one-handed piercing melee weapon in one hand and one-handed firearm in the other hand. This ability counts as having both the Weapon Finesse and Two-Weapon Fighting feats for the purposes of meeting feat requirements. This ability replaces swashbuckler finesse."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"rondelero_swashbuckler": {
 		"name": "Rondelero Swashbuckler",
@@ -464,8 +450,7 @@
 			"**Rondelero Flexibility (Ex):** At 6th level, as a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a buckler in the other can alternate between using his falcata and his buckler for each attack. This does not grant additional attacks or incur penalties as twoweapon fighting does, and does not cause her to lose his Armor Class bonus from her buckler.",
 			"",
 			"**Charmed Life (Ex):** A rondelero swashbuckler does not gain charmed life until 10th level, at which point he can use the ability only once per day. At 14th level and again at 18th level, he can use the ability an additional time per day. This ability alters charmed life."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"rostland_bravo": {
 		"name": "Rostland Bravo",
@@ -495,8 +480,7 @@
 			"This deed replaces bleeding wound.",
 			"",
 			"**Terror of the Great Wyrm (Ex):** At 15th level, the Rostland bravo can use her inevitable victory deed as part of a full attack or dragon's rage. If a creature demoralized in this way would be shaken for 3 or more rounds, the Rostland bravo can make the target frightened for 1 round before becoming shaken for the appropriate duration. This deed replaces swashbuckler's edge."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"shackles_corsair": {
 		"name": "Shackles Corsair",
@@ -516,8 +500,7 @@
 			"**Eyes of Abendego (Ex):** Every true Shackles captain dreams of winning the Free Captain's Regatta, and the wise begin training for it early. At 3rd level, whenever she has at least 1 panache point, a Shackles corsair can see three times as far as normal in nonmagical fog. In magical fog, she can see normally for 10 feet; after that, creatures and objects have partial concealment for the next 10 feet and total concealment thereafter. This deed replaces swashbuckler initiative.",
 			"",
 			"**Plunder (Ex):** A Shackles corsair knows she doesn't always need to win the fight-she just needs to get what she came for. At 7th level, as a full-round action she can make a single attack with a light or one-handed piercing melee weapon against a foe that is either shaken or denied its Dexterity bonus to AC. If the attack hits, the Shackles corsair also pilfers a small, loose item from her target as if she had succeeded at a Sleight of Hand or steal combat maneuver check. She doesn't need to attempt a Sleight of Hand check, but if she does so and surpasses the target's opposed Perception check, the target is unaware that the item is stolen. This deed replaces targeted strike."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"veiled_blade": {
 		"name": "Veiled Blade",
@@ -547,8 +530,7 @@
 			"Soul Veil (Sp) At 15th level, a veiled blade can merge a light or one-handed piercing melee weapon with herself, as if using the spell ghost brand, except that it takes only a swift action to manifest or store the weapon. This ability lasts until it is dispelled or until the veiled blade merges with a different light or one-handed piercing melee weapon.",
 			"",
 			"This deed replaces the swashbuckler's edge deed."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"whirling_dervish": {
 		"name": "Whirling Dervish",
@@ -572,8 +554,7 @@
 			"**Dance of Dawn (Ex):** At 11th level, whenever a whirling dervish is in conditions of dim light or brighter and hits with a melee attack, she can spend 1 panache point to reflect the light off her blade into the eyes of her target. That opponent is blinded for 1 round. A successful Fortitude save (DC = 10 + 1/2 the whirling dervish's class level + her Dexterity modifier) negates this effect. This deed replaces bleeding wound.",
 			"",
 			"**Dance of Mercy (Ex):** At 19th level, when a whirling dervish confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly stab. The target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the dervish's class level + her Dexterity modifier) or take an amount of nonlethal damage equal to its current hit points + 1, as well as becomes paralyzed for 1 hour. Performing this deed doesn't grant the swashbuckler a panache point. This deed replaces deadly stab."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	},
 	"wildstrider": {
 		"name": "Wildstrider",
@@ -601,7 +582,6 @@
 			"**Keen Gaze (Ex):** At 11th level, while a wildstrider has at least 1 panache point, she can ignore the miss chance from concealment (but not total concealment) caused by normal and magical fog, smoke, and undergrowth, but not other sources of concealment or a miss chance, such as blur.",
 			"",
 			"This deed replaces subtle blade."
-		],
-		"display": "archetype/swashbuckler"
+		]
 	}
 }

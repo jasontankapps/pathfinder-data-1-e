@@ -28,8 +28,7 @@
 			"### Destruction",
 			"",
 			"To destroy a bilious talisman, it must first be immersed in holy water for 1 week in an area under the effects of hallow and then smashed with a +3 holy warhammer (or a bludgeoning weapon of similar or greater power). While this destroys the talisman, it also frees the potent infernal noble bound within."
-		],
-		"display": "magic/devil_talismans"
+		]
 	},
 	"melancholic_talisman": {
 		"name": "Melancholic Talisman",
@@ -57,8 +56,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gate; **Cost** 25,000 gp"
-		],
-		"display": "magic/devil_talismans"
+		]
 	},
 	"sanguine_talisman": {
 		"name": "Sanguine Talisman",
@@ -86,7 +84,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
-		],
-		"display": "magic/devil_talismans"
+		]
 	}
 }

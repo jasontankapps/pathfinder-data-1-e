@@ -22,8 +22,7 @@
 			"**Smiting Aura (Su):** At 11th level, when an ally of the banishing warden is affected by her aura of justice, that ally can use banishing smite. This counts toward the banishing warden's number of uses per day and cannot be activated if the banishing warden has no uses of banishing smite remaining.",
 			"",
 			"This ability modifies aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"champion_of_the_cascade": {
 		"name": "Champion of the Cascade",
@@ -55,8 +54,7 @@
 			"At 10th level, as a swift action, she may spend 1 minute of her rising tide's duration to create a geyser in any body of water she has created, lifting an allied creature in that square up to 10 feet per paladin level into the air for 1 round.",
 			"",
 			"This replaces divine bond."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"chaos_knight": {
 		"name": "Chaos Knight",
@@ -87,8 +85,7 @@
 			"| 2 | The creature gains a sacred bonus on weapon damage rolls equal to the chaos knight's Charisma modifier. |",
 			"| 3 | The creature gains fast healing 2. This fast healing increases by 1 for every 3 levels the chaos knight has. |",
 			"| 4 | The creature gains an enhancement bonus to its movement speeds, adding 5 feet of movement for every 2 levels the chaos knight has (to a maximum of +40 feet). |"
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"chosen_one": {
 		"name": "Chosen One",
@@ -112,8 +109,7 @@
 			"**True Form (Ex):** At 7th level, a chosen one's familiar reveals its true form, transforming into an outsider improved familiar that matches the chosen one's patron's alignment (typically an arbiter, a cassisian, a harbinger, or a silvanshee, but potentially any lawful neutral, lawful good, or neutral good outsider familiar depending on the patron). The familiar gains the change shape universal monster ability if it doesn't already have it, which it can use at will to transform into its original form or back to its true form.",
 			"",
 			"**Emissary's Smite (Su):** At 11th level, a chosen one's familiar also benefits from the paladin's smite evil ability whenever the chosen one uses smite evil."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"combat_healer_squire": {
 		"name": "Combat Healer Squire",
@@ -129,8 +125,7 @@
 			"**Dress Wounds (Su):** At 2nd level, a combat healer squire can hastily dress a deadly wound for her knight, temporary alleviating his suffering. This ability acts in all ways like using the Heal skill to treat deadly wounds, except the combat healer squire only needs to take a fullround action to use this ability. The hit points healed are temporary, and only last 10 minutes, but they are not lost first like temporary hit points. A combat healer squire can only use this ability on her knight, not other creatures. A knight cannot benefit from this ability more than once per day, and cannot be treated for deadly wounds with the Heal skill within 24 hours of being subjected to this ability. This ability replaces divine grace.",
 			"",
 			"**Swift Healer (Ex):** At 3rd level, a combat healer squire becomes even more adept when treating wounds, and can use the Heal skill to perform first aid or treat poison as a swift action. This ability replaces divine health."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"divine_defender": {
 		"name": "Divine Defender",
@@ -146,8 +141,7 @@
 			"**Divine Bond (Su):** At 5th level, instead of forming a divine bond with her weapon or a mount, a divine defender can form a bond with her armor. As a standard action, a divine defender can enhance her armor by calling upon the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the armor to shed light like a torch. At 5th level, the spirit grants the armor a +1 enhancement bonus. For every three levels beyond 5th, the armor gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the armor, stacking with existing armor bonuses to a maximum of +3, or they can be used to add any of the following armor properties (asterisks note new armor properties found in Chapter 7): champion*, ghost touch, heavy fortification, invulnerability, light fortification, moderate fortification, spell resistance (13, 15, 17, or 19). Adding these properties consumes an amount of bonus equal to the property's cost (see Table 15-4 of the Core Rulebook). In addition, the bonuses can be consumed at the listed amount to add any of the following armor properties: energy resistance for +3 bonus, improved energy resistance for +5 bonus, or righteous* for +4 bonus. These bonuses are added to any properties the armor already has, but duplicate abilities do not stack. If the armor is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the armor is worn by anyone other than the divine defender, but it resumes giving bonuses if the divine defender dons the armor again. A divine defender can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.",
 			"",
 			"If a suit of armor with a celestial spirit is destroyed, the divine defender loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the divine defender takes a -1 penalty on attack and weapon damage rolls."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"divine_guardian": {
 		"name": "Divine Guardian",
@@ -167,8 +161,7 @@
 			"**Courageous Defense (Ex):** At 3rd level a divine guardian can intercept attacks directed at the target of her divine troth as if she had the Bodyguard and In Harm's Way feats. The divine guardian's aura of courage does not grant a bonus to allies within 10 feet, but still grants her immunity to fear effects. This ability modifies aura of courage.",
 			"",
 			"**Bonus Feat:** A divine guardian gains a bonus feat at 7th level, and additional bonus feats at 10th and 13th level. These bonus feats must be chosen from the following list: Diehard, Endurance, Greater Shield Focus, Greater Shield Specialization, Heroic Defiance, Heroic Recovery, Missile Shield, Ray Shield, Saving Shield, Shield Focus, Shield Specialization, or Tower Shield Proficiency. She must meet these feats' prerequisites, but for purposes of meeting the prerequisites of these bonus feats, she treats her paladin level as her fighter level, may use her Charisma score as her Dexterity score, and is considered to have the Spellbreaker feat."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"divine_hunter": {
 		"name": "Divine Hunter",
@@ -194,8 +187,7 @@
 			"**Righteous Hunter (Su):** At 14th level, a divine hunter's ranged weapons are treated as good-aligned for the purposes of overcoming damage reduction. Any ranged attacks made by an ally within 10 feet of her are likewise treated as good-aligned for the purposes of overcoming damage reduction.",
 			"",
 			"This ability functions only while the divine hunter is conscious. This ability replaces aura of righteousness."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"dusk_knight": {
 		"name": "Dusk Knight",
@@ -229,8 +221,7 @@
 			"**Clouding Smite (Su):** At 11th level, a dusk knight's smite impairs her foe's abilities in the dark. When a dusk knight successfully smites a foe, she reduces the target's darkvision by 60 feet for the duration of the smite. If the target has the see in darkness ability, it must succeed at a Fortitude save or lose this ability for the duration of the smite. The save DC is equal to 10 + 1/2 the dusk knight's paladin level + her Charisma modifier.",
 			"",
 			"This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"empyreal_knight": {
 		"name": "Empyreal Knight",
@@ -254,8 +245,7 @@
 			"**Divine Bond (Su):** At 5th level, an empyreal knight forms a bond with a mount, as the standard paladin ability. Her mount gains the celestial template at 8th level. At 12th level, her mount sprouts wings if it cannot already fly, and gains a fly speed of twice its land speed and good maneuverability. If the mount could already fly, its fly speed and maneuverability improve to at least this level. This ability otherwise functions as the paladin ability of the same name.",
 			"",
 			"**Empyreal Champion:** At 20th level, an empyreal knight transcends her mortal self. Her DR increases to 10/evil. Her type is treated as outsider for the purposes of spells and magical effects. She gains darkvision 60 feet and low-light vision. As a standard action and a supernatural ability, she can sprout wings that allow her to fly at twice her land speed with average maneuverability. Any armor or clothing reshapes to allow her to fly when she uses this ability. She can retract the wings as a free action. Unlike other outsiders, an empyreal knight can still be brought back from the dead as if she were a member of her previous creature type. This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"faithful_wanderer": {
 		"name": "Faithful Wanderer",
@@ -281,8 +271,7 @@
 			"**Champion's Bond (Su):** At 5th level, a faithful wanderer must choose the weapon option of her divine bond class feature. At 20th level, whenever her divine bond is active, she gains several additional benefits, as follows: Her DR improves to 5/-. Additionally, if she rolls a natural 20 on an attack roll against an evil outsider and confirms the critical hit, the outsider is also subject to banishment, using the faithful wanderer's paladin level as the caster level (her weapon and holy symbol automatically count as objects that the subject hates). Finally, whenever she uses lay on hands to heal herself, she heals the maximum possible amount of hit points.",
 			"",
 			"This alters divine bond and replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"forest_preserver": {
 		"name": "Forest Preserver",
@@ -322,8 +311,7 @@
 			"**Aura of Preservation (Su):** At 14th level, a forest preserver grants animals and plants within 10 feet spell resistance equal to 11 + her paladin level. This spell resistance doesn't apply against harmless effects created by the forest preserver or allies within 10 feet of her. This ability functions only if the forest preserver is conscious.",
 			"",
 			"This replaces aura of faith."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"forgefather's_seeker": {
 		"name": "Forgefather's Seeker",
@@ -355,8 +343,7 @@
 			"**Forgefather's Champion (Su):** At 20th level, a Forgefather's seeker becomes capable of completely dismantling constructs. Her DR increases to 10/evil. Whenever she uses smite construct and hits a construct, she can immediately attempt to destroy the construct. The construct is reduced to 0 hit points and destroyed unless it succeeds at a Will save (DC = 10 + half the Forgefather's seeker's level + the Forgefather's seeker's Charisma modifier). After this destruction effect and the damage from the attack is resolved, the smite immediately ends. In addition, whenever a Forgefather's seeker channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount.",
 			"",
 			"This replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"ghost_hunter": {
 		"name": "Ghost Hunter",
@@ -372,8 +359,7 @@
 			"**Exorcise Possession (Su):** At 6th level, a ghost hunter can try to end any possession spells or effects, or effects that directly exercise mental control over a creature. She must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and expend a use of her lay on hands ability. The target can immediately attempt a Will save against the original save DC of the controlling effect. If the save is successful, the effect immediately ends, as if the target had succeeded at its original saving throw. This ability replaces the 6th-level mercy.",
 			"",
 			"**Speak to the Restless (Sp):** At 9th level, a ghost hunter can commune with the spirits of the restless dead once per day. By holding a seance for 10 minutes, she can ask questions of a destroyed undead or a neutralized or destroyed haunt. To use this ability on a corporeal undead, the ghost hunter must have the creature's head in her possession. For a haunt or incorporeal undead, this seance must be held in the haunt's location or where the incorporeal undead was destroyed. Treat this ability as speak with haunt or as speak with dead (but affecting only undead rather than only corpses), using the ghost hunter's class level as the caster level. This ability replaces the 9th-level mercy."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"gray_paladin": {
 		"name": "Gray Paladin",
@@ -411,8 +397,7 @@
 			"**Aura of Subtlety (Sp, Su):** At 11th level, a gray paladin learns how to protect herself from detection. She and her allies within 10 feet gain a +4 morale bonus on saving throws against divination effects. Furthermore, casters of divinations that target the gray paladin or her nearby allies must succeed at a caster level check as though the gray paladin and her nearby allies were under the effect of a nondetection spell cast by the gray paladin, with a caster level equal to the gray paladin's paladin level. This ability functions while the gray paladin is conscious and while she is sleeping, but not if she is unconscious for any other reason, or dead.",
 			"",
 			"This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"holy_guide": {
 		"name": "Holy Guide",
@@ -428,8 +413,7 @@
 			"**Favored Terrain (Ex):** At 3rd level, a holy guide chooses a favored terrain from the ranger favored terrains table. This otherwise functions like the ranger ability of the same name. This ability replaces the mercy gained at 3rd level. Every time a holy guide would be able to select another mercy, he can instead select another favored terrain and increase his bonuses for one existing favored terrain, just like a ranger.",
 			"",
 			"**Teamwork Feat (Ex):** At 6th level, a holy guide gains a teamwork feat as a bonus feat. He must meet the prerequisites for this feat. As a standard action, He can expend one use of smite evil to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies. This ability replaces the mercy gained at 6th level."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"holy_gun": {
 		"name": "Holy Gun",
@@ -453,8 +437,7 @@
 			"**Holy Grit (Ex):** At 11th level, a holy gun gains a number of grit points equal to her Charisma modifier (minimum 1) and gains the use of a single gunslinger deed. She can select any deed that a gunslinger of her paladin level -4 could use. At 14th level, and every three levels beyond 14th, the holy gun gains another point of grit and another gunslinger deed that a gunslinger of her level -4 could use. If she already has levels in gunslinger, she gains a bonus to the maximum amount of grit she can have each day, equal to her Charisma bonus (if any) but gains no extra grit as the start of each day.",
 			"",
 			"**Holy Slinger (Ex):** This ability function like the holy champion paladin class feature, but the banishment occurs when she hits an evil outsider with the smiting shot deed."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"holy_tactician": {
 		"name": "Holy Tactician",
@@ -480,8 +463,7 @@
 			"**Weal's Wrath (Su):** At 11th level, a tactician can expend two uses of her weal's champion ability at once to enhance its effects. This functions as weal's champion, except the bonus she provides to her allies lasts until each creature she strikes is slain, her weal's champion ability expires, or the paladin herself is slain or knocked unconscious, whichever happens first. This ability replaces aura of justice.",
 			"",
 			"**Masterful Presence (Su):** At 20th level, a tactician gains the ability to grant a different bonus feat to each ally affected by her battlefield presence. In addition, all critical threats made by her and her allies against creatures affected by her weal's champion ability are automatically confirmed (no confirmation roll is needed). This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"hospitaler": {
 		"name": "Hospitaler",
@@ -497,8 +479,7 @@
 			"**Channel Positive Energy (Su):** When a hospitaler reaches 4th level, she gains the ability to channel positive energy as a cleric equal to her paladin level -3. She can use this ability a number of times per day equal to 3 + her Charisma modifier. Using this ability does not expend uses of lay on hands, as it does with other paladins. This replaces the standard paladin's channel positive energy ability.",
 			"",
 			"**Aura of Healing (Su):** At 11th level, a hospitaler can expend one use of her channel positive energy ability to emit a 30-foot aura of healing for a number of rounds equal to her paladin level. Allies in this aura (including the hospitaler) automatically stabilize if below 0 hit points and are immune to bleed damage. In addition, allies (including the paladin) that spend at least 1 full round inside the aura are healed an amount of damage equal to their total number of Hit Dice and may make a saving throw against any afflictions they are suffering from, such as a curse, disease, or poison. This saving throw only counts toward curing the affliction and does not impose any penalty on a failed save. Allies can only be healed once by a use of this ability and they can only attempt additional saving throws once per day, even if they are exposed to this aura multiple times. This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"hunting_paladin": {
 		"name": "Hunting Paladin",
@@ -538,8 +519,7 @@
 			"**Tireless Aura (Su):** At 8th level, a hunting paladin becomes immune to fatigue and sleep effects, and allies within 10 feet gain a +4 bonus on saving throws to avoid becoming fatigued or falling asleep.",
 			"",
 			"This replaces aura of resolve."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"invigorator": {
 		"name": "Invigorator",
@@ -567,8 +547,7 @@
 			"**Champion of Life (Sp):** An invigorator's holy resolve can sometimes overcome death-or smite the horror that is undeath. At 20th level, three times per day as a standard action, an invigorator can use breath of life as a spell-like ability, using her paladin level as her caster level. Creatures brought back to life with this ability do not suffer the normal temporary negative level the spell imposes.",
 			"",
 			"This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"iomedaen_enforcer": {
 		"name": "Iomedaen Enforcer",
@@ -598,8 +577,7 @@
 			"**Armor of Law (Su):** When an enforcer gains damage reduction from aura of righteousness, it is DR 5/chaos instead of DR 5/evil. When that DR increases from the holy champion class feature, it increases to DR 10/chaos.",
 			"",
 			"This ability alters the aura of righteousness and holy champion class features."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"iroran_paladin": {
 		"name": "Iroran Paladin",
@@ -629,8 +607,7 @@
 			"**Divine Body (Su):** Upon reaching 5th level, an Iroran paladin must form a bond with a weapon, except he can only choose to enhance his unarmed strike. This ability otherwise functions as and replaces divine bond.",
 			"",
 			"**Aura of Perfection (Su):** At 11th level, whenever an Iroran paladin or ally within 10 feet would reroll a die and take the second result even if it is lower (via the good fortune ability of the Luck domain, for example), he can roll an additional die as part of the reroll and use the higher of the two as the result of the reroll. This ability functions only while the Iroran paladin is conscious, and replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"knight_of_coins": {
 		"name": "Knight of Coins",
@@ -666,8 +643,7 @@
 			"- The target can treat one settlement as being one size category larger for the purposes of determining available magic items. The target must choose the affected settlement when the knight of coins bestows this blessing.",
 			"",
 			"This replaces the mercies gained at 3rd, 9th, and 15th levels."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"kraken_slayer": {
 		"name": "Kraken Slayer",
@@ -693,8 +669,7 @@
 			"**Aura of Elusion (Su):** At 14th level, a kraken slayer gains a sacred bonus equal to her kraken slayer level on Escape Artist checks and combat maneuver checks to escape a grapple and to her CMD to avoid being grappled. Each ally within 10 feet of her gains a sacred bonus equal to half her kraken slayer level on Escape Artist checks and combat maneuver checks to escape a grapple and to CMD to avoid being grappled. This ability functions only while the paladin is conscious, not if she is unconscious or dead.",
 			"",
 			"This ability replaces aura of faith."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"legate": {
 		"name": "Legate",
@@ -708,8 +683,7 @@
 			"**Celestial Armor (Sp):** At 3rd level, a legate can conjure armor as a standard action. This ability acts as the spell instant armor (Pathfinder RPG Advanced Player's Guide 229), using her paladin level as her caster level, except as follows. At 6th level and every 3 paladin levels thereafter, the armor gains an additional +1 enhancement bonus. These bonuses can be used to add any of the following armor special abilities: champion, fortification (heavy, light, or medium), invulnerability, or spell resistance (13, 15, 17, or 19). In addition, the legate can grant her armor the energy resistance special ability at the cost of a +3 bonus, the improved energy resistance special ability at the cost of a +5 bonus, or the righteous special ability at a cost of a +4 bonus. The armor must have least a +1 enhancement bonus before any special abilities can be added. The bonus and special abilities granted are determined when this ability is used and cannot be changed until this ability is used again. If the legate has a steed bond and is riding her steed, she can include her steed when summoning celestial armor, granting the steed barding with the same bonuses and special abilities as her own. The legate can use this ability a number of times per day equal to her Wisdom bonus plus half her paladin level.",
 			"",
 			"This ability replaces mercy."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"martyr": {
 		"name": "Martyr",
@@ -739,8 +713,7 @@
 			"**Martyr's Mercy (Su):** At 3rd level, a martyr can apply any of the mercies for which he qualifies based on his paladin level to his lay on hands, even if he didn't select that mercy (or its prerequisites). However, when he uses a mercy he didn't select, he transfers the condition to himself for the remaining duration (ignoring any immunity he might have to the condition), and he can't use this ability if he already has that condition. If he transfers a condition to himself in this way, he can't remove it from himself with a personalonly ability. The martyr can use lay on hands on any ally within 30 feet, rather than needing to touch the ally, but using lay on hands on himself is a standard action, not a swift action.",
 			"",
 			"This ability alters lay on hands and mercy."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"mind_sword": {
 		"name": "Mind Sword",
@@ -756,8 +729,7 @@
 			"**Touch Treatment (Su):** At 3rd level, a mind sword can expend one use of her mind arsenal ability to remove minor harmful mental conditions, as per the mesmerist touch treatment class feature (Pathfinder RPG Occult Adventures 43). At 9th level, she can remove moderate conditions, and at 15th level, she can remove major conditions. This ability replaces mercy.",
 			"",
 			"**Spells:** A mind sword adds the following psychic spells to her paladin spell list at the listed spell levels: 1st-detect psychic significance, mage hand, telekinetic projectile, thought shield I; 2nd-apport object, enshroud thoughts, mental barrier I, thought shield II; 3rd-intellect fortress I, mental barrier II, telekinetic maneuver, thought shield III; 4th-intellect fortress II, telekinesis, thought shield IV, thoughtsense, tower of iron will I. The mind sword can prepare and cast these psychic spells as divine paladin spells. However, the mind sword cannot use these spells for item creation, including making potions or scrolls of these spells. This ability replaces channel positive energy."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"pearl_seeker": {
 		"name": "Pearl Seeker",
@@ -789,8 +761,7 @@
 			"Size Large; Speed 5 ft., swim 80 ft.; AC +4 natural armor; Attack bite (1d6), tail slap (1d4; secondary attack); Ability Scores Str 18, Dex 13, Con 15, Int 2, Wis 12, Cha 11; Special Qualities darkvision 60 ft., low-light vision, scent, water dependency.",
 			"",
 			"This ability alters divine bond and replaces channel positive energy."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"redeemer": {
 		"name": "Redeemer",
@@ -810,8 +781,7 @@
 			"**Aura of Mercy (Su):** At 11th level, a redeemer can expend two uses of her merciful smite ability to grant the merciful smite ability to all allies within 10 feet, using her bonuses. Allies must use this merciful smite ability by the start of the paladin's next turn and the bonuses last for 1 minute. Using this ability is a free action. Evil creatures gain no benefit from this ability. This replaces aura of justice.",
 			"",
 			"**Associates:** A redeemer may ally with an evil creature as long as she feels the creature is capable of redemption. A redeemer may accept henchmen, followers, or cohorts who are not lawful good provided they demonstrate they are willing to follow her and seek betterment under her tutelage."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"sacred_servant": {
 		"name": "Sacred Servant",
@@ -831,8 +801,7 @@
 			"If a holy symbol with a celestial spirit is destroyed, the sacred servant loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the sacred servant takes a -1 penalty on attack and weapon damage rolls.",
 			"",
 			"**Call Celestial Ally (Sp):** At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast lesser planar ally once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to planar ally and at 16th level, this improves to greater planar ally. The sacred servant's caster level for this effect is equal to her paladin level. This ability replaces aura of resolve."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"sacred_shield": {
 		"name": "Sacred Shield",
@@ -854,8 +823,7 @@
 			"**Improved Bastion:** At 11th level, the radius of a sacred shield's bastion of good ability increases to 20 feet. This ability replaces the paladin's aura of justice.",
 			"",
 			"**Perfect Bastion:** At 20th level, a sacred shield and her allies within 20 feet gain regeneration 10 against the target of her bastion of good ability (essentially regeneration that is overcome by any damage not caused by the target). This ability replaces the sacred shield's holy champion ability."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"scion_of_talmandor": {
 		"name": "Scion of Talmandor",
@@ -887,8 +855,7 @@
 			"**Talmandor's Gift (Sp):** At 11th level, a scion of Talmandor can summon an avoral agathion (Pathfinder RPG Bestiary 2 16) as if via summon monster VII (caster level equals the scion's character level).",
 			"",
 			"This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"shining_knight": {
 		"name": "Shining Knight",
@@ -904,8 +871,7 @@
 			"**Divine Bond (Su):** Upon reaching 5th level, a shining knight must form a bond with a mount. This ability otherwise functions as the paladin ability.",
 			"",
 			"**Knight's Charge (Su):** At 11th level, whenever a mounted shining knight charges a foe, her movement does not provoke attacks of opportunity, for either her or her mount. In addition, if her target is also the target of her smite evil ability and the charge attack hits, the target must make a Will save or be panicked for a number of rounds equal to 1/2 the shining knight's level. The DC of this save is equal to 10 + 1/2 the shining knight's level + the shining knight's Charisma modifier. This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"silver_champion": {
 		"name": "Silver Champion",
@@ -931,8 +897,7 @@
 			"**:** The silver champion does not have access to the normal paladin spell list. She instead adds the 1stthrough 4th-level spells from the domains granted by Apsu (Artifice, Good, Law, Scalykind, Travel) and the god's associated subdomains (Archon, Construct, Dragon, Exploration, Toil, and Trade) to her class spell list. A silver champion casts one fewer spell of each level than normal. If this reduces the number to less than 0, she can't cast spells of that level.",
 			"",
 			"This ability modifies the paladin's spellcasting."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"soul_sentinel": {
 		"name": "Soul Sentinel",
@@ -954,8 +919,7 @@
 			"**Greater Reprieve (Su):** The soul sentinel suppresses the stain of corruption on the spirits of those she heals. At 12th level, whenever she uses her lay on hands ability to heal a living creature (other than herself ) or damage an undead creature, in place of applying one of her other mercies, she can suppress the stain from a corrupted creature's most recent manifestation for 1 minute (for more information about corruption and manifestations, see page 14). Any gift from that manifestation is unaffected and remains available, unless the manifestation has a special note requiring the gift and stain be taken together, in which case greater reprieve also suppresses the gift.",
 			"",
 			"This replaces the mercy gained at 12th level."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"stonelord": {
 		"name": "Stonelord",
@@ -985,8 +949,7 @@
 			"**Mobile Defense (Ex):** At 18th level, a stonelord can make one 5-foot step per round while maintaining her defensive stance. This ability replaces her 18th-level mercy.",
 			"",
 			"**Stone Body (Ex):** At 20th level, a stonelord's body transforms into living stone. She no longer needs to eat, drink, breathe, or sleep, and she becomes immune to paralysis, poison, and stunning. She is also no longer subject to critical hits or precision-based damage. This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"sword_of_valor": {
 		"name": "Sword of Valor",
@@ -1004,8 +967,7 @@
 			"**Prayer of the Fourth Act (Su):** At 6th level, by spending 1 minute leading a prayer to Iomedae, the sword of valor can spend one use of channel energy to give living creatures in the channel burst temporary hit points equal to the amount that ability normally heals. These temporary hit points last for no more than 1 hour. This replaces the paladin's mercy gained at 6th level.",
 			"",
 			"**Worthy Enemy (Su):** At 11th level, when a sword of valor critically hits an enemy with a smite, the target must make a Will saving throw (DC = 10 + 1/2 the paladin's level + the paladin's Charisma bonus) or be compelled to surrender to the paladin, as if affected by a suggestion spell (CL = the paladin's level) to lay down arms and give up the fight. An enemy that succumbs to this ability remains docile until it is injured by the paladin or one of his obvious allies, at which point the compulsion to surrender immediately ends and the enemy is free to make his own choices again. If the enemy makes the save, it is not subject to this ability for 24 hours. Worthy enemy is a mind-affecting effect. This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"tempered_champion": {
 		"name": "Tempered Champion",
@@ -1021,8 +983,7 @@
 			"In addition, the 4th-level tempered champion gains the increased base weapon damage of the warpriest's sacred weapon ability at her tempered champion level. This ability replaces spellcasting.",
 			"",
 			"**Divine Bond (Su):** At 5th level, a tempered champion must select a weapon for her divine bond. If she is out of daily uses, she can expend a use of lay on hands to activate this ability."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"temple_champion": {
 		"name": "Temple Champion",
@@ -1038,8 +999,7 @@
 			"**Domain Granted Power:** At 4th level, a temple champion selects one domain granted by her deity (or a domain suitable for her ethos or goals, subject to GM approval). The temple champion gains the 1st-level granted power of that domain and uses her paladin level as her cleric level for determining the effects of that granted power. Any Wisdom-based aspects of that granted power instead use the temple champion's Charisma. The temple champion does not gain access to that domain's spell list.",
 			"",
 			"**Blessing (Su):** At 5th level, a temple champion gains the minor blessing (as the warpriest class feature) of the domain she selected at 4th level. She uses her paladin level as her warpriest level for determining the effects of that blessing. Any Wisdom-based aspects of that blessing instead use the temple champion's Charisma. At 11th level, she gains the major blessing of her chosen domain. This ability replaces divine bond and aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"tortured_crusader": {
 		"name": "Tortured Crusader",
@@ -1073,8 +1033,7 @@
 			"**Last Stand (Su):** At 11th level, a tortured crusader can spend an additional use of smite evil when declaring a smite to make it a last stand. The duration of last stand's benefits is only 1 minute (rather than 24 hours). However, the bonus damage from smite evil is doubled on every attack (this doesn't stack with the doubling if the smite's target is an evil outsider, undead, or evil dragon).",
 			"",
 			"This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"tranquil_guardian": {
 		"name": "Tranquil Guardian",
@@ -1098,8 +1057,7 @@
 			"**Waves of Peace (Su):** At 11th level, a tranquil guardian may expend 2 uses of her Touch of Serenity to affect each opponent within 5 feet of her with that effect. She does not need to touch the creature for the effect to take hold. This ability replaces aura of justice.",
 			"",
 			"**Apostle of Peace (Su):** At 20th level, a tranquil guardian's DR increases to 10/evil, and whenever she channels positive energy or uses lay on hands to heal, she heals the maximum possible amount. In addition, any creature struck by her Touch of Serenity, even if it saves, must make an additional Will save (DC 10 + 1/2 her tranquil guardian level + her Charisma modifier) the next time it tries to attack. If it fails this save, the attack (including spells or special abilities) automatically fails. This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"undead_scourge": {
 		"name": "Undead Scourge",
@@ -1115,8 +1073,7 @@
 			"**Aura of Life (Su):** At 8th level, an undead scourge emits a 10-foot aura of life around her that weakens undead creatures. Undead in this aura take a -4 penalty on Will saves made to resist positive energy. In addition, undead in this aura do not regain hit points from channeled negative energy. This ability replaces aura of resolve.",
 			"",
 			"**Undead Annihilation (Su):** At 11th level, an undead scourge can expend one use of her smite evil ability as a standard action and make a single melee attack against an undead creature. If this attack hits, the undead creature must make a Will save or be destroyed. The save DC is equal to 10 + 1/2 the undead scourge's level + the undead scourge's Charisma modifier. Undead with twice as many Hit Dice as the undead scourge are unaffected by this ability. If the attack misses, the smite evil is wasted without effect. This ability replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"vindictive_bastard": {
 		"name": "Vindictive Bastard",
@@ -1180,8 +1137,7 @@
 			"**Ultimate Vindication (Ex):** At 20th level, if a foe kills one of a vindictive bastard's allies or knocks the vindictive bastard unconscious (and she later regains consciousness), the vindictive bastard musters a vindictive fury. The next time she hits that foe within 1 minute, the vindictive bastard can channel the effects of a disintegrate spell through her weapon, using her paladin level as her effective caster level. Whether or not the target succeeds at its save against the disintegrate effect, it is immune to this ability for the next 24 hours.",
 			"",
 			"This replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"virtuous_bravo": {
 		"name": "Virtuous Bravo",
@@ -1217,8 +1173,7 @@
 			"**Bravo's Holy Strike (Su):** At 20th level, a virtuous bravo becomes a master at dispensing holy justice with her blade. When the virtuous bravo confirms a critical hit with a light or one-handed piercing melee weapon, she can choose one of the following three effects in addition to dealing damage: the target is rendered unconscious for 1d4 hours, the target is paralyzed for 2d6 rounds, or the target is slain. Regardless of the effect chosen, the target can attempt a Fortitude save. On a success, the target is instead stunned for 1 round (it still takes damage). The DC of this save is equal to 10 + 1/2 the virtuous bravo's paladin level + her Charisma modifier. Once a creature has been the target of a bravo's holy strike, regardless of whether or not it succeeds at the save, that creature is immune to that bravo's holy strike for 24 hours. Creatures that are immune to critical hits are also immune to this ability.",
 			"",
 			"This ability replaces holy champion."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"warrior_of_the_holy_light": {
 		"name": "Warrior of the Holy Light",
@@ -1242,8 +1197,7 @@
 			"At 20th level, the nimbus of light increases in size out to a range of 60 feet. In addition, all of its bonuses increase. The morale bonus to AC and on attack rolls, damage rolls, and saving throws against fear increases to +2. The amount of ability damage healed increases to 2d4. The energy resistance increases to 20 against one energy type. Finally, protection against critical hits increases to 50%.",
 			"",
 			"**Shining Light (Su):** At 14th level, a warrior of the holy light can unleash a 30-foot burst of pure, white light as a standard action. Evil creatures within this burst take 1d6 points of damage for every two paladin levels and are blinded for 1 round. Evil dragons, evil outsiders, and evil undead are blinded for 1d4 rounds on a failed save. A Reflex save halves this damage and negates the blindness. The DC of this save is equal to 10 + 1/2 the warrior of the holy light's level + the warrior of the holy light's Charisma modifier. Good creatures within this burst are healed 1d6 points of damage per two paladin levels and receive a +2 sacred bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round. A warrior of the holy light can use this ability once per day at 14th level plus one additional time per day at 17th and 20th levels. This ability replaces aura of faith."
-		],
-		"display": "archetype/paladin"
+		]
 	},
 	"wilderness_warden": {
 		"name": "Wilderness Warden",
@@ -1285,7 +1239,6 @@
 			"**Natural Shield (Su):** At 11th level, a wilderness warden can expend two daily uses of her natural defense ability to grant the benefits of that ability to all nonevil allies within 10 feet for 1 minute.",
 			"",
 			"This replaces aura of justice."
-		],
-		"display": "archetype/paladin"
+		]
 	}
 }

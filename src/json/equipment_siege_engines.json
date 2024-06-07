@@ -11,8 +11,7 @@
 			"",
 			"**Cost** 200 gp **Weight** 10 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"blast_shot": {
 		"name": "blast shot",
@@ -25,8 +24,7 @@
 			"",
 			"**Cost** 30 gp **Weight** 25 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"bomb": {
 		"name": "bomb",
@@ -39,8 +37,7 @@
 			"",
 			"**Cost** 600 gp **Weight** 30 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"chain_shot": {
 		"name": "chain shot",
@@ -53,8 +50,7 @@
 			"",
 			"**Cost** 50 gp **Weight** 30 lbs  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"defoliant_shot": {
 		"name": "defoliant shot",
@@ -69,8 +65,7 @@
 			"",
 			"**Cost** 300 gp **Weight** 20 lbs  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"entangling_bolt": {
 		"name": "entangling bolt",
@@ -85,8 +80,7 @@
 			"",
 			"**Cost** 50 gp **Weight** 25 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"liquid_ice": {
 		"name": "liquid ice",
@@ -99,8 +93,7 @@
 			"",
 			"**Cost** 400 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"plague_bundle": {
 		"name": "plague bundle",
@@ -113,8 +106,7 @@
 			"",
 			"**Cost** 80 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"rockwasp_bomb": {
 		"name": "rockwasp bomb",
@@ -127,8 +119,7 @@
 			"",
 			"**Cost** 2,000 gp **Weight** 100 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"smoke_shot": {
 		"name": "smoke shot",
@@ -141,8 +132,7 @@
 			"",
 			"**Cost** 250 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"ballista_net": {
 		"name": "ballista net",
@@ -155,8 +145,7 @@
 			"",
 			"**Cost** 75 gp **Weight** 15 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"flak": {
 		"name": "flak",
@@ -169,8 +158,7 @@
 			"",
 			"**Cost** 500 gp **Weight** 30 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"flechette_bolt": {
 		"name": "flechette bolt",
@@ -185,8 +173,7 @@
 			"",
 			"**Cost** 30 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"weighted_bolt": {
 		"name": "weighted bolt",
@@ -199,8 +186,7 @@
 			"",
 			"**Cost** 50 gp **Weight** 40 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"ballista,_light": {
 		"name": "ballista, light",
@@ -231,8 +217,7 @@
 			"**Damage** 6d8; **Critical** 19-20/&times;2; **Range** 100 ft.; **Type** B  ",
 			"**Crew** 5; **Aim** 3; **Load** 5; **Speed** 0 ft.  ",
 			"**Category** Direct-Fire (Gargantuan); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"light_ballista": {
 		"copyof": "ballista,_light"
@@ -250,14 +235,12 @@
 			"**Damage** 6d6; **Critical** &times;4; **Range** 100 ft.; **Type** B and P  ",
 			"**Crew** 2; **Aim** 1; **Load** 3; **Speed** 10 ft.  ",
 			"**Category** Direct-Fire (Large); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"ballista,_heavy": {
 		"name": "ballista, heavy",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_ballista",
-		"display": "equipsiege"
+		"copyof": "light_ballista"
 	},
 	"heavy_ballista": {
 		"copyof": "ballista,_heavy"
@@ -275,8 +258,7 @@
 			"**Damage** 8d6; **Critical** &times;4; **Range** 150 ft.; **Type** B and P  ",
 			"**Crew** 3; **Aim** 1; **Load** 3; **Speed** 0 ft.  ",
 			"**Category** Direct-Fire (Huge); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"cannon_fiend's_mouth": {
 		"copyof": "cannon,_fiend's_mouth"
@@ -294,8 +276,7 @@
 			"**Damage** 6d6; **Critical** -; **Range** -; **Type** fire  ",
 			"**Crew** 3; **Aim** 2; **Load** 5; **Speed** 10 ft.  ",
 			"**Category** Direct-Fire (Huge); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"manticore's_tail": {
 		"name": "manticore's tail",
@@ -310,14 +291,12 @@
 			"**Damage** 3d8; **Critical** 19-20/&times;2; **Range** see text; **Type** P  ",
 			"**Crew** 3; **Aim** 0; **Load** 4; **Speed** 0 ft.  ",
 			"**Category** Direct-Fire (Huge); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"ballista,_gate_breaker": {
 		"name": "ballista, gate breaker",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_ballista",
-		"display": "equipsiege"
+		"copyof": "light_ballista"
 	},
 	"ballista_gate_breaker": {
 		"copyof": "ballista,_gate_breaker"
@@ -335,8 +314,7 @@
 			"**Damage** 6d6; **Critical** -; **Range** -; **Type** fire  ",
 			"**Crew** 5; **Aim** 2; **Load** 6; **Speed** 0 ft.  ",
 			"**Category** Direct-Fire (Gargantuan); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"bombard,_light": {
 		"name": "bombard, light",
@@ -364,8 +342,7 @@
 			"**Damage** 9d6; **Critical** &times;4; **Range** 200 ft. (100 ft. min.); **Type** B and P  ",
 			"**Crew** 4; **Aim** 3; **Load** 5; **Speed** 0 ft.  ",
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"light_bombard": {
 		"copyof": "bombard,_light"
@@ -399,8 +376,7 @@
 			"**Damage** 8d6; **Critical** &times;2; **Range** 300 ft. (100 ft. min.); **Type** B  ",
 			"**Crew** 4; **Aim** 3; **Load** 3; **Speed** 0 ft.  ",
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"light_catapult": {
 		"copyof": "catapult,_light"
@@ -431,8 +407,7 @@
 			"**Damage** 8d6; **Critical** &times;2; **Range** 400 ft. (200 ft. min.); **Type** B  ",
 			"**Crew** 4; **Aim** 3; **Load** 3; **Speed** 0 ft.  ",
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"light_trebuchet": {
 		"copyof": "trebuchet,_light"
@@ -440,8 +415,7 @@
 	"bombard,_standard": {
 		"name": "bombard, standard",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_bombard",
-		"display": "equipsiege"
+		"copyof": "light_bombard"
 	},
 	"bombard_standard": {
 		"copyof": "bombard,_standard"
@@ -449,8 +423,7 @@
 	"catapult,_standard": {
 		"name": "catapult, standard",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_catapult",
-		"display": "equipsiege"
+		"copyof": "light_catapult"
 	},
 	"catapult_standard": {
 		"copyof": "catapult,_standard"
@@ -475,8 +448,7 @@
 			"**Damage** 3d10; **Critical** &times;4; **Range** 100 ft. (50 ft. min.); **Type** fire  ",
 			"**Crew** 3; **Aim** 2; **Load** 3; **Speed** 0 ft.  ",
 			"**Category** Indirect-Fire (Huge); **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"arrow_springal": {
 		"copyof": "springal,_arrow"
@@ -484,8 +456,7 @@
 	"springal,_rocket": {
 		"name": "springal, rocket",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "arrow_springal",
-		"display": "equipsiege"
+		"copyof": "arrow_springal"
 	},
 	"rocket_springal": {
 		"copyof": "springal,_rocket"
@@ -493,8 +464,7 @@
 	"trebuchet,_standard": {
 		"name": "trebuchet, standard",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_trebuchet",
-		"display": "equipsiege"
+		"copyof": "light_trebuchet"
 	},
 	"standard_trebuchet": {
 		"copyof": "trebuchet,_standard"
@@ -502,8 +472,7 @@
 	"bombard,_heavy": {
 		"name": "bombard, heavy",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_bombard",
-		"display": "equipsiege"
+		"copyof": "light_bombard"
 	},
 	"heavy_bombard": {
 		"copyof": "bombard,_heavy"
@@ -514,8 +483,7 @@
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "light_catapult",
-		"display": "equipsiege"
+		"copyof": "light_catapult"
 	},
 	"heavy_catapult": {
 		"copyof": "catapult,_heavy"
@@ -523,8 +491,7 @@
 	"trebuchet,_heavy": {
 		"name": "trebuchet, heavy",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "light_trebuchet",
-		"display": "equipsiege"
+		"copyof": "light_trebuchet"
 	},
 	"heavy_trebuchet": {
 		"copyof": "trebuchet,_heavy"
@@ -570,8 +537,7 @@
 			"**Damage** -; **Critical** -; **Range** -; **Type** -  ",
 			"**Crew** 0; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"colossal_assault_bridge": {
 		"copyof": "bridge,_assault,_colossal"
@@ -579,8 +545,7 @@
 	"bridge,_assault,_gargantuan": {
 		"name": "bridge, assault, gargantuan",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_assault_bridge",
-		"display": "equipsiege"
+		"copyof": "colossal_assault_bridge"
 	},
 	"gargantuan_assault_bridge": {
 		"copyof": "bridge,_assault,_gargantuan"
@@ -588,8 +553,7 @@
 	"bridge,_assault,_huge": {
 		"name": "bridge, assault, huge",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_assault_bridge",
-		"display": "equipsiege"
+		"copyof": "colossal_assault_bridge"
 	},
 	"huge_assault_bridge": {
 		"copyof": "bridge,_assault,_huge"
@@ -597,8 +561,7 @@
 	"bridge,_assault,_large": {
 		"name": "bridge, assault, large",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_assault_bridge",
-		"display": "equipsiege"
+		"copyof": "colossal_assault_bridge"
 	},
 	"large_assault_bridge": {
 		"copyof": "bridge,_assault,_large"
@@ -618,8 +581,7 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine",
 			"",
 			"**Note:** Marked as 'Large' based on the description given."
-		],
-		"display": "equipsiege"
+		]
 	},
 	"crushing_wheel": {
 		"name": "crushing wheel",
@@ -636,8 +598,7 @@
 			"**Damage** 4d6; **Critical** -; **Range** -; **Type** B  ",
 			"**Crew** 4; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"earthmaul": {
 		"name": "earthmaul",
@@ -654,8 +615,7 @@
 			"**Damage** 6d6; **Critical** -; **Range** -; **Type** B  ",
 			"**Crew** 3; **Aim** 0; **Load** 3; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"gallery,_colossal": {
 		"name": "gallery, colossal",
@@ -693,8 +653,7 @@
 			"**Damage** -; **Critical** -; **Range** -; **Type** -  ",
 			"**Crew** 18; **Aim** 0; **Load** 0; **Speed** 15 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"colossal_gallery": {
 		"copyof": "gallery,_colossal"
@@ -702,8 +661,7 @@
 	"gallery,_gargantuan": {
 		"name": "gallery, gargantuan",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_gallery",
-		"display": "equipsiege"
+		"copyof": "colossal_gallery"
 	},
 	"gargantuan_gallery": {
 		"copyof": "gallery,_gargantuan"
@@ -711,8 +669,7 @@
 	"gallery,_huge": {
 		"name": "gallery, huge",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_gallery",
-		"display": "equipsiege"
+		"copyof": "colossal_gallery"
 	},
 	"huge_gallery": {
 		"copyof": "gallery,_huge"
@@ -720,8 +677,7 @@
 	"gallery,_large": {
 		"name": "gallery, large",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_gallery",
-		"display": "equipsiege"
+		"copyof": "colossal_gallery"
 	},
 	"large_gallery": {
 		"copyof": "gallery,_large"
@@ -741,8 +697,7 @@
 			"**Damage** 2d8; **Critical** &times;4; **Range** -; **Type** S  ",
 			"**Crew** 4; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"ladder,_escalade,_gargantuan": {
 		"name": "ladder, escalade, gargantuan",
@@ -785,8 +740,7 @@
 			"**Damage** -; **Critical** -; **Range** -; **Type** -  ",
 			"**Crew** 8; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"gargantuan_ladder_escalade": {
 		"copyof": "ladder,_escalade,_gargantuan"
@@ -794,8 +748,7 @@
 	"ladder,_escalade,_colossal": {
 		"name": "ladder, escalade, colossal",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "gargantuan_ladder_escalade",
-		"display": "equipsiege"
+		"copyof": "gargantuan_ladder_escalade"
 	},
 	"colossal_ladder_escalade": {
 		"copyof": "ladder,_escalade,_colossal"
@@ -803,8 +756,7 @@
 	"ladder,_escalade,_huge": {
 		"name": "ladder, escalade, huge",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "gargantuan_ladder_escalade",
-		"display": "equipsiege"
+		"copyof": "gargantuan_ladder_escalade"
 	},
 	"huge_ladder_escalade": {
 		"copyof": "ladder,_escalade,_huge"
@@ -812,8 +764,7 @@
 	"ladder,_escalade,_large": {
 		"name": "ladder, escalade, large",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "gargantuan_ladder_escalade",
-		"display": "equipsiege"
+		"copyof": "gargantuan_ladder_escalade"
 	},
 	"large_ladder_escalade": {
 		"copyof": "ladder,_escalade,_large"
@@ -869,8 +820,7 @@
 			"**Damage** 10d6; **Critical** &times;3; **Range** -; **Type** B  ",
 			"**Crew** 40; **Aim** 0; **Load** 0; **Speed** 15 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"large_ram": {
 		"copyof": "ram,_large"
@@ -878,8 +828,7 @@
 	"ram,_colossal": {
 		"name": "ram, colossal",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "large_ram",
-		"display": "equipsiege"
+		"copyof": "large_ram"
 	},
 	"colossal_ram": {
 		"copyof": "ram,_colossal"
@@ -887,8 +836,7 @@
 	"ram,_gargantuan": {
 		"name": "ram, gargantuan",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "large_ram",
-		"display": "equipsiege"
+		"copyof": "large_ram"
 	},
 	"gargantuan_ram": {
 		"copyof": "ram,_gargantuan"
@@ -896,8 +844,7 @@
 	"ram,_huge": {
 		"name": "ram, huge",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "large_ram",
-		"display": "equipsiege"
+		"copyof": "large_ram"
 	},
 	"huge_ram": {
 		"copyof": "ram,_huge"
@@ -947,8 +894,7 @@
 			"**Damage** -; **Critical** -; **Range** -; **Type** -  ",
 			"**Crew** 48; **Aim** 0; **Load** 0; **Speed** 15 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine"
-		],
-		"display": "equipsiege"
+		]
 	},
 	"colossal_siege_tower": {
 		"copyof": "siege_tower,_colossal"
@@ -956,8 +902,7 @@
 	"siege_tower,_gargantuan": {
 		"name": "siege tower, gargantuan",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_siege_tower",
-		"display": "equipsiege"
+		"copyof": "colossal_siege_tower"
 	},
 	"gargantuan_siege_tower": {
 		"copyof": "siege_tower,_gargantuan"
@@ -965,8 +910,7 @@
 	"siege_tower,_huge": {
 		"name": "siege tower, huge",
 		"sources": [ "Ultimate Combat" ],
-		"copyof": "colossal_siege_tower",
-		"display": "equipsiege"
+		"copyof": "colossal_siege_tower"
 	},
 	"huge_siege_tower": {
 		"copyof": "siege_tower,_huge"
@@ -977,8 +921,7 @@
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "colossal_siege_tower",
-		"display": "equipsiege"
+		"copyof": "colossal_siege_tower"
 	},
 	"large_siege_tower": {
 		"copyof": "siege_tower,_large"

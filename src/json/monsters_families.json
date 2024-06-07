@@ -42,8 +42,7 @@
 			"- **Envisaging (Su)** Aeons communicate wordlessly, almost incomprehensibly. Caring little for the wants and desires of other creatures, they have no need to engage in exchanges of dialogue. Instead, aeons mentally scan beings for their thoughts and intentions, and then retaliate with flashes of psychic projections that emit a single concept in response to whatever the other being was thinking. The flash is usually a combination of a visual and aural stimulation, which displays how the aeon perceives future events might work out. For instance, an aeon seeking to raze a city communicates this concept to non-aeons by sending them a vivid image of the city crumbling to ash. An aeon's envisaging functions as a non-verbal form of telepathy. Aeons cannot read the thoughts of any creature immune to mind-affecting effects.",
 			"- **Extension of All (Ex)** Through an aeon's connection to the multiverse, it gains access to strange and abstruse knowledge that filters through all existence. Much of the knowledge is timeless, comprised of events long past, present, and potentially even those yet to come. Aeons gain a racial bonus equal to half their racial Hit Dice on all Knowledge skill checks. This same connection also binds them to other aeons. As a result, they can communicate with each other freely, over great distances as if using telepathy. This ability also works across planes, albeit less effectively, allowing the communication of vague impressions or feelings, not specific details or sights. Due to the vast scope of the aeon race's multiplanar concerns, though, even the most dire reports of a single aeon rarely inspire dramatic or immediate action.",
 			"- **Void Form (Su)** Though aeons aren't incorporeal, their forms are only a semi-tangible manifestation of something greater. An aeon's void form grants it a deflection bonus equal to 1/4 its Hit Dice (rounded down)."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"agathion": {
 		"name": "Agathion",
@@ -91,8 +90,7 @@
 			"- Lady Taramyth the Singing Flame (vulpinal)",
 			"- Sixlife the Violet Fury (silvanshee)",
 			"- Walks with Golden Stars (draconal)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"alghollthu": {
 		"name": "Alghollthu",
@@ -111,8 +109,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"angel": {
 		"name": "Angel",
@@ -172,8 +169,7 @@
 			"- +4 racial bonus on saves against poison.",
 			"- **Protective Aura (Su)** Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the angel. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals angel's HD). The defensive benefits from the circle are not included in an angel's statistics block.",
 			"- **Truespeech (Su)** All angels can speak with any creature that has a language, as though using a tongues spell (caster level equal to angel's Hit Dice). This ability is always active."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"archdevil": {
 		"name": "Archdevil",
@@ -198,8 +194,7 @@
 			"Below the ranks of true archdevils are Hell's infernal dukes. These infernal nobles have the potential for power equal to some of the archdevils, but without a layer of Hell under their rule, they cannot truly be counted the equal of an archdevil. An infernal duke can rise in power by gaining class levels, advancing in Hit Dice, gaining mythic ranks, undertaking a vile ritual, amassing a sufficiently large and devoted following, or, rarely, at the leave of their blasphemous lords. However, until Asmodeus sees fit to award an infernal duke its own layer of Hell (to replace a fallen archdevil or one being punished via demotion to infernal duke), such a devil is not itself an archdevil. It should be noted that as scions of law, infernal dukes and archdevils remain loyal to Asmodeus and Hell, though they might resort to trickery and subterfuge to bolster their own resources and reputations. Those who are not loyal are quickly and inevitably revealed as traitors and punished accordingly by the Prince of Darkness. There can be any number of infernal dukes in Hell, but as Asmodeus himself rules the ninth layer of Hell, only eight archdevils can exist at any one time.",
 			"",
 			"An archdevil can be contacted via [commune](spell/commune) or [contact other plane](spell/contact_other_plane), and can be conjured via a [gate](spell/gate) spell, but when so called, an archdevil is under no compulsion to come through the gate. Typically, an archdevil requires an enormous and significant offering or sacrifice before it deigns to answer a gate spell."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"archon": {
 		"name": "Archon",
@@ -246,8 +241,7 @@
 			"- +4 racial bonus on saves against poison.",
 			"- **Teleport (Sp)** Archons can use greater teleport at will, as the spell (caster level 14th), except that the creature can transport only itself and up to 50 pounds of carried objects.",
 			"- **Truespeech (Su)** All archons can speak with any creature that has a language, as though using a tongues spell (caster level 14th). This ability is always active."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"asura": {
 		"name": "Asura",
@@ -301,8 +295,7 @@
 			"- Rytara, Serpent of the Eastern Eye",
 			"- Taraksun, Awakener of Wrath",
 			"- Zurapadyn, the Beast Who Waits in Smoke"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"automaton": {
 		"name": "Automaton",
@@ -339,8 +332,7 @@
 			"Powering an automaton with a core other than its original core can cause a conflict with the consciousness stored within the body. The two different individuals may engage in a mental struggle as each attempts to wrest control of the body from the other. This usually leads to one individual consciousness overpowering the other, but it occasionally creates a new, shared consciousness wherein the two individuals meld to form a single new entity with shared memories.",
 			"",
 			"Removing an automaton core from a destroyed or willing automaton is a laborious and risky process that requires a number of hours equal to half the automaton's CR. After this time, the remover must attempt a Spellcraft check with a DC equal to 20 + the automaton's CR. On a success, the automaton core is removed and can be used normally. On a failed check, the removal attempt is unsuccessful and cannot be attempted again for 24 hours. Failing this check by more than 5 causes damage to the core and reduces its total number of spell points by 1. Returning a core to an inactive automaton's body to restore the creature requires another Spellcraft check with the same DC. If the consciousness in the body and the core are incompatible or unwilling to meld, the two attempt an opposed Charisma check. The winner of the opposed roll takes over as the dominant consciousness, but it may find itself opposed again later."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"azata": {
 		"name": "Azata",
@@ -385,8 +377,7 @@
 			"- Immunity to electricity and petrification.",
 			"- Resistance to cold 10 and fire 10.",
 			"- **Truespeech (Su)** All azatas can speak with any creature that has a language, as though using a tongues spell (caster level 14th). This ability is always active."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"baba_yaga's_rider": {
 		"name": "Baba Yaga's Rider",
@@ -420,8 +411,7 @@
 			"**Rider's Weapon (Su)** A Rider cannot be disarmed of his weapon. If the Rider is killed, his weapons melts away.",
 			"",
 			"**Weal or Woe (Su)** A Rider can bring harm or fortune to those judged. As a standard action, a Rider can bestow a curse (-2 penalty on attack rolls, saves, ability checks, and skill checks until the curse is removed) or a boon (+2 bonus on attack rolls, saves, ability checks, and skill checks for 24 hours). A targeted creature can resist the curse with a successful Will save. The save DC is Charisma-based."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"beheaded": {
 		"name": "Beheaded",
@@ -440,8 +430,7 @@
 			"**Source** [Bestiary 4](source/bestiary_4)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"behemoth": {
 		"name": "Behemoth",
@@ -474,8 +463,7 @@
 			"A behemoth's creation is not always the act of a cruel god seeking to inflict devastation on an innocent world-often, these monsters are created by good or neutral deities to serve as instruments of justice. Perhaps ironically, gods of a more lawful or civilized bent are the most apt to call up a behemoth, as gods of the natural world either aren't inclined to punish mortals at all, or would instead make use of natural disasters like earthquakes and storms to teach lessons to their wayward followers. While a single behemoth usually suffices, multiple creatures of this kind are sometimes visited upon a world. While it may be small solace, behemoths are incapable of procreation-regardless of the total number of behemoths active on a world at any one time, that number does not increase without the direct, vengeful intervention of a deity.",
 			"",
 			"Even societies that refrain from insulting the gods are not immune to the behemoth's wrath, for the gods rarely remove these beasts when their work is done. An ancient civilization destroyed by a behemoth may still harbor in its ruined heart a slumbering monster, waiting only for the right moment or a tragic accident to waken and ravage once again."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"blight": {
 		"name": "Blight",
@@ -507,8 +495,7 @@
 			"When a blight claims a territory, it often catches more than just animals, magical beasts, and plants in its domain. While it detests creatures with intellects, it still understands that such denizens of its domains can be useful agents in its campaign against civilization. Typically, a blight has little interest in or patience for less powerful creatures (as a general rule, this includes any creature with a CR equal to half the blight's CR or less), and these unfortunate denizens are usually the first to die after a blight claims a domain. It approaches more powerful denizens, however, with offers of alliance. Blights are both canny and sly; they understand that their innate spell-like abilities won't work on things like dragons, giants, powerful aberrations, undead, and the like, yet they also know that most such creatures can be bought-be it with promises of material wealth, opportunities to plunder a defeated enemy, or chances to gain power. Some blights even specialize in usurping a primitive tribe's religious center by convincing creatures that they are agents sent from their gods (such tactics work best on primitive tribes with few or no religious leaders, or tribes whose religious leaders have recently been slain in secret by the blight). Yet regardless of what a blight promises these creatures in return for their aid in attacking nearby pockets of civilization, in the end the blight always turns against its one-time allies. They are merely the last to fall to the hateful ooze's wrath, the final sacrifices to the creature's insatiable need to murder all thinking creatures it finds.",
 			"",
 			"Although the individual powers of the various categories of blight vary, all blights share certain features in common, including a thick layer of malleable protoplasm that provides significant natural armor, a host of glaring red eyes, and a shared suite of blight abilities (see the [Blight Subtype](unknown/blight_subtype) section). The blights presented on the following pages represent the most well-known of the species, but other, stranger variants may exist in remote regions."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"bore_worm": {
 		"name": "Bore Worm",
@@ -524,8 +511,7 @@
 			"**Source** [Pathfinder #117: Assault on Longshadow](source/pathfinder_#117_assault_on_longshadow)",
 			"",
 			"Bore worms are a vile breed of subterranean burrowing worm, attacking prey both in their Darklands home and, more rarely, on the planet's surface. Three major variants of the worms exist, each representing a different stage in the creature's long life cycle-the swarm, monarch, and empress stages."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"clockwork": {
 		"name": "Clockwork",
@@ -577,8 +563,7 @@
 			"Since clockwork creations are mostly mechanical and are at the mercy of their creator's adeptness with the technology, they are prone to the follies of human error. Loose bolts, improper programming, or lack of maintenance are all cause for malfunctions, errors that can range from minute energy leaks to deadly explosions. The most common cause of malfunction, however, is not imparted by the creator, but by the clockwork's destroyer. Creatures attacking the machine gradually unhinge screws and twist cogs with each landed blow, giving the clockwork a greater chance of backfire. Many combat clockworks are thus accompanied by clockwork servants-servitor clockworks that quickly and readily fix their mechanical allies in the heat of battle.",
 			"",
 			"In the earlier days of clockwork technology, many practical hindrances prevented rapid maturation of the devices. Clockwork machines were powered by inefficient, costly resources; however, the advent of arcane enchantment not only has allowed for greater precision in the crafting of gears and other key components, but has also opened up a wide new range of possibilities for defensive systems and offensive weaponry. Early attempts to combine clockwork with steam power or other nonmagical forms of energy tended to overcomplicate the already delicate machinery, and have long since been abandoned as a result. Whispers abound of an even more unusual category of clockwork that has solved this problem and has merged the complexities of steam power with the adaptability of magical energies, yet such exotic and unusual clockworks remain nothing more than rumors in most worlds at this time."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"colossus": {
 		"name": "Colossus",
@@ -611,8 +596,7 @@
 			"All colossi have two forms. The primary form resembles an immense humanoid, much like a larger golem. The second varies from type to type, but often serves to disguise the colossus as something more innocuous, as it can be difficult to conceal a 60-foot behemoth. Some colossi, however, can transform into terrible, inhuman forms that are even more powerful and destructive, forgoing any attempt at being subtle.",
 			"",
 			"Colossi can take many forms depending upon the materials used in their construction and the will of their individual creators. Creating a colossus is an ambitious undertaking, leading most creators to base their designs on lessons learned crafting lesser constructs. As a result, the best-known kinds of colossi are the flesh, stone, and iron varieties, corresponding to the most common and best-understood varieties of golem. Other varieties are possible, such as the clay colossus given life by divine secrets, the glacial colossus wrought of unmelting ice and frost, and the timber colossus built from still-living wood, which bears eerie powers over plants and creatures of the natural world."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"daemon": {
 		"name": "Daemon",
@@ -666,8 +650,7 @@
 			"Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the Four Horsemen of the Apocalypse. In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.",
 			"",
 			"Upon the poisonous expanses of Abaddon, lesser daemonic peers carve petty fiefdoms and posture as lords, but despite their world-spanning intrigues, all bow before the Horsemen-though most do so only grudgingly. Ancient myths also tell of a mysterious fifth Horseman, the Oinodaemon, though nearly all mention of such a creature has been scoured from the multiverse."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"dark_folk": {
 		"name": "Dark Folk",
@@ -688,8 +671,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"demodand": {
 		"name": "Demodand",
@@ -722,8 +704,7 @@
 			"Despite worshiping their masters like deities, all demodands are imbued with the same bitter hatred of the divine that cast their makers from the heavens. This heretical fervor makes them particularly resistant to divine magic in all its forms, and all demodands have a weaker form of their progenitors' godslayer ability. Demodands take particular pleasure in disrupting the link between gods and their servants, and on the rarest of occasions have let prospective victims live after such attacks, knowing that it was not just its enemy's power, but its very faith that was shaken.",
 			"",
 			"The only hatred that eclipses the demodands' loathing of demons and the religiously faithful is their fury at the celestial races. Within these vessels of divine power-angels above all others-the demodands see the incarnate form of all they were crafted to despise and destroy. Indeed, powerful individuals and evil cults alike who seek to destroy a good-aligned outsider often find that the payments they need to offer to enlist the services of even the mightiest of demodands are greatly reduced."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"demon": {
 		"name": "Demon",
@@ -805,8 +786,7 @@
 			"- Telepathy.",
 			"- Except where otherwise noted, demons speak Abyssal, Celestial, and Draconic.",
 			"- A demon's natural weapons, as well as any weapon it wields, is treated as chaotic and evil for the purpose of resolving damage reduction"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"demon_lord": {
 		"name": "Demon Lord",
@@ -851,8 +831,7 @@
 			"Each demon lord is a unique creature ranging in power from CR 26 to CR 30. Demon lords are generally beyond the reach of most mortal heroes, and should not be placed in an adventure without careful consideration. In most cases, they are best used as the final enemies of long campaigns-especially campaigns in which the PCs themselves are mythic characters-and even getting an audience with one should be a memorable event.",
 			"",
 			"Yet even if demon lords are far outside the abilities of most heroes to combat directly, they can still be used as foes in campaigns of all levels, inspiring or directing monsters, mortals, and entire cults. Opposing and defeating a cult is a time-honored plotline for a campaign, and a climactic encounter where the PCs must close a portal before the cult's demon lord manifests in the flesh can make an exciting capstone to a longrunning campaign, especially if the demon lord in question appears for a round or 2 to fight the PCs before the closing of the portal forces it back to the Abyss. Alternatively, rather than having the PCs face the demon lord at full power, you can build a campaign where the PCs systematically undermine and destroy a demon lord's resources, imposing increasing penalties on it and gathering potent weapons so that when the time comes for the final confrontation, the PCs are powerful and the demon lord is weakened to a state below its normal CR. An easy way to model weakening a demon in this manner is to assign negative levels to the demon-normally, a demon lord is immune to level drain, but in this case, the reduction of its resources and sources of power can bypass that immunity for a time... at least, until the demon lord can rebuild and recover."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"devil": {
 		"name": "Devil",
@@ -941,8 +920,7 @@
 			"- Telepathy.",
 			"- Except when otherwise noted, devils speak Celestial, Draconic, and Infernal.",
 			"- A devil's natural weapons, as well as any weapons it wields, are treated as lawful and evil for the purpose of resolving damage reduction."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"dinosaur": {
 		"name": "Dinosaur",
@@ -983,8 +961,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"div": {
 		"name": "Div",
@@ -1024,8 +1001,7 @@
 			"Ahriman's ultimate goal is oblivion. To aid him in his immortal plots he has spawned innumerable blasphemies over countless ages, but the corrupted genie spirts known as divs are his most numerous slaves. Ahriman and his minions delight in influencing mortals toward destructive decisions and the abandonment of wisdom. As ageless and patient as he is vicious, this force of ancient evil seeks to ease the world toward dissolution one failure at a time.",
 			"",
 			"A conniving demigod, Ahriman accepts the worship of evil mortals despite his and his minions' loathing of such beings. Clerics of Ahriman are either nihilists or deluded cultists who work to corrupt others, sow misfortune, and tear down the works of geniekind. Ahriman grants access to the domains of Darkness, Death, Destruction, and Evil. Ahriman's symbol is a black circle with a thin sliver of light overtaken by darkness, and his favored weapon is the whip."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"dragon_true": {
 		"name": "Dragon (True)",
@@ -1133,8 +1109,7 @@
 			"**Immunities (Ex):** Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.",
 			"",
 			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"true_dragon": {
 		"copyof": "dragon_true"
@@ -1187,8 +1162,7 @@
 			"**Swamp Stride (Ex)** A very young or older black dragon can move through bogs and quicksand without penalty at its normal speed.",
 			"",
 			"**Water Breathing (Ex)** A black dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"black_dragon": {
 		"copyof": "dragon_black"
@@ -1239,8 +1213,7 @@
 			"**Spell-Like Abilities (Sp)** A blue dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-ghost sound; Juvenile-minor image; Adult-ventriloquism; Old-hallucinatory terrain; Ancient-veil; Great wyrm-mirage arcana.",
 			"",
 			"**Storm Breath (Su)** An ancient or older blue dragon can use its breath weapon to create a storm of lightning. This functions as call lightning storm, but the damage is equal to the dragon's breath weapon. The dragon can call down 1 bolt per round as a free action for 1d6 rounds. The save DC is equal to the dragon's breath weapon DC. Additional uses of this ability extend the duration by an additional 1d6 rounds."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"blue_dragon": {
 		"copyof": "dragon_blue"
@@ -1273,8 +1246,7 @@
 			"**Spell-Like Abilities (Sp)** A brass dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Very young-speak with animals; Juvenile-endure elements; Adult-suggestion; Old-control winds; Ancient-control weather; Great wyrm-whirlwind.",
 			"",
 			"**Summon Djinni (Sp)** This ability, usable by a great wyrm brass dragon once per day, works like a summon monster spell, except that it summons one noble djinni. This ability is the equivalent of a 9th-level spell."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"brass_dragon": {
 		"copyof": "dragon_brass"
@@ -1310,8 +1282,7 @@
 			"",
 			"**Wave Mastery (Su)** For up to 10 minutes per age category per day, a juvenile bronze dragon, along with creatures or vessels within 50 feet, can move at twice its normal speed in water."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"bronze_dragon": {
 		"copyof": "dragon_bronze"
@@ -1347,8 +1318,7 @@
 			"",
 			"**Uncanny Dodge (Ex)** A young or older copper dragon is always looking out for an ambush. He can never be caught flat-footed. This ability functions like the rogue ability of the same name."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"copper_dragon": {
 		"copyof": "dragon_copper"
@@ -1485,8 +1455,7 @@
 			"| Huge | 200 ft. (poor) | 2d8 | 2d6 | 1d8 | 2d6 | 2d8 | - | 100 ft. | 50 ft. |",
 			"| Gargantuan | 250 ft. (clumsy) | 4d6 | 2d8 | 2d6 | 2d8 | 4d6 | 2d6 | 120 ft. | 60 ft. |",
 			"| Colossal | 250 ft. (clumsy) | 4d8 | 4d6 | 2d8 | 4d6 | 4d8 | 2d8 | 140 ft. | 70 ft. |"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"esoteric_dragon": {
 		"copyof": "dragon_esoteric"
@@ -1522,8 +1491,7 @@
 			"",
 			"**Weakening Breath (Su)** Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"gold_dragon": {
 		"copyof": "dragon_gold"
@@ -1560,8 +1528,7 @@
 			"",
 			"**Woodland Stride (Ex)** A very young or older green dragon can move through any sort of foliage at full speed without taking damage or suffering impairment. Areas of foliage that have been magically manipulated affect it normally."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"green_dragon": {
 		"copyof": "dragon_green"
@@ -1578,8 +1545,7 @@
 			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented here are the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
 			"",
 			"**Family:** [True Dragon](monster/family/true_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"imperial_dragon": {
 		"copyof": "dragon_imperial"
@@ -1625,8 +1591,7 @@
 			"**Stony Death (Su)** Any creature reduced to 0 or fewer hit points by a great wyrm forest dragon's breath weapon must also make a Fortitude save (same DC as the forest dragon's breath weapon) or be petrified as the flesh to stone spell. This is a death effect.",
 			"",
 			"**Woodland Stride (Ex)** As the druid ability of the same name."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"forest_dragon": {
 		"copyof": "dragon_imperial,_forest"
@@ -1670,8 +1635,7 @@
 			"**Torrent Breath (Su)** Instead of a cone of super-heated steam, a very young or older sea dragon can breathe a line of pressurized water twice the length of the sea dragon's cone breath weapon. This line deals bludgeoning damage.",
 			"",
 			"**Unfettered Swimmer (Su)** A juvenile sea dragon gains a 10-foot bonus to its swim speed. The sea dragon's swim speed continues to increase by an additional 10 feet every two age categories. Furthermore, while swimming, the sea dragon is treated as if under the effects of the spell freedom of movement."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"sea_dragon": {
 		"copyof": "dragon_imperial,_sea"
@@ -1717,8 +1681,7 @@
 			"**Grounding Breath (Su)** Any flying creature damaged by the breath weapon of an ancient or older sky dragon must make a Fortitude save with the same DC as the sky dragon's breath weapon or lose the ability to fly for 1d4 rounds.",
 			"",
 			"**Primal Lightning (Su)** An old or older sky dragon's breath weapon can affect creatures normally immune or resistant to electricity damage. A creature immune to electricity damage still takes half damage from the breath weapon (no damage with a successful saving throw). Resistant creatures' electricity resistance is treated as 10 less than normal."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"sky_dragon": {
 		"copyof": "dragon_imperial,_sky"
@@ -1762,8 +1725,7 @@
 			"**Master Counterspelling (Su)** A great wyrm sovereign dragon can counterspell once per round as an immediate action. It need not know the spell it is countering, but can instead expend any spell that is one level higher to automatically counter the spell.",
 			"",
 			"**Violent Retort (Ex)** When a young or older sovereign dragon takes damage from a melee attack critical hit, it can, as an immediate action, make a claw or tail slap attack against the creature that made the critical hit."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"sovereign_dragon": {
 		"copyof": "dragon_imperial,_sovereign"
@@ -1805,8 +1767,7 @@
 			"**Lava Eruption (Su)** As a full-round action, a great wyrm underworld dragon can burrow through the ground up to twice its burrow speed. At the end of that movement, if the underworld dragon has use of its breath weapon, it can emerge from the ground spouting lava in a 30-foot-radius burst, dealing damage as the breath weapon.",
 			"",
 			"**Smoke Vision (Ex)** A very young and older underworld dragon can see perfectly in smoky conditions (such as those created by pyrotechnics). Underworld Burrower (Ex) An adult underworld dragon gains a 10-foot bonus to its burrow speed. When the underworld dragon becomes old and every two age categories thereafter, its burrow speed increases by an additional 10 feet."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"underworld_dragon": {
 		"copyof": "dragon_imperial,_underworld"
@@ -1823,8 +1784,7 @@
 			"Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are generally neutral, but their alignments vary more than those of other dragons.",
 			"",
 			"**Family:** [True Dragon](monster/family/true_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"outer_dragon": {
 		"copyof": "dragon_outer"
@@ -1870,8 +1830,7 @@
 			"**Reflect Rays (Su)** Rays and ranged touch effects that strike an ancient or older lunar dragon but fail to overcome its spell resistance are reflected back at their source, using the original attack roll to determine whether they hit.",
 			"",
 			"**Reflected Light (Ex)** A very young or older lunar dragon can't be blinded or dazzled by bright light or patterns."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"lunar_dragon": {
 		"copyof": "dragon_outer,_lunar"
@@ -1915,8 +1874,7 @@
 			"**Channel Radiation (Su)** An old or older solar dragon can use its channel life ability to instead channel radiation that deals an equal amount of damage to living creatures. A living creature that succeeds at a Fortitude save takes half damage.",
 			"",
 			"**Primal Fire (Su)** A very young or older solar dragon's breath weapon can affect creatures normally immune or resistant to fire damage. A creature immune to fire damage still takes half damage from the breath weapon (no damage with a successful saving throw). A resistant creature's fire resistance is treated as 10 less than normal."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"solar_dragon": {
 		"copyof": "dragon_outer,_solar"
@@ -1962,8 +1920,7 @@
 			"**Second Chance (Su)** Three times per day as an immediate action, an ancient or older time dragon can force a creature (including itself) to reroll any d20 roll. The target must use the result of the second roll.",
 			"",
 			"**Time Travel (Su)** Up to three times in its life, a great wyrm time dragon can travel to any point in time, taking with it a number of willing creatures equal to its Charisma modifier."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"time_dragon": {
 		"copyof": "dragon_outer,_time"
@@ -2007,8 +1964,7 @@
 			"**Suffocating Breath (Su)** Instead of dealing cold damage, a very young or older void dragon can breathe a coneshaped suffocation effect. An air-dependent creature that fails its Fortitude save suffocates for a number of rounds equal to the dragon's age category. The save DC is Constitution-based.",
 			"",
 			"**Void Gaze (Su)** A creature within 30 feet of an adult or older void dragon must succeed at a Will save or become confused for 1d6 rounds. This gaze attack is a mind-affecting effect. The save DC is Charisma-based."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"void_dragon": {
 		"copyof": "dragon_outer,_void"
@@ -2052,8 +2008,7 @@
 			"**Fragmented Strike (Su)** An adult or older vortex dragon can strike with its bite through a rift in space. This allows it to make its bite attack against a target anywhere within the radius of its alien presence as long as the dragon can see the creature. This doesn't apply to attacks of opportunity.",
 			"",
 			"**Galactic Emissary (Su)** A young or older vortex dragon halves the time of any starflight journey. In addition, it's immune to any effect that bars extradimensional travel."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"vortex_dragon": {
 		"copyof": "dragon_outer,_vortex"
@@ -2073,8 +2028,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [True Dragon](monster/family/true_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"planar_dragon": {
 		"copyof": "dragon_planar"
@@ -2095,8 +2049,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"apocalypse_dragon": {
 		"copyof": "dragon_planar,_apocalypse"
@@ -2117,8 +2070,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"bliss_dragon": {
 		"copyof": "dragon_planar,_bliss"
@@ -2139,8 +2091,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"crypt_dragon": {
 		"copyof": "dragon_planar,_crypt"
@@ -2254,8 +2205,7 @@
 			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.",
 			"",
 			"**Spells:** A planar dragon knows and casts spells as per an [oracle](class/oracle) of the level indicated in its specific description. Its caster level depends on its age, as given for each type."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"edict_dragon": {
 		"copyof": "dragon_planar,_edict"
@@ -2276,8 +2226,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"havoc_dragon": {
 		"copyof": "dragon_planar,_havoc"
@@ -2298,8 +2247,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"infernal_dragon": {
 		"copyof": "dragon_planar,_infernal"
@@ -2320,8 +2268,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"paradise_dragon": {
 		"copyof": "dragon_planar,_paradise"
@@ -2342,8 +2289,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"rift_dragon": {
 		"copyof": "dragon_planar,_rift"
@@ -2364,8 +2310,7 @@
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
 			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"tumult_dragon": {
 		"copyof": "dragon_planar,_tumult"
@@ -2382,8 +2327,7 @@
 			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented on the following pages are the five primal dragons-powerful creatures that hail from the elemental planes and the Plane of Shadows.",
 			"",
 			"**Family:** [True Dragon](monster/family/true_dragon)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"primal_dragon": {
 		"copyof": "dragon_primal"
@@ -2425,8 +2369,7 @@
 			"**Painful Strikes (Su)** A great wyrm brine dragon's natural attacks are so laden with salt and acidic crystals that every time it strikes a creature with one of these attacks, the target must make a Fortitude save (DC equals the dragon's breath weapon save DC) or be stunned for a round from the pain.",
 			"",
 			"**Spell-like Abilities (Sp)** A brine dragon gains the following spell-like abilities, usable at will (unless indicated otherwise) at the listed age. Very young-speak with animals (fish only); Young-obscuring mist; Juvenile-water breathing; Adult-control water; Ancient-horrid wilting (3/day); Great wyrm-tsunami (3/day)."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"brine_dragon": {
 		"copyof": "dragon_primal,_brine"
@@ -2470,8 +2413,7 @@
 			"**Spell-Like Abilities (Sp)** A cloud dragon gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young-obscuring mist; Young-fog cloud; Adult-solid fog; Old-cloudkill (3/day); Ancient-wind walk; Great wyrm-storm of vengeance (1/day).",
 			"",
 			"**Thundering Bite (Su)** An ancient or older cloud dragon's bite makes a thundering crash whenever it attacks, dealing an additional 2d6 points of sonic damage. A great wyrm's thundering bite deals an additional 4d6 sonic damage."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"cloud_dragon": {
 		"copyof": "dragon_primal,_cloud"
@@ -2515,8 +2457,7 @@
 			"**Spell-Like Abilities (Sp)** A crystal dragon gains the following spell-like abilities, usable at will (unless indicated otherwise) upon reaching the listed age category. Very young-color spray; Juvenile-glitterdust; Adult-rainbow pattern; Old-stone to flesh (3/day); Ancient-prismatic spray (3/day); Great wyrm-imprisonment (1/day).",
 			"",
 			"**Tremorsense (Ex)** Crystal dragons do not gain tremorsense until juvenile age (30 ft.), improving at adult (60 ft.) and old (120 ft.)."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"crystal_dragon": {
 		"copyof": "dragon_primal,_crystal"
@@ -2558,8 +2499,7 @@
 			"**Spell-Like Abilities (Sp)** A magma dragon gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young-burning hands; Juvenile-scorching ray; Adult-wall of fire; Old-fire shield (warm shield, constant); Ancient-delayed blast fireball (3/day); Great wyrm-wall of lava.",
 			"",
 			"**Superheated (Su)** At young age and older, a magma dragon's bite attack deals additional fire damage equal to its age category."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"magma_dragon": {
 		"copyof": "dragon_primal,_magma"
@@ -2607,8 +2547,7 @@
 			"**Shadow Breath (Su)** Three times per day, an adult or older umbral dragon can breathe a cone of shadows. Creatures who fail a Fortitude save are blinded for 1d4 rounds and take 1 point of Str drain per age category possessed by the dragon. A successful save negates the blindness and reduces Str drain to 1d4 points.",
 			"",
 			"**Spell-Like Abilities (Sp)** An umbral dragon gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Young-darkness; Juvenile-vampiric touch; Adult-shadow walk; Old-project image; Ancient-finger of death (3/day), Great wyrm-shades. An umbral dragon can cast cleric spells as arcane spells."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"umbral_dragon": {
 		"copyof": "dragon_primal,_umbral"
@@ -2644,8 +2583,7 @@
 			"",
 			"**Spell-Like Abilities (Sp)** A red dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-detect magic; Juvenile-pyrotechnics; Adult-suggestion; Old-wall of fire; Ancient-find the path; Great wyrm-discern location."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"red_dragon": {
 		"copyof": "dragon_red"
@@ -2683,8 +2621,7 @@
 			"",
 			"**True Courage (Ex)** A great wyrm silver dragon can fight on through pain and death. When reduced to below 0 hit points, it remains conscious, automatically stabilizes, and can continue to act (although it is staggered). If it takes damage or is the target of a spell that causes its death, it remains alive for 1 round and can act normally (it is not staggered for this final round)."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"silver_dragon": {
 		"copyof": "dragon_silver"
@@ -2723,8 +2660,7 @@
 			"",
 			"**Spell-Like Abilities (Sp)** A white dragon gains the following spell-like abilities usable at will upon reaching the listed age category. Juvenile-fog cloud; Young adult-gust of wind; Ancient-wall of ice; Great wyrm-control weather."
 
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"white_dragon": {
 		"copyof": "dragon_white"
@@ -2753,8 +2689,7 @@
 			"**Source** [Bestiary 2](source/bestiary_2)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"elemental": {
 		"name": "Elemental",
@@ -2779,8 +2714,7 @@
 			"- Elementals do not breathe, eat, or sleep.",
 			"",
 			"Other elementals also exist: [aether](monster/family/aether_elemental), [ice](monster/family/ice_elemental), [lightning](monster/family/lightning_elemental), [magma](monster/family/magma_elemental), and [mud](monster/family/mud_elemental)."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"elemental_aether": {
 		"name": "Elemental (Aether)",
@@ -2817,8 +2751,7 @@
 			"**Telekinetic Deflection (Su)** An aether elemental gains a deflection bonus to its AC equal to its Constitution modifier.",
 			"",
 			"**Telekinetic Maneuver (Su)** An aether elemental can attempt a ranged combat maneuver check, as per [telekinesis](spell/telekinesis), with a CMB equal to its Hit Dice + its Dexterity modifier."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"aether_elemental": {
 		"copyof": "elemental_aether"
@@ -2862,8 +2795,7 @@
 			"**Special Abilities**",
 			"",
 			"**Air Mastery (Ex)** Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"air_elemental": {
 		"copyof": "elemental_air"
@@ -2907,8 +2839,7 @@
 			"**Earth Glide (Ex)** A burrowing earth elemental can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing earth elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
 			"",
 			"**Earth Mastery (Ex)** An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"earth_elemental": {
 		"copyof": "elemental_earth"
@@ -2954,8 +2885,7 @@
 			"**Environment** any (Plane of Fire)  ",
 			"**Organization** solitary, pair, or gang (3-8)  ",
 			"**Treasure** none"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"fire_elemental": {
 		"copyof": "elemental_fire"
@@ -2989,8 +2919,7 @@
 			"**Numbing Cold (Su)** When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based.",
 			"",
 			"**Snow Vision (Ex)** An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"ice_elemental": {
 		"copyof": "elemental_ice"
@@ -3022,8 +2951,7 @@
 			"**Metal Mastery (Ex)** A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
 			"",
 			"**Spark Leap (Ex)** A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"lightning_elemental": {
 		"copyof": "elemental_lightning"
@@ -3055,8 +2983,7 @@
 			"**Earth Glide (Ex)** A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
 			"",
 			"**Lava Puddle (Su)** Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"magma_elemental": {
 		"copyof": "elemental_magma"
@@ -3086,8 +3013,7 @@
 			"**Earth Glide (Ex)** A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
 			"",
 			"**Entrap (Ex)** The mud from an elemental's entrap ability can be washed away in 1d3 rounds of immersion in water."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"mud_elemental": {
 		"copyof": "elemental_mud"
@@ -3133,8 +3059,7 @@
 			"**Vortex (Su)** A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack, but can only form underwater and cannot leave the water.",
 			"",
 			"**Water Mastery (Ex)** A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"water_elemental": {
 		"copyof": "elemental_water"
@@ -3197,8 +3122,7 @@
 			"- [Sinashakti, Immaculate Joy (azata)](faith/sinashakti)",
 			"- [Vildeis, the Cardinal Martyr (angel)](faith/vildeis)",
 			"- [Ylimancha, Harborwing (agathion)](faith/ylimancha)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"familiar": {
 		"name": "Familiar",
@@ -3289,8 +3213,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"Presented here are the base animal statistics for all of the most commonly used familiars-of course, these statistics can also be used for normal animals as well. Small animals like these use Dexterity to modify Climb and Swim checks."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"fiend-bred_animal": {
 		"name": "Fiend-Bred Animal",
@@ -3308,8 +3231,7 @@
 			"Fiend-bred animals are pedigreed varieties of animals whose bloodlines include an animal-like fiend. The breeders of these creatures typically use a conjuration spell of the calling subschool, such as planar ally or planar binding, to call a suitable fiend to the Material Plane and persuade it to mate with an animal of a compatible species. Most of the male hybrids are sterile, and thus the female hybrids of the first generations are mated with animal males until the new variety breeds true. Thereafter, breeders strive to emphasize trainability while retaining the most desirable traits derived from the progenitor fiend.",
 			"",
 			"Fiend-bred animals are rare and incredibly expensive, and therefore most owners of the breed are nobles or other wealthy individuals. Cheliax has a long-standing tradition of producing fiend-bred animals, and most hell-bred dogs are from meticulously tracked bloodlines with records in official registers. Keleshites, on the other hand, typically record their stygian hot-blooded horses' ancestries through oral traditions passed down through ensuing generations."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"fiend_bred_animal": {
 		"copyof": "fiend-bred_animal"
@@ -3343,8 +3265,7 @@
 			"It's often said that the drow learned the gruesome art of fleshwarping as a reward for obscene pacts they made with some demon lord, but the identity of the demon lord who bestowed knowledge of the foul process changes with each telling of the tale.",
 			"",
 			"There are other cultures that also understand and use fleshwarping, but they tend to be either ancient or very secretive and xenophobic. [Sinspawn](monster/sinspawn), [fleshdregs](unknown/fleshdregs), and the lamia-based [hungerer](monster/hungerer) are just some examples of non-drow fleshwarps."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"formian": {
 		"name": "Formian",
@@ -3384,8 +3305,7 @@
 			"After years, decades, or even centuries in transit, an asteroid ship reaches its destination-or misses its mark entirely and continues off into the depths of space, the occupants safe though trapped in the asteroid until they reach a habitable planet. Most of these seedpods crash on their intended planets, though even then some of the seedpods meet with calamity. In rare instances, either the stasis or the protective magic fails, making the seedpod vulnerable to violent entry into a planet's atmosphere. Other times the seedpod lands in an ocean or some other region of the planet inhospitable to formians, leaving them to drown, freeze, or meet some other calamity.",
 			"",
 			"The safe arrival of a seedpod often creates a period of destruction and chaos for the natives of the formians' new home. When the seedpod's protections relax, the eggs hatch, and the formians move forward with ruthless efficiency toward creating their new hive."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"gargoyle": {
 		"name": "Gargoyle",
@@ -3403,8 +3323,7 @@
 			"**Source** [Classic Horrors Revisited](source/classic_horrors_revisited)",
 			"",
 			"Sinister hunters of living stone, gargoyles perch high on the rooftops of towns and cities, appearing for all the world like harmless stone sculptures, carved in the likeness of demons, devils, or other hideous humanoid creatures. As still as statues, they patiently wait through the daylight hours, watching the city come to life and hungrily eyeing the unwitting passersby below. When dusk falls, the statues come alive and fly into the night sky, silently soaring above the darkened streets on stony wings looking for prey, snatching up unsuspecting walkers, never to be seen again."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"genie": {
 		"name": "Genie",
@@ -3422,8 +3341,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"gigas": {
 		"name": "Gigas",
@@ -3439,8 +3357,7 @@
 			"**Source** [Pathfinder #30: The Twice-Damned Prince](source/pathfinder_#30_the_twice-damned_prince)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"golem": {
 		"name": "Golem",
@@ -3530,8 +3447,7 @@
 			"**Spell Storing (Sp)** A shield guardian can store one spell of 4th level or lower that is cast into it by another creature. It \"casts\" this spell when commanded to do so or when a predefined situation arises. Once this spell is used, the shield guardian can store another spell (or the same spell again).",
 			"",
 			"**Construction** A shield guardian's base materials cost an additional 25,000 gp above the base golem's cost. The creature's master may assemble the body or hire someone else to do the job. The Craft check required to make the body is 4 higher than normal for the base golem's kind. The keyed amulet is fashioned at the same time-it costs 20,000 gp above and beyond the shield guardian's total cost. After the body is sculpted, the shield guardian is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory and costing 500 gp to establish. If the creator is personally constructing the creature's body, the building and the ritual can be performed together. The creator must have a minimum caster level of 2 higher than the base golem's minimum required caster level. In addition, the following spells are added to the base golem's requirements: discern location and either shield or shield other."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"great_old_one": {
 		"name": "Great Old One",
@@ -3565,8 +3481,7 @@
 			"**Other Great Old Ones**",
 			"",
 			"Bokrug, Cthulhu, and Hastur are but three of the Great Old Ones-countless others exist on distant worlds or other dimensions, yet are still able to influence the world through their dreams and cults. The central concept of the Great Old Ones was created by H. P. Lovecraft, one of the most influential writers of weird fiction-and horror fiction in general-of the 20th century. Lovecraft actively encouraged his writer friends to add to his mythos of creatures, and today we have Great Old Ones created not only by Lovecraft's contemporaries like Clark Ashton Smith, Robert E. Howard, Henry Kuttner, and August Derleth, but also by modern writers like Ramsey Campbell, Brian Lumley, and Stephen King. Chaosium's excellent Call of Cthulhu roleplaying game is a perfect place to start delving into the realm of Great Old Ones evoked in RPG form. By creating new Great Old Ones for your game, you can become part of a tradition of shared mythology nearly a century old!"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"gremlin": {
 		"name": "Gremlin",
@@ -3601,8 +3516,7 @@
 			"In areas where gremlin activity is well established, many societies have developed unique and clever ways to both protect themselves from gremlin-related mayhem and root out the little monsters from their lairs. One common method of dealing with gremlins is to use objects known as gremlin bells. Crafted from bronze, brass, or other semiprecious metals and measuring no more than an inch tall, gremlin bells are hung from delicate chains or silken cords over door frames and windows, or affixed to precious objects. The belief is that the presence of a gremlin bell sickens the creatures and even renders their supernatural and spell-like abilities useless. Strangely enough, many gremlins believe this as well, and even when the gremlin bells aren't magic, gremlins won't risk tinkering with most objects that seem to be warded in such a manner.",
 			"",
 			"Other communities take a much more active path in ridding themselves of gremlins, training small animals like cats, dogs, falcons, or even weasels to seek out and attack gremlins on sight. Tiny trained animals can pursue gremlins into their cramped warrens with ease and, when their claws are fitted with cleverly constructed cold iron spikes, can inflict significant damage on a tribe of these creatures. Many gremlin tribes have learned from such tactics, however, and utilize trained (or not) animals in their own lairs for protection."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"hag": {
 		"name": "Hag",
@@ -3626,8 +3540,7 @@
 			"**Source** [Classic Horrors Revisited](source/classic_horrors_revisited)",
 			"",
 			"If dryads, nymphs, and sprites represent the grace and beauty of unspoiled nature, then surely the annis hag, green hag, and sea hag embody its savage, destructive side. Though not fey themselves, hags appear to be somehow tied to nature, even if no more than as a distorted reflection of it. Hags are foul, wicked creatures, warped with cruelty and evil. Uniformly female and invariably repulsive, these misshapen crones plot dark deeds over bubbling cauldrons, either singly or in sinister triads known as covens."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"herald": {
 		"name": "Herald",
@@ -3671,8 +3584,7 @@
 			"",
 			"- **Always Armed (Su)** Heralds can summon their signature weapon as a standard action. If its herald doesn't have a signature weapon, it can summon any nonmagical weapon as a standard action (including adamantine, etc.); the weapon disappears if it leaves the herald's grasp.",
 			"- **Emissary (Ex)** Heralds can always be summoned by the faithful using greater planar ally or gate, regardless of limitations of that spell, even if it's not an outsider."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"herd_animal": {
 		"name": "Herd Animal",
@@ -3694,8 +3606,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"hive": {
 		"name": "Hive",
@@ -3735,8 +3646,7 @@
 			"| Huge | 1d8 |",
 			"| Gargantuan | 2d6 |",
 			"| Colossal | 2d8 |"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"horsemen_of_the_apocalypse": {
 		"name": "Horsemen of the Apocalypse",
@@ -3759,8 +3669,7 @@
 			"Every Horseman was once a mortal whose soul transitioned into the form of a daemon at some point after death. This legacy stands at the center of their kind, gnawing at their pride and sanity moment by moment, as they understand that they began their lives as the very things they seek to exterminate. Equally incongruous is that the Horsemen each actively foster their own mortal cults, even granting spells to clerics pledged to their name. The Horsemen see their worshipers as useful idiots condemned to oblivion upon death, despite the aid such cultists provide in carrying out the Four's genocidal will.",
 			"",
 			"Any Horseman can be contacted through [commune](spell/commune) and can be called by a [gate](spell/gate) spell, though they are under no compulsion to come through the latter. Typically the Horsemen require an enormously valuable offering or a tremendous amount of bloodshed in their name before accepting such an invitation."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"house_spirit": {
 		"name": "House Spirit",
@@ -3785,8 +3694,7 @@
 			"**Source** [Bestiary 5](source/bestiary_5)",
 			"",
 			"These sometimes-helpful fey creatures known as house spirits bind themselves to rural families and live among them. Some bear a resemblance to the family's ancestors, a similarity that grows more obvious the longer they remain in the family's service. House spirits use their compression ability and invisibility to stay out of the sight of those among whom they live."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"idol": {
 		"name": "Idol",
@@ -3811,8 +3719,7 @@
 			"**Share Abilities (Su)** An idol can share any spell-like ability that would normally only affect itself (as the caster) with any ally within 5 feet. The idol's creator or allies familiar with its abilities may request the idol grant them specific powers on its turn. Spell-like abilities usable in this way are marked with an asterisk (*).",
 			"",
 			"**Skills** In addition to the challenge of detecting a stationary idol, these constructs gain a +4 racial bonus on Stealth checks made to hide amid the materials that comprise their bodies."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"inevitable": {
 		"name": "Inevitable",
@@ -3859,8 +3766,7 @@
 			"**Primal Inevitables**",
 			"",
 			"While the lhaksharuts are generally thought of as the most powerful caste of inevitable, there exist others of even greater skill and strength-these are known as the primal inevitables. These goliaths were among the first weapons of war forged by the axiomites to fight the protean menace-the methods to create more have long been lost to the axiomites, and those few primals who remain alive to this day have become legendary. None have been encountered in living memory, but the possibility of a primal's emergence is enough to give the proteans second thoughts when ideas of invading the inevitables' home plane arise."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"kaiju": {
 		"name": "Kaiju",
@@ -3909,8 +3815,7 @@
 			"- Yarthoon, the Moon Grub of the darkest nights",
 			"- Yorak, the Horned Thunder of the great mountains",
 			"- Zimivra, the Endless Coils of the trackless desert"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"kami": {
 		"name": "Kami",
@@ -3949,8 +3854,7 @@
 			"While kami are rarely evil, they place the protection of their wards above all else. Often, this puts them at odds with other creatures, and as a result, many tend to view kami as troublemakers at best and outright monsters at worst. The kami have little care for how they are viewed by non-kami, of course-what matters to them is the safety of their wards.",
 			"",
 			"The most powerful kami are known as kami lords. These mysterious and unique creatures are fantastically powerful, often on par with demigods or greater entities."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"kyton": {
 		"name": "Kyton",
@@ -4001,8 +3905,7 @@
 			"- Raetorgash, the Skull-Hoarder",
 			"- Sugroz, the Voice in Screams",
 			"- Vevelor of the Broken Dream"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"kyton_demagogue": {
 		"name": "Kyton Demagogue",
@@ -4016,8 +3919,7 @@
 			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"leshy": {
 		"name": "Leshy",
@@ -4062,8 +3964,7 @@
 			"Plant creatures are particularly adept at growing leshys. Such creators gain a +5 racial bonus on their Knowledge checks, halve the time required to grow the leshy, and reduce the cost to create the creature by 25%. A plant creature is always successful in luring a spirit into the body, and need not make the final percentile roll for success.",
 			"",
 			"Leshys with more Hit Dice than normal can be created. Each additional Hit Die adds 2,250 gp to the cost of creating the leshy (and thus 4,500 gp to the overall price), increases the DC of the Knowledge check by +2, and requires an additional 2 weeks of growth. Attempts to create leshys larger than Small always fail-the strange spiritual energies that animate these creatures are only capable of doing so to a body no larger than that of a human child."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"linnorm": {
 		"name": "Linnorm",
@@ -4107,8 +4008,7 @@
 			"**Freedom of Movement (Ex)** A linnorm has continuous freedom of movement, as per the spell of the same name. This ability cannot be dispelled.",
 			"",
 			"**True Seeing (Ex)** A linnorm has continuous true seeing, as per the spell of the same name. This ability cannot be dispelled."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"lurking_ray": {
 		"name": "Lurking Ray",
@@ -4126,8 +4026,7 @@
 			"Lurking rays are a whole family of creatures that infest the dark corners of the world, feeding on the weak and unwary. The infant form, known as the executioner's hood, is an unnerving but relatively mild threat for experienced adventurers, while its parents, the male lurker above and female trapper, are far more dangerous. All three types of lurking rays are ambush hunters with similar tactics, wrapping themselves thoroughly around their victims and choking the life from their prey before feeding.",
 			"",
 			"Though somewhat similar in appearance to stingrays or manta rays, lurking rays in fact represent their own unique branch of subterranean evolution- or arcane experimentation. Executioner's hoods are roughly a foot long and weigh 5 pounds, whereas adult lurkers above and trappers can grow to be 15 feet wide, with males weighing 500 pounds and females up to four times that."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"manasaputra": {
 		"name": "Manasaputra",
@@ -4161,8 +4060,7 @@
 			"Occult lore suggests the enormous wisdom of the eldest manasaputras derives from their mortal existence during a previous incarnation of the multiverse itself. Certainly the manasaputras themselves favor doctrines of cycles such as reincarnation. Some mortal followers believe that manasaputras from the previous multiversal cycle were the first to inhabit the soulless husks that would ultimately become mortals, but as usual the manasaputras themselves favor riddles over straight answers on the matter.",
 			"",
 			"The Seven Kumaras, the most powerful of all manasaputras, exist at the heart of all creation, each exemplifying a facet of the multiverse. These enigmatic entities rarely leave the Cosmic Fire of the Positive Energy Plane, communing with this source of all life in the multiverse and witnessing events across all creation through psychic rapport with a consciousness they (and the like-minded aeons) refer to as the Logos."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"megafauna": {
 		"name": "Megafauna",
@@ -4192,8 +4090,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"mortic": {
 		"name": "Mortic",
@@ -4212,8 +4109,7 @@
 			"**Source** [Pathfinder #139: The Dead Road](source/pathfinder_#139_the_dead_road)",
 			"",
 			"[Mortics](monster/subtype/mortic) are humanoids afflicted with the physiology and appetites of undead. All mortics are pulled between two worlds: as living humanoids, they crave community and friendship, but their necromantic nature forces them to indulge in inhuman hungers and commit violence against the living. As a result, most mortics lurk at the edge of civilization or isolate themselves with others of their own kind. Although living creatures, mortics can suspend their living processes temporarily, becoming more like undead."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"naga": {
 		"name": "Naga",
@@ -4235,8 +4131,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"nightshade": {
 		"name": "Nightshade",
@@ -4270,8 +4165,7 @@
 			"But for all of the nightmare potential posed by these undead paragons, they all pale in comparison to the mightiest nightshades of all-the shark-like nightwave. This monstrosity prowls the lightless depths of ocean trenches, gathering the souls of the countless drowned dead or preying upon deep aquatic races. Yet those who cleave to the shallows or ply the surface of the seas are not safe from the ravenous nightwaves either, for in the darkest night, these undead monsters rise up to harvest souls from ships and shore as well.",
 			"",
 			"Yet even the dreaded nightwaves are not enough to fill the nightmares of great heroes. Rumors of more powerful nightshades are whispered fearfully in certain circles-creatures of such immense power that their mere existence can drain entire planets of life in a matter of weeks. If such monstrosities truly exist, then all life may be but a fleeting spark in the dark folds of a forever-doomed future."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"oni": {
 		"name": "Oni",
@@ -4324,8 +4218,7 @@
 			"- Ushitora, Keeper of the Oni Gate (void oni)",
 			"- Uzumae, Daimyo of the North (kuwa oni)",
 			"- Yabu, Lord of the Kazan Caldera (fire oni)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"ossumental": {
 		"name": "Ossumental",
@@ -4342,8 +4235,7 @@
 			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep](source/pathfinder_#83_the_slave_trenches_of_hakotep)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"phantom_armor": {
 		"name": "Phantom Armor",
@@ -4362,8 +4254,7 @@
 			"Raised from the corpses of knights and soldiers slain by treachery rather than battle or conflicts considered crimes even in the heat of war, phantom armors appear as suits of animate armor, walking or floating of their own accord. Most phantom armors haunt the halls and blasted battlefields where they were slain, seeking revenge against their murderers or, should that prove impossible, confronting any living creature that might give them the opportunity to do battle once more. Dastardly necromancers have also discovered the process for binding violent spirits to suits of armor, giving rise to eerie servants that combine endless patience with cold brutality.",
 			"",
 			"Phantom armors come in many shapes and sizes; some appear to be nothing more than animate helms while others resemble armored giants."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"plague_swarm": {
 		"name": "Plague Swarm",
@@ -4394,8 +4285,7 @@
 			"**Multiply (Ex)** Plague swarms spawn at an incredible rate. Once per minute, a plague swarm can produce a new swarm of the type listed in its stat block as full-round action. When the plague swarm is not in combat, it typically uses this ability once per minute. If the plague swarm is destroyed, all of the swarms that it spawned also disperse.",
 			"",
 			"**Reform (Su)** When a plague swarm is dispersed by damage, it is not destroyed. A dispersed plague swarm reforms in 24 hours. Each plague swarm has a unique destruction condition. In addition, because plague swarms are manifestations of divine retribution, placating the deity's rage destroys the swarm instantly."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"poppet": {
 		"name": "Poppet",
@@ -4410,8 +4300,7 @@
 			"**Source** [Adventurer's Armory 2](source/adventurer's_armory_2)",
 			"",
 			"Humanoid in shape and constructed of base materials, poppets are designed to accompany explorers into dangerous places and help with simple tasks."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"primeval_sea_creature": {
 		"name": "Primeval Sea Creature",
@@ -4427,8 +4316,7 @@
 			"**Source** [Pathfinder #60: From Hell's Heart](source/pathfinder_#60_from_hell's_heart)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"protean": {
 		"name": "Protean",
@@ -4497,8 +4385,7 @@
 			"| 18 | Target is turned to stone. |",
 			"| 19 | Target is affected by baleful polymorph (CL = protean's CR). |",
 			"| 20 | Portions of target's body burst with energy of a random type (choose between acid, cold, electricity, or fire), dealing 4d6 points of damage of the appropriate type to the target. |"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"psychopomp": {
 		"name": "Psychopomp",
@@ -4556,8 +4443,7 @@
 			"- [Saloc, Minder of Immortals](faith/saloc)",
 			"- [Teshallas the Primordial Poison](faith/teshallas)",
 			"- [Vale the Court of Ancestors](faith/vale)"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"qlippoth": {
 		"name": "Qlippoth",
@@ -4602,8 +4488,7 @@
 			"That the qlippoth have among their kind paragons akin to demon lords is indisputable, yet these powers rarely, if ever, emerge from the deepest realms of the Abyss to interact with the rest of the multiverse. They are only rarely worshiped on the Material Plane, but such cults, where they exist, are singularly destructive and ruinous.",
 			"",
 			"Yet the power granted by mortal worship can have a curious effect on a qlippoth-it can, in a way, infect it with the sins of its worshipers. Qlippoth who become so infected are either murdered by their kin or forced to flee to the upper realms of the Abyss, where they complete their transformation and, instead of remaining qlippoth lords, become demon lords. One can know the nature of a demon lord that began life as a qlippoth most easily by its shape-those demon lords, such as ichthyic Dagon or foul and festering Jubilex, bear little or no sign of a humanoid frame."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"qlippoth_lord": {
 		"name": "Qlippoth Lord",
@@ -4639,8 +4524,7 @@
 			"- Telepathy 300 feet.",
 			"- A qlippoth lord's natural weapons, as well as any weapon it wields, are treated as chaotic, epic, and evil for the purpose of overcoming damage reduction.",
 			"- Qlippoth lords can grant spells to their worshipers. Granting spells does not require any specific action on the qlippoth lord's behalf. All qlippoth lords grant access to the domains of Chaos and Evil; in addition, they grant access to two other domains and a favored weapon that vary according to each qlippoth lord's themes and interests."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"rakshasa": {
 		"name": "Rakshasa",
@@ -4694,8 +4578,7 @@
 			"- Surpa the Avenger",
 			"- Vibhishah the Seeker",
 			"- Zabha the Desecrator"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"robot": {
 		"name": "Robot",
@@ -4773,8 +4656,7 @@
 			"The means of commanding robots vary from model to model, which can be a source of endless frustration for any who seek to control them. Some obey orders from any humanoid, some bond to a specific master until her death, and others only yield to the command of technological brooches or control rods. Still others submit after mechanical surgery or rebuilding, or not at all. Many must be given extremely precise instructions, for they are unable to process metaphors or other figures of speech, and may interpret them in unanticipated ways, much to the chagrin of those who would command them. A surprisingly large proportion of uncontrolled robots already speak Common, as most models exhibit considerable linguistics talent, and the robots train each other in their new home's languages. Though they comprehend language, most robots rarely speak save for terse acknowledgements of orders. Their speech typically excludes words they deem unnecessary with their mechanical efficiency, leading to strange disjointed statements that convey the requisite information without emotion, although some robots programmed to interact well with humans are able to speak in a more fluid and less disconcerting manner.",
 			"",
 			"Constructing a robot requires no magic, but does involve advanced and extraordinarily rare materials and technological expertise. Because almost no one possesses the skills and materials to complete the process of constructing a robot, these entries omit the construction sections provided for most constructs. A GM can add the robot subtype to a different type of construct, such as an animated object or homunculus, to create new types of robots. Typically, this doesn't alter the construct's CR. A character can't create a robot from or add the robot subtype to a construct that has already been created; adding the [robot subtype](monster/subtype/robot) to an existing creature is purely a means for the GM to simulate additional robots beyond those provided here."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"rot_grub": {
 		"name": "Rot Grub",
@@ -4799,8 +4681,7 @@
 			"**Infested Undead**",
 			"",
 			"Since rot grubs only feed on living flesh and use dead flesh as an incubator, undead are not harmed by infestations of the parasites. A corporeal, non-skeletal undead infested with rot grubs transfers one rot grub to any creature that touches it or to any creature it strikes with a touch attack or with any natural attack. The target may make a DC 15 Reflex save to avoid being infested, but otherwise is immediately subjected to a single grub burrowing through his flesh. A rot-grub-infested undead's CR increases by +1."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"sahkil": {
 		"name": "Sahkil",
@@ -4834,8 +4715,7 @@
 			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](unknown/manasaputras) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
 			"",
 			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](monster/subtype/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"siktempora": {
 		"name": "Siktempora",
@@ -4856,8 +4736,7 @@
 			"- Temporal jaunt spell-like ability",
 			"- An emotion-based effect linked to their physical attacks",
 			"- Temporal sense ability"
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"spawn_of_rovagug": {
 		"name": "Spawn of Rovagug",
@@ -4898,8 +4777,7 @@
 			"**Spell Resistance (Su)** A spawn of Rovagug possesses spell resistance equal to 11 + its CR.",
 			"",
 			"**Unstoppable Force (Ex)** A spawn of Rovagug can always charge, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to overrun and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"sphinx": {
 		"name": "Sphinx",
@@ -4936,8 +4814,7 @@
 			"People of the desert sometimes honor the sphinx's form by crafting great stone sphinxes, often bearing the faces of their own rulers and nobles. Legend holds the first such monuments were modeled on the eldest and greatest of sphinxes, paragons of knowledge and wisdom far larger in size than any common sphinx. The oldest and largest of these sphinxes settled into the desert sands when at last they tired of immortality, and as they passed into their final sleep, their bodies became as sandstone.",
 			"",
 			"These elder sphinxes may be androsphinxes or gynosphinxes, or very rarely criosphinxes. They have at minimum the advanced template, many additional Hit Dice, and a size of at least Huge (and more often Gargantuan or Colossal). They can use commune, contact other plane, and legend lore as spell-like abilities once each per day (CL equals the sphinx's CR), and frequently possess other powers and special attacks. Many such sphinxes can enter a state of stony suspended animation that resembles the freeze special ability, though they cannot easily rouse themselves from such slumber. Other sphinxes, even the bestial hieracosphinxes, defer to elder sphinxes in all matters, treating them almost as gods."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"thassilonian_sentinel": {
 		"name": "Thassilonian Sentinel",
@@ -4956,8 +4833,7 @@
 			"During the height of the Thassilonian Empire, nobles and other wealthy elite favored these constructs as guardians and protectors in their homes, hidden in plain sight among the palace's normal decorations. Able to replace the heads of statues to blend in, these creatures keep alert for intruders and extract themselves from the statues with which they are docked in order to attack. The creatures don't need to remove themselves from their statues to use their special attacks, however, and only separate for added mobility or to have the chance to attack with their claws.",
 			"",
 			"At least a dozen varieties of sentinel pervaded long-vanished Thassilon. All of these varieties were crafted from materials that wouldn't be out of place as a medium for sculpting or casting. Though the practice of creating these constructs largely died out along with the empire at Earthfall, explorers delving into forgotten ruins sometimes encounter sentinels that still function."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"thriae": {
 		"name": "Thriae",
@@ -4987,8 +4863,7 @@
 			"Merope, the magical honey produced by thriae queens, possesses numerous supernatural properties. Even among thriae, the effects of drinking merope are remarkably diverse. A specific amount of merope for one thriae may put her into a tranquil haze, while the same amount for another could set off a bout of insatiable rage. The effect of merope on a specific type of thriae is marked in a thriae's stat block.",
 			"",
 			"To non-thriae, merope generally has similar effects to strong alcohol. The substance can be addicting to the weak-willed, and those who begin to rely on merope quickly become addicted thralls and servants bound to servitude within a hive. Some thriae claim to have developed merope with the ability to affect non-thriae with more potent effects, but such claims are regarded as something between blasphemy and treason by most thriae hives."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"titan": {
 		"name": "Titan",
@@ -5008,8 +4883,7 @@
 			"**Source** [Bestiary 2](source/bestiary_2)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"troll": {
 		"name": "Troll",
@@ -5041,8 +4915,7 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"troop": {
 		"name": "Troop",
@@ -5064,8 +4937,7 @@
 			"Of course, brigands, drow, and goblins aren't the only types of troop that could exist-they're merely the three presented on the following pages. The [troop subtype](monster/subtype/troop) provides rules for the creation of groups of like-minded individuals of all kinds, functioning in a way similar to how the swarm subtype allows for the modeling of a vast flight of creatures acting as a single whole. With a troop, running an encounter against a large number of lower-level foes becomes much more manageable, and allows for normally low-CR threats to band together and challenge more powerful PCs.",
 			"",
 			"Troops can be created in innumerable variations, and you should feel free to use the three examples on the following pages as inspiration for the creation of troops of your own design. Troops are not as meant as exact simulations of tactical warfare, and when creating them you should not be overly concerned with trying to emulate the compounded abilities of the troop's component individuals. Troops are created just like other creatures of their creature type, with basic elements such as Hit Dice and statistics assigned so the completed troop conforms to the approximate hit points, Armor Class, and other values for its desired Challenge Rating as found Appendix 9: Monsters by CR, which begins on page 313. Once that foundation is established, apply the subtype rules and use the examples and variations provided here to finetune it with flavorful abilities and feats that approximate how a homogenous group of creatures of this sort might fight. With troops at your command, PCs may think twice next time they encounter a seemingly outmatched group of opponents."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"troops": {
 		"name": "Troops",
@@ -5114,8 +4986,7 @@
 			"Because of the chaos of combat, spellcasting or concentrating on spells within the area of a troop or within its reach requires a successful caster level check (DC = 20 + spell level). Using skills that involve patience and concentration requires a successful DC 20 Will save.",
 			"",
 			"**Looting Troops:** Although troops are composed of a number of individual creatures, the chaos and destruction of battle means that not all of these creatures' equipment survives the rigors of combat. As a result, parties who wish to claim usable gear or treasure from slain foes treat a troop as a single creature for the purposes of looting, and should be able to recover gear worth a total value equal to the troop's expected treasure value (as determined by the troop's CR)."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"vampire_servant": {
 		"name": "Vampire Servant",
@@ -5130,8 +5001,7 @@
 			"**Source** [Monster Codex](source/monster_codex)",
 			"",
 			"A vampire often needs mortal minions-especially during the day, when it must retreat to its coffin for safety."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"veela": {
 		"name": "Veela",
@@ -5150,8 +5020,7 @@
 			"Capricious yet alluring, veelas are elemental spirits given shape. On the Elemental Planes, veelas revel in the unbridled energy of the elements from which they draw power. On the other planes, however, they lose some measure of the elemental energy saturating their forms. To compensate for this, they can siphon vitality from other living beings by engaging them in their ancient dances. Veelas typically do this with a creature's permission, leaving partners exhilarated but exhausted. Only in the most dire circumstances does a veela use its dance as a weapon. Those few who can match these elemental spirits' movements might earn a veela's respect and compel it to share some of its beneficial magical powers.",
 			"",
 			"A veela typically stands just under 6 feet tall and weighs approximately 140 pounds."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"wild_hunt": {
 		"name": "Wild Hunt",
@@ -5185,8 +5054,7 @@
 			"The rarest reason a wild hunt rides is to seek new hunters for its ranks. Although most members of the wild hunt originate from the realm of the fey, a scant few trace their origins back to the fateful day when they failed to escape a wild hunt's interest. A wild hunt's reasons for seeking out any particular mortal are shrouded in mystery, though wild hunts seldom pursue mortals who lack significant strength or power. After a lengthy pursuit, a wild hunt's monarch ritually slays the quarry, which reincarnates the following morning as a new member of the hunt. When mortals join the wild hunt, memories from their previous lives fade away, though they sometimes retain a measure of personality. If the wild hunt master finds the mortal's talents or skills particularly impressive, he may choose to preserve these abilities, transforming the mortal into a unique member of the hunt. These specialized hunters retain most of their memories as well. While they occasionally spend time with their old friends and family, the call of the hunt master's horn is far stronger than any loyalty they felt in their previous lives, making the maintenance of old relationships a fraught endeavor.",
 			"",
 			"Traditionally, the fey of the wild hunt consist of five distinct races. While these five types of fey can be encountered alone or in small groups, they are at their most dangerous when banded together into a true wild hunt. This gathering of fey consists of a specific number and combination: one wild hunt monarch, one wild hunt scout, three wild hunt archers, three wild hunt horses, and four wild hunt hounds. As a whole, this dangerous group constitutes a CR 21 encounter, and thus could make an excellent capstone encounter for a campaign."
-		],
-		"display": "monsterfamily"
+		]
 	},
 	"wysp": {
 		"name": "Wysp",
@@ -5224,7 +5092,6 @@
 			"**Resonance (Ex)** A wysp's natural resonance strengthens the power of its element. The wysp grants a +2 competence bonus on attack rolls and damage rolls to all creatures within 30 feet with an elemental subtype that matches the wysp's, and to the DCs of all racial spell-like, supernatural, and extraordinary abilities of such creatures (as usual, this does not include creatures assuming an elemental form). [Kineticists](class/kineticist) within 30 feet who share the wysp's element gain a +1 competence bonus on attack rolls and damage rolls. The wysp's statistics already include these bonuses.",
 			"",
 			"**Servitor (Ex)** A wysp is a natural servitor. When it uses the aid another action to assist a creature benefiting from its resonance, the wisp can grant that creature a +4 bonus instead of +2. No other effect can increase this bonus beyond +4."
-		],
-		"display": "monsterfamily"
+		]
 	}
 }

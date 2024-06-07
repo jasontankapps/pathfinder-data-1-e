@@ -11,8 +11,7 @@
 			"",
 			"**Format:** Curse Name (Su) Slam-contact; save Will DC 14, frequency 1/day, effect 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"hold_breath": {
 		"name": "Hold Breath (Ex)",
@@ -25,8 +24,7 @@
 			"",
 			"**Format:** hold breath  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"telepathy": {
 		"name": "Telepathy (Su)",
@@ -39,8 +37,7 @@
 			"",
 			"**Format:** telepathy 100 ft.  ",
 			"**Location:** Languages."
-		],
-		"display": "umr"
+		]
 	},
 	"sound_mimicry": {
 		"name": "Sound Mimicry (Ex)",
@@ -53,8 +50,7 @@
 			"",
 			"**Format:** sound mimicry (voices)  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"amorphous": {
 		"name": "Amorphous (Ex)",
@@ -67,8 +63,7 @@
 			"",
 			"**Format:** amorphous  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"rock_catching": {
 		"name": "Rock Catching (Ex)",
@@ -81,8 +76,7 @@
 			"",
 			"**Format:** rock catching  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"simple_divine_spellcasting": {
 		"name": "Simple Divine Spellcasting [Mythic]",
@@ -95,8 +89,7 @@
 			"",
 			"**Format:** simple divine spellcasting  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"darkvision": {
 		"name": "Darkvision (Ex or Su)",
@@ -109,8 +102,7 @@
 			"",
 			"**Format:** darkvision 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"pounce": {
 		"name": "Pounce (Ex)",
@@ -123,8 +115,7 @@
 			"",
 			"**Format:** pounce  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"sand_glide": {
 		"name": "Sand Glide (Ex) [Mythic]",
@@ -137,8 +128,7 @@
 			"",
 			"**Format:** sand glide  ",
 			"**Location:** Speed."
-		],
-		"display": "umr"
+		]
 	},
 	"multiweapon_mastery": {
 		"name": "Multiweapon Mastery (Ex)",
@@ -151,8 +141,7 @@
 			"",
 			"**Format:** multiweapon mastery  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"powerful_blows": {
 		"name": "Powerful Blows (Ex) [Mythic]",
@@ -165,8 +154,7 @@
 			"",
 			"**Format:** powerful blows (slam)  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"push": {
 		"name": "Push (Ex)",
@@ -179,8 +167,7 @@
 			"",
 			"**Format:** push (slam, 10 feet)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"energy_drain": {
 		"name": "Energy Drain (Su)",
@@ -193,8 +180,7 @@
 			"",
 			"**Format:** energy drain (2 levels, DC 18)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"bleed": {
 		"name": "Bleed (Ex)",
@@ -207,8 +193,7 @@
 			"",
 			"**Format:** bleed (2d6)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"undead_traits": {
 		"name": "Undead Traits (Ex)",
@@ -221,8 +206,7 @@
 			"",
 			"**Format:** undead traits  ",
 			"**Location:** Immune."
-		],
-		"display": "umr"
+		]
 	},
 	"amphibious": {
 		"name": "Amphibious (Ex)",
@@ -235,8 +219,7 @@
 			"",
 			"**Format:** amphibious  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"sunlight_powerlessness": {
 		"name": "Sunlight Powerlessness (Ex)",
@@ -249,8 +232,7 @@
 			"",
 			"**Format:** sunlight powerlessness  ",
 			"**Location:** Weaknesses."
-		],
-		"display": "umr"
+		]
 	},
 	"pull": {
 		"name": "Pull (Ex)",
@@ -263,8 +245,7 @@
 			"",
 			"**Format:** pull (tentacle, 5 feet)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"x-ray_vision": {
 		"name": "X-Ray Vision (Su) [Mythic]",
@@ -277,8 +258,7 @@
 			"",
 			"**Format:** x-ray vision  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"earth_glide": {
 		"name": "Earth Glide (Ex)",
@@ -291,8 +271,7 @@
 			"",
 			"**Format:** earth glide  ",
 			"**Location:** Speed."
-		],
-		"display": "umr"
+		]
 	},
 	"feral_savagery": {
 		"name": "Feral Savagery (Su) [Mythic]",
@@ -305,8 +284,7 @@
 			"",
 			"**Format:** feral savagery (full attack)  ",
 			"**Location:** special attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"light_sensitivity": {
 		"name": "Light Sensitivity (Ex)",
@@ -319,8 +297,7 @@
 			"",
 			"**Format:** light sensitivity  ",
 			"**Location:** Weaknesses."
-		],
-		"display": "umr"
+		]
 	},
 	"blindsense": {
 		"name": "Blindsense (Ex)",
@@ -333,8 +310,7 @@
 			"",
 			"**Format:** blindsense 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"formian_traits": {
 		"name": "Formian Traits (Ex or Su)",
@@ -350,8 +326,7 @@
 			"- Resistance to sonic 10.",
 			"- Telepathic Caster (Ex) Due to a formian's telepathic nature, if it casts spells it does so as spell-like abilities.",
 			"- Telepathy 60 ft."
-		],
-		"display": "umr"
+		]
 	},
 	"damage_reduction": {
 		"name": "Damage Reduction (Ex or Su)",
@@ -378,8 +353,7 @@
 			"",
 			"**Format:** DR 5/silver  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"mythic_magic": {
 		"name": "Mythic Magic (Su) [Mythic]",
@@ -392,8 +366,7 @@
 			"",
 			"**Format:** mythic magic 3/day  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"dual_initiative": {
 		"name": "Dual Initiative (Ex) [Mythic]",
@@ -406,8 +379,7 @@
 			"",
 			"**Format:** 21  ",
 			"**Location:** Init."
-		],
-		"display": "umr"
+		]
 	},
 	"web": {
 		"name": "Web (Ex)",
@@ -424,8 +396,7 @@
 			"",
 			"**Format:** web (+8 ranged, DC 16, 5 hp)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"block_attacks": {
 		"name": "Block Attacks (Ex) [Mythic]",
@@ -438,8 +409,7 @@
 			"",
 			"**Format:** block attacks  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"grab": {
 		"name": "Grab (Ex)",
@@ -454,8 +424,7 @@
 			"",
 			"**Format:** grab  ",
 			"**Location:** individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"plantbringer": {
 		"name": "Plantbringer (Su) [Mythic]",
@@ -468,8 +437,7 @@
 			"",
 			"**Format:** plantbringer  ",
 			"**Location:** SQ"
-		],
-		"display": "umr"
+		]
 	},
 	"entrap": {
 		"name": "Entrap (Ex or Su)",
@@ -482,8 +450,7 @@
 			"",
 			"**Format:** entrap (DC 13, 1d10 minutes, hardness 5, hp 10);  ",
 			"**Location:** Location: Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"construct_traits": {
 		"name": "Construct Traits (Ex)",
@@ -496,8 +463,7 @@
 			"",
 			"**Format:** construct traits  ",
 			"**Location:** Immune."
-		],
-		"display": "umr"
+		]
 	},
 	"amazing_initiative": {
 		"name": "Amazing Initiative (Ex) [Mythic]",
@@ -510,8 +476,7 @@
 			"",
 			"**Format:** amazing initiative  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"psychic_magic": {
 		"name": "Psychic Magic (Sp)",
@@ -524,8 +489,7 @@
 			"",
 			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-[charm person](spell/charm_person) (1 PE, DC 14), [disguise self](spell/disguise_self) (2 PE), [mind thrust III](spell/mind_thrust_3) (3 PE, DC 16), [tower of iron will I](spell/tower_of_iron_will_1) (5 PE)  ",
 			"**Location:** before Spell-Like Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"fast_swallow": {
 		"name": "Fast Swallow (Ex)",
@@ -538,8 +502,7 @@
 			"",
 			"**Format:** fast swallow  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"dragon_blood": {
 		"name": "Dragon Blood (Su) [Mythic]",
@@ -562,8 +525,7 @@
 			"",
 			"**Format:** dragon blood (2d6 fire)  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"simple_arcane_spellcasting": {
 		"name": "Simple Arcane Spellcasting [Mythic]",
@@ -576,8 +538,7 @@
 			"",
 			"**Format:** simple arcane spellcasting  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"archdevil_traits": {
 		"name": "Archdevil Traits (Ex, Sp, or Su)",
@@ -598,8 +559,7 @@
 			"- Resistance to acid 30 and cold 30.",
 			"- Summon Devils (Sp): Three times per day as a swift action, an archdevil can summon any devil or combination of devils whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
-		],
-		"display": "umr"
+		]
 	},
 	"paralysis": {
 		"name": "Paralysis (Ex or Su)",
@@ -612,8 +572,7 @@
 			"",
 			"**Format:** paralysis (1d4 rounds, DC 18)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"frightful_presence": {
 		"name": "Frightful Presence (Ex)",
@@ -626,8 +585,7 @@
 			"",
 			"**Format:** frightful presence (60 ft., DC 21)  ",
 			"**Location:** Aura."
-		],
-		"display": "umr"
+		]
 	},
 	"blood_rage": {
 		"name": "Blood Rage (Ex)",
@@ -640,8 +598,7 @@
 			"",
 			"**Format:** blood rage  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"light_blindness": {
 		"name": "Light Blindness (Ex)",
@@ -654,8 +611,7 @@
 			"",
 			"**Format:** light blindness  ",
 			"**Location:** Weaknesses."
-		],
-		"display": "umr"
+		]
 	},
 	"spell_resistance": {
 		"name": "Spell Resistance (Ex)",
@@ -668,8 +624,7 @@
 			"",
 			"**Format:** SR 18  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"fear": {
 		"name": "Fear (Su or Sp)",
@@ -686,8 +641,7 @@
 			"",
 			"**Format:** fear aura (30 ft., DC 17) or fear cone (50 ft., DC 19)  ",
 			"**Location:** Aura or Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"empyreal_lord_traits": {
 		"name": "Empyreal Lord Traits (Ex, Sp, or Su)",
@@ -707,8 +661,7 @@
 			"- Primal Aura (Su) An aura of primeval power surrounds every empyreal lord. The effects of this aura are unique to each empyreal lord.",
 			"- Regeneration (Ex) Only mythic damage or damage from a creature of equal or greater power (such as a deity or demigod) interrupts an empyreal lord's regeneration.",
 			"- Seed of Life (Sp) An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a [heal](spell/heal) spell targeting itself or outward as [mass cure serious wounds](spell/mass_cure_serious_wounds) on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures."
-		],
-		"display": "umr"
+		]
 	},
 	"engulf": {
 		"name": "Engulf (Ex)",
@@ -721,8 +674,7 @@
 			"",
 			"**Format:** engulf (DC 12, 1d6 acid and paralysis)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"blindsight": {
 		"name": "Blindsight (Ex)",
@@ -735,8 +687,7 @@
 			"",
 			"**Format:** blindsight 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"vulnerabilities": {
 		"name": "Vulnerabilities (Ex or Su)",
@@ -749,8 +700,7 @@
 			"",
 			"**Format:** vulnerable to fire  ",
 			"**Location:** Weaknesses."
-		],
-		"display": "umr"
+		]
 	},
 	"strangle": {
 		"name": "Strangle (Ex)",
@@ -763,8 +713,7 @@
 			"",
 			"**Format:** strangle  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"low-light_vision": {
 		"name": "Low-Light Vision (Ex)",
@@ -777,8 +726,7 @@
 			"",
 			"**Format:** low-light vision  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"lingering_breath": {
 		"name": "Lingering Breath (Su) [Mythic]",
@@ -801,8 +749,7 @@
 			"",
 			"**Format:** lingering breath (2d6 fire, 5 rounds)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"rend": {
 		"name": "Rend (Ex)",
@@ -815,8 +762,7 @@
 			"",
 			"**Format:** rend (2 claws, 1d8+9)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"channel_resistance": {
 		"name": "Channel Resistance (Ex)",
@@ -829,8 +775,7 @@
 			"",
 			"**Format:** channel resistance +4  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"scent": {
 		"name": "Scent (Ex)",
@@ -849,8 +794,7 @@
 			"",
 			"**Format:** scent  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"see_in_darkness": {
 		"name": "See in Darkness (Su)",
@@ -863,8 +807,7 @@
 			"",
 			"**Format:** see in darkness  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"lycanthropic_empathy": {
 		"name": "Lycanthropic Empathy (Ex)",
@@ -877,8 +820,7 @@
 			"",
 			"**Format:** lycanthropic empathy (bears and dire bears)  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"hardness": {
 		"name": "Hardness (Ex)",
@@ -891,8 +833,7 @@
 			"",
 			"**Format:** hardness 10  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"compression": {
 		"name": "Compression (Ex)",
@@ -905,8 +846,7 @@
 			"",
 			"**Format:** compression  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"emotion_aura": {
 		"name": "Emotion Aura (Su)",
@@ -919,8 +859,7 @@
 			"",
 			"**Format:** emotion (DC 17)  ",
 			"**Location:** Aura."
-		],
-		"display": "umr"
+		]
 	},
 	"unstoppable": {
 		"name": "Unstoppable (Ex) [Mythic]",
@@ -933,8 +872,7 @@
 			"",
 			"**Format:** unstoppable  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"steal": {
 		"name": "Steal (Ex) [Mythic]",
@@ -947,8 +885,7 @@
 			"",
 			"**Format:** steal  ",
 			"**Location:** individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"capsize": {
 		"name": "Capsize (Ex)",
@@ -961,8 +898,7 @@
 			"",
 			"**Format:** capsize  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"plant_traits": {
 		"name": "Plant Traits (Ex)",
@@ -975,8 +911,7 @@
 			"",
 			"**Format:** plant traits  ",
 			"**Location:** Immune."
-		],
-		"display": "umr"
+		]
 	},
 	"whirlwind": {
 		"name": "Whirlwind (Su)",
@@ -1001,8 +936,7 @@
 			"",
 			"**Format:** whirlwind (3/day, 10-30 ft. high, 1d6+6 damage, DC 15)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"incorporeal": {
 		"name": "Incorporeal (Ex)",
@@ -1023,8 +957,7 @@
 			"",
 			"**Format:** incorporeal  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"breath_weapon": {
 		"name": "Breath Weapon (Su)",
@@ -1037,8 +970,7 @@
 			"",
 			"**Format:** breath weapon (60-ft. cone, 8d6 fire damage, Reflex DC 20 for half, usable every 1d4 rounds)  ",
 			"**Location:** Special Attacks; if the breath does more than just deal damage, it also appears under Special Abilities with its own entry."
-		],
-		"display": "umr"
+		]
 	},
 	"burn": {
 		"name": "Burn (Ex)",
@@ -1051,8 +983,7 @@
 			"",
 			"**Format:** burn (2d6, DC 15)  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"umr988d.html": {
 		"name": "Natural Attacks",
@@ -1090,8 +1021,7 @@
 			"",
 			"**Format:** bite +5 (1d6+1), 2 claws +5 (1d4+2), 4 tentacles +0 (1d4+1)  ",
 			"**Location:** Melee and Ranged."
-		],
-		"display": "umr"
+		]
 	},
 	"spell-like_abilities": {
 		"name": "Spell-Like Abilities (Sp)",
@@ -1110,8 +1040,7 @@
 			"",
 			"**Format:** At will-[burning hands](spell/burning_hands) (DC 13)  ",
 			"**Location:** Spell-Like Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"jet": {
 		"name": "Jet (Ex)",
@@ -1124,8 +1053,7 @@
 			"",
 			"**Format:** jet (200 ft.)  ",
 			"**Location:** Speed."
-		],
-		"display": "umr"
+		]
 	},
 	"thoughtsense": {
 		"name": "Thoughtsense (Su)",
@@ -1138,8 +1066,7 @@
 			"",
 			"**Format:** thoughtsense 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"rake": {
 		"name": "Rake (Ex)",
@@ -1152,8 +1079,7 @@
 			"",
 			"**Format:** rake (2 claws +8, 1d4+2)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"horseman_traits": {
 		"name": "Horseman Traits (Ex, Sp, or Su)",
@@ -1173,8 +1099,7 @@
 			"- Resistance to cold 30, electricity 30, and fire 30.",
 			"- Summon Daemon (Sp) Three times per day as a swift action, a Horseman can summon any daemon or combination of daemons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
-		],
-		"display": "umr"
+		]
 	},
 	"dragon_fury": {
 		"name": "Dragon Fury (Su) [Mythic]",
@@ -1187,8 +1112,7 @@
 			"",
 			"**Format:** dragon fury (1d6 fire)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"water_dependency": {
 		"name": "Water Dependency (Ex)",
@@ -1201,8 +1125,7 @@
 			"",
 			"**Format:** water dependency  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"mythic_power": {
 		"name": "Mythic Power (Su) [Mythic]",
@@ -1215,8 +1138,7 @@
 			"",
 			"**Format:** mythic power (3/day, surge +1d6)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"ooze_traits": {
 		"name": "Ooze Traits (Ex)",
@@ -1229,8 +1151,7 @@
 			"",
 			"**Format:** ooze traits  ",
 			"**Location:** Immune."
-		],
-		"display": "umr"
+		]
 	},
 	"umra916.html": {
 		"name": "Psychopomp Usher Traits",
@@ -1254,8 +1175,7 @@
 			"- Heightened Awareness (Ex): An usher gains a +10 insight bonus on Sense Motive checks and initiative checks.",
 			"- Mythic: An usher functions as a 10th-rank mythic creature, including having the mythic power ability (10/day, surge +1d12). It can expend uses of mythic power to use the mythic versions of any spell-like ability denoted with a superscript \"M,\" as if the ability were a mythic spell.",
 			"- Spell-Like Abilities: At will-[discern location](spell/discern_location), [fabricate](spell/fabricate), [polymorph any object](spell/polymorph_any_object) (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and [rest eternal](spell/rest_eternal); 1/day-[miracle](spell/miracle) (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), [true resurrection](spell/true_resurrection) (the usher can use [true resurrection](spell/true_resurrection) to restore slain outsiders to life)."
-		],
-		"display": "umr"
+		]
 	},
 	"rock_throwing": {
 		"name": "Rock Throwing (Ex)",
@@ -1268,8 +1188,7 @@
 			"",
 			"**Format:** rock throwing (120 ft.)  ",
 			"**Location:** Special Attacks (damage is listed in Ranged attack entry)."
-		],
-		"display": "umr"
+		]
 	},
 	"umraff4.html": {
 		"name": "Spells",
@@ -1279,8 +1198,7 @@
 			"",
 			"**Source**[Bestiary 5 pg. 299](source/bestiary_5)  ",
 			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic/wondrous/incense_of_meditation) or a [pearl of power](magic/wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](unknown/cleric_domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
-		],
-		"display": "umr"
+		]
 	},
 	"freeze": {
 		"name": "Freeze (Ex)",
@@ -1293,8 +1211,7 @@
 			"",
 			"**Format:** freeze  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"swallow_whole": {
 		"name": "Swallow Whole (Ex)",
@@ -1307,8 +1224,7 @@
 			"",
 			"**Format:** swallow whole (5d6 acid damage, AC 15, 18 hp);  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"dragon_cantrips": {
 		"name": "Dragon Cantrips (Su) [Mythic]",
@@ -1321,8 +1237,7 @@
 			"",
 			"**Format:** dragon cantrips  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"split": {
 		"name": "Split (Ex)",
@@ -1335,8 +1250,7 @@
 			"",
 			"**Format:** split (piercing and slashing, 10 hp)  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"natural_invisibility": {
 		"name": "Natural Invisibility (Ex or Su)",
@@ -1349,8 +1263,7 @@
 			"",
 			"**Format:** natural invisibility  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"greensight": {
 		"name": "Greensight (Su)",
@@ -1363,8 +1276,7 @@
 			"",
 			"**Format:** greensight 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"water_breathing": {
 		"name": "Water Breathing (Ex)",
@@ -1377,8 +1289,7 @@
 			"",
 			"**Format:** water breathing  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"second_save": {
 		"name": "Second Save (Ex) [Mythic]",
@@ -1391,8 +1302,7 @@
 			"",
 			"**Format:** second save  ",
 			"**Location:** After saving throws."
-		],
-		"display": "umr"
+		]
 	},
 	"tremorsense": {
 		"name": "Tremorsense (Ex)",
@@ -1405,8 +1315,7 @@
 			"",
 			"**Format:** tremorsense 60 ft.  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"regeneration": {
 		"name": "Regeneration (Ex)",
@@ -1423,8 +1332,7 @@
 			"",
 			"**Format:** regeneration 5 (acid, fire)  ",
 			"**Location:** hp."
-		],
-		"display": "umr"
+		]
 	},
 	"curse_of_lycanthropy": {
 		"name": "Curse of Lycanthropy (Su)",
@@ -1437,8 +1345,7 @@
 			"",
 			"**Format:** curse of lycanthropy  ",
 			"**Location:** individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"keen_scent": {
 		"name": "Keen Scent (Ex)",
@@ -1451,8 +1358,7 @@
 			"",
 			"**Format:** keen scent  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"unnatural_aura": {
 		"name": "Unnatural Aura (Su)",
@@ -1465,8 +1371,7 @@
 			"",
 			"**Format:** unnatural aura (30 ft.)  ",
 			"**Location:** Aura."
-		],
-		"display": "umr"
+		]
 	},
 	"lifesense": {
 		"name": "Lifesense (Su)",
@@ -1479,8 +1384,7 @@
 			"",
 			"**Format:** lifesense  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"trample": {
 		"name": "Trample (Ex)",
@@ -1493,8 +1397,7 @@
 			"",
 			"**Format:** trample (2d6+9, DC 20)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"recuperation": {
 		"name": "Recuperation (Ex) [Mythic]",
@@ -1507,8 +1410,7 @@
 			"",
 			"**Format:** recuperation  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"fortification": {
 		"name": "Fortification (Ex)",
@@ -1521,8 +1423,7 @@
 			"",
 			"**Format:** fortification (50%)  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"poisonous_blood": {
 		"name": "Poisonous Blood (Ex) [Mythic]",
@@ -1535,8 +1436,7 @@
 			"",
 			"**Format:** poisonous blood (dragon bile)  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"mythic_immortality": {
 		"name": "Mythic Immortality (Su) [Mythic]",
@@ -1549,8 +1449,7 @@
 			"",
 			"**Format:** mythic immortality  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"smother": {
 		"name": "Smother (Ex)",
@@ -1567,8 +1466,7 @@
 			"",
 			"**Format:** smother  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"surge": {
 		"name": "Surge (Su) [Mythic]",
@@ -1578,8 +1476,7 @@
 			"",
 			"**Source**[Mythic Adventures pg. 228](source/mythic_adventures)  ",
 			"The monster can call upon its mythic power to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it's mindless or of animal-level intelligence. (See the [Mythic Rules](rule/mythic_rules) for more information.) Surge doesn't have a separate entry in the monster stat block-the surge die is listed in the mythic power ability."
-		],
-		"display": "umr"
+		]
 	},
 	"change_shape": {
 		"name": "Change Shape (Su)",
@@ -1592,8 +1489,7 @@
 			"",
 			"**Format:** change shape (wolf; [beast form I](spell/beast_form_1))  ",
 			"**Location:** SQ, and in Special Abilities for creatures with a unique listing."
-		],
-		"display": "umr"
+		]
 	},
 	"fast_healing": {
 		"name": "Fast Healing (Ex)",
@@ -1606,8 +1502,7 @@
 			"",
 			"**Format:** fast healing 5  ",
 			"**Location:** hp."
-		],
-		"display": "umr"
+		]
 	},
 	"constrict": {
 		"name": "Constrict (Ex)",
@@ -1620,8 +1515,7 @@
 			"",
 			"**Format:** constrict (1d8+6)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"display_of_strength": {
 		"name": "Display of Strength (Su) [Mythic]",
@@ -1634,8 +1528,7 @@
 			"",
 			"**Format:** display of strength  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"disease": {
 		"name": "Disease (Ex or Su)",
@@ -1648,8 +1541,7 @@
 			"",
 			"**Format:** Disease Name (Ex or Su) Bite-injury; save Fort DC 15, onset 1d3 days, frequency 1/day, effect 1 Con damage, cure 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"blood_drain": {
 		"name": "Blood Drain (Ex)",
@@ -1662,8 +1554,7 @@
 			"",
 			"**Format:** blood drain (1d2 Con)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"no_breath": {
 		"name": "No Breath (Ex)",
@@ -1676,8 +1567,7 @@
 			"",
 			"**Format:** no breath  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"mistsight": {
 		"name": "Mistsight (Ex)",
@@ -1690,8 +1580,7 @@
 			"",
 			"**Format:** mistsight  ",
 			"**Location:** Senses."
-		],
-		"display": "umr"
+		]
 	},
 	"ferocity": {
 		"name": "Ferocity (Ex)",
@@ -1704,8 +1593,7 @@
 			"",
 			"**Format:** ferocity  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"psychic_resilience": {
 		"name": "Psychic Resilience (Ex)",
@@ -1718,8 +1606,7 @@
 			"",
 			"**Format:** +4 vs. psychic spells  ",
 			"**Location:** After saves and in Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"mental_static_aura": {
 		"name": "Mental Static Aura (Su)",
@@ -1732,8 +1619,7 @@
 			"",
 			"**Format:** mental static (DC 18)  ",
 			"**Location:** Aura."
-		],
-		"display": "umr"
+		]
 	},
 	"ability_damage_and_drain": {
 		"name": "Ability Damage and Drain (Ex or Su)",
@@ -1746,8 +1632,7 @@
 			"",
 			"**Format:** 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"all-around_vision": {
 		"name": "All-Around Vision (Ex)",
@@ -1760,8 +1645,7 @@
 			"",
 			"**Format:** all-around vision  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"trip": {
 		"name": "Trip (Ex)",
@@ -1774,8 +1658,7 @@
 			"",
 			"**Format:** trip (bite)  ",
 			"**Location:** individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"demon_lord_traits": {
 		"name": "Demon Lord Traits (Ex, Sp, or Su)",
@@ -1795,8 +1678,7 @@
 			"- Resistance to acid 30, cold 30, and fire 30.",
 			"- Summon Demons (Sp) Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
-		],
-		"display": "umr"
+		]
 	},
 	"qlippoth_lord_traits": {
 		"name": "Qlippoth Lord Traits (Ex, Sp, or Su)",
@@ -1815,8 +1697,7 @@
 			"- Resistance to acid 30, electricity 30, and fire 30.",
 			"- Summon Qlippoth (Sp) Once per day as a standard action, a qlippoth lord can summon any combination of qlippoth whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
-		],
-		"display": "umr"
+		]
 	},
 	"powerful_charge": {
 		"name": "Powerful Charge (Ex)",
@@ -1829,8 +1710,7 @@
 			"",
 			"**Format:** powerful charge (gore, 4d8+24)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"stench": {
 		"name": "Stench (Ex)",
@@ -1843,8 +1723,7 @@
 			"",
 			"**Format:** stench (DC 15, 10 rounds)  ",
 			"**Location:** Aura."
-		],
-		"display": "umr"
+		]
 	},
 	"summon": {
 		"name": "Summon (Sp)",
@@ -1857,8 +1736,7 @@
 			"",
 			"**Format:** 1/day-summon (level 4, 1 [hezrou](monster/hezrou) 35%)  ",
 			"**Location:** Spell-Like Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"flight": {
 		"name": "Flight (Ex or Su)",
@@ -1871,8 +1749,7 @@
 			"",
 			"**Format:** fly 30 ft. (average)  ",
 			"**Location:** Speed."
-		],
-		"display": "umr"
+		]
 	},
 	"resistance": {
 		"name": "Resistance (Ex)",
@@ -1885,8 +1762,7 @@
 			"",
 			"**Format:** Resist acid 10  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"immunity": {
 		"name": "Immunity (Ex or Su)",
@@ -1899,8 +1775,7 @@
 			"",
 			"**Format:** Immune acid, fire, paralysis  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"poison": {
 		"name": "Poison (Ex or Su)",
@@ -1913,8 +1788,7 @@
 			"",
 			"**Format:** Poison Name (Ex) Sting-injury; save Fort DC 22, frequency 1/round for 6 rounds, effect 1d4 Con damage, cure 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"undersized_weapons": {
 		"name": "Undersized Weapons (Ex)",
@@ -1927,8 +1801,7 @@
 			"",
 			"**Format:** undersized weapons  ",
 			"**Location:** SQ."
-		],
-		"display": "umr"
+		]
 	},
 	"gaze": {
 		"name": "Gaze (Su)",
@@ -1949,8 +1822,7 @@
 			"",
 			"**Format:** gaze  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"attach": {
 		"name": "Attach (Ex)",
@@ -1963,8 +1835,7 @@
 			"",
 			"**Format:** attach  ",
 			"**Location:** individual attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"distraction": {
 		"name": "Distraction (Ex)",
@@ -1977,8 +1848,7 @@
 			"",
 			"**Format:** distraction (DC 14)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	},
 	"negative_energy_affinity": {
 		"name": "Negative Energy Affinity (Ex)",
@@ -1991,8 +1861,7 @@
 			"",
 			"**Format:** negative energy affinity  ",
 			"**Location:** Defensive Abilities."
-		],
-		"display": "umr"
+		]
 	},
 	"heat": {
 		"name": "Heat (Ex)",
@@ -2005,7 +1874,6 @@
 			"",
 			"**Format:** heat (1d6 fire)  ",
 			"**Location:** Special Attacks."
-		],
-		"display": "umr"
+		]
 	}
 }

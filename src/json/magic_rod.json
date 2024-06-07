@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), threefold sight; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_rod_of_the_thriceborn": {
 		"copyof": "rod_of_the_thriceborn_lesser"
@@ -36,8 +35,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Augment Summoning, [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_rod_of_giant_summoning": {
 		"copyof": "rod_of_giant_summoning_lesser"
@@ -63,8 +61,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), animate rope, cat's grace; **Cost** 1,600 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"chastising_baton": {
 		"name": "Chastising Baton",
@@ -81,8 +78,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), pain strike; **Cost** 2,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"immovable_rod": {
 		"name": "Immovable Rod",
@@ -102,8 +98,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), levitate; **Cost** 2,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"refocusing_rod": {
 		"name": "Refocusing Rod",
@@ -124,8 +119,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level occultist; **Cost** 2,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"utilitarian_rod": {
 		"name": "Utilitarian Rod",
@@ -162,8 +156,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), fabricate, polymorph any object; **Cost** 2,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"recondite_rod_lesser": {
 		"name": "Recondite Rod (lesser)",
@@ -180,8 +173,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Empower Spell, the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_recondite_rod": {
 		"copyof": "recondite_rod_lesser"
@@ -201,14 +193,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), blindness/deafness, wall of force; **Cost** 2,700 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_thriceborn_normal": {
 		"name": "Rod of the Thriceborn (normal)",
 		"sources": [ "Legacy of the First World" ],
-		"copyof": "rod_of_the_thriceborn_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_the_thriceborn_lesser"
 	},
 	"normal_rod_of_the_thriceborn": {
 		"copyof": "rod_of_the_thriceborn_normal"
@@ -228,8 +218,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), bestow curse; **Cost** 4,900 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_mortared_walls": {
 		"name": "Rod of Mortared Walls",
@@ -250,8 +239,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), soften earth and stone, wall of stone; **Cost** 4,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"crypt_rod": {
 		"name": "Crypt Rod",
@@ -268,8 +256,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), [locate object](spell/locate_object); **Cost** 4,250 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_ice": {
 		"name": "Rod of Ice",
@@ -286,8 +273,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), cone of cold; **Cost** 4,250 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"inviolate_marker": {
 		"name": "Inviolate Marker",
@@ -306,8 +292,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), bestow curse, levitate, silent image; **Cost** 5,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_metal_and_mineral_detection": {
 		"name": "Rod of Metal and Mineral Detection",
@@ -327,8 +312,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), locate object; **Cost** 5,250 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_cancellation": {
 		"name": "Rod of Cancellation",
@@ -348,8 +332,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), mage's disjunction; **Cost** 5,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_grasping_hexes": {
 		"name": "Rod of Grasping Hexes",
@@ -366,8 +349,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Reach Spell, creator must possess the hex class feature; **Cost** 5,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_interminable_hexes": {
 		"name": "Rod of Interminable Hexes",
@@ -384,14 +366,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Extend Spell, creator must possess the hex class feature; **Cost** 5,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_giant_summoning_normal": {
 		"name": "Rod of Giant Summoning (normal)",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"copyof": "rod_of_giant_summoning_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_giant_summoning_lesser"
 	},
 	"normal_rod_of_giant_summoning": {
 		"copyof": "rod_of_giant_summoning_normal"
@@ -413,8 +393,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), flame strike, true strike; **Cost** 5,525 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"conduit_rod": {
 		"name": "Conduit Rod",
@@ -433,8 +412,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), dimension door, lightning bolt, resist energy; **Cost** 6,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"grounding_rod": {
 		"name": "Grounding Rod",
@@ -453,8 +431,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), dispel magic, lightning bolt, resist energy; **Cost** 6,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_spellsight": {
 		"name": "Rod of Spellsight",
@@ -471,8 +448,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), gust of wind, true seeing; **Cost** 6,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_wayang": {
 		"name": "Rod of the Wayang",
@@ -489,8 +465,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), shadow conjuration greater, shadow evocation greater; **Cost** 6,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_wonder": {
 		"name": "Rod of Wonder",
@@ -535,8 +510,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), confusion, creator must be chaotic; **Cost** 6,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_animal_training": {
 		"name": "Rod of Animal Training",
@@ -553,8 +527,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), charm animal; **Cost** 6,150 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_subtle_menace": {
 		"name": "Rod of Subtle Menace",
@@ -571,8 +544,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bane; **Cost** 6,152 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_python": {
 		"name": "Rod of the Python",
@@ -592,8 +564,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), baleful polymorph, creator must be good; **Cost** 6,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"trap-stealer's_rod": {
 		"name": "Trap-Stealer's Rod",
@@ -614,8 +585,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), create pit, knock, plane shift; **Cost** 6,750 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"trap_stealer's_rod": {
 		"copyof": "trap-stealer's_rod"
@@ -640,8 +610,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), poison, resistance, creator must have 5 ranks in Sense Motive; **Cost** 7,200 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_balance": {
 		"name": "Rod of Balance",
@@ -660,8 +629,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), cat's grace, feather fall, jump; **Cost** 7,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_escape": {
 		"name": "Rod of Escape",
@@ -680,8 +648,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), bull's strength, cat's grace, shatter; **Cost** 7,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_flame_extinguishing": {
 		"name": "Rod of Flame Extinguishing",
@@ -709,8 +676,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), pyrotechnics; **Cost** 7,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_gripping_smoke": {
 		"name": "Rod of Gripping Smoke",
@@ -729,8 +695,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), solid fog, telekinesis; **Cost** 7,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_ruin": {
 		"name": "Rod of Ruin",
@@ -747,8 +712,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), disintegrate; **Cost** 8,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"sapling_rod": {
 		"name": "Sapling Rod",
@@ -767,8 +731,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), cure moderate wounds, grove of respite (Advanced Player's Guide), lesser restoration; **Cost** 8,325 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"scepter_of_divine_providence": {
 		"name": "Scepter of Divine Providence",
@@ -785,8 +748,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Widen Spell, creator must have the channel energy class feature; **Cost** 8,812 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_beguiling": {
 		"name": "Rod of Beguiling",
@@ -805,8 +767,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), hypnosis; **Cost** 9,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_nettles": {
 		"name": "Rod of Nettles",
@@ -825,8 +786,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), plant growth, poison; **Cost** 9,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_tangling_ectoplasm": {
 		"name": "Rod of Tangling Ectoplasm",
@@ -843,14 +803,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), ectoplasmic snare; **Cost** 9,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"recondite_rod_normal": {
 		"name": "Recondite Rod (normal)",
 		"sources": [ "Psychic Anthology" ],
-		"copyof": "recondite_rod_lesser",
-		"display": "magic/rod"
+		"copyof": "recondite_rod_lesser"
 	},
 	"normal_recondite_rod": {
 		"copyof": "recondite_rod_normal"
@@ -872,8 +830,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), water walk; **Cost** 13,312 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_viper": {
 		"name": "Rod of the Viper",
@@ -893,14 +850,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, creator must be evil; **Cost** 9,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_thriceborn_greater": {
 		"name": "Rod of the Thriceborn (greater)",
 		"sources": [ "Legacy of the First World" ],
-		"copyof": "rod_of_the_thriceborn_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_the_thriceborn_lesser"
 	},
 	"greater_rod_of_the_thriceborn": {
 		"copyof": "rod_of_the_thriceborn_greater"
@@ -922,8 +877,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bestow curse; **Cost** 10,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_devoured_dawn": {
 		"name": "Rod of the Devoured Dawn",
@@ -942,8 +896,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), darkvision, dispel magic, hypnotic pattern, secret chest; **Cost** 10,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"suzerain_scepter": {
 		"name": "Suzerain Scepter",
@@ -960,8 +913,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Leadership, bless, good hope, greater command, the creator must have the Leadership feat; **Cost** 10,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"fiery_nimbus_rod": {
 		"name": "Fiery Nimbus Rod",
@@ -980,8 +932,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), flame blade, flame strike or fireball, fairy fire; **Cost** 11,305 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_enemy_detection": {
 		"name": "Rod of Enemy Detection",
@@ -1001,14 +952,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), true seeing; **Cost** 23,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_giant_summoning_greater": {
 		"name": "Rod of Giant Summoning (greater)",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"copyof": "rod_of_giant_summoning_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_giant_summoning_lesser"
 	},
 	"greater_rod_of_giant_summoning": {
 		"copyof": "rod_of_giant_summoning_greater"
@@ -1028,8 +977,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level kineticist; **Cost** 12,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_perilous_pits": {
 		"name": "Rod of Perilous Pits",
@@ -1046,8 +994,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), create pit, creator must be a caster of at least 12th level; **Cost** 12,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_splendor": {
 		"name": "Rod of Splendor",
@@ -1073,8 +1020,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), eagle's splendor, fabricate, major creation; **Cost** 12,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_alicorn": {
 		"name": "Rod of the Alicorn",
@@ -1091,8 +1037,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), cure light wounds, cure moderate wounds, neutralize poison, creator must be good-aligned; **Cost** 12,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_withering": {
 		"name": "Rod of Withering",
@@ -1112,8 +1057,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), contagion; **Cost** 12,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_vicious_ghosts": {
 		"name": "Rod of Vicious Ghosts",
@@ -1130,8 +1074,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), ethereal jaunt; **Cost** 13,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"fossilizing_rod": {
 		"name": "Fossilizing Rod",
@@ -1148,8 +1091,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), flesh to stone; **Cost** 13,200 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"earthbind_rod": {
 		"name": "Earthbind Rod",
@@ -1169,8 +1111,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), stone shape; **Cost** 13,250 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"pyroclastic_spike": {
 		"name": "Pyroclastic Spike",
@@ -1191,8 +1132,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), firefall; **Cost** 14,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_the_aboleth": {
 		"name": "Rod of the Aboleth",
@@ -1213,8 +1153,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), aboleth's lung, acid arrow, touch of the sea (Advanced Player's Guide); **Cost** 29,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"liberator's_rod": {
 		"name": "Liberator's Rod",
@@ -1233,8 +1172,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), break enchantment, cast out (Advanced Player's Guide), continual flame; **Cost** 15,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_hindered_healing": {
 		"name": "Rod of Hindered Healing",
@@ -1251,8 +1189,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), inflict critical wounds; **Cost** 15,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"witching_rod": {
 		"name": "Witching Rod",
@@ -1271,8 +1208,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), control water, speak with dead, stone shape; **Cost** 16,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_voracious_hexes": {
 		"name": "Rod of Voracious Hexes",
@@ -1289,8 +1225,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Split Hex, creator must have the hex class feature; **Cost** 16,250 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_thunder_and_lightning": {
 		"name": "Rod of Thunder and Lightning",
@@ -1316,8 +1251,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), lightning bolt, shout; **Cost** 16,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"booming_scepter": {
 		"name": "Booming Scepter",
@@ -1334,8 +1268,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), shout, ventriloquism; **Cost** 17,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_delumination": {
 		"name": "Rod of Delumination",
@@ -1354,8 +1287,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Snuffing Spell; **Cost** 17,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_negation": {
 		"name": "Rod of Negation",
@@ -1375,8 +1307,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), dispel magic, limited wish or miracle; **Cost** 18,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_steadfast_resolve": {
 		"name": "Rod of Steadfast Resolve",
@@ -1398,8 +1329,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), bless, calm emotion, creator must have the human subtype; **Cost** 19,305 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"ivory_baton": {
 		"name": "Ivory Baton",
@@ -1416,14 +1346,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), geas/quest, mass charm monster; **Cost** 21,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"recondite_rod_greater": {
 		"name": "Recondite Rod (greater)",
 		"sources": [ "Psychic Anthology" ],
-		"copyof": "recondite_rod_lesser",
-		"display": "magic/rod"
+		"copyof": "recondite_rod_lesser"
 	},
 	"greater_recondite_rod": {
 		"copyof": "recondite_rod_greater"
@@ -1445,8 +1373,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), fabricate, major creation; **Cost** 22,850 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"fool's_scepter": {
 		"name": "Fool's Scepter",
@@ -1467,8 +1394,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), ghost sound, hideous laughter, legend lore; **Cost** 25,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"forked_rod": {
 		"name": "Forked Rod",
@@ -1485,8 +1411,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), dimensional anchor, plane shift; **Cost** 25,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_absorption": {
 		"name": "Rod of Absorption",
@@ -1512,8 +1437,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), spell turning; **Cost** 25,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_flailing": {
 		"name": "Rod of Flailing",
@@ -1537,8 +1461,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bless; **Cost** 25,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_potent_hexes": {
 		"name": "Rod of Potent Hexes",
@@ -1555,8 +1478,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Maximize Spell, creator must possess the hex class feature; **Cost** 27,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"gravitic_force_rod": {
 		"name": "Gravitic Force Rod",
@@ -1573,8 +1495,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), reverse gravity; **Cost** 30,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_rulership": {
 		"name": "Rod of Rulership",
@@ -1594,8 +1515,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), mass charm monster; **Cost** 32,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_security": {
 		"name": "Rod of Security",
@@ -1617,8 +1537,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), gate; **Cost** 30,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_well-deserved_rest": {
 		"name": "Rod of Well-Deserved Rest",
@@ -1637,8 +1556,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), deep slumber, good hope, restful sleep, tiny hut; **Cost** 31,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_well_deserved_rest": {
 		"copyof": "rod_of_well-deserved_rest"
@@ -1661,8 +1579,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), deeper darkness, true seeing; **Cost** 32,305 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_razors": {
 		"name": "Rod of Razors",
@@ -1679,8 +1596,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), blade barrier, keen edge, shield, spiritual weapon; **Cost** 33,435 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_mind_mastery": {
 		"name": "Rod of Mind Mastery",
@@ -1700,8 +1616,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), detect thoughts, discern lies, nondetection; **Cost** 33,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_lordly_might": {
 		"name": "Rod of Lordly Might",
@@ -1740,8 +1655,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bull's strength, fear, flame blade, hold person, inflict light wounds; **Cost** 35,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"scepter_of_heaven": {
 		"name": "Scepter of Heaven",
@@ -1766,8 +1680,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bless weapon, dispel evil, holy smite, holy sword, holy word, spear of purity, creator must be good; **Cost** 37,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_abrupt_hexes": {
 		"name": "Rod of Abrupt Hexes",
@@ -1784,8 +1697,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Quicken Spell, creator must possess the hex class feature; **Cost** 37,750 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lava_rod": {
 		"name": "Lava Rod",
@@ -1802,8 +1714,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), delayed blast fireball; **Cost** 40,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"nightmare_rod": {
 		"name": "Nightmare Rod",
@@ -1824,8 +1735,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), fear, nightmare, phantasmal killer, remove fear; **Cost** 40,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_dwarven_might": {
 		"name": "Rod of Dwarven Might",
@@ -1850,8 +1760,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bull's strength; **Cost** 40,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_revolution": {
 		"name": "Rod of Revolution",
@@ -1868,8 +1777,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), mass charm monster, rage; **Cost** 41,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_alertness": {
 		"name": "Rod of Alertness",
@@ -1891,8 +1799,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), alarm, animate objects, [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), discern lies, light, prayer, see invisibility; **Cost** 42,500 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"dolorous_rod": {
 		"name": "Dolorous Rod",
@@ -1909,8 +1816,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), [Mythic Crafter](feat/mythic_crafter), bestow curse, crushing despair; **Cost** 60,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"hollow_rod": {
 		"name": "Hollow Rod",
@@ -1927,8 +1833,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level kineticist; **Cost** 60,750 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"caduceus_rod": {
 		"name": "Caduceus Rod",
@@ -1955,8 +1860,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), breath of life, deep slumber, heroism, universal formula, creator must have at least 10 ranks in Craft (alchemy); **Cost** 71,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"scepter_of_the_arclords": {
 		"name": "Scepter of the Arclords",
@@ -1984,8 +1888,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), limited wish, wish; **Cost** 100,000 gp"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_metamagic,_eclipsed_lesser": {
 		"name": "Rod of Metamagic, Eclipsed (lesser)",
@@ -2002,8 +1905,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Eclipsed Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_eclipsed_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_eclipsed_lesser"
@@ -2026,8 +1928,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Merciful Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_merciful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_merciful_lesser"
@@ -2047,8 +1948,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_murky_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_murky_lesser"
@@ -2068,8 +1968,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_steam_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_steam_lesser"
@@ -2089,8 +1988,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Apocolyptic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_apocalyptic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_apocalyptic_lesser"
@@ -2110,8 +2008,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Authoritative Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_authoritative_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_authoritative_lesser"
@@ -2131,8 +2028,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Blissful Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_blissful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_blissful_lesser"
@@ -2155,8 +2051,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Bouncing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_bouncing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_bouncing_lesser"
@@ -2176,8 +2071,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Crypt Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_crypt_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_crypt_lesser"
@@ -2200,8 +2094,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Disruptive Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_disruptive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_disruptive_lesser"
@@ -2224,8 +2117,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Ectoplasmic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_ectoplasmic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_ectoplasmic_lesser"
@@ -2248,8 +2140,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Elemental Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_elemental_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_elemental_lesser"
@@ -2272,8 +2163,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Enlarge Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_enlarge_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_enlarge_lesser"
@@ -2296,8 +2186,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Extend Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_extend_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_extend_lesser"
@@ -2317,8 +2206,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Flaring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_flaring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_flaring_lesser"
@@ -2341,8 +2229,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Focused Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_focused_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_focused_lesser"
@@ -2362,8 +2249,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Furious Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_furious_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_furious_lesser"
@@ -2386,8 +2272,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Intensified Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_intensified_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_intensified_lesser"
@@ -2410,8 +2295,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Lingering Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_lingering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_lingering_lesser"
@@ -2431,8 +2315,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Logical Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_logical_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_logical_lesser"
@@ -2452,8 +2335,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Piercing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_piercing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_piercing_lesser"
@@ -2476,8 +2358,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Reach Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_reach_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_reach_lesser"
@@ -2497,8 +2378,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Rime Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_rime_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_rime_lesser"
@@ -2518,8 +2398,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Scarring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_scarring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_scarring_lesser"
@@ -2542,8 +2421,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Selective Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_selective_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_selective_lesser"
@@ -2566,8 +2444,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Silent Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_silent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_silent_lesser"
@@ -2587,8 +2464,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Stable Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_stable_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stable_lesser"
@@ -2608,8 +2484,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Toppling Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_toppling_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_toppling_lesser"
@@ -2629,8 +2504,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Tumultuous Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_tumultuous_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_tumultuous_lesser"
@@ -2638,8 +2512,7 @@
 	"rod_of_metamagic,_eclipsed_normal": {
 		"name": "Rod of Metamagic, Eclipsed (normal)",
 		"sources": [ "Blood of Shadows" ],
-		"copyof": "rod_of_metamagic,_eclipsed_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_eclipsed_lesser"
 	},
 	"normal_eclipsed_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_eclipsed_normal"
@@ -2650,8 +2523,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_merciful_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_merciful_lesser"
 	},
 	"normal_merciful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_merciful_normal"
@@ -2659,8 +2531,7 @@
 	"rod_of_metamagic,_murky_normal": {
 		"name": "Rod of Metamagic, Murky (normal)",
 		"sources": [ "Aquatic Adventures" ],
-		"copyof": "rod_of_metamagic,_murky_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_murky_lesser"
 	},
 	"normal_murky_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_murky_normal"
@@ -2668,8 +2539,7 @@
 	"rod_of_metamagic,_steam_normal": {
 		"name": "Rod of Metamagic, Steam (normal)",
 		"sources": [ "Aquatic Adventures" ],
-		"copyof": "rod_of_metamagic,_steam_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_steam_lesser"
 	},
 	"normal_steam_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_steam_normal"
@@ -2689,8 +2559,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Burning Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_burning_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_burning_lesser"
@@ -2710,8 +2579,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Concussive Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_concussive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_concussive_lesser"
@@ -2734,8 +2602,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Empower Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_empower_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_empower_lesser"
@@ -2755,8 +2622,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Fearsome Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_fearsome_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_fearsome_lesser"
@@ -2779,8 +2645,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Persistent Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_persistent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_persistent_lesser"
@@ -2803,8 +2668,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Sickening Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_sickening_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_sickening_lesser"
@@ -2824,8 +2688,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Snuffing Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_snuffing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_snuffing_lesser"
@@ -2845,8 +2708,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Stygian Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_stygian_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stygian_lesser"
@@ -2866,8 +2728,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Thanatopic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_thanatopic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thanatopic_lesser"
@@ -2887,8 +2748,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Threnodic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_threnodic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_threnodic_lesser"
@@ -2911,8 +2771,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Thundering Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_thundering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thundering_lesser"
@@ -2932,8 +2791,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Traumatic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_traumatic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_traumatic_lesser"
@@ -2941,8 +2799,7 @@
 	"rod_of_metamagic,_apocalyptic_normal": {
 		"name": "Rod of Metamagic, Apocalyptic (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_apocalyptic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_apocalyptic_lesser"
 	},
 	"normal_apocalyptic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_apocalyptic_normal"
@@ -2950,8 +2807,7 @@
 	"rod_of_metamagic,_authoritative_normal": {
 		"name": "Rod of Metamagic, Authoritative (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_authoritative_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_authoritative_lesser"
 	},
 	"normal_authoritative_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_authoritative_normal"
@@ -2959,8 +2815,7 @@
 	"rod_of_metamagic,_blissful_normal": {
 		"name": "Rod of Metamagic, Blissful (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_blissful_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_blissful_lesser"
 	},
 	"normal_blissful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_blissful_normal"
@@ -2971,8 +2826,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_bouncing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_bouncing_lesser"
 	},
 	"normal_bouncing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_bouncing_normal"
@@ -2980,8 +2834,7 @@
 	"rod_of_metamagic,_crypt_normal": {
 		"name": "Rod of Metamagic, Crypt (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_crypt_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_crypt_lesser"
 	},
 	"normal_crypt_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_crypt_normal"
@@ -2992,8 +2845,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_disruptive_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_disruptive_lesser"
 	},
 	"normal_disruptive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_disruptive_normal"
@@ -3004,8 +2856,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_ectoplasmic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_ectoplasmic_lesser"
 	},
 	"normal_ectoplasmic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_ectoplasmic_normal"
@@ -3016,8 +2867,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_elemental_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_elemental_lesser"
 	},
 	"normal_elemental_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_elemental_normal"
@@ -3028,8 +2878,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_enlarge_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_enlarge_lesser"
 	},
 	"normal_enlarge_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_enlarge_normal"
@@ -3040,8 +2889,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_extend_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_extend_lesser"
 	},
 	"normal_extend_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_extend_normal"
@@ -3049,8 +2897,7 @@
 	"rod_of_metamagic,_flaring_normal": {
 		"name": "Rod of Metamagic, Flaring (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_flaring_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_flaring_lesser"
 	},
 	"normal_flaring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_flaring_normal"
@@ -3061,8 +2908,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_focused_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_focused_lesser"
 	},
 	"normal_focused_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_focused_normal"
@@ -3070,8 +2916,7 @@
 	"rod_of_metamagic,_furious_normal": {
 		"name": "Rod of Metamagic, Furious (normal)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_furious_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_furious_lesser"
 	},
 	"normal_furious_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_furious_normal"
@@ -3082,8 +2927,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_intensified_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_intensified_lesser"
 	},
 	"normal_intensified_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_intensified_normal"
@@ -3094,8 +2938,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_lingering_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_lingering_lesser"
 	},
 	"normal_lingering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_lingering_normal"
@@ -3103,8 +2946,7 @@
 	"rod_of_metamagic,_logical_normal": {
 		"name": "Rod of Metamagic, Logical (normal)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_logical_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_logical_lesser"
 	},
 	"normal_logical_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_logical_normal"
@@ -3112,8 +2954,7 @@
 	"rod_of_metamagic,_piercing_normal": {
 		"name": "Rod of Metamagic, Piercing (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_piercing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_piercing_lesser"
 	},
 	"normal_piercing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_piercing_normal"
@@ -3124,8 +2965,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_reach_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_reach_lesser"
 	},
 	"normal_reach_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_reach_normal"
@@ -3133,8 +2973,7 @@
 	"rod_of_metamagic,_rime_normal": {
 		"name": "Rod of Metamagic, Rime (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_rime_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_rime_lesser"
 	},
 	"normal_rime_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_rime_normal"
@@ -3142,8 +2981,7 @@
 	"rod_of_metamagic,_scarring_normal": {
 		"name": "Rod of Metamagic, Scarring (normal)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_scarring_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_scarring_lesser"
 	},
 	"normal_scarring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_scarring_normal"
@@ -3154,8 +2992,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_selective_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_selective_lesser"
 	},
 	"normal_selective_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_selective_normal"
@@ -3166,8 +3003,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_silent_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_silent_lesser"
 	},
 	"normal_silent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_silent_normal"
@@ -3175,8 +3011,7 @@
 	"rod_of_metamagic,_stable_normal": {
 		"name": "Rod of Metamagic, Stable (normal)",
 		"sources": [ "Wardens of the Reborn Forge" ],
-		"copyof": "rod_of_metamagic,_stable_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_stable_lesser"
 	},
 	"normal_stable_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stable_normal"
@@ -3184,8 +3019,7 @@
 	"rod_of_metamagic,_toppling_normal": {
 		"name": "Rod of Metamagic, Toppling (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_toppling_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_toppling_lesser"
 	},
 	"normal_toppling_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_toppling_normal"
@@ -3193,8 +3027,7 @@
 	"rod_of_metamagic,_tumultuous_normal": {
 		"name": "Rod of Metamagic, Tumultuous (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_tumultuous_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_tumultuous_lesser"
 	},
 	"normal_tumultuous_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_tumultuous_normal"
@@ -3202,8 +3035,7 @@
 	"rod_of_metamagic,_eclipsed_greater": {
 		"name": "Rod of Metamagic, Eclipsed (greater)",
 		"sources": [ "Blood of Shadows" ],
-		"copyof": "rod_of_metamagic,_eclipsed_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_eclipsed_lesser"
 	},
 	"greater_eclipsed_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_eclipsed_greater"
@@ -3214,8 +3046,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_merciful_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_merciful_lesser"
 	},
 	"greater_merciful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_merciful_greater"
@@ -3223,8 +3054,7 @@
 	"rod_of_metamagic,_murky_greater": {
 		"name": "Rod of Metamagic, Murky (greater)",
 		"sources": [ "Aquatic Adventures" ],
-		"copyof": "rod_of_metamagic,_murky_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_murky_lesser"
 	},
 	"greater_murky_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_murky_greater"
@@ -3232,8 +3062,7 @@
 	"rod_of_metamagic,_steam_greater": {
 		"name": "Rod of Metamagic, Steam (greater)",
 		"sources": [ "Aquatic Adventures" ],
-		"copyof": "rod_of_metamagic,_steam_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_steam_lesser"
 	},
 	"greater_steam_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_steam_greater"
@@ -3256,8 +3085,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Dazing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_dazing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_dazing_lesser"
@@ -3277,8 +3105,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Echoing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_echoing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_echoing_lesser"
@@ -3298,8 +3125,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Familiar Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_familiar_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_familiar_lesser"
@@ -3322,8 +3148,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Maximize Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_maximize_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_maximize_lesser"
@@ -3343,8 +3168,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Widen Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_widen_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_widen_lesser"
@@ -3352,8 +3176,7 @@
 	"rod_of_metamagic,_apocalyptic_greater": {
 		"name": "Rod of Metamagic, Apocalyptic (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_apocalyptic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_apocalyptic_lesser"
 	},
 	"greater_apocalyptic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_apocalyptic_greater"
@@ -3361,8 +3184,7 @@
 	"rod_of_metamagic,_authoritative_greater": {
 		"name": "Rod of Metamagic, Authoritative (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_authoritative_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_authoritative_lesser"
 	},
 	"greater_authoritative_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_authoritative_greater"
@@ -3370,8 +3192,7 @@
 	"rod_of_metamagic,_blissful_greater": {
 		"name": "Rod of Metamagic, Blissful (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_blissful_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_blissful_lesser"
 	},
 	"greater_blissful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_blissful_greater"
@@ -3382,8 +3203,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_bouncing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_bouncing_lesser"
 	},
 	"greater_bouncing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_bouncing_greater"
@@ -3391,8 +3211,7 @@
 	"rod_of_metamagic,_crypt_greater": {
 		"name": "Rod of Metamagic, Crypt (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_crypt_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_crypt_lesser"
 	},
 	"greater_crypt_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_crypt_greater"
@@ -3403,8 +3222,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_disruptive_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_disruptive_lesser"
 	},
 	"greater_disruptive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_disruptive_greater"
@@ -3415,8 +3233,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_ectoplasmic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_ectoplasmic_lesser"
 	},
 	"greater_ectoplasmic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_ectoplasmic_greater"
@@ -3427,8 +3244,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_elemental_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_elemental_lesser"
 	},
 	"greater_elemental_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_elemental_greater"
@@ -3439,8 +3255,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_enlarge_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_enlarge_lesser"
 	},
 	"greater_enlarge_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_enlarge_greater"
@@ -3451,8 +3266,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_extend_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_extend_lesser"
 	},
 	"greater_extend_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_extend_greater"
@@ -3460,8 +3274,7 @@
 	"rod_of_metamagic,_flaring_greater": {
 		"name": "Rod of Metamagic, Flaring (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_flaring_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_flaring_lesser"
 	},
 	"greater_flaring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_flaring_greater"
@@ -3472,8 +3285,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_focused_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_focused_lesser"
 	},
 	"greater_focused_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_focused_greater"
@@ -3481,8 +3293,7 @@
 	"rod_of_metamagic,_furious_greater": {
 		"name": "Rod of Metamagic, Furious (greater)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_furious_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_furious_lesser"
 	},
 	"greater_furious_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_furious_greater"
@@ -3493,8 +3304,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_intensified_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_intensified_lesser"
 	},
 	"greater_intensified_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_intensified_greater"
@@ -3505,8 +3315,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_lingering_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_lingering_lesser"
 	},
 	"greater_lingering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_lingering_greater"
@@ -3514,8 +3323,7 @@
 	"rod_of_metamagic,_logical_greater": {
 		"name": "Rod of Metamagic, Logical (greater)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_logical_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_logical_lesser"
 	},
 	"greater_logical_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_logical_greater"
@@ -3523,8 +3331,7 @@
 	"rod_of_metamagic,_piercing_greater": {
 		"name": "Rod of Metamagic, Piercing (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_piercing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_piercing_lesser"
 	},
 	"greater_piercing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_piercing_greater"
@@ -3535,8 +3342,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_reach_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_reach_lesser"
 	},
 	"greater_reach_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_reach_greater"
@@ -3544,8 +3350,7 @@
 	"rod_of_metamagic,_rime_greater": {
 		"name": "Rod of Metamagic, Rime (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_rime_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_rime_lesser"
 	},
 	"greater_rime_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_rime_greater"
@@ -3553,8 +3358,7 @@
 	"rod_of_metamagic,_scarring_greater": {
 		"name": "Rod of Metamagic, Scarring (greater)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_scarring_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_scarring_lesser"
 	},
 	"greater_scarring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_scarring_greater"
@@ -3565,8 +3369,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_selective_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_selective_lesser"
 	},
 	"greater_selective_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_selective_greater"
@@ -3577,8 +3380,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_silent_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_silent_lesser"
 	},
 	"greater_silent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_silent_greater"
@@ -3586,8 +3388,7 @@
 	"rod_of_metamagic,_stable_greater": {
 		"name": "Rod of Metamagic, Stable (greater)",
 		"sources": [ "Wardens of the Reborn Forge" ],
-		"copyof": "rod_of_metamagic,_stable_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_stable_lesser"
 	},
 	"greater_stable_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stable_greater"
@@ -3595,8 +3396,7 @@
 	"rod_of_metamagic,_toppling_greater": {
 		"name": "Rod of Metamagic, Toppling (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_toppling_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_toppling_lesser"
 	},
 	"greater_toppling_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_toppling_greater"
@@ -3604,8 +3404,7 @@
 	"rod_of_metamagic,_tumultuous_greater": {
 		"name": "Rod of Metamagic, Tumultuous (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_tumultuous_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_tumultuous_lesser"
 	},
 	"greater_tumultuous_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_tumultuous_greater"
@@ -3613,8 +3412,7 @@
 	"rod_of_metamagic,_burning_normal": {
 		"name": "Rod of Metamagic, Burning (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_burning_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_burning_lesser"
 	},
 	"normal_burning_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_burning_normal"
@@ -3622,8 +3420,7 @@
 	"rod_of_metamagic,_concussive_normal": {
 		"name": "Rod of Metamagic, Concussive (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_concussive_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_concussive_lesser"
 	},
 	"normal_concussive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_concussive_normal"
@@ -3634,8 +3431,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_empower_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_empower_lesser"
 	},
 	"normal_empower_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_empower_normal"
@@ -3643,8 +3439,7 @@
 	"rod_of_metamagic,_fearsome_normal": {
 		"name": "Rod of Metamagic, Fearsome (normal)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_fearsome_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_fearsome_lesser"
 	},
 	"normal_fearsome_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_fearsome_normal"
@@ -3655,8 +3450,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_persistent_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_persistent_lesser"
 	},
 	"normal_persistent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_persistent_normal"
@@ -3667,8 +3461,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_sickening_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_sickening_lesser"
 	},
 	"normal_sickening_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_sickening_normal"
@@ -3676,8 +3469,7 @@
 	"rod_of_metamagic,_snuffing_normal": {
 		"name": "Rod of Metamagic, Snuffing (normal)",
 		"sources": [ "Blood of Shadows" ],
-		"copyof": "rod_of_metamagic,_snuffing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_snuffing_lesser"
 	},
 	"normal_snuffing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_snuffing_normal"
@@ -3685,8 +3477,7 @@
 	"rod_of_metamagic,_stygian_normal": {
 		"name": "Rod of Metamagic, Stygian (normal)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_stygian_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_stygian_lesser"
 	},
 	"normal_stygian_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stygian_normal"
@@ -3694,8 +3485,7 @@
 	"rod_of_metamagic,_thanatopic_normal": {
 		"name": "Rod of Metamagic, Thanatopic (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_thanatopic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_thanatopic_lesser"
 	},
 	"normal_thanatopic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thanatopic_normal"
@@ -3703,8 +3493,7 @@
 	"rod_of_metamagic,_threnodic_normal": {
 		"name": "Rod of Metamagic, Threnodic (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_threnodic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_threnodic_lesser"
 	},
 	"normal_threnodic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_threnodic_normal"
@@ -3715,8 +3504,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_thundering_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_thundering_lesser"
 	},
 	"normal_thundering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thundering_normal"
@@ -3724,8 +3512,7 @@
 	"rod_of_metamagic,_traumatic_normal": {
 		"name": "Rod of Metamagic, Traumatic (normal)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_traumatic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_traumatic_lesser"
 	},
 	"normal_traumatic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_traumatic_normal"
@@ -3748,8 +3535,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Rod](feat/craft_rod), Quicken Spell; **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_quicken_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_quicken_lesser"
@@ -3760,8 +3546,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_dazing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_dazing_lesser"
 	},
 	"normal_dazing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_dazing_normal"
@@ -3769,8 +3554,7 @@
 	"rod_of_metamagic,_echoing_normal": {
 		"name": "Rod of Metamagic, Echoing (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_echoing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_echoing_lesser"
 	},
 	"normal_echoing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_echoing_normal"
@@ -3778,8 +3562,7 @@
 	"rod_of_metamagic,_familiar_normal": {
 		"name": "Rod of Metamagic, Familiar (normal)",
 		"sources": [ "Animal Archive" ],
-		"copyof": "rod_of_metamagic,_familiar_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_familiar_lesser"
 	},
 	"normal_familiar_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_familiar_normal"
@@ -3790,8 +3573,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_maximize_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_maximize_lesser"
 	},
 	"normal_maximize_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_maximize_normal"
@@ -3799,8 +3581,7 @@
 	"rod_of_metamagic,_widen_normal": {
 		"name": "Rod of Metamagic, Widen (normal)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_widen_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_widen_lesser"
 	},
 	"normal_widen_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_widen_normal"
@@ -3808,8 +3589,7 @@
 	"rod_of_metamagic,_burning_greater": {
 		"name": "Rod of Metamagic, Burning (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_burning_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_burning_lesser"
 	},
 	"greater_burning_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_burning_greater"
@@ -3817,8 +3597,7 @@
 	"rod_of_metamagic,_concussive_greater": {
 		"name": "Rod of Metamagic, Concussive (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_concussive_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_concussive_lesser"
 	},
 	"greater_concussive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_concussive_greater"
@@ -3829,8 +3608,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_empower_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_empower_lesser"
 	},
 	"greater_empower_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_empower_greater"
@@ -3838,8 +3616,7 @@
 	"rod_of_metamagic,_fearsome_greater": {
 		"name": "Rod of Metamagic, Fearsome (greater)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_fearsome_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_fearsome_lesser"
 	},
 	"greater_fearsome_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_fearsome_greater"
@@ -3850,8 +3627,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_persistent_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_persistent_lesser"
 	},
 	"greater_persistent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_persistent_greater"
@@ -3862,8 +3638,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_sickening_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_sickening_lesser"
 	},
 	"greater_sickening_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_sickening_greater"
@@ -3871,8 +3646,7 @@
 	"rod_of_metamagic,_snuffing_greater": {
 		"name": "Rod of Metamagic, Snuffing (greater)",
 		"sources": [ "Blood of Shadows" ],
-		"copyof": "rod_of_metamagic,_snuffing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_snuffing_lesser"
 	},
 	"greater_snuffing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_snuffing_greater"
@@ -3880,8 +3654,7 @@
 	"rod_of_metamagic,_stygian_greater": {
 		"name": "Rod of Metamagic, Stygian (greater)",
 		"sources": [ "Planar Adventures" ],
-		"copyof": "rod_of_metamagic,_stygian_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_stygian_lesser"
 	},
 	"greater_stygian_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_stygian_greater"
@@ -3889,8 +3662,7 @@
 	"rod_of_metamagic,_thanatopic_greater": {
 		"name": "Rod of Metamagic, Thanatopic (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_thanatopic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_thanatopic_lesser"
 	},
 	"greater_thanatopic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thanatopic_greater"
@@ -3898,8 +3670,7 @@
 	"rod_of_metamagic,_threnodic_greater": {
 		"name": "Rod of Metamagic, Threnodic (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_threnodic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_threnodic_lesser"
 	},
 	"greater_threnodic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_threnodic_greater"
@@ -3910,8 +3681,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_thundering_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_thundering_lesser"
 	},
 	"greater_thundering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_thundering_greater"
@@ -3919,8 +3689,7 @@
 	"rod_of_metamagic,_traumatic_greater": {
 		"name": "Rod of Metamagic, Traumatic (greater)",
 		"sources": [ "Occult Adventures" ],
-		"copyof": "rod_of_metamagic,_traumatic_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_traumatic_lesser"
 	},
 	"greater_traumatic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_traumatic_greater"
@@ -3931,8 +3700,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_quicken_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_quicken_lesser"
 	},
 	"normal_quicken_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_quicken_normal"
@@ -3943,8 +3711,7 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "rod_of_metamagic,_dazing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_dazing_lesser"
 	},
 	"greater_dazing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_dazing_greater"
@@ -3952,8 +3719,7 @@
 	"rod_of_metamagic,_echoing_greater": {
 		"name": "Rod of Metamagic, Echoing (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_echoing_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_echoing_lesser"
 	},
 	"greater_echoing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_echoing_greater"
@@ -3961,8 +3727,7 @@
 	"rod_of_metamagic,_familiar_greater": {
 		"name": "Rod of Metamagic, Familiar (greater)",
 		"sources": [ "Animal Archive" ],
-		"copyof": "rod_of_metamagic,_familiar_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_familiar_lesser"
 	},
 	"greater_familiar_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_familiar_greater"
@@ -3973,8 +3738,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_maximize_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_maximize_lesser"
 	},
 	"greater_maximize_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_maximize_greater"
@@ -3982,8 +3746,7 @@
 	"rod_of_metamagic,_widen_greater": {
 		"name": "Rod of Metamagic, Widen (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "rod_of_metamagic,_widen_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_widen_lesser"
 	},
 	"greater_widen_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_widen_greater"
@@ -3994,8 +3757,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "rod_of_metamagic,_quicken_lesser",
-		"display": "magic/rod"
+		"copyof": "rod_of_metamagic,_quicken_lesser"
 	},
 	"greater_quicken_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic,_quicken_greater"
@@ -4025,8 +3787,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 5, Wis 10, Cha 8  ",
 			"**Communication** none (none)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"lesser_rod_that_should_not_be": {
 		"copyof": "rod_that_should_not_be_lesser"
@@ -4056,8 +3817,7 @@
 			"**Senses** 120 ft., darkvision  ",
 			"**Int** 10, Wis 10, Cha 8  ",
 			"**Communication** telepathy (Aklo)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"greater_rod_that_should_not_be": {
 		"copyof": "rod_that_should_not_be_greater"
@@ -4088,8 +3848,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, Wis 13, Cha 12  ",
 			"**Communication** telepathy (Celestial; truespeech)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"metamagician's_apprentice": {
 		"name": "Metamagician's Apprentice",
@@ -4124,8 +3883,7 @@
 			"**Senses** 120 ft.  ",
 			"**Int** 18, Wis 14, Cha 10  ",
 			"**Communication** telepathy (Common and eight other languages)"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_arson": {
 		"name": "Rod of Arson",
@@ -4146,8 +3904,7 @@
 			"### Construction",
 			"",
 			"**Requirements** rod of flame extinguishing; **Cost** -"
-		],
-		"display": "magic/rod"
+		]
 	},
 	"rod_of_foiled_magic": {
 		"name": "Rod of Foiled Magic",
@@ -4163,7 +3920,6 @@
 			"### Construction",
 			"",
 			"**Requirements** metamagic rod; **Cost** -"
-		],
-		"display": "magic/rod"
+		]
 	}
 }

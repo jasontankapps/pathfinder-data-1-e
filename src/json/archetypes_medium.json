@@ -30,8 +30,7 @@
 			"This ability replaces haunt channeler, location channel, connection channel, and ask the spirits.",
 			"",
 			"**Ex-Fiend Keepers:** A fiend keeper who becomes permanently evil loses control of the spirit after 1d4+1 days, at which point he becomes an NPC under the GM's full control. Seeking an atonement spell before then can change the medium's alignment. This effect also can be undone with a limited wish, miracle, or wish spell."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"kami_medium": {
 		"name": "Kami Medium",
@@ -59,8 +58,7 @@
 			"**Ask the Kami (Su):** At 13th level, a kami medium can ask the local kami for information, as commune with nature. While he can do so any number of times per day, he can ask questions of the kami in any particular area only once per day. Afterward, he must move to a non-overlapping area to use this ability again. This ability replaces ask the spirits.",
 			"",
 			"**Ward (Su):** At 14th level, a kami medium can declare an area or object that's an appropriate place to contact his channeled kami as his ward. This grants the kami medium the ward and merge with ward abilities of the kami subtype. For large areas such as lakes or storms, a kami medium's ward encompasses a radius of up to 5 feet per medium level. This ability replaces astral journey."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"medium_of_the_master": {
 		"name": "Medium of the Master",
@@ -110,8 +108,7 @@
 			"**Master's Style (Su):** At 17th level, when a medium of the master channels a champion spirit, she gains a bonus [style feat](unknown/style_feat) and the two feats in that style's feat path. She does not have to meet the prerequisites for these feats.",
 			"",
 			"This alters spirit power (supreme)."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"nexian_channeler": {
 		"name": "Nexian Channeler",
@@ -131,8 +128,7 @@
 			"**Third Eye Mastery (Su):** At 19th level, a Nexian channeler can open his third eye for longer than normal. He can open his third eye for 5 minutes per medium level (increasing to 10 minutes per medium level if he selects a taboo); this duration must be used in 5-minute increments. Uses of analyze dweomer cost him 5-minute increments instead of 1-minute increments, and he can use the read aura occult skill unlock with his third eye multiple times per day; each use takes only 1 minute but costs 5 minutes of the duration he can keep his third eye open. This ability replaces spirit mastery.",
 			"",
 			"**Living Third Eye (Su):** At 20th level, a Nexian channeler is as one with his third eye. It is open at all times, he can use analyze dweomer and the read aura occult skill unlock at will, and the destruction of his arcane eye does not adversely affect him. This ability replaces astral beacon."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"outer_channeler": {
 		"name": "Outer Channeler",
@@ -172,8 +168,7 @@
 			"**Ask the Planes (Sp):** At 14th level, an outer channeler gains the ask the spirits ability of the standard medium, except he sends his consciousness to a native plane of his chosen outsider subtype (Heaven for archons, Hell for devils, any good-aligned plane for angels, and so on).",
 			"",
 			"This ability alters ask the spirits and replaces astral journey."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"reanimated_medium": {
 		"name": "Reanimated Medium",
@@ -199,8 +194,7 @@
 			"**Spirit Warding (Su):** At 7th level, the reanimated medium can ward himself from other spirits and the grave's call. He gains a +4 bonus on saving throws against possession, death effects, and negative energy. This stacks with the bonus to resist possession that mediums gain from having high influence. At 18th level, he becomes immune to possession, death effects, and negative energy. This ability replaces connection channel and spacious soul.",
 			"",
 			"**Living Legend (Su):** At 20th level, the reanimated medium reaches the legendary potential from which he borrowed so long ago and becomes a living embodiment of his legend. Any ally in the reanimated medium's presence can perform a seance to channel the reanimated medium (the seance takes 1 hour and is subject to the other rules for a medium's seance). Each ally can do this only once per day. At the end of the seance, the reanimated medium can choose to reduce his influence by 1 point. If the reanimated medium does so, some of his spirit seeps into that ally, which can then spend that 1 point of influence to use any of the reanimated medium's abilities that decrease influence. This ability replaces astral beacon."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"relic_channeler": {
 		"name": "Relic Channeler",
@@ -220,8 +214,7 @@
 			"**Apport Relic (Su):** At 5th level, a relic channeler can call one of her relics to her once per day as though she had cast apport object on it and was mentally completing the spell. Furthermore, if the relic channeler gains the apport object spell, she can use it to receive her relics without casting it on them in advance in the same way. The range at which the relic channeler can apport her relics (both with this ability and the spell) increases by an additional 5 feet for every 2 levels she possesses beyond 5th. This ability replaces location channel.",
 			"",
 			"**Connection Specialty (Sp):** At 7th level, a relic channeler gains connection channel and can use that ability as a normal medium, despite not possessing location channel. She requires familiarity to use this ability, even if she is in an appropriate location. This ability alters connection channel."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"rivethun_spirit_channeler": {
 		"name": "Rivethun Spirit Channeler",
@@ -251,8 +244,7 @@
 			"**Haunt Channeler:** A rivethun spirit channeler receives this ability at 7th level instead of at 3rd level.",
 			"",
 			"This ability replaces connection channel."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"spirit_dancer": {
 		"name": "Spirit Dancer",
@@ -284,8 +276,7 @@
 			"**Dance of Infinite Forms (Su):** At 20th level, a spirit dancer has perfected his dance. He can now use each of his supreme spirit powers' once-per-day abilities one time each day, instead of just one ability. He can use his spirit troika by spending 2 rounds of spirit dance instead of 3. Finally, he can enter a spirit dance with all six of his prepared spirits at once by spending 4 rounds of spirit dance each round.",
 			"",
 			"This ability replaces astral beacon."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"spirit_eater": {
 		"name": "Spirit Eater",
@@ -305,8 +296,7 @@
 			"A spirit eater's body can hold a number of creatures equal to his spirit bonus. If he attempts to consume another creature after this point, he releases the creature that has been contained in his body longest. He can release a consumed creature as a free action. A consumed creature attempts to escape after 24 hours. The spirit eater can attempt to keep a consumed creature in his body by attempting a Will save (DC = 10 + half the spirit eater's level + twice the number of the creatures he has contained in his body). If he succeeds, the consumed creatures remain, but they grant the spirit eater's channeled spirit 1 point of influence over him. A released creature is destroyed as if it were reduced to 0 hit points and can reconstitute again later, if able.",
 			"",
 			"This replaces location channel and connection channel."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"storm_dreamer": {
 		"name": "Storm Dreamer",
@@ -336,8 +326,7 @@
 			"**Storm Seer (Su):** At 7th level, a storm dreamer gains a supernatural link to the weather and can sense her surroundings more clearly. While in her storm trance, she gains blindsense 10 feet and cannot be flanked. If the weather conditions are stormy, these senses become blindsight with a range of 30 feet.",
 			"",
 			"This ability replaces connection channel."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"storyteller": {
 		"name": "Storyteller",
@@ -369,8 +358,7 @@
 			"**Living Story (Sp):** At 20th level, a storyteller gains the ability to sweep others away into a story of his own making. He must perform for 1 full round, telling a tale to set the snare for his living story and spending 1 round of his storyteller's performance. At the end of that round, he can affect up to 30 Hit Dice of listeners within range with microcosm. Unlike with a normal microcosm, this is also a sonic and language-dependent ability, and a creature with 16 or more Hit Dice that succeeds at its save is immune to the storyteller's living story ability for 24 hours.",
 			"",
 			"This ability replaces astral beacon."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"uda_wendo": {
 		"name": "Uda Wendo",
@@ -406,8 +394,7 @@
 			"**:** At 3rd level, an uda wendo can invoke the wendo to commune with nearby spirits for a number of minutes per day equal to his level. These minutes don't need to be used consecutively, but they must be spent in 1-minute increments. The uda wendo can use this ability to speak with corpses (as per speak with dead) at 3rd level, with animals and plants (as per speak with animals or speak with plants) at 5th level, and with humanoids (as per tongues) at 7th level.",
 			"",
 			"This ability replaces haunt channeler, location channel, and connection channel."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"vessel_of_the_failed": {
 		"name": "Vessel of the Failed",
@@ -457,8 +444,7 @@
 			"**Marshal:** The vessel of the failed can cast greater heroism as a spell-like ability.",
 			"",
 			"**Trickster:** The vessel of the failed can cast true seeing as a spell-like ability."
-		],
-		"display": "archetype/medium"
+		]
 	},
 	"voice_of_the_void": {
 		"name": "Voice of the Void",
@@ -484,7 +470,6 @@
 			"**Void Channeler (Su):** At 3rd level, the voice of the void can funnel energy from the emissaries' realm through himself. A number of times per day equal to his Charisma modifier, the medium can unleash a burst of energy that damages all other creatures except aberrations within 30 feet of him. The burst deals 1d6 points of damage + 1d6 additional points of damage for every 2 medium levels the medium has beyond 3rd. Creatures receive a Will save to halve the damage (DC = 10 + 1/2 the medium's level + the medium's Charisma modifier). Creatures with fewer HD than half the medium's level who fail the Will save are also confused for 1d4 rounds.",
 			"",
 			"This ability replaces haunt channeler."
-		],
-		"display": "archetype/medium"
+		]
 	}
 }

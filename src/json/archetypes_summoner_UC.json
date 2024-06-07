@@ -16,8 +16,7 @@
 			"**Planar Tinkering (Ex):** At 3rd level, a construct caller learns to better shape planar energy to improve her eidolon. The number of points in her eidolon's evolution pool increases by 1. The number of points in the eidolon's evolution pool increases by an additional 1 at 7th level and every 4 levels thereafter, for a total of 5 additional points at 19th level.",
 			"",
 			"This replaces summon monster I."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"devil_binder": {
 		"name": "Devil Binder",
@@ -47,8 +46,7 @@
 			"**Smite Chaos (Su):** At 6th level, the summoner's eidolon gains the ability to smite chaos as a Hellknight (see page 90) of its Hit Dice. This ability can be used once per day and an additional time for every 4 levels beyond 6th.",
 			"",
 			"This ability replaces maker's call and the eidolon's devotion ability."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"devil_impostor": {
 		"name": "Devil Impostor",
@@ -72,8 +70,7 @@
 			"**Devil's Tongue (Ex):** At 12th level, the devil impostor's eidolon can apply its master's skill ranks and proficiency bonuses when attempting Bluff, Diplomacy, and Intimidate skill checks. This ability replaces greater shield ally.",
 			"",
 			"**Fiendish Appearance (Su):** At 8th level, a devil impostor can use her maker's call ability to immediately dismiss her eidolon and take on its appearance. This functions as a modified alter self spell, transforming the devil impostor into a replica of her eidolon. She gains a single natural attack possessed by her eidolon, and if her eidolon is smaller than Small or larger than Medium, she assumes the form of a Small- or Medium-sized version of her eidolon, respectively. The transformation lasts for 10 minutes &times; her unchained summoner level or until the eidolon is resummoned. This ability replaces transposition."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"fey_caller": {
 		"name": "Fey Caller",
@@ -115,8 +112,7 @@
 			"At 16th level, fey eidolons gain the ability to use either blindness/deafness, detect thoughts, glitterdust, hideous laughter, invisibility (self only), minor image, mirror image, or tongues as a spell-like ability three times per day. They also can select an additional spell-like ability from the 1stlevel list or the 8th-level list.",
 			"",
 			"At 20th level, fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use either mass suggestion, mislead, programmed image, or veil as a spell-like ability once per day. They also can select an additional spell-like ability from the 1st-level list, the 8th-level list, or the 16th-level list."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"god_caller": {
 		"name": "God Caller",
@@ -150,8 +146,7 @@
 			"**Overwhelming Presence (Sp):** At 20th level, a god caller's eidolon can use overwhelming presence (Pathfinder RPG Ultimate Magic 230) three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.",
 			"",
 			"This ability replaces twin eidolon."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"leshy_caller": {
 		"name": "Leshy Caller",
@@ -185,8 +180,7 @@
 			"**Summon Nature's Ally (Sp):** A leshy caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast summon nature's ally IX or gate. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
 			"This alters summon monster."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"soulbound_summoner": {
 		"name": "Soulbound Summoner",
@@ -212,8 +206,7 @@
 			"**Soulbound Evolution:** A soulbound summoner's eidolon gains power from its unusually strong bond with its summoner. At 3rd level, and again at 5th, 7th, and 9th level, the eidolon adds 1 point to its evolution pool. At 11th level, and again at 15th, 17th, and 19th level, the eidolon adds 2 points to its evolution pool. At 7th level, the eidolon can select evolutions even if it does not meet the subtype requirements for that evolution.",
 			"",
 			"At 13th level, the eidolon can draw from its summoner's power to cast spells. The spell must be a spell that the summoner knows, and the summoner must expend two spell slots of the same spell level or higher to allow the eidolon to cast the spell. Expending spell slots in this way does not take an action. The eidolon uses the summoner's caster level, feats, and casting statistics for all spellcasting purposes. The eidolon must be able to meet all other requirements for casting the spell, such as being able to speak for spells requiring verbal components and providing any material components or focuses for spells that require them. The eidolon must be able to move its body to cast spells with somatic components, but it does not need to have the limbs (arms) evolution."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"storm_caller": {
 		"name": "Storm Caller",
@@ -251,8 +244,7 @@
 			"At 10th level, the storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the aspect ability (and at 18th level, the greater aspect ability) to gain additional evolutions.",
 			"",
 			"This ability replaces maker's call and transposition."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	},
 	"twinned_summoner": {
 		"name": "Twinned Summoner",
@@ -276,7 +268,6 @@
 			"**Twin Summoner (Su):** At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.",
 			"",
 			"This ability replaces the merge forms class feature."
-		],
-		"display": "archetype/summoner_UC"
+		]
 	}
 }

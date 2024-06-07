@@ -19,8 +19,7 @@
 			"A cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance bonus on Acrobatics checks.",
 			"",
 			"The listed price, implantation, and install DC are for having two legs installed. A single cybernetic leg costs half the price and half the listed implantation value, but no significant bonus is granted to a creature with only one cybernetic leg. Both legs (or all legs, in the case of multilegged creatures) must be replaced for the above benefits to take effect."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"cranial_bomb": {
 		"name": "cranial bomb",
@@ -39,8 +38,7 @@
 			"Craft Cybertech, cybernetics lab",
 			"",
 			"A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's (see page 43) signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by breath of life or raise dead. If detonated outside a body, the bomb instead creates a small explosion, dealing the damage detailed above in a 5-foot-radius burst (Reflex DC 13 half)."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"cybernetic_eyes": {
 		"name": "cybernetic eyes",
@@ -61,8 +59,7 @@
 			"A cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod (see page 53) at a price equal to twice the veemod's normal price.",
 			"",
 			"The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"optical_turrets": {
 		"name": "optical turrets",
@@ -83,8 +80,7 @@
 			"These cybernetic implants replace the recipient's eyes with turrets containing multiple lenses, such as one finds on an optical microscope. In addition to providing normal vision, the implants can rapidly adjust to varying light levels, making the wearer immune to both the blind and dazzled conditions.",
 			"",
 			"If the wearer is willing or helpless, additional lenses can be added (or removed) from the optical turrets with 1 minute's work. Each of the three turrets can hold one eyes slot magic item. These lenses do not count against the wearer's limit of one eyes slot item, but only one function can be active at a time. The wearer can change which of the installed lenses is active (or deactivate them all) as a swift action."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"cybernetic_ears": {
 		"name": "cybernetic ears",
@@ -105,8 +101,7 @@
 			"A cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.",
 			"",
 			"The listed price, implantation value, and install DC are for having both ears installed. A single cybernetic ear costs half the price and half the listed implantation value, but a creature must replace all of its ears to receive the benefits above."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"skillslot": {
 		"name": "skillslot",
@@ -155,8 +150,7 @@
 			"his mind. When a skillchip is removed, its benefits end",
 			"",
 			"immediately, but the wearer suffers no ill effects."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"frenzychip": {
 		"name": "frenzychip",
@@ -175,8 +169,7 @@
 			"Craft Cybertech, cybernetics lab",
 			"",
 			"A frenzychip is installed into a creature's brain. Successful implantation leaves no trace of the operation. Once in place, a frenzychip patches directly in to the patient's motor skills and emotions. As long as she's not fatigued or exhausted, the user of a frenzychip can activate it as a swift action. While active, it grants a +2 morale bonus to Strength and Dexterity, a +1 morale bonus on Reflex saving throws, and a -2 penalty on Will saving throws. The user may use a frenzychip for up to 10 rounds per day, though the rounds need not be consecutive. Once the effects end, she becomes fatigued for twice as many rounds as she was under the frenzychip's effects."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"dermal_plating_mark_i": {
 		"name": "dermal plating (mark I)",
@@ -204,8 +197,7 @@
 			"| Mark III | +3 | 4 | DC 28 |",
 			"| Mark IV | +4 | 8 | DC 30 |",
 			"| Mark V | +5 | 10 | DC 32 |"
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"cyberfiber_muscles_mark_i": {
 		"name": "cyberfiber muscles (mark I)",
@@ -231,8 +223,7 @@
 			"| Mark I | +2 Str | 2 | DC 24 |",
 			"| Mark II | +4 Str | 4 | DC 28 |",
 			"| Mark III | +6 Str | 8 | DC 36 |"
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"thoracic_nanite_chamber_mark_i": {
 		"name": "thoracic nanite chamber (mark I)",
@@ -258,8 +249,7 @@
 			"| Mark I | +2 Con | 2 | DC 24 |",
 			"| Mark II | +4 Con | 4 | DC 28 |",
 			"| Mark III | +6 Con | 8 | DC 36 |"
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"wirejack_tendons_mark_i": {
 		"name": "wirejack tendons (mark I)",
@@ -285,8 +275,7 @@
 			"| Mark I | +2 Dex | 2 | DC 24 |",
 			"| Mark II | +4 Dex | 4 | DC 28 |",
 			"| Mark III | +6 Dex | 8 | DC 36 |"
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"biofilter": {
 		"name": "biofilter",
@@ -305,8 +294,7 @@
 			"Craft Cybertech, cybernetics lab",
 			"",
 			"A nanite matrix is installed in the kidneys and liver to help purge the body of toxins. A biofilter provides a +4 competence bonus on saving throws against disease and poison. In addition, when the user attempts such a saving throw, she rolls twice and takes the higher result."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"dermal_plating_mark_ii": {
 		"name": "dermal plating (mark II)",
@@ -320,8 +308,7 @@
 			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
 		],
-		"copyof": "dermal_plating_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_ii": {
 		"name": "cyberfiber muscles (mark II)",
@@ -335,8 +322,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "cyberfiber_muscles_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_ii": {
 		"name": "thoracic nanite chamber (mark II)",
@@ -350,8 +336,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "thoracic_nanite_chamber_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_ii": {
 		"name": "wirejack tendons (mark II)",
@@ -365,8 +350,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "wirejack_tendons_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_iii": {
 		"name": "dermal plating (mark III)",
@@ -380,8 +364,7 @@
 			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
 		],
-		"copyof": "dermal_plating_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "dermal_plating_mark_i"
 	},
 	"dermal_plating_mark_iv": {
 		"name": "dermal plating (mark IV)",
@@ -395,8 +378,7 @@
 			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
 		],
-		"copyof": "dermal_plating_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_iii": {
 		"name": "cyberfiber muscles (mark III)",
@@ -410,8 +392,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "cyberfiber_muscles_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_iii": {
 		"name": "thoracic nanite chamber (mark III)",
@@ -425,8 +406,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "thoracic_nanite_chamber_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_iii": {
 		"name": "wirejack tendons (mark III)",
@@ -440,8 +420,7 @@
 			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
 		],
-		"copyof": "wirejack_tendons_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_v": {
 		"name": "dermal plating (mark V)",
@@ -455,8 +434,7 @@
 			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
 			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
 		],
-		"copyof": "dermal_plating_mark_i",
-		"display": "equiptechcyber"
+		"copyof": "dermal_plating_mark_i"
 	},
 	"cybernetic_arm": {
 		"name": "cybernetic arm",
@@ -475,8 +453,7 @@
 			"Craft Cybertech, cybernetics lab",
 			"",
 			"A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. If a creature has two cybernetic arms, it can lift and carry double the normal maximum weight for that creature's Strength and size, and it gains a +5 circumstance bonus on Climb checks. A character who wields a onehanded or light weapon with a cybernetic arm gains a +5 bonus to CMD against disarm attempts; two cybernetic arms do not increase this bonus, but do allow the bonus to apply to two-handed weapons."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"implanted_weaponry": {
 		"name": "implanted weaponry",
@@ -495,8 +472,7 @@
 			"Craft Cybertech, cybernetics lab, weapon to be implanted",
 			"",
 			"A single light melee weapon or one-handed firearm can be implanted in an arm or cybernetic arm. Melee weapons extend or retract as a swift action. Ranged weapons fire through a port on the palm or back of the wrist. Either type of weapon has statistics identical to its normal form. Firearms reload through a breach in the arm, increasing the reloading time of the weapon to a full-round action, or doubling reloading times that already take a full round or longer. Implanted weapons are well concealed; detecting one requires a thorough search (Perception DC 25). Implanted weaponry can be damaged or destroyed by sundering, but cannot be disarmed. Weaponry installed in a cybernetic arm does not count against a creature's implantation limit. The cost, price, and weight of the weapon to be implanted are added to the cost, price, and weight listed in this stat block."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"cyberart": {
 		"name": "cyberart",
@@ -515,8 +491,7 @@
 			"Craft Cybertech, cybernetics lab",
 			"",
 			"Cyberart is the least invasive of all cybertech. This implant is similar in appearance to a tattoo, except that it can glow softly if desired, providing illumination equal to that provided by a candle. Some cyberart is animated, providing a short looping scene that replays over and over. Cyberart is installed in a body with a small metallic stylus that injects low-grade nanites into a body part; the quality of the art relies on the installer's Craft (painting or tattoo) check."
-		],
-		"display": "equiptechcyber"
+		]
 	},
 	"implant_mesh": {
 		"name": "implant mesh",
@@ -537,7 +512,6 @@
 			"An implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber muscles, a thoracic nanite chamber, or wirejack tendons, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. If the check to implant the mesh into the other cybernetic item fails, the implant mesh is destroyed.",
 			"",
 			"Once a piece of cybertech has been augmented by an implant mesh, that cybertech implant no longer counts as taking up a body slot for the purposes of installing other cybernetic devices into that slot. Enhancing a cybernetic device with an implant mesh doesn't alter the device's install DC, but does increase its implantation value by 2. For example, a mark II thoracic nanite chamber enhanced with an implant mesh could be implanted in a creature that already has cyberfiber muscles or dermal plating, but the augmented thoracic nanite chamber's implantation value increases to 6."
-		],
-		"display": "equiptechcyber"
+		]
 	}
 }

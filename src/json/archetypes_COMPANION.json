@@ -24,8 +24,7 @@
 			"**Fluid Bones (Ex):** At 9th level, an aberrant companion gains compression as per the universal monster rule, though it can use the ability while carrying a rider only if the rider has compression.",
 			"",
 			"This replaces Multiattack and the +2 natural armor increase at 9th level."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"accursed_companion": {
 		"name": "Accursed Companion",
@@ -65,8 +64,7 @@
 			"**Unexpected Frenzy (Su):** The accursed companion looks normal, but some conditions or phrases cause the animal to fly into a murderous frenzy. When an accursed companion gains this condition, the GM determines three specific situations that can trigger the manifestation of the unexpected frenzy, such as a character petting the companion on the head, a keyword or key phrase such as \"good dog,\" or the sight of a specific type of creature within 10 feet. The first time each day one of the three triggers occurs, the accursed companion flies into its frenzy. Its eyes glow, and any sounds it makes take on an eerie, hollow echo. The companion acts as if under the effects of [haste](spell/haste) for 1d4 rounds before returning to normal, and it typically attacks the source of its trigger. While her companion is frenzied, the master is overwhelmed with shame and despair, suffering as if under the effects of a [crushing despair](spell/crushing_despair) spell for twice the length of the accursed companion's frenzy. A successful Will save negates this effect.",
 			"",
 			"**Unsavory Friends (Su):** The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the distraction effect caused by all swarms, the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"ambusher": {
 		"name": "Ambusher",
@@ -84,8 +82,7 @@
 			"**Cunning Ambusher (Ex):** At 3rd level, an ambusher gains uncanny dodge. At 6th level, an ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered flat-footed against the ambusher's attacks, even if they have already acted. At 9th level, an ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.",
 			"",
 			"This replaces evasion, devotion, and Multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"apex_species": {
 		"name": "Apex Species",
@@ -137,8 +134,7 @@
 			"**Underground:** The apex species gains a burrow speed equal to half its base land speed, or increases its existing burrow speed by 10 feet.",
 			"",
 			"This replaces multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"augmented_companion": {
 		"name": "Augmented Companion",
@@ -160,8 +156,7 @@
 			"**Constructed Form (Ex):** At 6th level, an augmented companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or constructs, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target constructs.",
 			"",
 			"This replaces devotion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"auspice": {
 		"name": "Auspice",
@@ -181,8 +176,7 @@
 			"**Aligned Strike (Ex):** At 15th level, an auspice's attacks count as chaotic, evil, good, or lawful (whichever matches its alignment) for the purpose of overcoming damage reduction, unless the auspice is true neutral.",
 			"",
 			"This replaces improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"bodyguard": {
 		"name": "Bodyguard",
@@ -213,8 +207,7 @@
 			"**Greater Tenacity (Ex):** At 15th level, a bodyguard with fewer than 0 hit points gains a +4 morale bonus on attack rolls, saving throws, and skill checks; immunity to fear effects; and temporary hit points equal to its master's class level (maximum 20). It dies only if its hit points reach a negative total equal to twice its Constitution score plus its master's class level.",
 			"",
 			"This replaces improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"bully": {
 		"name": "Bully",
@@ -232,8 +225,7 @@
 			"**Bullying Thrill (Ex):** At 9th level, whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage rolls until the end of its next turn.",
 			"",
 			"This replaces Multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"charger": {
 		"name": "Charger",
@@ -255,8 +247,7 @@
 			"**Indefatigable (Ex):** At 6th level, a charger becomes immune to fatigue. This ability replaces devotion.",
 			"",
 			"**Stalwart Steed (Ex):** At 15th level, the charger gains the ability to withstand great punishment and stress. Whenever the charger succeeds at a Fortitude or Will save that would normally result in a reduced or partial effect, the charger is unaffected. This ability replaces improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"daredevil": {
 		"name": "Daredevil",
@@ -278,8 +269,7 @@
 			"**Devil May Care (Ex):** At 9th level, a daredevil can't be flanked.",
 			"",
 			"This replaces Multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"deathtouched_companion": {
 		"name": "Deathtouched Companion",
@@ -303,8 +293,7 @@
 			"**One Foot in the Grave (Ex):** At 6th level, a deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as halt undead.",
 			"",
 			"This replaces devotion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"draconic_companion": {
 		"name": "Draconic Companion",
@@ -334,8 +323,7 @@
 			"**Breath Weapon (Ex):** At 9th level, a draconic companion gains a breath weapon, usable once per day, that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability). At 15th level, it can use the breath weapon three times per day, but it must wait 1d4 rounds between uses. Targets of this breath weapon can attempt a Reflex save (DC = 10 + half the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.",
 			"",
 			"This replaces Multiattack and improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"elemental_companion": {
 		"name": "Elemental Companion",
@@ -355,8 +343,7 @@
 			"**Greater Elemental Manifestation (Su):** At 9th level, an elemental companion gains an additional ability based on its element. An air companion gains a fly speed of 20 feet (good maneuverability); an air companion that already has a fly speed instead improves its maneuverability by one category. An earth companion's natural attacks overcome damage reduction as though they were adamantine, cold iron, and silver weapons. For a fire companion, choose one natural attack; that attack deals an additional 1d6 points of fire damage for every 5 Hit Dice the companion has. For a water companion, choose one melee natural attack; that attack gains the push (10 feet) special ability (Pathfinder RPG Bestiary 2 300).",
 			"",
 			"This replaces multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"feytouched_companion": {
 		"name": "Feytouched Companion",
@@ -382,8 +369,7 @@
 			"**Iron Bane (Ex):** At 3rd level, a feytouched companion gains damage reduction 1/cold iron. This damage reduction increases by 1 for every 3 levels beyond 3rd. Any creature holding or wearing an item made out of cold iron takes a -10 penalty on Handle Animal checks to handle the feytouched companion.",
 			"",
 			"This replaces evasion, devotion, and improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"precocious_companion": {
 		"name": "Precocious Companion",
@@ -401,8 +387,7 @@
 			"**Perspicacious Mind (Ex):** At 4th or 7th level, whenever the precocious companion would normally gain the choice of a listed score advancement or a +2 bonus to Dexterity and Constitution, it instead gains a +2 bonus to its Intelligence score and a +4 bonus to its Wisdom and Charisma scores.",
 			"",
 			"This replaces the 4th- or 7th-level ability score advancement."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"racer": {
 		"name": "Racer",
@@ -425,8 +410,7 @@
 			"**Sprint (Ex):** At 6th level, once per hour a racer can move at 10 times its normal speed when it makes a charge or uses the run action.",
 			"",
 			"This replaces devotion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"totem_guide": {
 		"name": "Totem Guide",
@@ -455,8 +439,7 @@
 			"**Ghost Guardian (Ex):** At 15th level, a totem guide's natural weapons deal full damage to incorporeal creatures, and its natural armor bonus applies against incorporeal touch attacks. A totem guide can never be transformed into or animated as an undead creature.",
 			"",
 			"This replaces improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"tracker": {
 		"name": "Tracker",
@@ -474,8 +457,7 @@
 			"**Expert Tracker (Ex):** A tracker gains a competence bonus on Survival checks to track via scent equal to half its total Hit Dice. At 6th level, it can move at its normal speed while using Survival to follow tracks without taking the normal -5 penalty. It takes only a -10 penalty (instead of the normal -20 penalty) when moving at up to twice its normal speed while tracking.",
 			"",
 			"This replaces share spells and devotion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"unexpected_intellectual": {
 		"name": "Unexpected Intellectual",
@@ -491,8 +473,7 @@
 			"**Genius that Creeps and Crawls (Ex):** The unexpected intellectual gains an Intelligence score of 2 and can gain skills and feats. It loses the mindless quality.",
 			"",
 			"This replaces share spells."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"verdant_companion": {
 		"name": "Verdant Companion",
@@ -510,8 +491,7 @@
 			"**Verdant Resistance (Ex):** A verdant companion gains a +1 racial bonus on saving throws against mind-affecting effects, paralysis, poison, polymorph, sleep effects, and stunning. This bonus increases to +2 at 3rd level, +3 at 6th level, and +4 at 15th level. At 6th level, a verdant companion gains roots it can plant or retract as a swift action. With its roots planted, it can't move, but it gains a +4 bonus to its CMD against bull rush, pull, push, reposition, trip, and other combat maneuvers that would knock it over or move it.",
 			"",
 			"This replaces share spells, evasion, devotion, and improved evasion."
-		],
-		"display": "archetype/companion"
+		]
 	},
 	"wrecker": {
 		"name": "Wrecker",
@@ -527,7 +507,6 @@
 			"**Destructive Wrecker (Ex):** A wrecker's natural attacks ignore an inanimate object's first 5 points of hardness. At 9th level, a wrecker's natural attacks count as if they were adamantine for the purpose of overcoming a construct's damage reduction.",
 			"",
 			"This replaces share spells and Multiattack."
-		],
-		"display": "archetype/companion"
+		]
 	}
 }

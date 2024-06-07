@@ -175,8 +175,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Two-Headed Giant Eagle](monster/giant_eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Celestial Griffon](monster/celestial_griffon) - LN",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Kolyarut](monster/kolyarut) - LN"
-		],
-		"display": "faith"
+		]
 	},
 	"abhoth": {
 		"name": "Abhoth",
@@ -207,8 +206,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"abraxas": {
 		"name": "Abraxas",
@@ -290,8 +288,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"acavna": {
 		"name": "Acavna",
@@ -312,8 +309,7 @@
 			"**Subdomains** [Ancestors](domain/repose), [Defense](domain/protection), [Moon](domain/darkness), [Night](domain/darkness), [Tactics](domain/war), [Wards](domain/rune)  ",
 			"**Favored Weapon** [Spear](equipment/weapon/spear)  ",
 			"**Symbol** Crossed spears over a full moon"
-		],
-		"display": "faith"
+		]
 	},
 	"achaekek": {
 		"name": "Achaekek",
@@ -418,8 +414,7 @@
 			"#### Druid",
 			"",
 			"- [Murderous Command](spell/murderous_command) can be prepared as a 1st-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"aegirran": {
 		"name": "Aegirran",
@@ -442,8 +437,7 @@
 			"**Symbol** Spouting whale  ",
 			"**Sacred Animal(s)** Whale  ",
 			"**Sacred Color(s)** Blue, gray"
-		],
-		"display": "faith"
+		]
 	},
 	"aerekostes": {
 		"name": "Aerekostes",
@@ -472,8 +466,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 74](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Aerekostes can grant 9th-level spells"
-		],
-		"display": "faith"
+		]
 	},
 	"aesdurath": {
 		"name": "Aesdurath",
@@ -515,8 +508,7 @@
 			"1. death knell",
 			"2. animate dead",
 			"3. circle of death"
-		],
-		"display": "faith"
+		]
 	},
 	"aesocar": {
 		"name": "Aesocar",
@@ -543,8 +535,7 @@
 			"#### Traits",
 			"",
 			"[Clockwork Surgeon](trait/clockwork_surgeon)"
-		],
-		"display": "faith"
+		]
 	},
 	"ah_pook": {
 		"name": "Ah Pook",
@@ -566,8 +557,7 @@
 			"**Favored Weapon** [Terbutje](equipment/weapon/terbutje)  ",
 			"**Symbol** a skull with a crescent eclipse  ",
 			"**Sacred Animal(s)** maggot"
-		],
-		"display": "faith"
+		]
 	},
 	"ahriman": {
 		"name": "Ahriman",
@@ -623,8 +613,7 @@
 			"1. **Break the Weak (Sp)** inflict light wounds 3/day, death knell 2/day, or dispel magic 1/day",
 			"2. **Serpentine Lash (Su)** Any whip you wield becomes an extension of your embodiment of evil, lashing out against all those who fail to prostrate themselves before you and oblivion. You gain Weapon Specialization (whip) and Whip Mastery as bonus feats, even if you do not meet the prerequisites. In addition, your whip takes on the illusory appearance of a serpent, and you gain a +2 profane bonus to combat maneuver checks to trip opponents. If you wield a whip with at least a +1 enhancement bonus, you can grant it the dancing weapon special ability for 6 rounds per day as a swift action. These rounds need not be consecutive.",
 			"3. **Crush Opposition (Su)** Three times per day, you can target one corporeal enemy within 60 feet and call out a castigating challenge that causes the creature to painfully collapse in on itself in a crackle of black energy. The target takes 10 points of damage per Hit Dice you have. Creatures targeted by this ability can attempt a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) to reduce the damage by half. A creature slain by this effect is completely destroyed, and all items it was carrying or wearing at the time fall to the ground and become cursed for a number of hours equal to your Hit Dice. The curse on these items causes nonevil creatures who carry one of the items to take a -1 penalty on saving throws against fear and insanity effects; the penalties for carrying multiple items stack."
-		],
-		"display": "faith"
+		]
 	},
 	"ajids": {
 		"name": "Ajids",
@@ -666,8 +655,7 @@
 			"1. blood armor",
 			"2. hunger for flesh",
 			"3. decapitate"
-		],
-		"display": "faith"
+		]
 	},
 	"aksha": {
 		"name": "Aksha",
@@ -705,8 +693,7 @@
 			"1. scorching ray",
 			"2. fire shield",
 			"3. sirocco"
-		],
-		"display": "faith"
+		]
 	},
 	"akuma": {
 		"name": "Akuma",
@@ -742,8 +729,7 @@
 			"1. bear's endurance",
 			"2. divine power",
 			"3. transformation"
-		],
-		"display": "faith"
+		]
 	},
 	"alazhra": {
 		"name": "Alazhra",
@@ -766,8 +752,7 @@
 			"**Symbol** Jar containing a ghost  ",
 			"**Sacred Animal(s)** Black stallion  ",
 			"**Sacred Color(s)** Black, blue"
-		],
-		"display": "faith"
+		]
 	},
 	"aldinach": {
 		"name": "Aldinach",
@@ -853,8 +838,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"alichino": {
 		"name": "Alichino",
@@ -902,8 +886,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"alocer": {
 		"name": "Alocer",
@@ -951,8 +934,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"alseta": {
 		"name": "Alseta",
@@ -1051,8 +1033,7 @@
 			"- [Open/Close](spell/open_close) can be prepared as a 0-level spell",
 			"- [Arcane Lock](spell/arcane_lock) can be prepared as a 2nd-level spell",
 			"- [Knock](spell/knock) can be prepared as a 2nd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"amaznen": {
 		"name": "Amaznen",
@@ -1073,8 +1054,7 @@
 			"**Subdomains** [Arcane](domain/magic), [Construct](domain/artifice), [Defense](domain/protection), [Divine](domain/magic), [Inevitable](domain/law), [Thought](domain/knowledge)  ",
 			"**Favored Weapon** [light hammer](equipment/weapon/light_hammer)  ",
 			"**Symbol** Gears that resemble an eye"
-		],
-		"display": "faith"
+		]
 	},
 	"ananshea": {
 		"name": "Ananshea",
@@ -1108,8 +1088,7 @@
 			"1. bloodbath",
 			"2. fear",
 			"3. blade barrier"
-		],
-		"display": "faith"
+		]
 	},
 	"andak": {
 		"name": "Andak",
@@ -1145,8 +1124,7 @@
 			"1. keen edge",
 			"2. quickened inflict serious wounds",
 			"3. massacre"
-		],
-		"display": "faith"
+		]
 	},
 	"andirifkhu": {
 		"name": "Andirifkhu",
@@ -1228,8 +1206,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"andoletta": {
 		"name": "Andoletta",
@@ -1288,8 +1265,7 @@
 			"#### Traits",
 			"",
 			"[Andoletta's Consolation](trait/andoletta's_consolation), [Empyreal Focus](trait/empyreal_focus), [Enemy of Delusion](trait/enemy_of_delusion)"
-		],
-		"display": "faith"
+		]
 	},
 	"angazhan": {
 		"name": "Angazhan",
@@ -1374,8 +1350,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"angradd": {
 		"name": "Angradd",
@@ -1450,8 +1425,7 @@
 			"#### Traits",
 			"",
 			"[Angradd's Flame](trait/angradd's_flame), [Angradd's Valor](trait/angradd's_valor), [Battlefield Caster](trait/battlefield_caster), [Well-Prepared](trait/well-prepared)"
-		],
-		"display": "faith"
+		]
 	},
 	"anogetz": {
 		"name": "Anogetz",
@@ -1493,8 +1467,7 @@
 			"1. animal messenger",
 			"2. scrying",
 			"3. beast shape IV"
-		],
-		"display": "faith"
+		]
 	},
 	"anubis": {
 		"name": "Anubis",
@@ -1516,8 +1489,7 @@
 			"**Favored Weapon** [Flail](equipment/weapon/flail)  ",
 			"**Symbol** Black jackal head  ",
 			"**Sacred Animal(s)** Jackal"
-		],
-		"display": "faith"
+		]
 	},
 	"apep": {
 		"name": "Apep",
@@ -1545,8 +1517,7 @@
 			"#### Traits",
 			"",
 			"[Snake Handler](trait/snake_handler)"
-		],
-		"display": "faith"
+		]
 	},
 	"apollyon": {
 		"name": "Apollyon",
@@ -1620,8 +1591,7 @@
 			"#### Traits",
 			"",
 			"[Covenant of Abaddon](trait/covenant_of_abaddon)"
-		],
-		"display": "faith"
+		]
 	},
 	"apsu": {
 		"name": "Apsu",
@@ -1739,8 +1709,7 @@
 			"**Source** [Inner Sea Faiths pg. 19](source/inner_sea_faiths)",
 			"",
 			"- Apsu has no oracles, for he believes inflicting a curse on a living creature is a terrible crime against that being, even in exchange for divine power."
-		],
-		"display": "faith"
+		]
 	},
 	"arazni": {
 		"name": "Arazni",
@@ -1829,8 +1798,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** Augur Kyton",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish Giant Scarab](monster/fiendish_giant_scarab)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** Interlocutor Kyton"
-		],
-		"display": "faith"
+		]
 	},
 	"ardad_lili": {
 		"name": "Ardad Lili",
@@ -1903,8 +1871,7 @@
 			"#### Oracle",
 			"",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"areshkagal": {
 		"name": "Areshkagal",
@@ -1985,8 +1952,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"arlachramas": {
 		"name": "Arlachramas",
@@ -2028,8 +1994,7 @@
 			"1. death knell",
 			"2. crushing despair",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"aroden": {
 		"name": "Aroden",
@@ -2065,8 +2030,7 @@
 			"#### Traits",
 			"",
 			"[Devotee of a Dead God](trait/devotee_of_a_dead_god), [Faithful Arodenite](trait/faithful_arodenite)"
-		],
-		"display": "faith"
+		]
 	},
 	"aroggus": {
 		"name": "Aroggus",
@@ -2102,8 +2066,7 @@
 			"1. nondetection",
 			"2. forcecage",
 			"3. imprisonment"
-		],
-		"display": "faith"
+		]
 	},
 	"arqueros": {
 		"name": "Arqueros",
@@ -2161,8 +2124,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus), [Eye of Arqueros](trait/eye_of_arqueros), [Living Bulwark](trait/living_bulwark)"
-		],
-		"display": "faith"
+		]
 	},
 	"arshea": {
 		"name": "Arshea",
@@ -2213,8 +2175,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ashava": {
 		"name": "Ashava",
@@ -2320,8 +2281,7 @@
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Celestial Pegesus](monster/celestial_pegesus)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Lunar Naga](monster/lunar_naga)"
-		],
-		"display": "faith"
+		]
 	},
 	"ashukharma": {
 		"name": "Ashukharma",
@@ -2348,8 +2308,7 @@
 			"",
 			"**Centers of Worship** Radripal  ",
 			"**Nationality** Vudra"
-		],
-		"display": "faith"
+		]
 	},
 	"asmodeus": {
 		"name": "Asmodeus",
@@ -2520,8 +2479,7 @@
 			"- **[Summon Monster II](spell/summon_monster_2):** [Hell Hound](monster/hell_hound) - LE",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Cerberi](monster/cerberi) - LE",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Bearded Devil](monster/bearded_devil) - LE"
-		],
-		"display": "faith"
+		]
 	},
 	"atlach_nacha": {
 		"name": "Atlach-Nacha",
@@ -2556,8 +2514,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"atropos": {
 		"name": "Atropos",
@@ -2598,8 +2555,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"ayrzul": {
 		"name": "Ayrzul",
@@ -2633,8 +2589,7 @@
 			"#### Traits",
 			"",
 			"[Affinity for the Elements](trait/affinity_for_the_elements)"
-		],
-		"display": "faith"
+		]
 	},
 	"azathoth": {
 		"name": "Azathoth",
@@ -2667,8 +2622,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"baalzebul": {
 		"name": "Baalzebul",
@@ -2734,8 +2688,7 @@
 			"#### Traits",
 			"",
 			"[Flames of Hell](trait/flames_of_hell)"
-		],
-		"display": "faith"
+		]
 	},
 	"baphomet": {
 		"name": "Baphomet",
@@ -2865,8 +2818,7 @@
 			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- Witches of Baphomet may prepare monstrous physique spells at the same spell levels as the sorcerer/wizard versions."
-		],
-		"display": "faith"
+		]
 	},
 	"barbariccia": {
 		"name": "Barbariccia",
@@ -2914,8 +2866,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"barbatos": {
 		"name": "Barbatos",
@@ -2982,8 +2933,7 @@
 			"#### Traits",
 			"",
 			"[Flames of Hell](trait/flames_of_hell)"
-		],
-		"display": "faith"
+		]
 	},
 	"barravoclair": {
 		"name": "Barravoclair",
@@ -3019,8 +2969,7 @@
 			"1. speak with dead",
 			"2. resurrection",
 			"3. soul bind"
-		],
-		"display": "faith"
+		]
 	},
 	"barzahk": {
 		"name": "Barzahk",
@@ -3113,8 +3062,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Nosoi](monster/nosoi)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Catrina](monster/catrina)",
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Shoki](monster/shoki)"
-		],
-		"display": "faith"
+		]
 	},
 	"bastet": {
 		"name": "Bastet",
@@ -3136,8 +3084,7 @@
 			"**Favored Weapon** [Cat's claws (tekko-kagi)](equipment/weapon/cat's_claws_tekko-kagi) ",
 			"**Symbol** Golden cat  ",
 			"**Sacred Animal(s)** Cat"
-		],
-		"display": "faith"
+		]
 	},
 	"belial": {
 		"name": "Belial",
@@ -3203,8 +3150,7 @@
 			"#### Traits",
 			"",
 			"[Flames of Hell](trait/flames_of_hell)"
-		],
-		"display": "faith"
+		]
 	},
 	"benorus": {
 		"name": "Benorus",
@@ -3237,8 +3183,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"bergelmir": {
 		"name": "Bergelmir",
@@ -3261,8 +3206,7 @@
 			"**Symbol** Three bolts of lightning  ",
 			"**Sacred Animal(s)** Sea turtle  ",
 			"**Sacred Color(s)** Gray, white"
-		],
-		"display": "faith"
+		]
 	},
 	"bes": {
 		"name": "Bes",
@@ -3284,8 +3228,7 @@
 			"**Favored Weapon** [Hunga munga](equipment/weapon/hunga_munga)  ",
 			"**Symbol** Bearded dwarf face  ",
 			"**Sacred Animal(s)** Lion"
-		],
-		"display": "faith"
+		]
 	},
 	"besmara": {
 		"name": "Besmara",
@@ -3414,8 +3357,7 @@
 			"",
 			"- [Geas, Lesser](spell/geas,_lesser) can be prepared as a 4th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]",
 			"- [Curse of Disgust](spell/curse_of_disgust) can be prepared as a 5th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]"
-		],
-		"display": "faith"
+		]
 	},
 	"bharnarol": {
 		"name": "Bharnarol",
@@ -3465,8 +3407,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"bifrons": {
 		"name": "Bifrons",
@@ -3514,8 +3455,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"black_butterfly": {
 		"name": "Black Butterfly",
@@ -3565,8 +3505,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"bohga": {
 		"name": "Bohga",
@@ -3602,8 +3541,7 @@
 			"1. clairaudience/clairvoyance",
 			"2. greater scrying",
 			"3. foresight"
-		],
-		"display": "faith"
+		]
 	},
 	"bokrug": {
 		"name": "Bokrug",
@@ -3640,8 +3578,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"bolka": {
 		"name": "Bolka",
@@ -3678,8 +3615,7 @@
 			"#### Traits",
 			"",
 			"[Alluring](trait/alluring), [Wedded Bliss](trait/wedded_bliss)"
-		],
-		"display": "faith"
+		]
 	},
 	"braismois": {
 		"name": "Braismois",
@@ -3721,8 +3657,7 @@
 			"1. detect thoughts",
 			"2. charm monster",
 			"3. geas/quest"
-		],
-		"display": "faith"
+		]
 	},
 	"brigh": {
 		"name": "Brigh",
@@ -3833,8 +3768,7 @@
 			"- **[Summon Monster I](spell/summon_monster_1):** [Clockwork Spy](monster/clockwork_spy)",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Clockwork Servant](monster/clockwork_servant)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Clockwork Soldier](monster/clockwork_soldier)"
-		],
-		"display": "faith"
+		]
 	},
 	"bundha": {
 		"name": "Bundha",
@@ -3872,8 +3806,7 @@
 			"1. bull's strength",
 			"2. inflict critical wounds",
 			"3. blade barrier"
-		],
-		"display": "faith"
+		]
 	},
 	"caera": {
 		"name": "Caera",
@@ -3911,8 +3844,7 @@
 			"1. bloodbath",
 			"2. phantasmal killer",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"cagnazzo": {
 		"name": "Cagnazzo",
@@ -3960,8 +3892,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"calcabrina": {
 		"name": "Calcabrina",
@@ -4009,8 +3940,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"calistria": {
 		"name": "Calistria",
@@ -4197,8 +4127,7 @@
 			"- **[Summon Monster II](spell/summon_monster_2):** [Tiefling Rogue 1](monster/tiefling_rogue_1) - CN",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Spider Eater](monster/spider_eater) - N",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Hellwasp Swarm](monster/hellwasp_swarm) - CE"
-		],
-		"display": "faith"
+		]
 	},
 	"camazotz": {
 		"name": "Camazotz",
@@ -4221,8 +4150,7 @@
 			"**Symbol** Bat-shaped rune  ",
 			"**Sacred Animal(s)** Bat  ",
 			"**Sacred Color(s)** Black, red"
-		],
-		"display": "faith"
+		]
 	},
 	"cayden_cailean": {
 		"name": "Cayden Cailean",
@@ -4385,8 +4313,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Satyr](monster/satyr) - CG (without pipes)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Rust Monster](monster/rust_monster) - N",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Satyr](monster/satyr) - CG (with pipes)"
-		],
-		"display": "faith"
+		]
 	},
 	"cernunnos": {
 		"name": "Cernunnos",
@@ -4419,8 +4346,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ceyannan": {
 		"name": "Ceyannan",
@@ -4461,8 +4387,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"chadali": {
 		"name": "Chadali",
@@ -4512,8 +4437,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"chaldira": {
 		"name": "Chaldira",
@@ -4565,8 +4489,7 @@
 			"#### Cleric/Warpriest",
 			"[Mage Hand](spell/mage_hand) can be prepared as a 0-level spell",
 			"[Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"chamiaholom": {
 		"name": "Chamiaholom",
@@ -4600,8 +4523,7 @@
 			"1. grasping corpse",
 			"2. animate dead",
 			"3. create undead"
-		],
-		"display": "faith"
+		]
 	},
 	"charg": {
 		"name": "Charg",
@@ -4641,8 +4563,7 @@
 			"#### Traits",
 			"",
 			"[Burst of Speed](trait/burst_of_speed)"
-		],
-		"display": "faith"
+		]
 	},
 	"charon": {
 		"name": "Charon",
@@ -4716,8 +4637,7 @@
 			"#### Traits",
 			"",
 			"[Covenant of Abaddon](trait/covenant_of_abaddon)"
-		],
-		"display": "faith"
+		]
 	},
 	"chaugnar_faugn": {
 		"name": "Chaugnar Faugn",
@@ -4752,8 +4672,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"chavazvug": {
 		"name": "Chavazvug",
@@ -4793,8 +4712,7 @@
 			"1. scorching ray",
 			"2. pyrotechnic eruption",
 			"3. contagious flame"
-		],
-		"display": "faith"
+		]
 	},
 	"chimon": {
 		"name": "Chimon",
@@ -4830,8 +4748,7 @@
 			"1. find traps",
 			"2. greater invisibility",
 			"3. blade barrier"
-		],
-		"display": "faith"
+		]
 	},
 	"chinostes_evil_aspect": {
 		"name": "Chinostes (Evil Aspect)",
@@ -4874,8 +4791,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 74](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Chinostes can grant up to 6th-level spells"
-		],
-		"display": "faith"
+		]
 	},
 	"chinostes_good_aspect": {
 		"name": "Chinostes (Good Aspect)",
@@ -4918,8 +4834,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 74](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Chinostes can grant up to 6th-level spells."
-		],
-		"display": "faith"
+		]
 	},
 	"chucaro": {
 		"name": "Chucaro",
@@ -4969,8 +4884,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"chugarra": {
 		"name": "Chugarra",
@@ -5006,8 +4920,7 @@
 			"1. blood biography",
 			"2. finger of death",
 			"3. quickened slough"
-		],
-		"display": "faith"
+		]
 	},
 	"chupurvagasti": {
 		"name": "Chupurvagasti",
@@ -5043,8 +4956,7 @@
 			"1. displacement",
 			"2. quickened stinking cloud;",
 			"3. quickened cloudkill"
-		],
-		"display": "faith"
+		]
 	},
 	"cihua_couatl": {
 		"name": "Cihua Couatl",
@@ -5066,8 +4978,7 @@
 			"**Favored Weapon** [Shortspear](equipment/weapon/shortspear)  ",
 			"**Symbol** two couatls consuming each other's tails with their wings overlapping in the center  ",
 			"**Sacred Animal(s)** hawk"
-		],
-		"display": "faith"
+		]
 	},
 	"circiatto": {
 		"name": "Circiatto",
@@ -5115,8 +5026,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"cixyron": {
 		"name": "Cixyron",
@@ -5164,8 +5074,7 @@
 			"#### Archetypes",
 			"",
 			"[Planar Rifter (Gunslinger)](class/archetype/gunslinger/planar_rifter)"
-		],
-		"display": "faith"
+		]
 	},
 	"corosbel": {
 		"name": "Corosbel",
@@ -5207,8 +5116,7 @@
 			"1. death knell",
 			"2. phantasmal killer",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"count_ranalc": {
 		"name": "Count Ranalc",
@@ -5259,8 +5167,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"crocell": {
 		"name": "Crocell",
@@ -5308,8 +5215,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"cthulhu": {
 		"name": "Cthulhu",
@@ -5346,8 +5252,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"cyth_v'sug": {
 		"name": "Cyth-V'sug",
@@ -5439,8 +5344,7 @@
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Mandragora](monster/mandragora)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Tendriculos](monster/tendriculos)"
-		],
-		"display": "faith"
+		]
 	},
 	"dachzerul": {
 		"name": "Dachzerul",
@@ -5474,8 +5378,7 @@
 			"1. summon monster VI",
 			"2. phantasmal killer",
 			"3. mislead"
-		],
-		"display": "faith"
+		]
 	},
 	"daclau_sar": {
 		"name": "Daclau-Sar",
@@ -5528,8 +5431,7 @@
 			"1. death knell",
 			"2. contagion",
 			"3. beast shape IV"
-		],
-		"display": "faith"
+		]
 	},
 	"dagon": {
 		"name": "Dagon",
@@ -5610,8 +5512,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"dahak": {
 		"name": "Dahak",
@@ -5725,8 +5626,7 @@
 			"",
 			"- [Draconic Ally](spell/draconic_ally) can be prepared as a 3rd-level spell",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"daikitsu": {
 		"name": "Daikitsu",
@@ -5754,8 +5654,7 @@
 			"",
 			"**Centers of Worship** Forest of Spirits, Minkai, Shokuro  ",
 			"**Nationality** Kitsune"
-		],
-		"display": "faith"
+		]
 	},
 	"dalenydra": {
 		"name": "Dalenydra",
@@ -5789,8 +5688,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus), [Scarred by War](trait/scarred_by_war)"
-		],
-		"display": "faith"
+		]
 	},
 	"damerrich": {
 		"name": "Damerrich",
@@ -5840,8 +5738,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"dammar": {
 		"name": "Dammar",
@@ -5882,8 +5779,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"deskari": {
 		"name": "Deskari",
@@ -5999,8 +5895,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Vermlek](monster/vermlek)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Fiendish Giant Locust](monster/fiendish_giant_locust)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish Giant Mosquito](monster/fiendish_giant_mosquito)"
-		],
-		"display": "faith"
+		]
 	},
 	"desna": {
 		"name": "Desna",
@@ -6165,8 +6060,7 @@
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Young Brass Dragon](monster/young_brass_dragon) - CG (extraplanar)",
 			"- **Source** [Monster Summoner's Handbook pg. 30](source/monster_summoner's_handbook)",
 			"- **[Summon Monster II](spell/summon_monster_2):** [Pseudodragon](monster/pseudodragon) - CG"
-		],
-		"display": "faith"
+		]
 	},
 	"deumus": {
 		"name": "Deumus",
@@ -6214,8 +6108,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"dhalavei": {
 		"name": "Dhalavei",
@@ -6240,8 +6133,7 @@
 			"#### On Golarion",
 			"",
 			"**Nationality** Vudrani"
-		],
-		"display": "faith"
+		]
 	},
 	"diceid": {
 		"name": "Diceid",
@@ -6283,8 +6175,7 @@
 			"1. summon swarm",
 			"2. volcanic storm",
 			"3. summon monster VI"
-		],
-		"display": "faith"
+		]
 	},
 	"dispater": {
 		"name": "Dispater",
@@ -6351,8 +6242,7 @@
 			"#### Traits",
 			"",
 			"[Flames of Hell](trait/flames_of_hell)"
-		],
-		"display": "faith"
+		]
 	},
 	"doloras": {
 		"name": "Doloras",
@@ -6408,8 +6298,7 @@
 			"1. **Suffer for Our Lady (Sp)** interrogation 3/day, instrument of agony 2/day, or inflict serious wounds 1/day",
 			"2. **Bringer of Pain (Sp)** Like Our Lady in Pain, who is deaf to the screams of agony from the souls that she and her minions perpetually torture in her unholy realm, you have perfected the art of visiting pain upon your enemies, and you delight in drawing forth their tormented cries. Three times per day, you can cast harm as a spell-like ability.",
 			"3. **Hell's Sadistic Angel (Sp)** Doloras is well versed in ways to cause unholy pain to even the strongest and most resourceful souls, and you have painstakingly studied her torturer's techniques. Once per day as a standard action, you can call down your evil goddess's dispassionate, unholy might upon all enemies in a 30-foot radius centered anywhere within 100 feet of you. When you do, otherworldly chains forged in the infernal morass of Hell itself latch on to your enemies' feet, rooting them in place for a number of rounds equal to your Hit Dice. Affected creatures cannot damage the hellish chains nor magically escape them; if they attempt to use teleportation magic or a similar ability to circumvent the chains, the spell or ability fails and is wasted. While they are rooted, affected creatures take 2d6 points of piercing damage and 4d6 points of fire damage per round as blazing, hellish needles stab into the exposed portions of their bodies (affected creatures begin taking damage as soon as they are under this ability's effects). A creature that succeeds at a Reflex saving throw is only held in place for half the number of rounds and takes the listed damage only once."
-		],
-		"display": "faith"
+		]
 	},
 	"dradjit": {
 		"name": "Dradjit",
@@ -6447,8 +6336,7 @@
 			"1. spiritual weapon",
 			"2. extended greater magic fang",
 			"3. form of the dragon I"
-		],
-		"display": "faith"
+		]
 	},
 	"draghignazzo": {
 		"name": "Draghignazzo",
@@ -6513,8 +6401,7 @@
 			"#### Oracle",
 			"",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"dranngvit": {
 		"name": "Dranngvit",
@@ -6547,8 +6434,7 @@
 			"#### Traits",
 			"",
 			"[Furious Vengeance](trait/furious_vengeance)"
-		],
-		"display": "faith"
+		]
 	},
 	"dretha": {
 		"name": "Dretha",
@@ -6571,8 +6457,7 @@
 			"**Symbol** Two gauntleted fists  ",
 			"**Sacred Animal(s)** Dire wolf  ",
 			"**Sacred Color(s)** Brown, green"
-		],
-		"display": "faith"
+		]
 	},
 	"drokalion": {
 		"name": "Drokalion",
@@ -6601,8 +6486,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 74](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Drokalion can grant up to 2nd-level spells"
-		],
-		"display": "faith"
+		]
 	},
 	"droskar": {
 		"name": "Droskar",
@@ -6643,8 +6527,7 @@
 			"#### Traits",
 			"",
 			"[Extended Toil](trait/extended_toil), [Resigned](trait/resigned), [Toilcrafter](trait/toilcrafter)"
-		],
-		"display": "faith"
+		]
 	},
 	"ealdeez": {
 		"name": "Ealdeez",
@@ -6686,8 +6569,7 @@
 			"1. bull's strength",
 			"2. confusion",
 			"3. beast shape IV"
-		],
-		"display": "faith"
+		]
 	},
 	"eaqueo": {
 		"name": "Eaqueo",
@@ -6735,8 +6617,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"easivra": {
 		"name": "Easivra",
@@ -6759,8 +6640,7 @@
 			"**Symbol** Eagle head in profile  ",
 			"**Sacred Animal(s)** Golden eagle  ",
 			"**Sacred Color(s)** Blue, gold"
-		],
-		"display": "faith"
+		]
 	},
 	"eiseth": {
 		"name": "Eiseth",
@@ -6816,8 +6696,7 @@
 			"1. **Dark Battle Rising (Sp)** true strike 3/day, flame blade 2/day, or force hook charge 1/day",
 			"2. **Swords of the Ash Wings (Su)** Three times per day when you successfully strike an enemy, you can infuse your blow with the weight of Eiseth's dark fury as a swift action. When you do, your attack deals an additional 4d6 points of fire damage and 4d6 points of slashing damage as flaming swords from the depths of Hell bite into your opponent's body. This damage is considered evil-aligned for the purpose of overcoming damage reduction. This additional damage is never doubled upon a critical hit.",
 			"3. **The Dark Queen Marches (Sp)** When she focuses her terrible wrath on a single goal, the Erinyes Queen is a force of unbelievable power. You have studied Eiseth's tactics carefully and can imitate them to advance your goddess's dark glory. Once per day, you can cast ride the lightning as a spell-like ability. Instead of a lightning bolt, though, you transform into a streak of lava, so this ability deals fire damage instead of electricity damage."
-		],
-		"display": "faith"
+		]
 	},
 	"eldas": {
 		"name": "Eldas",
@@ -6850,8 +6729,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"eligos": {
 		"name": "Eligos",
@@ -6899,8 +6777,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"elion": {
 		"name": "Elion",
@@ -6927,8 +6804,7 @@
 			"#### Traits",
 			"",
 			"[Sacred Orienteer](trait/sacred_orienteer)"
-		],
-		"display": "faith"
+		]
 	},
 	"erastil": {
 		"name": "Erastil",
@@ -7109,8 +6985,7 @@
 			"**Source** [Inner Sea Gods pg. 55](source/inner_sea_gods)",
 			"",
 			"- Clerics and druids of Erastil are proficient with the shortbow"
-		],
-		"display": "faith"
+		]
 	},
 	"erecura": {
 		"name": "Erecura",
@@ -7133,8 +7008,7 @@
 			"**Symbol** Halo of runes  ",
 			"**Sacred Animal(s)** Deer  ",
 			"**Sacred Color(s)** Green, tan"
-		],
-		"display": "faith"
+		]
 	},
 	"eritrice": {
 		"name": "Eritrice",
@@ -7184,8 +7058,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"falayna": {
 		"name": "Falayna",
@@ -7236,8 +7109,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"fandarra": {
 		"name": "Fandarra",
@@ -7266,8 +7138,7 @@
 			"#### Magic Items - Wondrous Items",
 			"",
 			"[Sacrificial Dagger of the Blood Mother](magic/wondrous/sacrificial_dagger_of_the_blood_mother)"
-		],
-		"display": "faith"
+		]
 	},
 	"farfarello": {
 		"name": "Farfarello",
@@ -7315,8 +7186,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"feronia": {
 		"name": "Feronia",
@@ -7339,8 +7209,7 @@
 			"**Symbol** Bonfire under stars  ",
 			"**Sacred Animal(s)** Rabbit  ",
 			"**Sacred Color(s)** Blue, yellow"
-		],
-		"display": "faith"
+		]
 	},
 	"fharaas": {
 		"name": "Fharaas",
@@ -7376,8 +7245,7 @@
 			"1. keen edge",
 			"2. vision",
 			"3. foresight"
-		],
-		"display": "faith"
+		]
 	},
 	"findeladlara": {
 		"name": "Findeladlara",
@@ -7410,8 +7278,7 @@
 			"#### Traits",
 			"",
 			"[Structural Knowledge](trait/structural_knowledge)"
-		],
-		"display": "faith"
+		]
 	},
 	"flauros": {
 		"name": "Flauros",
@@ -7492,8 +7359,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"folca": {
 		"name": "Folca",
@@ -7535,8 +7401,7 @@
 			"1. unnatural lust",
 			"2. modify memory",
 			"3. veil"
-		],
-		"display": "faith"
+		]
 	},
 	"folgrit": {
 		"name": "Folgrit",
@@ -7579,8 +7444,7 @@
 			"#### Traits",
 			"",
 			"[Blessed Orphan](trait/blessed_orphan), [Folgrit's Bounty](trait/folgrit's_bounty), [Folgrit's Mercy](trait/folgrit's_mercy)"
-		],
-		"display": "faith"
+		]
 	},
 	"fumeiyoshi": {
 		"name": "Fumeiyoshi",
@@ -7607,8 +7471,7 @@
 			"",
 			"**Centers of Worship** Chu Ye, Forest of Spirits, Minkai, Shenmen  ",
 			"**Nationality** Tian-Min"
-		],
-		"display": "faith"
+		]
 	},
 	"furcas": {
 		"name": "Furcas",
@@ -7656,8 +7519,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"gaap": {
 		"name": "Gaap",
@@ -7705,8 +7567,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"gavidya": {
 		"name": "Gavidya",
@@ -7742,8 +7603,7 @@
 			"1. glibness",
 			"2. create greater mindscape",
 			"3. microcosm"
-		],
-		"display": "faith"
+		]
 	},
 	"general_susumu": {
 		"name": "General Susumu",
@@ -7790,8 +7650,7 @@
 			"#### Oracle",
 			"",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"geon": {
 		"name": "Geon",
@@ -7833,8 +7692,7 @@
 			"1. extended mount",
 			"2. extended phantom steed",
 			"3. night terrors"
-		],
-		"display": "faith"
+		]
 	},
 	"geryon": {
 		"name": "Geryon",
@@ -7948,8 +7806,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Venomous Snake Swarm](monster/venomous_snake_swarm)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Drowning Devil (Sarglagon)](monster/drowning_devil_sarglagon)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Aghasura (Asura)](monster/aghasura_asura)"
-		],
-		"display": "faith"
+		]
 	},
 	"ghatanothoa": {
 		"name": "Ghatanothoa",
@@ -7984,8 +7841,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"ghenshau": {
 		"name": "Ghenshau",
@@ -8035,8 +7891,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ghlaunder": {
 		"name": "Ghlaunder",
@@ -8127,8 +7982,7 @@
 			"**Source** [Inner Sea Faiths pg. 44](source/inner_sea_faiths)",
 			"",
 			"- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals."
-		],
-		"display": "faith"
+		]
 	},
 	"gogunta": {
 		"name": "Gogunta",
@@ -8209,8 +8063,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"gorum": {
 		"name": "Gorum",
@@ -8373,8 +8226,7 @@
 			"**Source** [Pathfinder #35: War of the River Kings pg. 73](source/pathfinder_#35_war_of_the_river_kings)",
 			"",
 			"- Followers are forbidden from casting the [rusting grasp](spell/rusting_grasp) spell. Druids are permitted to wear metal armor, though they do not automatically gain proficiency in any other categories of armor. They cannot cast spells while wearing metal armor, nor does it meld with them when they use wild shape; druids interested in metal armor acquire a set for a specific beast form and have allies or slaves put it on them when it is time to fight."
-		],
-		"display": "faith"
+		]
 	},
 	"gozreh": {
 		"name": "Gozreh",
@@ -8528,8 +8380,7 @@
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Young Cloud Giant](monster/young_cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Cloud Giant](monster/cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Young Storm Giant](monster/young_storm_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
-		],
-		"display": "faith"
+		]
 	},
 	"graffiacane": {
 		"name": "Graffiacane",
@@ -8577,8 +8428,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"grandmother_spider": {
 		"name": "Grandmother Spider",
@@ -8645,8 +8495,7 @@
 			"- [Ventriloquism](spell/ventriloquism) can be prepared as a 1st-level spell",
 			"- [Spider Climb](spell/spider_climb) can be prepared as a 2nd-level spell",
 			"- [Web](spell/web) can be prepared as a 2nd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"green_faith": {
 		"name": "Green Faith",
@@ -8721,8 +8570,7 @@
 			"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source/pathfinder_#75_demon's_heresy)",
 			"",
 			"- There are no clerics of the Green Faith; domains given are for Druids. The Green Faith is not headed by a deity, but is an order that worships and gains power from nature."
-		],
-		"display": "faith"
+		]
 	},
 	"groetus": {
 		"name": "Groetus",
@@ -8824,8 +8672,7 @@
 			"- **[Summon Monster II](spell/summon_monster_2):** [Akata](monster/akata) (extraplanar)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Chaos Beast](monster/chaos_beast)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Mothman](monster/mothman) (extraplanar)"
-		],
-		"display": "faith"
+		]
 	},
 	"gruhastha": {
 		"name": "Gruhastha",
@@ -8905,8 +8752,7 @@
 			"- [Burst of Insight](spell/burst_of_insight) can be prepared as a 1st-level spell",
 			"- [Object Reading](spell/object_reading) can be prepared as a 2nd-level spell",
 			"- [Clairaudience/Clairvoyance](spell/clairaudience_clairvoyance) can be prepared as a 3rd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"grundinnar": {
 		"name": "Grundinnar",
@@ -8939,8 +8785,7 @@
 			"#### Traits",
 			"",
 			"[Honeyed Words](trait/honeyed_words)"
-		],
-		"display": "faith"
+		]
 	},
 	"guyuku": {
 		"name": "Guyuku",
@@ -8976,8 +8821,7 @@
 			"1. slipstream",
 			"2. control water",
 			"3. heroes' feast"
-		],
-		"display": "faith"
+		]
 	},
 	"gyronna": {
 		"name": "Gyronna",
@@ -9057,8 +8901,7 @@
 			"#### Cleric/Warpriest",
 			"",
 			"- [Eyebite](spell/eyebite) can be prepared as a 6th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"haagenti": {
 		"name": "Haagenti",
@@ -9140,8 +8983,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"haborym": {
 		"name": "Haborym",
@@ -9189,8 +9031,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"hadregash": {
 		"name": "Hadregash",
@@ -9279,8 +9120,7 @@
 			"- **[Summon Monster II](spell/summon_monster_2):** [Goblin Snake](monster/goblin_snake)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Barghest](monster/barghest)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Greater Barghest](monster/greater_barghest)"
-		],
-		"display": "faith"
+		]
 	},
 	"haggakal": {
 		"name": "Haggakal",
@@ -9303,8 +9143,7 @@
 			"**Symbol** Leering ogre face  ",
 			"**Sacred Animal(s)** Boar  ",
 			"**Sacred Color(s)** Tan, white"
-		],
-		"display": "faith"
+		]
 	},
 	"halcamora": {
 		"name": "Halcamora",
@@ -9354,8 +9193,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"hanspur": {
 		"name": "Hanspur",
@@ -9440,8 +9278,7 @@
 			"#### Ranger",
 			"",
 			"- [Water Breathing](spell/water_breathing) can be prepared as a 2nd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"hastrikhal": {
 		"name": "Hastrikhal",
@@ -9483,8 +9320,7 @@
 			"1. flaming sphere",
 			"2. wall of fire",
 			"3. contagious flame"
-		],
-		"display": "faith"
+		]
 	},
 	"hastur": {
 		"name": "Hastur",
@@ -9571,8 +9407,7 @@
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Byakhee](monster/byakhee)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Keeper of the Yellow Sign](monster/keeper_of_the_yellow_sign)"
-		],
-		"display": "faith"
+		]
 	},
 	"hataam": {
 		"name": "Hataam",
@@ -9606,8 +9441,7 @@
 			"1. river whip",
 			"2. phantasmal asphyxiation;",
 			"3. control water"
-		],
-		"display": "faith"
+		]
 	},
 	"hathor": {
 		"name": "Hathor",
@@ -9629,8 +9463,7 @@
 			"**Favored Weapon** [Short sword](equipment/weapon/short_sword)  ",
 			"**Symbol** Solar disk with horns  ",
 			"**Sacred Animal(s)** Cow"
-		],
-		"display": "faith"
+		]
 	},
 	"hei_feng": {
 		"name": "Hei Feng",
@@ -9722,8 +9555,7 @@
 			"- [Gust of Wind](spell/gust_of_wind) can be prepared as a 2nd-level spell",
 			"- [Lightning Bolt](spell/lightning_bolt) can be prepared as a 3rd-level spell",
 			"- [Hydraulic Push](spell/hydraulic_push) can be prepared as a 3rd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"hembad": {
 		"name": "Hembad",
@@ -9756,8 +9588,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"horus": {
 		"name": "Horus",
@@ -9779,8 +9610,7 @@
 			"**Favored Weapon** [Khopesh](equipment/weapon/khopesh)  ",
 			"**Symbol** Eye of Horus  ",
 			"**Sacred Animal(s)** Falcon"
-		],
-		"display": "faith"
+		]
 	},
 	"hshurha": {
 		"name": "Hshurha",
@@ -9813,8 +9643,7 @@
 			"#### Traits",
 			"",
 			"[Affinity for the Elements](trait/affinity_for_the_elements)"
-		],
-		"display": "faith"
+		]
 	},
 	"hudima": {
 		"name": "Hudima",
@@ -9852,8 +9681,7 @@
 			"1. mirror image",
 			"2. glibness",
 			"3. twin form"
-		],
-		"display": "faith"
+		]
 	},
 	"hydim": {
 		"name": "Hydim",
@@ -9889,8 +9717,7 @@
 			"1. extended feast of ashes",
 			"2. insanity",
 			"3. maze of madness and suffering"
-		],
-		"display": "faith"
+		]
 	},
 	"iaozrael": {
 		"name": "Iaozrael",
@@ -9938,8 +9765,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"iapholi": {
 		"name": "Iapholi",
@@ -9986,8 +9812,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 75](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Iapholi can grant 9th-level spells"
-		],
-		"display": "faith"
+		]
 	},
 	"iggeret": {
 		"name": "Iggeret",
@@ -10021,8 +9846,7 @@
 			"1. darkness",
 			"2. acid pit",
 			"3. phobia"
-		],
-		"display": "faith"
+		]
 	},
 	"il'surrish": {
 		"name": "Il'surrish",
@@ -10063,8 +9887,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"imbrex": {
 		"name": "Imbrex",
@@ -10115,8 +9938,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"immonhiel": {
 		"name": "Immonhiel",
@@ -10167,8 +9989,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"imot": {
 		"name": "Imot",
@@ -10209,8 +10030,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"inkariax": {
 		"name": "Inkariax",
@@ -10252,8 +10072,7 @@
 			"#### Monsters",
 			"",
 			"[Libitinarii](monster/libitinarii)"
-		],
-		"display": "faith"
+		]
 	},
 	"inma": {
 		"name": "Inma",
@@ -10289,8 +10108,7 @@
 			"1. create treasure map",
 			"2. charm monster",
 			"3. extended dominate person"
-		],
-		"display": "faith"
+		]
 	},
 	"iomedae": {
 		"name": "Iomedae",
@@ -10468,8 +10286,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Celestial Lion](monster/celestial_lion) - LG",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Celestial Griffon](monster/celestial_griffon) - NG",
 			"- **[Summon Nature's Ally VI](spell/summon_nature's_ally_6):** [Celestial Griffon](monster/celestial_griffon) - NG"
-		],
-		"display": "faith"
+		]
 	},
 	"ioramvol": {
 		"name": "Ioramvol",
@@ -10505,8 +10322,7 @@
 			"1. spiked pit",
 			"2. statue",
 			"3. clashing rocks"
-		],
-		"display": "faith"
+		]
 	},
 	"irez": {
 		"name": "Irez",
@@ -10556,8 +10372,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"irori": {
 		"name": "Irori",
@@ -10734,8 +10549,7 @@
 			"**Source** [Pathfinder #53: Tide of Honor pg. 73](source/pathfinder_#53_tide_of_honor)",
 			"",
 			"- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a [heal](spell/heal), [restoration](spell/restoration), or [greater restoration](spell/greater_restoration) spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid."
-		],
-		"display": "faith"
+		]
 	},
 	"isis": {
 		"name": "Isis",
@@ -10757,8 +10571,7 @@
 			"**Favored Weapon** [Quarterstaff](equipment/weapon/quarterstaff)  ",
 			"**Symbol** Knot of Isis  ",
 			"**Sacred Animal(s)** Kite"
-		],
-		"display": "faith"
+		]
 	},
 	"isph_aun_vuln": {
 		"name": "Isph-Aun-Vuln",
@@ -10798,8 +10611,7 @@
 			"1. summon swarm",
 			"2. fleshworm infestation",
 			"3. plague storm"
-		],
-		"display": "faith"
+		]
 	},
 	"ithaqua": {
 		"name": "Ithaqua",
@@ -10834,8 +10646,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"izyagna": {
 		"name": "Izyagna",
@@ -10894,8 +10705,7 @@
 			"#### Archetypes",
 			"",
 			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
-		],
-		"display": "faith"
+		]
 	},
 	"jacarkas": {
 		"name": "Jacarkas",
@@ -10937,8 +10747,7 @@
 			"1. enthrall",
 			"2. charm monster",
 			"3. wither limb"
-		],
-		"display": "faith"
+		]
 	},
 	"jaidi": {
 		"name": "Jaidi",
@@ -10965,8 +10774,7 @@
 			"#### Traits",
 			"",
 			"[Fruits of Your Labor](trait/fruits_of_your_labor)"
-		],
-		"display": "faith"
+		]
 	},
 	"jaidz": {
 		"name": "Jaidz",
@@ -11017,8 +10825,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"jalaijatali": {
 		"name": "Jalaijatali",
@@ -11068,8 +10875,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"jerishall": {
 		"name": "Jerishall",
@@ -11110,8 +10916,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"jezelda": {
 		"name": "Jezelda",
@@ -11192,8 +10997,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"jiraviddain": {
 		"name": "Jiraviddain",
@@ -11241,8 +11045,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"jubilex": {
 		"name": "Jubilex",
@@ -11323,8 +11126,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"jyotah": {
 		"name": "Jyotah",
@@ -11362,8 +11164,7 @@
 			"1. calm emotions",
 			"2. freedom of movement",
 			"3. banishment"
-		],
-		"display": "faith"
+		]
 	},
 	"kabriri": {
 		"name": "Kabriri",
@@ -11468,8 +11269,7 @@
 			"**Source** [Mythic Realms pg. 55](source/mythic_realms)",
 			"",
 			"- When using [create undead](spell/create_undead), a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell."
-		],
-		"display": "faith"
+		]
 	},
 	"kaikyton": {
 		"name": "Kaikyton",
@@ -11505,8 +11305,7 @@
 			"1. stone shape",
 			"2. greater polymorph",
 			"3. shapechange"
-		],
-		"display": "faith"
+		]
 	},
 	"kalma": {
 		"name": "Kalma",
@@ -11554,8 +11353,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"kazutal": {
 		"name": "Kazutal",
@@ -11637,8 +11435,7 @@
 			"",
 			"- [Blessing of Fervor](spell/blessing_of_fervor) can be prepared as a 4th-level spell",
 			"- [Freedom of Movement](spell/freedom_of_movement) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"kelinahat": {
 		"name": "Kelinahat",
@@ -11671,8 +11468,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"kelizandri": {
 		"name": "Kelizandri",
@@ -11705,8 +11501,7 @@
 			"#### Traits",
 			"",
 			"[Affinity for the Elements](trait/affinity_for_the_elements)"
-		],
-		"display": "faith"
+		]
 	},
 	"kelksiomides": {
 		"name": "Kelksiomides",
@@ -11746,8 +11541,7 @@
 			"",
 			"- [Plant Growth](spell/plant_growth) can be prepared as a 2nd-level spell [only for the spell's enrichment effect]",
 			"- [Goodberry](spell/goodberry) can be prepared as a 1st-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"keltheald": {
 		"name": "Keltheald",
@@ -11780,8 +11574,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"kerkamoth": {
 		"name": "Kerkamoth",
@@ -11822,8 +11615,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"ketephys": {
 		"name": "Ketephys",
@@ -11902,8 +11694,7 @@
 			"- [Animal Aspect](spell/animal_aspect) can be prepared as a 2nd-level spell",
 			"- [Hold Animals](spell/hold_animals) can be prepared as a 2nd-level spell",
 			"- [Aspect of the Stag](spell/aspect_of__the_stag) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"khepri": {
 		"name": "Khepri",
@@ -11925,8 +11716,7 @@
 			"**Favored Weapon** [Sling](equipment/weapon/sling)  ",
 			"**Symbol** Blue scarab  ",
 			"**Sacred Animal(s)** Scarab beetle"
-		],
-		"display": "faith"
+		]
 	},
 	"kitumu": {
 		"name": "Kitumu",
@@ -11950,8 +11740,7 @@
 			"**Symbol** Four legged firefly  ",
 			"**Sacred Animal(s)** Firefly  ",
 			"**Sacred Color(s)** Black, yellow"
-		],
-		"display": "faith"
+		]
 	},
 	"kofusachi": {
 		"name": "Kofusachi",
@@ -11979,8 +11768,7 @@
 			"",
 			"**Centers of Worship** Hongal, Hwanggot, Tianjing  ",
 			"**Nationality** Tian-Hwan"
-		],
-		"display": "faith"
+		]
 	},
 	"kols": {
 		"name": "Kols",
@@ -12021,8 +11809,7 @@
 			"#### Traits",
 			"",
 			"[Strict Judgment](trait/strict_judgment)"
-		],
-		"display": "faith"
+		]
 	},
 	"korada": {
 		"name": "Korada",
@@ -12073,8 +11860,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"kostchtchie": {
 		"name": "Kostchtchie",
@@ -12193,8 +11979,7 @@
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Fiendish Ice Elemental (Huge)](monster/fiendish_ice_elemental_huge)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Fiendish Ice Elemental (Greater)](monster/fiendish_ice_elemental_greater)",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Fiendish Ice Elemental (Elder)](monster/fiendish_ice_elemental_elder)"
-		],
-		"display": "faith"
+		]
 	},
 	"kro'akoth": {
 		"name": "Kro'akoth",
@@ -12229,8 +12014,7 @@
 			"1. **First Boon (Sp)** burning hands 1/day",
 			"2. **Second Boon (Sp)** invisibility 1/day",
 			"3. **Third Boon (Sp)** sepia snake sigil 1/day"
-		],
-		"display": "faith"
+		]
 	},
 	"kroina": {
 		"name": "Kroina",
@@ -12263,8 +12047,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"kunkarna": {
 		"name": "Kunkarna",
@@ -12302,8 +12085,7 @@
 			"1. detect thoughts",
 			"2. mind probe",
 			"3. dream scan"
-		],
-		"display": "faith"
+		]
 	},
 	"kurgess": {
 		"name": "Kurgess",
@@ -12396,8 +12178,7 @@
 			"",
 			"- [Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell",
 			"- [Jump](spell/jump) can be prepared as a 1st-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"lady_nanbyo": {
 		"name": "Lady Nanbyo",
@@ -12424,8 +12205,7 @@
 			"",
 			"**Centers of Worship** Goka, Minata, Shaguang, Shenmen, Wanshou  ",
 			"**Nationality** Tian-Sing (Dragon)"
-		],
-		"display": "faith"
+		]
 	},
 	"laivatiniel": {
 		"name": "Laivatiniel",
@@ -12467,8 +12247,7 @@
 			"1. unnatural lust",
 			"2. fear",
 			"3. unwilling shield"
-		],
-		"display": "faith"
+		]
 	},
 	"lalaci": {
 		"name": "Lalaci",
@@ -12519,8 +12298,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"lamashtu": {
 		"name": "Lamashtu",
@@ -12719,8 +12497,7 @@
 			"**Source** [Inner Sea Gods pg. 99](source/inner_sea_gods)",
 			"",
 			"- Druids and Rangers can use [summon nature's ally](spell/summon_nature's_ally) spells to summon fiendish animals from the same level summon monster list."
-		],
-		"display": "faith"
+		]
 	},
 	"lanishra": {
 		"name": "Lanishra",
@@ -12749,8 +12526,7 @@
 			"#### Archetypes",
 			"",
 			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
-		],
-		"display": "faith"
+		]
 	},
 	"lao_shu_po": {
 		"name": "Lao Shu Po",
@@ -12783,8 +12559,7 @@
 			"#### Magic Items - Weapons",
 			"",
 			"[Feast of Rats](magic/weapon/feast_of_rats)"
-		],
-		"display": "faith"
+		]
 	},
 	"libicocco": {
 		"name": "Libicocco",
@@ -12832,8 +12607,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"lissala_pre_earthfall": {
 		"name": "Lissala (pre-Earthfall)",
@@ -12854,8 +12628,7 @@
 			"**Subdomains** [Language](domain/rune), [Leadership](domain/nobility), [Memory](domain/knowledge), [Thought](domain/knowledge), [Wards](domain/rune)  ",
 			"**Favored Weapon** [Whip](equipment/weapon/whip)  ",
 			"**Symbol** Seven-pointed star"
-		],
-		"display": "faith"
+		]
 	},
 	"lissala": {
 		"name": "Lissala",
@@ -12908,8 +12681,7 @@
 			"",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Advanced Kyton Evangelist](monster/advanced_kyton_evangelist) - LE (extraplanar)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Dark Naga](monster/dark_naga) - LE"
-		],
-		"display": "faith"
+		]
 	},
 	"llamolaek": {
 		"name": "Llamolaek",
@@ -12951,8 +12723,7 @@
 			"1. alter self",
 			"2. fear",
 			"3. lash of the astradaemon"
-		],
-		"display": "faith"
+		]
 	},
 	"lorcan": {
 		"name": "Lorcan",
@@ -13000,8 +12771,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"lorris": {
 		"name": "Lorris",
@@ -13034,8 +12804,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"lorthact": {
 		"name": "Lorthact",
@@ -13083,8 +12852,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"losarkur": {
 		"name": "Losarkur",
@@ -13132,8 +12900,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"lymnieris": {
 		"name": "Lymnieris",
@@ -13183,8 +12950,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"lythertida": {
 		"name": "Lythertida",
@@ -13217,8 +12983,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"maat": {
 		"name": "Maat",
@@ -13240,8 +13005,7 @@
 			"**Favored Weapon** [Starknife](equipment/weapon/starknife)  ",
 			"**Symbol** Blue ostrich feather  ",
 			"**Sacred Animal(s)** Leopard"
-		],
-		"display": "faith"
+		]
 	},
 	"maeha": {
 		"name": "Maeha",
@@ -13277,8 +13041,7 @@
 			"1. deeper darkness",
 			"2. plane shift",
 			"3. imprisonment"
-		],
-		"display": "faith"
+		]
 	},
 	"magdh": {
 		"name": "Magdh",
@@ -13355,8 +13118,7 @@
 			"- [Threefold Face](spell/threefold_face) can be prepared as a 3rd-level spell",
 			"- [Threefold Sight](spell/threefold_sight) can be prepared as a 3rd-level spell",
 			"- [Moment of Prescience](spell/moment_of_prescience) can be prepared as a 8th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"magrim": {
 		"name": "Magrim",
@@ -13454,8 +13216,7 @@
 			"- [Symbol of Mirroring](spell/symbol_of_mirroring) can be prepared as a 2nd-level spell",
 			"- [Brand, Greater](spell/brand,_greater) can be prepared as a 4th-level spell",
 			"- [Firebrand](spell/firebrand) can be prepared as a 7th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"mahathallah": {
 		"name": "Mahathallah",
@@ -13563,8 +13324,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Forlarren](monster/forlarren)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Achaierai](monster/achaierai)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Cabal Devil](monster/cabal_devil)"
-		],
-		"display": "faith"
+		]
 	},
 	"malacoda": {
 		"name": "Malacoda",
@@ -13612,8 +13372,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"malthus": {
 		"name": "Malthus",
@@ -13661,8 +13420,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"mammon": {
 		"name": "Mammon",
@@ -13729,8 +13487,7 @@
 			"#### Traits",
 			"",
 			"[Flames of Hell](trait/flames_of_hell)"
-		],
-		"display": "faith"
+		]
 	},
 	"marishi": {
 		"name": "Marishi",
@@ -13763,8 +13520,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"matravash": {
 		"name": "Matravash",
@@ -13791,8 +13547,7 @@
 			"",
 			"**Centers of Worship** Radripal  ",
 			"**Nationality** Vudra"
-		],
-		"display": "faith"
+		]
 	},
 	"mazludeh": {
 		"name": "Mazludeh",
@@ -13814,8 +13569,7 @@
 			"**Favored Weapon** [Heavy shield](equipment/weapon/heavy_shield)  ",
 			"**Symbol** Seven eggs encircled by a snake eating its own tail  ",
 			"**Sacred Animal(s)** Anaconda"
-		],
-		"display": "faith"
+		]
 	},
 	"mazmezz": {
 		"name": "Mazmezz",
@@ -13897,8 +13651,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"menxyr": {
 		"name": "Menxyr",
@@ -13951,8 +13704,7 @@
 			"1. command undead",
 			"2. animate dead",
 			"3. move earth"
-		],
-		"display": "faith"
+		]
 	},
 	"mephistopheles": {
 		"name": "Mephistopheles",
@@ -14066,8 +13818,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Guardian Scroll](monster/guardian_scroll)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Contract Devil (Phistophilus)](monster/contract_devil_phistophilus)",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Heresy Devil (Ayngavhaul)](monster/heresy_devil_ayngavhaul)"
-		],
-		"display": "faith"
+		]
 	},
 	"mestama": {
 		"name": "Mestama",
@@ -14148,8 +13899,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"mhar": {
 		"name": "Mhar",
@@ -14186,8 +13936,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"milani": {
 		"name": "Milani",
@@ -14312,8 +14061,7 @@
 			"",
 			"- Milani's priests understand that a revolutionary's work is often rewarded with death, and they accept that they may one day be called to die for a cause. Fortunately, the goddess teaches that the truly devout who are martyred saving other people from death or tyranny will rise again in some way-perhaps even immediately, though being reborn in the faith is much more likely.",
 			"- Some priests claim to be the incarnations of past followers of the goddess, able to access memories of past lives with the proper magic and meditation. A follower born after Milani ascended to godhood (about a century ago) can attempt to search for his past lives' memories by casting legend lore, which Milani grants only for this purpose to clerics, inquisitors, and warpriests as a 4th-level divine spell. The first time a caster attempts this use of the spell, he rolls 1d4-1 to determine the number of specific followers of Milani whose memories he accesses; each time he uses the spell, it reveals only information known to those individuals. If the result of the roll is 0, the caster can access no memories, either because he is not a reincarnated follower of Milani or because the goddess has not made his past lives' memories available."
-		],
-		"display": "faith"
+		]
 	},
 	"minderhal": {
 		"name": "Minderhal",
@@ -14361,8 +14109,7 @@
 			"3. **Rocky Flesh (Sp)** You gain a profane bonus equal to your Charisma modifier on your Fortitude saving throws and to your natural armor bonus.",
 			"",
 			"#### [Summon Monster VII](spell/summon_monster_7): [Stone Giant](monster/stone_giant) (fiendish or resolute)"
-		],
-		"display": "faith"
+		]
 	},
 	"mneoc": {
 		"name": "Mneoc",
@@ -14404,8 +14151,7 @@
 			"1. false life",
 			"2. modify memory",
 			"3. age resistance"
-		],
-		"display": "faith"
+		]
 	},
 	"moloch": {
 		"name": "Moloch",
@@ -14518,8 +14264,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Phantom Armor (Guardian)](monster/phantom_armor_guardian) - LE",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Warmonger Devil (Levaloch)](monster/warmonger_devil_levaloch)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Tophet](monster/tophet)"
-		],
-		"display": "faith"
+		]
 	},
 	"monad": {
 		"name": "Monad",
@@ -14560,8 +14305,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"mordiggian": {
 		"name": "Mordiggian",
@@ -14596,8 +14340,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"morrobahn": {
 		"name": "Morrobahn",
@@ -14633,8 +14376,7 @@
 			"1. summon nature's ally III",
 			"2. greater teleport",
 			"3. summon monster IX"
-		],
-		"display": "faith"
+		]
 	},
 	"mother_vulture": {
 		"name": "Mother Vulture",
@@ -14675,8 +14417,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"mrtyu": {
 		"name": "Mrtyu",
@@ -14717,8 +14458,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"murnath": {
 		"name": "Murnath",
@@ -14771,8 +14511,7 @@
 			"1. summon swarm",
 			"2. beast shape II",
 			"3. control water"
-		],
-		"display": "faith"
+		]
 	},
 	"muronna": {
 		"name": "Muronna",
@@ -14808,8 +14547,7 @@
 			"1. blindness/deafness",
 			"2. greater invisibility",
 			"3. mislead"
-		],
-		"display": "faith"
+		]
 	},
 	"mursha": {
 		"name": "Mursha",
@@ -14847,8 +14585,7 @@
 			"1. extended speak with animals",
 			"2. charm monster",
 			"3. beast shape IV"
-		],
-		"display": "faith"
+		]
 	},
 	"myr": {
 		"name": "Myr",
@@ -14875,8 +14612,7 @@
 			"#### Traits",
 			"",
 			"[Shared Ancestors](trait/shared_ancestors)"
-		],
-		"display": "faith"
+		]
 	},
 	"naderi": {
 		"name": "Naderi",
@@ -14960,8 +14696,7 @@
 			"- [Confusion, Lesser](spell/confusion,_lesser) can be prepared as a 1st-level spell",
 			"- [Crushing Despair](spell/crushing_despair) can be prepared as a 3rd-level spell",
 			"- [Suffocation](spell/suffocation) can be prepared as a 5th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"nalinivati": {
 		"name": "Nalinivati",
@@ -15008,8 +14743,7 @@
 			"#### Oracle",
 			"",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"nalmungder": {
 		"name": "Nalmungder",
@@ -15051,8 +14785,7 @@
 			"1. darkness",
 			"2. acid pit",
 			"3. phobia"
-		],
-		"display": "faith"
+		]
 	},
 	"nameless": {
 		"name": "Nameless",
@@ -15086,8 +14819,7 @@
 			"1. ghost whip",
 			"2. charm monster",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"narakaas": {
 		"name": "Narakaas",
@@ -15128,8 +14860,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"narriseminek": {
 		"name": "Narriseminek",
@@ -15170,8 +14901,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"nataka": {
 		"name": "Nataka",
@@ -15207,8 +14937,7 @@
 			"1. flame blade",
 			"2. extended cup of dust",
 			"3. maximized fireball"
-		],
-		"display": "faith"
+		]
 	},
 	"neith": {
 		"name": "Neith",
@@ -15230,8 +14959,7 @@
 			"**Favored Weapon** [Shortbow](equipment/weapon/shortbow)  ",
 			"**Symbol** A shield and two crossed arrows  ",
 			"**Sacred Animal(s)** Bee"
-		],
-		"display": "faith"
+		]
 	},
 	"nephthys": {
 		"name": "Nephthys",
@@ -15253,8 +14981,7 @@
 			"**Favored Weapon** [Light mace](equipment/weapon/light_mace)  ",
 			"**Symbol** A basket atop a palace  ",
 			"**Sacred Animal(s)** Kite"
-		],
-		"display": "faith"
+		]
 	},
 	"nergal": {
 		"name": "Nergal",
@@ -15302,8 +15029,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"neshen": {
 		"name": "Neshen",
@@ -15336,8 +15062,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"nethys": {
 		"name": "Nethys",
@@ -15491,8 +15216,7 @@
 			"**Source** [Inner Sea Gods pg. 107](source/inner_sea_gods)",
 			"",
 			"- Forbidden from using [imbue with spell ability](spell/imbue_with_spell_ability) (or similar spells that grant spellcasting abilities) on living targets that cannot normally use spells or use spell-like abilities; it is considered an unworthy sharring of blessed magic."
-		],
-		"display": "faith"
+		]
 	},
 	"ng": {
 		"name": "Ng",
@@ -15539,8 +15263,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"nhimbaloth": {
 		"name": "Nhimbaloth",
@@ -15571,8 +15294,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"nightripper": {
 		"name": "Nightripper",
@@ -15625,8 +15347,7 @@
 			"1. create pit",
 			"2. phantasmal killer",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"nivi_rhombodazzle": {
 		"name": "Nivi Rhombodazzle",
@@ -15707,8 +15428,7 @@
 			"",
 			"- [Expeditious Excavation](spell/expeditious_excavation) can be prepared as a 1st-level spell",
 			"- [Invisibility, Greater](spell/invisibility,_greater) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"nocticula_redeemed": {
 		"name": "Nocticula (Redeemed)",
@@ -15766,8 +15486,7 @@
 			"1. **Midnight's Grace (Sp)** [true strike](spell/true_strike) 3/day, [cat's grace](spell/cat's_grace) 2/day, or [keen edge](spell/keen_edge) 1/day",
 			"2. **Sinuous Daggerplay (Ex)** You grow a sinuous tail (if you already have a tail, you grow a second one). This tail is prehensile and capable of manipulating and holding small objects, but cannot perform fine manual work as if it were a hand, with the exception of wielding a dagger. When you make a full attack, you can make an additional attack with this tail-wielded dagger. When you do so, you resolve this attack as a primary attack, add your Dexterity modifier to any damage dealt (in addition to any modifiers you might have from Strength), and have a reach that is 5 feet greater than your base reach. Wielding a dagger with your tail in this way does not count as two-weapon fighting for the purposes of determining penalties to attacks made with weapons wielded in your hands. In any round during which you don't make a full attack but you wield a dagger with this tail, it makes a single attack against an adjacent enemy of your choice-if it hits, it deals no damage but distracts the foe enough so that you gain a +2 circumstance bonus to your Armor Class against that target. You cannot attack with this tail-wielded dagger in any other way, including as a thrown weapon.",
 			"3. **Midnight Rejuvenation (Su)** Every night at midnight, you gain the benefits of a [heal](spell/heal) spell and a [greater restoration](spell/greater_restoration) spell (both resolve at a caster level equal to your character level)."
-		],
-		"display": "faith"
+		]
 	},
 	"nocticula": {
 		"name": "Nocticula",
@@ -15848,8 +15567,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"norgorber": {
 		"name": "Norgorber",
@@ -15957,8 +15675,7 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Human Natural Wererat Rogue 2](monster/human_natural_wererat_rogue_2) (extraplanar)",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Choker](monster/choker) (extraplanar)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Shadow Mastiff](monster/shadow_mastiff)"
-		],
-		"display": "faith"
+		]
 	},
 	"nulgreth": {
 		"name": "Nulgreth",
@@ -15981,8 +15698,7 @@
 			"**Symbol** Bloody double-axe  ",
 			"**Sacred Animal(s)** Wolverine  ",
 			"**Sacred Color(s)** Green, red"
-		],
-		"display": "faith"
+		]
 	},
 	"nurgal": {
 		"name": "Nurgal",
@@ -16064,8 +15780,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"nyarlathotep_black_pharaoh": {
 		"name": "Nyarlathotep (Black Pharaoh)",
@@ -16101,8 +15816,7 @@
 			"#### Special",
 			"",
 			"Nyarlathotep has thousands of forms, but the three most prominent are the Black Pharoah, the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
-		],
-		"display": "faith"
+		]
 	},
 	"nyarlathotep_faceless_sphinx": {
 		"name": "Nyarlathotep (Faceless Sphinx)",
@@ -16136,8 +15850,7 @@
 			"#### Special",
 			"",
 			"Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the Faceless Sphinx, and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
-		],
-		"display": "faith"
+		]
 	},
 	"nyarlathotep_haunter_of_the_dark": {
 		"name": "Nyarlathotep (Haunter of the Dark)",
@@ -16173,8 +15886,7 @@
 			"#### Special",
 			"",
 			"Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the Haunter of the Dark."
-		],
-		"display": "faith"
+		]
 	},
 	"oaur_ooung": {
 		"name": "Oaur-Ooung",
@@ -16214,8 +15926,7 @@
 			"1. disfiguring touch",
 			"2. poison",
 			"3. greater contagion"
-		],
-		"display": "faith"
+		]
 	},
 	"olheon": {
 		"name": "Olheon",
@@ -16266,8 +15977,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"omrataji": {
 		"name": "Omrataji",
@@ -16294,8 +16004,7 @@
 			"",
 			"**Centers of Worship** Radripal  ",
 			"**Nationality** Vudra"
-		],
-		"display": "faith"
+		]
 	},
 	"onamahli": {
 		"name": "Onamahli",
@@ -16331,8 +16040,7 @@
 			"1. extended mirror image",
 			"2. insanity",
 			"3. divide mind"
-		],
-		"display": "faith"
+		]
 	},
 	"ondisso": {
 		"name": "Ondisso",
@@ -16365,8 +16073,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ongalte": {
 		"name": "Ongalte",
@@ -16407,8 +16114,7 @@
 			"",
 			"- When casting [bleed glory](spell/bleed_glory), [mythic severance](spell/mythic_severance), [steal power](spell/steal_power), or any other spell that specifically harms mythic creatures, the clerics, inquisitors, and oracles of Ongalte are treated as mythic sources for the purpose of resisting the spells' effects.",
 			"- Ongalte can grant up to 8th-level spells."
-		],
-		"display": "faith"
+		]
 	},
 	"onmyuza": {
 		"name": "Onmyuza",
@@ -16444,8 +16150,7 @@
 			"1. unnatural lust",
 			"2. spite",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"onos": {
 		"name": "Onos",
@@ -16473,8 +16178,7 @@
 			"#### Traits",
 			"",
 			"[Planar Wayfarer](trait/planar_wayfarer)"
-		],
-		"display": "faith"
+		]
 	},
 	"orcus": {
 		"name": "Orcus",
@@ -16555,8 +16259,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"orgesh": {
 		"name": "Orgesh",
@@ -16594,8 +16297,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"ose": {
 		"name": "Ose",
@@ -16643,8 +16345,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"osiris": {
 		"name": "Osiris",
@@ -16676,8 +16377,7 @@
 			"- Souls cursed to not reach the afterlife must be freed. I must use my will to break the shackles of undeath.",
 			"- Life is equally sacred to death and I will defend it whenever possible. Only the gods and the will of a rightful pharaoh can stay my flail.",
 			"- Children are precious, and I will help new and expecting parents when they are in need."
-		],
-		"display": "faith"
+		]
 	},
 	"osolmyr": {
 		"name": "Osolmyr",
@@ -16719,8 +16419,7 @@
 			"1. inflict moderate wounds",
 			"2. modify memory",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"otikaya": {
 		"name": "Otikaya",
@@ -16758,8 +16457,7 @@
 			"1. eagle eye",
 			"2. extended arcane sight",
 			"3. psychic asylum"
-		],
-		"display": "faith"
+		]
 	},
 	"otolmens": {
 		"name": "Otolmens",
@@ -16800,8 +16498,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"ovonovo": {
 		"name": "Ovonovo",
@@ -16854,8 +16551,7 @@
 			"1. wood shape",
 			"2. summon monster IV (1 fiendish great white shark or 1d3 fiendish sharks)",
 			"3. beast shape IV (sharks only)"
-		],
-		"display": "faith"
+		]
 	},
 	"ozranvial": {
 		"name": "Ozranvial",
@@ -16889,8 +16585,7 @@
 			"1. death knell",
 			"2. fear",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"pavnuri": {
 		"name": "Pavnuri",
@@ -16932,8 +16627,7 @@
 			"1. augury",
 			"2. hunger for flesh",
 			"3. legend lore"
-		],
-		"display": "faith"
+		]
 	},
 	"pazuzu": {
 		"name": "Pazuzu",
@@ -17014,8 +16708,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"pharasma": {
 		"name": "Pharasma",
@@ -17202,8 +16895,7 @@
 			"**Source** [Inner Sea Gods pg. 123](source/inner_sea_gods)",
 			"",
 			"- Since Pharasma despises undead, Pharasmin clerics with the Death domain replace the animate dead domain spell with speak with dead, replace create undead with antilife shell, and replace create greater undead with symbol of death. Clerics with the Souls subdomain replace the animate dead domain spell with speak with dead."
-		],
-		"display": "faith"
+		]
 	},
 	"pharimia": {
 		"name": "Pharimia",
@@ -17233,8 +16925,7 @@
 			"",
 			"- Because Pharimia is unaligned, clerics of any alignment can worship her.",
 			"- Pharimia can grant 9th-level spells."
-		],
-		"display": "faith"
+		]
 	},
 	"phlegyas": {
 		"name": "Phlegyas",
@@ -17275,8 +16966,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"picoperi": {
 		"name": "Picoperi",
@@ -17326,8 +17016,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"pirias": {
 		"name": "Pirias",
@@ -17375,8 +17064,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"prihasta": {
 		"name": "Prihasta",
@@ -17414,8 +17102,7 @@
 			"1. misdirection",
 			"2. greater invisibility",
 			"3. mislead"
-		],
-		"display": "faith"
+		]
 	},
 	"psomeira": {
 		"name": "Psomeira",
@@ -17453,8 +17140,7 @@
 			"#### Oracle",
 			"",
 			"- [Coordinated Effort](spell/coordinated_effort) can be prepared as a 3rd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"ptah": {
 		"name": "Ptah",
@@ -17476,8 +17162,7 @@
 			"**Favored Weapon** [Quarterstaff](equipment/weapon/quarterstaff)  ",
 			"**Symbol** Staff composed of the ankh, djed, and was  ",
 			"**Sacred Animal(s)** Bull"
-		],
-		"display": "faith"
+		]
 	},
 	"pulura": {
 		"name": "Pulura",
@@ -17531,8 +17216,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"qi_zhong": {
 		"name": "Qi Zhong",
@@ -17566,8 +17250,7 @@
 			"#### Archetypes",
 			"",
 			"[Arcane Physician (Wizard)](class/archetype/wizard/arcane_physician)"
-		],
-		"display": "faith"
+		]
 	},
 	"quindiovatos": {
 		"name": "Quindiovatos",
@@ -17615,8 +17298,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"ra": {
 		"name": "Ra",
@@ -17638,8 +17320,7 @@
 			"**Favored Weapon** [Spear](equipment/weapon/spear)  ",
 			"**Symbol** Solar disk  ",
 			"**Sacred Animal(s)** Falcon"
-		],
-		"display": "faith"
+		]
 	},
 	"raetorgash": {
 		"name": "Raetorgash",
@@ -17675,8 +17356,7 @@
 			"1. vampiric touch",
 			"2. destruction",
 			"3. energy drain"
-		],
-		"display": "faith"
+		]
 	},
 	"ragadahn": {
 		"name": "Ragadahn",
@@ -17746,8 +17426,7 @@
 			"#### Oracle",
 			"",
 			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"ragathiel": {
 		"name": "Ragathiel",
@@ -17819,8 +17498,7 @@
 			"#### Traits",
 			"",
 			"[Avowed Inspiration](trait/avowed_inspiration), [Empyreal Focus](trait/empyreal_focus), [Redeemed by Ragathiel](trait/redeemed_by_ragathiel)"
-		],
-		"display": "faith"
+		]
 	},
 	"rahu": {
 		"name": "Rahu",
@@ -17856,8 +17534,7 @@
 			"1. create food and water",
 			"2. plundered power",
 			"3. power word kill"
-		],
-		"display": "faith"
+		]
 	},
 	"rasvocel": {
 		"name": "Rasvocel",
@@ -17905,8 +17582,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"ravana": {
 		"name": "Ravana",
@@ -17944,8 +17620,7 @@
 			"1. detect thoughts",
 			"2. charm monster",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"reymenda": {
 		"name": "Reymenda",
@@ -17978,8 +17653,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"rhan_tegoth": {
 		"name": "Rhan-Tegoth",
@@ -18014,8 +17688,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"roqorolos": {
 		"name": "Roqorolos",
@@ -18057,8 +17730,7 @@
 			"1. slipstream",
 			"2. ride the waves",
 			"3. fluid form"
-		],
-		"display": "faith"
+		]
 	},
 	"rovagug": {
 		"name": "Rovagug",
@@ -18226,8 +17898,7 @@
 			"- **[Summon Monster V](spell/summon_monster_5):** [Fiendish Grick](monster/fiendish_grick) - NE",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Gibbering Mouther](monster/gibbering_mouther) - CE (extraplanar)",
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Emkrah](monster/emkrah) - CE"
-		],
-		"display": "faith"
+		]
 	},
 	"rowdrosh": {
 		"name": "Rowdrosh",
@@ -18277,8 +17948,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ruapceras": {
 		"name": "Ruapceras",
@@ -18320,8 +17990,7 @@
 			"1. death knell",
 			"2. divine power",
 			"3. transformation"
-		],
-		"display": "faith"
+		]
 	},
 	"rubicante": {
 		"name": "Rubicante",
@@ -18369,8 +18038,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"rull": {
 		"name": "Rull",
@@ -18394,8 +18062,7 @@
 			"**Symbol** Thunder cloud and lightning  ",
 			"**Sacred Animal(s)** Terror bird  ",
 			"**Sacred Color(s)** Green, yellow"
-		],
-		"display": "faith"
+		]
 	},
 	"ruzel": {
 		"name": "Ruzel",
@@ -18443,8 +18110,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"rytara": {
 		"name": "Rytara",
@@ -18480,8 +18146,7 @@
 			"1. arcane sight",
 			"2. phantasmal revenge",
 			"3. weird"
-		],
-		"display": "faith"
+		]
 	},
 	"sabnach": {
 		"name": "Sabnach",
@@ -18529,8 +18194,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"saloc": {
 		"name": "Saloc",
@@ -18571,8 +18235,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"sarenrae": {
 		"name": "Sarenrae",
@@ -18754,8 +18417,7 @@
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Efreeti](monster/efreeti) - LG (redeemed) [does not have the [wish](spell/wish) spell-like ability]",
 			"- **[Summon Nature's Ally VII](spell/summon_nature's_ally_7):** [Djinni](monster/djinni) - NG",
 			"- **[Summon Nature's Ally VIII](spell/summon_nature's_ally_8):** [Efreeti](monster/efreeti) - LG (redeemed) [does not have the [wish](spell/wish) spell-like ability]"
-		],
-		"display": "faith"
+		]
 	},
 	"scal": {
 		"name": "Scal",
@@ -18777,8 +18439,7 @@
 			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.  ",
 			"**Favored Weapon** [Meteor hammer](equipment/weapon/meteor_hammer)  ",
 			"**Symbol** Burning meteor impacting the ground"
-		],
-		"display": "faith"
+		]
 	},
 	"scarmiglione": {
 		"name": "Scarmiglione",
@@ -18826,8 +18487,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"sekhmet": {
 		"name": "Sekhmet",
@@ -18849,8 +18509,7 @@
 			"**Favored Weapon** [Battleaxe](equipment/weapon/battleaxe)  ",
 			"**Symbol** Seven arrows  ",
 			"**Sacred Animal(s)** Lion"
-		],
-		"display": "faith"
+		]
 	},
 	"selket": {
 		"name": "Selket",
@@ -18872,8 +18531,7 @@
 			"**Favored Weapon** [Scorpion whip](equipment/weapon/scorpion_whip)  ",
 			"**Symbol** Red scorpion  ",
 			"**Sacred Animal(s)** Scorpion"
-		],
-		"display": "faith"
+		]
 	},
 	"seramaydiel": {
 		"name": "Seramaydiel",
@@ -18923,8 +18581,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"set": {
 		"name": "Set",
@@ -18946,8 +18603,7 @@
 			"**Favored Weapon** [Spear](equipment/weapon/spear)  ",
 			"**Symbol** Sha head  ",
 			"**Sacred Animal(s)** Sha"
-		],
-		"display": "faith"
+		]
 	},
 	"sezelrian": {
 		"name": "Sezelrian",
@@ -18970,8 +18626,7 @@
 			"**Symbol** Burning boar skull  ",
 			"**Sacred Animal(s)** Daeodon  ",
 			"**Sacred Color(s)** Green, orange"
-		],
-		"display": "faith"
+		]
 	},
 	"shamira": {
 		"name": "Shamira",
@@ -19024,8 +18679,7 @@
 			"1. alter self",
 			"2. fire shield",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"shawnari": {
 		"name": "Shawnari",
@@ -19059,8 +18713,7 @@
 			"1. invisibility",
 			"2. modify memory",
 			"3. repulsion"
-		],
-		"display": "faith"
+		]
 	},
 	"shax": {
 		"name": "Shax",
@@ -19141,8 +18794,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"shei": {
 		"name": "Shei",
@@ -19193,8 +18845,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"shelyn_pre_earthfall": {
 		"name": "Shelyn (pre-Earthfall)",
@@ -19215,8 +18866,7 @@
 			"**Subdomains** [Agathion](domain/good), [Cloud](domain/air), [Defense](domain/protection), [Fate](domain/luck), [Love](domain/charm), [Purity](domain/protection)  ",
 			"**Favored Weapon** [Dagger](equipment/weapon/dagger)  ",
 			"**Symbol** Songbird with a multicolored tail"
-		],
-		"display": "faith"
+		]
 	},
 	"shelyn": {
 		"name": "Shelyn",
@@ -19373,8 +19023,7 @@
 			"- **[Summon Monster II](spell/summon_monster_2):** [Grig](monster/grig) (extraplanar)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Silvanshee](monster/silvanshee)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Vulpinal](monster/vulpinal)"
-		],
-		"display": "faith"
+		]
 	},
 	"shiggarreb": {
 		"name": "Shiggarreb",
@@ -19414,8 +19063,7 @@
 			"1. aid",
 			"2. curse terrain",
 			"3. greater heroism"
-		],
-		"display": "faith"
+		]
 	},
 	"shivaska": {
 		"name": "Shivaska",
@@ -19496,8 +19144,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"shizuru": {
 		"name": "Shizuru",
@@ -19607,8 +19254,7 @@
 			"- [Searing Light](spell/searing_light) can be prepared as a 2nd-level spell",
 			"- [Heroism](spell/heroism) can be prepared as a 3rd-level spell",
 			"- [Sunbeam](spell/sunbeam) can be prepared as a 4th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"shub_niggurath": {
 		"name": "Shub-Niggurath",
@@ -19642,8 +19288,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"shyka": {
 		"name": "Shyka",
@@ -19711,8 +19356,7 @@
 			"- [Threefold Aspect](spell/threefold_aspect) can be prepared as a 4th-level spell",
 			"- [Temporal Divergence](spell/temporal_divergence) can be prepared as a 8th-level spell",
 			"- [Temporal Regression](spell/temporal_regression) can be prepared as a 8th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"sicva": {
 		"name": "Sicva",
@@ -19733,8 +19377,7 @@
 			"**Subdomains** [Devil (Evil)](domain/evil), [Devil (Law)](domain/law), [Ferocity](domain/strength), [Leadership](domain/nobility), [Loyalty](domain/law), [Tyranny](domain/law)  ",
 			"**Favored Weapon** [Lasso](equipment/weapon/lasso)  ",
 			"**Symbol** Virus"
-		],
-		"display": "faith"
+		]
 	},
 	"sifkesh": {
 		"name": "Sifkesh",
@@ -19816,8 +19459,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"sinashakti": {
 		"name": "Sinashakti",
@@ -19867,8 +19509,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"sithhud": {
 		"name": "Sithhud",
@@ -19921,8 +19562,7 @@
 			"1. chill metal",
 			"2. ice storm",
 			"3. freezing sphere"
-		],
-		"display": "faith"
+		]
 	},
 	"sivanah": {
 		"name": "Sivanah",
@@ -20011,8 +19651,7 @@
 			"- [Silent Image](spell/silent_image) can be prepared as a 1st-level spell",
 			"- [Hypnotic Pattern](spell/hypnotic_pattern) can be prepared as a 2nd-level spell",
 			"- [Veil](spell/veil) can be prepared as a 6th-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"skode": {
 		"name": "Skode",
@@ -20035,8 +19674,7 @@
 			"**Symbol** Sun rising over ocean  ",
 			"**Sacred Animal(s)** Osprey  ",
 			"**Sacred Color(s)** Blue, yellow"
-		],
-		"display": "faith"
+		]
 	},
 	"skrymir": {
 		"name": "Skrymir",
@@ -20059,8 +19697,7 @@
 			"**Symbol** Coastline pierced by blades  ",
 			"**Sacred Animal(s)** Octopus  ",
 			"**Sacred Color(s)** Brown, silver"
-		],
-		"display": "faith"
+		]
 	},
 	"slandrais": {
 		"name": "Slandrais",
@@ -20102,8 +19739,7 @@
 			"1. unnatural lust",
 			"2. scrying",
 			"3. quickened invisibility"
-		],
-		"display": "faith"
+		]
 	},
 	"smiad": {
 		"name": "Smiad",
@@ -20136,8 +19772,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"sobek": {
 		"name": "Sobek",
@@ -20159,8 +19794,7 @@
 			"**Favored Weapon** [Falchion](equipment/weapon/falchion)  ",
 			"**Symbol** Green crocodile  ",
 			"**Sacred Animal(s)** Crocodile"
-		],
-		"display": "faith"
+		]
 	},
 	"socothbenoth": {
 		"name": "Socothbenoth",
@@ -20241,8 +19875,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"soralyon": {
 		"name": "Soralyon",
@@ -20297,8 +19930,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"speakers_of_the_depths": {
 		"name": "Speakers of the Depths",
@@ -20318,8 +19950,7 @@
 			"**Subdomains** [Catastrophe](domain/destruction), [Construct](domain/artifice), [Insanity](domain/madness), [Oceans](domain/water), [Protean](domain/chaos), [Toil](domain/artifice)  ",
 			"**Favored Weapon** [Sickle](equipment/weapon/sickle)  ",
 			"**Symbol** An eyeless serpent twisted into an infinity symbol to feed upon its own tail"
-		],
-		"display": "faith"
+		]
 	},
 	"ssila'meshnik": {
 		"name": "Ssila'meshnik",
@@ -20360,8 +19991,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"stygidvod": {
 		"name": "Stygidvod",
@@ -20403,8 +20033,7 @@
 			"1. false life",
 			"2. lesser age resistance",
 			"3. heal"
-		],
-		"display": "faith"
+		]
 	},
 	"sugroz": {
 		"name": "Sugroz",
@@ -20440,8 +20069,7 @@
 			"1. sculpt sound",
 			"2. ethereal jaunt",
 			"3. power word kill"
-		],
-		"display": "faith"
+		]
 	},
 	"sun_wukong": {
 		"name": "Sun Wukong",
@@ -20468,8 +20096,7 @@
 			"",
 			"**Centers of Worship** Forest of Spirits, Goka, Hwanggot, Kwanlai, Minata, Quain  ",
 			"**Nationality** Monkey"
-		],
-		"display": "faith"
+		]
 	},
 	"surpa": {
 		"name": "Surpa",
@@ -20507,8 +20134,7 @@
 			"1. death knell",
 			"2. inflict critical wounds",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"svarozic": {
 		"name": "Svarozic",
@@ -20541,8 +20167,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"szuriel": {
 		"name": "Szuriel",
@@ -20630,8 +20255,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Fiendish urdefhan](monster/fiendish_urdefhan)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Genthodaemon](monster/genthodaemon)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Nightmare](monster/nightmare)"
-		],
-		"display": "faith"
+		]
 	},
 	"tamede": {
 		"name": "Tamede",
@@ -20673,8 +20297,7 @@
 			"1. pox pustules",
 			"2. contagion",
 			"3. harm"
-		],
-		"display": "faith"
+		]
 	},
 	"tanagaar": {
 		"name": "Tanagaar",
@@ -20724,8 +20347,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"taraksun": {
 		"name": "Taraksun",
@@ -20761,8 +20383,7 @@
 			"1. deeper slumber",
 			"2. night terrors",
 			"3. dream voyage"
-		],
-		"display": "faith"
+		]
 	},
 	"teshallas": {
 		"name": "Teshallas",
@@ -20803,8 +20424,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"thamir_gixx": {
 		"name": "Thamir Gixx",
@@ -20894,8 +20514,7 @@
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Shadow](monster/shadow)",
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Greater Shadow](monster/greater_shadow)"
-		],
-		"display": "faith"
+		]
 	},
 	"the_green_mother": {
 		"name": "The Green Mother",
@@ -20951,8 +20570,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"the_lantern_king": {
 		"name": "The Lantern King",
@@ -21003,8 +20621,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"the_lost_prince": {
 		"name": "The Lost Prince",
@@ -21055,8 +20672,7 @@
 			"#### Traits",
 			"",
 			"[Shaper of Reality](trait/shaper_of_reality)"
-		],
-		"display": "faith"
+		]
 	},
 	"the_pale_horse": {
 		"name": "The Pale Horse",
@@ -21097,8 +20713,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"thisamet": {
 		"name": "Thisamet",
@@ -21131,8 +20746,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"thoth": {
 		"name": "Thoth",
@@ -21154,8 +20768,7 @@
 			"**Favored Weapon** [Sickle](equipment/weapon/sickle)  ",
 			"**Symbol** Scroll with lunar disk and crescent  ",
 			"**Sacred Animal(s)** Ibis"
-		],
-		"display": "faith"
+		]
 	},
 	"thremyr": {
 		"name": "Thremyr",
@@ -21178,8 +20791,7 @@
 			"**Symbol** Frozen blue gemstone  ",
 			"**Sacred Animal(s)** Woolly rhinoceros  ",
 			"**Sacred Color(s)** Ice blue, white"
-		],
-		"display": "faith"
+		]
 	},
 	"thuskchoon": {
 		"name": "Thuskchoon",
@@ -21219,8 +20831,7 @@
 			"1. shatter",
 			"2. hunger for flesh",
 			"3. legend lore"
-		],
-		"display": "faith"
+		]
 	},
 	"titivilus": {
 		"name": "Titivilus",
@@ -21268,8 +20879,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"tjasse": {
 		"name": "Tjasse",
@@ -21292,8 +20902,7 @@
 			"**Symbol** Mountain gripped by talon  ",
 			"**Sacred Animal(s)** Roc  ",
 			"**Sacred Color(s)** Gray, red"
-		],
-		"display": "faith"
+		]
 	},
 	"tolc": {
 		"name": "Tolc",
@@ -21343,8 +20952,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"torag": {
 		"name": "Torag",
@@ -21508,8 +21116,7 @@
 			"- **[Summon Monster I](spell/summon_monster_1):** [Badger](monster/badger)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Azer](monster/azer)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Dire Badger](monster/dire_badger)"
-		],
-		"display": "faith"
+		]
 	},
 	"treerazer": {
 		"name": "Treerazer",
@@ -21551,8 +21158,7 @@
 			"1. warp wood",
 			"2. antiplant shell",
 			"3. repel wood"
-		],
-		"display": "faith"
+		]
 	},
 	"trelmarixian": {
 		"name": "Trelmarixian",
@@ -21627,8 +21233,7 @@
 			"#### Traits",
 			"",
 			"[Covenant of Abaddon](trait/covenant_of_abaddon)"
-		],
-		"display": "faith"
+		]
 	},
 	"tresmalvos": {
 		"name": "Tresmalvos",
@@ -21670,8 +21275,7 @@
 			"1. summon swarm (rats only)",
 			"2. vermin shape II",
 			"3. swarm skin"
-		],
-		"display": "faith"
+		]
 	},
 	"trudd": {
 		"name": "Trudd",
@@ -21717,8 +21321,7 @@
 			"#### Traits",
 			"",
 			"[Battlefield Caster](trait/battlefield_caster), [Guardian Smite](trait/guardian_smite), [Mighty Protector](trait/mighty_protector), [Steady Strength](trait/steady_strength)"
-		],
-		"display": "faith"
+		]
 	},
 	"tsathoggua": {
 		"name": "Tsathoggua",
@@ -21753,8 +21356,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"tsukiyo": {
 		"name": "Tsukiyo",
@@ -21858,8 +21460,7 @@
 			"- [Faerie Fire](spell/faerie_fire) can be prepared as a 1st-level spell",
 			"- [Calm Spirit](spell/calm_spirit) can be prepared as a 2nd-level spell",
 			"- [Darkvision](spell/darkvision) can be prepared as a 2nd-level spell"
-		],
-		"display": "faith"
+		]
 	},
 	"uaransaph": {
 		"name": "Uaransaph",
@@ -21901,8 +21502,7 @@
 			"1. create pit",
 			"2. extended fly",
 			"3. hungry pit"
-		],
-		"display": "faith"
+		]
 	},
 	"ulon": {
 		"name": "Ulon",
@@ -21923,8 +21523,7 @@
 			"**Subdomains** [Cooperation](domain/community), [Daemon](domain/evil), [Deception](domain/trickery), [Lust](domain/charm), [Memory](domain/knowledge), [Thought](domain/knowledge)  ",
 			"**Favored Weapon** [Hand crossbow](equipment/weapon/hand_crossbow)  ",
 			"**Symbol** Black pentagon within a purple circle"
-		],
-		"display": "faith"
+		]
 	},
 	"upion_and_warrik": {
 		"name": "Upion and Warrik",
@@ -21953,8 +21552,7 @@
 			"**Source** [Pathfinder #144: Midwives to Death pg. 74](source/pathfinder_#144_midwives_to_death)",
 			"",
 			"- Upion and Warrik can grant up to 4th-level spells."
-		],
-		"display": "faith"
+		]
 	},
 	"urazra": {
 		"name": "Urazra",
@@ -21987,8 +21585,7 @@
 			"#### Magic Items - Wondrous Items",
 			"",
 			"[Bear Pelt of the Bonebreaker](magic/wondrous/bear_pelt_of_the_bonebreaker)"
-		],
-		"display": "faith"
+		]
 	},
 	"urgathoa": {
 		"name": "Urgathoa",
@@ -22168,8 +21765,7 @@
 			"**Source** [Inner Sea Gods pg. 163](source/inner_sea_gods)",
 			"",
 			"- Priests who cast remove disease may draw diseases into themselves as they heal their targets; they become carriers without suffering ill effects. Contagion spells cast by Urgathoa's priests always use the caster's spell DC for the disease's secondary saves."
-		],
-		"display": "faith"
+		]
 	},
 	"uruskreil": {
 		"name": "Uruskreil",
@@ -22217,8 +21813,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"urxehl": {
 		"name": "Urxehl",
@@ -22299,8 +21894,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"ushitora": {
 		"name": "Ushitora",
@@ -22336,8 +21930,7 @@
 			"1. knock",
 			"2. malfunction",
 			"3. move earth"
-		],
-		"display": "faith"
+		]
 	},
 	"uskyeria": {
 		"name": "Uskyeria",
@@ -22370,8 +21963,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"uzumae": {
 		"name": "Uzumae",
@@ -22407,8 +21999,7 @@
 			"1. chill metal",
 			"2. ice storm",
 			"3. freezing sphere"
-		],
-		"display": "faith"
+		]
 	},
 	"valani": {
 		"name": "Valani",
@@ -22458,8 +22049,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"vale": {
 		"name": "Vale",
@@ -22500,8 +22090,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"valmallos": {
 		"name": "Valmallos",
@@ -22542,8 +22131,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"vapula": {
 		"name": "Vapula",
@@ -22591,8 +22179,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"varg": {
 		"name": "Varg",
@@ -22621,8 +22208,7 @@
 			"#### Archetypes",
 			"",
 			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
-		],
-		"display": "faith"
+		]
 	},
 	"vavaalrav": {
 		"name": "Vavaalrav",
@@ -22663,8 +22249,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"velgaas": {
 		"name": "Velgaas",
@@ -22698,8 +22283,7 @@
 			"1. detect thoughts",
 			"2. mindwipe",
 			"3. mass suggestion"
-		],
-		"display": "faith"
+		]
 	},
 	"venkelvore": {
 		"name": "Venkelvore",
@@ -22732,8 +22316,7 @@
 			"#### Traits",
 			"",
 			"[Restless Hunger](trait/restless_hunger)"
-		],
-		"display": "faith"
+		]
 	},
 	"verex": {
 		"name": "Verex",
@@ -22756,8 +22339,7 @@
 			"**Symbol** Rat with gold coin  ",
 			"**Sacred Animal(s)** Dire rat  ",
 			"**Sacred Color(s)** Gold, green"
-		],
-		"display": "faith"
+		]
 	},
 	"vermilion_mother": {
 		"name": "Vermilion Mother",
@@ -22790,8 +22372,7 @@
 			"1. sickening entanglement",
 			"2. curse terrain",
 			"3. green caress"
-		],
-		"display": "faith"
+		]
 	},
 	"vevelor": {
 		"name": "Vevelor",
@@ -22827,8 +22408,7 @@
 			"1. hold person",
 			"2. plundered power",
 			"3. freedom"
-		],
-		"display": "faith"
+		]
 	},
 	"vibhishah": {
 		"name": "Vibhishah",
@@ -22866,8 +22446,7 @@
 			"1. cat's grace",
 			"2. locate creature",
 			"3. find the path"
-		],
-		"display": "faith"
+		]
 	},
 	"vildeis": {
 		"name": "Vildeis",
@@ -22929,8 +22508,7 @@
 			"#### Traits",
 			"",
 			"[Blind Zeal](trait/blind_zeal), [Bloody Vengeance](trait/bloody_vengeance), [Empyreal Focus](trait/empyreal_focus), [Resilient Martyr](trait/resilient_martyr)"
-		],
-		"display": "faith"
+		]
 	},
 	"vois": {
 		"name": "Vois",
@@ -22978,8 +22556,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"vonymos": {
 		"name": "Vonymos",
@@ -23020,8 +22597,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"vorasha": {
 		"name": "Vorasha",
@@ -23063,8 +22639,7 @@
 			"1. delay poison",
 			"2. poison",
 			"3. extended cloudkill"
-		],
-		"display": "faith"
+		]
 	},
 	"wadjet": {
 		"name": "Wadjet",
@@ -23103,8 +22678,7 @@
 			"#### Traits",
 			"",
 			"[Snake Handler](trait/snake_handler)"
-		],
-		"display": "faith"
+		]
 	},
 	"winlas": {
 		"name": "Winlas",
@@ -23154,8 +22728,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"wylgart": {
 		"name": "Wylgart",
@@ -23203,8 +22776,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"xhamen_dor": {
 		"name": "Xhamen-Dor",
@@ -23292,8 +22864,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Phycomid](monster/phycomid)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Basidirond](monster/basidirond)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Mi-go](monster/mi-go)"
-		],
-		"display": "faith"
+		]
 	},
 	"xhasnaphar": {
 		"name": "Xhasnaphar",
@@ -23341,8 +22912,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"xiquiripat": {
 		"name": "Xiquiripat",
@@ -23376,8 +22946,7 @@
 			"1. create pit",
 			"2. greater oneiric horror",
 			"3. blade barrier"
-		],
-		"display": "faith"
+		]
 	},
 	"xoveron": {
 		"name": "Xoveron",
@@ -23459,8 +23028,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"xsistaid": {
 		"name": "Xsistaid",
@@ -23502,8 +23070,7 @@
 			"1. skinsend",
 			"2. fleshworm infestation",
 			"3. swarm skin"
-		],
-		"display": "faith"
+		]
 	},
 	"yabu": {
 		"name": "Yabu",
@@ -23539,8 +23106,7 @@
 			"1. augury",
 			"2. volcanic storm",
 			"3. major curse"
-		],
-		"display": "faith"
+		]
 	},
 	"yaezhing": {
 		"name": "Yaezhing",
@@ -23567,8 +23133,7 @@
 			"",
 			"**Centers of Worship** Goka, Kaoling, Lingshen, Nagajor  ",
 			"**Nationality** Tian-Shu"
-		],
-		"display": "faith"
+		]
 	},
 	"yamasoth": {
 		"name": "Yamasoth",
@@ -23669,8 +23234,7 @@
 			"",
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Qlippoth, Gorgoros](monster/qlippoth,_gorgoros)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Qlippoth, Gongorinan](monster/qlippoth,_gongorinan)"
-		],
-		"display": "faith"
+		]
 	},
 	"yamatsumi": {
 		"name": "Yamatsumi",
@@ -23697,8 +23261,7 @@
 			"",
 			"**Centers of Worship** Dtang Ma, Hongal, Minkai, Nagajor, Wall of Heaven, Zi Ha  ",
 			"**Nationality** Tian-Min"
-		],
-		"display": "faith"
+		]
 	},
 	"yan_gant_y_tan": {
 		"name": "Yan-gant-y-tan",
@@ -23746,8 +23309,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"ydajisk": {
 		"name": "Ydajisk",
@@ -23788,8 +23350,7 @@
 			"#### Prestige Classes",
 			"",
 			"[Proctor](class/prestige/proctor)"
-		],
-		"display": "faith"
+		]
 	},
 	"ydersius": {
 		"name": "Ydersius",
@@ -23856,8 +23417,7 @@
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Amphisbaena](monster/amphisbaena)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Emperor Cobra](monster/emperor_cobra) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			"- **[Summon Monster VII](spell/summon_monster_7):** [Giant Anaconda](monster/giant_anaconda) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
-		],
-		"display": "faith"
+		]
 	},
 	"yhidothrus": {
 		"name": "Yhidothrus",
@@ -23938,8 +23498,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"yig": {
 		"name": "Yig",
@@ -23974,8 +23533,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"ylimancha": {
 		"name": "Ylimancha",
@@ -24029,8 +23587,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"ymeri": {
 		"name": "Ymeri",
@@ -24063,8 +23620,7 @@
 			"#### Traits",
 			"",
 			"[Affinity for the Elements](trait/affinity_for_the_elements)"
-		],
-		"display": "faith"
+		]
 	},
 	"yog_sothoth": {
 		"name": "Yog-Sothoth",
@@ -24098,8 +23654,7 @@
 			"#### Traits",
 			"",
 			"[Unspeakable Bond](trait/unspeakable_bond)"
-		],
-		"display": "faith"
+		]
 	},
 	"yuelral": {
 		"name": "Yuelral",
@@ -24137,8 +23692,7 @@
 			"#### Traits",
 			"",
 			"[Magic's Might](trait/magic's_might)"
-		],
-		"display": "faith"
+		]
 	},
 	"zabha": {
 		"name": "Zabha",
@@ -24176,8 +23730,7 @@
 			"1. hideous laughter",
 			"2. unholy blight",
 			"3. foster hatred"
-		],
-		"display": "faith"
+		]
 	},
 	"zaebos": {
 		"name": "Zaebos",
@@ -24225,8 +23778,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"zagresh": {
 		"name": "Zagresh",
@@ -24249,8 +23801,7 @@
 			"**Symbol** Stack of severed heads  ",
 			"**Sacred Animal(s)** Cave bear  ",
 			"**Sacred Color(s)** Black, green"
-		],
-		"display": "faith"
+		]
 	},
 	"zaigasnar": {
 		"name": "Zaigasnar",
@@ -24292,8 +23843,7 @@
 			"1. alter self",
 			"2. extended keen edge",
 			"3. blade barrier"
-		],
-		"display": "faith"
+		]
 	},
 	"zarongel": {
 		"name": "Zarongel",
@@ -24326,8 +23876,7 @@
 			"#### Traits",
 			"",
 			"[Wolf Cub](trait/wolf_cub)"
-		],
-		"display": "faith"
+		]
 	},
 	"zelishkar": {
 		"name": "Zelishkar",
@@ -24369,8 +23918,7 @@
 			"1. flaming sphere",
 			"2. wall of fire",
 			"3. contagious flame"
-		],
-		"display": "faith"
+		]
 	},
 	"zepar": {
 		"name": "Zepar",
@@ -24418,8 +23966,7 @@
 			"#### Feats",
 			"",
 			"[Hellish Shackles](feat/hellish_shackles)"
-		],
-		"display": "faith"
+		]
 	},
 	"zevgavizeb": {
 		"name": "Zevgavizeb",
@@ -24500,8 +24047,7 @@
 			"#### Traits",
 			"",
 			"[Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"zipacna": {
 		"name": "Zipacna",
@@ -24535,8 +24081,7 @@
 			"1. bull's strength",
 			"2. confusion",
 			"3. move earth"
-		],
-		"display": "faith"
+		]
 	},
 	"zogmugot": {
 		"name": "Zogmugot",
@@ -24569,8 +24114,7 @@
 			"#### Traits",
 			"",
 			"[Flounderer](trait/flounderer)"
-		],
-		"display": "faith"
+		]
 	},
 	"zohls": {
 		"name": "Zohls",
@@ -24620,8 +24164,7 @@
 			"#### Traits",
 			"",
 			"[Empyreal Focus](trait/empyreal_focus)"
-		],
-		"display": "faith"
+		]
 	},
 	"zon_kuthon": {
 		"name": "Zon-Kuthon",
@@ -24781,8 +24324,7 @@
 			"**Source** [Inner Sea Gods pg. 171](source/inner_sea_gods)",
 			"",
 			"- A Kuthite priest's inflict spells always cause visible open wounds that look as though they were caused by slashing damage, though the actual cause of the damage is still negative energy."
-		],
-		"display": "faith"
+		]
 	},
 	"zura": {
 		"name": "Zura",
@@ -24863,8 +24405,7 @@
 			"#### Traits",
 			"",
 			"[Blessing of the Feast](trait/blessing_of_the_feast), [Demonic Persuasion](trait/demonic_persuasion)"
-		],
-		"display": "faith"
+		]
 	},
 	"zurapadyn": {
 		"name": "Zurapadyn",
@@ -24900,8 +24441,7 @@
 			"1. fireball",
 			"2. delayed blast fireball",
 			"3. meteor swarm"
-		],
-		"display": "faith"
+		]
 	},
 	"zursvaater": {
 		"name": "Zursvaater",
@@ -24985,8 +24525,7 @@
 			"- **[Summon Monster I](spell/summon_monster_1):** [Burning Human Skeleton](monster/burning_human_skeleton) (extraplanar)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Thoqqua](monster/thoqqua)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Burning Fire Giant Skeleton](monster/burning_fire_giant_skeleton) (extraplanar)"
-		],
-		"display": "faith"
+		]
 	},
 	"zyphus": {
 		"name": "Zyphus",
@@ -25095,7 +24634,6 @@
 			"- **[Summon Monster III](spell/summon_monster_3):** [Cacodaemon](monster/cacodaemon)",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Lacridaemon](monster/lacridaemon)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Ceustodaemon](monster/ceustodaemon)"
-		],
-		"display": "faith"
+		]
 	}
 }

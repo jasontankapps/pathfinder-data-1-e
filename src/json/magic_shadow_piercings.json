@@ -22,8 +22,7 @@
 			"**Construction**",
 			"",
 			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), [Improved Grapple](feat/improved_grapple), magic weapon; **Cost** 900 gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)"
-		],
-		"display": "magic/shadow_piercings"
+		]
 	},
 	"chest_piercings_minor": {
 		"name": "Chest Piercings (Minor)",
@@ -47,26 +46,22 @@
 			"**Construction**",
 			"",
 			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), bear's endurance (minor and greater), fox's cunning (major); **Cost** 1,100 gp (Minor), 1,875 gp (Major), 2,875 gp (Greater)"
-		],
-		"display": "magic/shadow_piercings"
+		]
 	},
 	"body_piercings_major": {
 		"name": "Body Piercings (Major)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "body_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "body_piercings_minor"
 	},
 	"body_piercings_greater": {
 		"name": "Body Piercings (Greater)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "body_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "body_piercings_minor"
 	},
 	"chest_piercings_major": {
 		"name": "Chest Piercings (Major)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "chest_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "chest_piercings_minor"
 	},
 	"head_piercings_minor": {
 		"name": "Head Piercings (Minor)",
@@ -90,20 +85,17 @@
 			"**Construction**",
 			"",
 			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), fear (minor and greater), owl's wisdom (major); **Cost** 1,875 gp (Minor), 3,000 gp (Major), 16,800 gp (Greater)"
-		],
-		"display": "magic/shadow_piercings"
+		]
 	},
 	"chest_piercings_greater": {
 		"name": "Chest Piercings (Greater)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "chest_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "chest_piercings_minor"
 	},
 	"head_piercings_major": {
 		"name": "Head Piercings (Major)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "head_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "head_piercings_minor"
 	},
 	"eye_piercings_minor": {
 		"name": "Eye Piercings (Minor)",
@@ -127,8 +119,7 @@
 			"**Construction**",
 			"",
 			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), keen senses (minor), darkvision (major and greater); **Cost** 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)"
-		],
-		"display": "magic/shadow_piercings"
+		]
 	},
 	"suspension_piercings_minor": {
 		"name": "Suspension Piercings (Minor)",
@@ -152,37 +143,31 @@
 			"**Construction**",
 			"",
 			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), feather fall (minor), levitate (major), air walk (greater); **Cost** 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp (Greater)"
-		],
-		"display": "magic/shadow_piercings"
+		]
 	},
 	"suspension_piercings_major": {
 		"name": "Suspension Piercings (Major)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "suspension_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "suspension_piercings_minor"
 	},
 	"suspension_piercings_greater": {
 		"name": "Suspension Piercings (Greater)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "suspension_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "suspension_piercings_minor"
 	},
 	"eye_piercings_major": {
 		"name": "Eye Piercings (Major)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "eye_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "eye_piercings_minor"
 	},
 	"eye_piercings_greater": {
 		"name": "Eye Piercings (Greater)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "eye_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "eye_piercings_minor"
 	},
 	"head_piercings_greater": {
 		"name": "Head Piercings (Greater)",
 		"sources": [ "Champions of Corruption" ],
-		"copyof": "head_piercings_minor",
-		"display": "magic/shadow_piercings"
+		"copyof": "head_piercings_minor"
 	}
 }

@@ -17,8 +17,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, bane; **Cost** 250 gp"
-		],
-		"display": "magic/juju_fetishes"
+		]
 	},
 	"ganji_doll": {
 		"name": "Ganji Doll",
@@ -45,8 +44,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
-		],
-		"display": "magic/juju_fetishes"
+		]
 	},
 	"ganji_doll,_greater": {
 		"name": "Ganji Doll, Greater",
@@ -73,8 +71,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
-		],
-		"display": "magic/juju_fetishes"
+		]
 	},
 	"greater_ganji_doll": {
 		"copyof": "ganji_doll,_greater"
@@ -98,8 +95,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dominate person, disguise self; **Cost** 1,400 gp"
-		],
-		"display": "magic/juju_fetishes"
+		]
 	},
 	"spirit_tear": {
 		"name": "Spirit Tear",
@@ -118,7 +114,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), see invisibility; **Cost** 900 gp"
-		],
-		"display": "magic/juju_fetishes"
+		]
 	}
 }

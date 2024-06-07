@@ -60,8 +60,7 @@
 			"**Unfettered Wild Shape (Su):** At 6th level, an adaptive shifter gains the ability to turn into other creatures. This functions as a druid's wild shape ability, except she does not gain the ability to turn into an elemental. The shifter's effective druid level is equal to her class level. She can use this ability for a number of hours per day equal to half her effective druid level. This duration does not need to be consecutive, but must be spent in 1-hour increments. For abilities that function based on \"uses of wild shape,\" each hour of unfettered wild shape counts as a use.",
 			"",
 			"This replaces wild shape."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"dragonblood_shifter": {
 		"name": "Dragonblood Shifter",
@@ -112,8 +111,7 @@
 			"A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature.",
 			"",
 			"**Dragon (Dragonblood Shifter Archetype):** Bite (B, P, S), tail slap (B), wing (B)."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"elementalist_shifter": {
 		"name": "Elementalist Shifter",
@@ -197,8 +195,7 @@
 			"**Minor Form:** You gain a +2 enhancement bonus to your Strength score. This bonus increases to +4 at 8th level and to +6 at 15th level.",
 			"",
 			"**Major Form:** Your shape changes to that of a Medium water elemental (Pathfinder RPG Bestiary 126). While you are in this form, your base speed is reduced to 20 feet but you gain a swim speed of 60 feet, and if both you and your target are touching water, you also gain a +1 bonus on attack and damage rolls. If the target is touching the ground, you take a -4 penalty on attack and damage rolls against it. These modifiers apply to bull rush and overrun combat maneuvers, whether you are initiating or resisting these kinds of attacks. At 8th level, your swim speed increases to 90 feet, your touch automatically extinguishes nonmagical flames of size Large or smaller, and you can dispel magical fires as per dispel magic using your shifter level as your effective caster level. At 15th level, you gain Improved Natural Attack with your slam and the vortex special ability, which functions identically to the air aspect's whirlwind ability (see page 79) but can form only underwater and cannot leave the water."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"feyform_shifter": {
 		"name": "Feyform Shifter",
@@ -242,8 +239,7 @@
 			"A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature.",
 			"",
 			"**Fey (Feyform Shifter Archetype):** Bite (B, P, S), sting (P)."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"fiendflesh_shifter": {
 		"name": "Fiendflesh Shifter",
@@ -297,8 +293,7 @@
 			"**Devil:** The shifter gains a +4 enhancement bonus to her Dexterity score and see in darkness as per the universal monster rule.",
 			"",
 			"This replaces greater chimeric aspect."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"holy_beast": {
 		"name": "Holy Beast",
@@ -318,8 +313,7 @@
 			"**Divine Fury (Su):** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She gains the [ranger's favored enemy](class/ranger) class feature, except she can select only an outsider type from the favored enemy table. The bonus against her favored enemy automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5 levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider types chosen in this way are equal to the bonus for the type chosen at 1st level.",
 			"",
 			"This replaces wild empathy, track, woodland stride, and trackless step."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"leafshifter": {
 		"name": "Leafshifter",
@@ -357,8 +351,7 @@
 			"**Spore:** The creature gains a +4 competence bonus on Fly checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
 			"**Water Lily:** The creature gains a +4 competence bonus on Swim checks. This bonus increases to +6 at 8th level and +8 at 15th level."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"oozemorph": {
 		"name": "Oozemorph",
@@ -417,8 +410,7 @@
 			"Despite having an oozelike shape, an oozemorph's base form is not an ooze, though it does also count as an ooze for the purposes of effects targeting creatures by type. The oozelike form doesn't gain any abilities of the ooze creature type except as stated by the archetype itself. This form retains the base senses and land speed of the oozemorph's original race, as well as racial abilities like dwarfs' greed or gnomes' obsession that don't depend on shape, but it loses abilities dependent on form, including form-based speeds like strix's flight (and most other racial speeds beyond land speed), racial natural attacks like catfolks' claws, and other abilities like tieflings' prehensile tail. However, if the oozemorph possesses a racial ability denied her in her oozelike form and transforms into a member of her own race with fluidic body, she gains the full benefits of that racial ability for that duration, even if it isn't usually granted when using alter self (or the appropriate spell for a non-humanoid oozemorph). An oozemorph's compression, damage reduction, and morphic weaponry function in its oozelike form and any form it takes via fluidic body, though not in forms it takes via other polymorph effects.",
 			"",
 			"An oozemorph can carry items floating in its mass that are considered to be attuned. When it turns into a humanoid form via fluidic body, it can equip any number of those items (even armor, which usually takes time to don), leaving the rest on the ground in its space. If it turns into a animal via fluidic form, the items meld into the new form and grant some passive benefits, as normal for polymorph effects"
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"rageshaper": {
 		"name": "Rageshaper",
@@ -462,8 +454,7 @@
 			"**Terrible Leap (Ex):** At 5th level, when a rageshaper is in his devastating form, he can perform a terrible leap as a move action without attempting an Acrobatics check, jumping any distance up to his move speed (upward movement counts as double, as when flying). He can leap in this way once per day per shifter level.",
 			"",
 			"This replaces trackless step."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"style_shifter": {
 		"name": "Style Shifter",
@@ -509,8 +500,7 @@
 			"**Form of the Snapping Turtle:** You double your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style). At 8th level, you still gain your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style) even when you don't have one hand free. At 15th level, there is a 10% chance that critical hits and sneak attacks fail to affect you. This stacks with the [light fortification](magic/armor/light_fortification) armor special ability and similar effects.",
 			"",
 			"**Form of the Tiger:** On a successful bull rush, overrun, or trip combat maneuver, you deal slashing damage equal to your Strength bonus to the target of the maneuver. This damage increases to twice your Strength bonus at 8th level. At 15th level, if you hit with two or more unarmed strikes and deal slashing damage on your turn, you also rend your target, dealing damage equal to your unarmed strike plus 1-1/2 your Strength bonus."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"swarm_shifter": {
 		"name": "Swarm Shifter",
@@ -566,8 +556,7 @@
 			"A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature.",
 			"",
 			"**Swarm (Swarm Shifter Archetype):** Bite (B, P, S), pincers (B), sting (P)."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"verdant_shifter": {
 		"name": "Verdant Shifter",
@@ -595,8 +584,7 @@
 			"**Plant Shape (Su):** At 6th level, a verdant shifter's wild shape ability instead functions as plant shape I. The verdant shifter can maintain this form for a number of rounds per day equal to her shifter level. At 12th level, this ability instead functions as plant shape II, and at 18th level, it functions as plant shape III. This ability otherwise functions as the standard wild shape shifter class feature.",
 			"",
 			"This alters wild shape and replaces chimeric form and greater chimeric form."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"weretouched": {
 		"name": "Weretouched",
@@ -620,8 +608,7 @@
 			"**Lycanthropic Wild Shape (Su):** At 4th level, when a weretouched uses wild shape, she can assume only the form of an animal of the same type as her lycanthrope aspect. However, instead of assuming a major form, she can assume a hybrid form that mixes the traits of her natural form and the major form of her aspect. While in a hybrid form, she gain a +2 size bonus to her Strength score, a +2 natural armor bonus to her AC, and all of the natural attacks and abilities listed by her major form. A weretouched also counts as being in her natural form for the purpose of determining whether she can extend her shifter claws. A weretouched's hybrid form is roughly the same size and shape as her natural form, albeit with bestial qualities such as digitigrade legs or shaggy fur, so her equipment does not merge into her new form when she shifts between her natural form and hybrid form. In addition, the size of a weretouched's hybrid form is the same as the size of her natural form. This otherwise counts as assuming a major form using wild shape.",
 			"",
 			"This alters wild shape."
-		],
-		"display": "archetype/shifter"
+		]
 	},
 	"wild_effigy": {
 		"name": "Wild Effigy",
@@ -645,7 +632,6 @@
 			"This replaces defensive instinct.",
 			"",
 			"**Stoneclaw Strike (Su):** At 6th level, a wild effigy can sacrifice minutes from her aspects' minor forms to turn her claws into adamantine. By expending a 1-minute increment of her shifter's minor aspect ability as a swift action, she can grant her shifter's claws the ability to ignore an amount of DR or hardness equal to her shifter level for 1 minute. The wild effigy can use this ability 3 times per day."
-		],
-		"display": "archetype/shifter"
+		]
 	}
 }

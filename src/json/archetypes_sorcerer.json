@@ -32,8 +32,7 @@
 			"**Infernal-Hellish Aura (Su):** Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or wild empathy check. This DC increases to 20 at 10th level, and to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.",
 			"",
 			"**Undead-Unliving Physiology (Su):** The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as cure spells and channeled energy."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"crossblooded": {
 		"name": "Crossblooded",
@@ -59,8 +58,7 @@
 			"**Bloodline Powers:** At 1st, 3rd, 9th, 15th, and 20th levels, a crossblooded sorcerer gains one of the two new bloodline powers available to her at that level. She may instead select a lower-level bloodline power she did not choose in place of one of these higher-level powers.",
 			"",
 			"**Drawbacks:** A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the sorcerer spells known table. Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a -2 penalty on Will saves."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"dragon_drinker": {
 		"name": "Dragon Drinker",
@@ -84,8 +82,7 @@
 			"**Breath Mimicry (Su):** At 13th level, when the dragon drinker drinks true dragon's blood from a dragon with a breath weapon of a shape or energy type different from her own, she may use the shape and energy type of the blood's source dragon when she next uses her breath weapon. This ability replaces the 13th-level bloodline feat.",
 			"",
 			"**Blood Siphon (Su):** At 19th level, when the dragon drinker is within 60 feet of a creature of the dragon type that is suffering bleed damage, she can, as a swift action, draw a dose of its blood into herself as though she had consumed it from a vial. Additionally, when she consumes dragon's blood, it heals 3d8 points of damage and provides a +3 resistance bonus on Fortitude and Will saves for 1 minute in place of its normal effects. This ability replaces the 19th-level bloodline feat."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"eldritch_scrapper": {
 		"name": "Eldritch Scrapper",
@@ -105,8 +102,7 @@
 			"This ability replaces the sorcerer's bloodline powers gained 1st, 9th, and 15th levels.",
 			"",
 			"**Bloodline Weapons:** If an eldritch scrapper's 1st-level bloodline power would normally grant her natural attacks (such as bite or claws), at 3rd level she can select that 1st-level bloodline power in place of her 3rd-level bloodline power."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"mongrel_mage": {
 		"name": "Mongrel Mage",
@@ -138,8 +134,7 @@
 			"At 19th level, each day when she selects her bloodline, a mongrel mage adds the 7th-, 8th-, and 9th-level spells from her selected bloodline to her current list of spells known.",
 			"",
 			"This ability replaces the bloodline feats gained at 7th, 13th, and 19th level."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"nine-tailed_heir": {
 		"name": "Nine-Tailed Heir",
@@ -155,8 +150,7 @@
 			"**Magical Tail:** At 3rd level and every 4 levels thereafter, a ninetailed heir gains [Magical Tail](feat/magical_tail) as a bonus feat. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
 			"",
 			"This ability replaces the bloodline spell class feature."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
@@ -172,8 +166,7 @@
 			"**Lay Healer (Su):** At 3rd level, the Razmiran priest adds aid to his list of spells known as a 2nd-level spell. At 5th level, he adds remove disease to his list of spells known as a 3rd-level spell. This ability replaces the bloodline spells gained at 3rd level and 5th level respectively.",
 			"",
 			"**Razmiran Channel (Su):** At 9th level, the Razmiran priest can use his own magic to power spell completion and spell trigger items that use divine spells. He expends a sorcerer spell slot that is at least 1 level higher than the level of the spell he's trying to activate, then makes a Use Magic Device check. If he succeeds, the item's spell occurs and the item or charge is not expended. If he fails, nothing happens. Whether he succeeds or fail, his spell slot is expended. This ability replaces the bloodline power gained at 9th level."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"seeker": {
 		"name": "Seeker",
@@ -189,8 +182,7 @@
 			"**Seeker Lore (Ex):** By 3rd level, a seeker has already learned much about his mystery or bloodline, and is more comfortable using the bonus spells gained by that mystery or bloodline. He gains a +4 bonus on all concentration checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells. For an oracle, this ability replaces the revelation gained at 3rd level. For a sorcerer, this ability replaces the bloodline power gained at 3rd level.",
 			"",
 			"**Seeker Magic (Su):** At 15th level, a seeker becomes skilled at modifying his mystery or bloodline spells with metamagic. When a seeker applies a metamagic feat to any bonus spells granted by his mystery or his bloodline, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like Still Spell to a spell does not change its effective spell level at all, while applying Quicken Spell only increases the spell's effective spell level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities. For an oracle, this ability replaces the revelation gained at 15th level. For a sorcerer, this ability replaces the bloodline power gained at 15th level."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"sorcerer_of_sleep": {
 		"name": "Sorcerer of Sleep",
@@ -206,8 +198,7 @@
 			"**Sahir-Afiyun:** A sorcerer of sleep gains Sahir-Afiyun (see page 18) as a bonus feat at 1st level, even if she does not meet the prerequisites. A sorcerer of sleep adds Pesh Euphoria, Pesh Healing, Pesh Rejuvenation, and Sahir- Afiyun (see page 18 for these feats) to her list of bloodline feats. This ability replaces eschew materials.",
 			"",
 			"**Pesh Touch (Su):** As a standard action, a sorcerer of sleep can make a melee touch attack against a living creature to cause one of the following effects (sorcerer's choice): the target gains a +2 enhancement bonus to Strength, the target is fatigued, or the target takes a -2 penalty on saving throws against illusion and mind-affecting effects. The effects of pesh touch last a number of rounds equal to 1/2 the sorcerer of sleep's sorcerer level. The effects of pesh touch are not cumulative, and cannot make the target exhausted. A sorcerer of sleep can use pesh touch a number of times per day equal to 3 + her Charisma modifier. This ability replaces the 1st-level bloodline power."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"stone_warder": {
 		"name": "Stone Warder",
@@ -227,8 +218,7 @@
 			"The rune is invisible and lasts a number of rounds equal to the stone warder's level or until discharged. If placed on a solid rock or stone surface, it instead lasts 1 minute per sorcerer level the stone warder has or until discharged. The stone warder cannot create a rune of warding in a square occupied by an existing rune of warding or another creature. The rune counts as a spell of the same level as the spell stored within it for the purposes of dispelling. It is considered a magic trap and can be discovered with a successful Perception check (DC = 25 + the level of the stored spell) and disarmed with a successful Disable Device check (DC = 25 + the level of the stored spell). The stone warder can use this ability a number of times per day equal to 3 + her Charisma modifier.",
 			"",
 			"This ability replaces Eschew Materials, the bloodline spell gained at 3rd level, and the bloodline feat gained at 7th level."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"tattooed_sorcerer": {
 		"name": "Tattooed Sorcerer",
@@ -250,8 +240,7 @@
 			"**Create Spell Tattoo (Su):** At 7th level, a tattooed sorcerer can create a spell tattoo (see page 16) once per day with a single touch as a standard action. The recipient of the spell tattoo must be willing to receive the spell tattoo. If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time-if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with Inscribe Magic Tattoo do not count against this limit. She can use this ability twice per day at 11th level, and three times per day at 15th level. This ability replaces the bloodline feat gained at 7th level.",
 			"",
 			"**Enhanced Varisian Tattoo (Su):** At 9th level, the tattooed sorcerer can pick any one spell she knows for which she has a Varisian Tattoo feat. This spell must be one that lacks focus components and costly material components. She can now use that spell as a spell-like ability once per day. This spell-like ability is not enhanced by her Varisian Tattoo, but it functions at +2 caster levels above her sorcerer caster level. Whenever she gains a bloodline power at a later date, she may change this spell-like ability to another qualifying spell. This ability replaces the 9th-level bloodline power."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"umbral_scion": {
 		"name": "Umbral Scion",
@@ -281,8 +270,7 @@
 			"**Crippling Darkness (Su):** At 13th level, when an umbral scion targets a creature within an area of dim light or darkness with a spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the spell increases by 1. This bonus increases by 1 at 18th level.",
 			"",
 			"This ability replaces the 13th-level bloodline feat."
-		],
-		"display": "archetype/sorcerer"
+		]
 	},
 	"wishcrafter": {
 		"name": "Wishcrafter",
@@ -302,7 +290,6 @@
 			"**Twisted Wish (Su):** At 13th level, a wishcrafter becomes adept at corrupting wishes to negatively affect the creature that wished them. When a wishcrafter affects a creature with a spell using its wish as a spell component, she may twist the wish, applying a -4 penalty to the creature's saving throws against the spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel them increases by 5. This ability replaces the bloodline bonus feat gained at 13th level.",
 			"",
 			"**Perfect Wishcraft (Su):** At 19th level, the wishcrafter perfects her ability to manipulate reality. Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using this ability otherwise has all of the benefits and limitations of the wishbound arcana ability. This ability replaces the bloodline bonus feat gained at 19th level."
-		],
-		"display": "archetype/sorcerer"
+		]
 	}
 }

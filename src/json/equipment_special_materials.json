@@ -15,8 +15,7 @@
 			"Abysium can also be powdered and alchemically distilled with other rare catalysts and chemicals to form a much more potent toxin. It was in this form that the metal was most traditionally used in ancient Thassilon. A pound of Abysium is enough to make 1 dose of abysium powder.",
 			"",
 			"**Abysium Powder:** Poison-ingested; *save* Fortitude DC 18; *onset* 10 minutes; *frequency* 1/minute for 6 minutes; *effect* 1d4 Con plus nausea; *cure* 2 saves; *cost* 900 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"adamantine": {
 		"name": "Adamantine",
@@ -40,8 +39,7 @@
 			"| Medium armor | +10,000 gp |",
 			"| Heavy armor | +15,000 gp |",
 			"| Weapon | +3,000 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"alchemical_silver": {
 		"name": "Alchemical Silver",
@@ -66,8 +64,7 @@
 			"| Light weapon | +20 gp |",
 			"| One-handed weapon, or one head of a double weapon | +90 gp |",
 			"| Two-handed weapon, or both heads of a double weapon | +180 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"angelskin": {
 		"name": "Angelskin",
@@ -87,8 +84,7 @@
 			"| --- | --- |",
 			"| Light armor | +1,000 gp |",
 			"| Medium armor | +2,000 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"aszite": {
 		"name": "Aszite",
@@ -109,8 +105,7 @@
 			"| Light armor | +750 gp |",
 			"| Medium armor | +750 gp |",
 			"| Heavy armor | +1,000 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"blackwood": {
 		"name": "Blackwood",
@@ -121,8 +116,7 @@
 			"**Source** [Merchant's Manifest pg. 9](source/merchant's_manifest)",
 			"",
 			"Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. Items not normally made of wood or only partially of wood (such as a battleaxe, mace, or other metal item with a wooden haft) either cannot be made from blackwood or do not gain any special benefit. The armor check penalty of a blackwood shield is reduced by 2 compared to an ordinary shield of its type. When wielded against creatures with the water subtype, mundane blackwood weapons ignore 1 point of the creature's DR (if any), and enchanted blackwood weapons ignore a number of DR equal to 2 times the weapon's enhancement bonus. To determine the price of a blackwood item, use the original weight but add 20 gp per pound to the price of a masterwork version of that item. Blackwood has 10 hit points per inch of thickness and hardness 7."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"blightburn": {
 		"name": "Blightburn",
@@ -140,8 +134,7 @@
 			"| Medium | 17 | 1d4 Con drain | 1d4 Cha damage/day |",
 			"| High | 22 | 2d4 Con drain | 1d6 Cha damage/day |",
 			"| Severe | 30 | 4d6 Con drain | 2d6 Cha damage/day |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"blood_crystal": {
 		"name": "Blood Crystal",
@@ -161,8 +154,7 @@
 			"| --- | --- |",
 			"| Ammunition | +30 gp per item |",
 			"| Weapon | +1,500 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"bulette_armor": {
 		"name": "Bulette Armor",
@@ -177,8 +169,7 @@
 			"A set of bulette plate is functionally similar to metal full plate, but is prized by wealthy collectors and military commanders the world over, and tends to sell for up to 10 times more than a normal set. Bulette full plate is slightly heavier (65 pounds) than regular steel plate, but is more flexible and durable (max Dex bonus +2, hardness 12).",
 			"",
 			"A suit of bulette leather armor weighs 20 pounds, and its appearance matches the coloration of the landshark from which it was made. It sells for 50 gp, but has the same statistics as studded leather."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"caphorite": {
 		"name": "Caphorite",
@@ -191,8 +182,7 @@
 			"Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. This radioactive mineral emits a magical radiation that registers a faint aura of transmutation magic to detect magic, though caphorite itself has no magical qualities and no effective caster level. Living creatures suffer no ill effects from caphorite radiation; however, plants exposed to caphorite radiation tend to grow more quickly, and with long-term exposure (over the course of several generations), they sometimes develop rudimentary sentience. Additionally, anyone attempting to cast a spell with the light descriptor within 30 feet of caphorite must succeed at a DC 15 caster level check or have the spell disrupted.",
 			"",
 			"**Caphorite Ammunition:** This ammunition typically consists of crossbow bolts, often employed by drow house guards. A caphorite arrow or bolt detonates on impact, its head shattering in a mass of fine caphorite particulate. Any nonmagical light in a 10-foot radius is immediately extinguished, while spells of 2nd level or lower with the light descriptor are rendered inactive for 1d4+1 rounds. Higher-level spells with the light descriptor are unaffected. Caphorite ammunition has a cost of +10 gp per item."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"cold_iron": {
 		"name": "Cold Iron",
@@ -210,8 +200,7 @@
 			"Items without metal parts cannot be made from cold iron. An arrow could be made of cold iron, but a quarterstaff could not. A double weapon with one cold iron half costs 50% more than normal.",
 			"",
 			"Cold iron has 30 hit points per inch of thickness and hardness 10."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"cryptstone": {
 		"name": "Cryptstone",
@@ -231,8 +220,7 @@
 			"| --- | --- |",
 			"| Ammunition | +10 gp per item |",
 			"| Weapon | +500 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"darkleaf_cloth": {
 		"name": "Darkleaf Cloth",
@@ -257,8 +245,7 @@
 			"| Light armor | +750 gp |",
 			"| Medium armor | +1,500 gp |",
 			"| Other items | +375 gp/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"darkwood": {
 		"name": "Darkwood",
@@ -272,8 +259,7 @@
 			"**Source** [Ultimate Equipment pg. 49](source/ultimate_equipment), [PRPG Core Rulebook pg. 154](source/prpg_core_rulebook)",
 			"",
 			"This rare magic wood is as hard as normal wood but very light. Any wooden or mostly wooden item (such as a bow or spear) made from darkwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. Items not normally made of wood or only partially of wood (such as a battleaxe or a mace) either cannot be made from darkwood or do not gain any special benefit from being made of darkwood. The armor check penalty of a darkwood shield is lessened by 2 compared to an ordinary shield of its type. To determine the price of a darkwood item, use the original weight but add 10 gp per pound to the price of a masterwork version of that item. Darkwood has 10 hit points per inch of thickness and hardness 5."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"djezet": {
 		"name": "Djezet",
@@ -284,8 +270,7 @@
 			"**Source** [Pathfinder #61: Shards of Sin pg. 70](source/pathfinder_#61_shards_of_sin)",
 			"",
 			"One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. This makes the metal relatively useless for crafting metal objects (although many gifted metallurgists, such as Xin himself, have had some success creating djezet alloys), but most who seek out this metal intend to use it instead as an additional material component for spellcasting, since it possesses an ability to enhance magic. Djezet is associated with enchantment magic, love, and lust. Used as an additional material component, a dose of djezet increases the effective level of a spell by +1, as if it were being modified by the Heighten Spell feat. In order to function as an additional material component, the spellcaster must use a number of doses of djezet equal to the spell's level-additional djezet used beyond this amount does nothing. Djezet costs 200 gp per dose."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"dragonhide": {
 		"name": "Dragonhide",
@@ -305,8 +290,7 @@
 			"Dragonhide armor costs twice as much as masterwork armor of that type, but it takes no longer to make than ordinary armor of that type (double all Craft results).",
 			"",
 			"Dragonhide has 10 hit points per inch of thickness and hardness 10. The hide of a dragon is typically between 1/2 inch and 1 inch thick."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"druchite": {
 		"name": "Druchite",
@@ -329,8 +313,7 @@
 			"| Medium armor | +1,500 gp |",
 			"| Heavy armor | +2,000 gp |",
 			"| Weapon | +1,200 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"eel_hide": {
 		"name": "Eel Hide",
@@ -348,8 +331,7 @@
 			"| --- | --- |",
 			"| Light armor | +1,200 gp |",
 			"| Medium armor | +1,800 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"elysian_bronze": {
 		"name": "Elysian Bronze",
@@ -372,8 +354,7 @@
 			"| Medium armor | +2,000 gp |",
 			"| Heavy armor | +3,000 gp |",
 			"| Weapon | +1,000 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"fire-forged_steel": {
 		"name": "Fire-Forged Steel",
@@ -398,8 +379,7 @@
 			"| Medium armor | +2,500 gp |",
 			"| Heavy armor | +3,000 gp |",
 			"| Weapon | +600 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"frost-forged_steel": {
 		"name": "Frost-Forged Steel",
@@ -414,8 +394,7 @@
 			"Armor and weapons made from frost-forged steel are always considered masterwork, and the masterwork costs are included in the listed prices.",
 			"",
 			"Frost-forged steel has the same hit points and hardness as steel. Frost-forged steel costs the same as fire-forged steel."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"glaucite": {
 		"name": "Glaucite",
@@ -428,8 +407,7 @@
 			"When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. This dark gray metal is the material of choice for hulls and starship superstructures, and is what constitutes the walls, floors, and ceilings of the strange ruins found throughout Numeria. Without more advanced technology, glaucite is extremely difficult to work with. Because the metal isn't much better than steel for forging weapons or armor, and the process of extracting the adamantine from it is so expensive and time consuming that the resulting adamantine isn't worth the effort, Numerian scavengers have, by and large, left the walls and floors of the structures buried in the region untouched. It's simply easier to scavenge smaller objects or work with normal iron or steel in the long run.",
 			"",
 			"Glaucite has 30 hit points per inch of thickness (the same as steel) and hardness 15. It is half again as heavy as steel, and the difficulty of working with the material triples the object's total cost to create. As a result, glaucite armor and weapons are generally commissioned only by eccentrics and collectors and rarely see use in the field, given that steel weapons and armor work just as well and are less encumbering."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"greenwood": {
 		"name": "Greenwood",
@@ -446,8 +424,7 @@
 			"Greenwood can be altered or enhanced with wood-shaping magic such as ironwood, shape wood, and warp wood. The duration of any such effect on a greenwood item is doubled. To determine the price of a greenwood item, use the original weight but add 50 gp per pound to the price of a masterwork version of that item. Items made from darkwood cannot be made into greenwood.",
 			"",
 			"Greenwood has the same hit points and hardness as wood."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"griffon_mane": {
 		"name": "Griffon Mane",
@@ -465,8 +442,7 @@
 			"| --- | --- |",
 			"| Light armor | +200 gp |",
 			"| Other items | +50 gp/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"heatstone_plating": {
 		"name": "Heatstone Plating",
@@ -482,8 +458,7 @@
 			"| --- | --- |",
 			"| Light Armor | +800 GP |",
 			"| Medium Armor | +1,000 GP |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"horacalcum": {
 		"name": "Horacalcum",
@@ -496,8 +471,7 @@
 			"The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. Horacalcum is associated with illusion magic, humility, and pride. Almost never found in amounts greater than a pound, horacalcum is the same weight and density as steel, but is much more durable. A weapon made of horacalcum gains a +1 circumstance bonus on attack rolls (ammunition can be made of horacalcum, but does not grant any bonus on attack rolls). An entire suit of armor made from this rare metal is fantastically expensive, but since a suit of horacalcum armor simultaneously allows its wearer to react more quickly while perceiving time more slowly, some consider the cost justifiable. A suit of light horacalcum armor grants a +1 bonus on Initiative checks, medium horacalcum armor grants a +2 bonus on Initiative checks, and heavy horacalcum armor grants a +3 bonus on Initiative checks. Weapons and armor made of horacalcum are always of masterwork quality-the masterwork cost is included in the prices given below.",
 			"",
 			"Weapons and armor made of horacalcum have one-fourth more hit points than normal. Horacalcum has 30 hit points per inch of thickness and hardness 15. A weapon made of horacalcum costs +6,000 gp. Light armor costs +10,000 gp, medium armor +30,000 gp, and heavy armor +60,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"inubrix": {
 		"name": "Inubrix",
@@ -510,8 +484,7 @@
 			"This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" Inubrix is associated with necromancy magic, temperance, and gluttony. Inubrix is the softest of the solid skymetals, being only slightly less malleable than lead. It doesn't function well for crafting armor as a result, and though inubrix weapons can penetrate most metal armors with relative ease, the weapons tend to break easily. Inubrix has 10 hit points per inch of thickness and hardness 5.",
 			"",
 			"An inubrix weapon deals damage as if it were one size category smaller than its actual size, and is always treated as if it had the broken condition. It ignores all armor or shield bonuses granted by iron or steel armor or shields. Inubrix weapons cannot damage these materials at all (and, by extension, cannot harm iron golems or similar creatures). An inubrix weapon costs +5,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"irespan_basalt": {
 		"name": "Irespan Basalt",
@@ -526,8 +499,7 @@
 			"**Physical Properties:** Irespan basalt is as hard as iron, while retaining its other stony features for carving and building. It has hardness 10 and typically fetches a price of about 5 sp per pound. However, since few buyers are interested in stones of less than 1,000 pounds, the Irespan basalt trade is relatively limited to specialists capable of harvesting and transporting such heavy blocks.",
 			"",
 			"**Building Constructs:** When a construct's materials consist entirely of Irespan stone, its Craft DC increases by +5, but the required Caster Level decreases by 1. In addition, stone constructs crafted from Irespan stone gain a +2 bonus to Strength and gain twice as many bonus hit points as normal from the construct type."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"lazurite": {
 		"name": "Lazurite",
@@ -542,8 +514,7 @@
 			"**Lazurite-Bonded Armor:** While crafting lazurite equipment has proven to be a notoriously difficult feat, some artificers, particularly among Darklands ghouls, have concocted a means of coaxing small amounts of lazurite into sets of armor. These sets of armor include thin lines of blackened lazurite crisscrossing the regular surface of the armor. A creature wearing a set of lazurite-bonded armor gains a +2 bonus on saves to resist channeled energy and against cure spells. The wearer must attempt a Will save against positive energy channeling, regardless of whether it's harmful or helpful to the wearer. A living creature slain while wearing lazurite-bonded armor has a 10% chance of spontaneously rising as a ghoul after 24 hours.",
 			"",
 			"A set of light armor bonded with lazurite costs an additional 1,500 gp. A set of medium armor bonded with lazurite costs an additional 2,500 gp. A set of heavy armor bonded with lazurite costs an additional 3,500 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"liquid_glass": {
 		"name": "Liquid Glass",
@@ -559,8 +530,7 @@
 			"| --- | --- |",
 			"| Weapon | +800 GP |",
 			"| Other Items | +250 GP/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"living_steel": {
 		"name": "Living Steel",
@@ -585,8 +555,7 @@
 			"| Weapon | +500 gp |",
 			"| Shield | +100 gp |",
 			"| Other items | +250 gp/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"mithral": {
 		"name": "Mithral",
@@ -614,8 +583,7 @@
 			"| Heavy armor | +9,000 gp |",
 			"| Shield | +1,000 gp |",
 			"| Other items | +500 gp/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"nexavaran_steel": {
 		"name": "Nexavaran Steel",
@@ -626,8 +594,7 @@
 			"**Source** [Faction Guide pg. 55](source/faction_guide)",
 			"",
 			"Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish steel strikes true against monsters vulnerable to cold iron (such as demons). Weapons made of nexavaran steel cost 1-1/2 times as much to make as their normal counterparts. This steel is even more delicate than cold iron regarding magical enhancements; adding enhancements to the steel increases its price by 3,000 gp. This increase is applied the first time the item is enhanced, not once per ability added. Nexavaran steel is otherwise identical to cold iron."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"noqual": {
 		"name": "Noqual",
@@ -645,8 +612,7 @@
 			"Weapons made of noqual weigh half as much as normal, and gain a +1 enhancement bonus on damage rolls against constructs and undead created by feats or spells. Noqual armor weighs half as much as other armors of its type, and is treated as one category lighter than normal for the purposes of movement and other limitations (light armor is still treated as light armor, though). The armor's maximum Dexterity bonus increases by 2, and armor check penalties are reduced by 3. The armor's spell failure chance increases by 20% and applies to all magic cast while wearing the armor, regardless of the magic's source or class abilities possessed by the wearer. The wearer of a suit of noqual armor gains a +2 resistance bonus on all saving throws against spells and spell-like abilities.",
 			"",
 			"Noqual has 30 hit points per inch of thickness and hardness 10. Noqual ore is worth 50 gp per pound. A suit of noqual light armor costs +4,000 gp, medium armor +8,000 gp, and heavy armor +12,000 gp. A shield costs +2,000 gp, and a weapon or other item +500 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"paueliel": {
 		"name": "Paueliel",
@@ -657,8 +623,7 @@
 			"**Source** [Inner Sea World Guide pg. 255](source/inner_sea_world_guide)",
 			"",
 			"Towering above most other trees, the lofty paueliel are widely held as the \"first trees.\" Lumberjacks superstitiously connect them to the fey races of the woodlands and, despite the strength of the wood, often avoid harvesting them. Nature enthusiasts revere them. These silver-barked hardwoods grow to immense heights, but never spread to more than a few feet in diameter. Stats: As darkwood but with hardness 7 and 150% as expensive."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"pyre_steel": {
 		"name": "Pyre Steel",
@@ -669,8 +634,7 @@
 			"**Source** [Pathfinder: Goblins #5 pg. 27](source/pathfinder_goblins_#5)",
 			"",
 			"Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. Pyre steel weapons have fire resistance 10 and may be ignited without gaining the broken condition. They're usually forged with grooves and reservoirs ideal for retaining fuel; once ignited, they burn for 3 minutes. Pyre steel is brittle, having the same hardness but half the hit points of a regular weapon. Only weapons made primarily from metal can be created from pyre steel. Using pyre steel doubles the base cost of the weapon or item, but not the cost of making it masterwork."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"siccatite": {
 		"name": "Siccatite",
@@ -681,8 +645,7 @@
 			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_#61_shards_of_sin)",
 			"",
 			"This shining silver metal is either incredibly hot or freezing cold when found. Siccatite is associated with evocation magic, wrath, and kindness. As of yet, scholars have not determined whether siccatite is actually two similarly hued metals or a single type that determines its own temperature via some unknown process. When raw siccatite is found, it has a 50% chance of being hot siccatite; otherwise, it's cold siccatite. Physical contact with siccatite deals 1 point of energy damage each round (either fire or cold, as appropriate). Hot siccatite can eventually ignite objects, and cold siccatite in water quickly surrounds itself with a 1-foot-thick shell of ice. A weapon made of siccatite deals +1 point of damage of the appropriate energy type each time it strikes a foe, but also deals 1 point of the same energy damage to the wielder each round it is used in combat. Likewise, siccatite armor deals 1 point of energy damage per round to a creature wearing it, and deals 1 point of energy damage each full round a creature is grappled by someone wearing siccatite armor. Cold siccatite armor grants fire resistance 5, while hot siccatite armor grants cold resistance 5. (The type of armor does not alter the amount of resistance granted.) Weapons made of siccatite cost +1,000 gp. Armor made of siccatite costs +6,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"silversheen": {
 		"name": "Silversheen",
@@ -695,8 +658,7 @@
 			"Blades made of this special metal count as alchemical silver weapons and are immune to rust, including that of rust monsters, the rusting grasp spell, and so on. They are always masterwork weapons-most often scimitars or longswords; the listed price includes the cost of the masterwork bonus.",
 			"",
 			"No aura (nonmagical property); CL -; Craft (alchemy) 5 ranks, Craft (weaponsmithing) 5 ranks; Price +750 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"singing_steel": {
 		"name": "Singing Steel",
@@ -722,8 +684,7 @@
 			"| Shield | +7,000 gp |",
 			"| Weapon | +6,000 gp |",
 			"| Other items | +600 gp/lb. |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"spiresteel": {
 		"name": "Spiresteel",
@@ -748,8 +709,7 @@
 			"| Medium Armor | +2,000 gp |",
 			"| Heavy Armor | +3,000 gp |",
 			"| Weapon | +2,000 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"sunsilk": {
 		"name": "Sunsilk",
@@ -760,8 +720,7 @@
 			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira,_jewel_of_the_east)",
 			"",
 			"Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite church, takes on a golden glitter after it has been left to cure in the sun. Though it is light and flexible, when multiple layers are pressed together, its myriad thin fibers inhibit weapons and can slightly help prevent slashing or piercing weapons from causing harm. Clothing made from sunsilk grants its wearer DR 2/bludgeoning. Sunsilk can be incorporated into any suit of armor without hampering the armor's other qualities, typically as an inner layer of soft lining. Sunsilk adds 6,000 gp to the cost of the garment or armor."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"sunsilver": {
 		"name": "Sunsilver",
@@ -774,8 +733,7 @@
 			"An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. A weapon made of sunsilver counts as alchemical silver for all purposes. Items not primarily made of metal are not meaningfully affected by being partially made of sunsilver. (For example, a scimitar or breastplate can be made of sunsilver, while a quarterstaff or hide armor cannot.) In addition, items made of sunsilver are immune to rust effects (such as rusting grasp). While in an area of bright light, a shield or suit of armor made of sunsilver shines brightly, allowing the wearer to reflect light at nearby foes as a move action. When she does so, creatures adjacent to the wearer must succeed at a DC 12 Fortitude save or be dazzled for 1 round.",
 			"",
 			"Armor and weapons made of sunsilver are always masterwork. To determine the price of a sunsilver item, add 25 gp per pound to the price of a masterwork version of that item. Sunsilver has 10 hit points per inch of thickness and hardness 8."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"throneglass": {
 		"name": "Throneglass",
@@ -790,8 +748,7 @@
 			"The Knights of the Ioun Star were the most proficient in turning these remnants into potent weapons, especially after they unlocked and understood throneglass's abilities. The material is typically forged into melee weapons, though it theoretically could be used for other functions.",
 			"",
 			"Throneglass is a special material as strong as steel that also provides the bearer with protection against an opponent's psychic abilities. When a creature wielding a melee weapon made of throneglass succeeds at a saving throw against a psychic or mind-affecting effect from a creature, the weapon stores some of that energy and holds it for a future attack. A throneglass weapon can store this energy for a number of rounds equal to the level of the spell, or half the creature's CR if the effect wasn't a spell or spell-like ability. If the weapon hits a creature while still holding this energy, it suffuses the target with a disruptive field for 1 round. On a critical hit, the disruptive field effect instead lasts for a number of rounds equal to the weapon's critical multiplier. While affected by this field, a target must succeed at a concentration check (DC = 15 + twice the spell's level) to cast any spell or spell-like ability (in addition to any other required concentration checks). If the check is failed, the affected creature's spell or spell-like ability is wasted. A Small or Medium weapon made of throneglass costs an additional 13,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"viridium": {
 		"name": "Viridium",
@@ -815,8 +772,7 @@
 			"| --- | --- |",
 			"| Ammunition | +20 gp per item |",
 			"| Weapon | +200 gp |"
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"voidglass": {
 		"name": "Voidglass",
@@ -832,8 +788,7 @@
 			"Voidglass originates on an unknown world beyond Golarion. It is brought to Golarion in small quantities by grioths, a race of psychic extraterrestrials. Voidglass resonates with a creature's mind, bolstering thought and mental defenses. Any suit of armor normally made from metal can be made of voidglass. A suit of light voidglass armor or a voidglass shield grants a +1 resistance bonus on all saving throws against mind-affecting magic. This bonus increases to +2 for medium voidglass armor, and to +3 for heavy voidglass armor. A voidglass piercing or slashing weapon deals 1 additional point of damage on a hit; bludgeoning weapons gain no benefit.",
 			"",
 			"Voidglass has 30 hit points per inch of thickness and hardness 10. A pound of raw, unworked voidglass is worth 100 gp. Light armor made from voidglass costs an additional 1,000 gp, medium armor costs an additional 2,000 gp, heavy armor costs an additional 4,500 gp, and shields cost an additional 3,000 gp. Weapons made from voidglass cost an additional 1,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"whipwood": {
 		"name": "Whipwood",
@@ -847,8 +802,7 @@
 			"**Source** [Ultimate Equipment pg. 52](source/ultimate_equipment), [Advanced Race Guide pg. 207](source/advanced_race_guide)",
 			"",
 			"Vanara woodworkers craft this extremely flexible material in a time-consuming process. Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. Only wooden weapons or weapons with wooden hafts (such as axes and spears) can be made out of whipwood. A creature wielding a whipwood weapon gains a +2 bonus to its CMD when defending against sunder attempts against the weapon. A whipwood weapon's hit points increase by +5. Whipwood loses its special qualities if under the effect of an ironwood spell. Whipwood weapons cost 500 gp more than normal weapons of their type."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"wyroot": {
 		"name": "Wyroot",
@@ -864,8 +818,7 @@
 			"The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. The creature hit is unharmed and the wyroot weapon gains 1 life point. As a swift action, a wielder with a ki pool or an arcane pool can absorb 1 life point from the wyrwood weapon and convert it into either 1 ki point or 1 arcane pool point. A wyroot weapon can gain at most 1 life point per day and hold up to 1 life point at a time. More powerful wyroot weapons can gain up to 3 life points per day and hold up to 3 life points at a time. Any unspent life points dissipate at dusk. A creature can convert life points from only one wyroot weapon per day.",
 			"",
 			"Wyroot can be used to construct any melee weapon made entirely of wood or with a wooden haft. Constructing a weapon that can hold 1 life point increases the cost by 1,000 gp; constructing one that can hold up to 2 life points increases the cost by 2,000 gp; and constructing one that can hold up to 3 life points increases the cost by 4,000 gp."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"bone": {
 		"name": "Bone",
@@ -884,8 +837,7 @@
 			"Studded leather, scale mail, breastplates, and wooden shields can all be constructed using bone. Bone either replaces the metal components of the armor, or in the case of wooden shields, large pieces of bone or shell replace the wood.",
 			"",
 			"Bone armor has hardness 5 and has the fragile armor quality. Masterwork bone armor also has the fragile quality, but magic bone armor does not. The armor/shield bonus of bone armor is reduced by 1, but in the case of studded leather, the armor check penalty is also reduced by 1 (to 0). Magically strengthened bone does not have the fragile quality or reduced armor/shield bonus."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"bronze": {
 		"name": "Bronze",
@@ -902,8 +854,7 @@
 			"Bronze weapons have the hardness of their base weapons but also have the [fragile quality](rule/conditions). Bronze weapons deal the same damage as steel weapons of the same type, and have the same cost and weight.",
 			"",
 			"Bronze can be used to create any medium or light armor that are made entirely of metal or that have metal components. Bronze armor protects a creature as well as steel armor does, but it has the fragile quality. Bronze armor has the same cost and weight as normal steel armor of its type. Bronze armor has hardness 9. Magically strengthened bronze does not have the fragile quality and can be made into heavy armor."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"glass": {
 		"name": "Glass",
@@ -916,8 +867,7 @@
 			"Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. The glass parts of these weapons replace what is typically a metal or stone component, such as an arrowhead or a dagger's blade. The remainder of the weapon is created normally, though the fittings require some specialization.",
 			"",
 			"Glass weapons cost half of what base items of their type do, and have 75% the weight of base items of their type. Glass can be used to craft light and one-handed weapons that deal piercing or slashing damage, as well as bullets, spear tips, and arrowheads. Glass weapons have half the hardness of their base weapon and have the [fragile quality](rule/conditions) (see Pathfinder RPG Ultimate Combat 146 for details on the fragile quality)."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"gold": {
 		"name": "Gold",
@@ -936,8 +886,7 @@
 			"Gold weapons have half the hardness of their base weapons and also have the [fragile quality](rule/conditions).",
 			"",
 			"Gold can be fashioned into light or medium metal armor. The softness and the weight of the metal decrease the armor/ shield bonus by 2, and increase the armor check penalty by 2. Gold armor has hardness 5 and the fragile quality. Magically strengthened gold is the equivalent of steel and can be made into any armor or weapon that can be made of steel."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"obsidian": {
 		"name": "Obsidian",
@@ -956,8 +905,7 @@
 			"Obsidian weapons have half the hardness of their base weapons and have the [fragile quality](rule/conditions).",
 			"",
 			"The fragile glass nature of obsidian is perfect for creating sharp points and blades, but those same qualities make it unsuitable for creating armor. Armor cannot be constructed from obsidian. Magically strengthened obsidian does not have the fragile quality, and can be made into any armor or weapon that can be made of stone."
-		],
-		"display": "equipspecmat"
+		]
 	},
 	"stone": {
 		"name": "Stone",
@@ -974,7 +922,6 @@
 			"Light and one-handed bludgeoning weapons, spears, axes, daggers, and arrowheads can all be made of stone.",
 			"",
 			"Weapons made of stone have half the hardness of their base weapons, and have the fragile condition. With a few exceptions (such as [stoneplate](eqipment/armor/stoneplate), armor cannot usually be constructed from stone. Magically strengthened stone does not have the [fragile quality](rule/conditions)."
-		],
-		"display": "equipspecmat"
+		]
 	}
 }

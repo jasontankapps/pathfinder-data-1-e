@@ -12,8 +12,7 @@
 			"**Deity** Any",
 			"",
 			"A sanctified shield may be any type of shield (including bucklers, tower shields, and even magical shields). When activated, a sacred shield adds a +1 sacred (if positive energy) or profane (if negative energy) bonus to the wearer's Armor Class. This bonus lasts for 24 hours or until the wearer is struck in combat, whichever comes first. Creatures other than the cleric are able to use the charged shield and this ability."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"shield_boss_breakaway": {
 		"name": "shield boss (breakaway)",
@@ -35,36 +34,31 @@
 			"*Illuminating Boss:* The stud at the center of this reinforcing boss contains a covered slot large enough to insert a sunrod. Installing a lit sunrod into an illuminating boss is a full-round action. If you shake the shield firmly as a move action, you can flip a metal flap fitted over the slot to conceal or reveal the sunrod's glow.",
 			"",
 			"*Masterwork Boss:* Any of the bosses listed above, including the basic reinforcing boss, can be masterwork. A masterwork reinforcing boss increases the shield's current and maximum hit points by 15 instead of 10 and doesn't increase the attack roll penalty."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"shield_boss_hooked": {
 		"name": "shield boss (hooked)",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating": {
 		"name": "shield boss (illuminating)",
 		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss": {
 		"name": "shield boss (reinforcing boss)",
 		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_breakaway,_masterwork": {
 		"name": "shield boss (breakaway, masterwork)",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_breakaway_masterwork": {
 		"copyof": "shield_boss_breakaway,_masterwork"
@@ -73,8 +67,7 @@
 		"name": "shield boss (hooked, masterwork)",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_hooked_masterwork": {
 		"copyof": "shield_boss_hooked,_masterwork"
@@ -83,8 +76,7 @@
 		"name": "shield boss (illuminating, masterwork)",
 		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating_masterwork": {
 		"copyof": "shield_boss_illuminating,_masterwork"
@@ -93,8 +85,7 @@
 		"name": "shield boss (reinforcing boss, masterwork)",
 		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "shield_boss_breakaway",
-		"display": "equiparmorenhance"
+		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss_masterwork": {
 		"copyof": "shield_boss_reinforcing_boss,_masterwork"
@@ -110,8 +101,7 @@
 			"**Category** Adventuring Gear",
 			"",
 			"Armor vents can be built into a suit of medium or heavy armor to allow for better ventilation and reduce the wearer's fatigue in hot environs. The vents can be slid open at the discretion of the user to ensure proper air flow during the day and then closed up at night to better preserve heat. A suit of armor with armor vents imposes only a -2 penalty (instead of -4) on Fortitude saves to avoid taking nonlethal damage from heat exposure, but also has 10 fewer hit points than normal because of its more intricate construction."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"armor_spikes": {
 		"name": "armor spikes",
@@ -129,8 +119,7 @@
 			"**[Weapon Group](class/ability/weapon_groups)** Close",
 			"",
 			"You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful grapple attack. The spikes count as a martial weapon. If you are not proficient with them, you take a -4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right. Armor spikes can't be disarmed."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"locked_gauntlet": {
 		"name": "locked gauntlet",
@@ -151,8 +140,7 @@
 			"While the gauntlet is locked, you can't use the hand wearing it for casting spells or employing skills. (You can still cast spells with somatic components, provided that your other hand is free.)",
 			"",
 			"Like a normal gauntlet, a locked gauntlet lets you deal lethal damage rather than nonlethal damage with an unarmed strike."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"shield_spikes": {
 		"name": "shield spikes",
@@ -178,8 +166,7 @@
 			"Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger. You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.",
 			"",
 			"An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right. Shield spikes cannot be disarmed."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"burnished": {
 		"name": "burnished",
@@ -194,8 +181,7 @@
 			"",
 			"*Drawback*  ",
 			"Polished armor imparts a -10 penalty to Stealth checks made in areas of bright or normal light."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"deflecting": {
 		"name": "deflecting",
@@ -213,8 +199,7 @@
 			"",
 			"*Drawback*  ",
 			"Deflecting armor reduces your speed by 5 feet."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"double-plated": {
 		"name": "double-plated",
@@ -229,8 +214,7 @@
 			"",
 			"*Drawback*  ",
 			"Double-plated armor's armor category (light, medium, or heavy) is considered to be one heavier. Heavy armor that has the modification added to it is too restrictive to use without the Armor Adept (double-plated) feat (see page 11)."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"double_plated": {
 		"copyof": "double-plated"
@@ -251,8 +235,7 @@
 			"",
 			"*Drawback*  ",
 			"Jarring armor reduces your speed by 5 feet."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"nimble": {
 		"name": "nimble",
@@ -267,8 +250,7 @@
 			"",
 			"*Drawback*  ",
 			"Nimble armor's armor bonus is reduced by 1."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"razored": {
 		"name": "razored",
@@ -283,8 +265,7 @@
 			"",
 			"*Drawback*  ",
 			"Razored armor reduces your speed by 5 feet. In addition, razored armor takes twice as long to don or remove."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"slumbering": {
 		"name": "slumbering",
@@ -299,8 +280,7 @@
 			"",
 			"*Drawback*  ",
 			"Slumbering armor's armor check penalty is increased by 1. This increase is applied after reductions for armor material and masterwork armor."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"throwing_shield": {
 		"name": "throwing shield",
@@ -315,8 +295,7 @@
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown",
 			"",
 			"This shield is designed for throwing and comes with specially designed straps allowing you to unclasp and throw it as a free action. Tower shields cannot be throwing shields. Neither a shield's enhancement bonus to AC nor its shield spikes apply to your attack or damage rolls."
-		],
-		"display": "equiparmorenhance"
+		]
 	},
 	"vitalguard": {
 		"name": "vitalguard",
@@ -334,7 +313,6 @@
 			"",
 			"*Drawback*  ",
 			"Vitalguard armor reduces your speed by 5 feet."
-		],
-		"display": "equiparmorenhance"
+		]
 	}
 }

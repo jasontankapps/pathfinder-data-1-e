@@ -26,8 +26,7 @@
 			"Anytime a feat or ability allows a mount to make a hoof attack, it can make a claw, slam, or other analogous attack instead.",
 			"",
 			"This ability replaces the standard cavalier's mount and expert trainer abilities."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"castellan": {
 		"name": "Castellan",
@@ -49,8 +48,7 @@
 			"**Defending Challenge:** At 12th level, the castellan takes no penalty to Armor Class when using his challenge ability. This ability replaces demanding challenge.",
 			"",
 			"**Supreme Defense:** At 20th level, whenever the castellan readies an action to make a melee attack against a creature that is not yet adjacent to him, his readied attack deals double the normal amount of damage (or triple the damage if using a brace weapon against a charge). In addition, if the cavalier confirms a critical hit on the readied attack, the target is stunned for 1d4 rounds. A successful Will save (DC = 10 + the cavalier's class level + the cavalier's Strength modifier) reduces this to being staggered for 1d4 rounds. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"charger": {
 		"name": "Charger",
@@ -74,8 +72,7 @@
 			"**Courser (Ex):** At 4th level, a charger's constant training increases his land speed by 10 feet. A charger can also move through up to 10 feet of difficult terrain each round as if it were normal terrain. These benefits apply only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the charger's speed because of any load carried or armor worn. These bonuses stack with any other bonuses to the charger's land speed or ability to ignore difficult terrain. This ability replaces expert trainer.",
 			"",
 			"**Ride Down (Ex):** At 11th level, a charger can attempt to overrun any number of targets in the path of his charge as a free action. For each successful overrun combat maneuver check, the charger automatically deals an amount of damage to the overrun target equal to that of his hoof attack and can continue with his charge. If any overrun attempt fails during the charge, the charger's progress ends in the space directly in front of the target where the maneuver failed. These overrun attempts do not provoke attacks of opportunity. For each target in the path of his charge, the charger incurs a cumulative -2 penalty on his overrun combat maneuver checks. This ability replaces mighty charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"circuit_judge": {
 		"name": "Circuit Judge",
@@ -105,8 +102,7 @@
 			"**Double Jeopardy (Ex):** At 12th level, whenever a circuit judge sentences a foe, she can gain the benefits of two inquisitor judgments against the foe instead of one. Using this ability does not expend a daily use of sentence.",
 			"",
 			"This ability replaces demanding challenge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"constable": {
 		"name": "Constable",
@@ -130,8 +126,7 @@
 			"**Instant Order (Ex):** At 11th level, a constable can bark an order to an ally within 30 feet as a standard action. That ally can instantly take a single move or standard action to comply with the order. Taking the action dazes the ally for 1 round afterward. At 20th level, the constable can use this ability as a move action, but no more than once per round. This ability replaces mighty charge and supreme charge.",
 			"",
 			"**Greater Badge (Ex):** At 14th level, a constable can hold his badge aloft as a standard action to inspire his allies to be steadfast. All allies within 30 feet gain a number of temporary hit points equal to twice the constable's cavalier level for 10 minutes. A given ally can benefit from this ability only once per day. This ability replaces greater banner."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"courtly_knight": {
 		"name": "Courtly Knight",
@@ -153,8 +148,7 @@
 			"**Grand Boast (Ex):** At 17th level, whenever a courtly knight uses her challenge class feature against an opponent who is at full health and under no negative afflictions, conditions, spells, or other effects, she can make a grand boast, declaring that she can defeat her foe with ease. She does not gain the benefits of her challenge (including any additional benefits granted by her order) when making a grand boast. If she successfully defeats the target of her challenge within 1 minute, however, she is vindicated in her boast and gains the benefits of her challenge against all allies of the defeated enemy who witnessed her grand boast and who are of the same or lower CR as the defeated enemy. If any of the courtly knight's allies attack the initial target of the challenge or assist the courtly knight after the boast, this ability has no effect.",
 			"",
 			"This ability replaces master tactician."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"daring_champion": {
 		"name": "Daring Champion",
@@ -176,8 +170,7 @@
 			"**Advanced Deeds (Ex):** At 11th level, a daring champion gains the following [swashbuckler deeds](class/ability/swashbuckler_deeds): superior feint, targeted strike, subtle blade, and dizzying defense. This ability replaces mighty charge.",
 			"",
 			"**Champion's Weapon Mastery (Ex):** At 20th level, when a daring champion threatens a critical hit with a light or one-handed piercing melee weapon, that critical is automatically confirmed. Furthermore, the critical modifier of those weapons increases by 1 (&times;2 becomes &times;3, for example). This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"daring_general": {
 		"name": "Daring General",
@@ -213,8 +206,7 @@
 			"This ability replaces demanding challenge.",
 			"",
 			"**Supreme Tactician (Ex):** At 20th level, whenever the daring general uses his tactician ability, he can grant any number of teamwork feats that he knows to his allies, and when he uses his tactician ability as a standard action in combat, it does not count against his daily uses of tactician. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"disciple_of_the_pike": {
 		"name": "Disciple of the Pike",
@@ -248,8 +240,7 @@
 			"**Deadly Charge (Ex):** At 20th level, whenever a disciple of the pike makes a charge attack with a polearm or spear, he deals double the normal amount of damage. In addition, if he confirms a critical hit on a deadly charge, the target is stunned for 1d4 rounds. If the target succeeds at a Will save (DC = 10 + the cavalier's base attack bonus), it is instead staggered for 1d4 rounds.",
 			"",
 			"This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"drakerider": {
 		"name": "Drakerider",
@@ -265,8 +256,7 @@
 			"This ability replaces mount, tactician, expert trainer, banner, greater tactician, greater banner, and master tactician and alters cavalier's charge.",
 			"",
 			"**Approved Order:** A drakerider can join only an order approved by its mount. Suitable orders include [order of the beast (ISC)](order/order_of_the_beast_isc), [order of the cockatrice](order/order_of_the_cockatrice), and [order of the dragon](order/order_of_the_dragon), as well as other fitting orders at the GM's discretion."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"emissary": {
 		"name": "Emissary",
@@ -290,8 +280,7 @@
 			"**Mounted Dervish (Ex):** At 14th level, an emissary becomes a fearsome, mobile foe on the battlefield. He gains [Mounted Skirmisher](feat/mounted_skirmisher) as a bonus feat, even if he does not meet the prerequisites. In addition, whenever the emissary is mounted and takes the charge action, he adds 10 feet to his mount's speed. This ability replaces greater banner.",
 			"",
 			"**Erratic Charge (Ex):** At 20th level, an emissary learns to ride through the thick of combat, striking and then moving away with blinding speed. Whenever the emissary is mounted and takes the charge action, he can first move 10 feet and make a melee attack. This first attack is not a charge, but a regular melee attack, and the movement counts toward the total allowed movement for the round. After making this attack, the emissary must still move in a straight line to reach the target of his charge, and he takes a -5 penalty on the attack roll for the attack at the end of his charge. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"esquire": {
 		"name": "Esquire",
@@ -319,8 +308,7 @@
 			"If his aide-de-camp is killed, dying, or otherwise unable to take actions the esquire may declare one creature of his choice that attacked the aide-de-camp in the past round as his quarry; this functions identically to the [ranger class ability](class/ranger). These bonuses last until the aide-de-camp recovers or until the cavalier or the triggering opponents are killed. This ability replaces mighty charge.",
 			"",
 			"**Fight As One (Ex):** At 20th level, the shared challenge ability increases in power, granting the aide-de-camp full benefit of the esquire's challenge. In addition, if the esquire and aide-de-camp both confirm a critical hit against the same target within the same round, the target must make a Fortitude save (DC 10 +1/2 the esquire's cavalier level + the esquire's Charisma bonus) or be staggered for 1d4 rounds. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"fell_rider": {
 		"name": "Fell Rider",
@@ -344,8 +332,7 @@
 			"**Terror (Ex):** At 14th level, a fell rider can rear up his mount as a standard action, spreading terror among his enemies. Enemies within 60 feet who can see the fell rider must succeed at a Will save (DC 10 + 1/2 the fell rider's level + the fell rider's Charisma modifier) or be shaken for 1 round per level the fell rider possesses. Creatures with half or fewer Hit Dice than the fell rider become frightened instead. An opponent that succeeds at the saving throw is immune to that fell rider's terror ability for 24 hours. This ability is a mind-affecting fear effect, and replaces greater banner.",
 			"",
 			"**Unstoppable Rampage (Ex):** At 20th level, a mounted fell rider can overrun up to four creatures as part of a single overrun combat maneuver. Each attempt made against a creature after the first receives a cumulative -5 penalty (for example, the fourth overrun attempt would be at a -15 penalty). If any overrun attempt fails, the fell rider cannot make further overrun attempts that round. Attacks made by the fell rider or his mount as part of the overrun, such as those provided by the [Trample](feat/trample) feat or the deadly rampage ability, receive a +4 bonus to hit, and any critical threats from these attacks automatically confirm. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"first_mother's_fang": {
 		"name": "First Mother's Fang",
@@ -373,8 +360,7 @@
 			"At 2nd, 8th, and 15th levels, the first mother's fang gains a [vigilante social talent](unknown/vigilante_social_talent) and a bonus [combat feat](unknown/combat_feat). When selecting his vigilante social talent, a first mother's fang can select celebrity discount, celebrity perks, great renown, incredible renown, instant recognition, loyal aid, renown, social grace, or triumphant return. He treats his cavalier level as his effective vigilante level when determining whether he meets a talent's prerequisites, as well as its effects. He gains the improved attitude and Intimidate bonuses from renown as if he were in both social and vigilante identities. When selecting skills with social grace, he must choose from the following list: Appraise, Bluff, Diplomacy, Intimidate, Knowledge (geography, history, local, or nobility), Perform, Profession (soldier), or Sense Motive. He is always considered to be in his social identity for the purpose of social grace (though he continues to receive the benefits for both identities from renown). When selecting his bonus combat feat, he can choose from only combat feats that list [Combat Expertise](feat/combat_expertise) as a prerequisite.",
 			"",
 			"This ability replaces order."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"gallant": {
 		"name": "Gallant",
@@ -396,8 +382,7 @@
 			"**Symbol of Resilience (Su):** At 14th level, the gallant's personal crest empowers his allies to stand firm against evil. While his personal crest is displayed, the gallant can bolster his allies' resilience as a standard action. All allies within 60 feet of the gallant gain DR 5/evil for 1 minute. An ally cannot benefit from this ability more than once per day.",
 			"",
 			"This ability replaces greater banner."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"gendarme": {
 		"name": "Gendarme",
@@ -411,8 +396,7 @@
 			"**Bonus Feats:** A gendarme trains to be a mounted terror, almost to the exclusion of all other abilities. He gains bonus feats at 1st level, 5th level, and then every three levels thereafter, but must select these bonus feats from the following list: [Improved Bull Rush](feat/improved_bull_rush), [Mounted Combat](feat/mounted_combat), [Power Attack](feat/power_attack), [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Spring Attack](feat/spring_attack), and [Unseat](feat/unseat). If the gendarme has already selected all of the listed feats, then he may select his bonus feats from those feats listed as combat feats. This ability replaces tactician, greater tactician, master tactician, and the standard cavalier's selection of bonus feats.",
 			"",
 			"**Transfixing Charge (Ex):** At 20th level, a gendarme represents the epitome of mounted combat. Whenever he makes a charge attack while mounted, he deals triple the normal damage (quadruple if using a lance); this damage includes all increases from the [Spirited Charge](feat/spirited_charge) feat and from the use of a lance. In addition, if the gendarme confirms a critical hit on a charge attack while mounted, the attack deals maximum damage for the weapon wielded. Additional damage from weapon properties, magic effects, precision-based bonuses, or other increases are rolled normally. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"ghost_rider": {
 		"name": "Ghost Rider",
@@ -442,8 +426,7 @@
 			"**Spirited Mount (Su):** At 5th level, the ghost rider's mount ignores difficult terrain. At 8th level, it gains the ability to use [water walk](spell/water_walk) at will. This ability replaces expert trainer and banner.",
 			"",
 			"**Ghost Wind (Su):** At 11th level, the ghost rider's ghost mount can use [air walk](spell/air_walk) (as the spell, no action required) at will for up to 1 round at a time, after which it falls to the ground. At 14th level, the mount can fly at its speed with a bonus on Fly skill checks equal to the ghost rider's class level. This ability replaces mighty charge and greater banner."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"green_knight": {
 		"name": "Green Knight",
@@ -489,8 +472,7 @@
 			"**Indestructible (Su):** At 20th level, a green knight is virtually impervious to death. She gains a +6 bonus to her Constitution score. In addition, the green knight becomes immune to death effects and to effects that would kill her without reducing her to 0 hit points, unless the effect involves decapitation. If she is decapitated, the green knight can continue to act normally. Reattachment requires the head and body to be joined and the application of any effect that restores hit points.",
 			"",
 			"This replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"herald_squire": {
 		"name": "Herald Squire",
@@ -506,8 +488,7 @@
 			"**Fleet of Foot (Ex):** At 2nd level, a herald squire gains [fast movement, as the barbarian class feature of the same name](class/barbarian). If the herald squire gains fast movement from another class, the bonuses to her speed do not stack. Whenever she makes long overland journeys alone or with only her mount, the distance a herald squire can travel each day increases by 20%. This ability replaces the 2nd-level order ability.",
 			"",
 			"**Transcend Language (Sp):** At 3rd level, three times per day, a herald squire can cast [tongues](spell/tongues) on herself, using her herald squire level as her caster level. The effects of this ability last for a number of rounds equal to her herald squire level. This ability replaces cavalier's charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"honor_guard": {
 		"name": "Honor Guard",
@@ -525,8 +506,7 @@
 			"**Warding Charge (Ex):** At 11th level, an honor guard can flash across the battlefield to protect his ward against the target of his challenge. Whenever the target of the honor guard's challenge makes an attack against his ward, the honor guard can move up to his speed and make a single melee attack against the target of his challenge as an immediate action. This movement and attack can be made as a charge if the movement qualifies. This ability replaces mighty charge.",
 			"",
 			"**Defensive Challenge (Ex):** At 12th level, whenever an honor guard declares a challenge, his target must pay particular attention to him and his ability to intercept attacks. As long as the target is within the threatened area of the cavalier, it takes a -2 penalty on attack rolls against anyone other than the honor guard. This ability replaces demanding challenge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"hooded_knight": {
 		"name": "Hooded Knight",
@@ -558,8 +538,7 @@
 			"**Paragon of the Roads (Sp):** At 17th level, when a hooded knight uses his champion of the roads ability, he can treat the ability as [greater teleport](spell/greater_teleport) rather than [dimension door](spell/dimension_door). The hooded knight's mount and the mounts ridden by any creatures he brings along do not count against the number of teleported creatures.",
 			"",
 			"This ability replaces master tactician."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"huntmaster": {
 		"name": "Huntmaster",
@@ -597,8 +576,7 @@
 			"**Quarry (Ex):** At 14th level, a huntmaster gains [quarry, as the ranger ability of the same name](class/ranger). The benefits of this ability also apply to his hunting pack. This ability replaces greater banner.",
 			"",
 			"**Improved Quarry (Ex):** At 20th level, a huntmaster gains [improved quarry, as the ranger ability of the same name](class/ranger). The benefits of this ability also apply to his hunting pack. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"hussar": {
 		"name": "Hussar",
@@ -630,8 +608,7 @@
 			"**Sudden Swerve (Ex):** At 17th level, a hussar's control over his mount is advanced enough to allow the mount to turn on the spot, even when charging forward at full speed. Whenever the hussar makes the charge or run action while mounted, he can make a single turn of up to 90 degrees at any one point during this movement.",
 			"",
 			"This ability replaces master tactician."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"knight_of_arnisant": {
 		"name": "Knight of Arnisant",
@@ -665,8 +642,7 @@
 			"**Heart Shield (Su):** At 17th level, when carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to AC on saving throws against death spells and magical death effects, up to a maximum of half his cavalier level. He does not include any enhancement bonus from a magic shield in this calculation.",
 			"",
 			"This ability replaces greater tactician."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"luring_cavalier": {
 		"name": "Luring Cavalier",
@@ -692,8 +668,7 @@
 			"This ability replaces demanding challenge.",
 			"",
 			"**Supreme Aim (Ex):** At 20th level, the luring cavalier gains the careful aim bonus and the effect of infuriating aim on all ranged attacks. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"musketeer": {
 		"name": "Musketeer",
@@ -717,8 +692,7 @@
 			"If the musketeer's gifted firearm is destroyed, the cavalier loses this ability for 30 days while a replacement weapon is crafted for him. During this 30-day period, the musketeer takes a -1 penalty on weapon and damage rolls. This ability replaces the standard cavalier's mount ability.",
 			"",
 			"**Swift Powder (Ex):** At 4th level, the musketeer gains [Rapid Reload (musket)](feat/rapid_reload) or [Rapid Reload (pistol)](feat/rapid_reload) as a bonus feat. At 14th level, each time the musketeer issues a challenge, he may reload a wielded firearm as a free action. This ability replaces expert trainer."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"oceanrider": {
 		"name": "Oceanrider",
@@ -736,8 +710,7 @@
 			"**Aquatic Mount:** A Medium oceanrider can ride either a [seahorse](druidcompanion/giant_seahorse) or an [orca](druidcompanion/orca) (unlike most orcas, this one starts at size Large with none of the other level 7 abilities until level 7) instead of the normal options, while a Small oceanrider can ride a [dolphin](druidcompanion/dolphin).",
 			"",
 			"This alters mount and replaces expert trainer."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"qabarat_outrider": {
 		"name": "Qabarat Outrider",
@@ -765,8 +738,7 @@
 			"**Mindlink Pulse (Su):** At 14th level, a Qabarat outrider can send a pulse of psychic energy through the minds of allies within range of his limited telepathy as a standard action. If he does so during a surprise round, any allies not normally able to act in the surprise round can act. If an ally would normally be denied the ability to act in the surprise round, that ally's initiative is equal to her initiative roll, or to the initiative of the outrider - 1, whichever is lower.",
 			"",
 			"Whether or not it is a surprise round, when the outrider uses this ability, allies within range are no longer flat-footed (assuming they were to begin with). This ability replaces greater banner."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"qadiran_horselord": {
 		"name": "Qadiran Horselord",
@@ -807,8 +779,7 @@
 			"**Sand Scourge (Ex):** At 17th level, a Qadiran horselord and his mount can make a tactical rush through enemy ranks as a full-round action. His mount can move up to twice its normal speed in a straight line. The Qadiran horselord can make a single attack against each creature he threatens during his mount's movement, up to his normal number of attacks per round. These attacks use his full base attack bonus and take a -2 penalty; this is not a charge, and these attacks deal normal damage. The Qadiran horselord provokes attacks of opportunity during this movement, but his mount does not.",
 			"",
 			"This ability replaces master tactician."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"saurian_champion": {
 		"name": "Saurian Champion",
@@ -854,8 +825,7 @@
 			"**Primeval Devotion (Ex):** At 14th level, the bonus on saving throws provided by the mount's devotion ability increases by 2. In addition, the mount adds half this bonus to other saving throws.",
 			"",
 			"This replaces greater banner."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"sister-in-arms": {
 		"name": "Sister-in-Arms",
@@ -891,8 +861,7 @@
 			"**Dedicated Commander (Ex):** A sister-in-arms can inspire and direct allies with great efficiency. At 11th level, the sister-in-arms can use [lion's call](order/order_of_the_lion) or [strategy order](order/order_of_the_dragon) as a move action, rather than as a standard action. At 20th level, she can use [act as one](order/order_of_the_dragon), [lion's call](order/order_of_the_lion), or [strategy order](order/order_of_the_dragon) as a swift or move action.",
 			"",
 			"This ability replaces mighty charge and supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"spellscar_drifter": {
 		"name": "Spellscar Drifter",
@@ -924,8 +893,7 @@
 			"**Tough as Nails (Ex):** At 20th level, a Spellscar drifter is able to select three additional [deeds](unknown/deeds) for use with his [Amateur Gunslinger](feat/amateur_gunslinger) feat-two from the list of deeds available to 15th-level gunslingers, and one from the list available to 19th-level gunslingers.",
 			"",
 			"In addition, if the Spellscar drifter confirms a critical hit on an attack made with a firearm, the target is stunned for 1d4 rounds. A successful Will saving throw (DC = 10 + the Spellscar drifter's base attack bonus) reduces this effect to staggered instead of stunned. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"standard_bearer": {
 		"name": "Standard Bearer",
@@ -943,8 +911,7 @@
 			"**Banner of Solace (Ex):** At 11th level, a standard bearer's banner becomes an even more potent symbol of protection and inspiration to those around him. Once per day, while his banner is displayed, the standard bearer can wave it through the air as a full-round action, granting all allies within 60 feet temporary hit points equal to 1/2 his cavalier level, and a +2 morale bonus on their next damage rolls. At 15th level, and every four levels thereafter, this bonus increases by +1 (to a maximum of +4 at 19th level). The temporary hit points last for 10 minutes or until depleted, whichever occurs first. This ability replaces mighty charge.",
 			"",
 			"**Awesome Pennon (Ex):** At 20th level, a standard bearer's banner has become a powerful rallying point to his allies, and a bane to his foes. Whenever his banner is visible, allies of the standard bearer within 60 feet gain a +1 morale bonus on attack rolls, immunity to fear effects, and a +3 morale bonus on saving throws against mind-affecting effects. This ability replaces supreme charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"strategist": {
 		"name": "Strategist",
@@ -962,8 +929,7 @@
 			"**Tactical Advantage (Ex):** At 14th level, whenever a strategist uses his tactician ability to grant the use of a [teamwork feat](unknown/teamwork_feat) to his allies, he can move up to his speed as a free action either before or after granting the feat. This movement provokes attacks of opportunity normally. This ability replaces greater banner.",
 			"",
 			"**Strategic Supremacy (Ex):** At 18th level, a strategist gains the ability not only to improve his allies' abilities, but also to disrupt the teamwork of his enemies. Whenever the strategist uses the tactician ability, he can choose to cancel out the effects of one [teamwork feat](unknown/teamwork_feat) employed by any of his opponents within 30 feet instead of granting the use of a teamwork feat to his allies. This ability replaces the cavalier's 18th-level bonus feat."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"verdivant": {
 		"name": "Verdivant",
@@ -1015,8 +981,7 @@
 			"**Sinuous Steps (Ex):** At 3rd level, a verdivant and his plant mount gain the [woodland stride druid class feature](class/druid). In addition, they do not take any penalty to AC after making a charge attack.",
 			"",
 			"This alters cavalier's charge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"vermin_tamer": {
 		"name": "Vermin Tamer",
@@ -1040,8 +1005,7 @@
 			"**Disorienting Challenge (Ex):** At 12th level, whenever a vermin tamer declares a challenge, he can confound his target with the erratic movements of his mount. As long as the vermin tamer begins his turn mounted, with his mount climbing or flying at a higher location than his target, the target of his challenge takes a -2 penalty to its AC.",
 			"",
 			"This replaces demanding challenge."
-		],
-		"display": "archetype/cavalier"
+		]
 	},
 	"wave_rider": {
 		"name": "Wave Rider",
@@ -1055,7 +1019,6 @@
 			"**Weapon and Armor Proficiency:** Wave riders are proficient with all simple and martial weapons and with light and medium armor, but not with shields. This replaces the cavalier's weapon and armor proficiencies.",
 			"",
 			"**Seafaring Companion:** At 1st level, a wave rider gains [Monstrous Mount](feat/monstrous_mount) as a bonus feat. The wave rider can use this feat only to select a [hippocampus mount](druidcompanion/hippocampus). Otherwise, this ability functions identically to and replaces the cavalier's mount ability."
-		],
-		"display": "archetype/cavalier"
+		]
 	}
 }

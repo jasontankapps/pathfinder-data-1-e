@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, heroism, resistance; **Cost** 4,000 gp"
-		],
-		"display": "magic/throne"
+		]
 	},
 	"throne_of_fetters": {
 		"name": "Throne of Fetters",
@@ -33,8 +32,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, freedom of movement, heroism; **Cost** 8,000 gp"
-		],
-		"display": "magic/throne"
+		]
 	},
 	"throne_of_the_ardent_defense": {
 		"name": "Throne of the Ardent Defense",
@@ -51,7 +49,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), heroism, shield other; **Cost** 8,000 gp"
-		],
-		"display": "magic/throne"
+		]
 	}
 }

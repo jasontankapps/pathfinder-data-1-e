@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [deadly juggernaut](spell/deadly_juggernaut); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"balanced": {
 		"name": "balanced",
@@ -36,8 +35,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"benevolent": {
 		"name": "benevolent",
@@ -54,8 +52,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aid](spell/aid); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"billowing": {
 		"name": "billowing",
@@ -72,8 +69,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cushioning bands](spell/cushioning_bands), [feather fall](spell/feather_fall); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bitter": {
 		"name": "bitter",
@@ -95,8 +91,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stinking cloud](spell/stinking_cloud); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bolstering": {
 		"name": "bolstering",
@@ -113,8 +108,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"calming": {
 		"name": "calming",
@@ -131,8 +125,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotion); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"champion": {
 		"name": "champion",
@@ -152,8 +145,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from evil](spell/protection_from_evil); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cocooning": {
 		"name": "cocooning",
@@ -170,8 +162,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [planar adaptation](spell/planar_adaptation); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"crusading": {
 		"name": "crusading",
@@ -188,8 +179,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [protection from evil](spell/protection_from_evil); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dastard": {
 		"name": "dastard",
@@ -209,8 +199,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from good](spell/protection_from_good); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"deathless": {
 		"name": "deathless",
@@ -227,8 +216,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death ward](spell/death_ward); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"defiant": {
 		"name": "defiant",
@@ -245,8 +233,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"evolving": {
 		"name": "evolving",
@@ -263,8 +250,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [evolution surge](spell/evolution_surge); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fortification_light": {
 		"name": "Fortification (light)",
@@ -284,8 +270,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"light_fortification": {
 		"copyof": "fortification_light"
@@ -305,8 +290,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"impervious": {
 		"name": "impervious",
@@ -323,8 +307,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fabricate](spell/fabricate), [make whole](spell/make_whole); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mirrored": {
 		"name": "mirrored",
@@ -341,8 +324,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell turning](spell/spell_turning); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"poisoning": {
 		"name": "poisoning",
@@ -359,8 +341,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [poison](spell/poison); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"resonating": {
 		"name": "resonating",
@@ -377,8 +358,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [lend power](spell/lend_power); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_storing": {
 		"name": "spell storing",
@@ -395,8 +375,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a caster of at least 12th level; **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spellsink": {
 		"name": "spellsink",
@@ -413,8 +392,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"stanching": {
 		"name": "stanching",
@@ -431,8 +409,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stabilize](spell/stabilize), [cure critical wounds](spell/cure_critical_wounds) or [lesser restoration](spell/lesser_restoration); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"terrain-striding": {
 		"name": "Terrain-striding",
@@ -449,8 +426,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"terrain_striding": {
 		"copyof": "terrain-striding"
@@ -470,8 +446,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [find traps](spell/find_traps); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vouchsafing": {
 		"name": "vouchsafing",
@@ -488,8 +463,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stoneskin](spell/stoneskin); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"warding": {
 		"name": "warding",
@@ -506,8 +480,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [atonement](spell/atonement); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"withstanding": {
 		"name": "withstanding",
@@ -524,8 +497,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [crushing despair](spell/crushing_despair); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"buoyant_light_armor": {
 		"name": "Buoyant (light armor)",
@@ -542,8 +514,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [water walk](spell/water_walk); **Price** 500 gp (light armor or shield), 1,000 gp (medium or heavy armor)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cushioned": {
 		"name": "cushioned",
@@ -560,14 +531,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather fall](spell/feather_fall); **Price** 500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"buoyant_medium_heavy_armor": {
 		"name": "Buoyant (medium/heavy armor)",
 		"sources": [ "Magical Marketplace" ],
-		"copyof": "buoyant_light_armor",
-		"display": "magic/enhancements"
+		"copyof": "buoyant_light_armor"
 	},
 	"buoyant_medium_or_heavy_armor": {
 		"copyof": "buoyant_medium_heavy_armor"
@@ -593,8 +562,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resize item](spell/resize_item); **Price** 1,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"poison-resistant": {
 		"name": "Poison-Resistant",
@@ -611,8 +579,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [neutralize poison](spell/neutralize_poison); **Price** +1,125 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"poison_resistant": {
 		"copyof": "poison-resistant"
@@ -635,8 +602,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disguise self](spell/disguise_self); **Price** +1,350 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mental_focus": {
 		"name": "mental focus",
@@ -653,8 +619,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), talismanic implement; **Price** 1,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"aquadynamic": {
 		"name": "aquadynamic",
@@ -671,8 +636,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"jousting": {
 		"name": "jousting",
@@ -692,8 +656,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must have 5 ranks in Ride; **Price** +1,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shadow": {
 		"name": "shadow",
@@ -713,8 +676,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +1,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"slick": {
 		"name": "slick",
@@ -734,8 +696,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +1,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"adamant": {
 		"name": "adamant",
@@ -752,8 +713,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage armor](spell/mage_armor), [major creation](spell/major_creation); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bloodthirsty": {
 		"name": "bloodthirsty",
@@ -770,8 +730,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"frosted": {
 		"name": "frosted",
@@ -788,8 +747,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ghost_spike": {
 		"name": "ghost spike",
@@ -806,8 +764,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spiritual weapon](spell/spiritual_weapon); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"jarring": {
 		"name": "jarring",
@@ -824,8 +781,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shatter](spell/shatter); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mind_buttressing": {
 		"name": "mind buttressing",
@@ -842,8 +798,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from chaos/evil/good/law](spell/protection_from_evil); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"phantasmal": {
 		"name": "phantasmal",
@@ -860,8 +815,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shadow projection](spell/shadow_projection); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"rampaging": {
 		"name": "rampaging",
@@ -878,8 +832,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather step](spell/feather_step), [stone call](spell/stone_call); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shadow_blending": {
 		"name": "shadow blending",
@@ -896,8 +849,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shadow walk](spell/shadow_walk); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_dodging": {
 		"name": "spell dodging",
@@ -914,8 +866,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage armor](spell/mage_armor); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_resistance_13": {
 		"name": "Spell Resistance (13)",
@@ -935,8 +886,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell resistance](spell/spell_resistance); **Price** varies"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"steaming": {
 		"name": "steaming",
@@ -957,8 +907,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [elemental aura](spell/elemental_aura); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"volcanic": {
 		"name": "volcanic",
@@ -975,8 +924,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [incendiary cloud](spell/incendiary_cloud); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"burdenless": {
 		"name": "burdenless",
@@ -993,8 +941,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [effortless armor](spell/effortless_armor); **Price** 2,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"expeditious": {
 		"name": "expeditious",
@@ -1011,8 +958,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [expeditious retreat](spell/expeditious_retreat); **Price** +2,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"amorphous": {
 		"name": "amorphous",
@@ -1029,8 +975,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fluid form](spell/fluid_form); **Price** 2,250 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"restful": {
 		"name": "restful",
@@ -1047,8 +992,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [nap stack](spell/nap_stack); **Price** 2,250 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cloudburst": {
 		"name": "cloudburst",
@@ -1065,8 +1009,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy), [shocking grasp](spell/shocking_grasp); **Price** +5,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"comfort": {
 		"name": "comfort",
@@ -1083,8 +1026,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [endure elements](spell/endure_elements), [prestidigitation](spell/prestidigitation); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"corsair": {
 		"name": "corsair",
@@ -1101,8 +1043,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cat's_grace); **Price** 2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"creeping": {
 		"name": "creeping",
@@ -1119,8 +1060,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"deceiving": {
 		"name": "deceiving",
@@ -1137,8 +1077,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [nondetection](spell/nondetection), [unholy blight](spell/unholy_blight); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"malevolent": {
 		"name": "malevolent",
@@ -1155,8 +1094,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [desecrate](spell/desecrate), [doom](spell/doom); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"rallying": {
 		"name": "rallying",
@@ -1173,8 +1111,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [remove fear](spell/remove_fear); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spirit-bonded": {
 		"name": "Spirit-bonded",
@@ -1191,8 +1128,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call spirit](spell/call_spirit); **Price** 3,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spirit_bonded": {
 		"copyof": "spirit-bonded"
@@ -1212,8 +1148,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [knock](spell/knock); **Price** 3,250 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"adhesive": {
 		"name": "adhesive",
@@ -1230,8 +1165,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength), [spider climb](spell/spider_climb); **Price** +3,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spiteful": {
 		"name": "spiteful",
@@ -1248,8 +1182,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** 3,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"hosteling": {
 		"name": "hosteling",
@@ -1272,8 +1205,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [secret chest](spell/secret_chest); **Price** +3,750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"radiant": {
 		"name": "radiant",
@@ -1290,8 +1222,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [daylight](spell/daylight); **Price** +3,750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"trackless": {
 		"name": "trackless",
@@ -1308,8 +1239,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pass without trace](spell/pass_without_trace); **Price** 3,750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"arrow-collecting": {
 		"name": "Arrow-collecting",
@@ -1326,8 +1256,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [entropic shield](spell/entropic_shield), [telekinesis](spell/telekinesis); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"arrow_collecting": {
 		"copyof": "arrow-collecting"
@@ -1347,8 +1276,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cotraveling": {
 		"name": "cotraveling",
@@ -1365,8 +1293,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fortification_moderate": {
 		"name": "Fortification (moderate)",
@@ -1386,8 +1313,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"moderate_fortification": {
 		"copyof": "fortification_moderate"
@@ -1412,8 +1338,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [etherealness](spell/etherealness); **Price** +3 bonus",
 			"",
 			"See also: [ghost touch weapon enhancement](magic/enhancement/ghost_touch_weapon)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ghost_touch": {
 		"copyof": "ghost_touch_armor"
@@ -1436,8 +1361,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stoneskin](spell/stoneskin), [wish](spell/wish) or [miracle](spell/miracle); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sensing": {
 		"name": "sensing",
@@ -1454,8 +1378,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true seeing](spell/true_seeing); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_resistance_15": {
 		"name": "Spell Resistance (15)",
@@ -1463,8 +1386,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "spell_resistance_13",
-		"display": "magic/enhancements"
+		"copyof": "spell_resistance_13"
 	},
 	"titanic": {
 		"name": "titanic",
@@ -1481,8 +1403,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"wild": {
 		"name": "wild",
@@ -1502,8 +1423,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [baleful polymorph](spell/baleful_polymorph); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"phase_lurching": {
 		"name": "phase lurching",
@@ -1520,8 +1440,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [phase door](spell/phase_door); **Price** 4,550 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"delving": {
 		"name": "delving",
@@ -1541,8 +1460,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [soften earth and stone](spell/soften_earth_and_stone); **Price** +5,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"putrid": {
 		"name": "putrid",
@@ -1559,8 +1477,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stinking cloud](spell/stinking_cloud); **Price** +5,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"harmonizing": {
 		"name": "harmonizing",
@@ -1581,8 +1498,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major image](spell/major_image) or bardic performance; **Price** +7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"improved_aquadynamic": {
 		"name": "improved aquadynamic",
@@ -1599,8 +1515,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"radiant_flight": {
 		"name": "radiant flight",
@@ -1617,8 +1532,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fly](spell/fly); **Price** 7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shadow,_improved": {
 		"name": "Shadow, Improved",
@@ -1638,8 +1552,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"improved_shadow": {
 		"copyof": "shadow,_improved"
@@ -1662,8 +1575,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"improved_slick": {
 		"copyof": "slick,_improved"
@@ -1683,8 +1595,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [delay poison](spell/delay_poison), [poison](spell/poison); **Price** 7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"venom_eating": {
 		"copyof": "venom-eating"
@@ -1704,8 +1615,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** +4 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_resistance_17": {
 		"name": "Spell Resistance (17)",
@@ -1713,8 +1623,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "spell_resistance_13",
-		"display": "magic/enhancements"
+		"copyof": "spell_resistance_13"
 	},
 	"energy_resistance": {
 		"name": "energy resistance",
@@ -1734,8 +1643,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +9,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"martyring": {
 		"name": "martyring",
@@ -1752,8 +1660,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mass cure light wounds](spell/mass_cure_light_wounds); **Price** +9,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dread_wing": {
 		"name": "dread wing",
@@ -1770,8 +1677,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fly](spell/fly), [iron body](spell/iron_body); **Price** +5 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fortification_heavy": {
 		"name": "Fortification (heavy)",
@@ -1791,8 +1697,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heavy_fortification": {
 		"copyof": "fortification_heavy"
@@ -1803,8 +1708,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "spell_resistance_13",
-		"display": "magic/enhancements"
+		"copyof": "spell_resistance_13"
 	},
 	"unbowed": {
 		"name": "unbowed",
@@ -1821,8 +1725,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [breath of life](spell/breath_of_life), [shatter](spell/shatter); **Price** +5 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"righteous": {
 		"name": "righteous",
@@ -1842,8 +1745,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might); **Price** +13,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"unbound": {
 		"name": "unbound",
@@ -1860,8 +1762,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might), creator must be chaotic; **Price** +13,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"unrighteous": {
 		"name": "unrighteous",
@@ -1881,8 +1782,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might); **Price** +13,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vigilant": {
 		"name": "vigilant",
@@ -1899,8 +1799,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might), creator must be lawful; **Price** +13,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"determination": {
 		"name": "determination",
@@ -1920,8 +1819,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [breath of life](spell/breath_of_life); **Price** +15,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_aquadynamic": {
 		"name": "greater aquadynamic",
@@ -1938,8 +1836,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shadow,_greater": {
 		"name": "Shadow, Greater",
@@ -1959,8 +1856,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +16,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_shadow": {
 		"copyof": "shadow,_greater"
@@ -1983,8 +1879,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +16,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_slick": {
 		"copyof": "slick,_greater"
@@ -2007,8 +1902,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +21,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"improved_energy_resistance": {
 		"copyof": "energy_resistance,_improved"
@@ -2031,8 +1925,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ethereal jaunt](spell/ethereal_jaunt); **Price** +24,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"undead_controlling": {
 		"name": "undead controlling",
@@ -2052,8 +1945,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [control undead](spell/control_undead); **Price** +24,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"energy_resistance,_greater": {
 		"name": "Energy Resistance, Greater",
@@ -2073,8 +1965,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +33,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_energy_resistance": {
 		"copyof": "energy_resistance,_greater"
@@ -2097,8 +1988,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [entropic shield](spell/entropic_shield); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"assiduous": {
 		"name": "assiduous",
@@ -2115,8 +2005,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [lock gaze](spell/lock_gaze), [mirror polish](spell/mirror_polish); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bashing": {
 		"name": "bashing",
@@ -2136,8 +2025,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"blinding": {
 		"name": "blinding",
@@ -2157,8 +2045,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [searing light](spell/searing_light); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"clangorous": {
 		"name": "clangorous",
@@ -2175,8 +2062,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [deafness](spell/blindness_deafness), [sound burst](spell/sound_burst); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"folding": {
 		"name": "folding",
@@ -2193,8 +2079,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant summons](spell/instant_summons), [masterwork transformation](spell/masterwork_transformation); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"guarding": {
 		"name": "guarding",
@@ -2211,8 +2096,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield other](spell/shield_other); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heraldric": {
 		"name": "heraldric",
@@ -2229,8 +2113,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ramming": {
 		"name": "ramming",
@@ -2247,8 +2130,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [force punch](spell/force_punch); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"rebounding": {
 		"name": "rebounding",
@@ -2265,8 +2147,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield](spell/shield); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"singing": {
 		"name": "singing",
@@ -2283,8 +2164,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [soundburst](spell/soundburst); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spellrending": {
 		"name": "spellrending",
@@ -2301,14 +2181,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell absorption](spell/spell_absorption); **Price** +1 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"buoyant_shield": {
 		"name": "Buoyant (shield)",
 		"sources": [ "Magical Marketplace" ],
-		"copyof": "buoyant_light_armor",
-		"display": "magic/enhancements"
+		"copyof": "buoyant_light_armor"
 	},
 	"animated": {
 		"name": "animated",
@@ -2328,8 +2206,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"arrow_deflection": {
 		"name": "arrow deflection",
@@ -2349,8 +2226,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"guarding,_greater": {
 		"name": "Guarding, Greater",
@@ -2367,8 +2243,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield other](spell/shield_other); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_guarding": {
 		"copyof": "guarding,_greater"
@@ -2392,8 +2267,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [inflict critical wounds](spell/inflict_critical_wounds); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mastering": {
 		"name": "mastering",
@@ -2410,8 +2284,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [transformation](spell/transformation); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"merging": {
 		"name": "merging",
@@ -2428,8 +2301,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [versatile weapon](spell/versatile_weapon); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"weeping": {
 		"name": "weeping",
@@ -2446,8 +2318,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [crushing despair](spell/crushing_despair); **Price** +2 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"wyrmsbreath": {
 		"name": "wyrmsbreath",
@@ -2464,8 +2335,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [burning hands](spell/burning_hands); **Price** +2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"deflecting": {
 		"name": "deflecting",
@@ -2482,8 +2352,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [deflection](spell/deflection); **Price** +3 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bastion": {
 		"name": "bastion",
@@ -2500,8 +2369,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mind blank](spell/mind_blank); **Price** +4 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"channeling": {
 		"name": "channeling",
@@ -2518,8 +2386,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure](spell/cure_moderate_wounds)/[inflict moderate wounds](spell/inflict_moderate_wounds), creator must be able to channel energy; **Price** +9,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"reflecting": {
 		"name": "reflecting",
@@ -2539,8 +2406,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell turning](spell/spell_turning); **Price** +5 bonus"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shrinking": {
 		"name": "shrinking",
@@ -2557,8 +2423,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shrink item](spell/shrink_item); **Price** +500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"agile": {
 		"name": "agile",
@@ -2578,8 +2443,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"allying": {
 		"name": "allying",
@@ -2599,8 +2463,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"answering": {
 		"name": "answering",
@@ -2617,8 +2480,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope), creator must have the opportune parry and riposte deed; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bane": {
 		"name": "bane",
@@ -2654,8 +2516,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"benevolent_weapon": {
 		"name": "benevolent (weapon)",
@@ -2672,8 +2533,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aid](spell/aid); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"bewildering": {
 		"name": "bewildering",
@@ -2690,8 +2550,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [confusion](spell/confusion); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"blood-hunting": {
 		"name": "blood-hunting",
@@ -2722,8 +2581,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"blood_hunting": {
 		"copyof": "blood-hunting"
@@ -2743,8 +2601,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge), creator must have the raging song class feature; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"brawling_weapon": {
 		"name": "brawling (weapon)",
@@ -2761,8 +2618,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Trip](feat/improved_trip), [guidance](spell/guidance); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"breaking": {
 		"name": "breaking",
@@ -2779,8 +2635,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break](spell/break) or [shatter](spell/shatter); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"called": {
 		"name": "called",
@@ -2797,8 +2652,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [teleport](spell/teleport); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"catalytic": {
 		"name": "catalytic",
@@ -2815,8 +2669,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"compassionate": {
 		"name": "compassionate",
@@ -2833,8 +2686,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stabilize](spell/stabilize); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"conductive": {
 		"name": "conductive",
@@ -2854,8 +2706,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spectral hand](spell/spectral_hand); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"confounding": {
 		"name": "confounding",
@@ -2872,8 +2723,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [eagle's splendor](spell/eagle's_splendor); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"corrosive": {
 		"name": "corrosive",
@@ -2893,8 +2743,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"countering": {
 		"name": "countering",
@@ -2911,8 +2760,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Combat Reflexes, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"courageous": {
 		"name": "courageous",
@@ -2929,8 +2777,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), [remove fear](spell/remove_fear); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cruel": {
 		"name": "cruel",
@@ -2950,8 +2797,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cause fear](spell/cause_fear), [death knell](spell/death_knell); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"cunning": {
 		"name": "cunning",
@@ -2971,8 +2817,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dazzling_radiance": {
 		"name": "dazzling radiance",
@@ -2989,8 +2834,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [color spray](spell/color_spray); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"deadly": {
 		"name": "deadly",
@@ -3010,8 +2854,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [inflict light wounds](spell/inflict_light_wounds); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"debilitating": {
 		"name": "debilitating",
@@ -3030,8 +2873,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bestow curse](spell/bestow_curse), creator must have 5 ranks in Heal; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"deceptive": {
 		"name": "deceptive",
@@ -3048,8 +2890,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dazzling blade](spell/dazzling_blade); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"defending": {
 		"name": "defending",
@@ -3069,8 +2910,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield](spell/shield) or [shield of faith](spell/shield_of_faith); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"disjoining": {
 		"name": "disjoining",
@@ -3087,8 +2927,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [mythic severance](spell/severance); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dispelling": {
 		"name": "dispelling",
@@ -3105,8 +2944,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic), creator must be a caster of at least 10th level; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"distracting": {
 		"name": "distracting",
@@ -3123,8 +2961,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [qualm](spell/qualm); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"drowscourge": {
 		"name": "drowscourge",
@@ -3141,8 +2978,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [darkvision](spell/darkvision), [detect evil](spell/detect_evil), [summon monster I](spell/summon_monster_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dueling_psfg": {
 		"name": "dueling (PSFG)",
@@ -3159,8 +2995,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dueling_pfsg": {
 		"copyof": "dueling_psfg"
@@ -3182,8 +3017,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [vampiric touch](spell/vampiric_touch); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fate_stealing": {
 		"copyof": "fate-stealing"
@@ -3205,8 +3039,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [align weapon](spell/align_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"flamboyant": {
 		"name": "flamboyant",
@@ -3225,8 +3058,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), creator must be a panache user; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"flaming": {
 		"name": "flaming",
@@ -3246,8 +3078,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [fireball](spell/fireball), [flame blade](spell/flame_blade), or [flame strike](spell/flame_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fortuitous": {
 		"name": "fortuitous",
@@ -3264,8 +3095,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"frost": {
 		"name": "frost",
@@ -3285,8 +3115,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal) or [ice storm](spell/ice_storm); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"furious": {
 		"name": "furious",
@@ -3306,8 +3135,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ghost_touch_weapon": {
 		"name": "ghost touch (weapon)",
@@ -3329,8 +3157,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** -",
 			"",
 			"See also: [ghost touch armor enhancement](magic/enhancement/ghost_touch_armor)"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"grayflame": {
 		"name": "grayflame",
@@ -3350,8 +3177,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Channel Smite](feat/channel_smite), [align weapon](spell/align_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"grounding": {
 		"name": "grounding",
@@ -3368,8 +3194,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shocking grasp](spell/shocking_grasp); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"growing": {
 		"name": "growing",
@@ -3386,8 +3211,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"guardian": {
 		"name": "guardian",
@@ -3409,8 +3233,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"guided": {
 		"name": "guided",
@@ -3427,8 +3250,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spiritual weapon](spell/spiritual_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heartseeker": {
 		"name": "heartseeker",
@@ -3445,8 +3267,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death knell](spell/death_knell); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"huntsman": {
 		"name": "huntsman",
@@ -3466,8 +3287,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [detect animals or plants](spell/detect_animals_or_plants); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"injecting": {
 		"name": "injecting",
@@ -3484,8 +3304,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [delay poison](spell/delay_poison); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"inspired": {
 		"name": "inspired",
@@ -3502,8 +3321,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"jurist": {
 		"name": "jurist",
@@ -3523,8 +3341,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [owl's wisdom](spell/owl's_wisdom); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"keen": {
 		"name": "keen",
@@ -3544,8 +3361,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ki_focus": {
 		"name": "ki focus",
@@ -3565,8 +3381,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"kinslayer": {
 		"name": "kinslayer",
@@ -3583,8 +3398,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [detect relations](spell/detect_relations); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"leveraging": {
 		"name": "leveraging",
@@ -3601,8 +3415,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"limning": {
 		"name": "limning",
@@ -3619,8 +3432,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [faerie fire](spell/faerie_fire); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"menacing": {
 		"name": "menacing",
@@ -3640,8 +3452,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [phantasmal killer](spell/phantasmal_killer); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"merciful": {
 		"name": "merciful",
@@ -3661,8 +3472,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure light wounds](spell/cure_light_wounds); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mighty_cleaving": {
 		"name": "mighty cleaving",
@@ -3682,8 +3492,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [divine power](spell/divine_power); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mimetic": {
 		"name": "mimetic",
@@ -3700,8 +3509,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"miserable": {
 		"name": "miserable",
@@ -3718,8 +3526,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"mythic_bane": {
 		"name": "mythic bane",
@@ -3736,8 +3543,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [divine favor](spell/divine_favor); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"neutralizing": {
 		"name": "neutralizing",
@@ -3754,8 +3560,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [purify food and drink](spell/purify_food_and_drink); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ominous": {
 		"name": "ominous",
@@ -3772,8 +3577,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [doom](spell/doom) or [scare](spell/scare); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"patriotic": {
 		"name": "patriotic",
@@ -3792,8 +3596,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"pitfall": {
 		"name": "pitfall",
@@ -3810,8 +3613,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Initiative](feat/improved_initiative), [cat's grace](spell/cat's_grace); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"planar": {
 		"name": "planar",
@@ -3828,8 +3630,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"quenching": {
 		"name": "quenching",
@@ -3846,8 +3647,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"rusting": {
 		"name": "rusting",
@@ -3864,8 +3664,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rusting grasp](spell/rusting_grasp); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sacred": {
 		"name": "sacred",
@@ -3884,8 +3683,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [imbue with spell ability](spell/imbue_with_spell_ability); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sapping": {
 		"name": "sapping",
@@ -3902,8 +3700,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pain strike](spell/pain_strike), [touch of fatigue](spell/touch_of_fatigue); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"seaborne": {
 		"name": "seaborne",
@@ -3920,8 +3717,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement), [touch of the sea](spell/touch_of_the_sea); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shock": {
 		"name": "shock",
@@ -3941,8 +3737,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call lightning](spell/call_lightning) or [lightning bolt](spell/lightning_bolt); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"skewering": {
 		"name": "skewering",
@@ -3959,8 +3754,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [true strike](spell/true_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"slithering": {
 		"name": "slithering",
@@ -3977,8 +3771,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fluid form](spell/fluid_form); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"smashing": {
 		"name": "smashing",
@@ -3995,8 +3788,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_storing_weapon": {
 		"name": "spell storing (weapon)",
@@ -4018,8 +3810,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a caster of at least 12th level; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spirit-hunting": {
 		"name": "spirit-hunting",
@@ -4049,8 +3840,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_nature's_ally_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spirit_hunting": {
 		"copyof": "spirit-hunting"
@@ -4070,8 +3860,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Steal](feat/improved_steal), [spider climb](spell/spider_climb); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"summon_bane": {
 		"name": "summon bane",
@@ -4088,8 +3877,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"thawing": {
 		"name": "thawing",
@@ -4106,8 +3894,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heat metal](spell/heat_metal); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"throwing": {
 		"name": "throwing",
@@ -4127,8 +3914,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic stone](spell/magic_stone); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"thundering": {
 		"name": "thundering",
@@ -4148,8 +3934,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [blindness/deafness](spell/blindness_deafness); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"training": {
 		"name": "training",
@@ -4166,8 +3951,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon), creator must have the chosen combat feat and its prerequisites; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"unaligned": {
 		"name": "unaligned",
@@ -4184,8 +3968,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [undetectable alignment](spell/undetectable_alignment); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"underwater": {
 		"name": "underwater",
@@ -4202,8 +3985,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"valiant": {
 		"name": "valiant",
@@ -4220,8 +4002,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vampiric": {
 		"name": "vampiric",
@@ -4243,8 +4024,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure moderate wounds](spell/cure_moderate_wounds), [inflict moderate wounds](spell/inflict_moderate_wounds), [vampiric touch](spell/vampiric_touch); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vicious": {
 		"name": "vicious",
@@ -4264,8 +4044,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enervation](spell/enervation); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"virulent": {
 		"name": "virulent",
@@ -4282,8 +4061,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pernicious poison](spell/pernicious_poison); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"prehensile": {
 		"name": "prehensile",
@@ -4300,8 +4078,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rope trick](spell/rope_trick); **Price** 1,250 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"concealed,_lesser": {
 		"name": "concealed, lesser",
@@ -4318,8 +4095,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation) ; **Price** 1,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"lesser_concealed": {
 		"copyof": "concealed,_lesser"
@@ -4339,8 +4115,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fabricate](spell/fabricate), [make whole](spell/make_whole); **Price** +1,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"exclusionary": {
 		"name": "exclusionary",
@@ -4357,8 +4132,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Selective Channeling](feat/selective_channeling), [sanctuary](spell/sanctuary); **Price** 1,875 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"glamered_weapon": {
 		"name": "glamered (weapon)",
@@ -4375,8 +4149,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disguise self](spell/disguise_self), [magic aura](spell/magic_aura); **Price** +2,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"resizing": {
 		"name": "resizing",
@@ -4393,8 +4166,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resize item](spell/resize_item); **Price** 2,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sacrosanct": {
 		"name": "sacrosanct",
@@ -4413,8 +4185,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), the crafter must be able to channel energy; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sneaky": {
 		"name": "sneaky",
@@ -4431,8 +4202,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [doom](spell/doom); **Price** 2,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"liberating_wmh": {
 		"name": "liberating (WMH)",
@@ -4449,8 +4219,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic), [freedom of movement](spell/freedom_of_movement); **Price** +3,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"concealed": {
 		"name": "concealed",
@@ -4471,8 +4240,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation) ; **Price** 3,750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"advancing_weapon": {
 		"name": "advancing (weapon)",
@@ -4489,8 +4257,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather step](spell/feather_step); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"anarchic": {
 		"name": "anarchic",
@@ -4510,8 +4277,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chaos hammer](spell/chaos_hammer), creator must be chaotic; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"anchoring": {
 		"name": "anchoring",
@@ -4528,8 +4294,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [levitate](spell/levitate); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"axiomatic": {
 		"name": "axiomatic",
@@ -4549,8 +4314,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [order's wrath](spell/order's_wrath), creator must be lawful; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"burning": {
 		"name": "burning",
@@ -4571,8 +4335,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [elemental touch](spell/elemental_touch); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"corrosive_burst": {
 		"name": "corrosive burst",
@@ -4594,8 +4357,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"culling": {
 		"name": "culling",
@@ -4612,8 +4374,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Cleave, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [divine favor](spell/divine_favor); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"defiant_weapon": {
 		"name": "defiant (weapon)",
@@ -4630,8 +4391,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Heroic Defiance](feat/heroic_defiance), [break enchantment](spell/break_enchantment), [stabilize](spell/stabilize); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dispelling_burst": {
 		"name": "dispelling burst",
@@ -4650,8 +4410,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater dispel magic](spell/greater_dispel_magic), creator must be a caster of at least 12th level; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"disruption": {
 		"name": "disruption",
@@ -4671,8 +4430,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heal](spell/heal); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"distracting,_greater": {
 		"name": "distracting, greater",
@@ -4689,8 +4447,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [qualm](spell/qualm); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_distracting": {
 		"copyof": "distracting,_greater"
@@ -4715,8 +4472,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [fireball](spell/fireball), [flame blade](spell/flame_blade), or [flame strike](spell/flame_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"furyborn": {
 		"name": "furyborn",
@@ -4733,8 +4489,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fury-born": {
 		"name": "fury-born",
@@ -4751,8 +4506,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"fury_born": {
 		"copyof": "fury-born"
@@ -4772,8 +4526,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [blindness/deafness](spell/blindness_deafness), [daylight](spell/daylight), flare; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"harvesting": {
 		"name": "harvesting",
@@ -4792,8 +4545,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [steal power](spell/steal_power); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heretical": {
 		"name": "heretical",
@@ -4810,8 +4562,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [align weapon](spell/align_weapon), [weapon of awe](spell/weapon_of_awe), creator must be a member of the attuned religion; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"holy": {
 		"name": "holy",
@@ -4831,8 +4582,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [holy smite](spell/holy_smite), creator must be good; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"icy_burst": {
 		"name": "icy burst",
@@ -4854,8 +4604,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal) or [ice storm](spell/ice_storm); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"igniting": {
 		"name": "igniting",
@@ -4872,8 +4621,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [flame blade](spell/flame_blade), [flame strike](spell/flame_strike), or [fireball](spell/fireball); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"impact": {
 		"name": "impact",
@@ -4890,8 +4638,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength), [lead blades](spell/lead_blades), [righteous might](spell/righteous_might) or [giant form I](spell/giant_form_1); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"invigorating": {
 		"name": "invigorating",
@@ -4908,8 +4655,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"ki_intensifying": {
 		"name": "ki intensifying",
@@ -4930,8 +4676,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"legbreaker": {
 		"name": "legbreaker",
@@ -4948,8 +4693,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [touch of gracelessness](spell/touch_of_gracelessness); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"liberating_ui": {
 		"name": "liberating (UI)",
@@ -4966,8 +4710,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break enchantment](spell/break_enchantment), [greater dispel magic](spell/greater_dispel_magic); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"lifesurge": {
 		"name": "lifesurge",
@@ -4986,8 +4729,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Channel Smite, cure serious wounds, [death ward](spell/death_ward), [disrupt undead](spell/disrupt_undead); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"negating": {
 		"name": "negating",
@@ -5004,8 +4746,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel chaos, evil, good, or law](spell/dispel_evil); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"obliviating": {
 		"name": "obliviating",
@@ -5022,8 +4763,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [modify memory](spell/modify_memory); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"peaceful": {
 		"name": "peaceful",
@@ -5040,8 +4780,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotion), [cure light wounds](spell/cure_light_wounds); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"phase_locking": {
 		"name": "phase locking",
@@ -5058,8 +4797,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dimensional anchor](spell/dimensional_anchor); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"planestriking": {
 		"name": "planestriking",
@@ -5076,8 +4814,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dismissal](spell/dismissal); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"potent": {
 		"name": "potent",
@@ -5094,8 +4831,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [greater heroism](spell/greater_heroism), [greater magic weapon](spell/greater_magic_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"quaking": {
 		"name": "quaking",
@@ -5112,8 +4848,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater thunderstomp](spell/greater_thunderstomp); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"runeforged": {
 		"name": "runeforged",
@@ -5155,8 +4890,7 @@
 			"### Construction",
 			"",
 			"**Requirements** see sourcebook; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sharding": {
 		"name": "sharding",
@@ -5173,8 +4907,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shattering": {
 		"name": "shattering",
@@ -5193,8 +4926,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break](spell/break) or [shatter](spell/shatter); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shocking_burst": {
 		"name": "shocking burst",
@@ -5216,8 +4948,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call lightning](spell/call_lightning) or [lightning bolt](spell/lightning_bolt); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"silencing": {
 		"name": "silencing",
@@ -5236,8 +4967,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [silence](spell/silence) ; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"stalking": {
 		"name": "stalking",
@@ -5256,8 +4986,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [hunter's eye](spell/hunter's_eye), [true strike](spell/true_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"toxic": {
 		"name": "toxic",
@@ -5274,8 +5003,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [accelerate poison](spell/accelerate_poison), [pernicious poison](spell/pernicious_poison); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"treasonous": {
 		"name": "treasonous",
@@ -5292,8 +5020,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1), [weapon of awe](spell/weapon_of_awe), creator must be a member of the attuned nationality; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"truthful": {
 		"name": "truthful",
@@ -5312,8 +5039,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater dispel magic](spell/greater_dispel_magic), [true strike](spell/true_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"unholy": {
 		"name": "unholy",
@@ -5333,8 +5059,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [unholy blight](spell/unholy_blight), creator must be evil; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"unseen": {
 		"name": "unseen",
@@ -5351,8 +5076,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater invisibility](spell/greater_invisibility); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vampiric,_greater": {
 		"name": "vampiric, greater",
@@ -5369,8 +5093,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure moderate wounds](spell/cure_moderate_wounds), [inflict moderate wounds](spell/inflict_moderate_wounds), [vampiric touch](spell/vampiric_touch); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_vampiric": {
 		"copyof": "vampiric,_greater"
@@ -5393,8 +5116,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"transformative": {
 		"name": "transformative",
@@ -5414,8 +5136,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation); **Price** +5,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dueling": {
 		"name": "dueling",
@@ -5435,8 +5156,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** +7,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"transformative,_greater": {
 		"name": "transformative, greater",
@@ -5453,8 +5173,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [polymorph any object](spell/polymorph_any_object); **Price** 7,500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_transformative": {
 		"copyof": "transformative,_greater"
@@ -5474,8 +5193,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ray of exhaustion](spell/ray_of_exhaustion); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"flamboyant,_greater": {
 		"name": "flamboyant, greater",
@@ -5492,8 +5210,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater heroism](spell/greater_heroism), creator must be a panache user; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_flamboyant": {
 		"copyof": "flamboyant,_greater"
@@ -5513,8 +5230,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed), [inflict serious wounds](spell/inflict_serious_wounds); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"nullifying": {
 		"name": "nullifying",
@@ -5531,8 +5247,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [antimagic field](spell/antimagic_field); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"redeemed": {
 		"name": "redeemed",
@@ -5549,8 +5264,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [consecrate](spell/consecrate), [holy smite](spell/holy_smite), creator must be good; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"repositioning": {
 		"name": "repositioning",
@@ -5567,8 +5281,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinesis](spell/telekinesis); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"speed": {
 		"name": "speed",
@@ -5588,8 +5301,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spellstealing": {
 		"name": "spellstealing",
@@ -5606,8 +5318,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater arcane sight](spell/greater_arcane_sight), [limited wish](spell/limited_wish); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"umbral": {
 		"name": "umbral",
@@ -5626,8 +5337,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [darkness](spell/darkness), [darkvision](spell/darkvision); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"brilliant_energy": {
 		"name": "brilliant energy",
@@ -5647,8 +5357,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [gaseous form](spell/gaseous_form), [continual flame](spell/continual_flame); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dancing": {
 		"name": "dancing",
@@ -5668,8 +5377,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"flying": {
 		"name": "flying",
@@ -5686,8 +5394,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate object](spell/animate_object); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_siphon": {
 		"name": "spell siphon",
@@ -5706,8 +5413,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater arcane sight](spell/greater_arcane_sight), [limited wish](spell/limited_wish); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"vorpal": {
 		"name": "vorpal",
@@ -5727,8 +5433,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [circle of death](spell/circle_of_death), [keen edge](spell/keen_edge); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"adaptive": {
 		"name": "adaptive",
@@ -5745,8 +5450,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [warp wood](spell/warp_wood); **Price** +500 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dry_load": {
 		"name": "dry load",
@@ -5770,8 +5474,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [air bubble](spell/air_bubble); **Price** +750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sniping_normal": {
 		"name": "sniping (normal)",
@@ -5788,8 +5491,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 937 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"normal_sniping": {
 		"copyof": "sniping_normal"
@@ -5809,8 +5511,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"beaming": {
 		"name": "beaming",
@@ -5827,8 +5528,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [searing light](spell/searing_light); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"clustershot": {
 		"name": "clustershot",
@@ -5845,8 +5545,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"conserving": {
 		"name": "conserving",
@@ -5863,8 +5562,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [abundant ammunition](spell/abundant_ammunition), [dimension door](spell/dimension_door); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"distance": {
 		"name": "distance",
@@ -5884,8 +5582,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"driving": {
 		"name": "driving",
@@ -5902,8 +5599,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinetic charge](spell/telekinetic_charge); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"healer's_sorrow": {
 		"name": "healer's sorrow",
@@ -5920,8 +5616,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death knell](spell/death_knell); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"lucky": {
 		"name": "lucky",
@@ -5941,8 +5636,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), creator must be a grit user; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"plummeting": {
 		"name": "plummeting",
@@ -5959,8 +5653,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bestow curse](spell/bestow_curse), [fly](spell/fly); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"reliable": {
 		"name": "reliable",
@@ -5980,8 +5673,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mending](spell/mending); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"returning": {
 		"name": "returning",
@@ -6001,8 +5693,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinesis](spell/telekinesis); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"seeking": {
 		"name": "seeking",
@@ -6022,8 +5713,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true seeing](spell/true_seeing); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"shadowshooting": {
 		"name": "shadowshooting",
@@ -6042,8 +5732,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [reloading hands](spell/reloading_hands), [shadow weapon](spell/shadow_weapon); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sparkfly_crystal_arrow": {
 		"name": "sparkfly crystal arrow",
@@ -6060,8 +5749,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [faerie fire](spell/faerie_fire); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"spell_hurling": {
 		"name": "spell hurling",
@@ -6078,8 +5766,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spectral hand](spell/spectral_hand), creator must have the spellstrike class feature; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"veering": {
 		"name": "veering",
@@ -6096,8 +5783,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic missile](spell/magic_missile); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"phantom_ammunition": {
 		"name": "phantom ammunition",
@@ -6116,8 +5802,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disintegrate](spell/disintegrate), [make whole](spell/make_whole); **Price** 1,000 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sniping_improved": {
 		"name": "sniping (improved)",
@@ -6134,8 +5819,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 3,750 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"improved_sniping": {
 		"copyof": "sniping_improved"
@@ -6155,8 +5839,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [air bubble](spell/air_bubble); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"dazzling": {
 		"name": "dazzling",
@@ -6173,8 +5856,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [flare burst](spell/flare_burst); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"designating_lesser": {
 		"name": "designating (lesser)",
@@ -6191,8 +5873,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant enemy](spell/instant_enemy); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"lesser_designating": {
 		"copyof": "designating_lesser"
@@ -6214,8 +5895,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [minor creation](spell/minor_creation); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"glitterwake": {
 		"name": "glitterwake",
@@ -6232,8 +5912,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [glitterdust](spell/glitterdust); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"penetrating": {
 		"name": "penetrating",
@@ -6250,8 +5929,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [mirror strike](spell/mirror_strike); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sniping": {
 		"name": "sniping",
@@ -6268,8 +5946,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [longshot](spell/longshot); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"sniping_greater": {
 		"name": "sniping (greater)",
@@ -6286,8 +5963,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 8,437 gp"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_sniping": {
 		"copyof": "sniping_greater"
@@ -6310,8 +5986,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater heroism](spell/greater_heroism), creator must be a grit user; **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_lucky": {
 		"copyof": "lucky,_greater"
@@ -6334,8 +6009,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [make whole](spell/make_whole); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_reliable": {
 		"copyof": "reliable_greater"
@@ -6355,8 +6029,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shout](spell/shout); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"tailwind": {
 		"name": "tailwind",
@@ -6373,8 +6046,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [gust of wind](spell/gust_of_wind); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"designating_greater": {
 		"name": "designating (greater)",
@@ -6391,8 +6063,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant enemy](spell/instant_enemy); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"greater_designating": {
 		"copyof": "designating_greater"
@@ -6412,8 +6083,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bow spirit](spell/bow_spirit); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"second_chance": {
 		"name": "second chance",
@@ -6430,8 +6100,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ricochet shot](spell/ricochet_shot); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heart-piercing": {
 		"name": "heart-piercing",
@@ -6448,8 +6117,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [finger of death](spell/finger_of_death), [keen edge](spell/keen_edge); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	},
 	"heart_piercing": {
 		"copyof": "heart-piercing"
@@ -6469,7 +6137,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [litany of warding](spell/litany_of_warding); **Price** -"
-		],
-		"display": "magic/enhancements"
+		]
 	}
 }

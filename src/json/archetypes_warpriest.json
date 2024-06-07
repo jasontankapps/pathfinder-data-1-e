@@ -40,8 +40,7 @@
 			"**Aspect of Disaster (Su):** At 20th level, a creature affected by a calamity caller's enhanced calamity does not receive a save to reduce the damage or avoid the calamity's effects.",
 			"",
 			"This replaces aspect of war."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"champion_of_the_faith": {
 		"name": "Champion of the Faith",
@@ -67,8 +66,7 @@
 			"In addition, while smite is in effect, the champion of the faith gains a deflection bonus equal to his Charisma modifier (if any) to his AC against attacks made by the target of the smite. If the smite targets a creature that's not of the champion of the faith's opposed alignment, the smite is wasted with no effect.",
 			"",
 			"The smite effect remains until the target of the smite is dead or the next time the champion of the faith regains spells. The champion of the faith can use this ability once per day, plus one additional time per day for every 4 levels beyond 4th (to a maximum of five times per day at 20th level). Using this ability consumes two uses of his fervor ability. This ability replaces channel energy."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"cult_leader": {
 		"name": "Cult Leader",
@@ -92,8 +90,7 @@
 			"**Enthrall (Sp):** At 4th level, a cult leader can cast enthrall. Using this ability consumes two uses of his fervor ability. This ability replaces channel energy.",
 			"",
 			"**Hide in Plain Sight (Su):** At 12th level, a cult leader can use the Stealth skill even while being observed. As long as he is within 10 feet of an area of dim light, a cult leader can hide himself from view in the open without anything to actually hide behind. He cannot, however, hide in his own shadow. This ability replaces the bonus feat gained at 12th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"disenchanter": {
 		"name": "Disenchanter",
@@ -109,8 +106,7 @@
 			"**Mystic Interference (Su):** At 4th level, a disenchanter can channel a burst of pure abjuration magic to grant protection to himself and all allies with 30 feet. Affected creatures receive a +1 bonus on saving throws against spells and spell-like abilities for a number of rounds equal to his warpriest level. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast cure spells, and a profane bonus if the warpriest is evil-aligned or able to spontaneously cast inflict spells. Using this ability consumes two uses of his fervor ability. At 8th level and every 4 levels thereafter, the bonus granted by mystic interference increases by 1 (to a maximum of +5 at 20th level). This ability replaces channel energy.",
 			"",
 			"**Banish Enchantment (Su):** At 6th level, a disenchanter learns to focus his mystic interference. As a standard action, he can consume two uses of his fervor ability to target a single creature within 30 feet with a targeted dispel magic. This ability replaces the bonus feat gained at 6th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"divine_champion": {
 		"name": "Divine Champion",
@@ -136,8 +132,7 @@
 			"**Fervent Boon (Sp):** Beginning at 9th level, a divine champion can call upon his deity for minor boons. By expending one or more uses of his fervor ability, he can cast one of the spell-like abilities included in his deity's first sentinel boon. By expending one use of fervor, he can cast the spell-like ability that the boon normally grants three uses of per day; by expending two uses of fervor he can cast the spell-like ability that the boon normally grants twice per day; and by expending three uses of fervor, he can cast the spell-like ability that the boon normally grants once per day. These uses don't count against any uses granted by the boon.",
 			"",
 			"This replaces the bonus feat gained at 9th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"divine_commander": {
 		"name": "Divine Commander",
@@ -163,8 +158,7 @@
 			"**Greater Battle Tactician (Ex):** At 12th level, the divine commander gains an additional teamwork feat as a bonus feat. She must meet the prerequisites for this feat. The divine commander can grant this feat to her allies using the battle tactician ability. Additionally, using the battle tactician ability is now a swift action. This ability replaces the bonus feat gained at 12th level.",
 			"",
 			"**Bless Army (Su):** At 15th level, a divine commander can raise her holy symbol high and give a blessing to the army she is leading. The divine commander's army gains a +1 bonus to the army's OM and DV (Ultimate Campaign 235). This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast cure spells, and it is a profane bonus if the warpriest is evil-aligned or able to spontaneously cast inflict spells. Using this ability requires the divine commander to expend two uses of her fervor ability. This bonus lasts for 1 battle, and it must be performed during the tactics phase of the battle. If this is performed when a mass combat is not imminent, the fervor is spent without granting any bonus. This ability replaces the bonus feat gained at 15th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"feral_champion": {
 		"name": "Feral Champion",
@@ -186,8 +180,7 @@
 			"**Wild Shape (Su):** At 7th level, a feral champion gains wild shape, as the druid ability of the same name, and treats his warpriest level - 3 as his effective druid level for the purposes of this ability. However, a feral champion does not gain the ability to take on elemental or plant forms with wild shape. A feral champion can use wild shape once per day at 7th level and one additional time per day every 4 levels thereafter, for a total of four times per day at 19th level.",
 			"",
 			"This replaces sacred armor."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"fist_of_the_godclaw": {
 		"name": "Fist of the Godclaw",
@@ -219,8 +212,7 @@
 			"**Aspect of Law (Ex):** At 20th level, a fist of the Godclaw can channel an aspect of law, growing even more inflexible. Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR 20/chaotic, and becomes immune to mind-affecting effects. In addition, he can take the average result on any die roll instead of rolling normally. This ability lasts for 1 minute.",
 			"",
 			"This replaces aspect of war."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"forgepriest": {
 		"name": "Forgepriest",
@@ -244,8 +236,7 @@
 			"**Creator's Bond (Su):** At 4th level, when a forgepriest uses his sacred weapon ability with an item he created personally, he can expend two uses of his fervor ability to increase the bonus granted by 1. Once the forgepriest has the sacred armor ability, he can also use this ability in conjunction with that. This ability replaces channel energy.",
 			"",
 			"**Heat of the Forge (Su):** At 6th level, a forgepriest gains fire resistance 5. At 13th level, this resistance increases to 10. This ability replaces the bonus feat gained at 6th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"jistkan_magistrate": {
 		"name": "Jistkan Magistrate",
@@ -284,8 +275,7 @@
 			"| Earth | Acid |",
 			"| Fire | Fire |",
 			"| Water | Cold |"
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"liberty's_blade": {
 		"name": "Liberty's Blade",
@@ -303,8 +293,7 @@
 			"**Channel Liberty (Su):** At 4th level, when a liberty's blade channels energy to heal, the effects of his healing is halved, but all creatures affected by his healing instantly benefit as if from a liberating command spell at the liberty's blade's caster level. When channeling to harm, the liberty's blade harms devils as if using Alignment Channel instead of harming undead, and she deals double the normal amount of damage. This ability alters channel energy.",
 			"",
 			"**Shield Against Hellspawn (Su):** At 7th level, a liberty's blade adds devil-defiant to the list of enhancements that he can add to his sacred armor. This ability alters sacred armor."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"mantis_zealot": {
 		"name": "Mantis Zealot",
@@ -335,8 +324,7 @@
 			"**Aspect of the Mantis (Su):** At 20th level, when using aspect of war, instead of moving at full speed regardless of his armor or encumbrance, a mantis zealot deals a number of points of bleed damage equal to his Dexterity modifier with each attack.",
 			"",
 			"This ability alters aspect of war."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"molthuni_arsenal_chaplain": {
 		"name": "Molthuni Arsenal Chaplain",
@@ -362,8 +350,7 @@
 			"**Sacred Weapon (Su):** The base damage of a Molthuni arsenal chaplain's sacred weapon does not increase above 1d6. This alters sacred weapon.",
 			"",
 			"**Weapon Training (Ex):** At 5th level, a Molthuni arsenal chaplain gains weapon training as per the fighter class feature, but the benefits of this weapon training apply only to the his sacred weapons (weapons with which the warpriest has taken Weapon Focus). This ability replaces channel energy."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"proclaimer": {
 		"name": "Proclaimer",
@@ -385,8 +372,7 @@
 			"**Zone of Sanctification (Su):** At 4th level, when a proclaimer uses fervor to damage evil outsiders with his cleanser of evil ability, he can spend one additional use of fervor as a move action to create a zone of sanctification in the same area for 1 round. All evil outsiders in the zone when it becomes active must succeed at a Will saving throw (DC 10 + half the proclaimer's level + his Wisdom modifier) or be pushed back until they are out of the area. Evil outsiders that end their turns in the area take damage as if affected by cleanser of evil.",
 			"",
 			"This replaces channel energy."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"proselytizer": {
 		"name": "Proselytizer",
@@ -447,8 +433,7 @@
 			"| [Torag](faith/torag) | LG | Cavalier, fighter, paladin | Leader gains a +2 sacred bonus on Craft checks dealing with metal and on Profession (soldier) checks |",
 			"| [Urgathoa](faith/urgathoa) | NE | Cleric, witch, wizard | Leader gains a +1 profane bonus to caster level for disease and death effects |",
 			"| [Zon-Kuthon](faith/zon-kuthon) | LE | Alchemist, inquisitor, magus | Leader gains a +1 profane bonus to caster level for effects with the darkness or pain descriptor |"
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"sacred_fist": {
 		"name": "Sacred Fist",
@@ -478,8 +463,7 @@
 			"**Ki Pool (Su):** At 7th level, the sacred fist gains a ki pool. This functions as the monk class feature, using the sacred fist's level - 3 as his monk level when determining the number of points in his pool and bonuses granted to his unarmed strike. Additionally, the sacred fist can as a swift action spend 1 point from his ki pool to grant himself a +1 insight bonus to his AC for 1 minute. (This is in addition the normal ki ability to gain a dodge bonus to AC.) This insight bonus increases by 1 for every 3 levels above 7th (to a maximum of +5 at 19th level). This ability replaces sacred armor.",
 			"",
 			"**Miraculous Fortitude (Su):** At 9th level, the sacred fist's blessed fortitude ability improves. He still takes no damage or negative effect when he succeeds at a Fortitude save, but now when he fails a Fortitude saving throw against a spell or effect that deals damage (including ability damage and drain), he takes only half the amount of damage. A helpless sacred fist does not gain the benefit of miraculous fortitude. This ability replaces the bonus feat gained at 9th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"shieldbearer": {
 		"name": "Shieldbearer",
@@ -501,8 +485,7 @@
 			"**Sacred Shield (Su):** At 4th level, a shieldbearer gains the ability to enhance his shield with divine power as a swift action. This ability functions as the sacred armor ability, except as follows. This power grants the shield a +1 enhancement bonus (this bonus does not act as an attack or damage bonus when the shield is used in a shield bash). For every 4 warpriest levels beyond 4th, this bonus increases by 1 (to a maximum of +5 at 20th level). The shieldbearer can enhance a shield with any of the following armor special abilities (instead of those listed for sacred armor): arrow deflection, blinding, fortification (heavy, light, or moderate), reflecting, and spell resistance (13, 15, 17, and 19).",
 			"",
 			"**Channel Energy (Su):** The shieldbearer can channel energy only when carrying a shield, and the ability manifests as a 30-foot-cone burst, rather than as a radius."
-		],
-		"display": "archetype/warpriest"
+		]
 	},
 	"sixth_wing_bulwark": {
 		"name": "Sixth Wing Bulwark",
@@ -546,7 +529,6 @@
 			"**Reflexive Fortification (Su):** At 18th level, a Sixth Wing bulwark can use her sacred shield ability as an immediate action when she is attacked. Alternatively, she can use this ability as an immediate action when an ally within 30 feet is attacked to send her shield to protect that ally. She can use this ability even if she is surprised.",
 			"",
 			"This replaces the bonus feat gained at 18th level."
-		],
-		"display": "archetype/warpriest"
+		]
 	}
 }

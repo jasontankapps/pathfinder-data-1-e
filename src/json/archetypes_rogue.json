@@ -16,8 +16,7 @@
 			"**Rogue Talents:** The following rogue talents complement the acrobat archetype: expert leaper, ledge walker*, nimble climber, peerless maneuver, rogue crawl*, and stand up*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the acrobat archetype: defensive roll*, fast getaway, fast tumble, and improved evasion*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"bandit": {
 		"name": "Bandit",
@@ -35,8 +34,7 @@
 			"**Rogue Talents:** The following rogue talents complement the bandit archetype: assault leader, combat trick, cunning trigger, snap shot, strong impression, surprise attack, terrain master*, underhanded*, and weapon training.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the bandit archetype: hide in plain sight*, knock-out blow, and opportunist."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"bekyar_kidnapper": {
 		"name": "Bekyar Kidnapper",
@@ -54,8 +52,7 @@
 			"**Rogue Talents:** The following rogue talents complement the Bekyar kidnapper archetype: black market connections, camouflage, combat trick, rope master, survivalist, and terrain mastery.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the Bekyar kidnapper archetype: crippling strike, hide in plain sight, knock-out blow, rumormonger, and weapon snatcher."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"bellflower_irrigator": {
 		"name": "Bellflower Irrigator",
@@ -81,8 +78,7 @@
 			"**Irrigation (Ex):** At 8th level, if a Bellflower irrigator studies his target for 3 rounds (spending a standard action each round to do so) and then makes a sneak attack with a melee weapon that successfully deals damage, the attack has the additional effect of possibly either paralyzing or killing the target (Bellflower irrigator's choice). The death attack fails if the target detects the Bellflower irrigator or recognizes him as an enemy. If the victim of the attack fails a Fortitude save (DC = 10 + 1/2 the Bellflower irrigator's class level + the Bellflower irrigator's Intelligence modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per 2 rogue levels that the Bellflower irrigator has. If the victim's saving throw succeeds, the attack is just a normal sneak attack. Once the Bellflower irrigator has completed the 3 rounds of study, he must make the irrigation attempt within the next 3 rounds. A Bellflower irrigator can attempt to kill or paralyze a creature in this way once per day, plus one additional time per day for every 4 additional rogue levels he has after 8th.",
 			"",
 			"This ability replaces improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"burglar": {
 		"name": "Burglar",
@@ -100,8 +96,7 @@
 			"**Rogue Talents:** The following rogue talents complement the burglar archetype: fast picks, fast stealth*, nimble climber, quick disable*, and trap spotter*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the burglar archetype: knock-out blow, skill mastery*, and thoughtful reexamining."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"carnivalist": {
 		"name": "Carnivalist",
@@ -125,8 +120,7 @@
 			"**Sneak Attack (Ex):** A carnivalist gains this ability starting at 2nd level. The sneak attack damage dealt is 1d6 points at 2nd level, and increases by 1d6 points every 4 carnivalist levels thereafter. A carnivalist's familiar can also deal sneak attack damage as appropriate to foes as long as it is within 30 feet of her (though only Small and larger creatures may flank enemies, as usual).",
 			"",
 			"**Animal Trainer (Ex):** Starting at 3rd level, a carnivalist receives a bonus equal to 1/2 her rogue level whenever she uses Handle Animal on a Tiny or Small animal. In addition, she can increase the DC by 5 to reduce the time needed to teach an animal a new trick or train an animal for a general purpose to 1 day for every week normally required. She can also train more than one animal at once, although each animal after the first adds 2 to the DC. This ability replaces trap sense."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"cat_burglar": {
 		"name": "Cat Burglar",
@@ -144,8 +138,7 @@
 			"**Rogue Talents:** The following rogue talents complement the cat burglar archetype: fast stealth, quick disable ; convincing fakes, dodge trap ; fast picks terrain mastery .",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the cat burglar archetype: another day, fast tumble hide in plain sight ."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"chameleon": {
 		"name": "Chameleon",
@@ -163,8 +156,7 @@
 			"**Rogue Talents:** The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the chameleon archetype: hide in plain sight* and master of disguise."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"charlatan": {
 		"name": "Charlatan",
@@ -182,8 +174,7 @@
 			"**Rogue Talents:** The following rogue talents complement the charlatan archetype: black market connections*, coax information, cunning lie*, honeyed words, and underhanded*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the charlatan archetype: hard to fool*, skill mastery, and unwitting ally*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"consigliere": {
 		"name": "Consigliere",
@@ -217,8 +208,7 @@
 			"**Rogue Talents:** The following rogue talents complement the consigliere archetype: assault leader, black market connections, coax information, honeyed words (or certainty [Bluff ] for an unchained rogue), and shades of gray.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the consigliere archetype: hard minded, opportunist, redirect attack, rumormonger, skill mastery, slippery mind, and unwitting ally."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"construct_saboteur": {
 		"name": "Construct Saboteur",
@@ -252,8 +242,7 @@
 			"**Dismantling Strikes (Ex):** At 3rd level, a construct saboteur ignores the first 2 points of DR or hardness when attacking constructs. This value increases by 2 every 3 levels after 3rd, to a total of 12 points of DR or hardness ignored at level 18.",
 			"",
 			"This replaces trap sense."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"counterfeit_mage": {
 		"name": "Counterfeit Mage",
@@ -273,8 +262,7 @@
 			"**Rogue Talents:** The following rogue talents complement the counterfeit mage archetype: deft palm, esoteric scholar, honeyed words, major magic, minor magic, and trap spotter.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the counterfeit mage archetype: dispelling attack, familiar, and slippery mind."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"cutpurse": {
 		"name": "Cutpurse",
@@ -292,8 +280,7 @@
 			"**Rogue Talents:** The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast getaway, hard to fool, minor magic*, slow reactions*, and surprise attack*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the cutpurse archetype: crippling strike*, fast tumble, and skill mastery*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"dark_lurker": {
 		"name": "Dark Lurker",
@@ -317,8 +304,7 @@
 			"**Instinctual Sense (Ex):** At 20th level, a dark lurker gains blindsight with a range of 30 feet. This ability replaces the rogue talent gained at 20th level.",
 			"",
 			"**Rogue Talents:** The following rogue talents complement the dark lurker archetype: befuddling strike, fast getaway, fast stealth, opportunist, sniper's eye, and surprise attack."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"deadly_courtesan": {
 		"name": "Deadly Courtesan",
@@ -340,8 +326,7 @@
 			"**Rogue Talents:** The following rogue talents complement the deadly courtesan archetype: finesse rogue, stand up (Core Rulebook); charmer, coax information, fast fingers, honeyed words ; convincing lie, deft palm.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the deadly courtesan archetype: slippery mind (Core Rulebook); master of disguise ; rumormonger, unwitting ally."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"desert_raider": {
 		"name": "Desert Raider",
@@ -369,8 +354,7 @@
 			"**Rogue Talents:** The following rogue talents complement the desert raider archetype: fast stealth, getaway artist, ledge walker, rogue crawl, stand up, surprise attack.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the desert raider archetype: hide in plain sight, stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"discretion_specialist": {
 		"name": "Discretion Specialist",
@@ -408,8 +392,7 @@
 			"**Rogue Talents:** The following rogue talents complement this archetype: camouflage, charmer, convincing lie, honeyed words, and quick disguise.",
 			"",
 			"**Advanced Talents:** The following advanced talents complement this archetype: hide in plain sight and master of disguise."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"dreamthief": {
 		"name": "Dreamthief",
@@ -445,8 +428,7 @@
 			"**Dream Infiltrator (Sp):** A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast dream scan once per day as a spell-like ability. At 12th level, once per day she can cast either dream scan or dream travel as a spell-like ability. The caster level of these spell-like abilities is equal to her rogue level.",
 			"",
 			"This replaces improved uncanny dodge and the rogue talent gained at 12th level."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"driver": {
 		"name": "Driver",
@@ -464,8 +446,7 @@
 			"**Rogue Talents:** The following rogue talents complement the driver archetype: firearm training* and getaway artist*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the driver archetype: feat and getaway master*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"earthshadow": {
 		"name": "Earthshadow",
@@ -495,8 +476,7 @@
 			"**Rogue Talents:** The following rogue talents complement the earthshadow archetype: extra earthcraft (see below), favored terrain, fortified position (see below), major magic, minor magic, resiliency, and trap spotter.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the earthshadow archetype: against the wall (see below), dispelling attack, hide in plain sight, slippery mind, and stony skin (see below)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"eldritch_raider": {
 		"name": "Eldritch Raider",
@@ -524,8 +504,7 @@
 			"**Rogue Talents:** The following rogue talents complement the eldritch raider archetype: major magic, minor magic, quick disable, trap spotter (Core Rulebook); fast picks ; black market connections, esoteric scholar, ninja trick (slow metabolism, wall climber).",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the eldritch raider archetype: dispelling attack, improved evasion, slippery mind (Core Rulebook); major eldritch magic, minor eldritch magic; thoughtful reexamination ; familiar, hard to fool."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"eldritch_scoundrel": {
 		"name": "Eldritch Scoundrel",
@@ -551,8 +530,7 @@
 			"**Rogue Talents:** At 4th level and every 4 levels thereafter, the eldritch scoundrel gains a rogue or ninja talent for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared. At 12th level, she can select an advanced talent in place of a rogue talent. This modifies the normal rogue talent progression and advanced talent.",
 			"",
 			"**Uncanny Training:** An eldritch scoundrel does not gain uncanny dodge or improved uncanny dodge. Beginning at 4th level, she can take uncanny dodge instead of a rogue talent. Beginning at 12th level, the eldritch scoundrel can choose to take improved uncanny dodge in place of an advanced talent. This modifies uncanny dodge and improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"escapologist": {
 		"name": "Escapologist",
@@ -568,8 +546,7 @@
 			"**Unfettered Mind (Su):** At 3rd level, an escapologist can attempt an Escape Artist check as a full-round action to remove a mind-affecting effect currently affecting her. The DC of this check is equal to the effect's original save DC + 20. She cannot remove effects that do not allow a saving throw. She can attempt to escape even if paralyzed or restrained, as long as she can take purely mental actions. She can attempt this check against a particular effect once per round if the effect is measured in rounds, once per minute if the effect is measured in minutes, once per 10 minutes if the effect is measured in 10-minute intervals, and so on. This ability replaces uncanny dodge.",
 			"",
 			"**Impossible Escape (Su):** At 8th level, as an immediate action, an escapologist can attempt an Escape Artist check at a -10 penalty and apply the result in place of either a failed Reflex save or her AC against an attack that would have hit her. If she succeeds, her contortions let her avoid the attack or effect entirely. Using this ability leaves the escapologist staggered until the end of her next turn. If the escapologist can't become staggered, she can't use impossible escape. This ability replaces improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"false_medium": {
 		"name": "False Medium",
@@ -591,8 +568,7 @@
 			"**Rogue Talents:** The following rogue talents complement the false medium rogue archetype: esoteric scholar, fast fingers, honeyed words, major magic, minor magic, and quick trapsmith.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the false medium rogue archetype: feat, master of disguise, and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"fey_prankster": {
 		"name": "Fey Prankster",
@@ -628,8 +604,7 @@
 			"**Unseen Trickster:** At 12th level, the fey trickster can attempt Stealth checks in areas with plants even if he does not have cover or concealment.",
 			"",
 			"This replaces the rogue talent gained at 12th level."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"filcher": {
 		"name": "Filcher",
@@ -653,8 +628,7 @@
 			"**Rogue Talents:** The following rogue talents complement the filcher archetype: fast stealth, slow reactions; fast fingers, fast getaway ; black market connections, deft palm.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the filcher archetype: skill mastery; fast tumble ; weapon snatcher."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"galtan_agitator": {
 		"name": "Galtan Agitator",
@@ -688,8 +662,7 @@
 			"**Rogue Talents:** The following rogue talents complement the Galtan agitator archetype canny observer, coax information, follow clues, hard to fool, and strong impression.",
 			"",
 			"**Advanced Rogue Talents:** The following advanced rogue talents complement the Galtan agitator archetype: feat, thoughtful reexamining, and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"guerrilla": {
 		"name": "Guerrilla",
@@ -723,8 +696,7 @@
 			"**Rogue Talents:** The following rogue talents complement the guerrilla archetype camouflage, fast stealth, powerful sneak, rogue crawl, stand up, and surprise attack.",
 			"",
 			"**Advanced Rogue Talents:** The following advanced rogue talents complement the guerrilla archetype deadly sneak, master of disguise, stealthy sniper, and opportunist."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"guild_agent": {
 		"name": "Guild Agent",
@@ -754,8 +726,7 @@
 			"**Rogue Talents:** The following rogue talents complement the guild agent archetype: assault leader and getaway artist (as well as certainty for an unchained rogue).",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the guild agent archetype: getaway master, hunter's surprise, opportunist, rumormonger, and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"gun_smuggler": {
 		"name": "Gun Smuggler",
@@ -789,8 +760,7 @@
 			"**Uncanny Aim (Ex):** At 4th level, a gun smuggler increases the range increment of any coat pistol, dagger pistol, or sword cane pistol she wields by 10 feet. At 8th level, the base damage of bullets fired by these weapons increases by one die step.",
 			"",
 			"This replaces uncanny dodge and improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"heister": {
 		"name": "Heister",
@@ -816,8 +786,7 @@
 			"**Rogue Talents:** The following rogue talents complement the heister archetype: expert leaper, fast getaway, fast picks, fast stealth, getaway artist, ledge walker, and quick disable (as well as certainty for an unchained rogue).",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the heister archetype: fast tumble, getaway master, hidden mind, and skill mastery (as well as cutting edge for an unchained rogue)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"investigator": {
 		"name": "Investigator",
@@ -833,8 +802,7 @@
 			"**Rogue Talents:** The following rogue talents complement the investigator archetype: coax information, fast picks, follow clues, hard to fool, and minor magic*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the investigator archetype: hunter's surprise, slippery mind*, and thought reexamining."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"kintargo_rebel": {
 		"name": "Kintargo Rebel",
@@ -852,8 +820,7 @@
 			"**Rogue Talents:** The following rogue talents complement the Kintargo rebel archetype: canny observer, charmer, false friend, fast getaway, honeyed words, obfuscate story, and quick disguise.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the Kintargo rebel archetype: hard to fool, master of disguise, skill mastery, slippery mind, and thoughtful reexamining."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"kitsune_trickster": {
 		"name": "Kitsune Trickster",
@@ -871,8 +838,7 @@
 			"**Rogue Talents:** The following rogue talents complement the kitsune trickster archetype: major magic, minor magic (Core Rulebook); false friend, obfuscate story, steal the story (see below); charmer, coax information, honeyed words ; convincing lie.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the kitsune trickster archetype: skill mastery, slippery mind (Core Rulebook); master of disguise ; rumormonger."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"knife_master": {
 		"name": "Knife Master",
@@ -892,8 +858,7 @@
 			"**Rogue Talents:** The following rogue talents complement the knife master archetype: befuddling strike, combat trick, offensive defense, surprise attack, underhanded*, and weapon training.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the knife master archetype: another day, confounding blades*, deadly sneak, entanglement of blades, and unwitting ally*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"makeshift_scrapper": {
 		"name": "Makeshift Scrapper",
@@ -915,8 +880,7 @@
 			"**Rogue Talents/Ninja Tricks:** The following rogue talents and ninja tricks complement the makeshift scrapper archetype: acrobatic master, expert leaper, fast getaway, ki pool, offensive defense, peerless maneuver, and surprise attack.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the makeshift scrapper archetype: another day, defensive roll, fast getaway, and opportunist."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"master_of_disguise": {
 		"name": "Master of Disguise",
@@ -938,8 +902,7 @@
 			"**Rogue Talents:** The following rogue talents complement the master of disguise archetype: camouflage, false friend, major magic, minor magic, obfuscate story, shades of gray, and steal the story.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the master of disguise archetype: hard minded, hidden mind, skill mastery, slippery mind, and unwitting ally."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"nameless_shadow": {
 		"name": "Nameless Shadow",
@@ -959,8 +922,7 @@
 			"**Face in the Crowd (Ex):** At 4th level, so long as there are at least 10 other nonhostile creatures within 30 feet of her, a nameless shadow can use Bluff or Disguise in place of Stealth to hide or for sniping. At 8th level, she can use this ability to hide within a crowd even if she is being observed.",
 			"",
 			"This replaces the rogue talents gained at 4th and 8th levels."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"needler": {
 		"name": "Needler",
@@ -986,8 +948,7 @@
 			"**Concealed Delivery (Ex):** At 8th level, a needler learns how to deliver all types of poisons with subtlety. As a standard action, she can deliver an ingested or inhaled poison to a creature within reach by placing a dose of poison on the target's lips, on the target's neck, or through other similar contact with the target's skin as if the poison were a contact poison. Delivering poison in this way requires a successful Sleight of Hand check opposed by the target's Perception check. The poison is not lost on a failed check, but it must be successfully delivered within 1 minute of the first attempt, or it is wasted.",
 			"",
 			"This replaces improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"numerian_scavenger": {
 		"name": "Numerian Scavenger",
@@ -1003,8 +964,7 @@
 			"**Lucky Glitch (Ex):** Starting at 4th level, whenever a Numerian scavenger triggers a glitch when using a timeworn technological item, she rolls twice and can choose which of the two glitch effects actually occurs. A Numerian scavenger always adds her level to rolls to determine what kind of glitch occurs, and treats rolls of over 100 as 100. This ability replaces uncanny dodge.",
 			"",
 			"**Robot Slayer (Ex):** At 8th level, a Numerian scavenger knows just where to strike robots to incapacitate and disable them. When she deals sneak attack damage to a robot, she ignores all hardness that robot possesses. This ability replaces improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"okeno_liberator": {
 		"name": "Okeno Liberator",
@@ -1024,8 +984,7 @@
 			"**Rogue Talents:** The following rogue talents complement the Okeno liberator archetype: deft palm, fast picks, fast stealth, quick disguise, slow reactions, underhanded.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the Okeno liberator archetype: defensive roll, fast tumble, knock-out blow, skill mastery, weapon snatcher."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"phantom_thief": {
 		"name": "Phantom Thief",
@@ -1055,8 +1014,7 @@
 			"**Rogue Talents:** The following rogue talents complement the phantom thief archetype: combat trick, major magic, minor magic (as well as certainty for an unchained rogue).",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the phantom thief archetype: feat, hidden mind, rumormonger, and skill mastery (as well as cutting edge for an unchained rogue)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"pirate": {
 		"name": "Pirate",
@@ -1076,8 +1034,7 @@
 			"**Rogue Talents:** The following rogue talents complement the pirate archetype: black market connections*, combat trick, finesse rogue, firearm training*, hold breath*, rope master*, and strong stroke*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the pirate archetype: getaway master*, hard to fool*, and unwitting ally*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"planar_sneak": {
 		"name": "Planar Sneak",
@@ -1099,8 +1056,7 @@
 			"**Rogue Talents:** The following rogue talents complement the planar sneak archetype: guileful polyglot, strong stroke, terrain mastery.",
 			"",
 			"**Advanced Rogue Talents:** The following advanced rogue talents complement this archetype: defensive roll, hide in plain sight, and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"poisoner": {
 		"name": "Poisoner",
@@ -1118,8 +1074,7 @@
 			"**Rogue Talents:** The following rogue talents complement the poisoner archetype: distracting attack, lasting poison, surprise attack*, swift poison, and weapon training*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's surprise, and opportunist*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"rake": {
 		"name": "Rake",
@@ -1137,8 +1092,7 @@
 			"**Rogue Talents:** The following rogue talents complement the rake archetype: befuddling strike, charmer, honeyed words, and surprise attack*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the rake archetype: another day, redirect attack, and skill mastery*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"relic_raider": {
 		"name": "Relic Raider",
@@ -1160,8 +1114,7 @@
 			"Cursed Strike* (Su): Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell bestow curse). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier. A relic raider must have the major magic rogue talent before choosing cursed strike. The relic raider can use this ability an additional time per day at 15th level and 20th level.",
 			"",
 			"Etheric Strike* (Su): With a successful sneak attack against haunts or undead, the relic raider can deal her sneak attack damage as positive energy damage rather than physical damage. The additional damage affects undead that are normally immune to sneak attacks because of their lack of a discernible anatomy (such as ghosts). A relic raider can make an etheric strike a number of times per day equal to 3 + her Charisma modifier."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"river_rat": {
 		"name": "River Rat",
@@ -1192,8 +1145,7 @@
 			"**Rogue Talents:** The following rogue talents complement the river rat archetype: camouflage, hold breath, rogue crawl, stand up, strong stroke, survivalist.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the river rat archetype: hide in plain sight, opportunist, skill mastery, stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"roof_runner": {
 		"name": "Roof Runner",
@@ -1211,8 +1163,7 @@
 			"**Rogue Talents:** The following rogue talents complement the roof runner archetype: expert leaper, ledge walker, nimble climber, stand up, and terrain mastery*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talent complements the roof runner archetype: fast tumble."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"rotdrinker": {
 		"name": "Rotdrinker",
@@ -1236,8 +1187,7 @@
 			"Ingested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, lich dust provides a +2 bonus). An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker's damage rolls and Fortitude saving throws. An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker's attack rolls and Will saving throws. An ingested poison that does not affect any ability scores (such as oil of taggit) grants this bonus to the rotdrinker's AC. If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.",
 			"",
 			"This replaces improved uncanny dodge and uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sanctified_rogue": {
 		"name": "Sanctified Rogue",
@@ -1255,8 +1205,7 @@
 			"**Rogue Talents:** The following rogue talents complement the sanctified rogue archetype: esoteric scholar*, major magic, and minor magic.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the sanctified rogue archetype: feat and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sapper": {
 		"name": "Sapper",
@@ -1272,8 +1221,7 @@
 			"**Sapping (Ex):** At 2nd level, a sapper gains a +4 bonus on Perception or Disable Device checks to find or disable traps. She also grants a +4 bonus when using the aid another action to assist with Strength checks to lift gates, bend bars, or force open doors. However, the sapper is focused, so it takes her a full-round action to complete any aid another action. This ability replaces her 2nd-level rogue talent.",
 			"",
 			"**Fence (Ex):** At 4th level, a sapper loots a dungeon or other adventuring complex of its mundane goods and sells them to her various contacts. These mundane goods include things like brass fittings, stewpots, scrap metal, and so on. The sapper automatically loots this junk while in the dungeon, and must spend 24 uninterrupted hours selling the objects in town. She shares a portion of the proceeds with the adventurers; the amount typically equals 1d10 gp per sapper level per dungeon. This ability replaces her 4thlevel rogue talent."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"scout": {
 		"name": "Scout",
@@ -1291,8 +1239,7 @@
 			"**Rogue Talents:** The following rogue talents complement the scout archetype: assault leader, camouflage, cunning trigger, survivalist, and trap spotter*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the scout archetype: hunter's surprise, skill mastery*, and stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"scroll_scoundrel": {
 		"name": "Scroll Scoundrel",
@@ -1312,8 +1259,7 @@
 			"**Elusive Gambit (Ex):** At 6th level, a scroll scoundrel's movement can leave a foe off-balance. If a scroll scoundrel provokes an attack of opportunity by moving past an opponent and that opponent then misses with the attack, that foe is considered to be flat-footed against the scroll scoundrel's next melee attack, provided that melee attack comes within 1 round of the missed attack of opportunity. This ability replaces improved uncanny dodge.",
 			"",
 			"**Spot Weakness (Ex):** At 10th level, a scroll scoundrel can discover a weakness in his enemy's defenses as a swift action. His next successful hit in the same round ignores 5 points of the foe's damage reduction or hardness. At 15th level, he ignores the first 10 points, and at 20th level, the first 15 points. If the attack deals any sneak attack damage, he ignores all of the foe's damage reduction or hardness for that attack. He cannot use this ability on foes that are immune to critical hits. This ability replaces the scroll scoundrel's 10th-level rogue talent."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sczarni_swindler": {
 		"name": "Sczarni Swindler",
@@ -1337,8 +1283,7 @@
 			"**Rogue Talents:** The following rogue talents complement the Sczarni swindler archetype: canny observer, fast fingers, hard to fool, honeyed words, major magic, and minor magic.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the Sczarni swindler archetype: master of disguise, skill mastery, and slippery mind."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"seeker_of_the_lost": {
 		"name": "Seeker of the Lost",
@@ -1364,8 +1309,7 @@
 			"**Rogue Talents:** The following rogue talents complement the seeker of the lost archetype: canny observer, strong stroke, terrain mastery (water), and trap spotter.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the seeker of the lost archetype: defensive roll, dispelling attack, and hide in plain sight (water)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"shadow_scion": {
 		"name": "Shadow Scion",
@@ -1399,8 +1343,7 @@
 			"**Rogue Talents:** The following rogue talents complement the shadow scion archetype: false friend, fast stealth, slow reactions, surprise attack, and underhanded.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the shadow walker archetype: hide in plain sight, improved evasion, slippery mind, and unwitting ally."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"shadow_walker": {
 		"name": "Shadow Walker",
@@ -1426,8 +1369,7 @@
 			"**Rogue Talents:** The following rogue talents complement the shadow walker archetype: deft palm, gloom magic, greater gloom magic, obscuring blow, surprise attack, umbral gear.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the shadow walker archetype: hide in plain sight, see in darkness, slippery mind, unwitting ally, and weapon snatcher."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sharper": {
 		"name": "Sharper",
@@ -1457,8 +1399,7 @@
 			"**Rogue Talents:** The following rogue talents complement the sharper archetype: charmer, convincing lie, deft palm, false friend, fast fingers, follow along, honeyed words, obfuscate story, shades of gray, and steal the story (as well as certainty for an unchained rogue).",
 			"",
 			"**Advanced Talents:** The following advanced talents complement the sharper archetype: another day, defensive roll, hidden mind, improved evasion, redirect attack, and skill mastery (as well as cutting edge for an unchained rogue)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"skulking_slayer": {
 		"name": "Skulking Slayer",
@@ -1490,8 +1431,7 @@
 			"**Rogue Talents:** The following rogue talents complement the skulking slayer archetype: combat trick, surprise attack; combat swipe, powerful sneak; terrain mastery.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the skulking slayer archetype: crippling strike; deadly sneak; unwitting ally."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sly_saboteur": {
 		"name": "Sly Saboteur",
@@ -1523,8 +1463,7 @@
 			"**Rogue Talents:** The following rogue talents complement the sly saboteur archetype: cunning trigger, fast stealth, getaway artist, quick disable, quick trapsmith, rogue crawl, trap spotter, wall scramble.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the sly saboteur archetype: frugal trapsmith, hide in plain sight, knock-out blow, rumormonger, skill mastery, stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"smuggler": {
 		"name": "Smuggler",
@@ -1540,8 +1479,7 @@
 			"**Conceal Item:** A smuggler adds 1/2 her level on Sleight of Hand checks (minimum +1). A smuggler can use Sleight of Hand to conceal a small item in a container or room, such as the false bottom of a chest or beneath floorboards. Anyone attempting to find an item concealed by a smuggler makes a Perception check opposed by the Sleight of Hand check made by the smuggler when she concealed the object. This ability replaces trapfinding.",
 			"",
 			"**Distraction:** A smuggler uses patter and body language to deflect searchers from hidden items. At 2nd level, a smuggler may make a Bluff check opposed by a searcher's Perception check when a searcher looks for items the smuggler has concealed. If the smuggler's Bluff check succeeds, the searcher must make a second Perception check and take the lower of the two rolls. This ability replaces Evasion."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"snare_setter": {
 		"name": "Snare Setter",
@@ -1569,8 +1507,7 @@
 			"This ability replaces master strike.",
 			"",
 			"**Rogue Talents:** The following rogue talents complement **the snare setter archetype:** camouflage, cunning trigger, fast stealth, sniper's eye."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sniper": {
 		"name": "Sniper",
@@ -1588,8 +1525,7 @@
 			"**Rogue Talents:** The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye, and weapon training*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the sniper archetype: defensive roll*, master of disguise, and stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"snoop": {
 		"name": "Snoop",
@@ -1617,8 +1553,7 @@
 			"**Rogue Talents:** The following rogue talents complement the snoop archetype: black market connections, coax information, fast stealth, follow clues, and strong impression (as well as certainty for an unchained rogue).",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the snoop archetype: hard minded, hidden mind, skill mastery, and thoughtful re-examining (as well as cutting edge for an unchained rogue)."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"spy": {
 		"name": "Spy",
@@ -1636,8 +1571,7 @@
 			"**Rogue Talents:** The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed words, major magic*, minor magic*, and quick disguise.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the spy archetype: crippling strike*, master of disguise, and stealthy sniper."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"survivalist": {
 		"name": "Survivalist",
@@ -1655,8 +1589,7 @@
 			"**Rogue Talents:** The following rogue talents complement the survivalist archetype: hold breath*, iron guts*, resiliency, strong stroke*, survivalist, terrain mastery*, and wall scramble*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the survivalist archetype: another day, defensive roll, feat, and skill mastery."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"swamp_poisoner": {
 		"name": "Swamp Poisoner",
@@ -1682,8 +1615,7 @@
 			"The swamp poisoner also gains an extra use per day of his toxic skin alternate racial trait, plus one additional use per day for every 3 levels beyond 3rd.",
 			"",
 			"This replaces trap sense. An unchained rogue replaces danger sense instead."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"swashbuckler": {
 		"name": "Swashbuckler",
@@ -1701,8 +1633,7 @@
 			"**Rogue Talents:** The following rogue talents complement the swashbuckler archetype: offensive defense, positioning attack, powerful sneak, and weapon training*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the swashbuckler archetype: crippling strike*, entanglement of blades, and redirect attack."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"swordmaster": {
 		"name": "Swordmaster",
@@ -1736,8 +1667,7 @@
 			"**Rogue Talents:** The following rogue talents complement the swordmaster archetype: combat trick, stand up, surprise attack, weapon training ; befuddling strike, positioning strike.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the swordmaster archetype: crippling strike, defensive roll ; hunter's surprise, redirect attack confounding blade."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"sylvan_trickster": {
 		"name": "Sylvan Trickster",
@@ -1771,8 +1701,7 @@
 			"**Rogue Talents:** The following rogue talents complement the sylvan trickster archetype: camouflage, charmer, honeyed words, major magic, minor magic, survivalist, terrain mastery.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the sylvan trickster archetype: familiar, hide in plain sight."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"thug": {
 		"name": "Thug",
@@ -1790,8 +1719,7 @@
 			"**Rogue Talents:** The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong impression, and weapon training*.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the thug archetype: crippling strike*, deadly sneak, and knock-out blow."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"tidal_trickster": {
 		"name": "Tidal Trickster",
@@ -1813,8 +1741,7 @@
 			"**Tidal Distortion (Ex):** At 8th level, while making a full attack underwater, a tidal trickster can give up one attack to create a tidal distortion. When she creates a tidal distortion, the tidal trickster moves up to 10 feet. If any part of her movement includes a square adjacent to one or more foes, she can choose one of those foes and attempt a Bluff check with a DC of 11 + either the enemy's Sense Motive or Swim modifier, whichever is higher. Her Bluff check is subject to any penalties the attack roll she sacrificed would have taken, and if she trades an iterative attack gained from having a high base attack bonus, she also takes a penalty based on that attack's lower base attack bonus (a -5 penalty for the second iterative attack, a -10 penalty for the third iterative attack, and a -15 penalty for the fourth iterative attack, if she manages to gain one). If she succeeds at the Bluff check, the movement doesn't provoke an attack of opportunity from that foe and the foe becomes off-balance (see page 45) until its next turn. A tidal trickster can give up any number of her attacks in a given full attack to create tidal distortions, but she can't give up two consecutive attacks.",
 			"",
 			"This ability replaces improved uncanny dodge and the 8th-level rogue talent."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"toxic_talon": {
 		"name": "Toxic Talon",
@@ -1846,8 +1773,7 @@
 			"**Split Toxin (Su):** At 8th level, when a toxic talon uses catalyst to enhance poison as he applies it, he can envenom two ranged weapons or units of ammunition simultaneously with the same dose.",
 			"",
 			"This ability replaces the rogue's improved uncanny dodge."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"trapsmith": {
 		"name": "Trapsmith",
@@ -1865,8 +1791,7 @@
 			"**Rogue Talents:** The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger, quick disable*, and quick trapsmith.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the trapsmith archetype: another day, frugal trapsmith, and skill mastery*."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"underground_chemist": {
 		"name": "Underground Chemist",
@@ -1886,8 +1811,7 @@
 			"**Rogue Talents:** The following rogue talents complement the underground chemist archetype: black market connections, fast fingers, lasting poison, sniper's eye, and swift poison.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the underground chemist archetype: deadly cocktail and thoughtful reexamining."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"vexing_dodger": {
 		"name": "Vexing Dodger",
@@ -1909,8 +1833,7 @@
 			"**Distracting Climber (Ex):** At 8th level, when a vexing dodger attempts a dirty trick maneuver against a creature she's climbing, she gets a bonus on the combat maneuver check equal to the number of sneak attack dice she has. If she chooses to sicken the target with her dirty trick and succeeds at her combat maneuver check, the target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the vexing dodger's level + her Intelligence modifier) or be nauseated for 1 round. This ability replaces improved uncanny dodge.",
 			"",
 			"**Rogue Talents (Ex):** A vexing dodger can choose uncanny dodge as a rogue talent starting at 4th level, and she can choose improved uncanny dodge as an advanced rogue talent. The following talents complement the vexing dodger archetype: befuddling strike, confounding blades, peerless maneuver, positioning attack, slow reactions, wall scramble."
-		],
-		"display": "archetype/rogue"
+		]
 	},
 	"waylayer": {
 		"name": "Waylayer",
@@ -1934,7 +1857,6 @@
 			"**Rogue Talents:** The following rogue talents complement the waylayer archetype: camouflage, cunning trigger, quick trapsmith, slow reactions, surprise attack, and underhanded.",
 			"",
 			"**Advanced Talents:** The following advanced talents complement the waylayer archetype: entanglement of blades, hide in plain sight, knock-out blow, and weapon snatcher."
-		],
-		"display": "archetype/rogue"
+		]
 	}
 }

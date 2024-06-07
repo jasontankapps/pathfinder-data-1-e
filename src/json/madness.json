@@ -16,8 +16,7 @@
 			"**Dormancy Effect** The afflicted character takes a -2 penalty on Will saving throws against or to disbelieve illusions.",
 			"",
 			"Hallucinations can affect all of the senses, but some of the most potentially debilitating are auditory hallucinations, where the afflicted character hears voices talking in his head, and visual hallucinations, where the afflicted character sees things that aren't there. Most hallucinations are intermittent and produce a muddling of reality."
-		],
-		"display": "madness"
+		]
 	},
 	"mania": {
 		"name": "Mania",
@@ -38,8 +37,7 @@
 			"**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become fascinated by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can't be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn't be fascinated by that sword for 24 hours, but she might be fascinated by other swords).",
 			"",
 			"A mania is an irrational and unhealthy obsession with an object or activity. Nearly any object or activity can become the object of a mania, but often the object is either dangerous (like fire or deadly magic) or somewhat taboo (like the need to commit small thefts or engage in risky sexual behavior). The GM determines the exact nature of the mania, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group."
-		],
-		"display": "madness"
+		]
 	},
 	"melancholia": {
 		"name": "Melancholia",
@@ -57,8 +55,7 @@
 			"**Dormancy Effect** None",
 			"",
 			"A character suffering from melancholia struggles with severe pessimism and can often be slow to respond to threats and events going on around him. He can seem quiet and withdrawn, and his sense of enthusiasm is dulled. In extreme cases, a character suffering from melancholia becomes entirely introverted and utterly withdrawn, even to the point of near catatonia."
-		],
-		"display": "madness"
+		]
 	},
 	"phobia": {
 		"name": "Phobia",
@@ -79,8 +76,7 @@
 			"**Dormancy Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, that particular stimulus can't cause her to become shaken for 24 hours before having to attempt the saving throw again (for instance, if a character has a phobia of spiders and succeeds at her saving throw by 5 or more after seeing the wizard's spider familiar, she doesn't need to attempt another saving throw against the familiar for 24 hours, but she would still need to attempt a saving throw if she saw a different spider).",
 			"",
 			"A phobia is an irrational fear of an object or activity. Nearly any object or activity can become the focus of a phobia, but often the object is either very specific (like all spiders, no matter how big or small, or clowns) or something that could be hazardous in some situations (like heights or water) but could be made relativity safe with magical or mundane precautions. The GM determines the exact nature of the phobia, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group."
-		],
-		"display": "madness"
+		]
 	},
 	"delirium": {
 		"name": "Delirium",
@@ -98,8 +94,7 @@
 			"**Dormancy Effect** None",
 			"",
 			"A character suffering from delirium experiences decreased cognition and attention. Often she has no real sense of this decline, or feels extremely frustrated when she does realize her concentration is impaired. Physical diseases, poisons, and ailments can also cause delirium."
-		],
-		"display": "madness"
+		]
 	},
 	"delusion": {
 		"name": "Delusion",
@@ -119,8 +114,7 @@
 			"A delusion is the persistence of a belief that no amount of evidence to the contrary can dissuade the afflicted character from having. The belief is often that another specific person either loves or wants to harm the afflicted character, or the afflicted character may have an inflated view of his own abilities or importance. Sometimes the deluded character believes he suffers from an affliction or persecution that does not exist.",
 			"",
 			"The exact nature of the delusion is decided by the GM. Delusions are typically roleplayed, though a GM might apply penalties to skill and ability checks having to do with the delusion, or decide that such checks fail outright because of the character's delusion. In some circumstances, delusions can be debilitating, while in others they are merely quirky or annoying to those around the character."
-		],
-		"display": "madness"
+		]
 	},
 	"night_terrors": {
 		"name": "Night Terrors",
@@ -138,8 +132,7 @@
 			"**Dormancy Effect** None",
 			"",
 			"A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an exhausted character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors."
-		],
-		"display": "madness"
+		]
 	},
 	"paranoid": {
 		"name": "Paranoid",
@@ -160,8 +153,7 @@
 			"**Dormancy Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks.",
 			"",
 			"A paranoid character is convinced that the world and society are conspiring toward his ruin. Typically those afflicted with paranoia are fidgety, argumentative, sullen, or extremely introverted."
-		],
-		"display": "madness"
+		]
 	},
 	"fugue": {
 		"name": "Fugue",
@@ -179,8 +171,7 @@
 			"**Dormancy Effect** -2 penalty on Will saving throws",
 			"",
 			"A character suffering from a fugue cannot remember things; her name and her past are all equal mysteries. While the character can build new memories, she has trouble accessing those gained before she was inflicted with this madness. While a character in a fugue state can still speak and read any languages she knows and does not lose any of her skills, feats, or skill ranks, she does not remember how she learned such things, and is often surprised when using complex abilities."
-		],
-		"display": "madness"
+		]
 	},
 	"cognitive_block": {
 		"name": "Cognitive Block",
@@ -198,8 +189,7 @@
 			"**Dormancy Effect** The afflicted character takes a -4 penalty on concentration checks.",
 			"",
 			"This affliction deprives a character of his concentration and his ability to speak, read, and write, though he can understand words he hears and can react to requests and commands as normal."
-		],
-		"display": "madness"
+		]
 	},
 	"dissociated_identity": {
 		"name": "Dissociated Identity",
@@ -222,8 +212,7 @@
 			"This is a complicated affliction that manifests as two or more distinct and different personalities in the same mind. The number of personalities is up to the GM, as is the nature of the personalities. Should the affliction worsen in some way (such as by gaining dissociated identity again), the number of additional personalities might increase as well.",
 			"",
 			"Each morning upon waking and each time the afflicted character is revived from unconsciousness, she must succeed at a Will save, or one of the character's other personalities takes hold. If the afflicted character has more than one personality because of this madness, the manifested personality is either randomly chosen or chosen by the GM. If the afflicted character succeeds at all her saving throws against manifesting alternate personalities for 3 consecutive days, there is a 10% cumulative chance each night thereafter that another personality takes control during the character's sleep, returning to bed afterwards and leaving the character with less sleep than expected; if the afflicted character fails a saving throw, the cumulative chance resets. The afflicted character's memories, skills, and other abilities are unaffected by the personality shift, but typically the various personalities have no knowledge of each other and will deny, often violently, that the other personalities exist."
-		],
-		"display": "madness"
+		]
 	},
 	"psychosomatic_loss": {
 		"name": "Psychosomatic Loss",
@@ -241,8 +230,7 @@
 			"**Dormancy Effect** None",
 			"",
 			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as [remove blindness/deafness](spell/remove_blindness_deafness)) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
-		],
-		"display": "madness"
+		]
 	},
 	"amnesia": {
 		"name": "Amnesia",
@@ -265,8 +253,7 @@
 			"A character suffering from amnesia cannot remember things; his name, skills, and past are all equal mysteries. While the character can build new memories, he has trouble accessing those gained before he contracted amnesia. While a character with amnesia can still speak and read any languages he knows, and doesn't lose the most basic of skills needed to care for himself and interact within society, he cannot remember anything substantial about his past.",
 			"",
 			"A character with this affliction loses all class abilities, feats, and skill ranks gained before contracting amnesia. He retains his base attack bonus, saving throws bonuses (though he takes a -4 penalty on Will saves), CMB, CMD, total XP, Hit Dice, and hit points. If a character gains a character level while suffering from amnesia, he can use any abilities gained via that class level normally. If the class level he gained was of a class in which he already had levels, he initially gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class, and then progresses from there. When the amnesia is cured, the character regains the full abilities of the class; recalculate his level based on his total XP."
-		],
-		"display": "madness"
+		]
 	},
 	"moral_insanity": {
 		"name": "Moral Insanity",
@@ -287,8 +274,7 @@
 			"**Dormancy Effect** None",
 			"",
 			"This complex madness fills the afflicted character with hatred for the world and a detached feeling about others, as if they were nothing more than pawns for the afflicted character's own uses. A character afflicted by moral insanity might plot the demise of friends and enemies alike, but always with the goal of avoiding blame or consequences and enabling him to continue to feed his dark desires. The impact of moral insanity must be roleplayed, although not all players may find it fun or interesting to play such a character. In such cases, the GM should assume control of the character whenever the madness is dominant. Evil characters can't gain this madness."
-		],
-		"display": "madness"
+		]
 	},
 	"schizophrenia": {
 		"name": "Schizophrenia",
@@ -309,8 +295,7 @@
 			"**Dormancy Effect** cannot take 10 or take 20 on any check",
 			"",
 			"A character afflicted with schizophrenia can no longer function as he once did, dealing with sudden deficits in social skills and cognition, and an influx of new, strange behaviors. The character becomes erratic, chaotic, and unpredictable as his affliction and symptoms continue, often hitting a peak of symptoms including hallucinations and delusions. Each time a character afflicted with this madness finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become confused for 1d6 rounds."
-		],
-		"display": "madness"
+		]
 	},
 	"catatonia": {
 		"name": "Catatonia",
@@ -328,7 +313,6 @@
 			"**Dormancy Effect** The afflicted character is staggered.",
 			"",
 			"A character suffering from catatonia mentally shuts down completely, or nearly so, greatly limiting her physical capabilities as well. While a catatonic character still breathes, she can eat or drink without assistance only if the catatonia is dormant. If a catatonic character is faced with a dangerous situation, she must attempt a saving throw. If she succeeds, she acts as if panicked (though this is not a fear effect) until she is out of line of sight of the danger or is cornered. If she is cornered, she cowers again."
-		],
-		"display": "madness"
+		]
 	}
 }

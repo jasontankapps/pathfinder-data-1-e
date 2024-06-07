@@ -104,8 +104,7 @@
 			"You can suppress intrusive memories or thoughts.  ",
 			"**Gift:** As an immediate action once per day, when you are subjected to any compulsion effect that allows a saving throw, you can choose to reroll that saving throw after you roll but before you learn the results of your first roll. You can use this ability twice per day at manifestation level 4th, and three times per day at manifestation level 5th, but never more than once per saving throw attempt.  ",
 			"**Stain:** You become more vulnerable to mental influence from aberrations and take a -2 penalty on saving throws against compulsions from aberrations. You can still use your reroll ability against such saving throws, but the -2 penalty applies to all of your rolls."
-		],
-		"display": "corruption"
+		]
 	},
 	"accursed": {
 		"name": "Accursed",
@@ -208,8 +207,7 @@
 			"Like a fey or genie, you can twist another creature's wishes.  ",
 			"**Gift:** Once per day as a full-round action, you can duplicate the effect of a [witch spell](unknown/witch_spell) of a spell level lower than your manifestation level. This spell cannot have a material or focus component costing more than 1 gp or a casting time longer than 1 standard action. The spell's effect must fulfill, in part or in whole, a wish verbally stated by a humanoid creature you can hear (other than yourself).  ",
 			"**Stain:** If you cast or use a harmless spell or spell-like ability when you are in combat, you must succeed at a concentration check (DC = 20 + double the spell level) or lose the spell. This also applies to nonharmless spells you cast that target only allies. Additionally, you must attempt saves against your allies' spells and spell-like abilities, even if they are harmless."
-		],
-		"display": "corruption"
+		]
 	},
 	"amoral": {
 		"name": "Amoral",
@@ -315,8 +313,7 @@
 			"**Prerequisite:** Manifestation level 6th.  ",
 			"**Gift:** When you initiate combat against your allies, each one is staggered for the first normal round of combat.  ",
 			"**Stain:** You don't count other creatures as allies for the purposes of abilities and effects that don't directly target them (excluding the gift of this manifestation)."
-		],
-		"display": "corruption"
+		]
 	},
 	"deep_one": {
 		"name": "Deep One",
@@ -426,8 +423,7 @@
 			"**Gift:** You gain a +4 racial bonus on Swim checks (which doesn't stack with the +8 racial bonus from having a swim speed) and can take a 10 on Swim checks even while threatened. At manifestation level 3rd, you gain a swim speed equal to half your land speed. At manifestation level 5th, your swim speed is equal to your land speed.  ",
 			"If you are a [deep one hybrid](monster/deep_one_hybrid), you instead gain a +10-foot enhancement bonus to your swim speed. This increases to a +20-foot enhancement bonus at manifestation level 3rd and to a +30-foot enhancement bonus at manifestation level 5th.  ",
 			"**Stain:** You grow webbing between your fingers and toes and become dissatisfied with life on land. You take a -2 penalty on Dexterity- and Strength-based skill checks and ability checks while on land."
-		],
-		"display": "corruption"
+		]
 	},
 	"demonic": {
 		"name": "Demonic",
@@ -530,8 +526,7 @@
 			"**Prerequisite:** Manifestation level 7th, corrupted claws, demonic enhancement.  ",
 			"**Gift:** The damage caused by your corrupted claws increases as if you were one size larger. The threat range for your claws becomes 19-20. On a confirmed critical hit, a targeted creature must succeed at a Fortitude saving throw to resist becoming warped by your infusion of demonic energy. This inflicts 1d4 points of damage to a randomly determined ability score and causes the creature to be staggered for 1 round.  ",
 			"**Stain:** You take a -4 penalty on melee attack rolls with manufactured weapons and on Disable Device and Sleight of Hand checks. You have 5% spell failure chance on spells with a somatic or emotion component. This stacks with all other chances of spell failure."
-		],
-		"display": "corruption"
+		]
 	},
 	"ghoul": {
 		"name": "Ghoul",
@@ -646,8 +641,7 @@
 			"**Gift:** You exude an aura of decay. Creatures that begin their turns adjacent to you are sickened for 1d6 rounds unless they succeed at a Fortitude save. A creature that succeeds can't be affected by your stench again for 24 hours. At manifestation level 5th, this aura extends out to 10 feet.  ",
 			"**Stain:** The stench of decay you emit allows creatures with scent to notice you from twice the usual distance, and makes it extremely difficult to disguise yourself. Any living creatures that have a sense of smell have their starting attitudes toward you reduced by one step. Your supernatural scent is not affected by the [negate aroma](spell/negate_aroma) spell.  ",
 			"**Special:** Upon taking this manifestation, you must take both the gift and the stain, even with the useful corruption or vile corruption [variants](rule/variants)."
-		],
-		"display": "corruption"
+		]
 	},
 	"hellbound": {
 		"name": "Hellbound",
@@ -749,8 +743,7 @@
 			"Your soul feels the constant and increasing pull of Hell.  ",
 			"**Gift:** You gain a +2 bonus on saving throws against emotion and fear spells and effects. You are immune to spells and effects that would trap or destroy your soul except those employed by a devil. At manifestation level 3rd, the bonuses increase to +4.  ",
 			"**Stain:** You take a -2 penalty on saving throws against spells and effects that would possess you or control your actions. At manifestation level 3rd, the penalty changes to -4."
-		],
-		"display": "corruption"
+		]
 	},
 	"hive": {
 		"name": "Hive",
@@ -862,8 +855,7 @@
 			"Your gain some of a hive creature's resistance to acid.  ",
 			"**Gift:** You gain acid resistance 5. At manifestation level 5th, this acid resistance increases to 10.  ",
 			"**Stain:** The entirety of your flesh darkens and mutates to look more like that of a hive creature. You take a -2 penalty to your Charisma score."
-		],
-		"display": "corruption"
+		]
 	},
 	"lich": {
 		"name": "Lich",
@@ -966,8 +958,7 @@
 			"**Gift:** You can add one necromancy spell from the [sorcerer/wizard](unknown/wizard_sorcerer_spell_list) spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list. If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the [cleric](unknown/cleric_spell_list) or [witch](unknown/witch_spell_list) spell list instead.  ",
 			"**Stain:** You cast any spell from a school other than necromancy as though your caster level were 1 lower, which might prevent you from casting the spell altogether.  ",
 			"**Special:** You can gain this manifestation multiple times. Each time you gain the gift, you gain a different necromancy spell, and each time you gain the stain, the penalties stack."
-		],
-		"display": "corruption"
+		]
 	},
 	"lycanthropy": {
 		"name": "Lycanthropy",
@@ -1072,8 +1063,7 @@
 			"**Prerequisite:** Manifestation level 4th, shift form.  ",
 			"**Gift:** When you are shifted, you gain an amount of damage reduction equal to half your manifestation level. This DR is overcome by silver.  ",
 			"**Stain:** When you're not in your shifted form and you touch silver, including being struck by a silver weapon, you're sickened for 1 round. Immunities don't prevent this sickened condition, and you can't remove it early. You can try to hide this aversion with a Bluff check opposed by Sense Motive."
-		],
-		"display": "corruption"
+		]
 	},
 	"plagued": {
 		"name": "Plagued",
@@ -1177,8 +1167,7 @@
 			"**Prerequisite:** Manifestation level 7th, infectious thoughts, miserable company.  ",
 			"**Gift:** As a move action, for as long as you concentrate, you can borrow the senses of any creature suffering from a disease effect you created, as long as the creature is within range of your infectious thoughts. Your body is effectively blind and deaf while you concentrate. The target can resist this intrusion with a successful Will saving throw. At manifestation level 9th, you can possess one such victim as per [possession](spell/possession) once per day as a standard action while you are already sharing its senses.  ",
 			"**Stain:** Your senses falter. You take a -4 penalty on Perception checks and Sense Motive checks while you are not using theft of awareness."
-		],
-		"display": "corruption"
+		]
 	},
 	"possessed": {
 		"name": "Possessed",
@@ -1282,8 +1271,7 @@
 			"**Prerequisite:** Unrestrained.  ",
 			"**Gift:** You can use [feather fall](spell/feather_fall) and [jump](spell/jump) at will as spell-like abilities. You can give the possessing spirit 1 point of influence over you to use [levitate](spell/levitate) or [spider climb](spell/spider_climb) as a spell-like ability. In all cases, your caster level is equal to your character level and the spell-like ability can target only you.  ",
 			"**Stain:** You take a -4 penalty on saving throws and to your CMD against attacks and effects that would move or trip you, as well as on all combat maneuver checks except those made to escape a grapple. At manifestation level 3rd, the penalty changes to -6."
-		],
-		"display": "corruption"
+		]
 	},
 	"promethean": {
 		"name": "Promethean",
@@ -1400,8 +1388,7 @@
 			"**Prerequisite:** Corruption Stage 1 or 2.  ",
 			"**Gift:** Your dulled emotions are more difficult to affect with magic. You gain a +2 bonus on Will saves against emotion effects, and if you have this manifestation's stain, you don't need to roll twice and take the lower result against them. This doesn't apply to emotion effects that cause rage, hatred, or anger. At manifestation level 5th, this bonus increases to +4.  ",
 			"**Stain:** Now easy to manipulate, you roll twice and take the lower result against compulsion effects."
-		],
-		"display": "corruption"
+		]
 	},
 	"psychometabolic": {
 		"name": "Psychometabolic",
@@ -1495,8 +1482,7 @@
 			"**Prerequisite:** Manifestation level 2nd.  ",
 			"**Gift:** You gain the [force ward](kinetic/force_ward) defense wild talent. Use your kineticist level or your manifestation level (whichever is higher) as your effective kineticist level to determine the effects of these abilities. You can spend 1 point of psychometabolic power to enhance your force ward as if you had accepted a point of burn. If you already have the force ward defense wild talent, this gift has no effect.  ",
 			"**Stain:** You reflexes become sluggish. You take a -1 penalty on your AC and on Reflex saving throws."
-		],
-		"display": "corruption"
+		]
 	},
 	"shadowbound": {
 		"name": "Shadowbound",
@@ -1600,8 +1586,7 @@
 			"**Prerequisite:** Eerie perception.  ",
 			"**Gift:** Whenever you deal weapon damage to a creature that you are flanking or a creature that is denied its Dexterity bonus to its AC against you, you can inflict a painful wound as an immediate action. The target must succeed at a Fortitude saving throw or be nauseated by pain for 1 round. If the target succeeds at the save, it is sickened for 1 round and becomes immune to your further uses of this ability for 24 hours.  ",
 			"**Stain:** Your eyes turn a milky white, utter black, or pale yellow, making you appear blind although you can see normally in most circumstances. You gain [light blindness](umr/light_blindness), causing you to be blinded for 1 round whenever you are exposed to daylight or another source of bright light and dazzled for as long as you remain in bright light thereafter."
-		],
-		"display": "corruption"
+		]
 	},
 	"vampirism": {
 		"name": "Vampirism",
@@ -1703,7 +1688,6 @@
 			"**Prerequisite:** Manifestation level 2nd.  ",
 			"**Gift:** You gain Dodge as a bonus feat and a +2 racial bonus on Stealth checks. At manifestation level 6th, you can climb walls (as per [spider climb](spell/spider_climb)) at will.  ",
 			"**Stain:** You can enter a private dwelling only if invited in by someone with the authority to do so, unless you succeed at a DC 30 Will save. If you fail, you can never retry the save, but you can enter if you're later invited inside."
-		],
-		"display": "corruption"
+		]
 	}
 }

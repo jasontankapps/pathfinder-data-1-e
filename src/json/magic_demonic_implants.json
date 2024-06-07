@@ -17,8 +17,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), blindness/deafness, charm person, doom, see invisibility; **Cost** 3,500 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"brazen_hooves": {
 		"name": "Brazen Hooves",
@@ -39,8 +38,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, wall of fire; **Cost** 7,500 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"crown_of_horns": {
 		"name": "Crown of Horns",
@@ -59,8 +57,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), [protection from law](spell/protection_from_law); **Cost** 10,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demon_blood": {
 		"name": "Demon Blood",
@@ -82,8 +79,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), desecrate; **Cost** 400 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demon_heart": {
 		"name": "Demon Heart",
@@ -102,8 +98,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), remove fear, stabilize; **Cost** 3,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demon_senses": {
 		"name": "Demon Senses",
@@ -122,8 +117,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), limited wish, regenerate; **Cost** 10,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demon_talon": {
 		"name": "Demon Talon",
@@ -142,8 +136,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), limited wish, regenerate; **Cost** 10,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demon_tongue": {
 		"name": "Demon Tongue",
@@ -162,8 +155,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), detect poison, eagle's splendor; **Cost** 5,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"demonhide": {
 		"name": "Demonhide",
@@ -182,8 +174,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), barkskin, delay poison, resist energy; **Cost** 10,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"splintered_mind": {
 		"name": "Splintered Mind",
@@ -204,8 +195,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), confusion, misdirection; **Cost** 8,000 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	},
 	"wicked_wings": {
 		"name": "Wicked Wings",
@@ -224,7 +214,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 27,500 gp"
-		],
-		"display": "magic/demonic_implants"
+		]
 	}
 }

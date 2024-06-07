@@ -84,8 +84,7 @@
 			"**10 Ranks**: You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD against trip maneuvers. You can also attempt an Acrobatics check at a -10 penalty in place of a Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10 feet shorter for every 10 by which you exceed the DC.  ",
 			"**15 Ranks**: You do not provoke attacks of opportunity when standing up from prone.  ",
 			"**20 Ranks**: You double the result of any Acrobatics check when jumping and never fall prone at the end of a fall as long as you remain conscious."
-		],
-		"display": "skill"
+		]
 	},
 	"appraise": {
 		"name": "Appraise",
@@ -138,8 +137,7 @@
 			"**10 Ranks**: You can determine the most expensive object a creature is wearing or wielding (or in a 5-foot cube) as a standard action by succeeding at a DC 20 check. You never make a wildly inaccurate appraisal of an item's value.  ",
 			"**15 Ranks**: Determining the most expensive object as above is a move action. You can substitute an Appraise check at a -10 penalty for a Will save to disbelieve a figment or glamer.  ",
 			"**20 Ranks**: Determining the most expensive object as above is a move action, and if the check succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm a creature of that object for 1 minute."
-		],
-		"display": "skill"
+		]
 	},
 	"artistry_any": {
 		"name": "Artistry (any)",
@@ -194,8 +192,7 @@
 			"**Action**: Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.",
 			"",
 			"**Try Again**: Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0."
-		],
-		"display": "skill"
+		]
 	},
 	"artistry": {
 		"copyof": "artistry_any"
@@ -265,8 +262,7 @@
 			"**10 Ranks**: You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.  ",
 			"**15 Ranks**: Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff ) or the effect reveals nothing.  ",
 			"**20 Ranks**: As a full-round action, you can make a [suggestion](spell/suggestion) (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your [suggestion](spell/suggestion) is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion."
-		],
-		"display": "skill"
+		]
 	},
 	"climb": {
 		"name": "Climb",
@@ -334,8 +330,7 @@
 			"**10 Ranks**: You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10 feet, but only on surfaces with a Climb DC of 20 or lower.  ",
 			"**15 Ranks**: You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to your base speed on surfaces with a Climb DC of 20 or lower, and of 10 feet on all other surfaces.  ",
 			"**20 Ranks**: You gain a natural climb speed equal to your base speed on all surfaces. If you have both hands free, you gain a +8 racial bonus on Climb checks."
-		],
-		"display": "skill"
+		]
 	},
 	"craft_any": {
 		"name": "Craft (any)",
@@ -483,8 +478,7 @@
 			"**10 Ranks**: You do not ruin any of your raw materials unless you fail a check by 10 or more.  ",
 			"**15 Ranks**: When you determine your progress, the result of your check is how much work you complete each day in silver pieces.  ",
 			"**20 Ranks**: You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules."
-		],
-		"display": "skill"
+		]
 	},
 	"craft": {
 		"copyof": "craft_any"
@@ -582,8 +576,7 @@
 			"**10 Ranks**: You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.  ",
 			"**15 Ranks**: You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days, not hours. You can gather information in 10 minutes by taking a -5 penalty.  ",
 			"**20 Ranks**: You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty."
-		],
-		"display": "skill"
+		]
 	},
 	"disable_device": {
 		"name": "Disable Device",
@@ -662,8 +655,7 @@
 			"**10 Ranks**: You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a [symbol](spell/symbol)). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.  ",
 			"**15 Ranks**: When attacked by a trap, you can attempt a Disable Device check as an immediate action (adding your trap sense bonus, if any) opposed by the trap's attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC by at least 10).  ",
 			"**20 Ranks**: You halve the penalties for performing a quick disarm as described in the 5 Ranks entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an immediate action before it can trigger if you exceed the DC by at least 10."
-		],
-		"display": "skill"
+		]
 	},
 	"disguise": {
 		"name": "Disguise",
@@ -728,8 +720,7 @@
 			"**10 Ranks**: You can create a disguise in 1d3 rounds. If you take the full normal amount of time to create your disguise, you take no penalty for disguising your gender, race, or age category.  ",
 			"**15 Ranks**: You can create a disguise as a full-round action.  ",
 			"**20 Ranks**: You can create a disguise as a standard action, or as a full-round action combined with a Bluff check to create a diversion to hide."
-		],
-		"display": "skill"
+		]
 	},
 	"escape_artist": {
 		"name": "Escape Artist",
@@ -781,8 +772,7 @@
 			"**10 Ranks**: You can attempt to escape from any entangling effect as a standard action with an Escape Artist check (DC = the effect's save DC + 10). You can attempt an Escape Artist check as a move action to set the DC for a creature to escape from ropes or bindings; you gain a +10 bonus on the check if you instead attempt it as a full-round action.  ",
 			"**15 Ranks**: You can escape any entangling effect (as above) as a move action. As a standard action, you can attempt an Escape Artist check (DC = the effect's save DC + 20) to suppress a slow or paralysis effect for 1 round, plus 1 round for every 5 by which you exceed the DC. This action counts as purely mental for the purpose of being able to take it while paralyzed.  ",
 			"**20 Ranks**: You can escape being entangled, grappled, or pinned as an immediate action with an Escape Artist check (DC = the effect's DC + 10 or the attacker's CMB + 10). You can attempt to suppress a slow or paralysis effect as a standard action (increasing the DC by 10), a move action (increasing the DC by 15), or an immediate action (increasing the DC by 20)."
-		],
-		"display": "skill"
+		]
 	},
 	"fly": {
 		"name": "Fly",
@@ -850,8 +840,7 @@
 			"**10 Ranks**: A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed. You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus 10 feet for every 10 points by which you exceed the DC.  ",
 			"**15 Ranks**: A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing movement, or a 180-degree turn by sacrificing 5 feet of movement. You are considered one size category larger when determining wind effects on Fly checks.  ",
 			"**20 Ranks**: A successful DC 35 Fly check allows you to fly straight up at full speed. You are considered two size categories larger when determining wind effects on Fly checks."
-		],
-		"display": "skill"
+		]
 	},
 	"handle_animal": {
 		"name": "Handle Animal",
@@ -1087,8 +1076,7 @@
 			"**10 Ranks**: Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.  ",
 			"**15 Ranks**: You can train an animal to understand your speech (as speak with animals) with 1 week of effort and a successful DC 30 Handle Animal check. Its actions are still limited by its Intelligence. You can teach a trick in 1 day (increasing the DC by 10) or 1 hour (increasing the DC by 20).  ",
 			"**20 Ranks**: You can make your speech understandable to any animal for 24 hours with a successful DC 30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1 hour (increasing the DC by 10), or 1 minute (increasing the DC by 20)."
-		],
-		"display": "skill"
+		]
 	},
 	"heal": {
 		"name": "Heal",
@@ -1204,8 +1192,7 @@
 			"**10 Ranks**: When you treat deadly wounds, the target recovers hit points as if it had rested for a full day with long-term care.  ",
 			"**15 Ranks**: When you treat deadly wounds, the creature recovers hit point and ability damage as if it had rested for 3 days.  ",
 			"**20 Ranks**: When you treat deadly wounds, the target recovers hit point and ability damage as if it had rested for 3 days with long-term care."
-		],
-		"display": "skill"
+		]
 	},
 	"intimidate": {
 		"name": "Intimidate",
@@ -1261,8 +1248,7 @@
 			"**10 Ranks**: If you exceed the DC to demoralize a target by at least 10, it is panicked for 1 round or frightened for 1d4 rounds (your choice) and shaken thereafter.&ast; A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or panicked condition, but the target is still shaken, even if it has the stalwart ability.  ",
 			"**15 Ranks**: If you exceed the DC to demoralize a target by at least 20, it is cowering for 1 round or panicked for 1d4 rounds (your choice) and frightened thereafter.&ast; A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering, panicked, and frightened conditions, but the target is still shaken, even if it has the stalwart ability.  ",
 			"**20 Ranks**: If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter.&ast; A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the stalwart ability."
-		],
-		"display": "skill"
+		]
 	},
 	"knowledge_arcana": {
 		"name": "Knowledge (arcana)",
@@ -1372,8 +1358,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"arcana": {
 		"copyof": "knowledge_arcana"
@@ -1436,8 +1421,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"dungeoneering": {
 		"copyof": "knowledge_dungeoneering"
@@ -1506,8 +1490,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"engineering": {
 		"copyof": "knowledge_engineering"
@@ -1576,8 +1559,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"geography": {
 		"copyof": "knowledge_geography"
@@ -1638,8 +1620,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"history": {
 		"copyof": "knowledge_history"
@@ -1719,8 +1700,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"local": {
 		"copyof": "knowledge_local"
@@ -1799,8 +1779,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"nature": {
 		"copyof": "knowledge_nature"
@@ -1875,8 +1854,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"nobility": {
 		"copyof": "knowledge_nobility"
@@ -1938,8 +1916,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"planes": {
 		"copyof": "knowledge_planes"
@@ -2017,8 +1994,7 @@
 			"**10 Ranks**: When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.  ",
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"religion": {
 		"copyof": "knowledge_religion"
@@ -2127,8 +2103,7 @@
 			"**10 Ranks**: If you succeed at a Linguistics check by at least 10 when examining writing, you can learn the precise meaning rather than general content, and you never draw false conclusions on a failed check. A successful DC 30 Linguistics check reveals the general meaning of speech, a successful DC 35 check reveals 1d4 pieces of specific information, and a successful DC 40 check reveals exact meaning.  ",
 			"**15 Ranks**: You can decipher magical writings (as [read magic](spell/read_magic)) by succeeding at a Linguistics check (DC = 25 + caster level). If you identify a written magical trap in this way, you gain a +2 circumstance bonus on Disable Device checks to disarm it.  ",
 			"**20 Ranks**: You can attempt to decipher magical or nonmagical text at a rate of one page per round. If you instead spend 1 minute per page, roll twice and take the better result."
-		],
-		"display": "skill"
+		]
 	},
 	"lore_any": {
 		"name": "Lore (any)",
@@ -2178,8 +2153,7 @@
 			"| Tattoos | Art |",
 			"",
 			"**Bards**: Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill."
-		],
-		"display": "skill"
+		]
 	},
 	"lore": {
 		"copyof": "lore_any"
@@ -2288,8 +2262,7 @@
 			"**10 Ranks**: The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible creature or object.  ",
 			"**15 Ranks**: You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping doesn't apply to you. The distance modifier on the DC of your Perception checks is reduced to +1 per 40 feet.  ",
 			"**20 Ranks**: You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet."
-		],
-		"display": "skill"
+		]
 	},
 	"perform_any": {
 		"name": "Perform (any)",
@@ -2347,8 +2320,7 @@
 			"**10 Ranks**: Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 25 Perform check to increase the save DC by 1.  ",
 			"**15 Ranks**: Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 30 Perform check to increase your caster level by 1. You must choose whether to use this ability or the ability unlocked at 10 ranks when casting the spell.  ",
 			"**20 Ranks**: Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check."
-		],
-		"display": "skill"
+		]
 	},
 	"perform": {
 		"copyof": "perform_any"
@@ -2412,8 +2384,7 @@
 			"**10 Ranks**: When attempting Profession checks, you can roll twice and take the better result. When answering questions about your Profession, you can always take 10.  ",
 			"**15 Ranks**: You can attempt checks to earn income once per day instead of once per week.  ",
 			"**20 Ranks**: When attempting Profession checks, you can choose to roll once instead of twice. If you do and the result of the roll is less than 10, replace it with 10. When answering questions about your Profession, you can always take 20."
-		],
-		"display": "skill"
+		]
 	},
 	"profession": {
 		"copyof": "profession_any"
@@ -2484,8 +2455,7 @@
 			"**10 Ranks**: When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on Reflex saves and a +2 dodge bonus to AC.  ",
 			"**15 Ranks**: When an opponent targets you or your mount with a bull rush, drag, overrun, reposition, or trip combat maneuver while you are mounted, you can substitute the result of a Ride check in place of your (or your mount's) CMD.  ",
 			"**20 Ranks**: When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on Reflex saves and a +4 dodge bonus to AC."
-		],
-		"display": "skill"
+		]
 	},
 	"sense_motive": {
 		"name": "Sense Motive",
@@ -2559,8 +2529,7 @@
 			"**10 Ranks**: After 1 minute of conversation, you can read a creature's surface thoughts (as [detect thoughts](spell/detect_thoughts)) by attempting a Sense Motive check at a -20 penalty opposed by the creature's Bluff check.  ",
 			"**15 Ranks**: You can read surface thoughts as above after 1 round. In addition, when attacked, you can attempt a Sense Motive check as an immediate action opposed by your target's attack roll. A successful check grants a +2 insight bonus to your AC against attacks from that specific opponent for 1 minute.  ",
 			"**20 Ranks**: You can read surface thoughts as above as a standard action. A successful check to gain an insight bonus to your AC also negates the attack that triggered it."
-		],
-		"display": "skill"
+		]
 	},
 	"sleight_of_hand": {
 		"name": "Sleight of Hand",
@@ -2620,8 +2589,7 @@
 			"**10 Ranks**: The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon) as a move action is reduced to -10.  ",
 			"**15 Ranks**: You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a swift action at a -20 penalty.  ",
 			"**20 Ranks**: You take no penalty for using Sleight of Hand as a move action, and take only a -10 penalty when using it as a swift action."
-		],
-		"display": "skill"
+		]
 	},
 	"spellcraft": {
 		"name": "Spellcraft",
@@ -2681,8 +2649,7 @@
 			"**10 Ranks**: You can identify magic items without using [detect magic](spell/detect_magic), though the DC is increased by 10.  ",
 			"**15 Ranks**: Identifying magic items is a standard action, and the time required to learn a new spell from a spellbook is reduced to 1 minute per spell level.  ",
 			"**20 Ranks**: Whenever you attempt a caster level check, attempt a Spellcraft check at a -20 penalty at the same DC. If the spellcraft check succeeds, you gain a +2 circumstance bonus on your caster level check."
-		],
-		"display": "skill"
+		]
 	},
 	"stealth": {
 		"name": "Stealth",
@@ -2726,8 +2693,7 @@
 			"**10 Ranks**: Stealth check penalties for moving quickly are halved, including the ability unlocked at 5 ranks, moving full speed, and reaching concealment after creating a distraction.  ",
 			"**15 Ranks**: If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the end of your turn.  ",
 			"**20 Ranks**: If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn."
-		],
-		"display": "skill"
+		]
 	},
 	"survival": {
 		"name": "Survival",
@@ -2945,8 +2911,7 @@
 			"**10 Ranks**: You can track creatures that leave no tracks, including flying and swimming creatures and creatures using trackless step or pass without trace, taking a -20 penalty on your Survival check.  ",
 			"**15 Ranks**: Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants you cold resistance or fire resistance 5 for 24 hours. You can share this with one ally for every 5 by which you exceeded the check.  ",
 			"**20 Ranks**: You take only a -10 penalty when tracking creatures that leave no tracks."
-		],
-		"display": "skill"
+		]
 	},
 	"swim": {
 		"name": "Swim",
@@ -2992,8 +2957,7 @@
 			"**10 Ranks**: You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks) equal to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.  ",
 			"**15 Ranks**: You ignore the penalties for using slashing or bludgeoning weapons underwater, as [freedom of movement](spell/freedom_of_movement).  ",
 			"**20 Ranks**: You gain a swim speed equal to your base speed in all water. If you have both hands free, you gain a +8 racial bonus on Swim checks."
-		],
-		"display": "skill"
+		]
 	},
 	"use_magic_device": {
 		"name": "Use Magic Device",
@@ -3073,7 +3037,6 @@
 			"**10 Ranks**: If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic Device checks with that item for 24 hours instead of being unable to activate it. This penalty stacks with itself.  ",
 			"**15 Ranks**: You can use this skill to emulate two races or two alignments simultaneously.  ",
 			"**20 Ranks**: If you roll a natural 1 when activating an item, you can reroll the check at a -10 penalty to activate the item. You must take the result of the second check, even if it is worse, and you can't reroll it again."
-		],
-		"display": "skill"
+		]
 	}
 }

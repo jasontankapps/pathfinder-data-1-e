@@ -20,8 +20,7 @@
 			"- Proficient with its natural weapons. If generally humanoid in form, proficient with all simple weapons and any weapon it is described as using.",
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Aberrations not indicated as wearing armor are not proficient with armor. Aberrations are proficient with shields if they are proficient with any form of armor.",
 			"- Aberrations breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"animal": {
 		"name": "animal",
@@ -46,8 +45,7 @@
 			"- Proficient with its natural weapons only. A noncombative herbivore treats its natural weapons as secondary attacks. Such attacks are made with a -5 penalty on the creature's attack rolls, and the animal receives only 1/2 its Strength modifier as a damage adjustment.",
 			"- Proficient with no armor unless trained for war. (See FAQs and Handle Animal Skill.)",
 			"- Animals breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"construct": {
 		"name": "construct",
@@ -91,8 +89,7 @@
 			"| Huge | 40 |",
 			"| Gargantuan | 60 |",
 			"| Colossal | 80 |"
-		],
-		"display": "monstertype"
+		]
 	},
 	"dragon": {
 		"name": "dragon",
@@ -115,8 +112,7 @@
 			"- Proficient with its natural weapons only unless humanoid in form (or capable of assuming humanoid form), in which case proficient with all simple weapons and any weapons mentioned in its entry.",
 			"- Proficient with no armor.",
 			"- Dragons breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"fey": {
 		"name": "fey",
@@ -138,8 +134,7 @@
 			"- Proficient with all simple weapons and any weapons mentioned in its entry.",
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Fey not indicated as wearing armor are not proficient with armor. Fey are proficient with shields if they are proficient with any form of armor.",
 			"- Fey breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"humanoid": {
 		"name": "humanoid",
@@ -162,8 +157,7 @@
 			"- Proficient with all simple weapons, or by character class.",
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, or by character class. If a humanoid does not have a class and wears armor, it is proficient with that type of armor and all lighter types. Humanoids not indicated as wearing armor are not proficient with armor. Humanoids are proficient with shields if they are proficient with any form of armor.",
 			"- Humanoids breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"magical_beast": {
 		"name": "magical beast",
@@ -186,8 +180,7 @@
 			"- Proficient with its natural weapons only.",
 			"- Proficient with no armor.",
 			"- Magical beasts breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"monstrous_humanoid": {
 		"name": "monstrous humanoid",
@@ -209,8 +202,7 @@
 			"- Proficient with all simple weapons and any weapons mentioned in its entry.",
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Monstrous humanoids not indicated as wearing armor are not proficient with armor. Monstrous humanoids are proficient with shields if they are proficient with any form of armor.",
 			"- Monstrous humanoids breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"ooze": {
 		"name": "ooze",
@@ -236,8 +228,7 @@
 			"- Proficient with its natural weapons only.",
 			"- Proficient with no armor.",
 			"- Oozes eat and breathe, but do not sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"outsider": {
 		"name": "outsider",
@@ -260,8 +251,7 @@
 			"- Proficient with all simple and martial weapons and any weapons mentioned in its entry.",
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.",
 			"- Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). Native outsiders breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"plant": {
 		"name": "plant",
@@ -285,8 +275,7 @@
 			"- Proficient with its natural weapons only.",
 			"- Not proficient with armor.",
 			"- Plants breathe and eat, but do not sleep."
-		],
-		"display": "monstertype"
+		]
 	},
 	"undead": {
 		"name": "undead",
@@ -327,8 +316,7 @@
 			"- Undead are invariably evil, as are the means to create such beings.",
 			"- Undead are healed by negative energy and harmed by positive energy.",
 			"- Undead are immune to numerous magical effects, including mind-affecting effects and abilities that affect a creature's physical constitution."
-		],
-		"display": "monstertype"
+		]
 	},
 	"vermin": {
 		"name": "vermin",
@@ -351,7 +339,6 @@
 			"- Proficient with its natural weapons only.",
 			"- Proficient with no armor.",
 			"- Vermin breathe, eat, and sleep."
-		],
-		"display": "monstertype"
+		]
 	}
 }

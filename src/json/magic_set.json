@@ -25,8 +25,7 @@
 			"**Four-Item Benefit:** While you are wearing or wielding at least four pieces of this set, you gain one additional 4th-level spell slot for one arcane spellcasting class you have levels in.",
 			"",
 			"**Five-Item Benefit:** While you are wearing and wielding all five pieces of this set, you gain one additional 5th-level spell slot for one arcane spellcasting class you have levels in."
-		],
-		"display": "magic/set"
+		]
 	},
 	"aroden's_array": {
 		"name": "Aroden's Array",
@@ -53,8 +52,7 @@
 			"**Four-Item Benefit:** While you are wearing or wielding at least four pieces of this set, you gain a +4 circumstance bonus on Will saving throws against fear effects.",
 			"",
 			"**Five-Item Benefit:** When wearing and wielding all five pieces of this set, once per day as an immediate action you can maximize the effects of a single healing effect targeting you, treating all dice rolled as part of the effect as though they had rolled the maximum possible value."
-		],
-		"display": "magic/set"
+		]
 	},
 	"beastmaster's_will": {
 		"name": "Beastmaster's Will",
@@ -77,8 +75,7 @@
 			"**Three-Item Benefit:** When wearing at least three pieces of this set, you can cast [beast shape II](spell/beast_shape_2) once per day as a spell-like ability, treating your character level as your caster level.",
 			"",
 			"**Four-Item Benefit:** When wearing all four pieces of this set, you gain the [animal focus](unknown/animal_focus) class feature with an effective hunter level equal to your character level - 4. You can only use this ability on yourself in 1-minute increments and not an any animal companion you may have. The animal focus class feature you gain from this equipment set is separate of that from any other source."
-		],
-		"display": "magic/set"
+		]
 	},
 	"besmara's_bounty": {
 		"name": "Besmara's Bounty",
@@ -105,8 +102,7 @@
 			"**Four-Item Benefit:** While you are wearing or wielding at least four pieces of this set, you gain a +10-foot enhancement bonus to your swim speed if you have one.",
 			"",
 			"**Five-Item Benefit:** While you are wearing and wielding all five pieces of this set, the enhancement bonus to your swim speed (if any) increases to +20."
-		],
-		"display": "magic/set"
+		]
 	},
 	"dread_demonic_armor": {
 		"name": "Dread Demonic Armor",
@@ -133,8 +129,7 @@
 			"**Four-Item Benefit:** While you are wearing at least four pieces of this set, the granted fire resistance increases to 10.",
 			"",
 			"**Five-Item Benefit:** While you are wearing all five pieces of this set, you gain immunity to fire damage."
-		],
-		"display": "magic/set"
+		]
 	},
 	"irori's_meditation": {
 		"name": "Irori's Meditation",
@@ -153,8 +148,7 @@
 			"**Two-Item Benefit:** When wearing at least two pieces of this set, you gain a +4 insight bonus to CMD.",
 			"",
 			"**Three-Item Benefit:** When wearing all three pieces of this set, your base speed increases by 10 feet."
-		],
-		"display": "magic/set"
+		]
 	},
 	"pharasma's_command": {
 		"name": "Pharasma's Command",
@@ -181,8 +175,7 @@
 			"**Four-Item Benefit:** When wearing or wielding at least four pieces of this set, the circumstance bonuses on saving throws to resist death effects and energy drain increase to +2.",
 			"",
 			"**Five-Item Benefit:** When wearing and wielding all five pieces of this set, you gain immunity to death effects."
-		],
-		"display": "magic/set"
+		]
 	},
 	"urgathoa's_gluttony": {
 		"name": "Urgathoa's Gluttony",
@@ -209,7 +202,6 @@
 			"**Four-Item Benefit:** While you are wearing or wielding at least four pieces of this set, you gain a +1 profane bonus on attack rolls.",
 			"",
 			"**Five-Item Benefit:** While you are wearing and wielding all five pieces of this set, you are imbued with the powers of undeath and react to negative and positive energy as though you were undead; you are healed by negative energy and harmed by positive energy."
-		],
-		"display": "magic/set"
+		]
 	}
 }

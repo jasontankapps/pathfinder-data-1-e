@@ -21,8 +21,7 @@
 			"**First Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for [sending](spell/sending), the eye of Aroden for [death ward](spell/death_ward), and the onyx for [wall of stone](spell/wall_of_stone).",
 			"",
 			"**Second Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for [mass suggestion](spell/mass_suggestion), the eye of Aroden for [disrupting weapon](spell/disrupting_weapon), and the onyx for [transmute rock to mud](spell/transmute_rock_to_mud)."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"belt_of_the_last_wall": {
 		"name": "Belt of the Last Wall",
@@ -45,8 +44,7 @@
 			"**Task** To be worthy of this relic, you must successfully prevent an innocent from being slain by a creature whose CR is at least 3 greater than your total level or Hit Dice (whichever is higher). For this task, an innocent is any creature whose Hit Dice is equal to or less than half your Hit Dice. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
 			"**Benefit** The Belt of the Last Wall's enhancement bonus increases to +4, and the damage reduction it provides increases to DR 2/adamantine. In addition, whenever an ally within 60 feet is attacked, the wearer can rip a shield free from the belt as an immediate action to grant that ally the benefits of [shield other](spell/shield_other) for 1 minute. This ability can be used 3 times; to regain a use, the wearer must affix a new shield worth at least 50 gp to the Belt of the Last Wall. Only one shield can be affixed to the Belt of the Last Wall per day."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"dignity's_barb": {
 		"name": "Dignity's Barb",
@@ -73,8 +71,7 @@
 			"**Fourth Triumph:** Dignity's Barb is a +3 seeking darkwood light crossbow. Its wielder can use its ability to roll twice to confirm a critical hit at will.",
 			"",
 			"**Fifth Triumph:** Dignity's Barb is a +4 seeking darkwood light crossbow. At the start of each day, the crossbow's owner rolls a d20, rerolling any results of 1, 19, or 20 and recording the final result. For the rest of that day, when the owner rolls the recorded number on an attack roll with Dignity's Barb, the attack roll is a critical threat. This has no benefit for anyone other than the owner who rolled at the start of the day."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"envoy_ring": {
 		"name": "Envoy Ring",
@@ -101,8 +98,7 @@
 			"**Fourth Triumph:** The ring's competence bonus on Diplomacy, Linguistics, and Perform checks is +5.",
 			"",
 			"**Fifth Triumph:** The wearer can use [mass suggestion](spell/mass_suggestion) (DC 24) once per day."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"grace_of_the_last_azlanti": {
 		"name": "Grace of the Last Azlanti",
@@ -125,8 +121,7 @@
 			"**Task** To be worthy of this relic, you must accomplish an incredible deed with the express purpose of defending humanity from enslavement, harm, or a similar threat. For example, defeating a lieutenant of the [Whispering Tyrant](monster/whispering_tyrant) whose CR is equal to or greater than your level + 3 is an appropriate task. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
 			"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding [Expanded Arcana](feat/expanded_arcana) to the list as well as all feats with \"Extra\" in their name-such as [Extra Channel](feat/extra_channel), [Extra Rage Power](feat/extra_rage_power), [Extra Rogue Talent](feat/extra_rogue_talent), and so on- that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"jalnesin's_broken_bonds": {
 		"name": "Jalnesin's Broken Bonds",
@@ -149,8 +144,7 @@
 			"**Task** To be worthy of this relic, you must free at least a dozen enslaved or unjustly imprisoned innocents. For the purpose of this task, an innocent is any creature who was imprisoned without due process or whom you have proven innocent of any crime. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
 			"**Benefit** The weapon gains the [holy](magic/enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"koriana's_blade": {
 		"name": "Koriana's Blade",
@@ -177,8 +171,7 @@
 			"**Third Triumph:** Another randomly chosen gem repairs itself. The wielder of the sword gains a +1 insight bonus on all saving throws against effects of any type corresponding to one of the sword's functioning gems.",
 			"",
 			"**Fourth Triumph:** Koriana's Blade is a +4 defending longsword. The final gem repairs itself."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"lance_of_the_leaping_lion": {
 		"name": "Lance of the Leaping Lion",
@@ -201,8 +194,7 @@
 			"**Task** To be worthy of this relic, you must earn the trust and respect of a magical beast with an Intelligence of 3 or higher whose CR is no less than your level + 3. The magical beast must offer you a token of its respect out of gratitude alone, which must be affixed to the weapon's hilt.",
 			"",
 			"**Benefit** The lance's enhancement bonus increases to +4. Whenever you critically hit an opponent with the relic, it unleashes a burst of sonic energy in a 30-foot cone, originating from your square. Creatures within this area take 2d10 points of sonic damage (Fortitude DC 22 half). Undead creatures within this area instead take 4d10 points of sonic damage."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"ovetrian's_plate": {
 		"name": "Ovetrian's Plate",
@@ -223,8 +215,7 @@
 			"**First Triumph:** Ovetrian's Plate is +4 [rallying](magic/armor/rallying) full plate. A creature demoralized by the armor's ability is frightened for the first round of the effect's duration and is then shaken as normal for the rest of the duration (if any). Three times per day, the wearer of the armor can touch an adjacent ally as a standard action to affect that ally with either [break enchantment](spell/break_enchantment) or [greater heroism](spell/greater_heroism). This ability can't be used more than once every 10 minutes.",
 			"",
 			"**Second Triumph:** Ovetrian's Plate is +5 [rallying](magic/armor/rallying) full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"scion's_dagger": {
 		"name": "Scion's Dagger",
@@ -249,8 +240,7 @@
 			"**Second Triumph:** Scion's Dagger is a +4 [ghost touch](magic/enhancement/ghost_touch_weapon) mithral dagger. Once per day as a swift action, the wielder can gain DR 1/- and fast healing 3 for 1 minute.",
 			"",
 			"**Third Triumph:** Scion's Dagger is a +5 [ghost touch](magic/enhancement/ghost_touch_weapon) mithral dagger. When the wielder hits a humanoid with the dagger, she can activate the dagger as an immediate action to use [dominate person](spell/dominate_person) on the creature (DC 23) with a duration of 1 round. After the domination ends, the target is immune to this effect for 24 hours."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"standard_of_conquest": {
 		"name": "Standard of Conquest",
@@ -275,8 +265,7 @@
 			"**Second Triumph:** When the standard bearer calls for a battle charge, each affected creature gains a fly speed of 30 feet for 1 minute. The standard bearer can call for a battle charge twice per day.",
 			"",
 			"**Third Triumph:** The standard bearer and allies within 60 feet who can see the standard gain a +1 morale bonus on attack rolls. When the standard bearer calls for a battle charge, each affected creature is also affected by [greater heroism](spell/greater_heroism) with a duration of 1 minute."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"subtle_mask": {
 		"name": "Subtle Mask",
@@ -301,8 +290,7 @@
 			"**Third Triumph:** The mask's enhancement bonus to Charisma is +4.",
 			"",
 			"**Fourth Triumph:** The mask's enhancement bonus to Charisma is +6. When the wearer mentally activates the mask, she also detects whether the target is lying throughout the concentration, as per [discern lies](spell/discern_lies) (DC 22). Once per day, the wearer can speak a command word to use [true seeing](spell/true_seeing)."
-		],
-		"display": "magic/relics"
+		]
 	},
 	"taldaris's_bequeathal": {
 		"name": "Taldaris's Bequeathal",
@@ -325,7 +313,6 @@
 			"**Task** To be worthy of this relic, you must earn [Iomedae's](faith/iomedae) blessing by performing a miraculous act of heroic righteousness worthy of inclusion among the Acts of Iomedae, as determined by the GM, and you must perform this act while wearing the relic.",
 			"",
 			"**Benefit** The armor's enhancement bonus increases to +3, it gains the [determination](magic/armor/determination) armor special ability, and it gains the [defiant](magic/armor/defiant) armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a [dire lion](monster/dire_lion), as [beast shape II](spell/beast_shape_2). This is a spell-like ability that uses the armor's caster level."
-		],
-		"display": "magic/relics"
+		]
 	}
 }

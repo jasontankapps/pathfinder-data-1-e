@@ -22,8 +22,7 @@
 			"**Attract Rats:** At 6th level, the animal speaker can use bardic performance to summon 1d3 rat swarms; they remain as long as he continues performing. At 11th level, he summons 2d3 swarms instead of 1d3 and the swarms have the advanced creature simple template. At 17th level, the number of swarms he summons increases to 3d3. This ability replaces suggestion.",
 			"",
 			"**Summon Nature's Ally:** At 1st level, the animal speaker adds [summon nature's ally I](spell/summon_nature's_ally_1) to his bard spell list and bard spells known as a 1st-level spell. At 4th level (when he gains access to 2nd-level spells) he adds [summon nature's ally II](spell/summon_nature's_ally_2) to his spell list and spells known as a 2nd-level spell, and so on every 3 levels thereafter, until 16th level when he adds [summon nature's ally VI](spell/summon_nature's_ally_6) to his 6th-level spell list and spells known. This replaces mass suggestion"
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"arcane_duelist": {
 		"name": "Arcane Duelist",
@@ -49,8 +48,7 @@
 			"**Arcane Bond (Ex):** At 5th level, an arcane duelist gains the [arcane bond ability as a wizard](class/wizard), using a weapon as his bonded item, allowing him to cast any one addition spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master.",
 			"",
 			"**Arcane Armor (Ex):** At 10th level, an arcane duelist gains Medium Armor Proficiency and can cast bard spells in medium armor with no chance of arcane spell failure. At 16th level, he gains Heavy Armor Proficiency and can cast bard spells in heavy armor with no arcane spell failure. This ability replaces jack of all trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"arcane_healer": {
 		"name": "Arcane Healer",
@@ -64,8 +62,7 @@
 			"**Channel Energy (Su):** At 2nd level, an arcane healer gains the ability to [channel positive energy as a cleric](class/channel_positive_energy_as_a_cleric) of one level lower than his level. If a creature within the channeled energy's area of effect would be allowed a save against its effects, the DC is equal to 10 + 1/2 the arcane healer's level + the arcane healer's Charisma modifier. An arcane healer can use this ability once per day at 2nd level, gaining an additional use per day every four levels thereafter (6th, 10th, 14th, and 18th), to a maximum of 5 times per day at 18th level. This ability replaces versatile performance.",
 			"",
 			"**Inspiring Healing (Sp):** At 5th level, an arcane healer gains the ability to expend rounds of his bardic performance to provide extra healing to his allies. By expending 2 rounds of bardic performance, an arcane healer can cast [cure light wounds](spell/cure_light_wounds) as a spell-like ability. At 11th level, the arcane healer can expend 2 rounds of bardic performance to cast [cure moderate wounds](spell/cure_moderate_wounds) as a spell-like ability. At 17th level, he may instead expend 2 rounds of bardic performance to cast [cure serious wounds](spell/cure_serious_wounds) as a spell-like ability. No single target may be affected by an arcane healer's inspiring healing ability more than once in a 24-hour period. This ability replaces loremaster."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"archaeologist": {
 		"name": "Archaeologist",
@@ -91,8 +88,7 @@
 			"**Evasion (Ex):** At 6th level, an archaeologist gains [evasion, as the rogue ability of the same name](class/rogue).",
 			"",
 			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an [advanced rogue talent](unknown/advanced_rogue_talent) in place of a rogue talent."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"archivist": {
 		"name": "Archivist",
@@ -118,8 +114,7 @@
 			"**Jack-of-All-Trades (Ex):** At 5th level, an archivist can use any skill, even if the skill normally requires him to be trained. At 11th level, he considers all skills to be class skills, and at 17th level he can take 10 on any skill check, even if it is not normally allowed. This ability replaces lore master.",
 			"",
 			"**Probable Path (Ex):** At 10th level, an archivist can calculate the action likely to bring success with the least risk. Once per day, he can take 10 on any d20 roll. He may use this ability one additional time per day for every three levels after 10th. This ability replaces jack of all trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"argent_voice": {
 		"name": "Argent Voice",
@@ -151,8 +146,7 @@
 			"**Dedicated Performance (Ex):** An argent voice can call upon the training of the Chelish opera to influence and scrutinize his foes. At 2nd level, an argent voice must choose Perform (sing) as his versatile performance skill. At 6th level, the argent voice gains a bonus on Perform (sing) checks made as part of a versatile performance equal to the number of additional Perform skills in which he has the maximum number of ranks possible at his level. This bonus increases by 1 per maximized Perform skill at 10th level and every four levels thereafter, to a maximum of a +4 bonus per fully ranked Perform skill other than Perform (sing) at 18th level.",
 			"",
 			"This alters versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"arrowsong_minstrel": {
 		"name": "Arrowsong Minstrel",
@@ -180,8 +174,7 @@
 			"At 18th level, an Arrowsong minstrel using a multiple-target spell with this ability can deliver one ray or line of effect with each attack when using a full-attack action, up to the maximum allowed by the spell (in the case of ray effects). Any effects not used in the round the spell is cast are lost.",
 			"",
 			"This ability replaces suggestion and mass suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"averaka_arbiter": {
 		"name": "Averaka Arbiter",
@@ -199,8 +192,7 @@
 			"**Ritual of Reconciliation (Su):** An Averaka arbiter of 8th level or higher can use his performance to improve the attitudes of nearby creatures by two steps. To be affected, a creature must be within 30 feet and able to hear the bard. Creatures whose attitude toward the bard becomes indifferent or better immediately cease attacking the bard and his allies, but may otherwise act as they please. The effect persists for as long as the creature is within 30 feet and the bard continues his performance. The effect ends if one of the bard's allies attacks the creature. A successful Will saving throw (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) negates the effect. Ritual of reconciliation relies on audible components. This performance replaces dirge of doom.",
 			"",
 			"**Versatile Teamwork (Ex):** At 2nd level, an Averaka arbiter gains a bonus [teamwork feat](unknown/teamwork_feat). He gains an additional bonus teamwork feat at 6th level and every 4 levels thereafter. This ability replaces versatile performance and well-versed."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"brazen_deceiver": {
 		"name": "Brazen Deceiver",
@@ -230,8 +222,7 @@
 			"**Devil's Tongue (Ex):** At 5th level, a brazen deceiver beguiles others with astonishing skill. This functions as the lore master ability, but its effects apply to Bluff checks instead of Knowledge skill checks.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"buccaneer": {
 		"name": "Buccaneer",
@@ -251,8 +242,7 @@
 			"**Knock Out (Ex):** At 5th level, a buccaneer may focus his blows in an attempt to knock out an opponent. Once per day as a swift action, the buccaneer can choose one target to attempt to knock out. The buccaneer adds his Charisma bonus (if any) on his attack roll and adds his buccaneer level on any nonlethal damage rolls made against the target. The bonus lasts until the buccaneer deals nonlethal damage to his target or until the buccaneer chooses a new target to attempt to knock out. He can use this ability one additional time per day for every six levels he possesses beyond 5th, to a maximum of three times per day at 17th level. This ability replaces lore master.",
 			"",
 			"**Mass Song of Surrender (Su):** This ability functions just like song of surrender but allows a buccaneer of 16th level or higher to affect all enemies within 30 feet. Enemies within range of this effect still receive a saving throw. Mass song of surrender is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components. This ability replaces mass suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"busker": {
 		"name": "Busker",
@@ -282,8 +272,7 @@
 			"**Impossible Sleight of Hand (Su):** At 15th level, a busker can store items in or retrieve them from a personal extradimensional space with a maximum capacity of 8,000 cubic feet and 8,000 pounds as a busker stunt. The item may be sent from or called to his hand or any place it fits on his person. He can access the extradimensional space only to store or retrieve a single object at a time; to retrieve or store an object larger than Fine size, the busker must expend 1 additional round of busker stunts for each size category larger than Fine. This stunt is instantaneous and must be activated again each time the busker wishes to use it. The extradimensional space empties its contents within the busker's space if he dies.",
 			"",
 			"**Flexible Performer (Ex):** A busker can attempt Acrobatics, Disguise, Sleight of Hand, and Stealth checks to earn money instead of Perform checks. He can use his Bluff modifier in place of his Diplomacy modifier on Diplomacy checks."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"celebrity": {
 		"name": "Celebrity",
@@ -305,8 +294,7 @@
 			"**Gather Crowd (Ex):** At 5th level, the celebrity is skilled at drawing an audience to his performances. If he is in a settlement or populated area, he can shout, sing, or otherwise make himself noticed in order to attract an audience to his impromptu stage. The size of the crowd depends on the local population, but typically is a number of people equal to 1/2 the bard's class level &times; the result of the bard's Perform check. The crowd gathers over the next 1d10 rounds. If the bard fails to engage the crowd (such as by performing, kissing babies, trying to use fascinate, and so on), it disperses over the next 1d10 rounds. This ability replaces lore master.",
 			"",
 			"**Shining Star (Su):** At 8th level, the celebrity has learned how to focus attention on himself so thoroughly that even the presence of danger does not distract his adoring crowd. When using fascinate, a target making a save to break the effect because of a potential threat takes a -4 penalty on that save, and even obvious threats require a save rather than automatically breaking the effect. Creatures affected by the bard's fascinate ability ignore the shaken condition. The ability replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"chelish_diva": {
 		"name": "Chelish Diva",
@@ -334,8 +322,7 @@
 			"Although the diva can only direct the effect at one creature at a time, its effects persist for as long as she continues the performance, even if directed at a different creature. For example, she could direct her tirade at an innkeeper, who becomes frightened, then focus her wrath on the captain of the guard, and the innkeeper remains frightened for 1d4 more rounds even though her attention is no longer directed at him.",
 			"",
 			"This performance cannot cause a creature to become panicked, even if the target is already frightened from another effect. Scathing tirade is a mind-affecting fear effect, and it relies on audible and visual components. This performance replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"chronicler_of_worlds": {
 		"name": "Chronicler of Worlds",
@@ -371,8 +358,7 @@
 			"**Scrivener's Versatility (Ex):** A chronicler of worlds seeks to emulate history's greatest scribe; studying the lore of Tabris grants insight into widely varying subjects, from anatomy to discourse. At 2nd level, a chronicler of worlds selects a skill from the following list: Bluff, Diplomacy, Disable Device, Heal, Intimidate, Profession (scribe), Sense Motive, or Survival. When attempting skill checks of that type, a chronicler can use her Linguistics skill bonus in place of her bonus with the chosen skill. At 6th level and every 4 levels thereafter, a chronicler of worlds selects an additional skill to gain this benefit.",
 			"",
 			"This replaces versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"court_bard": {
 		"name": "Court Bard",
@@ -396,8 +382,7 @@
 			"**Heraldic Expertise (Ex):** A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1). Once per day, the court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge.",
 			"",
 			"**Wide Audience (Su):** At 5th level, a court bard can choose to affect a 60-foot cone instead of a 30-foot radius with bardic performances that affect an area. In addition, for every five levels beyond 5th, the area of such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects multiple creatures, it affects one additional creature than normal for every five levels beyond 5th. This does not affect powers that affect only a single creature. This ability replaces lore master and jack of all trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"court_fool": {
 		"name": "Court Fool",
@@ -425,8 +410,7 @@
 			"**Caper and Jeer (Ex):** At 5th level, a court fool can take 10 on Acrobatics and Bluff checks, even when in danger or distracted, and can use Bluff to create a diversion to hide (as per the Stealth skill) as a swift action. He can take 20 on an Acrobatics or Bluff check once per day, plus one time per 6 levels beyond 5th, even when in danger or distracted.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"cultivator": {
 		"name": "Cultivator",
@@ -458,8 +442,7 @@
 			"**Nature Lore (Ex):** At 5th level, the cultivator gains the lore master bard ability, except he can use it only on Knowledge (nature) checks and Survival checks to track creatures in natural environments.",
 			"",
 			"This alters lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"daredevil": {
 		"name": "Daredevil",
@@ -481,8 +464,7 @@
 			"**Dauntless (Ex):** At 2nd level, a daredevil gains a +1 morale bonus on saving throws against mind-affecting effects, including all fear effects. This bonus increases by +1 for every four levels gained after 2nd level, to a maximum of +5 at 18th level. This ability replaces well-versed.",
 			"",
 			"**Scoundrel's Fortune (Ex):** At 5th level, once per day a daredevil can choose to roll two dice instead of one for any skill check, keeping the best result. She can use this ability one additional time per day for every three levels she possesses beyond 5th, to a maximum of eight times per day at 20th level. This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dawnflower_dervish": {
 		"name": "Dawnflower Dervish",
@@ -508,8 +490,7 @@
 			"**Spinning Spellcaster (Ex):** At 5th level, a Dawnflower dervish gains a +4 bonus on concentration checks to cast spells defensively. This ability replaces lore master.",
 			"",
 			"**Meditative Whirl (Ex):** At 8th level, when using battle dance, the Dawnflower dervish can enter a trancelike state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae. By spending a move action focusing on his whirling, the dervish can apply the [Quicken Spell](feat/quicken_spell) feat to any cure spell he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time. The dervish can use this ability once per day at 8th level and one additional time per day for every two dervish levels he has beyond 8th. This ability replaces the dirge of doom bardic performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"demagogue": {
 		"name": "Demagogue",
@@ -529,8 +510,7 @@
 			"**Incite Violence (Ex):** At 6th level, the demagogue can use his performance to fan the fury of a crowd of people he has fascinated. Using this ability does not disrupt the fascinate effect, but does require a standard action to activate (in addition to the free action to continue the fascinate effect). The bard selects a number of targets equal to his level, who must make Will saves (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) or be affected by [rage](spell/rage) for a number of rounds equal to the bard's level. The bard indicates who is the intended target of violence (either after using this ability or as part of the performance leading to it) and the enraged members of the crowd immediately attack the target if possible. The target does not need to be present (\"kill the king\" is a suitable choice) and can be an object instead of a person (\"destroy the prison!\" is likewise appropriate). Other members of the crowd may follow suit, though they do not gain the benefits of [rage](spell/rage). This is a sound-based effect and is affected by countersong. If two or more bards are attempting to direct the crowd against different targets, they must make opposed Charisma checks, with the crowd following the directions of the winner. This ability replaces suggestion.",
 			"",
 			"**Righteous Cause (Ex):** At 18th level, the demagogue can lift a crowd's emotions and turn them toward a common purpose. First, he must fascinate the crowd, and then use incite violence without designating a target, at which point he can use righteous cause. Instead of driving the crowd with anger, he fills them with purpose. Fascinated creatures must make Will saves (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) to resist. Those who fail are affected by [mass suggestion](spell/mass_suggestion) of a plausible idea that lingers with them for one day. Typical uses of this ability are to spark rebellion, overthrow a king, build a beneficial structure such as an orphanage, or donate money to a cause. This ability replaces mass suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dervish_dancer": {
 		"name": "Dervish Dancer",
@@ -562,8 +542,7 @@
 			"**Dance of Fury (Su):** At 12th level, a dervish dancer can attack more than once as he moves while performing a battle dance. He can combine a full-attack action with a single move, taking the attacks at any point during his movement, but must move at least 5 feet between each attack. This movement provokes attacks of opportunity as normal. This ability replaces soothing performance.",
 			"",
 			"**Battle Fury (Su):** At 20th level, the dervish dancer can unleash a whirlwind of blows while performing a battle dance. As a full-round action, he can take a single move action and unleash a single attack at his highest bonus against each target within his reach during any point of his move, up to a maximum number of attacks equal to the dervish dancer's character level. This movement provokes attacks of opportunity as normal, and replaces deadly performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"detective": {
 		"name": "Detective",
@@ -587,8 +566,7 @@
 			"**Arcane Insight (Ex):** At 2nd level, a detective can find and disable magical traps, like a rogue's trapfinding ability. In addition, he gains a +4 bonus on saving throws made against illusions and a +4 bonus on caster level checks and saving throws to see through disguises and protections against divination (such as [magic aura](spell/magic_aura), [misdirection](spell/misdirection), and [nondetection](spell/nondetection)). This ability replaces well-versed.",
 			"",
 			"**Arcane Investigation:** In addition, a detective's class spell list includes the following: 1st-[detect chaos](spell/detect_chaos)/[evil](spell/evil)/[law](spell/law)/[good](spell/good); 2nd-[zone of truth](spell/zone_of_truth); 3rd-[arcane eye](spell/arcane_eye), [speak with dead](spell/speak_with_dead), [speak with plants](spell/speak_with_plants); 4th-[discern lies](spell/discern_lies); 5th-[prying eyes](spell/prying_eyes), [stone tell](spell/stone_tell); 6th-[discern location](spell/discern_location), [find the path](spell/find_the_path), [greater prying eyes](spell/greater_prying_eyes), [moment of prescience](spell/moment_of_prescience). A detective may add one of these spells or any divination spell on the bard spell list to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dirge_bard": {
 		"name": "Dirge Bard",
@@ -608,8 +586,7 @@
 			"**Secrets of the Grave (Ex):** At 2nd level, a dirge bard gains a bonus equal to half his bard level on Knowledge (religion) checks made to identify undead creatures and their abilities. A dirge bard may use mind-affecting spells to affect undead as if they were living creatures, even if they are mindless (though spells that affect only humanoids do not affect them, even if they were humanoids in life). In addition, he may add one necromancy spell from the spell list of any arcane spellcasting class to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance.",
 			"",
 			"**Haunting Refrain (Su):** At 5th level, a dirge bard is able to stir primal terrors in the hearts of listeners. He can use a Perform (keyboard) or Perform (percussion) check in place of an Intimidate check to demoralize an opponent, with a bonus equal to half his bard level. In addition, saving throws against any fear effect he creates are made with a -2 penalty, and this penalty increases by -1 every 5 levels beyond 5th. This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"disciple_of_the_forked_tongue": {
 		"name": "Disciple of the Forked Tongue",
@@ -633,8 +610,7 @@
 			"**Serpent of the Mind (Su):** A disciple of the forked tongue can add one spell with the curse descriptor from the spell list of any spellcasting class to his list of spells known at 2nd level and every 4 levels thereafter.",
 			"",
 			"This replaces versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dragon_herald": {
 		"name": "Dragon Herald",
@@ -680,8 +656,7 @@
 			"**Extol Glory (Su):** At 10th level, the dragon herald gains the ability to spread her patron's glory to all intelligent creatures. When she speaks Draconic, any intelligent creature that hears her and knows any language can understand her words. This ability does not allow the dragon herald to understand languages with which she is not familiar.",
 			"",
 			"This ability replaces jack-of-all-trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dragon_yapper": {
 		"name": "Dragon Yapper",
@@ -699,8 +674,7 @@
 			"**Frightful Song (Su):** A dragon yapper of 8th level or higher can amplify his voice to sound like an actual dragon. Enemies within 30 feet become shaken unless they succeed at a Will save (DC 10 +1/2 the dragon yapper's level + the dragon yapper's Charisma modifier). A successful save renders targets immune to this ability for 24 hours. Frightful song is a mind-affecting ability, and a fear effect that uses audible components. This performance replaces dirge of doom.",
 			"",
 			"**Versatile Performance (Ex):** A dragon yapper must choose sing at 2nd level."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"duettist": {
 		"name": "Duettist",
@@ -722,8 +696,7 @@
 			"**Harmonizing Familiar (Su):** At 8th level, the duettist and his familiar have learned how to perform together in harmony. When a duettist and his familiar perform the same bardic performance simultaneously, its effects are enhanced. If the performance has a DC, the DC increases by 2. If the performance provides a competence bonus, the competence bonus increases by 1. Because both the duettist and the familiar are performing, each round performed consumes 3 rounds of bardic performance. This ability replaces dirge of doom.",
 			"",
 			"**Symphonic Familiar (Su):** At 14th level, the duettist and his familiar have learned how to create a symphony of complementary performances that meld together to produce two different effects. They can each perform a different bardic performance simultaneously, and each has its full effect. Because both the duettist and the familiar are performing, each round performed consumes 3 rounds of bardic performance. This ability replaces frightening tune."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"dwarven_scholar": {
 		"name": "Dwarven Scholar",
@@ -751,8 +724,7 @@
 			"At 6th level, the dwarven scholar may grant the benefit of two combat feats at the same time. She may use one of these feats to meet a prerequisite of the second feat. Maintaining two feats in this way requires spending 2 rounds of bardic performance every round.",
 			"",
 			"This replaces inspire courage and suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"faith_singer": {
 		"name": "Faith Singer",
@@ -768,8 +740,7 @@
 			"**Devout Spell Knowledge (Su):** At 2nd level, a faith singer can select one [domain](unknown/domain) from among those belonging to his deity. Once per day as a spell-like ability using his bard level as his caster level, he can cast the 1st-level domain spell while giving a bardic performance. At 6th level, and every 4 bard levels thereafter, he can similarly cast the next-higher domain spell as a spell-like ability (to a maximum of the 5th-level domain spell at bard level 18th). He can use each spell-like ability only once per day.",
 			"",
 			"This ability replaces versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"fey_courtier": {
 		"name": "Fey Courtier",
@@ -805,8 +776,7 @@
 			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple_gremlin), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath_gremlin), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub_gremlin), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
 			"",
 			"This replaces inspire competence."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"fey_prankster": {
 		"name": "Fey Prankster",
@@ -842,8 +812,7 @@
 			"**Master of Mischief (Ex):** At 5th level, a fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill check (if she has ranks in that skill), even if distracted or endangered. In addition, once per day, the fey prankster can take 20 on one these skill checks (if she has ranks in that skill). She can use this ability one additional time per day for every 6 bard levels she has beyond 5th, to a maximum of three times per day at 17th level.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"filidh": {
 		"name": "Filidh",
@@ -887,8 +856,7 @@
 			"**Song of the Cycle (Su):** At 20th level, a filidh can grant awe-inspiring glimpses into the future with his magic. All allies who can see and hear the filidh are affected as though by the personal version of [foresight](spell/foresight) for the duration of the performance.",
 			"",
 			"This performance replaces deadly performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"first_world_minstrel": {
 		"name": "First World Minstrel",
@@ -920,8 +888,7 @@
 			"**Resist Nature's Lure (Ex):** At 2nd level, a First World minstrel gains the [resist nature's lure druid class feature.](class/druid).",
 			"",
 			"This ability replaces well-versed."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"flame_dancer": {
 		"name": "Flame Dancer",
@@ -941,8 +908,7 @@
 			"**Fire Break (Su):** At 6th level, a fire dancer's performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 20 as long as the performance is maintained. At 11th level, this resistance increases to 30. Fire break relies on audible or visual components. This ability replaces suggestion.",
 			"",
 			"**Fan the Flames (Su):** At 8th level, a fire dancer adds [burning hands](spell/burning_hands), [flaming sphere](spell/flaming_sphere), and [fireball](spell/fireball) to his list of bard spells known (as 1st-, 2nd-, and 3rd-level spells, respectively). This ability replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"flamesinger": {
 		"name": "Flamesinger",
@@ -966,8 +932,7 @@
 			"**Wildfire (Ex):** Like a raging wildfire, a flamesinger moves with blistering speed. At 2nd level and every 4 levels thereafter, the flamesinger gains a foot enhancement bonus to her base speed (to a maximum of feet at 18th level).",
 			"",
 			"This ability replaces versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"fortune-teller": {
 		"name": "Fortune-Teller",
@@ -1007,8 +972,7 @@
 			"**Transparent Fate (Su):** At 8th level, the fortune-teller can cause all enemies within 30 feet to have their near future revealed for all to see. A successful Will saving throw (DC = 10 1/2 the fortune-teller's level the fortune-teller's Cha modifier) negates the effect. This ability causes any creature attacked by an affected enemy to gain a bonus to AC and on saving throws against the attack. As a secondary effect, if an affected creature's hit points are reduced to less than its Constitution score, it also sees a vision of its own death and must succeed at another Will save or become frightened for 1 round. A given creature needs to save against this secondary effect at most once per performance of transparent fate, even if its hit points are reduced to less than its Constitution score multiple times. A creature that was targeted by oracular performance when this performance began applies any save DC adjustment to this secondary save as well. At the GM's discretion, the revelation of the creature's fate might have other consequences; for example, a creature's allies might see it was planning to betray them.",
 			"",
 			"This ability replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"geisha": {
 		"name": "Geisha",
@@ -1026,8 +990,7 @@
 			"**Geisha Knowledge:** A geisha adds half her class level (minimum 1) on Craft (calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform check (act, dance, oratory, percussion, string instruments, or sing); she may make checks with these skills untrained. This replaces bardic knowledge.",
 			"",
 			"**Scribe Scroll:** A geisha gains Scribe Scroll as a bonus feat."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"hatharat_agent": {
 		"name": "Hatharat Agent",
@@ -1055,8 +1018,7 @@
 			"**Master of Manipulation (Su):** At 8th level, a Hatharat agent gains a reputation of being able to sense lies. When using bardic performance, his very presence can often draw the truth out of others. This ability affects all creatures selected by the bard within a 20-foot-radius emanation from the bard. Any affected creature can't speak any deliberate or intentional lies, but is aware of the effect and can choose to avoid answering a question to which it would normally respond with a lie, or may be evasive as long as it remains within the boundaries of the truth. This is a mind-affecting compulsion effect.",
 			"",
 			"This performance replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"hoaxer": {
 		"name": "Hoaxer",
@@ -1088,8 +1050,7 @@
 			"**Versed in Curses (Ex):** At 2nd level, a hoaxer gains a +4 bonus on saving throws against curses, hexes, and language-dependent effects. This ability replaces well-versed.",
 			"",
 			"**Curse Crafter (Ex):** At 5th level, a hoaxer learns how to craft cursed items. He gains one [item creation feat](unknown/item_creation_feat) as a bonus feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties-as if permanently affected by the [magic aura](spell/magic_aura) spell-for 50 gp. This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"impervious_messenger": {
 		"name": "Impervious Messenger",
@@ -1117,8 +1078,7 @@
 			"**Cryptic Whisper (Ex):** At 2nd level, the impervious messenger internalizes his understanding of language and ciphers, and filters them through his bardic abilities. He adds half his bard level to all Linguistics checks and Bluff checks to deliver secret messages, and he gains a +4 bonus on saving throws against glyph spells, symbol spells, and language-dependent effects.",
 			"",
 			"This ability replaces bardic knowledge and well-versed."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"juggler": {
 		"name": "Juggler",
@@ -1138,8 +1098,7 @@
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a concentration check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
 			"**Evasion (Ex):** At 2nd level, a juggler gains [evasion, as the rogue class feature of the same name](class/rogue). At 12th level, he gains improved evasion, as the [rogue advanced talent](unknown/rogue_advanced_talent). This ability replaces well-versed and soothing performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"lotus_geisha": {
 		"name": "Lotus Geisha",
@@ -1161,8 +1120,7 @@
 			"This ability replaces well-versed.",
 			"",
 			"**Bonus Feats:** At 1st level, a lotus geisha gains [Spell Focus (enchantment)](feat/spell_focus) as a bonus feat. At 5th level, she gains [Greater Spell Focus (enchantment)](feat/greater_spell_focus) as a bonus feat. These bonus feats replace bardic knowledge and lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"luring_piper": {
 		"name": "Luring Piper",
@@ -1202,8 +1160,7 @@
 			"**Piper's Attention (Ex):** Starting at 2nd level, whenever a luring piper is actively using Perform (wind instruments) as part of a bardic performance, he gains a +4 bonus on saving throws against language-dependent, mind-affecting, and sonic effects. If this effect is caused by a fey creature, the luring piper can also roll the saving throw twice and take the better result.",
 			"",
 			"This ability replaces well-versed."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"magician": {
 		"name": "Magician",
@@ -1233,8 +1190,7 @@
 			"**Arcane Bond (Ex):** At 5th level, a magician gains the [arcane bond ability as a wizard](class/wizard). He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master.",
 			"",
 			"**Wand Mastery (Ex):** At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand's caster level. This ability replaces jack of all trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"masked_performer": {
 		"name": "Masked Performer",
@@ -1276,8 +1232,7 @@
 			"**Masked Talents:** At 5th level, a masked performer gains a [rogue talent](class/ability/rogue_talents) from the following list: expert leaper, fast stealth, ledge walker, rogue crawl, rope master, stand up, and wall scramble. At 17th level, a masked performer can choose any of the above talents or an advanced talent from the following list: defensive roll, fast tumble, hide in plain sight, and skill mastery. This ability does not qualify her for the [Extra Rogue Talent](feat/extra_rogue_talent) feat.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"mute_musician": {
 		"name": "Mute Musician",
@@ -1325,8 +1280,7 @@
 			"This class feature replaces jack-of-all-trades.",
 			"",
 			"**Ex-Mute Musicians:** A mute musician who regains the ability to speak or chooses to speak aloud loses all abilities granted by this archetype. She can regain the archetype's abilities by spending 24 hours without speaking."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"negotiator": {
 		"name": "Negotiator",
@@ -1352,8 +1306,7 @@
 			"**Master of Rhetoric (Ex):** At 5th level, the negotiator can take 10 on any Bluff, Diplomacy, Intimidate, Knowledge (local), or Sense Motive check if he has ranks in that skill. A negotiator can choose not to take 10 and can instead roll normally. In addition, the negotiator can take 20 on one of those skill checks (without spending any additional time). The negotiator can do this once per day at 5th level, twice per day at 11th level, and three times per day at 17th level. This ability replaces lore master.",
 			"",
 			"**Advanced Talents:** At 10th level and every 4 levels thereafter, a negotiator can select an [advanced rogue talent](unknown/advanced_rogue_talent) in place of a rogue talent. A negotiator cannot select an advanced talent that modifies the sneak attack ability."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"phrenologist": {
 		"name": "Phrenologist",
@@ -1377,8 +1330,7 @@
 			"**In Your Head (Sp):** At 3rd level, a phrenologist can use his performance to send his own senses into another's skull, as the spell [witness](spell/witness) (DC = 10 + 1/2 the phrenologist's class level + his Charisma modifier). At 11th level, this performance's duration increases to 10 minutes per bard level, and at 19th level, the duration increases to 1 hour per bard level. In your head relies on audible components. This ability replaces inspire competence.",
 			"",
 			"**Fingers of Fascination (Su):** When a phrenologist uses the fascinate bardic performance, he can send forth psychic fingers along with his performance, allowing him to study one of the fascinated creatures with his phrenology skill unlock without touching its head physically and without it being helpless, willing, or paralyzed. This does not spend his daily use of the phrenology skill unlock. This ability alters fascinate."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"pitax_academy_of_grand_arts": {
 		"name": "Pitax: Academy of Grand Arts",
@@ -1390,8 +1342,7 @@
 			"Bards who have successfully mastered the strict curriculum of Pitax's Academy of Grand Arts to graduate are more adept in their assigned field of performance, at the expense of versatility in other areas. Such bards have the focused performance alternate class ability, which replaces versatile performance.",
 			"",
 			"**Focused Performance (Ex):** At 2nd level, a bard must choose one type of Perform skill. The bard gains [Extra Performance](feat/extra_performance) as a bonus feat, usable only with the chosen category of the Perform skill. At 8th level, and every 6 levels thereafter, the bard gains Extra Performance as an additional bonus feat. The additional uses of bardic performance gained from these feats cannot be used with any category of the Performance skill other than the one chosen at 2nd level."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"plant_speaker": {
 		"name": "Plant Speaker",
@@ -1415,8 +1366,7 @@
 			"**Mystical Allegory (Su):** At 5th level, the plant speaker can tell a story that matches some of the themes of the current situation in order to gain insight, gaining the effects of [augury](spell/augury) by performing for 1 minute and spending 4 rounds of bardic performance. At 11th level, he can perform for 10 minutes and spend 7 rounds of bardic performance to gain the effects of [divination](spell/divination). At 17th level, he can perform for 1 hour and spend 10 rounds of bardic performance to gain the effects of [legend lore](spell/legend_lore), but the information is always vague and incomplete.",
 			"",
 			"This replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"prankster": {
 		"name": "Prankster",
@@ -1442,8 +1392,7 @@
 			"**Mass Punchline (Sp):** This ability functions just like punchline, but allows a prankster of 18th level or higher to use [hideous laughter](spell/hideous_laughter) simultaneously against any number of creatures that he has mocked. This ability replaces the mass suggestion ability.",
 			"",
 			"**Swap (Ex):** A prankster can steal an object from a creature and replace it with another object of the same size or smaller that the prankster has in his hand. This functions as the steal combat maneuver, but the prankster does not provoke an attack of opportunity, and may use his Sleight of Hand check in place of his combat maneuver check. If the prankster's check exceeds the target's CMD by 10 or more, the target is unaware the swap has been made until it tries to use the swapped object or the end of its next turn (whichever happens first). This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"provocateur": {
 		"name": "Provocateur",
@@ -1467,8 +1416,7 @@
 			"At 18th level, the duration increases to 1 day per bard level.",
 			"",
 			"This ability replaces suggestion and mass suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"ringleader_ag": {
 		"name": "Ringleader (AG)",
@@ -1496,8 +1444,7 @@
 			"**Countless Contingencies (Su):** At 6th level, whenever a ringleader creates a plan using her cunning plan ability, she can choose two different bardic performances. When she triggers the plan, she chooses which of the two performances takes effect. At 12th level, a ringleader can spend a standard action and 2 rounds of bardic performance to extend the duration of a triggered plan by 1d4 rounds. At 18th level, the ringleader can choose three different bardic performances when using her cunning plan ability.",
 			"",
 			"This ability replaces suggestion, mass suggestion, and soothing performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"ringleader_ui": {
 		"name": "Ringleader (UI)",
@@ -1533,8 +1480,7 @@
 			"**Prepared (Ex):** At 5th level, a ringleader expects the unexpected. When the ringleader is in a situation where he could use a particular piece of nonmagical gear, the ringleader can attempt a Knowledge check appropriate to his current situation to have purchased that item in advance. The DC of the check is equal to the item's cost in gp. If he succeeds, he deducts the appropriate cost of the item from his current gp total and now has the item in question on his person. He cannot use this ability to retroactively gain an item that would change his encumbrance to a different load category, though in this case, he can attempt to retrieve such objects from a pack mule, extradimensional storage space, or other location that would not affect his encumbrance. He can use this ability once per day at 5th level, plus one additional time per day for every 5 bard levels beyond 5th.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"sandman": {
 		"name": "Sandman",
@@ -1566,8 +1512,7 @@
 			"**Trap Sense (Ex):** At 3rd level, a sandman gains a +1 bonus on Reflex saves against traps and a +1 dodge bonus to AC against traps. These bonuses increase by +1 every three levels after 3rd. This ability replaces inspire competence.",
 			"",
 			"**Sneak Attack (Ex):** At 5th level, a sandman inflicts +1d6 points of damage against targets within 30 feet that he flanks or that are denied their Dex bonus to AC against him. This damage increases by +1d6 every five levels after 5th. This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"savage_skald": {
 		"name": "Savage Skald",
@@ -1589,8 +1534,7 @@
 			"**Berserkergang (Ex):** At 12th level, a savage skald can inspire a rapturous battle trance that suppresses pain, stunning, and fear effects for one creature, plus one additional creature per three levels after 12th. Affected creatures also gain DR 5/- (DR 10/- against nonlethal damage); this benefit stacks with the damage reduction class ability of barbarians. This mind-affecting ability requires audible components. This performance replaces soothing performance.",
 			"",
 			"**Battle Song (Su):** At 18th level, a savage skald can affect all allies within 30 feet when using performance to incite rage. This performance replaces mass suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"sea_singer": {
 		"name": "Sea Singer",
@@ -1616,8 +1560,7 @@
 			"**Familiar:** At 2nd level, a sea singer acquires an exotic pet-a monkey or parrot (treat as raven)-that gains abilities as a [wizard's familiar](class/wizard), using the sea singer's bard level as his wizard level. This ability replaces versatile performance.",
 			"",
 			"**Sea Legs (Ex):** At 2nd level, a sea singer gains a +4 bonus on saving throws against air and water effects and effects that would cause the sea singer to slip, trip, or otherwise be knocked prone. He gains a +2 bonus to CMD against grapple, overrun, and trip. This ability replaces well-versed."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"shadow_puppeteer": {
 		"name": "Shadow Puppeteer",
@@ -1633,8 +1576,7 @@
 			"**Shadow Servant (Sp):** At 1st level, the puppeteer can create a shadow servant to perform simple tasks. The shadow servant is identical to an [unseen servant](spell/unseen_servant) (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components.",
 			"",
 			"**Shadow Puppets (Sp):** At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the [summon monster I](spell/summon_monster_1) list. These shadowy creatures otherwise work like [shadow conjuration](spell/shadow_conjuration), and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of [summon monster](spell/summon_monster) ([summon monster II](spell/summon_monster_2) at 4th level and so on)."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"silver_balladeer": {
 		"name": "Silver Balladeer",
@@ -1658,8 +1600,7 @@
 			"**Pure Heart (Ex):** At 2nd level, a silver balladeer gains a +4 bonus on saving throws against curses, hexes, and charm effects. This ability replaces well-versed.",
 			"",
 			"**Silver Mastery (Su):** At 2nd level, a silver balladeer treats silver weapons as if they were also cold iron for the purpose of overcoming damage reduction. Also, alchemical silver weapons do not impose a penalty on damage rolls when wielded by a silver balladeer, and a silver balladeer gains a +1 bonus on attack rolls made with mithral weapons. This ability replaces the 2nd-level versatile performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"solacer": {
 		"name": "Solacer",
@@ -1693,8 +1634,7 @@
 			"The amount of this bonus increases by 1 at 16th and 19th levels (maximum +5 at 19th level).",
 			"",
 			"This ability replaces jack-of-all-trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"songhealer": {
 		"name": "Songhealer",
@@ -1712,8 +1652,7 @@
 			"**Healing Performance (Su):** A bard of 14th level or higher can use his performance to create an effect equivalent to [heal](spell/heal) on a living target (or [harm](spell/harm) on an undead target), using the bard's level as the caster level. Using this ability requires 5 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance. The healing performance relies on audible and visual components. This ability replaces frightening tune.",
 			"",
 			"**Funereal Ballad (Su):** A bard of 20th level or higher can use his performance to create an effect equivalent to [resurrection](spell/resurrection) on a dead creature, using the bard's level as the caster level. Using this ability requires 20 rounds of continuous performance, and the target must be within 10 feet of the bard for the entire performance. Funereal ballad relies on audible and visual components. This ability replaces deadly performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"sorrowsoul": {
 		"name": "Sorrowsoul",
@@ -1741,8 +1680,7 @@
 			"**Spurn Harm (Su):** A sorrowsoul can funnel his bardic powers to persevere in the face of seemingly certain death. At 5th level, a sorrowsoul can spend 3 rounds of his daily bardic performance as an immediate action to gain a +2 insight bonus on all saving throws for 1 round. At 11th level, a sorrowsoul also gains spell resistance equal to 11 + his bard level when using this ability. At 17th level, a sorrowsoul also gains DR 10/- when using this ability.",
 			"",
 			"This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"sound_striker": {
 		"name": "Sound Striker",
@@ -1759,8 +1697,7 @@
 			"**Wordstrike (Su):** At 3rd level, the sound striker bard can spend 1 round of bardic performance as a standard action to direct a burst of sonically charged words at a creature or object. This performance deals 1d4 points of damage plus the bard's level to an object, or half this damage to a living creature. This performance replaces inspire competence.",
 			"",
 			"**Weird Words (Su):** At 6th level the bard can start a performance that is always a standard action to speak up to one word per 4 bard levels laden with sonic energy. Each word deals 4d6 points of sonic damage as a ranged touch attack with a range of 30 feet. The bard adds his charisma modifier on damage rolls with weird words. Multiple words that strike the same target stack into a single powerful attack, applying energy resistance and bonuses on damage rolls only once. The bard can target all words at the same or different targets, but he unleashes all words simultaneously. Each word costs 1 round of bardic performance. This performance replaces suggestion."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"speaker_of_the_palatine_eye": {
 		"name": "Speaker of the Palatine Eye",
@@ -1788,8 +1725,7 @@
 			"**Keen Ritualist (Ex):** At 10th level, a speaker of the Palatine Eye reduces the number of secondary casters required to cast a [ritual](rule/ritual) by 2. At 16th level, the DCs of skill checks the speaker of the Palatine Eye attempts during a ritual are reduced by 2. At 19th level, a speaker of the Palatine Eye can perform any ritual by himself without needing to satisfy any secondary caster requirements. The DCs of skill checks he attempts during a ritual are reduced by an additional 2, for a maximum DC reduction of 4.",
 			"",
 			"This replaces jack-of-all-trades."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"stonesinger": {
 		"name": "Stonesinger",
@@ -1815,8 +1751,7 @@
 			"**Quake (Su):** At 8th level, a stonesinger causes the ground to shudder and buckle with his song. All enemies within 30 feet of the stonesinger must succeed at a Reflex save (DC = 10 + half the stonesinger's level + his Charisma bonus) when he begins a bardic performance or be knocked prone. Prone and flying creatures, as well as creatures with the earth glide universal monster ability, are unaffected by this performance.",
 			"",
 			"This replaces dirge of doom."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"street_performer": {
 		"name": "Street Performer",
@@ -1842,8 +1777,7 @@
 			"**Streetwise:** A street performer gains a bonus equal to half his level on Bluff, Disguise, Knowledge (local), and Sleight of Hand checks, Diplomacy or Intimidate checks made to influence crowds, and Diplomacy checks to gather information (minimum +1). This replaces bardic knowledge.",
 			"",
 			"**Quick Change (Ex):** At 5th level, a street performer can don a disguise as a standard action by taking a -5 penalty on his check. He can take 10 on Bluff and Disguise checks and use Bluff to create a diversion to hide as a swift action. He can take 20 on a Bluff or Disguise check once per day, plus one time per six levels beyond 5th. This ability replaces lore master."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"studious_librarian": {
 		"name": "Studious Librarian",
@@ -1873,8 +1807,7 @@
 			"**One with the Library (Ex):** At 20th level, the studious librarian can replace one of her spells known with any bard spell from a scroll once per day by studying the scroll for 1 hour. Doing so erases the spell from the scroll.",
 			"",
 			"This ability replaces deadly performance."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"thundercaller": {
 		"name": "Thundercaller",
@@ -1909,8 +1842,7 @@
 			"**Call Lightning Storm (Su):** At 14th level, the thundercaller can use her performance to summon bolts of lightning, as per the spell [call lightning storm](spell/call_lightning_storm). The lightning storm lasts for as long as she continues her performance, calling down one bolt of lightning per round as a standard action. The damage of these lightning bolts can be increased in stormy areas or can be limited as [call lightning](spell/call_lightning) describes.",
 			"",
 			"This performance replaces frightening tune."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"voice_of_brigh": {
 		"name": "Voice of Brigh",
@@ -1940,8 +1872,7 @@
 			"**Brigh's Wrath (Su):** At 14th level, a Voice of Brigh can use Brigh's furious voice to instill in constructs a fear of destruction. This functions as the frightening tune bardic performance, except it can target only constructs.",
 			"",
 			"This replaces frightening tune."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"voice_of_the_wild": {
 		"name": "Voice of the Wild",
@@ -1959,8 +1890,7 @@
 			"**Bardic Performance:** Voices of the wild gain the following bardic performance.",
 			"",
 			"**Song of the Wild (Su):** At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally, as if using the [hunter's animal focus class feature](class/hunter). The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect. The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all increments of inspire competence, dirge of doom, and inspire heroics."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"wasteland_chronicler": {
 		"name": "Wasteland Chronicler",
@@ -1980,8 +1910,7 @@
 			"If the wasteland chronicler has the favored terrain ability from any other classes, the levels from these different sources stack for the purposes of improving the bonuses of selected favored terrains and choosing new favored terrains.",
 			"",
 			"This replaces inspire competence."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"watersinger": {
 		"name": "Watersinger",
@@ -2001,8 +1930,7 @@
 			"**Lifewater (Su):** At 5th level, the watersinger can spend 1 round of bardic performance as a standard action to manipulate the water, blood, and other fluids within a creature's body, causing the target to become sickened for 1d4 rounds. Alternatively, he may use this ability to attempt a reposition combat maneuver , using his base attack bonus and his Charisma modifier as his CMB. This ability has a range of 30 feet, only works on creatures whose bodies contain fluid, and does not affect creatures that are immune to critical hits. This performance replaces the use of lore master gained at 5th level (though a watersinger still gains the use of lore master once per day at 11th level and twice per day at 17th).",
 			"",
 			"**Watersinger Spells:** A watersinger adds certain water-themed spells to his spell list. He adds these abilities to his spell list as soon as his bard level allows him to cast spells of that spell level. 0-[create water](spell/create_water); 1st-[hydraulic push](spell/hydraulic_push), [slipstream](spell/slipstream) 2nd-[aqueous orb](spell/aqueous_orb), [hydraulic torrent](spell/hydraulic_torrent), [water walk](spell/water_walk); 3rd-[fluid form](spell/fluid_form), [ride the waves](spell/ride_the_waves); 4th-[control water](spell/control_water), [communal water walk](spell/communal_water_walk); 5th-[vortex](spell/vortex); 6th-[seamantle](spell/seamantle)."
-		],
-		"display": "archetype/bard"
+		]
 	},
 	"wit": {
 		"name": "Wit",
@@ -2040,7 +1968,6 @@
 			"**Duel Master (Ex):** At 10th level, the wit does not lose any edges for being at an extreme disadvantage in a verbal duel and can either ask about one additional bias when successfully using Sense Motive to determine an audience's biases or automatically seed one of the biases that he discovered. Once during a verbal duel, he can reassign an appropriate skill from one tactic to another tactic in which he didn't assign any skills. The original tactic is treated as being unprepared for the rest of the duel.",
 			"",
 			"This ability replaces jack-of-all-trades."
-		],
-		"display": "archetype/bard"
+		]
 	}
 }

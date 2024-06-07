@@ -20,8 +20,7 @@
 			"**Description**",
 			"",
 			"See the [Haunted Construct](monster/haunted_construct) monster entry."
-		],
-		"display": "haunt"
+		]
 	},
 	"bloody_handprints": {
 		"name": "Bloody Handprints",
@@ -43,8 +42,7 @@
 			"**Description**",
 			"",
 			"A murder or other violent death lingers as bloody marks that harm any creature touching the surface on which they appear."
-		],
-		"display": "haunt"
+		]
 	},
 	"scratching_behind_the_wall": {
 		"name": "Scratching Behind the Wall",
@@ -66,8 +64,7 @@
 			"**Description**",
 			"",
 			"A lord with a terrible secret caught a servant snooping through his papers. He knocked the servant over the head and threw her into a disused dumbwaiter, which he jammed between floors. The servant awoke the following day, and her desperate attempts to escape infuse the walls that contained her."
-		],
-		"display": "haunt"
+		]
 	},
 	"cold_spot": {
 		"name": "Cold Spot",
@@ -89,8 +86,7 @@
 			"**Description**",
 			"",
 			"Cold spots are echoes of spirits too weak to manifest as ghosts. They can occur alone or cluster around significant areas."
-		],
-		"display": "haunt"
+		]
 	},
 	"rapping_spirit": {
 		"name": "Rapping Spirit",
@@ -112,8 +108,7 @@
 			"**Description**",
 			"",
 			"The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like spirit planchettes to increase the efficiency of communication with the spirit."
-		],
-		"display": "haunt"
+		]
 	},
 	"spectral_screams": {
 		"name": "Spectral Screams",
@@ -135,8 +130,7 @@
 			"**Description**",
 			"",
 			"Some spirits take joy in terrifying the living. Spectral screams are collections of lesser spirits who have banded together to increase the amount of terror they can spread."
-		],
-		"display": "haunt"
+		]
 	},
 	"demanding_dead": {
 		"name": "Demanding Dead",
@@ -158,8 +152,7 @@
 			"**Description**",
 			"",
 			"Some haunts influence the thoughts and actions of those in the mortal realms to communicate their anger, desires, or goals, which can lead to instances of direct-voice channeling and automatic writing. While the demanding dead are sometimes malevolent, more often there is a method to their requests, which could potentially reveal shocking secrets or the key to putting them to rest forever."
-		],
-		"display": "haunt"
+		]
 	},
 	"foreboding_mist": {
 		"name": "Foreboding Mist",
@@ -181,8 +174,7 @@
 			"**Description**",
 			"",
 			"Foreboding mists lurk in ill-kept graveyards, drawing their substance from the unrest of all who are buried below. They manifest regardless of the weather, and target the minds of those who fail to recognize they are not entirely real."
-		],
-		"display": "haunt"
+		]
 	},
 	"buried_alive": {
 		"name": "Buried Alive",
@@ -204,8 +196,7 @@
 			"**Description**",
 			"",
 			"The spirits of those unfortunate souls who are buried alive sometimes clamber to force others to share their fate."
-		],
-		"display": "haunt"
+		]
 	},
 	"flytrap": {
 		"name": "Flytrap",
@@ -223,8 +214,7 @@
 			"**hp** 36; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** This patch of sentient flytraps sprouts sharp hairs around its mouths and uses a highly concentrated acid to digest its prey. Each round, the flytrap haunt makes melee attacks with a +4 bonus against each creature in the affected area, dealing 2d6 points of acid damage and 1d6 points of piercing damage on a successful hit.  ",
 			"**Destruction** The nest of [accuser devils](monster/accuser_devils) making their home nearby must be eradicated."
-		],
-		"display": "haunt"
+		]
 	},
 	"following_footsteps": {
 		"name": "Following Footsteps",
@@ -243,8 +233,7 @@
 			"**hp** 8; **Weakness** negative energy (see [echoes of the first world](rule/echoes_of_the_first_world)); **Trigger** proximity; **Reset** 1 week  ",
 			"**Effect** Strange animal noises pervade the underbrush within the area of the echo, and strange tracks can be easily discovered. Non-fey viewing the tracks are fascinated by them and are compelled to follow (DC 16 Will negates). Each creature that fails this save follows a different set of tracks only it can perceive, moving in a random direction for up to 1 minute at a speed of 20 feet per round. This effect continues even if the creature leaves the echo's area. At the end of each of its turns following the tracks, a creature can attempt a new Will saving throw to negate the effect. If it fails three such saving throws, the creature must follow the tracks for the remaining duration. [Break enchantment](spell/break_enchantment) or a similar effect cast on an affected creature removes this compulsion. This is a mind-affecting effect.  ",
 			"**Destruction** A character who succeeds at her initial saving throw against the compulsion can attempt to deal damage against the echo by disrupting the original tracks. This requires the use of Survival as a full-round action. With a successful DC 24 Survival check, such a character deals 1d6 points of damage to the echo. If the result of the Survival check used in this way is a natural 20, she deals 2d6 points of damage to the echo instead. Casting [find the path](spell/find_the_path) and touching the tracks (treating it as a creature for this use) destroys the haunt instantly."
-		],
-		"display": "haunt"
+		]
 	},
 	"belated_arrival": {
 		"name": "Belated Arrival",
@@ -266,8 +255,7 @@
 			"**Description**",
 			"",
 			"The regret of those who arrived too late to spare others a terrible fate can manifest as a haunt. A belated arrival haunt often arises near another haunt or undead, representing the fate that these regretful spirits were not fast enough to stop. A belated arrival haunt is often chained to a [ghost](monster/ghost) but a [necrocraft](monster/necrocraft) is a truly horrifying alternative."
-		],
-		"display": "haunt"
+		]
 	},
 	"bleeding_walls": {
 		"name": "Bleeding Walls",
@@ -285,8 +273,7 @@
 			"**hp** 10; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** When this haunt is triggered, thick rivulets of blood course down the walls accompanied by the shrill shriek of a woman's scream. All creatures in the hallway are targeted by a [fear](spell/fear) spell (save DC 16).  ",
 			"**Destruction** The body of the maid entombed behind the walls must be extracted and given a proper burial."
-		],
-		"display": "haunt"
+		]
 	},
 	"spectral_vermin": {
 		"name": "Spectral Vermin",
@@ -308,8 +295,7 @@
 			"**Description**",
 			"",
 			"Overwhelming, unresolved guilt-or horrific death by thousands of tiny teeth-can lead to the manifestation of ghostly vermin swarms. The haunted area often displays signs of ancient rodent infestation."
-		],
-		"display": "haunt"
+		]
 	},
 	"arcane_storm": {
 		"name": "Arcane Storm",
@@ -336,8 +322,7 @@
 			"Magical scars have auras and count as ongoing spell effects for the purposes of [detect magic](spell/detect_magic) and similar spells. A successful Spellcraft check to identify a scar reveals its effect and its weakness, and, if it succeeds by 10 or more, the scar's benefit. A creature can't attempt to activate a benefit it hasn't identified. Spells that automatically reveal the nature of magical effects, such as [greater arcane sight](spell/greater_arcane_sight), automatically reveal all of these properties. The destruction conditions for magical scars are more obscure, and require research or exploration to uncover.",
 			"",
 			"The arcane storm haunt arose when a pair of evokers dueled to the death centuries ago. An echo of the duel still rages at the site of their battle, and the charred ground tells the bitter tale."
-		],
-		"display": "haunt"
+		]
 	},
 	"death_of_curchanus": {
 		"name": "Death of Curchanus",
@@ -367,8 +352,7 @@
 			"The resonances sense the presence of their creator's influence and react differently to their creator's followers than to all others they encounter. Typically, they grant the faithful a benefit for 24 hours, though a single pilgrim can receive a manifestation's blessing only once. A miraculous resonance haunt has an alignment identical to the deity with which it resonates. These resonances typically manifest in areas where the associated deity's worship has traditionally been strong, but they can appear anywhere where such worship is particularly potent or where the deity has brushed against the Material Plane at some point in the past.",
 			"",
 			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a [holy](magic/enhancement/holy) weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. Channeled energy can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
-		],
-		"display": "haunt"
+		]
 	},
 	"unsolved_murder": {
 		"name": "Unsolved Murder",
@@ -390,8 +374,7 @@
 			"**Description**",
 			"",
 			"After a merchant was murdered at a party being held to celebrate his latest venture, his spirit was obsessed with finding his killer and exacting vengeance. It has clung to his body for years, hoping for a hapless grave robber to inadvertently become the pawn of his unfinished business."
-		],
-		"display": "haunt"
+		]
 	},
 	"betrayal": {
 		"name": "Betrayal",
@@ -413,8 +396,7 @@
 			"**Description**",
 			"",
 			"When the sting of betrayal lingers beyond the grave, it can manifest as a disjointed mass of confused and paranoid spiritual energy that can turn even the closest of allies against one another."
-		],
-		"display": "haunt"
+		]
 	},
 	"drought's_end": {
 		"name": "Drought's End",
@@ -444,8 +426,7 @@
 			"The resonances sense the presence of their creator's influence and react differently to their creator's followers than to all others they encounter. Typically, they grant the faithful a benefit for 24 hours, though a single pilgrim can receive a manifestation's blessing only once. A miraculous resonance haunt has an alignment identical to the deity with which it resonates. These resonances typically manifest in areas where the associated deity's worship has traditionally been strong, but they can appear anywhere where such worship is particularly potent or where the deity has brushed against the Material Plane at some point in the past.",
 			"",
 			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a [holy](magic/enhancement/holy) weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. Channeled energy can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
-		],
-		"display": "haunt"
+		]
 	},
 	"malignant_weapon": {
 		"name": "Malignant Weapon",
@@ -467,8 +448,7 @@
 			"**Description**",
 			"",
 			"Sometimes a weapon that slays a powerful witch or hag becomes tainted by the victim's malignant hatred. Although haunted weapons often still bear holy marks from the original owners or relics like bones from a revered saint, these are never sufficient to contain the malevolence that dwells within the weapon."
-		],
-		"display": "haunt"
+		]
 	},
 	"bountiful_feat": {
 		"name": "Bountiful Feat",
@@ -494,8 +474,7 @@
 			"**Description**",
 			"",
 			"The demon-possessed [dryad](monster/dryad) in the nearby crypt must be defeated and its ashes scattered around the dryad's tree."
-		],
-		"display": "haunt"
+		]
 	},
 	"dimensional_tear": {
 		"name": "Dimensional Tear",
@@ -515,8 +494,7 @@
 			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by [plane shift](spell/plane_shift) and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the [summon nature's ally VI](spell/summon_nature's_ally_6) list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
 			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_nature's_ally_7) list instead, and then add the [fey creature template](monster/fey_creature_template).  ",
 			"**Destruction** A character with [plane shift](spell/plane_shift) prepared can attempt to counterspell the echo's effect. Successfully doing so destroys the dimensional tear."
-		],
-		"display": "haunt"
+		]
 	},
 	"robotic_reactivation": {
 		"name": "Robotic Reactivation",
@@ -546,8 +524,7 @@
 			"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat/technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell/discharge) or [greater discharge](spell/greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell/discharge)) or 1d4 points per caster level (for [greater discharge](spell/greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
 			"",
 			"A technological surge's caster level represents its strength. Technological surges are completely nonmagical. Their effects cannot be disrupted with [antimagic field](spell/antimagic_field), [dispel magic](spell/dispel_magic), or similar abilities, even when they replicate spell effects. All technological surges are neutral aligned."
-		],
-		"display": "haunt"
+		]
 	},
 	"watery_grave": {
 		"name": "Watery Grave",
@@ -569,8 +546,7 @@
 			"**Description**",
 			"",
 			"Watery grave haunts typically travel aboard ghost ships, protecting the ghost vessel's passengers. When the ghost ship's captain boards an enemy vessel, the watery grave haunt drifts aboard as well."
-		],
-		"display": "haunt"
+		]
 	},
 	"devouring_maws": {
 		"name": "Devouring Maws",
@@ -592,8 +568,7 @@
 			"**Description**",
 			"",
 			"A pack of ravenous ghouls descended upon a once-peaceful town, killing or transforming all of its denizens who were not fast enough to flee. The ghouls' unending hunger blended with the townsfolk's horrifying memories of death to produce the devouring maws haunt."
-		],
-		"display": "haunt"
+		]
 	},
 	"insidious_presence": {
 		"name": "Insidious Presence",
@@ -617,8 +592,7 @@
 			"**Description**",
 			"",
 			"This haunt hides within a host's body, at first offering tempting boons to make the host comfortable with their presence before ultimately seeking the host's destruction."
-		],
-		"display": "haunt"
+		]
 	},
 	"network_of_lasers": {
 		"name": "Network of Lasers",
@@ -648,8 +622,7 @@
 			"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat/technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell/discharge) or [greater discharge](spell/greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell/discharge)) or 1d4 points per caster level (for [greater discharge](spell/greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
 			"",
 			"A technological surge's caster level represents its strength. Technological surges are completely nonmagical. Their effects cannot be disrupted with [antimagic field](spell/antimagic_field), [dispel magic](spell/dispel_magic), or similar abilities, even when they replicate spell effects. All technological surges are neutral aligned."
-		],
-		"display": "haunt"
+		]
 	},
 	"shifting_seasons": {
 		"name": "Shifting Seasons",
@@ -680,8 +653,7 @@
 			"Unlike a typical haunt, an echo of the First World is healed by positive energy. In fact, when these manifestations interact with positive energy, they typically become stronger. When an echo of the First World is healed beyond its normal maximum hit points, any excess hit points persist for 1 minute as temporary hit points. As long as it has any temporary hit points, it gains the effects listed in the overcharge section of its stat block.",
 			"",
 			"While positive energy is a boon for these unusual haunts, negative energy damages them as if they were living creatures. Damaging spells with the death descriptor also harm them. Echoes of the First World are almost always chaotic neutral."
-		],
-		"display": "haunt"
+		]
 	},
 	"enchanting_demise": {
 		"name": "Enchanting Demise",
@@ -701,8 +673,7 @@
 			"**Effect** Every minute a creature spends within an enchanting demise, that creature must succeed at a DC 25 Will save or fall asleep as though affected by [deep slumber](spell/deep_slumber). Creatures that fail this save and fall asleep take 1 point of Wisdom drain each minute they sleep within the area of an enchanting demise. A creature that succeeds at this Will saving throw remains awake, but it must attempt a new saving throw after 1 minute if it does not leave the enchanting demise's area. A creature reduced to 0 Wisdom by this effect dies and blooms into a field of colorful wildflowers with a radius of 5 feet per Hit Die the creature had. If this radius would extend beyond the radius of the enchanting demise, it instead expands the radius of the echo out to the border of the created wildflowers. The presence of such wildflowers reduces the Perception DC to notice the echo by 2.  ",
 			"**Benefit** Sleeping creatures take 1d4 points of Wisdom drain each minute instead of 1 per minute.  ",
 			"**Destruction** A character with the [Lucid Dreamer](feat/lucid_dreamer) feat who falls asleep in an enchanting demise intrusion can attempt to destroy it permanently in the Dimension of Dreams. When such a character falls asleep, he receives one attempt to successfully form a [lucid body](rule/lucid_body) without disadvantage. If he fails this check, he does not successfully lucid dream and remains in a dreamless slumber. If the character succeeds at this check, he can immediately attempt a DC 15 Charisma check to affect the boundary between the Dimension of Dreams, the Material Plane, and the First World. If he succeeds, the enchanting demise is destroyed and all sleeping creatures in its area wake up. If the character fails, he immediately ceases lucid dreaming and falls into a deep, dreamless sleep."
-		],
-		"display": "haunt"
+		]
 	},
 	"living_decay": {
 		"name": "Living Decay",
@@ -730,8 +701,7 @@
 			"**Type** disease, contact, inhaled, or injury; **Save** Fortitude DC 17  ",
 			"**Track** physical; **Frequency** 1/day  ",
 			"**Effect** In the weakened state, the target also takes a -2 penalty on Strength- and Dexterity-based skill checks and ability checks. In the impaired state, the target takes a 50% miss chance on attack rolls and the target's speed is reduced by half (minimum 5 feet). All objects touched at the impaired state and beyond can transfer the disease; Cure 2 consecutive saves, penalties from the weakened state and worse are permanent until the victim is the target of [heal](spell/heal) or [regenerate](spell/regenerate)"
-		],
-		"display": "haunt"
+		]
 	},
 	"maddening_influence": {
 		"name": "Maddening Influence",
@@ -755,8 +725,7 @@
 			"These haunts are tied to the reality-warping influence of beings beyond comprehension. The only way to hold these haunts at bay is to draw upon dark knowledge, but such knowledge comes at a cost. As a full-round action, any character within the haunt's area can attempt an appropriate Knowledge check to perform a short rite, utter an arcane word, or otherwise quell the maddening influence (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
 			"",
 			"The whispers from beyond haunt detailed below is an example of a maddening influence formed at the site of a mass ritual suicide. The murmurs worm their way into the minds of all who hear them and leave lasting wounds."
-		],
-		"display": "haunt"
+		]
 	},
 	"psychic_echo_anger": {
 		"name": "Psychic Echo (Anger)",
@@ -782,8 +751,7 @@
 			"Every psychic haunt focuses on a specific emotion, and when targeted by or within the area of effect of an emotion spell or effect that is not connected to the associated emotion, they take damage equal to three times the effect's spell level (each spell deals damage to the haunt once, regardless of its duration). [Calm emotions](spell/calm_emotions) damages psychic haunts regardless of their associated emotion, and an emotion effect without a spell level deals an amount of damage equal to the HD of the creature who created the effect. A character can calm a psychic haunt with a Diplomacy check (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
 			"",
 			"The psychic echo below lies in the heart of an abandoned village. A group of raiders drove the villagers from their home by the sword, but an echo of the villagers' fury persists, stoking hatred against all members of the raiders' ethnic group."
-		],
-		"display": "haunt"
+		]
 	},
 	"servants_of_the_book": {
 		"name": "Servants of the Book",
@@ -807,8 +775,7 @@
 			"The Book of the Damned was never meant for mortal eyes. Even so, over ages of wandering, the elusive tome has granted countless reckless scholars a glimpse of reality's deepest evils. Those who aren't driven to ruin by the book's secrets typically face the knives of covetous thieves, which ensures that the blasphemous volume never lingers in one place for long. At any given time, ambitious fiends, evil cultists, and unscrupulous spellcasters are the most likely guardians of the Book of the Damned-the book's disparate pieces are not always found in the hands of mighty beings.",
 			"",
 			"The Book of the Damned rarely spends more than a decade in any one creature's possession. This is in part because of its power, which makes it difficult to hide, and its propensity for drawing the scrutiny of extraplanar evils. Yet most who have held and lost the book refuse to let go of it. Over the ages, the blood of a thousand cultists has spilled upon the tome, giving rise to a vicious haunt that jealously tries to tear the Book of the Damned from any single owner's grip."
-		],
-		"display": "haunt"
+		]
 	},
 	"eternal_pyre": {
 		"name": "Eternal Pyre",
@@ -830,8 +797,7 @@
 			"**Description**",
 			"",
 			"An eternal pyre is formed from the spirits of people who were burned alive during an overzealous witch trial. It hates all living beings, but it has a strong bond of kinship with the [witchfire](monster/witchfire) who arose from the most powerful of those spirits. The [witchfire](monster/witchfire) often lurks within the haunt's area, as her witchflame intensifies the power of the pyre's strikes, which in turn heal her."
-		],
-		"display": "haunt"
+		]
 	},
 	"spawn_of_the_abyss": {
 		"name": "Spawn of the Abyss",
@@ -865,8 +831,7 @@
 			"The sample haunt appeared when an ancient wizard bound 666 demons. Over time, the boundary between the Abyss and his summoning chamber grew thin, and the plane's influence fractured the binding circle he carved into the floor, creating tiny rifts that flicker into existence at irregular intervals.",
 			"",
 			"In addition to good and lawful effects, the haunt is vulnerable to other damage associated with good or law at the GM's discretion, such as the extra damage from a holy weapon."
-		],
-		"display": "haunt"
+		]
 	},
 	"breach_to_the_quickening": {
 		"name": "Breach to the Quickening",
@@ -905,8 +870,7 @@
 			"Unlike a typical haunt, an echo of the First World is healed by positive energy. In fact, when these manifestations interact with positive energy, they typically become stronger. When an echo of the First World is healed beyond its normal maximum hit points, any excess hit points persist for 1 minute as temporary hit points. As long as it has any temporary hit points, it gains the effects listed in the overcharge section of its stat block.",
 			"",
 			"While positive energy is a boon for these unusual haunts, negative energy damages them as if they were living creatures. Damaging spells with the death descriptor also harm them. Echoes of the First World are almost always chaotic neutral."
-		],
-		"display": "haunt"
+		]
 	},
 	"dissolving_vat": {
 		"name": "Dissolving Vat",
@@ -928,8 +892,7 @@
 			"**Description**",
 			"",
 			"A sadistic alchemist conducted experiments on test subjects within his remote laboratory. When he was finished with his subjects, he threw them into a vat of harsh chemicals to dissolve. His victims' spirits have permeated the vat, and they reach out with their oozing spectral forms toward any who come near."
-		],
-		"display": "haunt"
+		]
 	},
 	"heart_explosion": {
 		"name": "Heart Explosion",
@@ -951,8 +914,7 @@
 			"**Description**",
 			"",
 			"The spirits responsible for this haunt were scared to death, and in their attempt to force mortals to understand their fear, they cause their victims' hearts to race faster and faster until they explode."
-		],
-		"display": "haunt"
+		]
 	},
 	"crushing_terror": {
 		"name": "Crushing Terror",
@@ -974,8 +936,7 @@
 			"**Description**",
 			"",
 			"Tales of a legendary linnorm have drawn many daring adventurers who wish to prove themselves by slaying the dragon. The linnorm, for its part, appreciates the sport of hunting those who seek it, and is particularly fond of crushing its victims to death with its powerful tail. The spirits of these unfortunates linger on in the form of a crushing terror haunt."
-		],
-		"display": "haunt"
+		]
 	},
 	"final_soldier": {
 		"name": "Final Soldier",
@@ -997,8 +958,7 @@
 			"**Description**",
 			"",
 			"The ancient antipaladin general responsible for this haunt ruled through fear, and forbade his soldiers from accepting surrender or showing mercy. His favorite way to end a battle was to order his soldiers to kill everyone but the opposing army's commander, then offer a rich reward to whichever of his soldiers could produce the opposing commander's head."
-		],
-		"display": "haunt"
+		]
 	},
 	"fallen_from_the_sky": {
 		"name": "Fallen from the Sky",
@@ -1020,8 +980,7 @@
 			"**Description**",
 			"",
 			"A thriving metropolis on the top of a cliff customarily executed criminals by throwing them off the precipice, until the spirits of the condemned hurled the city's head magistrate over the edge as well."
-		],
-		"display": "haunt"
+		]
 	},
 	"haunted_dungeon": {
 		"name": "Haunted Dungeon",
@@ -1043,8 +1002,7 @@
 			"**Description**",
 			"",
 			"When enough haunts gather in a single dungeon, they can combine into a gestalt haunt that infuses the entire structure with a single, malevolent will. The haunt's source typically rests in the most difficult to find or obscure location within the structure, but it moves if it senses creatures approaching it."
-		],
-		"display": "haunt"
+		]
 	},
 	"flayed_suicide": {
 		"name": "Flayed Suicide",
@@ -1066,8 +1024,7 @@
 			"**Description**",
 			"",
 			"A flayed suicide haunt arises from the spirits of people tortured beyond insanity, until no remnants of their former essence remain. Only kytons are capable of the depths of depravity required to produce this powerful, disturbing vestige of suffering."
-		],
-		"display": "haunt"
+		]
 	},
 	"soul_vortex": {
 		"name": "Soul Vortex",
@@ -1089,8 +1046,7 @@
 			"**Description**",
 			"",
 			"The soul vortex is a gaping wound in the fabric of reality connected to the Negative Energy Plane. One may form at the site of a massive tragedy that claims hundreds of thousands of lives. The soul vortex annihilates the souls of anyone unfortunate enough to encounter it, and rips through the protections that even the most experienced adventurers consider unassailable."
-		],
-		"display": "haunt"
+		]
 	},
 	"twisted_wish": {
 		"name": "Twisted Wish",
@@ -1112,7 +1068,6 @@
 			"**Description**",
 			"",
 			"A twisted wish haunt can only arise in the most extraordinary circumstances, when a genie noble of considerable power dies with vengeance in its heart. It rests in places like wells or fountains where people go to make wishes, so it can use its powers frequently."
-		],
-		"display": "haunt"
+		]
 	}
 }

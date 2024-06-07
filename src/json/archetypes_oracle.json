@@ -14,8 +14,7 @@
 			"**Elven Arcana (Ex):** At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the sorcerer/wizard spell list that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels. This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery.",
 			"",
 			"**Mysteries:** The following oracle mysteries complement the ancient lorekeeper archetype: Lore, Nature, Waves, Wind; Ancestor, Time, Wood."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"black-blooded_oracle": {
 		"name": "Black-Blooded Oracle",
@@ -43,8 +42,7 @@
 			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and black-blooded oracles possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage-10d6 points of cold damage per round if fully immersed.",
 			"",
 			"Although black blood isn't itself inherently evil, a pint of black blood can be used as unholy water. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of Constitution damage by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. Gentle repose can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"community_guardian": {
 		"name": "Community Guardian",
@@ -68,8 +66,7 @@
 			"**Spirit of Community (Ex):** As a move action, you call upon the spirits of community. For the next round, you grant every ally within 30 feet a +1 competence bonus on a single skill check (of the ally's choice) that it makes before the end of this revelation's duration. Furthermore, allies within 30 feet can, as a free action, choose to forgo this bonus, and instead grant a single ally a +1 increase to its competence bonus granted by this ability (maximum +5). You can use this ability a number of times per day equal to 3 + your Charisma modifier. You must take this revelation at 1st level.",
 			"",
 			"**Renewing Radiance (Su):** Once per day you can produce a burst of swirling white light that provides a measure of protection and renewal to allies within 30 feet for 1 round. On their turn, the allies can choose either to gain a +1 sacred bonus to AC for 1 round or to heal a number of hit points equal to 1d6 + your Charisma bonus (their choice). If an ally is dying, it is stabilized instead. At 7th level, the bonus to AC increases to +2, and the healing increases to 2d6 + your Charisma bonus hit points, and at 14th level the bonus to AC increases to +3, and the healing increases to 3d6 + your Charisma bonus hit points. You must take this revelation at 3rd level."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"cyclopean_seer": {
 		"name": "Cyclopean Seer",
@@ -101,8 +98,7 @@
 			"This ability alters the revelation class feature.",
 			"",
 			"**Final Revelation:** Upon reaching 20th level, you embody ancient cyclopes' insight. You can use each of the following once per day as a spell-like ability: discern location, prying eyes, and stone tell. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn't expend that ability. This replaces the final revelation of the oracle's mystery."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"divine_numerologist": {
 		"name": "Divine Numerologist",
@@ -130,8 +126,7 @@
 			"The divine numerologist can use this ability once per day at 7th level and twice per day at 11th level. At 15th level, the divine numerologist can use this ability three times per day, and instead of treating a roll as its average, she can instead treat the roll as its maximum result (for example, the divine numerologist can treat a d20 roll as if the result were 20).",
 			"",
 			"**Final Revelation:** At 20th level, a divine numerologist understands the math behind the entirety of existence well enough to significantly tweak her own personal fate. The divine numerologist ceases aging. She no longer suffers age-related penalties to ability scores and cannot be magically aged. Additionally, once per day when the divine numerologist or another allied creature within 30 feet of her threatens a critical hit, the critical hit is automatically confirmed."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"dual-cursed_oracle": {
 		"name": "Dual-Cursed Oracle",
@@ -155,8 +150,7 @@
 			"**Misfortune (Ex):** At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.",
 			"",
 			"**Fortune (Ex):** At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"elementalist_oracle": {
 		"name": "Elementalist Oracle",
@@ -186,8 +180,7 @@
 			"**Elemental Revelation (Su):** At 20th level, you fully harness the power of the elements. You can apply the Elemental Spell metamagic feat to spells you cast without increasing the level or casting time. You can choose acid, cold, electricity, or fire each time you use this ability. Whenever you score a critical hit with an attack that deals energy damage, you ignore the target's energy resistance (if any). If you score such a critical hit against a creature that has immunity to the energy type you are attacking with, the creature takes half damage from the attack.",
 			"",
 			"This replaces final revelation."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"enlightened_philosopher": {
 		"name": "Enlightened Philosopher",
@@ -211,8 +204,7 @@
 			"**Mental Acuity (Ex):** As the lore mystery revelation.",
 			"",
 			"**Final Revelation:** Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the reincarnate spell). This replaces the final revelation of the oracle's mystery."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"hermit": {
 		"name": "Hermit",
@@ -238,8 +230,7 @@
 			"Fade from Memory (Su) At 7th level, whenever there are no creatures within 10 feet of you at the end of your turn, you gain 20% concealment until the beginning of your next turn as a free action. At 14th level, you instead gain 50% concealment until the beginning of your next turn. You can use this ability a number of times per day equal to your oracle level. You must take this revelation at 7th level.",
 			"",
 			"**Recommended Mysteries:** Heavens, life, nature, stone."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"inerrant_voice": {
 		"name": "Inerrant Voice",
@@ -259,8 +250,7 @@
 			"**Revelations:** An inerrant voice must take the following revelation at 3rd level.",
 			"",
 			"**Vigilant Protector (Su):** Each day when you recover your spells, you can select a specific person you know other than yourself as your ward. When your ward becomes the target of an attack or spell and you are aware of the attack, you can cast an abjuration spell you know on the ally as an immediate action. You must expend the appropriate spell slot and be able to target the ally as normal for the spell. At 11th level, as an immediate action when you know your ward is targeted, you can transpose yourself with your ward, teleporting into the original target's square (and becoming the new target of the attack or spell) while your ally is teleported into yours; this is a teleportation effect that doesn't provoke attacks of opportunity. You can use this revelation once per day, plus an additional time at 7th level and every 4 oracle levels thereafter."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"keleshite_prophet": {
 		"name": "Keleshite Prophet",
@@ -294,8 +284,7 @@
 			"| 20-29 | Once in the next 24 hours, you can use divination as a spell-like ability, using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes. |",
 			"| 30-39 | Once in the next 24 hours, you can use commune as a spell-like ability, using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes. |",
 			"| 40+ | Once in the next 24 hours, you can use contact other plane as a spell-like ability, using your oracle level as your caster level. |"
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"ocean's_echo": {
 		"name": "Ocean's Echo",
@@ -317,8 +306,7 @@
 			"This ability replaces the revelations gained at 1st, 3rd, and 15th level.",
 			"",
 			"**Recommended Mysteries:** Ancestor, heavens, life, lore, nature, time, waves, wind."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"pei_zin_practitioner": {
 		"name": "Pei Zin Practitioner",
@@ -352,8 +340,7 @@
 			"This ability replaces the revelation gained at 7th level.",
 			"",
 			"**Recommended Mysteries:** Life, nature, succor."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"planar_oracle": {
 		"name": "Planar Oracle",
@@ -373,8 +360,7 @@
 			"**Planar Resistance (Su):** At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.",
 			"",
 			"**Final Revelation:** At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to \"outsider (extraplanar),\" except on your associated plane, where your type is \"outsider (native).\" In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"possessed_oracle": {
 		"name": "Possessed Oracle",
@@ -394,8 +380,7 @@
 			"**Revelations:** A possessed oracle must take the following revelation at 1st level.",
 			"",
 			"**Two Minds (Su):** You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"psychic_searcher": {
 		"name": "Psychic Searcher",
@@ -413,8 +398,7 @@
 			"**Psychic Talent (Su):** At 3rd level, a psychic searcher's mastery of her supernatural insight grows, granting her a new investigator talent from the following list: amazing inspiration, eidetic recollection, empathy, inspired alertness, item lore, perceptive tracking (except using Sense Motive instead of Perception or Survival), rogue talent (only for hard to foolAPG), and tenacious inspiration. Whenever a psychic searcher can select a new revelation, she can instead select an investigator or rogue talent from the above list. This ability replaces the revelation gained at 3rd level.",
 			"",
 			"**Recommended Mysteries:** Ancestor, lore, nature."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"purifier": {
 		"name": "Purifier",
@@ -446,8 +430,7 @@
 			"**Holy Terror (Su):** At 9th level, a purifier may use her sacred scourge to panic evil outsiders as if using the Turn Undead feat against undead.",
 			"",
 			"**Celestial Master (Su):** At 13th level, a purifier may use her sacred scourge to compel good outsiders to serve her, as if using the Command Undead feat against undead."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"reincarnated_oracle": {
 		"name": "Reincarnated Oracle",
@@ -469,8 +452,7 @@
 			"**Location Memories (Su):** As a swift action, you may search your past lives for memories of or insight about your current location. This grants you the scent ability, low-light vision, and a +2 insight bonus on Perception and Survival checks for 1 minute. You can use this ability a number of times per day equal to 3 + your Charisma modifier. You must take this revelation at 1st level or 3rd level.",
 			"",
 			"**Spirit Memories (Su):** Once per day, you call upon the unfulfilled desires and goals of your past lives and project their frustration and despair through your eyes at a target. This is a gaze attack affecting one creature. The target must make a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier) or be sickened and staggered for 1 round. This is a mind-affecting compulsion effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. You must take this revelation at 1st, 3rd, or 7th level."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"river_soul": {
 		"name": "River Soul",
@@ -500,8 +482,7 @@
 			"**River Soul Revelation (Su):** At 20th level, you strengthen your ties to the river with which you bonded. While traveling on or immersed in the river, you gain fast healing 10 and immunity to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Additionally, if you are slain and your body or some part of your body (including your ashes, if applicable) is floated down the river in a specially prepared vessel costing 5,000 gp, you return to life as per resurrection once you reach the mouth of the river, as long as the trip has taken 24 hours or longer.",
 			"",
 			"This replaces final revelation."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"seeker": {
 		"name": "Seeker",
@@ -517,8 +498,7 @@
 			"**Seeker Lore (Ex):** By 3rd level, a seeker has already learned much about his mystery or bloodline, and is more comfortable using the bonus spells gained by that mystery or bloodline. He gains a +4 bonus on all concentration checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells. For an oracle, this ability replaces the revelation gained at 3rd level. For a sorcerer, this ability replaces the bloodline power gained at 3rd level.",
 			"",
 			"**Seeker Magic (Su):** At 15th level, a seeker becomes skilled at modifying his mystery or bloodline spells with metamagic. When a seeker applies a metamagic feat to any bonus spells granted by his mystery or his bloodline, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like Still Spell to a spell does not change its effective spell level at all, while applying Quicken Spell only increases the spell's effective spell level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities. For an oracle, this ability replaces the revelation gained at 15th level. For a sorcerer, this ability replaces the bloodline power gained at 15th level."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"seer": {
 		"name": "Seer",
@@ -538,8 +518,7 @@
 			"**Natural Divination (Ex):** As the nature mystery revelation. You must take this revelation at 1st level.",
 			"",
 			"**Gift of Prophecy (Su):** Once per day, you can enter a trance to gain a glimpse of the future. This trance lasts for 1 minute, which must be uninterrupted and during which you can take no other actions. At 3rd level, you gain the benefits of an augury spell with 90% effectiveness. At 5th level, you gain the benefits of a divination spell with 90% effectiveness. At 9th level, the knowledge you gain is equivalent to a commune spell. None of these spell effects require material components. You must take this revelation at 3rd level."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"shigenjo": {
 		"name": "Shigenjo",
@@ -573,8 +552,7 @@
 			"**Quivering Palm (Su):** At 15th level, a shigenjo may learn quivering palm as the monk ability of the same name in place of a revelation. She treats her oracle level as her monk level for this ability, and the DC is based on her Charisma bonus instead of her Wisdom bonus.",
 			"",
 			"**Final Revelation:** Upon reaching 20th level, you achieve true enlightenment and becomes one with the celestial spirits. You gain the ability to speak with any creature that uses a language. For a number of days equal to your Wisdom score, you can ignore the negative effects of extreme weather, starvation, thirst, and exhaustion. If you die, your powerful connection to the celestial realm allows you to be reborn 3 days later (as reincarnate). This replaces the final revelation of the shigenjo's mystery."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"spirit_guide": {
 		"name": "Spirit Guide",
@@ -596,8 +574,7 @@
 			"This ability replaces the revelations gained at 3rd, 7th, and 15th levels.",
 			"",
 			"**Recommended Mysteries:** Ancestor, heavens, lore."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"stargazer": {
 		"name": "Stargazer",
@@ -619,8 +596,7 @@
 			"**Guiding Star (Su):** As the heavens mystery revelation. You must take this revelation at 1st level.",
 			"",
 			"**Star Chart (Ex):** As the heavens mystery revelation. You must take this revelation at 7th level."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"tree_soul": {
 		"name": "Tree Soul",
@@ -656,8 +632,7 @@
 			"**Tree Soul Revelation (Su):** At 20th level, your skin takes on the appearance and properties of a tree trunk. This bark-like skin grants you a +4 natural armor bonus to your Armor Class and DR 10/slashing. You also regrow any severed limbs except your head within 24 hours as per regenerate. Finally, once a day as a standard action, you can assume the form of a treant, as per plant shape III, for a number of minutes equal to 3 + your Charisma modifier (minimum 1).",
 			"",
 			"This replaces final revelation."
-		],
-		"display": "archetype/oracle"
+		]
 	},
 	"warsighted": {
 		"name": "Warsighted",
@@ -683,7 +658,6 @@
 			"This ability replaces the revelations gained at 1st, 7th, 11th, and 15th levels.",
 			"",
 			"**Recommended Mysteries:** Battle, bones, nature, metal."
-		],
-		"display": "archetype/oracle"
+		]
 	}
 }

@@ -27,8 +27,7 @@
 			"",
 			"- [Two-Headed Celestial Eagle (LN)](monster/eagle) [^I][^T]"
 		],
-		"footnotes": ["I", "T"],
-		"display": "summon"
+		"footnotes": ["I", "T"]
 	},
 	"summon_monster_i_brigh": {
 		"name": "Summon Monster I: Brigh",
@@ -42,8 +41,7 @@
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
 			"- [Clockwork Spy](monster/clockwork_spy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_calistria": {
 		"name": "Summon Monster I: Calistria",
@@ -58,8 +56,7 @@
 			"",
 			"- [Entropic Stirge](monster/stirge) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_i_kabriri": {
 		"name": "Summon Monster I: Kabriri",
@@ -73,8 +70,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Fiendish Human Zombie](monster/human_zombie)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_kostchtchie": {
 		"name": "Summon Monster I: Kostchtchie",
@@ -88,8 +84,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Great Horned Owl](monster/great_horned_owl)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_milani": {
 		"name": "Summon Monster I: Milani",
@@ -103,8 +98,7 @@
 			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
 			"",
 			"- [Great Horned Owl (Extraplanar)](monster/great_horned_owl)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_pharasma": {
 		"name": "Summon Monster I: Pharasma",
@@ -119,8 +113,7 @@
 			"",
 			"- [Whippoorwill](monster/eagle)",
 			"    - *(uses Eagle statistics)*"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_torag": {
 		"name": "Summon Monster I: Torag",
@@ -135,8 +128,7 @@
 			"",
 			"- [Badger](monster/badger) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_i_urgathoa": {
 		"name": "Summon Monster I: Urgathoa",
@@ -155,8 +147,7 @@
 			"- [Bloody Human Skeleton](monster/human_skeleton)",
 			"- [Fiendish Giant Maggot](monster/giant_maggot) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_i_zursvaater": {
 		"name": "Summon Monster I: Zursvaater",
@@ -170,8 +161,7 @@
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
 			"- [Burning Human Skeleton](monster/human_skeleton)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_the_eldest_pantheon": {
 		"name": "Summon Monster I: The Eldest (Pantheon)",
@@ -186,8 +176,7 @@
 			"",
 			"- [Sprite](monster/sprite) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_i_expanded_summon_monster": {
 		"name": "Summon Monster I: Expanded Summon Monster",
@@ -211,8 +200,7 @@
 			"- [Trumpeter Swan](monster/trumpeter_swan) [^A][^I]",
 			"- [Vulture](monster/vulture) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_i_skeleton_summoner": {
 		"name": "Summon Monster I: Skeleton Summoner",
@@ -226,8 +214,7 @@
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
 			"- [Human Skeleton](monster/human_skeleton)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_spider_summoner": {
 		"name": "Summon Monster I: Spider Summoner",
@@ -242,8 +229,7 @@
 			"",
 			"- [Giant Crab Spider](monster/giant_crab_spider) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_i_summon_evil_monster": {
 		"name": "Summon Monster I: Summon Evil Monster",
@@ -262,8 +248,7 @@
 			"- [Fiendish Pony (NE)](monster/pony)",
 			"- [Fiendish Stingray (NE)](monster/stingray)",
 			"- [Fiendish Vulture (NE)](monster/vulture)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_summon_good_monster": {
 		"name": "Summon Monster I: Summon Good Monster",
@@ -282,8 +267,7 @@
 			"- [Celestial Fire Beetle (NG)](monster/fire_beetle)",
 			"- [Celestial Pony (NG)](monster/pony)",
 			"- [Celestial Viper (NG)](monster/venomous_snake)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_summon_neutral_monster": {
 		"name": "Summon Monster I: Summon Neutral Monster",
@@ -298,8 +282,7 @@
 			"",
 			"- [Sprite (CN)](monster/sprite)",
 			"- [Stirge (N)](monster/stirge)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_i_basic": {
 		"name": "Summon Monster I: Basic",
@@ -320,8 +303,7 @@
 			"- [Pony (Horse)](monster/pony) [^A]",
 			"- [Viper (Snake)](monster/viper) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_ii_besmara": {
 		"name": "Summon Monster II: Besmara",
@@ -335,8 +317,7 @@
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
 			"- [Entropic Reefclaw (CN)](monster/reefclaw)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_calistria": {
 		"name": "Summon Monster II: Calistria",
@@ -355,8 +336,7 @@
 			"- [Entropic Giant Bee](monster/giant_bee) [^I]",
 			"- [Tiefling Rogue 1 (CN)](monster/tiefling)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_cayden_cailean": {
 		"name": "Summon Monster II: Cayden Cailean",
@@ -371,8 +351,7 @@
 			"",
 			"- [Celestial or Entropic Wolf](monster/wolf) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_desna": {
 		"name": "Summon Monster II: Desna",
@@ -387,8 +366,7 @@
 			"",
 			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_erastil": {
 		"name": "Summon Monster II: Erastil",
@@ -403,8 +381,7 @@
 			"",
 			"- [Celestial Elk (LG)](monster/elk) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_gozreh": {
 		"name": "Summon Monster II: Gozreh",
@@ -423,8 +400,7 @@
 			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^A][^I]",
 			"- [Merfolk](monster/merfolk) [^A]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_ii_groetus": {
 		"name": "Summon Monster II: Groetus",
@@ -438,8 +414,7 @@
 			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_#64_beyond_the_doomsday_door)",
 			"",
 			"- [Akata](monster/akata)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_irori": {
 		"name": "Summon Monster II: Irori",
@@ -454,8 +429,7 @@
 			"",
 			"- [Shikigami (Kami)](monster/shikigami) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_kabriri": {
 		"name": "Summon Monster II: Kabriri",
@@ -470,8 +444,7 @@
 			"",
 			"- [Fiendish Ghoul](monster/ghoul)",
 			"- [Fiendish Plague Zombie](monster/human_zombie)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_shelyn": {
 		"name": "Summon Monster II: Shelyn",
@@ -486,8 +459,7 @@
 			"",
 			"- [Grig](monster/grig) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_ii_urgathoa": {
 		"name": "Summon Monster II: Urgathoa",
@@ -502,8 +474,7 @@
 			"",
 			"- [Fiendish Giant Fly](monster/giant_fly) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_ydersius": {
 		"name": "Summon Monster II: Ydersius",
@@ -518,8 +489,7 @@
 			"",
 			"- [Venomous Snake](monster/venomous_snake) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_ii_zon-kuthon": {
 		"name": "Summon Monster II: Zon-Kuthon",
@@ -534,8 +504,7 @@
 			"",
 			"- [Augur (Kyton)](monster/augur) [evil, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ii_the_eldest_pantheon": {
 		"name": "Summon Monster II: The Eldest (Pantheon)",
@@ -551,8 +520,7 @@
 			"- [Bulabar](monster/bulabar) [^E]",
 			"- [Gremlin, Jinkin](monster/jinkin) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_ii_expanded_summon_monster": {
 		"name": "Summon Monster II: Expanded Summon Monster",
@@ -576,8 +544,7 @@
 			"- [Ram (Herd Animal)](monster/ram) [^A][^I]",
 			"- [Stag (Herd Animal)](monster/stag) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_ii_summon_evil_monster": {
 		"name": "Summon Monster II: Summon Evil Monster",
@@ -597,8 +564,7 @@
 			"- [Larvae Petitioner (CE)](monster/petitioner)",
 			"- [Lemure (Devil, LE)](monster/lemure) [evil, lawful]",
 			"- [Pugwampi (Gremlin, NE)](monster/pugwampi)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_summon_good_monster": {
 		"name": "Summon Monster II: Summon Good Monster",
@@ -616,8 +582,7 @@
 			"- [Faun (CG)](monster/faun)",
 			"- [Grig (NG)](monster/grig)",
 			"- [Pseudodragon (NG)](monster/pseudodragon)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_summon_neutral_monster": {
 		"name": "Summon Monster II: Summon Neutral Monster",
@@ -632,8 +597,7 @@
 			"",
 			"- [Atomie (CN)](monster/atomie)",
 			"- [Brownie (N)](monster/brownie)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ii_basic": {
 		"name": "Summon Monster II: Basic",
@@ -673,8 +637,7 @@
 			"- [Jocta](monster/zhyen) [air, earth, fire]",
 			"- [Zhyen](monster/zhyen) [air, earth, fire]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_iii_abadar": {
 		"name": "Summon Monster III: Abadar",
@@ -689,8 +652,7 @@
 			"",
 			"- [Resolute Hippogriff (LN)](monster/hippogriff) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_arazni": {
 		"name": "Summon Monster III: Arazni",
@@ -704,8 +666,7 @@
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
 			"- [Augur Kyton](monster/augur) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_asmodeus": {
 		"name": "Summon Monster III: Asmodeus",
@@ -720,8 +681,7 @@
 			"",
 			"- [Hell Hound](monster/hell_hound)[evil, fire, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_cayden_cailean": {
 		"name": "Summon Monster III: Cayden Cailean",
@@ -736,8 +696,7 @@
 			"",
 			"- [Satyr (without pipes, CG)](monster/satyr) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_desna": {
 		"name": "Summon Monster III: Desna",
@@ -752,8 +711,7 @@
 			"",
 			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_gorum": {
 		"name": "Summon Monster III: Gorum",
@@ -768,8 +726,7 @@
 			"",
 			"- [Iron Cobra (no poison)](monster/iron_cobra) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iii_kabriri": {
 		"name": "Summon Monster III: Kabriri",
@@ -783,8 +740,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Fiendish Ghast](monster/ghoul)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_kostchtchie": {
 		"name": "Summon Monster III: Kostchtchie",
@@ -798,8 +754,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Small)](monster/small_ice_elemental) [air, cold, water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_lamashtu": {
 		"name": "Summon Monster III: Lamashtu",
@@ -813,8 +768,7 @@
 			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_#5_sins_of_the_saviors)",
 			"",
 			"- [Fiendish Worg (CE)](monster/worg)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_mahathallah": {
 		"name": "Summon Monster III: Mahathallah",
@@ -828,8 +782,7 @@
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
 			"- [Forlarren](monster/forlarren)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_moloch": {
 		"name": "Summon Monster III: Moloch",
@@ -843,8 +796,7 @@
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
 			"- [Phantom Armor (Guardian) (LE)](monster/guardian_phantom_armor)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_nethys": {
 		"name": "Summon Monster III: Nethys",
@@ -863,8 +815,7 @@
 			"- [Blink Dog](monster/blink_dog) [^A]",
 			"- [Paracletus (Aeon)](monster/paracletus) [^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iii_norgorber": {
 		"name": "Summon Monster III: Norgorber",
@@ -883,8 +834,7 @@
 			"- [Fiendish Choker](monster/choker) [^I]",
 			"- [Human Natural Wererat Rogue 2](monster/wererat_hybrid_form)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_pharasma": {
 		"name": "Summon Monster III: Pharasma",
@@ -899,8 +849,7 @@
 			"",
 			"- [Nosoi (Psychopomp)](monster/nosoi) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_rovagug": {
 		"name": "Summon Monster III: Rovagug",
@@ -919,8 +868,7 @@
 			"- [Choker (CE)](monster/choker)",
 			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_shelyn": {
 		"name": "Summon Monster III: Shelyn",
@@ -935,8 +883,7 @@
 			"",
 			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iii_szuriel": {
 		"name": "Summon Monster III: Szuriel",
@@ -950,8 +897,7 @@
 			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
 			"",
 			"- [Cacodaemon](monster/cacodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_torag": {
 		"name": "Summon Monster III: Torag",
@@ -966,8 +912,7 @@
 			"",
 			"- [Dire Badger](monster/dire_badger) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iii_zursvaater": {
 		"name": "Summon Monster III: Zursvaater",
@@ -981,8 +926,7 @@
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
 			"- [Thoqqua](monster/thoqqua) [earth, fire]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_zyphus": {
 		"name": "Summon Monster III: Zyphus",
@@ -996,8 +940,7 @@
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
 			"- [Cacodaemon](monster/cacodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_the_eldest_pantheon": {
 		"name": "Summon Monster III: The Eldest (Pantheon)",
@@ -1013,8 +956,7 @@
 			"- [Brownie](monster/brownie) [^E]",
 			"- [Leprechaun (without major creation)](monster/leprechaun) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_iii_expanded_summon_monster": {
 		"name": "Summon Monster III: Expanded Summon Monster",
@@ -1047,8 +989,7 @@
 			"- [Velociraptor (Dinosaur)](monster/velociraptor) [^A][^I]",
 			"- [Voidworm (Protean)](monster/voidworm) [chaotic][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iii_skeleton_summoner": {
 		"name": "Summon Monster III: Skeleton Summoner",
@@ -1062,8 +1003,7 @@
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
 			"- [Human Skeleton Champion](monster/skeletal_champion)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_summon_evil_monster": {
 		"name": "Summon Monster III: Summon Evil Monster",
@@ -1083,8 +1023,7 @@
 			"- [Fiendish Shark (NE)](monster/shark)",
 			"- [Howler (CE)](monster/howler) [chaotic, evil]",
 			"- [Tripurasura (Asura, LE)](monster/tripurasura) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_summon_good_monster": {
 		"name": "Summon Monster III: Summon Good Monster",
@@ -1103,8 +1042,7 @@
 			"- [Lantern Archon (LG)](monster/lantern_archon) [good, lawful]",
 			"- [Lyrakien Azata (CG)](monster/lyrakien) [chaotic, good]",
 			"- [Silvanshee Agathion (NG)](monster/silvanshee) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_summon_neutral_monster": {
 		"name": "Summon Monster III: Summon Neutral Monster",
@@ -1122,8 +1060,7 @@
 			"- [Paracletus (Aeon) (N)](monster/paracletus)",
 			"- [Thoqqua (N)](monster/thoqqua) [earth, fire]",
 			"- [Voidworm (Protean) (CN)](monster/voidworm) [chaotic]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Aeon)",
@@ -1137,8 +1074,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Paracletus](monster/paracletus)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Agathion)",
@@ -1152,8 +1088,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Silvanshee](monster/silvanshee) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Angel)",
@@ -1167,8 +1102,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Cassisian](monster/cassisian) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Archon)",
@@ -1182,8 +1116,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Harbinger Archon](monster/harbinger_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Asura)",
@@ -1197,8 +1130,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Tripurasura](monster/tripurasura) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Daemon)",
@@ -1212,8 +1144,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Cacodaemon](monster/cacodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Div)",
@@ -1227,8 +1158,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Doru](monster/doru) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Inevitable)",
@@ -1242,8 +1172,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Arbiter](monster/arbiter) [lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Kyton)",
@@ -1257,8 +1186,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Augur](monster/augur) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Protean)",
@@ -1272,8 +1200,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Voidworm](monster/voidworm) [chaotic]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Psychopomp)",
@@ -1287,8 +1214,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Nosoi](monster/nosoi)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Qlippoth)",
@@ -1302,8 +1228,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Cythnigot](monster/cythnigot) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_cyphermage": {
 		"name": "Summon Monster III: Cyphermage",
@@ -1317,8 +1242,7 @@
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
 			"- [Sinspawn](monster/sinspawn)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iii_basic": {
 		"name": "Summon Monster III: Basic",
@@ -1346,8 +1270,7 @@
 			"- [Shark](monster/shark) [^A]",
 			"- [Wolverine](monster/wolverine) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_iv_abadar": {
 		"name": "Summon Monster IV: Abadar",
@@ -1363,8 +1286,7 @@
 			"- [Resolute Griffon (LN)](monster/griffon) [^I]",
 			"- [Two-Headed Celestial Giant Eagle (LN)](monster/giant_eagle) [^I][^T]"
 		],
-		"footnotes": ["I", "T"],
-		"display": "summon"
+		"footnotes": ["I", "T"]
 	},
 	"summon_monster_iv_ashava": {
 		"name": "Summon Monster IV: Ashava",
@@ -1378,8 +1300,7 @@
 			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
 			"- [Celestial Pegasus](monster/pegasus)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_brigh": {
 		"name": "Summon Monster IV: Brigh",
@@ -1393,8 +1314,7 @@
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
 			"- [Clockwork Servant](monster/clockwork_servant)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_deskari": {
 		"name": "Summon Monster IV: Deskari",
@@ -1408,8 +1328,7 @@
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
 			"- [Vermlek](monster/vermlek) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_erastil": {
 		"name": "Summon Monster IV: Erastil",
@@ -1424,8 +1343,7 @@
 			"",
 			"- [Celestial Dire Boar (LG)](monster/dire_boar_daeodon) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iv_geryon": {
 		"name": "Summon Monster IV: Geryon",
@@ -1439,8 +1357,7 @@
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
 			"- [Venomous Snake Swarm](monster/venomous_snake_swarm)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_hastur": {
 		"name": "Summon Monster IV: Hastur",
@@ -1454,8 +1371,7 @@
 			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
 			"",
 			"- [Byakhee](monster/byakhee)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_iomedae": {
 		"name": "Summon Monster IV: Iomedae",
@@ -1470,8 +1386,7 @@
 			"",
 			"- [Celestial Giant Eagle (LG)](monster/giant_eagle) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iv_irori": {
 		"name": "Summon Monster IV: Irori",
@@ -1486,8 +1401,7 @@
 			"",
 			"- [Giant Mantis](monster/giant_mantis)",
 			"- [Tiger](monster/tiger)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_kabriri": {
 		"name": "Summon Monster IV: Kabriri",
@@ -1501,8 +1415,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Giant Fiendish Ghast](monster/ghoul)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_kostchtchie": {
 		"name": "Summon Monster IV: Kostchtchie",
@@ -1516,8 +1429,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_lamashtu": {
 		"name": "Summon Monster IV: Lamashtu",
@@ -1532,8 +1444,7 @@
 			"",
 			"- [Yeth Hound (CE)](monster/yeth_hound) [evil][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iv_mephistopheles": {
 		"name": "Summon Monster IV: Mephistopheles",
@@ -1547,8 +1458,7 @@
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
 			"- [Guardian Scroll](monster/guardian_scroll)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_milani": {
 		"name": "Summon Monster IV: Milani",
@@ -1562,8 +1472,7 @@
 			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
 			"",
 			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_norgorber": {
 		"name": "Summon Monster IV: Norgorber",
@@ -1578,8 +1487,7 @@
 			"",
 			"- [Giant Black Widow (Spider)](monster/giant_black_widow) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iv_pharasma": {
 		"name": "Summon Monster IV: Pharasma",
@@ -1594,8 +1502,7 @@
 			"",
 			"- [Catrina (Psychopomp)](monster/catrina) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_iv_szuriel": {
 		"name": "Summon Monster IV: Szuriel",
@@ -1609,8 +1516,7 @@
 			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
 			"",
 			"- [Fiendish urdefhan](monster/urdefhan)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_torag": {
 		"name": "Summon Monster IV: Torag",
@@ -1625,8 +1531,7 @@
 			"",
 			"- [Advanced Azer](monster/azer) [fire][^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iv_xhamen-dor": {
 		"name": "Summon Monster IV: Xhamen-Dor",
@@ -1640,8 +1545,7 @@
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
 			"- [Phycomid](monster/phycomid)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_ydersius": {
 		"name": "Summon Monster IV: Ydersius",
@@ -1655,8 +1559,7 @@
 			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
 			"",
 			"- [Amphisbaena](monster/amphisbaena)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_zon-kuthon": {
 		"name": "Summon Monster IV: Zon-Kuthon",
@@ -1670,8 +1573,7 @@
 			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
 			"",
 			"- [Shadow (LE)](monster/shadow)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_zyphus": {
 		"name": "Summon Monster IV: Zyphus",
@@ -1685,8 +1587,7 @@
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
 			"- [Lacridaemon](monster/lacridaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_the_eldest_pantheon": {
 		"name": "Summon Monster IV: The Eldest (Pantheon)",
@@ -1703,8 +1604,7 @@
 			"- [Ekekeh](monster/ekekeh) [^E]",
 			"- [Quickling](monster/quickling) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_iv_expanded_summon_monster": {
 		"name": "Summon Monster IV: Expanded Summon Monster",
@@ -1734,8 +1634,7 @@
 			"- [Schir (Demon)](monster/schir) [chaotic, evil][^I]",
 			"- [Vulnudaemon (Daemon)](monster/vulnudaemon) [evil][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_iv_spider_summoner": {
 		"name": "Summon Monster IV: Spider Summoner",
@@ -1750,8 +1649,7 @@
 			"",
 			"- [Giant Black Widow](monster/giant_black_widow) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_iv_summon_evil_monster": {
 		"name": "Summon Monster IV: Summon Evil Monster",
@@ -1771,8 +1669,7 @@
 			"- [Spring-Heeled Jack (CE)](monster/spring-heeled_jack)",
 			"- [Yeth Hound (NE)](monster/yeth_hound) [evil]",
 			"- [Zebub (Devil, LE)](monster/accuser_devil_zebub) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_summon_good_monster": {
 		"name": "Summon Monster IV: Summon Good Monster",
@@ -1792,8 +1689,7 @@
 			"- [Foo Lion (NG)](monster/foo_lion) [good]",
 			"- [Hound Archon (LG)](monster/hound_archon) [good, lawful]",
 			"- [Pixie (NG)](monster/pixie)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_summon_neutral_monster": {
 		"name": "Summon Monster IV: Summon Neutral Monster",
@@ -1812,8 +1708,7 @@
 			"- [Satyr (CN)](monster/satyr)",
 			"- [Shae (N)](monster/shae)",
 			"- [Viduus (Psychopomp) (N)](monster/viduus)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster IV: Ring of Summoning Affinity (Div)",
@@ -1827,8 +1722,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Aghash](monster/aghash) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster IV: Ring of Summoning Affinity (Psychopomp)",
@@ -1842,8 +1736,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Catrina](monster/catrina)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_iv_basic": {
 		"name": "Summon Monster IV: Basic",
@@ -1886,8 +1779,7 @@
 			"- [Water Elemental (Medium)](monster/medium_water_elemental) [water]",
 			"- [Nightmare Bats](monster/nightmare_bats) [evil]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_v_ashava": {
 		"name": "Summon Monster V: Ashava",
@@ -1901,8 +1793,7 @@
 			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
 			"- [Lunar Naga](monster/lunar_naga)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_asmodeus": {
 		"name": "Summon Monster V: Asmodeus",
@@ -1918,8 +1809,7 @@
 			"- [Bearded Devil](monster/bearded_devil_barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_baphomet": {
 		"name": "Summon Monster V: Baphomet",
@@ -1933,8 +1823,7 @@
 			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- [Half-Fiend Minotaur](monster/minotaur)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_besmara": {
 		"name": "Summon Monster V: Besmara",
@@ -1948,8 +1837,7 @@
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
 			"- [Saltwater Merrow (NE)](monster/saltwater_merrow)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_calistria": {
 		"name": "Summon Monster V: Calistria",
@@ -1964,8 +1852,7 @@
 			"",
 			"- [Entropic Spider Eater](monster/spider_eater) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_cayden_cailean": {
 		"name": "Summon Monster V: Cayden Cailean",
@@ -1985,8 +1872,7 @@
 			"- [Rust Monster (N)](monster/rust_monster)",
 			"- [Satyr (with pipes) (CG)](monster/satyr)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_deskari": {
 		"name": "Summon Monster V: Deskari",
@@ -2000,8 +1886,7 @@
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
 			"- [Fiendish Giant Locust](monster/giant_locust)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_hastur": {
 		"name": "Summon Monster V: Hastur",
@@ -2015,8 +1900,7 @@
 			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
 			"",
 			"- [Keeper of the Yellow Sign](monster/keeper_of_the_yellow_sign)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_iomedae": {
 		"name": "Summon Monster V: Iomedae",
@@ -2031,8 +1915,7 @@
 			"",
 			"- [Advanced Celestial Griffon (LG)](monster/griffon) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_kabriri": {
 		"name": "Summon Monster V: Kabriri",
@@ -2046,8 +1929,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Ghul](monster/ghul)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_kostchtchie": {
 		"name": "Summon Monster V: Kostchtchie",
@@ -2062,8 +1944,7 @@
 			"",
 			"- [Fiendish Ice Elemental (Medium)](monster/medium_ice_elemental) [air, cold, water]",
 			"- [Half-Fiend Yeti](monster/yeti) [cold]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_lamashtu": {
 		"name": "Summon Monster V: Lamashtu",
@@ -2078,8 +1959,7 @@
 			"",
 			"- [Entropic Barghest (CE)](monster/barghest) [evil, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_mahathallah": {
 		"name": "Summon Monster V: Mahathallah",
@@ -2093,8 +1973,7 @@
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
 			"- [Achaierai](monster/achaierai) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_nethys": {
 		"name": "Summon Monster V: Nethys",
@@ -2109,8 +1988,7 @@
 			"",
 			"- [Cloaker](monster/cloaker) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_v_norgorber": {
 		"name": "Summon Monster V: Norgorber",
@@ -2129,8 +2007,7 @@
 			"- [Advanced Choker](monster/choker) [^I]",
 			"- [Shadow Mastiff](monster/shadow_mastiff) [evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_rovagug": {
 		"name": "Summon Monster V: Rovagug",
@@ -2149,8 +2026,7 @@
 			"- [Fiendish Gibbering Mouther (CE)](monster/gibbering_mouther) [^I]",
 			"- [Fiendish Grick (NE)](monster/grick)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_shelyn": {
 		"name": "Summon Monster V: Shelyn",
@@ -2165,8 +2041,7 @@
 			"",
 			"- [Vulpinal (Agathion)](monster/vulpinal) [good][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_szuriel": {
 		"name": "Summon Monster V: Szuriel",
@@ -2181,8 +2056,7 @@
 			"",
 			"- [Genthodaemon](monster/genthodaemon) [evil]",
 			"- [Nightmare](monster/nightmare) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_xhamen-dor": {
 		"name": "Summon Monster V: Xhamen-Dor",
@@ -2196,8 +2070,7 @@
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
 			"- [Basidirond](monster/basidirond)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_ydersius": {
 		"name": "Summon Monster V: Ydersius",
@@ -2212,8 +2085,7 @@
 			"",
 			"- [Emperor Cobra](monster/emperor_cobra) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_v_zon-kuthon": {
 		"name": "Summon Monster V: Zon-Kuthon",
@@ -2228,8 +2100,7 @@
 			"",
 			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_v_zyphus": {
 		"name": "Summon Monster V: Zyphus",
@@ -2243,8 +2114,7 @@
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
 			"- [Ceustodaemon](monster/ceustodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_the_eldest_pantheon": {
 		"name": "Summon Monster V: The Eldest (Pantheon)",
@@ -2260,8 +2130,7 @@
 			"- [Redcap](monster/redcap) [^E]",
 			"- [Remacera](monster/remacera) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_v_expanded_summon_monster": {
 		"name": "Summon Monster V: Expanded Summon Monster",
@@ -2295,8 +2164,7 @@
 			"- [Tojanida](monster/tojanida) [water][^I]",
 			"- [Vulpinal (Agathion)](monster/vulpinal) [good][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_v_spider_summoner": {
 		"name": "Summon Monster V: Spider Summoner",
@@ -2311,8 +2179,7 @@
 			"",
 			"- [Ogre Spider](monster/ogre_spider) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_v_summon_evil_monster": {
 		"name": "Summon Monster V: Summon Evil Monster",
@@ -2332,8 +2199,7 @@
 			"- [Lurker in Light (NE)](monster/lurker_in_light)",
 			"- [Salamander (CE)](monster/salamander) [fire]",
 			"- [Shadow Mastiff (NE)](monster/shadow_mastiff) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_summon_good_monster": {
 		"name": "Summon Monster V: Summon Good Monster",
@@ -2351,8 +2217,7 @@
 			"- [Djinni (CG)](monster/djinni) [air]",
 			"- [Unicorn (CG)](monster/unicorn)",
 			"- [Vulpinal Agathion (NG)](monster/vulpinal) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_summon_neutral_monster": {
 		"name": "Summon Monster V: Summon Neutral Monster",
@@ -2369,8 +2234,7 @@
 			"- [Mercane (LN)](monster/mercane)",
 			"- [Rast (N)](monster/rast) [fire]",
 			"- [Tojanida (N)](monster/tojanida) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster V: Ring of Summoning Affinity (Agathion)",
@@ -2384,8 +2248,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Vulpinal](monster/vulpinal) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster V: Ring of Summoning Affinity (Daemon)",
@@ -2399,8 +2262,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Ceustodaemon](monster/ceustodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_v_genie_binder": {
 		"name": "Summon Monster V: Genie Binder",
@@ -2415,8 +2277,7 @@
 			"",
 			"- [Djinni](monster/djinni) [air][^W]"
 		],
-		"footnotes": ["W"],
-		"display": "summon"
+		"footnotes": ["W"]
 	},
 	"summon_monster_v_basic": {
 		"name": "Summon Monster V: Basic",
@@ -2458,8 +2319,7 @@
 			"- [Ourdivar](monster/ourdivar) [chaotic]",
 			"    - *(spellcaster must be Chaotic Neutral)*"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_vi_arazni": {
 		"name": "Summon Monster VI: Arazni",
@@ -2473,8 +2333,7 @@
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
 			"- [Fiendish Giant Scarab](monster/giant_scarab)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_baphomet": {
 		"name": "Summon Monster VI: Baphomet",
@@ -2488,8 +2347,7 @@
 			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- [Fiendish Chimera](monster/chimera)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_besmara": {
 		"name": "Summon Monster VI: Besmara",
@@ -2503,8 +2361,7 @@
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
 			"- [Tylosaurus (N)](monster/tylosaurus)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_brigh": {
 		"name": "Summon Monster VI: Brigh",
@@ -2518,8 +2375,7 @@
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
 			"- [Clockwork Soldier](monster/clockwork_soldier)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_deskari": {
 		"name": "Summon Monster VI: Deskari",
@@ -2533,8 +2389,7 @@
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
 			"- [Fiendish Giant Mosquito](monster/giant_mosquito)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_geryon": {
 		"name": "Summon Monster VI: Geryon",
@@ -2548,8 +2403,7 @@
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
 			"- [Drowning Devil (Sarglagon)](monster/drowning_devil_sarglagon) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_gorum": {
 		"name": "Summon Monster VI: Gorum",
@@ -2564,8 +2418,7 @@
 			"",
 			"- [Arsinoitherium (Megafauna)](monster/arsinoitherium) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vi_gozreh": {
 		"name": "Summon Monster VI: Gozreh",
@@ -2580,8 +2433,7 @@
 			"",
 			"- [Immense Tortoise](monster/immense_tortoise) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vi_groetus": {
 		"name": "Summon Monster VI: Groetus",
@@ -2596,8 +2448,7 @@
 			"",
 			"- [Chaos Beast](monster/chaos_beast) [chaotic]",
 			"- [Mothman](monster/mothman)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_kabriri": {
 		"name": "Summon Monster VI: Kabriri",
@@ -2612,8 +2463,7 @@
 			"",
 			"- [Fiendish Ghul](monster/ghul)",
 			"- [Great Ghul](monster/ghul)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_kostchtchie": {
 		"name": "Summon Monster VI: Kostchtchie",
@@ -2627,8 +2477,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Large)](monster/large_ice_elemental) [air, cold, water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_lamashtu": {
 		"name": "Summon Monster VI: Lamashtu",
@@ -2643,8 +2492,7 @@
 			"",
 			"- [Advanced Shadow Mastiff](monster/shadow_mastiff) [evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vi_lissala": {
 		"name": "Summon Monster VI: Lissala",
@@ -2659,8 +2507,7 @@
 			"",
 			"- [Advanced Kyton Evangelist (LE)](monster/kyton) [evil, lawful]",
 			"- [Dark Naga (LE)](monster/dark_naga)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_moloch": {
 		"name": "Summon Monster VI: Moloch",
@@ -2674,8 +2521,7 @@
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
 			"- [Warmonger Devil (Levaloch)](monster/warmonger_devil_levaloch) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_nethys": {
 		"name": "Summon Monster VI: Nethys",
@@ -2690,8 +2536,7 @@
 			"",
 			"- [Theletos (Aeon)](monster/theletos) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vi_pharasma": {
 		"name": "Summon Monster VI: Pharasma",
@@ -2706,8 +2551,7 @@
 			"",
 			"- [Vanth (Psychopomp)](monster/vanth) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vi_rovagug": {
 		"name": "Summon Monster VI: Rovagug",
@@ -2722,8 +2566,7 @@
 			"",
 			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vi_sarenrae": {
 		"name": "Summon Monster VI: Sarenrae",
@@ -2738,8 +2581,7 @@
 			"",
 			"- [Janni (Genie, NG)](monster/janni) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vi_xhamen-dor": {
 		"name": "Summon Monster VI: Xhamen-Dor",
@@ -2753,8 +2595,7 @@
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
 			"- [Mi-go](monster/mi-go)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_zursvaater": {
 		"name": "Summon Monster VI: Zursvaater",
@@ -2768,8 +2609,7 @@
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
 			"- [Burning Fire Giant Skeleton](monster/human_skeleton)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_the_eldest_pantheon": {
 		"name": "Summon Monster VI: The Eldest (Pantheon)",
@@ -2785,8 +2625,7 @@
 			"- [Cold Rider](monster/cold_rider) [cold][^E]",
 			"- [Escorite](monster/escorite) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_vi_expanded_summon_monster": {
 		"name": "Summon Monster VI: Expanded Summon Monster",
@@ -2817,8 +2656,7 @@
 			"- [Theletos (Aeon)](monster/theletos) [^I]",
 			"- [Tylosaurus (Dinosaur)](monster/tylosaurus) [^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vi_summon_evil_monster": {
 		"name": "Summon Monster VI: Summon Evil Monster",
@@ -2838,8 +2676,7 @@
 			"- [Shadow Demon (CE)](monster/shadow_demon) [chaotic, evil]",
 			"- [Soul Eater (NE)](monster/soul_eater) [evil]",
 			"- [Succubus (Demon, CE)](monster/succubus) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_summon_good_monster": {
 		"name": "Summon Monster VI: Summon Good Monster",
@@ -2857,8 +2694,7 @@
 			"- [Legion Archon (LG)](monster/legion_archon) [good, lawful]",
 			"- [Lillend Azata (CG)](monster/lillend) [chaotic, good]",
 			"- [Wood Giant (CG)](monster/wood_giant)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_summon_neutral_monster": {
 		"name": "Summon Monster VI: Summon Neutral Monster",
@@ -2876,8 +2712,7 @@
 			"- [Naunet (Protean) (CN)](monster/naunet) [chaotic]",
 			"- [Theletos (Aeon)( N)](monster/theletos)",
 			"- [Vanth (Psychopomp) (N)](monster/vanth)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Aeon)",
@@ -2891,8 +2726,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Theletos](monster/theletos)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Archon)",
@@ -2906,8 +2740,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Legion Archon](monster/legion_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Asura)",
@@ -2921,8 +2754,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Adhukait](monster/adhukait) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Daemon)",
@@ -2936,8 +2768,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Hydrodaemon](monster/hydrodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Div)",
@@ -2951,8 +2782,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Pairaka](monster/pairaka) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Protean)",
@@ -2966,8 +2796,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Naunet](monster/naunet) [chaotic]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Psychopomp)",
@@ -2981,8 +2810,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Vanth](monster/vanth)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Qlippoth)",
@@ -2996,8 +2824,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Shoggti](monster/shoggti) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_cyphermage": {
 		"name": "Summon Monster VI: Cyphermage",
@@ -3011,8 +2838,7 @@
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
 			"- [Lamia](monster/lamia)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vi_genie_binder": {
 		"name": "Summon Monster VI: Genie Binder",
@@ -3028,8 +2854,7 @@
 			"- [Efreeti](monster/efreeti) [fire][^W]",
 			"- [Shaitan](monster/shaitan) [earth][^W]"
 		],
-		"footnotes": ["W"],
-		"display": "summon"
+		"footnotes": ["W"]
 	},
 	"summon_monster_vi_basic": {
 		"name": "Summon Monster VI: Basic",
@@ -3066,8 +2891,7 @@
 			"- [Triceratops (dinosaur)](monster/triceratops) [^A]",
 			"- [Water Elemental (Huge)](monster/huge_water_elemental) [water]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_vii_desna": {
 		"name": "Summon Monster VII: Desna",
@@ -3086,8 +2910,7 @@
 			"- [Star Monarch](monster/star_monarch) [^I]",
 			"- [Young Brass Dragon (CG)](monster/young_brass_dragon) [fire]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_gorum": {
 		"name": "Summon Monster VII: Gorum",
@@ -3106,8 +2929,7 @@
 			"- [Advanced Bulette](monster/bulette) [^A][^I]",
 			"- [Behir (N)](monster/behir)"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vii_gozreh": {
 		"name": "Summon Monster VII: Gozreh",
@@ -3126,8 +2948,7 @@
 			"- [Whale](monster/whale) [^A][^I]",
 			"- [Young Frost Giant](monster/frost_giant) [cold][^A]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vii_irori": {
 		"name": "Summon Monster VII: Irori",
@@ -3142,8 +2963,7 @@
 			"",
 			"- [Zuishin (Kami, NG)](monster/zuishin) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_kabriri": {
 		"name": "Summon Monster VII: Kabriri",
@@ -3158,8 +2978,7 @@
 			"",
 			"- [Fiendish Great Ghul](monster/ghul)",
 			"- [Fiendish Shaitan](monster/shaitan) [earth]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_kostchtchie": {
 		"name": "Summon Monster VII: Kostchtchie",
@@ -3173,8 +2992,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Huge)](monster/huge_ice_elemental) [air, cold, water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_minderhal": {
 		"name": "Summon Monster VII: Minderhal",
@@ -3188,8 +3006,7 @@
 			"**Sources** [Pathfinder #93: Forge of the Giant God](source/pathfinder_#93_forge_of_the_giant_god)",
 			"",
 			"- [Fiendish or Resolute Stone Giant](monster/stone_giant)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_rovagug": {
 		"name": "Summon Monster VII: Rovagug",
@@ -3208,8 +3025,7 @@
 			"- [Advanced Entropic Girtablilu](monster/girtablilu) [^I]",
 			"- [Emkrah (CE)](monster/emkrah)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_sarenrae": {
 		"name": "Summon Monster VII: Sarenrae",
@@ -3228,8 +3044,7 @@
 			"- [Djinni (NG)](monster/djinni) [air]",
 			"- [Movanic Deva (Angel)](monster/movanic_deva) [good][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_shelyn": {
 		"name": "Summon Monster VII: Shelyn",
@@ -3244,8 +3059,7 @@
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_urgathoa": {
 		"name": "Summon Monster VII: Urgathoa",
@@ -3260,8 +3074,7 @@
 			"",
 			"- [Fiendish Daughter of Urgathoa](monster/daughter_of_urgathoa) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_ydersius": {
 		"name": "Summon Monster VII: Ydersius",
@@ -3276,8 +3089,7 @@
 			"",
 			"- [Giant Anaconda](monster/giant_anaconda) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_vii_zon-kuthon": {
 		"name": "Summon Monster VII: Zon-Kuthon",
@@ -3292,8 +3104,7 @@
 			"",
 			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_vii_the_eldest_pantheon": {
 		"name": "Summon Monster VII: The Eldest (Pantheon)",
@@ -3309,8 +3120,7 @@
 			"- [Bogeyman (without phantasmal killer)](monster/bogeyman) [^E]",
 			"- [Nuckelavee](monster/nuckelavee) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_vii_expanded_summon_monster": {
 		"name": "Summon Monster VII: Expanded Summon Monster",
@@ -3339,8 +3149,7 @@
 			"- [Upasunda (Asura)](monster/upasunda) [evil, lawful][^I]",
 			"- [Whale](monster/whale) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_vii_spider_summoner": {
 		"name": "Summon Monster VII: Spider Summoner",
@@ -3355,8 +3164,7 @@
 			"",
 			"- [Giant Tarantula](monster/giant_tarantula) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_vii_summon_evil_monster": {
 		"name": "Summon Monster VII: Summon Evil Monster",
@@ -3376,8 +3184,7 @@
 			"- [Osyluth (Devil, LE)](monster/bone_devil_osyluth) [evil, lawful]",
 			"- [Sacristan (Kyton, LE)](monster/sacristan) [evil, lawful]",
 			"- [Vrock (Demon, CE)](monster/vrock) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_summon_good_monster": {
 		"name": "Summon Monster VII: Summon Good Monster",
@@ -3397,8 +3204,7 @@
 			"- [Shield Archon (LG)](monster/shield_archon) [good, lawful]",
 			"- [Treant (NG)](monster/treant)",
 			"- [Young Bronze Dragon (LG)](monster/young_bronze_dragon) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_summon_neutral_monster": {
 		"name": "Summon Monster VII: Summon Neutral Monster",
@@ -3415,8 +3221,7 @@
 			"- [Jyoti (N)](monster/jyoti)",
 			"- [Shoki (Psychopomp) (N)](monster/shoki)",
 			"- [Zelekhut (Inevitable) (LN)](monster/zelekhut) [lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Agathion)",
@@ -3430,8 +3235,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Avoral](monster/avoral) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Angel)",
@@ -3445,8 +3249,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Movanic Deva](monster/movanic_deva) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Archon)",
@@ -3460,8 +3263,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Shield Archon](monster/shield_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Asura)",
@@ -3475,8 +3277,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Upasunda](monster/upasunda) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Daemon)",
@@ -3491,8 +3292,7 @@
 			"",
 			"- [Leukodaemon](monster/leukodaemon) [evil]",
 			"- [Piscodaemon](monster/piscodaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Div)",
@@ -3506,8 +3306,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Ghawwas](monster/ghawwas) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Inevitable)",
@@ -3521,8 +3320,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Zelekhut](monster/zelekhut) [lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Kyton)",
@@ -3536,8 +3334,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Sacristan](monster/sacristan) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Qlippoth)",
@@ -3551,8 +3348,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Nyogoth](monster/nyogoth) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_vii_genie_binder": {
 		"name": "Summon Monster VII: Genie Binder",
@@ -3567,8 +3363,7 @@
 			"",
 			"- [Marid](monster/marid) [water][^W]"
 		],
-		"footnotes": ["W"],
-		"display": "summon"
+		"footnotes": ["W"]
 	},
 	"summon_monster_vii_basic": {
 		"name": "Summon Monster VII: Basic",
@@ -3604,8 +3399,7 @@
 			"- [Vrock (Demon)](monster/vrock) [chaotic, evil]",
 			"- [Water Elemental (Greater)](monster/greater_water_elemental) [water]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_viii_arazni": {
 		"name": "Summon Monster VIII: Arazni",
@@ -3619,8 +3413,7 @@
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
 			"- [Interlocutor Kyton](monster/interlocutor) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_calistria": {
 		"name": "Summon Monster VIII: Calistria",
@@ -3639,8 +3432,7 @@
 			"- [Advanced Entropic Chaos Beast](monster/chaos_beast) [chaotic][^I]",
 			"- [Hellwasp Swarm (CE)](monster/hellwasp_swarm)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_viii_geryon": {
 		"name": "Summon Monster VIII: Geryon",
@@ -3654,8 +3446,7 @@
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
 			"- [Aghasura (Asura)](monster/aghasura) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_gorum": {
 		"name": "Summon Monster VIII: Gorum",
@@ -3669,8 +3460,7 @@
 			"**Sources** [Pathfinder #35: War of the River Kings](source/pathfinder_#35_war_of_the_river_kings)",
 			"",
 			"- [Gorgon (N)](monster/gorgon)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_gozreh": {
 		"name": "Summon Monster VIII: Gozreh",
@@ -3686,8 +3476,7 @@
 			"- [Frost Giant](monster/frost_giant) [cold][^A]",
 			"- [Young Cloud Giant](monster/cloud_giant) [^A]"
 		],
-		"footnotes": ["A"],
-		"display": "summon"
+		"footnotes": ["A"]
 	},
 	"summon_monster_viii_kabriri": {
 		"name": "Summon Monster VIII: Kabriri",
@@ -3701,8 +3490,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Black Jinni](monster/black_jinni) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_kostchtchie": {
 		"name": "Summon Monster VIII: Kostchtchie",
@@ -3716,8 +3504,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Greater)](monster/greater_ice_elemental) [air, cold, water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_lamashtu": {
 		"name": "Summon Monster VIII: Lamashtu",
@@ -3732,8 +3519,7 @@
 			"",
 			"- [Nightmare (NE)](monster/nightmare) [evil]",
 			"- [Warped One (CE)](monster/warped_one) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_mahathallah": {
 		"name": "Summon Monster VIII: Mahathallah",
@@ -3747,8 +3533,7 @@
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
 			"- [Cabal Devil](monster/cabal_devil_uniila) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_mephistopheles": {
 		"name": "Summon Monster VIII: Mephistopheles",
@@ -3762,8 +3547,7 @@
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
 			"- [Contract Devil (Phistophilus)](monster/contract_devil_phistophilus) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_moloch": {
 		"name": "Summon Monster VIII: Moloch",
@@ -3777,8 +3561,7 @@
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
 			"- [Tophet](monster/tophet)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_norgorber": {
 		"name": "Summon Monster VIII: Norgorber",
@@ -3793,8 +3576,7 @@
 			"",
 			"- [Jorogumo](monster/jorogumo) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_viii_sarenrae": {
 		"name": "Summon Monster VIII: Sarenrae",
@@ -3809,8 +3591,7 @@
 			"",
 			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
 		],
-		"footnotes": ["W"],
-		"display": "summon"
+		"footnotes": ["W"]
 	},
 	"summon_monster_viii_zon-kuthon": {
 		"name": "Summon Monster VIII: Zon-Kuthon",
@@ -3824,8 +3605,7 @@
 			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
 			"",
 			"- [Greater Shadow (LE)](monster/greater_shadow)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_the_eldest_pantheon": {
 		"name": "Summon Monster VIII: The Eldest (Pantheon)",
@@ -3841,8 +3621,7 @@
 			"- [Nereid](monster/nereid) [water][^E]",
 			"- [Rusalka](monster/rusalka) [^E]"
 		],
-		"footnotes": ["EI"],
-		"display": "summon"
+		"footnotes": ["EI"]
 	},
 	"summon_monster_viii_expanded_summon_monster": {
 		"name": "Summon Monster VIII: Expanded Summon Monster",
@@ -3870,8 +3649,7 @@
 			"- [Shira (Div)](monster/shira) [evil][^I]",
 			"- [Spinosaurus (Dinosaur)](monster/spinosaurus) [^A][^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_viii_summon_evil_monster": {
 		"name": "Summon Monster VIII: Summon Evil Monster",
@@ -3891,8 +3669,7 @@
 			"- [Meladaemon (Daemon, NE)](monster/meladaemon) [evil]",
 			"- [Rusalka (NE)](monster/rusalka)",
 			"- [Young Adult Green Dragon (LE)](monster/young_green_dragon) [air]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_summon_good_monster": {
 		"name": "Summon Monster VIII: Summon Good Monster",
@@ -3910,8 +3687,7 @@
 			"- [Lammasu (LG)](monster/lammasu)",
 			"- [Monadic Deva (NG)](monster/monadic_deva) [good]",
 			"- [Young Gold Dragon (LG)](monster/young_gold_dragon) [fire]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_summon_neutral_monster": {
 		"name": "Summon Monster VIII: Summon Neutral Monster",
@@ -3925,8 +3701,7 @@
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
 			"- [Imentesh (Protean) (CN)](monster/imentesh) [chaotic]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Agathion)",
@@ -3940,8 +3715,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Leonal](monster/leonal) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Angel)",
@@ -3955,8 +3729,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Monadic Deva](monster/monadic_deva) [good]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Asura)",
@@ -3970,8 +3743,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Aghasura](monster/aghasura) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Daemon)",
@@ -3986,8 +3758,7 @@
 			"",
 			"- [Derghodaemon](monster/derghodaemon) [evil]",
 			"- [Meladaemon](monster/meladaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Div)",
@@ -4001,8 +3772,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Shira](monster/shira) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Inevitable)",
@@ -4016,8 +3786,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Kolyarut](monster/kolyarut) [lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Qlippoth)",
@@ -4031,8 +3800,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Chernobue](monster/chernobue) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_viii_basic": {
 		"name": "Summon Monster VIII: Basic",
@@ -4059,8 +3827,7 @@
 			"- [Magma Elemental (Elder)](monster/elder_magma_elemental) [earth, fire]",
 			"- [Mud Elemental (Elder)](monster/elder_mud_elemental) [earth, water]",
 			"- [Water Elemental (Elder)](monster/elder_water_elemental) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_abadar": {
 		"name": "Summon Monster IX: Abadar",
@@ -4079,8 +3846,7 @@
 			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful][^I]",
 			"- [Kolyarut (LN)](monster/kolyarut) [lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ix_gozreh": {
 		"name": "Summon Monster IX: Gozreh",
@@ -4100,8 +3866,7 @@
 			"- [Great White Whale](monster/great_white_whale) [^A][^I]",
 			"- [Young Storm Giant](monster/storm_giant) [^A]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_ix_kabriri": {
 		"name": "Summon Monster IX: Kabriri",
@@ -4115,8 +3880,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Fiendish Black Jinni](monster/black_jinni) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_kostchtchie": {
 		"name": "Summon Monster IX: Kostchtchie",
@@ -4130,8 +3894,7 @@
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Elder)](monster/elder_ice_elemental) [air, cold, water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_mephistopheles": {
 		"name": "Summon Monster IX: Mephistopheles",
@@ -4145,8 +3908,7 @@
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
 			"- [Heresy Devil (Ayngavhaul)](monster/heresy_devil_ayngavhaul) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_pharasma": {
 		"name": "Summon Monster IX: Pharasma",
@@ -4161,8 +3923,7 @@
 			"",
 			"- [Morrigna (Psychopomp)](monster/morrigna) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ix_sarenrae": {
 		"name": "Summon Monster IX: Sarenrae",
@@ -4177,8 +3938,7 @@
 			"",
 			"- [Peri](monster/peri) [good][^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_monster_ix_the_eldest_pantheon": {
 		"name": "Summon Monster IX: The Eldest (Pantheon)",
@@ -4194,8 +3954,7 @@
 			"- [Ankou](monster/ankou) [^E]",
 			"- [Hamadryad](monster/hamadryad) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_monster_ix_expanded_summon_monster": {
 		"name": "Summon Monster IX: Expanded Summon Monster",
@@ -4216,8 +3975,7 @@
 			"- [Tarry Demodand](monster/tarry_demodand) [chaotic, evil][^I]",
 			"- [Valkyrie](monster/valkyrie) [^I]"
 		],
-		"footnotes": ["A", "I"],
-		"display": "summon"
+		"footnotes": ["A", "I"]
 	},
 	"summon_monster_ix_summon_evil_monster": {
 		"name": "Summon Monster IX: Summon Evil Monster",
@@ -4237,8 +3995,7 @@
 			"- [Nalfeshnee (Demon, CE)](monster/nalfeshnee) [chaotic, evil]",
 			"- [Sepid (Div, NE)](monster/sepid) [evil]",
 			"- [Thanadaemon (Daemon, NE)](monster/thanadaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_summon_good_monster": {
 		"name": "Summon Monster IX: Summon Good Monster",
@@ -4257,8 +4014,7 @@
 			"- [Leonal Agathion (NG)](monster/leonal) [good]",
 			"- [Storm Giant (CG)](monster/storm_giant)",
 			"- [Trumpet Archon (LG)](monster/trumpet_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_summon_neutral_monster": {
 		"name": "Summon Monster IX: Summon Neutral Monster",
@@ -4274,8 +4030,7 @@
 			"- [Akhana (Aeon) (N)](monster/akhana)",
 			"- [Morrigna (Psychopomp)](monster/morrigna)",
 			"- [Valkyrie (CN)](monster/valkyrie)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Aeon)",
@@ -4289,8 +4044,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Akhana](monster/akhana)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Daemon)",
@@ -4304,8 +4058,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Thanadaemon](monster/thanadaemon) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Div)",
@@ -4319,8 +4072,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Sepid](monster/sepid) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Inevitable)",
@@ -4334,8 +4086,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Marut](monster/marut) [lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Kyton)",
@@ -4349,8 +4100,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Interlocutor](monster/interlocutor) [evil, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Protean)",
@@ -4364,8 +4114,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Imentesh](monster/imentesh) [chaotic]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Psychopomp)",
@@ -4379,8 +4128,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Morrigna](monster/morrigna)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Qlippoth)",
@@ -4394,8 +4142,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Augnagar](monster/augnagar) [chaotic, evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_cyphermage": {
 		"name": "Summon Monster IX: Cyphermage",
@@ -4409,8 +4156,7 @@
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
 			"- [Shining Child](monster/shining_child) [evil]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_monster_ix_basic": {
 		"name": "Summon Monster IX: Basic",
@@ -4428,8 +4174,7 @@
 			"- [Ice Devil](monster/ice_devil_gelugon) [evil, lawful]",
 			"- [Nalfeshnee (Demon)](monster/nalfeshnee) [chaotic, evil]",
 			"- [Trumpet Archon](monster/trumpet_archon) [good, lawful]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_druid_shark_shaman": {
 		"name": "Summon Nature's Ally I: Druid Shark Shaman",
@@ -4443,8 +4188,7 @@
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
 			"- [Stingray](monster/stingray)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_abadar": {
 		"name": "Summon Nature's Ally I: Abadar",
@@ -4459,8 +4203,7 @@
 			"",
 			"- [Two-Headed Celestial Eagle (LN)](monster/eagle) [^I][^T]"
 		],
-		"footnotes": ["I", "T"],
-		"display": "summon"
+		"footnotes": ["I", "T"]
 	},
 	"summon_nature's_ally_i_calistria": {
 		"name": "Summon Nature's Ally I: Calistria",
@@ -4475,8 +4218,7 @@
 			"",
 			"- [Entropic Stirge](monster/stirge) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_i_pharasma": {
 		"name": "Summon Nature's Ally I: Pharasma",
@@ -4491,8 +4233,7 @@
 			"",
 			"- [Whippoorwill](monster/eagle)",
 			"    - *(uses Eagle statistics)*"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_torag": {
 		"name": "Summon Nature's Ally I: Torag",
@@ -4507,8 +4248,7 @@
 			"",
 			"- [Badger](monster/badger) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_i_urgathoa": {
 		"name": "Summon Nature's Ally I: Urgathoa",
@@ -4523,8 +4263,7 @@
 			"",
 			"- [Fiendish Giant Maggot](monster/giant_maggot) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_i_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally I: The Eldest (Pantheon)",
@@ -4539,8 +4278,7 @@
 			"",
 			"- [Sprite](monster/sprite) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_i_spider_summoner": {
 		"name": "Summon Nature's Ally I: Spider Summoner",
@@ -4554,8 +4292,7 @@
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
 			"- [Giant Crab Spider](monster/giant_crab_spider)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_summon_plant_ally": {
 		"name": "Summon Nature's Ally I: Summon Plant Ally",
@@ -4570,8 +4307,7 @@
 			"",
 			"- [Leaf Leshy](monster/leaf_leshy)",
 			"- [Vegepygmy](monster/vegepygmy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally I: Ring of Natural Attunement (Leshy)",
@@ -4585,8 +4321,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Leaf Leshy](monster/leaf_leshy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_i_basic": {
 		"name": "Summon Nature's Ally I: Basic",
@@ -4609,8 +4344,7 @@
 			"- [Pony (Horse)](monster/pony)",
 			"- [Stirge](monster/stirge)",
 			"- [Viper (Snake)](monster/viper)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ii_druid_shark_shaman": {
 		"name": "Summon Nature's Ally II: Druid Shark Shaman",
@@ -4624,8 +4358,7 @@
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
 			"- [Manta Ray](monster/manta_ray)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ii_calistria": {
 		"name": "Summon Nature's Ally II: Calistria",
@@ -4640,8 +4373,7 @@
 			"",
 			"- [Entropic Giant Bee](monster/giant_bee) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_cayden_cailean": {
 		"name": "Summon Nature's Ally II: Cayden Cailean",
@@ -4656,8 +4388,7 @@
 			"",
 			"- [Celestial or Entropic Wolf](monster/wolf) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_desna": {
 		"name": "Summon Nature's Ally II: Desna",
@@ -4672,8 +4403,7 @@
 			"",
 			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_erastil": {
 		"name": "Summon Nature's Ally II: Erastil",
@@ -4688,8 +4418,7 @@
 			"",
 			"- [Celestial Elk (LG)](monster/elk) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_gozreh": {
 		"name": "Summon Nature's Ally II: Gozreh",
@@ -4704,8 +4433,7 @@
 			"",
 			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^I]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_green_faith": {
 		"name": "Summon Nature's Ally II: Green Faith",
@@ -4723,8 +4451,7 @@
 			"- **Order of the Earth**",
 			"    - [Dire Badger](monster/dire_badger)",
 			"    - [Giant Porcupine](monster/giant_porcupine)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ii_irori": {
 		"name": "Summon Nature's Ally II: Irori",
@@ -4739,8 +4466,7 @@
 			"",
 			"- [Shikigami (Kami)](monster/shikigami)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_shelyn": {
 		"name": "Summon Nature's Ally II: Shelyn",
@@ -4755,8 +4481,7 @@
 			"",
 			"- [Grig](monster/grig)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_urgathoa": {
 		"name": "Summon Nature's Ally II: Urgathoa",
@@ -4771,8 +4496,7 @@
 			"",
 			"- [Fiendish Giant Fly](monster/giant_fly)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_zon-kuthon": {
 		"name": "Summon Nature's Ally II: Zon-Kuthon",
@@ -4787,8 +4511,7 @@
 			"",
 			"- [Augur (Kyton)](monster/augur) [evil, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally II: The Eldest (Pantheon)",
@@ -4804,8 +4527,7 @@
 			"- [Bulabar](monster/bulabar) [^E]",
 			"- [Gremlin, Jinkin](monster/jinkin) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_ii_summon_plant_ally": {
 		"name": "Summon Nature's Ally II: Summon Plant Ally",
@@ -4821,8 +4543,7 @@
 			"- [Gourd Leshy](monster/gourd_leshy)",
 			"- [Leaf Ray](monster/leaf_ray)",
 			"    - *(without Seed ability)*"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally II: Ring of Natural Attunement (Leshy)",
@@ -4836,8 +4557,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Gourd Leshy](monster/gourd_leshy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ii_basic": {
 		"name": "Summon Nature's Ally II: Basic",
@@ -4869,8 +4589,7 @@
 			"- [Squid](monster/squid)",
 			"- [Water Elemental (Small)](monster/small_water_elemental) [water]",
 			"- [Wolf](monster/wolf)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iii_abadar": {
 		"name": "Summon Nature's Ally III: Abadar",
@@ -4885,8 +4604,7 @@
 			"",
 			"- [Resolute Hippogriff (LN)](monster/hippogriff)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_asmodeus": {
 		"name": "Summon Nature's Ally III: Asmodeus",
@@ -4901,8 +4619,7 @@
 			"",
 			"- [Hell Hound](monster/hell_hound) [evil, fire, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_cayden_cailean": {
 		"name": "Summon Nature's Ally III: Cayden Cailean",
@@ -4917,8 +4634,7 @@
 			"",
 			"- [Satyr (without pipes, CG)](monster/satyr)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_desna": {
 		"name": "Summon Nature's Ally III: Desna",
@@ -4933,8 +4649,7 @@
 			"",
 			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_gorum": {
 		"name": "Summon Nature's Ally III: Gorum",
@@ -4949,8 +4664,7 @@
 			"",
 			"- [Iron Cobra (no poison)](monster/iron_cobra)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_nethys": {
 		"name": "Summon Nature's Ally III: Nethys",
@@ -4965,8 +4679,7 @@
 			"",
 			"- [Paracletus (Aeon)](monster/paracletus)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_norgorber": {
 		"name": "Summon Nature's Ally III: Norgorber",
@@ -4981,8 +4694,7 @@
 			"",
 			"- [Fiendish Choker](monster/choker)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_pharasma": {
 		"name": "Summon Nature's Ally III: Pharasma",
@@ -4997,8 +4709,7 @@
 			"",
 			"- [Nosoi (Psychopomp)](monster/nosoi)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_rovagug": {
 		"name": "Summon Nature's Ally III: Rovagug",
@@ -5013,8 +4724,7 @@
 			"",
 			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_shelyn": {
 		"name": "Summon Nature's Ally III: Shelyn",
@@ -5029,8 +4739,7 @@
 			"",
 			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_torag": {
 		"name": "Summon Nature's Ally III: Torag",
@@ -5045,8 +4754,7 @@
 			"",
 			"- [Dire Badger](monster/dire_badger)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally III: The Eldest (Pantheon)",
@@ -5062,8 +4770,7 @@
 			"- [Brownie](monster/brownie) [^E]",
 			"- [Leprechaun (without major creation)](monster/leprechaun) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_iii_summon_plant_ally": {
 		"name": "Summon Nature's Ally III: Summon Plant Ally",
@@ -5078,8 +4785,7 @@
 			"",
 			"- [Fungus Leshy](monster/fungus_leshy)",
 			"- [Weedwhip](monster/weedwhip)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Kami)",
@@ -5093,8 +4799,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Shikigami](monster/shikigami)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Leshy)",
@@ -5108,8 +4813,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Fungus Leshy](monster/fungus_leshy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iii_basic": {
 		"name": "Summon Nature's Ally III: Basic",
@@ -5135,8 +4839,7 @@
 			"- [Monitor Lizard](monster/monitor_lizard)",
 			"- [Shark](monster/shark)",
 			"- [Wolverine](monster/wolverine)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_abadar": {
 		"name": "Summon Nature's Ally IV: Abadar",
@@ -5152,8 +4855,7 @@
 			"- [Resolute Griffon (LN)](monster/griffon) [^I]",
 			"- [Two-Headed Celestial Giant Eagle (LN)](monster/giant_eagle) [^I][^T]"
 		],
-		"footnotes": ["I", "T"],
-		"display": "summon"
+		"footnotes": ["I", "T"]
 	},
 	"summon_nature's_ally_iv_erastil": {
 		"name": "Summon Nature's Ally IV: Erastil",
@@ -5168,8 +4870,7 @@
 			"",
 			"- [Celestial Dire Boar (LG)](monster/dire_boar_daeodon)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_green_faith": {
 		"name": "Summon Nature's Ally IV: Green Faith",
@@ -5190,8 +4891,7 @@
 			"    - [Giant Vulture](monster/giant_vulture)",
 			"- **Order of the Leaf, Wave**",
 			"    - [Seaweed Leshy](monster/seaweed_leshy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_iomedae": {
 		"name": "Summon Nature's Ally IV: Iomedae",
@@ -5206,8 +4906,7 @@
 			"",
 			"- [Celestial Giant Eagle (LG)](monster/giant_eagle)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_lamashtu": {
 		"name": "Summon Nature's Ally IV: Lamashtu",
@@ -5222,8 +4921,7 @@
 			"",
 			"- [Yeth Hound (CE)](monster/yeth_hound) [evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_norgorber": {
 		"name": "Summon Nature's Ally IV: Norgorber",
@@ -5238,8 +4936,7 @@
 			"",
 			"- [Giant Black Widow (Spider)](monster/giant_black_widow)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_pharasma": {
 		"name": "Summon Nature's Ally IV: Pharasma",
@@ -5254,8 +4951,7 @@
 			"",
 			"- [Catrina (Psychopomp)](monster/catrina)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_torag": {
 		"name": "Summon Nature's Ally IV: Torag",
@@ -5270,8 +4966,7 @@
 			"",
 			"- [Advanced Azer](monster/azer) [fire]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_iv_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally IV: The Eldest (Pantheon)",
@@ -5288,8 +4983,7 @@
 			"- [Ekekeh](monster/ekekeh) [^E]",
 			"- [Quickling](monster/quickling) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_iv_spider_summoner": {
 		"name": "Summon Nature's Ally IV: Spider Summoner",
@@ -5303,8 +4997,7 @@
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
 			"- [Giant Black Widow](monster/giant_black_widow)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_summon_plant_ally": {
 		"name": "Summon Nature's Ally IV: Summon Plant Ally",
@@ -5320,8 +5013,7 @@
 			"- [Assassin Vine](monster/assassin_vine)",
 			"- [Seaweed Leshy](monster/seaweed_leshy)",
 			"    - *(without Air Cyst ability)*"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Drake)",
@@ -5336,8 +5028,7 @@
 			"",
 			"- [Forest Drake](monster/forest_drake) [air]",
 			"- [Shadow Drake](monster/shadow_drake) [cold]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Leshy)",
@@ -5351,8 +5042,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Seaweed Leshy](monster/seaweed_leshy)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_iv_basic": {
 		"name": "Summon Nature's Ally IV: Basic",
@@ -5395,8 +5085,7 @@
 			"- [Tiger](monster/tiger)",
 			"- [Water Elemental (Medium)](monster/medium_water_elemental) [water]",
 			"- [Anhana](monster/anhana)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_asmodeus": {
 		"name": "Summon Nature's Ally V: Asmodeus",
@@ -5412,8 +5101,7 @@
 			"- [Bearded Devil](monster/bearded_devil_barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_calistria": {
 		"name": "Summon Nature's Ally V: Calistria",
@@ -5428,8 +5116,7 @@
 			"",
 			"- [Entropic Spider Eater](monster/spider_eater)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_cayden_cailean": {
 		"name": "Summon Nature's Ally V: Cayden Cailean",
@@ -5444,8 +5131,7 @@
 			"",
 			"- [Cayhound](monster/cayhound)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_green_faith": {
 		"name": "Summon Nature's Ally V: Green Faith",
@@ -5464,8 +5150,7 @@
 			"    - [Giant Gar](monster/giant_gar)",
 			"- **Order of the Wing**",
 			"    - [Giant Owl](monster/giant_owl)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_iomedae": {
 		"name": "Summon Nature's Ally V: Iomedae",
@@ -5480,8 +5165,7 @@
 			"",
 			"- [Advanced Celestial Griffon (LG)](monster/griffon)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_lamashtu": {
 		"name": "Summon Nature's Ally V: Lamashtu",
@@ -5496,8 +5180,7 @@
 			"",
 			"- [Entropic Barghest (CE)](monster/barghest) [evil, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_norgorber": {
 		"name": "Summon Nature's Ally V: Norgorber",
@@ -5512,8 +5195,7 @@
 			"",
 			"- [Advanced Choker](monster/choker)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_rovagug": {
 		"name": "Summon Nature's Ally V: Rovagug",
@@ -5528,8 +5210,7 @@
 			"",
 			"- [Fiendish Gibbering Mouther (CE)](monster/gibbering_mouther)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_sheyln": {
 		"name": "Summon Nature's Ally V: Sheyln",
@@ -5544,8 +5225,7 @@
 			"",
 			"- [Vulpinal (Agathion)](monster/vulpinal) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_zon-kuthon": {
 		"name": "Summon Nature's Ally V: Zon-Kuthon",
@@ -5560,8 +5240,7 @@
 			"",
 			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_v_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally V: The Eldest (Pantheon)",
@@ -5577,8 +5256,7 @@
 			"- [Redcap](monster/redcap) [^E]",
 			"- [Remacera](monster/remacera) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_v_spider_summoner": {
 		"name": "Summon Nature's Ally V: Spider Summoner",
@@ -5592,8 +5270,7 @@
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
 			"- [Ogre Spider](monster/ogre_spider)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_summon_plant_ally": {
 		"name": "Summon Nature's Ally V: Summon Plant Ally",
@@ -5608,8 +5285,7 @@
 			"",
 			"- [Mandragora](monster/mandragora)",
 			"- [Shambling Mound](monster/shambling_mound)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Drake)",
@@ -5623,8 +5299,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Flame Drake](monster/flame_drake) [fire]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Kami)",
@@ -5638,8 +5313,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Kodama](monster/kodama)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_v_basic": {
 		"name": "Summon Nature's Ally V: Basic",
@@ -5671,8 +5345,7 @@
 			"- [Orca (Dolphin)](monster/orca)",
 			"- [Water Elemental (Large)](monster/large_water_elemental) [water]",
 			"- [Woolly Rhinoceros](monster/woolly_rhinoceros)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vi_gorum": {
 		"name": "Summon Nature's Ally VI: Gorum",
@@ -5687,8 +5360,7 @@
 			"",
 			"- [Arsinoitherium](monster/arsinoitherium)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_gozreh": {
 		"name": "Summon Nature's Ally VI: Gozreh",
@@ -5703,8 +5375,7 @@
 			"",
 			"- [Immense Tortoise](monster/immense_tortoise)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_green_faith": {
 		"name": "Summon Nature's Ally VI: Green Faith",
@@ -5719,8 +5390,7 @@
 			"",
 			"- **Order of the Leaf**",
 			"    - [Shambling Mound](monster/shambling_mound)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vi_lamashtu": {
 		"name": "Summon Nature's Ally VI: Lamashtu",
@@ -5735,8 +5405,7 @@
 			"",
 			"- [Advanced Shadow Mastiff](monster/shadow_mastiff) [evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_nethys": {
 		"name": "Summon Nature's Ally VI: Nethys",
@@ -5751,8 +5420,7 @@
 			"",
 			"- [Theletos (Aeon)](monster/theletos)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_pharasma": {
 		"name": "Summon Nature's Ally VI: Pharasma",
@@ -5767,8 +5435,7 @@
 			"",
 			"- [Vanth (Psychopomp)](monster/vanth)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_rovagug": {
 		"name": "Summon Nature's Ally VI: Rovagug",
@@ -5783,8 +5450,7 @@
 			"",
 			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_sarenrae": {
 		"name": "Summon Nature's Ally VI: Sarenrae",
@@ -5799,8 +5465,7 @@
 			"",
 			"- [Janni (Genie, NG)](monster/janni)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vi_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VI: The Eldest (Pantheon)",
@@ -5816,8 +5481,7 @@
 			"- [Cold Rider](monster/cold_rider) [cold][^E]",
 			"- [Escorite](monster/escorite) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_vi_summon_plant_ally": {
 		"name": "Summon Nature's Ally VI: Summon Plant Ally",
@@ -5832,8 +5496,7 @@
 			"",
 			"- [Tendriculos](monster/tendriculos)",
 			"- [Treant](monster/treant)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vi_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally VI: Ring of Natural Attunement (Drake)",
@@ -5847,8 +5510,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Frost Drake](monster/frost_drake) [cold]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vi_basic": {
 		"name": "Summon Nature's Ally VI: Basic",
@@ -5881,8 +5543,7 @@
 			"- [Stone Giant](monster/stone_giant)",
 			"- [Triceratops (Dinosaur)](monster/triceratops)",
 			"- [Water Elemental (Huge)](monster/huge_water_elemental) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vii_desna": {
 		"name": "Summon Nature's Ally VII: Desna",
@@ -5897,8 +5558,7 @@
 			"",
 			"- [Star Monarch](monster/star_monarch)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_gorum": {
 		"name": "Summon Nature's Ally VII: Gorum",
@@ -5913,8 +5573,7 @@
 			"",
 			"- [Advanced Bulette](monster/bulette)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_gozreh": {
 		"name": "Summon Nature's Ally VII: Gozreh",
@@ -5929,8 +5588,7 @@
 			"",
 			"- [Whale](monster/whale)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_green_faith": {
 		"name": "Summon Nature's Ally VII: Green Faith",
@@ -5949,8 +5607,7 @@
 			"    - [Giant Flytrap](monster/giant_flytrap)",
 			"- *Order of the Wave*",
 			"    - [Giant Snapping Turtle](monster/giant_snapping_turtle)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vii_irori": {
 		"name": "Summon Nature's Ally VII: Irori",
@@ -5965,8 +5622,7 @@
 			"",
 			"- [Zuishin (Kami, NG)](monster/zuishin)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_rovagug": {
 		"name": "Summon Nature's Ally VII: Rovagug",
@@ -5981,8 +5637,7 @@
 			"",
 			"- [Advanced Entropic Girtablilu](monster/girtablilu)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_sarenrae": {
 		"name": "Summon Nature's Ally VII: Sarenrae",
@@ -6001,8 +5656,7 @@
 			"- [Djinni (NG)](monster/djinni) [air]",
 			"- [Movanic Deva (Angel)](monster/movanic_deva) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_shelyn": {
 		"name": "Summon Nature's Ally VII: Shelyn",
@@ -6017,8 +5671,7 @@
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_urgathoa": {
 		"name": "Summon Nature's Ally VII: Urgathoa",
@@ -6033,8 +5686,7 @@
 			"",
 			"- [Fiendish Daughter of Urgathoa](monster/daughter_of_urgathoa)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_zon-kuthon": {
 		"name": "Summon Nature's Ally VII: Zon-Kuthon",
@@ -6049,8 +5701,7 @@
 			"",
 			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_vii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VII: The Eldest (Pantheon)",
@@ -6066,8 +5717,7 @@
 			"- [Bogeyman (without phantasmal killer)](monster/bogeyman) [^E]",
 			"- [Nuckelavee](monster/nuckelavee) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_vii_spider_summoner": {
 		"name": "Summon Nature's Ally VII: Spider Summoner",
@@ -6081,8 +5731,7 @@
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
 			"- [Giant Tarantula](monster/giant_tarantula)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vii_summon_plant_ally": {
 		"name": "Summon Nature's Ally VII: Summon Plant Ally",
@@ -6096,8 +5745,7 @@
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
 			"- [Giant Flytrap](monster/giant_flytrap)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally VII: Ring of Natural Attunement (Kami)",
@@ -6111,8 +5759,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Zuishin](monster/zuishin)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_vii_basic": {
 		"name": "Summon Nature's Ally VII: Basic",
@@ -6144,8 +5791,7 @@
 			"- [Roc](monster/roc)",
 			"- [Tyrannosaurus (Dinosaur)](monster/tyrannosaurus)",
 			"- [Water Elemental (Greater)](monster/greater_water_elemental) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_viii_calistria": {
 		"name": "Summon Nature's Ally VIII: Calistria",
@@ -6160,8 +5806,7 @@
 			"",
 			"- [Advanced Entropic Chaos Beast](monster/chaos_beast) [chaotic]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_viii_norgorber": {
 		"name": "Summon Nature's Ally VIII: Norgorber",
@@ -6176,8 +5821,7 @@
 			"",
 			"- [Jorogumo](monster/jorogumo)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_viii_sarenrae": {
 		"name": "Summon Nature's Ally VIII: Sarenrae",
@@ -6192,8 +5836,7 @@
 			"",
 			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
 		],
-		"footnotes": ["W"],
-		"display": "summon"
+		"footnotes": ["W"]
 	},
 	"summon_nature's_ally_viii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VIII: The Eldest (Pantheon)",
@@ -6209,8 +5852,7 @@
 			"- [Nereid](monster/nereid) [water][^E]",
 			"- [Rusalka](monster/rusalka) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_viii_summon_plant_ally": {
 		"name": "Summon Nature's Ally VIII: Summon Plant Ally",
@@ -6224,8 +5866,7 @@
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
 			"- [Jinmenju](monster/jinmenju)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_viii_basic": {
 		"name": "Summon Nature's Ally VIII: Basic",
@@ -6250,8 +5891,7 @@
 			"- [Mud Elemental (Elder)](monster/elder_mud_elemental) [earth, water]",
 			"- [Purple Worm](monster/purple_worm)",
 			"- [Water Elemental (Elder)](monster/elder_water_elemental) [water]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ix_abadar": {
 		"name": "Summon Nature's Ally IX: Abadar",
@@ -6266,8 +5906,7 @@
 			"",
 			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ix_gozreh": {
 		"name": "Summon Nature's Ally IX: Gozreh",
@@ -6282,8 +5921,7 @@
 			"",
 			"- [Great White Whale](monster/great_white_whale)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ix_pharasma": {
 		"name": "Summon Nature's Ally IX: Pharasma",
@@ -6298,8 +5936,7 @@
 			"",
 			"- [Morrigna (Psychopomp)](monster/morrigna)"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ix_sarenrae": {
 		"name": "Summon Nature's Ally IX: Sarenrae",
@@ -6314,8 +5951,7 @@
 			"",
 			"- [Peri](monster/peri) [good]"
 		],
-		"footnotes": ["I"],
-		"display": "summon"
+		"footnotes": ["I"]
 	},
 	"summon_nature's_ally_ix_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally IX: The Eldest (Pantheon)",
@@ -6331,8 +5967,7 @@
 			"- [Ankou](monster/ankou) [^E]",
 			"- [Hamadryad](monster/hamadryad) [^E]"
 		],
-		"footnotes": ["E"],
-		"display": "summon"
+		"footnotes": ["E"]
 	},
 	"summon_nature's_ally_ix_summon_plant_ally": {
 		"name": "Summon Nature's Ally IX: Summon Plant Ally",
@@ -6346,8 +5981,7 @@
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
 			"- [Alraune](monster/alraune)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ix_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Drake)",
@@ -6361,8 +5995,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Desert Drake](monster/desert_drake) [earth]"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ix_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Kami)",
@@ -6376,8 +6009,7 @@
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
 			"- [Toshigami](monster/toshigami)"
-		],
-		"display": "summon"
+		]
 	},
 	"summon_nature's_ally_ix_basic": {
 		"name": "Summon Nature's Ally IX: Basic",
@@ -6391,7 +6023,6 @@
 			"",
 			"- [Pixie (w/irresisitible dance and sleep arrows)](monster/pixie)",
 			"- [Storm Giant](monster/storm_giant)"
-		],
-		"display": "summon"
+		]
 	}
 }

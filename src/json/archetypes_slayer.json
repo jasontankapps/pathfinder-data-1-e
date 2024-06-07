@@ -32,8 +32,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the ankou's shadow archetype: bleeding attack, fast stealth, slowing strike, and surprise attack.",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the ankou's shadow archetype: assassinate, hunter's surprise, and woodland stride."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"avalancher": {
 		"name": "Avalancher",
@@ -65,8 +64,7 @@
 			"**Death from Above (Ex):** At 20th level, an avalancher can take down his foe with a single attack. During a round, if he falls at least 10 feet (the action type depends on how he comes to be falling), he can make a single attack at his full base attack bonus as a standard action, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The save DC is equal to 20 + 1 for every 10 feet the avalancher fell before making the attack (to a maximum of DC 30 for a fall of 100 feet or more). Whether or not the target succeeds, it can't be targeted by this ability again (by any avalancher) for 24 hours.",
 			"",
 			"This replaces master slayer."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"bloody_jake": {
 		"name": "Bloody Jake",
@@ -110,8 +108,7 @@
 			"**Woodland Shortcut (Sp):** At 13th level, a bloody jake can move with supernatural ease among the trees once per day, as if using tree stride with a caster level equal to his slayer level.",
 			"",
 			"This ability replaces slayer's advance."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
@@ -133,8 +130,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the bounty hunter archetype: camouflage, fast stealth, hard to fool, slowing strike*, snap shot, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the bounty hunter archetype: hunter's surprise, knock-out blow, master of disguise, and woodland stride*."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"butterfly_blade": {
 		"name": "Butterfly Blade",
@@ -166,8 +162,7 @@
 			"**Deadly Butterfly (Ex):** At 19th level, a butterfly blade becomes a bloody whirlwind in combat. When he strikes a foe with a butterfly sword, he automatically confirms critical threats. In addition, any butterfly sword he wields is treated as if it has the speed weapon special ability. If the weapon already has the speed weapon special ability, this doesn't stack.",
 			"",
 			"This ability replaces improved quarry."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"cleaner": {
 		"name": "Cleaner",
@@ -187,8 +182,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cleaner archetype: camouflage, fast stealth, foil scrutiny*, rogue crawl, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cleaner archetype: assassinate*, knock-out blow, master of disguise, and slayer camouflage*."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"covenbane": {
 		"name": "Covenbane",
@@ -214,8 +208,7 @@
 			"**Unseen Sense (Su):** At 11th level, the covenbane learns to use his hag sense to help target concealed or invisible opponents in combat. He can use his hag sense to detect invisible opponents as well as magically disguised creatures. He also gains Blind-Fight as a bonus feat but gains its benefits only against spellcasters and creatures with spell-like abilities.",
 			"",
 			"This replaces swift tracker."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"cutthroat": {
 		"name": "Cutthroat",
@@ -237,8 +230,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cutthroat archetype: fast stealth, poison use*, slowing strike*, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cutthroat archetype: assassinate*, knock-out blow, opportunist, and slayer camouflage*."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"deliverer": {
 		"name": "Deliverer",
@@ -262,8 +254,7 @@
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the deliverer archetype: assassinate*, evasion, hunter's surprise, and master of disguise.",
 			"",
 			"**Ex-Deliverers:** A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the atonement spell description)."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"dune_rider": {
 		"name": "Dune Rider",
@@ -293,8 +284,7 @@
 			"**Dunes of Death (Su):** At 20th level, a dune rider can use the desert's heat to finish off his foes. As a standard action, he can make a single attack at his full base attack bonus while in warm desert, hills, or mountains, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The DC of this save is 20 + the dune rider's Intelligence modifier. Whether or not the target succeeds, it can't be targeted by this ability again for 24 hours.",
 			"",
 			"This replaces master slayer."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"family_hunter": {
 		"name": "Family Hunter",
@@ -320,8 +310,7 @@
 			"**Disrupt Teamwork (Ex):** At 6th level, a family hunter's studied target never counts as an ally to its allies for the purpose of flanking the family hunter or using teamwork feats or the aid another action against the family hunter.",
 			"",
 			"This ability replaces the slayer talent gained at 6th level."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"grave_warden": {
 		"name": "Grave Warden",
@@ -341,8 +330,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the grave warden archetype: fast stealth, finesse rogue, surprise attack, swift poison, terrain mastery, trap spotter, and unwitting ally. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (also available to rogues) complement the grave warden archetype: hunter's surprise, and slayer camouflage*."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"guerrilla": {
 		"name": "Guerrilla",
@@ -364,8 +352,7 @@
 			"**Astonishing Strike (Ex):** At 14th level, when the guerrilla deals sneak attack damage to a target of his studied target ability during the surprise round, that target is denied its Dexterity bonus to AC against attacks from the same guerrilla until the end of the guerrilla's next turn. When the guerrilla reaches 19th level, this ability works any time he deals sneak attack damage to a target of his studied target ability during the first round of combat, whether or not it's a surprise round.",
 			"",
 			"This replaces quarry and improved quarry."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"pureblade": {
 		"name": "Pureblade",
@@ -385,8 +372,7 @@
 			"**Steely Mind (Ex):** At 8th level, a Pureblade gains a +2 resistance bonus on saving throws against mind-affecting spells and effects. This bonus increases to +4 at 12th level and +6 at 16th level. In addition, once per day as a standard action, a Pureblade can shed a magical effect placed on him by an aberration as break enchantment, using his slayer level as his caster level. A Pureblade can use this ability twice per day at 12th level and three times per day at 16th level. This ability replaces the slayer talent received at 8th level.",
 			"",
 			"**Aberration Slayer (Ex):** At 20th level, a Pureblade can use his master slayer ability on any aberration, even if it's not his studied target. This ability alters master slayer."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"sczarni_executioner": {
 		"name": "Sczarni Executioner",
@@ -410,8 +396,7 @@
 			"**Assassinate (Ex):** At 10th level, a Sczarni executioner must select the assassinate advanced slayer talent.",
 			"",
 			"**Swift Death (Ex):** At 14th level, once per day a Sczarni executioner can attempt to assassinate a foe without studying his foe beforehand. He must still succeed at a sneak attack against the target. At 19th level, he can make two such attacks per day. This ability replaces quarry and improved quarry."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"sniper": {
 		"name": "Sniper",
@@ -429,8 +414,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the sniper archetype: camouflage, snap shot, sniper's eye, and weapon training.",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (which are also available to rogues) complement the sniper archetype: deadly sneak, master of disguise, and stealthy sniper."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"spawn_slayer": {
 		"name": "Spawn Slayer",
@@ -452,8 +436,7 @@
 			"**Force Vulnerability (Ex):** At 20th level, a spawn slayer can create an opening in even an invulnerable foe's defenses. As a standard action, he can make a single attack against a studied target at his full attack bonus. If the attack hits, the damage bypasses any damage reduction and the target must succeed at a Will saving throw (DC 10 + half the slayer's level + the slayer's Intelligence modifier) or lose one of its defensive abilities for 2d6 rounds. The slayer can choose which defensive ability is lost from the following options: a single immunity, all resistances, regeneration, or spell resistance. Whether or not the target fails this save, it cannot be targeted by force vulnerability again (by you or another slayer) for 24 hours.",
 			"",
 			"This replaces master slayer."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"spire_diver": {
 		"name": "Spire Diver",
@@ -487,8 +470,7 @@
 			"**Diver's Quarry (Ex):** A spire diver gains quarry and improved quarry as a normal slayer, but she does not gain the ability to take 10 or take 20 on Survival checks while moving at normal speed without penalty. Instead, at 14th level, a spire diver can take 10 on Knowledge checks to identify a monster she has selected as her quarry. At 19th level, she can take 20 on these checks without spending extra time to do so. The spire diver must be trained in the appropriate Knowledge skill to use this ability.",
 			"",
 			"This alters quarry and improved quarry."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"spiritslayer": {
 		"name": "Spiritslayer",
@@ -522,8 +504,7 @@
 			"**:** At 7th level, whenever a spiritslayer makes an outsider or undead creature with the incorporeal subtype his studied target, his attacks count as magic for the purpose of striking that creature (though this doesn't give his attacks an enhancement bonus) and he can deal precision-based damage to such creatures (though his precision damage is reduced by 50% unless he has a means to bypass the creature's reduction in damage from corporeal sources, such as a ghost touch weapon). At 14th level, the spiritslayer's attacks against outsiders or undead creatures with the incorporeal subtype ignore the 50% reduction in damage from magical corporeal sources that such creatures have and can deal precision-based damage to incorporeal creatures.",
 			"",
 			"This ability replaces stalker."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"stygian_slayer": {
 		"name": "Stygian Slayer",
@@ -545,8 +526,7 @@
 			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the stygian slayer archetype: bleeding attack, lasting poison, poison use*, powerful sneak, rogue crawl, slow reactions, surprise attack, and swift poison. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the stygian slayer archetype: assassinate*, hunter's surprise, and slayer camouflage*."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"toxic_sniper": {
 		"name": "Toxic Sniper",
@@ -582,8 +562,7 @@
 			"**Precise Toxin (Ex):** At 10th level, a toxic sniper can deliver a toxic shot to especially vulnerable areas. When he hits an opponent with a toxic shot and deals sneak attack damage, he can forgo all his bonus damage to increase the DC of the his toxic shot's poison. The DC increases by 1 for every 2d6 points of sneak attack damage he forgoes in this way.",
 			"",
 			"This replaces the slayer talent gained at 10th level."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"turncoat": {
 		"name": "Turncoat",
@@ -607,8 +586,7 @@
 			"At 19th level, the bonus increases to +6, and the attack is treated as a confirmed critical hit if the target is at least indifferent to the turncoat.",
 			"",
 			"This ability replaces quarry and improved quarry."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"vanguard": {
 		"name": "Vanguard",
@@ -630,8 +608,7 @@
 			"**Slayer Talents:** The following slayer talents complement the vanguard archetype: combat trick, finesse rogue, hard to fool, rogue crawl, surprise attack, terrain mastery, and weapon training.",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the vanguard archetype: feat, opportunist, slayer camouflage*, and unwitting ally. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)"
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"velvet_blade": {
 		"name": "Velvet Blade",
@@ -663,8 +640,7 @@
 			"**Silent Dispatch (Ex):** At 11th level, a velvet blade becomes adept at taking out her targets quietly. She gains the silent dispatch vigilante talent without meeting the talent's prerequisites.",
 			"",
 			"This ability replaces swift tracker."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"witch_killer": {
 		"name": "Witch Killer",
@@ -694,8 +670,7 @@
 			"**Burn the Witch (Sp):** At 10th level, once per day when a witch killer observes a creature within 30 feet cast an arcane spell or use an arcane spell-like ability, he can use foster hatred on that character, or target one creature harmed by the arcane effect with vengeful outrage, identifying the caster as the enemy. He can use this ability twice per day at 15th level, and he can use this ability three times per day at 20th level. The save DC is Charisma-based and uses the witch killer's slayer level as his caster level.",
 			"",
 			"This ability replaces the slayer talent normally gained at 10th level."
-		],
-		"display": "archetype/slayer"
+		]
 	},
 	"woodland_sniper": {
 		"name": "Woodland Sniper",
@@ -723,7 +698,6 @@
 			"**Branchwalking (Ex):** At 11th level, the woodland sniper gains a climb speed equal to his base speed. In addition, at 13th level, he can move from one tree to another via connecting branches by adding 5 to the DC of an Acrobatics or Climb check to move within the canopy. The woodland sniper cannot end his movement on a branch that cannot support his weight.",
 			"",
 			"This replaces swift tracker and slayer's advance."
-		],
-		"display": "archetype/slayer"
+		]
 	}
 }

@@ -17,8 +17,7 @@
 			"",
 			"**Recipe** (10 brimstone + 8 salt + 1 saltpeter)/distilation; Craft 15  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"acid_neutralizer": {
 		"name": "acid neutralizer",
@@ -35,8 +34,7 @@
 			"",
 			"**Recipe** (20 brimstone + 10 salt + 5 urea)/calcination; Craft 15  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"alchemical_coal_blinding_cinders": {
 		"name": "alchemical coal (blinding cinders)",
@@ -56,14 +54,12 @@
 			"",
 			"Blinding cinders: Craft (Alchemy) DC 25  ",
 			"Choking smoke: Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"alchemical_coal_choking_smoke": {
 		"name": "alchemical coal (choking smoke)",
 		"sources": [ "Advanced Race Guide" ],
-		"copyof": "alchemical_coal_blinding_cinders",
-		"display": "equipweap"
+		"copyof": "alchemical_coal_blinding_cinders"
 	},
 	"alchemist's_fire": {
 		"name": "alchemist's fire",
@@ -84,8 +80,7 @@
 			"",
 			"**Recipe** (12 magnesium + 22 spirit of wine)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"alkali_flask": {
 		"name": "alkali flask",
@@ -105,8 +100,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_bleeding": {
 		"name": "arrow (bleeding)",
@@ -126,8 +120,7 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_durable": {
 		"name": "arrow (durable)",
@@ -147,8 +140,7 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_dye": {
 		"name": "arrow (dye)",
@@ -168,8 +160,7 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_lodestone": {
 		"name": "arrow (lodestone)",
@@ -189,8 +180,7 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_pheromone": {
 		"name": "arrow (pheromone)",
@@ -210,8 +200,7 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_raining": {
 		"name": "arrow (raining)",
@@ -233,8 +222,7 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_slow_burn": {
 		"name": "arrow (slow burn)",
@@ -254,8 +242,7 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_splintercloud": {
 		"name": "arrow (splintercloud)",
@@ -275,8 +262,7 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_tangleshot": {
 		"name": "arrow (tangleshot)",
@@ -296,8 +282,7 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_trip": {
 		"name": "arrow (trip)",
@@ -317,8 +302,7 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"artokus's_fire": {
 		"name": "artokus's fire",
@@ -335,8 +319,7 @@
 			"",
 			"**Recipe** (20 magnesium + 25 saltpeter + 30 spirit of wine)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blanch_bomb_adamantine": {
 		"name": "blanch bomb (adamantine)",
@@ -353,8 +336,7 @@
 			"",
 			"**Recipe** (50 cold iron + 75 magnesium + 50 saltpeter)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blanch_bomb_cold_iron": {
 		"name": "blanch bomb (cold iron)",
@@ -371,8 +353,7 @@
 			"",
 			"**Recipe** (100 cold iron + 50 phosphorus + 20 saltpeter)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blanch_bomb_silver": {
 		"name": "blanch bomb (silver)",
@@ -389,8 +370,7 @@
 			"",
 			"**Recipe** (40 quicksilver + 15 saltpeter + 25 silver)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bloating_solution": {
 		"name": "bloating solution",
@@ -405,8 +385,7 @@
 			"",
 			"**Recipe** (15 phosphorus + 30 salt + 20 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bolt,_acid": {
 		"name": "bolt, acid",
@@ -427,8 +406,7 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"acid_bolt": {
 		"copyof": "bolt,_acid"
@@ -449,8 +427,7 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"alchemical_fire_bolt": {
 		"copyof": "bolt,_alchemical_fire"
@@ -471,8 +448,7 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"liquid_ice_bolt": {
 		"copyof": "bolt,_liquid_ice"
@@ -493,8 +469,7 @@
 			"Craft (Alchemy) DC 20",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"poison_bolt": {
 		"copyof": "bolt,_poison"
@@ -513,8 +488,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bottled_lightning": {
 		"name": "bottled lightning",
@@ -530,8 +504,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"brewed_reek": {
 		"name": "brewed reek",
@@ -547,8 +520,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"burst_jar": {
 		"name": "burst jar",
@@ -564,8 +536,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"chroma_grenade": {
 		"name": "chroma grenade",
@@ -581,8 +552,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"congealer_spray": {
 		"name": "congealer spray",
@@ -597,8 +567,7 @@
 			"",
 			"**Recipe** (4 realgar + 5 salt + 5 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"consecrated_salts": {
 		"name": "consecrated salts",
@@ -614,8 +583,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"corrosenze": {
 		"name": "corrosenze",
@@ -631,8 +599,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"cytillesh_stun_vial": {
 		"name": "cytillesh stun vial",
@@ -648,8 +615,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"darkflare": {
 		"name": "darkflare",
@@ -668,8 +634,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"deadground_dust": {
 		"name": "deadground dust",
@@ -685,8 +650,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"desiccating_lubricant": {
 		"name": "desiccating lubricant",
@@ -701,8 +665,7 @@
 			"",
 			"**Recipe** (25 cold iron + 10 salt + 10 urea)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dung_grenade": {
 		"name": "dung grenade",
@@ -718,8 +681,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dust_knuckles": {
 		"name": "dust knuckles",
@@ -740,20 +702,17 @@
 			"Diamond dust vial: Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Stats are extrapolation from the original quantity of 4."
-		],
-		"display": "equipweap"
+		]
 	},
 	"dust_knuckles_diamond_dust_vial": {
 		"name": "dust knuckles (diamond dust vial)",
 		"sources": [ "Advanced Class Guide" ],
-		"copyof": "dust_knuckles",
-		"display": "equipweap"
+		"copyof": "dust_knuckles"
 	},
 	"dust_knuckles_gloves": {
 		"name": "dust knuckles (gloves)",
 		"sources": [ "Advanced Class Guide" ],
-		"copyof": "dust_knuckles",
-		"display": "equipweap"
+		"copyof": "dust_knuckles"
 	},
 	"ectoplasmic_residue": {
 		"name": "ectoplasmic residue",
@@ -769,8 +728,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"elemental_brine": {
 		"name": "elemental brine",
@@ -788,8 +746,7 @@
 			"Creatures with the aquatic subtype that imbibe elemental brine become immune to poison, although poisons active when the brine is imbibed still run their course. If the creature dwells in saltwater, it also becomes undetectable by scent for the same duration. Both of these effects last 24 hours.",
 			"",
 			"Finally, elemental brine can be used as a splash weapon with a range increment of 10 feet. While it has little effect on most creatures (other than soaking them in salty water) when used in this way, a bottle of elemental brine is quite lethal if it's flung at a creature with the fire subtype. On a direct hit, a creature with the fire subtype takes 2d6 points of damage, and creatures with the fire subtype in adjacent squares take 1d4 points of damage. In addition, a direct hit against a creature with the fire subtype creates a unique interplay between elemental brine's salt and water and the creature's flames, making the target more conductive and thus more susceptible to electrocution. Anytime the target would take electricity damage within the next minute, it must succeed at a DC 20 Reflex save or take 1-1/2 times as much electricity damage as normal."
-		],
-		"display": "equipweap"
+		]
 	},
 	"elemental_flux_flask": {
 		"name": "elemental flux (flask)",
@@ -805,8 +762,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"fiery_boulder": {
 		"name": "fiery boulder",
@@ -832,8 +788,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_banshee_ballerina": {
 		"name": "firework (banshee ballerina)",
@@ -849,8 +804,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_coughing_dragon": {
 		"name": "firework (coughing dragon)",
@@ -866,8 +820,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_dancing_peonies": {
 		"name": "firework (dancing peonies)",
@@ -882,8 +835,7 @@
 			"",
 			"**Recipe** (3 black powder + 20 magnesium + 3 saltpeter)/calcination; Craft 18  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_fire_wheel": {
 		"name": "firework (fire wheel)",
@@ -899,8 +851,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_firecracker": {
 		"name": "firework (firecracker)",
@@ -915,8 +866,7 @@
 			"",
 			"**Recipe** (1 black powder + 1 saltpeter)/calcination; Craft 20  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_firecracker,_spirit": {
 		"name": "firework (firecracker, spirit)",
@@ -931,8 +881,7 @@
 			"",
 			"**Recipe** (1 black powder + 6 brimstone + 4 saltpeter + 10 silver)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spirit_firework_firecracker": {
 		"copyof": "firework_firecracker,_spirit"
@@ -953,8 +902,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_flashing_fiend": {
 		"name": "firework (flashing fiend)",
@@ -970,8 +918,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_holy_fountain": {
 		"name": "firework (holy fountain)",
@@ -989,8 +936,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_jumping_jenny": {
 		"name": "firework (jumping jenny)",
@@ -1005,8 +951,7 @@
 			"",
 			"**Recipe** (1 black powder + 5 magnesium + 1 saltpeter)/calcination; Craft 16  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_paper_candle": {
 		"name": "firework (paper candle)",
@@ -1025,8 +970,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_signal_rocket": {
 		"name": "firework (signal rocket)",
@@ -1042,8 +986,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_skydragon": {
 		"name": "firework (skydragon)",
@@ -1058,8 +1001,7 @@
 			"",
 			"**Recipe** (30 black powder + 30 magnesium + 40 phosphorus)/calcination; Craft 30  ",
 			"**Time** 1 day; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_skyrocket": {
 		"name": "firework (skyrocket)",
@@ -1078,8 +1020,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_sparking_pinwheel": {
 		"name": "firework (sparking pinwheel)",
@@ -1094,8 +1035,7 @@
 			"",
 			"**Recipe** (5 black powder + 15 magnesium + 30 phosphorus)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_star_candle": {
 		"name": "firework (star candle)",
@@ -1116,8 +1056,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firework_starfountain": {
 		"name": "firework (starfountain)",
@@ -1136,8 +1075,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flash_powder": {
 		"name": "flash powder",
@@ -1157,8 +1095,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"fuse_grenade": {
 		"name": "fuse grenade",
@@ -1177,8 +1114,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"ghast_retch_flask": {
 		"name": "ghast retch flask",
@@ -1194,8 +1130,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hellfire_sparkler": {
 		"name": "hellfire sparkler",
@@ -1211,8 +1146,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"holy_water": {
 		"name": "holy water",
@@ -1233,8 +1167,7 @@
 			"A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.",
 			"",
 			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the [bless water](spell/bless_water) spell."
-		],
-		"display": "equipweap"
+		]
 	},
 	"holy_weapon_balm": {
 		"name": "holy weapon balm",
@@ -1250,8 +1183,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"incendiary_catalyst": {
 		"name": "incendiary catalyst",
@@ -1267,8 +1199,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"insomnia_powder": {
 		"name": "insomnia powder",
@@ -1286,8 +1217,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"itching_powder": {
 		"name": "itching powder",
@@ -1306,8 +1236,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"keros_oil": {
 		"name": "keros oil",
@@ -1326,8 +1255,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kitumu's_ire": {
 		"name": "kitumu's ire",
@@ -1343,8 +1271,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"liquid_blade": {
 		"name": "liquid blade",
@@ -1360,8 +1287,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		],
-		"display": "equipweap"
+		]
 	},
 	"liquid_ice": {
 		"name": "liquid ice",
@@ -1381,8 +1307,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"lyddric_essence": {
 		"name": "lyddric essence",
@@ -1397,8 +1322,7 @@
 			"",
 			"**Recipe** (15 brimstone + 3 cytillesh spores)/distillation; Craft 20  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"mineral_acid": {
 		"name": "mineral acid",
@@ -1414,8 +1338,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"mu_spore_secretions": {
 		"name": "mu spore secretions",
@@ -1427,8 +1350,7 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"These secretions are only one of the many spores and fluids that the mu spores of Orv produce, but this is one of the few that surface dwellers have learned to safely use. This clear secretion can be added to any alchemical weapon, including an alchemist's bombs, as a move action. When mixed in this way, the affected alchemical weapon ignores half the hardness of any wooden objects it strikes. Alternatively, against creatures primarily made of wood (such as treants or wood golems), such weapons ignore the first 5 points of damage reduction the creatures has."
-		],
-		"display": "equipweap"
+		]
 	},
 	"noxious_aromatic_flask": {
 		"name": "noxious aromatic (flask)",
@@ -1444,8 +1366,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"noxious_pig": {
 		"name": "noxious pig",
@@ -1471,8 +1392,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 35"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pellet_grenade_adamantine": {
 		"name": "pellet grenade (adamantine)",
@@ -1487,26 +1407,22 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pellet_grenade_cold_iron": {
 		"name": "pellet grenade (cold iron)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "pellet_grenade_adamantine",
-		"display": "equipweap"
+		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_iron": {
 		"name": "pellet grenade (iron)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "pellet_grenade_adamantine",
-		"display": "equipweap"
+		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_silver": {
 		"name": "pellet grenade (silver)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "pellet_grenade_adamantine",
-		"display": "equipweap"
+		"copyof": "pellet_grenade_adamantine"
 	},
 	"perfect_ice": {
 		"name": "perfect ice",
@@ -1522,8 +1438,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"plague_powder": {
 		"name": "plague powder",
@@ -1541,8 +1456,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"portable_hive": {
 		"name": "portable hive",
@@ -1558,8 +1472,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pox_burster": {
 		"name": "pox burster",
@@ -1575,8 +1488,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shadowcloy_flask": {
 		"name": "shadowcloy flask",
@@ -1592,8 +1504,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shard_gel": {
 		"name": "shard gel",
@@ -1609,8 +1520,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shriek_bomb": {
 		"name": "shriek bomb",
@@ -1625,8 +1535,7 @@
 			"",
 			"**Recipe** (20 magnesium + 30 myrrh + 5 saltpeter)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"silvercloud_oil": {
 		"name": "silvercloud oil",
@@ -1642,8 +1551,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"slime_grenade": {
 		"name": "slime grenade",
@@ -1658,8 +1566,7 @@
 			"",
 			"**Recipe** (50 phosphorus + 75 quicksilver + 50 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"slime_slow": {
 		"name": "slime slow",
@@ -1675,8 +1582,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sneezing_powder": {
 		"name": "sneezing powder",
@@ -1696,8 +1602,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"somnigrip": {
 		"name": "somnigrip",
@@ -1713,8 +1618,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		],
-		"display": "equipweap"
+		]
 	},
 	"specialty_smoke_pellet_pepper": {
 		"name": "specialty smoke pellet (pepper)",
@@ -1733,14 +1637,12 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"specialty_smoke_pellet_smog": {
 		"name": "specialty smoke pellet (smog)",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"copyof": "specialty_smoke_pellet_pepper",
-		"display": "equipweap"
+		"copyof": "specialty_smoke_pellet_pepper"
 	},
 	"spore_dehiscent": {
 		"name": "spore dehiscent",
@@ -1752,8 +1654,7 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This pungent concoction can be thrown as a splash weapon to trigger unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where the spore dehiscent lands must succeed at a DC 14 Fortitude save or immediately activate any of its effects based on spores or pollen, treating itself as the target or center of the effect. Fungal hazards like russet mold or yellow mold are activated automatically with no saving throw. Plant creatures or hazards in squares adjacent to the square of impact must each succeed at a DC 10 Fortitude save or suffer the same effect. Once the effect is triggered, the creature or hazard cannot activate the effect again for 1d4 rounds or until the effect could normally be used again, whichever is longer."
-		],
-		"display": "equipweap"
+		]
 	},
 	"stench-gas_bladder": {
 		"name": "stench-gas bladder",
@@ -1765,8 +1666,7 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This thin bladder splits when it hits a target. You can throw a gas bladder as a ranged weapon with a range increment of 10 feet. Any creature struck by a gas bladder must succeed at a DC 14 Fortitude save or be sickened for 1d6 rounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"stench_gas_bladder": {
 		"copyof": "stench-gas_bladder"
@@ -1785,8 +1685,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"stormstone": {
 		"name": "stormstone",
@@ -1803,8 +1702,7 @@
 			"",
 			"**Recipe** (15 black powder + 85 phosphorus)/digestion; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"suffocating_powder": {
 		"name": "suffocating powder",
@@ -1821,8 +1719,7 @@
 			"",
 			"**Recipe** (50 brimstone + 50 phosphorus + 5 realgar)/sublimation; Craft 20  ",
 			"**Time** 1 hour; **Tools** retort; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tangleburn_bag": {
 		"name": "tangleburn bag",
@@ -1838,8 +1735,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tanglefoot_bag": {
 		"name": "tanglefoot bag",
@@ -1860,8 +1756,7 @@
 			"",
 			"**Recipe** (55 myrrh + 55 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tanglefoot_bundle": {
 		"name": "tanglefoot bundle",
@@ -1877,8 +1772,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 35"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tar_bomb": {
 		"name": "tar bomb",
@@ -1896,8 +1790,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		],
-		"display": "equipweap"
+		]
 	},
 	"thunderclap_charge": {
 		"name": "thunderclap charge",
@@ -1913,8 +1806,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"thunderstone": {
 		"name": "thunderstone",
@@ -1935,8 +1827,7 @@
 			"",
 			"**Recipe** (7 saltpeter + 15 silver)/digestion; Craft 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical weapon"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tress_tincture": {
 		"name": "tress tincture",
@@ -1952,8 +1843,7 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		],
-		"display": "equipweap"
+		]
 	},
 	"venomblock": {
 		"name": "venomblock",
@@ -1965,8 +1855,7 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like a injury poison (save Fort DC 14; frequency 1/round for 6 rounds; cure 2 saves), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow,_iron-tipped_distance": {
 		"name": "arrow, iron-tipped distance",
@@ -1981,8 +1870,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"arrow_iron_tipped_distance": {
 		"copyof": "arrow,_iron-tipped_distance"
@@ -2003,8 +1891,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"atlatl_dart": {
 		"name": "atlatl dart",
@@ -2017,8 +1904,7 @@
 			"",
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bamboo_shaft_arrows": {
 		"name": "bamboo shaft arrows",
@@ -2036,8 +1922,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"barbed_arrow": {
 		"name": "barbed arrow",
@@ -2052,8 +1937,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"blowgun_darts": {
 		"name": "blowgun darts",
@@ -2072,8 +1956,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"blunt_arrows": {
 		"name": "blunt arrows",
@@ -2091,8 +1974,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"bolas_bolts": {
 		"name": "bolas bolts",
@@ -2109,8 +1991,7 @@
 			"",
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bolts,_heartstake": {
 		"name": "bolts, heartstake",
@@ -2125,8 +2006,7 @@
 			"",
 			"**Cost** 20 gp **Weight** 0.6 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bolts_heartstake": {
 		"copyof": "bolts,_heartstake"
@@ -2144,8 +2024,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"bullets_groaning": {
 		"copyof": "bullets,_groaning"
@@ -2166,8 +2045,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"featherweight_dart": {
 		"name": "featherweight dart",
@@ -2180,8 +2058,7 @@
 			"",
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flight_arrows": {
 		"name": "flight arrows",
@@ -2199,8 +2076,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_little_starstones": {
 		"name": "halfling little starstones",
@@ -2215,8 +2091,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_sharpstones": {
 		"name": "halfling sharpstones",
@@ -2231,8 +2106,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_softstones": {
 		"name": "halfling softstones",
@@ -2247,8 +2121,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_spongestones": {
 		"name": "halfling spongestones",
@@ -2263,8 +2136,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"incendiary_arrow": {
 		"name": "incendiary arrow",
@@ -2279,8 +2151,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"kestros_dart": {
 		"name": "kestros dart",
@@ -2295,8 +2166,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"pronged_arrow": {
 		"name": "pronged arrow",
@@ -2311,8 +2181,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"repeating_crossbow_bolts": {
 		"name": "repeating crossbow bolts",
@@ -2330,8 +2199,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 5."
-		],
-		"display": "equipweap"
+		]
 	},
 	"sling_bullets": {
 		"name": "sling bullets",
@@ -2349,8 +2217,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		],
-		"display": "equipweap"
+		]
 	},
 	"smoke_arrow": {
 		"name": "smoke arrow",
@@ -2368,8 +2235,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"thistle_arrow": {
 		"name": "thistle arrow",
@@ -2387,8 +2253,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		],
-		"display": "equipweap"
+		]
 	},
 	"throwing_arrow": {
 		"name": "throwing arrow",
@@ -2401,8 +2266,7 @@
 			"",
 			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"whistling_arrows": {
 		"name": "whistling arrows",
@@ -2421,8 +2285,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		],
-		"display": "equipweap"
+		]
 	},
 	"ballista_net": {
 		"name": "ballista net",
@@ -2435,8 +2298,7 @@
 			"",
 			"**Cost** 75 gp **Weight** 15 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flak": {
 		"name": "flak",
@@ -2449,8 +2311,7 @@
 			"",
 			"**Cost** 500 gp **Weight** 30 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flechette_bolt": {
 		"name": "flechette bolt",
@@ -2465,8 +2326,7 @@
 			"",
 			"**Cost** 30 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"weighted_bolt": {
 		"name": "weighted bolt",
@@ -2479,8 +2339,7 @@
 			"",
 			"**Cost** 50 gp **Weight** 40 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		],
-		"display": "equipweap"
+		]
 	},
 	"battle_aspergillum": {
 		"name": "battle aspergillum",
@@ -2498,8 +2357,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"brass_knife": {
 		"name": "brass knife",
@@ -2515,8 +2373,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"brass_knuckles": {
 		"name": "brass knuckles",
@@ -2535,8 +2392,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"cestus": {
 		"name": "cestus",
@@ -2555,8 +2411,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dagger": {
 		"name": "dagger",
@@ -2574,8 +2429,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Thrown; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gauntlet": {
 		"name": "gauntlet",
@@ -2593,8 +2447,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hanbo": {
 		"name": "hanbo",
@@ -2609,8 +2462,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"handwraps": {
 		"name": "handwraps",
@@ -2624,8 +2476,7 @@
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** See text  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hook_hand": {
 		"name": "hook hand",
@@ -2643,8 +2494,7 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kunai": {
 		"name": "kunai",
@@ -2658,8 +2508,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B or P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_mace": {
 		"name": "light mace",
@@ -2677,8 +2526,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"punching_dagger": {
 		"name": "punching dagger",
@@ -2696,8 +2544,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"katar": {
 		"name": "katar",
@@ -2714,8 +2561,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sickle": {
 		"name": "sickle",
@@ -2733,8 +2579,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spider-leg_sickle": {
 		"name": "spider-leg sickle",
@@ -2748,8 +2593,7 @@
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spider_leg_sickle": {
 		"copyof": "spider-leg_sickle"
@@ -2770,8 +2614,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spring_blade": {
 		"name": "spring blade",
@@ -2785,8 +2628,7 @@
 			"**Cost** 70 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"traveling_kettle": {
 		"name": "traveling kettle",
@@ -2801,8 +2643,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** Monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"wooden_stake": {
 		"name": "wooden stake",
@@ -2822,8 +2663,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"baston_fighting_stick": {
 		"name": "baston fighting stick",
@@ -2837,8 +2677,7 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** Monk, see text  ",
 			"**Category** One-Handed; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"club": {
 		"name": "club",
@@ -2856,8 +2695,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Thrown; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_mace": {
 		"name": "heavy mace",
@@ -2875,8 +2713,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"mere_club": {
 		"name": "mere club",
@@ -2894,8 +2731,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"morningstar": {
 		"name": "morningstar",
@@ -2913,8 +2749,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shortspear": {
 		"name": "shortspear",
@@ -2932,8 +2767,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bayonet": {
 		"name": "bayonet",
@@ -2954,8 +2788,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"boar_spear": {
 		"name": "boar spear",
@@ -2973,8 +2806,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"boarding_pike": {
 		"name": "boarding pike",
@@ -2991,8 +2823,7 @@
 			"**Cost** 8 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kumade": {
 		"name": "kumade",
@@ -3007,8 +2838,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kumade,_collapsible": {
 		"name": "kumade, collapsible",
@@ -3023,8 +2853,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kumade_collapsible": {
 		"copyof": "kumade,_collapsible"
@@ -3042,8 +2871,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"longspear": {
 		"name": "longspear",
@@ -3061,8 +2889,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"quarterstaff": {
 		"name": "quarterstaff",
@@ -3080,8 +2907,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spear": {
 		"name": "spear",
@@ -3099,8 +2925,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"weighted_spear": {
 		"name": "weighted spear",
@@ -3115,8 +2940,7 @@
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blowgun": {
 		"name": "blowgun",
@@ -3136,8 +2960,7 @@
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dart": {
 		"name": "dart",
@@ -3156,8 +2979,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_crossbow": {
 		"name": "heavy crossbow",
@@ -3178,8 +3000,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"javelin": {
 		"name": "javelin",
@@ -3199,8 +3020,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_crossbow": {
 		"name": "light crossbow",
@@ -3221,8 +3041,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sling": {
 		"name": "sling",
@@ -3243,8 +3062,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"stingchuck": {
 		"name": "stingchuck",
@@ -3258,8 +3076,7 @@
 			"**Cost** - **Weight** 9 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"stonebow": {
 		"name": "stonebow",
@@ -3277,8 +3094,7 @@
 			"**Cost** 35 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple"
-		],
-		"display": "equipweap"
+		]
 	},
 	"underwater_heavy_crossbow": {
 		"name": "underwater heavy crossbow",
@@ -3297,8 +3113,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"underwater_light_crossbow": {
 		"name": "underwater light crossbow",
@@ -3317,8 +3132,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blade_boot": {
 		"name": "blade boot",
@@ -3332,8 +3146,7 @@
 			"**Cost** 25 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"boarding_axe": {
 		"name": "boarding axe",
@@ -3352,8 +3165,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"butterfly_sword": {
 		"name": "butterfly sword",
@@ -3371,8 +3183,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"cat-o'-nine-tails": {
 		"name": "cat-o'-nine-tails",
@@ -3391,8 +3202,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"cat_o'_nine_tails": {
 		"copyof": "cat-o'-nine-tails"
@@ -3417,8 +3227,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dueling_dagger": {
 		"name": "dueling dagger",
@@ -3433,8 +3242,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gladius": {
 		"name": "gladius",
@@ -3452,8 +3260,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"handaxe": {
 		"name": "handaxe",
@@ -3471,8 +3278,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"iron_brush": {
 		"name": "iron brush",
@@ -3490,8 +3296,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"jutte": {
 		"name": "jutte",
@@ -3509,8 +3314,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"katar,_tri-bladed": {
 		"name": "katar, tri-bladed",
@@ -3529,8 +3333,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tri_bladed_katar": {
 		"copyof": "katar,_tri-bladed"
@@ -3551,8 +3354,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kukri": {
 		"name": "kukri",
@@ -3570,8 +3372,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_hammer": {
 		"name": "light hammer",
@@ -3589,8 +3390,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_pick": {
 		"name": "light pick",
@@ -3608,8 +3408,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"lungchuan_tamo": {
 		"name": "lungchuan tamo",
@@ -3626,8 +3425,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"machete": {
 		"name": "machete",
@@ -3642,8 +3440,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sap": {
 		"name": "sap",
@@ -3661,8 +3458,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sea-knife": {
 		"name": "sea-knife",
@@ -3676,8 +3472,7 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sea_knife": {
 		"copyof": "sea-knife"
@@ -3698,8 +3493,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm or trip, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"short_sword": {
 		"name": "short sword",
@@ -3717,8 +3511,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"starknife": {
 		"name": "starknife",
@@ -3740,8 +3533,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"switchblade_knife": {
 		"name": "switchblade knife",
@@ -3755,8 +3547,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tailblade,_ratfolk": {
 		"name": "tailblade, ratfolk",
@@ -3770,8 +3561,7 @@
 			"**Cost** 11 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tailblade_ratfolk": {
 		"copyof": "tailblade,_ratfolk"
@@ -3792,8 +3582,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Thrown; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tonfa": {
 		"name": "tonfa",
@@ -3811,8 +3600,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"war_razor": {
 		"name": "war razor",
@@ -3833,8 +3621,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"wushu_dart": {
 		"name": "wushu dart",
@@ -3852,8 +3639,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"ankus": {
 		"name": "ankus",
@@ -3868,8 +3654,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"battleaxe": {
 		"name": "battleaxe",
@@ -3887,8 +3672,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"combat_scabbard": {
 		"name": "combat scabbard",
@@ -3902,8 +3686,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** improvised, see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"combat_scabbard,_sharpened": {
 		"name": "combat scabbard, sharpened",
@@ -3917,8 +3700,7 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sharpened_combat_scabbard": {
 		"copyof": "combat_scabbard,_sharpened"
@@ -3941,8 +3723,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_chicken_saber": {
 		"name": "double chicken saber",
@@ -3960,8 +3741,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gandasa": {
 		"name": "gandasa",
@@ -3976,8 +3756,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_pick": {
 		"name": "heavy pick",
@@ -3995,8 +3774,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_flail": {
 		"name": "light flail",
@@ -4014,8 +3792,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"longsword": {
 		"name": "longsword",
@@ -4033,8 +3810,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"manople": {
 		"name": "manople",
@@ -4049,8 +3825,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nine-ring_broadsword": {
 		"name": "nine-ring broadsword",
@@ -4068,8 +3843,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nine_ring_broadsword": {
 		"copyof": "nine-ring_broadsword"
@@ -4090,8 +3864,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"scimitar": {
 		"name": "scimitar",
@@ -4109,8 +3882,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"scizore": {
 		"name": "scizore",
@@ -4129,8 +3901,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sibat": {
 		"name": "sibat",
@@ -4149,8 +3920,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or S; **Special** grapple  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sword_cane": {
 		"name": "sword cane",
@@ -4168,8 +3938,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"terbutje": {
 		"name": "terbutje",
@@ -4187,8 +3956,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"terbutje,_steel": {
 		"name": "terbutje, steel",
@@ -4202,8 +3970,7 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"steel_terbutje": {
 		"copyof": "terbutje,_steel"
@@ -4224,8 +3991,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"warhammer": {
 		"name": "warhammer",
@@ -4243,8 +4009,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bardiche": {
 		"name": "bardiche",
@@ -4263,8 +4028,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bec_de_corbin": {
 		"name": "bec de corbin",
@@ -4283,8 +4047,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bill": {
 		"name": "bill",
@@ -4303,8 +4066,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, disarm, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"earth_breaker": {
 		"name": "earth breaker",
@@ -4327,8 +4089,7 @@
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"falchion": {
 		"name": "falchion",
@@ -4346,8 +4107,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"glaive": {
 		"name": "glaive",
@@ -4365,8 +4125,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"glaive-guisarme": {
 		"name": "glaive-guisarme",
@@ -4385,8 +4144,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"glaive_guisarme": {
 		"copyof": "glaive-guisarme"
@@ -4407,8 +4165,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"greatclub": {
 		"name": "greatclub",
@@ -4426,8 +4183,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Tribal"
-		],
-		"display": "equipweap"
+		]
 	},
 	"greatsword": {
 		"name": "greatsword",
@@ -4445,8 +4201,7 @@
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"guisarme": {
 		"name": "guisarme",
@@ -4464,8 +4219,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halberd": {
 		"name": "halberd",
@@ -4483,8 +4237,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_flail": {
 		"name": "heavy flail",
@@ -4502,8 +4255,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hooked_lance": {
 		"name": "hooked lance",
@@ -4521,8 +4273,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"horsechopper": {
 		"name": "horsechopper",
@@ -4543,8 +4294,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"lance": {
 		"name": "lance",
@@ -4562,8 +4312,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"lucerne_hammer": {
 		"name": "lucerne hammer",
@@ -4582,8 +4331,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"mattock": {
 		"name": "mattock",
@@ -4598,8 +4346,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** fragile  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"monk's_spade": {
 		"name": "monk's spade",
@@ -4617,8 +4364,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Monk; Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"naginata": {
 		"name": "naginata",
@@ -4636,8 +4382,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nodachi": {
 		"name": "nodachi",
@@ -4655,8 +4400,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"ogre_hook": {
 		"name": "ogre hook",
@@ -4677,8 +4421,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"planson": {
 		"name": "planson",
@@ -4693,8 +4436,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"ranseur": {
 		"name": "ranseur",
@@ -4712,8 +4454,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** disarm, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"rhomphaia": {
 		"name": "rhomphaia",
@@ -4727,8 +4468,7 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sansetsukon": {
 		"name": "sansetsukon",
@@ -4746,8 +4486,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sarissa": {
 		"name": "sarissa",
@@ -4761,8 +4500,7 @@
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"scythe": {
 		"name": "scythe",
@@ -4780,8 +4518,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"syringe_spear": {
 		"name": "syringe spear",
@@ -4795,8 +4532,7 @@
 			"**Cost** 100 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tepoztopilli": {
 		"name": "tepoztopilli",
@@ -4810,8 +4546,7 @@
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tiger_fork": {
 		"name": "tiger fork",
@@ -4829,8 +4564,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk; Polearms; Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tri-point_double-edged_sword": {
 		"name": "tri-point double-edged sword",
@@ -4848,8 +4582,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tri_point_double_edged_sword": {
 		"copyof": "tri-point_double-edged_sword"
@@ -4871,8 +4604,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** performance  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"atlatl": {
 		"name": "atlatl",
@@ -4890,8 +4622,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"chakram": {
 		"name": "chakram",
@@ -4911,8 +4642,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Blades, Light; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"composite_longbow": {
 		"name": "composite longbow",
@@ -4933,8 +4663,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Bows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"composite_shortbow": {
 		"name": "composite shortbow",
@@ -4955,8 +4684,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 70 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Bows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gastraphetes": {
 		"name": "gastraphetes",
@@ -4970,8 +4698,7 @@
 			"**Cost** 65 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hunga_munga": {
 		"name": "hunga munga",
@@ -4990,8 +4717,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 15 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hurlbat": {
 		"name": "hurlbat",
@@ -5005,8 +4731,7 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P and S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"jolting_dart": {
 		"name": "jolting dart",
@@ -5020,8 +4745,7 @@
 			"**Cost** 100 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"longbow": {
 		"name": "longbow",
@@ -5040,8 +4764,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Bows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"phaleros": {
 		"name": "phaleros",
@@ -5055,8 +4778,7 @@
 			"**Cost** 5 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pilum": {
 		"name": "pilum",
@@ -5076,8 +4798,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"poisoned_sand_tube": {
 		"name": "poisoned sand tube",
@@ -5096,8 +4817,7 @@
 			"**Damage** special (small), special (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"reflex_bow": {
 		"name": "reflex bow",
@@ -5111,8 +4831,7 @@
 			"**Cost** 125 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** See text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shortbow": {
 		"name": "shortbow",
@@ -5131,8 +4850,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Bows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spear-sling": {
 		"name": "spear-sling",
@@ -5148,8 +4866,7 @@
 			"**Cost** 50 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** see text; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"spear_sling": {
 		"copyof": "spear-sling"
@@ -5166,8 +4883,7 @@
 			"**Cost** - **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tube_arrow_shooter": {
 		"name": "tube arrow shooter",
@@ -5186,8 +4902,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"aklys": {
 		"name": "aklys",
@@ -5207,8 +4922,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"axe-gauntlet,_dwarven_light": {
 		"name": "axe-gauntlet, dwarven light",
@@ -5223,8 +4937,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_light_axe_gauntlet": {
 		"copyof": "axe-gauntlet,_dwarven_light"
@@ -5242,8 +4955,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_heavy_axe_gauntlet": {
 		"copyof": "axe-gauntlet,_dwarven_heavy"
@@ -5262,8 +4974,7 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"battle_poi": {
 		"name": "battle poi",
@@ -5281,8 +4992,7 @@
 			"**Damage** 1d3 fire (small), 1d4 fire (medium); **Critical** &times;2; **Range** -; **Type** fire; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"butterfly_knife": {
 		"name": "butterfly knife",
@@ -5297,8 +5007,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dan_bong": {
 		"name": "dan bong",
@@ -5316,8 +5025,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** B; **Special** blocking, monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"deer_horn_knife": {
 		"name": "deer horn knife",
@@ -5332,8 +5040,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Monk; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_maulaxe": {
 		"name": "dwarven maulaxe",
@@ -5350,8 +5057,7 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"elven_leafblade": {
 		"name": "elven leafblade",
@@ -5365,8 +5071,7 @@
 			"**Cost** 40 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"emei_piercer": {
 		"name": "emei piercer",
@@ -5384,8 +5089,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"fighting_fan": {
 		"name": "fighting fan",
@@ -5403,8 +5107,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** distracting, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flying_talon": {
 		"name": "flying talon",
@@ -5419,8 +5122,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** disarm, reach, trip, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_pincher": {
 		"name": "gnome pincher",
@@ -5435,8 +5137,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_rope-shot": {
 		"name": "halfling rope-shot",
@@ -5451,8 +5152,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_rope_shot": {
 		"copyof": "halfling_rope-shot"
@@ -5469,8 +5169,7 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_boulder_helmet": {
 		"copyof": "helmet,_dwarven_boulder"
@@ -5491,8 +5190,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kasatha_spinal_sword": {
 		"name": "kasatha spinal sword",
@@ -5506,8 +5204,7 @@
 			"**Cost** 50 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"knuckle_axe": {
 		"name": "knuckle axe",
@@ -5525,8 +5222,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk, performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nunchaku": {
 		"name": "nunchaku",
@@ -5544,8 +5240,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pata": {
 		"name": "pata",
@@ -5566,8 +5261,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"quadrens": {
 		"name": "quadrens",
@@ -5585,8 +5279,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"razor,_drow": {
 		"name": "razor, drow",
@@ -5601,8 +5294,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"drow_razor": {
 		"copyof": "razor,_drow"
@@ -5623,8 +5315,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B (or S); **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sai": {
 		"name": "sai",
@@ -5642,8 +5333,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sanpkhang": {
 		"name": "sanpkhang",
@@ -5658,8 +5348,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"scorpion_whip": {
 		"name": "scorpion whip",
@@ -5679,8 +5368,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"siangham": {
 		"name": "siangham",
@@ -5698,8 +5386,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sica": {
 		"name": "sica",
@@ -5718,8 +5405,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"swordbreaker_dagger": {
 		"name": "swordbreaker dagger",
@@ -5738,8 +5424,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tekko-kagi": {
 		"name": "tekko-kagi",
@@ -5757,8 +5442,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tekko_kagi": {
 		"copyof": "tekko-kagi"
@@ -5779,8 +5463,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** deadly  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"waveblade": {
 		"name": "waveblade",
@@ -5795,8 +5478,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Close"
-		],
-		"display": "equipweap"
+		]
 	},
 	"aldori_dueling_sword": {
 		"name": "aldori dueling sword",
@@ -5816,8 +5498,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bastard_sword": {
 		"name": "bastard sword",
@@ -5835,8 +5516,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"broken-back_seax": {
 		"name": "broken-back seax",
@@ -5851,8 +5531,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P & S; **Special** See text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"broken_back_seax": {
 		"copyof": "broken-back_seax"
@@ -5869,8 +5548,7 @@
 			"**Cost** 4 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_double_waraxe": {
 		"name": "dwarven double waraxe",
@@ -5884,8 +5562,7 @@
 			"**Cost** 60 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_waraxe": {
 		"name": "dwarven waraxe",
@@ -5903,8 +5580,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"elven_thornblade": {
 		"name": "elven thornblade",
@@ -5918,8 +5594,7 @@
 			"**Cost** 60 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"estoc": {
 		"name": "estoc",
@@ -5934,8 +5609,7 @@
 			"**Damage** 2d3 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"falcata": {
 		"name": "falcata",
@@ -5955,8 +5629,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flindbar": {
 		"name": "flindbar",
@@ -5973,8 +5646,7 @@
 			"**Cost** 9 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_flick-mace": {
 		"name": "gnome flick-mace",
@@ -5986,8 +5658,7 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_flick_mace": {
 		"copyof": "gnome_flick-mace"
@@ -6005,8 +5676,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hooked_axe": {
 		"name": "hooked axe",
@@ -6024,8 +5694,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, performance, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"katana": {
 		"name": "katana",
@@ -6043,8 +5712,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** deadly  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"khopesh": {
 		"name": "khopesh",
@@ -6064,8 +5732,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"knobkerrie": {
 		"name": "knobkerrie",
@@ -6079,8 +5746,7 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nine-section_whip": {
 		"name": "nine-section whip",
@@ -6098,8 +5764,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, distracting, monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"nine_section_whip": {
 		"copyof": "nine-section_whip"
@@ -6117,8 +5782,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_ram_hammer": {
 		"copyof": "ram_hammer,_dwarven"
@@ -6140,8 +5804,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sawtooth_sabre": {
 		"name": "sawtooth sabre",
@@ -6163,8 +5826,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shotel": {
 		"name": "shotel",
@@ -6183,8 +5845,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sickle-sword": {
 		"name": "sickle-sword",
@@ -6199,8 +5860,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** distracting, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sickle_sword": {
 		"copyof": "sickle-sword"
@@ -6218,8 +5878,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** blocking, disarm, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Light"
-		],
-		"display": "equipweap"
+		]
 	},
 	"split-blade_sword": {
 		"name": "split-blade sword",
@@ -6234,8 +5893,7 @@
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** Disarm, trip, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"split_blade_sword": {
 		"copyof": "split-blade_sword"
@@ -6253,8 +5911,7 @@
 			"**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** &times;2/&times;3; **Range** -; **Type** B or P; **Special** double  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"temple_sword": {
 		"name": "temple sword",
@@ -6275,8 +5932,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tongi": {
 		"name": "tongi",
@@ -6291,8 +5947,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"urumi": {
 		"name": "urumi",
@@ -6314,8 +5969,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** distracting  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"wahaika": {
 		"name": "wahaika",
@@ -6330,8 +5984,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"whip": {
 		"name": "whip",
@@ -6353,8 +6006,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal, reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"barbed_spear": {
 		"name": "barbed spear",
@@ -6368,8 +6020,7 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** fragile, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"battle_ladder,_gnome": {
 		"name": "battle ladder, gnome",
@@ -6387,8 +6038,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, trip, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_battle_ladder": {
 		"copyof": "battle_ladder,_gnome"
@@ -6413,8 +6063,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"bo_staff": {
 		"name": "bo staff",
@@ -6432,8 +6081,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"boarding_gaff": {
 		"name": "boarding gaff",
@@ -6451,8 +6099,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** double, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"butchering_axe": {
 		"name": "butchering axe",
@@ -6467,8 +6114,7 @@
 			"**Damage** 1d12 (small), 3d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes"
-		],
-		"display": "equipweap"
+		]
 	},
 	"chain_spear": {
 		"name": "chain spear",
@@ -6490,8 +6136,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P and S; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Flails; Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"chain-hammer": {
 		"name": "chain-hammer",
@@ -6506,8 +6151,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** double, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Hammers; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"chain_hammer": {
 		"copyof": "chain-hammer"
@@ -6525,8 +6169,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dire_flail": {
 		"name": "dire flail",
@@ -6544,8 +6187,7 @@
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dorn-dergar,_dwarven": {
 		"name": "dorn-dergar, dwarven",
@@ -6563,8 +6205,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_dorn_dergar": {
 		"copyof": "dorn-dergar,_dwarven"
@@ -6582,8 +6223,7 @@
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** Double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double-chained_kama": {
 		"name": "double-chained kama",
@@ -6601,8 +6241,7 @@
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** double, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_chained_kama": {
 		"copyof": "double-chained_kama"
@@ -6623,8 +6262,7 @@
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"elven_branched_spear": {
 		"name": "elven branched spear",
@@ -6639,8 +6277,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"elven_curve_blade": {
 		"name": "elven curve blade",
@@ -6661,8 +6298,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"fauchard": {
 		"name": "fauchard",
@@ -6680,8 +6316,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** reach,trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flailpole": {
 		"name": "flailpole",
@@ -6695,8 +6330,7 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flambard": {
 		"name": "flambard",
@@ -6711,8 +6345,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** sunder  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flask_pike": {
 		"name": "flask pike",
@@ -6726,8 +6359,7 @@
 			"**Cost** 30 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flying_blade": {
 		"name": "flying blade",
@@ -6746,8 +6378,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** performance, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"garrote": {
 		"name": "garrote",
@@ -6763,8 +6394,7 @@
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"giant-sticker,_dwarven": {
 		"name": "giant-sticker, dwarven",
@@ -6779,8 +6409,7 @@
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_giant_sticker": {
 		"copyof": "giant-sticker,_dwarven"
@@ -6801,8 +6430,7 @@
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;4; **Range** -; **Type** B or P; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"harpoon": {
 		"name": "harpoon",
@@ -6821,8 +6449,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"injection_spear": {
 		"name": "injection spear",
@@ -6839,8 +6466,7 @@
 			"**Cost** 60 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"katana,_double_walking_stick": {
 		"name": "katana, double walking stick",
@@ -6858,8 +6484,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"katana_double_walking_stick": {
 		"copyof": "katana,_double_walking_stick"
@@ -6880,8 +6505,7 @@
 			"**Damage** 1d2/1d4 (small), 1d3/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S or B; **Special** double, grapple, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Double; Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kyoketsu_shoge": {
 		"name": "kyoketsu shoge",
@@ -6899,8 +6523,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** S or P; **Special** disarm, grapple, monk, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"longaxe,_dwarven": {
 		"name": "longaxe, dwarven",
@@ -6914,8 +6537,7 @@
 			"**Cost** 50 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_longaxe": {
 		"copyof": "longaxe,_dwarven"
@@ -6932,8 +6554,7 @@
 			"**Cost** 70 gp **Weight** 20 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_longhammer": {
 		"copyof": "longhammer,_dwarven"
@@ -6955,8 +6576,7 @@
 			"**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"meteor_hammer": {
 		"name": "meteor hammer",
@@ -6976,8 +6596,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"orc_double_axe": {
 		"name": "orc double axe",
@@ -6995,8 +6614,7 @@
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Axes; Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"orc_skull_ram": {
 		"name": "orc skull ram",
@@ -7011,8 +6629,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears"
-		],
-		"display": "equipweap"
+		]
 	},
 	"piston_maul,_gnome": {
 		"name": "piston maul, gnome",
@@ -7030,8 +6647,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_piston_maul": {
 		"copyof": "piston_maul,_gnome"
@@ -7052,8 +6668,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Polearms"
-		],
-		"display": "equipweap"
+		]
 	},
 	"gnome_ripsaw_glaive": {
 		"copyof": "ripsaw_glaive,_gnome"
@@ -7074,8 +6689,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Monk"
-		],
-		"display": "equipweap"
+		]
 	},
 	"seven_branched_sword": {
 		"copyof": "seven-branched_sword"
@@ -7093,8 +6707,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_sphinx_hammer": {
 		"copyof": "sphinx_hammer,_dwarven"
@@ -7115,8 +6728,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Flails"
-		],
-		"display": "equipweap"
+		]
 	},
 	"switchscythe": {
 		"name": "switchscythe",
@@ -7131,8 +6743,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy"
-		],
-		"display": "equipweap"
+		]
 	},
 	"tetsubo": {
 		"name": "tetsubo",
@@ -7150,8 +6761,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Hammers"
-		],
-		"display": "equipweap"
+		]
 	},
 	"totem_spear": {
 		"name": "totem spear",
@@ -7168,8 +6778,7 @@
 			"**Cost** 25 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"two-bladed_sword": {
 		"name": "two-bladed sword",
@@ -7187,8 +6796,7 @@
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Blades, Heavy; Double"
-		],
-		"display": "equipweap"
+		]
 	},
 	"two_bladed_sword": {
 		"copyof": "two-bladed_sword"
@@ -7210,8 +6818,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"boomerang": {
 		"name": "boomerang",
@@ -7231,8 +6838,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"crystal_chakram": {
 		"name": "crystal chakram",
@@ -7246,8 +6852,7 @@
 			"**Cost** 20 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dire_bolas": {
 		"name": "dire bolas",
@@ -7261,8 +6866,7 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_crossbow": {
 		"name": "double crossbow",
@@ -7284,8 +6888,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"flask_thrower": {
 		"name": "flask thrower",
@@ -7303,8 +6906,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"grappling_hook": {
 		"name": "grappling hook",
@@ -7327,8 +6929,7 @@
 			"**Cost** 6 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grappling  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_double_sling": {
 		"name": "halfling double sling",
@@ -7344,8 +6945,7 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** double (see text)  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_sling_staff": {
 		"name": "halfling sling staff",
@@ -7368,8 +6968,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"halfling_stitched_sling": {
 		"name": "halfling stitched sling",
@@ -7383,8 +6982,7 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hand_crossbow": {
 		"name": "hand crossbow",
@@ -7405,8 +7003,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_crank_crossbow": {
 		"name": "heavy crank crossbow",
@@ -7420,8 +7017,7 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_slaver's_crossbow": {
 		"name": "heavy slaver's crossbow",
@@ -7435,8 +7031,7 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 80 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"heavy_wrist_launcher": {
 		"name": "heavy wrist launcher",
@@ -7450,8 +7045,7 @@
 			"**Cost** 250 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"hornbow,_orc": {
 		"name": "hornbow, orc",
@@ -7466,8 +7060,7 @@
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Bows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"orc_hornbow": {
 		"copyof": "hornbow,_orc"
@@ -7484,8 +7077,7 @@
 			"**Cost** 150 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kestros": {
 		"name": "kestros",
@@ -7503,8 +7095,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"lasso": {
 		"name": "lasso",
@@ -7524,8 +7115,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"launching_crossbow": {
 		"name": "launching crossbow",
@@ -7540,8 +7130,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 30 ft.; **Type** -; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_crank_crossbow": {
 		"name": "light crank crossbow",
@@ -7555,8 +7144,7 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"light_slaver's_crossbow": {
 		"name": "light slaver's crossbow",
@@ -7570,8 +7158,7 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 40 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"net": {
 		"name": "net",
@@ -7594,8 +7181,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pelletbow,_dwarven_heavy": {
 		"name": "pelletbow, dwarven heavy",
@@ -7612,8 +7198,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** 60 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_heavy_pelletbow": {
 		"copyof": "pelletbow,_dwarven_heavy"
@@ -7633,8 +7218,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;3; **Range** 40 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dwarven_light_pelletbow": {
 		"copyof": "pelletbow,_dwarven_light"
@@ -7655,8 +7239,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"repeating_heavy_crossbow": {
 		"name": "repeating heavy crossbow",
@@ -7677,8 +7260,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"repeating_light_crossbow": {
 		"name": "repeating light crossbow",
@@ -7697,8 +7279,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Crossbows"
-		],
-		"display": "equipweap"
+		]
 	},
 	"rope_dart": {
 		"name": "rope dart",
@@ -7717,8 +7298,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** blocking, distracting, monk  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Monk; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shoanti_bolas": {
 		"name": "shoanti bolas",
@@ -7739,8 +7319,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B and P; **Special** trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shrillshaft_javelin": {
 		"name": "shrillshaft javelin",
@@ -7754,8 +7333,7 @@
 			"**Cost** 35 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shuriken": {
 		"name": "shuriken",
@@ -7773,8 +7351,7 @@
 			"**Cost** 1 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sling_glove": {
 		"name": "sling glove",
@@ -7792,8 +7369,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"snag_net": {
 		"name": "snag net",
@@ -7812,8 +7388,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special** trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"stormshaft_javelin": {
 		"name": "stormshaft javelin",
@@ -7828,8 +7403,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**[Weapon Group](class/ability/weapon_groups)** Spears; Thrown"
-		],
-		"display": "equipweap"
+		]
 	},
 	"thorn_bow": {
 		"name": "thorn bow",
@@ -7847,8 +7421,7 @@
 			"**Cost** 50 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"wrist_launcher": {
 		"name": "wrist launcher",
@@ -7862,8 +7435,7 @@
 			"**Cost** 200 gp **Weight** 1 lb.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"claw_blades": {
 		"name": "claw blades",
@@ -7877,8 +7449,7 @@
 			"**Cost** 305 gp **Weight** 2 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** S; **Special** catfolk only, see description  ",
 			"**Category** Light; **Proficiency** Special"
-		],
-		"display": "equipweap"
+		]
 	},
 	"kobold_tail,_long_lash": {
 		"name": "kobold tail, long lash",
@@ -7915,8 +7486,7 @@
 			"**Cost** 7 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** trip  ",
 			"**Category** Light; **Proficiency** Special"
-		],
-		"display": "equipweap"
+		]
 	},
 	"long_lash_kobold_tail": {
 		"copyof": "kobold_tail,_long_lash"
@@ -7924,8 +7494,7 @@
 	"kobold_tail,_pounder": {
 		"name": "kobold tail, pounder",
 		"sources": [ "Advanced Race Guide" ],
-		"copyof": "long_lash_kobold_tail",
-		"display": "equipweap"
+		"copyof": "long_lash_kobold_tail"
 	},
 	"pounder_kobold_tail": {
 		"copyof": "kobold_tail,_pounder"
@@ -7933,8 +7502,7 @@
 	"kobold_tail,_razored": {
 		"name": "kobold tail, razored",
 		"sources": [ "Advanced Race Guide" ],
-		"copyof": "long_lash_kobold_tail",
-		"display": "equipweap"
+		"copyof": "long_lash_kobold_tail"
 	},
 	"razored_kobold_tail": {
 		"copyof": "kobold_tail,_razored"
@@ -7942,8 +7510,7 @@
 	"kobold_tail,_spiked": {
 		"name": "kobold tail, spiked",
 		"sources": [ "Advanced Race Guide" ],
-		"copyof": "long_lash_kobold_tail",
-		"display": "equipweap"
+		"copyof": "long_lash_kobold_tail"
 	},
 	"spiked_kobold_tail": {
 		"copyof": "kobold_tail,_spiked"
@@ -7951,8 +7518,7 @@
 	"kobold_tail,_sweeper": {
 		"name": "kobold tail, sweeper",
 		"sources": [ "Advanced Race Guide" ],
-		"copyof": "long_lash_kobold_tail",
-		"display": "equipweap"
+		"copyof": "long_lash_kobold_tail"
 	},
 	"sweeper_kobold_tail": {
 		"copyof": "kobold_tail,_sweeper"
@@ -7970,8 +7536,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"breech_loader": {
 		"copyof": "breech-loader"
@@ -7992,8 +7557,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"coat_pistol": {
 		"name": "coat pistol",
@@ -8011,8 +7575,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dagger_pistol": {
 		"name": "dagger pistol",
@@ -8030,8 +7593,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double-barreled_pistol": {
 		"name": "double-barreled pistol",
@@ -8049,8 +7611,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_barreled_pistol": {
 		"copyof": "double-barreled_pistol"
@@ -8071,8 +7632,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** special; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"dragoon_pistol": {
 		"name": "dragoon pistol",
@@ -8087,8 +7647,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 3  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"paddle-foot_pistol": {
 		"name": "paddle-foot pistol",
@@ -8103,8 +7662,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 4  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"paddle_foot_pistol": {
 		"copyof": "paddle-foot_pistol"
@@ -8125,8 +7683,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pistol": {
 		"name": "pistol",
@@ -8146,8 +7703,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"sword_cane_pistol": {
 		"name": "sword cane pistol",
@@ -8165,8 +7721,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"air_repeater": {
 		"name": "air repeater",
@@ -8181,8 +7736,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (see text); **Capacity** 6  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"axe_musket": {
 		"name": "axe musket",
@@ -8200,8 +7754,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"blunderbuss": {
 		"name": "blunderbuss",
@@ -8219,8 +7772,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** special; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"culverin": {
 		"name": "culverin",
@@ -8238,8 +7790,7 @@
 			"**Damage** 2d6 (small), 2d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"cylinder_rifle": {
 		"name": "cylinder rifle",
@@ -8254,8 +7805,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-3 (10 ft.); **Capacity** 8  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_hackbut": {
 		"name": "double hackbut",
@@ -8273,8 +7823,7 @@
 			"**Damage** 2d10 (small), 2d12 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double-barreled_musket": {
 		"name": "double-barreled musket",
@@ -8292,8 +7841,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-3 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_barreled_musket": {
 		"copyof": "double-barreled_musket"
@@ -8311,8 +7859,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 3  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"fire_lance": {
 		"name": "fire lance",
@@ -8330,8 +7877,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Misfire** 1-4 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"musket": {
 		"name": "musket",
@@ -8349,8 +7895,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"warhammer_musket": {
 		"name": "warhammer musket",
@@ -8368,8 +7913,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"radium_pistol": {
 		"name": "radium pistol",
@@ -8390,8 +7934,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"revolver": {
 		"name": "revolver",
@@ -8409,8 +7952,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double-barreled_shotgun": {
 		"name": "double-barreled shotgun",
@@ -8428,8 +7970,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2; **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"double_barreled_shotgun": {
 		"copyof": "double-barreled_shotgun"
@@ -8450,8 +7991,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2; **Capacity** 4  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"radium_rifle": {
 		"name": "radium rifle",
@@ -8472,8 +8012,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 100 ft.; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"rifle": {
 		"name": "rifle",
@@ -8493,8 +8032,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"shotgun": {
 		"name": "shotgun",
@@ -8514,8 +8052,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"thark_rifle": {
 		"name": "thark rifle",
@@ -8536,8 +8073,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 1 mile; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"air_reservoir": {
 		"name": "air reservoir",
@@ -8550,8 +8086,7 @@
 			"",
 			"**Cost** 6 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"alchemical_cartridge_dragon's_breath": {
 		"name": "alchemical cartridge (dragon's breath)",
@@ -8611,8 +8146,7 @@
 			"**Toxic Cartridge:** (Source [People of the Wastes pg. 15](source/people_of_the_wastes)) A toxic cartridge can be used only in early or advanced firearms with the scatter weapon quality. To use a toxic cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of burning toxic gas that lasts for 1 rounds, after which the gas dissipates. Any creature within this area when it is created or any creature that enters the gas while it is active must succeed at a DC 15 Fortitude save or become nauseated for 1d2 rounds. Being affected by the gas multiple times lengthens the duration of the sickened condition. In addition, any creature that begins its turn in the area takes 1d6 points of fire damage. If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.  ",
 			"**Cost** 100 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"alchemical_cartridge_entangling_shot": {
 		"name": "alchemical cartridge (entangling shot)",
@@ -8620,8 +8154,7 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_flare": {
 		"name": "alchemical cartridge (flare)",
@@ -8629,26 +8162,22 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_gray_dust_shot": {
 		"name": "alchemical cartridge (gray dust shot)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_gray_dust": {
 		"name": "alchemical cartridge (gray dust)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_molten_shot": {
 		"name": "alchemical cartridge (molten shot)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_paper,_bullet_or_pellet": {
 		"name": "alchemical cartridge (paper, bullet or pellet)",
@@ -8656,8 +8185,7 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"copyof": "alchemical_cartridge_paper,_bullet_or_pellet"
@@ -8665,8 +8193,7 @@
 	"alchemical_cartridge_repellent": {
 		"name": "alchemical cartridge (repellent)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_salt_shot": {
 		"name": "alchemical cartridge (salt shot)",
@@ -8674,20 +8201,17 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_smoke_cartridge": {
 		"name": "alchemical cartridge (smoke cartridge)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_toxin": {
 		"name": "alchemical cartridge (toxin)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath",
-		"display": "equipweap"
+		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"black_powder_dose": {
 		"name": "black powder (dose)",
@@ -8703,8 +8227,7 @@
 			"",
 			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"black_powder_keg": {
 		"name": "black powder (keg)",
@@ -8712,8 +8235,7 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "black_powder_dose",
-		"display": "equipweap"
+		"copyof": "black_powder_dose"
 	},
 	"bullet,_adamantine": {
 		"name": "bullet, adamantine",
@@ -8726,8 +8248,7 @@
 			"",
 			"**Cost** 61 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"adamantine_bullet": {
 		"copyof": "bullet,_adamantine"
@@ -8743,8 +8264,7 @@
 			"",
 			"**Cost** 20 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"screaming_bullet": {
 		"copyof": "bullet,_screaming"
@@ -8762,8 +8282,7 @@
 			"",
 			"**Cost** 30 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"firearm_bullet": {
 		"name": "firearm bullet",
@@ -8782,8 +8301,7 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"firearm_bullet,_silver": {
 		"name": "firearm bullet, silver",
@@ -8798,8 +8316,7 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is based on 30 regular bullets weighing half a pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"silver_firearm_bullet": {
 		"copyof": "firearm_bullet,_silver"
@@ -8815,8 +8332,7 @@
 			"",
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"metal_cartridge": {
 		"name": "metal cartridge",
@@ -8832,8 +8348,7 @@
 			"",
 			"**Cost** 15 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"pellets_handful": {
 		"name": "pellets (handful)",
@@ -8851,8 +8366,7 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is approximate, based on 30 handfuls weighing half a pound."
-		],
-		"display": "equipweap"
+		]
 	},
 	"pitted_bullet": {
 		"name": "pitted bullet",
@@ -8868,8 +8382,7 @@
 			"",
 			"**Cost** 5 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	},
 	"powder_horn": {
 		"name": "powder horn",
@@ -8882,7 +8395,6 @@
 			"",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		],
-		"display": "equipweap"
+		]
 	}
 }

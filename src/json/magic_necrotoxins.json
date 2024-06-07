@@ -19,8 +19,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), desecrate; **Cost** 750 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	},
 	"ghost_syrup": {
 		"name": "Ghost Syrup",
@@ -41,8 +40,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ethereal jaunt, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	},
 	"lazurite_flakes": {
 		"name": "Lazurite Flakes",
@@ -63,8 +61,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead; **Cost** 2,700 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	},
 	"memento_mori": {
 		"name": "Memento Mori",
@@ -85,8 +82,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unhallow, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	},
 	"quick_rot": {
 		"name": "Quick Rot",
@@ -107,8 +103,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ghoul touch; **Cost** 225 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	},
 	"xensh_spores": {
 		"name": "Xensh Spores",
@@ -129,7 +124,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [undead anatomy I](spell/undead anatomy_1); **Cost** 225 gp"
-		],
-		"display": "magic/necrotoxins"
+		]
 	}
 }

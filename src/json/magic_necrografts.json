@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, [undead anatomy II](spell/undead anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	},
 	"gravespawn_gland": {
 		"name": "Gravespawn Gland",
@@ -35,8 +34,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, inflict critical wounds, creator must have 11 ranks in Heal; **Cost** 3100 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	},
 	"necrograft_arm": {
 		"name": "Necrograft Arm",
@@ -53,8 +51,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 6000 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	},
 	"necrograft_leg": {
 		"name": "Necrograft Leg",
@@ -71,8 +68,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 3200 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	},
 	"sallowflesh": {
 		"name": "Sallowflesh",
@@ -89,8 +85,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, hide from undead, creator must have 5 ranks in Heal; **Cost** 10000 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	},
 	"strangler's_tongue": {
 		"name": "Strangler's Tongue",
@@ -107,7 +102,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, hold person, creator must have 5 ranks in Heal; **Cost** 18000 gp"
-		],
-		"display": "magic/necrografts"
+		]
 	}
 }

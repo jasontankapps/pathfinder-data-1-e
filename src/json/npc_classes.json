@@ -61,8 +61,7 @@
 			"Each adept has a particular holy symbol (as a divine focus) depending on the adept's magical tradition.",
 			"",
 			"**Summon Familiar**: At 2nd level, an adept can call a familiar, just as a wizard can using the arcane bond ability."
-		],
-		"display": "class"
+		]
 	},
 	"aristocrat": {
 		"name": "aristocrat",
@@ -109,8 +108,7 @@
 			"| 20th | +15/+10/+5 | +6 | +6 | +12 | - |",
 			"",
 			"**Weapon and Armor Proficiency**: The aristocrat is proficient in the use of all simple and martial weapons and with all types of armor and shields."
-		],
-		"display": "class"
+		]
 	},
 	"commoner": {
 		"name": "commoner",
@@ -157,8 +155,7 @@
 			"| 20th | +10/+5 | +6 | +6 | +6 | - |",
 			"",
 			"**Weapon and Armor Proficiency**: The commoner is proficient with one simple weapon. He is not proficient with any other weapons, nor is he proficient with any type of armor or shield."
-		],
-		"display": "class"
+		]
 	},
 	"expert": {
 		"name": "expert",
@@ -205,8 +202,7 @@
 			"| 20th | +15/+10/+5 | +6 | +6 | +12 | - |",
 			"",
 			"**Weapon and Armor Proficiency**: The expert is proficient in the use of all simple weapons and with light armor, but not with any type of shield."
-		],
-		"display": "class"
+		]
 	},
 	"warrior": {
 		"name": "warrior",
@@ -253,7 +249,6 @@
 			"| 20th | +20/+15/+10/+5 | +12 | +6 | +6 | - |",
 			"",
 			"**Weapon and Armor Proficiency**: The warrior is proficient in the use of all simple and martial weapons and with all types of armor and shields."
-		],
-		"display": "class"
+		]
 	}
 }

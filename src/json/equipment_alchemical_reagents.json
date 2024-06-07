@@ -29,8 +29,7 @@
 			"*Grease (M)*: The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
 			"",
 			"*Wall of Ice (M)*: For each flask of acid used as a power component, you may designate one 10-foot square of ice wall that, if broken through, deals 1d6 acid damage in addition to the normal cold damage."
-		],
-		"display": "equipalch"
+		]
 	},
 	"alchemical_grease": {
 		"name": "Alchemical Grease",
@@ -55,8 +54,7 @@
 			"*Wall of Iron (M)*: For each pot of grease used as a power component, you may designate one 10-foot square of iron wall as being slippery (+5 to Climb DCs).",
 			"",
 			"*Wall of Stone (M)*: For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
-		],
-		"display": "equipalch"
+		]
 	},
 	"alchemist's_fire": {
 		"name": "Alchemist's Fire",
@@ -87,8 +85,7 @@
 			"*Scorching Ray (F)*: Add a +1 circumstance bonus on your attack roll with all rays from the spell.",
 			"",
 			"*Scorching Ray (M)*: Any target damaged by a scorching ray catches on fire as if it has been struck by alchemist's fire."
-		],
-		"display": "equipalch"
+		]
 	},
 	"antiplague": {
 		"name": "Antiplague",
@@ -109,8 +106,7 @@
 			"*Heroes' Feast (M)*: For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.",
 			"",
 			"*Remove Disease (M)*: Add +2 on your caster level check to cure diseases on the target."
-		],
-		"display": "equipalch"
+		]
 	},
 	"antitoxin": {
 		"name": "Antitoxin",
@@ -129,8 +125,7 @@
 			"**Effect** Antitoxin can be used as a power component in the following ways:",
 			"",
 			"*Neutralize Poison (M)*: Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
-		],
-		"display": "equipalch"
+		]
 	},
 	"black_powder": {
 		"name": "Black Powder",
@@ -147,8 +142,7 @@
 			"**Doses** 1 (10 gp); **Spells** evocation school",
 			"",
 			"**Effect** +1 energy damage"
-		],
-		"display": "equipalch"
+		]
 	},
 	"bladeguard": {
 		"name": "Bladeguard",
@@ -167,8 +161,7 @@
 			"**Effect** Bladeguard can be used as a power component in the following ways:",
 			"",
 			"*Wall of Iron (M)*: For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks."
-		],
-		"display": "equipalch"
+		]
 	},
 	"brimstone": {
 		"name": "Brimstone",
@@ -185,8 +178,7 @@
 			"**Doses** 2 (1 gp); **Spells** acid descriptor",
 			"",
 			"**Effect** +1 acid damage"
-		],
-		"display": "equipalch"
+		]
 	},
 	"cold_iron": {
 		"name": "Cold Iron",
@@ -203,8 +195,7 @@
 			"**Doses** 5 (5 gp); **Spells** abjuration school",
 			"",
 			"**Effect** +1 caster level for the purpose of caster level and dispel checks"
-		],
-		"display": "equipalch"
+		]
 	},
 	"cooperation_crystals": {
 		"name": "Cooperation Crystals",
@@ -221,8 +212,7 @@
 			"**Doses** 1 (300 gp); **Spells** harmless spells",
 			"",
 			"**Effect** When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell."
-		],
-		"display": "equipalch"
+		]
 	},
 	"cytillesh_spores": {
 		"name": "Cytillesh Spores",
@@ -239,8 +229,7 @@
 			"**Doses** 1 (5 gp); **Spells** charm or compulsion subschool",
 			"",
 			"**Effect** +1 caster level for the purpose of duration"
-		],
-		"display": "equipalch"
+		]
 	},
 	"darkwood": {
 		"name": "Darkwood",
@@ -257,8 +246,7 @@
 			"**Doses** 5 (10 gp); **Spells** creation subschool",
 			"",
 			"**Effect** +1 caster level for the purpose of the effect"
-		],
-		"display": "equipalch"
+		]
 	},
 	"dew_of_lunary": {
 		"name": "Dew of Lunary",
@@ -275,8 +263,7 @@
 			"**Doses** 5 (20 gp); **Spells** divination school",
 			"",
 			"**Effect** +1 caster level for the purpose of effect"
-		],
-		"display": "equipalch"
+		]
 	},
 	"fire_fragment": {
 		"name": "Fire Fragment",
@@ -293,8 +280,7 @@
 			"**Doses** 1 (350 gp); **Spells** fire spells",
 			"",
 			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the [Flaring Spell](feat/flaring_spell) metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
-		],
-		"display": "equipalch"
+		]
 	},
 	"flash_powder": {
 		"name": "Flash Powder",
@@ -315,8 +301,7 @@
 			"*Flare (M)*: Increase the saving throw DC of the spell by 2.",
 			"",
 			"*Pyrotechnics (M)*: When used to create fireworks, increase the DC by 1 and the blindness duration by 1 round."
-		],
-		"display": "equipalch"
+		]
 	},
 	"ginger_extract": {
 		"name": "Ginger Extract",
@@ -333,8 +318,7 @@
 			"**Doses** 10 (5 gp); **Spells** transmutation school",
 			"",
 			"**Effect** +1 caster level for the purpose of overcoming spell resistance"
-		],
-		"display": "equipalch"
+		]
 	},
 	"gold": {
 		"name": "Gold",
@@ -351,8 +335,7 @@
 			"**Doses** 1 (5 gp); **Spells** healing subschool",
 			"",
 			"**Effect** +1 hit point healed"
-		],
-		"display": "equipalch"
+		]
 	},
 	"heavenly_quartz": {
 		"name": "Heavenly Quartz",
@@ -369,8 +352,7 @@
 			"**Doses** 1 (250 gp); **Spells** good or lawful spells with a Will saving throw",
 			"",
 			"**Effect** When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks."
-		],
-		"display": "equipalch"
+		]
 	},
 	"itching_powder": {
 		"name": "Itching Powder",
@@ -393,8 +375,7 @@
 			"*Repel Vermin (M)*: The first vermin that enters the emanation is subject to the effects of itching powder (DC 15). Each packet of itching powder beyond the first means the spell affects another vermin that enters the emanation. A swarm of vermin counts as one vermin for the purpose of this effect.",
 			"",
 			"*Summon Swarm (M)*: Increase the swarm's distraction DC by 2."
-		],
-		"display": "equipalch"
+		]
 	},
 	"liquid_ice": {
 		"name": "Liquid Ice",
@@ -423,8 +404,7 @@
 			"*Protection from Energy (M)*: If cast to ward against fire, increase the amount of fire damage absorbed by 5.",
 			"",
 			"*Resist Energy (M)*: If cast to ward against fire, increase the fire resistance to 12. At caster level 7th, you may use two jars of liquid ice as a power component to increase the fire resistance to 24. At caster level 11th, you may use three jars as a power component to increase the fire resistance to 36."
-		],
-		"display": "equipalch"
+		]
 	},
 	"magnesium": {
 		"name": "Magnesium",
@@ -441,8 +421,7 @@
 			"**Doses** 2 (2 gp); **Spells** transmutation school",
 			"",
 			"**Effect** +1 caster level for the purpose of duration"
-		],
-		"display": "equipalch"
+		]
 	},
 	"mugwort_extract": {
 		"name": "Mugwort Extract",
@@ -459,8 +438,7 @@
 			"**Doses** 2 (4 gp); **Spells** abjuration school",
 			"",
 			"**Effect** +1 caster level for the purpose of range"
-		],
-		"display": "equipalch"
+		]
 	},
 	"myrrh": {
 		"name": "Myrrh",
@@ -477,8 +455,7 @@
 			"**Doses** 4 (2 gp); **Spells** abjuration school",
 			"",
 			"**Effect** +1 caster level for the purpose of caster level checks and dispel checks"
-		],
-		"display": "equipalch"
+		]
 	},
 	"pesh": {
 		"name": "Pesh",
@@ -495,8 +472,7 @@
 			"**Doses** 1 (15 gp); **Spells** enchantment school",
 			"",
 			"**Effect** +1 caster level for purpose of duration"
-		],
-		"display": "equipalch"
+		]
 	},
 	"phosphorus": {
 		"name": "Phosphorus",
@@ -513,8 +489,7 @@
 			"**Doses** 10 (2 gp); **Spells** light descriptor or teleportation subschool",
 			"",
 			"**Effect** +1 caster level for the purpose of range"
-		],
-		"display": "equipalch"
+		]
 	},
 	"quicksilver": {
 		"name": "Quicksilver",
@@ -531,8 +506,7 @@
 			"**Doses** 3 (3 gp); **Spells** mind-affecting descriptor",
 			"",
 			"**Effect** +1 caster level for the purpose of duration"
-		],
-		"display": "equipalch"
+		]
 	},
 	"realgar": {
 		"name": "Realgar",
@@ -549,8 +523,7 @@
 			"**Doses** 1 (3 gp); **Spells** poison descriptor (see Pathfinder RPG Ultimate Magic)",
 			"",
 			"**Effect** +2 DC to identify or neutralize the poison with spells or skills"
-		],
-		"display": "equipalch"
+		]
 	},
 	"salt": {
 		"name": "Salt",
@@ -567,8 +540,7 @@
 			"**Doses** 20 (10 gp); **Spells** necromancy school",
 			"",
 			"**Effect** +1 caster level for the purpose of effect"
-		],
-		"display": "equipalch"
+		]
 	},
 	"saltpeter": {
 		"name": "Saltpeter",
@@ -585,8 +557,7 @@
 			"**Doses** 1 (1 gp); **Spells** fire descriptor",
 			"",
 			"**Effect** +1 fire damage"
-		],
-		"display": "equipalch"
+		]
 	},
 	"silver": {
 		"name": "Silver",
@@ -603,8 +574,7 @@
 			"**Doses** 10 (10 gp); **Spells** illusion school",
 			"",
 			"**Effect** +1 to DC of Will saves to disbelieve"
-		],
-		"display": "equipalch"
+		]
 	},
 	"smokestick": {
 		"name": "Smokestick",
@@ -627,8 +597,7 @@
 			"*Obscuring Mist (M)*: The spell creates a smoky haze instead of mist. This haze cannot be dispersed by fire spells and dissipates naturally after 1 minute.",
 			"",
 			"*Pyrotechnics (M)*: Increase the radius of the cloud by 5 feet and the duration by 2 rounds."
-		],
-		"display": "equipalch"
+		]
 	},
 	"spirit_of_wine": {
 		"name": "Spirit of Wine",
@@ -645,8 +614,7 @@
 			"**Doses** 6 (3 gp); **Spells** calling and summoning subschools",
 			"",
 			"**Effect** +1 caster level for the purpose of duration"
-		],
-		"display": "equipalch"
+		]
 	},
 	"tanglefoot_bag": {
 		"name": "Tanglefoot Bag",
@@ -669,8 +637,7 @@
 			"*Slow (M)*: For each tanglefoot bag used as a power component, you may designate one slowed creature as being affected by a tanglefoot bag.",
 			"",
 			"*Web (M)*: Increase the DC of breaking free by making a combat maneuver or Escape Artist check by 1."
-		],
-		"display": "equipalch"
+		]
 	},
 	"thunderstone": {
 		"name": "Thunderstone",
@@ -691,8 +658,7 @@
 			"*Alarm (M)*: If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
 			"",
 			"*Glyph of Warding (M)*: Creatures that fail their saves against a blast glyph are also deafened as if by a thunderstone."
-		],
-		"display": "equipalch"
+		]
 	},
 	"urea": {
 		"name": "Urea",
@@ -709,8 +675,7 @@
 			"**Doses** 4 (2 gp); **Spells** cold descriptor",
 			"",
 			"**Effect** +1 caster level for the purpose of the effect"
-		],
-		"display": "equipalch"
+		]
 	},
 	"void_shard": {
 		"name": "Void Shard",
@@ -727,8 +692,7 @@
 			"**Doses** 1 (250 gp); **Spells** necromancy school",
 			"",
 			"**Effect** When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell."
-		],
-		"display": "equipalch"
+		]
 	},
 	"whimsy_star": {
 		"name": "Whimsy Star",
@@ -754,7 +718,6 @@
 			"| 4 | The spell is affected as per the [Extend Spell](feat/extend_spell) metamagic feat. |",
 			"| 5 | The spell is affected as per the [Widen Spell](feat/widen_spell) metamagic feat. |",
 			"| 6 | The spell is affected as per the [Heighten Spell](feat/heighten_spell) metamagic feat, increasing the spell's level by 1. |"
-		],
-		"display": "equipalch"
+		]
 	}
 }

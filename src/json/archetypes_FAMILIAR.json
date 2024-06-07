@@ -20,8 +20,7 @@
 			"**Enhanced Personality (Ex):** An ambassador gains a Charisma score equal to the typical Intelligence score of a familiar of its level, if that would be higher than its normal Charisma score. The familiar's Intelligence score remains 6 (or its normal starting Intelligence for an improved familiar) and doesn't increase by level.",
 			"",
 			"This replaces the familiar's Intelligence score advancement."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"animal_exemplar": {
 		"name": "Animal Exemplar",
@@ -39,8 +38,7 @@
 			"**Influence Animals (Ex, Sp):** An animal exemplar gains speak with animals with respect to others of its kind at 3rd level instead of 7th level. At 7th level, it gains the ability to influence animals of its kind, as per the wild empathy ability of a druid of its master's level with a +4 racial bonus on the check, but only for animals of its kind. At 11th level, it can cast charm animal three times per day as a spell-like ability against animals of its kind, and at 13th level, it can cast dominate animal once per day as a spell-like ability against animals of its kind.",
 			"",
 			"This alters speak with animals of its kind and replaces deliver touch spells, spell resistance, and scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"arcane_amplifier": {
 		"name": "Arcane Amplifier",
@@ -64,8 +62,7 @@
 			"This replaces scry on familiar.",
 			"",
 			"An arcane amplifier can apply only one metamagic effect to a single casting of a spell using its echo, reverberate, or resonate abilities."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"decoy": {
 		"name": "Decoy",
@@ -83,8 +80,7 @@
 			"**Mockingbird (Ex):** At 5th level, a decoy can speak any of its master's languages. At 7th level, it can mimic its master's voice and intonation perfectly. This ability replaces speak with master and speak with animals of its kind.",
 			"",
 			"**Master's Guise (Sp):** At 11th level, a decoy can transform into a perfect likeness of its master, as the alter self spell. It can hold this form for up to 1 minute per caster level; upon changing back, the decoy must remain in its natural form for an equal amount of time before transforming again. This ability replaces spell resistance."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"egotist": {
 		"name": "Egotist",
@@ -112,8 +108,7 @@
 			"**Scry on Master (Sp):** At 11th level, an egotist can scry on its master (as if casting the scrying spell) once per day.",
 			"",
 			"This replaces scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"elemental_familiar": {
 		"name": "Elemental Familiar",
@@ -133,8 +128,7 @@
 			"**Elemental Speech (Ex):** An elemental familiar gains the ability to speak and understand a language based on its element: Aquan (water), Auran (air), Ignan (fire), or Terran (earth).",
 			"",
 			"This ability replaces speak with animals of its kind."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"emissary": {
 		"name": "Emissary",
@@ -163,8 +157,7 @@
 			"**Domain Influence (Sp or Su):** At 3rd level, the emissary gains a spark of divine power from the deity its master worships. Choose one of that deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom modifier. The emissary can use that power once per day.",
 			"",
 			"This replaces deliver touch spells."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"figment": {
 		"name": "Figment",
@@ -185,8 +178,7 @@
 			"**Manifest Dreams (Su):** At 3rd level, a figment is shaped by its master's dreams. Each time the master awakens from a full night's rest, he can apply to the figment 1 evolution point's worth of eidolon evolutions that don't have a base form requirement. At 7th level, he can apply 2 points' worth of eidolon evolutions; at 13th level, he can apply 3 points' worth of eidolon evolutions.",
 			"",
 			"This replaces deliver touch spells, speak with animals of its kind, and scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"infiltrator": {
 		"name": "Infiltrator",
@@ -221,8 +213,7 @@
 			"**Telepathic Bond (Sp):** At 11th level, an infiltrator gains a permanent telepathic bond with its master. This bond has no range limit as long as the familiar and its master are on the same plane.",
 			"",
 			"This replaces spell resistance."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"mascot": {
 		"name": "Mascot",
@@ -261,8 +252,7 @@
 			"**Heart of the Team (Ex):** Once per day at 13th level, as a full-round action, a mascot can designate any member of its team as its master for the purpose of calculating its base attack bonus, Hit Dice, hit points, saving throws, and skill ranks.",
 			"",
 			"This replaces spell resistance and scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"mauler": {
 		"name": "Mauler",
@@ -295,8 +285,7 @@
 			"**Damage Reduction (Su):** At 11th level, a mauler gains DR 5/magic.",
 			"",
 			"This replaces spell resistance."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"occult_messenger": {
 		"name": "Occult Messenger",
@@ -314,8 +303,7 @@
 			"**Teacher from Afar (Ex):** When the occult messenger's master uses a [psychic skill unlock](rule/psychic_skill_unlock) while the occult messenger is within arm's reach, the master gains a competence bonus on skill unlocks equal to half the occult messenger's level.",
 			"",
 			"This replaces deliver touch spells."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"parasite": {
 		"name": "Parasite",
@@ -337,8 +325,7 @@
 			"**Puppeteer (Sp):** Beginning at 3rd level, the parasite can attempt to control its host once per day. This functions as [suggestion](spell/suggestion). At 7th level, the parasite can use this ability to replicate [dominate person](spell/dominate_person) instead. At 15th level, the parasite can replicate [dominate monster](spell/dominate_monster). The DC for this ability is calculated as if the parasite's master had cast the spell (defaulting to Charisma if the owner has no spellcasting ability).",
 			"",
 			"This replaces deliver touch spells, speak with animals of its kind, spell resistance, and scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"pilferer": {
 		"name": "Pilferer",
@@ -369,8 +356,7 @@
 			"**Greater Steal (Ex):** At 9th level, a pilferer gains Greater Steal as a bonus feat.",
 			"",
 			"This replaces speak with animals of its kind."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"prankster": {
 		"name": "Prankster",
@@ -406,8 +392,7 @@
 			"**Unreliable Narrator (Sp):** At 13th level, whenever its master uses scry on familiar, a prankster can use false vision to fool that ability; this doesn't affect any other divination (scrying) effects in the area, only its master's scry on familiar ability.",
 			"",
 			"This alters scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"protector": {
 		"name": "Protector",
@@ -432,8 +417,7 @@
 			"**Able Defender (Ex):** At 11th level, a protector gains In Harm's Way as a bonus feat. In addition, the familiar's hit points are now equal to its master's total hit points (not including temporary hit points), regardless of its actual Hit Dice.",
 			"",
 			"This replaces spell resistance."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"sage": {
 		"name": "Sage",
@@ -456,8 +440,7 @@
 			"**Sage's Knowledge (Ex):** A sage stores information on every topic and is happy to lecture its master on the finer points of a subject. A sage can attempt all Knowledge checks untrained and gains a bonus on Knowledge checks equal to half its master's class level. Additionally, a sage gains 2 skill ranks each time its master gains a class level. Its maximum number of ranks in any given skill is equal to its master's class level.",
 			"",
 			"This replaces alertness and the familiar's ability to share its master's skill ranks."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"school_familiar": {
 		"name": "School Familiar",
@@ -541,8 +524,7 @@
 			"**Lesser-Dispel Bait (Su):** As a standard action, the familiar's master can expend a spell or an open spell slot to imbue the familiar with the ability to protect his transmutations. Whenever one of the master's transmutations would be successfully dispelled, if the familiar is within 10 feet of the transmutation effect and the imbued spell slot is of a level equal to or higher than the transmutation, the familiar can choose to lose the imbued spell slot to prevent the transmutation effect from being dispelled. The familiar can be imbued with only one dispel bait effect at a time.",
 			"",
 			"**Greater-Infinite Forms (Su):** Once per day as a standard action, the familiar can transform into any animal familiar (but not an improved familiar), losing all of its racial abilities and becoming a typical familiar of the chosen type, including granting a different familiar bonus to its master."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"soulbound_familiar": {
 		"name": "Soulbound Familiar",
@@ -560,8 +542,7 @@
 			"**Alignment Variation (Ex):** A soulbound familiar's alignment is always at least partially neutral, although it can also be chaotic, evil, good, or lawful, depending on the creature whose soul provided the fragment rather than on the master's alignment (unless the master donates a fragment of her own soul). At 8th level, it gains one of the following spell-like abilities, usable once per day and based on its alignment (caster level = its master's caster level - 3): chaotic neutral: rage; lawful neutral: suggestion; neutral: deep slumber; neutral evil: inflict serious wounds; or neutral good: heroism. At 13th level, its caster level increases to its master's caster level.",
 			"",
 			"This replaces speak with animals of its kind and scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	},
 	"valet": {
 		"name": "Valet",
@@ -600,7 +581,6 @@
 			"**Aide to All (Ex):** At 13th level, a valet can use the aid another action as a full-round action to grant up to three adjacent creatures bonuses from this action. Each bonus can apply to the same action or check or to different actions or checks.",
 			"",
 			"This replaces scry on familiar."
-		],
-		"display": "archetype/familiar"
+		]
 	}
 }

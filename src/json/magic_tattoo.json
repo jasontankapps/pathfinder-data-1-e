@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), the spell to be inscribed; **Cost** varies"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"hypnotic_tattoo": {
 		"name": "Hypnotic Tattoo",
@@ -35,8 +34,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), hypnotism; **Cost** 450 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"runeward_tattoo": {
 		"name": "Runeward Tattoo",
@@ -53,8 +51,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [detect magic](spell/detect_magic), guidance; **Cost** 500 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"radiant_tattoo": {
 		"name": "Radiant Tattoo",
@@ -71,8 +68,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), daylight; **Cost** 750 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"kin's_face_tattoo": {
 		"name": "Kin's Face Tattoo",
@@ -94,8 +90,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), disguise self; **Cost** 800 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"serpentine_tattoo": {
 		"name": "Serpentine Tattoo",
@@ -112,8 +107,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Improved Dirty Trick, [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [summon monster I](spell/summon_monster_1); **Cost** 1,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"caster's_tattoo_lesser": {
 		"name": "Caster's Tattoo (Lesser)",
@@ -132,8 +126,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), Silent Spell, Still Spell; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"lesser_caster's_tattoo": {
 		"copyof": "caster's_tattoo_lesser"
@@ -155,8 +148,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [protection from evil](spell/protection_from_evil); **Cost** 4,750 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"reservoir_tattoo": {
 		"name": "Reservoir Tattoo",
@@ -173,8 +165,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo); **Cost** 5,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"weapon_tattoo": {
 		"name": "Weapon Tattoo",
@@ -191,8 +182,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), disguise weapon; **Cost** 5,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"mesmerizing_tattoo": {
 		"name": "Mesmerizing Tattoo",
@@ -211,8 +201,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), suggestion; **Cost** 5,400 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"animal_totem_tattoo": {
 		"name": "Animal Totem Tattoo",
@@ -229,8 +218,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [beast shape I](spell/beast shape_1); **Cost** 6,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"swirling_smoke_tattoo": {
 		"name": "Swirling Smoke Tattoo",
@@ -247,8 +235,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), blur; **Cost** 6,250 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"viper_tattoo": {
 		"name": "Viper Tattoo",
@@ -271,14 +258,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 9,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"caster's_tattoo_normal": {
 		"name": "Caster's Tattoo (Normal)",
 		"sources": [ "Inner Sea Magic" ],
-		"copyof": "caster's_tattoo_lesser",
-		"display": "magic/tattoo"
+		"copyof": "caster's_tattoo_lesser"
 	},
 	"normal_caster's_tattoo": {
 		"copyof": "caster's_tattoo_normal"
@@ -298,14 +283,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), protective penumbra; **Cost** 12,000 gp"
-		],
-		"display": "magic/tattoo"
+		]
 	},
 	"caster's_tattoo_greater": {
 		"name": "Caster's Tattoo (Greater)",
 		"sources": [ "Inner Sea Magic" ],
-		"copyof": "caster's_tattoo_lesser",
-		"display": "magic/tattoo"
+		"copyof": "caster's_tattoo_lesser"
 	},
 	"greater_caster's_tattoo": {
 		"copyof": "caster's_tattoo_greater"

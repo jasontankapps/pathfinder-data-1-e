@@ -18,8 +18,7 @@
 			"**Spell Effect** disfiguring touch (Will DC 13)",
 			"",
 			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), disfiguring touch; **Cost** 270 gp"
-		],
-		"display": "magic/infused_poisons"
+		]
 	},
 	"burning_heart": {
 		"name": "Burning Heart",
@@ -39,8 +38,7 @@
 			"**Spell Effect** touch of combustion (Reflex DC 11)",
 			"",
 			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), touch of combustion; **Cost** 125 gp"
-		],
-		"display": "magic/infused_poisons"
+		]
 	},
 	"dust_of_eox": {
 		"name": "Dust of Eox",
@@ -60,8 +58,7 @@
 			"**Spell Effect** dispel magic",
 			"",
 			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), dispel magic; **Cost** 775 gp"
-		],
-		"display": "magic/infused_poisons"
+		]
 	},
 	"liquid_influence": {
 		"name": "Liquid Influence",
@@ -81,7 +78,6 @@
 			"**Spell Effect** suggestion (Will DC 14)",
 			"",
 			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), suggestion; **Cost** 525 gp"
-		],
-		"display": "magic/infused_poisons"
+		]
 	}
 }

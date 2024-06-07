@@ -15,8 +15,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), darkness; **Price** 40 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"vine_arrow": {
 		"name": "Vine Arrow",
@@ -33,8 +32,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), entangled; **Price** 40 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tracer_bullet": {
 		"name": "Tracer Bullet",
@@ -54,8 +52,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), faerie fire; **Price** 50 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sleep_arrow": {
 		"name": "Sleep Arrow",
@@ -75,8 +72,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sleep; **Price** 70 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dwindling_bullet": {
 		"name": "Dwindling Bullet",
@@ -93,8 +89,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reduce person; **Price** 86 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_life's_defense": {
 		"name": "Blade of Life's Defense",
@@ -107,8 +102,7 @@
 			"**Price** 170 gp ; **Weight** 6 lbs.",
 			"",
 			"This khopesh has a silver blade polished to an almost blinding sheen and etched with motifs of vines and leaves. Blades of life's defense can be bought in Anuli's Sword Alley, and are becoming more popular as rumblings of an open war with Geb continue to grow ever louder. Each blade is imbued with a shimmer of nonmagical might against undead that grants the blade's bearer a +1 sacred bonus on saving throws against the abilities of undead. It is otherwise treated as a standard khopesh."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mage_shot_acid": {
 		"name": "Mage Shot (Acid)",
@@ -125,8 +119,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid arrow; **Price** 98 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mage_shot_cold": {
 		"name": "Mage Shot (Cold)",
@@ -143,8 +136,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cone of cold; **Price** 98 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mage_shot_electricity": {
 		"name": "Mage Shot (Electricity)",
@@ -161,8 +153,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt; **Price** 98 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mage_shot_fire": {
 		"name": "Mage Shot (Fire)",
@@ -179,8 +170,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), scorching ray; **Price** 98 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dustburst_bullet": {
 		"name": "Dustburst Bullet",
@@ -200,8 +190,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stinking cloud; **Price** 98 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mephit-head_arrow": {
 		"name": "Mephit-Head Arrow",
@@ -234,8 +223,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), elemental touch; **Price** 100 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mephit_head_arrow": {
 		"copyof": "mephit-head_arrow"
@@ -255,8 +243,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), apport object ; **Price** 106 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tangle_bolt": {
 		"name": "Tangle Bolt",
@@ -276,8 +263,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true seeing, and either web or creator must have 5 ranks in Craft (alchemy); **Price** 113 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dispelling_bullet": {
 		"name": "Dispelling Bullet",
@@ -294,8 +280,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic); **Price** 125 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"unerring_grenade": {
 		"name": "Unerring Grenade",
@@ -312,8 +297,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true seeing; **Price** 186 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"screaming_bolt": {
 		"name": "Screaming Bolt",
@@ -333,8 +317,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), doom; **Price** 137 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"snakebiter_arrow": {
 		"name": "Snakebiter Arrow",
@@ -351,8 +334,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, poison, true strike; **Price** 156 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"grave_marker_arrow": {
 		"name": "Grave Marker Arrow",
@@ -369,8 +351,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), command undead; **Price** 157 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"masterwork_silver_dagger": {
 		"name": "Masterwork Silver Dagger",
@@ -386,8 +367,7 @@
 			"**Slot** none; **Price** 322 gp ; **Weight** 1 lb.",
 			"",
 			"As a masterwork weapon, this alchemical silver dagger has a +1 enhancement bonus on attack rolls (but not on damage rolls)."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"alchemist's_bullet": {
 		"name": "Alchemist's Bullet",
@@ -404,8 +384,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 180 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cold_iron_masterwork_longsword": {
 		"name": "Cold Iron Masterwork Longsword",
@@ -421,8 +400,7 @@
 			"**Slot** none; **Price** 330 gp ; **Weight** 4 lbs.",
 			"",
 			"This nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"splitting_bolt": {
 		"name": "Splitting Bolt",
@@ -439,8 +417,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chain lightning; **Price** 176 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"earthfire_shuriken": {
 		"name": "Earthfire Shuriken",
@@ -457,8 +434,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); burning gaze (see page 208 of the Advanced Player's Guide); flame blade, flame strike, or fireball; **Price** 198 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dizzying_bullet": {
 		"name": "Dizzying Bullet",
@@ -475,8 +451,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sound burst; **Price** 251 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"vulnerability_bolt": {
 		"name": "Vulnerability Bolt",
@@ -493,8 +468,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), pernicious poison; **Price** 251 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"secure_sheath": {
 		"name": "Secure Sheath",
@@ -511,8 +485,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [glue seal](spell/glue_seal); **Price** 250 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hushing_arrow_normal": {
 		"name": "Hushing Arrow (normal)",
@@ -531,8 +504,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Heighten Spell (greater hushing arrow only), silence; **Price** 277 gp (normal), 577 gp (greater)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mute_dart": {
 		"name": "Mute Dart",
@@ -549,8 +521,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), silence; **Price** 286 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"reporting_cartridge": {
 		"name": "Reporting Cartridge",
@@ -567,8 +538,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/clairvoyance; **Price** 286 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scouting_cartridge": {
 		"name": "Scouting Cartridge",
@@ -585,8 +555,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/clairvoyance; **Price** 286 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"prying_star": {
 		"name": "Prying Star",
@@ -605,8 +574,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility, magic aura, silence, vicarious view; **Price** 326 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"boulder_bullet_lesser": {
 		"name": "Boulder Bullet (lesser)",
@@ -629,8 +597,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink object; **Price** 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lesser_boulder_bullet": {
 		"copyof": "boulder_bullet_lesser"
@@ -650,14 +617,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blink; **Price** 461 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hushing_arrow_greater": {
 		"name": "Hushing Arrow (greater)",
 		"sources": [ "Ultimate Equipment" ],
-		"copyof": "hushing_arrow_normal",
-		"display": "magic/weapon"
+		"copyof": "hushing_arrow_normal"
 	},
 	"greater_hushing_arrow": {
 		"copyof": "hushing_arrow_greater"
@@ -677,8 +642,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimension door, mass daze; **Price** 750 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"venomous_whisper_dart": {
 		"name": "Venomous Whisper Dart",
@@ -695,8 +659,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), modify memory, suggestion; **Price** 736 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"javelin_of_lightning": {
 		"name": "Javelin of Lightning",
@@ -716,8 +679,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt; **Price** 750 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"searing_arrow": {
 		"name": "Searing Arrow",
@@ -737,8 +699,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); flame blade, flame strike, or fireball; **Price** 758 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sizzling_arrow": {
 		"name": "Sizzling Arrow",
@@ -758,8 +719,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid arrow; **Price** 758 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"burrowing_bullet_lesser": {
 		"name": "Burrowing Bullet (lesser)",
@@ -779,8 +739,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), symbol of pain (burrowing bullet) or symbol of stunning (greater burrowing bullet); **Price** 861 gp (normal), 1,723 gp (greater)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lesser_burrowing_bullet": {
 		"copyof": "burrowing_bullet_lesser"
@@ -800,14 +759,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cup of dust (Advanced Player's Guide), [summon monster I](spell/summon_monster_1); **Price** 880 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"boulder_bullet_normal": {
 		"name": "Boulder Bullet (normal)",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"copyof": "boulder_bullet_lesser",
-		"display": "magic/weapon"
+		"copyof": "boulder_bullet_lesser"
 	},
 	"detecting_dart": {
 		"name": "Detecting Dart",
@@ -828,8 +785,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature; **Price** 1,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"slaying_arrow_normal": {
 		"name": "Slaying Arrow (normal)",
@@ -884,8 +840,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), finger of death (slaying arrow) or heightened finger of death (greater slaying arrow); **Price** 1,144 gp (normal), 2,032 gp (greater)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crossbow_of_the_crab": {
 		"name": "Crossbow of the Crab",
@@ -900,8 +855,7 @@
 			"This Large masterwork repeating heavy crossbow is powered by a system of clockwork gears and torsion springs. It functions like its normal counterpart above water, but it can also be used underwater, where it has a range increment of 50 feet. Pulling a lever on the crossbow as a move action extends and retracts the weapon's stock and opens and collapses its limbs for easy stowage, making it small enough for a Medium character to carry in a backpack. The crossbow can be enchanted with weapon abilities like any normal masterwork crossbow.",
 			"",
 			"When mounted on the pincers of an [apparatus of the crab](magic/wondrous/apparatus_of_the_crab) or another similar device (which takes a full-round action), a character operating the vehicle can aim and shoot the crossbow up to twice per round (attack bonus +12) by pulling the lever that normally snaps the pincers. While using the crossbow in this way, a character without [Exotic Weapon Proficiency (repeating heavy crossbow)](feat/exotic_weapon_proficiency) doesn't take a penalty for nonproficiency. While the crossbow is thus mounted, the apparatus can't make attacks with the pincers. If a character operates the lever that extends and retracts the pincers and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the vehicle to make pincer attacks again."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"effortless_lace": {
 		"name": "Effortless Lace",
@@ -920,8 +874,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 1,250 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"alchemist's_aspergillum": {
 		"name": "Alchemist's Aspergillum",
@@ -938,8 +891,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy; **Price** 1,402 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"arrow_of_charming": {
 		"name": "Arrow of Charming",
@@ -956,8 +908,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm monster; **Price** 1,446 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blightburn_arrow": {
 		"name": "Blightburn Arrow",
@@ -974,8 +925,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fester, fireball; **Price** 1,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"everbloom's_rose": {
 		"name": "Everbloom's Rose",
@@ -992,8 +942,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Arms and Armor, bless, remove fear; **Price** 1,654 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"adamantine_dagger": {
 		"name": "Adamantine Dagger",
@@ -1009,8 +958,7 @@
 			"**Slot** none; **Price** 3,002 gp; **Weight** 1 lb.",
 			"",
 			"This nonmagical dagger is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"adamantine_battleaxe": {
 		"name": "Adamantine Battleaxe",
@@ -1026,8 +974,7 @@
 			"**Slot** none; **Price** 3,010 gp; **Weight** 6 lbs.",
 			"",
 			"This nonmagical axe is made of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"carouser's_retort": {
 		"name": "Carouser's Retort",
@@ -1044,8 +991,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), purify food and drink, remove fear; **Price** 1,690 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fate_blade": {
 		"name": "Fate Blade",
@@ -1062,8 +1008,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disrupt undead; **Price** 1,697 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"conflagration_pike": {
 		"name": "Conflagration Pike",
@@ -1080,8 +1025,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burning hands; **Price** 1,710 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fiend's_relief": {
 		"name": "Fiend's Relief",
@@ -1098,8 +1042,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), command, [detect evil](spell/detect_evil); **Price** 1,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tidewater_cutlass": {
 		"name": "Tidewater Cutlass",
@@ -1118,8 +1061,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hydraulic push; **Price** 1,855 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"burrowing_bullet_greater": {
 		"name": "Burrowing Bullet (greater)",
@@ -1127,8 +1069,7 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "burrowing_bullet_lesser",
-		"display": "magic/weapon"
+		"copyof": "burrowing_bullet_lesser"
 	},
 	"greater_burrowing_bullet": {
 		"copyof": "burrowing_bullet_greater"
@@ -1150,8 +1091,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hallow; **Price** 1,770 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"grasping_bolas": {
 		"name": "Grasping Bolas",
@@ -1170,8 +1110,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope or entangle; **Price** 2,055 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"enduring_bloom": {
 		"name": "Enduring Bloom",
@@ -1188,8 +1127,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Quicken Spell, bless, cure light wounds; **Price** 2,078 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"kinbonded_bow": {
 		"name": "Kinbonded Bow",
@@ -1206,8 +1144,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true strike; **Price** 2,125 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spear_of_manhunting": {
 		"name": "Spear of Manhunting",
@@ -1224,8 +1161,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hold person, shrink item; **Price** 2,115 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bloodlight": {
 		"name": "Bloodlight",
@@ -1242,14 +1178,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), rage; **Price** 2,160 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"boulder_bullet_greater": {
 		"name": "Boulder Bullet (greater)",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"copyof": "boulder_bullet_lesser",
-		"display": "magic/weapon"
+		"copyof": "boulder_bullet_lesser"
 	},
 	"greater_boulder_bullet": {
 		"copyof": "boulder_bullet_greater"
@@ -1260,8 +1194,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "slaying_arrow_normal",
-		"display": "magic/weapon"
+		"copyof": "slaying_arrow_normal"
 	},
 	"greater_slaying_arrow": {
 		"copyof": "slaying_arrow_greater"
@@ -1281,8 +1214,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope; **Price** 2,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"boarding_pike_of_repelling": {
 		"name": "Boarding Pike of Repelling",
@@ -1299,8 +1231,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wood shape; **Price** 2,308 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lance_of_jousting": {
 		"name": "Lance of Jousting",
@@ -1320,8 +1251,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength; **Price** 2,105 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ranseur_of_the_gargoyle": {
 		"name": "Ranseur of the Gargoyle",
@@ -1338,8 +1268,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), barkskin; **Price** 2,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wizard_hook": {
 		"name": "Wizard Hook",
@@ -1356,8 +1285,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spectral hand; **Price** 2,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"forgefather's_sledge": {
 		"name": "Forgefather's Sledge",
@@ -1374,8 +1302,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy (fire), shrink item; **Price** 2,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shatterspike": {
 		"name": "Shatterspike",
@@ -1395,8 +1322,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Str 13, Craft Arms and Armor, Improved Sunder, Power Attack, shatter; **Price** 2,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"grafting_blade": {
 		"name": "Grafting Blade",
@@ -1415,8 +1341,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wood shape ; **Price** 2,370 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"secret_crossbow": {
 		"name": "Secret Crossbow",
@@ -1433,8 +1358,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility; **Price** 2,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"black_alibi": {
 		"name": "Black Alibi",
@@ -1451,8 +1375,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, either false alibi or modify memory; **Price** 2,360 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"perfectionist_shavtoosh": {
 		"name": "Perfectionist Shavtoosh",
@@ -1469,8 +1392,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, know the enemy; **Price** 2,381 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"stirge_dart": {
 		"name": "Stirge Dart",
@@ -1487,8 +1409,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, bleed; **Price** 2,251 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"obliviating_flail": {
 		"name": "Obliviating Flail",
@@ -1505,8 +1426,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, lesser confusion; **Price** 2,565 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"biting_bracelet": {
 		"name": "Biting Bracelet",
@@ -1523,8 +1443,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, magic aura ; **Price** 2,775 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nimble_whip": {
 		"name": "Nimble Whip",
@@ -1541,8 +1460,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mage hand; **Price** 2,655 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"quarterstaff_of_entwined_serpents": {
 		"name": "Quarterstaff of Entwined Serpents",
@@ -1559,8 +1477,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Eschew Materials, magic missile; **Price** 2,825 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"brinya's_love": {
 		"name": "Brinya's Love",
@@ -1577,8 +1494,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blade of bright victory, daylight; **Price** 2,677 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"judicial_hammer": {
 		"name": "Judicial Hammer",
@@ -1595,8 +1511,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), confess; **Price** 2,780 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_three_fancies": {
 		"name": "Blade of Three Fancies",
@@ -1613,8 +1528,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), color spray, eagle's splendor; **Price** 2,778 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"smuggler's_sling": {
 		"name": "Smuggler's Sling",
@@ -1631,8 +1545,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reloading hands; **Price** 2,650 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cestus_of_security": {
 		"name": "Cestus of Security",
@@ -1651,8 +1564,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope; **Price** 2,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"axe_of_the_imperative": {
 		"name": "Axe of the Imperative",
@@ -1669,8 +1581,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mark of justice; **Price** 2,830 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"runechill_hatchet": {
 		"name": "Runechill Hatchet",
@@ -1690,8 +1601,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chill touch; **Price** 2,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dawnfire": {
 		"name": "Dawnfire",
@@ -1708,8 +1618,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burning hands, searing light; **Price** 2,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"irradiating_tail": {
 		"name": "Irradiating Tail",
@@ -1726,8 +1635,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), remove disease; **Price** 2,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nail_of_the_princess": {
 		"name": "Nail of the Princess",
@@ -1744,8 +1652,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be able to channel negative energy; **Price** 2,818 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"machete_of_clearing_normal": {
 		"name": "Machete of Clearing (normal)",
@@ -1764,8 +1671,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), defoliate (plus [summon monster I](spell/summon_monster_1) for animal or plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bloatstrike_tail": {
 		"name": "Bloatstrike Tail",
@@ -1784,8 +1690,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enlarge person; **Price** 3,101 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"whispering_shrike": {
 		"name": "Whispering Shrike",
@@ -1802,8 +1707,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield other; **Price** 3,140 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bonespur_dagger": {
 		"name": "Bonespur Dagger",
@@ -1822,8 +1726,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); ray of enfeeblement; **Price** 3,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bloodletting_kukri": {
 		"name": "Bloodletting Kukri",
@@ -1840,8 +1743,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, vampiric touch; **Price** 3,308 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"everbloom_thorn": {
 		"name": "Everbloom Thorn",
@@ -1860,8 +1762,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Arms and Armor, magic aura, shrink item; **Price** 3,160 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"inheritor's_light": {
 		"name": "Inheritor's Light",
@@ -1878,8 +1779,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, inheritor's smite; **Price** 3,435 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"boulderhead_mace": {
 		"name": "Boulderhead Mace",
@@ -1899,8 +1799,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wall of stone; **Price** 3,652 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"traitorous_blaster": {
 		"name": "Traitorous Blaster",
@@ -1917,8 +1816,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mirror strike; **Price** 4,550 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"natron_fang": {
 		"name": "Natron Fang",
@@ -1935,8 +1833,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), consecrate, disrupting weapon; **Price** 3,665 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"beaststrike_club": {
 		"name": "Beaststrike Club",
@@ -1956,8 +1853,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shillelagh; **Price** 3,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sacrificial_dagger": {
 		"name": "Sacrificial Dagger",
@@ -1976,8 +1872,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Magic Items and Armor, death knell; **Price** 3,802 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sharpshooter's_blade": {
 		"name": "Sharpshooter's Blade",
@@ -1996,8 +1891,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), greater magic weapon, versatile weapon; **Price** 3,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fighter's_fork": {
 		"name": "Fighter's Fork",
@@ -2014,8 +1908,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 3,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"swashbuckler's_rapier": {
 		"name": "Swashbuckler's Rapier",
@@ -2032,8 +1925,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic weapon, creator must have 5 ranks in Craft (weapons); **Price** 3,820 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shooting_starknife": {
 		"name": "Shooting Starknife",
@@ -2050,8 +1942,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), color spray, jump; **Price** 4,024 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"everflowing_aspergillum": {
 		"name": "Everflowing Aspergillum",
@@ -2068,8 +1959,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bless water, create water; **Price** 3,905 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"midsummer_sickle": {
 		"name": "Midsummer Sickle",
@@ -2086,8 +1976,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a druid of at least 12th level; **Price** 4,306 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wanderer's_scarf": {
 		"name": "Wanderer's Scarf",
@@ -2108,8 +1997,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disrupt undead, hide from undead; **Price** 4,062 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hurricane_quarterstaff": {
 		"name": "Hurricane Quarterstaff",
@@ -2126,8 +2014,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), gust of wind; **Price** 4,200 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gauntlets_of_rending": {
 		"name": "Gauntlets of Rending",
@@ -2144,8 +2031,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic weapon; **Price** 4,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"iomedae's_needle": {
 		"name": "Iomedae's Needle",
@@ -2164,8 +2050,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike), [undeath to death](spell/undeath_to_death); **Price** 4,016 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dagger_of_venom": {
 		"name": "Dagger of Venom",
@@ -2185,8 +2070,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison; **Price** 4,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"daggermark_blade": {
 		"name": "Daggermark Blade",
@@ -2203,8 +2087,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), guidance, instant enemy; **Price** 4,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"buoyant_harpoon": {
 		"name": "Buoyant Harpoon",
@@ -2221,8 +2104,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, slow; **Price** 4,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cave_dweller's_greataxe": {
 		"name": "Cave Dweller's Greataxe",
@@ -2239,8 +2121,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), calcific touch; **Price** 4,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadow_cleaver_elf": {
 		"name": "Shadow Cleaver (Elf)",
@@ -2259,8 +2140,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), darkness, darkvision, creator must be an elf; **Price** 4,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadow_cleaver": {
 		"copyof": "shadow_cleaver_elf"
@@ -2280,8 +2160,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), feather fall, longstrider; **Price** 4,311 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"leng_flail_lesser": {
 		"name": "Leng Flail (lesser)",
@@ -2300,8 +2179,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); spider climb (lesser) or confusion, magic stone, spider climb (greater); **Price** 4,315 gp (lesser), 25,315 gp (greater)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lesser_leng_flail": {
 		"copyof": "leng_flail_lesser"
@@ -2321,8 +2199,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, ray of sickening; **Price** 4,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shearing_sword": {
 		"name": "Shearing Sword",
@@ -2339,8 +2216,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wall of force; **Price** 4,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spear_of_the_watchful_guardian": {
 		"name": "Spear of the Watchful Guardian",
@@ -2361,8 +2237,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), timely inspiration, versatile weapon; **Price** 4,382 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"stirge_lance": {
 		"name": "Stirge Lance",
@@ -2381,8 +2256,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate object, returning weapon ; **Price** 4,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gloom_blade": {
 		"name": "Gloom Blade",
@@ -2402,8 +2276,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deeper darkness; **Price** 4,560 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"umbral_chain": {
 		"name": "Umbral Chain",
@@ -2420,8 +2293,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deeper darkness; **Price** 4,575 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dagger_of_repose": {
 		"name": "Dagger of Repose",
@@ -2438,8 +2310,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sanctify corpse, [summon monster I](spell/summon_monster_1); **Price** 4,602 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"impaler_of_thorns": {
 		"name": "Impaler of Thorns",
@@ -2461,8 +2332,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, crushing despair, delay poison; **Price** 4,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fist_of_the_pit": {
 		"name": "Fist of the Pit",
@@ -2479,8 +2349,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spiked pit; **Price** 4,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"final_word": {
 		"name": "Final Word",
@@ -2501,8 +2370,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), speak with dead; **Price** 4,808 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"battlepot_cauldron": {
 		"name": "Battlepot Cauldron",
@@ -2519,8 +2387,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); cauldron hex or touch injection; creator must have 8 ranks in Craft (alchemy); **Price** 4,656 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"stormstrike": {
 		"name": "Stormstrike",
@@ -2537,8 +2404,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chill metal or ice storm, call lightning or lightning bolt; **Price** 4,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"silverfang": {
 		"name": "Silverfang",
@@ -2557,8 +2423,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, halt undead; **Price** 8,250 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"diplomat's_traveling_stick": {
 		"name": "Diplomat's Traveling Stick",
@@ -2575,8 +2440,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), eagle's splendor; **Price** 4,845 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frostbite_sling": {
 		"name": "Frostbite Sling",
@@ -2593,8 +2457,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), frostbite (Ultimate Magic); **Price** 4,840 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fang_of_erebus": {
 		"name": "Fang of Erebus",
@@ -2613,8 +2476,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deeper darkness, identify; **Price** 4,750 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"glaive-guisarme_of_the_vanguard": {
 		"name": "Glaive-Guisarme of the Vanguard",
@@ -2631,8 +2493,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true strike; **Price** 4,912 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"glaive_guisarme_of_the_vanguard": {
 		"copyof": "glaive-guisarme_of_the_vanguard"
@@ -2656,8 +2517,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), continual flame, death knell, speak with dead, vampiric touch; **Price** 4,915 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cutlass_of_waves": {
 		"name": "Cutlass of Waves",
@@ -2674,8 +2534,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), slipstream; **Price** 4,650 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"snakebite_dagger": {
 		"name": "Snakebite Dagger",
@@ -2692,8 +2551,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), modify memory; **Price** 4,880 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shrivelblade": {
 		"name": "Shrivelblade",
@@ -2710,8 +2568,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 5,060 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trident_of_stability": {
 		"name": "Trident of Stability",
@@ -2731,8 +2588,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate; **Price** 5,065 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"redlust's_daughter": {
 		"name": "Redlust's Daughter",
@@ -2749,8 +2605,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, flame strike, shrink item; **Price** 5,125 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pirate's_arm": {
 		"name": "Pirate's Arm",
@@ -2769,8 +2624,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, touch of the sea; **Price** 5,105 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"junkblade_goblin": {
 		"name": "Junkblade (Goblin)",
@@ -2789,8 +2643,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item, [summon monster I](spell/summon_monster_1), creator must be a goblin; **Price** 5,118 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"junkblade": {
 		"copyof": "junkblade_goblin"
@@ -2812,8 +2665,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), necromantic burden (see page 27); **Price** 5,402 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trident_of_warning": {
 		"name": "Trident of Warning",
@@ -2833,8 +2685,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature; **Price** 5,215 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"balor's_lash": {
 		"name": "Balor's Lash",
@@ -2851,8 +2702,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Whip Mastery, fireball; **Price** 5,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cailean_fighting_tankard": {
 		"name": "Cailean Fighting Tankard",
@@ -2869,8 +2719,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item), secret chest; **Price** 5,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"assassin's_dagger": {
 		"name": "Assassin's Dagger",
@@ -2890,8 +2739,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), slay living; **Price** 5,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dagger_of_doubling": {
 		"name": "Dagger of Doubling",
@@ -2910,8 +2758,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shadow weapon (Ultimate Magic); **Price** 5,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"deadly_kiss": {
 		"name": "Deadly Kiss",
@@ -2928,8 +2775,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), unseen servant, creator must have the poison use ability; **Price** 5,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lacerating_rapier": {
 		"name": "Lacerating Rapier",
@@ -2948,8 +2794,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic weapon, mirror strike; **Price** 5,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"serpent's_fang": {
 		"name": "Serpent's Fang",
@@ -2970,8 +2815,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), secret chest; **Price** 5,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"courtesan's_ire": {
 		"name": "Courtesan's Ire",
@@ -2990,8 +2834,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise weapon, silver darts; **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hammertail": {
 		"name": "Hammertail",
@@ -3008,8 +2851,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), entangle, telekinesis; **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hell's_eye": {
 		"name": "Hell's Eye",
@@ -3026,8 +2868,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flame blade, flame strike; **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rending_claw_blade": {
 		"name": "Rending Claw Blade",
@@ -3044,8 +2885,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, keen edge; **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"signifer's_fist": {
 		"name": "Signifer's Fist",
@@ -3065,8 +2905,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste, [summon monster I](spell/summon_monster_1); **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"vindictive_harpoon": {
 		"name": "Vindictive Harpoon",
@@ -3083,8 +2922,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, telekinesis; **Price** 5,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"clicking_blade": {
 		"name": "Clicking Blade",
@@ -3101,8 +2939,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lesser object possession; **Price** 5,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"heartspit": {
 		"name": "Heartspit",
@@ -3119,8 +2956,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hold person, keen edge, [summon monster I](spell/summon_monster_1); **Price** 5,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"war_lance": {
 		"name": "War Lance",
@@ -3137,8 +2973,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** 5,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"brine's_sting": {
 		"name": "Brine's Sting",
@@ -3155,8 +2990,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), horrid wilting; **Price** 5,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"force_net": {
 		"name": "Force Net",
@@ -3173,8 +3007,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), forcecage; **Price** 5,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"grudge_blade": {
 		"name": "Grudge Blade",
@@ -3193,8 +3026,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, magic weapon; **Price** 5,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wavecutter": {
 		"name": "Wavecutter",
@@ -3211,8 +3043,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, keen edge; **Price** 5,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cavalryman's_bow": {
 		"name": "Cavalryman's Bow",
@@ -3229,8 +3060,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield of faith, warp wood; **Price** 5,330 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"skyrocket_crossbow": {
 		"name": "Skyrocket Crossbow",
@@ -3251,8 +3081,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/ clairvoyance, doom, flare burst; **Price** 5,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wendifisa_spear": {
 		"name": "Wendifisa Spear",
@@ -3273,8 +3102,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate dead, death knell, onyx worth at least 1,000 gp, creator must be an evil oracle; **Price** 5,877 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"loudshot_pistol": {
 		"name": "Loudshot Pistol",
@@ -3291,8 +3119,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, crafter must be a gunslinger with the pistol-whip deed; **Price** 6,290 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"launcher_of_distrarction": {
 		"name": "Launcher of Distrarction",
@@ -3309,8 +3136,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ghost sound, misdirection; **Price** 5,550 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fuming_blood_sabre": {
 		"name": "Fuming Blood Sabre",
@@ -3327,8 +3153,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid arrow, vanish; **Price** 5,685 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"swarmbow": {
 		"name": "Swarmbow",
@@ -3345,8 +3170,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), summon swarm; **Price** 6,075 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pick_of_stonecleaving": {
 		"name": "Pick of Stonecleaving",
@@ -3363,8 +3187,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), shatter; **Price** 7,308 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"earthenflail": {
 		"name": "Earthenflail",
@@ -3381,8 +3204,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), phase door, shatter; **Price** 5,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"swift_obsidian_greataxe": {
 		"name": "Swift Obsidian Greataxe",
@@ -3402,8 +3224,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), expeditious retreat, keen edge; **Price** 5,802 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"axe_of_felling": {
 		"name": "Axe of Felling",
@@ -3420,8 +3241,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, [summon monster I](spell/summon_monster_1); **Price** 5,830 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bow_of_ashes": {
 		"name": "Bow of Ashes",
@@ -3438,8 +3258,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fireball or flame blade, warp wood; **Price** 5,900 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trailblazor's_spade": {
 		"name": "Trailblazor's Spade",
@@ -3456,8 +3275,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), soften earth and stone; **Price** 5,860 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"vengeful_kiss": {
 		"name": "Vengeful Kiss",
@@ -3474,8 +3292,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope, inflict light wounds, invigorate; **Price** 5,901 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"goad_of_obedience": {
 		"name": "Goad of Obedience",
@@ -3492,14 +3309,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm animal, hold animal; **Price** 5,908 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"machete_of_clearing_animal_or_plant_bane": {
 		"name": "Machete of Clearing (animal or plant bane)",
 		"sources": [ "Sargava, the Lost Colony" ],
-		"copyof": "machete_of_clearing_normal",
-		"display": "magic/weapon"
+		"copyof": "machete_of_clearing_normal"
 	},
 	"peacekeeping_pistol": {
 		"name": "Peacekeeping Pistol",
@@ -3516,8 +3331,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, daze monster; **Price** 6,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"triple-stinging_blade_calistria": {
 		"name": "Triple-Stinging Blade (Calistria)",
@@ -3536,8 +3350,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spike growth; **Price** 5,851 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"triple_stinging_blade": {
 		"copyof": "triple-stinging_blade_calistria"
@@ -3557,8 +3370,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animal trance, snare, [summon nature's ally I](spell/summon_nature's_ally_1); **Price** 6,101 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"icicle_wand": {
 		"name": "Icicle Wand",
@@ -3575,8 +3387,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Craft Wand, ice spears, icicle dagger; **Price** 6,125 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"constrictor's_gauntlets": {
 		"name": "Constrictor's Gauntlets",
@@ -3595,8 +3406,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 6,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scorpion_tail_whip": {
 		"name": "Scorpion Tail Whip",
@@ -3613,8 +3423,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), anticipate peril; **Price** 6,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"polarity_hammer": {
 		"name": "Polarity Hammer",
@@ -3633,8 +3442,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), force punch, shield; **Price** 6,155 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sinderbos": {
 		"name": "Sinderbos",
@@ -3653,8 +3461,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ash storm, fireball, creator must worship Moloch and have 5 ranks in Craft (armor) or Craft (weapons); **Price** 6,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_binding": {
 		"name": "Blade of Binding",
@@ -3676,8 +3483,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope; **Price** 6,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gorum's_thorn": {
 		"name": "Gorum's Thorn",
@@ -3694,8 +3500,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, righteous might; **Price** 6,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dancing_wasp": {
 		"name": "Dancing Wasp",
@@ -3712,8 +3517,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** 6,352 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadowcraft_weapon": {
 		"name": "Shadowcraft Weapon",
@@ -3736,8 +3540,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), major creation, shadow weapon; **Price** 6,250 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fugitive_finder": {
 		"name": "Fugitive Finder",
@@ -3754,8 +3557,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), longstrider, [summon monster I](spell/summon_monster_1); **Price** 6,495 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nightpiercer": {
 		"name": "Nightpiercer",
@@ -3772,8 +3574,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, plane shift; **Price** 6,700 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shifter's_sorrow": {
 		"name": "Shifter's Sorrow",
@@ -3793,8 +3594,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), baleful polymorph; **Price** 6,780 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"emberchill": {
 		"name": "Emberchill",
@@ -3811,8 +3611,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Improved Counterspell, dispel magic, ice storm, creator must be a caster of at least 10th level; **Price** 6,556 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"deck_of_slivering_fate": {
 		"name": "Deck of Slivering Fate",
@@ -3829,8 +3628,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item), Deadly Dealer, magic missile; **Price** 6,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"focused_shadowcraft_weapon": {
 		"name": "Focused Shadowcraft Weapon",
@@ -3847,8 +3645,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), imbue with spell ability, major creation, shadow weapon; **Price** 6,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dragoncatch_guisarme": {
 		"name": "Dragoncatch Guisarme",
@@ -3865,8 +3662,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), black tentacles, [summon monster I](spell/summon_monster_1); **Price** 6,808 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spine_flail": {
 		"name": "Spine Flail",
@@ -3885,8 +3681,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Arms and Armor, blindness/deafness; **Price** 6,808 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"andoren_emancipation_hammer": {
 		"name": "Andoren Emancipation Hammer",
@@ -3903,8 +3698,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), break enchantment, shatter; **Price** 7,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"korrigan_club": {
 		"name": "Korrigan Club",
@@ -3921,8 +3715,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, blindness/deafness; **Price** 6,700 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"infested_bandages": {
 		"name": "Infested Bandages",
@@ -3939,8 +3732,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cause fear](spell/cause_fear), [repel vermin](spell/repel_vermin), [summon swarm](spell/summon_swarm); **Price** 6,750 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadde-quah_spirit_bolas": {
 		"name": "Shadde-Quah Spirit Bolas",
@@ -3959,8 +3751,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), aqueous orb, ray of frost, spark; **Price** 7,015 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadde_quah_spirit_bolas": {
 		"copyof": "shadde-quah_spirit_bolas"
@@ -3982,8 +3773,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid arrow, adoration; **Price** 7,051 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"headsman's_blade": {
 		"name": "Headsman's Blade",
@@ -4000,8 +3790,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, slay living; **Price** 7,100 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"channeler's_scarf": {
 		"name": "Channeler's Scarf",
@@ -4022,8 +3811,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), greater magic weapon, spirit-bound blade, phantom class feature, creator must worship Ashava; **Price** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"censuring_placard": {
 		"name": "Censuring Placard",
@@ -4040,8 +3828,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), break enchantment; **Price** 7,300 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ten-ring_sword": {
 		"name": "Ten-Ring Sword",
@@ -4060,8 +3847,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mage hand, versatile weapon; **Price** 7,157 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ten_ring_sword": {
 		"copyof": "ten-ring_sword"
@@ -4081,8 +3867,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, inflict critical wounds; **Price** 7,318 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"black_eagle's_blade": {
 		"name": "Black Eagle's Blade",
@@ -4099,8 +3884,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** 7,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lashing_shadowcraft_weapon": {
 		"name": "Lashing Shadowcraft Weapon",
@@ -4117,8 +3901,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), long arm, major creation, shadow weapon; **Price** 7,250 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dagger_of_repossession": {
 		"name": "Dagger of Repossession",
@@ -4137,8 +3920,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), break enchantment; **Price** 7,502 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"triton's_trident": {
 		"name": "Triton's Trident",
@@ -4155,8 +3937,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hydraulic push, hydraulic torrent, [summon monster I](spell/summon_monster_1); **Price** 7,690 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spear_of_the_honored_ancestors": {
 		"name": "Spear of the Honored Ancestors",
@@ -4173,8 +3954,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), guidance, faerie fire, plane shift; **Price** 7,802 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"closing_offer": {
 		"name": "Closing Offer",
@@ -4191,8 +3971,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), confess, heroism; **Price** 7,810 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"riddling_khopesh": {
 		"name": "Riddling Khopesh",
@@ -4209,8 +3988,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), commune; **Price** 7,820 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"serpentseeker_bow": {
 		"name": "Serpentseeker Bow",
@@ -4227,8 +4005,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature, [summon monster I](spell/summon_monster_1); **Price** 7,830 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lizardmarked_blade": {
 		"name": "Lizardmarked Blade",
@@ -4247,8 +4024,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lead blades, lightning bolt; **Price** 8,015 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mace_of_smiting_lesser": {
 		"name": "Mace of Smiting (lesser)",
@@ -4270,8 +4046,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate; **Price** 9,512 gp (lesser), 39,312 gp (normal)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lesser_mace_of_smiting": {
 		"copyof": "mace_of_smiting_lesser"
@@ -4291,8 +4066,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), silence, slay living; **Price** 9,551 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tsuruhashi_the_silent_crane": {
 		"copyof": "tsuruhashi,_the_silent_crane"
@@ -4312,8 +4086,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dimension door, shifting sand; **Price** 9,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shard_of_cocytus": {
 		"name": "Shard of Cocytus",
@@ -4330,8 +4103,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), unholy ice; **Price** 8,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rimeblade": {
 		"name": "Rimeblade",
@@ -4352,8 +4124,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Elemental Spell, Rime Spell, chill metal or ice storm, flame blade, frigid touch; **Price** 8,635 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"grasp_of_torment": {
 		"name": "Grasp of Torment",
@@ -4370,8 +4141,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Magic Arms And Armor, animate objects; **Price** 10,025 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hero's_blade": {
 		"name": "Hero's Blade",
@@ -4388,8 +4158,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heroic fortune; **Price** 8,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"disarming_blade": {
 		"name": "Disarming Blade",
@@ -4406,8 +4175,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, mage hand; **Price** 9,070 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sacrificial_sword": {
 		"name": "Sacrificial Sword",
@@ -4424,8 +4192,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Reach Spell, breath of life; **Price** 14,215 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hangman's_noose": {
 		"name": "Hangman's Noose",
@@ -4446,8 +4213,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope, suffocation; **Price** 9,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"arachnid's_fang": {
 		"name": "Arachnid's Fang",
@@ -4464,8 +4230,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), touch injection; **Price** 9,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lash_of_the_howler": {
 		"name": "Lash of the Howler",
@@ -4482,8 +4247,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, ray of sickening (Ultimate Magic); **Price** 9,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tigress's_strand": {
 		"name": "Tigress's Strand",
@@ -4500,8 +4264,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, web; **Price** 9,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"doppelganger's_sword": {
 		"name": "Doppelganger's Sword",
@@ -4518,8 +4281,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alter self, major image; **Price** 9,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shieldsplitter_lance": {
 		"name": "Shieldsplitter Lance",
@@ -4539,8 +4301,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, shatter; **Price** 9,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mage's_crossbow": {
 		"name": "Mage's Crossbow",
@@ -4557,8 +4318,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Spell Penetration, [summon monster I](spell/summon_monster_1), true strike; **Price** 9,835 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"zul": {
 		"name": "Zul",
@@ -4577,8 +4337,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), calcific touch, [summon monster I](spell/summon_monster_1); **Price** 9,355 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fleshwarped_scorpion's_tail": {
 		"name": "Fleshwarped Scorpion's Tail",
@@ -4597,8 +4356,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast shape_3), poison; **Price** 9,505 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"golem_gauntlet": {
 		"name": "Golem Gauntlet",
@@ -4615,8 +4373,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), mage's disjunction; **Price** 9,253 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"oathtaker": {
 		"name": "Oathtaker",
@@ -4633,8 +4390,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mark of justice, slay living; **Price** 9,440 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"guns_of_the_twin_drakes": {
 		"name": "Guns of the Twin Drakes",
@@ -4653,8 +4409,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste, fireball, ray of frost; **Price** 10,600 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trident_of_fish_command": {
 		"name": "Trident of Fish Command",
@@ -4674,8 +4429,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm animals, speak with animals; **Price** 9,482 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"treekeeper's_staff_elf": {
 		"name": "Treekeeper's Staff (Elf)",
@@ -4696,8 +4450,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), litany of entanglement, plant growth, speak with plants, creator must be an elf; **Price** 9,650 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"treekeeper's_staff": {
 		"copyof": "treekeeper's_staff_elf"
@@ -4717,8 +4470,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield of faith; **Price** 9,580 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"quarterstaff_of_vaulting": {
 		"name": "Quarterstaff of Vaulting",
@@ -4737,8 +4489,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), jump; **Price** 9,850 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"husk_dart": {
 		"name": "Husk Dart",
@@ -4755,8 +4506,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), feast of ashes, lesser restoration; **Price** 9,801 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dinosaur-killer": {
 		"name": "Dinosaur-Killer",
@@ -4773,8 +4523,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), force punch, shield, [summon monster I](spell/summon_monster_1); **Price** 9,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dinosaur_killer": {
 		"copyof": "dinosaur-killer"
@@ -4798,8 +4547,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), weapon of awe, creator must use the weapon to slay a member of the attuned religion; **Price** 9,818 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bow_of_erastil": {
 		"name": "Bow of Erastil",
@@ -4816,8 +4564,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), clairaudience/clairvoyance, haste; **Price** 19,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"skirmishing_spear": {
 		"name": "Skirmishing Spear",
@@ -4834,8 +4581,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), dimension door, telekinesis; **Price** 9,902 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"talon_sword_normal": {
 		"name": "Talon Sword (normal)",
@@ -4852,8 +4598,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor (talonstrike), shield or shield of faith, shield other; **Price** 10,015 gp (19,615 for talonstrike)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"harbinger's_scythe": {
 		"name": "Harbinger's Scythe",
@@ -4870,8 +4615,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enervation](spell/enervation); **Price** 9,918 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadowbound_chains": {
 		"name": "Shadowbound Chains",
@@ -4890,8 +4634,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shadow conjuration; **Price** 11,125 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shieldmarshal's_pistol": {
 		"name": "Shieldmarshal's Pistol",
@@ -4908,8 +4651,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chosen grit feat, share memory; **Price** 11,050 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"doubleshot_pepperbox": {
 		"name": "Doubleshot Pepperbox",
@@ -4926,8 +4668,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Rapid Shot, blindness/deafness, haste; **Price** 11,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"firedrake_pistol": {
 		"name": "Firedrake Pistol",
@@ -4944,8 +4685,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burning hands, fireball; **Price** 10,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ricochet_hammer": {
 		"name": "Ricochet Hammer",
@@ -4965,8 +4705,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), telekinesis; **Price** 20,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shields'_bane_ulfen": {
 		"name": "Shields' Bane (Ulfen)",
@@ -4985,8 +4724,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shatter, true strike, creator must be an Ulfen; **Price** 10,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shields'_bane": {
 		"copyof": "shields'_bane_ulfen"
@@ -5006,8 +4744,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), good hope, true strike; **Price** 10,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crystalline_starknife": {
 		"name": "Crystalline Starknife",
@@ -5024,8 +4761,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, shatter; **Price** 10,324 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"earthcracker": {
 		"name": "Earthcracker",
@@ -5042,8 +4778,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, stone shape; **Price** 28,300 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dueling_bokken_tengu": {
 		"name": "Dueling Bokken (Tengu)",
@@ -5062,8 +4797,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, creator must be a tengu; **Price** 10,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dueling_bokken": {
 		"copyof": "dueling_bokken_tengu"
@@ -5085,8 +4819,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flame strike, caster level 6th; **Price** 10,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"flame_tongue": {
 		"name": "Flame Tongue",
@@ -5106,8 +4839,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), scorching ray and fireball, flame blade, or flame strike; **Price** 10,515 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scoundrel's_sword_cane": {
 		"name": "Scoundrel's Sword Cane",
@@ -5126,8 +4858,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arcane eye, obscure object; **Price** 10,635 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"arrow_slicer": {
 		"name": "Arrow Slicer",
@@ -5146,8 +4877,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), faerie fire, wind wall; **Price** 10,810 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sparkwake_starknife": {
 		"name": "Sparkwake Starknife",
@@ -5167,8 +4897,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt; **Price** 10,824 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"starknife_of_the_void": {
 		"name": "Starknife of the Void",
@@ -5187,8 +4916,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, telekinesis; **Price** 10,824 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cornerstone_crossbow": {
 		"name": "Cornerstone Crossbow",
@@ -5205,8 +4933,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, true seeing; **Price** 10,835 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bone_bearer's_cutter": {
 		"name": "Bone Bearer's Cutter",
@@ -5223,8 +4950,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, crafter's fortune, howling agony; **Price** 11,052 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rostland_edge": {
 		"name": "Rostland Edge",
@@ -5244,8 +4970,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Combat Reflexes, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"luck_blade_0_wishes": {
 		"name": "Luck Blade (0 wishes)",
@@ -5265,8 +4990,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), miracle or wish; **Price** 11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"leviathan's_terror": {
 		"name": "Leviathan's Terror",
@@ -5285,8 +5009,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person), [scare](spell/scare); **Price** 11,705 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sadist's_lash": {
 		"name": "Sadist's Lash",
@@ -5306,8 +5029,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dominate person; **Price** 11,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rabbit's_blade": {
 		"name": "Rabbit's Blade",
@@ -5324,8 +5046,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Cleave, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Great Cleave, divine power; **Price** 11,307 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sword_of_subtlety": {
 		"name": "Sword of Subtlety",
@@ -5345,8 +5066,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blur; **Price** 11,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"erratic_blade": {
 		"name": "Erratic Blade",
@@ -5363,8 +5083,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field, major creation; **Price** 11,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sword_of_the_planes": {
 		"name": "Sword of the Planes",
@@ -5384,8 +5103,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), plane shift; **Price** 11,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hooked_massacre": {
 		"name": "Hooked Massacre",
@@ -5404,8 +5122,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Combat Expertise, Improved Drag, Improved Reposition, haste; **Price** 11,325 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fanged_falchion": {
 		"name": "Fanged Falchion",
@@ -5427,8 +5144,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), harm, unholy blight, creator must be evil; **Price** 11,375 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"felhart": {
 		"name": "Felhart",
@@ -5447,8 +5163,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true strike; **Price** 11,187 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"knight-captain's_lance": {
 		"name": "Knight-Captain's Lance",
@@ -5465,8 +5180,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine favor; **Price** 11,510 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"knight_captain's_lance": {
 		"copyof": "knight-captain's_lance"
@@ -5486,8 +5200,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate, plane shift; **Price** 13,002 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nine_lives_stealer": {
 		"name": "Nine Lives Stealer",
@@ -5507,8 +5220,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), finger of death; **Price** 11,528 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bloodstone_impaler": {
 		"name": "Bloodstone Impaler",
@@ -5525,8 +5237,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flesh to stone, keen edge; **Price** 18,802 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"goreclaw_of_thercerrod": {
 		"name": "Goreclaw of Thercerrod",
@@ -5545,8 +5256,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, greater magic fang; **Price** 11,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"undercutting_axe": {
 		"name": "Undercutting Axe",
@@ -5566,8 +5276,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Maximize Spell, ray of enfeeblement, [summon monster I](spell/summon_monster_1); **Price** 11,810 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sword_of_tempests": {
 		"name": "Sword of Tempests",
@@ -5584,8 +5293,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** 11,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"risen_blade": {
 		"name": "Risen Blade",
@@ -5606,8 +5314,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flame strike, creator must be a 9th-level cleric capable of channeling positive energy; **Price** 11,820 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"monastic_warden": {
 		"name": "Monastic Warden",
@@ -5629,8 +5336,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arrow of law; **Price** 11,930 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"chupar_pick": {
 		"name": "Chupar Pick",
@@ -5647,8 +5353,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, haste, one chupacabra fang; **Price** 12,304 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"flaying_halberd": {
 		"name": "Flaying Halberd",
@@ -5665,8 +5370,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, inflict critical wounds; **Price** 12,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"emerald-eyed_blade": {
 		"name": "Emerald-Eyed Blade",
@@ -5683,8 +5387,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse; **Price** 21,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"emerald_eyed_blade": {
 		"copyof": "emerald-eyed_blade"
@@ -5706,8 +5409,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), greater magic weapon, keen edge, telekinesis; **Price** 12,502 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frost-thunder_hammer": {
 		"name": "Frost-Thunder Hammer",
@@ -5726,8 +5428,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), icy prison; **Price** 12,424 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frost_thunder_hammer": {
 		"copyof": "frost-thunder_hammer"
@@ -5749,8 +5450,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, plane shift, [summon monster I](spell/summon_monster_1), creator must be a worshiper of Pharasma; **Price** 12,621 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spirit_caller": {
 		"name": "Spirit Caller",
@@ -5767,8 +5467,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic jar, plane shift; **Price** 12,802 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"slaver's_cane": {
 		"name": "Slaver's Cane",
@@ -5785,8 +5484,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Enlarge Spell, resilient sphere; **Price** 12,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dwarfbond_hammer": {
 		"name": "Dwarfbond Hammer",
@@ -5803,8 +5501,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a dwarf of at least 7th level; **Price** 12,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"screaming_blade": {
 		"name": "Screaming Blade",
@@ -5825,8 +5522,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sound burst, creator must be evil and torture a sentient creature during creation; **Price** 12,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"red_crusader's_quill": {
 		"name": "Red Crusader's Quill",
@@ -5845,8 +5541,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [arcane mark](spell/arcane_mark), [mark of justice](spell/mark_of_justice), creator must worship [Arazni](faith/arazni); **Price** 12,820 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"oathbow": {
 		"name": "Oathbow",
@@ -5868,8 +5563,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an elf; **Price** 13,100 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frozen_crossbow": {
 		"name": "Frozen Crossbow",
@@ -5886,8 +5580,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, icicle dagger; **Price** 13,200 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sword_of_life_stealing": {
 		"name": "Sword of Life Stealing",
@@ -5907,8 +5600,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation; **Price** 13,015 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"daikyu_of_commanding_presence": {
 		"name": "Daikyu of Commanding Presence",
@@ -5927,8 +5619,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, daylight, heroism, true seeing; **Price** 13,200 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shard_of_winter": {
 		"name": "Shard of Winter",
@@ -5945,8 +5636,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ice storm, telepathic bond, creator must be a winter witch; **Price** 13,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"density_hammer": {
 		"name": "Density Hammer",
@@ -5963,8 +5653,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stone to flesh; **Price** 12,340 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"calistrian_kiss": {
 		"name": "Calistrian Kiss",
@@ -5983,8 +5672,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, pernicious poison; **Price** 13,380 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dakak's_tusks": {
 		"name": "Dakak's Tusks",
@@ -6003,8 +5691,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, enervation; **Price** 13,616 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shatterstone_hammer": {
 		"name": "Shatterstone Hammer",
@@ -6021,8 +5708,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shatter, slow; **Price** 13,512 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"angelfall_bow": {
 		"name": "Angelfall Bow",
@@ -6043,8 +5729,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dust of twilight, thundering drums; **Price** 13,750 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scimitar_of_the_striking_wing": {
 		"name": "Scimitar of the Striking Wing",
@@ -6061,8 +5746,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), feather fall, fly; **Price** 13,500 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mount-splitting_pick_dwarf": {
 		"name": "Mount-Splitting Pick (Dwarf)",
@@ -6081,8 +5765,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), soften earth and stone, creator must be a dwarf; **Price** 15,508 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mount_splitting_pick": {
 		"copyof": "mount-splitting_pick_dwarf"
@@ -6106,8 +5789,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), aid, break enchantment; **Price** 15,015 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"marrowcracker": {
 		"name": "Marrowcracker",
@@ -6124,8 +5806,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), calcific touch, divine power, ray of enfeeblement; **Price** 14,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"the_thundering_blade_of_the_house_of_sugimatu": {
 		"name": "The Thundering Blade of the House of Sugimatu",
@@ -6146,8 +5827,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, shout; **Price** 14,375 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"vaultbow": {
 		"name": "Vaultbow",
@@ -6166,8 +5846,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Arms and Armor, chain of perdition, secret chest; **Price** 14,550 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nine-fold_spirit_sword": {
 		"name": "Nine-Fold Spirit Sword",
@@ -6194,8 +5873,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel evil, disrupting weapon, plane shift, [summon monster I](spell/summon_monster_1); **Price** 14,560 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nine_fold_spirit_sword": {
 		"copyof": "nine-fold_spirit_sword"
@@ -6215,8 +5893,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, permanency, shrink item, web; **Price** 14,470 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"tenacious_atlatl_dart": {
 		"name": "Tenacious Atlatl Dart",
@@ -6233,8 +5910,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, telekinesis; **Price** 14,701 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crowcaller": {
 		"name": "Crowcaller",
@@ -6251,8 +5927,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, speak with dead; **Price** 14,710 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dragonmaw_nunchaku": {
 		"name": "Dragonmaw Nunchaku",
@@ -6271,8 +5946,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blade barrier, confusion; **Price** 15,102 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hearthhammer": {
 		"name": "Hearthhammer",
@@ -6289,8 +5963,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fabricate; **Price** 16,506 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gauntlets_of_skill_at_arms": {
 		"name": "Gauntlets of Skill at Arms",
@@ -6307,8 +5980,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an elf; **Price** 15,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"devil_catcher": {
 		"name": "Devil Catcher",
@@ -6325,8 +5997,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, invisibility purge; **Price** 15,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rapier_of_battlefield_movement": {
 		"name": "Rapier of Battlefield Movement",
@@ -6343,8 +6014,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, creator must have 10 ranks in Craft (weapons); **Price** 15,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wandering_punishment": {
 		"name": "Wandering Punishment",
@@ -6363,8 +6033,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1); **Price** 15,160 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"starbow": {
 		"name": "Starbow",
@@ -6381,8 +6050,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), searing light, warp wood; **Price** 15,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pale_maiden_0_wishes": {
 		"name": "Pale Maiden (0 wishes)",
@@ -6399,8 +6067,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), miracle or wish; **Price** 16,190 gp (0 wishes), 48,840 gp (1 wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mokele-mbembe_tail_whip": {
 		"name": "Mokele-Mbembe Tail Whip",
@@ -6417,8 +6084,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shout; **Price** 16,301 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mokele_mbembe_tail_whip": {
 		"copyof": "mokele-mbembe_tail_whip"
@@ -6438,8 +6104,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed), [chill metal](spell/chill_metal), [keen edge](spell/keen_edge); **Price** 16,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dragon's_tail": {
 		"name": "Dragon's Tail",
@@ -6456,8 +6121,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resonating word, [summon monster I](spell/summon_monster_1); **Price** 16,155 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mammoth_lance": {
 		"name": "Mammoth Lance",
@@ -6479,8 +6143,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animal growth, bull's strength; **Price** 16,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"serpent-necked_flail": {
 		"name": "Serpent-Necked Flail",
@@ -6497,8 +6160,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste; **Price** 16,165 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"serpent_necked_flail": {
 		"copyof": "serpent-necked_flail"
@@ -6520,8 +6182,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sanctuary, creator must be a Taldan; **Price** 16,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gentleman's_foil": {
 		"copyof": "gentleman's_foil_taldan"
@@ -6541,8 +6202,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, creator must be good; **Price** 16,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crossbow_of_retribution": {
 		"name": "Crossbow of Retribution",
@@ -6559,8 +6219,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), retribution, [summon monster I](spell/summon_monster_1), true seeing; **Price** 16,700 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"murderer's_machete": {
 		"name": "Murderer's Machete",
@@ -6579,8 +6238,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 16,590 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fire_goddess's_blade": {
 		"name": "Fire Goddess's Blade",
@@ -6599,8 +6257,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame blade, greater magic weapon; **Price** 16,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"maxim_of_suppressive_fire": {
 		"name": "Maxim of Suppressive Fire",
@@ -6617,8 +6274,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), phase door; **Price** 17,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"talonstrike_sword": {
 		"name": "Talonstrike Sword",
@@ -6635,8 +6291,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, shield or shield of faith; **Price** 18,435 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cutthroat's_apprentice": {
 		"name": "Cutthroat's Apprentice",
@@ -6653,8 +6308,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, unwitting ally (Advanced Player's Guide); **Price** 17,110 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"wolflord's_fang": {
 		"name": "Wolflord's Fang",
@@ -6673,8 +6327,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aspect of the wolf](spell/aspect_of_the_wolf), [detect animals or plants](spell/detect_animals_or_plants); **Price** 17,335 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"quarterstaff_of_contemplation": {
 		"name": "Quarterstaff of Contemplation",
@@ -6693,8 +6346,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a 7th-level monk; **Price** 17,550 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"withershot": {
 		"name": "Withershot",
@@ -6711,8 +6363,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning, contagion; **Price** 17,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"errani_kamaki_gillmen": {
 		"name": "Errani Kamaki (Gillmen)",
@@ -6731,8 +6382,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, warp wood, creator must be a gillman; **Price** 17,655 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"errani_kamaki": {
 		"copyof": "errani_kamaki_gillmen"
@@ -6754,8 +6404,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature, returning weapon, creator must be a Mwangi; **Price** 17,804 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hunter's_mambele": {
 		"copyof": "hunter's_mambele_mwangi"
@@ -6775,8 +6424,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heal, plane shift; **Price** 17,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scalerazor_azlanti": {
 		"name": "Scalerazor (Azlanti)",
@@ -6795,8 +6443,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from evil](spell/protection_from_evil), [summon monster I](spell/summon_monster_1), creator must be an Azlanti; **Price** 17,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scalerazor": {
 		"copyof": "scalerazor_azlanti"
@@ -6816,8 +6463,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Combat Reflexes, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, daze; **Price** 17,820 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"enervative_shadowcraft_weapon": {
 		"name": "Enervative Shadowcraft Weapon",
@@ -6834,8 +6480,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, major creation, shadow weapon; **Price** 18,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mind's_eye_blade": {
 		"name": "Mind's Eye Blade",
@@ -6854,8 +6499,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mind probe; **Price** 18,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"channeler's_aspergillum": {
 		"name": "Channeler's Aspergillum",
@@ -6876,8 +6520,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mass cure light wounds, mass inflict light wounds, creator must be able to channel energy; **Price** 18,305 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"avalanche_sling_staff": {
 		"name": "Avalanche Sling Staff",
@@ -6894,8 +6537,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stone call; **Price** 18,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hunter's_starknife": {
 		"name": "Hunter's Starknife",
@@ -6912,8 +6554,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, faerie fire; **Price** 18,324 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"seraphic_pistol": {
 		"name": "Seraphic Pistol",
@@ -6930,8 +6571,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), versatile weapon; **Price** 19,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"brutal_axe": {
 		"name": "Brutal Axe",
@@ -6950,8 +6590,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), bull's strength, ironwood; **Price** 12,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"savage_sting": {
 		"name": "Savage Sting",
@@ -6968,8 +6607,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, true seeing; **Price** 19,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"chaos_hammer": {
 		"name": "Chaos Hammer",
@@ -6986,8 +6624,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), align weapon, chaos hammer, creator must be chaotic; **Price** 19,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"silent_sentry_crossbow": {
 		"name": "Silent Sentry Crossbow",
@@ -7006,8 +6643,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alarm, minor creation, silence; **Price** 19,335 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"banshee's_howl": {
 		"name": "Banshee's Howl",
@@ -7028,8 +6664,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), crushing despair, wail of the banshee; **Price** 19,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mace_of_terror": {
 		"name": "Mace of Terror",
@@ -7049,14 +6684,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear; **Price** 19,432 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"talon_sword_talonstrike": {
 		"name": "Talon Sword (talonstrike)",
 		"sources": [ "Andoran, Spirit of Liberty" ],
-		"copyof": "talon_sword_normal",
-		"display": "magic/weapon"
+		"copyof": "talon_sword_normal"
 	},
 	"hellscourge": {
 		"name": "Hellscourge",
@@ -7075,8 +6708,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear, scorching ray, unholy blight; **Price** 19,805 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ice_fang": {
 		"name": "Ice Fang",
@@ -7095,8 +6727,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), endure elements, ice storm, shrink item; **Price** 19,915 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dragon's_doom": {
 		"name": "Dragon's Doom",
@@ -7113,8 +6744,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), discern location, light, [summon monster I](spell/summon_monster_1); **Price** 20,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frostblood_axe": {
 		"name": "Frostblood Axe",
@@ -7131,8 +6761,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bleed, bless, chill metal, death knell, divine favor; **Price** 20,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"life_drinker": {
 		"name": "Life Drinker",
@@ -7154,8 +6783,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation; **Price** 20,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trailwalker": {
 		"name": "Trailwalker",
@@ -7174,8 +6802,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimension door; **Price** 20,842 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"valor's_minion": {
 		"name": "Valor's Minion",
@@ -7192,8 +6819,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite; **Price** 20,168 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shade_bow": {
 		"name": "Shade Bow",
@@ -7210,8 +6836,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility, creator must have 4 ranks in Stealth; **Price** 20,935 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"infecting_spike": {
 		"name": "Infecting Spike",
@@ -7232,8 +6857,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion; **Price** 21,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"staff_of_the_hooded_cobra": {
 		"name": "Staff of the Hooded Cobra",
@@ -7250,8 +6874,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, shield of faith; **Price** 21,360 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"summoner's_sorrow": {
 		"name": "Summoner's Sorrow",
@@ -7270,8 +6893,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dismissal, dispel magic; **Price** 21,566 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"jackal's_blade": {
 		"name": "Jackal's Blade",
@@ -7288,8 +6910,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bane, unholy blight; **Price** 22,875 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"feast_of_rats": {
 		"name": "Feast of Rats",
@@ -7308,8 +6929,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Create Reliquary Arms and Shields, deeper darkness, fog cloud, major creation, shadow weapon; **Price** 22,712 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"axe_of_forced_life": {
 		"name": "Axe of Forced Life",
@@ -7328,8 +6948,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), breath of life, dispel evil; **Price** 22,810 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crusader's_longsword": {
 		"name": "Crusader's Longsword",
@@ -7346,8 +6965,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, [summon monster I](spell/summon_monster_1), creator must worship Iomedae, creator must be a paladin or a warpriest; **Price** 23,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sylvan_scimitar": {
 		"name": "Sylvan Scimitar",
@@ -7367,8 +6985,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine power or creator must be a 7th-level druid; **Price** 23,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spirit_blade": {
 		"name": "Spirit Blade",
@@ -7388,8 +7005,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, plane shift, creator must be 9th level; **Price** 24,402 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"chada's_harpoon": {
 		"name": "Chada's Harpoon",
@@ -7408,8 +7024,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, telekinesis; **Price** 25,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"heartswood_spear": {
 		"name": "Heartswood Spear",
@@ -7426,8 +7041,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heal, summon monster; **Price** 25,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"traitor's_blade": {
 		"name": "Traitor's Blade",
@@ -7447,8 +7061,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, charm monster, inflict moderate wounds; **Price** 25,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mace_of_keys": {
 		"name": "Mace of Keys",
@@ -7467,14 +7080,12 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Arms and Armor, knock, passwall; **Price** 25,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"leng_flail_greater": {
 		"name": "Leng Flail (greater)",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"copyof": "leng_flail_lesser",
-		"display": "magic/weapon"
+		"copyof": "leng_flail_lesser"
 	},
 	"greater_leng_flail": {
 		"copyof": "leng_flail_greater"
@@ -7497,8 +7108,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), harm; **Price** 25,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sun_blade": {
 		"name": "Sun Blade",
@@ -7522,8 +7132,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, creator must be good; **Price** 25,335 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"storval's_thunder_shoanti": {
 		"name": "Storval's Thunder (Shoanti)",
@@ -7542,8 +7151,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt, sound burst, creator must be a Shoanti; **Price** 25,340 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"storval's_thunder": {
 		"copyof": "storval's_thunder_shoanti"
@@ -7565,8 +7173,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field, creator must be a Kellid; **Price** 25,350 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"true_warrior's_blade": {
 		"copyof": "true_warrior's_blade_kellid"
@@ -7586,8 +7193,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame strike, scorching ray; **Price** 25,375 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"enervating_pistol": {
 		"name": "Enervating Pistol",
@@ -7604,8 +7210,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/ clairvoyance, finger of death, enervation, mending; **Price** 26,300 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_the_rising_sun": {
 		"name": "Blade of the Rising Sun",
@@ -7626,8 +7231,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, daylight, flare, miracle, sunburst; **Price** 28,100 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rotcarver": {
 		"name": "Rotcarver",
@@ -7644,8 +7248,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion, [summon monster VII](spell/summon_monster_7); **Price** 26,218 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rythius,_the_kyton_scourge": {
 		"name": "Rythius, the Kyton Scourge",
@@ -7664,8 +7267,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, holy smite, creator must be good; **Price** 26,650 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rythius_the_kyton_scourge": {
 		"copyof": "rythius,_the_kyton_scourge"
@@ -7685,8 +7287,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dimension door](spell/dimension_door); **Price** 27,551 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"windreader's_bow": {
 		"name": "Windreader's Bow",
@@ -7703,8 +7304,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, locate creature, warp wood; **Price** 27,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frost_brand": {
 		"name": "Frost Brand",
@@ -7726,8 +7326,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, ice storm, protection from energy; **Price** 27,375 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"stalker's_crossbow": {
 		"name": "Stalker's Crossbow",
@@ -7744,8 +7343,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature, [summon monster I](spell/summon_monster_1), true seeing; **Price** 27,535 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pactseeker's_blade": {
 		"name": "Pactseeker's Blade",
@@ -7762,8 +7360,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, death knell, symbol of pain; **Price** 27,830 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"snakebite": {
 		"name": "Snakebite",
@@ -7780,8 +7377,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, pernicious poison; **Price** 28,660 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"talmandor_blade": {
 		"name": "Talmandor Blade",
@@ -7798,8 +7394,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), darkvision, holy smite, stone to flesh, creator must be good; **Price** 29,465 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"depth_charger": {
 		"name": "Depth Charger",
@@ -7818,8 +7413,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Gunsmithing, air bubble, mending, [summon monster I](spell/summon_monster_1), water breathing; **Price** 30,550 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"thorn_bow": {
 		"name": "Thorn Bow",
@@ -7836,8 +7430,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), instant enemy, wall of thorns; **Price** 30,200 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"torment_of_the_midnight_lord": {
 		"name": "Torment of the Midnight Lord",
@@ -7856,8 +7449,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Create Reliquary Arms and Shields, major creation, shadow weapon, symbol of pain; **Price** 30,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hateful_sting": {
 		"name": "Hateful Sting",
@@ -7874,8 +7466,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, summon swarm; **Price** 30,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"dwarven_thrower": {
 		"name": "Dwarven Thrower",
@@ -7895,8 +7486,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a dwarf of at least 10th level; **Price** 30,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"clever_sling_staff_halfling": {
 		"name": "Clever Sling Staff (Halfling)",
@@ -7915,8 +7505,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste, true seeing, creator must be a halfling; **Price** 30,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"clever_sling_staff": {
 		"copyof": "clever_sling_staff_halfling"
@@ -7938,8 +7527,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, inflict serious wounds; **Price** 30,552 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"earth_breaker_of_righted_injustice": {
 		"name": "Earth Breaker of Righted Injustice",
@@ -7956,8 +7544,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); chaos hammer; fireball, flame blade, or flame strike; creator must be chaotic; **Price** 30,840 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"warbringer": {
 		"name": "Warbringer",
@@ -7974,8 +7561,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, murderous command (Ultimate Magic), rage; **Price** 30,875 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"skulking_sniper's_blowgun": {
 		"name": "Skulking Sniper's Blowgun",
@@ -7992,8 +7578,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/clairvoyance, greater invisibility, silence; **Price** 31,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"luck_blade_1_wish": {
 		"name": "Luck Blade (1 wish)",
@@ -8001,8 +7586,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "luck_blade_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "luck_blade_0_wishes"
 	},
 	"hourglass_quarterstaff": {
 		"name": "Hourglass Quarterstaff",
@@ -8019,8 +7603,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deathwatch, good hope, heal, threefold aspect; **Price** 31,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blancher": {
 		"name": "Blancher",
@@ -8037,8 +7620,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, bleed; **Price** 33,312 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"molvenn": {
 		"name": "Molvenn",
@@ -8057,8 +7639,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, rage; **Price** 31,812 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"guarding_blade": {
 		"name": "Guarding Blade",
@@ -8078,8 +7659,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, mage's faithful hound; **Price** 32,810 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"crimson_bluff": {
 		"name": "Crimson Bluff",
@@ -8101,8 +7681,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an 11th-level cleric of Achaekek or be able to cast haste, mirror image, and mislead; **Price** 32,955 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"devil's_key": {
 		"name": "Devil's Key",
@@ -8119,8 +7698,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), consecrate, holy smite, plane shift, creator must be good; **Price** 33,533 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"karusetsu,_the_cutting_light": {
 		"name": "Karusetsu, the Cutting Light",
@@ -8137,8 +7715,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mage's sword, searing light; **Price** 33,930 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"karusetsu_the_cutting_light": {
 		"copyof": "karusetsu,_the_cutting_light"
@@ -8164,8 +7741,7 @@
 			"### Construction",
 			"",
 			"**Requirements** Craft Weapon, [fire shield](spell/fire_shield), [magic weapon](spell/magic_weapon), creator must have the [Weapon Finesse](feat/weapon_finesse) feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"spellbreaker": {
 		"name": "Spellbreaker",
@@ -8182,14 +7758,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), antimagic field; **Price** 36,100 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pale_maiden_1_wish": {
 		"name": "Pale Maiden (1 wish)",
 		"sources": [ "Lost Treasures" ],
-		"copyof": "pale_maiden_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "pale_maiden_0_wishes"
 	},
 	"pistol_of_the_infinite_sky": {
 		"name": "Pistol of the Infinite Sky",
@@ -8206,8 +7780,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reloading hands; **Price** 37,300 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"executioner's_hand": {
 		"name": "Executioner's Hand",
@@ -8224,8 +7797,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), circle of death, keen edge; **Price** 30,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mace_of_smiting_normal": {
 		"name": "Mace of Smiting (normal)",
@@ -8233,8 +7805,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "mace_of_smiting_lesser",
-		"display": "magic/weapon"
+		"copyof": "mace_of_smiting_lesser"
 	},
 	"spiteful_scimitar": {
 		"name": "Spiteful Scimitar",
@@ -8251,8 +7822,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, death knell, rage, sickening entanglement; **Price** 37,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_the_sword-saint": {
 		"name": "Blade of the Sword-Saint",
@@ -8271,8 +7841,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** 37,850 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"blade_of_the_sword_saint": {
 		"copyof": "blade_of_the_sword-saint"
@@ -8292,8 +7861,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, greater arcane sight, keen edge, limited wish; **Price** 37,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"murderer's_machete,_greater": {
 		"name": "Murderer's Machete, Greater",
@@ -8310,8 +7878,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"greater_murderer's_machete": {
 		"copyof": "murderer's_machete,_greater"
@@ -8331,8 +7898,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, keen edge, ray of enfeeblement; **Price** 39,702 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"hammer_of_seismic_assault": {
 		"name": "Hammer of Seismic Assault",
@@ -8349,8 +7915,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), earthquake, lead blades; **Price** 40,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"reaver's_scythe": {
 		"name": "Reaver's Scythe",
@@ -8367,8 +7932,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, malediction, unholy blight; **Price** 40,318 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cerebrum_drill": {
 		"name": "Cerebrum Drill",
@@ -8389,8 +7953,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break enchantment](spell/break_enchantment), [calm emotions](spell/calm_emotions), [mind fog](spell/mind_fog); **Price** 41,175 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shockwave_blunderbuss": {
 		"name": "Shockwave Blunderbuss",
@@ -8407,8 +7970,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reverse gravity, shout; **Price** 44,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"rixbrand": {
 		"name": "Rixbrand",
@@ -8432,8 +7994,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, [summon monster I](spell/summon_monster_1); **Price** 45,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ikarikurusai,_the_raging_cyclone": {
 		"name": "Ikarikurusai, the Raging Cyclone",
@@ -8450,8 +8011,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning or lightning bolt, chain lightning, resist energy; **Price** 45,308 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ikarikurusai_the_raging_cyclone": {
 		"copyof": "ikarikurusai,_the_raging_cyclone"
@@ -8471,8 +8031,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, unholy blight; **Price** 45,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"iron_lash": {
 		"name": "Iron Lash",
@@ -8491,8 +8050,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), finger of death, unholy blight, creator must be chaotic evil; **Price** 45,335 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"demonsorrow_curve_blade": {
 		"name": "Demonsorrow Curve Blade",
@@ -8509,8 +8067,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, holy smite, [summon monster I](spell/summon_monster_1); **Price** 46,460 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"void_scythe": {
 		"name": "Void Scythe",
@@ -8529,8 +8086,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate, enervation; **Price** 47,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"shadow_spike": {
 		"name": "Shadow Spike",
@@ -8549,8 +8105,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), cause fear, death knell, deeper darkness, plane shift; **Price** 48,600 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"gun_with_no_name": {
 		"name": "Gun with No Name",
@@ -8567,8 +8122,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), divine favor, nondetection; **Price** 50,800 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"stormcaller": {
 		"name": "Stormcaller",
@@ -8587,8 +8141,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), call lightning, control weather; **Price** 49,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"labrys_of_the_stone_idol": {
 		"name": "Labrys of the Stone Idol",
@@ -8605,8 +8158,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, earthquake, [giant form I](spell/giant form_1), lead blades, shrink item; **Price** 49,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"luck_blade_2_wishes": {
 		"name": "Luck Blade (2 wishes)",
@@ -8614,8 +8166,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "luck_blade_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "luck_blade_0_wishes"
 	},
 	"shadow's_touch": {
 		"name": "Shadow's Touch",
@@ -8634,8 +8185,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), shadow walk, shadow weapon; **Price** 51,632 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"trident_of_the_storm_captain": {
 		"name": "Trident of the Storm Captain",
@@ -8654,14 +8204,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning, control weather, greater magic fang, vortex; **Price** 54,990 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pale_maiden_2_wishes": {
 		"name": "Pale Maiden (2 wishes)",
 		"sources": [ "Lost Treasures" ],
-		"copyof": "pale_maiden_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "pale_maiden_0_wishes"
 	},
 	"master's_lash": {
 		"name": "Master's Lash",
@@ -8678,8 +8226,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse and fireball, flame blade, or flame strike; **Price** 60,302 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"holy_avenger": {
 		"name": "Holy Avenger",
@@ -8701,8 +8248,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy aura, creator must be good; **Price** 60,630 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bastard's_sting": {
 		"name": "Bastard's Sting",
@@ -8721,8 +8267,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), unholy aura, unholy blight, creator must be evil; **Price** 63,035 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"frostkiss_whip": {
 		"name": "Frostkiss Whip",
@@ -8739,8 +8284,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chill metal or ice storm; horrid wilting, keen edge; **Price** 64,300 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"luck_blade_3_wishes": {
 		"name": "Luck Blade (3 wishes)",
@@ -8748,8 +8292,7 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"copyof": "luck_blade_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "luck_blade_0_wishes"
 	},
 	"blade_of_the_willing_martyr": {
 		"name": "Blade of the Willing Martyr",
@@ -8770,8 +8313,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, keen edge, symbol of death; **Price** 75,000 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"jorngarl's_harm": {
 		"name": "Jorngarl's Harm",
@@ -8788,8 +8330,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), circle of death, enervation, keen edge; **Price** 75,320 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sword_of_inner_fire": {
 		"name": "Sword of Inner Fire",
@@ -8808,14 +8349,12 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame strike, gaseous form, instant summons, shield of faith; **Price** 75,815 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"pale_maiden_3_wishes": {
 		"name": "Pale Maiden (3 wishes)",
 		"sources": [ "Lost Treasures" ],
-		"copyof": "pale_maiden_0_wishes",
-		"display": "magic/weapon"
+		"copyof": "pale_maiden_0_wishes"
 	},
 	"ghost_iron_scimitar": {
 		"name": "Ghost Iron Scimitar",
@@ -8834,8 +8373,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, keen edge, plane shift; **Price** 100,315 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"arrow_splitter": {
 		"name": "Arrow Splitter",
@@ -8852,8 +8390,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ricochet shot, sonic thrust; **Price** 90,375 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mournful_razor": {
 		"name": "Mournful Razor",
@@ -8870,8 +8407,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, circle of death, keen edge; **Price** 91,308 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sirocco_cannon": {
 		"name": "Sirocco Cannon",
@@ -8888,8 +8424,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning or lightning bolt, sirocco; **Price** 95,400 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"sacred_avenger": {
 		"name": "Sacred Avenger",
@@ -8908,8 +8443,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), gaseous form, greater dispel magic, holy aura, creator must be good; **Price** 102,630 gp"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"scimitar_of_deliverance": {
 		"name": "Scimitar of Deliverance",
@@ -8935,8 +8469,7 @@
 			"",
 			"**Goal:** The bearer must free at least 50 creatures from captivity, slavery, or unlawful imprisonment.  ",
 			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use [liberating command](spell/liberating_command) as a spell-like ability."
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"clarity": {
 		"name": "Clarity",
@@ -8960,8 +8493,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, Wis 12, Cha 14  ",
 			"**Communication** empathy"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ukwar": {
 		"name": "Ukwar",
@@ -8991,8 +8523,7 @@
 			"**Senses** 30 ft. (darkvision)  ",
 			"**Int** 10, Wis 14, Cha 10  ",
 			"**Communication** speech (Common and Orc)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"fiendsplitter": {
 		"name": "Fiendsplitter",
@@ -9021,8 +8552,7 @@
 			"**Senses** 60 ft.  ",
 			"**Int** 10, Wis 14, Cha 12  ",
 			"**Communication** empathy"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"soulshear": {
 		"name": "Soulshear",
@@ -9048,8 +8578,7 @@
 			"**Senses** 60 ft. (vision and hearing)  ",
 			"**Int** 16, Wis 12, Cha 14  ",
 			"**Communication** speech (Abyssal, Common, Giant)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"teralindar's_honor": {
 		"name": "Teralindar's Honor",
@@ -9073,8 +8602,7 @@
 			"**Senses** 60 ft., darkvision, read magic  ",
 			"**Int** 20, Wis 13, Cha 14  ",
 			"**Communication** not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"abat-ne,_the_blackstone_mace": {
 		"name": "Abat-Ne, the Blackstone Mace",
@@ -9102,8 +8630,7 @@
 			"**Senses** 60 ft., blindsense  ",
 			"**Int** 11, Wis 16, Cha 12  ",
 			"**Communication** telepathy (Ancient Osiriani)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"abat_ne_the_blackstone_mace": {
 		"copyof": "abat-ne,_the_blackstone_mace"
@@ -9129,8 +8656,7 @@
 			"**Senses** 30 ft., darkvision  ",
 			"**Int** 10, Wis 16, Cha 14  ",
 			"**Communication** speech (Common)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"lightning_bow": {
 		"name": "Lightning Bow",
@@ -9157,8 +8683,7 @@
 			"**Senses** 120 ft.  ",
 			"**Int** 6, Wis 11, Cha 11  ",
 			"**Communication** speech (Auran)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"draddeth_edge": {
 		"name": "Draddeth Edge",
@@ -9188,8 +8713,7 @@
 			"**Senses** 120 ft.  ",
 			"**Int** 12, Wis 14, Cha 10  ",
 			"**Communication** empathy"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"norgir's_ruin": {
 		"name": "Norgir's Ruin",
@@ -9215,8 +8739,7 @@
 			"**Communication** speech (Dwarven, Undercommon)  ",
 			"**Powers** Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day  ",
 			"**Special Purpose** defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"skullduster": {
 		"name": "Skullduster",
@@ -9240,8 +8763,7 @@
 			"**Senses** 60 ft., darkvision  ",
 			"**Int** 12, Wis 16, Cha 10  ",
 			"**Communication** speech (Common, Orc, Skald)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"singing_sword": {
 		"name": "Singing Sword",
@@ -9267,8 +8789,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 14, Wis 12, Cha 18  ",
 			"**Communication** speech (Common and four other languages)"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"-2_cursed_sword": {
 		"name": "-2 Cursed Sword",
@@ -9289,8 +8810,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 longsword, any magic weapon; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cursed_sword": {
 		"copyof": "-2_cursed_sword"
@@ -9309,8 +8829,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 shortbow; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"berserking_sword": {
 		"name": "Berserking Sword",
@@ -9329,8 +8848,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 greatsword, any magic weapon; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"biting_battleaxe": {
 		"name": "Biting Battleaxe",
@@ -9346,8 +8864,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 battleaxe; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"bloodbite": {
 		"name": "Bloodbite",
@@ -9364,8 +8881,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 wounding greatsword; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"buffoon's_sword": {
 		"name": "Buffoon's Sword",
@@ -9384,8 +8900,7 @@
 			"### Construction",
 			"",
 			"**Requirements** sword of subtlety; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"cursed_backbiter_spear": {
 		"name": "Cursed Backbiter Spear",
@@ -9404,8 +8919,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 shortspear, any magic weapon; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"deadflesh_waraxe": {
 		"name": "Deadflesh Waraxe",
@@ -9422,8 +8936,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +1 mithral ghost touch undead bane dwarven waraxe; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"deadly_returns_throwing_axe": {
 		"name": "Deadly Returns Throwing Axe",
@@ -9439,8 +8952,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 returning throwing axe; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"heavy_hammer": {
 		"name": "Heavy Hammer",
@@ -9457,8 +8969,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 warhammer; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"mace_of_blood": {
 		"name": "Mace of Blood",
@@ -9477,8 +8988,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +3 heavy mace; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"nearfiring_bow": {
 		"name": "Nearfiring Bow",
@@ -9494,8 +9004,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 distance shortbow; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"net_of_snaring_cursed": {
 		"name": "Net of Snaring (cursed)",
@@ -9515,8 +9024,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +3 net; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"ornery_pistol": {
 		"name": "Ornery Pistol",
@@ -9532,8 +9040,7 @@
 			"### Construction",
 			"",
 			"**Requirements** any pistol; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"unstable_musket": {
 		"name": "Unstable Musket",
@@ -9549,8 +9056,7 @@
 			"### Construction",
 			"",
 			"**Requirements** +1 musket; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	},
 	"unwieldy_glaive": {
 		"name": "Unwieldy Glaive",
@@ -9566,7 +9072,6 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 glaive; **Cost** -"
-		],
-		"display": "magic/weapon"
+		]
 	}
 }

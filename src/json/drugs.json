@@ -19,8 +19,7 @@
 			"**Damage** 1 Wis damage",
 			"",
 			"This particularly strong coffee is popular throughout the Padishah Empire of Kelesh, though it also has aficionados in Absalom, Oppara, and beyond. A morning cup is a good cure for lack of rest, but many find that it becomes a habit."
-		],
-		"display": "drug"
+		]
 	},
 	"flayleaf": {
 		"name": "Flayleaf",
@@ -38,8 +37,7 @@
 			"**Price** 10 gp  ",
 			"**Effect** 1 hour; +2 alchemical bonus on saves against mind-affecting effects, fatigue  ",
 			"**Damage** 1 Wis damage"
-		],
-		"display": "drug"
+		]
 	},
 	"magesight": {
 		"name": "Magesight",
@@ -60,8 +58,7 @@
 			"**Damage** 1d2 Wis damage",
 			"",
 			"Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain."
-		],
-		"display": "drug"
+		]
 	},
 	"muscaria": {
 		"name": "Muscaria",
@@ -81,8 +78,7 @@
 			"**Damage** 1d4 Cha damage",
 			"",
 			"These small mushrooms, grown in dark forests, have red caps dotted with white spots. Able to induce strong hallucinogenic states, they have long been used by shamans and other spiritual leaders to enter trances to seek flashes of insight."
-		],
-		"display": "drug"
+		]
 	},
 	"pesh": {
 		"name": "Pesh",
@@ -101,8 +97,7 @@
 			"**Effect** 1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects  ",
 			"**Effect** after 1 hour; 1d2 hours of fatigue  ",
 			"**Damage** 1d2 Con and 1d2 Wis damage"
-		],
-		"display": "drug"
+		]
 	},
 	"vigilance": {
 		"name": "Vigilance",
@@ -123,8 +118,7 @@
 			"**Damage** 1d4 Con damage",
 			"",
 			"Scholars and students are often willing to accept the clumsiness and slow reactions in exchange for the benefits gained in research and study from this bitter white powder."
-		],
-		"display": "drug"
+		]
 	},
 	"aether": {
 		"name": "Aether",
@@ -143,8 +137,7 @@
 			"**Effect** 1 hour; +1 caster level  ",
 			"**Effect** 1d4 hours; user must make a caster check to cast spells, DC 15 + spell level  ",
 			"**Damage** 1d2 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"gossamer_veil": {
 		"name": "Gossamer Veil",
@@ -165,8 +158,7 @@
 			"**Damage** 1d4 Wis damage",
 			"",
 			"Cultists of [Ghlaunder](faith/ghlaunder) and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
-		],
-		"display": "drug"
+		]
 	},
 	"slaver's_drops": {
 		"name": "Slaver's Drops",
@@ -186,8 +178,7 @@
 			"**Damage** 1d2 Str damage",
 			"",
 			"Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control."
-		],
-		"display": "drug"
+		]
 	},
 	"opium": {
 		"name": "Opium",
@@ -205,8 +196,7 @@
 			"**Price** 25 gp  ",
 			"**Effect** 1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, fatigue  ",
 			"**Damage** 1d4 Con and 1d4 Wis damage"
-		],
-		"display": "drug"
+		]
 	},
 	"scour": {
 		"name": "Scour",
@@ -224,8 +214,7 @@
 			"**Price** 45 gp  ",
 			"**Effect** 3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom  ",
 			"**Damage** 1d6 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"sting's_savor": {
 		"name": "Sting's Savor",
@@ -246,8 +235,7 @@
 			"**Damage** 1d2 Wis damage",
 			"",
 			"The \"sting\" administered to willing recipients at some [Calistrian](faith/calistrian) temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
-		],
-		"display": "drug"
+		]
 	},
 	"dwarven_fire_ale": {
 		"name": "Dwarven Fire Ale",
@@ -266,8 +254,7 @@
 			"**Effect** 1d4 rounds; [rage](spell/rage) as per the spell  ",
 			"**Effect** 1 hour; cold resistance 5  ",
 			"**Damage** 1d2 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"serpent's_kiss": {
 		"name": "Serpent's Kiss",
@@ -288,8 +275,7 @@
 			"**Damage** 1d4 Dex damage",
 			"",
 			"Relied upon by politicians and shy noble scions, this emerald syrup boosts the user's confidence, allowing her to navigate social situations with aplomb, though the tremor it imparts to her hands can cause an unseemly clatter of cutlery or stemware."
-		],
-		"display": "drug"
+		]
 	},
 	"zerk": {
 		"name": "Zerk",
@@ -307,8 +293,7 @@
 			"**Price** 50 gp  ",
 			"**Effect** 1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted  ",
 			"**Damage** 1d2 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"ruk_tar": {
 		"name": "Ruk Tar",
@@ -329,8 +314,7 @@
 			"**Damage** 1d4 Int damage",
 			"",
 			"Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user's abilities to ensure victory."
-		],
-		"display": "drug"
+		]
 	},
 	"harlot_sweets": {
 		"name": "Harlot Sweets",
@@ -350,8 +334,7 @@
 			"**Damage** 1d2 Int damage",
 			"",
 			"These amber-colored lozenges instill within the user a slightly increased agility and enhance both physical beauty and speech. So named for the fact that prostitutes often abuse the drug, harlot sweets are gaining popularity among certain circles in the aristocracy as well."
-		],
-		"display": "drug"
+		]
 	},
 	"inspiration_dust": {
 		"name": "Inspiration Dust",
@@ -372,8 +355,7 @@
 			"**Damage** 1d4 Wis damage",
 			"",
 			"The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned."
-		],
-		"display": "drug"
+		]
 	},
 	"oblivion": {
 		"name": "Oblivion",
@@ -393,8 +375,7 @@
 			"**Damage** 1d4 damage to a random ability score",
 			"",
 			"A less pure version of refined cytillesh, oblivion retains the unpredictable side effects and highly addictive properties of the source material. Oblivion is common in Cassomir's slums and the Puddles district of Absalom. Type ingested; Addiction major, Fortitude DC 26"
-		],
-		"display": "drug"
+		]
 	},
 	"dreamtime_tea": {
 		"name": "Dreamtime Tea",
@@ -414,8 +395,7 @@
 			"**Damage** 1d3 Wis",
 			"",
 			"This tea carries a complex aroma combining the unlikely mix of citrus and dung. Originally developed in Vudra from a mix of rare herbs and flowers, dreamtime tea is gaining popularity in many cities in the Inner Sea region, particularly among those who seek dreams as an escape from reality."
-		],
-		"display": "drug"
+		]
 	},
 	"blood_sap": {
 		"name": "Blood Sap",
@@ -435,8 +415,7 @@
 			"**Damage** 1d4 Con",
 			"",
 			"Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth."
-		],
-		"display": "drug"
+		]
 	},
 	"hush": {
 		"name": "Hush",
@@ -456,8 +435,7 @@
 			"**Damage** 1d4 Wis damage",
 			"",
 			"This slate-gray powder is often mixed into alcohol and consumed by those working in the noisy testing ranges at Alkenstar's Gunworks. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps."
-		],
-		"display": "drug"
+		]
 	},
 	"elven_absinthe": {
 		"name": "Elven Absinthe",
@@ -475,8 +453,7 @@
 			"**Price** 500 gp  ",
 			"**Effect** 1 hour; +1d4 Cha  ",
 			"**Damage** 1d4 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"mumia": {
 		"name": "Mumia",
@@ -502,8 +479,7 @@
 			"Even today, mumia made from the bodies of properly prepared and aged corpses-as well as cheap, knock-off mumia made from the embalmed bodies of animals or the recently dead-fetches a fine price in the back alleysof Sothis and other major cities in northern Garund. An unscrupulous graverobber need not hawk only fineries and art anymore, but can profit immensely from the act of plundering mummified bodies as well if she knows where to pawn them.",
 			"",
 			"Cheap, imitation mumia made from the recently deceased or improperly treated bodies has the same stats as mumia, but the benefits are rendered at 50% their normal potency and for half the duration."
-		],
-		"display": "drug"
+		]
 	},
 	"numerian_fluids": {
 		"name": "Numerian Fluids",
@@ -578,8 +554,7 @@
 			"| 8 | Grounding Skin: The drinker grows a metal mesh surrounding his skin that grants him electricity resistance 10. |",
 			"| 9 | Bioluminescence: The drinker's body glows as [gem of brightness](magic/wondrous/gem_of_brightness). The drinker can produce this effect 5 times per day. |",
 			"| 10 | Sleep of Experience: For 24 hours, the drinker falls into a coma and cannot be awakened. During this time, he dreams of living an entire lifetime on a different planet in an alien body. The drinker gains the number of bonus experience points needed to advance 1 level. A creature can gain this exceptional effect only once (reroll all future exceptional effect rolls of 10). |"
-		],
-		"display": "drug"
+		]
 	},
 	"shiver": {
 		"name": "Shiver",
@@ -597,8 +572,7 @@
 			"**Price** 500 gp  ",
 			"**Effect** variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes  ",
 			"**Damage** 1d2 Con damage"
-		],
-		"display": "drug"
+		]
 	},
 	"esoterum": {
 		"name": "Esoterum",
@@ -618,8 +592,7 @@
 			"**Damage** 1d4 Con damage and 1d4 Wis damage",
 			"",
 			"Legends tell of esoterum dens in Tian Xia and Vudra where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual."
-		],
-		"display": "drug"
+		]
 	},
 	"old-mage": {
 		"name": "Old-Mage",
@@ -639,8 +612,7 @@
 			"**Damage** see Effects",
 			"",
 			"In higher circles of Avistani nobility, some petty nobles pretend to be mighty wizards. Typically created in and smuggled north from Sargava, old-mage offers a temporary taste of eldritch power at an exorbitant cost-both financial and physical."
-		],
-		"display": "drug"
+		]
 	},
 	"adyton": {
 		"name": "Adyton",
@@ -660,7 +632,6 @@
 			"**Damage** 1d4 Str damage",
 			"",
 			"The drug adyton is central to [Mahathallah's](faith/mahathallah) worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
-		],
-		"display": "drug"
+		]
 	}
 }

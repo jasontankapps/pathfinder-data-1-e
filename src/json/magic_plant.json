@@ -17,8 +17,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), entangle, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"tree_of_knowledge": {
 		"name": "Tree of Knowledge",
@@ -37,8 +36,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), augury, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"restful_birch": {
 		"name": "Restful Birch",
@@ -59,8 +57,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), sleep, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"fireapple_tree": {
 		"name": "Fireapple Tree",
@@ -79,8 +76,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), fireball, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"cleanthistle": {
 		"name": "Cleanthistle",
@@ -99,8 +95,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [neutralize poison](spell/neutralize_poison), cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"goodberry_bush": {
 		"name": "Goodberry Bush",
@@ -119,8 +114,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), goodberry, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"salvation_cactus": {
 		"name": "Salvation Cactus",
@@ -139,8 +133,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), cure light wounds, lesser restoration, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"palm_of_decadent_feasts": {
 		"name": "Palm of Decadent Feasts",
@@ -159,8 +152,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), heroes' feast, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"breezeblown_dandelion": {
 		"name": "Breezeblown Dandelion",
@@ -179,8 +171,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant)s, glide; **Cost** 5,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"ghostblossom": {
 		"name": "Ghostblossom",
@@ -199,8 +190,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"acidic_lemon_tree": {
 		"name": "Acidic Lemon Tree",
@@ -219,8 +209,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), acid arrow, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"altitude_fern": {
 		"name": "Altitude Fern",
@@ -239,8 +228,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"helping_hands_vine": {
 		"name": "Helping Hands Vine",
@@ -259,8 +247,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), feather fall, spider climb, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"sheltershrub": {
 		"name": "Sheltershrub",
@@ -279,8 +266,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), endure elements, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"gravebane_petals": {
 		"name": "Gravebane Petals",
@@ -299,8 +285,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"tree_of_woe": {
 		"name": "Tree of Woe",
@@ -319,8 +304,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), charm monster, zone of truth, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"ambrosial_lotus": {
 		"name": "Ambrosial Lotus",
@@ -339,8 +323,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [feeblemind](spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"fishweed": {
 		"name": "Fishweed",
@@ -359,8 +342,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), water breathing, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"waterwalk_reeds": {
 		"name": "Waterwalk Reeds",
@@ -379,8 +361,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), water walk, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"portal_oak": {
 		"name": "Portal Oak",
@@ -399,8 +380,7 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), tree stride, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
-		],
-		"display": "magic/plant"
+		]
 	},
 	"poison_siphon_tree": {
 		"name": "Poison Siphon Tree",
@@ -419,7 +399,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), neutralize poison, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
-		],
-		"display": "magic/plant"
+		]
 	}
 }

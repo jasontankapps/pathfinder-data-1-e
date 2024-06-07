@@ -18,8 +18,7 @@
 			"- 1st-[comprehend languages](spell/comprehend_languages)[^S], [detect secret doors](spell/detect_secret_doors)[^S], [detect undead](spell/detect_undead)[^S], [identify](spell/identify)[^S], [protection from evil](spell/protection_from_evil), [protection from law](spell/protection_from_law), [summon monster I](spell/summon_monster_i), [true strike](spell/true_strike)[^S]",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"arctic_call": {
 		"name": "Arctic Call",
@@ -50,8 +49,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"arrowsong's_sorrow": {
 		"name": "Arrowsong's Sorrow",
@@ -74,8 +72,7 @@
 			"#### Ritual",
 			"",
 			"**Disruption Master (Ex)** Arrowsong's claims about the imperfections of spellcasting and the failings of magic provide additional insight into interrupting spellcasting. Unlike other boons, you do not spend this one. Until you prepare spells again, when you damage a foe or the foe fails a saving throw against a spell of yours, the foe also takes a -2 penalty on all concentration checks it attempts for 1 round."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"book_of_harms": {
 		"name": "Book of Harms",
@@ -102,8 +99,7 @@
 			"**Harmful Surge (Su)** You can maximize a spell, but doing so damages you. Spend this boon effect as a free action when you cast a wizard evocation spell. When you do, you can treat that spell as if it were cast with the [Maximize Spell](feat/maximize_spell) metamagic feat, but you take 1d4 points of damage &times; the level of the spell that you are maximizing. The damage you take cannot be reduced in any way.",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"book_of_the_grave": {
 		"name": "Book of the Grave",
@@ -130,8 +126,7 @@
 			"**Breath of the Grave (Su)** As a swift action, spend this boon's effect to breathe a 15-foot cone of rotting stench. Creatures within the cone must succeed at a Fortitude saving throw (DC 10 + your highest caster level in a class that prepares spells) or be sickened for 1 round. This spends the boon. After this boon has been spent, you take a -4 penalty on Diplomacy and Stealth checks until you prepare spells again.",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"calamaes_fragment": {
 		"name": "Calamaes Fragment",
@@ -151,8 +146,7 @@
 			"- 3rd-[deft digits](spell/deft_digits), [dispel magic](spell/dispel_magic), [greater magic weapon](spell/greater_magic_weapon), [haste](spell/haste), [hostile levitation](spell/hostile_levitation), [rags to riches](spell/rags_to_riches)",
 			"- 2nd-[alter self](spell/alter_self), [darkvision](spell/darkvision), [fool's gold](spell/fool's_gold), [glide](spell/glide), [glitterdust](spell/glitterdust), [scorching ray](spell/scorching_ray), [touch of idiocy](spell/touch_of_idiocy)",
 			"- 1st-[ant haul](spell/ant_haul), [jury-rig](spell/jury-rig), [mage armor](spell/mage_armor), [magic missile](spell/magic_missile), [polypurpose panacea](spell/polypurpose_panacea), [shocking grasp](spell/shocking_grasp), [sleep](spell/sleep), [tears to wine](spell/tears_to_wine)"
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"chymist's_guidebook": {
 		"name": "Chymist's Guidebook",
@@ -174,8 +168,7 @@
 			"- 3rd-[amplify elixir](spell/amplify_elixir), [arcane sight](spell/arcane_sight), [haste](spell/haste), [heroism](spell/heroism), [protection from energy](spell/protection_from_energy), [thorn body](spell/thorn_body)",
 			"- 2nd-[alter self](spell/alter_self), [bear's endurance](spell/bear's_endurance), [false life](spell/false_life), [fire breath](spell/fire_breath), [see invisibility](spell/see_invisibility), [transmute potion to poison](spell/transmute_potion_to_poison)",
 			"- 1st-[ant haul](spell/ant_haul), [comprehend languages](spell/comprehend_languages), [cure light wounds](spell/cure_light_wounds), [detect secret doors](spell/detect_secret_doors), [enlarge person](spell/enlarge_person), [jump](spell/jump), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [shield](spell/shield), [true strike](spell/true_strike)"
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"cold_irony": {
 		"name": "Cold Irony",
@@ -200,8 +193,7 @@
 			"#### Ritual",
 			"",
 			"**Brain Wash (Su)** You combine magic and skill to masterfully manipulate your subjects. You can expend this boon when you cast a spell on a creature you have succeeded at a Bluff, Diplomacy, Knowledge, or Sense Motive check against. You cast that spell at +1 caster level and its save DC increases by 1."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"cyrusian_codex": {
 		"name": "Cyrusian Codex",
@@ -228,8 +220,7 @@
 			"#### Ritual",
 			"",
 			"**Enduring Alteration (Su)** Your spells resist reality's attempts to restore the things you change. You can spend this boon to apply the benefits of the [Extend Spell](feat/extend_spell) feat to a transmutation spell as you cast it. This also increases the DC to dispel that spell (via [dispel magic](spell/dispel_magic) or similar abilities) by 4. This boon does not increase the spell level or casting time of your spell."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"defensive_primer": {
 		"name": "Defensive Primer",
@@ -250,8 +241,7 @@
 			"- 1st-[burning hands](spell/burning_hands), [detect undead](spell/detect_undead), [expeditious retreat](spell/expeditious_retreat), [magic missile](spell/magic_missile), [protection from evil](spell/protection_from_evil)[^S], [ray of enfeeblement](spell/ray_of_enfeeblement), [shield](spell/shield)[^S]",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"erages_journeyman's_manual": {
 		"name": "Erages Journeyman's Manual",
@@ -274,8 +264,7 @@
 			"#### Ritual",
 			"",
 			"**Avoiding Spell (Su)** Whenever you cast a transmutation spell, you can spend this boon as a swift action to gain a +1 dodge bonus to your AC for a number of rounds equal to the spell's level."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"galtan_cookbook": {
 		"name": "Galtan Cookbook",
@@ -298,8 +287,7 @@
 			"#### Ritual",
 			"",
 			"**Blast Finesse (Su)** As an immediate action when you throw a bomb, you can spend this boon to shape the blast by adding up to three 5-foot squares to the area, as long as these spaces are adjacent to the bomb's normal area of effect."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"grandfather's_legacy": {
 		"name": "Grandfather's Legacy",
@@ -326,8 +314,7 @@
 			"- 1st-[cause fear](spell/cause_fear)[^S], [chill touch](spell/chill_touch)[^S], [floating disk](spell/floating_disk), [hypnotism](spell/hypnotism), [obscuring fog](spell/obscuring_fog), [ray of enfeeblement](spell/ray_of_enfeeblement)[^S], [restore corpse](spell/restore_corpse)[^S], [sculpt corpse](spell/sculpt_corpse)[^S], [shield](spell/shield), [sleep](spell/sleep)",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"grimoire_of_glittering_eyes": {
 		"name": "Grimoire of Glittering Eyes",
@@ -356,8 +343,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"guardian_grimoire": {
 		"name": "Guardian Grimoire",
@@ -389,8 +375,7 @@
 			"**Guardian Trick (Su)** With a quick phrase of power, you attempt to foil an attack. Spend this boon's effect as an immediate action when an undead or outsider hits you with an attack. The attacking creature must reroll the attack, taking the second roll even if it is lower.",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"insights_of_far-seeing_taernis": {
 		"name": "Insights of Far-Seeing Taernis",
@@ -421,8 +406,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"journal_of_the_beast_within": {
 		"name": "Journal of the Beast Within",
@@ -446,8 +430,7 @@
 			"#### Ritual",
 			"",
 			"**Beastly Concoction (Su)** This journal grants you the ability to make an extremely potent and savage mutagen. Spend this boon when you imbibe your mutagen. The mutagen grants you a +6 alchemical bonus to your selected ability score instead of the normal +4; you take a -2 penalty to all of your mental ability scores (Intelligence, Wisdom, and Charisma) while the mutagen is in effect."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"journeyman_book_of_rul_thaven": {
 		"name": "Journeyman Book of Rul Thaven",
@@ -477,8 +460,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"lab_journal_of_constance_inflix": {
 		"name": "Lab Journal of Constance Inflix",
@@ -500,8 +482,7 @@
 			"#### Ritual",
 			"",
 			"**Alchemical Protection (Su)** The alchemical knowledge granted by this book protects you from poisons and alchemical items. Spend this boon's effect as an immediate action when you make a saving throw against poison or an alchemical item but before rolling the saving throw. You gain a +4 bonus on that saving throw."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"library_of_the_dancer_of_skins": {
 		"name": "Library of the Dancer of Skins",
@@ -530,8 +511,7 @@
 			"#### Ritual",
 			"",
 			"**Defensive Boon (Su)** You throw up a quick burst of arcane energy that deflects an incoming spell attack. As an immediate action when targeted with a touch spell or spell-like ability, you can spend this boon's effect to gain a +4 deflection bonus to AC against the triggering attack."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"manual_of_binding": {
 		"name": "Manual of Binding",
@@ -565,8 +545,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"manuscript_of_jack_were-son": {
 		"name": "Manuscript of Jack Were-son",
@@ -588,8 +567,7 @@
 			"- 3rd-[cloak of winds](spell/cloak_of_winds), [explosive runes](spell/explosive_runes), [haste](spell/haste), [lightning bolt](spell/lightning_bolt), [nondetection](spell/nondetection), [twilight knife](spell/twilight_knife)",
 			"- 2nd-[acid arrow](spell/acid_arrow), [burning gaze](spell/burning_gaze), [dust of twilight](spell/dust_of_twilight), [fog cloud](spell/fog_cloud), [metabolize](spell/metabolize), [protection from arrows](spell/protection_from_arrows), [spider climb](spell/spider_climb)",
 			"- 1st-[alter winds](spell/alter_winds), [ant haul](spell/ant_haul), [burning hands](spell/burning_hands), [cause fear](spell/cause_fear), [hold portal](spell/hold_portal), [identify](spell/identify), [magic missile](spell/magic_missile), [sleep](spell/sleep), [stone fist](spell/stone_fist), [vanish](spell/vanish)"
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"master_books_of_rul_thaven": {
 		"name": "Master Books of Rul Thaven",
@@ -623,8 +601,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"mastery_of_word_and_thought": {
 		"name": "Mastery of Word and Thought",
@@ -658,8 +635,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"mysteries_of_shadow": {
 		"name": "Mysteries of Shadow",
@@ -692,8 +668,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"nyzam's_remedies": {
 		"name": "Nyzam's Remedies",
@@ -714,8 +689,7 @@
 			"#### Ritual",
 			"",
 			"**Rejuvenating Infusion (Su)** Whenever you imbibe an alchemist extract of a conjuration spell, you can spend this boon as a swift action. If you do, you are healed of 1 point of damage and can ignore the effects of fatigue for 1 round."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"quest_eternal": {
 		"name": "Quest Eternal",
@@ -746,8 +720,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"runes_of_wealth": {
 		"name": "Runes of Wealth",
@@ -777,8 +750,7 @@
 			"#### Ritual",
 			"",
 			"**Change Magic (Su)** Even the nature of magic is susceptible to your powerful transmutations. You can spend this boon as a swift action to declare a non-transmutation spell you are casting to be \"changed magic.\" This spell becomes a transmutation effect, and benefits from any abilities or feats that influence your transmutation spells and can be applied to the spell you cast (such as [Spell Focus](feat/spell_focus))."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"sarini's_workbook": {
 		"name": "Sarini's Workbook",
@@ -804,8 +776,7 @@
 			"#### Ritual",
 			"",
 			"**Devilishly Reasonable (Su)** You can spend this boon to gain a +5 bonus on a Diplomacy check against a target that has an attitude of friendly or helpful toward you to request aid in the form of the target revealing an important secret."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"songs_of_the_linnorm_kings": {
 		"name": "Songs of the Linnorm Kings",
@@ -828,8 +799,7 @@
 			"#### Ritual",
 			"",
 			"**Storied Spell Lore (Su)** When you use this meditation ritual, choose a spell of 2nd level or lower in this meditation book. Whenever you cast a bard or skald conjuration spell, you can spend this boon as a swift action to add the chosen spell to your list of bard or skald spells known for 1 round."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"the_formulae_of_master_gebr": {
 		"name": "The Formulae of Master Gebr",
@@ -856,8 +826,7 @@
 			"#### Ritual",
 			"",
 			"**Spontaneous Bomb (Su)** When it comes to bombs, you have a special trick up your sleeve. Once per day as a swift action, you can apply a discovery that you qualify for (but do not already know) to a bomb. This does not allow you to stack non-stacking discoveries on a bomb."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"the_guide's_analects": {
 		"name": "The Guide's Analects",
@@ -880,8 +849,7 @@
 			"#### Ritual",
 			"",
 			"**Glorious Blade (Su)** When you attack with a sword (including swordlike effects created by spells such as [spiritual weapon](spell/spiritual_weapon), as long as they require attack rolls), you can expend a prepared spell or spell slot as a free action to spend this boon. If you do, you gain an insight bonus on the attack roll equal to the level of the prepared spell or spell slot expended."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"the_last_azlanti's_analects": {
 		"name": "The Last Azlanti's Analects",
@@ -910,8 +878,7 @@
 			"#### Ritual",
 			"",
 			"**Efficient Creator (Su)** You can spend this boon to use the magic item creation rules to create items with the Craft skill for one day. When doing this, your material costs are equal to half the final value of the item crafted (rather than the normal 1/3 of the cost for using the Craft skill). You can craft items with a cost greater than 1,000 gp by expending this boon over successive days, in the same way magic items with a cost over 1,000 gp can be crafted over multiple days. You otherwise follow all the rules and options for magic item creations."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"the_prying_eye": {
 		"name": "The Prying Eye",
@@ -935,8 +902,7 @@
 			"#### Ritual",
 			"",
 			"**Keen Perception (Su)** You can spend this boon to gain a +2 insight bonus on a single Perception or Sense Motive check."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"the_swordsman's_analects": {
 		"name": "The Swordsman's Analects",
@@ -958,8 +924,7 @@
 			"#### Ritual",
 			"",
 			"**Shielding Weapon (Su)** Your spells infuse a weapon with protective magic. Spend this boon as an immediate action whenever you cast an abjuration spell. When you do, a weapon you wield grants you a shield bonus to your AC equal to 1 + 1/2 the spell's level for 1 round."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"tome_of_stone_wards": {
 		"name": "Tome of Stone Wards",
@@ -988,8 +953,7 @@
 			"#### Ritual",
 			"",
 			"**Keeper of Stone (Ex/Su)** The *Tome of Stone Wards* covers the geography of caves and mountains (especially the Five Kings Mountains) thoroughly, and gives eldritch insights into how such terrain is formed. This boon is not spent, but grants you a +1 insight bonus on Knowledge (dungeoneering), Knowledge (geography), and Knowledge (nature) checks, as well as on Survival checks attempted in hills, mountains, and underground terrain. In addition, whenever you cast [mending](spell/mending), [make whole](spell/make_whole), or [greater make whole](spell/greater_make_whole) on an object made entirely from stone, add 1d6 to the number of hit points restored to the object. These benefits last until you next regain spell slots or prepare spells."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"tome_of_the_transmuter": {
 		"name": "Tome of the Transmuter",
@@ -1018,8 +982,7 @@
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"traveler's_tome": {
 		"name": "Traveler's Tome",
@@ -1041,8 +1004,7 @@
 			"- 1st-[ant haul](spell/ant_haul)[^S], [enlarge person](spell/enlarge_person)[^S], [erase](spell/erase)[^S], [expeditious retreat](spell/expeditious_retreat)[^S], [gravity bow](spell/gravity_bow)[^S], [hold portal](spell/hold_portal), [jump](spell/jump)[^S], [magic weapon](spell/magic_weapon)[^S], [shield](spell/shield)",
 			"",
 			"[^S]: A spell from the caster's specialty school."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"unnamed_journal": {
 		"name": "Unnamed Journal",
@@ -1060,8 +1022,7 @@
 			"",
 			"- 2nd-[fox's cunning](spell/fox's_cunning), [scorching ray](spell/scorching_ray)",
 			"- 1st-[alarm](spell/alarm), [feather fall](spell/feather_fall), [obscuring mist](spell/obscuring_mist), [mount](spell/mount), [shield](spell/shield), [shocking grasp](spell/shocking_grasp), [silent image](spell/silent_image), [sleep](spell/sleep)"
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"wisdom_of_jatembe_nine_warriors_edition": {
 		"name": "Wisdom of Jatembe (Nine Warriors Edition)",
@@ -1090,8 +1051,7 @@
 			"#### Ritual",
 			"",
 			"**Secrets of Jatembe (Su)** This edition of the Wisdom of Jatembe includes a number of unique rituals and philosophical notes supposedly written by the Old-Mage himself. These secrets allow you to prepare one of the following spells as an arcane spell 1 level higher than its druid spell level: [barkskin](spell/barkskin), [call lightning](spell/call_lightning), [cyclic reincarnation](spell/cyclic_reincarnation), [entangle](spell/entangle), [forest friend](spell/forest_friend), [lesser restoration](spell/lesser_restoration), [plant growth](spell/plant_growth), [speak with animals](spell/speak_with_animals), and [speak with plants](spell/speak_with_plants). At the GM's discretion, additional spells of 6th level or lower from the druid spell list may be available through the preparation rituals of specific copies of this book (which increases the spellbook's price by twice the cost of adding a wizard spell of the same level to the spellbook)."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"wisdom_of_jatembe_six_warriors_edition": {
 		"name": "Wisdom of Jatembe (Six Warriors Edition)",
@@ -1117,8 +1077,7 @@
 			"#### Ritual",
 			"",
 			"**Jatembe's Vindication (Su)** The Old-Mage's teachings are a call to arms for all good spellcasters, stressing the importance of using one's talents altruistically and philanthropically, and his teachings foster the power of good in even the most apathetic heart. Expend this boon when you cast a spell that targets one or more creatures. The spell gains the good descriptor as well as a +2 sacred bonus on caster level checks to overcome the spell resistance of evil creatures. An evil creature cannot use this preparation ritual."
-		],
-		"display": "equipspellbook"
+		]
 	},
 	"wisdom_of_jatembe_three_warriors_edition": {
 		"name": "Wisdom of Jatembe (Three Warriors Edition)",
@@ -1141,7 +1100,6 @@
 			"#### Ritual",
 			"",
 			"**Eyes of Jatembe (Su)** Several of the stories within this spellbook suggest ways to take what information you have and use it to infer the answers to questions for which you don't have proven solutions. Spend this boon when you cast a divination spell to increase the spell's caster level by +2."
-		],
-		"display": "equipspellbook"
+		]
 	}
 }

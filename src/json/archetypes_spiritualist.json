@@ -24,8 +24,7 @@
 			"**Drowned Powers (Sp):** At 5th level, a drowned channeler can use hydraulic push as a spell-like ability once per day, with an additional use each day at 9th level and every 4 levels thereafter. At 7th level, she can use slipstream once per day as a spell-like ability, with an additional use each day at 11th level and every 4 levels thereafter. At 9th level, she can use ride the waves once per day as a spell-like ability. Finally, at 16th level, she can use fluid form once per day as a spell-like ability.",
 			"",
 			"This ability replaces detect undead, calm spirit, see invisibility, and call spirit."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"ectoplasmatist": {
 		"name": "Ectoplasmatist",
@@ -69,8 +68,7 @@
 			"At 12th level, the ectoplasmatist's armor bonus to AC increases to +6 and is treated as ghost touch armor.",
 			"",
 			"This ability replaces spiritual interference and greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"exciter": {
 		"name": "Exciter",
@@ -112,8 +110,7 @@
 			"**Greater Rapture (Su):** At 12th level, an exciter increases the morale bonus his rapture grants to each applicable ability score by 2 and the morale bonus he gains on Will saves by 1. In addition, upon entering a rapture, he can apply the effects of a single spiritualist spell he knows with an emotion component to himself. The spell must have a range of touch or personal, and it must be a 1st- or 2nd-level spell. For every 3 spiritualist levels he has beyond 12th, the maximum spell level of this spell increases by 1. If he uses this ability to apply the effects of a spell again before the duration of the previous spell expires, the previous spell ends immediately.",
 			"",
 			"This replaces greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"fated_guide": {
 		"name": "Fated Guide",
@@ -145,8 +142,7 @@
 			"**Iron Bond (Ex):** When the fated guide reaches 9th level, her phantom gains a +4 bonus on saving throws against banishment, dismissal, or other similar effects. This ability replaces the see invisibility ability.",
 			"",
 			"**Undeniable Bond (Ex):** When the fated guide reaches 16th level, her phantom gains an additional +4 bonus on saving throws against banishment, dismissal, or other similar effects, for a total of +8. This ability replaces the call spirit ability."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"fractured_mind": {
 		"name": "Fractured Mind",
@@ -176,8 +172,7 @@
 			"**Zeal:** Bless (5th), spiritual weapon (7th), divine favor (9th), freedom of movement (16th).",
 			"",
 			"This ability replaces detect undead, calm spirit, see invisibility, and call spirit."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"geist_channeler": {
 		"name": "Geist Channeler",
@@ -207,8 +202,7 @@
 			"This ability modifies the phantom and replaces the phantom's emotional focus.",
 			"",
 			"**Spiritual Manifestation (Su):** Because of the nature of her phantom, a geist channeler can use the bonded manifestation ability to manifest his phantom only in incorporeal form. This ability alters bonded manifestation."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"grim_apostle": {
 		"name": "Grim Apostle",
@@ -304,8 +298,7 @@
 			"**Bloodlust (Su):** At 12th level, the grim phantom regains 1d6 hit points with each successful slam attack it makes.",
 			"",
 			"**Juggernaut (Su):** At 17th level, the grim phantom becomes immune to any effects that would cause it to become cowering, exhausted, fatigued, frightened, panicked, shaken, or slowed (as the [slow](spell/slow) spell)."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"hag-haunted": {
 		"name": "Hag-Haunted",
@@ -327,8 +320,7 @@
 			"**Death Curse (Sp):** A hag phantom is partially animated by the power of a hag's dying curse, and at 4th level this grants her a death curse of her own. As an immediate action, whenever the hag phantom is slain and returned to the Ethereal Plane, the phantom can utter a curse on the creature that killed her, targeting it with bestow curse. At 6th level, the spiritualist gains bestow curse as an extra 3rd-level spell known. At 16th level, the spiritualist gains major curse as an additional 6th-level spell known.",
 			"",
 			"This replaces spiritual interference and greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"haunted": {
 		"name": "Haunted",
@@ -352,8 +344,7 @@
 			"This ability replaces bonded manifestation.",
 			"",
 			"**Usurped Bond (Su):** At 17th level, the haunted's phantom can use usurp manifestation for a number of rounds per day equal to 3 + double the haunted's spiritualist level. This ability replaces dual bond."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"involutionist": {
 		"name": "Involutionist",
@@ -398,8 +389,7 @@
 			"**Involuate (Sp):** At 11th level, an involutionist gains the ability to awaken the latent spiritual energy in inanimate objects. She gains the ability to cast animate objects as a spell-like ability once per day (CL = her character level). At 15th and 19th levels, she can use this ability one additional time per day.",
 			"",
 			"This ability replaces the additional uses of calm spirit available at 11th, 15th, and 19th levels."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"necrologist": {
 		"name": "Necrologist",
@@ -449,8 +439,7 @@
 			"**Necropsychic Conduit:** At 12th level, a necrologist can cast psychic spells as if she had the Thanatopic Spell and Threnodic Spell metamagic feats, using her undead phantom as a conduit to pierce the defenses of undead creatures. If her phantom has been banished or is not within 30 feet of her when she casts the spells, however, these feats have no effect.",
 			"",
 			"This ability replaces greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"onmyoji": {
 		"name": "Onmyoji",
@@ -466,8 +455,7 @@
 			"**Spiritual Resistance (Su):** An onmyoji's phantom provides her with protection from supernatural forces. While the phantom is confined within the onmyoji's consciousness (not stranded on the Ethereal Plane or fully manifested), it grants her a +2 bonus on saving throws against the spell-like and supernatural abilities of fey, outsiders, and incorporeal undead. At 6th level and every 6 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 18th level). This ability replaces shared consciousness and fused consciousness.",
 			"",
 			"**Divine Teachings (Su):** An onmyoji gains the ability to call upon her phantom to help her cast spells she normally couldn't. At 4th level and every 3 levels thereafter, an onmyoji can choose a single spell from the cleric spell list with a spell level she is currently able to cast, and add that spell to her list of spells known, at the same spell level as it appears on the cleric spell list. Because the onmyoji relies on her phantom's influence in order to cast these spells, she can cast spells added in this way only while the phantom is confined within her consciousness (not stranded on the Ethereal Plane or fully manifested). This ability replaces spiritual interference and greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"phantom_blade": {
 		"name": "Phantom Blade",
@@ -542,8 +530,7 @@
 			"| 15th-16th | +4 | 17 | 13 | 18 | - |",
 			"| 17th-18th | +5 | 18 | 14 | 22 | Etheric strikes |",
 			"| 19th-20th | +5 | 19 | 15 | 24 | Soul eater |"
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"plague_eater": {
 		"name": "Plague Eater",
@@ -587,8 +574,7 @@
 			"**Withdraw Affliction (Sp):** At 16th level, a plague eater can reach into a body, remove an affliction directly from the flesh, and use the diseased matter as a weapon. She can cast [withdraw affliction](spell/withdraw_affliction) once per day as a spell-like ability with a caster level equal to her spiritualist level.",
 			"",
 			"This replaces call spirit."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"priest_of_the_fallen": {
 		"name": "Priest of the Fallen",
@@ -634,8 +620,7 @@
 			"**True Legend (Su):** At 20th level, a priest of the fallen is strong enough to confine a phantom in her consciousness as a standard action. On the start of her following turn, she gains access to all standard spiritualist abilities involving a confined phantom. She can confine her phantom for a number of rounds per day equal to 4 + her Wisdom modifier.",
 			"",
 			"This alters empowered consciousness."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"quintessentialist": {
 		"name": "Quintessentialist",
@@ -653,8 +638,7 @@
 			"A quintessentialist can fully manifest her exemplar as a full-round action rather than a 1-minute ritual, and she can dismiss it back into her mind as a standard action. When fully manifested, a quintessentialist can transfer any equipment she is currently wearing or carrying to her exemplar, allowing it to manifest with weapons, armor, and other equipment, but doing so removes these possessions from the quintessentialist. She can likewise grant her exemplar any feats she knows, losing access to those feats herself while the exemplar remains fully manifested. Projecting an exemplar is draining, however. A quintessentialist cannot cast any spells herself and she takes a -2 penalty to all ability scores while her exemplar is fully manifested. Every round the exemplar remains fully manifested, the quintessentialist takes 1d6 points of damage; this damage cannot be reduced or prevented in any way.",
 			"",
 			"This alters phantom."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"scourge": {
 		"name": "Scourge",
@@ -680,8 +664,7 @@
 			"**Ectoplasmic Swarm (Su):** At 12th level, as a standard action, a scourge with a phantom manifested in ectoplasmic form can command it to break apart in a gruesome display of gore and agony, transforming it into a swarm of Diminutive ectoplasmic organs and viscera. The phantom gains the swarm subtype, dealing its unmodified slam damage die as damage for its swarm attack. Its distraction DC is equal to 10 + 1/2 the phantom's Hit Dice + its Constitution modifier. In this form, the phantom is too diffuse to use inflict pain or any of its abilities from emotional focus (even passive abilities).",
 			"",
 			"This ability replaces greater spiritual interference."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"seeker_of_enlightenment": {
 		"name": "Seeker of Enlightenment",
@@ -715,8 +698,7 @@
 			"**Knowledge of the Ancestors (Sp):** At 16th level, a seeker of enlightenment learns how to tap into the knowledge of her past lives. She can cast legend lore as a spell-like ability once per day.",
 			"",
 			"This replaces call spirit."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"shadow_caller": {
 		"name": "Shadow Caller",
@@ -768,8 +750,7 @@
 			"**Living Darkness (Su):** At 20th level, a shadow caller becomes a creature of absolute darkness. When using her incorporeal bonded manifestation, she is immune to cold and mind-affecting effects and gains an incorporeal touch attack that she can use as a standard action to deal 20d6 points of negative energy damage. When the shadow caller damages a creature with this ability, she gains 5d6 temporary hit points (Fortitude half; DC = 20 + her Wisdom modifier), so long as she doesn't already have any temporary hit points gained via this ability). Temporary hit points gained this way disappear after 1 hour.",
 			"",
 			"This ability replaces empowered consciousness."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"soul_warden": {
 		"name": "Soul Warden",
@@ -799,8 +780,7 @@
 			"**Algea Call (Su):** At 20th level, as a standard action once per hour, a soul warden's nosoi scribe can summon countless other nosoi, which flock together to form an algea. This transformation lasts for 1 minute, after which the nosoi scribe returns unharmed, unless the algea is brought to 0 hit points or killed, in which case the nosoi scribe returns unconscious at 0 hit points. This is a summoning effect.",
 			"",
 			"This replaces empowered consciousness."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"totem_spiritualist": {
 		"name": "Totem Spiritualist",
@@ -836,8 +816,7 @@
 			"**Twin Phantoms (Su):** At 17th level, the totem spiritualist can call upon two of her phantom animals at once. As a standard action, she can manifest a second phantom animal. The phantom animal remains for a number of rounds per day equal to her spiritualist level and can be dismissed as a free action. This duration does not need to be consecutive.",
 			"",
 			"This replaces dual bond."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"usher_of_lost_souls": {
 		"name": "Usher of Lost Souls",
@@ -865,8 +844,7 @@
 			"**Disruptive Influence (Su):** At 14th level, the usher of lost souls can put spirits to rest. She can use one of her uses of calm spirit to instead cast purge spirit as a spell-like ability. She can expend two uses of her etheric channel to cast either of these spells as a spell-like ability.",
 			"",
 			"This ability replaces spiritual bond."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"ward_spiritualist": {
 		"name": "Ward Spiritualist",
@@ -896,8 +874,7 @@
 			"If she has a physical implement, when using her merged manifestation, her implement functions as a one-handed improvised weapon of appropriate size, and she does not take the usual penalties associated with wielding an improvised weapon. Additionally, it is considered to have a +1 enhancement bonus for the duration of the merged manifestation. This enhancement bonus increases by 1 at 8th level, and again at 13th level and 18th level. At 8th level, and again at 18th level, it deals damage as a weapon one size category larger. At 13th level, her implement also gains the benefits of [spirit-bound blade](spell/spirit-bound_blade) for the duration of the merged manifestation.",
 			"",
 			"If she is her own implement, when using her merged manifestation, she gains the [unarmed strike class feature as a 1st level unchained monk](class/monk_uc). At 8th level, her unarmed strike damage is that of a 4th-level unchained monk, and she gains flurry of blows as a 1st-level unchained monk. At 13th level, her unarmed damage is that of an 8th-level unchained monk, and her unarmed strikes gain the benefits of [spirit-bound blade](spell/spirit-bound_blade) for the duration of the merged manifestation. At 18th level, her unarmed damage is that of a 12th level unchained monk, and she can use flurry of blows as an 11th-level unchained monk."
-		],
-		"display": "archetype/spiritualist"
+		]
 	},
 	"zeitgeist_binder": {
 		"name": "Zeitgeist Binder",
@@ -933,7 +910,6 @@
 			"When the zeitgeist binder reaches 10th level, the zeitgeist can project its senses to feel its settlement aspect at will. Additionally, the zeitgeist binder gains a bonus teamwork feat as long as she is in her zeitgeist's settlement. The zeitgeist binder must meet the teamwork feat's prerequisites, and she grants the feat as a bonus feat to her zeitgeist, even if it doesn't meet the prerequisites.",
 			"",
 			"This ability replaces the spiritualist's bonded senses and fused consciousness."
-		],
-		"display": "archetype/spiritualist"
+		]
 	}
 }

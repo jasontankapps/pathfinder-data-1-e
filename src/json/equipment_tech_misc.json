@@ -20,56 +20,47 @@
 			"An access card is a small strip of stiff plastic with a colorcoded stripe on one side. Some access cards are further decorated with names or titles written in Androffan, or even photographs of long-dead crew members. An access card functions as a key-when swiped through an electronic lock (a move action), an access card unlocks any lock of its color code or a color code of a lower rating. Although access cards do not consume energy themselves, they work in only electronic locks that currently have power. Among certain societies in Numeria, access cards are also used as decorations, worn as affectations, and incorporated into ceremonial regalia.",
 			"",
 			"Access cards must be encoded to specific locks before they can function. Often, all of the doors in a complex are keyed to a unique set of cards that don't work on doors found in other complexes, much like a skeleton key might open all the doors in one castle but none in another. Coding an access card for specific locks requires a lock coder (see page 44). Some access cards could be worth far more than the prices listed above if they're specifically encoded to locks that protect more valuable or significant contents."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"access_card_blue": {
 		"name": "access card (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_brown": {
 		"name": "access card (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_gray": {
 		"name": "access card (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_green": {
 		"name": "access card (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_orange": {
 		"name": "access card (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_prismatic": {
 		"name": "access card (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_red": {
 		"name": "access card (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"access_card_white": {
 		"name": "access card (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "access_card_black",
-		"display": "equiptechmisc"
+		"copyof": "access_card_black"
 	},
 	"e-pick_black": {
 		"name": "e-pick (black)",
@@ -101,8 +92,7 @@
 			"| Blue | +6 |",
 			"| Orange | +7 |",
 			"| Prismatic | +10 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"epick_black": {
 		"copyof": "e-pick_black"
@@ -110,8 +100,7 @@
 	"e-pick_blue": {
 		"name": "e-pick (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_blue": {
 		"copyof": "e-pick_blue"
@@ -119,8 +108,7 @@
 	"e-pick_brown": {
 		"name": "e-pick (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_brown": {
 		"copyof": "e-pick_brown"
@@ -128,8 +116,7 @@
 	"e-pick_gray": {
 		"name": "e-pick (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_gray": {
 		"copyof": "e-pick_gray"
@@ -137,8 +124,7 @@
 	"e-pick_green": {
 		"name": "e-pick (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_green": {
 		"copyof": "e-pick_green"
@@ -146,8 +132,7 @@
 	"e-pick_orange": {
 		"name": "e-pick (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_orange": {
 		"copyof": "e-pick_orange"
@@ -155,8 +140,7 @@
 	"e-pick_prismatic": {
 		"name": "e-pick (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_prismatic": {
 		"copyof": "e-pick_prismatic"
@@ -164,8 +148,7 @@
 	"e-pick_red": {
 		"name": "e-pick (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_red": {
 		"copyof": "e-pick_red"
@@ -173,8 +156,7 @@
 	"e-pick_white": {
 		"name": "e-pick (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "epick_black",
-		"display": "equiptechmisc"
+		"copyof": "epick_black"
 	},
 	"epick_white": {
 		"copyof": "e-pick_white"
@@ -209,56 +191,47 @@
 			"| Blue | DC 50 |",
 			"| Orange | DC 55 |",
 			"| Prismatic | DC 60 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"lock_coder_blue": {
 		"name": "lock coder (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_brown": {
 		"name": "lock coder (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_gray": {
 		"name": "lock coder (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_green": {
 		"name": "lock coder (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_orange": {
 		"name": "lock coder (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_prismatic": {
 		"name": "lock coder (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_red": {
 		"name": "lock coder (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"lock_coder_white": {
 		"name": "lock coder (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "lock_coder_black",
-		"display": "equiptechmisc"
+		"copyof": "lock_coder_black"
 	},
 	"battery": {
 		"name": "battery",
@@ -279,8 +252,7 @@
 			"Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped device into the proper slot on the item. The battery's charge instantly fully depletes, and the item's internal capacitors fill with 10 charges as it does so. If the item had fewer than 10 open slots in its capacity, the excess charges the battery once held are lost. A battery can be kept within an object indefinitely, or it can be ejected from the object for the purposes of recharging it or storing it elsewhere without affecting the item's charge. Inserting or ejecting a battery is a move action.",
 			"",
 			"Placing a battery in a generator's charging slot can recharge it. However, each time a battery is recharged, there's a 20% chance that the battery is destroyed in the process. A destroyed battery is worth only 10 gp. The bulk of Numerian \"silverdisks\" in circulation today are destroyed batteries; one can tell a functional battery from a destroyed one by the way the circuitry seems to shimmer slightly when reflecting light. The circuitry in a charged battery glows with a soft blue radiance equal to that of a candle."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"power_cable": {
 		"name": "power cable",
@@ -299,8 +271,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a power generator. It takes a move action to attach a cable to a generator or a device-thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous. See page 62-63 for more information on generators."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"power_receiver": {
 		"name": "power receiver",
@@ -319,8 +290,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a signal booster (see page 51) or blocked by a signal jammer (see page 52)."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"cylex": {
 		"name": "cylex",
@@ -339,8 +309,7 @@
 			"Craft Technological Arms and Armor, military lab",
 			"",
 			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a detonator (see below) or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"detonator": {
 		"name": "detonator",
@@ -359,8 +328,7 @@
 			"Craft Technological Arms and Armor, military lab",
 			"",
 			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet- though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a signal booster (see page 51)."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"grenade_arc_grenade": {
 		"name": "grenade (arc grenade)",
@@ -398,8 +366,7 @@
 			"- *Soft Grenade:* Deals 5d6 points of nonlethal damage.",
 			"- *Sonic Grenade:* Deals 5d6 points of sonic damage; creatures who fail a DC 15 Fortitude save are also deafened for 1d4 rounds.",
 			"- *Zero Grenade:* Deals 5d6 points of cold damage."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"grenade_atom_grenade": {
 		"name": "grenade (atom grenade)",
@@ -412,8 +379,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bang_grenade": {
 		"name": "grenade (bang grenade)",
@@ -426,8 +392,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bio_grenade": {
 		"name": "grenade (bio grenade)",
@@ -440,8 +405,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_concussion_grenade": {
 		"name": "grenade (concussion grenade)",
@@ -454,8 +418,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_emp_grenade": {
 		"name": "grenade (emp grenade)",
@@ -468,8 +431,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flash_grenade": {
 		"name": "grenade (flash grenade)",
@@ -482,8 +444,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flechette_grenade": {
 		"name": "grenade (flechette grenade)",
@@ -496,8 +457,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_fragmentation_grenade": {
 		"name": "grenade (fragmentation grenade)",
@@ -510,8 +470,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_gas_grenade": {
 		"name": "grenade (gas grenade)",
@@ -530,8 +489,7 @@
 			"Craft Technological Arms and Armor, military lab",
 			"",
 			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot spread of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"grenade_gravity_grenade": {
 		"name": "grenade (gravity grenade)",
@@ -544,8 +502,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_inferno_grenade": {
 		"name": "grenade (inferno grenade)",
@@ -558,8 +515,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_plasma_grenade": {
 		"name": "grenade (plasma grenade)",
@@ -572,8 +528,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_soft_grenade": {
 		"name": "grenade (soft grenade)",
@@ -586,8 +541,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_sonic_grenade": {
 		"name": "grenade (sonic grenade)",
@@ -600,8 +554,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_zero_grenade": {
 		"name": "grenade (zero grenade)",
@@ -614,8 +567,7 @@
 			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
 			"**Capacity** -; **Usage** disposable"
 		],
-		"copyof": "grenade_arc_grenade",
-		"display": "equiptechmisc"
+		"copyof": "grenade_arc_grenade"
 	},
 	"chemalyzer": {
 		"name": "chemalyzer",
@@ -634,8 +586,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A chemalyzer is a handheld unit with an extendable wand tipped with a sampling nozzle. It grants a +5 competence bonus on all Craft (alchemy) or Knowledge (engineering) checks to identify an unknown pharmaceutical, poison, chemical, or substance. It cannot aid in the identification of magical effects or items like potions."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"clonepod": {
 		"name": "clonepod",
@@ -660,8 +611,7 @@
 			"Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a clone spell (including 2 negative levels or 2 points of Constitution drain)-provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a simulacrum).",
 			"",
 			"If the clone's body and mind are not from the same source, all six ability scores are permanently reduced by 2 points."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"cortex_gun_mark_i": {
 		"name": "cortex gun (mark I)",
@@ -697,8 +647,7 @@
 			"| Mark III | +3 |",
 			"| Mark IV | +4 |",
 			"| Mark V | +5 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"cortex_gun_mark_ii": {
 		"name": "cortex gun (mark II)",
@@ -711,8 +660,7 @@
 			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
 			"**Capacity** 1 nanite canister; **Usage** disposable"
 		],
-		"copyof": "cortex_gun_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iii": {
 		"name": "cortex gun (mark III)",
@@ -725,8 +673,7 @@
 			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
 			"**Capacity** 1 nanite canister; **Usage** disposable"
 		],
-		"copyof": "cortex_gun_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iv": {
 		"name": "cortex gun (mark IV)",
@@ -739,8 +686,7 @@
 			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
 			"**Capacity** 1 nanite canister; **Usage** disposable"
 		],
-		"copyof": "cortex_gun_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_v": {
 		"name": "cortex gun (mark V)",
@@ -753,8 +699,7 @@
 			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
 			"**Capacity** 1 nanite canister; **Usage** disposable"
 		],
-		"copyof": "cortex_gun_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "cortex_gun_mark_i"
 	},
 	"envoy's_mouthpiece": {
 		"name": "envoy's mouthpiece",
@@ -775,8 +720,7 @@
 			"Originally worn by translators, messengers, and diplomats, these objects were always constructed to appear elegant and beautiful. An envoy's mouthpiece is a circlet worn across the mouth, with slender arms that reach along the jaw to wrap around the wearer's skull and hold the device in place. Two thin earpieces extend up from the band to slip unobtrusively into the user's ears once a mouthpiece is donned. When created, an envoy's mouthpiece is encoded with a specific single language. Whenever the language is spoken within 30 feet of the wearer, the mouthpiece translates that language into Androffan. In addition, any words spoken in Androffan by the wearer are transformed by the mouthpiece into the encoded language, allowing conversation to take place between the wearer and speakers of the encoded language. An envoy's mouthpiece cannot be used to translate languages other than the one it has been programmed to translate, but a newly created mouthpiece could, in theory, translate languages into something other than Androffan.",
 			"",
 			"An envoy's mouthpiece automatically records any words spoken through it, allowing anything said through the device to be replayed through its earpiece at the touch of a button on the lower right side. Up to 30 continuous hours can be recorded in this manner. Holding the button down for a full round erases any currently stored conversations."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"filter_mask": {
 		"name": "filter mask",
@@ -795,8 +739,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A filter mask is a clear plastic shield worn over the entire face. The mask has ionized filters and scrubbers that purify the air the user breathes in and give the mask an unintentionally fearsome look. While the mask has power, the wearer is completely immune to inhaled toxins or diseases. Even when the mask has no power, it grants the wearer a +3 resistance bonus on all saving throws made to resist airborne toxins and diseases."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"goo_tube": {
 		"name": "goo tube",
@@ -815,8 +758,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"Goo tubes are a form of preserved food. A single goo tube is a malleable cylinder with a cap on one end; when it's opened and squeezed, the colorful, goopy contents are extruded. Although the texture and appearance of this goo is unappetizing, the paste is actually quite tasty, and comes in a mind-boggling assortment of flavors. A symbol on the side of the tube often grants a clue as to what flavor may be contained within, but these symbols can sometimes be counter-intuitive. The contents of a single goo tube can provide nourishment for a day for one Medium-size creature."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"medlance": {
 		"name": "medlance",
@@ -835,8 +777,7 @@
 			"Craft Technological Item, medical lab",
 			"",
 			"This wand-like device contains a reservoir at one end and a small pad at the other. A medlance can be filled with a single dose of liquid, such as a pharmaceutical, a potion, or a poison. It can then be used to administer the liquid to a creature-if the target does not wish to be injected with the medlance's contents, the wielder must succeed at a touch attack to dispense it as a standard action. Otherwise, administering liquid via a medlance is a move action. A medlance doesn't use charges, but after being used to administer 10 injections, its internal sterilization mechanisms are depleted and the device becomes useless."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"mindmelder": {
 		"name": "mindmelder",
@@ -855,8 +796,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A mindmelder resembles a bulky helm designed to cover the skull, ears, and eyes of the wearer. When worn, it projects the user's thoughts into a virtual reality created from the user's mind, memories, and personality. As long as the user wears the mindmelder, his actual physical body is helpless and can take no actions. While in this virtual world, the user can rest and relax, gaining the benefits of such relaxation at a rapidly increased rate, as if under the effects of a nap stack spell. A creature may enjoy the benefits granted by this effect without that spell's normal once-per-week limitation. A mindmelder can also be used to enter established virtual realities stored in a computer within 60 feet, as detailed in Part 3 of this adventure."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"nanite_canister": {
 		"name": "nanite canister",
@@ -875,8 +815,7 @@
 			"Craft Technological Item, nanotech lab",
 			"",
 			"A nanite canister is used to power technological devices that use nanites-such items generally don't require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"nanite_hypogun_black": {
 		"name": "nanite hypogun (black)",
@@ -910,56 +849,47 @@
 			"| Blue | 7d8+13 healing | Regenerate | 13th |",
 			"| Orange | 8d8+15 healing | Greater restoration | 15th |",
 			"| Prismatic | 9d8+17 healing | True resurrection | 16th |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"nanite_hypogun_blue": {
 		"name": "nanite hypogun (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_brown": {
 		"name": "nanite hypogun (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_gray": {
 		"name": "nanite hypogun (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_green": {
 		"name": "nanite hypogun (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_orange": {
 		"name": "nanite hypogun (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_prismatic": {
 		"name": "nanite hypogun (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_red": {
 		"name": "nanite hypogun (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_white": {
 		"name": "nanite hypogun (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "nanite_hypogun_black",
-		"display": "equiptechmisc"
+		"copyof": "nanite_hypogun_black"
 	},
 	"neurocam": {
 		"name": "neurocam",
@@ -982,8 +912,7 @@
 			"A neurocam can store only one personality. Once used, it cannot store another even after the contents are uploaded elsewhere. A personality stored in a neurocam is effectively put into stasis-the mind does not age, nor does it gain new experiences or knowledge. It's cut off from the world, and though it experiences strange dreams, it isn't aware of the passage of time. If the neurocam is destroyed, the stored personality vanishes; however, loss of power does not harm a stored personality.",
 			"",
 			"A stored personality can be uploaded only once. It can be uploaded into a blank clone in a clonepod, as detailed on page 42. Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"nutrient_training_node": {
 		"name": "nutrient training node",
@@ -1006,8 +935,7 @@
 			"The default nutrient paste is foul-tasting. However, if the panels are pushed in a fashion that matches the repeating pattern flashing on the box (Intelligence DC 10), the node introduces nanites that render the paste delicious. On subsequent days, the flashing pattern becomes more complex-the Intelligence check's DC increases by 2 after each success. When an Intelligence check is failed, the machine produces foul-tasting paste and the Intelligence DC resets to 10 on the following day. A creature that eats delicious paste from the same node for 6 consecutive days benefits from an accumulation of intellect-enhancing nanites and receives a permanent +1 inherent bonus to Intelligence. The same creature can benefit from a nutrient training node in this manner only once; further paste has no effect.",
 			"",
 			"Nodes that train other abilities, such as those that train Strength, are also rumored to exist."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"proximity_helmet": {
 		"name": "proximity helmet",
@@ -1026,8 +954,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This open-faced, blue polymer helmet includes a nylon strap and adjustable tinted visor capable of hiding all but the wearer's mouth and chin. The interior of the tinted faceplate provides a heads-up display when activated, with each charge providing enough power to function for 1 hour of continuous use. During this time, the helmet's external motion sensors pick up on sudden movements and subtle visual cues, granting the wearer a +5 competence bonus on Perception checks to notice moving targets within 60 feet. A secondary setting on the helmet adds an audible alarm that creates a loud chirping sound near the wearer's ear whenever a Small or larger corporeal creature approaches within 60 feet. Reduce this distance by 20 feet for each interposing closed door and by 20 feet for each substantial interposing wall. This noise is loud enough to waken the wearer from sleep, but not loud enough to awaken nearby sleepers."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"skillchip_mark_i": {
 		"name": "skillchip (mark I)",
@@ -1057,8 +984,7 @@
 			"| Mark III | +6 |",
 			"| Mark IV | +8 |",
 			"| Mark V | +10 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"skillchip_mark_ii": {
 		"name": "skillchip (mark II)",
@@ -1071,8 +997,7 @@
 			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
 			"**Capacity** -; **Usage** -"
 		],
-		"copyof": "skillchip_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iii": {
 		"name": "skillchip (mark III)",
@@ -1085,8 +1010,7 @@
 			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
 			"**Capacity** -; **Usage** -"
 		],
-		"copyof": "skillchip_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iv": {
 		"name": "skillchip (mark IV)",
@@ -1099,8 +1023,7 @@
 			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
 			"**Capacity** -; **Usage** -"
 		],
-		"copyof": "skillchip_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_v": {
 		"name": "skillchip (mark V)",
@@ -1113,8 +1036,7 @@
 			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
 			"**Capacity** -; **Usage** -"
 		],
-		"copyof": "skillchip_mark_i",
-		"display": "equiptechmisc"
+		"copyof": "skillchip_mark_i"
 	},
 	"trauma_pack": {
 		"name": "trauma pack",
@@ -1133,8 +1055,7 @@
 			"Craft Technological Item, medical lab",
 			"",
 			"This small box of emergency medical gear can be used to augment a creature's Heal skill to allow for enhanced healing. A full trauma pack has enough supplies to be used 5 times before it is depleted. When using a trauma pack to provide healing, attempt a DC 15 Heal check as a standard action. If he succeeds, the pack provides 1d8+1 points of healing. For every 5 points by which the Heal check's result exceeds the DC, it provides an additional 1d8+1 points of healing."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"trauma_pack_plus": {
 		"name": "trauma pack plus",
@@ -1153,8 +1074,7 @@
 			"Craft Technological Item, medical lab",
 			"",
 			"A trauma pack plus functions as a trauma pack, except that it's advanced chemicals and tools allow someone to restore a recently slain creature to life if the healing provided by the trauma pack plus is administered within 1 round of the target's death, as breath of life. A trauma pack heals 2d8+2 points of damage on a successful DC 15 Heal check. For every 5 points by which the result exceeds the DC, the pack provides an additional 2d8+2 points of healing."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"veemod_black": {
 		"name": "veemod (black)",
@@ -1195,56 +1115,47 @@
 			"| Blue | All-around vision | 1 charge/hour |",
 			"| Orange | See in darkness | 1 charge /hour |",
 			"| Prismatic | X-ray vision | 1 charge/round |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"veemod_blue": {
 		"name": "veemod (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_brown": {
 		"name": "veemod (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_gray": {
 		"name": "veemod (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_green": {
 		"name": "veemod (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_orange": {
 		"name": "veemod (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_prismatic": {
 		"name": "veemod (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_red": {
 		"name": "veemod (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_white": {
 		"name": "veemod (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "veemod_black",
-		"display": "equiptechmisc"
+		"copyof": "veemod_black"
 	},
 	"veemod_goggles": {
 		"name": "veemod goggles",
@@ -1265,8 +1176,7 @@
 			"These goggles come in a variety of colors and shapes, but most are sleek and streamlined in appearance. The primary use for these goggles is to enhance vision via the application of a \"vision enhancement module,\" or \"veemod.\" A pair of veemod goggles can be fitted with only one veemod at a time; attaching a veemod is a standard action that provokes an attack of opportunity.",
 			"",
 			"Veemod goggles consume charges only when a veemod is installed. The rate at which a veemod uses charges depends on the veemod installed."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"camera": {
 		"name": "camera",
@@ -1285,8 +1195,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This handheld device can capture still photographs or record video. The device uses a charge when activated and consumes an additional charge each hour; during that hour, individual photographs or video recordings do not consume additional charges. Images and videos captured by a camera can be displayed on the camera's palm-sized screen. A camera can hold up to 20 hours of video footage and 200 photographs."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"chipfinder_black": {
 		"name": "chipfinder (black)",
@@ -1318,56 +1227,47 @@
 			"| Blue | 50 miles |",
 			"| Orange | 100 miles |",
 			"| Prismatic | 500 miles |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"chipfinder_blue": {
 		"name": "chipfinder (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_brown": {
 		"name": "chipfinder (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_gray": {
 		"name": "chipfinder (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_green": {
 		"name": "chipfinder (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_orange": {
 		"name": "chipfinder (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_prismatic": {
 		"name": "chipfinder (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_red": {
 		"name": "chipfinder (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"chipfinder_white": {
 		"name": "chipfinder (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "chipfinder_black",
-		"display": "equiptechmisc"
+		"copyof": "chipfinder_black"
 	},
 	"commset": {
 		"name": "commset",
@@ -1386,8 +1286,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a signal booster (see page 51). The price and cost listed for this item are for a single commset."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"emergency_beacon": {
 		"name": "emergency beacon",
@@ -1406,8 +1305,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"An emergency beacon is a small, pod-shaped device that emits a bright red flash from a dome on its top once every 6 seconds when activated. The beacon also transmits its location. Any device capable of receiving signals of any sort can pick up a beacon's signal, which can then be tracked back to the source with a successful DC 15 Knowledge (engineering) or Survival check. A beacon's transmissions have a range of 100 miles over flat terrain, but this range is halved in forests or hills, and quartered in mountainous terrain or through water."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"emergency_raft": {
 		"name": "emergency raft",
@@ -1426,8 +1324,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"An emergency raft initially looks like a bright red plastic cylinder, 6 inches wide and 2 feet long. When activated, it rapidly inflates into a tough little boat that measures 10 feet long, 4 feet wide, and 2 feet deep. It can hold four Medium creatures. The raft comes with two pairs of collapsible, dense plastic oars to row with. The raft can be commanded to compact back into its portable shape at a touch of a button, as long as no foreign objects or creatures remain inside. An emergency raft only consumes charges when commanded to unfold or compact."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"emergency_shelter": {
 		"name": "emergency shelter",
@@ -1446,8 +1343,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"An emergency shelter is a small, 2-foot-long egg-shaped device that can be activated with the touch of a button (a standard action). Once activated, the shelter rapidly unfolds and inflates into a 10-foot-radius hut capable of providing shelter for up to six Medium creatures. This process takes 1 minute to complete. The shelter includes pneumatic spike anchors that can attach it to any ground cover of hardness 8 or less. Several windows allow those inside to see outside. The interior contains several fluorescent lights. The shelter can withstand winds of up to 120 mph, and provides excellent insulation for those inside, maintaining a temperature between 50 and 80 degrees Fahrenheit. A small combination heater/air scrubber set on the floor near the entrance to the shelter controls the temperature and purifies any noxious external air into breathable air. The hut has fire resistance 20, cold resistance 20, and acid resistance 10. The dense plastic walls have hardness 8 and 10 hit points. The hut cannot float on water. The door is selfsealing, allowing anyone inside an emergency shelter to live in inhospitable conditions with ease for as long as the power holds out. As long as no foreign objects or creatures remain inside an emergency shelter, it can be commanded at the touch of a button to compact back down into its portable shape over the course of 1 minute. After this point, the device consumes 1 charge over the course of 8 hours resetting its internal structure, limiting its deployment to 3 times a day at most."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"fire_extinguisher": {
 		"name": "fire extinguisher",
@@ -1468,8 +1364,7 @@
 			"This cylindrical device has a nozzle at one end and a handle on one side. When activated as a standard action, a fire extinguisher creates a 15-foot cone of misty vapor that swiftly extinguishes fires within its area of effect. Against magical fire effects, such as those created by a wall of fire or similar spell, the fire extinguisher only extinguishes the part of the larger effect its vapors directly contact. Continual magic flames, such as those of a flaming weapon or fire creature, are suppressed for 6 rounds before they automatically reignite. To extinguish an instantaneous fire effect or spell, the wielder must use a readied action with the fire extinguisher to counter the effect; this can cancel the entire effect, provided the source of the effect is in the extinguisher's area of effect.",
 			"",
 			"When used against a creature of the fire subtype, a blast from a fire extinguisher deals 4d6 points of damage (Reflex DC 15 halves). A breathing creature exposed to a direct blast from a fire extinguisher is not harmed as long as the area is relatively well-ventilated-using a fire extinguisher in a confined area with poor or no ventilation can result in slow suffocation (at the GM's discretion)."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"flashlight": {
 		"name": "flashlight",
@@ -1488,8 +1383,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"When activated, a flashlight creates a beam of normal light in a 60-foot cone. It also increases the light level in the area beyond this initial cone by one step, out to a 120-foot cone. It does not increase the light level in normal light or bright light. A flashlight has no effect in areas of magical darkness."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"force_field_black": {
 		"name": "force field (black)",
@@ -1525,56 +1419,47 @@
 			"| Blue | 40 | 35 | 7 |",
 			"| Orange | 45 | 40 | 8 |",
 			"| Prismatic | 50 | 60 | 10 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"force_field_blue": {
 		"name": "force field (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_brown": {
 		"name": "force field (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_gray": {
 		"name": "force field (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_green": {
 		"name": "force field (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_orange": {
 		"name": "force field (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_prismatic": {
 		"name": "force field (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_red": {
 		"name": "force field (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"force_field_white": {
 		"name": "force field (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "force_field_black",
-		"display": "equiptechmisc"
+		"copyof": "force_field_black"
 	},
 	"gravity_clip": {
 		"name": "gravity clip",
@@ -1593,8 +1478,7 @@
 			"Craft Technological Item, graviton lab",
 			"",
 			"A gravity clip is a small, disc-shaped device that can be attached to any melee weapon. Once mounted, the clip modulates the weapon's mass on the moment of impact, via the manipulation of the gravity fields around the weapon. Each successful hit against a target consumes a charge from a gravity clip and causes the damage from the hit to resolve as if the weapon were one size category larger than its actual size. This effect does not stack with similar effects, such as those granted by the spell lead blades."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"grip_of_death": {
 		"name": "grip of death",
@@ -1614,8 +1498,7 @@
 			"",
 			"**Aura** moderate necromancy and transmutation  ",
 			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of telekinesis, but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal combat maneuver (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a spectre. Otherwise, the negative levels fade after 10 hours."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"grippers": {
 		"name": "grippers",
@@ -1634,8 +1517,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"Grippers are powerful, long-handled tools that resemble a blacksmith's tongs. Once they're set, they can be locked into place to grip an object. Used when attempting to pry open a stuck object (in a manner similar to the use of a crowbar), grippers grant a +2 circumstance bonus on Strength checks. When used to attach two devices, a set of grippers holds on with an effective Strength score of 24. Applying grippers to a creature and then locking the grippers to crush flesh and bone is a standard action that provokes an attack of opportunity and also requires a successful melee attack with an improvised weapon. Once locked, the grippers deal 1d4+7 points of damage."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"hologram_generator_black": {
 		"name": "hologram generator (black)",
@@ -1683,56 +1565,47 @@
 			"| Blue | 70 | 700 ft. | DC 20 |",
 			"| Orange | 80 | 800 ft. | DC 22 |",
 			"| Prismatic | 90 | 900 ft. | DC 23 |"
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"hologram_generator_blue": {
 		"name": "hologram generator (blue)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_brown": {
 		"name": "hologram generator (brown)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_gray": {
 		"name": "hologram generator (gray)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_green": {
 		"name": "hologram generator (green)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_orange": {
 		"name": "hologram generator (orange)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_prismatic": {
 		"name": "hologram generator (prismatic)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_red": {
 		"name": "hologram generator (red)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_white": {
 		"name": "hologram generator (white)",
 		"sources": [ "Technology Guide" ],
-		"copyof": "hologram_generator_black",
-		"display": "equiptechmisc"
+		"copyof": "hologram_generator_black"
 	},
 	"inertial_dampening_belt": {
 		"name": "inertial dampening belt",
@@ -1751,8 +1624,7 @@
 			"Craft Technological Item, graviton lab",
 			"",
 			"When activated, an inertial dampening belt anchors the wearer in place, protecting her against outside forces. This effect gives the wearer a +4 bonus to her combat maneuver defense against bull rush, reposition, and trip attempts, consuming 1 charge per minute. If the wearer falls from a height of greater than 10 feet, the inertial dampening belt automatically activates just prior to impact and reduces the falling damage by half, consuming 1 charge per die of falling damage. If the belt has insufficient charges to reduce the entire amount of damage, the damage is not reduced for the excess dice. Damage from landing on hazardous objects such as spikes is not reduced."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"ion_tape": {
 		"name": "ion tape",
@@ -1771,8 +1643,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"Ion tape is a ribbon of material tightly wound around a spindle. A roll of ion tape fits in the palm of a hand and comes in a wide range of colors. A single roll contains 50 feet of tape. A single strip of tape is easy to cut through or tear. When wrapped around an object, it has a weak adhesive that keeps it in place. When ion tape is exposed to an electrical charge of any power (including a jolt from a zip stick), the tape bonds together into a single mass of plastic-like material, gaining hardness 8 and 30 hit points. When used to bind a creature, a few strips of activated ion tape require a successful DC 28 Strength check to break. A second jolt from an electrical source causes the tape to revert to its weaker ribbon condition, at which point it can be torn free easily. A strip of ion tape can hold about 5 pounds of weight normally, but when activated via a jolt, a single hardened strip can support up to 300 pounds of weight. The uses for ion tape are many-it can be used to construct basic objects (such as a ladder), patch holes, bind prisoners, and so on."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"jetpack": {
 		"name": "jetpack",
@@ -1795,8 +1666,7 @@
 			"A jetpack can be operated in overdrive, giving the wearer a fly speed of 90 feet with clumsy maneuverability and consuming twice as many charges per round.",
 			"",
 			"While it is normally possible to wear an item in the shoulders slot as well as an item on the back, a jetpack's bulk precludes the wearer also using a backpack, handy haversack, or other items worn on the back."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"laser_sight": {
 		"name": "laser sight",
@@ -1815,8 +1685,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This small, cylindrical device can be attached to the barrel of any firearm. When activated, it emits a low-power laser beam that paints a small red dot on the target. This effect grants the user a +1 circumstance bonus on all attack rolls made with that weapon. Further, a laser sight reduces the penalty for firing into melee by 2."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"lighter": {
 		"name": "lighter",
@@ -1835,8 +1704,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a candle) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"magboots": {
 		"name": "magboots",
@@ -1855,8 +1723,7 @@
 			"Craft Technological Item, graviton lab",
 			"",
 			"These clunky-looking boots have powerful electromagnets built into their soles that activate and deactivate automatically as the wearer flexes her foot, allowing her to walk on a metal surface with relative ease in zero gravity. They grant a +10 circumstance bonus on all Climb checks made while scaling metal surfaces."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"motion_tracker": {
 		"name": "motion tracker",
@@ -1875,8 +1742,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This handheld device has a circular screen and several swiveling, dish-shaped objects on flexible stalks that writhe about like short snakes. The device monitors and interprets motion in a 30-foot radius, but must be deployed in a sweeping motion to function-this is a move action that consumes a charge. When used, the device grants a +10 circumstance bonus on Perception checks against moving objects within 30 feet that are size Tiny or larger."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"quantum_box": {
 		"name": "quantum box",
@@ -1895,8 +1761,7 @@
 			"Craft Technological Item, graviton lab",
 			"",
 			"This silvery box holds up to 1 cubic foot of items or material. Quantum boxes always exist as a pair. When activated as a standard action, a quantum box connects to its mate, at which point they trade contents. A quantum box must be activated again to switch the contents back. Effects that prevent dimensional travel block activation of a quantum box, but items that block signals do not. This effect works only if both quantum boxes are located on the same plane."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"radiation_detector": {
 		"name": "radiation detector",
@@ -1915,8 +1780,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This device measures radiation levels in a 120-foot-radius circle, as the detect radiation spell (see page 8). When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"robojack": {
 		"name": "robojack",
@@ -1935,8 +1799,7 @@
 			"Craft Technological Item, military lab",
 			"",
 			"A robojack is a strange, rod-like device that can be used to usurp control of an otherwise functional robot. In order to gain control of a robot, the wielder must first make a ranged touch attack against a target robot within a range of 60 feet. If the attack is successful, the robot must succeed at a DC 14 Will saving throw to prevent the robojack from linking to the robot's command processor. On a subsequent turn after a link is established, the wielder can issue a command to the robot as a standard action-each attempt to do so consumes 1 charge from the robojack, and the robot gets a new DC 14 Will saving throw to resist following each command. The wielder must be within 60 feet of the robot and must issue the command in a language understood by the robot. The types of commands he can issue are similar to those allowed by a suggestion spell-once a command is successfully issued, the robot does its best to carry out the orders over the course of the next hour. This does not drain further charges from the robojack."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"signal_booster": {
 		"name": "signal booster",
@@ -1955,8 +1818,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a commset (see page 42) normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles. For more information on signals, see the On Signals sidebar on page 43."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"signal_jammer": {
 		"name": "signal jammer",
@@ -1975,8 +1837,7 @@
 			"Craft Technological Item, production lab",
 			"",
 			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius spread in which all signals are completely blocked. For more information on signals, see the On Signals sidebar on page 43."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"tracker_chip": {
 		"name": "tracker chip",
@@ -1997,8 +1858,7 @@
 			"A tracker chip appears to be a bit of metal the size of a small fingernail. Before a tracker chip activates, it must be implanted in a living creature just under the skin. This procedure takes 1 minute to perform. As part of the installation process, the installer attempts a Heal check, the result of which is the DC of noticing the implant. Once a chip is implanted, its ingenious bioelectric circuits are powered by nerve impulses in the implanted creature's body.",
 			"",
 			"Noticing an implanted tracker chip requires a full-round action to search the target creature and a successful Perception check equal to 10 + the result of the Heal check used to implant the chip. Extracting an installed tracker chip is a standard action that requires a slashing weapon or tool and deals 1 point of damage. Once installed, the tracker chip emits a signal that can be detected by any chipfinder in range. If removed from a body or its host dies, an activated tracked chip retains enough of a charge to continue to be detected by a chipfinder for 1 week."
-		],
-		"display": "equiptechmisc"
+		]
 	},
 	"zipstick": {
 		"name": "zipstick",
@@ -2017,7 +1877,6 @@
 			"Craft Technological Item, production lab",
 			"",
 			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as ion tape (see page 48)."
-		],
-		"display": "equiptechmisc"
+		]
 	}
 }

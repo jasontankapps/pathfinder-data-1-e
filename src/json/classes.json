@@ -224,8 +224,7 @@
 			"    - Add 1/4 to the alchemist's natural armor bonus when using his mutagen. ([Ultimate Wilderness pg. 21](source/ultimate_wilderness))",
 			"- Wyrwood:",
 			"    - Reduce the mental ability score penalty of the alchemist's mutagens by 1/5 (minimum 0). ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"antipaladin": {
 		"name": "antipaladin",
@@ -430,8 +429,7 @@
 			"When such a fall occurs, the transformation can be swift. The paladin trades in all of his paladin levels for antipaladin levels on a 1-for-1 basis. This is usually a traumatic experience, involving a complex ritual that involves a living sacrifice and dark oaths made to foul powers (who sometimes send minions to bear witness). Once complete, the antipaladin emerges, ready to bring ruin to the world.",
 			"",
 			"It should be noted that not all antipaladins are fallen heroes. Some warriors are trained from a young age to assume the mantle of antipaladin, forged through pain and trauma into exemplars of evil. These cruel warriors know nothing of compassion or loyalty, but they can teach a great deal about pain and suffering."
-		],
-		"display": "class"
+		]
 	},
 	"arcanist": {
 		"name": "arcanist",
@@ -614,8 +612,7 @@
 			"    - Add 1/4 to the arcanist's effective class level when determining the effects of any two arcanist exploits that the arcanist has. ([Blood of the Beast pg. 28](source/blood_of_the_beast))",
 			"- Wyrwood:",
 			"    - Add 1/4 to the arcanist's level for the spell resistance exploit. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"barbarian": {
 		"name": "barbarian",
@@ -817,8 +814,7 @@
 			"    - Add +1/3 to the bonus from the superstitious rage power. ([Advanced Race Guide pg. 163](source/advanced_race_guide))",
 			"- Wayang:",
 			"    - Add a +1/4 bonus to weapon damage rolls that the barbarian makes against opponents that are within dim light or darkness. ([Blood of Shadows pg. 10](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"unchained_barbarian": {
 		"name": "unchained barbarian",
@@ -956,8 +952,7 @@
 			"",
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"bard": {
 		"name": "bard",
@@ -1233,8 +1228,7 @@
 			"    - Add +1 to the bard's total number of bardic performance rounds per day. ([Advanced Race Guide pg. 208](source/advanced_race_guide))",
 			"- Wayang:",
 			"    - Add one spell known from the wizard's illusion school spell list. This spell must be at least one level below the highest spell level the bard can cast. The spell is treated as being one level higher, unless it is also on the bard spell list. ([Advanced Race Guide pg. 210](source/advanced_race_guide))"
-		],
-		"display": "class"
+		]
 	},
 	"bloodrager": {
 		"name": "bloodrager",
@@ -1465,8 +1459,7 @@
 			"    - Increase the bloodrager's total number of bloodrage rounds per day by 1. ([Pathfinder #101: The Kintargo Contract pg. 73](source/pathfinder_#101_the_kintargo_contract))",
 			"- Wyvaran:",
 			"    - Add 1 to the bloodrager's total rounds of bloodrage each day. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"brawler": {
 		"name": "brawler",
@@ -1650,8 +1643,7 @@
 			"    - Gain a +1/2 insight bonus on attack rolls made with the beak as a secondary natural attack (to a maximum of +3); the brawler must have a beak natural attack to select this option. ([Blood of the Beast pg. 24](source/blood_of_the_beast))",
 			"- Vanara:",
 			"    - Gain 1/5 of a new Fleet feat. ([Blood of the Beast pg. 28](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"cavalier": {
 		"name": "cavalier",
@@ -1861,8 +1853,7 @@
 			"    - Add +1 to the cavalier's CMB when making bull rush or overrun combat maneuvers against a challenged target. ([Advanced Race Guide pg. 139](source/advanced_race_guide))",
 			"- Vanara:",
 			"    - Add 1/2 to the cavalier's level when determining the duration of the tactician ability. ([Blood of the Beast pg. 28](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"cleric": {
 		"name": "cleric",
@@ -2083,8 +2074,7 @@
 			"    - Add a +1/2 bonus to damage rolls the cleric makes when using channel energy and casting spells that deal negative energy damage or positive energy damage, including cure and inflict spells. This bonus does not apply to healing via negative energy effects or positive energy effects. ([Blood of Shadows pg. 10](source/blood_of_shadows))",
 			"- Wyrwood:",
 			"    - Add 1/4 to the cleric's caster level when casting spells or using abilities from the Law domain or one of its subdomains, or when casting spells with the lawful descriptor. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"druid": {
 		"name": "druid",
@@ -2361,8 +2351,7 @@
 			"    - Add a +1/2 bonus to the druid's wild empathy or plant empathy checks. ([Ultimate Wilderness pg. 21](source/ultimate_wilderness))",
 			"- Wayang:",
 			"    - Select one domain power granted at 1st level that is normally usable a number of times per day equal to 3 + the druid's Wisdom modifier. The druid adds +1/2 to the number of uses per day of that domain power. In addition, a druid that selects this bonus at 1st level can choose the Darkness domain with her natural bond ability. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"fighter": {
 		"name": "fighter",
@@ -2555,8 +2544,7 @@
 			"    - Add +1 to the fighter's CMD when resisting a reposition or trip attempt. ([Advanced Race Guide pg. 206](source/advanced_race_guide))",
 			"- Wayang:",
 			"    - Add a +1/4 bonus on Stealth checks and on weapon damage rolls against flat-footed opponents. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"gunslinger": {
 		"name": "gunslinger",
@@ -2729,8 +2717,7 @@
 			"    - Add +1/4 to the dodge bonus to AC granted by the nimble class feature (maximum +4). ([Advanced Race Guide pg. 133](source/advanced_race_guide))",
 			"- Ratfolk:",
 			"    - Add a +1/2 bonus on initiative checks when the gunslinger has at least 1 grit point. ([Advanced Race Guide pg. 151](source/advanced_race_guide))"
-		],
-		"display": "class"
+		]
 	},
 	"hunter": {
 		"name": "hunter",
@@ -2974,8 +2961,7 @@
 			"    - Add 1 skill rank to the hunter's animal companion. If the hunter ever replaces her animal companion, the new companion gains these bonus skill ranks. ([Blood of the Beast pg. 24](source/blood_of_the_beast))",
 			"- Vanara:",
 			"    - Add 1 minute to the number of minutes per day that the hunter can use animal focus. ([Blood of the Beast pg. 28](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"inquisitor": {
 		"name": "inquisitor",
@@ -3243,8 +3229,7 @@
 			"    - Add a +1/2 bonus on Stealth checks while motionless and on opposed Perception checks. ([Advanced Race Guide pg. 157](source/advanced_race_guide))",
 			"- Tiefling:",
 			"    - Add a +1/2 bonus on Intimidate checks and Knowledge checks to identify creatures. ([Advanced Race Guide pg. 170](source/advanced_race_guide))"
-		],
-		"display": "class"
+		]
 	},
 	"investigator": {
 		"name": "investigator",
@@ -3435,8 +3420,7 @@
 			"    - Add 1 to the bonus provided to a single skill (maximum +2) by inspiration. This skill must be one to which the investigator can already apply inspiration. The investigator can select a different skill at each level. ([Blood of the Beast pg. 20](source/blood_of_the_beast))",
 			"- Shabti:",
 			"    - Add 1/6 rounds to the duration of the investigator's studied combat. ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook))"
-		],
-		"display": "class"
+		]
 	},
 	"kineticist": {
 		"name": "kineticist",
@@ -3657,8 +3641,7 @@
 			"    - Gain 1/5 of the Extra Wild Talent feat. This feat must be spent on a wood-element talent. ([Ultimate Wilderness pg. 21](source/ultimate_wilderness))",
 			"- Wayang:",
 			"    - Add 1/4 to the save DC of the kineticist's void infusions and wild talents. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"magus": {
 		"name": "magus",
@@ -3852,8 +3835,7 @@
 			"    - Add +1/4 point to the magus's arcane pool. ([Advanced Race Guide pg. 170](source/advanced_race_guide))",
 			"- Wyrwood:",
 			"    - Add 2 rounds to the duration of the magus' arcane pool enhancements. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"medium": {
 		"name": "medium",
@@ -4058,8 +4040,7 @@
 			"    - Add 1/4 to the bonus on checks when the medium uses the spirit surge ability. ([Blood of the Beast pg. 24](source/blood_of_the_beast))",
 			"- Wayang:",
 			"    - When gaining a taboo, the medium can use spirit surge without incurring influence an additional 1/4 time per day. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"mesmerist": {
 		"name": "mesmerist",
@@ -4285,8 +4266,7 @@
 			"    - Add 1/4 to the AC bonus provided by the meek facade mesmerist trick. ([Blood of the Beast pg. 24](source/blood_of_the_beast))",
 			"- Wyvaran:",
 			"    - Add 1/4 to the mesmerist's level for the purpose of determining the effect of mesmerist tricks. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"monk": {
 		"name": "monk",
@@ -4547,8 +4527,7 @@
 			"    - Add a +1 bonus on Acrobatics checks made to jump. ([Advanced Race Guide pg. 206](source/advanced_race_guide))",
 			"- Wayang:",
 			"    - Add 1/6 to the monk's AC bonus. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"unchained_monk": {
 		"name": "unchained monk",
@@ -4722,8 +4701,7 @@
 			"",
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"ninja": {
 		"name": "ninja",
@@ -4853,8 +4831,7 @@
 			"",
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"occultist": {
 		"name": "occultist",
@@ -5038,8 +5015,7 @@
 			"    - Gain 1/6 of a new focus power. ([Blood of the Beast pg. 20](source/blood_of_the_beast))",
 			"- Vanara:",
 			"    - Gain 1/6 of a new focus power. ([Blood of the Beast pg. 28](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"oracle": {
 		"name": "oracle",
@@ -5281,8 +5257,7 @@
 			"    - Add one spell known from the wizard's evocation school spell list. This spell must be at least 1 level below the highest-level spell the oracle can cast. That spell is treated as 1 level higher unless it is also on the oracle spell list. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))",
 			"- Wyvaran:",
 			"    - Add 1/4 to the oracle's level for the purpose of determining the effects of an oracle curse. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"paladin": {
 		"name": "paladin",
@@ -5536,8 +5511,7 @@
 			"    - The paladin gains 1/4 of a bonus spell per day of the highest-level spell that the paladin can cast. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))",
 			"- Wyvaran:",
 			"    - Add 1/2 to the paladin's level when determining the effect of smite evil against evil-aligned dragons. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"psychic": {
 		"name": "psychic",
@@ -5734,8 +5708,7 @@
 			"    - When casting psychic divination spells, the psychic adds 1/2 to the effective caster level of the spell, but only to determine the spell's range and its d% chance to provide correct or meaningful information (such as with augury or divination). ([Blood of the Beast pg. 28](source/blood_of_the_beast))",
 			"- Wyrwood:",
 			"    - psychic gains 1/6 of a phrenic amplification. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"ranger": {
 		"name": "ranger",
@@ -6035,8 +6008,7 @@
 			"    - Add a +1/2 bonus to Knowledge (nature) checks in the ranger's favored terrain. ([Ultimate Wilderness pg. 22](source/ultimate_wilderness))",
 			"- Wayang:",
 			"    - Gain 1/6 of an additional favored terrain. Gaining a favored terrain in this manner does not increase the bonuses provided by his other favored terrains. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"rogue": {
 		"name": "rogue",
@@ -6263,8 +6235,7 @@
 			"    - The rogue gains 1/6 of a rogue talent. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))",
 			"- Wyvaran:",
 			"    - Add a +1/2 bonus to Stealth and Sleight of Hand checks to steal or hide objects. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"unchained_rogue": {
 		"name": "unchained rogue",
@@ -6423,8 +6394,7 @@
 			"",
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"samurai": {
 		"name": "samurai",
@@ -6627,8 +6597,7 @@
 			"    - Add 1 foot to the base speed of the samurai's mount. This has no effect in combat unless the samurai has selected this reward five times (or another increment of five). If the samurai ever replaces this mount, the new mount gains this bonus to its speed. ([Blood of the Beast pg. 16](source/blood_of_the_beast))",
 			"- Orc:",
 			"    - Add +1 to the samurai's CMB when making bull rush or overrun combat maneuvers against a challenged target. ([Advanced Race Guide pg. 139](source/advanced_race_guide))"
-		],
-		"display": "class"
+		]
 	},
 	"shaman": {
 		"name": "shaman",
@@ -6820,8 +6789,7 @@
 			"    - Shamans with the nature or wood spirit add one spell from the druid's spell list that isn't on the shaman spell list to the shaman's spell list; she still must select this spell as one of her spells known in order to cast it. This spell must be at least 1 level lower than the highest spell level the shaman can cast. ([Ultimate Wilderness pg. 22](source/ultimate_wilderness))",
 			"- Wayang:",
 			"    - Add one spell from the sorcerer/wizard spell list that isn't on the shaman spell list to the list of spells the shaman knows. This spell must be at least 1 level below the highest spell level the shaman can cast and be of the illusion (shadow) subschool or have the darkness descriptor. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"shifter": {
 		"name": "shifter",
@@ -7024,8 +6992,7 @@
 			"    - Add a +1/2 bonus on Acrobatics checks to jump and a +1/2 bonus on wild empathy checks. ([Wilderness Origins pg. 8](source/wilderness_origins))",
 			"- Vine leshy:",
 			"    - Add a +1 bonus on Knowledge (nature) checks relating to plants. ([Wilderness Origins pg. 8](source/wilderness_origins))"
-		],
-		"display": "class"
+		]
 	},
 	"skald": {
 		"name": "skald",
@@ -7304,8 +7271,7 @@
 			"    - Add one spell from the skald's spell list to the skald's known spells. This spell must be at least 1 spell level below the highest level of spell the skald can cast. ([Blood of the Sea pg. 13](source/blood_of_the_sea))",
 			"- Shabti:",
 			"    - Add 1/2 to the skald's bardic knowledge bonus. ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook))"
-		],
-		"display": "class"
+		]
 	},
 	"slayer": {
 		"name": "slayer",
@@ -7475,8 +7441,7 @@
 			"    - Add 1/4 to the studied target bonus on Bluff and Perception checks. When the slayer gains the stalker class feature, he also adds this amount to the studied target bonus on Stealth checks. ([Blood of Shadows pg. 11](source/blood_of_shadows))",
 			"- Wyrwood:",
 			"    - The slayer gains 1/6 of a slayer talent. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	},
 	"sorcerer": {
 		"name": "sorcerer",
@@ -7701,8 +7666,7 @@
 			"    - Add +1/2 point of damage to any illusion spells of the shadow subschool cast by the sorcerer. ([Advanced Race Guide pg. 210](source/advanced_race_guide))",
 			"- Wyvaran:",
 			"    - Add a +1/2 bonus to the damage of spells or spell-like abilities that deal damage of the same energy type as the sorcerer's draconic bloodline breath weapon. ([Legacy of Dragons pg. 18](source/legacy_of_dragons))"
-		],
-		"display": "class"
+		]
 	},
 	"spiritualist": {
 		"name": "spiritualist",
@@ -7928,8 +7892,7 @@
 			"    - The spiritualist's phantom gains 1/6 of a bonus feat. The phantom must meet all prerequisites of the selected feat. ([Blood of the Beast pg. 24](source/blood_of_the_beast))",
 			"- Wayang:",
 			"    - Add 1/4 to the number of rounds that the spiritualist's incorporeal phantom can be out of sight and line of effect before being sent back to the Ethereal Plane. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"summoner": {
 		"name": "summoner",
@@ -8147,8 +8110,7 @@
 			"    - Add 1/4 to the eidolon's evolution pool. ([Blood of the Beast pg. 28](source/blood_of_the_beast))",
 			"- Wayang:",
 			"    - Add +1 skill rank to the summoner's eidolon. ([Advanced Race Guide pg. 210](source/advanced_race_guide))"
-		],
-		"display": "class"
+		]
 	},
 	"unchained_summoner": {
 		"name": "unchained summoner",
@@ -8320,8 +8282,7 @@
 			"",
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"swashbuckler": {
 		"name": "swashbuckler",
@@ -8479,8 +8440,7 @@
 			"    - Add 1/4 to the AC bonus provided by cover or improved cover. ([Blood of the Beast pg. 20](source/blood_of_the_beast))",
 			"- Tengu:",
 			"    - Add 1/2 to the swashbuckler's Acrobatics, Climb, Escape Artist, Fly, Ride, and Swim checks when using the derring-do deed. ([Blood of the Beast pg. 24](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"vigilante": {
 		"name": "vigilante",
@@ -8650,8 +8610,7 @@
 			"- Kitsune:",
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))",
 			"    - Add 1/2 to the Disguise bonus provided by seamless guise. ([Blood of the Beast pg. 12](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"warpriest": {
 		"name": "warpriest",
@@ -8856,8 +8815,7 @@
 			"    - Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast))",
 			"- Nagaji:",
 			"    - Add 1/2 to the number of times per day the warpriest can use blessings, although he can use these additional blessings only for Charm, Magic, Nobility, Rune, or Scalykind blessings. ([Blood of the Beast pg. 16](source/blood_of_the_beast))"
-		],
-		"display": "class"
+		]
 	},
 	"witch": {
 		"name": "witch",
@@ -9085,8 +9043,7 @@
 			"    - Add 1/4 to the witch's caster level when determining the effects of spells granted to her by her patron (to a maximum of +2). ([Blood of the Beast pg. 28](source/blood_of_the_beast))",
 			"- Wayang:",
 			"    - Add one spell from the sorcerer/wizard spell list that isn't on the witch spell list to the list of spells the witch knows. This spell must be at least 1 level below the highest spell level the witch can cast and be of the illusion (shadow) subschool or have the darkness descriptor. ([Blood of Shadows pg. 11](source/blood_of_shadows))"
-		],
-		"display": "class"
+		]
 	},
 	"wizard": {
 		"name": "wizard",
@@ -9292,7 +9249,6 @@
 			"    - Add one spell from the wizard spell list to the wizard's spellbook. The spell must be an illusion spell of the shadow subschool or have the darkness descriptor. ([Blood of Shadows pg. 11](source/blood_of_shadows))",
 			"- Wyrwood:",
 			"    - The wizard gains 1/6 of a bonus [item creation](unknown/item_creation), [metamagic](unknown/metamagic), or spell mastery feat. ([Heroes of Golarion pg. 6](source/heroes_of_golarion))"
-		],
-		"display": "class"
+		]
 	}
 }

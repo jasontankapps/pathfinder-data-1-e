@@ -81,8 +81,7 @@
 			"**Animal Feats**",
 			"",
 			"Animal companions can select from the following feats: [Acrobatic](feat/acrobatic), [Agile Maneuvers](feat/agile_maneuvers), [Armor Proficiency, Heavy](feat/armor_proficiency,_heavy), [Armor Proficiency, Light](feat/armor_proficiency,_light), [Armor Proficiency, Medium](feat/armor_proficiency,_medium), [Athletic](feat/athletic), [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Devotion against the Unnatural](feat/devotion_against_the_unnatural), [Diehard](feat/diehard), [Disruptive Companion](feat/disruptive_companion), [Dodge](feat/dodge), [Endurance](feat/endurance), [Feral Grace](feat/feral_grace), [Ferocious Beast](feat/ferocious_beast), [Ferocious Feint](feat/ferocious_feint), [Friendly Face](feat/friendly_face), [Great Fortitude](feat/great_fortitude), [Greater Tenacious Hunter](feat/greater_tenacious_hunter), [Hefty Brute](feat/hefty_brute), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Intercept Blow](feat/improved_intercept_blow), [Improved Natural Armor](feat/improved_natural_armor), [Improved Natural Attack](feat/improved_natural_attack), [Improved Overrun](feat/improved_overrun), [Intercept Blow](feat/intercept_blow), [Intimidating Prowess](feat/intimidating_prowess), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Linnorm Hunter Coordination](feat/linnorm_hunter_coordination), [Linnorm Hunter Retreat](feat/linnorm_hunter_retreat), [Linnorm Hunter Style](feat/linnorm_hunter_style), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Reflexive Interception](feat/reflexive_interception), [Run](feat/run), [Share Feature](feat/share_feature), [Skill Focus](feat/skill_focus), [Spring Attack](feat/spring_attack), [Stealthy](feat/stealthy), [Tenacious Hunter](feat/tenacious_hunter), [Toughness](feat/toughness), [Weapon Focus](feat/weapon_focus). Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources."
-		],
-		"display": "sidekick"
+		]
 	},
 	"drake": {
 		"name": "Drake",
@@ -191,8 +190,7 @@
 			"**Swim:** The drake gains a 20-foot swim speed.",
 			"",
 			"**Swim, Improved:** The drake's swim speed improves to 60 feet. To select improved swim, a drake must have swim and the water subtype and its charge must be at least 7th level."
-		],
-		"display": "sidekick"
+		]
 	},
 	"eidolon": {
 		"name": "Eidolon",
@@ -270,8 +268,7 @@
 			"**Eidolon Skills**",
 			"",
 			"The following skills are class skills for eidolons: Bluff (Cha), Craft (Int), Knowledge (planes) (Int), Perception (Wis), Sense Motive (Wis), and Stealth (Dex). In addition, at 1st level, the summoner can choose 4 additional skills to be class skills for his eidolon. Note that eidolons with a fly speed receive Fly (Dex) as a free class skill, even if they do not gain a fly speed until a later level."
-		],
-		"display": "sidekick"
+		]
 	},
 	"unchained_eidolon": {
 		"name": "Unchained Eidolon",
@@ -349,8 +346,7 @@
 			"**Eidolon Skills**",
 			"",
 			"The following skills are class skills for eidolons: Bluff (Cha), Craft (Int), Knowledge (planes) (Int), Perception (Wis), Sense Motive (Wis), and Stealth (Dex). In addition, at 1st level, the summoner can choose four additional skills to be class skills for his eidolon. Note that eidolons with a fly speed receive Fly (Dex) as a free class skill, even if they do not gain a fly speed until a later level."
-		],
-		"display": "sidekick"
+		]
 	},
 	"familiar": {
 		"name": "Familiar",
@@ -441,8 +437,7 @@
 			"*Spell Resistance (Ex)*: If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.",
 			"",
 			"*Scry on Familiar (Sp)*: If the master is 13th level or higher, he may scry on his familiar (as if casting the *scrying *spell) once per day."
-		],
-		"display": "sidekick"
+		]
 	},
 	"phantom": {
 		"name": "Phantom",
@@ -538,7 +533,6 @@
 			"*Phase Lurch (Su)*: A phantom in ectoplasmic form has the ability to pass through walls or material obstacles. In order to use this ability, it must begin and end its turn outside whatever wall or obstacle it's moving through. An ectoplasmic phantom can't move through corporeal creatures with this ability, and its movement speed is halved while moving through a wall or obstacle. Any surface it moves through is coated with a thin, silvery mucus that lingers for 1 minute.",
 			"",
 			"**Incorporeal:** When the spiritualist chooses to manifest the phantom in incorporeal form, the phantom appears within 30 feet of the spiritualist as a ghostly apparition. It gains the incorporeal subtype, including a deflection bonus to AC equal to its Charisma modifier. Since it isn't an undead creature, it takes no damage from holy water or positive energy. Unlike other incorporeal creatures, an incorporeal phantom can't attack corporeal creatures, except to deliver touch-attack spells using the deliver touch spell ability. An incorporeal manifested phantom can make slam attacks against other incorporeal creatures as if it were in ectoplasmic form."
-		],
-		"display": "sidekick"
+		]
 	}
 }
