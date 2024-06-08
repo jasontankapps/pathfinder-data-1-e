@@ -1,32 +1,10 @@
+import { Suspense, lazy } from 'react';
 import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './pages/MainPage';
-import EquipmentArmorPage from './pages/EquipmentArmorPage';
-import EquipmentArmorEnhancementsPage from './pages/EquipmentArmorEnhancementPage';
-import EquipmentSpecMaterialPage from './pages/EquipmentSpecMaterialPage';
-import EquipmentMiscPage from './pages/EquipmentMiscPage';
-import EquipmentPoisonPage from './pages/EquipmentPoisonPage';
-import EquipmentAlchemicalReagentPage from './pages/EquipmentAlchemicalReagentPage';
-import EquipmentSiegeEnginePage from './pages/EquipmentSiegeEnginesPage';
-import EquipmentSpellbookPage from './pages/EquipmentSpellbookPage';
-import EquipmentTechArmorPage from './pages/EquipmentTechArmorPage';
-import EquipmentTechArtifactPage from './pages/EquipmentTechArtifactPage';
-import EquipmentTechCybertechPage from './pages/EquipmentTechCybertechPage';
-import EquipmentTechMiscPage from './pages/EquipmentTechMiscPage';
-import EquipmentTechPharmaceuticalsPage from './pages/EquipmentTechPharmaceuticalPage';
-import EquipmentTechWeaponPage from './pages/EquipmentTechWeaponPage';
-import EquipmentWeaponPage from './pages/EquipmentWeaponPage';
-import EquipmentWeaponEnhancementsPage from './pages/EquipmentWeaponEnhancementPage';
-import RacePage from './pages/RacePage';
-import TraitPage from './pages/TraitPage';
-import FaithPage from './pages/FaithPage';
-import SpellPage from './pages/SpellPage';
-import SpellDefPage from './pages/SpellDefinitionPage';
-import FeatPage from './pages/FeatPage';
-import MonsterPage from './pages/MonsterPage';
-import NPCPage from './pages/NPCPage';
+import Loading from './Loading';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -48,6 +26,31 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 setupIonicReact();
+
+const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
+const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
+const EquipmentSpecMaterialPage = lazy(() => import("./pages/EquipmentSpecMaterialPage"));
+const EquipmentMiscPage = lazy(() => import("./pages/EquipmentMiscPage"));
+const EquipmentPoisonPage = lazy(() => import("./pages/EquipmentPoisonPage"));
+const EquipmentAlchemicalReagentPage = lazy(() => import("./pages/EquipmentAlchemicalReagentPage"));
+const EquipmentSiegeEnginePage = lazy(() => import("./pages/EquipmentSiegeEnginesPage"));
+const EquipmentSpellbookPage = lazy(() => import("./pages/EquipmentSpellbookPage"));
+const EquipmentTechArmorPage = lazy(() => import("./pages/EquipmentTechArmorPage"));
+const EquipmentTechArtifactPage = lazy(() => import("./pages/EquipmentTechArtifactPage"));
+const EquipmentTechCybertechPage = lazy(() => import("./pages/EquipmentTechCybertechPage"));
+const EquipmentTechMiscPage = lazy(() => import("./pages/EquipmentTechMiscPage"));
+const EquipmentTechPharmaceuticalsPage = lazy(() => import("./pages/EquipmentTechPharmaceuticalPage"));
+const EquipmentTechWeaponPage = lazy(() => import("./pages/EquipmentTechWeaponPage"));
+const EquipmentWeaponPage = lazy(() => import("./pages/EquipmentWeaponPage"));
+const EquipmentWeaponEnhancementsPage = lazy(() => import("./pages/EquipmentWeaponEnhancementPage"));
+const RacePage = lazy(() => import("./pages/RacePage"));
+const TraitPage = lazy(() => import("./pages/TraitPage"));
+const FaithPage = lazy(() => import("./pages/FaithPage"));
+const SpellPage = lazy(() => import("./pages/SpellPage"));
+const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
+const FeatPage = lazy(() => import("./pages/FeatPage"));
+const MonsterPage = lazy(() => import("./pages/MonsterPage"));
+const NPCPage = lazy(() => import("./pages/NPCPage"));
 
 const App: React.FC = () => {
 	return (
@@ -76,25 +79,25 @@ const App: React.FC = () => {
 						<Route path="/drug/:id" render={() => <></>} />
 						<Route path="/druidcompanion/:id" render={() => <></>} />
 						<Route path="/druiddomain/:id" render={() => <></>} />
-						<Route path="/equipment/armor/:id" render={() => <EquipmentArmorPage />} />
-						<Route path="/equipment/armorenhancement/:id" render={() => <EquipmentArmorEnhancementsPage />} />
-						<Route path="/equipment/material/:id" render={() => <EquipmentSpecMaterialPage />} />
-						<Route path="/equipment/misc/:id" render={() => <EquipmentMiscPage />} />
-						<Route path="/equipment/poison/:id" render={() => <EquipmentPoisonPage />} />
-						<Route path="/equipment/reagent/:id" render={() => <EquipmentAlchemicalReagentPage />} />
-						<Route path="/equipment/siegeengine/:id" render={() => <EquipmentSiegeEnginePage />} />
-						<Route path="/equipment/spellbook/:id" render={() => <EquipmentSpellbookPage />} />
-						<Route path="/equipment/tech/armor/:id" render={() => <EquipmentTechArmorPage />} />
-						<Route path="/equipment/tech/artifact/:id" render={() => <EquipmentTechArtifactPage />} />
-						<Route path="/equipment/tech/cybertech/:id" render={() => <EquipmentTechCybertechPage />} />
-						<Route path="/equipment/tech/misc/:id" render={() => <EquipmentTechMiscPage />} />
-						<Route path="/equipment/tech/pharmaceutical/:id" render={() => <EquipmentTechPharmaceuticalsPage />} />
-						<Route path="/equipment/tech/weapon/:id" render={() => <EquipmentTechWeaponPage />} />
-						<Route path="/equipment/weapon/:id" render={() => <EquipmentWeaponPage />} />
-						<Route path="/equipment/weaponenhance/:id" render={() => <EquipmentWeaponEnhancementsPage />} />
+						<Route path="/equipment/armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense>} />
+						<Route path="/equipment/armorenhancement/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense>} />
+						<Route path="/equipment/material/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense>} />
+						<Route path="/equipment/misc/:id" render={() => <Suspense fallback={<Loading />}><EquipmentMiscPage /></Suspense>} />
+						<Route path="/equipment/poison/:id" render={() => <Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense>} />
+						<Route path="/equipment/reagent/:id" render={() => <Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense>} />
+						<Route path="/equipment/siegeengine/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense>} />
+						<Route path="/equipment/spellbook/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpellbookPage /></Suspense>} />
+						<Route path="/equipment/tech/armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechArmorPage /></Suspense>} />
+						<Route path="/equipment/tech/artifact/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechArtifactPage /></Suspense>} />
+						<Route path="/equipment/tech/cybertech/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechCybertechPage /></Suspense>} />
+						<Route path="/equipment/tech/misc/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechMiscPage /></Suspense>} />
+						<Route path="/equipment/tech/pharmaceutical/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechPharmaceuticalsPage /></Suspense>} />
+						<Route path="/equipment/tech/weapon/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechWeaponPage /></Suspense>} />
+						<Route path="/equipment/weapon/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponPage /></Suspense>} />
+						<Route path="/equipment/weaponenhance/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense>} />
 						<Route path="/exploit/:id" render={() => <></>} />
-						<Route path="/feat/:id" render={() => <FeatPage />} />
-						<Route path="/faith/:id" render={() => <FaithPage />} />
+						<Route path="/feat/:id" render={() => <Suspense fallback={<Loading />}><FeatPage /></Suspense>} />
+						<Route path="/faith/:id" render={() => <Suspense fallback={<Loading />}><FaithPage /></Suspense>} />
 						<Route path="/greaterexploit/:id" render={() => <></>} />
 						<Route path="/haunt/:id" render={() => <></>} />
 						<Route path="/hellknightorder/:id" render={() => <></>} />
@@ -130,29 +133,29 @@ const App: React.FC = () => {
 						<Route path="/magic/weapon/:id" render={() => <></>} />
 						<Route path="/magic/wondrous/:id" render={() => <></>} />
 						<Route path="/magusarcana/:id" render={() => <></>} />
-						<Route path="/monster/:id" render={() => <MonsterPage />} />
+						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/monster/family/:id" render={() => <></>} />
 						<Route path="/monster/subtype/:id" render={() => <></>} />
 						<Route path="/monster/template/:id" render={() => <></>} />
 						<Route path="/monster/type/:id" render={() => <></>} />
 						<Route path="/mystery/:id" render={() => <></>} />
-						<Route path="/npc/:id" render={() => <NPCPage />} />
+						<Route path="/npc/:id" render={() => <Suspense fallback={<Loading />}><NPCPage /></Suspense>} />
 						<Route path="/oath/:id" render={() => <></>} />
 						<Route path="/oraclecurse/:id" render={() => <></>} />
 						<Route path="/order/:id" render={() => <></>} />
 						<Route path="/outsiderspirit/:id" render={() => <></>} />
-						<Route path="/race/:id" render={() => <RacePage  />} />
+						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
 						<Route path="/ragepower/:id" render={() => <></>} />
 						<Route path="/rule/:id" render={() => <></>} />
 						<Route path="/shamanspirit/:id" render={() => <></>} />
 						<Route path="/skill/:id" render={() => <></>} />
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
 						<Route path="/source/:id" render={() => <></>} />
-						<Route path="/spell/:id" render={() => <SpellPage />} />
-						<Route path="/spell/definition/:id" render={() => <SpellDefPage />} />
+						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />
+						<Route path="/spell/definition/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
 						<Route path="/spirit/:id" render={() => <></>} />
 						<Route path="/stanceragepower/:id" render={() => <></>} />
-						<Route path="/trait/:id" render={() => <TraitPage />} />
+						<Route path="/trait/:id" render={() => <Suspense fallback={<Loading />}><TraitPage /></Suspense>} />
 						<Route path="/trap/:id" render={() => <></>} />
 						<Route path="/umr/:id" render={() => <></>} />
 						<Route path="/:mainpage" render={() => <MainPage />} />
