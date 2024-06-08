@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-siege",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested poison."
+		]
+	},
 	"alchemist's_fire": {
 		"name": "alchemist's fire",
 		"sources": [ "Ultimate Combat" ],

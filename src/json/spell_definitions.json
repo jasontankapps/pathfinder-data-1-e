@@ -1,5 +1,13 @@
 {
-	"_prefix": "spell-def",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested spell definition."
+		]
+	},
 	"abjuration": {
 		"name": "Abjuration",
 		"sources": [ "PRPG Core Rulebook" ],

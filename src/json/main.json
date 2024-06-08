@@ -16958,9 +16958,9 @@
 			"",
 			"**[Special Materials](equipment_materials)**",
 			"",
-			"**[Siege Engines](equipment_siegeengines)**",
-			"",
 			"**[Poisons](equipment_poisons)**",
+			"",
+			"**[Siege Engines](equipment_siegeengines)**",
 			"",
 			"**[Alchemical Reagents](equipment_reagents)**",
 			"",
@@ -16978,9 +16978,9 @@
 			"",
 			"**[Pharmaceuticals](equipment_tech_pharmaceuticals)**",
 			"",
-			"**[Artifacts](equipment_tech_artifacts)**",
+			"**[Miscellaneous](equipment_tech_misc)**",
 			"",
-			"**[Miscellaneous](equipment_tech_misc)**"
+			"**[Artifacts](equipment_tech_artifacts)**"
 		],
 		"previous": [ ["Main", "main"] ]
 	},

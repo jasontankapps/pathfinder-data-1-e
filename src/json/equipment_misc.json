@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-misc",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested equipment."
+		]
+	},
 	"a_thread_of_silver": {
 		"name": "A Thread of Silver",
 		"sources": [ "Dungeoneer's Handbook" ],

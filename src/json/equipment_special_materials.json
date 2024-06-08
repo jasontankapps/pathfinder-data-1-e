@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-special_material",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested special material."
+		]
+	},
 	"abysium": {
 		"name": "Abysium",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],

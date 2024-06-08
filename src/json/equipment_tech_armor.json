@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-armor",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested tech armor."
+		]
+	},
 	"heavy_weapon_harness": {
 		"name": "heavy weapon harness",
 		"sources": [ "Technology Guide" ],

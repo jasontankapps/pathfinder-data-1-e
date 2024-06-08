@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-artifact",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested tech artifact."
+		]
+	},
 	"arms_of_the_iron_god": {
 		"name": "Arms of the Iron God",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],

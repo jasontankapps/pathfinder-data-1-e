@@ -1,7 +1,16 @@
 {
-	"_prefix": "npc",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested NPC."
+		]
+	},
 	"acolyte": {
 		"name": "Acolyte",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Acolyte",
 			"",
@@ -48,6 +57,7 @@
 	},
 	"apprentice_jeweler": {
 		"name": "Apprentice Jeweler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Apprentice Jeweler",
 			"",
@@ -90,6 +100,7 @@
 	},
 	"beggar": {
 		"name": "Beggar",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Beggar",
 			"",
@@ -132,6 +143,7 @@
 	},
 	"crusader_squire": {
 		"name": "Crusader (Squire)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Crusader (Squire)",
 			"",
@@ -177,6 +189,7 @@
 	},
 	"military_foot_soldier": {
 		"name": "Military (Foot Soldier)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Military (Foot Soldier)",
 			"",
@@ -225,6 +238,7 @@
 	},
 	"page": {
 		"name": "Page",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Page",
 			"",
@@ -267,6 +281,7 @@
 	},
 	"recruit": {
 		"name": "Recruit",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Recruit",
 			"",
@@ -312,6 +327,7 @@
 	},
 	"villager_village_idiot": {
 		"name": "Villager (Village Idiot)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Villager (Village Idiot)",
 			"",
@@ -357,6 +373,7 @@
 	},
 	"brigand": {
 		"name": "Brigand",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Brigand",
 			"",
@@ -400,6 +417,7 @@
 	},
 	"brigand_bandit": {
 		"name": "Brigand (Bandit)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Brigand (Bandit)",
 			"",
@@ -445,6 +463,7 @@
 	},
 	"callous_rake": {
 		"name": "Callous Rake",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Callous Rake",
 			"",
@@ -494,6 +513,7 @@
 	},
 	"careful_initiate": {
 		"name": "Careful Initiate",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Careful Initiate",
 			"",
@@ -537,6 +557,7 @@
 	},
 	"cautious_mage": {
 		"name": "Cautious Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cautious Mage",
 			"",
@@ -588,6 +609,7 @@
 	},
 	"city_guard_magnimar": {
 		"name": "City Guard (Magnimar)",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## City Guard (Magnimar)",
 			"",
@@ -632,6 +654,7 @@
 	},
 	"criminal_pickpocket": {
 		"name": "Criminal (Pickpocket)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Pickpocket)",
 			"",
@@ -677,6 +700,7 @@
 	},
 	"cutpurse": {
 		"name": "Cutpurse",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cutpurse",
 			"",
@@ -729,6 +753,7 @@
 	},
 	"initiate_of_flame": {
 		"name": "Initiate of Flame",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Initiate of Flame",
 			"",
@@ -781,6 +806,7 @@
 	},
 	"mercenary_healer": {
 		"name": "Mercenary Healer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mercenary Healer",
 			"",
@@ -839,6 +865,7 @@
 	},
 	"mercenary_magician": {
 		"name": "Mercenary Magician",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mercenary Magician",
 			"",
@@ -889,6 +916,7 @@
 	},
 	"novice_scout": {
 		"name": "Novice Scout",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Novice Scout",
 			"",
@@ -941,6 +969,7 @@
 	},
 	"old_sailor": {
 		"name": "Old Sailor",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Old Sailor",
 			"",
@@ -985,6 +1014,7 @@
 	},
 	"pig_farmer": {
 		"name": "Pig Farmer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Pig Farmer",
 			"",
@@ -1026,6 +1056,7 @@
 	},
 	"pirate_sailor": {
 		"name": "Pirate (Sailor)",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Pirate (Sailor)",
 			"",
@@ -1071,6 +1102,7 @@
 	},
 	"princess": {
 		"name": "Princess",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Princess",
 			"",
@@ -1113,6 +1145,7 @@
 	},
 	"sailor_shipmate": {
 		"name": "Sailor (Shipmate)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Sailor (Shipmate)",
 			"",
@@ -1160,6 +1193,7 @@
 	},
 	"savage_mercenary": {
 		"name": "Savage Mercenary",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Savage Mercenary",
 			"",
@@ -1211,6 +1245,7 @@
 	},
 	"shaman": {
 		"name": "Shaman",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Shaman",
 			"",
@@ -1259,6 +1294,7 @@
 	},
 	"superstitious_mercenary": {
 		"name": "Superstitious Mercenary",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Superstitious Mercenary",
 			"",
@@ -1306,6 +1342,7 @@
 	},
 	"tavern_barmaid": {
 		"name": "Tavern (Barmaid)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tavern (Barmaid)",
 			"",
@@ -1351,6 +1388,7 @@
 	},
 	"tavern_singer": {
 		"name": "Tavern Singer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tavern Singer",
 			"",
@@ -1402,6 +1440,7 @@
 	},
 	"temple_acolyte": {
 		"name": "Temple (Acolyte)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Temple (Acolyte)",
 			"",
@@ -1452,6 +1491,7 @@
 	},
 	"ulfen_raider": {
 		"name": "Ulfen Raider",
+		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
 			"## Ulfen Raider",
 			"",
@@ -1503,6 +1543,7 @@
 	},
 	"villager_farmer": {
 		"name": "Villager (Farmer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Villager (Farmer)",
 			"",
@@ -1546,6 +1587,7 @@
 	},
 	"bullying_brawler": {
 		"name": "Bullying Brawler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Bullying Brawler",
 			"",
@@ -1591,6 +1633,7 @@
 	},
 	"city_watch_guard": {
 		"name": "City Watch (Guard)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## City Watch (Guard)",
 			"",
@@ -1634,6 +1677,7 @@
 	},
 	"criminal_street_thug": {
 		"name": "Criminal (Street Thug)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Street Thug)",
 			"",
@@ -1679,6 +1723,7 @@
 	},
 	"daring_bravo": {
 		"name": "Daring Bravo",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Daring Bravo",
 			"",
@@ -1726,6 +1771,7 @@
 	},
 	"dwarven_rager": {
 		"name": "Dwarven Rager",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dwarven Rager",
 			"",
@@ -1771,6 +1817,7 @@
 	},
 	"entertainer_storyteller": {
 		"name": "Entertainer (Storyteller)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Entertainer (Storyteller)",
 			"",
@@ -1817,6 +1864,7 @@
 	},
 	"fighting_school_initiate": {
 		"name": "Fighting School (Initiate)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Fighting School (Initiate)",
 			"",
@@ -1864,6 +1912,7 @@
 	},
 	"first_guard_of_absalom": {
 		"name": "First Guard of Absalom",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## First Guard of Absalom",
 			"",
@@ -1908,6 +1957,7 @@
 	},
 	"gem_sorcerer": {
 		"name": "Gem Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Gem Sorcerer",
 			"",
@@ -1958,6 +2008,7 @@
 	},
 	"guard": {
 		"name": "Guard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Guard",
 			"",
@@ -2002,6 +2053,7 @@
 	},
 	"honorable_outcast": {
 		"name": "Honorable Outcast",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Honorable Outcast",
 			"",
@@ -2048,6 +2100,7 @@
 	},
 	"initiate": {
 		"name": "Initiate",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Initiate",
 			"",
@@ -2095,6 +2148,7 @@
 	},
 	"mercenary_caravan_guard": {
 		"name": "Mercenary (Caravan Guard)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Mercenary (Caravan Guard)",
 			"",
@@ -2139,6 +2193,7 @@
 	},
 	"merchant_shopkeep": {
 		"name": "Merchant (Shopkeep)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Merchant (Shopkeep)",
 			"",
@@ -2184,6 +2239,7 @@
 	},
 	"miner": {
 		"name": "Miner",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Miner",
 			"",
@@ -2226,6 +2282,7 @@
 	},
 	"road_vagabond": {
 		"name": "Road (Vagabond)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Road (Vagabond)",
 			"",
@@ -2271,6 +2328,7 @@
 	},
 	"sail_master": {
 		"name": "Sail Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sail Master",
 			"",
@@ -2320,6 +2378,7 @@
 	},
 	"sczarni_thug": {
 		"name": "Sczarni Thug",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Sczarni Thug",
 			"",
@@ -2375,6 +2434,7 @@
 	},
 	"seasoned_trapper": {
 		"name": "Seasoned Trapper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Seasoned Trapper",
 			"",
@@ -2418,6 +2478,7 @@
 	},
 	"seer_doomsayer": {
 		"name": "Seer (Doomsayer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Seer (Doomsayer)",
 			"",
@@ -2465,6 +2526,7 @@
 	},
 	"skulking_brute": {
 		"name": "Skulking Brute",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Skulking Brute",
 			"",
@@ -2517,6 +2579,7 @@
 	},
 	"squire": {
 		"name": "Squire",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Squire",
 			"",
@@ -2560,6 +2623,7 @@
 	},
 	"street_beggar": {
 		"name": "Street (Beggar)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Street (Beggar)",
 			"",
@@ -2605,6 +2669,7 @@
 	},
 	"street_prostitute": {
 		"name": "Street (Prostitute)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Street (Prostitute)",
 			"",
@@ -2650,6 +2715,7 @@
 	},
 	"street_magician": {
 		"name": "Street Magician",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Street Magician",
 			"",
@@ -2702,6 +2768,7 @@
 	},
 	"street_performer": {
 		"name": "Street Performer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Street Performer",
 			"",
@@ -2752,6 +2819,7 @@
 	},
 	"tavern_drunkard": {
 		"name": "Tavern (Drunkard)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tavern (Drunkard)",
 			"",
@@ -2795,6 +2863,7 @@
 	},
 	"town_watcher": {
 		"name": "Town Watcher",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Town Watcher",
 			"",
@@ -2846,6 +2915,7 @@
 	},
 	"tribe_cannibal": {
 		"name": "Tribe (Cannibal)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tribe (Cannibal)",
 			"",
@@ -2896,6 +2966,7 @@
 	},
 	"war_priest": {
 		"name": "War Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## War Priest",
 			"",
@@ -2948,6 +3019,7 @@
 	},
 	"accomplished_angler": {
 		"name": "Accomplished Angler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Accomplished Angler",
 			"",
@@ -2989,6 +3061,7 @@
 	},
 	"axe_warrior": {
 		"name": "Axe Warrior",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Axe Warrior",
 			"",
@@ -3042,6 +3115,7 @@
 	},
 	"battle_mage": {
 		"name": "Battle Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Battle Mage",
 			"",
@@ -3092,6 +3166,7 @@
 	},
 	"criminal_burglar": {
 		"name": "Criminal (Burglar)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Burglar)",
 			"",
@@ -3138,6 +3213,7 @@
 	},
 	"doom_prophet": {
 		"name": "Doom Prophet",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Doom Prophet",
 			"",
@@ -3187,6 +3263,7 @@
 	},
 	"duergar_slaver": {
 		"name": "Duergar Slaver",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Duergar Slaver",
 			"",
@@ -3234,6 +3311,7 @@
 	},
 	"dungeon_prisoner": {
 		"name": "Dungeon (Prisoner)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Dungeon (Prisoner)",
 			"",
@@ -3275,6 +3353,7 @@
 	},
 	"eagle_knight": {
 		"name": "Eagle Knight",
+		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"## Eagle Knight",
 			"",
@@ -3325,6 +3404,7 @@
 	},
 	"haughty_avenger": {
 		"name": "Haughty Avenger",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Haughty Avenger",
 			"",
@@ -3379,6 +3459,7 @@
 	},
 	"heir_apparent": {
 		"name": "Heir Apparent",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Heir Apparent",
 			"",
@@ -3422,6 +3503,7 @@
 	},
 	"hellknight_armiger": {
 		"name": "Hellknight Armiger",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Hellknight Armiger",
 			"",
@@ -3466,6 +3548,7 @@
 	},
 	"heretic_cultist": {
 		"name": "Heretic (Cultist)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Heretic (Cultist)",
 			"",
@@ -3517,6 +3600,7 @@
 	},
 	"jinx_eater": {
 		"name": "Jinx Eater",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Jinx Eater",
 			"",
@@ -3568,6 +3652,7 @@
 	},
 	"journeyman_carpenter": {
 		"name": "Journeyman Carpenter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Journeyman Carpenter",
 			"",
@@ -3613,6 +3698,7 @@
 	},
 	"kitharodian_academy_performer": {
 		"name": "Kitharodian Academy Performer",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Kitharodian Academy Performer",
 			"",
@@ -3661,6 +3747,7 @@
 	},
 	"local_celebrity": {
 		"name": "Local Celebrity",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Local Celebrity",
 			"",
@@ -3711,6 +3798,7 @@
 	},
 	"mystery_cultist": {
 		"name": "Mystery Cultist",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Mystery Cultist",
 			"",
@@ -3768,6 +3856,7 @@
 	},
 	"noble_noble_scion": {
 		"name": "Noble (Noble Scion)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Noble (Noble Scion)",
 			"",
@@ -3811,6 +3900,7 @@
 	},
 	"pirate_smuggler": {
 		"name": "Pirate (Smuggler)",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Pirate (Smuggler)",
 			"",
@@ -3856,6 +3946,7 @@
 	},
 	"poacher": {
 		"name": "Poacher",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Poacher",
 			"",
@@ -3904,6 +3995,7 @@
 	},
 	"road_wanderer": {
 		"name": "Road (Wanderer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Road (Wanderer)",
 			"",
@@ -3953,6 +4045,7 @@
 	},
 	"scholar_priest": {
 		"name": "Scholar Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Scholar Priest",
 			"",
@@ -4004,6 +4097,7 @@
 	},
 	"sczarni_thief": {
 		"name": "Sczarni Thief",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Sczarni Thief",
 			"",
@@ -4050,6 +4144,7 @@
 	},
 	"shifty_noble": {
 		"name": "Shifty Noble",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Shifty Noble",
 			"",
@@ -4100,6 +4195,7 @@
 	},
 	"shoanti_gladiator": {
 		"name": "Shoanti Gladiator",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Shoanti Gladiator",
 			"",
@@ -4152,6 +4248,7 @@
 	},
 	"skilled_sniper": {
 		"name": "Skilled Sniper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Skilled Sniper",
 			"",
@@ -4205,6 +4302,7 @@
 	},
 	"skinsaw_cultist": {
 		"name": "Skinsaw Cultist",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Skinsaw Cultist",
 			"",
@@ -4257,6 +4355,7 @@
 	},
 	"sylvan_protector": {
 		"name": "Sylvan Protector",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sylvan Protector",
 			"",
@@ -4309,6 +4408,7 @@
 	},
 	"traitorous_brigand": {
 		"name": "Traitorous Brigand",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Traitorous Brigand",
 			"",
@@ -4356,6 +4456,7 @@
 	},
 	"veteran_buccaneer": {
 		"name": "Veteran Buccaneer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Veteran Buccaneer",
 			"",
@@ -4399,6 +4500,7 @@
 	},
 	"vigilant_bodyguard": {
 		"name": "Vigilant Bodyguard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Vigilant Bodyguard",
 			"",
@@ -4444,6 +4546,7 @@
 	},
 	"whiteclaw_sorcerer": {
 		"name": "Whiteclaw Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Whiteclaw Sorcerer",
 			"",
@@ -4494,6 +4597,7 @@
 	},
 	"absalom_wave_rider": {
 		"name": "Absalom Wave Rider",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Absalom Wave Rider",
 			"",
@@ -4543,6 +4647,7 @@
 	},
 	"barmaid": {
 		"name": "Barmaid",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Barmaid",
 			"",
@@ -4584,6 +4689,7 @@
 	},
 	"berserker_cannibal": {
 		"name": "Berserker Cannibal",
+		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
 			"## Berserker Cannibal",
 			"",
@@ -4638,6 +4744,7 @@
 	},
 	"bleachling_lunatic": {
 		"name": "Bleachling Lunatic",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Bleachling Lunatic",
 			"",
@@ -4692,6 +4799,7 @@
 	},
 	"border_guard": {
 		"name": "Border Guard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Border Guard",
 			"",
@@ -4744,6 +4852,7 @@
 	},
 	"charlatan": {
 		"name": "Charlatan",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Charlatan",
 			"",
@@ -4796,6 +4905,7 @@
 	},
 	"chernasardo_sniper": {
 		"name": "Chernasardo Sniper",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Chernasardo Sniper",
 			"",
@@ -4840,6 +4950,7 @@
 	},
 	"city_watch_guard_officer": {
 		"name": "City Watch (Guard Officer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## City Watch (Guard Officer)",
 			"",
@@ -4886,6 +4997,7 @@
 	},
 	"criminal_slaver": {
 		"name": "Criminal (Slaver)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Slaver)",
 			"",
@@ -4933,6 +5045,7 @@
 	},
 	"dog_rider": {
 		"name": "Dog Rider",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dog Rider",
 			"",
@@ -4979,6 +5092,7 @@
 	},
 	"dungeon_turnkey": {
 		"name": "Dungeon (Turnkey)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Dungeon (Turnkey)",
 			"",
@@ -5024,6 +5138,7 @@
 	},
 	"enforcer": {
 		"name": "Enforcer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Enforcer",
 			"",
@@ -5072,6 +5187,7 @@
 	},
 	"falconer": {
 		"name": "Falconer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Falconer",
 			"",
@@ -5113,6 +5229,7 @@
 	},
 	"frontier_trapper": {
 		"name": "Frontier (Trapper)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Frontier (Trapper)",
 			"",
@@ -5158,6 +5275,7 @@
 	},
 	"harbinger_disciple": {
 		"name": "Harbinger Disciple",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Harbinger Disciple",
 			"",
@@ -5203,6 +5321,7 @@
 	},
 	"investigator_wizard": {
 		"name": "Investigator Wizard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Investigator Wizard",
 			"",
@@ -5254,6 +5373,7 @@
 	},
 	"lastwall_border_scout": {
 		"name": "Lastwall Border Scout",
+		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Lastwall Border Scout",
 			"",
@@ -5300,6 +5420,7 @@
 	},
 	"lumber_consortium_enforcer": {
 		"name": "Lumber Consortium Enforcer",
+		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"## Lumber Consortium Enforcer",
 			"",
@@ -5350,6 +5471,7 @@
 	},
 	"murderous_halfling": {
 		"name": "Murderous Halfling",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Murderous Halfling",
 			"",
@@ -5397,6 +5519,7 @@
 	},
 	"pirate_officer": {
 		"name": "Pirate Officer",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Pirate Officer",
 			"",
@@ -5447,6 +5570,7 @@
 	},
 	"red_mantis_initiate": {
 		"name": "Red Mantis Initiate",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Red Mantis Initiate",
 			"",
@@ -5492,6 +5616,7 @@
 	},
 	"river_cleric": {
 		"name": "River Cleric",
+		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"## River Cleric",
 			"",
@@ -5549,6 +5674,7 @@
 	},
 	"road_pilgrim": {
 		"name": "Road (Pilgrim)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Road (Pilgrim)",
 			"",
@@ -5594,6 +5720,7 @@
 	},
 	"sapper": {
 		"name": "Sapper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sapper",
 			"",
@@ -5635,6 +5762,7 @@
 	},
 	"savage_plant_sage": {
 		"name": "Savage Plant Sage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Savage Plant Sage",
 			"",
@@ -5689,6 +5817,7 @@
 	},
 	"shoreline_cleric": {
 		"name": "Shoreline Cleric",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Shoreline Cleric",
 			"",
@@ -5743,6 +5872,7 @@
 	},
 	"skirmishing_crusader": {
 		"name": "Skirmishing Crusader",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Skirmishing Crusader",
 			"",
@@ -5793,6 +5923,7 @@
 	},
 	"spry_ambusher": {
 		"name": "Spry Ambusher",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Spry Ambusher",
 			"",
@@ -5841,6 +5972,7 @@
 	},
 	"street_dealer": {
 		"name": "Street (Dealer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Street (Dealer)",
 			"",
@@ -5887,6 +6019,7 @@
 	},
 	"tainted_sorcerer": {
 		"name": "Tainted Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tainted Sorcerer",
 			"",
@@ -5939,6 +6072,7 @@
 	},
 	"taunting_comedian": {
 		"name": "Taunting Comedian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Taunting Comedian",
 			"",
@@ -5990,6 +6124,7 @@
 	},
 	"tavern_barkeep": {
 		"name": "Tavern (Barkeep)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tavern (Barkeep)",
 			"",
@@ -6035,6 +6170,7 @@
 	},
 	"tavern_champion": {
 		"name": "Tavern Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tavern Champion",
 			"",
@@ -6079,6 +6215,7 @@
 	},
 	"technic_league_hireling": {
 		"name": "Technic League Hireling",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Technic League Hireling",
 			"",
@@ -6134,6 +6271,7 @@
 	},
 	"aspis_agent": {
 		"name": "Aspis Agent",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Aspis Agent",
 			"",
@@ -6189,6 +6327,7 @@
 	},
 	"besmaran_priest": {
 		"name": "Besmaran Priest",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Besmaran Priest",
 			"",
@@ -6243,6 +6382,7 @@
 	},
 	"bramble_sorcerer": {
 		"name": "Bramble Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Bramble Sorcerer",
 			"",
@@ -6302,6 +6442,7 @@
 	},
 	"cautious_archer": {
 		"name": "Cautious Archer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cautious Archer",
 			"",
@@ -6352,6 +6493,7 @@
 	},
 	"cavern_defender": {
 		"name": "Cavern Defender",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cavern Defender",
 			"",
@@ -6413,6 +6555,7 @@
 	},
 	"city_watch_captain_magnimar": {
 		"name": "City Watch Captain (Magnimar)",
+		"sources": [ "Magnimar, City of Monuments"],
 		"description": [
 			"## City Watch Captain (Magnimar)",
 			"",
@@ -6461,6 +6604,7 @@
 	},
 	"corrupt_politician": {
 		"name": "Corrupt Politician",
+		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"## Corrupt Politician",
 			"",
@@ -6518,6 +6662,7 @@
 	},
 	"court_poet": {
 		"name": "Court Poet",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Court Poet",
 			"",
@@ -6579,6 +6724,7 @@
 	},
 	"cruel_devotee": {
 		"name": "Cruel Devotee",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cruel Devotee",
 			"",
@@ -6623,6 +6769,7 @@
 	},
 	"devil's_perch_rebel": {
 		"name": "Devil's Perch Rebel",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Devil's Perch Rebel",
 			"",
@@ -6670,6 +6817,7 @@
 	},
 	"expert_blacksmith": {
 		"name": "Expert Blacksmith",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Expert Blacksmith",
 			"",
@@ -6713,6 +6861,7 @@
 	},
 	"fighting_school_battle_monk": {
 		"name": "Fighting School (Battle Monk)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Fighting School (Battle Monk)",
 			"",
@@ -6759,6 +6908,7 @@
 	},
 	"god_caller": {
 		"name": "God Caller",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## God Caller",
 			"",
@@ -6840,6 +6990,7 @@
 	},
 	"grizzled_mercenary": {
 		"name": "Grizzled Mercenary",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Grizzled Mercenary",
 			"",
@@ -6884,6 +7035,7 @@
 	},
 	"guild_initiate": {
 		"name": "Guild Initiate",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Guild Initiate",
 			"",
@@ -6936,6 +7088,7 @@
 	},
 	"guru": {
 		"name": "Guru",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Guru",
 			"",
@@ -6983,6 +7136,7 @@
 	},
 	"hammer_of_justice": {
 		"name": "Hammer of Justice",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Hammer of Justice",
 			"",
@@ -7032,6 +7186,7 @@
 	},
 	"jungle_wizard": {
 		"name": "Jungle Wizard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Jungle Wizard",
 			"",
@@ -7093,6 +7248,7 @@
 	},
 	"longboat_captain": {
 		"name": "Longboat Captain",
+		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
 			"## Longboat Captain",
 			"",
@@ -7148,6 +7304,7 @@
 	},
 	"mounted_archer": {
 		"name": "Mounted Archer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mounted Archer",
 			"",
@@ -7201,6 +7358,7 @@
 	},
 	"noble_crusader": {
 		"name": "Noble Crusader",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Noble Crusader",
 			"",
@@ -7263,6 +7421,7 @@
 	},
 	"officer": {
 		"name": "Officer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Officer",
 			"",
@@ -7306,6 +7465,7 @@
 	},
 	"scholar_hedge_wizard": {
 		"name": "Scholar (Hedge Wizard)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Scholar (Hedge Wizard)",
 			"",
@@ -7355,6 +7515,7 @@
 	},
 	"seer_medium": {
 		"name": "Seer (Medium)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Seer (Medium)",
 			"",
@@ -7407,6 +7568,7 @@
 	},
 	"shoanti_burn_rider": {
 		"name": "Shoanti Burn Rider",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Shoanti Burn Rider",
 			"",
@@ -7461,6 +7623,7 @@
 	},
 	"shopkeeper": {
 		"name": "Shopkeeper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Shopkeeper",
 			"",
@@ -7503,6 +7666,7 @@
 	},
 	"sodden_scavenger": {
 		"name": "Sodden Scavenger",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Sodden Scavenger",
 			"",
@@ -7547,6 +7711,7 @@
 	},
 	"usij_cabalist": {
 		"name": "Usij Cabalist",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Usij Cabalist",
 			"",
@@ -7598,6 +7763,7 @@
 	},
 	"wayward_crusader": {
 		"name": "Wayward Crusader",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Wayward Crusader",
 			"",
@@ -7679,6 +7845,7 @@
 	},
 	"wild_lancer": {
 		"name": "Wild Lancer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Wild Lancer",
 			"",
@@ -7725,6 +7892,7 @@
 	},
 	"winter_witch_baroness": {
 		"name": "Winter Witch Baroness",
+		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"## Winter Witch Baroness",
 			"",
@@ -7785,6 +7953,7 @@
 	},
 	"adventurer_battle_mage": {
 		"name": "Adventurer (Battle Mage)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Adventurer (Battle Mage)",
 			"",
@@ -7832,6 +8001,7 @@
 	},
 	"adventurer_monster_hunter": {
 		"name": "Adventurer (Monster Hunter)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Adventurer (Monster Hunter)",
 			"",
@@ -7877,6 +8047,7 @@
 	},
 	"adventurer_tomb_raider": {
 		"name": "Adventurer (Tomb Raider)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Adventurer (Tomb Raider)",
 			"",
@@ -7921,6 +8092,7 @@
 	},
 	"adventuring_blacksmith": {
 		"name": "Adventuring Blacksmith",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Adventuring Blacksmith",
 			"",
@@ -7969,6 +8141,7 @@
 	},
 	"aldori_swordlord": {
 		"name": "Aldori Swordlord",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Aldori Swordlord",
 			"",
@@ -8019,6 +8192,7 @@
 	},
 	"android_impostor": {
 		"name": "Android Impostor",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Android Impostor",
 			"",
@@ -8076,6 +8250,7 @@
 	},
 	"blackraven_scout": {
 		"name": "Blackraven Scout",
+		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
 			"## Blackraven Scout",
 			"",
@@ -8128,6 +8303,7 @@
 	},
 	"carousing_champion": {
 		"name": "Carousing Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Carousing Champion",
 			"",
@@ -8188,6 +8364,7 @@
 	},
 	"cave_stalker": {
 		"name": "Cave Stalker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cave Stalker",
 			"",
@@ -8241,6 +8418,7 @@
 	},
 	"chelish_opera_singer": {
 		"name": "Chelish Opera Singer",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Chelish Opera Singer",
 			"",
@@ -8288,6 +8466,7 @@
 	},
 	"coliseum_gladiator": {
 		"name": "Coliseum (Gladiator)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Coliseum (Gladiator)",
 			"",
@@ -8334,6 +8513,7 @@
 	},
 	"con_artist": {
 		"name": "Con Artist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Con Artist",
 			"",
@@ -8396,6 +8576,7 @@
 	},
 	"dungeon_torturer": {
 		"name": "Dungeon (Torturer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Dungeon (Torturer)",
 			"",
@@ -8439,6 +8620,7 @@
 	},
 	"entertainer_minstrel": {
 		"name": "Entertainer (Minstrel)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Entertainer (Minstrel)",
 			"",
@@ -8486,6 +8668,7 @@
 	},
 	"evasive_slip": {
 		"name": "Evasive Slip",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Evasive Slip",
 			"",
@@ -8548,6 +8731,7 @@
 	},
 	"expert_bodyguard": {
 		"name": "Expert Bodyguard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Expert Bodyguard",
 			"",
@@ -8591,6 +8775,7 @@
 	},
 	"forest_guardian": {
 		"name": "Forest Guardian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Forest Guardian",
 			"",
@@ -8636,6 +8821,7 @@
 	},
 	"hermit": {
 		"name": "Hermit",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Hermit",
 			"",
@@ -8684,6 +8870,7 @@
 	},
 	"holy_archer": {
 		"name": "Holy Archer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Holy Archer",
 			"",
@@ -8733,6 +8920,7 @@
 	},
 	"marauder_raider": {
 		"name": "Marauder (Raider)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Marauder (Raider)",
 			"",
@@ -8783,6 +8971,7 @@
 	},
 	"mayor": {
 		"name": "Mayor",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mayor",
 			"",
@@ -8826,6 +9015,7 @@
 	},
 	"merchant_traveling_merchant": {
 		"name": "Merchant (Traveling Merchant)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Merchant (Traveling Merchant)",
 			"",
@@ -8869,6 +9059,7 @@
 	},
 	"military_cavalry": {
 		"name": "Military (Cavalry)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Military (Cavalry)",
 			"",
@@ -8915,6 +9106,7 @@
 	},
 	"night_scale_assassin": {
 		"name": "Night Scale Assassin",
+		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Night Scale Assassin",
 			"",
@@ -8964,6 +9156,7 @@
 	},
 	"nimble_shuriken_thrower": {
 		"name": "Nimble Shuriken Thrower",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Nimble Shuriken Thrower",
 			"",
@@ -9008,6 +9201,7 @@
 	},
 	"pirate_captain": {
 		"name": "Pirate Captain",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Pirate Captain",
 			"",
@@ -9057,6 +9251,7 @@
 	},
 	"risen_guard": {
 		"name": "Risen Guard",
+		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"## Risen Guard",
 			"",
@@ -9110,6 +9305,7 @@
 	},
 	"ruffian": {
 		"name": "Ruffian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Ruffian",
 			"",
@@ -9153,6 +9349,7 @@
 	},
 	"seer_fortune_teller": {
 		"name": "Seer (Fortune Teller)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Seer (Fortune Teller)",
 			"",
@@ -9201,6 +9398,7 @@
 	},
 	"shackled_sorcerer": {
 		"name": "Shackled Sorcerer",
+		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"## Shackled Sorcerer",
 			"",
@@ -9256,6 +9454,7 @@
 	},
 	"silent_enforcer": {
 		"name": "Silent Enforcer",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Silent Enforcer",
 			"",
@@ -9299,6 +9498,7 @@
 	},
 	"storm_sorcerer": {
 		"name": "Storm Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Storm Sorcerer",
 			"",
@@ -9360,6 +9560,7 @@
 	},
 	"successful_merchant": {
 		"name": "Successful Merchant",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Successful Merchant",
 			"",
@@ -9403,6 +9604,7 @@
 	},
 	"tribal_seer": {
 		"name": "Tribal Seer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tribal Seer",
 			"",
@@ -9464,6 +9666,7 @@
 	},
 	"tribe_shaman": {
 		"name": "Tribe (Shaman)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tribe (Shaman)",
 			"",
@@ -9511,6 +9714,7 @@
 	},
 	"tunnel_rat": {
 		"name": "Tunnel Rat",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tunnel Rat",
 			"",
@@ -9559,6 +9763,7 @@
 	},
 	"aloof_archer": {
 		"name": "Aloof Archer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Aloof Archer",
 			"",
@@ -9602,6 +9807,7 @@
 	},
 	"bloodfire_sorcerer": {
 		"name": "Bloodfire Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Bloodfire Sorcerer",
 			"",
@@ -9663,6 +9869,7 @@
 	},
 	"blue_warder": {
 		"name": "Blue Warder",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Blue Warder",
 			"",
@@ -9712,6 +9919,7 @@
 	},
 	"brigand_highwayman": {
 		"name": "Brigand (Highwayman)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Brigand (Highwayman)",
 			"",
@@ -9756,6 +9964,7 @@
 	},
 	"cannibal_zealot": {
 		"name": "Cannibal Zealot",
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Cannibal Zealot",
 			"",
@@ -9808,6 +10017,7 @@
 	},
 	"city_watch_watch_captain": {
 		"name": "City Watch (Watch Captain)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## City Watch (Watch Captain)",
 			"",
@@ -9854,6 +10064,7 @@
 	},
 	"coliseum_beast_master": {
 		"name": "Coliseum (Beast Master)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Coliseum (Beast Master)",
 			"",
@@ -9901,6 +10112,7 @@
 	},
 	"crusader_holy_warrior": {
 		"name": "Crusader (Holy Warrior)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Crusader (Holy Warrior)",
 			"",
@@ -9949,6 +10161,7 @@
 	},
 	"diplomat": {
 		"name": "Diplomat",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Diplomat",
 			"",
@@ -9993,6 +10206,7 @@
 	},
 	"dog_rider_knight": {
 		"name": "Dog Rider Knight",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dog Rider Knight",
 			"",
@@ -10045,6 +10259,7 @@
 	},
 	"freelance_thief": {
 		"name": "Freelance Thief",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Freelance Thief",
 			"",
@@ -10097,6 +10312,7 @@
 	},
 	"frontier_hermit": {
 		"name": "Frontier (Hermit)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Frontier (Hermit)",
 			"",
@@ -10144,6 +10360,7 @@
 	},
 	"gambler": {
 		"name": "Gambler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Gambler",
 			"",
@@ -10205,6 +10422,7 @@
 	},
 	"harrying_brute": {
 		"name": "Harrying Brute",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Harrying Brute",
 			"",
@@ -10251,6 +10469,7 @@
 	},
 	"heretic": {
 		"name": "Heretic",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Heretic",
 			"",
@@ -10299,6 +10518,7 @@
 	},
 	"heretic_conjurist": {
 		"name": "Heretic (Conjurist)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Heretic (Conjurist)",
 			"",
@@ -10348,6 +10568,7 @@
 	},
 	"island_defender": {
 		"name": "Island Defender",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Island Defender",
 			"",
@@ -10408,6 +10629,7 @@
 	},
 	"molthuni_commander": {
 		"name": "Molthuni Commander",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Molthuni Commander",
 			"",
@@ -10477,6 +10699,7 @@
 	},
 	"mountaineer": {
 		"name": "Mountaineer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mountaineer",
 			"",
@@ -10526,6 +10749,7 @@
 	},
 	"numerian_fluid_scavenger": {
 		"name": "Numerian Fluid Scavenger",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Numerian Fluid Scavenger",
 			"",
@@ -10581,6 +10805,7 @@
 	},
 	"numerian_gunslinger": {
 		"name": "Numerian Gunslinger",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Numerian Gunslinger",
 			"",
@@ -10636,6 +10861,7 @@
 	},
 	"pure_legionnaire": {
 		"name": "Pure Legionnaire",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Pure Legionnaire",
 			"",
@@ -10679,6 +10905,7 @@
 	},
 	"royalty_princess": {
 		"name": "Royalty (Princess)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Royalty (Princess)",
 			"",
@@ -10722,6 +10949,7 @@
 	},
 	"scholar_archaeologist": {
 		"name": "Scholar (Archaeologist)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Scholar (Archaeologist)",
 			"",
@@ -10765,6 +10993,7 @@
 	},
 	"signifer_of_the_nail": {
 		"name": "Signifer of the Nail",
+		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Signifer of the Nail",
 			"",
@@ -10819,6 +11048,7 @@
 	},
 	"spell_hunter": {
 		"name": "Spell Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Spell Hunter",
 			"",
@@ -10865,6 +11095,7 @@
 	},
 	"sundering_axe": {
 		"name": "Sundering Axe",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sundering Axe",
 			"",
@@ -10910,6 +11141,7 @@
 	},
 	"thunder_wizard": {
 		"name": "Thunder Wizard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Thunder Wizard",
 			"",
@@ -10973,6 +11205,7 @@
 	},
 	"usaro_rebel": {
 		"name": "Usaro Rebel",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Usaro Rebel",
 			"",
@@ -11021,6 +11254,7 @@
 	},
 	"village_elder": {
 		"name": "Village Elder",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Village Elder",
 			"",
@@ -11065,6 +11299,7 @@
 	},
 	"vivisectionist_cleric": {
 		"name": "Vivisectionist Cleric",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Vivisectionist Cleric",
 			"",
@@ -11127,6 +11362,7 @@
 	},
 	"wise_sage": {
 		"name": "Wise Sage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Wise Sage",
 			"",
@@ -11167,6 +11403,7 @@
 	},
 	"averaka_giant_slayer": {
 		"name": "Averaka Giant Slayer",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Averaka Giant Slayer",
 			"",
@@ -11216,6 +11453,7 @@
 	},
 	"axe_dancer": {
 		"name": "Axe Dancer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Axe Dancer",
 			"",
@@ -11260,6 +11498,7 @@
 	},
 	"cavalry_soldier": {
 		"name": "Cavalry Soldier",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cavalry Soldier",
 			"",
@@ -11309,6 +11548,7 @@
 	},
 	"constable": {
 		"name": "Constable",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Constable",
 			"",
@@ -11352,6 +11592,7 @@
 	},
 	"cutthroat_lawyer": {
 		"name": "Cutthroat Lawyer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cutthroat Lawyer",
 			"",
@@ -11399,6 +11640,7 @@
 	},
 	"daggermark_poisoner": {
 		"name": "Daggermark Poisoner",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Daggermark Poisoner",
 			"",
@@ -11457,6 +11699,7 @@
 	},
 	"desert_protector": {
 		"name": "Desert Protector",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Desert Protector",
 			"",
@@ -11511,6 +11754,7 @@
 	},
 	"fastidious_sharpshooter": {
 		"name": "Fastidious Sharpshooter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fastidious Sharpshooter",
 			"",
@@ -11560,6 +11804,7 @@
 	},
 	"frontier_guide": {
 		"name": "Frontier (Guide)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Frontier (Guide)",
 			"",
@@ -11603,6 +11848,7 @@
 	},
 	"glaive_rager": {
 		"name": "Glaive Rager",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Glaive Rager",
 			"",
@@ -11649,6 +11895,7 @@
 	},
 	"gray_gardener": {
 		"name": "Gray Gardener",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Gray Gardener",
 			"",
@@ -11705,6 +11952,7 @@
 	},
 	"gray_maiden": {
 		"name": "Gray Maiden",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Gray Maiden",
 			"",
@@ -11748,6 +11996,7 @@
 	},
 	"healer": {
 		"name": "Healer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Healer",
 			"",
@@ -11803,6 +12052,7 @@
 	},
 	"hellknight_signifer": {
 		"name": "Hellknight Signifer",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Hellknight Signifer",
 			"",
@@ -11857,6 +12107,7 @@
 	},
 	"knight": {
 		"name": "Knight",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Knight",
 			"",
@@ -11905,6 +12156,7 @@
 	},
 	"knight_of_ozem": {
 		"name": "Knight of Ozem",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Knight of Ozem",
 			"",
@@ -11958,6 +12210,7 @@
 	},
 	"marauder_viking": {
 		"name": "Marauder (Viking)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Marauder (Viking)",
 			"",
@@ -12004,6 +12257,7 @@
 	},
 	"mercenary_sellsword": {
 		"name": "Mercenary (Sellsword)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Mercenary (Sellsword)",
 			"",
@@ -12050,6 +12304,7 @@
 	},
 	"noble_knight": {
 		"name": "Noble (Knight)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Noble (Knight)",
 			"",
@@ -12097,6 +12352,7 @@
 	},
 	"orc_slayer": {
 		"name": "Orc Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Orc Slayer",
 			"",
@@ -12146,6 +12402,7 @@
 	},
 	"osirionologist": {
 		"name": "Osirionologist",
+		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"## Osirionologist",
 			"",
@@ -12200,6 +12457,7 @@
 	},
 	"ossuary_agent": {
 		"name": "Ossuary Agent",
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Ossuary Agent",
 			"",
@@ -12245,6 +12503,7 @@
 	},
 	"sea_captain": {
 		"name": "Sea Captain",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sea Captain",
 			"",
@@ -12309,6 +12568,7 @@
 	},
 	"seductive_enchanter": {
 		"name": "Seductive Enchanter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Seductive Enchanter",
 			"",
@@ -12372,6 +12632,7 @@
 	},
 	"street_artist": {
 		"name": "Street Artist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Street Artist",
 			"",
@@ -12433,6 +12694,7 @@
 	},
 	"thrune_agent": {
 		"name": "Thrune Agent",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Thrune Agent",
 			"",
@@ -12477,6 +12739,7 @@
 	},
 	"trapsmith": {
 		"name": "Trapsmith",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Trapsmith",
 			"",
@@ -12521,6 +12784,7 @@
 	},
 	"trickster_mage": {
 		"name": "Trickster Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Trickster Mage",
 			"",
@@ -12583,6 +12847,7 @@
 	},
 	"wrath_priest": {
 		"name": "Wrath Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Wrath Priest",
 			"",
@@ -12646,6 +12911,7 @@
 	},
 	"aloof_scholar": {
 		"name": "Aloof Scholar",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Aloof Scholar",
 			"",
@@ -12702,6 +12968,7 @@
 	},
 	"blackstrike": {
 		"name": "Blackstrike",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Blackstrike",
 			"",
@@ -12757,6 +13024,7 @@
 	},
 	"cave_wizard": {
 		"name": "Cave Wizard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cave Wizard",
 			"",
@@ -12817,6 +13085,7 @@
 	},
 	"celestial_theurge": {
 		"name": "Celestial Theurge",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Celestial Theurge",
 			"",
@@ -12888,6 +13157,7 @@
 	},
 	"criminal_slayer": {
 		"name": "Criminal (Slayer)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Slayer)",
 			"",
@@ -12932,6 +13202,7 @@
 	},
 	"cruel_instructor": {
 		"name": "Cruel Instructor",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cruel Instructor",
 			"",
@@ -12996,6 +13267,7 @@
 	},
 	"cultist": {
 		"name": "Cultist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cultist",
 			"",
@@ -13051,6 +13323,7 @@
 	},
 	"cyphermage": {
 		"name": "Cyphermage",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Cyphermage",
 			"",
@@ -13104,6 +13377,7 @@
 	},
 	"deadly_spy": {
 		"name": "Deadly Spy",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Deadly Spy",
 			"",
@@ -13159,6 +13433,7 @@
 	},
 	"death_priest": {
 		"name": "Death Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Death Priest",
 			"",
@@ -13224,6 +13499,7 @@
 	},
 	"desert_hermit": {
 		"name": "Desert Hermit",
+		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"## Desert Hermit",
 			"",
@@ -13284,6 +13560,7 @@
 	},
 	"divine_loremaster": {
 		"name": "Divine Loremaster",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Divine Loremaster",
 			"",
@@ -13347,6 +13624,7 @@
 	},
 	"duergar_strandrider": {
 		"name": "Duergar Strandrider",
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Duergar Strandrider",
 			"",
@@ -13425,6 +13703,7 @@
 	},
 	"gladiator_champion": {
 		"name": "Gladiator Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Gladiator Champion",
 			"",
@@ -13476,6 +13755,7 @@
 	},
 	"green_warden": {
 		"name": "Green Warden",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Green Warden",
 			"",
@@ -13529,6 +13809,7 @@
 	},
 	"halfling_slinger": {
 		"name": "Halfling Slinger",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Halfling Slinger",
 			"",
@@ -13585,6 +13866,7 @@
 	},
 	"king": {
 		"name": "King",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## King",
 			"",
@@ -13632,6 +13914,7 @@
 	},
 	"machine_slayer": {
 		"name": "Machine Slayer",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"## Machine Slayer",
 			"",
@@ -13688,6 +13971,7 @@
 	},
 	"master_entertainer": {
 		"name": "Master Entertainer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Entertainer",
 			"",
@@ -13741,6 +14025,7 @@
 	},
 	"mud_shaman": {
 		"name": "Mud Shaman",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mud Shaman",
 			"",
@@ -13806,6 +14091,7 @@
 	},
 	"mushfens_cabalist": {
 		"name": "Mushfens Cabalist",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Mushfens Cabalist",
 			"",
@@ -13857,6 +14143,7 @@
 	},
 	"noble_noble": {
 		"name": "Noble (Noble)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Noble (Noble)",
 			"",
@@ -13900,6 +14187,7 @@
 	},
 	"queen_of_staves": {
 		"name": "Queen of Staves",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Queen of Staves",
 			"",
@@ -13956,6 +14244,7 @@
 	},
 	"raging_swimmer": {
 		"name": "Raging Swimmer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Raging Swimmer",
 			"",
@@ -14010,6 +14299,7 @@
 	},
 	"sacred_killer": {
 		"name": "Sacred Killer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sacred Killer",
 			"",
@@ -14069,6 +14359,7 @@
 		]
 	},
 	"sacred_sorcerer": {
+		"sources": [ "NPC Codex" ],
 		"name": "Sacred Sorcerer",
 		"description": [
 			"## Sacred Sorcerer",
@@ -14128,6 +14419,7 @@
 	},
 	"sailor_first_mate": {
 		"name": "Sailor (First Mate)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Sailor (First Mate)",
 			"",
@@ -14171,6 +14463,7 @@
 	},
 	"saintly_knight": {
 		"name": "Saintly Knight",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Saintly Knight",
 			"",
@@ -14232,6 +14525,7 @@
 	},
 	"shieldmarshal": {
 		"name": "Shieldmarshal",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Shieldmarshal",
 			"",
@@ -14284,6 +14578,7 @@
 	},
 	"stage_magician": {
 		"name": "Stage Magician",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Stage Magician",
 			"",
@@ -14334,6 +14629,7 @@
 	},
 	"steadfast_defender": {
 		"name": "Steadfast Defender",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Steadfast Defender",
 			"",
@@ -14388,6 +14684,7 @@
 	},
 	"storm_prophet": {
 		"name": "Storm Prophet",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Storm Prophet",
 			"",
@@ -14444,6 +14741,7 @@
 	},
 	"swampwalker": {
 		"name": "Swampwalker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Swampwalker",
 			"",
@@ -14501,6 +14799,7 @@
 	},
 	"temple_priest": {
 		"name": "Temple (Priest)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Temple (Priest)",
 			"",
@@ -14552,6 +14851,7 @@
 	},
 	"traitor": {
 		"name": "Traitor",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Traitor",
 			"",
@@ -14596,6 +14896,7 @@
 	},
 	"tribal_champion": {
 		"name": "Tribal Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tribal Champion",
 			"",
@@ -14649,6 +14950,7 @@
 	},
 	"villager_mayor": {
 		"name": "Villager (Mayor)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Villager (Mayor)",
 			"",
@@ -14692,6 +14994,7 @@
 	},
 	"blackscale_sorcerer": {
 		"name": "Blackscale Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Blackscale Sorcerer",
 			"",
@@ -14753,6 +15056,7 @@
 	},
 	"cannibalistic_hunter": {
 		"name": "Cannibalistic Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cannibalistic Hunter",
 			"",
@@ -14806,6 +15110,7 @@
 	},
 	"cautious_hunter": {
 		"name": "Cautious Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cautious Hunter",
 			"",
@@ -14860,6 +15165,7 @@
 	},
 	"coliseum_champion": {
 		"name": "Coliseum (Champion)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Coliseum (Champion)",
 			"",
@@ -14906,6 +15212,7 @@
 	},
 	"dancing_dervish": {
 		"name": "Dancing Dervish",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dancing Dervish",
 			"",
@@ -14959,6 +15266,7 @@
 	},
 	"griffon_rider": {
 		"name": "Griffon Rider",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Griffon Rider",
 			"",
@@ -15016,6 +15324,7 @@
 	},
 	"harrower": {
 		"name": "Harrower",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Harrower",
 			"",
@@ -15067,6 +15376,7 @@
 	},
 	"merchant_merchant_prince": {
 		"name": "Merchant (Merchant Prince)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Merchant (Merchant Prince)",
 			"",
@@ -15109,6 +15419,7 @@
 	},
 	"mother_of_beasts": {
 		"name": "Mother of Beasts",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mother of Beasts",
 			"",
@@ -15172,6 +15483,7 @@
 	},
 	"old_ones_cultist": {
 		"name": "Old Ones Cultist",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Old Ones Cultist",
 			"",
@@ -15224,6 +15536,7 @@
 	},
 	"pathfinder_chronicler": {
 		"name": "Pathfinder Chronicler",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Pathfinder Chronicler",
 			"",
@@ -15270,6 +15583,7 @@
 	},
 	"pious_guard": {
 		"name": "Pious Guard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Pious Guard",
 			"",
@@ -15329,6 +15643,7 @@
 	},
 	"pirate_queen": {
 		"name": "Pirate Queen",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Pirate Queen",
 			"",
@@ -15386,6 +15701,7 @@
 	},
 	"prankster_illusionist": {
 		"name": "Prankster Illusionist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Prankster Illusionist",
 			"",
@@ -15453,6 +15769,7 @@
 	},
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Razmiran Priest",
 			"",
@@ -15502,6 +15819,7 @@
 	},
 	"seance_medium": {
 		"name": "Seance Medium",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Seance Medium",
 			"",
@@ -15563,6 +15881,7 @@
 	},
 	"sleepless_detective": {
 		"name": "Sleepless Detective",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Sleepless Detective",
 			"",
@@ -15616,6 +15935,7 @@
 	},
 	"technic_league_captain": {
 		"name": "Technic League Captain",
+		"sources": [ "Pathfinder #89 Palace of Fallen Stars" ],
 		"description": [
 			"## Technic League Captain",
 			"",
@@ -15668,6 +15988,7 @@
 	},
 	"water_merchant": {
 		"name": "Water Merchant",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Water Merchant",
 			"",
@@ -15730,6 +16051,7 @@
 	},
 	"winter_witch_cold_sister": {
 		"name": "Winter Witch Cold Sister",
+		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"## Winter Witch Cold Sister",
 			"",
@@ -15802,6 +16124,7 @@
 	},
 	"aspis_consortium_spy": {
 		"name": "Aspis Consortium Spy",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Aspis Consortium Spy",
 			"",
@@ -15850,6 +16173,7 @@
 	},
 	"belkzen_warchief": {
 		"name": "Belkzen Warchief",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Belkzen Warchief",
 			"",
@@ -15897,6 +16221,7 @@
 	},
 	"chameleon": {
 		"name": "Chameleon",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Chameleon",
 			"",
@@ -15957,6 +16282,7 @@
 	},
 	"contract_killer": {
 		"name": "Contract Killer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Contract Killer",
 			"",
@@ -16010,6 +16336,7 @@
 	},
 	"criminal_guild_master": {
 		"name": "Criminal (Guild Master)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Criminal (Guild Master)",
 			"",
@@ -16054,6 +16381,7 @@
 	},
 	"double_axe_fury": {
 		"name": "Double Axe Fury",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Double Axe Fury",
 			"",
@@ -16106,6 +16434,7 @@
 	},
 	"duergar_ironclad": {
 		"name": "Duergar Ironclad",
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Duergar Ironclad",
 			"",
@@ -16151,6 +16480,7 @@
 	},
 	"elven_honorblade": {
 		"name": "Elven Honorblade",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Elven Honorblade",
 			"",
@@ -16212,6 +16542,7 @@
 	},
 	"entertainer_celebrity_bard": {
 		"name": "Entertainer (Celebrity Bard)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Entertainer (Celebrity Bard)",
 			"",
@@ -16259,6 +16590,7 @@
 	},
 	"fire_cleric": {
 		"name": "Fire Cleric",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fire Cleric",
 			"",
@@ -16320,6 +16652,7 @@
 	},
 	"giant-killer": {
 		"name": "Giant-Killer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Giant-Killer",
 			"",
@@ -16378,6 +16711,7 @@
 	},
 	"hellknight": {
 		"name": "Hellknight",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Hellknight",
 			"",
@@ -16439,6 +16773,7 @@
 	},
 	"lucky_mage": {
 		"name": "Lucky Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Lucky Mage",
 			"",
@@ -16503,6 +16838,7 @@
 	},
 	"magaambya_arcanist": {
 		"name": "Magaambya Arcanist",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Magaambya Arcanist",
 			"",
@@ -16555,6 +16891,7 @@
 	},
 	"military_general": {
 		"name": "Military (General)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Military (General)",
 			"",
@@ -16597,6 +16934,7 @@
 	},
 	"mistress_of_high_places": {
 		"name": "Mistress of High Places",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mistress of High Places",
 			"",
@@ -16662,6 +17000,7 @@
 	},
 	"poisononous_performer": {
 		"name": "Poisononous Performer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Poisononous Performer",
 			"",
@@ -16715,6 +17054,7 @@
 	},
 	"royalty_queen": {
 		"name": "Royalty (Queen)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Royalty (Queen)",
 			"",
@@ -16758,6 +17098,7 @@
 	},
 	"scheming_fencer": {
 		"name": "Scheming Fencer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Scheming Fencer",
 			"",
@@ -16808,6 +17149,7 @@
 	},
 	"sister_of_the_golden_erinyes": {
 		"name": "Sister of the Golden Erinyes",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Sister of the Golden Erinyes",
 			"",
@@ -16850,6 +17192,7 @@
 	},
 	"tribe_chieftain": {
 		"name": "Tribe (Chieftain)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Tribe (Chieftain)",
 			"",
@@ -16895,6 +17238,7 @@
 	},
 	"undead_creator": {
 		"name": "Undead Creator",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Undead Creator",
 			"",
@@ -16959,6 +17303,7 @@
 	},
 	"uskwood_druid": {
 		"name": "Uskwood Druid",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Uskwood Druid",
 			"",
@@ -17049,6 +17394,7 @@
 	},
 	"anaphexia_agent": {
 		"name": "Anaphexia Agent",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Anaphexia Agent",
 			"",
@@ -17093,6 +17439,7 @@
 	},
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Bounty Hunter",
 			"",
@@ -17150,6 +17497,7 @@
 	},
 	"brigand_bandit_lord": {
 		"name": "Brigand (Bandit Lord)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Brigand (Bandit Lord)",
 			"",
@@ -17192,6 +17540,7 @@
 	},
 	"castaway": {
 		"name": "Castaway",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Castaway",
 			"",
@@ -17257,6 +17606,7 @@
 	},
 	"courtesan": {
 		"name": "Courtesan",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Courtesan",
 			"",
@@ -17318,6 +17668,7 @@
 	},
 	"crusader_saint": {
 		"name": "Crusader (Saint)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Crusader (Saint)",
 			"",
@@ -17367,6 +17718,7 @@
 	},
 	"dilettante": {
 		"name": "Dilettante",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dilettante",
 			"",
@@ -17424,6 +17776,7 @@
 	},
 	"fey_enchantress": {
 		"name": "Fey Enchantress",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fey Enchantress",
 			"",
@@ -17485,6 +17838,7 @@
 	},
 	"fierani_demon_hunter": {
 		"name": "Fierani Demon Hunter",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Fierani Demon Hunter",
 			"",
@@ -17533,6 +17887,7 @@
 	},
 	"forge_rider": {
 		"name": "Forge Rider",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Forge Rider",
 			"",
@@ -17589,6 +17944,7 @@
 	},
 	"giant_slayer": {
 		"name": "Giant Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Giant Slayer",
 			"",
@@ -17642,6 +17998,7 @@
 	},
 	"heretic_cult_leader": {
 		"name": "Heretic (Cult Leader)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Heretic (Cult Leader)",
 			"",
@@ -17692,6 +18049,7 @@
 	},
 	"marauder_pirate_captain": {
 		"name": "Marauder (Pirate Captain)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Marauder (Pirate Captain)",
 			"",
@@ -17735,6 +18093,7 @@
 	},
 	"mercenary_bounty_hunter": {
 		"name": "Mercenary (Bounty Hunter)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Mercenary (Bounty Hunter)",
 			"",
@@ -17781,6 +18140,7 @@
 	},
 	"sailor_captain": {
 		"name": "Sailor (Captain)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Sailor (Captain)",
 			"",
@@ -17823,6 +18183,7 @@
 	},
 	"scholar_sage": {
 		"name": "Scholar (Sage)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Scholar (Sage)",
 			"",
@@ -17870,6 +18231,7 @@
 	},
 	"shieldbreaker": {
 		"name": "Shieldbreaker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Shieldbreaker",
 			"",
@@ -17925,6 +18287,7 @@
 	},
 	"swift_brawler": {
 		"name": "Swift Brawler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Swift Brawler",
 			"",
@@ -17980,6 +18343,7 @@
 	},
 	"toothy_transmuter": {
 		"name": "Toothy Transmuter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Toothy Transmuter",
 			"",
@@ -18040,6 +18404,7 @@
 	},
 	"trickster_priest": {
 		"name": "Trickster Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Trickster Priest",
 			"",
@@ -18106,6 +18471,7 @@
 	},
 	"acid_terror": {
 		"name": "Acid Terror",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Acid Terror",
 			"",
@@ -18168,6 +18534,7 @@
 	},
 	"arcanothief": {
 		"name": "Arcanothief",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Arcanothief",
 			"",
@@ -18229,6 +18596,7 @@
 	},
 	"azure_bolt_sorcerer": {
 		"name": "Azure Bolt Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Azure Bolt Sorcerer",
 			"",
@@ -18292,6 +18660,7 @@
 	},
 	"brutal_warlord": {
 		"name": "Brutal Warlord",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Brutal Warlord",
 			"",
@@ -18344,6 +18713,7 @@
 	},
 	"champion_of_magic": {
 		"name": "Champion of Magic",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Champion of Magic",
 			"",
@@ -18408,6 +18778,7 @@
 	},
 	"death_initiate": {
 		"name": "Death Initiate",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Death Initiate",
 			"",
@@ -18462,6 +18833,7 @@
 	},
 	"dragon_smiter": {
 		"name": "Dragon Smiter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dragon Smiter",
 			"",
@@ -18522,6 +18894,7 @@
 	},
 	"feisty_hotspur": {
 		"name": "Feisty Hotspur",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Feisty Hotspur",
 			"",
@@ -18573,6 +18946,7 @@
 	},
 	"fey_friend": {
 		"name": "Fey Friend",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fey Friend",
 			"",
@@ -18635,6 +19009,7 @@
 	},
 	"fiendslayer": {
 		"name": "Fiendslayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fiendslayer",
 			"",
@@ -18693,6 +19068,7 @@
 	},
 	"guildmaster": {
 		"name": "Guildmaster",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Guildmaster",
 			"",
@@ -18746,6 +19122,7 @@
 	},
 	"mad_prophet": {
 		"name": "Mad Prophet",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mad Prophet",
 			"",
@@ -18807,6 +19184,7 @@
 	},
 	"midnight_dancer": {
 		"name": "Midnight Dancer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Midnight Dancer",
 			"",
@@ -18865,6 +19243,7 @@
 	},
 	"monastic_sniper": {
 		"name": "Monastic Sniper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Monastic Sniper",
 			"",
@@ -18918,6 +19297,7 @@
 	},
 	"nature_scholar": {
 		"name": "Nature Scholar",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Nature Scholar",
 			"",
@@ -18976,6 +19356,7 @@
 	},
 	"profane_general": {
 		"name": "Profane General",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Profane General",
 			"",
@@ -19043,6 +19424,7 @@
 	},
 	"prophet_of_kalistrade": {
 		"name": "Prophet of Kalistrade",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Prophet of Kalistrade",
 			"",
@@ -19099,6 +19481,7 @@
 	},
 	"pyromaniac_mage": {
 		"name": "Pyromaniac Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Pyromaniac Mage",
 			"",
@@ -19157,6 +19540,7 @@
 	},
 	"savage_rider": {
 		"name": "Savage Rider",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Savage Rider",
 			"",
@@ -19212,6 +19596,7 @@
 	},
 	"sound_warrior": {
 		"name": "Sound Warrior",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sound Warrior",
 			"",
@@ -19280,6 +19665,7 @@
 	},
 	"temple_high_priest": {
 		"name": "Temple (High Priest)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Temple (High Priest)",
 			"",
@@ -19331,6 +19717,7 @@
 	},
 	"tournament_champion": {
 		"name": "Tournament Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tournament Champion",
 			"",
@@ -19394,6 +19781,7 @@
 	},
 	"tribal_leader": {
 		"name": "Tribal Leader",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tribal Leader",
 			"",
@@ -19457,6 +19845,7 @@
 	},
 	"arcane_experimenter": {
 		"name": "Arcane Experimenter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Arcane Experimenter",
 			"",
@@ -19513,6 +19902,7 @@
 	},
 	"arcane_pretender": {
 		"name": "Arcane Pretender",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Arcane Pretender",
 			"",
@@ -19566,6 +19956,7 @@
 	},
 	"aspis_consortium_commander": {
 		"name": "Aspis Consortium Commander",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Aspis Consortium Commander",
 			"",
@@ -19614,6 +20005,7 @@
 	},
 	"chain_mauler": {
 		"name": "Chain Mauler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Chain Mauler",
 			"",
@@ -19664,6 +20056,7 @@
 	},
 	"desert_stalker": {
 		"name": "Desert Stalker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Desert Stalker",
 			"",
@@ -19723,6 +20116,7 @@
 	},
 	"fury_of_flame": {
 		"name": "Fury of Flame",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fury of Flame",
 			"",
@@ -19790,6 +20184,7 @@
 	},
 	"ice_mage": {
 		"name": "Ice Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Ice Mage",
 			"",
@@ -19852,6 +20247,7 @@
 	},
 	"little_fist": {
 		"name": "Little Fist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Little Fist",
 			"",
@@ -19905,6 +20301,7 @@
 	},
 	"mage_sniper": {
 		"name": "Mage Sniper",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mage Sniper",
 			"",
@@ -19972,6 +20369,7 @@
 	},
 	"numerian_ascetic": {
 		"name": "Numerian Ascetic",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Numerian Ascetic",
 			"",
@@ -20022,6 +20420,7 @@
 	},
 	"pathfinder_venture-captain": {
 		"name": "Pathfinder Venture-Captain",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Pathfinder Venture-Captain",
 			"",
@@ -20074,6 +20473,7 @@
 	},
 	"red_mantis_assassin": {
 		"name": "Red Mantis Assassin",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Red Mantis Assassin",
 			"",
@@ -20120,6 +20520,7 @@
 	},
 	"rider_of_the_steppe": {
 		"name": "Rider of the Steppe",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Rider of the Steppe",
 			"",
@@ -20179,6 +20580,7 @@
 	},
 	"sacred_guardian": {
 		"name": "Sacred Guardian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sacred Guardian",
 			"",
@@ -20246,6 +20648,7 @@
 	},
 	"tunnel_drummer": {
 		"name": "Tunnel Drummer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Tunnel Drummer",
 			"",
@@ -20309,6 +20712,7 @@
 	},
 	"angel_slayer": {
 		"name": "Angel Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Angel Slayer",
 			"",
@@ -20364,6 +20768,7 @@
 	},
 	"arclord_of_nex": {
 		"name": "Arclord of Nex",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Arclord of Nex",
 			"",
@@ -20435,6 +20840,7 @@
 	},
 	"creeping_death": {
 		"name": "Creeping Death",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Creeping Death",
 			"",
@@ -20498,6 +20904,7 @@
 	},
 	"cruel_conjurer": {
 		"name": "Cruel Conjurer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Cruel Conjurer",
 			"",
@@ -20560,6 +20967,7 @@
 	},
 	"diabolical_charmer": {
 		"name": "Diabolical Charmer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Diabolical Charmer",
 			"",
@@ -20617,6 +21025,7 @@
 	},
 	"fighting_school_master": {
 		"name": "Fighting School (Master)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Fighting School (Master)",
 			"",
@@ -20659,6 +21068,7 @@
 	},
 	"giant_hunter": {
 		"name": "Giant Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Giant Hunter",
 			"",
@@ -20720,6 +21130,7 @@
 	},
 	"improvised_hurler": {
 		"name": "Improvised Hurler",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Improvised Hurler",
 			"",
@@ -20773,6 +21184,7 @@
 	},
 	"life_stealer": {
 		"name": "Life Stealer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Life Stealer",
 			"",
@@ -20827,6 +21239,7 @@
 	},
 	"lion_tamer": {
 		"name": "Lion Tamer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Lion Tamer",
 			"",
@@ -20888,6 +21301,7 @@
 	},
 	"mammoth_rider": {
 		"name": "Mammoth Rider",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Mammoth Rider",
 			"",
@@ -20985,6 +21399,7 @@
 	},
 	"master_of_undeath": {
 		"name": "Master of Undeath",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master of Undeath",
 			"",
@@ -21047,6 +21462,7 @@
 	},
 	"pirate_king": {
 		"name": "Pirate King",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Pirate King",
 			"",
@@ -21097,6 +21513,7 @@
 	},
 	"royalty_king": {
 		"name": "Royalty (King)",
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"## Royalty (King)",
 			"",
@@ -21140,6 +21557,7 @@
 	},
 	"unseen_archer": {
 		"name": "Unseen Archer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Unseen Archer",
 			"",
@@ -21193,6 +21611,7 @@
 	},
 	"deep_marshal": {
 		"name": "Deep Marshal",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Deep Marshal",
 			"",
@@ -21250,6 +21669,7 @@
 	},
 	"drow_matron": {
 		"name": "Drow Matron",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Drow Matron",
 			"",
@@ -21308,6 +21728,7 @@
 	},
 	"dwarven_arbalester": {
 		"name": "Dwarven Arbalester",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dwarven Arbalester",
 			"",
@@ -21358,6 +21779,7 @@
 	},
 	"elemental_priest": {
 		"name": "Elemental Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Elemental Priest",
 			"",
@@ -21418,6 +21840,7 @@
 	},
 	"horse_monk": {
 		"name": "Horse Monk",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Horse Monk",
 			"",
@@ -21471,6 +21894,7 @@
 	},
 	"mage_slayer": {
 		"name": "Mage Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mage Slayer",
 			"",
@@ -21527,6 +21951,7 @@
 	},
 	"mounted_paragon": {
 		"name": "Mounted Paragon",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mounted Paragon",
 			"",
@@ -21588,6 +22013,7 @@
 	},
 	"natural_arcanist": {
 		"name": "Natural Arcanist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Natural Arcanist",
 			"",
@@ -21648,6 +22074,7 @@
 	},
 	"spellsword": {
 		"name": "Spellsword",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Spellsword",
 			"",
@@ -21709,6 +22136,7 @@
 	},
 	"taiga_stalker": {
 		"name": "Taiga Stalker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Taiga Stalker",
 			"",
@@ -21768,6 +22196,7 @@
 	},
 	"undead_hunter": {
 		"name": "Undead Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Undead Hunter",
 			"",
@@ -21821,6 +22250,7 @@
 	},
 	"undead_slayer": {
 		"name": "Undead Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Undead Slayer",
 			"",
@@ -21876,6 +22306,7 @@
 	},
 	"axe_lord": {
 		"name": "Axe Lord",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Axe Lord",
 			"",
@@ -21934,6 +22365,7 @@
 	},
 	"black_ice": {
 		"name": "Black Ice",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Black Ice",
 			"",
@@ -21999,6 +22431,7 @@
 	},
 	"daredevil_hunter": {
 		"name": "Daredevil Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Daredevil Hunter",
 			"",
@@ -22053,6 +22486,7 @@
 	},
 	"death_master": {
 		"name": "Death Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Death Master",
 			"",
@@ -22121,6 +22555,7 @@
 	},
 	"dragon_chieftain": {
 		"name": "Dragon Chieftain",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dragon Chieftain",
 			"",
@@ -22173,6 +22608,7 @@
 	},
 	"elven_recluse": {
 		"name": "Elven Recluse",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Elven Recluse",
 			"",
@@ -22224,6 +22660,7 @@
 	},
 	"fiery_dragonkin": {
 		"name": "Fiery Dragonkin",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fiery Dragonkin",
 			"",
@@ -22281,6 +22718,7 @@
 	},
 	"graceful_slayer": {
 		"name": "Graceful Slayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Graceful Slayer",
 			"",
@@ -22334,6 +22772,7 @@
 	},
 	"hateful_scourge": {
 		"name": "Hateful Scourge",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Hateful Scourge",
 			"",
@@ -22399,6 +22838,7 @@
 	},
 	"herald_of_armageddon": {
 		"name": "Herald of Armageddon",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Herald of Armageddon",
 			"",
@@ -22461,6 +22901,7 @@
 	},
 	"iron_duelist": {
 		"name": "Iron Duelist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Iron Duelist",
 			"",
@@ -22513,6 +22954,7 @@
 	},
 	"mage_spy": {
 		"name": "Mage Spy",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mage Spy",
 			"",
@@ -22569,6 +23011,7 @@
 	},
 	"masked_lord": {
 		"name": "Masked Lord",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Masked Lord",
 			"",
@@ -22622,6 +23065,7 @@
 	},
 	"master_historian": {
 		"name": "Master Historian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Historian",
 			"",
@@ -22679,6 +23123,7 @@
 	},
 	"master_storycrafter": {
 		"name": "Master Storycrafter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Storycrafter",
 			"",
@@ -22741,6 +23186,7 @@
 	},
 	"murderous_scythe": {
 		"name": "Murderous Scythe",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Murderous Scythe",
 			"",
@@ -22801,6 +23247,7 @@
 	},
 	"notorious_foil": {
 		"name": "Notorious Foil",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Notorious Foil",
 			"",
@@ -22864,6 +23311,7 @@
 	},
 	"spirit_avenger": {
 		"name": "Spirit Avenger",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Spirit Avenger",
 			"",
@@ -22921,6 +23369,7 @@
 	},
 	"undead_bane": {
 		"name": "Undead Bane",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Undead Bane",
 			"",
@@ -22982,6 +23431,7 @@
 	},
 	"vaultbreaker": {
 		"name": "Vaultbreaker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Vaultbreaker",
 			"",
@@ -23041,6 +23491,7 @@
 	},
 	"warren_chief": {
 		"name": "Warren Chief",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Warren Chief",
 			"",
@@ -23087,6 +23538,7 @@
 	},
 	"dagger_master": {
 		"name": "Dagger Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dagger Master",
 			"",
@@ -23139,6 +23591,7 @@
 	},
 	"dark_nature_priest": {
 		"name": "Dark Nature Priest",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Dark Nature Priest",
 			"",
@@ -23199,6 +23652,7 @@
 	},
 	"demon-blooded_sorcerer": {
 		"name": "Demon-Blooded Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Demon-Blooded Sorcerer",
 			"",
@@ -23260,6 +23714,7 @@
 	},
 	"failed_disciple": {
 		"name": "Failed Disciple",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Failed Disciple",
 			"",
@@ -23312,6 +23767,7 @@
 	},
 	"furious_crusader": {
 		"name": "Furious Crusader",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Furious Crusader",
 			"",
@@ -23375,6 +23831,7 @@
 	},
 	"golem-breaker": {
 		"name": "Golem-Breaker",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Golem-Breaker",
 			"",
@@ -23434,6 +23891,7 @@
 	},
 	"grand_necromancer": {
 		"name": "Grand Necromancer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Grand Necromancer",
 			"",
@@ -23493,6 +23951,7 @@
 	},
 	"grove_guardian": {
 		"name": "Grove Guardian",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Grove Guardian",
 			"",
@@ -23543,6 +24002,7 @@
 	},
 	"refined_reaver": {
 		"name": "Refined Reaver",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Refined Reaver",
 			"",
@@ -23590,6 +24050,7 @@
 	},
 	"rival_explorer": {
 		"name": "Rival Explorer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Rival Explorer",
 			"",
@@ -23653,6 +24114,7 @@
 	},
 	"shadow_cleric": {
 		"name": "Shadow Cleric",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Shadow Cleric",
 			"",
@@ -23723,6 +24185,7 @@
 	},
 	"crime_lord": {
 		"name": "Crime Lord",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Crime Lord",
 			"",
@@ -23775,6 +24238,7 @@
 	},
 	"death_dealer": {
 		"name": "Death Dealer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Death Dealer",
 			"",
@@ -23821,6 +24285,7 @@
 	},
 	"death_whisperer": {
 		"name": "Death Whisperer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Death Whisperer",
 			"",
@@ -23873,6 +24338,7 @@
 	},
 	"fate-bound_mage": {
 		"name": "Fate-Bound Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fate-Bound Mage",
 			"",
@@ -23932,6 +24398,7 @@
 	},
 	"geb_blood_lord": {
 		"name": "Geb Blood Lord",
+		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
 			"## Geb Blood Lord",
 			"",
@@ -23982,6 +24449,7 @@
 	},
 	"mage_hunter": {
 		"name": "Mage Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mage Hunter",
 			"",
@@ -24033,6 +24501,7 @@
 	},
 	"master_spy": {
 		"name": "Master Spy",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Spy",
 			"",
@@ -24094,6 +24563,7 @@
 	},
 	"mithral_master": {
 		"name": "Mithral Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mithral Master",
 			"",
@@ -24151,6 +24621,7 @@
 	},
 	"priest_of_oblivion": {
 		"name": "Priest of Oblivion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Priest of Oblivion",
 			"",
@@ -24210,6 +24681,7 @@
 	},
 	"puppet_master": {
 		"name": "Puppet Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Puppet Master",
 			"",
@@ -24273,6 +24745,7 @@
 	},
 	"rage_flame": {
 		"name": "Rage Flame",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Rage Flame",
 			"",
@@ -24333,6 +24806,7 @@
 	},
 	"sword_savant": {
 		"name": "Sword Savant",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Sword Savant",
 			"",
@@ -24386,6 +24860,7 @@
 	},
 	"ageless_master": {
 		"name": "Ageless Master",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Ageless Master",
 			"",
@@ -24436,6 +24911,7 @@
 	},
 	"arisen_sorcerer": {
 		"name": "Arisen Sorcerer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Arisen Sorcerer",
 			"",
@@ -24496,6 +24972,7 @@
 	},
 	"battle_skald": {
 		"name": "Battle Skald",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Battle Skald",
 			"",
@@ -24553,6 +25030,7 @@
 	},
 	"blade_lord": {
 		"name": "Blade Lord",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Blade Lord",
 			"",
@@ -24603,6 +25081,7 @@
 	},
 	"chaos_arrow": {
 		"name": "Chaos Arrow",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Chaos Arrow",
 			"",
@@ -24669,6 +25148,7 @@
 	},
 	"darkstar": {
 		"name": "Darkstar",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Darkstar",
 			"",
@@ -24725,6 +25205,7 @@
 	},
 	"demon_hunter": {
 		"name": "Demon Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Demon Hunter",
 			"",
@@ -24779,6 +25260,7 @@
 	},
 	"demonologist": {
 		"name": "Demonologist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Demonologist",
 			"",
@@ -24836,6 +25318,7 @@
 	},
 	"doomsayer": {
 		"name": "Doomsayer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Doomsayer",
 			"",
@@ -24894,6 +25377,7 @@
 	},
 	"earthfather": {
 		"name": "Earthfather",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Earthfather",
 			"",
@@ -24954,6 +25438,7 @@
 	},
 	"fatal_axe": {
 		"name": "Fatal Axe",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fatal Axe",
 			"",
@@ -25007,6 +25492,7 @@
 	},
 	"fire_diabolist": {
 		"name": "Fire Diabolist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Fire Diabolist",
 			"",
@@ -25069,6 +25555,7 @@
 	},
 	"god_stealer": {
 		"name": "God Stealer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## God Stealer",
 			"",
@@ -25133,6 +25620,7 @@
 	},
 	"holy_battle_mage": {
 		"name": "Holy Battle Mage",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Holy Battle Mage",
 			"",
@@ -25202,6 +25690,7 @@
 	},
 	"ice_maiden": {
 		"name": "Ice Maiden",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Ice Maiden",
 			"",
@@ -25268,6 +25757,7 @@
 	},
 	"infernal_champion": {
 		"name": "Infernal Champion",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Infernal Champion",
 			"",
@@ -25314,6 +25804,7 @@
 	},
 	"master_duelist": {
 		"name": "Master Duelist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Duelist",
 			"",
@@ -25369,6 +25860,7 @@
 	},
 	"master_universalist": {
 		"name": "Master Universalist",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Master Universalist",
 			"",
@@ -25425,6 +25917,7 @@
 	},
 	"mithral_wizard": {
 		"name": "Mithral Wizard",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Mithral Wizard",
 			"",
@@ -25485,6 +25978,7 @@
 	},
 	"scarred_wanderer": {
 		"name": "Scarred Wanderer",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Scarred Wanderer",
 			"",
@@ -25537,6 +26031,7 @@
 	},
 	"supreme_hunter": {
 		"name": "Supreme Hunter",
+		"sources": [ "NPC Codex" ],
 		"description": [
 			"## Supreme Hunter",
 			"",

@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-weapon",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested weapon."
+		]
+	},
 	"acid": {
 		"name": "acid",
 		"sources": [

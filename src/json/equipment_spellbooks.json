@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-spellbook",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested spellbook."
+		]
+	},
 	"apprentice_chapbook_of_rul_thaven": {
 		"name": "Apprentice Chapbook of Rul Thaven",
 		"sources": [ "Ultimate Magic" ],

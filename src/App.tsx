@@ -3,13 +3,30 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './pages/MainPage';
+import EquipmentArmorPage from './pages/EquipmentArmorPage';
+import EquipmentArmorEnhancementsPage from './pages/EquipmentArmorEnhancementPage';
+import EquipmentSpecMaterialPage from './pages/EquipmentSpecMaterialPage';
+import EquipmentMiscPage from './pages/EquipmentMiscPage';
+import EquipmentPoisonPage from './pages/EquipmentPoisonPage';
+import EquipmentAlchemicalReagentPage from './pages/EquipmentAlchemicalReagentPage';
+import EquipmentSiegeEnginePage from './pages/EquipmentSiegeEnginesPage';
+import EquipmentSpellbookPage from './pages/EquipmentSpellbookPage';
+import EquipmentTechArmorPage from './pages/EquipmentTechArmorPage';
+import EquipmentTechArtifactPage from './pages/EquipmentTechArtifactPage';
+import EquipmentTechCybertechPage from './pages/EquipmentTechCybertechPage';
+import EquipmentTechMiscPage from './pages/EquipmentTechMiscPage';
+import EquipmentTechPharmaceuticalsPage from './pages/EquipmentTechPharmaceuticalPage';
+import EquipmentTechWeaponPage from './pages/EquipmentTechWeaponPage';
+import EquipmentWeaponPage from './pages/EquipmentWeaponPage';
+import EquipmentWeaponEnhancementsPage from './pages/EquipmentWeaponEnhancementPage';
 import RacePage from './pages/RacePage';
 import TraitPage from './pages/TraitPage';
 import FaithPage from './pages/FaithPage';
 import SpellPage from './pages/SpellPage';
+import SpellDefPage from './pages/SpellDefinitionPage';
 import FeatPage from './pages/FeatPage';
 import MonsterPage from './pages/MonsterPage';
-import EquipmentArmorPage from './pages/EquipmentArmorPage';
+import NPCPage from './pages/NPCPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -60,21 +77,21 @@ const App: React.FC = () => {
 						<Route path="/druidcompanion/:id" render={() => <></>} />
 						<Route path="/druiddomain/:id" render={() => <></>} />
 						<Route path="/equipment/armor/:id" render={() => <EquipmentArmorPage />} />
-						<Route path="/equipment/armorenhancement/:id" render={() => <></>} />
-						<Route path="/equipment/material/:id" render={() => <></>} />
-						<Route path="/equipment/misc/:id" render={() => <></>} />
-						<Route path="/equipment/poison/:id" render={() => <></>} />
-						<Route path="/equipment/reagent/:id" render={() => <></>} />
-						<Route path="/equipment/siegeengine/:id" render={() => <></>} />
-						<Route path="/equipment/spellbook/:id" render={() => <></>} />
-						<Route path="/equipment/tech/armor/:id" render={() => <></>} />
-						<Route path="/equipment/tech/artifact/:id" render={() => <></>} />
-						<Route path="/equipment/tech/cybertech/:id" render={() => <></>} />
-						<Route path="/equipment/tech/misc/:id" render={() => <></>} />
-						<Route path="/equipment/tech/pharmaceutical/:id" render={() => <></>} />
-						<Route path="/equipment/tech/weapon/:id" render={() => <></>} />
-						<Route path="/equipment/weapon/:id" render={() => <></>} />
-						<Route path="/equipment/weaponenhance/:id" render={() => <></>} />
+						<Route path="/equipment/armorenhancement/:id" render={() => <EquipmentArmorEnhancementsPage />} />
+						<Route path="/equipment/material/:id" render={() => <EquipmentSpecMaterialPage />} />
+						<Route path="/equipment/misc/:id" render={() => <EquipmentMiscPage />} />
+						<Route path="/equipment/poison/:id" render={() => <EquipmentPoisonPage />} />
+						<Route path="/equipment/reagent/:id" render={() => <EquipmentAlchemicalReagentPage />} />
+						<Route path="/equipment/siegeengine/:id" render={() => <EquipmentSiegeEnginePage />} />
+						<Route path="/equipment/spellbook/:id" render={() => <EquipmentSpellbookPage />} />
+						<Route path="/equipment/tech/armor/:id" render={() => <EquipmentTechArmorPage />} />
+						<Route path="/equipment/tech/artifact/:id" render={() => <EquipmentTechArtifactPage />} />
+						<Route path="/equipment/tech/cybertech/:id" render={() => <EquipmentTechCybertechPage />} />
+						<Route path="/equipment/tech/misc/:id" render={() => <EquipmentTechMiscPage />} />
+						<Route path="/equipment/tech/pharmaceutical/:id" render={() => <EquipmentTechPharmaceuticalsPage />} />
+						<Route path="/equipment/tech/weapon/:id" render={() => <EquipmentTechWeaponPage />} />
+						<Route path="/equipment/weapon/:id" render={() => <EquipmentWeaponPage />} />
+						<Route path="/equipment/weaponenhance/:id" render={() => <EquipmentWeaponEnhancementsPage />} />
 						<Route path="/exploit/:id" render={() => <></>} />
 						<Route path="/feat/:id" render={() => <FeatPage />} />
 						<Route path="/faith/:id" render={() => <FaithPage />} />
@@ -119,7 +136,7 @@ const App: React.FC = () => {
 						<Route path="/monster/template/:id" render={() => <></>} />
 						<Route path="/monster/type/:id" render={() => <></>} />
 						<Route path="/mystery/:id" render={() => <></>} />
-						<Route path="/npc/:id" render={() => <></>} />
+						<Route path="/npc/:id" render={() => <NPCPage />} />
 						<Route path="/oath/:id" render={() => <></>} />
 						<Route path="/oraclecurse/:id" render={() => <></>} />
 						<Route path="/order/:id" render={() => <></>} />
@@ -132,7 +149,7 @@ const App: React.FC = () => {
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
 						<Route path="/source/:id" render={() => <></>} />
 						<Route path="/spell/:id" render={() => <SpellPage />} />
-						<Route path="/spell/definition/:id" render={() => <></>} />
+						<Route path="/spell/definition/:id" render={() => <SpellDefPage />} />
 						<Route path="/spirit/:id" render={() => <></>} />
 						<Route path="/stanceragepower/:id" render={() => <></>} />
 						<Route path="/trait/:id" render={() => <TraitPage />} />

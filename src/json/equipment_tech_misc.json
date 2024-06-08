@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-misc",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested technological equipment."
+		]
+	},
 	"access_card_black": {
 		"name": "access card (black)",
 		"sources": [ "Technology Guide" ],

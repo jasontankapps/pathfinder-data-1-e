@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-weapon-enhance",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested weapon enhancement."
+		]
+	},
 	"consecrated_weapon": {
 		"name": "consecrated weapon",
 		"sources": [ "Adventurer's Armory" ],

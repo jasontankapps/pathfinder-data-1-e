@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-cybertech",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested cybertech."
+		]
+	},
 	"cybernetic_legs": {
 		"name": "cybernetic legs",
 		"sources": [ "Technology Guide" ],

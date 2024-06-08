@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-pharma",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested pharmaceutical."
+		]
+	},
 	"azonite_pellets": {
 		"name": "azonite pellets",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],

@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-armor_enhance",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested armor enhancement."
+		]
+	},
 	"sanctified_shield": {
 		"name": "sanctified shield",
 		"file": "equipmentmiscdisplay8fd2.html",

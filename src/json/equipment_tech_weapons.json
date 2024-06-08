@@ -1,5 +1,13 @@
 {
-	"_prefix": "equipment-tech-weapon",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested tech weapon."
+		]
+	},
 	"monowhip": {
 		"name": "monowhip",
 		"sources": [ "Technology Guide" ],
