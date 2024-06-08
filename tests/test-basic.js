@@ -15,6 +15,7 @@ import npcs from '../src/json/npcs.json' assert {type: 'json'};
 import faiths from '../src/json/faiths.json' assert {type: 'json'};
 import feats from '../src/json/feats.json' assert {type: 'json'};
 import traits from '../src/json/traits.json' assert {type: 'json'};
+import classAbs from '../src/json/class_abilities.json' assert {type: 'json'};
 
 const basics = [
 	{...spells1, ...spells2, ...spells3, ...spells4},
@@ -24,7 +25,8 @@ const basics = [
 	races,
 	faiths,
 	feats,
-	traits
+	traits,
+	classAbs
 ];
 
 const whats = [
@@ -35,7 +37,8 @@ const whats = [
 	"races",
 	"faiths",
 	"feats",
-	"traits"
+	"traits",
+	"class abilities"
 ];
 
 function getCopyOf (object, what, etc) {

@@ -1,6 +1,15 @@
 {
-	"_prefix": "class_abilities",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested class ability."
+		]
+	},
 	"advanced_armor_training": {
+		"name": "Advanced Armor Training",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Advanced Armor Training",
@@ -79,9 +88,24 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 15](source/armor_master's_handbook)  ",
 			"Select one combat maneuver (except sunder). Whether using his armor as leverage against a grappling foe or using its weight to help him stop a bull rush, a fighter can use his armor to protect him from the chosen combat maneuver. While wearing armor or wielding a shield, the fighter gains a bonus to his CMD against the chosen combat maneuver. The bonus is +1 if he's wearing light armor, +2 if he's wearing medium armor, and +3 if he's wearing heavy armor. This bonus increases by 1 at 7th level and every 4 fighter levels thereafter, to a maximum at 19th level of +5 for light armor, +6 for medium armor, and +7 for heavy armor. Mithral armor provides a bonus 1 lower than normal for armor of its type."
-		]
+		],
+		"subhierarchy": [["Fighter", "class/fighter"]]
 	},
 	"advanced_rogue_talents": {
+		"name": "Advanced Rogue Talents",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide",
+			"Pathfinder Unchained",
+			"Magical Marketplace",
+			"Blood of Shadows",
+			"Ultimate Combat",
+			"Elemental Master's Handbook",
+			"Adventurer's Guide",
+			"Agents of Evil",
+			"Ultimate Intrigue",
+			"Heroes of the Streets"
+		],
 		"description": [
 			"## Advanced Rogue Talents",
 			"",
@@ -90,7 +114,7 @@
 			"",
 			"Some talents, marked with an asterisk (&ast;), add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 			"",
-			"**Note:** This list contains advanced talents for both the Rogue and the Unchained Rogue. Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
+			"**Note:** This list contains advanced talents for both the Rogue and the [Unchained Rogue](class/rogue_uc). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
 			"",
 			"---",
 			"",
@@ -217,9 +241,15 @@
 			"**Unwitting Ally (Ex)** ([Ultimate Combat pg. 1](source/ultimate_combat)): A rogue with this talent can spend a swift action to attempt to make an opponent act like an ally for purposes of providing a flank until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank. Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the unwitting ally ability on any opponent within line of sight of the failed attempt for 24 hours.",
 			"",
 			"**Weapon Snatcher (Ex)** ([Ultimate Combat pg. 1](source/ultimate_combat)): A rogue with this talent can make a Sleight of Hand check in place of a combat maneuver check when attempting to disarm an opponent."
-		]
+		],
+		"subhierarchy": [["Rogue", "class/rogue"]]
 	},
 	"advanced_slayer_talents": {
+		"name": "Advanced Slayer Talents",
+		"sources": [
+			"Chronicle of Legends",
+			"Advanced Class Guide"
+		],
 		"description": [
 			"## Advanced Slayer Talents",
 			"",
@@ -245,9 +275,11 @@
 			"**Swallow Reversal (Ex)** ([Chronicle of Legends pg. 7](source/chronicle_of_legends)): This technique, a creation of a legendary Minkaian duelist, mimics the movement of a bird in flight to pierce an opponent's defenses. As an attack action, the slayer can make a single melee attack against his studied target at his highest base attack bonus. When attempting a swallow reversal, the slayer rolls two attack rolls and uses the highest result. If the attack is a critical threat, the slayer attempts to confirm the critical hit as normal. The slayer can use swallow reversal at will, but it can only be used against a given target once per day.",
 			"",
 			"**Woodland Stride (Ex)** ([Advanced Class Guide pg. 55](source/advanced_class_guide)): A slayer with this talent may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects the slayer as normal."
-		]
+		],
+		"subhierarchy": [[ "Slayer", "class/slayer" ]]
 	},
 	"advanced_versatile_performances": {
+		"name": "Advanced Versatile Performances",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Advanced Versatile Performances",
@@ -263,9 +295,11 @@
 			"The types of Perform skills and their associated fighter weapon groups are: Act (close, double), Comedy (flails, thrown), Dance (monk, spears), Keyboard Instruments (hammers, siege engines), Oratory (heavy blades, light blades), Percussion (close, hammers), Sing (close, natural), String (axes, bows), and Wind (monk, thrown).",
 			"",
 			"**Masterpiece** ([Blood of the Beast](source/blood_of_the_beast)): The bard gains a [bardic masterpiece](class/ability/bardic_masterpieces), as if he were giving up a feat to learn it. He must meet the masterpiece's prerequisites, and the masterpiece must list ranks in a Perform skill that the bard has chosen with versatile performance as a prerequisite. This option can be selected multiple times."
-		]
+		],
+		"subhierarchy": [[ "Bard", "class/bard" ]]
 	},
 	"advanced_weapon_training": {
+		"name": "Advanced Weapon Training",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Advanced Weapon Training",
@@ -393,9 +427,19 @@
 			"",
 			"**Source** [Weapon Master's Handbook pg. 19](source/weapon_master's_handbook)  ",
 			"The fighter selects a number of combat feats that he knows equal to his weapon training bonus with the associated weapon group. The selected feats must be ones that require the fighter to choose a type of weapon (such as Weapon Focus and Weapon Specialization), and the fighter must have chosen weapons that belong to the associated fighter weapon group. The fighter is treated as having the selected feats for all the weapons in the associated weapon group that are legal choices for those feats. The fighter is also considered to have those feats with these weapons for the purpose of meeting prerequisites."
-		]
+		],
+		"subhierarchy": [[ "Fighter", "class/fighter" ]]
 	},
 	"animal_foci": {
+		"name": "Animal Foci",
+		"sources": [
+			"Aquatic Adventures",
+			"Advanced Class Guide",
+			"Ultimate Intrigue",
+			"Blood of the Sea",
+			"Legacy of the First World",
+			"Ultimate Wilderness"
+		],
 		"description": [
 			"## Hunter Animal Foci",
 			"",
@@ -720,9 +764,12 @@
 			"**Worm** ([Advanced Class Guide](source/advanced_class_guide))  ",
 			"*Archetype:* Verminous Hunter  ",
 			"The creature gains a 25% chance to treat any critical hit or sneak attack as a normal hit (as the fortification armor special ability). This increases to 50% at 8th level, and 75% at 15th level."
-		]
+		],
+		"subhierarchy": [[ "Hunter", "class/hunter" ]]
 	},
 	"annointings": {
+		"name": "Annointings",
+		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Annointings",
 			"",
@@ -730,7 +777,7 @@
 			"",
 			"The power of transmutation is evident in magical oils and pastes that alter the properties of objects when applied. Though the Runes of Wealth is focused primarily on spells, Haphrama included a remarkable appendix of ingenious theories about transmuting the properties of magical armor and weapons, from which the magical process of anointings has been developed over the centuries. Alchemists can choose any of the following anointings in place of a normal discovery. An alchemist can use any of the anointings he knows a total number of times per day equal to 3 + his alchemist level. Unless an anointing specifies otherwise, all anointings require a standard action to apply (this provokes attacks of opportunity) and last for 1 minute per alchemist level.",
 			"",
-			"Investigators can choose any of these discoveries with the alchemist discovery investigator talent. Clerics with the artifice domain can select an anointing in place of their 8th-level domain ability. Transmuter wizards can gain anointings in place of wizard bonus feats. Witches with transformation patrons can gain a single anointing in place of a major hex. In each of these cases, the character treats levels in the class used to select the anointing as his alchemist level for all relevant anointing calculations.",
+			"[Investigators](class/investigator) can choose any of these discoveries with the alchemist discovery investigator talent. [Clerics](class/cleric) with the artifice domain can select an anointing in place of their 8th-level domain ability. Transmuter [wizards](class/wizard) can gain anointings in place of wizard bonus feats. [Witches](class/witch) with transformation patrons can gain a single anointing in place of a major hex. In each of these cases, the character treats levels in the class used to select the anointing as his alchemist level for all relevant anointing calculations.",
 			"",
 			"### Eldritch Enhancement",
 			"",
@@ -747,9 +794,11 @@
 			"### Orichalcum Dust",
 			"",
 			"The alchemist sprinkles a small quantity of colorful dust that comprises the essence of all four elements. By favoring one element over another in this mixture, the alchemist temporarily changes the energy type of one weapon into another. For example, the alchemist can choose for a bomb to deal acid damage or a weapon with the [shocking burst](magic/armor/shocking_burst) special ability to deal fire damage instead. Once an elemental effect is changed, it cannot be changed again until the anointing's duration expires."
-		]
+		],
+		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
 	},
 	"arcane_discoveries": {
+		"name": "Arcane Discoveries",
 		"description": [
 			"## Arcane Discoveries",
 			"",
@@ -830,9 +879,11 @@
 			"Spymaster's Handbook",
 			"Champions of Purity",
 			"Blood of the Moon"
-		]
+		],
+		"subhierarchy": [[ "Wizard", "class/wizard" ]]
 	},
 	"arcane_schools": {
+		"name": "Arcane Schools",
 		"sources": [
 			"Advanced Player's Guide",
 			"Adventurer's Guide",
@@ -880,12 +931,14 @@
 			"| [Void](arcaneschool/void) | &mdash; |",
 			"| [Water](arcaneschool/water) | Ice, Mud |",
 			"| [Wood](arcaneschool/wood) | &mdash; |"
-		]
+		],
+		"subhierarchy": [[ "Wizard", "class/wizard" ]]
 	},
 	"aspects": {
+		"name": "Aspects",
 		"sources": [],
 		"description": [
-			"Sources: [Ultimate Wilderness](source/ultimate_wilderness), [Wilderness Origins](source/wilderness_origins)",
+			"**Sources:** [Ultimate Wilderness](source/ultimate_wilderness), [Wilderness Origins](source/wilderness_origins)",
 			"",
 			"A shifter draws her primary strength from an association with a specific type of animal. As a result, when a shifter uses her shifter aspect or wild shape class features, she can assume only the forms of her chosen aspects. Until reaching 5th level, a shifter has only a single aspect, but as she increases in level, she gains more control over her metamorphosis, allowing her to take on multiple aspects and even merge aspects.",
 			"",
@@ -927,14 +980,17 @@
 			"| [Tiger](aspect/tiger) |",
 			"| [Wolf](aspect/wolf) |",
 			"| [Wolverine](aspect/wolverine) |"
-		]
+		],
+		"subhierarchy": [[ "Shifter", "class/shifter" ]]
 	},
 	"banners": {
+		"name": "Banners",
+		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Cavalier Banners",
 			"",
 			"**Source** [Chronicle of Legends pg. 4](source/chronicle_of_legends)  ",
-			"Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner.",
+			"Some knights inspire and direct their allies with specialized tactics. A cavalier or [samurai](class/samurai) can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner.",
 			"",
 			"### Fleet Standard (Ex)",
 			"",
@@ -951,9 +1007,11 @@
 			"### Stalwart Standard (Ex)",
 			"",
 			"An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring difficult terrain as an immediate action."
-		]
+		],
+		"subhierarchy": [[ "Cavalier", "class/cavalier" ]]
 	 },
 	"bardic_masterpieces": {
+		"name": "Bardic Masterpieces",
 		"sources": [
 			"Arcane Anthology",
 			"Artifacts and Legends",
@@ -1075,9 +1133,11 @@
 			"| [Vindictive Soliloquy](bardicmasterpiece/vindictive_soliloquy) | Feat or 4th-level bard spell known | Your bombastic speech creates booming reverberations of sound. |",
 			"| [Wildsoul Aria](bardicmasterpiece/wildsoul_aria) | Feat or 4th-level bard spell known | Channeling the mysterious power of the First World, you grant the listener the gift-or curse-of an animal's shape. |",
 			"| [Wise King's Saga](bardicmasterpiece/wise_king's_saga) | Feat or 5th-level bard spell known | Your saga magically weaves the counsel of sagacious ancestors into the telling. |"
-		]
+		],
+		"subhierarchy": [[ "Bard", "class/bard" ]]
 	},
 	"blessings": {
+		"name": "Warpriest Blessings",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -1145,16 +1205,18 @@
 			"| [Water](blessing/water) | Gozreh, Pharasma |",
 			"| [Weather](blessing/weather) | Gozreh, Rovagug |",
 			"| [Wildfire](blessing/wildfire) | Evil deities that offer the Fire blessing or nonevil deities with disasters in their portfolios |"
-		]
+		],
+		"subhierarchy": [[ "Warpriest", "class/warpriest" ]]
 	},
 	"bloodline_mutations": {
+		"name": "Bloodline Mutations",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Bloodline Mutations",
 			"",
 			"**Source** [Magic Tactics Toolbox](source/magic_tactics_toolbox)",
 			"",
-			"Although heirs to similar arcane bloodlines may share commonalities, the unique circumstances in which a bloodline enters a bloodrager or sorcerer's lineage can result in the manifestation of particularly strange or unusual bloodline powers known as mutations. Whenever a bloodrager or a sorcerer gains a new bloodline power, she can swap her bloodline power for a bloodline mutation whose prerequisites she meets. Once this choice is made, it cannot be changed, and a bloodrager or sorcerer cannot swap a bloodline power that she has altered or replaced with an archetype for a bloodline mutation. A bloodrager need not be in a bloodrage to use her bloodline mutation powers.",
+			"Although heirs to similar arcane bloodlines may share commonalities, the unique circumstances in which a bloodline enters a [bloodrager](class/bloodrager) or sorcerer's lineage can result in the manifestation of particularly strange or unusual bloodline powers known as mutations. Whenever a bloodrager or a sorcerer gains a new bloodline power, she can swap her bloodline power for a bloodline mutation whose prerequisites she meets. Once this choice is made, it cannot be changed, and a bloodrager or sorcerer cannot swap a bloodline power that she has altered or replaced with an archetype for a bloodline mutation. A bloodrager need not be in a bloodrage to use her bloodline mutation powers.",
 			"",
 			"Alternatively, a bloodrager or sorcerer can select a bloodline mutation in place of a bloodline bonus feat, provided her class level is at least equal to the level of the bloodline ability the mutation normally replaces.",
 			"",
@@ -1169,9 +1231,11 @@
 			"### Blood Piercing",
 			"",
 			"When you cast a bloodrager or sorcerer spell that deals damage, creatures affected by the spell reduce their energy resistance and spell resistance against the spell's effects by an amount equal to your Strength or Charisma modifier, whichever is higher. You can use this ability once per day at 4th level and one additional time per day for every 5 caster levels you have beyond 3rd, up to four times per day at 18th level. This ability replaces the sorcerer's 9th-level bloodline power or the bloodrager's 4th-level bloodline power."
-		]
+		],
+		"subhierarchy": [[ "Sorcerer", "class/sorcerer" ]]
 	},
 	"bloodrager_bloodlines": {
+		"name": "Bloodrager Bloodlnes",
 		"sources": [],
 		"description": [
 			"## Bloodrager Bloodlines",
@@ -1206,9 +1270,20 @@
 			"| [Undead](bloodragerbloodline/undead) | The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage. |",
 			"| [Verdant](bloodragerbloodline/verdant) | Your body is suffused with raw plant life. When you bloodrage, your plantlike characteristics bolster your durability and grant you some control over vegetation. |",
 			"| [Vestige](bloodragerbloodline/vestige) | You are the descendant of great heroes from a lost civilization. |"
-		]
+		],
+		"subhierarchy": [[ "Bloodrager", "class/bloodrager" ]]
 	},
 	"combat_styles": {
+		"name": "Combat Styles",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide",
+			"Ultimate Intrigue",
+			"Disciple's Doctrine",
+			"Inner Sea Combat",
+			"Advanced Class Guide",
+			"Aquatic Adventures"
+		],
 		"description": [
 			"## Combat Styles",
 			"",
@@ -1274,9 +1349,11 @@
 			"**Underwater** ([Aquatic Adventures pg. 55](source/aquatic_adventures)): If the ranger selects Underwater, he can choose from the following list whenever he gains a combat style feat (Dolphin Dart, Dolphin Circle, Shark Tear, and Shark Leap still require the corresponding style feat, but the ranger ignores all other prerequisites): [Aquadynamic Focus](feat/aquadynamic_focus), [Aquadynamic Shot](feat/aquadynamic_shot), [Dolphin Style](feat/dolphin_style), and [Shark Style](feat/shark_style). At 6th level, he adds [Dolphin Dart](feat/dolphin_dart) and [Shark Tear](feat/shark_tear) to the list. At 10th level, he adds [Dolphin Circle](feat/dolphin_circle) and [Shark Leap](feat/shark_leap) to the list.",
 			"",
 			"**Weapon and Shield** ([Advanced Player's Guide pg. 124](source/advanced_player's_guide)): If the ranger selects weapon and shield, he can choose from the following list whenever he gains a combat style feat: [Improved Shield Bash](feat/improved_shield_bash), [Shield Focus](feat/shield_focus), [Shield Slam](feat/shield_slam), and [Two-Weapon Fighting](feat/two-weapon_fighting). At 6th level, he adds [Saving Shield](feat/saving_shield) and [Shield Master](feat/shield_master) to the list. At 10th level, he adds [Bashing Finish](feat/bashing_finish) and [Greater Shield Focus](feat/greater_shield_focus) to the list."
-		]
+		],
+		"subhierarchy": [[ "Ranger", "class/ranger" ]]
 	},
 	"composite_kinetic_blasts": {
+		"name": "Composite Blasts",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -1322,9 +1399,11 @@
 				"initialColumn": 0,
 				"className": "compositeblasts"
 			}
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"oraclecurses": {
+		"name": "Oracle Curses",
 		"sources": [
 			"Horror Realms",
 			"Blood of Angels",
@@ -1390,16 +1469,18 @@
 			"| [Wolfscarred Face](oraclecurse/wolfscarred_face) | Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. |",
 			"| [Wrecker](oraclecurse/wrecker) | The destructive power of the Abyss and its teeming hordes of demons seeps from your very pores and into your belongings and surroundings. |",
 			"| [Wrecking Mysticism](oraclecurse/wrecking_mysticism) | (Kitsune only) A divine entity has blessed you with a source of eldritch power that erodes your fortitude. |"
-		]
+		],
+		"subhierarchy": [[ "Oracle", "class/oracle" ]]
 	},
 	"dares": {
+		"name": "Dares",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Dares",
 			"",
 			"**Source** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
-			"Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.",
+			"Dares are similar to deeds in that they grant a gunslinger or a [swashbuckler](class/swashbuckler) extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.",
 			"",
 			"A dare can be taken in place of one of the bonus feats a gunslinger or a swashbuckler gains at 4th level and every 4 levels thereafter. A gunslinger or a swashbuckler can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.",
 			"",
@@ -1412,9 +1493,11 @@
 			"**Out for Blood (Ex):** While this dare is active, your critical threat range with firearms (for gunslingers) or light or onehanded piercing melee weapons (for swashbucklers) increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.",
 			"",
 			"**Run Like Hell (Ex):** While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit or panache point the first time you are more than 100 feet away from your closest enemy."
-		]
+		],
+		"subhierarchy": [[ "Swashbuckler", "class/swashbuckler" ]]
 	},
 	"defense_wild_talents": {
+		"name": "Defense Wild Talents",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -1434,9 +1517,11 @@
 			"| [Force Ward (Su)](kinetic/force_ward) | aether | 0 |",
 			"| [Searing Flesh (Su)](kinetic/searing_flesh) | fire | 0 |",
 			"| [Shroud of Water (Su)](kinetic/shroud_of_water) | water | 0 |"
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"disciplines": {
+		"name": "Psychic Disciplines",
 		"sources": [
 			"Adventurer's Guide",
 			"Blood of Shadows",
@@ -1490,9 +1575,11 @@
 				"initialColumn": 1,
 				"className": "endcaps"
 			}
-		]
+		],
+		"subhierarchy": [[ "Psychic", "class/psychic" ]]
 	},
 	"discoveries": {
+		"name": "Alchemist Discoveries",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -1886,9 +1973,11 @@
 			"**Wet Coat** (*[Pathfinder #123: The Flooded Cathedral](source/pathfinder_#123_the_flooded_cathedral)*): An alchemist with this discovery has conditioned his body so that it never completely dries out when on land. He effectively becomes immune to any detrimental effects of his water dependency. Only an alchemist with the aquatic subtype and the water dependency special quality can select this discovery. An alchemist must be at least 4th level before selecting this discovery.",
 			"",
 			"**Wings (Ex)** (*[Ultimate Magic](source/ultimate_magic)*): The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to fly as the fly spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
-		]
+		],
+		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
 	},
 	"domains": {
+		"name": "Domains",
 		"sources": [],
 		"description": [
 			"## Cleric Domains",
@@ -2411,9 +2500,11 @@
 			"| [Zurapadyn](faith/zurapadyn) | [Destruction](domain/destruction), [Evil](domain/evil), [Fire](domain/fire), [Law](domain/law) |",
 			"| [Zursvaater](faith/zursvaater) | [Evil](domain/evil), [Fire](domain/fire), [Law](domain/law), [Trickery](domain/trickery), [War](domain/war) |",
 			"| [Zyphus](faith/zyphus) | [Death](domain/death), [Destruction](domain/destruction), [Evil](domain/evil), [Plant](domain/plant), [War](domain/war) |"
-		]
+		],
+		"subhierarchy": [[ "Cleric", "class/cleric" ]]
 	},
 	"druid_companions": {
+		"name": "Animal Companions",
 		"sources": [],
 		"description": [
 			"## Animal Companions",
@@ -2669,9 +2760,11 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"subhierarchy": [[ "Druid", "class/druid" ]]
 	},
 	"druid_domains": {
+		"name": "Druid Domains",
 		"sources": [],
 		"description": [
 			"## Druid Domains",
@@ -2710,9 +2803,11 @@
 			"| [The Uskbond](druiddomain/the_uskbond) |",
 			"| [Vermin](druiddomain/vermin) |",
 			"| [Wolf](druiddomain/wolf) |"
-		]
+		],
+		"subhierarchy": [[ "Druid", "class/druid" ]]
 	},
 	"elements": {
+		"name": "Kineticist Elements",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -2949,9 +3044,11 @@
 			"**8th** - [Wood Soldiers](kinetic/wood_soldiers)",
 			"",
 			"**9th** - [Forest Siege](kinetic/forest_siege)"
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"evolutions": {
+		"name": "Eidolon Evolutions",
 		"sources": [
 			"Advanced Player's Guide",
 			"Champions of Corruption",
@@ -3163,9 +3260,11 @@
 			"**Ultimate Magic (Sp) ([(Ultimate Magic pg. 78)](source/ultimate_magic)):** An eidolon learns to cast a powerful spell as a spell-like ability. Select one spell from the following list: arcane sight, create food and water, cure serious wounds, daylight, fireball, fly, gaseous form, lightning bolt, major image, stinking cloud, tongues, or water breathing. This spell can be cast once per day as a spell-like ability. The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 13 and must possess the major magic evolution to take this evolution.",
 			"",
 			"The summoner must be at least 11th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list."
-		]
+		],
+		"subhierarchy": [[ "Summoner", "class/summoner" ]]
 	},
 	"unchained_evolutions": {
+		"name": "Unchained Eidolon Evolutions",
 		"sources": [
 			"Pathfinder Unchained",
 			"Horror Realms",
@@ -3324,9 +3423,11 @@
 			"**Spell Resistance (Ex) ([(Pathfinder Unchained pg. 39)](source/pathfinder_unchained)):** The eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the summoner. Requirements: Summoner level 9th.",
 			"",
 			"**Superior Psychic Magic ([(Horror Realms pg. 19)](source/horror_realms)):** The eidolon has 7 points of psychic magic to spend each day. Select one spell from the following list: confusion, deeper darkness, displacement, jester's jauntAPG, id insinuation IIOA, or mind thrust IIIOA. The eidolon can cast that spell as a psychic spell by spending 3 points of psychic energy. The caster level and save DC are the same as for basic psychic magic. This evolution can be selected more than once, selecting a different spell each time. The eidolon's amount of psychic energy available to spend each day does not stack; it uses only the highest number of points granted by its most powerful psychic magic evolution. Requirements: Aberrant subtype; advanced psychic magic evolution; summoner level 11th; Charisma 13."
-		]
+		],
+		"subhierarchy": [[ "Unchained Summoner", "class/summoner_uc" ]]
 	},
 	"exploits": {
+		"name": "Arcanist Exploits",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Arcanist Exploits",
@@ -3387,9 +3488,11 @@
 			"| [Weather Sage (Su)](exploit/weather_sage) | Predict the weather for the next 24 hours. |",
 			"| [Wild Stride (Su)](exploit/wild_stride) | Ignore impediments to movement and vision in natural growth. |",
 			"| [Wooden Flesh (Su)](exploit/wooden_flesh) | Gain the toughness of plant life. |"
-		]
+		],
+		"subhierarchy": [[ "Arcanist", "class/arcanist" ]]
 	},
 	"exploits_of_the_outer_rifts": {
+		"name": "Explots of the Outer Rifts",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Exploits of the Outer Rifts",
@@ -3429,9 +3532,11 @@
 			"### Tentacles (Su)",
 			"",
 			"As a swift action, the arcanist can spend 2 points from his arcane pool to sprout a pair of rubbery tentacles that grow from his upper chest. At the same time, his arms shrink into sickly, malformed stubs, capable of only rudimentary actions such as lifting small objects or making somatic gestures. Rings, bracers, and other items worn on the atrophied arms and hands remain in place, but magic items that require hands to activate cannot be used while the arcanist's arms are in this state. Likewise, the use of weapons or shields is impossible during this time. The arcanist has full control over his hideous tentacles and can use them to deliver touch spells, or as secondary natural weapons that deal tentacle damage as appropriate for a creature of the arcanist's size (1d4 for Medium arcanists, or 1d3 for Small ones) modified by 1/2 the arcanist's Strength score. The arcanist's reach with these tentacles is 5 feet longer than his normal reach."
-		]
+		],
+		"subhierarchy": [[ "Arcanist", "class/arcanist" ]]
 	},
 	"familiars": {
+		"name": "Familiars",
 		"sources": [
 			"Animal Archive",
 			"Bestiary 3",
@@ -3579,9 +3684,11 @@
 			"| [Viper](monster/familiar,_viper) | Master gains a +3 bonus on Bluff checks |",
 			"| [Wallaby](monster/familiar,_wallaby) | Master gains a +3 bonus on Acrobatics checks |",
 			"| [Weasel](monster/familiar,_weasel) | Master gains a +2 bonus on Reflex saves |"
-		]
+		],
+		"subhierarchy": [[ "Wizard", "class/wizard" ]]
 	},
 	"grand_discoveries": {
+		"name": "Grand Discoveries",
 		"sources": [
 			"Advanced Player's Guide",
 			"Champions of Purity"
@@ -3606,9 +3713,18 @@
 			"**Poison Touch** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist gains a poisonous touch, as if under the effects of a [poison](spell/poison) spell. He can suppress or activate this ability as a free action. The physical appearance of how the alchemist generates and delivers his poisonous touch varies from alchemist to alchemist.",
 			"",
 			"**True Mutagen** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists. An alchemist must possess the grand mutagen discovery before selecting this discovery."
-		]
+		],
+		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
 	},
 	"grand_hexes": {
+		"name": "Grand Hexes",
+		"sources": [
+			"Advanced Player's Guide",
+			"Champions of Purity",
+			"Heroes of Golarion",
+			"Magical Marketplace",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Grand Hexes",
 			"",
@@ -3642,9 +3758,11 @@
 			"**Summon Spirit (Sp)** ([Ultimate Magic pg. 83](source/ultimate_magic)): The witch calls forth the ghost of a humanoid creature with no more than 18 Hit Dice. The ghost has its own personality and desires, but is willing to bargain with the witch, as if she had cast greater planar ally. To seal an agreement with the witch, the ghost requires life energy equal to 1 temporary negative level (this is in addition to the standard payment for the ghost's service). This negative level persists as long as the ghost remains in the service of the witch; the witch can end the agreement as a standard action, immediately removing the negative level.",
 			"",
 			"**Witch's Hut (Su)** ([Ultimate Magic pg. 83](source/ultimate_magic)): The witch can animate a hut, small house, covered wagon, tent, or similar construction as an animated object. The hut can be of up to Huge size (approximately 15 feet by 15 feet). The animated hut's hardness increases to 8 and its hit points double. The witch can give the hut the following commands: guard (the hut watches for trespassers within 120 feet using the witch's Perception modifier and screams if it spots any), hide (all entrances are hidden by illusory wall spells and locked with arcane lock), and move (moves at speed 60 on giant bird or bone legs as directed by the witch, even obeying commands such as \"follow me from 100 feet away\"). The hut remains animate for 24 hours, until she dismisses it or she animates another, at which time the hut stops where it is and reverts to its nonmagical state."
-		]
+		],
+		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"greater_exploits": {
+		"name": "Greater Exploits",
 		"sources": [
 			"Advanced Class Guide",
 			"Disciple's Doctrine",
@@ -3682,9 +3800,12 @@
 			"| [Siphon Spell (Su)](greaterexploit/siphon_spell) | Dispel a magic effect or item and refill your arcane reservoir. |",
 			"| [Spell Thief (Su)](greaterexploit/spell_thief) | Redirect a spell away from a target and onto you. |",
 			"| [Suffering Knowledge (Su)](greaterexploit/suffering_knowledge) | Temporarily acquire a spell you failed a save against. |"
-		]
+		],
+		"subhierarchy": [[ "Arcanist", "class/arcanist" ]]
 	},
 	"gunslinger_deeds": {
+		"name": "Deeds",
+		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Deeds",
 			"",
@@ -3748,9 +3869,11 @@
 			"**Death's Shot (Ex)** ([Ultimate Combat pg. 12](source/ultimate_combat)): At 19th level, when the gunslinger scores a critical hit, she can spend 1 grit point to deal normal damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunslinger's level + the gunslinger's Dexterity modifier. On a failed saving throw, the target dies. This is a death attack. Performing this deed does not allow the gunslinger to regain grit from confirming a critical hit or making a killing blow.",
 			"",
 			"**Stunning Shot (Ex)** ([Ultimate Combat pg. 12](source/ultimate_combat)): At 19th level, when a gunslinger hits a creature, she can spend 2 grit points to stun the creature for 1 round. The creature must make a Fortitude saving throw (the DC = 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier). If the creature fails, it is stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect."
-		]
+		],
+		"subhierarchy": [[ "Gunslinger", "class/gunslinger" ]]
 	},
 	"gunslinger_renowned_deeds": {
+		"name": "Renowned Deeds",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Renowned Deeds",
@@ -3770,9 +3893,11 @@
 			"### 15-Level Renowned Deed",
 			"",
 			"**Lethal Patience (Ex):** While wild flurries of bullets are certainly effective at felling foes, veteran gunslingers appreciate the value of lining up the perfect shot. At 15th level, the gunslinger can spend 1 grit point to line up a shot against a target as a full-round action. On her next turn, she can make an attack against the target as a standard action, and if the attack hits, the attack is treated as a critical threat. This deed replaces the *slinger's luck* deed and one other 15th-level deed."
-		]
+		],
+		"subhierarchy": [[ "Gunslinger", "class/gunslinger" ]]
 	},
 	"hellknight_disciplines": {
+		"name": "Hellknight Disciplines",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea World Guide",
@@ -3829,9 +3954,11 @@
 			"**Vigilance (Su; Order of the Scourge)** ([Inner Sea World Guide pg. 279](source/inner_sea_world_guide)): The Hellknight gains low-light vision (this effect is constant). In addition, as a full-round action, the Hellknight can see through up to 5 feet of stone, wood, or similar barriers as if they didn't exist. Metal or denser barriers block this effect. Each use of this ability lasts as long as the Hellknight concentrates, up to a number of rounds equal to the Hellknight's level.",
 			"",
 			"**Wrack (Su; any order)** ([Inner Sea World Guide pg. 279](source/inner_sea_world_guide)): The Hellknight may make a touch attack as a standard action to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being staggered for 1d4 rounds."
-		]
+		],
+		"subhierarchy": [[ "Hellknight", "class/prestige/hellknight" ]]
 	},
 	"hellknight_orders": {
+		"name": "Hellknight Orders",
 		"sources": [
 			"Path of the Hellknight",
 			"Pathfinder #98: Turn of the Torrent"
@@ -3858,9 +3985,30 @@
 			"| [Order of the Scar (Minor Order)](hellknightorder/order_of_the_scar_minor_order) | Mercenary assassin-hunters, this order protects its charges and oppsess the Daggermark Guild and the followers of Achaekek. |",
 			"| [Order of the Torrent (Minor Order)](hellknightorder/order_of_the_torrent_minor_order) | A good order of Hellknights that focus their efforts on rescuing hostages and kidnapping victims. |",
 			"| [Order of the Wall (Minor Order)](hellknightorder/order_of_the_wall_minor_order) | These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization |"
-		]
+		],
+		"subhierarchy": [[ "Hellknight", "class/prestige/hellknight" ]]
 	},
 	"hexes": {
+		"name": "Hexes",
+		"sources": [
+			"Advanced Player's Guide",
+			"Blood of the Moon",
+			"Champions of Purity",
+			"Healer's Handbook",
+			"Heroes of the High Court",
+			"Heroes of the Wild",
+			"Legacy of the First World",
+			"Magical Marketplace",
+			"Monster Codex",
+			"Monster Summoner's Handbook",
+			"People of the Wastes",
+			"Potions and Poisons",
+			"Qadira, Jewel of the East",
+			"The Harrow Handbook",
+			"Ultimate Magic",
+			"Ultimate Wilderness",
+			"Wilderness Origins"
+		],
 		"description": [
 			"## Witch Hexes",
 			"",
@@ -3990,9 +4138,11 @@
 			"**Water Lung (Su)** ([Ultimate Magic pg. 82](source/ultimate_magic)): An air-breathing target can breathe water or an aquatic target can breathe air. This lasts 1 minute. If the witch uses this hex on herself, she can maintain it while she sleeps, allowing her to safely sleep underwater.",
 			"",
 			"**Witch's Bottle (Su)** ([Heroes of the Wild pg. 11](source/heroes_of_the_wild)): Once per day, the witch can perform a 10-minute ritual to create a potion imbued with the power of one of her hexes. Any creature that consumes this potion is affected by the hex as if cast by its creator. The witch can't use that hex until the potion is consumed or rendered inert. Only hexes that can target a creature other than the witch can be distilled in this way. The potion remains potent until consumed or rendered inert by the witch as a free action. A witch must have the cauldron hexcauldron to select this hex."
-		]
+		],
+		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"hidden_strike_talents": {
+		"name": "Vigilante Talents ",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vigilante Talents - Hidden Strike",
@@ -4009,9 +4159,11 @@
 			"**Mighty Ambush (Ex)** ([Ultimate Intrigue pg. 15](source/ultimate_intrigue)): Once per round, when the vigilante succeeds at a hidden strike, he can instantly drop the damaged enemy unconscious for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the vigilante's class level + the higher of the vigilante's Strength and Dexterity modifiers). Whether or not a creature's saving throw is successful, it can't be affected by that vigilante's mighty ambush again for 24 hours. Only a stalker vigilante of at least 10th level can select this talent.",
 			"",
 			"**Throat Jab (Ex)** ([Ultimate Intrigue pg. 16](source/ultimate_intrigue)): The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
-		]
+		],
+		"subhierarchy": [[ "Vigilante", "class/vigilante" ], [ "Stalker", "archetype/vigilante/stalker" ]]
 	},
 	"implements": {
+		"name": "Implements",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -4051,9 +4203,11 @@
 			"| [Performer's Accoutrements (Panoply)](implement/performer's_accoutrements_panoply) | No | This panoply is associated with those who deceive as well as those who entertain. |",
 			"| [Saint's Holy Regalia (Panoply)](implement/saint's_holy_regalia_panoply) | No | This panoply is associated with devoted members of a good-aligned faith and the power of belief. |",
 			"| [Trappings of the Warrior (Panoply)](implement/trappings_of_the_warrior_panoply) | No | This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies. |"
-		]
+		],
+		"subhierarchy": [[ "Occultist", "class/occultist" ]]
 	},
 	"improved_familiars": {
+		"name": "Improved Familiars",
 		"sources": [
 			"Advanced Race Guide",
 			"Bestiary 2",
@@ -4191,9 +4345,11 @@
 			"[^H]: The master must first create the homunculus.",
 			"[^P]: The pyrausta's heart spark glows slightly less brightly, but more steadily. This removes its fast healing ability and heart of flame special abilities.",
 			"[^E]: The spellcaster's alignment **must** match this, instead of being within one step of the familiar's alignment."
-		]
+		],
+		"subhierarchy": [[ "Wizard", "class/wizard" ]]
 	},
 	"infusion_wild_talents": {
+		"name": "Infusions",
 		"sources": [
 			"Elemental Master's Handbook",
 			"Heroes of Golarion",
@@ -4303,9 +4459,11 @@
 				"initialColumn": 1,
 				"className": "infusions"
 			}
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"inquisitions": {
+		"name": "Inquisitions",
 		"description": [
 			"## Inquisitions",
 			"",
@@ -4400,9 +4558,22 @@
 			"Blood of Fiends",
 			"Faiths and Philosophies",
 			"Champions of Purity"
-		]
+		],
+		"subhierarchy": [[ "Inquisition", "class/inquisition" ]]
 	},
 	"investigator_talents": {
+		"name": "Investigator Talents",
+		"sources": [
+			"Advanced Class Guide",
+			"Advanced Class Origins",
+			"Adventurer's Guide",
+			"Disciple's Doctrine",
+			"Elemental Master's Handbook",
+			"Inner Sea Intrigue",
+			"Magic Tactics Toolbox",
+			"Potions and Poisons",
+			"Spymaster's Handbook"
+		],
 		"description": [
 			"## Talents",
 			"",
@@ -4562,9 +4733,11 @@
 			"**Unconventional Inspiration (Ex)** ([Advanced Class Guide pg. 32](source/advanced_class_guide)): An investigator with this talent can pick any one skill. He can add his inspiration die to checks attempted with that skill without expending a use of inspiration.",
 			"",
 			"**Underworld Inspiration (Ex)** ([Advanced Class Guide pg. 32](source/advanced_class_guide)): An investigator can use his inspiration on Bluff, Disable Device, Disguise, Intimidate, or Sleight of Hand checks without expending uses of inspiration, provided he's trained in the skill."
-		]
+		],
+		"subhierarchy": [[ "Investigator", "class/investigator" ]]
 	},
 	"ki_powers": {
+		"name": "Ki Powers",
 		"sources": [
 			"Blood of the Beast",
 			"Martial Arts Handbook",
@@ -4664,9 +4837,11 @@
 			"**Wind Jump (Su)** ([Pathfinder Unchained pg. 18](source/pathfinder_unchained)) A monk with this ki power can spend 1 point from his ki pool as a move action to grant himself a fly speed (with perfect maneuverability) equal to his base land speed. He must end his movement each round on solid ground (or some other surface that can support his weight) or fall as normal. Once activated, this ability lasts for 1 minute. A monk must be at least 8th level and have the high jump ki power before selecting this ki power.",
 			"",
 			"**Zephyr Blow (Su)** ([Wilderness Origins pg. 31](source/wilderness_origins)) By spending 1 ki point as a standard action, a monk with this power can disrupt the wind and create a sharp blast of air, as if using the spell [gust of wind](spell/gust_of_wind). The monk's caster level for this effect is equal to his monk level."
-		]
+		],
+		"subhierarchy": [[ "Unchained Monk", "class/monk_uc" ]]
 	},
 	"legendary_spirits": {
+		"name": "Legendary Spirits",
 		"sources": [
 			"Adventurer's Guide",
 			"Blood of the Ancients",
@@ -4710,9 +4885,11 @@
 			"| [Terminator](legendaryspirit/terminator) | Guardian |",
 			"| [Twice-Damned Prince](legendaryspirit/twice-damned_prince) | Trickster |",
 			"| [Warmonger](legendaryspirit/warmonger) | Marshal |"
-		]
+		],
+		"subhierarchy": [[ "Medium", "class/medium" ]]
 	},
 	"magus_arcana": {
+		"name": "Magus Arcana",
 		"sources": [
 			"Advanced Class Guide",
 			"Agents of Evil",
@@ -4810,9 +4987,23 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"subhierarchy": [[ "Magus", "class/magus" ]]
 	},
 	"major_hexes": {
+		"name": "Major Hexes",
+		"sources": [
+			"Advanced Player's Guide",
+			"Blood of the Moon",
+			"Champions of Purity",
+			"Dirty Tactics Toolbox",
+			"Healer's Handbook",
+			"Heroes of Golarion",
+			"Magical Marketplace",
+			"Potions and Poisons",
+			"The Harrow Handbook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Major Hexes",
 			"",
@@ -4882,9 +5073,11 @@
 			"**Witch's Charge (Su)** ([Champions of Purity pg. 27](source/champions_of_purity)): Once per day when preparing spells, a witch can designate a willing creature as her charge. She gains a constant status effect on this creature and can target it with beneficial touch spells from a range of 30 feet. The creature remains her charge until she designates a new one.",
 			"",
 			"**Withering (Su)** ([Potions and Poisons pg. 10](source/potions_and_poisons)): The witch causes a creature within 30 feet to age rapidly, empowering the witch in the process. The target ages to the next age category (adult to middle-aged, and so on). The witch gains a number of temporary hit points equal to 1d10 + her witch level and a +2 enhancement bonus to either Strength, Dexterity, or Constitution for a number of hours equal to her Intelligence modifier. These effects last for a number of hours equal to the witch's level. A creature cannot be aged past venerable age by this hex, and it can attempt a Fortitude save to negate the effect altogether. Once a creature has successfully saved against the withering hex, it cannot be affected by it again."
-		]
+		],
+		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"major_phrenic_amplifications": {
+		"name": "Major Phrenic Amplifications",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins"
@@ -4914,9 +5107,11 @@
 			"**Telepathic Targeting (Su)** ([Occult Origins pg. 16](source/occult_origins)): By spending 2 points from her phrenic pool, the psychic can target any creature with which she is in telepathic communication (whether via her *telepathic bond* ability, a creature's telepathy ability, or another effect) with the linked spell, even if the creature would normally be out of range. The linked spell must have the mind-affecting descriptor and must have a range of touch or greater.",
 			"",
 			"**Turning Shield (Su)** ([Occult Adventures pg. 64](source/occult_adventures)): The psychic can turn her excess spell energy into a barrier that deflects weaker spells. She can spend a number of points from her phrenic pool equal to the linked spell's level to gain the benefit of [spell turning](spell/spell_turning) for 1 round per psychic level. The number of spell levels she can turn is equal to the level of the linked spell."
-		]
+		],
+		"subhierarchy": [[ "Psychic", "class/psychic" ]]
 	},
 	"masterful_tricks": {
+		"name": "Masterful Tricks",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -4955,9 +5150,11 @@
 			"**Vision of Blood** ([Occult Adventures pg. 44](source/occult_adventures)): When an enemy is struck by the subject, it believes its wound is far more severe, and the shock overwhelms it. The mesmerist can trigger this trick when the subject hits with an attack using a weapon, a natural weapon, or an unarmed strike. The attack's target must succeed at a Will saving throw or be stunned for 1 round. If the triggering attack was a critical hit, the target doesn't get a saving throw.",
 			"",
 			"**Willful Ignorance** ([Occult Origins pg. 12](source/occult_origins)): The subject gains the ability to tell one undetectable lie. When the subject attempts to lie, the mesmerist can trigger this trick. That particular lie resists truth-detecting magic, and creatures attempting to use such magic must succeed at a caster level check against a DC equal to 15 + the mesmerist's class level to succeed; failure means the magic doesn't detect the subject's lie or force her to speak only the truth."
-		]
+		],
+		"subhierarchy": [[ "Mesmerist", "class/mesmerist" ]]
 	},
 	"master_tricks": {
+		"name": "Master Ninja Tricks",
 		"sources": [
 			"Champions of Balance",
 			"Chronicle of Legends",
@@ -5016,9 +5213,15 @@
 			"**Unarmed Combat Mastery (Ex)** ([Ultimate Combat](source/ultimate_combat)) A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat before taking this trick.",
 			"",
 			"**Unbound Steps (Su)** ([Ultimate Combat](source/ultimate_combat)) This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point."
-		]
+		],
+		"subhierarchy": [[ "Ninja", "class/ninja" ]]
 	},
 	"mercies": {
+		"name": "Mercies",
+		"sources": [
+			"Healer's Handbook",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Mercies",
 			"",
@@ -5084,9 +5287,11 @@
 			"**Petrified** ([Healer's Handbook pg. 25](source/healer's_handbook)): The paladin's lay on hands ability also acts as [stone to flesh](spell/stone_to_flesh), but only for the purpose of removing the petrified condition from a creature.",
 			"",
 			"**Stunned** ([PRPG Core Rulebook pg. 62](source/prpg_core_rulebook)): The target is no longer stunned."
-		]
+		],
+		"subhierarchy": [[ "Paladin", "class/paladin" ]]
 	},
 	"mysteries": {
+		"name": "Oracle Mysteries",
 		"sources": [
 			"Advanced Player's Guide",
 			"Blood of Shadows",
@@ -5209,9 +5414,11 @@
 			"| [Ymeri](faith/ymeri) | [Solar](mystery/solar), [Volcano](mystery/volcano) |",
 			"| [Zon-Kuthon](faith/zon-kuthon) | [Dark Tapestry](mystery/dark_tapestry), [Lunar](mystery/lunar), [Shadow](mystery/shadow) |",
 			"| [Zyphus](faith/zyphus) | [Spellscar](mystery/spellscar) |"
-		]
+		],
+		"subhierarchy": [[ "Oracle", "class/oracle" ]]
 	},
 	"ninja_tricks": {
+		"name": "Ninja Tricks",
 		"sources": [
 			"Champions of Balance",
 			"Heroes from the Fringe",
@@ -5312,9 +5519,11 @@
 			"**Wall Climber (Su)** ([Ultimate Combat](source/ultimate_combat)) A ninja with this ability gains a climb speed of 20 feet, but only on vertical surfaces. This ability cannot be used to scale perfectly smooth surfaces or to climb on the underside of horizontal surfaces.",
 			"",
 			"**Weapon Training (Ex)** ([Ultimate Combat](source/ultimate_combat)) A ninja who selects this ninja trick gains [Weapon Focus](feat/weapon_focus) as a bonus feat."
-		]
+		],
+		"subhierarchy": [[ "Ninja", "class/ninja" ]]
 	},
 	"oaths": {
+		"name": "Paladin Oaths",
 		"sources": [
 			"Divine Anthology",
 			"Inner Sea Combat",
@@ -5356,9 +5565,11 @@
 			"| [Oath of the People's Council](oath/oath_of_the_people's_council) | Class Skills, Smite Evil, Aura of Justice, Holy Champion | Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority. |",
 			"| [Oath of the Skyseeker](oath/oath_of_the_skyseeker) | Smite Evil, Divine Bond, Aura of Justice, Aura of Faith | Paladins with the oath of the skyseeker swear to defend the Sky Citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods. |",
 			"| [Oath of Vengeance](oath/oath_of_vengeance) | Channel Positive Energy, Aura of Justice | These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment. |"
-		]
+		],
+		"subhierarchy": [[ "Paladin", "class/paladin" ]]
 	},
 	"orders": {
+		"name": "Orders",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -5397,7 +5608,7 @@
 			"A cavalier cannot change his order without undertaking a lengthy process to dedicate himself to a new cause. When this choice is made, he immediately loses all of the benefits from his old order. He must then follow the edicts of his new order for one entire level without gaining any benefits from that order. Once accomplished, he gains all of the bonuses from his new order. Note that the names of these orders might vary depending upon the campaign setting or GM's preference.",
 			"",
 			"**Source** [Ultimate Combat](source/ultimate_combat)  ",
-			"Certain orders marked with an asterisk (&ast;) are much more likely to be chosen by Samurai than by Cavaliers.",
+			"Certain orders marked with an asterisk (&ast;) are much more likely to be chosen by [Samurai](class/samurai) than by Cavaliers.",
 			"",
 			"| Order | Description |",
 			"| :---: | --- |",
@@ -5439,9 +5650,25 @@
 			"| [Order of the Whip](order/order_of_the_whip) | A cavalier who belongs to this order has pledged himself to cruelty and malice, serving only those who grant him free rein to cause suffering. |",
 			"| [Order of Vengeance](order/order_of_vengeance) | Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them. |",
 			"| [Ronin](order/ronin)&ast; | While most samurai belong to the order of the warrior, some find themselves without a master. Known as ronin, these samurai wander the lands, serving their own code of ideals. |"
-		]
+		],
+		"subhierarchy": [[ "Cavalier", "class/cavalier" ]]
 	},
 	"patrons": {
+		"name": "Witch Patrons",
+		"sources": [
+			"Advanced Player's Guide",
+			"Blood of the Coven",
+			"Champions of Purity",
+			"Healer's Handbook",
+			"Heroes of the High Court",
+			"Heroes of the Wild",
+			"Horror Adventures",
+			"Occult Adventures",
+			"Pathfinder #72: The Witch Queen's Revenge",
+			"Paths of the Righteous",
+			"Ultimate Magic",
+			"Ultimate Wilderness"
+		],
 		"description": [
 			"## Witch Patrons",
 			"",
@@ -5553,9 +5780,11 @@
 			"**Wisdom** ([Advanced Player's Guide pg. 70](source/advanced_player's_guide)): 2nd - [shield of faith](spell/shield_of_faith), 4th - [owl's wisdom](spell/owl's_wisdom), 6th - [magic vestment](spell/magic_vestment), 8th - [lesser globe of invulnerability](spell/lesser_globe_of_invulnerability), 10th - [dream](spell/dream), 12th - [greater globe of invulnerability](spell/greater_globe_of_invulnerability), 14th - [spell turning](spell/spell_turning), 16th - [protection from spells](spell/protection_from_spells), 18th - [mage's disjunction](spell/mage's_disjunction).",
 			"",
 			"**Woodlands** ([Ultimate Wilderness pg. 89](source/ultimate_wilderness)): 2nd - [entangle](spell/entangle), 4th - [accelerate poison](spell/accelerate_poison), 6th - [lily pad stride](spell/lily_pad_stride), 8th - [grove of respite](spell/grove_of_respite), 10th - [tree stride](spell/tree_stride), 12th - [repel wood](spell/repel_wood), 14th - [animate plants](spell/animate_plants), 16th - [control plants](spell/control_plants), 18th - [shambler](spell/shambler)."
-		]
+		],
+		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"phrenic_amplifications": {
+		"name": "Phrenic Amplifications",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -5610,9 +5839,11 @@
 			"**Whisper of Ancients (Ex)** ([Heroes of Golarion pg. 13](source/heroes_of_golarion)): The psychic can send her consciousness into the Astral Plane for a glimpse of synchronous information. While casting a linked divination spell, the psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any associated skill check. She can spend 2 points from her phrenic pool to instead gain a +4 bonus.",
 			"",
 			"**Will of the Dead (Su)** ([Occult Adventures pg. 62](source/occult_adventures)): Even undead creatures can be affected by the psychic's mind-affecting spells. The psychic can spend 2 points from her phrenic pool to overcome an undead creature's immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even on mindless undead, but has no effect on creatures that aren't undead. This amplification can be linked only to spells that have the mind-affecting descriptor."
-		]
+		],
+		"subhierarchy": [[ "Psychic", "class/psychic" ]]
 	},
 	"psi_tech": {
+		"name": "Psi-Tech Discoveries",
 		"sources": [ "Occult Realms" ],
 		"description": [
 			"## Psi-Tech Discoveries",
@@ -5645,9 +5876,11 @@
 			"**Radiation Resistance** ([Occult Realms pg. 13](source/occult_realms)): You apply your Intelligence modifier as a bonus on all Fortitude saves versus the effects of radiation.",
 			"",
 			"**Techsmith** ([Occult Realms pg. 13](source/occult_realms)): Select one type of technological item (armor, cybertech, pharmaceuticals, technological gear, or weapons). You can create items of this type 25% faster than normal, and you gain a +4 bonus on Craft (mechanical) checks (or other checks, as appropriate) to craft items of this type. You can select this discovery multiple times; its effects do not stack. Instead, each time you select this discovery, it applies to a single different type of technological item."
-		]
+		],
+		"subhierarchy": [[ "Psychic", "class/psychic" ]]
 	},
 	"rage_powers": {
+		"name": "Rage Powers",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -5825,7 +6058,7 @@
 					[ "[Raging Swimmer (Ex)](ragepower/raging_swimmer)", "2nd", "Miscellaneous", "Your rage helps you swim." ],
 					[ "[Raging Whirlwind (Su)](ragepower/raging_whirlwind)", "12th", "Miscellaneous", "Your critical hits can lift your foes off their feet." ],
 					[ "[Reckless Abandon (Ex)](ragepower/reckless_abandon)", "2nd", "Offensive", "Take a penalty to AC to gain a bonus on attack rolls." ],
-					[ "[Reflexive Dodge (Ex)](ragepower/reflexive_dodge)", "6th", "Defensive |Your *rolling dodge* can help your Reflex saves." ],
+					[ "[Reflexive Dodge (Ex)](ragepower/reflexive_dodge)", "6th", "Defensive", "Your *rolling dodge* can help your Reflex saves." ],
 					[ "[Regenerative Vigor (Ex)](ragepower/regenerative_vigor)", "6th", "Defensive", "Gain fast healing from *renewed vigor*." ],
 					[ "[Renewed Life (Ex)](ragepower/renewed_life)", "6th", "Defensive", "Your *renewed vitality* can ignore and remove negative levels." ],
 					[ "[Renewed Vigor (Ex)](ragepower/renewed_vigor)", "4th", "Defensive", "Heal yourself with a standard action." ],
@@ -5942,9 +6175,11 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"subhierarchy": [[ "Barbarian", "class/barbarian" ]]
 	},
 	"ranger_traps": {
+		"name": "Ranger Traps",
 		"sources": [
 			"Champions of Balance",
 			"Demon Hunter's Handbook",
@@ -5957,7 +6192,7 @@
 		"description": [
 			"## Ranger Traps",
 			"",
-			"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](feat/learn_ranger_trap) feat or by having the [trapper](class/archetype/ranger/trapper) ranger archetype.",
+			"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](feat/learn_ranger_trap) feat or by having the [trapper](archetype/ranger/trapper) ranger archetype.",
 			"",
 			"Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are Trigger: location, and Reset: none.",
 			"",
@@ -6228,9 +6463,25 @@
 			"**Source** [Magical Marketplace](source/magical_marketplace)",
 			"",
 			"**Effect:** This trap makes a melee attack against the target using the ranger's base attack bonus + his Wisdom modifier for the attack roll. It deals an amount of damage equal to 1d6 + 1/2 the ranger's level. The ranger chooses whether this damage is bludgeoning, piercing, or slashing. If this is a supernatural trap, the attack counts as magical for the purposes of overcoming damage reduction."
-		]
+		],
+		"subhierarchy": [[ "Ranger", "class/ranger" ], [ "Trapper", "archetype/ranger/trapper" ]]
 	},
 	"rogue_talents": {
+		"name": "Rogue Talents",
+		"sources": [
+			"Advanced Player's Guide",
+			"Blood of Shadows",
+			"Champions of Purity",
+			"Cohorts and Companions",
+			"Inner Sea Combat",
+			"Distant Realms",
+			"Magical Marketplace",
+			"Monster Hunter's Handbook",
+			"Pathfinder #130 City in the Lion's Eye",
+			"Potions and Poisons",
+			"PRPG Core Rulebook",
+			"Ultimate Combat"
+		],
 		"description": [
 			"## Rogue Talents",
 			"",
@@ -6239,7 +6490,7 @@
 			"",
 			"Some talents, marked with an asterisk (&ast;), add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 			"",
-			"**Note:** This list contains talents for both the Rogue and the Unchained Rogue. Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
+			"**Note:** This list contains talents for both the Rogue and the [Unchained Rogue](class/rogue_uc). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
 			"",
 			"When Rogue and Unchained Rogue talents have the same name but differing rules, they can be presented in two differnet ways. If the differences are minor, the talent will have additional text *[in brackets]* preceded by a dagger (&dagger;Rogue) or double-dagger (&Dagger;Unchained Rogue) to indicate which class the text applies to. If they differ substantially, there will be separate entries for each class's talent.",
 			"",
@@ -6605,16 +6856,18 @@
 			"**Wild Magic (Sp)** ([Heroes of the Wild pg. 21](source/heroes_of_the_wild)): A rogue with this talent gains the ability to cast a 0-level spell from the druid spell list. This spell can be cast three times per day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Wisdom modifier. The rogue must have a Wisdom score of at least 10 to select this talent.",
 			"",
 			"&dagger;**Without a Trace (Ex)** ([Ranged Tactics Toolbox pg. 7](source/ranged_tactics_toolbox)): When the rogue successfully uses evasion or improved evasion to avoid taking damage, she can attempt to hide as an immediate action. The rogue attempts a Stealth check with a -20 penalty, but gains a +1 bonus on her check for every die of damage the avoided attack would have dealt. The rogue can attempt this check even while being observed, as long as she has cover or concealment or an ability that allows her to use the Stealth skill while being observed without cover or concealment."
-		]
+		],
+		"subhierarchy": [[ "Rogue", "class/rogue" ]]
 	},
 	"sagas": {
+		"name": "Sagas",
 		"sources": [
 			"Magic Tactics Toolbox"
 		],
 		"description": [
 			"## Sagas",
 			"",
-			"Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's raging song ability, sagas function much like bardic masterpieces but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. Bards can learn sagas, using their bardic performance ability instead of raging song.",
+			"Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's raging song ability, sagas function much like bardic masterpieces but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. [Bards](class/bard) can learn sagas, using their bardic performance ability instead of raging song.",
 			"",
 			"### Lay of Scholar-King",
 			"",
@@ -6641,9 +6894,16 @@
 			"",
 			"**Use:** 10 raging song rounds.  ",
 			"**Action:** 10 minutes"
-		]
+		],
+		"subhierarchy": [[ "Skald", "class/skald" ]]
 	},
 	"shaman_hexes": {
+		"name": "Shaman Hexes",
+		"sources": [
+			"Advanced Class Guide",
+			"Heroes from the Fringe",
+			"Legacy of the First World"
+		],
 		"description": [
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)  ",
 			"A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the following hexes or from any of the hexes listed in the description of her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.",
@@ -6689,9 +6949,11 @@
 			"**Wings (upgrade)** You double the number of minutes per day you can use your wings (2 minutes per level), and fly with average maneuverability and a fly speed of 30 feet while the wings are active.",
 			"",
 			"**Witch Hex** ([Advanced Class Guide pg. 37](source/advanced_class_guide)): The shaman selects [any one hex](class/ability/hexes) normally available through the witch's hex class feature. She treats her shaman level as her witch level when determining the powers and abilities of the hex. She uses her Wisdom modifier in place of her Intelligence modifier for the hex. She cannot select major hexes or grand hexes using this ability. The shaman cannot select a witch hex that has the same name as a shaman hex."
-		]
+		],
+		"subhierarchy": [[ "Shaman", "class/shaman" ]]
 	},
 	"shaman_spirits": {
+		"name": "Shaman Spirits",
 		"sources": [
 			"Advanced Class Guide",
 			"Adventurer's Guide",
@@ -6737,9 +6999,11 @@
 			"| [Waves](shamanspirit/waves) | A shaman who selects the waves spirit has a fluid grace that exhibits itself whenever she moves. |",
 			"| [Wind](shamanspirit/wind) | A shaman who selects the wind spirit appears windswept, and her movements seem lithe and carefree. |",
 			"| [Wood](shamanspirit/wood) | A shaman who selects the wood spirit has a skin tone similar to the coloration of trees in her home region. Her vibrant hair is fragrant and resembles leaves and blossoms. |"
-		]
+		],
+		"subhierarchy": [[ "Shaman", "class/shaman" ]]
 	},
 	"simple_kinetic_blasts": {
+		"name": "Simple Blasts",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins",
@@ -6774,9 +7038,23 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"slayer_talents": {
+		"name": "Slayer Talents",
+		"sources": [
+			"Advanced Class Guide",
+			"Advanced Class Origins",
+			"Dirty Tactics Toolbox",
+			"Distant Realms",
+			"Elemental Master's Handbook",
+			"Heroes of Golarion",
+			"Martial Arts Handbook",
+			"Potions and Poisons",
+			"Spymaster's Handbook",
+			"Ultimate Wilderness"
+		],
 		"description": [
 			"## Slayer Talents",
 			"",
@@ -6852,9 +7130,11 @@
 			"**Trapfinding** ([Advanced Class Guide pg. 54](source/advanced_class_guide)): The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and trap sense rogue abilities, using his slayer level as his effective rogue level.",
 			"",
 			"**Unbalancing Trick (Ex)** ([Elemental Master's Handbook pg. 9](source/elemental_master's_handbook)): The slayer gains Improved Trip as a bonus feat, even if she does not meet the prerequisites. At 6th level, she is treated as if she meets all the prerequisites of Greater Trip (although she must take the feat as normal to gain its benefits)."
-		]
+		],
+		"subhierarchy": [[ "Slayer", "class/slayer" ]]
 	},
 	"social_talents": {
+		"name": "Social Talents",
 		"sources": [
 			"Antihero's Handbook",
 			"Blood of the Beast",
@@ -6974,9 +7254,11 @@
 			"In his social identity, the vigilante can take 10 when attempting to aid another on Appraise, Craft, and Knowledge checks. He also gains a bonus equal to half his class level (minimum +1) on Bluff checks to appear knowledgeable in Appraise, Craft (all), and Knowledge (all). If he has the renownUI social talent, he grants a +3 bonus when he successfully aids another on these skill checks, rather than +2. ",
 			"",
 			"In his area of renown, the vigilante's social identity is so trusted as an expert that scholars are inspired to make amazing deductions and intuitive leaps in discussions with him. A creature that has already failed a Knowledge check on a specific subject can attempt one additional check to gain information on the same topic if it receives an aid another bonus from the vigilante when doing so."
-		]
+		],
+		"subhierarchy": [[ "Vigilante", "class/vigilante" ]]
 	},
 	"sorcerer_bloodlines": {
+		"name": "Sorcerer Bloodlines",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -7067,9 +7349,11 @@
 			"| [Unicorn](sorcererbloodline/unicorn) | Deeply empathetic and fiercely protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women. When the two have a particularly strong bond, the unicorn's magic can become a part of the bonded human, and sometimes is even passed on to her children. These children, blessed by their parent's connection to that force of true good, grow up to become sorcerers of the unicorn bloodline. |  |",
 			"| [Verdant](sorcererbloodline/verdant) | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
 			"| [Vestige](sorcererbloodline/vestige) | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. |  |"
-		]
+		],
+		"subhierarchy": [[ "Sorcerer", "class/sorcerer" ]]
 	},
 	"stance_rage_powers": {
+		"name": "Stance Rage Powers",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Stance Rage Powers",
@@ -7092,9 +7376,11 @@
 			"| [Regenerative Stance (Ex)](stanceragepower/regenerative_stance) | 4th | Regain temporary hit points every round. |",
 			"| [Strength Stance (Ex)](stanceragepower/strength_stance) | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
 			"| [Taunting Stance (Ex)](stanceragepower/taunting_stance) | 12th | Leave yourself open to attack, but counterattack with impunity. |"
-		]
+		],
+		"subhierarchy": [[ "Unchained Barbarian", "class/barbarian_uc" ]]
 	},
 	"stares": {
+		"name": "Mesmerist Stares",
 		"sources": [
 			"Occult Adventures",
 			"Occult Origins"
@@ -7155,9 +7441,11 @@
 			"**Timidity** ([Occult Adventures pg. 43](source/occult_adventures)): The hypnotic stare penalty also applies to damage rolls.",
 			"",
 			"**Unaided** ([Heroes of Golarion pg. 9](source/heroes_of_golarion)): The target of the hypnotic stare is not able to grant or receive flanking bonuses."
-		]
+		],
+		"subhierarchy": [[ "Mesmerist", "class/mesmerist" ]]
 	},
 	"style_strikes": {
+		"name": "Style Strikes",
 		"sources": [
 			"Blood of the Beast",
 			"Martial Arts Handbook",
@@ -7198,9 +7486,12 @@
 			"**Spin Kick** ([Pathfinder Unchained pg. 19](source/pathfinder_unchained)) The monk spins about, delivering a kick his foe did not expect. The monk makes his attack against the foe's flat-footed AC. Creatures with the uncanny dodge class feature or a similar effect cannot be caught flat-footed by this style strike. The monk must attack with a kick to use this style strike.",
 			"",
 			"**Throat Crush** ([Martial Arts Handbook pg. 7](source/martial_arts_handbook)) The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](unknown/caster_croak_spellblight). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
-		]
+		],
+		"subhierarchy": [[ "Unchained Monk", "class/monk_uc" ]]
 	},
 	"swashbuckler_deeds": {
+		"name": "Deeds",
+		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Swashbuckler Deeds",
 			"",
@@ -7263,9 +7554,11 @@
 			"**Deadly Stab (Ex)** ([Advanced Class Guide pg. 59](source/advanced_class_guide)): At 19th level, when the swashbuckler confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly stab. The target must succeed at a Fortitude saving throw or die. The DC of this save is 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier. This is a death attack. Performing this deed does not grant the swashbuckler a panache point.",
 			"",
 			"**Stunning Stab (Ex)** ([Advanced Class Guide pg. 59](source/advanced_class_guide)): At 19th level, when a swashbuckler hits a creature with a light or one-handed piercing melee weapon, she can spend 2 panache points to stun the creature for 1 round. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier) or be stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect."
-		]
+		],
+		"subhierarchy": [[ "Swashbuckler", "class/swashbuckler" ]]
 	},
 	"swashbuckler_renowned_deeds": {
+		"name": "Renowned Deeds",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Renowned Deeds",
@@ -7289,9 +7582,11 @@
 			"### 11-Level Renowned Deed",
 			"",
 			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the samurai's greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the vengeful heart renowned deed to select this deed. This deed replaces the subtle blade and cheat death deeds, plus an additional 11th-level deed."
-		]
+		],
+		"subhierarchy": [[ "Swashbuckler", "class/swashbuckler" ]]
 	},
 	"tricks": {
+		"name": "Mesmerist Tricks",
 		"sources": [
 			"Blood of the Beast",
 			"Heroes of Golarion",
@@ -7370,9 +7665,11 @@
 			"**Vanish Arrow** ([Occult Adventures pg. 42](source/occult_adventures)): With a flourish, the mesmerist snatches a projectile from an enemy before it can be shot. The mesmerist can trigger this trick when the subject is targeted by a ranged weapon attack, before the attack roll is made. The mesmerist attempts a Sleight of Hand check opposed by the attacker's Perception check. If the mesmerist succeeds, that ranged attack automatically misses, and the projectile appears stowed on the mesmerist's person. If the attacker is making a full attack, this affects only one of the attacks (of the mesmerist's choice). If the attack is made with a javelin or other thrown weapon, the attacker gains a +4 bonus on its Perception check. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.",
 			"",
 			"**Voice of Reason** ([Heroes of Golarion pg. 9](source/heroes_of_golarion)): The subject can more easily pierce sight-based illusions with the mesmerist's aid. The mesmerist can trigger this trick when the subject attempts a saving throw to disbelieve a sight-based illusion effect, but only so long as the mesmerist is not affected by or has disbelieved the illusion himself. The subject receives an insight bonus on her saving throw to disbelieve the illusion equal to the mesmerist's Charisma modifier. This trick cannot be used for illusions that do not allow a saving throw."
-		]
+		],
+		"subhierarchy": [[ "Mesmerist", "class/mesmerist" ]]
 	},
 	"unique_patrons": {
+		"name": "Unique Patrons",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Unique Patrons",
@@ -7462,9 +7759,12 @@
 			"**Available Patron Themes:** Insanity, Occult, Stars, Transformation",
 			"",
 			"Spell Changes: 2nd-[lesser confusion](spell/lesser_confusion), 8th-[dreadscape](spell/dreadscape), 10th-[compelling rant](spell/compelling_rant)."
-		]
+		],
+		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"variant_channeling": {
+		"name": "Varient Channeling",
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Variant Channeling",
 			"",
@@ -7538,9 +7838,11 @@
 			"| Undeath | This works like a standard channel (not halved). | The healing effect is enhanced for undead creatures and those with negative energy affinity. |",
 			"| Weapons | Creatures gain a channel bonus on attack rolls until the end of your next turn when wielding your deity's favored weapon. | Creatures gain a channel penalty on attack and damage rolls until the end of your next turn when wielding manufactured weapons. |",
 			"| Weather | Creatures gain a channel bonus on saving throws against electricity, sonic, and wind effects. | Each time you channel energy, you may change half the channeled energy damage to electricity or sonic damage. |"
-		]
+		],
+		"subhierarchy": [[ "Cleric", "class/cleric" ]]
 	},
 	"vigilante_talents": {
+		"name": "Vigilante Talents",
 		"sources": [
 			"Adventurer's Guide",
 			"Antihero's Handbook",
@@ -7722,9 +8024,11 @@
 			"**Weapon Familiarity (Ex)** ([Disciple's Doctrine pg. 23](source/disciple's_doctrine)): The vigilante selects either two simple or martial weapons or one exotic weapon when he gains this talent. He gains proficiency with his chosen weapon or weapons. At 8th level, he also gains Weapon Focus as a bonus feat for his selected weapon or weapons. Only an avenger vigilante can select this talent.",
 			"",
 			"**Whip of Vengeance (Ex)** ([Inner Sea Intrigue pg. 33](source/inner_sea_intrigue)): The vigilante gains Whip Mastery as a bonus feat. If he already has the Whip Mastery feat, he can immediately swap it for another feat he qualified for at the level when he chose Whip Mastery. In addition, if he is at least 6th level, he also gains the Improved Whip Mastery feat. He treats his vigilante level as his vigilante base attack bonus for the purpose of meeting prerequisites of feats and abilities that have Whip Mastery as a prerequisite."
-		]
+		],
+		"subhierarchy": [[ "Vigilante", "class/vigilante" ]]
 	},
 	"vows": {
+		"name": "Monk Vows",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Monk Vows",
@@ -7750,9 +8054,12 @@
 			"**Silence** ([Ultimate Magic pg. 51](source/ultimate_magic)) The monk must speak no words and attempt to be quiet in his actions. Accidental noises and the sounds of battle (such as the sound of a fist or weapon striking an opponent) do not affect his vow, though most monks with this vow choose their weapons and opponents so as to minimize even these sounds. The monk is allowed to make a nonvocal noise to warn another of danger (such as by stomping or clapping). The monk is allowed to use gestures and motions to communicate with others (including sign language) and is allowed to write. A monk with this vow increases his ki pool by 1 ki point for every 6 monk levels (minimum +1).",
 			"",
 			"**Truth** ([Ultimate Magic pg. 51](source/ultimate_magic)) The monk is not allowed to deliberately speak any lies, including bluffing, stating half-truths with the intent to deceive, exaggerating, telling white lies, and so on. This applies to all forms of communication. If presented with circumstances where telling the truth would bring harm to another, the monk remains silent. Many monks of this vow also take a vow of silence to show their commitment. A monk with this vow increases his ki pool by 1 ki point for every 5 monk levels (minimum +1)."
-		]
+		],
+		"subhierarchy": [[ "Monk", "class/monk" ]]
 	},
 	"weapon_groups": {
+		"name": "Weapon Groups",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Fighter Weapon Groups",
 			"",
@@ -8138,9 +8445,11 @@
 			"- [spear](equipment/weapon/spear)",
 			"- [throwing axe](equipment/weapon/throwing_axe)",
 			"- [unarmed strike](equipment/weapon/unarmed_strike)"
-		]
+		],
+		"subhierarchy": [[ "Fighter", "class/fighter" ]]
 	},
 	"wild_utility_talents": {
+		"name": "Wild Utility Talents",
 		"sources": [
 			"Elemental Master's Handbook",
 			"Healer's Handbook",
@@ -8329,14 +8638,16 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
 	"ward_aspects": {
+		"name": "Ward Aspects",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Ward Aspects",
 			"",
-			"Source [Wilderness Origins](source/wilderness_origins)  ",
+			"**Source** [Wilderness Origins](source/wilderness_origins)  ",
 			"When a character in tune with nature comes upon an area that a [kami](monster/family/kami) could ward but that is lacking a guardian, she has the option of making that area her ward in a symbiotic relationship. Whenever a character with the animal focus class feature is within 100 feet per class level of one of the wards listed below, she can use the associated ward aspect instead of one of the normal options for her animal focus class feature. Hunters can apply the benefits of a ward aspect to themselves, but not to their animal companions.",
 			"",
 			"If a character with the animal focus class feature spends 30 minutes meditating while within 10 feet per class level of the ward, she attunes herself to that ward. A character attuned to a ward can use the associated ward aspect while within 1 mile per class level. A character can be attuned to only one ward at a time, but depending on her surroundings, she could choose from among multiple wards. A character with the second animal focus class feature can still only use one ward aspect at a time, no matter how many aspects she has available to her.",
@@ -8352,6 +8663,7 @@
 			"*Waymarker:* The creature gains a +4 competence bonus on attack rolls with improvised weapons. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
 			"*Well:* The creature gains a +2 shield bonus to AC. This bonus increases to +4 at 8th level and +6 at 15th level."
-		]
+		],
+		"subhierarchy": [[ "Hunter", "class/hunter" ]]
 	}
 }

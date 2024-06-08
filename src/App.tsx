@@ -46,6 +46,7 @@ const EquipmentWeaponEnhancementsPage = lazy(() => import("./pages/EquipmentWeap
 const RacePage = lazy(() => import("./pages/RacePage"));
 const TraitPage = lazy(() => import("./pages/TraitPage"));
 const FaithPage = lazy(() => import("./pages/FaithPage"));
+const ClassAbilityPage = lazy(() => import("./pages/ClassAbilityPage"));
 const SpellPage = lazy(() => import("./pages/SpellPage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
 const FeatPage = lazy(() => import("./pages/FeatPage"));
@@ -66,7 +67,7 @@ const App: React.FC = () => {
 						<Route path="/blessing/:id" render={() => <></>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <></>} />
 						<Route path="/class/:id" render={() => <></>} />
-						<Route path="/class/ability/:id" render={() => <></>} />
+						<Route path="/class/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
 						<Route path="/class/companion/:id" render={() => <></>} />
 						<Route path="/class/npc/:id" render={() => <></>} />
 						<Route path="/class/prestige/:id" render={() => <></>} />
