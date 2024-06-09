@@ -62,8 +62,10 @@ const MagicRodPage = lazy(() => import("./pages/MagicRodPage"));
 const MagicStaffPage = lazy(() => import("./pages/MagicStaffPage"));
 const MagicWeaponPage = lazy(() => import("./pages/MagicWeaponPage"));
 const MagicWondrousPage = lazy(() => import("./pages/MagicWondrousPage"));
+const RulesPage = lazy(() => import("./pages/RulesPage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
+const mainPage = () => <MainPage />;
 
 const App: React.FC = () => {
 	return (
@@ -72,7 +74,7 @@ const App: React.FC = () => {
 				<IonSplitPane contentId="main">
 					<Menu />
 					<IonRouterOutlet id="main">
-						<Route path="/" exact={true} render={() => <MainPage />} />
+						<Route path="/" exact={true} render={mainPage} />
 						<Route path="/arcaneschool/:id" render={() => <></>} />
 						<Route path="/aspect/:id" render={() => <></>} />
 						<Route path="/bardicmasterpiece/:id" render={() => <></>} />
@@ -159,7 +161,7 @@ const App: React.FC = () => {
 						<Route path="/outsiderspirit/:id" render={() => <></>} />
 						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
 						<Route path="/ragepower/:id" render={() => <></>} />
-						<Route path="/rule/:id" render={() => <></>} />
+						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
 						<Route path="/shamanspirit/:id" render={() => <></>} />
 						<Route path="/skill/:id" render={() => <></>} />
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
@@ -171,7 +173,7 @@ const App: React.FC = () => {
 						<Route path="/trait/:id" render={() => <Suspense fallback={<Loading />}><TraitPage /></Suspense>} />
 						<Route path="/trap/:id" render={() => <></>} />
 						<Route path="/umr/:id" render={() => <></>} />
-						<Route path="/:mainpage" render={() => <MainPage />} />
+						<Route path="/:mainpage" render={mainPage} />
 					</IonRouterOutlet>
 				</IonSplitPane>
 			</IonReactRouter>

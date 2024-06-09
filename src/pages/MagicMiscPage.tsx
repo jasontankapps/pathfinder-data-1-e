@@ -40,7 +40,7 @@ const magic = {
 	...magic_tattoo,
 	...magic_throne
 };
-const hierarchy: HierarchyArray = [["Magic Items", "magic"], ["Miscellaneous Magic Items", "magic_misc"]];
+const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Miscellaneous Magic Items", "magic_misc"]];
 
 type Data = typeof magic;
 

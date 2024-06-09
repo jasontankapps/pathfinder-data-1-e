@@ -5,7 +5,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Magic Items", "magic"], ["Magic Staves", "magic_staves"]];
+const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Magic Staves", "magic_staves"]];
 
 type Data = typeof magic;
 
