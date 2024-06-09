@@ -1,5 +1,4 @@
 {
-	"_prefix": "magic-necrotoxin",
 	"entropic_dust": {
 		"name": "Entropic Dust",
 		"sources": [ "Black Markets" ],
@@ -123,7 +122,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [undead anatomy I](spell/undead anatomy_1); **Cost** 225 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [undead anatomy I](spell/undead_anatomy_1); **Cost** 225 gp"
 		]
 	}
 }

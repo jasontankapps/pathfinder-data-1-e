@@ -1,5 +1,13 @@
 {
-	"_prefix": "magic-armor",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested magic armor."
+		]
+	},
 	"mithral_shirt": {
 		"name": "Mithral Shirt",
 		"file": "magicarmordisplaya67a.html",
@@ -1321,7 +1329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast shape_1); **Price** 6,160 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1); **Price** 6,160 gp"
 		]
 	},
 	"elemental_bulwark": {
@@ -1760,7 +1768,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast shape_1), disguise self, [summon monster I](spell/summon_monster_1); **Price** 9,025 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1), disguise self, [summon monster I](spell/summon_monster_1); **Price** 9,025 gp"
 		]
 	},
 	"hide_of_the_hagfish": {
@@ -1950,7 +1958,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast shape_2); **Price** 10,165 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast_shape_2); **Price** 10,165 gp"
 		]
 	},
 	"the_forbidden_name": {
@@ -2524,7 +2532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast shape_2), poison; **Price** 14,000 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast_shape_2), poison; **Price** 14,000 gp"
 		]
 	},
 	"blackjacket": {
@@ -2643,7 +2651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), control water, [elemental body I](spell/elemental body_1); **Price** 15,350 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), control water, [elemental body I](spell/elemental_body_1); **Price** 15,350 gp"
 		]
 	},
 	"maiden's_panoply": {
@@ -2719,11 +2727,11 @@
 			"",
 			"In addition, once per day on command, the wearer can transform the scarab breastplate into a swarm of scarab beetles that skitter from her chest to attack creatures nearby. This swarm has statistics identical to an army ant swarm and attacks any creatures within its space. The wearer can command the swarm to move (including changing the shape of the swarm) as a move action, but the swarm must remain adjacent to her. If the swarm is reduced to 0 hit points, if the wearer is forced to move away from the swarm, or if the wearer commands it to return to her as a move action, the swarm crawls back onto the wearer's torso and returns to armor form. While the swarm is active, the wearer is not considered to be wearing the scarab breastplate (except for purposes of commanding the swarm) and gains no defensive benefits from it.",
 			"",
-			"A druid of 6th level wearing a scarab breastplate can use her wild shape ability to duplicate [vermin shape I](spell/vermin shape_1). At 8th level, she can also use it to duplicate [vermin shape II](spell/vermin shape_2).",
+			"A druid of 6th level wearing a scarab breastplate can use her wild shape ability to duplicate [vermin shape I](spell/vermin_shape_1). At 8th level, she can also use it to duplicate [vermin shape II](spell/vermin_shape_2).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creeping doom, spell turning, [vermin shape II](spell/vermin shape_2); **Price** 16,350 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creeping doom, spell turning, [vermin shape II](spell/vermin_shape_2); **Price** 16,350 gp"
 		]
 	},
 	"advocate's_armor": {
@@ -2851,13 +2859,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_ogre": {
@@ -2880,7 +2888,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form of the dragon_1), freedom of movement, major curse; **Price** 22,300 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form_of_the_dragon_1), freedom of movement, major curse; **Price** 22,300 gp"
 		]
 	},
 	"hallowed_chain,_greater_varisian": {
@@ -2940,13 +2948,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_hill_giant": {
@@ -3045,7 +3053,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast shape_3); **Price** 29,115 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast_shape_3); **Price** 29,115 gp"
 		]
 	},
 	"giant-hide_armor_stone,_fire,_or_frost_giant": {
@@ -3062,13 +3070,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_stone_fire_or_frost_giant": {
@@ -3088,13 +3096,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_troll": {
@@ -3214,13 +3222,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_cloud_giant": {
@@ -3240,13 +3248,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_storm_giant": {
@@ -4329,7 +4337,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast shape_1), force punch; **Price** 10,840 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1), force punch; **Price** 10,840 gp"
 		]
 	},
 	"bastion_of_the_inheritor": {

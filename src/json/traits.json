@@ -22955,7 +22955,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** Whispering Way",
 			"",
-			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast sotto voce (page 61) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast [sotto voce](spell/sotto_voice) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
 		"subhierarchy": [[ "Faith Traits", "traits_faith" ]]
 	},

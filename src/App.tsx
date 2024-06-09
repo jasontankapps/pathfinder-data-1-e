@@ -52,6 +52,18 @@ const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
 const FeatPage = lazy(() => import("./pages/FeatPage"));
 const MonsterPage = lazy(() => import("./pages/MonsterPage"));
 const NPCPage = lazy(() => import("./pages/NPCPage"));
+const MagicMiscPage = lazy(() => import("./pages/MagicMiscPage"));
+const MagicArmorPage = lazy(() => import("./pages/MagicArmorPage"));
+const MagicArtifactPage = lazy(() => import("./pages/MagicArtifactPage"));
+const MagicEnhancementPage = lazy(() => import("./pages/MagicEnhancementPage"));
+const MagicIounStonePage = lazy(() => import("./pages/MagicIounStonePage"));
+const MagicRingPage = lazy(() => import("./pages/MagicRingPage"));
+const MagicRodPage = lazy(() => import("./pages/MagicRodPage"));
+const MagicStaffPage = lazy(() => import("./pages/MagicStaffPage"));
+const MagicWeaponPage = lazy(() => import("./pages/MagicWeaponPage"));
+const MagicWondrousPage = lazy(() => import("./pages/MagicWondrousPage"));
+
+const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 
 const App: React.FC = () => {
 	return (
@@ -107,32 +119,32 @@ const App: React.FC = () => {
 						<Route path="/kinetic/:id" render={() => <></>} />
 						<Route path="/legendaryspirit/:id" render={() => <></>} />
 						<Route path="/madness/:id" render={() => <></>} />
-						<Route path="/magic/altar/:id" render={() => <></>} />
-						<Route path="/magic/armor/:id" render={() => <></>} />
-						<Route path="/magic/artifact/:id" render={() => <></>} />
-						<Route path="/magic/augmentation/:id" render={() => <></>} />
-						<Route path="/magic/enhancement/:id" render={() => <></>} />
-						<Route path="/magic/favor/:id" render={() => <></>} />
-						<Route path="/magic/fetish/:id" render={() => <></>} />
-						<Route path="/magic/fleshcrafting/:id" render={() => <></>} />
-						<Route path="/magic/graft/:id" render={() => <></>} />
-						<Route path="/magic/implant/:id" render={() => <></>} />
-						<Route path="/magic/ioun/:id" render={() => <></>} />
-						<Route path="/magic/necrograft/:id" render={() => <></>} />
-						<Route path="/magic/necrotoxin/:id" render={() => <></>} />
-						<Route path="/magic/piercing/:id" render={() => <></>} />
-						<Route path="/magic/plant/:id" render={() => <></>} />
-						<Route path="/magic/poison/:id" render={() => <></>} />
-						<Route path="/magic/relic/:id" render={() => <></>} />
-						<Route path="/magic/ring/:id" render={() => <></>} />
-						<Route path="/magic/rod/:id" render={() => <></>} />
-						<Route path="/magic/set/:id" render={() => <></>} />
-						<Route path="/magic/staff/:id" render={() => <></>} />
-						<Route path="/magic/talisman/:id" render={() => <></>} />
-						<Route path="/magic/tattoo/:id" render={() => <></>} />
-						<Route path="/magic/throne/:id" render={() => <></>} />
-						<Route path="/magic/weapon/:id" render={() => <></>} />
-						<Route path="/magic/wondrous/:id" render={() => <></>} />
+						<Route path="/magic/altar/:id" render={magicMisc} />
+						<Route path="/magic/armor/:id" render={() => <Suspense fallback={<Loading />}><MagicArmorPage /></Suspense>} />
+						<Route path="/magic/artifact/:id" render={() => <Suspense fallback={<Loading />}><MagicArtifactPage /></Suspense>} />
+						<Route path="/magic/augmentation/:id" render={magicMisc} />
+						<Route path="/magic/enhancement/:id" render={() => <Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense>} />
+						<Route path="/magic/favor/:id" render={magicMisc} />
+						<Route path="/magic/fetish/:id" render={magicMisc} />
+						<Route path="/magic/fleshcrafting/:id" render={magicMisc} />
+						<Route path="/magic/graft/:id" render={magicMisc} />
+						<Route path="/magic/implant/:id" render={magicMisc} />
+						<Route path="/magic/ioun/:id" render={() => <Suspense fallback={<Loading />}><MagicIounStonePage /></Suspense>} />
+						<Route path="/magic/necrograft/:id" render={magicMisc} />
+						<Route path="/magic/necrotoxin/:id" render={magicMisc} />
+						<Route path="/magic/piercing/:id" render={magicMisc} />
+						<Route path="/magic/plant/:id" render={magicMisc} />
+						<Route path="/magic/poison/:id" render={magicMisc} />
+						<Route path="/magic/relic/:id" render={magicMisc} />
+						<Route path="/magic/ring/:id" render={() => <Suspense fallback={<Loading />}><MagicRingPage /></Suspense>} />
+						<Route path="/magic/rod/:id" render={() => <Suspense fallback={<Loading />}><MagicRodPage /></Suspense>} />
+						<Route path="/magic/set/:id" render={magicMisc} />
+						<Route path="/magic/staff/:id" render={() => <Suspense fallback={<Loading />}><MagicStaffPage /></Suspense>} />
+						<Route path="/magic/talisman/:id" render={magicMisc} />
+						<Route path="/magic/tattoo/:id" render={magicMisc} />
+						<Route path="/magic/throne/:id" render={magicMisc} />
+						<Route path="/magic/weapon/:id" render={() => <Suspense fallback={<Loading />}><MagicWeaponPage /></Suspense>} />
+						<Route path="/magic/wondrous/:id" render={() => <Suspense fallback={<Loading />}><MagicWondrousPage /></Suspense>} />
 						<Route path="/magusarcana/:id" render={() => <></>} />
 						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/monster/family/:id" render={() => <></>} />

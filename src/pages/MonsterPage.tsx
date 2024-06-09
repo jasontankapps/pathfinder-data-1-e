@@ -13,7 +13,7 @@ import './Page.css';
 
 const monsters = {...monsters1, ...monsters2, ...monsters3, ...monsters4, ...monsters5, ...monsters_u, ...monsters_m};
 
-const hierarchy: HierarchyArray = [["Monsters", "monsters"]];
+const hierarchy: HierarchyArray = [["Main", "main"], ["Monsters", "monsters"]];
 
 type Data = typeof monsters;
 

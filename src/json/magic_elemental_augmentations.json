@@ -1,33 +1,4 @@
 {
-	"_table": {
-		"id": "devil talismans table",
-		"headers": [
-			"Augmentation",
-			"Slot",
-			"Price",
-			"Weight"
-		],
-		"types": [
-			null,
-			null,
-			"gp",
-			"lbs"
-		],
-		"data": [
-			"| Augmentation | Price |",
-			"| --- | --- |",
-			"| [Blazing Eyes](magic/augmentation/blazing_eyes) | 42000 |",
-			"| [Blazing Hand](magic/augmentation/blazing_hand) | 16000 |",
-			"| [Hoarfrost Bones](magic/augmentation/hoarfrost_bones) | 85000 |",
-			"| [Quicksilver Blood](magic/augmentation/quicksilver_blood) | 62000 |",
-			"| [Smoldering Blood](magic/augmentation/smoldering_blood) | 8000 |",
-			"| [Vaporous Lungs](magic/augmentation/vaporous_lungs) | 10800 |",
-			"| [Whirlpool Maw](magic/augmentation/whirlpool_maw) | 19000 |"
-		],
-		"initialColumn": 0,
-		"className": "simple"
-	},
-	"_prefix": "magic-elemental",
 	"blazing_eyes": {
 		"name": "Blazing Eyes",
 		"sources": [ "Elemental Master's Handbook" ],

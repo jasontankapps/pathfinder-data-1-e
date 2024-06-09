@@ -1,5 +1,13 @@
 {
-	"_prefix": "magic-weapon",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested magic weapon."
+		]
+	},
 	"darkness_arrow": {
 		"name": "Darkness Arrow",
 		"sources": [ "Villain Codex" ],
@@ -4355,7 +4363,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast shape_3), poison; **Price** 9,505 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast_shape_3), poison; **Price** 9,505 gp"
 		]
 	},
 	"golem_gauntlet": {
@@ -8157,7 +8165,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, earthquake, [giant form I](spell/giant form_1), lead blades, shrink item; **Price** 49,320 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, earthquake, [giant form I](spell/giant_form_1), lead blades, shrink item; **Price** 49,320 gp"
 		]
 	},
 	"luck_blade_2_wishes": {
@@ -8648,7 +8656,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); [summon monster IV](spell/summon monster_4); **Price** 27,262 gp",
+			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); [summon monster IV](spell/summon_monster_4); **Price** 27,262 gp",
 			"",
 			"### Statistics",
 			"",

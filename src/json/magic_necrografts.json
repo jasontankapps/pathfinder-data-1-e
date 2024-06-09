@@ -1,5 +1,4 @@
 {
-	"_prefix": "magic-necrograft",
 	"ghoulgut": {
 		"name": "Ghoulgut",
 		"sources": [ "Black Markets" ],
@@ -14,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, [undead anatomy II](spell/undead anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
 		]
 	},
 	"gravespawn_gland": {

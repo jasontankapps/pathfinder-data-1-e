@@ -1,5 +1,13 @@
 {
-	"_prefix": "magic-wondrous",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested wondrous item."
+		]
+	},
 	"belt_of_tumbling": {
 		"name": "Belt of Tumbling",
 		"sources": [ "Ultimate Equipment" ],
@@ -621,7 +629,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), cat's grace; **Cost** 4,700 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), cat's grace; **Cost** 4,700 gp"
 		]
 	},
 	"belt_of_physical_might_+2": {
@@ -661,7 +669,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 5,000 gp"
 		]
 	},
 	"belt_of_thunderous_charging": {
@@ -979,7 +987,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), bull's strength, cat's grace; **Cost** 9,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), bull's strength, cat's grace; **Cost** 9,000 gp"
 		]
 	},
 	"greater_monkey_belt": {
@@ -999,7 +1007,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), bull's strength; **Cost** 9,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), bull's strength; **Cost** 9,250 gp"
 		]
 	},
 	"ghoulbane_belt": {
@@ -1053,7 +1061,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 10,000 gp"
 		]
 	},
 	"belt_of_fallen_heroes": {
@@ -1100,13 +1108,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** belt; **Price** 24,000 gp; **Weight** 3 lbs.",
 			"",
-			"This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the [elemental body III](spell/elemental body_3) spell.",
+			"This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the [elemental body III](spell/elemental_body_3) spell.",
 			"",
 			"Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, [elemental body III](spell/elemental body_3); **Cost** 12,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, [elemental body III](spell/elemental_body_3); **Cost** 12,000 gp"
 		]
 	},
 	"mountainshaper's_girdle": {
@@ -1556,7 +1564,7 @@
 			"",
 			"Choosing to enhance an unarmed strike is not an action and may occur when it is not the wearer's turn (such as when making an attack of opportunity). The wearer must decide to use the item before the attack roll is made, but does not have to expend all uses at the same time. For example, if the wearer can use the item twice per round, he can use it once on his turn when making an attack and save the second for the possibility of making an attack of opportunity.",
 			"",
-			"Additionally, the bodywrap can grant melee weapon special abilities to a creature's unarmed attacks, so long as those special abilities to be added apply to unarmed attacks. See Table 3-8: Melee Weapon Special Abilities (page 137) for a list of abilities. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. Any special abilities are set at the time of creation. A bodywrap of mighty strikes cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +7. Unlike an amulet of mighty fists, a bodywrap needs to have a +1 enhancement bonus to grant a melee weapon special ability.",
+			"Additionally, the bodywrap can grant [melee weapon special abilities](magic_enhancements) to a creature's unarmed attacks, so long as those special abilities to be added apply to unarmed attacks. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. Any special abilities are set at the time of creation. A bodywrap of mighty strikes cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +7. Unlike an amulet of mighty fists, a bodywrap needs to have a +1 enhancement bonus to grant a melee weapon special ability.",
 			"",
 			"### Construction",
 			"",
@@ -1975,7 +1983,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2); **Cost** 4,000 gp"
 		]
 	},
 	"pathfinder_greatcoat": {
@@ -2535,7 +2543,7 @@
 			"",
 			"A summoner's robe is a finely crafted garment of silk the same color as the endless sky of the Astral Plane. Once per day when casting a summon monster or summon nature's ally spell, the wearer can have the robe absorb one of the creatures summoned rather than have it appear within the spell's range. When this occurs, the robe gains a defensive aura and takes on visual aspects of the absorbed creature (such as becoming red and spiked if absorbing a demon, or manifesting flame patterns if absorbing a fire elemental). The creature does not exist outside its effect as a defensive aura of the robe as detailed below, and cannot be damaged or targeted by most spells. It is still a magical effect, and any spell or ability that could dispel or disrupt a creature summoned by summon monster can dispel or disrupt the defensive aura. The defensive aura is also dispelled if the robe enters an area a summoned creature could not enter, or at the end of the duration of the spell that summoned the absorbed creature. If the wearer takes an amount of damage equal to or greater than 5 hit points per level of the spell that summoned the absorbed creature, the defensive aura ends.",
 			"",
-			"As long as the robe has a defensive aura, its wearer gains some of the absorbed creature's defenses and powers. These abilities are determined as if the wearer were using a transmutation (polymorph) spell to assume the absorbed creature's form. Unlike a normal polymorph effect, it does not grant her the appearance of the creature (or any bonus to Disguise), any movement type, natural attacks (or proficiency with them), or size change. The wearer does not change form, gain any ability score modifiers, have her gear meld into her body, or lose any abilities based on her form. She is considered to be under the effects of a polymorph spell, and cannot be under the effects of another polymorph spell or size-altering magic for the duration of the defensive aura. The abilities the defensive aura grants are otherwise determined by the type of creature absorbed. If the creature is an elemental, the wearer gains the abilities listed in [elemental body III](spell/elemental body_3); if it's a plant, the wearer gains the abilities listed in [plant shape II](spell/plant shape_2); if it's an undead, the wearer gains the abilities listed in [undead anatomy III](spell/undead anatomy_3). If the creature is of any other creature type, the wearer gains the abilities it possesses listed in [beast shape IV](spell/beast shape_4).",
+			"As long as the robe has a defensive aura, its wearer gains some of the absorbed creature's defenses and powers. These abilities are determined as if the wearer were using a transmutation (polymorph) spell to assume the absorbed creature's form. Unlike a normal polymorph effect, it does not grant her the appearance of the creature (or any bonus to Disguise), any movement type, natural attacks (or proficiency with them), or size change. The wearer does not change form, gain any ability score modifiers, have her gear meld into her body, or lose any abilities based on her form. She is considered to be under the effects of a polymorph spell, and cannot be under the effects of another polymorph spell or size-altering magic for the duration of the defensive aura. The abilities the defensive aura grants are otherwise determined by the type of creature absorbed. If the creature is an elemental, the wearer gains the abilities listed in [elemental body III](spell/elemental_body_3); if it's a plant, the wearer gains the abilities listed in [plant shape II](spell/plant_shape_2); if it's an undead, the wearer gains the abilities listed in [undead anatomy III](spell/undead_anatomy_3). If the creature is of any other creature type, the wearer gains the abilities it possesses listed in [beast shape IV](spell/beast_shape_4).",
 			"",
 			"### Construction",
 			"",
@@ -3301,11 +3309,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** chest; **Price** 7,500 gp; **Weight** 5 lbs.",
 			"",
-			"This dirty, tattered-looking gray coat would not look out of place wrapped around a drifter or vagrant. When the wearer speaks the command word, the coat of the undercity shifts into a wave of clacking chitin, transforming the wearer into a giant cockroach as [vermin shape I](spell/vermin shape_1). This transformation can occur only in an urban environment. The wearer can remain transformed for up to 5 minutes per day. This duration doesn't need to be consecutive, but must be used in 1-minute increments.",
+			"This dirty, tattered-looking gray coat would not look out of place wrapped around a drifter or vagrant. When the wearer speaks the command word, the coat of the undercity shifts into a wave of clacking chitin, transforming the wearer into a giant cockroach as [vermin shape I](spell/vermin_shape_1). This transformation can occur only in an urban environment. The wearer can remain transformed for up to 5 minutes per day. This duration doesn't need to be consecutive, but must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin shape_1); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin_shape_1); **Cost** 3,750 gp"
 		]
 	},
 	"blouse_of_the_boastful_bastard": {
@@ -3546,11 +3554,11 @@
 			"**Aura** strong transmutation; **CL** 10th  ",
 			"**Slot** chest; **Price** 12,500 gp; **Weight** 5 lbs.",
 			"",
-			"This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use [beast shape III](spell/beast shape_3) once per day to transform into a mouse.",
+			"This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use [beast shape III](spell/beast_shape_3) once per day to transform into a mouse.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3); **Cost** 6,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3); **Cost** 6,250 gp"
 		]
 	},
 	"pickpocket's_bandolier": {
@@ -3742,7 +3750,7 @@
 			"**Aura** moderate transmtuation; **CL** 9th  ",
 			"**Slot** chest; **Price** 37,500 gp; **Weight** 5 lbs.",
 			"",
-			"This coat functions much like the coat of the undercity, except the wearer can transform into a venomroach as if using [vermin shape II](spell/vermin shape_2).",
+			"This coat functions much like the coat of the undercity, except the wearer can transform into a venomroach as if using [vermin shape II](spell/vermin_shape_2).",
 			"",
 			"Alternatively, the wearer can take the form of a giant cockroach swarm. This swarm of Tiny vermin has a number of hit points equal to the wearer, uses the wearer's mental ability scores, skills, and saving throws, and gains a +2 resistance bonus on saving throws against mind-affecting effects instead of being immune to them. The swarm otherwise has the same movement, Armor Class, swarm traits, swarm damage, distraction and disease abilities as a typical rat swarm (including the abilities having a DC of 12). While in swarm form, the wearer can't use any of her activated abilities (extraordinary, supernatural, spell-like, or otherwise), cast spells, or use items, although she can end the effect as a standard action.",
 			"",
@@ -3750,7 +3758,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape II](spell/vermin shape_2); **Cost** 18,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape II](spell/vermin_shape_2); **Cost** 18,750 gp"
 		]
 	},
 	"greater_coat_of_the_undercity": {
@@ -3847,7 +3855,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [form of the dragon I](spell/form of the dragon_1); **Cost** 36,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [form of the dragon I](spell/form_of_the_dragon_1); **Cost** 36,500 gp"
 		]
 	},
 	"mantle_of_faith": {
@@ -4102,7 +4110,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 2,000 gp"
 		]
 	},
 	"physician's_spectacles": {
@@ -4324,7 +4332,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), guidance; **Cost** 4,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), guidance; **Cost** 4,250 gp"
 		]
 	},
 	"pirate_lord's_patch": {
@@ -5043,7 +5051,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [form of the dragon III](spell/form of the dragon_3); **Cost** 55,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [form of the dragon III](spell/form_of_the_dragon_3); **Cost** 55,000 gp"
 		]
 	},
 	"truesight_goggles": {
@@ -5922,7 +5930,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [elemental body I](spell/elemental body_1); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [elemental body I](spell/elemental_body_1); **Cost** 4,000 gp"
 		]
 	},
 	"sandals_of_interception": {
@@ -6152,7 +6160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3); **Cost** 5,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3); **Cost** 5,250 gp"
 		]
 	},
 	"shoes_of_lightning_leaping": {
@@ -6411,11 +6419,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** feet; **Price** 20,000 gp; **Weight** -;",
 			"",
-			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the [giant form I](spell/giant form_1) spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
+			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the [giant form I](spell/giant_form_1) spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace, endure elements, [giant form I](spell/giant form_1), pass without trace; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace, endure elements, [giant form I](spell/giant_form_1), pass without trace; **Cost** 10,000 gp"
 		]
 	},
 	"horseshoes_of_sacred_silver": {
@@ -6593,11 +6601,11 @@
 			"**Aura** moderate abjuration and transmutation; **CL** 11th  ",
 			"**Slot** feet; **Price** 39,600 gp; **Weight** 12 lbs.",
 			"",
-			"These massive horseshoes sport deadly spikes that jut from their front. Once per day on command, the rider of a mount wearing these shoes may choose to either increase the mount's size by one size increment (maximum Huge), or change its type to magical beast, as [beast shape IV](spell/beast shape_4). In addition, while the mount is augmented in either of these two ways, it gains DR/5 chaos, evil, good, or law (selected by the rider). These horseshoes are part of a set and require all four to be worn by the same animal to properly function.",
+			"These massive horseshoes sport deadly spikes that jut from their front. Once per day on command, the rider of a mount wearing these shoes may choose to either increase the mount's size by one size increment (maximum Huge), or change its type to magical beast, as [beast shape IV](spell/beast_shape_4). In addition, while the mount is augmented in either of these two ways, it gains DR/5 chaos, evil, good, or law (selected by the rider). These horseshoes are part of a set and require all four to be worn by the same animal to properly function.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape IV](spell/beast shape_4), protection from chaos/evil/ good/law; **Cost** 19,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape IV](spell/beast_shape_4), protection from chaos/evil/ good/law; **Cost** 19,800 gp"
 		]
 	},
 	"boots_of_fiendish_escape_tiefling": {
@@ -8910,7 +8918,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 1,350 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 1,350 gp"
 		]
 	},
 	"hood_of_the_living": {
@@ -9765,7 +9773,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), magic mouth; **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), magic mouth; **Cost** 4,000 gp"
 		]
 	},
 	"muzzle_of_suppression": {
@@ -9823,7 +9831,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
 		]
 	},
 	"shepsi-ak's_funerary_mask": {
@@ -9932,11 +9940,11 @@
 			"**Aura** strong conjuration; **CL** 6th  ",
 			"**Slot** head; **Price** 9,600 gp; **Weight** 1 lb.",
 			"",
-			"Made of interwoven wicker strands and insect-excreted resin, these horrific masks have the appearance of demonic insects. The mask's wearer is rendered immune to swarms' distraction special attack. Additionally, once per day the wearer can transform into an insect as per the spell [vermin shape I](spell/vermin shape_1) (see page 297 of Pathfinder Campaign Setting: The Inner Sea World Guide).",
+			"Made of interwoven wicker strands and insect-excreted resin, these horrific masks have the appearance of demonic insects. The mask's wearer is rendered immune to swarms' distraction special attack. Additionally, once per day the wearer can transform into an insect as per the spell [vermin shape I](spell/vermin_shape_1) (see page 297 of Pathfinder Campaign Setting: The Inner Sea World Guide).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin shape_1); **Cost** 4,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin_shape_1); **Cost** 4,800 gp"
 		]
 	},
 	"dervish_sikke": {
@@ -10087,7 +10095,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), wild shape class feature, [vermin shape I](spell/vermin shape_1); **Cost** 5,040 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), wild shape class feature, [vermin shape I](spell/vermin_shape_1); **Cost** 5,040 gp"
 		]
 	},
 	"desert_veil": {
@@ -10854,11 +10862,11 @@
 			"",
 			"This hide helm is a powerful variant of the more common helm of the Mammoth Lord. Like its lesser incarnation, a greathelm of the Mammoth Lord is set with plates of ivory carved with runes, with a pair of tusks curving down either side of the wearer's face for cheek guards. The helm's tusks provide a gore attack dealing 1d8 points of damage for a Medium wearer (or 1d6 points of damage for a Small wearer) and count as magic and cold for the purpose of overcoming damage reduction. The greathelm of the Mammoth Lord also protects the wearer from cold environments as per endure elements.",
 			"",
-			"Furthermore, it provides a +5 competence bonus on Handle Animal, Ride, and wild empathy checks with elephants, mammoths, mastodons, and other elephant-like creatures. On command, the wearer can use detect animals or plants or speak with animals, but only to detect or communicate with elephant-like creatures. Once per day, the wearer can transform into a mammoth (treat as an mastodon) as [beast shape III](spell/beast shape_3).",
+			"Furthermore, it provides a +5 competence bonus on Handle Animal, Ride, and wild empathy checks with elephants, mammoths, mastodons, and other elephant-like creatures. On command, the wearer can use detect animals or plants or speak with animals, but only to detect or communicate with elephant-like creatures. Once per day, the wearer can transform into a mammoth (treat as an mastodon) as [beast shape III](spell/beast_shape_3).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3), charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3), charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
 		]
 	},
 	"hat_of_infinite_disguises": {
@@ -11126,7 +11134,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant form_1); **Cost** 15,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant_form_1); **Cost** 15,000 gp"
 		]
 	},
 	"lesser_mask_of_giants": {
@@ -11558,11 +11566,11 @@
 			"",
 			"This alabaster headdress is studded with lines of delicate rubies and represents the height of Kersite fashion mixed with Kalistocratic needs. These austere headdresses come with an imbued soul-one utterly dedicated to assisting the adherents of the Prophecies of Kalistrade unto death. Once per day as an immediate action, the wearer can allow the personality within the miter to rise to the fore of her own consciousness. This effect lasts for 1 minute, during which the wearer can roll twice and use the higher result for all Intelligence-, Wisdom-, and Charisma-based skill checks. The wearer can activate this ability after such a skill check has been rolled but before the result is determined, allowing for a reroll.",
 			"",
-			"Additionally, once per day as an immediate action, the wearer can gain the benefits of [tower of iron will V](spell/tower of iron will_5), as the possessing spirit rises to block any mental effects against the wearer. This ability can be used regardless of whether the miter's other ability is active.",
+			"Additionally, once per day as an immediate action, the wearer can gain the benefits of [tower of iron will V](spell/tower_of_iron_will_5), as the possessing spirit rises to block any mental effects against the wearer. This ability can be used regardless of whether the miter's other ability is active.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divide mind, possession, [tower of iron will V](spell/tower of iron will_5); **Cost** 45,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divide mind, possession, [tower of iron will V](spell/tower_of_iron_will_5); **Cost** 45,000 gp"
 		]
 	},
 	"mask_of_giants_greater": {
@@ -11582,7 +11590,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant form_1); **Cost** 45,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant_form_1); **Cost** 45,000 gp"
 		]
 	},
 	"greater_mask_of_giants": {
@@ -11601,15 +11609,15 @@
 			"This helm is made of large, alchemically hardened snake scales, and is crafted in the shape of a stylized serpent mouth. Its wearer stares out through the serpent's eyes, and sees all things cast in a yellow tint. When worn, it grants the following spell-like abilities to the wearer:",
 			"",
 			"- Hypnotism (3/day)",
-			"- [Summon nature's ally III](spell/summon nature's ally_3) (constrictor snake only, 3/day)",
-			"- [Beast shape III](spell/beast shape_3) (snake form only, 1/day)",
+			"- [Summon nature's ally III](spell/summon_nature's_ally_3) (constrictor snake only, 3/day)",
+			"- [Beast shape III](spell/beast_shape_3) (snake form only, 1/day)",
 			"- Poison (1/day)",
 			"",
-			"A mythic creature can expend one use of mythic power when using the [beast shape III](spell/beast shape_3) spell-like ability to instead cast it as mythic [beast shape III](spell/beast shape_3). Alternatively, he can expend two uses of mythic power to instead cast the augmented version of mythic [beast shape III](spell/beast shape_3).",
+			"A mythic creature can expend one use of mythic power when using the [beast shape III](spell/beast_shape_3) spell-like ability to instead cast it as mythic [beast shape III](spell/beast_shape_3). Alternatively, he can expend two uses of mythic power to instead cast the augmented version of mythic [beast shape III](spell/beast_shape_3).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [beast shape III](spell/beast shape_3), [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 48,000 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [beast shape III](spell/beast_shape_3), [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 48,000 gp"
 		]
 	},
 	"hood_of_privacy": {
@@ -12308,7 +12316,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 5,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 5,500 gp"
 		]
 	},
 	"pull_ring_of_scent": {
@@ -12627,7 +12635,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), dragon's breath (Advanced Player's Guide), resist energy; **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), dragon's breath (Advanced Player's Guide), resist energy; **Cost** 16,000 gp"
 		]
 	},
 	"headband_of_inspired_wisdom_+6": {
@@ -13996,7 +14004,7 @@
 			"",
 			"This amulet grants an enhancement bonus of +1 to +5 on attack and damage rolls with unarmed attacks and natural weapons.",
 			"",
-			"Alternatively, this amulet can grant melee weapon special abilities, so long as they can be applied to unarmed attacks. See Table: Melee Weapon Special Abilities for a list of abilities. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. An amulet of mighty fists cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. An amulet of mighty fists does not need to have a +1 enhancement bonus to grant a melee weapon special ability.",
+			"Alternatively, this amulet can grant [melee weapon special abilities](magic_enhancements), so long as they can be applied to unarmed attacks. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. An amulet of mighty fists cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. An amulet of mighty fists does not need to have a +1 enhancement bonus to grant a melee weapon special ability.",
 			"",
 			"### Construction",
 			"",
@@ -14476,7 +14484,7 @@
 			"",
 			"Eyes: The wearer gains a +5 insight bonus on Knowledge checks to identify creatures of the associated type and on Perception checks opposed by such creatures' Disguise checks. Faint divination; **CL** 5th; know the enemy.",
 			"",
-			"Hair: The wearer gains a +2 competence bonus on Survival checks to track the associated creature type, and the scent special ability, but only to notice odors of the associated creature type. Faint transmutation; **CL** 5th; [beast shape I](spell/beast shape_1).",
+			"Hair: The wearer gains a +2 competence bonus on Survival checks to track the associated creature type, and the scent special ability, but only to notice odors of the associated creature type. Faint transmutation; **CL** 5th; [beast shape I](spell/beast_shape_1).",
 			"",
 			"Horns: The wearer gains a +2 bonus on combat maneuvers and to CMD against the associated creature type. Faint transmutation; **CL** 5th; bull's strength.",
 			"",
@@ -15757,7 +15765,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), freedom of movement, [thought shield I](spell/thought shield_1); **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), freedom of movement, [thought shield I](spell/thought_shield_1); **Cost** 6,000 gp"
 		]
 	},
 	"amulet_of_the_blooded_infernal": {
@@ -17871,7 +17879,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 125 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 125 gp"
 		]
 	},
 	"nightmare_tears": {
@@ -18780,7 +18788,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
-			"This leather scabbard resizes itself to fit any axe, sword, dagger, or similar item normally stored in a scabbard. Sheathing a nonmagical weapon in the scabbard for 1 minute hones its edge as if it had been sharpened with a whetstone (page 75).",
+			"This leather scabbard resizes itself to fit any axe, sword, dagger, or similar item normally stored in a scabbard. Sheathing a nonmagical weapon in the scabbard for 1 minute hones its edge as if it had been sharpened with a [whetstone](equipment/misc/whetstone).",
 			"",
 			"### Construction",
 			"",
@@ -21426,11 +21434,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,400 gp; **Weight** -;",
 			"",
-			"This slender tube contains an acrid black sludge that feels warm to the touch. When she consumes this elixir, the imbiber is transformed into a gray cat for 1 hour (as [beast shape II](spell/beast shape_2)), leaving behind any worn belongings on the ground. While under the effects of the elixir, the imbiber gains darkvision with a range of 30 feet, and her paw prints leave a trail of scorch marks that smell faintly of sulfur. If the imbiber's original form already has darkvision, the range increases by 30 feet. When the effect ends, the imbiber transforms back into her original form.",
+			"This slender tube contains an acrid black sludge that feels warm to the touch. When she consumes this elixir, the imbiber is transformed into a gray cat for 1 hour (as [beast shape II](spell/beast_shape_2)), leaving behind any worn belongings on the ground. While under the effects of the elixir, the imbiber gains darkvision with a range of 30 feet, and her paw prints leave a trail of scorch marks that smell faintly of sulfur. If the imbiber's original form already has darkvision, the range increases by 30 feet. When the effect ends, the imbiber transforms back into her original form.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), darkvision; **Cost** 700 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), darkvision; **Cost** 700 gp"
 		]
 	},
 	"ghost_powder": {
@@ -21460,13 +21468,13 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.",
 			"",
-			"When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how civilized the consumer believes himself to be. They grant the partaker low-light vision and the scent ability for 1 hour. If the consumer has the rage class feature, he can expend one use of mythic power as part of entering a rage to take the form of an animal (as [beast shape II](spell/beast shape_2)) while gaining the usual benefits of rage. When the rage ends, any remaining duration of the herbs is lost.",
+			"When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how civilized the consumer believes himself to be. They grant the partaker low-light vision and the scent ability for 1 hour. If the consumer has the rage class feature, he can expend one use of mythic power as part of entering a rage to take the form of an animal (as [beast shape II](spell/beast_shape_2)) while gaining the usual benefits of rage. When the rage ends, any remaining duration of the herbs is lost.",
 			"",
 			"A creature without the humanoid type, including a monstrous humanoid, gains no benefits from the herbs. It instead becomes nauseated for 1 round, then sickened for 1d4 rounds. A successful DC 13 Fortitude save leaves the creature sickened for 1 round and negates the nausea.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), [beast shape II](spell/beast shape_2); **Cost** 700 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), [beast shape II](spell/beast_shape_2); **Cost** 700 gp"
 		]
 	},
 	"incense_of_corporeality": {
@@ -23262,7 +23270,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3), rage; **Cost** 1,125 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3), rage; **Cost** 1,125 gp"
 		]
 	},
 	"bones_of_founder_raccona": {
@@ -24231,7 +24239,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 2,750 gp; **Weight** -;",
 			"",
-			"When a humanoid imbibes this foul-tasting green fluid, its ears grow to 10 times their size, and its head separates from its body. This effect is similar to [beast shape II](spell/beast shape_2), shifting the drinker's consciousness into a Tiny form cosmetically similar to that of a chon chon, with the same powers of flight, constant [detect magic](spell/detect_magic) sight, and +4 racial bonus on Perception checks made to listen, but lacking the creature's acid spit or jabber abilities. The duration of this transformation proves highly unpredictable, though. The GM should roll on the following chart to determine how long the effect lasts.",
+			"When a humanoid imbibes this foul-tasting green fluid, its ears grow to 10 times their size, and its head separates from its body. This effect is similar to [beast shape II](spell/beast_shape_2), shifting the drinker's consciousness into a Tiny form cosmetically similar to that of a chon chon, with the same powers of flight, constant [detect magic](spell/detect_magic) sight, and +4 racial bonus on Perception checks made to listen, but lacking the creature's acid spit or jabber abilities. The duration of this transformation proves highly unpredictable, though. The GM should roll on the following chart to determine how long the effect lasts.",
 			"",
 			"| d% | Duration of Transformation |",
 			"| --- | --- |",
@@ -24292,7 +24300,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [elemental body I](spell/elemental body_1); **Cost** 1,400 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [elemental body I](spell/elemental_body_1); **Cost** 1,400 gp"
 		]
 	},
 	"incense_of_open_thoughts": {
@@ -25487,7 +25495,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 3,600 gp; **Weight** -;",
 			"",
-			"This heart-shaped charm is set with three pearls: one white, one silver, and one black. Inside, a tiny compartment usually contains smelling salts (page 101) or alchemist's kindness (page 100). Each pearl has a primary, passive ability and a secondary, active ability that activates if it is removed from the setting and swallowed (a standard action, as if drinking a potion). Swallowing a pearl destroys it. A command word activates the primary abilities of all three pearls for 1 round.",
+			"This heart-shaped charm is set with three pearls: one white, one silver, and one black. Inside, a tiny compartment usually contains [smelling salts](equipment/misc/smelling_salts) or [alchemist's kindness](equipment/misc/alchemist's_kindness). Each pearl has a primary, passive ability and a secondary, active ability that activates if it is removed from the setting and swallowed (a standard action, as if drinking a potion). Swallowing a pearl destroys it. A command word activates the primary abilities of all three pearls for 1 round.",
 			"",
 			"When activated, the white pearl detects poison in a 10- foot radius around the wearer, dulling to a dark gray if poison is within range. If swallowed, it grants the benefit of a delay poison spell.",
 			"",
@@ -25660,7 +25668,7 @@
 			"",
 			"Basalt Dragon: This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake, depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.",
 			"",
-			"By expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; **CL** 20th; [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), animate objects, [form of the dragon III](spell/form of the dragon_3), telepathic bond.",
+			"By expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; **CL** 20th; [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), animate objects, [form of the dragon III](spell/form_of_the_dragon_3), telepathic bond.",
 			"",
 			"### Construction",
 			"",
@@ -28781,7 +28789,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [monstrous physique IV](spell/monstrous physique_4) (Ultimate Magic); **Cost** 3,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [monstrous physique IV](spell/monstrous_physique_4) (Ultimate Magic); **Cost** 3,300 gp"
 		]
 	},
 	"naga_scale_bindi": {
@@ -32456,25 +32464,6 @@
 		"name": "Figurine of Wondrous Power (Obsidian Raven)",
 		"copyof": "figurine_of_wondrous_power_silver_raven"
 	},
-	"ring_of_the_cacodaemon": {
-		"name": "Ring Of The Cacodaemon",
-		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
-		"description": [
-			"## Ring Of The Cacodaemon",
-			"",
-			"**Source** [Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 41](source/book_of_the_damned_-_volume_3_horsemen_of_the_apocalypse)  ",
-			"**Aura** strong necromancy; **CL** 8th  ",
-			"**Slot** ring; **Price** 15,000 gp; **Weight** -;",
-			"",
-			"Sculpted into the intricate form of a golden cacodaemon, this ring's wide-open mouth is designed to hold a soul gem created by a cacodaemon. The ring allows its wearer to tap into the residual memories of the mangled soul it encapsulates. Once per day, the wearer may interrogate the soul in the gem, similar to using speak with dead, except the soul answers telepathically.",
-			"",
-			"Once per day, the bearer can project the soul's last tormented moments before it was consumed and bound, creating a cone of terror equivalent to a fear spell (DC 16).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fear, speak with dead; **Cost** 7,500 gp."
-		]
-	},
 	"golem_manual_sand": {
 		"name": "Golem Manual (Sand)",
 		"copyof": "golem_manual_junk"
@@ -32771,28 +32760,6 @@
 			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), wall of thorns; **Cost** 8,000 gp"
-		]
-	},
-	"ganji_doll": {
-		"name": "Ganji Doll",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Ganji Doll",
-			"",
-			"**Source** [Occult Adventures pg. 258](source/occult_adventures)  ",
-			"**Aura** moderate necromancy; **CL** 6th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.",
-			"",
-			"A ganji doll is a fetish tied so intimately to its intended victim that good or ill can be done to the target through the doll itself. During the item's creation, the creator must choose a humanoid creature to bind the doll to. This requires the creator to obtain and craft a bit of the intended target's body-typically hair, blood, or a tooth-into the fetish. Once this has been done, the ganji doll affects no other creature aside from the bound target. The target of the ganji doll can't be changed after crafting is complete.",
-			"",
-			"Once the doll has been created, three times per day, any bearer can employ the doll to create any one of the following effects. These effects target only the creature bound to the doll. The target takes a -2 penalty on all saving throws against these effects.  ",
-			"*Blind:* Covering the doll's head with a cloth blinds the target for 1 minute (Will DC 16 negates).  ",
-			"*Damage:* Stabbing the doll with a sharp instrument, waving it over an open flame, wrapping a cord around the doll's neck, or otherwise damaging the doll causes the target to take 3d6 points of damage (Fortitude DC 16 half). This damage ignores all resistances and immunities.  ",
-			"*Touch Spell:* The ganji doll functions as the bound target for the purpose of any spell with a range of touch. The target receives the effect of any spell cast upon the doll (up to the doll's limit of three effects per day) as if the caster had actually touched him. The target can attempt saving throws against such spells, if allowed, as normal, but takes the -2 penalty imposed by the doll. Beneficial spells, such as cure light wounds, can also be used in this manner.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		]
 	},
 	"mistcaller": {
@@ -34314,7 +34281,7 @@
 			"",
 			"Up to three times per day, the bearer can gain any one of the following abilities that the creature possessed in life for 10 minutes at a value no greater than the creature had: climb speed, darkvision (up to 60 feet), resist energy, fly speed, low-light vision, scent, or swim speed. Movement abilities are limited to a speed of no more than 60 feet, and flight can be of no greater than good maneuverability. Energy resistance can be gained in any single energy type the creature was resistant or immune to, to a maximum of 20 points (if the creature had immunity, the user gains resistance 20 to that energy type).",
 			"",
-			"By expending one use of mythic power, the bearer can instead take the form of the creature for 10 minutes, as if using alter self, [beast shape II](spell/beast shape_2), [form of the dragon II](spell/form of the dragon_2), or [giant form I](spell/giant form_1), as appropriate. The bearer resembles the original creature as it appeared in life, as though he were impersonating that creature with a Disguise check result of 20. To use the jar's abilities, it only has to be carried on the bearer's person. In addition to these properties, the canopic jar preserves its contents for an indefinite period, similar to gentle repose. The organs are suitable remains for resurrection, but insufficient for raise dead.",
+			"By expending one use of mythic power, the bearer can instead take the form of the creature for 10 minutes, as if using alter self, [beast shape II](spell/beast_shape_2), [form of the dragon II](spell/form_of_the_dragon_2), or [giant form I](spell/giant_form_1), as appropriate. The bearer resembles the original creature as it appeared in life, as though he were impersonating that creature with a Disguise check result of 20. To use the jar's abilities, it only has to be carried on the bearer's person. In addition to these properties, the canopic jar preserves its contents for an indefinite period, similar to gentle repose. The organs are suitable remains for resurrection, but insufficient for raise dead.",
 			"",
 			"### Construction",
 			"",
@@ -35192,7 +35159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant form_1), creator must be a 16th-level alchemist; **Cost** 14,400 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [giant form I](spell/giant_form_1), creator must be a 16th-level alchemist; **Cost** 14,400 gp"
 		]
 	},
 	"svingli's_eye": {
@@ -35895,32 +35862,6 @@
 	"shard_of_psychic_power_6th_level": {
 		"copyof": "shard_of_psychic_power_6th-level"
 	},
-	"ganji_doll_greater": {
-		"name": "Ganji Doll (Greater)",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Ganji Doll (Greater)",
-			"",
-			"**Source** [Occult Adventures pg. 258](source/occult_adventures)  ",
-			"**Aura** moderate necromancy; **CL** 12th  ",
-			"**Slot** none; **Price** 36,000 gp; **Weight** 1/2 lb.",
-			"",
-			"A greater ganji doll looks similar to and functions as the normal version, except that it can be used 5 times per day, imposes a -4 penalty on the target's saving throws against its effects, and has the following altered or additional special abilities in addition to all the abilities of a ganji doll.",
-			"",
-			"Damage: Damaging the doll causes the target to take 6d6 points of damage (Fortitude DC 16 half). This damage ignores all resistances and immunities.",
-			"",
-			"Locate Creature: The bearer of a ganji doll can use it to locate its bound target as locate creature.",
-			"",
-			"Suggestion: The user whispers in the doll's ear, creating the effect of a suggestion spell. The target must attempt a DC 16 Will save to resist the effect. Unlike with the spell, the target doesn't need to comprehend the user's language.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, locate creature, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
-		]
-	},
-	"greater_ganji_doll": {
-		"copyof": "ganji_doll_greater"
-	},
 	"marionette_crux": {
 		"name": "Marionette Crux",
 		"sources": [ "Rival Guide" ],
@@ -36291,7 +36232,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fireball, [giant form I](spell/giant form_1), scorching ray; **Cost** 20,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fireball, [giant form I](spell/giant_form_1), scorching ray; **Cost** 20,500 gp"
 		]
 	},
 	"blood_chest": {
@@ -38839,7 +38780,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [intellect fortress III](spell/intellect fortress_3), [mental barrier III](spell/mental barrier_3), overland flight, plane shift, [thought shield III](spell/thought shield_3), [tower of iron will II](spell/tower of iron will_2); **Cost** 90,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [intellect fortress III](spell/intellect_fortress_3), [mental barrier III](spell/mental_barrier_3), overland flight, plane shift, [thought shield III](spell/thought_shield_3), [tower of iron will II](spell/tower_of_iron_will_2); **Cost** 90,000 gp"
 		]
 	},
 	"bastion_banner": {
@@ -39528,11 +39469,11 @@
 			"",
 			"This large bearskin cloak is almost too big for a human to wear comfortably. The wearer gains a +2 competence bonus on Intimidate checks. Once per day, the wearer can use bless; using this ability causes the hair on the cloak to bristle menacingly.",
 			"",
-			"If the stone giant deity Urazra is the wearer's patron, the wearer can use [beast shape II](spell/beast shape_2) once per day to transform into a black or brown bear for up to 7 minutes. Some champions of Urazra claim to have more powerful pelts that allow them to take the form of polar bears or even dire bears.",
+			"If the stone giant deity Urazra is the wearer's patron, the wearer can use [beast shape II](spell/beast_shape_2) once per day to transform into a black or brown bear for up to 7 minutes. Some champions of Urazra claim to have more powerful pelts that allow them to take the form of polar bears or even dire bears.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), bless, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), bless, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
 		]
 	},
 	"rimepelt": {
@@ -39545,13 +39486,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** shoulders; **Price** 3,350 gp; **Weight** 5 lbs.",
 			"",
-			"This snow-white fur pelt of a winter wolf can be worn over the shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves to resist cold weather. The wearer can, as a standard action, transform into a Large winter wolf as if using [beast shape IV](spell/beast shape_4). In certain special locations where winter wolves have the ability to take human form, such as the Howlings district of Whitethrone or the town of Redtooth, the wearer of a rimepelt in wolf form can take human form as winter wolves do, appearing as a whitehaired, blue-eyed human. In either wolf or human form, the wearer of a rimepelt smells like a winter wolf to other winter wolves and creatures with the scent ability. When the wearer returns to his normal form, or after 2 hours have elapsed, the rimepelt becomes a mundane winter wolf pelt.",
+			"This snow-white fur pelt of a winter wolf can be worn over the shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves to resist cold weather. The wearer can, as a standard action, transform into a Large winter wolf as if using [beast shape IV](spell/beast_shape_4). In certain special locations where winter wolves have the ability to take human form, such as the Howlings district of Whitethrone or the town of Redtooth, the wearer of a rimepelt in wolf form can take human form as winter wolves do, appearing as a whitehaired, blue-eyed human. In either wolf or human form, the wearer of a rimepelt smells like a winter wolf to other winter wolves and creatures with the scent ability. When the wearer returns to his normal form, or after 2 hours have elapsed, the rimepelt becomes a mundane winter wolf pelt.",
 			"",
 			"Very rarely, a properly skinned winter wolf pelt manifests the properties of a rimepelt without requiring additional enchantment. A winter wolf whose pelt has such potential usually manifests some telltale physical attribute, such as heterochromatic eyes. Creating a rimepelt from such a rare creature requires a successful DC 25 Profession (hunter) or Survival check. Taking 20 is not allowed in this situation, and a failed check results in the pelt being utterly ruined for any use.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape IV](spell/beast shape_4); **Cost** 1,675 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape IV](spell/beast_shape_4); **Cost** 1,675 gp"
 		]
 	},
 	"cloak_of_woodland_creatures": {
@@ -39693,11 +39634,11 @@
 			"**Aura** faint abjuration and transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
-			"This heavy linen cloak has a fish-scale pattern that darkens toward the bottom and white feathers on the shoulders. Once per day, the wearer can use [beast shape I](spell/beast shape_1), but only to transform into a bird or fish. In addition, the wearer can use hide from animals (affecting only the wearer) once per day. The wearer gains a +5 competence bonus on Swim checks. Once per day, the wearer can use feather fall.",
+			"This heavy linen cloak has a fish-scale pattern that darkens toward the bottom and white feathers on the shoulders. Once per day, the wearer can use [beast shape I](spell/beast_shape_1), but only to transform into a bird or fish. In addition, the wearer can use hide from animals (affecting only the wearer) once per day. The wearer gains a +5 competence bonus on Swim checks. Once per day, the wearer can use feather fall.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), feather fall, hide from animals; **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), feather fall, hide from animals; **Cost** 2,000 gp"
 		]
 	},
 	"protean_cloak_+3_bonus": {
@@ -39854,11 +39795,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
-			"This unassuming cloak initially appears to be made of plain leather. When the wearer speaks the command word, however, the cloak of the scuttling rat wraps itself around her, transforming her into a dire rat as if using [beast shape I](spell/beast shape_1). The wearer can remain in dire rat form for up to 5 minutes per day. This duration need not be consecutive, but it must be used in 1-minute increments.",
+			"This unassuming cloak initially appears to be made of plain leather. When the wearer speaks the command word, however, the cloak of the scuttling rat wraps itself around her, transforming her into a dire rat as if using [beast shape I](spell/beast_shape_1). The wearer can remain in dire rat form for up to 5 minutes per day. This duration need not be consecutive, but it must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 3,000 gp"
 		]
 	},
 	"dead_man's_shroud": {
@@ -39980,11 +39921,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 7,000 gp; **Weight** 1 lb.",
 			"",
-			"Large eagle feathers decorate the back and arms of this magnificent cape. Should the cape's wearer fall more than 5 feet, the cape spreads out behind the wearer and she gently drifts to the ground. This acts exactly like a feather fall spell for the wearer only. Once per day, if the wearer grasps the edges of the cape and spreads her arms, she transforms into an eagle (as per the [beast shape I](spell/beast shape_1) spell, except that it allows only eagle form and the wearer gains the eagle's full fly speed of 80 feet). This effect lasts for 10 minutes but can be ended prematurely as a standard action. In addition, while in eagle form, the wearer gains a +5 competence bonus on Perception checks.",
+			"Large eagle feathers decorate the back and arms of this magnificent cape. Should the cape's wearer fall more than 5 feet, the cape spreads out behind the wearer and she gently drifts to the ground. This acts exactly like a feather fall spell for the wearer only. Once per day, if the wearer grasps the edges of the cape and spreads her arms, she transforms into an eagle (as per the [beast shape I](spell/beast_shape_1) spell, except that it allows only eagle form and the wearer gains the eagle's full fly speed of 80 feet). This effect lasts for 10 minutes but can be ended prematurely as a standard action. In addition, while in eagle form, the wearer gains a +5 competence bonus on Perception checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), feather fall, perceive clues (Advanced Player's Guide); **Cost** 3,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), feather fall, perceive clues (Advanced Player's Guide); **Cost** 3,500 gp"
 		]
 	},
 	"cloak_of_the_manta_ray": {
@@ -40000,13 +39941,13 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 7,200 gp; **Weight** 1 lb.",
 			"",
-			"This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak of the manta ray adheres to the individual, and he appears nearly identical to a manta ray (as the [beast shape II](spell/beast shape_2) spell, except that it allows only manta ray form). He gains a +3 natural armor bonus, the ability to breathe underwater, and a swim speed of 60 feet, like a real manta ray.",
+			"This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak of the manta ray adheres to the individual, and he appears nearly identical to a manta ray (as the [beast shape II](spell/beast_shape_2) spell, except that it allows only manta ray form). He gains a +3 natural armor bonus, the ability to breathe underwater, and a swim speed of 60 feet, like a real manta ray.",
 			"",
 			"The cloak also allows the wearer to attack with a sting ray's tail spine, dealing 1d6 points of damage. This attack can be used in addition to any other attack the character has, using his highest melee attack bonus. The wearer can release his arms from the cloak without sacrificing underwater movement if so desired.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), water breathing; **Cost** 3,600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), water breathing; **Cost** 3,600 gp"
 		]
 	},
 	"plagueborn_mantle": {
@@ -40036,11 +39977,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 7,500 gp; **Weight** 1 lb.",
 			"",
-			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the favored terrain class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the [beast shape I](spell/beast shape_1) spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
+			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the favored terrain class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the [beast shape I](spell/beast_shape_1) spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 3,750 gp"
 		]
 	},
 	"protean_cloak_+4_bonus": {
@@ -40215,7 +40156,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin shape_1) (Ultimate Magic); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin_shape_1) (Ultimate Magic); **Cost** 5,000 gp"
 		]
 	},
 	"pauldrons_of_the_bull": {
@@ -40349,11 +40290,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** shoulders; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
-			"Made from a single male lion's coat with the mane surrounding its hood, the lion cloak is an impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made against mind-affecting and fear effects and a +2 circumstance bonus on Intimidate checks. Once per day, the wearer can pull the hood over her head, assuming the form of a lion (as the [beast shape II](spell/beast shape_2) spell, except that it allows only lion form) for up to 10 minutes. If the wearer has the smite class feature, she can use this power more than once per day by expending uses of her smite; at most she can take the lion form as many times as she has smites plus one additional time. While in this lion form the wearer cannot use its normal smite ability.",
+			"Made from a single male lion's coat with the mane surrounding its hood, the lion cloak is an impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made against mind-affecting and fear effects and a +2 circumstance bonus on Intimidate checks. Once per day, the wearer can pull the hood over her head, assuming the form of a lion (as the [beast shape II](spell/beast_shape_2) spell, except that it allows only lion form) for up to 10 minutes. If the wearer has the smite class feature, she can use this power more than once per day by expending uses of her smite; at most she can take the lion form as many times as she has smites plus one additional time. While in this lion form the wearer cannot use its normal smite ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2); **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2); **Cost** 6,000 gp"
 		]
 	},
 	"mantle_of_the_protector": {
@@ -40628,7 +40569,7 @@
 			"",
 			"- A bite attack that deals damage appropriate to the wearer's size. If the wearer already has a bite attack, the critical threat range of this attack doubles. This does not stack with other magical effects that increase the threat range of a natural weapon.",
 			"- Speak with animals 1/day. If the wearer can already use speak with animals as a spell-like ability, she may do so at will.",
-			"- The wearer may take the form of the animal from which the pelt came three times per day as if using [beast shape I](spell/beast shape_1). In addition, if the wearer is a skinwalker, her change shape ability is enhanced so that she may gain an additional bestial feature when taking her bestial form, selectable from the skinwalker heritage tied to the animal from which the pelt came. For instance, a werewolf-kin wearing a bear pelt of the beast could use her change shape ability to gain a climb speed from the pelt's bestial features (identical to the set listed for werebear-kin) in addition to darkvision from her set of werewolf-kin bestial features. Feats or abilities that affect how many bestial features the skinwalker may gain at a single time stack with this ability.",
+			"- The wearer may take the form of the animal from which the pelt came three times per day as if using [beast shape I](spell/beast_shape_1). In addition, if the wearer is a skinwalker, her change shape ability is enhanced so that she may gain an additional bestial feature when taking her bestial form, selectable from the skinwalker heritage tied to the animal from which the pelt came. For instance, a werewolf-kin wearing a bear pelt of the beast could use her change shape ability to gain a climb speed from the pelt's bestial features (identical to the set listed for werebear-kin) in addition to darkvision from her set of werewolf-kin bestial features. Feats or abilities that affect how many bestial features the skinwalker may gain at a single time stack with this ability.",
 			"",
 			"Each pelt also grants a competence bonus on a check, based on its type. These bonuses increase by 50% for skinwalkers wearing a pelt that matches their lycanthropic heritage.",
 			"",
@@ -40645,7 +40586,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), speak with animals; **Cost** 7,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), speak with animals; **Cost** 7,800 gp"
 		]
 	},
 	"swordlord's_cloak_+2_bonus": {
@@ -40820,7 +40761,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), water breathing; **Cost** 9,600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), water breathing; **Cost** 9,600 gp"
 		]
 	},
 	"cloak_of_the_diplomat": {
@@ -40974,7 +40915,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3), burrow; **Cost** 11,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3), burrow; **Cost** 11,000 gp"
 		]
 	},
 	"wings_of_flying_lesser": {
@@ -41032,11 +40973,11 @@
 			"",
 			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
 			"",
-			"This animal-skin cloak comes in eight varieties (one for each kind of skinwalker). The wearer gains the ability to speak with animals of the matching species and related species as per the spell speak with animals. For example, a werewolf skin allows the wearer to speak with canines. If the wearer is a skinwalker, and her skinwalker heritage matches that of the cloak, the wearer can take the listed animal's form as if using the change shape ability, gaining the base creature's size, form, and special abilities as per [beast shape I](spell/beast shape_1). As normal for a skinwalker's transformation, her animal form lasts until she chooses to end it.",
+			"This animal-skin cloak comes in eight varieties (one for each kind of skinwalker). The wearer gains the ability to speak with animals of the matching species and related species as per the spell speak with animals. For example, a werewolf skin allows the wearer to speak with canines. If the wearer is a skinwalker, and her skinwalker heritage matches that of the cloak, the wearer can take the listed animal's form as if using the change shape ability, gaining the base creature's size, form, and special abilities as per [beast shape I](spell/beast_shape_1). As normal for a skinwalker's transformation, her animal form lasts until she chooses to end it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1), speak with animals, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), speak with animals, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
 		]
 	},
 	"lycanthrope_skin_boar_rat_wolf": {
@@ -41113,11 +41054,11 @@
 			"",
 			"Fashioned of dark brown or black cloth, this cloak bestows a +5 competence bonus on Stealth checks. The wearer is also able to hang upside down from the ceiling like a bat.",
 			"",
-			"By holding the edges of the garment, the wearer is able to fly as per the spell (including a +7 bonus on Fly skill checks). If he desires, the wearer can actually polymorph himself into an ordinary bat and fly accordingly (as [beast shape III](spell/beast shape_3)). All possessions worn or carried are part of the transformation. Flying, either with the cloak or in bat form, can be accomplished only in darkness (either under the night sky or in a lightless or near-lightless environment underground). Either of the flying powers is usable for up to 7 minutes at a time, but after a flight of any duration the cloak cannot bestow any flying power for a like period of time.",
+			"By holding the edges of the garment, the wearer is able to fly as per the spell (including a +7 bonus on Fly skill checks). If he desires, the wearer can actually polymorph himself into an ordinary bat and fly accordingly (as [beast shape III](spell/beast_shape_3)). All possessions worn or carried are part of the transformation. Flying, either with the cloak or in bat form, can be accomplished only in darkness (either under the night sky or in a lightless or near-lightless environment underground). Either of the flying powers is usable for up to 7 minutes at a time, but after a flight of any duration the cloak cannot bestow any flying power for a like period of time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast shape_3), fly; **Cost** 13,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape III](spell/beast_shape_3), fly; **Cost** 13,000 gp"
 		]
 	},
 	"pelt_of_primal_power": {
@@ -41130,11 +41071,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 26,000 gp; **Weight** 10 lbs.",
 			"",
-			"A prized item among Ulfen berserkers and vikings, a pelt of primal power is a large bearskin worn as a cloak, with the bear's head sitting atop the wearer's head. When donned, a pelt of primal power grants its wearer a +4 armor bonus to AC. In addition, once per day the wearer can transform into a grizzly bear (as [beast shape II](spell/beast shape_2)) for up to 10 minutes.",
+			"A prized item among Ulfen berserkers and vikings, a pelt of primal power is a large bearskin worn as a cloak, with the bear's head sitting atop the wearer's head. When donned, a pelt of primal power grants its wearer a +4 armor bonus to AC. In addition, once per day the wearer can transform into a grizzly bear (as [beast shape II](spell/beast_shape_2)) for up to 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), mage armor; **Cost** 13,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), mage armor; **Cost** 13,000 gp"
 		]
 	},
 	"arms_of_the_marilith": {
@@ -41421,11 +41362,11 @@
 			"",
 			"This cloak is made of tough leather, and is decorated with brilliant red and orange feathers. As a free action, the wearer can rub her hands together, setting them alight-thus granting her natural attacks and unarmed strikes the burn special ability (Bestiary 298; 1d6, Reflex DC 14). The wearer can use this ability for up to 10 rounds per day, which don't need to be consecutive.",
 			"",
-			"If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a breath of life spell (CL 9th) and polymorphs into a birdlike creature made of flames (as [elemental body II](spell/elemental body_2), CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on Fly skill checks due to this maneuverability.",
+			"If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a breath of life spell (CL 9th) and polymorphs into a birdlike creature made of flames (as [elemental body II](spell/elemental_body_2), CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on Fly skill checks due to this maneuverability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), breath of life, [elemental body II](spell/elemental body_2); **Cost** 27,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), breath of life, [elemental body II](spell/elemental_body_2); **Cost** 27,500 gp"
 		]
 	},
 	"deadened_shadows_cloak": {

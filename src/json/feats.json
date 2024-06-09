@@ -102,7 +102,7 @@
 			"You absorb restless spirits into your body at the cost of your own life force and sanity.  ",
 			"**Prerequisites:** Con 13, must have died at least once or been possessed by an undead creature.  ",
 			"**Benefit:** When an incorporeal undead with the rejuvenation special ability or a haunt is reduced to 0 or fewer hit points within 30 feet of you, you can attempt to absorb its spirit into your body as an immediate action. You must attempt a Will save with a DC equal to 5 + twice the CR of the undead creature or haunt. If you are a medium with the haunt channeler class feature, you receive a +2 bonus on this saving throw. If you succeed, you harbor the undead or haunt's essence, and it cannot continue to rejuvenate or manifest until you release it. For every 24 hours that you harbor the entity, you must attempt a Constitution check (DC = 10 + the CR of the undead or haunt). If you are a medium with the haunt channeler class feature, you receive a +2 bonus on this check. If you fail the check, you take 1d4 points of Constitution and Wisdom damage. If you succeed, you take 1 point of Constitution and Wisdom damage. No effect can prevent or reduce this ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit. You can release the spirit at any time as a standard action, at which point the spirit returns to its former location and begins rejuvenating or manifesting again as normal. If you die from the Constitution damage, the spirit is released, and if you become comatose from the Wisdom damage, the spirit gains control of your body (and can release itself whenever it desires).  ",
-			"**Special:** If you are using the sanity system (page 12) and fail your Constitution check while harboring the spirit, you take sanity damage equal to 1/2 the spirit's CR (minimum 1) instead of 1d4 points of Wisdom damage. If you succeed at the Constitution check, you take sanity damage equal to 1/4 the spirit's CR instead of 1 point of Wisdom damage. Either way, you still take the normal amount of Constitution damage. No effect can prevent or reduce the damage, nor can it be healed or suppressed by any means until you release the spirit."
+			"**Special:** If you are using the [sanity system](rule/sanity) and fail your Constitution check while harboring the spirit, you take sanity damage equal to 1/2 the spirit's CR (minimum 1) instead of 1d4 points of Wisdom damage. If you succeed at the Constitution check, you take sanity damage equal to 1/4 the spirit's CR instead of 1 point of Wisdom damage. Either way, you still take the normal amount of Constitution damage. No effect can prevent or reduce the damage, nor can it be healed or suppressed by any means until you release the spirit."
 		]
 	},
 	"abundant_revelations": {
@@ -1542,18 +1542,18 @@
 			"",
 			"Suggested Traits: Called, Fortunate, Inspiring.",
 			"",
-			"Possible Apotheosis Quests",
+			"### Possible Apotheosis Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | You seek to prove your worth and acquire followers who will exalt you as a living ideal or preeminent martyr, like Kurgess (page 229). |",
-			"| 2 | Omens indicate that if you give all in service to your deity, you will become his demigod servant, much as Hanspur was deified by Gozreh (page 229). |",
-			"| 3 | You believe the mad whispers of those cultists who claim that if one were to travel far enough into the Dark Tapestry, one might tap into the divine power of the Great Old Ones (page 235). |",
-			"| 4 | The Test of the Starstone is among the best-known paths to divinity; you adventure in preparation to take the test yourself and join the ranks of ascended deities (page 39). |",
-			"| 5 | While studying the mysteries of Ancient Osirion, you stumble across clues to the mythic divination that elevated Nethys from mortal king to deity (page 223). |",
-			"| 6 | You challenge yourself in the ways described in Irori's holy book, Unbinding the Fetters, as you seek the mental and physical perfection that will lead you to divinity (page 222). |",
-			"| 7 | By tracking down and confronting one of the legendary titans of Elysium, you hope to unlock the secret to achieving divinity in the celestial realms (page 243). |",
-			"| 8 | You have learned that one of your ancestors was a deity (such as the prolific Cayden Cailean) and you now quest to get his attention and earn a similar station (page 219). |"
+			"| 1 | You seek to prove your worth and acquire followers who will exalt you as a living ideal or preeminent martyr, like Kurgess. |",
+			"| 2 | Omens indicate that if you give all in service to your deity, you will become his demigod servant, much as Hanspur was deified by Gozreh. |",
+			"| 3 | You believe the mad whispers of those cultists who claim that if one were to travel far enough into the Dark Tapestry, one might tap into the divine power of the Great Old Ones. |",
+			"| 4 | The Test of the Starstone is among the best-known paths to divinity; you adventure in preparation to take the test yourself and join the ranks of ascended deities. |",
+			"| 5 | While studying the mysteries of Ancient Osirion, you stumble across clues to the mythic divination that elevated Nethys from mortal king to deity. |",
+			"| 6 | You challenge yourself in the ways described in Irori's holy book, Unbinding the Fetters, as you seek the mental and physical perfection that will lead you to divinity. |",
+			"| 7 | By tracking down and confronting one of the legendary titans of Elysium, you hope to unlock the secret to achieving divinity in the celestial realms. |",
+			"| 8 | You have learned that one of your ancestors was a deity (such as the prolific Cayden Cailean) and you now quest to get his attention and earn a similar station. |"
 		]
 	},
 	"aquadynamic_focus": {
@@ -2379,22 +2379,22 @@
 			"",
 			"Suggested Traits: Dangerously Curious, Fortunate, Secret-Keeper.",
 			"",
-			"Possible Artifact Hunter Quests",
+			"### Possible Artifact Hunter Quests",
 			"",
 			"| d12 | Quest |",
 			"| --- | --- |",
-			"| 1 | You seek to wrest the missing piece of the long-shattered Shield of Aroden from the lich-king Tar-Baphon, restore the artifact to its original power, and use it to slay that greatest of evils once and for all (page 300). |",
-			"| 2 | You've read extensive reports in the Pathfinder Chronicles of the lost city of Ninshabur in Casmaron, and you've determined to search for the myriad artifacts that supposedly still lay dormant beneath the rubble of that forsaken metropolis (page 206). |",
-			"| 3 | Whether for reasons benevolent or malign, you've decided that the legendary blade Blackaxe has been carried by the nascent demon lord Treerazer for too long. You seek to claim the weapon for yourself, either so you may destroy it, use it for your own cruel ends, or simply to weaken the nascent demon lord himself (page 299). |",
-			"| 4 | Someone has been stealing life-prolonging sun orchid elixir from agents of Pashow-and you're hoping to get a vial for yourself (page 189). |",
-			"| 5 | The haunted Crypt of Angus Amberleg is said to lie under the jungles of Mediogalti Island and contain the booty from over a hundred raided ships, including Amberleg's knucklebone of fickle fortune (page 115). |",
-			"| 6 | The dwarven siege engine Worldbreaker was lost by Taldor to the Gorilla King of the Mwangi Expanse ages ago, and it possibly still sits in the vaults beneath Usaro (page 183). |",
-			"| 7 | It is well known that a deck of many things was used to construct Castle Everstand in Lastwall. You're intent on figuring out what happened to the artifact afterward (page 99). |",
-			"| 8 | A rift to the Shadow Plane in the Nidalese city of Ridwan may be a clue to the whereabouts of the legendary Shadowstaff (page 137). |",
-			"| 9 | You have heard of the fabled wardstones that quarantine the demonic incursion stemming from the Worldwound, and you seek to claim one of these magical menhirs for your own purposes (page 301). |",
-			"| 10 | The artifacts of ancient Azlant have long piqued your interest, and you are determined to find some of these relics for yourself, even if it means traveling to the sunken continent itself (page 12). |",
-			"| 11 | You know that the elves used the power of the socalled Sovyrian Stone to accomplish a mass exodus from Golarion to their homeland in Sovyrian, but you seek to find this mysterious artifact to realize its powers for yourself (page 94). |",
-			"| 12 | The elves of the Mordant Spire claim to be the true inheritors of the Azlanti legacy, including that people's famous artifacts-an assertion with which you are at odds (page 181). |"
+			"| 1 | You seek to wrest the missing piece of the long-shattered Shield of Aroden from the lich-king Tar-Baphon, restore the artifact to its original power, and use it to slay that greatest of evils once and for all. |",
+			"| 2 | You've read extensive reports in the Pathfinder Chronicles of the lost city of Ninshabur in Casmaron, and you've determined to search for the myriad artifacts that supposedly still lay dormant beneath the rubble of that forsaken metropolis. |",
+			"| 3 | Whether for reasons benevolent or malign, you've decided that the legendary blade Blackaxe has been carried by the nascent demon lord Treerazer for too long. You seek to claim the weapon for yourself, either so you may destroy it, use it for your own cruel ends, or simply to weaken the nascent demon lord himself. |",
+			"| 4 | Someone has been stealing life-prolonging sun orchid elixir from agents of Pashow-and you're hoping to get a vial for yourself. |",
+			"| 5 | The haunted Crypt of Angus Amberleg is said to lie under the jungles of Mediogalti Island and contain the booty from over a hundred raided ships, including Amberleg's knucklebone of fickle fortune. |",
+			"| 6 | The dwarven siege engine Worldbreaker was lost by Taldor to the Gorilla King of the Mwangi Expanse ages ago, and it possibly still sits in the vaults beneath Usaro. |",
+			"| 7 | It is well known that a deck of many things was used to construct Castle Everstand in Lastwall. You're intent on figuring out what happened to the artifact afterward. |",
+			"| 8 | A rift to the Shadow Plane in the Nidalese city of Ridwan may be a clue to the whereabouts of the legendary Shadowstaff. |",
+			"| 9 | You have heard of the fabled wardstones that quarantine the demonic incursion stemming from the Worldwound, and you seek to claim one of these magical menhirs for your own purposes. |",
+			"| 10 | The artifacts of ancient Azlant have long piqued your interest, and you are determined to find some of these relics for yourself, even if it means traveling to the sunken continent itself. |",
+			"| 11 | You know that the elves used the power of the socalled Sovyrian Stone to accomplish a mass exodus from Golarion to their homeland in Sovyrian, but you seek to find this mysterious artifact to realize its powers for yourself. |",
+			"| 12 | The elves of the Mordant Spire claim to be the true inheritors of the Azlanti legacy, including that people's famous artifacts-an assertion with which you are at odds. |"
 		]
 	},
 	"artillery_team": {
@@ -2419,7 +2419,7 @@
 			"**Source** [Spymaster's Handbook pg. 14](source/spymaster's_handbook)",
 			"",
 			"You seek unquestioning admiration and respect to escape from a shameful past.  ",
-			"**Prerequisites:** You must have the Secret Shame drawback (page 7) or the Bastard-Born background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station .  ",
+			"**Prerequisites:** You must have the [Secret Shame](trait/secret_shame) drawback or the Bastard-Born background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station .  ",
 			"**Benefit:** You and your apparent allies gain a +2 bonus on skill checks to gain influence or request a favor. This bonus no longer applies on checks against a person or organization once you fail a skill check to gain influence over or request a favor from that person or organization. Additionally, the DC of Sense Motive checks to get hunches about you and your apparent allies increases by 2.  ",
 			"**Goal:** Achieve a position in a high social class (such as the nobility) or an esteemed military position (such as general) without any substantiated rumors impugning your reputation. If your secret is exposed, you can replace this feat with RedemptionUCA after 1 month without meeting that feat's prerequisite.  ",
 			"**Completion Benefit:** You no longer lose this feat's bonus for failing a skill check. Your Bluff checks to maintain a good reputation are always at worst unlikely (if not believable), and Bluff checks attempted by others to spoil your reputation are always at best unlikely (if not harder to believe)."
@@ -4105,18 +4105,18 @@
 			"",
 			"Suggested Traits: Indomitable Faith, Inspiring, Memorable.",
 			"",
-			"Possible Blessed Quests",
+			"### Possible Blessed Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | The more pacifistic priests of Sarenrae in Qadira are considering the newly arrived White Feather Monks as potential allies, but they'll doubtlessly need a powerful emissary to help fuse the two groups (page 151). |",
-			"| 2 | The Hellknight Order of the Nail uses increasingly vicious methods to \"civilize\" the Shoanti of the Storval Plateau. A brave Shoanti thundercaller might be able to sway the tide of battle between these two groups (pages 18, 266). |",
-			"| 3 | Galt's Red Revolution led many to turn to evil, but hope for redemption comes from Woodsedge, where sympathy and moderation hold sway (page 73). |",
-			"| 4 | You were raised in a strict orphanage dedicated to Asmodeus during Isger's tumultuous Goblinblood Wars. Although you resisted indoctrination into the church of the Prince of Darkness, many did not, and you are likely their only hope for redemption as long as you can locate your fallen brethren (page 83). |",
-			"| 5 | In honor of Andoran's patron celestial, Talmandor, you use rhetoric and deeds to make revolutionaries out of collaborators in oppressed lands such as Cheliax, Galt, or Nidal (page 43). |",
-			"| 6 | In the Fangwood of Nirmathas, the cursed dryad Arlantia may yet be redeemed if only she can be reached (page 140). |",
-			"| 7 | You hope that by locating the fallen demigoddess Arazni's missing organs, you can use the powerful relics to bring the so-called Harlot Queen back to the light (page 76). |",
-			"| 8 | Tales of the accursed beings that now reside in the Estrovian Forest of Mendev have ignited within you a righteous indignation, and you will not rest until the spirits of the so-called \"hernes\" who plague the oaks repent for their indiscretions (page 120). |"
+			"| 1 | The more pacifistic priests of Sarenrae in Qadira are considering the newly arrived White Feather Monks as potential allies, but they'll doubtlessly need a powerful emissary to help fuse the two groups. |",
+			"| 2 | The Hellknight Order of the Nail uses increasingly vicious methods to \"civilize\" the Shoanti of the Storval Plateau. A brave Shoanti thundercaller might be able to sway the tide of battle between these two groups. |",
+			"| 3 | Galt's Red Revolution led many to turn to evil, but hope for redemption comes from Woodsedge, where sympathy and moderation hold sway. |",
+			"| 4 | You were raised in a strict orphanage dedicated to Asmodeus during Isger's tumultuous Goblinblood Wars. Although you resisted indoctrination into the church of the Prince of Darkness, many did not, and you are likely their only hope for redemption as long as you can locate your fallen brethren . |",
+			"| 5 | In honor of Andoran's patron celestial, Talmandor, you use rhetoric and deeds to make revolutionaries out of collaborators in oppressed lands such as Cheliax, Galt, or Nidal . |",
+			"| 6 | In the Fangwood of Nirmathas, the cursed dryad Arlantia may yet be redeemed if only she can be reached . |",
+			"| 7 | You hope that by locating the fallen demigoddess Arazni's missing organs, you can use the powerful relics to bring the so-called Harlot Queen back to the light . |",
+			"| 8 | Tales of the accursed beings that now reside in the Estrovian Forest of Mendev have ignited within you a righteous indignation, and you will not rest until the spirits of the so-called \"hernes\" who plague the oaks repent for their indiscretions . |"
 		]
 	},
 	"blessed_hammer": {
@@ -10421,18 +10421,18 @@
 			"",
 			"Suggested Traits: Domineering, History of Heresy, Magical Flair.",
 			"",
-			"Possible Damned Quests",
+			"### Possible Damned Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | The Acadamae of Korvosa instructs in the binding of devils (page 195). |",
-			"| 2 | Deskari, a demon lord of the Worldwound, is said to offer power to any mortal who supplicates herself to him (page 198). |",
-			"| 3 | Summoned fiends supposedly walk the streets of Quantium in Nex (page 132). |",
-			"| 4 | The labyrinthine Tower of Slant Shadows in Nidal is home to the otherworldly Mother Ravel, who deals only in flesh with those who seek to obtain her favor (page 137). |",
-			"| 5 | Having long relied on your guile and good looks, you seek a fiendish bargain to prevent aging. You believe speaking with the impossibly long-lived Lady Kaltessa Iyis of Isger may yield a solution (page 85). |",
-			"| 6 | You seek to locate a powerful efreeti in Katapesh, where the land itself is said to be infused with genie magic (page 90). |",
-			"| 7 | You hope to lure out the Water Lords of the Thuvian desert to commune with a div (page 188). |",
-			"| 8 | Your blood calls you to return to your remote ancestral home along the coast of the Steaming Sea, where Dagon's demonic spawn mingle with fiend-worshiping mortals (page 232). |"
+			"| 1 | The Acadamae of Korvosa instructs in the binding of devils . |",
+			"| 2 | Deskari, a demon lord of the Worldwound, is said to offer power to any mortal who supplicates herself to him . |",
+			"| 3 | Summoned fiends supposedly walk the streets of Quantium in Nex . |",
+			"| 4 | The labyrinthine Tower of Slant Shadows in Nidal is home to the otherworldly Mother Ravel, who deals only in flesh with those who seek to obtain her favor . |",
+			"| 5 | Having long relied on your guile and good looks, you seek a fiendish bargain to prevent aging. You believe speaking with the impossibly long-lived Lady Kaltessa Iyis of Isger may yield a solution . |",
+			"| 6 | You seek to locate a powerful efreeti in Katapesh, where the land itself is said to be infused with genie magic . |",
+			"| 7 | You hope to lure out the Water Lords of the Thuvian desert to commune with a div . |",
+			"| 8 | Your blood calls you to return to your remote ancestral home along the coast of the Steaming Sea, where Dagon's demonic spawn mingle with fiend-worshiping mortals . |"
 		]
 	},
 	"damned_disciple": {
@@ -12860,7 +12860,7 @@
 			"",
 			"You ignore the limitations of your equipment, striking harder despite the damage it does to your weapon.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient with weapon.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the fragile weapon special quality to score a critical threat against an opponent, you can give your weapon the broken condition to automatically confirm the critical hit."
+			"**Benefit:** Whenever you use a melee or thrown weapon with the [fragile](rule/conditions) weapon special quality to score a critical threat against an opponent, you can give your weapon the broken condition to automatically confirm the critical hit."
 		]
 	},
 	"disrupting_fist": {
@@ -14687,22 +14687,22 @@
 			"",
 			"Suggested Traits: Domineering, Inspiring, Natural-Born Leader.",
 			"",
-			"Possible Dynasty Founder Quests",
+			"### Possible Dynasty Founder Quests",
 			"",
 			"| d12 | Quest |",
 			"| --- | --- |",
-			"| 1 | Trollheim awaits the slayer of a linnorm to claim the city's empty throne (page 105). |",
-			"| 2 | Whispers of rebellion against House Surtova draw you toward Restov in Brevoy (page 53). |",
-			"| 3 | River Kingdoms denizens respect openly seizing what you want, and you want the throne of a River Kingdom, such as that of King Irovetti of Pitax (page 163). |",
-			"| 4 | Mendev's understaffed fringe cities wait to be claimed by valiant crusaders (page 119). |",
-			"| 5 | You believe that the Black Sovereign has ruled Numeria's capital of Starfall for too long (page 145). |",
-			"| 6 | Riddleport in Varisia is chaotic and poorly governed, but a strong leader might become ruler with enough support from one of its various factions (page 197). |",
-			"| 7 | Outlaws lairing in the Vergan Forest will need a strong leader if they are to successfully rebel against the living god Razmir (page 161). |",
-			"| 8 | The ruler of Lastwall (or some other randomly determined nation) promises rulership of a city to any hero who can slay a menacing dragon in the nearby woods (page 100). |",
-			"| 9 | The empire of Minkai in Tian Xia has been in a state of turmoil since Emperor Shigure Higashiyama was deposed by his own clansmen. If you are to seize a kingdom in the Dragon Empires, now is the time (page 208). |",
-			"| 10 | If you can slay the dreaded creature known as the Devil in Gray in Lozeri of Ustalav, then perhaps you can inspire enough faith in the surrounding populace to usurp the ruling council of Courtaud (page 193). |",
-			"| 11 | The Byzantine nature of Taldor's burdensome bureaucracy can make it easy for a silver-tongued beguiler to achieve some station of power in the nation (page 184). |",
-			"| 12 | By winning the Free Captain's Regatta in the Shackles, you hope to achieve a place on the infamous Pirate Council and gain control of your own island (page 171). |"
+			"| 1 | Trollheim awaits the slayer of a linnorm to claim the city's empty throne . |",
+			"| 2 | Whispers of rebellion against House Surtova draw you toward Restov in Brevoy . |",
+			"| 3 | River Kingdoms denizens respect openly seizing what you want, and you want the throne of a River Kingdom, such as that of King Irovetti of Pitax . |",
+			"| 4 | Mendev's understaffed fringe cities wait to be claimed by valiant crusaders . |",
+			"| 5 | You believe that the Black Sovereign has ruled Numeria's capital of Starfall for too long . |",
+			"| 6 | Riddleport in Varisia is chaotic and poorly governed, but a strong leader might become ruler with enough support from one of its various factions . |",
+			"| 7 | Outlaws lairing in the Vergan Forest will need a strong leader if they are to successfully rebel against the living god Razmir . |",
+			"| 8 | The ruler of Lastwall (or some other randomly determined nation) promises rulership of a city to any hero who can slay a menacing dragon in the nearby woods . |",
+			"| 9 | The empire of Minkai in Tian Xia has been in a state of turmoil since Emperor Shigure Higashiyama was deposed by his own clansmen. If you are to seize a kingdom in the Dragon Empires, now is the time . |",
+			"| 10 | If you can slay the dreaded creature known as the Devil in Gray in Lozeri of Ustalav, then perhaps you can inspire enough faith in the surrounding populace to usurp the ruling council of Courtaud . |",
+			"| 11 | The Byzantine nature of Taldor's burdensome bureaucracy can make it easy for a silver-tongued beguiler to achieve some station of power in the nation . |",
+			"| 12 | By winning the Free Captain's Regatta in the Shackles, you hope to achieve a place on the infamous Pirate Council and gain control of your own island . |"
 		]
 	},
 	"eagle_eyes": {
@@ -17371,18 +17371,18 @@
 			"",
 			"Suggested Traits: Grim Optimism, Resilient, Wanderlust.",
 			"",
-			"Possible Explorer Quests",
+			"### Possible Explorer Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | Ulfen explorers point you toward the impossibly wild forests of distant Arcadia to sate your wanderlust (page 202). |",
-			"| 2 | You've resolved to dive into sunken Azlanti ruins to locate several minor artifacts, said to be scattered throughout the area according to the research of an interested faction (page 203). |",
-			"| 3 | For years the mysterious Doorway to the Red Star has befuddled scholars and inspired fringe faiths among the denizens of the Mwangi. You've decided to set out and discover why (page 127). |",
-			"| 4 | The government of a nearby nation is interested in reopening steady trade across the Crown of the World by a route north of Icerift Castle in Mendev, and they've assigned you to clear the path (page 121). |",
-			"| 5 | You hire on with a band of skilled pirates in the Shackles in hopes of being able to navigate the perilous Eye of Abendego (page 170). |",
-			"| 6 | Earthnavel in the Realm of the Mammoth Lords is said to lead into a time-lost underworld known as Deep Tolguth-a rumor whose veracity you're willing to test (page 107). |",
-			"| 7 | Forgotten Iobarian ruins in the plague-emptied forests of Casmaron await a hearty explorer to plumb their darkest depths (page 205). |",
-			"| 8 | You know that many would pay grand sums for the exotic reagents of the Valashmai Jungle in Tian Xia if it were ever opened up to trade with the Inner Sea region (page 208). |"
+			"| 1 | Ulfen explorers point you toward the impossibly wild forests of distant Arcadia to sate your wanderlust . |",
+			"| 2 | You've resolved to dive into sunken Azlanti ruins to locate several minor artifacts, said to be scattered throughout the area according to the research of an interested faction . |",
+			"| 3 | For years the mysterious Doorway to the Red Star has befuddled scholars and inspired fringe faiths among the denizens of the Mwangi. You've decided to set out and discover why . |",
+			"| 4 | The government of a nearby nation is interested in reopening steady trade across the Crown of the World by a route north of Icerift Castle in Mendev, and they've assigned you to clear the path . |",
+			"| 5 | You hire on with a band of skilled pirates in the Shackles in hopes of being able to navigate the perilous Eye of Abendego . |",
+			"| 6 | Earthnavel in the Realm of the Mammoth Lords is said to lead into a time-lost underworld known as Deep Tolguth-a rumor whose veracity you're willing to test . |",
+			"| 7 | Forgotten Iobarian ruins in the plague-emptied forests of Casmaron await a hearty explorer to plumb their darkest depths . |",
+			"| 8 | You know that many would pay grand sums for the exotic reagents of the Valashmai Jungle in Tian Xia if it were ever opened up to trade with the Inner Sea region . |"
 		]
 	},
 	"explosive_escape": {
@@ -19694,12 +19694,12 @@
 			"",
 			"You can repair your broken weapon or armor to serviceability even without the benefits of artisan tools.  ",
 			"**Prerequisites:** Craft 4 ranks.  ",
-			"**Benefit:** If you are trained in a Craft skill appropriate to a broken item, you can repair that item with no raw material cost and no penalty on your Craft skill check for using improvised tools. If you spend a day, the item regains 1 hit point plus one-quarter of its original hit points. Alternatively, if the item gained the broken condition because it is a firearm that has misfired or a siege engine that suffered a mishap, or has the broken condition because it has the fragile weapon quality (or some similar quality), you can make a Craft check with the DC it takes to craft that item (see table below). If the check succeeds, the item loses the broken condition.  ",
+			"**Benefit:** If you are trained in a Craft skill appropriate to a broken item, you can repair that item with no raw material cost and no penalty on your Craft skill check for using improvised tools. If you spend a day, the item regains 1 hit point plus one-quarter of its original hit points. Alternatively, if the item gained the broken condition because it is a firearm that has misfired or a siege engine that suffered a mishap, or has the broken condition because it has the [fragile](rule/conditions) weapon quality (or some similar quality), you can make a Craft check with the DC it takes to craft that item (see table below). If the check succeeds, the item loses the broken condition.  ",
 			"**Normal:** Improvised tools impose a -2 penalty on Craft checks. Items require raw materials to repair.",
 			"",
 			"| Item | Craft Skill | Craft DC |",
 			"| --- | --- | --- |",
-			"| A weapon with the fragile special quality | Weapon or Bow | Normal DC -5 |",
+			"| A weapon with the [fragile](rule/conditions) special quality | Weapon or Bow | Normal DC -5 |",
 			"| One-handed firearm | Firearm | 20 |",
 			"| Two-handed firearm | Firearm | 20 |",
 			"| Siege firearm, heavy | Firearm | 25 |",
@@ -20841,18 +20841,18 @@
 			"",
 			"Suggested Traits: Dirty Fighter, Sworn Enemy, Vengeful.",
 			"",
-			"Possible Foeslayer Quests",
+			"### Possible Foeslayer Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | You saw many friends and family fall in the Goblinblood Wars that wracked Isger years ago. Now, as goblins multiply again, you've decided to take the fight to them (page 82). |",
-			"| 2 | Robbed by pirates from the Shackles, you have vowed to hunt down all of their kind (determine race randomly) (page 170). |",
-			"| 3 | A friend or relative of yours was slain senselessly by strix while passing near Devil's Perch in Cheliax, and you've vowed to exact revenge against the aggressors and their kin (page 57). |",
-			"| 4 | When you were enslaved by gnolls, you were freed by the djinni that raided their camp. Now, you would find the genies again so that you might together put a more permanent end to the gnoll threat in western Katapesh (page 91). |",
-			"| 5 | You desire to match and then exceed the achievements of your ancestor Queen Boliga Bharsolm, still remembered in Numeria for felling a giant king in the Battle of Grasyhot (page 143). |",
-			"| 6 | In Canterwall, the denizens of various hamlets along the border between the Hold of Belkzen and Ustalav have been mysteriously disappearing. You've determined to locate the evildoers responsible and make them pay the price for their foul deeds (page 193). |",
-			"| 7 | When you traveled through southern Rahadoum, boggard priests of Rovagug from the Sodden Lands took a family treasure from you as an offering to their foul god (page 175). |",
-			"| 8 | The borderlands along the Hold of Belkzen are constantly seething with tribal conflicts, and one of them left you hungry for revenge against the orc aggressors (page 46). |"
+			"| 1 | You saw many friends and family fall in the Goblinblood Wars that wracked Isger years ago. Now, as goblins multiply again, you've decided to take the fight to them . |",
+			"| 2 | Robbed by pirates from the Shackles, you have vowed to hunt down all of their kind (determine race randomly) . |",
+			"| 3 | A friend or relative of yours was slain senselessly by strix while passing near Devil's Perch in Cheliax, and you've vowed to exact revenge against the aggressors and their kin . |",
+			"| 4 | When you were enslaved by gnolls, you were freed by the djinni that raided their camp. Now, you would find the genies again so that you might together put a more permanent end to the gnoll threat in western Katapesh . |",
+			"| 5 | You desire to match and then exceed the achievements of your ancestor Queen Boliga Bharsolm, still remembered in Numeria for felling a giant king in the Battle of Grasyhot . |",
+			"| 6 | In Canterwall, the denizens of various hamlets along the border between the Hold of Belkzen and Ustalav have been mysteriously disappearing. You've determined to locate the evildoers responsible and make them pay the price for their foul deeds . |",
+			"| 7 | When you traveled through southern Rahadoum, boggard priests of Rovagug from the Sodden Lands took a family treasure from you as an offering to their foul god . |",
+			"| 8 | The borderlands along the Hold of Belkzen are constantly seething with tribal conflicts, and one of them left you hungry for revenge against the orc aggressors . |"
 		]
 	},
 	"following_step": {
@@ -24477,7 +24477,7 @@
 			"",
 			"You use your gnome magic to take on an eerie illusory appearance.  ",
 			"**Prerequisites:** Cha 13, gnome magic racial trait, Knowledge (arcana) 1 rank.  ",
-			"**Benefit:** You add haunted fey aspect (page 230) to your list of gnome magic spell-like abilities, and you can use this spell-like ability twice per day.",
+			"**Benefit:** You add [haunted fey aspect](spell/haunted_fey_aspect) to your list of gnome magic spell-like abilities, and you can use this spell-like ability twice per day.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
 			"",
@@ -24501,7 +24501,7 @@
 			"**Prerequisites:** Cha 13, gnome magic racial trait, [Haunted Gnome](feat/haunted_gnome), Knowledge (arcana) 3 ranks.  ",
 			"**Benefit:** You gain one use of your gnome magic that is independent of your gnome magic spell-like abilities. When you wish to cast a gnome magic spell-like ability for which you have no daily uses remaining, you can expend this independent use to do so.",
 			"",
-			"Further, while you are under the effect of haunted fey aspect (page 230), you can discharge that spell as a free action after you hit an opponent with a charge attack or score a critical hit against an opponent. If you do, that opponent becomes shaken for 1 round.",
+			"Further, while you are under the effect of [haunted fey aspect](spell/haunted_fey_aspect), you can discharge that spell as a free action after you hit an opponent with a charge attack or score a critical hit against an opponent. If you do, that opponent becomes shaken for 1 round.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
 			"",
@@ -30460,22 +30460,22 @@
 			"",
 			"Suggested Traits: Reactionary, Secret-Keeper, Supportive.",
 			"",
-			"Possible Liberator Quests",
+			"### Possible Liberator Quests",
 			"",
 			"| d12 | Quest |",
 			"| --- | --- |",
-			"| 1 | Halfling slave-liberators have asked you to meet them in a nondescript pub in Corentyn, Cheliax (page 54). |",
-			"| 2 | The child of escaped slaves held on Stonespine Island and sold in the Fleshfairs of Okeno, you dream of going to Katapesh to free others like your parents (page 93). |",
-			"| 3 | After visiting Absalom for a short time, you were stunned to find the practice of slavery so prevalent in the Coins district of that city, and now you intend to clean up the streets as best you can (page 39). |",
-			"| 4 | The Gray Corsairs need information on the defenses of several Rahadoumi slave ships they plan to raid (page 265). |",
-			"| 5 | Sedeq, slave capital of Qadira, trades in genies and elemental kin, many of whom wield magic that they might grant to those who free them (page 153). |",
-			"| 6 | Though the slaves of Molthune live better than in most other countries, their rise to full citizenship does not come fast enough for your tastes (page 123). |",
-			"| 7 | Lizardfolk raid the slave-trading town of Neruma in the Shackles with increasing frequency, providing you an opportunity to free slaves held in the town in the midst of the chaos (page 172). |",
-			"| 8 | The slave-monster battles of Greenblood in the Sodden Lands inflame your sensibilities, even if the brutes who brawl in the tournaments there are supposedly irredeemably foul creatures. Regardless, you know they suffer a fate none should behold, and are intent on freeing them (page 176). |",
-			"| 9 | There is said to be a forest in Irrisen called Chillblight, where the fey rule over their human thralls. Only the aid of an outsider can save these enslaved innocents from their icy masters (page 80). |",
-			"| 10 | While you rarely have dealings with the mongrelmen of the Darklands, rumors of hundreds of enslaved members of their kind in the underground settlement of Corgunbier pushes you to action (page 59). |",
-			"| 11 | Master of Blades and ex-slave Mardinus in Citadel Gheradesca has spouted dogma of the heights one can achieve through hard work, and you're intent to put that theory to the test when you pick his brain for the locations of other enslaved peoples (page 266). |",
-			"| 12 | Breaking out enslaved allies from the city of Hagegraf in the Darklands will be no easy task, but you're willing to risk it all for your comrades trapped in the duergar city (page 59). |"
+			"| 1 | Halfling slave-liberators have asked you to meet them in a nondescript pub in Corentyn, Cheliax. |",
+			"| 2 | The child of escaped slaves held on Stonespine Island and sold in the Fleshfairs of Okeno, you dream of going to Katapesh to free others like your parents. |",
+			"| 3 | After visiting Absalom for a short time, you were stunned to find the practice of slavery so prevalent in the Coins district of that city, and now you intend to clean up the streets as best you can. |",
+			"| 4 | The Gray Corsairs need information on the defenses of several Rahadoumi slave ships they plan to raid. |",
+			"| 5 | Sedeq, slave capital of Qadira, trades in genies and elemental kin, many of whom wield magic that they might grant to those who free them. |",
+			"| 6 | Though the slaves of Molthune live better than in most other countries, their rise to full citizenship does not come fast enough for your tastes. |",
+			"| 7 | Lizardfolk raid the slave-trading town of Neruma in the Shackles with increasing frequency, providing you an opportunity to free slaves held in the town in the midst of the chaos. |",
+			"| 8 | The slave-monster battles of Greenblood in the Sodden Lands inflame your sensibilities, even if the brutes who brawl in the tournaments there are supposedly irredeemably foul creatures. Regardless, you know they suffer a fate none should behold, and are intent on freeing them. |",
+			"| 9 | There is said to be a forest in Irrisen called Chillblight, where the fey rule over their human thralls. Only the aid of an outsider can save these enslaved innocents from their icy masters. |",
+			"| 10 | While you rarely have dealings with the mongrelmen of the Darklands, rumors of hundreds of enslaved members of their kind in the underground settlement of Corgunbier pushes you to action. |",
+			"| 11 | Master of Blades and ex-slave Mardinus in Citadel Gheradesca has spouted dogma of the heights one can achieve through hard work, and you're intent to put that theory to the test when you pick his brain for the locations of other enslaved peoples. |",
+			"| 12 | Breaking out enslaved allies from the city of Hagegraf in the Darklands will be no easy task, but you're willing to risk it all for your comrades trapped in the duergar city. |"
 		]
 	},
 	"lie_low": {
@@ -31307,7 +31307,7 @@
 			"Your fists are weapons of mind-devouring madness.Q  ",
 			"**Prerequisites:** Wis 17, Cha 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), Maddening Style, [Stunning Fist](feat/stunning_fist), Knowledge (arcana) 8 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** As a swift action, you can spend 1 point from your ki pool to imbue the next unarmed strike you make on this turn with the maddening power of the spaces between the stars. If that attack doesn't hit, you take 2 points of Wisdom damage. If the attack hits, your opponent takes damage from your unarmed strike + 1d4+1 points of Wisdom damage. A successful Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) reduces this to 2 points of Wisdom damage.  ",
-			"**Special:** If you are using the sanity system (page 12), when you miss with a Maddening Strike, you take 4 points of sanity damage. If you hit, the target takes damage from the unarmed strike plus 8 points of sanity damage (or 4 points of sanity damage on a successful Will save)."
+			"**Special:** If you are using the [sanity system](rule/sanity), when you miss with a Maddening Strike, you take 4 points of sanity damage. If you hit, the target takes damage from the unarmed strike plus 8 points of sanity damage (or 4 points of sanity damage on a successful Will save)."
 		]
 	},
 	"maddening_style": {
@@ -31321,7 +31321,7 @@
 			"When you clobber an opponent with your fists, you inundate its mind with visions of madness and horror.  ",
 			"**Prerequisites:** Wis 15, Cha 11, [Improved Unarmed Strike](feat/improved_unarmed_strike), [Stunning Fist](feat/stunning_fist), Knowledge (arcana) 4 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** You gain one additional use of Stunning Fist per day. When using this style, if you have at least 1 point in your ki pool, you increase the DCs of your confusion, madness, and insanity effects (including Maddening Strike) by 1. Additionally, when you successfully stun an opponent with your Stunning Fist attack, your target takes 1 point of Wisdom damage.  ",
-			"**Special:** If you are using the sanity system (page 12), when you successfully stun an opponent with your Stunning Fist attack, the target takes 1d4 points of sanity damage instead of 1 point of Wisdom damage."
+			"**Special:** If you are using the [sanity system](rule/sanity), when you successfully stun an opponent with your Stunning Fist attack, the target takes 1d4 points of sanity damage instead of 1 point of Wisdom damage."
 		]
 	},
 	"mage_of_the_wild": {
@@ -32306,7 +32306,7 @@
 			"",
 			"You are significantly faster at loading a siege engine, as well as a better shot.  ",
 			"**Prerequisites:** Siege Engineer, Knowledge (engineering) 10 ranks.  ",
-			"**Benefit:** If you are the crew lead on a siege engine, your crew can use move actions to load a siege engine. When you spend actions to aim a siege engine, you and your crew can use move actions instead of full-round actions to aim the siege engine (page 160).  ",
+			"**Benefit:** If you are the crew lead on a siege engine, your crew can use move actions to load a siege engine. When you spend actions to aim a siege engine, you and your crew can use move actions instead of full-round actions to aim the siege engine.  ",
 			"**Normal:** Full-round actions are required to load and aim siege engines.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -36709,7 +36709,7 @@
 			"**Source** [Ultimate Combat pg. 112](source/ultimate_combat)",
 			"",
 			"You wield all your weapons with the flair of a performer.  ",
-			"**Benefit:** You treat all weapons you are proficient in as if they had the performance weapon quality (page 144).",
+			"**Benefit:** You treat all weapons you are proficient in as if they had the performance weapon quality.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
 			"",
@@ -37664,18 +37664,18 @@
 			"",
 			"Suggested Traits: Fey Protection, Scholar of the Great Beyond, Wanderlust.",
 			"",
-			"Possible Planar Traveler Quests",
+			"### Possible Planar Traveler Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | Your morbid curiosity urges you to journey through the Worldwound, either to contact or combat what impossible fiendish entities no doubt lurk beyond (page 198). |",
-			"| 2 | Several weak points exist between the forested realms of the River Kingdoms and the plane known as the First World. You seek to learn the mysteries of that realm's strange fey inhabitants (page 239). |",
+			"| 1 | Your morbid curiosity urges you to journey through the Worldwound, either to contact or combat what impossible fiendish entities no doubt lurk beyond. |",
+			"| 2 | Several weak points exist between the forested realms of the River Kingdoms and the plane known as the First World. You seek to learn the mysteries of that realm's strange fey inhabitants. |",
 			"| 3 | Ancient relics imply connections between the fallen Empire of Thassilon and the nightmare realm of Leng (pages 211, 245). |",
-			"| 4 | The wealth of mortal cities pales in comparison to that of the fabled City of Brass on the Plane of Fire. You intend to seize at least a part of the metropolis's incredible wealth for yourself (page 241). |",
-			"| 5 | You have always been fascinated by death. Now, you wish to travel to its kingdom, the Boneyard, in life, either to rescue another soul from an uncertain fate or to learn of your own destiny (page 243). |",
-			"| 6 | You have resolved to reach Hell's vast fortress-capital Dis, where the magical treasures of Hell are available for a price (page 244). |",
-			"| 7 | In Axis, the city of perfect order, you hope to scale the crystal spires where the laws of reality are carved so that you might understand or, perhaps, change them (page 243). |",
-			"| 8 | The Immortal Ambulatory drifts among countless planes, allowing those who can reach the demiplane to visit many other realities. Perhaps by going there you can resolve long-unanswered questions regarding dragons and the nature of the multiverse (page 245). |"
+			"| 4 | The wealth of mortal cities pales in comparison to that of the fabled City of Brass on the Plane of Fire. You intend to seize at least a part of the metropolis's incredible wealth for yourself. |",
+			"| 5 | You have always been fascinated by death. Now, you wish to travel to its kingdom, the Boneyard, in life, either to rescue another soul from an uncertain fate or to learn of your own destiny. |",
+			"| 6 | You have resolved to reach Hell's vast fortress-capital Dis, where the magical treasures of Hell are available for a price. |",
+			"| 7 | In Axis, the city of perfect order, you hope to scale the crystal spires where the laws of reality are carved so that you might understand or, perhaps, change them. |",
+			"| 8 | The Immortal Ambulatory drifts among countless planes, allowing those who can reach the demiplane to visit many other realities. Perhaps by going there you can resolve long-unanswered questions regarding dragons and the nature of the multiverse. |"
 		]
 	},
 	"planar_wanderer": {
@@ -38535,18 +38535,18 @@
 			"",
 			"Suggested Traits: Called, Ease of Faith, Mystery Initiate.",
 			"",
-			"Possible Prophet Quests",
+			"### Possible Prophet Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | You have been tasked with bringing Iomedae's faith to \"uncivilized\" backwoods people in a randomly determined nation (page 222). |",
-			"| 2 | The Umbral Court of Nidal expressly forbids the worship of gods other than Zon-Kuthon within their shadowy nation, but you're set to protect and spread Desna's ideals to the Nidalese, either at large or in a relatively confined region, such as around the Atteran Ranches (page 135). |",
-			"| 3 | You seek to aid the little-known breed of horse-headed centaurs in the Exalted Wood in Razmiran and introduce them to your faith (page 159). |",
-			"| 4 | The Last Temple of Rahadoum offers the potential of many desperate evangelists who might aid you in spreading your god's faith in that domineering nation of atheists (page 157). |",
-			"| 5 | Inspired by the Hellknights of the Order of the Godclaw, you preach the words of your lawful patron among the rebellious rabble of Cheliax, whom you will turn into models of discipline whether they like it or not (page 266). |",
-			"| 6 | Disgusted by the disrespect of the Molthuni toward the once-sacred valley called Deadeye's Haunt, you intend to show them the error of their ways with the power of Erastil (page 139). |",
-			"| 7 | You spread the faith of Milani, the Everbloom, by expelling unjust tyrants and aiding the downtrodden (page 229). |",
-			"| 8 | Your patron-a demon lord, archdevil, or other generally unwanted influence (determine randomly)-inspires you to disguise your faith and reveal it only slowly to potential converts in order to lure them into the fold (page 231). |"
+			"| 1 | You have been tasked with bringing Iomedae's faith to \"uncivilized\" backwoods people in a randomly determined nation. |",
+			"| 2 | The Umbral Court of Nidal expressly forbids the worship of gods other than Zon-Kuthon within their shadowy nation, but you're set to protect and spread Desna's ideals to the Nidalese, either at large or in a relatively confined region, such as around the Atteran Ranches. |",
+			"| 3 | You seek to aid the little-known breed of horse-headed centaurs in the Exalted Wood in Razmiran and introduce them to your faith. |",
+			"| 4 | The Last Temple of Rahadoum offers the potential of many desperate evangelists who might aid you in spreading your god's faith in that domineering nation of atheists. |",
+			"| 5 | Inspired by the Hellknights of the Order of the Godclaw, you preach the words of your lawful patron among the rebellious rabble of Cheliax, whom you will turn into models of discipline whether they like it or not. |",
+			"| 6 | Disgusted by the disrespect of the Molthuni toward the once-sacred valley called Deadeye's Haunt, you intend to show them the error of their ways with the power of Erastil. |",
+			"| 7 | You spread the faith of Milani, the Everbloom, by expelling unjust tyrants and aiding the downtrodden. |",
+			"| 8 | Your patron-a demon lord, archdevil, or other generally unwanted influence (determine randomly)-inspires you to disguise your faith and reveal it only slowly to potential converts in order to lure them into the fold. |"
 		]
 	},
 	"prophetic_visionary": {
@@ -44093,7 +44093,7 @@
 			"",
 			"Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner of objects to your advantage in combat.  ",
 			"**Prerequisites:** [Catch Off-Guard](feat/catch_off_guard) or [Throw Anything](feat/throw_anything), [Shikigami Style](feat/shikigami_style).  ",
-			"**Benefit:** While in [Shikigami Style](feat/shikigami_style), you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the fragile special quality or broken condition, you can treat it as if it had the jagged special quality."
+			"**Benefit:** While in [Shikigami Style](feat/shikigami_style), you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the [fragile](rule/conditions) special quality or broken condition, you can treat it as if it had the jagged special quality."
 		]
 	},
 	"shikigami_style": {
@@ -45737,7 +45737,7 @@
 			"",
 			"**Source** [Monster Codex pg. 8](source/monster_codex)",
 			"",
-			"Your croak creates powerful sound waves that you can direct at fragile targets.  ",
+			"Your croak creates powerful sound waves that you can direct at [fragile](rule/conditions) targets.  ",
 			"**Prerequisites:** [Throat Pouch](feat/throat_pouch), boggard, terrifying croak.  ",
 			"**Benefit:** When you use your terrifying croak ability, instead of it imparting its normal effect, you can choose to deal 1d4 points of sonic damage to creatures in a 15-foot cone (Fortitude half ). The DC of this Fortitude save is the same as that of your terrifying croak. For every 3 Hit Dice you possess, the damage dealt increases by 1d4.  ",
 			"**Special:** The Throat Pouch feat increases the size of this feat's cone by 5 feet for every 6 HD you have, not every 2 HD."
@@ -46594,7 +46594,7 @@
 			"| 17-20 | 28 | (+9) |",
 			"| 21+ | 32 | (+11) |",
 			"Conversing with a spirit in this manner unsettles the mind. Each time you attempt a Diplomacy check using this ability to influence the spirit's attitude or make a request, you take 1 point of Wisdom damage. No effect can prevent or reduce the ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit.  ",
-			"**Special:** If you are using the sanity system (page 12), when you attempt a Diplomacy check using this ability, you take 1d6 points of sanity damage instead of 1 point of Wisdom damage. No effect can prevent or reduce the damage, nor can the damage be healed or suppressed by any means until you release the spirit."
+			"**Special:** If you are using the [sanity system](rule/sanity), when you attempt a Diplomacy check using this ability, you take 1d6 points of sanity damage instead of 1 point of Wisdom damage. No effect can prevent or reduce the damage, nor can the damage be healed or suppressed by any means until you release the spirit."
 		]
 	},
 	"spirit_symbiosis": {
@@ -46788,9 +46788,9 @@
 			"",
 			"**Source** [Ultimate Combat pg. 120](source/ultimate_combat)",
 			"",
-			"Your fragile weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
+			"Your [fragile](rule/conditions) weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient with weapon, weapon made of primitive material.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the fragile weapon feature (page 146) or similar quality and hit an opponent, you can give your weapon the broken condition to deal that opponent 1d4 points of bleed damage."
+			"**Benefit:** Whenever you use a melee or thrown weapon with the [fragile](rule/conditions) weapon feature or similar quality and hit an opponent, you can give your weapon the broken condition to deal that opponent 1d4 points of bleed damage."
 		]
 	},
 	"split_hex": {
@@ -52272,22 +52272,22 @@
 			"",
 			"Suggested Traits: Avid Reader, Mystery Initiate, Skeptic.",
 			"",
-			"Possible Truth-Seeker Quests",
+			"### Possible Truth-Seeker Quests",
 			"",
 			"| d12 | Quest |",
 			"| --- | --- |",
-			"| 1 | You dream of braving the flooded ruins of Lirgen in the Sodden Lands in order to discover the secret that drove many of the now-defunct Saoc Brethren utterly insane (page 174). |",
-			"| 2 | The secret of how the Pactmasters of Katapesh came to power is within your reach, if only you could go to that nation to truly discover it (page 91). |",
-			"| 3 | Seeing the pathetic mess of politics that paralyzes the once-great nation of Nex, you have vowed to discover what really happened to that kingdom and bring proof (or the mysterious archwizard himself) to the world at large (page 130). |",
-			"| 4 | Clues point you toward the Arcadian Ocean to discover why the aboleths ever became involved with the ancient Azlanti in the first place (page 211). |",
-			"| 5 | The god-kings of Ancient Osirion demonstrated magic little-seen today, some say powered by the supplication of their slaves. How they fell from power is still a mystery (page 212). |",
-			"| 6 | You intend to learn just what the elven refuge Sovyrian is and how to get there, even if you have to coax the secret out of one of the reclusive rulers of Kyonin (page 94). |",
-			"| 7 | You yearn to discover the secrets of Shory aeromancy, which supposedly now lay hidden in the jungle depths of the Mwangi Expanse (page 212). |",
-			"| 8 | The rulers of the Technic League in Silver Mount have long kept their alien methods and practices a secret from the outside world, but you've set to remedy that (page 145). |",
-			"| 9 | You've heard tale of ancient warriors now frozen in time beneath the Stasis Fields of Sargava, and curiosity beckons you to determine what secrets these paralyzed prisoners of war may hold from eons long past (page 169). |",
-			"| 10 | The mysteries of Hyrantam, drowned capital of the nowdefunct nation of Lirgen, call to you. If you can excavate the flooded halls of the city's famed observatories and soaring towers, glory and gold surely await (page 177). |",
-			"| 11 | The exact workings of the dragon-ruled island of Hermea in the Steaming Sea has long befuddled sailors and other Avistani explorers, who are constantly rebutted by the powerful entity that supposedly dwells there. Perhaps by revealing the secrets of that paradisiacal island you can share in the fame of Hermea's enigmatic ruler (page 179). |",
-			"| 12 | The secret to how the Worldwound formed may lie buried in Sarkorian ruins that have fallen into the Abyss, and you're determined to discover the cause behind the extraplanar rift (page 198). |"
+			"| 1 | You dream of braving the flooded ruins of Lirgen in the Sodden Lands in order to discover the secret that drove many of the now-defunct Saoc Brethren utterly insane. |",
+			"| 2 | The secret of how the Pactmasters of Katapesh came to power is within your reach, if only you could go to that nation to truly discover it. |",
+			"| 3 | Seeing the pathetic mess of politics that paralyzes the once-great nation of Nex, you have vowed to discover what really happened to that kingdom and bring proof (or the mysterious archwizard himself) to the world at large. |",
+			"| 4 | Clues point you toward the Arcadian Ocean to discover why the aboleths ever became involved with the ancient Azlanti in the first place. |",
+			"| 5 | The god-kings of Ancient Osirion demonstrated magic little-seen today, some say powered by the supplication of their slaves. How they fell from power is still a mystery. |",
+			"| 6 | You intend to learn just what the elven refuge Sovyrian is and how to get there, even if you have to coax the secret out of one of the reclusive rulers of Kyonin. |",
+			"| 7 | You yearn to discover the secrets of Shory aeromancy, which supposedly now lay hidden in the jungle depths of the Mwangi Expanse. |",
+			"| 8 | The rulers of the Technic League in Silver Mount have long kept their alien methods and practices a secret from the outside world, but you've set to remedy that. |",
+			"| 9 | You've heard tale of ancient warriors now frozen in time beneath the Stasis Fields of Sargava, and curiosity beckons you to determine what secrets these paralyzed prisoners of war may hold from eons long past. |",
+			"| 10 | The mysteries of Hyrantam, drowned capital of the nowdefunct nation of Lirgen, call to you. If you can excavate the flooded halls of the city's famed observatories and soaring towers, glory and gold surely await. |",
+			"| 11 | The exact workings of the dragon-ruled island of Hermea in the Steaming Sea has long befuddled sailors and other Avistani explorers, who are constantly rebutted by the powerful entity that supposedly dwells there. Perhaps by revealing the secrets of that paradisiacal island you can share in the fame of Hermea's enigmatic ruler. |",
+			"| 12 | The secret to how the Worldwound formed may lie buried in Sarkorian ruins that have fallen into the Abyss, and you're determined to discover the cause behind the extraplanar rift. |"
 		]
 	},
 	"truth_seeker": {
@@ -55108,7 +55108,7 @@
 			"",
 			"Your melee weapons meld into your animal form.  ",
 			"**Prerequisites:** Wild shape class feature.  ",
-			"**Benefit:** When you use your wild shape ability, any melee weapons you are wielding and proficient with meld into your new form. Select one of these weapons; while in your new form, your natural attacks deal the same damage type as that weapon. Your natural attacks also gain all of the weapon's properties (such as disarm), other than the double weapon property and the fragile weapon property; moreover, when using this feat to grant the trip property to your natural attacks, you gain a +2 bonus on combat maneuver checks to trip an enemy, but you cannot drop your weapon to avoid being tripped due to a failed trip attempt. Weapon Shift does not apply a magic weapon's enhancement bonus to your natural attacks, nor does it grant your natural attacks any of a weapon's magical special abilities."
+			"**Benefit:** When you use your wild shape ability, any melee weapons you are wielding and proficient with meld into your new form. Select one of these weapons; while in your new form, your natural attacks deal the same damage type as that weapon. Your natural attacks also gain all of the weapon's properties (such as disarm), other than the double weapon property and the [fragile](rule/conditions) weapon property; moreover, when using this feat to grant the trip property to your natural attacks, you gain a +2 bonus on combat maneuver checks to trip an enemy, but you cannot drop your weapon to avoid being tripped due to a failed trip attempt. Weapon Shift does not apply a magic weapon's enhancement bonus to your natural attacks, nor does it grant your natural attacks any of a weapon's magical special abilities."
 		]
 	},
 	"weapon_specialization": {
@@ -55719,7 +55719,7 @@
 			"**Source** [Spymaster's Handbook pg. 17](source/spymaster's_handbook)",
 			"",
 			"Those who observe your imposing demeanor assume muscle is your sole advantage, but you prove them wrong every time.  ",
-			"**Prerequisites:** Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist background (page 5).  ",
+			"**Prerequisites:** Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist background.  ",
 			"**Benefit:** Once per day, you can use your ranks in Sense Motive in place of your total Will saving throw modifier when attempting a Will save. You must decide to use this ability prior to attempting the saving throw.  ",
 			"**Goal:** Thwart an appropriate number of challenging foes after getting a negative hunch about them when they attempted to deceive you or after ambushing them.  ",
 			"**Completion Benefit:** The DC of Bluff and Intimidate checks attempted against you increase by 5."

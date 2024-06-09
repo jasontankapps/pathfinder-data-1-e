@@ -1402,7 +1402,7 @@
 		],
 		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
 	},
-	"oraclecurses": {
+	"oracle_curses": {
 		"name": "Oracle Curses",
 		"sources": [
 			"Horror Realms",

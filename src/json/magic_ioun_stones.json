@@ -1,4 +1,13 @@
 {
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested ioun stone."
+		]
+	},
 	"dull_gray_stone": {
 		"name": "Dull Gray Stone",
 		"sources": [

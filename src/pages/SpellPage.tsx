@@ -7,7 +7,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Spells", "spells"]];
+const hierarchy: HierarchyArray = [["Main", "main"], ["Spells", "spells"]];
 
 const spells = {...spells1, ...spells2, ...spells3};
 

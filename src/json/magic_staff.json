@@ -1,5 +1,13 @@
 {
-	"_prefix": "magic-staff",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested magic staff."
+		]
+	},
 	"staff_of_blessed_relief": {
 		"name": "Staff of Blessed Relief",
 		"sources": [ "Ultimate Equipment" ],
@@ -77,7 +85,7 @@
 			"",
 			"- Know direction (1 charge)",
 			"- Pass without trace (1 charge)",
-			"- [Summon nature's ally I](spell/summon nature's ally_1) (2 charges)",
+			"- [Summon nature's ally I](spell/summon_nature's_ally_1) (2 charges)",
 			"",
 			"### Construction",
 			"",
@@ -94,14 +102,14 @@
 			"**Aura** faint transmutation (polymorph); **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
 			"",
-			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of [monstrous physique I](spell/monstrous physique_1) over it to restore 3 charges. ",
+			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of [monstrous physique I](spell/monstrous_physique_1) over it to restore 3 charges. ",
 			"",
 			"- Enlarge person (1 charge)",
-			"- [Monstrous physique I](spell/monstrous physique_1) (3 charges)",
+			"- [Monstrous physique I](spell/monstrous_physique_1) (3 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), enlarge person, [monstrous physique I](spell/monstrous physique_1), creator must be an alchemist; **Cost** 6,150 gp"
+			"**Requirements** [Craft Staff](feat/craft_staff), enlarge person, [monstrous physique I](spell/monstrous_physique_1), creator must be an alchemist; **Cost** 6,150 gp"
 		]
 	},
 	"gravedigger's_spade": {
@@ -456,9 +464,9 @@
 			"",
 			"The staff allows the use of the following spells. ",
 			"",
-			"- [Summon monster II](spell/summon monster_2) (octopus or squid only; 1 charge)",
+			"- [Summon monster II](spell/summon_monster_2) (octopus or squid only; 1 charge)",
 			"- Black tentacles (3 charges)",
-			"- [Summon monster VI](spell/summon monster_6) (giant octopus only; 5 charges)",
+			"- [Summon monster VI](spell/summon_monster_6) (giant octopus only; 5 charges)",
 			"",
 			"### Construction",
 			"",
@@ -782,7 +790,7 @@
 			"",
 			"A ring of curved fangs circles the tip of this 7-foot-long bone staff. When magic mouth is cast from the staff, the resulting illusory mouth is filled with countless needle-like fangs. After magic mouth is cast, one charge remains drained from the staff and can't be recharged until the user dismisses the spell or until the spell discharges.",
 			"",
-			"When casting [beast shape I](spell/beast shape_1) from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were two sizes larger.",
+			"When casting [beast shape I](spell/beast_shape_1) from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were two sizes larger.",
 			"",
 			"The staff allows the use of the following spells. ",
 			"",
@@ -792,7 +800,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), [beast shape I](spell/beast shape_1), hungry pit, magic mouth; **Cost** 15,500 gp"
+			"**Requirements** [Craft Staff](feat/craft_staff), [beast shape I](spell/beast_shape_1), hungry pit, magic mouth; **Cost** 15,500 gp"
 		]
 	},
 	"staff_of_the_master": {
@@ -1897,18 +1905,18 @@
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 81,000 gp; **Weight** 7 lbs.",
 			"",
-			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast [form of the dragon II](spell/form of the dragon_2), she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells: ",
+			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast [form of the dragon II](spell/form_of_the_dragon_2), she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells: ",
 			"",
 			"- Fly (1 charge)",
 			"- Protection from energy (1 charge)",
 			"- Dragon's breath (2 charges)",
-			"- [Form of the dragon II](spell/form of the dragon_2) (4 charges)",
+			"- [Form of the dragon II](spell/form_of_the_dragon_2) (4 charges)",
 			"",
-			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting [form of the dragon II](spell/form of the dragon_2), or other similar spells.",
+			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting [form of the dragon II](spell/form_of_the_dragon_2), or other similar spells.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), alter self, dragon's breath, fly, [form of the dragon II](spell/form of the dragon_2), protection from energy; **Cost** 40,500 gp"
+			"**Requirements** [Craft Staff](feat/craft_staff), alter self, dragon's breath, fly, [form of the dragon II](spell/form_of_the_dragon_2), protection from energy; **Cost** 40,500 gp"
 		]
 	},
 	"staff_of_slumber": {
@@ -1985,7 +1993,7 @@
 			"- Unseen servant (1 charge)",
 			"- Cloudkill (2 charges)",
 			"- Minor creation (2 charges)",
-			"- [Summon monster VI](spell/summon monster_6) (3 charges)",
+			"- [Summon monster VI](spell/summon_monster_6) (3 charges)",
 			"",
 			"### Construction",
 			"",
@@ -2272,7 +2280,7 @@
 			"- Charm animal (1 charge)",
 			"- Speak with animals (1 charge)",
 			"- Barkskin (2 charges)",
-			"- [Summon nature's ally VI](spell/summon nature's ally_6) (3 charges)",
+			"- [Summon nature's ally VI](spell/summon_nature's_ally_6) (3 charges)",
 			"- Wall of thorns (3 charges)",
 			"- Animate plants (4 charges)",
 			"",

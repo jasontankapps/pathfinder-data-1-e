@@ -5,7 +5,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Tech Weapons", "equipment_tech_weapons"]];
+const hierarchy: HierarchyArray = [["Main", "main"], ["Equipment", "equipment"], ["Tech Weapons", "equipment_tech_weapons"]];
 
 type Data = typeof equipment;
 

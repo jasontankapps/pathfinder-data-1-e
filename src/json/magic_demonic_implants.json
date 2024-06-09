@@ -1,5 +1,4 @@
 {
-	"_prefix": "magic-implant",
 	"baleful_eye": {
 		"name": "Baleful Eye",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
@@ -56,7 +55,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast shape_2), [protection from law](spell/protection_from_law); **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), [protection from law](spell/protection_from_law); **Cost** 10,000 gp"
 		]
 	},
 	"demon_blood": {
@@ -213,7 +212,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast shape_1); **Cost** 27,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 27,500 gp"
 		]
 	}
 }

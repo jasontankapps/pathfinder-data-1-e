@@ -1,5 +1,13 @@
 {
-	"_prefix": "magic-altar",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested magic item."
+		]
+	},
 	"altar_of_pharasma": {
 		"name": "Altar of Pharasma",
 		"sources": [ "Inner Sea Gods" ],

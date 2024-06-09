@@ -1,5 +1,4 @@
 {
-	"_prefix": "magic-tattoo",
 	"spell_tattoo": {
 		"name": "Spell Tattoo",
 		"sources": [ "Inner Sea Magic" ],
@@ -217,7 +216,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [beast shape I](spell/beast shape_1); **Cost** 6,000 gp"
+			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [beast shape I](spell/beast_shape_1); **Cost** 6,000 gp"
 		]
 	},
 	"swirling_smoke_tattoo": {
