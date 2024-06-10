@@ -55,7 +55,7 @@
 			"",
 			"[Summoner Spells](spells_summoner)",
 			"",
-			"[Unchained Summoner Spells](spells_summoner_uc)",
+			"[Unchained Summoner Spells](spells_unchained_summoner)",
 			"",
 			"[Warpriest Spells](spells_warpriest)",
 			"",
@@ -18789,13 +18789,13 @@
 		],
 		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
-	"spells_summoner_uc": {
+	"spells_unchained_summoner": {
 		"title": "All Unchained Summoner Spells",
 		"sources": [],
 		"description": [ "`table0`" ],
 		"tables": [
 			{
-				"id": "summoner_uc spells table",
+				"id": "unchained_summoner spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
@@ -25563,7 +25563,7 @@
 				]
 			},
 			{
-				"id": "summoner_uc mythic spells table",
+				"id": "unchained_summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,

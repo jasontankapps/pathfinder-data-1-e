@@ -114,7 +114,7 @@
 			"",
 			"Some talents, marked with an asterisk (&ast;), add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 			"",
-			"**Note:** This list contains advanced talents for both the Rogue and the [Unchained Rogue](class/rogue_uc). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
+			"**Note:** This list contains advanced talents for both the Rogue and the [Unchained Rogue](class/unchained_rogue). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
 			"",
 			"---",
 			"",
@@ -3424,7 +3424,7 @@
 			"",
 			"**Superior Psychic Magic ([(Horror Realms pg. 19)](source/horror_realms)):** The eidolon has 7 points of psychic magic to spend each day. Select one spell from the following list: confusion, deeper darkness, displacement, jester's jauntAPG, id insinuation IIOA, or mind thrust IIIOA. The eidolon can cast that spell as a psychic spell by spending 3 points of psychic energy. The caster level and save DC are the same as for basic psychic magic. This evolution can be selected more than once, selecting a different spell each time. The eidolon's amount of psychic energy available to spend each day does not stack; it uses only the highest number of points granted by its most powerful psychic magic evolution. Requirements: Aberrant subtype; advanced psychic magic evolution; summoner level 11th; Charisma 13."
 		],
-		"subhierarchy": [[ "Unchained Summoner", "class/summoner_uc" ]]
+		"subhierarchy": [[ "Unchained Summoner", "class/unchained_summoner" ]]
 	},
 	"exploits": {
 		"name": "Arcanist Exploits",
@@ -4838,7 +4838,7 @@
 			"",
 			"**Zephyr Blow (Su)** ([Wilderness Origins pg. 31](source/wilderness_origins)) By spending 1 ki point as a standard action, a monk with this power can disrupt the wind and create a sharp blast of air, as if using the spell [gust of wind](spell/gust_of_wind). The monk's caster level for this effect is equal to his monk level."
 		],
-		"subhierarchy": [[ "Unchained Monk", "class/monk_uc" ]]
+		"subhierarchy": [[ "Unchained Monk", "class/unchained_monk" ]]
 	},
 	"legendary_spirits": {
 		"name": "Legendary Spirits",
@@ -6490,7 +6490,7 @@
 			"",
 			"Some talents, marked with an asterisk (&ast;), add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 			"",
-			"**Note:** This list contains talents for both the Rogue and the [Unchained Rogue](class/rogue_uc). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
+			"**Note:** This list contains talents for both the Rogue and the [Unchained Rogue](class/unchained_rogue). Most can be used by both. Talents marked with a dagger (&dagger;) were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue. Talents marked with a double-dagger (&Dagger;) are specifically for the Unchained Rogue.",
 			"",
 			"When Rogue and Unchained Rogue talents have the same name but differing rules, they can be presented in two differnet ways. If the differences are minor, the talent will have additional text *[in brackets]* preceded by a dagger (&dagger;Rogue) or double-dagger (&Dagger;Unchained Rogue) to indicate which class the text applies to. If they differ substantially, there will be separate entries for each class's talent.",
 			"",
@@ -7377,7 +7377,7 @@
 			"| [Strength Stance (Ex)](stanceragepower/strength_stance) | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
 			"| [Taunting Stance (Ex)](stanceragepower/taunting_stance) | 12th | Leave yourself open to attack, but counterattack with impunity. |"
 		],
-		"subhierarchy": [[ "Unchained Barbarian", "class/barbarian_uc" ]]
+		"subhierarchy": [[ "Unchained Barbarian", "class/unchained_barbarian" ]]
 	},
 	"stares": {
 		"name": "Mesmerist Stares",
@@ -7487,7 +7487,7 @@
 			"",
 			"**Throat Crush** ([Martial Arts Handbook pg. 7](source/martial_arts_handbook)) The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](unknown/caster_croak_spellblight). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
 		],
-		"subhierarchy": [[ "Unchained Monk", "class/monk_uc" ]]
+		"subhierarchy": [[ "Unchained Monk", "class/unchained_monk" ]]
 	},
 	"swashbuckler_deeds": {
 		"name": "Deeds",

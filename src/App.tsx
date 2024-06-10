@@ -27,6 +27,8 @@ import './theme/variables.css';
 
 setupIonicReact();
 
+const ClassPage = lazy(() => import("./pages/ClassPage"));
+const ClassExtraPage = lazy(() => import("./pages/ClassExtraPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
 const EquipmentSpecMaterialPage = lazy(() => import("./pages/EquipmentSpecMaterialPage"));
@@ -80,11 +82,14 @@ const App: React.FC = () => {
 						<Route path="/bardicmasterpiece/:id" render={() => <></>} />
 						<Route path="/blessing/:id" render={() => <></>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <></>} />
-						<Route path="/class/:id" render={() => <></>} />
 						<Route path="/class/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
 						<Route path="/class/companion/:id" render={() => <></>} />
 						<Route path="/class/npc/:id" render={() => <></>} />
 						<Route path="/class/prestige/:id" render={() => <></>} />
+						<Route path="/class/capstones/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="capstones" /></Suspense>} />
+						<Route path="/class/favored/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="bonuses" /></Suspense>} />
+						<Route path="/class/archetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="archetypes" /></Suspense>} />
+						<Route path="/class/:id" render={() => <Suspense fallback={<Loading />}><ClassPage /></Suspense>} />
 						<Route path="/constructmod/:id" render={() => <></>} />
 						<Route path="/corruption/:id" render={() => <></>} />
 						<Route path="/curse/:id" render={() => <></>} />
@@ -148,11 +153,11 @@ const App: React.FC = () => {
 						<Route path="/magic/weapon/:id" render={() => <Suspense fallback={<Loading />}><MagicWeaponPage /></Suspense>} />
 						<Route path="/magic/wondrous/:id" render={() => <Suspense fallback={<Loading />}><MagicWondrousPage /></Suspense>} />
 						<Route path="/magusarcana/:id" render={() => <></>} />
-						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/monster/family/:id" render={() => <></>} />
 						<Route path="/monster/subtype/:id" render={() => <></>} />
 						<Route path="/monster/template/:id" render={() => <></>} />
 						<Route path="/monster/type/:id" render={() => <></>} />
+						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/mystery/:id" render={() => <></>} />
 						<Route path="/npc/:id" render={() => <Suspense fallback={<Loading />}><NPCPage /></Suspense>} />
 						<Route path="/oath/:id" render={() => <></>} />
@@ -166,8 +171,8 @@ const App: React.FC = () => {
 						<Route path="/skill/:id" render={() => <></>} />
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
 						<Route path="/source/:id" render={() => <></>} />
-						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />
 						<Route path="/spell/definition/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
+						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />
 						<Route path="/spirit/:id" render={() => <></>} />
 						<Route path="/stanceragepower/:id" render={() => <></>} />
 						<Route path="/trait/:id" render={() => <Suspense fallback={<Loading />}><TraitPage /></Suspense>} />
