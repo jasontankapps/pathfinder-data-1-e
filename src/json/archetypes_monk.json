@@ -1579,15 +1579,11 @@
 	},
 	"tetori": {
 		"name": "Tetori",
-		"sources": [
-			"Ultimate Combat",
-			"Link"
-		],
+		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Tetori",
 			"",
 			"**Source** [Ultimate Combat pg. 61](source/ultimate_combat)  ",
-			"**Errata [Link](source/link)**",
 			"",
 			"The style of the tetori is that of the majestic wrestler-a warrior with a dizzying array of grabs, holds, and locks with which to bewilder and incapacitate his foes.",
 			"",

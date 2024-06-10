@@ -355,14 +355,11 @@
 	},
 	"oozemorph": {
 		"name": "Oozemorph",
-		"sources": [
-			"Ultimate Wilderness",
-			"Official Paizo FAQ"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Oozemorph",
 			"",
-			"**Source** [Ultimate Wilderness pg. 81](source/ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 81](source/ultimate_wilderness), [official Paizo FAQ](https://paizo.com/paizo/faq/v5748nruor1hj)  ",
 			"While most shifters are trained in druidic traditions that allow them to tap into animalistic powers, others look instead to the simplest forms of life for inspiration. Known as oozemorphs, these shifters focus on the ooze-a form of life as simple in construction as it is dangerous in combat. While some shifters consider the oozemorph to be unsettling or even vile, these shifters merely embrace a stranger form of life than most. They are not inherently evil, yet they are often misunderstood by druidic circles and these circles' shifter champions.",
 			"",
 			"**Weapon and Armor Proficiency:** An oozemorph is proficient with all simple weapons and light armor.",
@@ -380,6 +377,12 @@
 			"At 8th level, the oozemorph can treat this ability as beast shape I, and at 15th level, she can treat this ability as beast shape II or giant shape I.",
 			"",
 			"Ending this transformation at any time reverts the oozemorph back to her ooze form and renders her fatigued for a number of minutes equal to the number of hours she maintained the form.",
+			"",
+			"Fluidic Body is essentially two effects in one. The first, which is a permanent part of your character once you become an oozemorph, is that your base form is now an ooze shape. Even if you lose fluidic body for some reason ([antimagic field](spell/antimagic_field), violating your code of conduct, etc) your base form is still the amorphous oozelike form. The other half of the ability is a supernatural polymorph effect to transform into humanoid (and later bestial) forms.",
+			"",
+			"Despite having an oozelike shape, an oozemorph's base form is not an ooze, though it does also count as an ooze for the purposes of effects targeting creatures by type. The oozelike form doesn't gain any abilities of the ooze creature type except as stated by the archetype itself. This form retains the base senses and land speed of the oozemorph's original race, as well as racial abilities like dwarfs' greed or gnomes' obsession that don't depend on shape, but it loses abilities dependent on form, including form-based speeds like strix's flight (and most other racial speeds beyond land speed), racial natural attacks like catfolks' claws, and other abilities like tieflings' prehensile tail. However, if the oozemorph possesses a racial ability denied her in her oozelike form and transforms into a member of her own race with fluidic body, she gains the full benefits of that racial ability for that duration, even if it isn't usually granted when using alter self (or the appropriate spell for a non-humanoid oozemorph). An oozemorph's compression, damage reduction, and morphic weaponry function in its oozelike form and any form it takes via fluidic body, though not in forms it takes via other polymorph effects.",
+			"",
+			"An oozemorph can carry items floating in its mass that are considered to be attuned. When it turns into a humanoid form via fluidic body, it can equip any number of those items (even armor, which usually takes time to don), leaving the rest on the ground in its space. If it turns into a animal via fluidic form, the items meld into the new form and grant some passive benefits, as normal for polymorph effects.",
 			"",
 			"This replaces chimeric aspect, greater chimeric aspect, wild shape, shifter aspect, and all improvements of shifter aspect.",
 			"",
@@ -399,17 +402,7 @@
 			"",
 			"**Clinging Ooze (Ex):** At 4th level, when in her natural form, an oozemorph gains a climb speed of 10 feet.",
 			"",
-			"This replaces woodland stride.",
-			"",
-			"*Note:* This archetype has had several of its abilities clarified in the [official Paizo FAQ](source/official_paizo_faq) and have been copied below:",
-			"",
-			"**Oozemorph Shifter:** How does the oozemorph's fluidic body work? Can the oozemorph actually move at all in ooze form? Why does a supernatural ability still have an effect in an antimagic field?",
-			"",
-			"Fluidic Body is essentially two effects in one. The first, which is a permanent part of your character once you become an oozemorph, is that your base form is now an ooze shape. Even if you lose fluidic body for some reason (antimagic field, violating your code of conduct, etc) your base form is still the amorphous oozelike form. The other half of the ability is a supernatural polymorph effect to transform into humanoid (and later bestial) forms.",
-			"",
-			"Despite having an oozelike shape, an oozemorph's base form is not an ooze, though it does also count as an ooze for the purposes of effects targeting creatures by type. The oozelike form doesn't gain any abilities of the ooze creature type except as stated by the archetype itself. This form retains the base senses and land speed of the oozemorph's original race, as well as racial abilities like dwarfs' greed or gnomes' obsession that don't depend on shape, but it loses abilities dependent on form, including form-based speeds like strix's flight (and most other racial speeds beyond land speed), racial natural attacks like catfolks' claws, and other abilities like tieflings' prehensile tail. However, if the oozemorph possesses a racial ability denied her in her oozelike form and transforms into a member of her own race with fluidic body, she gains the full benefits of that racial ability for that duration, even if it isn't usually granted when using alter self (or the appropriate spell for a non-humanoid oozemorph). An oozemorph's compression, damage reduction, and morphic weaponry function in its oozelike form and any form it takes via fluidic body, though not in forms it takes via other polymorph effects.",
-			"",
-			"An oozemorph can carry items floating in its mass that are considered to be attuned. When it turns into a humanoid form via fluidic body, it can equip any number of those items (even armor, which usually takes time to don), leaving the rest on the ground in its space. If it turns into a animal via fluidic form, the items meld into the new form and grant some passive benefits, as normal for polymorph effects"
+			"This replaces woodland stride."
 		]
 	},
 	"rageshaper": {
