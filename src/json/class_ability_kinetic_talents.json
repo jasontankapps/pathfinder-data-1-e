@@ -2924,11 +2924,9 @@
 			"",
 			"Blending your form with crystal, you have transmuted yourself into something akin to an oread. You keep your original racial abilities (including your ability score adjustments, but not your movement speed) and also gain all oread racial abilities (including an oread's movement speed and the outsider [native] type) except for ability score adjustments. You have the crystalline form alternate racial trait (Pathfinder RPG Advanced Race Guide 144) instead of earth affinity, but cannot otherwise choose alternate racial traits.",
 			"",
-			"Attunement",
+			"### Attunement",
 			"",
-			"See the book Occult Realms for more information on elemental saturation and attunements.",
-			"",
-			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 Knowledge (dungeoneering) check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the mutant template (Bestiary 5 180). At the end of the ninth day, she emerges reborn, with the earth child wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
+			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 Knowledge (dungeoneering) check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the [mutant template](monster/template/mutant). At the end of the ninth day, she emerges reborn, with the earth child wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
 		]
 	},
 	"earth_climb": {
@@ -3631,9 +3629,7 @@
 			"",
 			"You are one with the hurricane. Your enveloping winds defense wild talent has an additional 25% chance of deflecting nonmagical ranged attacks, and your total deflection chance can exceed the usual cap of 75%. All wind and weather (including creatures using the whirlwind monster ability) affect you and your attacks only if you wish them to do so; for example, you could shoot arrows directly through a tornado without penalty.",
 			"",
-			"Attunement",
-			"",
-			"See the book Occult Realms for more information on elemental saturation and attunements.",
+			"### Attunement",
 			"",
 			"An aerokineticist must fly around the entire perimeter of the Eye of Abendego without stopping, while succeeding at a series of 12 consecutive DC 40 Fly checks. If successful, she can learn the hurricane queen wild talent. If she fails two or fewer checks, she takes 50d6 points of bludgeoning damage from the hurricane's galeforce winds. If she fails three or more checks, she must succeed at a DC 25 Reflex save or be pulled into the Eye of Abendego, never to return."
 		]
@@ -3868,7 +3864,7 @@
 			"",
 			"You can bring an ally who died within 1 round back from the dead with your kinetic healer wild talent similarly to the breath of life spell, except the ally regains the normal number of hit points from the kinetic healer utility wild talent instead of the amount healed by breath of life. An ally revived in this way takes 1 point of burn + any points of burn from the kinetic healer utility wild talent (if you choose to have the ally take points of burn instead of taking it yourself).",
 			"",
-			"If you have the metahealer ability (such as from the kinetic chirurgeon kineticist archetype found on page 90 of Occult Adventures), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
+			"If you have the metahealer ability (such as from the [kinetic chirurgeon](class/archetype/kineticist/kinetic_chirurgeon) kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
 		]
 	},
 	"living_capacitor": {
@@ -4094,11 +4090,9 @@
 			"**Sources:** [Occult Realms pg. 8](source/occult_realms)  ",
 			"**Element** aether; **Type** utility (Su); **Level** 3; **Burn** 0",
 			"",
-			"You can gather strands of aether twisted and warped by your experiences in the Spellscar Desert, and wind them so tightly that they explode, creating a primal magic event with a CR equal to your kineticist level. See pages 12-13 of Pathfinder Campaign Setting: Inner Sea Magic for more information on primal magic events.",
+			"You can gather strands of aether twisted and warped by your experiences in the Spellscar Desert, and wind them so tightly that they explode, creating a [primal magic event](rule/primal_magic) with a CR equal to your kineticist level.",
 			"",
-			"Attunement",
-			"",
-			"See the book Occult Realms for more information on elemental saturation and attunements.",
+			"### Attunement",
 			"",
 			"To locate the aether saturations deep within the desert, a telekineticist must first locate an etheric storm. Afterwards, she must succeed at both a DC 20 Knowledge (arcana) check and a DC 20 Survival check and spend 1d4 hours navigating the wasteland from the storm's origin point to the saturation that spawned it. She can then learn the primal aether wild talent."
 		]
@@ -4118,9 +4112,7 @@
 			"",
 			"You can purge yourself or another with flame, removing all impurities. This functions as break enchantment on a single target. The target must be willing and takes 2 points of fire damage per character level as well as 1 point of burn (you do not need to accept burn unless you are the target). You can use this ability even when affected by an effect that denies you actions, so long as this effect is one that break enchantment could remove. If you burn rare incense or igneous rocks from Mount Kumijinja worth 100 gp or 1,000 gp as part of using purging flame, your target also benefits from restoration, as if the spell were cast using diamonds of equal value as a material component.",
 			"",
-			"Attunement",
-			"",
-			"See the book Occult Realms for more information on elemental saturation and attunements.",
+			"### Attunement",
 			"",
 			"A pyrokineticist must impress Mount Kumijinja's mighty kami. This might involve an appropriate gift or a successful DC 30 Diplomacy check attempted by the kineticist or by an ally who speaks Ignan and Senzar. If she impresses the kami, the kineticist is immediately affected as if using the purging flame wild talent and can learn that wild talent."
 		]
@@ -4932,9 +4924,7 @@
 			"",
 			"You can turn fresh water into seawater, and vice versa. This can affect a volume of water equal to 2 gallons per kineticist level, allowing sea creatures to survive in water that was fresh and freshwater creatures to survive in water that was briny. Additionally, when you alter water's salinity with this talent, you can adjust the water's temperature so that a creature can survive in it more easily (or simply be more comfortable). Water altered in this way must be confined within an appropriately sized container; attempts to alter a larger quantity of water fail.",
 			"",
-			"Attunement",
-			"",
-			"See the book Occult Realms for more information on elemental saturation and attunements.",
+			"### Attunement",
 			"",
 			"A hydrokineticist must demonstrate (or fake) the favor of Danglosa, the town's mysterious anglerfish god-ruler. She must then follow the swirling currents of Outsea, succeeding at four consecutive DC 20 Swim checks without taking 10. If she succeeds, she can learn the water alteration wild talent. If she fails, she takes 5d6 points of bludgeoning damage."
 		]

@@ -2111,7 +2111,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for 1 round. (See page 16.)"
+			"You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for 1 round."
 		]
 	},
 	"armor_material_expertise": {
@@ -2150,7 +2150,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to use an ability for a material, even though your armor isn't made of it. This still counts against your daily limit of armor material abilities. (See page 16.)"
+			"You can spend 5 stamina points to use an ability for a material, even though your armor isn't made of it. This still counts against your daily limit of armor material abilities."
 		]
 	},
 	"armor_material_mastery": {
@@ -2169,7 +2169,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to use an armor material ability without it counting against your daily limit. (See page 16.)"
+			"You can spend 5 stamina points to use an armor material ability without it counting against your daily limit."
 		]
 	},
 	"armor_of_the_pit": {
@@ -2284,7 +2284,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
 			"",
-			"Many of these armor tricks originated in Andoran and are employed by various branches of the Eagle Knights, who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat. Armor Focus, which is a prerequisite for two of these tricks, can be found on page 16.",
+			"Many of these armor tricks originated in Andoran and are employed by various branches of the Eagle Knights, who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat.",
 			"",
 			"*Acrobatic Sit-Up* (Mobility, Acrobatics 5 ranks): You have developed the ability to recover from a fall and attack an opponent in a single fluid movement. Whenever you are prone, you can make an attack against a single foe and stand from prone without provoking an attack of opportunity from that foe. Make a single melee attack against one target without the normal penalties for attacking while prone. If you hit your target, you can immediately stand from prone (normally a move action) without provoking an attack of opportunity from that target for doing so. Any other target that threatens you can still make an attack of opportunity against you. If your attack fails, you provoke attacks of opportunity from all threatening foes and cannot stand until your next turn.",
 			"",
@@ -2300,7 +2300,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to use an armor trick while wearing armor with which you are not proficient, or without meeting the trick's additional prerequisites. (See page 8.)"
+			"You can spend 5 stamina points to use an armor trick while wearing armor with which you are not proficient, or without meeting the trick's additional prerequisites."
 		]
 	},
 	"armored_athlete": {
@@ -2864,7 +2864,7 @@
 			"",
 			"Through ritual or force of will, you have awakened the latent power inherited from your hag mother.  ",
 			"**Prerequisites:** Iron Will or Mother's Gift, changeling.  ",
-			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the individual changeling heritage entries on pages 5-9.  ",
+			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the [individual changeling heritage entries](race/changeling).  ",
 			"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby-such as curling pages or spoiling milk-at the GM's discretion"
 		]
 	},
@@ -4145,7 +4145,7 @@
 			"You attacks are augmented by the strength of your and your deity's shared alignment.  ",
 			"**Prerequisites:** Base attack bonus +11, ability to cast divine spells, alignment must be within one step of your deity's.  ",
 			"**Benefit:** All of your attacks are treated as having whatever alignment components you and your deity share for the purpose of overcoming damage reduction.  ",
-			"**Special:** If you grossly violate the code of conduct required by your deity or no longer worship your deity, you lose access to this feat. You can regain it once you atone for your misdeeds to your deity (see the atonement spell on page 245 of the Core Rulebook)."
+			"**Special:** If you grossly violate the code of conduct required by your deity or no longer worship your deity, you lose access to this feat. You can regain it once you atone for your misdeeds to your deity (see the [atonement](spell/atonement) spell)."
 		]
 	},
 	"blight_guide": {
@@ -7633,7 +7633,7 @@
 			"",
 			"A client or client family is usually a supplier or local merchant who enjoys the patronage of a merchant house.  ",
 			"**Prerequisites:** The character must own a business that can supply a single type of good worth 10 gp or more in bulk to a Keleshite merchant house, or a business that can donate a unique rare good (an antique, an object of archeological interest, an artwork, or a magical weapon) of the patron's choice at least once per month.  ",
-			"**Benefit:** Once per month, a client can choose one of the following: 500 gp, the services of a house guard (human fighter 3; use the statistics for a traitorous brigand from page 81 of the Pathfinder RPG NPC Codex) for 24 hours, or the services of a house emissary who can automatically change the attitude of a ruler or other influential NPC from indifferent to friendly or from friendly to helpful."
+			"**Benefit:** Once per month, a client can choose one of the following: 500 gp, the services of a house guard (human fighter 3; use the statistics for a [traitorous brigand](npc/traiterous_brigand)) for 24 hours, or the services of a house emissary who can automatically change the attitude of a ruler or other influential NPC from indifferent to friendly or from friendly to helpful."
 		]
 	},
 	"climbing_vine": {
@@ -9261,11 +9261,11 @@
 			"",
 			"You can build cyberware and install it in a creature's body.  ",
 			"**Prerequisites:** [Technologist](feat/technologist), Heal 9 ranks, Knowledge (engineering) 9 ranks  ",
-			"**Benefit:** You can create cybernetic items. Creating a cybernetic item takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See Crafting High-Tech Items on page 16 for more information.",
+			"**Benefit:** You can create cybernetic items. Creating a cybernetic item takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See [Crafting High-Tech Items](rule/crafting_high_tech_items).",
 			"",
 			"You can repair a broken cybernetic item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch. You can also install a cybernetic item in a creature's body.",
 			"",
-			"See the Cybertech section on page 35 for more information on installing cyberware."
+			"See the [Cybertech section](equipment_tech_cybertech) for more information on installing cyberware."
 		]
 	},
 	"craft_magic_arms_and_armor": {
@@ -9323,7 +9323,7 @@
 			"",
 			"You can craft pharmaceuticals.  ",
 			"**Prerequisites:** [Technologist](feat/technologist), Heal 9 ranks, Knowledge (nature) 9 ranks  ",
-			"**Benefit:** You can create any pharmaceutical or poison. Creating a pharmaceutical takes 2 hours if its base price is 250 gp or less; otherwise, the creation of the pharmaceutical takes 1 day for every 1,000 gp in its price. To create the pharmaceutical or poison, you must use up raw materials costing half of this total price. See Crafting High-Tech Items on page 16 for more information."
+			"**Benefit:** You can create any pharmaceutical or poison. Creating a pharmaceutical takes 2 hours if its base price is 250 gp or less; otherwise, the creation of the pharmaceutical takes 1 day for every 1,000 gp in its price. To create the pharmaceutical or poison, you must use up raw materials costing half of this total price. See [Crafting High-Tech Items](rule/crafting_high_tech_items) for more information."
 		]
 	},
 	"craft_poppet": {
@@ -9350,7 +9350,7 @@
 			"You can build robots.  ",
 			"**Prerequisites:** [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor), [Craft Technological Item](feat/craft_technological_item), [Technologist](feat/technologist), Craft (mechanical) 9 ranks, Knowledge (engineering) 9 ranks.  ",
 			"**Benefit:** You can create robots, provided you have access to a robotics lab and the necessary materials. A robot's price is equal to its CR &times; 20,000 gp, and the cost to create one is half this amount. Creating a robot takes 1 day for every 1,000 gp of its price. At the end of the process you must attempt a single Craft (mechanical) skill check to finish the robot. Failing this check means that the robot doesn't function and the materials and time are wasted. The DC for this skill check is equal to 20 + the robot's CR (minimum 21). A newly created robot has average hit points for its Hit Dice.  ",
-			"**Special:** A robotics lab is required to craft robots and uses 200 charges each day it is in operation. See page 16 of Pathfinder Campaign Setting: Technology Guide for more information on technological laboratories."
+			"**Special:** A [robotics lab](rule/crafting_laboritories) is required to craft robots and uses 200 charges each day it is in operation."
 		]
 	},
 	"craft_rod": {
@@ -9434,7 +9434,7 @@
 			"",
 			"You can build technological weapons and armor.  ",
 			"**Prerequisites:** [Technologist](feat/technologist), Craft (mechanical) 7 ranks, Knowledge (engineering) 7 ranks  ",
-			"**Benefit:** You can create technological weapons or armor. Creating a technological weapon or suit of armor takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See Crafting High-Tech Items on page 16 for more information.",
+			"**Benefit:** You can create technological weapons or armor. Creating a technological weapon or suit of armor takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See [Crafting High-Tech Items](rule/crafting_high_tech_items) for more information.",
 			"",
 			"You can also repair a broken technological weapon or suit of armor if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch."
 		]
@@ -9449,7 +9449,7 @@
 			"",
 			"You can craft technological gear and items.  ",
 			"**Prerequisites:** [Technologist](feat/technologist), Craft (mechanical) 5 ranks, Knowledge (engineering) 5 ranks  ",
-			"**Benefit:** You can create technological gear. Creating a piece of technological gear takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See Crafting High- Tech Items on page 16 for more information.",
+			"**Benefit:** You can create technological gear. Creating a piece of technological gear takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See [Crafting High-Tech Items](rule/crafting_high_tech_items) for more information.",
 			"",
 			"You can also repair a broken technological item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch."
 		]
@@ -10288,7 +10288,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to utilize your armor's hardness when directing falling damage to it. (See page 16.)"
+			"You can spend 5 stamina points to utilize your armor's hardness when directing falling damage to it."
 		]
 	},
 	"cushioning_shield": {
@@ -10307,7 +10307,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to utilize your shield's hardness when directing falling damage to it. (See page 18.)"
+			"You can spend 5 stamina points to utilize your shield's hardness when directing falling damage to it."
 		]
 	},
 	"cut_from_the_air": {
@@ -11389,7 +11389,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against a single attack. (See page 18.)"
+			"You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against a single attack."
 		]
 	},
 	"defending_eidolon": {
@@ -16296,7 +16296,7 @@
 			"",
 			"**Source** [Adventurer's Armory pg. 22](source/adventurer's_armory)",
 			"",
-			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (heavy blade scabbard) feat to use a trick. You may use these tricks with any sword scabbard designed for a heavy blade (see the fighter weapon groups on page 56 of the Pathfinder RPG Core Rulebook). At your GM's discretion, you may be able to use some of these tricks with a scabbard intended for a light blade, but that requires a separate Equipment Trick feat and may be less effective.",
+			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (heavy blade scabbard) feat to use a trick. You may use these tricks with any sword scabbard designed for a heavy blade (see the [fighter weapon groups](class/ability/weapon_groups)). At your GM's discretion, you may be able to use some of these tricks with a scabbard intended for a light blade, but that requires a separate Equipment Trick feat and may be less effective.",
 			"",
 			"*Capture Weapon* (Improved Disarm): When you successfully disarm an opponent's manufactured weapon, as a free action you may flip the disarmed weapon into your scabbard so long as the weapon would fit there. If you are not holding the scabbard in hand and attempt this, you have a -4 penalty on the disarm check. At the GM's discretion, you can also use this trick on any item the opponent is holding as long as it would fit in your scabbard (such as a wand). You can only use this trick if you are wearing or holding your empty scabbard.",
 			"",
@@ -16314,7 +16314,7 @@
 			"",
 			"**Source** [Adventurer's Armory 2 pg. 19](source/adventurer's_armory_2)",
 			"",
-			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any musical instrument's uses and supplement the Equipment Trick feat presented on page 2. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.",
+			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any musical instrument's uses and supplement the [Equipment Trick](feat/equipment_trick) feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.",
 			"",
 			"*Attention Grabber* (Perform 5 ranks, Bluff 5 ranks or bardic performance or raging song class feature): Your loud or discordant performance covers your allies' movements. Creatures within 30 feet of you that can hear you play an instrument take a -2 penalty on Perception checks, other than Perception checks made in response to your actions, for as long as you play.",
 			"",
@@ -19269,7 +19269,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results. (See page 18.)"
+			"You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results."
 		]
 	},
 	"feint_partner": {
@@ -19766,7 +19766,7 @@
 			"",
 			"You possess a strong tie to your fiendish ancestors, granting you favorable abilities.  ",
 			"**Prerequisites:** Tiefling, must be taken at 1st level.  ",
-			"**Benefit:** Your fiendish bloodline proves particularly strong, being tied to a specific race of fiends. Rather than taking a tiefling's usual racial ability modifiers, choose one of the tiefling heritage modifiers presented on page 64. In addition, you may roll on the Variant Tiefling Abilities table three times and choose the most favorable ability.  ",
+			"**Benefit:** Your fiendish bloodline proves particularly strong, being tied to a specific race of fiends. Rather than taking a tiefling's usual racial ability modifiers, choose one of the [tiefling heritage modifiers](race/tiefling). In addition, you may roll on the Variant Tiefling Abilities table three times and choose the most favorable ability.  ",
 			"**Special:** [Blood of Fiends pgs. 18-23](source/blood_of_fiends) reprinted the tiefling heritages without requiring this feat to access them. This feat is now essentially irrelevant."
 		]
 	},
@@ -23006,7 +23006,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to use this feat without it counting against your maximum number of attacks of opportunity for that round. (See page 16.)"
+			"You can spend 5 stamina points to use this feat without it counting against your maximum number of attacks of opportunity for that round."
 		]
 	},
 	"greater_meditation_master": {
@@ -23138,7 +23138,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"When you successfully deflect a ranged touch attack, you can spend 10 stamina points as a swift or immediate action to reflect the attack toward another target, which must be within 60 feet of you. The total distance from the original attacker, to you, and then to the new target cannot exceed the original attack's maximum range. You take a -5 penalty on the ranged touch attack to hit the new target. (See page 18.)"
+			"When you successfully deflect a ranged touch attack, you can spend 10 stamina points as a swift or immediate action to reflect the attack toward another target, which must be within 60 feet of you. The total distance from the original attacker, to you, and then to the new target cannot exceed the original attack's maximum range. You take a -5 penalty on the ranged touch attack to hit the new target."
 		]
 	},
 	"greater_rending_fury": {
@@ -24743,7 +24743,7 @@
 			"",
 			"Performing daily Hellknight reckonings grants you special boons.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
-			"**Benefit:** Upon taking this feat, you gain proficiency in all of your Hellknight order's favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning-a trial of obedience and pain (described in general on page 9 and in the Reckoning entries of the Hellknight order stat blocks throughout this book). When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
+			"**Benefit:** Upon taking this feat, you gain proficiency in all of your Hellknight order's favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning-a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
 			"",
 			"If you ever fail to perform a daily reckoning, you lose all access to the benefits and boons granted by this feat until you next perform the reckoning.",
 			"",
@@ -25126,7 +25126,7 @@
 			"",
 			"Holy Circle (ability to cast magic circle against evil): You can replace the silver material component of a magic circle against evil spell with a vial of holy water. When you do so, the duration of the spell increases 20 minutes per level instead of 10 minutes, and the Spellcraft DC to add a special diagram to the circle is 15 instead of 20.",
 			"",
-			"Holy Water Splash (Point-Blank Shot): When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the concentrate holy water ability of this feat or the empower holy water spell on page 26."
+			"Holy Water Splash (Point-Blank Shot): When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the concentrate holy water ability of this feat or the [empower holy water](spell/empower_hoy_water) spell."
 		]
 	},
 	"hook_fighter": {
@@ -25624,7 +25624,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points as a swift action to add half your armor bonus to your next combat maneuver check this turn. Alternatively, you can spend 5 stamina points as an immediate action to add half your armor bonus to your CMD against a single combat maneuver this turn. (See page 17.)"
+			"You can spend 5 stamina points as a swift action to add half your armor bonus to your next combat maneuver check this turn. Alternatively, you can spend 5 stamina points as an immediate action to add half your armor bonus to your CMD against a single combat maneuver this turn."
 		]
 	},
 	"impressive_grit": {
@@ -25658,7 +25658,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to negate your armor's armor check penalty for 1 skill check. (See page 16.)"
+			"You can spend 5 stamina points to negate your armor's armor check penalty for 1 skill check."
 		]
 	},
 	"improved_awesome_blow": {
@@ -27196,7 +27196,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 3 stamina points to negate your shield's armor check penalty for one skill check. (See page 18.)"
+			"You can spend 3 stamina points to negate your shield's armor check penalty for one skill check."
 		]
 	},
 	"improved_sidestep": {
@@ -28412,7 +28412,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to double this feat's bonus to your CMD for one combat maneuver check. (See page 17.)"
+			"You can spend 5 stamina points to double this feat's bonus to your CMD for one combat maneuver check."
 		]
 	},
 	"intense_pain": {
@@ -28845,7 +28845,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 3 stamina points to use this feat even if an attack of opportunity against you misses. (See page 17.)"
+			"You can spend 3 stamina points to use this feat even if an attack of opportunity against you misses."
 		]
 	},
 	"ironguts": {
@@ -29402,7 +29402,7 @@
 			"",
 			"You have learned to channel your element's energy into the magic used by traditional spellcasters.  ",
 			"**Prerequisites:** Kineticist level 1st, elemental focus class feature.  ",
-			"**Benefit:** For each kineticist element to which you have access, you treat all spells associated with that element (see below) as utility wild talents of the listed level, which you can select as normal. Each has a burn cost of 1 unless otherwise noted, and any nonpermanent, non-instantaneous effects end when your burn is removed. Using this wild talent is considered psychic spellcasting (except for the purpose of prerequisites), and you must provide emotion and thought components, as well as material components where appropriate. In addition, some spells are restricted to certain races (as detailed on page 9 of Pathfinder RPG Advanced Race Guide). Your caster level for a spell is equal to your kineticist level, and the save DC for any spell is equal to 10 + the listed level of the spell + your Constitution modifier. At the GM's discretion, other appropriate spells can be added to each element's list.",
+			"**Benefit:** For each kineticist element to which you have access, you treat all spells associated with that element (see below) as utility wild talents of the listed level, which you can select as normal. Each has a burn cost of 1 unless otherwise noted, and any nonpermanent, non-instantaneous effects end when your burn is removed. Using this wild talent is considered psychic spellcasting (except for the purpose of prerequisites), and you must provide emotion and thought components, as well as material components where appropriate. In addition, some spells are restricted to certain races. Your caster level for a spell is equal to your kineticist level, and the save DC for any spell is equal to 10 + the listed level of the spell + your Constitution modifier. At the GM's discretion, other appropriate spells can be added to each element's list.",
 			"",
 			"Aether: Etheric shards (5th), instant armor (2nd), kinetic reverberation (2nd), protective spirit (3rd), telekinetic charge (4th; 2 burn).",
 			"",
@@ -29582,7 +29582,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points when using this feat to change the target's penalty to CMD to -6. (See page 17.)"
+			"You can spend 5 stamina points when using this feat to change the target's penalty to CMD to -6."
 		]
 	},
 	"knockout_artist": {
@@ -37670,7 +37670,7 @@
 			"| --- | --- |",
 			"| 1 | Your morbid curiosity urges you to journey through the Worldwound, either to contact or combat what impossible fiendish entities no doubt lurk beyond. |",
 			"| 2 | Several weak points exist between the forested realms of the River Kingdoms and the plane known as the First World. You seek to learn the mysteries of that realm's strange fey inhabitants. |",
-			"| 3 | Ancient relics imply connections between the fallen Empire of Thassilon and the nightmare realm of Leng (pages 211, 245). |",
+			"| 3 | Ancient relics imply connections between the fallen Empire of Thassilon and the nightmare realm of Leng. |",
 			"| 4 | The wealth of mortal cities pales in comparison to that of the fabled City of Brass on the Plane of Fire. You intend to seize at least a part of the metropolis's incredible wealth for yourself. |",
 			"| 5 | You have always been fascinated by death. Now, you wish to travel to its kingdom, the Boneyard, in life, either to rescue another soul from an uncertain fate or to learn of your own destiny. |",
 			"| 6 | You have resolved to reach Hell's vast fortress-capital Dis, where the magical treasures of Hell are available for a price. |",
@@ -37820,7 +37820,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 3 stamina points as a swift action to have this feat's effect on your size for the purposes of specific combat maneuvers also determine what size a creature must be to perform the combat maneuvers against you. (See page 17.)"
+			"You can spend 3 stamina points as a swift action to have this feat's effect on your size for the purposes of specific combat maneuvers also determine what size a creature must be to perform the combat maneuvers against you."
 		]
 	},
 	"poison_focus": {
@@ -41537,7 +41537,7 @@
 			"",
 			"You can use your mathematical prowess to add metamagic effects to your spells without using a higher-level spell slot.  ",
 			"**Prerequisites:** Int 13, Knowledge (engineering) 2 ranks  ",
-			"**Benefit:** When you take this feat, select two metamagic feats you do not yet have. When casting a spell, you can perform the steps below to spontaneously apply the effects of either or both of these metamagic feats, as well as any other metamagic feats you have, to the spell without expending a higher-level spell slot. Using a feat in this way increases the spell's casting time to the casting time it would take if the character were a sorcerer or bard (sorcerers and bards using this ability increase the spell's casting time by two categories; see page 113 of the Core Rulebook); applying the Quicken Spell metamagic effect negates the increased casting time but still contributes to the modified spell's effective spell level. You can take this feat more than once; each time, select two additional metamagic feats, adding their effects to the list of possible effects you can apply to spells with this ability.",
+			"**Benefit:** When you take this feat, select two metamagic feats you do not yet have. When casting a spell, you can perform the steps below to spontaneously apply the effects of either or both of these metamagic feats, as well as any other metamagic feats you have, to the spell without expending a higher-level spell slot. Using a feat in this way increases the spell's casting time to the casting time it would take if the character were a sorcerer or bard (sorcerers and bards using this ability increase the spell's casting time [by two categories](rule/cast_a_spell_2)); applying the Quicken Spell metamagic effect negates the increased casting time but still contributes to the modified spell's effective spell level. You can take this feat more than once; each time, select two additional metamagic feats, adding their effects to the list of possible effects you can apply to spells with this ability.",
 			"",
 			"When casting a spell using Sacred Geometry, first determine the effective spell level of the modified spell you are attempting to cast (calculated as normal for a spell modified by metamagic feats). You can apply any number of metamagic effects to a single spell, provided you are able to cast spells of the modified spell's effective spell level.",
 			"",
@@ -42489,7 +42489,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack to deal half damage. (See page 17.)"
+			"If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack to deal half damage."
 		]
 	},
 	"seductive_channel": {
@@ -43686,7 +43686,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 1 stamina point to negate the penalty on attacks for using this feat for a single round. (See page 19.)"
+			"You can spend 1 stamina point to negate the penalty on attacks for using this feat for a single round."
 		]
 	},
 	"shield_focus": {
@@ -44598,7 +44598,7 @@
 			"",
 			"You need spook only a few souls to scare a whole city.  ",
 			"**Prerequisites:** Cha 13; Intimidate 5 ranks; Persuasive or renown social talent.  ",
-			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the size of the settlement (see the Sinister Reputation table below and page 203 of Pathfinder RPG GameMastery Guide). If the check succeeds, you can attempt an Intimidate check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
+			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the [size of the settlement](rule/settlement_population_ranges) (see the Sinister Reputation table below). If the check succeeds, you can attempt an Intimidate check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
 			"**Special:** This feat's benefits always apply to a vigilante's area of renown, and he can choose whether the reputation and benefits apply to his social identity, vigilante identity, or both. You can always apply this feat's benefits to followers and cohorts gained from Leadership or similar abilities. Sinister Reputation",
 			"",
 			"| Settlement Size | DC |",
@@ -45309,7 +45309,7 @@
 			"",
 			"The boulders you hurl burn so hot that they smoke.  ",
 			"**Prerequisites:** Base attack bonus +11, heated rock special ability.  ",
-			"**Benefit:** When you throw a rock as part of an attack action and hit your target, you can cause the boulder to emit a 10-foot-radius spread of heavy smoke. The smoke lasts for 1d4 rounds. (See page 444 of the Pathfinder RPG Core Rulebook for rules on smoke effects.)"
+			"**Benefit:** When you throw a rock as part of an attack action and hit your target, you can cause the boulder to emit a 10-foot-radius spread of [heavy smoke](rule/smoke_effects). The smoke lasts for 1d4 rounds."
 		]
 	},
 	"snake_fang": {
@@ -46888,7 +46888,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points as an immediate action to gain a circumstance bonus on your Reflex saves equal to your armor's enhancement bonus for 1 turn. (See page 17.)"
+			"You can spend 5 stamina points as an immediate action to gain a circumstance bonus on your Reflex saves equal to your armor's enhancement bonus for 1 turn."
 		]
 	},
 	"spring_attack": {
@@ -48924,10 +48924,10 @@
 			"**Source** [Monster Summoner's Handbook pg. 26](source/monster_summoner's_handbook)",
 			"",
 			"A guardian spirit has selected you as its ward.  ",
-			"**Prerequisites:** Ability to cast summon monster III or summon nature's ally III.  ",
-			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the guardian spirit template (see below) to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
+			"**Prerequisites:** Ability to cast [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3).  ",
+			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the [guardian spirit template](monster/template/guardian_spirit) to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
-			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it (see the table on page 27). This ritual takes 24 hours, and once complete it moves the guardian spirit to the higherlevel list of creatures that can be summoned."
+			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higherlevel list of creatures that can be summoned."
 		]
 	},
 	"summon_neutral_monster": {
@@ -48940,63 +48940,49 @@
 			"",
 			"You can summon creatures that embody the forces of balance.  ",
 			"**Prerequisites:** Chaotic neutral, lawful neutral, or neutral alignment.  ",
-			"**Benefit:** When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard summon monster list and apply the counterpoised creature simple template (see the sidebar) to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
+			"**Benefit:** When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard summon monster list and apply the [counterpoised creature simple template](monster/template/counterpoised) to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
 			"",
-			"| 1st Level |",
-			"| --- |",
-			"| Sprite (CN) |",
-			"| Stirge (N) |",
-			"| 2nd Level |",
-			"| Atomie (CN) |",
-			"| Brownie (N) |",
-			"| 3rd Level |",
-			"| Arbiter (inevitable) (LN) |",
-			"| Nosoi (psychopomp) (N) |",
-			"| Paracletus (aeon) (N) |",
-			"| Thoqqua (N) |",
-			"| Voidworm (protean) (CN) |",
-			"| 4th Level |",
-			"| D'ziriak (N) |",
-			"| Magmin (CN) |",
-			"| Mephit (any) (N) |",
-			"| Satyr (CN) |",
-			"| Shae (N) |",
-			"| Viduus (psychopomp) (N) |",
-			"| 5th Level |",
-			"| Catrina (psychopomp) (N) |",
-			"| Mercane (LN) |",
-			"| Rast (N) |",
-			"| Tojanida (N) |",
-			"| 6th Level |",
-			"| Chaos Beast (CN) |",
-			"| Invisible stalker (N) |",
-			"| Naunet (protean) (CN) |",
-			"| Theletos (aeon) (N) |",
-			"| Vanth (psychopomp) (N) |",
-			"| 7th Level |",
-			"| Axiomite (LN) |",
-			"| Jyoti (N) |",
-			"| Shoki (psychopomp) (N) |",
-			"| Zelekhut (inevitable) (LN) |",
-			"| 8th Level |",
-			"| Imentesh (protean) (CN) |",
-			"| 9th Level |",
-			"| Akhana (aeon) (N) |",
-			"| Morrigna (psychopomp) |",
-			"| Valkyrie (CN) |",
-			"Counterpoised Creature (CR +0 or +1)",
-			"",
-			"Counterpoised creatures dwell in the Outer Planes where balance between elements or ideologies is paramount, but they can be summoned using spells such as summon monster and planar ally. A counterpoised creature's CR increases by 1 only if the base creature has 5 or more Hit Dice. A counterpoised creature's quick and rebuild rules are the same.",
-			"",
-			"Rebuild Rules: Senses gains darkvision 60 ft.; Defensive Abilities gains DR and energy resistance as noted on the table; SR gains SR equal to new CR +5; Special Attacks smite bias 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against a foe that is chaotic evil, chaotic good, lawful evil, or lawful good; smite persists until the target is dead or the counterpoised creature rests).",
-			"",
-			"Counterpoised Creature Defenses",
-			"",
-			"| Hit Dice | Resist Cold, Electricity, and Fire | DR |",
-			"| --- | --- | --- |",
-			"| 1-4 | 5 | - |",
-			"| 5-10 | 10 | 5/adamantine |",
-			"| 11+ | 15 | 10/adamantine |"
+			"- 1st Level",
+			"    - Sprite (CN)",
+			"    - Stirge (N)",
+			"- 2nd Level",
+			"    - Atomie (CN)",
+			"    - Brownie (N)",
+			"- 3rd Level",
+			"    - Arbiter (inevitable) (LN)",
+			"    - Nosoi (psychopomp) (N)",
+			"    - Paracletus (aeon) (N)",
+			"    - Thoqqua (N)",
+			"    - Voidworm (protean) (CN)",
+			"- 4th Level",
+			"    - D'ziriak (N)",
+			"    - Magmin (CN)",
+			"    - Mephit (any) (N)",
+			"    - Satyr (CN)",
+			"    - Shae (N)",
+			"    - Viduus (psychopomp) (N)",
+			"- 5th Level",
+			"    - Catrina (psychopomp) (N)",
+			"    - Mercane (LN)",
+			"    - Rast (N)",
+			"    - Tojanida (N)",
+			"- 6th Level",
+			"    - Chaos Beast (CN)",
+			"    - Invisible stalker (N)",
+			"    - Naunet (protean) (CN)",
+			"    - Theletos (aeon) (N)",
+			"    - Vanth (psychopomp) (N)",
+			"- 7th Level",
+			"    - Axiomite (LN)",
+			"    - Jyoti (N)",
+			"    - Shoki (psychopomp) (N)",
+			"    - Zelekhut (inevitable) (LN)",
+			"- 8th Level",
+			"    - Imentesh (protean) (CN)",
+			"- 9th Level",
+			"    - Akhana (aeon) (N)",
+			"    - Morrigna (psychopomp)",
+			"    - Valkyrie (CN)"
 		]
 	},
 	"summon_plant_ally": {
@@ -51291,7 +51277,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
 			"",
-			"You can spend 5 stamina points to negate the penalty on your combat maneuver check to knock a creature prone. (See page 19.)"
+			"You can spend 5 stamina points to negate the penalty on your combat maneuver check to knock a creature prone."
 		]
 	},
 	"toppling_pileup": {
@@ -51365,15 +51351,16 @@
 			"",
 			"You acquire a professional torchbearer to accompany you  ",
 			"**Prerequisites:** Character level 5th.  ",
-			"**Benefit:** This feat is similar to the Leadership feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a torchbearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your torchbearer is always at least 3 levels lower than your level.",
+			"**Benefit:** This feat is similar to the [Leadership](feat/leadership) feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a torchbearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your torchbearer is always at least 3 levels lower than your level.",
 			"",
-			"A torchbearer can take levels in the alchemist, bard, fighter, ranger, or rogue class. She can't multiclass, though she can take any archetype she qualifies for, including those from the Torchbearer Archetypes section on page 21. The torchbearer must take the Torch Handling feat at 1st level (see the sidebar on page 21).",
+			"A torchbearer can take levels in the alchemist, bard, fighter, ranger, or rogue class. She can't multiclass, though she can take any archetype she qualifies for. The torchbearer must take the [Torch Handling](feat/torch_handling) feat at 1st level.",
 			"",
 			"If a torchbearer gains enough XP to bring her to 2 levels lower than your level, she doesn't gain the new level until you gain your next level; until then her new XP total is 1 less than the amount needed to attain the next level and she gains no additional XP until you advance.",
 			"",
 			"If you release your torchbearer from service or otherwise lose your torchbearer, you may gain a new one by scouting for potential candidates in a city or large town where adventurers are at least somewhat common, which requires 24 hours of uninterrupted scouting.",
 			"",
-			"Unlike other hirelings, a torchbearer requires no compensation for her services as long as her employer has this feat; the opportunity to train under a hardened adventurer is reward enough for most torchbearers.  ",
+			"Unlike other hirelings, a torchbearer requires no compensation for her services as long as her employer has this feat; the opportunity to train under a hardened adventurer is reward enough for most torchbearers.",
+			"",
 			"**Graduation:** When you reach 8th level, this feat automatically upgrades to the Leadership feat (meaning that you effectively lose this feat and replace it with Leadership). You gain all the normal benefits of the Leadership feat but lose the benefits of this feat, and your torchbearer acts as a normal cohort; she may begin taking levels in other classes if she so chooses, and may increase in level to up to 2 levels lower than your level."
 		]
 	},
@@ -52253,7 +52240,7 @@
 			"**Prerequisites:** Appraise 3 ranks.  ",
 			"**Benefit:** You can perform the psychometry occult skill unlock even if you can't use psychic magic, though you must consume a drink of high-quality alcohol (costing at least 10 gp per drink) to do so. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use psychometry one additional time per day.",
 			"",
-			"If you consume a drink of high-quality alcohol, you gain a +2 circumstance bonus on Appraise and Sense Motive checks for 1 minute and can increase the caster level of the next divination spell you cast within 1 minute by 1. If you are addicted to alcohol, as described on page 236 of the Pathfinder RPG GameMastery Guide, these bonuses increase by 1, but so too does the save DC for your addiction."
+			"If you consume a drink of high-quality alcohol, you gain a +2 circumstance bonus on Appraise and Sense Motive checks for 1 minute and can increase the caster level of the next divination spell you cast within 1 minute by 1. If you are [addicted](rule/addiction) to alcohol, these bonuses increase by 1, but so too does the save DC for your addiction."
 		]
 	},
 	"truth-seeker": {
@@ -54353,7 +54340,7 @@
 			"",
 			"You rebound more quickly than normal when you draw upon your inner reserve to repair your wounds.  ",
 			"**Prerequisites:** Con 13, [Combat Vigor](feat/combat_vigor), [Endurance](feat/endurance), character level 3rd.  ",
-			"**Benefit:** Your vigor pool gains 1 vigor point. The fatigued condition that you gain from spending vigor points (as described by the Combat Vigor feat on page 14) lasts for 3 rounds instead of 1 minute. In addition, when you take this feat, you gain a +2 bonus on saving throws against effects that cause fatigue or exhaustion."
+			"**Benefit:** Your vigor pool gains 1 vigor point. The fatigued condition that you gain from spending vigor points (as described by the Combat Vigor feat) lasts for 3 rounds instead of 1 minute. In addition, when you take this feat, you gain a +2 bonus on saving throws against effects that cause fatigue or exhaustion."
 		]
 	},
 	"vindictive_fall": {

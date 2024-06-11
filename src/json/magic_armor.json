@@ -1371,13 +1371,10 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, invisibility, silence; **Price** 6,280 gp"
 		]
 	},
-	"_honor's_panoply": {
-		"name": " Honor's Panoply",
+	"honor's_panoply": {
+		"name": "Honor's Panoply",
 		"file": "magicarmordisplay969a.html",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
-		"cost": 12550,
-		"slot": "armor",
-		"weight": 50,
 		"description": [
 			"## Honor's Panoply",
 			"",
@@ -1389,7 +1386,7 @@
 			"",
 			"Once per day as a swift action, the wearer of honor's panoply can call upon Iomedae for protection. For the next 5 minutes, the armor glows with an aura of golden light, and any hostile creature within 20 feet of the wearer must succeed at a DC 14 Will save or take a -2 penalty to its Armor Class and on attack rolls and saving throws for the duration, or until it hits the wearer with an attack. The wearer can dismiss this effect before the duration expires as a swift action on his turn to heal itself of 3d8+5 points of damage in a burst of healing energy.",
 			"",
-			"A creature with the Craft Magic Arms and Armor feat and at least 5 ranks in the Craft (armor) skill can perform a ritual to corrupt honor's panoply, shifting its dedication to an evil deity. This ritual takes 6 days to complete, costs 2,000 gp in incense and materials, and requires a successful DC 19 Craft (armor) check. If the magic warhammer Sinderbos (see page 42) is used during the ritual, the cost of the ritual is reduced by 1,000 gp and requires only a successful DC 10 Craft (armor) check to complete. Once performed, the ritual transforms the armor into infamy's panoply; the armor turns black, the lions become animals sacred to the evil deity to which the armor is dedicated, and the red accents turn the crimson of fresh blood. The ritual also inverts the armor's effects: the save bonus is now profane and applies to spells with the good descriptor or cast by good creatures, and the armor now emanates a palpable aura of horror, causing non-allies to be shaken on a failed save. Dismissing this effect now grants the wearer fast healing 2 for 1 minute.",
+			"A creature with the Craft Magic Arms and Armor feat and at least 5 ranks in the Craft (armor) skill can perform a ritual to corrupt honor's panoply, shifting its dedication to an evil deity. This ritual takes 6 days to complete, costs 2,000 gp in incense and materials, and requires a successful DC 19 Craft (armor) check. If the magic warhammer Sinderbos is used during the ritual, the cost of the ritual is reduced by 1,000 gp and requires only a successful DC 10 Craft (armor) check to complete. Once performed, the ritual transforms the armor into infamy's panoply; the armor turns black, the lions become animals sacred to the evil deity to which the armor is dedicated, and the red accents turn the crimson of fresh blood. The ritual also inverts the armor's effects: the save bonus is now profane and applies to spells with the good descriptor or cast by good creatures, and the armor now emanates a palpable aura of horror, causing non-allies to be shaken on a failed save. Dismissing this effect now grants the wearer fast healing 2 for 1 minute.",
 			"",
 			"### Construction",
 			"",
@@ -2566,7 +2563,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 29,350 gp; **Weight** 25 lbs.",
 			"",
-			"The warden of the woods is a suit of +3 greenwood splint mail made of strips of laminated greenwood that flex with the wearer's movement but stiffen when struck in battle. (The greenwood special material is described on page 50.) This armor is treated in all ways like medium armor, including when determining proficiency. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +2, and an armor check penalty of -4.",
+			"The warden of the woods is a suit of +3 greenwood splint mail made of strips of laminated [greenwood](equipment/material/greenwood) that flex with the wearer's movement but stiffen when struck in battle. This armor is treated in all ways like medium armor, including when determining proficiency. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +2, and an armor check penalty of -4.",
 			"",
 			"As a move action, the wearer can snap a strip of wood loose from the armor. The strip lengthens into a weapon of a type chosen by the armor's wearer. It can become a +1 greenwood club, a +1/+1 greenwood quarterstaff, or a +1 keen greenwood wooden stake. If the wearer creates a club or quarterstaff in this way, it gains the benefits of the shillelagh spell with a duration of 1 minute. Each weapon removed from the warden of the woods reduces the armor's enhancement bonus by 1. Consequently, a maximum of three such weapons can be separated from the armor at any given time. The greenwood weapons keep their enhancement bonuses only while they're in the wearer's hands, though they remain masterwork weapons for other wielders.",
 			"",
@@ -3160,7 +3157,7 @@
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** armor; **Price** 61,300 gp; **Weight** 40 lbs.",
 			"",
-			"Mail of malevolence hangs in rags and tatters and acts as nonmagical chainmail to wearers who lack at least a moderate evil aura. When worn by a sufficiently evil character, it instead functions as +2 unrighteous chainmail (see page 123). Mail of malevolence does not bestow a negative level on good wearers.",
+			"Mail of malevolence hangs in rags and tatters and acts as nonmagical chainmail to wearers who lack at least a moderate evil aura. When worn by a sufficiently evil character, it instead functions as +2 unrighteous chainmail. Mail of malevolence does not bestow a negative level on good wearers.",
 			"",
 			"The wearer of mail of malevolence gains SR 21, but only against spells with the good descriptor. In addition, whenever the wearer channels negative energy to harm living creatures, she heals a like amount of damage herself regardless of whether she is living or undead.",
 			"",

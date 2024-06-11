@@ -45,7 +45,7 @@
 			"**Craft DC** 20; **Cost** 2,250 gp  ",
 			"Craft Cybertech, cybernetics lab",
 			"",
-			"A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's (see page 43) signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by breath of life or raise dead. If detonated outside a body, the bomb instead creates a small explosion, dealing the damage detailed above in a 5-foot-radius burst (Reflex DC 13 half)."
+			"A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by [breath of life](spell/breath_of_life) or [raise dead](spell/raise_dead). If detonated outside a body, the bomb instead creates a small explosion, dealing the damage detailed above in a 5-foot-radius burst (Reflex DC 13 half)."
 		]
 	},
 	"cybernetic_eyes": {
@@ -64,7 +64,7 @@
 			"**Craft DC** 28; **Cost** 2,000 gp  ",
 			"Craft Cybertech, cybernetics lab",
 			"",
-			"A cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod (see page 53) at a price equal to twice the veemod's normal price.",
+			"A cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod at a price equal to twice the veemod's normal price.",
 			"",
 			"The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above."
 		]
@@ -127,37 +127,7 @@
 			"**Craft DC** 28; **Cost** 1,000 gp  ",
 			"Craft Cybertech, cybernetics lab",
 			"",
-			"A skillslot is implanted into the",
-			"",
-			"target's brain, leaving a small port",
-			"",
-			"at the base of the skull. This port",
-			"",
-			"is covered with a flap of skin when",
-			"",
-			"not in use. Once installed, a skillslot",
-			"",
-			"has no effect until a skillchip is",
-			"",
-			"inserted into the port (see page 52 for information on the",
-			"",
-			"various forms of available skillchips.) An inserted skillchip",
-			"",
-			"enhances the user's ability in the skill encoded on the chip;",
-			"",
-			"the magnitude to which the skill is enhanced depends on",
-			"",
-			"the power of the skillchip. This does not grant ranks in the",
-			"",
-			"associated skill. It takes 10 minutes for a skillchip to adjust",
-			"",
-			"itself to a new skillslot; during this time, the user takes a",
-			"",
-			"-2 penalty on all skill checks as distracting sensations flood",
-			"",
-			"his mind. When a skillchip is removed, its benefits end",
-			"",
-			"immediately, but the wearer suffers no ill effects."
+			"A skillslot is implanted into the target's brain, leaving a small port at the base of the skull. This port is covered with a flap of skin when not in use. Once installed, a skillslot has no effect until a skillchip is inserted into the port. An inserted skillchip enhances the user's ability in the skill encoded on the chip; the magnitude to which the skill is enhanced depends on the power of the skillchip. This does not grant ranks in the associated skill. It takes 10 minutes for a skillchip to adjust itself to a new skillslot; during this time, the user takes a -2 penalty on all skill checks as distracting sensations flood his mind. When a skillchip is removed, its benefits end immediately, but the wearer suffers no ill effects."
 		]
 	},
 	"frenzychip": {

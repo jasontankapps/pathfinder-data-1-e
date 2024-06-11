@@ -592,7 +592,7 @@
 			"**Effect** 1d4 Con damage and target is sickened and fatigued  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"Not to be confused with the far more potent earlier strain that swept across Bleakmarch during the reign of Queen Velikas, this infectious disease is characterized by the sufferer's constant shaking, as though he were unable to get warm. The khala dragon (see page 59) is one known carrier of the illness, though many other forms of exposure are possible."
+			"Not to be confused with the far more potent earlier strain that swept across Bleakmarch during the reign of Queen Velikas, this infectious disease is characterized by the sufferer's constant shaking, as though he were unable to get warm. The [khala dragon](monster/khala_dragon) is one known carrier of the illness, though many other forms of exposure are possible."
 		]
 	},
 	"firegut": {
@@ -640,7 +640,7 @@
 		"fortitude_save": "DC 18",
 		"onset": "1 day",
 		"frequency": "1/day",
-		"effect": "1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)",
+		"effect": "1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts",
 		"cure": "3 consecutive saves",
 		"description": [
 			"## Demonplague",
@@ -648,10 +648,10 @@
 			"**Source** [The Worldwound pg. 29](source/the_worldwound)  ",
 			"**Type** injury or ingested; **Fortitude Save* DC 18  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
-			"**Effect** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)  ",
+			"**Effect** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts  ",
 			"**Cure** 3 consecutive saves",
 			"",
-			"Of the afflictions wreaked upon Sarkoris by the Worldwound and Deskari's host, the demonplague is perhaps the most insidious. This vile sickness spreads through water, affecting plant and animal life alike. In higher creatures, the demonplague causes madness and then death, but in animals and other unintelligent beasts, it continues beyond death, animating them as undead horrors called plagued beasts. The plague also twists and corrupts plant life-most of the hazardous plants detailed below are the results of normal plants becoming corrupted by the demonplague."
+			"Of the afflictions wreaked upon Sarkoris by the Worldwound and Deskari's host, the demonplague is perhaps the most insidious. This vile sickness spreads through water, affecting plant and animal life alike. In higher creatures, the demonplague causes madness and then death, but in animals and other unintelligent beasts, it continues beyond death, animating them as undead horrors called [plagued beasts](monster/plagued_beast). The plague also twists and corrupts plant life-most of the hazardous plants detailed below are the results of normal plants becoming corrupted by the demonplague."
 		]
 	},
 	"malaria_jungle_fever": {

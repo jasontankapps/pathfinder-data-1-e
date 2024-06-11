@@ -121,7 +121,7 @@
 			"",
 			"**Somnomancer:** At 1st level, a dreamstalker gains the slumber hex. The dreamstalker's effective witch level is equal to her mesmerist level, and she can activate them only by expending two daily uses of mesmerist tricks. The save DCs for her hexes are Charisma-based. She can take certain additional hexes in place of mesmerist tricks, selecting nightmares or vision at 10th level and higher, or eternal slumber at 18th level and higher.",
 			"",
-			"When she would normally gain a new mesmerist trick, she can learn additional spells instead. Each time she does so, she adds two of the following spells of a level she can currently cast to her list of spells known: 1st-oneiric horror, sleep; 2nd-detect mindscape, greater oneiric horror, instigate psychic duel; 3rd-deep slumber, minor dream; 4th-create mindscape, dream, forgetful slumber, mindscape door, sleepwalk, sleepwalking suggestion (see page 127); 5th-cloak of dreams, dream council, dream scan, symbol of sleep, waves of fatigue; 6th-dream travel, greater create mindscape, waves of exhaustion.",
+			"When she would normally gain a new mesmerist trick, she can learn additional spells instead. Each time she does so, she adds two of the following spells of a level she can currently cast to her list of spells known: 1st-[oneiric horror](spell/oneiric_horror), [sleep](spell/sleep); 2nd-[detect mindscape](spell/detect_mindscape), [greater oneiric horror](spell/greater_oneiric_horror), [instigate psychic duel](spell/instigate_psychic_duel); 3rd-[deep slumber](spell/deep_slumber), [minor dream](spell/minor_dream); 4th-[create mindscape](spell/create_mindscape), [dream](spell/dream), [forgetful slumber](spell/forgetful_slumber), [mindscape door](spell/mindscape_door), [sleepwalk](spell/sleepwalk), [sleepwalking suggestion](spell/sleepwalking_suggestion); 5th-[cloak of dreams](spell/cloak_of_dreams), [dream council](spell/dream_council), [dream scan](spell/dream_scan), [symbol of sleep](spell/symbol_of_sleep), [waves of fatigue](spell/waves_of_fatigue); 6th-[dream travel](spell/dream_travel), [greater create mindscape](spell/greater_create_mindscape), [waves of exhaustion](spell/waves_of_exhaustion).",
 			"",
 			"This alters mesmerist tricks and replaces the 1st-level mesmerist trick.",
 			"",
@@ -285,7 +285,7 @@
 			"",
 			"This ability replaces touch treatment (greater).",
 			"",
-			"**Corosion of Sanity (Su):** At 14th level, whenever a creature fails its initial saving throw against a gaslighter's singletarget mind-affecting effect, the target also takes 1 point of Wisdom damage. This has no effect on abilities that don't allow a saving throw or affect multiple targets or an area. If using the sanity system (see page 12), the target takes 2 points of sanity damage instead.",
+			"**Corosion of Sanity (Su):** At 14th level, whenever a creature fails its initial saving throw against a gaslighter's singletarget mind-affecting effect, the target also takes 1 point of Wisdom damage. This has no effect on abilities that don't allow a saving throw or affect multiple targets or an area. If using [the sanity system](rule/sanity), the target takes 2 points of sanity damage instead.",
 			"",
 			"This ability replaces touch treatment (break enchantment)."
 		]

@@ -59,7 +59,7 @@
 			"",
 			"**Minor Form:** You gain a +2 enhancement bonus to your Strength score. At 8th level, the bonus increases to +4, and at 15th level it increases to +6.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large bull (see Cattle on page 179). While in this form, you gain a base speed of 40 feet, low-light vision, scent, and a gore attack (1d8 damage) with powerful charge (+1d8 on your gore attack). At 8th level, you gain the trample as per the universal monster rule (dealing gore damage plus 1-1/2 times your Strength modifier). At 15th level, your gore damage increases to 2d8 and you gain the Awesome Blow feat.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large [bull](monster/cattle). While in this form, you gain a base speed of 40 feet, low-light vision, scent, and a gore attack (1d8 damage) with powerful charge (+1d8 on your gore attack). At 8th level, you gain the trample as per the universal monster rule (dealing gore damage plus 1-1/2 times your Strength modifier). At 15th level, your gore damage increases to 2d8 and you gain the Awesome Blow feat.",
 			"",
 			"**Alternate Natural Attacks:** Gore (P), hoof (B), slam (B)"
 		]
@@ -171,7 +171,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Perception checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Small falcon (see page 179). While in this form, you gain a base speed of 30 feet, a bite attack (1d4 damage), two claw attacks (1d3 damage), a fly speed of 60 feet (good), low-light vision, and a +4 racial bonus on vision-based Perception checks. At 8th level, you gain darkvision with a range of 120 feet, and your racial bonus on Perception checks increases to +6. At 15th level, you gain blindsense with a range of 60 feet and your fly speed increases to 90 feet (perfect).",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Small [falcon](monster/falcon). While in this form, you gain a base speed of 30 feet, a bite attack (1d4 damage), two claw attacks (1d3 damage), a fly speed of 60 feet (good), low-light vision, and a +4 racial bonus on vision-based Perception checks. At 8th level, you gain darkvision with a range of 120 feet, and your racial bonus on Perception checks increases to +6. At 15th level, you gain blindsense with a range of 60 feet and your fly speed increases to 90 feet (perfect).",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), talon (S)"
 		]
@@ -339,7 +339,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Stealth checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Medium owl (see page 181). While in this form, you gain a base speed of 30 feet, a fly speed of 60 feet (average), two talon attacks (1d6 damage), darkvision with a range of 60 feet, and a +2 racial bonus on Stealth checks. At 8th level, you gain Flyby Attack as a bonus feat, and the range of your darkvision increases to 120 feet. At 15th level, you can take the form of a Large owl and gain the benefits of the Snatch feat, but you can use it only to grab a creature at least one size category smaller than yourself, and you can squeeze a creature grappled with this ability no matter what size it is.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Medium [owl](monster/owl). While in this form, you gain a base speed of 30 feet, a fly speed of 60 feet (average), two talon attacks (1d6 damage), darkvision with a range of 60 feet, and a +2 racial bonus on Stealth checks. At 8th level, you gain Flyby Attack as a bonus feat, and the range of your darkvision increases to 120 feet. At 15th level, you can take the form of a Large owl and gain the benefits of the Snatch feat, but you can use it only to grab a creature at least one size category smaller than yourself, and you can squeeze a creature grappled with this ability no matter what size it is.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), talons (S)"
 		]
@@ -351,7 +351,7 @@
 			"## Peafowl",
 			"",
 			"**Source** [Heroes of Golarion pg. 13](source/heroes_of_golarion)  ",
-			"Peafowl are popular ornamental birds due to their spectacular colors, and they are often symbols of royalty or the divine. A shifter using the alternate natural attacks rules on page 8 of Pathfinder Player Companion: Wilderness Origins can select a bite (B, P, S) or tail slap (B) attack.",
+			"Peafowl are popular ornamental birds due to their spectacular colors, and they are often symbols of royalty or the divine. A shifter using the alternate natural attacks rules in *Wilderness Origins* can select a bite (B, P, S) or tail slap (B) attack.",
 			"",
 			"**Minor Form:** You gain a +2 enhancement bonus to your Charisma score. At 8th level the bonus increases to +4, and at 15th level it increases to +6.",
 			"",

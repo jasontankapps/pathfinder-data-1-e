@@ -994,7 +994,7 @@
 			"**Price** 80 gp; **Weight** 20 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly suffocate (see page 445 of the Pathfinder RPG Core Rulebook)."
+			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly suffocate."
 		]
 	},
 	"aquatic_harness_large": {
@@ -1360,7 +1360,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the automatic writing occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check. When used to channel certain haunts capable of communication (see page 230), the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages. These benefits do not stack with those of other items that confer similar benefits (such as a talking board)."
+			"This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the automatic writing occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check. When used to channel certain haunts capable of communication, the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages. These benefits do not stack with those of other items that confer similar benefits (such as a talking board)."
 		]
 	},
 	"autosniper_trap": {
@@ -2432,7 +2432,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A blightburn reader is a small wooden or metal frame, roughly 2 inches wide and 4 inches long, containing a specially prepared alchemical paper pressed between two thin panes of glass. Whenever a character wearing a blightburn reader enters an area with a radiation hazard (such as those presented on page 24), the paper within changes from white to black over the course of 1 minute. Once the paper turns black, it is destroyed and must be replaced at a cost of 15 gp before the blightburn reader can be used again."
+			"A blightburn reader is a small wooden or metal frame, roughly 2 inches wide and 4 inches long, containing a specially prepared alchemical paper pressed between two thin panes of glass. Whenever a character wearing a blightburn reader enters an area with a radiation hazard, the paper within changes from white to black over the course of 1 minute. Once the paper turns black, it is destroyed and must be replaced at a cost of 15 gp before the blightburn reader can be used again."
 		]
 	},
 	"block_and_tackle": {
@@ -3069,7 +3069,7 @@
 			"**Price** 353 gp; **Weight** 40 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains all manner of items useful for smashing down doors, creating diversions, and blowing things up. It includes a dose of alchemist's glue, a flask of alchemist's fire, a crowbar, a drill, a fuse grenade, a glass cutter, a jetcaster (see page 24), a vial of phosphorescent gel (see page 27), 4 pints of oil, a portable ram, a dose of rusting powder, 5 tindertwigs, and a wire."
+			"This kit contains all manner of items useful for smashing down doors, creating diversions, and blowing things up. It includes a dose of alchemist's glue, a flask of alchemist's fire, a crowbar, a drill, a fuse grenade, a glass cutter, a jetcaster, a vial of phosphorescent gel, 4 pints of oil, a portable ram, a dose of rusting powder, 5 tindertwigs, and a wire."
 		]
 	},
 	"breathing_tube": {
@@ -3526,7 +3526,7 @@
 			"**Price** 12 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the ranger's Favored Terrains table on page 65 of the Pathfinder RPG Core Rulebook for a full list of environment types). A character covered by a camouflage blanket in that blanket's matching terrain has concealment. Such characters who are also prone gain a +2 circumstance bonus on Stealth checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon."
+			"This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the [ranger's](class/ranger) Favored Terrains table). A character covered by a camouflage blanket in that blanket's matching terrain has concealment. Such characters who are also prone gain a +2 circumstance bonus on Stealth checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon."
 		]
 	},
 	"camouflage_lichen": {
@@ -4545,7 +4545,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"In addition to being an instrument suitable for Perform (wind instruments) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language (see page 37) to a distance of 1,000 feet."
+			"In addition to being an instrument suitable for Perform (wind instruments) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language to a distance of 1,000 feet."
 		]
 	},
 	"clay": {
@@ -4679,7 +4679,7 @@
 			"**Price** 500 gp; **Weight** 50 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This clockwork device is powered by heatstones and seawater and can turn a ship's oar with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion (see pages 180 and 184 of Pathfinder RPG Ultimate Combat), a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.",
+			"This clockwork device is powered by heatstones and seawater and can turn a ship's oar with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion, a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.",
 			"",
 			"For driving checks with a water vehicle powered with only clockwork oars, the driver must attempt Disable Device or Knowledge (engineering) checks instead of the skill checks listed in the vehicle's driving check entry in its stat block. (These checks represent the sailor ensuring that all of the oars are moving in unison and without impediment.) If a water vehicle is powered with one or more clockwork oars but not solely with clockwork oars, the skills used for driving checks remain unchanged."
 		]
@@ -4921,7 +4921,7 @@
 			"**Price** 1 gp; **Weight** 1 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This scabbard is an improvised weapon designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the Equipment Trick feat (see page 22) for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon."
+			"This scabbard is an improvised weapon designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the [Equipment Trick](feat/equipment_feat) feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon."
 		]
 	},
 	"commissioned_broadsheet_setup_and_proof_print": {
@@ -6061,7 +6061,7 @@
 			"**Price** 40 gp; **Weight** 16 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the Grisly Ornament feat (see page 24) can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a full-round action, while hanging an ornament from one is a move action."
+			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the [Grisly Ornament](feat/grisly_ornament) feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a full-round action, while hanging an ornament from one is a move action."
 		]
 	},
 	"dissipating_fan": {
@@ -6456,7 +6456,7 @@
 			"**Price** 40 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all Heal and Craft skill checks made to harvest dragoncraft materials and create dragoncraft items (see page 18)."
+			"This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all Heal and Craft skill checks made to harvest dragoncraft materials and create dragoncraft items."
 		]
 	},
 	"dragonskin_grip": {
@@ -11087,7 +11087,7 @@
 			"",
 			"A creature wearing an iron mask can use the Escape Artist skill to slip free (DC 35, or DC 40 for a masterwork iron mask). Breaking the mask requires a Strength check (DC 30, or DC 32 for a masterwork iron mask). An iron mask has hardness 10 and 30 hit points. Half the damage dealt to an iron mask applies to the creature wearing it.",
 			"",
-			"Iron masks are typically designed for Medium creatures, but Small ones can be bought for the same price, or larger ones can be bought for higher prices (the price is calculated the same way as buying larger-sized manacles; see page 68 of Ultimate Equipment). Most iron masks have locks; add the cost of the desired lock to the price of the mask. Masterwork masks also often feature frightening or demeaning sculpted visages."
+			"Iron masks are typically designed for Medium creatures, but Small ones can be bought for the same price, or larger ones can be bought for higher prices (the price is calculated the same way as buying larger-sized [manacles](equipment/misc/manacles)). Most iron masks have locks; add the cost of the desired lock to the price of the mask. Masterwork masks also often feature frightening or demeaning sculpted visages."
 		]
 	},
 	"iron_mask_masterwork": {
@@ -11274,7 +11274,7 @@
 			"**Price** 40 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are difficult to wash off. A target splashed with it smells like weak prey to predators. Creatures with the scent ability can detect a marked creature at five times the normal range, note its direction as a free action, pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their Survival checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels. One dose of Kaava musk costs 40 gp and weighs 1/2 lb.; the Craft (alchemy) DC to create Kaava musk is 20. For more information on Kaava musk, see page 31.",
+			"This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are difficult to wash off. A target splashed with it smells like weak prey to predators. Creatures with the scent ability can detect a marked creature at five times the normal range, note its direction as a free action, pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their Survival checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels. One dose of Kaava musk costs 40 gp and weighs 1/2 lb.; the Craft (alchemy) DC to create Kaava musk is 20.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -11671,7 +11671,7 @@
 			"**Price** 180 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of light of Axtarr glows like a candle until expended. A vial of light of Axtarr that is emptied underwater as a move action forms a small orb that sheds light like a sunrod for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature. Above water, shaking a vial of light of Axtarr as a move action also makes it shed light like a sunrod for 1d6 hours, after which it is expended. Any area of normal light created by light of Axtarr protects creatures within it from cold temperatures as per endure elements. Alternatively, a spellcaster holding an unused vial of light of Axtarr can expend it as a free action to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage; for more details, see page 46 of Pathfinder Campaign Setting: Aquatic Adventures.) This alternative use does not cause the light of Axtarr to produce light. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of light of Axtarr glows like a candle until expended. A vial of light of Axtarr that is emptied underwater as a move action forms a small orb that sheds light like a sunrod for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature. Above water, shaking a vial of light of Axtarr as a move action also makes it shed light like a sunrod for 1d6 hours, after which it is expended. Any area of normal light created by light of Axtarr protects creatures within it from cold temperatures as per endure elements. Alternatively, a spellcaster holding an unused vial of light of Axtarr can expend it as a free action to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage.) This alternative use does not cause the light of Axtarr to produce light. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 30"
@@ -12388,7 +12388,7 @@
 			"**Expanded Information**  ",
 			"**Source:** [Path of the Hellknight pg.15](source/path_of_the_hellknight)",
 			"",
-			"Manacles are detailed on page 68 of Ultimate Equipment. The specifics of their effects are largely left to the GM's discretion, due in large part to manacles' versatility. However, for their most common uses, GMs might employ the following effects.",
+			"The specifics of their effects are largely left to the GM's discretion, due in large part to manacles' versatility. However, for their most common uses, GMs might employ the following effects.",
 			"",
 			"Fetters: These manacles are specifically designed to fit around the ankles, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can move at only half speed. In addition, a fettered creature must succeed at a DC 15 Acrobatics check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls prone.",
 			"",
@@ -12937,7 +12937,7 @@
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 Craft check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the fragile condition (see page 22). Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.",
+			"You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 Craft check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the [fragile](rule/weapon_qualities) condition. Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -14113,7 +14113,7 @@
 			"**Source** [Alchemy Manual pg. 23](source/alchemy_manual)  ",
 			"**Price** 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small); **Weight** 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)",
 			"",
-			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the Craft Ooze feat (see page 22), a creator must have access to an oozing vat large enough to contain the created ooze."
+			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the [Craft Ooze](feat/craft_ooze) feat, a creator must have access to an oozing vat large enough to contain the created ooze."
 		]
 	},
 	"oozing_vat_huge": {
@@ -15172,7 +15172,7 @@
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Animal Gear",
 			"",
-			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison (see pages 557-560 of the Core Rulebook), and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature one size smaller than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
+			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature one size smaller than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
 		]
 	},
 	"poison_diffuser": {
@@ -15717,7 +15717,7 @@
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding water pressure, though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary (see Pressure on page 48)."
+			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding water pressure, though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
 		]
 	},
 	"printing_press_1-page": {
@@ -16405,7 +16405,7 @@
 			"**Price** 75 gp; **Weight** 450 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat, and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga, Snowcaster elves, and eccentric Linnorm Kings use domesticated reindeer to pull sleighs. Reindeer use the same statistics as elk (see Bestiary 3, page 147)."
+			"These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat, and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga, Snowcaster elves, and eccentric Linnorm Kings use domesticated reindeer to pull sleighs. Reindeer use the same statistics as [elk](monster/elk)."
 		]
 	},
 	"remora_pad": {
@@ -17855,7 +17855,7 @@
 			"",
 			"The menacing, eyeless masks of the Hellknight signifers were first created by members of the Order of the Gate, and are semitransparent when viewed from the inside. This alchemical treating of the material obscures the face of the wearer as a full helm does but allows the wearer to see as if through a smoky pane of glass. When wearing a signifer mask, the wearer is always treated as averting her gaze when dealing with gaze attacks, and she gains a +8 circumstance bonus on saving throws against vision-based effects. However, the obscuring nature of the mask means that the wearer also takes a -4 penalty on vision-based Perception checks while wearing the mask, and all opponents are treated as having concealment (20% miss chance).",
 			"",
-			"A character with the Hellknight signifer prestige class can see through the mask as normal, but she can also adjust her mask as a standard action to function as detailed above. Signifer masks are often magically enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask class feature (see page 93)."
+			"A character with the Hellknight signifer prestige class can see through the mask as normal, but she can also adjust her mask as a standard action to function as detailed above. Signifer masks are often magically enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask class feature."
 		]
 	},
 	"silence_dust": {
@@ -18152,7 +18152,7 @@
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised earth breaker (see page 27)."
+			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised [earth breaker](equipment/weapon/earth_breaker)."
 		]
 	},
 	"sleeve_holster": {
@@ -18940,7 +18940,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the ghost sound and ventriloquism spells. When used to channel a haunt capable of communication (see page 230), a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages."
+			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the ghost sound and ventriloquism spells. When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages."
 		]
 	},
 	"spirit-vision_ink": {
@@ -19911,7 +19911,7 @@
 			"",
 			"A user can also use the board alone to initiate the recall memory use of the hypnotism occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.",
 			"",
-			"When used to channel a haunt capable of communication (see page 230), a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.",
+			"When used to channel a haunt capable of communication, a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.",
 			"",
 			"Though a talking board can be used for some of the same functions as other gear (such as automatic writing planchettes and hypnotist's lockets), these items can't be used in unison to gain multiple bonuses or increase the rate of communication with a haunt to more than double."
 		]
@@ -20049,7 +20049,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment-as much as 10 gp per dose from wealthy addicts. See pages 236-237 of the Pathfinder RPG GameMastery Guide for additional rules on drugs and addiction.",
+			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment-as much as 10 gp per dose from wealthy addicts.",
 			"",
 			"**Type** ingested; **Addiction** major, Fortitude DC 18  ",
 			"**Effects** 1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks  ",
@@ -20728,7 +20728,7 @@
 			"**Price** 263 gp; **Weight** 90 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of bone paste (see page 26), a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
+			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of [bone paste](equipment/misc/bone_paste), a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
 		]
 	},
 	"travel_cake_mix": {
@@ -21184,7 +21184,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly in salt water or water high in particulates. Any land-dweller wearing goggles can use visual Perception like an aquatic native (see page 46)."
+			"These inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly in salt water or water high in particulates. Any land-dweller wearing goggles can use visual Perception like an aquatic native."
 		]
 	},
 	"unstable_accelerant": {
@@ -22408,7 +22408,7 @@
 			"**Price** 5 sp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"The root of this tall plant with blue flowers is toxic (see the page 560 of the Pathfinder RPG Core Rulebook), but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of lycanthropy throw off the curse."
+			"The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of lycanthropy throw off the curse."
 		]
 	},
 	"wolverine": {
@@ -22517,7 +22517,7 @@
 			"**Price** 500 gp; **Weight** -  ",
 			"**Category** Dragoncraft",
 			"",
-			"This rare and expensive variant of standard Garundi pesh is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her wellbeing can be severe. For more information on drugs and addictions, see page 236 of the Pathfinder RPG GameMastery Guide.",
+			"This rare and expensive variant of standard Garundi pesh is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her wellbeing can be severe.",
 			"",
 			"Wyrm Pesh",
 			"",
