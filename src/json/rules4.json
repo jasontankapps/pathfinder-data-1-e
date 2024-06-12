@@ -25980,7 +25980,7 @@
 			"",
 			"If the wild magic surge effect you roll isn't possible due to the nature of the spell or effect, roll instead on Table 4-5: Universal Surge Effects. A wild magic surge effect doesn't allow a saving throw, even if it's replicating a spell that normally would, and any effect that would normally have a limit on the amount of Hit Dice it can affect ignores that limit. Higher results on the table are more likely to be beneficial, so a GM might give a bonus or penalty on the check if an action would alter how likely it is that the wild magic surge would be helpful.",
 			"",
-			"Table 4-4: Wild Magi Surge",
+			"### Table 4-4: Wild Magic Surge",
 			"",
 			"| d% | Surge Effect |",
 			"| --- | --- |",
@@ -26019,13 +26019,15 @@
 			"| 99 | The spell is [maximized](feat/maximized). |",
 			"| 100 | The spell slot used to cast the spell is not expended. |",
 			"",
-			"Table 4-5: Universal Surge Effects",
+			"### Table 4-5: Universal Surge Effects",
 			"",
 			"| d% | Surge Effect |",
 			"| --- | --- |",
 			"| 01-20 | The caster takes 1d6 points of damage that can't be prevented in any way. |",
 			"| 21-80 | The caster is affected by [faerie fire](spell/faerie_fire) for 1 round. |",
-			"| 81-100 | The caster gains 1d6 temporary hit points that last for 1 hour. These don't stack with other temporary hit points. |"
+			"| 81-100 | The caster gains 1d6 temporary hit points that last for 1 hour. These don't stack with other temporary hit points. |",
+			"",
+			"Compare: [Primal Magic](rule/primal_magic), [Planar Magic Traits](rule/magic_traits)"
 		],
 		"parent_topics": [
 			"optional_rules_systems",

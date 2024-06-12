@@ -15883,5 +15883,11 @@
 			"**Paizo Inc.:** The following items are hereby identified as Product Identity, as defined in the Open Game License version 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artwork, and trade dress. (Elements that have previously been designated as Open Game Content or are in the public domain are not included in this declaration.)"
 		],
 		"previous": [ ["Main", "main"] ]
+	},
+	"corruptions-TO-DO": {
+		"title": "Corruptions",
+		"sources": [],
+		"description": [ "also see rule/corruption" ],
+		"previous": [ ["Main", "main"] ]
 	}
 }

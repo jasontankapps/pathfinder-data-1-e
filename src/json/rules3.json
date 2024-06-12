@@ -20388,7 +20388,9 @@
 			"",
 			"Even the most pure creature can succumb to tides of darkness. What begins as a minor malady or errant idea can grow into something malignant-a spreading corruption that can obscure your morals, cloud your judgment, and ultimately devour your soul. There are a number of different types of corruptions, from the hunger of vampirism to the horrifying transformation of the promethean. Living with a corruption is often a terrifying experience, but also offers the temptation of dark gifts. Hosts sometimes choose not to fight the corruption, but rather accept it and allow it to progress. These unfortunate folk either succumb to lust for the corruption's power or attempt to control the stain of corruption and use its gifts for some greater good.",
 			"",
-			"Each corruption detailed on the pages that follow features a general description, followed by its catalysts and manifestations. The catalyst section explains how a creature might contract the corruption, how it progresses, and how it can be cured. When a creature first contracts a corruption and its manifestation level increases, the corrupted creature gains manifestations. Manifestations carry both beneficial gifts and detrimental stains. Also, as the manifestation level increases, the stains and gifts of previous manifestations might grow more powerful. Lastly, as a creature's manifestation level increases, so does the possibility of the corruption taking hold entirely, defiling its host forever."
+			"Each corruption detailed on the pages that follow features a general description, followed by its catalysts and manifestations. The catalyst section explains how a creature might contract the corruption, how it progresses, and how it can be cured. When a creature first contracts a corruption and its manifestation level increases, the corrupted creature gains manifestations. Manifestations carry both beneficial gifts and detrimental stains. Also, as the manifestation level increases, the stains and gifts of previous manifestations might grow more powerful. Lastly, as a creature's manifestation level increases, so does the possibility of the corruption taking hold entirely, defiling its host forever.",
+			"",
+			"[The list of corruptions is here.](corruptions)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -24042,7 +24044,7 @@
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
 			"",
-			"While many forms of undergrowth can slow explorers, thorny brambles can prove a serious impediment. In addition to functioning as [light or heavy undergrowth](unknown/light_or_heavy_undergrowth), brambles damage creatures that move through a space filled with them. The amount of damage taken depends on whether the brambles are light or heavy and what type of armor the creature wears. Light brambles deal 1 point of damage to a creature wearing light armor that moves into their square, while heavy brambles deal 1d4 points of damage to a creature in light armor or 1 point of damage to a creature in medium armor. Creatures in heavy armor don't take damage from brambles. A creature unwillingly forced into brambles can attempt a DC 15 Reflex save to avoid taking this damage.",
+			"While many forms of undergrowth can slow explorers, thorny brambles can prove a serious impediment. In addition to functioning as [light or heavy undergrowth](rule/forest_terrain), brambles damage creatures that move through a space filled with them. The amount of damage taken depends on whether the brambles are light or heavy and what type of armor the creature wears. Light brambles deal 1 point of damage to a creature wearing light armor that moves into their square, while heavy brambles deal 1d4 points of damage to a creature in light armor or 1 point of damage to a creature in medium armor. Creatures in heavy armor don't take damage from brambles. A creature unwillingly forced into brambles can attempt a DC 15 Reflex save to avoid taking this damage.",
 			"",
 			"Additionally, a creature moving through brambles must succeed at a Reflex save (DC 12 for light brambles, or DC 16 for heavy brambles) or become entangled. Entangled creatures can attempt to free themselves as a standard action with a successful Escape Artist or Strength check at the same DC. A creature needs to attempt this save against being entangled by brambles only when it enters a square of brambles.",
 			"",
@@ -29573,7 +29575,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 432](source/prpg_core_rulebook)",
 			"",
-			"Land-based creatures can have considerable difficulty when fighting in water. Water affects a creature's attack rolls, damage, and movement. In some cases a creature's opponents might get a bonus on attacks. The effects are summarized on Table 13-7. They apply whenever a character is swimming, walking in chest-deep water, or walking along the bottom of a body of water.",
+			"Land-based creatures can have considerable difficulty when fighting in water. Water affects a creature's attack rolls, damage, and movement. In some cases a creature's opponents might get a bonus on attacks. The effects are summarized on Table 13-7 below. They apply whenever a character is swimming, walking in chest-deep water, or walking along the bottom of a body of water.",
 			"",
 			"**Ranged Attacks Underwater:** Thrown weapons are ineffective underwater, even when launched from land. Attacks with other ranged weapons take a -2 penalty on attack rolls for every 5 feet of water they pass through, in addition to the normal penalties for range.",
 			"",
@@ -29583,7 +29585,7 @@
 			"",
 			"**Spellcasting Underwater:** Casting spells while submerged can be difficult for those who cannot breathe underwater. A creature that cannot breathe water must make a concentration check (DC 15 + spell level) to cast a spell underwater (this is in addition to the caster level check to successfully cast a fire spell underwater). Creatures that can breathe water are unaffected and can cast spells normally. Some spells might function differently underwater, subject to GM discretion.",
 			"",
-			"Table 13-7: Combat Adjustments Underwater",
+			"### Table 13-7: Combat Adjustments Underwater",
 			"",
 			"| | Slashing or Bludgeoning (Attack/Damage) | Piercing (Attack/Damage) | Movement | Off Balance?[^1] |",
 			"| --- | --- | --- | --- | --- |",
@@ -29596,7 +29598,9 @@
 			"[^1]: Creatures flailing about in the water (usually because they failed their Swim checks) have a hard time fighting effectively. An off-balance creature loses its Dexterity bonus to Armor Class, and opponents gain a +2 bonus on attacks against it.",
 			"[^2]: A creature without freedom of movement effects or a swim speed makes grapple checks underwater at a -2 penalty, but deals damage normally when grappling.",
 			"[^3]: A successful Swim check lets a creature move one-quarter its speed as a move action or one-half its speed as a full-round action.",
-			"[^4]: Creatures have firm footing when walking along the bottom, braced against a ship's hull, or the like. A creature can only walk along the bottom if it wears or carries enough gear to weigh itself down: at least 16 pounds for Medium creatures, twice that for each size category larger than Medium, and half that for each size category smaller than Medium."
+			"[^4]: Creatures have firm footing when walking along the bottom, braced against a ship's hull, or the like. A creature can only walk along the bottom if it wears or carries enough gear to weigh itself down: at least 16 pounds for Medium creatures, twice that for each size category larger than Medium, and half that for each size category smaller than Medium.",
+			"",
+			"Also see: [Aquatic Adventures](rule/aquatic_adventures_aa)."
 		],
 		"parent_topics": [
 			"environment",
@@ -30294,7 +30298,7 @@
 		]
 	},
 	"cold_dangers": {
-		"name": "Cold Dangers",
+		"name": "Cold and Ice Dangers",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 442](source/prpg_core_rulebook)",
@@ -30307,13 +30311,14 @@
 			"",
 			"A character who takes any nonlethal damage from cold or exposure is beset by frostbite or hypothermia (treat her as fatigued). These penalties end when the character recovers the nonlethal damage she took from the cold and exposure.",
 			"",
-			"Extreme cold (below -20deg F) deals 1d6 points of lethal damage per minute (no save). In addition, a character must make a Fortitude save (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage."
+			"Extreme cold (below -20deg F) deals 1d6 points of lethal damage per minute (no save). In addition, a character must make a Fortitude save (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage.",
+			"",
+			"Characters walking on ice must spend 2 squares of movement to enter a square covered by ice, and the DC for Acrobatics checks increases by +5. Characters in prolonged contact with ice might run the risk of taking damage from severe cold."
 		],
 		"parent_topics": [
 			"environment",
 			"environmental_rules"
 		],
-		"subtopics": [ "ice_effects" ],
 		"siblings": [
 			"acid_effects",
 			"cold_dangers",
@@ -30326,21 +30331,6 @@
 			"suffocation",
 			"water_dangers"
 		]
-	},
-	"ice_effects": {
-		"name": "Ice Effects",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 442](source/prpg_core_rulebook)",
-			"",
-			"Characters walking on ice must spend 2 squares of movement to enter a square covered by ice, and the DC for Acrobatics checks increases by +5. Characters in prolonged contact with ice might run the risk of taking damage from severe cold."
-		],
-		"parent_topics": [
-			"environment",
-			"environmental_rules",
-			"cold_dangers"
-		],
-		"siblings": [ "ice_effects" ]
 	},
 	"darkness": {
 		"name": "Darkness",

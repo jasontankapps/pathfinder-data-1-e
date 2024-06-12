@@ -13443,7 +13443,9 @@
 			"| 52-59 | Nothing happens. The spell does not function. Any material components are used up. The spell or spell slot is used up, an item loses charges, and the effect counts against an item's or spell-like ability's use limit. |",
 			"| 60-71 | Nothing happens. The spell does not function. Any material components are not consumed. The spell is not expended from the caster's mind (a spell slot or prepared spell can be used again). An item does not lose charges, and the effect does not count against an item's or spell-like ability's use limit. |",
 			"| 72-98 | The spell functions normally. |",
-			"| 99-100 | The spell functions strongly. Saving throws against the spell incur a -2 penalty. The spell has the maximum possible effect, as if it were cast with the [Maximize Spell](feat/maximize_spell) feat. If the spell is already maximized with the feat, there is no further effect. |"
+			"| 99-100 | The spell functions strongly. Saving throws against the spell incur a -2 penalty. The spell has the maximum possible effect, as if it were cast with the [Maximize Spell](feat/maximize_spell) feat. If the spell is already maximized with the feat, there is no further effect. |",
+			"",
+			"Compare: [Primal Magic](rule/primal_magic), [Unchained Wild Magic](wild_magic)"
 		],
 		"parent_topics": [
 			"gamemastering",

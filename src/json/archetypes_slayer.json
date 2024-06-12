@@ -127,9 +127,9 @@
 			"",
 			"**Incapacitate (Ex):** At 10th level, a bounty hunter can incapacitate a studied target. This functions like the assassinate slayer talent, except instead of killing the target, the bounty hunter's successful attack knocks the target unconscious for 1d6 rounds unless it succeeds at its saving throw. If the target does succeed at its saving throw, it still takes the sneak attack damage as normal, but the damage is nonlethal, and the target is immune to that slayer's incapacitate ability for 24 hours. This ability replaces the advanced slayer talent gained at 10th level.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the bounty hunter archetype: camouflage, fast stealth, hard to fool, slowing strike*, snap shot, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the bounty hunter archetype: camouflage, fast stealth, hard to fool, slowing strike, snap shot, surprise attack, and terrain mastery.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the bounty hunter archetype: hunter's surprise, knock-out blow, master of disguise, and woodland stride*."
+			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the bounty hunter archetype: hunter's surprise, knock-out blow, master of disguise, and woodland stride."
 		]
 	},
 	"butterfly_blade": {
@@ -179,9 +179,9 @@
 			"",
 			"**Mislead (Sp):** At 7th level, a cleaner can cast misdirection on himself at will. This lasts until the cleaner uses the ability again or ends the effect as a standard action. This ability replaces stalker.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cleaner archetype: camouflage, fast stealth, foil scrutiny*, rogue crawl, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cleaner archetype: camouflage, fast stealth, foil scrutiny, rogue crawl, surprise attack, and terrain mastery.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cleaner archetype: assassinate*, knock-out blow, master of disguise, and slayer camouflage*."
+			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cleaner archetype: assassinate, knock-out blow, master of disguise, and slayer camouflage."
 		]
 	},
 	"covenbane": {
@@ -227,9 +227,9 @@
 			"",
 			"**Stab and Grab (Ex):** At 6th level, as a swift action a cutthroat can attempt a steal combat maneuver against a dead or unconscious target or a studied target he has just confirmed a critical hit against. A dead or unconscious opponent takes a -10 penalty to its CMD against this maneuver. This ability replaces the slayer talent gained at 6th level.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cutthroat archetype: fast stealth, poison use*, slowing strike*, surprise attack, and terrain mastery. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the cutthroat archetype: fast stealth, poison use, slowing strike, surprise attack, and terrain mastery.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cutthroat archetype: assassinate*, knock-out blow, opportunist, and slayer camouflage*."
+			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the cutthroat archetype: assassinate, knock-out blow, opportunist, and slayer camouflage."
 		]
 	},
 	"deliverer": {
@@ -249,7 +249,7 @@
 			"",
 			"**Divine Anathema (Ex):** At 10th level, as a free action a deliverer can declare a studied target to be his divine anathema. The studied target's alignment must be at least two steps away from that of the deliverer. Against this target, the deliverer's attacks deal an additional 2d6 points of damage; this damage is directly from divine power and does not stack with the bonus damage from a holy or unholy weapon, or a weapon with a similar weapon special ability or effect. A deliverer can have only one divine anathema at a time. This ability replaces the advanced slayer talent gained at 10th level.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the deliverer archetype: combat trick, finesse rogue, foil scrutiny*, terrain mastery, trap spotter, and trapfinding*. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the deliverer archetype: combat trick, finesse rogue, foil scrutiny, terrain mastery, trap spotter, and trapfinding.",
 			"",
 			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the deliverer archetype: assassinate*, evasion, hunter's surprise, and master of disguise.",
 			"",
@@ -327,9 +327,9 @@
 			"",
 			"**Dustbringer (Ex):** At 10th level, a grave warden can slay a studied undead opponent. This functions as the assassinate slayer talent, except it requires a successful Will saving throw instead of a successful Fortitude save, affects only undead, and destroys the target instead of killing it. If the target succeeds at its saving throw, it becomes immune to that grave warden's dustbringer ability for 24 hours. This ability replaces the advanced slayer talent gained at 10th level.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the grave warden archetype: fast stealth, finesse rogue, surprise attack, swift poison, terrain mastery, trap spotter, and unwitting ally. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the grave warden archetype: fast stealth, finesse rogue, surprise attack, swift poison, terrain mastery, trap spotter, and unwitting ally.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (also available to rogues) complement the grave warden archetype: hunter's surprise, and slayer camouflage*."
+			"**Advanced Slayer Talents:** The following advanced slayer talents (also available to rogues) complement the grave warden archetype: hunter's surprise, and slayer camouflage."
 		]
 	},
 	"guerrilla": {
@@ -523,9 +523,9 @@
 			"",
 			"**Shadowy Mist Form (Sp):** At 10th level, a stygian slayer can transform into an inky black cloud of mist. This functions as gaseous form, except it also obscures vision as fog cloud. The slayer can use this ability for a number of minutes per day equal to his level. These minutes need not be consecutive, but must be used in 1-minute increments. This ability replaces the advanced slayer talent gained at 10th level.",
 			"",
-			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the stygian slayer archetype: bleeding attack, lasting poison, poison use*, powerful sneak, rogue crawl, slow reactions, surprise attack, and swift poison. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)",
+			"**Slayer Talents:** The following slayer talents (and rogue talents) complement the stygian slayer archetype: bleeding attack, lasting poison, poison use, powerful sneak, rogue crawl, slow reactions, surprise attack, and swift poison.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the stygian slayer archetype: assassinate*, hunter's surprise, and slayer camouflage*."
+			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the stygian slayer archetype: assassinate, hunter's surprise, and slayer camouflage."
 		]
 	},
 	"toxic_sniper": {
@@ -607,7 +607,7 @@
 			"",
 			"**Slayer Talents:** The following slayer talents complement the vanguard archetype: combat trick, finesse rogue, hard to fool, rogue crawl, surprise attack, terrain mastery, and weapon training.",
 			"",
-			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the vanguard archetype: feat, opportunist, slayer camouflage*, and unwitting ally. (Those with asterisks [*] are detailed in the slayer class, starting on page 53.)"
+			"**Advanced Slayer Talents:** The following advanced slayer talents (and advanced rogue talents) complement the vanguard archetype: feat, opportunist, slayer camouflage, and unwitting ally."
 		]
 	},
 	"velvet_blade": {

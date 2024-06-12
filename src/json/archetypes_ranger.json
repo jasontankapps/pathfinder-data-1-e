@@ -335,7 +335,7 @@
 			"",
 			"**Wyrm Hatred (Ex):** Beginning at 1st level, a dragon hunter must select dragons as his favored enemy, granting him a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of the dragon type. He also gains +2 bonuses on weapon attack and damage rolls against them. These bonuses increase by +2 at 5th level and every five levels thereafter (10th, 15th, and 20th level).",
 			"",
-			"**Dragoncrafting (Ex):** Dragon hunters are experts not only at tracking and killing dragons, but also at using dragon bodies to craft unique equipment. A dragon hunter gains Dragoncrafting as a bonus feat at 5th level, even if she does not meet the prerequisites. See page 18 of this book for more information. This ability replaces the additional favored enemy and any bonuses to existing favored enemies gained at 5th level.",
+			"**Dragoncrafting (Ex):** Dragon hunters are experts not only at tracking and killing dragons, but also at using dragon bodies to craft unique equipment. A dragon hunter gains [Dragoncrafting](feat/dragoncrafting) as a bonus feat at 5th level, even if she does not meet the prerequisites. This ability replaces the additional favored enemy and any bonuses to existing favored enemies gained at 5th level.",
 			"",
 			"**Undaunted (Ex):** Beginning at 10th level, a dragon hunter gains a +4 bonus on Will saves made to resist mind-affecting fear effects, Reflex saves made to avoid damage from breath weapons, Reflex saves made to avoid crush attacks, and Reflex saves made to avoid damage from tail sweep attacks. This ability replaces the additional favored enemy and any bonuses to existing favored enemies gained at 10th level.",
 			"",
@@ -902,7 +902,7 @@
 			"",
 			"This alters wild empathy.",
 			"",
-			"**Planar Terrains (Ex):** At 3rd level, a planar scout gains a planar terrain (see the sidebar on page 9). Planar terrains function in all ways like a ranger's favored terrain; he must select a new plane each time he gains a favored terrain.",
+			"**Planar Terrains (Ex):** At 3rd level, a planar scout gains a planar terrain. [Planar terrains](rule/planar_terrains) function in all ways like a ranger's favored terrain; he must select a new plane each time he gains a favored terrain.",
 			"",
 			"This alters favored terrain.",
 			"",
@@ -1057,9 +1057,9 @@
 			"**Source** [Inner Sea Combat pg. 43](source/inner_sea_combat), [Paizo Blog - Sable Company Marine pg. 1](source/paizo_blog_-_sable_company_marine)  ",
 			"Sable Company marines receive their training at the elite Endrin Military Academy in Korvosa. A large portion of their education is the handling and riding of hippogriffs, the iconic mounts of members of the company.",
 			"",
-			"**Hippogriff Companion:** At 2nd level, a Sable Company marine adds Monstrous Mount (see page 14) to the list of bonus feats made available to him by his chosen combat style, regardless of the style chosen. He can only use this feat to select a hippogriff mount (see page 14). If he does so, he treats his ranger level - 1 as his effective druid level. A marine who takes this option does not gain the hunter's bond class feature at 4th level.",
+			"**Hippogriff Companion:** At 2nd level, a Sable Company marine adds [Monstrous Mount](feat/monstrous_mount) to the list of bonus feats made available to him by his chosen combat style, regardless of the style chosen. He can only use this feat to select a hippogriff mount. If he does so, he treats his ranger level - 1 as his effective druid level. A marine who takes this option does not gain the hunter's bond class feature at 4th level.",
 			"",
-			"At 6th level, a Sable Company marine adds Monstrous Mount Mastery (see page 14) to the list of available bonus feats granted by his chosen combat style. If he takes this feat as his 6th-level combat style bonus feat, note that he must wait until 8th level before he meets the effective druid level prerequisite to utilize his mount's mastery abilities."
+			"At 6th level, a Sable Company marine adds [Monstrous Mount Mastery](feat/monstrous_mount_mastery) to the list of available bonus feats granted by his chosen combat style. If he takes this feat as his 6th-level combat style bonus feat, note that he must wait until 8th level before he meets the effective druid level prerequisite to utilize his mount's mastery abilities."
 		]
 	},
 	"sentinel": {
@@ -1583,7 +1583,7 @@
 			"**Source** [Advanced Class Guide pg. 108](source/advanced_class_guide)  ",
 			"A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a favored enemy, a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy.",
 			"",
-			"**Animal Focus (Su):** At 1st level, as a swift action a wild hunter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's animal focus class feature (see page 27), though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time. This ability replaces all instances of the favored enemy class ability.",
+			"**Animal Focus (Su):** At 1st level, as a swift action a wild hunter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the [hunter's animal focus](class/ability/animal_foci) class feature, though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time. This ability replaces all instances of the favored enemy class ability.",
 			"",
 			"**Shared Focus (Su):** At 7th level, a wild hunter can share his current animal focus with one creature appropriate to his hunter's bond. If the wild hunter's bond is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild hunter's bond is with his companions, as a swift action he can select one bonded ally to gain the benefits of the hunter's current animal focus; this lasts until the hunter's bond ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion. This ability replaces woodland stride and swift tracker."
 		]
@@ -1723,7 +1723,7 @@
 			"",
 			"This ability replaces the endurance and evasion abilities.",
 			"",
-			"**Rallying Bond (Sp):** At 4th level, a wilderness medic must choose his companions for his hunter's bond. At 9th level, the wilderness medic can encourage all of his companions when he uses his hunter's bond to benefit his companions (see the ranger's hunter's bond ability on page 66 of the Pathfinder RPG Core Rulebook for more details). As a free action when the wilderness medic uses a move action to grant affected allies half his favored enemy bonus, he can also grant affected allies the benefits of remove fear. The wilderness medic can use this ability a number of times per day equal to his Wisdom modifier.",
+			"**Rallying Bond (Sp):** At 4th level, a wilderness medic must choose his companions for his hunter's bond. At 9th level, the wilderness medic can encourage all of his companions when he uses his hunter's bond to benefit his companions (see the [ranger's hunter's bond ability](class/ranger)). As a free action when the wilderness medic uses a move action to grant affected allies half his favored enemy bonus, he can also grant affected allies the benefits of remove fear. The wilderness medic can use this ability a number of times per day equal to his Wisdom modifier.",
 			"",
 			"At 14th level, when the wilderness medic uses this ability, he can instead affect all allies that benefit from his hunter's bond with blessing of fervor, using his ranger level as his caster level.",
 			"",
