@@ -585,7 +585,7 @@
 			"",
 			"A single colossus can help its master to raze a kingdom and crush armies, and is immune to almost all forms of retaliation. Many colossi are intended to do exactly that- to forge an empire for their creator, to subjugate a hated foe, or to annihilate some equally dangerous enemy. Some are created to be defensive weapons, as deterrents against invasion. Others are tasked to serve as guardians for singular locations or objects that are not to be disturbed under the direst of consequences.",
 			"",
-			"Because a colossus is an artificial creature, its exact form, function, and composition are left to the discretion of its creator. Nonetheless, all colossi share certain traits that distinguish them from lesser constructs. These traits are described in the colossus subtype (see page 305).",
+			"Because a colossus is an artificial creature, its exact form, function, and composition are left to the discretion of its creator. Nonetheless, all colossi share certain traits that distinguish them from lesser constructs. These traits are described in the [colossus subtype](monster/subtype/colossus).",
 			"",
 			"Only the greatest and most legendary spellcasters can create colossi, because the process requires experience and knowledge beyond ordinary mortal ken. Shaping a colossus's controlling spirit is about as close as a mortal being has come to truly creating a life and a soul. An inadequately prepared crafter is likely to produce an inert pile of rubble, or at best, a mere golem of tremendous proportions, but relatively fragile for its immense size. At worst, such a creation can fail catastrophically, with results that are unpredictable, but invariably expensive and dangerous.",
 			"",
@@ -1358,7 +1358,7 @@
 			"",
 			"**Age Categories**",
 			"",
-			"Many of a true dragon's abilities, attacks, and other statistics improve as the dragon grows older. These increases are divided into 12 age categories-as a dragon ages, its base statistics change as noted on the Dragon Age Categories table on page 87.",
+			"Many of a true dragon's abilities, attacks, and other statistics improve as the dragon grows older. These increases are divided into 12 age categories-as a dragon ages, its base statistics change as noted on the Dragon Age Categories table below.",
 			"",
 			"**Age Category:** This is the age category's name.",
 			"",
@@ -1368,7 +1368,7 @@
 			"",
 			"**Size:** This column shows the number of size categories by which to increase the dragon's base size, depending on its age (from Tiny to Small, Small to Medium, and so on). A true dragon does not gain the standard increases to ability scores when it achieves a larger size-instead, it gains ability score increases according to its age category, as indicated on the Dragon Ability Scores table.",
 			"",
-			"**Hit Dice:** This shows how many additional Hit Dice a dragon gains beyond its base HD as it grows. Increases to HD grant extra hit points, feats, and skill ranks as well as increase the dragon's base attack bonus and base save bonuses. A dragon has skill ranks equal to 6 + its Intelligence modifier per HD. A dragon's increases to ability scores for gaining HD are included in the total ability score increases (see the Dragon Ability Scores table on page 87).",
+			"**Hit Dice:** This shows how many additional Hit Dice a dragon gains beyond its base HD as it grows. Increases to HD grant extra hit points, feats, and skill ranks as well as increase the dragon's base attack bonus and base save bonuses. A dragon has skill ranks equal to 6 + its Intelligence modifier per HD. A dragon's increases to ability scores for gaining HD are included in the total ability score increases (see the Dragon Ability Scores table below7).",
 			"",
 			"**Natural Armor:** This shows the amount the dragon's base natural armor bonus increases by age category.",
 			"",
@@ -1376,7 +1376,7 @@
 			"",
 			"**Combat**",
 			"",
-			"The Dragon Attacks and Speeds table on page 87 lists the attacks a dragon can make and the damage each deals (a dash indicates a dragon of that size lacks that attack). Dragons gain other abilities when they reach specific age categories.",
+			"The Dragon Attacks and Speeds table below lists the attacks a dragon can make and the damage each deals (a dash indicates a dragon of that size lacks that attack). Dragons gain other abilities when they reach specific age categories.",
 			"",
 			"**Fly Speed:** A dragon's fly speed increases as indicated, according to its size.",
 			"",
@@ -1400,7 +1400,7 @@
 			"",
 			"**Dragon Senses (Ex):** Dragons have darkvision 120 feet and blindsense 60 feet. They see four times as well as a human in dim light and twice as well in normal light.",
 			"",
-			"**Frightful Presence (Ex):** A dragon's frightful presence has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as detailed on page 293.",
+			"**Frightful Presence (Ex):** A dragon's [frightful presence](umr/frightful_presence) has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as normal.",
 			"",
 			"**Psychic Magic:** Esoteric dragons gain greater psychic skill as they age. An esoteric dragon's caster level for its psychic magic spell-like abilities is equal to its total HD. It has an amount of psychic energy equal to 1/2 its HD when it first gains psychic magic + 2 PE for each age category thereafter. Spells: An esoteric dragon knows and casts psychic spells as a psychic of the level indicated in its specific description. Its caster level depends on its age, as shown for each type.",
 			"",
@@ -3786,7 +3786,7 @@
 			"",
 			"In the furthest reaches of the globe, where civilization itself is a legend and mapmakers can only make guesses about lands and denizens, immense creatures that are worshiped as gods walk the world. Capable of devastating entire cities in a single day of ruin and unleashing powerful supernatural attacks, these fabled, so-called \"gods\" are anything but. These massive monsters are known as kaiju, and the tales told of their genesis are as varied as the strange forms and capabilities of the monsters themselves.",
 			"",
-			"A kaiju is a monster of tremendous size-far larger than almost any other creature. Each kaiju is unique, but they all share a few traits in common (see the kaiju subtype on page 307). Kaiju can be of different types, but most are magical beasts. Although kaiju are semiintelligent and can generally understand a single language, they cannot speak. Some legends tell of certain gifted or unique people being able to call kaiju from vast distances to aid them in times of distress. This type of bond with a kaiju isn't well understood, but rarely comes to those who already possess great power. Rather, it is the helpless, the compassionate, and the meek who can bring forth kaiju.",
+			"A kaiju is a monster of tremendous size-far larger than almost any other creature. Each kaiju is unique, but they all share a few traits in common (see the [kaiju subtype](monster/subtype/kaiju). Kaiju can be of different types, but most are magical beasts. Although kaiju are semiintelligent and can generally understand a single language, they cannot speak. Some legends tell of certain gifted or unique people being able to call kaiju from vast distances to aid them in times of distress. This type of bond with a kaiju isn't well understood, but rarely comes to those who already possess great power. Rather, it is the helpless, the compassionate, and the meek who can bring forth kaiju.",
 			"",
 			"Kaiju generally dwell in distant, remote wildernesses, often in unusually close proximity to one another. There they battle, but never quite seem to finish their constant conflicts before one of the beasts staggers away to recover from the clash, defeated only for the moment. Visitors to one of the remote lands where kaiju frequently clash can often explore without too much fear, as long as they take care not to be too visible or destructive as they explore. Unless a kaiju is being attacked or is particularly aggressive (such as when it's defending a territory), it's likely to ignore Medium or smaller creatures that wander in its vicinity, just as a human might ignore an ant crawling nearby.",
 			"",
@@ -3890,7 +3890,7 @@
 			"",
 			"Kytons' need to replace parts of themselves with those of stronger mortals puts them in perpetual danger of attacking creatures that are too powerful for them to kill. For this reason, kytons are pragmatic and ruthless in their battles, scrutinizing all potential outcomes of a situation before taking action. Seeing strength in numbers, kytons often attack or trap a mortal victim as a team, hauling the unfortunate soul to the Plane of Shadow, converting their prey into a new kyton or dividing its body and soul among them for grafting and nourishment.",
 			"",
-			"The kytons of the Pathfinder RPG Bestiary are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the kyton subtype (see page 306). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
+			"The kytons of the Pathfinder RPG Bestiary are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the [kyton subtype](monster/subtype/kyton). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
 			"",
 			"**Kyton Demagogues**",
 			"",
@@ -4917,31 +4917,12 @@
 			"**Note:** This family represents a group of similar monsters. No official description was provided."
 		]
 	},
-	"troop": {
-		"name": "Troop",
-		"sources": [ "Bestiary 6" ],
-		"members": [
-			"- [Barrier Breaker Troop](monster/barrier_breaker_troop)",
-			"- [Cultist Troop](monster/cultist_troop)",
-			"- [Goblin Troop](monster/goblin_troop)",
-			"- [Outlaw Troop](monster/outlaw_troop)",
-			"- [Sodden Drauger Troop](monster/sodden_drauger_troop)"
-		],
-		"description": [
-			"## Troop",
-			"",
-			"**Source** [Bestiary 6](source/bestiary_6)",
-			"",
-			"Wherever there are battles to be fought or spoils to be claimed, troops march forward to do the dirty work of war. Whether they are hungry brigands eager to raid merchant caravans, frantic goblins scrambling to put a local settlement to the torch, or a cabal of drow spellcasters on a religious crusade for their demonic faith, troops heed the call and move as a single unit to accomplish what one lone mercenary, arsonist, or cabalist could not.",
-			"",
-			"Of course, brigands, drow, and goblins aren't the only types of troop that could exist-they're merely the three presented on the following pages. The [troop subtype](monster/subtype/troop) provides rules for the creation of groups of like-minded individuals of all kinds, functioning in a way similar to how the swarm subtype allows for the modeling of a vast flight of creatures acting as a single whole. With a troop, running an encounter against a large number of lower-level foes becomes much more manageable, and allows for normally low-CR threats to band together and challenge more powerful PCs.",
-			"",
-			"Troops can be created in innumerable variations, and you should feel free to use the three examples on the following pages as inspiration for the creation of troops of your own design. Troops are not as meant as exact simulations of tactical warfare, and when creating them you should not be overly concerned with trying to emulate the compounded abilities of the troop's component individuals. Troops are created just like other creatures of their creature type, with basic elements such as Hit Dice and statistics assigned so the completed troop conforms to the approximate hit points, Armor Class, and other values for its desired Challenge Rating as found Appendix 9: Monsters by CR, which begins on page 313. Once that foundation is established, apply the subtype rules and use the examples and variations provided here to finetune it with flavorful abilities and feats that approximate how a homogenous group of creatures of this sort might fight. With troops at your command, PCs may think twice next time they encounter a seemingly outmatched group of opponents."
-		]
-	},
 	"troops": {
 		"name": "Troops",
-		"sources": [ "Pathfinder #100: A Song of Silver" ],
+		"sources": [
+			"Bestiary 6",
+			"Pathfinder #100: A Song of Silver"
+		],
 		"members": [
 			"- [Dottari Troop](monster/dottari_troop)",
 			"- [Glorious Reclamation](monster/glorious_reclamation)",
@@ -4952,7 +4933,12 @@
 			"- [Ironfang Siege Alchemist Troop](monster/ironfang_siege_alchemist_troop)",
 			"- [Ironfang Yzobu Rider Troop](monster/ironfang_yzobu_rider_troop)",
 			"- [Morlock Swarmer Troop](monster/morlock_swarmer_troop)",
-			"- [Warmaze Disciples Troop](monster/warmaze_disciples_troop)"
+			"- [Warmaze Disciples Troop](monster/warmaze_disciples_troop)",
+			"- [Barrier Breaker Troop](monster/barrier_breaker_troop)",
+			"- [Cultist Troop](monster/cultist_troop)",
+			"- [Goblin Troop](monster/goblin_troop)",
+			"- [Outlaw Troop](monster/outlaw_troop)",
+			"- [Sodden Drauger Troop](monster/sodden_drauger_troop)"
 		],
 		"description": [
 			"## Troops",
@@ -4985,8 +4971,18 @@
 			"",
 			"Because of the chaos of combat, spellcasting or concentrating on spells within the area of a troop or within its reach requires a successful caster level check (DC = 20 + spell level). Using skills that involve patience and concentration requires a successful DC 20 Will save.",
 			"",
-			"**Looting Troops:** Although troops are composed of a number of individual creatures, the chaos and destruction of battle means that not all of these creatures' equipment survives the rigors of combat. As a result, parties who wish to claim usable gear or treasure from slain foes treat a troop as a single creature for the purposes of looting, and should be able to recover gear worth a total value equal to the troop's expected treasure value (as determined by the troop's CR)."
+			"**Looting Troops:** Although troops are composed of a number of individual creatures, the chaos and destruction of battle means that not all of these creatures' equipment survives the rigors of combat. As a result, parties who wish to claim usable gear or treasure from slain foes treat a troop as a single creature for the purposes of looting, and should be able to recover gear worth a total value equal to the troop's expected treasure value (as determined by the troop's CR).",
+			"",
+			"**Source** [Bestiary 6](source/bestiary_6)  ",
+			"Wherever there are battles to be fought or spoils to be claimed, troops march forward to do the dirty work of war. Whether they are hungry brigands eager to raid merchant caravans, frantic goblins scrambling to put a local settlement to the torch, or a cabal of drow spellcasters on a religious crusade for their demonic faith, troops heed the call and move as a single unit to accomplish what one lone mercenary, arsonist, or cabalist could not.",
+			"",
+			"Of course, brigands, drow, and goblins aren't the only types of troop that could exist-they're merely the three presented on the following pages. The [troop subtype](monster/subtype/troop) provides rules for the creation of groups of like-minded individuals of all kinds, functioning in a way similar to how the swarm subtype allows for the modeling of a vast flight of creatures acting as a single whole. With a troop, running an encounter against a large number of lower-level foes becomes much more manageable, and allows for normally low-CR threats to band together and challenge more powerful PCs.",
+			"",
+			"Troops can be created in innumerable variations, and you should feel free to use examples as inspiration for the creation of troops of your own design. Troops are not as meant as exact simulations of tactical warfare, and when creating them you should not be overly concerned with trying to emulate the compounded abilities of the troop's component individuals. Troops are created just like other creatures of their creature type, with basic elements such as Hit Dice and statistics assigned so the completed troop conforms to the approximate hit points, Armor Class, and other values for its desired Challenge Rating. Once that foundation is established, apply the subtype rules and use the examples and variations provided here to finetune it with flavorful abilities and feats that approximate how a homogenous group of creatures of this sort might fight. With troops at your command, PCs may think twice next time they encounter a seemingly outmatched group of opponents."
 		]
+	},
+	"troop": {
+		"copyof": "troops"
 	},
 	"vampire_servant": {
 		"name": "Vampire Servant",

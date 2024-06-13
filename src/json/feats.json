@@ -9265,7 +9265,7 @@
 			"",
 			"You can repair a broken cybernetic item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch. You can also install a cybernetic item in a creature's body.",
 			"",
-			"See the [Cybertech section](equipment_tech_cybertech) for more information on installing cyberware."
+			"See the [Cybertech section](tech_cybertech) for more information on installing cyberware."
 		]
 	},
 	"craft_magic_arms_and_armor": {
@@ -37891,7 +37891,10 @@
 	},
 	"polytheistic_blessing": {
 		"name": "Polytheistic Blessing",
-		"sources": [ "Tombs of Golarion" ],
+		"sources": [
+			"Faiths and Philosophies",
+			"Tombs of Golarion"
+		],
 		"description": [
 			"## Polytheistic Blessing",
 			"",
@@ -37902,22 +37905,23 @@
 			"**Benefit:** When you take this feat, select a pantheon from the list below. You gain the listed spell-like ability for your selected pantheon, usable once per day. If the granted spell allows a saving throw, the DC is equal to 10 + 1/2 your character level + your Charisma modifier.  ",
 			"**Special:** If you act out of line with the tenets of your pantheon's beliefs, you lose the ability to cast the granted spell-like ability until you have received an atonement for your transgression (as a cleric attempting to regain lost class abilities).",
 			"",
-			"Juju Pantheon (Cultural)",
+			"### Juju Pantheon (Cultural)",
 			"",
-			"Deities wendo (supernatural entities of the spirit world; see Faiths & Philosophies 14)",
+			"**Deities** wendo (supernatural entities of the spirit world)",
 			"",
-			"Common Believers juju practitioners, wendifa",
+			"**Common Believers** juju practitioners, wendifa",
 			"",
-			"Granted Spell-like Ability speak with animals",
+			"**Granted Spell-like Ability** speak with animals",
 			"",
-			"Sar-Gorog Pantheon (Aligned and Cultural)",
+			"### Sar-Gorog Pantheon (Aligned and Cultural)",
 			"",
-			"Deities Urgathoa (NE), Rovagug (CE), and Zura (CE)",
+			"**Deities** Urgathoa (NE), Rovagug (CE), and Zura (CE)",
 			"",
-			"Common Believers Koboto cannibal tribes of the Sodden Lands",
+			"**Common Believers** Koboto cannibal tribes of the Sodden Lands",
 			"",
-			"Granted Spell-like Ability decompose corpse; if you use this ability on a corpse rather than on a corporeal undead, you receive nourishment as though you had eaten a normal meal for a Medium creature.  ",
-			"**Note:** This feat first appeared in Pathfinder Player Companion: Faiths & Philosophies as [Pantheistic Blessing](feat/pantheistic_blessing), but is corrected and expanded here to include a benefit for juju practitioners and worshipers of Sar-Gorog."
+			"**Granted Spell-like Ability** decompose corpse; if you use this ability on a corpse rather than on a corporeal undead, you receive nourishment as though you had eaten a normal meal for a Medium creature.",
+			"",
+			"**Note:** This feat was originally titled *Pantheistic Blessing*."
 		]
 	},
 	"pommel_strike_deed": {

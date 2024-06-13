@@ -1808,7 +1808,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
 			"",
-			"You bear a tattoo depicting one of the totems listed for your quah (see page 16) that favors you with good fortune. You gain a +1 trait bonus on Will saving throws."
+			"You bear a tattoo depicting one of the totems listed for your quah that favors you with good fortune. You gain a +1 trait bonus on Will saving throws."
 		],
 		"subhierarchy": [[ "Race Traits", "traits_race" ]]
 	},
@@ -3312,7 +3312,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose Honor Points (see page 8), you may make a new saving throw against the original DC to end the effect."
+			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose [Honor Points](rule/honor_points), you may make a new saving throw against the original DC to end the effect."
 		],
 		"subhierarchy": [[ "Faith Traits", "traits_faith" ]]
 	},
@@ -3990,7 +3990,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold",
 			"",
-			"Though your light pink scales made you the subject of ridicule by your tribe, you can adapt to more environments than they can. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you. Most kobolds with carnation scales also have the day raider alternate racial trait (see page 7)."
+			"Though your light pink scales made you the subject of ridicule by your tribe, you can adapt to more environments than they can. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you. Most kobolds with carnation scales also have the day raider alternate racial trait."
 		],
 		"subhierarchy": [[ "Race Traits", "traits_race" ]]
 	},
@@ -4336,7 +4336,7 @@
 			"",
 			"You had the fortune to be born into one of Cheliax's noble families, and even more importantly, your family is one of those loyal to House Thrune. Perhaps your family has been allied with Thrune since the Chelish Civil War, or maybe Thrune granted your family its title in exchange for its support during that conflict. In any case, your experience growing up among the nation's well-to-do has given you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With the nascent uprising of the Glorious Reclamation in Cheliax, there is much concern among the aristocracy, and House Thrune needs the support of loyal nobles now more then ever.",
 			"",
-			"This trait assumes you belong to a minor noble human family with a small manor or estate in some backwater of the empire. If you're not human, either you were adopted into a noble human family, or your family was recently granted a nonhereditary noble title (see the Chelish Nobility sidebar on page 15).",
+			"This trait assumes you belong to a minor noble human family with a small manor or estate in some backwater of the empire. If you're not human, either you were adopted into a noble human family, or your family was recently granted a nonhereditary noble title.",
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charismabased checks against other members of the Chelish aristocracy. The [Noble Scion](feat/noble_scion) feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
 		],
@@ -4389,9 +4389,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"You had the fortune (or perhaps the misfortune, depending on your viewpoint) to be born into one of Kintargo's noble families. Your experience growing up among the city's well-to-do has given you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With the new situation in Kintargo brewing, there is much concern about an eventual restructuring of the city's nobility. Already, one noble estate has burned to the ground under what can best be described as suspicious circumstances, but whether the government or rebels were responsible depends on whom you ask. With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in the Greens. If you want to be a member of one of Kintargo's major noble families, you must take the Noble Scion feat at 1st level.",
+			"You had the fortune (or perhaps the misfortune, depending on your viewpoint) to be born into one of Kintargo's noble families. Your experience growing up among the city's well-to-do has given you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With the new situation in Kintargo brewing, there is much concern about an eventual restructuring of the city's nobility. Already, one noble estate has burned to the ground under what can best be described as suspicious circumstances, but whether the government or rebels were responsible depends on whom you ask. With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in the Greens. If you want to be a member of one of Kintargo's major noble families, you must take the [Noble Scion](feat/noble_scion) feat at 1st level.",
 			"",
-			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. The Noble Scion feat (see the sidebar on page 11) does not have a Charisma prerequisite for you. In addition, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. If you take the Noble Scion feat, your last name is probably Aulamaxa, Aulorian, Delronge, Jarvis, Jhaltero, Sarini, Tanessen, or Vashnarstill; if you're not human, you were adopted into the family. If you don't take this feat, you can make up your last name."
+			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. If you take the Noble Scion feat, your last name is probably Aulamaxa, Aulorian, Delronge, Jarvis, Jhaltero, Sarini, Tanessen, or Vashnarstill; if you're not human, you were adopted into the family. If you don't take this feat, you can make up your last name."
 		],
 		"subhierarchy": [[ "Campaign Traits", "traits_campaign" ]]
 	},
@@ -4404,7 +4404,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
 			"",
-			"During your childhood, you knew someone who was addicted to mumia, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases. (For more information on mumia, see page 21 of *Pathfinder Campaign Setting: Lost Kingdoms.*)"
+			"During your childhood, you knew someone who was addicted to [mumia](drug/mumia), a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
 	},
@@ -5934,7 +5934,7 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community. Once per week, when looking for an item with a price greater than the local community's base value (see page 461 of the Pathfinder RPG Core Rulebook), make a DC 10 Diplomacy check; add 10 to the DC for each community size category between the current community and the community size with a base value sufficient for that item. Success means (with GM approval) you're able to sell or purchase that item as if the local community were of sufficient size. Each additional attempt (successful or otherwise) in that community increases the DC by an additional +10. Example: If you're trying to find a +1 cloak of resistance (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town."
+			"You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community. Once per week, when looking for an item with a price greater than [the local community's base value](rule/purchasing_magic_items), make a DC 10 Diplomacy check; add 10 to the DC for each community size category between the current community and the community size with a base value sufficient for that item. Success means (with GM approval) you're able to sell or purchase that item as if the local community were of sufficient size. Each additional attempt (successful or otherwise) in that community increases the DC by an additional +10. Example: If you're trying to find a +1 cloak of resistance (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town."
 		],
 		"subhierarchy": [[ "Equipment Traits", "traits_equipment" ]]
 	},
@@ -6434,7 +6434,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the ranger's list of favored terrains on page 65 of the Pathfinder RPG Core Rulebook. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
+			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the [ranger's](class/ranger) list of favored terrains. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
 		],
 		"subhierarchy": [[ "Race Traits", "traits_race" ]]
 	},
@@ -10884,7 +10884,7 @@
 			"**Religion:** Desna  ",
 			"**Requirements:** Halfling",
 			"",
-			"Your dreams often give you a hint of possible dangers you might face during your day-such as a fall, a blast of fire, or a poisonous snake- and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx trait (see page 27), you cannot select this trait, and vice versa."
+			"Your dreams often give you a hint of possible dangers you might face during your day-such as a fall, a blast of fire, or a poisonous snake- and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx alternate racial trait, you cannot select this trait, and vice versa."
 		],
 		"subhierarchy": [[ "Religion Traits", "traits_religion" ]]
 	},
@@ -14245,7 +14245,7 @@
 			"**Type:** Regional  ",
 			"**Requirements:** Settlement near a famous dungeon",
 			"",
-			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide (see page 14) worth no more than 750 gp and with an accuracy modifier of no greater than +2. Suggestion: With the help of your GM and using the examples in this book, construct a unique dungeon guide tied to the dungeon near where you grew up."
+			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2. Suggestion: With the help of your GM and using the [example dungeon guides](equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
 	},
@@ -17010,7 +17010,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a wayfinder. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for improving magic items on page 553 of the Pathfinder RPG Core Rulebook. A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object."
+			"You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a wayfinder. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for [improving magic items](rule/adding_new_abilities). A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object."
 		],
 		"subhierarchy": [[ "Faith Traits", "traits_faith" ]]
 	},
@@ -17516,7 +17516,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Ghlaunder",
 			"",
-			"You have dedicated your life to honoring famine and disease. Choose any two poisons from the table on page 559 of the Pathfinder RPG Core Rulebook; when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
+			"You have dedicated your life to honoring famine and disease. Choose any two [poisons](equipment_poisons); when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
 		],
 		"subhierarchy": [[ "Religion Traits", "traits_religion" ]]
 	},
@@ -18477,7 +18477,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action-and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption (see page 18), your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
+			"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action-and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
 		],
 		"subhierarchy": [[ "Faith Traits", "traits_faith" ]]
 	},
@@ -18506,7 +18506,7 @@
 			"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways. Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.",
 			"",
 			"**Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.  ",
-			"**Magnimar:** Gain one random Varisian idol (see page 15).  ",
+			"**Magnimar:** Gain one random [Varisian idol](equipment/misc/varisian_idol).  ",
 			"**Riddleport:** Gain a +1 trait bonus on Swim checks."
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
@@ -19327,7 +19327,7 @@
 			"**Religion:** Calistria  ",
 			"**Requirements:** Elf",
 			"",
-			"You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your ilduliel (see page 8), this bonus increases to +2."
+			"You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your *ilduliel* (a personal, mutual nemesis), this bonus increases to +2."
 		],
 		"subhierarchy": [[ "Religion Traits", "traits_religion" ]]
 	},
@@ -20081,7 +20081,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
 			"",
-			"The Pathfinder Society has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane-the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action. Further details on the Pathfinder Society and wayfinders may be found in the Pathfinder Chronicles Campaign Setting (pages 194-195) or Seekers of Secrets."
+			"The Pathfinder Society has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane-the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action."
 		],
 		"subhierarchy": [[ "Campaign Traits", "traits_campaign" ]]
 	},
@@ -23546,7 +23546,7 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"You can modify old clothing to make it effective in new circumstances. With a basic sewing kit or disguise kit, you can make a Disguise check to change one outfit into another outfit (see page 159 of the Pathfinder RPG Core Rulebook, or page 13 of this book). The DC of this check is equal to 10 + the gp difference between costs of the outfits. The alteration takes 10 minutes per 1-gp difference in the cost of the outfits."
+			"You can modify old clothing to make it effective in new circumstances. With a basic sewing kit or disguise kit, you can make a Disguise check to change one outfit into another outfit. The DC of this check is equal to 10 + the gp difference between costs of the outfits, as found in the [outfits' entries](equipment_misc). The alteration takes 10 minutes per 1-gp difference in the cost of the outfits."
 		],
 		"subhierarchy": [[ "Equipment Traits", "traits_equipment" ]]
 	},
@@ -24206,7 +24206,7 @@
 			"**Type:** Regional  ",
 			"**Region:** The Abyss",
 			"",
-			"You are skilled at discovering the true names of outsiders. Choose a plane other than the Material Plane. When attempting to discover the true name of an outsider from the chosen plane, you halve the amount of research time required and gain a +4 trait bonus on the Knowledge (planes) check made to learn the outsider's name. For more information on binding outsiders using their true names, see page 101 of Pathfinder RPG Ultimate Magic."
+			"You are skilled at discovering the true names of outsiders. Choose a plane other than the Material Plane. When attempting to discover the true name of an outsider from the chosen plane, you halve the amount of research time required and gain a +4 trait bonus on the Knowledge (planes) check made to learn the outsider's name."
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
 	},
@@ -25465,7 +25465,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the confused condition table on page 566 of the Pathfinder RPG Core Rulebook, and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
+			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 		],
 		"subhierarchy": [[ "Social Traits", "traits_social" ]]
 	},
@@ -26311,7 +26311,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the Leadership feat or the Vile Leadership feat (see page 14) at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
+			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the [Leadership](feat/leadership) feat or the [Vile Leadership](feat/vile_leadership) feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
 		],
 		"subhierarchy": [[ "Social Traits", "traits_social" ]]
 	},

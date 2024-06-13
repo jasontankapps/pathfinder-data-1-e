@@ -227,7 +227,7 @@
 			"",
 			"Foot soldiers are the backbone of any army, stout soldiers who \"hold the line\" in the face of the enemy's charge with a bristling wall of pikes, decimate an opposing force's ranks with a hail of javelins, or hew with their swords in the bloody grind of close combat. Foot soldiers close the gap when their foes try to flee the field, and are tough enough to shrug off blows that would fell a common man.",
 			"",
-			"Changing a foot soldier's character class from warrior to fighter creates a professional veteran soldier. This necessitates a number of changes, the foremost of which is using the heroic numbers for his ability scores (see Core Rulebook page 451). In addition, the foot soldier receives a bonus fighter feat such as Combat Reflexes, Power Attack, or Weapon Focus.",
+			"Changing a foot soldier's character class from warrior to fighter creates a professional veteran soldier. This necessitates a number of changes, the foremost of which is using the heroic numbers for his ability scores (15, 14, 13, 12, 10, and 8). In addition, the foot soldier receives a bonus fighter feat such as Combat Reflexes, Power Attack, or Weapon Focus.",
 			"",
 			"Different varieties of foot soldier can be easily created by exchanging weapons and armor. For example, replacing the longspear and greatsword with a shortspear, longsword, and heavy steel shield increases the foot soldier's AC by 2.",
 			"",
@@ -3851,7 +3851,7 @@
 			"",
 			"Just as the legendary Mistress Ordellia Whilwren once prayed to a mysterious angel to save Magnimar from a devastating deluge, other dwellers of the city have likewise devoted themselves to holy figures, including angels, azatas, and agathions. Called \"mystery cultists\" by most Magnimarians because of their small numbers and esoteric manner of worship, the dedicated followers of the empyreal lords keep to themselves and rarely proselytize. Most mystery cults hold at least one of Magnimar's numerous monuments in high esteem, whether for their importance in local traditions or their part in Varisian legends. Practitioners of these religions often congregate around structures such as the Arvensoar, the Irespan, or the Mistress of Angels to practice their faith, sometimes forming assemblies of over a hundred worshipers. Although the cults' gatherings can occasionally be disruptive to the flow of traffic throughout the City of Monuments, Magnimar's leaders do little to dissuade the cults' practices, which are almost wholly harmless and serve to promote life, freedom, and other righteous virtues.",
 			"",
-			"Three of the most commonly worshiped figures among the mystery cults of Magnimar are the empyreal lords Ashava, Soralyon, and Ylimancha (see page 25 for more information on these empyreal lords), though smaller cults to other celestial beings are not uncommon in the City of Monuments."
+			"Three of the most commonly worshiped figures among the mystery cults of Magnimar are the empyreal lords Ashava, Soralyon, and Ylimancha, though smaller cults to other celestial beings are not uncommon in the City of Monuments."
 		]
 	},
 	"noble_noble_scion": {
@@ -4642,7 +4642,7 @@
 			"",
 			"The knights of Absalom's Wave Riders are legendary in naval circles across the Inner Sea region. Trained to ride hippocampus mounts by the gillmen of Escadar on the Isle of Erran, the knights move swiftly and work in small groups to patrol Absalom's harbor and surrounding waters. The Wave Riders defend local ships from monsters that are summoned by enemies or that rise from the depths of their own accord, and use their speed and maneuverability to observe and occasionally harass enemy ships. Though they lack a heavy cavalry's capabilities, Wave Riders are adept at approaching smaller ships and boarding before the lookouts even know they are there. Usually, only those who would harm Absalom by way of the sea need fear the Wave Riders, but they also aren't above assisting with anti-smuggling raids from time to time.",
 			"",
-			"Many of Escadar's gillmen serve in the sea cavalry. Though the Wave Riders value the gillmen's natural abilities, some in Absalom question the wisdom of trusting the Low Azlanti, pointing to their worship of the inhuman idols found among Escadar's ruins and rumors that they serve aboleth masters. No nefarious plot has yet surfaced, however. Statistics for hippocampi can be found on page 155 of Pathfinder RPG Bestiary 2."
+			"Many of Escadar's gillmen serve in the sea cavalry. Though the Wave Riders value the gillmen's natural abilities, some in Absalom question the wisdom of trusting the Low Azlanti, pointing to their worship of the inhuman idols found among Escadar's ruins and rumors that they serve aboleth masters. No nefarious plot has yet surfaced, however."
 		]
 	},
 	"barmaid": {
@@ -4788,7 +4788,7 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Bleachling** A gnome who has survived the curse known as the Bleaching becomes immune to the Bleaching as well as to further aging effects, as the druid's timeless body ability. Additionally, she can cast speak with animals at will. (See page 25 of Pathfinder Player Companion: Gnomes of Golarion.)",
+			"**Bleachling** A gnome who has survived the curse known as the Bleaching becomes immune to the Bleaching as well as to further aging effects, as the druid's timeless body ability. Additionally, she can cast [speak with animals](spell/speak_with_animals) at will.",
 			"",
 			"As a gnome reaches adulthood, experiencing new things becomes more than just an expression of the race's curiosity-it becomes a perpetual need if the gnome is to avoid the affliction known as the Bleaching. If a gnome isn't sufficiently stimulated, her bright coloration fades into white, gray, and earth tones, and her curiosity and mental faculties fade proportionally. This is usually fatal unless she's able to stave off the condition with extremely stimulating circumstances.",
 			"",
@@ -6010,7 +6010,7 @@
 			"",
 			"**Boon** A dealer can provide alchemical substances or poisons costing less than 500 gp at a 10% discount. He can also arrange for PCs to meet a more powerful crime boss or to plant illicit substances on a person or place.",
 			"",
-			"Dealers are purveyors of drugs, toxins, poisons, and all manner of proscribed and questionable alchemical substances. Operating from hidden laboratories and kitchens, they import and concoct their wares to rule the streets through the power of their sweet seduction. (See page 236 for a variety of drugs dealers might push.)",
+			"Dealers are purveyors of drugs, toxins, poisons, and all manner of proscribed and questionable alchemical substances. Operating from hidden laboratories and kitchens, they import and concoct their wares to rule the streets through the power of their sweet seduction.",
 			"",
 			"Dealers can be used as low-level poisoners and assassins, traveling charlatans or snake-oil salesmen, or even semihonest alchemists, apothecaries, and street physicians.",
 			"",
@@ -8179,7 +8179,7 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Aldori Dueling Mastery** The Aldori swordlord gains a +2 bonus on Initiative checks whenever she starts combat with an Aldori dueling sword in her hand. As long as she wields only a single Aldori dueling sword in one hand, she gains a +2 shield bonus to AC; if she wields the sword in two hands, this bonus decreases to +1. (See page 284 of Pathfinder Campaign Setting: The Inner Sea World Guide.)",
+			"**Aldori Dueling Mastery** The Aldori swordlord gains a +2 bonus on Initiative checks whenever she starts combat with an Aldori dueling sword in her hand. As long as she wields only a single Aldori dueling sword in one hand, she gains a +2 shield bonus to AC; if she wields the sword in two hands, this bonus decreases to +1.",
 			"",
 			"**Defensive Parry (Ex)** When the Aldori swordlord makes a full attack with an Aldori dueling sword, she gains a +1 bonus to AC against melee attacks until the beginning of her next turn.",
 			"",
@@ -10004,7 +10004,7 @@
 			"",
 			"**Str** 16, **Dex** 13, **Con** 12, **Int** 8, **Wis** 16, **Cha** 10  ",
 			"**Base Atk** +6; **CMB** +9; **CMD** 21  ",
-			"**Feats** [Cleave](feat/cleave), [Dodge](feat/dodge), [Intimidating Prowess](feat/intimidating_prowess), [Polytheistic Blessing (Sar-Gorog pantheon; see the sidebar on page 63)](feat/polytheistic_blessing), [Power Attack](feat/power_attack), [Precise Strike](feat/precise_strike)  ",
+			"**Feats** [Cleave](feat/cleave), [Dodge](feat/dodge), [Intimidating Prowess](feat/intimidating_prowess), [Polytheistic Blessing (Sar-Gorog pantheon)](feat/polytheistic_blessing), [Power Attack](feat/power_attack), [Precise Strike](feat/precise_strike)  ",
 			"**Skills** Craft (traps) +5, Heal +9, Intimidate +15, Knowledge (nature) +5, Perception +9, Sense Motive +11, Stealth +9, Survival +13  ",
 			"**Languages** Polyglot  ",
 			"**SQ** hateful retort, monster lore +3, solo tactics, stern gaze +2, track +2  ",
@@ -10794,9 +10794,9 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Addicted (Ex)** The Numerian scavenger is addicted to Numerian fluids (see page 28). She keeps her ability damage and penalties under control with lesser restoration. Roll once on the Numerian Fluids Side Effects table on page 29. If the result indicates a side effect that includes an addiction, the scavenger is addicted to that specific side effect in addition to Numerian fluids in general.",
+			"**Addicted (Ex)** The Numerian scavenger is addicted to [Numerian fluids](drug/numerian_fluids). She keeps her ability damage and penalties under control with lesser restoration. Roll once on the Numerian Fluids Side Effects table If the result indicates a side effect that includes an addiction, the scavenger is addicted to that specific side effect in addition to Numerian fluids in general.",
 			"",
-			"**Latest Dose (Ex)** There is a 50% chance the Numerian fluid scavenger drank her latest dose of fluid 1d4 hours ago and is still under the effects of the drug when encountered. If she has done so, apply the effects of the dose and roll on the Numerian Fluids Side Effects table on page 29. The alchemist uses alchemical allocation to consume her potion of lesser restoration to cure any ability damage she takes from the dose. The scavenger retains the unused dose of fluids in her inventory, even if she has consumed a dose earlier in the day.",
+			"**Latest Dose (Ex)** There is a 50% chance the Numerian fluid scavenger drank her latest dose of fluid 1d4 hours ago and is still under the effects of the drug when encountered. If she has done so, apply the effects of the dose and roll on the Numerian Fluids Side Effects table. The alchemist uses alchemical allocation to consume her potion of lesser restoration to cure any ability damage she takes from the dose. The scavenger retains the unused dose of fluids in her inventory, even if she has consumed a dose earlier in the day.",
 			"",
 			"Once, the Numerian fluid scavenger roamed the Felldales, searching for fluids to sell to hapless addicts. Now, she's become addicted to her own merchandise, and increasingly drinks her finds instead of making the long trek to civilization. As her symptoms worsen, the Numerian fluid scavenger grows more and more paranoid, convinced that strangers seek to track her back to her sources of Numerian fluids and rob her of her precious liquids.",
 			"",
@@ -14571,7 +14571,7 @@
 			"",
 			"**Labyrinthine Cunning (Ex)** The shieldmarshal never becomes lost in urban terrain, and he never takes penalties to movement for poor visibility in urban terrain, even while temporarily blinded. A shieldmarshal can open or close doors as a swift action instead of a move action.",
 			"",
-			"**Legal Judgment (Ex)** The shieldmarshal can pronounce legal judgment upon his foes as a swift action, providing a bonus or ability based on the type of judgment made. This functions as an inquisitor's judgment class feature and allows the shieldmarshal to use the legal judgment abilities on page 63.",
+			"**Legal Judgment (Ex)** The shieldmarshal can pronounce legal judgment upon his foes as a swift action, providing a bonus or ability based on the type of judgment made. This functions as an [inquisitor's judgment class feature](class/inquisitor) and allows the shieldmarshal to use the legal judgment abilities.",
 			"",
 			"Shieldmarshals uphold the law in the Grand Duchy of Alkenstar. Chief among their duties is preserving the secrets behind Alkenstar's most advanced weapons. Their badges, an emblem of crossed rifles, grant them the authority to enter nearly any building in Alkenstar in the course of their investigations."
 		]
@@ -15529,7 +15529,7 @@
 			"",
 			"**Preklikin's Book of Cults** This book contains notations of strange cult practices and disturbing rants about Great Old Ones and grants the cultist a +1 resistance bonus on Will saves while she carries it. She may hold the book in one hand to use it as a lesser extend metamagic rod, but only for conjuration spells that summon or call evil outsiders. (Pathfinder Campaign Setting: Gods and Magic 59)",
 			"",
-			"**Stoic** The cultist gains a +1 bonus on all saving throws against fear effects. If she successfully saves against any fear effect, she is immune to further fear effects from that source for 24 hours. (See page 289 of Pathfinder Campaign Setting: The Inner Sea World Guide.)",
+			"**Stoic** The cultist gains a +1 bonus on all saving throws against fear effects. If she successfully saves against any fear effect, she is immune to further fear effects from that source for 24 hours.",
 			"",
 			"Those who watch the stars and delve into forgotten lore often uncover truths that should have remained hidden. Many are destroyed by what they find, but a few gain great power at the cost of their sanity. These mystics draw others to them through promises of secret knowledge, founding hidden cults that serve entities whose existence is an affront to reality itself. While the practices of any one of these cults in particular is likely isolated to certain regions of Golarion, those who venerate the Old Cults can be found hidden away in virtually any land, making their infiltration of society that much more insidious."
 		]

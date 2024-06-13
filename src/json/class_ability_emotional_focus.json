@@ -53,7 +53,7 @@
 			"",
 			"**Devoted Servant (Su):** When the spiritualist reaches 12th level and is caught unawares by an attack (such as an attack made in a surprise round or while the spiritualist is asleep or an attack by a creature using Stealth), if the phantom is not fully manifested, it automatically fully manifests from the spiritualist's consciousness to protect its master. The phantom stays manifested as long as the spiritualist is unaware and in danger. This ability requires no action from the spiritualist.",
 			"",
-			"**Steadfast Devotion (Su):** When the spiritualist reaches 17th level, the phantom becomes immune to detrimental mind-affecting effects and all forms of possession, such as magic jar and possession (see page 181). Furthermore, the phantom is immune to banishment, dismissal, and similar effects."
+			"**Steadfast Devotion (Su):** When the spiritualist reaches 17th level, the phantom becomes immune to detrimental mind-affecting effects and all forms of possession, such as [magic jar](spell/magic_jar) and [possession](spell/possession). Furthermore, the phantom is immune to banishment, dismissal, and similar effects."
 		]
 	},
 	"despair": {
@@ -143,7 +143,7 @@
 			"",
 			"**Eye of Avarice:** The phantom adds half its number of Hit Dice (minimum 1) as a bonus on its Appraise checks. While it is confined to the spiritualist's consciousness, when the spiritualist attempts to identify the properties of a magic item using detect magic, the phantom grants the spiritualist this bonus on Spellcraft check.",
 			"",
-			"**Ruthless Combatant (Su):** A phantom with this focus threatens a critical hit with its slam attacks on a result of 19-20. At 11th level, its critical multiplier with slam attacks increases to ??3.",
+			"**Ruthless Combatant (Su):** A phantom with this focus threatens a critical hit with its slam attacks on a result of 19-20. At 11th level, its critical multiplier with slam attacks increases to &times;3.",
 			"",
 			"**Assume Effect (Su):** When the spiritualist reaches 7th level, when she casts a spell on herself with a range other than personal, the spell can also affect her phantom. The phantom can benefit from this ability once per day, plus one additional time per day when the spiritualist reaches 12th level and a third time when the spiritualist reaches 19th level.",
 			"",
@@ -289,7 +289,7 @@
 			"## Remorse",
 			"",
 			"**Source** [Occult Origins pg. 19](source/occult_origins)",
-			"Spirits of creatures that died with heavy weights upon their consciences manifest with the remorse emotional focus. These phantoms, whose forms are often darkened by shadows, force foes to experience their regret and self-loathing. A spiritualist with the fated guide archetype (see page 18) must choose remorse as her phantom's emotional focus, but other spiritualists can also select this emotional focus for their phantoms.",
+			"Spirits of creatures that died with heavy weights upon their consciences manifest with the remorse emotional focus. These phantoms, whose forms are often darkened by shadows, force foes to experience their regret and self-loathing. A spiritualist with the [fated guide](class/archetype/spiritualist/fated_guide) archetype must choose remorse as her phantom's emotional focus, but other spiritualists can also select this emotional focus for their phantoms.",
 			"",
 			"**Skills:** The phantom gains a number of ranks in Perception and Sense Motive equal to its Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.",
 			"",
@@ -393,7 +393,7 @@
 			"",
 			"**Tracking:** The phantom adds half its number of Hit Dice (minimum 1) to Survival skill checks to follow tracks.",
 			"",
-			"**Ruthless Combatant (Su):** The phantom threatens a critical hit with its slam attacks on a roll of 19-20. When the spiritualist reaches 11th level, the phantom's critical modifier with slam attacks increases to ??3. This doesn't stack with Improved Critical or similar effects.",
+			"**Ruthless Combatant (Su):** The phantom threatens a critical hit with its slam attacks on a roll of 19-20. When the spiritualist reaches 11th level, the phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with Improved Critical or similar effects.",
 			"",
 			"**Determination Aura (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-footradius aura that grants its zeal to nearby allies. Allies within the aura gain a +2 competence bonus on attack rolls and saving throws. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",

@@ -17417,13 +17417,13 @@
 			"",
 			"**Cybernetics Lab (100 charges):** A cybernetics lab is used to craft cybernetic equipment and devices that interface directly with a living creature's biology.",
 			"",
-			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](equipment/tech/weapon/gravity_rifle), [force fields](equipment/tech/armor/force_field_black), and [magboots](equipment/tech/armor/magboots).",
+			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech/weapon/gravity_rifle), [force fields](tech/armor/force_field_black), and [magboots](tech/armor/magboots).",
 			"",
-			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](equipment/tech/misc/trauma_packs) and [medlances](equipment/tech/misc/medlance) and pharmaceuticals.",
+			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](tech/misc/trauma_packs) and [medlances](tech/misc/medlance) and pharmaceuticals.",
 			"",
 			"**Military Lab (100 charges):** A military lab is used to craft weapons that don't require more specialized laboratories.",
 			"",
-			"**Nanotech Lab (150 charges):** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](equipment/tech/weapon/id_rifle).",
+			"**Nanotech Lab (150 charges):** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](tech/weapon/id_rifle).",
 			"",
 			"**Production Lab (50 charges):** A production lab is used to craft objects that don't require more specialized laboratories."
 		],
@@ -17440,9 +17440,9 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"Items with both magical and technological components, such as the [null blade](equipment/tech/weapon/null_blade), use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for [magic item creation](rule/magic_item_creation). The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
+			"Items with both magical and technological components, such as the [null blade](tech/weapon/null_blade), use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for [magic item creation](rule/magic_item_creation). The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
 			"",
-			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](equipment/tech/weapon/laser_rifle), a +4 [dancing](magic/enhancement/dancing) humanoid [bane](magic/enhancement/bane) [chainsaw](equipment/tech/weapon/chainsaw), or a +1 [ghost touch](magic/enhancement/ghost_touch) [spacesuit](equipment/tech/armor/spacesuit). In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](equipment/tech/weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
+			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](tech/weapon/laser_rifle), a +4 [dancing](magic/enhancement/dancing) humanoid [bane](magic/enhancement/bane) [chainsaw](tech/weapon/chainsaw), or a +1 [ghost touch](magic/enhancement/ghost_touch) [spacesuit](tech/armor/spacesuit). In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](tech/weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -17457,7 +17457,7 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jet packs](equipment/tech/misc/jet_pack) function like [winged boots](magic/wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
+			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jet packs](tech/misc/jet_pack) function like [winged boots](magic/wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -17598,14 +17598,14 @@
 			"**Type** mechanical and technological; **Perception DC** 20; **Disable Device** DC 28",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** automatic (1 round)  ",
-			"**Effect** Atk +10 ranged touch (2d6 fire), range increment 150 ft. (see [laser pistol](equipment/tech/weapon/laser_pistol) for rules on lasers)",
+			"**Effect** Atk +10 ranged touch (2d6 fire), range increment 150 ft. (see [laser pistol](tech/weapon/laser_pistol) for rules on lasers)",
 			"",
 			"### Proximity Mine",
 			"#### CR 5",
 			"**Type** genetic, proximity **Perception DC** 28; **Disable Device** DC 20",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** none  ",
-			"**Effect** one [grenade](equipment/tech/misc/bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
+			"**Effect** one [grenade](tech/misc/bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
 			"",
 			"### Electrified Door",
 			"#### CR 11",
