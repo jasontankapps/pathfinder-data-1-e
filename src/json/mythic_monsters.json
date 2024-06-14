@@ -410,7 +410,7 @@
 			"",
 			"Without a great victory to justify its leader's aggressive policies and reckless spending, Praramdav was unable to hold onto its new territory. It collapsed into bankruptcy, and its vassal kingdoms attempted in vain to melt down the colossus but succeeded only in breaking it into five virtually invulnerable sections: two arms, the head, the torso, and its articulated serpentine tail. A different kingdom claimed each one as spoils of Praramdav's folly. Nearly a millennium later, these same kingdoms had managed to reunite three of the pieces when Unyielding Kothogaz arrived in Vudra, but the Spawn of Rovagug attacked and scattered the pieces far and wide in its rampage. Ultimately, it was not a golden champion but an army of hero-priests that defeated Kothogaz.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -598,7 +598,7 @@
 			"",
 			"A flesh colossus consists of hundreds of corpses assembled into a macabre whole. Its stands roughly 60 feet tall and weighs about 150,000 pounds.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -677,7 +677,7 @@
 			"",
 			"Standing 80 feet high and weighing 500 tons, iron colossi are the ultimate weapons of war.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -753,7 +753,7 @@
 			"",
 			"A sphinx colossus is an ancient relic carved by priests and god-kings to protect their secrets. A sphinx colossus stands roughly 60 feet tall and weighs about 220,000 pounds.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -830,7 +830,7 @@
 			"",
 			"Standing 70 feet tall and weighing 300 tons, a stone colossus is a walking fortress.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -898,7 +898,7 @@
 			"",
 			"Standing 60 feet tall and weighing over 200 tons, a wood colossus can serve both as a guardian and as a manor.",
 			"",
-			"**Family:** [Colossus](monster/family/colossus)",
+			"**Family:** [Colossus](family/colossus)",
 			"",
 			"### Construction",
 			"",
@@ -1404,8 +1404,8 @@
 			"",
 			"A mythic black dragon eyes can pierce fog to find prey. Its very flesh and blood is infused with deadly acid, and like a snake it can gulp down an entire meal without chewing. A mythic black dragon enjoys regurgitating a swallowed opponent to let it rot for a few days before eating it as an actual meal, or repeats this cycle on a living creature as cruel torture.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [Black Dragon](monster/family/black_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [Black Dragon](family/black_dragon)"
 		]
 	},
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black,_mature_adult_black_dragon_mythic" },
@@ -1437,7 +1437,7 @@
 			"**Speed** 40 ft., burrow 20 ft., fly 200 ft. (poor); sand glide  ",
 			"**Melee** bite +26 (2d8+12/19-20), 2 claws +24 (2d6+8), tail slap +22 (2d6+12), 2 wings +22 (1d8+4)  ",
 			"**Space** 15 ft., **Reach** 10 ft. (15 ft. with bite)  ",
-			"**Special Attacks** bend bolt, breath weapon (100-ft. line of electricity or 50-ft. cone of sand, 14d8 electricity or 14d8 piercing, Reflex DC 25 half, usable every 1d4 rounds), crush, desert thirst, dragon fury (1d8 electricity), mythic power (7/day, surge +1d10), persuasive whisper, wild arcana (see page 14)  ",
+			"**Special Attacks** bend bolt, breath weapon (100-ft. line of electricity or 50-ft. cone of sand, 14d8 electricity or 14d8 piercing, Reflex DC 25 half, usable every 1d4 rounds), crush, desert thirst, dragon fury (1d8 electricity), mythic power (7/day, surge +1d10), persuasive whisper, wild arcana  ",
 			"**Spell-Like Abilities** (CL 18th; concentration +10)  ",
 			"*At will*-ghost sound, minor image  ",
 			"**Sorcerer Spells Known ** (CL 5th; concentration +8)  ",
@@ -1463,8 +1463,8 @@
 			"",
 			"A mythic blue dragon has powers over weaker minds, allowing it to influence events far from its lair. Its magic also influences sand and dust, giving it mastery over the aspects of its desert home.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [Blue Dragon](monster/family/blue_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [Blue Dragon](family/blue_dragon)"
 		]
 	},
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue,_mature_adult_blue_dragon_mythic" },
@@ -1525,8 +1525,8 @@
 			"",
 			"A mythic green dragon embodies the confusion and fear of becoming lost in a strange forest. It stalks its prey with surprising stealth and subterfuge, preferring the taste of terrified, maddened creatures.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [Green Dragon](monster/family/green_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [Green Dragon](family/green_dragon)"
 		]
 	},
 	"very_old_green_dragon_mythic": { "copyof": "dragon_green,_very_old_green_dragon_mythic" },
@@ -1559,7 +1559,7 @@
 			"**Speed** 40 ft., fly 250 ft. (clumsy)  ",
 			"**Melee** bite +40 (4d6+25/18-20 plus bleed and grab), 2 claws +40 (2d8+17/19-20 plus bleed and grab), 2 wings +38 (2d6+8), tail slap +38 (2d8+25)  ",
 			"**Space** 20 ft., **Reach** 15 ft. (20 ft. with bite)  ",
-			"**Special Attacks** bleed (2d6), breath weapon (60-ft. cone, 22d10 fire damage, Reflex DC 32 half, usable every 1d4 rounds), crush, dragon fury (2d6 fire), lingering breath (4d6 fire, 10 rounds), manipulate flames, melt stone, mythic power (10/day, surge +1d12), sooty flame, swallow whole (2d6 bludgeoning and 2d6 fire damage, AC 28, 51 hp), tail sweep (DC 32, 2d6+25), wild arcana (see page 14)  ",
+			"**Special Attacks** bleed (2d6), breath weapon (60-ft. cone, 22d10 fire damage, Reflex DC 32 half, usable every 1d4 rounds), crush, dragon fury (2d6 fire), lingering breath (4d6 fire, 10 rounds), manipulate flames, melt stone, mythic power (10/day, surge +1d12), sooty flame, swallow whole (2d6 bludgeoning and 2d6 fire damage, AC 28, 51 hp), tail sweep (DC 32, 2d6+25), wild arcana  ",
 			"**Spell-Like Abilities** (CL 27th; concentration +34)  ",
 			"*At will*-detect magic, find the path, pyrotechnics (DC 19), suggestion (DC 20), wall of fire  ",
 			"**Sorcerer Spells Known ** (CL 17th; concentration +24)  ",
@@ -1580,7 +1580,7 @@
 			"**Feats** [Cleave](feat/cleave), [Mythic Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Mythic Improved Critical (bite)](feat/improved_critical), [Improved Critical (claws)](feat/improved_critical), [Mythic Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Mythic Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Mythic Power Attack](feat/power_attack), [Quicken Spell](feat/quicken_spell), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Appraise +35, Bluff +37, Diplomacy +37, Fly +14, Intimidate +37, Knowledge (arcana) +35, Knowledge (history) +35, Perception +35, Sense Motive +35, Spellcraft +35, Stealth +16  ",
 			"**Languages** Abyssal, Common, Draconic, Dwarven, Giant, Orc  ",
-			"**SQ** dragon cantrips, mythic spellcasting (see page 50)",
+			"**SQ** dragon cantrips, mythic spellcasting",
 			"",
 			"#### Ecology",
 			"",
@@ -1598,8 +1598,8 @@
 			"",
 			"Mythic red dragons use their magic to protect their lairs with a variety of protective spells. A typical lair also contains slave-built mundane traps, environmental hazards such as steam vents poisonous fumes, and (if within an active volcano) molten rock as part of its defenses.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [Red Dragon](monster/family/red_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
@@ -1661,8 +1661,8 @@
 			"",
 			"A young mythic red dragon is the offspring of an older mythic dragon, inheriting its power and rage. It tends to gorge itself on livestock, then sleep for nearly a year, only to repeat this cycle when it awakens again.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [Red Dragon](monster/family/red_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
 	"young_red_dragon_mythic": { "copyof": "dragon_red,_young_red_dragon_mythic" },
@@ -1716,8 +1716,8 @@
 			"",
 			"A mythic white dragon's powers over ice and snow make it a perfect predator for its environment. Its hunger is barely kept in check by its human-level intelligence. It is fond of crashing into enemies and knocking them into ravines so they can be found and eaten later.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)  ",
-			"**Family:** [White Dragon](monster/family/white_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)  ",
+			"**Family:** [White Dragon](family/white_dragon)"
 		]
 	},
 	"juvenile_white_dragon_mythic": { "copyof": "dragon_white,_juvenile_white_dragon_mythic" },
@@ -1865,7 +1865,7 @@
 			"",
 			"**Create Vacuum (Ex)** As a standard action, a mythic elder air elemental can suck the air out of the lungs of creatures it has swallowed or that are trapped in its whirlwind (Fortitude DC 27 negates). Creatures that fail the save take 2d6 points of damage and must attempt Constitution checks each round as if they had run out of breath. An affected character can't speak, use breath weapons, cast spells with verbal components, or do anything else that requires breathing. A trapped creature that succeeds at its save must succeed at a concentration check to cast spells. The air elemental can maintain this vacuum as a move action. If it stops, the trapped or swallowed creatures can breathe again. The save DC is Strength-based.",
 			"",
-			"**Elevated Ejection (Ex)** When a mythic air elemental in whirlwind form ejects a trapped creature, it can do so from any point up to the whirlwind's current height, dropping the creature into the whirlwind's space or within the elemental's normal reach. The creature takes falling damage as normal. If the elemental expends one use of mythic power, it can instead throw a trapped creature as if using the uncanny grapple path ability (see page 23) with no grapple check needed.",
+			"**Elevated Ejection (Ex)** When a mythic air elemental in whirlwind form ejects a trapped creature, it can do so from any point up to the whirlwind's current height, dropping the creature into the whirlwind's space or within the elemental's normal reach. The creature takes falling damage as normal. If the elemental expends one use of mythic power, it can instead throw a trapped creature as if using the uncanny grapple path ability with no grapple check needed.",
 			"",
 			"**Swallow Whole (Ex)** A mythic air elemental can use this ability on a creature it has grabbed. If a trapped creature cuts itself free, the hole heals itself closed at the start of the elemental's next turn, allowing it to use swallow whole again.",
 			"",
@@ -2176,21 +2176,21 @@
 			"",
 			"A mythic ettin is descended from a sordid lineage of mythic hill giants, mythic stone giants, and at least one mythic orc. Angrier, filthier, and stronger than other ettins, it is a leader of its kind, and is better at keeping a band or colony together for months or years.",
 			"",
-			"Variant Mythic Ettins",
+			"### Variant Mythic Ettins",
 			"",
 			"Some mythic ettins are strongly related to one of their ancestral races, and have different mythic abilities.",
 			"",
-			"Hillblood Ettin (CR 8/MR 3)",
+			"#### Hillblood Ettin (CR 8/MR 3)",
 			"",
-			"A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a mythic hill giant's earth bond and ground pound abilities (see page 200).",
+			"A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a [mythic hill giant's](monster/hill_giant_mythic) earth bond and ground pound abilities.",
 			"",
-			"Orcblood Ettin (CR 8/MR 3)",
+			"#### Orcblood Ettin (CR 8/MR 3)",
 			"",
-			"An orc-dominant mythic ettin loses its stench and two brains abilities, but gains blood rage and feral savagery (see page 227).",
+			"An [orc](monster/orc)-dominant mythic ettin loses its stench and two brains abilities, but gains blood rage and feral savagery.",
 			"",
-			"Stoneblood Ettin (CR 8/MR 3)",
+			"#### Stoneblood Ettin (CR 8/MR 3)",
 			"",
-			"A stone giant-dominant mythic ettin loses its powerful charge and stench abilities, but gains a stone giant's improved rock catching and rock throwing."
+			"A stone giant-dominant mythic ettin loses its powerful charge and stench abilities, but gains a [stone giant's](monster/stone_giant) improved rock catching and rock throwing."
 		]
 	},
 	"gargoyle_mythic": {
@@ -2248,7 +2248,7 @@
 			"",
 			"A mythic gargoyle is a king or queen among its kind, usually gaining its power from an earth deity, a mythic gem embedded in its chest, or centuries of exposure to powerful magic. It has a distinct appearance, and other members of its wing slowly shift to match its look.",
 			"",
-			"Mythic Kapoacinth",
+			"### Mythic Kapoacinth",
 			"",
 			"An aquatic mythic gargoyle is nearly identical to a mythic gargoyle, but usually has an electricity breath weapon instead of acid. Some have the ability to possess coral or wood statues instead of stone."
 		]
@@ -2274,7 +2274,7 @@
 			"**AC** 29, touch 8, flat-footed 29 (+8 armor, -1 Dex, +13 natural, -1 size)  ",
 			"**hp** 197 (15d8+130)  ",
 			"**Fort** +15, **Ref** +4, **Will** +9  ",
-			"**Defensive Abilities** backlash (see page 21), rock catching; **DR** 10/epic; **Immune** fire  ",
+			"**Defensive Abilities** backlash, rock catching; **DR** 10/epic; **Immune** fire  ",
 			"**Weaknesses** vulnerable to cold",
 			"",
 			"#### Offense",
@@ -2283,7 +2283,7 @@
 			"**Melee** greatsword +22/+17/+12 (3d6+16/19-20 plus 4d6 fire) or 2 slams +21 (1d6+11 plus 4d6 fire)  ",
 			"**Ranged** rock +10 (1d8+16 plus 4d6 fire)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
-			"**Special Attacks** fire vortex, lava weapons, precision (see page 24), mythic power (5/day, surge +1d8), rock throwing (120 ft.)",
+			"**Special Attacks** fire vortex, lava weapons, precision, mythic power (5/day, surge +1d8), rock throwing (120 ft.)",
 			"",
 			"#### Statistics",
 			"",
@@ -2501,7 +2501,7 @@
 			"- A mythic magical attack that deals cold or fire damage slows a mythic flesh golem (as the slow spell) for 2d6 rounds (no save).",
 			"- A magical attack that deals electricity damage (other than the golem's own sparking slam) ends any slow effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal; (the golem gets no save against these attacks). If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points.",
 			"",
-			"Mythic Brawler (Ex) The mythic flesh golem can spend a use of its mythic power to attempt a combat maneuver as a swift action with no attack of opportunity for the attempt.",
+			"**Mythic Brawler (Ex)** The mythic flesh golem can spend a use of its mythic power to attempt a combat maneuver as a swift action with no attack of opportunity for the attempt.",
 			"",
 			"**Sparking Slams (Su)** If a mythic flesh golem strikes an opponent twice in 1 round with its slams, that creature takes an additional 2d10 points of electricity damage. A flesh golem cannot use its electricity attacks to deal electricity damage to itself.",
 			"",
@@ -2640,9 +2640,9 @@
 			"",
 			"A mythic greater barghest is a near-divine offspring of one of the barghest gods. Infused with the power of foul planes, it leads great tribes of goblins, scaring their minions into something approaching discipline. Its presence is enough for hobgoblins and bugbears to treat goblins almost as equals, having seen the barghest's wrath at disobedience and infighting.",
 			"",
-			"Mythic Barghest",
+			"### Mythic Barghest",
 			"",
-			"Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the agile mythic simple template (see page 224) to a non-mythic barghest.",
+			"Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the agile [mythic simple template](rule/mythic_simple_templates) to a non-mythic barghest.",
 			"",
 			"If the mythic barghest uses its feed ability on a mythic humanoid's corpse, it gains a mythic growth point instead of a growth point. If a mythic barghest reaches 4 growth points, it transforms into a greater barghest with the agile mythic simple template and loses its mythic growth points. If a mythic barghest gains 4 mythic growth points, it transforms into a mythic greater barghest and loses the agile mythic simple template."
 		]
@@ -3476,7 +3476,7 @@
 			"",
 			"**Spell Resistance (Su):** A mythic lich gains spell resistance equal to 11 + the base lich's CR (before adding the lich's mythic rank to its SR from the mythic subtype).",
 			"",
-			"**Augmented Spellcasting (Su):** At 7th rank, a mythic lich selects one of the following archmage or hierophant abilities: arcane surge (see page 14), inspired spell (see page 32), recalled blessing (see page 32), or wild arcana (see page 14). Once chosen, this selection can't be changed.",
+			"**Augmented Spellcasting (Su):** At 7th rank, a mythic lich selects one of the following archmage or hierophant abilities: arcane surge, inspired spell, recalled blessing, or wild arcana. Once chosen, this selection can't be changed.",
 			"",
 			"**Spell Perception (Su):** At 7th rank, a mythic lich automatically notices spellcasting within 60 feet. The lich automatically pinpoints the location of the caster, identifies the spell being cast, and knows the intended target or area of the spell.",
 			"",
@@ -4089,7 +4089,7 @@
 			"**Feats** [Blinding Critical](feat/blinding_critical), [Mythic Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Mythic Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Critical (talons)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mythic Iron Will](feat/iron_will), [Mythic Mobility](feat/mobility), [Quicken Spell-Like Ability (wall of fire)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Acrobatics +31, Diplomacy +26, Fly +29, Intimidate +26, Knowledge (nature) +27, Knowledge (any two others) +27, Perception +37, Sense Motive +26; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Auran, Celestial, Common, Ignan  ",
-			"**SQ** death throes, mirror dodge (see page 18), parry spell (see page 30)",
+			"**SQ** death throes, mirror dodge, parry spell",
 			"",
 			"#### Ecology",
 			"",
@@ -4163,7 +4163,7 @@
 			"#### Description",
 			"",
 			"",
-			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
+			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
 	"bat_plague_swarm_mythic": { "copyof": "plague_swarm,_bat_plague_swarm_mythic" },
@@ -4220,7 +4220,7 @@
 			"#### Description",
 			"",
 			"",
-			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
+			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
 	"locust_plague_swarm_mythic": { "copyof": "plague_swarm,_locust_plague_swarm_mythic" },
@@ -4281,7 +4281,7 @@
 			"#### Description",
 			"",
 			"",
-			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
+			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
 	"rat_plague_swarm_mythic": { "copyof": "plague_swarm,_rat_plague_swarm_mythic" },
@@ -4394,7 +4394,7 @@
 			"",
 			"**Speed** 40 ft.  ",
 			"**Melee** +1 kukri +16/+11 (1d4+6/15-20), bite +5 (1d6+3), claw +10 (1d4+5)  ",
-			"**Special Attacks** detect thoughts, modify memory, mythic power (5/day, surge +1d8), wild arcana (see page 14)  ",
+			"**Special Attacks** detect thoughts, modify memory, mythic power (5/day, surge +1d8), wild arcana  ",
 			"**Spells Known ** (CL 7th; concentration +12)  ",
 			"*4th (5)*-charm monster (DC 19), dimension door  ",
 			"*3rd (7)*-lightning bolt[^M] (DC 18), suggestion[^M] (DC 18), vampiric touch  ",
@@ -4410,7 +4410,7 @@
 			"**Feats** [Mythic Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Critical (kukri)](feat/improved_critical), [Mythic Improved Initiative](feat/improved_initiative), [Mythic Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Bluff +22, Diplomacy +18, Disguise +26, Perception +14, Perform (any one) +18, Sense Motive +14, Stealth +18; **Racial Modifiers** +4 Bluff, +8 Disguise  ",
 			"**Languages** Common, Infernal, Undercommon  ",
-			"**SQ** change shape (any humanoid; alter self), mythic spellcasting (see page 50)",
+			"**SQ** change shape (any humanoid; alter self), mythic spellcasting",
 			"",
 			"#### Ecology",
 			"",

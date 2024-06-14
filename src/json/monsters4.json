@@ -16529,7 +16529,7 @@
 			"",
 			"Fleshwalker Mohrg (+0 CR): When a criminal is executed through methods that leave no physical mark upon the body (such as by poison or a death effect), and then the corpse is preserved via a [gentle repose](spell/gentle_repose) spell, a fleshwalker mohrg is the result. While these mohrgs function as normal mohrgs, their flesh does not decay- further castings of gentle repose are unnecessary. Only upon close inspection (whereupon one might notice a faint underlying charnel stench, or might note the lack of breathing with a DC 30 Perception check) or in combat (when the creature's hideous tongue extrudes from its mouth) is the truth apparent.",
 			"",
-			"Frost Mohrg (+1 CR): Distinctive for the icy sheen over the blue flesh of its innards and tendrils, a frost mohrg's genesis is similar to that of a desert mohrg-a violent criminal that is executed via lingering exposure to the elements, only in this case, in a cold environment. Frost mohrgs look partially frozen and retain much of their flesh, albeit flesh blackened by frostbite. A frost mohrg has the [advanced](monster/template/advanced) creature simple template, and its attacks deal an additional 1d6 points of cold damage on a hit. Mohrg-mother (+1 CR): Perhaps among the most perverse category of mohrg arises when the executed murderer is also pregnant with child. The unborn, undead infants of these nightmarish monsters cling to the exposed entrails of the mohrg, but do not grant any additional powers. All mohrg-mothers always have the [advanced](monster/template/advanced) creature simple template. Once per day, a mohrg-mother can choose to animate a recently slain victim as another mohrg instead of as a fast zombie."
+			"Frost Mohrg (+1 CR): Distinctive for the icy sheen over the blue flesh of its innards and tendrils, a frost mohrg's genesis is similar to that of a desert mohrg-a violent criminal that is executed via lingering exposure to the elements, only in this case, in a cold environment. Frost mohrgs look partially frozen and retain much of their flesh, albeit flesh blackened by frostbite. A frost mohrg has the [advanced](template/advanced) creature simple template, and its attacks deal an additional 1d6 points of cold damage on a hit. Mohrg-mother (+1 CR): Perhaps among the most perverse category of mohrg arises when the executed murderer is also pregnant with child. The unborn, undead infants of these nightmarish monsters cling to the exposed entrails of the mohrg, but do not grant any additional powers. All mohrg-mothers always have the [advanced](template/advanced) creature simple template. Once per day, a mohrg-mother can choose to animate a recently slain victim as another mohrg instead of as a fast zombie."
 		]
 	},
 	"moit_of_shub-niggurath,_spawning_canker": {
@@ -17484,11 +17484,11 @@
 			"",
 			"#### Description",
 			"",
-			"A gurgist [mortic](monster/subtype/mortic) is a keen mind trapped within a rotting, hungering body. Gurgists can feel the decay of their flesh, just as they can feel the urgings of their gullet to rend and consume meat until they bloat with it. But unlike zombies and other carnivorous undead, mortics still have their wits about them and use their minds to find solutions to their nature. They hunt and herd to keep the rot at bay, they obsess over crafts or skills to distract from the hunger, and they wear extravagant masks and colorful garments to hide their hideousness.",
+			"A gurgist [mortic](subtype/mortic) is a keen mind trapped within a rotting, hungering body. Gurgists can feel the decay of their flesh, just as they can feel the urgings of their gullet to rend and consume meat until they bloat with it. But unlike zombies and other carnivorous undead, mortics still have their wits about them and use their minds to find solutions to their nature. They hunt and herd to keep the rot at bay, they obsess over crafts or skills to distract from the hunger, and they wear extravagant masks and colorful garments to hide their hideousness.",
 			"",
 			"Gurgists are the same size as humans, averaging 5-1/2 to 6 feet tall, and weighing about 160 pounds.",
 			"",
-			"Gurgists are among the more common mortics, created whenever a human being is afflicted with a little too much negative energy. A [zombie's](monster/template/zombie) bite will do the trick, but so too will a [mummy's](monster/mummy) curse or a necromancer's enchantment, giving rise to a metaphysical anomaly that causes the gurgist's body to think itself dead and free to rot. The body first grows pale, and then develops purple-red splotches on its skin as the blood stills and stagnates. If the gurgist isn't careful, her flesh then grows gray or waxy and begins to rot, with hideous sores opening. A gurgist who allows this to persist will eventually see large parts of her body liquefy, which usually proves fatal to the gurgist in question.",
+			"Gurgists are among the more common mortics, created whenever a human being is afflicted with a little too much negative energy. A [zombie's](template/zombie) bite will do the trick, but so too will a [mummy's](monster/mummy) curse or a necromancer's enchantment, giving rise to a metaphysical anomaly that causes the gurgist's body to think itself dead and free to rot. The body first grows pale, and then develops purple-red splotches on its skin as the blood stills and stagnates. If the gurgist isn't careful, her flesh then grows gray or waxy and begins to rot, with hideous sores opening. A gurgist who allows this to persist will eventually see large parts of her body liquefy, which usually proves fatal to the gurgist in question.",
 			"",
 			"The only way for a gurgist to stop the process is to eat raw meat-the more, the better. Through some occult means, the gurgist's half-dead biology then repairs itself and can even reverse smaller changes. A recently fed gurgist can mostly pass for a human, albeit a pale and sickly one, and gurgists who deal with the living are scrupulous in maintaining a daily feeding schedule.",
 			"",
@@ -17742,7 +17742,7 @@
 			"",
 			"A few relictners try to hide in larger dwarven society, though their destructive aura makes it difficult- people tend to notice when fine dwarven workmanship falls to pieces in a matter of weeks, and to dwarves, relictners are nothing less than abominations, horrific blasphemies that by their very nature destroy everything that dwarves strive to create. Those relictners who manage to hide do so by pretending to be older than they are and by living in slums or shantytowns, places where one more ruined building won't be remarked upon. More often, though, relictners are exiled or forced out. These bitter outcasts seek existing ruins, where they either live alone as hermits or in small, orderly clans, and from which they plan their revenge on the living.",
 			"",
-			"Relictner ruins tend to be terrifying places to visit. Relictners generally seek out the most impressive ruins they can find, ideally those with curses or undead residents of their own-relictners are immune to other jinxes, and they get along very well with [liches](monster/template/lich) or mummies, offering service in exchange for residence. They are expert trapmakers and delight in devising creative ways to violently mutilate and kill their victims.",
+			"Relictner ruins tend to be terrifying places to visit. Relictners generally seek out the most impressive ruins they can find, ideally those with curses or undead residents of their own-relictners are immune to other jinxes, and they get along very well with [liches](template/lich) or mummies, offering service in exchange for residence. They are expert trapmakers and delight in devising creative ways to violently mutilate and kill their victims.",
 			"",
 			"Of course, creating traps that never get triggered is boring, so relictners routinely lure visitors to their ruinous homes. Particularly duplicitous relictners have even been known to hire adventuring parties as unwitting meat for their grinders, finding these capable targets a satisfying test for their skills."
 		]
@@ -26394,7 +26394,7 @@
 			"",
 			"**Burning Cold (Su)** An owb prophet can conjure a ball of flickering flames and hurl it at an opponent as an attack action, or hurl four balls of flame as a full-attack action. These flames are ranged touch attacks with a range of 120 feet with no range increment. Each flame deals 3d6 points of cold damage. Any creature struck by the flames must succeed at a DC 24 Reflex save or become entangled for 1d6 rounds. The save DC is Constitution-based.",
 			"",
-			"**Curse of Darkness (Su)** With a touch, an owb prophet can make bright light unbearable to the victim. A creature touched must succeed at a DC 23 Fortitude save or gain the light blindness weakness. This ability also robs the victim of its coloration, leaving the creature and its equipment washed-out shades of gray. This effect can be removed with [break enchantment](spell/break_enchantment) or [remove curse](spell/remove_curse), unless the target has the [dark folk](monster/subtype/dark_folk) subtype, in which case the effect can be removed only by [wish](spell/wish) or similar magic. The save DC is Charisma-based.",
+			"**Curse of Darkness (Su)** With a touch, an owb prophet can make bright light unbearable to the victim. A creature touched must succeed at a DC 23 Fortitude save or gain the light blindness weakness. This ability also robs the victim of its coloration, leaving the creature and its equipment washed-out shades of gray. This effect can be removed with [break enchantment](spell/break_enchantment) or [remove curse](spell/remove_curse), unless the target has the [dark folk](subtype/dark_folk) subtype, in which case the effect can be removed only by [wish](spell/wish) or similar magic. The save DC is Charisma-based.",
 			"",
 			"**Deific (Su)** An owb prophet can grant divine spells to its worshippers. Granting spells doesn't require any specific action on the owb prophet's behalf. Owb prophets grant access to the domains of [Darkness](domain/darkness), [Evil](domain/evil), [Madness](domain/madness), and [Trickery](domain/trickery). Their symbols and favored weapons vary based on the owb prophet's Forsaken patron.",
 			"",
@@ -32967,7 +32967,7 @@
 			"",
 			"An augnagar has a wingspan of 30 feet and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"augnagar": { "copyof": "qlippoth,_augnagar" },
@@ -33039,7 +33039,7 @@
 			"",
 			"A behimiron's body measures 15 feet across, or 20 feet with trunk and antennae, and it weighs over 6 tons.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"behimiron": { "copyof": "qlippoth,_behimiron" },
@@ -33111,7 +33111,7 @@
 			"",
 			"A cataboligne is 30 feet tall and 40 feet long, and weighs 16 tons.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"cataboligne": { "copyof": "qlippoth,_cataboligne" },
@@ -33179,7 +33179,7 @@
 			"",
 			"The chernobue is a living manifestation of the vile fecundity of the Abyss-a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe-and with their plane shift ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"chernobue": { "copyof": "qlippoth,_chernobue" },
@@ -33244,7 +33244,7 @@
 			"",
 			"A cythnigot is about 20 inches long and weighs 10 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"cythnigot": { "copyof": "qlippoth,_cythnigot" },
@@ -33314,7 +33314,7 @@
 			"",
 			"A deinochos's shell is about 3 feet across, and the entire creature weighs about 120 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"deinochos": { "copyof": "qlippoth,_deinochos" },
@@ -33403,7 +33403,7 @@
 			"",
 			"Worm: This arm ends in a maw capable of making a bite attack. On a hit, the bite inflicts confusion for 1d3 rounds unless the victim makes a successful Will save (DC = 10 + 1/2 the gongorinan's Hit Dice + its Charisma modifier).",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"gongorinan": { "copyof": "qlippoth,_gongorinan" },
@@ -33473,7 +33473,7 @@
 			"",
 			"A gorgoros measures a full 15 feet in length and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"gorgoros": { "copyof": "qlippoth,_gorgoros" },
@@ -33541,7 +33541,7 @@
 			"",
 			"A hydraggon is 7 feet long and weighs 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"hydraggon": { "copyof": "qlippoth,_hydraggon" },
@@ -33620,7 +33620,7 @@
 			"",
 			"To call such an iathavos a \"newborn\" is somewhat misleading. Although technically a freshly created creature, newborn iathavoses do not undergo a \"childhood.\" They form fully grown, as presented here. Yet with each new incarnation of the qlippoth monstrosity, changes can occur. A new iathavos might have slightly different spell-like abilities, for example, or the nature of its horrific appearance might change from that presented here. As an iathavos continues to hunt and destroy, it grows more powerful-an advanced iathavos typically gains more racial Hit Dice as a result. An iathavos that gains power by taking class levels is not unheard of, but it is quite rare-most who do take levels in sorcerer.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"iathavos": { "copyof": "qlippoth,_iathavos" },
@@ -33685,7 +33685,7 @@
 			"",
 			"A typical nyogoth is 5 feet in diameter and weighs 260 pounds, although they are known to grow much larger.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"nyogoth": { "copyof": "qlippoth,_nyogoth" },
@@ -33751,7 +33751,7 @@
 			"",
 			"A shoggti's body is an egg-shaped mass about 8 feet long-its tentacles are about 8 feet long as well. The whole creature weighs 900 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"shoggti": { "copyof": "qlippoth,_shoggti" },
@@ -33820,7 +33820,7 @@
 			"",
 			"A common thognorok measures about 5 feet tall and weighs over 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"thognorok": { "copyof": "qlippoth,_thognorok" },
@@ -33890,7 +33890,7 @@
 			"",
 			"Yet thulgants do not spend all of their lives hunting and destroying demons. They rule horrific hives deep in the Abyss populated by all manner of hideous minions, many of which are bound into servitude via binding spells. These qlippoth are fond of decorating their lairs with petrified or enstasised victims of great power-the more powerful the victims, the greater the prestige held by the thulgant.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"thulgant": { "copyof": "qlippoth,_thulgant" },
@@ -33959,7 +33959,7 @@
 			"",
 			"In its true shape, an utukku stands 7 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)"
+			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
 	"utukku": { "copyof": "qlippoth,_utukku" },
@@ -34040,7 +34040,7 @@
 			"",
 			"Temples of Yamasoth and other places where his otherworldly and malign presence has infected the world, such as the deeper levels of Hollow Mountain, are no stranger to the predations of the vexenion. Dungeon complexes are well loved by these qlippoth, and despite their prodigious size, their malleable bodies allow them to slither and squirt and force themselves through narrow confines-provided their bodies are not currently engorged upon a still-solid and still-struggling meal.",
 			"",
-			"**Family:** [Qlippoth](monster/family/qlippoth)",
+			"**Family:** [Qlippoth](family/qlippoth)",
 			"",
 			"### Ecology",
 			"",

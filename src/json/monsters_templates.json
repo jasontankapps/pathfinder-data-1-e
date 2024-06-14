@@ -960,7 +960,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
 			"",
-			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the [fast zombie template](monster/template/fast_zombie). It also gains +4 Turn Resistance and Cytillesh Symbiosis (see the [Cytillesh Zombie](monster/cytillesh_zombie) stat block). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with caphorite and lazurite granules (see area B12)."
+			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the [fast zombie template](template/fast_zombie). It also gains +4 Turn Resistance and Cytillesh Symbiosis (see the [Cytillesh Zombie](monster/cytillesh_zombie) stat block). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with caphorite and lazurite granules (see area B12)."
 		]
 	},
 	"dark": {
@@ -2654,9 +2654,9 @@
 			"",
 			"Creatures with the fungoid simple template appear as they did in life, save that their flesh is pallid and moist and mushrooms and mold cake their bodies. This template can be applied to any living, non-plant creature. A fungoid creature's quick and rebuild rules are the same.",
 			"",
-			"**Rebuild Rules:** The creature's type changes to plant, and it gains all of the traits of the [plant](monster/type/plant) type. The creature gains telepathy with a range of 100 feet with other fungoid creatures. Its alignment changes to chaotic evil.",
+			"**Rebuild Rules:** The creature's type changes to plant, and it gains all of the traits of the [plant](type/plant) type. The creature gains telepathy with a range of 100 feet with other fungoid creatures. Its alignment changes to chaotic evil.",
 			"",
-			"**Fungal Creature Template:** Optionally, you can use the [fungal creature template](monster/template/fungal_creature) to represent creatures transformed by a fungus queen. In this case, the fungal creature's alignment changes to chaotic evil."
+			"**Fungal Creature Template:** Optionally, you can use the [fungal creature template](template/fungal_creature) to represent creatures transformed by a fungus queen. In this case, the fungal creature's alignment changes to chaotic evil."
 		]
 	},
 	"ghost": {
@@ -3654,7 +3654,7 @@
 			"",
 			"Eventually, the hivemind's mental network takes on more complex tasks as a collective mind. At this point, the hivemind creates a nexus, a single individual in the swarm through which the collective routes all thought. While the nexus is often fairly inconspicuous within the teeming mass of the swarm, it is possible for a highly perceptive observer to notice its decisive movements, spellcasting gestures, or intense gaze. The death of the nexus does not eliminate the shared intelligence of a hivemind, but it is disruptive, forcing the collective to focus inward to regroup and form a new nexus.",
 			"",
-			"\"Hivemind swarm\" is an acquired or inherited template that can be added to any creature with the [swarm subtype](monster/subtype/swarm) (referred to hereafter as the base creature). The hivemind template allows a swarm to increase in power and abilities, much like a class-when you create a hivemind swarm, you can customize its CR as needed by adjusting the number of additional Hit Dice (and thus associated statistics). A hivemind swarm uses the base creature's statistics and special abilities except as noted here.",
+			"\"Hivemind swarm\" is an acquired or inherited template that can be added to any creature with the [swarm subtype](subtype/swarm) (referred to hereafter as the base creature). The hivemind template allows a swarm to increase in power and abilities, much like a class-when you create a hivemind swarm, you can customize its CR as needed by adjusting the number of additional Hit Dice (and thus associated statistics). A hivemind swarm uses the base creature's statistics and special abilities except as noted here.",
 			"",
 			"**Challenge Rating:** +1 for each additional Hit Die gained above the base creature's Hit Dice.",
 			"",
@@ -4382,9 +4382,9 @@
 			"",
 			"[Eclipse Giant](monster/eclipse_giant): Eclipse mongrels have dark gray skin and appear somewhat overweight. They gain immunity to death effects and can use the following spell-like abilities once per day: [daylight](spell/daylight) or [deeper darkness](spell/deeper_darkness) (choose one) and [heal](spell/heal) or [harm](spell/harm) (choose one). Wisdom +2.",
 			"",
-			"[Fire Giant](monster/fire_giant): Fire mongrels have orange hair and red or black skin. They gain the [fire](monster/subtype/fire) subtype (including immunity to fire and vulnerability to cold), and gain [Martial Weapon Proficiency (greatsword)](feat/martial_weapon_proficiency) as a bonus feat. Strength +2.",
+			"[Fire Giant](monster/fire_giant): Fire mongrels have orange hair and red or black skin. They gain the [fire](subtype/fire) subtype (including immunity to fire and vulnerability to cold), and gain [Martial Weapon Proficiency (greatsword)](feat/martial_weapon_proficiency) as a bonus feat. Strength +2.",
 			"",
-			"[Frost Giant](monster/frost_giant): Frost mongrels have light blue skin and dirty yellow hair. They gain the [cold](monster/subtype/cold) subtype (including immunity to cold and vulnerability to fire), and gain [Martial Weapon Proficiency (greataxe)](feat/martial_weapon_proficiency) as a bonus feat. Constitution +4.",
+			"[Frost Giant](monster/frost_giant): Frost mongrels have light blue skin and dirty yellow hair. They gain the [cold](subtype/cold) subtype (including immunity to cold and vulnerability to fire), and gain [Martial Weapon Proficiency (greataxe)](feat/martial_weapon_proficiency) as a bonus feat. Constitution +4.",
 			"",
 			"[Jungle Giant](monster/jungle_giant): Jungle mongrels have brown and green skin that is textured like fibrous plant material or tree bark. They gain immunity to poison and gain the jungle giant's archery expert ability. Dexterity +2.",
 			"",
@@ -4394,7 +4394,7 @@
 			"",
 			"[Mountain Giant](monster/mountain_giant): Mountain mongrels have warty skin. They gain immunity to fear and can use the following spell-like abilities once per day: [deeper darkness](spell/deeper_darkness), [dimension door](spell/dimension_door), and [invisibility](spell/invisibility). Strength +2.",
 			"",
-			"[Ocean Giant](monster/ocean_giant): Ocean mongrels have blue skin. They gain the [amphibious](umr/amphibious) special quality, the [aquatic](monster/subtype/aquatic) subtype, cold resistance 10, and electricity resistance 10. Strength +2.",
+			"[Ocean Giant](monster/ocean_giant): Ocean mongrels have blue skin. They gain the [amphibious](umr/amphibious) special quality, the [aquatic](subtype/aquatic) subtype, cold resistance 10, and electricity resistance 10. Strength +2.",
 			"",
 			"[Plague Giant](monster/plague_giant): Plague mongrels are thin and their skin looks diseased. They gain immunity to disease and can use the following spell-like abilities once per day: [contagion](spell/contagion), [death knell](spell/death_knell), and [wither limb](spell/wither_limb). Wisdom +2.",
 			"",
@@ -6433,7 +6433,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"\"Shadow lord\" is an acquired template that can be added to any [shadow creature](monster/template/shadow_creature) with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
+			"\"Shadow lord\" is an acquired template that can be added to any [shadow creature](template/shadow_creature) with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
 			"",
 			"**Challenge Rating:** Same as the base creature +2.  ",
 			"**Alignment:** Any evil.  ",
@@ -6566,7 +6566,7 @@
 			"",
 			"When druids are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds-an incursion of demons from the Abyss, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world-some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others-particularly other druids, whom they regard as cowards. Siabraes do not form spontaneously; they arise only as the result of the horrific [Welcome the Blighted Soul](spell/welcome_the_blighted_soul) ritual.",
 			"",
-			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the [welcome the blighted soul](spell/welcome_the_blighted_soul) ritual (hereafter referred to as the base creature). A siabrae can't have the [blight druid](class/archetype/druid/blight_druid) archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
+			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the [welcome the blighted soul](spell/welcome_the_blighted_soul) ritual (hereafter referred to as the base creature). A siabrae can't have the [blight druid](archetype/druid/blight_druid) archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
 			"",
 			"**CR:** Base creature's CR + 2.",
 			"",
@@ -7382,7 +7382,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"When an object reaches the 100-year anniversary of its crafting, sometimes it forms an amalgam with a [kami](monster/subtype/kami), creating a creature known as a tsukumogami. Tsukumogami run the gamut in personality, outlook, and function. Objects that are well kept and cared for often form curious and helpful tsukumogami. Most commonly, tsukumogami are mischievous and frightening but not actually malign. Tsukumogami formed from objects that have been abandoned, neglected, or misused are dangerous both to the humans around and to themselves, as their uncontrolled rage might eventually transform them into [oni](monster/subtype/oni).",
+			"When an object reaches the 100-year anniversary of its crafting, sometimes it forms an amalgam with a [kami](subtype/kami), creating a creature known as a tsukumogami. Tsukumogami run the gamut in personality, outlook, and function. Objects that are well kept and cared for often form curious and helpful tsukumogami. Most commonly, tsukumogami are mischievous and frightening but not actually malign. Tsukumogami formed from objects that have been abandoned, neglected, or misused are dangerous both to the humans around and to themselves, as their uncontrolled rage might eventually transform them into [oni](subtype/oni).",
 			"",
 			"Tsukumogami is an acquired template that can be added to any [animated object](monster/animated_object) (referred to hereafter as the base creature). A tsukumogami retains all the base creature's statistics and special abilities except as noted here.",
 			"",

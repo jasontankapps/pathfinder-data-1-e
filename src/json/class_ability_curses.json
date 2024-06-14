@@ -11,7 +11,7 @@
 		"name": "Acursed",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"**Acursed** ([Horror Realms](source/horror_realms)): You are cursed with misfortune and sorrow, and you cannot gain benefit from morale bonuses. However, you gain a +4 bonus to all saving throws against [curse](spell/definition/curse) effects. At 5th level, add [ill omen](spell/ill_omen) to your list of spells known. At 10th level, add [greater brand](spell/greater_brand) to your list of spells known. At 15th level, you are immune to curse effects except for your own oracle curse."
+			"**Acursed** ([Horror Realms](source/horror_realms)): You are cursed with misfortune and sorrow, and you cannot gain benefit from morale bonuses. However, you gain a +4 bonus to all saving throws against [curse](spelldef/curse) effects. At 5th level, add [ill omen](spell/ill_omen) to your list of spells known. At 10th level, add [greater brand](spell/greater_brand) to your list of spells known. At 15th level, you are immune to curse effects except for your own oracle curse."
 		]
 	},
 	"blackened": {

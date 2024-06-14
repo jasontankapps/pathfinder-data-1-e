@@ -92,7 +92,15 @@
 			"- [Mesmerist](class/mesmerist)",
 			"- [Occultist](class/occultist)",
 			"- [Psychic](class/psychic)",
-			"- [Spiritualist](class/spiritualist)"
+			"- [Spiritualist](class/spiritualist)",
+			"",
+			"## NPC Classes",
+			"",
+			"- [Aristocrat](npcclass/aristocrat)",
+			"- [Adept](npcclass/adept)",
+			"- [Commoner](npcclass/commoner)",
+			"- [Expert](npcclass/expert)",
+			"- [Warrior](npcclass/warrior)"
 		],
 		"previous": [ ["Main", "main"] ]
 	},
@@ -1372,7 +1380,7 @@
 					[ "[Fiendish Darkness](feat/fiendish_darkness)", "General", "Darkness spell-like ability, tiefling.", "Use darkness 3/day." ],
 					[ "[Fiendish Facade](feat/fiendish_facade)", "General", "Must be taken at 1st level, tiefling.", "+5 Disguise when impersonating another race." ],
 					[ "[Fiendish Heritage](feat/fiendish_heritage)", "General", "Tiefling, must be taken at 1st level.", "Choose a different Tiefling heritage" ],
-					[ "[Fiendish Obedience](feat/fiendish_obedience)", "General", "Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity (such as any of the entities presented in Chapter 1 of this book).", "Gain access to a fiend's exalted boons" ],
+					[ "[Fiendish Obedience](feat/fiendish_obedience)", "General", "Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity.", "Gain access to a fiend's exalted boons" ],
 					[ "[Fiendish Resilience](feat/fiendish_resilience)", "General", "Dex 13, evasion class feature, tiefling.", "Gain +4 bonus to Reflex save against a specific energy type." ],
 					[ "[Fiendish Serpent](feat/fiendish_serpent)", "General", "Bipedal body shape, non-native outsider with the evil subtype.", "Gain climb and swim speeds, can't be tripped" ],
 					[ "[Fiendish Wings](feat/fiendish_wings)", "General", "Non-native outsider with the evil subtype.", "Gain a fly speed" ],
@@ -4187,7 +4195,7 @@
 					[ "[Fiendish Darkness](feat/fiendish_darkness)", "Darkness spell-like ability, tiefling.", "Use darkness 3/day." ],
 					[ "[Fiendish Facade](feat/fiendish_facade)", "Must be taken at 1st level, tiefling.", "+5 Disguise when impersonating another race." ],
 					[ "[Fiendish Heritage](feat/fiendish_heritage)", "Tiefling, must be taken at 1st level.", "Choose a different Tiefling heritage" ],
-					[ "[Fiendish Obedience](feat/fiendish_obedience)", "Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity (such as any of the entities presented in Chapter 1 of this book).", "Gain access to a fiend's exalted boons" ],
+					[ "[Fiendish Obedience](feat/fiendish_obedience)", "Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity.", "Gain access to a fiend's exalted boons" ],
 					[ "[Fiendish Resilience](feat/fiendish_resilience)", "Dex 13, evasion class feature, tiefling.", "Gain +4 bonus to Reflex save against a specific energy type." ],
 					[ "[Fiendish Serpent](feat/fiendish_serpent)", "Bipedal body shape, non-native outsider with the evil subtype.", "Gain climb and swim speeds, can't be tripped" ],
 					[ "[Fiendish Wings](feat/fiendish_wings)", "Non-native outsider with the evil subtype.", "Gain a fly speed" ],
@@ -16988,8 +16996,14 @@
 	},
 	"equipment_armor": {
 		"title": "Armor",
-		"sources": [],
-		"description": [ "`table0`" ],
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"The cost of the armor is for Small or Medium humanoid creatures. For other creatures, see [here](rule/armor_for_unusual_creatures).",
+			"",
+			"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
+			"",
+			"`table0`"
+		],
 		"tables": [
 			{
 				"id": "all armors",
@@ -17110,8 +17124,16 @@
 	},
 	"equipment_weapons": {
 		"title": "Weapons",
-		"sources": [],
-		"description": [ "`table0`" ],
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
+			"",
+			"Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.",
+			"",
+			"A weapon with two types is both types if the entry specifies \"and,\" or either type (wielder's choice) if the entry specifies \"or.\"",
+			"",
+			"`table0`"
+		],
 		"tables": [
 			{
 				"id": "all weapons",
@@ -21115,7 +21137,7 @@
 			"## Magical Tattoos",
 			"",
 			"**Description Source:** [Inner Sea Magic](source/inner_sea_magic)  ",
-			"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their [tattooed sorcerers](class/archetype/sorcerer/tattooed_sorcerer) bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
+			"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their [tattooed sorcerers](archetype/sorcerer/tattooed_sorcerer) bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
 			"",
 			"`table4`",
 			"",

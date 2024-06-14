@@ -125,7 +125,7 @@
 			"",
 			"Acrididaemons delight in the suffering their predations bring. Though they often favor tactics that result in the devastation of whole settlements, it is not uncommon for one of these daemons to take a single creature prisoner. They enjoy slowly starving captives to death in forlorn redoubts where rescue is beyond hope.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"acrididaemon": { "copyof": "daemon,_acrididaemon" },
@@ -191,7 +191,7 @@
 			"",
 			"Believed to be creations of the Four Horsemen, astradaemons live out their existence in search of souls to harvest. These deadly creatures are ravening planar predators, openly hunting throughout the void for souls on which to feed. These voracious creatures are the personifications of death resulting from negative energy or level drain. Their vile touch drains life force from their enemies, and even perishing near them sates their thirst for life and souls.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"astradaemon": { "copyof": "daemon,_astradaemon" },
@@ -255,7 +255,7 @@
 			"",
 			"A bibliodaemon is 6 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"bibliodaemon": { "copyof": "daemon,_bibliodaemon" },
@@ -320,7 +320,7 @@
 			"",
 			"The least of daemonkind, cacodaemons spawn from eddies of angry, violent, and demented souls amid the mists of Abaddon. Dim-witted but utterly evil, they endlessly seek to cause pain and indulge their hunger for mortal souls. Many more powerful fiends keep cacodaemons as pets, if only to be able to harvest the tiny creatures' soul gems. A 7th-level spellcaster can gain a cacodaemon as a familiar if she has the Improved Familiar feat.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"cacodaemon": { "copyof": "daemon,_cacodaemon" },
@@ -387,7 +387,7 @@
 			"",
 			"Greater Ceustodaemon: This daemon resembles a gigantic humanoid bear with the talons of an eagle and curling ram horns sprouting from its head. Its breath weapon is a fan of sparks that deals electricity damage.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"ceustodaemon": { "copyof": "daemon,_ceustodaemon" },
@@ -454,7 +454,7 @@
 			"",
 			"Crucidaemons are 6 feet tall and weigh 250 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"crucidaemon": { "copyof": "daemon,_crucidaemon" },
@@ -520,7 +520,7 @@
 			"",
 			"Brutish and low on intellect, derghodaemons find themselves serving as front-line fighters in fiendish armies. A derghodaemon stands 9 feet tall and weighs 800 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"derghodaemon": { "copyof": "daemon,_derghodaemon" },
@@ -587,7 +587,7 @@
 			"",
 			"Erodaemons are the personification of death by heartbreak. Occasionally, erodaemons will work together, but only if doing so results in a greater harvest of crushed mortal souls. In her true form, an erodaemon is 6 feet tall and weighs 150 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"erodaemon": { "copyof": "daemon,_erodaemon" },
@@ -671,7 +671,7 @@
 			"",
 			"Like other daemons, genthodaemons hate all living things-and to an extent, themselves-and look forward to the death of the last mortal, for on that day they will have no other reminders of their bleak mortal lives and can focus all their hate inward.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)",
+			"**Family:** [Daemon](family/daemon)",
 			"",
 			"### Habitat",
 			"",
@@ -743,7 +743,7 @@
 			"",
 			"Hydrodaemons possess an awkward gait, springing back on their heels and leaping about like humanoid frogs. Even so, they move in an unpredictable manner, twisting their bodies with each hopping movement. Hydrodaemons can also unfurl flaps of skin that allow them to glide through the air. Hydrodaemons stand 10 feet tall and weigh upward of 3,000 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"hydrodaemon": { "copyof": "daemon,_hydrodaemon" },
@@ -814,7 +814,7 @@
 			"",
 			"A lacridaemon stands just under 6 feet tall but weighs only 90 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"lacridaemon": { "copyof": "daemon,_lacridaemon" },
@@ -895,7 +895,7 @@
 			"",
 			"Calling lapsudaemons is a difficult and sadistic affair. They prefer a sacrifice of wings cut from a living celestial being, bound to, and then born aloft by, a willing intelligent creature, who must fall to his or her death as part of the calling ritual.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)",
+			"**Family:** [Daemon](family/daemon)",
 			"",
 			"### Habitat",
 			"",
@@ -973,7 +973,7 @@
 			"",
 			"Leukodaemons stand upward of 14 feet tall but weigh just over 200 pounds. The skulls that serve as their heads can be replaced with any skulls, yet these creatures choose horse skulls to show their loyalty to the Horsemen. The creature's true head is merely a blistered knob between its shoulders.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"leukodaemon": { "copyof": "daemon,_leukodaemon" },
@@ -1042,7 +1042,7 @@
 			"",
 			"Meladaemons stand approximately 12 feet tall and weigh 350 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"meladaemon": { "copyof": "daemon,_meladaemon" },
@@ -1118,7 +1118,7 @@
 			"",
 			"Nixudaemons despise laziness in both mortals and outsiders. They work their subjects past the point of exhaustion or death as suits their current needs. The nixudaemons view other creatures as weak or prone to sloth, challenging even other daemons they perceive as less than diligent.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)",
+			"**Family:** [Daemon](family/daemon)",
 			"",
 			"### Habitat",
 			"",
@@ -1212,7 +1212,7 @@
 			"",
 			"Obcisidaemons stand 25 feet tall, have wingspans of 30 feet, and weigh over 15,000 pounds, but rumors whisper of specimens that are nearly three times this size.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"obcisidaemon": { "copyof": "daemon,_obcisidaemon" },
@@ -1296,7 +1296,7 @@
 			"",
 			"Olethrodaemons serving the Horseman of Death gain the ability to inflict a negative level on a foe each time they strike with a claw attack, or else gain the ability to cause those they damage to age rapidly and grow old and frail with hideous speed.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"olethrodaemon": { "copyof": "daemon,_olethrodaemon" },
@@ -1364,7 +1364,7 @@
 			"",
 			"Among the most powerful members of daemonkind, the phasmadaemons personify death by fright, and conjure powers of illusion so terrifying that they steal the life from their victims. A phasmadaemon is 25 feet long from snout to tail, but can compress itself into surprisingly small areas thanks to its strange, elastic anatomy. It weighs half a ton.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"phasmadaemon": { "copyof": "daemon,_phasmadaemon" },
@@ -1430,7 +1430,7 @@
 			"",
 			"Piscodaemons are 7 feet tall and weigh 400 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"piscodaemon": { "copyof": "daemon,_piscodaemon" },
@@ -1491,7 +1491,7 @@
 			"",
 			"Deacons of War, purrodaemons ravage the planes as generals of massive battles. They employ creative tactics and never launch an assault without carefully looking over the plans or surveying the battlefield themselves. A purrodaemon is 12 feet tall and weighs 1,300 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"purrodaemon": { "copyof": "daemon,_purrodaemon" },
@@ -1561,7 +1561,7 @@
 			"",
 			"Sangudaemons personify death by blood loss. Perhaps more so than any other caste of daemon, the sangudaemon enjoys the hunt for prey, whether that prey is petitioner, mortal, or anything else that bleeds. That the souls of those who perish to a sangudaemon's wrath are consigned to Abaddon makes these daemons particularly hated by those who hold the supernatural cycle of the soul's journey sacred. A sangudaemon is about 5 feet long and weighs 200 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"sangudaemon": { "copyof": "daemon,_sangudaemon" },
@@ -1626,7 +1626,7 @@
 			"",
 			"Sepsidaemons embody the concept of death by gangrene, infection, and necrotic decay. Spawned in Abaddon from the evil souls of those who experienced horrific deaths under septic conditions, these daemons are most prominent in the areas of Apollyon's domain where the waters of the Styx intrude and leach away life and memories. A sepsidaemon continually hunts, feeds, and appropriates the essences of creatures. These fiends perpetually slough a trail of necrotic flesh and exude a fearsome aura that festers and corrupts wounds. A sepsidaemon fuses its victims' misappropriated forms to its amorphous core, where they dangle like rotting jewelry. Although sepsidaemons typically roam alone or in loose pairs, they are at their most fearsome when they form groups led by one of Apollyon's leukodaemon deacons.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"sepsidaemon": { "copyof": "daemon,_sepsidaemon" },
@@ -1699,7 +1699,7 @@
 			"",
 			"A suspiridaemon is 6 feet tall and weighs 250 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"suspiridaemon": { "copyof": "daemon,_suspiridaemon" },
@@ -1770,7 +1770,7 @@
 			"",
 			"A gangly mass consisting of a rotund torso, four arms, and four legs, a temerdaemon is 10 feet long and weighs 1,200 pounds, not counting its often bizarre collection of odd mechanical fetishes and other tinkering equipment.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"temerdaemon": { "copyof": "daemon,_temerdaemon" },
@@ -1833,7 +1833,7 @@
 			"",
 			"While all daemons represent death in some fashion, thanadaemons, the Deacons of Death, represent the inevitable death through old age. Thanadaemons effortlessly work eerie skiffs along every pus- and bile-choked river in Abaddon, including the legendary River Styx. For the right price (typically 50 pp or 2 gems worth at least 300 gp each), a thanadaemon will even carry passengers on its skiff, yet those who travel with these fiends should beware-they frequently renegotiate the terms once they've got their passengers in dangerous realms.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"thanadaemon": { "copyof": "daemon,_thanadaemon" },
@@ -1907,7 +1907,7 @@
 			"",
 			"Venedaemons are gaunt, and despite standing close to 7 feet tall, they rarely weigh more than 150 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"venedaemon": { "copyof": "daemon,_venedaemon" },
@@ -1975,7 +1975,7 @@
 			"",
 			"Vulnudaemons stand 3 feet tall and weigh 25 pounds.",
 			"",
-			"**Family:** [Daemon](monster/family/daemon)"
+			"**Family:** [Daemon](family/daemon)"
 		]
 	},
 	"vulnudaemon": { "copyof": "daemon,_vulnudaemon" },
@@ -2413,7 +2413,7 @@
 			"",
 			"Most caligni adventurers become rogues and slayers, adopting the training of their dark creeper and dark stalker brethren. Some become alchemists, and the most depraved commune with the owbs as conjurers and summoners.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"caligni": { "copyof": "dark_folk,_caligni" },
@@ -2484,7 +2484,7 @@
 			"",
 			"Dark callers are typically 6 feet tall and weigh slightly under 100 pounds. Despite their lanky frames, they're quite strong, though they avoid physical confrontation. Instead, they'll use their limited authority to command dark creepers to fight for them, or at least distract attackers while the dark callers cast spells.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_caller": { "copyof": "dark_folk,_dark_caller" },
@@ -2548,7 +2548,7 @@
 			"",
 			"The rare dark folk children born without eyes are assigned to the dark champion caste and begin a life of rigor, privation, and martial training. Their armor is typically bolted to their bodies in sections and removed only rarely. Most other dark folk appreciate the discipline and might of dark champions, but they treat them with wary respect.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_champion": { "copyof": "dark_folk,_dark_champion" },
@@ -2615,7 +2615,7 @@
 			"",
 			"For all the mayhem and trouble a pack of dark creepers can cause, this is nothing compared to the dangers a tribe led by the taller, even more sinister dark stalkers represents. Dark creepers treat their tall, lithe masters almost like gods, presenting them with offerings and obeying their every whim. Invariably, several dark stalkers serve as leaders to dark creeper tribes, with all of the tribe's heavy work and labor falling on the diminutive shoulders of the creepers, freeing the dark stalkers for their own decadent pleasures. Yet the dark creepers themselves see no inherent imbalance in this arrangement-to a dark creeper, a life in the servitude of a dark stalker is a life fulfilled.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_creeper": { "copyof": "dark_folk,_dark_creeper" },
@@ -2679,7 +2679,7 @@
 			"",
 			"Though fickle and erratic, dark dancers are well liked and usually welcome among clans for as long as they wish to stay. Yet they rarely stay long, instead insinuating themselves into dozens of underground communities over the course of a year. They serve as storytellers, entertainers, and messengers. One of their favorite stories to share is about the relationship between their kind and the owbs. Though dark dancers are rare and weak, they are highly appreciated by dark folk society. Dark folk consider it a bad omen when a dark dancer dies. Dark dancers stand just under 4 feet tall and weigh 60 pounds.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_dancer": { "copyof": "dark_folk,_dark_dancer" },
@@ -2747,7 +2747,7 @@
 			"",
 			"Most dark empaths stand just under 4 feet tall and weigh 60 pounds. Their shadowy wrappings often appear to be looser than those of other dark folk, as though their bodies were subtly expanding and contracting.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_empath": { "copyof": "dark_folk,_dark_empath" },
@@ -2817,7 +2817,7 @@
 			"",
 			"Dark slayers stand just short of 4 feet tall and weigh 50 pounds. Most have a persistent tremor visible in their hands, stilled only when fondling a newfound magic item. Their skin is dead white, dry, and hot to the touch; their eyes are dark and narrow. Dark slayers wear salvaged rags like dark creepers do, but they discard the rags when they grow too tattered or foul-smelling.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_slayer": { "copyof": "dark_folk,_dark_slayer" },
@@ -2884,7 +2884,7 @@
 			"",
 			"The origins of the dark stalkers and the dark creepers are shrouded in mystery, made more difficult to decipher by the fact that the dark stalkers do not keep records of their history. Many scholars believe that, just as the drow descended from elves, so too must the dark folk have descended from humanity, their eerie powers and spell-like abilities the result of generation upon generation of devotion to profane and sinister magic. Alas, the truth of the race's history may never be known.",
 			"",
-			"**Family:** [Dark Folk](monster/family/dark_folk)"
+			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
 	"dark_stalker": { "copyof": "dark_folk,_dark_stalker" },
@@ -4331,7 +4331,7 @@
 			"",
 			"A typical gristly demodand is 7 feet tall and weighs up to 600 pounds.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"gristly_demodand": { "copyof": "demodand,_gristly_demodand" },
@@ -4389,7 +4389,7 @@
 			"",
 			"Although they still answer to their titanic masters, shaggy demodands are the masters of their kind, and serve the thanatotic titans as advisors, covert agents, or battlefield generals. In the Abyss, shaggy demodands command great armies, leading them against demonic hordes as the balance of Abyssal power ebbs and flows. Often underestimated due to their shape, these demodands are both intelligent and cunning, and approach battle with an effective mixture of strategy and ruthless detachment.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"shaggy_demodand": { "copyof": "demodand,_shaggy_demodand" },
@@ -4454,7 +4454,7 @@
 			"",
 			"Slimy demodands often serve as shock troops in demodand armies, but they are also frequently put in charge of gathering and keeping slaves. Slimy demodands have no magical mind control powers, but prefer to rely upon intimidation and physical threats anyway to manage their slaves and keep them in line.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"slimy_demodand": { "copyof": "demodand,_slimy_demodand" },
@@ -4526,7 +4526,7 @@
 			"",
 			"Due to their low intelligence and their animalistic focus on feeding and destruction, squamous demodands have very little society to speak of, even by Abyssal creatures' standards. They are content following the orders of shaggy demodands, as long as they are provided with sufficient food and opportunities for obliteration. Occasionally, however, shaggy demodands get caught up in internal feuds or turn on each other. In these cases, squamous demodands typically follow the lead of the general that proves itself the strongest, although a squamous demodand that has followed the orders of a single commander for long spans of time may view its superior protectively, almost as an adult child would an aging parent. These are the situations that often turn most destructive for demodands, as the squamous demodand either defends its general or exacts vengeance on its behalf, causing a massive intrademodand war either way. When this happens, only the thanatotic titans can rein in their monstrous creations, and sometimes even they have trouble doing so if multiple squamous demodands are involved.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"squamous_demodand": { "copyof": "demodand,_squamous_demodand" },
@@ -4594,7 +4594,7 @@
 			"",
 			"Because these rubbery strands cover most of the creatures' bodies, they provide a measure of natural protection that allows stringy demodands to eschew armor. Stringy demodands are typically 6 feet tall and weigh 300 pounds.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"stringy_demodand": { "copyof": "demodand,_stringy_demodand" },
@@ -4655,7 +4655,7 @@
 			"",
 			"The tarry demodand is the grunt of the demodand army-bred for battle, these swift and deadly demodands make up the bulk of any demodand legion. That they themselves are more powerful than most outsiders is as much a testament to their race as anything else-a single tarry demodand is a formidable opponent, to say nothing of a group of the creatures. Although tarry demodands are quite strong, they prefer using light weapons-one in each hand. Tarry demodands only rarely use larger weaponry, and then only when directly ordered by a superior. They lack the terrific claws of the greater demodands, and a tarry demodand with no weapons tends to flee combat as soon as possible, only to return when it is properly armed.",
 			"",
-			"**Family:** [Demodand](monster/family/demodand)"
+			"**Family:** [Demodand](family/demodand)"
 		]
 	},
 	"tarry_demodand": { "copyof": "demodand,_tarry_demodand" },
@@ -4726,7 +4726,7 @@
 			"",
 			"An abrikandilu stands 4 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"abrikandilu": { "copyof": "demon,_abrikandilu" },
@@ -4804,7 +4804,7 @@
 			"",
 			"Andrazkus prefer to lair in ice caves or tunnels dug out of hard-packed snow. Some take advantage of their cold immunity and strong swimming ability to live in simple shelters on ice floes. An andrazku's hooves and huge hands allow it to cling to ice as though it were rough stone, preventing it from slipping and allowing it to use much of the vertical space in its lair to store treasure and observe intruders.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Habitat",
 			"",
@@ -4879,7 +4879,7 @@
 			"",
 			"A babau is 6 feet tall but weighs only 140 pounds. They form from mortal souls of lone killers-those who, in life, took pleasure in more personal and intimate murders. Loosed upon the Material Plane, a babau often finds itself in the same role, haunting the shadowy corners of the world as remorseless assassins.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"babau": { "copyof": "demon,_babau" },
@@ -4968,7 +4968,7 @@
 			"",
 			"Soul Swallow (Su) As a standard action, the balor lord can inhale the soul of a living creature within 30 feet. The target must make a Fortitude save (DC 10 + 1/2 balor lord's racial HD + the balor lord's Charisma modifier) or die. The body of a humanoid creature killed in this manner immediately transforms into a demon under the balor lord's command (a babau, succubus, or shadow demon, according to the balor lord's whim).",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"balor": { "copyof": "demon,_balor" },
@@ -5038,7 +5038,7 @@
 			"",
 			"Brimoraks are demons born from the souls of arsonists, and in their fiendish lives, they love nothing more than setting fires. A brimorak stands 3 feet tall and weighs 80 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"brimorak": { "copyof": "demon,_brimorak" },
@@ -5112,7 +5112,7 @@
 			"",
 			"Cambions are true outsiders. The majority of cambions have red skin, horns on their heads, and cloven hooves for feet-the fiendish aspects of cambions' appearance don't range as widely as those of tieflings. A typical cambion stands 6 feet tall and weighs 190 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"cambion": { "copyof": "demon,_cambion" },
@@ -5182,7 +5182,7 @@
 			"",
 			"Evil mortal spellcasters are fond of conjuring coloxus demons for similar roles, but the monsters also work well as assassins. Even in this role, a coloxus is dignified and polite. Only when presented with a reflection of itself does the normally civilized coloxus show its true demonic colors-any creature foolish enough to trick a coloxus into looking at a mirror finds herself the eternal foe of an insulted and scandalized demon.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"coloxus": { "copyof": "demon,_coloxus" },
@@ -5250,7 +5250,7 @@
 			"",
 			"A derakni is 14 feet long and weighs 1,200 pounds. These wretched demons arise from the souls of those who, in life, purposefully engineered disasters or aided in their development-particularly souls whose disasters resulted in mass famines or droughts.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"derakni": { "copyof": "demon,_derakni" },
@@ -5307,7 +5307,7 @@
 			"",
 			"A dretch stands 4 feet tall and weighs 180 pounds. Dretches typically form from the souls of slothful, evil mortals-yet it only takes a small fragment of a soul to trigger such a hideous birth. A single soul can often trigger the manifestation of a small army of dretches, and the sight of a horde of fresh-birthed dretches pulling free from the heaving protomatter of the Abyss is a nauseating and terrifying one indeed.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"dretch": { "copyof": "demon,_dretch" },
@@ -5383,7 +5383,7 @@
 			"",
 			"In the Worldwound, gallus serve an additional role as commanders in the numerous demonic armies. Many control multiple divisions, each led by a marilith general, and report in turn to one of the Worldwound's leaders, like Khorramzadeh, Areelu, or Aponavicius. But not all of the Worldwound's gallus command armies. Those who serve Baphomet primarily utilize their deceptive natures to infiltrate various Mendevian mercenary orders, Mammoth Lord barbarian tribes, settlements on the fringes of more civilized lands, and other factions arrayed against the Worldwound. From within those groups, they serve as advisors, urging those they've infiltrated into launching ill-timed or poorly planned attacks on their demonic foes. These gallus occasionally feed their humanoid \"allies\" legitimate intelligence about demonic fortifications or troop movements, knowing that a little truth can go a long way in encouraging mortals to act upon their more violent urges.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"gallu": { "copyof": "demon,_gallu" },
@@ -5446,7 +5446,7 @@
 			"",
 			"Ghalzarokhs, or tyranny demons, act as commanders of Abyssal forces. These demons are formed from the souls of petty tyrants and would-be dictators. Notoriously egotistical and prone to lashing out, a ghalzarokh keeps its minions in line through fear of its cruel whims.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"ghalzarokh": { "copyof": "demon,_ghalzarokh" },
@@ -5516,7 +5516,7 @@
 			"",
 			"A gibrileth is approximately 10 feet in diameter, with a wingspan of 16 feet. These foul, bloated demons typically weigh about 2,400 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"gibrileth": { "copyof": "demon,_gibrileth" },
@@ -5574,7 +5574,7 @@
 			"",
 			"A glabrezu stands 18 feet tall and weighs just over 6,000 pounds. These treacherous demons form from the souls of the treasonous, the false, and the subversive-souls of mortals who, in life, bore false witness or used treachery and deceit to ruin the lives of others.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"glabrezu": { "copyof": "demon,_glabrezu" },
@@ -5651,7 +5651,7 @@
 			"",
 			"Due to the nature of their origin, halas are highly possessive. A hala will often refer to the storm clouds they marshal as \"my storm.\" A hala is predisposed to grab any item it finds particularly desirable, and will actively pillage regions that its storm passes over. The desire to take from others remains so prevalent in the hala's nature that it often carries large sacks in which to place all the items it takes during its flights. Bags of holding or handy haversacks are highly prized possessions to a hala, as it allows it to pillage even more items. Halas are voracious, with large mouths that open nearly ear-to-ear. Edible items they find in their pillaging are often consumed immediately. This includes a particular appetite for children and other Small humanoids.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Habitat",
 			"",
@@ -5724,7 +5724,7 @@
 			"",
 			"These monstrous and bestial creatures form from the souls of evil mortals who poisoned themselves, their kin, or their surroundings, such as drug addicts, assassins, and alchemists who cared not how their experiments polluted the environment.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"hezrou": { "copyof": "demon,_hezrou" },
@@ -5790,7 +5790,7 @@
 			"",
 			"Like succubi, incubi form from the chaotic evil souls of particularly lustful and rapacious mortals. Yet whereas succubi are subtle and methodical about using their charms to cause ruin, the typical incubus is forthright and forceful about his insatiable desires.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"incubus": { "copyof": "demon,_incubus" },
@@ -5855,7 +5855,7 @@
 			"",
 			"A kalavakus is 7 feet tall and weighs 450 pounds. They form from the souls of evil mortals who were slavers in their mortal lives.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"kalavakus": { "copyof": "demon,_kalavakus" },
@@ -5927,7 +5927,7 @@
 			"",
 			"Katpaskirs are a pox and pestilence upon not just the world, but reality itself. Just as bugs burrow into unwatched crevices, katpaskirs pry their way into other realms and dimensions. They gnaw and scratch and grind away at the edges of the universe, the planar junctures where the folds of creation bend in upon themselves. They have an uncanny sense for finding natural rifts, portals, and convergences, and they seek ever for ways to expand and untether these natural gates. By setting them loose to drift across the world, they unhinge the orderly substrate of the multiverse, casting all into primordial chaos as the planes unravel. Their voices are strange and echoing, like several voices sounding together, each distorted and cacophonous and rising and falling asynchronously in pitch and volume. When not actively engaged in a task, katpaskirs tend to stand perfectly still, with the exception of its insectlike limbs, which rhythmically stroke the air in front of them. When other creature come near-or if some teleporting creature triggers the demon's warp sense special ability-it snaps out of this self-imposed stasis, ready to attack. Katpaskirs are a little over 7 feet tall and weigh just less than 600 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Ecology",
 			"",
@@ -6009,7 +6009,7 @@
 			"",
 			"Kithangians, also known as beast demons, are reprehensible monstrosities born from the souls of those who abused and tormented animals in life. Universally male, the sudden spread of fiendish elements through within an area's fauna is a sure indication of a kithangian's presence in a region. The fact that most creatures that birth litters of young with the half-fiendish template die in the process is of little concern to the kithangian, for it merely moves on to new hunting grounds when uncorrupted animal victims grow too rare.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"kithangian": { "copyof": "demon,_kithangian" },
@@ -6056,7 +6056,7 @@
 			"",
 			"The economy of the Abyss varies from realm to realm, but in every corner larvae are valued commodities: as food, as components for ceremonies and sorcery, and as playthings for the despicable population. So coveted are these foul creatures that some enterprising denizens create vile farms where larvae are corralled like cattle, fed on the various filth in the Abyss, and \"nurtured\" until they have achieved particular states of \"ripeness\" that appeal to the various depraved tastes of various fiends, evil magic-users, and worse. Other larvae are raised through grueling processes into exacting forms of designed demonic life, tended with the careful ministrations of Abyssal artisans. These malign sculptors blend the cultivation of specific degraded and evil qualities with bizarre surgical magic to produce demons that suit the needs and desires of their specialized clientele.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"larva": { "copyof": "demon,_larva" },
@@ -6147,7 +6147,7 @@
 			"",
 			"Lilitus typically stand 6 to 6-1/2 feet tall and weigh 130 to 150 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"lilitu": { "copyof": "demon,_lilitu" },
@@ -6214,7 +6214,7 @@
 			"",
 			"A marilith is 6 to 9 feet tall and measures 20 feet from head to tail tip. It weighs 4,000 pounds. Only the most arrogant and proud evil souls, typically those of cruel kings, sadistic generals, and exceptionally violent warlords, can trigger the manifestation of a marilith.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"marilith": { "copyof": "demon,_marilith" },
@@ -6274,7 +6274,7 @@
 			"",
 			"Nabasus are birthed directly into the Material Plane from the Abyss, where they feed on innocent souls to mature. Only when finally sated can a nabasu return to the Abyss. Rumor holds that even then the nabasu's lifecycle does not change, and that further developments await them as they continue to grow. These vile demons form from the souls of evil gluttons, particularly from cannibals, blood-drinkers, and those who prefer the tang of undead flesh.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"nabasu": { "copyof": "demon,_nabasu" },
@@ -6336,7 +6336,7 @@
 			"",
 			"Nalfeshnees stand 20 feet tall and weigh 8,000 pounds. They form from the souls of greedy or avaricious evil mortals, particularly those who ruled over empires of slavery, theft, banditry, and more violent vices.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"nalfeshnee": { "copyof": "demon,_nalfeshnee" },
@@ -6406,7 +6406,7 @@
 			"",
 			"A typical omox stands 7 feet tall and weighs 1,200 pounds. They form from the souls of those who destroyed beautiful things in life, or who befouled and desecrated objects of purity.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"omox": { "copyof": "demon,_omox" },
@@ -6487,7 +6487,7 @@
 			"",
 			"An encounter with an oolioddroo can be rather complex due to the nature of the creature's special abilities' especially if a PC is its intended victim. If an oolioddroo attempts to seize control of a lone PC, one tricky tactic is to simply ask the character's player to attempt all the necessary rolls and checks beforehand. Typically, one of these demons attempts to implant eggs in a character who is alone or asleep, in which case that character can attempt a Perception check (at a -10 penalty if the character is sleeping) and a saving throw against the modify memory spell-if both fail, the implanted egg hatches without the player noticing. Thereafter, the source of the strange voices and compulsions in the character's mind, as well as the source of the periodic suggestions and other magical attacks, can be as frighteningly mysterious to the player as they are to the character. Of course, the GM should take care not to go too far with this-and if a PC or an ally uses detect evil, for example, she might guess that something is afoot when a normally nonevil PC radiates an unexpected aura.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"oolioddroo": { "copyof": "demon,_oolioddroo" },
@@ -6557,7 +6557,7 @@
 			"",
 			"Painajais stand 10 feet tall and weigh about 800 pounds. These demons form from the souls of mortals whose cruel deeds have caused nightmares in other people.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"painajai": { "copyof": "demon,_painajai" },
@@ -6622,7 +6622,7 @@
 			"",
 			"Rarely, a quasit elects to ignore its master's death and instead remains on the Material Plane to seek other ways to entertain itself-usually settling in an urban area where there are plenty of folk to torment.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"quasit": { "copyof": "demon,_quasit" },
@@ -6691,7 +6691,7 @@
 			"",
 			"A schir set loose upon the Material Plane quickly seeks to set itself up as a leader of its own army-often, schirs seek out tribes of savage humanoids and attempt to replace the current leaders. They are particularly fond of infiltrating gnoll tribes.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"schir": { "copyof": "demon,_schir" },
@@ -6761,7 +6761,7 @@
 			"",
 			"Seraptis demons form from souls of those who inspired widespread despair or destruction by committing suicide.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"seraptis": { "copyof": "demon,_seraptis" },
@@ -6833,7 +6833,7 @@
 			"",
 			"A shachath's duplicitous nature is reflected in its physical form. It is literally two-faced, and sees and speaks easily from either side of its skull. One face is angelic and the other horrific, but a shachath is a single being of pure malevolence. Shachaths are concerned with the destruction of mortal faith in anything, and are most often found in the service of Baphomet, Pazuzu, Sif kesh, or Socothbenoth. A typical shachath is 7-1/2 feet tall and weighs 320 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Ecology",
 			"",
@@ -6906,7 +6906,7 @@
 			"",
 			"Unlike many demons, shadow demons are incorporeal. When a particularly envious and evil mortal soul is pulled into the Abyss, it is transformed, split apart, and combined with other souls until what emerges is little more than jealous malevolence without the impediment of a physical body.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"shadow_demon": { "copyof": "demon,_shadow_demon" },
@@ -6974,7 +6974,7 @@
 			"",
 			"A shemhazian stands 35 feet tall and weighs 12,000 pounds. They form from the sinful souls of torturers and those who enjoyed mutilating living victims to death.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"shemhazian": { "copyof": "demon,_shemhazian" },
@@ -7035,7 +7035,7 @@
 			"",
 			"Among the demon hordes, a succubus can often rise to incredible heights of power through her manipulations and sensual charms, and many a demonic war has raged due to the subtle machinations of such creatures. A succubus is formed from the souls of particularly lustful and rapacious evil mortals.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"succubus": { "copyof": "demon,_succubus" },
@@ -7110,7 +7110,7 @@
 			"",
 			"Small and slight, most swaithes stand about 3-1/2 feet tall and weigh 50 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"swaithe": { "copyof": "demon,_swaithe" },
@@ -7176,7 +7176,7 @@
 			"",
 			"Able to take the shape of rank-and-file soldiers and infect military ranks like a cancer, thoxels-also known as insubordination demons-spend every drop of their malice to break down the cooperative spirit of those who fight together. Among mortal soldiers, thoxels whisper disparaging words about commanders, talk in hushed tones about the danger of upcoming battles, or belittle other soldiers' accomplishments. Many great battles are said to have been lost because of the presence of these subtle but murderous demons within an army's ranks. They represent a passion to kill as they please without caring about order, control, or their allies. Despite their skill at martial exploits, thoxels are lazy and untrustworthy creatures. Thoxel demons are 6 feet tall and weigh 200 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Ecology",
 			"",
@@ -7261,7 +7261,7 @@
 			"",
 			"Ulkreths are among the mightiest servants of the demon lord Xoveron, the Horned Prince of gargoyles and lord of ruination. They exist solely to destroy, carrying out his will of devastation to cities and civilization throughout the planes, tearing down monuments and buildings in the name of their unholy patron. Ulkreths are 25 feet tall and weigh 10 tons.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Ecology",
 			"",
@@ -7356,7 +7356,7 @@
 			"",
 			"Though originally created to serve as living weapons of war, the vavakias have long since established their own presence as Abyssal warlords and conquerors. While some pledge their service to powerful demon lords, most vavakias rule small empires of their own in the Abyss, typically in remote corners infested with jungles, swamps, and other primeval terrains.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"vavakia": { "copyof": "demon,_vavakia" },
@@ -7425,7 +7425,7 @@
 			"",
 			"Outside of a host body, a vermlek appears as a worm with four long tails, each of which ends in a tangle of filaments. In this form, the demon is 7 feet long and weighs 90 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"vermlek": { "copyof": "demon,_vermlek" },
@@ -7494,7 +7494,7 @@
 			"",
 			"Vilsteth demons, also known as corruption demons, are calved from the essence of the demon lord Baphomet's realm of the Ivory Labyrinth. Vilsteths form from the souls of corrupt and deceitful politicians, priests, and power brokers-those who in life abused and misused whatever ephemeral power they wielded. The defining sin of these souls was pride, fueled by vanity and a desire for adulation and ever-greater authority to be wielded in whatever selfish way they saw fit, coupled with a furious envy of anyone more beloved, respected, or feared than they. Vilsteths epitomize these traits, and can often be found lurking in monuments dedicated to important political figures or disguised within statues of prominent saints and heroes. In their natural form, vilsteths are over 7 feet tall and weigh 400 pounds.",
 			"",
-			"**Family:** [Demon](monster/family/demon)",
+			"**Family:** [Demon](family/demon)",
 			"",
 			"### Ecology",
 			"",
@@ -7570,7 +7570,7 @@
 			"",
 			"A typical vrock stands 8 feet tall and weighs 400 pounds. Vrocks generally form from the evil souls of hateful and wrathful mortals, particularly those who were career criminals, mercenaries, or assassins.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"vrock": { "copyof": "demon,_vrock" },
@@ -7639,7 +7639,7 @@
 			"",
 			"A vrolikai is 14 feet tall but weighs only 500 pounds. Unlike other demons, it does not form from a sinful soul-it instead manifests from a nabasu demon that returns to the Abyss after growing to maturity on the Material Plane. Not all nabasus survive this transformation, but those who do become powerful indeed-vrolikai usually rule large regions of unclaimed Abyssal land, and often serve as assassins or ambassadors to demon lords in need of an agent in a distant realm.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"vrolikai": { "copyof": "demon,_vrolikai" },
@@ -7707,7 +7707,7 @@
 			"",
 			"Terrifying predators, yaenits' deceptively stooped and gangly physiques belie the 300 pounds of knotted and powerful muscle tied to their solid black bones. A yaenit is 6-1/2 feet tall.",
 			"",
-			"**Family:** [Demon](monster/family/demon)"
+			"**Family:** [Demon](family/demon)"
 		]
 	},
 	"yaenit": { "copyof": "demon,_yaenit" },
@@ -8548,7 +8548,7 @@
 			"",
 			"In his true form, a hesperian looks like a devilishly handsome human male with devilish horns, a forked tongue, and eyes reminiscent of snake's, but he can make himself a perfect imitation of any humanoid or even take the form of a long snake with a head on each end. Hesperians stand just under 7 feet tall and weigh approximately 180 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"hesperian": { "copyof": "devil,_accomplice_devil_hesperian" },
@@ -8618,7 +8618,7 @@
 			"",
 			"These lesser devils stand just over 2 feet tall and rarely weigh more than 25 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"zebub": { "copyof": "devil,_accuser_devil_zebub" },
@@ -8695,7 +8695,7 @@
 			"",
 			"No two advodazas look exactly alike, each embodying the powers and concerns that saw it worshiped in ages past and subsequently anthropomorphized as a monstrous being. Typically, this results in quadrupedal, half-bestial shapes bristling with terrible wings, hooves, claws, and fangs. Universally, though, they bear the broken remnants of their fallen faith, usually in the form of cracked idols worn like armor, profane talismans crafted into jewelry, or fearful totems wielded like massive weapons. Despite their range of appearances, all advodazas possess the same core abilities, though some particularly ancient or powerful fiends possess unique abilities. Most advodazas stand 18 feet tall and weigh nearly 9 tons.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"advodaza": { "copyof": "devil,_advodaza" },
@@ -8777,7 +8777,7 @@
 			"",
 			"Preferring to operate alone, these poison-tongued devils rarely work with others of their kind, even though their status affords them control over their lesser brethren. They find that their arguments benefit from a single voice, and that their endeavors are complicated by even the most obedient minions. They bow to Hell's hierarchy, however, and serve if compelled to do so. Pit fiends and infernal dukes sometimes utilize deimaviggas as personal majordomos, spies, and spreaders of dissension, though even among devilkind these enigmatic fiends are considered particularly unnerving.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"deimavigga": { "copyof": "devil,_apostate_devil_deimavigga" },
@@ -8843,7 +8843,7 @@
 			"",
 			"Hamatulas are collectors and organizers, and are favorite allies of greedy summoners as they often bring with them tempting treasures from Hell's vaults or know the paths to deadly riches. Left to their own devices, the lairs of these devils often bear the pierced trophies of their past victims, hung like perverse bug collections on bloodied walls. Most barbed devils stand upward of 7 feet tall and weigh 300 pounds, though their leanly muscled bodies appear much larger due to the constantly growing and adjusting spines that protrude from their razor-sharp bodies.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"hamatula": { "copyof": "devil,_barbed_devil_hamatula" },
@@ -8908,7 +8908,7 @@
 			"",
 			"At attention, bearded devils stand over 6 feet tall (though their squatting battle stances often make them appear shorter) and weigh upward of 200 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"barbazu": { "copyof": "devil,_bearded_devil_barbazu" },
@@ -8974,7 +8974,7 @@
 			"",
 			"A bdellavritra's voice can emanate from its worm-like maw, from any of its human-like mouths, or from all four at once, as it desires. Each mouth has its own distinct voice, often pleasing to the human ear. Bdellavritras typically reach lengths of 16 feet from worm-mouth to human heads, and weigh 3,000 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"bdellavritra": { "copyof": "devil,_belier_devil_bdellavritra" },
@@ -9039,7 +9039,7 @@
 			"",
 			"Osyluths tower over lesser devils at 9 feet tall-though their tails and fearsome but useless wings make them appear much larger-and weigh upward of 400 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"osyluth": { "copyof": "devil,_bone_devil_osyluth" },
@@ -9125,7 +9125,7 @@
 			"",
 			"Uniilas eagerly seek passage to the Material Plane and as such welcome summons by mortal casters. Whether to experiment with spells, seek out new magic, or corrupt mortals with their knowledge, what plots an uniila holds often prove inscrutable and of secondary interest to a summoner. Tempering their desire to reach the mortal plane, an uniila's vanity prevents it from serving a witless or hopeless summoner. Thus, uniilas turn the act of summoning about on those who call upon them via a planar binding spell, requesting that such mortals demonstrate their spellcasting prowess. If the mortal effectively casts a spell the uniila does not know (not one of those spells she possesses as a sorcerer spell or spell-like ability), or performs a spell of 5th-level or higher, the caster gains a +2 bonus on the opposed Charisma check made to bind the devil. Occasionally, an uniila purposefully remains to serve an inferior spellcaster, or one that fails his opposed Charisma check. Granting the inept tools they should never possess amuses the devils, and even the most incompetent \"masters\" might prove useful in seeking out components of an uniila's ongoing projects in Hell.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"uniila": { "copyof": "devil,_cabal_devil_uniila" },
@@ -9194,7 +9194,7 @@
 			"",
 			"Standing over 20 feet tall, chortovs are mountains of flesh, muscle, and flame. Each weighing upward of 5 tons, these devils bear plates and bands of diabolical armor that serve as physical manifestations of the infernal sorceries that bind them as eternal slaves to Hell. Each chortov's armor is unique, often bearing images of the vaguely remembered torments their constituent souls once suffered. Their bodies, too, bear incongruities uncommon in other diabolical races, harkening toward the lawless natures of the soul-stuff from which these terrors are sculpted.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"chortov": { "copyof": "devil,_chortov" },
@@ -9283,7 +9283,7 @@
 			"",
 			"Alternatively, a second mortal might be allowed to adopt the terms of a contract-with its soul replacing that of the original contract signer after death. The mortal who seeks to pay the debt of another must contact the contract devil who holds the relevant contract. The contract devil has a choice of whether or not to allow one mortal to pay another's debt, but values religious and good-aligned souls over others. Shrewd manipulators, contract devils often only agree to allow one mortal to pay another's debt in return for some service or proof of worth. If a contract devil agrees to accept another soul in payment, the original contract signer retains all of the benefits of the contract, but is released from damnation and may be resurrected as normal. The new signer, however, receives no benefits, cannot be returned to life upon dying, and spends an eternity in Hell after death.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"phistophilus": { "copyof": "devil,_contract_devil_phistophilus" },
@@ -9354,7 +9354,7 @@
 			"",
 			"A curse devil is 4 feet tall and weighs 80 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"phiam": { "copyof": "devil,_curse_devil_phiam" },
@@ -9424,7 +9424,7 @@
 			"",
 			"Called sarglagons in their Infernal tongue, drowning devils take great pride in being the best-adapted guardians of Hell's waterways, and are among the few fiends who travel the seas and rivers of the multiverse as part of larger infernal plots. Even in the air or on the ground, a drowning devil moves with a haunting litheness as though it were swimming. A typical drowning devil weighs 600 pounds, and can exceed 15 feet from head to tail.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"sarglagon": { "copyof": "devil,_drowning_devil_sarglagon" },
@@ -9487,7 +9487,7 @@
 			"",
 			"Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their black- feathered wings that stretch over 10 feet wide.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"erinyes": { "copyof": "devil,_erinyes" },
@@ -9547,7 +9547,7 @@
 			"",
 			"Rare but long-existing members of devilkind, munagolas are the result of the single-minded ambition of Eiseth, the Erinyes Queen and Hell's Valkyrie. Shortly after she established her realm in Dis, Eiseth set about creating an army worthy of her rage and might. The result of fleshwarping and infernal tinkering that defies even the archdevils' scrutiny, munagolas combine the aerial strength and craftiness of erinyes with the sheer brute force of barbed devils, bone devils, and even pit fiends. It takes centuries to create one munagola from a progenitor erinyes, but once she's transformed, the devil is even stronger, more furious, and more determined to conquer Hell on Eiseth's behalf than ever before.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"munagola": { "copyof": "devil,_executioner_devil_munagola" },
@@ -9623,7 +9623,7 @@
 			"",
 			"Perhaps to avoid this destructive wrath, many gambling devils are overly eager to gain the Ardent Prince's approval. Those that enjoy Mammon's highest favor sometimes serve as the archdevil's bookkeepers. They are particularly useful in roles where the amount owed Erebus, or Hell in general, is in dispute. In addition to their meticulous accounting skills, magadazes' luck and skills ensure that Hell ends up on the winning side of almost any monetary arrangements. This role seems to suit many gambling devils well, as it allows them to manipulate money and debts while staying in Mammon's good graces.",
 			"",
-			"**Family:** [Devil](monster/family/devil)",
+			"**Family:** [Devil](family/devil)",
 			"",
 			"### Habitat",
 			"",
@@ -9702,7 +9702,7 @@
 			"",
 			"As greater devils, gylous can command many lesser devils, yet harbor an exclusive favoritism for erinyes. A gylou weighs 160 pounds and stands stiffly at 5-1/2 feet-though many wear their head-sprouting tentacles in tall, elaborate coiffures.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"gylou": { "copyof": "devil,_handmaiden_devil_gylou" },
@@ -9774,7 +9774,7 @@
 			"",
 			"Ayngavhauls are roughly ovular in form, about 10 feet tall with their rolls of wet gristle spreading 13 feet wide.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"ayngavhaul": { "copyof": "devil,_heresy_devil_ayngavhaul" },
@@ -9838,7 +9838,7 @@
 			"",
 			"A typical horned devil rises to a hulking 9 feet tall, bears 14-foot-wide wings, and weighs 700 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"cornugon": { "copyof": "devil,_horned_devil_cornugon" },
@@ -9908,7 +9908,7 @@
 			"",
 			"Magaavs stand 5-1/2 feet tall and weigh 150 pounds, with wingspans reaching 10 feet across. Their fetid breath draws flies that swarm over their bodies.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"host_devil,_greater_magaav": { "copyof": "devil,_host_devil,_greater_magaav" },
@@ -9979,7 +9979,7 @@
 			"",
 			"Gaavs stand 4 feet tall and weigh approximately 110 pounds, their wingspans stretching to just over 6 feet wide. Magaavs stand 5-1/2 feet tall and weigh 150 pounds, with wingspans reaching 10 feet across.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"host_devil,_lesser_gaav": { "copyof": "devil,_host_devil,_lesser_gaav" },
@@ -10043,7 +10043,7 @@
 			"",
 			"Gelugons stand at 12 feet tall, and weigh approximately 700 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"gelugon": { "copyof": "devil,_ice_devil_gelugon" },
@@ -10109,7 +10109,7 @@
 			"",
 			"Immolation devils stand just over 10 feet tall, with wingspans nearing 20 feet, and weigh 900 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"puragaus": { "copyof": "devil,_immolation_devil_puragaus" },
@@ -10176,7 +10176,7 @@
 			"",
 			"Unlike most devils, imps often find themselves free and alone on the Material Plane, particularly after they've been summoned to serve as familiars and their masters have perished (often indirectly due to the machinations of the imp itself). With no way to return home, these imps, freed of their bonds to arcane masters, can become dangerous pests or even leaders of small tribes of savage humanoids like goblins or kobolds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"imp": { "copyof": "devil,_imp" },
@@ -10224,7 +10224,7 @@
 			"",
 			"Although among the most loathsome creatures in existence, lemures serve a vital role in Hell's perverse ecology. When at the end of a mortal life a creature's soul is damned-whether because it revered diabolical forces or failed in the worship of another deity-it joins the masses of suffering souls filling the plains of Avernus, Hell's first layer. Here a soul's torments begin as lesser devils marshal it along with similar spirits in preparation for a long, perilous journey to one of Hell's deeper layers-typically one suited to the punishments appropriate to the soul's crimes, or merely the domain of a devil who has need for slaves. Upon reaching the realm of their damnation, souls face untold lifetimes of torment at the hands of devils, other fiendish beings, and the deadly machinations of Hell itself. As the formerly mortal essences slowly go mad, they forget their lives, grow bestial, and eventually become little more than automatons of fear and hatred. After ages of such existence, the cruel processes of Hell either utterly annihilate the soul or-in the cases of the most profane spirits-reconsecrate such forsaken beings into lemures, the building blocks of devils, unthinking waves of filth and diabolical flesh. Such repulsive beings assemble in vast mobs, waves of putrescence thousands upon thousands strong. Greater devils can spot the most corrupt of these fiends and, either through mysterious tortures or the powers of Hell itself, reshape them into true devils, newly born and ready to obediently serve in the legions of the damned.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"lemure": { "copyof": "devil,_lemure" },
@@ -10294,7 +10294,7 @@
 			"",
 			"A mnemor devil stands approximately 6 feet tall and weighs 170 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"mnemor": { "copyof": "devil,_mnemor" },
@@ -10378,7 +10378,7 @@
 			"",
 			"Most advodazas stand about 18 feet tall and weigh approximately 9 tons.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"nemesis_devil": { "copyof": "devil,_nemesis_devil_advodaza" },
@@ -10429,7 +10429,7 @@
 			"",
 			"These mindless drones rank even lower than lemures and serve as little more than mindless sword fodder for their betters. The devils are almost like constructs in their mindlessness, and cannot be communicated with-they raise their spears and attack any non-devil on sight.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"nupperibo": { "copyof": "devil,_nupperibo" },
@@ -10508,7 +10508,7 @@
 			"",
 			"Hellfire Breath (Su): The pit fiend gains a devastating breath weapon that it can use once every 1d4 rounds. This breath weapon is a 60-foot cone of fire (10d10 fire damage and 10d10 unholy damage as per flame strike, successful Reflex save [DC 10 + 1/2 the pit fiend's racial HD + the pit fiend's Constitution modifier] half).",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"pit_fiend": { "copyof": "devil,_pit_fiend" },
@@ -10584,7 +10584,7 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"greater_gidim": { "copyof": "devil,_possession_devil,_greater_gidim" },
@@ -10664,7 +10664,7 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"lesser_gidim": { "copyof": "devil,_possession_devil,_lesser_gidim" },
@@ -10744,7 +10744,7 @@
 			"",
 			"A rust devil stands only 5 feet tall but weighs 900 pounds, because of its supernaturally dense metallic flesh.",
 			"",
-			"**Family:** [Devil](monster/family/devil)",
+			"**Family:** [Devil](family/devil)",
 			"",
 			"### Ecology",
 			"",
@@ -10844,7 +10844,7 @@
 			"",
 			"Once a salikotal has agreed to perform a murder for its summoner, it explains the signature vengeances its kind can inflict upon a victim and offers to exact one upon its summoner's victim for an associated price. The devil requests 1,000 gp for every Hit Die its target possesses (intrinsically gauging its victim's prowess), to be paid entirely in one of three types of gemstones: ruby for fideicide, onyx for necrocide, and jacyinth for omnicide. Salikotals prove exceedingly particular in these payments, and if a summoner cannot pay the price in the type of gem requested, the devil refuses to exact one of its vengeances. If the summoner tries to force a salikotal to use one of its vengeances, the devil takes offense and all of the summoner's Charisma-related interactions with it in the future take a -2 penalty.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"salikotal": { "copyof": "devil,_salikotal" },
@@ -10911,7 +10911,7 @@
 			"",
 			"A typical sire devil is 7 feet tall and weighs 250 pounds.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"patraavex": { "copyof": "devil,_sire_devil_patraavex" },
@@ -10989,7 +10989,7 @@
 			"",
 			"In addition, ukobachs who know and favor their summoner sometimes bring gifts with them from Hell. While on the surface such boons might seem like blessings, they are always carefully selected by an ukobach and meant to encourage a summoner toward a destructive end. Commonly, such infernal gifts take the form of fireworks and explosives-especially in lands where such creations are uncommon-inscrutable blueprints or formulas for fiendish devices or magic items, or powerfully volatile alchemical reagents.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"ukobach": { "copyof": "devil,_tinder_devil_ukobach" },
@@ -11062,7 +11062,7 @@
 			"",
 			"Fearsome giants of steel and blades, levalochs serve the armies of Hell as potent warriors and tenacious hunters. They stand just over 10 feet tall and weigh 1 ton.",
 			"",
-			"**Family:** [Devil](monster/family/devil)"
+			"**Family:** [Devil](family/devil)"
 		]
 	},
 	"levaloch": { "copyof": "devil,_warmonger_devil_levaloch" },
@@ -11439,7 +11439,7 @@
 			"",
 			"A huge, swift hunter, the allosaurus measures 30 feet in length and weighs 10,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"allosaurus": { "copyof": "dinosaur,_allosaurus" },
@@ -11491,7 +11491,7 @@
 			"",
 			"The amargasaurus is a relatively small sauropod noted for the two rows of skin-covered spines that adorn its neck.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"amargasaurus": { "copyof": "dinosaur,_amargasaurus" },
@@ -11543,7 +11543,7 @@
 			"",
 			"The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus's tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"ankylosaurus": { "copyof": "dinosaur,_ankylosaurus" },
@@ -11592,7 +11592,7 @@
 			"",
 			"A brachiosaurus is 80 feet long and weighs 32 tons.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"brachiosaurus": { "copyof": "dinosaur,_brachiosaurus" },
@@ -11645,7 +11645,7 @@
 			"",
 			"Although a ceratosaurus's horn is mainly for courtship displays, its jaws are extremely deadly. A ceratosaurus stands 10 feet high and can grow up to 18 feet long and 1,600 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"ceratosaurus": { "copyof": "dinosaur,_ceratosaurus" },
@@ -11702,7 +11702,7 @@
 			"",
 			"These dinosaurs can serve spellcasters as a familiar. A compsognathus familiar grants its master a +4 bonus on Initiative checks.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"compsognathus": { "copyof": "dinosaur,_compsognathus" },
@@ -11752,7 +11752,7 @@
 			"",
 			"You can apply the young simple template to create statistics for smaller, more agile velociraptors. Conversely, you can either increase the deinonychus to Large size and its Hit Dice to 8 or simply apply the giant and advanced simple templates to create a formidable megaraptor.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"deinonychus": { "copyof": "dinosaur,_deinonychus" },
@@ -11810,7 +11810,7 @@
 			"",
 			"A fully grown adult dimetrodon can reach a length of up to 15 feet and weigh upward of 2,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"dimetrodon": { "copyof": "dinosaur,_dimetrodon" },
@@ -11870,7 +11870,7 @@
 			"",
 			"A dimorphodon's wingspan is between 4 and 5 feet long.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"dimorphodon": { "copyof": "dinosaur,_dimorphodon" },
@@ -11926,7 +11926,7 @@
 			"",
 			"The diplodocus is one of the longest dinosaurs, capable of reaching lengths of 100 feet or more. Much of this length is taken up by the diplodocus's tremendously powerful whiplike tail, a devastating weapon capable of striking at a considerable range.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"diplodocus": { "copyof": "dinosaur,_diplodocus" },
@@ -11974,7 +11974,7 @@
 			"",
 			"The sleek elasmosaurus is a long-necked, aquatic reptile. Although not technically a dinosaur, they and their kind are often found hunting in oceans and lakes in areas where dinosaurs are more common. You can create statistics for smaller, similar aquatic reptiles (such as the pleisosaurus) by applying the young simple template to the statistics presented above. An elasmosaurus is 45 feet long and weighs 4,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"elasmosaurus": { "copyof": "dinosaur,_elasmosaurus" },
@@ -12026,7 +12026,7 @@
 			"",
 			"The giganotosaurus is an apex predator that measures 60 feet long and weighs 35,000 pounds",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"giganotosaurus": { "copyof": "dinosaur,_giganotosaurus" },
@@ -12084,7 +12084,7 @@
 			"",
 			"Although iguanodons are herbivores, they are notoriously quick to anger. Their thumb spikes make their claws particularly devastating weapons-a well-placed blow from one of these claws can turn a hungry predator into a cowering beast with one swift strike. Iguanodons are 30 feet long and weigh 6,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"iguanodon": { "copyof": "dinosaur,_iguanodon" },
@@ -12143,7 +12143,7 @@
 			"",
 			"The kentrosaurus is a smaller relative of the stegosaurus, but features large bony spikes on its shoulders. A typical kentrosaurus measures 15 feet long and weighs 2,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"kentrosaurus": { "copyof": "dinosaur,_kentrosaurus" },
@@ -12201,7 +12201,7 @@
 			"",
 			"Pachycephalosauruses grow to a length of 15 feet and weigh 1,400 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"pachycephalosaurus": { "copyof": "dinosaur,_pachycephalosaurus" },
@@ -12252,7 +12252,7 @@
 			"",
 			"This herbivore is 30 feet long and weighs 10,500 pounds. It is notable for the long, curved crest atop its skull.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"parasaurolophus": { "copyof": "dinosaur,_parasaurolophus" },
@@ -12310,7 +12310,7 @@
 			"",
 			"A plesiosaurus measures 11 feet long, though nearly half of this length is neck, and weighs 1,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"plesiosaurus": { "copyof": "dinosaur,_plesiosaurus" },
@@ -12360,7 +12360,7 @@
 			"",
 			"A pteranodon has a wingspan of 30 feet but only weighs 40 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"pteranodon": { "copyof": "dinosaur,_pteranodon" },
@@ -12419,7 +12419,7 @@
 			"",
 			"The quetzalcoatlus is perhaps the largest of the pterosaurs, a category of flying reptile common in regions where dinosaurs dwell. Known to some as the \"swamp stalker\" and others by the misnomer \"dragonling,\" it is truly an awe-inspiring sight in the air, with an impressive 40-foot wingspan. On the ground, this creature's profile bears an uncanny resemblance to that of a giraffe, save for the fact that the folded wings arch up to either side of its lightly feathered body and its head bears a horrific but brightly colored razor-sharp beak",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"quetzalcoatlus": { "copyof": "dinosaur,_quetzalcoatlus" },
@@ -12472,7 +12472,7 @@
 			"",
 			"Larger even than the tyrannosaurus, the spinosaurus is 60 feet long and weighs 25,000 pounds or more. It hunts primarily along coastal and river shorelines.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"spinosaurus": { "copyof": "dinosaur,_spinosaurus" },
@@ -12520,7 +12520,7 @@
 			"",
 			"The stegosaurus is one of the most distinctive-looking dinosaurs-its twin rows of dorsal plates and spiked tail are enough to give most predators second thoughts before attacking. It is 30 feet long, 14 feet tall, and weighs 5,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"stegosaurus": { "copyof": "dinosaur,_stegosaurus" },
@@ -12579,7 +12579,7 @@
 			"",
 			"A styracosaurus is 18 feet long and weighs nearly 3 tons.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"styracosaurus": { "copyof": "dinosaur,_styracosaurus" },
@@ -12639,7 +12639,7 @@
 			"",
 			"At first glance, this dinosaur's massive claws may well convince observers that it is a predator, but the therizinosaurus is in fact an omnivore. Nonetheless, the therizinosaurus has a foul temper and is both easily angered and difficult to spook. With its deep-cutting claws, the therizinosaurus is more than a match for even the mightiest of predatory dinosaurs. A therizinosaurus is 35 feet long and weighs 13,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"therizinosaurus": { "copyof": "dinosaur,_therizinosaurus" },
@@ -12690,7 +12690,7 @@
 			"",
 			"A typical triceratops is 30 feet long and weighs 20,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"triceratops": { "copyof": "dinosaur,_triceratops" },
@@ -12747,7 +12747,7 @@
 			"",
 			"A troodon is 3 feet tall and just over 6 feet long from nose to tail. It weighs 50 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"troodon": { "copyof": "dinosaur,_troodon" },
@@ -12799,7 +12799,7 @@
 			"",
 			"This predatory marine lizard swims with four flippered limbs and a powerful, fluke-like tail. Its extended snout is filled with sharp teeth, and it feeds on both aquatic and surface prey. They are known to attack ships, mistaking them for basking whales or other creatures. A tylosaurus grows up to 50 feet in length and weighs 30,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"tylosaurus": { "copyof": "dinosaur,_tylosaurus" },
@@ -12853,7 +12853,7 @@
 			"",
 			"The tyrannosaurus is an apex predator that measures 40 feet long and weighs 14,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"tyrannosaurus": { "copyof": "dinosaur,_tyrannosaurus" },
@@ -12911,7 +12911,7 @@
 			"",
 			"A velociraptor is around 1-1/2 feet tall and 7 feet long, and weighs 35 pounds.",
 			"",
-			"**Family:** [Dinosaur](monster/family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
 	"velociraptor": { "copyof": "dinosaur,_velociraptor" },
@@ -13104,7 +13104,7 @@
 			"",
 			"An aghash stands between 5 and 6 feet tall and weighs about 100 pounds.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"aghash": { "copyof": "div,_aghash" },
@@ -13196,7 +13196,7 @@
 			"",
 			"Unbalanced Soul: A jann-killing akvan prince spreads failure and defeat. It gains resist acid, cold, and electricity 20, and the following spell-like abilities: at will-ethereal jaunt, invisibility; 3/day-insanity, mage's disjunction, wish.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"akvan": { "copyof": "div,_akvan" },
@@ -13267,7 +13267,7 @@
 			"",
 			"All divs have some manner of esoteric flaw in their behavior; bushyastas' is hate for and avoidance of perfumed odors. These fiends loathe anyone wearing perfume or carrying aromatic flowers. Bushyastas' abhorrence of fragrant scents led to a custom of perfuming the dead in order to keep these divs away from funeral services.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"bushyasta": { "copyof": "div,_bushyasta" },
@@ -13336,7 +13336,7 @@
 			"",
 			"Serving greater divs or mortal spellcasters, divs deliver messages, most directly plucked from secret sources. Dorus' spell-like abilities make them excellent spies, granting them the ability to infiltrate, eavesdrop while invisible, and charm their way out of perilous situations. Those serving mortals pride themselves on manipulating their masters into furthering the divs' own ends. Many evil spellcasters seeking profane power and ancient evil secrets seek to take dorus as familiars. A neutral evil spellcaster of at least 7th level who takes the Improved Familiar feat can select a doru as a familiar.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"doru": { "copyof": "div,_doru" },
@@ -13417,7 +13417,7 @@
 			"",
 			"In combat, druj nasus use their droning ability to weaken and incapacitate their enemies, and then summon swarms of biting insects to wash over them, often doing so under the protection of invisibility. Once their foes are subjected to the distracting nature of the swarms, the div closes into melee range, taking full advantage of its swarmwalking ability. Against enemies that outnumber them or are more powerful, the divs make great use of flyby attacks, often paired with invisibility, to keep out of reach.",
 			"",
-			"**Family:** [Div](monster/family/div)",
+			"**Family:** [Div](family/div)",
 			"",
 			"### Habitat",
 			"",
@@ -13499,7 +13499,7 @@
 			"",
 			"The typical ghawwas stands 12 feet tall and weighs close to 1,200 pounds.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"ghawwas": { "copyof": "div,_ghawwas" },
@@ -13570,7 +13570,7 @@
 			"",
 			"Pairakas stand 6 feet tall and weigh around 150 pounds. Their skin color varies widely between individuals.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"pairaka": { "copyof": "div,_pairaka" },
@@ -13639,7 +13639,7 @@
 			"",
 			"Sepids stand 13 feet tall and weigh upward of 1,500 pounds.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"sepid": { "copyof": "div,_sepid" },
@@ -13710,7 +13710,7 @@
 			"",
 			"Most shiras stand 10 feet tall and weigh approximately 1,200 pounds.",
 			"",
-			"**Family:** [Div](monster/family/div)"
+			"**Family:** [Div](family/div)"
 		]
 	},
 	"shira": { "copyof": "div,_shira" },
@@ -14240,7 +14240,7 @@
 			"",
 			"Lording over the darkest swamps and marshes, black dragons are the undisputed masters of their domain, ruling through cruelty and intimidation. Those who dwell within a black dragon's reach live in fear. Black dragons tend to make their lairs in remote parts of the swamp, preferably in caves at the bottom of dark and fetid pools. Inside, they pile up their filthy treasure and sleep amid the roots and muck. Black dragons prefer their food a bit rotten and will often allow a meal to sit in a pool for days before consuming it. Black dragons prefer treasures that do not rot or decay, making their hoard, full of coins, gemstones, jewelry, and other objects made from stone or metal.",
 			"",
-			"**Family:** [Black Dragon](monster/family/black_dragon)"
+			"**Family:** [Black Dragon](family/black_dragon)"
 		]
 	},
 	"adult_black_dragon": { "copyof": "dragon_black,_adult_black_dragon" },
@@ -14300,7 +14300,7 @@
 			"",
 			"Lording over the darkest swamps and marshes, black dragons are the undisputed masters of their domain, ruling through cruelty and intimidation. Those who dwell within a black dragon's reach live in fear. Black dragons tend to make their lairs in remote parts of the swamp, preferably in caves at the bottom of dark and fetid pools. Inside, they pile up their filthy treasure and sleep amid the roots and muck. Black dragons prefer their food a bit rotten and will often allow a meal to sit in a pool for days before consuming it. Black dragons prefer treasures that do not rot or decay, making their hoard, full of coins, gemstones, jewelry, and other objects made from stone or metal.",
 			"",
-			"**Family:** [Black Dragon](monster/family/black_dragon)"
+			"**Family:** [Black Dragon](family/black_dragon)"
 		]
 	},
 	"ancient_black_dragon": { "copyof": "dragon_black,_ancient_black_dragon" },
@@ -14351,7 +14351,7 @@
 			"",
 			"Lording over the darkest swamps and marshes, black dragons are the undisputed masters of their domain, ruling through cruelty and intimidation. Those who dwell within a black dragon's reach live in fear. Black dragons tend to make their lairs in remote parts of the swamp, preferably in caves at the bottom of dark and fetid pools. Inside, they pile up their filthy treasure and sleep amid the roots and muck. Black dragons prefer their food a bit rotten and will often allow a meal to sit in a pool for days before consuming it. Black dragons prefer treasures that do not rot or decay, making their hoard, full of coins, gemstones, jewelry, and other objects made from stone or metal.",
 			"",
-			"**Family:** [Black Dragon](monster/family/black_dragon)"
+			"**Family:** [Black Dragon](family/black_dragon)"
 		]
 	},
 	"young_black_dragon": { "copyof": "dragon_black,_young_black_dragon" },
@@ -14425,7 +14425,7 @@
 			"",
 			"Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.",
 			"",
-			"**Family:** [Blue Dragon](monster/family/blue_dragon)"
+			"**Family:** [Blue Dragon](family/blue_dragon)"
 		]
 	},
 	"adult_blue_dragon": { "copyof": "dragon_blue,_adult_blue_dragon" },
@@ -14486,7 +14486,7 @@
 			"",
 			"Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.",
 			"",
-			"**Family:** [Blue Dragon](monster/family/blue_dragon)"
+			"**Family:** [Blue Dragon](family/blue_dragon)"
 		]
 	},
 	"ancient_blue_dragon": { "copyof": "dragon_blue,_ancient_blue_dragon" },
@@ -14540,7 +14540,7 @@
 			"",
 			"Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.",
 			"",
-			"**Family:** [Blue Dragon](monster/family/blue_dragon)"
+			"**Family:** [Blue Dragon](family/blue_dragon)"
 		]
 	},
 	"young_blue_dragon": { "copyof": "dragon_blue,_young_blue_dragon" },
@@ -14598,7 +14598,7 @@
 			"",
 			"Consummate conversationalists, brass dragons prefer to talk instead of fight. Brass dragons lair near humanoid settlements, where they can hear the most recent news and gossip.",
 			"",
-			"**Family:** [Brass Dragon](monster/family/brass_dragon)"
+			"**Family:** [Brass Dragon](family/brass_dragon)"
 		]
 	},
 	"adult_brass_dragon": { "copyof": "dragon_brass,_adult_brass_dragon" },
@@ -14660,7 +14660,7 @@
 			"",
 			"Consummate conversationalists, brass dragons prefer to talk instead of fight. Brass dragons lair near humanoid settlements, where they can hear the most recent news and gossip.",
 			"",
-			"**Family:** [Brass Dragon](monster/family/brass_dragon)"
+			"**Family:** [Brass Dragon](family/brass_dragon)"
 		]
 	},
 	"ancient_brass_dragon": { "copyof": "dragon_brass,_ancient_brass_dragon" },
@@ -14718,7 +14718,7 @@
 			"",
 			"Consummate conversationalists, brass dragons prefer to talk instead of fight. Brass dragons lair near humanoid settlements, where they can hear the most recent news and gossip.",
 			"",
-			"**Family:** [Brass Dragon](monster/family/brass_dragon)"
+			"**Family:** [Brass Dragon](family/brass_dragon)"
 		]
 	},
 	"young_brass_dragon": { "copyof": "dragon_brass,_young_brass_dragon" },
@@ -14776,7 +14776,7 @@
 			"",
 			"Bronze dragons have been known to ally with travelers and adventurers if the cause and reward is right and just.",
 			"",
-			"**Family:** [Bronze Dragon](monster/family/bronze_dragon)"
+			"**Family:** [Bronze Dragon](family/bronze_dragon)"
 		]
 	},
 	"adult_bronze_dragon": { "copyof": "dragon_bronze,_adult_bronze_dragon" },
@@ -14838,7 +14838,7 @@
 			"",
 			"Bronze dragons have been known to ally with travelers and adventurers if the cause and reward is right and just.",
 			"",
-			"**Family:** [Bronze Dragon](monster/family/bronze_dragon)"
+			"**Family:** [Bronze Dragon](family/bronze_dragon)"
 		]
 	},
 	"ancient_bronze_dragon": { "copyof": "dragon_bronze,_ancient_bronze_dragon" },
@@ -14894,7 +14894,7 @@
 			"",
 			"Bronze dragons have been known to ally with travelers and adventurers if the cause and reward is right and just.",
 			"",
-			"**Family:** [Bronze Dragon](monster/family/bronze_dragon)"
+			"**Family:** [Bronze Dragon](family/bronze_dragon)"
 		]
 	},
 	"young_bronze_dragon": { "copyof": "dragon_bronze,_young_bronze_dragon" },
@@ -14952,7 +14952,7 @@
 			"",
 			"This whimsical dragon spends most of its time in combat trying to annoy and frustrate its enemies.",
 			"",
-			"**Family:** [Copper Dragon](monster/family/copper_dragon)"
+			"**Family:** [Copper Dragon](family/copper_dragon)"
 		]
 	},
 	"adult_copper_dragon": { "copyof": "dragon_copper,_adult_copper_dragon" },
@@ -15014,7 +15014,7 @@
 			"",
 			"This whimsical dragon spends most of its time in combat trying to annoy and frustrate its enemies.",
 			"",
-			"**Family:** [Copper Dragon](monster/family/copper_dragon)"
+			"**Family:** [Copper Dragon](family/copper_dragon)"
 		]
 	},
 	"ancient_copper_dragon": { "copyof": "dragon_copper,_ancient_copper_dragon" },
@@ -15070,7 +15070,7 @@
 			"",
 			"This whimsical dragon spends most of its time in combat trying to annoy and frustrate its enemies.",
 			"",
-			"**Family:** [Copper Dragon](monster/family/copper_dragon)"
+			"**Family:** [Copper Dragon](family/copper_dragon)"
 		]
 	},
 	"young_copper_dragon": { "copyof": "dragon_copper,_young_copper_dragon" },
@@ -15123,7 +15123,7 @@
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"adult_astral_dragon": { "copyof": "dragon_esoteric,_astral,_adult_astral_dragon" },
@@ -15176,7 +15176,7 @@
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"ancient_astral_dragon": { "copyof": "dragon_esoteric,_astral,_ancient_astral_dragon" },
@@ -15230,7 +15230,7 @@
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"young_astral_dragon": { "copyof": "dragon_esoteric,_astral,_young_astral_dragon" },
@@ -15283,7 +15283,7 @@
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"adult_dream_dragon": { "copyof": "dragon_esoteric,_dream,_adult_dream_dragon" },
@@ -15336,7 +15336,7 @@
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"ancient_dream_dragon": { "copyof": "dragon_esoteric,_dream,_ancient_dream_dragon" },
@@ -15389,7 +15389,7 @@
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"young_dream_dragon": { "copyof": "dragon_esoteric,_dream,_young_dream_dragon" },
@@ -15442,7 +15442,7 @@
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"adult_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_adult_etheric_dragon" },
@@ -15495,7 +15495,7 @@
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"ancient_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_ancient_etheric_dragon" },
@@ -15547,7 +15547,7 @@
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"young_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_young_etheric_dragon" },
@@ -15600,7 +15600,7 @@
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"adult_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_adult_nightmare_dragon" },
@@ -15653,7 +15653,7 @@
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"ancient_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_ancient_nightmare_dragon" },
@@ -15704,7 +15704,7 @@
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"young_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_young_nightmare_dragon" },
@@ -15757,7 +15757,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"adult_occult_dragon": { "copyof": "dragon_esoteric,_occult,_adult_occult_dragon" },
@@ -15810,7 +15810,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"ancient_occult_dragon": { "copyof": "dragon_esoteric,_occult,_ancient_occult_dragon" },
@@ -15864,7 +15864,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** [Esoteric Dragon](monster/family/esoteric_dragon)"
+			"**Family:** [Esoteric Dragon](family/esoteric_dragon)"
 		]
 	},
 	"young_occult_dragon": { "copyof": "dragon_esoteric,_occult,_young_occult_dragon" },
@@ -15923,7 +15923,7 @@
 			"",
 			"Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid.",
 			"",
-			"**Family:** [Gold Dragon](monster/family/gold_dragon)"
+			"**Family:** [Gold Dragon](family/gold_dragon)"
 		]
 	},
 	"adult_gold_dragon": { "copyof": "dragon_gold,_adult_gold_dragon" },
@@ -15986,7 +15986,7 @@
 			"",
 			"Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid.",
 			"",
-			"**Family:** [Gold Dragon](monster/family/gold_dragon)"
+			"**Family:** [Gold Dragon](family/gold_dragon)"
 		]
 	},
 	"ancient_gold_dragon": { "copyof": "dragon_gold,_ancient_gold_dragon" },
@@ -16043,7 +16043,7 @@
 			"",
 			"Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid.",
 			"",
-			"**Family:** [Gold Dragon](monster/family/gold_dragon)"
+			"**Family:** [Gold Dragon](family/gold_dragon)"
 		]
 	},
 	"young_gold_dragon": { "copyof": "dragon_gold,_young_gold_dragon" },
@@ -16100,7 +16100,7 @@
 			"",
 			"Green dragons dwell in the ancient forests of the world, prowling under towering canopies in search of prey. Of all the chromatic dragons, green dragons are perhaps the easiest to deal with diplomatically.",
 			"",
-			"**Family:** [Green Dragon](monster/family/green_dragon)"
+			"**Family:** [Green Dragon](family/green_dragon)"
 		]
 	},
 	"adult_green_dragon": { "copyof": "dragon_green,_adult_green_dragon" },
@@ -16161,7 +16161,7 @@
 			"",
 			"Green dragons dwell in the ancient forests of the world, prowling under towering canopies in search of prey. Of all the chromatic dragons, green dragons are perhaps the easiest to deal with diplomatically.",
 			"",
-			"**Family:** [Green Dragon](monster/family/green_dragon)"
+			"**Family:** [Green Dragon](family/green_dragon)"
 		]
 	},
 	"ancient_green_dragon": { "copyof": "dragon_green,_ancient_green_dragon" },
@@ -16215,7 +16215,7 @@
 			"",
 			"Green dragons dwell in the ancient forests of the world, prowling under towering canopies in search of prey. Of all the chromatic dragons, green dragons are perhaps the easiest to deal with diplomatically.",
 			"",
-			"**Family:** [Green Dragon](monster/family/green_dragon)"
+			"**Family:** [Green Dragon](family/green_dragon)"
 		]
 	},
 	"young_green_dragon": { "copyof": "dragon_green,_young_green_dragon" },
@@ -16273,7 +16273,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** [Forest Dragon](monster/family/forest_dragon)"
+			"**Family:** [Forest Dragon](family/forest_dragon)"
 		]
 	},
 	"adult_forest_dragon": { "copyof": "dragon_imperial,_forest,_adult_forest_dragon" },
@@ -16335,7 +16335,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** [Forest Dragon](monster/family/forest_dragon)"
+			"**Family:** [Forest Dragon](family/forest_dragon)"
 		]
 	},
 	"ancient_forest_dragon": { "copyof": "dragon_imperial,_forest,_ancient_forest_dragon" },
@@ -16392,7 +16392,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** [Forest Dragon](monster/family/forest_dragon)"
+			"**Family:** [Forest Dragon](family/forest_dragon)"
 		]
 	},
 	"young_forest_dragon": { "copyof": "dragon_imperial,_forest,_young_forest_dragon" },
@@ -16450,7 +16450,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons-or jiaolungs, as they are known in many lands-are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** [Sea Dragon](monster/family/sea_dragon)"
+			"**Family:** [Sea Dragon](family/sea_dragon)"
 		]
 	},
 	"adult_sea_dragon": { "copyof": "dragon_imperial,_sea,_adult_sea_dragon" },
@@ -16512,7 +16512,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons-or jiaolungs, as they are known in many lands-are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** [Sea Dragon](monster/family/sea_dragon)"
+			"**Family:** [Sea Dragon](family/sea_dragon)"
 		]
 	},
 	"ancient_sea_dragon": { "copyof": "dragon_imperial,_sea,_ancient_sea_dragon" },
@@ -16569,7 +16569,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons-or jiaolungs, as they are known in many lands-are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** [Sea Dragon](monster/family/sea_dragon)"
+			"**Family:** [Sea Dragon](family/sea_dragon)"
 		]
 	},
 	"young_sea_dragon": { "copyof": "dragon_imperial,_sea,_young_sea_dragon" },
@@ -16627,7 +16627,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** [Sky Dragon](monster/family/sky_dragon)"
+			"**Family:** [Sky Dragon](family/sky_dragon)"
 		]
 	},
 	"adult_sky_dragon": { "copyof": "dragon_imperial,_sky,_adult_sky_dragon" },
@@ -16688,7 +16688,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** [Sky Dragon](monster/family/sky_dragon)"
+			"**Family:** [Sky Dragon](family/sky_dragon)"
 		]
 	},
 	"ancient_sky_dragon": { "copyof": "dragon_imperial,_sky,_ancient_sky_dragon" },
@@ -16745,7 +16745,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** [Sky Dragon](monster/family/sky_dragon)"
+			"**Family:** [Sky Dragon](family/sky_dragon)"
 		]
 	},
 	"young_sky_dragon": { "copyof": "dragon_imperial,_sky,_young_sky_dragon" },
@@ -16803,7 +16803,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** [Sovereign Dragon](monster/family/sovereign_dragon)"
+			"**Family:** [Sovereign Dragon](family/sovereign_dragon)"
 		]
 	},
 	"adult_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_adult_sovereign_dragon" },
@@ -16865,7 +16865,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** [Sovereign Dragon](monster/family/sovereign_dragon)"
+			"**Family:** [Sovereign Dragon](family/sovereign_dragon)"
 		]
 	},
 	"ancient_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_ancient_sovereign_dragon" },
@@ -16922,7 +16922,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** [Sovereign Dragon](monster/family/sovereign_dragon)"
+			"**Family:** [Sovereign Dragon](family/sovereign_dragon)"
 		]
 	},
 	"young_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_young_sovereign_dragon" },
@@ -16980,7 +16980,7 @@
 			"",
 			"Underworld dragons-also called futsanglungs-are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stonelike bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** [Underworld Dragon](monster/family/underworld_dragon)"
+			"**Family:** [Underworld Dragon](family/underworld_dragon)"
 		]
 	},
 	"adult_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_adult_underworld_dragon" },
@@ -17042,7 +17042,7 @@
 			"",
 			"Underworld dragons-also called futsanglungs-are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stonelike bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** [Underworld Dragon](monster/family/underworld_dragon)"
+			"**Family:** [Underworld Dragon](family/underworld_dragon)"
 		]
 	},
 	"ancient_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_ancient_underworld_dragon" },
@@ -17100,7 +17100,7 @@
 			"",
 			"Underworld dragons-also called futsanglungs-are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stonelike bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** [Underworld Dragon](monster/family/underworld_dragon)"
+			"**Family:** [Underworld Dragon](family/underworld_dragon)"
 		]
 	},
 	"young_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_young_underworld_dragon" },
@@ -17450,7 +17450,7 @@
 			"",
 			"Lunar dragons frequently interact with mortals, spending long hours watching the activities occurring on planets that interest them.",
 			"",
-			"**Family:** [Lunar Dragon](monster/family/lunar_dragon)"
+			"**Family:** [Lunar Dragon](family/lunar_dragon)"
 		]
 	},
 	"adult_lunar_dragon": { "copyof": "dragon_outer,_lunar,_adult_lunar_dragon" },
@@ -17513,7 +17513,7 @@
 			"",
 			"Lunar dragons frequently interact with mortals, spending long hours watching the activities occurring on planets that interest them.",
 			"",
-			"**Family:** [Lunar Dragon](monster/family/lunar_dragon)"
+			"**Family:** [Lunar Dragon](family/lunar_dragon)"
 		]
 	},
 	"ancient_lunar_dragon": { "copyof": "dragon_outer,_lunar,_ancient_lunar_dragon" },
@@ -17570,7 +17570,7 @@
 			"",
 			"Lunar dragons frequently interact with mortals, spending long hours watching the activities occurring on planets that interest them.",
 			"",
-			"**Family:** [Lunar Dragon](monster/family/lunar_dragon)"
+			"**Family:** [Lunar Dragon](family/lunar_dragon)"
 		]
 	},
 	"young_lunar_dragon": { "copyof": "dragon_outer,_lunar,_young_lunar_dragon" },
@@ -17628,7 +17628,7 @@
 			"",
 			"Arrogant and proud, solar dragons see themselves as the originators of light and life in the vastness of space. They treat all living creatures as their own creations.",
 			"",
-			"**Family:** [Solar Dragon](monster/family/solar_dragon)"
+			"**Family:** [Solar Dragon](family/solar_dragon)"
 		]
 	},
 	"adult_solar_dragon": { "copyof": "dragon_outer,_solar,_adult_solar_dragon" },
@@ -17690,7 +17690,7 @@
 			"",
 			"Arrogant and proud, solar dragons see themselves as the originators of light and life in the vastness of space. They treat all living creatures as their own creations.",
 			"",
-			"**Family:** [Solar Dragon](monster/family/solar_dragon)"
+			"**Family:** [Solar Dragon](family/solar_dragon)"
 		]
 	},
 	"ancient_solar_dragon": { "copyof": "dragon_outer,_solar,_ancient_solar_dragon" },
@@ -17747,7 +17747,7 @@
 			"",
 			"Arrogant and proud, solar dragons see themselves as the originators of light and life in the vastness of space. They treat all living creatures as their own creations.",
 			"",
-			"**Family:** [Solar Dragon](monster/family/solar_dragon)"
+			"**Family:** [Solar Dragon](family/solar_dragon)"
 		]
 	},
 	"young_solar_dragon": { "copyof": "dragon_outer,_solar,_young_solar_dragon" },
@@ -17806,7 +17806,7 @@
 			"",
 			"Guardians of history, time dragons are the most powerful of the outer dragons. Watchers and waiters, time dragons guard the universe against those that would interfere with the natural temporal order.",
 			"",
-			"**Family:** [Time Dragon](monster/family/time_dragon)"
+			"**Family:** [Time Dragon](family/time_dragon)"
 		]
 	},
 	"adult_time_dragon": { "copyof": "dragon_outer,_time,_adult_time_dragon" },
@@ -17869,7 +17869,7 @@
 			"",
 			"Guardians of history, time dragons are the most powerful of the outer dragons. Watchers and waiters, time dragons guard the universe against those that would interfere with the natural temporal order.",
 			"",
-			"**Family:** [Time Dragon](monster/family/time_dragon)"
+			"**Family:** [Time Dragon](family/time_dragon)"
 		]
 	},
 	"ancient_time_dragon": { "copyof": "dragon_outer,_time,_ancient_time_dragon" },
@@ -17927,7 +17927,7 @@
 			"",
 			"Guardians of history, time dragons are the most powerful of the outer dragons. Watchers and waiters, time dragons guard the universe against those that would interfere with the natural temporal order.",
 			"",
-			"**Family:** [Time Dragon](monster/family/time_dragon)"
+			"**Family:** [Time Dragon](family/time_dragon)"
 		]
 	},
 	"young_time_dragon": { "copyof": "dragon_outer,_time,_young_time_dragon" },
@@ -17985,7 +17985,7 @@
 			"",
 			"Void dragons have been tainted by long exposure to the terrible alien entities that dwell in deep space. Though some continue to struggle against the inevitable tide of annihilation, many have embraced the encroaching void and exist only to feed and destroy.",
 			"",
-			"**Family:** [Void Dragon](monster/family/void_dragon)"
+			"**Family:** [Void Dragon](family/void_dragon)"
 		]
 	},
 	"adult_void_dragon": { "copyof": "dragon_outer,_void,_adult_void_dragon" },
@@ -18048,7 +18048,7 @@
 			"",
 			"Void dragons have been tainted by long exposure to the terrible alien entities that dwell in deep space. Though some continue to struggle against the inevitable tide of annihilation, many have embraced the encroaching void and exist only to feed and destroy.",
 			"",
-			"**Family:** [Void Dragon](monster/family/void_dragon)"
+			"**Family:** [Void Dragon](family/void_dragon)"
 		]
 	},
 	"ancient_void_dragon": { "copyof": "dragon_outer,_void,_ancient_void_dragon" },
@@ -18105,7 +18105,7 @@
 			"",
 			"Void dragons have been tainted by long exposure to the terrible alien entities that dwell in deep space. Though some continue to struggle against the inevitable tide of annihilation, many have embraced the encroaching void and exist only to feed and destroy.",
 			"",
-			"**Family:** [Void Dragon](monster/family/void_dragon)"
+			"**Family:** [Void Dragon](family/void_dragon)"
 		]
 	},
 	"young_void_dragon": { "copyof": "dragon_outer,_void,_young_void_dragon" },
@@ -18164,7 +18164,7 @@
 			"",
 			"Vortex dragons are the undisputed masters of travel across the galaxies, serving as messengers and observers for the greatest outer dragons and godlike entities in the great beyond.",
 			"",
-			"**Family:** [Vortex Dragon](monster/family/vortex_dragon)"
+			"**Family:** [Vortex Dragon](family/vortex_dragon)"
 		]
 	},
 	"adult_vortex_dragon": { "copyof": "dragon_outer,_vortex,_adult_vortex_dragon" },
@@ -18227,7 +18227,7 @@
 			"",
 			"Vortex dragons are the undisputed masters of travel across the galaxies, serving as messengers and observers for the greatest outer dragons and godlike entities in the great beyond.",
 			"",
-			"**Family:** [Vortex Dragon](monster/family/vortex_dragon)"
+			"**Family:** [Vortex Dragon](family/vortex_dragon)"
 		]
 	},
 	"ancient_vortex_dragon": { "copyof": "dragon_outer,_vortex,_ancient_vortex_dragon" },
@@ -18285,7 +18285,7 @@
 			"",
 			"Vortex dragons are the undisputed masters of travel across the galaxies, serving as messengers and observers for the greatest outer dragons and godlike entities in the great beyond.",
 			"",
-			"**Family:** [Vortex Dragon](monster/family/vortex_dragon)"
+			"**Family:** [Vortex Dragon](family/vortex_dragon)"
 		]
 	},
 	"young_vortex_dragon": { "copyof": "dragon_outer,_vortex,_young_vortex_dragon" },
@@ -18337,7 +18337,7 @@
 			"",
 			"These planar dragons ravage places of growth, life, and fecundity.",
 			"",
-			"**Family:** [Apocalypse Dragon](monster/family/apocalypse_dragon)"
+			"**Family:** [Apocalypse Dragon](family/apocalypse_dragon)"
 		]
 	},
 	"adult_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_adult_apocalypse_dragon" },
@@ -18393,7 +18393,7 @@
 			"",
 			"These planar dragons ravage places of growth, life, and fecundity.",
 			"",
-			"**Family:** [Apocalypse Dragon](monster/family/apocalypse_dragon)"
+			"**Family:** [Apocalypse Dragon](family/apocalypse_dragon)"
 		]
 	},
 	"ancient_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_ancient_apocalypse_dragon" },
@@ -18441,7 +18441,7 @@
 			"",
 			"These planar dragons ravage places of growth, life, and fecundity.",
 			"",
-			"**Family:** [Apocalypse Dragon](monster/family/apocalypse_dragon)"
+			"**Family:** [Apocalypse Dragon](family/apocalypse_dragon)"
 		]
 	},
 	"young_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_young_apocalypse_dragon" },
@@ -18493,7 +18493,7 @@
 			"",
 			"Bliss dragons are self-appointed wardens of wildlife and wilderness, sometimes even displacing fey and magical beasts whose ethics fall short of the dragons' high standards. Bliss dragons often sequester refugees in their extraplanar glades, granting sanctuary and healing to those in need.",
 			"",
-			"**Family:** [Bliss Dragon](monster/family/bliss_dragon)"
+			"**Family:** [Bliss Dragon](family/bliss_dragon)"
 		]
 	},
 	"adult_bliss_dragon": { "copyof": "dragon_planar,_bliss,_adult_bliss_dragon" },
@@ -18549,7 +18549,7 @@
 			"",
 			"Bliss dragons are self-appointed wardens of wildlife and wilderness, sometimes even displacing fey and magical beasts whose ethics fall short of the dragons' high standards. Bliss dragons often sequester refugees in their extraplanar glades, granting sanctuary and healing to those in need.",
 			"",
-			"**Family:** [Bliss Dragon](monster/family/bliss_dragon)"
+			"**Family:** [Bliss Dragon](family/bliss_dragon)"
 		]
 	},
 	"ancient_bliss_dragon": { "copyof": "dragon_planar,_bliss,_ancient_bliss_dragon" },
@@ -18598,7 +18598,7 @@
 			"",
 			"Bliss dragons are self-appointed wardens of wildlife and wilderness, sometimes even displacing fey and magical beasts whose ethics fall short of the dragons' high standards. Bliss dragons often sequester refugees in their extraplanar glades, granting sanctuary and healing to those in need.",
 			"",
-			"**Family:** [Bliss Dragon](monster/family/bliss_dragon)"
+			"**Family:** [Bliss Dragon](family/bliss_dragon)"
 		]
 	},
 	"young_bliss_dragon": { "copyof": "dragon_planar,_bliss,_young_bliss_dragon" },
@@ -18656,7 +18656,7 @@
 			"",
 			"Crypt dragons patrol the Inner Planes, ever vigilant for transgressions against the honored dead or the passage of souls to the afterlife-be they the souls of heroes or villains.",
 			"",
-			"**Family:** [Crypt Dragon](monster/family/crypt_dragon)"
+			"**Family:** [Crypt Dragon](family/crypt_dragon)"
 		]
 	},
 	"adult_crypt_dragon": { "copyof": "dragon_planar,_crypt,_adult_crypt_dragon" },
@@ -18718,7 +18718,7 @@
 			"",
 			"Crypt dragons patrol the Inner Planes, ever vigilant for transgressions against the honored dead or the passage of souls to the afterlife-be they the souls of heroes or villains.",
 			"",
-			"**Family:** [Crypt Dragon](monster/family/crypt_dragon)"
+			"**Family:** [Crypt Dragon](family/crypt_dragon)"
 		]
 	},
 	"ancient_crypt_dragon": { "copyof": "dragon_planar,_crypt,_ancient_crypt_dragon" },
@@ -18773,7 +18773,7 @@
 			"",
 			"Crypt dragons patrol the Inner Planes, ever vigilant for transgressions against the honored dead or the passage of souls to the afterlife-be they the souls of heroes or villains.",
 			"",
-			"**Family:** [Crypt Dragon](monster/family/crypt_dragon)"
+			"**Family:** [Crypt Dragon](family/crypt_dragon)"
 		]
 	},
 	"young_crypt_dragon": { "copyof": "dragon_planar,_crypt,_young_crypt_dragon" },
@@ -18829,7 +18829,7 @@
 			"",
 			"These planar dragons establish bastions of order and transform lawless towns into shining examples of urban grandeur.",
 			"",
-			"**Family:** [Edict Dragon](monster/family/edict_dragon)"
+			"**Family:** [Edict Dragon](family/edict_dragon)"
 		]
 	},
 	"adult_edict_dragon": { "copyof": "dragon_planar,_edict,_adult_edict_dragon" },
@@ -18889,7 +18889,7 @@
 			"",
 			"These planar dragons establish bastions of order and transform lawless towns into shining examples of urban grandeur.",
 			"",
-			"**Family:** [Edict Dragon](monster/family/edict_dragon)"
+			"**Family:** [Edict Dragon](family/edict_dragon)"
 		]
 	},
 	"ancient_edict_dragon": { "copyof": "dragon_planar,_edict,_ancient_edict_dragon" },
@@ -18941,7 +18941,7 @@
 			"",
 			"These planar dragons establish bastions of order and transform lawless towns into shining examples of urban grandeur.",
 			"",
-			"**Family:** [Edict Dragon](monster/family/edict_dragon)"
+			"**Family:** [Edict Dragon](family/edict_dragon)"
 		]
 	},
 	"young_edict_dragon": { "copyof": "dragon_planar,_edict,_young_edict_dragon" },
@@ -18999,7 +18999,7 @@
 			"",
 			"Despite their best intentions, the appropriately named havoc dragons often cause collateral damage as they develop whimsical wonderlands of revelry and relaxation.",
 			"",
-			"**Family:** [Havoc Dragon](monster/family/havoc_dragon)"
+			"**Family:** [Havoc Dragon](family/havoc_dragon)"
 		]
 	},
 	"adult_havoc_dragon": { "copyof": "dragon_planar,_havoc,_adult_havoc_dragon" },
@@ -19061,7 +19061,7 @@
 			"",
 			"Despite their best intentions, the appropriately named havoc dragons often cause collateral damage as they develop whimsical wonderlands of revelry and relaxation.",
 			"",
-			"**Family:** [Havoc Dragon](monster/family/havoc_dragon)"
+			"**Family:** [Havoc Dragon](family/havoc_dragon)"
 		]
 	},
 	"ancient_havoc_dragon": { "copyof": "dragon_planar,_havoc,_ancient_havoc_dragon" },
@@ -19116,7 +19116,7 @@
 			"",
 			"Despite their best intentions, the appropriately named havoc dragons often cause collateral damage as they develop whimsical wonderlands of revelry and relaxation.",
 			"",
-			"**Family:** [Havoc Dragon](monster/family/havoc_dragon)"
+			"**Family:** [Havoc Dragon](family/havoc_dragon)"
 		]
 	},
 	"young_havoc_dragon": { "copyof": "dragon_planar,_havoc,_young_havoc_dragon" },
@@ -19174,7 +19174,7 @@
 			"",
 			"Infernal dragons delight in recruiting large entourages of overly ambitious mortals who gladly debase themselves in exchange for influence.",
 			"",
-			"**Family:** [Infernal Dragon](monster/family/infernal_dragon)"
+			"**Family:** [Infernal Dragon](family/infernal_dragon)"
 		]
 	},
 	"adult_infernal_dragon": { "copyof": "dragon_planar,_infernal,_adult_infernal_dragon" },
@@ -19238,7 +19238,7 @@
 			"",
 			"Infernal dragons delight in recruiting large entourages of overly ambitious mortals who gladly debase themselves in exchange for influence.",
 			"",
-			"**Family:** [Infernal Dragon](monster/family/infernal_dragon)"
+			"**Family:** [Infernal Dragon](family/infernal_dragon)"
 		]
 	},
 	"ancient_infernal_dragon": { "copyof": "dragon_planar,_infernal,_ancient_infernal_dragon" },
@@ -19292,7 +19292,7 @@
 			"",
 			"Infernal dragons delight in recruiting large entourages of overly ambitious mortals who gladly debase themselves in exchange for influence.",
 			"",
-			"**Family:** [Infernal Dragon](monster/family/infernal_dragon)"
+			"**Family:** [Infernal Dragon](family/infernal_dragon)"
 		]
 	},
 	"young_infernal_dragon": { "copyof": "dragon_planar,_infernal,_young_infernal_dragon" },
@@ -19350,7 +19350,7 @@
 			"",
 			"Paradise dragons create holy sanctums of light and harmony to shield their followers from the multiverse's evil.",
 			"",
-			"**Family:** [Paradise Dragon](monster/family/paradise_dragon)"
+			"**Family:** [Paradise Dragon](family/paradise_dragon)"
 		]
 	},
 	"adult_paradise_dragon": { "copyof": "dragon_planar,_paradise,_adult_paradise_dragon" },
@@ -19412,7 +19412,7 @@
 			"",
 			"Paradise dragons create holy sanctums of light and harmony to shield their followers from the multiverse's evil.",
 			"",
-			"**Family:** [Paradise Dragon](monster/family/paradise_dragon)"
+			"**Family:** [Paradise Dragon](family/paradise_dragon)"
 		]
 	},
 	"ancient_paradise_dragon": { "copyof": "dragon_planar,_paradise,_ancient_paradise_dragon" },
@@ -19467,7 +19467,7 @@
 			"",
 			"Paradise dragons create holy sanctums of light and harmony to shield their followers from the multiverse's evil.",
 			"",
-			"**Family:** [Paradise Dragon](monster/family/paradise_dragon)"
+			"**Family:** [Paradise Dragon](family/paradise_dragon)"
 		]
 	},
 	"young_paradise_dragon": { "copyof": "dragon_planar,_paradise,_young_paradise_dragon" },
@@ -19525,7 +19525,7 @@
 			"",
 			"Wherever they go, rift dragons leave behind shattered ruins. These scaled terrors often intimidate local humanoid groups into worshiping them as demigods of destruction.",
 			"",
-			"**Family:** [Rift Dragon](monster/family/rift_dragon)"
+			"**Family:** [Rift Dragon](family/rift_dragon)"
 		]
 	},
 	"adult_rift_dragon": { "copyof": "dragon_planar,_rift,_adult_rift_dragon" },
@@ -19587,7 +19587,7 @@
 			"",
 			"Wherever they go, rift dragons leave behind shattered ruins. These scaled terrors often intimidate local humanoid groups into worshiping them as demigods of destruction.",
 			"",
-			"**Family:** [Rift Dragon](monster/family/rift_dragon)"
+			"**Family:** [Rift Dragon](family/rift_dragon)"
 		]
 	},
 	"ancient_rift_dragon": { "copyof": "dragon_planar,_rift,_ancient_rift_dragon" },
@@ -19641,7 +19641,7 @@
 			"",
 			"Wherever they go, rift dragons leave behind shattered ruins. These scaled terrors often intimidate local humanoid groups into worshiping them as demigods of destruction.",
 			"",
-			"**Family:** [Rift Dragon](monster/family/rift_dragon)"
+			"**Family:** [Rift Dragon](family/rift_dragon)"
 		]
 	},
 	"young_rift_dragon": { "copyof": "dragon_planar,_rift,_young_rift_dragon" },
@@ -19693,7 +19693,7 @@
 			"",
 			"These planar dragons seek out dynamic and changing places, imposing their own whimsical will when those sites no longer intrigue them.",
 			"",
-			"**Family:** [Tumult Dragon](monster/family/tumult_dragon)"
+			"**Family:** [Tumult Dragon](family/tumult_dragon)"
 		]
 	},
 	"adult_tumult_dragon": { "copyof": "dragon_planar,_tumult,_adult_tumult_dragon" },
@@ -19749,7 +19749,7 @@
 			"",
 			"These planar dragons seek out dynamic and changing places, imposing their own whimsical will when those sites no longer intrigue them.",
 			"",
-			"**Family:** [Tumult Dragon](monster/family/tumult_dragon)"
+			"**Family:** [Tumult Dragon](family/tumult_dragon)"
 		]
 	},
 	"ancient_tumult_dragon": { "copyof": "dragon_planar,_tumult,_ancient_tumult_dragon" },
@@ -19797,7 +19797,7 @@
 			"",
 			"These planar dragons seek out dynamic and changing places, imposing their own whimsical will when those sites no longer intrigue them.",
 			"",
-			"**Family:** [Tumult Dragon](monster/family/tumult_dragon)"
+			"**Family:** [Tumult Dragon](family/tumult_dragon)"
 		]
 	},
 	"young_tumult_dragon": { "copyof": "dragon_planar,_tumult,_young_tumult_dragon" },
@@ -19855,7 +19855,7 @@
 			"",
 			"Although not inherently evil, brine dragons have little patience for kindness and philanthropy. As they age, they grow more and more opinionated and obsessed with power-by adult age, a brine dragon counts itself a failure if it doesn't rule over a collection of \"lesser beings\" such as humans, merfolk, locathah, or even sahuagin.",
 			"",
-			"**Family:** [Brine Dragon](monster/family/brine_dragon)"
+			"**Family:** [Brine Dragon](family/brine_dragon)"
 		]
 	},
 	"adult_brine_dragon": { "copyof": "dragon_primal,_brine,_adult_brine_dragon" },
@@ -19918,7 +19918,7 @@
 			"",
 			"Although not inherently evil, brine dragons have little patience for kindness and philanthropy. As they age, they grow more and more opinionated and obsessed with power-by adult age, a brine dragon counts itself a failure if it doesn't rule over a collection of \"lesser beings\" such as humans, merfolk, locathah, or even sahuagin.",
 			"",
-			"**Family:** [Brine Dragon](monster/family/brine_dragon)"
+			"**Family:** [Brine Dragon](family/brine_dragon)"
 		]
 	},
 	"ancient_brine_dragon": { "copyof": "dragon_primal,_brine,_ancient_brine_dragon" },
@@ -19974,7 +19974,7 @@
 			"",
 			"Although not inherently evil, brine dragons have little patience for kindness and philanthropy. As they age, they grow more and more opinionated and obsessed with power-by adult age, a brine dragon counts itself a failure if it doesn't rule over a collection of \"lesser beings\" such as humans, merfolk, locathah, or even sahuagin.",
 			"",
-			"**Family:** [Brine Dragon](monster/family/brine_dragon)"
+			"**Family:** [Brine Dragon](family/brine_dragon)"
 		]
 	},
 	"young_brine_dragon": { "copyof": "dragon_primal,_brine,_young_brine_dragon" },
@@ -20031,7 +20031,7 @@
 			"",
 			"Cloud dragons stay out of the complicated political schemes and obsessions of other dragons (especially the chromatic dragons), preferring to live their lives freely and as the whim to travel strikes them. Exploration and viewing new lands from far above are the cloud dragon's greatest joy, rivaled only by speaking with new creatures and gaining exotic treasures from them. They keep lairs on high mountain peaks, but are often away on journeys of discovery, returning home only when they've claimed a new treasure that needs to be placed in safekeeping back home.",
 			"",
-			"**Family:** [Cloud Dragon](monster/family/cloud_dragon)"
+			"**Family:** [Cloud Dragon](family/cloud_dragon)"
 		]
 	},
 	"adult_cloud_dragon": { "copyof": "dragon_primal,_cloud,_adult_cloud_dragon" },
@@ -20093,7 +20093,7 @@
 			"",
 			"Cloud dragons stay out of the complicated political schemes and obsessions of other dragons (especially the chromatic dragons), preferring to live their lives freely and as the whim to travel strikes them. Exploration and viewing new lands from far above are the cloud dragon's greatest joy, rivaled only by speaking with new creatures and gaining exotic treasures from them. They keep lairs on high mountain peaks, but are often away on journeys of discovery, returning home only when they've claimed a new treasure that needs to be placed in safekeeping back home.",
 			"",
-			"**Family:** [Cloud Dragon](monster/family/cloud_dragon)"
+			"**Family:** [Cloud Dragon](family/cloud_dragon)"
 		]
 	},
 	"ancient_cloud_dragon": { "copyof": "dragon_primal,_cloud,_ancient_cloud_dragon" },
@@ -20145,7 +20145,7 @@
 			"",
 			"Cloud dragons stay out of the complicated political schemes and obsessions of other dragons (especially the chromatic dragons), preferring to live their lives freely and as the whim to travel strikes them. Exploration and viewing new lands from far above are the cloud dragon's greatest joy, rivaled only by speaking with new creatures and gaining exotic treasures from them. They keep lairs on high mountain peaks, but are often away on journeys of discovery, returning home only when they've claimed a new treasure that needs to be placed in safekeeping back home.",
 			"",
-			"**Family:** [Cloud Dragon](monster/family/cloud_dragon)"
+			"**Family:** [Cloud Dragon](family/cloud_dragon)"
 		]
 	},
 	"young_cloud_dragon": { "copyof": "dragon_primal,_cloud,_young_cloud_dragon" },
@@ -20203,7 +20203,7 @@
 			"",
 			"Crystal dragons tend to be exacting and even obsessive-compulsive, their personalities mirroring the precise and ordered nature of the facets of their scales. A crystal dragon's lair is a well-ordered place-these dragons find the very idea of the classic sprawl of a dragon's hoard to be shameful.",
 			"",
-			"**Family:** [Crystal Dragon](monster/family/crystal_dragon)"
+			"**Family:** [Crystal Dragon](family/crystal_dragon)"
 		]
 	},
 	"adult_crystal_dragon": { "copyof": "dragon_primal,_crystal,_adult_crystal_dragon" },
@@ -20265,7 +20265,7 @@
 			"",
 			"Crystal dragons tend to be exacting and even obsessive-compulsive, their personalities mirroring the precise and ordered nature of the facets of their scales. A crystal dragon's lair is a well-ordered place-these dragons find the very idea of the classic sprawl of a dragon's hoard to be shameful.",
 			"",
-			"**Family:** [Crystal Dragon](monster/family/crystal_dragon)"
+			"**Family:** [Crystal Dragon](family/crystal_dragon)"
 		]
 	},
 	"ancient_crystal_dragon": { "copyof": "dragon_primal,_crystal,_ancient_crystal_dragon" },
@@ -20321,7 +20321,7 @@
 			"",
 			"Crystal dragons tend to be exacting and even obsessive-compulsive, their personalities mirroring the precise and ordered nature of the facets of their scales. A crystal dragon's lair is a well-ordered place-these dragons find the very idea of the classic sprawl of a dragon's hoard to be shameful.",
 			"",
-			"**Family:** [Crystal Dragon](monster/family/crystal_dragon)"
+			"**Family:** [Crystal Dragon](family/crystal_dragon)"
 		]
 	},
 	"young_crystal_dragon": { "copyof": "dragon_primal,_crystal,_young_crystal_dragon" },
@@ -20380,7 +20380,7 @@
 			"",
 			"Temperamental and prone to violent outbursts, magma dragons are regarded by most other dragons as dangerously insane-an assumption that, more often than not, proves correct. One can rarely predict a magma dragon's state of mind until it either attacks or attempts to engage in conversation. For their part, magma dragons can justify all of their actions-they just rarely feel the need to do so.",
 			"",
-			"**Family:** [Magma Dragon](monster/family/magma_dragon)"
+			"**Family:** [Magma Dragon](family/magma_dragon)"
 		]
 	},
 	"adult_magma_dragon": { "copyof": "dragon_primal,_magma,_adult_magma_dragon" },
@@ -20445,7 +20445,7 @@
 			"",
 			"Temperamental and prone to violent outbursts, magma dragons are regarded by most other dragons as dangerously insane-an assumption that, more often than not, proves correct. One can rarely predict a magma dragon's state of mind until it either attacks or attempts to engage in conversation. For their part, magma dragons can justify all of their actions-they just rarely feel the need to do so.",
 			"",
-			"**Family:** [Magma Dragon](monster/family/magma_dragon)"
+			"**Family:** [Magma Dragon](family/magma_dragon)"
 		]
 	},
 	"ancient_magma_dragon": { "copyof": "dragon_primal,_magma,_ancient_magma_dragon" },
@@ -20502,7 +20502,7 @@
 			"",
 			"Temperamental and prone to violent outbursts, magma dragons are regarded by most other dragons as dangerously insane-an assumption that, more often than not, proves correct. One can rarely predict a magma dragon's state of mind until it either attacks or attempts to engage in conversation. For their part, magma dragons can justify all of their actions-they just rarely feel the need to do so.",
 			"",
-			"**Family:** [Magma Dragon](monster/family/magma_dragon)"
+			"**Family:** [Magma Dragon](family/magma_dragon)"
 		]
 	},
 	"young_magma_dragon": { "copyof": "dragon_primal,_magma,_young_magma_dragon" },
@@ -20560,7 +20560,7 @@
 			"",
 			"Cruel and sadistic, umbral dragons prefer the taste of undead flesh or ghostly ectoplasm, yet never turn down opportunities to consume living flesh.",
 			"",
-			"**Family:** [Umbral Dragon](monster/family/umbral_dragon)"
+			"**Family:** [Umbral Dragon](family/umbral_dragon)"
 		]
 	},
 	"adult_umbral_dragon": { "copyof": "dragon_primal,_umbral,_adult_umbral_dragon" },
@@ -20623,7 +20623,7 @@
 			"",
 			"Cruel and sadistic, umbral dragons prefer the taste of undead flesh or ghostly ectoplasm, yet never turn down opportunities to consume living flesh.",
 			"",
-			"**Family:** [Umbral Dragon](monster/family/umbral_dragon)"
+			"**Family:** [Umbral Dragon](family/umbral_dragon)"
 		]
 	},
 	"ancient_umbral_dragon": { "copyof": "dragon_primal,_umbral,_ancient_umbral_dragon" },
@@ -20680,7 +20680,7 @@
 			"",
 			"Cruel and sadistic, umbral dragons prefer the taste of undead flesh or ghostly ectoplasm, yet never turn down opportunities to consume living flesh.",
 			"",
-			"**Family:** [Umbral Dragon](monster/family/umbral_dragon)"
+			"**Family:** [Umbral Dragon](family/umbral_dragon)"
 		]
 	},
 	"young_umbral_dragon": { "copyof": "dragon_primal,_umbral,_young_umbral_dragon" },
@@ -20738,7 +20738,7 @@
 			"",
 			"Few creatures are more cruel and fearsome than the mighty red dragon. King of the chromatics, this terrible beast brings ruin and death to the lands that fall under its shadow.",
 			"",
-			"**Family:** [Red Dragon](monster/family/red_dragon)"
+			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
 	"adult_red_dragon": { "copyof": "dragon_red,_adult_red_dragon" },
@@ -20799,7 +20799,7 @@
 			"",
 			"Few creatures are more cruel and fearsome than the mighty red dragon. King of the chromatics, this terrible beast brings ruin and death to the lands that fall under its shadow.",
 			"",
-			"**Family:** [Red Dragon](monster/family/red_dragon)"
+			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
 	"ancient_red_dragon": { "copyof": "dragon_red,_ancient_red_dragon" },
@@ -20856,7 +20856,7 @@
 			"",
 			"Few creatures are more cruel and fearsome than the mighty red dragon. King of the chromatics, this terrible beast brings ruin and death to the lands that fall under its shadow.",
 			"",
-			"**Family:** [Red Dragon](monster/family/red_dragon)"
+			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
 	"young_red_dragon": { "copyof": "dragon_red,_young_red_dragon" },
@@ -20915,7 +20915,7 @@
 			"",
 			"Of all the dragons, silvers are the most courageous, holding themselves to a chivalrous code to help the weak, defeat evil, and behave in an honorable manner.",
 			"",
-			"**Family:** [Silver Dragon](monster/family/silver_dragon)"
+			"**Family:** [Silver Dragon](family/silver_dragon)"
 		]
 	},
 	"adult_silver_dragon": { "copyof": "dragon_silver,_adult_silver_dragon" },
@@ -20978,7 +20978,7 @@
 			"",
 			"Of all the dragons, silvers are the most courageous, holding themselves to a chivalrous code to help the weak, defeat evil, and behave in an honorable manner.",
 			"",
-			"**Family:** [Silver Dragon](monster/family/silver_dragon)"
+			"**Family:** [Silver Dragon](family/silver_dragon)"
 		]
 	},
 	"ancient_silver_dragon": { "copyof": "dragon_silver,_ancient_silver_dragon" },
@@ -21036,7 +21036,7 @@
 			"",
 			"Of all the dragons, silvers are the most courageous, holding themselves to a chivalrous code to help the weak, defeat evil, and behave in an honorable manner.",
 			"",
-			"**Family:** [Silver Dragon](monster/family/silver_dragon)"
+			"**Family:** [Silver Dragon](family/silver_dragon)"
 		]
 	},
 	"young_silver_dragon": { "copyof": "dragon_silver,_young_silver_dragon" },
@@ -21093,7 +21093,7 @@
 			"",
 			"Although most consider it to be the weakest and most feral of the chromatic dragons, the white dragon makes up for its lack of cunning with sheer ferocity. White dragons dwell on remote, frozen mountaintops and in arctic lowlands, making their home in glittering caves full of ice and snow. They prefer their meals completely frozen.",
 			"",
-			"**Family:** [White Dragon](monster/family/white_dragon)"
+			"**Family:** [White Dragon](family/white_dragon)"
 		]
 	},
 	"adult_white_dragon": { "copyof": "dragon_white,_adult_white_dragon" },
@@ -21153,7 +21153,7 @@
 			"",
 			"Although most consider it to be the weakest and most feral of the chromatic dragons, the white dragon makes up for its lack of cunning with sheer ferocity. White dragons dwell on remote, frozen mountaintops and in arctic lowlands, making their home in glittering caves full of ice and snow. They prefer their meals completely frozen.",
 			"",
-			"**Family:** [White Dragon](monster/family/white_dragon)"
+			"**Family:** [White Dragon](family/white_dragon)"
 		]
 	},
 	"ancient_white_dragon": { "copyof": "dragon_white,_ancient_white_dragon" },
@@ -21206,7 +21206,7 @@
 			"",
 			"Although most consider it to be the weakest and most feral of the chromatic dragons, the white dragon makes up for its lack of cunning with sheer ferocity. White dragons dwell on remote, frozen mountaintops and in arctic lowlands, making their home in glittering caves full of ice and snow. They prefer their meals completely frozen.",
 			"",
-			"**Family:** [White Dragon](monster/family/white_dragon)"
+			"**Family:** [White Dragon](family/white_dragon)"
 		]
 	},
 	"young_white_dragon": { "copyof": "dragon_white,_young_white_dragon" },
@@ -21519,7 +21519,7 @@
 			"",
 			"A typical desert drake measures 15 feet long from nose to tail tip, has a supple, wormlike build, and weighs about 2,500 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"desert_drake": { "copyof": "drake,_desert_drake" },
@@ -21586,7 +21586,7 @@
 			"",
 			"When an unwelcome creature enters their territory, ether drakes use their psychic abilities to create mental links between others of their kind to coordinate and strategize. Ether drakes measure 16 feet long from head to tail and weigh around 2,000 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"ether_drake": { "copyof": "drake,_ether_drake" },
@@ -21651,7 +21651,7 @@
 			"",
 			"Flame drakes mate once a year. Males play no part in raising their offspring, and abandon their partners soon after mating. Females lay clutches of two or three eggs in secluded mountain nests, and raise their hatchlings for only 2 years before rejoining their packs and abandoning their offspring to their fates. Flame drakes mature in 5 years, and can live up to 150 years. They generally grow to 12 feet long and weigh 1,500 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"flame_drake": { "copyof": "drake,_flame_drake" },
@@ -21720,7 +21720,7 @@
 			"",
 			"While few survive so long, forest drakes can live up to 200 years. Forest drakes are typically about 10 feet long with equally long tails, and weigh around 1,000 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"forest_drake": { "copyof": "drake,_forest_drake" },
@@ -21785,7 +21785,7 @@
 			"",
 			"Young frost drakes form adolescent hunting packs divided along gender lines, but older frost drakes are usually encountered in mated pairs. Frost drakes mate for life, leaving their packs when they find a suitable mate. Mated pairs make a nest together, and the female lays a clutch of two to five eggs. Both parents care for their offspring when they hatch, and families usually form small packs until the young reach maturity at 5 years of age. At this point, the parents abandon their offspring, usually laying a new clutch of eggs in a new nest elsewhere, and leaving the fledgling drakes to find their own adolescent packs to join.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"frost_drake": { "copyof": "drake,_frost_drake" },
@@ -21854,7 +21854,7 @@
 			"",
 			"A jungle drake measures 14 feet from front to back, with a lean but muscular build, and weighs around 2,100 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"jungle_drake": { "copyof": "drake,_jungle_drake" },
@@ -21920,7 +21920,7 @@
 			"",
 			"Stockier than other drakes, adults can grow up to 18 feet in length and weigh over 3,000 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"lava_drake": { "copyof": "drake,_lava_drake" },
@@ -21989,7 +21989,7 @@
 			"",
 			"A typical mist drake is 13 feet long from head to tail tip, but these lithe dragons rarely weigh more than 1,000 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"mist_drake": { "copyof": "drake,_mist_drake" },
@@ -22056,7 +22056,7 @@
 			"",
 			"A rift drake is around 14 feet long, end to end. Its burly, spiky body weighs about 2,500 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"rift_drake": { "copyof": "drake,_rift_drake" },
@@ -22124,7 +22124,7 @@
 			"",
 			"River drakes are 8 feet long and look much like small sea drakes. An adult river drake weighs about 700 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"river_drake": { "copyof": "drake,_river_drake" },
@@ -22188,7 +22188,7 @@
 			"",
 			"The most solitary of all drakes, sea drakes prefer to hunt alone. Occasionally, however, they band together in packs to hunt larger prey. Such rampages can be a significant danger to coastal shipping.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"sea_drake": { "copyof": "drake,_sea_drake" },
@@ -22256,7 +22256,7 @@
 			"",
 			"Young shadow drakes are almost pure black and have lustrous hides. As they age, their scales lose this luster and turn dull gray. Much like their larger dragon cousins, shadow drakes are long-lived, and can reach 150 to 200 years in age.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"shadow_drake": { "copyof": "drake,_shadow_drake" },
@@ -22325,7 +22325,7 @@
 			"",
 			"A typical spire drake measures 18 feet from its nose to the long, thin tip of its tail, and weighs about 1,700 pounds.",
 			"",
-			"**Family:** [Drake](monster/family/drake)"
+			"**Family:** [Drake](family/drake)"
 		]
 	},
 	"spire_drake": { "copyof": "drake,_spire_drake" },
@@ -25739,7 +25739,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"elder_air_elemental": { "copyof": "elemental_air,_elder_air_elemental" },
@@ -25787,7 +25787,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"greater_air_elemental": { "copyof": "elemental_air,_greater_air_elemental" },
@@ -25835,7 +25835,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"huge_air_elemental": { "copyof": "elemental_air,_huge_air_elemental" },
@@ -25883,7 +25883,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"large_air_elemental": { "copyof": "elemental_air,_large_air_elemental" },
@@ -25930,7 +25930,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"medium_air_elemental": { "copyof": "elemental_air,_medium_air_elemental" },
@@ -25979,7 +25979,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](monster/family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
 	"small_air_elemental": { "copyof": "elemental_air,_small_air_elemental" },
@@ -26027,7 +26027,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"elder_earth_elemental": { "copyof": "elemental_earth,_elder_earth_elemental" },
@@ -26075,7 +26075,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"greater_earth_elemental": { "copyof": "elemental_earth,_greater_earth_elemental" },
@@ -26123,7 +26123,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"huge_earth_elemental": { "copyof": "elemental_earth,_huge_earth_elemental" },
@@ -26171,7 +26171,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"large_earth_elemental": { "copyof": "elemental_earth,_large_earth_elemental" },
@@ -26218,7 +26218,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"medium_earth_elemental": { "copyof": "elemental_earth,_medium_earth_elemental" },
@@ -26267,7 +26267,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](monster/family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
 	"small_earth_elemental": { "copyof": "elemental_earth,_small_earth_elemental" },
@@ -26316,7 +26316,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"elder_fire_elemental": { "copyof": "elemental_fire,_elder_fire_elemental" },
@@ -26365,7 +26365,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"greater_fire_elemental": { "copyof": "elemental_fire,_greater_fire_elemental" },
@@ -26414,7 +26414,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"huge_fire_elemental": { "copyof": "elemental_fire,_huge_fire_elemental" },
@@ -26463,7 +26463,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"large_fire_elemental": { "copyof": "elemental_fire,_large_fire_elemental" },
@@ -26511,7 +26511,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"medium_fire_elemental": { "copyof": "elemental_fire,_medium_fire_elemental" },
@@ -26561,7 +26561,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](monster/family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
 	"small_fire_elemental": { "copyof": "elemental_fire,_small_fire_elemental" },
@@ -26611,7 +26611,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"elder_ice_elemental": { "copyof": "elemental_ice,_elder_ice_elemental" },
@@ -26661,7 +26661,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"greater_ice_elemental": { "copyof": "elemental_ice,_greater_ice_elemental" },
@@ -26711,7 +26711,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"huge_ice_elemental": { "copyof": "elemental_ice,_huge_ice_elemental" },
@@ -26761,7 +26761,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"large_ice_elemental": { "copyof": "elemental_ice,_large_ice_elemental" },
@@ -26810,7 +26810,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"medium_ice_elemental": { "copyof": "elemental_ice,_medium_ice_elemental" },
@@ -26861,7 +26861,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Ice Elemental](monster/family/ice_elemental)"
+			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
 	"small_ice_elemental": { "copyof": "elemental_ice,_small_ice_elemental" },
@@ -26909,7 +26909,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"elder_lightning_elemental": { "copyof": "elemental_lightning,_elder_lightning_elemental" },
@@ -26957,7 +26957,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"greater_lightning_elemental": { "copyof": "elemental_lightning,_greater_lightning_elemental" },
@@ -27005,7 +27005,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"huge_lightning_elemental": { "copyof": "elemental_lightning,_huge_lightning_elemental" },
@@ -27053,7 +27053,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"large_lightning_elemental": { "copyof": "elemental_lightning,_large_lightning_elemental" },
@@ -27100,7 +27100,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"medium_lightning_elemental": { "copyof": "elemental_lightning,_medium_lightning_elemental" },
@@ -27149,7 +27149,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](monster/family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
 	"small_lightning_elemental": { "copyof": "elemental_lightning,_small_lightning_elemental" },
@@ -27199,7 +27199,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"elder_magma_elemental": { "copyof": "elemental_magma,_elder_magma_elemental" },
@@ -27249,7 +27249,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"greater_magma_elemental": { "copyof": "elemental_magma,_greater_magma_elemental" },
@@ -27299,7 +27299,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"huge_magma_elemental": { "copyof": "elemental_magma,_huge_magma_elemental" },
@@ -27349,7 +27349,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"large_magma_elemental": { "copyof": "elemental_magma,_large_magma_elemental" },
@@ -27398,7 +27398,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"medium_magma_elemental": { "copyof": "elemental_magma,_medium_magma_elemental" },
@@ -27449,7 +27449,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Magma Elemental](monster/family/magma_elemental)"
+			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
 	"small_magma_elemental": { "copyof": "elemental_magma,_small_magma_elemental" },
@@ -27497,7 +27497,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"elder_mud_elemental": { "copyof": "elemental_mud,_elder_mud_elemental" },
@@ -27545,7 +27545,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"greater_mud_elemental": { "copyof": "elemental_mud,_greater_mud_elemental" },
@@ -27593,7 +27593,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"huge_mud_elemental": { "copyof": "elemental_mud,_huge_mud_elemental" },
@@ -27641,7 +27641,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"large_mud_elemental": { "copyof": "elemental_mud,_large_mud_elemental" },
@@ -27688,7 +27688,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"medium_mud_elemental": { "copyof": "elemental_mud,_medium_mud_elemental" },
@@ -27737,7 +27737,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Mud Elemental](monster/family/mud_elemental)"
+			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
 	"small_mud_elemental": { "copyof": "elemental_mud,_small_mud_elemental" },
@@ -27785,7 +27785,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"elder_water_elemental": { "copyof": "elemental_water,_elder_water_elemental" },
@@ -27833,7 +27833,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"greater_water_elemental": { "copyof": "elemental_water,_greater_water_elemental" },
@@ -27881,7 +27881,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"huge_water_elemental": { "copyof": "elemental_water,_huge_water_elemental" },
@@ -27929,7 +27929,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"large_water_elemental": { "copyof": "elemental_water,_large_water_elemental" },
@@ -27976,7 +27976,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"medium_water_elemental": { "copyof": "elemental_water,_medium_water_elemental" },
@@ -28025,7 +28025,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Water Elemental](monster/family/water_elemental)"
+			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
 	"small_water_elemental": { "copyof": "elemental_water,_small_water_elemental" },

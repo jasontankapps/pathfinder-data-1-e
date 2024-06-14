@@ -42,9 +42,9 @@ const ClassPage: React.FC = () => {
 				<div className="subtopics">
 					<header>Subtopics:</header>
 					<ul>
-						{alternate_capstones ? <li><Link to={`/class/capstones/${id}`}>Alternate Capstones</Link></li> : <></>}
-						{favored_class_bonuses ? <li><Link to={`/class/favored/${id}`}>Favored Class Bonuses</Link></li> : <></>}
-						{archetypes ? <li><Link to={`/class/archetypes/${id}`}>Archetypes</Link></li> : <></>}
+						{alternate_capstones ? <li><Link to={`/classcapstone/${id}`}>Alternate Capstones</Link></li> : <></>}
+						{favored_class_bonuses ? <li><Link to={`/classfavored/${id}`}>Favored Class Bonuses</Link></li> : <></>}
+						{archetypes ? <li><Link to={`/classarchetypes/${id}`}>Archetypes</Link></li> : <></>}
 					</ul>
 				</div>
 			) : <></>}

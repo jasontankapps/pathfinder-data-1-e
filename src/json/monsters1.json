@@ -1142,7 +1142,7 @@
 			"",
 			"A typical agnoia is 16 feet tall and weighs 900 pounds.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"agnoia": { "copyof": "aeon,_agnoia" },
@@ -1206,7 +1206,7 @@
 			"",
 			"An akhana stands 5 feet in height and weighs 120 pounds. Its strange central body seems vaporous, but is weirdly solid (and slimy) to the touch.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"akhana": { "copyof": "aeon,_akhana" },
@@ -1274,7 +1274,7 @@
 			"",
 			"While a bythos's body may seem to be made of smoke and vapor, it is strangely solid to the touch, feeling not dissimilar to dry stone. A bythos is 13 feet tall and weighs 600 pounds.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"bythos": { "copyof": "aeon,_bythos" },
@@ -1354,7 +1354,7 @@
 			"",
 			"Lipikas stand about 13 feet tall but rarely weigh more than 200 pounds-their bodies seem to be hollow. Little distinguishes one lipika from another except the patterns upon their forearms and the colors of their palm-eyes.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"lipika": { "copyof": "aeon,_lipika" },
@@ -1420,7 +1420,7 @@
 			"",
 			"Enigmatic and ephemeral, othaoses are stewards of the balance between light and darkness. Othaoses seek out supernatural sources of light and dark that unnaturally prolong exposure to one or the other and work to restore the natural order. They may be encountered studying sources of light or observing large objects casting shadows-they're just as likely to assist in the repair of a light source as they are to seek the destruction of an object casting too much shadow. These aeons also scout for breaches between the Material Plane and the Plane of Shadow, seeking to mend these rifts whenever possible.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"othaos": { "copyof": "aeon,_othaos" },
@@ -1489,7 +1489,7 @@
 			"",
 			"Although the central mass of a paracletus's body appears to be made of light and energy, it is in fact solid, and feels strangely like electrified flesh to the touch.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"paracletus": { "copyof": "aeon,_paracletus" },
@@ -1574,7 +1574,7 @@
 			"",
 			"Pleromas typically travel alone. Their arrival in a region almost always heralds some sort of dramatic change. They pay little mind to the wants and needs of other creatures, and remain entirely focused upon their primary task. They avoid conflicts of ethics, wars, and similar pursuits, save when manipulating such events would help to restore the balance between creation and oblivion. Should any be so foolish as to attempt to interfere with or sway their work, pleromas immediately retaliate by bringing all of their significant powers and devastating abilities to bear until the intervention is destroyed.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"pleroma": { "copyof": "aeon,_pleroma" },
@@ -1642,7 +1642,7 @@
 			"",
 			"Although mortals have learned to control tiny fragments of their worlds through magic and technology, only a mastery over their instinctive urges prevents them from destroying the fabric of the planes in the process. Synesis aeons oversee this fine balance. At times, they serve as dispassionate muses to great thinkers, facilitating discoveries and pushing cultures to new heights. In the blink of an eye, however, a synesis might destroy a philosopher whose hypotheses could one day threaten the balance. Synesis aeons often gravitate toward powerful psychic spellcasters, steering them toward actions that stave off planar entropy or serve even more esoteric goals.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"synesis": { "copyof": "aeon,_synesis" },
@@ -1706,7 +1706,7 @@
 			"",
 			"A theletos is 5 feet tall and weighs 100 pounds.",
 			"",
-			"**Family:** [Aeon](monster/family/aeon)"
+			"**Family:** [Aeon](family/aeon)"
 		]
 	},
 	"theletos": { "copyof": "aeon,_theletos" },
@@ -1830,7 +1830,7 @@
 			"",
 			"A typical avoral is 7 feet tall but weighs only 120 pounds.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"avoral": { "copyof": "agathion,_avoral" },
@@ -1902,7 +1902,7 @@
 			"",
 			"Although primarily used as diplomats, messengers, and celestial ambassadors, bishops also excel in battle. With the power of Nirvana behind them, bishops' claws and nimble fighting style eliminate enemies who stand in the way of their missions. More martially inclined bishops often choose to wield quarterstaves, many of which are enchanted. Bishop agathions don't go looking for fights, but they intervene when they come across those imposing cruelty or evil on innocents. Bishops particularly abhor piracy and slavery. Legends speak of more than one unlucky pirate slave master who, ostensibly mad, spent his final days blubbering about the tentacle-beards that destroyed his ship and drowned his crew. No one takes these stories seriously except for the few who've become acquainted with bishops' complex ways.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)",
+			"**Family:** [Agathion](family/agathion)",
 			"",
 			"### Habitat",
 			"",
@@ -1985,7 +1985,7 @@
 			"",
 			"If called with the lesser planar ally spell, cervaprals generally demand that payment for their services is donated to a cause that fights slavery and supports freedom. Such a cause must not already be closely allied with the spellcaster or her allies. A cervapral who is called to aid in the immediate and direct liberation of prisoners or slaves often halves the payment he requires for granting such assistance.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"cervapral": { "copyof": "agathion,_cervapral" },
@@ -2054,7 +2054,7 @@
 			"",
 			"Cervinals stand proud and regal at the head of Nirvana's agathion forces. Sometimes termed the \"knights\" of the agathions, cervinals have gained a reputation for their battle prowess, noble natures, and admirable wisdom, as well as their fearlessness and willingness to lead from the front. They stand almost 11 feet tall, though part of that height is their magnificent racks of antlers, which can measure up to 4 feet across. These antlers gleam as if forged from beaten bronze, and a fine fuzz of downy gold covers their entire bodies, particularly along the shoulders and neck. Cervinals from the more frigid regions of Nirvana sport an entire coat of chestnut fur up their chests and shoulders.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"cervinal": { "copyof": "agathion,_cervinal" },
@@ -2122,7 +2122,7 @@
 			"",
 			"A cetaceal is 8 feet long and weighs 400 pounds, although some grow quite a bit larger than that.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"cetaceal": { "copyof": "agathion,_cetaceal" },
@@ -2205,7 +2205,7 @@
 			"",
 			"Like other outsiders, chelonidals have no need to eat or sleep. A chelonidal can maintain its post with unceasing vigilance for years or even centuries, if need be. Chelonidals don't normally reproduce sexually, being directly formed from the petitioners of Nirvana. However, given their tendency to protect locations for long periods, those on the Material Plane occasionally fall in love with mortals. If such a relationship results in children, the chelonidal parent remains until its offspring come of age, departing only if a great need arises; the lords of Nirvana understand that the duty to protect must be counterbalanced with duty to family. Such children are usually [idyllkin aasimar](unknown/idyllkin_aasimar) rather than more powerful half-celestials.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)",
+			"**Family:** [Agathion](family/agathion)",
 			"",
 			"### Habitat",
 			"",
@@ -2309,7 +2309,7 @@
 			"",
 			"Yellow: Like black, yellow is a balance between male and female energy. Yellow represents earth, oracles, stone, and luck. Yellow draconals are immune to acid, and their breath weapon is acid. A yellow draconal adds Earth, Glory, and Luck to its list of possible domains.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"draconal": { "copyof": "agathion,_draconal" },
@@ -2376,7 +2376,7 @@
 			"",
 			"Leonals stand 6 feet tall and weigh 270 pounds on average. Males usually have manes of either dark gold or black hair, which may only surround the head or may extend onto the shoulders and chest. Female leonals do not have manes, but may have longer hair on the back of the neck.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"leonal": { "copyof": "agathion,_leonal" },
@@ -2455,7 +2455,7 @@
 			"",
 			"Pacifists at heart, muldnals prefer to avoid fighting, as the sight and smell of spilled blood repels them. That does not mean they are incapable of defending themselves, though, and they wield clubs, cudgels, quarterstaves, and saps with aplomb. A single muldnal's efforts may be only an annoyance as it harasses intruders, but an entire labor of muldnals can collapse tunnels or pen in foes while they summon the aid of more powerful allies (often silvanshees or vulpinals). Should a muldnal fall to violence, it collapses into a pile of dirt and crawling insects or worms-returning to the dust that formed its existence and purpose.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)",
+			"**Family:** [Agathion](family/agathion)",
 			"",
 			"### Habitat",
 			"",
@@ -2549,7 +2549,7 @@
 			"",
 			"At the end of a protracted conflict, mustelidals burrow into the nearby dirt or use their meld into stone spell-like ability to allow their regeneration to restore them to full health. They also take advantage of their poison purge ability at this time if any toxins are coursing through their blood. If the mustelidals weren't victorious in the previous fight, they use their skills to track down the surviving foes to attempt to finish the job.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)",
+			"**Family:** [Agathion](family/agathion)",
 			"",
 			"### Habitat",
 			"",
@@ -2641,7 +2641,7 @@
 			"",
 			"Although procyals resemble raccoons, they take great offense to the suggestion that they might resort to rooting through the trash to satisfy their hunger or might engage in other undignified pastimes. Though they may wear fancy clothes, procyals make a point not to try to flaunt their wealth, and earnestly attempt to ensure that others are able to satisfy their own needs. Procyals are more than willing to go without or donate their time and energy in order to ensure that others have enough.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)",
+			"**Family:** [Agathion](family/agathion)",
 			"",
 			"### Habitat",
 			"",
@@ -2718,7 +2718,7 @@
 			"",
 			"Reptials are curious and benevolent scholars of Nirvana. They spend their time collecting holy relics, no matter how minor, and can store some of their knowledge within a chosen relic. They keep most of these relics for themselves, but individual reptials have been known to distribute particularly useful pieces to good-aligned individuals and temples that are enduring difficult trials. Such relics often appear mysteriously within a temple or home, placed carefully among other objects. Reptials prefer to avoid combat if possible, using their abilities to escape instead and find heroes or more warlike agathions to combat evil directly. A reptial stands 3 feet tall and weighs about 40 pounds, not counting the weight of its many relics.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"reptial": { "copyof": "agathion,_reptial" },
@@ -2786,7 +2786,7 @@
 			"",
 			"A silvanshee is the size of a large domestic cat, though almost always sleek rather than fat, and weighs 20 pounds on average.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"silvanshee": { "copyof": "agathion,_silvanshee" },
@@ -2854,7 +2854,7 @@
 			"",
 			"A vulpinal stands about 3 feet in height and weighs 50 pounds.",
 			"",
-			"**Family:** [Agathion](monster/family/agathion)"
+			"**Family:** [Agathion](family/agathion)"
 		]
 	},
 	"vulpinal": { "copyof": "agathion,_vulpinal" },
@@ -3653,7 +3653,7 @@
 			"",
 			"In the darkest reaches of the sea, aboleths still dwell in grotesque cities built in nauseating and cyclopean styles. There they are served by countless slaves culled from every nation, air-breathing and aquatic alike, although the air-breathing slaves are doubly bound by magic and the need to constantly replenish their water-breathing ability via the excretions of their aboleth masters. Lone aboleths are often advance scouts for these hidden cities, seeking out new slaves.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)"
+			"**Family:** [Alghollthu](family/alghollthu)"
 		]
 	},
 	"aboleth": {
@@ -3734,7 +3734,7 @@
 			"",
 			"An enisysian is custom-bred to serve a single veiled master for its life. Like other alghollthus, an enisysian is basically immortal, able to repair almost any damage to its body over time or even enter a chrysalis state to wholly regenerate itself. Designed and bred to be subservient, an enisysian allows itself to be attached to the underside of its veiled master host at a young age. Once the bond between the alghollthus forms, the enisysian disguises its shape to appear as a remora or any other species of suckerfish common in its biome, reverting to its true shape only when it dies. It remains attached throughout its life, drawing its nutrition from the veiled master's blood and by filtering micronutrients from the water around it.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)",
+			"**Family:** [Alghollthu](family/alghollthu)",
 			"",
 			"### Habitat",
 			"",
@@ -3833,7 +3833,7 @@
 			"",
 			"An omnipath is 25 feet long and weighs 2 tons.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)"
+			"**Family:** [Alghollthu](family/alghollthu)"
 		]
 	},
 	"omnipath": {
@@ -3913,7 +3913,7 @@
 			"",
 			"Savage in its telepathic and mental prowess, a plizeazoth's only desires are to defend itself from would-be attackers or brutally subjugate its victims in the name of its veiled master overlords. Plizeazoths are skilled at using emotion, hallucination, and pain to their advantage; they make quick work of weak-minded foes but take particular pleasure in whittling down determined, willful enemies. After its victim has been sufficiently broken, a plizeazoth quickly moves on to its next task, ever eager to please its superiors.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)",
+			"**Family:** [Alghollthu](family/alghollthu)",
 			"",
 			"### Habitat",
 			"",
@@ -4002,7 +4002,7 @@
 			"",
 			"The two tentacles that lack claws are more dangerous than its other limbs. Uldraaghus can vibrate these tentacles at a frequency so high that the tips can carve glyphs in solid stone.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)",
+			"**Family:** [Alghollthu](family/alghollthu)",
 			"",
 			"### Habitat",
 			"",
@@ -4103,7 +4103,7 @@
 			"",
 			"The average veiled master measures 14 feet in length and weighs 1,500 pounds.",
 			"",
-			"**Family:** [Alghollthu](monster/family/alghollthu)"
+			"**Family:** [Alghollthu](family/alghollthu)"
 		]
 	},
 	"veiled_master": { "copyof": "alghollthu,_veiled_master" },
@@ -5198,7 +5198,7 @@
 			"",
 			"Astral devas are usually created by deities from the souls of good mortals, though some souls spontaneously transform into astral devas without the intervention of a deity. Their skills and abilities make them excellent scouts and elite agents for celestial armies. They often carry long, flowing scrolls upon which are writ messages and judgments from the gods. An astral deva's scrolls frequently contain hints of prophecies and major events yet to come, and as such the devas are fiercely protective of the contents of these scrolls and let none, not even other astral devas, peruse them.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"astral_deva": { "copyof": "angel,_astral_deva" },
@@ -5266,7 +5266,7 @@
 			"",
 			"The average balisse is 7 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"balisse": { "copyof": "angel,_balisse" },
@@ -5335,7 +5335,7 @@
 			"",
 			"Typically formed from the souls of trustworthy and pious soldiers, some cassisians arise spontaneously from the spiritual fragments of great angels destroyed while defending the celestial planes against fiendish incursions. In many cases, the lowly cassisian retains fragments of its previous life's memories, and friends of that old soul may visit with the cassisian to reminisce with what remains. Unfortunately, the reincarnated angel's memories are more like something memorized from a book, and lack the character and camaraderie the friends expect.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"cassisian": { "copyof": "angel,_cassisian" },
@@ -5403,7 +5403,7 @@
 			"",
 			"Choral angels are singers of great skill, and their ranks fill the halls of good deities with soaring hymns and solemn chants. They manifest from the spirits of the pious dead who had exceptional musical talent. While they aren't soldiers, chorals can defend themselves with their magical voices. Chorals sometimes visit the Material Plane with auspicious messages for mortals.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"choral": { "copyof": "angel,_choral" },
@@ -5477,7 +5477,7 @@
 			"",
 			"Dapsaras stand about 5-1/2 feet tall and weigh about 120 pounds.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"dapsara": { "copyof": "angel,_dapsara" },
@@ -5577,7 +5577,7 @@
 			"",
 			"Paragon of the Sword (Sp, Su): The paragon's blade is fueled by honor. The paragon is lawful good and gains bestow grace of the champion as a constant spell-like ability, except the paragon counts as a 20th-level paladin for the purposes of lay on hands and smite evil and gains the number of daily uses of each that it would as a 20th-level paladin.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"empyrean": { "copyof": "angel,_empyrean" },
@@ -5654,7 +5654,7 @@
 			"",
 			"Erelims who stand out thanks to cunning and resourcefulness in battle-for all erelims are blessed with bravery and prowess-are sometimes \"promoted\" to higher angelic choirs. If erelims can be said to covet anything, it is the title of deva.",
 			"",
-			"**Family:** [Angel](monster/family/angel)",
+			"**Family:** [Angel](family/angel)",
 			"",
 			"### Habitat",
 			"",
@@ -5732,7 +5732,7 @@
 			"",
 			"Iophanites measure exactly 5 feet in diameter and weigh 200 pounds.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"iophanite": { "copyof": "angel,_iophanite" },
@@ -5807,7 +5807,7 @@
 			"",
 			"Kuribus have a remarkable amount of patience and tolerance for boredom, as they may be assigned to watch over particular locations for years. Mortal generations pass swiftly for kuribus, with years blurring in much the same way days might for mortals. However, their senses are always alert, and the slightest destructive act against their charges can cause them to spring into action. While this self-defensiveness certainly extends to vandals and evil beasts, kuribus have boundless patience for the birds and small mammals that sometimes make homes upon their bodies or shelter beneath their wings. While kuribus would never let a terrible crime transpire before their eyes just to protect a pigeon's comfort, there have been instances of these angels revealing themselves only after their avian residents have migrated away for the season. This has more to do with kuribus' otherworldly sense of urgency and time than any particular affinity for animals.",
 			"",
-			"**Family:** [Angel](monster/family/angel)",
+			"**Family:** [Angel](family/angel)",
 			"",
 			"### Habitat",
 			"",
@@ -5888,7 +5888,7 @@
 			"",
 			"A monadic deva is 7 feet tall and weighs 220 pounds.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"monadic_deva": { "copyof": "angel,_monadic_deva" },
@@ -5952,7 +5952,7 @@
 			"",
 			"Movanic devas serve as infantry in the celestial armies, though they spend most of their time patrolling the Positive, Negative, and Material Planes. On the Positive Plane, they watch over wandering good souls, which sometimes puts them into conflict with the jyoti. On the Negative Plane, they battle undead, the sceaduinar, and the other strange things that hunt in the hungry void. Their rare visits to the Material Plane are usually to help powerful mortals when a great menace threatens to plunge an entire realm into evil.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"movanic_deva": { "copyof": "angel,_movanic_deva" },
@@ -6029,7 +6029,7 @@
 			"",
 			"Ninkondas watch for evidence of wicked mortals who might harbor a spark of goodness within them. A ninkonda who identifies a candidate for redemption pursues this quarry tirelessly, dispatching the mortal's irredeemable lackeys (such as undead and fiends) with nail-studded fists and confronting the mortal personally. In the ninkonda's broad chest-mirror, the quarry sees not only the stains on its own soul but the repercussions of all its past transgressions. For those who are truly repentant when confronted so directly with their wickedness, the ninkonda offers atonement and helps them back onto the path leading a righteous life.",
 			"",
-			"**Family:** [Angel](monster/family/angel)",
+			"**Family:** [Angel](family/angel)",
 			"",
 			"### Habitat",
 			"",
@@ -6110,7 +6110,7 @@
 			"",
 			"Planetars are the generals of celestial armies. A typical planetar stands 9 feet tall and weighs 500 pounds. They focus on combat and the destruction of evil; though they understand diplomacy, a planetar would rather lead the charge against an army of fiends than negotiate peace.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"planetar": { "copyof": "angel,_planetar" },
@@ -6198,7 +6198,7 @@
 			"",
 			"All angels respect the power and wisdom of solars, and though these mightiest of angels usually work alone, they sometimes command multiple armies led by planetars, acting as great field marshals for massive incursions against the legions of Hell or the hordes of the Abyss.",
 			"",
-			"**Family:** [Angel](monster/family/angel)"
+			"**Family:** [Angel](family/angel)"
 		]
 	},
 	"solar": { "copyof": "angel,_solar" },
@@ -7996,7 +7996,7 @@
 			"",
 			"A particularly unusual bastion archon by the name of Anvil Fist serves in the deepest caverns of the Forgeheart in Heaven, patrolling without end to keep invaders from the Abyss at bay. Anvil Fist is one of the longest-serving of its kind, and it has recently begun to act strangely, wandering into empty tunnels and staying there for days, speaking only in vague aphorisms when questioned. Some worry that Anvil Fist's millennia-long battle against chaotic abominations has begun to destabilize the archon, while others believe its uncharacteristic behaviors are the result of a qlippoth lord's vile machinations. Still others theorize that Anvil Fist may be nearing an apotheosis to something greater, perhaps becoming the first incarnation of an archon of power akin to the mightiest balor lords, infernal dukes, or veranallia azata elders.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"bastion_archon": { "copyof": "archon,_bastion_archon" },
@@ -8066,7 +8066,7 @@
 			"",
 			"Most codex archons specialize in a single subject, such as one plane of existence, one type of creature, or one aspect of mortal life. In general, each codex archon chooses a favored enemy and Knowledge skill closely linked to each other, such as humanoid (human) and Knowledge (local) or Knowledge (nobility). Although a codex archon's expertise allows it to more easily slay creatures of the type it studies, it usually prefers to avoid violence and uses its knowledge to coax more information out of creatures it meets. A spellcaster who calls or summons a codex archon can generally conjure one with whatever specialization she seeks unless the foe or topic is one that is little known to the forces of Heaven or an unorthodox combination (GM's discretion). Though they prefer their heavenly homes to the chaotic Material Plane, summoned codex archons may deign to serve for a time as assistants or even instructors in mortal libraries, academies, and temples.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"codex_archon": { "copyof": "archon,_codex_archon" },
@@ -8132,7 +8132,7 @@
 			"",
 			"Exscinders are Heaven's censors, scouring the planes for texts containing information too evil or dangerous to be allowed to exist. Exscinders care little for individual lives or everyday heresies, remaining staunchly focused on protecting mortalkind as a whole from corruption.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"exscinder": { "copyof": "archon,_exscinder" },
@@ -8208,7 +8208,7 @@
 			"",
 			"Gate archons stand in silent vigils over interplanar portals.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"gate_archon": { "copyof": "archon,_gate_archon" },
@@ -8284,7 +8284,7 @@
 			"",
 			"The most ambitious hammer archons strive to prove themselves worthy of becoming star archons, often taking on positions of authority in important conflicts. Those who show they can lead squadrons of other archons to victory against overwhelming odds or can make tactically sound decisions under pressure take the first steps to a legendary transformation. Other hammer archons are content to remain as they are, with the knowledge that an army with too many generals and not enough soldiers is no kind of fighting force at all.",
 			"",
-			"**Family:** [Archon](monster/family/archon)",
+			"**Family:** [Archon](family/archon)",
 			"",
 			"### Habitat",
 			"",
@@ -8372,7 +8372,7 @@
 			"",
 			"Most harbinger archons form from souls that led simple lives of wisdom and piety before their deaths. They remember nothing of their mortal existences, but retain a decidedly practical, if parochial, view of worldly matters. Only rarely does a harbinger want for a parable or proverb apropos to the task at hand.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"harbinger_archon": { "copyof": "archon,_harbinger_archon" },
@@ -8433,7 +8433,7 @@
 			"",
 			"In Heaven's armies, exceptional hound archon paladins lead their fellows into combat, taking on roles as captains and knights. They lead incursions against fiendish holdings, whether that entails strikes against daemonic fortresses or liberating the captives of night hag soul collectors. Such missions make hound archons perhaps the most likely celestials one might encounter upon the Lower Planes, and packs of swift-moving wolves occasionally reveal themselves to be welcome saviors to those lost within such realms. Regardless of their orders, hound archons universally exhibit a particular hatred of canine fiends, abandoning all mercy and going out of their way to put an end to the evils of barghests, glabrezus, yeth hounds, and similar depraved outsiders.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"hound_archon": { "copyof": "archon,_hound_archon" },
@@ -8496,7 +8496,7 @@
 			"",
 			"Small but fast and zealous, lantern archons make excellent support troops in celestial armies, swarming over weak opponents or teleporting en masse to flanking positions to cut off reinforcements or escape routes. These miniature archons work well together and know that there is great strength in numbers, uniting in times of need and desperation to form gestalts with greater control over their surroundings. Especially brave lantern archons might eventually be promoted into a more powerful kind of archon, but most are content with their status.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"lantern_archon": { "copyof": "archon,_lantern_archon" },
@@ -8566,7 +8566,7 @@
 			"",
 			"Despite their warlike mien, legion archons prefer errands of peace and mercy. Their masters dispatch unarmed legion archons as celestial envoys, though still clad in their heavenly armor. In this fashion, they spread the word and love of Heaven to widely scattered realms.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"legion_archon": { "copyof": "archon,_legion_archon" },
@@ -8631,7 +8631,7 @@
 			"",
 			"Preceptors attempt to guide individuals in crisis or on the cusp of life-altering decisions. Typically, they first observe their charges, using magic to understand the personal history involved, then use this information to create a detailed, immersive mindscape designed to broaden perspectives. They use this technique to guide a troubled soul through her past, present, and potentially dire future and to demonstrate to the despairing how much worse life would be without them. Preceptors often visit or send messages to prospective charges both to warn them and also to gain their trust or curiosity. These archons don't force a specific course of action, but rather help those in their care see past difficult choices.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"preceptor_archon": { "copyof": "archon,_preceptor_archon" },
@@ -8699,7 +8699,7 @@
 			"",
 			"Shield archons are the mighty rocks of celestial armies, withstanding waves of demons and devils without complaint. Though more than capable of tearing apart lesser demons and devils, their true strength lies in their ability to shrug off deadly attacks from superior opponents, giving their offense-oriented allies time to flank and overwhelm their mutual foes. Shield archons are 9 feet tall and weigh 800 pounds.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"shield_archon": { "copyof": "archon,_shield_archon" },
@@ -8770,7 +8770,7 @@
 			"",
 			"Spyglass archons are just over 5 feet tall and weigh almost 120 pounds.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"spyglass_archon": { "copyof": "archon,_spyglass_archon" },
@@ -8834,7 +8834,7 @@
 			"",
 			"A stag archon typically stands about 6-1/2 feet tall (a foot or more taller than that with its horns) and weighs around 220 pounds.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"stag_archon": { "copyof": "archon,_stag_archon" },
@@ -8910,7 +8910,7 @@
 			"",
 			"Star archons are the tacticians and strategists of Heaven. Gifted with insight and powerful magic, they spend much of their time steering long-term plans for Heaven's armies and good folk in the world.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"star_archon": { "copyof": "archon,_star_archon" },
@@ -8981,7 +8981,7 @@
 			"",
 			"All trumpet archons carry a gleaming magical trumpet or horn with which they create wondrous music, sound calls to other archons, paralyze enemies, or defend the virtuous. They typically adorn their trumpet with the standard of their liege.",
 			"",
-			"**Family:** [Archon](monster/family/archon)"
+			"**Family:** [Archon](family/archon)"
 		]
 	},
 	"trumpet_archon": { "copyof": "archon,_trumpet_archon" },
@@ -9282,7 +9282,7 @@
 			"",
 			"### Prison Forge",
 			"",
-			"An ashen forgemaster's soul is bound to a massive forge similar to the way a [dryad](monster/dryad) is bound to its tree or a [lich](monster/template/lich) to its phylactery. As long as the forge burns, the forgemaster is rejuvenated after it is destroyed. The ritual that originally binds the salamander also directly connects the forge to the Plane of Fire, so extraordinary measures are necessary to extinguish it. Powerful water- or cold-based abilities, such as the breath weapon of an ancient or older [silver dragon](monster/family/silver_dragon) or the drench ability of an [elder water elemental](monster/elder_water_elemental), can suppress or sever this connection long enough to douse the forge's flames. The forge then becomes mundane and can be dismantled to prevent the forgemaster from rejuvenating."
+			"An ashen forgemaster's soul is bound to a massive forge similar to the way a [dryad](monster/dryad) is bound to its tree or a [lich](template/lich) to its phylactery. As long as the forge burns, the forgemaster is rejuvenated after it is destroyed. The ritual that originally binds the salamander also directly connects the forge to the Plane of Fire, so extraordinary measures are necessary to extinguish it. Powerful water- or cold-based abilities, such as the breath weapon of an ancient or older [silver dragon](family/silver_dragon) or the drench ability of an [elder water elemental](monster/elder_water_elemental), can suppress or sever this connection long enough to douse the forge's flames. The forge then becomes mundane and can be dismantled to prevent the forgemaster from rejuvenating."
 		]
 	},
 	"ashullian": {
@@ -9793,7 +9793,7 @@
 			"",
 			"Legend holds that the first adhukaits emerged from the shattered remains of two godlike brigands. These burglars, their names long since lost to history, attempted to raid a celestial hall. The resident deity and his or her servants slew the thieves, crushed their bodies together into one, and hurled their remains to the earth. As their crumbling, entwined bodies struck the world, they caused terrible earthquakes and tsunamis that slew thousands of innocents-including many worshipers of the headstrong deity who accidentally caused the devastation. The first adhukaits grew from the shattered, mingled remains of these brigands, rising from the blasted crater to serve the asuras as elite soldiers.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"adhukait": { "copyof": "asura,_adhukait" },
@@ -9861,7 +9861,7 @@
 			"",
 			"An aghasura is 30 feet long and weighs nearly 7 tons.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"aghasura": { "copyof": "asura,_aghasura" },
@@ -9938,7 +9938,7 @@
 			"",
 			"Death: All living things can die. Instead of war, an asurendra can focus on the aftermath of war. Such an asurendra replaces quickened baleful polymorph with quickened slay living and quickened blade barrier with quickened circle of death. Its spirit blades deal negative energy damage, not force damage, and can thus be used to heal allied undead creatures as easily as they can serve as weapons against the living. Sacrilege: Blasphemy is joy to any asura, but truly impious asurendras learn talents that mimic divine miracles. Cults to these asurendras, which almost always seem benevolent on first glance, turn people from the worship of real deities. These asurendras do not possess a spirit blade special attack, but can use miracle as a spell-like ability once per day as long as the miracle granted is in keeping with their blasphemous design. Shaping: Some asurendras like to remake what the gods have created. Nothing escapes a shaper's vision, and its enemies find their bodies, minds, and souls are like clay in a shaper's hands. An asurendra sage of shaping lacks a spirit blade special attack, but gains the following special ability. Create Asura (Su): As a full-round action, an asurendra can turn a creature that it has eaten within the last 24 hours into a tripurasura (see page 26) that it then excretes into existence. Such tripurasuras remain loyal to the asurendra that created them as long as they remain tripurasuras. If an asurendra has enough tripurasuras at hand, it can consume them as well and transform them into more powerful asuras using this ability. An asurendra can transform any tripurasuras it has eaten within the last 24 hours into a number of Hit Dice worth of other asuras equal to the number of tripurasuras it has consumed. An asurendra can create as many tripurasuras as it wishes with this ability, but can only create more powerful asuras by combining multiple tripurasuras once per day. An asurendra cannot create another asurendra with this ability. A newly formed asura considers the asurendra to be its master. Not all of a creature's soul is consumed when it is used to create a tripurasura-beings swallowed and used to create asuras in this manner are dead, but can be restored to life as normal.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"asurendra": { "copyof": "asura,_asurendra" },
@@ -10015,7 +10015,7 @@
 			"",
 			"A hishandura's body hums with destructive passion. This reflection of the original hishandura's divine mandate drives these asuras to slaughter living creatures, destroy beautiful works, and listen for the piteous cries for mercy from the fearful and faithful alike. Hishanduras can see effortlessly through the smoke of burning buildings, locate the cowering weak and wounded, and extract hateful revelations from the bloody precipitation flung by their blades. They can bypass nearly any defense to inflict their malign punishments, effortlessly teleporting past guards and discorporating to slip through portcullises.",
 			"",
-			"**Family:** [Asura](monster/family/asura)",
+			"**Family:** [Asura](family/asura)",
 			"",
 			"### Habitat",
 			"",
@@ -10098,7 +10098,7 @@
 			"",
 			"Japalisuras have a knack for extracting embarrassing truths from the universe, hatefully manipulating their prophecies as though they were independent or even in defiance of conventional soothsaying. Where magic fails, they are adept at reading humanoid emotions, making up attractive lies and pandering to biases to confirm their clients' worst fears and prejudices.",
 			"",
-			"**Family:** [Asura](monster/family/asura)",
+			"**Family:** [Asura](family/asura)",
 			"",
 			"### Habitat",
 			"",
@@ -10173,7 +10173,7 @@
 			"",
 			"A nikaramsa exploits the hubris and awe of mortal priests by disguising itself as a deity's chosen messenger and granting divine boons to a congregation, confusing believers by imparting more and more heretical lessons as gospel truths. The nikaramsa then corrupts the faith's blessings, causing the religion to collapse in the wake of its own clergy's atrocities.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"nikaramsa": { "copyof": "asura,_nikaramsa" },
@@ -10240,7 +10240,7 @@
 			"",
 			"Some spellcasters, on the other hand, actually seek out these tiny fiends to employ as familiars. A tripurasura greatly values these opportunities, since it need not abandon its master once its work is done and can continue to spread its agenda for as long as its master survives. A spellcaster must be lawful evil, at least 7th level, and have the Improved Familiar feat to gain a tripurasura as a familiar.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"tripurasura": { "copyof": "asura,_tripurasura" },
@@ -10305,7 +10305,7 @@
 			"",
 			"An upasunda is 7 feet tall and weighs 240 pounds.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"upasunda": { "copyof": "asura,_upasunda" },
@@ -10371,7 +10371,7 @@
 			"",
 			"Vayuphaks stand 7 feet tall and weigh 120 pounds, though rumors tell of powerful vayuphaks growing to giant sizes.",
 			"",
-			"**Family:** [Asura](monster/family/asura)"
+			"**Family:** [Asura](family/asura)"
 		]
 	},
 	"vayuphak": { "copyof": "asura,_vayuphak" },
@@ -10877,7 +10877,7 @@
 			"",
 			"Of the champion automatons that left Golarion, most now reside in the city of Axis, finding satisfaction in their existence and taking on more subdued lives in the planar city when not seeking battle on the planes. Occasionally, these automatons join inevitables in their missions, serving as additional muscle when the outsiders need assistance but wish to avoid pulling other inevitables away from their duties. Champion and stalker automatons frequently cross paths in Axis, as their automaton cores have a tendency to subtly pull towards each other, and they often meet up to spar or trade old tales of battles long forgotten by history. One group of champions and stalkers unites once a decade to host a simple tournament on the outskirts of Axis. The tournament invites all combatants within the city to test their prowess against the automatons, with the winner awarded the title of a lost Jistkan hero.",
 			"",
-			"**Family:** [Automaton](monster/family/automaton)"
+			"**Family:** [Automaton](family/automaton)"
 		]
 	},
 	"champion_automaton": { "copyof": "automaton,_champion_automaton" },
@@ -10955,7 +10955,7 @@
 			"",
 			"The Boneyard also contains a surprising number of familiar automatons. Here, the constructs walk among the souls awaiting judgment, serving as temporary companions for petitioners. The nature of a petitioner's memory means that the petitioner usually does not recognize a familiar automaton but still retains a strong association with a beloved pet from its former life. This association provides comfort for especially distressed petitioners. Thanks to their ability to ease wary souls, a few [catrina psychopomps](unknown/catrina_psychopomps) establish friendships with familiar automatons, the two working in tandem to make the wait for judgment as painless as possible.",
 			"",
-			"**Family:** [Automaton](monster/family/automaton)"
+			"**Family:** [Automaton](family/automaton)"
 		]
 	},
 	"familiar_automaton": { "copyof": "automaton,_familiar_automaton" },
@@ -11036,7 +11036,7 @@
 			"",
 			"The highest members of the Artificer Conclave were some of the most powerful scholars and warriors of the Jistka Imperium. This high-ranking group was known as the Automaton Council. The council is made up of some of the first automatons, having developed the technology that allowed their creation. Each member of the council was transplanted into a personalized master automaton with abilities far beyond those of the rest of the Conclave. The council vanished shortly before the coming of the Night Plague in -3064 AR, but their names and titles remain, burned into every automaton core as a signature from a fragment of their own life energy. &emsp;Agnanh of the High Watch &emsp;Busmin the Ridiculed &emsp;Enoh of the Seven &emsp;The Fallen Master &emsp;Hinmar the Final Scholar &emsp;Judge Lord Drus &emsp;The Imposter Inperantike &emsp;The Miser of the Lost &emsp;Tehkis, Death's Terror &emsp;The Unchained Servant",
 			"",
-			"**Family:** [Automaton](monster/family/automaton)"
+			"**Family:** [Automaton](family/automaton)"
 		]
 	},
 	"master_automaton": { "copyof": "automaton,_master_automaton" },
@@ -11118,7 +11118,7 @@
 			"",
 			"Now, besides those few on the Material Plane, most sharpshooter automatons reside in Axis with others of their kind. However, a few visit the Maelstrom on a regular basis, pushed toward the chaotic uncertainty of these planar depths by some sort of melancholy. These automatons tend to avoid other creatures and keep to themselves, and most proteans know that even in that chaotic realm, the constructs remain quite powerful, and thus keep their distance. Although the automatons in the Maelstrom are few, they are generally quite familiar with their favored region of the plane, and their powerful sight allows them to keep track of the chaos for miles in every direction. Most notable among these self-exiled sharpshooter automatons is Alvara the All-Seer. Those who know of her claim that the millennia through which she has stayed in the Maelstrom allows her to accurately understand and even predict the nature of the chaotic seas in which she resides.",
 			"",
-			"**Family:** [Automaton](monster/family/automaton)"
+			"**Family:** [Automaton](family/automaton)"
 		]
 	},
 	"sharpshooter_automaton": { "copyof": "automaton,_sharpshooter_automaton" },
@@ -11202,7 +11202,7 @@
 			"",
 			"One pack that makes its presence well known is Those That Sought the Beast. The especially powerful stalker automatons in this pack appear to have garnered some spark of divine might in their travels. They now scour Golarion in hopes of slaying the Spawn of Rovagug and welcome other hunters to join their cause.",
 			"",
-			"**Family:** [Automaton](monster/family/automaton)"
+			"**Family:** [Automaton](family/automaton)"
 		]
 	},
 	"stalker_automaton": { "copyof": "automaton,_stalker_automaton" },
@@ -11559,7 +11559,7 @@
 			"",
 			"Bralanis do not need to eat, but they enjoy doing so. Most prefer elven food, fiery human dishes, and spiced wine. Because of their similarities to elementals and fey, they sometimes act as intermediaries between mortals, elementals, and fey, though they prefer to arrange temporary truces that allow the interested parties to conduct their own negotiations on neutral ground. When taking the role of mediators-or whenever else such opportunities present themselves-bralani are quick to suggest friendly competitions or games to end disputes and enjoy creating challenges or complicated contests to test both physical and mental mortal prowess.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"bralani": { "copyof": "azata,_bralani" },
@@ -11633,7 +11633,7 @@
 			"",
 			"The brijidine sees fire as a form of purity, a marked difference from its classical association with devastation and destruction. To a brijidine, the existence of hellfire is the rankest blasphemy, and while many azatas look to the demons of the Abyss as their greatest enemies, it is among the devils of Hell that most brijidines find focus for their anger. The fact that devils are immune to fire, the brijidine's greatest strength, frustrates and angers these azatas all the more, forcing them to become far more imaginative and creative in their tactics when facing such foes. A brijidine stands 5-1/2 feet tall and weighs 150 pounds.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"brijidine": { "copyof": "azata,_brijidine" },
@@ -11702,7 +11702,7 @@
 			"",
 			"While many gancanaghs carry whimsical-looking pipes because they like the way they look, they can't stand smoke, and so rarely make use of them. A gancanagh's flute, on the other hand, is a cherished possession, as they enjoy both the beauty of the music and its ability to sway the heart. A typical gancanagh stands 6 feet tall but weighs only 130 pounds.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"gancanagh": { "copyof": "azata,_gancanagh" },
@@ -11779,7 +11779,7 @@
 			"",
 			"Ghaeles are the most knightly of the azatas, hunting fiends, dragons, and undead with equal vigor. Most appear like idealized humans or elves and are quick to smile-and equally quick to strike against those they perceive as wicked.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"ghaele": { "copyof": "azata,_ghaele" },
@@ -11846,7 +11846,7 @@
 			"",
 			"Although they have no need of mortal nourishment, it is said that lillends sup on the joy of music, art, and performance. They also love unspoiled wilderness and seek out places in the mortal realm that remind them of the beauty of their home plane. From the lore of numerous races come tales of these muses, particularly those that have taken a vested interest in the training of a single talented prodigy or the ongoing creation of some fantastic work of art. Such legends sometimes prove true, as all lillends have their favorite works, creations, and artists, and often visit the Material Plane to enjoy their splendor and make sure they remain safe. In the defense of such beauty, lillends prove passionate foes, calling upon the might of nearby allies or crushing philistines in their striking but deadly coils.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"lillend": { "copyof": "azata,_lillend" },
@@ -11915,7 +11915,7 @@
 			"",
 			"Lyrakien are light-hearted creatures, but they are very protective of breathtaking natural locations. Often called \"glistenwings\" by gnomes and halflings, lyrakien are frequently mistaken for fey-while they are generally friendly with true fey, their origin is the plane of Elysium. Like other azatas, they grow restless if they stay in one place too long. A chaotic good 7th-level spellcaster can gain a lyrakien as a familiar if she has the Improved Familiar feat.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"lyrakien": { "copyof": "azata,_lyrakien" },
@@ -11990,7 +11990,7 @@
 			"",
 			"Nualidus generally spring from the waters of Elysium, in the strongest concentrations of chaotic influence, and it is no coincidence they are extremely capricious and impermanent. From their personalities to their long tails, the aquatic outsiders resemble proteans as much as they do their fellow celestials, and whispers up and down the planes claim that they are the children of some ancient god's dalliance with a protean lord. Proteans are widely varied in their relations to the curious azatas, with many considering nualidus distant kin while others see them as a mockery of proteans' ideally chaotic forms.",
 			"",
-			"**Family:** [Azata](monster/family/azata)",
+			"**Family:** [Azata](family/azata)",
 			"",
 			"### Habitat",
 			"",
@@ -12086,7 +12086,7 @@
 			"",
 			"The anatomy of prydanus resembles that of humanoids, and while they cannot reproduce, they engage in intimate acts with one another or mortal lovers. Similarly, they don't need to eat or drink, but they partake of these pleasures in the spirit of camaraderie.",
 			"",
-			"**Family:** [Azata](monster/family/azata)",
+			"**Family:** [Azata](family/azata)",
 			"",
 			"### Habitat",
 			"",
@@ -12169,7 +12169,7 @@
 			"",
 			"Formed from the souls of authors, artists, and storytellers, raelises travel to the farthest corners of the planes searching for epic stories, poems, and simple tall tales.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"raelis": { "copyof": "azata,_raelis" },
@@ -12235,7 +12235,7 @@
 			"",
 			"A thyrlien is a unique type of azata created by Desna. Intended as rare warrior counterparts to lyrakien, thyrlien are tasked with watching over nighttime travelers. Specifically hunting the servants of Lamashtu and Ghlaunder, thyrlien wander lonely roads and dark alleys, hoping to confront or counter the dark things that so often hunt such ominous spots. Superficially humanoid, a thyrlien's attacks reveal its nonhuman origins. Venomous saliva coats mouth and its delicatelooking wings are actually as stiff as wood and have razor sharp edges. A thyrlien is skilled at tracking using conventional and magical methods and is savvy to the ways of its chosen prey. These servants of the goddess of luck stand about 2 feet tall and weigh around 15 pounds.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"thyrlien": { "copyof": "azata,_thyrlien" },
@@ -12308,7 +12308,7 @@
 			"",
 			"An uinuja stands 9 feet tall and weighs 500 pounds",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"uinuja": { "copyof": "azata,_uinuja" },
@@ -12409,7 +12409,7 @@
 			"",
 			"Create Gate (Su): A veranallia elder is able to create a gate between Elysium and the Material Plane once per day, as per the spell gate, but can do so only to allow travel between the two worlds. On the Material Plane end, the gate must open up into a wilderness area of natural beauty. Once created, such a gate exists until the veranallia elder is slain or chooses to end the effect. A veranallia elder can maintain up to three such gates at once; if it makes a fourth gate, it chooses which of the three gates that it previously created is then ended as a result.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"veranallia": { "copyof": "azata,_veranallia" },
@@ -12479,7 +12479,7 @@
 			"",
 			"Yamahs can often be encountered during lunar eclipses and other significant celestial events in regions where worship of any chaotic good deity or demigod is strong. Legends among such faiths claim that yamahs sometimes accompany good spellcasters on crusades against otherworldly fiends, though every story inevitably ends with the yamah mysteriously departing after the deed is done, abandoning its mortal partner without a word.",
 			"",
-			"**Family:** [Azata](monster/family/azata)"
+			"**Family:** [Azata](family/azata)"
 		]
 	},
 	"yamah": { "copyof": "azata,_yamah" },
@@ -15138,7 +15138,7 @@
 			"",
 			"Swarming (Ex): The beheaded gains 1 additional Hit Die, the swarm subtype, swarm immunities, and the distraction special ability. It loses its slam attack but gains a swarm attack that deals 1d6 points of damage. This counts as two abilities for the purpose of determining the beheaded's CR.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"beheaded,_flaming_skull": {
@@ -15207,7 +15207,7 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"flaming_skull": { "copyof": "beheaded,_flaming_skull" },
@@ -15278,7 +15278,7 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"giant_beheaded": { "copyof": "beheaded,_giant_beheaded" },
@@ -15353,7 +15353,7 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"medusa_head": { "copyof": "beheaded,_medusa_head" },
@@ -15422,7 +15422,7 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"severed_head": { "copyof": "beheaded,_severed_head" },
@@ -15494,7 +15494,7 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](monster/family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
 	"skull_swarm": { "copyof": "beheaded,_skull_swarm" },
@@ -15571,7 +15571,7 @@
 			"",
 			"Spell-Like Abilities (CL 15th): Always active - nondetection; At will - create water, detect animals or plants, purify food and drink, soften earth and stone; 3/day - cure critical wounds, heroes' feast, move earth, plant growth; 1/day - find the path, restoration",
 			"",
-			"**Family:** [Behemoth](monster/family/behemoth)"
+			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
 	"ravener": { "copyof": "behemoth,_ravener" },
@@ -15637,7 +15637,7 @@
 			"",
 			"The advent of a tempest behemoth is generally presaged by foul weather and terrific storms that drive flocks of birds before their headwinds. The day before the behemoth arrives, the storms suddenly abate-ironically encouraging victims to emerge into the open just as the behemoth strikes.",
 			"",
-			"**Family:** [Behemoth](monster/family/behemoth)"
+			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
 	"tempest_behemoth": { "copyof": "behemoth,_tempest_behemoth" },
@@ -15700,7 +15700,7 @@
 			"",
 			"The coming of a thalassic behemoth is typically foreshadowed by a dramatic increase in missing ships, strange tides, and the uncanny sight of sea life purposefully beaching upon shores. Thalassic behemoths generally spend much of their time lurking a few hundred feet below the surface-but legends hold that even greater behemoths, the dread leviathans, dwell in the deepest oceanic reaches.",
 			"",
-			"**Family:** [Behemoth](monster/family/behemoth)"
+			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
 	"thalassic_behemoth": { "copyof": "behemoth,_thalassic_behemoth" },
@@ -15764,7 +15764,7 @@
 			"",
 			"Thunder behemoths are sent out by the gods to destroy wicked cities, raze great temples or monuments that offend divine eyes, and otherwise act as instruments of divine wrath either on the surface of a world or just below it. The days before a thunder behemoth arrives are fraught with minor but unnerving earthquakes, mass exoduses of burrowing animals to the surface, and an unexplained increase in fallen trees and sinkholes.",
 			"",
-			"**Family:** [Behemoth](monster/family/behemoth)"
+			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
 	"thunder_behemoth": { "copyof": "behemoth,_thunder_behemoth" },
@@ -16778,7 +16778,7 @@
 			"",
 			"A cave blight measures 7 feet across and weighs 600 pounds on average.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"cave_blight": { "copyof": "blight,_cave_blight" },
@@ -16840,7 +16840,7 @@
 			"",
 			"A desert blight measures 5 feet in diameter and weighs 200 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"desert_blight": { "copyof": "blight,_desert_blight" },
@@ -16902,7 +16902,7 @@
 			"",
 			"A forest blight is 7 feet across and weighs 350 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"forest_blight": { "copyof": "blight,_forest_blight" },
@@ -16966,7 +16966,7 @@
 			"",
 			"A mountain blight averages 6 feet in diameter and weighs around 270 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"mountain_blight": { "copyof": "blight,_mountain_blight" },
@@ -17031,7 +17031,7 @@
 			"",
 			"A sewer blight is 6 feet in diameter and weighs 300 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"sewer_blight": { "copyof": "blight,_sewer_blight" },
@@ -17096,7 +17096,7 @@
 			"",
 			"A swamp blight is 7 feet across and weighs 540 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"swamp_blight": { "copyof": "blight,_swamp_blight" },
@@ -17163,7 +17163,7 @@
 			"",
 			"Tundra blights are 7 feet across and weight 450 pounds.",
 			"",
-			"**Family:** [Blight](monster/family/blight)"
+			"**Family:** [Blight](family/blight)"
 		]
 	},
 	"tundra_blight": { "copyof": "blight,_tundra_blight" },
@@ -19804,7 +19804,7 @@
 			"",
 			"A bonewrought willow stands between 12 and 15 feet tall and weighs about 800 pounds.",
 			"",
-			"Bonewrought willows originated centuries ago in the Boneyard as skeletal echoes of Material Plane willows. [Psychopomps](monster/family/psychopomp) discovered these willows and carefully tended them, appreciating the trees' deep respect for the dead. The spiritual remains contained within these first trees found fertile ground in the Boneyard, allowing for new bonewrought willows to grow on their own. Today, entire copses of the trees thrive in the Boneyard, particularly in the region known as the Graveyard of Souls. Bonewrought willows produce tiny seeds that can drift for many years; a rare few of these blow through portals to other worlds and sprout near large concentrations of bones.",
+			"Bonewrought willows originated centuries ago in the Boneyard as skeletal echoes of Material Plane willows. [Psychopomps](family/psychopomp) discovered these willows and carefully tended them, appreciating the trees' deep respect for the dead. The spiritual remains contained within these first trees found fertile ground in the Boneyard, allowing for new bonewrought willows to grow on their own. Today, entire copses of the trees thrive in the Boneyard, particularly in the region known as the Graveyard of Souls. Bonewrought willows produce tiny seeds that can drift for many years; a rare few of these blow through portals to other worlds and sprout near large concentrations of bones.",
 			"",
 			"Despite their bony appearance, bonewrought willows are living plants. They share many traits with undead creatures, due to their close association with the dead of the Boneyard, but they require sustenance to survive. Bonewrought willows do not draw nutrients from the soil through their roots; their rootlike appendages are actually phalanges that provide them with surprising mobility. Instead, they gain sustenance by absorbing bone matter. A bonewrought willow requires bones equivalent in size to a human skeleton each month; failure to meet this dietary minimum robs a bonewrought willow of its spray of splintered bones ability, and several months of nutritional deprivation causes the tree to starve to death. Hungry trees range far in search of bones to consume and might become desperate enough to hunt prey.",
 			"",
@@ -19877,7 +19877,7 @@
 			"",
 			"A single, finger-length bore worm has never been much of a threat to any one creature, but isolated bore worms are found only in laboratories. Bore worm swarms, as they are more commonly encountered, consume organic material with a voracious appetite, tunneling through the earth like water as they reach progressively larger sizes.",
 			"",
-			"**Family:** [Bore Worm](monster/family/bore_worm)",
+			"**Family:** [Bore Worm](family/bore_worm)",
 			"",
 			"### Ecology",
 			"",
@@ -19943,7 +19943,7 @@
 			"",
 			"A single, finger-length bore worm has never been much of a threat to any one creature, but isolated bore worms are found only in laboratories. Bore worm swarms, as they are more commonly encountered, consume organic material with a voracious appetite, tunneling through the earth like water as they reach progressively larger sizes.",
 			"",
-			"**Family:** [Bore Worm](monster/family/bore_worm)",
+			"**Family:** [Bore Worm](family/bore_worm)",
 			"",
 			"### Ecology",
 			"",
@@ -20009,7 +20009,7 @@
 			"",
 			"A single, finger-length bore worm has never been much of a threat to any one creature, but isolated bore worms are found only in laboratories. Bore worm swarms, as they are more commonly encountered, consume organic material with a voracious appetite, tunneling through the earth like water as they reach progressively larger sizes.",
 			"",
-			"**Family:** [Bore Worm](monster/family/bore_worm)",
+			"**Family:** [Bore Worm](family/bore_worm)",
 			"",
 			"### Ecology",
 			"",
@@ -28154,7 +28154,7 @@
 			"",
 			"Clockwork angels are constructed around a spark of life harnessed from the Positive Energy Plane, which imbues them with a sort of artificial life and further bolsters their potency. A clockwork angel stands 7 feet tall and weighs 450 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28228,7 +28228,7 @@
 			"",
 			"Clockwork assassins are efficient killers, ready to leap into murderous action as soon as intruders are detected. A clockwork assassin stands 6 feet tall and weighs 400 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28321,7 +28321,7 @@
 			"",
 			"Sleep Gas Breath (CR +0): This clockwork dragon's breath weapon is replaced with tanks of sleep gas. When the clockwork breathes out this gas in a 30-foot cone, creatures within the cone must succeed a DC 22 Will save or fall asleep for 1d6+10 rounds. Clockwork dragons with this breath weapon tend to have either the infiltrator or mithral variants, and often they have both variants. These clockwork dragons excel at missions that require stealth and precision rather than brute force.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28394,7 +28394,7 @@
 			"",
 			"The product of greed and invention, clockwork excavators are designed to strip-mine an area in pursuit of mineral wealth. Found in areas where such desires override any concern for the natural environment, clockwork excavators are durable, tough, and purpose-driven.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Ecology",
 			"",
@@ -28486,7 +28486,7 @@
 			"",
 			"For those who fuse magic with machinery, the best familiar is the one the caster creates herself, breathing life into a clockwork mechanism of her own design. A spellcaster can gain a clockwork familiar at 7th level by taking the Improved Familiar feat. A typical clockwork familiar is 2 feet tall or long and weighs 10 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28561,7 +28561,7 @@
 			"",
 			"Clockwork fiends often guard religious sites, but their tactics focus on an overwhelmingly strong offensive.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28631,7 +28631,7 @@
 			"",
 			"A clockwork goblin is an amalgamation of clockwork gears, shoddy craftsmanship, and fiery destruction. Amateur clockwork engineers practicing their craft or learning a new skill are responsible for the creation of many clockwork goblins. Many of these creations result in failure, though a rare few attain a semblance of functionality. Clockwork goblins are about 3 feet tall and weigh a little over 100 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28702,7 +28702,7 @@
 			"",
 			"The clockwork goliath towers over most creatures and buildings; standing at a height of 45 feet, it weighs over 100 tons.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28771,7 +28771,7 @@
 			"",
 			"A clockwork guardian is 7 feet tall and weighs 750 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28844,7 +28844,7 @@
 			"",
 			"A clockwork gunslinger stands 6 feet tall and weighs 400 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28919,7 +28919,7 @@
 			"",
 			"Like clockwork soldiers, clockwork hounds have long activity cycles due to the lessened winding requirements of their lighter frames. Their chest cavities are used to storage goods instead of for reinforcement. They are used primarily for delivery missions, but work equally well as retrievers. They're occasionally used for sentry duty, or more rarely, defense, and are most often seen in the company of similarly tasked constructs such as clockwork soldiers and guardians. A clockwork hound stands 2-1/2 feet tall at its shoulders and weighs 300 pounds",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -28994,7 +28994,7 @@
 			"",
 			"Clockwork leviathans are 25 feet long and weigh just over 3 tons.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29070,7 +29070,7 @@
 			"",
 			"A humanoid figure of mithral and steel, a clockwork mage has large crystal ball filled with shifting vapors for a head. It stands 7 feet tall.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29156,7 +29156,7 @@
 			"",
 			"Tons of ore are required to produce a clockwork nautiloid-enough to deplete a small mine-but once created, the construct has little impact upon the natural environment. Its coated shells provide no purchase for barnacles or other small creatures, so it slips through the seas without displacing marine life. A clockwork nautiloid pollutes very little under normal operation, as its greased gears and pumps are fully contained.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Habitat",
 			"",
@@ -29250,7 +29250,7 @@
 			"",
 			"What clockwork creatures boast in both strength and resilience, they often lack in nuance and strategy. Most machinists are content to command their constructs directly when seeking tactical precision, but only a few artificers have the technical expertise needed to create a mechanical lieutenant capable of reasoning and adapting in its master's absence. Known as clockwork overseers, these constructs boast extraordinarily complex programming that far exceeds the basic command vocabulary of other clockwork creatures. This allows clockwork overseers to store hundreds or even thousands of commands, which they can parse and sort quickly enough to simulate an intelligent creature's adaptive thinking-at least regarding combat strategy and moderately complex tasks of coordinating construct laborers. These functions fall short of true thought, and clockwork overseers are incapable of language, emotion, higher thinking, or symbolic reasoning beyond specific sounds and statements they might parrot on command.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Ecology",
 			"",
@@ -29336,7 +29336,7 @@
 			"",
 			"Within a church, clockwork priests serve as assistants and aides, carrying out commands with unquestioned loyalty. While rare, churches staffed entirely by clockwork priests do exist. Stories tell of cathedrals dedicated to Amaznen, the Azlanti god of invention and magic, still operating in the ruins of Azlant, despite the fact that that god is now dead.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29407,7 +29407,7 @@
 			"",
 			"Clockwork servants are about 5 feet tall and weigh over 400 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29478,7 +29478,7 @@
 			"",
 			"Although their upper bodies resemble the clockwork soldiers from which their forms were no doubt inspired, these mechanical monstrosities are in fact a horrific blend of gastropod and clockwork, fusing the cruelest aspects of calculated war machinery and the foul influence of eidite. A clockwork snail is 12 feet tall and weighs 2,000 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29551,7 +29551,7 @@
 			"",
 			"Clockwork soldiers are among the most efficient constructs of their kind. They are ideal for sentry and guard duty. Clockwork soldiers have the same basic shape as a human. They are 6 feet tall and weigh 500 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29624,7 +29624,7 @@
 			"",
 			"A clockwork songbird is typically no longer than 18 inches and weighs about 5 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29694,7 +29694,7 @@
 			"",
 			"Clockwork spies are about 2 feet wide from leg to leg, and weigh less than 40 pounds.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29767,7 +29767,7 @@
 			"",
 			"A clockwork charger has a pivoted latch large enough to support a lance and allows even those who are not proficient with a lance to use it as if they were. Furthermore, the clockwork charger is proficient with any lance equipped in the pivot and gains the undersized weapon special ability.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29837,7 +29837,7 @@
 			"",
 			"Assembled by unknown creators for inscrutable purposes, clockwork vivisectionists wait in the depths of ageless dungeons or within the tombs of forgotten kings. When wound, they pursue a single purpose: to examine the inner workings of living humanoids. They approach this task with a cold, insatiable curiosity that has somehow been programmed into their clicking levers and complex gear trains. Clockwork vivisectionists enter combat only to paralyze victims for later vivisection.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Ecology",
 			"",
@@ -29914,7 +29914,7 @@
 			"",
 			"The most common mechanical genie is that presented above. A mechanical efreeti has a face sculpted into a permanent scowl and an inner boiler to heat its large fists.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -29989,7 +29989,7 @@
 			"",
 			"A toy golem is 6 feet tall and weighs about 450 pounds; each component toy is only 1 foot tall and weighs 1-1/2 pounds. The components that make up the golem are capable of winding one another up if they can reach each other.",
 			"",
-			"**Family:** [Clockwork](monster/family/clockwork)",
+			"**Family:** [Clockwork](family/clockwork)",
 			"",
 			"### Construction",
 			"",
@@ -33767,7 +33767,7 @@
 			"",
 			"**Arcane Attacks (Su)** A cyphergull's natural weapons have a +1 bonus to damage and are treated as magic for the purpose of overcoming damage reduction. For every 5 Hit Dice the cyphergull has, this bonus increases by 1.",
 			"",
-			"**Cypher Synergy (Ex)** If the master of a cyphergull familiar is a [cyphermage](class/prestige/cyphermage), the cyphergull gains the following cypher lore discoveries if its master has them: analyze scroll, bypass symbol, defensive scrollcaster, and glyph finder. Defensive scrollcaster affects spells the cyphergull casts using its devour scroll ability.",
+			"**Cypher Synergy (Ex)** If the master of a cyphergull familiar is a [cyphermage](prestigeclass/cyphermage), the cyphergull gains the following cypher lore discoveries if its master has them: analyze scroll, bypass symbol, defensive scrollcaster, and glyph finder. Defensive scrollcaster affects spells the cyphergull casts using its devour scroll ability.",
 			"",
 			"**Devour Scroll (Su)** When a cyphergull eats a scroll (a full-round action), the spells in the scroll are stored in the gull's body. Thereafter, it can cast the spells as though it were a wizard of a level equal to half the cyphergull's Hit Dice casting spells from a scroll. The cyphergull intuitively understands how the spells function and counts as having the requisite ability score for casting the spell. A cyphergull can store a maximum number of spell levels equal to its Hit Dice.",
 			"",

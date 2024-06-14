@@ -583,7 +583,7 @@
 			"",
 			"Archaeopteryxes are primitive birds. Instead of beaks, they have lizardlike heads with serrated teeth.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"archaeopteryx": { "copyof": "familiar,_archaeopteryx" },
@@ -635,7 +635,7 @@
 			"",
 			"An arctic hare has adapted to life in cold environments but fares well in warmer climes.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"arctic_hare": { "copyof": "familiar,_arctic_hare" },
@@ -689,7 +689,7 @@
 			"",
 			"Arctic terns are about 1 foot long and weigh about half a pound.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"arctic_tern": { "copyof": "familiar,_arctic_tern" },
@@ -751,7 +751,7 @@
 			"",
 			"An armadillo is 2-1/2 feet long and weighs roughly 10 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"armadillo": { "copyof": "familiar,_armadillo" },
@@ -797,7 +797,7 @@
 			"",
 			"Most bats are insectivores or fruit-eaters, but at least one species drinks blood.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"bat": { "copyof": "familiar,_bat" },
@@ -856,7 +856,7 @@
 			"",
 			"Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"blue-ringed_octopus": { "copyof": "familiar,_blue-ringed_octopus" },
@@ -907,7 +907,7 @@
 			"",
 			"Butterflies are delicate, brightly colored insects that feed on nectar and other sources of sugar. Moths have the same statistics as butterflies, though they tend to be active at night. The butterfly (or moth) presented here is a particularly large specimen with a wingspan of just over 6 inches, yet it is still completely harmless and awards no XP if slain.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"butterfly": { "copyof": "familiar,_butterfly_moth" },
@@ -955,7 +955,7 @@
 			"",
 			"Cats typically weigh 5-15 pounds when fully grown.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"cat": { "copyof": "familiar,_cat" },
@@ -1016,7 +1016,7 @@
 			"",
 			"A chicken is about 1 foot tall and weighs 5 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"chicken": { "copyof": "familiar,_chicken" },
@@ -1069,7 +1069,7 @@
 			"",
 			"Cockroaches are hardy insects commonly viewed as pests-especially for being attracted to warm buildings and unattended food in urban areas. They are famously skittish, fleeing from larger creatures and sources of light.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"cockroach": { "copyof": "familiar,_cockroach" },
@@ -1121,7 +1121,7 @@
 			"",
 			"Climbing ivy thrives in dense forests and urban landscapes, where it can easily relocate to maximize its exposure to the sun. Surprisingly fast for a plant, creeper ivy is territorial and lashes out at creatures that threaten or shade it. It also scavenges when the opportunity presents itself, sometimes drawing nutrition from carrion or even unguarded eggs.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"creeper_ivy": { "copyof": "familiar,_creeper_ivy" },
@@ -1173,7 +1173,7 @@
 			"",
 			"These flightless birds typically inhabit isolated tropical islands and coastlines that are devoid of predators and other creatures that might kill them to use as a resource. Dodos' size and unfamiliarity with natural dangers contribute to a kind of boldness in their species-or what some would call stupidity-causing them to bumble into precarious situations and making them easy targets for other creatures that are on the prowl for a tasty meal. The birds can all too easily be caught and slain, and while their meat has a most unpleasant taste, few starving, shipwrecked sailors would turn such a providential meal down.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"dodo": { "copyof": "familiar,_dodo" },
@@ -1221,7 +1221,7 @@
 			"",
 			"Donkey rats are brown or snowy white rodents the size of small dogs, with long legs and short, furry tails. These statistics can also be used for capybaras.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"donkey_rat": { "copyof": "familiar,_donkey_rat" },
@@ -1276,7 +1276,7 @@
 			"",
 			"Dwarf caimans are a small species of crocodilian predators that live amid the fast-running streams of tropical rainforests and swamps. These patient predators sometimes lie in awkward positions for hours before they strike their prey, their mottled scales disguising them as floating wood.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"dwarf_caiman": { "copyof": "familiar,_dwarf_caiman" },
@@ -1335,7 +1335,7 @@
 			"",
 			"A typical dweomer cap is about 1 foot wide and weighs around 2 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"dweomer_cap": { "copyof": "familiar,_dweomer_cap" },
@@ -1393,7 +1393,7 @@
 			"",
 			"Fire salamanders are 6 to 10 inches long and weigh only 2 ounces.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"fire_salamander": { "copyof": "familiar,_fire_salamander" },
@@ -1451,7 +1451,7 @@
 			"",
 			"The result of centuries of plant husbandry, flowering lattices are delicate networks of vines that form blossoming nets about 1 square foot in size. As many as 12 varieties of flower grow from an individual flowering lattice, with each bloom opening at different times of the year and hours of the day to ensure a nearly constant array of colorful petals. This plant's enthusiasts often incorporate the organism into their fashion, draping them over the shoulders like a stole or over the head as a hood. These lattices require regular care, surviving on their own only in regions with rich soil and ample pollinators.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"flowering_lattice": { "copyof": "familiar,_flowering_lattice" },
@@ -1500,7 +1500,7 @@
 			"",
 			"These large bats are herbivorous and lack the echolocation abilities of their smaller kin, but are resistant to disease.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"flying_fox": { "copyof": "familiar,_flying_fox" },
@@ -1554,7 +1554,7 @@
 			"",
 			"Although not capable of actual flight, a flying squirrel possesses a furry membrane stretching between its wrists and ankles, allowing it to glide for long distances.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"flying_squirrel": { "copyof": "familiar,_flying_squirrel" },
@@ -1604,7 +1604,7 @@
 			"",
 			"This cunning yet wary animal pounces on live prey.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"fox": { "copyof": "familiar,_fox" },
@@ -1660,7 +1660,7 @@
 			"",
 			"Giant isopods are carnivorous scavengers that scour the ocean's floor. They vaguely resemble the common wood louse in appearance, though they can grow to be up to 2-1/2 feet long and weigh nearly 4 pounds. Their unusual size and insectile appearance cause many humanoids to be wary of them, despite their relative harmlessness.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"giant_isopod": { "copyof": "familiar,_giant_isopod" },
@@ -1716,7 +1716,7 @@
 			"",
 			"Giant tardigrades, sometimes referred to as water bears, are miniscule, eight-legged creatures that live in water but can survive almost anywhere. The giant tardigrade grows as large as 1 foot in length and feeds on patches of bacteria, fungus, and plant matter.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"giant_tardigrade": { "copyof": "familiar,_giant_tardigrade" },
@@ -1765,7 +1765,7 @@
 			"",
 			"Goats are often ill-tempered and stubborn, but they have an uncanny knack for finding food in the strangest of places and can digest almost anything.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"goat": { "copyof": "familiar,_goat" },
@@ -1811,7 +1811,7 @@
 			"",
 			"Falconers prize these majestic birds as trained hunting companions if raised from chicks and properly instructed.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"hawk": { "copyof": "familiar,_hawk" },
@@ -1863,7 +1863,7 @@
 			"",
 			"Hedgehogs are spiny, insectivorous mammals. When threatened, a hedgehog rolls up into a spiny ball as a defense mechanism.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"hedgehog": { "copyof": "familiar,_hedgehog" },
@@ -1924,7 +1924,7 @@
 			"",
 			"Despite their sluggish, toad-like appearance, these creatures are reptiles with dry, spiny skin adapted to prevent water loss in their native desert environment. They are typically found sunning themselves on rocks during all but the hottest parts of the day, retreating beneath the shade of ridges or rocks when the sun is directly overhead. Their main method of defense is to avoid detection, but when their desert coloration fails to fool predators, they attempt to flee or use their other defensive methods, such as their unique ability to rupture blood vessels in their eyes so they can spray noxious blood at approaching predators. Due to their fierce defensive displays, horned lizards are often thought to be overly aggressive, though people who keep them as pets or familiars know that they can be affectionate creatures.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"horned_lizard": { "copyof": "familiar,_horned_lizard" },
@@ -1979,7 +1979,7 @@
 			"",
 			"Multi-legged house centipedes can be found almost anywhere, and can have from 20 to more than 300 legs. Their bites are poisonous, and can daze the unwary.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"house_centipede": { "copyof": "familiar,_house_centipede" },
@@ -2042,7 +2042,7 @@
 			"",
 			"A typical ioun wyrd is roughly 2 feet in diameter and weighs between 15 and 20 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)",
+			"**Family:** [Familiar](family/familiar)",
 			"",
 			"### Construction",
 			"",
@@ -2103,7 +2103,7 @@
 			"",
 			"A jerboa is 6 inches long, has a 1-foot-long tail, and weighs between 1 and 3 ounces.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"jerboa": { "copyof": "familiar,_jerboa" },
@@ -2161,7 +2161,7 @@
 			"",
 			"A kakapo is roughly 2 feet long from beak to tail tip and can weigh up to 9 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"kakapo": { "copyof": "familiar,_kakapo" },
@@ -2216,7 +2216,7 @@
 			"",
 			"King crabs are small crustaceans with eight legs and two pincers or claws. Aquatic scavengers, crabs can also survive on land for some time, but must return to the water or suffocate.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"king_crab": { "copyof": "familiar,_king_crab" },
@@ -2269,7 +2269,7 @@
 			"",
 			"A koala measures about 2-1/2 feet from tail to nose and can weigh up to 30 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"koala": { "copyof": "familiar,_koala" },
@@ -2323,7 +2323,7 @@
 			"",
 			"Lampreys can reach a length of up to 4 feet and weigh up to 5 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"lamprey": { "copyof": "familiar,_lamprey" },
@@ -2377,7 +2377,7 @@
 			"",
 			"Lemmings grow to be as large as 6 inches from their noses to their short tails.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"lemming": { "copyof": "familiar,_lemming" },
@@ -2437,7 +2437,7 @@
 			"",
 			"Leopard slugs are about 6 inches long and weigh less than a pound.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"leopard_slug": { "copyof": "familiar,_leopard_slug" },
@@ -2483,7 +2483,7 @@
 			"",
 			"Lizards can be found in any temperate or tropical climate. When confronted with predators, a lizard flees and hides.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"lizard": { "copyof": "familiar,_lizard" },
@@ -2537,7 +2537,7 @@
 			"",
 			"A margay weighs around 8 pounds and may reach a length of 3-4 feet, nearly half of which is its tail.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"margay_cat": { "copyof": "familiar,_margay_cat" },
@@ -2598,7 +2598,7 @@
 			"",
 			"A meerkat weighs around 2 pounds and is about 1 foot tall when standing upright.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"meerkat": { "copyof": "familiar,_meerkat" },
@@ -2653,7 +2653,7 @@
 			"",
 			"The typical mole is 6 inches long and weighs less than a pound. These familiars are popular choices with ratfolk.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"mole": { "copyof": "familiar,_mole" },
@@ -2699,7 +2699,7 @@
 			"",
 			"Monkeys are highly social creatures. They spend the majority of their day searching for food.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"monkey": { "copyof": "familiar,_monkey" },
@@ -2748,7 +2748,7 @@
 			"",
 			"Otters are curious and playful, and enjoy investigating new objects, sliding down wet rocks, and other simple games.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"otter": { "copyof": "familiar,_otter" },
@@ -2794,7 +2794,7 @@
 			"",
 			"Owls are nocturnal, rodent-eating birds that make very little noise in flight.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"owl": { "copyof": "familiar,_owl" },
@@ -2854,7 +2854,7 @@
 			"",
 			"While the male variety is more commonly recognized, all peafowl have identical statistics. A typical peafowl is 3-1/2 feet tall and weighs about 10 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"peafowl": { "copyof": "familiar,_peafowl" },
@@ -2915,7 +2915,7 @@
 			"",
 			"A penguin of the most common variety stands roughly 3 feet tall and weighs 70 pounds. Larger species of penguin can grow to heights of 4 feet and weigh as much as 100 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"penguin": { "copyof": "familiar,_penguin" },
@@ -2976,7 +2976,7 @@
 			"",
 			"Petriferns reach a maximum height of 1 foot and weigh up to 3 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"petrifern": { "copyof": "familiar,_petrifern" },
@@ -3025,7 +3025,7 @@
 			"",
 			"This clever, sociable animal may be trained to do many tasks.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"pig": { "copyof": "familiar,_pig" },
@@ -3089,7 +3089,7 @@
 			"",
 			"The average platypus is roughly 1-1/2 feet long and weighs 3-1/2 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"platypus": { "copyof": "familiar,_platypus" },
@@ -3140,7 +3140,7 @@
 			"",
 			"Popotos are the smallest species of dolphin known, and they generally swim in shallow waters near shorelines. Sometimes they manage to swim miles upriver when they hunt for fish, using echolocation to navigate through smaller channels. They are social hunters and traveling in small groups called pods, which normally contain three to five popotos. Like larger dolphins, popotos are popular with seafarers, who consider the creatures to be good luck and tell hopeful tales of popotos leading lost swimmers to shore and pods fighting off sharks that are much larger than the popotos themselves.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"popoto_dolphin": { "copyof": "familiar,_popoto_dolphin" },
@@ -3194,7 +3194,7 @@
 			"",
 			"Ptarmigans are roughly a foot long from beak to tail and have a wingspan of twice that.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"ptarmigan": { "copyof": "familiar,_ptarmigan" },
@@ -3255,7 +3255,7 @@
 			"",
 			"Pufferfish come in a variety of sizes and types, and most range from 6 inches to 2 feet in length and weigh between 5 and 30 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"pufferfish": { "copyof": "familiar,_pufferfish" },
@@ -3309,7 +3309,7 @@
 			"",
 			"Puffins are about a foot long and weigh close to 1 pound.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"puffin": { "copyof": "familiar,_puffin" },
@@ -3363,7 +3363,7 @@
 			"",
 			"An average rabbit is between 8 and 20 inches long and weighs 1 to 4 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"rabbit": { "copyof": "familiar,_rabbit" },
@@ -3412,7 +3412,7 @@
 			"",
 			"Raccoons are inquisitive and cunning, and often have strangely humanoid mannerisms, like washing their food in streams.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"raccoon": { "copyof": "familiar,_raccoon" },
@@ -3458,7 +3458,7 @@
 			"",
 			"Fecund and secretive, rats are omnivorous rodents that particularly thrive in urban areas.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"rat": { "copyof": "familiar,_rat" },
@@ -3504,7 +3504,7 @@
 			"",
 			"The raven is an omnivorous scavenger that eats carrion, insects, food waste, berries, and even small animals.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"raven": { "copyof": "familiar,_raven" },
@@ -3562,7 +3562,7 @@
 			"",
 			"Unlike its harmless counterpart, a ravenous tumbleweed uproots itself when nutrients are scarce in order to hunt down live prey. These seasonally carnivorous plants gather into imposing drifts that wait for periods of high winds before overwhelming birds, rabbits, and even deer.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"ravenous_tumbleweed": { "copyof": "familiar,_ravenous_tumbleweed" },
@@ -3619,7 +3619,7 @@
 			"",
 			"Razor ferns are ambulatory ambush predators with rigid leaf structures that can open painful wounds. Although they prefer to prey on small forest creatures, a razor fern won't hesitate to slash at a larger target while that creature sleeps or is otherwise distracted.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"razor_fern": { "copyof": "familiar,_razor_fern" },
@@ -3668,7 +3668,7 @@
 			"",
 			"Red pandas are small, short-legged arboreal mammals known for their red-brown fur and climbing abilities.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"red_panda": { "copyof": "familiar,_red_panda" },
@@ -3726,7 +3726,7 @@
 			"",
 			"Rhamphorhynchuses make excellent familiars for those spellcasters who are looking for quick and nimble minions. Although not dinosaurs themselves, these skittish pterosaurs are often found wheeling in the skies above dinosaur hunting grounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"rhamphorhynchus": { "copyof": "familiar,_rhamphorhynchus" },
@@ -3785,7 +3785,7 @@
 			"",
 			"A sawleg locust is a larger variety of grasshopper that grows as large as 2 feet in length and feeds on a variety of plants. Periods of drought sometimes cause these locusts to gather in large groups, either to migrate to better feeding grounds or rarely to overpower and consume small animals.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"sawleg_locust": { "copyof": "familiar,_sawleg_locust" },
@@ -3838,7 +3838,7 @@
 			"",
 			"Sleek-bodied aquatic mammals, seals spend the majority of their lives in the water, whether in the harbors of tropical ports or amid wandering icebergs. They prefer rocky beaches, upon which they rest and raise their young, and from which they dive to hunt fish, sea birds, squid, and other small aquatic creatures. They are well known for their vocal communications consisting of barks, grunts, and flipper slaps-a trait that causes many humanoids to remark on their intelligence and the ease with which they can be trained.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"seal": { "copyof": "familiar,_seal" },
@@ -3890,7 +3890,7 @@
 			"",
 			"Shimmerwing dragonflies are agile flying insects that prey on other flying creatures. With a wingspan of nearly 3 feet, these dragonflies can even capture and eat small birds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"shimmerwing_dragonfly": { "copyof": "familiar,_shimmerwing_dragonfly" },
@@ -3939,7 +3939,7 @@
 			"",
 			"Sloths are tree-dwelling herbivores. They are known for their efficient metabolisms and slow movement.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"sloth": { "copyof": "familiar,_sloth" },
@@ -3998,7 +3998,7 @@
 			"",
 			"Spiny starfish are marine invertebrates that wander the sea floor in search of mollusks and other slow-moving prey. Their tube feet afford them an excellent grip on their chosen food source, and they can famously expel their stomachs into subdued shellfish to digest their meals. An injured spiny starfish heals wounds quickly, even regrowing lost limbs over time.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"spiny_starfish": { "copyof": "familiar,_spiny_starfish" },
@@ -4052,7 +4052,7 @@
 			"",
 			"The average squirrel is roughly 1-1/2 feet long and weighs 1 pound.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"squirrel": { "copyof": "familiar,_squirrel" },
@@ -4113,7 +4113,7 @@
 			"",
 			"Suture vines are thorny, symbiotic organisms that snag rides on wounded animals, seek out open wounds, and knit those injuries closed-all while absorbing fairly harmless amounts of blood. Local animals often recognize suture vines, both avoiding them as food and seeking them out when wounded. A suture vine that goes without feeding for a week or more sometimes resorts to ambushing small prey.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"suture_vine": { "copyof": "familiar,_suture_vine" },
@@ -4171,7 +4171,7 @@
 			"",
 			"The length of a tarsier from its head to the tip of its tail is about 1 to 1-1/2 feet, but when clinging to a tree, a tarsier appears to be about the size of a human's fist. A tarsier weighs about 4 ounces.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"tarsier": { "copyof": "familiar,_tarsier" },
@@ -4220,7 +4220,7 @@
 			"",
 			"Thrushes are small, plump birds that eat fruit and insects. All thrushes are known for their beautiful songs, but thrush familiars are also capable of actual speech.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"thrush": { "copyof": "familiar,_thrush" },
@@ -4265,7 +4265,7 @@
 			"",
 			"Toads are harmless, rough-skinned amphibians.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"toad": { "copyof": "familiar,_toad" },
@@ -4320,7 +4320,7 @@
 			"",
 			"Ancient arthropods adapted to scavenging the ocean floor, trilobites have both resilient exteriors and keen senses honed for use in the lightless depths of the sea, and are known for curling into balls to protect themselves.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"trilobite": { "copyof": "familiar,_trilobite" },
@@ -4368,7 +4368,7 @@
 			"",
 			"Tuataras are cousins to true lizards. They mostly live on primordial islands where mammals have never established a foothold.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"tuatara": { "copyof": "familiar,_tuatara" },
@@ -4431,7 +4431,7 @@
 			"",
 			"A vampire squid can reach a total body length of up to 1 foot and weighs 1 pound.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"vampire_squid": { "copyof": "familiar,_vampire_squid" },
@@ -4481,7 +4481,7 @@
 			"",
 			"Vipers are not particularly aggressive snakes, but their poisonous bite can be deadly.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"viper": { "copyof": "familiar,_viper" },
@@ -4534,7 +4534,7 @@
 			"",
 			"A wallaby stands about 2 feet tall and weighs 20-40 pounds.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"wallaby": { "copyof": "familiar,_wallaby" },
@@ -4584,7 +4584,7 @@
 			"",
 			"Weasels are predators content with raiding chicken coops or attacking pets when they encounter civilization.",
 			"",
-			"**Family:** [Familiar](monster/family/familiar)"
+			"**Family:** [Familiar](family/familiar)"
 		]
 	},
 	"weasel": { "copyof": "familiar,_weasel" },
@@ -5540,7 +5540,7 @@
 			"",
 			"A Chelish hell-bred dog measures 2-1/2 feet at the withers and weighs 95 pounds. A well-trained young hellbred dog is worth 600 gp.",
 			"",
-			"**Family:** [Fiend Bred Animal](monster/family/fiend_bred_animal)"
+			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
 	"chelish_hell-bred_dog": { "copyof": "fiend-bred_animal,_chelish_hell-bred_dog" },
@@ -5601,7 +5601,7 @@
 			"",
 			"Quillcats are 3 feet long and weigh 60 pounds.",
 			"",
-			"**Family:** [Fiend Bred Animal](monster/family/fiend_bred_animal)"
+			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
 	"quillcat": { "copyof": "fiend-bred_animal,_quillcat" },
@@ -5663,7 +5663,7 @@
 			"",
 			"Stygian hot-blooded horses stand 5 feet tall at the shoulder and weigh approximately 1,000 pounds.",
 			"",
-			"**Family:** [Fiend Bred Animal](monster/family/fiend_bred_animal)"
+			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
 	"stygian_hot-blooded_horse": { "copyof": "fiend-bred_animal,_stygian_hot-blooded_horse" },
@@ -6418,7 +6418,7 @@
 			"",
 			"Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"drider": { "copyof": "fleshwarp,_drider" },
@@ -6484,7 +6484,7 @@
 			"",
 			"Troglodytes forced to undergo fleshwarping by the drow, ghonhatines harken to what troglodytes might have been in savage prehistory. They stand over 10 feet tall (hunched to about 8 feet) and weigh upward of 5,000 pounds.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"ghonhatine": { "copyof": "fleshwarp,_ghonhatine" },
@@ -6545,7 +6545,7 @@
 			"",
 			"Many fleshcrafters consider the grothlut a failure, as the transformation all but stamps out its human consciousness. Others disagree, arguing that warping the creature's mind makes it more useful, as its stupidity makes it pliable and easy to herd. The drow typically use grothluts only as guardians to slowly patrol the remote edges of their enclaves. Once in position, though, grothluts can be used as crude shock troops, unleashed to soften enemy forces before more valuable warriors wade in and cut down the enemies who have been nauseated by the grothluts' exploded organs and flesh.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"grothlut": { "copyof": "fleshwarp,_grothlut" },
@@ -6603,7 +6603,7 @@
 			"",
 			"Though their sunken eyes and constant stream of acidic tears often make these creatures seem pitiful, they are fierce bundles of rage and self-hatred. The conditioning of the fleshwarpers causes them to attack and infect any enemy of the drow they come in contact with, but what's left of their consciousness rages against the mutated spores they carry. Worse still, many drow use these creatures to hunt down and even infect other tribes of vegepygmies.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"halsora": { "copyof": "fleshwarp,_halsora" },
@@ -6666,7 +6666,7 @@
 			"",
 			"No two irnakurse look exactly the same-drow torturers take profane pride in sculpting their elven victims into unique masterpieces of agony-most stand between 8 and 9 feet tall and weigh upward of 300 pounds.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"irnakurse": { "copyof": "fleshwarp,_irnakurse" },
@@ -6734,7 +6734,7 @@
 			"",
 			"With the exception of the driders, the oronci are among the most useful of the obscenities produced by fleshwarping. They embody all the savage brutality of an orc warrior, but mounted centaurlike upon an even larger, more powerful frame. Being less intelligent than drow, oronci make better shock troopers and advance soldiers for drow armies than the dark elves themselves. Oronci who have escaped the slavery of the dark elves have become favored champions for certain clever orc chieftains. Some oronci even overcome their sensitivity to daylight given time, which makes them better suited to terrorize the surface lands.",
 			"",
-			"**Family:** [Fleshwarp](monster/family/fleshwarp)"
+			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
 	"oronci": { "copyof": "fleshwarp,_oronci" },
@@ -7224,7 +7224,7 @@
 			"",
 			"A myrmarch has an enlarged thorax and abdomen, which give it the same general size and weight as a large warhorse, though its upper body is not much larger than that of a formian warrior's. Myrmarchs stand about 8 feet high and weigh about 1,200 pounds.",
 			"",
-			"**Family:** [Formian](monster/family/formian)"
+			"**Family:** [Formian](family/formian)"
 		]
 	},
 	"formian_myrmarch": { "copyof": "formian,_formian_myrmarch" },
@@ -7286,7 +7286,7 @@
 			"",
 			"A formian queen is the embodiment of the hive and the key to its success, as a hive's fate is tied to her ability to both populate it and successfully guide it. The formian queen does this while her massive body is bound to a central chamber dedicated to her nearly constant egg laying. The queen's enormous abdomen squeezes out egg after egg as she meets with her myrmarchs to plan defense, strategy, and trade negotiations. While the queen may be sheltered, she is not blind. When necessary, she possesses the minds of her children to see for herself what occurs beyond her central chamber, and more active queens use this ability to confront intruders directly.",
 			"",
-			"**Family:** [Formian](monster/family/formian)"
+			"**Family:** [Formian](family/formian)"
 		]
 	},
 	"formian_queen": { "copyof": "formian,_formian_queen" },
@@ -7359,7 +7359,7 @@
 			"",
 			"Two taskmasters might have a duel over promotions, a trade route, or an insult. These duels are rarely lethal for fear of weakening the hive, and taskmasters who are too aggressive attract the wrong kind of attention from the myrmarchs. Dueling victories are often recorded on taskmasters' carapaces alongside their other major accomplishments.",
 			"",
-			"**Family:** [Formian](monster/family/formian)"
+			"**Family:** [Formian](family/formian)"
 		]
 	},
 	"formian_taskmaster": { "copyof": "formian,_formian_taskmaster" },
@@ -7427,7 +7427,7 @@
 			"",
 			"Warriors mature quickly and have short life spans, becoming too infirm to fight around 15 years of age. Old warriors are expected to end their lives for the good of the hive, either by taking on a fatal mission or through voluntary starvation. A few of the most exceptional warriors receive permission to live out their remaining years as teachers and drill instructors, passing their skills on to new generations of formian warriors.",
 			"",
-			"**Family:** [Formian](monster/family/formian)"
+			"**Family:** [Formian](family/formian)"
 		]
 	},
 	"formian_warrior": { "copyof": "formian,_formian_warrior" },
@@ -7489,7 +7489,7 @@
 			"",
 			"Workers flee from combat unless they are ordered by a taskmaster or myrmarch to attack intruders. If a hive is invaded, formian workers might be used as diversions or to undermine or collapse tunnels on invading enemies. If forced into a direct fight, they usually spend most of their efforts assisting a warrior or myrmarch, though they make good use of mining picks or alchemist's fire if they are cornered.",
 			"",
-			"**Family:** [Formian](monster/family/formian)"
+			"**Family:** [Formian](family/formian)"
 		]
 	},
 	"formian_worker": { "copyof": "formian,_formian_worker" },
@@ -9515,7 +9515,7 @@
 			"",
 			"One unusual variant of gargoyle dwells not amid buildings and ruins but under the waves of the sea. These creatures are known as kapoacinths-they have the same basic statistics as normal gargoyles, save that they have the aquatic subtype and their wings grant them a swim speed of 60 feet (but are useless for actual flight). Kapoacinths dwell in shallow, coastal regions where they can shamble up from the surf to prey on those that reside there. They are more likely to form wings, as kapoacinths prefer group living to a solitary lifestyle.",
 			"",
-			"**Family:** [Gargoyle](monster/family/gargoyle)"
+			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
 	"gargoyle,_four-armed_gargoyle": {
@@ -9571,7 +9571,7 @@
 			"",
 			"Gargoyle Sentry (+0 CR): These gargoyle guardians are created with eyes of citrine linked to a 1-footdiameter orb of the same stone. The orb always displays what the gargoyle guardian sees, though without the construct's darkvision or low-light vision. If the gargoyle sentry is destroyed, its eyes and the linked orb shatter into worthless dust.",
 			"",
-			"**Family:** [Gargoyle](monster/family/gargoyle)"
+			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
 	"four-armed_gargoyle": { "copyof": "gargoyle,_four-armed_gargoyle" },
@@ -9631,7 +9631,7 @@
 			"",
 			"Gargoyle Sentry (+0 CR): These gargoyle guardians are created with eyes of citrine linked to a 1-footdiameter orb of the same stone. The orb always displays what the gargoyle guardian sees, though without the construct's darkvision or low-light vision. If the gargoyle sentry is destroyed, its eyes and the linked orb shatter into worthless dust.",
 			"",
-			"**Family:** [Gargoyle](monster/family/gargoyle)"
+			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
 	"gargoyle_abductor": { "copyof": "gargoyle,_gargoyle_abductor" },
@@ -9694,7 +9694,7 @@
 			"",
 			"Gargoyle Sentry (+0 CR): These gargoyle guardians are created with eyes of citrine linked to a 1-footdiameter orb of the same stone. The orb always displays what the gargoyle guardian sees, though without the construct's darkvision or low-light vision. If the gargoyle sentry is destroyed, its eyes and the linked orb shatter into worthless dust.",
 			"",
-			"**Family:** [Gargoyle](monster/family/gargoyle)",
+			"**Family:** [Gargoyle](family/gargoyle)",
 			"",
 			"### Construction",
 			"",
@@ -9757,7 +9757,7 @@
 			"",
 			"Gargoyle Sentry (+0 CR): These gargoyle guardians are created with eyes of citrine linked to a 1-footdiameter orb of the same stone. The orb always displays what the gargoyle guardian sees, though without the construct's darkvision or low-light vision. If the gargoyle sentry is destroyed, its eyes and the linked orb shatter into worthless dust.",
 			"",
-			"**Family:** [Gargoyle](monster/family/gargoyle)"
+			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
 	"kapoacinth_hunter": { "copyof": "gargoyle,_kapoacinth_hunter" },
@@ -10389,7 +10389,7 @@
 			"",
 			"A small percentage of djinn are noble. Noble djinn, often called viziers, have 10 Hit Dice, Strength 23, and Charisma 17, and can grant three wishes to any being (nongenies only) who captures them. Djinn nobles are CR 8.",
 			"",
-			"**Family:** [Genie](monster/family/genie)"
+			"**Family:** [Genie](family/genie)"
 		]
 	},
 	"djinni": { "copyof": "genie,_djinni" },
@@ -10455,7 +10455,7 @@
 			"",
 			"A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day-fireball, heat metal; 1/day-greater invisibility, pyroclastic storm (as ice storm, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.",
 			"",
-			"**Family:** [Genie](monster/family/genie)"
+			"**Family:** [Genie](family/genie)"
 		]
 	},
 	"efreeti": { "copyof": "genie,_efreeti" },
@@ -10524,7 +10524,7 @@
 			"",
 			"A small percentage of jann are noble. Noble jann, often called sheikhs or amirs, have 9 Hit Dice, Strength 19, and Intelligence 18, and gain the following spell-like abilities: 3/day-augury, detect magic, and divination. A noble janni's caster level for its spell-like abilities is 12th. Noble jann are CR 7.",
 			"",
-			"**Family:** [Genie](monster/family/genie)"
+			"**Family:** [Genie](family/genie)"
 		]
 	},
 	"janni": { "copyof": "genie,_janni" },
@@ -10594,7 +10594,7 @@
 			"",
 			"A small percentage of marids can lay claim to nobility. Noble marids, often called shahzadas, have 14 Hit Dice and gain the following spell-like abilities: 3/day-cone of cold, ice storm; 1/day-elemental swarm (water elementals only), permanent image. A noble marid's caster level for its spell-like abilities is 20th. Noble marids are CR 11.",
 			"",
-			"**Family:** [Genie](monster/family/genie)"
+			"**Family:** [Genie](family/genie)"
 		]
 	},
 	"marid": { "copyof": "genie,_marid" },
@@ -10665,7 +10665,7 @@
 			"",
 			"Some shaitans are noble. Often called pashas, they have 18 Hit Dice and gain the spell-like ability earthquake, usable once per day, as well as the ability to grant up to three wishes per day (nongenies only). A noble shaitan's caster level for its spell-like abilities is 18th. Noble shaitans are CR 13.",
 			"",
-			"**Family:** [Genie](monster/family/genie)"
+			"**Family:** [Genie](family/genie)"
 		]
 	},
 	"shaitan": { "copyof": "genie,_shaitan" },
@@ -11314,7 +11314,7 @@
 			"",
 			"Smaller Ghouls: Small humanoids who become ghouls have 1 HD and all of the appropriate bonuses and penalties for dropping from Medium to Small size (-4 Str, +2 Dex, +1 size bonus on attack rolls and to AC, reduced natural attack damage, etc.). A Small ghoul is CR 1/2.",
 			"",
-			"Unusual Ghouls: Some humanoids transformed into ghouls have unusual advantages. Boggard, Merfolk: These races always spawn into lacedons. Bugbear, Lizardfolk, Troglodyte: These races always spawn into ghasts. Ettin: An ettin ghoul has two bite attacks, in addition to being advanced to Large size and 10 HD. Fire Giant: A fire giant ghoul gains the Fire subtype. Frost Giant: A frost giant ghoul gains the Cold subtype. Lycanthrope: While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the [lycanthrope](monster/template/lycanthrope) template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
+			"Unusual Ghouls: Some humanoids transformed into ghouls have unusual advantages. Boggard, Merfolk: These races always spawn into lacedons. Bugbear, Lizardfolk, Troglodyte: These races always spawn into ghasts. Ettin: An ettin ghoul has two bite attacks, in addition to being advanced to Large size and 10 HD. Fire Giant: A fire giant ghoul gains the Fire subtype. Frost Giant: A frost giant ghoul gains the Cold subtype. Lycanthrope: While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the [lycanthrope](template/lycanthrope) template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
 		]
 	},
 	"ghoul_hound": {
@@ -15846,7 +15846,7 @@
 			"",
 			"Abaddon gigas are asexual and incapable of reproducing; the Abaddon gigas in existence are all there ever will be. This fact is a small comfort, though, considering the terrible might of even a single Abaddon gigas. Worse still, whispered rumors among planar scholars say that, when an Abaddon gigas is slain, its power crawls back toward the heart of Abaddon, where the original mythic Abaddon gigas will one day reform once all its offspring have perished.",
 			"",
-			"**Family:** [Gigas](monster/family/gigas)",
+			"**Family:** [Gigas](family/gigas)",
 			"",
 			"### Habitat",
 			"",
@@ -15933,7 +15933,7 @@
 			"",
 			"Abyss gigas stand over 50 feet tall and weigh 25 tons or more, not including the weight of their Abyss-forged armor and weapons of adamantine. Abyss gigas usually favor the weapons of their demonic patrons. For example, followers of Kostchtchie often wield giant warhammers in both hands, servants of Lamashtu carry falchions, and those serving Urxehl use spiked greatclubs.",
 			"",
-			"**Family:** [Gigas](monster/family/gigas)"
+			"**Family:** [Gigas](family/gigas)"
 		]
 	},
 	"abyss_gigas": { "copyof": "gigas,_abyss_gigas" },
@@ -15997,7 +15997,7 @@
 			"",
 			"The typical Hell gigas stands well over 50 feet tall and weighs upward of 20 tons, in addition to the weight of its armor of bone and metal.",
 			"",
-			"**Family:** [Gigas](monster/family/gigas)"
+			"**Family:** [Gigas](family/gigas)"
 		]
 	},
 	"hell_gigas": { "copyof": "gigas,_hell_gigas" },
@@ -18877,7 +18877,7 @@
 			"",
 			"Made using one of the hardest and most precious substances, the adamantine golem is a deadly work of art. It can crush the life from foes that dare to get in its way and is nearly impossible to permanently destroy. The vast amount of adamantine required to build even one of these destructive golems is so significant that most worlds do not have enough resources, forcing the creator to travel to the Plane of Earth or remote Outer Planes simply to gather the raw materials needed to build the golem's body.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -18947,7 +18947,7 @@
 			"",
 			"This golem is a walking alchemical nightmare, capable of inflicting all manner of painful wounds on its foes. Its ability to follow orders is granted by the otherwise mindless humanoid brain that floats in its dome-like head, while its animating force is a curious combination of alchemy and elemental spirits bound into the fluids and metals of its body.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19021,7 +19021,7 @@
 			"",
 			"The main body of a behemoth golem is 40 feet tall, with the highest part of the tower reaching 60 feet.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19092,7 +19092,7 @@
 			"",
 			"A blood golem is an animate mass of living blood. It can creep about in liquid form like an ooze, or create a thick skin made up of coagulated blood that allows it to walk upright like a person.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19162,7 +19162,7 @@
 			"",
 			"Bone golems are most often crafted as guardians of tombs-and sometimes formed from the very corpses they guard.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19238,7 +19238,7 @@
 			"",
 			"Implacable automatons of elemental fire and extraplanar brass, brass golems stand sentinel over the palaces, treasuries, and harems of their creators. Brass golems are 24 feet tall and weigh 18,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19315,7 +19315,7 @@
 			"",
 			"A cannon golem's internal workings are a mechanical labyrinth; its extradimensional pockets constantly process new black powder. A cannon golem stands 12 feet tall.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19390,7 +19390,7 @@
 			"",
 			"Carrion golems are made from the partially decayed parts of numerous dead creatures-no two carrion golems are exactly alike in appearance. Most are created from the corpses of humanoid creatures that are then augmented here and there with parts taken from animals, resulting in a monster that stands 6 feet tall and weighs 120 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19461,7 +19461,7 @@
 			"",
 			"A clay golem wears no clothing except for a metal or stiff leather garment around its hips. It stands over 8 feet tall and weighs 600 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19531,7 +19531,7 @@
 			"",
 			"Forged from thousands of gears, the clockwork golem is a precision creation. In combat, a clockwork golem is ruthlessly efficient, moving with swift conviction to grind and slice its foes to ribbons.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19604,7 +19604,7 @@
 			"",
 			"Coral golems are constructs made entirely of colonies of living coral drawn from the ocean. While their sharpened appendages are capable of performing tasks that require meticulous precision, they are equally useful in martial combat. Wizards and sorcerers employ coral golems to collect delicate specimens of plant life from local beaches, spear and retrieve fish from the ocean for meals, and protect valuable locations such as their masters' homes or veins of minerals and other potent resources. A coral golem is 9 feet tall and weighs 1,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19677,7 +19677,7 @@
 			"",
 			"Crystal golems cannot speak, instead emitting a constant hum of psychic energy. A crystal golem is 10 feet tall and weighs 1,800 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19774,7 +19774,7 @@
 			"",
 			"A dragonhide golem is a terrifying humanoid monstrosity created from the body of a giant with all manner of parts from dragon corpses grafted onto it.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19845,7 +19845,7 @@
 			"",
 			"Destrier Bone Golem (CR +1): A destrier bone golem is fashioned with metal plates to resemble barding, although these plates primarily serve to bolster the golem's structural integrity rather than deflect blows. A destrier bone golem gains a +2 armor bonus to its AC, 20 additional hit points, and Improved Natural Attack as a bonus feat for each of its natural attacks.",
 			"",
-			"**Family:** [Golem](monster/family/golem)"
+			"**Family:** [Golem](family/golem)"
 		]
 	},
 	"equine_bone_golem": { "copyof": "golem,_equine_bone_golem" },
@@ -19924,7 +19924,7 @@
 			"",
 			"Any living creature hit by an unholy flesh golem's melee attacks also takes 1 point of Strength damage. This is a negative energy effect. An unholy flesh golem has an evil aura. Creating an unholy flesh golem is an evil act. (+0 CR)",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -19992,7 +19992,7 @@
 			"",
 			"Fossil golems are often used to guard caverns and other natural fortifications. A fossil golem at rest might look to the untrained eye like nothing more than a strange display of bones. A fossil golem is 20 feet tall and weighs 8,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20068,7 +20068,7 @@
 			"",
 			"Stained Glass Golems (+0 CR): Divine casters sometimes build glass golems that resemble the windowpanes commonly found in temples. Thin and agile, these colorful beings often act as spies, wielding powers of stealth that their other counterparts do not possess. A stained glass golem has a +8 racial bonus on Stealth checks.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20149,7 +20149,7 @@
 			"",
 			"Many of those who expend the funds to create a gold golem aren't the type to hide the conspicuous display of their wealth from their visitors. A gold golem is humanoid in appearance, standing 10 feet tall and weighing 4,500 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20218,7 +20218,7 @@
 			"",
 			"Ice golems cannot speak, and move with the sound of cracking and popping ice. An ice golem stands 7 feet tall and weighs 500 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20307,7 +20307,7 @@
 			"",
 			"Ghost Metal Golem (CR +0): Ghost metal golems are enhanced specifically for assassination tasks. These golems take a more aggressive and bloodthirsty approach to combat, though they still follows all of their creators' commands. Ghost metal golems lose their rend special attack and breath weapon, but gain the ability to deal an additional 2d6 points of negative energy damage with each claw attack, and they can cast [ethereal jaunt](spell/ethereal_jaunt) as a spell-like ability three times per day.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20386,7 +20386,7 @@
 			"",
 			"A typical ioun golem stands 12 feet tall and weighs close to 1,200 pounds",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Ecology",
 			"",
@@ -20468,7 +20468,7 @@
 			"",
 			"Although the practice has fallen out of favor in modern times, the ancients of certain powerful civilizations once took great pride in crafting iron golems of tremendous size and strength. These golems, which are never smaller than Huge, still exist in remote parts of the world, mindlessly following the orders of a long-dead empire.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20540,7 +20540,7 @@
 			"",
 			"Junk golems are assembled from trash and spare parts, and often leave trails of garbage in their wakes.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20615,7 +20615,7 @@
 			"",
 			"Lead golems are lurching, humanoid-shaped mounds of lead. A lead golem stands 11 feet tall when upright, and weighs 10,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20694,7 +20694,7 @@
 			"",
 			"While magnetite golems are invaluable in specific circumstances, they are equally inconvenient in other instances. Due to the golems' magnetic fields, small metal bits constantly fly toward them and cling to their bodies, perpetually covering them in metal detritus-chains, fittings, scrap metal, and the occasional tool or weapon. A golem's owner must regularly pry off such debris, lest the clinging metal clog the construct's joints. Additionally, the golem's magnetic field prohibits using any kind of mundane metal objects (like basic tools, locks, or nails) nearby. Due to this, wealthy individuals in the market for golems usually purchase iron, stone, or wood golems. However, in the rare cases in which a magnetite golem is the perfect tool for the job, it proves a devastatingly effective weapon.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Habitat",
 			"",
@@ -20776,7 +20776,7 @@
 			"",
 			"Carved from rock hewn from the marrowstone mines of Sekamina, these golems amplify the magical radiation emitted by veins of lazurite. They can only be crafted within the necropolis of Nemret Noktoria, land of ghouls, for lazurite brought beyond its boundaries loses its potency. Binding the lazurite into the body of the golem stabilizes it and lets the construct leave the boundaries of the ghoulish city with its fell powers intact. Though the ghouls guard the secrets of making a marrowstone golem, they are sometimes known to trade their handiwork with outsiders.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20859,7 +20859,7 @@
 			"",
 			"While all of the masks that make up the golem's body are copies of the holy symbol of Razmir, they are made of different materials. Most are simple iron, but the masks around the joints are made of silver with gold trim, and the head is made from a specially crafted porcelain mask, set with a sapphire. When a mask golem is destroyed, these valuable masks remain, and are worth 1,000 gp in total. The sapphire is worth 500 gp. A mask golem stands 5 feet tall and weighs 300 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -20929,7 +20929,7 @@
 			"",
 			"Created from a massive quantity of the purest mithral, this golem is a thing of shining beauty. Unlike most golems, mithral golems are extremely agile, capable of moving at great speed and striking swiftly.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21009,7 +21009,7 @@
 			"",
 			"Nearly all noqual on Golarion lies under Numerian control. The artificers of Numeria prefer tinkering with technological constructs rather than magical ones, but nonetheless Furkas Xoud was believed to have created a noqual golem. Another is thought to serve the sorcerers of Starfall as a fail-safe should their technology prove inadequate. A cabal of cyphermages has taken advantage of the recent discovery of noqual near Riddleport to commence work on their own magic-stealing golem.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21081,7 +21081,7 @@
 			"",
 			"Obsidian golems often are used as deterrence against tomb robbers. Most obsidian golems stand just under 9 feet tall and weigh approximately 2,200 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21157,7 +21157,7 @@
 			"",
 			"Carefully constructed to serve as tomb guardians and protectors of their creators and their treasure, panthereons are a variant of clay golems. The majority of these golems were created during the First Age in Osirion, though evidence of their existence has turned up beyond the nation's borders. A panthereon stands over 8 feet tall and weighs 600 pounds. While its sculpted form may vary, it is typically muscular and wears no clothing save for a simple Osirian skirt.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Ecology",
 			"",
@@ -21273,7 +21273,7 @@
 			"",
 			"The golems only pause in their unending patrol if attacked or obstructed, and then only until they eliminate or circumvent the obstacle, whichever is most direct. The golems always patrol at opposite ends of the city, marching counterclockwise and pausing if their partner is interrupted. They last broke from patrolling in 576 ar, when they fought the Gebbite horde in the very battle in which Nex vanished from Golarion.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21344,7 +21344,7 @@
 			"",
 			"Quintessence is the raw material that makes up all matter and life found on the Outer Planes. With its infinite potential for shape and state, it should come as no surprise that raw quintessence makes an outstanding material (in terms of both quality and price) for the construction of golems. A quintessence golem is among the greatest creations a mortal spellcaster can craft-while not technically alive, the quintessence golem is made of material that aches to live, trapped in a metaphysical state between mortal and immortal life. The quintessence that makes up these golems actually acts as a siphon of sorts that encourages souls to shed their mortal frame and slip into the soulstream to seek their judgment in the afterlife. This fact makes these golems particularly dangerous and quite well suited for the guardianship of powerful temples or graveyards.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21415,7 +21415,7 @@
 			"",
 			"When robots are damaged beyond the abilities of Numerian technologists to repair, salvages sometimes animate their frames via magic rather than science. What results is more of a walking mechanical corpse that lacks the intelligence and vulnerabilities of a true robot. The arcanists of the Technic League often employ these magically animated constructs to combat rogue robots or those under the control of their enemies.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21506,7 +21506,7 @@
 			"",
 			"Quicksand Golem (+0 CR): Designed for nondesert climates and specifically for dealing with large areas of people, a quicksand golem loses its blistering sand blast attack. Instead, every 1d6 rounds the golem can create a 10-foot-square area of [quicksand](unknown/quicksand) within 50 feet of itself. The quicksand golem can create quicksand only in natural, unworked terrain, and created patches of quicksand remain active for 10 minutes before vanishing. Creatures still stuck in the quicksand after this duration are immediately shunted to the normal surface of the terrain in which the quicksand was created. The quicksand golem can maintain only three active patches of quicksand at a time. A quicksand golem costs an additional 2,500 gp to create.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21578,7 +21578,7 @@
 			"",
 			"A wax golem can be constructed to resemble any person or creature, though they typically look like human subjects, standing at the same height and weighing about three times as much.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Ecology",
 			"",
@@ -21676,7 +21676,7 @@
 			"",
 			"Shadow golems are most common in the nation of Nidal, and the golem crafters who serve the Umbral Court guard the secrets of creating these constructs with jealousy and fervor. Nevertheless, those formulae have leaked across the Nidalese borders time and again, and while these golems remain rare, they can be encountered outside of that land's borders with increasing frequency. In particular, Nidal has awarded House Thrune of Cheliax this privileged information in return for unknown favors from the powerful empire.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Habitat",
 			"",
@@ -21745,7 +21745,7 @@
 			"",
 			"Like most golems, a stone golem cannot speak and makes no sound other than the grinding of stone against stone when it moves. A stone golem is 9 feet tall and weighs around 2,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21816,7 +21816,7 @@
 			"",
 			"Viridium golems exemplify toxicity, as the substance that makes up their bodies is known for its lethality. A viridium golem stands 25 feet tall and weighs 20,000 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21887,7 +21887,7 @@
 			"",
 			"A wax golem can be constructed to resemble any person or creature.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -21953,7 +21953,7 @@
 			"",
 			"A wood golem is carved from rare woods, assembled into a roughly humanoid body with articulated limbs. Their creators usually leave their bodies almost unfinished, with individual pieces of lumber and unworked wood apparent and obvious as part of their construction. A wood golem stands 6-1/2 feet tall and weighs 400 pounds.",
 			"",
-			"**Family:** [Golem](monster/family/golem)",
+			"**Family:** [Golem](family/golem)",
 			"",
 			"### Construction",
 			"",
@@ -22920,7 +22920,7 @@
 			"",
 			"This gremlin's head and pointed ears are overlarge compared to the rest of its anatomy. Thin, often matted hair tops a drexin's scalp. Its light-starved, wizened flesh stretches taut across its bones, and its claws brush the ground as it walks. An average drexin stands 3 feet tall and weighs 25 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)",
+			"**Family:** [Gremlin](family/gremlin)",
 			"",
 			"### Ecology",
 			"",
@@ -23010,7 +23010,7 @@
 			"",
 			"Erinat gremlins are obsessed with conflict and discord. They love nothing more than starting fights-the more inane and pointless the struggle, the better. Erinat gremlins typically use alter self to take the appearance of unfed, unwashed humanoid children as appropriate to their surroundings, allowing the gremlins to move freely through settlements (and accuse anyone who attempts to stop their malicious conduct of trying to kidnap them). Erinats don't care who wins the fights they start; they simply wish to be entertained by the largest brawls they can arrange. The mischievous gremlins delight in creating chaos, and are prone to making outrageous claims in the hope of sparking riots, aided by forcing bystanders to attack each other with random, often ridiculous objects.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"erinat": { "copyof": "gremlin,_erinat" },
@@ -23079,7 +23079,7 @@
 			"",
 			"Fuaths don't share a common language with other types of gremlins, though they can pantomime to each other fairly effectively. They have a surprising rapport with other sea creatures, even foul-tempered beasts like reefclaws. Small groups of fuaths lair in sea caves or rocky crevices. Larger groups frequently lay claim to whole sections of ruined ships. Their lairs usually include several trained guard animals. Fuaths prefer the taste of \"land-meat\" to anything from the sea, and often raid shore and ships to slake their hunger. They adore sea hags to the point of worship.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"fuath": { "copyof": "gremlin,_fuath" },
@@ -23149,7 +23149,7 @@
 			"",
 			"Voracious omnivores, grimples feast off garbage. They frequently target inns, restaurants, and other places where they can scavenge a steady supply of food.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"grimple": { "copyof": "gremlin,_grimple" },
@@ -23218,7 +23218,7 @@
 			"",
 			"Hanivers possess flat, leathery bodies with only a few thin bones. Most stand little more than a foot tall and 1-1/2 feet across, and weigh less than 5 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"haniver": { "copyof": "gremlin,_haniver" },
@@ -23294,7 +23294,7 @@
 			"",
 			"Hobkins malefactors are rarely content with the destruction of prized possessions; instead, they seek nothing less than the massacre of innocents at the hands of their own protectors. To accomplish these goals, they calculate each of their moves carefully, with an endgame of an entire small settlement gathered together and prime for redirected attacks from the hobkins' collateral damage ability.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"hobkins": { "copyof": "gremlin,_hobkins" },
@@ -23364,7 +23364,7 @@
 			"",
 			"The average jinkin stands almost 2 feet tall and weighs about 13 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"jinkin": { "copyof": "gremlin,_jinkin" },
@@ -23431,7 +23431,7 @@
 			"",
 			"A monaciello stands 2-1/2 feet tall and weighs approximately 20 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"monaciello": { "copyof": "gremlin,_monaciello" },
@@ -23495,7 +23495,7 @@
 			"",
 			"Nuglubs typically stand 2-1/2 feet tall and weigh approximately 25 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"nuglub": { "copyof": "gremlin,_nuglub" },
@@ -23564,7 +23564,7 @@
 			"",
 			"Rarely, a nuno's isolated existence allows it to unlock secrets of reality unknown to others. These nuno ascetics still value their privacy, but they are sometimes willing to accept lavish bribes from pilgrims in exchange for sharing their wisdom. Nuno ascetics advance by class level, usually either as either monks or occult classes. They each develop a unique variation on the basic nuno's curse, which acts as a signature of sorts. Unlike most monsters with class levels, nuno ascetics add half their class level to the DC of their nuno's curse ability.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"nuno": { "copyof": "gremlin,_nuno" },
@@ -23630,7 +23630,7 @@
 			"",
 			"At some point in the distant past, pugwampis became enamored of gnolls, seeing in the beast-men a kindred form and thus aspiring to the height and deadly prowess of the savage warriors, whom they honor as gods. Gnolls, for their part, hate pugwampis even more than other creatures, mostly because of the gremlins' weakness and sickening fawning, though they sometimes keep the gremlins around just to torment them.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"pugwampi": { "copyof": "gremlin,_pugwampi" },
@@ -23696,7 +23696,7 @@
 			"",
 			"Vexgits stand 1-1/2 feet tall and weigh approximately 16 pounds.",
 			"",
-			"**Family:** [Gremlin](monster/family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
 	"vexgit": { "copyof": "gremlin,_vexgit" },
@@ -25097,7 +25097,7 @@
 			"",
 			"The Annis Hag adds the following spells to the coven: [charm monster](spell/charm_monster), [cloudkill](spell/cloudkill), [giant form I](spell/giant_form_1), mass bull's strength",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"annis_hag": { "copyof": "hag,_annis_hag" },
@@ -25179,7 +25179,7 @@
 			"",
 			"The Ash Hag adds the following spells to the coven: [ash storm](spell/ash_storm), [fire storm](spell/fire_storm), [solid fog](spell/solid_fog), [volcanic storm](spell/volcanic_storm)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"ash_hag": { "copyof": "hag,_ash_hag" },
@@ -25266,7 +25266,7 @@
 			"",
 			"The Blood Hag adds the following spells to the coven: [blood mist](spell/blood_mist), mass inflict serious wounds, mass pain strike, [skinsend](spell/skinsend)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"blood_hag": { "copyof": "hag,_blood_hag" },
@@ -25348,7 +25348,7 @@
 			"",
 			"The Dreamthief Hag adds the following spells to the coven: [cloak of dreams](spell/cloak_of_dreams), [dream voyage](spell/dream_voyage), [modify memory](spell/modify_memory), [nightmare](spell/nightmare)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"dreamthief_hag": { "copyof": "hag,_dreamthief_hag" },
@@ -25435,7 +25435,7 @@
 			"",
 			"The Green Hag adds the following spells to the coven: [blight](spell/blight), [charm monster](spell/charm_monster), [control weather](spell/control_weather), [mirage arcana](spell/mirage_arcana)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"green_hag": { "copyof": "hag,_green_hag" },
@@ -25515,7 +25515,7 @@
 			"",
 			"All covens can cast the following spells, regardless of the hags that comprise them: [animate dead](spell/animate_dead), [baleful polymorph](spell/baleful_polymorph), [bestow curse](spell/bestow_curse), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), [commune](spell/commune), [dream](spell/dream), [forcecage](spell/forcecage), [mind blank](spell/mind_blank), [reincarnate](spell/reincarnate), [speak with dead](spell/speak_with_dead), [veil](spell/veil), [vision](spell/vision)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"moon_hag": { "copyof": "hag,_moon_hag" },
@@ -25596,7 +25596,7 @@
 			"",
 			"The Mute Hag adds the following spells to the coven: [epidemic](spell/epidemic), greater age resistance, [insanity](spell/insanity), [malicious spite](spell/malicious_spite), [vengeful outrage](spell/vengeful_outrage)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"mute_hag": { "copyof": "hag,_mute_hag" },
@@ -25675,7 +25675,7 @@
 			"",
 			"The Night Hag adds the following spells to the coven: [contagion](spell/contagion), [finger of death](spell/finger_of_death), major curse, [maze](spell/maze), [nightmare](spell/nightmare)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"night_hag": { "copyof": "hag,_night_hag" },
@@ -25753,7 +25753,7 @@
 			"",
 			"The Sea Hag adds the following spells to the coven: [control weather](spell/control_weather), [eyebite](spell/eyebite), [power word blind](spell/power_word_blind), [water breathing](spell/water_breathing)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"sea_hag": { "copyof": "hag,_sea_hag" },
@@ -25839,7 +25839,7 @@
 			"",
 			"The Storm Hag adds the following spells to the coven: [call lightning storm](spell/call_lightning_storm), [control weather](spell/control_weather), [solid fog](spell/solid_fog), [scouring winds](spell/scouring_winds)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"storm_hag": { "copyof": "hag,_storm_hag" },
@@ -25926,7 +25926,7 @@
 			"",
 			"The Winter Hag adds the following spells to the coven: [circle of death](spell/circle_of_death), [dominate person](spell/dominate_person), [icy prison](spell/icy_prison), [simulacrum](spell/simulacrum)",
 			"",
-			"**Family:** [Hag](monster/family/hag)"
+			"**Family:** [Hag](family/hag)"
 		]
 	},
 	"winter_hag": { "copyof": "hag,_winter_hag" },
@@ -26912,7 +26912,7 @@
 			"",
 			"Of course, not all antelopes are Small. You can generate statistics for larger antelope species, such as elands or kudus, by advancing the antelope presented above by 2 Hit Dice and increasing its size category to Medium. All antelopes of this size are CR 1 creatures.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"antelope": { "copyof": "herd_animal,_antelope" },
@@ -26965,7 +26965,7 @@
 			"",
 			"Aurochs (both singular and plural) are large herd animals similar to domesticated cattle.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"aurochs": { "copyof": "herd_animal,_aurochs" },
@@ -27018,7 +27018,7 @@
 			"",
 			"Bison companions are identical to aurochs animal companions.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"bison": { "copyof": "herd_animal,_bison" },
@@ -27072,7 +27072,7 @@
 			"",
 			"Camels are large, desert-dwelling herd animals noted for their stamina and ill tempers. A typical camel stands about 6 feet at the shoulder and 7 feet at the hump.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"camel": { "copyof": "herd_animal,_camel" },
@@ -27125,7 +27125,7 @@
 			"",
 			"Numerous species of elk exist. Some larger species can stand up to 6 feet tall at the shoulder and can be used as mounts by Medium humanoids; these elk have 3 Hit Dice and are Large. One particularly unusual species of elk, the river elk, is an excellent swimmer-these elk gain a swim speed of 30 feet. All elk of this size are CR 2 creatures.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"elk": { "copyof": "herd_animal,_elk" },
@@ -27182,7 +27182,7 @@
 			"",
 			"A giraffe is between 16 and 20 feet tall and weighs 3,500 pounds.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"giraffe": { "copyof": "herd_animal,_giraffe" },
@@ -27235,7 +27235,7 @@
 			"",
 			"A typical ram stands about 3 feet tall, is 5 feet long, and weighs up to 300 pounds. You can create stats for smaller, similar animals (such as goats) by applying the young creature template to a ram.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"ram": { "copyof": "herd_animal,_ram" },
@@ -27294,7 +27294,7 @@
 			"",
 			"Similar in form to the elk but far superior in size is the megaloceros. The average male is a towering, dangerous creature with antlers that can alone weigh nearly 100 pounds. Unlike elk, megaloceros antlers are decidedly enormous and sometimes wider than their bodies are long. This leads to common misconceptions and exaggerations about the creature's monstrous size. Conveniently for those pursued, megaloceros males have difficultly navigating thickly forested areas, making them natives of plains and the woods' edge.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"river_elk": { "copyof": "herd_animal,_river_elk" },
@@ -27346,7 +27346,7 @@
 			"",
 			"The stat block shown above represents a male deer (a stag). Unlike caribou and other similar animals, female deer only rarely grow antlers, thus they lack gore attacks. Stags are approximately 6 feet long from nose to tail and weigh up to 350 pounds.",
 			"",
-			"**Family:** [Herd Animal](monster/family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
 	"stag": { "copyof": "herd_animal,_stag" },
@@ -27939,7 +27939,7 @@
 			"",
 			"Often found wandering the Uskwood alone or in pairs rather than as part of the central hive near Uskheart, hive brutes lack the intelligence and cunning of their kin, but they make up for the deficit with more primal physical abilities. When in a large group of other hive creatures, brutes assist both workers and warriors in their tasks, serving as beasts of burden and war beasts in equal measure.",
 			"",
-			"**Family:** [Hive](monster/family/hive)"
+			"**Family:** [Hive](family/hive)"
 		]
 	},
 	"hive_brute": { "copyof": "hive,_hive_brute" },
@@ -27998,7 +27998,7 @@
 			"",
 			"Hive larvae are the first stage of the hive life cycle. These tenacious creatures render suitable hosts incapacitated and infest their bodies, transforming them into new hive creatures.",
 			"",
-			"**Family:** [Hive](monster/family/hive)"
+			"**Family:** [Hive](family/hive)"
 		]
 	},
 	"hive_larva_swarm": { "copyof": "hive,_hive_larva_swarm" },
@@ -28058,7 +28058,7 @@
 			"",
 			"A hive queen is 17 feet tall and weighs 2,100 pounds.",
 			"",
-			"**Family:** [Hive](monster/family/hive)"
+			"**Family:** [Hive](family/hive)"
 		]
 	},
 	"hive_queen": { "copyof": "hive,_hive_queen" },
@@ -28115,7 +28115,7 @@
 			"",
 			"Hive warriors guard colonies and serve as scouts for suitable hosts. Warriors sometimes range miles from their colony and drag victims back to be cocooned by hive workers. Hive warriors consider symbiosis with a hive creature to be both inevitable and beneficial and can't fathom why most victims struggle against it. Hive workers have similar statistics, though they have the ability to secrete resin and sculpt that resin, rather than acid spit or rending mandibles.",
 			"",
-			"**Family:** [Hive](monster/family/hive)"
+			"**Family:** [Hive](family/hive)"
 		]
 	},
 	"hive_warrior": { "copyof": "hive,_hive_warrior" },
@@ -29725,7 +29725,7 @@
 			"",
 			"The work never ends for those who live on farms or in small villages, and the wise often seek the aid of the fey folk while pursuing their daily chores. A family might leave a piece of bread under the stove or an old boot in the closet to attract a domovoi to their home. Domovoi help with small tasks like churning butter and mending clothes, but mostly protect the home from intruders and misfortune. These helpful fey can also tell the fate of the family they protect, but grow annoyed when asked to do so too often. A domovoi appears as small, old man no more than 2 feet tall, covered in hair and with a long, shaggy beard.",
 			"",
-			"**Family:** [House Spirit](monster/family/house_spirit)"
+			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
 	"domovoi": { "copyof": "house_spirit,_domovoi" },
@@ -29792,7 +29792,7 @@
 			"",
 			"Though undeniably useful to have around for feeding the cattle and keeping predators away from flocks, dvorovoi can be capricious. Dvorovoi despise any white animal, and will never tolerate a white-furred horse or cow in their presence. For unknown reasons, dvorovoi don't hold this same grudge toward white chickens.",
 			"",
-			"**Family:** [House Spirit](monster/family/house_spirit)"
+			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
 	"dvorovoi": { "copyof": "house_spirit,_dvorovoi" },
@@ -29853,7 +29853,7 @@
 			"",
 			"Ovinniks make their homes in granaries and drying houses. These thin, sleek, black-furred humanoids stand only a foot high. Their eyes and features seem catlike, but they bark like dogs to scare away thieves. No one knows why an ovinnik chooses to take up residence in a particular farm's threshing house, and few would call on them willingly. A wise farmer placates resident ovinniks with frequent gifts of warm milk, pancakes, or dead roosters. By tradition, before the new year, farmers and their families go to the granary to learn their fates for the future. The ovinnik touches each of them in turn. If the ovinnik's touch is warm, the person will have good luck; if cold, she will suffer terrible misfortune in the days ahead.",
 			"",
-			"**Family:** [House Spirit](monster/family/house_spirit)"
+			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
 	"ovinnik": { "copyof": "house_spirit,_ovinnik" },
@@ -31100,7 +31100,7 @@
 			"",
 			"Carved from human and animal bones and stitched together with hair, bone idols serve as grisly fetishes and totems for cannibalistic tribes. Although a number of small, nameless tribes carve bone idols in honor of obscure gods of disease and beastliness, most bone idols are fashioned to resemble the fearsome, simian appearance of Angazhan, the demon lord of apes and jungles.",
 			"",
-			"**Family:** [Idol](monster/family/idol)"
+			"**Family:** [Idol](family/idol)"
 		]
 	},
 	"bone": { "copyof": "idol,_bone" },
@@ -31170,7 +31170,7 @@
 			"",
 			"From the moldering depths of the Sodden Lands to far away Tian Xia, jade idols stand watch over sacred temples, royal tombs, the monuments of powerful ancients, and the hidden lairs of plotting assassins and cruel wizards. Crafted primarily to serve as unassuming killers, jade idols possess unnatural patience, waiting for weeks, months, or even years for the opportune time when they might be delivered into their victims' hands and forgotten before striking. Jade idols are also particularly valued for their ability to transform living flesh into a stone similar in appearance to jade, but far more brittle and ultimately worthless (a DC 14 Appraise or Knowledge [nature] check reveals the difference). Regardless of the stone's value, the tombs of many forgotten dynasties bear small legions of jade idols, left by their departed masters to keep the residents preserved in lifeless jade for all time.",
 			"",
-			"**Family:** [Idol](monster/family/idol)"
+			"**Family:** [Idol](family/idol)"
 		]
 	},
 	"jade": { "copyof": "idol,_jade" },
@@ -31237,7 +31237,7 @@
 			"",
 			"Rarely seen in civilized lands, stone idols rest among the ruins of ancient civilizations, the sole inheritors of incredible secrets and lost lore. Sculpted in the images of forgotten lords and mythic beasts, these statuettes transfix their foes with a suggestion of what wonders their polished eyes might once have witnessed.",
 			"",
-			"**Family:** [Idol](monster/family/idol)"
+			"**Family:** [Idol](family/idol)"
 		]
 	},
 	"stone": { "copyof": "idol,_stone" },
@@ -31306,7 +31306,7 @@
 			"",
 			"Among rare druidic circles, tribes of the deep jungle, and the mysterious people of the distant west, wood idols frequently serve as representations of powerful spirits of the wilds, who these nature devotees propitiate with sacrifices. The superstitions of strange shamans hold that spirits possess the idols when the sacrifices are made, consuming the offering before returning from whence they came. Yet those who would offend these forces must beware, as they manipulate eldritch powers of the world and might curse one's every effort. While many question the truths of such beliefs, few who impugn the might of such spirits survive the ire of their shaman-creators' devout congregations.",
 			"",
-			"**Family:** [Idol](monster/family/idol)"
+			"**Family:** [Idol](family/idol)"
 		]
 	},
 	"wood": { "copyof": "idol,_wood" },
@@ -32259,7 +32259,7 @@
 			"",
 			"An arbiter inevitable can serve a spellcaster as a familiar. Such a spellcaster must be lawful neutral, must be at least caster level 7th, and must have the Improved Familiar feat. Arbiter inevitables measure 1 foot in diameter but are surprisingly heavy, weighing 60 pounds. Their ability to fly on metal wings is as much a supernatural ability as a physical one.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"arbiter": { "copyof": "inevitable,_arbiter" },
@@ -32337,7 +32337,7 @@
 			"",
 			"As with all inevitables, hykariuts are forged rather than born. Dozens of willing petitioners contribute to the construction of a new hykariut, by nature of the inevitable's sheer mass. The Adamantine Crucible's smiths emboss hundreds of oaths against corruption and chaos into each layer of the inevitable's armor as it is constructed, lending it an incorruptible defiance of the Maelstrom's influence.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)",
+			"**Family:** [Inevitable](family/inevitable)",
 			"",
 			"### Habitat",
 			"",
@@ -32415,7 +32415,7 @@
 			"",
 			"An impariut stands precisely 7 feet tall and weighs exactly 350 pounds.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)",
+			"**Family:** [Inevitable](family/inevitable)",
 			"",
 			"### Ecology",
 			"",
@@ -32511,7 +32511,7 @@
 			"",
 			"Some scholars speculate that a kastamut's appearance reflects the level of importance tradition has within dwarven society. It would be easy to assume the similarity is mere coincidence, except for the fact that, in Axis, actual coincidences are rare, and almost everything has a logical explanation behind it.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)",
+			"**Family:** [Inevitable](family/inevitable)",
 			"",
 			"### Habitat",
 			"",
@@ -32580,7 +32580,7 @@
 			"",
 			"Perhaps because their missions can be the murkiest and most open to interpretation, kolyaruts are by far the most talkative of the inevitables, naturally possessing a courtly grace and an encyclopedic knowledge of social customs, which they use both to assist them in gathering information on their targets and in issuing challenges (or executing dignified sentences) on the battlefield. Though naturally as solitary as their kindred, kolyaruts are occasionally content to let members of other races tag along and assist them in achieving shared goals, though they have little problem abandoning or even exploiting these \"comrades\" if it brings them closer to fulfilling their mission.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"kolyarut": { "copyof": "inevitable,_kolyarut" },
@@ -32663,7 +32663,7 @@
 			"",
 			"When unaware of a threat to the sanctity of the division of the planes, and not threatened, a lhaksharut can be a surprisingly good conversationalist. They are as likely to be found floating through a void as maintaining any kind of stronghold. Lhaksharuts are aware that the domains they wish to patrol are too vast to be directly viewed with any efficiency. Some lhaksharuts thus forge networks of informants who can patrol the many planes, and send word to the inevitable to alert it of any apparent breaches. The constructs have no other need for the treasure that they gather from transgressors, and sometimes even pay for tips that might lead to a planar infraction. Anyone who might prove to be a valuable informant is treated with respect, and may even be able to gain insights into the planes from the lhaksharut's vast knowledge on the subject, as long as questions never wander into the dangerous territory of combining two planes.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"lhaksharut": { "copyof": "inevitable,_lhaksharut" },
@@ -32727,7 +32727,7 @@
 			"",
 			"Although they are capable of speaking eloquently in any language, and frequently gather vast amounts of information from those who are intimidated by their mere presence, maruts rarely engage in conversation or strategic alliances with mortals. Even on the battlefield, the juggernauts prefer to remain silent, knowing that their targets are already aware of their own transgressions and that all mortals secretly harbor dreams of immortality.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"marut": { "copyof": "inevitable,_marut" },
@@ -32793,7 +32793,7 @@
 			"",
 			"Typically, a novenarut does not concern itself with day-today battles of honor, focusing instead on conflicts or duels that have higher stakes, such as an honorable battle that determines the fate of a kingdom.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"novenarut": { "copyof": "inevitable,_novenarut" },
@@ -32876,7 +32876,7 @@
 			"",
 			"A rokyamut is 65 feet tall and weighs 200 tons.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"rokyamut": { "copyof": "inevitable,_rokyamut" },
@@ -32942,7 +32942,7 @@
 			"",
 			"Valharut inevitables are champions in Axis's ongoing war with the Maelstrom and its protean natives. Unlike other inevitables, the valharut is not designed to protect or maintain a specific universal constant or planar law, but rather to act as a soldier against the ever-encroaching forces of chaos. As such, valharuts are more often seen outside of Axis, battling enemies of law under the direct orders of their axiomite superiors.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"valharut": { "copyof": "inevitable,_valharut" },
@@ -33023,7 +33023,7 @@
 			"",
 			"Once a yarahkut has tracked its quarry, it uses its innate arcane sight to identify any threats that require disposal and unceremoniously relieves the target of these items. Once the transgressor has had its dangerous possessions removed, the yarahkut uses its mind-affecting abilities to strip relevant memories from the target. If the target has expert knowledge of technology or has been exposed to dangerous items for long periods of time-such as a gun maker in a primitive land or an engineer who built a weapon that could instantly destroy millions-the inevitable resorts to a thorough memory wipe or simple execution.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)",
+			"**Family:** [Inevitable](family/inevitable)",
 			"",
 			"### Habitat",
 			"",
@@ -33095,7 +33095,7 @@
 			"",
 			"Ironically, while zelekhuts are implacable and unrelenting in their duty, they have little interest in passing judgment of their own, a fact that often confuses other races. Rather, a zelekhut is content to enforce the laws of any given society, and while it might hunt a condemned serial killer or notorious thief across half a dozen planes, it will not shift a single hoof to capture a corrupt ruler whose offenses are 10 times worse, so long as the atrocities are within her technical rights as ruler. All zelekhuts understand that laws can and must differ from place to place, and it is not the zelekhut's job to moralize, merely to track down those who seek to flee their punishment.",
 			"",
-			"**Family:** [Inevitable](monster/family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
 	"zelekhut": { "copyof": "inevitable,_zelekhut" },

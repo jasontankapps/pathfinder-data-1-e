@@ -585,7 +585,7 @@
 			"",
 			"A single colossus can help its master to raze a kingdom and crush armies, and is immune to almost all forms of retaliation. Many colossi are intended to do exactly that- to forge an empire for their creator, to subjugate a hated foe, or to annihilate some equally dangerous enemy. Some are created to be defensive weapons, as deterrents against invasion. Others are tasked to serve as guardians for singular locations or objects that are not to be disturbed under the direst of consequences.",
 			"",
-			"Because a colossus is an artificial creature, its exact form, function, and composition are left to the discretion of its creator. Nonetheless, all colossi share certain traits that distinguish them from lesser constructs. These traits are described in the [colossus subtype](monster/subtype/colossus).",
+			"Because a colossus is an artificial creature, its exact form, function, and composition are left to the discretion of its creator. Nonetheless, all colossi share certain traits that distinguish them from lesser constructs. These traits are described in the [colossus subtype](subtype/colossus).",
 			"",
 			"Only the greatest and most legendary spellcasters can create colossi, because the process requires experience and knowledge beyond ordinary mortal ken. Shaping a colossus's controlling spirit is about as close as a mortal being has come to truly creating a life and a soul. An inadequately prepared crafter is likely to produce an inert pile of rubble, or at best, a mere golem of tremendous proportions, but relatively fragile for its immense size. At worst, such a creation can fail catastrophically, with results that are unpredictable, but invariably expensive and dangerous.",
 			"",
@@ -1143,7 +1143,7 @@
 			"| Wyrm | DR 20/magic | 13th |",
 			"| Great wyrm | Charm reptiles | 15th |",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1196,7 +1196,7 @@
 			"| Wyrm | DR 20/magic | 15th |",
 			"| Great wyrm | Sandstorm, mirage arcana | 17th |",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1229,7 +1229,7 @@
 		"description": [
 			"## Brass Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1262,7 +1262,7 @@
 		"description": [
 			"## Bronze Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1298,7 +1298,7 @@
 		"description": [
 			"## Copper Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1471,7 +1471,7 @@
 		"description": [
 			"## Gold Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1510,7 +1510,7 @@
 		"description": [
 			"## Green Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -1544,7 +1544,7 @@
 			"",
 			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented here are the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)"
 		]
 	},
 	"imperial_dragon": {
@@ -1561,7 +1561,7 @@
 		"description": [
 			"## Dragon (Imperial, Forest)",
 			"",
-			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
+			"**Family:** [Imperial Dragon](family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1607,7 +1607,7 @@
 		"description": [
 			"## Dragon (Imperial, Sea)",
 			"",
-			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
+			"**Family:** [Imperial Dragon](family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1651,7 +1651,7 @@
 		"description": [
 			"## Dragon (Imperial, Sky)",
 			"",
-			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
+			"**Family:** [Imperial Dragon](family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1697,7 +1697,7 @@
 		"description": [
 			"## Dragon (Imperial, Sovereign)",
 			"",
-			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
+			"**Family:** [Imperial Dragon](family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1741,7 +1741,7 @@
 		"description": [
 			"## Dragon (Imperial, Underworld)",
 			"",
-			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
+			"**Family:** [Imperial Dragon](family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1783,7 +1783,7 @@
 			"",
 			"Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are generally neutral, but their alignments vary more than those of other dragons.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)"
 		]
 	},
 	"outer_dragon": {
@@ -1800,7 +1800,7 @@
 		"description": [
 			"## Dragon (Outer, Lunar)",
 			"",
-			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
+			"**Family:** [Outer Dragon](family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1846,7 +1846,7 @@
 		"description": [
 			"## Dragon (Outer, Solar)",
 			"",
-			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
+			"**Family:** [Outer Dragon](family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1890,7 +1890,7 @@
 		"description": [
 			"## Dragon (Outer, Time)",
 			"",
-			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
+			"**Family:** [Outer Dragon](family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1936,7 +1936,7 @@
 		"description": [
 			"## Dragon (Outer, Void)",
 			"",
-			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
+			"**Family:** [Outer Dragon](family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1980,7 +1980,7 @@
 		"description": [
 			"## Dragon (Outer, Vortex)",
 			"",
-			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
+			"**Family:** [Outer Dragon](family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2027,7 +2027,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)"
 		]
 	},
 	"planar_dragon": {
@@ -2048,7 +2048,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"apocalypse_dragon": {
@@ -2069,7 +2069,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"bliss_dragon": {
@@ -2090,7 +2090,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"crypt_dragon": {
@@ -2225,7 +2225,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"havoc_dragon": {
@@ -2246,7 +2246,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"infernal_dragon": {
@@ -2267,7 +2267,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"paradise_dragon": {
@@ -2288,7 +2288,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"rift_dragon": {
@@ -2309,7 +2309,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
+			"**Family:** [Planar Dragon](family/planar_dragon)"
 		]
 	},
 	"tumult_dragon": {
@@ -2326,7 +2326,7 @@
 			"",
 			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented on the following pages are the five primal dragons-powerful creatures that hail from the elemental planes and the Plane of Shadows.",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](family/true_dragon)"
 		]
 	},
 	"primal_dragon": {
@@ -2343,7 +2343,7 @@
 		"description": [
 			"## Dragon (Primal, Brine)",
 			"",
-			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
+			"**Family:** [Primal Dragon](family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2385,7 +2385,7 @@
 		"description": [
 			"## Dragon (Primal, Cloud)",
 			"",
-			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
+			"**Family:** [Primal Dragon](family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2429,7 +2429,7 @@
 		"description": [
 			"## Dragon (Primal, Crystal)",
 			"",
-			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
+			"**Family:** [Primal Dragon](family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2473,7 +2473,7 @@
 		"description": [
 			"## Dragon (Primal, Magma)",
 			"",
-			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
+			"**Family:** [Primal Dragon](family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2515,7 +2515,7 @@
 		"description": [
 			"## Dragon (Primal, Umbral)",
 			"",
-			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
+			"**Family:** [Primal Dragon](family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2567,7 +2567,7 @@
 		"description": [
 			"## Red Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -2599,7 +2599,7 @@
 		"description": [
 			"## Silver Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -2640,7 +2640,7 @@
 		"description": [
 			"## White Dragon",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"**Family:** [True Dragon](family/true_dragon)",
 			"",
 			"### Special Abilities",
 			"",
@@ -2705,7 +2705,7 @@
 			"",
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
-			"An elemental is a being composed entirely from one of the four classical elements: [air](monster/family/air_elemental), [earth](monster/family/earth_elemental), [fire](monster/family/fire_elemental), or [water](monster/family/water_elemental). An elemental has the following features.",
+			"An elemental is a being composed entirely from one of the four classical elements: [air](family/air_elemental), [earth](family/earth_elemental), [fire](family/fire_elemental), or [water](family/water_elemental). An elemental has the following features.",
 			"",
 			"- Immunity to bleed, paralysis, poison, sleep effects, and stunning.",
 			"- Not subject to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
@@ -2713,7 +2713,7 @@
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Elementals not indicated as wearing armor are not proficient with armor. Elementals are proficient with shields if they are proficient with any form of armor.",
 			"- Elementals do not breathe, eat, or sleep.",
 			"",
-			"Other elementals also exist: [aether](monster/family/aether_elemental), [ice](monster/family/ice_elemental), [lightning](monster/family/lightning_elemental), [magma](monster/family/magma_elemental), and [mud](monster/family/mud_elemental)."
+			"Other elementals also exist: [aether](family/aether_elemental), [ice](family/ice_elemental), [lightning](family/lightning_elemental), [magma](family/magma_elemental), and [mud](family/mud_elemental)."
 		]
 	},
 	"elemental_aether": {
@@ -2730,7 +2730,7 @@
 		"description": [
 			"## Elemental (Aether)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
 			"",
@@ -2773,7 +2773,7 @@
 		"description": [
 			"## Elemental (Air)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Air elementals are fast, flying creatures made of living air. Primitive and territorial, they resent being summoned or doing the bidding of mortals, and much prefer to spend their time on the Plane of Air, swooping and racing through the endless skies.",
 			"",
@@ -2817,7 +2817,7 @@
 		"description": [
 			"## Elemental (Earth)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Earth elementals are plodding, stubborn creatures made of living stone or earth. When utterly still, they resemble a heap of stone or a small hill.",
 			"",
@@ -2861,7 +2861,7 @@
 		"description": [
 			"## Elemental (Fire)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.",
 			"",
@@ -2904,7 +2904,7 @@
 		"description": [
 			"## Elemental (Ice)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Ice elementals are creatures made of animated snow and ice. They form in especially cold parts of the Plane of Water and along its border with the Plane of Air, where giant icebergs careen off of world-high waterfalls into the open sky. Ice elementals vary in their exact appearance.",
 			"",
@@ -2938,7 +2938,7 @@
 		"description": [
 			"## Elemental (Lightning)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Though most think of the Plane of Air as a vast expanse of clear sky, that plane also holds the power of the storm, including monstrous hurricanes larger than entire worlds and thunderstorms whose peals and claps can shatter stone. Whether lightning elementals are the by-product of common air elementals spending too much time near these electrically charged storms or are merely calved off like forgotten flurries, they are aggressive and almost suicidal in their willingness to leap into battle. They particularly enjoy attacking creatures that are made of metal and creatures that wear metal armor or wield metal weapons.",
 			"",
@@ -2970,7 +2970,7 @@
 		"description": [
 			"## Elemental (Magma)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"In the border areas between the Plane of Earth and Plane of Fire, volcanoes and continent-sized lava flows are commonplace. Elementals in this area tend to have aspects of both planes, and the typical sort is the magma elemental, an earth elemental with a core of liquid fire. Magma elementals generally have a somewhat feral or bestial appearance.",
 			"",
@@ -3002,7 +3002,7 @@
 		"description": [
 			"## Elemental (Mud)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Where the Plane of Earth borders the Plane of Water, a mixing of the fundamental elements occurs-it is in this borderland that the mud elementals dwell. Scorned by earth and water elementals, mud elementals usually look like vaguely recognizable blobs of mud in the shape of a Material Plane creature, whether a humanoid, an animal, or even an immense insect. The exact density of their muddy bodies varies-some might be composed of silty water, while others are thick, like river clay. Large and powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.",
 			"",
@@ -3035,7 +3035,7 @@
 		"description": [
 			"## Elemental (Water)",
 			"",
-			"**Family:** [Elemental](monster/family/elemental)",
+			"**Family:** [Elemental](family/elemental)",
 			"",
 			"Water elementals are patient, relentless creatures made of living fresh or salt water. They prefer to hide or drag their opponents into the water to gain an advantage.",
 			"",
@@ -3786,7 +3786,7 @@
 			"",
 			"In the furthest reaches of the globe, where civilization itself is a legend and mapmakers can only make guesses about lands and denizens, immense creatures that are worshiped as gods walk the world. Capable of devastating entire cities in a single day of ruin and unleashing powerful supernatural attacks, these fabled, so-called \"gods\" are anything but. These massive monsters are known as kaiju, and the tales told of their genesis are as varied as the strange forms and capabilities of the monsters themselves.",
 			"",
-			"A kaiju is a monster of tremendous size-far larger than almost any other creature. Each kaiju is unique, but they all share a few traits in common (see the [kaiju subtype](monster/subtype/kaiju). Kaiju can be of different types, but most are magical beasts. Although kaiju are semiintelligent and can generally understand a single language, they cannot speak. Some legends tell of certain gifted or unique people being able to call kaiju from vast distances to aid them in times of distress. This type of bond with a kaiju isn't well understood, but rarely comes to those who already possess great power. Rather, it is the helpless, the compassionate, and the meek who can bring forth kaiju.",
+			"A kaiju is a monster of tremendous size-far larger than almost any other creature. Each kaiju is unique, but they all share a few traits in common (see the [kaiju subtype](subtype/kaiju). Kaiju can be of different types, but most are magical beasts. Although kaiju are semiintelligent and can generally understand a single language, they cannot speak. Some legends tell of certain gifted or unique people being able to call kaiju from vast distances to aid them in times of distress. This type of bond with a kaiju isn't well understood, but rarely comes to those who already possess great power. Rather, it is the helpless, the compassionate, and the meek who can bring forth kaiju.",
 			"",
 			"Kaiju generally dwell in distant, remote wildernesses, often in unusually close proximity to one another. There they battle, but never quite seem to finish their constant conflicts before one of the beasts staggers away to recover from the clash, defeated only for the moment. Visitors to one of the remote lands where kaiju frequently clash can often explore without too much fear, as long as they take care not to be too visible or destructive as they explore. Unless a kaiju is being attacked or is particularly aggressive (such as when it's defending a territory), it's likely to ignore Medium or smaller creatures that wander in its vicinity, just as a human might ignore an ant crawling nearby.",
 			"",
@@ -3890,7 +3890,7 @@
 			"",
 			"Kytons' need to replace parts of themselves with those of stronger mortals puts them in perpetual danger of attacking creatures that are too powerful for them to kill. For this reason, kytons are pragmatic and ruthless in their battles, scrutinizing all potential outcomes of a situation before taking action. Seeing strength in numbers, kytons often attack or trap a mortal victim as a team, hauling the unfortunate soul to the Plane of Shadow, converting their prey into a new kyton or dividing its body and soul among them for grafting and nourishment.",
 			"",
-			"The kytons of the Pathfinder RPG Bestiary are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the [kyton subtype](monster/subtype/kyton). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
+			"The kytons of the Pathfinder RPG Bestiary are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the [kyton subtype](subtype/kyton). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
 			"",
 			"**Kyton Demagogues**",
 			"",
@@ -4108,7 +4108,7 @@
 			"",
 			"**Source** [Pathfinder #139: The Dead Road](source/pathfinder_#139_the_dead_road)",
 			"",
-			"[Mortics](monster/subtype/mortic) are humanoids afflicted with the physiology and appetites of undead. All mortics are pulled between two worlds: as living humanoids, they crave community and friendship, but their necromantic nature forces them to indulge in inhuman hungers and commit violence against the living. As a result, most mortics lurk at the edge of civilization or isolate themselves with others of their own kind. Although living creatures, mortics can suspend their living processes temporarily, becoming more like undead."
+			"[Mortics](subtype/mortic) are humanoids afflicted with the physiology and appetites of undead. All mortics are pulled between two worlds: as living humanoids, they crave community and friendship, but their necromantic nature forces them to indulge in inhuman hungers and commit violence against the living. As a result, most mortics lurk at the edge of civilization or isolate themselves with others of their own kind. Although living creatures, mortics can suspend their living processes temporarily, becoming more like undead."
 		]
 	},
 	"naga": {
@@ -4655,7 +4655,7 @@
 			"",
 			"The means of commanding robots vary from model to model, which can be a source of endless frustration for any who seek to control them. Some obey orders from any humanoid, some bond to a specific master until her death, and others only yield to the command of technological brooches or control rods. Still others submit after mechanical surgery or rebuilding, or not at all. Many must be given extremely precise instructions, for they are unable to process metaphors or other figures of speech, and may interpret them in unanticipated ways, much to the chagrin of those who would command them. A surprisingly large proportion of uncontrolled robots already speak Common, as most models exhibit considerable linguistics talent, and the robots train each other in their new home's languages. Though they comprehend language, most robots rarely speak save for terse acknowledgements of orders. Their speech typically excludes words they deem unnecessary with their mechanical efficiency, leading to strange disjointed statements that convey the requisite information without emotion, although some robots programmed to interact well with humans are able to speak in a more fluid and less disconcerting manner.",
 			"",
-			"Constructing a robot requires no magic, but does involve advanced and extraordinarily rare materials and technological expertise. Because almost no one possesses the skills and materials to complete the process of constructing a robot, these entries omit the construction sections provided for most constructs. A GM can add the robot subtype to a different type of construct, such as an animated object or homunculus, to create new types of robots. Typically, this doesn't alter the construct's CR. A character can't create a robot from or add the robot subtype to a construct that has already been created; adding the [robot subtype](monster/subtype/robot) to an existing creature is purely a means for the GM to simulate additional robots beyond those provided here."
+			"Constructing a robot requires no magic, but does involve advanced and extraordinarily rare materials and technological expertise. Because almost no one possesses the skills and materials to complete the process of constructing a robot, these entries omit the construction sections provided for most constructs. A GM can add the robot subtype to a different type of construct, such as an animated object or homunculus, to create new types of robots. Typically, this doesn't alter the construct's CR. A character can't create a robot from or add the robot subtype to a construct that has already been created; adding the [robot subtype](subtype/robot) to an existing creature is purely a means for the GM to simulate additional robots beyond those provided here."
 		]
 	},
 	"rot_grub": {
@@ -4702,7 +4702,7 @@
 			"",
 			"**Source** [Bestiary 5](source/bestiary_5)",
 			"",
-			"[Psychopomps](monster/family/psychopomp) oversee one of the most fundamental functions of the multiverse: the progress of mortal souls. Through this infinite cycle of lives, deaths, and rebirths, the forces of the planes calibrate and evolve. Psychopomps serve as caretakers of this process, yet no matter their might or influence, they all know their place, their duty, and a shared secret: that the order of the planes is not perfect, and that one distant day it will end. For most psychopomps, this burdensome truth reinforces the great need for their diligence in fending off the decay of all things. For others, it is an onrushing nihilistic destiny. And for the most brazen, selfish psychopomps, it is a reason to rebel.",
+			"[Psychopomps](family/psychopomp) oversee one of the most fundamental functions of the multiverse: the progress of mortal souls. Through this infinite cycle of lives, deaths, and rebirths, the forces of the planes calibrate and evolve. Psychopomps serve as caretakers of this process, yet no matter their might or influence, they all know their place, their duty, and a shared secret: that the order of the planes is not perfect, and that one distant day it will end. For most psychopomps, this burdensome truth reinforces the great need for their diligence in fending off the decay of all things. For others, it is an onrushing nihilistic destiny. And for the most brazen, selfish psychopomps, it is a reason to rebel.",
 			"",
 			"Those psychopomps that dissent are known as sahkils. Not content to serve as clerks in an endlessly deteriorating cycle of meaningless lives, these former psychopomps abandoned their duties. Escaping the strictures of their previous brethren, they flee to the empty places of reality-most congregating in the misty Ethereal Plane. There, where the great procession of newly departed souls endlessly marches toward judgment, death's rebels remake themselves. Embracing the dread with which mortals already view them, they restyle themselves as tyrants of terror. No longer servants to souls, they would become their terrifying masters. Reality's days might be numbered, but for those finite eons, sahkils resolve to rule.",
 			"",
@@ -4714,7 +4714,7 @@
 			"",
 			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](unknown/manasaputras) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
 			"",
-			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](monster/subtype/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
+			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](subtype/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
 		]
 	},
 	"siktempora": {
@@ -4976,7 +4976,7 @@
 			"**Source** [Bestiary 6](source/bestiary_6)  ",
 			"Wherever there are battles to be fought or spoils to be claimed, troops march forward to do the dirty work of war. Whether they are hungry brigands eager to raid merchant caravans, frantic goblins scrambling to put a local settlement to the torch, or a cabal of drow spellcasters on a religious crusade for their demonic faith, troops heed the call and move as a single unit to accomplish what one lone mercenary, arsonist, or cabalist could not.",
 			"",
-			"Of course, brigands, drow, and goblins aren't the only types of troop that could exist-they're merely the three presented on the following pages. The [troop subtype](monster/subtype/troop) provides rules for the creation of groups of like-minded individuals of all kinds, functioning in a way similar to how the swarm subtype allows for the modeling of a vast flight of creatures acting as a single whole. With a troop, running an encounter against a large number of lower-level foes becomes much more manageable, and allows for normally low-CR threats to band together and challenge more powerful PCs.",
+			"Of course, brigands, drow, and goblins aren't the only types of troop that could exist-they're merely the three presented on the following pages. The [troop subtype](subtype/troop) provides rules for the creation of groups of like-minded individuals of all kinds, functioning in a way similar to how the swarm subtype allows for the modeling of a vast flight of creatures acting as a single whole. With a troop, running an encounter against a large number of lower-level foes becomes much more manageable, and allows for normally low-CR threats to band together and challenge more powerful PCs.",
 			"",
 			"Troops can be created in innumerable variations, and you should feel free to use examples as inspiration for the creation of troops of your own design. Troops are not as meant as exact simulations of tactical warfare, and when creating them you should not be overly concerned with trying to emulate the compounded abilities of the troop's component individuals. Troops are created just like other creatures of their creature type, with basic elements such as Hit Dice and statistics assigned so the completed troop conforms to the approximate hit points, Armor Class, and other values for its desired Challenge Rating. Once that foundation is established, apply the subtype rules and use the examples and variations provided here to finetune it with flavorful abilities and feats that approximate how a homogenous group of creatures of this sort might fight. With troops at your command, PCs may think twice next time they encounter a seemingly outmatched group of opponents."
 		]

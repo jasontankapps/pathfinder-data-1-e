@@ -137,7 +137,7 @@
 			"",
 			"A calling spell transports a creature from another plane to the plane you are on. The spell grants the creature the one-time ability to return to its plane of origin, although the spell may limit the circumstances under which this is possible. Creatures who are called actually die when they are killed; they do not disappear and reform, as do those brought by a summoning spell (see below). The duration of a calling spell is instantaneous, which means that the called creature can't be dispelled.",
 			"",
-			"Calling is a subschool of [Conjuration](spell/definition/conjuration)."
+			"Calling is a subschool of [Conjuration](spelldef/conjuration)."
 		]
 	},
 	"charm": {
@@ -151,7 +151,7 @@
 			"",
 			"A charm spell changes how the subject views you, typically making it see you as a good friend.",
 			"",
-			"Charm is a subschool of [Enchantment](spell/definition/enchantment)."
+			"Charm is a subschool of [Enchantment](spelldef/enchantment)."
 		]
 	},
 	"compulsion": {
@@ -165,7 +165,7 @@
 			"",
 			"A compulsion spell forces the subject to act in some manner or changes the way its mind works. Some compulsion spells determine the subject's actions or the effects on the subject, others allow you to determine the subject's actions when you cast the spell, and still others give you ongoing control over the subject.",
 			"",
-			"Compulsion is a subschool of [Enchantment](spell/definition/enchantment)."
+			"Compulsion is a subschool of [Enchantment](spelldef/enchantment)."
 		]
 	},
 	"creation": {
@@ -179,7 +179,7 @@
 			"",
 			"A creation spell manipulates matter to create an object or creature in the place the spellcaster designates. If the spell has a duration other than instantaneous, magic holds the creation together, and when the spell ends, the conjured creature or object vanishes without a trace. If the spell has an instantaneous duration, the created object or creature is merely assembled through magic. It lasts indefinitely and does not depend on magic for its existence.",
 			"",
-			"Creation is a subschool of [Conjuration](spell/definition/conjuration)."
+			"Creation is a subschool of [Conjuration](spelldef/conjuration)."
 		]
 	},
 	"figment": {
@@ -197,7 +197,7 @@
 			"",
 			"A figment's AC is equal to 10 + its size modifier.",
 			"",
-			"Figment is a subschool of [Illusion](spell/definition/illusion)."
+			"Figment is a subschool of [Illusion](spelldef/illusion)."
 		]
 	},
 	"glamer": {
@@ -211,7 +211,7 @@
 			"",
 			"A glamer spell changes a subject's sensory qualities, making it look, feel, taste, smell, or sound like something else, or even seem to disappear.",
 			"",
-			"Glamer is a subschool of [Illusion](spell/definition/illusion)."
+			"Glamer is a subschool of [Illusion](spelldef/illusion)."
 		]
 	},
 	"haunted": {
@@ -231,7 +231,7 @@
 			"",
 			"Haunted spells don't have histories like regular haunts do, so effects that reveal such information merely expose that the haunted spell is a magical effect. Efforts to communicate with haunted spells using [talking boards](equipment/misc/talking_boards), the spells [call spirit](spell/call_spirit) and [speak with haunt](spell/speak_with_haunt), or similar methods automatically fail.",
 			"",
-			"Haunted is a subschool of [Necromancy](spell/definition/necromancy)."
+			"Haunted is a subschool of [Necromancy](spelldef/necromancy)."
 		]
 	},
 	"healing": {
@@ -245,7 +245,7 @@
 			"",
 			"Certain divine conjurations heal creatures or even bring them back to life.",
 			"",
-			"Healing is a subschool of [Conjuration](spell/definition/conjuration)."
+			"Healing is a subschool of [Conjuration](spelldef/conjuration)."
 		]
 	},
 	"pattern": {
@@ -259,7 +259,7 @@
 			"",
 			"Like a figment, a pattern spell creates an image that others can see, but a pattern also affects the minds of those who see it or are caught in it. All patterns are mind-affecting spells.",
 			"",
-			"Pattern is a subschool of [Illusion](spell/definition/illusion)."
+			"Pattern is a subschool of [Illusion](spelldef/illusion)."
 		]
 	},
 	"phantasm": {
@@ -273,7 +273,7 @@
 			"",
 			"A phantasm spell creates a mental image that usually only the caster and the subject (or subjects) of the spell can perceive. This impression is totally in the minds of the subjects. It is a personalized mental impression, all in their heads and not a fake picture or something that they actually see. Third parties viewing or studying the scene don't notice the phantasm. All phantasms are mind-affecting spells.",
 			"",
-			"Phantasm is a subschool of [Illusion](spell/definition/illusion)."
+			"Phantasm is a subschool of [Illusion](spelldef/illusion)."
 		]
 	},
 	"polymorph": {
@@ -311,7 +311,7 @@
 			"| Gargantuan | -12 | +4 | -6 | Medium |",
 			"| Colossal | -16 | +4 | -8 | Medium |",
 			"",
-			"Polymorph is a subschool of [Transmutation](spell/definition/transmutation)."
+			"Polymorph is a subschool of [Transmutation](spelldef/transmutation)."
 		]
 	},
 	"scrying": {
@@ -329,7 +329,7 @@
 			"",
 			"Lead sheeting or magical protection blocks a scrying spell, and you sense that the spell is blocked.",
 			"",
-			"Scrying is a subschool of [Divination](spell/definition/divination)."
+			"Scrying is a subschool of [Divination](spelldef/divination)."
 		]
 	},
 	"shadow_subschoool": {
@@ -343,7 +343,7 @@
 			"",
 			"A shadow spell creates something that is partially real from extradimensional energy. Such illusions can have real effects. Damage dealt by a shadow illusion is real.",
 			"",
-			"Shadow is a subschool of [Illusion](spell/definition/illusion)."
+			"Shadow is a subschool of [Illusion](spelldef/illusion)."
 		]
 	},
 	"summoning": {
@@ -359,7 +359,7 @@
 			"",
 			"When the spell that summoned a creature ends and the creature disappears, all the spells it has cast expire. A summoned creature cannot use any innate summoning abilities it may have.",
 			"",
-			"Summoning is a subschool of [Conjuration](spell/definition/conjuration)."
+			"Summoning is a subschool of [Conjuration](spelldef/conjuration)."
 		]
 	},
 	"teleportation": {
@@ -375,7 +375,7 @@
 			"",
 			"Teleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.",
 			"",
-			"Teleportation is a subschool of [Conjuration](spell/definition/conjuration)."
+			"Teleportation is a subschool of [Conjuration](spelldef/conjuration)."
 		]
 	},
 	"acid": {

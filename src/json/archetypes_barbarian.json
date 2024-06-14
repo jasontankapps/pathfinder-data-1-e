@@ -471,7 +471,7 @@
 			"**Source** [Animal Archive pg. 7](source/animal_archive)  ",
 			"Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.",
 			"",
-			"**War Beast (Ex):** At 1st level, a mad dog gains the service of an [animal companion](class/ability/druid_companions), using the barbarian's level as her effective druid level. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
+			"**War Beast (Ex):** At 1st level, a mad dog gains the service of an [animal companion](ability/druid_companions), using the barbarian's level as her effective druid level. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
 			"",
 			"**Pack Tactics (Ex):** At 2nd level, a mad dog and her war beast gain a +4 bonus on attack rolls while flanking the same opponent (instead of the normal +2 bonus). This ability replaces uncanny dodge.",
 			"",
@@ -824,7 +824,7 @@
 			"## Totem Warrior",
 			"",
 			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
-			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem [rage powers](class/ability/rage_powers) that match their totem.",
+			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem [rage powers](ability/rage_powers) that match their totem.",
 			"",
 			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): [animal fury](ragepower/animal_fury), [low-light vision](ragepower/low-light_vision), [night vision](ragepower/night_vision), [raging climber](ragepower/raging_climber), [raging leaper](ragepower/raging_leaper), [raging swimmer](ragepower/raging_swimmer), and [swift foot](ragepower/swift_foot)."
 		]

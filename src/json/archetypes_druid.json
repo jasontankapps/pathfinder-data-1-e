@@ -1746,7 +1746,7 @@
 			"",
 			"**Element of Surprise (Ex):** At 4th level, if a survivor makes a successful attack during a surprise round against a target that is unaware of her, her victim takes a penalty on its initiative check during the following round equal to half the damage dealt by the survivor's attack (minimum 0, maximum equal to the survivor's class level). This cannot reduce an initiative result below 1. This ability replaces resist nature's lure.",
 			"",
-			"**Trap:** At 4th level, a survivor learns how to create a snare trap and one other [ranger trap](class/ability/ranger_traps) of her choice. At 6th level and every 2 levels thereafter, she learns another trap. The survivor can use these traps a total number of times per day equal to 1/2 her druid level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The survivor cannot select an individual trap more than once. This ability replaces wild shape.",
+			"**Trap:** At 4th level, a survivor learns how to create a snare trap and one other [ranger trap](ability/ranger_traps) of her choice. At 6th level and every 2 levels thereafter, she learns another trap. The survivor can use these traps a total number of times per day equal to 1/2 her druid level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The survivor cannot select an individual trap more than once. This ability replaces wild shape.",
 			"",
 			"**Launch Trap:** At 9th level, a survivor can affix a magical ranger trap to an arrow or thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the full-round action of creating a new trap. The trapped projectile is fired or thrown in the normal manner. If the projectile is fired at a square, the trap is treated as if the survivor had set the trap in that square, except the DC is 5 lower than normal. If the projectile is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the attack roll. The duration of the trapped projectile starts from when it is created, not from when it is used. This ability replaces venom immunity."
 		]
@@ -2071,7 +2071,7 @@
 			"",
 			"**Natural Expertise (Ex):** At 6th level, a wild whisperer's powers of observation give her an advantage when she's fighting natural creatures. When using inspiration on an attack roll against an animal or a vermin or on a saving throw against an effect from an animal or a vermin, a wild whisperer has to expend only one use of inspiration instead of two. This ability replaces the additional use of wild shape at 6th level.",
 			"",
-			"**Investigator Talent:** At 8th level, wild whisperer selects an [investigator talent](class/ability/investigator_talents). This ability replaces the additional use of wild shape at 8th level.",
+			"**Investigator Talent:** At 8th level, wild whisperer selects an [investigator talent](ability/investigator_talents). This ability replaces the additional use of wild shape at 8th level.",
 			"",
 			"**Investigator Talents:** The following investigator talents complement the wild whisperer archetype: amazing inspiration, effortless aid, eidetic recollection, empathy, inspirational expertise, inspired alertness, inspired intimidator, perceptive tracking, tenacious inspiration."
 		]

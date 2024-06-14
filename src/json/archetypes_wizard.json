@@ -181,7 +181,7 @@
 			"",
 			"This replaces Scribe Scroll.",
 			"",
-			"**Familiar Tinkering (Ex):** At 5th level, a clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar 1 evolution point worth of [eidolon evolutions](class/ability/evolutions) for every 5 wizard levels he has, though he can't select any evolutions that require a specific base form. Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the [Evolved Familiar](feat/evolved_familiar) feat.",
+			"**Familiar Tinkering (Ex):** At 5th level, a clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar 1 evolution point worth of [eidolon evolutions](ability/evolutions) for every 5 wizard levels he has, though he can't select any evolutions that require a specific base form. Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the [Evolved Familiar](feat/evolved_familiar) feat.",
 			"",
 			"This replaces the bonus feats gained at 5th, 10th, 15th, and 20th levels."
 		]
@@ -261,7 +261,7 @@
 			"",
 			"**Arcane Reservoir (Su):** At 1st level, the exploiter wizard gains the arcanist's arcane reservoir class feature. The exploiter wizard uses his wizard level as his arcanist level for determining how many arcane reservoir points he gains at each level. This ability replaces arcane bond.",
 			"",
-			"**Exploiter Exploit:** At 1st level and every 4 levels thereafter, the exploiter wizard gains a single [arcanist exploit](class/ability/exploits). The exploiter wizard uses his wizard level as his arcanist level for determining the effects and DCs of his arcanist exploits. This ability replaces arcane school."
+			"**Exploiter Exploit:** At 1st level and every 4 levels thereafter, the exploiter wizard gains a single [arcanist exploit](ability/exploits). The exploiter wizard uses his wizard level as his arcanist level for determining the effects and DCs of his arcanist exploits. This ability replaces arcane school."
 		]
 	},
 	"familiar_adept": {
@@ -275,7 +275,7 @@
 			"",
 			"**Diminished Expertise:** A familiar adept doesn't gain Scribe Scroll at 1st level or the wizard's bonus feats at 5th and 10th levels. He must also choose one additional opposition school, even if he is a universalist.",
 			"",
-			"**School Familiar (Ex):** At 1st level, a familiar adept must select a familiar for his arcane bond. His familiar automatically gains the [school familiar](class/archetype/familiar/school_familiar) archetype, but it cannot use its lesser school power until 4th level. At 8th level, it gains access to its greater school power. This ability alters arcane bond.",
+			"**School Familiar (Ex):** At 1st level, a familiar adept must select a familiar for his arcane bond. His familiar automatically gains the [school familiar](archetype/familiar/school_familiar) archetype, but it cannot use its lesser school power until 4th level. At 8th level, it gains access to its greater school power. This ability alters arcane bond.",
 			"",
 			"**Familiar Spells (Ex):** A familiar adept stores his spells in his familiar rather than in a spellbook, exactly as a witch does. His familiar can freely trade spells known with a witch's familiar, provided the spells traded are on both casters' class spell lists. The familiar adept's familiar uses the witch rules for familiars, including the increased cost of replacing the familiar. This ability alters spellbook.",
 			"",
@@ -665,7 +665,7 @@
 			"",
 			"**Arcane Bond (Ex):** When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the witch's familiar class feature (Advanced Player's Guide 67). This ability alters arcane bond and replaces the spellbook class feature.",
 			"",
-			"**Spirit Link (Su):** At 1st level, a spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the [shaman's list of spirits](class/ability/shaman_spirits). At 1st level, he gains a spirit ability granted by that spirit. At 8th level, he gains the greater spirit ability granted by that spirit. At 20th level, the spirit whisperer gains the manifestation ability granted by the spirit. He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain hexes, spirit magic spells, or the true spirit ability typically granted to a shaman by these spirits. This ability replaces arcane school and the bonus feat gained at 20th level.",
+			"**Spirit Link (Su):** At 1st level, a spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the [shaman's list of spirits](ability/shaman_spirits). At 1st level, he gains a spirit ability granted by that spirit. At 8th level, he gains the greater spirit ability granted by that spirit. At 20th level, the spirit whisperer gains the manifestation ability granted by the spirit. He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain hexes, spirit magic spells, or the true spirit ability typically granted to a shaman by these spirits. This ability replaces arcane school and the bonus feat gained at 20th level.",
 			"",
 			"**Spirit Hex:** At 5th level, a spirit whisperer can select one hex from the list of those granted by his chosen spirit. He uses his wizard level as his shaman level when determining the effects and DC of this hex. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these hexes. At 10th and 15th level, he can select another hex from those granted by his spirit. Each hex selected in this way replaces the bonus feat gained at that level. This ability alters bonus feats."
 		]

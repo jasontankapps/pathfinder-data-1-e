@@ -8,8 +8,8 @@
 		"Some of the methods that add more summons may have additional requirements/criteria - always reference the originating source for full details (the sub-headers will contain a hyperlink, if an appropriate location in the Archives exists)."
 	],
 	"_footnotes": {
-		"E": "[^E]: A PC who worships one of the Eldest can choose to use the variant summon list presented here, but they permanently lose the ability to summon creatures with the [outsider](monster/type/outsider) type using *summon monster* and *summon nature's ally*.",
-		"A": "[^A]: These creatures are summoned with the [Celestial](monster/template/celestial) template if you are good and the [Fiendish](monster/template/fiendish) template if you are evil. If you are neutral, you may choose which template to apply to the creature. These creatures always have an alignment that matches yours, regardless of their usual alignment. Summoning these creatures makes the summoning spell's type match your alignment.",
+		"E": "[^E]: A PC who worships one of the Eldest can choose to use the variant summon list presented here, but they permanently lose the ability to summon creatures with the [outsider](type/outsider) type using *summon monster* and *summon nature's ally*.",
+		"A": "[^A]: These creatures are summoned with the [Celestial](template/celestial) template if you are good and the [Fiendish](template/fiendish) template if you are evil. If you are neutral, you may choose which template to apply to the creature. These creatures always have an alignment that matches yours, regardless of their usual alignment. Summoning these creatures makes the summoning spell's type match your alignment.",
 		"I": "[^I]: For all abilities this creature has that are both is usable an unlimited number of times per day and require a saving throw, a creature that attempts a saving throw against that ability becomes immune to that ability for 24 hours. This immunity also applies to that ability possessed by all creatures of the same type summoned by the same spellcaster.",
 		"T": "[^T]: This creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack.",
 		"W": "[^W]: Does not have the wish spell-like ability and/or cannot cast wish."
@@ -1237,7 +1237,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](class/prestige/cyphermage)",
+			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
@@ -2271,7 +2271,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](class/prestige/genie_binder)",
+			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -2833,7 +2833,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](class/prestige/cyphermage)",
+			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
@@ -2847,7 +2847,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](class/prestige/genie_binder)",
+			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -3357,7 +3357,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](class/prestige/genie_binder)",
+			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -4151,7 +4151,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](class/prestige/cyphermage)",
+			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",

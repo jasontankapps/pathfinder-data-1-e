@@ -430,7 +430,7 @@
 			"",
 			"Baalzebul's unholy symbol is a broken black crown tipped at an angle, underneath a shining white diamond inside a broken white halo. Although he prefers the use of the longsword himself, his arrogance prevents him from sharing his favor of that weapon with his worshipers - instead, his favored weapon is the spear. He grants access to the Air, Death, Evil, and Law domains, and to the Devil, Murder, Undead, and Wind subdomains.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"baalzebul": { "copyof": "archdevil,_baalzebul" },
@@ -508,7 +508,7 @@
 			"",
 			"Barbatos's unholy symbol is an inverted triangle with three red eyes-often, the triangle portion of his symbol appears to be three filthy beards, the tangled hairs of which extend in three directions around the eyes at the center. His favored weapon is the quarterstaff. He grants access to the Evil, Law, Magic, and Travel domains, and to the Arcane, Devil, Divine, and Trade subdomains.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"barbatos": { "copyof": "archdevil,_barbatos" },
@@ -592,7 +592,7 @@
 			"",
 			"Belial's unholy symbol is a split-faced mask, one side of which is smiling and white and the other frowning and red. Their favored weapon is the ranseur. The Pale Kiss grants access to the domains of Charm, Destruction, Evil, and Law, and to the subdomains of Catastrophe, Devil, Lust, and Rage.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"belial": { "copyof": "archdevil,_belial" },
@@ -669,7 +669,7 @@
 			"",
 			"Dispater's unholy symbol is a heavy black nail piercing a red crown. His favored weapon is the heavy mace. He grants access to the domains of Evil, Law, Nobility, and Trickery, and to the subdomains of Deception, Devil, Leadership, and Tyranny.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"dispater": { "copyof": "archdevil,_dispater" },
@@ -752,7 +752,7 @@
 			"",
 			"Geryon's unholy symbol is a shadowed, red-and-black serpent's head. It favored weapon is the heavy flail. It grants access to the domains of Evil, Law, Strength, and Water, and to the subdomains of Devil, Ferocity, Oceans, and Resolve.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"geryon": { "copyof": "archdevil,_geryon" },
@@ -829,7 +829,7 @@
 			"",
 			"Mammon's unholy symbol is a midnight blue coin with a horned devil's head and an infernal inscription of his name in pale silvery blue. His favored weapon is the shortspear. He grants access to the Artifice, Earth, Evil, and Law domains, and to the Construct, Devil, Metal, and Toil subdomains.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"mammon": { "copyof": "archdevil,_mammon" },
@@ -906,7 +906,7 @@
 			"",
 			"His unholy symbol is a diagonal scarlet trident piercing a golden halo. His favored weapon is the trident. He grants access to the Evil, Knowledge, Law, and Rune domains, and to the Devil, Language, Memory, and Thought subdomains.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
@@ -989,7 +989,7 @@
 			"",
 			"Moloch's unholy symbol is a shadowed red-and-black bull's head with a sickly yellow flame within. Although he can use any weapon (and favors the battleaxe Goreletch and the longsword Ramithaine), his favored weapon is the whip, as he prefers his worshipers to drive armies by the lash. He grants access to the Evil, Fire, Law, and War domains, and to the Ash, Devil, Smoke, and Tactics subdomains.",
 			"",
-			"**Family:** [Archdevil](monster/family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)"
 		]
 	},
 	"moloch": { "copyof": "archdevil,_moloch" },
@@ -1239,7 +1239,7 @@
 			"",
 			"The Black Rider has the most forbidding appearance of the Three Riders. He always appears in a frightening form when called to service. His judgments are the least recorded in history, as they are all performed under the cover of night, and many Irriseni citizens blame other vicious creatures and strange occurrences for the disappearance of their fellow citizens.",
 			"",
-			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
 	"black_rider": { "copyof": "baba_yaga's_rider,_black_rider" },
@@ -1304,7 +1304,7 @@
 			"",
 			"The Red Rider is the most fiery and aggressive of the Three Riders. When Irriseni citizens share old tales of previous Riders around the hearth, stories of the Red Rider's judgments always go into gruesome detail about his wholesale slaughter and shocking violence. Some argue that the Red Rider is no more vicious than the Black Rider, and that the larger number of heinous tales about the Red Rider are simply the result of the time of day in which he engages in his tasks. More citizens are awake and out of their homes during the day to witness the Red Rider's judgments before he cedes his time to the night.",
 			"",
-			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
 	"red_rider": { "copyof": "baba_yaga's_rider,_red_rider" },
@@ -1371,7 +1371,7 @@
 			"",
 			"The White Rider is the most even-tempered and diplomatic of the Three Riders. This does not mean that she is sympathetic or merciful, just that there is less blood staining the crisp white garments she wears. When the White Rider comes calling, citizens of Irrisen often seek to curry favor by bringing her gifts of hot tea, pastries, and fresh baked bread. She rarely accepts these offerings, and when she does it is only from those she has already judged to be loyal to Baba Yaga and worthy of the Queen of Witches's rule. Those who too eagerly attempt to carry favor face added scrutiny from her.",
 			"",
-			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
 	"white_rider": { "copyof": "baba_yaga's_rider,_white_rider" },
@@ -1927,7 +1927,7 @@
 			"",
 			"**Scroll Use (Ex)** Baphomet can cast spells from any scroll as if he possessed the spell on a spell list. Spells he casts from scrolls always resolve at caster level 27th.",
 			"",
-			"**Summon Minotaurs (Sp)** Baphomet can summon half-fiend minotaurs, labyrinth minotaurs (see page 90), and mythic minotaurs as if casting a summon monster spell. He can summon eight half-fiend minotaurs three times per day, and four mythic minotaurs or one labyrinth minotaur once per day. This ability functions as a swift action, but otherwise works like the summon universal monster rule with 100% chance of success and counts as a 9th-level spell effect.",
+			"**Summon Minotaurs (Sp)** Baphomet can summon half-fiend minotaurs, [labyrinth minotaurs](monster/labyrinth_minotaur), and mythic minotaurs as if casting a summon monster spell. He can summon eight half-fiend minotaurs three times per day, and four mythic minotaurs or one labyrinth minotaur once per day. This ability functions as a swift action, but otherwise works like the summon universal monster rule with 100% chance of success and counts as a 9th-level spell effect.",
 			"",
 			"**Supernatural Cunning (Su)** Baphomet is never caught flat-footed and gains a +8 bonus on initiative checks. In addition, he's immune to maze spells and can never become lost. He always knows the shortest, most direct route through any maze. After spending 1 minute in any maze, he understands its entire layout implicitly and can teleport to any location using his greater teleport spell-like ability.",
 			"",
@@ -1945,7 +1945,7 @@
 			"",
 			"Baphomet has two symbols. To most, including his minotaurs, his symbol is a brass minotaur's head with ruby eyes. His secret societies use this symbol as well, but also mark his works with the inverted pentagram, sometimes decorating the star shape with an image of his face. Baphomet's favored weapon is the glaive, although he does not abide any of his followers wielding a weapon that looks like Aizerghaul. He grants access to the domains of Animal, Chaos, Evil, and Strength, and to the subdomains of Demon, Ferocity, Fur, and Resolve.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"baphomet": { "copyof": "demon_lord,_baphomet" },
@@ -2024,7 +2024,7 @@
 			"",
 			"Dagon is also known as the Shadow in the Sea. His unholy symbol is a gold disk inscribed with sinister runes around an open octopus eye. His favored weapon is the trident. He grants access to the domains of Chaos, Destruction, Evil, and Water, and access to the subdomains of Catastrophe, Demon, Oceans, and Rage.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"dagon": { "copyof": "demon_lord,_dagon" },
@@ -2111,7 +2111,7 @@
 			"",
 			"Deskari's symbol is a pair of crossed locust wings dripping with blood. His favored weapon is the scythe, in honor of his devastating weapon of choice, Riftcarver, but his worshipers sometimes prefer to use smaller weapons, especially when they must move unnoticed among enemies. Deskari grants access to the domains of Chaos, Destruction, Evil, and War, and to the subdomains of Blood, Catastrophe, Demons, and Tactics.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"deskari": { "copyof": "demon_lord,_deskari" },
@@ -2196,7 +2196,7 @@
 			"",
 			"Kostchtchie's unholy symbol is an ice-caked, runecarved warhammer, and the warhammer is his favored weapon. He grants access to the domains of Chaos, Evil, Strength, and War, and access to the subdomains of Demon, Ferocity, Ice, and Tactics (although the Ice subdomain is normally not available without the Water domain, an exception is made in this case because of the demon lord's close association with cold).",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
@@ -2283,7 +2283,7 @@
 			"",
 			"Nocticula's symbol is a multi-pointed crown wrapped with thorny vines. Her favored weapon is the hand crossbow. She grants access to the domains of Chaos, Charm, Darkness, and Evil, and to the subdomains of Demon, Loss, Lust, and Night.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"nocticula": { "copyof": "demon_lord,_nocticula" },
@@ -2366,7 +2366,7 @@
 			"",
 			"Pazuzu's Scepter of Shibaxet can be found [here](unknown/here).",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
@@ -2454,7 +2454,7 @@
 			"",
 			"Shax's unholy symbol is a curved white feather sitting in a pool of blood. His favored weapon is the dagger. He grants access to the domains of Chaos, Destruction, Evil, and Nobility, and to the subdomains of Demon, Leadership, Martyr, and Rage. For more rules about demon lords, including the full rules of Shax's Abyssal resurrection and summon demons abilities, see Pathfinder Adventure Path #73 page 81 or Pathfinder RPG Bestiary 4.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"shax": { "copyof": "demon_lord,_shax" },
@@ -2541,7 +2541,7 @@
 			"",
 			"Sifkesh's unholy symbol is a pair of feminine hands crossed at slashed wrists. Her favored weapon is the war razor (The Inner Sea World Guide 290-291). She grants access to the domains of Chaos, Evil, Madness, and Trickery, and to the subdomains of Deception, Demon, Loss, and Nightmare (even though she normally wouldn't be able to grant access to the subdomain of Loss, she can do so due to her close associations with despair and hopelessness).",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"sifkesh": { "copyof": "demon_lord,_sifkesh" },
@@ -2625,7 +2625,7 @@
 			"",
 			"Xoveron's unholy symbol is a five-horned gray gargoyle skull that's missing its lower jaw. His favored weapon is the ranseur. He grants access to the domains of Chaos, Earth, Evil, and Strength, and to the subdomains of Caves, Demon, Entropy, and Ferocity. Entropy is a subdomain of Chaos, and is detailed on page 15 of Pathfinder Player Companion: Blood of Fiends.",
 			"",
-			"**Family:** [Demon Lord](monster/family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
 	"xoveron": { "copyof": "demon_lord,_xoveron" },
@@ -2781,7 +2781,7 @@
 			"",
 			"Arshea's holy symbol is a reclining figure draped in multicolored sashes, and their favored weapon is the flail. The Spirit of Abandon grants access to the domains of Charm, Good, Liberation, and Strength, and to the subdomains of Agathion, Freedom, Love, and Lust.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"arshea": { "copyof": "empyreal_lord,_arshea" },
@@ -2869,7 +2869,7 @@
 			"",
 			"Ashava's holy symbol is a silhouette of a dancing woman against a full moon. Her favored weapon is the [bladed scarf](equipment/weapon/bladed_scarf) and her sacred animal is the wolf. She grants access to the domains of [Chaos](domain/chaos), [Darkness](domain/darkness), [Good](domain/good), and [Repose](domain/repose), and access to the subdomains of Ancestors, Azata, Moon, and Revelry.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"ashava": { "copyof": "empyreal_lord,_ashava" },
@@ -2958,7 +2958,7 @@
 			"",
 			"Black Butterfly's holy symbol is a black-winged butterfly with a white star for a body on a field of purple. Her favored weapon is the starknife. She grants access to the domains of Chaos, Good, Liberation, and Void, and access to the subdomains of Azata, Freedom, Revolution, and Stars.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
@@ -3061,7 +3061,7 @@
 			"",
 			"Cernunnos's holy symbol is the head of a stag, ram or similar horned creature with torcs or rings hanging from its horns. His favored weapon is the longbow. He grants access to the Animal, Chaos, Good, and Plant domains, and access to the Azata, Feather, Fur, and Growth subdomains.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
@@ -3150,7 +3150,7 @@
 			"",
 			"Korada's holy symbol is two devotees kneeling before a lotus or a golden monkey with three tails. His favored weapon is the unarmed strike. His clerics have access to the domains of Good, Healing, Magic, and Protection, and the subdomains of Agathion, Defense, Divine, and Restoration.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"korada": { "copyof": "empyreal_lord,_korada" },
@@ -3238,7 +3238,7 @@
 			"",
 			"Ragathiel's holy symbol is a bastard sword across a crimson wing. His favored weapon is the bastard sword. His clerics have access to the domains of Destruction, Good, Law, and Nobility, and the subdomains of Archon, Judgment, Martyr, and Rage.",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
@@ -3326,7 +3326,7 @@
 			"",
 			"The artifact Cicatrix can be found [here](unknown/here).",
 			"",
-			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)"
 		]
 	},
 	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
@@ -3704,7 +3704,7 @@
 			"",
 			"Atlach-Nacha's worshipers venerate the spider god in a oddly dualistic way-as both a god of construction and a god of futility. To the Void Weaver's faithful, the act of building is as sacred as the act of deliberately allowing something to fail. Whether this is to create more opportunities for building or more opportunities to fail is irrelevant to these lunatic worshipers, who vacillate daily between the urge to create and the compulsion to give in to entropy and disorder. Atlach-Nacha's temples are often caves or ancient crumbling buildings infested with spiders. The Great Old One grants access to the domains of Artifice, Evil, Madness, and Void and to the subdomains of Construct, Isolation, Nightmare, and Toil. Its favored weapon is the net.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"atlach-nacha": { "copyof": "great_old_one,_atlach-nacha" },
@@ -3791,7 +3791,7 @@
 			"",
 			"Bokrug's cult is associated with revenge, storms, and water, and its sacred symbol is a green lizard with a long, coiling tail-an image of Bokrug himself. His greatest shrines feature unusually realistic statues of his form, statues the cult maintains Bokrug can see out of and even animate from his distant lair to take sacrifices. Bokrug's clerics have access to the domains of Chaos, Destruction, Water, and Weather, and to the subdomains of Catastrophe, Oceans, Rage, and Storms. The Water Lizard's favored weapon is the ranseur; his followers often forge their ranseurs' blades to resemble the Great Old One's stingered tail.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"bokrug": { "copyof": "great_old_one,_bokrug" },
@@ -3873,7 +3873,7 @@
 			"",
 			"Cthulhu's cult is associated with cataclysms, dreams, and the stars, and his sacred symbol is a complex rune surrounding an open eye. Cthulhu's temples are monolithic structures of a stark and cyclopean architectural style, but most of his faithful lack the resources to build such temples and instead make do with what they can, hiding away personal shrines in underground chambers or in shacks or glades in the remote wilderness. Cthulhu's clerics have access to the domains of Chaos, Evil, Madness, and Void, and to the subdomains of Dark Tapestry, Insanity, Nightmare, and Stars. His favored weapon is the dagger-often one with a curving blade.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"cthulhu": { "copyof": "great_old_one,_cthulhu" },
@@ -3954,7 +3954,7 @@
 			"",
 			"Few humans worship Ghatanothoa, but certain sects of mi-go have long revered this Great Old One. His temples are typically stone buildings on remote, desolate islands. Ghatanothoa grants access to the domains of Destruction, Evil, Madness, and Water and to the subdomains of Catastrophe, Insanity, Nightmare, and Oceans. His favored weapon is the morningstar.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"ghatanothoa": { "copyof": "great_old_one,_ghatanothoa" },
@@ -4034,7 +4034,7 @@
 			"",
 			"Hastur's cult is associated with decadence, disorder, and nihilism, and its symbol is the Yellow Sign. The least varieties of these symbols are nonmagical-and somewhat inaccurate-representations of the sigil, though the more powerful cults possess methods by which they can craft fully functional Yellow Signs. Unlike those created by Hastur, a cult-created Yellow Sign can be resisted with a successful DC 23 Will save (as if it were a 9th-level spell). Hastur's clerics have access to the domains of Chaos, Evil, Rune, and Void, and to the subdomains of Dark Tapestry, Language, Stars, and Wards. Hastur's favored weapon is the rapier.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"hastur": { "copyof": "great_old_one,_hastur" },
@@ -4129,7 +4129,7 @@
 			"",
 			"Additional details on Ithaqua, his cult, his domains and his favored weapon appear on page 68 of this book.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"ithaqua": { "copyof": "great_old_one,_ithaqua" },
@@ -4211,7 +4211,7 @@
 			"",
 			"Mhar seeks to break free from beneath Golarion's crust and destroy the world, then use the magma as a focus to open a breach to the Plane of Fire and flood the entire Material Plane with lava. Once all of reality is a mass of fire and destruction, Mhar can finally find peace.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"mhar": { "copyof": "great_old_one,_mhar" },
@@ -4298,7 +4298,7 @@
 			"",
 			"Mordiggian's worshipers venerate him as a death god, and his worship is openly allowed in some cities. In these cases, his temple also serves to dispose of all of the city's dead, yet the faithful's exact method for dealing with corpses is subject to fearful whispers among the nonbelievers. His temples consist of either underground vaults hidden below graveyards or towering cathedrallike structures containing mazes of rooms. Mordiggian grants access to the domains of Chaos, Darkness, Death, and Evil, and to the subdomains of Entropy, Loss, Night, and Undead. His favored weapon is the scimitar.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"mordiggian": { "copyof": "great_old_one,_mordiggian" },
@@ -4384,7 +4384,7 @@
 			"",
 			"Rhan-Tegoth's clerics have access to the domains of Chaos, Evil, Repose, and Void, and to the subdomains of Ancestors, Dark Tapestry, Entropy, and Stars. His favored weapon is the sickle.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"rhan-tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
@@ -4473,7 +4473,7 @@
 			"",
 			"Tawil at-Umr's symbol is a black spiral inside of a hexagon, and his favored weapon is the dagger. The Great Old One grants access to the domains of Chaos, Knowledge, Travel, and Void, and to the subdomains of Dark Tapestry, Exploration, Night, and Stars.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
@@ -4573,7 +4573,7 @@
 			"",
 			"Tsathoggua's worshipers often venerate him as a god of magic. They rarely gather in large groups, with most of his cultists being loners or outcasts who dwell at the fringes of society or in the wilderness. The presence of well-preserved Tsathogguan temples on many worlds suggests that at one point in the distant past, his followers were both more plentiful and more willing to work in larger groups, but today these temples lie abandoned save by monsters, the Great Old One's spawn, and a handful of clerics (or just a lone devoted and powerful priest). Tsathoggua grants access to the domains of Chaos, Evil, Knowledge, and Magic and to the subdomains of Arcane, Divine, Thought, and Whimsy. Tsathoggua's favored weapon is the short sword.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"tsathoggua": { "copyof": "great_old_one,_tsathoggua" },
@@ -4660,7 +4660,7 @@
 			"",
 			"Xhamen-Dor's cult is unusual in that once it becomes active, it spreads slowly until it reaches a tipping point. Then, its seeded minions quickly overtake entire populations. In most worlds where it is worshiped, its cult is small in number and isolated. Xhamen-Dor's places of worship are found in sewers, graveyards, and other shunned places within civilized realms, but in ruined cities they can expand to encompass multiple buildings. Xhamen-Dor grants access to the domains of Death, Evil, Plant, and Trickery and to the subdomains of Decay, Deception, Murder, and Undead. Its favored weapon is the spear.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"xhamen-dor": { "copyof": "great_old_one,_xhamen-dor" },
@@ -4745,7 +4745,7 @@
 			"",
 			"Yig's clerics have access to the domains of Chaos, Community, Protection, and Scalykind, and to the subdomains of Defense, Dragon, Revelry, and Venom. His favored weapon is the punching dagger.",
 			"",
-			"**Family:** [Great Old One](monster/family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
 	"yig": { "copyof": "great_old_one,_yig" },
@@ -4862,7 +4862,7 @@
 			"",
 			"In its natural, incorporeal form, Nethys's herald is a storm of magic, immediately recognizable as a creature of the arcane and divine. It rises just over 7 feet tall, and has a habit of floating a few inches above the ground instead of walking.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"arcanotheign": { "copyof": "herald,_arcanotheign" },
@@ -4929,7 +4929,7 @@
 			"",
 			"An infernal paradox at once wondrous and terrifying, tempting and blasphemous, Basileus serves as the herald of Asmodeus and the harbinger of Hell's will. Few who have met him survive the experience unchanged, for he is the very word of Hell.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"basileus": { "copyof": "herald,_basileus" },
@@ -5013,7 +5013,7 @@
 			"",
 			"When not serving Groetus or called by the faithful to perform a specific task, the herald flies over the surface of Groetus's moon, pausing to alter parts of the writing on the surface or draw runes on a blank area untouched by the god's madness. Sometimes it can be seen curled up there on the moon or reclining somewhere on the Astral Plane as if sleeping, though the eerie being is clearly not at rest. It makes no gestures of friendship or comradeship toward other divine servants of Groetus, though it accepts their presence (and their insanity) as if used to them. On one occasion, it absorbed a servitor into itself, inhaling the creature like smoke, then expelling it a year later with no explanation or apparent harm to the creature.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"end's_voice": { "copyof": "herald,_end's_voice" },
@@ -5094,7 +5094,7 @@
 			"",
 			"While Gravedragger's physical body appears to be composed of nonliving materials, he's a living creature and this appearance is only his outer \"skin.\" When damaged, he bleeds red blood, pungent yellow bile, and-if the wound is large enough-dismembered humanoid body parts such as hands, limbs, and heads. As he doesn't eat, these parts are probably physical manifestations of the countless lives he has taken in the name of Zyphus. Immortal and able to recover from severe wounds, he would rather escape a fight than allow himself to die, for he has felt death as a mortal and has no desire to repeat the experience.",
 			"",
-			"**Family:** [Herald](monster/family/herald)",
+			"**Family:** [Herald](family/herald)",
 			"",
 			"### Habitat",
 			"",
@@ -5182,7 +5182,7 @@
 			"",
 			"As with mortal stone giants, Iuu's flesh appears to be made of rock, but he is a creature of flesh and blood. His flesh is much harder than normal stone, but when injured, he bleeds red. Having already lived a full mortal life once, he doesn't fear death, especially if his dying better serves Minderhal or the stone giant race as a whole. At worst, he would experience regret that he would not share another song or teach another student about the traditional ways of giantkind.",
 			"",
-			"**Family:** [Herald](monster/family/herald)",
+			"**Family:** [Herald](family/herald)",
 			"",
 			"### Habitat",
 			"",
@@ -5259,7 +5259,7 @@
 			"",
 			"The Hand of the Inheritor is a warrior angel, always ready to answer Iomedae's call whenever she must directly intervene on Golarion. With his angelic speed and might, he leads the charge when the Inheritor's celestial armies must go to war. A veteran of countless sorties into the Abyss, the Hand fights with a song of battle on his lips and unbreakable courage in his heart. The Hand stands 9 feet tall and weighs 900 pounds.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"hand_of_the_inheritor": { "copyof": "herald,_hand_of_the_inheritor" },
@@ -5345,7 +5345,7 @@
 			"",
 			"Latten Mechanism has a fondness for small clockwork objects and wind-up toys, such as rolling carts, hopping animals, and music boxes. It collects these treasures much the way noble's child might collect elaborate dolls. A priest who offers such a thing as part of a payment when the herald is called is likely to gain the herald's support, especially if the device features a clever mechanism, such as a dragon toy that utilizes a smokestick to create a miniature breath weapon, or a mechanical spider that utilizes a tanglefoot bag to catch bugs with tiny bursts of sticky webbing.",
 			"",
-			"**Family:** [Herald](monster/family/herald)",
+			"**Family:** [Herald](family/herald)",
 			"",
 			"### Habitat",
 			"",
@@ -5428,7 +5428,7 @@
 			"",
 			"Although the Maw normally appears as a bare skull, it sometimes covers itself with its swarms. Whether this is out of a morbid sense of humor or an attempt to remember an old sensation from its life is unknown. It has confirmed that it was once a devourer, and before that a living creature, but it does not give further details.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"mother's_maw": { "copyof": "herald,_mother's_maw" },
@@ -5502,7 +5502,7 @@
 			"",
 			"The Herald of Gozreh rises to nearly 25 feet in height, and its changeable form usually weighs approximately 1 ton.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"personification_of_fury": { "copyof": "herald,_personification_of_fury" },
@@ -5569,7 +5569,7 @@
 			"",
 			"The Steward of the Skein is Pharasma's foremost agent, a mighty warrior sent to restore the balance of fate, announce auspicious births or deaths, or stem a rising tide of undeath. She often appears as an incorporeal shade, making a pronouncement and then fading away, though countless creatures over the eons have fallen under her armored fists. She stands about 7 feet tall but weighs a mere 200 pounds.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"steward_of_the_skein": { "copyof": "herald,_steward_of_the_skein" },
@@ -5638,7 +5638,7 @@
 			"",
 			"Sunlord Thalachos is Sarenrae's favorite angel, serving as her liaison to the mortal world, the hosts of astral devas, and the ranks of other celestial rulers. He is the champion of the Dawnflower and her favorite weapon against the spawn of Rovagug. The herald stands 8 feet tall and weighs 350 pounds.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"sunlord_thalachos": { "copyof": "herald,_sunlord_thalachos" },
@@ -5707,7 +5707,7 @@
 			"",
 			"The statistics presented here for the Tarrasque differ slightly from those in the Bestiary-this version more accurately represents the Tarrasque as the mightiest of Rovagug's spawn.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"tarrasque": { "copyof": "herald,_tarrasque" },
@@ -5777,7 +5777,7 @@
 			"",
 			"Cayden Cailean's herald Thais is a personification of freedom and courage. She typically appears as a 15-foot-tall, angelic woman, but can change her size to be anywhere from 4 feet to 32 feet tall. She is always portrayed carrying her signature weapon, a crystalline halberd called Tyranny's Foil borrowed from Milani's armory. Three times per day as a standard action, she can use the weapon to open all nonmagical doors and break all nonmagical chains within 30 feet.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"thais": { "copyof": "herald,_thais" },
@@ -5853,7 +5853,7 @@
 			"",
 			"The appearance of the First Blade transforms to match a style of armor that's impressive to those it will be facing in battle. Regardless of its form, it typically stands about 15 feet tall and weighs nearly 5 tons.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_first_blade": { "copyof": "herald,_the_first_blade" },
@@ -5918,7 +5918,7 @@
 			"",
 			"The Grand Defender is a powerful golem-like tomb that serves as the communal body and resting place of Torag's greatest dwarven heroes. It stands 18 feet tall and weighs approximately 10 tons.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_grand_defender": { "copyof": "herald,_the_grand_defender" },
@@ -5988,7 +5988,7 @@
 			"",
 			"Erastil's herald is rarely seen more than once in a given generation, and only when a settlement is in mortal danger. All good creatures of the forest recognize its near-divinity and come when they hear its bugling call. Other than its mighty summons, it does not speak to humanoids. It stands 60 feet tall and weighs approximately 140 tons.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_grim_white_stag": { "copyof": "herald,_the_grim_white_stag" },
@@ -6055,7 +6055,7 @@
 			"",
 			"The Menotherian is a personification of lust and vengeance. Bereft of morals, she seduces, tricks, or murders any creature necessary to complete whatever mission Calistria sends her to upon. The herald stands 14 feet tall, has a wingspan nearing 30 feet, and weighs 1,400 pounds.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_menotherian": { "copyof": "herald,_the_menotherian" },
@@ -6121,7 +6121,7 @@
 			"",
 			"When not acting on Irori's behalf, the Herald of Irori keeps busy with tending to animals, planting gardens, meditating, practicing martial arts forms, swimming, and quipping with students. The Herald of Irori stands just over 5 feet tall and weighs about 120 pounds.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_old_man": { "copyof": "herald,_the_old_man" },
@@ -6187,7 +6187,7 @@
 			"",
 			"The Spirit of Adoration is a personification of resolute love, whose power lifts the heaviest heart and overcomes all obstacles. Her true form is that of a 10-foot-tall, angel-winged woman dressed in flowing clothes and bearing a shining steel glaive.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_spirit_of_adoration": { "copyof": "herald,_the_spirit_of_adoration" },
@@ -6258,7 +6258,7 @@
 			"",
 			"The Stabbing Beast is the herald of Norgorber, the god of greed, murder, secrets, and poison. It is an incredibly dangerous predator that uses its keen intellect and deadly poison to stalk and kill its prey. Its natural form is that of a huge scorpion, but it can also assume an armored humanoid shape suitable for stealth or interacting with Norgorber's followers. Though its main purpose for coming to Golarion is to kill, it has also been called to aid great thefts and bury terrible secrets.",
 			"",
-			"**Family:** [Herald](monster/family/herald)"
+			"**Family:** [Herald](family/herald)"
 		]
 	},
 	"the_stabbing_beast": { "copyof": "herald,_the_stabbing_beast" },
@@ -6337,7 +6337,7 @@
 			"",
 			"Apollyon is worshiped by those who carry, suffer from, or use disease, including neutral evil druids, vengeful lepers, wererats and the like. Apollyon also commands the allegiance of a significant portion of the daemon-worshiping urdefhan race. The Prince of Plagues is served by leukodaemons, his deacon servitor race, as well as astradaemons, diseased undead, monstrous rats, nuckelavees, otyughs, piscodaemons, and all manner of vermin. His unholy symbol is a yellow scythe, and the scythe is also his favored weapon. He grants access to the domains of Air, Darkness, Destruction, and Evil, and to the subdomains of Catastrophe, Daemon, Loss, and Night.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
 		]
 	},
 	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
@@ -6423,7 +6423,7 @@
 			"",
 			"Charon is worshiped by ferrymen and -women, grave robbers, undertakers, the undead, and so very many doomed and damned would-be immortals. The Horseman of Death is served by thanadaemons, his deacon servitor race, along with fiendish krakens, grim reapers, hags, hydrodaemons, river monsters, and numerous varieties of undead. Charon's unholy symbol is a skull with coins over its eye sockets, and the quarterstaff is his favored weapon. He grants access to the domains of Death, Evil, Knowledge, and Water, and to the subdomains of Daemon, Ice, Memory, and Undead.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
 		]
 	},
 	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
@@ -6501,7 +6501,7 @@
 			"",
 			"Szuriel is worshiped by those associated with every facet of war, including everything leading up to it and arising in its bloody wake. Arms dealers, looters, mercenaries, soldiers, and warlords worship the Angel of Desolation. Szuriel also holds the allegiance of a significant number of the daemon-worshiping and daemon-created urdefhan race. The Seraph of Devastation is served by her deacon race of purrodaemons as well as carrion eaters, obcisidaemons, undead soldiers, war beasts, and warswornB4. Szuriel's unholy symbol is a pale hand and black sword, and the greatsword is her favored weapon. She grants access to the domains of Evil, Fire, Strength, and War, and to the subdomains of Blood, Daemon, Ferocity, and Tactics.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
 		]
 	},
 	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
@@ -6581,7 +6581,7 @@
 			"",
 			"Trelmarixian's unholy symbol is a jackal skull viewed from the side as it clutches a solar eclipse in its jaws, and the spiked gauntlet is his favored weapon. He grants access to the domains of Earth, Evil, Madness, and Weather, and to the subdomains of Daemon, Decay, Insanity, and Seasons.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
 		]
 	},
 	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
@@ -6795,7 +6795,7 @@
 			"",
 			"Agyra has a particular hatred of the kaiju Mogaru, and often leaves her volcanic lair to fly west to the remote jungle lake that serves as Mogaru's home to clash with her nemesis. Mogaru's penchant for attacking coastal cities often results in a devastating escalation when Agyra arrives to do battle with the land-bound kaiju. Sometimes, methods of conjuring Agyra are used to deliberately lure the kaiju to a city besieged by Mogaru, but just as often her arrival seems to be driven by self-interest. Agyra typically manages to weaken Mogaru enough to drive him off, but is often slain herself in these battles, resurrecting and returning to her home at the same time Mogaru returns to his. The nature of this rivalry is unclear, but kaiju scholars believe that the two monsters have been enemies for longer than humanity has existed.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"agyra": { "copyof": "kaiju,_agyra" },
@@ -6865,7 +6865,7 @@
 			"",
 			"Bezravnis doesn't seem to be particularly vexed by the presence of other kaiju, and ignores them unless it is attacked first. Once attacked, however, the Inferno Below becomes singularly focused and deviates from its path to fight the target creature as long as it remains visible or alive. Smaller foes can sometimes distract the kaiju from its path in this manner if they can deal enough damage upon the creature to bait it into directing its furious rage on them.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"bezravnis": { "copyof": "kaiju,_bezravnis" },
@@ -6939,7 +6939,7 @@
 			"",
 			"Mogaru stands 140 feet high and weighs 20,000 tons, and is nearly 300 feet long from nose to tail.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"mogaru": { "copyof": "kaiju,_mogaru" },
@@ -7019,7 +7019,7 @@
 			"",
 			"Varklops has a particularly strong hatred of King Mogaru, as this kaiju alone can resist Varklops's rage. The reasons for this immunity are unknown, but certainly Mogaru matches Varklops's hatred, and battles between the two kaiju are the stuff of legend. Varklops is 200 feet long and weighs 16,000 tons.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"varklops": { "copyof": "kaiju,_varklops" },
@@ -7101,7 +7101,7 @@
 			"",
 			"Queen Vorgozen is an immense mound of protoplasm nearly 80 feet in diameter. She weighs 24,000 tons.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"vorgozen": { "copyof": "kaiju,_vorgozen" },
@@ -7180,7 +7180,7 @@
 			"",
 			"Yarthoon is 250 feet long from head to tail and weighs 14,000 tons.",
 			"",
-			"**Family:** [Kaiju](monster/family/kaiju)"
+			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
 	"yarthoon": { "copyof": "kaiju,_yarthoon" },
@@ -8845,7 +8845,7 @@
 			"",
 			"Chavazvug's symbol is a burning tentacled rune, and his favored weapon is the heavy flail. He grants access to the domains of Chaos, Evil, Fire, and Repose, and to the subdomains of Ash, Entropy, Smoke, and Souls.",
 			"",
-			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
 	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
@@ -8926,7 +8926,7 @@
 			"",
 			"Isph-Aun-Vuln's holy symbol is a rune within a cloud of tentacles, and her favored weapon is the longbow. She grants access to the domains of Air, Chaos, Evil, and Trickery, and to the subdomains of Deception, Fear, Venom, and Wind.",
 			"",
-			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
 	"isph-aun-vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
@@ -9016,7 +9016,7 @@
 			"",
 			"Oaur-Ooung's symbol is a jellyfish-shaped rune, and her favored weapon is the trident. This qlippoth lord grants access to the domains of Chaos, Evil, Plant, and Water, and to the subdomains of Decay, Fear, Growth, and Oceans.",
 			"",
-			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
 	"oaur-ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
@@ -9101,7 +9101,7 @@
 			"",
 			"Thuskchoon's symbol is a triangular rune with teeth, and his favored weapon is the greatclub. He grants access to the domains of Chaos, Destruction, Evil, and Knowledge, and to the subdomains of Catastrophe, Entropy, Rage, and Thought.",
 			"",
-			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
 	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
@@ -9182,7 +9182,7 @@
 			"",
 			"Yamasoth's interest in transformations goes far beyond mere polymorphing. The qlippoth lord is also fascinated by the act of fleshwarping and reworking life into new forms of mutants. Rumors state that the nature of the experiments that take place deep in the Kingdom of New Flesh closely mimic those the daemons performed in the Abyss so long ago that resulted in the first demons. In fact, some dissident demonologists claim Yamasoth himself is a nascent demon lord, and is in fact that first, primal demon born of daemonic tampering with Abyssal quintessence and sinful souls.",
 			"",
-			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
 	"yamasoth": { "copyof": "qlippoth_lord,_yamasoth" },
@@ -9697,7 +9697,7 @@
 			"",
 			"The dread burrower Chemnosit is an engine of destruction, able to devour the stoutest construction and the mightiest of mortals with ease. His power lies in the profane glamour of his glowing eye, inspiring a gruesome urge to devour-a hunger for the flesh of one's own kind. For all his power, this is the true dread of the Monarch Worm. While he burrows constantly through the Darklands to the deepest Vaults of Orv, he sometimes rises to Golarion's surface bringing annihilation in his wake, as those corrupted by his awful eye wreak devastation upon themselves and their own people. Chemnosit drinks in the carnage like a feast before devouring any survivors.",
 			"",
-			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
+			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
 	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
@@ -9774,7 +9774,7 @@
 			"",
 			"Now, thousands of years later, the Unholy First has begun to stir in its prison. Numerous past attempts to free the Unholy First have failed, and most of these were hidden from the public and Osirion's official history in hopes that the proper method for freeing Ulunat would remain unknown. However, this doesn't stop cultists and doomsayers from trying to bring back the terrible beast.",
 			"",
-			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
+			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
 	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
@@ -9839,7 +9839,7 @@
 			"",
 			"Volnagur, the End-Singer, is an alien thing whose very presence brings turbulence, disturbance, and cacophony wherever he soars. He flits with effortless grace upon a hideous assortment of mismatched wings that constantly molt and rot from within, the oldest wings falling off as new ones spring up and grow in their place. His skirling cry awakens madness and blood fury in those who listen, as does the touch of his impossibly long, jagged-razor tongues. Alien harmonics induced by his grotesque gaze cripple those upon whom he gazes.",
 			"",
-			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
+			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
 	"volnagur_the_end-singer": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },

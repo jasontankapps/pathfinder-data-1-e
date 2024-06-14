@@ -5403,7 +5403,7 @@
 			"",
 			"You possess a long pedigree of ruthless generals and military tacticians, and an army under your command is more difficult to rout as a result.  ",
 			"**Prerequisites:** Hobgoblin.  ",
-			"**Benefit:** When serving as a commander using the mass combat rules presented in Chapter 4 of Ultimate Campaign, you can add your class level to your army's Morale checks in place of your Charisma modifier."
+			"**Benefit:** When serving as a commander using the [mass combat rules](rule/mass_combat), you can add your class level to your army's Morale checks in place of your Charisma modifier."
 		]
 	},
 	"brew_potion": {
@@ -6716,7 +6716,7 @@
 			"",
 			"It is your mission to do as much good as possible.  ",
 			"**Prerequisites:** 10 Hit Dice, neutral good alignment.  ",
-			"**Benefit:** You can store a number of [affirmations](unknown/affirmations) up to your Charisma bonus (minimum 1) to use at any time, not just within the next 24 hours. You can use an affirmation and touch a creature as a standard action to remove a single condition or harmful effect from the list of paladin [mercies](class/ability/mercies) (using your Hit Dice as your paladin level to determine which mercies you can use and their effects). Lastly, you gain a +2 bonus on weapon and spell damage rolls against evil creatures. This is an alignment-based effect.  ",
+			"**Benefit:** You can store a number of [affirmations](unknown/affirmations) up to your Charisma bonus (minimum 1) to use at any time, not just within the next 24 hours. You can use an affirmation and touch a creature as a standard action to remove a single condition or harmful effect from the list of paladin [mercies](ability/mercies) (using your Hit Dice as your paladin level to determine which mercies you can use and their effects). Lastly, you gain a +2 bonus on weapon and spell damage rolls against evil creatures. This is an alignment-based effect.  ",
 			"**Residual:** If you have this feat but you are no longer neutral good, you continue to gain the +2 bonus on weapon and spell damage rolls against evil creatures."
 		]
 	},
@@ -11571,7 +11571,7 @@
 			"**Prerequisites:** Knowledge (religion) 3 ranks, must worship a deity.  ",
 			"**Benefit:** Each deity requires a different daily obedience, but all obediences take no more than 1 hour per day to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the Obedience entry for the god to whom you performed the obedience.",
 			"",
-			"If you have at least 12 Hit Dice, you also gain the first boon granted by your deity upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the second boon. If you have 20 Hit Dice or more, you also gain the third boon. Unless a specific duration or number of uses per day is listed, a boon's effects are constant. If you have levels in the [evangelist](class/prestige/evangelist), [exalted](class/prestige/exalted), or [sentinel](class/prestige/sentinel) prestige classes, you gain access to these boons at lower levels as a benefit of your prestige class. If you have no levels in one of these prestige classes, you gain the boons marked as exalted boons. If you later take levels in sentinel or evangelist, you lose access to the exalted boons and gain access to the new boons appropriate to your class.",
+			"If you have at least 12 Hit Dice, you also gain the first boon granted by your deity upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the second boon. If you have 20 Hit Dice or more, you also gain the third boon. Unless a specific duration or number of uses per day is listed, a boon's effects are constant. If you have levels in the [evangelist](prestigeclass/evangelist), [exalted](prestigeclass/exalted), or [sentinel](prestigeclass/sentinel) prestige classes, you gain access to these boons at lower levels as a benefit of your prestige class. If you have no levels in one of these prestige classes, you gain the boons marked as exalted boons. If you later take levels in sentinel or evangelist, you lose access to the exalted boons and gain access to the new boons appropriate to your class.",
 			"",
 			"If you ever fail to perform a daily obedience, you lose all access to the benefits and boons granted by this feat until you next perform the obedience."
 		]
@@ -11656,7 +11656,7 @@
 			"",
 			"Your studies into demonic anatomy and physiology allow you to graft their immortal tissues onto mortal flesh.  ",
 			"**Prerequisites:** [Demonologist](feat/demonologist), Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.  ",
-			"**Benefit:** You gain a +2 bonus on Heal checks regarding evil outsiders or creatures that already have a demonic graft. In addition, you can create demonic implants as if you had the Craft Wondrous Item feat, using your ranks in Heal as your caster level. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Chapter 15 of the Pathfinder RPG Core Rulebook)."
+			"**Benefit:** You gain a +2 bonus on Heal checks regarding evil outsiders or creatures that already have a demonic graft. In addition, you can create demonic implants as if you had the Craft Wondrous Item feat, using your ranks in Heal as your caster level. The DC to create the item still increases for any necessary spell requirements."
 		]
 	},
 	"demon_hunter": {
@@ -15711,17 +15711,17 @@
 			"",
 			"The deep emotional resonance you share with your phantom enables you to master the emotions of others.  ",
 			"**Prerequisites:** Shared consciousness class feature.  ",
-			"**Benefit:** You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows (spells marked with a dagger [-] can be found in Chapter 4: Psychic Magic): Anger: 1st-burst of adrenaline-, 2nd-rage, 3rd-howling agony, 4th-telekinetic charge, 5th-vengeful outrage, 6th-transformation.",
+			"**Benefit:** You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows: Anger: 1st-burst of adrenaline-, 2nd-rage, 3rd-howling agony, 4th-telekinetic charge, 5th-vengeful outrage, 6th-transformation.",
 			"",
-			"Despair: 1st-touch of gracelessness, 2nd-death knell, 3rd-ray of exhaustion, 4th-crushing despair, 5th- suffocation, 6th-eyebite.",
+			"Despair: 1st-touch of gracelessness, 2nd-death knell, 3rd-ray of exhaustion, 4th-crushing despair, 5th-suffocation, 6th-eyebite.",
 			"",
 			"Devotion: 1st-invisibility alarm, 2nd-spiritual weapon, 3rd-cure light wounds, 4th-spell immunity, 5th-vampiric shadow shield, 6th-greater heroism.",
 			"",
 			"Fear: 1st-heightened awareness, 2nd-scare, 3rd-fear, 4th-feast on fear, 5th-nightmare, 6th-frightful aspect.",
 			"",
-			"Hatred: 1st-murderous command, 2nd-disfiguring touch, 3rd-bestow curse, 4th-debilitating portent, 5th- foster hatred-, 6th-phantasmal revenge.",
+			"Hatred: 1st-murderous command, 2nd-disfiguring touch, 3rd-bestow curse, 4th-debilitating portent, 5th-foster hatred, 6th-phantasmal revenge.",
 			"",
-			"Jealousy: 1st-compel hostility, 2nd-life pact, 3rd- ectoplasmic snare-, 4th-entrap spirit-, 5th-dominate person, 6th-unwilling shield.",
+			"Jealousy: 1st-compel hostility, 2nd-life pact, 3rd-ectoplasmic snare, 4th-entrap spirit, 5th-dominate person, 6th-unwilling shield.",
 			"",
 			"Zeal: 1st-delusional pride, 2nd-false life, 3rd-heroism, 4th-freedom of movement, 5th-joyful rapture, 6th-greater heroism."
 		]
@@ -16296,7 +16296,7 @@
 			"",
 			"**Source** [Adventurer's Armory pg. 22](source/adventurer's_armory)",
 			"",
-			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (heavy blade scabbard) feat to use a trick. You may use these tricks with any sword scabbard designed for a heavy blade (see the [fighter weapon groups](class/ability/weapon_groups)). At your GM's discretion, you may be able to use some of these tricks with a scabbard intended for a light blade, but that requires a separate Equipment Trick feat and may be less effective.",
+			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (heavy blade scabbard) feat to use a trick. You may use these tricks with any sword scabbard designed for a heavy blade (see the [fighter weapon groups](ability/weapon_groups)). At your GM's discretion, you may be able to use some of these tricks with a scabbard intended for a light blade, but that requires a separate Equipment Trick feat and may be less effective.",
 			"",
 			"*Capture Weapon* (Improved Disarm): When you successfully disarm an opponent's manufactured weapon, as a free action you may flip the disarmed weapon into your scabbard so long as the weapon would fit there. If you are not holding the scabbard in hand and attempt this, you have a -4 penalty on the disarm check. At the GM's discretion, you can also use this trick on any item the opponent is holding as long as it would fit in your scabbard (such as a wand). You can only use this trick if you are wearing or holding your empty scabbard.",
 			"",
@@ -19779,7 +19779,7 @@
 			"**Source** [Book of the Damned pg. 178](source/book_of_the_damned)",
 			"",
 			"Your devotion to a fiendish patron (be it a deity, demigod, or quasi deity) is so great that daily prayer and minor sacrifices grant you special boons.  ",
-			"**Prerequisites:** Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity (such as any of the entities presented in Chapter 1 of this book).  ",
+			"**Prerequisites:** Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity.  ",
 			"**Benefit:** Each fiend requires a different daily obedience, but all obediences take no more than 1 hour per day to perform. You can combine the ritual of obedience with the time needed to prepare your spellcasting for the day. Once you've performed an obedience, you gain the benefit of a special ability or defense as indicated in the \"Obedience\" entry for the fiend to whom you performed the obedience.",
 			"",
 			"If you have at least 12 Hit Dice, upon undertaking your obedience, you also gain the first boon granted by your fiend. If you have at least 16 Hit Dice, you also gain the deity's second boon. If you have 20 Hit Dice or more, you also gain the deity's third boon. Unless a specific duration or number of uses per day is listed, a boon's effects are constant.",
@@ -26297,7 +26297,7 @@
 			"",
 			"Improved familiars otherwise use the rules for regular familiars, with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).",
 			"",
-			"[Here is the list of improved familiars.](class/ability/improved_familiars)",
+			"[Here is the list of improved familiars.](ability/improved_familiars)",
 			"",
 			"### Mythic Improved Familiar",
 			"",
@@ -26695,7 +26695,7 @@
 			"",
 			"Your skill with traps is extensive.  ",
 			"**Prerequisites:** [Learn Ranger Trap](feat/learn_ranger_trap), Survival 8 ranks.  ",
-			"**Benefit:** You learn one additional [ranger trap](class/ability/ranger_traps) and can now use both extraordinary and supernatural versions of any ranger traps you know."
+			"**Benefit:** You learn one additional [ranger trap](ability/ranger_traps) and can now use both extraordinary and supernatural versions of any ranger traps you know."
 		]
 	},
 	"improved_legendary_influence": {
@@ -30256,7 +30256,7 @@
 			"",
 			"**Special:** A ranger can use ranger traps a number of times per day equal to 1/2 his ranger level + his Wisdom bonus.",
 			"",
-			"See the description of [ranger traps](class/ability/ranger_traps) for durations."
+			"See the description of [ranger traps](ability/ranger_traps) for durations."
 		]
 	},
 	"lector_priest": {
@@ -39328,7 +39328,7 @@
 			"",
 			"Your trap-making proficiency improves greatly.  ",
 			"**Prerequisites:** [Learn Ranger Trap](feat/learn_ranger_trap) or trap class feature, Survival 5 ranks.  ",
-			"**Benefit:** When setting a [ranger trap](class/ability/ranger_traps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
+			"**Benefit:** When setting a [ranger trap](ability/ranger_traps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
 		]
 	},
 	"quick_wild_shape": {
@@ -48929,7 +48929,7 @@
 			"",
 			"A guardian spirit has selected you as its ward.  ",
 			"**Prerequisites:** Ability to cast [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3).  ",
-			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the [guardian spirit template](monster/template/guardian_spirit) to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
+			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the [guardian spirit template](template/guardian_spirit) to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
 			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higherlevel list of creatures that can be summoned."
 		]
@@ -48944,7 +48944,7 @@
 			"",
 			"You can summon creatures that embody the forces of balance.  ",
 			"**Prerequisites:** Chaotic neutral, lawful neutral, or neutral alignment.  ",
-			"**Benefit:** When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard summon monster list and apply the [counterpoised creature simple template](monster/template/counterpoised) to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
+			"**Benefit:** When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard summon monster list and apply the [counterpoised creature simple template](template/counterpoised) to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
 			"",
 			"- 1st Level",
 			"    - Sprite (CN)",
@@ -54181,7 +54181,7 @@
 			"",
 			"You've learned to summon a more diverse array of monsters.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Knowledge (planes) 1 rank.  ",
-			"**Benefit:** Pick any two templates from the following list: [aerial](monster/template/aerial), [aqueous](monster/template/aqueous), [chthonic](monster/template/chthonic), [dark](monster/template/dark), [fiery](monster/template/fiery), or [primordial](monster/template/primordial). When you summon one or more creatures that would normally be available with the celestial, entropic, fiendish, or resolute template using a summon monster spell (or an effect that mimics such a spell), you can instead apply one of the chosen templates to each creature. You can apply a different template to each creature you summon.  ",
+			"**Benefit:** Pick any two templates from the following list: [aerial](template/aerial), [aqueous](template/aqueous), [chthonic](template/chthonic), [dark](template/dark), [fiery](template/fiery), or [primordial](template/primordial). When you summon one or more creatures that would normally be available with the celestial, entropic, fiendish, or resolute template using a summon monster spell (or an effect that mimics such a spell), you can instead apply one of the chosen templates to each creature. You can apply a different template to each creature you summon.  ",
 			"**Special:** You can select this feat more than once. Each time you do, you can choose an additional two templates."
 		]
 	},

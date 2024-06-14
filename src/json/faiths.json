@@ -107,7 +107,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Crossbowman (Fighter)](class/archetype/fighter/crossbowman), [Knight of Coins (Paladin)](class/archetype/paladin/knight_of_coins), [Urban Druid (Druid)](class/archetype/druid/urban_druid), [Urban Ranger (Ranger)](class/archetype/ranger/urban_ranger)",
+			"[Crossbowman (Fighter)](archetype/fighter/crossbowman), [Knight of Coins (Paladin)](archetype/paladin/knight_of_coins), [Urban Druid (Druid)](archetype/druid/urban_druid), [Urban Ranger (Ranger)](archetype/ranger/urban_ranger)",
 			"",
 			"#### Feats",
 			"",
@@ -139,7 +139,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Balanced Scale of Abadar](class/prestige/balanced_scale_of_abadar), [Justicar](class/prestige/justicar)",
+			"[Balanced Scale of Abadar](prestigeclass/balanced_scale_of_abadar), [Justicar](prestigeclass/justicar)",
 			"",
 			"#### Spells",
 			"",
@@ -367,7 +367,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Crimson Chymist (Alchemist)](class/archetype/alchemist/crimson_chymist), [Mantis Zealot (Warpriest)](class/archetype/warpriest/mantis_zealot)",
+			"[Crimson Chymist (Alchemist)](archetype/alchemist/crimson_chymist), [Mantis Zealot (Warpriest)](archetype/warpriest/mantis_zealot)",
 			"",
 			"#### Feats",
 			"",
@@ -391,7 +391,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Death Slayer](class/prestige/death_slayer), [Red Mantis Assassin](class/prestige/red_mantis_assassin)",
+			"[Death Slayer](prestigeclass/death_slayer), [Red Mantis Assassin](prestigeclass/red_mantis_assassin)",
 			"",
 			"#### Traits",
 			"",
@@ -824,7 +824,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)",
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)",
 			"",
 			"#### Feats",
 			"",
@@ -1336,7 +1336,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)",
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)",
 			"",
 			"#### Feats",
 			"",
@@ -1577,7 +1577,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Grim Apostle (Spiritualist)](class/archetype/spiritualist/grim_apostle)",
+			"[Grim Apostle (Spiritualist)](archetype/spiritualist/grim_apostle)",
 			"",
 			"#### Feats",
 			"",
@@ -2254,7 +2254,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Ashavic Dancer](class/prestige/ashavic_dancer)",
+			"[Ashavic Dancer](prestigeclass/ashavic_dancer)",
 			"",
 			"#### Spells",
 			"",
@@ -2424,7 +2424,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Demagogue (Bard)](class/archetype/bard/demagogue), [Hamatulatsu Master (Monk)](class/archetype/monk/hamatulatsu_master), [Hungry Ghost Monk (Monk)](class/archetype/monk/hungry_ghost_monk), [Infiltrator (Inquisitor)](class/archetype/inquisitor/infiltrator)",
+			"[Demagogue (Bard)](archetype/bard/demagogue), [Hamatulatsu Master (Monk)](archetype/monk/hamatulatsu_master), [Hungry Ghost Monk (Monk)](archetype/monk/hungry_ghost_monk), [Infiltrator (Inquisitor)](archetype/inquisitor/infiltrator)",
 			"",
 			"#### Feats",
 			"",
@@ -2553,7 +2553,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"ayrzul": {
@@ -3037,7 +3037,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)",
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)",
 			"",
 			"#### Spells",
 			"",
@@ -3306,7 +3306,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Deep Shaman (Shaman)](class/archetype/shaman/deep_shaman)",
+			"[Deep Shaman (Shaman)](archetype/shaman/deep_shaman)",
 			"",
 			"#### Magic Items - Armor",
 			"",
@@ -3605,7 +3605,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Sacred Attendant (Cleric)](class/archetype/cleric/sacred_attendant)",
+			"[Sacred Attendant (Cleric)](archetype/cleric/sacred_attendant)",
 			"",
 			"#### Spells",
 			"",
@@ -3724,7 +3724,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Voice of Brigh (Bard)](class/archetype/bard/voice_of_brigh)",
+			"[Voice of Brigh (Bard)](archetype/bard/voice_of_brigh)",
 			"",
 			"#### Magic Items - Armor",
 			"",
@@ -4044,7 +4044,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Calistrian Hunter (Fighter)](class/archetype/fighter/calistrian_hunter), [Charlatan (Rogue)](class/archetype/rogue/charlatan), [Court Bard (Bard)](class/archetype/bard/court_bard)",
+			"[Calistrian Hunter (Fighter)](archetype/fighter/calistrian_hunter), [Charlatan (Rogue)](archetype/rogue/charlatan), [Court Bard (Bard)](archetype/bard/court_bard)",
 			"",
 			"#### Feats",
 			"",
@@ -4242,7 +4242,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Cad (Fighter)](class/archetype/fighter/cad), [Daredevil (Bard)](class/archetype/bard/daredevil), [Drunken Brute (Barbarian)](class/archetype/barbarian/drunken_brute)",
+			"[Cad (Fighter)](archetype/fighter/cad), [Daredevil (Bard)](archetype/bard/daredevil), [Drunken Brute (Barbarian)](archetype/barbarian/drunken_brute)",
 			"",
 			"#### Feats",
 			"",
@@ -4274,7 +4274,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Brewkeeper](class/prestige/brewkeeper), [Chevalier](class/prestige/chevalier)",
+			"[Brewkeeper](prestigeclass/brewkeeper), [Chevalier](prestigeclass/chevalier)",
 			"",
 			"#### Spells",
 			"",
@@ -4385,7 +4385,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"chadali": {
@@ -4623,7 +4623,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Grim Apostle (Spiritualist)](class/archetype/spiritualist/grim_apostle)",
+			"[Grim Apostle (Spiritualist)](archetype/spiritualist/grim_apostle)",
 			"",
 			"#### Feats",
 			"",
@@ -5072,7 +5072,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Planar Rifter (Gunslinger)](class/archetype/gunslinger/planar_rifter)"
+			"[Planar Rifter (Gunslinger)](archetype/gunslinger/planar_rifter)"
 		]
 	},
 	"corosbel": {
@@ -5157,7 +5157,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Ankou's Shadow (Slayer)](class/archetype/slayer/ankou's_shadow), [Shadow Scion (Rogue)](class/archetype/rogue/shadow_scion)",
+			"[Ankou's Shadow (Slayer)](archetype/slayer/ankou's_shadow), [Shadow Scion (Rogue)](archetype/rogue/shadow_scion)",
 			"",
 			"#### Feats",
 			"",
@@ -5777,7 +5777,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"deskari": {
@@ -5988,7 +5988,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Guide (Ranger)](class/archetype/ranger/guide), [Stargazer (Oracle)](class/archetype/oracle/stargazer), [World Walker (Druid)](class/archetype/druid/world_walker)",
+			"[Guide (Ranger)](archetype/ranger/guide), [Stargazer (Oracle)](archetype/oracle/stargazer), [World Walker (Druid)](archetype/druid/world_walker)",
 			"",
 			"#### Feats",
 			"",
@@ -6024,7 +6024,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Sphere Singer](class/prestige/sphere_singer), [Spherewalker](class/prestige/spherewalker)",
+			"[Sphere Singer](prestigeclass/sphere_singer), [Spherewalker](prestigeclass/spherewalker)",
 			"",
 			"#### Spells",
 			"",
@@ -6908,7 +6908,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Archer (Fighter)](class/archetype/fighter/archer), [Divine Hunter (Paladin)](class/archetype/paladin/divine_hunter), [Sniper (Rogue)](class/archetype/rogue/sniper), [Trapper (Ranger)](class/archetype/ranger/trapper)",
+			"[Archer (Fighter)](archetype/fighter/archer), [Divine Hunter (Paladin)](archetype/paladin/divine_hunter), [Sniper (Rogue)](archetype/rogue/sniper), [Trapper (Ranger)](archetype/ranger/trapper)",
 			"",
 			"#### Feats",
 			"",
@@ -6940,7 +6940,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Hinterlander](class/prestige/hinterlander)",
+			"[Hinterlander](prestigeclass/hinterlander)",
 			"",
 			"#### Spells",
 			"",
@@ -7272,7 +7272,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Twilight Speaker (Skald)](class/archetype/skald/twilight_speaker)",
+			"[Twilight Speaker (Skald)](archetype/skald/twilight_speaker)",
 			"",
 			"#### Traits",
 			"",
@@ -8153,7 +8153,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Armor Master (Fighter)](class/archetype/fighter/armor_master), [Armored Hulk (Barbarian)](class/archetype/barbarian/armored_hulk), [Invulnerable Rager (Barbarian)](class/archetype/barbarian/invulnerable_rager)",
+			"[Armor Master (Fighter)](archetype/fighter/armor_master), [Armored Hulk (Barbarian)](archetype/barbarian/armored_hulk), [Invulnerable Rager (Barbarian)](archetype/barbarian/invulnerable_rager)",
 			"",
 			"#### Feats",
 			"",
@@ -8300,7 +8300,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Aquatic Druid (Druid)](class/archetype/druid/aquatic_druid), [Crashing Wave (Cleric)](class/archetype/cleric/crashing_wave), [Sea Singer (Bard)](class/archetype/bard/sea_singer), [Storm Druid (Druid)](class/archetype/druid/storm_druid)",
+			"[Aquatic Druid (Druid)](archetype/druid/aquatic_druid), [Crashing Wave (Cleric)](archetype/cleric/crashing_wave), [Sea Singer (Bard)](archetype/bard/sea_singer), [Storm Druid (Druid)](archetype/druid/storm_druid)",
 			"",
 			"#### Feats",
 			"",
@@ -8336,7 +8336,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Storm Kindler](class/prestige/storm_kindler)",
+			"[Storm Kindler](prestigeclass/storm_kindler)",
 			"",
 			"#### Spells",
 			"",
@@ -8519,7 +8519,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Cultivator (Bard)](class/archetype/bard/cultivator), [Green Faith Initiate (Druid)](class/archetype/druid/green_faith_initiate), [Green Faith Marshal (Inquisitor)](class/archetype/inquisitor/green_faith_marshal)",
+			"[Cultivator (Bard)](archetype/bard/cultivator), [Green Faith Initiate (Druid)](archetype/druid/green_faith_initiate), [Green Faith Marshal (Inquisitor)](archetype/inquisitor/green_faith_marshal)",
 			"",
 			"#### Feats",
 			"",
@@ -8535,7 +8535,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Green Faith Acolyte](class/prestige/green_faith_acolyte)",
+			"[Green Faith Acolyte](prestigeclass/green_faith_acolyte)",
 			"",
 			"#### Spells",
 			"",
@@ -9885,7 +9885,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"imbrex": {
@@ -9928,7 +9928,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Twinned Summoner (Summoner)](class/archetype/summoner/twinned_summoner), [Twinned Summoner (Summoner (Unchained))](class/archetype/unchained_summoner/twinned_summoner)",
+			"[Twinned Summoner (Summoner)](archetype/summoner/twinned_summoner), [Twinned Summoner (Summoner (Unchained))](archetype/unchained_summoner/twinned_summoner)",
 			"",
 			"#### Feats",
 			"",
@@ -10028,7 +10028,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"inkariax": {
@@ -10217,7 +10217,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Battle Scout (Ranger)](class/archetype/ranger/battle_scout), [Crusader (Cleric)](class/archetype/cleric/crusader), [Iomedaen Enforcer (Paladin)](class/archetype/paladin/iomedaen_enforcer), [Shining Knight (Paladin)](class/archetype/paladin/shining_knight), [Standard Bearer (Cavalier)](class/archetype/cavalier/standard_bearer)",
+			"[Battle Scout (Ranger)](archetype/ranger/battle_scout), [Crusader (Cleric)](archetype/cleric/crusader), [Iomedaen Enforcer (Paladin)](archetype/paladin/iomedaen_enforcer), [Shining Knight (Paladin)](archetype/paladin/shining_knight), [Standard Bearer (Cavalier)](archetype/cavalier/standard_bearer)",
 			"",
 			"#### Feats",
 			"",
@@ -10249,7 +10249,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Heritor Knight](class/prestige/heritor_knight), [Inheritor's Crusader](class/prestige/inheritor's_crusader), [Knight of Ozem](class/prestige/knight_of_ozem)",
+			"[Heritor Knight](prestigeclass/heritor_knight), [Inheritor's Crusader](prestigeclass/inheritor's_crusader), [Knight of Ozem](prestigeclass/knight_of_ozem)",
 			"",
 			"#### Spells",
 			"",
@@ -10468,7 +10468,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Disciple of Wholeness (Monk)](class/archetype/monk/disciple_of_wholeness), [Disciple of Wholeness (Monk (Unchained))](class/archetype/unchained_monk/disciple_of_wholeness), [Iroran Paladin (Paladin)](class/archetype/paladin/iroran_paladin), [Ki Mystic (Monk)](class/archetype/monk/ki_mystic), [Scrollmaster (Wizard)](class/archetype/wizard/scrollmaster), [Unarmed Fighter (Fighter)](class/archetype/fighter/unarmed_fighter)",
+			"[Disciple of Wholeness (Monk)](archetype/monk/disciple_of_wholeness), [Disciple of Wholeness (Monk (Unchained))](archetype/unchained_monk/disciple_of_wholeness), [Iroran Paladin (Paladin)](archetype/paladin/iroran_paladin), [Ki Mystic (Monk)](archetype/monk/ki_mystic), [Scrollmaster (Wizard)](archetype/wizard/scrollmaster), [Unarmed Fighter (Fighter)](archetype/fighter/unarmed_fighter)",
 			"",
 			"#### Feats",
 			"",
@@ -10504,7 +10504,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Champion of Irori](class/prestige/champion_of_irori)",
+			"[Champion of Irori](prestigeclass/champion_of_irori)",
 			"",
 			"#### Spells",
 			"",
@@ -10703,7 +10703,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)"
 		]
 	},
 	"jacarkas": {
@@ -10914,7 +10914,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"jezelda": {
@@ -11613,7 +11613,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"ketephys": {
@@ -12163,7 +12163,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Darechaser](class/prestige/darechaser)",
+			"[Darechaser](prestigeclass/darechaser)",
 			"",
 			"#### Traits",
 			"",
@@ -12437,7 +12437,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Beast Rider (Cavalier)](class/archetype/cavalier/beast_rider), [Beast-Bonded (Witch)](class/archetype/witch/beast-bonded), [Beastmorph (Alchemist)](class/archetype/alchemist/beastmorph), [Evolutionist (Summoner)](class/archetype/summoner/evolutionist), [Savage Warrior (Fighter)](class/archetype/fighter/savage_warrior)",
+			"[Beast Rider (Cavalier)](archetype/cavalier/beast_rider), [Beast-Bonded (Witch)](archetype/witch/beast-bonded), [Beastmorph (Alchemist)](archetype/alchemist/beastmorph), [Evolutionist (Summoner)](archetype/summoner/evolutionist), [Savage Warrior (Fighter)](archetype/fighter/savage_warrior)",
 			"",
 			"#### Feats",
 			"",
@@ -12524,7 +12524,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)"
 		]
 	},
 	"lao_shu_po": {
@@ -13085,7 +13085,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Nornkith (Monk)](class/archetype/monk/nornkith)",
+			"[Nornkith (Monk)](archetype/monk/nornkith)",
 			"",
 			"#### Feats",
 			"",
@@ -14001,7 +14001,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Champion of the Faith (Warpriest)](class/archetype/warpriest/champion_of_the_faith), [Crusader (Cleric)](class/archetype/cleric/crusader), [Divine Strategist (Cleric)](class/archetype/cleric/divine_strategist), [Hidden Priest (Cleric)](class/archetype/cleric/hidden_priest), [Kintargo Rebel (Rogue)](class/archetype/rogue/kintargo_rebel), [Urban Ranger (Ranger)](class/archetype/ranger/urban_ranger), [Wilderness Medic (Ranger)](class/archetype/ranger/wilderness_medic)",
+			"[Champion of the Faith (Warpriest)](archetype/warpriest/champion_of_the_faith), [Crusader (Cleric)](archetype/cleric/crusader), [Divine Strategist (Cleric)](archetype/cleric/divine_strategist), [Hidden Priest (Cleric)](archetype/cleric/hidden_priest), [Kintargo Rebel (Rogue)](archetype/rogue/kintargo_rebel), [Urban Ranger (Ranger)](archetype/ranger/urban_ranger), [Wilderness Medic (Ranger)](archetype/ranger/wilderness_medic)",
 			"",
 			"#### Feats",
 			"",
@@ -14017,7 +14017,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Rose Warden](class/prestige/rose_warden)",
+			"[Rose Warden](prestigeclass/rose_warden)",
 			"",
 			"#### Spells",
 			"",
@@ -14303,7 +14303,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"mordiggian": {
@@ -14415,7 +14415,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"mrtyu": {
@@ -14456,7 +14456,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"murnath": {
@@ -14858,7 +14858,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"narriseminek": {
@@ -14899,7 +14899,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"nataka": {
@@ -15136,7 +15136,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Cloistered Cleric (Cleric)](class/archetype/cleric/cloistered_cleric), [Magician (Bard)](class/archetype/bard/magician), [Staff Magus (Magus)](class/archetype/magus/staff_magus)",
+			"[Cloistered Cleric (Cleric)](archetype/cleric/cloistered_cleric), [Magician (Bard)](archetype/bard/magician), [Staff Magus (Magus)](archetype/magus/staff_magus)",
 			"",
 			"#### Feats",
 			"",
@@ -16496,7 +16496,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"ovonovo": {
@@ -16781,7 +16781,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Exorcist (Inquisitor)](class/archetype/inquisitor/exorcist), [Fated Guide (Spiritualist)](class/archetype/spiritualist/fated_guide), [Seer (Oracle)](class/archetype/oracle/seer), [Stoic Caregiver (Cleric)](class/archetype/cleric/stoic_caregiver)",
+			"[Exorcist (Inquisitor)](archetype/inquisitor/exorcist), [Fated Guide (Spiritualist)](archetype/spiritualist/fated_guide), [Seer (Oracle)](archetype/oracle/seer), [Stoic Caregiver (Cleric)](archetype/cleric/stoic_caregiver)",
 			"",
 			"#### Feats",
 			"",
@@ -16817,7 +16817,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher)",
+			"[Mortal Usher](prestigeclass/mortal_usher)",
 			"",
 			"#### Spells",
 			"",
@@ -16964,7 +16964,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"picoperi": {
@@ -17210,7 +17210,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Stargazer](class/prestige/stargazer)",
+			"[Stargazer](prestigeclass/stargazer)",
 			"",
 			"#### Traits",
 			"",
@@ -17248,7 +17248,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Arcane Physician (Wizard)](class/archetype/wizard/arcane_physician)"
+			"[Arcane Physician (Wizard)](archetype/wizard/arcane_physician)"
 		]
 	},
 	"quindiovatos": {
@@ -17400,7 +17400,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Deepwater Rager (Barbarian)](class/archetype/barbarian/deepwater_rager), [Serpent Herald (Skald)](class/archetype/skald/serpent_herald)",
+			"[Deepwater Rager (Barbarian)](archetype/barbarian/deepwater_rager), [Serpent Herald (Skald)](archetype/skald/serpent_herald)",
 			"",
 			"#### Feats",
 			"",
@@ -17480,7 +17480,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Angelfire Apostle (Cleric)](class/archetype/cleric/angelfire_apostle), [Sixth Wing Bulwark (Warpriest)](class/archetype/warpriest/sixth_wing_bulwark)",
+			"[Angelfire Apostle (Cleric)](archetype/cleric/angelfire_apostle), [Sixth Wing Bulwark (Warpriest)](archetype/warpriest/sixth_wing_bulwark)",
 			"",
 			"#### Feats",
 			"",
@@ -17488,7 +17488,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Crimson Templar](class/prestige/crimson_templar)",
+			"[Crimson Templar](prestigeclass/crimson_templar)",
 			"",
 			"#### Spells",
 			"",
@@ -17831,7 +17831,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Blight Druid (Druid)](class/archetype/druid/blight_druid), [Breaker (Barbarian)](class/archetype/barbarian/breaker), [Iconoclast (Inquisitor)](class/archetype/inquisitor/iconoclast), [Rough Rampager (Antipaladin)](class/archetype/antipaladin/rough_rampager), [Two-Handed Fighter (Fighter)](class/archetype/fighter/two-handed_fighter), [Wild Rager (Barbarian)](class/archetype/barbarian/wild_rager)",
+			"[Blight Druid (Druid)](archetype/druid/blight_druid), [Breaker (Barbarian)](archetype/barbarian/breaker), [Iconoclast (Inquisitor)](archetype/inquisitor/iconoclast), [Rough Rampager (Antipaladin)](archetype/antipaladin/rough_rampager), [Two-Handed Fighter (Fighter)](archetype/fighter/two-handed_fighter), [Wild Rager (Barbarian)](archetype/barbarian/wild_rager)",
 			"",
 			"#### Feats",
 			"",
@@ -18233,7 +18233,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"sarenrae": {
@@ -18337,7 +18337,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Angelfire Apostle (Cleric)](class/archetype/cleric/angelfire_apostle), [Dawnflower Dervish (Bard)](class/archetype/bard/dawnflower_dervish), [Dervish Dancer (Bard)](class/archetype/bard/dervish_dancer), [Merciful Healer (Cleric)](class/archetype/cleric/merciful_healer), [Undead Scourge (Paladin)](class/archetype/paladin/undead_scourge)",
+			"[Angelfire Apostle (Cleric)](archetype/cleric/angelfire_apostle), [Dawnflower Dervish (Bard)](archetype/bard/dawnflower_dervish), [Dervish Dancer (Bard)](archetype/bard/dervish_dancer), [Merciful Healer (Cleric)](archetype/cleric/merciful_healer), [Undead Scourge (Paladin)](archetype/paladin/undead_scourge)",
 			"",
 			"#### Feats",
 			"",
@@ -18369,7 +18369,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Dawnflower Anchorite](class/prestige/dawnflower_anchorite), [Dawnflower Dissident](class/prestige/dawnflower_dissident)",
+			"[Dawnflower Anchorite](prestigeclass/dawnflower_anchorite), [Dawnflower Dissident](prestigeclass/dawnflower_dissident)",
 			"",
 			"#### Spells",
 			"",
@@ -18951,7 +18951,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Sin Eater (Inquisitor)](class/archetype/inquisitor/sin_eater), [Songhealer (Bard)](class/archetype/bard/songhealer)",
+			"[Sin Eater (Inquisitor)](archetype/inquisitor/sin_eater), [Songhealer (Bard)](archetype/bard/songhealer)",
 			"",
 			"#### Feats",
 			"",
@@ -18983,7 +18983,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Devoted Muse](class/prestige/devoted_muse)",
+			"[Devoted Muse](prestigeclass/devoted_muse)",
 			"",
 			"#### Spells",
 			"",
@@ -19332,7 +19332,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Chronomancer (Wizard)](class/archetype/wizard/chronomancer)",
+			"[Chronomancer (Wizard)](archetype/wizard/chronomancer)",
 			"",
 			"#### Feats",
 			"",
@@ -19924,7 +19924,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Runeguard](class/prestige/runeguard)",
+			"[Runeguard](prestigeclass/runeguard)",
 			"",
 			"#### Traits",
 			"",
@@ -19989,7 +19989,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"stygidvod": {
@@ -20228,7 +20228,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Grim Apostle (Spiritualist)](class/archetype/spiritualist/grim_apostle)",
+			"[Grim Apostle (Spiritualist)](archetype/spiritualist/grim_apostle)",
 			"",
 			"#### Feats",
 			"",
@@ -20422,7 +20422,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"thamir_gixx": {
@@ -20556,7 +20556,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Grasping Vine (Shaman)](class/archetype/shaman/grasping_vine), [Seducer (Witch)](class/archetype/witch/seducer)",
+			"[Grasping Vine (Shaman)](archetype/shaman/grasping_vine), [Seducer (Witch)](archetype/witch/seducer)",
 			"",
 			"#### Feats",
 			"",
@@ -20611,7 +20611,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Fey Prankster (Bard)](class/archetype/bard/fey_prankster)",
+			"[Fey Prankster (Bard)](archetype/bard/fey_prankster)",
 			"",
 			"#### Feats",
 			"",
@@ -20662,7 +20662,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Hermit (Oracle)](class/archetype/oracle/hermit)",
+			"[Hermit (Oracle)](archetype/oracle/hermit)",
 			"",
 			"#### Feats",
 			"",
@@ -20711,7 +20711,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"thisamet": {
@@ -21049,7 +21049,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Divine Strategist (Cleric)](class/archetype/cleric/divine_strategist), [Forgefather's Seeker (Paladin)](class/archetype/paladin/forgefather's_seeker), [Holy Tactician (Paladin)](class/archetype/paladin/holy_tactician), [Monk of the Sacred Mountain (Monk)](class/archetype/monk/monk_of_the_sacred_mountain), [Strategist (Cavalier)](class/archetype/cavalier/strategist), [Tactician (Fighter)](class/archetype/fighter/tactician)",
+			"[Divine Strategist (Cleric)](archetype/cleric/divine_strategist), [Forgefather's Seeker (Paladin)](archetype/paladin/forgefather's_seeker), [Holy Tactician (Paladin)](archetype/paladin/holy_tactician), [Monk of the Sacred Mountain (Monk)](archetype/monk/monk_of_the_sacred_mountain), [Strategist (Cavalier)](archetype/cavalier/strategist), [Tactician (Fighter)](archetype/fighter/tactician)",
 			"",
 			"#### Feats",
 			"",
@@ -21077,7 +21077,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Sacred Sentinel](class/prestige/sacred_sentinel)",
+			"[Sacred Sentinel](prestigeclass/sacred_sentinel)",
 			"",
 			"#### Spells",
 			"",
@@ -21219,7 +21219,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Grim Apostle (Spiritualist)](class/archetype/spiritualist/grim_apostle)",
+			"[Grim Apostle (Spiritualist)](archetype/spiritualist/grim_apostle)",
 			"",
 			"#### Feats",
 			"",
@@ -21579,7 +21579,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)",
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)",
 			"",
 			"#### Magic Items - Wondrous Items",
 			"",
@@ -21682,7 +21682,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Dirge Bard (Bard)](class/archetype/bard/dirge_bard), [Gravewalker (Witch)](class/archetype/witch/gravewalker), [Undead Lord (Cleric)](class/archetype/cleric/undead_lord)",
+			"[Dirge Bard (Bard)](archetype/bard/dirge_bard), [Gravewalker (Witch)](archetype/witch/gravewalker), [Undead Lord (Cleric)](archetype/cleric/undead_lord)",
 			"",
 			"#### Feats",
 			"",
@@ -22088,7 +22088,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"valmallos": {
@@ -22129,7 +22129,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"vapula": {
@@ -22206,7 +22206,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Iron Tyrant (Antipaladin)](class/archetype/antipaladin/iron_tyrant)"
+			"[Iron Tyrant (Antipaladin)](archetype/antipaladin/iron_tyrant)"
 		]
 	},
 	"vavaalrav": {
@@ -22247,7 +22247,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"velgaas": {
@@ -22502,7 +22502,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Scar Seeker](class/prestige/scar_seeker)",
+			"[Scar Seeker](prestigeclass/scar_seeker)",
 			"",
 			"#### Traits",
 			"",
@@ -22595,7 +22595,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
+			"[Mortal Usher](prestigeclass/mortal_usher), [Proctor](prestigeclass/proctor)"
 		]
 	},
 	"vorasha": {
@@ -23348,7 +23348,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](class/prestige/proctor)"
+			"[Proctor](prestigeclass/proctor)"
 		]
 	},
 	"ydersius": {
@@ -24251,7 +24251,7 @@
 			"",
 			"#### Archetypes",
 			"",
-			"[Scarred Rager (Barbarian)](class/archetype/barbarian/scarred_rager), [Vivisectionist (Alchemist)](class/archetype/alchemist/vivisectionist)",
+			"[Scarred Rager (Barbarian)](archetype/barbarian/scarred_rager), [Vivisectionist (Alchemist)](archetype/alchemist/vivisectionist)",
 			"",
 			"#### Feats",
 			"",
@@ -24287,7 +24287,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Pain Taster](class/prestige/pain_taster), [Umbral Court Agent](class/prestige/umbral_court_agent)",
+			"[Pain Taster](prestigeclass/pain_taster), [Umbral Court Agent](prestigeclass/umbral_court_agent)",
 			"",
 			"#### Spells",
 			"",

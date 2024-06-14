@@ -2007,7 +2007,7 @@
 			"**Associated Blasts** any  ",
 			"**Saving Throw** none",
 			"",
-			"When you learn this infusion, select an [unchained monk style strike](class/ability/style_strikes). You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level [unchained monk](class/unchained_monk)). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
+			"When you learn this infusion, select an [unchained monk style strike](ability/style_strikes). You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level [unchained monk](class/unchained_monk)). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
 			"",
 			"Special: You can select this infusion multiple times. Each time, you must select a different style strike."
 		]
@@ -2804,7 +2804,7 @@
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the [winding ability of the clockwork subtype](monster/subtype/clockwork)), you gain the benefits of both the [Improved Initiative](feat/improved_initiative) and [Lightning Reflexes](feat/lightning_reflexes) feats."
+			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the [winding ability of the clockwork subtype](subtype/clockwork)), you gain the benefits of both the [Improved Initiative](feat/improved_initiative) and [Lightning Reflexes](feat/lightning_reflexes) feats."
 		]
 	},
 	"clockwork_puppet": {
@@ -2926,7 +2926,7 @@
 			"",
 			"### Attunement",
 			"",
-			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 Knowledge (dungeoneering) check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the [mutant template](monster/template/mutant). At the end of the ninth day, she emerges reborn, with the earth child wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
+			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 Knowledge (dungeoneering) check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the [mutant template](template/mutant). At the end of the ninth day, she emerges reborn, with the earth child wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
 		]
 	},
 	"earth_climb": {
@@ -3864,7 +3864,7 @@
 			"",
 			"You can bring an ally who died within 1 round back from the dead with your kinetic healer wild talent similarly to the breath of life spell, except the ally regains the normal number of hit points from the kinetic healer utility wild talent instead of the amount healed by breath of life. An ally revived in this way takes 1 point of burn + any points of burn from the kinetic healer utility wild talent (if you choose to have the ally take points of burn instead of taking it yourself).",
 			"",
-			"If you have the metahealer ability (such as from the [kinetic chirurgeon](class/archetype/kineticist/kinetic_chirurgeon) kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
+			"If you have the metahealer ability (such as from the [kinetic chirurgeon](archetype/kineticist/kinetic_chirurgeon) kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
 		]
 	},
 	"living_capacitor": {
@@ -4422,7 +4422,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You shape metal into a clockwork creature, as [spark of life](kinetic/spark_of_life) except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](monster/subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the [greater elemental whispers](kinetic/greater_elemental_whispers) utility wild talent, you can take a [clockwork familiar](monster/clockwork_familiar) as an improved familiar with that ability instead of an earth elemental."
+			"You shape metal into a clockwork creature, as [spark of life](kinetic/spark_of_life) except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the [greater elemental whispers](kinetic/greater_elemental_whispers) utility wild talent, you can take a [clockwork familiar](monster/clockwork_familiar) as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life": {
