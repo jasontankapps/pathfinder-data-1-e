@@ -13987,9 +13987,21 @@
 		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
 	},
 	"npcs": {
-		"title": "All NPCs",
+		"title": "NPCs",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [
+			"### NPCs by Class",
+			"",
+			"- [Adepts, Aristocrats, Commoners, Experts, Warriors](npcs_npc_classes)",
+			"- [Bards, Sorcerers, Wizards](npcs_bards_sorcerers_wizards)",
+			"- [Clerics, Druids, Rangers, Paladins](npcs_clerics_druids_paladins)",
+			"- [Barbarians, Fighters, Monks, Rogues](npcs_other_core)",
+			"- [Other Classes](npcs_other)",
+			"",
+			"### All NPCs",
+			"",
+			"`table0`"
+		],
 		"tables": [
 			{
 				"id": "all npcs",
