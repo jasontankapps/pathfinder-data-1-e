@@ -132,7 +132,8 @@
 			"- [Mastering Intrigue](rule/mastering_intrigue)",
 			"- [Horror Rules](rule/horror_rules)",
 			"- [Mastering the Wild](rule/mastering_the_wild)",
-			"- [Planar Adventures](rule/planar_adventures)"
+			"- [Planar Adventures](rule/planar_adventures)",
+			"- [Primal Magic](rule/primal_magic)"
 		]
 	},
 	"environment": {
@@ -168,6 +169,7 @@
 			"pathfinder_unchained",
 			"piecemeal_armor",
 			"relics",
+			"the_hunger",
 			"words_of_power",
 			"wounds_and_vigor"
 		],
@@ -180,6 +182,7 @@
 			"- [Pathfinder Unchained](rule/pathfinder_unchained)",
 			"- [Piecemeal Armor](rule/piecemeal_armor)",
 			"- [Relics](rule/relics)",
+			"- [The Hunger](rule/the_hunger)",
 			"- [Words of Power](rule/words_of_power)",
 			"- [Wounds and Vigor](rule/wounds_and_vigor)"
 		]
@@ -6403,6 +6406,8 @@
 			"",
 			"Each intelligent item should possess at least one power, although more powerful items might possess a host of powers. To find the item's specific powers, choose or roll on Table 15-24. All powers function at the direction of the item, although intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action the item takes. The caster level for these effects is equal to the item's caster level. Save DCs are based off the item's highest mental ability score.",
 			"",
+			"### Table 15-24",
+			"",
 			"| d% | Item Power | Base Price Modifier | Ego Modifier |",
 			"| --- | --- | --- | --- |",
 			"| 01-10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |",
@@ -6451,6 +6456,8 @@
 			"",
 			"Table 15-25 has a number of sample purposes that a magic item might possess. If the wielder specifically ignores or goes against an intelligent item's special purpose, the item gains a +4 bonus to its Ego until the wielder cooperates. This is in addition to the +2 Ego bonus gained by items with a special purpose.",
 			"",
+			"### Table 15-25",
+			"",
 			"| d% | Purpose | Ego Modifier |",
 			"| --- | --- | --- |",
 			"| 01-20 | Defeat/slay diametrically opposed alignment&ast; | +2 |",
@@ -6492,6 +6499,8 @@
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
 			"",
 			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see Items Against Characters). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
+			"",
+			"### Table 15-26",
 			"",
 			"| d% | Dedicated Power | Base Price Modifier | Ego Modifier |",
 			"| --- | --- | --- | --- |",

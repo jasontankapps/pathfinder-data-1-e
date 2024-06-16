@@ -193,7 +193,7 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** Fort negates; **Spell Resistance** yes",
 			"",
-			"You curse the target with a disfiguring or painful mutation. The target gains one random deformity from the Arcane Malignancies table (see page 10). The curse bestowed by this spell cannot be dispelled but can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell."
+			"You curse the target with a disfiguring or painful mutation. The target gains one random deformity from the [Arcane Malignancies table](trait/arcane_malignancies). The curse bestowed by this spell cannot be dispelled but can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell."
 		]
 	},
 	"fairness": {
@@ -2149,7 +2149,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Reflex negates (see text); **Spell Resistance** yes",
 			"",
-			"This spell functions as flaming sphere, except that it deals 6d6 points of fire damage to any creature it strikes. Any creature that fails its save against the sphere catches on fire (see page 444 of the Core Rulebook). If a creature catches on fire, the DC to extinguish the flames is equal to the DC of this spell."
+			"This spell functions as flaming sphere, except that it deals 6d6 points of fire damage to any creature it strikes. Any creature that fails its save against the sphere [catches on fire](rule/catching_on_fire). If a creature catches on fire, the DC to extinguish the flames is equal to the DC of this spell."
 		]
 	},
 	"flaming_sphere,_greater": {
@@ -3804,7 +3804,7 @@
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
-			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see Improved Natural Attack on page 315 of the Pathfinder RPG Bestiary).",
+			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see [Improved Natural Attack](feat/improved_natural_attack)).",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can revert to your normal form or back to your dragon form without ending the spell a number of times equal to your tier.",
 			"",
@@ -3833,7 +3833,7 @@
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
-			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see Improved Natural Attack on page 315 of the Pathfinder RPG Bestiary).",
+			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see [Improved Natural Attack](feat/improved_natural_attack)).",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can revert to your normal form or back to your dragon form without ending the spell a number of times equal to your tier.",
 			"",
@@ -3862,7 +3862,7 @@
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
-			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see Improved Natural Attack on page 315 of the Pathfinder RPG Bestiary).",
+			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the breath weapon damage increases by 2d8. All of the dragon form's natural attacks increase by one step (see [Improved Natural Attack](feat/improved_natural_attack)).",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can revert to your normal form or back to your dragon form without ending the spell a number of times equal to your tier."
 		]
@@ -5520,7 +5520,7 @@
 			"",
 			"The vermin you transform with this spell gain DR 5/magic and either the advanced creature template or the giant creature template.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, any vermin you transform also gains either the agile (see page 224) or savage mythic template (see page 224) while the spell lasts.",
+			"*Augmented (6th):* If you expend two uses of mythic power, any vermin you transform also gains either the agile or savage [mythic template](rule/mythic_simple_templates) while the spell lasts.",
 			"",
 			"If you're at least 9th tier and expend three uses of mythic power, the duration changes to instantaneous, meaning the vermin retain their giant size. After a number of days equal to your tier, you lose control over the vermin unless you have some other way of controlling them, and they lose the agile or savage mythic template but retain the advanced or giant creature template."
 		]
@@ -6351,11 +6351,21 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none (see text); **Spell Resistance** no",
 			"",
-			"You affect the local gravity field in a 30-foot-radius sphere around the spell's designated point of origin. Creatures in the affected area can be weighed down by high gravity, lightened by low gravity, or left to float in an area with no gravity, depending on the effect you choose for your gravity sphere. See page 18 for rules on the effects of high, low, and no gravity.",
+			"You affect the local gravity field in a 30-foot-radius sphere around the spell's designated point of origin. Creatures in the affected area can be weighed down by high gravity, lightened by low gravity, or left to float in an area with no gravity, depending on the effect you choose for your gravity sphere. See below for rules on the effects of high, low, and no gravity.",
 			"",
 			"Creatures that fall within the area of a gravity sphere spell take more damage from the fall if the gravity within is higher and less damage if the gravity within is lower. However, if the creature falls through a gravity sphere and continues to fall in a non-affected area, the rest of the fall damage is calculated normally. For instance, if a creature falls through 20 feet of a lowgravity sphere and an additional 30 feet outside the sphere, it would take 1d6 points of damage for the 20 feet of low gravity plus 3d6 points of damage as normal for the 30 feet outside the sphere (for a total of 4d6 points of damage).",
 			"",
-			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a reverse gravity spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level)."
+			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a reverse gravity spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level).",
+			"",
+			"**Source** [People of the Stars pg. 18](source/people_of_the_stars)  ",
+			"",
+			"**Standard Gravity (&times;1):** The gravity mimics that of Golarion.",
+			"",
+			"**Low Gravity (&times;1/2):** Characters can jump twice as high and as far and can lift twice as much. Movement speed is unaffected. Each range increment for ranged weapons is doubled. Creatures that fall within an area of low gravity take 1d6 points of damage for every 20 feet fallen.",
+			"",
+			"**High Gravity (&times;2):** Characters can move at no more than half speed, jump no more than half as high or as far as normal, and lift no more than half as much as normal. Each range increment for ranged weapons is halved. Creatures that fall within an area of high gravity take 1d6 points of damage for every 5 feet fallen.",
+			"",
+			"**No Gravity (&times;0):** Without magical flight, moving in an area with no gravity is difficult. A character with a surface to push off from can move up to half speed in any direction. A double move or charge can be performed this way, but not a run. A character can move at his full climb speed or his full land speed by succeeding at a DC 20 Climb check as long as he remains adjacent to a surface with sufficient handholds. He adds his Dexterity modifier (minimum 0) on this Climb check in addition to his Strength modifier. Once a character starts moving, he continues moving at the same speed in the same direction each round without using an action until he latches onto an object to stop himself, pushes off in another direction, or creates thrust somehow (each of which requires a move action). Creatures with nonmagical means of flight lose the ability to fly for 2d6 rounds after entering a no gravity area. A character in a no gravity environment can lift and carry 10 times his normal limit. Ranged weapons have no maximum range, and their range increment distances are multiplied by 10."
 		]
 	},
 	"gravity_well": {
@@ -7419,7 +7429,7 @@
 			"",
 			"You use a Harrow deck to tell a fortune for yourself or someone else. If you cast harrowing on another creature, you must remain adjacent to the target for the duration of the casting time. A harrowing must describe one set of events or course of action (for example, \"hunting down the pirate king,\" or \"traveling to Viperwall to search for a magic sword\") that the target of the spell intends to undertake at some point during the spell's duration.",
 			"",
-			"If you have access to a Harrow deck, draw nine cards when this spell is cast. If you do not have a Harrow deck, you can simulate the draws by rolling a d6 and a d10 for each of the nine cards, as detailed on page 293 of this book. Record the ability score and alignment associated with each card. Each of these cards grants a luck bonus or a penalty on a specific type of d20 check; the magnitude of the penalty or bonus depends upon how closely that particular card's alignment matches the target creature's alignment. If the card and target's alignments are identical, that card provides a +2 luck bonus on the associated suit's check. If the card and target's alignments are of the opposite alignment (see below), the card inflicts a -1 penalty on that associated check. If the card has any other alignment, it provides a +1 luck bonus on the associated suit's check.",
+			"If you have access to a Harrow deck, draw nine cards when this spell is cast. If you do not have a Harrow deck, you can simulate the draws by rolling a d6 and a d10 for each of the nine cards, as detailed in the [deck description](equipment/misc/harrow_deck). Record the ability score and alignment associated with each card. Each of these cards grants a luck bonus or a penalty on a specific type of d20 check; the magnitude of the penalty or bonus depends upon how closely that particular card's alignment matches the target creature's alignment. If the card and target's alignments are identical, that card provides a +2 luck bonus on the associated suit's check. If the card and target's alignments are of the opposite alignment (see below), the card inflicts a -1 penalty on that associated check. If the card has any other alignment, it provides a +1 luck bonus on the associated suit's check.",
 			"",
 			"While penalties persist on all associated checks for as long as the harrowing persists, the bonuses are one-use bonuses that the harrowed character can \"spend\" at any time to modify that card's associated check. You can spend a bonus to modify an appropriate roll after the die is rolled, but cannot spend the bonus once you know the result of the roll. Since all of the bonuses granted by a harrowing are luck bonuses, they do not stack with each other. Penalties, on the other hand, do stack. Once you spend all of the bonuses granted by a harrowing, or once the spell's duration ends, the spell ends and the penalties are removed.",
 			"",
@@ -7433,7 +7443,9 @@
 			"| Book (Int) | Skill checks |",
 			"| Star (Wis) | Will saving throws |",
 			"| Crown (Cha) | Any d20 roll |",
+			"",
 			"| Alignment | Opposition |",
+			"| --- | --- |",
 			"| LG | CE |",
 			"| NG | NE |",
 			"| CG | LE |",
@@ -9790,7 +9802,7 @@
 			"",
 			"Each creature that can see the doubles must succeed at a Will save or become shaken for as long as it can see any of the doubles. A successful saving throw negates the shaken condition and renders the creature immune to the further effects of this spell (beyond the usual effects of mirror image). In addition, the first time a creature that failed its initial saving throw destroys one of the images, it must succeed at a Will save or its perception of the double shifts at the last second. The double takes on the face of the attacker, the face of a loved one, or some other equally disturbing image, causing the attacker to become frightened for 1 round and take 1d3 points of Wisdom damage from the traumatic shock. Both additional effects are mind-affecting fear effects, and spell resistance applies against them.",
 			"",
-			"If your campaign uses the sanity system (see page 12), a creature takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses [the sanity system](rule/sanity), a creature takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"horrifying_visage": {
@@ -10604,7 +10616,7 @@
 			"",
 			"You create a blast of intense cold, coating all solid surfaces in the area with a thin coating of ice. Any creature in the area when the spell is cast takes 1d6 points of cold damage + 1 point per caster level (maximum +10) and falls prone; creatures that succeed at a Reflex save take half damage and don't fall prone. Spell resistance applies to this initial effect.",
 			"",
-			"A creature can walk within or through the area of ice at half its normal speed with a successful DC 10 Acrobatics check. Failure by 4 or less means the creature can't move that round (and must succeed at a Reflex save or fall); failure by 5 or more means it falls (see the Acrobatics skill on page 87 of the Pathfinder RPG Core Rulebook for details). Creatures that do not move on their turn do not need to attempt this check.",
+			"A creature can walk within or through the area of ice at half its normal speed with a successful DC 10 Acrobatics check. Failure by 4 or less means the creature can't move that round (and must succeed at a Reflex save or fall); failure by 5 or more means it falls (see the [Acrobatics skill](skill/acrobatics) for details). Creatures that do not move on their turn do not need to attempt this check.",
 			"",
 			"A 5-foot square of ice has hardness 0 and 3 hit points. The ice is an instantaneous effect, but persists as nonmagical ice. Under temperate conditions, the ice lasts 1 minute per level. In tropical environments, it might last only half as long. In cold environments where ice and snow persist without melting, it could last indefinitely."
 		]
@@ -11208,7 +11220,7 @@
 			"**Duration** 1 battle  ",
 			"**Saving Throw** none or Will negates (harmless); **Spell Resistance** e yes",
 			"",
-			"You imbue the target with an army special ability (see page 242 of Ultimate Campaign) possessed by the army's commander. The army is treated as if it consists of units who all possess the chosen special ability. This special ability is in addition to any special abilities the army inherently possessed prior to the casting of the spell."
+			"You imbue the target with an [army special ability](rule/special_abilities_ucp) possessed by the army's commander. The army is treated as if it consists of units who all possess the chosen special ability. This special ability is in addition to any special abilities the army inherently possessed prior to the casting of the spell."
 		]
 	},
 	"imbue_hex": {
@@ -11409,9 +11421,9 @@
 			"",
 			"An item made intelligent via impart mind communicates via speech and has normal senses to a range of 60 feet. It speaks and reads one language known by you-if you know multiple languages, you may choose which language the item knows.",
 			"",
-			"When you cast impart mind on an item, roll once on Table 15-24 on page 534 of the Core Rulebook to randomly determine the item's power-add your caster level to this roll. By expending additional diamond dust in excess of the 1,000 gp worth of material components required to cast this spell, you can gain further bonuses on the d% roll made to determine the item's power. Every additional 100 gp in diamond dust you use in excess grants a cumulative +1 bonus to the roll, up to a maximum additional bonus equal to your caster level. If the item gains the ability to cast a spell, determine the spell it can cast randomly from spells you know of the appropriate level. If the item gains ranks in a skill, it gains ranks in a random skill in which you have at least 1 rank.",
+			"When you cast impart mind on an item, roll once on [Table 15-24](rule/intelligent_item_powers) to randomly determine the item's power-add your caster level to this roll. By expending additional diamond dust in excess of the 1,000 gp worth of material components required to cast this spell, you can gain further bonuses on the d% roll made to determine the item's power. Every additional 100 gp in diamond dust you use in excess grants a cumulative +1 bonus to the roll, up to a maximum additional bonus equal to your caster level. If the item gains the ability to cast a spell, determine the spell it can cast randomly from spells you know of the appropriate level. If the item gains ranks in a skill, it gains ranks in a random skill in which you have at least 1 rank.",
 			"",
-			"If you roll above 100, then you can choose one item power on Table 15-24 in the Core Rulebook to grant the item, and the item gains a special purpose. Roll once on Tables 15-25 and 15-26 on page 534 of the Core Rulebook to determine what the item's special purpose and dedicated powers are. These d% rolls are not modified by your caster level or any additional powdered gems you used to cast the spell.",
+			"If you roll above 100, then you can choose one item power on Table 15-24 to grant the item, and the item gains a special purpose. Roll once on Tables [15-25](rule/special_purpose_items) and [15-26](rule/dedicated_powers) to determine what the item's special purpose and dedicated powers are. These d% rolls are not modified by your caster level or any additional powdered gems you used to cast the spell.",
 			"",
 			"Once this spell ends, the item reverts to its previous nature-if you cast this spell on the item again, it gains entirely different powers as determined by a new set of rolls."
 		]
@@ -11485,7 +11497,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none, see text; **Spell Resistance** no",
 			"",
-			"You implant a false psychometric reading into an object, imbuing the item with misleading information that might be learned from the object reading spell or through the psychometry occult skill unlock (see page 196). This information might fool enemies, create a false history, or pass on secret messages through objects to psychically attuned allies. You can implant any information you wish that could be implanted by the charge object spell, as well as up to one piece of information per 3 levels that could be attained using psychometry or the object reading spell. You can detail this information in any way you see fit, either making up a previous owner and circumstances involving the object from whole cloth, or attempting to emulate the biographical information and fictional accounts of a specific individual's experience with the object.",
+			"You implant a false psychometric reading into an object, imbuing the item with misleading information that might be learned from the object reading spell or through the psychometry occult skill unlock. This information might fool enemies, create a false history, or pass on secret messages through objects to psychically attuned allies. You can implant any information you wish that could be implanted by the charge object spell, as well as up to one piece of information per 3 levels that could be attained using psychometry or the object reading spell. You can detail this information in any way you see fit, either making up a previous owner and circumstances involving the object from whole cloth, or attempting to emulate the biographical information and fictional accounts of a specific individual's experience with the object.",
 			"",
 			"During the spell's duration, creatures reading the object through the object reading spell or the psychometry occult skill unlock receive this false information in place of an item's true history if they fail a Will saving throw. Creatures that succeed at their saves still detect and receive the false information, but recognize it for what is and are able to discern the fictitious information from the item's true history without difficulty.",
 			"",
@@ -12800,7 +12812,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You begin a psychic duel (see page 202) with a creature. This psychic duel takes place on a binary mindscape (see page 235) that includes only two minds: yours and the target's. This spell ends and both minds return to their respective bodies if one of you drops below 0 hit points or if both of you agree to end the psychic duel (a free action that you can perform even if it isn't your turn).",
+			"You begin a [psychic duel](rule/psychic_duels) with a creature. This psychic duel takes place on a [binary mindscape](rule/binary_mindscapes) that includes only two minds: yours and the target's. This spell ends and both minds return to their respective bodies if one of you drops below 0 hit points or if both of you agree to end the psychic duel (a free action that you can perform even if it isn't your turn).",
 			"",
 			"Even if you cast the spell, you must succeed at a Will save to escape your own psychic duel if your opponent doesn't want to allow you to leave. Spells like mindscape door can also free you from the mindscape (and mindscape door is one of the few spells you can cast in a binary mindscape). A binary mindscape is clearly illusory, and disbelieving the illusion doesn't alter how the mindscape works."
 		]
@@ -13807,7 +13819,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude partial (see below); **Spell Resistance** no",
 			"",
-			"The spell's area of effect floods with dangerous radiation. The strength of the radiation you create depends on your caster level, as detailed below. The central irradiated area is always a 10-foot-radius spread that expands normally per the rules for radiation areas of effect (see page 55). Creatures within the area are exposed to the radiation only once; the radiation does not linger in the area. The save to resist the radiation effects is set by the spell, not the standard save DC for radiation.",
+			"The spell's area of effect floods with dangerous radiation. The strength of the radiation you create depends on your caster level, as detailed below. The central irradiated area is always a 10-foot-radius spread that expands normally per the rules for [radiation](rule/binary_mindscapes) areas of effect. Creatures within the area are exposed to the radiation only once; the radiation does not linger in the area. The save to resist the radiation effects is set by the spell, not the standard save DC for radiation.",
 			"",
 			"| Caster Level | Radiation Level |",
 			"| --- | --- |",
@@ -14870,7 +14882,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses' invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the Pathfinder Chronicles; see pages 26-27)."
+			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses' invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the [Pathfinder Chronicles](rule/pathfinder_chronicle))."
 		]
 	},
 	"lament_of_summer's_last_breath": {
@@ -15094,7 +15106,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"The target's buoyancy becomes and stays swiftly sinking, regardless of how dense the target and its gear are. Among other effects, the target can walk on the bottom, but she also needs to succeed at a DC 20 Swim check to swim towards the surface and to stay above the bottom (see Buoyancy on page 43). This makes lead anchor a useful spell both for exploring the sea floor and for drowning an air-breathing foe in the water."
+			"The target's buoyancy becomes and stays swiftly sinking, regardless of how dense the target and its gear are. Among other effects, the target can walk on the bottom, but she also needs to succeed at a DC 20 Swim check to swim towards the surface and to stay above the bottom (see [Buoyancy](rule/buoyancy)). This makes lead anchor a useful spell both for exploring the sea floor and for drowning an air-breathing foe in the water."
 		]
 	},
 	"lead_blades": {
@@ -17331,7 +17343,7 @@
 			"",
 			"If you have the bardic performance class feature and the fascinate bardic performance, you can choose to use the spell's saving throw DC or a DC equal to 10 + 1/2 your levels in the class that grants you bardic performance + your Charisma modifier, whichever is higher. If you choose to use the latter DC, each round of the melody costs 1 round of bardic performance and it counts as an active performance for determining how many performances you can have active.",
 			"",
-			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses the sanity system (see page 12), you instead take 2d6 points of sanity damage."
+			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses [the sanity system](rule/sanity), you instead take 2d6 points of sanity damage."
 		]
 	},
 	"maddening_oubliette": {
@@ -19397,7 +19409,7 @@
 			"| 41-60 | Hellscape |",
 			"| 61-80 | Oasis of respite |",
 			"| 81-100 | Strange city |",
-			"*Circus:* The creature finds itself in a nightmarish circus of giant beasts, garishly painted faces, and hideous, mocking laughter. The creature must succeed at a Will save or gain a lesser madness (see page 182). The save uses the madness's normal DC.",
+			"*Circus:* The creature finds itself in a nightmarish circus of giant beasts, garishly painted faces, and hideous, mocking laughter. The creature must succeed at a Will save or gain a lesser [madness](rule/madness). The save uses the madness's normal DC.",
 			"",
 			"*Haunted Forest:* The creature travels through a dark forest of grasping trees while shadowy beasts prowl at the edge of its vision. The creature must succeed at a Will save or become frightened for 2d4 rounds. This is a fear effect. A frightened creature can still attempt Intelligence checks to escape the maze, but it takes 3d6 points of slashing and piercing damage from the trees' branches.",
 			"",
@@ -19405,7 +19417,7 @@
 			"",
 			"*Oasis of Respite:* Whether it appears as a beautiful glade, a perfumed palace, or a literal desert oasis, this section of the maze is supernaturally peaceful, especially in comparison to the rest of the maze. The creature must succeed at a Will save or become fascinated for 1 round. The creature can't attempt to escape the maze while fascinated. A creature that fails three consecutive saving throws to this fascination enters a state of lethargy and gives up ever escaping the maze, remaining in this area until the spell ends on its own in 10 minutes (as per maze).",
 			"",
-			"*Strange City:* The creature journeys through a city of cyclopean architecture under a sky of indescribable color and numerous stars. The creature must succeed at a Will save or take 2d4 points of Wisdom damage. If your campaign uses the sanity system (see page 12), the creature instead takes 2d10 points of sanity damage."
+			"*Strange City:* The creature journeys through a city of cyclopean architecture under a sky of indescribable color and numerous stars. The creature must succeed at a Will save or take 2d4 points of Wisdom damage. If your campaign uses [the sanity system](rule/sanity), the creature instead takes 2d10 points of sanity damage."
 		]
 	},
 	"medusa's_bane": {
@@ -19989,7 +20001,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will partial (see text); **Spell Resistance** yes",
 			"",
-			"You plunge the targets' minds into a veiled immersive mindscape (see page 235) of your own design. You can affect any number of creatures whose combined total Hit Dice do not exceed 30. A creature of 10 HD or fewer gets no saving throw, one of 11-15 HD escapes after 10 minutes per level you possess on a successful save, and a creature of 16 HD or more negates the effect on a successful save. Given time, the bodies of creatures whose minds are trapped in a microcosm can die of starvation and thirst without care. Creatures can neither escape from nor enter a microcosm, even via a mindscape door. Microcosm can be ended only by miracle or wish.",
+			"You plunge the targets' minds into a veiled immersive mindscape(rule/immersive_mindscapes) of your own design. You can affect any number of creatures whose combined total Hit Dice do not exceed 30. A creature of 10 HD or fewer gets no saving throw, one of 11-15 HD escapes after 10 minutes per level you possess on a successful save, and a creature of 16 HD or more negates the effect on a successful save. Given time, the bodies of creatures whose minds are trapped in a microcosm can die of starvation and thirst without care. Creatures can neither escape from nor enter a microcosm, even via a mindscape door. Microcosm can be ended only by miracle or wish.",
 			"",
 			"Creatures inside a microcosm can be affected by mind-affecting effects targeted against their real bodies. However, they perceive them as natural events within their inner mindscape. Multiple creatures affected by the same microcosm can interact with one another within the mindscape."
 		]
@@ -20497,7 +20509,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** no",
 			"",
-			"You or other creatures enter into or escape from a mindscape (see page 234) through an imaginary doorway. This doorway takes on any form of your choosing, but can be no larger than a 5-foot cube. This spell has different effects depending on whether you are inside a mindscape when you cast it.",
+			"You or other creatures enter into or escape from a [mindscape](rule/mindscapes) through an imaginary doorway. This doorway takes on any form of your choosing, but can be no larger than a 5-foot cube. This spell has different effects depending on whether you are inside a mindscape when you cast it.",
 			"",
 			"When you cast this spell outside a mindscape, the doorway connects to one mindscape inhabited by a creature of your choice within close range (25 feet + 5 feet per 2 levels) of the door. That creature becomes the door's conduit, but can attempt a Will save to deny access to the mindscape. You must be aware of the mindscape to connect a mindscape door to it. If you connect to the mindscape, you designate any number of creatures to be able to see and pass through the door as though it were a normal doorway. You can name specific creatures or categories of creatures, or allow all creatures access. Creatures other than those you designate can't perceive or use the door, nor can mindless creatures or those immune to mind-affecting effects. Once anyone enters the mindscape through the door, a duplicate of the door appears inside the mindscape next to the creature you used as a conduit. Anyone inside a mindscape is able to perceive and use a mindscape door within that mindscape. Anyone who enters is subject to all rules of the mindscape, but is aware she is in a mindscape if you informed her where the portal leads.",
 			"",
@@ -22627,11 +22639,11 @@
 			"",
 			"The target of this spell gains no benefit from normal or magical sleep, writhing in a series of nightmares that torture its psyche and diminish its ability to perform strenuous tasks. The target doesn't heal ability or hit point damage naturally and can't prepare spells or regain spell slots. After one night of poor sleep, the target is fatigued (or exhausted if it was fatigued before trying to rest). A creature affected by this spell doesn't recover from the fatigued or exhausted condition inflicted by this spell after resting, nor do spells such as lesser restoration provide any respite. Each restless night, the target takes 1d4 points of Wisdom damage, which also can't be recovered by magic while night terrors is active.",
 			"",
-			"The images from previous nightmares continue to haunt the target's mind while awake. If the target has rested at least once while affected by night terrors and then becomes subjected to a fear condition, the target experiences the next higher level of fear than it would normally. However, per the alternate rules for fear (see page 10), this spell cannot cause a lesser state of fear to become a greater one. If the effect causing the fear condition doesn't usually stack with other fear effects, the target's level of fear does not increase. This aspect of the spell is a fear effect.",
+			"The images from previous nightmares continue to haunt the target's mind while awake. If the target has rested at least once while affected by night terrors and then becomes subjected to a fear condition, the target experiences the next higher level of fear than it would normally. However, per the [alternate rules for fear](rule/fear_ha), this spell cannot cause a lesser state of fear to become a greater one. If the effect causing the fear condition doesn't usually stack with other fear effects, the target's level of fear does not increase. This aspect of the spell is a fear effect.",
 			"",
 			"The affected creature can attempt a new saving throw once per day to end night terrors, but multiple attempts to rest in a given day do not afford the target multiple saves. A creature that successfully saves against night terrors ends the spell and rests normally that night but gains the benefits of only that night's rest, not any benefits missed on previous nights.",
 			"",
-			"If your campaign uses the sanity system (see page 12), the target takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses [the sanity system](rule/sanity), the target takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"nightmare": {
@@ -22779,7 +22791,7 @@
 			"",
 			"You imbue an object with psychic energy. The node of blasting unleashes a mental blast when a creature with a mind touches the object, dealing 6d6 points of damage to the creature touching the object and causing the creature to be staggered for 1 minute. A successful saving throw halves the damage and negates the staggered condition.",
 			"",
-			"Magic traps such as node of blasting are hard to detect and disable. A character with the trapfinding class feature can use Disable Device to thwart node of blasting. The DCs to find a node of blasting using Perception and to disable it using Disable Device are both equal to 25 + the spell's level. Additionally, a creature with the read aura occult skill unlock (see page 197) can attempt the same Perception check to notice a node of blasting."
+			"Magic traps such as node of blasting are hard to detect and disable. A character with the trapfinding class feature can use Disable Device to thwart node of blasting. The DCs to find a node of blasting using Perception and to disable it using Disable Device are both equal to 25 + the spell's level. Additionally, a creature with the read aura occult skill unlock can attempt the same Perception check to notice a node of blasting."
 		]
 	},
 	"nondetection": {
@@ -23104,7 +23116,7 @@
 			"",
 			"A possessed object becomes capable of animation, gaining the statistics of an animated object of its size (including 1 CP worth of abilities; Pathfinder RPG Bestiary 14). You can't use any spells or other abilities while possessing an object.",
 			"",
-			"A spiritual tether connects your body to the possessed object, in a manner similar to a silver cord (see page 244). If the possessed object and your body are ever farther than close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your consciousness to your body.",
+			"A spiritual tether connects your body to the possessed object, in a manner similar to a [silver cord](rule/astral_plane_oa). If the possessed object and your body are ever farther than close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your consciousness to your body.",
 			"",
 			"### Object Possession",
 			"",
@@ -23173,7 +23185,7 @@
 			"**Duration** concentration, up to 1 round per level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You read the psychic impressions left upon an object by emotionally or psychically charged events in the item's history, or the information imprinted by the charge object or implant false reading spells. This spell returns the same information as the psychometry occult skill unlock (see page 196), but gives 1 piece of information when cast and requires 1 round of concentration per additional piece of information instead of 1 minute. You must still attempt an Appraise check to see how much information you gain. You gain a +10 competence bonus on the check."
+			"You read the psychic impressions left upon an object by emotionally or psychically charged events in the item's history, or the information imprinted by the charge object or implant false reading spells. This spell returns the same information as the psychometry occult skill unlock, but gives 1 piece of information when cast and requires 1 round of concentration per additional piece of information instead of 1 minute. You must still attempt an Appraise check to see how much information you gain. You gain a +10 competence bonus on the check."
 		]
 	},
 	"obscure_object": {
@@ -25328,7 +25340,7 @@
 			"",
 			"**Target**s of the spell perceive everyone else around them to be rotting away, but other creatures see no visible effect of the spell, so they, in addition to those who disbelieve, can communicate the nature of the illusion to allies, providing those allies with a +4 bonus on the saving throw to disbelieve.",
 			"",
-			"If your campaign uses the sanity system (see page 12), a creature takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses [the sanity system](rule/sanity), a creature takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"phantasmal_reminder": {
@@ -25750,7 +25762,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You instill the target with an intense, instinctual fear of a condition or circumstance, more powerful than the phobia lesser madness (see page 182). You can name an energy type (acid, cold, electricity, fire, or sonic), a hazard (such as an avalanche or earthquake), or a single creature of the animal type or all vermin (applying when the target sees a swarm or a single Small or larger creature). Alternatively, you can name the following specific environments: darkness (darker than dim light, and you can't apply this phobia to a creature with natural racial darkvision, see in darkness, blindsight, or similar senses), enclosed spaces (places that require the creature to squeeze),heights (10 times the target's height, and you can't apply this phobia to creatures with a natural fly speed), or water (you can't apply this phobia to aquatic creatures or creatures with a natural swim speed).",
+			"You instill the target with an intense, instinctual fear of a condition or circumstance, more powerful than the phobia lesser [madness](rule/madness). You can name an energy type (acid, cold, electricity, fire, or sonic), a hazard (such as an avalanche or earthquake), or a single creature of the animal type or all vermin (applying when the target sees a swarm or a single Small or larger creature). Alternatively, you can name the following specific environments: darkness (darker than dim light, and you can't apply this phobia to a creature with natural racial darkvision, see in darkness, blindsight, or similar senses), enclosed spaces (places that require the creature to squeeze),heights (10 times the target's height, and you can't apply this phobia to creatures with a natural fly speed), or water (you can't apply this phobia to aquatic creatures or creatures with a natural swim speed).",
 			"",
 			"When the target takes damage of the energy type (for an energy type phobia), or perceives the presence of the creature, environment, or hazard, it must attempt a DC 20 Will save. If it fails, it becomes panicked, but even if it succeeds, it becomes shaken and feels intensely uncomfortable; a creature shaken in this way does not need to roll further saving throws against its phobia until its shaken condition ends, even if it continues to be exposed to its phobia.",
 			"",
@@ -27656,7 +27668,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Fortitude negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"The target adapts incredibly quickly to changes in pressure, adjusting to 100 feet of new pressure (or the entire shift, in the case of an instantaneous shift within its native range; see page 48) after just one successful Fortitude saving throw instead of the usual five."
+			"The target adapts incredibly quickly to [changes in pressure](rule/oceanic_zones), adjusting to 100 feet of new pressure (or the entire shift, in the case of an instantaneous shift within its native range) after just one successful Fortitude saving throw instead of the usual five."
 		]
 	},
 	"prestidigitation": {
@@ -28751,7 +28763,7 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You retreat into a mindscape (see page 234) of your own making that allows you to perform a lengthy mental task in an instant. You create a mental landscape that provides succor and calm for you, such as a library, sitting room, garden, or childhood tree house. You can spend up to 15 minutes in your psychic asylum. While you are within, no time passes for your body, and when you emerge you can continue with your turn. The mindscape is overt, finite, and has a rapid passage of time.",
+			"You retreat into a [mindscape](rule/mindscapes) of your own making that allows you to perform a lengthy mental task in an instant. You create a mental landscape that provides succor and calm for you, such as a library, sitting room, garden, or childhood tree house. You can spend up to 15 minutes in your psychic asylum. While you are within, no time passes for your body, and when you emerge you can continue with your turn. The mindscape is overt, finite, and has a rapid passage of time.",
 			"",
 			"While within the mindscape, you can consult any text, recall any conversation, or remember any image that you have been exposed to with perfect clarity and recollection, as if you had an eidetic memory. You must have seen or heard the material within a time frame of 1 week per level. For example, you might wish to reexamine a passage of text from an ancient manuscript you rapidly scanned in a library 2 weeks prior. While in the psychic asylum, you can perfectly recall the precise layout of the text within the ancient manuscript and read it word for word. Once you emerge from the psychic asylum, you can recall the details of what you had just studied as clearly as if you had just looked at it, but you no longer have total recall of the material.",
 			"",
@@ -31375,7 +31387,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none (object; **Spell Resistance** Resistance no",
 			"",
-			"Upon casting this spell, you permanently rearrange and resize the rooms in a building you constructed as a downtime activity (see page 84 of Ultimate Campaign). You may reorganize and remap the building however you please, as if each room had just been constructed and is being positioned for the first time. You cannot make any changes to a building that changes how much a room would cost to create or that alters the benefits a room provides. The structure also must remain in the same general position within the district. If you don't wholly own the structure, all of the structure's owners must consent to the changes being made before the spell is cast; otherwise, it fails immediately."
+			"Upon casting this spell, you permanently rearrange and resize the rooms in a building you constructed as a [downtime activity](rule/downtime_activities). You may reorganize and remap the building however you please, as if each room had just been constructed and is being positioned for the first time. You cannot make any changes to a building that changes how much a room would cost to create or that alters the benefits a room provides. The structure also must remain in the same general position within the district. If you don't wholly own the structure, all of the structure's owners must consent to the changes being made before the spell is cast; otherwise, it fails immediately."
 		]
 	},
 	"repair_undead": {
@@ -32750,7 +32762,7 @@
 			"**Duration** 1 day/level or 1 hour/level; see below  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell endows a suit of armor with a singular purpose realized only after its wearer goes unconscious or is killed; whenever the wearer of a suit of armor warded by revenant armor is brought below 0 hit points or otherwise rendered unconscious (but not paralyzed or held) in combat, the armor is immediately brought to life as a Medium animated object. This animated suit of armor still contains the unconscious (or dead) body of its former wearer and moves with a shambling gait at a speed of 20 feet. This animated object has average hit points and, if the armor is made from metal, it has the metal animated object extraordinary ability (plus additional abilities based on the type of metal, as indicated on page 14 of the Pathfinder RPG Bestiary). Once animated, the revenant armor remains standing (and stands if knocked prone, doing so without provoking attacks of opportunity), and prevents the wearer of the armor from being considered helpless. If an ally of the wearer is within range of the armor, she can direct it to move, though it refuses to go anywhere that requires a skill check. If grappled or otherwise restrained, it can attempt to break free with a Strength score equal to your caster level and a CMB equal to 1 + your caster level + the armor's Strength modifier. If the armor's wearer is reduced to dust, made conscious, or removed from the armor, the spell ends."
+			"This spell endows a suit of armor with a singular purpose realized only after its wearer goes unconscious or is killed; whenever the wearer of a suit of armor warded by revenant armor is brought below 0 hit points or otherwise rendered unconscious (but not paralyzed or held) in combat, the armor is immediately brought to life as a Medium animated object. This animated suit of armor still contains the unconscious (or dead) body of its former wearer and moves with a shambling gait at a speed of 20 feet. This animated object has average hit points and, if the armor is made from metal, it has the metal animated object extraordinary ability (plus [additional abilities](rule/animated_object) based on the type of metal). Once animated, the revenant armor remains standing (and stands if knocked prone, doing so without provoking attacks of opportunity), and prevents the wearer of the armor from being considered helpless. If an ally of the wearer is within range of the armor, she can direct it to move, though it refuses to go anywhere that requires a skill check. If grappled or otherwise restrained, it can attempt to break free with a Strength score equal to your caster level and a CMB equal to 1 + your caster level + the armor's Strength modifier. If the armor's wearer is reduced to dust, made conscious, or removed from the armor, the spell ends."
 		]
 	},
 	"reverse_gravity": {

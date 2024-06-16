@@ -854,7 +854,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes",
 			"",
-			"The target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all Diplomacy checks it makes to influence creatures. If the creature is engaged in performance combat (see page 153), the target gains a +2 morale bonus on all performance combat checks."
+			"The target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all Diplomacy checks it makes to influence creatures. If the creature is engaged in [performance combat](rule/performance_combat), the target gains a +2 morale bonus on all performance combat checks."
 		]
 	},
 	"adroit_retrieval": {
@@ -1384,7 +1384,7 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** no; **Spell Resistance** no",
 			"",
-			"You create a perfect record of your physical body in the Akashic Record (see page 244) at the time the spell is cast. This record includes your current hit point total, physical ability scores (Strength, Dexterity, and Constitution), and any conditional modifiers or conditions such as ability damage to physical ability scores, disease, negative levels, and poison. If at any point within the duration of the spell you are reduced to fewer than 0 hit points or are slain by a death effect that is not mind-affecting, you can immediately let your current physical body die and assume the record of your physical body on your next turn. When this happens, your corpse disappears, and you can either resume the place of your dead body (already wearing any clothing still attached to the corpse) or appear in any place you've been within 500 feet of where your corpse lies (but without any of your gear).",
+			"You create a perfect record of your physical body in the [Akashic Record](rule/akashic_record) at the time the spell is cast. This record includes your current hit point total, physical ability scores (Strength, Dexterity, and Constitution), and any conditional modifiers or conditions such as ability damage to physical ability scores, disease, negative levels, and poison. If at any point within the duration of the spell you are reduced to fewer than 0 hit points or are slain by a death effect that is not mind-affecting, you can immediately let your current physical body die and assume the record of your physical body on your next turn. When this happens, your corpse disappears, and you can either resume the place of your dead body (already wearing any clothing still attached to the corpse) or appear in any place you've been within 500 feet of where your corpse lies (but without any of your gear).",
 			"",
 			"You still retain your original mind, and therefore don't regain any spells. You are still under any mental influences and energy drain effects you were under when you recalled the record of your physical body, but don't retain any physical effects such as bleed damage or poison (unless you suffered from these conditions at the time the spell was cast). Spells affecting you when you store a record of yourself abide by their normal durations. For example, if you were affected by cat's grace when you created the record and you restore your body 1 hour later, you won't be under that effect anymore since its duration has already expired. This spell doesn't allow you to avoid dying of old age. Casting this spell again replaces any previous version you cast; you can't store more than one copy of yourself in the Akashic Record."
 		]
@@ -1685,7 +1685,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You combat the rising corruption (see page 14) in another creature or advance the long-term process of exorcising it entirely. This spell has two purposes, and you choose which application to use at the time of casting.",
+			"You combat the rising [corruption](rule/corruption) in another creature or advance the long-term process of exorcising it entirely. This spell has two purposes, and you choose which application to use at the time of casting.",
 			"",
 			"*Combat Corruption:* Each time a creature fails a saving throw to prevent its corruption from progressing (as described in that corruption's Progression section), it advances to the next corruption stage-at stage 3, it loses the battle against its corruption. Using this spell can lower the target's corruption stage by 1. This has no effect if the target isn't at progression stage of 1 or higher.",
 			"",
@@ -1910,7 +1910,7 @@
 			"",
 			"*Alter Current:* The river's current increases or decreases in speed by up to 1 mile per hour per 2 caster levels you possess. A typical placid river travels at a rate of up to 2 mph (no effect on local movement); a swift river travels 2-4 mph, moving creatures and objects 10 to 40 feet downstream per round; and an area of river rapids travels 7-10 mph, moving creatures and objects 60 to 90 feet downstream per round. Altering the speed of the current alters the difficulty of swimming in the water accordingly.",
 			"",
-			"*Divert River:* The river diverts its course in a direction of your choosing. The river flows in the general direction indicated, but otherwise conforms to the shape of the local terrain. This spell cannot cause a river to flow uphill, though the river surges over its natural banks and inundates terrain lower than its average depth. Creatures in the path of the redirected river are in danger of being swept away; if directed properly, this spell causes a flood. See Aquatic Terrain on page 432 of the Core Rulebook for more details.",
+			"*Divert River:* The river diverts its course in a direction of your choosing. The river flows in the general direction indicated, but otherwise conforms to the shape of the local terrain. This spell cannot cause a river to flow uphill, though the river surges over its natural banks and inundates terrain lower than its average depth. Creatures in the path of the redirected river are in danger of being swept away; if directed properly, this spell causes a flood. See [Aquatic Terrain](rule/aquatic_terrain) for more details.",
 			"",
 			"Alter river can be made permanent with a permanency spell. Clever application of spells such as move earth can be combined with this spell to likewise make the river's new course permanent."
 		]
@@ -2090,7 +2090,7 @@
 			"**Duration** concentration, up to 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You peer into the aura of one target creature or object, gaining valuable information about its condition and nature. Each round, choose one of the target's four auras. This spell functions similarly to the read aura occult skill unlock (see page 197), but doesn't require checks and returns results on all the target's auras in an instant.",
+			"You peer into the aura of one target creature or object, gaining valuable information about its condition and nature. Each round, choose one of the target's four auras. This spell functions similarly to the read aura occult skill unlock, but doesn't require checks and returns results on all the target's auras in an instant.",
 			"",
 			"*Alignment Aura:* You study the target's spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as detect evil.",
 			"",
@@ -2626,9 +2626,9 @@
 			"",
 			"Add your tier to your caster level when determining how many Hit Dice of undead you can animate with a single casting of this spell. This doesn't increase the total number of Hit Dice worth of undead you can control. By expending a second use of mythic power, you can ignore the spell's material component cost.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, any skeletons or zombies you create gain either the agile (see page 224) or savage (see page 224) mythic template. This template lasts for a number of days equal to your tier.",
+			"*Augmented (6th):* If you expend two uses of mythic power, any skeletons or zombies you create gain either the [agile or savage mythic template](rule/mythic_simple_templates). This template lasts for a number of days equal to your tier.",
 			"",
-			"Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create permanently gain the mythic skeleton template (see page 216).",
+			"Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create permanently gain the [mythic skeleton](rule/human_skeleton_mythic) template.",
 			"",
 			"### Animate Dead, Lesser",
 			"",
@@ -5002,7 +5002,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes",
 			"",
-			"You mask and manipulate the target creature's or object's aura, confounding those who would attempt to discern helpful information from it using the read aura occult skill unlock (see page 197) or the analyze aura spell. You can change each of the following four auras with one casting of aura alteration.",
+			"You mask and manipulate the target creature's or object's aura, confounding those who would attempt to discern helpful information from it using the read aura unlock or the analyze aura spell. You can change each of the following four auras with one casting of aura alteration.",
 			"",
 			"*Alignment Aura:* You can change the target's apparent alignment to thwart spells that detect alignment, such as detect evil. You can alter the alignment by up to one step on each alignment axis, but can't make the creature appear to have a diametrically opposed alignment. For instance, you couldn't make a lawful evil character appear to be chaotic or good. You can also adjust the power of the alignment aura up or down in level by a number of steps equal to 1/2 your level or fewer.",
 			"",
@@ -5515,7 +5515,7 @@
 			"**Duration** concentration plus 1 round/level, up to 1 hour/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You strip all creatures within the emanation of any gifts associated with corruptions (see page 14). Abilities associated with corruptions cease to function, as if they were magically dispelled. The corruption stains still fully affect creatures. A creature that enters the emanation and fails its saving throw loses its gifts until the spell's duration ends, even if it leaves the emanation, but a successful saving throw renders a creature immune to the spell, even if it enters and exits the emanation several times."
+			"You strip all creatures within the emanation of any gifts associated with [corruptions](rule/corruption). Abilities associated with corruptions cease to function, as if they were magically dispelled. The corruption stains still fully affect creatures. A creature that enters the emanation and fails its saving throw loses its gifts until the spell's duration ends, even if it leaves the emanation, but a successful saving throw renders a creature immune to the spell, even if it enters and exits the emanation several times."
 		]
 	},
 	"bane": {
@@ -7107,7 +7107,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The black mark functions as a mark of justice, and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the black mark is active, the target is affected as if subject to nature's exile, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not.",
+			"You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The black mark functions as a [mark of justice](spell/mark_of_justice), and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the black mark is active, the target is affected as if subject to nature's exile, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not.",
 			"",
 			"### Mythic Black Mark",
 			"",
@@ -8215,7 +8215,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"You transform the target weapon into pure blightburn. The weapon functions as normal, but any creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains in contact. In addition, the weapon emanates an aura of radiation that causes blightburn sickness. This is as the disease (see page 29), but with a 10-foot radius and a save DC equal to this spell's save DC."
+			"You transform the target weapon into pure blightburn. The weapon functions as normal, but any creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains in contact. In addition, the weapon emanates an aura of radiation that causes [blightburn sickness](disease/blightburn_sickness). This is as the disease, but with a 10-foot radius and a save DC equal to this spell's save DC."
 		]
 	},
 	"blinding_ray": {
@@ -9336,9 +9336,9 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You touch a creature with at least one manifestation from a corruption (see page 14). You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell.",
+			"You touch a creature with at least one manifestation from a [corruption](rule/corruption). You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell.",
 			"",
-			"If your campaign uses the sanity system (see page 12), your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting borrow corruption, while a casting of miracle or wish removes them all."
+			"If your campaign uses [the sanity system](rule/sanity), your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting [borrow corruption](spell/borrow_corruption), while a casting of miracle or wish removes them all."
 		]
 	},
 	"borrow_fortune": {
@@ -9584,7 +9584,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like brand, except that it inflicts 1d6 points of damage when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright as a torch when brought within 30 feet of a visible symbol of your faith. While the symbol is blazing, the recipient is sickened. Like the effects of bestow curse, a greater brand cannot be dispelled, but it can be removed by any means that removes a mark of justice."
+			"This spell functions like brand, except that it inflicts 1d6 points of damage when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright as a torch when brought within 30 feet of a visible symbol of your faith. While the symbol is blazing, the recipient is sickened. Like the effects of bestow curse, a greater brand cannot be dispelled, but it can be removed by any means that removes a [mark of justice](spell/mark_of_justice)."
 		]
 	},
 	"brand_of_conformity": {
@@ -9667,7 +9667,7 @@
 			"",
 			"This spell etches the symbol of an eye or a lawful institution on the target, dealing 1d6 points of damage. The mark can be placed on any exposed portion of the creature, typically the head or forearm. While the target is branded in this way, twice per day as a standard action, you can instantly determine in what direction and how far away the target is, as long as it is within a range equal to 1 mile per your caster level. If the target travels beyond this range or to another plane, you cannot gain information about the recipient's location. Similarly, if the target becomes warded by a spell or effect that thwarts divination spells (such as nondetection) or moves into such an area (such as one created by antimagic field), you cannot gain information about the target's location. This effect otherwise works as a locate creature spell that lasts for 1 minute per caster level. It can be fooled by mislead but not by polymorph.",
 			"",
-			"A brand of tracking can be hidden by clothing or temporarily removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed, or 1 day later otherwise). The effects of a brand of tracking continue to function even when hidden or scraped away. A brand of tracking cannot be dispelled, but it can be permanently removed by any means that removes a mark of justice (see page 312 of the Pathfinder RPG Core Rulebook)."
+			"A brand of tracking can be hidden by clothing or temporarily removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed, or 1 day later otherwise). The effects of a brand of tracking continue to function even when hidden or scraped away. A brand of tracking cannot be dispelled, but it can be permanently removed by any means that removes a [mark of justice](spell/mark_of_justice)."
 		]
 	},
 	"brand,_greater": {
@@ -10636,7 +10636,7 @@
 			"**Duration** see text (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You may cast this spell immediately prior to spending 1 day of downtime to promote a business (see page 85 of Ultimate Campaign). The spell is cast on a building you wish to promote, which is magically bestowed with magical decorations and other improvements that make it generally more appealing, and it is treated as seeing increased activity for the spell's duration. If the spell is cast on a building that you do not promote immediately thereafter, the spell is expended with no effect.",
+			"You may cast this spell immediately prior to spending 1 day of downtime to [promote a business](rule/promote_a_business). The spell is cast on a building you wish to promote, which is magically bestowed with magical decorations and other improvements that make it generally more appealing, and it is treated as seeing increased activity for the spell's duration. If the spell is cast on a building that you do not promote immediately thereafter, the spell is expended with no effect.",
 			"",
 			"After the initial day of downtime spent promoting your building, the spell maintains the influx of activity for a number of days equal to half your caster level (maximum 5 days). During this time, you needn't spend additional downtime to promote the building, but you must spend capital as normal to promote the building. The capital the affected building generates for you is unaffected by the spell. If you spend 1 day promoting a different building than the target of this spell while this spell remains active, the spell immediately ends."
 		]
@@ -10816,7 +10816,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You are able to use the Path of Numbers to substantially boost your combat preparedness, but your foresight comes at a price. Roll 3d8 and refer to the Eight Basic Energies table on page 51. After rolling, assign each die to one of the following.",
+			"You are able to use the Path of Numbers to substantially boost your combat preparedness, but your foresight comes at a price. Roll 3d8 and refer to the Eight Basic Energies table below. After rolling, assign each die to one of the following.",
 			"",
 			"- Energy Type: You gain vulnerability to the energy type that matches the die's result for the duration of the spell. You take half again as much damage (+50%) from that energy type, regardless of whether you successfully saved against the damaging spell or effect.",
 			"- Magic School: For the spell's duration, you cast all spells from the school that matches the die's result at +1 caster level.",
@@ -12275,7 +12275,7 @@
 			"",
 			"The treant-like creature created with this spell is considered a mythic creature, and it gains DR 10/epic and slashing instead of gaining DR 10/slashing.",
 			"",
-			"*Augmented (7th):* If you expend two uses of mythic power, the creature gains the savage mythic template (see page 224)."
+			"*Augmented (7th):* If you expend two uses of mythic power, the creature gains the savage [mythic template](rule/mythic_simple_templates)."
 		]
 	},
 	"channel_the_gift": {
@@ -12399,7 +12399,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** none, see text; **Spell Resistance** no",
 			"",
-			"You charge an item with minor psychic energy. The item can be detected by the detect psychic significance spell. If you wish, you can imprint the item with your ownership history. Spells such as object reading and uses of the psychometry occult skill unlock (see page 196) can reveal any information about yourself you impart into the object, including your name, alignment, profession, and a summary of your experiences with the item. You can't impart false information into the object, but you can omit any details you'd prefer not to divulge. If the target object is already psychically charged, you can add more information to it, but you can't use charge object to erase existing psychic information."
+			"You charge an item with minor psychic energy. The item can be detected by the detect psychic significance spell. If you wish, you can imprint the item with your ownership history. Spells such as object reading and uses of the psychometry unlock can reveal any information about yourself you impart into the object, including your name, alignment, profession, and a summary of your experiences with the item. You can't impart false information into the object, but you can omit any details you'd prefer not to divulge. If the target object is already psychically charged, you can add more information to it, but you can't use charge object to erase existing psychic information."
 		]
 	},
 	"charitable_impulse": {
@@ -13843,7 +13843,7 @@
 			"**Target** you  ",
 			"**Duration** instantaneous",
 			"",
-			"This spell functions as commune with nature except it reveals up to three details about the territory you currently occupy from the following list: bodies of water, features, minerals, or plants. For each feature you learn about, you automatically know the skills you can use to discover that feature and you gain 1d6 Discovery Points toward finding it (see page 124).",
+			"This spell functions as commune with nature except it reveals up to three details about the territory you currently occupy from the following list: bodies of water, features, minerals, or plants. For each feature you learn about, you automatically know the skills you can use to discover that feature and you gain 1d6 [Discovery Points](rule/discovery_and_exploration) toward finding it.",
 			"",
 			"### Tectonic Communion",
 			"",
@@ -14082,7 +14082,7 @@
 			"",
 			"You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations that confound your audience, throughout the spell's casting time and as long as you concentrate. You take 1d4 points of Wisdom drain when you begin the speech and can't reduce or prevent this damage in any way. Each intelligent creature in the spell's area takes 1d6 points of Wisdom damage as their perceptions of reality realign with yours for the spell's duration. Listeners with at least 5 HD can attempt a Will save to negate the effects. Your targets view you with a friendly attitude and respond to criticism of you with irritation. Bluff, Diplomacy, or Intimidate checks to create doubt about your purpose in those affected by the spell take a -4 penalty. The attitude of your targets regarding any creature that criticizes you or your vision automatically changes one step toward hostile; a Diplomacy check that fails by 5 or more reduces their attitude further. Your targets retain the same alignment and their prior beliefs, in addition to the ones you force on them. You can't force beliefs on a target if such beliefs would be necessarily against the nature of its alignment and prior beliefs, but targets are otherwise able to hold contradictory beliefs.",
 			"",
-			"If your campaign uses the sanity system (see page 12), your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting borrow corruption, while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
+			"If your campaign uses [the sanity system](rule/sanity), your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting [borrow corruption](spell/borrow_corruption), while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
 		]
 	},
 	"complex_hallucination": {
@@ -14416,7 +14416,7 @@
 			"",
 			"The black pudding has fast healing equal to your tier, as do any puddings that split off from it. The black puddings from this spell never attack you, though they're otherwise uncontrolled and might attack your allies if there are no other obvious opponents.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the pudding gains the savage mythic template (see page 224). Puddings that split off from the giant pudding don't gain the template."
+			"*Augmented (6th):* If you expend two uses of mythic power, the pudding gains the [savage mythic template](rule/mythic_simple_templates). Puddings that split off from the giant pudding don't gain the template."
 		]
 	},
 	"conjure_carriage": {
@@ -14556,7 +14556,9 @@
 			"",
 			"How creatures respond to a contact spell is circumstantial and it is possible the creatures will simply ignore the spell. Creatures that come and investigate do so in their own time. They usually arrive cautiously, aware of the potential for ambush. Targets of the spell might inform their organization or community if they have one. There are no restrictions on how the creatures react to being contacted, and they might respond with hostility, parley, entertain an alliance, or subjugate the caster and their related community. Using this spell counts as mentally contacting the creature for the purpose of any of its special abilities (such as the star-spawn's overwhelming mind). For the purpose of spells like scrying, the creature has firsthand knowledge of you and a connection similar to if it possessed a likeness of you.",
 			"",
-			"Each type of creature requires a different material component that must be included when casting the spell, as shown on Table 4-1: Contact Entity on page 112. Some of these components are expensive or might require quests to acquire. Contacting certain types of creatures makes the spell chaotic, evil, or both, as indicated on the table.",
+			"Each type of creature requires a different material component that must be included when casting the spell, as shown on Table 4-1: Contact Entity below. Some of these components are expensive or might require quests to acquire. Contacting certain types of creatures makes the spell chaotic, evil, or both, as indicated on the table.",
+			"",
+			"### Table 4-1: Contact Entity",
 			"",
 			"| Contact Entity I | Material Component |",
 			"| --- | --- |",
@@ -14566,7 +14568,9 @@
 			"| Nightgaunt | Sculpture of an animal with the face filed smooth [chaotic] |",
 			"| Ratling | Spell scroll of 1st level or higher [chaotic, evil] |",
 			"| Voonith | Bundle of cattail plants [chaotic] |",
+			"",
 			"| Contact Entity II | Material Component |",
+			"| --- | --- |",
 			"| Colour out of space | Shard of a meteorite |",
 			"| Denizen of Leng | Painting of a memory from a dream worth 1,000 gp |",
 			"| Elder thing | Magic item or piece of technology worth 2,000 gp |",
@@ -14577,7 +14581,9 @@
 			"| Rhu-chalik | Brain of a creature that had 16 Int or higher [evil] |",
 			"| Shantak | A shard of rock harvested from another world [chaotic] |",
 			"| Yangethe | Scroll of an emotion spell of 4th level or higher |",
+			"",
 			"| Contact Entity III | Material Component |",
+			"| --- | --- |",
 			"| Aatheriexa | A swatch of flesh recently damaged by magic [evil] |",
 			"| Deep one elder | Engraved stone tablet |",
 			"| Flying polyp | Eerie music played upon a wind instrument carved from the bone of a living creature [chaotic, evil] |",
@@ -14587,7 +14593,9 @@
 			"| Spawn of Yog-Sothoth | All blood drained from a sacrificed intelligent humanoid [chaotic, evil] |",
 			"| Wendigo | Must devour the flesh of sentient creatures with 8 HD total [chaotic, evil] |",
 			"| Yithian | Quartz geode |",
+			"",
 			"| Contact Entity IV | Material Component |",
+			"| --- | --- |",
 			"| Bhole | Jar of slime created by a bhole's breath weapon |",
 			"| Bodythief | Chunks of brain from a lobotomy subject [evil] |",
 			"| Neothelid | Ruby worth 3,000 gp [chaotic, evil] |",
@@ -15930,7 +15938,7 @@
 			"",
 			"The caster conjures into being one of the following drugs: aether, flayleaf, opium, pesh, scour, shiver, or zerk. (At the GM's discretion, other drugs of similar power can be included on this list.) The drug doses the caster creates with this spell must be used within 1 minute of being conjured, or they dissolve into worthless dust or evaporate into noxious but fleeting vapors, though the effects of the drug may last far longer if taken before it decays.",
 			"",
-			"The drugs created by this spell cannot be sold, but they can be given to other creatures. A creature that takes a dose of one of these drug typically must be either willing or helpless, though some drugs might be inhaled, applied to injuries, or secretly slipped into food if the caster acts swiftly (see each drug's description). The DC to resist a drug created by this spell is based on the conjurer's caster level, not the DC listed in the common versions of the drug. For more information, see Drugs and Addiction on page 236 of the Pathfinder RPG GameMastery Guide.",
+			"The drugs created by this spell cannot be sold, but they can be given to other creatures. A creature that takes a dose of one of these drug typically must be either willing or helpless, though some drugs might be inhaled, applied to injuries, or secretly slipped into food if the caster acts swiftly (see each drug's description). The DC to resist a drug created by this spell is based on the conjurer's caster level, not the DC listed in the common versions of the drug. For more information, see [Drugs and Addiction](rule/drugs_and_addiction).",
 			"",
 			"As a special use of this spell, a lawful evil worshiper of Mahathallah, the Dowager of Illusions, can create doses of the drug adyton (see the sidebar above). A Mahathallah worshiper can create adyton only once per week, regardless of her level or how many times she casts this spell. The spell otherwise functions' and creates as many doses-as normal.",
 			"",
@@ -15944,7 +15952,7 @@
 			"",
 			"**Price** 2,000 gp",
 			"",
-			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the mindscape called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.",
+			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the [mindscape](rule/mindscapes) called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.",
 			"",
 			"Damage 1d4 Str damage"
 		]
@@ -16049,7 +16057,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will disbelief, see text; **Spell Resistance** yes",
 			"",
-			"You create an immersive mindscape (see page 235) that the minds of both you and another creature enter together. You choose whether the mindscape is overt or veiled, and whether it's harmless or harmful. You can choose any shape and size trait, as well as any gravity trait (though you can't make it so the gravity is so strong it harms creatures within). The mindscape has normal time, no alignment traits, and normal magic.",
+			"You create an [immersive mindscape](rule/immersive_mindscapes) that the minds of both you and another creature enter together. You choose whether the mindscape is overt or veiled, and whether it's harmless or harmful. You can choose any shape and size trait, as well as any gravity trait (though you can't make it so the gravity is so strong it harms creatures within). The mindscape has normal time, no alignment traits, and normal magic.",
 			"",
 			"You designate where both you and your subject appear. You don't need line of sight to draw the subject creature into the mindscape, but you must be aware of its presence within range. If you target an area with more than one sentient creature and you have never seen any of the creatures before (for example, if you know a group of soldiers is inside a barracks but you can't see them through the door), the subject of this spell is selected at random. If you have seen firsthand the creature you wish to target (continuing the example, if you spied the sergeant entering the room moments before), you can select it unerringly from among all the creatures. You must appear somewhere in your mindscape, though it's relatively easy to shield yourself from the view of any other creatures inside if they don't realize they're in a mindscape. You must also create a method of exit from the mindscape when you cast this spell, and that method must be possible to achieve based on the traits of the mindscape, even if it is obscure or difficult. The GM decides whether a method of escape is reasonable. Anything that would be a reasonable method of waking from a dream during deep sleep could allow one to leave a mindscape.",
 			"",
@@ -16222,9 +16230,19 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You draw forth the ebbing life force of a dying creature or one that has died in the past round, focusing it through a crystal lens focus to transform into a soul gem. If the creature is alive and fails its saving throw, it dies and you capture its soul in the gem. If the creature is dead, it can still resist the spell effect by attempting a Will save as if it were still alive. The value of the soul gem created depends on the nature of the creature it is made from (see page 191). Soul gems created by this spell crumble to dust once the spell's duration expires, releasing the trapped soul to travel on to judgment in the Great Beyond.",
+			"You draw forth the ebbing life force of a dying creature or one that has died in the past round, focusing it through a crystal lens focus to transform into a [soul gem](monster/cacodaemon). If the creature is alive and fails its saving throw, it dies and you capture its soul in the gem. If the creature is dead, it can still resist the spell effect by attempting a Will save as if it were still alive. The value of the soul gem created depends on the nature of the creature it is made from (see below). Soul gems created by this spell crumble to dust once the spell's duration expires, releasing the trapped soul to travel on to judgment in the Great Beyond.",
 			"",
-			"Only one soul gem can be created from a dying creature. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster check against create soul gem's save DC. Failure results in the resurrection spell having no effect, while success shatters the target's soul gem and returns the creature to life as normal. If the soul gem resides in an unholy location, such as that created by the unhallow spell, the DC of this check increases by 2. If you are a souldrinker (see page 212), you can cast this spell and expend 5 soul points to fill the gem with the equivalent of one basic soul."
+			"Only one soul gem can be created from a dying creature. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster check against create soul gem's save DC. Failure results in the resurrection spell having no effect, while success shatters the target's soul gem and returns the creature to life as normal. If the soul gem resides in an unholy location, such as that created by the unhallow spell, the DC of this check increases by 2. If you are a [souldrinker](prestigeclass/souldrinker), you can cast this spell and expend 5 soul points to fill the gem with the equivalent of one basic soul.",
+			"",
+			"### The Value of Souls",
+			"",
+			"Trapped souls are one of the fundamental currencies throughout Abaddon, the Abyss, and Hell. Three key factors influence a soul's value in the soul trade: the strength of the soul's life force (which relates directly to the CR of the creature from which the soul was harvested), the soul's age (how long the soul has been cycled through reincarnation, which directly relates to the sapience of the creature from which the soul was harvested), and the soul's flavor (which is determined by factors that include the alignment, personality, and religion of the creature from which the soul was harvested). Of course, it's worth noting that while trading in souls may prove lucrative, the practice is undeniably evil and an affront to the natural order, and thus it is considered to be an evil act unless one is trading souls for an altruistic purpose (such as to smash purchased prisons and release the souls trapped within).",
+			"",
+			"**Life Force:** A soul's life force sets its base gp value. This is equal to the CR of the creature from which the soul was harvested &times; 1,000. Thus, the base value of a CR 1 creature's soul is 1,000 gp, while the base value of a CR 20 creature's soul is 20,000 gp.",
+			"",
+			"**Age:** A soul from a creature who in life had an Intelligence, Wisdom, or Charisma score of 2 or less (including the lack of a score at all in one of those categories, and regardless of how high the other ability scores were) is less refined and younger in age, and as such is worth half its base value. Thus, the soul of a CR 1 animal with an Intelligence of 1 is worth 500 gp, while the soul of a CR 20 vermin with no intelligence score at all would be worth 10,000 gp.",
+			"",
+			"**Flavor:** As a general rule, a soul's flavor has no direct impact on its gp value for the purposes of functioning as a material component or raw materials for magic item creation, but in certain circumstances subject to the GM's discretion, the soul's flavor can halve or double its final value. For example, a paladin's soul might have double its normal value to a daemon who finds lawful good souls to be particularly delicious, while the soul of a devout worshiper of Desna might be worth only half as much when used to create a magic item designed to be particularly deadly when used against chaotic good creatures, since such a soul would inherently resist being used in such a way"
 		]
 	},
 	"create_treasure_map": {
@@ -16466,7 +16484,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** no",
 			"",
-			"When you cast this spell, your salivary glands transform and instantly fill with potent venom. Make a ranged touch attack against a single target in range; if you hit, the target is affected by a dose of breath of the mantis god (see page 158). The Fortitude save DC for this poison is the same as the spell's DC, not the standard save DC for the poison."
+			"When you cast this spell, your salivary glands transform and instantly fill with potent venom. Make a ranged touch attack against a single target in range; if you hit, the target is affected by a dose of [breath of the mantis god](equipment/poison/breath_of_the_mantis_god). The Fortitude save DC for this poison is the same as the spell's DC, not the standard save DC for the poison."
 		]
 	},
 	"crimson_confession": {
@@ -16516,7 +16534,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You gain the ability to detect fear, as per sense fear (see page 127), but you sense creatures within medium range.",
+			"You gain the ability to detect fear, as per [sense fear](spell/sense_fear), but you sense creatures within medium range.",
 			"",
 			"Once per round as a standard action, you can teleport to a creature suffering from a fear effect within the spell's range if you are aware of the creature and its rough location. You can carry objects with you so long as you don't transport more than your maximum load. You arrive in a random open space within 20 feet of the creature and immediately begin sensing the location of creatures with a fear condition from your new location.",
 			"",
@@ -17116,9 +17134,9 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"By touching the ground, you drastically change the weather in the area, as the unseasonable weather curse (see page 145). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
+			"By touching the ground, you drastically change the weather in the area, as the unseasonable weather curse (see below). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
 			"",
-			"Unseasonable Weather",
+			"### Unseasonable Weather",
 			"",
 			"**Type** regional curse; **Area** 2-mile-radius emanation; **Save** Will DC 23 to remove",
 			"",
@@ -17172,7 +17190,7 @@
 			"**Duration** 10 minute/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** no",
 			"",
-			"You disrupt the target creature's ability to draw upon magical energies. For the duration of the spell, it gains the negated spellblight (see page 97). Dispel checks to remove the spellblight take a -5 penalty due to this spell's interference with magical energies."
+			"You disrupt the target creature's ability to draw upon magical energies. For the duration of the spell, it gains the [negated spellblight](rule/major_spellblights). Dispel checks to remove the spellblight take a -5 penalty due to this spell's interference with magical energies."
 		]
 	},
 	"curse_of_night": {
@@ -17196,9 +17214,9 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** none (see curse text); **Spell Resistance** no",
 			"",
-			"By touching the ground, you curse an area to remain in bleak darkness, as the endless night curse (see page 143). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
+			"By touching the ground, you curse an area to remain in bleak darkness, as the endless night curse (see below). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
 			"",
-			"Endless Night",
+			"### Endless Night",
 			"",
 			"**Type** regional curse; **Area** 1-mile-radius emanation; **Save** Will DC 22 negates",
 			"",
@@ -17293,7 +17311,7 @@
 			"**Duration** 1 day (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"By touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse (see page 145). Though this makes the hazards appear frequently, their manifestations are still unpredictable-you can't control when the hazards begin or end, nor where they appear within the cursed terrain.",
+			"By touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse (see below). Though this makes the hazards appear frequently, their manifestations are still unpredictable-you can't control when the hazards begin or end, nor where they appear within the cursed terrain.",
 			"",
 			"Curse terrain spells can be made permanent with a permanency spell. The minimum caster level and gp cost are shown on the table. The spell is still dismissable if made permanent.",
 			"",
@@ -17303,11 +17321,12 @@
 			"| Curse Terrain | 11th | 7,500 gp |",
 			"| Greater Curse Terrain | 15th | 17,500 gp |",
 			"| Supreme Curse Terrain | 19th | 27,500 gp |",
-			"Perillous Demesne, Minor",
+			"",
+			"### Perillous Demesne, Minor",
 			"",
 			"**Type** regional curse; **Area** 300-foot-radius emanation; **Save** Will DC 13 to remove",
 			"",
-			"**Effect** Up to three hazards (see the Environments section onpage 152), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time.If a creature places this curse, it can choose the hazards.The hazards must be appropriate to the type of terrain (atthe GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight.",
+			"**Effect** Up to three hazards (see the [Environments section](rule/horror_environments)), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time.If a creature places this curse, it can choose the hazards.The hazards must be appropriate to the type of terrain (atthe GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight.",
 			"",
 			"### Curse Terrain",
 			"",
@@ -17325,13 +17344,13 @@
 			"**Area** 1-mile radius emanting from the touched point  ",
 			"**Duration** 1 day (D)",
 			"",
-			"By touching the ground, you curse the land with four unnatural hazards. This functions as lesser curse terrain, but with the effects of the major perilous demesne curse (see page 145).",
+			"By touching the ground, you curse the land with four unnatural hazards. This functions as lesser curse terrain, but with the effects of the major perilous demesne curse (see below).",
 			"",
-			"Perilous Demesne, Major",
+			"### Perilous Demesne, Major",
 			"",
 			"**Type** regional curse; **Area** 1-mile-radius emanation; **Save** Will DC 16 to remove",
 			"",
-			"**Effect** As per minor perilous demesne (see below), except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together).",
+			"**Effect** As per minor perilous demesne (see above), except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together).",
 			"",
 			"### Curse Terrain, Greater",
 			"",
@@ -17349,13 +17368,13 @@
 			"**Area** 5-mile radius emanating from the touched point  ",
 			"**Duration** 1 day (D)",
 			"",
-			"By touching the ground, you curse the land with six unnatural hazards. This functions as lesser curse terrain, but with the effects of the greater perilous demesne curse (see page 145).",
+			"By touching the ground, you curse the land with six unnatural hazards. This functions as lesser curse terrain, but with the effects of the greater perilous demesne curse (see below).",
 			"",
-			"Perilous Demesne, Greater",
+			"### Perilous Demesne, Greater",
 			"",
 			"**Type** regional curse; **Area** 6-mile-radius emanation; **Save** Will DC 19 to remove",
 			"",
-			"**Effect** As per major perilous demesne (see below), except up to six hazards, each of CR 10 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 11 (for instance, two CR 9 hazards could be encountered together).",
+			"**Effect** As per major perilous demesne (see above), except up to six hazards, each of CR 10 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 11 (for instance, two CR 9 hazards could be encountered together).",
 			"",
 			"**Cure** Remove curse removes a greater perilous demesne only if followed by a casting of hallow at the effect's center.",
 			"",
@@ -17375,13 +17394,13 @@
 			"**Area** 5-mile radius emanating from the touched point  ",
 			"**Duration** 1 day (D)",
 			"",
-			"By touching the ground, you curse the land with seven unnatural hazards. This functions as lesser curse terrain, but with the effects of the grand perilous demesne curse (see page 144).",
+			"By touching the ground, you curse the land with seven unnatural hazards. This functions as lesser curse terrain, but with the effects of the grand perilous demesne curse (see below).",
 			"",
-			"Perilous Demesne, Grand",
+			"### Perilous Demesne, Grand",
 			"",
 			"**Type** regional curse; **Area** 18-mile-radius emanation; **Save** Will DC 22 to remove",
 			"",
-			"**Effect** As per major perilous demesne (see page 145), except up to seven hazards, each of CR 14 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 15 (for instance, two CR 13 hazards could be encountered together).",
+			"**Effect** As per major perilous demesne (see above), except up to seven hazards, each of CR 14 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 15 (for instance, two CR 13 hazards could be encountered together).",
 			"",
 			"**Cure** Remove curse removes a grand perilous demesne only if followed by a casting of hallow at the effect's center, and then casting disintegrate on each of the hazards before the next nightfall or midnight."
 		]
@@ -19902,7 +19921,7 @@
 			"**Duration** concentration, up to 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as per detect magic, except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see Spellcraft on page 106 the Pathfinder RPG Core Rulebook). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area)."
+			"This spell functions as per detect magic, except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see [Spellcraft](skill/spellcraft)). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area)."
 		]
 	},
 	"detect_demon": {
@@ -19928,7 +19947,7 @@
 			"",
 			"You sense the presence of a specific kind of evil-that of demons, their servants, and the Abyss. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
-			"*1st Round:* Presence or absence of creatures with the demon subtype, creatures possessed by demons, creatures under the effects of spells or spell-like abilities cast by demons, or creatures otherwise tainted by demons. Creatures tainted by demons include tieflings with demonic heritages, sorcerers with abyssal bloodlines, creatures affected by a succubus's profane gift, creatures with demonic implants (see page 44 of Pathfinder Campaign Setting: Lords of Chaos, Book of the Damned, Vol. 2), or creatures who have the Demonic Obedience feat, and those under significant demonic influence as determined by the GM. This spell does not detect creatures of chaotic evil alignment who are not demons or significantly influenced by demons.",
+			"*1st Round:* Presence or absence of creatures with the demon subtype, creatures possessed by demons, creatures under the effects of spells or spell-like abilities cast by demons, or creatures otherwise tainted by demons. Creatures tainted by demons include tieflings with demonic heritages, sorcerers with abyssal bloodlines, creatures affected by a succubus's profane gift, creatures with [demonic implants](equipment_misc), or creatures who have the Demonic Obedience feat, and those under significant demonic influence as determined by the GM. This spell does not detect creatures of chaotic evil alignment who are not demons or significantly influenced by demons.",
 			"",
 			"Additionally, this spell detects whether or not a portal or similar magical passage leads to the Abyss.",
 			"",
@@ -20221,7 +20240,7 @@
 			"**Duration** concentration, up to 1 minute/level (D)  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** no",
 			"",
-			"This spell functions similarly to detect thoughts, allowing you to sense when one or more creatures' consciousnesses are inside a mindscape (see page 234). The amount of information revealed depends on how long you study a particular subject.",
+			"This spell functions similarly to detect thoughts, allowing you to sense when one or more creatures' consciousnesses are inside a [mindscape](rule/mindscapes). The amount of information revealed depends on how long you study a particular subject.",
 			"",
 			"*First Round:* You sense the presence or absence of a mindscape. At least one of the creatures inside the mindscape must be within the cone-shaped area for you to detect the mindscape.",
 			"",
@@ -20279,7 +20298,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You detect the presence of psychically significant items in your vicinity. Such items are those that might have significant psychic imprints or histories that can be read by the psychometry occult skill unlock (see page 196), or items under the effects of the charge object or implant false reading spells. Items within range that contain significant psychic energy spark a recognition in your mind's eye, but no other information is imparted. This spell doesn't automatically detect magic items or strongly aligned items, though such items often have storied histories and might have had previous owners who possessed psychic abilities."
+			"You detect the presence of psychically significant items in your vicinity. Such items are those that might have significant psychic imprints or histories that can be read by the psychometry unlock, or items under the effects of the charge object or implant false reading spells. Items within range that contain significant psychic energy spark a recognition in your mind's eye, but no other information is imparted. This spell doesn't automatically detect magic items or strongly aligned items, though such items often have storied histories and might have had previous owners who possessed psychic abilities."
 		]
 	},
 	"detect_radiation": {
@@ -22663,7 +22682,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to Table 3-1 in the Pathfinder RPG Bestiary to determine an attack's altered base damage. If the creature's natural attack deals nonstandard damage, refer instead to the Improved Natural Attack feat on page 315 of the Bestiary. It is not possible to reduce the base damage of a creature's natural attack below 1d2 with this spell."
+			"When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to Table 3-1 in the Pathfinder RPG Bestiary to determine an attack's altered base damage. If the creature's natural attack deals nonstandard damage, refer instead to the [Improved Natural Attack](feat/improved_natural_attack) feat. It is not possible to reduce the base damage of a creature's natural attack below 1d2 with this spell."
 		]
 	},
 	"dragon's_breath": {
@@ -22837,7 +22856,7 @@
 			"",
 			"Your targets see their surroundings as a nightmarish reflection of the world around them. Buildings and furnishings take on a dirty, ruined appearance. Even allies appear foreign and hostile, with friendly speech turning into garbled mockery and threats. Each target gains the scared condition and has a hostile attitude toward any new creature it encounters (though not toward creatures that were already present at the time of the casting). Being hostile doesn't necessarily mean the target will attack, and creatures can attempt Diplomacy checks to gain a target's trust at the normal DC. If a creature becomes frightened or panicked while under the influence of dreadscape, that creature takes 1d6 points of Wisdom damage, though only once per casting of dreadscape.",
 			"",
-			"If your campaign uses the sanity system (see page 12), creatures that become frightened or panicked take 2d6 sanity damage instead of Wisdom damage."
+			"If your campaign uses [the sanity system](rule/sanity), creatures that become frightened or panicked take 2d6 sanity damage instead of Wisdom damage."
 		]
 	},
 	"dream": {
@@ -22930,7 +22949,7 @@
 			"",
 			"You create a comforting phantasm, which leeches onto the psyche of a nearby target. The creature can attempt a Will saving throw to prevent the phantasm from entering its psyche, but otherwise it takes up permanent residence in the creature's mind. The phantasm fills its target's dreams with happy visions, comforting manifestations of loved ones, and incredible vistas, feeding the target a perfect fantasy life it never wishes to leave. After the target's next night's sleep, the target must succeed at a Will saving throw to wake up; otherwise, it remains asleep for the rest of the day and following night. Each night it must succeed at a new saving throw or remain asleep for days or weeks on end as it slowly starves to death (presuming it normally needs to eat to survive). Loud noises, jostling, and even pain won't rouse the slumbering target. Dealing 1 point of damage per the target's Hit Die awakens the target, but it awakens fatigued and takes a -2 penalty on all saving throws against spells and effects that may put it back to sleep until the phantasm has been banished.",
 			"",
-			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via break enchantment, greater restoration, or miracle. Alternatively, the phantasm can be confronted in its host's mindscape, where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
+			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via break enchantment, greater restoration, or miracle. Alternatively, the phantasm can be confronted in its host's [mindscape](rule/mindscapes), where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
 		]
 	},
 	"dream_feast": {
@@ -23090,10 +23109,10 @@
 			"",
 			"| d6 | Result |",
 			"| --- | --- |",
-			"| 1 | Creature contracts cackle fever or mindfire (equal chance of either; see page 557 of the Pathfinder RPG Core Rulebook). |",
+			"| 1 | Creature contracts [cackle fever](disease/cackle_fever) or [mindfire](disease/mindfire) (equal chance of either). |",
 			"| 2 | Creature is cursed, as bestow curse; if the creature is a spellcaster, it instead acquires a random minor spellblight. |",
 			"| 3 | Creature is attacked by a phantasmal killer, and is treated as having failed the initial saving throw to disbelieve it. The Fortitude save DC is equal to the Will save DC that the creature failed. |",
-			"| 4 | Creature is possessed as possession (see page 181) by an outsider (50% chance to be a creature from the destination plane; otherwise, it is a random hostile outsider). |",
+			"| 4 | Creature is possessed as [possession](spell/possession) by an outsider (50% chance to be a creature from the destination plane; otherwise, it is a random hostile outsider). |",
 			"| 5 | Creature is affected as feeblemind. |",
 			"| 6 | Creature is affected as insanity. |",
 			"Traveling to a different planar destination decreases the accuracy of your dream transit. If you exit a creature's dream onto a plane different from the plane you started on, you end up in a random location on the destination plane.",
@@ -26540,7 +26559,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"The target's buoyancy becomes and stays swiftly rising, regardless of how dense the target and its gear are. Among other effects, the target needs to succeed at a DC 20 Swim check to submerge itself and to stay submerged (see Buoyancy on page 43)."
+			"The target's buoyancy becomes and stays swiftly rising, regardless of how dense the target and its gear are. Among other effects, the target needs to succeed at a DC 20 Swim check to submerge itself and to stay submerged (see [Buoyancy](rule/bouyancy))."
 		]
 	},
 	"extreme_flexibility": {

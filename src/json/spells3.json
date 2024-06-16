@@ -1077,7 +1077,7 @@
 			"",
 			"A sheer wall of flame appears and rushes away from you. Tendrils of fire reach out of it, shaped into skulls screaming in agony. When the wall passes through a creature's space, that creature must succeed at a Reflex save or take 1d8 points of fire damage for every 2 caster levels you have (maximum 5d8). Any creature taking fire damage must also succeed at a Will save or take 1d3 points of Wisdom damage. Deaf creatures receive a +4 circumstance bonus on their Will saves.",
 			"",
-			"If your campaign uses the sanity system (see page 12), a creature takes 1d6 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses [the sanity system](rule/sanity), a creature takes 1d6 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"screech": {
@@ -2372,7 +2372,7 @@
 			"**Duration** concentration, up to 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of madness (see page 182) or addiction, has total sanity damage greater than or equal to its sanity edge (see page 12), or is under a magical compulsion that could be detected by detect magic, you can detect the presence of such a disturbance on the first round of concentration.",
+			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of [madness](rule/madness) or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score,_edge,_and_thresholds), or is under a magical compulsion that could be detected by detect magic, you can detect the presence of such a disturbance on the first round of concentration.",
 			"",
 			"If you concentrate on the same creature for an additional round, you learn if the creature's total sanity damage is greater than or equal to its sanity edge, and you can attempt a Sense Motive check against a DC equal to 10 + the save DC of the target's madness or addiction to determine the exact nature of a madness or addiction. Additionally, you can attempt a Spellcraft check with a DC equal to 11 + the caster level of the compulsion against each magical compulsion currently affecting the target that could be detected by detect magic. If successful, you can identify the specific spell affecting the target. You gain a +4 bonus on your Spellcraft check if the effect is confusion, insanity, or a similar effect that explicitly causes madness or insanity. If you successfully identify such an effect with sense madness, the insights provided by this spell grant you a +1 circumstance bonus on your next caster level check in the following 1 minute made to counter, dispel, or remove that specific effect. After attempting a check to identify a madness, addiction, or compulsion, you can't attempt that check against the same creature again, even if you concentrate on the creature again."
 		]
@@ -7897,7 +7897,7 @@
 			"**Target** you  ",
 			"**Duration** 24 hours or until discharged",
 			"",
-			"You heighten your awareness of up to one willing creature or object per 3 caster levels, each of which must be within 30 feet of you during the entire hour you spend preparing spells and casting spirit bonds. By concentrating on one of these creatures or objects as a full-round action, you can learn its direction and relative distance from your location, provided that it is on the same plane. In the case of a creature, you can also learn the state of its emotion or health aura as a full-round action (see page 198 of Pathfinder RPG Occult Adventures for more information about auras). In the case of an object, you can also get a sense of how damaged it is, similar to reading the health aura of a creature, or, in the case of a magic item that must be activated, you can learn when it was last activated (a full-round action in either case).",
+			"You heighten your awareness of up to one willing creature or object per 3 caster levels, each of which must be within 30 feet of you during the entire hour you spend preparing spells and casting spirit bonds. By concentrating on one of these creatures or objects as a full-round action, you can learn its direction and relative distance from your location, provided that it is on the same plane. In the case of a creature, you can also learn the state of its emotion or health [aura](rule/auras) as a full-round action. In the case of an object, you can also get a sense of how damaged it is, similar to reading the health aura of a creature, or, in the case of a magic item that must be activated, you can learn when it was last activated (a full-round action in either case).",
 			"",
 			"Additionally, at any time during the spell's duration, you can deliver a single message to any of the creatures that participated in the spell. This message is delivered telepathically regardless of range and can be up to 25 words in length. Delivering a message in this way severs your connection with that character, and you can no longer learn information about that creature through this spell, but doing so does not impact the remaining duration you have linked to other creatures or objects."
 		]
@@ -8670,7 +8670,7 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You temporarily drain youth and vitality from the target and channel it into yourself. If the target fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you decrease your age by the same number of years. If this changes the age category of you or the target, only adjust physical ability scores. This effect cannot bring your age to lower than the minimum age of adulthood for your race (see page 169 of the Core Rulebook). This stolen youth does not actually change your age or prolong your life; you will still die at your allotted time, no matter how youthful you appear. Likewise, the spell does not add to the target's true age, and cannot make the target die of old age.",
+			"You temporarily drain youth and vitality from the target and channel it into yourself. If the target fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you decrease your age by the same number of years. If this changes the age category of you or the target, only adjust physical ability scores. This effect cannot bring your age to lower than the [minimum age of adulthood](rule/age) for your race. This stolen youth does not actually change your age or prolong your life; you will still die at your allotted time, no matter how youthful you appear. Likewise, the spell does not add to the target's true age, and cannot make the target die of old age.",
 			"",
 			"When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours.",
 			"",
@@ -9908,7 +9908,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell summons a single accuser devil from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others-the Queen's Hands sometimes use summoned zebubs to observe suspects from afar. Accuser devils are detailed on page 84 of the Pathfinder RPG Bestiary 2."
+			"This spell summons a single [accuser devil](monster/accuser_devil) from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others-the Queen's Hands sometimes use summoned zebubs to observe suspects from afar."
 		]
 	},
 	"summon_ancestral_guardian": {
@@ -10447,7 +10447,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon monster V, save that it can only be used to summon host devils. These noxious flying devils, known also as gaavs and magaavs, are detailed on page 58 of Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Vol. 1."
+			"This spell functions as [summon monster V](spell/summon_monster_5), save that it can only be used to summon [host devils](monster/host_devil), noxious flying devils, known also as gaavs and magaavs."
 		]
 	},
 	"summon_instrument": {
@@ -10524,7 +10524,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster, except it allows you to summon a single brimorak, one incubus, one thoxel demon (see page 86), 1d3 schir demons, or 1d4+1 vermlek demons."
+			"This spell functions like summon monster, except it allows you to summon a single brimorak, one incubus, one thoxel demon, 1d3 schir demons, or 1d4+1 vermlek demons."
 		]
 	},
 	"summon_lesser_psychopomp": {
@@ -10548,7 +10548,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster, except that it summons 1d3 esobok psychopomps or 1d4+1 nosoi psychopomps. Esobok psychopomps are detailed on page 84. Nosoi psychopomps are detailed on page 220 of Pathfinder RPG Bestiary 4."
+			"This spell functions like summon monster, except that it summons 1d3 [esobok psychopomps](monster/esobak_psychopomp) or 1d4+1 [nosoi psychopomps](monster/nosoi_psychopomp)."
 		]
 	},
 	"summon_meladaemon": {
@@ -11497,7 +11497,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster, except that it summons a single vanth psychopomp. Vanth psychopomps are detailed on page 221 of Pathfinder RPG Bestiary 4."
+			"This spell functions like summon monster, except that it summons a single [vanth psychopomp](monster/vanth_psychopomp)."
 		]
 	},
 	"summoner_conduit": {
@@ -13502,7 +13502,7 @@
 			"",
 			"When you cast this spell, you mix special tattoo inks into a potion of your choice. Once you finish casting tattoo potion, the potion begins bubbling and fizzing-if no one drinks the potion within 1 minute of the spell being cast, the potion bubbles away into vapor and is destroyed.",
 			"",
-			"When a potion under the effects of tattoo potion is imbibed, the effects of the potion do not occur. Instead, the potion transforms into a spell tattoo (see page 16) on the drinker's chest tattoo slot-if the drinker already has a magic tattoo in this location, the tattoo potion is wasted. Once the potion transforms into a spell tattoo, it remains in place permanently until it is used as a spell tattoo."
+			"When a potion under the effects of tattoo potion is imbibed, the effects of the potion do not occur. Instead, the potion transforms into a [spell tattoo](magic/tattoo/spell_tattoo) on the drinker's chest tattoo slot-if the drinker already has a magic tattoo in this location, the tattoo potion is wasted. Once the potion transforms into a spell tattoo, it remains in place permanently until it is used as a spell tattoo."
 		]
 	},
 	"tears_to_wine": {
@@ -13839,7 +13839,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** yes",
 			"",
-			"You alter the target's mood, adjusting its attitude toward you or another creature you designate by one step either positively or negatively (see the Diplomacy skill on page 94 of the Pathfinder RPG Core Rulebook). You can instead use this spell to assist your own or an ally's Bluff, Diplomacy, Intimidate, Perform, or Sense Motive check, granting that check a +5 insight bonus against the target of your telempathic projection with no save. In this case, the spell's duration expires immediately when the skill check is complete.",
+			"You alter the target's mood, adjusting its attitude toward you or another creature you designate by one step either positively or negatively (see the [Diplomacy skill](skill/diplomacy)). You can instead use this spell to assist your own or an ally's Bluff, Diplomacy, Intimidate, Perform, or Sense Motive check, granting that check a +5 insight bonus against the target of your telempathic projection with no save. In this case, the spell's duration expires immediately when the skill check is complete.",
 			"",
 			"### Implanted Projection",
 			"",
@@ -16548,7 +16548,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude negates (object); **Spell Resistance** yes (object)",
 			"",
-			"You transform one bottle of fine wine into 1 pint of animal blood, sufficient for a creature with the blood drain ability to feed upon as if it came from a Medium animal with 1 Hit Die. If you are using the optional hunger rules (see page 22), this blood satiates an undead creature's hunger, negating any withdrawal effects, but does not grant the creature a feeding bonus. The blood coagulates and spoils at the normal rate."
+			"You transform one bottle of fine wine into 1 pint of animal blood, sufficient for a creature with the blood drain ability to feed upon as if it came from a Medium animal with 1 Hit Die. If you are using the [optional hunger rules](rule/hunger_rules), this blood satiates an undead creature's hunger, negating any withdrawal effects, but does not grant the creature a feeding bonus. The blood coagulates and spoils at the normal rate."
 		]
 	},
 	"transplant_visage": {
@@ -21735,9 +21735,10 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** see text; **Spell Resistance** no",
 			"",
-			"By speaking the name \"Xhamen-Dor,\" you infuse yourself with the essence of the Inmost Blot and gain a +3 profane bonus on Will saving throws for the spell's duration. When you prepare what grows within for the first time, or the first time you use it via a spell-completion or spell-trigger item, you can thereafter be targeted by Xhamen-Dor's infected dreams ability (see page 86). As long as you are under the effects of what grows within, your mind-affecting spells carry this supernatural taint within them and can infect those who succumb to those effects. Whenever you successfully affect a creature with one of your mind-affecting spells (this requires the target to fail its saving throw against the spell if the spell allows a save, but automatically affects a target if the spell does not allow a saving throw), that target must also succeed at a Fortitude saving throw against what grows within or it immediately becomes afflicted by a lesser version of Xhamen-Dor's seeded infestation. This infestation does not expose the victim to Xhamen-Dor's infectious dreams, but it can ultimately result in that creature's transformation into one of the seeded. Each time you affect a creature with what grows within in this manner, the remaining duration of what grows within is reduced by 1 round. If you affect multiple creatures in a round, you choose the order in which they must save against the effects of what grows within, and reduce the spell's remaining duration by 1 round each time one of them is affected by the infestation.",
+			"By speaking the name [\"Xhamen-Dor,\"](monster/xhamen-dor) you infuse yourself with the essence of the Inmost Blot and gain a +3 profane bonus on Will saving throws for the spell's duration. When you prepare what grows within for the first time, or the first time you use it via a spell-completion or spell-trigger item, you can thereafter be targeted by Xhamen-Dor's infected dreams ability. As long as you are under the effects of what grows within, your mind-affecting spells carry this supernatural taint within them and can infect those who succumb to those effects. Whenever you successfully affect a creature with one of your mind-affecting spells (this requires the target to fail its saving throw against the spell if the spell allows a save, but automatically affects a target if the spell does not allow a saving throw), that target must also succeed at a Fortitude saving throw against what grows within or it immediately becomes afflicted by a lesser version of Xhamen-Dor's seeded infestation. This infestation does not expose the victim to Xhamen-Dor's infectious dreams, but it can ultimately result in that creature's transformation into one of the seeded. Each time you affect a creature with what grows within in this manner, the remaining duration of what grows within is reduced by 1 round. If you affect multiple creatures in a round, you choose the order in which they must save against the effects of what grows within, and reduce the spell's remaining duration by 1 round each time one of them is affected by the infestation.",
 			"",
-			"Lesser Seeded Infestation-save Fortitude DC = spell's save DC; onset immediate; frequency 1/day; effect 1d4 Constitution drain; cure none. This infestation can be cured by magic alone. A creature whose Constitution is reduced to 0 by this infestation dies and rises from death in 1d4 rounds as a seeded creature (see page 90). This is an infestation effect."
+			"**Lesser Seeded Infestation**-*save* Fortitude DC = spell's save DC; *onset* immediate; *frequency* 1/day; *effect* 1d4 Constitution drain; *cure* none.  ",
+			"This infestation can be cured by magic alone. A creature whose Constitution is reduced to 0 by this infestation dies and rises from death in 1d4 rounds as a seeded creature. This is an infestation effect."
 		]
 	},
 	"whip_of_ants": {
