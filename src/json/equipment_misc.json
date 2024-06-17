@@ -20062,7 +20062,7 @@
 			"**Damage** 1d2 Con damage"
 		]
 	},
-	"telescope_&times;10": {
+	"telescope_x10": {
 		"name": "telescope (&times;10)",
 		"sources": [ "People of the Stars" ],
 		"description": [
@@ -20082,23 +20082,23 @@
 		]
 	},
 	"telescope_xten": {
-		"copyof": "telescope_&times;10"
+		"copyof": "telescope_x10"
 	},
-	"telescope_&times;250": {
+	"telescope_x250": {
 		"name": "telescope (&times;250)",
 		"sources": [ "People of the Stars" ],
 		"copyof": "telescope_xten"
 	},
-	"telescope_&times;_two_hundred_fifty": {
-		"copyof": "telescope_&times;250"
+	"telescope_x_two_hundred_fifty": {
+		"copyof": "telescope_x250"
 	},
-	"telescope_&times;50": {
+	"telescope_x50": {
 		"name": "telescope (&times;50)",
 		"sources": [ "People of the Stars" ],
 		"copyof": "telescope_xten"
 	},
-	"telescope_&times;_fifty": {
-		"copyof": "telescope_&times;50"
+	"telescope_x_fifty": {
+		"copyof": "telescope_x50"
 	},
 	"tennis_gear": {
 		"name": "tennis gear",
