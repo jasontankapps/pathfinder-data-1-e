@@ -180,6 +180,26 @@
 			"Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control."
 		]
 	},
+	"bloodbrush_extract": {
+		"name": "Bloodbrush Extract",
+		"file": "none",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "ingested",
+		"addiction": "minor",
+		"fortitude_save": "DC 14",
+		"price": 25,
+		"description": [
+			"## Bloodbrush extract",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 23](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** ingested; **Addiction** minor, Fortitude DC 14  ",
+			"**Price** 25 gp  ",
+			"**Effect** 2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of Perception checks  ",
+			"**Damage** 1d2 Wis damage",
+			"",
+			"Refined from the thorns of [bloodbrush](monster/bloodbrush), this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
+		]
+	},
 	"opium": {
 		"name": "Opium",
 		"file": "drugsf844.html",
@@ -435,6 +455,26 @@
 			"**Damage** 1d4 Wis damage",
 			"",
 			"This slate-gray powder is often mixed into alcohol and consumed by those working in the noisy testing ranges at Alkenstar's Gunworks. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps."
+		]
+	},
+	"starspore": {
+		"name": "Starspore",
+		"file": "none",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "ingested or inhaled",
+		"addiction": "severe",
+		"fortitude_save": "DC 15",
+		"price": 300,
+		"description": [
+			"## Starspore",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 25](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** ingested or inhaled; **Addiction** severe, Fortitude DC 15  ",
+			"**Price** 300 gp  ",
+			"**Effect** 1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as [see invisibility](spell/see_invisibility)), and vulnerability to sonic damage  ",
+			"**Damage** 1d2 Constitution damage and 1 Wisdom drain",
+			"",
+			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on adamantine and other skymetals as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price"
 		]
 	},
 	"elven_absinthe": {

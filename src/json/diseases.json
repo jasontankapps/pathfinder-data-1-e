@@ -98,6 +98,28 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
+	"coward's_mark": {
+		"name": "Coward's Mark",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "contact or inhaled",
+		"fortitude_save": "DC 13",
+		"onset": "1 week",
+		"frequency": "1/day",
+		"effect": "1d2 Dexterity damage and 1d2 Wisdom damage. If the victim fails two saving throws 2 days in a row (not counting the initial save), he develops a secondary effect, or the existing secondary effect worsens. Curing the affliction immediately removes all accumulated secondary effects. The first time the disease progresses, the victim becomes shaken whenever other creatures (including all ies) are within 30 feet. After the second progression, the victim must succeed at a Will saving throw (DC equal to the disease's save DC) or become frightened each time any creature approaches within 30 feet. The victim needs to attempt a saving throw against any specific creature only once every 24 hours. With the third and final progression, the disease's save DC increases by 2, and the reaction upon a failed save increases to panic. After the third progression, the victim feels safe only in complete solitude. The secondary effects of coward's mark are mind-affecting fear effects.",
+		"cure": "3 consecutive saves",
+		"description": [
+			"## Coward's Mark",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** contact or inhaled; **Fortitude Save* DC 13  ",
+			"**Onset** 1 day; **Frequency** 1/day  ",
+			"**Initial Effect** 1d2 Dexterity damage and 1d2 Wisdom damage. If the victim fails two saving throws 2 days in a row (not counting the initial save), he develops a secondary effect, or the existing secondary effect worsens. Curing the affliction immediately removes all accumulated secondary effects.  ",
+			"**Secondary Effect** The first time the disease progresses, the victim becomes shaken whenever other creatures (including all ies) are within 30 feet. After the second progression, the victim must succeed at a Will saving throw (DC equal to the disease's save DC) or become frightened each time any creature approaches within 30 feet. The victim needs to attempt a saving throw against any specific creature only once every 24 hours. With the third and final progression, the disease's save DC increases by 2, and the reaction upon a failed save increases to panic. After the third progression, the victim feels safe only in complete solitude. The secondary effects of coward's mark are mind-affecting fear effects.  ",
+			"**Cure** 3 consecutive saves",
+			"",
+			"Externally manifesting as round marks on the skin like ringworm, this fungal infection soon spreads to the nervous system. The corpses of victims that succumb to coward's mark sprout thousands of fruiting bodies 1d4 days after death, spreading the infection on the wind."
+		]
+	},
 	"ghoul_fever": {
 		"name": "Ghoul Fever",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -154,6 +176,25 @@
 			"**Type** contact; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d8 Dex damage  ",
+			"**Cure** 2 consecutive saves"
+		]
+	},
+	"bluespit": {
+		"name": "Bluespit",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "inhaled",
+		"fortitude_save": "DC 14",
+		"onset": "1 hour",
+		"frequency": "1/day",
+		"effect": "1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while infected with bluespit begins to [suffocate](rule/suffocation). Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Bluespit",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 23](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** inhaled; **Fortitude Save* DC 14  ",
+			"**Onset** 1 hour; **Frequency** 1/day  ",
+			"**Effect** 1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while infected with bluespit begins to [suffocate](rule/suffocation). Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},
@@ -517,6 +558,27 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
+	"final_rest": {
+		"name": "Final Rest",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "inhaled",
+		"fortitude_save": "DC 16",
+		"onset": "1 week",
+		"frequency": "1/day",
+		"effect": "1d2 Charisma damage; while any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects.",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Final Rest",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** inhaled; **Fortitude Save* DC 16  ",
+			"**Onset** 1 week; **Frequency** 1/day  ",
+			"**Effect** 1d2 Charisma damage; while any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects.  ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"A disease brought on a ruined starship, final rest sops emotion until the victim simply gives up living."
+		]
+	},
 	"pulsing_puffs": {
 		"name": "Pulsing Puffs",
 		"sources": [ "Heart of the Jungle" ],
@@ -614,6 +676,27 @@
 			"**Cure** 3 consecutive saves"
 		]
 	},
+	"shattermind": {
+		"name": "Shattermind",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"type": "contact",
+		"fortitude_save": "DC 17",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Wis (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a [type of insanity](rule/sanity_and_madness). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Shattermind",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** contact; **Fortitude Save* DC 17  ",
+			"**Onset** 1 day; **Frequency** 1/day  ",
+			"**Effect** 1d4 Wis (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a [type of insanity](rule/sanity_and_madness). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.  ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"Shattermind refers to a group of related infectious mental patterns spread by skin-to-skin contact between infected victims. Most forms of shattermind affect only humanoids and monstrous humanoids. Each form of shattermind spreads a different form of insanity to its victims. [Restoration](spell/restoration) allows a new saving throw but does not cure the insanity."
+		]
+	},
 	"demon_fever": {
 		"name": "Demon Fever",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -693,6 +776,27 @@
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex damage and 1d2 Cha damage  ",
 			"**Cure** 2 consecutive saves or amputation of infected limb"
+		]
+	},
+	"eidite_sickness": {
+		"name": "Eidite sickness",
+		"sources": [ "Wardens of the Reborn Forge" ],
+		"type": "ingested, injury, or touch",
+		"fortitude_save": "DC 20",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d3 Wis damage and -4 penalty on saving throws against poisons and diseases. Unlike other diseases, constructs are not immune to eidite sickness. After 3 days of being affected by the disease, a construct gains the [advanced simple template](template/advanced) and loses any programming or instructions given to it, effectively going berserk, and attacks all living creatures in sight until it is destroyed or the disease is removed.",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Ergia",
+			"",
+			"**Source** [Wardens of the Reborn Forge pg. 19](source/wardens_of_the_reborn_forge)  ",
+			"**Type** ingested, injury, or touch; **Fortitude Save* DC 20  ",
+			"**Onset** 1d3 days; **Frequency** 1/day  ",
+			"**Effect** 1d3 Wis damage and -4 penalty on saving throws against poisons and diseases. Unlike other diseases, constructs are not immune to eidite sickness. After 3 days of being affected by the disease, a construct gains the [advanced simple template](template/advanced) and loses any programming or instructions given to it, effectively going berserk, and attacks all living creatures in sight until it is destroyed or the disease is removed.  ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"The toxic mineral eidite is native to the Karggat Hills, and scholars speculate that it's a result of the foul magic left here by Geb and Nex's ancient wars. Any living creature that touches eidite risks exposure to the substance's highly poisonous toxin."
 		]
 	},
 	"ergia": {

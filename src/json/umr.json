@@ -656,11 +656,11 @@
 			"- An empyreal lord can grant spells to its worshipers as if it were a deity. An empyreal lord's domains are Chaos (if chaotic), Good, Law (if lawful), and two other domains relevant to its theme and interests (or three other domains if it is neither chaotic nor lawful). Like a deity, an empyreal lord has a favored weapon.",
 			"- An empyreal lord's natural weapons and any weapons he or she wields are treated as epic and good for the purpose of overcoming damage reduction. If the empyreal lord is chaotic or lawful, these weapons also count as having that alignment for the purpose of overcoming damage reduction.",
 			"- Blindsense 60 feet.",
-			"- Greater Teleport (Sp) An empyreal lord can use [greater teleport](spell/greater_teleport) as a spell-like ability at will (caster level 20th).",
+			"- **Greater Teleport (Sp)** An empyreal lord can use [greater teleport](spell/greater_teleport) as a spell-like ability at will (caster level 20th).",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
-			"- Primal Aura (Su) An aura of primeval power surrounds every empyreal lord. The effects of this aura are unique to each empyreal lord.",
-			"- Regeneration (Ex) Only mythic damage or damage from a creature of equal or greater power (such as a deity or demigod) interrupts an empyreal lord's regeneration.",
-			"- Seed of Life (Sp) An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a [heal](spell/heal) spell targeting itself or outward as [mass cure serious wounds](spell/mass_cure_serious_wounds) on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures."
+			"- **Primal Aura (Su)** An aura of primeval power surrounds every empyreal lord. The effects of this aura are unique to each empyreal lord.",
+			"- **Regeneration (Ex)** Only mythic damage or damage from a creature of equal or greater power (such as a deity or demigod) interrupts an empyreal lord's regeneration.",
+			"- **Seed of Life (Sp)** An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a [heal](spell/heal) spell targeting itself or outward as [mass cure serious wounds](spell/mass_cure_serious_wounds) on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures."
 		]
 	},
 	"engulf": {
@@ -987,7 +987,10 @@
 	},
 	"natural_attacks": {
 		"name": "Natural Attacks",
-		"sources": [ "Bestiary 5" ],
+		"sources": [
+			"Bestiary 3",
+			"Bestiary 5"
+		],
 		"description": [
 			"### Natural Attacks",
 			"",
@@ -1671,12 +1674,12 @@
 			"",
 			"- A demon lord can grant spells to its worshipers as if it were a deity. A demon lord's domains are Chaos, Evil, and two other domains relevant to its theme and interests. Like a deity, a demon lord has a favored weapon.",
 			"- A demon lord's natural weapons, as well as any weapons it wields, are treated as chaotic, epic, and evil for the purpose of overcoming damage reduction.",
-			"- Abyssal Resurrection (Ex) A demon lord rules an Abyssal realm, a vast world that not only serves as its home but provides it with power. If a demon lord is slain, its body rapidly melts into corruption (leaving behind any gear it held or carried), its soul returns to a hidden location within its realm, and it is immediately restored to life (as [true resurrection](spell/true_resurrection)) at that location. Once this occurs, a demon lord can't use this ability again until a full year has passed. A demon lord realizes it is vulnerable during this time and usually doesn't risk further battles for the remainder of that year, relying on the defenses of its realm and its legions of minions to protect it. A demon lord that is slain again during this year or is killed by unusual methods (such as by a true deity or an artifact created for this purpose) is slain forever-its remains appearing somewhere deep in the Abyss among other dead demon lords from the ages. A demon lord who does not control a domain does not gain this ability.",
-			"- Frightful Presence (Su) A demon lord can activate its frightful presence as a free action as part of any attack, spell-like ability, special attack, or by speaking aloud.",
+			"- **Abyssal Resurrection (Ex)** A demon lord rules an Abyssal realm, a vast world that not only serves as its home but provides it with power. If a demon lord is slain, its body rapidly melts into corruption (leaving behind any gear it held or carried), its soul returns to a hidden location within its realm, and it is immediately restored to life (as [true resurrection](spell/true_resurrection)) at that location. Once this occurs, a demon lord can't use this ability again until a full year has passed. A demon lord realizes it is vulnerable during this time and usually doesn't risk further battles for the remainder of that year, relying on the defenses of its realm and its legions of minions to protect it. A demon lord that is slain again during this year or is killed by unusual methods (such as by a true deity or an artifact created for this purpose) is slain forever-its remains appearing somewhere deep in the Abyss among other dead demon lords from the ages. A demon lord who does not control a domain does not gain this ability.",
+			"- **Frightful Presence (Su)** A demon lord can activate its frightful presence as a free action as part of any attack, spell-like ability, special attack, or by speaking aloud.",
 			"- Immunity to ability damage, ability drain, charm effects, compulsion effects, death effects, energy drain, and petrification.",
-			"- Regeneration (Ex) Only epic and good damage, or damage from a creature of equal or greater power (such as an archdevil, deity, demon lord, or protean lord) interrupts a demon lord's regeneration.",
+			"- **Regeneration (Ex)** Only epic and good damage, or damage from a creature of equal or greater power (such as an archdevil, deity, demon lord, or protean lord) interrupts a demon lord's regeneration.",
 			"- Resistance to acid 30, cold 30, and fire 30.",
-			"- Summon Demons (Sp) Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.",
+			"- **Summon Demons (Sp)** Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
 		]
 	},

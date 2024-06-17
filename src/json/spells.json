@@ -3101,6 +3101,7 @@
 			"While this spell is in effect, you must succeed at a concentration check (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the check, you lose the spell as if you had cast it to no effect."
 		]
 	},
+	"source_severance": { "copyof": "antimagic_field" },
 	"antipathy": {
 		"name": "Antipathy",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -13866,6 +13867,7 @@
 			"For every 2 caster levels above 13th, you may glean an additional fact from the list presented in commune with nature. Communities, dungeons, and signs of civilization (such as roads, farms or other constructions and settlements) exist as dark and unknowable blots in your perception of the spell's area; you're aware of their location and existence, but can't discern any information regarding them."
 		]
 	},
+	"tectonic_communion": { "copyof": "commune_with_nature" },
 	"commune_with_plane": {
 		"name": "Commune with Plane",
 		"sources": [ "Planar Adventures" ],
