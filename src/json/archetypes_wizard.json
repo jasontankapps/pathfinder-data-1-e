@@ -101,7 +101,7 @@
 			"",
 			"At 9th level, when the bonded wizard uses bonded force for mage armor, the armor bonus increases by 1; when she uses bonded force for shield, the shield bonus increases by 1; and she gains a +1 enhancement bonus on attack and damage rolls when using bonded force for spiritual weapon. The increases for mage armor and shield and the enhancement bonus for spiritual weapon improve by an additional 1 at 13th level and again at 17th level. When she uses bonded force for spiritual weapon, the bonded wizard can choose to reduce this enhancement bonus by 1 to double the spiritual weapon's critical threat range as the keen weapon property, and for mage armor or shield, she can choose to reduce the armor or shield bonus by 1 to protect herself from critical hits and sneak attacks as the light fortification armor property.",
 			"",
-			"Alternatively, the bonded wizard can expend a point from her force pool to create a tool of force, which functions as a masterwork version of a simple tool of her choice that could be reproduced by a traveler's any-tool (Ultimate Equipment 323). The tool has the same AC and durability as a spiritual weapon and lasts for 10 minutes. The circumstance bonus the tool of force grants to appropriate skill checks starts at +2 (as masterwork tools) and increases to +3 at 9th level, and by an additional +1 every 4 levels thereafter, to a maximum of +5 at 17th level.",
+			"Alternatively, the bonded wizard can expend a point from her force pool to create a tool of force, which functions as a masterwork version of a simple tool of her choice that could be reproduced by a traveler's [any-tool](equipment/misc/any-tool). The tool has the same AC and durability as a spiritual weapon and lasts for 10 minutes. The circumstance bonus the tool of force grants to appropriate skill checks starts at +2 (as masterwork tools) and increases to +3 at 9th level, and by an additional +1 every 4 levels thereafter, to a maximum of +5 at 17th level.",
 			"",
 			"A bonded wizard can only have one instance of bonded force active at a time. If she uses this ability again, any previously created force construct immediately ends.",
 			"",
@@ -377,7 +377,7 @@
 			"",
 			"**Aura (Ex):** A pact wizard has an aura corresponding to the alignment of his chosen subtype as a cleric of his wizard level.",
 			"",
-			"**Pact Summons (Ex):** A pact wizard can select Sacred Summons (Pathfinder RPG Ultimate Magic 155) as a wizard bonus feat. He can use this feat only to summon outsiders of his chosen subtype.",
+			"**Pact Summons (Ex):** A pact wizard can select [Sacred Summons](feat/sacred_summons) as a wizard bonus feat. He can use this feat only to summon outsiders of his chosen subtype.",
 			"",
 			"**True Form (Ex):** At 7th level, a pact wizard's familiar reveals its true form, automatically transforming into an outsider improved familiar of the chosen subtype."
 		]
@@ -435,7 +435,7 @@
 			"",
 			"**Mount (Sp):** A Poleiheira adherent can summon a magical steed to her side (per the mount spell) that lasts up to 2 hours per wizard level. The duration of this ability doesn't need to be consecutive, but it must be spent in 2-hour increments. When riding a mount summoned with this ability, a Poleiheira adherent can substitute Spellcraft checks for Ride checks.",
 			"",
-			"Master Mariner (Su) At 8th level, a Poleiheira adherent can telekinetically control a boat or ship with such skill and finesse that she counts as a number of people equal to her wizard level for the purpose of determining how many crew members are needed to move a water vehicle (Pathfinder RPG Ultimate Combat 174). When controlling a ship in this manner, she can substitute Spellcraft checks for Profession (sailor) checks."
+			"Master Mariner (Su) At 8th level, a Poleiheira adherent can telekinetically control a boat or ship with such skill and finesse that she counts as a number of people equal to her wizard level for the purpose of determining how many [crew members are needed](rule/driving_vehicles) to move a water vehicle. When controlling a ship in this manner, she can substitute Spellcraft checks for Profession (sailor) checks."
 		]
 	},
 	"primalist": {
@@ -663,7 +663,7 @@
 			"**Source** [Advanced Class Guide pg. 133](source/advanced_class_guide)  ",
 			"Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit whisperers do gain and store their spells by communing with familiars, the spirits they gain guidance from are somewhat closer to the world and more direct than the powers with which witches typically traffic. These wizards treat such spirits as mentors and friends, conversing with them rather than appeasing them in the effort to gain and use arcane knowledge.",
 			"",
-			"**Arcane Bond (Ex):** When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the witch's familiar class feature (Advanced Player's Guide 67). This ability alters arcane bond and replaces the spellbook class feature.",
+			"**Arcane Bond (Ex):** When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the [witch's familiar](class/witch) class feature. This ability alters arcane bond and replaces the spellbook class feature.",
 			"",
 			"**Spirit Link (Su):** At 1st level, a spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the [shaman's list of spirits](ability/shaman_spirits). At 1st level, he gains a spirit ability granted by that spirit. At 8th level, he gains the greater spirit ability granted by that spirit. At 20th level, the spirit whisperer gains the manifestation ability granted by the spirit. He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain hexes, spirit magic spells, or the true spirit ability typically granted to a shaman by these spirits. This ability replaces arcane school and the bonus feat gained at 20th level.",
 			"",
@@ -741,7 +741,7 @@
 			"",
 			"**Necropolitan (Ex):** An undead master gains a bonus equal to half his wizard level (minimum +1) on Diplomacy and Knowledge checks regarding undead creatures. Because of his obsessive focus on the undead, he takes a -2 penalty when attempting such checks regarding living creatures.",
 			"",
-			"**Corpse Bond (Su):** An undead master can forge an arcane bond with an object, but that object must be made at least partially of bone. Alternatively, he can animate a corpse companion, as per the undead lord cleric archetype (Pathfinder RPG Ultimate Magic 32). He can't gain a familiar.",
+			"**Corpse Bond (Su):** An undead master can forge an arcane bond with an object, but that object must be made at least partially of bone. Alternatively, he can animate a corpse companion, as per the [undead lord](archetype/cleric/undead_lord) cleric archetype. He can't gain a familiar.",
 			"",
 			"This ability alters arcane bond.",
 			"",

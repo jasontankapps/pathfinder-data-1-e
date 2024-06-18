@@ -131,7 +131,7 @@
 			"",
 			"This ability alters life link.",
 			"",
-			"**Divine Word (Ex):** At 8th level, if a god caller's eidolon would grant him a bonus with the aid another action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling. Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual influence rules (Ultimate Intrigue 102), he instead improves that target's attitude by 2 steps or it counts as 2 successes.",
+			"**Divine Word (Ex):** At 8th level, if a god caller's eidolon would grant him a bonus with the aid another action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling. Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual [influence](rule/influence) rules, he instead improves that target's attitude by 2 steps or it counts as 2 successes.",
 			"",
 			"This ability replaces transposition.",
 			"",
@@ -143,7 +143,7 @@
 			"",
 			"This ability replaces greater aspect.",
 			"",
-			"**Overwhelming Presence (Sp):** At 20th level, a god caller's eidolon can use overwhelming presence (Pathfinder RPG Ultimate Magic 230) three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.",
+			"**Overwhelming Presence (Sp):** At 20th level, a god caller's eidolon can use [overwhelming presence](spell/overwhelming_presence) three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.",
 			"",
 			"This ability replaces twin eidolon."
 		]
@@ -237,7 +237,7 @@
 			"",
 			"This ability replaces shield ally and greater shield ally.",
 			"",
-			"**Storm's Wings (Su):** At 6th level, a storm caller can borrow some of his eidolon's elemental might. He can gain the flight evolution (Pathfinder Unchained 37) as though he were using the summoner's aspect ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.",
+			"**Storm's Wings (Su):** At 6th level, a storm caller can borrow some of his eidolon's elemental might. He can gain the flight [evolution](ability/unchained_evolutions) as though he were using the summoner's aspect ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.",
 			"",
 			"At 8th level, the storm caller's eidolon can have the flight evolution even if the storm caller has that evolution.",
 			"",

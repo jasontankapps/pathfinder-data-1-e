@@ -254,7 +254,7 @@
 			"**Effect** 1d4 Wis damage and target is fatigued  ",
 			"**Cure** 2 consecutive saves or arsenic (see text)",
 			"",
-			"The best cure for this disease is dosing the patient with the poison arsenic (Pathfinder RPG Core Rulebook 558)-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
+			"The best cure for this disease is dosing the patient with the poison [arsenic](equipment/poison/arsenic)-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
 		]
 	},
 	"slimy_doom": {
@@ -394,7 +394,7 @@
 			"**Cure** 2 consecutive saves",
 			"",
 			"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw  ",
-			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a Mana Waste mutant (Pathfinder Campaign Setting: Inner Sea Bestiary 28) or a mutant (Pathfinder RPG Bestiary 5 180), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
+			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a [Mana Waste mutant](template/mana_waste_mutant) or a [mutant](template/mutant), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
 		]
 	},
 	"the_tainted_plague": {

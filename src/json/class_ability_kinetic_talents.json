@@ -2505,7 +2505,7 @@
 			"**Sources:** [Occult Adventures pg. 22](source/occult_adventures)  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 5; **Burn** 0",
 			"",
-			"You use strands of aether to animate an object. You can animate a Medium or smaller object as an animated object (Pathfinder RPG Bestiary 14) with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine."
+			"You use strands of aether to animate an object. You can animate a Medium or smaller object as an [animated object](monster/animated_object) with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine."
 		]
 	},
 	"air_cushion": {
@@ -2912,7 +2912,7 @@
 			"**Sources:** [Occult Realms pg. 8](source/occult_realms)  ",
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0",
 			"",
-			"Blending your form with crystal, you have transmuted yourself into something akin to an oread. You keep your original racial abilities (including your ability score adjustments, but not your movement speed) and also gain all oread racial abilities (including an oread's movement speed and the outsider [native] type) except for ability score adjustments. You have the crystalline form alternate racial trait (Pathfinder RPG Advanced Race Guide 144) instead of earth affinity, but cannot otherwise choose alternate racial traits.",
+			"Blending your form with crystal, you have transmuted yourself into something akin to an oread. You keep your original racial abilities (including your ability score adjustments, but not your movement speed) and also gain all oread racial abilities (including an oread's movement speed and the outsider [native] type) except for ability score adjustments. You have the [crystalline form alternate racial trait](races/oread) instead of earth affinity, but cannot otherwise choose alternate racial traits.",
 			"",
 			"### Attunement",
 			"",
@@ -3519,7 +3519,7 @@
 			"**Sources:** [Ultimate Wilderness pg. 59](source/ultimate_wilderness), [Occult Origins pg. 8](source/occult_origins)  ",
 			"**Element** wood; **Type** utility (Su); **Level** 4; **Burn** 0",
 			"",
-			"You can see through plant material as if you had greensight as per the universal monster rule (Pathfinder RPG Bestiary 4 295) with a range of 60 feet."
+			"You can see through plant material as if you had [greensight](umr/greensight) as per the universal monster rule with a range of 60 feet."
 		]
 	},
 	"healing_burst": {
@@ -3984,7 +3984,7 @@
 			"**Element** void; **Type** utility (Su); **Level** 2; **Burn** 0  ",
 			"**Prerequisite** emptiness",
 			"",
-			"You gain no breath, as per the universal monster ability (Pathfinder RPG Bestiary 2 299), and you can survive in the vacuum of space."
+			"You gain [no breath](umr/no_breath), as per the universal monster ability, and you can survive in the vacuum of space."
 		]
 	},
 	"past_life_evoker": {
@@ -4877,7 +4877,7 @@
 			"**Sources:** [Occult Origins pg. 7](source/occult_origins)  ",
 			"**Element** void; **Type** utility (Sp); **Level** 1; **Burn** 1",
 			"",
-			"This functions as kinetic healer (Pathfinder RPG Occult Adventures 26), except it heals undead (and others healed by negative energy)."
+			"This functions as [kinetic healer](kinetic/kinetic_healer), except it heals undead (and others healed by negative energy)."
 		]
 	},
 	"warp_wood": {

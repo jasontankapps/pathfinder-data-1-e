@@ -187,7 +187,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Acrobatics checks when jumping and on Swim checks. These bonuses increase to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large frog (as per the giant frog but with a space of 10 feet; Bestiary 135). While in this form, you gain a base speed of 30 feet, a swim speed of 30 feet, low-light vision, scent (30 feet), a bite attack (1d6 damage) with the grab ability, and the ability to treat all jumps as if you had a running start. At 8th level, you gain a tongue attack (see below). At 15th level, your swim speed increases to 60 feet. In addition, the reach of your tongue attack increases to 30 feet, and your tongue attack deals bludgeoning damage equal to the damage dealt by your shifter claws.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large frog (as per the [giant frog](monster/giant_frog) but with a space of 10 feet). While in this form, you gain a base speed of 30 feet, a swim speed of 30 feet, low-light vision, scent (30 feet), a bite attack (1d6 damage) with the grab ability, and the ability to treat all jumps as if you had a running start. At 8th level, you gain a tongue attack (see below). At 15th level, your swim speed increases to 60 feet. In addition, the reach of your tongue attack increases to 30 feet, and your tongue attack deals bludgeoning damage equal to the damage dealt by your shifter claws.",
 			"",
 			"*Tongue (Ex):* Your tongue is a primary natural attack with a reach of 15 feet. Your tongue deals no damage on a hit, but can be used to grab. You do not gain the grappled condition while using your tongue in this manner.",
 			"",
@@ -289,7 +289,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Climb checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large monkey (as per the dire ape; Bestiary 17). While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, low-light vision, scent (30 feet), a bite attack (1d6 damage), and two claw attacks (1d6 damage), and you can still use your hands to wield weapons, hold objects, and manipulate objects normally. At 8th level, your climb speed increases to 50 feet, and you can use your tail to hold and manipulate objects as if you had a third hand, but you cannot use it to wield weapons or shields. At 15th level, you gain a rend attack that deals extra damage equal to that of your shifter claws attack plus 1-1/2 times your Strength bonus when you hit with two of your normal shifter claws attacks.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large monkey (as per the [dire ape](monster/dire_ape)). While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, low-light vision, scent (30 feet), a bite attack (1d6 damage), and two claw attacks (1d6 damage), and you can still use your hands to wield weapons, hold objects, and manipulate objects normally. At 8th level, your climb speed increases to 50 feet, and you can use your tail to hold and manipulate objects as if you had a third hand, but you cannot use it to wield weapons or shields. At 15th level, you gain a rend attack that deals extra damage equal to that of your shifter claws attack plus 1-1/2 times your Strength bonus when you hit with two of your normal shifter claws attacks.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -305,7 +305,7 @@
 			"",
 			"**Minor Form:** You gain evasion, as per the rogue class feature. At 12th level, this benefit becomes improved evasion, as per the rogue advanced talent.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Tiny mouse (as per the dire rat, but with a space of 2-1/2 feet and a reach of 0 feet; Bestiary 232). While in this form, you gain a base speed of 30 feet, a climb speed of 20 feet, a swim speed of 20 feet, low-light vision, scent (30 feet), and a bite attack (1d4 damage), and you use your Dexterity modifier instead of your Strength modifier on Climb and Swim checks. At 8th level, your climb and swim speeds both increase to 40 feet. At 15th level, you do not provoke attacks of opportunity while moving through or out of a creature's threatened area or moving into its space, but you do when you leave its space.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Tiny mouse (as per the [dire rat](monster/dire_rat), but with a space of 2-1/2 feet and a reach of 0 feet). While in this form, you gain a base speed of 30 feet, a climb speed of 20 feet, a swim speed of 20 feet, low-light vision, scent (30 feet), and a bite attack (1d4 damage), and you use your Dexterity modifier instead of your Strength modifier on Climb and Swim checks. At 8th level, your climb and swim speeds both increase to 40 feet. At 15th level, you do not provoke attacks of opportunity while moving through or out of a creature's threatened area or moving into its space, but you do when you leave its space.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]

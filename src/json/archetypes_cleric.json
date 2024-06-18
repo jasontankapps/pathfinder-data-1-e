@@ -291,11 +291,11 @@
 			"**Source** [Magic Tactics Toolbox pg. 23](source/magic_tactics_toolbox)  ",
 			"Some divine servants take on the role of dealing out unique punishments on behalf of their deities, taking pleasure in carrying out their sacrosanct duties. Such divine scourges are most common among worshipers of Abadar (meting out punishment to lawbreakers in concert with local courts), Calistria (punishing those truly deserving of vengeance), and Zon-Kuthon (seeing punishment as an applied form of pain and suffering). Divine scourges make a point of inflicting long-lasting maladies and curses on those deserving of such fates under the tenets of the scourges' religions.",
 			"",
-			"**Curser (Ex):** A divine scourge must take the curse subdomain (Pathfinder RPG Advanced Player's Guide 88) as a domain, regardless of the actual domains offered by her deity. The divine scourge does not receive a second domain.",
+			"**Curser (Ex):** A divine scourge must take the curse subdomain as a domain, regardless of the actual domains offered by her deity. The divine scourge does not receive a second domain.",
 			"",
 			"This ability alters domains.",
 			"",
-			"**Divine Hexes:** At 3rd level and every 4 cleric levels thereafter, a divine scourge can select the following hexes from the witch class hex list, up to a maximum of five hexes at 19th level: blight, cursed wound (Pathfinder Player Companion: Blood of the Moon 15), evil eye, misfortune, scar, slumber, and unnerve beasts.",
+			"**Divine Hexes:** At 3rd level and every 4 cleric levels thereafter, a divine scourge can select the following hexes from the witch class hex list, up to a maximum of five hexes at 19th level: blight, cursed wound, evil eye, misfortune, scar, slumber, and unnerve beasts.",
 			"",
 			"At 11th level, a divine scourge can instead select from the following list of major hexes: agony, hoarfrost, infected wounds, nightmares, and retributions.",
 			"",
@@ -911,7 +911,7 @@
 			"",
 			"**Caravan Bond (Su):** At 1st level, by leading a group prayer for 1 minute, a Varisian pilgrim can select a number of traveling companions equal to her cleric level + her Wisdom bonus. She may use her domain-granted powers on any of these traveling companions as if they were her. She can use these abilities on her traveling companions at a range of up to 30 feet, even if the ability normally requires her touch. This ability replaces the cleric's proficiency with medium armor and shields' she retains proficiency with light armor only.",
 			"",
-			"**Blessing of the Harrow (Su):** At 8th level, once per day the pilgrim may perform a harrowing for herself or another creature. This is otherwise identical to the blessing of the harrow from the harrower prestige class (Inner Sea World Guide 276). This replaces an 8th-level domain power of the Varisian pilgrim's choice."
+			"**Blessing of the Harrow (Su):** At 8th level, once per day the pilgrim may perform a harrowing for herself or another creature. This is otherwise identical to the blessing of the harrow from the [harrower prestige class](prestigeclass/harrower). This replaces an 8th-level domain power of the Varisian pilgrim's choice."
 		]
 	}
 }

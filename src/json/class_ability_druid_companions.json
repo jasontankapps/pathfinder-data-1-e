@@ -2646,9 +2646,9 @@
 			"",
 			"This lumbering forest creature is adorned with an array of long, sharp quills that protrude from its coarse pelt.",
 			"",
-			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 5; Special Attacks quills (as porupine quills; Pathfinder RPG Bestiary 222); Special Qualities low-light vision, scent",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 5; Special Attacks quills (as [porcupine](monster/porcupine) quills); Special Qualities low-light vision, scent",
 			"",
-			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as giant porcupine quills; Pathfinder RPG Bestiary 222)."
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as [giant porcupine](monster/giant_porcupine) quills)."
 		]
 	},
 	"giant_porcupine": { "copyof": "porcupine,_giant" },
@@ -3304,7 +3304,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed swim 40 ft., jet 90 ft.; AC +1 natural armor; Attack bite (1d6), tentacles (1d4 plus grab); Ability Scores Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 3; Special Qualities aquatic, low-light vision",
 			"",
-			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities ink cloud (20-ft. radius; Bestiary 259)."
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities [ink cloud](umr/ink_cloud) (20-ft. radius)."
 		]
 	},
 	"giant_squid": { "copyof": "squid,_giant" },

@@ -12986,7 +12986,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Reflex partial, see text; **Spell Resistance** no",
 			"",
-			"You create two Colossal-sized masses of rock, dirt, and stone and slam them together against a single creature between them. The clashing rocks appear up to 30 feet away from the target on opposite sides and rush toward it with a mighty grinding crash. You must make a ranged touch attack to hit the target with the rocks. The clashing rocks ignore concealment and cover, and if there is a solid barrier between the target and either of the clashing rocks, the spell has a +28 bonus on the Strength check to burst through the barrier and continue unimpeded to the target. A creature struck by the clashing rocks takes 20d6 points of bludgeoning damage and is knocked prone. If the target fails a Reflex saving throw, it is also buried under the resulting rubble as if by a cave-in (see Pathfinder RPG Core Rulebook 415).",
+			"You create two Colossal-sized masses of rock, dirt, and stone and slam them together against a single creature between them. The clashing rocks appear up to 30 feet away from the target on opposite sides and rush toward it with a mighty grinding crash. You must make a ranged touch attack to hit the target with the rocks. The clashing rocks ignore concealment and cover, and if there is a solid barrier between the target and either of the clashing rocks, the spell has a +28 bonus on the Strength check to burst through the barrier and continue unimpeded to the target. A creature struck by the clashing rocks takes 20d6 points of bludgeoning damage and is knocked prone. If the target fails a Reflex saving throw, it is also buried under the resulting rubble as if by a [cave-in](rule/cave-ins_and_collapses_cr_8).",
 			"",
 			"If the clashing rocks miss the target, the target still takes 10d6 points of bludgeoning damage from falling rocks and is knocked prone. A successful Reflex save reduces this damage to half and the target remains standing. Creatures other than the target that occupy the spaces where the clashing rocks appear or within their path (30 feet wide, 30 feet high, and up to 60 feet long) must also make Reflex saves or take 10d6 points of bludgeoning damage and be knocked prone (save for half and remain standing). A creature can only take damage once from the clashing rocks, no matter how many times the clashing rocks pass over a target creature."
 		]
@@ -15900,7 +15900,7 @@
 			"",
 			"*Energy:* Your plane gains the (minor) negative- or positive-dominant energy trait (see Elemental and Energy Traits). A plane cannot have both the negative-dominant and positive-dominant energy traits.",
 			"",
-			"*Magic:* Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see Magic Traits, GameMastery Guide 187). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as \"effects with the fire descriptor or that manipulate fire\" or \"death spells and spells from the Death or Repose domains.\" A plane cannot be enhanced and impeded for the same kinds of spells.",
+			"*Magic:* Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see [Magic Traits](rule/magic_traits)). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as \"effects with the fire descriptor or that manipulate fire\" or \"death spells and spells from the Death or Repose domains.\" A plane cannot be enhanced and impeded for the same kinds of spells.",
 			"",
 			"*Morphic:* You may use move earth at will in your demiplane at one-tenth of the spell's normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or humanlike shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal.",
 			"",
@@ -19612,7 +19612,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** see text; **Spell Resistance** yes",
 			"",
-			"When the target of demon dream is a worshiper of a demon lord or Lamashtu, the caster has the option of making the spell function instead as a dream spell. Otherwise, this spell functions like nightmare (see Pathfinder RPG Core Rulebook 316), save that the subject matter of the dream always involves demons. Upon waking from a demon dream, the victim must make a saving throw against the spell to resist taking 1d6 points of Wisdom drain from the unsettling, madness-inducing dream-this is in addition to the damage and fatigue normally caused by the nightmare."
+			"When the target of demon dream is a worshiper of a demon lord or Lamashtu, the caster has the option of making the spell function instead as a dream spell. Otherwise, this spell functions like [nightmare](spell/nightmare), save that the subject matter of the dream always involves demons. Upon waking from a demon dream, the victim must make a saving throw against the spell to resist taking 1d6 points of Wisdom drain from the unsettling, madness-inducing dream-this is in addition to the damage and fatigue normally caused by the nightmare."
 		]
 	},
 	"denounce": {
@@ -23434,7 +23434,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You summon a flight of giant eagles (one per three caster levels, maximum of six; Bestiary 118) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends)."
+			"You summon a flight of [giant eagles](monster/giant_eagle) (one per three caster levels, maximum of six) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends)."
 		]
 	},
 	"eagle_eye": {
@@ -26171,7 +26171,7 @@
 			"",
 			"A creature under the effect of this enchantment enters a state of euphoria. The target treats all creatures as dear friends and abhors violence, but may rise up to protect itself if violence is perpetrated against it. Until the end of the spell's duration, the creature's speed is halved, and it cannot make attacks or cast spells. If the creature is attacked, it gets a Will saving throw. If the saving throw succeeds, the creature can make act normally for 1 round. If the saving throw fails, the creature moves half its speed away from the attacker as its next action.",
 			"",
-			"Furthermore, if the creature is interacted with, or questioned while under the effects of this spell, it is considered to have an attitude of Helpful (see the Diplomacy skill, Core Rulebook 94), though any advice or answers it gives may be disjointed or stream of consciousness due to its euphoric state."
+			"Furthermore, if the creature is interacted with, or questioned while under the effects of this spell, it is considered to have an attitude of Helpful (see the [Diplomacy skill](skill/diplomacy)), though any advice or answers it gives may be disjointed or stream of consciousness due to its euphoric state."
 		]
 	},
 	"evaluator's_lens": {

@@ -6221,7 +6221,7 @@
 			"",
 			"Guard Dog: This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry. More information on dogs can be found in the Bestiary.",
 			"",
-			"Lap Dog: These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as foxes (see Bestiary 3).",
+			"Lap Dog: These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as [foxes](monster/fox).",
 			"",
 			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities. More information on riding dogs can be found in the Bestiary."
 		]
@@ -8607,7 +8607,7 @@
 			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [Advanced Race Guide pg. 105](source/advanced_race_guide)  ",
 			"**Price** 300 gp (riding), 400 gp (riding, combat trained); **Weight** 1,200 lbs. (riding), 1,500 lbs. (riding, combat trained)",
 			"",
-			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require exotic saddles to ride. A riding gecko has the same statistics as a giant gecko with the giant template (see Bestiary 3)."
+			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require exotic saddles to ride. A riding gecko has the same statistics as a giant gecko with the [giant template](template/giant)."
 		]
 	},
 	"gecko_riding,_combat_trained": {
@@ -14309,7 +14309,7 @@
 			"**Price** 24 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see horse; Bestiary 177), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
+			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see [horse](monster/horse)), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
 		]
 	},
 	"pack_animal_ox": {
@@ -17623,7 +17623,7 @@
 			"**Price** 2-20 gp; **Weight** 150 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These livestock animals are kept for their fur, meat, and hide, and can be found in virtually any civilized settlement. They are especially prized in colder environs, where their wool and hide can be used to make durable and highly insulated clothing. Sheep have the same statistics as goats (see Bestiary 3)."
+			"These livestock animals are kept for their fur, meat, and hide, and can be found in virtually any civilized settlement. They are especially prized in colder environs, where their wool and hide can be used to make durable and highly insulated clothing. Sheep have the same statistics as [goats](monster/goat)."
 		]
 	},
 	"sherrif's_whistle": {
@@ -19055,7 +19055,7 @@
 			"**Price** 260 gp; **Weight** 7-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes an antidote kit, a cryptography book (see above), litmus strips (5; Pathfinder Player Companion: Dungeoneer's Handbook 26), and a portrait book."
+			"This kit includes an antidote kit, a cryptography book (see above), litmus strips (5), and a portrait book."
 		]
 	},
 	"spyglass_masterwork": {
@@ -19750,7 +19750,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any infestations (such as rot grubs; Pathfinder RPG GameMastery Guide 245), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by remove disease, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
+			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any [infestations](rule/infestations) (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by remove disease, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"

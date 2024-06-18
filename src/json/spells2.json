@@ -3026,7 +3026,7 @@
 			"**Target** you  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"*Choose one alignment type:* chaotic, evil, good, or lawful. You gain the ability to follow the trail of a strong or overwhelming aura of that alignment (see detect evil, Core Rulebook 266). This is treated as tracking using the scent special quality, except you are following the traces of their aura upon the ground rather than their scent, and you receive no bonus on Perception checks. At 10th level, you can track the trail of creatures with a moderate alignment aura as well.",
+			"*Choose one alignment type:* chaotic, evil, good, or lawful. You gain the ability to follow the trail of a strong or overwhelming aura of that alignment (see [detect evil](spell/detect_evil)). This is treated as tracking using the scent special quality, except you are following the traces of their aura upon the ground rather than their scent, and you receive no bonus on Perception checks. At 10th level, you can track the trail of creatures with a moderate alignment aura as well.",
 			"",
 			"When you use this spell to track a given alignment, it gains the descriptor of the opposite alignment. For example, when follow aura is used to track evil, it gains the good descriptor."
 		]
@@ -6913,7 +6913,7 @@
 			"",
 			"**Source** [Mythic Adventures pg. 97](source/mythic_adventures)",
 			"",
-			"The force of the wind increases to windstorm (approximately 70 mph; Core Rulebook 439). All effects described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of blowing out protected flames.",
+			"The force of the wind increases to [windstorm](rule/winds) (approximately 70 mph). All effects described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of blowing out protected flames.",
 			"",
 			"*Augmented (2nd):* If you expend two uses of mythic power, the spell lasts for 1 additional round and the range increases by 30 feet. As a swift action at the start of your turn, you can expend another use of mythic power to extend the duration by 1 round and the range by another 30 feet.",
 			"",
@@ -10119,7 +10119,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"When casting this spell, you designate a type or type and subtype of creature (using the ranger's favored enemy categories; Pathfinder RPG Core Rulebook 64) and a type of terrain (using the list of ranger's favored terrain categories, Core Rulebook 65). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher."
+			"When casting this spell, you designate a type or type and subtype of creature (using the [ranger](class/ranger)'s favored enemy categories) and a type of terrain (using the list of ranger's favored terrain categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher."
 		]
 	},
 	"hunter's_eye": {
@@ -23114,7 +23114,7 @@
 			"",
 			"This spell functions as possession, except you possess an object instead of a creature.",
 			"",
-			"A possessed object becomes capable of animation, gaining the statistics of an animated object of its size (including 1 CP worth of abilities; Pathfinder RPG Bestiary 14). You can't use any spells or other abilities while possessing an object.",
+			"A possessed object becomes capable of animation, gaining the statistics of an [animated object](monster/animated_object) of its size (including 1 CP worth of abilities). You can't use any spells or other abilities while possessing an object.",
 			"",
 			"A spiritual tether connects your body to the possessed object, in a manner similar to a [silver cord](rule/astral_plane_oa). If the possessed object and your body are ever farther than close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your consciousness to your body.",
 			"",
