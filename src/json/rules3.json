@@ -20471,7 +20471,7 @@
 			"",
 			"**Sanity Score:** Your sanity score is equal to the sum of your mental ability scores (Charisma, Intelligence, and Wisdom) minus any ability damage taken to those ability scores.",
 			"",
-			"**Sanity Threshold:** Your sanity threshold is equal to the bonus of your highest mental ability score minus any ability damage to that score (minimum 0). When you experience a sanity attack, if the sanity damage from that attack equals or exceeds your sanity threshold, you gain a [madness](ruke/madness), either lesser or greater depending on the relation of your current sanity damage and your sanity edge (see below).",
+			"**Sanity Threshold:** Your sanity threshold is equal to the bonus of your highest mental ability score minus any ability damage to that score (minimum 0). When you experience a sanity attack, if the sanity damage from that attack equals or exceeds your sanity threshold, you gain a [madness](rule/madness), either lesser or greater depending on the relation of your current sanity damage and your sanity edge (see below).",
 			"",
 			"If your sanity threshold is 0, you always suffer a madness upon taking 1 or more points of sanity damage.",
 			"",

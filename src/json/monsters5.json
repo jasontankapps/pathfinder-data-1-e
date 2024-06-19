@@ -4495,7 +4495,7 @@
 			"",
 			"**Superior Optics (Ex)** Surgeon robots see invisible creatures or objects as if they were visible.",
 			"",
-			"**Syringe (Ex)** When a surgeon robot makes a successful attack with its syringe, it can inject the target with pharmaceuticals. The robot contains nanites that fabricate the pharmaceuticals stored within its body. Up to 10 doses of these pharmaceuticals can be administered per day. The surgeon robot can choose to affect its target with [cardioamp](tech/cardioamp), [cureall](tech/cureall), [hemochem (grade III)](tech/hemochem), [torpinal](tech/torpinal), or [zortaphen](tech/zortaphen) each time it uses this ability.",
+			"**Syringe (Ex)** When a surgeon robot makes a successful attack with its syringe, it can inject the target with pharmaceuticals. The robot contains nanites that fabricate the pharmaceuticals stored within its body. Up to 10 doses of these pharmaceuticals can be administered per day. The surgeon robot can choose to affect its target with [cardioamp](tech/pharmaceutical/cardioamp), [cureall](tech/pharmaceutical/cureall), [hemochem (grade III)](tech/pharmaceutical/hemochem), [torpinal](tech/pharmaceutical/torpinal), or [zortaphen](tech/pharmaceutical/zortaphen) each time it uses this ability.",
 			"",
 			"#### Description",
 			"",
