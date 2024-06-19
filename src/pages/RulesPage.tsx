@@ -6,7 +6,7 @@ import rules1 from '../json/rules.json';
 import rules2 from '../json/rules2.json';
 import rules3 from '../json/rules3.json';
 import rules4 from '../json/rules4.json';
-import { HierarchyArray } from '../types';
+import { HierarchyArray, Table } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -23,6 +23,7 @@ interface JsonDataPropsRules {
 	subtopics?: Prop[]
 	siblings?: Prop[]
 	sources: string[]
+	tables?: Table[]
 }
 
 const hierarchy: HierarchyArray = [
@@ -34,7 +35,7 @@ const MainPage: React.FC = () => {
 
 	const { id } = useParams<{ id?: Prop; }>();
 
-	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [] } = (rules[id || "unknown"] || rules.unknown) as JsonDataPropsRules;
+	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id || "unknown"] || rules.unknown) as JsonDataPropsRules;
 
 	const prevNext = useMemo(() => {
 		if(siblings && siblings.length > 1) {
@@ -79,7 +80,7 @@ const MainPage: React.FC = () => {
 
 	return (
 		<BasicPage title={n} sources={sources} hierarchy={h}>
-			<DisplayItem markdown={["## " + n, "", ...markdown]} />
+			<DisplayItem markdown={["## " + n, "", ...markdown]} tables={tables} />
 			{subs}
 			{prevNext ? (
 				<div className="prevNext">

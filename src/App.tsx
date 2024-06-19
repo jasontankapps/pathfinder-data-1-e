@@ -27,6 +27,7 @@ import './theme/variables.css';
 
 setupIonicReact();
 
+const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ClassPage = lazy(() => import("./pages/ClassPage"));
 const ClassExtraPage = lazy(() => import("./pages/ClassExtraPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
@@ -90,9 +91,9 @@ const App: React.FC = () => {
 						<Route path="/classfavored/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="bonuses" /></Suspense>} />
 						<Route path="/constructmod/:id" render={() => <></>} />
 						<Route path="/corruption/:id" render={() => <></>} />
-						<Route path="/curse/:id" render={() => <></>} />
+						<Route path="/curse/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="curse" /></Suspense>} />
 						<Route path="/discipline/:id" render={() => <></>} />
-						<Route path="/disease/:id" render={() => <></>} />
+						<Route path="/disease/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="disease" /></Suspense>} />
 						<Route path="/domain/:id" render={() => <></>} />
 						<Route path="/drug/:id" render={() => <></>} />
 						<Route path="/druidcompanion/:id" render={() => <></>} />
@@ -115,6 +116,7 @@ const App: React.FC = () => {
 						<Route path="/haunt/:id" render={() => <></>} />
 						<Route path="/hellknightorder/:id" render={() => <></>} />
 						<Route path="/implement/:id" render={() => <></>} />
+						<Route path="/infestation/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="infestation" /></Suspense>} />
 						<Route path="/inquisition/:id" render={() => <></>} />
 						<Route path="/kinetic/:id" render={() => <></>} />
 						<Route path="/legendaryspirit/:id" render={() => <></>} />

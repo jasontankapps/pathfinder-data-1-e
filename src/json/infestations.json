@@ -1,0 +1,94 @@
+{
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested infestation."
+		]
+	},
+	"ear_seekers": {
+		"name": "Ear Seekers",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"## Ear Seekers",
+			"",
+			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)  ",
+			"**Type** infestation; **Save** Fortitude DC 15  ",
+			"**Onset** 4d6 hours; **Frequency** 1/hour  ",
+			"**Effect** 1d6 Con damage",
+			"",
+			"Ear seekers are tiny, pale-colored worms that dwell in rotting wood or other organic detritus. They can be noticed with a DC 15 Perception check. Otherwise, a living creature poking about their lair inadvertently transfers one or more ear seekers to its body. The seekers then search out a warm location on the creature, especially favoring the ear canal. Once there, they lay 2d8 eggs before dying. The eggs hatch 4d6 hours later and the larvae devour the surrounding flesh. Upon the death of their host, the new ear seekers crawl out and seek a new host. [Remove disease](spell/remove_disease) kills any ear seekers or unhatched eggs in or on a host. Some ear seekers favor living in intact wood, often hiding in dungeon doors. The small pinholes left by this variety are particularly hard to spot (Perception DC 20)."
+		]
+	},
+	"fractal_etch": {
+		"name": "Fractal Etch",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"description": [
+			"## Fractal Etch",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** infestation, nanite, injury; **Fortitude Save* DC 15  ",
+			"**Onset** 1 week; **Frequency** 1/day  ",
+			"**Effect** 1 negative level. Such negative levels never become permanent, but as long as the victim remains infested, they cannot be removed. A creature that dies from this sickness cannot rise as undead.  ",
+			"**Cure** 3 consecutive saves",
+			"",
+			"Circuitry-like traces spread across the scalp of victims of fractal etch, as the nanites behind this affliction scrub away the folds of the brain, causing loss of experience and memory."
+		]
+	},
+	"rot_grubs": {
+		"name": "Rot Grubs",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"## Rot Grubs",
+			"",
+			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)  ",
+			"**Type** infestation; **Save** Fortitude DC 17  ",
+			"**Onset** immediate; **Frequency** 1/round  ",
+			"**Effect** 1d2 Con damage per grub",
+			"",
+			"Rot grubs are nauseating parasites that feed on flesh and nest in corpses. Generally, a handful of the grubs infest a single corpse at a time, and a DC 15 Perception check is enough to notice and avoid the grubs. Otherwise, 1d6 grubs swiftly burst from the carcass to burrow into the creature, which can attempt a DC 15 Reflex save to avoid the grubs (but only if the creature is aware of the grubs' presence). Any amount of damage reduction is enough to provide immunity to infestation.",
+			"",
+			"Once rot grubs have infested a living body, they burrow toward the host's heart, brain, and other key internal organs, eventually causing death. On the first round of infestation, applying flame to the point of entry can kill the grubs and save the host, but this inflicts 1d6 points of fire damage to the victim. Cutting the grubs out also works, but the longer the grubs remain in a host, the more damage this method does. Cutting them out requires a slashing weapon and a DC 20 Heal check, and inflicts 1d6 points of damage per round that the host has been infested. If the Heal check is successful, one grub is removed. [Remove disease](spell/remove_disease) kills any rot grubs in or on a host."
+		]
+	},
+	"soldier's_peace": {
+		"name": "Soldier's Peace",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"description": [
+			"## Soldier's Peace",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** infestation, nanite, injury; **Fortitude Save* DC 15  ",
+			"**Onset** 1 day; **Frequency** special, maximum once per round  ",
+			"**Effect** If the victim damages or attempts to damage another creature, even by accident, she must succeed at a saving throw or be nauseated with excruciating pain for 1 round, then sickened for 1d4 additional rounds. A successful saving throw eliminates the nausea and reduces the sickened effect to 1 round. Sufficiently violent thoughts (GM's discretion) require a saving throw as well. The nanites make no allowances for harming unintelligent or nonliving creatures, but do allow the destruction of objects. If the victim doesn't notice she hurt a creature (such as stepping on an ant), no ill effects occur.  ",
+			"**Cure** Soldier's peace can be cured only by [remove disease](spell/remove_disease) or similar means that eradicate the disease from the body; it can't be cured with successful saving throws.",
+			"",
+			"Administered as an injection of nanites, soldier's peace is not usually contagious. The nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts."
+		]
+	},
+	"thought_crawlers": {
+		"name": "Thought Crawlers",
+		"sources": [ "Numeria, Land of Fallen Stars" ],
+		"description": [
+			"## Thought Crawlers",
+			"",
+			"**Source** [Numeria, Land of Fallen Stars pg. 25](source/numeria,_land_of_fallen_stars)  ",
+			"**Type** infestation, nanite, injury; **Fortitude Save* DC 16  ",
+			"**Onset** 1 day; **Frequency** 1/day  ",
+			"**Effect** 1d2 Intelligence and 1d2 Wisdom damage; see below  ",
+			"**Cure** 3 consecutive saves",
+			"",
+			"These parasitic worms live in cerebrospinal fluid. Their microscopic eggs can be carried on the wind or coated on a weapon, and enter the body though exposed nerves, such as those in injured skin. Once in the body, the worms travel along the nervous system to the brain and spine, causing an escalating progression of debilitating neurological symptoms.",
+			"",
+			"Apply the effects below based on the cumulative Intelligence or Wisdom damage the victim has sustained from the disease (less any amount cured), using the higher total. The effects are cumulative. Save DCs equal the disease's save DC.",
+			"",
+			"**2-6 points:** The victim is highly suggestible. Treat any request as though delivered by [suggestion](spell/suggestion) (Will DC negates).",
+			"",
+			"**7-12 points:** The victim becomes irritable and aggressive. If provoked or insulted, the victim attacks for 1 round (Will negates). If attacked, even in self-defense, the victim automatically responds in kind for 1 round (no save). Severe headaches leave the victim distracted when casting spells (Concentration DC 10 + the level of the spell the victim is casting).",
+			"",
+			"**13+ points:** Severe headaches leave the victim sickened. Each round when under stress (such as during combat), the victim must succeed at a Fortitude saving throw or be nauseated until the start of its next turn."
+		]
+	}
+}
