@@ -66,6 +66,10 @@ const MagicStaffPage = lazy(() => import("./pages/MagicStaffPage"));
 const MagicWeaponPage = lazy(() => import("./pages/MagicWeaponPage"));
 const MagicWondrousPage = lazy(() => import("./pages/MagicWondrousPage"));
 const RulesPage = lazy(() => import("./pages/RulesPage"));
+const SkillPage = lazy(() => import("./pages/SkillPage"));
+const SchoolPage = lazy(() => import("./pages/SchoolPage"));
+const BlessingPage = lazy(() => import("./pages/BlessingPage"));
+const DomainPage = lazy(() => import("./pages/DomainPage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
@@ -78,12 +82,12 @@ const App: React.FC = () => {
 					<Menu />
 					<IonRouterOutlet id="main">
 						<Route path="/" exact={true} render={mainPage} />
-						<Route path="/arcaneschool/:id" render={() => <></>} />
+						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
 						<Route path="/archetype/:parent/:id" render={() => <></>} />
 						<Route path="/aspect/:id" render={() => <></>} />
 						<Route path="/bardicmasterpiece/:id" render={() => <></>} />
-						<Route path="/blessing/:id" render={() => <></>} />
+						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <></>} />
 						<Route path="/class/:id" render={() => <Suspense fallback={<Loading />}><ClassPage /></Suspense>} />
 						<Route path="/classarchetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="archetypes" /></Suspense>} />
@@ -94,7 +98,7 @@ const App: React.FC = () => {
 						<Route path="/curse/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="curse" /></Suspense>} />
 						<Route path="/discipline/:id" render={() => <></>} />
 						<Route path="/disease/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="disease" /></Suspense>} />
-						<Route path="/domain/:id" render={() => <></>} />
+						<Route path="/domain/:id" render={() => <Suspense fallback={<Loading />}><DomainPage /></Suspense>} />
 						<Route path="/drug/:id" render={() => <></>} />
 						<Route path="/druidcompanion/:id" render={() => <></>} />
 						<Route path="/druiddomain/:id" render={() => <></>} />
@@ -162,7 +166,7 @@ const App: React.FC = () => {
 						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
 						<Route path="/shamanspirit/:id" render={() => <></>} />
 						<Route path="/sidekick/:id" render={() => <></>} />
-						<Route path="/skill/:id" render={() => <></>} />
+						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
 						<Route path="/source/:id" render={() => <></>} />
 						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />

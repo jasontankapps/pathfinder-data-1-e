@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-blessing",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested blessing."
+		]
+	},
 	"air": {
 		"name": "Air",
 		"sources": [ "Advanced Class Guide" ],

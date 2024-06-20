@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-domain",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested domain."
+		]
+	},
 	"air": {
 		"name": "Air",
 		"sources": [
@@ -64,6 +72,9 @@
 			"**Replacement Domain Spells:** 1st-[whispering wind](spell/whispering_wind), 6th-[wind walk](spell/wind_walk), 9th-[winds of vengeance](spell/winds_of_vengeance)."
 		]
 	},
+	"cloud": { "copyof": "air" },
+	"lightning": { "copyof": "air" },
+	"wind": { "copyof": "air" },
 	"animal": {
 		"name": "Animal",
 		"sources": [
@@ -132,6 +143,9 @@
 			"**Replacement Domain Spells:** 4th-[giant vermin](spell/giant_vermin), 5th-[vermin shape II](spell/vermin_shape_2), 8th-[summon nature's ally VIII](spell/summon_nature's_ally_8) (1d3 goliath stag beetles)."
 		]
 	},
+	"feather": { "copyof": "animal" },
+	"fur": { "copyof": "animal" },
+	"insect": { "copyof": "animal" },
 	"artifice": {
 		"name": "Artifice",
 		"sources": [
@@ -228,6 +242,19 @@
 			"**Replacement Domain Spells:** 2nd-[snare](spell/snare), 3rd-[improve trap](spell/improve_trap), 7th-[teleport trap](spell/teleport_trap)."
 		]
 	},
+	"alchemy": {
+		"name": "Alchemy",
+		"sources": [],
+		"description": [
+			"## Alchemy",
+			"",
+			"This subdomain is associated with both the [Artifice](domain/artifice) and [Magic](domain/magic) domains."
+		]
+	},
+	"construct": { "copyof": "artifice" },
+	"industry": { "copyof": "artifice" },
+	"toil": { "copyof": "artifice" },
+	"trap": { "copyof": "artifice" },
 	"chaos": {
 		"name": "Chaos",
 		"sources": [
@@ -361,9 +388,9 @@
 			"",
 			"**Replacement Domain Spells:** 1st-[hideous laughter](spell/hideous_laughter), 4th-[confusion](spell/confusion), 6th-[cloak of dreams](spell/cloak_of_dreams).",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -379,6 +406,30 @@
 			"This replaces the touch of chaos domain power of the Chaos domain."
 		]
 	},
+	"azata": {
+		"name": "Azata",
+		"sources": [],
+		"description": [
+			"## Azata",
+			"",
+			"This subdomain is associated with both the [Chaos](domain/chaos) and [Good](domain/good) domains."
+		]
+	},
+	"demodand": {
+		"name": "Demodand and Demon",
+		"sources": [],
+		"description": [
+			"## Demodand and Demon",
+			"",
+			"These subdomains are associated with both the [Chaos](domain/chaos) and [Evil](domain/evil) domains."
+		]
+	},
+	"demon": { "copyof": "demodand" },
+	"entropy": { "copyof": "chaos" },
+	"protean": { "copyof": "chaos" },
+	"revelry": { "copyof": "chaos" },
+	"riot": { "copyof": "chaos" },
+	"whimsy": { "copyof": "chaos" },
 	"charm": {
 		"name": "Charm",
 		"sources": [
@@ -443,6 +494,9 @@
 			"**Replacement Domain Spells:** 2nd-[touch of idiocy](spell/touch_of_idiocy), 4th-[confusion](spell/confusion)."
 		]
 	},
+	"captivation": { "copyof": "charm" },
+	"love": { "copyof": "charm" },
+	"lust": { "copyof": "charm" },
 	"community": {
 		"name": "Community",
 		"sources": [
@@ -520,6 +574,18 @@
 			"**Replacement Domain Spells:** 1st-[alarm](spell/alarm), 3rd-[glyph of warding](spell/glyph_of_warding), 7th-[guards and wards](spell/guards_and_wards)."
 		]
 	},
+	"cooperation": { "copyof": "community" },
+	"education":{
+		"name": "Education",
+		"sources": [],
+		"description": [
+			"## Education",
+			"",
+			"This subdomain is associated with both the [Community](domain/community) and [Knowledge](domain/knowledge) domains."
+		]
+	},
+	"family": { "copyof": "community" },
+	"home": { "copyof": "community" },
 	"darkness": {
 		"name": "Darkness",
 		"sources": [
@@ -597,6 +663,18 @@
 			"**Whispering Shadows (Su):** You can darken the shadows around you and cause them to hiss, confounding and distracting your enemies. As an immediate action, you can force a target within 30 feet to reroll a miss chance due to concealment or a saving throw against an illusion or necromancy spell. The target of this ability must keep the result of the second roll, even if it is worse than the original roll. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Replacement Domain Spells:** 1st-[ray of enfeeblement](spell/ray_of_enfeeblement), 4th-[phantasmal killer](spell/phantasmal_killer), 8th-orb of the void"
+		]
+	},
+	"loss": { "copyof": "darkness" },
+	"moon": { "copyof": "darkness" },
+	"night": { "copyof": "darkness" },
+	"shadow": {
+		"name": "Shadow",
+		"sources": [],
+		"description": [
+			"## Shadow",
+			"",
+			"This subdomain is associated with both the [Darkness](domain/darkness) and [Death](domain/death) domains."
 		]
 	},
 	"death": {
@@ -692,9 +770,9 @@
 			"",
 			"**Replacement Domain Spells:** 2nd-[ghoul touch](spell/ghoul_touch), 4th-[enervation](spell/enervation), 9th-[energy drain](spell/energy_drain).",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -710,6 +788,26 @@
 			"This replaces the bleeding touch domain power of the Death domain."
 		]
 	},
+	"murder": { "copyof": "death" },
+	"plague": {
+		"name": "Plague",
+		"sources": [],
+		"description": [
+			"## Plague",
+			"",
+			"This subdomain is associated with both the [Death](domain/death) and [Evil](domain/evil) domains."
+		]
+	},
+	"psychopomp": {
+		"name": "Psychopomp",
+		"sources": [],
+		"description": [
+			"## Psychopomp",
+			"",
+			"This subdomain is associated with both the [Death](domain/death) and [Repose](domain/repose) domains."
+		]
+	},
+	"undead": { "copyof": "death" },
 	"destruction": {
 		"name": "Destruction",
 		"sources": [
@@ -788,6 +886,10 @@
 			"**Replacement Domain Spells:** 2nd-[pain strike](spell/pain_strike), 5th-[symbol of pain](spell/symbol_of_pain), 8th-[demand](spell/demand)."
 		]
 	},
+	"catastrophe": { "copyof": "destruction" },
+	"hatred": { "copyof": "destruction" },
+	"rage": { "copyof": "destruction" },
+	"torture": { "copyof": "destruction" },
 	"earth": {
 		"name": "Earth",
 		"sources": [
@@ -868,6 +970,10 @@
 			"**Replacement Domain Spells:** 2nd-[defoliate](spell/defoliate), 4th-[blight](spell/blight), 8th-[horrid wilting](spell/horrid_wilting)."
 		]
 	},
+	"caves": { "copyof": "earth" },
+	"metal": { "copyof": "earth" },
+	"petrification": { "copyof": "earth" },
+	"radiation": { "copyof": "earth" },
 	"evil": {
 		"name": "Evil",
 		"sources": [
@@ -1026,6 +1132,21 @@
 			"**Replacement Domain Spells:** 2nd-[haunting mists](spell/haunting_mists), 4th-[[they know](spell/they_know), 6th-[phobia](spell/phobia)."
 		]
 	},
+	"cannibalism": { "copyof": "evil" },
+	"corruption": { "copyof": "evil" },
+	"daemon": { "copyof": "evil" },
+	"devil": {
+		"name": "Devil and Kyton",
+		"sources": [],
+		"description": [
+			"## Devil",
+			"",
+			"These subdomains are associated with both the [Law](domain/law) and [Evil](domain/evil) domains."
+		]
+	},
+	"kyton": { "copyof": "devil" },
+	"fear": { "copyof": "evil" },
+	"sahkil": { "copyof": "evil" },
 	"fire": {
 		"name": "Fire",
 		"sources": [
@@ -1090,6 +1211,9 @@
 			"**Replacement Domain Spells:** 2nd-[pyrotechnics](spell/pyrotechnics), 3rd-[stinking cloud](spell/stinking_cloud)."
 		]
 	},
+	"arson": { "copyof": "fire" },
+	"ash": { "copyof": "fire" },
+	"smoke": { "copyof": "fire" },
 	"glory": {
 		"name": "Glory",
 		"sources": [
@@ -1183,6 +1307,19 @@
 			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 3rd-[contagious zeal](spell/contagious_zeal), 4th-[righteous vigor](spell/righteous_vigor), 6th-[unshakable zeal](spell/unshakable_zeal). If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
 		]
 	},
+	"chivalry": { "copyof": "glory" },
+	"heroism": { "copyof": "glory" },
+	"honor": { "copyof": "glory" },
+	"hubris": {
+		"name": "Hubris",
+		"sources": [],
+		"description": [
+			"## Hubris",
+			"",
+			"This subdomain is associated with both the [Glory](domain/glory) and [Nobility](domain/nobility) domains."
+		]
+	},
+	"legend": { "copyof": "glory" },
 	"good": {
 		"name": "Good",
 		"sources": [
@@ -1273,6 +1410,18 @@
 			"**Replacement Domain Spells:** 2nd-[qualm](spell/qualm), 4th-[forced repentance](spell/forced_repentance), 5th-atonement"
 		]
 	},
+	"agathion": { "copyof": "good" },
+	"archon": {
+		"name": "Archon",
+		"sources": [],
+		"description": [
+			"## Archon",
+			"",
+			"This subdomain is associated with both the [Good](domain/good) and [Law](domain/law) domains."
+		]
+	},
+	"friendship": { "copyof": "good" },
+	"redemption": { "copyof": "good" },
 	"healing": {
 		"name": "Healing",
 		"sources": [
@@ -1337,9 +1486,9 @@
 			"",
 			"**Replacement Domain Spells:** 5th-[raise dead](spell/raise_dead), 7th-[resurrection](spell/resurrection), 9th-[true resurrection](spell/true_resurrection).",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -1355,6 +1504,9 @@
 			"This replaces the rebuke death domain power of the Healing domain."
 		]
 	},
+	"medicine": { "copyof": "healing" },
+	"restoration": { "copyof": "healing" },
+	"resurrection": { "copyof": "healing" },
 	"knowledge": {
 		"name": "Knowledge",
 		"sources": [
@@ -1444,6 +1596,18 @@
 			"**Replacement Domain Spells:** 3rd-[seek thoughts](spell/seek_thoughts), 5th-[telepathic bond](spell/telepathic_bond), 8th-[mind blank](spell/mind_blank)."
 		]
 	},
+	"aeon": { "copyof": "knowledge" },
+	"espionage": {
+		"name": "Espionage",
+		"sources": [],
+		"description": [
+			"## Espionage",
+			"",
+			"This subdomain is associated with both the [Knowledge](domain/knowledge) and [Trickery](domain/trickery) domains."
+		]
+	},
+	"memory": { "copyof": "knowledge" },
+	"thought": { "copyof": "knowledge" },
 	"law": {
 		"name": "Law",
 		"sources": [
@@ -1607,6 +1771,21 @@
 			"**Replacement Domain Spells:** 1st-[command](spell/command), 3rd-[bestow curse](spell/bestow_curse), 7th-[symbol of persuasion](spell/symbol_of_persuasion)."
 		]
 	},
+	"inevitable": { "copyof": "law" },
+	"judgment": { "copyof": "law" },
+	"legislation": {
+		"name": "Legislation",
+		"sources": [],
+		"description": [
+			"## Legislation",
+			"",
+			"This subdomain is associated with both the [Law](domain/law) and [Rune](domain/rune) domains."
+		]
+	},
+	"loyalty": { "copyof": "law" },
+	"slavery": { "copyof": "law" },
+	"sovereignty": { "copyof": "law" },
+	"tyranny": { "copyof": "law" },
 	"liberation": {
 		"name": "Liberation",
 		"sources": [
@@ -1671,6 +1850,17 @@
 			"**Replacement Domain Spells:** 4th-[paragon surge](spell/paragon_surge) (always matches your actual race), 6th-[primal scream](spell/primal_scream), 7th-[transformation](spell/transformation)."
 		]
 	},
+	"freedom": { "copyof": "liberation" },
+	"revolution": { "copyof": "liberation" },
+	"self-realization": {
+		"name": "Self-Realization",
+		"sources": [],
+		"description": [
+			"## Self-Realization",
+			"",
+			"This subdomain is associated with both the [Liberation](domain/liberation) and [Strength](domain/strength) domains."
+		]
+	},
 	"luck": {
 		"name": "Luck",
 		"sources": [
@@ -1733,6 +1923,9 @@
 			"**Replacement Domain Spells:** 1st-[silent image](spell/silent_image), 2nd-[minor image](spell/minor_image), 3rd-[major image](spell/major_image), 5th-dream"
 		]
 	},
+	"curse": { "copyof": "luck" },
+	"fate": { "copyof": "luck" },
+	"imagination": { "copyof": "luck" },
 	"madness": {
 		"name": "Madness",
 		"sources": [
@@ -1797,6 +1990,9 @@
 			"**Replacement Domain Spells:** 3rd-[wall of nausea](spell/wall_of_nausea), 5th-[contact other plane](spell/contact_other_plane), 6th-[litany of madness](spell/litany_of_madness)."
 		]
 	},
+	"insanity": { "copyof": "madness" },
+	"nightmare": { "copyof": "madness" },
+	"truth": { "copyof": "madness" },
 	"magic": {
 		"name": "Magic",
 		"sources": [
@@ -1876,6 +2072,9 @@
 			"**Replacement Domain Spells:** 1st-[sanctify corpse](spell/sanctify_corpse), 5th-[permanency](spell/permanency), 8th-[binding](spell/binding)."
 		]
 	},
+	"arcane": { "copyof": "magic" },
+	"divine": { "copyof": "magic" },
+	"rites": { "copyof": "magic" },
 	"nobility": {
 		"name": "Nobility",
 		"sources": [
@@ -1956,9 +2155,9 @@
 			"",
 			"**Replacement Domain Spells:** 2nd-[shield other](spell/shield_other), 6th-[sacrificial oath](spell/sacrificial_oath).",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -1974,6 +2173,9 @@
 			"This replaces the leadership domain power of the Nobility domain."
 		]
 	},
+	"aristocracy": { "copyof": "nobility" },
+	"leadership": { "copyof": "nobility" },
+	"martyr": { "copyof": "nobility" },
 	"plant": {
 		"name": "Plant",
 		"sources": [
@@ -2054,6 +2256,10 @@
 			"**Replacement Domain Spells:** 1st-[thorn javelin](spell/thorn_javelin), 3rd-[thorny entanglement](spell/thorny_entanglement), 4th-[thorn body](spell/thorn_body)."
 		]
 	},
+	"decay": { "copyof": "plant" },
+	"growth": { "copyof": "plant" },
+	"leshy": { "copyof": "plant" },
+	"thorns": { "copyof": "plant" },
 	"protection": {
 		"name": "Protection",
 		"sources": [
@@ -2130,6 +2336,10 @@
 			"**Replacement Domain Spells:** 2nd-[silence](spell/silence), 4th-[detect scrying](spell/detect_scrying), 5th-[mirage arcana](spell/mirage_arcana), 9th-[greater create demiplane](spell/greater_create_demiplane)."
 		]
 	},
+	"defense": { "copyof": "protection" },
+	"fortifications": { "copyof": "protection" },
+	"purity": { "copyof": "protection" },
+	"solitude": { "copyof": "protection" },
 	"repose": {
 		"name": "Repose",
 		"sources": [
@@ -2195,9 +2405,9 @@
 			"",
 			"Pharasma-Friendly Souls Subdomain (Source: [Paizo Blog - Golarion Day Subdomains pg. 1](source/paizo_blog_-_golarion_day_subdomains), PFS-Legal) 3rd-level domain spell: Replace *animate dead* with [speak with dead](spell/speak_with_dead)",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -2213,6 +2423,8 @@
 			"This replaces the ward against death domain power of the Repose domain."
 		]
 	},
+	"ancestors": { "copyof": "repose" },
+	"souls": { "copyof": "repose" },
 	"rune": {
 		"name": "Rune",
 		"sources": [
@@ -2277,6 +2489,8 @@
 			"**Replacement Domain Spells:** 1st-[arcane lock](spell/arcane_lock), 4th-[dimensional anchor](spell/dimensional_anchor), 6th-[guards and wards](spell/guards_and_wards)."
 		]
 	},
+	"language": { "copyof": "rune" },
+	"wards": { "copyof": "rune" },
 	"scalykind": {
 		"name": "Scalykind",
 		"sources": [
@@ -2343,6 +2557,9 @@
 			"**Replacement Domain Spells:** 2nd-[pernicious poison](spell/pernicious_poison), 6th-[cloudkill](spell/cloudkill)."
 		]
 	},
+	"dragon": { "copyof": "scalykind" },
+	"saurian": { "copyof": "scalykind" },
+	"venom": { "copyof": "scalykind" },
 	"strength": {
 		"name": "Strength",
 		"sources": [
@@ -2435,6 +2652,10 @@
 			"**Replacement Domain Spells:** 4th-[paragon surge](spell/paragon_surge) (always matches your actual race), 6th-[primal scream](spell/primal_scream), 7th-[transformation](spell/transformation)."
 		]
 	},
+	"competition": { "copyof": "strength" },
+	"ferocity": { "copyof": "strength" },
+	"fist": { "copyof": "strength" },
+	"resolve": { "copyof": "strength" },
 	"sun": {
 		"name": "Sun",
 		"sources": [
@@ -2515,6 +2736,10 @@
 			"**Replacement Domain Spells:** 3rd-[cup of dust](spell/cup_of_dust), 9th-[horrid wilting](spell/horrid_wilting)."
 		]
 	},
+	"day": { "copyof": "sun" },
+	"light": { "copyof": "sun" },
+	"revelation": { "copyof": "sun" },
+	"thirst": { "copyof": "sun" },
 	"travel": {
 		"name": "Travel",
 		"sources": [
@@ -2581,6 +2806,9 @@
 			"**Replacement Domain Spells:** 1st-[floating disk](spell/floating_disk), 5th-[overland flight](spell/overland_flight), 9th-[gate](spell/gate)."
 		]
 	},
+	"exploration": { "copyof": "travel" },
+	"portal": { "copyof": "travel" },
+	"trade": { "copyof": "travel" },
 	"trickery": {
 		"name": "Trickery",
 		"sources": [
@@ -2687,9 +2915,9 @@
 			"",
 			"**Replacement Domain Spells:** 3rd-[locate object](spell/locate_object), 7th-[ethereal jaunt](spell/ethereal_jaunt).",
 			"",
-			"**Variant Domain Powers**",
+			"### Variant Domain Powers",
 			"",
-			"Description Source: [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
+			"**Description Source:** [Haunted Heroes Handbook](source/haunted_heroes_handbook)",
 			"",
 			"A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.",
 			"",
@@ -2705,6 +2933,11 @@
 			"This replaces the copycat domain power of the Trickery domain."
 		]
 	},
+	"ambush": { "copyof": "trickery" },
+	"deception": { "copyof": "trickery" },
+	"greed": { "copyof": "trickery" },
+	"innuendo": { "copyof": "trickery" },
+	"thievery": { "copyof": "trickery" },
 	"void": {
 		"name": "Void",
 		"sources": [
@@ -2775,6 +3008,9 @@
 			"**Replacement Domain Spells:** 2nd - hypnotic pattern, 7th - sunbeam, 9th - meteor swarm."
 		]
 	},
+	"dark_tapestry": { "copyof": "void" },
+	"isolation": { "copyof": "void" },
+	"stars": { "copyof": "void" },
 	"war": {
 		"name": "War",
 		"sources": [
@@ -2837,6 +3073,9 @@
 			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 5th-[greater command](spell/greater_command), 8th-[greater planar ally](spell/greater_planar_ally)."
 		]
 	},
+	"blood": { "copyof": "war" },
+	"duels": { "copyof": "war" },
+	"tactics": { "copyof": "war" },
 	"water": {
 		"name": "Water",
 		"sources": [
@@ -2929,6 +3168,11 @@
 			"**Replacement Domain Spells:** 1st-[hydraulic push](spell/hydraulic_push), 2nd-[slipstream](spell/slipstream), 5th-[elemental body II](spell/elemental_body_2), 6th-[fluid form](spell/fluid_form)."
 		]
 	},
+	"flotsam": { "copyof": "water" },
+	"flowing": { "copyof": "water" },
+	"ice": { "copyof": "water" },
+	"oceans": { "copyof": "water" },
+	"rivers": { "copyof": "water" },
 	"weather": {
 		"name": "Weather",
 		"sources": [
@@ -2992,5 +3236,8 @@
 			"",
 			"**Replacement Domain Spells:** 5th-[call lightning storm](spell/call_lightning_storm), 6th-[sirocco](spell/sirocco)."
 		]
-	}
+	},
+	"monsoons": { "copyof": "weather" },
+	"seasons": { "copyof": "weather" },
+	"storms": { "copyof": "weather" }
 }

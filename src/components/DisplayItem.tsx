@@ -51,14 +51,16 @@ const makeComponents = (tables: Table[], otherCodes: CodePlugin[]) => {
 	};
 };
 
-const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], otherCodes = [] }) => {
+const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], otherCodes = [], className }) => {
 	const contents = Array.isArray(markdown) ? markdown.join("\n") : markdown;
 	const components = useMemo(() => makeComponents(tables, otherCodes), [tables]);
 	return (
-		<Markdown
-			remarkPlugins={plugins}
-			components={components}
-		>{contents}</Markdown>
+		<div className={className}>
+			<Markdown
+				remarkPlugins={plugins}
+				components={components}
+			>{contents}</Markdown>
+		</div>
 	);
 };
 

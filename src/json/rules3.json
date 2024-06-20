@@ -17080,7 +17080,9 @@
 					[  "[Wysp](monster/wysp)", 6 ],
 					[  "[Wyvern](monster/wyvern)", 10 ],
 					[  "[Xanthos](monster/xanthos)", 17 ]
-				]
+				],
+				"initialColumn": 0,
+				"className": "monstercohorts"
 			}			
 		]
 	},

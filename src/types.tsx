@@ -59,6 +59,7 @@ export interface DisplayItemProps {
 	markdown: string | string[]
 	tables?: Table[]
 	otherCodes?: CodePlugin[]
+	className?: string
 }
 
 export interface SourceProps {

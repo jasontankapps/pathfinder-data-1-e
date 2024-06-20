@@ -1,4 +1,13 @@
 {
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested skill."
+		]
+	},
 	"acrobatics": {
 		"name": "Acrobatics",
 		"sources": [
