@@ -9961,7 +9961,7 @@
 			"",
 			"Coldwater Scourge (+0 CR): Stalking the watery expanses of the northern Arcadian Ocean and Inner Sea, the coldwater scourge is a menace to merchant ships and war galleons alike. A coldwater scourge is immune to cold damage, and creatures that fail their Reflex saves versus the scourge's acid jet are also staggered for 1 round.",
 			"",
-			"Steaming Scourge (+1 CR): The steaming scourge plagues the open waters of the Obari Ocean, sapping the life from unsuspecting marine animals as well as unwary fisherfolk and small seaside settlements. A steaming scourge possesses additional Hit Dice and the heat universal monster ability, and emits so much energy that any water in a 10-foot-radius spread around it begins to boil, dealing 1d6 points of damage to creatures that begin their turn submerged in it."
+			"Steaming Scourge (+1 CR): The steaming scourge plagues the open waters of the Obari Ocean, sapping the life from unsuspecting marine animals as well as unwary fisherfolk and small seaside settlements. A steaming scourge possesses additional Hit Dice and the [heat](umr/heat) universal monster ability, and emits so much energy that any water in a 10-foot-radius spread around it begins to boil, dealing 1d6 points of damage to creatures that begin their turn submerged in it."
 		]
 	},
 	"sea_serpent": {
@@ -15784,7 +15784,7 @@
 			"- Climb: The skeltercat's claws extend, granting it a climb speed equal to half its base land speed. Additionally, when falling within arm's reach of a wall, ledge, or something else it could grab on to for stability, it can slow its descent, taking damage as if the fall were 20 feet shorter.",
 			"- Hide: The skeltercat's hide bristles like that of an angry cat and grows thicker, increasing its natural armor bonus by 2.",
 			"- Legs: The skeltercat grows an additional pair of legs, bringing its total to six, increasing its base land speed to 60 feet, and granting it the rake special ability. The rake attacks use the same damage and critical threat range as the skeltercat's normal claw attacks.",
-			"- Swim: The skeltercat grows webbing between its toes and whale-like flukes on its tail, granting it a swim speed equal to its base land speed. Additionally, it gains the hold breath universal monster ability.",
+			"- Swim: The skeltercat grows webbing between its toes and whale-like flukes on its tail, granting it a swim speed equal to its base land speed. Additionally, it gains the [hold breath universal monster ability](umr/hold_breath).",
 			"- Tail: The skeltercat's tail grows thick and clublike. It gains a tail slap as a primary attack that deals 1d6 points of damage plus trip on a successful hit.",
 			"",
 			"**Scream (Su)** A skeltercat can release a terrifying cry that affects all creatures within a 300-foot spread. All creatures in that area must succeed at a DC 13 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A creature that successfully saves against this effect can't be affected by the same skeltercat's scream for 24 hours. The save DC is Charisma-based.",
@@ -42646,7 +42646,7 @@
 			"",
 			"Sirocco Zephyr (CR 12): Sirocco zephyrs come into the world in places such as northern Garund and the Cinderlands of Varisia that are rife with hot, dry winds; sandstorms; and volcanic eruptions. A sirocco zephyr's breath weapon is a 90-foot cone that deals slashing damage and blinds enemies for 1d4 rounds instead of blowing them back. A sirocco zephyr has immunity to fire rather than immunity to electricity, and has electricity resistance 10. It can use diminish plants three times per day and sirocco (DC 21) once per day instead of chain lightning and plant growth.",
 			"",
-			"Whirlwind Zephyr (CR 13): Whirlwind zephyrs are the rarest of their kind, born from magical storms and tornadoes found almost exclusively on temperate plains or on hurricane-wracked coasts such as those around the Eye of Abendego. These zephyrs have the advanced creature simple template. A whirlwind zephyr also gains the whirlwind universal monster ability (1/day, 10-60 feet high, 2d6+7 damage plus 2d6 sonic, DC 25) and can use ice storm once per day instead of fog cloud and plant growth."
+			"Whirlwind Zephyr (CR 13): Whirlwind zephyrs are the rarest of their kind, born from magical storms and tornadoes found almost exclusively on temperate plains or on hurricane-wracked coasts such as those around the Eye of Abendego. These zephyrs have the advanced creature simple template. A whirlwind zephyr also gains the [whirlwind](umr/whirlwind) universal monster ability (1/day, 10-60 feet high, 2d6+7 damage plus 2d6 sonic, DC 25) and can use ice storm once per day instead of fog cloud and plant growth."
 		]
 	},
 	"zhen_worm": {

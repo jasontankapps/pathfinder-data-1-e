@@ -97,7 +97,7 @@
 			"",
 			"**Type** poison, injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1d2 Con damage, and until the Con damage is healed, the victim gains the stench universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are sickened for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
+			"**Effect** 1d2 Con damage, and until the Con damage is healed, the victim gains the [stench](umr/stench) universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are sickened for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
 			"",
 			"### Construction",
 			"",

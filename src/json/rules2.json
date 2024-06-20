@@ -34,6 +34,7 @@
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
+			"umr",
 			"race_builder",
 			"downtime",
 			"campaign_systems",
@@ -1115,6 +1116,7 @@
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
+			"umr",
 			"race_builder",
 			"downtime",
 			"campaign_systems",
@@ -4319,7 +4321,7 @@
 			"",
 			"Combat is the slowest and most complex part of the game, with issues of timing, multiple creatures acting at once, and many, many dice rolls. Here are some tips for speeding up combat-things you can do and things your players can do to help.",
 			"",
-			"**Be Prepared:** This sounds like a no-brainer, but the greatest source of combat slowdowns is not knowing what a creature can do or how its special ability functions. It's hard enough for the players to keep track of what their PCs can do, but as a GM you're usually running multiple creatures at once and have to keep in mind how the results of this combat affect other events in the session. Read over the stat blocks for all creatures you're using that session; if any of them have special abilities or use a universal monster rule, be sure you're familiar with those as well. If a creature has a complex spell or spell-like ability, note its page number or print out the ability to save time referencing it.",
+			"**Be Prepared:** This sounds like a no-brainer, but the greatest source of combat slowdowns is not knowing what a creature can do or how its special ability functions. It's hard enough for the players to keep track of what their PCs can do, but as a GM you're usually running multiple creatures at once and have to keep in mind how the results of this combat affect other events in the session. Read over the stat blocks for all creatures you're using that session; if any of them have special abilities or use a [universal monster rule](rule/umr), be sure you're familiar with those as well. If a creature has a complex spell or spell-like ability, note its page number or print out the ability to save time referencing it.",
 			"",
 			"**Display the Combat Order:** If a PC knows what the current tick of the initiative clock is and knows when the participants get to act, he knows when his turn is coming up and can plan for what he wants to do. This means instead of hemming and hawing for a minute at the start of his turn, he can hem and haw during the previous player's turn and be ready when it's his turn. It also lets the PCs coordinate their actions together-while stingy GMs may see this as cheating or metagaming, remember that the turn-based initiative system is just a tool to simulate real-time combat in a way that doesn't take forever, and in a real combat, people on the same side wouldn't be locked into only acting in a specific order without awareness of each others' intent.",
 			"",
@@ -21081,15 +21083,16 @@
 			"",
 			"Welcome to the Pathfinder Roleplaying Game Bestiary! Within the pages of this tome you will encounter a wide range of monsters and creatures to pit against your players as they explore your world. The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisks) and [yetis](monster/yetis)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlocks) or H. P. Lovecraft's [ghasts](monster/ghasts) and [shoggoths](monster/shoggoths)) and new. In order to fully use the creatures in the Pathfinder RPG Bestiary, you'll need a copy of the Pathfinder Roleplaying Game Core Rulebook. These two books comprise the core rules for the Pathfinder RPG.",
 			"",
-			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [universal monster rules](unknown/universal_monster_rules). If a monster's listed special ability does not appear in its description, you'll find it there.",
+			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [universal monster rules](rule/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
 			"",
 			"This book's appendices also contain a wealth of other information-you'll find rules for altering a monster's stats (including making it more or less powerful by applying templates, adjusting size and Hit Dice, or even giving a monster class levels), guidelines for monstrous PCs, and more.",
 			"",
-			"Each monster description on the following pages is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description."
+			"Each monster description on the following pages is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description.",
+			"",
+			"[Monster listings can be found here.](monsters)"
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
-			"introduction",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -21098,6 +21101,7 @@
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
+			"umr",
 			"race_builder",
 			"downtime",
 			"campaign_systems",
@@ -21106,29 +21110,6 @@
 			"horror_rules",
 			"mastering_the_wild",
 			"planar_adventures"
-		]
-	},
-	"introduction": {
-		"name": "Introduction",
-		"sources": [ "Pathfinder RPG Bestiary" ],
-		"description": [
-			"**Source** [Pathfinder RPG Bestiary pg. 5](source/pathfinder_rpg_bestiary)",
-			"",
-			"Each monster is presented alphabetically. In the case of a group of monsters sharing similar traits (such as outsider races and some animals or vermin), the monster's basic name is listed first."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"bestiary"
-		],
-		"subtopics": [
-			"stat_block",
-			"description_pb1"
-		],
-		"siblings": [
-			"introduction",
-			"monster_creation",
-			"monster_advancement",
-			"monsters_as_pcs"
 		]
 	},
 	"stat_block": {
@@ -21169,7 +21150,7 @@
 			"",
 			"**Space/Reach:** The creature's space and reach-if the creature's space and reach are standard (one 5-foot square and a reach of 5 feet), this line is omitted.",
 			"",
-			"**Special Attacks:** The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](unknown/universal_monster_rules_section).",
+			"**Special Attacks:** The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](rule/umr).",
 			"",
 			"**Spell-Like Abilities:** After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be dispelled. A creature can reactivate a constant spell-like ability as a swift action.",
 			"",
@@ -21250,7 +21231,6 @@
 			"step_10_details"
 		],
 		"siblings": [
-			"introduction",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -21412,7 +21392,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
 			"",
-			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the [Natural Attacks](umr/natural_attacks) description in the Universal Monster Rules). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy-in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
+			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the [Natural Attacks](umr/natural_attacks) description). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy-in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
 			"",
 			"**Minimum/Maximum CR:** These values list the minimum and the maximum challenge ratings a creature of the indicated size should fall between.",
 			"",
@@ -21616,7 +21596,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
 			"",
-			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at monsters in this book. Monsters should use abilities from the [Universal Monster Rules](unknown/universal_monster_rules) whenever possible, instead of creating new yet similar abilities-when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
+			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at monsters in this book. Monsters should use abilities from the [Universal Monster Rules](rule/umr) whenever possible, instead of creating new yet similar abilities-when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
 			"",
 			"Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful.",
 			"",
@@ -21745,7 +21725,6 @@
 			"adding_class_levels"
 		],
 		"siblings": [
-			"introduction",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -22136,7 +22115,6 @@
 			"bestiary"
 		],
 		"siblings": [
-			"introduction",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -22164,6 +22142,7 @@
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
+			"umr",
 			"race_builder",
 			"downtime",
 			"campaign_systems",

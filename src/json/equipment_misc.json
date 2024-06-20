@@ -7498,7 +7498,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of time. This functions as the universal monster rule of the same name, and lasts for 1 hour from the time you ingest the solution. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
+			"This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of time. This functions as the [universal monster rule of the same name](umr/ferocity), and lasts for 1 hour from the time you ingest the solution. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -21377,7 +21377,7 @@
 			"",
 			"This vile-smelling white paste keeps vermin at bay if spread on your skin. Normal-sized (Fine) vermin avoid you. Swarms of vermin must make a successful DC 15 Fortitude saving throw in order to enter your square. Vermin repellent has no adverse effect on vermin of Small size or larger, though if an attacking vermin has a choice of targets that are respectively covered and not covered in repellent, it usually chooses the creatures without repellent. Once applied, vermin repellent remains effective for 4 hours or until you spend 1 round washing it off.",
 			"",
-			"Vermin repellent counts as a strong scent, allowing creatures with the scent ability to detect it at a greater range (see the Universal Monster Rules in the Bestiary).",
+			"Vermin repellent counts as a strong scent, allowing creatures with the [scent](umr/scent) ability to detect it at a greater range.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"

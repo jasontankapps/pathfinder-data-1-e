@@ -6812,7 +6812,7 @@
 			"",
 			"Many familiars are able to turn into other animals, but a few familiars have greater talents, and can transform into humanoid bodies of their own.  ",
 			"**Prerequisites:** Familiar class feature, caster level 9th, your familiar must have the change shape universal monster ability.  ",
-			"**Benefit:** Your familiar's change shape universal monster ability can function as [alter self](spell/alter_self), and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
+			"**Benefit:** Your familiar's [change shape universal monster ability](umr/change_shape) can function as [alter self](spell/alter_self), and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
 		]
 	},
 	"channel_deific_essence": {
@@ -8523,7 +8523,7 @@
 			"**Source** [Horror Adventures pg. 84](source/horror_adventures)",
 			"",
 			"Creatures that you swallow are quickly absorbed and soon utterly annihilated.  ",
-			"**Prerequisites:** Base attack bonus +6; evil alignment; swallow whole universal monster ability; must be of the magical beast, outsider, or undead type.  ",
+			"**Prerequisites:** Base attack bonus +6; evil alignment; [swallow whole universal monster ability](umr/swallow_whole); must be of the magical beast, outsider, or undead type.  ",
 			"**Benefit:** When you start your turn having swallowed at least one creature, each swallowed creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or gain a temporary negative level. Swallowed creatures that die from these negative levels are consumed as per disintegrate. This is a death effect.  ",
 			"**Special:** If you are of the undead type, each time a swallowed creature gains a temporary negative level from his ability, you add 5 temporary hit points to the number of hit points that swallowed creatures must deal to escape, up to a maximum of 15 temporary hit points. These temporary hit points last for 10 minutes."
 		]
@@ -16055,7 +16055,7 @@
 			"**Source** [Horror Adventures pg. 86](source/horror_adventures)",
 			"",
 			"The repulsive horror of your smothering attack nearly incapacitates most foes.  ",
-			"**Prerequisites:** [Engulf Revulsion](feat/engulf_revulsion); engulf or smother universal monster ability.  ",
+			"**Prerequisites:** [Engulf Revulsion](feat/engulf_revulsion); [engulf](umr/engulf) or [smother](umr/smother) universal monster ability.  ",
 			"**Benefit:** When you successfully engulf or smother an opponent, successfully maintain a grapple combat maneuver on a smothered opponent, the opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become staggered for 1 round. This is a mind-affecting fear effect."
 		]
 	},
@@ -16068,7 +16068,7 @@
 			"**Source** [Horror Adventures pg. 86](source/horror_adventures)",
 			"",
 			"The stomach-churning terror of your smothering attack leaves creatures sick and weakened.  ",
-			"**Prerequisites:** Engulf or smother universal monster ability.  ",
+			"**Prerequisites:** [Engulf](umr/engulf) or [smother](umr/smother) universal monster ability.  ",
 			"**Benefit:** When you successfully engulf or smother an opponent, or successfully maintain a grapple combat maneuver on an engulfed or smothered opponent, that opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become shaken for 1 round. This is a mind-affecting fear effect."
 		]
 	},
@@ -17447,7 +17447,7 @@
 			"**Source** [Horror Adventures pg. 87](source/horror_adventures)",
 			"",
 			"You drink blood from the living at a furious rate, often draining creatures dry in a matter of seconds.  ",
-			"**Prerequisites:** Blood drain universal monster ability, grab universal monster ability.  ",
+			"**Prerequisites:** [Blood drain universal monster ability](umr/blood_drain), [grab universal monster ability](umr/grab).  ",
 			"**Benefit:** Once per round, when you successfully pin an opponent, that opponent takes double the normal damage from your blood drain."
 		]
 	},
@@ -19509,7 +19509,7 @@
 			"",
 			"Your orc heritage allows you to fight on.  ",
 			"**Prerequisites:** Con 13, half-orc, orc ferocity racial trait.  ",
-			"**Benefit:** You gain the ferocity universal monster ability, allowing you to continue fighting at negative hit points. When using this ability, you gain a +2 bonus on Intimidate checks.  ",
+			"**Benefit:** You gain the [ferocity](umr/ferocity) universal monster ability, allowing you to continue fighting at negative hit points. When using this ability, you gain a +2 bonus on Intimidate checks.  ",
 			"**Normal:** A half-orc with the orc ferocity racial trait can fight for 1 more round after he is brought below 0 hit points."
 		]
 	},
@@ -19523,7 +19523,7 @@
 			"",
 			"Your summoned creatures gain your ferocity.  ",
 			"**Prerequisites:** [Augment Summoning](feat/augment_summoning), half-orc or orc.  ",
-			"**Benefit:** Creatures you summon gain the ferocity universal monster ability."
+			"**Benefit:** Creatures you summon gain the [ferocity](umr/ferocity) universal monster ability."
 		]
 	},
 	"ferocious_tenacity": {
@@ -19720,7 +19720,7 @@
 			"Your eyes develop keener sight in dim light and darkness.  ",
 			"**Prerequisites:** Darkvision 60 ft., tiefling.  ",
 			"**Benefit:** You gain low-light vision and your darkvision improves to 120 ft.  ",
-			"**Special:** You can take this feat twice. When you take it a second time, you gain the see in darkness universal monster ability."
+			"**Special:** You can take this feat twice. When you take it a second time, you gain the [see in darkness universal monster ability](umr/see_in_darkness)."
 		]
 	},
 	"fiendish_darkness": {
@@ -20312,7 +20312,7 @@
 			"**Source** [Demons Revisited pg. 8](source/demons_revisited)",
 			"",
 			"Your slashing sneak attacks tend to slice away swaths of skin and natural armor.  ",
-			"**Prerequisites:** Sneak attack +3d6, bleeding sneak attack rogue trick or bleed universal monster ability.  ",
+			"**Prerequisites:** Sneak attack +3d6, bleeding sneak attack rogue trick or [bleed](umr/bleed) universal monster ability.  ",
 			"**Benefit:** When you successfully inflict sneak attack damage on a foe with a slashing weapon, your attack doesn't go particularly deep, but you do carve away a significant portion of skin and flesh. If this sneak attack inflicts bleed damage, the victim of the sneak attack is sickened by the pain and has its natural armor bonus (if any) reduced by a number of points equal to the number of sneak attack dice you possess. These penalties persist as long as the bleed damage persists. Multiple strikes on the same foe do not stack the bleed damage, but the penalty to natural armor does stack, to a maximum penalty equal to the target's normal full natural armor score."
 		]
 	},
@@ -25207,7 +25207,7 @@
 			"**Source** [Horror Adventures pg. 88](source/horror_adventures)",
 			"",
 			"In the space of a few horrific seconds, you can chew up and gulp down an entire humanoid body.  ",
-			"**Prerequisites:** Bite attack, Large or larger, swallow whole universal monster ability.  ",
+			"**Prerequisites:** Bite attack, Large or larger, [swallow whole universal monster ability](umr/swallow_whole).  ",
 			"**Benefit:** As a full-round action, you can completely consume a dead, unconscious, paralyzed, or otherwise helpless humanoid creature that you could normally swallow with your swallow whole ability. When you do, you deal bite damage as a critical hit and swallow the humanoid as your swallow whole special ability.",
 			"",
 			"Allies of the swallowed creature within 30 feet that can see you indulge in this horrific feast must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) to avoid being shaken for 1d4 rounds. This part of the ability is a mind-affecting fear effect."
@@ -25747,7 +25747,7 @@
 			"",
 			"You have mastered the ability to transform into a variety of beasts.  ",
 			"**Prerequisites:** Vampire.  ",
-			"**Benefit:** You can change shape (as the universal monster rule) to assume the form of one of the following beasts, as beast shape II: boar, dire bat, giant frog, grizzly bear, hyena, leopard, lion, shark, squid, or wolf. This is a supernatural ability.  ",
+			"**Benefit:** You can [change shape](umr/change_shape) to assume the form of one of the following beasts, as beast shape II: boar, dire bat, giant frog, grizzly bear, hyena, leopard, lion, shark, squid, or wolf. This is a supernatural ability.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, choose another animal transformation."
 		]
 	},
@@ -27344,7 +27344,7 @@
 			"**Source** [Demons Revisited pg. 26](source/demons_revisited)",
 			"",
 			"Your foul odor is particularly strong and wide-reaching.  ",
-			"**Prerequisites:** Stench universal monster ability.  ",
+			"**Prerequisites:** [Stench](umr/stench) universal monster ability.  ",
 			"**Benefit:** The aura range of your stench ability increases by 30 feet. In addition, your stench ability save DC increases by 2, and its duration increases by 50%."
 		]
 	},
@@ -30039,7 +30039,7 @@
 			"**Source** [Horror Adventures pg. 89](source/horror_adventures)",
 			"",
 			"You induce fear and loathing when you latch onto another living creature.  ",
-			"**Prerequisites:** Attach universal monster ability.  ",
+			"**Prerequisites:** [Attach](umr/attach) universal monster ability.  ",
 			"**Benefit:** When you use your attach ability, your opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) to avoid becoming shaken while you remain attached. This is a mind-affecting fear effect."
 		]
 	},
@@ -31447,7 +31447,7 @@
 			"",
 			"Though magical practitioners around the multiverse make daily use of prestidigitation, Poshment the Peculiar was the first to dabble in prestidigitation's many possibilities. Through dedicated study and dubious field tests, he was able to find many more uses than dying his clothes and cleaning up a spell component closet. By the time he had graduated from the Arcanamirium in Absalom, he had already learned to permanently dye clothes and even paint on canvas using only his spellwork. Over the years, he expanded prestidigitation from a multi-use spell to a work of art. In addition to the feat, skill, or other requirements listed in parentheses for each of these tricks, you must have the Magic Trick (prestidigitation) feat to use the trick.",
 			"",
-			"*Adjust Scent* (Survival 6 ranks): You can adjust the smell of an object or willing creature to become more or less powerful, respectively doubling or reducing by half the distance needed to detect the target with the scent universal monster ability.",
+			"*Adjust Scent* (Survival 6 ranks): You can adjust the smell of an object or willing creature to become more or less powerful, respectively doubling or reducing by half the distance needed to detect the target with the [scent](umr/scent) universal monster ability.",
 			"",
 			"*Chromatic Savant* (Disguise 3 ranks or gnome): When you change the color of an item, the changes are permanent. You can also change the color of part or all of a living being, but the effect gradually fades away in about a month. You must succeed at an appropriate Craft check to create complex or specific designs.",
 			"",
@@ -31455,7 +31455,7 @@
 			"",
 			"*Minor Levitation* (Spellcraft 3 ranks): You can cause up to 1 pound of material to become weightless and direct it to move up to 5 feet each round as if under the effects of levitate.",
 			"",
-			"*Repulsive Flavor* (Craft [cooking] 3 ranks): You can cause a willing creature to taste foul. Once a creature with a bite attack successfully attacks the target of your spell, the target gains a +2 circumstance bonus to AC and CMD against bite attacks and grapple checks made with a mouth, such as the grab ability or swallow whole, from that creature.",
+			"*Repulsive Flavor* (Craft [cooking] 3 ranks): You can cause a willing creature to taste foul. Once a creature with a bite attack successfully attacks the target of your spell, the target gains a +2 circumstance bonus to AC and CMD against bite attacks and grapple checks made with a mouth, such as the [grab](umr/grab) ability or [swallow whole](umr/swallow_whole), from that creature.",
 			"",
 			"*Thaumaturgic Aesthetics* (Bluff 3 ranks, Disguise 3 ranks, Deceptive): While you have a prestidigitation spell active, you can thematically change the effects of other spells you cast, such as changing the color of a fireball, granting your magic missile a specific shape, or adding a floral smell to your mage armor. This increases the DC of Spellcraft and Knowledge (arcana) checks to identify your magic by an amount equal to half of your ranks in Disguise (minimum 1).",
 			"",
@@ -31672,7 +31672,7 @@
 			"",
 			"You infuse your body with protoplasm from the Maelstrom.  ",
 			"**Prerequisites:** Knowledge (planes) 7 ranks.  ",
-			"**Benefit:** As a full-round action, you can infuse yourself with protoplasm, converting your body and equipment to a semi-gelatinous state. You gain the compression universal monster ability, which allows you to move through an area as small as one-quarter your space without squeezing or oneeighth your space when squeezing. You also gain a bonus to your CMD against grapple and trip combat maneuvers equal to half your ranks in Knowledge (planes). Due to your form's softness and instability, your attacks with manufactured weapons, natural weapons, and unarmed strikes deal half damage while you are in malleable form. This effect offers no protection against critical hits or precision damage.",
+			"**Benefit:** As a full-round action, you can infuse yourself with protoplasm, converting your body and equipment to a semi-gelatinous state. You gain the [compression](umr/compression) universal monster ability, which allows you to move through an area as small as one-quarter your space without squeezing or oneeighth your space when squeezing. You also gain a bonus to your CMD against grapple and trip combat maneuvers equal to half your ranks in Knowledge (planes). Due to your form's softness and instability, your attacks with manufactured weapons, natural weapons, and unarmed strikes deal half damage while you are in malleable form. This effect offers no protection against critical hits or precision damage.",
 			"",
 			"You can use this feat's benefit for a number of minutes per day equal to your ranks in Knowledge (planes). These minutes need not be consecutive, but they must be spent in 1-minute increments."
 		]
@@ -33949,7 +33949,7 @@
 			"**Source** [Aquatic Adventures pg. 58](source/aquatic_adventures)",
 			"",
 			"You can call upon murky sediments in the water to transform a mist spell underwater.  ",
-			"**Benefit:** You can apply Murky Spell only to a mist or fog spell that normally doesn't work underwater, such as cloudkill, fog cloud, mind fog, obscuring mist, or solid fog. When cast underwater, a murky spell clouds the water with sediments, producing roughly the same effects as the normal spell would above water except as follows. Due to the dilution, a murky spell has only one-tenth of the duration of a normal spell (generally 1 minute per level, though mind fog lasts 3 minutes), but this reduction doesn't affect the duration of secondary effects like mind fog's mental penalties. Abilities that see through mist and fog can't see through a murky spell unless they also specifically see through murky water (like the mistsight universal monster rule). Instead of wind, currents can disperse a murky spell; any current with a speed of at least 10 feet disperses a murky spell in 1 round. A murky spell has no effect above the water. A murky spell uses up a slot the same spell level as the spell's actual level."
+			"**Benefit:** You can apply Murky Spell only to a mist or fog spell that normally doesn't work underwater, such as cloudkill, fog cloud, mind fog, obscuring mist, or solid fog. When cast underwater, a murky spell clouds the water with sediments, producing roughly the same effects as the normal spell would above water except as follows. Due to the dilution, a murky spell has only one-tenth of the duration of a normal spell (generally 1 minute per level, though mind fog lasts 3 minutes), but this reduction doesn't affect the duration of secondary effects like mind fog's mental penalties. Abilities that see through mist and fog can't see through a murky spell unless they also specifically see through murky water (like the [mistsight universal monster rule](umr/mistsight)). Instead of wind, currents can disperse a murky spell; any current with a speed of at least 10 feet disperses a murky spell in 1 round. A murky spell has no effect above the water. A murky spell uses up a slot the same spell level as the spell's actual level."
 		]
 	},
 	"murmurs_of_earth": {
@@ -35555,7 +35555,7 @@
 			"",
 			"The earth welcomes you, showing you the secret paths through sand and soil.  ",
 			"**Prerequisites:** [Oread Burrower](feat/oread_burrower), [Stony Step](feat/stony_step), character level 13th, oread.  ",
-			"**Benefit:** You gain the earth glide universal monster ability and can use it to travel at your full base speed through sand, dirt, clay, gravel, or similar materials. If protected against fire damage, you can even burrow through lava. You can burrow through solid stone at 1/2 your base speed."
+			"**Benefit:** You gain the [earth glide universal monster ability](umr/earth_glide) and can use it to travel at your full base speed through sand, dirt, clay, gravel, or similar materials. If protected against fire damage, you can even burrow through lava. You can burrow through solid stone at 1/2 your base speed."
 		]
 	},
 	"osirionology": {
@@ -38900,7 +38900,7 @@
 			"**Source** [Demons Revisited pg. 26](source/demons_revisited)",
 			"",
 			"Your stench is overwhelmingly nauseating.  ",
-			"**Prerequisites:** Stench universal monster ability, [Improved Stench](feat/improved_stench), [Great Fortitude](feat/great_fortitude)  ",
+			"**Prerequisites:** [Stench](umr/stench) universal monster ability, [Improved Stench](feat/improved_stench), [Great Fortitude](feat/great_fortitude)  ",
 			"**Benefit:** The first round a creature is affected by your stench, it is nauseated in addition to being sickened. At the end of an affected creature's turn after the first round, it can make a new save against the stench's DC to remove the nauseated condition, but the sickened condition lasts as long as normal."
 		]
 	},
@@ -39065,7 +39065,7 @@
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
 			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus); ability to cast summon monster or summon nature's ally.  ",
-			"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the stench universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
+			"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the [stench](umr/stench) universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
 		]
 	},
 	"quah_bond": {
@@ -42846,7 +42846,7 @@
 			"",
 			"Meditation focuses your powers of observation.  ",
 			"**Prerequisites:** Wis 15, [Blind-Fight](feat/blind_fight), [Meditation Master](feat/meditation_master).  ",
-			"**Benefit:** For 24 hours after you meditate, you gain low-light vision and scent, as per the universal monster abilities. If you already have low-light vision, you gain the ability to see three times as far as a human in conditions of dim light for 24 hours. If you already have scent, the range at which you detect smells using scent doubles for 24 hours (60 feet normally, 30 feet upwind, and 120 feet downwind).  ",
+			"**Benefit:** For 24 hours after you meditate, you gain [low-light vision](umr/low-light_vision) and [scent](umr/scent), as per the universal monster abilities. If you already have low-light vision, you gain the ability to see three times as far as a human in conditions of dim light for 24 hours. If you already have scent, the range at which you detect smells using scent doubles for 24 hours (60 feet normally, 30 feet upwind, and 120 feet downwind).  ",
 			"**Special:** A monk with this feat can select Improved Blind-Fight as a bonus feat beginning at 6th level, and Greater Blind-Fight as a bonus feat beginning at 10th level. He doesn't need to meet the prerequisites of those feats."
 		]
 	},
@@ -42880,7 +42880,7 @@
 			"",
 			"You can squeeze through small areas thanks to your slippery scales and lithe musculature.  ",
 			"**Prerequisites:** Serpentfolk.  ",
-			"**Benefit:** You gain the compression universal monster ability, allowing you to move through an area as small as one-quarter your space without squeezing, or one-eighth your space when squeezing."
+			"**Benefit:** You gain the [compression](umr/compression) universal monster ability, allowing you to move through an area as small as one-quarter your space without squeezing, or one-eighth your space when squeezing."
 		]
 	},
 	"serren's_masterstroke": {
@@ -43240,7 +43240,7 @@
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
 			"**Prerequisites:** Familiar class feature, caster level 7th.  ",
 			"**Benefit:** Your familiar gains the [change shape](spell/change_shape) universal monster ability. This ability functions as [beast shape II](spell/beast_shape_2) and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
-			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the change shape universal monster ability (like an [imp](monster/imp)), this grants a single additional form."
+			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the [change shape universal monster ability](umr/change_shape) (like an [imp](monster/imp)), this grants a single additional form."
 		]
 	},
 	"shapeshifter_foil": {
@@ -47770,7 +47770,7 @@
 			"",
 			"You can sense creatures touching earth or stone.  ",
 			"**Prerequisites:** Wis 13, Perception 10 ranks, stone giant.  ",
-			"**Benefit:** You gain tremorsense 15 feet when in contact with earth or stone, including worked stone, and gain all the benefits of the tremorsense universal monster ability."
+			"**Benefit:** You gain tremorsense 15 feet when in contact with earth or stone, including worked stone, and gain all the benefits of the [tremorsense](umr/tremorsense) universal monster ability."
 		]
 	},
 	"stone_cover": {
@@ -48004,7 +48004,7 @@
 			"",
 			"Your technique unleashes a dizzying torrent of cuts.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with slashing weapon, base attack bonus +6.  ",
-			"**Benefit:** As a standard action, you can make a single attack with your chosen weapon while setting up a vortex of cuts that lasts until the beginning of your next turn. Any creature that begins its turn threatened by this weapon takes damage equal to your Strength or Dexterity bonus, whichever is greater. When your base attack bonus reaches +11, you also add your base weapon damage. When your base attack bonus reaches +16, you gain the distraction universal monster rule for this damage, but a creature that fails its save is only sickened. You can use this feat's benefits only once per minute."
+			"**Benefit:** As a standard action, you can make a single attack with your chosen weapon while setting up a vortex of cuts that lasts until the beginning of your next turn. Any creature that begins its turn threatened by this weapon takes damage equal to your Strength or Dexterity bonus, whichever is greater. When your base attack bonus reaches +11, you also add your base weapon damage. When your base attack bonus reaches +16, you gain the [distraction](umr/distraction) universal monster rule for this damage, but a creature that fails its save is only sickened. You can use this feat's benefits only once per minute."
 		]
 	},
 	"storm_soul": {
@@ -49130,7 +49130,7 @@
 			"",
 			"Your melee blows deal extra damage to creatures sensitive to light, making you adept at hunting foul monsters of the night.  ",
 			"**Prerequisites:** [Arcane Strike](feat/arcane_strike), able to prepare or cast daylight.  ",
-			"**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the light blindness, light sensitivity, or sunlight powerlessness universal monster rules) with a melee weapon you've imbued with your Arcane Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + your character level + your Strength modifier) or become staggered for 1 round."
+			"**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the [light blindness](umr/light_blindness), [light sensitivity](umr/light_sensitivity), or [sunlight powerlessness](umr/sunlight_powerlessness) universal monster rules) with a melee weapon you've imbued with your Arcane Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + your character level + your Strength modifier) or become staggered for 1 round."
 		]
 	},
 	"superintendent": {
@@ -51683,7 +51683,7 @@
 			"**Source** [Demons Revisited pg. 26](source/demons_revisited)",
 			"",
 			"Your stench is poisonous.  ",
-			"**Prerequisites:** Stench universal monster ability, immunity to poison, [Improved Stench](feat/improved_stench), [Toughness](feat/toughness)  ",
+			"**Prerequisites:** [Stench](umr/stench) universal monster ability, immunity to poison, [Improved Stench](feat/improved_stench), [Toughness](feat/toughness)  ",
 			"**Benefit:** The first round a creature is affected by your stench, it must also make a successful Fortitude save against the same DC to resist becoming poisoned. If you have 10 or fewer HD, this poison is identical to insanity mist; if you have 11 or more HD, the poison also adds confusion for 1 round to its effects."
 		]
 	},
@@ -53732,7 +53732,7 @@
 			"",
 			"Your courage is unnaturally strong.  ",
 			"**Prerequisites:** Animal or magical beast.  ",
-			"**Benefit:** You gain a +4 morale bonus on saves against fear and emotion effects. If you can serve as a mount, your rider gains a +4 morale bonus on Handle Animal, Ride, and wild empathy checks to force you within range of a creature with the unnatural aura universal monster rule. In addition, the DC to push you with the Handle Animal skill does not increase if you are wounded or have taken any nonlethal damage or ability score damage.  ",
+			"**Benefit:** You gain a +4 morale bonus on saves against fear and emotion effects. If you can serve as a mount, your rider gains a +4 morale bonus on Handle Animal, Ride, and wild empathy checks to force you within range of a creature with the [unnatural aura universal monster rule](umr/unnatural_aura). In addition, the DC to push you with the Handle Animal skill does not increase if you are wounded or have taken any nonlethal damage or ability score damage.  ",
 			"**Normal:** The DC to push an animal increases by 2 if the animal is wounded or has taken any nonlethal damage or ability score damage."
 		]
 	},

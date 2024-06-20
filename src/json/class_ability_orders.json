@@ -229,7 +229,7 @@
 			"",
 			"**Eclipsing Blade (Sp):** At 8th level, the samurai can cast [darkness](spell/darkness) on a weapon he is holding. The [darkness](spell/darkness) does not affect the vision of any order of the eclipse samurai, or that of their mounts. The spell immediately ends if the weapon leaves the samurai's hand. He may do this once per day, plus one additional time per day for every four levels he possesses above 8th (to a maximum of four times per day at 20th level).",
 			"",
-			"**See in Darkness (Ex):** At 15th level the samurai can see perfectly in darkness, even magical darkness, as the universal monster ability of the same name."
+			"**See in Darkness (Ex):** At 15th level the samurai can see perfectly in darkness, even magical darkness, as the [universal monster ability](umr/see_in_darkness) of the same name."
 		]
 	},
 	"order_of_the_eel": {
@@ -582,7 +582,7 @@
 			"",
 			"**Teamwork Tricks (Ex):** At 8th level as a free action, the cavalier can use control the herd to handle allied and riderless animals and animal companions. Friendly and helpful animals that the cavalier commands with Handle Animal or his control the herd ability are considered to know any tasks or tricks the cavalier's mount knows, in addition to any tasks or tricks they already know.",
 			"",
-			"**Stampede (Ex):** At 15th level, as a standard action, the cavalier can incite any riderless and nonhostile animals and animal companions within 60 feet of him to stampede. Each affected creature gains a +4 bonus to AC (this bonus stacks with the benefits of the cavalier's challenge), the trample universal monster rule, and a bonus to damage equal to half the cavalier's level for 1 round. The save DC against an incited animal's trample attack is 10 + half the cavalier's level + his Charisma modifier. Incited creatures attack whatever targets the cavalier directs them to unless commanded otherwise by a bonded master (in the case of a familiar or animal companion)."
+			"**Stampede (Ex):** At 15th level, as a standard action, the cavalier can incite any riderless and nonhostile animals and animal companions within 60 feet of him to stampede. Each affected creature gains a +4 bonus to AC (this bonus stacks with the benefits of the cavalier's challenge), the [trample](umr/trample) universal monster rule, and a bonus to damage equal to half the cavalier's level for 1 round. The save DC against an incited animal's trample attack is 10 + half the cavalier's level + his Charisma modifier. Incited creatures attack whatever targets the cavalier directs them to unless commanded otherwise by a bonded master (in the case of a familiar or animal companion)."
 		]
 	},
 	"order_of_the_saddle": {

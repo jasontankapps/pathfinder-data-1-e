@@ -11264,7 +11264,7 @@
 			"**Senses:** Low-light vision and darkvision 60 feet.  ",
 			"**Manipulative:** +2 racial bonus on Bluff and Perception.  ",
 			"**Undead Resistance:** Dhampirs gain a +2 racial bonus on saving throws against disease and mind-affecting effects.  ",
-			"**Light Sensitivity, Negative Energy Affinity:** See universal monster rules.  ",
+			"**Light Sensitivity, Negative Energy Affinity:** See [universal](umr/light_sensitivity) [monster](umr/negative_energy_affinity) rules.  ",
 			"**Spell-Like Ability:** A dhampir can use detect undead three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level.  ",
 			"**Resist Level Drain:** See above.  ",
 			"**Languages:** Dhampirs begin play speaking Common. Those with high Intelligence can choose any language as a bonus language (except druidic and other secret languages)."
@@ -25120,7 +25120,7 @@
 			"",
 			"### Evolution Points",
 			"",
-			"Unfettered eidolons have a number of evolution points (EP) you can use to purchase abilities and defenses in addition to those presented above. An unfettered eidolon starts with 8 EP, regardless of its base form. For each additional EP spent beyond 8, an unfettered eidolon's Hit Dice increase by 1. An unfettered eidolon's CR increases with its Hit Dice using the \"outsider\" line. Many of these abilities are universal monster rules.",
+			"Unfettered eidolons have a number of evolution points (EP) you can use to purchase abilities and defenses in addition to those presented above. An unfettered eidolon starts with 8 EP, regardless of its base form. For each additional EP spent beyond 8, an unfettered eidolon's Hit Dice increase by 1. An unfettered eidolon's CR increases with its Hit Dice using the \"outsider\" line. Many of these abilities are [universal monster rules](rule/umr).",
 			"",
 			"**Arms (Ex, 2 EP):** Grows an additional pair of arms and hands. The eidolon must have the Weapon Training evolution in order to use weapons.",
 			"",

@@ -768,7 +768,7 @@
 			"- Damage reduction 20/epic.",
 			"- Darkvision 600 feet.",
 			"- Fast healing 30.",
-			"- **Ferocity (Ex):** Kaiju have the ferocity universal monster ability.",
+			"- **Ferocity (Ex):** Kaiju have the [ferocity](umr/ferocity) universal monster ability.",
 			"- **Hurl Foe (Ex):** When a kaiju damages a Huge or smaller foe with one of its natural attacks, it can try to hurl the foe as part of that attack by attempting a combat maneuver check. On a successful check, the foe is knocked back 10 feet in a direction of the kaiju's choice and falls prone. The distance the foe is hurled increases by 10 feet for every 5 points by which the kaiju's check exceeds the foe's CMD. If an obstacle stops the hurled creature before it travels the whole distance, the hurled foe and the obstacle struck each take 1d6 points of damage per 10 feet of distance remaining and the foe is knocked prone in the space adjacent to the obstacle.",
 			"- Immunity to ability damage, ability drain, death effects, disease, energy drain, and fear.",
 			"- **Massive (Ex):** Because kaiju are so massive, uneven ground and other terrain features that form difficult terrain generally pose no significant hindrance to a kaiju's movement, though settlements or areas of forest are considered difficult terrain to a kaiju. A Huge or smaller creature can move through any square occupied by a kaiju, and vice versa. A kaiju can make attacks of opportunity only against foes that are Huge or larger and can be flanked only by Huge or larger foes. A kaiju gains a bonus for being on higher ground only if its entire space is on higher ground than that of its target. It's possible for a Huge or smaller creature to climb a kaiju-this generally requires a successful DC 30 check, and unlike the normal rules about kaiju and attacks of opportunity, a Small or larger creature that climbs on a kaiju's body provokes an attack of opportunity from the monster.",
@@ -933,7 +933,7 @@
 			"- Spell resistance increase (if it has spell resistance) equal to its mythic rank.",
 			"- Ability score increases, depending on its mythic rank.",
 			"- Mythic feats, which generally are improved versions of standard feats. Mythic feats are indicated by a superscript \"M.\"",
-			"- **Mythic Power (Su):** The creature has the mythic power universal monster ability. The effect of these abilities depend on its mythic rank."
+			"- **Mythic Power (Su):** The creature has the [mythic power universal monster ability](umr/mythic_power). The effect of these abilities depend on its mythic rank."
 		]
 	},
 	"native": {
@@ -1255,7 +1255,7 @@
 			"",
 			"- A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, or other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, blood drain, poison, or other special attacks in addition to normal damage.",
 			"- Swarms do not threaten creatures, and do not make attacks of opportunity with their swarm attack. However, they distract foes whose squares they occupy, as described below.",
-			"- Swarms possess the distraction universal monster rule. Spellcasting or concentrating on spells within the area of a swarm requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Will save."
+			"- Swarms possess the [distraction](umr/distraction) universal monster rule. Spellcasting or concentrating on spells within the area of a swarm requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Will save."
 		]
 	},
 	"troop": {
@@ -1338,7 +1338,7 @@
 			"",
 			"- Immunity to cold.",
 			"- Resistance to electricity and fire 10.",
-			"- **Enhanced Senses (Ex):** All members of the wild hunt have greensight 60 feet, scent, and see in darkness.",
+			"- **Enhanced Senses (Ex):** All members of the wild hunt have [greensight](umr/greensight) 60 feet, [scent](umr/scent), and see in darkness.",
 			"- **Instinctive Cooperation (Ex):** Creatures with the wild hunt subtype are immune to all supernatural abilities of other creatures with the wild hunt subtype that allow a saving throw (such as wild gaze).",
 			"- **Planar Acclimation (Ex):** A creature with the wild hunt subtype is always considered to be on its home plane, regardless of what plane it finds itself upon. It never gains the extraplanar subtype.",
 			"- **Speak with Nature (Sp):** Wild hunt creatures have know direction, speak with animals, and speak with plants as constant spell-like abilities, and can cast stone tell as a spell-like ability 3 times per day.",

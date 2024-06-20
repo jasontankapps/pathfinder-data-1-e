@@ -5479,7 +5479,7 @@
 			"",
 			"You cause your own skin to peel off your body and animate as a magical creature you control. You may project your consciousness to your animated skin or return it to your actual body as a standard action. When your consciousness is in your body, you are helpless (except for transferring your will to your skin, or dismissing the spell).",
 			"",
-			"Your possessed skin is identical to you in all ways, except the following: It has only half the number of hit points you had at the time you cast the spell, and cannot be healed above this maximum; construct type, traits, and immunities; Str 3, Con -; DR 10/piercing or slashing; and compression (as the universal monster ability). Your skin can take any actions you could normally take in your own body (such as to fight or cast spells).",
+			"Your possessed skin is identical to you in all ways, except the following: It has only half the number of hit points you had at the time you cast the spell, and cannot be healed above this maximum; construct type, traits, and immunities; Str 3, Con -; DR 10/piercing or slashing; and [compression](umr/compression). Your skin can take any actions you could normally take in your own body (such as to fight or cast spells).",
 			"",
 			"When your skin leaves your body, your body's hit points drop to 0. Your body cannot heal damage naturally while you have no skin, nor do spells that cure hit point damage work on your body; only regeneration (from a regenerate spell, ring of regeneration, the regeneration monster ability, or any other effect that can regrow missing limbs) or heal can regrow your skin and allow you heal above 0 hit points.",
 			"",

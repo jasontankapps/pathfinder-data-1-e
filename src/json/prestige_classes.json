@@ -562,7 +562,7 @@
 			"",
 			"**Marid's Blessing (Su):** At 6th level, an asavir's mount receives the blessing of the marids, making it an agile partner with a flowing pace. Anyone riding the mount does not need to attempt concentration checks normally required because of the mount's movement. The mount gains a +2 racial bonus on Reflex saves.",
 			"",
-			"**Trampling Gallop (Ex):** At 6th level, an asavir's mount gains the trample universal monster ability, but only when commanded by the asavir as a full-round action. Damage dealt by the trample is equal to that of the horse's hoof attack plus 1-1/2 times its Strength modifier.",
+			"**Trampling Gallop (Ex):** At 6th level, an asavir's mount gains the [trample](umr/trample) universal monster ability, but only when commanded by the asavir as a full-round action. Damage dealt by the trample is equal to that of the horse's hoof attack plus 1-1/2 times its Strength modifier.",
 			"",
 			"**All Eyes on Me (Su):** At 7th level, three times per day as a swift action, an asavir can call out a challenge. Each opponent within 30 feet must succeed at a Will save (DC = 10 + the asavir's character level + the asavir's Charisma bonus) or be distracted by the display until the beginning of the asavir's next turn. Any creature that fails is considered to be flat-footed and takes a -2 penalty to AC against attacks from the asavir's allies. This is a mind-affecting, visual effect.",
 			"",
@@ -7309,7 +7309,7 @@
 			"",
 			"**Hollowness of Doloras (Ex):** The gift of Our Lady of Pain is freedom-freedom from horror and pain, from sorrow and fear. At 9th level, a sanguine angel gains Diehard as a bonus feat. In addition, she gains a +4 profane bonus on saving throws against emotion and pain effects, and she is immune to fear effects.",
 			"",
-			"**Angel of Eiseth (Su):** The greatest sanguine angels earn the favor of the Erinyes Queen Eiseth, who transforms them into infernal servitors. At 10th level, a sanguine angel's type changes to outsider (evil, extraplanar, lawful), and Hell becomes her native plane. She gains fire resistance 30, telepathy with a range of 50 feet, and the see in darkness universal monster ability. Ebon-feathered wings emerge from the sanguine angel's back, granting her a fly speed of 50 feet with good maneuverability."
+			"**Angel of Eiseth (Su):** The greatest sanguine angels earn the favor of the Erinyes Queen Eiseth, who transforms them into infernal servitors. At 10th level, a sanguine angel's type changes to outsider (evil, extraplanar, lawful), and Hell becomes her native plane. She gains fire resistance 30, telepathy with a range of 50 feet, and the [see in darkness](umr/see_in_darkness) universal monster ability. Ebon-feathered wings emerge from the sanguine angel's back, granting her a fly speed of 50 feet with good maneuverability."
 		]
 	},
 	"scar_seeker": {
@@ -8116,7 +8116,7 @@
 			"",
 			"At 8th level, instead of contacting a familiar person, the sphere singer can travel to a creature's dream and leave a suggestion. This functions as demand, but modifying dream instead of sending. When used this way, the normal restrictions on dream's recipient apply. The sphere singer chooses which of these abilities to use (if any) when she goes to sleep.",
 			"",
-			"**Tapestry Traveler (Ex, Sp):** At 10th level, the sphere singer transcends mortality like a butterfly emerging from its chrysalis, her essence infused with stardust and unearthly energies. Her type changes to fey, and she grows large butterfly wings, gaining a fly speed of 50 feet (good). In addition, she becomes immune to cold and gains the no breath universal monster ability."
+			"**Tapestry Traveler (Ex, Sp):** At 10th level, the sphere singer transcends mortality like a butterfly emerging from its chrysalis, her essence infused with stardust and unearthly energies. Her type changes to fey, and she grows large butterfly wings, gaining a fly speed of 50 feet (good). In addition, she becomes immune to cold and gains the [no breath](umr/no_breath) universal monster ability."
 		]
 	},
 	"spherewalker": {
