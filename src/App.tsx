@@ -73,6 +73,7 @@ const DomainPage = lazy(() => import("./pages/DomainPage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
+const classPage = () => <Suspense fallback={<Loading />}><ClassPage /></Suspense>;
 
 const App: React.FC = () => {
 	return (
@@ -89,7 +90,7 @@ const App: React.FC = () => {
 						<Route path="/bardicmasterpiece/:id" render={() => <></>} />
 						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <></>} />
-						<Route path="/class/:id" render={() => <Suspense fallback={<Loading />}><ClassPage /></Suspense>} />
+						<Route path="/class/:id" render={classPage} />
 						<Route path="/classarchetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="archetypes" /></Suspense>} />
 						<Route path="/classcapstone/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="capstones" /></Suspense>} />
 						<Route path="/classfavored/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="bonuses" /></Suspense>} />
@@ -155,12 +156,12 @@ const App: React.FC = () => {
 						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/mystery/:id" render={() => <></>} />
 						<Route path="/npc/:id" render={() => <Suspense fallback={<Loading />}><NPCPage /></Suspense>} />
-						<Route path="/npcclass/:id" render={() => <></>} />
+						<Route path="/npcclass/:id" render={classPage} />
 						<Route path="/oath/:id" render={() => <></>} />
 						<Route path="/oraclecurse/:id" render={() => <></>} />
 						<Route path="/order/:id" render={() => <></>} />
 						<Route path="/outsiderspirit/:id" render={() => <></>} />
-						<Route path="/prestigeclass/:id" render={() => <></>} />
+						<Route path="/prestigeclass/:id" render={classPage} />
 						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
 						<Route path="/ragepower/:id" render={() => <></>} />
 						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />

@@ -1,9 +1,7 @@
 {
-	"_prefix": "class-prestige",
 	"agent_of_the_grave": {
 		"name": "Agent of the Grave",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
-		"short_description": "Promising servant of the Whispering Way.",
 		"description": [
 			"## Agent of the Grave",
 			"",
@@ -74,7 +72,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Disciplined duelist from Brevoy.",
 		"description": [
 			"## Aldori Swordlord",
 			"",
@@ -141,7 +138,6 @@
 	"arcane_archer": {
 		"name": "Arcane Archer",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "An arcane spellcaster who draws upon ancient elven traditions to infuse his arrows with potent magical power.",
 		"description": [
 			"## Arcane Archer",
 			"",
@@ -219,7 +215,6 @@
 	"deadeye_devotee_arcane_archer": {
 		"name": "Deadeye Devotee (Arcane Archer)",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "Dedicated followers can tap into the power of the Elk Father, who guides and empowers their arrows.",
 		"description": [
 			"## Deadeye Devotee (Arcane Archer)",
 			"",
@@ -254,7 +249,6 @@
 	"arcane_trickster": {
 		"name": "Arcane Trickster",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "A troublemaker and a scoundrel who uses arcane magic to enhance her thievery and trickery.",
 		"description": [
 			"## Arcane Trickster",
 			"",
@@ -323,7 +317,6 @@
 	"thought_thief_arcane_trickster": {
 		"name": "Thought Thief (Arcane Trickster)",
 		"sources": [ "Paizo Blog - Hodgepodge from the Grand Lodge" ],
-		"short_description": "A thought thief will happily rip ideas from their victim's head and their gold from their purse.",
 		"description": [
 			"## Thought Thief (Arcane Trickster)",
 			"",
@@ -357,7 +350,6 @@
 	"arclord_of_nex": {
 		"name": "Arclord of Nex",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Formally trained Nexian diviner.",
 		"description": [
 			"## Arclord of Nex",
 			"",
@@ -426,7 +418,6 @@
 	"argent_dramaturge": {
 		"name": "Argent Dramaturge",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Bard who wields anti-fiend magic",
 		"description": [
 			"## Argent Dramaturge",
 			"",
@@ -502,7 +493,6 @@
 	"asavir": {
 		"name": "Asavir",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Al-Zabriti horseman with a genie-blessed horse",
 		"description": [
 			"## Asavir",
 			"",
@@ -576,7 +566,6 @@
 	"ashavic_dancer": {
 		"name": "Ashavic Dancer",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Servants of Ashava who use mystical dances to bring rest to the undead ",
 		"description": [
 			"## Ashavic Dancer",
 			"",
@@ -643,7 +632,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Unscrupulous mercenary treasure hunter.",
 		"description": [
 			"## Aspis Agent",
 			"",
@@ -728,7 +716,6 @@
 	"assassin": {
 		"name": "Assassin",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "A remorseless murderer who kills for money and the sheer thrill of death-dealing.",
 		"description": [
 			"## Assassin",
 			"",
@@ -810,7 +797,6 @@
 	"balanced_scale_of_abadar": {
 		"name": "Balanced Scale of Abadar",
 		"sources": [ "Dark Markets - A Guide to Katapesh" ],
-		"short_description": "Treasure seeking servant of Abadar.",
 		"description": [
 			"## Balanced Scale of Abadar",
 			"",
@@ -878,7 +864,6 @@
 	"battle_herald": {
 		"name": "Battle Herald",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A veteran whose masterful tactics and air of command inspire allies to greater feats of heroism.",
 		"description": [
 			"## Battle Herald",
 			"",
@@ -987,7 +972,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Halfling freedom fighter of Cheliax.",
 		"description": [
 			"## Bellflower Tiller",
 			"",
@@ -1056,7 +1040,6 @@
 	"blackfire_adept": {
 		"name": "Blackfire Adept",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Evil summoner of fiends.",
 		"description": [
 			"## Blackfire Adept",
 			"",
@@ -1128,7 +1111,6 @@
 	"bloatmage": {
 		"name": "Bloatmage",
 		"sources": [ "City of Strangers" ],
-		"short_description": "Master of the arcane art of hemotheurgy.",
 		"description": [
 			"## Bloatmage",
 			"",
@@ -1210,7 +1192,6 @@
 	"brewkeeper": {
 		"name": "Brewkeeper",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Sacred brewers of Cayden Cailean who can distill spells into liquor",
 		"description": [
 			"## Brewkeeper",
 			"",
@@ -1298,7 +1279,6 @@
 	"brightness_seeker": {
 		"name": "Brightness Seeker",
 		"sources": [ "Elves of Golarion" ],
-		"short_description": "Revered seer of elven-kind.",
 		"description": [
 			"## Brightness Seeker",
 			"",
@@ -1370,7 +1350,6 @@
 	"brother_of_the_seal": {
 		"name": "Brother of the Seal",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Guardian of ancient secrets.",
 		"description": [
 			"## Brother of the Seal",
 			"",
@@ -1447,7 +1426,6 @@
 	"champion_of_irori": {
 		"name": "Champion of Irori",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Devout hand-to-hand master.",
 		"description": [
 			"## Champion of Irori",
 			"",
@@ -1524,7 +1502,6 @@
 	"chernasardo_warden": {
 		"name": "Chernasardo Warden",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
-		"short_description": "Chernasardo warden is a title that few can reasonably hope to earn. Among the freedom fighters, wardens have proven themselves again and again, taking on enemies that threaten the fate of Nirmathas.",
 		"description": [
 			"## Chernasardo Warden",
 			"",
@@ -1611,7 +1588,6 @@
 	"chevalier": {
 		"name": "Chevalier",
 		"sources": [ "Pathfinder #14: Children of the Void" ],
-		"short_description": "A heroic do-gooder with Cayden Cailean aspirations.",
 		"description": [
 			"## Chevalier",
 			"",
@@ -1663,7 +1639,6 @@
 	"crimson_templar": {
 		"name": "Crimson Templar",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Holy warriors of Ragathiel who fight the forces of Hell with sacred fire",
 		"description": [
 			"## Crimson Templar",
 			"",
@@ -1739,7 +1714,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Magic"
 		],
-		"short_description": "Student of ancient history and runic lore, with a particular focus on the monuments and magics of ancient Thassilon.",
 		"description": [
 			"## Cyphermage",
 			"",
@@ -1818,7 +1792,6 @@
 	"daggermark_poisoner": {
 		"name": "Daggermark Poisoner",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Devious and crafty toxicologist.",
 		"description": [
 			"## Daggermark Poisoner",
 			"",
@@ -1907,7 +1880,6 @@
 	"daivrat": {
 		"name": "Daivrat",
 		"sources": [ "Qadira, Gateway to the East" ],
-		"short_description": "Friend of genies, diplomat amongst their kind.",
 		"description": [
 			"## Daivrat",
 			"",
@@ -1985,7 +1957,6 @@
 	"darechaser": {
 		"name": "Darechaser",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Athletes of Kurgess who push themselves to exceed their limits ",
 		"description": [
 			"## Darechaser",
 			"",
@@ -2067,7 +2038,6 @@
 	"dawnflower_anchorite": {
 		"name": "Dawnflower Anchorite",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Hermits of Sarenrae who channel light to smite their foes.",
 		"description": [
 			"## Dawnflower Anchorite",
 			"",
@@ -2144,7 +2114,6 @@
 	"dawnflower_dissident": {
 		"name": "Dawnflower Dissident",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Secretive emissary of Sarenrae.",
 		"description": [
 			"## Dawnflower Dissident",
 			"",
@@ -2222,7 +2191,6 @@
 	"death_slayer": {
 		"name": "Death Slayer",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Hired assassin of the undead",
 		"description": [
 			"## Death Slayer",
 			"",
@@ -2294,7 +2262,6 @@
 			"Pathfinder #15: The Armageddon Echo",
 			"Book of the Damned - Volume 2: Lords of Chaos"
 		],
-		"short_description": "Servant to a powerful Demon Lord.",
 		"description": [
 			"## Demoniac",
 			"",
@@ -2367,7 +2334,6 @@
 	"devoted_muse": {
 		"name": "Devoted Muse",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Muses of Shelyn who have mastered an artistic form of combat for self-defense",
 		"description": [
 			"## Devoted Muse",
 			"",
@@ -2444,7 +2410,6 @@
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
 		],
-		"short_description": "Those who seek to control the power of Hell.",
 		"description": [
 			"## Diabolist",
 			"",
@@ -2523,7 +2488,6 @@
 	"divine_scion": {
 		"name": "Divine Scion",
 		"sources": [ "Inner Sea Magic" ],
-		"short_description": "Chosen by a god to fulfill a sacred mission, the divine scion has the spark of divinity within them.",
 		"description": [
 			"## Divine Scion",
 			"",
@@ -2625,7 +2589,6 @@
 	"dragon_disciple": {
 		"name": "Dragon Disciple",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "An arcane spellcaster who has embraced his latent draconic heritage and, over the course of training and devotion, undergoes a partial transformation into a dragon.",
 		"description": [
 			"## Dragon Disciple",
 			"",
@@ -2700,7 +2663,6 @@
 	"duelist": {
 		"name": "Duelist",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "A swashbuckling swordfighter who relies upon grace, poise, and acrobatics to win the day.",
 		"description": [
 			"## Duelist",
 			"",
@@ -2780,7 +2742,6 @@
 	"eldritch_knight": {
 		"name": "Eldritch Knight",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "An arcane spellcaster who augments his magical skills with combat to create a deadly combination of weapons and magic.",
 		"description": [
 			"## Eldritch Knight",
 			"",
@@ -2839,7 +2800,6 @@
 	"enchanting_courtesan": {
 		"name": "Enchanting Courtesan",
 		"sources": [ "Inner Sea Intrigue" ],
-		"short_description": "Diviners and enchanters who use their talents to become information brokers.",
 		"description": [
 			"## Enchanting Courtesan",
 			"",
@@ -2913,7 +2873,6 @@
 	"envoy_of_balance": {
 		"name": "Envoy of Balance",
 		"sources": [ "Champions of Balance" ],
-		"short_description": "Standing beyond good and evil, outside law and chaos, an envoy of balance serves as the countering force against any extremism that seeks to elevate one alignment above all others.",
 		"description": [
 			"## Envoy of Balance",
 			"",
@@ -2989,7 +2948,6 @@
 	"esoteric_knight": {
 		"name": "Esoteric Knight",
 		"sources": [ "Chronicle of Legends" ],
-		"short_description": "Powerful warriors who combine martial technique with occult or elemental power",
 		"description": [
 			"## Esoteric Knight",
 			"",
@@ -3064,7 +3022,6 @@
 	"evangelist": {
 		"name": "Evangelist",
 		"sources": [ "Inner Sea Gods" ],
-		"short_description": "Of all the preeminent followers of the core deities, the evangelist is the hardest to predict and shows the most variety in her abilities.",
 		"description": [
 			"## Evangelist",
 			"",
@@ -3151,7 +3108,6 @@
 	"exalted": {
 		"name": "Exalted",
 		"sources": [ "Inner Sea Gods" ],
-		"short_description": "The exalted exemplifies the teachings of her faith. More than a religious leader, she is the embodiment of faith that all members of the religion strive to emulate.",
 		"description": [
 			"## Exalted",
 			"",
@@ -3234,7 +3190,6 @@
 	"feysworn": {
 		"name": "Feysworn",
 		"sources": [ "The First World, Realm of the Fey" ],
-		"short_description": "Servents of the enigmatic Eldest",
 		"description": [
 			"## Feysworn",
 			"",
@@ -3323,7 +3278,6 @@
 			"Elemental Master's Handbook",
 			"Pathfinder #22: The End of Eternity"
 		],
-		"short_description": "Especially powerful conjurers compel genies into service as often as they pay them fairly in treasures or favors.",
 		"description": [
 			"## Genie Binder",
 			"",
@@ -3390,7 +3344,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "High-ranking protector of Andoran.",
 		"description": [
 			"## Golden Legionnaire",
 			"",
@@ -3466,7 +3419,6 @@
 	"gray_corsair": {
 		"name": "Gray Corsair",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Naval member of Andor's Eagle Knights",
 		"description": [
 			"## Gray Corsair",
 			"",
@@ -3547,7 +3499,6 @@
 	"gray_gardener": {
 		"name": "Gray Gardener",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Deadly agent of the Revolutionary Council.",
 		"description": [
 			"## Gray Gardener",
 			"",
@@ -3626,7 +3577,6 @@
 	"green_faith_acolyte": {
 		"name": "Green Faith Acolyte",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Talented member of a druidic order.",
 		"description": [
 			"## Green Faith Acolyte",
 			"",
@@ -3705,7 +3655,6 @@
 	"halfling_opportunist": {
 		"name": "Halfling Opportunist",
 		"sources": [ "Halflings of Golarion" ],
-		"short_description": "Halfling that makes his own luck.",
 		"description": [
 			"## Halfling Opportunist",
 			"",
@@ -3775,7 +3724,6 @@
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting"
 		],
-		"short_description": "Spellcaster who can weave Harrow cards into her spells.",
 		"description": [
 			"## Harrower",
 			"",
@@ -3868,7 +3816,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Masked, magic-wielding Hellknight.",
 		"description": [
 			"## Hellknight Signifer",
 			"",
@@ -3952,7 +3899,6 @@
 			"Adventurer's Guide",
 			"Inner Sea World Guide"
 		],
-		"short_description": "Disciplined executer of law.",
 		"description": [
 			"## Hellknight",
 			"",
@@ -4022,7 +3968,6 @@
 	"heritor_knight": {
 		"name": "Heritor Knight",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Knights of Iomedae that seek to emulate her mortal life.",
 		"description": [
 			"## Heritor Knight",
 			"",
@@ -4096,7 +4041,6 @@
 	"hinterlander": {
 		"name": "Hinterlander",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Archers of Erastil that guard frontier towns",
 		"description": [
 			"## Hinterlander",
 			"",
@@ -4176,7 +4120,6 @@
 	"holy_vindicator": {
 		"name": "Holy Vindicator",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A pious warrior who spreads religion at the edge of a sword.",
 		"description": [
 			"## Holy Vindicator",
 			"",
@@ -4256,7 +4199,6 @@
 	"horizon_walker": {
 		"name": "Horizon Walker",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A scout and wanderer comfortable in even the strangest terrain.",
 		"description": [
 			"## Horizon Walker",
 			"",
@@ -4355,7 +4297,6 @@
 	"inheritor's_crusader": {
 		"name": "Inheritor's Crusader",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
-		"short_description": "Righteous champion of Iomedae.",
 		"description": [
 			"## Inheritor's Crusader",
 			"",
@@ -4410,7 +4351,6 @@
 	"inner_sea_pirate": {
 		"name": "Inner Sea Pirate",
 		"sources": [ "Pirates of the Inner Sea" ],
-		"short_description": "Pirates of the Inner Sea region sail many different bodies of water in search of plunder.",
 		"description": [
 			"## Inner Sea Pirate",
 			"",
@@ -4495,7 +4435,6 @@
 	"justicar": {
 		"name": "Justicar",
 		"sources": [ "Pathfinder #8: Seven Days to the Grave" ],
-		"short_description": "Holy enforcer of the teachings of Abadar.",
 		"description": [
 			"## Justicar",
 			"",
@@ -4557,7 +4496,6 @@
 	"knight_of_ozem": {
 		"name": "Knight of Ozem",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Zealous destroyer of undead.",
 		"description": [
 			"## Knight of Ozem",
 			"",
@@ -4629,7 +4567,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Elven eradicator of drow.",
 		"description": [
 			"## Lantern Bearer",
 			"",
@@ -4709,7 +4646,6 @@
 	"liberator": {
 		"name": "Liberator",
 		"sources": [ "Second Darkness Player's Guide" ],
-		"short_description": "The hope of slaves everywhere.",
 		"description": [
 			"## Liberator",
 			"",
@@ -4783,7 +4719,6 @@
 			"Inner Sea Intrigue",
 			"Taldor, Echoes of Glory"
 		],
-		"short_description": "Member of Taldor's most secretive school of fighting arts.",
 		"description": [
 			"## Lion Blade",
 			"",
@@ -4867,7 +4802,6 @@
 			"People of the Sands",
 			"Osirion, Land of the Pharaohs"
 		],
-		"short_description": "Living monoliths are mortals who willingly take on the mantle of immortal warriors through ritual and devotion, imbuing themselves with the patience and eternal strength of stone.",
 		"description": [
 			"## Living Monolith",
 			"",
@@ -4951,7 +4885,6 @@
 	"loremaster": {
 		"name": "Loremaster",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "A spellcaster who devotes his life to research and rumination upon the mysteries of the world.",
 		"description": [
 			"## Loremaster",
 			"",
@@ -5033,7 +4966,6 @@
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting"
 		],
-		"short_description": "Greedy crusader fighting the denizens of the Worldwound.",
 		"description": [
 			"## Low Templar",
 			"",
@@ -5115,7 +5047,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Benevolent student of Old-Mage Jatembe.",
 		"description": [
 			"## Magaambyan Arcanist",
 			"",
@@ -5191,7 +5122,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Tamer of beasts in the northern wilds.",
 		"description": [
 			"## Mammoth Rider",
 			"",
@@ -5264,7 +5194,6 @@
 	"master_chymist": {
 		"name": "Master Chymist",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "An alchemist whose mutagens create an alternate, brutish personality.",
 		"description": [
 			"## Master Chymist",
 			"",
@@ -5363,7 +5292,6 @@
 	"master_spy": {
 		"name": "Master Spy",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "An espionage expert specializing in disguises and striking swiftly from the shadows.",
 		"description": [
 			"## Master Spy",
 			"",
@@ -5446,7 +5374,6 @@
 	"mortal_usher": {
 		"name": "Mortal Usher",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
-		"short_description": "Servants of the psychopomps who can act where the psychopomps cannot",
 		"description": [
 			"## Mortal Usher",
 			"",
@@ -5510,7 +5437,6 @@
 	"mystery_cultist": {
 		"name": "Mystery Cultist",
 		"sources": [ "Chronicle of the Righteous" ],
-		"short_description": "These zealots hone their spellcasting powers in honor of their patron empyreal lord and dedicate their lives to the teachings of this entity.",
 		"description": [
 			"## Mystery Cultist",
 			"",
@@ -5587,7 +5513,6 @@
 	"mystic_theurge": {
 		"name": "Mystic Theurge",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "Equally devoted to divine and arcane magic, the mystic theurge combines both magical traditions into one incredibly diverse class.",
 		"description": [
 			"## Mystic Theurge",
 			"",
@@ -5646,7 +5571,6 @@
 	"nature_warden": {
 		"name": "Nature Warden",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A master of the wilderness bonded spiritually to a fearsome animal companion.",
 		"description": [
 			"## Nature Warden",
 			"",
@@ -5734,7 +5658,6 @@
 	"noble_scion": {
 		"name": "Noble Scion",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Resource-laden member of foreign royalty.",
 		"description": [
 			"## Noble Scion",
 			"",
@@ -5843,7 +5766,6 @@
 			"Occult Mysteries",
 			"Pathfinder #15: The Armageddon Echo"
 		],
-		"short_description": "For pain tasters, agony is more than a pleasure-it's a path to power.",
 		"description": [
 			"## Pain Taster",
 			"",
@@ -5931,7 +5853,6 @@
 			"PRPG Core Rulebook",
 			"Pathfinder Campaign Setting"
 		],
-		"short_description": "An explorer at heart, the Pathfinder chronicler travels to distant, exotic lands to expand her knowledge of the world.",
 		"description": [
 			"## Pathfinder Chronicler",
 			"",
@@ -6015,7 +5936,6 @@
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
-		"short_description": "Grand adventure seeker of the Pathfinder Society.",
 		"description": [
 			"## Pathfinder Delver",
 			"",
@@ -6083,7 +6003,6 @@
 	"pathfinder_field_agent": {
 		"name": "Pathfinder Field Agent",
 		"sources": [ "Pathfinder Society Primer" ],
-		"short_description": "Equipped with a variety of skills and trained to keep a cool head even in the most dire circumstances, a practiced Pathfinder field agent is a boon to any adventuring party.",
 		"description": [
 			"## Pathfinder Field Agent",
 			"",
@@ -6177,7 +6096,6 @@
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
-		"short_description": "Master sage of the Pathfinder Society.",
 		"description": [
 			"## Pathfinder Savant",
 			"",
@@ -6246,7 +6164,6 @@
 	"pit_fighter": {
 		"name": "Pit Fighter",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Gladiatorial brawler and performer.",
 		"description": [
 			"## Pit Fighter",
 			"",
@@ -6323,7 +6240,6 @@
 	"proctor": {
 		"name": "Proctor",
 		"sources": [ "Concordance of Rivals" ],
-		"short_description": "Ardent worshipers of a monitor demigod: an aeon, primal inevitable, protean lord, or psychopomp usher.",
 		"description": [
 			"## Proctor",
 			"",
@@ -6402,7 +6318,6 @@
 	"prophet_of_kalistrade": {
 		"name": "Prophet of Kalistrade",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Savvy mercantile spellcaster.",
 		"description": [
 			"## Prophet of Kalistrade",
 			"",
@@ -6472,7 +6387,6 @@
 	"pure_legion_enforcer": {
 		"name": "Pure Legion Enforcer",
 		"sources": [ "Inner Sea Combat" ],
-		"short_description": "The Pure Legion is a government-sponsored military organization created to enforce the Laws of Man within Rahadoum's borders and territorial waters. ",
 		"description": [
 			"## Pure Legion Enforcer",
 			"",
@@ -6550,7 +6464,6 @@
 	"rage_prophet": {
 		"name": "Rage Prophet",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A bold and barbaric champion who embraces otherworldly powers in order to perfect the art of combat.",
 		"description": [
 			"## Rage Prophet",
 			"",
@@ -6627,7 +6540,6 @@
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "False divine caster of Razmir.",
 		"description": [
 			"## Razmiran Priest",
 			"",
@@ -6704,7 +6616,6 @@
 			"Pathfinder Campaign Setting",
 			"Inner Sea World Guide"
 		],
-		"short_description": "Elite assassin of the Red Mantis cult.",
 		"description": [
 			"## Red Mantis Assassin",
 			"",
@@ -6776,7 +6687,6 @@
 	"riftwarden": {
 		"name": "Riftwarden",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Sealer of extraplanar portals.",
 		"description": [
 			"## Riftwarden",
 			"",
@@ -6850,7 +6760,6 @@
 	"ritualist": {
 		"name": "Ritualist",
 		"sources": [ "Chronicle of Legends" ],
-		"short_description": "Individuals who specialize in using occult rituals, being able to perform rituals more quickly and easily",
 		"description": [
 			"## Ritualist",
 			"",
@@ -6926,7 +6835,6 @@
 	"rivethun_emissary": {
 		"name": "Rivethun Emissary",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Animists of a dwarven spiritual religion",
 		"description": [
 			"## Rivethun Emissary",
 			"",
@@ -7008,7 +6916,6 @@
 	"rose_warden": {
 		"name": "Rose Warden",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Champions of Milani who protect and guide revolutions ",
 		"description": [
 			"## Rose Warden",
 			"",
@@ -7091,7 +6998,6 @@
 	"runeguard": {
 		"name": "Runeguard",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Arcanists of Soralyon who use the benevolent form of ancient Thassilonian rune magic",
 		"description": [
 			"## Runeguard",
 			"",
@@ -7162,7 +7068,6 @@
 	"sacred_sentinel": {
 		"name": "Sacred Sentinel",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Guardians of Torag that serve as a shield for their allies.",
 		"description": [
 			"## Sacred Sentinel",
 			"",
@@ -7232,7 +7137,6 @@
 	"sanguine_angel": {
 		"name": "Sanguine Angel",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Former Gray Maidens who have entered the service of Cheliax and the Queens of the Night",
 		"description": [
 			"## Sanguine Angel",
 			"",
@@ -7315,7 +7219,6 @@
 	"scar_seeker": {
 		"name": "Scar Seeker",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Followers of Vildeis who scar their bodies to prove their devotion",
 		"description": [
 			"## Scar Seeker",
 			"",
@@ -7387,7 +7290,6 @@
 	"sentinel": {
 		"name": "Sentinel",
 		"sources": [ "Inner Sea Gods" ],
-		"short_description": "The sentinel is a warrior who receives special powers in exchange for his service to a deity, and often serves as a guard for the deity's clergy.",
 		"description": [
 			"## Sentinel",
 			"",
@@ -7478,7 +7380,6 @@
 	"shackles_pirate": {
 		"name": "Shackles Pirate",
 		"sources": [ "Pathfinder Campaign Setting" ],
-		"short_description": "Gifted pirate of the Shackles.",
 		"description": [
 			"## Shackles Pirate",
 			"",
@@ -7573,7 +7474,6 @@
 	"shadowdancer": {
 		"name": "Shadowdancer",
 		"sources": [ "PRPG Core Rulebook" ],
-		"short_description": "A mysterious adventurer who walks the boundaries between the real world and the realm of shadows, and who can command shadows to do her bidding.",
 		"description": [
 			"## Shadowdancer",
 			"",
@@ -7660,7 +7560,6 @@
 	"shieldmarshal": {
 		"name": "Shieldmarshal",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Gun-wielding officer of Alkenstar.",
 		"description": [
 			"## Shieldmarshal",
 			"",
@@ -7744,7 +7643,6 @@
 	"skyseeker": {
 		"name": "Skyseeker",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Excavator of dwarven Sky Citadels.",
 		"description": [
 			"## Skyseeker",
 			"",
@@ -7815,7 +7713,6 @@
 	"sleepless_detective": {
 		"name": "Sleepless Detective",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Expert urban sleuthhound.",
 		"description": [
 			"## Sleepless Detective",
 			"",
@@ -7884,7 +7781,6 @@
 	"soul_warden": {
 		"name": "Soul Warden",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"short_description": "Bygone products of an ancient war, soul wardens are an enigma of themselves. The original soul wardens were a specially trained cadre of anti-necromantic commandos in the Nexian army during the Age of Destiny.",
 		"description": [
 			"## Soul Warden",
 			"",
@@ -7965,7 +7861,6 @@
 			"Book of the Damned",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
-		"short_description": "Pledged to the Horsemen of the Apocalypse, the souldrinker learns the worst of daemonic magic while gaining the ability to bind and devour souls.",
 		"description": [
 			"## Souldrinker",
 			"",
@@ -8049,7 +7944,6 @@
 	"sphere_singer": {
 		"name": "Sphere Singer",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Wanderers of Desna who manipulate dreams and luck to aid their travels",
 		"description": [
 			"## Sphere Singer",
 			"",
@@ -8122,7 +8016,6 @@
 	"spherewalker": {
 		"name": "Spherewalker",
 		"sources": [ "Pathfinder #2: The Skinsaw Murders" ],
-		"short_description": "Magical traveler of Desna.",
 		"description": [
 			"## Spherewalker",
 			"",
@@ -8188,7 +8081,6 @@
 	"stalwart_defender": {
 		"name": "Stalwart Defender",
 		"sources": [ "Advanced Player's Guide" ],
-		"short_description": "A master of defending territory and holding the line at all costs.",
 		"description": [
 			"## Stalwart Defender",
 			"",
@@ -8292,7 +8184,6 @@
 	"stargazer": {
 		"name": "Stargazer",
 		"sources": [ "Paths of the Righteous" ],
-		"short_description": "Astronomers of Pulura who look to the heaven for guidance",
 		"description": [
 			"## Stargazer",
 			"",
@@ -8378,7 +8269,6 @@
 			"Adventurer's Guide",
 			"Andoran, Spirit of Liberty"
 		],
-		"short_description": "Member of Andoran's elite military force.",
 		"description": [
 			"## Steel Falcon",
 			"",
@@ -8452,7 +8342,6 @@
 			"Adventurer's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Gozreh-worshiping hurricane hunter.",
 		"description": [
 			"## Storm Kindler",
 			"",
@@ -8528,7 +8417,6 @@
 	"student_of_perfection": {
 		"name": "Student of Perfection",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Member of one of the Houses of Perfection",
 		"description": [
 			"## Student of Perfection",
 			"",
@@ -8620,7 +8508,6 @@
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
-		"short_description": "Learned martial scholar of the Pathfinder Society.",
 		"description": [
 			"## Student of War",
 			"",
@@ -8691,7 +8578,6 @@
 	"tattooed_mystic": {
 		"name": "Tattooed Mystic",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Wandering Varisian magician.",
 		"description": [
 			"## Tattooed Mystic",
 			"",
@@ -8764,7 +8650,6 @@
 	"technomancer": {
 		"name": "Technomancer",
 		"sources": [ "Technology Guide" ],
-		"short_description": "The true power in Numeria lies with the Technic League, not the Black Sovereign, and it is technomancers who rule the League.",
 		"description": [
 			"## Technomancer",
 			"",
@@ -8840,7 +8725,6 @@
 	"thuvian_alchemist": {
 		"name": "Thuvian Alchemist",
 		"sources": [ "People of the Sands" ],
-		"short_description": "Using the long-neglected art of herbalism and the reinvigorated science of alchemy, the Thuvian Alchemist specializes on a practice that combines the two.",
 		"description": [
 			"## Thuvian Alchemist",
 			"",
@@ -8918,7 +8802,6 @@
 	"twilight_talon": {
 		"name": "Twilight Talon",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Secret agents of Andor",
 		"description": [
 			"## Twilight Talon",
 			"",
@@ -8983,7 +8866,6 @@
 	"ulfen_guard": {
 		"name": "Ulfen Guard",
 		"sources": [ "Inner Sea Combat" ],
-		"short_description": "After centuries of raiding and pillaging throughout Avistan, the Ulfen have earned their reputation for ferocity and fearlessness. Though seemingly at odds with this perception of barbarism, Ulfen are also known for their staunch loyalty, strong sense of honor, and unyielding resolve.",
 		"description": [
 			"## Ulfen Guard",
 			"",
@@ -9061,7 +8943,6 @@
 	"umbral_court_agent": {
 		"name": "Umbral Court Agent",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Nidalese shadow saboteur.",
 		"description": [
 			"## Umbral Court Agent",
 			"",
@@ -9131,7 +9012,6 @@
 	"veiled_illusionist": {
 		"name": "Veiled Illusionist",
 		"sources": [ "Paths of Prestige" ],
-		"short_description": "Shadowy shapechanger.",
 		"description": [
 			"## Veiled Illusionist",
 			"",
@@ -9207,7 +9087,6 @@
 	"westcrown_devil": {
 		"name": "Westcrown Devil",
 		"sources": [ "Adventurer's Guide" ],
-		"short_description": "Agent of the Council of Thieves",
 		"description": [
 			"## Westcrown Devil",
 			"",
@@ -9285,7 +9164,6 @@
 			"Reign of Winter Player's Guide",
 			"Paths of Prestige"
 		],
-		"short_description": "Master of ice and snow.",
 		"description": [
 			"## Winter Witch",
 			"",

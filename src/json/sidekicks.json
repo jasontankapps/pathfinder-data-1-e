@@ -1,19 +1,7 @@
 {
-	"_prefix": "sidekick",
 	"animal_companion": {
 		"name": "Animal Companion",
 		"sources": [ "PRPG Core Rulebook" ],
-		"archetypes": "archetypes_COMPANION.json",
-		"archetype_portions": [
-			"4th or 7th-level Advancement",
-			"Devotion",
-			"Evasion",
-			"Improved Evasion",
-			"Multiattack",
-			"Natural Armor Progression",
-			"See text",
-			"Share Spells"
-		],
 		"description": [
 			"## Animal Companion",
 			"",
@@ -81,6 +69,31 @@
 			"**Animal Feats**",
 			"",
 			"Animal companions can select from the following feats: [Acrobatic](feat/acrobatic), [Agile Maneuvers](feat/agile_maneuvers), [Armor Proficiency, Heavy](feat/armor_proficiency,_heavy), [Armor Proficiency, Light](feat/armor_proficiency,_light), [Armor Proficiency, Medium](feat/armor_proficiency,_medium), [Athletic](feat/athletic), [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Devotion against the Unnatural](feat/devotion_against_the_unnatural), [Diehard](feat/diehard), [Disruptive Companion](feat/disruptive_companion), [Dodge](feat/dodge), [Endurance](feat/endurance), [Feral Grace](feat/feral_grace), [Ferocious Beast](feat/ferocious_beast), [Ferocious Feint](feat/ferocious_feint), [Friendly Face](feat/friendly_face), [Great Fortitude](feat/great_fortitude), [Greater Tenacious Hunter](feat/greater_tenacious_hunter), [Hefty Brute](feat/hefty_brute), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Intercept Blow](feat/improved_intercept_blow), [Improved Natural Armor](feat/improved_natural_armor), [Improved Natural Attack](feat/improved_natural_attack), [Improved Overrun](feat/improved_overrun), [Intercept Blow](feat/intercept_blow), [Intimidating Prowess](feat/intimidating_prowess), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Linnorm Hunter Coordination](feat/linnorm_hunter_coordination), [Linnorm Hunter Retreat](feat/linnorm_hunter_retreat), [Linnorm Hunter Style](feat/linnorm_hunter_style), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Reflexive Interception](feat/reflexive_interception), [Run](feat/run), [Share Feature](feat/share_feature), [Skill Focus](feat/skill_focus), [Spring Attack](feat/spring_attack), [Stealthy](feat/stealthy), [Tenacious Hunter](feat/tenacious_hunter), [Toughness](feat/toughness), [Weapon Focus](feat/weapon_focus). Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources."
+		],
+		"archetypes": [
+			"| Archetype | Replaces or Modifies | Description |",
+			"| --- | --- | --- |",
+			"| [Aberrant Companion](archetype/animal_companion/aberrant_companion) | Devotion, Multiattack, Natural Armor Progression, Share Spells | Though aberrant companions are touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies. |",
+			"| [Accursed Companion](archetype/animal_companion/accursed_companion) | See text | When mortals fail to protect their bonded companions, so too shall those mortals suffer. |",
+			"| [Ambusher](archetype/animal_companion/ambusher) | Devotion, Evasion, Improved Evasion, Multiattack, Share Spells | Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it. |",
+			"| [Apex Species](archetype/animal_companion/apex_species) | Devotion, Evasion, Improved Evasion, Multiattack, Share Spells | Some animals are masters of their habitats, perfectly evolved to take advantage of their native terrain. They need not be predators, of course-some herbivores are just as lethally suited to their homes. |",
+			"| [Augmented Companion](archetype/animal_companion/augmented_companion) | Devotion, Share Spells | Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies have been replaced by a master construct crafter. |",
+			"| [Auspice](archetype/animal_companion/auspice) | Evasion, Improved Evasion, Share Spells | Auspices were born with a birthmark or other feature that seems to be in the shape of their master's deity's holy symbol. |",
+			"| [Bodyguard](archetype/animal_companion/bodyguard) | Evasion, Improved Evasion, Multiattack, Share Spells | Some companions live lives of faithful devotion and steady vigilance, standing watch through long hours and always ready to leap into action to protect their masters. |",
+			"| [Bully](archetype/animal_companion/bully) | Multiattack, Share Spells | Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its choice of mates, territory, or other privileges. |",
+			"| [Charger](archetype/animal_companion/charger) | Devotion, Evasion, Improved Evasion, Multiattack, Share Spells | The mighty charger is a boon to heavily armored and armed champions, bearing them and their ironmongery into battle without hesitation. |",
+			"| [Daredevil](archetype/animal_companion/daredevil) | Devotion, Multiattack, Share Spells | Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger. |",
+			"| [Deathtouched Companion](archetype/animal_companion/deathtouched_companion) | Devotion, Share Spells | Deathtouched companions are living animals with a trace of the undead, somewhat like [dhampirs](race/dhampir). |",
+			"| [Draconic Companion](archetype/animal_companion/draconic_companion) | Devotion, Evasion, Improved Evasion, Multiattack, Share Spells | Draconic companions bear a faint trace of dragon blood that grants them special abilities. |",
+			"| [Elemental Companion](archetype/animal_companion/elemental_companion) | Evasion, Improved Evasion, Multiattack | The heart of this companion beats with primal energy. |",
+			"| [Feytouched Companion](archetype/animal_companion/feytouched_companion) | 4th or 7th-level Advancement, Size Advancement, Devotion, Evasion, Improved Evasion, Multiattack, Share Spells | Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. |",
+			"| [Precocious Companion](archetype/animal_companion/precocious_companion) | 4th or 7th-level Advancement, Evasion, Improved Evasion | Precocious companions are able to learn far more tricks than other companions. |",
+			"| [Racer](archetype/animal_companion/racer) | Devotion, Share Spells | Some companions have uncanny speed, providing their masters with swift transport. |",
+			"| [Totem Guide](archetype/animal_companion/totem_guide) | Devotion, Evasion, Improved Evasion, Multiattack | Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as aid in combat. |",
+			"| [Tracker](archetype/animal_companion/tracker) | Devotion, Share Spells | Some companions are expert trackers, able to use their scent ability to follow any trail. |",
+			"| [Unexpected Intellectual](archetype/animal_companion/unexpected_intellectual) | Share Spells | Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer than expected. On occasion, it proves *much* cleverer. |",
+			"| [Verdant Companion](archetype/animal_companion/verdant_companion) | Devotion, Evasion, Improved Evasion, Share Spells | Favorites of druids who balance their responsibilities between flora and fauna, verdant companions are animals with some of the abilities and physical aspects of plants. |",
+			"| [Wrecker](archetype/animal_companion/wrecker) | Share Spells, Multiattack | Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and their masters can channel these destructive impulses into an advantage in battle. |"
 		]
 	},
 	"drake": {
@@ -351,25 +364,6 @@
 	"familiar": {
 		"name": "Familiar",
 		"sources": [ "PRPG Core Rulebook" ],
-		"archetypes": "archetypes_FAMILIAR.json",
-		"archetype_portions": [
-			"Alertness",
-			"Cannot combine with any other Archetype",
-			"Class Skills",
-			"Deliver Touch Spells",
-			"Empathic Link",
-			"Evasion",
-			"Improved Evasion",
-			"Intelligence Score Progression",
-			"Natural Armor Progression",
-			"Scry on Familiar",
-			"Share Spells",
-			"Skill Ranks",
-			"Speak with Animals of its Kind",
-			"Speak with Master",
-			"Spell Resistance",
-			"Variable Familiar Bonus"
-		],
 		"description": [
 			"## Familiar",
 			"",
@@ -437,6 +431,30 @@
 			"*Spell Resistance (Ex)*: If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.",
 			"",
 			"*Scry on Familiar (Sp)*: If the master is 13th level or higher, he may scry on his familiar (as if casting the *scrying *spell) once per day."
+		],
+		"archetypes": [
+			"| Archetype | Replaces or Modifies | Description |",
+			"| --- | --- | --- |",
+			"| [Ambassador](archetype/familiar/ambassador) | Alertness, Class Skills, Intelligence Score Progression | An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other extraplanar contacts. |",
+			"| [Animal Exemplar](archetype/familiar/animal_exemplar) | Class Skills, Deliver Touch Spells, Scry on Familiar, Speak with Animals of its Kind, Spell Resistance | An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind. |",
+			"| [Arcane Amplifier](archetype/familiar/arcane_amplifier) | Alertness, Deliver Touch Spells, Improved Evasion, Scry on Familiar, Speak with Animals of its Kind, Spell Resistance | Arcane amplifiers can improve the potency of spells they deliver for their masters. |",
+			"| [Decoy](archetype/familiar/decoy) | Alertness, Class Skills, Speak with Animals of its Kind, Speak with Master, Spell Resistance | A decoy misdirects its master's enemies, allowing the master to strike by surprise. |",
+			"| [Egotist](archetype/familiar/egotist) | Alertness, Class Skills, Deliver Touch Spells, Scry on Familiar, Speak with Master, Variable Familiar Bonus | An egotist believes itself to be the real master in the relationship-the power behind the throne. It often attempts to communicate \"orders\" for its master as best it can, interfering in matters ranging from spell choices and tactical combat decisions to its master's love life. |",
+			"| [Elemental Familiar](archetype/familiar/elemental_familiar) | Improved Evasion, Speak with Animals of its Kind | The raw power of an elemental plane suffuses the body of an elemental familiar. |",
+			"| [Emissary](archetype/familiar/emissary) | Alertness, Class Skills, Deliver Touch Spells, Share Spells | The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its master. |",
+			"| [Figment](archetype/familiar/figment) | Deliver Touch Spells, Improved Evasion, Scry on Familiar, Speak with Animals of its Kind | Figments are born from their masters' imaginations rather than being ordinary creatures that are awakened. |",
+			"| [Infiltrator](archetype/familiar/infiltrator) | Alertness, Class Skills, Improved Evasion, Share Spells, Speak with Animals of its Kind, Spell Resistance | Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art of espionage. |",
+			"| [Mascot](archetype/familiar/mascot) | Alertness, Class Skills, Deliver Touch Spells, Empathic Link, Improved Evasion, Scry on Familiar, Share Spells, Speak with Animals of its Kind, Speak with Master, Spell Resistance | A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type of familiar eventually treats the entire party as its master. |",
+			"| [Mauler](archetype/familiar/mauler) | Class Skills, Deliver Touch Spells, Intelligence Score Progression, Speak with Animals of its Kind, Speak with Master, Spell Resistance | While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of battle. |",
+			"| [Occult Messenger](archetype/familiar/occult_messenger) | Alertness, Deliver Touch Spells | Some familiars are messengers of greater powers than themselves. |",
+			"| [Parasite](archetype/familiar/parasite) | Deliver Touch Spells, Improved Evasion, Scry on Familiar, Share Spells, Speak with Animals of its Kind, Spell Resistance | Most familiars are still something akin to normal animals, conduits for power rather than powers themselves. The parasite is one of the more disturbing exceptions. |",
+			"| [Pilferer](archetype/familiar/pilferer) | Alertness, Class Skills, Deliver Touch Spells, Improved Evasion, Speak with Animals of its Kind | Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their master's behalf. |",
+			"| [Prankster](archetype/familiar/prankster) | Alertness, Class Skills, Deliver Touch Spells, Empathic Link, Improved Evasion, Scry on Familiar, Share Spells, Spell Resistance | Some familiars love to perform pranks on their unsuspecting masters, as well as on those around their masters-allies and enemies alike. |",
+			"| [Protector](archetype/familiar/protector) | Alertness, Deliver Touch Spells, Improved Evasion, Speak with Animals of its Kind, Spell Resistance | Protector familiars are so devoted that they would give their lives for their masters. |",
+			"| [Sage](archetype/familiar/sage) | Alertness, Class Skills, Intelligence Score Progression, Natural Armor Progression, Skill Ranks | Sages are masters of useful facts, able to recall them for their masters' benefit, though this leads many to become haughty and proud. |",
+			"| [School Familiar](archetype/familiar/school_familiar) | Cannot combine with any other Archetype | School familiars are tightly bound to the power of their master's chosen school of magic. |",
+			"| [Soulbound Familiar](archetype/familiar/soulbound_familiar) | Alertness, Scry on Familiar, Speak with Animals of its Kind | Soulbound familiars are born when a master uses the magical principles behind soulbound dolls to bind a soul fragment to an animal. |",
+			"| [Valet](archetype/familiar/valet) | Alertness, Class Skills, Deliver Touch Spells, Improved Evasion, Scry on Familiar, Share Spells, Speak with Animals of its Kind | A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every need. |"
 		]
 	},
 	"phantom": {

@@ -1,11 +1,16 @@
 import { useParams } from 'react-router';
 import DisplayItem from '../components/DisplayItem';
-import classes from '../json/classes.json';
+import classy from '../json/classes.json';
+import npcclasses from '../json/npc_classes.json';
+import prestige from '../json/prestige_classes.json';
+import sidekicks from '../json/sidekicks.json';
 import BasicPage from './BasicPage';
 import { HierarchyArray, Table } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
+
+const classes = {...classy, ...npcclasses, ...prestige, ...sidekicks};
 
 type Data = typeof classes;
 
@@ -29,6 +34,8 @@ const ClassExtraPage: React.FC<Props> = ({subtopic}) => {
 
 	const { id } = useParams<Params>();
 
+	const solidId = (id || "unknown") as keyof Data;
+
 	const {
 		name: title,
 		tables,
@@ -36,7 +43,15 @@ const ClassExtraPage: React.FC<Props> = ({subtopic}) => {
 		alternate_capstones,
 		favored_class_bonuses,
 		archetypes
-	} = (classes[id || "unknown"] as JsonDataPropsClass);
+	} = (classes[solidId] as JsonDataPropsClass);
+
+	const classLinkback = "/" + (classy[solidId as keyof typeof classy]
+		? "class"
+		: (npcclasses[solidId as keyof typeof npcclasses]
+			? "npcclass"
+			: (prestige[solidId as keyof typeof prestige] ? "prestigeclass" : "sidekick")
+		)
+	) + "/" + id;
 
 	const output = [];
 
@@ -71,7 +86,7 @@ const ClassExtraPage: React.FC<Props> = ({subtopic}) => {
 	}
 
 	return (
-		<BasicPage title={title} {...{hierarchy: [...hierarchy, [title, "/class/" + id]], sources}}>
+		<BasicPage title={title} {...{hierarchy: [...hierarchy, [title, classLinkback]], sources}}>
 			{output}
 		</BasicPage>
 	);
