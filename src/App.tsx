@@ -54,6 +54,8 @@ const SpellPage = lazy(() => import("./pages/SpellPage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
 const FeatPage = lazy(() => import("./pages/FeatPage"));
 const MonsterPage = lazy(() => import("./pages/MonsterPage"));
+const MonsterTypingPage = lazy(() => import("./pages/MonsterTypingPage"));
+const MonsterFamilyPage = lazy(() => import("./pages/MonsterFamilyPage"));
 const NPCPage = lazy(() => import("./pages/NPCPage"));
 const MagicMiscPage = lazy(() => import("./pages/MagicMiscPage"));
 const MagicArmorPage = lazy(() => import("./pages/MagicArmorPage"));
@@ -74,6 +76,7 @@ const DomainPage = lazy(() => import("./pages/DomainPage"));
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
 const classPage = () => <Suspense fallback={<Loading />}><ClassPage /></Suspense>;
+const typeOrSubtype = () => <Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense>;
 
 const App: React.FC = () => {
 	return (
@@ -115,7 +118,7 @@ const App: React.FC = () => {
 						<Route path="/equipment/weaponenhance/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense>} />
 						<Route path="/exploit/:id" render={() => <></>} />
 						<Route path="/faith/:id" render={() => <Suspense fallback={<Loading />}><FaithPage /></Suspense>} />
-						<Route path="/family/:id" render={() => <></>} />
+						<Route path="/family/:id" render={() => <Suspense fallback={<Loading />}><MonsterFamilyPage /></Suspense>} />
 						<Route path="/feat/:id" render={() => <Suspense fallback={<Loading />}><FeatPage /></Suspense>} />
 						<Route path="/greaterexploit/:id" render={() => <></>} />
 						<Route path="/haunt/:id" render={() => <></>} />
@@ -174,7 +177,7 @@ const App: React.FC = () => {
 						<Route path="/spelldef/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
 						<Route path="/spirit/:id" render={() => <></>} />
 						<Route path="/stanceragepower/:id" render={() => <></>} />
-						<Route path="/subtype/:id" render={() => <></>} />
+						<Route path="/subtype/:id" render={typeOrSubtype} />
 						<Route path="/tech/armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechArmorPage /></Suspense>} />
 						<Route path="/tech/artifact/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechArtifactPage /></Suspense>} />
 						<Route path="/tech/cybertech/:id" render={() => <Suspense fallback={<Loading />}><EquipmentTechCybertechPage /></Suspense>} />
@@ -184,7 +187,7 @@ const App: React.FC = () => {
 						<Route path="/template/:id" render={() => <></>} />
 						<Route path="/trait/:id" render={() => <Suspense fallback={<Loading />}><TraitPage /></Suspense>} />
 						<Route path="/trap/:id" render={() => <></>} />
-						<Route path="/type/:id" render={() => <></>} />
+						<Route path="/type/:id" render={typeOrSubtype} />
 						<Route path="/umr/:id" render={() => <></>} />
 						<Route path="/:mainpage" render={mainPage} />
 					</IonRouterOutlet>

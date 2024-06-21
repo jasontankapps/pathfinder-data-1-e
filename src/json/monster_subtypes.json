@@ -1,10 +1,9 @@
 {
-	"_prefix": "monster-subtype",
 	"adlet": {
 		"name": "adlet",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Adlet",
+			"## Subtype: Adlet",
 			"",
 			"This subtype is applied to the strange humanoid wolf creatures called adlets, and to creatures related to adlets."
 		]
@@ -16,7 +15,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"## Aeon",
+			"## Subtype: Aeon",
 			"",
 			"Aeons are a race of neutral outsiders who roam the planes maintaining the balance of reality. Aeons have the following traits.",
 			"",
@@ -31,7 +30,7 @@
 		"name": "aether",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Aether",
+			"## Subtype: Aether",
 			"",
 			"This subtype is usually used for outsiders with a connection to aether, a \"fifth element\" formed from a blend between the substance of the Ethereal Plane and the energy of the Elemental Planes."
 		]
@@ -44,7 +43,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Agathion",
+			"## Subtype: Agathion",
 			"",
 			"Agathions are beast-aspect outsiders native to Nirvana. They have the following traits.",
 			"",
@@ -69,7 +68,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Air",
+			"## Subtype: Air",
 			"",
 			"This subtype is usually used for outsiders that have a connection to the Elemental Plane of Air. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat Fly as a class skill."
 		]
@@ -78,7 +77,7 @@
 		"name": "android",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Android",
+			"## Subtype: Android",
 			"",
 			"This subtype is applied to the synthetic humanoids called androids."
 		]
@@ -93,7 +92,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Angel",
+			"## Subtype: Angel",
 			"",
 			"Angels are a race of good outsiders native to the good-aligned Outer Planes. An angel has the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -116,7 +115,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Aquatic",
+			"## Subtype: Aquatic",
 			"",
 			"These creatures always have swim speeds and can move in water without making Swim checks. An aquatic creature can breathe water. It cannot breathe air unless it has the amphibious special quality. Aquatic creatures always treat Swim as a class skill."
 		]
@@ -130,7 +129,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Archon",
+			"## Subtype: Archon",
 			"",
 			"Archons are a race of celestials, or good outsiders, native to lawful good-aligned Outer Planes. An archon has the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -146,7 +145,7 @@
 		"name": "astomoi",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Astomoi",
+			"## Subtype: Astomoi",
 			"",
 			"This subtype is applied to astomois and creatures related to astomois."
 		]
@@ -155,7 +154,7 @@
 		"name": "asura",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Asura",
+			"## Subtype: Asura",
 			"",
 			"An asura has the following traits, unless otherwise noted in the creature's entry.",
 			"",
@@ -182,7 +181,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Augmented",
+			"## Subtype: Augmented",
 			"",
 			"A creature receives this subtype when something (usually a template) changes its original type. Some creatures (those with an inherited template) are born with this subtype; others acquire it when they take on an acquired template. The augmented subtype is always paired with the creature's original type."
 		]
@@ -197,7 +196,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Azata",
+			"## Subtype: Azata",
 			"",
 			"Azatas are a race of celestials, or good outsiders, native to chaotic good-aligned Outer Planes. An azata has the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -211,7 +210,7 @@
 		"name": "behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Behemoth",
+			"## Subtype: Behemoth",
 			"",
 			"A behemoth is a neutral Colossal magical beast of great strength and power. Behemoths possess the following traits unless otherwise noted.",
 			"",
@@ -231,7 +230,7 @@
 		"name": "blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"## Blight",
+			"## Subtype: Blight",
 			"",
 			"A blight is an evil and intelligent ooze that infects entire ecosystems. Unless otherwise noted in a creature's entry, blights have the following traits.",
 			"",
@@ -248,7 +247,7 @@
 		"name": "catfolk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Catfolk",
+			"## Subtype: Catfolk",
 			"",
 			"This subtype is applied to the humanoid felines called catfolk and creatures related to catfolk."
 		]
@@ -257,7 +256,7 @@
 		"name": "changeling",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Changeling",
+			"## Subtype: Changeling",
 			"",
 			"This subtype is applied to the hag-born humanoids called changelings."
 		]
@@ -273,7 +272,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Chaotic",
+			"## Subtype: Chaotic",
 			"",
 			"This subtype is usually applied to outsiders native to the chaotic-aligned Outer Planes. Most creatures that have this subtype also have chaotic alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a chaotic alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the chaotic subtype overcomes damage reduction as if its natural weapons and any weapons it wields were chaotic-aligned (see Damage Reduction)."
 		]
@@ -287,7 +286,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Clockwork",
+			"## Subtype: Clockwork",
 			"",
 			"Clockworks are constructs created through a fusion of magic and technology. A clockwork has the following traits unless otherwise noted.",
 			"",
@@ -308,7 +307,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Cold",
+			"## Subtype: Cold",
 			"",
 			"A creature with the cold subtype has immunity to cold and vulnerability to fire."
 		]
@@ -320,7 +319,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Colossus",
+			"## Subtype: Colossus",
 			"",
 			"Colossi are mythic constructs of Gargantuan size or larger. Unless otherwise noted in a creature's entry, colossi have the following traits.",
 			"",
@@ -340,7 +339,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Daemon",
+			"## Subtype: Daemon",
 			"",
 			"Daemons are neutral evil outsiders that eat souls and thrive on disaster and ruin. They have the following traits unless otherwise noted.",
 			"",
@@ -359,7 +358,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Dark Folk",
+			"## Subtype: Dark Folk",
 			"",
 			"Dark folk are reclusive subterranean humanoids with an aversion to light."
 		]
@@ -368,7 +367,7 @@
 		"name": "deep one",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Deep One",
+			"## Subtype: Deep One",
 			"",
 			"This subtype is applied to deep ones and creatures related to deep ones, such as deep one hybrids. Creatures with the deep one subtype have low-light vision."
 		]
@@ -380,7 +379,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Demodand",
+			"## Subtype: Demodand",
 			"",
 			"Demodands are chaotic evil outsiders who stalk the Abyss. Unless otherwise noted in the creature's entry, a demodand has the following traits.",
 			"",
@@ -404,7 +403,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Demon",
+			"## Subtype: Demon",
 			"",
 			"Demons are chaotic evil outsiders that call the Abyss their home. Demons have a particular suite of traits (unless otherwise noted in a creature's entry), as summarized here.",
 			"",
@@ -420,7 +419,7 @@
 		"name": "derro",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"## Derro",
+			"## Subtype: Derro",
 			"",
 			"This subtype is applied to the sadistic race of underground-dwelling creatures known as derros."
 		]
@@ -436,7 +435,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Devil",
+			"## Subtype: Devil",
 			"",
 			"Devils are lawful evil outsiders that hail from the plane of Hell. Devils have a particular suite of traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -453,7 +452,7 @@
 		"name": "div",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Div",
+			"## Subtype: Div",
 			"",
 			"Divs are neutral evil outsiders that sow misfortune and ruin. They have the following traits unless otherwise noted.",
 			"",
@@ -469,7 +468,7 @@
 		"name": "dwarf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Dwarf",
+			"## Subtype: Dwarf",
 			"",
 			"This subtype is applied to dwarves and creatures related to dwarves. Creatures with the dwarf subtype have darkvision 60 feet."
 		]
@@ -485,7 +484,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Earth",
+			"## Subtype: Earth",
 			"",
 			"This subtype is usually used for outsiders with a connection to the Elemental Plane of Earth. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed have tremorsense."
 		]
@@ -501,7 +500,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Elemental",
+			"## Subtype: Elemental",
 			"",
 			"An elemental is a being composed entirely from one or more of the four classical elements-air, earth, fire, or water-or the less common element called aether. An elemental has the following features.",
 			"",
@@ -520,7 +519,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Elf",
+			"## Subtype: Elf",
 			"",
 			"This subtype is applied to elves and creatures related to elves. Creatures with the elf subtype have low-light vision unless otherwise specified."
 		]
@@ -536,7 +535,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Evil",
+			"## Subtype: Evil",
 			"",
 			"This subtype is usually applied to outsiders native to the evil-aligned Outer Planes. Evil outsiders are also called fiends. Most creatures that have this subtype also have evil alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had an evil alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the evil subtype overcomes damage reduction as if its natural weapons and any weapons it wields were evil-aligned (see Damage Reduction)."
 		]
@@ -552,7 +551,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Extraplanar",
+			"## Subtype: Extraplanar",
 			"",
 			"This subtype is applied to any creature when it is on a plane other than its native plane. A creature that travels the planes can gain or lose this subtype as it goes from plane to plane. Monster entries assume that encounters with creatures take place on the Material Plane, and every creature whose native plane is not the Material Plane has the extraplanar subtype (but would not have it when on its home plane). Every extraplanar creature in this book has a home plane mentioned in its description. Creatures not labeled as extraplanar are natives of the Material Plane, and they gain the extraplanar subtype if they leave the Material Plane. No creature has the extraplanar subtype when it is on a Transitive Plane (the Astral Plane, the Ethereal Plane, or the Plane of Shadow)."
 		]
@@ -568,7 +567,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Fire",
+			"## Subtype: Fire",
 			"",
 			"A creature with the fire subtype has immunity to fire and vulnerability to cold."
 		]
@@ -584,7 +583,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Giant",
+			"## Subtype: Giant",
 			"",
 			"A giant is a humanoid creature of great strength, usually of at least Large size. Giants have a number of racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids. Giants have low-light vision, and treat Intimidate and Perception as class skills."
 		]
@@ -596,7 +595,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Gnome",
+			"## Subtype: Gnome",
 			"",
 			"This subtype is applied to gnomes and creatures related to gnomes. Creatures with the gnome subtype have low-light vision."
 		]
@@ -609,7 +608,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Goblinoid",
+			"## Subtype: Goblinoid",
 			"",
 			"Goblinoids are stealthy humanoids who live by hunting and raiding. All goblinoids speak Goblin and treat Stealth as a class skill."
 		]
@@ -625,7 +624,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Good",
+			"## Subtype: Good",
 			"",
 			"This subtype is usually applied to outsiders native to the good-aligned Outer Planes. Most creatures that have this subtype also have good alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a good alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the good subtype overcomes damage reduction as if its natural weapons and any weapons it wields were good-aligned (see Damage Reduction)."
 		]
@@ -634,7 +633,7 @@
 		"name": "gray",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Gray",
+			"## Subtype: Gray",
 			"",
 			"This subtype is applied to the strange extraplanar humanoid race known as grays, as well as other creatures related to grays."
 		]
@@ -646,7 +645,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Great Old One",
+			"## Subtype: Great Old One",
 			"",
 			"A Great Old One is a powerful, alien entity. All Great Old Ones are chaotic, and most of them are also evil. They can be any creature type, but most are aberrations or magical beasts. Great Old Ones have the following traits.",
 			"",
@@ -664,7 +663,7 @@
 		"name": "grippli",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"## Grippli",
+			"## Subtype: Grippli",
 			"",
 			"Gripplis are frog-like humanoids. Creatures with the grippli subtype have darkvision."
 		]
@@ -673,7 +672,7 @@
 		"name": "halfling",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Halfling",
+			"## Subtype: Halfling",
 			"",
 			"This subtype is applied to halflings and creatures related to halflings."
 		]
@@ -682,7 +681,7 @@
 		"name": "hive",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Hive",
+			"## Subtype: Hive",
 			"",
 			"The hive are an invasive species of aberrations that consume worlds like locusts. Hive creatures have the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -716,7 +715,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Human",
+			"## Subtype: Human",
 			"",
 			"This subtype is applied to humans and creatures related to humans."
 		]
@@ -732,7 +731,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Incorporeal",
+			"## Subtype: Incorporeal",
 			"",
 			"An incorporeal creature has no physical body. An incorporeal creature is immune to critical hits and precision-based damage (such as sneak attack damage) unless the attacks are made using a weapon with the ghost touch special weapon quality. In addition, creatures with the incorporeal subtype gain the incorporeal special quality."
 		]
@@ -741,7 +740,7 @@
 		"name": "inevitable",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"## Inevitable",
+			"## Subtype: Inevitable",
 			"",
 			"Inevitables are construct-like outsiders built by the axiomites to enforce law. They have the following traits.",
 			"",
@@ -760,7 +759,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Kaiju",
+			"## Subtype: Kaiju",
 			"",
 			"These Colossal creatures inhabit the most desolate places of a world. They are often associated with elemental subtypes, and while they are only barely smarter than the typical beast, many feature personality traits that allow for rudimentary alliances or rivalries with other kaiju. Regardless, all kaiju have great capacity for devastation. A kaiju has the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -783,7 +782,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Kami",
+			"## Subtype: Kami",
 			"",
 			"Kami are a race of native outsiders who serve to protect what they refer to as \"wards\"-animals, plants, objects, and even locations-from being harmed or dishonored. All kami are outsiders with the native subtype. A kami has the following traits unless otherwise noted in a creature's entry.",
 			"",
@@ -800,7 +799,7 @@
 		"name": "kasatha",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Kasatha",
+			"## Subtype: Kasatha",
 			"",
 			"A kasatha is a nimble four-armed humanoid from another planet."
 		]
@@ -809,7 +808,7 @@
 		"name": "kitsune",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Kitsune",
+			"## Subtype: Kitsune",
 			"",
 			"A kitsune is a shapechanging humanoid fox-person."
 		]
@@ -821,7 +820,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Kyton",
+			"## Subtype: Kyton",
 			"",
 			"Kytons are a race of lawful evil outsiders native to the Shadow Plane who feed on fear and pain. Kytons possess the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -842,7 +841,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Lawful",
+			"## Subtype: Lawful",
 			"",
 			"This subtype is usually applied to outsiders native to the lawful-aligned Outer Planes. Most creatures that have this subtype also have lawful alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a lawful alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the lawful subtype overcomes damage reduction as if its natural weapons and any weapons it wields were lawful-aligned (see Damage Reduction)."
 		]
@@ -854,7 +853,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Leshy",
+			"## Subtype: Leshy",
 			"",
 			"A leshy is a nature spirit that inhabits the body of a specially grown plant. Regardless of their kind, all leshys have the following traits in addition to those granted by the plant type (unless otherwise noted in a creature's entry).",
 			"",
@@ -871,7 +870,7 @@
 		"name": "manasaputra",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Manasaputra",
+			"## Subtype: Manasaputra",
 			"",
 			"Manasaputras are lawful good spirits ascending to a new stage of existence on the Positive Energy Plane. They have the following traits.",
 			"",
@@ -892,7 +891,7 @@
 		"name": "mortic",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
-			"## Mortic",
+			"## Subtype: Mortic",
 			"",
 			"A mortic is a humanoid creature infused with necromantic energy but not truly undead. Although mortics reproduce to create others of their kind, usually living in tight-knit communities, a humanoid of any type might become a mortic through overwhelming exposure to negative energy. Mortics vary in their abilities based on their original humanoid type, and each mortic has a humanoid subtype in addition to the mortic subtype. Mortics have racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids do. All mortics have the following traits unless otherwise noted in a specific creature's entry.",
 			"",
@@ -909,7 +908,7 @@
 		"name": "munavri",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"## Munavri",
+			"## Subtype: Munavri",
 			"",
 			"This subtype is applied to the psychic humanoid race known as the munavris."
 		]
@@ -922,7 +921,7 @@
 			"Mythic Adventures"
 		],
 		"description": [
-			"## Mythic",
+			"## Subtype: Mythic",
 			"",
 			"A creature with this subtype is infused with mythic power and is capable of terrible and awe-inspiring feats. Some mythic creatures are powerful versions of existing monsters (such as minotaurs and medusas), others are completely new creatures that do not have a non-mythic equivalent (such as the devastator and plague swarms). For more information on mythic creatures, see the Mythic Rules. Creatures with the mythic subtype have the following traits (these are already included in the mythic monster stat blocks presented in this book).",
 			"",
@@ -947,7 +946,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Native",
+			"## Subtype: Native",
 			"",
 			"This subtype is applied only to outsiders. Creatures with this subtype are native to the Material Plane. These creatures have mortal ancestors or a strong connection to the Material Plane and can be raised, reincarnated, or resurrected just as other living creatures can be. Unlike true outsiders, native outsiders need to eat and sleep."
 		]
@@ -956,7 +955,7 @@
 		"name": "nightshade",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"## Nightshade",
+			"## Subtype: Nightshade",
 			"",
 			"Nightshades are monstrous undead composed of shadow and evil. They have the following traits.",
 			"",
@@ -972,7 +971,7 @@
 		"name": "oni",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Oni",
+			"## Subtype: Oni",
 			"",
 			"An oni is an evil spirit who takes humanoid form to become a native outsider. All oni have the following traits, unless otherwise noted in a specific creature's entry.",
 			"",
@@ -986,7 +985,7 @@
 		"name": "orc",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Orc",
+			"## Subtype: Orc",
 			"",
 			"This subtype is applied to orcs and creatures related to orcs, such as half-orcs. Creatures with the orc subtype normally have darkvision 60 feet and light sensitivity (half orcs do not have light sensitivity)."
 		]
@@ -995,7 +994,7 @@
 		"name": "phantom",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Phantom",
+			"## Subtype: Phantom",
 			"",
 			"This subtype is applied to the lost souls known as phantoms, outsiders desperately attempting to avoid the fate of undeath."
 		]
@@ -1007,7 +1006,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"## Protean",
+			"## Subtype: Protean",
 			"",
 			"Proteans are serpentine outsiders of pure chaos. They have the following traits unless otherwise noted in a creature's entry.",
 			"",
@@ -1052,7 +1051,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Psychopomp",
+			"## Subtype: Psychopomp",
 			"",
 			"Psychopomps are neutral outsiders native to the Boneyard. Psychopomps have the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -1072,7 +1071,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"## Qlippoth",
+			"## Subtype: Qlippoth",
 			"",
 			"Qlippoth are chaotic evil outsiders from the deepest reaches of the Abyss. They have the following traits unless otherwise noted in a creature's entry.",
 			"",
@@ -1087,7 +1086,7 @@
 		"name": "rakshasa",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Rakshasa",
+			"## Subtype: Rakshasa",
 			"",
 			"A rakshasa is a lawful evil spirit born into the Material Plane. A shapechanger that can walk with ease among humanoids, a rakshasa's true form has animalistic features and strangely jointed limbs. All rakshasas are native to the Material Plane, and have the following traits unless otherwise noted in a creature's entry.",
 			"",
@@ -1103,7 +1102,7 @@
 		"name": "ratfolk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Ratfolk",
+			"## Subtype: Ratfolk",
 			"",
 			"This subtype is applied to the humanoid rodents called ratfolk and creatures related to ratfolk."
 		]
@@ -1117,7 +1116,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"## Reptilian",
+			"## Subtype: Reptilian",
 			"",
 			"These creatures are scaly and usually cold-blooded. The reptilian subtype is only used to describe a set of humanoid races, not all animals and monsters that are true reptiles."
 		]
@@ -1126,7 +1125,7 @@
 		"name": "robot",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Robot",
+			"## Subtype: Robot",
 			"",
 			"Robots are intelligent constructs created by advanced scientific means. They have the following traits, unless otherwise noted.",
 			"",
@@ -1149,7 +1148,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Sahkil",
+			"## Subtype: Sahkil",
 			"",
 			"Sahkils are neutral evil outsiders native to the Ethereal Plane. They have the following traits (unless otherwise noted in a creature's entry).",
 			"",
@@ -1170,7 +1169,7 @@
 		"name": "samsaran",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Samsaran",
+			"## Subtype: Samsaran",
 			"",
 			"A samsaran is a humanoid creature whose spirit always reincarnates into another samsaran."
 		]
@@ -1182,7 +1181,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"## Sasquatch",
+			"## Subtype: Sasquatch",
 			"",
 			"This subtype is applied to the humanoid beings called sasquatches and creatures related to sasquatches."
 		]
@@ -1198,7 +1197,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Shapechanger",
+			"## Subtype: Shapechanger",
 			"",
 			"A shapechanger has the supernatural ability to assume one or more alternative forms. Many magical effects allow some kind of shapeshifting, and not every creature that can change shapes has the shapechanger subtype."
 		]
@@ -1207,7 +1206,7 @@
 		"name": "skinwalker",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"## Skinwalker",
+			"## Subtype: Skinwalker",
 			"",
 			"This subtype is applied to the humanoid race known as skinwalkers, who are similar to lycanthropes, but aren't afflicted with the same curse."
 		]
@@ -1216,7 +1215,7 @@
 		"name": "spawn of rovagug",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
-			"## Spawn of Rovagug",
+			"## Subtype: Spawn of Rovagug",
 			"",
 			"All Spawn of Rovagug are Colossal magical beasts that possess the following traits.",
 			"",
@@ -1235,7 +1234,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Swarm",
+			"## Subtype: Swarm",
 			"",
 			"A swarm is a collection of Fine, Diminutive, or Tiny creatures that acts as a single creature. A swarm has the characteristics of its type, except as noted here. A swarm has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. A swarm makes saving throws as a single creature. A single swarm occupies a square (if it is made up of nonflying creatures) or a cube (of flying creatures) 10 feet on a side, but its reach is 0 feet, like its component creatures. In order to attack, it moves into an opponent's space, which provokes an attack of opportunity. It can occupy the same space as a creature of any size, since it crawls all over its prey. A swarm can move through squares occupied by enemies and vice versa without impediment, although the swarm provokes an attack of opportunity if it does so. A swarm can move through cracks or holes large enough for its component creatures.",
 			"",
@@ -1262,7 +1261,7 @@
 		"name": "troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"## Troop",
+			"## Subtype: Troop",
 			"",
 			"A troop is a collection of creatures that acts as a single creature, similar to a swarm, but as part of a military unit. A troop has the characteristics of its type, except as noted here. A troop has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. A troop attempts saving throws as a single creature.",
 			"",
@@ -1289,7 +1288,7 @@
 		"name": "vanara",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Vanara",
+			"## Subtype: Vanara",
 			"",
 			"This subtype is applied to vanaras and creatures related to vanaras."
 		]
@@ -1298,7 +1297,7 @@
 		"name": "vishkanya",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Vishkanya",
+			"## Subtype: Vishkanya",
 			"",
 			"This subtype is applied to vishkanyas and creatures related to vishkanyas."
 		]
@@ -1314,7 +1313,7 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"## Water",
+			"## Subtype: Water",
 			"",
 			"This subtype is usually used for outsiders with a connection to the Elemental Plane of Water. Creatures with the water subtype always have swim speeds and can move in water without making Swim checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the Swim skill as a class skill."
 		]
@@ -1323,7 +1322,7 @@
 		"name": "wayang",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Wayang",
+			"## Subtype: Wayang",
 			"",
 			"A wayang is a gangly humanoid originating from the Shadow Plane."
 		]
@@ -1332,7 +1331,7 @@
 		"name": "wild hunt",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"## Wild Hunt",
+			"## Subtype: Wild Hunt",
 			"",
 			"All creatures that ride as a part of the wild hunt are chaotic neutral fey that have the following abilities (unless otherwise noted in a creature's entry).",
 			"",

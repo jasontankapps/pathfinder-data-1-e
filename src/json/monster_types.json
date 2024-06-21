@@ -1,9 +1,18 @@
 {
-	"_prefix": "monster-type",
-	"aberration": {
-		"name": "aberration",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
 		"description": [
-			"## Aberration",
+			"Unable to find the requested creature type or subtype."
+		]
+	},
+	"aberration": {
+		"name": "Aberration",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Type: Aberration",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 306](source/pathfinder_rpg_bestiary)",
 			"",
 			"An aberration has a bizarre anatomy, strange abilities, an alien mindset, or any combination of the three.",
 			"",
@@ -23,9 +32,12 @@
 		]
 	},
 	"animal": {
-		"name": "animal",
+		"name": "Animal",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Animal",
+			"## Type: Animal",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 306](source/pathfinder_rpg_bestiary)",
 			"",
 			"An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture. Animals usually have additional information on how they can serve as companions.",
 			"",
@@ -48,9 +60,12 @@
 		]
 	},
 	"construct": {
-		"name": "construct",
+		"name": "Construct",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Construct",
+			"## Type: Construct",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 307](source/pathfinder_rpg_bestiary)",
 			"",
 			"A construct is an animated object or artificially created creature.",
 			"",
@@ -92,9 +107,12 @@
 		]
 	},
 	"dragon": {
-		"name": "dragon",
+		"name": "Dragon",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Dragon",
+			"## Type: Dragon",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 307](source/pathfinder_rpg_bestiary)",
 			"",
 			"A dragon is a reptile-like creature, usually winged, with magical or unusual abilities.",
 			"",
@@ -115,9 +133,12 @@
 		]
 	},
 	"fey": {
-		"name": "fey",
+		"name": "Fey",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Fey",
+			"## Type: Fey",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 307](source/pathfinder_rpg_bestiary)",
 			"",
 			"A fey is a creature with supernatural abilities and connections to nature or to some other force or place. Fey are usually human-shaped.",
 			"",
@@ -137,9 +158,12 @@
 		]
 	},
 	"humanoid": {
-		"name": "humanoid",
+		"name": "Humanoid",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Humanoid",
+			"## Type: Humanoid",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 308](source/pathfinder_rpg_bestiary)",
 			"",
 			"A humanoid usually has two arms, two legs, and one head, or a human-like torso, arms, and a head. humanoids have few or no supernatural or extraordinary abilities, but most can speak and usually have well-developed societies. They are usually Small or Medium (with the exception of giants). Every humanoid creature also has a specific subtype to match its race, such as human, dark folk, or goblinoid.",
 			"",
@@ -160,9 +184,12 @@
 		]
 	},
 	"magical_beast": {
-		"name": "magical beast",
+		"name": "Magical Beast",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Magical Beast",
+			"## Type: Magical Beast",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 308](source/pathfinder_rpg_bestiary)",
 			"",
 			"Magical Beasts are similar to animals but can have Intelligence scores higher than 2 (in which case the creature knows at least one language, but can't necessarily speak). Magical Beasts usually have supernatural or extraordinary abilities, but are sometimes merely bizarre in appearance or habits.",
 			"",
@@ -183,9 +210,12 @@
 		]
 	},
 	"monstrous_humanoid": {
-		"name": "monstrous humanoid",
+		"name": "Monstrous Humanoid",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Monstrous Humanoid",
+			"## Type: Monstrous Humanoid",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 308](source/pathfinder_rpg_bestiary)",
 			"",
 			"Monstrous humanoids are similar to humanoids, but with monstrous or animalistic features. They often have magical abilities as well.",
 			"",
@@ -205,9 +235,12 @@
 		]
 	},
 	"ooze": {
-		"name": "ooze",
+		"name": "Ooze",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Ooze",
+			"## Type: Ooze",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 308](source/pathfinder_rpg_bestiary)",
 			"",
 			"An ooze is an amorphous or mutable creature, usually mindless.",
 			"",
@@ -231,9 +264,12 @@
 		]
 	},
 	"outsider": {
-		"name": "outsider",
+		"name": "Outsider",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Outsider",
+			"## Type: Outsider",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 309](source/pathfinder_rpg_bestiary)",
 			"",
 			"An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence.",
 			"",
@@ -254,9 +290,12 @@
 		]
 	},
 	"plant": {
-		"name": "plant",
+		"name": "Plant",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Plant",
+			"## Type: Plant",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 309](source/pathfinder_rpg_bestiary)",
 			"",
 			"This type comprises vegetable creatures. Note that regular plants, such as one finds growing in gardens and fields, lack Intelligence, Wisdom, and Charisma scores; even though plants are alive, they are objects, not creatures.",
 			"",
@@ -278,9 +317,12 @@
 		]
 	},
 	"undead": {
-		"name": "undead",
+		"name": "Undead",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Undead",
+			"## Type: Undead",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 309](source/pathfinder_rpg_bestiary)",
 			"",
 			"Undead are once-living creatures animated by spiritual or supernatural forces.",
 			"",
@@ -319,9 +361,12 @@
 		]
 	},
 	"vermin": {
-		"name": "vermin",
+		"name": "Vermin",
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Vermin",
+			"## Type: Vermin",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 310](source/pathfinder_rpg_bestiary)",
 			"",
 			"This type includes insects, arachnids, other arthropods, worms, and similar invertebrates.",
 			"",
