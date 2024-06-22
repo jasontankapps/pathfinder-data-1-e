@@ -14,7 +14,8 @@ export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "nu
 // null = text
 // 0 = DO NOT SORT ON THIS COLUMN (text)
 
-export type HierarchyArray = [string, string][];
+export type Hierarchy = [string, string];
+export type HierarchyArray = Hierarchy[];
 
 export interface Table {
 	// unique identifier

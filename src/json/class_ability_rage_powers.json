@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-rage",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested rage power."
+		]
+	},
 	"animal_fury": {
 		"name": "Animal Fury (Ex)",
 		"sources": [ "PRPG Core Rulebook" ],

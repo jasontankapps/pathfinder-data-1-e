@@ -1,6 +1,13 @@
 {
-	"_prefix": "class_abilities-druid_domain",
-	"_file": "_druiddomains.html",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested druidic domain."
+		]
+	},
 	"aquatic": {
 		"name": "Aquatic",
 		"sources": [ "Ultimate Magic" ],

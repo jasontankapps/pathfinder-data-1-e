@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-inquisition",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested inquisition."
+		]
+	},
 	"anger": {
 		"name": "Anger",
 		"sources": [ "Ultimate Magic" ],

@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
+import construct_mods from '../json/construct_mods.json';
 import magic_altar from '../json/magic_altar.json';
 import magic_demonic_implants from '../json/magic_demonic_implants.json';
 import magic_devil_talismans from '../json/magic_devil_talismans.json';
@@ -38,7 +39,8 @@ const magic = {
 	...magic_set,
 	...magic_shadow_piercings,
 	...magic_tattoo,
-	...magic_throne
+	...magic_throne,
+	...construct_mods
 };
 const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Miscellaneous Magic Items", "magic_misc"]];
 

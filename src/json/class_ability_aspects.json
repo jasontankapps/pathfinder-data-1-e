@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-aspect",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested shifter aspect."
+		]
+	},
 	"bat": {
 		"name": "Bat",
 		"sources": [ "Ultimate Wilderness" ],

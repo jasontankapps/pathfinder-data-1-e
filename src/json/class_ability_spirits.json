@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-spirit",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested spirit."
+		]
+	},
 	"archmage": {
 		"name": "Archmage",
 		"sources": [ "Occult Adventures" ],

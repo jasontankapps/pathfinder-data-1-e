@@ -1,5 +1,13 @@
 {
-	"_prefix": "monster-template",
+	"missing": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested template."
+		]
+	},
 	"accursed": {
 		"name": "Accursed",
 		"sources": [ "Horror Adventures" ],
