@@ -11349,13 +11349,9 @@
 			"",
 			"Other types of large, predatory flightless birds exist-the axe beak is but the most commonly encountered and well known of this breed of predator. Two less common variants of the axe beak are summarized below.",
 			"",
-			"Diatryma: While the dark-feathered, orange-beaked diatrymas are smaller than the average axe-beak, standing at a mere 6 to 7 feet in height, they are no less ferocious. Diatrymas are axe beaks reduced to Medium size; they have 2 Hit Dice and are CR 1.",
+			"**Diatryma:** While the dark-feathered, orange-beaked diatrymas are smaller than the average axe-beak, standing at a mere 6 to 7 feet in height, they are no less ferocious. Diatrymas are axe beaks reduced to Medium size; they have 2 Hit Dice and are CR 1.",
 			"",
-			"There is no description for this monster.",
-			"",
-			"Terror Bird: Terror birds stand a full foot taller than the average axe beak, and their powerful talons serve as additional weapons. Terror birds are axe beaks advanced to 5 HD that gain Improved Critical (bite) as a bonus feat. They also have two additional natural attacks, a pair of talons that do a base damage of 1d4 damage each. Terror birds are CR 4.",
-			"",
-			"There is no description for this monster."
+			"**Terror Bird:** Terror birds stand a full foot taller than the average axe beak, and their powerful talons serve as additional weapons. Terror birds are axe beaks advanced to 5 HD that gain Improved Critical (bite) as a bonus feat. They also have two additional natural attacks, a pair of talons that do a base damage of 1d4 damage each. Terror birds are CR 4."
 		]
 	},
 	"axial_monitor": {
@@ -26759,8 +26755,6 @@
 			"",
 			"Chimeras are monstrous creatures born of primordial evil. Hateful and hungry, they hunt on the ground or in the air. A chimera's dragon head may be of any evil dragon type, with the corresponding breath weapon, and its wings usually match the scales on its head. Chimeras speak with three overlapping voices, but rarely do so, typically only when playing toady to a more powerful creature. A chimera is 5 feet tall at the shoulder, nearly 10 feet long, and weighs 700 pounds.",
 			"",
-			"There is no description for this monster.",
-			"",
 			"### Ecology",
 			"",
 			"Chimeras prefer meat but can subsist on vegetable matter if necessary (although being forced to do so generally leaves the beasts more ill-tempered than usual). Their flight means they can pick and choose their prey, and they usually hunt a large area in search of easy food. They are too stupid and belligerent to acquire followers, though sometimes a tribe of kobolds might give them offerings. Conversely, they are just intelligent and stubborn enough that they make poor pets, and only a significantly more powerful creature can keep them submissive. They may form equal partnerships with a respectful humanoid or similar creature, and even consent to be used as a mount. A pride of chimeras is very leonine in its hierarchy, with a dominant male leading the group and most of the hunting done by the females. A solitary chimera may be a young male or a female with cubs nearby."
@@ -33845,7 +33839,7 @@
 			"",
 			"#### Description",
 			"",
-			"There is no description for this monster."
+			"This is a variation of the zombie. See the [Cytillesh Zombie](template/cytillesh_zombie) template."
 		]
 	},
 	"cytillipede": {

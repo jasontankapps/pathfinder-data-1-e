@@ -3303,7 +3303,7 @@
 		"description": [
 			"## Unchained Evolutions",
 			"",
-			"Description Source: [Pathfinder Unchained](source/pathfinder_unchained)  ",
+			"**Description Source:** [Pathfinder Unchained](source/pathfinder_unchained)  ",
 			"Each eidolon gains a number of evolution points that can be spent to give the eidolon new abilities, powers, and other upgrades. These abilities, called evolutions, can be changed whenever the summoner gains a new level, but they are otherwise set. Some evolutions require that the eidolon have a specific base form or the summoner be of a specific level before they can be chosen. A number of evolutions grant the eidolon additional natural attacks. Natural attacks listed as primary are made using the eidolon's full base attack bonus and add the eidolon's Strength modifier on damage rolls. Natural attacks listed as secondary are made using the eidolon's base attack bonus - 5 and add 1/2 the eidolon's Strength modifier on damage rolls (if positive). If the eidolon has only a single natural attack, the attack is made using its full base attack bonus, and it adds 1-1/2 times its Strength modifier on damage rolls made with that attack, regardless of the attack's type.",
 			"",
 			"Evolutions are grouped by their cost in evolution points. Evolution points cannot be saved. All of the points must be spent whenever the summoner gains a level. Unless otherwise noted, each evolution can be selected only once.",
@@ -7797,7 +7797,7 @@
 		"description": [
 			"## Variant Channeling",
 			"",
-			"(Source: [Ultimate Magic](source/ultimate_magic))",
+			"**Source:** [Ultimate Magic](source/ultimate_magic)",
 			"",
 			"An iconic ability of clerics is their power to channel positive or negative energy, whether for healing, for damage, or to turn or command the undead. However, given the great variety of deities and their divine portfolios, it naturally follows that some deities would endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. The following categories are examples of alternative channeling abilities based on the nature of a deity's power; for example, a fire deity's negative energy channeling may deal fire damage as part of or instead of the damage from channeling.",
 			"",
