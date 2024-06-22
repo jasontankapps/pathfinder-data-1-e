@@ -4,7 +4,7 @@
 		"name": "Aberrant",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Aberrant Bloodline",
+			"## Aberrant Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 17](source/advanced_class_guide)",
 			"",
@@ -33,7 +33,7 @@
 		"name": "Abyssal",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Abyssal Bloodline",
+			"## Abyssal Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 17](source/advanced_class_guide)",
 			"",
@@ -62,7 +62,7 @@
 		"name": "Aquatic",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"### Aquatic Bloodline",
+			"## Aquatic Bloodline",
 			"",
 			"**Source** [Aquatic Adventures pg. 51](source/aquatic_adventures)",
 			"",
@@ -93,7 +93,7 @@
 		"name": "Arcane",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Arcane Bloodline",
+			"## Arcane Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 18](source/advanced_class_guide)",
 			"",
@@ -122,7 +122,7 @@
 		"name": "Black Blood",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
-			"### Black Blood Bloodline",
+			"## Black Blood Bloodline",
 			"",
 			"**Source** [Advanced Class Origins pg. 8](source/advanced_class_origins)",
 			"",
@@ -157,7 +157,7 @@
 		"name": "Celestial",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Celestial Bloodline",
+			"## Celestial Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 19](source/advanced_class_guide)",
 			"",
@@ -186,7 +186,7 @@
 		"name": "Destined",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Destined Bloodline",
+			"## Destined Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 19](source/advanced_class_guide)",
 			"",
@@ -218,7 +218,7 @@
 			"Legacy of Dragons"
 		],
 		"description": [
-			"### Draconic Bloodline",
+			"## Draconic Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 19](source/advanced_class_guide)",
 			"",
@@ -328,7 +328,7 @@
 		"name": "Elemental",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Elemental Bloodline",
+			"## Elemental Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 20](source/advanced_class_guide)",
 			"",
@@ -368,7 +368,7 @@
 		"name": "Fey",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Fey Bloodline",
+			"## Fey Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 21](source/advanced_class_guide)",
 			"",
@@ -397,7 +397,7 @@
 		"name": "Hag",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
-			"### Hag Bloodline",
+			"## Hag Bloodline",
 			"",
 			"**Source** [Blood of the Coven pg. 27](source/blood_of_the_coven)",
 			"",
@@ -424,7 +424,7 @@
 		"name": "Infernal",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Infernal Bloodline",
+			"## Infernal Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 21](source/advanced_class_guide)",
 			"",
@@ -453,7 +453,7 @@
 		"name": "Kyton",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
-			"### Kyton Bloodline",
+			"## Kyton Bloodline",
 			"",
 			"**Source** [Advanced Class Origins pg. 9](source/advanced_class_origins)",
 			"",
@@ -482,7 +482,7 @@
 		"name": "Martyred",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
-			"### Martyred Bloodline",
+			"## Martyred Bloodline",
 			"",
 			"**Source** [Antihero's Handbook pg. 19](source/antihero's_handbook)",
 			"",
@@ -511,7 +511,7 @@
 		"name": "Medusa",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"### Medusa Bloodline",
+			"## Medusa Bloodline",
 			"",
 			"**Source** [Heroes of Golarion pg. 16](source/heroes_of_golarion)",
 			"",
@@ -540,7 +540,7 @@
 		"name": "Naga",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
-			"### Naga Bloodline",
+			"## Naga Bloodline",
 			"",
 			"**Source** [Blood of the Beast pg. 16](source/blood_of_the_beast)",
 			"",
@@ -569,7 +569,7 @@
 		"name": "Phoenix",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
-			"### Phoenix Bloodline",
+			"## Phoenix Bloodline",
 			"",
 			"**Source** [Pathfinder #144: Midwives to Death pg. 82](source/pathfinder_#144_midwives_to_death)",
 			"",
@@ -598,7 +598,7 @@
 		"name": "Salamander",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Salamander Bloodline",
+			"## Salamander Bloodline",
 			"",
 			"**Source** [Elemental Master's Handbook pg. 5](source/elemental_master's_handbook)",
 			"",
@@ -627,7 +627,7 @@
 		"name": "Shadow",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
-			"### Shadow Bloodline",
+			"## Shadow Bloodline",
 			"",
 			"**Source** [Blood of Shadows pg. 16](source/blood_of_shadows)",
 			"",
@@ -656,7 +656,7 @@
 		"name": "Shapechanger",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
-			"### Shapechanger Bloodline",
+			"## Shapechanger Bloodline",
 			"",
 			"**Source** [Legacy of the First World pg. 20](source/legacy_of_the_first_world)",
 			"",
@@ -685,7 +685,7 @@
 		"name": "Sphinx",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"### Sphinx Bloodline",
+			"## Sphinx Bloodline",
 			"",
 			"**Source** [Heroes of Golarion pg. 23](source/heroes_of_golarion)",
 			"",
@@ -714,7 +714,7 @@
 		"name": "Undead",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Undead Bloodline",
+			"## Undead Bloodline",
 			"",
 			"**Source** [Advanced Class Guide pg. 22](source/advanced_class_guide)",
 			"",
@@ -743,7 +743,7 @@
 		"name": "Verdant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"### Verdant Bloodline",
+			"## Verdant Bloodline",
 			"",
 			"**Source** [Ultimate Wilderness pg. 17](source/ultimate_wilderness)",
 			"",
@@ -772,7 +772,7 @@
 		"name": "Vestige",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
-			"### Vestige Bloodline",
+			"## Vestige Bloodline",
 			"",
 			"**Source** [Blood of the Ancients pg. 4](source/blood_of_the_ancients)",
 			"",

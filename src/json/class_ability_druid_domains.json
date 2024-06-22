@@ -5,7 +5,7 @@
 		"name": "Aquatic",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Aquatic Domain",
+			"## Aquatic Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
 			"",
@@ -22,7 +22,7 @@
 		"name": "Arctic",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Arctic Domain",
+			"## Arctic Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
 			"",
@@ -39,7 +39,7 @@
 		"name": "Badlands",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Badlands Domain",
+			"## Badlands Domain",
 			"",
 			"**Source** [Faiths and Philosophies pg. 24](source/faiths_and_philosophies)",
 			"",
@@ -58,7 +58,7 @@
 		"name": "Cave",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Cave Domain",
+			"## Cave Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
 			"",
@@ -75,7 +75,7 @@
 		"name": "Crocodile",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Crocodile Domain",
+			"## Crocodile Domain",
 			"",
 			"**Source** [Faiths and Philosophies pg. 24](source/faiths_and_philosophies)",
 			"",
@@ -94,7 +94,7 @@
 		"name": "Desert",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Desert Domain",
+			"## Desert Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
 			"",
@@ -111,7 +111,7 @@
 		"name": "Eagle",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Eagle Domain",
+			"## Eagle Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
 			"",
@@ -130,7 +130,7 @@
 		"name": "Erosion",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"### Erosion Domain",
+			"## Erosion Domain",
 			"",
 			"**Source** [Ultimate Wilderness pg. 46](source/ultimate_wilderness)",
 			"",
@@ -147,7 +147,7 @@
 		"name": "Frog",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Frog Domain",
+			"## Frog Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
 			"",
@@ -166,7 +166,7 @@
 		"name": "Jungle",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Jungle Domain",
+			"## Jungle Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
 			"",
@@ -183,7 +183,7 @@
 		"name": "Monkey",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Monkey Domain",
+			"## Monkey Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
 			"",
@@ -202,7 +202,7 @@
 		"name": "Mountain",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Mountain Domain",
+			"## Mountain Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
 			"",
@@ -219,7 +219,7 @@
 		"name": "Panther",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Panther Domain",
+			"## Panther Domain",
 			"",
 			"**Source** [Faiths and Philosophies pg. 25](source/faiths_and_philosophies)",
 			"",
@@ -236,7 +236,7 @@
 		"name": "Plains",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Plains Domain",
+			"## Plains Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
 			"",
@@ -253,7 +253,7 @@
 		"name": "Plane of Air",
 		"sources": [ "Planes of Power" ],
 		"description": [
-			"### Plane of Air Domain",
+			"## Plane of Air Domain",
 			"",
 			"**Source** [Planes of Power pg. 6](source/planes_of_power)",
 			"",
@@ -272,7 +272,7 @@
 		"name": "Plane of Earth",
 		"sources": [ "Planes of Power" ],
 		"description": [
-			"### Plane of Earth Domain",
+			"## Plane of Earth Domain",
 			"",
 			"**Source** [Planes of Power pg. 6](source/planes_of_power)",
 			"",
@@ -291,7 +291,7 @@
 		"name": "Plane of Fire",
 		"sources": [ "Planes of Power" ],
 		"description": [
-			"### Plane of Fire Domain",
+			"## Plane of Fire Domain",
 			"",
 			"**Source** [Planes of Power pg. 7](source/planes_of_power)",
 			"",
@@ -310,7 +310,7 @@
 		"name": "Plane of Water",
 		"sources": [ "Planes of Power" ],
 		"description": [
-			"### Plane of Water Domain",
+			"## Plane of Water Domain",
 			"",
 			"**Source** [Planes of Power pg. 7](source/planes_of_power)",
 			"",
@@ -329,7 +329,7 @@
 		"name": "Ruins",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
-			"### Ruins Domain",
+			"## Ruins Domain",
 			"",
 			"**Source** [Inner Sea Monster Codex pg. 35](source/inner_sea_monster_codex)",
 			"",
@@ -348,7 +348,7 @@
 		"name": "Serpent",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Serpent Domain",
+			"## Serpent Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
 			"",
@@ -367,7 +367,7 @@
 		"name": "Swamp",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Swamp Domain",
+			"## Swamp Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
 			"",
@@ -384,7 +384,7 @@
 		"name": "The Uskbond",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"### The Uskbond Domain",
+			"## The Uskbond Domain",
 			"",
 			"**Source** [Horror Realms pg. 45](source/horror_realms)",
 			"",
@@ -404,7 +404,7 @@
 			"Inner Sea Monster Codex"
 		],
 		"description": [
-			"### Vermin Domain",
+			"## Vermin Domain",
 			"",
 			"**Source** [Ultimate Wilderness pg. 46](source/ultimate_wilderness), [Inner Sea Monster Codex pg. 35](source/inner_sea_monster_codex)",
 			"",
@@ -421,7 +421,7 @@
 		"name": " Vulture",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Vulture Domain",
+			"## Vulture Domain",
 			"",
 			"**Source** [Faiths and Philosophies pg. 25](source/faiths_and_philosophies)",
 			"",
@@ -438,7 +438,7 @@
 		"name": "Wolf",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Wolf Domain",
+			"## Wolf Domain",
 			"",
 			"**Source** [Ultimate Magic pg. 36](source/ultimate_magic)",
 			"",

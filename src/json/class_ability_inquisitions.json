@@ -4,7 +4,7 @@
 		"name": "Anger",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Anger",
+			"## Anger",
 			"",
 			"**Source** [Ultimate Magic pg. 41](source/ultimate_magic)  ",
 			"**Deities** Gorum, Rovagug",
@@ -20,7 +20,7 @@
 		"name": "Banishment",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"### Banishment",
+			"## Banishment",
 			"",
 			"**Source** [Blood of Angels pg. 26](source/blood_of_angels)  ",
 			"**Deities** Iomedae, Sarenrae, Torag",
@@ -36,7 +36,7 @@
 		"name": "Black Powder",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"### Black Powder",
+			"## Black Powder",
 			"",
 			"**Source** [Ultimate Combat pg. 52](source/ultimate_combat)  ",
 			"**Deities** Any (with GM approval)",
@@ -48,7 +48,7 @@
 		"name": "Chivalry",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
-			"### Chivalry",
+			"## Chivalry",
 			"",
 			"**Source** [Magical Marketplace pg. 10](source/magical_marketplace)  ",
 			"**Deities** Erastil, Iomedae, Sarenrae, Torag",
@@ -64,7 +64,7 @@
 		"name": "Clandestine",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"### Clandestine",
+			"## Clandestine",
 			"",
 			"**Source** [Inner Sea Intrigue pg. 30](source/inner_sea_intrigue)  ",
 			"**Deities** Achaekek, Desna, Iomedae, Milani, Nethys, Norgorber, Sarenrae, Shelyn, Sivanah",
@@ -82,7 +82,7 @@
 		"name": "Conversion",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Conversion",
+			"## Conversion",
 			"",
 			"**Source** [Ultimate Magic pg. 41](source/ultimate_magic)  ",
 			"**Deities** Any deity",
@@ -98,7 +98,7 @@
 		"name": "Crime",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"### Crime",
+			"## Crime",
 			"",
 			"**Source** [Ultimate Intrigue pg. 28](source/ultimate_intrigue)  ",
 			"**Deities** Calistria, Norgorber",
@@ -114,7 +114,7 @@
 		"name": "Damnation",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"### Damnation",
+			"## Damnation",
 			"",
 			"**Source** [Blood of Fiends pg. 27](source/blood_of_fiends)  ",
 			"**Deities** Asmodeus, Pharasma, Zon-Kuthon",
@@ -130,7 +130,7 @@
 		"name": "Excommunication",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Excommunication",
+			"## Excommunication",
 			"",
 			"**Source** [Faiths and Philosophies pg. 23](source/faiths_and_philosophies)  ",
 			"**Deities** N/A",
@@ -148,7 +148,7 @@
 		"name": "Execution",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"### Execution",
+			"## Execution",
 			"",
 			"**Source** [Inner Sea Intrigue pg. 30](source/inner_sea_intrigue)  ",
 			"**Deities** Abadar, Achaekek, Calistria, Norgorber, Pharasma",
@@ -164,7 +164,7 @@
 		"name": "Fate",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Fate",
+			"## Fate",
 			"",
 			"**Source** [Ultimate Magic pg. 41](source/ultimate_magic)  ",
 			"**Deities** Nethys, Norgorber, Pharasma",
@@ -180,7 +180,7 @@
 		"name": "Fervor",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Fervor",
+			"## Fervor",
 			"",
 			"**Source** [Ultimate Magic pg. 42](source/ultimate_magic)  ",
 			"**Deities** Calistria, Cayden Cailean, Gozreh, Shelyn",
@@ -196,7 +196,7 @@
 		"name": "Final Rest",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Final Rest",
+			"## Final Rest",
 			"",
 			"**Source** [Champions of Purity pg. 22](source/champions_of_purity)  ",
 			"**Deities** Iomedae, Pharasma, Sarenrae",
@@ -212,7 +212,7 @@
 		"name": "Heresy",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Heresy",
+			"## Heresy",
 			"",
 			"**Source** [Ultimate Magic pg. 42](source/ultimate_magic)  ",
 			"**Deities** Abadar, Asmodeus, Calistria, Desna, Erastil, Gorum, Gozreh, Iomedae, Lamashtu, Nethys, Norgorber, Pharasma, Rovagug, Sarenrae, Shelyn, Torag, Urgathoa, Zon-Kuthon",
@@ -230,7 +230,7 @@
 		"name": "Illumination",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Illumination",
+			"## Illumination",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Desna, Erastil, Irori, Sarenrae",
@@ -246,7 +246,7 @@
 		"name": "Imprisonment",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Imprisonment",
+			"## Imprisonment",
 			"",
 			"**Source** [Ultimate Magic pg. 42](source/ultimate_magic)  ",
 			"**Deities** Abadar, Asmodeus, Torag",
@@ -262,7 +262,7 @@
 		"name": "Justice",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Justice",
+			"## Justice",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Iomedae, Pharasma",
@@ -278,7 +278,7 @@
 		"name": "Oblivion",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Oblivion",
+			"## Oblivion",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Desna, Lamashtu, Pharasma, Zon-Kuthon",
@@ -294,7 +294,7 @@
 		"name": "Order",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Order",
+			"## Order",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Abadar, Iomedae, Sarenrae",
@@ -310,7 +310,7 @@
 		"name": "Persistence",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Persistence",
+			"## Persistence",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Asmodeus, Iomedae, Urgathoa",
@@ -326,7 +326,7 @@
 		"name": "Politics",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"### Politics",
+			"## Politics",
 			"",
 			"**Source** [Inner Sea Intrigue pg. 30](source/inner_sea_intrigue)  ",
 			"**Deities** Abadar, Asmodeus, Calistria, Norgorber",
@@ -342,7 +342,7 @@
 		"name": "Possession",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"### Possession",
+			"## Possession",
 			"",
 			"**Source** [Blood of Fiends pg. 27](source/blood_of_fiends)  ",
 			"**Deities** Calistria, Lamashtu, Nethys, Norgorber, Urgathoa",
@@ -360,7 +360,7 @@
 		"name": "Recovery",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Recovery",
+			"## Recovery",
 			"",
 			"**Source** [Champions of Purity pg. 22](source/champions_of_purity)  ",
 			"**Deities** Abadar, Erastil, Nivi Rhombodazzle, Shelyn",
@@ -376,7 +376,7 @@
 		"name": "Redemption",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Redemption",
+			"## Redemption",
 			"",
 			"**Source** [Faiths and Philosophies pg. 23](source/faiths_and_philosophies)  ",
 			"**Deities** N/A",
@@ -396,7 +396,7 @@
 		"name": "Reformation",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
-			"### Reformation",
+			"## Reformation",
 			"",
 			"**Source** [Faiths and Philosophies pg. 23](source/faiths_and_philosophies)  ",
 			"**Deities** N/A",
@@ -416,7 +416,7 @@
 		"name": "Restoration",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
-			"### Restoration",
+			"## Restoration",
 			"",
 			"**Source** [Magical Marketplace pg. 10](source/magical_marketplace)  ",
 			"**Deities** Desna, Irori, Sarenrae, Shelyn",
@@ -432,7 +432,7 @@
 		"name": "Revelation",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"### Revelation",
+			"## Revelation",
 			"",
 			"**Source** [Blood of Angels pg. 27](source/blood_of_angels)  ",
 			"**Deities** Desna, Irori, Sarenrae, Shelyn",
@@ -448,7 +448,7 @@
 		"name": "Secrets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"### Secrets",
+			"## Secrets",
 			"",
 			"**Source** [Ultimate Intrigue pg. 28](source/ultimate_intrigue)  ",
 			"**Deities** Calistria, Norgorber",
@@ -464,7 +464,7 @@
 		"name": "Sedition",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"### Sedition",
+			"## Sedition",
 			"",
 			"**Source** [Inner Sea Intrigue pg. 30](source/inner_sea_intrigue)  ",
 			"**Deities** Cayden Cailean, Desna, Iomedae, Milani, Nethys, Norgorber, Sarenrae, Shelyn",
@@ -480,7 +480,7 @@
 		"name": "Seduction",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"### Seduction",
+			"## Seduction",
 			"",
 			"**Source** [Inner Sea Intrigue pg. 30](source/inner_sea_intrigue)  ",
 			"**Deities** Arshea, Calistria, Cayden Cailean, Shelyn",
@@ -496,7 +496,7 @@
 		"name": "Sin",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"### Sin",
+			"## Sin",
 			"",
 			"**Source** [Blood of Fiends pg. 27](source/blood_of_fiends)  ",
 			"**Deities** Asmodeus, Calistria, Norgorber, Rovagug, Urgathoa, Zon-Kuthon",
@@ -512,7 +512,7 @@
 		"name": "Spellkiller",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"### Spellkiller",
+			"## Spellkiller",
 			"",
 			"**Source** [Ultimate Combat pg. 52](source/ultimate_combat)  ",
 			"**Deities** Any (with GM approval)",
@@ -524,7 +524,7 @@
 		"name": "Tactics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Tactics",
+			"## Tactics",
 			"",
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Gorum, Irori, Torag",
@@ -540,7 +540,7 @@
 		"name": "Torture",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Torture",
+			"## Torture",
 			"",
 			"**Source** [Ultimate Magic pg. 44](source/ultimate_magic)  ",
 			"**Deities** Asmodeus, Calistria, Norgorber, Zon-Kuthon",
@@ -558,7 +558,7 @@
 		"name": "True Death",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"### True Death",
+			"## True Death",
 			"",
 			"**Source** [Blood of Angels pg. 27](source/blood_of_angels)  ",
 			"**Deities** Abadar, Cayden Cailean, Pharasma",
@@ -574,7 +574,7 @@
 		"name": "Truth",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Truth",
+			"## Truth",
 			"",
 			"**Source** [Ultimate Magic pg. 44](source/ultimate_magic)  ",
 			"**Deities** Iomedae, Pharasma, Sarenrae",
@@ -590,7 +590,7 @@
 		"name": "Valor",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Valor",
+			"## Valor",
 			"",
 			"**Source** [Ultimate Magic pg. 44](source/ultimate_magic)  ",
 			"**Deities** Cayden Cailean, Erastil, Iomedae, Sarenrae",
@@ -606,7 +606,7 @@
 		"name": "Vengeance",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Vengeance",
+			"## Vengeance",
 			"",
 			"**Source** [Ultimate Magic pg. 44](source/ultimate_magic)  ",
 			"**Deities** Calistria, Lamashtu, Norgorber, Rovagug, Urgathoa",
@@ -622,7 +622,7 @@
 		"name": "Zeal",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Zeal",
+			"## Zeal",
 			"",
 			"**Source** [Ultimate Magic pg. 44](source/ultimate_magic)  ",
 			"**Deities** Erastil, Nethys",

@@ -4,7 +4,7 @@
 		"name": "Ancients' Flight",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
-			"#### Ancients' Flight (Oratory)",
+			"## Ancients' Flight (Oratory)",
 			"",
 			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
 			"",
@@ -23,7 +23,7 @@
 		"name": "Anthem of Pageantry",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
-			"#### Anthem of Pageantry (String, Wind)",
+			"## Anthem of Pageantry (String, Wind)",
 			"",
 			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
 			"",
@@ -42,7 +42,7 @@
 		"name": "Arrowsong's Lament",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
-			"#### Arrowsong's Lament (Oratory)",
+			"## Arrowsong's Lament (Oratory)",
 			"",
 			"**Sources** [Arcane Anthology](source/arcane_anthology)",
 			"",
@@ -65,7 +65,7 @@
 		"name": "At the Heart of It All",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### At the Heart of It All (String, Wind)",
+			"## At the Heart of It All (String, Wind)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -86,7 +86,7 @@
 		"name": "Ballad of the Homesick Wanderer",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"#### Ballad of the Homesick Wanderer",
+			"## Ballad of the Homesick Wanderer",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -105,7 +105,7 @@
 		"name": "Ballad of the Warding Princess",
 		"sources": [ "Lost Treasures" ],
 		"description": [
-			"#### Ballad of the Warding Princess (Oratory, Sing)",
+			"## Ballad of the Warding Princess (Oratory, Sing)",
 			"",
 			"**Sources** [Lost Treasures](source/lost_treasures)",
 			"",
@@ -126,7 +126,7 @@
 		"name": "Banshee's Requiem",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"#### Banshee's Requiem (Sing)",
+			"## Banshee's Requiem (Sing)",
 			"",
 			"**Sources** [Horror Realms](source/horror_realms)",
 			"",
@@ -145,7 +145,7 @@
 		"name": "Battle Song of the People's Revolt",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
-			"#### Battle Song of the People's Revolt",
+			"## Battle Song of the People's Revolt",
 			"",
 			"**Sources** [Melee Tactics Toolbox](source/melee_tactics_toolbox)",
 			"",
@@ -165,7 +165,7 @@
 		"name": "Blazing Rondo",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"#### Blazing Rondo (Oratory, Percussion)",
+			"## Blazing Rondo (Oratory, Percussion)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -184,7 +184,7 @@
 		"name": "Clamor of the Heavens",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"#### Clamor of the Heavens (Percussion, Sing)",
+			"## Clamor of the Heavens (Percussion, Sing)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -203,7 +203,7 @@
 		"name": "Dance of Captivating Desire",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"#### Dance of Captivating Desire (Dance)",
+			"## Dance of Captivating Desire (Dance)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -222,7 +222,7 @@
 		"name": "Death of Heroes",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
-			"#### Death of Heroes (Oratory, Sing)",
+			"## Death of Heroes (Oratory, Sing)",
 			"",
 			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
 			"",
@@ -241,7 +241,7 @@
 		"name": "Dirge of the Torn Sail",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
-			"#### Dirge of the Torn Sail (Sing, String)",
+			"## Dirge of the Torn Sail (Sing, String)",
 			"",
 			"**Sources** [Blood of the Sea](source/blood_of_the_sea)",
 			"",
@@ -260,7 +260,7 @@
 		"name": "Endless Waltz of the Eldest",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
-			"#### Endless Waltz of the Eldest (Dance, String)",
+			"## Endless Waltz of the Eldest (Dance, String)",
 			"",
 			"**Sources** [Healer's Handbook](source/healer's_handbook)",
 			"",
@@ -279,7 +279,7 @@
 		"name": "Exhilarating Prayer of Grace",
 		"sources": [ "Divine Anthology" ],
 		"description": [
-			"#### Exhilarating Prayer of Grace (Dance)",
+			"## Exhilarating Prayer of Grace (Dance)",
 			"",
 			"**Sources** [Divine Anthology](source/divine_anthology)",
 			"",
@@ -298,7 +298,7 @@
 		"name": "Fafnheir and the First King",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
-			"#### Fafnheir and the First King (String, Wind)",
+			"## Fafnheir and the First King (String, Wind)",
 			"",
 			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
 			"",
@@ -321,7 +321,7 @@
 		"name": "Findelalara's Refuge",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
-			"#### Findelalara's Refuge (Dance, Oratory)",
+			"## Findelalara's Refuge (Dance, Oratory)",
 			"",
 			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
 			"",
@@ -340,7 +340,7 @@
 		"name": "Fugue de Rue d'Auseil",
 		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
 		"description": [
-			"#### Fugue de Rue d'Auseil",
+			"## Fugue de Rue d'Auseil",
 			"",
 			"**Sources** [Pathfinder #114: Black Stars Beckon](source/pathfinder_#114_black_stars_beckon)",
 			"",
@@ -361,7 +361,7 @@
 		"name": "Hymn of Restorative Harmonics",
 		"sources": [ "Divine Anthology" ],
 		"description": [
-			"#### Hymn of Restorative Harmonics (Sing, Wind)",
+			"## Hymn of Restorative Harmonics (Sing, Wind)",
 			"",
 			"**Sources** [Divine Anthology](source/divine_anthology)",
 			"",
@@ -382,7 +382,7 @@
 		"name": "Hymn of Sacred Lands",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
-			"#### Hymn of Sacred Lands (Oratory, Sing)",
+			"## Hymn of Sacred Lands (Oratory, Sing)",
 			"",
 			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
 			"",
@@ -401,7 +401,7 @@
 		"name": "Illusion's Decree",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"#### Illusion's Decree (Comedy, Oratory)",
+			"## Illusion's Decree (Comedy, Oratory)",
 			"",
 			"**Sources** [The Harrow Handbook](source/the_harrow_handbook)",
 			"",
@@ -420,7 +420,7 @@
 		"name": "Kaminari Drums",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"#### Kaminari Drums (Percussion)",
+			"## Kaminari Drums (Percussion)",
 			"",
 			"**Sources** [Disciple's Doctrine](source/disciple's_doctrine)",
 			"",
@@ -439,7 +439,7 @@
 		"name": "Legato Piece on the Infernal Bargain",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### Legato Piece on the Infernal Bargain (String)",
+			"## Legato Piece on the Infernal Bargain (String)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -460,7 +460,7 @@
 		"name": "Life Budding in Salted Earth",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"#### Life Budding in Salted Earth (Sing, String, Wind)",
+			"## Life Budding in Salted Earth (Sing, String, Wind)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -480,7 +480,7 @@
 		"name": "Lingering Leitmotif",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
-			"#### Lingering Leitmotif (Oratory, Sing)",
+			"## Lingering Leitmotif (Oratory, Sing)",
 			"",
 			"**Sources** [Merchant's Manifest](source/merchant's_manifest)",
 			"",
@@ -499,7 +499,7 @@
 		"name": "Melody of Frightful Death",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"#### Melody of Frightful Death (String)",
+			"## Melody of Frightful Death (String)",
 			"",
 			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
 			"",
@@ -520,7 +520,7 @@
 		"name": "Melody of Surrender",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
-			"#### Melody of Surrender (Sing, Wind)",
+			"## Melody of Surrender (Sing, Wind)",
 			"",
 			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
 			"",
@@ -541,7 +541,7 @@
 		"name": "Minuet of the Midnight Ivy",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### Minuet of the Midnight Ivy (Dance)",
+			"## Minuet of the Midnight Ivy (Dance)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -560,7 +560,7 @@
 		"name": "Music Beyond the Spheres",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"#### Music Beyond the Spheres (Dance, Sing, String)",
+			"## Music Beyond the Spheres (Dance, Sing, String)",
 			"",
 			"**Sources** [Horror Realms](source/horror_realms)",
 			"",
@@ -579,7 +579,7 @@
 		"name": "Night Queen's Fury",
 		"sources": [ "Distant Realms" ],
 		"description": [
-			"#### Night Queen's Fury (Act, Oratory)",
+			"## Night Queen's Fury (Act, Oratory)",
 			"",
 			"**Sources** [Distant Realms](source/distant_realms)",
 			"",
@@ -600,7 +600,7 @@
 		"name": "Pageant of the Peacock",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
-			"#### Pageant of the Peacock (Act, Dance)",
+			"## Pageant of the Peacock (Act, Dance)",
 			"",
 			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
 			"",
@@ -619,7 +619,7 @@
 		"name": "Pallavi of Nirvana's Blossoming",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"#### Pallavi of Nirvana's Blossoming (Dance)",
+			"## Pallavi of Nirvana's Blossoming (Dance)",
 			"",
 			"**Sources** [Blood of Angels](source/blood_of_angels)",
 			"",
@@ -642,7 +642,7 @@
 		"name": "Ragadahn's Raqs Beledi",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
-			"#### Ragadahn's Raqs Beledi (Dance)",
+			"## Ragadahn's Raqs Beledi (Dance)",
 			"",
 			"**Sources** [Legacy of the First World](source/legacy_of_the_first_world)",
 			"",
@@ -661,7 +661,7 @@
 		"name": "Ragadahn's Spiraling Ascent",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
-			"#### Ragadahn's Spiraling Ascent (Act, Dance)",
+			"## Ragadahn's Spiraling Ascent (Act, Dance)",
 			"",
 			"**Sources** [Legacy of the First World](source/legacy_of_the_first_world)",
 			"",
@@ -680,7 +680,7 @@
 		"name": "Rat Quadrille",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
-			"#### Rat Quadrille (Percussion, Sing)",
+			"## Rat Quadrille (Percussion, Sing)",
 			"",
 			"**Sources** [Magical Marketplace](source/magical_marketplace)",
 			"",
@@ -699,7 +699,7 @@
 		"name": "Relentless Reprise",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"#### Relentless Reprise (Keyboard, Sing, String, Wind)",
+			"## Relentless Reprise (Keyboard, Sing, String, Wind)",
 			"",
 			"**Sources** [Horror Realms](source/horror_realms)",
 			"",
@@ -718,7 +718,7 @@
 		"name": "Rondeau of Heavenly Order",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"#### Rondeau of Heavenly Order (Sing)",
+			"## Rondeau of Heavenly Order (Sing)",
 			"",
 			"**Sources** [Blood of Angels](source/blood_of_angels)",
 			"",
@@ -737,7 +737,7 @@
 		"name": "Song of Extinction",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
-			"#### Song of Extinction (Sing, String, Wind)",
+			"## Song of Extinction (Sing, String, Wind)",
 			"",
 			"**Sources** [Artifacts and Legends](source/artifacts_and_legends)",
 			"",
@@ -758,7 +758,7 @@
 		"name": "Song of Sarkoris",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
-			"#### Song of Sarkoris (Oratory, Sing)",
+			"## Song of Sarkoris (Oratory, Sing)",
 			"",
 			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
 			"",
@@ -777,7 +777,7 @@
 		"name": "Song of the Stonebearers",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
-			"#### Song of the Stonebearers (Percussion, Sing)",
+			"## Song of the Stonebearers (Percussion, Sing)",
 			"",
 			"**Sources** [Merchant's Manifest](source/merchant's_manifest)",
 			"",
@@ -796,7 +796,7 @@
 		"name": "Spirit of the Horse",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"#### Spirit of the Horse (Strings)",
+			"## Spirit of the Horse (Strings)",
 			"",
 			"**Sources** [Disciple's Doctrine](source/disciple's_doctrine)",
 			"",
@@ -815,7 +815,7 @@
 		"name": "Stirring Discourse of the Mind",
 		"sources": [ "Divine Anthology" ],
 		"description": [
-			"#### Stirring Discourse of the Mind (Oratory)",
+			"## Stirring Discourse of the Mind (Oratory)",
 			"",
 			"**Sources** [Divine Anthology](source/divine_anthology)",
 			"",
@@ -834,7 +834,7 @@
 		"name": "Stone Face",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### Stone Face (Comedy, Oratory)",
+			"## Stone Face (Comedy, Oratory)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -853,7 +853,7 @@
 		"name": "Symphony of Sylandurla's Ascent",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
-			"#### Symphony of Sylandurla's Ascent (Percussion, Wind)",
+			"## Symphony of Sylandurla's Ascent (Percussion, Wind)",
 			"",
 			"**Sources** [Healer's Handbook](source/healer's_handbook)",
 			"",
@@ -872,7 +872,7 @@
 		"name": "Symphony of the Dark Prince",
 		"sources": [ "Distant Realms" ],
 		"description": [
-			"#### Symphony of the Dark Prince (Sing)",
+			"## Symphony of the Dark Prince (Sing)",
 			"",
 			"**Sources** [Distant Realms](source/distant_realms)",
 			"",
@@ -891,7 +891,7 @@
 		"name": "Symphony of the Elysian Heart",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"#### Symphony of the Elysian Heart (Keyboard, Wind)",
+			"## Symphony of the Elysian Heart (Keyboard, Wind)",
 			"",
 			"**Sources** [Blood of Angels](source/blood_of_angels)",
 			"",
@@ -910,7 +910,7 @@
 		"name": "Tales of Twisting Steel",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"#### Tales of Twisting Steel (Act, Oratory)",
+			"## Tales of Twisting Steel (Act, Oratory)",
 			"",
 			"**Sources** [The Harrow Handbook](source/the_harrow_handbook)",
 			"",
@@ -929,7 +929,7 @@
 		"name": "The Bear's Jig",
 		"sources": [ "People of the River" ],
 		"description": [
-			"#### The Bear's Jig (String, Wing)",
+			"## The Bear's Jig (String, Wing)",
 			"",
 			"**Sources** [People of the River](source/people_of_the_river)",
 			"",
@@ -948,7 +948,7 @@
 		"name": "The Canticle of Joy",
 		"sources": [ "Bastards of Golarion" ],
 		"description": [
-			"#### The Canticle of Joy (Sing)",
+			"## The Canticle of Joy (Sing)",
 			"",
 			"**Sources** [Bastards of Golarion](source/bastards_of_golarion)",
 			"",
@@ -967,7 +967,7 @@
 		"name": "The Cat-Step",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Cat-Step (Dance)",
+			"## The Cat-Step (Dance)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -986,7 +986,7 @@
 		"name": "The Dance of 23 Steps",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Dance of 23 Steps (Dance)",
+			"## The Dance of 23 Steps (Dance)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1005,7 +1005,7 @@
 		"name": "The Dance of Kindled Desires",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"#### The Dance of Kindled Desires (Dance)",
+			"## The Dance of Kindled Desires (Dance)",
 			"",
 			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
 			"",
@@ -1024,7 +1024,7 @@
 		"name": "The Depths of the Mountain",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Depths of the Mountain (Percussion, Wind)",
+			"## The Depths of the Mountain (Percussion, Wind)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1059,7 +1059,7 @@
 		"name": "The Dumbshow of Gorroc",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Dumbshow of Gorroc (Act, Comedy)",
+			"## The Dumbshow of Gorroc (Act, Comedy)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1078,7 +1078,7 @@
 		"name": "The House of Imaginary Walls",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The House of Imaginary Walls (Act)",
+			"## The House of Imaginary Walls (Act)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1099,7 +1099,7 @@
 		"name": "The Lullaby of Ember the Ancient",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Lullaby of Ember the Ancient (Sing)",
+			"## The Lullaby of Ember the Ancient (Sing)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1118,7 +1118,7 @@
 		"name": "The Quickening Pulse",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Quickening Pulse (Percussion, Wind)",
+			"## The Quickening Pulse (Percussion, Wind)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1139,7 +1139,7 @@
 		"name": "The Requiem of the Fallen Priest-King",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Requiem of the Fallen Priest-King (Oratory, Sing)",
+			"## The Requiem of the Fallen Priest-King (Oratory, Sing)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1162,7 +1162,7 @@
 		"name": "The Rheumy Refrain",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"#### The Rheumy Refrain (Sing)",
+			"## The Rheumy Refrain (Sing)",
 			"",
 			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
 			"",
@@ -1181,7 +1181,7 @@
 		"name": "The Sea Is Now My Sky",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
-			"#### The Sea Is Now My Sky (Sing, String)",
+			"## The Sea Is Now My Sky (Sing, String)",
 			"",
 			"**Sources** [Blood of the Sea](source/blood_of_the_sea)",
 			"",
@@ -1200,7 +1200,7 @@
 		"name": "The Tragedy of False Hope",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
-			"#### The Tragedy of False Hope (Oratory, Sing)",
+			"## The Tragedy of False Hope (Oratory, Sing)",
 			"",
 			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
 			"",
@@ -1219,7 +1219,7 @@
 		"name": "The Waning Bolero",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
-			"#### The Waning Bolero (Dance)",
+			"## The Waning Bolero (Dance)",
 			"",
 			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
@@ -1240,7 +1240,7 @@
 		"name": "The Winds of the Five Heavens",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### The Winds of the Five Heavens (Act, Oratory)",
+			"## The Winds of the Five Heavens (Act, Oratory)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1259,7 +1259,7 @@
 		"name": "Toccata and Fugue of the Danse Macabre",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### Toccata and Fugue of the Danse Macabre (Keyboard, Wind)",
+			"## Toccata and Fugue of the Danse Macabre (Keyboard, Wind)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1280,7 +1280,7 @@
 		"name": "Triple Time",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"#### Triple Time (Percussion, String, Wind)",
+			"## Triple Time (Percussion, String, Wind)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1299,7 +1299,7 @@
 		"name": "Vindictive Soliloquy",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
-			"#### Vindictive Soliloquy (Act, Oratory, Sing)",
+			"## Vindictive Soliloquy (Act, Oratory, Sing)",
 			"",
 			"**Sources** [Magical Marketplace](source/magical_marketplace)",
 			"",
@@ -1320,7 +1320,7 @@
 		"name": "Wildsoul Aria",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
-			"#### Wildsoul Aria (Sing, Wind)",
+			"## Wildsoul Aria (Sing, Wind)",
 			"",
 			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
 			"",
@@ -1339,7 +1339,7 @@
 		"name": "Wise King's Saga",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
-			"#### Wise King's Saga (Oratory, Sing)",
+			"## Wise King's Saga (Oratory, Sing)",
 			"",
 			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
 			"",

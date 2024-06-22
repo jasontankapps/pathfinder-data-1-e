@@ -21,7 +21,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -36,7 +36,7 @@
 		"grantor": "Brigh",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
-			"### Faith: [Brigh](faith/brigh)",
+			"## Faith: [Brigh](faith/brigh)",
 			"",
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
@@ -50,7 +50,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -65,7 +65,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -79,7 +79,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -93,7 +93,7 @@
 		"grantor": "Milani",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
-			"### Faith: [Milani](faith/milani)",
+			"## Faith: [Milani](faith/milani)",
 			"",
 			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
 			"",
@@ -107,7 +107,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_#44_trial_of_the_beast)",
 			"",
@@ -122,7 +122,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -140,7 +140,7 @@
 			"Pathfinder #47: Ashes at Dawn"
 		],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Pathfinder #47: Ashes at Dawn](source/pathfinder_#47_ashes_at_dawn), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -156,7 +156,7 @@
 		"grantor": "Zursvaater",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
-			"### Faith: [Zursvaater](faith/zursvaater)",
+			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
@@ -170,7 +170,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -185,7 +185,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -209,7 +209,7 @@
 		"grantor": "Skeleton Summoner",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Feat: [Skeleton Summoner](feat/skeleton_summoner)",
+			"## Feat: [Skeleton Summoner](feat/skeleton_summoner)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -223,7 +223,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -238,7 +238,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -257,7 +257,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -276,7 +276,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -290,7 +290,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Monster I",
+			"## Summon Monster I",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
@@ -312,7 +312,7 @@
 		"grantor": "Besmara",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
-			"### Faith: [Besmara](faith/besmara)",
+			"## Faith: [Besmara](faith/besmara)",
 			"",
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
@@ -329,7 +329,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_#17_a_memory_of_darkness)",
 			"",
@@ -345,7 +345,7 @@
 		"grantor": "Cayden Cailean",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -360,7 +360,7 @@
 		"grantor": "Desna",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -375,7 +375,7 @@
 		"grantor": "Erastil",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Erastil](faith/erastil)",
+			"## Faith: [Erastil](faith/erastil)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -393,7 +393,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
 			"",
@@ -409,7 +409,7 @@
 		"grantor": "Groetus",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
 		"description": [
-			"### Faith: [Groetus](faith/groetus)",
+			"## Faith: [Groetus](faith/groetus)",
 			"",
 			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_#64_beyond_the_doomsday_door)",
 			"",
@@ -423,7 +423,7 @@
 		"grantor": "Irori",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Irori](faith/irori)",
+			"## Faith: [Irori](faith/irori)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -438,7 +438,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -453,7 +453,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -468,7 +468,7 @@
 		"grantor": "Urgathoa",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -483,7 +483,7 @@
 		"grantor": "Ydersius",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
-			"### Faith: [Ydersius](faith/ydersius)",
+			"## Faith: [Ydersius](faith/ydersius)",
 			"",
 			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
 			"",
@@ -498,7 +498,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -513,7 +513,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -529,7 +529,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -553,7 +553,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -573,7 +573,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -591,7 +591,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -610,7 +610,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster II",
+			"## Summon Monster II",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Qadira, Gateway to the East](source/qadira,_gateway_to_the_east)",
 			"",
@@ -646,7 +646,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -661,7 +661,7 @@
 		"grantor": "Arazni",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
-			"### Faith: [Arazni](faith/arazni)",
+			"## Faith: [Arazni](faith/arazni)",
 			"",
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
@@ -675,7 +675,7 @@
 		"grantor": "Asmodeus",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Asmodeus](faith/asmodeus)",
+			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -690,7 +690,7 @@
 		"grantor": "Cayden Cailean",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -705,7 +705,7 @@
 		"grantor": "Desna",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -720,7 +720,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -735,7 +735,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -749,7 +749,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -763,7 +763,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Pathfinder #5: Sins of the Saviors" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_#5_sins_of_the_saviors)",
 			"",
@@ -777,7 +777,7 @@
 		"grantor": "Mahathallah",
 		"sources": [ "Pathfinder #99: Dance of the Damned" ],
 		"description": [
-			"### Faith: [Mahathallah](faith/mahathallah)",
+			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
@@ -791,7 +791,7 @@
 		"grantor": "Moloch",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
-			"### Faith: [Moloch](faith/moloch)",
+			"## Faith: [Moloch](faith/moloch)",
 			"",
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
@@ -808,7 +808,7 @@
 			"Pathfinder #41: The Thousand Fangs Below"
 		],
 		"description": [
-			"### Faith: [Nethys](faith/nethys)",
+			"## Faith: [Nethys](faith/nethys)",
 			"",
 			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_#41_the_thousand_fangs_below), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -827,7 +827,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_#59_the_price_of_infamy)",
 			"",
@@ -843,7 +843,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -861,7 +861,7 @@
 			"Pathfinder #23: The Impossible Eye"
 		],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -877,7 +877,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -892,7 +892,7 @@
 		"grantor": "Szuriel",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
-			"### Faith: [Szuriel](faith/szuriel)",
+			"## Faith: [Szuriel](faith/szuriel)",
 			"",
 			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
 			"",
@@ -906,7 +906,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -921,7 +921,7 @@
 		"grantor": "Zursvaater",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
-			"### Faith: [Zursvaater](faith/zursvaater)",
+			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
@@ -935,7 +935,7 @@
 		"grantor": "Zyphus",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
-			"### Faith: [Zyphus](faith/zyphus)",
+			"## Faith: [Zyphus](faith/zyphus)",
 			"",
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
@@ -949,7 +949,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -965,7 +965,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -998,7 +998,7 @@
 		"grantor": "Skeleton Summoner",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Feat: [Skeleton Summoner](feat/skeleton_summoner)",
+			"## Feat: [Skeleton Summoner](feat/skeleton_summoner)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -1012,7 +1012,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -1032,7 +1032,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -1051,7 +1051,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -1069,7 +1069,7 @@
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1083,7 +1083,7 @@
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1097,7 +1097,7 @@
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1111,7 +1111,7 @@
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1125,7 +1125,7 @@
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1139,7 +1139,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1153,7 +1153,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1167,7 +1167,7 @@
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1181,7 +1181,7 @@
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1195,7 +1195,7 @@
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1209,7 +1209,7 @@
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1223,7 +1223,7 @@
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1237,7 +1237,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
+			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
@@ -1250,7 +1250,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Monster III",
+			"## Summon Monster III",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
@@ -1279,7 +1279,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1295,7 +1295,7 @@
 		"grantor": "Ashava",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
-			"### Faith: [Ashava](faith/ashava)",
+			"## Faith: [Ashava](faith/ashava)",
 			"",
 			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
@@ -1309,7 +1309,7 @@
 		"grantor": "Brigh",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
-			"### Faith: [Brigh](faith/brigh)",
+			"## Faith: [Brigh](faith/brigh)",
 			"",
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
@@ -1323,7 +1323,7 @@
 		"grantor": "Deskari",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
-			"### Faith: [Deskari](faith/deskari)",
+			"## Faith: [Deskari](faith/deskari)",
 			"",
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
@@ -1337,7 +1337,7 @@
 		"grantor": "Erastil",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Erastil](faith/erastil)",
+			"## Faith: [Erastil](faith/erastil)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1352,7 +1352,7 @@
 		"grantor": "Geryon",
 		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
-			"### Faith: [Geryon](faith/geryon)",
+			"## Faith: [Geryon](faith/geryon)",
 			"",
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
@@ -1366,7 +1366,7 @@
 		"grantor": "Hastur",
 		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
 		"description": [
-			"### Faith: [Hastur](faith/hastur)",
+			"## Faith: [Hastur](faith/hastur)",
 			"",
 			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
 			"",
@@ -1380,7 +1380,7 @@
 		"grantor": "Iomedae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Iomedae](faith/iomedae)",
+			"## Faith: [Iomedae](faith/iomedae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1395,7 +1395,7 @@
 		"grantor": "Irori",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
 		"description": [
-			"### Faith: [Irori](faith/irori)",
+			"## Faith: [Irori](faith/irori)",
 			"",
 			"**Sources** [Pathfinder #53: Tide of Honor](source/pathfinder_#53_tide_of_honor)",
 			"",
@@ -1410,7 +1410,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -1424,7 +1424,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -1438,7 +1438,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1453,7 +1453,7 @@
 		"grantor": "Mephistopheles",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
-			"### Faith: [Mephistopheles](faith/mephistopheles)",
+			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
@@ -1467,7 +1467,7 @@
 		"grantor": "Milani",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
-			"### Faith: [Milani](faith/milani)",
+			"## Faith: [Milani](faith/milani)",
 			"",
 			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
 			"",
@@ -1481,7 +1481,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1496,7 +1496,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1511,7 +1511,7 @@
 		"grantor": "Szuriel",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
-			"### Faith: [Szuriel](faith/szuriel)",
+			"## Faith: [Szuriel](faith/szuriel)",
 			"",
 			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
 			"",
@@ -1525,7 +1525,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1540,7 +1540,7 @@
 		"grantor": "Xhamen-Dor",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"### Faith: [Xhamen-Dor](faith/xhamen-dor)",
+			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
@@ -1554,7 +1554,7 @@
 		"grantor": "Ydersius",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
-			"### Faith: [Ydersius](faith/ydersius)",
+			"## Faith: [Ydersius](faith/ydersius)",
 			"",
 			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
 			"",
@@ -1568,7 +1568,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Pathfinder #11: Skeletons of Scarwall" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
 			"",
@@ -1582,7 +1582,7 @@
 		"grantor": "Zyphus",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
-			"### Faith: [Zyphus](faith/zyphus)",
+			"## Faith: [Zyphus](faith/zyphus)",
 			"",
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
@@ -1596,7 +1596,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -1613,7 +1613,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1643,7 +1643,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -1658,7 +1658,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -1678,7 +1678,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -1698,7 +1698,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -1717,7 +1717,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1731,7 +1731,7 @@
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1749,7 +1749,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster IV",
+			"## Summon Monster IV",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Seven Swords of Sin](source/seven_swords_of_sin)",
 			"",
@@ -1788,7 +1788,7 @@
 		"grantor": "Ashava",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
-			"### Faith: [Ashava](faith/ashava)",
+			"## Faith: [Ashava](faith/ashava)",
 			"",
 			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
@@ -1802,7 +1802,7 @@
 		"grantor": "Asmodeus",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Asmodeus](faith/asmodeus)",
+			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1818,7 +1818,7 @@
 		"grantor": "Baphomet",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
-			"### Faith: [Baphomet](faith/baphomet)",
+			"## Faith: [Baphomet](faith/baphomet)",
 			"",
 			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
@@ -1832,7 +1832,7 @@
 		"grantor": "Besmara",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
-			"### Faith: [Besmara](faith/besmara)",
+			"## Faith: [Besmara](faith/besmara)",
 			"",
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
@@ -1846,7 +1846,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1864,7 +1864,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #14: Children of the Void](source/pathfinder_#14_children_of_the_void)",
 			"",
@@ -1881,7 +1881,7 @@
 		"grantor": "Deskari",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
-			"### Faith: [Deskari](faith/deskari)",
+			"## Faith: [Deskari](faith/deskari)",
 			"",
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
@@ -1895,7 +1895,7 @@
 		"grantor": "Hastur",
 		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
 		"description": [
-			"### Faith: [Hastur](faith/hastur)",
+			"## Faith: [Hastur](faith/hastur)",
 			"",
 			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
 			"",
@@ -1909,7 +1909,7 @@
 		"grantor": "Iomedae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Iomedae](faith/iomedae)",
+			"## Faith: [Iomedae](faith/iomedae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1924,7 +1924,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -1938,7 +1938,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -1953,7 +1953,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -1968,7 +1968,7 @@
 		"grantor": "Mahathallah",
 		"sources": [ "Pathfinder #99: Dance of the Damned" ],
 		"description": [
-			"### Faith: [Mahathallah](faith/mahathallah)",
+			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
@@ -1982,7 +1982,7 @@
 		"grantor": "Nethys",
 		"sources": [ "Pathfinder #41: The Thousand Fangs Below" ],
 		"description": [
-			"### Faith: [Nethys](faith/nethys)",
+			"## Faith: [Nethys](faith/nethys)",
 			"",
 			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_#41_the_thousand_fangs_below)",
 			"",
@@ -2000,7 +2000,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_#59_the_price_of_infamy)",
 			"",
@@ -2019,7 +2019,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye)",
 			"",
@@ -2035,7 +2035,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2050,7 +2050,7 @@
 		"grantor": "Szuriel",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
-			"### Faith: [Szuriel](faith/szuriel)",
+			"## Faith: [Szuriel](faith/szuriel)",
 			"",
 			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
 			"",
@@ -2065,7 +2065,7 @@
 		"grantor": "Xhamen-Dor",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"### Faith: [Xhamen-Dor](faith/xhamen-dor)",
+			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
@@ -2079,7 +2079,7 @@
 		"grantor": "Ydersius",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
-			"### Faith: [Ydersius](faith/ydersius)",
+			"## Faith: [Ydersius](faith/ydersius)",
 			"",
 			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
 			"",
@@ -2094,7 +2094,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2109,7 +2109,7 @@
 		"grantor": "Zyphus",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
-			"### Faith: [Zyphus](faith/zyphus)",
+			"## Faith: [Zyphus](faith/zyphus)",
 			"",
 			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
 			"",
@@ -2123,7 +2123,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -2139,7 +2139,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2173,7 +2173,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -2188,7 +2188,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -2208,7 +2208,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -2226,7 +2226,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -2243,7 +2243,7 @@
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2257,7 +2257,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2271,7 +2271,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -2291,7 +2291,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster V",
+			"## Summon Monster V",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Planes of Power](source/planes_of_power), [Pathfinder #92: The Hill Giant's Pledge](source/pathfinder_#92_the_hill_giant's_pledge)",
 			"",
@@ -2328,7 +2328,7 @@
 		"grantor": "Arazni",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
-			"### Faith: [Arazni](faith/arazni)",
+			"## Faith: [Arazni](faith/arazni)",
 			"",
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
@@ -2342,7 +2342,7 @@
 		"grantor": "Baphomet",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
-			"### Faith: [Baphomet](faith/baphomet)",
+			"## Faith: [Baphomet](faith/baphomet)",
 			"",
 			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
@@ -2356,7 +2356,7 @@
 		"grantor": "Besmara",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
-			"### Faith: [Besmara](faith/besmara)",
+			"## Faith: [Besmara](faith/besmara)",
 			"",
 			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
 			"",
@@ -2370,7 +2370,7 @@
 		"grantor": "Brigh",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
-			"### Faith: [Brigh](faith/brigh)",
+			"## Faith: [Brigh](faith/brigh)",
 			"",
 			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
 			"",
@@ -2384,7 +2384,7 @@
 		"grantor": "Deskari",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
-			"### Faith: [Deskari](faith/deskari)",
+			"## Faith: [Deskari](faith/deskari)",
 			"",
 			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
 			"",
@@ -2398,7 +2398,7 @@
 		"grantor": "Geryon",
 		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
-			"### Faith: [Geryon](faith/geryon)",
+			"## Faith: [Geryon](faith/geryon)",
 			"",
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
@@ -2412,7 +2412,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2427,7 +2427,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2442,7 +2442,7 @@
 		"grantor": "Groetus",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
 		"description": [
-			"### Faith: [Groetus](faith/groetus)",
+			"## Faith: [Groetus](faith/groetus)",
 			"",
 			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_#64_beyond_the_doomsday_door)",
 			"",
@@ -2457,7 +2457,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -2472,7 +2472,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -2486,7 +2486,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2501,7 +2501,7 @@
 		"grantor": "Lissala",
 		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
 		"description": [
-			"### Faith: [Lissala](faith/lissala)",
+			"## Faith: [Lissala](faith/lissala)",
 			"",
 			"**Sources** [Pathfinder #65: Into the Nightmare Rift](source/pathfinder_#65_into_the_nightmare_rift)",
 			"",
@@ -2516,7 +2516,7 @@
 		"grantor": "Moloch",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
-			"### Faith: [Moloch](faith/moloch)",
+			"## Faith: [Moloch](faith/moloch)",
 			"",
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
@@ -2530,7 +2530,7 @@
 		"grantor": "Nethys",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Nethys](faith/nethys)",
+			"## Faith: [Nethys](faith/nethys)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2545,7 +2545,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2560,7 +2560,7 @@
 		"grantor": "Rovagug",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2575,7 +2575,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2590,7 +2590,7 @@
 		"grantor": "Xhamen-Dor",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"### Faith: [Xhamen-Dor](faith/xhamen-dor)",
+			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
 			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
 			"",
@@ -2604,7 +2604,7 @@
 		"grantor": "Zursvaater",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
-			"### Faith: [Zursvaater](faith/zursvaater)",
+			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
 			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
 			"",
@@ -2618,7 +2618,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -2634,7 +2634,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2665,7 +2665,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -2685,7 +2685,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -2703,7 +2703,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -2721,7 +2721,7 @@
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2735,7 +2735,7 @@
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2749,7 +2749,7 @@
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2763,7 +2763,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2777,7 +2777,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2791,7 +2791,7 @@
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2805,7 +2805,7 @@
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2819,7 +2819,7 @@
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2833,7 +2833,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
+			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
@@ -2847,7 +2847,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -2866,7 +2866,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster VI",
+			"## Summon Monster VI",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -2903,7 +2903,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #2: The Skinsaw Murders](source/pathfinder_#2_the_skinsaw_murders)",
 			"",
@@ -2922,7 +2922,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #35: War of the River Kings](source/pathfinder_#35_war_of_the_river_kings)",
 			"",
@@ -2941,7 +2941,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
 			"",
@@ -2957,7 +2957,7 @@
 		"grantor": "Irori",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Irori](faith/irori)",
+			"## Faith: [Irori](faith/irori)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -2972,7 +2972,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -2987,7 +2987,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -3001,7 +3001,7 @@
 		"grantor": "Minderhal",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
-			"### Faith: [Minderhal](faith/minderhal)",
+			"## Faith: [Minderhal](faith/minderhal)",
 			"",
 			"**Sources** [Pathfinder #93: Forge of the Giant God](source/pathfinder_#93_forge_of_the_giant_god)",
 			"",
@@ -3018,7 +3018,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye)",
 			"",
@@ -3037,7 +3037,7 @@
 			"Pathfinder #20: House of the Beast"
 		],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3053,7 +3053,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3068,7 +3068,7 @@
 		"grantor": "Urgathoa",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3083,7 +3083,7 @@
 		"grantor": "Ydersius",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
-			"### Faith: [Ydersius](faith/ydersius)",
+			"## Faith: [Ydersius](faith/ydersius)",
 			"",
 			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
 			"",
@@ -3098,7 +3098,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3113,7 +3113,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -3129,7 +3129,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3158,7 +3158,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -3173,7 +3173,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -3193,7 +3193,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -3213,7 +3213,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -3230,7 +3230,7 @@
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3244,7 +3244,7 @@
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3258,7 +3258,7 @@
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3272,7 +3272,7 @@
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3286,7 +3286,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3301,7 +3301,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3315,7 +3315,7 @@
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3329,7 +3329,7 @@
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3343,7 +3343,7 @@
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3357,7 +3357,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"### Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
 			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
 			"",
@@ -3375,7 +3375,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster VII",
+			"## Summon Monster VII",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -3408,7 +3408,7 @@
 		"grantor": "Arazni",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
-			"### Faith: [Arazni](faith/arazni)",
+			"## Faith: [Arazni](faith/arazni)",
 			"",
 			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
@@ -3425,7 +3425,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_#17_a_memory_of_darkness)",
 			"",
@@ -3441,7 +3441,7 @@
 		"grantor": "Geryon",
 		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
-			"### Faith: [Geryon](faith/geryon)",
+			"## Faith: [Geryon](faith/geryon)",
 			"",
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
@@ -3455,7 +3455,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Pathfinder #35: War of the River Kings" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Pathfinder #35: War of the River Kings](source/pathfinder_#35_war_of_the_river_kings)",
 			"",
@@ -3469,7 +3469,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Pathfinder #38: Racing to Ruin" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
 			"",
@@ -3485,7 +3485,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -3499,7 +3499,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -3513,7 +3513,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Pathfinder #5: Sins of the Saviors" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_#5_sins_of_the_saviors)",
 			"",
@@ -3528,7 +3528,7 @@
 		"grantor": "Mahathallah",
 		"sources": [ "Pathfinder #99: Dance of the Damned" ],
 		"description": [
-			"### Faith: [Mahathallah](faith/mahathallah)",
+			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
@@ -3542,7 +3542,7 @@
 		"grantor": "Mephistopheles",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
-			"### Faith: [Mephistopheles](faith/mephistopheles)",
+			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
@@ -3556,7 +3556,7 @@
 		"grantor": "Moloch",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
-			"### Faith: [Moloch](faith/moloch)",
+			"## Faith: [Moloch](faith/moloch)",
 			"",
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
@@ -3570,7 +3570,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3585,7 +3585,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Pathfinder #20: House of the Beast" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast)",
 			"",
@@ -3600,7 +3600,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Pathfinder #11: Skeletons of Scarwall" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
 			"",
@@ -3614,7 +3614,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -3630,7 +3630,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3658,7 +3658,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -3678,7 +3678,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -3696,7 +3696,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -3710,7 +3710,7 @@
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3724,7 +3724,7 @@
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3738,7 +3738,7 @@
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3752,7 +3752,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3767,7 +3767,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3781,7 +3781,7 @@
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3795,7 +3795,7 @@
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3812,7 +3812,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Monster VIII",
+			"## Summon Monster VIII",
 			"",
 			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -3839,7 +3839,7 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #8: Seven Days to the Grave](source/pathfinder_#8_seven_days_to_the_grave)",
 			"",
@@ -3858,7 +3858,7 @@
 			"Pathfinder #38: Racing to Ruin"
 		],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3875,7 +3875,7 @@
 		"grantor": "Kabriri",
 		"sources": [ "Mythic Realms" ],
 		"description": [
-			"### Faith: [Kabriri](faith/kabriri)",
+			"## Faith: [Kabriri](faith/kabriri)",
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
@@ -3889,7 +3889,7 @@
 		"grantor": "Kostchtchie",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
-			"### Faith: [Kostchtchie](faith/kostchtchie)",
+			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
 			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden,_mother,_crone)",
 			"",
@@ -3903,7 +3903,7 @@
 		"grantor": "Mephistopheles",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
-			"### Faith: [Mephistopheles](faith/mephistopheles)",
+			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
@@ -3917,7 +3917,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3932,7 +3932,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3947,7 +3947,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -3963,7 +3963,7 @@
 		"grantor": "Expanded Summon Monster",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
+			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -3984,7 +3984,7 @@
 		"grantor": "Summon Evil Monster",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
-			"### Feat: [Summon Evil Monster](feat/summon_evil_monster)",
+			"## Feat: [Summon Evil Monster](feat/summon_evil_monster)",
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
@@ -4004,7 +4004,7 @@
 		"grantor": "Summon Good Monster",
 		"sources": [ "Champions of Purity" ],
 		"description": [
-			"### Feat: [Summon Good Monster](feat/summon_good_monster)",
+			"## Feat: [Summon Good Monster](feat/summon_good_monster)",
 			"",
 			"**Sources** [Champions of Purity](source/champions_of_purity)",
 			"",
@@ -4023,7 +4023,7 @@
 		"grantor": "Summon Neutral Monster",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"### Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
+			"## Feat: [Summon Neutral Monster](feat/summon_neutral_monster)",
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
@@ -4039,7 +4039,7 @@
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4053,7 +4053,7 @@
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4067,7 +4067,7 @@
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4081,7 +4081,7 @@
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4095,7 +4095,7 @@
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4109,7 +4109,7 @@
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4123,7 +4123,7 @@
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4137,7 +4137,7 @@
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4151,7 +4151,7 @@
 		"grantor": "Cyphermage",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"### Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
+			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
 			"",
 			"**Sources** [Inner Sea Magic](source/inner_sea_magic)",
 			"",
@@ -4164,7 +4164,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Monster IX",
+			"## Summon Monster IX",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
@@ -4183,7 +4183,7 @@
 		"grantor": "Druid Shark Shaman",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Archetype: [Druid Shark Shaman](class/druid)",
+			"## Archetype: [Druid Shark Shaman](class/druid)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -4197,7 +4197,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4212,7 +4212,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4227,7 +4227,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_#44_trial_of_the_beast)",
 			"",
@@ -4242,7 +4242,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4257,7 +4257,7 @@
 		"grantor": "Urgathoa",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4272,7 +4272,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -4287,7 +4287,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -4301,7 +4301,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -4316,7 +4316,7 @@
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4329,7 +4329,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally I",
+			"## Summon Nature's Ally I",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
@@ -4353,7 +4353,7 @@
 		"grantor": "Druid Shark Shaman",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"### Archetype: [Druid Shark Shaman](class/druid)",
+			"## Archetype: [Druid Shark Shaman](class/druid)",
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
@@ -4367,7 +4367,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4382,7 +4382,7 @@
 		"grantor": "Cayden Cailean",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4397,7 +4397,7 @@
 		"grantor": "Desna",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4412,7 +4412,7 @@
 		"grantor": "Erastil",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Erastil](faith/erastil)",
+			"## Faith: [Erastil](faith/erastil)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4427,7 +4427,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4442,7 +4442,7 @@
 		"grantor": "Green Faith",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
-			"### Faith: [Green Faith](faith/green_faith)",
+			"## Faith: [Green Faith](faith/green_faith)",
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
 			"",
@@ -4460,7 +4460,7 @@
 		"grantor": "Irori",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Irori](faith/irori)",
+			"## Faith: [Irori](faith/irori)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4475,7 +4475,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4490,7 +4490,7 @@
 		"grantor": "Urgathoa",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4505,7 +4505,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4520,7 +4520,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -4536,7 +4536,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -4552,7 +4552,7 @@
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4568,7 +4568,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally II",
+			"## Summon Nature's Ally II",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -4598,7 +4598,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4613,7 +4613,7 @@
 		"grantor": "Asmodeus",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Asmodeus](faith/asmodeus)",
+			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4628,7 +4628,7 @@
 		"grantor": "Cayden Cailean",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4643,7 +4643,7 @@
 		"grantor": "Desna",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4658,7 +4658,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4673,7 +4673,7 @@
 		"grantor": "Nethys",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Nethys](faith/nethys)",
+			"## Faith: [Nethys](faith/nethys)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4688,7 +4688,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4703,7 +4703,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4718,7 +4718,7 @@
 		"grantor": "Rovagug",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4733,7 +4733,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4748,7 +4748,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4763,7 +4763,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -4779,7 +4779,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -4794,7 +4794,7 @@
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4808,7 +4808,7 @@
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4821,7 +4821,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally III",
+			"## Summon Nature's Ally III",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
@@ -4848,7 +4848,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4864,7 +4864,7 @@
 		"grantor": "Erastil",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Erastil](faith/erastil)",
+			"## Faith: [Erastil](faith/erastil)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4879,7 +4879,7 @@
 		"grantor": "Green Faith",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
-			"### Faith: [Green Faith](faith/green_faith)",
+			"## Faith: [Green Faith](faith/green_faith)",
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
 			"",
@@ -4900,7 +4900,7 @@
 		"grantor": "Iomedae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Iomedae](faith/iomedae)",
+			"## Faith: [Iomedae](faith/iomedae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4915,7 +4915,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4930,7 +4930,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4945,7 +4945,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4960,7 +4960,7 @@
 		"grantor": "Torag",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Torag](faith/torag)",
+			"## Faith: [Torag](faith/torag)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -4975,7 +4975,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -4992,7 +4992,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -5006,7 +5006,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5022,7 +5022,7 @@
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5037,7 +5037,7 @@
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5054,7 +5054,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally IV",
+			"## Summon Nature's Ally IV",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Pathfinder #116: Fangs of War](source/pathfinder_#116_fangs_of_war)",
 			"",
@@ -5094,7 +5094,7 @@
 		"grantor": "Asmodeus",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Asmodeus](faith/asmodeus)",
+			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5110,7 +5110,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5125,7 +5125,7 @@
 		"grantor": "Cayden Cailean",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Cayden Cailean](faith/cayden_cailean)",
+			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5140,7 +5140,7 @@
 		"grantor": "Green Faith",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
-			"### Faith: [Green Faith](faith/green_faith)",
+			"## Faith: [Green Faith](faith/green_faith)",
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
 			"",
@@ -5159,7 +5159,7 @@
 		"grantor": "Iomedae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Iomedae](faith/iomedae)",
+			"## Faith: [Iomedae](faith/iomedae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5174,7 +5174,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5189,7 +5189,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5204,7 +5204,7 @@
 		"grantor": "Rovagug",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5219,7 +5219,7 @@
 		"grantor": "Sheyln",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Sheyln](faith/sheyln)",
+			"## Faith: [Sheyln](faith/sheyln)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5234,7 +5234,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5249,7 +5249,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -5265,7 +5265,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -5279,7 +5279,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5294,7 +5294,7 @@
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5308,7 +5308,7 @@
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5324,7 +5324,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally V",
+			"## Summon Nature's Ally V",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -5354,7 +5354,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5369,7 +5369,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5384,7 +5384,7 @@
 		"grantor": "Green Faith",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
-			"### Faith: [Green Faith](faith/green_faith)",
+			"## Faith: [Green Faith](faith/green_faith)",
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
 			"",
@@ -5399,7 +5399,7 @@
 		"grantor": "Lamashtu",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Lamashtu](faith/lamashtu)",
+			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5414,7 +5414,7 @@
 		"grantor": "Nethys",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Nethys](faith/nethys)",
+			"## Faith: [Nethys](faith/nethys)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5429,7 +5429,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5444,7 +5444,7 @@
 		"grantor": "Rovagug",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5459,7 +5459,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5474,7 +5474,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -5490,7 +5490,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5505,7 +5505,7 @@
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5521,7 +5521,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally VI",
+			"## Summon Nature's Ally VI",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -5552,7 +5552,7 @@
 		"grantor": "Desna",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Desna](faith/desna)",
+			"## Faith: [Desna](faith/desna)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5567,7 +5567,7 @@
 		"grantor": "Gorum",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gorum](faith/gorum)",
+			"## Faith: [Gorum](faith/gorum)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5582,7 +5582,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5597,7 +5597,7 @@
 		"grantor": "Green Faith",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
-			"### Faith: [Green Faith](faith/green_faith)",
+			"## Faith: [Green Faith](faith/green_faith)",
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
 			"",
@@ -5616,7 +5616,7 @@
 		"grantor": "Irori",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Irori](faith/irori)",
+			"## Faith: [Irori](faith/irori)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5631,7 +5631,7 @@
 		"grantor": "Rovagug",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Rovagug](faith/rovagug)",
+			"## Faith: [Rovagug](faith/rovagug)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5649,7 +5649,7 @@
 			"Pathfinder #20: House of the Beast"
 		],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5665,7 +5665,7 @@
 		"grantor": "Shelyn",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Shelyn](faith/shelyn)",
+			"## Faith: [Shelyn](faith/shelyn)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5680,7 +5680,7 @@
 		"grantor": "Urgathoa",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Urgathoa](faith/urgathoa)",
+			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5695,7 +5695,7 @@
 		"grantor": "Zon-Kuthon",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Zon-Kuthon](faith/zon-kuthon)",
+			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5710,7 +5710,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -5726,7 +5726,7 @@
 		"grantor": "Spider Summoner",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"### Feat: [Spider Summoner](feat/spider_summoner)",
+			"## Feat: [Spider Summoner](feat/spider_summoner)",
 			"",
 			"**Sources** [Advanced Race Guide](source/advanced_race_guide)",
 			"",
@@ -5740,7 +5740,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5754,7 +5754,7 @@
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5770,7 +5770,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally VII",
+			"## Summon Nature's Ally VII",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -5800,7 +5800,7 @@
 		"grantor": "Calistria",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Calistria](faith/calistria)",
+			"## Faith: [Calistria](faith/calistria)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5815,7 +5815,7 @@
 		"grantor": "Norgorber",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Norgorber](faith/norgorber)",
+			"## Faith: [Norgorber](faith/norgorber)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5830,7 +5830,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Pathfinder #20: House of the Beast" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast)",
 			"",
@@ -5845,7 +5845,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -5861,7 +5861,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5877,7 +5877,7 @@
 		],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally VIII",
+			"## Summon Nature's Ally VIII",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2)",
 			"",
@@ -5900,7 +5900,7 @@
 		"grantor": "Abadar",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Abadar](faith/abadar)",
+			"## Faith: [Abadar](faith/abadar)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5915,7 +5915,7 @@
 		"grantor": "Gozreh",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Gozreh](faith/gozreh)",
+			"## Faith: [Gozreh](faith/gozreh)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5930,7 +5930,7 @@
 		"grantor": "Pharasma",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Pharasma](faith/pharasma)",
+			"## Faith: [Pharasma](faith/pharasma)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5945,7 +5945,7 @@
 		"grantor": "Sarenrae",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"### Faith: [Sarenrae](faith/sarenrae)",
+			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
@@ -5960,7 +5960,7 @@
 		"grantor": "The Eldest (Pantheon)",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"### Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
+			"## Faith: [The Eldest (Pantheon)](pantheon/the_eldest_pantheon)",
 			"",
 			"**Sources** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)",
 			"",
@@ -5976,7 +5976,7 @@
 		"grantor": "Summon Plant Ally",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"### Feat: [Summon Plant Ally](feat/summon_plant_ally)",
+			"## Feat: [Summon Plant Ally](feat/summon_plant_ally)",
 			"",
 			"**Sources** [Heroes of the Wild](source/heroes_of_the_wild)",
 			"",
@@ -5990,7 +5990,7 @@
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -6004,7 +6004,7 @@
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"### Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -6017,7 +6017,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "basic",
 		"description": [
-			"### Summon Nature's Ally IX",
+			"## Summon Nature's Ally IX",
 			"",
 			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 			"",
