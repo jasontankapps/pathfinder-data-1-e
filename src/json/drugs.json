@@ -1,13 +1,16 @@
 {
-	"_prefix": "drug",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested drug."
+		]
+	},
 	"keleshite_coffee": {
 		"name": "Keleshite Coffee",
-		"file": "drugs148e.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 12",
-		"price": 5,
 		"description": [
 			"## Keleshite Coffee",
 			"",
@@ -23,12 +26,7 @@
 	},
 	"flayleaf": {
 		"name": "Flayleaf",
-		"file": "drugs4781.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "inhaled or ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 12",
-		"price": 10,
 		"description": [
 			"## Flayleaf",
 			"",
@@ -41,12 +39,7 @@
 	},
 	"magesight": {
 		"name": "Magesight",
-		"file": "drugs4f44.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "inhaled",
-		"addiction": "minor",
-		"fortitude_save": "DC 15",
-		"price": 15,
 		"description": [
 			"## Magesight",
 			"",
@@ -62,12 +55,7 @@
 	},
 	"muscaria": {
 		"name": "Muscaria",
-		"file": "drugs9c56.html",
 		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 14",
-		"price": 15,
 		"description": [
 			"## Muscaria",
 			"",
@@ -82,12 +70,7 @@
 	},
 	"pesh": {
 		"name": "Pesh",
-		"file": "drugs8334.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "ingested or inhaled",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 15,
 		"description": [
 			"## Pesh",
 			"",
@@ -101,12 +84,7 @@
 	},
 	"vigilance": {
 		"name": "Vigilance",
-		"file": "drugs3966.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 15,
 		"description": [
 			"## Vigilance",
 			"",
@@ -122,12 +100,7 @@
 	},
 	"aether": {
 		"name": "Aether",
-		"file": "drugsd3d1.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "inhaled",
-		"addiction": "moderate",
-		"fortitude_save": "DC 16",
-		"price": 20,
 		"description": [
 			"## Aether",
 			"",
@@ -141,12 +114,7 @@
 	},
 	"gossamer_veil": {
 		"name": "Gossamer Veil",
-		"file": "drugs6456.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 18",
-		"price": 20,
 		"description": [
 			"## Gossamer Veil",
 			"",
@@ -162,12 +130,7 @@
 	},
 	"slaver's_drops": {
 		"name": "Slaver's Drops",
-		"file": "drugs701e.html",
 		"sources": [ "Rival Guide" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 13",
-		"price": 20,
 		"description": [
 			"## Slaver's Drops",
 			"",
@@ -182,12 +145,7 @@
 	},
 	"bloodbrush_extract": {
 		"name": "Bloodbrush Extract",
-		"file": "none",
 		"sources": [ "Numeria, Land of Fallen Stars" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 14",
-		"price": 25,
 		"description": [
 			"## Bloodbrush extract",
 			"",
@@ -202,12 +160,7 @@
 	},
 	"opium": {
 		"name": "Opium",
-		"file": "drugsf844.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "inhaled, ingested, or injury",
-		"addiction": "major",
-		"fortitude_save": "DC 20",
-		"price": 25,
 		"description": [
 			"## Opium",
 			"",
@@ -220,12 +173,7 @@
 	},
 	"scour": {
 		"name": "Scour",
-		"file": "drugs2d48.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "ingested or inhaled",
-		"addiction": "major",
-		"fortitude_save": "DC 24",
-		"price": 45,
 		"description": [
 			"## Scour",
 			"",
@@ -238,12 +186,7 @@
 	},
 	"sting's_savor": {
 		"name": "Sting's Savor",
-		"file": "drugs48a9.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "injury",
-		"addiction": "minor",
-		"fortitude_save": "DC 15",
-		"price": 45,
 		"description": [
 			"## Sting's Savor",
 			"",
@@ -259,12 +202,7 @@
 	},
 	"dwarven_fire_ale": {
 		"name": "Dwarven Fire Ale",
-		"file": "drugsb9e3.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 50,
 		"description": [
 			"## Dwarven Fire Ale",
 			"",
@@ -278,12 +216,7 @@
 	},
 	"serpent's_kiss": {
 		"name": "Serpent's Kiss",
-		"file": "drugs8b1e.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 18",
-		"price": 50,
 		"description": [
 			"## Serpent's Kiss",
 			"",
@@ -299,12 +232,7 @@
 	},
 	"zerk": {
 		"name": "Zerk",
-		"file": "drugsbdb4.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "injury",
-		"addiction": "minor",
-		"fortitude_save": "DC 18",
-		"price": 50,
 		"description": [
 			"## Zerk",
 			"",
@@ -317,12 +245,7 @@
 	},
 	"ruk_tar": {
 		"name": "Ruk Tar",
-		"file": "drugs56f7.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "injury",
-		"addiction": "moderate",
-		"fortitude_save": "DC 25",
-		"price": 55,
 		"description": [
 			"## Ruk Tar",
 			"",
@@ -338,12 +261,7 @@
 	},
 	"harlot_sweets": {
 		"name": "Harlot Sweets",
-		"file": "drugs6146.html",
 		"sources": [ "Rival Guide" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 18",
-		"price": 60,
 		"description": [
 			"## Harlot Sweets",
 			"",
@@ -358,12 +276,7 @@
 	},
 	"inspiration_dust": {
 		"name": "Inspiration Dust",
-		"file": "drugs1f89.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "inhaled",
-		"addiction": "moderate",
-		"fortitude_save": "DC 22",
-		"price": 75,
 		"description": [
 			"## Inspiration Dust",
 			"",
@@ -379,12 +292,7 @@
 	},
 	"oblivion": {
 		"name": "Oblivion",
-		"file": "drugseab6.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "major",
-		"fortitude_save": "DC 26",
-		"price": 100,
 		"description": [
 			"## Oblivion",
 			"",
@@ -399,12 +307,7 @@
 	},
 	"dreamtime_tea": {
 		"name": "Dreamtime Tea",
-		"file": "drugs061e.html",
 		"sources": [ "Rival Guide" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 120,
 		"description": [
 			"## Dreamtime Tea",
 			"",
@@ -419,12 +322,7 @@
 	},
 	"blood_sap": {
 		"name": "Blood Sap",
-		"file": "drugsb3cb.html",
 		"sources": [ "Rival Guide" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 150,
 		"description": [
 			"## Blood Sap",
 			"",
@@ -439,12 +337,7 @@
 	},
 	"hush": {
 		"name": "Hush",
-		"file": "drugs8b14.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 20",
-		"price": 200,
 		"description": [
 			"## Hush",
 			"",
@@ -459,12 +352,7 @@
 	},
 	"starspore": {
 		"name": "Starspore",
-		"file": "none",
 		"sources": [ "Numeria, Land of Fallen Stars" ],
-		"type": "ingested or inhaled",
-		"addiction": "severe",
-		"fortitude_save": "DC 15",
-		"price": 300,
 		"description": [
 			"## Starspore",
 			"",
@@ -479,12 +367,7 @@
 	},
 	"elven_absinthe": {
 		"name": "Elven Absinthe",
-		"file": "drugsd599.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "ingested",
-		"addiction": "moderate",
-		"fortitude_save": "DC 16",
-		"price": 500,
 		"description": [
 			"## Elven Absinthe",
 			"",
@@ -497,12 +380,7 @@
 	},
 	"mumia": {
 		"name": "Mumia",
-		"file": "drugsc27f.html",
 		"sources": [ "Lost Kingdoms" ],
-		"type": "inhaled, ingested, or injury",
-		"addiction": "major",
-		"fortitude_save": "DC 18",
-		"price": 500,
 		"description": [
 			"## Mumia",
 			"",
@@ -523,12 +401,7 @@
 	},
 	"numerian_fluids": {
 		"name": "Numerian Fluids",
-		"file": "drugs09c5.html",
 		"sources": [ "Numeria, Land of Fallen Stars" ],
-		"type": "ingested",
-		"addiction": "minor",
-		"fortitude_save": "DC 20",
-		"price": 500,
 		"description": [
 			"## Numerian Fluids",
 			"",
@@ -598,12 +471,7 @@
 	},
 	"shiver": {
 		"name": "Shiver",
-		"file": "drugs9527.html",
 		"sources": [ "GameMastery Guide" ],
-		"type": "injury or ingested",
-		"addiction": "major",
-		"fortitude_save": "DC 18",
-		"price": 500,
 		"description": [
 			"## Shiver",
 			"",
@@ -616,12 +484,7 @@
 	},
 	"esoterum": {
 		"name": "Esoterum",
-		"file": "drugs4857.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "inhaled",
-		"addiction": "major",
-		"fortitude_save": "DC 24",
-		"price": 600,
 		"description": [
 			"## Esoterum",
 			"",
@@ -636,12 +499,7 @@
 	},
 	"old-mage": {
 		"name": "Old-Mage",
-		"file": "drugs3f7c.html",
 		"sources": [ "Potions and Poisons" ],
-		"type": "injury",
-		"addiction": "major",
-		"fortitude_save": "DC 18",
-		"price": 1500,
 		"description": [
 			"## Old-Mage",
 			"",
@@ -656,12 +514,7 @@
 	},
 	"adyton": {
 		"name": "Adyton",
-		"file": "drugsb5fd.html",
 		"sources": [ "Book of the Damned" ],
-		"type": "contact",
-		"addiction": "major",
-		"fortitude_save": "DC 20",
-		"price": 2000,
 		"description": [
 			"## Adyton",
 			"",

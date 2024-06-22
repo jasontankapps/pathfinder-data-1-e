@@ -1,11 +1,16 @@
 {
-	"_prefix": "madness",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested madness."
+		]
+	},
 	"hallucination": {
 		"name": "Hallucination",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 14",
-		"onset": "2d6 days",
 		"description": [
 			"## Halucination",
 			"",
@@ -24,9 +29,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "lesser madness (compulsion)",
-		"will_save": "DC 14",
-		"onset": "1 day",
 		"description": [
 			"## Mania",
 			"",
@@ -42,9 +44,6 @@
 	"melancholia": {
 		"name": "Melancholia",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 14",
-		"onset": "1d4 days",
 		"description": [
 			"## Melancholia",
 			"",
@@ -63,9 +62,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "lesser madness (fear)",
-		"will_save": "DC 14",
-		"onset": "1 day",
 		"description": [
 			"## Phobia",
 			"",
@@ -81,9 +77,6 @@
 	"delirium": {
 		"name": "Delirium",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 16",
-		"onset": "1d4 days",
 		"description": [
 			"## Delirium",
 			"",
@@ -99,9 +92,6 @@
 	"delusion": {
 		"name": "Delusion",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 16",
-		"onset": "2d6 days",
 		"description": [
 			"## Delusion",
 			"",
@@ -119,9 +109,6 @@
 	"night_terrors": {
 		"name": "Night Terrors",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 16",
-		"onset": "1 day",
 		"description": [
 			"## Night Terrors",
 			"",
@@ -140,9 +127,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "lesser madness",
-		"will_save": "DC 17",
-		"onset": "2d6 days",
 		"description": [
 			"## Paranoid",
 			"",
@@ -158,9 +142,6 @@
 	"fugue": {
 		"name": "Fugue",
 		"sources": [ "Horror Adventures" ],
-		"type": "lesser madness",
-		"will_save": "DC 18",
-		"onset": "1d4 days",
 		"description": [
 			"## Fugue",
 			"",
@@ -176,9 +157,6 @@
 	"cognitive_block": {
 		"name": "Cognitive Block",
 		"sources": [ "Horror Adventures" ],
-		"type": "greater madness",
-		"will_save": "DC 20",
-		"onset": "immediate",
 		"description": [
 			"## Cognitive Block",
 			"",
@@ -197,9 +175,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "greater madness",
-		"will_save": "DC 20",
-		"onset": "2d6 days",
 		"description": [
 			"## Dissociated Identity",
 			"",
@@ -217,9 +192,6 @@
 	"psychosomatic_loss": {
 		"name": "Psychosomatic Loss",
 		"sources": [ "Horror Adventures" ],
-		"type": "greater madness",
-		"will_save": "DC 20",
-		"onset": "immediate",
 		"description": [
 			"## Psychosomatic Loss",
 			"",
@@ -238,9 +210,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "greater madness",
-		"will_save": "DC 22",
-		"onset": "immediate",
 		"description": [
 			"## Amnesia",
 			"",
@@ -261,9 +230,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "greater madness",
-		"will_save": "DC 22",
-		"onset": "3d6 days",
 		"description": [
 			"## Moral Insanity",
 			"",
@@ -282,9 +248,6 @@
 			"Horror Adventures",
 			"GameMastery Guide"
 		],
-		"type": "greater madness",
-		"will_save": "DC 22",
-		"onset": "1d6 days",
 		"description": [
 			"## Schizophrenia",
 			"",
@@ -300,9 +263,6 @@
 	"catatonia": {
 		"name": "Catatonia",
 		"sources": [ "Horror Adventures" ],
-		"type": "greater madness",
-		"will_save": "DC 24",
-		"onset": "immediate",
 		"description": [
 			"## Catatonia",
 			"",

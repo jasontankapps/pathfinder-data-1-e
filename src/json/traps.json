@@ -1,23 +1,19 @@
 {
-	"_prefix": "trap",
-	"_description": [
-		"## Traps",
-		"",
-		"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. [Click here for the full rules on Traps.](rule/traps)"
-	],
-	"_sources": [
-		"PRPG Core Rulebook",
-		"Ultimate Wilderness"
-	],
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested trap."
+		]
+	},
 	"arrow_trap": {
 		"name": "Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Arrow Trap",
+			"## Arrow Trap",
+			"### CR 1",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -31,12 +27,9 @@
 	"bear_trap": {
 		"name": "Bear Trap",
 		"sources": [ "Advanced Player's Guide" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 15,
-		"disable_DC": 20,
 		"description": [
-			"### Bear Trap",
+			"## Bear Trap",
+			"### CR 1",
 			"",
 			"**Source** [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
 			"**Type** mechanical; **Perception DC** 15; **Disable Device DC** 20",
@@ -50,12 +43,9 @@
 	"breakaway_vine": {
 		"name": "Breakaway Vine",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Breakaway Vine",
+			"## Breakaway Vine",
+			"### CR 1",
 			"",
 			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests, jungles, or swamps  ",
@@ -72,12 +62,9 @@
 	"musk_shower": {
 		"name": "Musk Shower",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Musk Shower",
+			"## Musk Shower",
+			"### CR 1",
 			"",
 			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any  ",
@@ -94,12 +81,9 @@
 	"pit_trap": {
 		"name": "Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Pit Trap",
+			"## Pit Trap",
+			"### CR 1",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -113,12 +97,9 @@
 	"poisoned_dart_trap": {
 		"name": "Poisoned Dart Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Poisoned Dart Trap",
+			"## Poisoned Dart Trap",
+			"### CR 1",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -132,12 +113,9 @@
 	"spring_snare": {
 		"name": "Spring Snare",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 15,
 		"description": [
-			"### Spring Snare",
+			"## Spring Snare",
+			"### CR 1",
 			"",
 			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests, jungles, or swamps  ",
@@ -154,12 +132,9 @@
 	"swinging_axe_trap": {
 		"name": "Swinging Axe Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Swinging Axe Trap",
+			"## Swinging Axe Trap",
+			"### CR 1",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -173,12 +148,9 @@
 	"swinging_log": {
 		"name": "Swinging Log",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 12,
-		"disable_DC": 12,
 		"description": [
-			"### Swinging Log",
+			"## Swinging Log",
+			"### CR 1",
 			"",
 			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests or jungles  ",
@@ -195,12 +167,9 @@
 	"tar_snare": {
 		"name": "Tar Snare",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 1,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Tar Snare",
+			"## Tar Snare",
+			"### CR 1",
 			"",
 			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any with tar pits or mud  ",
@@ -217,12 +186,9 @@
 	"burning_hands_trap": {
 		"name": "Burning Hands Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 2,
-		"type": "magic",
-		"perception_DC": 26,
-		"disable_DC": 26,
 		"description": [
-			"### Burning Hands Trap",
+			"## Burning Hands Trap",
+			"### CR 2",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
@@ -236,12 +202,9 @@
 	"clam_clamp": {
 		"name": "Clam Clamp",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 2,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 17,
 		"description": [
-			"### Clam Clamp",
+			"## Clam Clamp",
+			"### CR 2",
 			"",
 			"**Source** [Ultimate Wilderness pg. 173](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any oceans  ",
@@ -258,12 +221,9 @@
 	"javelin_trap": {
 		"name": "Javelin Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 2,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Javelin Trap",
+			"## Javelin Trap",
+			"### CR 2",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -277,12 +237,9 @@
 	"spiked_pit_trap": {
 		"name": "Spiked Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 2,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Spiked Pit Trap",
+			"## Spiked Pit Trap",
+			"### CR 2",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -296,12 +253,9 @@
 	"acid_arrow_trap": {
 		"name": "Acid Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 3,
-		"type": "magic",
-		"perception_DC": 27,
-		"disable_DC": 27,
 		"description": [
-			"### Acid Arrow Trap",
+			"## Acid Arrow Trap",
+			"### CR 3",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 27; **Disable Device DC** 27",
@@ -315,12 +269,9 @@
 	"camouflaged_pit_trap": {
 		"name": "Camouflaged Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 3,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Camouflaged Pit Trap",
+			"## Camouflaged Pit Trap",
+			"### CR 3",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -334,12 +285,9 @@
 	"razor_grass": {
 		"name": "Razor Grass",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 3,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Razor Grass",
+			"## Razor Grass",
+			"### CR 3",
 			"",
 			"**Source** [Ultimate Wilderness pg. 173](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any with undergrowth  ",
@@ -356,12 +304,9 @@
 	"breakaway_log": {
 		"name": "Breakaway Log",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 4,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 30,
 		"description": [
-			"### Breakaway Log",
+			"## Breakaway Log",
+			"### CR 4",
 			"",
 			"**Source** [Ultimate Wilderness pg. 173](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests, jungles, or swamps  ",
@@ -378,12 +323,9 @@
 	"electricity_arc_trap": {
 		"name": "Electricity Arc Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 4,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Electricity Arc Trap",
+			"## Electricity Arc Trap",
+			"### CR 4",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -397,12 +339,9 @@
 	"spring-arm_spike": {
 		"name": "Spring-arm Spike",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 4,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Spring-arm Spike",
+			"## Spring-arm Spike",
+			"### CR 4",
 			"",
 			"**Source** [Ultimate Wilderness pg. 173](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests, jungles, or swamps  ",
@@ -419,12 +358,9 @@
 	"wall_scythe_trap": {
 		"name": "Wall Scythe Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 4,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Wall Scythe Trap",
+			"## Wall Scythe Trap",
+			"### CR 4",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -438,12 +374,9 @@
 	"deadfall": {
 		"name": "Deadfall",
 		"sources": [ "Ultimate Wilderness" ],
-		"cr": 5,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Deadfall",
+			"## Deadfall",
+			"### CR 5",
 			"",
 			"**Source** [Ultimate Wilderness pg. 173](source/ultimate_wilderness)  ",
 			"**Associated Terrain** any forests, jungles, mountains, or swaps  ",
@@ -460,12 +393,9 @@
 	"falling_block_trap": {
 		"name": "Falling Block Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 5,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Falling Block Trap",
+			"## Falling Block Trap",
+			"### CR 5",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -479,12 +409,9 @@
 	"fireball_trap": {
 		"name": "Fireball Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 5,
-		"type": "magic",
-		"perception_DC": 28,
-		"disable_DC": 28,
 		"description": [
-			"### Fireball Trap",
+			"## Fireball Trap",
+			"### CR 5",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 28; **Disable Device DC** 28",
@@ -498,12 +425,9 @@
 	"flame_strike_trap": {
 		"name": "Flame Strike Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 6,
-		"type": "magic",
-		"perception_DC": 30,
-		"disable_DC": 30,
 		"description": [
-			"### Flame Strike Trap",
+			"## Flame Strike Trap",
+			"### CR 6",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
@@ -517,12 +441,9 @@
 	"wyvern_arrow_trap": {
 		"name": "Wyvern Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 6,
-		"type": "mechanical",
-		"perception_DC": 20,
-		"disable_DC": 20,
 		"description": [
-			"### Wyvern Arrow Trap",
+			"## Wyvern Arrow Trap",
+			"### CR 6",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
@@ -536,12 +457,9 @@
 	"faceless_statue_trap": {
 		"name": "Faceless Statue Trap",
 		"sources": [ "Horror Adventures" ],
-		"cr": 7,
-		"type": "magic",
-		"perception_DC": 31,
-		"disable_DC": 31,
 		"description": [
-			"### Faceless Statue Trap",
+			"## Faceless Statue Trap",
+			"### CR 7",
 			"",
 			"**Source** [Horror Adventures pg. 162](source/horror_adventures)  ",
 			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
@@ -555,12 +473,9 @@
 	"frost_fangs_trap": {
 		"name": "Frost Fangs Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 7,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Frost Fangs Trap",
+			"## Frost Fangs Trap",
+			"### CR 7",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -574,12 +489,9 @@
 	"sinking_coffin_trap": {
 		"name": "Sinking Coffin Trap",
 		"sources": [ "Horror Adventures" ],
-		"cr": 7,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 25,
 		"description": [
-			"### Sinking Coffin Trap",
+			"## Sinking Coffin Trap",
+			"### CR 7",
 			"",
 			"**Source** [Horror Adventures pg. 162](source/horror_adventures)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
@@ -593,12 +505,9 @@
 	"summon_monster_vi_trap": {
 		"name": "Summon Monster VI Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 7,
-		"type": "magic",
-		"perception_DC": 31,
-		"disable_DC": 31,
 		"description": [
-			"### Summon Monster VI Trap",
+			"## Summon Monster VI Trap",
+			"### CR 7",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
@@ -612,12 +521,9 @@
 	"camouflaged_spiked_pit_trap": {
 		"name": "Camouflaged Spiked Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 8,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Camouflaged Spiked Pit Trap",
+			"## Camouflaged Spiked Pit Trap",
+			"### CR 8",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -631,12 +537,9 @@
 	"insanity_mist_trap": {
 		"name": "Insanity Mist Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 8,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Insanity Mist Trap",
+			"## Insanity Mist Trap",
+			"### CR 8",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -650,12 +553,9 @@
 	"hail_of_arrows_trap": {
 		"name": "Hail of Arrows Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 9,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 25,
 		"description": [
-			"### Hail of Arrows Trap",
+			"## Hail of Arrows Trap",
+			"### CR 9",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
@@ -669,12 +569,9 @@
 	"shocking_floor_trap": {
 		"name": "Shocking Floor Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 9,
-		"type": "magic",
-		"perception_DC": 26,
-		"disable_DC": 26,
 		"description": [
-			"### Shocking Floor Trap",
+			"## Shocking Floor Trap",
+			"### CR 9",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
@@ -688,12 +585,9 @@
 	"chamber_of_blades_trap": {
 		"name": "Chamber of Blades Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 10,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Chamber of Blades Trap",
+			"## Chamber of Blades Trap",
+			"### CR 10",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -707,12 +601,9 @@
 	"energy_drain_trap": {
 		"name": "Energy Drain Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 10,
-		"type": "magic",
-		"perception_DC": 34,
-		"disable_DC": 34,
 		"description": [
-			"### Energy Drain Trap",
+			"## Energy Drain Trap",
+			"### CR 10",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
@@ -726,12 +617,9 @@
 	"cone_of_cold_trap": {
 		"name": "Cone of Cold Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 11,
-		"type": "magic",
-		"perception_DC": 30,
-		"disable_DC": 30,
 		"description": [
-			"### Cone of Cold Trap",
+			"## Cone of Cold Trap",
+			"### CR 11",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
@@ -745,12 +633,9 @@
 	"crushing_cage_tarp": {
 		"name": "Crushing Cage Tarp",
 		"sources": [ "Horror Adventures" ],
-		"cr": 11,
-		"type": "mechanical",
-		"perception_DC": 29,
-		"disable_DC": 30,
 		"description": [
-			"### Crushing Cage Tarp",
+			"## Crushing Cage Tarp",
+			"### CR 11",
 			"",
 			"**Source** [Horror Adventures pg. 161](source/horror_adventures)  ",
 			"**Type** mechanical; **Perception DC** 29; **Disable Device DC** 30",
@@ -764,12 +649,9 @@
 	"poisoned_pit_trap": {
 		"name": "Poisoned Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 12,
-		"type": "mechanical",
-		"perception_DC": 25,
-		"disable_DC": 20,
 		"description": [
-			"### Poisoned Pit Trap",
+			"## Poisoned Pit Trap",
+			"### CR 12",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
@@ -783,12 +665,9 @@
 	"maximized_fireball_trap": {
 		"name": "Maximized Fireball Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 13,
-		"type": "magic",
-		"perception_DC": 31,
-		"disable_DC": 31,
 		"description": [
-			"### Maximized Fireball Trap",
+			"## Maximized Fireball Trap",
+			"### CR 13",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 421](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
@@ -802,12 +681,9 @@
 	"harm_trap": {
 		"name": "Harm Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 14,
-		"type": "magic",
-		"perception_DC": 31,
-		"disable_DC": 31,
 		"description": [
-			"### Harm Trap",
+			"## Harm Trap",
+			"### CR 14",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
@@ -821,12 +697,9 @@
 	"crushing_stone_trap": {
 		"name": "Crushing Stone Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 15,
-		"type": "mechanical",
-		"perception_DC": 30,
-		"disable_DC": 20,
 		"description": [
-			"### Crushing Stone Trap",
+			"## Crushing Stone Trap",
+			"### CR 15",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 20",
@@ -840,12 +713,9 @@
 	"empowered_disintegrate_trap": {
 		"name": "Empowered Disintegrate Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 16,
-		"type": "magic",
-		"perception_DC": 33,
-		"disable_DC": 33,
 		"description": [
-			"### Empowered Disintegrate Trap",
+			"## Empowered Disintegrate Trap",
+			"### CR 16",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 33; **Disable Device DC** 33",
@@ -859,12 +729,9 @@
 	"lightning_bolt_gallery_trap": {
 		"name": "Lightning Bolt Gallery Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 17,
-		"type": "magic",
-		"perception_DC": 29,
-		"disable_DC": 29,
 		"description": [
-			"### Lightning Bolt Gallery Trap",
+			"## Lightning Bolt Gallery Trap",
+			"### CR 17",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 29; **Disable Device DC** 29",
@@ -878,12 +745,9 @@
 	"deadly_spear_trap": {
 		"name": "Deadly Spear Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 18,
-		"type": "mechanical",
-		"perception_DC": 30,
-		"disable_DC": 30,
 		"description": [
-			"### Deadly Spear Trap",
+			"## Deadly Spear Trap",
+			"### CR 18",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 30",
@@ -897,12 +761,9 @@
 	"meteor_swarm_trap": {
 		"name": "Meteor Swarm Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 19,
-		"type": "magic",
-		"perception_DC": 34,
-		"disable_DC": 34,
 		"description": [
-			"### Meteor Swarm Trap",
+			"## Meteor Swarm Trap",
+			"### CR 19",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
@@ -916,12 +777,9 @@
 	"destruction_trap": {
 		"name": "Destruction Trap",
 		"sources": [ "PRPG Core Rulebook" ],
-		"cr": 20,
-		"type": "magic",
-		"perception_DC": 34,
-		"disable_DC": 34,
 		"description": [
-			"### Destruction Trap",
+			"## Destruction Trap",
+			"### CR 20",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 422](source/prpg_core_rulebook)  ",
 			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
