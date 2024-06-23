@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-implement",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested implement."
+		]
+	},
 	"abjuration": {
 		"name": "Abjuration",
 		"description": [

@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-discipline",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested discipline."
+		]
+	},
 	"abomination": {
 		"name": "Abomination",
 		"sources": [ "Occult Adventures" ],

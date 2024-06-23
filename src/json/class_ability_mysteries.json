@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-mystery",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested mystery."
+		]
+	},
 	"ancestor": {
 		"name": "Ancestor",
 		"sources": [ "Ultimate Magic" ],

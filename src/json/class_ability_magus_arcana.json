@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-magus_arcana",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested arcanum."
+		]
+	},
 	"accurate_strike": {
 		"name": "Accurate Strike",
 		"sources": [ "Ultimate Combat" ],

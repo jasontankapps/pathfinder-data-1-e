@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-shaman_spirit",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested shaman spirit."
+		]
+	},
 	"ancestors": {
 		"name": "Ancestors",
 		"sources": [ "Cohorts and Companions" ],

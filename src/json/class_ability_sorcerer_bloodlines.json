@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-sorcerer_bloodline",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested sorcerer bloodline."
+		]
+	},
 	"aberrant": {
 		"name": "Aberrant",
 		"sources": [ "PRPG Core Rulebook" ],

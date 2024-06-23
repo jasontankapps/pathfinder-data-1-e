@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-order",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested order."
+		]
+	},
 	"order_of_the_asp": {
 		"name": "Order of the Asp",
 		"sources": [ "Adventurer's Guide" ],

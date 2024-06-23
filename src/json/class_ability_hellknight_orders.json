@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-hellknight_order",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested order."
+		]
+	},
 	"order_of_the_chain": {
 		"name": "Order of the Chain",
 		"sources": [ "Path of the Hellknight" ],

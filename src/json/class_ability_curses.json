@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-curse",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested oracle curse."
+		]
+	},
 	"aboleth": {
 		"name": "Aboleth",
 		"sources": [ "Horror Realms" ],

@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-masterpiece",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested bardic masterpiece."
+		]
+	},
 	"ancients'_flight": {
 		"name": "Ancients' Flight",
 		"sources": [ "Dragonslayer's Handbook" ],

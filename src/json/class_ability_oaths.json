@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-oath",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested oath."
+		]
+	},
 	"oath_against_chaos": {
 		"name": "Oath against Chaos",
 		"sources": [ "Inner Sea Combat" ],

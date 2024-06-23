@@ -1,5 +1,13 @@
 {
-	"_prefix": "class_abilities-bloodrager_bloodline",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested bloodrager bloodline."
+		]
+	},
 	"aberrant": {
 		"name": "Aberrant",
 		"sources": [ "Advanced Class Guide" ],
