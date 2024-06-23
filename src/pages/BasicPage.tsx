@@ -3,7 +3,7 @@ import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonMe
 import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
 import DisplayItem from '../components/DisplayItem';
 import HierarchyTab from '../components/HierarchyTab';
-import SourcesModal from '../components/SourcesModal';
+import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import { DisplayItemProps, HierarchyArray } from '../types';
 import './Page.css';
 
@@ -11,11 +11,12 @@ interface PageProps {
 	title: string
 	displayItem?: DisplayItemProps
 	hierarchy?: HierarchyArray
-	sources?: string[]
+	sources?: SourceProp[]
+	hideSources?: boolean
 }
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
-	const { title, displayItem, children, hierarchy = [], sources = [] } = props;
+	const { title, displayItem, children, hierarchy = [], sources = [], hideSources } = props;
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
@@ -29,7 +30,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				</IonToolbar>
 			</IonHeader>
 			<IonContent fullscreen>
-				<SourcesModal sources={sources} isOpen={isOpen} setIsOpen={setIsOpen} />
+				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isOpen} setIsOpen={setIsOpen} />}
 				<HierarchyTab hierarchy={hierarchy} />
 				{displayItem ? <DisplayItem {...displayItem} /> : children}
 			</IonContent>

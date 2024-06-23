@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { SourceProp } from "./components/SourcesModal";
 
 export type Datum = string | number | [ number, string ] | [ string, string ];
 
@@ -46,7 +47,7 @@ export interface JsonDataProps {
 	name: string,
 	description: string[],
 	tables?: Table[],
-	sources: string[],
+	sources: SourceProp[],
 	subhierarchy?: [string, string][]
 }
 
@@ -64,6 +65,7 @@ export interface DisplayItemProps {
 }
 
 export interface SourceProps {
-	title: string,
+	title: string
 	url: string
+	unknown?: boolean
 }

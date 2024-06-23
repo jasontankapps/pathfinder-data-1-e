@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import templates from '../json/monsters_templates.json';
+import { SourceProp } from '../components/SourcesModal';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -7,7 +8,7 @@ import './Page.css';
 interface TemplateProps {
 	name: string,
 	description: string[],
-	sources: string[],
+	sources: SourceProp[],
 	subhierarchy?: [string, string][]
 	members?: string[]
 }

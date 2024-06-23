@@ -13,17 +13,32 @@ import {
 	IonToolbar
 } from '@ionic/react';
 import { closeCircle } from 'ionicons/icons';
-import sourceJson from '../json/sources.json';
+import sourceInfo from '../json/sources.json';
 import './Page.css';
 import { SourceProps } from '../types';
 
+type Data = typeof sourceInfo;
+
+export type SourceProp = keyof Data;
+
 interface ModalProps {
-	sources: string[]
+	sources: SourceProp[]
 	isOpen: boolean
 	setIsOpen: (open: boolean) => void
 }
 
-const sourceInfo = {...sourceJson} as { [key: string]: SourceProps };
+export interface CopyOf<T> extends Partial<SourceProps> {
+	copyof: T
+}
+
+function getItem<T extends { unknown: SourceProps }> (id: keyof T | undefined, json: T): SourceProps {
+	let data = (json[id || "unknown"] || json.unknown) as CopyOf<keyof T>;
+	while(data.copyof) {
+		const { copyof, ...etc } = data;
+		data = {...((json[id || "unknown"] || json.unknown) as CopyOf<keyof T>), ...etc};
+	}
+	return data as SourceProps;
+};
 
 const SourcesModal: FC<ModalProps> = (props) => {
 
@@ -45,9 +60,10 @@ const SourcesModal: FC<ModalProps> = (props) => {
 						sources.length > 0 ? (
 							sources.map((source, i) => {
 								const key = `modal/source/${i}`;
+								const sourceObject = getItem<Data>(source, sourceInfo);
 								return (
 									sourceInfo[source]
-										? <IonItem key={key} href={sourceInfo[source].url}><IonLabel>{sourceInfo[source].title}</IonLabel></IonItem>
+										? <IonItem key={key} href={sourceObject.url}><IonLabel>{sourceObject.title}</IonLabel></IonItem>
 										: <IonItem key={key}><IonLabel>{source}</IonLabel></IonItem>
 										//: <IonItem key={key + "/empty"}><IonLabel>{source}</IonLabel></IonItem>
 								);

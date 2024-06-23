@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import DisplayItem from '../components/DisplayItem';
+import { SourceProp } from '../components/SourcesModal';
 import rules1 from '../json/rules.json';
 import rules2 from '../json/rules2.json';
 import rules3 from '../json/rules3.json';
@@ -22,7 +23,7 @@ interface JsonDataPropsRules {
 	parent_topics?: Prop[]
 	subtopics?: Prop[]
 	siblings?: Prop[]
-	sources: string[]
+	sources: SourceProp[]
 	tables?: Table[]
 }
 

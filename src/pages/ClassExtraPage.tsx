@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import DisplayItem from '../components/DisplayItem';
+import { SourceProp } from '../components/SourcesModal';
 import classy from '../json/classes.json';
 import npcclasses from '../json/npc_classes.json';
 import prestige from '../json/prestige_classes.json';
@@ -20,7 +21,7 @@ interface JsonDataPropsClass {
 	name: string,
 	description: string[],
 	tables?: Table[],
-	sources: string[]
+	sources: SourceProp[]
 	alternate_capstones?: string[]
 	favored_class_bonuses?: string[]
 	archetypes?: string[]

@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import talents from '../json/class_ability_kinetic_talents.json';
+import { SourceProp } from '../components/SourcesModal';
 import BasicPage from './BasicPage';
 import { Hierarchy, HierarchyArray } from '../types';
 import './Page.css';
@@ -9,7 +10,7 @@ type Types = "simple" | "composite" | "defense" | "infusion" | "utility";
 interface TalentProps {
 	name: string,
 	description: string[],
-	sources: string[],
+	sources: SourceProp[],
 	type?: Types
 }
 interface CopyOf<T> extends Partial<TalentProps> {

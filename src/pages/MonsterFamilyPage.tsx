@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import families from '../json/monsters_families.json';
+import { SourceProp } from '../components/SourcesModal';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -7,7 +8,7 @@ import './Page.css';
 interface FamilyProps {
 	name: string,
 	description: string[],
-	sources: string[],
+	sources: SourceProp[],
 	subhierarchy?: [string, string][]
 	members?: string[]
 }
