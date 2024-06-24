@@ -99,6 +99,7 @@ const RagePowerPage = lazy(() => import("./pages/RagePowerPage"));
 const SorcererBloodlinePage = lazy(() => import("./pages/SorcererBloodlinePage"));
 const BloodragerBloodlinePage = lazy(() => import("./pages/BloodragerBloodlinePage"));
 const ShamanSpiritPage = lazy(() => import("./pages/ShamanSpiritPage"));
+const SourcePage = lazy(() => import("./pages/SourcePage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
@@ -200,7 +201,7 @@ const App: React.FC = () => {
 						<Route path="/sidekick/:id" render={classPage} />
 						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
 						<Route path="/sorcererbloodline/:id" render={() => <Suspense fallback={<Loading />}><SorcererBloodlinePage /></Suspense>} />
-						<Route path="/source/:id" render={() => <></>} />
+						<Route path="/source/:id" render={() => <Suspense fallback={<Loading />}><SourcePage /></Suspense>} />
 						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />
 						<Route path="/spelldef/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
 						<Route path="/spirit/:id" render={mediumSpiritPage} />
