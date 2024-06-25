@@ -14,8 +14,8 @@ import {
 } from '@ionic/react';
 import { closeCircle } from 'ionicons/icons';
 import sourceInfo from '../json/sources.json';
-import './Page.css';
 import { SourceProps } from '../types';
+import '../pages/Page.css';
 
 type Data = typeof sourceInfo;
 

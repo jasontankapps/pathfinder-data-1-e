@@ -2,7 +2,7 @@ import { FC, useCallback, useMemo, useState } from 'react';
 import { IonButton, IonIcon, IonLabel } from '@ionic/react';
 import { Link } from 'react-router-dom';
 import { chevronDownCircle, chevronUpCircle } from 'ionicons/icons';
-import './Page.css';
+import '../pages/Page.css';
 
 type LinkPair = [ string, string ];
 

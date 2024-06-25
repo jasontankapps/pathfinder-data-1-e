@@ -39,7 +39,7 @@ export interface JsonDataPropsMain {
 	title: string,
 	description: string[],
 	tables?: Table[],
-	sources?: string[]
+	sources?: SourceProp[]
 	previous?: HierarchyArray
 }
 
