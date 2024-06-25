@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './pages/MainPage';
+import ArchetypePage from './pages/ArchetypePage';
 import Loading from './Loading';
 
 /* Core CSS required for Ionic components to work properly */
@@ -117,7 +118,7 @@ const App: React.FC = () => {
 						<Route path="/" exact={true} render={mainPage} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
-						<Route path="/archetype/:parent/:id" render={() => <></>} />
+						<Route path="/archetype/:parent/:id" render={() => <ArchetypePage />} />
 						<Route path="/aspect/:id" render={() => <Suspense fallback={<Loading />}><AspectPage /></Suspense>} />
 						<Route path="/bardicmasterpiece/:id" render={() => <Suspense fallback={<Loading />}><MasterpiecePage /></Suspense>} />
 						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
