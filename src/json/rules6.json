@@ -3559,7 +3559,7 @@
 		],
 		"subtopics": [
 			"climate_and_weather",
-			"environment",
+			"environment_gg",
 			"encounters_on_a_journey",
 			"wilderness_toolbox"
 		],
@@ -3591,7 +3591,7 @@
 		],
 		"siblings": [
 			"climate_and_weather",
-			"environment",
+			"environment_gg",
 			"encounters_on_a_journey",
 			"wilderness_toolbox"
 		],
@@ -3654,7 +3654,7 @@
 			"weather_gg"
 		]
 	},
-	"environment": {
+	"environment_gg": {
 		"name": "Environment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -3670,7 +3670,7 @@
 		],
 		"siblings": [
 			"climate_and_weather",
-			"environment",
+			"environment_gg",
 			"encounters_on_a_journey",
 			"wilderness_toolbox"
 		],
@@ -3699,7 +3699,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3726,7 +3726,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3753,7 +3753,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3780,7 +3780,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3807,7 +3807,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3834,7 +3834,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3861,7 +3861,7 @@
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
-			"environment"
+			"environment_gg"
 		],
 		"siblings": [
 			"deserts",
@@ -3895,7 +3895,7 @@
 		],
 		"siblings": [
 			"climate_and_weather",
-			"environment",
+			"environment_gg",
 			"encounters_on_a_journey",
 			"wilderness_toolbox"
 		]
@@ -4355,7 +4355,7 @@
 		],
 		"siblings": [
 			"climate_and_weather",
-			"environment",
+			"environment_gg",
 			"encounters_on_a_journey",
 			"wilderness_toolbox"
 		]
