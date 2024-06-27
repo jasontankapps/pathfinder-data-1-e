@@ -4,7 +4,6 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './pages/MainPage';
-import ArchetypePage from './pages/ArchetypePage';
 import Loading from './Loading';
 
 /* Core CSS required for Ionic components to work properly */
@@ -28,6 +27,7 @@ import './theme/variables.css';
 
 setupIonicReact();
 
+const ArchetypePage = lazy(() => import("./pages/ArchetypePage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ClassPage = lazy(() => import("./pages/ClassPage"));
 const ClassExtraPage = lazy(() => import("./pages/ClassExtraPage"));

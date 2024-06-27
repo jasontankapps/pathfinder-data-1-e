@@ -1,23 +1,29 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import classAbilities from '../json/class_abilities.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_ability.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof classAbilities;
+const ClassAbilityGroup1Page = lazy(() => import("./ClassAbilityGroup1Page"));
+const ClassAbilityGroup2Page = lazy(() => import("./ClassAbilityGroup2Page"));
+const ClassAbilityGroup3Page = lazy(() => import("./ClassAbilityGroup3Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup3Page id={id} /></Suspense>,
+]
 
-const FaithPage: React.FC = () => {
+const ClassAbilityPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, classAbilities);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
-export default FaithPage;
+export default ClassAbilityPage;
