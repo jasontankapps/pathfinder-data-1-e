@@ -643,7 +643,7 @@
 			"",
 			"**Str** -, **Dex** 23, **Con**: -, **Int** 19, **Wis** 18, **Cha**, 25  ",
 			"**Base Atk** +10; **CMB** +16; **CMD** 33 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lunge](feat/lunge), [Skill Focus (Perform [oratory])](feat/skill_focus), [Step Up](feat/step_up), [Toughness](feat/toughness)  ",
+			"**Feats** [Alertness](feat/alertness), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lunge](feat/lunge), [Skill Focus](feat/skill_focus) (Perform [oratory]), [Step Up](feat/step_up), [Toughness](feat/toughness)  ",
 			"**Skills** Appraise +21, Bluff +24, Craft (alchemy) +10, Diplomacy +15, Fly +18, Knowledge (dungeoneering) +10, Knowledge (geography) +15, Knowledge (history) +15, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (religion) +10, Perception +21, Perform (oratory) +30, Sense Motive +24  ",
 			"**Languages** Common, Polyglot, Sylvan; speak with animals, speak with vermin  ",
 			"**SQ** unnatural aura",
@@ -1983,7 +1983,7 @@
 			"",
 			"Atamahuta possess the ability to change shape just as other oni, but the visage of an uncontrollably violent ettin is often even more horrifying to civilized creatures than that of an oni, whom most regard as equally evil but at least somewhat reasonable. Thus, most atamahuta find it beneficial to procure a silver-tongued ally who can act as a gateway to the more powerful and wise oni itself. Once they have established control over a certain realm, atamahuta will usually either kill or enslave their allies, seeing the beguilers as potential threats to their rule. Atamahuta have little patience for any individual that wastes their time, and oversee their domain with an unforgiving and steadfast fist. Oni who inhabit the form of an ettin usually possess violent and unruly dispositions to begin with, but most know better than to act brashly when they first arrive in their physical forms and keep their rage at bay-at least until they establish their dominion over the lesser beings around them.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -2064,7 +2064,7 @@
 			"",
 			"Like their yai brethren, earth yai possess an unnerving third eye that serves as a portal through which destruction passes. Whenever one so chooses, it can cause a shard of stone to blast from its eye at the speed of a catapult shot. Those struck risk being crushed by the rock, but might also be thrown aside by the sizable projectile. Earth yai typically use this incredible ability not only to annihilate those who oppose them and intimidate witnesses, but also to tear down larger structures or sow greater devastations, like by using it to start landslides, break dams, or destroy bridge supports.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -2149,7 +2149,7 @@
 			"",
 			"A fire yai is 16 feet tall and weighs 7,000 pounds.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"fire_yai": { "copyof": "oni,_fire_yai" },
@@ -2216,7 +2216,7 @@
 			"",
 			"An ice yai is a natural leader among frost giants, tempering their savagery with its own wisdom. A tribe led by an ice yai may still raid settlements of neighboring humanoids, but the tribe soon learns the value of establishing regular tributes and willing sacrifices-the ice yai teach that methods that rely upon the threat of violence are often even more effective than actual violence. Despite this strangely enlightened philosophy, an ice yai never passes up an opportunity to reinforce its capacity for slaughter, and will often demand that its subjects take part in show battles, both for the entertainment of the tribe and to nurture the ice yai's insatiable ego and sense of dominion over its subjects.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"ice_yai": { "copyof": "oni,_ice_yai" },
@@ -2286,7 +2286,7 @@
 			"",
 			"Once they take physical form, ja noi rarely last more than a couple years on the Material Plane, their deadly lifestyle often a limiting factor in this regard. They either die in battle or at the hands of mutinous troops or allies, minions who realize that they are merely pawns in the game of war that the ja noi is constantly playing. Thus, most of these oni practice their battle skills constantly against one another, their strongest hobgoblin followers, and their adroit adversaries, always fighting and becoming more powerful. While they care little for the arcane, ja noi hone some magical abilities in order to inflict maximum damage on the battlefield, and a few even seek out magical items to bolster their strength.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -2371,7 +2371,7 @@
 			"",
 			"In the same way that a kigyo draws a sense of accomplishment from drowning a victim, it also feels a sense of superiority at making an enemy willingly give up something of incredible value in exchange for its life or that of a loved one. To oni, life and mortality are foreign concepts, and they can derive only so much pleasure out of seeing a living creature's essence snuffed out by death. As jealous and possessive beings, however, kigyos can more easily comprehend the sacrifice of giving up something other than one's life. Many kigyos develop obsessions with a single type of ransom they demand, such as firstborn children, spouses, a victim's reproductive or sensory organs or lungs, or even (in rare cases) pure material wealth. Those who hunt kigyos or research kigyo activity across the world can sometimes follow a single oni from nation to nation and from ocean to ocean by the specifics of what it demands of its victims. Thus have specific kigyos developed almost mythic status while victims across both distance and time suffer the same sadistic fate at the oni's hands.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -2435,7 +2435,7 @@
 			"",
 			"A typical kuwa stands about 6 feet in height and weighs 190 pounds.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"kuwa": { "copyof": "oni,_kuwa" },
@@ -2504,7 +2504,7 @@
 			"",
 			"Like all oni, najikai crave power and luxury. A najikai will often infiltrate a nagaji settlement, posing as a mighty warrior and easily cowing the people, with the ultimate goal of replacing the settlement's naga ruler. The oni gets the naga's attention with shows of strength and cunning, soon earning the najikai a position of direct service to the ruler. The oni pretends deference, but destroys the naga the instant its defenses slip, replacing it as a tyrant over the now-disgraced nagaji who failed their leader.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"najikai": { "copyof": "oni,_najikai" },
@@ -2579,7 +2579,7 @@
 			"",
 			"A nogitsune's most feared weapon, however, is its contagious whisper. This powerful compulsion, often whispered into the victim's ear in honeyed tones, not only forces the targeted creature to believe whatever lie the nogitsune crafts, but also infects the subject of the contagious whisper with a corruptive echo of deceit that causes the victim to unknowingly pass on the nogitsune's suggestion to others. Nogitsune may use this ability to convince a successive series of servants to open all of the doors to a well-guarded castle, or to make a host of witnesses believe they saw an innocent man commit a brutal crime that was really the oni's own handiwork.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -2646,7 +2646,7 @@
 			"",
 			"The ogre mage, like all oni, is an evil spirit come to the Material Plane and clad in living flesh-in this case, that of a brutish ogre. Ogre mages are often found serving as leaders of ogre tribes, yet not all of them seek to link their destinies to their less-intelligent kin. Some become lone marauders who hold villages hostage, demanding regular tribute in the form of gold, food, or maidens, lest they take more than they ask.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"ogre_mage": { "copyof": "oni,_ogre_mage" },
@@ -2713,7 +2713,7 @@
 			"",
 			"When a spirit oni's master dies, the spirit oni gains free will and the ability to make its own choices-but the spirit oni's innate cowardice and dishonor usually prevents it from taking its own life in hopes of returning to true spirit form and then returning as a proper oni. Rather than extinguishing themselves, such masterless spirit oni seek out more powerful oni and offer their services to their superiors, in hopes that they might someday be granted a promotion from their lowly state to something more befitting their egos and desires.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"spirit_oni": { "copyof": "oni,_spirit_oni" },
@@ -2795,7 +2795,7 @@
 			"",
 			"Swordplay: A voidlord of sword fighting always carries a sword of some sort-typically a katana. These voidlords gain the ability to use the following spell-like abilities three times per day: blade barrier, keen edge, and mage's sword. They are automatically proficient in the use of swords, and any sword they wield is treated as a +5 weapon, in addition to any other magical qualities the weapon might have. A voidlord of swordplay can also permanently transform any magic weapon (save for artifacts) into a sword of any size or type by touch.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"void_yai": { "copyof": "oni,_void_yai" },
@@ -2859,7 +2859,7 @@
 			"",
 			"The water yai clad themselves in the flesh of storm giants, yet these yai are more at home dwelling beneath the waves than they are above them. Unlike most oni, water yai have no real longing to rule or infiltrate societies-yet they still enjoy posing as humanoids. They often assume the forms of enormous merfolk in the water, but prefer to adopt the shapes of storm giants when on land. The water yai then pursues its favorite decadence-the acclimation of material wealth and luxuries. Water yai tend to be easily distracted by beautiful treasures, and despite their evil natures are prone to acts of unexpected frivolity.",
 			"",
-			"**Family:** Oni(monster/family:oni)"
+			"**Family:** [Oni](family/oni)"
 		]
 	},
 	"water_yai": { "copyof": "oni,_water_yai" },
@@ -2934,7 +2934,7 @@
 			"",
 			"Wind yai tend to wear thick, showy robes and heavy jewelry, though their great strength still allows them to move swiftly and with ease. Like all yai, wind yai each possess a third eye through which they can emit rays of destructive energy. In the case of wind yai, this powerful beam takes the form of a lightning bolt, as the oni channel the very essence of the storm into their attacks, simultaneously electrocuting their opponents while rendering them deaf with the cacophonous boom of thunder that follows the attack. They also possess the unique ability to send their foes flying into the air, commanding bursts of wind to carry their enemies aloft and bring them crashing back to the earth.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Habitat",
 			"",
@@ -3011,7 +3011,7 @@
 			"",
 			"A yamabushi tengu is 5 feet tall and weighs 120 pounds.",
 			"",
-			"**Family:** Oni(monster/family:oni)",
+			"**Family:** [Oni](family/oni)",
 			"",
 			"### Ecology",
 			"",
@@ -4257,7 +4257,7 @@
 			"",
 			"Fully formed, an ossumental stands approximately 16 feet tall and weighs around 300 pounds.",
 			"",
-			"**Family:** Ossumental(monster/family:ossumental)"
+			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
 	"ossumental_air": { "copyof": "ossumental,_ossumental_air" },
@@ -4321,7 +4321,7 @@
 			"",
 			"Fully formed, an ossumental stands approximately 16 feet tall and weighs around 300 pounds.",
 			"",
-			"**Family:** Ossumental(monster/family:ossumental)"
+			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
 	"ossumental_earth": { "copyof": "ossumental,_ossumental_earth" },
@@ -4386,7 +4386,7 @@
 			"",
 			"Fully formed, an ossumental stands approximately 16 feet tall and weighs around 300 pounds.",
 			"",
-			"**Family:** Ossumental(monster/family:ossumental)"
+			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
 	"ossumental_fire": { "copyof": "ossumental,_ossumental_fire" },
@@ -4448,7 +4448,7 @@
 			"",
 			"Fully formed, an ossumental stands approximately 16 feet tall and weighs around 300 pounds.",
 			"",
-			"**Family:** Ossumental(monster/family:ossumental)"
+			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
 	"ossumental_water": { "copyof": "ossumental,_ossumental_water" },
@@ -6182,7 +6182,7 @@
 			"",
 			"Phantom armors are created using the spell create undead. Creating a phantom armor requires a corpse wearing a suit of heavy armor. The corpse is destroyed in the phantom armor's creation. A magic-user must be at least caster level 12th to create a guardian phantom armor and at least caster level 15th to create a giant phantom armor.",
 			"",
-			"**Family:** Phantom Armor(monster/family:phantom_armor)"
+			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
 	"giant_phantom_armor": { "copyof": "phantom_armor,_giant_phantom_armor" },
@@ -6239,7 +6239,7 @@
 			"",
 			"Phantom armors are created using the spell create undead. Creating a phantom armor requires a corpse wearing a suit of heavy armor. The corpse is destroyed in the phantom armor's creation. A magic-user must be at least caster level 12th to create a guardian phantom armor and at least caster level 15th to create a giant phantom armor.",
 			"",
-			"**Family:** Phantom Armor(monster/family:phantom_armor)"
+			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
 	"guardian_phantom_armor": { "copyof": "phantom_armor,_guardian_phantom_armor" },
@@ -6304,7 +6304,7 @@
 			"| 15th | Giant phantom armor |",
 			"| 16th | Phantom lancer |",
 			"",
-			"**Family:** Phantom Armor(monster/family:phantom_armor)"
+			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
 	"hollow_helm": { "copyof": "phantom_armor,_hollow_helm" },
@@ -6367,7 +6367,7 @@
 			"| 15th | Giant phantom armor |",
 			"| 16th | Phantom lancer |",
 			"",
-			"**Family:** Phantom Armor(monster/family:phantom_armor)"
+			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
 	"phantom_lancer": { "copyof": "phantom_armor,_phantom_lancer" },

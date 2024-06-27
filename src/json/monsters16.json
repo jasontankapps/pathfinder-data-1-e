@@ -789,7 +789,7 @@
 			"",
 			"A cairn linnorm is 60 feet long and weighs 12,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"cairn_linnorm": { "copyof": "linnorm,_cairn_linnorm" },
@@ -855,7 +855,7 @@
 			"",
 			"Like all linnorms, the deadly crag linnorm is a powerful, primeval dragon, a denizen of the wild regions far north of where most civilizations dare to tread. The crag linnorm is among the weakest of its kind, yet still a devastating predator in its own right. Favored, if not by the gods, then by some primal intelligence of the mysterious world of the fey, the linnorm bestows a powerful curse on any who manage to slay it. A crag linnorm is 60 feet long and weighs 12,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"crag_linnorm": { "copyof": "linnorm,_crag_linnorm" },
@@ -919,7 +919,7 @@
 			"",
 			"A fjord linnorm is 60 feet long and weighs just over 10,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"fjord_linnorm": { "copyof": "linnorm,_fjord_linnorm" },
@@ -996,7 +996,7 @@
 			"",
 			"Gare linnorms prefer to hunt large prey, as fish and other small underwater creatures don't provide enough food to sate their enormous appetites. As a result, gare linnorms hunt not just larger, land-bound creatures like elk or moose, but even large predatory animals like brown bears and dire wolves when such creatures come to the water's edge to drink or cross. When hunting, a gare linnorm attempt to attack with surprise as it breaks through ice or emerges from the water. It bites first to poison its prey, then strikes with its tail, using its massive coils to crush its prey or drag it into the water, where any creature affected by the linnorm's poison soon drowns as the venom takes hold. Hunters and sages who have witnessed gare linnorms feeding recount stories of these monsters taking on entire herds of mammoths or woolly rhinos, often crushing one animal in its coils and goring another while others burn within the dragon's steaming breath. After feeding, gare linnorms retreat to their riverbed dens to sleep, often for days at a time.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)",
+			"**Family:** [Linnorm](family/linnorm)",
 			"",
 			"### Habitat",
 			"",
@@ -1070,7 +1070,7 @@
 			"",
 			"An ice linnorm is 90 feet long and weighs 18,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"ice_linnorm": { "copyof": "linnorm,_ice_linnorm" },
@@ -1143,7 +1143,7 @@
 			"",
 			"Luckily for the surface world, sea linnorms rarely have any reason to depart their deep underwater homes. Teeming schools of aquatic megafauna roam in the depths that sea linnorms inhabit. This primordial wildlife is of such size that a waking sea linnorm rarely concerns itself with having to roam far for a fulfilling meal. After eating, a sea linnorm hibernates for years, or even centuries, at a time. In some instances, entire aquatic settlements spring to life near the hidden lair of a sea linnorm, only to incur the beast's excessive wrath when it awakens from its slumber. Some of these unfortunately placed settlements even adjust their entire societies to provide for \"their\" linnorms, shepherding schools of fish toward the beasts' lairs and, in harder times, encouraging visitors to visit the linnorms' dens.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)",
+			"**Family:** [Linnorm](family/linnorm)",
 			"",
 			"### Habitat",
 			"",
@@ -1214,7 +1214,7 @@
 			"",
 			"A taiga linnorm is 50 feet long and weighs just over 13,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"taiga_linnorm": { "copyof": "linnorm,_taiga_linnorm" },
@@ -1285,7 +1285,7 @@
 			"",
 			"A tarn linnorm is 120 feet long and weighs 24,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"tarn_linnorm": { "copyof": "linnorm,_tarn_linnorm" },
@@ -1349,7 +1349,7 @@
 			"",
 			"A tor linnorm is 50 feet long and weighs 15,000 pounds.",
 			"",
-			"**Family:** Linnorm(monster/family:linnorm)"
+			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
 	"tor_linnorm": { "copyof": "linnorm,_tor_linnorm" },
@@ -3709,7 +3709,7 @@
 			"",
 			"Executioner's hoods are hatched from eggs laid by trappers. They stay with the mother for a month, then leave to hunt for themselves.",
 			"",
-			"**Family:** Lurking Ray(monster/family:lurking_ray)"
+			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
 	"executioner's_hood": { "copyof": "lurking_ray,_executioner's_hood" },
@@ -3769,7 +3769,7 @@
 			"",
 			"Lurkers above can grow to be 15 feet from tip to tip, and weigh nearly 500 pounds when fully fed.",
 			"",
-			"**Family:** Lurking Ray(monster/family:lurking_ray)"
+			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
 	"lurker_above": { "copyof": "lurking_ray,_lurker_above" },
@@ -3826,7 +3826,7 @@
 			"",
 			"Trappers can grow to be 15 feet from tip to tip, and weigh nearly 2,000 pounds when fully fed.",
 			"",
-			"**Family:** Lurking Ray(monster/family:lurking_ray)"
+			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
 	"trapper": { "copyof": "lurking_ray,_trapper" },
@@ -4502,7 +4502,7 @@
 			"",
 			"**Str** 15, **Dex** 23, **Con**: 24, **Int** 16, **Wis** 23, **Cha**, 18  ",
 			"**Base Atk** +19; **CMB** +21; **CMD** 52  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Skill Focus (Knowledge [history])](feat/skill_focus) [Vital Strike](feat/vital_strike), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Skill Focus](feat/skill_focus) (Knowledge [history]) [Vital Strike](feat/vital_strike), [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Acrobatics +25, Diplomacy +26, Fly +14, Intimidate +23, Knowledge (any one) +25, Knowledge (history) +31, Knowledge (local, planes) +25, Perception +28, Sense Motive +28  ",
 			"**Languages** Celestial, Common; telepathy 100 ft.  ",
 			"**SQ** evolutionary sentinel, formless, no breath, positive energy affinity, subjective appearance, timeless",
@@ -4527,7 +4527,7 @@
 			"",
 			"Maharishi manus are at the pinnacle of the manu caste of manasaputras, leading the hierarchy by following directions set by the kumaras and the Logos at the center of the Positive Energy Plane. These outsiders govern the spiritual development over vast epochs, teaching lesser manus and guiding all mortal incarnations toward a sense of perfect enlightenment. Because of the nature of their missions, maharishi manus form strong bonds with the inhabitants of the planets under their care and are never kept away for long before returning to those worlds should they be banished by malicious forces.",
 			"",
-			"**Family:** Manasaputra(monster/family:manasaputra)"
+			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
 	"maharishi_manu": { "copyof": "manasaputra,_maharishi_manu" },
@@ -4590,7 +4590,7 @@
 			"",
 			"While most manus focus on a people's enlightenment across a single Material Plane world, some ambitious manus follow their charges from world to world, continuing to elevate and guide them as they propagate among the stars. Manus are largely solitary, though they sometimes gather into tight-knit groups called rounds that coordinate efforts to guide their chosen peoples.",
 			"",
-			"**Family:** Manasaputra(monster/family:manasaputra)"
+			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
 	"manu": { "copyof": "manasaputra,_manu" },
@@ -4654,7 +4654,7 @@
 			"",
 			"Rishi manus are the shepherds of entire worlds, watching for shifts in the collective consciousness and gently nudging specific individuals of significant power or influence toward paths of enlightenment that will affect as many others as possible.",
 			"",
-			"**Family:** Manasaputra(monster/family:manasaputra)"
+			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
 	"rishi_manu": { "copyof": "manasaputra,_rishi_manu" },
@@ -4738,7 +4738,7 @@
 			"",
 			"Relationships between twilight pitris and manus are complicated. Many manus have at least one twilight pitri to thank for their first steps of enlightenment and acceptance into the manasaputra castes, but upon ascension, the new manus intuit how disconnected their former teachers are from the cosmic source of all things. They immediately find the words and guidance of the twilight pitris to be filled with half-truths and blind paths, even though the twilight pitri's intentions are true and honorable. These manus still give members of this caste the respect and reverence they deserve, and understand the importance of this test-especially since they may face it themselves one day- but often go to great pains to avoid asking a twilight pitri for counsel. Relationships between twilight pitris and samsarans are even more strained, as knowledgeable members of that race blame the twilight pitris for nearly damning the entire samsaran race to a path outside of reincarnation and enlightenment. While they would never outwardly disrespect these higher forms of being, they are often suspicious of the twilight pitris' guidance and disregard twilight pitris' advice. Some samsarans outright refuse all aid coming from one of these manasaputras.",
 			"",
-			"**Family:** Manasaputra(monster/family:manasaputra)"
+			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
 	"barhisad": { "copyof": "manasaputra,_twilight_pitri_barhisad" },
@@ -5430,7 +5430,7 @@
 			"",
 			"These creatures are often used by coastal tribes as guardians and escorts from island to island. Aquatic creatures, particularly locathah, often use them as beasts of burden, but their relatively slow swim speed makes them poor mounts.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"archelon": { "copyof": "megafauna,_archelon" },
@@ -5482,7 +5482,7 @@
 			"",
 			"The arsinoitherium is a herbivore, but it displays a fierce and threatening behavior when it perceives danger: bellowing, stamping, and tossing its head. Threats that do not recede from such warnings are met with a fierce bellow and a charge.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"arsinoitherium": { "copyof": "megafauna,_arsinoitherium" },
@@ -5536,7 +5536,7 @@
 			"",
 			"A properly trained baluchitherium makes a capable mount for ettins, ogres, smaller giants, or other Large humanoids, and is one of the few mammals other than an elephant able to fill that role. Its relatively ponderous pace limits its usefulness to some extent, but its strength often more than makes up for this shortcoming.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"baluchitherium": { "copyof": "megafauna,_baluchitherium" },
@@ -5593,7 +5593,7 @@
 			"",
 			"A basilosaurus relies as much on vision as echolocation to find prey, but sometimes mistakes smaller ships for food. Basilosauruses have few natural predators; only supernatural monsters like krakens, thalassic behemoths, and the largest of sea serpents can truly threaten a fully grown one.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"basilosaurus": { "copyof": "megafauna,_basilosaurus" },
@@ -5645,7 +5645,7 @@
 			"",
 			"Also known as megacerops, this enormous herbivore has a Y-shaped horn protruding from its snout. An average brontotherium stands 8 feet tall and 16 feet long, weighing around 7,000 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"brontotherium": { "copyof": "megafauna,_brontotherium" },
@@ -5701,7 +5701,7 @@
 			"",
 			"A typical adult chalicotherium is about 10 feet tall at the shoulder and 12 feet long from nose to rump, and weighs 14,000 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"chalicotherium": { "copyof": "megafauna,_chalicotherium" },
@@ -5760,7 +5760,7 @@
 			"",
 			"A deinotherium stands 12 feet tall at the shoulder, measures 25 feet from trunk to tail, and weighs 30,000 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"deinotherium": { "copyof": "megafauna,_deinotherium" },
@@ -5818,7 +5818,7 @@
 			"",
 			"An elasmotherium is 20 feet long and weighs 8,500 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"elasmotherium": { "copyof": "megafauna,_elasmotherium" },
@@ -5873,7 +5873,7 @@
 			"",
 			"Naturally social with others of their kind, embolotherium are generally found in large groups in flat, grassy areas. Their many layers of tough skin serve as deterrents to attack as well as thermal buffers, allowing them to survive in even frigid temperatures as long as there is sufficient food.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"embolotherium": { "copyof": "megafauna,_embolotherium" },
@@ -5924,7 +5924,7 @@
 			"",
 			"The glyptodon is often hunted for the value of its outer armor, made up of bony plates in turn composed of many smaller, knobby \"scales.\" The creature is quite capable of defending itself with swipes from its deadly claws, as its ill-tempered nature often urges it to do.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"glyptodon": { "copyof": "megafauna,_glyptodon" },
@@ -5980,7 +5980,7 @@
 			"",
 			"Despite its close resemblance to other types of crocodilians, the kaprosuchus is a terrestrial predator, not an aquatic one. Squat and powerfully built, these creatures hunt for prey in forests. The adults can grow up to 20 feet long and weigh as much as 2,500 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"kaprosuchus": { "copyof": "megafauna,_kaprosuchus" },
@@ -6038,7 +6038,7 @@
 			"",
 			"A megalania is 20 feet long and weighs 2,000 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"megalania": { "copyof": "megafauna,_megalania" },
@@ -6091,7 +6091,7 @@
 			"",
 			"The megaloceros is a powerful and enormous elk, also known as a \"great elk\" or \"king stag.\" It stands about 6 feet tall at the shoulder and has antlers spanning up to 12 feet. It weighs 1,400 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"megaloceros": { "copyof": "megafauna,_megaloceros" },
@@ -6143,7 +6143,7 @@
 			"",
 			"The megatherium is a massive sloth weighing 10,000 pounds. It can balance on its hind legs and tail, allowing it to reach up to 20 feet high.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"megatherium": { "copyof": "megafauna,_megatherium" },
@@ -6196,7 +6196,7 @@
 			"",
 			"A full-grown moa can weigh as much as 500 lbs.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"moa": { "copyof": "megafauna,_moa" },
@@ -6250,7 +6250,7 @@
 			"",
 			"A titanoboa is 45 feet long and weighs 2,500 pounds.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"titanoboa": { "copyof": "megafauna,_titanoboa" },
@@ -6305,7 +6305,7 @@
 			"",
 			"Uintatheriums stand nearly 6 feet tall at the shoulder and weigh over 2 tons.",
 			"",
-			"**Family:** Megafauna(monster/family:megafauna)"
+			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
 	"uintatherium": { "copyof": "megafauna,_uintatherium" },

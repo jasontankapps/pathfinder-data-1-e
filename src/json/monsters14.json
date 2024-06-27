@@ -1878,7 +1878,7 @@
 			"**Base Atk** +7; **CMB** +10; **CMD** 23  ",
 			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Nimble Moves](feat/nimble_moves)  ",
 			"**Skills** Escape Artist +19, Handle Animal +20, Intimidate +20, Knowledge (arcana) +16, Knowledge (nature) +19, Perception +21, Stealth +19, Survival +18  ",
-			"**SQ** change shape (elk [Pathfinder RPG Bestiary 3 147], beast shape II), hide in plain sight",
+			"**SQ** change shape (elk, beast shape II), hide in plain sight",
 			"",
 			"#### Ecology",
 			"",
@@ -2379,7 +2379,7 @@
 			"#### Ecology",
 			"",
 			"**Environment** any oceans  ",
-			"**Organization** solitary, pair, or coven (1-2 incutilis lords plus 3-7 incutilises [Pathfinder RPG Bestiary 4 157])  ",
+			"**Organization** solitary, pair, or coven (1-2 incutilis lords plus 3-7 incutilises)  ",
 			"**Treasure** standard (giant red pearl worth 500 gp, other treasure)",
 			"",
 			"#### Special Abilities",
@@ -5692,7 +5692,7 @@
 			"",
 			"Dosojins are fond of the creatures that traverse their roads and trails, and maintain the roadways they guard to ensure both the ward's survival and the safe travel of the voyagers that traverse it. Though they have an affinity for the creatures that constructed their roadways, dosojins still protect their wards with the aggressive righteousness typical of all kami, and scarcely hesitate when faced with an oni or other evildoer seeking to disrupt the balance. Dosojin have little patience for those who litter on their roadways or unnecessarily obstruct the paths, and they take it upon themselves to discipline those they deem worthy of punishment. Rarely violent in an overt sense, dosojins prefer to use their magic in order to trick travelers into becoming lost, letting the wilds they travel through become the primary instruments of their demise. Dosojins prove quite deadly to those who fail to show kami proper respect, as they use their powers of illusion to lead troublesome caravans into impassible ravines and destructive oni onto unsound, derelict bridges.",
 			"",
-			"**Family:** Kami(monster/family:kami)",
+			"**Family:** [Kami](family/kami)",
 			"",
 			"### Habitat",
 			"",
@@ -5771,7 +5771,7 @@
 			"",
 			"Dunaghs prefer to stay merged with their wards, but in their visible forms, they take on appearances similar to ghostly versions of those people they guard.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"dunagh": { "copyof": "kami,_dunagh" },
@@ -5845,7 +5845,7 @@
 			"",
 			"While nearly all fukujins are calm, collected, and patient spirits, the beings are by no means all the same, as their physical appearances, predispositions, and demeanors are just as often reflections of the particular bonsai plant that they watch over. Fukujins who reside within the hearts of deciduous trees, for example, tend to be of lighter color as well as more airy and spirited than the hardy and resilient fukujins of coniferous shrubs, who take on a red, earthy hue. Plant type can also hint at particular magical qualities the spirit might have-white-trunked trees tend to attract gaunter, more fatalistic individuals, while plants with brown or ebon bark inspire kami that are more attuned to the energies and mysteries of magic. The tree branch that sticks out of a fukujin's head while the spirit is in its physical form is often of the same variety as the bonsai tree that the kami protects, though exceptions have been known to exist among particularly dual-natured spirits.",
 			"",
-			"**Family:** Kami(monster/family:kami)",
+			"**Family:** [Kami](family/kami)",
 			"",
 			"### Habitat",
 			"",
@@ -5939,7 +5939,7 @@
 			"",
 			"Volcano Kami: An elder jinushigami that includes in its ward an active volcano appears as a humanoid made of equal parts molten rock and solid stone. A volcano kami has the fire subtype instead of the earth subtype (and thus gains immunity to fire and vulnerability to cold), can use fireball three times per day as a spell-like ability, and can use wall of lava once per day as a spell-like ability.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"jinushigami": { "copyof": "kami,_jinushigami" },
@@ -6013,7 +6013,7 @@
 			"",
 			"Kaminaris despise the use of magic to alter weather patterns, and attempts to disrupt their storm clouds often result in the enormous kami's unabashed and wrathful ire. A kaminari is as volatile as the storm it protects, and the powerful spirit is quick to exterminate any creature-mortal or otherwise-it deems a threat to the natural balance of weather. Whether an evil sorcerer is trying to bring devastation to a seaside town by calling forth powerful hurricanes or a benevolent wizard is summoning rain to save a desert city in the midst of a natural drought, if such manipulation comes to the attention of the watchful and wandering kaminaris, they find little forgiveness. This is not to suggest that the kami of storms are evil-their threshold for nuisances is simply lower than most kami, and their punishments more destructive.",
 			"",
-			"**Family:** Kami(monster/family:kami)",
+			"**Family:** [Kami](family/kami)",
 			"",
 			"### Habitat",
 			"",
@@ -6085,7 +6085,7 @@
 			"",
 			"When a kodama must fight (typically in order to defend its tree or other kami), it moves quickly-kodama work best in groups, and when confronted alone generally use tree stride to travel to another part of the forest to raise a small host of allies to aid it in defending its home.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"kodama": { "copyof": "kami,_kodama" }

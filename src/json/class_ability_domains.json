@@ -1130,7 +1130,7 @@
 			"",
 			"**Touch of Paranoia (Su):** You can imbue a target with great suspicion and doubt as a melee touch attack. A creature affected by your touch does not have allies and is not considered to be an ally to any other creature, including other creatures affected by this effect. The affected creature cannot move freely through its allies' spaces, flank creatures with them, cooperate with them using teamwork feats, or give or receive benefits from the aid another action or any spells or effect that affects only allies. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[haunting mists](spell/haunting_mists), 4th-[[they know](spell/they_know), 6th-[phobia](spell/phobia)."
+			"**Replacement Domain Spells:** 2nd-[haunting mists](spell/haunting_mists), 4th-[they know](spell/they_know), 6th-[phobia](spell/phobia)."
 		]
 	},
 	"cannibalism": { "copyof": "evil" },

@@ -617,7 +617,7 @@
 		"description": [
 			"## Dragon Herald",
 			"",
-			"**Source** [Kobolds of Golarion pg. 22]_of Golarion)  ",
+			"**Source** [Kobolds of Golarion pg. 22](source/kobolds_of_golarion)  ",
 			"Dragon heralds are messengers and evangelists of true dragonkind. They carry the word of their dragon patrons far and wide, whether that's a message of peace or a declaration of war. A kobold whose scales already associate her with a revered dragon is often trained as her tribe's dragon herald.",
 			"",
 			"**Weapon and Armor Proficiency:** The dragon herald is proficient with simple weapons and light armor, but not with shields. Dragon heralds are messengers, not warriors. Like other bards, dragon heralds don't incur the normal arcane spell failure chance from wearing light armor.",
@@ -747,7 +747,7 @@
 		"description": [
 			"## Fey Courtier",
 			"",
-			"**Source** [Ultimate Wilderness pg. 11]_Wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 11](source/ultimate_wilderness)  ",
 			"Fey who associate with courts often become bards skilled at navigating the inhuman societies of the trackless wilds.",
 			"",
 			"**Bardic Performance:** The fey courtier has access to the following bardic performances.",
@@ -939,7 +939,7 @@
 		"description": [
 			"## Fortune-Teller",
 			"",
-			"**Source** [Villain Codex pg. 32]_Codex)  ",
+			"**Source** [Villain Codex pg. 32](source/villain_codex)  ",
 			"Instead of using song and dance, a fortune-teller influences people by divining their fate. Though he learns a great deal about the paths of destiny, his true skill is in making others think he knows more than he truly does.",
 			"",
 			"**Fortune-Teller's Divinations:** Add the following spells to the fortune-teller's bard spell list. He doesn't automatically gain them and must still select them as spells known if he wants to use them. 0-[guidance](spell/guidance); 1st-[object reading](spell/object_reading); 2nd-[augury](spell/augury); 3rd-[analyze aura](spell/analyze_aura); 4th-[divination](spell/divination); 5th-[retrocognition](spell/retrocognition); 6th-[true seeing](spell/true_seeing), [vision](spell/vision).",

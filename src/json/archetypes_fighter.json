@@ -65,7 +65,7 @@
 			"",
 			"The following benefits apply only when an Aldori defender is wielding an [Aldori dueling sword](equipment/weapon/aldori_dueling_sword) and carrying nothing in his other hand. An Aldori defender fights with his sword wielded with both hands only in moments of desperation.",
 			"",
-			"**Suggested Feats:** Although this archetype replaces some of the bonus feats that a fighter would normally have access to, Aldori defenders still have several opportunities to gain feats. The following feats are the most thematically appropriate for an Aldori defender, but the archetype does not require any of them: [Aldori Dueling Mastery](feat/aldori_dueling_mastery), [Combat Expertise](feat/combat_expertise), [Dazzling Display](feat/dazzling_display), [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Improved Disarm](feat/improved_disarm), [Improved Feint](feat/improved_feint), [Improved Initiative](feat/improved initiative), [Lunge](feat/lunge), [Quick Draw](feat/quick draw), [Weapon Finesse](feat/weapon finesse), [Weapon Focus](feat/weapon focus) (Aldori dueling sword), [Weapon Specialization](feat/weapon specialization) (Aldori dueling sword).",
+			"**Suggested Feats:** Although this archetype replaces some of the bonus feats that a fighter would normally have access to, Aldori defenders still have several opportunities to gain feats. The following feats are the most thematically appropriate for an Aldori defender, but the archetype does not require any of them: [Aldori Dueling Mastery](feat/aldori_dueling_mastery), [Combat Expertise](feat/combat_expertise), [Dazzling Display](feat/dazzling_display), [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Improved Disarm](feat/improved_disarm), [Improved Feint](feat/improved_feint), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Quick Draw](feat/quick_draw), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus](feat/weapon_focus) (Aldori dueling sword), [Weapon Specialization](feat/weapon_specialization) (Aldori dueling sword).",
 			"",
 			"**Defensive Parry (Ex):** At 3rd level, when an Aldori defender makes a full attack with an Aldori dueling sword, he gains a +1 shield bonus to his AC against melee attacks until the beginning of his next turn. This bonus increases to +2 at 7th level, +3 at 11th level, and +4 at 15th level.",
 			"",
@@ -412,7 +412,7 @@
 		"description": [
 			"## Dragonheir Scion",
 			"",
-			"**Source** [Legacy of Dragons pg. 12]_of Dragons)  ",
+			"**Source** [Legacy of Dragons pg. 12](source/legacy_of_dragons)  ",
 			"Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power. Unlike their sorcerous brethren, dragonheir scions manifest their heritage in ways more suited to strength of arms and skill with steel than arcane energies. Those who follow this path are often the children of mighty dragon-blooded sorcerers and others who drew energy from their dragon blood, though they themselves might not exhibit spellcasting ability.",
 			"",
 			"Class Skills",
@@ -1020,7 +1020,7 @@
 		"description": [
 			"## Scrapper",
 			"",
-			"**Source** [Construct Handbook pg. 14]_Handbook)  ",
+			"**Source** [Construct Handbook pg. 14](source/construct_handbook)  ",
 			"Scrappers are adept at collecting the leftovers from their enemy's armor and using these scraps to improve their own armor.",
 			"",
 			"**Scrap Armor (Ex):** At 3rd level, a scrapper learns to salvage scrap from constructs or other pieces of armor and attach them to his own armor. Salvaging scrap from a destroyed construct or from another creature's armor takes 1 minute. Scrap from a construct grants the scrapper a natural armor bonus to AC equal to one-quarter the construct's Hit Dice (minimum +1). If the scrap is salvaged from a piece of armor, it instead grants a natural armor bonus to AC equal to 1 + the armor's enhancement bonus (if any). The salvaged armor piece is flimsy and prone to breaking. Scrap is immediately destroyed by any sunder combat maneuver that targets the armor to which the scrap is attached. Otherwise, scrap crumbles and falls away after a number of days equal to the natural armor bonus that it grants. At 11th level, scrap salvaged from a construct also grants DR/adamantine equal to one-quarter of the construct's Hit Dice.",
@@ -1594,7 +1594,7 @@
 		"description": [
 			"## Venomblade",
 			"",
-			"**Source** [Potions and Poisons pg. 5]_and Poisons)  ",
+			"**Source** [Potions and Poisons pg. 5](source/potions_and_poisons)  ",
 			"The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and then rushing in to cut them down where they stand. The venomblade is an archetype of the fighter class that is available to nagaji characters.",
 			"",
 			"**Venom Projection (Ex):** The venomblade must take the Spit Venom nagaji racial feat as his 1st-level fighter bonus feat if he does not already have that ability. At 2nd level, he does not provoke an attack of opportunity for using the ability granted by the Spit Venom feat. At 4th level, he can use the ability granted by the Spit Venom feat as a standard action; at 8th level, he can use it as a move action; and at 12th level, he can use it as a swift action.",

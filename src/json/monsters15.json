@@ -61,7 +61,7 @@
 			"",
 			"Shikigami typically stand 2 feet tall and weigh 30 pounds, or 50 pounds when taking their statue forms. A spellcaster must have the Improved Familiar feat, an alignment of lawful neutral, and an arcane caster level of 7th or higher to gain a shikigami familiar. Whenever a shikigami becomes a familiar, it treats its master as its ward.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"shikigami": { "copyof": "kami,_shikigami" },
@@ -135,7 +135,7 @@
 			"",
 			"Those suijins who continually fail to protect their waters from troublesome residents or visitors are often quick to fall out of favor with their kindred, and the wards of these kami often become treacherous during the time in which a corrupted suijin makes its gradual transition toward becoming an oni.",
 			"",
-			"**Family:** Kami(monster/family:kami)",
+			"**Family:** [Kami](family/kami)",
 			"",
 			"### Habitat",
 			"",
@@ -202,7 +202,7 @@
 			"",
 			"Toshigami rarely show themselves except to those in dire need or who are harming their trees. Still, they have a fascination with mortals, and have even been known to form romantic relationships with them on occasion. A toshigami is 5 feet tall and weighs 100 pounds.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"toshigami": { "copyof": "kami,_toshigami" },
@@ -269,7 +269,7 @@
 			"",
 			"Zuishin manifest as suits of armor with a partly manifest warrior within, and wield glowing weapons. They stand 5 feet tall and weigh 120 pounds.",
 			"",
-			"**Family:** Kami(monster/family:kami)"
+			"**Family:** [Kami](family/kami)"
 		]
 	},
 	"zuishin": { "copyof": "kami,_zuishin" },
@@ -1188,7 +1188,7 @@
 			"**Spell-Like Abilities (CL 18th; concentration +21)  ",
 			"*At will*-commune with nature, dancing lights, know direction, telekinesis (DC 18)  ",
 			"*3/day*-charm person (DC 14), cloudkill (DC 18), control winds, invisibility sphere, major image (DC 16, within its reach only), plane shift (DC 18), seeming (DC 18, other creatures only), teleport, water breathing, widened fog cloud  ",
-			"*1/day*-summon (level 7, 11-20 draugr [Bestiary 2] 100%)",
+			"*1/day*-summon (level 7, 11-20 draugr 100%)",
 			"",
 			"#### Statistics",
 			"",
@@ -2387,7 +2387,7 @@
 			"",
 			"**Str** 6, **Dex** 14, **Con**: 12, **Int** 13, **Wis** 8, **Cha**, 16  ",
 			"**Base Atk** +3; **CMB** +0; **CMD** 12  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Eschew Materials](feat/eschew_materials), [Improved Feint](feat/improved_feint), [Skill Focus (Craft [trapmaking])](feat/skill_focus)  ",
+			"**Feats** [Combat Expertise](feat/combat_expertise), [Eschew Materials](feat/eschew_materials), [Improved Feint](feat/improved_feint), [Skill Focus](feat/skill_focus) (Craft [trapmaking])  ",
 			"**Skills** Bluff +15, Craft (trapmaking) +15, Perception +1, Profession (miner) +1, Use Magic Device +15; **Racial Modifiers** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)  ",
 			"**Languages** Draconic, Dwarven  ",
 			"**SQ** bloodline arcana (+2 to spell DC if target is denied Dex bonus to AC), crafty, trap sense +2  ",
@@ -2442,7 +2442,7 @@
 			"",
 			"**Str** 8, **Dex** 18, **Con**: 12, **Int** 10, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +3; **CMB** +1; **CMD** 15  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Craft [trapmaking])](feat/skill_focus)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus](feat/skill_focus) (Craft [trapmaking])  ",
 			"**Skills** Acrobatics +11, Appraise +8, Climb +6, Craft (trapmaking) +13, Disable Device +13, Escape Artist +11, Perception +11, Profession (miner) +3, Sleight of Hand +11, Stealth +15; **Racial Modifiers** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)  ",
 			"**Languages** Draconic  ",
 			"**SQ** crafty, rogue talents (trap spotter, cunning trigger), trapfinding +2  ",
@@ -3608,7 +3608,7 @@
 			"",
 			"The kyton presented here is a typical member of this fiendish race of outsiders, but is by no means the only type of its kind. Just as there are numerous different species of demon and devil, rumor holds that different kinds of kytons dwell in their jangling cities in Hell and on the Plane of Shadow. These kytons are invariably more powerful than the one presented here, often having spell-like abilities or hideous and unsettling special attacks along the themes of torture and pain. Rumor holds that the most powerful kytons are completely inhuman, and that these monsters are the true progenators of the kyton race-the kyton presented here but the result of unholy dalliances with their unfortunate victims.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"kyton,_apocrisiarius": {
@@ -3678,7 +3678,7 @@
 			"",
 			"The term \"sadistic\" is synonymous with kytons, who are known for their innate cruelty and capacity to gain pleasure from the suffering of others. However, an apocrisiarius kyton considers inflicting pain and suffering nothing more than a tool to reach what truly intrigues it-the purest form of a single truth. An apocrisiarius typically appears as a human whose eyes are blank, white orbs. Tears of blood weep from its eyes-physical evidence of the sorrow it has tasted over the ages from dreadful truths torn from the flesh and mind of its countless victims. The dozens of surgical lancets that pierce an apocrisiarius's body do the creature no harm, and the holes these instruments leave are as bloodless as they are deep. The kyton operates on those it captures with these lancets; these fiends prefer to use torture and vivisection to carve away both physically and metaphorically at their victims until all that remains is the one nugget of information they desire-a pure truth, unadulterated by extraneous life.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)",
+			"**Family:** [Kyton](family/kyton)",
 			"",
 			"### Ecology",
 			"",
@@ -3760,7 +3760,7 @@
 			"",
 			"A typical augur kyton is 1 foot in diameter and weighs 30 pounds.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"augur": { "copyof": "kyton,_augur" },
@@ -3828,7 +3828,7 @@
 			"",
 			"A cantor stands a mere 3 feet tall and weighs less than 50 pounds.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"cantor": { "copyof": "kyton,_cantor" },
@@ -3911,7 +3911,7 @@
 			"",
 			"Once an ephialtes kyton has agreed to a task, only its assigned prey interests it. Ephialtes kytons always offer to dispose of such victims by taking them to the Shadow Plane so they can help lesser kytons obtain the necessary number of souls to become ephialtes.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"ephialtes": { "copyof": "kyton,_ephialtes" },
@@ -3995,7 +3995,7 @@
 			"",
 			"Each overlord is a unique Large (or larger) eremite with several additional Hit Dice. In addition, each has a unique power linked to its chosen form of self-mutilation, as well as 4-6 additional spell-like abilities along that mutilation's theme. For example, an overlord that has perfected the act of skinning itself and wrapping its flesh in thorny black vines might have an ability to send those thorny vines out at great length to grapple and constrict distant foes, and might gain black tentacles, entangle, wall of thorns, and 1-3 similar spell-like abilities.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"eremite": { "copyof": "kyton,_eremite" },
@@ -4060,7 +4060,7 @@
 			"",
 			"Interlocutors are 9 feet tall and weigh 800 pounds.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"interlocutor": { "copyof": "kyton,_interlocutor" },
@@ -4130,7 +4130,7 @@
 			"",
 			"Lampadariuses stand just under 6 feet tall and weigh about 80 pounds.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"lampadarius": { "copyof": "kyton,_lampadarius" },
@@ -4209,7 +4209,7 @@
 			"",
 			"Libitinariis are farsighted, dispassionate, and coldly rational. Many live in the realm of Frozen Tears, where they may spend centuries simply formulating a plan to please the White Death and advance their standing in his unholy court by a mere inch. Other libitinariis attempt to carve out small niches in the frozen wastes of Cocytus in Hell. Those libitinarii who call the Material Plane home typically do so as leaders of cults of Doloras or Inkariax. Some, however, hide in plain sight among society, masquerading as normal-if unsavory- scholars and artisans while secretly working to torment, freeze, and preserve their enemies as fantastic trophies to their own wicked ingenuity.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)",
+			"**Family:** [Kyton](family/kyton)",
 			"",
 			"### Habitat",
 			"",
@@ -4285,7 +4285,7 @@
 			"",
 			"What is perfection without splendor? Oitos kytons know there is much more to seduction than audacities of the flesh. Oitoses tempt souls to drift willingly into their clutches. They have more discerning tastes than many of their brethren, though, seeking specific targets, whether those with a certain \"flavor\" of mortal experience or outsiders of particular magnificence. Tearing away their victims' tawdry flesh, they exalt in the clean grandeur of bone gilded with precious metals. They present themselves as living treasures-beings capable of fulfilling the promise of any reward and embodiments of glories to come.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"oitos": { "copyof": "kyton,_oitos" },
@@ -4353,7 +4353,7 @@
 			"",
 			"Ostiariuses mind the gate between the world of mortals and the delights of the Plane of Shadow. Their role is twofold: admitting their brethren onto the Material Plane and-more insidiously- convincing mortals to willingly journey with them to their shadowed homeland. They are the emissaries of their race, encouraging susceptible mortals to abandon their tired philosophies and embrace the possibilities of a realm of inscrutable darkness. Most proudly stand over 6 feet tall, though their weights range from exceedingly light to grossly heavy.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"ostiarius": { "copyof": "kyton,_ostiarius" },
@@ -4436,7 +4436,7 @@
 			"",
 			"As powerful as they are, phylacators have a significant vulnerability. Every night, a phylacator must remove its armor and sit in a torture device known as an iron chair to shed its blood in tribute to Zon-Kuthon. This device is a dull metal throne covered with hundreds of spikes all over the back, seat, and leg-rests. A phylacator usually keeps its iron throne in a secluded location, such as behind a trapped secret door, but some phylacators keep their iron thrones hidden in plain sight among other implements of torture.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)",
+			"**Family:** [Kyton](family/kyton)",
 			"",
 			"### Habitat",
 			"",
@@ -4510,7 +4510,7 @@
 			"",
 			"Sacristans vary in their appearance, but always look like tortured and maimed humanoids, often with redundant or absent features. They typically stand between 6 and 8 feet tall and weigh from 80 to 160 pounds.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"sacristan": { "copyof": "kyton,_sacristan" },
@@ -4589,7 +4589,7 @@
 			"",
 			"Suffragans have no need to eat or drink, and they are often so long out of the habit-having been fed through feeding tubes or magic while they were mortal-that they seem to have entirely forgotten how to. Suffragans understand that other creatures must eat, and they take delight in preparing what they believe to be elaborate meals for their mortal victims. Unfortunately, a suffragan's ideas of food range from the unusual (such as a bowl of moth wings) to the gruesome (such as lumps of flesh cut from the suffragan's torso).",
 			"",
-			"**Family:** Kyton(monster/family:kyton)",
+			"**Family:** [Kyton](family/kyton)",
 			"",
 			"### Habitat",
 			"",
@@ -4663,7 +4663,7 @@
 			"",
 			"Coddling, cooing mothers of nails and aberrant life, kyton termagants seek to make all living creatures adopted members of their malformed brood. That most of their purposefully deformed progeny die shortly after coming into their care only compels termagants to search farther for sturdier beings better suited to the honor of becoming their misshapen children.",
 			"",
-			"**Family:** Kyton(monster/family:kyton)"
+			"**Family:** [Kyton](family/kyton)"
 		]
 	},
 	"termagant": { "copyof": "kyton,_termagant" },
@@ -5388,7 +5388,7 @@
 			"",
 			"**Str** 20, **Dex** 26, **Con**: 23, **Int** 11, **Wis** 20, **Cha**, 23  ",
 			"**Base Atk** +13; **CMB** +19; **CMD** 37 (49 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Skill Focus (Perform [wind])](feat/skill_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Skill Focus](feat/skill_focus) (Perform [wind]), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Fly +26, Knowledge (planes) +18, Perception +17, Perform (wind instruments) +33, Spellcraft +21  ",
 			"**Languages** Aklo; telepathy 100 ft.  ",
 			"**SQ** no breath, starflight, void singer",
@@ -5883,7 +5883,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, goodberry, plant growth, summon nature's ally II; Skill Knowledge (nature) DC 14; **Cost** 1,250 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"cactus_leshy": { "copyof": "leshy,_cactus_leshy" },
@@ -5954,7 +5954,7 @@
 			"",
 			"A typical flytrap leshy is 2 feet tall and weighs 20 pounds.",
 			"",
-			"**Family:** Leshy(monster/family:leshy)",
+			"**Family:** [Leshy](family/leshy)",
 			"",
 			"### Creating",
 			"",
@@ -6040,7 +6040,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, obscuring mist, plant growth, summon nature's ally II; Skill Knowledge (dungeoneering or nature) DC 14; **Cost** 1,250 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"fungus_leshy": { "copyof": "leshy,_fungus_leshy" },
@@ -6118,7 +6118,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, entangle, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 13; **Cost** 750 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"gourd_leshy": { "copyof": "leshy,_gourd_leshy" },
@@ -6191,7 +6191,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, magic stone, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; **Cost** 500 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"leaf_leshy": { "copyof": "leshy,_leaf_leshy" },
@@ -6233,7 +6233,7 @@
 			"",
 			"**Str** 11, **Dex** 12, **Con**: 15, **Int** 10, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +3; **CMB** +2; **CMD** 13  ",
-			"**Feats** [Endurance](feat/endurance), [Skill Focus (Knowledge [geography])](feat/skill_focus), [Toughness](feat/toughness)  ",
+			"**Feats** [Endurance](feat/endurance), [Skill Focus](feat/skill_focus) (Knowledge [geography]), [Toughness](feat/toughness)  ",
 			"**Skills** Climb +8, Knowledge (geography) +5, Perception +10, Stealth +10 (+14 in hills and mountains), Survival +3 (+7 in hills and mountains); **Racial Modifiers** +4 Stealth and Survival in hills and mountains  ",
 			"**Languages** Druidic, Sylvan; plantspeech (lichens)  ",
 			"**SQ** change shape (Small lichen; tree shape), expert climber, verdant burst, weathering",
@@ -6272,7 +6272,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, plant growth, soften earth and stone, summon nature's ally III; Skill Knowledge (nature) DC 15; **Cost** 2,250 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"lichen_leshy": { "copyof": "leshy,_lichen_leshy" },
@@ -6315,7 +6315,7 @@
 			"",
 			"**Str** 10, **Dex** 15, **Con**: 16, **Int** 16, **Wis** 19, **Cha**, 15  ",
 			"**Base Atk** +5; **CMB** +4; **CMD** 21  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Skill Focus (Knowledge [religion])](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Skill Focus](feat/skill_focus) (Knowledge [religion]), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Diplomacy +9, Heal +11, Knowledge (religion) +13, Perception +14, Sense Motive +11, Stealth +6 (+10 in aquatic terrain), Survival +0 (+4 in aquatic terrain); **Racial Modifiers** +4 Stealth in aquatic terrain, +4 Survival in aquatic terrain  ",
 			"**Languages** Druidic, Sylvan; plantspeech (lotuses)  ",
 			"**SQ** change shape (small lotus flower; tree shape), verdant burst",
@@ -6342,7 +6342,7 @@
 			"",
 			"A typical lotus leshy stands 3 feet tall, and weighs 15 pounds.",
 			"",
-			"**Family:** Leshy(monster/family:leshy)",
+			"**Family:** [Leshy](family/leshy)",
 			"",
 			"### Creating",
 			"",
@@ -6425,7 +6425,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, plant growth, summon nature's ally III, water breathing; Skill Knowledge (nature) DC 16; **Cost** 2,250 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"seaweed_leshy": { "copyof": "leshy,_seaweed_leshy" },
@@ -6504,7 +6504,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, Perform (comedy, oratory, or sing) 1 rank, plant growth, speak with plants, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"snapdragon_leshy": { "copyof": "leshy,_snapdragon_leshy" },
@@ -6583,7 +6583,7 @@
 			"",
 			"**Requirements** Knowledge (nature) 5 ranks, light, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; **Cost** 500 gp",
 			"",
-			"**Family:** Leshy(monster/family:leshy)"
+			"**Family:** [Leshy](family/leshy)"
 		]
 	},
 	"sunflower_leshy": { "copyof": "leshy,_sunflower_leshy" }

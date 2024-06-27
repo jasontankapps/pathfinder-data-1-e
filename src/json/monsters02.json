@@ -1997,7 +1997,7 @@
 			"",
 			"**Str** 15, **Dex** 16, **Con**: 18, **Int** 17, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +7; **CMD** 20  ",
-			"**Feats** [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus (Knowledge [any one])](feat/skill_focus)  ",
+			"**Feats** [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus](feat/skill_focus) (Knowledge [any one])  ",
 			"**Skills** Craft (bookbinding) +11, Diplomacy +11, Disable Device +11, Knowledge (any one) +14, Linguistics +11, Perception +10, Sense Motive +10, Spellcraft +11, Survival +10  ",
 			"**Languages** Celestial, Draconic, Infernal, any 5 others; truespeech  ",
 			"**SQ** codex",

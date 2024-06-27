@@ -4070,7 +4070,7 @@
 			"**Source** [Inner Sea Gods pg. 213](source/inner_sea_gods)",
 			"",
 			"In times of need, you have the answers.  ",
-			"**Prerequisites:** Int 17, [Skill Focus (Knowledge [any])](feat/skill_focus), worshiper of Irori.  ",
+			"**Prerequisites:** Int 17, [Skill Focus](feat/skill_focus) (Knowledge [any]), worshiper of Irori.  ",
 			"**Benefit:** Choose a single Knowledge skill with which you have Skill Focus. Once per day, when you wish to make a check with that Knowledge skill, you need not roll, and may treat the result as if you had rolled a natural 20 instead."
 		]
 	},
@@ -5156,7 +5156,7 @@
 			"**Source** [Monster Hunter's Handbook pg. 7](source/monster_hunter's_handbook)",
 			"",
 			"Your knowledge of strange life forms makes you adept at piercing their disguises and detecting their hiding places.  ",
-			"**Prerequisites:** [Skill Focus (Knowledge [any])](feat/skill_focus), Knowledge (any) 3 ranks.  ",
+			"**Prerequisites:** [Skill Focus](feat/skill_focus) (Knowledge [any]), Knowledge (any) 3 ranks.  ",
 			"**Benefit:** You can substitute a Knowledge skill for opposed Perception checks against creatures' Disguise and Stealth checks, and for Survival checks to track creatures. You must have 3 ranks in the Knowledge skill that corresponds to the creature's type."
 		]
 	},

@@ -950,7 +950,7 @@
 			"",
 			"Small poppets are more durable but more expensive than typical poppets. They can also gain augmentations, but the extra material required doubles an augmentation's cost.",
 			"",
-			"**Family:** Poppet(monster/family:poppet)",
+			"**Family:** [Poppet](family/poppet)",
 			"",
 			"### Construction",
 			"",
@@ -1002,7 +1002,7 @@
 			"",
 			"Poppets have no minds of their own, and so carry out orders explicitly as they are instructed, even if their situation makes the command nonsensical. Poppets can only perform simple manual labor, but they can be commanded to perform simple tasks at certain times, or when certain conditions are met.",
 			"",
-			"**Family:** Poppet(monster/family:poppet)",
+			"**Family:** [Poppet](family/poppet)",
 			"",
 			"### Construction",
 			"",
@@ -1158,7 +1158,7 @@
 			"",
 			"The mighty kronosaurus is a relentless hunter that, once it picks up a potential meal's scent, rarely stops seeking its prey until its appetite is sated. A kronosaurus's diet consists of everything from large fish and sharks to small whales, giant squids, and sea turtles. Remains of other giant saurians have reportedly been found in the stomachs of those rare kronosauruses that are killed by hunters or wash up dead on shore. Unlike other reptiles, a kronosaurus does not lay eggs, but instead births its young live. The young kronosauruses stay with their mother for less than a year before parting ways and hunting on their own. A fully grown kronosaurus can reach lengths of up to 50 feet and weigh as much as 40,000 pounds.",
 			"",
-			"**Family:** Primeval Sea Creature(monster/family:primeval_sea_creature)"
+			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
 	"kronosaurus": { "copyof": "primeval_sea_creature,_kronosaurus" },
@@ -1211,7 +1211,7 @@
 			"",
 			"The nothosaur resembles a smaller version of the land-based brachiosaurus, sharing the distinctive long neck and tail and short legs of its herbivorous brethren. Nothosaurs are also similar in many ways to seals-they spend much of their time in the water, including when they hunt, but emerge to sleep and breed on land. They lay their eggs in massive sandy mounds in the summer, then abandon their nests and slip back into the sea. A nothosaur is most vulnerable out of the water, but when caught unawares, it can return to the water with alarming speed, notwithstanding its awkwardly short legs and disproportionately large neck and tail. Nothosaurs can exist in water of any temperature, but prefer the warmer equatorial waters. Herds of nothosaurs make seasonal migrations, following schools of fish over the course of many months. From head to the tip of its tail, an adult nothosaur is 12 feet long and weighs 3,000 pounds.",
 			"",
-			"**Family:** Primeval Sea Creature(monster/family:primeval_sea_creature)"
+			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
 	"nothosaur": { "copyof": "primeval_sea_creature,_nothosaur" },
@@ -1267,7 +1267,7 @@
 			"",
 			"The primordial zeuglodon is often mistaken for a dinosaur or other large reptile, in part because of its almost crocodilian mouth as well as its snake-like elongation. Despite these features, it is more closely related to whales and other cetaceans than either aquatic reptiles or fish. A zeuglodon moves through the water with a vertical anguiliform (eel-like) motion that seems almost to be a primitive version of the efficient flukedriven locomotion of its cetacean relatives. Zeuglodons breathe air through blowholes on the tops of their heads, though they lack the lung capacity to stay underwater for as long as their more evolved kin. The relative dimensions of their angular heads are too small to encase the enlarged brains or melons developed by other cetaceans for echolocation or communication with others of their kind, and as such zeuglodons are less social than whales and dolphins. What they lack in specialized anatomy, however, they make up for in sheer ferocity and speed. A hunting zeuglodon is a furious foe to contend with. An adult zeuglodon measures around 50 feet long and weighs upward of 50,000 pounds.",
 			"",
-			"**Family:** Primeval Sea Creature(monster/family:primeval_sea_creature)"
+			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
 	"zeuglodon": { "copyof": "primeval_sea_creature,_zeuglodon" },
@@ -1331,7 +1331,7 @@
 			"",
 			"Akizendris are the bane of scholars, capable of altering text, transposing sections between disparate tomes, and erasing book chapters only to vomit them up elsewhere.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"akizendri": { "copyof": "protean,_akizendri" },
@@ -1399,7 +1399,7 @@
 			"",
 			"Azuretzis, which are also known as mockery wyrms, enjoy vexing spellcasting creatures.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"azuretzi": { "copyof": "protean,_azuretzi" },
@@ -1471,7 +1471,7 @@
 			"",
 			"The average hegessik is 14 feet long and weighs 1,400 pounds.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"hegessik": { "copyof": "protean,_hegessik" },
@@ -1537,7 +1537,7 @@
 			"",
 			"Ibshaunet proteans are rarely seen engines of destruction.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"ibshaunet": { "copyof": "protean,_ibshaunet" },
@@ -1610,7 +1610,7 @@
 			"",
 			"Illureshis embody chaos through sorcery, traveling the planes as chatty and whimsical masters of arcane magic.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"illureshi": { "copyof": "protean,_illureshi" },
@@ -1676,7 +1676,7 @@
 			"",
 			"An imentesh is 15 feet long and weighs 1,200 pounds.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"imentesh": { "copyof": "protean,_imentesh" },
@@ -1782,7 +1782,7 @@
 			"",
 			"Voice of the Speakers (Su): The Herald of the Speakers has additional spell-like abilities (20 spell levels' worth of 1st- to 4thlevel spells usable at will and 20 spell levels' worth of 5th- to 8thlevel spells usable three times per day). All selected spells must come from the cleric spell list, the Chaos domain, or the Protean subdomain.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"izfiitar": { "copyof": "protean,_izfiitar" },
@@ -1851,7 +1851,7 @@
 			"",
 			"Priests and prophets, keketars are the leaders of their race, guiding proteans in their sacred mission to return all existence to primal chaos.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"keketar": { "copyof": "protean,_keketar" },
@@ -1920,7 +1920,7 @@
 			"",
 			"A naunet is 12 feet long and weighs 900 pounds.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"naunet": { "copyof": "protean,_naunet" },
@@ -1987,7 +1987,7 @@
 			"",
 			"An oshageros is 8 feet long and weighs 220 pounds.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"oshageros": { "copyof": "protean,_oshageros" },
@@ -2067,7 +2067,7 @@
 			"",
 			"An ourdivar is 12 feet long and weighs 700 pounds.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"ourdivar": { "copyof": "protean,_ourdivar" },
@@ -2137,7 +2137,7 @@
 			"",
 			"Just as other proteans delight in bringing change to subvert the awful stagnancy of the physical world, pelagastrs are dedicated to inviting chaos and freedom into the dull, stale lives of its inhabitants. Unrestrained by the limits of a physical body, they spy on private spaces and secrets, and hop from host to host to savor the strangeness of the physical world using as many senses as possible.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"pelagastr": { "copyof": "protean,_pelagastr" },
@@ -2201,7 +2201,7 @@
 			"",
 			"A voidworm is only 2 feet long and weighs a mere 2 pounds. No two voidworms are exactly alike in their coloration or markings. Their two feathery wings generally take on brighter colors than the rest of their bodies, and in the case of voidworms conjured as familiars, these \"wings\" are the same color as their masters' eyes.",
 			"",
-			"**Family:** Protean(monster/family:protean)"
+			"**Family:** [Protean](family/protean)"
 		]
 	},
 	"voidworm": { "copyof": "protean,_voidworm" },
@@ -2880,7 +2880,7 @@
 			"",
 			"An ahmuuth is a servitor of Pharasma who is responsible for helping mortals destroy undead and dispatch renegade souls evading the goddess's judgment. Unlike morrigna psychopomps, who hunt lost or corrupted souls on their own, ahmuuths work with mortal worshipers of Pharasma and try to usher creatures like ghosts to peaceable final ends-when they can. When they can't, they have no qualms about forcing wayward spirts to face their goddess's judgement. An ahmuuth looks like a humanoid wearing an owl mask, and is always accompanied by floating gravestone shards that act as a shield. Like owls, ahmuuths are silent stalkers, revealing themselves only at the moment of attack. Ahmuuths stand just over 6 feet tall and weigh approximately 150 pounds.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"ahmuuth": { "copyof": "psychopomp,_ahmuuth" },
@@ -2949,7 +2949,7 @@
 			"",
 			"Algeas protect (and in some cases retrieve) souls that are at risk of being claimed by other entities, particularly spellcasters who dabbled with otherworldly forces but never officially pledged their souls. Algeas are particularly focused on intervening and \"rescuing\" souls in danger of being trapped within the Material Plane by powerful entities like the Great Old Ones or false prophets who have deluded minions into worshiping them as living gods.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"algea": { "copyof": "psychopomp,_algea" },
@@ -3025,7 +3025,7 @@
 			"",
 			"A calaca's role is not in combat, and most retreat if a fight seems inevitable, returning another day to give peaceful mediation another try. In spite of calacas' pacifistic nature, each bears on its person an antique weapon such as a pistol or an exotic sword, which is perhaps the creature's most mysterious detail. Even the calaca does not know the purpose of this weapon-whether it is a relic from the creature's past as a mortal or just part of its disguise. However, if asked, a calaca replies that its weapon is an item gifted directly by the gods, and its use will become obvious when the appropriate time has come. A calaca's second-most important belonging is its instrument (typically a guitar or fiddle), which is capable of unleashing powerful magic if destroyed as a last resort.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)",
+			"**Family:** [Psychopomp](family/psychopomp)",
 			"",
 			"### Habitat",
 			"",
@@ -3102,7 +3102,7 @@
 			"",
 			"Catrinas always appear as festively dressed skeletons-usually in women's garb but sometimes in colorful men's formal wear, and usually decorated with or carrying flowers. They do not have true genders, but an individual catrina may have a more masculine or feminine voice and personality. They typically stand between 5 and 6 feet tall and weigh about 20 to 30 pounds.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"catrina": { "copyof": "psychopomp,_catrina" },
@@ -3168,7 +3168,7 @@
 			"",
 			"Ember weavers lead ahmuuths and esoboks in hunts for spirits waylaid by undeath. They also accompany nosois and catrinas to recover confused or rebellious spirits.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"ember_weaver": { "copyof": "psychopomp,_ember_weaver" },
@@ -3236,7 +3236,7 @@
 			"",
 			"Some psychopomps (particularly [vanths](monster/vanth)) have developed methods of training esoboks to realize greater potentials, allowing the creatures to tap into newfound reservoirs of magical ability. These trained esoboks have the advanced creature simple template and gain access to the following spell-like abilities, each usable once per day: ear-piercing scream, haunting mists, and teleport. The typical esobok stands 3 feet tall at the shoulder, is nearly as wide, and weighs upward of 300 pounds.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"esobok": { "copyof": "psychopomp,_esobok" },
@@ -3323,7 +3323,7 @@
 			"",
 			"A fulgati stands 80 feet tall and weighs 150-175 tons.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"fulgati": { "copyof": "psychopomp,_fulgati" },
@@ -3404,7 +3404,7 @@
 			"",
 			"Keres appear as pale, sickly women standing about 5 feet tall and weighing less than 100 pounds.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)",
+			"**Family:** [Psychopomp](family/psychopomp)",
 			"",
 			"### Ecology",
 			"",
@@ -3480,7 +3480,7 @@
 			"",
 			"Soldiers know memitims as the angels of death who protect fallen combatants and others who die as mass casualties from soul-hungry scavengers. While most memitims preside over massacres, their full wrath manifests against any who would cut numerous lives short in an unnatural pursuit of souls.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"memitim": { "copyof": "psychopomp,_memitim" },
@@ -3545,7 +3545,7 @@
 			"",
 			"A morbai stands just over 3 feet tall, resembling a hunched-over, old woman whose race always matches that of whoever views her. Each wears two plague masks, one on either side of her head, which conceal her faces and obscure where she actually focuses her attention. Her curved back and ragged shawl partially conceal two pairs of small, brown-feathered wings.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"morbai": { "copyof": "psychopomp,_morbai" },
@@ -3583,7 +3583,7 @@
 			"**Spell-Like Abilities (CL 12th; concentration +15)  ",
 			"*At will*-detect undead, stone tell  ",
 			"*5/day*-speak with dead  ",
-			"*3/day*-summon (level 7, 1d4 giant tarantulas [Pathfinder RPG Bestiary 2 256] 75% or 1d4 spider swarms 100%) Inquisitor  ",
+			"*3/day*-summon (level 7, 1d4 giant tarantulas 75% or 1d4 spider swarms 100%) Inquisitor  ",
 			"**Spells Known ** (CL 12th; concentration +15)  ",
 			"*4th (3)*-cure critical wounds, divination, freedom of movement, spell immunity  ",
 			"*3rd (5)*-blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)  ",
@@ -3620,7 +3620,7 @@
 			"",
 			"Many morrignas prefer to assume the appearances of those who have died. They ensure the smooth operation of death's bureaucratic machine by eliminating complications, dedicating their existence to wiping out any forces that circumvent or corrupt the natural cycle of death and judgment.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"morrigna": { "copyof": "psychopomp,_morrigna" },
@@ -3689,7 +3689,7 @@
 			"",
 			"A true neutral spellcaster can gain a nosoi as a familiar at 7th level by taking the Improved Familiar feat. A nosoi familiar grants its master a +2 bonus on skill checks made to scribe scrolls. A nosoi immediately leaves the service of any master who creates or permanently becomes an undead.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"nosoi": { "copyof": "psychopomp,_nosoi" },
@@ -3775,7 +3775,7 @@
 			"",
 			"A typical olethros stands only 5 feet tall and weighs 100 pounds. An olethros mother is much taller; it is not uncommon for such powerful psychopomps to be nearly 8 feet in height and weigh 250 pounds",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"olethros": { "copyof": "psychopomp,_olethros" },
@@ -3838,7 +3838,7 @@
 			"",
 			"Shokis are the collectors of lingering souls, tasked with compelling even the most deluded beings to take the first step into the afterlife. Their tactics are varied, but most start by counseling the wayward dead using theosophical arguments and blunt warnings about the ravenous things that wait to feed upon lost spirits. Each shoki bears powerful tools to aid it in such pursuits-eclectic collections of holy symbols and withered staves of cold iron capable of imprisoning a single soul at a time. Shokis use their staves against only the most stubborn or demented souls, whom they capture and personally escort to the Boneyard for judgment.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"shoki": { "copyof": "psychopomp,_shoki" },
@@ -3907,7 +3907,7 @@
 			"",
 			"Most outsiders scorn vanths, as the psychopomps have no concern for law, rightfulness, or personal gain-only duty. Vanths view any outsider visiting Purgatory as a potential threat, and stalk angels and demons alike.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"vanth": { "copyof": "psychopomp,_vanth" },
@@ -3972,7 +3972,7 @@
 			"",
 			"Viduuses occupy the many libraries and scriptoriums of the Boneyard, where they catalog the comings and goings of extraordinary souls: their lives, deeds, deaths, and secrets. Existence holds many mysteries, and those mortals who had brushes with the extraordinary have their tales and confessions recorded by these semi-cocooned scholars and added to the volumes of the Boneyard's expansive libraries. Although pretentious in the extreme, viduuses prove quite knowledgeable about many historical and planar secrets, and what they don't know they generally have a decent idea of how to research, potentially summoning assistants from across the planes to aid them.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"viduus": { "copyof": "psychopomp,_viduus" },
@@ -4055,7 +4055,7 @@
 			"",
 			"Just as many yamarajes become fascinated with souls possessing specific experiences or from certain backgrounds, some of the psychopomps go out of their way to judge beings from specific worlds, collecting bits of information and insight with every creature that passes them by. Thus, some become experts on one or multiple worlds, having spent eternities ferreting out the histories and secrets of worlds from firsthand accounts over millennia of inquiries. Many yamarajes welcome the opportunity to share the details of their investigations, though they sometimes see inquiries into their worlds of expertise as opportunities to conscript new allies to aid the psychopomps' cause. Standing at the pinnacle of their race, yamarajes are well informed as to the challenges and goals of many subservient psychopomps, and might only negotiate with mortals who perform a service in aid of their underlings.",
 			"",
-			"**Family:** Psychopomp(monster/family:psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
 	"yamaraj": { "copyof": "psychopomp,_yamaraj" },

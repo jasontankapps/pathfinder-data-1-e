@@ -2067,7 +2067,7 @@
 			"",
 			"Angheuvores are typically 6 feet tall and weigh about 125 pounds.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)"
+			"**Family:** [Mortic](family/mortic)"
 		]
 	},
 	"angheuvore": { "copyof": "mortic,_angheuvore" },
@@ -2145,7 +2145,7 @@
 			"",
 			"Whether courtesy of the negative energy replacing their souls or the powerful fey magic that burns inside them, etiolings can briefly slip from the physical world and become ghostly apparitions capable of flight and passing through solid matter. This ethereal state silences the mania bubbling from within and allows the crushing bleachling depression to flow over them, providing painful respite from their energetic lives. Because this unearthly state severs them from the wellspring of emotion that powers their magic, they cannot use any of their sylvan magic while incorporeal.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)",
+			"**Family:** [Mortic](family/mortic)",
 			"",
 			"### Habitat",
 			"",
@@ -2194,7 +2194,7 @@
 			"",
 			"**Str** 18, **Dex** 17, **Con**: 18, **Int** 17, **Wis** 14, **Cha**, 7  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 23  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Quick Draw](feat/quick_draw), [Skill Focus (Craft [leatherworking])](feat/skill_focus), [Signature Skill (Craft [leatherworking])](feat/signature_skill), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (dagger)](feat/weapon_focus)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Quick Draw](feat/quick_draw), [Skill Focus](feat/skill_focus) (Craft [leatherworking]), [Signature Skill](feat/signature_skill) (Craft [leatherworking]), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (dagger)](feat/weapon_focus)  ",
 			"**Skills** Craft (leatherworking) +18, Disguise +7, Knowledge (nature) +12, Stealth +15, Survival +14  ",
 			"**Languages** Common  ",
 			"**SQ** obsession skill, unliving nature",
@@ -2225,7 +2225,7 @@
 			"",
 			"As part of their cursed biology, gurgists suffer from a powerful hunger for meat, preferably fresh raw meat or offal. This hunger is a constant, gnawing sensation at the back of a gurgist's mind, and while it doesn't drive her to madness, it certainly drives her to distraction. Luckily for all involved, gurgists have at best a very mild preference for human flesh, and so most subsist on enormous quantities of raw beef, pork, or wild game.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)",
+			"**Family:** [Mortic](family/mortic)",
 			"",
 			"### Habitat",
 			"",
@@ -2302,7 +2302,7 @@
 			"",
 			"A typical jitterbone is 3 feet tall and weighs 35 pounds.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)"
+			"**Family:** [Mortic](family/mortic)"
 		]
 	},
 	"jitterbone": { "copyof": "mortic,_jitterbone" },
@@ -2377,7 +2377,7 @@
 			"",
 			"Upon receiving any killing blow, the lifeleecher's mortic ferocity activates. The mortic enters a feral, furious state that drives them on, allowing them to continue fighting where other humanoids, even orcs, would fall. As they enters this trance, they forgo weapons and other tools, instead ravaging their opponents with natural attacks, especially their savage, life-leeching maw. The fact that lifeleechers consume their foes' life energy with their maws leads many of them to gravitate toward cannibalism in general, and even those who do not partake of cannibalism tend to prefer their meat fresh and raw.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)",
+			"**Family:** [Mortic](family/mortic)",
 			"",
 			"### Habitat",
 			"",
@@ -2467,7 +2467,7 @@
 			"",
 			"Whenever someone dies inside the cursed ruins of a relictner, the mortic feels a sudden rush of energy and confidence as its curse fulfills its true purpose. The more painful, agonizing, and despair-ridden the death, the greater the subsequent high. The same ability also makes it easy for relictners to stalk prey within their domiciles, as they can usually find survivors nearby.",
 			"",
-			"**Family:** Mortic(monster/family:mortic)",
+			"**Family:** [Mortic](family/mortic)",
 			"",
 			"### Habitat",
 			"",
@@ -3356,7 +3356,7 @@
 			"",
 			"**Str** 14, **Dex** 27, **Con**: 20, **Int** 23, **Wis** 14, **Cha**, 29  ",
 			"**Base Atk** +8; **CMB** +10; **CMD** 46  ",
-			"**Feats** [Defensive Combat Training](feat/defensive_combat_training), [Discordant Voice](feat/discordant_voice), [Extra Performance](feat/extra_performance), [Improved Initiative](feat/improved_initiative), [Lingering Performance](feat/lingering_performance), [Skill Focus (Perform [all] and Craft [all])](feat/skill_focus) [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Defensive Combat Training](feat/defensive_combat_training), [Discordant Voice](feat/discordant_voice), [Extra Performance](feat/extra_performance), [Improved Initiative](feat/improved_initiative), [Lingering Performance](feat/lingering_performance), [Skill Focus](feat/skill_focus) (Perform [all] and Craft [all]) [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Craft (all) +34, Escape Artist +28, Knowledge (all) +17, Linguistics +13, Perception +22, Perform (all) +37, Spellcraft +23, Stealth +28, Use Magic Device +27  ",
 			"**Languages** Celestial, Common, Dwarven, Elven, Gnome, Halfling, Sylvan; telepathy 100 ft.; truespeech  ",
 			"**SQ** art is life, change shape (Small or Medium humanoid; alter self), inspiration",
@@ -3586,7 +3586,7 @@
 			"",
 			"Dark nagas hate others of their kind, especially other dark nagas, seeing their brethren as deadly opponents to be dispatched swiftly and mercilessly-often rightly so.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"dark_naga": { "copyof": "naga,_dark_naga" },
@@ -3664,7 +3664,7 @@
 			"",
 			"Deep nagas that reside in places of great magical power are able to extend their lifespans to centuries and beyond, and even their reproduction cycles are tied to magical energy. Once adult deep nagas have found a place with a steady flow of magic, they are able reproduce asexually, laying anywhere from one to three large eggs every few years.",
 			"",
-			"**Family:** Naga(monster/family:naga)",
+			"**Family:** [Naga](family/naga)",
 			"",
 			"### Habitat",
 			"",
@@ -3738,7 +3738,7 @@
 			"",
 			"Inhabitants of the Dimension of Dreams, dream nagas fly through dreamscapes as part of an unknowable plan to alter the destiny of the multiverse. Most creatures that encounter dream nagas do so while they sleep, as their dreams provide convenient shortcuts for the dream nagas' paths through the various dreamscapes. Even after these dreamers awaken, the sight of these beautiful creatures remains ingrained in their minds. Many cultures consider seeing a dream naga a sign of a special destiny. But when a dreaming creature gains the full attention of a dream naga, it is no mere chance encounter. For convoluted and arcane reasons that only they truly understand, dream nagas enter dreams and interact with the sleepers-sometimes relaying knowledge to the sleepers, and other times tormenting them. Such dream encounters often don't make sense to the dreaming creature until some point far in the future, if ever.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"dream_naga": { "copyof": "naga,_dream_naga" },
@@ -3804,7 +3804,7 @@
 			"",
 			"While many guardian nagas adhere to the exotic practices of ancient or forgotten faiths, others are merely drawn to sites of innate wonder-towering waterfalls, natural spires, mountaintop temples-minding them out of their own senses of duty and reverence. Often these nagas join a living faith, serving as protectors of sanctuaries or ancient treasures. A pair of nagas might take up residence near a site they deem worthy of protection, hatching a brood and raising their offspring there. When the young grow to adulthood, they have the choice of departing to seek their own homes or staying to protect their elder's charge. Sometimes, a guardian naga protecting a ruin or temple is but the current protector in a line of sentinels stretching back centuries. Such sentinels often take the same name as their forebears to appear as a single, exceptionally long-lived figure.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"guardian_naga": { "copyof": "naga,_guardian_naga" },
@@ -3873,7 +3873,7 @@
 			"",
 			"Lunar nagas sometimes lead small cults of sky-watchers. These followers aid the nagas in recording tome upon tome of calculations of the stars and planets moving through the inky black of the night sky. In small doses tempered with water, fruit juices, and alcohol, lunar naga venom is mildly hallucinogenic. The nagas' cultist allies often take the substance as a ritualistic drug.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"lunar_naga": { "copyof": "naga,_lunar_naga" },
@@ -3946,7 +3946,7 @@
 			"",
 			"Royal nagas tend to be stern in nature and commanding in speech. Although naturally sociable, they are distrustful of strangers and seem to have great difficulty speaking to other creatures as equals.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"royal_naga": { "copyof": "naga,_royal_naga" },
@@ -4015,7 +4015,7 @@
 			"",
 			"At home in the muck and filth of the sewers beneath large cities, slime nagas prey upon the weak and dejected of urban society. They lurk beneath the surface and carve out their domains in the darkened tunnels, fighting with other subterranean denizens for territory. Though they live belowground for security and safety, they have no aversion to light and occasionally sun themselves in rancid cesspools. Their scales range in color from green to brown and are often a mottled combination of various shades that is difficult to discern beneath a thick coating of putrid slime. A slime naga stretches 12 to 14 feet long and weighs 250 pounds.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"slime_naga": { "copyof": "naga,_slime_naga" },
@@ -4084,7 +4084,7 @@
 			"",
 			"Spirit nagas occasionally band together in small groups-some seeming to mimic the covens of hags. While a particular plot or foe might bring these deadly serpents together for a short time, spirit nagas are loyal only to themselves, and such alliances always end in deadly betrayal.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"spirit_naga": { "copyof": "naga,_spirit_naga" },
@@ -4153,7 +4153,7 @@
 			"",
 			"As their yearly treks make many water nagas especially well traveled, those who live near the serpents' lairs' usually lizardfolk, fey, and human tribes-often court the snake creatures' good graces with offerings of rich local delicacies, hoping to learn of nearby lands and pass on their own stories to distant neighbors. Enjoying flattery, exciting tales, and the adoration of those they see as lesser creatures, most water nagas take pride in their roles as travelers. However, while rarely malicious, they quickly grow bored of repetitive, mundane anecdotes and often embellish the stories they've heard with their own fictions-caring little for the repercussions such misleading tales might cause for their listeners. The congeniality of some water nagas does not extend to the entire race, and many unwary souls, even those with only the best intentions, face these serpentine creatures' deadly bite.",
 			"",
-			"**Family:** Naga(monster/family:naga)"
+			"**Family:** [Naga](family/naga)"
 		]
 	},
 	"water_naga": { "copyof": "naga,_water_naga" },
@@ -5514,7 +5514,7 @@
 			"",
 			"A nightcrawler is 60 feet long and weighs 10,000 pounds.",
 			"",
-			"**Family:** Nightshade(monster/family:nightshade)"
+			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
 	"nightcrawler": { "copyof": "nightshade,_nightcrawler" },
@@ -5589,7 +5589,7 @@
 			"",
 			"Nightprowlers do not retreat from fights, even when near destruction-they trust that they will be reborn in the umbral cradle that originally gave them unlife. Even so, these beasts value their own existence, and their powers of judgment do not allow them to undertake obvious suicide missions. If a nightprowler locates a formidable enemy, it often bides its time until it can recruit other undead to the cause. To this end, a nightprowler may promise allies pieces of the spoils, but often reneges on payment once the fight is finished. The other creature, surprised by the betrayal and weakened from battle, then becomes easy prey for the treacherous nightprowler.",
 			"",
-			"**Family:** Nightshade(monster/family:nightshade)",
+			"**Family:** [Nightshade](family/nightshade)",
 			"",
 			"### Habitat",
 			"",
@@ -5669,7 +5669,7 @@
 			"",
 			"A nightwalker is 20 feet tall and weighs 5,000 pounds.",
 			"",
-			"**Family:** Nightshade(monster/family:nightshade)"
+			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
 	"nightwalker": { "copyof": "nightshade,_nightwalker" },
@@ -5735,7 +5735,7 @@
 			"",
 			"A nightwave is 100 feet long and weighs 200 tons.",
 			"",
-			"**Family:** Nightshade(monster/family:nightshade)"
+			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
 	"nightwave": { "copyof": "nightshade,_nightwave" },
@@ -5801,7 +5801,7 @@
 			"",
 			"A nightwing's body is 20 feet long, but its wingspan is 80 feet. It weighs 4,500 pounds.",
 			"",
-			"**Family:** Nightshade(monster/family:nightshade)"
+			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
 	"nightwing": { "copyof": "nightshade,_nightwing" },

@@ -36,7 +36,7 @@
 			"",
 			"**Str** 15, **Dex** 15, **Con**: 12, **Int** 12, **Wis** 14, **Cha**, 16  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 19  ",
-			"**Feats** [Extra Performance](feat/extra_performance), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus (Perform [oratory])](feat/skill_focus), [Skill Focus (Perform [act])](feat/skill_focus), [Spellsong](feat/spellsong), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Extra Performance](feat/extra_performance), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus](feat/skill_focus) (Perform [oratory]), [Skill Focus](feat/skill_focus) (Perform [act]), [Spellsong](feat/spellsong), [Throw Anything](feat/throw_anything)  ",
 			"**Skills** Acrobatics +11, Appraise +5, Climb +14, Intimidate +8, Knowledge (geography) +8, Knowledge (history) +8, Knowledge (local) +8, Linguistics +6, Perception +10, Perform (act) +17, Perform (dance) +10, Perform (oratory) +17, Sleight of Hand +7, Spellcraft +8, Stealth +13, Use Magic Device +7; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Abyssal, Common, Kelish, Polyglot, Vanaran  ",
 			"**SQ** bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)  ",

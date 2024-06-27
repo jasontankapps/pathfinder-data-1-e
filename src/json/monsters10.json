@@ -7462,7 +7462,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 13, **Int** 10, **Wis** 10, **Cha**, 9  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 11 (15 vs. trip)  ",
-			"**Feats** [Skill Focus (Profession [miner])](feat/skill_focus)  ",
+			"**Feats** [Skill Focus](feat/skill_focus) (Profession [miner])  ",
 			"**Skills** Climb +5, Knowledge (engineering) +4, Perception +4 (+8 with hive mind), Profession (miner) +7  ",
 			"**Languages** Common, telepathy 60 ft.  ",
 			"**SQ** able assistant, formian traits, peerless bearer",

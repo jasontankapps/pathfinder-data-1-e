@@ -204,7 +204,7 @@
 			"",
 			"This ability replaces the rogue talent normally gained at 10th level.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the consigliere archetype: assault leader, black market connections, coax information, honeyed words (or certainty [Bluff ] for an unchained rogue), and shades of gray.",
+			"**Rogue Talents:** The following rogue talents complement the consigliere archetype: assault leader, black market connections, coax information, honeyed words (or certainty [Bluff] for an unchained rogue), and shades of gray.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the consigliere archetype: hard minded, opportunist, redirect attack, rumormonger, skill mastery, slippery mind, and unwitting ally."
 		]
@@ -611,7 +611,7 @@
 		"description": [
 			"## Filcher",
 			"",
-			"**Source** [Advanced Race Guide pg. 64]_Race Guide)  ",
+			"**Source** [Advanced Race Guide pg. 64](source/advanced_race_guide)  ",
 			"A filcher steals valuables without their owners even realizing it. Whether cutting purses in the midst of combat or replacing prized items with fakes under the noses of their owners, the filcher is the master of the quick and quiet steal. A filcher has the following class features.",
 			"",
 			"**Quicker than the Eye (Ex):** At 2nd level, a filcher develops an amazingly swift and delicate touch. When she uses Sleight of Hand, creatures take a penalty on their Perception checks to notice the attempt equal to half the filcher's class level. The filcher also subtracts her class level from the normal -20 penalty when attempting to make a Sleight of Hand check as a move action instead of as a standard action. Lastly, the filcher can withdraw an object hidden on her person, including a weapon, as a move action instead of the usual standard action. This ability replaces evasion.",
