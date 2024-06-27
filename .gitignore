@@ -28,5 +28,9 @@ yarn-error.log*
 # Optional eslint cache
 .eslintcache
 
+# Build data
+protoindex.json
+_data_*.json
+
 # My stuff
 __*.*
