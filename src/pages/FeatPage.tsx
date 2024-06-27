@@ -21,7 +21,7 @@ const FeatPage: React.FC = () => {
 	let pair: [string, string] | null = null;
 
 	Object.entries(subs).some(([prop, value]) => {
-		const found = value.indexOf(id || "unknown");
+		const found = value.indexOf(id || "not_found");
 		if(found > 0) {
 			pair = [value[0], prop as string];
 			return true;

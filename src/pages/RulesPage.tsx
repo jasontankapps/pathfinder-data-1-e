@@ -36,11 +36,11 @@ const MainPage: React.FC = () => {
 
 	const { id } = useParams<{ id?: Prop; }>();
 
-	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id || "unknown"] || rules.unknown) as JsonDataPropsRules;
+	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id || "not_found"] || rules.not_found) as JsonDataPropsRules;
 
 	const prevNext = useMemo(() => {
 		if(siblings && siblings.length > 1) {
-			const pos = siblings.indexOf(id || "unknown");
+			const pos = siblings.indexOf(id || "not_found");
 			if(pos < 0) {
 				return false;
 			} else if(pos === 0) {

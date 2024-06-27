@@ -16,11 +16,11 @@ interface CopyOf<T> extends Partial<FamilyProps> {
 	copyof: T
 }
 
-function getItem<T extends { unknown: FamilyProps }> (id: keyof T | undefined, json: T): FamilyProps {
-	let data = (json[id || "unknown"] || json.unknown) as CopyOf<keyof T>;
+function getItem<T extends { not_found: FamilyProps }> (id: keyof T | undefined, json: T): FamilyProps {
+	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[id || "unknown"] || json.unknown) as CopyOf<keyof T>), ...etc};
+		data = {...((json[id || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
 	}
 	return data as FamilyProps;
 };

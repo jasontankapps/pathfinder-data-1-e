@@ -87,7 +87,7 @@ type Params = { id?: string, parent?: keyof typeof classes };
 
 const ArchetypePage: React.FC = () => {
 
-	const { id = "unknown", parent = "ninja" } = useParams<Params>();
+	const { id = "not_found", parent = "ninja" } = useParams<Params>();
 
 	const Page = pages[classes[parent]];
 

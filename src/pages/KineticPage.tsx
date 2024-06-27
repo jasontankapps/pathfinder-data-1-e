@@ -17,11 +17,11 @@ interface CopyOf<T> extends Partial<TalentProps> {
 	copyof: T
 }
 
-function getItem<T extends { unknown: TalentProps }> (id: keyof T | undefined, json: T): TalentProps {
-	let data = (json[id || "unknown"] || json.unknown) as CopyOf<keyof T>;
+function getItem<T extends { not_found: TalentProps }> (id: keyof T | undefined, json: T): TalentProps {
+	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[id || "unknown"] || json.unknown) as CopyOf<keyof T>), ...etc};
+		data = {...((json[id || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
 	}
 	return data as TalentProps;
 };

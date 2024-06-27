@@ -39,7 +39,7 @@ const ClassPage: React.FC = () => {
 		alternate_capstones,
 		favored_class_bonuses,
 		archetypes
-	} = (classes[id || "unknown"] as JsonDataPropsClass);
+	} = (classes[id || "not_found"] as JsonDataPropsClass);
 
 	return (
 		<BasicPage title={title} {...{hierarchy, sources}}>

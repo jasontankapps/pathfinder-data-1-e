@@ -12,7 +12,7 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"unknown": {
+	"not_found": {
 		"name": "Unknown",
 		"sources": [],
 		"description": [

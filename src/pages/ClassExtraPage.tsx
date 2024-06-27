@@ -35,7 +35,7 @@ const ClassExtraPage: React.FC<Props> = ({subtopic}) => {
 
 	const { id } = useParams<Params>();
 
-	const solidId = (id || "unknown") as keyof Data;
+	const solidId = (id || "not_found") as keyof Data;
 
 	const {
 		name: title,
