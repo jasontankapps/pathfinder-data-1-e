@@ -1,23 +1,29 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import equipment from '../json/equipment_misc.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_equipment_misc.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [ ["Main", "main"], ["Equipment", "equipment"], ["Misc", "equipment_misc"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof equipment;
+const EquipmentMiscGroup1Page = lazy(() => import("./EquipmentMiscGroup1Page"));
+const EquipmentMiscGroup2Page = lazy(() => import("./EquipmentMiscGroup2Page"));
+const EquipmentMiscGroup3Page = lazy(() => import("./EquipmentMiscGroup3Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><EquipmentMiscGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><EquipmentMiscGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><EquipmentMiscGroup3Page id={id} /></Suspense>,
+]
 
 const EquipmentMiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, equipment);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
 export default EquipmentMiscPage;

@@ -1,45 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import templates from '../json/monsters_templates.json';
-import { SourceProp } from '../components/SourcesModal';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_template.json';
+import Loading from '../Loading';
 import './Page.css';
 
-interface TemplateProps {
-	name: string,
-	description: string[],
-	sources: SourceProp[],
-	subhierarchy?: [string, string][]
-	members?: string[]
-}
-interface CopyOf<T> extends Partial<TemplateProps> {
-	copyof: T
-}
+type Params = { id?: keyof typeof data };
 
-function getItem<T extends { missing: TemplateProps }> (id: keyof T | undefined, json: T): TemplateProps {
-	let data = (json[id || "missing"] || json.missing) as CopyOf<keyof T>;
-	while(data.copyof) {
-		const { copyof, ...etc } = data;
-		data = {...((json[id || "missing"] || json.missing) as CopyOf<keyof T>), ...etc};
-	}
-	return data as TemplateProps;
-};
+const MonsterTemplateGroup1Page = lazy(() => import("./MonsterTemplateGroup1Page"));
+const MonsterTemplateGroup2Page = lazy(() => import("./MonsterTemplateGroup2Page"));
 
-const hierarchy: HierarchyArray = [
-	["Monsters and NPCs", "monsters"],
-];
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterTemplateGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterTemplateGroup2Page id={id} /></Suspense>,
+]
 
-type Data = typeof templates;
-
-type Params = { id?: keyof Data };
-
-const BlessingPage: React.FC = () => {
+const MonsterTemplatePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, sources } = getItem<Data>(id, templates);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown}} {...{hierarchy, sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
-export default BlessingPage;
+export default MonsterTemplatePage;

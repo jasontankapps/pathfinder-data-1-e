@@ -1,59 +1,38 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
-import DisplayItem from '../components/DisplayItem';
-import { SourceProp } from '../components/SourcesModal';
-import classy from '../json/classes.json';
-import prestige from '../json/prestige_classes.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray, Table } from '../types';
+import data from '../json/_data_ability.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
+interface Params {
+	id?: keyof typeof data
+	subtopic?: "capstones" | "bonuses" | "archetypes"
+};
+interface Params2 {
+	id: string
+	subtopic?: "capstones" | "bonuses" | "archetypes"
+};
 
-const classes = {...classy, ...prestige};
+const ClassGroup1Page = lazy(() => import("./ClassGroup1Page"));
+const ClassGroup2Page = lazy(() => import("./ClassGroup2Page"));
+const ClassGroup3Page = lazy(() => import("./ClassGroup3Page"));
+const ClassGroup4Page = lazy(() => import("./ClassGroup4Page"));
 
-type Data = typeof classes;
+const pages = [
+	({id, subtopic}: Params2) => <Suspense fallback={<Loading />}><ClassGroup1Page id={id} subtopic={subtopic} /></Suspense>,
+	({id, subtopic}: Params2) => <Suspense fallback={<Loading />}><ClassGroup2Page id={id} subtopic={subtopic} /></Suspense>,
+	({id, subtopic}: Params2) => <Suspense fallback={<Loading />}><ClassGroup3Page id={id} subtopic={subtopic} /></Suspense>,
+	({id, subtopic}: Params2) => <Suspense fallback={<Loading />}><ClassGroup4Page id={id} subtopic={subtopic} /></Suspense>,
+]
 
-type Params = { id?: keyof Data };
-
-interface JsonDataPropsClass {
-	name: string,
-	description: string[],
-	tables?: Table[],
-	sources: SourceProp[]
-	alternate_capstones?: string[]
-	favored_class_bonuses?: string[]
-	archetypes?: string[]
-}
-
-const ClassPage: React.FC = () => {
+const ClassPage: React.FC<Params> = ({subtopic}) => {
 
 	const { id } = useParams<Params>();
 
-	const {
-		name: title,
-		description: markdown,
-		sources,
-		alternate_capstones,
-		favored_class_bonuses,
-		archetypes
-	} = (classes[id || "not_found"] as JsonDataPropsClass);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return (
-		<BasicPage title={title} {...{hierarchy, sources}}>
-			<DisplayItem markdown={markdown} />
-			{(alternate_capstones || favored_class_bonuses || archetypes) ? (
-				<div className="subtopics">
-					<header>Subtopics:</header>
-					<ul>
-						{alternate_capstones ? <li><Link to={`/classcapstone/${id}`}>Alternate Capstones</Link></li> : <></>}
-						{favored_class_bonuses ? <li><Link to={`/classfavored/${id}`}>Favored Class Bonuses</Link></li> : <></>}
-						{archetypes ? <li><Link to={`/classarchetypes/${id}`}>Archetypes</Link></li> : <></>}
-					</ul>
-				</div>
-			) : <></>}
-		</BasicPage>
-	);
+	return <Page id={id || "not_found"} subtopic={subtopic} />;
+
 };
 
 export default ClassPage;

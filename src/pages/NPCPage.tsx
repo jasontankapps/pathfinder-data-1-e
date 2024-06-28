@@ -1,23 +1,31 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import npcs from '../json/npcs.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_npc.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Monsters", "monsters"], ["All NPCs", "npcs"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof npcs;
+const NPCGroup1Page = lazy(() => import("./NPCGroup1Page"));
+const NPCGroup2Page = lazy(() => import("./NPCGroup2Page"));
+const NPCGroup3Page = lazy(() => import("./NPCGroup3Page"));
+const NPCGroup4Page = lazy(() => import("./NPCGroup4Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup4Page id={id} /></Suspense>,
+]
 
 const NPCPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, npcs);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
 export default NPCPage;

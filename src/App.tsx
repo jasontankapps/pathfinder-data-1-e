@@ -32,7 +32,6 @@ const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ClassPage = lazy(() => import("./pages/ClassPage"));
 const OtherClassPage = lazy(() => import("./pages/OtherClassPage"));
 const PrestigeClass = lazy(() => import("./pages/PrestigeClassPage"));
-const ClassExtraPage = lazy(() => import("./pages/ClassExtraPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
 const EquipmentSpecMaterialPage = lazy(() => import("./pages/EquipmentSpecMaterialPage"));
@@ -106,7 +105,6 @@ const SourcePage = lazy(() => import("./pages/SourcePage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
-const classPage = () => <Suspense fallback={<Loading />}><ClassPage /></Suspense>;
 const otherClassPage = () => <Suspense fallback={<Loading />}><OtherClassPage /></Suspense>;
 const typeOrSubtype = () => <Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense>;
 const mediumSpiritPage = () => <Suspense fallback={<Loading />}><MediumSpiritPage /></Suspense>;
@@ -126,10 +124,10 @@ const App: React.FC = () => {
 						<Route path="/bardicmasterpiece/:id" render={() => <Suspense fallback={<Loading />}><MasterpiecePage /></Suspense>} />
 						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <Suspense fallback={<Loading />}><BloodragerBloodlinePage /></Suspense>} />
-						<Route path="/class/:id" render={classPage} />
-						<Route path="/classarchetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="archetypes" /></Suspense>} />
-						<Route path="/classcapstone/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="capstones" /></Suspense>} />
-						<Route path="/classfavored/:id" render={() => <Suspense fallback={<Loading />}><ClassExtraPage subtopic="bonuses" /></Suspense>} />
+						<Route path="/class/:id" render={() => <Suspense fallback={<Loading />}><ClassPage /></Suspense>} />
+						<Route path="/classarchetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="archetypes" /></Suspense>} />
+						<Route path="/classcapstone/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="capstones" /></Suspense>} />
+						<Route path="/classfavored/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="bonuses" /></Suspense>} />
 						<Route path="/constructmod/:id" render={magicMisc} />
 						<Route path="/corruption/:id" render={() => <Suspense fallback={<Loading />}><CorruptionPage /></Suspense>} />
 						<Route path="/curse/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="curse" /></Suspense>} />

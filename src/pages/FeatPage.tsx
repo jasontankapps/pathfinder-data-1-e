@@ -9,11 +9,11 @@ type Params = { id?: keyof typeof data };
 const FeatGroup1Page = lazy(() => import("./FeatGroup1Page"));
 const FeatGroup2Page = lazy(() => import("./FeatGroup2Page"));
 const FeatGroup3Page = lazy(() => import("./FeatGroup3Page"));
-const FeatGroup4Page = lazy(() => import("./FeatGroup1Page"));
-const FeatGroup5Page = lazy(() => import("./FeatGroup2Page"));
-const FeatGroup6Page = lazy(() => import("./FeatGroup3Page"));
-const FeatGroup7Page = lazy(() => import("./FeatGroup1Page"));
-const FeatGroup8Page = lazy(() => import("./FeatGroup2Page"));
+const FeatGroup4Page = lazy(() => import("./FeatGroup4Page"));
+const FeatGroup5Page = lazy(() => import("./FeatGroup5Page"));
+const FeatGroup6Page = lazy(() => import("./FeatGroup6Page"));
+const FeatGroup7Page = lazy(() => import("./FeatGroup7Page"));
+const FeatGroup8Page = lazy(() => import("./FeatGroup8Page"));
 
 const pages = [
 	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup1Page id={id} /></Suspense>,

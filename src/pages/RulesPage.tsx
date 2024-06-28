@@ -1,111 +1,55 @@
-import { useMemo } from 'react';
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
-import DisplayItem from '../components/DisplayItem';
-import { SourceProp } from '../components/SourcesModal';
-import rules1 from '../json/rules.json';
-import rules2 from '../json/rules2.json';
-import rules3 from '../json/rules3.json';
-import rules4 from '../json/rules4.json';
-import { HierarchyArray, Table } from '../types';
-import BasicPage from './BasicPage';
+import data from '../json/_data_rule.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const rules = {...rules1, ...rules2, ...rules3, ...rules4};
+type Params = { id?: keyof typeof data };
 
-type RulesType = typeof rules;
+const RulesGroup01Page = lazy(() => import("./RulesGroup01Page"));
+const RulesGroup02Page = lazy(() => import("./RulesGroup02Page"));
+const RulesGroup03Page = lazy(() => import("./RulesGroup03Page"));
+const RulesGroup04Page = lazy(() => import("./RulesGroup04Page"));
+const RulesGroup05Page = lazy(() => import("./RulesGroup05Page"));
+const RulesGroup06Page = lazy(() => import("./RulesGroup06Page"));
+const RulesGroup07Page = lazy(() => import("./RulesGroup07Page"));
+const RulesGroup08Page = lazy(() => import("./RulesGroup08Page"));
+const RulesGroup09Page = lazy(() => import("./RulesGroup09Page"));
+const RulesGroup10Page = lazy(() => import("./RulesGroup10Page"));
+const RulesGroup11Page = lazy(() => import("./RulesGroup11Page"));
+const RulesGroup12Page = lazy(() => import("./RulesGroup12Page"));
+const RulesGroup13Page = lazy(() => import("./RulesGroup13Page"));
+const RulesGroup14Page = lazy(() => import("./RulesGroup14Page"));
+const RulesGroup15Page = lazy(() => import("./RulesGroup15Page"));
+const RulesGroup16Page = lazy(() => import("./RulesGroup16Page"));
 
-type Prop = keyof RulesType;
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup01Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup02Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup03Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup04Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup05Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup06Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup07Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup08Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup09Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup10Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup11Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup12Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup13Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup14Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup15Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup16Page id={id} /></Suspense>,
+]
 
-interface JsonDataPropsRules {
-	name: string
-	description: string[]
-	parent_topics?: Prop[]
-	subtopics?: Prop[]
-	siblings?: Prop[]
-	sources: SourceProp[]
-	tables?: Table[]
-}
+const RulesPage: React.FC = () => {
 
-const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["All Rules", "rules"]
-];
+	const { id } = useParams<Params>();
 
-const MainPage: React.FC = () => {
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	const { id } = useParams<{ id?: Prop; }>();
-
-	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id || "not_found"] || rules.not_found) as JsonDataPropsRules;
-
-	const prevNext = useMemo(() => {
-		if(siblings && siblings.length > 1) {
-			const pos = siblings.indexOf(id || "not_found");
-			if(pos < 0) {
-				return false;
-			} else if(pos === 0) {
-				return [null, [rules[siblings[1]].name, siblings[1]]];
-			} else if (pos === siblings.length - 1) {
-				return [[rules[siblings[pos - 1]].name, siblings[pos - 1]], null];
-			}
-			return [
-				[rules[siblings[pos - 1]].name, siblings[pos - 1]],
-				[rules[siblings[pos + 1]].name, siblings[pos + 1]]
-			];
-		}
-		return false;
-	}, [siblings, id]);
-
-	const subs = useMemo(() => {
-		if(subtopics) {
-			return (
-				<div className="subtopics">
-					<header>Subtopics:</header>
-					<ul>
-						{subtopics.map(sub => (
-							<li key={`${id}/${sub}`}><Link to={"/rule/" + sub}>{rules[sub].name}</Link></li>
-						))}
-					</ul>
-				</div>
-			);
-		}
-		return <></>;
-	}, []);
-
-	const h: HierarchyArray = useMemo(() => {
-		if(!parent_topics) {
-			return [...hierarchy];
-		}
-		return [...hierarchy, ...parent_topics.map(prop => [rules[prop].name, "rule/" + prop])] as HierarchyArray;
-	}, [parent_topics]);
-
-	return (
-		<BasicPage title={n} sources={sources} hierarchy={h}>
-			<DisplayItem markdown={["## " + n, "", ...markdown]} tables={tables} />
-			{subs}
-			{prevNext ? (
-				<div className="prevNext">
-					{prevNext[0] ?
-						<Link to={"/rule/" + prevNext[0][1]}>
-							<div className="prev">
-								<div>Previous topic</div>
-								<div>{prevNext[0][0]}</div>
-							</div>
-						</Link>
-					: <></>}
-					{prevNext[1] ?
-						<Link to={"/rule/" + prevNext[1][1]}>
-							<div className="next">
-								<div>Next topic</div>
-								<div>{prevNext[1][0]}</div>
-							</div>
-						</Link>
-					: <></>}
-				</div>
-			) : <></>}
-		</BasicPage>
-	);
+	return <Page id={id || "not_found"} />;
 
 };
 
-export default MainPage;
+export default RulesPage;

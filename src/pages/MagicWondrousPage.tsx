@@ -9,10 +9,10 @@ type Params = { id?: keyof typeof data };
 const MagicWondrousGroup1Page = lazy(() => import("./MagicWondrousGroup1Page"));
 const MagicWondrousGroup2Page = lazy(() => import("./MagicWondrousGroup2Page"));
 const MagicWondrousGroup3Page = lazy(() => import("./MagicWondrousGroup3Page"));
-const MagicWondrousGroup4Page = lazy(() => import("./MagicWondrousGroup1Page"));
-const MagicWondrousGroup5Page = lazy(() => import("./MagicWondrousGroup2Page"));
-const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup3Page"));
-const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup1Page"));
+const MagicWondrousGroup4Page = lazy(() => import("./MagicWondrousGroup4Page"));
+const MagicWondrousGroup5Page = lazy(() => import("./MagicWondrousGroup5Page"));
+const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup6Page"));
+const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup7Page"));
 
 const pages = [
 	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup1Page id={id} /></Suspense>,

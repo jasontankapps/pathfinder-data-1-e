@@ -1,4 +1,13 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested unique monster."
+		]
+	},
 	"agmazar_the_star_titan": {
 		"name": "Agmazar the Star Titan",
 		"sources": [ "Mythic Realms" ],

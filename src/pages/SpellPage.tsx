@@ -1,27 +1,47 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import spells1 from '../json/spells.json';
-import spells2 from '../json/spells2.json';
-import spells3 from '../json/spells3.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_spell.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Spells", "spells"]];
+type Params = { id?: keyof typeof data };
 
-const spells = {...spells1, ...spells2, ...spells3};
+const SpellGroup1Page = lazy(() => import("./SpellGroup01Page"));
+const SpellGroup2Page = lazy(() => import("./SpellGroup02Page"));
+const SpellGroup3Page = lazy(() => import("./SpellGroup03Page"));
+const SpellGroup4Page = lazy(() => import("./SpellGroup04Page"));
+const SpellGroup5Page = lazy(() => import("./SpellGroup05Page"));
+const SpellGroup6Page = lazy(() => import("./SpellGroup06Page"));
+const SpellGroup7Page = lazy(() => import("./SpellGroup07Page"));
+const SpellGroup8Page = lazy(() => import("./SpellGroup08Page"));
+const SpellGroup9Page = lazy(() => import("./SpellGroup09Page"));
+const SpellGroup10Page = lazy(() => import("./SpellGroup10Page"));
+const SpellGroup11Page = lazy(() => import("./SpellGroup11Page"));
+const OccultRitualGroup12Page = lazy(() => import("./SpellGroup12Page"));
 
-type Data = typeof spells;
-
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup4Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup5Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup6Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup7Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup8Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup9Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup10Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup11Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><OccultRitualGroup12Page id={id} /></Suspense>,
+]
 
 const SpellPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, spells);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
 export default SpellPage;
