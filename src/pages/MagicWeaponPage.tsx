@@ -1,23 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import magic from '../json/magic_weapon.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_magic_weapon.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Magic Weapons", "magic_weapons"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof magic;
+const MagicWeaponGroup1Page = lazy(() => import("./MagicWeaponGroup1Page"));
+const MagicWeaponGroup2Page = lazy(() => import("./MagicWeaponGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWeaponGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWeaponGroup2Page id={id} /></Suspense>,
+]
 
-const MagicPage: React.FC = () => {
+const MagicWeaponPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
-export default MagicPage;
+export default MagicWeaponPage;

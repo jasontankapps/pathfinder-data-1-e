@@ -1,23 +1,37 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import magic from '../json/magic_wondrous.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_magic_wondrous.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Wondrous Items", "magic_wondrous"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof magic;
+const MagicWondrousGroup1Page = lazy(() => import("./MagicWondrousGroup1Page"));
+const MagicWondrousGroup2Page = lazy(() => import("./MagicWondrousGroup2Page"));
+const MagicWondrousGroup3Page = lazy(() => import("./MagicWondrousGroup3Page"));
+const MagicWondrousGroup4Page = lazy(() => import("./MagicWondrousGroup1Page"));
+const MagicWondrousGroup5Page = lazy(() => import("./MagicWondrousGroup2Page"));
+const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup3Page"));
+const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup1Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup4Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup5Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup6Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup7Page id={id} /></Suspense>,
+]
 
-const MagicPage: React.FC = () => {
+const MagicWondrousPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
-export default MagicPage;
+export default MagicWondrousPage;

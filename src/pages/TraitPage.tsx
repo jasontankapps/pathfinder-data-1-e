@@ -1,23 +1,29 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import traits from '../json/traits.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_trait.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Traits", "traits"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof traits;
+const TraitGroup1Page = lazy(() => import("./TraitGroup1Page"));
+const TraitGroup2Page = lazy(() => import("./TraitGroup2Page"));
+const TraitGroup3Page = lazy(() => import("./TraitGroup3Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup3Page id={id} /></Suspense>,
+]
 
 const TraitPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, traits);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
 export default TraitPage;

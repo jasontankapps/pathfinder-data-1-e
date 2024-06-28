@@ -1,35 +1,39 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import feats from '../json/feats.json';
-import subs from '../json/feats_subhierarchy.json'
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_feat.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Feats", "feats"], ["All Feats", "feats_all"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof feats;
+const FeatGroup1Page = lazy(() => import("./FeatGroup1Page"));
+const FeatGroup2Page = lazy(() => import("./FeatGroup2Page"));
+const FeatGroup3Page = lazy(() => import("./FeatGroup3Page"));
+const FeatGroup4Page = lazy(() => import("./FeatGroup1Page"));
+const FeatGroup5Page = lazy(() => import("./FeatGroup2Page"));
+const FeatGroup6Page = lazy(() => import("./FeatGroup3Page"));
+const FeatGroup7Page = lazy(() => import("./FeatGroup1Page"));
+const FeatGroup8Page = lazy(() => import("./FeatGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup4Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup5Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup6Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup7Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup8Page id={id} /></Suspense>,
+]
 
 const FeatPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, feats);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	let pair: [string, string] | null = null;
+	return <Page id={id || "not_found"} />;
 
-	Object.entries(subs).some(([prop, value]) => {
-		const found = value.indexOf(id || "not_found");
-		if(found > 0) {
-			pair = [value[0], prop as string];
-			return true;
-		}
-		return false;
-	});
-
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...(pair ? [pair] : [])], sources}} />;
 };
 
 export default FeatPage;

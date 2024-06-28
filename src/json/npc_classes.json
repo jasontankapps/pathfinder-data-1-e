@@ -1,4 +1,13 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested class."
+		]
+	},
 	"adept": {
 		"name": "adept",
 		"sources": [

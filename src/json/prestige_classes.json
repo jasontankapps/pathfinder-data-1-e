@@ -1,4 +1,13 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested prestige class."
+		]
+	},
 	"agent_of_the_grave": {
 		"name": "Agent of the Grave",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
@@ -316,7 +325,10 @@
 	},
 	"thought_thief_arcane_trickster": {
 		"name": "Thought Thief (Arcane Trickster)",
-		"sources": [ "Paizo Blog - Hodgepodge from the Grand Lodge" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Paizo Blog - Hodgepodge from the Grand Lodge"
+		],
 		"description": [
 			"## Thought Thief (Arcane Trickster)",
 			"",

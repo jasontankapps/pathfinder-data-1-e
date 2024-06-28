@@ -30,6 +30,8 @@ setupIonicReact();
 const ArchetypePage = lazy(() => import("./pages/ArchetypePage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ClassPage = lazy(() => import("./pages/ClassPage"));
+const OtherClassPage = lazy(() => import("./pages/OtherClassPage"));
+const PrestigeClass = lazy(() => import("./pages/PrestigeClassPage"));
 const ClassExtraPage = lazy(() => import("./pages/ClassExtraPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
@@ -105,6 +107,7 @@ const SourcePage = lazy(() => import("./pages/SourcePage"));
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
 const classPage = () => <Suspense fallback={<Loading />}><ClassPage /></Suspense>;
+const otherClassPage = () => <Suspense fallback={<Loading />}><OtherClassPage /></Suspense>;
 const typeOrSubtype = () => <Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense>;
 const mediumSpiritPage = () => <Suspense fallback={<Loading />}><MediumSpiritPage /></Suspense>;
 
@@ -189,17 +192,17 @@ const App: React.FC = () => {
 						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
 						<Route path="/mystery/:id" render={() => <Suspense fallback={<Loading />}><MysteryPage /></Suspense>} />
 						<Route path="/npc/:id" render={() => <Suspense fallback={<Loading />}><NPCPage /></Suspense>} />
-						<Route path="/npcclass/:id" render={classPage} />
+						<Route path="/npcclass/:id" render={otherClassPage} />
 						<Route path="/oath/:id" render={() => <Suspense fallback={<Loading />}><OathPage /></Suspense>} />
 						<Route path="/oraclecurse/:id" render={() => <Suspense fallback={<Loading />}><CursePage /></Suspense>} />
 						<Route path="/order/:id" render={() => <Suspense fallback={<Loading />}><OrderPage /></Suspense>} />
 						<Route path="/outsiderspirit/:id" render={() => <Suspense fallback={<Loading />}><MediumSpiritPage type="outsider" /></Suspense>} />
-						<Route path="/prestigeclass/:id" render={classPage} />
+						<Route path="/prestigeclass/:id" render={() => <Suspense fallback={<Loading />}><PrestigeClass /></Suspense>} />
 						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
 						<Route path="/ragepower/:id" render={() => <Suspense fallback={<Loading />}><RagePowerPage /></Suspense>} />
 						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
 						<Route path="/shamanspirit/:id" render={() => <Suspense fallback={<Loading />}><ShamanSpiritPage /></Suspense>} />
-						<Route path="/sidekick/:id" render={classPage} />
+						<Route path="/sidekick/:id" render={otherClassPage} />
 						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
 						<Route path="/sorcererbloodline/:id" render={() => <Suspense fallback={<Loading />}><SorcererBloodlinePage /></Suspense>} />
 						<Route path="/source/:id" render={() => <Suspense fallback={<Loading />}><SourcePage /></Suspense>} />

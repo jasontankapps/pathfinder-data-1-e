@@ -15,83 +15,85 @@ const ArchetypeGroup8Page = lazy(() => import("./ArchetypeGroup8Page"));
 const ArchetypeGroup9Page = lazy(() => import("./ArchetypeGroup9Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup0Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup4Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup5Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup6Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup7Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup8Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup9Page id={id} /></Suspense>
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup0Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup1Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup2Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup3Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup4Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup5Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup6Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup7Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup8Page id={id} parent={parent} title={title} /></Suspense>,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup9Page id={id} parent={parent} title={title} /></Suspense>
 ];
 
-const classes = {
-	cavalier: 0,
-	fighter: 0,
-	investigator: 0,
+const classes: { [key: string]: [number, string] } = {
+	cavalier: [0, "Cavalier"],
+	fighter: [0, "Fighter"],
+	investigator: [0, "Investigator"],
 
-	bloodrager: 1,
-	gunslinger: 1,
-	hunter: 1,
-	monk: 1,
-	samurai: 1,
+	bloodrager: [1, "Bloodrager"],
+	gunslinger: [1, "Gunslinger"],
+	hunter: [1, "Hunter"],
+	monk: [1, "Monk"],
+	samurai: [1, "Samurai"],
 
-	bard: 2,
-	summoner: 2,
-	unchained_monk: 2,
-	swashbuckler: 2,
+	bard: [2, "Bard"],
+	summoner: [2, "Summoner"],
+	unchained_monk: [2, "Unchained Monk"],
+	swashbuckler: [2, "Swashbuckler"],
 
-	inquisitor: 3,
-	paladin: 3,
-	skald: 3,
-	warpriest: 3,
+	inquisitor: [3, "Inquisitor"],
+	paladin: [3, "Paladin"],
+	skald: [3, "Skald"],
+	warpriest: [3, "Warpriest"],
 
-	cleric: 4,
-	companion: 4,
-	magus: 4,
-	occultist: 4,
-	oracle: 4,
+	cleric: [4, "Cleric"],
+	companion: [4, "Companion"],
+	magus: [4, "Magus"],
+	occultist: [4, "Occultist"],
+	oracle: [4, "Oracle"],
 
-	psychic: 5,
-	ranger: 5,
-	shifter: 5,
-	slayer: 5,
-	spiritualist: 5,
+	psychic: [5, "Psychic"],
+	ranger: [5, "Ranger"],
+	shifter: [5, "Shifter"],
+	slayer: [5, "Slayer"],
+	spiritualist: [5, "Spiritualist"],
 
-	alchemist: 6,
-	antipaladin: 6,
-	arcanist: 6,
-	witch: 6,
+	alchemist: [6, "Alchemist"],
+	antipaladin: [6, "Antipaladin"],
+	arcanist: [6, "Arcanist"],
+	witch: [6, "Witch"],
 
-	kineticist: 7,
-	rogue: 7,
-	shaman: 7,
-	sorcerer: 7,
-	unchained_summoner: 7,
+	kineticist: [7, "Kineticist"],
+	rogue: [7, "Rogue"],
+	shaman: [7, "Shaman"],
+	sorcerer: [7, "Sorcerer"],
+	unchained_summoner: [7, "Unchained Summoner"],
 
-	brawler: 8,
-	barbarian: 8,
-	familiar: 8,
-	mesmerist: 8,
-	vigilante: 8,
+	brawler: [8, "Brawler"],
+	barbarian: [8, "Barbarian"],
+	familiar: [8, "Familiar"],
+	mesmerist: [8, "Mesmerist"],
+	vigilante: [8, "Vigilante"],
 
-	druid: 9,
-	medium: 9,
-	ninja: 9,
-	wizard: 9
+	druid: [9, "Druid"],
+	medium: [9, "Medium"],
+	ninja: [9, "Ninja"],
+	wizard: [9, "Wizard"]
 };
 
-type Params = { id?: string, parent?: keyof typeof classes };
+type Params = { id?: string, parent?: string };
 
 const ArchetypePage: React.FC = () => {
 
 	const { id = "not_found", parent = "ninja" } = useParams<Params>();
 
-	const Page = pages[classes[parent]];
+	const [num, title] = classes[parent] || classes.ninja;
 
-	return <Page id={id} />;
+	const Page = pages[num];
+
+	return <Page id={id} parent={parent} title={title} />;
 };
 
 export default ArchetypePage;

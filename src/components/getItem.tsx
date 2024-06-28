@@ -10,3 +10,12 @@ function getItem<T extends { not_found: JsonDataProps}> (id: keyof T | undefined
 };
 
 export default getItem;
+
+export function getGuaranteedItem<T> (id: keyof T, json: T): JsonDataProps {
+	let data = json[id] as CopyOf<keyof T>;
+	while(data.copyof) {
+		const { copyof, ...etc } = data;
+		data = {...(json[id] as CopyOf<keyof T>), ...etc};
+	}
+	return data as JsonDataProps;
+};

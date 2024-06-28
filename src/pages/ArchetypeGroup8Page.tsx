@@ -1,4 +1,3 @@
-import { useParams } from 'react-router';
 import getItem from '../components/getItem';
 import brawler from '../json/archetypes_brawler.json';
 import barbarian from '../json/archetypes_barbarian.json';
@@ -25,31 +24,19 @@ const archetypes = {
 	...vigilante
 };
 
-const classes = {
-	brawler: "Brawler",
-	barbarian: "Barbarian",
-	familiar: "Familiar",
-	mesmerist: "Mesmerist",
-	vigilante: "Vigilante"
-};
-
 type Data = typeof archetypes;
 
-type Params = { id?: keyof Data, parent: "brawler" | "barbarian" | "familiar" | "mesmerist" | "vigilante" };
+const ArchetypeGroup8Page: React.FC<{id: string, parent: string, title: string}> = ({id, parent, title}) => {
 
-const ArchetypeGroup8Page: React.FC<{id: string}> = () => {
-
-	const { id, parent } = useParams<Params>();
-
-	const { name: title, description, tables, sources } = getItem<Data>(id, archetypes);
+	const { name: n, description, tables, sources } = getItem<Data>((id as keyof Data), archetypes);
 
 	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
 
 	return (
 		<BasicPage
-			title={title}
+			title={n}
 			displayItem={{markdown, tables}}
-			hierarchy={[["Classes", "classes"], [classes[parent], "class/" + parent]]}
+			hierarchy={[["Classes", "classes"], [title, "class/" + parent]]}
 			sources={sources}
 		/>
 	);

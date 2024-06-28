@@ -3,16 +3,14 @@ import { Link } from 'react-router-dom';
 import DisplayItem from '../components/DisplayItem';
 import { SourceProp } from '../components/SourcesModal';
 import classy from '../json/classes.json';
-import npcclasses from '../json/npc_classes.json';
 import prestige from '../json/prestige_classes.json';
-import sidekicks from '../json/sidekicks.json';
 import BasicPage from './BasicPage';
 import { HierarchyArray, Table } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
 
-const classes = {...classy, ...npcclasses, ...prestige, ...sidekicks};
+const classes = {...classy, ...prestige};
 
 type Data = typeof classes;
 
