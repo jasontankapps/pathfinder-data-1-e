@@ -1,20 +1,21 @@
 import main from '../json/main20.json';
-import { HierarchyArray } from '../types';
+import { JsonDataPropsMain } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof main;
 
-const MainGroup01Page: React.FC<{id: string}> = ({id}) => {
+declare function isId(value: unknown): asserts value is keyof Data;
+declare function isMain(value: unknown): asserts value is JsonDataPropsMain;
 
-	const { title, description: markdown, previous, sources } = (main[id as keyof Data]);
+const MainGroup20Page: React.FC<{id: string}> = ({id}) => {
 
-	const hierarchy: HierarchyArray = previous.map(group => {
-		const [one, two] = group;
-		return [one || "", two || ""];
-	});
+	isId(id);
+	const data = main[id];
+	isMain(data);
+	const { title, description: markdown, tables, previous: hierarchy, sources } = data;
 
-	return <BasicPage title={title} displayItem={{markdown}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
 };
 
-export default MainGroup01Page;
+export default MainGroup20Page;

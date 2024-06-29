@@ -5,11 +5,17 @@ import './Page.css';
 
 type Data = typeof main;
 
-const MainGroup01Page: React.FC<{id: string}> = ({id}) => {
+declare function isId(value: unknown): asserts value is keyof Data;
+declare function isMain(value: unknown): asserts value is JsonDataPropsMain;
 
-	const { title, description: markdown, tables, previous: hierarchy, sources } = (main[id as keyof Data]) as JsonDataPropsMain;
+const MainGroup02Page: React.FC<{id: string}> = ({id}) => {
+
+	isId(id);
+	const data = main[id];
+	isMain(data);
+	const { title, description: markdown, tables, previous: hierarchy, sources } = data;
 
 	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
 };
 
-export default MainGroup01Page;
+export default MainGroup02Page;
