@@ -1,6 +1,6 @@
 import { FC, PropsWithChildren, useState } from 'react';
 import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
+import { chevronBack, chevronForward, informationCircle, search } from 'ionicons/icons';
 import DisplayItem from '../components/DisplayItem';
 import HierarchyTab from '../components/HierarchyTab';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
@@ -17,7 +17,8 @@ interface PageProps {
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const { title, displayItem, children, hierarchy = [], sources = [], hideSources } = props;
-	const [isOpen, setIsOpen] = useState(false);
+	// Create state for sources modal
+	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 
 	return (
 		<IonPage>
@@ -27,10 +28,15 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						<IonMenuButton />
 					</IonButtons>
 					<IonTitle>{title}</IonTitle>
+					<IonButtons slot="end">
+						<IonButton href="/search">
+							<IonIcon slot="icon-only" icon={search} />
+						</IonButton>
+					</IonButtons>
 				</IonToolbar>
 			</IonHeader>
 			<IonContent fullscreen>
-				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isOpen} setIsOpen={setIsOpen} />}
+				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<HierarchyTab hierarchy={hierarchy} />
 				{displayItem ? <DisplayItem {...displayItem} /> : children}
 			</IonContent>
@@ -42,7 +48,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						</IonButton>
 					</IonButtons>
 					<IonButtons className="slotless">
-						<IonButton onClick={() => setIsOpen(true)}>
+						<IonButton onClick={() => setIsSourcesModalOpen(true)}>
 							<IonIcon slot="icon-only" icon={informationCircle} />
 						</IonButton>
 					</IonButtons>

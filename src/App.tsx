@@ -102,6 +102,7 @@ const SorcererBloodlinePage = lazy(() => import("./pages/SorcererBloodlinePage")
 const BloodragerBloodlinePage = lazy(() => import("./pages/BloodragerBloodlinePage"));
 const ShamanSpiritPage = lazy(() => import("./pages/ShamanSpiritPage"));
 const SourcePage = lazy(() => import("./pages/SourcePage"));
+const SearchPage = lazy(() => import("./pages/SearchPage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
 const mainPage = () => <MainPage />;
@@ -199,6 +200,7 @@ const App: React.FC = () => {
 						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
 						<Route path="/ragepower/:id" render={() => <Suspense fallback={<Loading />}><RagePowerPage /></Suspense>} />
 						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
+						<Route path="/search" render={() => <Suspense fallback={<Loading />}><SearchPage /></Suspense>} />
 						<Route path="/shamanspirit/:id" render={() => <Suspense fallback={<Loading />}><ShamanSpiritPage /></Suspense>} />
 						<Route path="/sidekick/:id" render={otherClassPage} />
 						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
