@@ -1,16 +1,11 @@
 import main from '../json/main.json';
-import { JsonDataPropsMain } from '../types';
+import { isId, isMain } from '../components/mainAssertions';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-type Data = typeof main;
-
-declare function isId(value: unknown): asserts value is keyof Data;
-declare function isMain(value: unknown): asserts value is JsonDataPropsMain;
-
 const MainGroup01Page: React.FC<{id: string}> = ({id}) => {
 
-	isId(id);
+	isId(id, main);
 	const data = main[id];
 	isMain(data);
 	const { title, description: markdown, tables, previous: hierarchy, sources } = data;

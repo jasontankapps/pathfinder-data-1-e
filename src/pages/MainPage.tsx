@@ -4,7 +4,7 @@ import data from '../json/_data_main.json';
 import Loading from '../Loading';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Params = { mainpage?: keyof typeof data };
 
 const MainGroup01Page = lazy(() => import("./MainGroup01Page"));
 const MainGroup02Page = lazy(() => import("./MainGroup02Page"));
@@ -52,11 +52,11 @@ const pages = [
 
 const MainPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { mainpage } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
+	const Page = pages[mainpage ? ((data[mainpage] || 1) - 1) : 0];
 
-	return <Page id={id || "main"} />;
+	return <Page id={mainpage || "main"} />;
 
 };
 

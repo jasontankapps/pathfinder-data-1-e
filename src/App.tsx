@@ -118,6 +118,7 @@ const App: React.FC = () => {
 					<Menu />
 					<IonRouterOutlet id="main">
 						<Route path="/" exact={true} render={mainPage} />
+						<Route path="/:mainpage" render={mainPage} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
 						<Route path="/archetype/:parent/:id" render={() => <ArchetypePage />} />
@@ -222,7 +223,6 @@ const App: React.FC = () => {
 						<Route path="/trap/:id" render={() => <Suspense fallback={<Loading />}><TrapPage /></Suspense>} />
 						<Route path="/type/:id" render={typeOrSubtype} />
 						<Route path="/umr/:id" render={() => <Suspense fallback={<Loading />}><UMRPage /></Suspense>} />
-						<Route path="/:mainpage" render={mainPage} />
 					</IonRouterOutlet>
 				</IonSplitPane>
 			</IonReactRouter>
