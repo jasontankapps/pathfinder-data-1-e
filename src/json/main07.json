@@ -45,7 +45,7 @@
 			"",
 			"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"---",
 			"",
@@ -53,7 +53,7 @@
 			"",
 			"Information on construct modifications [can be found here.](rule/construct_modifications)",
 			"",
-			"`table5`",
+			"{table5}",
 			"",
 			"---",
 			"",
@@ -66,7 +66,7 @@
 			"",
 			"Implants must be physically excised to be removed. Removal inflicts 1d6 points of Constitution damage, and could have other effects as well (such as deafness or blindness) as determined by the GM.",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"---",
 			"",
@@ -145,7 +145,7 @@
 			"",
 			"**Penalty:** This is the penalty that a creature takes while benefiting from a fleshcraft graft or elixir, or takes if it fails the saving throw after imbibing a fleshcraft elixir.",
 			"",
-			"`table2`",
+			"{table2}",
 			"",
 			"---",
 			"",
@@ -265,7 +265,7 @@
 			"",
 			"A magic plant can be uprooted and moved, but it dies within a day unless it is magically treated with an effect such as gentle repose or temporal stasis. Uprooting a magic plant requires Strength sufficient to move it, 4 hours of work, and a successful DC 20 Knowledge (nature) check. An average magic tree weighs 500 pounds, while smaller plants, such as bushes or vines, average 50 pounds.",
 			"",
-			"`table3`",
+			"{table3}",
 			"",
 			"---",
 			"",
@@ -327,7 +327,7 @@
 			"**Description Source:** [Inner Sea Magic](source/inner_sea_magic)  ",
 			"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their [tattooed sorcerers](archetype/sorcerer/tattooed_sorcerer) bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
 			"",
-			"`table4`",
+			"{table4}",
 			"",
 			"---",
 			"",
@@ -610,7 +610,7 @@
 	"spells_all": {
 		"title": "All Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "all spells table",
@@ -3651,7 +3651,7 @@
 	"magic_armor": {
 		"title": "Magic Armor",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic armor table",

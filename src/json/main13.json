@@ -2,7 +2,7 @@
 	"spells_summoner": {
 		"title": "All Summoner Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "summoner spells table",
@@ -432,7 +432,7 @@
 	"spells_unchained_summoner": {
 		"title": "All Unchained Summoner Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "unchained_summoner spells table",
@@ -811,7 +811,7 @@
 	"spells_druid": {
 		"title": "All Druid Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "druid spells table",
@@ -1618,7 +1618,7 @@
 	"spells_hunter": {
 		"title": "All Hunter Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "hunter spells table",
@@ -2442,7 +2442,7 @@
 	"spells_medium": {
 		"title": "All Medium Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "medium spells table",

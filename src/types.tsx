@@ -60,7 +60,6 @@ export type CodePlugin = (input: string) => false | ReactNode
 export interface DisplayItemProps {
 	markdown: string | string[]
 	tables?: Table[]
-	otherCodes?: CodePlugin[]
 	className?: string
 }
 

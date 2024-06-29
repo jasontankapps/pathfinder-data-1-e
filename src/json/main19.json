@@ -2,7 +2,7 @@
 	"monsters_magical_beasts": {
 		"title": "Magical Beasts",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters magical beasts",
@@ -259,7 +259,7 @@
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters monstrous humanoids",
@@ -418,7 +418,7 @@
 	"monsters_outsiders_elemental": {
 		"title": "Elementals",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters elementals",
@@ -517,7 +517,7 @@
 	"monsters_outsiders_extraplanar": {
 		"title": "Extraplanar Outsiders",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters extraplanar outsiders",
@@ -1012,7 +1012,7 @@
 	"monsters_outsiders_native": {
 		"title": "Native Outsiders",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters native outsiders",
@@ -1115,7 +1115,7 @@
 	"monsters_plants": {
 		"title": "Plants",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters plants",
@@ -1243,7 +1243,7 @@
 	"monsters_undead": {
 		"title": "Undead",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters undead",
@@ -1474,7 +1474,7 @@
 	"monsters_vermin": {
 		"title": "Vermin",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters vermin",
@@ -1635,7 +1635,7 @@
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters aquatic",
@@ -1898,7 +1898,7 @@
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters incorporeal",
@@ -1984,7 +1984,7 @@
 	"monsters_shapechanger": {
 		"title": "Shapechanger Monsters",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters shapechangers",
@@ -2111,7 +2111,7 @@
 	"monsters_swarm": {
 		"title": "Swarms",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters swarms",

@@ -77,7 +77,7 @@
 	"monsters_1": {
 		"title": "Monsters: A to C",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters a c",
@@ -621,7 +621,7 @@
 	"monsters_2": {
 		"title": "Monsters: D to Fox",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters d fox",
@@ -1191,7 +1191,7 @@
 	"monsters_3": {
 		"title": "Monsters: Fr to Le",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters fr le",
@@ -1752,7 +1752,7 @@
 	"monsters_4": {
 		"title": "Monsters: Li to Sci",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters li sci",

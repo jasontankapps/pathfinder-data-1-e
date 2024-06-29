@@ -2,7 +2,7 @@
 	"spells_warpriest": {
 		"title": "All Warpriest Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "warpriest spells table",
@@ -999,7 +999,7 @@
 	"spells_bard": {
 		"title": "All Bard Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "bard spells table",
@@ -1881,7 +1881,7 @@
 	"spells_investigator": {
 		"title": "All Investigator Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "investigator spells table",
@@ -2300,7 +2300,7 @@
 	"spells_magus": {
 		"title": "All Magus Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magus spells table",
@@ -2800,7 +2800,7 @@
 	"spells_occultist": {
 		"title": "All Occultist Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "occultist spells table",

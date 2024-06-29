@@ -2,7 +2,7 @@
 	"traits_religion": {
 		"title": "Religion Traits",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "religion traits",
@@ -235,7 +235,7 @@
 	"traits_faction": {
 		"title": "Faction Traits",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "faction traits",
@@ -290,7 +290,7 @@
 		"description": [
 			"Regional traits are tied to particular regions, often specific nations, territories, or cities in a campaign. The following regional traits represent several generic regions that can be use in most campaign settings. It also includes many traits specific to regions on Golarion.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -2360,7 +2360,7 @@
 	"traits_campaign": {
 		"title": "Campaign Traits",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "campaign traits",
@@ -2593,7 +2593,7 @@
 		"description": [
 			"Race traits are tied to specific races. Your character must be of the specified race to select a race trait.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -5727,7 +5727,7 @@
 	"races": {
 		"title": "Races",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "all races table",
@@ -5829,7 +5829,7 @@
 			"",
 			"While anyone can attempt to cast occult rituals, the process is fraught with peril. The strange and intricate incantations are often challenging to perform with precision, and failure can weaken the casters or even unleash horrors upon the world. Even when successfully performed, each occult ritual has a price-a backlash that affects at least the caster leading the ritual, and often those assisting in its performance. [Click here for the full rules on Occult Rituals.](rule/occult_rituals)",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -5928,7 +5928,7 @@
 	"spells_antipaladin": {
 		"title": "All Antipaladin Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "antipaladin spells table",
@@ -6224,7 +6224,7 @@
 	"spells_adept": {
 		"title": "All Adept Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "adept spells table",

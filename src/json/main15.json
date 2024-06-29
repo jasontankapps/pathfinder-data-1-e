@@ -2,7 +2,7 @@
 	"monsters_all": {
 		"title": "All Monsters",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "all monsters table",

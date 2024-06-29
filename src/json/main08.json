@@ -2,7 +2,7 @@
 	"magic_weapons": {
 		"title": "Magic Weapons",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic weapon table",
@@ -514,7 +514,7 @@
 	"magic_rings": {
 		"title": "Magic Rings",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic rings table",
@@ -753,7 +753,7 @@
 	"magic_rods": {
 		"title": "Magic Rods",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic rods table",
@@ -1014,7 +1014,7 @@
 	"spells_cleric": {
 		"title": "All Cleric Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "cleric spells table",
@@ -2163,7 +2163,7 @@
 	"spells_oracle": {
 		"title": "All Oracle Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "oracle spells table",
@@ -3306,7 +3306,7 @@
 	"spells_ranger": {
 		"title": "All Ranger Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "ranger spells table",

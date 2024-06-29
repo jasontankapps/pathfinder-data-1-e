@@ -2,7 +2,7 @@
 	"spells_psychic": {
 		"title": "All Psychic Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "psychic spells table",
@@ -1116,7 +1116,7 @@
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "sorcerer spells table",
@@ -3014,7 +3014,7 @@
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "spiritualist spells table",

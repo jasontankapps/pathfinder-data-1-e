@@ -15,7 +15,7 @@
 			"",
 			"### All Deities",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -946,7 +946,7 @@
 			"",
 			"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -1030,7 +1030,7 @@
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "armor and shield enhancements",
@@ -1076,7 +1076,7 @@
 			"",
 			"A weapon with two types is both types if the entry specifies \"and,\" or either type (wielder's choice) if the entry specifies \"or.\"",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -1581,7 +1581,7 @@
 	},
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "misc equipment",

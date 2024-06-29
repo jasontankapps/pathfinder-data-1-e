@@ -8,7 +8,7 @@
 			"",
 			"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -118,7 +118,7 @@
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "siege engines",
@@ -206,7 +206,7 @@
 			"",
 			"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -377,7 +377,7 @@
 			"**Description Source:** [Alchemy Manual](source/alchemy_manual)",
 			"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -468,7 +468,7 @@
 			"",
 			"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books).",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -557,7 +557,7 @@
 			"",
 			"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -634,7 +634,7 @@
 			"",
 			"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -728,7 +728,7 @@
 			"",
 			"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -785,7 +785,7 @@
 			"",
 			"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -838,7 +838,7 @@
 			"",
 			"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -893,7 +893,7 @@
 			"",
 			"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -1081,7 +1081,7 @@
 		"description": [
 			"Adding an enhancement to armor, shields, and weapons raises the [base price](rule/magic_item_gold_piece_values) of the item being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -1432,7 +1432,7 @@
 	"magic_staves": {
 		"title": "Magic Staves",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic staves table",
@@ -1555,7 +1555,7 @@
 	"magic_wondrous": {
 		"title": "Wondrous Items",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "wondrous items table",
@@ -4136,7 +4136,7 @@
 	"magic_artifacts": {
 		"title": "Artifacts",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "magic artifact table",

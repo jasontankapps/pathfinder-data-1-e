@@ -167,8 +167,12 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	}), [rows, types, nullValue, id]);
 	return (
 		<table key={`table/${id}`} className={className}>
-			<tr>{headerItems}</tr>
-			{rowItems}
+			<thead>
+				<tr>{headerItems}</tr>
+			</thead>
+			<tbody>
+				{rowItems}
+			</tbody>
 		</table>
 	);
 };

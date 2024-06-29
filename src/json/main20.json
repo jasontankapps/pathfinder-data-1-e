@@ -2,7 +2,7 @@
 	"monsters_oozes": {
 		"title": "Oozes",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters oozes",
@@ -94,19 +94,19 @@
 		"description": [
 			"## Chaotic Monsters",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Evil Monsters",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"## Good Monsters",
 			"",
-			"`table2`",
+			"{table2}",
 			"",
 			"## Lawful Monsters",
 			"",
-			"`table3`"
+			"{table3}"
 		],
 		"tables": [
 			{
@@ -745,11 +745,11 @@
 		"description": [
 			"## Names and Descriptions",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Names and Stats",
 			"",
-			"`table1`"
+			"{table1}"
 		],
 		"tables": [
 			{
@@ -1091,11 +1091,11 @@
 		"description": [
 			"## Names and Descriptions",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Names and Stats",
 			"",
-			"`table1`"
+			"{table1}"
 		],
 		"tables": [
 			{
@@ -1434,7 +1434,7 @@
 			"",
 			"### All NPCs",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -1942,23 +1942,23 @@
 		"description": [
 			"## Adepts",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Aristocrats",
 			"",
-			"`table3`",
+			"{table3}",
 			"",
 			"## Commoners",
 			"",
-			"`table2`",
+			"{table2}",
 			"",
 			"## Experts",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"## Warriors",
 			"",
-			"`table4`"
+			"{table4}"
 		],
 		"tables": [
 			{
@@ -2112,15 +2112,15 @@
 		"description": [
 			"## Bards",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Sorcerers",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"## Wizards",
 			"",
-			"`table2`"
+			"{table2}"
 		],
 		"tables": [
 			{
@@ -2256,19 +2256,19 @@
 		"description": [
 			"## Clerics",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Druids",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"## Rangers",
 			"",
-			"`table3`",
+			"{table3}",
 			"",
 			"## Paladins",
 			"",
-			"`table4`"
+			"{table4}"
 		],
 		"tables": [
 			{
@@ -2445,19 +2445,19 @@
 		"description": [
 			"## Barbarians",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"## Fighters",
 			"",
-			"`table1`",
+			"{table1}",
 			"",
 			"## Monks",
 			"",
-			"`table3`",
+			"{table3}",
 			"",
 			"## Rogues",
 			"",
-			"`table4`"
+			"{table4}"
 		],
 		"tables": [
 			{
@@ -3423,7 +3423,7 @@
 	"drugs": {
 		"title": "Drugs",
 		"sources": [],
-		"description": [ "`table0` "],
+		"description": [ "{table0} "],
 		"tables": [
 			{
 				"id": "drugs table",

@@ -2,7 +2,7 @@
 	"monsters_5": {
 		"title": "Monsters: Sco to Z",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters sco z",
@@ -579,7 +579,7 @@
 	"monsters_aberrations": {
 		"title": "Aberrations",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters abberations",
@@ -759,7 +759,7 @@
 	"monsters_animals": {
 		"title": "Animals",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters animals",
@@ -1068,7 +1068,7 @@
 	"monsters_constructs": {
 		"title": "Constructs",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters constructs",
@@ -1259,7 +1259,7 @@
 	"monsters_dragons": {
 		"title": "Dragons",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters dragons",
@@ -1451,7 +1451,7 @@
 	"monsters_fey": {
 		"title": "Fey",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters fey",
@@ -1590,7 +1590,7 @@
 	"monsters_humanoids": {
 		"title": "Humanoids",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters humanoids",
@@ -1915,7 +1915,7 @@
 	"monsters_humanoids_giant": {
 		"title": "Giants",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters giants",
@@ -2025,7 +2025,7 @@
 	"monsters_humanoids_goblinoid": {
 		"title": "Goblinoids",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters goblinoids",

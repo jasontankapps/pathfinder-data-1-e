@@ -244,7 +244,7 @@
 		"description": [
 			"Skills represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -309,7 +309,7 @@
 			"",
 			"A character can't use a feat if he loses a prerequisite, but he does not lose the feat itself. If, at a later time, he regains the lost prerequisite, he immediately regains full use of the feat that prerequisite enables.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{

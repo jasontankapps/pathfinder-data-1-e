@@ -393,13 +393,13 @@
 			"",
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers. A barbarian of any level can take a lesser blood rage power. The middle blood rage power (that without \"lesser\" or \"greater\" in the title) can only be taken by a 6th level or higher barbarian that already has the lesser blood rage power of its group. A greater blood rage power can only be taken by a 10th level or higher barbarian that already has the middle blood rage power.",
 			"",
-			"`table0`",
+			"{table0}",
 			"",
 			"### Totem Rage Powers",
 			"",
 			"Totem rage powers are only available to barbarians taking the [Totem Warrior](archetype/barbarian/totem_warrior) archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title).",
 			"",
-			"`table1`"
+			"{table1}"
 		],
 		"tables": [
 			{
@@ -1494,7 +1494,7 @@
 			"",
 			"A kineticist gains a simple blast from her primary element at 1st level. Some elements offer more than one option. When a kineticist gains a new element via the expanded element class feature, she gains a simple blast from that element as well. Each simple blast is either a physical blast or an energy blast. Physical blasts are ranged attacks that deal an amount of damage equal to 1d6+1 + the kineticist's Constitution modifier, increasing by 1d6+1 for every 2 kineticist levels beyond 1st. Spell resistance doesn't apply against physical blasts. Energy blasts are ranged touch attacks that deal an amount of damage equal to 1d6 + 1/2 the kineticist's Constitution modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{
@@ -3001,7 +3001,7 @@
 			"",
 			"A kineticist can select one of the following wild talents at each even level, provided she meets the prerequisites.",
 			"",
-			"`table0`"
+			"{table0}"
 		],
 		"tables": [
 			{

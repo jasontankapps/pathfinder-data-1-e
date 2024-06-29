@@ -2,7 +2,7 @@
 	"monsters_all_stats": {
 		"title": "All Monsters: Stats",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters by cr table",
@@ -2759,7 +2759,7 @@
 	"monsters_outsiders": {
 		"title": "Outsiders",
 		"sources": [],
-		"description": [ "`table0`" ],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"id": "monsters outsiders",
