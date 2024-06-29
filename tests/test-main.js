@@ -1,8 +1,30 @@
 import main1 from '../src/json/main.json' assert {type: 'json'};
-import main2 from '../src/json/main2.json' assert {type: 'json'};
-import main3 from '../src/json/main3.json' assert {type: 'json'};
+import main2 from '../src/json/main02.json' assert {type: 'json'};
+import main3 from '../src/json/main03.json' assert {type: 'json'};
+import main4 from '../src/json/main04.json' assert {type: 'json'};
+import main5 from '../src/json/main05.json' assert {type: 'json'};
+import main6 from '../src/json/main06.json' assert {type: 'json'};
+import main7 from '../src/json/main07.json' assert {type: 'json'};
+import main8 from '../src/json/main08.json' assert {type: 'json'};
+import main9 from '../src/json/main09.json' assert {type: 'json'};
+import main10 from '../src/json/main10.json' assert {type: 'json'};
+import main11 from '../src/json/main11.json' assert {type: 'json'};
+import main12 from '../src/json/main12.json' assert {type: 'json'};
+import main13 from '../src/json/main13.json' assert {type: 'json'};
+import main14 from '../src/json/main14.json' assert {type: 'json'};
+import main15 from '../src/json/main15.json' assert {type: 'json'};
+import main16 from '../src/json/main16.json' assert {type: 'json'};
+import main17 from '../src/json/main17.json' assert {type: 'json'};
+import main18 from '../src/json/main18.json' assert {type: 'json'};
+import main19 from '../src/json/main19.json' assert {type: 'json'};
+import main20 from '../src/json/main20.json' assert {type: 'json'};
 
-const main = {...main1, ...main2, ...main3};
+const main = {
+	...main1, ...main2, ...main3, ...main4, ...main5,
+	...main6, ...main7, ...main8, ...main9, ...main10,
+	...main11, ...main12, ...main13, ...main14, ...main15,
+	...main16, ...main17, ...main18, ...main19, ...main20,
+};
 
 function isGood(value) {
 	console.log("\n...beginning test\n");
@@ -45,6 +67,7 @@ function isGood(value) {
 							|| !Array.isArray(headers)
 							|| !Array.isArray(types)
 							|| !Array.isArray(data)
+							|| (nullValue && typeof nullValue !== "string")
 						) {
 							found = true;
 							console.log(`Simple table error at ${prop}.tables[${i}]`)

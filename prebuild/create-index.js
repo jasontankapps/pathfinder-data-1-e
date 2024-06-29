@@ -1,4 +1,5 @@
 import fs from 'fs';
+import Fuse from 'fuse.js';
 import removeMd from 'remove-markdown';
 
 const read = (file) => fs.readFileSync(file, 'utf8');
@@ -263,7 +264,11 @@ const all = {
 
 const grouping_data = {};
 
-const index = {};
+const index = {
+	data: []
+};
+
+const output = [];
 
 /*
 
@@ -280,8 +285,9 @@ Object.entries(all).forEach(([file, pair]) => {
 		grouping_data[proplink] = {};
 	}
 	Object.entries(data).forEach(([prop, value]) => {
-		if(value.copyof && !data[value.copyof]) {
-			console.log(`${file}.${prop}.copyof = [${value.copyof}], not found in same file`);
+		const { name: n, title, description, copyof } = value;
+		if(copyof && !data[copyof]) {
+			console.log(`${file}.${prop}.copyof = [${copyof}], not found in same file`);
 			return;
 		}
 		if(prop === "not_found") {
@@ -290,22 +296,42 @@ Object.entries(all).forEach(([file, pair]) => {
 			console.log(`Duplicate [${prop}] in ${proplink} <${file}>`);
 		}
 		num && (grouping_data[proplink][prop] = num);
-		const { name: n, title, description, copyof } = value;
 		const base = proplink + "__" + prop;
 		if(index[base]) {
 			console.log(`Duplicate [${base}] parsing ${file}`);
 			return;
+		} else if (!n && !title && !description) {
+			// Nothing to record.
+			return;
 		}
-		index[base] = copyof ? {
-			name: n || title,
+		index[base] = true;
+		let named = n || title;
+		if(!named && copyof) {
+			if(data[copyof]) {
+				named = data[copyof].name || data[copyof].title;
+			}
+		}
+		named = named || "BLANK";
+		index.data.push(copyof ? {
+			name: named,
+			id: base,
 			type,
-			link: link + "/" + prop
+			link: link + "/" + copyof
 		} : {
-			name: n || title,
-			description: description && removeMd(description.join("\n")), // needs to be stripped of Markdown!
+			name: named,
+			// description needs to be stripped of Markdown
+			description: description && removeMd(description.join("\n")),
+			id: base,
 			type,
 			link: link + "/" + prop
-		};
+		});
+		output.push(JSON.stringify({
+			name: named,
+			description: "",
+			id: base,
+			type,
+			link: link + "/" + (copyof || prop)
+		}));
 	});
 });
 
@@ -313,14 +339,39 @@ Object.entries(grouping_data).forEach(([prop, value]) => {
 	fs.writeFileSync(`../src/json/_data_${prop}.json`, JSON.stringify(value));
 	console.log(`Saved _data_${prop}.json`);
 });
-const output = ["{"];
-const max = Object.keys(index).length - 1;
-Object.entries(index).forEach((pair, i) => {
-	const [prop, value] = pair;
-	output.push(`\t"${prop}":` + JSON.stringify(value) + (i === max ? "" : ","))
-});
-output.push("}\n");
 
-fs.writeFileSync('./protoindex.json', output.join(`\n`));
+fs.writeFileSync('../src/json/_data__fuse-data.json', `[\n\t${output.join(`,\n\t`)}\n]`);
 
-console.log("Saved protoindex.");
+console.log("Saved _data__fuse-data.json");
+
+const keys = [
+	{
+		name: 'name',
+		getFn: (item) => item.name,
+		weight: 1
+	},
+	{
+		name: 'description',
+		getFn: (item) => item.description,
+		weight: 0.7
+	},
+	{
+		name: 'id',
+		getFn: (item) => item.id,
+		weight: 0.000000001
+	},
+	{
+		name: 'link',
+		getFn: (item) => item.link,
+		weight: 0.000000001
+	},
+	{
+		name: 'type',
+		getFn: (item) => item.type,
+		weight: 0.2
+	}
+];
+const myIndex = Fuse.createIndex(keys, index.data);
+fs.writeFileSync('../src/json/_data__fuse-index.json', JSON.stringify(myIndex.toJSON()));
+
+console.log("Saved _data__fuse-index.json");

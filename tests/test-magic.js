@@ -1,6 +1,7 @@
 import magic_altar from '../src/json/magic_altar.json' assert {type: 'json'};
 import magic_armor from '../src/json/magic_armor.json' assert {type: 'json'};
-import magic_artifact from '../src/json/magic_artifact.json' assert {type: 'json'};
+import magic_artifact1 from '../src/json/magic_artifact.json' assert {type: 'json'};
+import magic_artifact2 from '../src/json/magic_artifact2.json' assert {type: 'json'};
 import magic_demonic_implants from '../src/json/magic_demonic_implants.json' assert {type: 'json'};
 import magic_devil_talismans from '../src/json/magic_devil_talismans.json' assert {type: 'json'};
 import magic_elemental_augmentations from '../src/json/magic_elemental_augmentations.json' assert {type: 'json'};
@@ -22,8 +23,15 @@ import magic_shadow_piercings from '../src/json/magic_shadow_piercings.json' ass
 import magic_staff from '../src/json/magic_staff.json' assert {type: 'json'};
 import magic_tattoo from '../src/json/magic_tattoo.json' assert {type: 'json'};
 import magic_throne from '../src/json/magic_throne.json' assert {type: 'json'};
-import magic_weapon from '../src/json/magic_weapon.json' assert {type: 'json'};
-import magic_wondrous from '../src/json/magic_wondrous.json' assert {type: 'json'};
+import magic_weapon1 from '../src/json/magic_weapon.json' assert {type: 'json'};
+import magic_weapon2 from '../src/json/magic_weapon2.json' assert {type: 'json'};
+import magic_wondrous1 from '../src/json/magic_wondrous.json' assert {type: 'json'};
+import magic_wondrous2 from '../src/json/magic_wondrous2.json' assert {type: 'json'};
+import magic_wondrous3 from '../src/json/magic_wondrous3.json' assert {type: 'json'};
+import magic_wondrous4 from '../src/json/magic_wondrous4.json' assert {type: 'json'};
+import magic_wondrous5 from '../src/json/magic_wondrous5.json' assert {type: 'json'};
+import magic_wondrous6 from '../src/json/magic_wondrous6.json' assert {type: 'json'};
+import magic_wondrous7 from '../src/json/magic_wondrous7.json' assert {type: 'json'};
 
 const magic = [
 	magic_armor,
@@ -46,14 +54,17 @@ const magic = [
 		...magic_throne,
 		...magic_tattoo,
 	},
-	magic_artifact,
+	{...magic_artifact1, ...magic_artifact2},
 	magic_enhancements,
 	magic_ioun_stones,
 	magic_ring,
 	magic_rod,
 	magic_staff,
-	magic_weapon,
-	magic_wondrous
+	{...magic_weapon1, ...magic_weapon2},
+	{
+		...magic_wondrous1, ...magic_wondrous2, ...magic_wondrous3, ...magic_wondrous4, ...magic_wondrous5,
+		...magic_wondrous6, ...magic_wondrous7
+	}
 ];
 
 const whats = [
@@ -82,8 +93,8 @@ function getCopyOf (object, what, etc) {
 
 function isGood(object, what) {
 	console.log("\n...beginning test: [" + what + "]\n");
-	if(!object.unknown) {
-		console.log("Missing 'unknown' entry.");
+	if(!object.not_found) {
+		console.log("Missing 'not_found' entry.");
 		return;
 	}
 	let found = false;
@@ -128,6 +139,7 @@ function isGood(object, what) {
 							|| !Array.isArray(headers)
 							|| !Array.isArray(types)
 							|| !Array.isArray(data)
+							|| (nullValue && typeof nullValue !== "string")
 						) {
 							found = true;
 							console.log(`Simple table error at ${prop}.tables[${i}]`)

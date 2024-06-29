@@ -1,7 +1,9 @@
 import ar from '../src/json/equipment_alchemical_reagents.json' assert {type: 'json'};
 import armor from '../src/json/equipment_armor.json' assert {type: 'json'};
 import ae from '../src/json/equipment_armor_enhancements.json' assert {type: 'json'};
-import misc from '../src/json/equipment_misc.json' assert {type: 'json'};
+import misc1 from '../src/json/equipment_misc.json' assert {type: 'json'};
+import misc2 from '../src/json/equipment_misc2.json' assert {type: 'json'};
+import misc3 from '../src/json/equipment_misc3.json' assert {type: 'json'};
 import poi from '../src/json/equipment_poisons.json' assert {type: 'json'};
 import se from '../src/json/equipment_siege_engines.json' assert {type: 'json'};
 import sm from '../src/json/equipment_special_materials.json' assert {type: 'json'};
@@ -18,7 +20,7 @@ import we from '../src/json/equipment_weapon_enhancements.json' assert {type: 'j
 const equipment = [
 	ar,
 	armor,
-	ae, misc, poi, se, sm, sb,
+	ae, {...misc1, ...misc2, ...misc3}, poi, se, sm, sb,
 	ta, tf, tc, tm, tp, tw,
 	weap, we
 ];
@@ -55,8 +57,8 @@ function getCopyOf (object, what, etc) {
 
 function isGood(object, what) {
 	console.log("\n...beginning test: [" + what + "]\n");
-	if(!object.unknown) {
-		console.log("Missing 'unknown' entry.");
+	if(!object.not_found) {
+		console.log("Missing 'not_found' entry.");
 		return;
 	}
 	let found = false;
@@ -101,6 +103,7 @@ function isGood(object, what) {
 							|| !Array.isArray(headers)
 							|| !Array.isArray(types)
 							|| !Array.isArray(data)
+							|| (nullValue && typeof nullValue !== "string")
 						) {
 							found = true;
 							console.log(`Simple table error at ${prop}.tables[${i}]`)
