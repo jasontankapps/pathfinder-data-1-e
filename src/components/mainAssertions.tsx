@@ -1,4 +1,4 @@
-import { CopyOf, JsonDataPropsMain } from '../types';
+import { JsonDataPropsMain } from '../types';
 
 
 export function isId(id: string, value: object): asserts id is keyof typeof value {

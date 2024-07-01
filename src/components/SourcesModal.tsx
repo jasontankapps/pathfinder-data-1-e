@@ -58,16 +58,22 @@ const SourcesModal: FC<ModalProps> = (props) => {
 				<IonList className="sourceList">
 					{
 						sources.length > 0 ? (
-							sources.map((source, i) => {
-								const key = `modal/source/${i}`;
-								const sourceObject = getItem<Data>(source, sourceInfo);
-								return (
-									sourceInfo[source]
-										? <IonItem key={key} href={sourceObject.url}><IonLabel>{sourceObject.title}</IonLabel></IonItem>
-										: <IonItem key={key}><IonLabel>{source}</IonLabel></IonItem>
-										//: <IonItem key={key + "/empty"}><IonLabel>{source}</IonLabel></IonItem>
-								);
-							})
+							<>
+								<IonItem><IonLabel>
+									<h1>Note</h1>
+									<h2>Links below lead to external sites.</h2>
+								</IonLabel></IonItem>
+								{sources.map((source, i) => {
+									const key = `modal/source/${i}`;
+									const sourceObject = getItem<Data>(source, sourceInfo);
+									return (
+										sourceInfo[source]
+											? <IonItem key={key} href={sourceObject.url}><IonLabel>{sourceObject.title}</IonLabel></IonItem>
+											: <IonItem key={key}><IonLabel>{source}</IonLabel></IonItem>
+											//: <IonItem key={key + "/empty"}><IonLabel>{source}</IonLabel></IonItem>
+									);
+								})}
+							</>
 						) : (
 							<IonItem><IonLabel><i>No sources provided.</i></IonLabel></IonItem>
 						)

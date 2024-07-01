@@ -26,9 +26,8 @@ const p = (props: MDpProps, tables: Table[]) => {
 				return <DisplayTable table={tables[index]} />;
 			}
 		}
-		return <p><strong>ERROR fetching [{children}]</strong></p>;
 	}
-	return <p>...{children}</p>;
+	return <p>{children}</p>;
 };
 
 const makeComponents = (tables: Table[]) => {
