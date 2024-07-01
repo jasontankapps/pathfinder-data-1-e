@@ -7,7 +7,7 @@ const read = (file) => fs.readFileSync(file, 'utf8');
 const GET = (file, joiner = " ") => JSON.parse(read("../src/json/" + file).replace(/\r/g, "").replace(/ *\n */g, joiner));
 
 // The below will need to be updated if any files are modified/created/deleted.
-const all = {
+const basic_data_groups = {
 	// filename: [property_prefix, link/prefix, group# (or zero if none), human-readable description]
 	"archetypes_alchemist.json": ["archetype_alchemist", "archetype/alchemist", 0, "Alchemist Archetype"],
 	"archetypes_antipaladin.json": ["archetype_antipaladin", "archetype/antipaladin", 0, "Antipaladin Archetype"],
@@ -223,22 +223,22 @@ const all = {
 	"prestige_classes3.json": ["prestigeclass", "prestigeclass", 3, "Prestige Class"],
 	"races.json": ["race", "race", 1, "Race"],
 	"races2.json": ["race", "race", 2, "Race"],
-	"rules.json": ["rule", "rule", 1, "Rule"],
-	"rules2.json": ["rule", "rule", 2, "Rule"],
-	"rules3.json": ["rule", "rule", 3, "Rule"],
-	"rules4.json": ["rule", "rule", 4, "Rule"],
-	"rules5.json": ["rule", "rule", 5, "Rule"],
-	"rules6.json": ["rule", "rule", 6, "Rule"],
-	"rules7.json": ["rule", "rule", 7, "Rule"],
-	"rules8.json": ["rule", "rule", 8, "Rule"],
-	"rules9.json": ["rule", "rule", 9, "Rule"],
-	"rules10.json": ["rule", "rule", 10, "Rule"],
-	"rules11.json": ["rule", "rule", 11, "Rule"],
-	"rules12.json": ["rule", "rule", 12, "Rule"],
-	"rules13.json": ["rule", "rule", 13, "Rule"],
-	"rules14.json": ["rule", "rule", 14, "Rule"],
-	"rules15.json": ["rule", "rule", 15, "Rule"],
-	"rules16.json": ["rule", "rule", 16, "Rule"],
+	"rules.json": ["rule", "rule", 1, "Rule", "name"],
+	"rules2.json": ["rule", "rule", 2, "Rule", "name"],
+	"rules3.json": ["rule", "rule", 3, "Rule", "name"],
+	"rules4.json": ["rule", "rule", 4, "Rule", "name"],
+	"rules5.json": ["rule", "rule", 5, "Rule", "name"],
+	"rules6.json": ["rule", "rule", 6, "Rule", "name"],
+	"rules7.json": ["rule", "rule", 7, "Rule", "name"],
+	"rules8.json": ["rule", "rule", 8, "Rule", "name"],
+	"rules9.json": ["rule", "rule", 9, "Rule", "name"],
+	"rules10.json": ["rule", "rule", 10, "Rule", "name"],
+	"rules11.json": ["rule", "rule", 11, "Rule", "name"],
+	"rules12.json": ["rule", "rule", 12, "Rule", "name"],
+	"rules13.json": ["rule", "rule", 13, "Rule", "name"],
+	"rules14.json": ["rule", "rule", 14, "Rule", "name"],
+	"rules15.json": ["rule", "rule", 15, "Rule", "name"],
+	"rules16.json": ["rule", "rule", 16, "Rule", "name"],
 	"sidekicks.json": ["class", "class", 0, "Companion"],
 	"skills.json": ["skill", "skill", 0, "Skill"],
 	"sources.json": ["source", "source", 0, "Source"],
@@ -278,12 +278,13 @@ Should include TITLE, DESCRIPTION, a LINK prop that will resolve to the correct 
 
 */
 
-Object.entries(all).forEach(([file, pair]) => {
+Object.entries(basic_data_groups).forEach(([file, pair]) => {
 	const data = GET(file);
-	const [proplink, link, num, type] = pair;
+	const [proplink, link, num, type, ...properties] = pair;
 	if(num && !grouping_data[proplink]) {
 		grouping_data[proplink] = {};
 	}
+	const has_properties = properties.length > 0;
 	Object.entries(data).forEach(([prop, value]) => {
 		const { name: n, title, description, copyof } = value;
 		if(copyof && !data[copyof]) {
@@ -295,7 +296,15 @@ Object.entries(all).forEach(([file, pair]) => {
 		} else if (num && grouping_data[proplink][prop]) {
 			console.log(`Duplicate [${prop}] in ${proplink} <${file}>`);
 		}
-		num && (grouping_data[proplink][prop] = num);
+		if (num) {
+			if(has_properties) {
+				const base = { page: num };
+				properties.forEach(prop => (base[prop] = value[prop]));
+				grouping_data[proplink][prop] = base;
+			} else {
+				grouping_data[proplink][prop] = num;
+			}
+		}
 		const base = proplink + "__" + prop;
 		if(index[base]) {
 			console.log(`Duplicate [${base}] parsing ${file}`);

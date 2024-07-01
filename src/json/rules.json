@@ -17,12 +17,7 @@
 			"alignment"
 		],
 		"description": [
-			"- [How to Play](rule/how_to_play)",
-			"- [Common Terms](rule/common_terms)",
-			"- [Character Creation](rule/character_creation)",
-			"- [Ability Scores](rule/ability_scores)",
-			"- [Character Advancement](rule/character_advancement)",
-			"- [Alignment](rule/alignment)"
+			"These topics cover the basics of character creation."
 		]
 	},
 	"skills": {
@@ -33,9 +28,7 @@
 			"skills_in_conflict"
 		],
 		"description": [
-			"- [Acquiring Skills](rule/acquiring_skills)",
-			"- [Skill Descriptions](rule/skill_descriptions)",
-			"- [Skills in Conflict](rule/skills_in_conflict)"
+			"These topics cover how skills work in the Pathfinder game."
 		]
 	},
 	"items": {
@@ -46,9 +39,7 @@
 			"vehicles"
 		],
 		"description": [
-			"- [Equipment](rule/equipment)",
-			"- [Magic Items](rule/magic_items)",
-			"- [Vehicles](rule/vehicles)"
+			"These topics cover the main types of equipment players may come across."
 		]
 	},
 	"exploration": {
@@ -59,9 +50,7 @@
 			"breaking_and_entering"
 		],
 		"description": [
-			"- [Movement](rule/movement)",
-			"- [Vision and Light](rule/vision_and_light)",
-			"- [Breaking and Entering](rule/breaking_and_entering)"
+			"These topics concern moving around in the world."
 		]
 	},
 	"combat": {
@@ -81,18 +70,7 @@
 			"mastering_combat"
 		],
 		"description": [
-			"- [How Combat Works](rule/how_combat_works)",
-			"- [Combat Statistics](rule/combat_statistics)",
-			"- [Actions in Combat](rule/actions_in_combat)",
-			"- [Injury and Death](rule/injury_and_death)",
-			"- [Movement, Position, and Distance](rule/movement,_position,_and_distance)",
-			"- [Big and Little Creatures in Combat](rule/big_and_little_creatures_in_combat)",
-			"- [Combat Modifiers](rule/combat_modifiers)",
-			"- [Special Attacks](rule/special_attacks)",
-			"- [Special Initiative Actions](rule/special_initiative_actions)",
-			"- [Conditions](rule/conditions)",
-			"- [Special Abilities](rule/special_abilities_2)",
-			"- [Mastering Combat](rule/mastering_combat)"
+			"These topics provide an overview of combat in the Pathfinder game."
 		]
 	},
 	"magic": {
@@ -102,8 +80,7 @@
 			"mastering_magic"
 		],
 		"description": [
-			"- [Magic Basics](rule/magic_basics)",
-			"- [Mastering Magic](rule/mastering_magic)"
+			"These topics cover the basics of magic in the Pathfinder game."
 		]
 	},
 	"gamemastering": {
@@ -116,25 +93,17 @@
 			"race_builder",
 			"downtime",
 			"campaign_systems",
+			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_intrigue",
 			"horror_rules",
+			"infernal_contracts",
 			"mastering_the_wild",
-			"planar_adventures"
+			"planar_adventures",
+			"primal_magic"
 		],
 		"description": [
-			"- [Basics from the Core Rulebook](rule/basics_from_the_core_rulebook)",
-			"- [GameMastery Guide](rule/gamemastery_guide)",
-			"- [Bestiary](rule/bestiary)",
-			"- [Race Builder](rule/race_builder)",
-			"- [Downtime](rule/downtime)",
-			"- [Campaign Systems](rule/campaign_systems)",
-			"- [Occult Rules](rule/occult_rules)",
-			"- [Mastering Intrigue](rule/mastering_intrigue)",
-			"- [Horror Rules](rule/horror_rules)",
-			"- [Mastering the Wild](rule/mastering_the_wild)",
-			"- [Planar Adventures](rule/planar_adventures)",
-			"- [Primal Magic](rule/primal_magic)"
+			"These topics cover topics of interest to gamemasters (GMs), the people who run the Pathfinder game for the other players."
 		]
 	},
 	"environment": {
@@ -149,13 +118,7 @@
 			"environmental_rules"
 		],
 		"description": [
-			"- [Dungeons](rule/dungeons)",
-			"- [Traps](rule/traps)",
-			"- [Wilderness](rule/wilderness)",
-			"- [Urban Adventures](rule/urban_adventures)",
-			"- [Weather](rule/weather)",
-			"- [The Planes](rule/the_planes)",
-			"- [Environmental Rules](rule/environmental_rules)"
+			"These topics explore different places the players may venture into."
 		]
 	},
 	"optional_rules_systems": {
@@ -164,7 +127,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",
@@ -175,17 +137,7 @@
 			"wounds_and_vigor"
 		],
 		"description": [
-			"- [Armor as Damage Reduction](rule/armor_as_damage_reduction)",
-			"- [Called Shots](rule/called_shots)",
-			"- [Hero Points](rule/hero_points)",
-			"- [Kingdoms and War](rule/kingdoms_and_war)",
-			"- [Mythic Rules](rule/mythic_rules)",
-			"- [Pathfinder Unchained](rule/pathfinder_unchained)",
-			"- [Piecemeal Armor](rule/piecemeal_armor)",
-			"- [Relics](rule/relics)",
-			"- [The Hunger](rule/the_hunger)",
-			"- [Words of Power](rule/words_of_power)",
-			"- [Wounds and Vigor](rule/wounds_and_vigor)"
+			"These topics cover optional rules."
 		]
 	},
 	"how_to_play": {

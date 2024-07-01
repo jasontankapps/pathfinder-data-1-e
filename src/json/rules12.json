@@ -20,7 +20,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",
@@ -163,7 +162,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",
@@ -617,7 +615,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",
@@ -748,7 +745,10 @@
 			"",
 			"Of Hell's contract makers, [phistophiluses](monster/phistophiluses)-also called contract devils-are considered the finest authors of infernal bargains. The rulers of Hell-Asmodeus, the archdevils, the infernal dukes, and the malebranche-are also storied deal makers. But infernal contracts are not the purview of contract writers alone. The forces of Hell stand as a largely unified threat against mortal life, and most specimens among the legions of devilkind can requisition tools from a vast, treacherous arsenal. Thus, a mortal encounter with nearly any devil has the potential to end in an offer: What would you give for greatness?"
 		],
-		"parent_topics": [ "optional_rules_systems" ],
+		"parent_topics": [
+			"gamemastering",
+			"optional_rules_systems"
+		],
 		"subtopics": [
 			"variant_contracts",
 			"negotiating_contracts",
@@ -758,18 +758,21 @@
 			"sample_contracts"
 		],
 		"siblings": [
-			"armor_as_damage_reduction",
-			"called_shots",
-			"hero_points",
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"bestiary",
+			"umr",
+			"race_builder",
+			"downtime",
+			"campaign_systems",
+			"aquatic_adventures_aa",
+			"occult_rules",
+			"mastering_intrigue",
+			"horror_rules",
 			"infernal_contracts",
-			"kingdoms_and_war",
-			"mythic_rules",
-			"pathfinder_unchained",
-			"piecemeal_armor",
-			"relics",
-			"the_hunger",
-			"words_of_power",
-			"wounds_and_vigor"
+			"mastering_the_wild",
+			"planar_adventures",
+			"primal_magic"
 		]
 	},
 	"variant_contracts": {
@@ -781,7 +784,7 @@
 			"Before exploring the intricacies of the infernal contract, it should be noted that other fiends are often willing to enter into contracts with mortals as well. Lawful evil fiends are generally the most trustworthy in this regard. Neutral evil fiends usually honor a contract as long as they get something out of the bargain or feel like they come out ahead, while chaotic evil fiends will almost always look to cheat or blatantly disregard the wording of a contract. All contracts with non-devil fiends carry with them a markedly increased level of risk to the mortal, and in many cases, the only possible outcome of such a foolish endeavor is the forfeiture of the mortal's soul-yet there are always extenuating circumstances that make the forging of such a risky contract a viable (or perhaps the only) option. For example, a king might agree to sign a contract with a powerful demon, knowing full well that the demon will break the contract, yet if signing the contract can buy even a few extra hours for a group of adventurers to attempt a desperate gambit to save the kingdom, such a sacrifice may be worth it in the end. How a non-devil fiend honors a contract is generally left up to the GM, but the basic mechanics work as for infernal contracts."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -812,7 +815,7 @@
 			"Devils generally don't enter into infernal contracts with evil creatures, as such creatures' souls are already bound for evil-aligned planes. In any case, regardless of a mortal's intentions or any potentially positive results, entering into an infernal contract is always a lawful and evil act."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -837,7 +840,7 @@
 			"Although most devils cannot instantly create an infernal contract, there are those that see the value of such an ability and develop the talent over ages of study. This exceptional training, which takes place deep within the Fallen Fastness of Dis, the sunken libraries of Stygia, or the other blasphemous vaults of Hell, manifests as the [Infernal Legist](feat/infernal_legist) feat."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -866,7 +869,7 @@
 			"Once a contract's kp is reduced to 0, the researcher discovers a flaw that could allow for an early termination of the contract. A mortal might exploit such a loophole to end the contract. In doing so, she would lose the contract's benefit but regain her soul. The specifics of this loophole might not be simple to engineer, but they provide hope of an escape. Not all infernal contracts contain such flaws, although the four detailed in [Sample Contracts](rule/sample_contracts) do."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -895,7 +898,7 @@
 			"If the mortal signee has already died and her soul is already in Hell, destroying the contract does not transport the soul to the afterlife where it otherwise would have been sent. The best the petitioner can hope for is to be liberated from her tortures, and her escape is made even more challenging by the fact that her soul is now free game for all of Hell's various deadly denizens. Moreover, the weight of having made a deal with a devil stays with a soul for the rest of its existence. Even after escaping a contract (or Hell itself, in the previous case), a mortal might still be forsaken by her deity and find herself condemned to Hell or any of the other evil-aligned planes. Actual salvation might require much more than the mere destruction of the infernal contract."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -1054,7 +1057,7 @@
 			"Termination Clause (0 kp) The contract is exacting in defining the signee's nature and home world. If the mortal were to place her soul into the body of another humanoid not native to her world, the terms of the contract would remain effective over her body, not her soul. Any soul within the mortal's original body is damned upon that body's death. The mortal could potentially reclaim her body after a soul within it is taken in this manner. Of course, tricking another's soul into damnation in this way is an evil act."
 		],
 		"parent_topics": [
-			"optional_rules_systems",
+			"gamemastering",
 			"infernal_contracts"
 		],
 		"siblings": [
@@ -1086,7 +1089,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",
@@ -6894,7 +6896,6 @@
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
-			"infernal_contracts",
 			"kingdoms_and_war",
 			"mythic_rules",
 			"pathfinder_unchained",

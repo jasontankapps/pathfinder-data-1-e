@@ -3,20 +3,25 @@ import { Link } from 'react-router-dom';
 import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
 import rules from '../json/rules12.json';
+import data from '../json/_data_rule.json';
 import { HierarchyArray, Table } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-type Data = typeof rules;
+type Rules = typeof rules;
 
-type Prop = keyof Data;
+type Prop = keyof Rules;
 
-interface JsonDataPropsRules {
+type Data = typeof data;
+
+type Name = keyof Data;
+
+interface JsonRulesProps {
 	name: string
 	description: string[]
-	parent_topics?: Prop[]
-	subtopics?: Prop[]
-	siblings?: Prop[]
+	parent_topics?: Name[]
+	subtopics?: Name[]
+	siblings?: Name[]
 	sources: SourceProp[]
 	tables?: Table[]
 }
@@ -27,23 +32,25 @@ const hierarchy: HierarchyArray = [
 ];
 
 
-const RulesGroup1Page: React.FC<{id: string}> = ({id}) => {
+const RulesGroup12Page: React.FC<{id: string}> = ({id}) => {
 
-	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id as Prop]) as JsonDataPropsRules;
+	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id as Prop]) as JsonRulesProps;
 
 	const prevNext = useMemo(() => {
 		if(siblings && siblings.length > 1) {
-			const pos = siblings.indexOf((id as Prop));
+			const pos = siblings.indexOf((id as Name));
+			const pre = pos - 1;
 			if(pos < 0) {
 				return false;
 			} else if(pos === 0) {
-				return [null, [rules[siblings[1]].name, siblings[1]]];
+				return [null, [data[siblings[1]].name, siblings[1]]];
 			} else if (pos === siblings.length - 1) {
-				return [[rules[siblings[pos - 1]].name, siblings[pos - 1]], null];
+				return [[data[siblings[pre]].name, siblings[pre]], null];
 			}
+			const post = pos + 1;
 			return [
-				[rules[siblings[pos - 1]].name, siblings[pos - 1]],
-				[rules[siblings[pos + 1]].name, siblings[pos + 1]]
+				[data[siblings[pre]].name, siblings[pre]],
+				[data[siblings[post]].name, siblings[post]]
 			];
 		}
 		return false;
@@ -56,20 +63,20 @@ const RulesGroup1Page: React.FC<{id: string}> = ({id}) => {
 					<header>Subtopics:</header>
 					<ul>
 						{subtopics.map(sub => (
-							<li key={`${id}/${sub}`}><Link to={"/rule/" + sub}>{rules[sub].name}</Link></li>
+							<li key={`${id}/${sub}`}><Link to={"/rule/" + sub}>{data[sub].name}</Link></li>
 						))}
 					</ul>
 				</div>
 			);
 		}
 		return <></>;
-	}, []);
+	}, [subtopics, id]);
 
 	const h: HierarchyArray = useMemo(() => {
 		if(!parent_topics) {
 			return [...hierarchy];
 		}
-		return [...hierarchy, ...parent_topics.map(prop => [rules[prop].name, "rule/" + prop])] as HierarchyArray;
+		return [...hierarchy, ...parent_topics.map(prop => [data[prop].name, "rule/" + prop])] as HierarchyArray;
 	}, [parent_topics]);
 
 	return (
@@ -100,4 +107,4 @@ const RulesGroup1Page: React.FC<{id: string}> = ({id}) => {
 	);
 };
 
-export default RulesGroup1Page;
+export default RulesGroup12Page;

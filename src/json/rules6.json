@@ -389,7 +389,7 @@
 			"| 72-98 | The spell functions normally. |",
 			"| 99-100 | The spell functions strongly. Saving throws against the spell incur a -2 penalty. The spell has the maximum possible effect, as if it were cast with the [Maximize Spell](feat/maximize_spell) feat. If the spell is already maximized with the feat, there is no further effect. |",
 			"",
-			"Compare: [Primal Magic](rule/primal_magic), [Unchained Wild Magic](wild_magic)"
+			"Compare: [Primal Magic](rule/primal_magic), [Unchained Wild Magic](rule/wild_magic)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6900,11 +6900,14 @@
 			"race_builder",
 			"downtime",
 			"campaign_systems",
+			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_intrigue",
 			"horror_rules",
+			"infernal_contracts",
 			"mastering_the_wild",
-			"planar_adventures"
+			"planar_adventures",
+			"primal_magic"
 		]
 	},
 	"stat_block": {
@@ -7941,11 +7944,14 @@
 			"race_builder",
 			"downtime",
 			"campaign_systems",
+			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_intrigue",
 			"horror_rules",
+			"infernal_contracts",
 			"mastering_the_wild",
-			"planar_adventures"
+			"planar_adventures",
+			"primal_magic"
 		]
 	},
 	"race_examples": {
