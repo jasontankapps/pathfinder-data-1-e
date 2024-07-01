@@ -2154,7 +2154,7 @@
 			"",
 			"### Description",
 			"",
-			"This golden chain is strung with glowing red-golden spheres of various sizes. It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective. It acts as a [necklace of fireballs (type I)](unknown/necklace_of_fireballs_type_1) with a 6d6 sphere instead of the 5d6 sphere. After a bead explodes, a tiny new sphere of the same type that exploded begins to bloom along the chain, growing in size and intensity over the course of 1 week, after which it is ready to detonate again.",
+			"This golden chain is strung with glowing red-golden spheres of various sizes. It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective. It acts as a [necklace of fireballs (type I)](magic/wondrous/necklace_of_fireballs_type_1) with a 6d6 sphere instead of the 5d6 sphere. After a bead explodes, a tiny new sphere of the same type that exploded begins to bloom along the chain, growing in size and intensity over the course of 1 week, after which it is ready to detonate again.",
 			"",
 			"**12th Level:** The necklace acts as a necklace of fireballs (type II) with an additional 4d6 sphere.",
 			"",
@@ -5718,7 +5718,7 @@
 			"",
 			"**Magical Aptitude:** When attempting a Spellcraft or Use Magic Device check, the monster rolls twice and takes the higher result.",
 			"",
-			"**Metamagic Spell:** Choose one [metamagic feat](unknown/metamagic_feat) and one spell the monster knows. That spell gains the benefit of the chosen metamagic feat once per day.",
+			"**Metamagic Spell:** Choose one [metamagic feat](feats_metamagic) and one spell the monster knows. That spell gains the benefit of the chosen metamagic feat once per day.",
 			"",
 			"**Mutagen:** Choose one of the following benefits:",
 			"",
@@ -6542,7 +6542,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 145](source/pathfinder_unchained)",
 			"",
-			"When using a [metamagic feat](unknown/metamagic_feat) to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
+			"When using a [metamagic feat](feats_metamagic) to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
 			"",
 			"For instance, our example 13th-level necromancer could cast an [enlarged fireball](spell/enlarged_fireball) as a full-round action using his spell pool, but to cast an [empowered fireball](spell/empowered_fireball), he would have to expend a 5th-level spell slot to prepare it, since 5th-level spells aren't part of his pool."
 		],

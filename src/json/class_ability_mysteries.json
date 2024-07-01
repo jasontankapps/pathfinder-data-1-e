@@ -11,11 +11,6 @@
 	"ancestor": {
 		"name": "Ancestor",
 		"sources": [ "Ultimate Magic" ],
-		"deities": [
-			"Erastil",
-			"Irori",
-			"Pharasma"
-		],
 		"description": [
 			"## Ancestor",
 			"",
@@ -55,10 +50,6 @@
 	"apocalypse": {
 		"name": "Apocalypse",
 		"sources": [ "Monster Codex" ],
-		"deities": [
-			"Gorum",
-			"Rovagug"
-		],
 		"description": [
 			"## Apocalypse",
 			"",
@@ -100,10 +91,6 @@
 	"ascetic": {
 		"name": "Ascetic",
 		"sources": [ "Villain Codex" ],
-		"deities": [
-			"Gozreh",
-			"Irori"
-		],
 		"description": [
 			"## Ascetic",
 			"",
@@ -139,12 +126,6 @@
 	"battle": {
 		"name": "Battle",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Cayden Cailean",
-			"Gorum",
-			"Iomedae",
-			"Rovagug"
-		],
 		"description": [
 			"## Battle",
 			"",
@@ -184,11 +165,6 @@
 	"bones": {
 		"name": "Bones",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Norgorber",
-			"Pharasma",
-			"Urgathoa"
-		],
 		"description": [
 			"## Bones",
 			"",
@@ -228,11 +204,6 @@
 	"dark_tapestry": {
 		"name": "Dark Tapestry",
 		"sources": [ "Ultimate Magic" ],
-		"deities": [
-			"Lamashtu",
-			"Norgorber",
-			"Zon-Kuthon"
-		],
 		"description": [
 			"## Dark Tapestry",
 			"",
@@ -272,13 +243,6 @@
 	"dragon": {
 		"name": "Dragon",
 		"sources": [ "Legacy of Dragons" ],
-		"deities": [
-			"Dahak",
-			"General Susumu",
-			"Nalinivati",
-			"Ragadahn",
-			"Shizuru"
-		],
 		"description": [
 			"## Dragon",
 			"",
@@ -324,12 +288,6 @@
 	"elemental": {
 		"name": "Elemental",
 		"sources": [ "Elemental Master's Handbook" ],
-		"deities": [
-			"Elemental Lords",
-			"Gozreh",
-			"Nethys",
-			"Yamatsumi"
-		],
 		"description": [
 			"## Elemental",
 			"",
@@ -373,10 +331,6 @@
 	"flame": {
 		"name": "Flame",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Asmodeus",
-			"Sarenrae"
-		],
 		"description": [
 			"## Flame",
 			"",
@@ -416,13 +370,6 @@
 	"godclaw": {
 		"name": "Godclaw",
 		"sources": [ "Path of the Hellknight" ],
-		"deities": [
-			"Abadar",
-			"Asmodeus",
-			"Iomedae",
-			"Irori",
-			"Torag"
-		],
 		"description": [
 			"## Godclaw",
 			"",
@@ -464,12 +411,6 @@
 	"heavens": {
 		"name": "Heavens",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Desna",
-			"Gozreh",
-			"Pharasma",
-			"Sarenrae"
-		],
 		"description": [
 			"## Heavens",
 			"",
@@ -509,10 +450,6 @@
 	"intrigue": {
 		"name": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
-		"deities": [
-			"Calistria",
-			"Norgorber"
-		],
 		"description": [
 			"## Intrigue",
 			"",
@@ -555,9 +492,6 @@
 			"Faiths and Philosophies",
 			"Pathfinder #39: The City of Seven Spears"
 		],
-		"deities": [
-			"Wendo"
-		],
 		"description": [
 			"## Juju",
 			"",
@@ -595,11 +529,6 @@
 	"life": {
 		"name": "Life",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Gozreh",
-			"Pharasma",
-			"Sarenrae"
-		],
 		"description": [
 			"## Life",
 			"",
@@ -639,11 +568,6 @@
 	"lore": {
 		"name": "Lore",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Abadar",
-			"Irori",
-			"Nethys"
-		],
 		"description": [
 			"## Lore",
 			"",
@@ -683,14 +607,6 @@
 	"lunar": {
 		"name": "Lunar",
 		"sources": [ "Blood of the Moon" ],
-		"deities": [
-			"Ashava",
-			"Desna",
-			"Groetus",
-			"Jezelda",
-			"Tsukiyo",
-			"Zon-Kuthon"
-		],
 		"description": [
 			"## Lunar",
 			"",
@@ -730,11 +646,6 @@
 	"metal": {
 		"name": "Metal",
 		"sources": [ "Ultimate Magic" ],
-		"deities": [
-			"Abadar",
-			"Gorum",
-			"Torag"
-		],
 		"description": [
 			"## Metal",
 			"",
@@ -774,10 +685,6 @@
 	"nature": {
 		"name": "Nature",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Erastil",
-			"Gozreh"
-		],
 		"description": [
 			"## Nature",
 			"",
@@ -820,12 +727,6 @@
 			"Occult Mysteries",
 			"Pathfinder #71: Rasputin Must Die!"
 		],
-		"deities": [
-			"Magdh",
-			"Nethys",
-			"Pharasma",
-			"Tsukiyo"
-		],
 		"description": [
 			"## Occult",
 			"",
@@ -867,12 +768,6 @@
 	"outer_rifts": {
 		"name": "Outer Rifts",
 		"sources": [ "Inner Sea Magic" ],
-		"deities": [
-			"Iomedae",
-			"Groetus",
-			"Lamashtu",
-			"demon lords"
-		],
 		"description": [
 			"## Outer Rifts",
 			"",
@@ -912,11 +807,6 @@
 	"reaper": {
 		"name": "Reaper",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"deities": [
-			"Achaekek",
-			"Groetus",
-			"Pharasma"
-		],
 		"description": [
 			"## Reaper",
 			"",
@@ -958,12 +848,6 @@
 	"shadow": {
 		"name": "Shadow",
 		"sources": [ "Blood of Shadows" ],
-		"deities": [
-			"Groetus",
-			"Lao Shu Po",
-			"Tsukiyo",
-			"Zon-Kuthon"
-		],
 		"description": [
 			"## Shadow",
 			"",
@@ -1003,16 +887,6 @@
 	"solar": {
 		"name": "Solar",
 		"sources": [ "The Harrow Handbook" ],
-		"deities": [
-			"Desna",
-			"Gozreh",
-			"Iomedae",
-			"Keltheald",
-			"Lalaci",
-			"Nurgal",
-			"Sarenrae",
-			"Ymeri"
-		],
 		"description": [
 			"## Solar",
 			"",
@@ -1054,12 +928,6 @@
 	"spellscar": {
 		"name": "Spellscar",
 		"sources": [ "Inner Sea Magic" ],
-		"deities": [
-			"Gozreh",
-			"Lamashtu",
-			"Nethys",
-			"Zyphus"
-		],
 		"description": [
 			"## Spellscar",
 			"",
@@ -1099,11 +967,6 @@
 	"stone": {
 		"name": "Stone",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Abadar",
-			"Gorum",
-			"Torag"
-		],
 		"description": [
 			"## Stone",
 			"",
@@ -1143,11 +1006,6 @@
 	"streets": {
 		"name": "Streets",
 		"sources": [ "Heroes of the Streets" ],
-		"deities": [
-			"Cayden Cailean",
-			"Milani",
-			"Norgorber"
-		],
 		"description": [
 			"## Streets",
 			"",
@@ -1185,12 +1043,6 @@
 	"succor": {
 		"name": "Succor",
 		"sources": [ "Healer's Handbook" ],
-		"deities": [
-			"Milani",
-			"Pharasma",
-			"Qi Zhong",
-			"Sarenrae"
-		],
 		"description": [
 			"## Succor",
 			"",
@@ -1234,11 +1086,6 @@
 	"time": {
 		"name": "Time",
 		"sources": [ "Ultimate Magic" ],
-		"deities": [
-			"Gozreh",
-			"Nethys",
-			"Pharasma"
-		],
 		"description": [
 			"## Time",
 			"",
@@ -1278,14 +1125,6 @@
 	"volcano": {
 		"name": "Volcano",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
-		"deities": [
-			"Flauros",
-			"Mhar",
-			"Rovagug",
-			"Valani",
-			"Yamatsumi",
-			"Ymeri"
-		],
 		"description": [
 			"## Volcano",
 			"",
@@ -1325,10 +1164,6 @@
 	"waves": {
 		"name": "Waves",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Gozreh",
-			"Pharasma"
-		],
 		"description": [
 			"## Waves",
 			"",
@@ -1368,12 +1203,6 @@
 	"whimsy": {
 		"name": "Whimsy",
 		"sources": [ "Legacy of the First World" ],
-		"deities": [
-			"Green Mother",
-			"Lantern King",
-			"Ng",
-			"Shyka"
-		],
 		"description": [
 			"## Whimsy",
 			"",
@@ -1415,10 +1244,6 @@
 	"wind": {
 		"name": "Wind",
 		"sources": [ "Advanced Player's Guide" ],
-		"deities": [
-			"Gozreh",
-			"Shelyn"
-		],
 		"description": [
 			"## Wind",
 			"",
@@ -1458,13 +1283,6 @@
 	"winter": {
 		"name": "Winter",
 		"sources": [ "People of the North" ],
-		"deities": [
-			"Gorum",
-			"Gozreh",
-			"Kostchtchie",
-			"Ng",
-			"Rovagug"
-		],
 		"description": [
 			"## Winter",
 			"",
@@ -1504,10 +1322,6 @@
 	"wood": {
 		"name": "Wood",
 		"sources": [ "Ultimate Magic" ],
-		"deities": [
-			"Erastil",
-			"Gozreh"
-		],
 		"description": [
 			"## Wood",
 			"",

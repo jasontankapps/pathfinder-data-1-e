@@ -276,7 +276,7 @@
 			"",
 			"**Wild Zones:** Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.",
 			"",
-			"**Boost Casting:** A caster can attempt to use a [metamagic feat](unknown/metamagic_feat) she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
+			"**Boost Casting:** A caster can attempt to use a [metamagic feat](feats_metamagic) she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

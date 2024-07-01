@@ -267,7 +267,6 @@
 	"fiend_flayer": {
 		"name": "Fiend Flayer",
 		"sources": [ "Advanced Race Guide" ],
-		"replace_array": [],
 		"description": [
 			"## Fiend Flayer",
 			"",
@@ -726,7 +725,7 @@
 	},
 	"sorrowblade": {
 		"name": "Sorrowblade",
-		"sources": [ "Pathfinder: Spiral of Bones #4" ],
+		"sources": [ "Pathfinder Spiral of Bones #4" ],
 		"description": [
 			"## Sorrowblade",
 			"",

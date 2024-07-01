@@ -1012,8 +1012,6 @@
 	"dragon_true": {
 		"name": "Dragon (True)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"members": [],
-		"mythic_members": [],
 		"description": [
 			"## Dragon (True)",
 			"",
@@ -1329,12 +1327,6 @@
 	},
 	"dragon_esoteric": {
 		"name": "Dragon (Esoteric)",
-		"other_files": [
-			"monsterfamilies3e50.html",
-			"monsterfamilies3ffe.html",
-			"monsterfamilies07d2.html",
-			"monsterfamiliesb88e.html"
-		],
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Adult Astral Dragon](monster/adult_astral_dragon)",
@@ -2697,8 +2689,6 @@
 			"Bestiary 2",
 			"Bestiary 5"
 		],
-		"members": [],
-		"mythic_members": [],
 		"description": [
 			"## Elemental",
 			"",

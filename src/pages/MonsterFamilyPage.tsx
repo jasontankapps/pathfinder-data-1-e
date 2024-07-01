@@ -11,6 +11,7 @@ interface FamilyProps {
 	sources: SourceProp[],
 	subhierarchy?: [string, string][]
 	members?: string[]
+	mythic_members?: string[]
 }
 interface CopyOf<T> extends Partial<FamilyProps> {
 	copyof: T
@@ -37,7 +38,7 @@ const BlessingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: d, sources, members } = getItem<Data>(id, families);
+	const { name: title, description: d, sources, members, mythic_members } = getItem<Data>(id, families);
 
 	const markdown = [...d];
 
@@ -47,6 +48,15 @@ const BlessingPage: React.FC = () => {
 			"### Members of This Family:",
 			"",
 			...members
+		);
+	}
+
+	if(mythic_members) {
+		markdown.push(
+			"",
+			"### Mythic Members of This Family:",
+			"",
+			...mythic_members
 		);
 	}
 
