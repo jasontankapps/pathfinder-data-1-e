@@ -2985,7 +2985,7 @@
 			"",
 			"**Str** 13, **Dex** 22, **Con**: -, **Int** 15, **Wis** 16, **Cha**, 22  ",
 			"**Base Atk** +7; **CMB** +8; **CMD** 25  ",
-			"**Feats** [Eschew Materials](feat/eschew_materials), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Old as Dirt](feat/old_as_dirt), [Quicken Spell](feat/quicken_spell), [Sleeper](feat/sleeper), [Toughness](feat/toughness), [Warren Digger](feat/warren_digger), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Eschew Materials](feat/eschew_materials), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Old as Dust](feat/old_as_dust), [Quicken Spell](feat/quicken_spell), [Sleeper](feat/sleeper), [Toughness](feat/toughness), [Warren Digger](feat/warren_digger), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Bluff +13, Intimidate +23, Perception +20, Spellcraft +19, Stealth +28  ",
 			"**Languages** Common, Draconic, Undercommon  ",
 			"**SQ** bloodline arcana (heal when casting necromancy spells)  ",
@@ -3377,7 +3377,7 @@
 			"",
 			"With a single pronouncement from a doombringer, an entire settlement can be reduced to cinder and ash.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3430,7 +3430,7 @@
 			"",
 			"When the fire giants unleash their savagery, the glaives and the strongarms are often in the lead.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3494,7 +3494,7 @@
 			"",
 			"Fire giant kings rule over their volcanic dominions with a cruel and heavy hand. Most kings seek the hand of a queen to reign beside them, both to secure their own power and to provide heirs to accede to their thrones when they inevitably fall in battle. A fire giant king must always watch his back, however, for there are always claimants eager to seize his position.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3555,7 +3555,7 @@
 			"",
 			"A giant dire boar functions as a mount for the fire giant lieutenant's mount ability.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3622,7 +3622,7 @@
 			"",
 			"Mixing force of arms with fiery magic, a magmablade is a tornado of flame and carnage.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3687,7 +3687,7 @@
 			"",
 			"Many fire giant queens rule their tribes alongside their husbands, whom they wed for life in marriages based on political power rather than romance. Other fire giant queens reign alone, bowing to no king and needing no partner to supplement their own considerable strength and power.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3741,7 +3741,7 @@
 			"",
 			"When the fire giants unleash their savagery, the glaives and the strongarms are often in the lead.",
 			"",
-			"### [Fire Giant](race/fire_giant)]",
+			"### [Fire Giant](monster/fire_giant)",
 			"",
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
@@ -3867,7 +3867,7 @@
 			"",
 			"A frost giant battle priest uses her powers seeking out those who would undercut her authority or that of the chief, through spying on, manipulating, and threatening the rest of the tribe. When needed, she's not averse to taking up her battleaxe and splitting a few heads.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -3922,7 +3922,7 @@
 			"",
 			"Frost giant rangers hunt big game to feed their tribes, and take point on raids.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -3988,7 +3988,7 @@
 			"",
 			"A houndmaster is responsible for the care of the tribe's pets, frequently polar bears, wolves, and winter wolves. She is fond of pitting her charges against each other, allowing the packs to establish a functional hierarchy and ensuring that only the strongest survive to breed. Some houndmasters choose these pack leaders as animal companions.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -4042,7 +4042,7 @@
 			"",
 			"Frost giant rangers hunt big game to feed their tribes, and take point on raids.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -4109,7 +4109,7 @@
 			"",
 			"Ice mages inherit the magic of the icy north. While some are tricksters and manipulators-perhaps using enlarge person to grow to Huge size and trick travelers into thinking they're cloud giants-many act as support and artillery for their tribe's raiders, killing at a distance with the power of a storm or increasing their allies' size and ferocity. As powerful as sorcerers may be, frost giant society still places more value in physical strength and melee prowess, meaning sorcerers are usually advisors rather than leaders.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -4171,7 +4171,7 @@
 			"",
 			"Jarls rule their tribes and subordinates with an iron fist-or a hammer to the skull. Jarls take and hold their positions through force. While many might wish to see their stations pass on to their progeny, heredity carries little weight in frost giant society, and jarls understand that their children can assume power only by violently seizing it. As a result, frost giant jarls are hard on their children, encouraging sibling rivalries in hopes that one child will eventually prove strong enough to rule.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
@@ -4232,7 +4232,7 @@
 			"",
 			"While larger tribes are usually ruled by a jarl or another powerful figure, in smaller tribes a raider might serve as a leader. Some raiders could even be chieftains who pledge fealty to a mighty jarl's larger clan. Since a frost giant tribe ruled by a mere raider is likely to be easy pickings for a more fearsome tribe looking to increase its holdings, raider-led tribes often find it safer to move out of their traditional homelands and into softer country, and thus they often come into conflict with smaller humanoids.",
 			"",
-			"### [Frost Giant](race/frost_giant)]",
+			"### [Frost Giant](monster/frost_giant)",
 			"",
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]

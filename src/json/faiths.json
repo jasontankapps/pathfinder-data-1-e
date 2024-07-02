@@ -38,7 +38,7 @@
 			"**Enemies** Lamashtu, Norgorber, Rovagug  ",
 			"**Temples** banks, cathedrals, courthouses  ",
 			"**Holy Days** Market's Door (blessing of the fall marketplace and the year's harvest trade, first day markets receive goods from the fall harvest), Taxfest (annual collection of city taxes followed by public feast with civic leaders, date varies by city)  ",
-			"**Minions** [archons](subtype/archon), [axiomites](subtype/axiomite), [inevitables](subtype/inevitable)  ",
+			"**Minions** [archons](subtype/archon), [axiomites](monster/axiomite), [inevitables](subtype/inevitable)  ",
 			"**Herald** [Lawgiver](monster/lawgiver) (a massive golden golem-like creature)  ",
 			"**Favored Weapon** [Light crossbow](equipment/weapon/light_crossbow)  ",
 			"**Symbol** Golden key  ",
@@ -2346,7 +2346,7 @@
 			"**Enemies** Cayden Cailean, Iomedae, Irori, Lamashtu, Rovagug, Sarenrae, Shelyn  ",
 			"**Temples** cathedrals, libraries  ",
 			"**Holy Days** none (but many worshipers celebrate on holidays sacred to good deities in ways intended to blaspheme)  ",
-			"**Minions** [cerberi](monster/cerberi), [devils](subtype/devil) (including [archdevils](subtype/archdevil)), [hell hounds](monster/hell_hounds)  ",
+			"**Minions** [cerberi](monster/cerberi), [devils](subtype/devil) (including [archdevils](family/archdevil)), [hell hounds](monster/hell_hounds)  ",
 			"**Herald** [Basileus](monster/basileus) (a corrupted, angel-like creature)  ",
 			"**Favored Weapon** [Mace](equipment/weapon/mace)  ",
 			"**Symbol** Red pentagram  ",
@@ -2529,6 +2529,7 @@
 			"[Unspeakable Bond](trait/unspeakable_bond)"
 		]
 	},
+	"atlach-nacha": { "copyof": "atlach_nacha" },
 	"atropos": {
 		"name": "Atropos",
 		"sources": [ "Concordance of Rivals" ],
@@ -4262,7 +4263,7 @@
 			"",
 			"**Initial Benefit:** You can wield a tankard (or mug) as a weapon, treating it in all ways as a light mace appropriate for your size. If you engage in two-weapon fighting with a rapier or light weapon in one hand and a tankard in the other, you can drink a potion or other liquid from the tankard or attempt to toss liquid from the tankard as a dirty trick combat maneuver (such as to blind a foe) in place of attacking with it. You do not provoke attacks of opportunity for attempting a dirty trick maneuver with a tankard.",
 			"",
-			"**Advanced Prerequisite:** [Two-Handed Fighting](feat/two-handed_fighting), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), Base Attack Bonus +10.",
+			"**Advanced Prerequisite:** [Two-Weapon Fighting](feat/two-weapon_fighting), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), Base Attack Bonus +10.",
 			"",
 			"**Optional Advanced Replacement:** A chaotic good fighter or swashbuckler of at least 10th level who worships Cayden Cailean can replace a bonus feat or deed with the following advanced benefit, even if he doesn't meet the prerequisites.",
 			"",
@@ -4468,14 +4469,14 @@
 			"[Empyreal Focus](trait/empyreal_focus)"
 		]
 	},
-	"chaldira": {
-		"name": "Chaldira",
+	"chaldira_zuzaristan": {
+		"name": "Chaldira Zuzaristan",
 		"sources": [
 			"Inner Sea Gods",
 			"Faiths of Golarion"
 		],
 		"description": [
-			"## Chaldira",
+			"## Chaldira Zuzaristan",
 			"### The Calamitous Turn",
 			"",
 			"**Source** [Inner Sea Gods pg. 324](source/inner_sea_gods)  ",
@@ -4520,6 +4521,7 @@
 			"[Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell"
 		]
 	},
+	"chaldira": { "copyof": "chaldira_zuzaristan" },
 	"chamiaholom": {
 		"name": "Chamiaholom",
 		"sources": [ "Book of the Damned" ],
@@ -5375,6 +5377,7 @@
 			"- **[Summon Monster V](spell/summon_monster_5):** [Tendriculos](monster/tendriculos)"
 		]
 	},
+	"cyth-v'sug": { "copyof": "cyth_v'sug" },
 	"dachzerul": {
 		"name": "Dachzerul",
 		"sources": [ "Book of the Damned" ],
@@ -5462,6 +5465,7 @@
 			"3. beast shape IV"
 		]
 	},
+	"daclau-sar": { "copyof": "daclau_sar" },
 	"dagon": {
 		"name": "Dagon",
 		"sources": [
@@ -6070,7 +6074,7 @@
 			"",
 			"#### Traits",
 			"",
-			"[Faithful Artist](trait/faithful_artist), [Follower of the Stars](trait/follower_of_the_stars), [Good Dreams](trait/good_dreams), [Starchild](trait/starchild), [Stoic Optimism](trait/stoic_optimism), [Thrill-Seeker](trait/thrill-seeker)",
+			"[Faithful Artist](trait/faithful_artist), [Follower of the Stars](trait/follower_of_the_stars), [Good Dreams](trait/good_dreams), [Starchild](trait/starchild), [Stoic Optimism](trait/stoic_optimism), [Thrill-Seeker](trait/thrill-seeker_isg)",
 			"",
 			"### Unique Spell Rules",
 			"",

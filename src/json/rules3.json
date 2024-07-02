@@ -4023,7 +4023,7 @@
 			"",
 			"**Hit Dice Modification:** Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using [the rules for adding creature Hit Dice](rule/step_2_target_statistics). Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice.",
 			"",
-			"**Weapon Modification:** This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for [creating magic weapons](rule/magic_item_creation). Performing a weapon modification also requires the [Craft Magical Arms and Armor](feat/craft_magical_arms_and_armor) feat.",
+			"**Weapon Modification:** This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for [creating magic weapons](rule/magic_item_creation). Performing a weapon modification also requires the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) feat.",
 			"",
 			"**Ability Score Modification:** Using this modification, a crafter can permanently increase one of the construct's ability scores by +2 per modification. He cannot increase any abilities with a score of 0. The cost for permanently increasing an ability score is 5,000 gp."
 		],
@@ -6229,7 +6229,6 @@
 		"description": [
 			"## Creature Types",
 			"",
-			"- [Unknown](type/unknown)",
 			"- [Aberration](type/aberration)",
 			"- [Animal](type/animal)",
 			"- [Construct](type/construct)",

@@ -1544,6 +1544,7 @@
 			"[Unspeakable Bond](trait/unspeakable_bond)"
 		]
 	},
+	"rhan-tegoth": { "copyof": "rhan_tegoth" },
 	"roqorolos": {
 		"name": "Roqorolos",
 		"sources": [
@@ -2737,6 +2738,7 @@
 			"**Symbol** Songbird with a multicolored tail"
 		]
 	},
+	"shelyn_pre-earthfall": { "copyof": "shelyn_pre_earthfall" },
 	"shelyn": {
 		"name": "Shelyn",
 		"sources": [
@@ -3167,6 +3169,7 @@
 			"[Unspeakable Bond](trait/unspeakable_bond)"
 		]
 	},
+	"shub-niggurath": { "copyof": "shub_niggurath" },
 	"shyka": {
 		"name": "Shyka",
 		"sources": [
@@ -6571,6 +6574,81 @@
 			"[Snake Handler](trait/snake_handler)"
 		]
 	},
+	"wendo": {
+		"name": "Wendo (JuJu)",
+		"sources": [ "Faiths and Philosophies" ],
+		"description": [
+			"## Wendo",
+			"### Juju: A Ritualistic Tradition of Spirit Worship",
+			"",
+			"**Source** [Faiths and Philosophies pg. 14](source/faiths_and_philosophies)  ",
+			"**Pathfinder Wiki** [Juju](https://www.pathfinderwiki.com/wiki/Juju)",
+			"",
+			"#### Details",
+			"",
+			"**Alignment** Varies  ",
+			"**Areas of Concern** Varies  ",
+			"**Favored Weapon** Varies  ",
+			"**Symbol** Varies  ",
+			"**Sacred Animal(s)** Varies  ",
+			"",
+			"The tribal people of the Mwangi Expanse walk a path between the mortal world and the spirit world, or *hanajuju*. Those who follow their ancient traditions believe that countless entities known as *wendo* move among mortals, shaping fate and guiding destiny. Though not gods, the wendo are capricious and demand worship in exchange for cooperation. Only the *wendifa*, juju oracles whose craft is passed down through oral tradition from lost civilizations, can divine what the wendo want. Wendifa lead rites and sacrifices to gain insight from the wendo and offer their followers some protection from the unforgiving forces of nature. Wendifa of great power can bend the spirits of both nature and the living to their will, earning them respect from both foes and followers.",
+			"",
+			"To the uninitiated, juju is a complicated system of objects and symbols for protection and power. Some even believe it to be an organized religion with a standard set of beliefs and rituals. Those with greater experience know that juju is a living, breathing faith-an ever-evolving collection of traditions transmitted by word of mouth from one generation to the next. Fetishes, power objects, and ancient sigils are the tools of worship, but they are not the heart of juju, nor are the practices of one tribe common to all. ",
+			"",
+			"The heart of juju is communion with the wendo through elaborate rituals designed to summon the spirits, who carry messages and entreaties to hidden spiritual entities of immense power. These rituals involve idols and sacrifice, music and dance, and the crafting of *metumbe*, detailed pictograms identified with specific wendo. The nature of these rites can range from celebrations and offerings of food to the bloody sacrifice of intelligent beings, depending on a tribe's moral tendencies. Failing to follow the precise directions of a ritual, improperly fashioning a wendo's *metumbe*, or-worst of all-allowing nonbelievers or *hen kudu* (\"lost ones\") to witness a ritual can bring the wendos' wrath, requiring even greater sacrifice to appease the spirits",
+			"",
+			"Juju is a highly personal faith, with each practitioner keeping to the rituals and taboos handed down from his family or tribe. Though they prefer to stay close to their wendifa for guidance, juju practitioners who travel the world follow their rituals closely, seeking guidance from the spirits while making sure to guard them from the eyes of *ben kudu*",
+			"",
+			"Rather than choosing a specific patron, most wendifa deal with a wide range of wendo according to their needs. While undead-creation exists within the faith, and is often fixated on by outsiders, it isn't indicative of the religion as a whole, and reflects merely the specific practices of individual tribes. ",
+			"",
+			"#### Common Wendo",
+			"",
+			"| Wendo | Title | Weapon | Sacred Animal |",
+			"| --- | --- | --- | --- |",
+			"| Kindo Kane | The One Who Stands at the Gate | Longspear | Panther |",
+			"| Sister Liiza | Sweet Sister | Dagger | Chicken |", 
+			"| Lo Lulu | Night Lord | Blowgun | Spider |",
+			"| Adamde Baaka | The Jungle Spirit Short bow | Monkey | ",
+			"| The Serpent King | Wise Brother | Quarterstaff | Snake |",
+			"| Omoro | The One Mighty and Strong | Club | Warthog |",
+			"| Mfuello | The Journeyer | Shortspear | Frog |",
+			"| Old Ba | Old Man, The Ancient | Quarterstaff | Goat |",
+			"| Donma Goko | The Cliffdweller | Dagger | Swallow-tailed gull |",
+			"",
+			"#### On Golarion",
+			"",
+			"**Centers of Worship** : Mwangi Expanse (Kibwe, Mzali), Sargava (Kalabuto), The Shackles (Mgange Cove)   ",
+			"**Nationality** Mwangi",
+			"",
+			"### For Followers",
+			"",
+			"#### Feats",
+			"",
+			"[Juju Way](feat/juju_way), [Polytheistic Blessing](feat/polytheistic_blessing)",
+			"",
+			"#### Magic Items - Misc",
+			"",
+			"[Juju fetishes](magic_misc)",
+			"",
+			"#### Magic Items - Weapons",
+			"",
+			"[Wendifisa Spear](magic/weapon/wendifisa_spear)",
+			"",
+			"#### Monsters",
+			"",
+			"[Juju Zombie](template/juju_zombie)",
+			"",
+			"#### Spells",
+			"",
+			"[Curse of Unexpected Death](spell/curse_of_unexpected_death)",
+			"",
+			"#### Traits",
+			"",
+			"[Wendifa Apprentice](trait/wendifa_apprentice)"
+		]
+	},
+	"juju": { "copyof": "wendo" },
 	"winlas": {
 		"name": "Winlas",
 		"sources": [
@@ -6757,6 +6835,7 @@
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Mi-go](monster/mi-go)"
 		]
 	},
+	"xhamen-dor": { "copyof": "xhamen_dor" },
 	"xhasnaphar": {
 		"name": "Xhasnaphar",
 		"sources": [
@@ -7202,6 +7281,7 @@
 			"[Hellish Shackles](feat/hellish_shackles)"
 		]
 	},
+	"yan-gant-y-tan": { "copyof": "yan_gant_y_tan" },
 	"ydajisk": {
 		"name": "Ydajisk",
 		"sources": [ "Concordance of Rivals" ],
@@ -7547,6 +7627,7 @@
 			"[Unspeakable Bond](trait/unspeakable_bond)"
 		]
 	},
+	"yog-sothoth": { "copyof": "yog_sothoth" },
 	"yuelral": {
 		"name": "Yuelral",
 		"sources": [ "Inner Sea Gods" ],
@@ -8225,6 +8306,7 @@
 			"- A Kuthite priest's inflict spells always cause visible open wounds that look as though they were caused by slashing damage, though the actual cause of the damage is still negative energy."
 		]
 	},
+	"zon-kuthon": { "copyof": "zon_kuthon" },
 	"zura": {
 		"name": "Zura",
 		"sources": [

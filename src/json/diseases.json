@@ -282,7 +282,7 @@
 			"**Cure** 2 consecutive saves",
 			"",
 			"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw  ",
-			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a [Mana Waste mutant](template/mana_waste_mutant) or a [mutant](template/mutant), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
+			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a [Mana Wastes mutant](template/mana_wastes_mutant) or a [mutant](template/mutant), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
 		]
 	},
 	"the_tainted_plague": {
@@ -645,6 +645,19 @@
 			"**Type** contact; **Fortitude Save* DC 23  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1d4 Cha damage  ",
+			"**Cure** 2 consecutive saves"
+		]
+	},
+	"rabies": {
+		"name": "Rabies",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Rabies",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 87](source/pathfinder_rpg_bestiary)  ",
+			"**Type** injury; **Fortitude Save* DC 14  ",
+			"**Onset** 2d6 weeks; **Frequency** 1/day  ",
+			"**Effect** 1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis)  ",
 			"**Cure** 2 consecutive saves"
 		]
 	}

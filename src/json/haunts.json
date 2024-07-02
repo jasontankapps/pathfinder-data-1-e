@@ -788,7 +788,7 @@
 			"",
 			"| d% | Quickening Effect |",
 			"| --- | --- |",
-			"| 1-25 | The target transforms into a Tiny animal that is not native to the local region (as per [baleful polymorph](feat/baleful_polymorph)). As typical for [baleful polymorph](spell/baleful_polymorph), a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
+			"| 1-25 | The target transforms into a Tiny animal that is not native to the local region (as per [baleful polymorph](spell/baleful_polymorph)). As typical for that spell, a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
 			"| 26-40 | The target gains a random mutation from the [mutant creature template](monster/mutant_creature_template), with the exception of radiation affinity. Roll 1d20 to select the mutation. |",
 			"| 41-75 | The target gains a random deformity from the [mutant creature template](monster/mutant_creature_template). Roll 1d12 to select the specific deformity. |",
 			"| 76-95 | The First World lashes out at the target vindictively, bestowing the accursed corruption (Pathfinder RPG Horror Adventures). |",

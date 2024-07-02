@@ -1607,7 +1607,7 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "traits_campaign" ]]
 	},
-	"roof_creaturer": {
+	"roof_racer": {
 		"name": "Roof Racer",
 		"sources": [ "Varisia, Birthplace of Legends" ],
 		"description": [
@@ -6455,14 +6455,14 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
 	},
-	"treerazor's_bane": {
-		"name": "Treerazor's Bane",
+	"treerazer's_bane": {
+		"name": "Treerazer's Bane",
 		"sources": [
 			"Inner Sea Primer",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Treerazor's Bane",
+			"## Treerazer's Bane",
 			"",
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",

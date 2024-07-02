@@ -871,7 +871,7 @@
 			"",
 			"**Ranged:** [Deadly Aim](feat/deadly_aim), [Far Shot](feat/far_shot), [Greater Vital Strike](feat/greater_vital_strike), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Manyshot](feat/manyshot), [Pinpoint Targeting](feat/pinpoint_targeting), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Reload](feat/rapid_reload), [Rapid Shot](feat/rapid_shot), [Shot on the Run](feat/shot_on_the_run), [Vital Strike](feat/vital_strike), and [Weapon Focus](feat/weapon_focus).",
 			"",
-			"**Skill (most NPC classes):** [Armor Proficiency (all)](feat/armor_proficiency_all), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Martial Weapon Proficiency](feat/martial_weapon_proficiency), [Run](feat/run), [Shield Proficiency](feat/shield_proficiency), [Skill Focus](feat/skill_focus), and [Toughness](feat/toughness)."
+			"**Skill (most NPC classes):** Armor Proficiency (all), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Martial Weapon Proficiency](feat/martial_weapon_proficiency), [Run](feat/run), [Shield Proficiency](feat/shield_proficiency), [Skill Focus](feat/skill_focus), and [Toughness](feat/toughness)."
 		],
 		"parent_topics": [
 			"gamemastering",

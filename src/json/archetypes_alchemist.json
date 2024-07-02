@@ -419,7 +419,7 @@
 			"**Source** [Construct Handbook pg. 12](source/construct_handbook)  ",
 			"Cruorchymists see their blood as just another tool for their experiments. They use this blood to create new life that can be commanded to serve the cruorchymist's goals.",
 			"",
-			"**Blood Familiar (Ex):** A cruorchymist has created a [homunculus](monster/homunculus) from basic materials and his own blood. The homunculus takes the shape of a Tiny humanoid. It functions in all ways as a [familiar](class/familiar), treating the cruorchymist's alchemist level as his effective wizard level. If a cruorchymist wishes to replace his blood familiar, he can reduce the cost of the replacement ritual by taking 2 points of Constitution drain for every 100 gp he wishes to forgo. At 3rd level, if the cruorchymist has the [infusion](unknown/infusion) discovery, a blood familiar can deliver extracts that have a range of touch for its cruorchymist master.",
+			"**Blood Familiar (Ex):** A cruorchymist has created a [homunculus](monster/homunculus) from basic materials and his own blood. The homunculus takes the shape of a Tiny humanoid. It functions in all ways as a [familiar](sidekick/familiar), treating the cruorchymist's alchemist level as his effective wizard level. If a cruorchymist wishes to replace his blood familiar, he can reduce the cost of the replacement ritual by taking 2 points of Constitution drain for every 100 gp he wishes to forgo. At 3rd level, if the cruorchymist has the [infusion](unknown/infusion) discovery, a blood familiar can deliver extracts that have a range of touch for its cruorchymist master.",
 			"",
 			"This replaces mutagen. A cruorchymist can never gain the mutagen, cognatogen, or inspired cognatogen ability, even from a discovery or another class.",
 			"",
@@ -427,7 +427,7 @@
 			"",
 			"This replaces Brew Potion.",
 			"",
-			"**Blood Augmentation (Ex):** At 4th level, a cruorchymist can provide more of his blood to further enhance his blood familiar. As a swift action, the cruorchymist can take 1 point of Constitution damage to provide his familiar with an [animal aspect](class/animal_aspect) for 1 minute, treating his alchemist level as his hunter level. The cruorchymist takes 1 additional point of Constitution damage for every minute he maintains the animal aspect beyond the first. At 12th level, the cruorchymist can select two animal aspects for his blood familiar instead of one, taking 2 points of Constitution damage for every minute that he maintains both animal aspects."
+			"**Blood Augmentation (Ex):** At 4th level, a cruorchymist can provide more of his blood to further enhance his blood familiar. As a swift action, the cruorchymist can take 1 point of Constitution damage to provide his familiar with an [animal aspect](class/hunter) for 1 minute, treating his alchemist level as his hunter level. The cruorchymist takes 1 additional point of Constitution damage for every minute he maintains the animal aspect beyond the first. At 12th level, the cruorchymist can select two animal aspects for his blood familiar instead of one, taking 2 points of Constitution damage for every minute that he maintains both animal aspects."
 		]
 	},
 	"crypt_breaker": {
@@ -684,7 +684,7 @@
 			"",
 			"This ability replaces poison resistance and poison immunity.",
 			"",
-			"**Salvage Energy (Ex):** At 2nd level, an energy scientist can siphon power from slain elementals into temporary alchemical weapons. While studying the remains of an elemental that has been dead for no longer than 1 minute per alchemist level, you can attempt a Craft (alchemy) check (DC = 20 + the elemental's CR) as a standard action. Success means the alchemist produces a number of canisters of [alchemist's fire](equipment/misc/alchemist's_fire) (from fire and magma elementals), [bottled lightning](equipment/misc/bottled_lightning) (from air and lightning elementals), [deadground dust](equipment/misc/deadground_dust) (from earth and mud elementals), or [liquid ice](equipment/misc/liquid_ice) (from water and ice elementals) equal to half the elemental's CR, rounded down. These items cannot be sold and become inert after 24 hours. At 6th level, the save DCs of the items produced increase by 2.",
+			"**Salvage Energy (Ex):** At 2nd level, an energy scientist can siphon power from slain elementals into temporary alchemical weapons. While studying the remains of an elemental that has been dead for no longer than 1 minute per alchemist level, you can attempt a Craft (alchemy) check (DC = 20 + the elemental's CR) as a standard action. Success means the alchemist produces a number of canisters of [alchemist's fire](equipment/misc/alchemist's_fire) (from fire and magma elementals), [bottled lightning](equipment/misc/bottled_lightning) (from air and lightning elementals), [deadground dust](equipment/misc/deadground_dust) (from earth and mud elementals), or [liquid ice](equipment/siegeengine/liquid_ice) (from water and ice elementals) equal to half the elemental's CR, rounded down. These items cannot be sold and become inert after 24 hours. At 6th level, the save DCs of the items produced increase by 2.",
 			"",
 			"This ability replaces poison use and swift poisoning."
 		]
@@ -883,7 +883,7 @@
 		"file": "archetypedisplay074d.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Herbalist",
+			"## Herbalist (Vine Leshy only)",
 			"",
 			"**Source** [Ultimate Wilderness pg. 22](source/ultimate_wilderness)  ",
 			"Vine leshys who study the physical and spiritual composition of their own bodies have discovered a strange herbal alchemy all their own.",

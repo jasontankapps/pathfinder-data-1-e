@@ -2813,7 +2813,7 @@
 			"| 1-15 | Lovesick Warden: Before you even reached adulthood, you joined the border patrol to watch enemy armies posturing near Kalabuto or Nirmathas, and fell in love with someone from the other side. You gain access to the [frontier-forged](trait/frontier-forged) and [tactician](trait/tactician) traits, as well as the [lovesick](trait/lovesick) drawback. |",
 			"| 16-30 | Chelish Informant: Whether raised in a free nation or under Chelish authority, you dismiss fanciful idealism and wish to share in the amazing power and wealth of Cheliax's rulers under whatever identity is most useful. You gain access to the [Chelish sympathizer](trait/chelish_sympathizer) trait. |",
 			"| 31-45 | Kitharodian Actor: The Kitharodian Academy taught you to see real intrigue like a performance you could master with enough practice and sacrifice. You gain access to the [mentored](trait/mentored) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [empty mask](trait/empty_mask) drawback. |",
-			"| 46-60 | Twilight Impersonator: You once glimpsed a Twilight Talon surprise and attack an oppressor while disguised as an innocuous professional, and were inspired to develop the skills of a spy even though Andoran could offer you no official support. You gain access to the [ordinary](trait/ordinary) and [surprise weapon](trait/surprise_weapon) traits, as well as the [stateless](trait/stateless) agent drawback. |",
+			"| 46-60 | Twilight Impersonator: You once glimpsed a Twilight Talon surprise and attack an oppressor while disguised as an innocuous professional, and were inspired to develop the skills of a spy even though Andoran could offer you no official support. You gain access to the [ordinary](trait/ordinary) and [surprise weapon](trait/surprise_weapon) traits~~, as well as the *stateless agent* drawback~~. (No such drawback was provided in the book.) |",
 			"| 61-75 | Wolf in Sheep's Clothing: You were groomed from a young age (perhaps by drow, geniekin, or gillmen) to live among a foreign people as one of them in order to help conquer or undermine them. You gain access to the [deep cover](trait/deep_cover) trait. |",
 			"| 76-100 | Double Agent: Your government trained you in the ways of revolutionaries and dissidents so you could move among them and goad them into revealing themselves. You gain access to the [official ties](trait/official_ties) and [vigilant battler](trait/vigilant_battler) traits, as well as the [paranoid](trait/paranoid) drawback."
 		],
@@ -2841,10 +2841,10 @@
 			"| d% | Result |",
 			"| --- | --- |",
 			"| 1-20 | Avenger: You were orphaned and raised as a vengeance-seeker by a vigilante or a secretive organization such as the church of Calistria. You gain access to the [grief-filled](trait/grief-filled) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [attached](trait/attached) drawback. |",
-			"| 21-40 | Criminal Enforcer: As a young tough in the territory of a criminal organization, you demonstrated a talent for exploiting enemies' vulnerabilities. You gain access to the [criminal](trait/criminal) and [dirty fighter](trait/dirty_fighter) traits, as well as the [infamous](trait/infamous) drawback. |",
+			"| 21-40 | Criminal Enforcer: As a young tough in the territory of a criminal organization, you demonstrated a talent for exploiting enemies' vulnerabilities. You gain access to the [criminal](trait/criminal) and [dirty fighter (APG)](trait/dirty_fighter_apg) traits, as well as the [infamous](trait/infamous) drawback. |",
 			"| 41-60 | Impure Thinker: Raised in Touvette, Nidal, Rahadoum, or another nation that suppressed your religion, you seek out any way you can to undermine the authorities without drawing attention to yourself. You gain access to the [hidden faith](trait/hidden_faith) trait. |",
 			"| 61-80 | Ninja Training: You were raised by a ninja clan of Minkai to use stealth as both a tool and a weapon to gain glory and honor for yourself or your clan. You gain access to the [criminal roots](trait/criminal_roots) trait. |",
-			"| 81-100 | Quantium Problem-Solver: You witnessed a devastating magical accident in Nex, possibly engineered by the Invisible Blades, and realized how easy it would be to eliminate anyone undetected in similar fashion. You gain access to the [dangerously curious ](trait/dangerously_curious_)and [mercenary traits](trait/mercenary_traits), as well as the [magical klutz](trait/magical_klutz) drawback."
+			"| 81-100 | Quantium Problem-Solver: You witnessed a devastating magical accident in Nex, possibly engineered by the Invisible Blades, and realized how easy it would be to eliminate anyone undetected in similar fashion. You gain access to the [dangerously curious](trait/dangerously_curious) and [mercenary](trait/mercenary) traits, as well as the [magical klutz](trait/magical_klutz) drawback."
 		],
 		"parent_topics": [
 			"basics",
@@ -2870,8 +2870,8 @@
 			"| d% | Result |",
 			"| --- | --- |",
 			"| 1-15 | Bellflower Sown: You stumbled into a Bellflower Network group moving slaves out of Cheliax and saved the group with a quick improvisation. You gain access to the [slave runner](trait/slave_runner) trait. |",
-			"| 16-30 | Child of the Resistance: You were raised among dissenters in an oppressed nation such as Galt, Irrisen, or Mzali, who found your youthful idealism inspiring in the face of tyranny. You gain access to the [dedicated defender](trait/dedicated_defender) and [natural-born leader](trait/natural-born_leader) traits. |",
-			"| 31-45 | Corrupt Official: You were selected at a young age to serve your community in a public role by drawing secretly upon connections and information derived from political favors and Drumish or Taldan money. You gain access to the [heir to corruption](trait/heir_to_corruption) trait. |",
+			"| 16-30 | Child of the Resistance: You were raised among dissenters in an oppressed nation such as Galt, Irrisen, or Mzali, who found your youthful idealism inspiring in the face of tyranny. You gain access to the [dedicated defender](trait/dedicated_defender) and [natural-born leader](trait/natural-born_leader_social) traits. |",
+			"| 31-45 | Corrupt Official: You were selected at a young age to serve your community in a public role by drawing secretly upon connections and information derived from political favors and Drumish or Taldan money. ~~You gain access to the *heir to corruption* trait.~~ (No such trait was provided in the book.) |",
 			"| 46-60 | Reputable Business: You earned a position of respect in your community by passing the tests of the esteemed Prophets of Kalistrade, and can easily spend time talking to almost anyone without question. You gain access to the [Kalistocratic prophecy](trait/kalistocratic_prophecy) trait. |",
 			"| 61-75 | Spiritual Guide: Your faith encourages you to counsel anyone who prays to your deity (whether or not he has chosen her as his patron), making you the perfect choice to coordinate agents serving your faith or an allied organization. You gain access to the [persuasive insight](trait/persuasive_insight) trait. |",
 			"| 76-100 | Military Strategist: You were implicitly trusted by soldiers or officers impressed by your strategic instincts. You gain access to the [Wily Warrior](feat/wily_warrior) story feat."
@@ -3947,7 +3947,7 @@
 			"| [Disguise](skill/disguise) | - | C | - | - | - | - | - | - | C | - | - | Yes | Cha |",
 			"| [Escape Artist](skill/escape_artist) | - | C | - | - | - | C | - | - | C | - | - | Yes | Dex&ast; |",
 			"| [Fly](skill/fly) | - | - | - | C | - | - | - | - | - | C | C | Yes | Dex&ast; |",
-			"| [Handle Animals](skill/handle_animals) | C | - | - | C | C | - | C | C | - | - | - | No | Cha |",
+			"| [Handle Animal](skill/handle_animal) | C | - | - | C | C | - | C | C | - | - | - | No | Cha |",
 			"| [Heal](skill/heal) | - | - | C | C | - | - | C | C | - | - | - | Yes | Wis |",
 			"| [Intimidate](skill/intimidate) | C | C | - | - | C | C | - | C | C | C | - | Yes | Cha |",
 			"| [Knowledge (Arcana)](skill/arcana) | - | C | C | - | - | - | - | - | - | C | C | No | Int |",

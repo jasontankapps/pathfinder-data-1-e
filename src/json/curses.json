@@ -41,6 +41,17 @@
 			"**Effect** The victim's mind and body become unreliable, imposing a -4 penalty on all ability scores. Whenever the victim enters combat, he must succeed at a Fortitude save against the curse's DC or become fatigued."
 		]
 	},
+	"curse_of_bestial_dreams": {
+		"name": "Curse of Bestial Dreams",
+		"sources": [ "Doom Comes to Dustpawn" ],
+		"description": [
+			"## Curse of Bestial Dreams",
+			"",
+			"**Source** [Doom Comes to Dustpawn pg. 4](source/doom_comes_to_dustpawn)  ",
+			"**Type** curse; **Save* Will DC 20  ",
+			"**Effect** Once cursed, a victim becomes noticeably more prone to anger and suffers from painful headaches. Each day upon waking, a successful DC 14 Fortitude save means that no headaches are suffered that day; otherwise, the victim takes a -1 penalty on all Dexterity- and Intelligence-based skill checks and on attack rolls. Any amount of magical healing can remove this effect for the day. A greater danger rises when the victim is confronted with a stressful situation (such as combat, disarming a trap, or otherwise engaging in risky activity). Whenever a victim takes any action in such a situation other than to attack a creature with a melee weapon, she becomes sickened for the remainder of the round. A victim who is sickened for 3 consecutive rounds in this manner becomes confused for 1 round (after which the count of consecutive rounds of being sickened resets)."
+		]
+	},
 	"curse_of_the_ages": {
 		"name": "Curse of the Ages",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -88,6 +99,7 @@
 			"**Cure** Unlike a minor haunting, a major haunting can be ended only by putting the ghost to rest, though casting [remove curse](spell/remove_curse) directly after the ghost is destroyed prevents it from reviving for 2d4 days."
 		]
 	},
+	"major_haunting": { "copyof": "haunting,_major" },
 	"haunting,_minor": {
 		"name": "Haunting, Minor",
 		"sources": [ "Horror Adventures" ],
@@ -100,6 +112,7 @@
 			"**Cure** In addition to the normal means for removing a curse, this one can be ended by determining the poltergeist's reason for existence and setting right whatever prevents it from resting in peace."
 		]
 	},
+	"minor_haunting": { "copyof": "haunting,_minor" },
 	"hunt_of_the_ankou": {
 		"name": "Hunt of the Ankou",
 		"sources": [ "Horror Adventures" ],
@@ -162,6 +175,7 @@
 			"**Cure** [Remove curse](spell/remove_curse) removes a grand perilous demesne only if followed by a casting of [hallow](spell/hallow) at the effect's center, and then casting [disintegrate](spell/disintegrate) on each of the hazards before the next nightfall or midnight."
 		]
 	},
+	"grand_perilous_demesne": { "copyof": "perilous_demesne,_grand" },
 	"perilous_demesne,_greater": {
 		"name": "Perilous Demesne, Greater",
 		"sources": [ "Horror Adventures" ],
@@ -174,6 +188,7 @@
 			"**Cure** [Remove curse](spell/remove_curse) removes a greater perilous demesne only if followed by a casting of [hallow](spell/hallow) at the effect's center."
 		]
 	},
+	"greater_perilous_demesne": { "copyof": "perilous_demesne,_greater" },
 	"perilous_demesne,_major": {
 		"name": "Perilous Demesne, Major",
 		"sources": [ "Horror Adventures" ],
@@ -185,6 +200,7 @@
 			"**Effect** As per [minor perilous demesne](curse/minor_perilous_demesne), except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together)."
 		]
 	},
+	"major_perilous_demesne": { "copyof": "perilous_demesne,_major" },
 	"perilous_demesne,_minor": {
 		"name": "Perilous Demesne, Minor",
 		"sources": [ "Horror Adventures" ],
@@ -196,6 +212,7 @@
 			"**Effect** Up to three hazards (see the [Horror Environments](rule/horror_environments) section), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time. If a creature places this curse, it can choose the hazards. The hazards must be appropriate to the type of terrain (at the GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight."
 		]
 	},
+	"minor_perilous_demesne": { "copyof": "perilous_demesne,_minor" },
 	"sealed_fate": {
 		"name": "Sealed Fate",
 		"sources": [ "Horror Adventures" ],
@@ -229,7 +246,7 @@
 			"",
 			"**Source** [Horror Adventures pg. 140](source/horror_adventures)  ",
 			"**Type** curse; **Save* Will DC 15  ",
-			"**Effect** The target is haunted by horrible phantasmal visions that distract him at critical moments. He takes a -4 penalty on concentration checks and on saving throws against effects that would impose any of the following conditions on him: confused, dazed, nauseated, shaken, sickened, or stunned. Once per day, when alone or confronted by something novel and strange, he must succeed at a Will save or take 1d3 points of Wisdom damage (or 1d6 points of sanity damage if using the [sanity system](rule/sanity_system)).  ",
+			"**Effect** The target is haunted by horrible phantasmal visions that distract him at critical moments. He takes a -4 penalty on concentration checks and on saving throws against effects that would impose any of the following conditions on him: confused, dazed, nauseated, shaken, sickened, or stunned. Once per day, when alone or confronted by something novel and strange, he must succeed at a Will save or take 1d3 points of Wisdom damage (or 1d6 points of sanity damage if using the [sanity system](rule/sanity)).  ",
 			"**Cure** The tormenting visions curse can be removed only by [remove curse](spell/remove_curse) followed by [banishment](spell/banishment), each cast within 1 minute of each another."
 		]
 	},

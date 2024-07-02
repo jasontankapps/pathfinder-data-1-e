@@ -2218,7 +2218,7 @@
 			"**Special:** All characters except monks, sorcerers, and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
-	"light_proficiency": {
+	"light_armor_proficiency": {
 		"copyof": "armor_proficiency,_light"
 	},
 	"armor_proficiency,_medium": {

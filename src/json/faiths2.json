@@ -2576,6 +2576,7 @@
 			"3. plague storm"
 		]
 	},
+	"isph-aun-vuln": { "copyof": "isph_aun_vuln" },
 	"ithaqua": {
 		"name": "Ithaqua",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
@@ -4600,6 +4601,7 @@
 			"**Symbol** Seven-pointed star"
 		]
 	},
+	"lissala_pre-earthfall": { "copyof": "lissala_pre_earthfall" },
 	"lissala": {
 		"name": "Lissala",
 		"sources": [
@@ -7913,6 +7915,7 @@
 			"3. greater contagion"
 		]
 	},
+	"oaur-ooung": { "copyof": "oaur_ooung" },
 	"olheon": {
 		"name": "Olheon",
 		"sources": [

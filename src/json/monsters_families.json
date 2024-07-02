@@ -3999,6 +3999,29 @@
 			"**True Seeing (Ex)** A linnorm has continuous true seeing, as per the spell of the same name. This ability cannot be dispelled."
 		]
 	},
+	"lycanthrope": {
+		"name": "Lycanthrope",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"members": [
+			"- [Silverblood Lycanthrope (Human Form)/Silverblood Werewolf (Hybrid Form)](monster/silverblood_lycanthrope)",
+			"- [Werebat (Human Form)/Werebat (Hybrid Form)](monster/werebat)",
+			"- [Werebear (Human Form)/Werebear (Hybrid Form)](monster/werebear)",
+			"- [Wereboar (Human Form)/Wereboar (Hybrid Form)](monster/wereboar)",
+			"- [Werecrocodile (Human Form)/Werecrocodile (Hybrid Form)](monster/werecrocodile)",
+			"- [Wereraptor (Human Form)/Wereraptor (Hybrid Form)](monster/wereraptor)",
+			"- [Wererat (Human Form)/Wererat (Hybrid Form)](monster/wererat)",
+			"- [Wereshark (Human Form)/Wereshark (Hybrid Form)](monster/wereshark)",
+			"- [Weretiger (Human Form)/Weretiger (Hybrid Form)](monster/weretiger)",
+			"- [Werewolf (Human Form)/Werewolf (Hybrid Form)](monster/werewolf)"
+		],
+		"description": [
+			"## Lycanthrope",
+			"",
+			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
+			"",
+			"See the [lycanthrope template](template/lycanthrope) for more information."
+		]
+	},
 	"lurking_ray": {
 		"name": "Lurking Ray",
 		"sources": [ "Bestiary 4" ],
@@ -4421,7 +4444,7 @@
 			"",
 			"- [Atropos the Last Sister](faith/atropos)",
 			"- [Barzahk the Passage](faith/barzahk)",
-			"- [Ceyanan the Shepherd](faith/ceyanan)",
+			"- [Ceyannan the Shepherd](faith/ceyannan)",
 			"- [Dammar the Denied](faith/dammar)",
 			"- [Imot the Symbol of Doom](faith/imot)",
 			"- [Mother Vulture](faith/mother_vulture)",
@@ -4705,7 +4728,7 @@
 			"",
 			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](unknown/manasaputras) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
 			"",
-			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](subtype/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
+			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](subtype/daemon) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
 		]
 	},
 	"siktempora": {
