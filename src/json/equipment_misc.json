@@ -208,6 +208,9 @@
 	"pressurized_air_tank": {
 		"copyof": "air_tank,_pressurized"
 	},
+	"air_tank": {
+		"copyof": "air_tank,_pressurized"
+	},
 	"alchemical_blood": {
 		"name": "alchemical blood",
 		"sources": [ "Monster Codex" ],

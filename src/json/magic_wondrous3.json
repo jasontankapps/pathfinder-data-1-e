@@ -3773,6 +3773,9 @@
 	"traveler's_any_tool": {
 		"copyof": "traveler's_any-tool"
 	},
+	"any-tool": {
+		"copyof": "traveler's_any-tool"
+	},
 	"accent_pill": {
 		"name": "Accent Pill",
 		"sources": [ "Ultimate Intrigue" ],
