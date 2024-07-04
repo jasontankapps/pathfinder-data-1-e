@@ -132,7 +132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotion); **Price** +1 bonus"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotions); **Price** +1 bonus"
 		]
 	},
 	"champion": {
@@ -260,12 +260,9 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [evolution surge](spell/evolution_surge); **Price** +1 bonus"
 		]
 	},
-	"fortification_light": {
-		"name": "Fortification (light)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
+	"fortification": {
+		"name": "Fortification",
+		"sources": [],
 		"description": [
 			"## Fortification",
 			"",
@@ -279,6 +276,10 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
 		]
+	},
+	"fortification_light": {
+		"name": "Fortification (light)",
+		"copyof": "fortification"
 	},
 	"light_fortification": {
 		"copyof": "fortification_light"
@@ -876,8 +877,8 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage armor](spell/mage_armor); **Price** +2 bonus"
 		]
 	},
-	"spell_resistance_13": {
-		"name": "Spell Resistance (13)",
+	"spell_resistance": {
+		"name": "Spell Resistance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -895,6 +896,10 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell resistance](spell/spell_resistance); **Price** varies"
 		]
+	},
+	"spell_resistance_13": {
+		"name": "Spell Resistance (13)",
+		"copyof": "spell_resistance"
 	},
 	"steaming": {
 		"name": "steaming",
@@ -1305,23 +1310,7 @@
 	},
 	"fortification_moderate": {
 		"name": "Fortification (moderate)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Fortification",
-			"",
-			"**Source** [Ultimate Equipment pg. 118](source/ultimate_equipment), [PRPG Core Rulebook pg. 463](source/prpg_core_rulebook)  ",
-			"**Aura** strong abjuration; **CL** 13th  ",
-			"**Slot** armor/shield quality; **Price** light (+1 bonus), moderate (+3 bonus), heavy (+5 bonus); **Weight** -",
-			"",
-			"This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
-		]
+		"copyof": "fortification_moderate"
 	},
 	"moderate_fortification": {
 		"copyof": "fortification_moderate"
@@ -1390,11 +1379,7 @@
 	},
 	"spell_resistance_15": {
 		"name": "Spell Resistance (15)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"copyof": "spell_resistance_13"
+		"copyof": "spell_resistance"
 	},
 	"titanic": {
 		"name": "titanic",
@@ -1627,11 +1612,7 @@
 	},
 	"spell_resistance_17": {
 		"name": "Spell Resistance (17)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"copyof": "spell_resistance_13"
+		"copyof": "spell_resistance"
 	},
 	"energy_resistance": {
 		"name": "energy resistance",
@@ -1689,34 +1670,14 @@
 	},
 	"fortification_heavy": {
 		"name": "Fortification (heavy)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Fortification",
-			"",
-			"**Source** [Ultimate Equipment pg. 118](source/ultimate_equipment), [PRPG Core Rulebook pg. 463](source/prpg_core_rulebook)  ",
-			"**Aura** strong abjuration; **CL** 13th  ",
-			"**Slot** armor/shield quality; **Price** light (+1 bonus), moderate (+3 bonus), heavy (+5 bonus); **Weight** -",
-			"",
-			"This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
-		]
+		"copyof": "fortification_moderate"
 	},
 	"heavy_fortification": {
 		"copyof": "fortification_heavy"
 	},
 	"spell_resistance_19": {
 		"name": "Spell Resistance (19)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"copyof": "spell_resistance_13"
+		"copyof": "spell_resistance"
 	},
 	"unbowed": {
 		"name": "unbowed",
@@ -4787,7 +4748,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotion), [cure light wounds](spell/cure_light_wounds); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotions), [cure light wounds](spell/cure_light_wounds); **Price** -"
 		]
 	},
 	"phase_locking": {
@@ -5401,7 +5362,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate object](spell/animate_object); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate object](spell/animate_objects); **Price** -"
 		]
 	},
 	"spell_siphon": {

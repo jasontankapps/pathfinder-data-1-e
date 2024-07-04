@@ -2867,7 +2867,7 @@
 			"**Aura** strong abjuration and conjuration; **CL** 20th  ",
 			"**Slot** neck; **Price** 100,000 gp; **Weight** 1 lb.",
 			"",
-			"This black iron neckpiece is forged in the likeness of Rovagug's holy symbol. An evil wearer gains a +2 profane bonus on all saving throws. A creature with the touch of corruption class ability that wears the choker of the Rough Beast increases the damage dice of that ability from 1d6 per 2 antipaladinAPG levels to 1d8 per 2 levels.",
+			"This black iron neckpiece is forged in the likeness of Rovagug's holy symbol. An evil wearer gains a +2 profane bonus on all saving throws. A creature with the touch of corruption class ability that wears the choker of the Rough Beast increases the damage dice of that ability from 1d6 per 2 antipaladin levels to 1d8 per 2 levels.",
 			"",
 			"Good-aligned creatures within 120 feet of the choker of the Rough Beast hear distant bellows of unimaginable rage, giving them a -2 penalty on all Perception checks as the sounds distract them. Within 30 feet of the necklace, the sound increases, and all good-aligned creatures must succeed at a DC 18 Will save or be shaken while within range. They can attempt another save after 24 hours.",
 			"",
@@ -6167,8 +6167,8 @@
 		"name": "Boro Bead (6th)",
 		"copyof": "boro_bead_1st"
 	},
-	"pearl_of_power_1st": {
-		"name": "Pearl of Power (1st)",
+	"pearl_of_power": {
+		"name": "Pearl of Power",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6187,41 +6187,45 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be able to cast spells of the spell level to be recalled; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 35,000 gp (Two Spells), 40,500 gp (9th)"
 		]
 	},
+	"pearl_of_power_1st": {
+		"name": "Pearl of Power (1st)",
+		"copyof": "pearl_of_power"
+	},
 	"pearl_of_power_2nd": {
 		"name": "Pearl of Power (2nd)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_3rd": {
 		"name": "Pearl of Power (3rd)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_4th": {
 		"name": "Pearl of Power (4th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_5th": {
 		"name": "Pearl of Power (5th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_6th": {
 		"name": "Pearl of Power (6th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_7th": {
 		"name": "Pearl of Power (7th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_8th": {
 		"name": "Pearl of Power (8th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_9th": {
 		"name": "Pearl of Power (9th)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"pearl_of_power_two_spells": {
 		"name": "Pearl of Power (Two Spells)",
-		"copyof": "pearl_of_power_1st"
+		"copyof": "pearl_of_power"
 	},
 	"preserving_flask_1st": {
 		"name": "Preserving Flask (1st)",

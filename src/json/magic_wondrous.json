@@ -431,8 +431,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Eschew Materials, creator must have 3 ranks in Knowledge (arcana) and Spellcraft; **Cost** 2,500 gp"
 		]
 	},
-	"infernal_cord_normal": {
-		"name": "Infernal Cord (Normal)",
+	"infernal_cord": {
+		"name": "Infernal Cord",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Infernal Cord",
@@ -455,6 +455,10 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, infernal healing; **Cost** 2,500 gp (Normal), 15,500 gp (Greater)"
 		]
+	},
+	"infernal_cord_normal": {
+		"name": "Infernal Cord (Normal)",
+		"copyof": "infernal_cord"
 	},
 	"normal_infernal_cord": {
 		"copyof": "infernal_cord_normal"
@@ -1170,7 +1174,7 @@
 	},
 	"infernal_cord_greater": {
 		"name": "Infernal Cord (Greater)",
-		"copyof": "infernal_cord_normal"
+		"copyof": "infernal_cord"
 	},
 	"greater_infernal_cord": {
 		"copyof": "infernal_cord_greater"

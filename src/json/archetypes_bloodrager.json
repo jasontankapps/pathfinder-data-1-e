@@ -137,7 +137,7 @@
 			"",
 			"**Summoning Rager (Sp):** At 6th level, a greenrager's magic unlocks the secrets of summoning allies from nature. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bloodrager spells known as a bonus spell, as if it were a bonus bloodrager spell. At 7th level, he adds [summon nature's ally II](spell/summon_nature's_ally_2) as a bonus 2nd-level bloodrager spell, at 10th level he adds [summon nature's ally III](spell/summon_nature's_ally_3) as a bonus 3rd level bloodrager spell, and at 13th level he adds [summon nature's ally IV](spell/summon_nature's_ally_4) as a bonus 4th-level bloodrager spell. This ability replaces the bloodline feat gained at 6th level.",
 			"",
-			"**Furious Summoning (Su):** At 9th level, creatures summoned by the bloodrager's [summon nature's ally](spell/summon_nature's_ally) spell gain a +4 morale bonus to Strength and Constitution and gain the druid's woodland stride ability. At 11th level, this bonus increases to +6. At 20th level, it increases to +8. This ability replaces the bloodline feat at 9th level."
+			"**Furious Summoning (Su):** At 9th level, creatures summoned by the bloodrager's [summon nature's ally](spell/summon_nature's_ally_1) spell gain a +4 morale bonus to Strength and Constitution and gain the druid's woodland stride ability. At 11th level, this bonus increases to +6. At 20th level, it increases to +8. This ability replaces the bloodline feat at 9th level."
 		]
 	},
 	"hag-riven": {

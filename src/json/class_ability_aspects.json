@@ -213,7 +213,7 @@
 			"",
 			"**Minor Form:** You gain a +4 bonus on Will saves against mind-affecting affects. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant wasp](monster/giant_wasp). This ability uses the [vermin shape](spell/vermin_shape) spell, rather than [beast shape](spell/beast_shape), for the purposes of wild shape. While in this form, you gain a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded to do so. At 8th level, this fly speed increases to 60 feet (average), and you gain a sting attack usable a number of times per day equal to 3 + your Wisdom modifier, which applies the following poison.",
+			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant wasp](monster/giant_wasp). This ability uses the [vermin shape](spell/vermin_shape_1) spell, rather than [beast shape](spell/beast_shape_1), for the purposes of wild shape. While in this form, you gain a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded to do so. At 8th level, this fly speed increases to 60 feet (average), and you gain a sting attack usable a number of times per day equal to 3 + your Wisdom modifier, which applies the following poison.",
 			"",
 			"*Wasp Venom (Ex) Sting*-injury; *save* Fort DC = 10 + half your shifter level + your Constitution modifier; *frequency* 1/round for 4 rounds; *effect* 1d3 Dex damage; *cure* 2 consecutive saves.",
 			"",

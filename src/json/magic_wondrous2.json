@@ -199,8 +199,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), hydraulic push, sanctuary; **Cost** 1,800 gp"
 		]
 	},
-	"gloves_of_improvised_might_+1": {
-		"name": "Gloves of Improvised Might (+1)",
+	"gloves_of_improvised_might": {
+		"name": "Gloves of Improvised Might",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Gloves of Improvised Might",
@@ -217,6 +217,10 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic weapon, creator's caster level must be at least three times the gloves' bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
+	},
+	"gloves_of_improvised_might_+1": {
+		"name": "Gloves of Improvised Might (+1)",
+		"copyof": "gloves_of_improvised_might"
 	},
 	"gloves_of_improvised_might_1": {
 		"copyof": "gloves_of_improvised_might_+1"
@@ -1201,7 +1205,7 @@
 	},
 	"gloves_of_improvised_might_+2": {
 		"name": "Gloves of Improvised Might (+2)",
-		"copyof": "gloves_of_improvised_might_+1"
+		"copyof": "gloves_of_improvised_might"
 	},
 	"gloves_of_improvised_might_2": {
 		"copyof": "gloves_of_improvised_might_+2"
@@ -1408,7 +1412,7 @@
 	},
 	"gloves_of_improvised_might_+3": {
 		"name": "Gloves of Improvised Might (+3)",
-		"copyof": "gloves_of_improvised_might_+1"
+		"copyof": "gloves_of_improvised_might"
 	},
 	"gloves_of_improvised_might_3": {
 		"copyof": "gloves_of_improvised_might_+3"
@@ -1471,7 +1475,7 @@
 	},
 	"gloves_of_improvised_might_+4": {
 		"name": "Gloves of Improvised Might (+4)",
-		"copyof": "gloves_of_improvised_might_+1"
+		"copyof": "gloves_of_improvised_might"
 	},
 	"gloves_of_improvised_might_4": {
 		"copyof": "gloves_of_improvised_might_+4"
@@ -1501,7 +1505,7 @@
 	},
 	"gloves_of_improvised_might_+5": {
 		"name": "Gloves of Improvised Might (+5)",
-		"copyof": "gloves_of_improvised_might_+1"
+		"copyof": "gloves_of_improvised_might"
 	},
 	"gloves_of_improvised_might_5": {
 		"copyof": "gloves_of_improvised_might_+5"
@@ -6494,8 +6498,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic fang; **Cost** 925 gp"
 		]
 	},
-	"amulet_of_natural_armor_+1": {
-		"name": "Amulet of Natural Armor (+1)",
+	"amulet_of_natural_armor": {
+		"name": "Amulet of Natural Armor",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6514,33 +6518,37 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), barkskin, creator's caster level must be at least three times the amulet's bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
 		]
 	},
+	"amulet_of_natural_armor_+1": {
+		"name": "Amulet of Natural Armor (+1)",
+		"copyof": "amulet_of_natural_armor"
+	},
 	"amulet_of_natural_armor_1": {
 		"copyof": "amulet_of_natural_armor_+1"
 	},
 	"amulet_of_natural_armor_+2": {
 		"name": "Amulet of Natural Armor (+2)",
-		"copyof": "amulet_of_natural_armor_+1"
+		"copyof": "amulet_of_natural_armor"
 	},
 	"amulet_of_natural_armor_2": {
 		"copyof": "amulet_of_natural_armor_+2"
 	},
 	"amulet_of_natural_armor_+3": {
 		"name": "Amulet of Natural Armor (+3)",
-		"copyof": "amulet_of_natural_armor_+1"
+		"copyof": "amulet_of_natural_armor"
 	},
 	"amulet_of_natural_armor_3": {
 		"copyof": "amulet_of_natural_armor_+3"
 	},
 	"amulet_of_natural_armor_+4": {
 		"name": "Amulet of Natural Armor (+4)",
-		"copyof": "amulet_of_natural_armor_+1"
+		"copyof": "amulet_of_natural_armor"
 	},
 	"amulet_of_natural_armor_4": {
 		"copyof": "amulet_of_natural_armor_+4"
 	},
 	"amulet_of_natural_armor_+5": {
 		"name": "Amulet of Natural Armor (+5)",
-		"copyof": "amulet_of_natural_armor_+1"
+		"copyof": "amulet_of_natural_armor"
 	},
 	"amulet_of_natural_armor_5": {
 		"copyof": "amulet_of_natural_armor_+5"
@@ -7161,8 +7169,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, light, shocking grasp; **Cost** 1,950 gp"
 		]
 	},
-	"amulet_of_mighty_fists_+1": {
-		"name": "Amulet of Mighty Fists (+1)",
+	"amulet_of_mighty_fists": {
+		"name": "Amulet of Mighty Fists",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -7182,6 +7190,10 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic fang, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
+	},
+	"amulet_of_mighty_fists_+1": {
+		"name": "Amulet of Mighty Fists (+1)",
+		"copyof": "amulet_of_mighty_fists"
 	},
 	"amulet_of_mighty_fists_1": {
 		"copyof": "amulet_of_mighty_fists_+1"

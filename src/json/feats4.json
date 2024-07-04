@@ -4036,7 +4036,7 @@
 			"",
 			"Holy Circle (ability to cast magic circle against evil): You can replace the silver material component of a magic circle against evil spell with a vial of holy water. When you do so, the duration of the spell increases 20 minutes per level instead of 10 minutes, and the Spellcraft DC to add a special diagram to the circle is 15 instead of 20.",
 			"",
-			"Holy Water Splash (Point-Blank Shot): When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the concentrate holy water ability of this feat or the [empower holy water](spell/empower_hoy_water) spell."
+			"Holy Water Splash (Point-Blank Shot): When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the concentrate holy water ability of this feat or the [empower holy water](spell/empower_holy_water) spell."
 		]
 	},
 	"hook_fighter": {

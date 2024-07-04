@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple_gremlin), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath_gremlin), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub_gremlin), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple_gremlin), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath_gremlin), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub_gremlin), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
 			"",
 			"This replaces inspire competence."
 		]
@@ -866,7 +866,7 @@
 			"**Source** [Legacy of the First World pg. 11](source/legacy_of_the_first_world)  ",
 			"Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The First World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the First World.",
 			"",
-			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell/summon_nature's_ally) spells to his spell list instead of the equivalent [summon monster](spell/summon_monster) spells.",
+			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell/summon_nature's_ally_1) spells to his spell list instead of the equivalent [summon monster](spell/summon_monster_1) spells.",
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",
@@ -918,7 +918,7 @@
 			"**Source** [Elemental Master's Handbook pg. 5](source/elemental_master's_handbook)  ",
 			"The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's tradition originated among the varied peoples of the Padishah Empire of Kelesh, it long ago spread to Qadira and from there throughout the Inner Sea region.",
 			"",
-			"**Fire Music:** A flamesinger gains [Fire Music](feat/fire_music) as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds [summon monster I](spell/summon_monster_1) and [summon monster II](spell/summon_monster_2) to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell/summon_monster), until she adds [summon monster VI](spell/summon_monster_6) to her spells known at 16th level. The flamesinger must apply the [Fire Music](feat/fire_music) feat's effect when casting these spells.",
+			"**Fire Music:** A flamesinger gains [Fire Music](feat/fire_music) as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds [summon monster I](spell/summon_monster_1) and [summon monster II](spell/summon_monster_2) to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell/summon_monster_1), until she adds [summon monster VI](spell/summon_monster_6) to her spells known at 16th level. The flamesinger must apply the [Fire Music](feat/fire_music) feat's effect when casting these spells.",
 			"",
 			"This ability replaces bardic knowledge and lore master.",
 			"",
@@ -1574,7 +1574,7 @@
 			"",
 			"**Shadow Servant (Sp):** At 1st level, the puppeteer can create a shadow servant to perform simple tasks. The shadow servant is identical to an [unseen servant](spell/unseen_servant) (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components.",
 			"",
-			"**Shadow Puppets (Sp):** At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the [summon monster I](spell/summon_monster_1) list. These shadowy creatures otherwise work like [shadow conjuration](spell/shadow_conjuration), and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of [summon monster](spell/summon_monster) ([summon monster II](spell/summon_monster_2) at 4th level and so on)."
+			"**Shadow Puppets (Sp):** At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the [summon monster I](spell/summon_monster_1) list. These shadowy creatures otherwise work like [shadow conjuration](spell/shadow_conjuration), and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of [summon monster](spell/summon_monster_1) ([summon monster II](spell/summon_monster_2) at 4th level and so on)."
 		]
 	},
 	"silver_balladeer": {

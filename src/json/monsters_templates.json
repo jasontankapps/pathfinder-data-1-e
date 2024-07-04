@@ -149,7 +149,7 @@
 			"",
 			"**Hit Dice:** Change all the creature's racial Hit Dice to d10s. Hit Dice derived from class levels remain unchanged.",
 			"",
-			"**Defensive Abilities:** An alebrije with 5 Hit Dice or more gains DR 5/magic (or DR 10/magic if it has 11 Hit Dice or more) and SR equal to its new CR + 6 (or SR equal to its new CR + 11 if it has 11 Hit Dice or more). In addition, an alebrije gains cold resistance 5 and fire resistance 5 (or cold resistance 10 and fire resistance 10 if it has 11 Hit Dice or more). Finally, an alebrije gains light fortification, as the [fortification](magic/armor/moderate_fortification) armor special ability.",
+			"**Defensive Abilities:** An alebrije with 5 Hit Dice or more gains DR 5/magic (or DR 10/magic if it has 11 Hit Dice or more) and SR equal to its new CR + 6 (or SR equal to its new CR + 11 if it has 11 Hit Dice or more). In addition, an alebrije gains cold resistance 5 and fire resistance 5 (or cold resistance 10 and fire resistance 10 if it has 11 Hit Dice or more). Finally, an alebrije gains light fortification, as the [fortification](magic/enhancement/moderate_fortification) armor special ability.",
 			"",
 			"**Speed:** An alebrije with 5 Hit Dice or more grows wings and gains a fly speed of 20 feet (average). If the alebrije has 11 Hit Dice or more, it gains a fly speed of 40 feet (average) instead. An alebrije that already has a fly speed improves its maneuverability by one step instead.",
 			"",
@@ -1566,7 +1566,7 @@
 			"",
 			"Construction",
 			"",
-			"An energized golem's body must be magically reinforced to withstand the raw energy of the elemental to be sealed within it, costing an additional 25,000 gp above the base golem's cost. All Craft check DCs to create the golem are increased by 5, and the minimum caster level requirements are 2 higher than normal. In addition, the following spells are added to the base golem's requirements: any [magic circle](unknown/magic_circle) spell and [planar binding](spell/planar_binding)."
+			"An energized golem's body must be magically reinforced to withstand the raw energy of the elemental to be sealed within it, costing an additional 25,000 gp above the base golem's cost. All Craft check DCs to create the golem are increased by 5, and the minimum caster level requirements are 2 higher than normal. In addition, the following spells are added to the base golem's requirements: any [magic circle](spell/magic_circle_against_evil) spell and [planar binding](spell/planar_binding)."
 		]
 	},
 	"enlightened_construct": {
@@ -1893,7 +1893,7 @@
 			"",
 			"For the purpose of calculating the save DCs and damage for her kineticist abilities, the prophet chooses either her Intelligence, Wisdom, or Charisma score and uses that in place of her Constitution score. Once this choice is made, it cannot be changed.",
 			"",
-			"**Greedy Grab (Ex):** When a failed prophet hits a creature with her claw attack or a touch attack, she can attempt a free stealAPG combat maneuver with a +4 racial bonus to steal the target's wealth; this does not provoke an attack of opportunity. If successful, the prophet grabs mundane valuables from the target equal to 100 gp &times; the failed prophet's Hit Dice, shoveling them into her personal vault (see below). A failed prophet cannot steal more wealth than her target has.",
+			"**Greedy Grab (Ex):** When a failed prophet hits a creature with her claw attack or a touch attack, she can attempt a free steal combat maneuver with a +4 racial bonus to steal the target's wealth; this does not provoke an attack of opportunity. If successful, the prophet grabs mundane valuables from the target equal to 100 gp &times; the failed prophet's Hit Dice, shoveling them into her personal vault (see below). A failed prophet cannot steal more wealth than her target has.",
 			"",
 			"**Personal Vault (Ex):** A failed prophet can stow small objects and mundane valuables within her body, up to 500 gp &times; her Hit Dice. Creatures can steal individual objects from this extradimensional space with a successful steal combat maneuver or Sleight of Hand check, though either of these checks takes a -5 penalty.",
 			"",
@@ -2145,9 +2145,9 @@
 			"**Source** [The First World, Realm of the Fey](source/the_first_world,_realm_of_the_fey)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
-			"**Usable with Summons** Yes - Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster), [summon nature's ally](spell/summon_nature's_ally), and [planar ally](spell/planar_ally).",
+			"**Usable with Summons** Yes - Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_nature's_ally_1), and [planar ally](spell/planar_ally).",
 			"",
-			"Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster), [summon nature's ally](spell/summon_nature's_ally), and [planar ally](spell/planar_ally). A First World creature's CR increases by 1 only if the base creature has 5 or more HIt Dice. A First World creature's quick and rebuild rules are the same.",
+			"Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_nature's_ally_1), and [planar ally](spell/planar_ally). A First World creature's CR increases by 1 only if the base creature has 5 or more HIt Dice. A First World creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Type** the creature counts as both its base type as well as fey for any effects related to type; **Senses** gains low-light vision; **Defensive Abilities** gains DR and energy resistance as noted on the table below, +4 bonus against mind-affecting effects; **SR** gains SR equal to new CR + 5; **Special** a First World creature killed while on the First World does not travel to the Boneyard, but simply reappears elsewhere in the First World 1d10 days later as if raised by resurrection, save that the negative level and Constitution drain from that spell cannot force it below 1st level or a Constitution score of 1. At the GM's option, the creature may be reincarnated (as per [reincarnate](spell/reincarnate)) instead.",
 			"",

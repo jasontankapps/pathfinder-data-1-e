@@ -1971,7 +1971,7 @@
 			"",
 			"1. **The Coming Storm (Sp)** [doom](spell/doom) 3/day, [scare](spell/scare) 2/day, or [rain of frogs](spell/rain_of_frogs) 1/day",
 			"2. **Insight into Disaster (Ex)** You gain a bonus equal to your Wisdom modifier on initiative checks and Reflex saves.",
-			"3. **Call Down the Wrath (Sp)** You can cast [extended control weather](spell/extended_control_weather) once per day.",
+			"3. **Call Down the Wrath (Sp)** You can cast [extended](feat/extend_spell) [control weather](spell/control_weather) once per day.",
 			"",
 			"### For Followers",
 			"",
@@ -3657,7 +3657,7 @@
 			"- [Charm Animal](spell/charm_animal) can be prepared as a 1st-level spell",
 			"- [Animal Aspect](spell/animal_aspect) can be prepared as a 2nd-level spell",
 			"- [Hold Animals](spell/hold_animals) can be prepared as a 2nd-level spell",
-			"- [Aspect of the Stag](spell/aspect_of__the_stag) can be prepared as a 4th-level spell"
+			"- [Aspect of the Stag](spell/aspect_of_the_stag) can be prepared as a 4th-level spell"
 		]
 	},
 	"khepri": {
@@ -4467,7 +4467,7 @@
 			"",
 			"**Source** [Inner Sea Gods pg. 99](source/inner_sea_gods)",
 			"",
-			"- Druids and Rangers can use [summon nature's ally](spell/summon_nature's_ally) spells to summon fiendish animals from the same level summon monster list."
+			"- Druids and Rangers can use [summon nature's ally](spell/summon_nature's_ally_1) spells to summon fiendish animals from the same level summon monster list."
 		]
 	},
 	"lanishra": {
@@ -6382,7 +6382,7 @@
 			"",
 			"1. **Carrion Eater (Sp)** [decompose corpse](spell/decompose_corpse) 3/day, [animal aspect](spell/animal_aspect) 2/day, or [cure serious wounds](spell/cure_serious_wounds) 1/day",
 			"2. **Devourer (Ex)** You gain a bite attack that deals 1d4 points of damage (1d3 for small creatures) plus your Strength modifier. If you confirm a critical hit with this attack, it also deals 1 point of bleed damage. If you already have a bite attack, your bite deals 2 points of bleed damage on a critical hit. You are considered proficient with this attack.",
-			"3. **New from Old (Sp)** You can cast [extended polymorph any object](spell/extended_polymorph_any_object) once per day.",
+			"3. **New from Old (Sp)** You can cast [extended](feat/extend_spell) [polymorph any object](spell/polymorph_any_object) once per day.",
 			"",
 			"### For Followers",
 			"",

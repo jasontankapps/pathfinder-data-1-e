@@ -381,7 +381,7 @@
 			"## Dual Initiative (Ex) [Mythic]",
 			"",
 			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
-			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a [summon monster](spell/summon_monster) spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
+			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a [summon monster](spell/summon_monster_1) spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
 			"",
 			"**Format:** 21  ",
 			"**Location:** Init."
@@ -439,7 +439,7 @@
 			"## Plantbringer (Su) [Mythic]",
 			"",
 			"**Source** [Bestiary 4 pg. 297](source/bestiary_4)  ",
-			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses [plant shape](spell/plant_shape) or wild shape to take the form of a plant, it gains this fast healing in plant form.",
+			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses [plant shape](spell/plant_shape_1) or wild shape to take the form of a plant, it gains this fast healing in plant form.",
 			"",
 			"**Format:** plantbringer  ",
 			"**Location:** SQ"
@@ -1428,7 +1428,7 @@
 			"## Fortification (Ex)",
 			"",
 			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
-			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic/armor/moderate_fortification) armor.",
+			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic/enhancement/moderate_fortification) armor.",
 			"",
 			"**Format:** fortification (50%)  ",
 			"**Location:** Defensive Abilities."
@@ -1498,7 +1498,7 @@
 			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
 			"The creature has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form unless noted otherwise. This ability functions as a [polymorph spell](rule/polymorph_spell), the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.",
 			"",
-			"**Format:** change shape (wolf; [beast form I](spell/beast_form_1))  ",
+			"**Format:** change shape (wolf; [beast shape I](spell/beast_shape_1))  ",
 			"**Location:** SQ, and in Special Abilities for creatures with a unique listing."
 		]
 	},
@@ -1743,7 +1743,7 @@
 			"## Summon (Sp)",
 			"",
 			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
-			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a [summon monster](spell/summon_monster) spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
+			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a [summon monster](spell/summon_monster_1) spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
 			"",
 			"**Format:** 1/day-summon (level 4, 1 [hezrou](monster/hezrou) 35%)  ",
 			"**Location:** Spell-Like Abilities."
@@ -1885,6 +1885,19 @@
 			"",
 			"**Format:** heat (1d6 fire)  ",
 			"**Location:** Special Attacks."
+		]
+	},
+	"ink_cloud": {
+		"name": "Ink Cloud (Ex)",
+		"sources": [],
+		"description": [
+			"## Ink Cloud (Ex)",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 219, 259](source/pathfinder_rpg_bestiary)  ",
+			"Some cephalopods can emit a spherical cloud of ink once per minute as a free action while underwater. This cloud provides total concealment. The radius of the ink cloud is included in the monster's description. The ink persists for 1 minute.",
+			"",
+			"**Format:** ink cloud (5-ft. radius)  ",
+			"**Location:** Defensive Abilities."
 		]
 	}
 }

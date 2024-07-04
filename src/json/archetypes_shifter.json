@@ -489,7 +489,7 @@
 			"",
 			"**Form of the Snake:** Once per round when you hit a single foe with two or more unarmed strikes and deal piercing damage on your turn, you knock that foe off-balance. The foe is flat-footed until the start of its turn. At 8th level, a foe you knock off-balance can't take attacks of opportunity until the start of its turn and remains flat-footed until the end of its turn. At 15th level, when you confirm a critical hit, the target is knocked off-balance and provokes attacks of opportunity from you and your allies.",
 			"",
-			"**Form of the Snapping Turtle:** You double your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style). At 8th level, you still gain your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style) even when you don't have one hand free. At 15th level, there is a 10% chance that critical hits and sneak attacks fail to affect you. This stacks with the [light fortification](magic/armor/light_fortification) armor special ability and similar effects.",
+			"**Form of the Snapping Turtle:** You double your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style). At 8th level, you still gain your shield bonus to AC from [Snapping Turtle Style](feat/snapping_turtle_style) even when you don't have one hand free. At 15th level, there is a 10% chance that critical hits and sneak attacks fail to affect you. This stacks with the [light fortification](magic/enhancement/light_fortification) armor special ability and similar effects.",
 			"",
 			"**Form of the Tiger:** On a successful bull rush, overrun, or trip combat maneuver, you deal slashing damage equal to your Strength bonus to the target of the maneuver. This damage increases to twice your Strength bonus at 8th level. At 15th level, if you hit with two or more unarmed strikes and deal slashing damage on your turn, you also rend your target, dealing damage equal to your unarmed strike plus 1-1/2 your Strength bonus."
 		]
@@ -615,7 +615,7 @@
 			"",
 			"This replaces wild empathy, track, woodland stride, and trackless step.",
 			"",
-			"**Heart of Earth (Su):** At 4th level, a wild effigy's stone aspects no longer require even the semblance of flesh and blood to function. When a wild effigy is shifted into a minor or major aspect, or is transformed into one of her aspects using wild shape, she adds her shifter level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with the [fortification armor property](magic/armor/fortification_armor_property) or similar effects.",
+			"**Heart of Earth (Su):** At 4th level, a wild effigy's stone aspects no longer require even the semblance of flesh and blood to function. When a wild effigy is shifted into a minor or major aspect, or is transformed into one of her aspects using wild shape, she adds her shifter level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with the [fortification armor property](magic/enhancement/fortification) or similar effects.",
 			"",
 			"At 9th level, this chance increases to 50% and she becomes immune to petrification.",
 			"",

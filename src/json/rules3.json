@@ -352,7 +352,7 @@
 			"",
 			"The following performance combat checks must be attempted whenever possible. These checks don't improve a crowd's attitude, and the combatant gains no benefit from performance feats with these checks. Failing them typically has a detrimental effect on a crowd's attitude. If the crowd cannot see the action that triggered these checks, the combatant who performed it does not need to make the check. Making a performance check for one of these triggers is not an action.",
 			"",
-			"**Magical Healing:** Crowds tend to dislike the use of magical healing; some crowds even see it as cheating. On a turn when a combatant casts a healing spell or other healing effect, or uses a healing spell trigger, spell completion, or use-activated item (including forcing a [potion of cure light wounds](spell/potion_of_cure_light_wounds) or similar potion down the throat of an opponent) she must make a performance combat check. Success yields no change to the attitude of the crowd, but any failure reduces the crowd's attitude by one step.",
+			"**Magical Healing:** Crowds tend to dislike the use of magical healing; some crowds even see it as cheating. On a turn when a combatant casts a healing spell or other healing effect, or uses a healing spell trigger, spell completion, or use-activated item (including forcing a [potion of cure light wounds](spell/cure_light_wounds) or similar potion down the throat of an opponent) she must make a performance combat check. Success yields no change to the attitude of the crowd, but any failure reduces the crowd's attitude by one step.",
 			"",
 			"**Rolling a Natural 1:** When a combatant rolls a natural 1 on an attack roll or a saving throw, she must make a performance combat check. A success does not affect the crowd in any way, but any failure reduces the crowd's attitude by one step.",
 			"",
@@ -2410,7 +2410,7 @@
 			"",
 			"**Emotion Components:** Emotion components represent a particular emotional state required to cast the spell. A psychic spellcaster marshals her desire in order to focus and release the spell's energy. It is impossible to cast a spell with an emotion component while the spellcaster is under the influence of a non-harmless effect with the emotion or fear descriptors. Even if the effect's emotion matches the necessary emotion to cast the psychic spell, the spellcaster is not in control of her own desires and animal impulses, which is a necessary part of providing an emotion component.",
 			"",
-			"**Thought Components:** Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail-down to the saliva dripping from its jaws-in order to cast [beast shape](spell/beast_shape) to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any concentration check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
+			"**Thought Components:** Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail-down to the saliva dripping from its jaws-in order to cast [beast shape](spell/beast_shape_1) to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any concentration check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
 			"",
 			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use [Silent Spell](feat/silent_spell) to ignore the thought component of a spell, for example. The new feats [Intuitive Spell](feat/intuitive_spell) and [Logical Spell](feat/logical_spell) serve a similar function for these new components."
 		],
@@ -2890,7 +2890,7 @@
 			"",
 			"At the beginning of each round, the participants check the status of the duel (the GM may want to mark the beginning of each round in some way during initiative tracking as a reminder to check this status). So long as all participants agree to continue dueling, the duel goes on. If any one of the participants withdraws from the duel, the duel immediately ends for all participants, even those who want to see it continue. The participant or side that ended the duel is considered the loser of the duel. The duel's remaining participants can, among themselves, agree to resume the duel, but this is considered a separate duel from the previous one and does not involve those who withdrew from the duel.",
 			"",
-			"Each participant in a duel can act normally on her turn, but if she casts a spell, that spell must affect or target either herself or one of the other duel participants (whether this participant is an ally or an opponent). For example, a dueling mage could not cast haste on her allies and exclude herself, but she could cast it on herself and her allies. The same goes for offensive spells, such as [fireball-the](spell/fireball-the) dueling caster must include one of her opponents in the duel among the targets of the spell, and could not affect some nearby creatures to the exclusion of her opponent.",
+			"Each participant in a duel can act normally on her turn, but if she casts a spell, that spell must affect or target either herself or one of the other duel participants (whether this participant is an ally or an opponent). For example, a dueling mage could not cast haste on her allies and exclude herself, but she could cast it on herself and her allies. The same goes for offensive spells, such as [fireball](spell/fireball)-the dueling caster must include one of her opponents in the duel among the targets of the spell, and could not affect some nearby creatures to the exclusion of her opponent.",
 			"",
 			"In addition to the normal set of actions a dueling caster can perform each round, each participant in a duel may take a special counterspell action called a dueling counter, as noted below."
 		],
@@ -2995,7 +2995,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
 			"",
-			"The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is [planar ally](spell/planar_ally); wizard, sorcerers, and summoners rely primarily on [planar binding](spell/planar_binding) (or [summon monster](spell/summon_monster), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains."
+			"The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is [planar ally](spell/planar_ally); wizard, sorcerers, and summoners rely primarily on [planar binding](spell/planar_binding) (or [summon monster](spell/summon_monster_1), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains."
 		],
 		"parent_topics": [
 			"magic",
@@ -3040,11 +3040,11 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
 			"",
-			"The arcane method for binding outsiders is more difficult. First, a binder must create a trap, a [magic circle](spell/magic_circle) focused inward. Typically the circle is outlined in a substance that is anathema to the outsider he wishes to summon. He must protect this circle against any sort of disruption, for even the smallest variation in its energies opens the circle and allows the escape of the creature he has summoned. It is for this reason that most binders' lairs are in high towers or deep dungeons, far from wind or pests.",
+			"The arcane method for binding outsiders is more difficult. First, a binder must create a trap, a [magic circle](spell/magic_circle_against_evil) focused inward. Typically the circle is outlined in a substance that is anathema to the outsider he wishes to summon. He must protect this circle against any sort of disruption, for even the smallest variation in its energies opens the circle and allows the escape of the creature he has summoned. It is for this reason that most binders' lairs are in high towers or deep dungeons, far from wind or pests.",
 			"",
-			"When an arcane caster speaks the words of the [planar binding](spell/planar_binding) spell, the outsider can resist via a Will saving throw, with no aid from its spell resistance. If it fails the save, the [magic circle](spell/magic_circle) draws it inexorably into the trap. Once there, the outsider can pit its spell resistance as a check against the caster's level, attempt to flee via dimensional travel, or attempt to overcome the spell by imposing its spiritual presence with a Charisma check (DC 15 + 1/2 the caster's level + the caster's Charisma modifier). Succeeding at any of these checks breaks the binding, and a fortunate binder suffers no additional harm from such a breach; the annoyed outsider just leaves. This is not always the case, however.",
+			"When an arcane caster speaks the words of the [planar binding](spell/planar_binding) spell, the outsider can resist via a Will saving throw, with no aid from its spell resistance. If it fails the save, the [magic circle](spell/magic_circle_against_evil) draws it inexorably into the trap. Once there, the outsider can pit its spell resistance as a check against the caster's level, attempt to flee via dimensional travel, or attempt to overcome the spell by imposing its spiritual presence with a Charisma check (DC 15 + 1/2 the caster's level + the caster's Charisma modifier). Succeeding at any of these checks breaks the binding, and a fortunate binder suffers no additional harm from such a breach; the annoyed outsider just leaves. This is not always the case, however.",
 			"",
-			"Some outsiders lash out at their failed binders. Because of this, many binders take additional precautions: a second [magic circle](spell/magic_circle) in which they can stand, and [dimensional anchor](spell/dimensional_anchor) cast within the [magic circle](spell/magic_circle) to prevent the conjured outsider from fleeing instantly. A tremendously powerful wizard or sorcerer might even use [trap the soul](spell/trap_the_soul) on his victim, forcing it into a prepared vessel until it agrees to the binder's strictures.",
+			"Some outsiders lash out at their failed binders. Because of this, many binders take additional precautions: a second [magic circle](spell/magic_circle_against_evil) in which they can stand, and [dimensional anchor](spell/dimensional_anchor) cast within the [magic circle](spell/magic_circle_against_evil) to prevent the conjured outsider from fleeing instantly. A tremendously powerful wizard or sorcerer might even use [trap the soul](spell/trap_the_soul) on his victim, forcing it into a prepared vessel until it agrees to the binder's strictures.",
 			"",
 			"Smart arcane binders often make deals with the creatures they call. Like clerics using [planar ally](spell/planar_ally), they bargain and shower the outsider with gifts in exchange for their services. While it is always good for an arcane spellcaster to make these deals from a position of strength, it is much better to get the outsider to come to mutually agreed upon terms for the service, rather than forcing it to commit actions against its nature or desires."
 		],
@@ -3069,7 +3069,7 @@
 			"",
 			"To discover a single outsider's true name, a spellcaster must spend at least a month in a library or on a quest of discovery to uncover occult mysteries and riddles hidden in the pages of books, scrolls, and glyphs written millennia ago, buried in ancient temples or found among the ravings of madmen's spellbooks. At the end of this month, the GM makes a Knowledge (planes) check for the character. The DC is 10 + the creature's Hit Dice. The GM can increase the DC by +2, +5, or even +10, based on the power of the outsider or the circumstances of the true name search. A failure by 5 or more turns up false information that may expose researchers to unexpected dangers.",
 			"",
-			"For most outer-planar outsiders, knowledge of the creature's true name is a powerful weapon. In summoning, if the name is spoken correctly (requiring knowledge of at least one of the outsider's languages, or a Linguistics skill check with a DC equal to 10 + the creature's Hit Dice), the target takes a -5 penalty on the Will save to resist being conjured, and if its name is inscribed in the protective [magic circle](spell/magic_circle), the outsider takes a -5 penalty on all checks to escape or breach that circle.",
+			"For most outer-planar outsiders, knowledge of the creature's true name is a powerful weapon. In summoning, if the name is spoken correctly (requiring knowledge of at least one of the outsider's languages, or a Linguistics skill check with a DC equal to 10 + the creature's Hit Dice), the target takes a -5 penalty on the Will save to resist being conjured, and if its name is inscribed in the protective [magic circle](spell/magic_circle_against_evil), the outsider takes a -5 penalty on all checks to escape or breach that circle.",
 			"",
 			"For elementals (including geniekind), such true names are not binding as they are for fiends and other outsiders, and do not give the creature a penalty to its Will save to resist being summoned. However, if the caster speaks the true name of the elemental, the elemental will most likely be intrigued enough to listen-a wizard with power and cunning enough to find an elemental's true name is a wizard with guile and strength, and elementals treasure these qualities.",
 			"",
@@ -3334,7 +3334,7 @@
 			"",
 			"As creatures of law and good, archons seek order, justice, and the protection of the weak against the depredations of the strong. They believe in transformation from within, whether through wholesale, systematic change of governance or personal epiphany.",
 			"",
-			"All archons are immune to electricity and petrification attacks, and all have DR 10/evil. The [magic circle](spell/magic_circle) used to summon them is made of powdered silver.",
+			"All archons are immune to electricity and petrification attacks, and all have DR 10/evil. The [magic circle](spell/magic_circle_against_evil) used to summon them is made of powdered silver.",
 			"",
 			"**Hound (SR 15):** Disciplined soldiers and vigilant sentinels, hound archons are valiant defenders of all that is good and holy. They value movement and swift yet thoughtful action, and delight in crushing evil; therefore, the best sacrifices when summoning a hound archon are magical shields imbued with holy power, ensorcelled rings or boots that grant swift or unfettered movement, or weaponry of great power.",
 			"",
@@ -3378,7 +3378,7 @@
 			"",
 			"Except for lillends, azatas have DR overcome by cold iron and evil weapons. They are immune to electricity and petrification; lillends are additionally immune to poisons of all sorts.",
 			"",
-			"The [magic circle](spell/magic_circle) needed to summon an azata is made of cold iron.",
+			"The [magic circle](spell/magic_circle_against_evil) needed to summon an azata is made of cold iron.",
 			"",
 			"**Bralani (SR 17):** Bralani azatas are fierce and wild, and constantly seek to prove themselves in battle or in contests of wits. If a wizard suggests a game of strength, wits, or dexterity that the bralani has not played, or develops a new one for the bralani to take back to Elysium, he receives a +2 Charisma bonus when negotiating with the azata.",
 			"",
@@ -3472,7 +3472,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 106](source/ultimate_magic)",
 			"",
-			"The great weakness of demons is a holy or other good weapon. Such weapons overcome every demon's natural resistances, and are one of the few types of weapons that all demons fear equally. When dealing with demons, it is best to remember that they abide by no contract other than power, and displaying power-or at least hints of it-is key to keeping them under control. Their [magic circle](spell/magic_circle) is made of powdered cold iron.",
+			"The great weakness of demons is a holy or other good weapon. Such weapons overcome every demon's natural resistances, and are one of the few types of weapons that all demons fear equally. When dealing with demons, it is best to remember that they abide by no contract other than power, and displaying power-or at least hints of it-is key to keeping them under control. Their [magic circle](spell/magic_circle_against_evil) is made of powdered cold iron.",
 			"",
 			"All demons are immune to electricity and poison effects. Many have other resistances based on their forms and chaotic natures.",
 			"",
@@ -3536,7 +3536,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 107](source/ultimate_magic)",
 			"",
-			"Devils regard both holy items and silver as deadly substances, and instinctively shy away from contact with such items. Even those for whom silver presents no danger avoid its touch whenever possible. Binders who want to deal with infernal outsiders as putative allies keep these substances at least 60 feet from the summoning circle; however, if they wish to threaten their infernal subjects, they keep them close at hand. The powdered silver used to create the [magic circle](spell/magic_circle) is a warning and a trap, but it is not an overt threat-summoned devils recognize it as part of the procedure to call them to the Material Plane. Note that even silver candlesticks or bells can be used as weapons of opportunity, but the best defense, should the wizard choose to display force, is a weapon bonded with alchemical silver.",
+			"Devils regard both holy items and silver as deadly substances, and instinctively shy away from contact with such items. Even those for whom silver presents no danger avoid its touch whenever possible. Binders who want to deal with infernal outsiders as putative allies keep these substances at least 60 feet from the summoning circle; however, if they wish to threaten their infernal subjects, they keep them close at hand. The powdered silver used to create the [magic circle](spell/magic_circle_against_evil) is a warning and a trap, but it is not an overt threat-summoned devils recognize it as part of the procedure to call them to the Material Plane. Note that even silver candlesticks or bells can be used as weapons of opportunity, but the best defense, should the wizard choose to display force, is a weapon bonded with alchemical silver.",
 			"",
 			"An even better defense against devils, however, is a holy weapon. As with demons, a holy weapon is strong enough to drive through any devil's natural defenses, and the presence of such an item in the summoning chamber is an affront to more powerful or subtle devils.",
 			"",
@@ -3600,7 +3600,7 @@
 			"",
 			"True elementals are simple creatures, thriving spirits animating bodies of pure elemental matter. They regard their lives as an eternal struggle to best themselves and each other. Each elemental type is uniquely suited to adapting to conditions on its particular plane, and is arrogant about its powers when surrounded by its element... and uniquely frightened and cowed when shown a greater power or encased in an element not its own. Most elementals do not bargain for favors-they respect only strength. Genies are the more human-like denizens of the elemental planes, both in shape and mentality. They consider themselves physically and culturally superior to true elementals.",
 			"",
-			"In general, one summons an elemental for brute work and combat, and a genie for magical power or ancient wisdom, and would thus use [summon monster](spell/summon_monster) and [planar binding](spell/planar_binding) for those tasks, respectively. However, should a conjurer wish to bind an elemental as he would a genie or fiend, the ritual is one of wrestling with the elemental's creativity in reaching its home element. Elementals are immune to bleed, paralysis, poison, sleep effects, and stunning. They are not subject to critical hits, precision-based attacks like sneak attack, or flanking.",
+			"In general, one summons an elemental for brute work and combat, and a genie for magical power or ancient wisdom, and would thus use [summon monster](spell/summon_monster_1) and [planar binding](spell/planar_binding) for those tasks, respectively. However, should a conjurer wish to bind an elemental as he would a genie or fiend, the ritual is one of wrestling with the elemental's creativity in reaching its home element. Elementals are immune to bleed, paralysis, poison, sleep effects, and stunning. They are not subject to critical hits, precision-based attacks like sneak attack, or flanking.",
 			"",
 			"Genies seek and value power, though they are more brash and boastful than most. It is said the best way to secure the attentions of a genie is to speak its true name, and to offer it aid in battles against its political enemies-a wise conjurer researches the inner battles of geniekind before summoning a genie, or else is prepared to cow the genie with strong magic.",
 			"",
@@ -4285,7 +4285,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
 			"",
-			"The game rules for what a caster must do to create a new spell are very vague (see [Independent Research from the Core Rulebook](unknown/independent_research_from_the_core_rulebook)). This is because, like the details of creating magic items, the nitty-gritty of what the caster is doing for this research isn't important for the progress of the campaign. Just as it's not necessary to know whether a wizard is using squid ink or ink from a rare plant when crafting a [scroll of burning hands](spell/scroll_of_burning_hands), it's not necessary to know whether he's modifying gestures described in Irulark's Incunabulum or altering the pronunciation of words detailed in Murlost's Great Grimoire to create a new 1st-level attack spell. While it's fine to include these elements for flavor, particularly in a high-narrative campaign, they don't affect the outcome of the item crafting or spell research, both of which largely take place outside of game time. Therefore, this chapter is about the game mechanics of a player or GM designing a new spell, not the in-world requirements of a character researching a new spell."
+			"The game rules for what a caster must do to create a new spell are very vague (see [Independent Research from the Core Rulebook](unknown/independent_research_from_the_core_rulebook)). This is because, like the details of creating magic items, the nitty-gritty of what the caster is doing for this research isn't important for the progress of the campaign. Just as it's not necessary to know whether a wizard is using squid ink or ink from a rare plant when crafting a [scroll of burning hands](spell/burning_hands), it's not necessary to know whether he's modifying gestures described in Irulark's Incunabulum or altering the pronunciation of words detailed in Murlost's Great Grimoire to create a new 1st-level attack spell. While it's fine to include these elements for flavor, particularly in a high-narrative campaign, they don't affect the outcome of the item crafting or spell research, both of which largely take place outside of game time. Therefore, this chapter is about the game mechanics of a player or GM designing a new spell, not the in-world requirements of a character researching a new spell."
 		],
 		"parent_topics": [
 			"magic",
@@ -4817,7 +4817,7 @@
 			"| Insight | AC, attacks, checks, saves | [Dusty rose prism ioun stone](magic/ioun/dusty_rose_prism) | [True strike](spell/true_strike) |",
 			"| Luck | AC, attacks, checks, damage, saves | [Stone of good luck](unknown/stone_of_good_luck) | [Divine favor](spell/divine_favor) |",
 			"| Morale | Attacks, checks, damage, saves, Str, Con, Dex | [Candle of invocation](magic/wondrous/candle_of_invocation) | [Bless](spell/bless) |",
-			"| Natural armor | AC | [Amulet of natural armor](unknown/amulet_of_natural_armor) | [Barkskin](spell/barkskin) |",
+			"| Natural armor | AC | [Amulet of natural armor](magic/wondrous/amulet_of_natural_armor) | [Barkskin](spell/barkskin) |",
 			"| Profane | AC, checks, damage, DCs, saves | - | [Desecrate](spell/desecrate) |",
 			"| Resistance | Saves | [Cloak of resistance](unknown/cloak_of_resistance) | [Mind blank](spell/mind_blank) |",
 			"| Sacred | AC, checks, damage, DCs, saves | - | [Consecrate](spell/consecrate) |",
@@ -4926,7 +4926,7 @@
 			"",
 			"There are exceptions to the above categories. For example, if dealing with a monster that has a lot of hit points and deals substantial damage but only has a moderate chance of harming the caster's allies, the caster may be better off trying to give the opponent an attack penalty (to decrease the chance of the monster hitting) than trying to wear down its hit points (because during that time the monster may be dealing a lot of damage to the caster's allies). In this case, a penalize spell that reduces its attack bonus is better than a damage spell. As another example, the PCs may need to question a defeated opponent, in which case an incapacitate spell is a better choice than a kill spell (unless the PCs have some really good magic that lets them question the dead more effectively than [speak with dead](spell/speak_with_dead)).",
 			"",
-			"Spells with variable effects may be more than one type of spell in the hierarchy depending on the results-a [confusion](spell/confusion) spell that causes a monster to babble incoherently is an incapacitate spell, but if the spell causes it to attack one of its allies, it's a control spell. Likewise, a [summon monster](spell/summon_monster) spell that summons a fiendish constrictor snake is an incapacitate spell if the snake grapples an enemy, but it's just a damage spell if it summons a fiendish boar, which only deals damage and has no special attacks. Balancing these spells is tricky, as you have to consider their optimal usage."
+			"Spells with variable effects may be more than one type of spell in the hierarchy depending on the results-a [confusion](spell/confusion) spell that causes a monster to babble incoherently is an incapacitate spell, but if the spell causes it to attack one of its allies, it's a control spell. Likewise, a [summon monster](spell/summon_monster_1) spell that summons a fiendish constrictor snake is an incapacitate spell if the snake grapples an enemy, but it's just a damage spell if it summons a fiendish boar, which only deals damage and has no special attacks. Balancing these spells is tricky, as you have to consider their optimal usage."
 		],
 		"parent_topics": [
 			"magic",
@@ -5059,7 +5059,7 @@
 			"- A spell that either teleports the caster or can be used to send away an unwilling target.",
 			"- A spell that deals energy damage of a type chosen by the caster to an area.",
 			"",
-			"Rather than create a multipurpose spell that gives a \"shopping list\" of effects the caster can choose from, keep the spell focused on one or perhaps two similar options. Note that there is a difference between a spell with multiple similar options and one with radically different options. Good examples of appropriate multipurpose spells are [alarm](spell/alarm) (audible and mental alarms are still alarms), [beast shape I](spell/beast_shape_1) (Small or Medium animals, specific benefits from a short list), [fire shield](spell/fire_shield) (two options with basically the same mechanical effect, on par for a spell of its level), the [summon monster](spell/summon_monster) spells (very versatile but of limited duration, with monsters of a lower power level than other spells of the same level)."
+			"Rather than create a multipurpose spell that gives a \"shopping list\" of effects the caster can choose from, keep the spell focused on one or perhaps two similar options. Note that there is a difference between a spell with multiple similar options and one with radically different options. Good examples of appropriate multipurpose spells are [alarm](spell/alarm) (audible and mental alarms are still alarms), [beast shape I](spell/beast_shape_1) (Small or Medium animals, specific benefits from a short list), [fire shield](spell/fire_shield) (two options with basically the same mechanical effect, on par for a spell of its level), the [summon monster](spell/summon_monster_1) spells (very versatile but of limited duration, with monsters of a lower power level than other spells of the same level)."
 		],
 		"parent_topics": [
 			"magic",
@@ -5365,7 +5365,7 @@
 			"",
 			"[Cloudkill](spell/cloudkill): This spell is key because it automatically kills weak creatures, deals poison damage each round to stronger creatures in the area, persists for several rounds, and moves.",
 			"",
-			"[Cone of Cold](spell/cone_of_cold): This spell is an interesting benchmark because it's actually a weak spell for its level; at the level you gain it, [fireball](spell/fireball) does just as much damage and at a longer range, and [cone of cold's](spell/cone_of_cold's) damage cap is only 5 dice higher than fireball. If your 5th-level attack spell is weaker than this spell, you should increase its power or consider making it a 4th-level spell.",
+			"[Cone of Cold](spell/cone_of_cold): This spell is an interesting benchmark because it's actually a weak spell for its level; at the level you gain it, [fireball](spell/fireball) does just as much damage and at a longer range, and [cone of cold's](spell/cone_of_cold) damage cap is only 5 dice higher than fireball. If your 5th-level attack spell is weaker than this spell, you should increase its power or consider making it a 4th-level spell.",
 			"",
 			"[Dominate Person](spell/dominate_person): This is the lowest-level spell that allows you to utterly control a hostile intelligent creature (with the exception of self-destructive orders).",
 			"",
@@ -5570,9 +5570,9 @@
 			"",
 			"**Cybernetics Lab (100 charges):** A cybernetics lab is used to craft cybernetic equipment and devices that interface directly with a living creature's biology.",
 			"",
-			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech/weapon/gravity_rifle), [force fields](tech/armor/force_field_black), and [magboots](tech/armor/magboots).",
+			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech/weapon/gravity_rifle), [force fields](tech/misc/force_field_black), and [magboots](tech/misc/magboots).",
 			"",
-			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](tech/misc/trauma_packs) and [medlances](tech/misc/medlance) and pharmaceuticals.",
+			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](tech/misc/trauma_pack) and [medlances](tech/misc/medlance) and pharmaceuticals.",
 			"",
 			"**Military Lab (100 charges):** A military lab is used to craft weapons that don't require more specialized laboratories.",
 			"",
@@ -5612,7 +5612,7 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jet packs](tech/misc/jet_pack) function like [winged boots](magic/wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
+			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jetpacks](tech/misc/jetpack) function like [winged boots](magic/wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -5764,7 +5764,7 @@
 			"**Type** genetic, proximity **Perception DC** 28; **Disable Device** DC 20",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** none  ",
-			"**Effect** one [grenade](tech/misc/bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
+			"**Effect** one [grenade](tech/misc/grenade_bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
 			"",
 			"### Electrified Door",
 			"#### CR 11",
