@@ -1,23 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import races from '../json/races.json';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_race.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Races", "races"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof races;
+const RaceGroup1Page = lazy(() => import("./RaceGroup1Page"));
+const RaceGroup2Page = lazy(() => import("./RaceGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RaceGroup1Page id={id} /></Suspense>,
+	({id}: {id: string}) => <Suspense fallback={<Loading />}><RaceGroup2Page id={id} /></Suspense>,
+]
 
 const RacePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, races);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <Page id={id || "not_found"} />;
+
 };
 
 export default RacePage;

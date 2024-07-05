@@ -54,7 +54,13 @@ const MainPage: React.FC = () => {
 
 	const { mainpage } = useParams<Params>();
 
-	const Page = pages[mainpage ? ((data[mainpage] || 1) - 1) : 0];
+	const index = mainpage ? ((data[mainpage] || 0) - 1) : 0;
+
+	if(index < 0) {
+		return <></>;
+	}
+
+	const Page = pages[index];
 
 	return <Page id={mainpage || "main"} />;
 

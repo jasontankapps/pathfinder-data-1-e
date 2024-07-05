@@ -3,7 +3,12 @@ import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/r
 import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
+import ArchetypePage from './pages/ArchetypePage';
+import ClassPage from './pages/ClassPage';
+import ClassAbilityPage from './pages/ClassAbilityPage';
 import MainPage from './pages/MainPage';
+import PrestigeClassPage from './pages/PrestigeClassPage';
+import RacePage from './pages/RacePage';
 import Loading from './Loading';
 
 /* Core CSS required for Ionic components to work properly */
@@ -27,11 +32,8 @@ import './theme/variables.css';
 
 setupIonicReact();
 
-const ArchetypePage = lazy(() => import("./pages/ArchetypePage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
-const ClassPage = lazy(() => import("./pages/ClassPage"));
 const OtherClassPage = lazy(() => import("./pages/OtherClassPage"));
-const PrestigeClass = lazy(() => import("./pages/PrestigeClassPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
 const EquipmentSpecMaterialPage = lazy(() => import("./pages/EquipmentSpecMaterialPage"));
@@ -48,10 +50,8 @@ const EquipmentTechPharmaceuticalsPage = lazy(() => import("./pages/EquipmentTec
 const EquipmentTechWeaponPage = lazy(() => import("./pages/EquipmentTechWeaponPage"));
 const EquipmentWeaponPage = lazy(() => import("./pages/EquipmentWeaponPage"));
 const EquipmentWeaponEnhancementsPage = lazy(() => import("./pages/EquipmentWeaponEnhancementPage"));
-const RacePage = lazy(() => import("./pages/RacePage"));
 const TraitPage = lazy(() => import("./pages/TraitPage"));
 const FaithPage = lazy(() => import("./pages/FaithPage"));
-const ClassAbilityPage = lazy(() => import("./pages/ClassAbilityPage"));
 const SpellPage = lazy(() => import("./pages/SpellPage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
 const FeatPage = lazy(() => import("./pages/FeatPage"));
@@ -120,16 +120,13 @@ const App: React.FC = () => {
 						<Route path="/" exact={true} render={mainPage} />
 						<Route path="/:mainpage" render={mainPage} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
-						<Route path="/ability/:id" render={() => <Suspense fallback={<Loading />}><ClassAbilityPage /></Suspense>} />
+						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />
 						<Route path="/archetype/:parent/:id" render={() => <ArchetypePage />} />
 						<Route path="/aspect/:id" render={() => <Suspense fallback={<Loading />}><AspectPage /></Suspense>} />
 						<Route path="/bardicmasterpiece/:id" render={() => <Suspense fallback={<Loading />}><MasterpiecePage /></Suspense>} />
 						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
 						<Route path="/bloodragerbloodline/:id" render={() => <Suspense fallback={<Loading />}><BloodragerBloodlinePage /></Suspense>} />
-						<Route path="/class/:id" render={() => <Suspense fallback={<Loading />}><ClassPage /></Suspense>} />
-						<Route path="/classarchetypes/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="archetypes" /></Suspense>} />
-						<Route path="/classcapstone/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="capstones" /></Suspense>} />
-						<Route path="/classfavored/:id" render={() => <Suspense fallback={<Loading />}><ClassPage subtopic="bonuses" /></Suspense>} />
+						<Route path="/class/:id" render={() => <ClassPage />} />
 						<Route path="/constructmod/:id" render={magicMisc} />
 						<Route path="/corruption/:id" render={() => <Suspense fallback={<Loading />}><CorruptionPage /></Suspense>} />
 						<Route path="/curse/:id" render={() => <Suspense fallback={<Loading />}><AfflictionPage type="curse" /></Suspense>} />
@@ -197,8 +194,8 @@ const App: React.FC = () => {
 						<Route path="/oraclecurse/:id" render={() => <Suspense fallback={<Loading />}><CursePage /></Suspense>} />
 						<Route path="/order/:id" render={() => <Suspense fallback={<Loading />}><OrderPage /></Suspense>} />
 						<Route path="/outsiderspirit/:id" render={() => <Suspense fallback={<Loading />}><MediumSpiritPage type="outsider" /></Suspense>} />
-						<Route path="/prestigeclass/:id" render={() => <Suspense fallback={<Loading />}><PrestigeClass /></Suspense>} />
-						<Route path="/race/:id" render={() => <Suspense fallback={<Loading />}><RacePage  /></Suspense>} />
+						<Route path="/prestigeclass/:id" render={() => <PrestigeClassPage />} />
+						<Route path="/race/:id" render={() => <RacePage />} />
 						<Route path="/ragepower/:id" render={() => <Suspense fallback={<Loading />}><RagePowerPage /></Suspense>} />
 						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
 						<Route path="/search" render={() => <Suspense fallback={<Loading />}><SearchPage /></Suspense>} />

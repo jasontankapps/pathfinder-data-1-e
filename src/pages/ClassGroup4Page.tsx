@@ -8,16 +8,11 @@ const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
 
 type Data = typeof classes;
 
-interface Props {
-	id: string
-	subtopic?: "capstones" | "bonuses" | "archetypes"
-}
+const ClassGroup4Page: React.FC<{id: string}> = ({id}) => {
 
-const ClassGroup4Page: React.FC<Props> = ({id, subtopic}) => {
+	const { name: title, description: markdown, tables, sources } = getGuaranteedItem<Data>((id as keyof Data), classes);
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), classes);
-
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
 };
 
 export default ClassGroup4Page;

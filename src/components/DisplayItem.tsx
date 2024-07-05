@@ -21,7 +21,6 @@ const p = (props: MDpProps, tables: Table[]) => {
 		let m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {
 			const index = parseInt(m[1]);
-			console.log("Found table " + m[1]);
 			if(index >= 0 && index < tables.length) {
 				return <DisplayTable table={tables[index]} />;
 			}

@@ -80,9 +80,10 @@
 			"",
 			"**Armor Mastery (Ex):** At 19th level, a fighter gains DR 5/- whenever he is wearing armor or using a shield.",
 			"",
-			"**Weapon Mastery (Ex):** At 20th level, a fighter chooses one weapon, such as the longsword, greataxe, or longbow. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (-2 becomes -3, for example). In addition, he cannot be disarmed while wielding a weapon of this type."
-		],
-		"alternate_capstones": [
+			"**Weapon Mastery (Ex):** At 20th level, a fighter chooses one weapon, such as the longsword, greataxe, or longbow. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (-2 becomes -3, for example). In addition, he cannot be disarmed while wielding a weapon of this type.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -94,9 +95,10 @@
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| Veteran of Endless War (Ex) | At 20th level, the fighter has seen more combat than entire platoons of soldiers put together. The bonuses granted by his armor training and weapon training increase by 2 each. *([Chronicle of Legends pg. 28](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Aphorite | Add 1 to the fighter's CMD when resisting disarm or trip attempts. ([Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)) |",
@@ -127,9 +129,10 @@
 			"| Strix | Add +1/4 to the attack roll bonus from the strix's hatred racial trait. ([Advanced Race Guide pg. 200](source/advanced_race_guide)) |",
 			"| Tengu | Add +1 to the fighter's CMD when resisting a grapple or trip attempt. ([Advanced Race Guide pg. 163](source/advanced_race_guide)) |",
 			"| Vanara | Add +1 to the fighter's CMD when resisting a reposition or trip attempt. ([Advanced Race Guide pg. 206](source/advanced_race_guide)) |",
-			"| Wayang | Add a +1/4 bonus on Stealth checks and on weapon damage rolls against flat-footed opponents. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |"
-		],
-		"archetypes": [
+			"| Wayang | Add a +1/4 bonus on Stealth checks and on weapon damage rolls against flat-footed opponents. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Aerial Assaulter](archetype/fighter/aerial_assaulter) | Class Skills; Bravery; 2nd, 12th-level Bonus Feat; Armor Mastery; Weapon Mastery | Aerial assaulters leap to great heights and create higher ground where there is none. |",
@@ -369,9 +372,10 @@
 			"",
 			"Every four levels thereafter (9th, 13th, and 17th), the gunslinger picks up another type of firearm, gaining these bonuses for those types as well.",
 			"",
-			"**True Grit (Ex):** At 20th level, a gunslinger picks two deeds that she has access to and that she must spend grit to perform. She can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points to perform a deed is reduced to 0, the gunslinger can perform this deed as long as she has at least 1 grit point. If a deed could already be performed as long as she had at least 1 grit point, she can now perform that deed even when she has no grit points."
-		],
-		"alternate_capstones": [
+			"**True Grit (Ex):** At 20th level, a gunslinger picks two deeds that she has access to and that she must spend grit to perform. She can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points to perform a deed is reduced to 0, the gunslinger can perform this deed as long as she has at least 1 grit point. If a deed could already be performed as long as she had at least 1 grit point, she can now perform that deed even when she has no grit points.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -383,9 +387,10 @@
 			"| Personal Armory (Ex) | At 20th level, there is not a gun in the world that the gunslinger can't fire. The gunslinger applies her gun training to all firearms, and her damage bonus from gun training increases to 1-1/2 times her Dexterity bonus. *([Chronicle of Legends pg. 28](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Dwarf | Reduce the misfire chance for one type of firearm by 1/4. You cannot reduce the misfire chance of a firearm below 1. ([Advanced Race Guide pg. 13](source/advanced_race_guide)) |",
@@ -402,9 +407,10 @@
 			"| Ifrit | Add +1/2 to the bonus on initiative checks the gunslinger makes while using her gunslinger initiative deed. ([Advanced Race Guide pg. 127](source/advanced_race_guide)) |",
 			"| Kitsune | Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast)) |",
 			"| Kobold | Add +1/4 to the dodge bonus to AC granted by the nimble class feature (maximum +4). ([Advanced Race Guide pg. 133](source/advanced_race_guide)) |",
-			"| Ratfolk | Add a +1/2 bonus on initiative checks when the gunslinger has at least 1 grit point. ([Advanced Race Guide pg. 151](source/advanced_race_guide)) |"
-		],
-		"archetypes": [
+			"| Ratfolk | Add a +1/2 bonus on initiative checks when the gunslinger has at least 1 grit point. ([Advanced Race Guide pg. 151](source/advanced_race_guide)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Black Powder Vaulter](archetype/gunslinger/black_powder_vaulter) | Deadeye; Gunslinger's Dodge; Gunslinger Initiative; Startling Shot; Expert Loading | Black powder vaulters like to get into the thick of the battle, maneuvering among the fray to find the most advantageous positions from which to kill their enemies. |",
@@ -629,9 +635,10 @@
 			"",
 			"**Master Hunter (Ex):** At 20th level, a hunter becomes a master hunter, able to track down foes with ease. She can always move at full speed while using Survival to follow tracks without penalty.",
 			"",
-			"Additionally, each day when the hunter regains her spell slots, she chooses one animal focus to be active on herself for the entire day. This focus is in addition to using her animal focus class ability (including the additional focus ability she is able to use on herself if her animal companion is dead)."
-		],
-		"alternate_capstones": [
+			"Additionally, each day when the hunter regains her spell slots, she chooses one animal focus to be active on herself for the entire day. This focus is in addition to using her animal focus class ability (including the additional focus ability she is able to use on herself if her animal companion is dead).",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -644,9 +651,10 @@
 			"| Perfect Body, Flawless Mind (Ex) | At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Catfolk | Gain 1/6 of a bonus teamwork feat. ([Blood of the Beast pg. 4](source/blood_of_the_beast)) |",
@@ -665,9 +673,10 @@
 			"| Ratfolk | Add 1 skill rank to the hunter's badger, dire rat, or riding rat animal companion. ([Blood of the Beast pg. 20](source/blood_of_the_beast)) |",
 			"| Strix | Add 1 hit point to the hunter's animal companion. If the hunter replaces her animal companion, the new animal companion gains these bonus hit points. ([Pathfinder #101: The Kintargo Contract pg. 73](source/pathfinder_#101_the_kintargo_contract)) |",
 			"| Tengu | Add 1 skill rank to the hunter's animal companion. If the hunter ever replaces her animal companion, the new companion gains these bonus skill ranks. ([Blood of the Beast pg. 24](source/blood_of_the_beast)) |",
-			"| Vanara | Add 1 minute to the number of minutes per day that the hunter can use animal focus. ([Blood of the Beast pg. 28](source/blood_of_the_beast)) |"
-		],
-		"archetypes": [
+			"| Vanara | Add 1 minute to the number of minutes per day that the hunter can use animal focus. ([Blood of the Beast pg. 28](source/blood_of_the_beast)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Aquatic Beastmaster](archetype/hunter/aquatic_beastmaster) | Animal Focus; Wild Empathy; Improved Empathic Link | Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats. |",
@@ -899,9 +908,10 @@
 			"",
 			"**Ex-Inquisitors**",
 			"",
-			"An inquisitor who slips into corruption or changes to a prohibited alignment loses all spells and the judgment ability. She cannot thereafter gain levels as an inquisitor until she [atones](spell/atonement)."
-		],
-		"alternate_capstones": [
+			"An inquisitor who slips into corruption or changes to a prohibited alignment loses all spells and the judgment ability. She cannot thereafter gain levels as an inquisitor until she [atones](spell/atonement).",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -913,9 +923,10 @@
 			"| Team Leader (Ex) | At 20th level, the inquisitor has grown accustomed to teaching farmers to fight, but what she can do with trained warriors is far more terrifying. When the inquisitor regains her spells each day, she can also spend 1 hour training a number of characters up to her Wisdom modifier in battle tactics. These characters receive three of the inquisitor's [teamwork feats](unknown/teamwork_feats) (the inquisitor's choice) as bonus feats for the next 24 hours. *([Chronicle of Legends pg. 28](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Aasimar | Add +1/2 on Intimidate, Knowledge, and Sense Motive checks made against outsiders. ([Advanced Race Guide pg. 85](source/advanced_race_guide)) |",
@@ -939,9 +950,10 @@
 			"| Kobold | Add 1/2 to Survival checks made to track creatures in total darkness. ([Kobolds of Golarion pg. 15](source/kobolds_of_golarion)) |",
 			"| Ratfolk | Add 1/2 to Sense Motive checks and Knowledge (dungeoneering) checks to identify creatures. ([Blood of the Beast pg. 20](source/blood_of_the_beast)) |",
 			"| Sylph | Add a +1/2 bonus on Stealth checks while motionless and on opposed Perception checks. ([Advanced Race Guide pg. 157](source/advanced_race_guide)) |",
-			"| Tiefling | Add a +1/2 bonus on Intimidate checks and Knowledge checks to identify creatures. ([Advanced Race Guide pg. 170](source/advanced_race_guide)) |"
-		],
-		"archetypes": [
+			"| Tiefling | Add a +1/2 bonus on Intimidate checks and Knowledge checks to identify creatures. ([Advanced Race Guide pg. 170](source/advanced_race_guide)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Abolisher](archetype/inquisitor/abolisher) | Domains; Stern Gaze; Detect Alignment; Discern Lies | Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding and exposing aberrations for what they are. |",
@@ -1146,9 +1158,10 @@
 			"",
 			"**True Inspiration (Ex):** At 20th level, an investigator can use inspiration on all skill checks-even ones he isn't trained in-and all ability checks without spending inspiration.",
 			"",
-			"In addition, whenever he uses inspiration on an ability check, attack roll, saving throw, or skill check, he adds 2d6 rather than 1d6 to the result. Some talents can affect this. If using the amazing inspiration investigator talent, he rolls 2d8 instead. If using this with empathy, tenacious inspiration, underworld inspiration, or a similar talent, he rolls two sets of inspiration dice and uses the higher of the two results."
-		],
-		"alternate_capstones": [
+			"In addition, whenever he uses inspiration on an ability check, attack roll, saving throw, or skill check, he adds 2d6 rather than 1d6 to the result. Some talents can affect this. If using the amazing inspiration investigator talent, he rolls 2d8 instead. If using this with empathy, tenacious inspiration, underworld inspiration, or a similar talent, he rolls two sets of inspiration dice and uses the higher of the two results.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -1159,9 +1172,10 @@
 			"| Perfect Body, Flawless Mind (Ex) | At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Aphorite | Gain a +1/4 bonus on damage rolls for critical hits made while using studied combat. ([Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)) |",
@@ -1180,9 +1194,10 @@
 			"| Kitsune | Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast)) |",
 			"| Locathah | Add a +1/2 bonus on Bluff checks to feint and a +1/2 bonus on Diplomacy checks to gather information. ([Blood of the Sea pg. 11](source/blood_of_the_sea)) |",
 			"| Ratfolk | Add 1 to the bonus provided to a single skill (maximum +2) by inspiration. This skill must be one to which the investigator can already apply inspiration. The investigator can select a different skill at each level. ([Blood of the Beast pg. 20](source/blood_of_the_beast)) |",
-			"| Shabti | Add 1/6 rounds to the duration of the investigator's studied combat. ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook)) |"
-		],
-		"archetypes": [
+			"| Shabti | Add 1/6 rounds to the duration of the investigator's studied combat. ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Antiquarian](archetype/investigator/antiquarian) | Alchemy; Poison Lore; Poison Resistance; Poison Immunity; Swift Alchemy | Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts. |",
@@ -1404,9 +1419,10 @@
 			"",
 			"**Metakinetic Master (Su):** At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. She reduces the burn cost of that metakinesis by 1 point (to a minimum of 0 points).",
 			"",
-			"**Omnikinesis (Su):** At 20th level, a kineticist transcends the distinction between the different elements and can bend all creation to her will. By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast she chooses), she can use any blast wild talent she doesn't know. By accepting 1 point of burn as a standard action, she can change any of her wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions)."
-		],
-		"alternate_capstones": [
+			"**Omnikinesis (Su):** At 20th level, a kineticist transcends the distinction between the different elements and can bend all creation to her will. By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast she chooses), she can use any blast wild talent she doesn't know. By accepting 1 point of burn as a standard action, she can change any of her wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions).",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -1417,9 +1433,10 @@
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| Unbridled Power (Su) | At 20th level, the kineticist wields her chosen element like a knife, cutting through all opposition. The kineticist chooses one blast. Her damage with that blast increases by 2d6+2 (for physical blasts) or by 2d6 (for energy blasts), and the blast ignores the first 10 points of damage reduction or energy resistance that the target has. *([Chronicle of Legends pg. 29](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Duergar | Add 1/5 of an Extra Wild Talent feat that must be spent on an earth element wild talent. ([Darklands Revisited pg. 13](source/darklands_revisited)) |",
@@ -1436,9 +1453,10 @@
 			"| Tengu | Gain 1/6 of an Extra Wild Talent feat. ([Blood of the Beast pg. 24](source/blood_of_the_beast)) |",
 			"| Vanara | Add 1/3 to the total number of points of burn that the kineticist can accept before she can't choose to accept additional points of burn. ([Blood of the Beast pg. 28](source/blood_of_the_beast)) |",
 			"| Vine leshy | Gain 1/5 of the Extra Wild Talent feat. This feat must be spent on a wood-element talent. ([Ultimate Wilderness pg. 21](source/ultimate_wilderness)) |",
-			"| Wayang | Add 1/4 to the save DC of the kineticist's void infusions and wild talents. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |"
-		],
-		"archetypes": [
+			"| Wayang | Add 1/4 to the save DC of the kineticist's void infusions and wild talents. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Aquakinetcist](archetype/kineticist/aquakinetcist) | Elemental Focus; Expanded Element; Basic Hydrokinesis; 2nd, 6th-level Utility Wild Talent; Elemental Defense | While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves. |",
@@ -1607,9 +1625,10 @@
 			"",
 			"**Greater Spell Access (Su):** At 19th level, the magus gains access to an expanded spell list. He learns and places 14 spells from the wizard's spell list into his spellbook as magus spells of their wizard level. He gains two of each of the following wizard spells not on the magus spell list: 0-level, 1st-level, 2nd-level, 3rd-level, 4th-level, 5th-level, and 6th-level. He can ignore the somatic component of these spells, casting them without the normal chance of spell failure.",
 			"",
-			"**True Magus (Su):** At 20th level, the magus becomes a master of spells and combat. Whenever he uses his spell combat ability, he does not need to make a concentration check to cast the spell defensively. Whenever the magus uses spell combat and his spell targets the same creature as his melee attacks, he can choose to either increase the DC to resist the spell by +2, grant himself a +2 circumstance bonus on any checks made to overcome spell resistance, or grant himself a +2 circumstance bonus on all attack rolls made against the target during his turn."
-		],
-		"alternate_capstones": [
+			"**True Magus (Su):** At 20th level, the magus becomes a master of spells and combat. Whenever he uses his spell combat ability, he does not need to make a concentration check to cast the spell defensively. Whenever the magus uses spell combat and his spell targets the same creature as his melee attacks, he can choose to either increase the DC to resist the spell by +2, grant himself a +2 circumstance bonus on any checks made to overcome spell resistance, or grant himself a +2 circumstance bonus on all attack rolls made against the target during his turn.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -1621,9 +1640,10 @@
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| Walking Library (Ex) | At 20th level, the character becomes a small, mobile athenaeum of occult scraps and lore. The character adds 100 spell levels' worth of spells to his spellbook or familiar and gains a +4 insight bonus on all Knowledge skills. Characters of any class that prepares spells from a spellbook or familiar can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Aphorite | Add one spell from the magus spell list to the magus's spellbook. This spell must be at least 1 level below the highest spell level he can cast. ([Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)) |",
@@ -1641,9 +1661,10 @@
 			"| Kobold | Add a +1/2 bonus on concentration checks made to cast defensively. ([Advanced Race Guide pg. 133](source/advanced_race_guide)) |",
 			"| Suli | Add +1/4 point to the magus's arcane pool. ([Advanced Race Guide pg. 203](source/advanced_race_guide)) |",
 			"| Tiefling | Add +1/4 point to the magus's arcane pool. ([Advanced Race Guide pg. 170](source/advanced_race_guide)) |",
-			"| Wyrwood | Add 2 rounds to the duration of the magus' arcane pool enhancements. ([Heroes of Golarion pg. 6](source/heroes_of_golarion)) |"
-		],
-		"archetypes": [
+			"| Wyrwood | Add 2 rounds to the duration of the magus' arcane pool enhancements. ([Heroes of Golarion pg. 6](source/heroes_of_golarion)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Armored Battlemage](archetype/magus/armored_battlemage) | Spell Combat; Arcane Pool; 3rd, 18th-level Magus Arcana; Improved Spell Combat; Greater Spell Combat | Armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor. |",
@@ -1854,9 +1875,10 @@
 			"",
 			"**Spirit Mastery (Ex):** At 19th legend, the medium becomes a legend among spirits, particularly lesser spirits. He can use his spirit surge ability an additional two times per day without incurring influence, regardless of whether he accepts a taboo or channels a weaker spirit. When channeling a weaker spirit, he can use his spirit surge ability an additional four times per day for each power he forgoes, instead of an additional two times.",
 			"",
-			"**Astral Beacon (Su):** At 20th level, a medium is an open connection to the Astral Plane and a shining beacon for spirits. As a free action, he can channel spirits of any of the five legends he did not contact via his seance. This ability lasts for 1 round and grants access to the intermediate, greater, and supreme spirit powers of the chosen spirits. Unlike trance of three, astral beacon allows spirits of the chosen legends (for instance, archmage) to gain influence over the medium until 24 hours from when the medium contacted his primary spirit. Also unlike trance of three, if the medium would incur influence by using one of the new spirits' abilities, that influence is added to the medium's total influence from that spirit rather than from his primary spirit."
-		],
-		"alternate_capstones": [
+			"**Astral Beacon (Su):** At 20th level, a medium is an open connection to the Astral Plane and a shining beacon for spirits. As a free action, he can channel spirits of any of the five legends he did not contact via his seance. This ability lasts for 1 round and grants access to the intermediate, greater, and supreme spirit powers of the chosen spirits. Unlike trance of three, astral beacon allows spirits of the chosen legends (for instance, archmage) to gain influence over the medium until 24 hours from when the medium contacted his primary spirit. Also unlike trance of three, if the medium would incur influence by using one of the new spirits' abilities, that influence is added to the medium's total influence from that spirit rather than from his primary spirit.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -1868,9 +1890,10 @@
 			"| Perfect Body, Flawless Mind (Ex) | At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Catfolk | Add 1/3 to the result of any spirit surge die that the medium rolls. ([Blood of the Beast pg. 4](source/blood_of_the_beast)) |",
@@ -1886,9 +1909,10 @@
 			"| Kitsune | Gain 1/6 of a new Magical Tail feat. Any kitsune character can choose this bonus upon gaining a level in her favored class. ([Blood of the Beast pg. 12](source/blood_of_the_beast)) |",
 			"| Shabti | Add 1/5 to the bonus allies gain from shared seance. This doesn't increase the medium's seance boon. ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook)) |",
 			"| Tengu | Add 1/4 to the bonus on checks when the medium uses the spirit surge ability. ([Blood of the Beast pg. 24](source/blood_of_the_beast)) |",
-			"| Wayang | When gaining a taboo, the medium can use spirit surge without incurring influence an additional 1/4 time per day. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |"
-		],
-		"archetypes": [
+			"| Wayang | When gaining a taboo, the medium can use spirit surge without incurring influence an additional 1/4 time per day. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Fiend Keeper](archetype/medium/fiend_keeper) | Alignment; Spirit; Haunt Channeler; Location Channel; Connection Channel; Ask the Spirits | Fiend keepers serve as a vessel to contain one of the world's evil spirits so that it cannot inflict further harm. |",
@@ -2079,9 +2103,10 @@
 			"",
 			"The full list of masterful tricks is available [here](ability/masterful_tricks).",
 			"",
-			"**Rule Minds (Su):** At 20th level, a mesmerist can permanently mentally enslave a creature. When the mesmerist successfully affects the target of his hypnotic stare with an enchantment spell that requires a saving throw, he can force that creature to attempt a second Will saving throw with a DC equal to the spell's DC. The DC is reduced by 5 if the monster isn't a humanoid. If the creature fails, it becomes a permanent thrall to the mesmerist (as *dominate monster*) until the mesmerist dies. If it succeeds, it can't be affected by rule minds again for 24 hours. A mesmerist can have only one creature enthralled at a time. If he enthralls a new creature, the previous one is set free but is unaware that it was enthralled by the mesmerist."
-		],
-		"alternate_capstones": [
+			"**Rule Minds (Su):** At 20th level, a mesmerist can permanently mentally enslave a creature. When the mesmerist successfully affects the target of his hypnotic stare with an enchantment spell that requires a saving throw, he can force that creature to attempt a second Will saving throw with a DC equal to the spell's DC. The DC is reduced by 5 if the monster isn't a humanoid. If the creature fails, it becomes a permanent thrall to the mesmerist (as *dominate monster*) until the mesmerist dies. If it succeeds, it can't be affected by rule minds again for 24 hours. A mesmerist can have only one creature enthralled at a time. If he enthralls a new creature, the previous one is set free but is unaware that it was enthralled by the mesmerist.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -2093,9 +2118,10 @@
 			"| Piercing Gaze (Su) | At 20th level, the mesmerist's gaze carries with it something of the beyond. His stare penalty increases by 2. *([Chronicle of Legends pg. 29](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Dwarf | Increase painful stare's damage by 1/4 point. ([Occult Adventures pg. 84](source/occult_adventures)) |",
@@ -2114,9 +2140,10 @@
 			"| Nagaji | Add 1/5 to the Hit-Die limit and the total number of Hit Die affected with each enchantment or illusion spell the mesmerist casts. This bonus stacks with the mesmerist's mental potency class feature and is applicable under the same conditions as that ability. ([Blood of the Beast pg. 16](source/blood_of_the_beast)) |",
 			"| Ratfolk | Gain a +1 bonus on concentration checks to maintain the mesmerist's hypnotic stare. ([Blood of the Beast pg. 20](source/blood_of_the_beast)) |",
 			"| Tengu | Add 1/4 to the AC bonus provided by the meek facade mesmerist trick. ([Blood of the Beast pg. 24](source/blood_of_the_beast)) |",
-			"| Wyvaran | Add 1/4 to the mesmerist's level for the purpose of determining the effect of mesmerist tricks. ([Legacy of Dragons pg. 18](source/legacy_of_dragons)) |"
-		],
-		"archetypes": [
+			"| Wyvaran | Add 1/4 to the mesmerist's level for the purpose of determining the effect of mesmerist tricks. ([Legacy of Dragons pg. 18](source/legacy_of_dragons)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Aromaphile](archetype/mesmerist/aromaphile) | Hypnotic Stare; Painful Stare; Towering Ego; Bold Stare; Touch Treatment; Mental Potency | (Ghoran only) Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology. |",
@@ -2322,9 +2349,10 @@
 			"",
 			"**Ex-Monks**",
 			"",
-			"A monk who becomes nonlawful cannot gain new levels as a monk but retains all monk abilities."
-		],
-		"alternate_capstones": [
+			"A monk who becomes nonlawful cannot gain new levels as a monk but retains all monk abilities.",
+			"",
+			"### Alternate Capstones",
+			"",
 			"**Source** [Chronicle of Legends pg. 28](source/chronicle_of_legends)",
 			"",
 			"When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.",
@@ -2337,9 +2365,10 @@
 			"| Perfect Body, Flawless Mind (Ex) | At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
 			"| The Boss (Ex) | At 20th level, the character has become more than just a lone hero-she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the [Leadership](feat/leadership) feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability. *([Chronicle of Legends pg. 30](source/chronicle_of_legends))* |",
 			"| With This Sword (Ex) | At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has-preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a minor artifact and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
-			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |"
-		],
-		"favored_class_bonuses": [
+			"| Won't Stay Dead (Ex) | At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability. *([Chronicle of Legends pg. 31](source/chronicle_of_legends))* |",
+			"",
+			"### Favored Class Bonuses",
+			"",
 			"| Race | Bonus |",
 			"| --- | --- |",
 			"| Catfolk | Add 1/2 to the monk's damage rolls with claw attacks and claw blades. A monk who selects this bonus at 1st level also treats claw blades as a monk weapon. If he is an unchained monk, he can use his style strikes with unarmed strike or claw blade attacks. ([Blood of the Beast pg. 4](source/blood_of_the_beast)) |",
@@ -2368,9 +2397,10 @@
 			"| Tengu | Add +1/4 point to the monk's ki pool. ([Advanced Race Guide pg. 163](source/advanced_race_guide)) |",
 			"| Undine | Add +1 to the monk's CMD when resisting a grapple and +1/3 to the number of stunning attacks he can attempt per day. ([Advanced Race Guide pg. 176](source/advanced_race_guide)) |",
 			"| Vanara | Add a +1 bonus on Acrobatics checks made to jump. ([Advanced Race Guide pg. 206](source/advanced_race_guide)) |",
-			"| Wayang | Add 1/6 to the monk's AC bonus. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |"
-		],
-		"archetypes": [
+			"| Wayang | Add 1/6 to the monk's AC bonus. ([Blood of Shadows pg. 11](source/blood_of_shadows)) |",
+			"",
+			"### Archetypes",
+			"",
 			"| Archetype | Replaces or Modifies | Description |",
 			"| --- | --- | --- |",
 			"| [Black Asp](archetype/monk/black_asp) | Stunning Fist; Still Mind | The black asps are a sinister order of monks who train as assassins and infiltrators with no need for weapons to achieve their goals. |",
