@@ -14,14 +14,14 @@ interface FamilyProps {
 	mythic_members?: string[]
 }
 interface CopyOf<T> extends Partial<FamilyProps> {
-	copyof: T
+	copyof?: T
 }
 
 function getItem<T extends { not_found: FamilyProps }> (id: keyof T | undefined, json: T): FamilyProps {
 	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[id || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
+		data = {...((json[copyof || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
 	}
 	return data as FamilyProps;
 };

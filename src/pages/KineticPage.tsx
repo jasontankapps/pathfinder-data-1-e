@@ -14,14 +14,14 @@ interface TalentProps {
 	type?: Types
 }
 interface CopyOf<T> extends Partial<TalentProps> {
-	copyof: T
+	copyof?: T
 }
 
 function getItem<T extends { not_found: TalentProps }> (id: keyof T | undefined, json: T): TalentProps {
 	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[id || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
+		data = {...((json[copyof || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
 	}
 	return data as TalentProps;
 };

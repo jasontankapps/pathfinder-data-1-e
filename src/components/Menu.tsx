@@ -71,7 +71,7 @@ const appPages: AppPage[] = [
 	},
 	{
 		title: "Monsters and NPCs",
-		url: "/monstersnpcs",
+		url: "/monsters",
 		icon: "../icons/croc-jaws.svg"
 	}
 ];

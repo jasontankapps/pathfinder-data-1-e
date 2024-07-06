@@ -1,6 +1,3 @@
-import { ReactNode } from "react";
-import { SourceProp } from "./components/SourcesModal";
-
 export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
@@ -34,28 +31,6 @@ export interface Table {
 	// the CSS class to assign to the table
 	className: string
 }
-
-export interface JsonDataPropsMain {
-	title: string,
-	description: string[],
-	tables?: Table[],
-	sources?: SourceProp[]
-	previous?: HierarchyArray
-}
-
-export interface JsonDataProps {
-	name: string,
-	description: string[],
-	tables?: Table[],
-	sources: SourceProp[],
-	subhierarchy?: [string, string][]
-}
-
-export interface CopyOf<T> extends Partial<JsonDataProps> {
-	copyof: T
-}
-
-export type CodePlugin = (input: string) => false | ReactNode
 
 export interface DisplayItemProps {
 	markdown: string | string[]

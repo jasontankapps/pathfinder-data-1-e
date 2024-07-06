@@ -1,6 +1,6 @@
 {
 	"fighter": {
-		"name": "fighter",
+		"name": "Fighter",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -288,7 +288,7 @@
 		]
 	},
 	"gunslinger": {
-		"name": "gunslinger",
+		"name": "Gunslinger",
 		"sources": [
 			"Ultimate Combat",
 			"Chronicle of Legends",
@@ -478,7 +478,7 @@
 		]
 	},
 	"hunter": {
-		"name": "hunter",
+		"name": "Hunter",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -740,7 +740,7 @@
 		]
 	},
 	"inquisitor": {
-		"name": "inquisitor",
+		"name": "Inquisitor",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -1051,7 +1051,7 @@
 		]
 	},
 	"investigator": {
-		"name": "investigator",
+		"name": "Investigator",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -1293,7 +1293,7 @@
 		]
 	},
 	"kineticist": {
-		"name": "kineticist",
+		"name": "Kineticist",
 		"sources": [
 			"Blood of Shadows",
 			"Blood of the Beast",
@@ -1516,7 +1516,7 @@
 		]
 	},
 	"magus": {
-		"name": "magus",
+		"name": "Magus",
 		"sources": [
 			"Ultimate Magic",
 			"Chronicle of Legends",
@@ -1748,7 +1748,7 @@
 		]
 	},
 	"medium": {
-		"name": "medium",
+		"name": "Medium",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -1964,7 +1964,7 @@
 		]
 	},
 	"mesmerist": {
-		"name": "mesmerist",
+		"name": "Mesmerist",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -2207,7 +2207,7 @@
 		]
 	},
 	"monk": {
-		"name": "monk",
+		"name": "Monk",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",

@@ -62,20 +62,17 @@ isData(fuseTranslatedIndex);
 
 const { data, types, prefixes } = fuseTranslatedIndex;
 
-const SearchResults: FC<{searchText: string, isPending: boolean}> = ({searchText, isPending}) => {
+const SearchResults: FC<{searchText: string}> = ({searchText}) => {
 	if(!searchText) {
 		return <IonItem><IonLabel>Type something in the bar above to search.</IonLabel></IonItem>;
-	} else if (isPending) {
-		return <IonItem><IonLabel>Searching... <IonSpinner /></IonLabel></IonItem>;
 	}
 	const results = fuse.search(searchText, { limit: 50 });
 	if (results.length === 0) {
 		return <IonItem><IonLabel>No results for "{searchText}".</IonLabel></IonItem>;
 	}
 	return results.map((result, i) => {
-		const { item, refIndex } = result;
+		const { refIndex } = result;
 		const {t, p, l} = data[refIndex]; // t = type, p = prefix, l = link
-		i < 3 && (console.log({...item}));
 		return (
 			<IonItem key={`searchItem-${i}`} href={`${prefixes[p]}/${l}`}><IonLabel>
 				<h3>{fuseIndex[refIndex].name}</h3>
@@ -112,7 +109,12 @@ const SearchPage: FC = () => {
 					</IonItem>
 				</IonList>
 				<IonList className="search" id="results">
-					<SearchResults searchText={searchText} isPending={isPending} />
+					{
+						isPending ?
+							<IonItem><IonLabel>Searching... <IonSpinner /></IonLabel></IonItem>
+						:
+							<SearchResults searchText={searchText} />
+					}
 				</IonList>
 			</IonContent>
 			<IonFooter>

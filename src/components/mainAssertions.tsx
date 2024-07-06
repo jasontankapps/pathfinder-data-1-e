@@ -1,4 +1,13 @@
-import { JsonDataPropsMain } from '../types';
+import { HierarchyArray, Table } from "../types";
+import { SourceProp } from "./SourcesModal";
+
+export interface JsonDataPropsMain {
+	title: string,
+	description: string[],
+	tables?: Table[],
+	sources?: SourceProp[]
+	previous?: HierarchyArray
+}
 
 export function isId(id: string, value: object): asserts id is keyof typeof value {
 	if(Object.keys(value).indexOf(id) === -1) {

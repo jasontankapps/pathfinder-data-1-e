@@ -4,7 +4,7 @@ import { caretDown, caretUp } from 'ionicons/icons';
 import Markdown from 'react-markdown';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 
-type TriggerSortFunc = (index: number, descending: boolean) => void;
+type TriggerSortFunc = (index: number, descending: boolean) => boolean;
 
 interface ThProps {
 	index: number
@@ -12,6 +12,7 @@ interface ThProps {
 	initialSort?: boolean
 	active: boolean
 	children: string
+	sortable: boolean
 }
 
 interface TdProps {
@@ -35,7 +36,6 @@ const translateGp = (gp: number, adjustment: boolean = false): string => {
 	return `${sign}${sp * 10} cp`;
 };
 
-const FIRST_CHAR = String.fromCodePoint(0x0001);
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
 const getCheckableValue = (item: RawDatum, nullish: string): string => {
 	if(item === null || item === "~~") {
@@ -49,21 +49,22 @@ const descendingSort = (a: RawDatum, b: RawDatum) => {
 	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR), 'en', { numeric: true });
 };
 const ascendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(b, FIRST_CHAR).localeCompare(getCheckableValue(a, FIRST_CHAR), 'en', { numeric: true });
+	return getCheckableValue(b, FINAL_CHAR).localeCompare(getCheckableValue(a, FINAL_CHAR), 'en', { numeric: true });
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
 	return <IonIcon className="sortArrow" icon={down ? caretDown : caretUp} />;
 };
 
-const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active}) => {
+const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable}) => {
 	const [ descending, setDescending ] = useState(initialSort);
 	const onClick = useCallback(() => {
-		sorter(index, !descending);
-		setDescending(!descending);
+		const isDescending = sorter(index, !descending);
+		setDescending(isDescending);
 	}, [index, sorter]);
+	const props = sortable ? {onClick, className: "sortable"} : {};
 	return (
-		<th onClick={onClick} className="sortable">
+		<th {...props}>
 			<Markdown>{children}</Markdown> {active ? <DirectionIcon down={descending} /> : <></>}
 		</th>
 	);
@@ -141,11 +142,13 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [active, setActive] = useState(initialColumn);
 	const sorter: TriggerSortFunc = useCallback((index, descending) => {
 		const newRows = [...rows];
-		const sortfunc = descending ? descendingSort : ascendingSort;
+		const normal = (active !== index) || descending;
+		const sortfunc = normal ? descendingSort : ascendingSort;
 		newRows.sort((a, b) => sortfunc(a[index], b[index]));
 		setActive(index);
 		setRows(newRows);
-	}, [rows, setRows, setActive]);
+		return normal;
+	}, [rows, setRows, active, setActive]);
 	const headerItems = useMemo(() => headers.map((th, i) => {
 		return <Th
 			key={`table/${id}/header/${i}`}
@@ -153,6 +156,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			initialSort={i === initialColumn}
 			active={i === active}
 			sorter={sorter}
+			sortable={types[i] !== 0}
 		>{th}</Th>;
 	}), [headers, id, initialColumn, sorter, active]);
 	const rowItems = useMemo(() => rows.map((row, i) => {

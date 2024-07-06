@@ -1,6 +1,6 @@
 {
 	"shifter": {
-		"name": "shifter",
+		"name": "Shifter",
 		"sources": [
 			"Blood of the Beast",
 			"Chronicle of Legends",
@@ -213,7 +213,7 @@
 		]
 	},
 	"skald": {
-		"name": "skald",
+		"name": "Skald",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -521,7 +521,7 @@
 		]
 	},
 	"slayer": {
-		"name": "slayer",
+		"name": "Slayer",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -725,7 +725,7 @@
 		]
 	},
 	"sorcerer": {
-		"name": "sorcerer",
+		"name": "Sorcerer",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -950,7 +950,7 @@
 		]
 	},
 	"spiritualist": {
-		"name": "spiritualist",
+		"name": "Spiritualist",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -1206,7 +1206,7 @@
 		]
 	},
 	"summoner": {
-		"name": "summoner",
+		"name": "Summoner",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -1449,7 +1449,7 @@
 		]
 	},
 	"unchained_summoner": {
-		"name": "unchained summoner",
+		"name": "Unchained Summoner",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -1643,7 +1643,7 @@
 		]
 	},
 	"swashbuckler": {
-		"name": "swashbuckler",
+		"name": "Swashbuckler",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -1820,7 +1820,7 @@
 		]
 	},
 	"vigilante": {
-		"name": "vigilante",
+		"name": "Vigilante",
 		"sources": [
 			"Ultimate Intrigue",
 			"Chronicle of Legends",
@@ -2022,7 +2022,7 @@
 		]
 	},
 	"warpriest": {
-		"name": "warpriest",
+		"name": "Warpriest",
 		"sources": [
 			"Advanced Class Guide",
 			"Blood of Shadows",
@@ -2248,7 +2248,7 @@
 		]
 	},
 	"witch": {
-		"name": "witch",
+		"name": "Witch",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -2527,7 +2527,7 @@
 		]
 	},
 	"wizard": {
-		"name": "wizard",
+		"name": "Wizard",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",

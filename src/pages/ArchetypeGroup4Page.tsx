@@ -36,7 +36,7 @@ const ArchetypeGroup4Page: React.FC<{id: string, parent: string, title: string}>
 		<BasicPage
 			title={n}
 			displayItem={{markdown, tables}}
-			hierarchy={[["Classes", "classes"], [title, "class/" + parent]]}
+			hierarchy={[["Main", "main"], ["Classes", "classes"], [title, "class/" + parent]]}
 			sources={sources}
 		/>
 	);

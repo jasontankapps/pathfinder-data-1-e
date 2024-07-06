@@ -1,6 +1,6 @@
 {
 	"unchained_monk": {
-		"name": "unchained monk",
+		"name": "Unchained Monk",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -191,7 +191,7 @@
 		]
 	},
 	"ninja": {
-		"name": "ninja",
+		"name": "Ninja",
 		"sources": [
 			"Ultimate Combat",
 			"Chronicle of Legends",
@@ -338,7 +338,7 @@
 		]
 	},
 	"occultist": {
-		"name": "occultist",
+		"name": "Occultist",
 		"sources": [
 			"Blood of the Beast",
 			"Chronicle of Legends",
@@ -544,7 +544,7 @@
 		]
 	},
 	"oracle": {
-		"name": "oracle",
+		"name": "Oracle",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -803,7 +803,7 @@
 		]
 	},
 	"paladin": {
-		"name": "paladin",
+		"name": "Paladin",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -1120,7 +1120,7 @@
 		]
 	},
 	"psychic": {
-		"name": "psychic",
+		"name": "Psychic",
 		"sources": [
 			"Adventurer's Guide",
 			"Blood of Shadows",
@@ -1321,7 +1321,7 @@
 		]
 	},
 	"ranger": {
-		"name": "ranger",
+		"name": "Ranger",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -1702,7 +1702,7 @@
 		]
 	},
 	"rogue": {
-		"name": "rogue",
+		"name": "Rogue",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -2039,7 +2039,7 @@
 		]
 	},
 	"unchained_rogue": {
-		"name": "unchained rogue",
+		"name": "Unchained Rogue",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -2170,7 +2170,7 @@
 		]
 	},
 	"samurai": {
-		"name": "samurai",
+		"name": "Samurai",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -2374,7 +2374,7 @@
 		]
 	},
 	"shaman": {
-		"name": "shaman",
+		"name": "Shaman",
 		"sources": [
 			"Advanced Class Guide",
 			"Adventurer's Guide",

@@ -16,7 +16,7 @@ const doLink = (props: MDaProps) => {
 };
 
 const p = (props: MDpProps, tables: Table[]) => {
-	const { children, ...etc } = props;
+	const { children } = props;
 	if(typeof(children) === "string") {
 		let m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {

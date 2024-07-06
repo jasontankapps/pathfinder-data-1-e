@@ -28,14 +28,14 @@ interface ModalProps {
 }
 
 export interface CopyOf<T> extends Partial<SourceProps> {
-	copyof: T
+	copyof?: T
 }
 
 function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined, json: T): SourceProps {
 	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[id || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
+		data = {...((json[copyof || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
 	}
 	return data as SourceProps;
 };

@@ -10,7 +10,7 @@ interface SourceProps {
 	unknown?: boolean
 }
 interface CopyOf<T> extends Partial<SourceProps> {
-	copyof: T
+	copyof?: T
 }
 
 function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined, json: T): SourceProps {

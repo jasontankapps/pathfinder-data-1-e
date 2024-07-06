@@ -1796,12 +1796,13 @@ Object.entries(basic_data_groups).forEach(([file, pair]) => {
 			return;
 		}
 		if(prop === "not_found") {
-			// Skip
+			// Skip, no need to put this in group data or search index
 			return;
 		} else if (num && grouping_data[proplink][prop]) {
 			console.log(`Duplicate [${prop}] in ${proplink} <${file}>`);
 		}
 		if (num) {
+			// This is a part of a multi-file group.
 			if(has_properties) {
 				const base = { page: num };
 				properties.forEach(prop => (base[prop] = value[prop]));
@@ -1812,12 +1813,12 @@ Object.entries(basic_data_groups).forEach(([file, pair]) => {
 		}
 		let named = n || title;
 		let c = copyof;
-		while(!named && c) {
-			if(data[c]) {
-				named = data[c].name || data[c].title;
-			}
-			c = named ? false : data.copyof;
+		if(c && !named) {
+			// This is a plain copy, no name change or anything.
+			// No need to put this in the searchable index.
+			return;
 		}
+		// Deal with a blank name
 		named = named || "BLANK";
 		// Save for search index, used directly by Fuse.js
 		fuseIndex.push({ name: named });

@@ -9,6 +9,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"data": [
+					[ "[D'ziriak](monster/d'ziriak)", 3, "outsider", [ 4, "medium" ], [ 4, "N" ], "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes." ],
 					[ "[Daemon, Acrididaemon](monster/daemon,_acrididaemon)", 14, "outsider", [ 5, "large" ], [ 5, "NE" ], "This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts." ],
 					[ "[Daemon, Astradaemon](monster/daemon,_astradaemon)", 16, "outsider", [ 5, "large" ], [ 5, "NE" ], "Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky limbs and writhing tendrils." ],
 					[ "[Daemon, Bibliodaemon](monster/daemon,_bibliodaemon)", 8, "outsider", [ 4, "medium" ], [ 5, "NE" ], "Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble quills emerge from each knuckle of its clawed upper hands." ],
