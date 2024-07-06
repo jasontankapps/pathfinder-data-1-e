@@ -26,9 +26,7 @@
 			"*Code of Conduct*: Spread the order of law wherever you go, so long as the law is just; do not serve as a tool of tyranny. Fight vigilantly the servants of chaos.",
 			"",
 			"*Oath Spells*: 1st-command; 2nd-calm emotions; 3rd- suggestion; 4th-order's wrath."
-		],
-		"replaces": "Detect Evil, Smite Evil, Channel Positive Energy",
-		"short_description": "These paladins dedicate themselves to the rule of law above all other things."
+		]
 	},
 	"oath_against_corruption": {
 		"name": "Oath against Corruption",
@@ -50,9 +48,7 @@
 			"*Code of Conduct*: Hunt aberrations and do not allow them to roam freely or harm others. Destroy them if you can, or banish them if you cannot.",
 			"",
 			"*Oath Spells*: 1st-true strike; 2nd-acute senses; 3rd-touch of idiocy; 4th-spell immunity."
-		],
-		"replaces": "Aura of Courage, Aura of Justice, Holy Champion",
-		"short_description": "When a paladin takes this oath, she becomes a hunter of aberrations, protecting the common people from these bizarre threats. "
+		]
 	},
 	"oath_against_fiends": {
 		"name": "Oath against Fiends",
@@ -74,9 +70,7 @@
 			"*Code of Conduct*: Never suffer an evil outsider to live if it is in your power to destroy it. Banish fiends you cannot kill. Purge the evil from those possessed by fiends.",
 			"",
 			"*Oath Spells*: 1st-resist energy; 2nd-detect thoughts; 3rd-invisibility purge; 4th-plane shift."
-		],
-		"replaces": "Aura of Resolve, 9th-level Mercy",
-		"short_description": "A paladin who takes an oath against demons, devils, daemons, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance."
+		]
 	},
 	"oath_against_grotesquery": {
 		"name": "Oath against Grotesquery",
@@ -94,9 +88,7 @@
 			"*Code of Conduct*: Respect the innate beauty in all things, and strive to preserve it from corruption and perversion. Never willfully cause damage to crafted objects or works of art, nor cause a creature or object to be deformed in any way.",
 			"",
 			"*Oath Spells*: 1st-sanctuary; 2nd-make whole; 3rd-banish seeming; 4th-true form."
-		],
-		"replaces": "Divine Health, Aura of Faith",
-		"short_description": "For champions of Shelyn, who are aware that aesthetics is subjective, beauty is the form inviolate."
+		]
 	},
 	"oath_against_savagery": {
 		"name": "Oath against Savagery",
@@ -114,9 +106,7 @@
 			"*Code of Conduct*: Always heed the call of a community in danger from savages. Be the first in line to defend a settlement and the last to retreat.",
 			"",
 			"*Oath Spells*: 1st-deathwatch; 2nd-protection from arrows; 3rd-haste; 4th-divine power."
-		],
-		"replaces": "Divine Grace, Aura of Justice",
-		"short_description": "Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds. "
+		]
 	},
 	"oath_against_the_whispering_way": {
 		"name": "Oath against the Whispering Way",
@@ -134,9 +124,7 @@
 			"This ability replaces aura of resolve instead of aura of life.",
 			"",
 			"*Code of Conduct*: Destroy agents of the Whispering Way and stop the spread of their philosophy."
-		],
-		"replaces": "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
-		"short_description": "A variation of the Oath against undead geared towards fighting the Whispering Way"
+		]
 	},
 	"oath_against_the_wyrm": {
 		"name": "Oath against the Wyrm",
@@ -156,9 +144,7 @@
 			"*Code of Conduct*: Slay evil dragons, as well as other dangerous dragons whether or not they are evil. Prevent the bloodlines of other creatures from being corrupted with draconic power. Protect the innocent against the predation of dragons.",
 			"",
 			"*Oath Spells*: 1st-enlarge person; 2nd-bear's endurance; 3rd-fly; 4th-stoneskin."
-		],
-		"replaces": "Channel Positive Energy, Divine Bond, Holy Champion",
-		"short_description": "Some paladins swear to protect others against the predation of dragonkind. "
+		]
 	},
 	"oath_against_undeath": {
 		"name": "Oath against Undeath",
@@ -182,9 +168,7 @@
 			"*Code of Conduct*: Destroy all undead. Put to rest the poor souls turned against their will. Prevent the taint of undeath from spreading to the newly dead, blessing or burning the corpses as necessary.",
 			"",
 			"*Oath Spells*: 1st-sanctify corpse; 2nd-darkvision; 3rd-searing light; 4th-halt undead."
-		],
-		"replaces": "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
-		"short_description": "A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process."
+		]
 	},
 	"oath_of_charity": {
 		"name": "Oath of Charity",
@@ -202,9 +186,7 @@
 			"*Code of Conduct*: Always offer help to good creatures who need it. Always offer help to the poor and destitute. (In settlements, this help is often handled by donating to charitable religious organizations, rather than the paladin being required to dole out coppers to every beggar in the street.)",
 			"",
 			"*Oath Spells*: 1st-magic stone; 2nd-make whole; 3rd-magic vestment; 4th-imbue with spell ability."
-		],
-		"replaces": "Lay on Hands, Divine Bond",
-		"short_description": "Those who take this oath dedicate their lives to protecting those who can't protect themselves and giving to those who are in need. "
+		]
 	},
 	"oath_of_chastity": {
 		"name": "Oath of Chastity",
@@ -222,9 +204,7 @@
 			"*Code of Conduct*: Never engage in a romantic relationship or a sexual act.",
 			"",
 			"*Oath Spells*: 1st-remove fear; 2nd-confess; 3rd-heroism; 4th-freedom of movement."
-		],
-		"replaces": "Divine Grace, Aura of Resolve",
-		"short_description": "A chaste paladin proves her purity by way of her action and her abstinence from romantic activities."
+		]
 	},
 	"oath_of_loyalty": {
 		"name": "Oath of Loyalty",
@@ -244,9 +224,7 @@
 			"*Code of Conduct*: Keep all promises. Never make an oath or promise lightly. Never go back on an oath.",
 			"",
 			"*Oath Spells*: 1st-wrath; 2nd-aid; 3rd-helping hand; 4th-sending."
-		],
-		"replaces": "Smite Evil",
-		"short_description": "To most paladins, their word is everything. When they say something, it will be done. Those who take this oath put that ideal to the test every day. "
+		]
 	},
 	"oath_of_the_mendevian_crusade": {
 		"name": "Oath of the Mendevian Crusade",
@@ -268,9 +246,7 @@
 			"Possessed: If the subject is affected by dominate person, possessed, or otherwise magically controlled by an evil outsider, this mercy grants the victim a new saving throw against the effect to end the effect at once.",
 			"",
 			"*Code of Conduct*: Oppose demonic influence in all its forms and seek a way to close the Worldwound."
-		],
-		"replaces": "Aura of Resolve, Divine Bond, 9th-level Mercy",
-		"short_description": "A variation of the Oath against Fiends dedicated to closing the Worldwound"
+		]
 	},
 	"oath_of_the_people's_council": {
 		"name": "Oath of the People's Council",
@@ -300,9 +276,7 @@
 			"*Code of Conduct*: Know the laws of Andoran and do not exempt authorities from the application of the law.",
 			"",
 			"*Oath Spells*: 1st-comprehend languages; 2nd-locate object; 3rd-tongues; 4th-true seeing."
-		],
-		"replaces": "Class Skills, Smite Evil, Aura of Justice, Holy Champion",
-		"short_description": "Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority."
+		]
 	},
 	"oath_of_the_skyseeker": {
 		"name": "Oath of the Skyseeker",
@@ -334,9 +308,7 @@
 			"*Code of Conduct*: Reclaim a Sky Citadel in the name of honorable dwarven ideals. Defend Sky Citadels already held by dwarves.",
 			"",
 			"*Oath Spells*: 1st-enlarge person; 2nd-find traps; 3rd-spiritual ally; 4th- blessing of fervor."
-		],
-		"replaces": "Smite Evil, Divine Bond, Aura of Justice, Aura of Faith",
-		"short_description": "Paladins with the oath of the skyseeker swear to defend the Sky Citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods."
+		]
 	},
 	"oath_of_vengeance": {
 		"name": "Oath of Vengeance",
@@ -354,8 +326,6 @@
 			"*Code of Conduct*: Never let lesser eveils distract you from your pursuit of just vengeance.",
 			"",
 			"*Oath Spells*: 1st-wrath; 2nd-confess; 3rd-blessing of fervor; 4th-order's wrath."
-		],
-		"replaces": "Channel Positive Energy, Aura of Justice",
-		"short_description": "These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment. "
+		]
 	}
 }

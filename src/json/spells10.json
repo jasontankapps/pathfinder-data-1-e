@@ -2242,6 +2242,7 @@
 			"*Similar Area:* You wind up in an area that's visually or thematically similar to the target area. Generally, you appear in the closest similar place within range. If no such area exists within the spell's range, the spell simply fails instead.",
 			"",
 			"*Mishap:* You and anyone else teleporting with you have gotten \"scrambled.\" You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time \"Mishap\" comes up, the characters take more damage and must reroll.",
+			"",
 			"| Familiarity | On Target | Off Target | Similar Area | Mishap |",
 			"| --- | --- | --- | --- | --- |",
 			"| Very familiar | 01-97 | 98-99 | 100 | - |",

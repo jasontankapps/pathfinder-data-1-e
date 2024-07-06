@@ -196,8 +196,7 @@
 			"Inner Sea Intrigue"
 		],
 		"description": [
-			"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)",
-			"",
+			"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
 			"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 			"",
 			"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)",
@@ -371,10 +370,10 @@
 			"Alchemy Manual"
 		],
 		"description": [
-			"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)",
+			"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)  ",
 			"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
 			"",
-			"**Description Source:** [Alchemy Manual](source/alchemy_manual)",
+			"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
 			"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
 			"",
 			"{table0}"
@@ -436,8 +435,7 @@
 			"Ultimate Magic"
 		],
 		"description": [
-			"**Description Source:** [Ultimate Magic](source/ultimate_magic)",
-			"",
+			"**Description Source:** [Ultimate Magic](source/ultimate_magic)  ",
 			"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
 			"",
 			"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
@@ -454,10 +452,9 @@
 			"",
 			"\"S\" indicates a spell from the caster's specialty school, whereas \"OP\" indicates a spell from the spellbook creator's opposition school.",
 			"",
-			"**Description Source:** [Arcane Anthology](source/arcane_anthology)",
-			"",
 			"### Transcribing Spellbook Preparation Rituals",
 			"",
+			"**Description Source:** [Arcane Anthology](source/arcane_anthology)  ",
 			"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the Scribe Scroll feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of Scribe Scroll, you must have Brew Potion. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit.",
 			"",
 			"## Prayer Book and Meditation Book Rituals",

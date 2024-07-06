@@ -1,7 +1,6 @@
 {
 	"aerochemist": {
 		"name": "Aerochemist",
-		"file": "archetypedisplay2be5.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Aerochemist",
@@ -28,7 +27,6 @@
 	},
 	"alchemical_sapper": {
 		"name": "Alchemical Sapper",
-		"file": "archetypedisplay0413.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Alchemical Sapper",
@@ -71,7 +69,6 @@
 	},
 	"alchemical_trapper": {
 		"name": "Alchemical Trapper",
-		"file": "archetypedisplay2619.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Alchemical Trapper",
@@ -86,7 +83,6 @@
 	},
 	"aquachymist": {
 		"name": "Aquachymist",
-		"file": "archetypedisplay1388.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquachymist",
@@ -111,7 +107,6 @@
 	},
 	"beastmorph": {
 		"name": "Beastmorph",
-		"file": "archetypedisplayaa81.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Beastmorph",
@@ -132,7 +127,6 @@
 	},
 	"blazing_torchbearer": {
 		"name": "Blazing Torchbearer",
-		"file": "archetypedisplayc0c8.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Blazing Torchbearer",
@@ -149,7 +143,6 @@
 	},
 	"blightseeker": {
 		"name": "Blightseeker",
-		"file": "archetypedisplayd7bb.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Blightseeker",
@@ -204,7 +197,6 @@
 	},
 	"blood_alchemist": {
 		"name": "Blood Alchemist",
-		"file": "archetypedisplayc07e.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Blood Alchemist",
@@ -233,7 +225,6 @@
 	},
 	"bogborn_alchemist": {
 		"name": "Bogborn Alchemist",
-		"file": "archetypedisplayf2f9.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Bogborn Alchemist",
@@ -252,7 +243,6 @@
 	},
 	"bramble_brewer": {
 		"name": "Bramble Brewer",
-		"file": "archetypedisplay0b7b.html",
 		"sources": [],
 		"description": [
 			"## Bramble Brewer",
@@ -275,7 +265,6 @@
 	},
 	"chirurgeon": {
 		"name": "Chirurgeon",
-		"file": "archetypedisplayb962.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Chirurgeon",
@@ -294,7 +283,6 @@
 	},
 	"clone_master": {
 		"name": "Clone Master",
-		"file": "archetypedisplay96c1.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Clone Master",
@@ -317,7 +305,6 @@
 	},
 	"concocter": {
 		"name": "Concocter",
-		"file": "archetypedisplay87a6.html",
 		"sources": [],
 		"description": [
 			"## Concocter",
@@ -353,7 +340,6 @@
 	},
 	"construct_rider": {
 		"name": "Construct Rider",
-		"file": "archetypedisplayb7f7.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Construct Rider",
@@ -384,7 +370,6 @@
 	},
 	"crimson_chymist": {
 		"name": "Crimson Chymist",
-		"file": "archetypedisplay2b62.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Crimson Chymist",
@@ -411,7 +396,6 @@
 	},
 	"cruorchymist": {
 		"name": "Cruorchymist",
-		"file": "archetypedisplay2b9e.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Cruorchymist",
@@ -432,7 +416,6 @@
 	},
 	"crypt_breaker": {
 		"name": "Crypt Breaker",
-		"file": "archetypedisplayb87b.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Crypt Breaker",
@@ -453,7 +436,6 @@
 	},
 	"deep_bomber": {
 		"name": "Deep Bomber",
-		"file": "archetypedisplay2014.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Deep Bomber",
@@ -472,7 +454,6 @@
 	},
 	"dimensional_excavator": {
 		"name": "Dimensional Excavator",
-		"file": "archetypedisplay6661.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Dimensional Excavator",
@@ -491,7 +472,6 @@
 	},
 	"dragonblood_chymist": {
 		"name": "Dragonblood Chymist",
-		"file": "archetypedisplay4db4.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Dragonblood Chymist",
@@ -516,7 +496,6 @@
 	},
 	"ectochymist": {
 		"name": "Ectochymist",
-		"file": "archetypedisplayee8f.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ectochymist",
@@ -543,7 +522,6 @@
 	},
 	"ectoplasm_master": {
 		"name": "Ectoplasm Master",
-		"file": "archetypedisplaye428.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Ectoplasm Master",
@@ -566,7 +544,6 @@
 	},
 	"eldritch_poisoner": {
 		"name": "Eldritch Poisoner",
-		"file": "archetypedisplayabc1.html",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Eldritch Poisoner",
@@ -629,7 +606,6 @@
 	},
 	"energist": {
 		"name": "Energist",
-		"file": "archetypedisplay58bf.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Energist",
@@ -658,7 +634,6 @@
 	},
 	"energy_scientist": {
 		"name": "Energy Scientist",
-		"file": "archetypedisplay29ef.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Energy Scientist",
@@ -691,7 +666,6 @@
 	},
 	"fermenter": {
 		"name": "Fermenter",
-		"file": "archetypedisplayc0aa.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Fermenter",
@@ -714,7 +688,6 @@
 	},
 	"fire_bomber": {
 		"name": "Fire Bomber",
-		"file": "archetypedisplay19ae.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Fire Bomber",
@@ -741,7 +714,6 @@
 	},
 	"first_world_innovator": {
 		"name": "First World Innovator",
-		"file": "archetypedisplayd2f6.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## First World Innovator",
@@ -774,7 +746,6 @@
 	},
 	"gloom_chymist": {
 		"name": "Gloom Chymist",
-		"file": "archetypedisplay4eac.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Gloom Chymist",
@@ -793,7 +764,6 @@
 	},
 	"grenadier": {
 		"name": "Grenadier",
-		"file": "archetypedisplayc03a.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Grenadier",
@@ -814,7 +784,6 @@
 	},
 	"grenadier_mc": {
 		"name": "Grenadier [MC]",
-		"file": "archetypedisplayf406.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Grenadier [MC]",
@@ -835,7 +804,6 @@
 	},
 	"gun_chemist": {
 		"name": "Gun Chemist",
-		"file": "archetypedisplay8ccd.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Gun Chemist",
@@ -880,7 +848,6 @@
 	},
 	"herbalist": {
 		"name": "Herbalist",
-		"file": "archetypedisplay074d.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Herbalist (Vine Leshy only)",
@@ -903,7 +870,6 @@
 	},
 	"homunculist": {
 		"name": "Homunculist",
-		"file": "archetypedisplayd4ee.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Homunculist",
@@ -920,7 +886,6 @@
 	},
 	"horticulturist": {
 		"name": "Horticulturist",
-		"file": "archetypedisplay0b61.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Horticulturist",
@@ -951,7 +916,6 @@
 	},
 	"ice_chemist": {
 		"name": "Ice Chemist",
-		"file": "archetypedisplayf10e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ice Chemist",
@@ -970,7 +934,6 @@
 	},
 	"inspired_chemist": {
 		"name": "Inspired Chemist",
-		"file": "archetypedisplay8033.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Inspired Chemist",
@@ -991,7 +954,6 @@
 	},
 	"internal_alchemist": {
 		"name": "Internal Alchemist",
-		"file": "archetypedisplay66fe.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Internal Alchemist",
@@ -1012,7 +974,6 @@
 	},
 	"interrogator": {
 		"name": "Interrogator",
-		"file": "archetypedisplayd500.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Interrogator",
@@ -1049,7 +1010,6 @@
 	},
 	"mad_scientist": {
 		"name": "Mad Scientist",
-		"file": "archetypedisplay4b5d.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Mad Scientist",
@@ -1080,7 +1040,6 @@
 	},
 	"metamorph": {
 		"name": "Metamorph",
-		"file": "archetypedisplay28d8.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Metamorph",
@@ -1109,7 +1068,6 @@
 	},
 	"mindchemist": {
 		"name": "Mindchemist",
-		"file": "archetypedisplayd493.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Mindchemist",
@@ -1130,7 +1088,6 @@
 	},
 	"mixologist": {
 		"name": "Mixologist",
-		"file": "archetypedisplay24de.html",
 		"sources": [ "Inner Sea Taverns" ],
 		"description": [
 			"## Mixologist",
@@ -1157,7 +1114,6 @@
 	},
 	"mnemostiller": {
 		"name": "Mnemostiller",
-		"file": "archetypedisplayc8d4.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Mnemostiller",
@@ -1200,7 +1156,6 @@
 	},
 	"oenopion_researcher": {
 		"name": "Oenopion Researcher",
-		"file": "archetypedisplay8e65.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Oenopion Researcher",
@@ -1217,7 +1172,6 @@
 	},
 	"oozemaster": {
 		"name": "Oozemaster",
-		"file": "archetypedisplayf6a8.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Oozemaster",
@@ -1248,7 +1202,6 @@
 	},
 	"perfumer": {
 		"name": "Perfumer",
-		"file": "archetypedisplay648c.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Perfumer",
@@ -1275,7 +1228,6 @@
 	},
 	"plague_bringer": {
 		"name": "Plague Bringer",
-		"file": "archetypedisplayb03f.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Plague Bringer",
@@ -1300,7 +1252,6 @@
 	},
 	"preservationist": {
 		"name": "Preservationist",
-		"file": "archetypedisplay75f8.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Preservationist",
@@ -1325,7 +1276,6 @@
 	},
 	"promethean_alchemist": {
 		"name": "Promethean Alchemist",
-		"file": "archetypedisplay9929.html",
 		"sources": [],
 		"description": [
 			"## Promethean Alchemist",
@@ -1415,7 +1365,6 @@
 	},
 	"psychonaut": {
 		"name": "Psychonaut",
-		"file": "archetypedisplay8320.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Psychonaut",
@@ -1440,13 +1389,11 @@
 	},
 	"ragechemist": {
 		"name": "Ragechemist",
-		"file": "archetypedisplayb5eb.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Ragechemist",
 			"",
-			"**Source** [Ultimate Combat pg. 26](source/ultimate_combat)",
-			"",
+			"**Source** [Ultimate Combat pg. 26](source/ultimate_combat)  ",
 			"Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves.",
 			"",
 			"**Rage Mutagen:** At 2nd level, whenever a ragechemist creates a mutagen that improves his Strength, that mutagen's bonus to Strength increases by +2 and penalizes the alchemist's Intelligence score. Furthermore, while under the effects of this mutagen, whenever the alchemist takes damage, his rage grows, with detrimental effects. At the end of each turn that he takes hit point damage, the ragechemist must succeed at a Will saving throw (DC 15, or DC 20 if any of the damage came from a critical hit that turn) or take a -2 penalty on Will saving throws and to Intelligence. These penalties end 1 hour after the mutagen ends and stack with themselves. If the penalty lowers the ragechemist's Intelligence score to 0, the ragechemist is comatose until 1 hour after the mutagen expires. This ability replaces poison use.",
@@ -1460,7 +1407,6 @@
 	},
 	"reanimator": {
 		"name": "Reanimator",
-		"file": "archetypedisplay9476.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Reanimator",
@@ -1481,7 +1427,6 @@
 	},
 	"royal_alchemist": {
 		"name": "Royal Alchemist",
-		"file": "archetypedisplay2d14.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Royal Alchemist",
@@ -1506,7 +1451,6 @@
 	},
 	"saboteur": {
 		"name": "Saboteur",
-		"file": "archetypedisplayf9bb.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Saboteur",
@@ -1539,7 +1483,6 @@
 	},
 	"sacrament_alchemist": {
 		"name": "Sacrament Alchemist",
-		"file": "archetypedisplayfdf9.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Sacrament Alchemist",
@@ -1566,7 +1509,6 @@
 	},
 	"tinkerer": {
 		"name": "Tinkerer",
-		"file": "archetypedisplay0250.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Tinkerer",
@@ -1627,7 +1569,6 @@
 	},
 	"toxicant": {
 		"name": "Toxicant",
-		"file": "archetypedisplay0190.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Toxicant",
@@ -1648,7 +1589,6 @@
 	},
 	"trap_breaker": {
 		"name": "Trap Breaker",
-		"file": "archetypedisplayf5b9.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Trap Breaker",
@@ -1667,7 +1607,6 @@
 	},
 	"vaultbreaker": {
 		"name": "Vaultbreaker",
-		"file": "archetypedisplay688c.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Vaultbreaker",
@@ -1694,7 +1633,6 @@
 	},
 	"vivisectionist": {
 		"name": "Vivisectionist",
-		"file": "archetypedisplay6b50.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Vivisectionist",
@@ -1723,7 +1661,6 @@
 	},
 	"wasteland_blightbreaker": {
 		"name": "Wasteland Blightbreaker",
-		"file": "archetypedisplayb191.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Wasteland Blightbreaker",
@@ -1748,7 +1685,6 @@
 	},
 	"winged_marauder": {
 		"name": "Winged Marauder",
-		"file": "archetypedisplaye34a.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Winged Marauder",

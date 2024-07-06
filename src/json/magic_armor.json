@@ -10,7 +10,6 @@
 	},
 	"mithral_shirt": {
 		"name": "Mithral Shirt",
-		"file": "magicarmordisplaya67a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -27,7 +26,6 @@
 	},
 	"mistmail": {
 		"name": "Mistmail",
-		"file": "magicarmordisplaybd20.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -48,7 +46,6 @@
 	},
 	"kiml&eacute;_coat": {
 		"name": "Kiml&eacute; Coat",
-		"file": "magicarmordisplay92d7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Kiml&eacute; Coat",
@@ -69,7 +66,6 @@
 	},
 	"grim_gloom_mail": {
 		"name": "Grim Gloom Mail",
-		"file": "magicarmordisplay0fad.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Grim Gloom Mail",
@@ -87,7 +83,6 @@
 	},
 	"inheritor's_breastplate": {
 		"name": "Inheritor's Breastplate",
-		"file": "magicarmordisplayc5df.html",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
 			"Inner Sea Gods"
@@ -108,7 +103,6 @@
 	},
 	"otyugh_hide": {
 		"name": "Otyugh Hide",
-		"file": "magicarmordisplay5a48.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Otyugh Hide",
@@ -130,7 +124,6 @@
 	},
 	"iadaran_dress_uniform": {
 		"name": "Iadaran Dress Uniform",
-		"file": "magicarmordisplay8fff.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Iadaran Dress Uniform",
@@ -148,7 +141,6 @@
 	},
 	"milanite_armor": {
 		"name": "Milanite Armor",
-		"file": "magicarmordisplay7a55.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Milanite Armor",
@@ -166,7 +158,6 @@
 	},
 	"ghoul_hide": {
 		"name": "Ghoul Hide",
-		"file": "magicarmordisplay93f6.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Ghoul Hide",
@@ -186,7 +177,6 @@
 	},
 	"red_stalker_armor": {
 		"name": "Red Stalker Armor",
-		"file": "magicarmordisplay31ef.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Gods"
@@ -207,7 +197,6 @@
 	},
 	"rosy_hauberk": {
 		"name": "Rosy Hauberk",
-		"file": "magicarmordisplay3113.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Rosy Hauberk",
@@ -225,7 +214,6 @@
 	},
 	"dragonhide_plate": {
 		"name": "Dragonhide Plate",
-		"file": "magicarmordisplay5209.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -244,7 +232,6 @@
 	},
 	"pallid_chain": {
 		"name": "Pallid Chain",
-		"file": "magicarmordisplay6a7c.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Pallid Chain",
@@ -262,7 +249,6 @@
 	},
 	"pelt_of_the_demon_mother": {
 		"name": "Pelt of the Demon Mother",
-		"file": "magicarmordisplaya202.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Pelt of the Demon Mother",
@@ -280,7 +266,6 @@
 	},
 	"djezet_skin": {
 		"name": "Djezet Skin",
-		"file": "magicarmordisplayfd20.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Djezet Skin",
@@ -298,7 +283,6 @@
 	},
 	"starsong_mail": {
 		"name": "Starsong Mail",
-		"file": "magicarmordisplayc73a.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Starsong Mail",
@@ -316,7 +300,6 @@
 	},
 	"powerhouse_pelt": {
 		"name": "Powerhouse Pelt",
-		"file": "magicarmordisplay68ca.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Powerhouse Pelt",
@@ -334,7 +317,6 @@
 	},
 	"sea_banshee_coat": {
 		"name": "Sea Banshee Coat",
-		"file": "magicarmordisplay234e.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Sea Banshee Coat",
@@ -352,7 +334,6 @@
 	},
 	"calamitous_mail": {
 		"name": "Calamitous Mail",
-		"file": "magicarmordisplay69d7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Calamitous Mail",
@@ -370,7 +351,6 @@
 	},
 	"perfection_leather": {
 		"name": "Perfection Leather",
-		"file": "magicarmordisplay1895.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Perfection Leather",
@@ -388,7 +368,6 @@
 	},
 	"ekujae_jungle_armor": {
 		"name": "Ekujae Jungle Armor",
-		"file": "magicarmordisplay6989.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Ekujae Jungle Armor",
@@ -408,7 +387,6 @@
 	},
 	"half-plate_of_the_dark_prince": {
 		"name": "Half-Plate of the Dark Prince",
-		"file": "magicarmordisplayb78c.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Half-Plate of the Dark Prince",
@@ -429,7 +407,6 @@
 	},
 	"toiler's_armor": {
 		"name": "Toiler's Armor",
-		"file": "magicarmordisplayf54b.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Toiler's Armor",
@@ -447,7 +424,6 @@
 	},
 	"painspike_armor": {
 		"name": "Painspike Armor",
-		"file": "magicarmordisplay1bb5.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Painspike Armor",
@@ -465,7 +441,6 @@
 	},
 	"forgefather's_half-plate": {
 		"name": "Forgefather's Half-Plate",
-		"file": "magicarmordisplayc462.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Forgefather's Half-Plate",
@@ -486,7 +461,6 @@
 	},
 	"veiled_chain": {
 		"name": "Veiled Chain",
-		"file": "magicarmordisplayf599.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Veiled Chain",
@@ -504,7 +478,6 @@
 	},
 	"armor_of_the_unquenchable_fire": {
 		"name": "Armor of the Unquenchable Fire",
-		"file": "magicarmordisplay10d4.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Armor of the Unquenchable Fire",
@@ -522,7 +495,6 @@
 	},
 	"lucky_drunk's_mail": {
 		"name": "Lucky Drunk's Mail",
-		"file": "magicarmordisplay9b42.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Lucky Drunk's Mail",
@@ -540,7 +512,6 @@
 	},
 	"eternal_iron_breastplate": {
 		"name": "Eternal Iron Breastplate",
-		"file": "magicarmordisplay41f0.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Eternal Iron Breastplate",
@@ -558,7 +529,6 @@
 	},
 	"fangtide_scale_mail": {
 		"name": "Fangtide Scale Mail",
-		"file": "magicarmordisplayc35e.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Fangtide Scale Mail",
@@ -576,7 +546,6 @@
 	},
 	"thanatotic_visage": {
 		"name": "Thanatotic Visage",
-		"file": "magicarmordisplayf149.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Thanatotic Visage",
@@ -594,7 +563,6 @@
 	},
 	"waverider_breastplate": {
 		"name": "Waverider Breastplate",
-		"file": "magicarmordisplay2303.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Waverider Breastplate",
@@ -612,7 +580,6 @@
 	},
 	"golden_judge's_breastplate": {
 		"name": "Golden Judge's Breastplate",
-		"file": "magicarmordisplayeb38.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Golden Judge's Breastplate",
@@ -630,7 +597,6 @@
 	},
 	"elven_chain": {
 		"name": "Elven Chain",
-		"file": "magicarmordisplay16e1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -647,7 +613,6 @@
 	},
 	"rhino_hide": {
 		"name": "Rhino Hide",
-		"file": "magicarmordisplayf8d1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -668,7 +633,6 @@
 	},
 	"akhentepi's_armor": {
 		"name": "Akhentepi's Armor",
-		"file": "magicarmordisplay4498.html",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
 			"## Akhentepi's Armor",
@@ -686,7 +650,6 @@
 	},
 	"blackfingers_apron": {
 		"name": "Blackfingers Apron",
-		"file": "magicarmordisplay09d3.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Blackfingers Apron",
@@ -704,7 +667,6 @@
 	},
 	"gravewatcher_chainmail": {
 		"name": "Gravewatcher Chainmail",
-		"file": "magicarmordisplay5e4c.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Gravewatcher Chainmail",
@@ -722,7 +684,6 @@
 	},
 	"deadeye_leather": {
 		"name": "Deadeye Leather",
-		"file": "magicarmordisplaye279.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Deadeye Leather",
@@ -740,7 +701,6 @@
 	},
 	"all-seeing_armor": {
 		"name": "All-Seeing Armor",
-		"file": "magicarmordisplayc6e3.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## All-Seeing Armor",
@@ -761,7 +721,6 @@
 	},
 	"gray_master's_leathers": {
 		"name": "Gray Master's Leathers",
-		"file": "magicarmordisplayb5bd.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Gray Master's Leathers",
@@ -779,7 +738,6 @@
 	},
 	"shifting_jerkin": {
 		"name": "Shifting Jerkin",
-		"file": "magicarmordisplay195b.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Shifting Jerkin",
@@ -797,7 +755,6 @@
 	},
 	"arachnid_harness": {
 		"name": "Arachnid Harness",
-		"file": "magicarmordisplayda1a.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Arachnid Harness",
@@ -815,7 +772,6 @@
 	},
 	"raiment_of_chains": {
 		"name": "Raiment of Chains",
-		"file": "magicarmordisplayf12d.html",
 		"sources": [ "Inner Sea Temples" ],
 		"description": [
 			"## Raiment of Chains",
@@ -835,7 +791,6 @@
 	},
 	"locust_cuirass": {
 		"name": "Locust Cuirass",
-		"file": "magicarmordisplay3a0f.html",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
 			"## Locust Cuirass",
@@ -855,7 +810,6 @@
 	},
 	"dawnflower_chain_vest": {
 		"name": "Dawnflower Chain Vest",
-		"file": "magicarmordisplaye6a6.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Dawnflower Chain Vest",
@@ -873,7 +827,6 @@
 	},
 	"truefaith_vestments": {
 		"name": "Truefaith Vestments",
-		"file": "magicarmordisplayc961.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Truefaith Vestments",
@@ -891,7 +844,6 @@
 	},
 	"featherleaf_barding": {
 		"name": "Featherleaf Barding",
-		"file": "magicarmordisplay0fab.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Featherleaf Barding",
@@ -909,7 +861,6 @@
 	},
 	"trained_barding": {
 		"name": "Trained Barding",
-		"file": "magicarmordisplaya1ca.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Trained Barding",
@@ -927,7 +878,6 @@
 	},
 	"stalking": {
 		"name": "Stalking",
-		"file": "magicarmordisplay7749.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Stalking",
@@ -945,7 +895,6 @@
 	},
 	"scouting_leather": {
 		"name": "Scouting Leather",
-		"file": "magicarmordisplayec87.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Scouting Leather",
@@ -963,7 +912,6 @@
 	},
 	"snakescale_armor": {
 		"name": "Snakescale Armor",
-		"file": "magicarmordisplay0816.html",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
 			"## Snakescale Armor",
@@ -981,7 +929,6 @@
 	},
 	"morlock_hide": {
 		"name": "Morlock Hide",
-		"file": "magicarmordisplayda2c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Morlock Hide",
@@ -999,7 +946,6 @@
 	},
 	"stone-eater_armor": {
 		"name": "Stone-eater Armor",
-		"file": "magicarmordisplay0552.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Stone-eater Armor",
@@ -1022,7 +968,6 @@
 	},
 	"giant's_nail_scale_mail": {
 		"name": "Giant's Nail Scale Mail",
-		"file": "magicarmordisplayd339.html",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"## Giant's Nail Scale Mail",
@@ -1040,7 +985,6 @@
 	},
 	"writhing_armor": {
 		"name": "Writhing Armor",
-		"file": "magicarmordisplay544a.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Writhing Armor",
@@ -1058,7 +1002,6 @@
 	},
 	"windstrider_mail": {
 		"name": "Windstrider Mail",
-		"file": "magicarmordisplaycb3a.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Windstrider Mail",
@@ -1080,7 +1023,6 @@
 	},
 	"adamantine_breastplate": {
 		"name": "Adamantine Breastplate",
-		"file": "magicarmordisplay71aa.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1097,7 +1039,6 @@
 	},
 	"soothsayer's_raiment": {
 		"name": "Soothsayer's Raiment",
-		"file": "magicarmordisplay3c80.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1120,7 +1061,6 @@
 	},
 	"equestrian_plate": {
 		"name": "Equestrian Plate",
-		"file": "magicarmordisplay77a3.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Equestrian Plate",
@@ -1140,7 +1080,6 @@
 	},
 	"enchanted_eelskin": {
 		"name": "Enchanted Eelskin",
-		"file": "magicarmordisplayf802.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Enchanted Eelskin",
@@ -1158,7 +1097,6 @@
 	},
 	"tireless_tracking_hide": {
 		"name": "Tireless Tracking Hide",
-		"file": "magicarmordisplay7df4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tireless Tracking Hide",
@@ -1176,7 +1114,6 @@
 	},
 	"gnome_scrap_armor_gnome": {
 		"name": "Gnome Scrap Armor (Gnome)",
-		"file": "magicarmordisplay783a.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Gnome Scrap Armor (Gnome)",
@@ -1203,7 +1140,6 @@
 	},
 	"breastplate_of_the_planes": {
 		"name": "Breastplate of the Planes",
-		"file": "magicarmordisplay0cfe.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Breastplate of the Planes",
@@ -1221,7 +1157,6 @@
 	},
 	"emissary's_breastplate": {
 		"name": "Emissary's Breastplate",
-		"file": "magicarmordisplay6535.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Emissary's Breastplate",
@@ -1239,7 +1174,6 @@
 	},
 	"uskroth's_armor": {
 		"name": "Uskroth's Armor",
-		"file": "magicarmordisplayd629.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Uskroth's Armor",
@@ -1257,7 +1191,6 @@
 	},
 	"mosswater_stained_leather": {
 		"name": "Mosswater Stained Leather",
-		"file": "magicarmordisplayf587.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Mosswater Stained Leather",
@@ -1277,7 +1210,6 @@
 	},
 	"bilgewater_coat": {
 		"name": "Bilgewater Coat",
-		"file": "magicarmordisplayda35.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Bilgewater Coat",
@@ -1295,7 +1227,6 @@
 	},
 	"boneless_leather": {
 		"name": "Boneless Leather",
-		"file": "magicarmordisplay74a5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1316,7 +1247,6 @@
 	},
 	"lupine_rageskin": {
 		"name": "Lupine Rageskin",
-		"file": "magicarmordisplay50fa.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Lupine Rageskin",
@@ -1334,7 +1264,6 @@
 	},
 	"elemental_bulwark": {
 		"name": "Elemental Bulwark",
-		"file": "magicarmordisplay7b29.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Elemental Bulwark",
@@ -1352,7 +1281,6 @@
 	},
 	"murderer's_blackcloth": {
 		"name": "Murderer's Blackcloth",
-		"file": "magicarmordisplay3ab7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1373,7 +1301,6 @@
 	},
 	"honor's_panoply": {
 		"name": "Honor's Panoply",
-		"file": "magicarmordisplay969a.html",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
 		"description": [
 			"## Honor's Panoply",
@@ -1395,7 +1322,6 @@
 	},
 	"folding_plate": {
 		"name": "Folding Plate",
-		"file": "magicarmordisplay8259.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1416,7 +1342,6 @@
 	},
 	"hallowed_chain_varisian": {
 		"name": "Hallowed Chain (Varisian)",
-		"file": "magicarmordisplay9fa4.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Hallowed Chain (Varisian)",
@@ -1441,7 +1366,6 @@
 	},
 	"legion_armor": {
 		"name": "Legion Armor",
-		"file": "magicarmordisplay27c6.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Legion Armor",
@@ -1461,7 +1385,6 @@
 	},
 	"armor_of_the_sands": {
 		"name": "Armor of the Sands",
-		"file": "magicarmordisplay04e3.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Armor of the Sands",
@@ -1479,7 +1402,6 @@
 	},
 	"armor_of_grim_triumph_orc": {
 		"name": "Armor of Grim Triumph (Orc)",
-		"file": "magicarmordisplay27c0.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Armor of Grim Triumph (Orc)",
@@ -1508,7 +1430,6 @@
 	},
 	"mammoth_hide": {
 		"name": "Mammoth Hide",
-		"file": "magicarmordisplay65c8.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Combat",
@@ -1530,7 +1451,6 @@
 	},
 	"icelink_chainmail": {
 		"name": "Icelink Chainmail",
-		"file": "magicarmordisplay28c2.html",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
 			"## Icelink Chainmail",
@@ -1551,7 +1471,6 @@
 	},
 	"gale_armor": {
 		"name": "Gale Armor",
-		"file": "magicarmordisplay198c.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Gale Armor",
@@ -1569,7 +1488,6 @@
 	},
 	"breastplate_of_vanishing": {
 		"name": "Breastplate of Vanishing",
-		"file": "magicarmordisplay40e8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Breastplate of Vanishing",
@@ -1589,7 +1507,6 @@
 	},
 	"coat_of_shells_gillmen,_merfolk": {
 		"name": "Coat of Shells (Gillmen, Merfolk)",
-		"file": "magicarmordisplayea37.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Coat of Shells (Gillmen, Merfolk)",
@@ -1614,7 +1531,6 @@
 	},
 	"elven_vengeance": {
 		"name": "Elven Vengeance",
-		"file": "magicarmordisplay1d4b.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Elven Vengeance",
@@ -1632,7 +1548,6 @@
 	},
 	"armor_of_insults": {
 		"name": "Armor of Insults",
-		"file": "magicarmordisplay6cef.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1653,7 +1568,6 @@
 	},
 	"skin_of_klendar_the_troll_king": {
 		"name": "Skin of Klendar the Troll King",
-		"file": "magicarmordisplay1f27.html",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"## Skin of Klendar the Troll King",
@@ -1673,7 +1587,6 @@
 	},
 	"numerian_resistance_plate": {
 		"name": "Numerian Resistance Plate",
-		"file": "magicarmordisplayba9d.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Numerian Resistance Plate",
@@ -1693,7 +1606,6 @@
 	},
 	"dwarven_plate": {
 		"name": "Dwarven Plate",
-		"file": "magicarmordisplayd945.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1710,7 +1622,6 @@
 	},
 	"hero's_hauberk": {
 		"name": "Hero's Hauberk",
-		"file": "magicarmordisplaya62f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Hero's Hauberk",
@@ -1730,7 +1641,6 @@
 	},
 	"abrogalian_corset": {
 		"name": "Abrogalian Corset",
-		"file": "magicarmordisplayf395.html",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
 			"## Abrogalian Corset",
@@ -1752,7 +1662,6 @@
 	},
 	"backbreaker_mail": {
 		"name": "Backbreaker Mail",
-		"file": "magicarmordisplay211b.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Backbreaker Mail",
@@ -1772,7 +1681,6 @@
 	},
 	"hide_of_the_hagfish": {
 		"name": "Hide of the Hagfish",
-		"file": "magicarmordisplay8504.html",
 		"sources": [ "Seers of the Drowned City" ],
 		"description": [
 			"## Hide of the Hagfish",
@@ -1790,7 +1698,6 @@
 	},
 	"eagle_knight_dress_uniform": {
 		"name": "Eagle Knight Dress Uniform",
-		"file": "magicarmordisplay7c17.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Combat"
@@ -1811,7 +1718,6 @@
 	},
 	"lifecollar_coat": {
 		"name": "Lifecollar Coat",
-		"file": "magicarmordisplay8cb3.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Lifecollar Coat",
@@ -1833,7 +1739,6 @@
 	},
 	"armor_of_the_pure_legion": {
 		"name": "Armor of the Pure Legion",
-		"file": "magicarmordisplay44c3.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Armor of the Pure Legion",
@@ -1851,7 +1756,6 @@
 	},
 	"hide_of_the_dragonrider": {
 		"name": "Hide of the Dragonrider",
-		"file": "magicarmordisplay362f.html",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
 			"## Hide of the Dragonrider",
@@ -1869,7 +1773,6 @@
 	},
 	"arboreal_armor": {
 		"name": "Arboreal Armor",
-		"file": "magicarmordisplay6072.html",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Arboreal Armor",
@@ -1887,7 +1790,6 @@
 	},
 	"banded_mail_of_luck": {
 		"name": "Banded Mail of Luck",
-		"file": "magicarmordisplay9da3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1908,7 +1810,6 @@
 	},
 	"catskin_leather": {
 		"name": "Catskin Leather",
-		"file": "magicarmordisplaydc80.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Catskin Leather",
@@ -1926,7 +1827,6 @@
 	},
 	"infiltrator's_mail": {
 		"name": "Infiltrator's Mail",
-		"file": "magicarmordisplay2292.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Infiltrator's Mail",
@@ -1944,7 +1844,6 @@
 	},
 	"ursine_rageskin": {
 		"name": "Ursine Rageskin",
-		"file": "magicarmordisplay460e.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Ursine Rageskin",
@@ -1962,7 +1861,6 @@
 	},
 	"the_forbidden_name": {
 		"name": "The Forbidden Name",
-		"file": "magicarmordisplayf9e2.html",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
 			"## The Forbidden Name",
@@ -1982,7 +1880,6 @@
 	},
 	"howling_skull_armor": {
 		"name": "Howling Skull Armor",
-		"file": "magicarmordisplay4756.html",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
 		"description": [
 			"## Howling Skull Armor",
@@ -2000,7 +1897,6 @@
 	},
 	"do-maru_of_broken_flesh": {
 		"name": "Do-Maru of Broken Flesh",
-		"file": "magicarmordisplay9e62.html",
 		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"## Do-Maru of Broken Flesh",
@@ -2023,7 +1919,6 @@
 	},
 	"raiment_of_the_shining_crusade": {
 		"name": "Raiment of the Shining Crusade",
-		"file": "magicarmordisplay512f.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Raiment of the Shining Crusade",
@@ -2043,7 +1938,6 @@
 	},
 	"war_commander's_field_plate": {
 		"name": "War Commander's Field Plate",
-		"file": "magicarmordisplay8937.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## War Commander's Field Plate",
@@ -2063,7 +1957,6 @@
 	},
 	"armor_of_fragmenting_stone": {
 		"name": "Armor of Fragmenting Stone",
-		"file": "magicarmordisplay2b0d.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Armor of Fragmenting Stone",
@@ -2081,7 +1974,6 @@
 	},
 	"gug_hide": {
 		"name": "Gug Hide",
-		"file": "magicarmordisplaye0c0.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Gug Hide",
@@ -2099,7 +1991,6 @@
 	},
 	"stalwart_breastplate": {
 		"name": "Stalwart Breastplate",
-		"file": "magicarmordisplay13d8.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Stalwart Breastplate",
@@ -2117,7 +2008,6 @@
 	},
 	"celestial_armor": {
 		"name": "Celestial Armor",
-		"file": "magicarmordisplay1142.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2138,7 +2028,6 @@
 	},
 	"death's_preservation_banded_mail": {
 		"name": "Death's Preservation Banded Mail",
-		"file": "magicarmordisplay72e4.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Death's Preservation Banded Mail",
@@ -2157,7 +2046,6 @@
 	},
 	"armiger's_armor": {
 		"name": "Armiger's Armor",
-		"file": "magicarmordisplaycf41.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Armiger's Armor",
@@ -2175,7 +2063,6 @@
 	},
 	"ghost_mirror_armor": {
 		"name": "Ghost Mirror Armor",
-		"file": "magicarmordisplaya897.html",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Ghost Mirror Armor",
@@ -2193,7 +2080,6 @@
 	},
 	"armor_of_the_pious": {
 		"name": "Armor of the Pious",
-		"file": "magicarmordisplay4663.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Armor of the Pious",
@@ -2211,7 +2097,6 @@
 	},
 	"goblin_plate_goblin": {
 		"name": "Goblin Plate (Goblin)",
-		"file": "magicarmordisplay4879.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Goblin Plate (Goblin)",
@@ -2234,7 +2119,6 @@
 	},
 	"buccaneer's_breastplate": {
 		"name": "Buccaneer's Breastplate",
-		"file": "magicarmordisplay83aa.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2255,7 +2139,6 @@
 	},
 	"dragonform_armor": {
 		"name": "Dragonform Armor",
-		"file": "magicarmordisplaye44c.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Dragonform Armor",
@@ -2274,7 +2157,6 @@
 	},
 	"purgatory's_cowl": {
 		"name": "Purgatory's Cowl",
-		"file": "magicarmordisplayc06f.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Purgatory's Cowl",
@@ -2292,7 +2174,6 @@
 	},
 	"aldori_dueling_armor": {
 		"name": "Aldori Dueling Armor",
-		"file": "magicarmordisplay8d0c.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Aldori Dueling Armor",
@@ -2310,7 +2191,6 @@
 	},
 	"plate_armor_of_the_deep": {
 		"name": "Plate Armor of the Deep",
-		"file": "magicarmordisplayf1cb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2331,7 +2211,6 @@
 	},
 	"suit_of_inverted_jade": {
 		"name": "Suit of Inverted Jade",
-		"file": "magicarmordisplay8037.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Suit of Inverted Jade",
@@ -2351,7 +2230,6 @@
 	},
 	"spiritwalk_armor": {
 		"name": "Spiritwalk Armor",
-		"file": "magicarmordisplay1688.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Spiritwalk Armor",
@@ -2369,7 +2247,6 @@
 	},
 	"breastplate_of_command": {
 		"name": "Breastplate of Command",
-		"file": "magicarmordisplayb636.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2390,7 +2267,6 @@
 	},
 	"forsaken_banded_mail": {
 		"name": "Forsaken Banded Mail",
-		"file": "magicarmordisplayaa35.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2411,7 +2287,6 @@
 	},
 	"armor_of_the_tireless_warrior": {
 		"name": "Armor of the Tireless Warrior",
-		"file": "magicarmordisplay30ef.html",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
 		"description": [
 			"## Armor of the Tireless Warrior",
@@ -2429,7 +2304,6 @@
 	},
 	"mail_of_sly_steps_halfling": {
 		"name": "Mail of Sly Steps (Halfling)",
-		"file": "magicarmordisplaya781.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Mail of Sly Steps (Halfling)",
@@ -2452,7 +2326,6 @@
 	},
 	"mithral_full_plate_of_speed": {
 		"name": "Mithral Full Plate of Speed",
-		"file": "magicarmordisplay8a68.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2473,7 +2346,6 @@
 	},
 	"panoply_of_the_fierani_knight_elf": {
 		"name": "Panoply of the Fierani Knight (Elf)",
-		"file": "magicarmordisplay7abf.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Panoply of the Fierani Knight (Elf)",
@@ -2496,7 +2368,6 @@
 	},
 	"tunnel_defender_stoneplate": {
 		"name": "Tunnel Defender Stoneplate",
-		"file": "magicarmordisplaye674.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Tunnel Defender Stoneplate",
@@ -2518,7 +2389,6 @@
 	},
 	"vibrant_frog_hide": {
 		"name": "Vibrant Frog Hide",
-		"file": "magicarmordisplay7cc1.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Vibrant Frog Hide",
@@ -2540,7 +2410,6 @@
 	},
 	"blackjacket": {
 		"name": "Blackjacket",
-		"file": "magicarmordisplay42e4.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Blackjacket",
@@ -2560,7 +2429,6 @@
 	},
 	"warden_of_the_woods": {
 		"name": "Warden of the Woods",
-		"file": "magicarmordisplay78ad.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Warden of the Woods",
@@ -2582,7 +2450,6 @@
 	},
 	"dragon_herald_vestments": {
 		"name": "Dragon Herald Vestments",
-		"file": "magicarmordisplay4025.html",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Dragon Herald Vestments",
@@ -2601,7 +2468,6 @@
 	},
 	"alchemist's_suit": {
 		"name": "Alchemist's Suit",
-		"file": "magicarmordisplay894f.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Alchemist's Suit",
@@ -2619,7 +2485,6 @@
 	},
 	"skyplate_armor": {
 		"name": "Skyplate Armor",
-		"file": "magicarmordisplay53f3.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"## Skyplate Armor",
@@ -2637,7 +2502,6 @@
 	},
 	"flowing_fortress_armor": {
 		"name": "Flowing Fortress Armor",
-		"file": "magicarmordisplay615b.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Flowing Fortress Armor",
@@ -2661,7 +2525,6 @@
 	},
 	"maiden's_panoply": {
 		"name": "Maiden's Panoply",
-		"file": "magicarmordisplaye2b9.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Maiden's Panoply",
@@ -2679,7 +2542,6 @@
 	},
 	"diviner's_blight": {
 		"name": "Diviner's Blight",
-		"file": "magicarmordisplayeefd.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Diviner's Blight",
@@ -2701,7 +2563,6 @@
 	},
 	"man_mountain_armor": {
 		"name": "Man Mountain Armor",
-		"file": "magicarmordisplay6d7e.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Man Mountain Armor",
@@ -2719,7 +2580,6 @@
 	},
 	"scarab_breastplate": {
 		"name": "Scarab Breastplate",
-		"file": "magicarmordisplayfc9f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scarab Breastplate",
@@ -2741,7 +2601,6 @@
 	},
 	"advocate's_armor": {
 		"name": "Advocate's Armor",
-		"file": "magicarmordisplayb4d8.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Advocate's Armor",
@@ -2759,7 +2618,6 @@
 	},
 	"clockwork_armor": {
 		"name": "Clockwork Armor",
-		"file": "magicarmordisplay5bb6.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Clockwork Armor",
@@ -2781,7 +2639,6 @@
 	},
 	"eel_skin_armor": {
 		"name": "Eel Skin Armor",
-		"file": "magicarmordisplayc953.html",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"## Eel Skin Armor",
@@ -2799,7 +2656,6 @@
 	},
 	"full_plate_of_the_corpse": {
 		"name": "Full Plate of the Corpse",
-		"file": "magicarmordisplaye5f6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Full Plate of the Corpse",
@@ -2817,7 +2673,6 @@
 	},
 	"snailplate": {
 		"name": "Snailplate",
-		"file": "magicarmordisplaybd7d.html",
 		"sources": [ "Misfit Monsters Redeemed" ],
 		"description": [
 			"## Snailplate",
@@ -2835,7 +2690,6 @@
 	},
 	"phoenix_armor": {
 		"name": "Phoenix Armor",
-		"file": "magicarmordisplay9d8d.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Phoenix Armor",
@@ -2854,7 +2708,6 @@
 	},
 	"giant-hide_armor_ogre": {
 		"name": "Giant-Hide Armor (ogre)",
-		"file": "magicarmordisplay146f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2880,7 +2733,6 @@
 	},
 	"crag_linnorm_plate": {
 		"name": "Crag Linnorm Plate",
-		"file": "magicarmordisplay68fc.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Crag Linnorm Plate",
@@ -2900,7 +2752,6 @@
 	},
 	"hallowed_chain,_greater_varisian": {
 		"name": "Hallowed Chain, Greater (Varisian)",
-		"file": "magicarmordisplay0cfb.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Hallowed Chain, Greater (Varisian)",
@@ -2923,7 +2774,6 @@
 	},
 	"hamatula_hide": {
 		"name": "Hamatula Hide",
-		"file": "magicarmordisplay45df.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Hamatula Hide",
@@ -2943,7 +2793,6 @@
 	},
 	"giant-hide_armor_hill_giant": {
 		"name": "Giant-Hide Armor (hill giant)",
-		"file": "magicarmordisplayd421.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2969,7 +2818,6 @@
 	},
 	"wizard's_mail": {
 		"name": "Wizard's Mail",
-		"file": "magicarmordisplay2f59.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Wizard's Mail",
@@ -2987,7 +2835,6 @@
 	},
 	"demon_armor": {
 		"name": "Demon Armor",
-		"file": "magicarmordisplay8f6a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3010,7 +2857,6 @@
 	},
 	"field_medic's_breastplate": {
 		"name": "Field Medic's Breastplate",
-		"file": "magicarmordisplay43ef.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Field Medic's Breastplate",
@@ -3029,7 +2875,6 @@
 	},
 	"nightskin": {
 		"name": "Nightskin",
-		"file": "magicarmordisplayffa4.html",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
 			"## Nightskin",
@@ -3049,7 +2894,6 @@
 	},
 	"tiger's_hide": {
 		"name": "Tiger's Hide",
-		"file": "magicarmordisplayf513.html",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
 			"## Tiger's Hide",
@@ -3067,7 +2911,6 @@
 	},
 	"giant-hide_armor_stone,_fire,_or_frost_giant": {
 		"name": "Giant-Hide Armor (stone, fire, or frost giant)",
-		"file": "magicarmordisplay3fc3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3093,7 +2936,6 @@
 	},
 	"giant-hide_armor_troll": {
 		"name": "Giant-Hide Armor (troll)",
-		"file": "magicarmordisplay159d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3119,7 +2961,6 @@
 	},
 	"ebon_thorn": {
 		"name": "Ebon Thorn",
-		"file": "magicarmordisplaycaba.html",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Ebon Thorn",
@@ -3137,7 +2978,6 @@
 	},
 	"gelugon_plate": {
 		"name": "Gelugon Plate",
-		"file": "magicarmordisplayf0fe.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Combat"
@@ -3160,7 +3000,6 @@
 	},
 	"mail_of_malevolence": {
 		"name": "Mail of Malevolence",
-		"file": "magicarmordisplay9ff5.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mail of Malevolence",
@@ -3180,7 +3019,6 @@
 	},
 	"coruscating_raiment": {
 		"name": "Coruscating Raiment",
-		"file": "magicarmordisplay50d4.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Coruscating Raiment",
@@ -3198,7 +3036,6 @@
 	},
 	"o-yoroi_of_imperial_rule": {
 		"name": "O-Yoroi of Imperial Rule",
-		"file": "magicarmordisplayfef8.html",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
 			"## O-Yoroi of Imperial Rule",
@@ -3219,7 +3056,6 @@
 	},
 	"giant-hide_armor_cloud_giant": {
 		"name": "Giant-Hide Armor (cloud giant)",
-		"file": "magicarmordisplay3430.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3245,7 +3081,6 @@
 	},
 	"giant-hide_armor_storm_giant": {
 		"name": "Giant-Hide Armor (storm giant)",
-		"file": "magicarmordisplayee25.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3271,7 +3106,6 @@
 	},
 	"daystar_half-plate": {
 		"name": "Daystar Half-Plate",
-		"file": "magicarmordisplay1b2c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3295,7 +3129,6 @@
 	},
 	"xill_carapace_armor": {
 		"name": "Xill Carapace Armor",
-		"file": "magicarmordisplay4771.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Xill Carapace Armor",
@@ -3315,7 +3148,6 @@
 	},
 	"empyreal_armor": {
 		"name": "Empyreal Armor",
-		"file": "magicarmordisplay51b6.html",
 		"sources": [ "Chronicle of the Righteous" ],
 		"description": [
 			"## Empyreal Armor",
@@ -3336,7 +3168,6 @@
 	},
 	"gelugon_armor": {
 		"name": "Gelugon Armor",
-		"file": "magicarmordisplay3b1b.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Gelugon Armor",
@@ -3354,7 +3185,6 @@
 	},
 	"invincible_armor": {
 		"name": "Invincible Armor",
-		"file": "magicarmordisplay66d0.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Invincible Armor",
@@ -3372,7 +3202,6 @@
 	},
 	"thanatotic_plate": {
 		"name": "Thanatotic Plate",
-		"file": "magicarmordisplay6b51.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Thanatotic Plate",
@@ -3394,7 +3223,6 @@
 	},
 	"prismatic_plate": {
 		"name": "Prismatic Plate",
-		"file": "magicarmordisplayef29.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Prismatic Plate",
@@ -3422,7 +3250,6 @@
 	},
 	"living_steel_heavy_shield": {
 		"name": "Living Steel Heavy Shield",
-		"file": "magicarmordisplay1a8e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Living Steel Heavy Shield",
@@ -3436,7 +3263,6 @@
 	},
 	"darkwood_buckler": {
 		"name": "Darkwood Buckler",
-		"file": "magicarmordisplay66ab.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3453,7 +3279,6 @@
 	},
 	"darkwood_shield": {
 		"name": "Darkwood Shield",
-		"file": "magicarmordisplay7f7f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3470,7 +3295,6 @@
 	},
 	"mithral_heavy_shield": {
 		"name": "Mithral Heavy Shield",
-		"file": "magicarmordisplayc45f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3487,7 +3311,6 @@
 	},
 	"zombie_skin_shield": {
 		"name": "Zombie Skin Shield",
-		"file": "magicarmordisplayf520.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Zombie Skin Shield",
@@ -3505,7 +3328,6 @@
 	},
 	"breach_barrier": {
 		"name": "Breach Barrier",
-		"file": "magicarmordisplay2a16.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Breach Barrier",
@@ -3523,7 +3345,6 @@
 	},
 	"driftwood_shield": {
 		"name": "Driftwood Shield",
-		"file": "magicarmordisplay06c7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Driftwood Shield",
@@ -3541,7 +3362,6 @@
 	},
 	"caster's_shield": {
 		"name": "Caster's Shield",
-		"file": "magicarmordisplay1c61.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3564,7 +3384,6 @@
 	},
 	"bronze_whisperer's_shield": {
 		"name": "Bronze Whisperer's Shield",
-		"file": "magicarmordisplay21e1.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Bronze Whisperer's Shield",
@@ -3582,7 +3401,6 @@
 	},
 	"scarab_shield": {
 		"name": "Scarab Shield",
-		"file": "magicarmordisplay3290.html",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
 			"## Scarab Shield",
@@ -3604,7 +3422,6 @@
 	},
 	"burglar's_buckler": {
 		"name": "Burglar's Buckler",
-		"file": "magicarmordisplay7113.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Burglar's Buckler",
@@ -3624,7 +3441,6 @@
 	},
 	"challenging_shield": {
 		"name": "Challenging Shield",
-		"file": "magicarmordisplaye371.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Challenging Shield",
@@ -3642,7 +3458,6 @@
 	},
 	"spined_shield": {
 		"name": "Spined Shield",
-		"file": "magicarmordisplay9007.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3663,7 +3478,6 @@
 	},
 	"okeno_madu": {
 		"name": "Okeno Madu",
-		"file": "magicarmordisplaybbc7.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Okeno Madu",
@@ -3683,7 +3497,6 @@
 	},
 	"lockpick_shield": {
 		"name": "Lockpick Shield",
-		"file": "magicarmordisplay0267.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Lockpick Shield",
@@ -3703,7 +3516,6 @@
 	},
 	"dragonslayer's_shield": {
 		"name": "Dragonslayer's Shield",
-		"file": "magicarmordisplaya084.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dragonslayer's Shield",
@@ -3721,7 +3533,6 @@
 	},
 	"shield_of_sunrise": {
 		"name": "Shield of Sunrise",
-		"file": "magicarmordisplay95cb.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Shield of Sunrise",
@@ -3741,7 +3552,6 @@
 	},
 	"shield_of_covered_retreat": {
 		"name": "Shield of Covered Retreat",
-		"file": "magicarmordisplay359d.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Shield of Covered Retreat",
@@ -3759,7 +3569,6 @@
 	},
 	"clawhand_shield": {
 		"name": "Clawhand Shield",
-		"file": "magicarmordisplay3eb1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Clawhand Shield",
@@ -3779,7 +3588,6 @@
 	},
 	"collapsible_tower": {
 		"name": "Collapsible Tower",
-		"file": "magicarmordisplayfa47.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Collapsible Tower",
@@ -3797,7 +3605,6 @@
 	},
 	"lion's_shield": {
 		"name": "Lion's Shield",
-		"file": "magicarmordisplay6ec5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3818,7 +3625,6 @@
 	},
 	"maiden's_aegis": {
 		"name": "Maiden's Aegis",
-		"file": "magicarmordisplay8d89.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Maiden's Aegis",
@@ -3836,7 +3642,6 @@
 	},
 	"brilliant_bulwark": {
 		"name": "Brilliant Bulwark",
-		"file": "magicarmordisplay3ed3.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Brilliant Bulwark",
@@ -3854,7 +3659,6 @@
 	},
 	"caster's_shield,_greater": {
 		"name": "Caster's Shield, Greater",
-		"file": "magicarmordisplay22e8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Caster's Shield, Greater",
@@ -3875,7 +3679,6 @@
 	},
 	"gunner's_buckler": {
 		"name": "Gunner's Buckler",
-		"file": "magicarmordisplaya7c6.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Gunner's Buckler",
@@ -3893,7 +3696,6 @@
 	},
 	"stalker's_fang_shoanti": {
 		"name": "Stalker's Fang (Shoanti)",
-		"file": "magicarmordisplay2c50.html",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
 			"## Stalker's Fang (Shoanti)",
@@ -3916,7 +3718,6 @@
 	},
 	"celestial_shield": {
 		"name": "Celestial Shield",
-		"file": "magicarmordisplayfd7f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -3937,7 +3738,6 @@
 	},
 	"starsling_buckler": {
 		"name": "Starsling Buckler",
-		"file": "magicarmordisplay3775.html",
 		"sources": [ "Seers of the Drowned City" ],
 		"description": [
 			"## Starsling Buckler",
@@ -3957,7 +3757,6 @@
 	},
 	"phalanx_shield": {
 		"name": "Phalanx Shield",
-		"file": "magicarmordisplaya0fc.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Phalanx Shield",
@@ -3975,7 +3774,6 @@
 	},
 	"maelstrom_shield": {
 		"name": "Maelstrom Shield",
-		"file": "magicarmordisplay2c85.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Maelstrom Shield",
@@ -3993,7 +3791,6 @@
 	},
 	"spiteful_shield": {
 		"name": "Spiteful Shield",
-		"file": "magicarmordisplaya6ab.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Spiteful Shield",
@@ -4011,7 +3808,6 @@
 	},
 	"volcanic_shield": {
 		"name": "Volcanic Shield",
-		"file": "magicarmordisplay0d0f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Volcanic Shield",
@@ -4029,7 +3825,6 @@
 	},
 	"surefooted_shield": {
 		"name": "Surefooted Shield",
-		"file": "magicarmordisplay5197.html",
 		"sources": [ "Pathfinder #94: Ice Tomb of the Giant Queen" ],
 		"description": [
 			"## Surefooted Shield",
@@ -4049,7 +3844,6 @@
 	},
 	"tempest_shield": {
 		"name": "Tempest Shield",
-		"file": "magicarmordisplay0265.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tempest Shield",
@@ -4067,7 +3861,6 @@
 	},
 	"battlement_shield": {
 		"name": "Battlement Shield",
-		"file": "magicarmordisplay4953.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4088,7 +3881,6 @@
 	},
 	"shieldmarshal's_ward": {
 		"name": "Shieldmarshal's Ward",
-		"file": "magicarmordisplaya366.html",
 		"sources": [ "Mythic Origins" ],
 		"description": [
 			"## Shieldmarshal's Ward",
@@ -4110,7 +3902,6 @@
 	},
 	"guard_of_man": {
 		"name": "Guard of Man",
-		"file": "magicarmordisplay8aba.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Guard of Man",
@@ -4130,7 +3921,6 @@
 	},
 	"winged_shield": {
 		"name": "Winged Shield",
-		"file": "magicarmordisplayecd5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4151,7 +3941,6 @@
 	},
 	"shield_of_the_mazeborn": {
 		"name": "Shield of the Mazeborn",
-		"file": "magicarmordisplay8efb.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shield of the Mazeborn",
@@ -4169,7 +3958,6 @@
 	},
 	"bloodfeast_shield": {
 		"name": "Bloodfeast Shield",
-		"file": "magicarmordisplay0ced.html",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder #48: Shadows of Gallowspire"
@@ -4192,7 +3980,6 @@
 	},
 	"broadside_bulwark": {
 		"name": "Broadside Bulwark",
-		"file": "magicarmordisplaye185.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Broadside Bulwark",
@@ -4214,7 +4001,6 @@
 	},
 	"avalanche_shield": {
 		"name": "Avalanche Shield",
-		"file": "magicarmordisplay1bbf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Avalanche Shield",
@@ -4232,7 +4018,6 @@
 	},
 	"fortress_shield": {
 		"name": "Fortress Shield",
-		"file": "magicarmordisplay5bcf.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4253,7 +4038,6 @@
 	},
 	"mwangi_spirit_shield": {
 		"name": "Mwangi Spirit Shield",
-		"file": "magicarmordisplayb491.html",
 		"sources": [ "Sargava, the Lost Colony" ],
 		"description": [
 			"## Mwangi Spirit Shield",
@@ -4273,7 +4057,6 @@
 	},
 	"lyrune-quah_klar": {
 		"name": "Lyrune-Quah Klar",
-		"file": "magicarmordisplay33eb.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Lyrune-Quah Klar",
@@ -4296,7 +4079,6 @@
 	},
 	"wyrmslayer's_shield": {
 		"name": "Wyrmslayer's Shield",
-		"file": "magicarmordisplay7c4e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wyrmslayer's Shield",
@@ -4314,7 +4096,6 @@
 	},
 	"shield_of_hags": {
 		"name": "Shield of Hags",
-		"file": "magicarmordisplaye6c4.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Shield of Hags",
@@ -4335,7 +4116,6 @@
 	},
 	"elephant_shield": {
 		"name": "Elephant Shield",
-		"file": "magicarmordisplayabe1.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Elephant Shield",
@@ -4353,7 +4133,6 @@
 	},
 	"bastion_of_the_inheritor": {
 		"name": "Bastion of the Inheritor",
-		"file": "magicarmordisplaye85c.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Bastion of the Inheritor",
@@ -4371,7 +4150,6 @@
 	},
 	"spell_ward_tower_shield": {
 		"name": "Spell Ward Tower Shield",
-		"file": "magicarmordisplaycb5c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spell Ward Tower Shield",
@@ -4389,7 +4167,6 @@
 	},
 	"icon_of_order": {
 		"name": "Icon of Order",
-		"file": "magicarmordisplay5d86.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Icon of Order",
@@ -4407,7 +4184,6 @@
 	},
 	"lens_of_the_dark_tapestry": {
 		"name": "Lens of the Dark Tapestry",
-		"file": "magicarmordisplayf0d8.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Lens of the Dark Tapestry",
@@ -4425,7 +4201,6 @@
 	},
 	"quick_block_buckler": {
 		"name": "Quick Block Buckler",
-		"file": "magicarmordisplay8ac8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Quick Block Buckler",
@@ -4443,7 +4218,6 @@
 	},
 	"belligerent_shield": {
 		"name": "Belligerent Shield",
-		"file": "magicarmordisplay9e90.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Belligerent Shield",
@@ -4461,7 +4235,6 @@
 	},
 	"storval's_fang": {
 		"name": "Storval's Fang",
-		"file": "magicarmordisplay3cd9.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Storval's Fang",
@@ -4481,7 +4254,6 @@
 	},
 	"force_tower": {
 		"name": "Force Tower",
-		"file": "magicarmordisplay7925.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Force Tower",
@@ -4499,7 +4271,6 @@
 	},
 	"absorbing_shield": {
 		"name": "Absorbing Shield",
-		"file": "magicarmordisplayd6b5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4520,7 +4291,6 @@
 	},
 	"elysian_shield": {
 		"name": "Elysian Shield",
-		"file": "magicarmordisplay02f5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -4541,7 +4311,6 @@
 	},
 	"savith's_iron": {
 		"name": "Savith's Iron",
-		"file": "magicarmordisplaye6a4.html",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Savith's Iron",
@@ -4559,7 +4328,6 @@
 	},
 	"spellbane_shield": {
 		"name": "Spellbane Shield",
-		"file": "magicarmordisplay8611.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Spellbane Shield",
@@ -4577,7 +4345,6 @@
 	},
 	"equalizer_shield": {
 		"name": "Equalizer Shield",
-		"file": "magicarmordisplayd190.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Equalizer Shield",
@@ -4596,7 +4363,6 @@
 	},
 	"conqueror's_breastplate": {
 		"name": "Conqueror's Breastplate",
-		"file": "magicscalingf2ec.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Conqueror's Breastplate",
@@ -4621,7 +4387,6 @@
 	},
 	"unyielding_aegis": {
 		"name": "Unyielding Aegis",
-		"file": "magicscaling7f84.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Unyielding Aegis",
@@ -4650,7 +4415,6 @@
 	},
 	"shield_of_the_mage": {
 		"name": "Shield of the Mage",
-		"file": "magicintelligentdisplaya23f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Shield of the Mage",
@@ -4676,7 +4440,6 @@
 	},
 	"gossamer_shrouds_of_the_clairvoyant": {
 		"name": "Gossamer Shrouds of the Clairvoyant",
-		"file": "magicintelligentdisplayd631.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Gossamer Shrouds of the Clairvoyant",
@@ -4701,7 +4464,6 @@
 	},
 	"helmet_of_the_golden_general": {
 		"name": "Helmet of the Golden General",
-		"file": "magicintelligentdisplayc06c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Helmet of the Golden General",
@@ -4732,7 +4494,6 @@
 	},
 	"armor_of_the_shadow_lord": {
 		"name": "Armor of the Shadow Lord",
-		"file": "magicintelligentdisplayc64e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Armor of the Shadow Lord",
@@ -4758,7 +4519,6 @@
 	},
 	"armor_of_arrow_attraction": {
 		"name": "Armor of Arrow Attraction",
-		"file": "magiccurseddisplaye961.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4780,7 +4540,6 @@
 	},
 	"armor_of_rage": {
 		"name": "Armor of Rage",
-		"file": "magiccurseddisplay1c66.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4802,7 +4561,6 @@
 	},
 	"constrictor_armor": {
 		"name": "Constrictor Armor",
-		"file": "magiccurseddisplay6657.html",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"## Constrictor Armor",
@@ -4820,7 +4578,6 @@
 	},
 	"gravesoul_armor": {
 		"name": "Gravesoul Armor",
-		"file": "magiccurseddisplay580b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4844,7 +4601,6 @@
 	},
 	"planar_invasion_shield": {
 		"name": "Planar Invasion Shield",
-		"file": "magiccurseddisplayc867.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"

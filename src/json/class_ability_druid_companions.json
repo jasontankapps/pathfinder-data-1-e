@@ -1615,7 +1615,6 @@
 	"griffon": {
 		"name": "Griffon",
 		"sources": [ "Inner Sea Combat" ],
-		"languages": "Common (cannot speak)",
 		"description": [
 			"## Griffon",
 			"",
@@ -3712,7 +3711,6 @@
 	"worg": {
 		"name": "Worg",
 		"sources": [ "Inner Sea Combat" ],
-		"languages": "Common, Goblin",
 		"description": [
 			"## Worg",
 			"",

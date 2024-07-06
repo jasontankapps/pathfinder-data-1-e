@@ -10,7 +10,6 @@
 	},
 	"sanctified_shield": {
 		"name": "sanctified shield",
-		"file": "equipmentmiscdisplay8fd2.html",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Sanctified shield",
@@ -24,7 +23,6 @@
 	},
 	"shield_boss_breakaway": {
 		"name": "shield boss (breakaway)",
-		"file": "equipmentmiscdisplay90d0.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shield boss",
@@ -46,25 +44,21 @@
 	},
 	"shield_boss_hooked": {
 		"name": "shield boss (hooked)",
-		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating": {
 		"name": "shield boss (illuminating)",
-		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss": {
 		"name": "shield boss (reinforcing boss)",
-		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_breakaway,_masterwork": {
 		"name": "shield boss (breakaway, masterwork)",
-		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -73,7 +67,6 @@
 	},
 	"shield_boss_hooked,_masterwork": {
 		"name": "shield boss (hooked, masterwork)",
-		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -82,7 +75,6 @@
 	},
 	"shield_boss_illuminating,_masterwork": {
 		"name": "shield boss (illuminating, masterwork)",
-		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -91,7 +83,6 @@
 	},
 	"shield_boss_reinforcing_boss,_masterwork": {
 		"name": "shield boss (reinforcing boss, masterwork)",
-		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -100,7 +91,6 @@
 	},
 	"armor_vents": {
 		"name": "armor vents",
-		"file": "equipmentmiscdisplaye668.html",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Armor vents",
@@ -113,7 +103,6 @@
 	},
 	"armor_spikes": {
 		"name": "armor spikes",
-		"file": "equipmentarmordisplay649c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -131,7 +120,6 @@
 	},
 	"locked_gauntlet": {
 		"name": "locked gauntlet",
-		"file": "equipmentarmordisplayc81f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -152,7 +140,6 @@
 	},
 	"shield_spikes": {
 		"name": "shield spikes",
-		"file": "equipmentarmordisplayeea6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -178,7 +165,6 @@
 	},
 	"burnished": {
 		"name": "burnished",
-		"file": "equipmentarmordisplay6043.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Burnished",
@@ -193,7 +179,6 @@
 	},
 	"deflecting": {
 		"name": "deflecting",
-		"file": "equipmentarmordisplayb3cc.html",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"
@@ -211,7 +196,6 @@
 	},
 	"double-plated": {
 		"name": "double-plated",
-		"file": "equipmentarmordisplayfbd9.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Double-plated",
@@ -229,7 +213,6 @@
 	},
 	"jarring": {
 		"name": "jarring",
-		"file": "equipmentarmordisplay9597.html",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"
@@ -247,7 +230,6 @@
 	},
 	"nimble": {
 		"name": "nimble",
-		"file": "equipmentarmordisplay9bde.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Nimble",
@@ -262,7 +244,6 @@
 	},
 	"razored": {
 		"name": "razored",
-		"file": "equipmentarmordisplayff9b.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razored",
@@ -277,7 +258,6 @@
 	},
 	"slumbering": {
 		"name": "slumbering",
-		"file": "equipmentarmordisplay80c1.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Slumbering",
@@ -292,7 +272,6 @@
 	},
 	"throwing_shield": {
 		"name": "throwing shield",
-		"file": "equipmentarmordisplay8862.html",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Throwing shield",
@@ -307,7 +286,6 @@
 	},
 	"vitalguard": {
 		"name": "vitalguard",
-		"file": "equipmentarmordisplayebe6.html",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"

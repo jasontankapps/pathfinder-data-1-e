@@ -1006,6 +1006,7 @@
 			"### Paladin Code",
 			"",
 			"As the intermediary between and servitor to the other civilized gods, Alseta prefers to remain neutral in conflicts among the gods. This impartiality naturally extends to her faithful, and thus followers of Alseta rarely become paladins.",
+			"",
 			"The elves of Kyonin are a noteworthy exception to this trend. Elves who revere Alseta as the patron goddess of the aiudara (or \"elf gates\") swear oaths in her name to defend these sacred elven relics from those who would visit destruction upon them, including the fiendish Treerazer and his demonic forces. In addition to the normal paladin code, the tenets of these elven paladins of Alseta include the following affirmations.",
 			"",
 			"- Doorways are sacred boundaries and should be respected. I will not transgress across the threshold of an occupied structure uninvited unless doing so serves the glory of Alseta or is necessary to prevent a great evil from taking place.",
@@ -3095,7 +3096,7 @@
 			"**Areas of Concern** Cats, pleasure, secrets  ",
 			"**Domains** [Animal](domain/animal), [Chaos](domain/chaos), [Charm](domain/charm), [Protection](domain/protection), [Trickery](domain/trickery)  ",
 			"**Subdomains** [Deception](domain/trickery), [Defense](domain/protection), [Fur](domain/animal), [Lust](domain/charm), [Protean](domain/chaos), [Thievery](domain/trickery)  ",
-			"**Favored Weapon** [Cat's claws (tekko-kagi)](equipment/weapon/tekko-kagi) ",
+			"**Favored Weapon** [Cat's claws (tekko-kagi)](equipment/weapon/tekko-kagi)  ",
 			"**Symbol** Golden cat  ",
 			"**Sacred Animal(s)** Cat"
 		]
@@ -4513,12 +4514,12 @@
 			"2. **Confident Gambler (Su)** While many creatures rely on their luck, your faith allows you to control your luck to a small degree. Except when performing Chaldira's obedience, you can determine as a free action how an ordinary coin you flip or ordinary die you toss will land. If you use this ability for your own personal gain to the detriment of someone who is innocent or less fortunate than you are, you are likely to incur Chaldira's disfavor and lose the use of this boon until you atone, as set forth in the [atonement](spell/atonement) spell. When used to recover the use of this boon, an [atonement](spell/atonement) spell has an additional monetary cost equal to the amount you gained due to the misuse of this ability. If you instead return the amount you gained to the person you acquired it from (or to the person's family, community, friends, or other appropriate connection) and provide a genuine apology, then the [atonement](spell/atonement) spell has no additional cost.",
 			"3. **Auspicious Accuracy (Su)** Your ability to control your luck expands to desperate situations of life and death. A number of times per day equal to your Charisma modifier (minimum once per day), when you would normally roll a miss chance percentage, you can instead choose whether or not to hit. This ability manifests as a lucky turn of the blade or an awkward lunge that appears to be an overcorrection but actually places your attack right where it needs to be. Observers are likely to consider you exceptionally fortunate in your attacks, rather than suspect that you are supernaturally guided to bypass effects that would cause you to miss.",
 			"",
-			"",
 			"**Source** [Faiths of Golarion pg. 7](source/faiths_of_golarion)",
 			"",
 			"#### Cleric/Warpriest",
-			"[Mage Hand](spell/mage_hand) can be prepared as a 0-level spell",
-			"[Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell"
+			"",
+			"- [Mage Hand](spell/mage_hand) can be prepared as a 0-level spell",
+			"- [Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell"
 		]
 	},
 	"chaldira": { "copyof": "chaldira_zuzaristan" },

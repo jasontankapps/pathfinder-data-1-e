@@ -5753,6 +5753,7 @@
 			"**Genetic:** A genetic trigger works in a fashion similar to scent. It can be set to target or not target living creatures within 30 feet (adjusted by wind as for scent) based on an individual, close family, or species relationship. For example, a trap could be set to target orcs, or to not target an NPC and his close relations. Genetic triggers are used in conjunction with other triggers and limit the maximum range of those triggers. A trap can incorporate up to half its CR in different genetic samples and conditions. This trigger adds +1 to the trap's CR and +5 to its crafting DC.",
 			"",
 			"### Concealed Laser Turret",
+			"",
 			"#### CR 4",
 			"**Type** mechanical and technological; **Perception DC** 20; **Disable Device** DC 28",
 			"",
@@ -5838,7 +5839,7 @@
 		"name": "Primal Magic",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"**Source** [Inner Sea Magic pg. 12](source/inner_sea_magic)",
+			"**Source** [Inner Sea Magic pg. 12](source/inner_sea_magic)  ",
 			"In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility. The same energies that can be shaped to create explosive fireballs, raise the dead, divine the future, heal the sick, and summon demons can do that and more without the direction of skilled spellcasters. Normally, this unfocused magical potential does not exist in reality; it lies beyond reality, where it waits to be tapped. Where exactly magic comes from remains a lively debate today, but when magic is unleashed without any attempt to focus it-when it leaks into the world in its raw form-the result is known as primal magic.",
 			"",
 			"In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes-here, primal magic is often called \"wild magic.\" On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.",
