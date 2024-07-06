@@ -17,9 +17,9 @@ const HierarchyTab: FC<PageProps> = (props) => {
 
 	const hierarchyLinks = useMemo(() => {
 		return hierarchy.map((pair, i) => (
-			<div key={`parents/${i}`}>
-				<IonLabel><Link to={"/" + pair[1]}>{pair[0]}</Link></IonLabel>
-			</div>
+			<li key={`parents/${i}`}>
+				<Link to={"/" + pair[1]}>{pair[0]}</Link>
+			</li>
 		));
 	}, [hierarchy, open]);
 
@@ -27,7 +27,7 @@ const HierarchyTab: FC<PageProps> = (props) => {
 
 	return hierarchy.length === 0 ? <></> : (
 		<div className="hierarchy">
-			<div className="hierachyLinks">{hierarchyLinks}</div>
+			<ol className={"hierarchyLinks " + (open ? "hierarchyLinksOpen" : "hierarchyLinksClosed")}>{hierarchyLinks}</ol>
 			<div className="hierarchyButton"><IonButton onClick={click}><IonIcon icon={open ? chevronUpCircle : chevronDownCircle} /></IonButton></div>
 		</div>
 	);

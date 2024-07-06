@@ -1,0 +1,64 @@
+/* Hierarchy Tab */
+
+ion-content {
+	position: relative;
+	--padding-start: 1em;
+	--padding-end: 1em;
+}
+div.hierarchy {
+	position: absolute;
+	top: 56px;
+	right: 1em;
+	min-width: 5em;
+}
+div.hierarchyButton {
+	text-align: end !important;
+}
+div.hierarchyButton ion-button {
+	margin-top: 0;
+	margin-inline: 1rem;
+	--background: var(--ion-color-secondary);
+	--color: var(--ion-color-secondary-contrast);
+	--border-radius: 0 0 0.5em 0.5em;
+	--padding-start: 0.5em;
+	--padding-end: 0.5em;
+	--padding-bottom: 0.5em;
+	--padding-top: 0.25em;
+}
+ol.hierarchyLinks {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding-inline-start: 1.5em;
+	padding-inline-end: 0.5em;
+	margin-block: 0;
+	border-radius: 0 0 0.5em 0.5em;
+	border-style: solid;
+	border-inline-width: 2px;
+	border-color: var(--ion-color-secondary);
+	border-top-width: 0;
+	color: var(--ion-color-secondary);
+	background-color: var(--ion-color-light-tint);
+}
+ol.hierarchyLinks li {
+	margin-block: 0.25em;
+}
+ol.hierarchyLinks a:link,
+ol.hierarchyLinks a:visited,
+ol.hierarchyLinks a:hover {
+	color: var(--ion-color-secondary);
+	text-decoration: none;
+}
+ol.hierarchyLinksOpen {
+	border-bottom-width: 2px;
+	padding-block: 0.25em;
+	max-height: 20rem;
+	overflow-y: auto;
+}
+ol.hierarchyLinksClosed {
+	border-bottom-width: 0;
+	padding-block: 0;
+	max-height: 0;
+	overflow-y: hidden;
+}
