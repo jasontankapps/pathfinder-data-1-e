@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Pathfinder Data 1E</string>
     <string name="title_activity_main">Pathfinder Data 1E</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">net.jasontank.pathfinderdata1e</string>
+    <string name="custom_url_scheme">net.jasontank.pathfinderdata1e</string>
 </resources>

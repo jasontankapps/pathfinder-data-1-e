@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package net.jasontank.pathfinderdata1e;
 
 import com.getcapacitor.BridgeActivity;
 
