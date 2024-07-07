@@ -240,7 +240,7 @@
 			"",
 			"As characters enter the larger cosmic struggles of morality and alignment, they are able to gain new tools to help them champion their philosophies.",
 			"",
-			"[Alignment Feats](feats): If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store [affirmations](unknown/affirmations) for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost."
+			"[Alignment Feats](main/feats): If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store [affirmations](unknown/affirmations) for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -2236,7 +2236,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 54](source/pathfinder_unchained)",
 			"",
-			"This section describes each consolidated skill, its functions in the game, and a list of the core skills it replaces. Use these descriptions instead of those in the Core Rulebook, though many of the entries refer back to the [skill descriptions](skills) for more detailed explanations. Each skill listed below is broken down into its different functions, each of which is described in further detail. These details list the action needed to use the skill function, whether you can try again after a failed check, special benefits that apply to the function, and special circumstances that affect whether you can use that function untrained.",
+			"This section describes each consolidated skill, its functions in the game, and a list of the core skills it replaces. Use these descriptions instead of those in the Core Rulebook, though many of the entries refer back to the [skill descriptions](main/skills) for more detailed explanations. Each skill listed below is broken down into its different functions, each of which is described in further detail. These details list the action needed to use the skill function, whether you can try again after a failed check, special benefits that apply to the function, and special circumstances that affect whether you can use that function untrained.",
 			"",
 			"### Monster Identification",
 			"",

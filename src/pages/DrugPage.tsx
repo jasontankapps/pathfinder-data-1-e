@@ -10,7 +10,7 @@ const hierarchy: HierarchyArray = [
 	["Gamemastery Guide", "rule/gamemastery_guide"],
 	["Advanced Topics", "rule/advanced_topics"],
 	["Drugs and Addiction", "rule/drugs_and_addiction"],
-	["Drugs", "drugs"]
+	["Drugs", "main/drugs"]
 ];
 
 type Data = typeof drugs;

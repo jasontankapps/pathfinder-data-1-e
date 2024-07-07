@@ -3,12 +3,14 @@
 		"title": "Weapon Enhancements",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
-			"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
-			"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
-			"",
-			"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
-			"",
-			"{table0}"
+			[
+				"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
+				"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
+				"",
+				"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -31,89 +33,91 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_materials": {
 		"title": "Special Materials",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
-			"**Description Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
-			"Weapons and armor can be crafted using materials that have innate special properties. If you make a suit of armor or a weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
-			"",
-			"Each of the special materials described below has a definite game effect. Some creatures have damage reduction that makes them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.",
-			"",
-			"[Go here for rules on special materials and how to use them.](rule/special_raw_materials)",
-			"",
-			"| Name | Description |",
-			"| :---: | --- |",
-			"| [Abysium](equipment/material/abysium) | Known also as feverstone , this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. |",
-			"| [Adamantine](equipment/material/adamantine) | Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. |",
-			"| [Alchemical Silver](equipment/material/alchemical_silver) | A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes. |",
-			"| [Angelskin](equipment/material/angelskin) | The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. |",
-			"| [Aszite](equipment/material/aszite) | The navy-blue ore known as aszite is often used to reinforce buildings. |",
-			"| [Blackwood](equipment/material/blackwood) | Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. |",
-			"| [Blightburn](equipment/material/blightburn) | Blightburn is a highly radioactive crystalline mineral that grows in isolated pockets throughout the Darklands, from Nar-Voth all the way down to Orv. |",
-			"| [Blood Crystal](equipment/material/blood_crystal) | Mysterious radiation deep below the surface of the earth warps once-ordinary quartz into bloodcraving stone. |",
-			"| [Bulette Armor](equipment/material/bulette_armor) | Dwarves have long treasured bulettes for their thick hides and armor plating. |",
-			"| [Caphorite](equipment/material/caphorite) | Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. |",
-			"| [Cold Iron](equipment/material/cold_iron) | This iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. |",
-			"| [Cryptstone](equipment/material/cryptstone) | Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the Boneyard. |",
-			"| [Darkleaf Cloth](equipment/material/darkleaf_cloth) | Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin strips of bark from darkwood trees, then treating the resulting fabric with special alchemical processes. |",
-			"| [Darkwood](equipment/material/darkwood) | This rare magic wood is as hard as normal wood but very light. |",
-			"| [Djezet](equipment/material/djezet) | One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. |",
-			"| [Dragonhide](equipment/material/dragonhide) | Armorsmiths can work with the hides of dragons to produce armor or shields of masterwork quality. |",
-			"| [Druchite](equipment/material/druchite) | The black-and-violet ore known as druchite is synonymous with Shadow Absalom's towering spires. |",
-			"| [Eel Hide](equipment/material/eel_hide) | This supple material offers as much protection as leather, but is more flexible and resistant to electricity. |",
-			"| [Elysian Bronze](equipment/material/elysian_bronze) | First crafted in the deeps of time by the titans and bestowed as gifts to monster-slaying heroes among the lesser races, Elysian bronze retains the brazen coloration of its namesake but is as hard as steel. |",
-			"| [Fire-Forged Steel](equipment/material/fire-forged_steel) | Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly tools. It didn't take them long to adapt its unique properties to arms and armor. |",
-			"| [Frost-Forged Steel](equipment/material/frost-forged_steel) | This material is the same substance as fire-forged steel with a subtle difference in the alignment of the metal during crafting. |",
-			"| [Glaucite](equipment/material/glaucite) | When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. |",
-			"| [Greenwood](equipment/material/greenwood) | Greenwood remains alive as long as it is doused with at least one gallon of water (plus 1 gallon for every 10 pounds of the item's weight) once per week and allowed to rest for an hour in contact with fertile soil. |",
-			"| [Griffon Mane](equipment/material/griffon_mane) | This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. |",
-			"| [Heatstone Plating](equipment/material/heatstone_plating) | Heatstone plating involves placing heatstones at strategic points within clothing or armor. |",
-			"| [Horacalcum](equipment/material/horacalcum) | The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. |",
-			"| [Inubrix](equipment/material/inubrix) | This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" |",
-			"| [Irespan Basalt](equipment/material/irespan_basalt) | The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. |",
-			"| [Lazurite](equipment/material/lazurite) | Lazurite is a decayed form of a radioactive material no longer found in its natural form within the Darklands, said to be the remnants of a long-dead god. |",
-			"| [Liquid Glass](equipment/material/liquid_glass) | This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still liquid. |",
-			"| [Living Steel](equipment/material/living_steel) | This glossy green metal slowly repairs itself. |",
-			"| [Mithral](equipment/material/mithral) | Mithral is a rare, silvery metal that is lighter than steel but just as hard. |",
-			"| [Nexavaran Steel](equipment/material/nexavaran_steel) | Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish steel strikes true against monsters vulnerable to cold iron (such as demons). |",
-			"| [Noqual](equipment/material/noqual) | Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron despite its appearance. ",
-			"| [Paueliel](equipment/material/paueliel) | Towering above most other trees, the lofty paueliel are widely held as the \"first trees.\" |",
-			"| [Pyre Steel](equipment/material/pyre_steel) | Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. |",
-			"| [Siccatite](equipment/material/siccatite) | This shining silver metal is either incredibly hot or freezing cold when found. |",
-			"| [Silversheen](equipment/material/silversheen) | Blades made of this special metal count as alchemical silver weapons and are immune to rust, including that of rust monsters, the rusting grasp spell, and so on. |",
-			"| [Singing Steel](equipment/material/singing_steel) | This lustrous golden metal emits beautiful bell-like tones when struck. |",
-			"| [Spiresteel](equipment/material/spiresteel) | Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form of pure quintessence, but those brave enough to acquire some the substance report that ore mined from the Spire can be smelted and worked into weapons and armor. This substance, called spiresteel, exhibits an innate attraction for soul energy. |",
-			"| [Sunsilk](equipment/material/sunsilk) | Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite church, takes on a golden glitter after it has been left to cure in the sun. |",
-			"| [Sunsilver](equipment/material/sunsilver) | An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. |",
-			"| [Throneglass](equipment/material/throneglass) | The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture, including a famous skylight made of a single sheet of magically treated glass as durable as steel. |",
-			"| [Viridium](equipment/material/viridium) | This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. |",
-			"| [Voidglass](equipment/material/voidglass) | Voidglass resonates with a creature's mind, bolstering thought and mental defenses. |",
-			"| [Whipwood](equipment/material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
-			"| [Wyroot](equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |",
-			"",
-			"### Primitive Materials",
-			"",
-			"The standard Pathfinder Roleplaying Game campaign takes place in a time period similar to the medieval and early Renaissance age of iron and steel. But even in fantasy campaigns set in this era, some cultures lack steel, and some lack metalworking entirely. Sometimes this deficit is due to geographical remoteness, lack of resources, repression by a strong overlord, or societal taboos. Other campaigns might be set before the medieval era, or in a dark future where apocalypse survivors eke out livings with the best tools they can scavenge. Some might even choose a lower level of technology as a point of pride, for religious reasons, as an assertion of superior martial prowess, or even to honor ancestral warriors by using their bones to make weapons, allowing them to symbolically keep fighting for their tribe or family from beyond the grave.",
-			"",
-			"Primitive campaigns can be broken into two broad categories based on the level of technology. The first is the Stone Age, where worked metals are all but unknown. The second is the Bronze Age, where metal weapons appear but iron and steel have not been mastered or are rare.",
-			"",
-			"The following section presents general rules for armor and weapons made of bone, bronze, gold, obsidian, and stone. Most of these materials aren't as strong as steel and refer to the [fragile quality](rule/conditions) for weapons and armor.",
-			"",
-			"Items made from these materials can be magically strengthened at an additional cost of 100 gp per pound. See the individual material descriptions for the effect this has on the material's properties.",
-			"",
-			"| Name | Description |",
-			"| :---: | --- |",
-			"| [Bone](equipment/material/bone) | Bone can be used in place of wood and steel in weapons and armor. |",
-			"| [Bronze](equipment/material/bronze) | Before the advent of iron and steel, bronze ruled the world. |",
-			"| [Glass](equipment/material/glass) | Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. |",
-			"| [Gold](equipment/material/gold) | Typically only used for ceremonial weapons and armor and for display, metal equipment made from gold is fragile, heavy, and expensive. |",
-			"| [Obsidian](equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
-			"| [Stone](equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
+			[
+				"**Description Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
+				"Weapons and armor can be crafted using materials that have innate special properties. If you make a suit of armor or a weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
+				"",
+				"Each of the special materials described below has a definite game effect. Some creatures have damage reduction that makes them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.",
+				"",
+				"[Go here for rules on special materials and how to use them.](rule/special_raw_materials)",
+				"",
+				"| Name | Description |",
+				"| :---: | --- |",
+				"| [Abysium](equipment/material/abysium) | Known also as feverstone , this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. |",
+				"| [Adamantine](equipment/material/adamantine) | Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. |",
+				"| [Alchemical Silver](equipment/material/alchemical_silver) | A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes. |",
+				"| [Angelskin](equipment/material/angelskin) | The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. |",
+				"| [Aszite](equipment/material/aszite) | The navy-blue ore known as aszite is often used to reinforce buildings. |",
+				"| [Blackwood](equipment/material/blackwood) | Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. |",
+				"| [Blightburn](equipment/material/blightburn) | Blightburn is a highly radioactive crystalline mineral that grows in isolated pockets throughout the Darklands, from Nar-Voth all the way down to Orv. |",
+				"| [Blood Crystal](equipment/material/blood_crystal) | Mysterious radiation deep below the surface of the earth warps once-ordinary quartz into bloodcraving stone. |",
+				"| [Bulette Armor](equipment/material/bulette_armor) | Dwarves have long treasured bulettes for their thick hides and armor plating. |",
+				"| [Caphorite](equipment/material/caphorite) | Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. |",
+				"| [Cold Iron](equipment/material/cold_iron) | This iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. |",
+				"| [Cryptstone](equipment/material/cryptstone) | Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the Boneyard. |",
+				"| [Darkleaf Cloth](equipment/material/darkleaf_cloth) | Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin strips of bark from darkwood trees, then treating the resulting fabric with special alchemical processes. |",
+				"| [Darkwood](equipment/material/darkwood) | This rare magic wood is as hard as normal wood but very light. |",
+				"| [Djezet](equipment/material/djezet) | One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. |",
+				"| [Dragonhide](equipment/material/dragonhide) | Armorsmiths can work with the hides of dragons to produce armor or shields of masterwork quality. |",
+				"| [Druchite](equipment/material/druchite) | The black-and-violet ore known as druchite is synonymous with Shadow Absalom's towering spires. |",
+				"| [Eel Hide](equipment/material/eel_hide) | This supple material offers as much protection as leather, but is more flexible and resistant to electricity. |",
+				"| [Elysian Bronze](equipment/material/elysian_bronze) | First crafted in the deeps of time by the titans and bestowed as gifts to monster-slaying heroes among the lesser races, Elysian bronze retains the brazen coloration of its namesake but is as hard as steel. |",
+				"| [Fire-Forged Steel](equipment/material/fire-forged_steel) | Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly tools. It didn't take them long to adapt its unique properties to arms and armor. |",
+				"| [Frost-Forged Steel](equipment/material/frost-forged_steel) | This material is the same substance as fire-forged steel with a subtle difference in the alignment of the metal during crafting. |",
+				"| [Glaucite](equipment/material/glaucite) | When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. |",
+				"| [Greenwood](equipment/material/greenwood) | Greenwood remains alive as long as it is doused with at least one gallon of water (plus 1 gallon for every 10 pounds of the item's weight) once per week and allowed to rest for an hour in contact with fertile soil. |",
+				"| [Griffon Mane](equipment/material/griffon_mane) | This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. |",
+				"| [Heatstone Plating](equipment/material/heatstone_plating) | Heatstone plating involves placing heatstones at strategic points within clothing or armor. |",
+				"| [Horacalcum](equipment/material/horacalcum) | The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. |",
+				"| [Inubrix](equipment/material/inubrix) | This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" |",
+				"| [Irespan Basalt](equipment/material/irespan_basalt) | The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. |",
+				"| [Lazurite](equipment/material/lazurite) | Lazurite is a decayed form of a radioactive material no longer found in its natural form within the Darklands, said to be the remnants of a long-dead god. |",
+				"| [Liquid Glass](equipment/material/liquid_glass) | This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still liquid. |",
+				"| [Living Steel](equipment/material/living_steel) | This glossy green metal slowly repairs itself. |",
+				"| [Mithral](equipment/material/mithral) | Mithral is a rare, silvery metal that is lighter than steel but just as hard. |",
+				"| [Nexavaran Steel](equipment/material/nexavaran_steel) | Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish steel strikes true against monsters vulnerable to cold iron (such as demons). |",
+				"| [Noqual](equipment/material/noqual) | Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron despite its appearance. ",
+				"| [Paueliel](equipment/material/paueliel) | Towering above most other trees, the lofty paueliel are widely held as the \"first trees.\" |",
+				"| [Pyre Steel](equipment/material/pyre_steel) | Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. |",
+				"| [Siccatite](equipment/material/siccatite) | This shining silver metal is either incredibly hot or freezing cold when found. |",
+				"| [Silversheen](equipment/material/silversheen) | Blades made of this special metal count as alchemical silver weapons and are immune to rust, including that of rust monsters, the rusting grasp spell, and so on. |",
+				"| [Singing Steel](equipment/material/singing_steel) | This lustrous golden metal emits beautiful bell-like tones when struck. |",
+				"| [Spiresteel](equipment/material/spiresteel) | Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form of pure quintessence, but those brave enough to acquire some the substance report that ore mined from the Spire can be smelted and worked into weapons and armor. This substance, called spiresteel, exhibits an innate attraction for soul energy. |",
+				"| [Sunsilk](equipment/material/sunsilk) | Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite church, takes on a golden glitter after it has been left to cure in the sun. |",
+				"| [Sunsilver](equipment/material/sunsilver) | An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. |",
+				"| [Throneglass](equipment/material/throneglass) | The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture, including a famous skylight made of a single sheet of magically treated glass as durable as steel. |",
+				"| [Viridium](equipment/material/viridium) | This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. |",
+				"| [Voidglass](equipment/material/voidglass) | Voidglass resonates with a creature's mind, bolstering thought and mental defenses. |",
+				"| [Whipwood](equipment/material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
+				"| [Wyroot](equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |",
+				"",
+				"### Primitive Materials",
+				"",
+				"The standard Pathfinder Roleplaying Game campaign takes place in a time period similar to the medieval and early Renaissance age of iron and steel. But even in fantasy campaigns set in this era, some cultures lack steel, and some lack metalworking entirely. Sometimes this deficit is due to geographical remoteness, lack of resources, repression by a strong overlord, or societal taboos. Other campaigns might be set before the medieval era, or in a dark future where apocalypse survivors eke out livings with the best tools they can scavenge. Some might even choose a lower level of technology as a point of pride, for religious reasons, as an assertion of superior martial prowess, or even to honor ancestral warriors by using their bones to make weapons, allowing them to symbolically keep fighting for their tribe or family from beyond the grave.",
+				"",
+				"Primitive campaigns can be broken into two broad categories based on the level of technology. The first is the Stone Age, where worked metals are all but unknown. The second is the Bronze Age, where metal weapons appear but iron and steel have not been mastered or are rare.",
+				"",
+				"The following section presents general rules for armor and weapons made of bone, bronze, gold, obsidian, and stone. Most of these materials aren't as strong as steel and refer to the [fragile quality](rule/conditions) for weapons and armor.",
+				"",
+				"Items made from these materials can be magically strengthened at an additional cost of 100 gp per pound. See the individual material descriptions for the effect this has on the material's properties.",
+				"",
+				"| Name | Description |",
+				"| :---: | --- |",
+				"| [Bone](equipment/material/bone) | Bone can be used in place of wood and steel in weapons and armor. |",
+				"| [Bronze](equipment/material/bronze) | Before the advent of iron and steel, bronze ruled the world. |",
+				"| [Glass](equipment/material/glass) | Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. |",
+				"| [Gold](equipment/material/gold) | Typically only used for ceremonial weapons and armor and for display, metal equipment made from gold is fragile, heavy, and expensive. |",
+				"| [Obsidian](equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
+				"| [Stone](equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
+			]
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
@@ -187,7 +191,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_poisons": {
 		"title": "Poisons",
@@ -196,16 +200,18 @@
 			"Inner Sea Intrigue"
 		],
 		"description": [
-			"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
-			"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
-			"",
-			"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)",
-			"",
-			"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
-			"",
-			"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect.",
-			"",
-			"{table0}"
+			[
+				"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
+				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
+				"",
+				"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)",
+				"",
+				"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
+				"",
+				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -361,7 +367,7 @@
 				"className": "poisons"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_reagents": {
 		"title": "Alchemical Reagents",
@@ -369,7 +375,7 @@
 			"Adventurer's Armory",
 			"Alchemy Manual"
 		],
-		"description": [
+		"description": [[
 			"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)  ",
 			"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
 			"",
@@ -377,7 +383,7 @@
 			"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
 			"",
 			"{table0}"
-		],
+		]],
 		"tables": [
 			{
 				"id": "alchemical reagents",
@@ -426,7 +432,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_spellbooks": {
 		"title": "Spellbooks",
@@ -435,36 +441,37 @@
 			"Ultimate Magic"
 		],
 		"description": [
-			"**Description Source:** [Ultimate Magic](source/ultimate_magic)  ",
-			"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
-			"",
-			"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
-			"",
-			"Descriptions, protections, preparation rituals, and spell content can be mixed and matched as desired from different books. Higher-level books can easily serve for lower-level casters-just drop the spell levels that aren't applicable and remove lower-level spells as desired. Similarly, if you desire longer books, combine two together or add spells or formulae of your choice to the desired levels. These books also work as spellbooks and formula books for new characters. Just copy the list, hand it to the player, and go.",
-			"",
-			"A standard spellbook includes all cantrips except those in the wizard's oppositional schools. Books containing cantrips from additional sources are noted in the content description.",
-			"",
-			"Each book features a value, which represents what a character must pay for the book on the open market, though finding a seller may be difficult. The character may sell the book for half that value. Any book with a preparation ritual has two sets of costs, one for the book without the preparation ritual and one for the book with the ritual.",
-			"",
-			"## Using Preparation Rituals",
-			"",
-			"When a spellcaster who prepares spells uses a spellbook or formula book with a preparation ritual, as long as he prepares at least three spells (not including cantrips) or formulae from the spellbooks, he gains a temporary boon granted by the ritual. The boon lasts until its effect is spent (as specified by the boon description) or the spellcaster prepares spells again (at which time it can be reapplied by preparing at least three spells from the book). A spellcaster can only take the effect of one preparation ritual when she prepares spells, no matter how many spellbooks with preparation rituals she uses to prepare spells.",
-			"",
-			"\"S\" indicates a spell from the caster's specialty school, whereas \"OP\" indicates a spell from the spellbook creator's opposition school.",
-			"",
-			"### Transcribing Spellbook Preparation Rituals",
-			"",
-			"**Description Source:** [Arcane Anthology](source/arcane_anthology)  ",
-			"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the Scribe Scroll feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of Scribe Scroll, you must have Brew Potion. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit.",
-			"",
-			"## Prayer Book and Meditation Book Rituals",
-			"",
-			"Characters who prepare divine spells can create prayer books containing divine magical writing similar to the arcane magical writing in spellbooks. These books are usually used to instruct new acolytes in a faith's magical traditions or to make use of preparation rituals that align with the faith's goals. Prayer books with preparation rituals follow the same rules as arcane spellbooks with preparation rituals. Any preparation rituals found in spellbooks can also be found in prayer books, which have the same number of spells of each level recorded but generally draw them from the cleric, druid, or shaman spell list. Any character able to prepare the appropriate spells as divine spells can benefit from the preparation ritual recorded in a prayer book.",
-			"",
-			"A meditation book is a secular version of a prayer book, recording theories and philosophies of magic, and can be used to focus energies when preparing arcane spells from a source other than a spellbook (such as for witches) or meditating to regain spell slots (for spontaneous spellcasters). A spellcaster can benefit from a meditation book's preparation rituals by preparing spells or meditating to regain spell slots while studying the spellbook and expending one spell slot of a level at least equal to that of the highest-level spell within the meditation book.",
-			"",
-			"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books).",
-			"",
+			[
+				"**Description Source:** [Ultimate Magic](source/ultimate_magic)  ",
+				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
+				"",
+				"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
+				"",
+				"Descriptions, protections, preparation rituals, and spell content can be mixed and matched as desired from different books. Higher-level books can easily serve for lower-level casters-just drop the spell levels that aren't applicable and remove lower-level spells as desired. Similarly, if you desire longer books, combine two together or add spells or formulae of your choice to the desired levels. These books also work as spellbooks and formula books for new characters. Just copy the list, hand it to the player, and go.",
+				"",
+				"A standard spellbook includes all cantrips except those in the wizard's oppositional schools. Books containing cantrips from additional sources are noted in the content description.",
+				"",
+				"Each book features a value, which represents what a character must pay for the book on the open market, though finding a seller may be difficult. The character may sell the book for half that value. Any book with a preparation ritual has two sets of costs, one for the book without the preparation ritual and one for the book with the ritual."
+			],
+			"# Using Preparation Rituals",
+			[
+				"When a spellcaster who prepares spells uses a spellbook or formula book with a preparation ritual, as long as he prepares at least three spells (not including cantrips) or formulae from the spellbooks, he gains a temporary boon granted by the ritual. The boon lasts until its effect is spent (as specified by the boon description) or the spellcaster prepares spells again (at which time it can be reapplied by preparing at least three spells from the book). A spellcaster can only take the effect of one preparation ritual when she prepares spells, no matter how many spellbooks with preparation rituals she uses to prepare spells.",
+				"",
+				"\"S\" indicates a spell from the caster's specialty school, whereas \"OP\" indicates a spell from the spellbook creator's opposition school."
+			],
+			"# Transcribing Spellbook Preparation Rituals",
+			[
+				"**Description Source:** [Arcane Anthology](source/arcane_anthology)  ",
+				"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the Scribe Scroll feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of Scribe Scroll, you must have Brew Potion. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit."
+			],
+			"# Prayer Book and Meditation Book Rituals",
+			[
+				"Characters who prepare divine spells can create prayer books containing divine magical writing similar to the arcane magical writing in spellbooks. These books are usually used to instruct new acolytes in a faith's magical traditions or to make use of preparation rituals that align with the faith's goals. Prayer books with preparation rituals follow the same rules as arcane spellbooks with preparation rituals. Any preparation rituals found in spellbooks can also be found in prayer books, which have the same number of spells of each level recorded but generally draw them from the cleric, druid, or shaman spell list. Any character able to prepare the appropriate spells as divine spells can benefit from the preparation ritual recorded in a prayer book.",
+				"",
+				"A meditation book is a secular version of a prayer book, recording theories and philosophies of magic, and can be used to focus energies when preparing arcane spells from a source other than a spellbook (such as for witches) or meditating to regain spell slots (for spontaneous spellcasters). A spellcaster can benefit from a meditation book's preparation rituals by preparing spells or meditating to regain spell slots while studying the spellbook and expending one spell slot of a level at least equal to that of the highest-level spell within the meditation book.",
+				"",
+				"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books)."
+			],
 			"{table0}"
 		],
 		"tables": [
@@ -520,41 +527,43 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_armor": {
 		"title": "Technology - Armor",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"Each suit of technological armor has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-			"",
-			"**Price:** This is the cost in gold pieces to purchase the suit of armor if it's available for sale. As with magic armor, a technological suit of armor can be sold by PCs for half this value.",
-			"",
-			"**Weight:** The weight of the armor in pounds. Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
-			"",
-			"**Type:** This indicates if the suit is light, medium, or heavy armor.",
-			"",
-			"**AC:** The protective value of the armor. This armor bonus is added to the wearer's Armor Class.",
-			"",
-			"**Max Dex:** This number is the maximum Dexterity bonus that this type of armor allows.",
-			"",
-			"**Penalty:** This lists the armor check penalty of the suit of armor.",
-			"",
-			"**Spell Failure:** This indicates the armor's arcane spell failure chance.",
-			"",
-			"**Speed:** This lists a character's adjusted speed while wearing the armor. Adjusted speeds for characters with base speeds of 20 ft. and 30 ft. are included.",
-			"",
-			"**Capacity:** The armor's charge capacity is listed here. If the armor doesn't use energy, this entry is omitted.",
-			"",
-			"**Usage:** This value lists the number of charges the armor consumes over time while activated. (Activating powered armor is a standard action, and deactivating is a free action.) The charge is immediately spent at the beginning of the duration, and any time remaining when the armor is deactivated is lost. **Description:** This describes the armor's appearance, powers, and abilities.",
-			"",
-			"**Construction:** Certain requirements must be met for a character to craft a suit of technological armor. These requirements generally consist of having a feat and access to a manufacturing facility.",
-			"",
-			"**Craft:** This is the Craft DC required to create the armor. It is also the Knowledge (engineering) DC to correctly identify the armor.",
-			"",
-			"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor.",
-			"",
-			"{table0}"
+			[
+				"Each suit of technological armor has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+				"",
+				"**Price:** This is the cost in gold pieces to purchase the suit of armor if it's available for sale. As with magic armor, a technological suit of armor can be sold by PCs for half this value.",
+				"",
+				"**Weight:** The weight of the armor in pounds. Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
+				"",
+				"**Type:** This indicates if the suit is light, medium, or heavy armor.",
+				"",
+				"**AC:** The protective value of the armor. This armor bonus is added to the wearer's Armor Class.",
+				"",
+				"**Max Dex:** This number is the maximum Dexterity bonus that this type of armor allows.",
+				"",
+				"**Penalty:** This lists the armor check penalty of the suit of armor.",
+				"",
+				"**Spell Failure:** This indicates the armor's arcane spell failure chance.",
+				"",
+				"**Speed:** This lists a character's adjusted speed while wearing the armor. Adjusted speeds for characters with base speeds of 20 ft. and 30 ft. are included.",
+				"",
+				"**Capacity:** The armor's charge capacity is listed here. If the armor doesn't use energy, this entry is omitted.",
+				"",
+				"**Usage:** This value lists the number of charges the armor consumes over time while activated. (Activating powered armor is a standard action, and deactivating is a free action.) The charge is immediately spent at the beginning of the duration, and any time remaining when the armor is deactivated is lost. **Description:** This describes the armor's appearance, powers, and abilities.",
+				"",
+				"**Construction:** Certain requirements must be met for a character to craft a suit of technological armor. These requirements generally consist of having a feat and access to a manufacturing facility.",
+				"",
+				"**Craft:** This is the Craft DC required to create the armor. It is also the Knowledge (engineering) DC to correctly identify the armor.",
+				"",
+				"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -589,49 +598,51 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_weapons": {
 		"title": "Technology - Weapons",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-			"",
-			"**Price:** This is the cost (in gold pieces) to purchase the weapon if it's available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.",
-			"",
-			"**Type:** This indicates whether the weapon is a light, one-handed, or two-handed melee or ranged weapon.",
-			"",
-			"**Proficiency:** This entry lists whether the weapon is simple, martial, or exotic. If an existing weapon proficiency allows the new weapon's use, that weapon proficiency is listed in parentheses. Note that Exotic Weapon Proficiency (heavy weaponry) works similarly to Exotic Weapon Proficiency (firearms) in that it allows access to a wide range of similar weapons.",
-			"",
-			"Some GMs may wish to replace Weapon Proficiency (firearms) with Weapon Proficiency (technological firearms) to further restrict access to these devices to player characters in their campaigns. **Damage:** This is the weapon's base damage. The type of damage dealt by the weapon is listed after the damage value. Most weapons list the damage dealt by Medium and Small versions of the weapon; weapons with only one damage entry deal the same amount of damage regardless of size.",
-			"",
-			"**Critical:** This entry lists the weapon's critical threat range and critical damage multiplier.",
-			"",
-			"**Range:** This lists the weapon's range increment; no listing is given for melee weapons that cannot be thrown. Unless otherwise noted, all firearms in this chapter are treated as projectile weapons for the purpose of determining their maximum range.",
-			"",
-			"**Capacity:** Unless otherwise specified, this value is the maximum number of charges the weapon can hold.",
-			"",
-			"**Usage:** This value lists the number of charges the weapon consumes from its capacity each time it is activated.",
-			"",
-			"**Special:** This entry lists any special weapon qualities the weapon might have. New weapon qualities are listed below. **Weight:** This is the weight of the weapon in pounds. The weights given are for Medium weapons. A Small weapon weighs half as much; a Large weapon weighs twice as much.",
-			"",
-			"*Automatic:* This weapon can act as a semi-automatic weapon (see below), or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as Vital Strike. Effects that grant concealment, such as fog or smoke, or the blur, invisibility, or mirror image spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks.",
-			"",
-			"*Semi-Automatic:* A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the Rapid Shot feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6.",
-			"",
-			"*Slow-Firing:* A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks.",
-			"",
-			"**Touch:** Attacks with the weapon resolve as touch attacks.",
-			"",
-			"**Description:** This section describes the weapon's abilities and appearance.",
-			"",
-			"**Construction:** Certain requirements must be met for a character to craft a technological weapon. These requirements generally consist of having a feat and access to a [particular kind of manufacturing facility](rule/crafting_high_tech_items).",
-			"",
-			"**Craft:** This is the Craft DC required to create the weapon. It is also the Knowledge (engineering) DC to correctly identify the weapon.",
-			"",
-			"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon",
-			"",
-			"{table0}"
+			[
+				"Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+				"",
+				"**Price:** This is the cost (in gold pieces) to purchase the weapon if it's available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.",
+				"",
+				"**Type:** This indicates whether the weapon is a light, one-handed, or two-handed melee or ranged weapon.",
+				"",
+				"**Proficiency:** This entry lists whether the weapon is simple, martial, or exotic. If an existing weapon proficiency allows the new weapon's use, that weapon proficiency is listed in parentheses. Note that Exotic Weapon Proficiency (heavy weaponry) works similarly to Exotic Weapon Proficiency (firearms) in that it allows access to a wide range of similar weapons.",
+				"",
+				"Some GMs may wish to replace Weapon Proficiency (firearms) with Weapon Proficiency (technological firearms) to further restrict access to these devices to player characters in their campaigns. **Damage:** This is the weapon's base damage. The type of damage dealt by the weapon is listed after the damage value. Most weapons list the damage dealt by Medium and Small versions of the weapon; weapons with only one damage entry deal the same amount of damage regardless of size.",
+				"",
+				"**Critical:** This entry lists the weapon's critical threat range and critical damage multiplier.",
+				"",
+				"**Range:** This lists the weapon's range increment; no listing is given for melee weapons that cannot be thrown. Unless otherwise noted, all firearms in this chapter are treated as projectile weapons for the purpose of determining their maximum range.",
+				"",
+				"**Capacity:** Unless otherwise specified, this value is the maximum number of charges the weapon can hold.",
+				"",
+				"**Usage:** This value lists the number of charges the weapon consumes from its capacity each time it is activated.",
+				"",
+				"**Special:** This entry lists any special weapon qualities the weapon might have. New weapon qualities are listed below. **Weight:** This is the weight of the weapon in pounds. The weights given are for Medium weapons. A Small weapon weighs half as much; a Large weapon weighs twice as much.",
+				"",
+				"*Automatic:* This weapon can act as a semi-automatic weapon (see below), or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as Vital Strike. Effects that grant concealment, such as fog or smoke, or the blur, invisibility, or mirror image spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks.",
+				"",
+				"*Semi-Automatic:* A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the Rapid Shot feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6.",
+				"",
+				"*Slow-Firing:* A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks.",
+				"",
+				"**Touch:** Attacks with the weapon resolve as touch attacks.",
+				"",
+				"**Description:** This section describes the weapon's abilities and appearance.",
+				"",
+				"**Construction:** Certain requirements must be met for a character to craft a technological weapon. These requirements generally consist of having a feat and access to a [particular kind of manufacturing facility](rule/crafting_high_tech_items).",
+				"",
+				"**Craft:** This is the Craft DC required to create the weapon. It is also the Knowledge (engineering) DC to correctly identify the weapon.",
+				"",
+				"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -687,45 +698,47 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_cybertech": {
 		"title": "Technology - Cybertech",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
-			"",
-			"Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score-a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.",
-			"",
-			"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
-			"",
-			"Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand-certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech's Install DC-this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.",
-			"",
-			"Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.",
-			"",
-			"An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.",
-			"",
-			"Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.",
-			"",
-			"**Price:** This is the cost in gold pieces to buy the implant if it's available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.",
-			"",
-			"**Slot:** This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.",
-			"",
-			"**Weight:** This is the weight of the cybertech in pounds. Once installed, the cybertech's weight does not count against a creature's encumbrance or maximum load.",
-			"",
-			"**Install:** This is the Heal check DC required to successfully implant or remove the cybertech from a creature.",
-			"",
-			"**Implantation:** A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.",
-			"",
-			"**Description:** This section describes the cybertech's appearance and abilities.",
-			"",
-			"**Construction:** Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to [a manufacturing facility](rule/crafting_high_tech_items).",
-			"",
-			"**Craft:** This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.",
-			"",
-			"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item",
-			"",
-			"{table0}"
+			[
+				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
+				"",
+				"Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score-a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.",
+				"",
+				"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
+				"",
+				"Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand-certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech's Install DC-this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.",
+				"",
+				"Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.",
+				"",
+				"An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.",
+				"",
+				"Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.",
+				"",
+				"**Price:** This is the cost in gold pieces to buy the implant if it's available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.",
+				"",
+				"**Slot:** This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.",
+				"",
+				"**Weight:** This is the weight of the cybertech in pounds. Once installed, the cybertech's weight does not count against a creature's encumbrance or maximum load.",
+				"",
+				"**Install:** This is the Heal check DC required to successfully implant or remove the cybertech from a creature.",
+				"",
+				"**Implantation:** A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.",
+				"",
+				"**Description:** This section describes the cybertech's appearance and abilities.",
+				"",
+				"**Construction:** Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to [a manufacturing facility](rule/crafting_high_tech_items).",
+				"",
+				"**Craft:** This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.",
+				"",
+				"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -764,25 +777,27 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"A pharmaceutical takes a standard action to consume, or a move action if administered by a [medlance](tech/misc/medlance). A single dose of any pharmaceutical weighs only a tenth of a pound-no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.",
-			"",
-			"Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.",
-			"",
-			"**Price:** This is the cost in gold pieces to purchase the pharmaceutical if it's available for sale. As with magic potions, a pharmaceutical can be sold by PCs for half this value.",
-			"",
-			"**Construction Requirements:** Certain requirements must be met for a character to craft a pharmaceutical. These requirements generally include a feat and access to a medical laboratory. Crafting components are consumed during construction and are not counted as part of the item's cost; if the crafting attempt fails, new crafting components must be provided for the next attempt.",
-			"",
-			"**Craft:** This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.",
-			"",
-			"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
-			"",
-			"{table0}"
+			[
+				"A pharmaceutical takes a standard action to consume, or a move action if administered by a [medlance](tech/misc/medlance). A single dose of any pharmaceutical weighs only a tenth of a pound-no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.",
+				"",
+				"Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.",
+				"",
+				"**Price:** This is the cost in gold pieces to purchase the pharmaceutical if it's available for sale. As with magic potions, a pharmaceutical can be sold by PCs for half this value.",
+				"",
+				"**Construction Requirements:** Certain requirements must be met for a character to craft a pharmaceutical. These requirements generally include a feat and access to a medical laboratory. Crafting components are consumed during construction and are not counted as part of the item's cost; if the crafting attempt fails, new crafting components must be provided for the next attempt.",
+				"",
+				"**Craft:** This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.",
+				"",
+				"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -811,30 +826,30 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_artifacts": {
 		"title": "Technology - Artifacts",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile.",
-			"",
-			"## Power Generators",
-			"",
-			"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
-			"",
-			"Generators are large, cumbersome devices that are difficult, if not impossible, to move. They must be built on site or into vehicles large enough to transport their heavy bulks. Most of the generators have long since fallen into disrepair, and those few that still function are jealously defended. Some wonder if portable generators exist, but no one has found evidence of any.",
-			"",
-			"The total amount of energy a generator can provide is known as it's yield-the number of charges it generates per hour. A portion of this yield may be dedicated to devices directly wired into it, such as keeping infrastructure running in a complex-this is referred to as dedicated yield. Dedicated yield isn't available for other purposes while it's providing power to those devices. A generator's available yield is what's left over, and can be used to power or recharge devices that can be removed.",
-			"",
-			"Two items can be used to draw power from a generator-a power cable and a power receiver. A generator's integrated power transmitter can broadcast power to a receiver within 1,000 feet unless otherwise noted. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the receiver.",
-			"",
-			"An item that uses a set number of charges per hour reduces a generator's available yield by that amount, making the yield dedicated while the item is attached, as if the item is hard-wired into the generator. An item that uses 1 or more charges each time it's activated (such as most weapons) reduces the generator's yield by that amount each time it is activated. For example, a laser pistol would consume 1 charge from the yield each time it's fired. A nuclear resonator, on the other hand, consumes 5 charges each time it's fired-thus, when attached to a generator, it consumes 5 charges from the generator's yield each time it's used.",
-			"",
-			"A generator can be forced to exceed its yield, but this can result in disaster. Whenever charges are drawn from a generator in excess of its yield, the generator must attempt a Fortitude saving throw (DC = 10 + 1 per charge over that hour's yield + 5 per incidence of exceeded yield in the past hour). Success indicates that the generator outputs the additional charges (with a 5% chance that the item glitches as though it were timeworn). Failure indicates that the generator doesn't deliver the additional charges and the item doesn't activate. If it fails by 5 or more, the generator shuts down, cutting off all power to all items using it, and cannot be restarted for 1 hour. (Restarting a generator that's shut down in this way requires a successful DC 25 Disable Device check, but other actions may be necessary as well at the GM's discretion.) If a generator fails this Fortitude save by 10 or more, it explodes-the details of this explosion vary by generator type. (Other circumstances may cause a generator to explode, with the DC at the GM's discretion.)",
-			"",
-			"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount.",
-			"",
+			"# Power Generators",
+			[
+				"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
+				"",
+				"Generators are large, cumbersome devices that are difficult, if not impossible, to move. They must be built on site or into vehicles large enough to transport their heavy bulks. Most of the generators have long since fallen into disrepair, and those few that still function are jealously defended. Some wonder if portable generators exist, but no one has found evidence of any.",
+				"",
+				"The total amount of energy a generator can provide is known as it's yield-the number of charges it generates per hour. A portion of this yield may be dedicated to devices directly wired into it, such as keeping infrastructure running in a complex-this is referred to as dedicated yield. Dedicated yield isn't available for other purposes while it's providing power to those devices. A generator's available yield is what's left over, and can be used to power or recharge devices that can be removed.",
+				"",
+				"Two items can be used to draw power from a generator-a power cable and a power receiver. A generator's integrated power transmitter can broadcast power to a receiver within 1,000 feet unless otherwise noted. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the receiver.",
+				"",
+				"An item that uses a set number of charges per hour reduces a generator's available yield by that amount, making the yield dedicated while the item is attached, as if the item is hard-wired into the generator. An item that uses 1 or more charges each time it's activated (such as most weapons) reduces the generator's yield by that amount each time it is activated. For example, a laser pistol would consume 1 charge from the yield each time it's fired. A nuclear resonator, on the other hand, consumes 5 charges each time it's fired-thus, when attached to a generator, it consumes 5 charges from the generator's yield each time it's used.",
+				"",
+				"A generator can be forced to exceed its yield, but this can result in disaster. Whenever charges are drawn from a generator in excess of its yield, the generator must attempt a Fortitude saving throw (DC = 10 + 1 per charge over that hour's yield + 5 per incidence of exceeded yield in the past hour). Success indicates that the generator outputs the additional charges (with a 5% chance that the item glitches as though it were timeworn). Failure indicates that the generator doesn't deliver the additional charges and the item doesn't activate. If it fails by 5 or more, the generator shuts down, cutting off all power to all items using it, and cannot be restarted for 1 hour. (Restarting a generator that's shut down in this way requires a successful DC 25 Disable Device check, but other actions may be necessary as well at the GM's discretion.) If a generator fails this Fortitude save by 10 or more, it explodes-the details of this explosion vary by generator type. (Other circumstances may cause a generator to explode, with the DC at the GM's discretion.)",
+				"",
+				"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount."
+			],
+			"# Technological Artifacts",
 			"{table0}"
 		],
 		"tables": [
@@ -868,29 +883,31 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"tech_misc": {
 		"title": "Technology - Miscellaneous",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-			"",
-			"**Price:** This value is the cost in gold pieces for the PCs to purchase the item-if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount. Slot: This is the part of the body the item must be worn on, if any. If the item's slot matches one of the existing magic item slots, wearing the item prevents the user from wearing or gaining the benefit from a magic item in the same slot.",
-			"",
-			"**Weight:** This entry lists the weight of the item in pounds. Capacity: This is the maximum number of charges the item can hold.",
-			"",
-			"**Usage:** This value lists the number of charges the item consumes from its capacity each time it is activated.",
-			"",
-			"**Description:** This section describes the gear's appearance and abilities.",
-			"",
-			"**Construction:** This section describes the requirements that must be met for a character to craft the item. These requirements generally consist of having a feat and access to a manufacturing facility.",
-			"",
-			"**Craft:** This is the Craft DC required to create the item. It is also the Knowledge (engineering) DC to correctly identify the item.",
-			"",
-			"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item",
-			"",
-			"{table0}"
+			[
+				"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+				"",
+				"**Price:** This value is the cost in gold pieces for the PCs to purchase the item-if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount. Slot: This is the part of the body the item must be worn on, if any. If the item's slot matches one of the existing magic item slots, wearing the item prevents the user from wearing or gaining the benefit from a magic item in the same slot.",
+				"",
+				"**Weight:** This entry lists the weight of the item in pounds. Capacity: This is the maximum number of charges the item can hold.",
+				"",
+				"**Usage:** This value lists the number of charges the item consumes from its capacity each time it is activated.",
+				"",
+				"**Description:** This section describes the gear's appearance and abilities.",
+				"",
+				"**Construction:** This section describes the requirements that must be met for a character to craft the item. These requirements generally consist of having a feat and access to a manufacturing facility.",
+				"",
+				"**Craft:** This is the Craft DC required to create the item. It is also the Knowledge (engineering) DC to correctly identify the item.",
+				"",
+				"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -1045,40 +1062,33 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"magic": {
 		"title": "Magic Items",
 		"sources": [],
 		"description": [
-			"[View Magic Armor and Shields](magic_armor)",
-			"",
-			"[View Magic Weapons](magic_weapons)",
-			"",
-			"[View Weapon/Armor Enhancements](magic_enhancements)",
-			"",
-			"[View Magic Rings](magic_rings)",
-			"",
-			"[View Magic Rods](magic_rods)",
-			"",
-			"[View Magic Staves](magic_staves)",
-			"",
-			"[View Wondrous Items](magic_wondrous)",
-			"",
-			"[View Artifacts](magic_artifacts)",
-			"",
-			"[View Miscellaneous Magic Items](magic_misc)  ",
-			"Includes: Altars, Construct Modifications, Elemental Augmentations, Favors, Fetishes, Fleshcrafting, Fungal grafts, Implants, Infused poisons, Necrografts, Necrotoxins, Oils, Plants, Relics, Piercings, Talismans, Tattoos, Thrones, and Magical Sets."
+			"## main/magic_armor View Magic Armor and Shields",
+			"## main/magic_weapons View Magic Weapons",
+			"## main/magic_enhancements View Weapon/Armor Enhancements",
+			"## main/magic_rings View Magic Rings",
+			"## main/magic_rods View Magic Rods",
+			"## main/magic_staves View Magic Staves",
+			"## main/magic_wondrous View Wondrous Items",
+			"## main/magic_artifacts View Artifacts",
+			"## main/magic_misc View Miscellaneous Magic Items || Includes: Altars, Construct Modifications, Elemental Augmentations, Favors, Fetishes, Fleshcrafting, Fungal grafts, Implants, Infused poisons, Necrografts, Necrotoxins, Oils, Plants, Relics, Piercings, Talismans, Tattoos, Thrones, and Magical Sets."
 		],
-		"previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main/main"] ]
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
 		"sources": [],
 		"description": [
-			"Adding an enhancement to armor, shields, and weapons raises the [base price](rule/magic_item_gold_piece_values) of the item being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
-			"",
-			"{table0}"
+			[
+				"Adding an enhancement to armor, shields, and weapons raises the [base price](rule/magic_item_gold_piece_values) of the item being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -1424,7 +1434,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_staves": {
 		"title": "Magic Staves",
@@ -1547,7 +1557,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_wondrous": {
 		"title": "Wondrous Items",
@@ -4128,7 +4138,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
@@ -4474,6 +4484,6 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	}
 }

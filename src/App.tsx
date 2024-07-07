@@ -118,7 +118,7 @@ const App: React.FC = () => {
 					<Menu />
 					<IonRouterOutlet id="main">
 						<Route path="/" exact={true} render={mainPage} />
-						<Route path="/:mainpage" render={mainPage} />
+						<Route path="/main/:mainpage" render={mainPage} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />
 						<Route path="/archetype/:parent/:id" render={() => <ArchetypePage />} />

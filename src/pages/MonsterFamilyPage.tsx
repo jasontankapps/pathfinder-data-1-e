@@ -27,8 +27,8 @@ function getItem<T extends { not_found: FamilyProps }> (id: keyof T | undefined,
 };
 
 const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["Monsters and NPCs", "monsters"],
+	["Main", "main/main"],
+	["Monsters and NPCs", "main/monsters"],
 ];
 
 type Data = typeof families;

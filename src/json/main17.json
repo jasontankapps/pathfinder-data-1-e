@@ -558,7 +558,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"spells_investigator": {
 		"title": "All Investigator Spells",
@@ -977,7 +977,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"monsters_aberrations": {
 		"title": "Aberrations",
@@ -1157,7 +1157,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_animals": {
 		"title": "Animals",
@@ -1466,7 +1466,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_constructs": {
 		"title": "Constructs",
@@ -1657,7 +1657,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_dragons": {
 		"title": "Dragons",
@@ -1849,7 +1849,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_fey": {
 		"title": "Fey",
@@ -1988,7 +1988,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_humanoids": {
 		"title": "Humanoids",
@@ -2313,7 +2313,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_humanoids_giant": {
 		"title": "Giants",
@@ -2423,7 +2423,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_humanoids_goblinoid": {
 		"title": "Goblinoids",
@@ -2477,6 +2477,6 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	}
 }

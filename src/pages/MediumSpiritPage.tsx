@@ -8,13 +8,13 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy1: HierarchyArray = [
-	["Classes", "classes"],
+	["Classes", "main/classes"],
 	["Medium", "class/medium"],
 	["Spirits", "ability/spirits"]
 ];
 
 const hierarchy2: HierarchyArray = [
-	["Classes", "classes"],
+	["Classes", "main/classes"],
 	["Medium", "class/medium"],
 	["Outer Channeler", "class/archetype/outer_channeler"]
 ];

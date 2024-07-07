@@ -278,7 +278,7 @@
 			"**Craft DC** 20; **Cost** 250 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a [power generator](tech_artifacts). It takes a move action to attach a cable to a generator or a device-thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous."
+			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a [power generator](main/tech_artifacts). It takes a move action to attach a cable to a generator or a device-thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous."
 		]
 	},
 	"power_receiver": {

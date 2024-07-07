@@ -8,8 +8,8 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["Rules", "rules"],
+	["Main", "main/main"],
+	["Rules", "main/rules"],
 	["Combat", "rule/combat"],
 	["Special Abilities", "rule/special_abilities_2"],
 	["Afflictions", "rule/afflictions"]

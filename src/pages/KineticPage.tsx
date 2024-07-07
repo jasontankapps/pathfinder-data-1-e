@@ -45,7 +45,7 @@ const KineticPage: React.FC = () => {
 	const { name: title, description: markdown, sources, type = "simple" } = getItem<Data>(id, talents);
 
 	const hierarchy: HierarchyArray = [
-		["Classes", "classes"],
+		["Classes", "main/classes"],
 		["Kineticist", "class/kineticist"],
 		finalPage[type]
 	];

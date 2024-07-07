@@ -5260,7 +5260,7 @@
 			"**Type:** Regional  ",
 			"**Requirements:** Settlement near a famous dungeon",
 			"",
-			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2. Suggestion: With the help of your GM and using the [example dungeon guides](equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
+			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2. Suggestion: With the help of your GM and using the [example dungeon guides](main/equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
 		],
 		"subhierarchy": [[ "Regional Traits", "traits_regional" ]]
 	},
@@ -8531,7 +8531,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Ghlaunder",
 			"",
-			"You have dedicated your life to honoring famine and disease. Choose any two [poisons](equipment_poisons); when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
+			"You have dedicated your life to honoring famine and disease. Choose any two [poisons](main/equipment_poisons); when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
 		],
 		"subhierarchy": [[ "Religion Traits", "traits_religion" ]]
 	},

@@ -6,7 +6,7 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Universal Monster Rules", "umr"]
+	["Universal Monster Rules", "main/umr"]
 ];
 
 type Data = typeof umr;

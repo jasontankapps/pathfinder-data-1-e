@@ -1,3 +1,5 @@
+import { SourceProp } from "./components/SourcesModal";
+
 export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
@@ -42,4 +44,14 @@ export interface SourceProps {
 	title: string
 	url: string
 	unknown?: boolean
+}
+
+export interface JsonRulesProps<Name> {
+	name: string
+	description: string[]
+	parent_topics?: Name[]
+	subtopics?: Name[]
+	siblings?: Name[]
+	sources: SourceProp[]
+	tables?: Table[]
 }

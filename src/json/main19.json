@@ -254,7 +254,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
@@ -413,7 +413,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_outsiders_elemental": {
 		"title": "Elementals",
@@ -512,7 +512,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_outsiders_extraplanar": {
 		"title": "Extraplanar Outsiders",
@@ -1007,7 +1007,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_outsiders_native": {
 		"title": "Native Outsiders",
@@ -1110,7 +1110,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_plants": {
 		"title": "Plants",
@@ -1238,7 +1238,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_undead": {
 		"title": "Undead",
@@ -1469,7 +1469,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_vermin": {
 		"title": "Vermin",
@@ -1630,7 +1630,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
@@ -1893,7 +1893,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
@@ -1979,7 +1979,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_shapechanger": {
 		"title": "Shapechanger Monsters",
@@ -2106,7 +2106,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"monsters_swarm": {
 		"title": "Swarms",
@@ -2193,6 +2193,6 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	}
 }

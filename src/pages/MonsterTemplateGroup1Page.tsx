@@ -5,8 +5,8 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["Monsters and NPCs", "monsters"],
+	["Main", "main/main"],
+	["Monsters and NPCs", "main/monsters"],
 ];
 
 type Data = typeof templates;

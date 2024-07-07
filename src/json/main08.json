@@ -509,7 +509,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
@@ -748,7 +748,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
@@ -1009,7 +1009,7 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"spells_cleric": {
 		"title": "All Cleric Spells",
@@ -2158,7 +2158,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_oracle": {
 		"title": "All Oracle Spells",
@@ -3301,7 +3301,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_ranger": {
 		"title": "All Ranger Spells",
@@ -3707,6 +3707,6 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	}
 }

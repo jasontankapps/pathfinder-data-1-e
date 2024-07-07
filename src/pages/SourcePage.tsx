@@ -23,8 +23,8 @@ function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined,
 };
 
 const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["Open Game Content", "ogc"]
+	["Main", "main/main"],
+	["Open Game Content", "main/ogc"]
 ];
 
 type Data = typeof sources;

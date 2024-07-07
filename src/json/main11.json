@@ -1111,7 +1111,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
@@ -3009,7 +3009,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
@@ -3433,6 +3433,6 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	}
 }

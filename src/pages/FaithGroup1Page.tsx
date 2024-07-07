@@ -4,7 +4,7 @@ import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Faiths", "faiths"]];
+const hierarchy: HierarchyArray = [["Main", "main/main"], ["Faiths", "main/faiths"]];
 
 type Data = typeof faiths;
 

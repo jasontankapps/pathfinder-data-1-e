@@ -5003,7 +5003,7 @@
 			"",
 			"Drugs can be manufactured using Craft (alchemy). The DC to make a drug is equal to its addiction DC. Rolling a natural 1 on a Craft skill check while making a drug exposes the crafter to the drug.",
 			"",
-			"[The full list of drugs can be found here.](drugs)."
+			"[The full list of drugs can be found here.](main/drugs)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5494,7 +5494,7 @@
 			"",
 			"The distinction between a trap and an undead creature blurs when you introduce a haunt-a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case-but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt-it's the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts-it's even possible for a person who dies to rise as a ghost (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn't a single haunt, but usually a dozen or more haunted areas spread throughout the structure.",
 			"",
-			"[Find a list of haunts here.](haunts)"
+			"[Find a list of haunts here.](main/haunts)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6884,7 +6884,7 @@
 			"",
 			"Each monster description on the following pages is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description.",
 			"",
-			"[Monster listings can be found here.](monsters)"
+			"[Monster listings can be found here.](main/monsters)"
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
@@ -7698,7 +7698,7 @@
 			"",
 			"When adding skills, check to see if the creature's Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its Fly skill and Stealth skill bonuses (if any) as noted on Table 2-3.",
 			"",
-			"Next, give the creature additional feats. Creatures gain one feat at 1 Hit Die and one additional feat for every 2 Hit Dice above 1. Most additional feats should be focused on increasing the creature's combat abilities, but [metamagic](feats_metamagic) feats and skill feats are also possible choices depending on the creature's role.",
+			"Next, give the creature additional feats. Creatures gain one feat at 1 Hit Die and one additional feat for every 2 Hit Dice above 1. Most additional feats should be focused on increasing the creature's combat abilities, but [metamagic](main/feats_metamagic) feats and skill feats are also possible choices depending on the creature's role.",
 			"",
 			"### Table 2-3: Size Bonuses and Penalties",
 			"",

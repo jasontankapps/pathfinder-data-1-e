@@ -36,7 +36,14 @@ function isGood(value) {
 			|| typeof test !== "object"
 			|| typeof test.title !== "string"
 			|| !Array.isArray(test.description)
-			|| test.description.some(line => typeof line !== "string")
+			|| test.description.some(line => {
+				if(!line || typeof line === "string") {
+					return false;
+				} else if (!Array.isArray(line)) {
+					return true;
+				}
+				return line.some(inner => typeof inner !== "string");
+			})
 			|| (test.previous && (
 				!Array.isArray(test.previous)
 				|| test.previous.some((pair, i) => {

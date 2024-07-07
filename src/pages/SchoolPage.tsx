@@ -6,7 +6,7 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Classes", "classes"],
+	["Classes", "main/classes"],
 	["Wizard", "class/wizard"],
 	["Arcane Schools", "ability/arcane_schools"]
 ];

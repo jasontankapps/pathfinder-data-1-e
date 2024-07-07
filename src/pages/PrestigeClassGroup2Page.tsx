@@ -5,7 +5,7 @@ import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main"], ["Classes", "classes"]];
+const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/classes"]];
 
 type Data = typeof prestige_classes;
 

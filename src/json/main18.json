@@ -541,7 +541,7 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"spells_adept": {
 		"title": "All Adept Spells",
@@ -634,7 +634,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"monsters_all_stats": {
 		"title": "All Monsters: Stats",
@@ -3391,6 +3391,6 @@
 				"className": "simple"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	}
 }

@@ -893,91 +893,68 @@
 			"",
 			"You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before."
 		],
-		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
 	},
 	"monsters": {
 		"title": "Monsters and NPCs",
 		"sources": [],
 		"description": [
-			"[View All Monsters](monsters_all) (CR, type, size, alignment, description; 2,740 monsters)",
-			"",
-			">Monsters from [Aashaq's Wyvern to Cytillipede](monsters_1) (527 monsters)",
-			">",
-			">Monsters from [D'ziriak to Fox](monsters_2) (554 monsters)",
-			">",
-			">Monsters from [Freezing Flow to Leviathan](monsters_3) (544 monsters)",
-			">",
-			">Monsters from [Liavaran Dreamer to Scitalis](monsters_4) (555 monsters)",
-			">",
-			">Monsters from [Scorpion to Zygomind](monsters_5) (560 monsters)",
-			"",
-			"[View All Monsters by Stats](monsters_all_stats) (type, size, CR, stats, BAB, CMB, CMD; 2,740 monsters)",
-			"",
-			"[View Unique Monsters](monsters_unique) (CR, type, size, alignment, description; 156 monsters)",
-			"",
-			"[View Mythical Monsters](monsters_mythical) (CR, type, size, alignment, description; 81 monsters)",
-			"",
+			"## main/monsters_all View All Monsters || (CR, type, size, alignment, description; 2,740 monsters)",
+			"### main/monsters_1 Monsters from Aashaq's Wyvern to Cytillipede // (527 monsters)",
+			"### main/monsters_2 Monsters from D'ziriak to Fox // (554 monsters)",
+			"### main/monsters_3 Monsters from Freezing Flow to Leviathan // (544 monsters)",
+			"### main/monsters_4 Monsters from Liavaran Dreamer to Scitalis // (555 monsters)",
+			"### main/monsters_5 Monsters from Scorpion to Zygomind // (560 monsters)",
+			"## main/monsters_all_stats View All Monsters by Stats || (type, size, CR, stats, BAB, CMB, CMD; 2,740 monsters)",
+			"## main/monsters_unique View Unique Monsters || (CR, type, size, alignment, description; 156 monsters)",
+			"## main/monsters_mythical View Mythical Monsters || (CR, type, size, alignment, description; 81 monsters)",
 			"---",
-			"",
-			"[View Monster Families](monster_families)",
-			"",
-			"---",
-			"",
-			"## Monsters by Type",
-			"",
-			"- [Aberrations](monsters_aberrations) (163 monsters)",
-			"- [Animals](monsters_animals) (292 monsters)",
-			"- [Constructs](monsters_constructs) (174 monsters)",
-			"- [Dragons](monsters_dragons) (175 monsters)",
-			"- [Fey](monsters_fey) (121 monsters)",
-			"- [Humanoids](monsters_humanoids) (308 monsters)",
-			"    - [Giants](monsters_humanoids_giant) (93 monsters)",
-			"    - [Goblinoids](monsters_humanoids_goblin) (37 monsters)",
-			"- [Magical Beasts](monsters_magical_beasts) (240 monsters)",
-			"- [Monstrous Humanoids](monsters_monstrous_humanoids) (142 monsters)",
-			"- [Oozes](monsters_oozes) (72 monsters)",
-			"- [Outsiders](monsters_outsiders) (583 monsters)",
-			"    - [Elementals](monsters_outsiders_elemental) (82 monsters)",
-			"    - [Extraplanar](monsters_outsiders_extraplanar) (478 monsters)",
-			"    - [Native](monsters_outsiders_native) (86 monsters)",
-			"- [Plant](monsters_plants) (111 monsters)",
-			"- [Undead](monsters_undead) (214 monsters)",
-			"- [Vermin](monsters_vermin) (144 monsters)",
-			"",
-			"---",
-			"",
-			"## Monsters by Subtype",
-			"",
-			"- [Aligned Monsters](monsters_aligned) (good, evil, lawful, chaotic; 592 monsters)",
-			"- [Aquatic Monsters](monsters_aquatic) (245 monsters)",
-			"- [Incorporeal Monsters](monsters_incorporeal) (69 monsters)",
-			"- [Shapechanger Monsters](monsters_shapechanger) (110 monsters)",
-			"- [Swarms](monsters_swarm) (70 monsters)",
-			"",
-			"---",
-			"",
-			"## NPCs",
-			"",
-			"[View All NPCs](npcs) (487 NPCs)",
-			"",
-			"### NPCs by Class",
-			"",
-			"- [Adepts, Aristocrats, Commoners, Experts, Warriors](npcs_npc_classes)",
-			"- [Bards, Sorcerers, Wizards](npcs_bards_sorcerers_wizards)",
-			"- [Clerics, Druids, Rangers, Paladins](npcs_clerics_druids_paladins)",
-			"- [Barbarians, Fighters, Monks, Rogues](npcs_other_core)",
-			"- [Other Classes](npcs_other)"
+			"## main/monster_families View Monster Families",
+			"# Monsters by Type",
+			"## main/monsters_aberrations Aberrations // (163 monsters)",
+			"## main/monsters_animals Animals // (292 monsters)",
+			"## main/monsters_constructs Constructs // (174 monsters)",
+			"## main/monsters_dragons Dragons // (175 monsters)",
+			"## main/monsters_fey Fey // (121 monsters)",
+			"## main/monsters_humanoids Humanoids // (308 monsters)",
+			"### main/monsters_humanoids_giant Giants // (93 monsters)",
+			"### main/monsters_humanoids_goblin Goblinoids // (37 monsters)",
+			"## main/monsters_magical_beasts Magical Beasts // (240 monsters)",
+			"## main/monsters_monstrous_humanoids Monstrous Humanoids // (142 monsters)",
+			"## main/monsters_oozes Oozes // (72 monsters)",
+			"## main/monsters_outsiders Outsiders // (583 monsters)",
+			"### main/monsters_outsiders_elemental Elementals // (82 monsters)",
+			"### main/monsters_outsiders_extraplanar Extraplanar // (478 monsters)",
+			"### main/monsters_outsiders_native Native // (86 monsters)",
+			"## main/monsters_plants Plant // (111 monsters)",
+			"## main/monsters_undead Undead // (214 monsters)",
+			"## main/monsters_vermin Vermin // (144 monsters)",
+			"# Monsters by Subtype",
+			"## main/monsters_aligned Aligned Monsters || (good, evil, lawful, chaotic; 592 monsters)",
+			"## main/monsters_aquatic Aquatic Monsters // (245 monsters)",
+			"## main/monsters_incorporeal Incorporeal Monsters // (69 monsters)",
+			"## main/monsters_shapechanger Shapechanger Monsters // (110 monsters)",
+			"## main/monsters_swarm Swarms // (70 monsters)",
+			"# NPCs",
+			"## main/npcs View All NPCs // (487 NPCs)",
+			"### main/npcs_npc_classes Adepts, Aristocrats, Commoners, Experts, Warriors",
+			"### main/npcs_bards_sorcerers_wizards Bards, Sorcerers, Wizards",
+			"### main/npcs_clerics_druids_paladins Clerics, Druids, Rangers, Paladins",
+			"### main/npcs_other_core Barbarians, Fighters, Monks, Rogues",
+			"### main/npcs_other Other Classes"
 		],
-		"previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main/main"] ]
 	},
 	"feats_combat": {
 		"title": "Feats - Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
-			"Any feat designated as a combat feat can be selected as a fighter's bonus feat. This designation does not restrict characters of other classes from selecting these feats, assuming that they meet the prerequisites.",
-			"",
-			"{table0}"
+			[
+				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
+				"Any feat designated as a combat feat can be selected as a fighter's bonus feat. This designation does not restrict characters of other classes from selecting these feats, assuming that they meet the prerequisites.",
+				"",
+				"{table0}"
+			]
 		],
 		"tables": [
 			{
@@ -2292,7 +2269,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"monsters_outsiders": {
 		"title": "Outsiders",
@@ -2892,6 +2869,6 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	}
 }

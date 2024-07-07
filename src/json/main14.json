@@ -1204,7 +1204,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_sahirafiyun": {
 		"title": "All Sahir-Afiyun Spells",
@@ -1242,7 +1242,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
@@ -1810,7 +1810,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
@@ -2493,18 +2493,17 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_mythic": {
 		"title": "All Mythic Spells",
 		"sources": [],
 		"description": [
-			"| Mythic Spells by Class |",
-			"| --- |",
-			"| [Arcane Classes](spells_mythic_arcane) |",
-			"| [Divine Classes](spells_mythic_divine) |",
-			"| [Occult Classes](spells_mythic_occult) |",
-			"",
+			"# Mythic Spells by Class",
+			"## main/spells_mythic_arcane Arcane Classes",
+			"## main/spells_mythic_divine Divine Classes",
+			"## main/spells_mythic_occult Occult Classes",
+			"---",
 			"{table0}"
 		],
 		"tables": [
@@ -2638,46 +2637,29 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_mythic_arcane": {
 		"title": "Arcane Mythic Spells",
 		"sources": [],
 		"description": [
-			"## Arcanist, Sorcerer and Wizard",
-			"",
+			"# Arcanist, Sorcerer and Wizard",
 			"{table0}",
-			"",
-			"## Bard and Skald",
-			"",
+			"# Bard and Skald",
 			"{table5}",
-			"",
-			"## Magus",
-			"",
+			"# Magus",
 			"{table6}",
-			"",
-			"## Alchemist",
-			"",
+			"# Alchemist",
 			"{table1}",
-			"",
-			"## Investigator",
-			"",
+			"# Investigator",
 			"{table2}",
-			"",
-			"## Witch",
-			"",
+			"# Witch",
 			"{table7}",
-			"",
-			"## Bloodrager",
-			"",
+			"# Bloodrager",
 			"{table8}",
-			"",
-			"## Summoner",
-			"",
+			"# Summoner",
 			"{table3}",
-			"",
-			"## Unchained Summoner",
-			"",
+			"# Unchained Summoner",
 			"{table4}"
 		],
 		"tables": [
@@ -3042,46 +3024,29 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_mythic_divine": {
 		"title": "Divine Mythic Spells",
 		"sources": [],
 		"description": [
-			"## Cleric and Oracle",
-			"",
+			"# Cleric and Oracle",
 			"{table0}",
-			"",
-			"## Druid",
-			"",
+			"# Druid",
 			"{table1}",
-			"",
-			"## Ranger",
-			"",
+			"# Ranger",
 			"{table2}",
-			"",
-			"## Hunter",
-			"",
+			"# Hunter",
 			"{table3}",
-			"",
-			"## Paladin",
-			"",
+			"# Paladin",
 			"{table6}",
-			"",
-			"## Antipaladin",
-			"",
+			"# Antipaladin",
 			"{table7}",
-			"",
-			"## Inquisitor",
-			"",
+			"# Inquisitor",
 			"{table4}",
-			"",
-			"## Shaman",
-			"",
+			"# Shaman",
 			"{table8}",
-			"",
-			"## Warpriest",
-			"",
+			"# Warpriest",
 			"{table5}"
 		],
 		"tables": [
@@ -3361,30 +3326,21 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_mythic_occult": {
 		"title": "Occult Mythic Spells",
 		"sources": [],
 		"description": [
-			"## Medium",
-			"",
+			"# Medium",
 			"{table0}",
-			"",
-			"## Mesmerist",
-			"",
+			"# Mesmerist",
 			"{table1}",
-			"",
-			"## Occultist",
-			"",
+			"# Occultist",
 			"{table2}",
-			"",
-			"## Psychic",
-			"",
+			"# Psychic",
 			"{table3}",
-			"",
-			"## Spiritualist",
-			"",
+			"# Spiritualist",
 			"{table4}"
 		],
 		"tables": [
@@ -3594,6 +3550,6 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	}
 }

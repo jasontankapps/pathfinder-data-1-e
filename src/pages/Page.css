@@ -1,10 +1,25 @@
-/* Hierarchy Tab */
+/* Main */
 
 ion-content {
 	position: relative;
-	--padding-start: 1em;
-	--padding-end: 1em;
 }
+div.basicContent.simple {
+	user-select: all;
+	padding-inline: 1em;
+}
+
+/* Loading */
+
+div.loadingPage {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+/* Hierarchy Tab */
+
 div.hierarchy {
 	position: absolute;
 	top: 56px;
@@ -61,4 +76,58 @@ ol.hierarchyLinksClosed {
 	padding-block: 0;
 	max-height: 0;
 	overflow-y: hidden;
+}
+
+/* Subtopics in Rules */
+
+div.subtopics {
+	margin-inline: 1em;
+	margin-block: 1.5em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background: var(--ion-color-light-shade);
+}
+div.subtopics ul {
+	list-style: square;
+	margin-block: 0;
+	padding-block: 0;
+}
+div.subtopics li {
+	margin-block: 0.5em;
+}
+div.subtopics li a:link,
+div.subtopics li a:visited,
+div.subtopics li a:hover {
+	text-decoration: none;
+}
+
+/* Prev/Next in Rules */
+
+div.prevNext {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-block-end: 1em;
+}
+div.prevNext.nextOnly {
+	justify-content: end;
+}
+div.prevNext div.next {
+	text-align: end;
+}
+div.prevNext a:link,
+div.prevNext a:visited,
+div.prevNext a:hover  {
+	color: var(--ion-color-secondary);
+	text-decoration: none;
+}
+div.prevNext div div:first-child {
+	font-size: smaller;
+}
+
+/* Footer */
+
+ion-buttons.slotless {
+	justify-content: center;
 }

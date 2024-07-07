@@ -6,9 +6,9 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["Magic Items", "magic"],
-	["Wondrous Items", "magic_wondrous"],
+	["Main", "main/main"],
+	["Magic Items", "main/magic"],
+	["Wondrous Items", "main/magic_wondrous"],
 	["Ioun Stone", "magic/wondrous/ioun_stone"]
 ];
 

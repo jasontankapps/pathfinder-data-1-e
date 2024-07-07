@@ -1,11 +1,9 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { SourceProp } from '../components/SourcesModal';
-import DisplayItem from '../components/DisplayItem';
 import rules from '../json/rules16.json';
 import data from '../json/_data_rule.json';
-import { HierarchyArray, Table } from '../types';
-import BasicPage from './BasicPage';
+import { HierarchyArray, JsonRulesProps } from '../types';
+import BasicRulesPage from './BasicRulesPage';
 import './Page.css';
 
 type Rules = typeof rules;
@@ -16,25 +14,17 @@ type Data = typeof data;
 
 type Name = keyof Data;
 
-interface JsonRulesProps {
-	name: string
-	description: string[]
-	parent_topics?: Name[]
-	subtopics?: Name[]
-	siblings?: Name[]
-	sources: SourceProp[]
-	tables?: Table[]
-}
-
-const hierarchy: HierarchyArray = [
-	["Main", "main"],
-	["All Rules", "rules"]
-];
-
-
 const RulesGroup16Page: React.FC<{id: string}> = ({id}) => {
 
-	const { name: n, description: markdown, parent_topics, subtopics, siblings, sources = [], tables } = (rules[id as Prop]) as JsonRulesProps;
+	const {
+		name: n,
+		description: markdown,
+		parent_topics,
+		subtopics,
+		siblings,
+		sources = [],
+		tables
+	} = (rules[id as Prop]) as JsonRulesProps<Name>;
 
 	const prevNext = useMemo(() => {
 		if(siblings && siblings.length > 1) {
@@ -74,36 +64,21 @@ const RulesGroup16Page: React.FC<{id: string}> = ({id}) => {
 
 	const h: HierarchyArray = useMemo(() => {
 		if(!parent_topics) {
-			return [...hierarchy];
+			return [];
 		}
-		return [...hierarchy, ...parent_topics.map(prop => [data[prop].name, "rule/" + prop])] as HierarchyArray;
+		return parent_topics.map(prop => [data[prop].name, "rule/" + prop]) as HierarchyArray;
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={n} sources={sources} hierarchy={h}>
-			<DisplayItem markdown={["## " + n, "", ...markdown]} tables={tables} />
-			{subs}
-			{prevNext ? (
-				<div className="prevNext">
-					{prevNext[0] ?
-						<Link to={"/rule/" + prevNext[0][1]}>
-							<div className="prev">
-								<div>Previous topic</div>
-								<div>{prevNext[0][0]}</div>
-							</div>
-						</Link>
-					: <></>}
-					{prevNext[1] ?
-						<Link to={"/rule/" + prevNext[1][1]}>
-							<div className="next">
-								<div>Next topic</div>
-								<div>{prevNext[1][0]}</div>
-							</div>
-						</Link>
-					: <></>}
-				</div>
-			) : <></>}
-		</BasicPage>
+		<BasicRulesPage
+			title={n}
+			sources={sources}
+			extraHierarchy={h}
+			markdown={markdown}
+			tables={tables}
+			subtopics={subs}
+			prevNext={prevNext}
+		/>
 	);
 };
 

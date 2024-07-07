@@ -2754,6 +2754,6 @@
 				"className": "endcaps"
 			}
 		],
-		"previous": [ ["Main", "main"], ["Monsters and NPCs", "monsters"] ]
+		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	}
 }

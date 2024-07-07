@@ -7,13 +7,13 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy1: HierarchyArray = [
-	["Classes", "classes"],
+	["Classes", "main/classes"],
 	["Barbarian", "class/barbarian"],
 	["Rage Powers", "ability/rage_powers"]
 ];
 
 const hierarchy2: HierarchyArray = [
-	["Classes", "classes"],
+	["Classes", "main/classes"],
 	["Unchained Barbarian", "class/unchained_barbarian"],
 	["Stance Rage Powers", "ability/stance_rage_powers"]
 ];

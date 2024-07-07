@@ -1,21 +1,21 @@
 import { FC, PropsWithChildren, useState } from 'react';
-import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonList, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { chevronBack, chevronForward, informationCircle, search } from 'ionicons/icons';
-import DisplayItem from '../components/DisplayItem';
+import DisplayMainItem, { DisplayMainItemProps } from '../components/DisplayMainItem';
 import HierarchyTab from '../components/HierarchyTab';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
-import { DisplayItemProps, HierarchyArray } from '../types';
+import { HierarchyArray } from '../types';
 import './Page.css';
 
 interface PageProps {
 	title: string
-	displayItem?: DisplayItemProps
+	displayItem?: DisplayMainItemProps
 	hierarchy?: HierarchyArray
 	sources?: SourceProp[]
 	hideSources?: boolean
 }
 
-const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
+const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const { title, displayItem, children, hierarchy = [], sources = [], hideSources } = props;
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
@@ -37,9 +37,11 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			</IonHeader>
 			<IonContent fullscreen>
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
-				<div className="basicContent simple">
+				<div className="main basicContent">
 					<HierarchyTab hierarchy={hierarchy} />
-					{displayItem ? <DisplayItem {...displayItem} /> : children}
+					<IonList>
+						{displayItem ? <DisplayMainItem {...displayItem} /> : children}
+					</IonList>
 				</div>
 			</IonContent>
 			<IonFooter>
@@ -65,4 +67,4 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	);
 };
 
-export default BasicPage;
+export default BasicMainPage;

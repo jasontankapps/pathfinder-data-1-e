@@ -8,8 +8,8 @@ import {
 const Loading = () => {
 	return (
 		<IonPage>
-			<IonContent id="loadingPage">
-				<div>
+			<IonContent>
+				<div className="loadingPage">
 					<IonText color="primary"><h1>Loading</h1></IonText>
 					<IonSpinner name="bubbles" color="secondary" />
 				</div>

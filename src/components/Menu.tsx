@@ -21,57 +21,57 @@ interface AppPage {
 const appPages: AppPage[] = [
 	{
 		title: "Pathfinder Rules",
-		url: "/rules",
+		url: "/main/rules",
 		icon: "../icons/read.svg"
 	},
 	{
 		title: "Races",
-		url: "/races",
+		url: "/main/races",
 		icon: "../icons/person.svg"
 	},
 	{
 		title: "Classes",
-		url: "/classes",
+		url: "/main/classes",
 		icon: "../icons/robe.svg"
 	},
 	{
 		title: "Skills",
-		url: "/skills",
+		url: "/main/skills",
 		icon: "../icons/skills.svg"
 	},
 	{
 		title: "Feats",
-		url: "/feats",
+		url: "/main/feats",
 		icon: "../icons/mighty-force.svg"
 	},
 	{
 		title: "Traits",
-		url: "/traits",
+		url: "/main/traits",
 		icon: "../icons/spikes-half.svg"
 	},
 	{
 		title: "Equipment",
-		url: "/equipment",
+		url: "/main/equipment",
 		icon: "../icons/battle-gear.svg"
 	},
 	{
 		title: "Magic Items",
-		url: "/magic",
+		url: "/main/magic",
 		icon: "../icons/orb-wand.svg"
 	},
 	{
 		title: "Spells",
-		url: "/spells",
+		url: "/main/spells",
 		icon: "../icons/sparkles.svg"
 	},
 	{
 		title: "Deities/Faiths",
-		url: "/faiths",
+		url: "/main/faiths",
 		icon: "../icons/bolt-eye.svg"
 	},
 	{
 		title: "Monsters and NPCs",
-		url: "/monsters",
+		url: "/main/monsters",
 		icon: "../icons/croc-jaws.svg"
 	}
 ];

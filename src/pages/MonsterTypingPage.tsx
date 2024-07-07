@@ -7,7 +7,7 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Pathfinder Rules", "rules"],
+	["Pathfinder Rules", "main/rules"],
 	["Gamemastering", "rule/gamemastering"],
 	["Universal Monster Rules", "rule/umr"]
 ];

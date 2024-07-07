@@ -42,7 +42,7 @@ const magic = {
 	...magic_throne,
 	...construct_mods
 };
-const hierarchy: HierarchyArray = [["Main", "main"], ["Magic Items", "magic"], ["Miscellaneous Magic Items", "magic_misc"]];
+const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/magic"], ["Miscellaneous Magic Items", "main/magic_misc"]];
 
 type Data = typeof magic;
 

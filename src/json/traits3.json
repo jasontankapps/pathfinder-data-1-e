@@ -5979,7 +5979,7 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"You can modify old clothing to make it effective in new circumstances. With a basic sewing kit or disguise kit, you can make a Disguise check to change one outfit into another outfit. The DC of this check is equal to 10 + the gp difference between costs of the outfits, as found in the [outfits' entries](equipment_misc). The alteration takes 10 minutes per 1-gp difference in the cost of the outfits."
+			"You can modify old clothing to make it effective in new circumstances. With a basic sewing kit or disguise kit, you can make a Disguise check to change one outfit into another outfit. The DC of this check is equal to 10 + the gp difference between costs of the outfits, as found in the [outfits' entries](main/equipment_misc). The alteration takes 10 minutes per 1-gp difference in the cost of the outfits."
 		],
 		"subhierarchy": [[ "Equipment Traits", "traits_equipment" ]]
 	},

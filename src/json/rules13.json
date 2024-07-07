@@ -1545,7 +1545,7 @@
 			"",
 			"You must be at least 6th tier to select these path abilities.",
 			"",
-			"**Champion of Weal (Su) [[Any Empyreal Lord](faiths_pantheons)]** ([Mythic Origins pg. 7](source/mythic_origins)): You can show the path of light to those who are tainted by evil. As a standard action, you can expend two uses of mythic power to attempt to temporarily redeem a non-mythic evil creature within 30 feet. If the target fails its Will save (DC = 10 + your tier + your Cha modifier), its alignment immediately changes to lawful good, neutral good, or chaotic good (your choice) for a number of minutes equal to your tier, and for the duration of this effect the creature pursues a path of righteousness in keeping with its new alignment. Creatures with the evil subtype are immune to this effect. Regardless of whether or not the saving throw is successful, a creature can't be affected by this ability more than once in 24 hours.",
+			"**Champion of Weal (Su) [[Any Empyreal Lord](main/faiths_pantheons)]** ([Mythic Origins pg. 7](source/mythic_origins)): You can show the path of light to those who are tainted by evil. As a standard action, you can expend two uses of mythic power to attempt to temporarily redeem a non-mythic evil creature within 30 feet. If the target fails its Will save (DC = 10 + your tier + your Cha modifier), its alignment immediately changes to lawful good, neutral good, or chaotic good (your choice) for a number of minutes equal to your tier, and for the duration of this effect the creature pursues a path of righteousness in keeping with its new alignment. Creatures with the evil subtype are immune to this effect. Regardless of whether or not the saving throw is successful, a creature can't be affected by this ability more than once in 24 hours.",
 			"",
 			"**Transcendent Self (Su) [[Irori](faith/irori)]** ([Mythic Origins pg. 9](source/mythic_origins)): As a swift action, you can expend one use of mythic power to grant yourself a +1 sacred bonus to all ability scores for 1 minute per tier. You can expend two additional uses of mythic power to increase this bonus to +2, or four more to increase this bonus to +3. If you have a ki pool, you can substitute ki for mythic power on a oneto- one basis when activating this ability, as long as you expend at least one use of mythic power."
 		],
@@ -3205,7 +3205,7 @@
 			"",
 			"Only armor, shields, and worn items can have this ability.",
 			"",
-			"**Metamagician:** This ability allows a spellcaster to apply a [metamagic feat](feats_metamagic) she knows to a spell as she casts it. She must expend a number of uses of legendary power equal to the increase of spell level the metamagic feat usually applies (minimum 1). This metamagic feat is applied spontaneously and without changing the casting time. This ability can be placed only on a head, headband, staff, ring, or rod legendary item.",
+			"**Metamagician:** This ability allows a spellcaster to apply a [metamagic feat](main/feats_metamagic) she knows to a spell as she casts it. She must expend a number of uses of legendary power equal to the increase of spell level the metamagic feat usually applies (minimum 1). This metamagic feat is applied spontaneously and without changing the casting time. This ability can be placed only on a head, headband, staff, ring, or rod legendary item.",
 			"",
 			"**Perfect Surge:** This item's legendary surge can apply to any d20 roll. The surge adds a further +2 bonus when applied to one of the types of rolls initially chosen for it. A legendary item must be a major artifact to have this ability.",
 			"",
@@ -3254,7 +3254,7 @@
 			"",
 			"This chapter includes over 40 example creatures' mythic versions of cyclopes, demons, dragons, elementals, giants, medusas, and other creatures of legend-each of which represents an ancient predecessor or powerful evolution of the non-mythic version found in the Pathfinder RPG Bestiary. Following these example monsters, this chapter continues with information on the mythic simple templates and mythic subtype, advice on how to create and balance new mythic monsters, and several new universal monster rules used by the monsters in this chapter.",
 			"",
-			"[You can find all of the mythic monsters here](monsters_mythic)."
+			"[You can find all of the mythic monsters here](main/monsters_mythic)."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
