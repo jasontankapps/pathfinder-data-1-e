@@ -39,7 +39,7 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="main basicContent">
 					<HierarchyTab hierarchy={hierarchy} />
-					<IonList>
+					<IonList lines="full">
 						{displayItem ? <DisplayMainItem {...displayItem} /> : children}
 					</IonList>
 				</div>

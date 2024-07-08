@@ -24,6 +24,7 @@ import './Page.css';
 
 interface Item {
 	name: string
+	tag?: string
 }
 
 interface ParallelItem {
@@ -44,7 +45,13 @@ const options = {
 	keys: [
 		{
 			name: 'name',
-			getFn: (item: Item) => item.name
+			getFn: (item: Item) => item.name,
+			weight: 1
+		},
+		{
+			name: 'tag',
+			getFn: (item: Item) => item.tag || "",
+			weight: 0.7
 		}
 	]
 };

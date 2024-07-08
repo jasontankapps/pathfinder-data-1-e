@@ -1,5 +1,4 @@
 import { useMemo } from 'react';
-import { Link } from 'react-router-dom';
 import rules from '../json/rules11.json';
 import data from '../json/_data_rule.json';
 import { HierarchyArray, JsonRulesProps } from '../types';
@@ -44,23 +43,9 @@ const RulesGroup11Page: React.FC<{id: string}> = ({id}) => {
 			];
 		}
 		return false;
-	}, [siblings, id]);
+	}, [siblings]);
 
-	const subs = useMemo(() => {
-		if(subtopics) {
-			return (
-				<div className="subtopics">
-					<header>Subtopics:</header>
-					<ul>
-						{subtopics.map(sub => (
-							<li key={`${id}/${sub}`}><Link to={"/rule/" + sub}>{data[sub].name}</Link></li>
-						))}
-					</ul>
-				</div>
-			);
-		}
-		return <></>;
-	}, [subtopics, id]);
+	const subs: HierarchyArray = useMemo(() => subtopics ? subtopics.map(sub => [data[sub].name, "/rule/" + sub]) : [], [subtopics]);
 
 	const h: HierarchyArray = useMemo(() => {
 		if(!parent_topics) {

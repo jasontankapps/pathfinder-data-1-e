@@ -85,6 +85,7 @@
 	},
 	"gamemastering": {
 		"name": "Gamemastering",
+		"tags": "gms gm",
 		"subtopics": [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
@@ -724,6 +725,7 @@
 	},
 	"using_this_section": {
 		"name": "Using this Section",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 9](source/ultimate_campaign)",
@@ -750,6 +752,7 @@
 	},
 	"early_life": {
 		"name": "Early Life",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 9](source/ultimate_campaign)",
@@ -783,6 +786,7 @@
 	},
 	"circumstances_of_birth": {
 		"name": "Circumstances of Birth",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 9](source/ultimate_campaign)",
@@ -809,6 +813,7 @@
 	},
 	"family": {
 		"name": "Family",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 10](source/ultimate_campaign)",
@@ -851,6 +856,7 @@
 	},
 	"region": {
 		"name": "Region",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 11](source/ultimate_campaign)",
@@ -881,6 +887,7 @@
 	},
 	"social_rank_and_education": {
 		"name": "Social Rank and Education",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 11](source/ultimate_campaign)",
@@ -911,6 +918,7 @@
 	},
 	"magic_2": {
 		"name": "Magic",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 11](source/ultimate_campaign)",
@@ -937,6 +945,7 @@
 	},
 	"religion_and_ritual": {
 		"name": "Religion and Ritual",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -963,6 +972,7 @@
 	},
 	"major_childhood_event": {
 		"name": "Major Childhood Event",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -991,6 +1001,7 @@
 	},
 	"adolescence": {
 		"name": "Adolescence",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -1022,6 +1033,7 @@
 	},
 	"initiation_rites": {
 		"name": "Initiation Rites",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -1046,6 +1058,7 @@
 	},
 	"friends,_allies,_and_influences": {
 		"name": "Friends, Allies, and Influences",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -1070,6 +1083,7 @@
 	},
 	"class_event": {
 		"name": "Class Event",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 12](source/ultimate_campaign)",
@@ -1094,6 +1108,7 @@
 	},
 	"first_love": {
 		"name": "First Love",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 13](source/ultimate_campaign)",
@@ -1118,6 +1133,7 @@
 	},
 	"duty_and_responsibilities": {
 		"name": "Duty and Responsibilities",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 13](source/ultimate_campaign)",
@@ -1140,6 +1156,7 @@
 	},
 	"adulthood": {
 		"name": "Adulthood",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 13](source/ultimate_campaign)",
@@ -1173,6 +1190,7 @@
 	},
 	"conflict_and_behavior": {
 		"name": "Conflict and Behavior",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 14](source/ultimate_campaign)",
@@ -1195,6 +1213,7 @@
 	},
 	"vulnerability": {
 		"name": "Vulnerability",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 14](source/ultimate_campaign)",
@@ -1223,6 +1242,7 @@
 	},
 	"friends,_associates,_and_companions": {
 		"name": "Friends, Associates, and Companions",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 15](source/ultimate_campaign)",
@@ -1248,6 +1268,7 @@
 	"two_quirks_and_a_flaw_quick_and_dirty_character_establishement": {
 		"name": "Two Quirks and a Flaw: Quick and Dirty Character Establishement",
 		"sources": [ "Ultimate Campaign" ],
+		"subtitle": "Character Backgrounds",
 		"description": [
 			"**Source** [Ultimate Campaign pg. 15](source/ultimate_campaign)",
 			"",
@@ -1275,6 +1296,7 @@
 	},
 	"background_generator": {
 		"name": "Background Generator",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"The background generator is intended to remove the creative pressure that can sometimes frustrate players as they try to flesh out the murky details of their characters' backgrounds. This generator provides these details with either a simple roll of the die or the players deliberately selecting from options on the furnished tables and lists. Think of each element on the background generator's tables as a piece of story material that you can link together with other random pieces to create a story you otherwise might now have imagined. Use this tool to inspire creativity rather than as hard-and-fast rules to mandate rigid and seamless character backgrounds. Though the generator provides many foundational details of a character's background, it takes some creative thought to massage the specifics together. As you use the generator, feel free at any point to reject or reroll contradictory elements or ones that go against your vision of the emerging character. Like the background questions presented earlier in this chapter, the ideas on these tables are simply suggestions designed to channel and focus your imagination.",
@@ -1312,6 +1334,7 @@
 	},
 	"step_1_homeland_family_childhood": {
 		"name": "Step 1-Homeland, Family, and Childhood",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"The tables below determine the basics of your family and homeland. These establish the circumstances of your upbringing, the composition of your family, and your family's social standing, as well as a major event you experienced in childhood. To determine these aspects of your background, do the following:",
@@ -1345,6 +1368,7 @@
 	},
 	"dwarf_background": {
 		"name": "Dwarf",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Many dwarves come from industrious and tight-knit communities of like-minded individuals who work together to accomplish a common goal.",
@@ -1399,6 +1423,7 @@
 	},
 	"elf_background": {
 		"name": "Elf",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Elves are often raised in insular elven communities, and the longevity of these people means that elven children often grow up with the help of a large social network.",
@@ -1452,6 +1477,7 @@
 	},
 	"gnome_background": {
 		"name": "Gnome",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"## Gnome",
@@ -1506,6 +1532,7 @@
 	},
 	"half-elf_background": {
 		"name": "Half-Elf",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Born of two very different worlds, half-elves rarely have easy childhoods. Torn as half-elves are between disparate peoples, the presence of their families helps ensure they do not grow up totally alone, though orphaned half-elves have to create families of their own.",
@@ -1558,6 +1585,7 @@
 	},
 	"half-orc_background": {
 		"name": "Half-Orc",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Only rarely the result of a happy union between the humans and orcs that bring them into the world, half-orcs are often regarded as monsters. This bleak reality makes those rare half-orcs, cherished as much as the young of any other race, even more extraordinary.",
@@ -1612,6 +1640,7 @@
 	},
 	"halfling_background": {
 		"name": "Halfling",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Social and amicable by nature, halflings fit equally well in both communities of humans and those of their wily kinsfolk. Prone to wanderlust, halflings can be found anywhere civilized humanoids settle.",
@@ -1664,6 +1693,7 @@
 	},
 	"human_background": {
 		"name": "Human",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"As diverse as they are widespread, humans tend to grow up in small or large societies of people with similar origins and histories, though individuals' paths may run the gamut from idealized to tragic.",
@@ -1717,6 +1747,7 @@
 	},
 	"siblings": {
 		"name": "Siblings",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"If you have at least one sibling, roll on the table below to determine the relative age of each sibling. For each adopted sibling, roll on the [Race of Adopted Sibling table](rule/) to determine that sibling's race.",
@@ -1792,6 +1823,7 @@
 	},
 	"unusual_homeland": {
 		"name": "Unusual Homeland",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"You grew up in a region not typically associated with the lands that your people call home. Roll on the Unusual Homeland table to determine the homeland of your family. If the result is one that is typical for your race, this region is one where there are few other members of your race, outside of your family.",
@@ -1834,6 +1866,7 @@
 	},
 	"birth_circumstances_and_more": {
 		"name": "Birth Circumstances and More",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"### Circumstance of Birth",
@@ -1969,6 +2002,7 @@
 	},
 	"step_2_adolescence_and_training": {
 		"name": "Step 2-Adolescence And Training",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"The training you undertake during your youth decides the person you will become in adulthood. To determine these aspects of your background, do the following:",
@@ -1992,6 +2026,7 @@
 	},
 	"class_background_tables": {
 		"name": "Class Background Tables",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"### Alchemist",
@@ -2369,6 +2404,7 @@
 	},
 	"influential_associates_table": {
 		"name": "Influential Associates",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Influential associates are people who had (or continue to have) a strong influence upon your development. They are archetypes and templates for NPCs that you can customize to fit your background. Roll on the table below to determine an associate or ally who had a major influence on your life. Then flesh out the details to show how this person fits within your story. You might also wish to use other tables in this chapter to randomly fill in this person's details.",
@@ -2412,6 +2448,7 @@
 	},
 	"step_3_moral_conflicts_relationships_and_drawbacks": {
 		"name": "Step 3-Moral Conflicts, Relationships, and Drawbacks",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"With age come the events and relationships that leave a definitive mark on your personality. You face and resolve moral challenges, your romantic relationships blossom and sometimes wilt, you meet those who become adventuring companions, and you face your vulnerabilities either in the form of personal challenges or adversaries who represent some side of yourself.",
@@ -2634,6 +2671,7 @@
 	},
 	"romantic_relationships": {
 		"name": "Romantic Relationships",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Roll on the table below to determine the kinds of romantic relationships you have had in the past. You might have a background that requires you to roll a d12 on this table instead of a d20.",
@@ -2697,6 +2735,7 @@
 	},
 	"character_drawback_table": {
 		"name": "Character Drawback",
+		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"Character drawbacks are emotional weak points-chinks your armor. A drawback gives you a small mechanical penalty and a roleplaying hook. Drawbacks also serve as loopholes in the alignment system. When roleplaying your drawback, you might act well outside the bounds of your alignment within certain situations. Each of the following grants a drawback you may choose to take. If you take a drawback option, you may take three traits you have access to instead of two. Roll on the following table to determine your character's drawback.",
@@ -2772,6 +2811,7 @@
 	},
 	"agent": {
 		"name": "Agent",
+		"subtitle": "Espionage Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"**Source** [Spymaster's Handbook pg. 4](source/spymaster's_handbook)",
@@ -2802,6 +2842,7 @@
 	},
 	"mole": {
 		"name": "Mole",
+		"subtitle": "Espionage Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"**Source** [Spymaster's Handbook pg. 4](source/spymaster's_handbook)",
@@ -2832,6 +2873,7 @@
 	},
 	"saboteur": {
 		"name": "Saboteur",
+		"subtitle": "Espionage Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"**Source** [Spymaster's Handbook pg. 5](source/spymaster's_handbook)",
@@ -2861,6 +2903,7 @@
 	},
 	"spymaster_bg": {
 		"name": "Agent",
+		"subtitle": "Espionage Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"**Source** [Spymaster's Handbook pg. 5](source/spymaster's_handbook)",
@@ -3626,6 +3669,7 @@
 	},
 	"definitions_of_terms": {
 		"name": "Definitions of Terms",
+		"subtitle": "Classes",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 374](source/prpg_core_rulebook)",
@@ -3857,6 +3901,7 @@
 	},
 	"taking_10_and_taking_20": {
 		"name": "Taking 10 and Taking 20",
+		"subtitle": "Skill Checks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 86](source/prpg_core_rulebook)",
@@ -4032,6 +4077,7 @@
 	},
 	"lying": {
 		"name": "Lying",
+		"subtitle": "Bluff",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 182](source/ultimate_intrigue)",
@@ -4123,6 +4169,7 @@
 	},
 	"attitudes_and_requests": {
 		"name": "Attitudes and Requests",
+		"subtitle": "Diplomacy",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 185](source/ultimate_intrigue)",
@@ -4284,6 +4331,8 @@
 	},
 	"replacing_opposed_rolls": {
 		"name": "Replacing Opposed Rolls",
+		"subtitle": "Skill Checks",
+		"tags": "espionage",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 189](source/ultimate_intrigue)",
@@ -4953,6 +5002,7 @@
 	},
 	"using_items": {
 		"name": "Using Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 458](source/prpg_core_rulebook)",
@@ -5241,6 +5291,7 @@
 	},
 	"charges,_doses,_and_multiple_uses": {
 		"name": "Charges, Doses, and Multiple Uses",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
@@ -5423,6 +5474,7 @@
 	},
 	"extradimensional_spaces": {
 		"name": "Extradimensional Spaces",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 501](source/prpg_core_rulebook)",
@@ -5626,6 +5678,7 @@
 	},
 	"potions": {
 		"name": "Potions",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 477](source/prpg_core_rulebook)",
@@ -5706,6 +5759,7 @@
 	},
 	"rings": {
 		"name": "Rings",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 478](source/prpg_core_rulebook)",
@@ -5760,6 +5814,7 @@
 	},
 	"rods": {
 		"name": "Rods",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 484](source/prpg_core_rulebook)",

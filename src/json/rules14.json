@@ -1,6 +1,7 @@
 {
 	"pathfinder_unchained": {
 		"name": "Pathfinder Unchained",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 4](source/pathfinder_unchained)",
@@ -55,6 +56,7 @@
 	},
 	"alignment_pu": {
 		"name": "Alignment",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 95](source/pathfinder_unchained)",
@@ -120,6 +122,7 @@
 	},
 	"moral_challengers_and_dilemmas": {
 		"name": "Moral Challengers and Dilemmas",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 95](source/pathfinder_unchained)",
@@ -151,6 +154,7 @@
 	},
 	"timing_and_focus": {
 		"name": "Timing and Focus",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 97](source/pathfinder_unchained)",
@@ -176,6 +180,7 @@
 	},
 	"shifts_and_affirmations": {
 		"name": "Shifts and Affirmations",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 97](source/pathfinder_unchained)",
@@ -211,6 +216,7 @@
 	},
 	"going_cosmic": {
 		"name": "Going Cosmic",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 98](source/pathfinder_unchained)",
@@ -234,6 +240,7 @@
 	},
 	"alignment_feats": {
 		"name": "Alignment Feats",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 98](source/pathfinder_unchained)",
@@ -257,6 +264,7 @@
 	},
 	"alternate_crafting_and_profession_rules": {
 		"name": "Alternate Crafting and Profession Rules",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 72](source/pathfinder_unchained)",
@@ -299,6 +307,7 @@
 	},
 	"crafting": {
 		"name": "Crafting",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 72](source/pathfinder_unchained)",
@@ -332,6 +341,7 @@
 	},
 	"alternate_crafting_rules": {
 		"name": "Alternate Crafting Rules",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 72](source/pathfinder_unchained)",
@@ -366,6 +376,7 @@
 	},
 	"craft_int": {
 		"name": "Craft (Int)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 72](source/pathfinder_unchained)",
@@ -428,6 +439,7 @@
 	},
 	"item_crafting_difficulties": {
 		"name": "Item Crafting Difficulties",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
@@ -458,6 +470,7 @@
 	},
 	"extremely_simple_dc_5": {
 		"name": "Extremely Simple (DC 5)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
@@ -492,6 +505,7 @@
 	},
 	"simple_dc_10": {
 		"name": "Simple (DC 10)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
@@ -530,6 +544,7 @@
 	},
 	"normal_dc_15": {
 		"name": "Normal (DC 15)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
@@ -568,6 +583,7 @@
 	},
 	"complex_dc_20": {
 		"name": "Complex (DC 20)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
@@ -608,6 +624,7 @@
 	},
 	"intricate_dc_25": {
 		"name": "Intricate (DC 25)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 74](source/pathfinder_unchained)",
@@ -646,6 +663,7 @@
 	},
 	"very_intricate_dc_30": {
 		"name": "Very Intricate (DC 30)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 75](source/pathfinder_unchained)",
@@ -682,6 +700,7 @@
 	},
 	"extremely_intricate_dc_35": {
 		"name": "Extremely Intricate (DC 35)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 75](source/pathfinder_unchained)",
@@ -714,6 +733,7 @@
 	},
 	"supervising_helpers": {
 		"name": "Supervising Helpers",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 75](source/pathfinder_unchained)",
@@ -758,6 +778,7 @@
 	},
 	"workshop": {
 		"name": "Workshop",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 75](source/pathfinder_unchained)",
@@ -790,6 +811,7 @@
 	},
 	"special_raw_materials": {
 		"name": "Special Raw Materials",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 75](source/pathfinder_unchained)",
@@ -867,6 +889,7 @@
 	},
 	"professions": {
 		"name": "Professions",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 76](source/pathfinder_unchained)",
@@ -893,6 +916,7 @@
 	},
 	"alternate_profession_rules": {
 		"name": "Alternate Profession Rules",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 77](source/pathfinder_unchained)",
@@ -920,6 +944,7 @@
 	},
 	"profession_wisdom;_trained_only": {
 		"name": "Profession (Wisdom; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 77](source/pathfinder_unchained)",
@@ -945,6 +970,7 @@
 	},
 	"setting_up_shop": {
 		"name": "Setting Up Shop",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 77](source/pathfinder_unchained)",
@@ -995,6 +1021,7 @@
 	},
 	"running_the_business": {
 		"name": "Running the Business",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 78](source/pathfinder_unchained)",
@@ -1020,6 +1047,7 @@
 	},
 	"determining_profits": {
 		"name": "Determining Profits",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 79](source/pathfinder_unchained)",
@@ -1045,6 +1073,7 @@
 	},
 	"typical_business_setups": {
 		"name": "Typical Business Setups",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 79](source/pathfinder_unchained)",
@@ -1128,6 +1157,7 @@
 	},
 	"automatic_bonus_progression": {
 		"name": "Automatic Bonus Progression",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 156](source/pathfinder_unchained)",
@@ -1199,6 +1229,7 @@
 	},
 	"bonuses": {
 		"name": "Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 156](source/pathfinder_unchained)",
@@ -1227,6 +1258,7 @@
 	},
 	"armor_attunement": {
 		"name": "Armor Attunement",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 156](source/pathfinder_unchained)",
@@ -1252,6 +1284,7 @@
 	},
 	"deflection": {
 		"name": "Deflection",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 156](source/pathfinder_unchained)",
@@ -1277,6 +1310,7 @@
 	},
 	"legendary_gifts": {
 		"name": "Legendary Gifts",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 156](source/pathfinder_unchained)",
@@ -1320,6 +1354,7 @@
 	},
 	"mental_prowess": {
 		"name": "Mental Prowess",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1345,6 +1380,7 @@
 	},
 	"physical_prowess": {
 		"name": "Physical Prowess",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1370,6 +1406,7 @@
 	},
 	"resistance": {
 		"name": "Resistance",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1395,6 +1432,7 @@
 	},
 	"toughening": {
 		"name": "Toughening",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1420,6 +1458,7 @@
 	},
 	"weapon_attunement": {
 		"name": "Weapon Attunement",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1445,6 +1484,7 @@
 	},
 	"magic_weapons_and_armor": {
 		"name": "Magic Weapons and Armor",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 157](source/pathfinder_unchained)",
@@ -1473,6 +1513,7 @@
 	},
 	"background_skills": {
 		"name": "Background Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 46](source/pathfinder_unchained)",
@@ -1531,6 +1572,7 @@
 	},
 	"skill_changes": {
 		"name": "Skill Changes",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 46](source/pathfinder_unchained)",
@@ -1604,6 +1646,7 @@
 	},
 	"gaining_adventuring_skills": {
 		"name": "Gaining Adventuring Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 47](source/pathfinder_unchained)",
@@ -1628,6 +1671,7 @@
 	},
 	"gaining_background_skills": {
 		"name": "Gaining Background Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 47](source/pathfinder_unchained)",
@@ -1653,6 +1697,7 @@
 	},
 	"class_skills": {
 		"name": "Class Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 48](source/pathfinder_unchained)",
@@ -1673,6 +1718,7 @@
 	},
 	"monsters_and_npcs": {
 		"name": "Monsters and NPCs",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 48](source/pathfinder_unchained)",
@@ -1697,6 +1743,7 @@
 	},
 	"new_skills": {
 		"name": "New Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 48](source/pathfinder_unchained)",
@@ -1723,6 +1770,7 @@
 	},
 	"artistry_int": {
 		"name": "Artistry (Int)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 48](source/pathfinder_unchained)",
@@ -1780,6 +1828,7 @@
 	},
 	"lore_int;_trained_only": {
 		"name": "Lore (Int; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 50](source/pathfinder_unchained)",
@@ -1832,6 +1881,7 @@
 	},
 	"expanded_skill_uses": {
 		"name": "Expanded Skill Uses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 51](source/pathfinder_unchained)",
@@ -1859,6 +1909,7 @@
 	},
 	"expanded_craft": {
 		"name": "Expanded Craft",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 51](source/pathfinder_unchained)",
@@ -2000,6 +2051,7 @@
 	},
 	"expanded_perform": {
 		"name": "Expanded Perform",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 52](source/pathfinder_unchained)",
@@ -2027,6 +2079,7 @@
 	},
 	"expanded_profession": {
 		"name": "Expanded Profession",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 53](source/pathfinder_unchained)",
@@ -2109,6 +2162,7 @@
 	},
 	"consolidated_skills": {
 		"name": "Consolidated Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 54](source/pathfinder_unchained)",
@@ -2128,7 +2182,7 @@
 			"| Nature | No | Int | Handle Animal, Knowledge (dungeoneering, geography, nature) |",
 			"| Perception | Yes | Wis | Perception, Sense Motive |",
 			"| Performance | Yes | Cha | Disguise, Perform |",
-			"| Relgion | No | Int | Knowledge (planes, religion) |",
+			"| Religion | No | Int | Knowledge (planes, religion) |",
 			"| Society | No | Int | Knowledge (history, local, nobility), Linguistics |",
 			"| Spellcraft | No | Int | Knowledge (arcana), Spellcraft, Use Magic Device |",
 			"| Stealth | Yes | Dex&ast; | Stealth |",
@@ -2232,6 +2286,7 @@
 	},
 	"skill_descriptions_pu": {
 		"name": "Skill Descriptions",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 54](source/pathfinder_unchained)",
@@ -2305,6 +2360,7 @@
 	},
 	"acrobatics_dex;_armor_check_penalty": {
 		"name": "Acrobatics (Dex; Armor Check Penalty)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 54](source/pathfinder_unchained)",
@@ -2369,6 +2425,7 @@
 	},
 	"balance": {
 		"name": "Balance",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 55](source/pathfinder_unchained)",
@@ -2403,6 +2460,7 @@
 	},
 	"escape_from_restraints": {
 		"name": "Escape from Restraints",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 55](source/pathfinder_unchained)",
@@ -2440,6 +2498,7 @@
 	},
 	"execute_flying_maneuvers": {
 		"name": "Execute Flying Maneuvers",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2466,6 +2525,7 @@
 	},
 	"ride_mounts": {
 		"name": "Ride Mounts",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2492,6 +2552,7 @@
 	},
 	"soften_falls": {
 		"name": "Soften Falls",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2518,6 +2579,7 @@
 	},
 	"squeeze": {
 		"name": "Squeeze",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2546,6 +2608,7 @@
 	},
 	"tumble": {
 		"name": "Tumble",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2581,6 +2644,7 @@
 	},
 	"athletics_str;_armor_check_penalty": {
 		"name": "Athletics (Str; Armor Check Penalty)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2626,6 +2690,7 @@
 	},
 	"catch": {
 		"name": "Catch",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2651,6 +2716,7 @@
 	},
 	"climb": {
 		"name": "Climb",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
@@ -2704,6 +2770,7 @@
 	},
 	"jump": {
 		"name": "Jump",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 57](source/pathfinder_unchained)",
@@ -2746,6 +2813,7 @@
 	},
 	"swim": {
 		"name": "Swim",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 57](source/pathfinder_unchained)",
@@ -2783,6 +2851,7 @@
 	},
 	"finesse_dex;_armor_check_penalty;_trained_only": {
 		"name": "Finesse (Dex; Armor Check Penalty; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2829,6 +2898,7 @@
 	},
 	"conceal_objects_on_your_body": {
 		"name": "Conceal Objects on Your Body",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2863,6 +2933,7 @@
 	},
 	"disarm_traps_or_devices": {
 		"name": "Disarm Traps or Devices",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2898,6 +2969,7 @@
 	},
 	"open_locks": {
 		"name": "Open Locks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2932,6 +3004,7 @@
 	},
 	"palm_objects": {
 		"name": "Palm Objects",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2958,6 +3031,7 @@
 	},
 	"pilfer_objects_from_creatures": {
 		"name": "Pilfer Objects from Creatures",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -2984,6 +3058,7 @@
 	},
 	"influence_cha": {
 		"name": "Influence (Cha)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -3034,6 +3109,7 @@
 	},
 	"change_others'_attitudes": {
 		"name": "Change Others' Attitudes",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
@@ -3074,6 +3150,7 @@
 	},
 	"create_diversions": {
 		"name": "Create Diversions",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 59](source/pathfinder_unchained)",
@@ -3104,6 +3181,7 @@
 	},
 	"demoralize": {
 		"name": "Demoralize",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 59](source/pathfinder_unchained)",
@@ -3136,6 +3214,7 @@
 	},
 	"feint_in_combat": {
 		"name": "Feint in Combat",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 59](source/pathfinder_unchained)",
@@ -3166,6 +3245,7 @@
 	},
 	"gather_information_pu": {
 		"name": "Gather Information",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3201,6 +3281,7 @@
 	},
 	"intimidate": {
 		"name": "Intimidate",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3233,6 +3314,7 @@
 	},
 	"lie": {
 		"name": "Lie",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3273,6 +3355,7 @@
 	},
 	"make_requests": {
 		"name": "Make Requests",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3315,6 +3398,7 @@
 	},
 	"pass_secret_messages": {
 		"name": "Pass Secret Messages",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3350,6 +3434,7 @@
 	},
 	"nature_int;_trained_only": {
 		"name": "Nature (Int; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
@@ -3394,6 +3479,7 @@
 	},
 	"handle_animals": {
 		"name": "Handle Animals",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3418,6 +3504,7 @@
 	},
 	"indentify_monsters": {
 		"name": "Indentify Monsters",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3438,6 +3525,7 @@
 	},
 	"recall_knowledge_nature": {
 		"name": "Recall Knowledge (Nature)",
+		"subtitle": "Unchained",
 		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -3471,6 +3559,7 @@
 	},
 	"perception_wis": {
 		"name": "Perception (Wis)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3518,6 +3607,7 @@
 	},
 	"discern_secret_messages": {
 		"name": "Discern Secret Messages",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3545,6 +3635,7 @@
 	},
 	"get_hunches": {
 		"name": "Get Hunches",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3570,6 +3661,7 @@
 	},
 	"notice_creatures_and_details": {
 		"name": "Notice Creatures and Details",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3630,6 +3722,7 @@
 	},
 	"search_locations": {
 		"name": "Search Locations",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3663,6 +3756,7 @@
 	},
 	"sense_enchantments": {
 		"name": "Sense Enchantments",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3688,6 +3782,7 @@
 	},
 	"sense_motive": {
 		"name": "Sense Motive",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3715,6 +3810,7 @@
 	},
 	"performance_cha": {
 		"name": "Performance (Cha)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3758,6 +3854,7 @@
 	},
 	"disguise_yourself": {
 		"name": "Disguise Yourself",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3781,6 +3878,7 @@
 	},
 	"impress_audiences": {
 		"name": "Impress Audiences",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
@@ -3814,6 +3912,7 @@
 	},
 	"religion_int;_trained_only": {
 		"name": "Religion (Int; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -3857,6 +3956,7 @@
 	},
 	"identify_monsters_religion": {
 		"name": "Identify Monsters (Religion)",
+		"subtitle": "Unchained",
 		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -3877,6 +3977,7 @@
 	},
 	"recall_knowledge_religion": {
 		"name": "Recall Knowledge (Religion)",
+		"subtitle": "Unchained",
 		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -3906,6 +4007,7 @@
 	},
 	"society_int;_trained_only": {
 		"name": "Society (Int; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -3952,6 +4054,7 @@
 	},
 	"create_or_detect_forgeries": {
 		"name": "Create or Detect Forgeries",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -3980,6 +4083,7 @@
 	},
 	"decipher_writing": {
 		"name": "Decipher Writing",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -4012,6 +4116,7 @@
 	},
 	"identify_monsters_society": {
 		"name": "Identify Monsters (Society)",
+		"subtitle": "Unchained",
 		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -4035,6 +4140,7 @@
 	},
 	"learn_language": {
 		"name": "Learn Language",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -4059,6 +4165,7 @@
 	},
 	"recall_knowledge_society": {
 		"name": "Recall Knowledge (Society)",
+		"subtitle": "Unchained",
 		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -4093,6 +4200,7 @@
 	},
 	"spellcraft_int;_trained_only": {
 		"name": "Spellcraft (Int; Trained Only)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
@@ -4142,6 +4250,7 @@
 	},
 	"activate_magic_items": {
 		"name": "Activate Magic Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
@@ -4169,6 +4278,7 @@
 	},
 	"craft_magic_items_pu": {
 		"name": "Craft Magic Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
@@ -4194,6 +4304,7 @@
 	},
 	"identify_magic": {
 		"name": "Identify Magic",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
@@ -4232,6 +4343,7 @@
 	},
 	"identify_monsters_spellcraft": {
 		"name": "Identify Monsters (Spellcraft)",
+		"subtitle": "Unchained",
 		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -4256,6 +4368,7 @@
 	},
 	"learn_or_borrow_spells": {
 		"name": "Learn or Borrow Spells",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4288,6 +4401,7 @@
 	},
 	"recall_knowledge_spellcraft": {
 		"name": "Recall Knowledge (Spellcraft)",
+		"subtitle": "Unchained",
 		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -4317,6 +4431,7 @@
 	},
 	"stealth_dex;_armor_check_penalty": {
 		"name": "Stealth (Dex; Armor Check Penalty)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4357,6 +4472,7 @@
 	},
 	"avoid_being_noticed": {
 		"name": "Avoid Being Noticed",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4375,6 +4491,7 @@
 	},
 	"survival_wis": {
 		"name": "Survival (Wis)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4420,6 +4537,7 @@
 	},
 	"determine_true_north": {
 		"name": "Determine True North",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4443,6 +4561,7 @@
 	},
 	"follow_tracks": {
 		"name": "Follow Tracks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
@@ -4519,6 +4638,7 @@
 	},
 	"survive_in_the_wild": {
 		"name": "Survive in the Wild",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 66](source/pathfinder_unchained)",
@@ -4558,6 +4678,7 @@
 	},
 	"tend_wounds_and_ailments": {
 		"name": "Tend Wounds and Ailments",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 66](source/pathfinder_unchained)",
@@ -4583,6 +4704,7 @@
 	},
 	"racial_bonuses": {
 		"name": "Racial Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4630,6 +4752,7 @@
 	},
 	"class_skills_2": {
 		"name": "Class Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4724,6 +4847,7 @@
 	},
 	"converting_existing_characters": {
 		"name": "Converting Existing Characters",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4740,6 +4864,7 @@
 	},
 	"altering_skill_bonuses": {
 		"name": "Altering Skill Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4780,6 +4905,7 @@
 	},
 	"bonuses_for_function": {
 		"name": "Bonuses for Function",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4800,6 +4926,7 @@
 	},
 	"prerequisites": {
 		"name": "Prerequisites",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 67](source/pathfinder_unchained)",
@@ -4820,6 +4947,7 @@
 	},
 	"monster_skill_bonuses": {
 		"name": "Monster Skill Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 68](source/pathfinder_unchained)",
@@ -4842,6 +4970,7 @@
 	},
 	"altering_feats": {
 		"name": "Altering Feats",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 68](source/pathfinder_unchained)",
@@ -4887,6 +5016,7 @@
 	},
 	"altering_traits": {
 		"name": "Altering Traits",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 68](source/pathfinder_unchained)",
@@ -4922,6 +5052,7 @@
 	},
 	"special_class_rules": {
 		"name": "Special Class Rules",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 68](source/pathfinder_unchained)",
@@ -5002,6 +5133,7 @@
 	},
 	"miscellaneous_abilities": {
 		"name": "Miscellaneous Abilities",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 69](source/pathfinder_unchained)",
@@ -5022,6 +5154,7 @@
 	},
 	"diseases_and_poisons": {
 		"name": "Diseases and Poisons",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 138](source/pathfinder_unchained)",
@@ -5067,6 +5200,7 @@
 	},
 	"progression_and_end_states": {
 		"name": "Progression and End States",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 138](source/pathfinder_unchained)",
@@ -5096,6 +5230,7 @@
 	},
 	"diseases_pu": {
 		"name": "Diseases",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 138](source/pathfinder_unchained)",
@@ -5121,6 +5256,7 @@
 	},
 	"physical_disease_track": {
 		"name": "Physical Disease Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 138](source/pathfinder_unchained)",
@@ -5154,6 +5290,7 @@
 	},
 	"mental_disease_track": {
 		"name": "Mental Disease Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 138](source/pathfinder_unchained)",
@@ -5187,6 +5324,7 @@
 	},
 	"poisons": {
 		"name": "Poisons",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 139](source/pathfinder_unchained)",
@@ -5216,6 +5354,7 @@
 	},
 	"strength_poison_track": {
 		"name": "Strength Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 139](source/pathfinder_unchained)",
@@ -5247,6 +5386,7 @@
 	},
 	"dexterity_poison_track": {
 		"name": "Dexterity Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 139](source/pathfinder_unchained)",
@@ -5280,6 +5420,7 @@
 	},
 	"constitution_poison_track": {
 		"name": "Constitution Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 139](source/pathfinder_unchained)",
@@ -5313,6 +5454,7 @@
 	},
 	"intelligence_poison_track": {
 		"name": "Intelligence Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 139](source/pathfinder_unchained)",
@@ -5346,6 +5488,7 @@
 	},
 	"wisdom_poison_track": {
 		"name": "Wisdom Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 140](source/pathfinder_unchained)",
@@ -5377,6 +5520,7 @@
 	},
 	"charisma_poison_track": {
 		"name": "Charisma Poison Track",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 140](source/pathfinder_unchained)",
@@ -5410,6 +5554,7 @@
 	},
 	"sample_diseases": {
 		"name": "Sample Diseases",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 140](source/pathfinder_unchained)",
@@ -5547,6 +5692,7 @@
 	},
 	"sample_poisons": {
 		"name": "Sample Poisons",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 141](source/pathfinder_unchained)",
@@ -5650,6 +5796,7 @@
 	},
 	"dynamic_magic_item_creation": {
 		"name": "Dynamic Magic Item Creation",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
@@ -5705,6 +5852,7 @@
 	},
 	"dynamic_magic_item_overview": {
 		"name": "Dynamic Magic Item Overview",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
@@ -5734,6 +5882,7 @@
 	},
 	"challenges_pu": {
 		"name": "Challenges",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
@@ -5765,6 +5914,7 @@
 	},
 	"attempting_challenges": {
 		"name": "Attempting Challenges",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
@@ -5795,6 +5945,7 @@
 	},
 	"challenge_format": {
 		"name": "Challenge Format",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
@@ -5818,6 +5969,7 @@
 	},
 	"paying_for_the_item": {
 		"name": "Paying for the Item",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 181](source/pathfinder_unchained)",
@@ -5851,6 +6003,7 @@
 	},
 	"creation_time": {
 		"name": "Creation Time",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 181](source/pathfinder_unchained)",
@@ -5880,6 +6033,7 @@
 	},
 	"adjustments": {
 		"name": "Adjustments",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 181](source/pathfinder_unchained)",
@@ -5915,6 +6069,7 @@
 	},
 	"base_challenges": {
 		"name": "Base Challenges",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 181](source/pathfinder_unchained)",
@@ -5982,6 +6137,7 @@
 	},
 	"random_challenges": {
 		"name": "Random Challenges",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 182](source/pathfinder_unchained)",
@@ -6496,6 +6652,7 @@
 	},
 	"class-specific_challenges": {
 		"name": "Class-Specific Challenges",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 185](source/pathfinder_unchained)",
@@ -6694,6 +6851,7 @@
 	},
 	"perks": {
 		"name": "Perks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 187](source/pathfinder_unchained)",
@@ -6811,6 +6969,7 @@
 	},
 	"quirks": {
 		"name": "Quirks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 189](source/pathfinder_unchained)",
@@ -6927,6 +7086,7 @@
 	},
 	"flaws": {
 		"name": "Flaws",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 190](source/pathfinder_unchained)",
@@ -7044,6 +7204,7 @@
 	},
 	"esoteric_material_components": {
 		"name": "Esoteric Material Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 150](source/pathfinder_unchained)",
@@ -7123,6 +7284,7 @@
 	},
 	"buying_esoteric_components": {
 		"name": "Buying Esoteric Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 150](source/pathfinder_unchained)",
@@ -7151,6 +7313,7 @@
 	},
 	"implementing_esoteric_components": {
 		"name": "Implementing Esoteric Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 151](source/pathfinder_unchained)",
@@ -7178,6 +7341,7 @@
 	},
 	"optional_components": {
 		"name": "Optional Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 151](source/pathfinder_unchained)",
@@ -7200,6 +7364,7 @@
 	},
 	"mandatory_components": {
 		"name": "Mandatory Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 151](source/pathfinder_unchained)",
@@ -7228,6 +7393,7 @@
 	},
 	"with_limited_magic": {
 		"name": "With Limited Magic",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 152](source/pathfinder_unchained)",
@@ -7254,6 +7420,7 @@
 	},
 	"scrounging": {
 		"name": "Scrounging",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 152](source/pathfinder_unchained)",
@@ -7278,6 +7445,7 @@
 	},
 	"esoteric_components": {
 		"name": "Esoteric Components",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 152](source/pathfinder_unchained)",
@@ -7362,6 +7530,7 @@
 	},
 	"crafting_magic_items": {
 		"name": "Crafting Magic Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 154](source/pathfinder_unchained)",
@@ -7384,6 +7553,7 @@
 	},
 	"feats": {
 		"name": "Feats",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 154](source/pathfinder_unchained)",
@@ -7416,6 +7586,7 @@
 	},
 	"fractional_base_bonuses": {
 		"name": "Fractional Base Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 40](source/pathfinder_unchained)",
@@ -7490,6 +7661,7 @@
 	},
 	"base_attack_bonus": {
 		"name": "Base Attack Bonus",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 40](source/pathfinder_unchained)",
@@ -7511,6 +7683,7 @@
 	},
 	"base_save_bonus": {
 		"name": "Base Save Bonus",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 40](source/pathfinder_unchained)",
@@ -7536,6 +7709,7 @@
 	},
 	"bonuses_by_level": {
 		"name": "Bonuses by Level",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 41](source/pathfinder_unchained)",
@@ -7557,6 +7731,7 @@
 	},
 	"grouped_skills": {
 		"name": "Grouped Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 70](source/pathfinder_unchained)",
@@ -7617,6 +7792,7 @@
 	},
 	"skill_group_rules": {
 		"name": "Skill Group Rules",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 70](source/pathfinder_unchained)",
@@ -7683,6 +7859,7 @@
 	},
 	"calculating_skill_bonuses": {
 		"name": "Calculating Skill Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 70](source/pathfinder_unchained)",
@@ -7705,6 +7882,7 @@
 	},
 	"multiclassing_pu": {
 		"name": "Multiclassing",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 71](source/pathfinder_unchained)",
@@ -7725,6 +7903,7 @@
 	},
 	"linguistics": {
 		"name": "Linguistics",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 71](source/pathfinder_unchained)",
@@ -7745,6 +7924,7 @@
 	},
 	"innate_item_bonuses": {
 		"name": "Innate Item Bonuses",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 158](source/pathfinder_unchained)",
@@ -7791,6 +7971,7 @@
 	},
 	"bonus_and_price_overview": {
 		"name": "Bonus and Price Overview",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 158](source/pathfinder_unchained)",
@@ -7817,6 +7998,7 @@
 	},
 	"wondrous_items_pu": {
 		"name": "Wondrous Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 158](source/pathfinder_unchained)",
@@ -7893,6 +8075,7 @@
 	},
 	"rings_pu": {
 		"name": "Rings",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 159](source/pathfinder_unchained)",
@@ -7928,6 +8111,7 @@
 	},
 	"arms_and_armor": {
 		"name": "Arms and Armor",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 159](source/pathfinder_unchained)",
@@ -7950,6 +8134,7 @@
 	},
 	"removing_alignment": {
 		"name": "Removing Alignment",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 100](source/pathfinder_unchained)",
@@ -7995,6 +8180,7 @@
 	},
 	"loyalties": {
 		"name": "Loyalties",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 100](source/pathfinder_unchained)",
@@ -8016,6 +8202,7 @@
 	},
 	"classes": {
 		"name": "Classes",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 100](source/pathfinder_unchained)",
@@ -8047,6 +8234,7 @@
 	},
 	"creatures,_spells,_and_effects": {
 		"name": "Creatures, Spells, and Effects",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 100](source/pathfinder_unchained)",

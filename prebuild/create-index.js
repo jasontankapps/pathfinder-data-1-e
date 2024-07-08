@@ -1776,7 +1776,7 @@ const dataIndex = [];
 
 Object.entries(basic_data_groups).forEach(([file, pair]) => {
 	const data = GET(file);
-	const {proplink, link, num, type, properties = []} = pair;
+	const {proplink, link, num, type, properties = [], subtitle, tags} = pair;
 	if(!checkForType[type]) {
 		checkForType[type] = types.length;
 		types.push(type);
@@ -1820,8 +1820,11 @@ Object.entries(basic_data_groups).forEach(([file, pair]) => {
 		}
 		// Deal with a blank name
 		named = named || "BLANK";
+		subtitle && (named = named + ` (${subtitle})`);
 		// Save for search index, used directly by Fuse.js
-		fuseIndex.push({ name: named });
+		const indexable = { name: named };
+		tags && (indexable.tags = tags);
+		fuseIndex.push(indexable);
 		// Save for extra data to be used by the search page
 		dataIndex.push({
 			t: checkForType[type],

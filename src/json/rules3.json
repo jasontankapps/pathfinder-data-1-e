@@ -62,6 +62,7 @@
 	},
 	"crowd_attitudes": {
 		"name": "Crowd Attitudes",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 153](source/ultimate_combat)",
@@ -104,6 +105,7 @@
 	},
 	"crowd's_starting_attitude": {
 		"name": "Crowd's Starting Attitude",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 154](source/ultimate_combat)",
@@ -242,6 +244,7 @@
 	},
 	"affecting_the_crowd's_attitude": {
 		"name": "Affecting the Crowd's Attitude",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
@@ -278,6 +281,7 @@
 	},
 	"swift_action_checks": {
 		"name": "Swift Action Checks",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
@@ -315,6 +319,7 @@
 	},
 	"free_action_or_immediate_action_checks": {
 		"name": "Free Action or Immediate Action Checks",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
@@ -346,6 +351,7 @@
 	},
 	"mandatory_checks": {
 		"name": "Mandatory Checks",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
@@ -375,6 +381,7 @@
 	},
 	"victory_points": {
 		"name": "Victory Points",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
@@ -406,6 +413,7 @@
 	},
 	"determining_a_winner": {
 		"name": "Determining a Winner",
+		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
@@ -712,6 +720,8 @@
 	},
 	"buildings_uc": {
 		"name": "Buildings",
+		"subtitle": "Structures",
+		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
@@ -745,6 +755,8 @@
 	},
 	"gates": {
 		"name": "Gates",
+		"subtitle": "Structures",
+		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
@@ -780,6 +792,8 @@
 	},
 	"walls_uc": {
 		"name": "Walls",
+		"subtitle": "Structures",
+		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
@@ -837,6 +851,7 @@
 	},
 	"casting_spells": {
 		"name": "Casting Spells",
+		"tag": "spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
@@ -893,13 +908,13 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
 	},
 	"concentration": {
 		"name": "Concentration",
+		"tags": "spells magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
@@ -954,7 +969,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -990,7 +1004,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -1018,7 +1031,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -1044,31 +1056,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
-			"special_spell_effects",
-			"combining_magic_effects"
-		]
-	},
-	"the_spell's_results": {
-		"name": "The Spell's Results",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
-			"",
-			"Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a spell entails."
-		],
-		"parent_topics": [
-			"magic",
-			"magic_basics",
-			"casting_spells"
-		],
-		"siblings": [
-			"choosing_a_spell",
-			"concentration",
-			"counterspells",
-			"caster_level",
-			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -1078,6 +1065,8 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
+			"",
+			"Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a spell entails.",
 			"",
 			"Many special spell effects are handled according to the school of the spells in question. Certain other special spell features are found across spell schools.",
 			"",
@@ -1106,7 +1095,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -1146,7 +1134,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		]
@@ -1164,11 +1151,8 @@
 			"magic_basics"
 		],
 		"subtopics": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1186,43 +1170,31 @@
 			"special_abilities"
 		]
 	},
-	"name": {
-		"name": "Name",
+	"school_subschool": {
+		"name": "Name, School, Subschool, Descriptor",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
 			"",
-			"The first line of every spell description gives the name by which the spell is generally known."
-		],
-		"parent_topics": [
-			"magic",
-			"magic_basics",
-			"spell_descriptions"
-		],
-		"siblings": [
-			"name",
-			"school_subschool",
-			"descriptor",
-			"level",
-			"components",
-			"casting_time",
-			"range",
-			"aiming_a_spell",
-			"duration",
-			"saving_throw",
-			"spell_resistance",
-			"descriptive_text"
-		]
-	},
-	"school_subschool": {
-		"name": "School (Subschool)",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
+			"The first line of every spell description gives the name by which the spell is generally known.",
 			"",
 			"Beneath the spell name is a line giving the school of magic (and the subschool, if any) to which the spell belongs.",
 			"",
-			"Almost every spell belongs to one of eight schools of magic. A school of magic is a group of related spells that work in similar ways. A small number of spells (arcane mark, limited wish, permanency, prestidigitation, and wish) are universal, belonging to no school."
+			"Almost every spell belongs to one of eight schools of magic. A school of magic is a group of related spells that work in similar ways. A small number of spells (arcane mark, limited wish, permanency, prestidigitation, and wish) are universal, belonging to no school.",
+			"",
+			"See the subtopics for explanations of each school.",
+			"",
+			"Appearing on the same line as the school and subschool, when applicable, is a descriptor that further categorizes the spell in some way. Some spells have more than one descriptor.",
+			"",
+			"The descriptors are [acid](spelldef/acid), [air](spelldef/air), [chaotic](spelldef/chaotic), [cold](spelldef/cold), [curse](spelldef/curse), [darkness](spelldef/darkness), [death](spelldef/death), [disease](spelldef/disease), [draconic](spelldef/draconic), [earth](spelldef/earth), [electricity](spelldef/electricity), [emotion](spelldef/emotion), [evil](spelldef/evil), [fear](spelldef/fear), [fire](spelldef/fire), [force](spelldef/force), [good](spelldef/good), [language-dependent](spelldef/language-dependent), [lawful](spelldef/lawful), [light](spelldef/light), [meditative](spelldef/meditative), [mind-affecting](spelldef/mind-affecting), [pain](spelldef/pain), [poison](spelldef/poison), [ruse](spelldef/ruse), [shadow](spelldef/shadow_descriptor), [sonic](spelldef/sonic), and [water](spelldef/water).",
+			"",
+			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
+			"",
+			"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or cannot hear what the caster of a language- dependant spell says, the spell fails.",
+			"",
+			"A mind-affecting spell works only against creatures with an Intelligence score of 1 or higher."
 		],
 		"parent_topics": [
 			"magic",
@@ -1240,11 +1212,8 @@
 			"transmutation"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1532,75 +1501,15 @@
 			"transmutation"
 		]
 	},
-	"descriptor": {
-		"name": "Descriptor",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 212](source/prpg_core_rulebook)",
-			"",
-			"Appearing on the same line as the school and subschool, when applicable, is a descriptor that further categorizes the spell in some way. Some spells have more than one descriptor.",
-			"",
-			"The descriptors are [acid](spelldef/acid), [air](spelldef/air), [chaotic](spelldef/chaotic), [cold](spelldef/cold), [curse](spelldef/curse), [darkness](spelldef/darkness), [death](spelldef/death), [disease](spelldef/disease), [draconic](spelldef/draconic), [earth](spelldef/earth), [electricity](spelldef/electricity), [emotion](spelldef/emotion), [evil](spelldef/evil), [fear](spelldef/fear), [fire](spelldef/fire), [force](spelldef/force), [good](spelldef/good), [language-dependent](spelldef/language-dependent), [lawful](spelldef/lawful), [light](spelldef/light), [meditative](spelldef/meditative), [mind-affecting](spelldef/mind-affecting), [pain](spelldef/pain), [poison](spelldef/poison), [ruse](spelldef/ruse), [shadow](spelldef/shadow_descriptor), [sonic](spelldef/sonic), and [water](spelldef/water).",
-			"",
-			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
-			"",
-			"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or cannot hear what the caster of a language- dependant spell says, the spell fails.",
-			"",
-			"A mind-affecting spell works only against creatures with an Intelligence score of 1 or higher."
-		],
-		"parent_topics": [
-			"magic",
-			"magic_basics",
-			"spell_descriptions"
-		],
-		"siblings": [
-			"name",
-			"school_subschool",
-			"descriptor",
-			"level",
-			"components",
-			"casting_time",
-			"range",
-			"aiming_a_spell",
-			"duration",
-			"saving_throw",
-			"spell_resistance",
-			"descriptive_text"
-		]
-	},
 	"level": {
-		"name": "Level",
+		"name": "Level, Components",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 212](source/prpg_core_rulebook)",
 			"",
-			"The next line of a spell description gives the spell's level, a number between 0 and 9 that defines the spell's relative power. This number is preceded by a list of classes whose members can cast the spell. A spell's level affects the DC for any save allowed against its effects."
-		],
-		"parent_topics": [
-			"magic",
-			"magic_basics",
-			"spell_descriptions"
-		],
-		"siblings": [
-			"name",
-			"school_subschool",
-			"descriptor",
-			"level",
-			"components",
-			"casting_time",
-			"range",
-			"aiming_a_spell",
-			"duration",
-			"saving_throw",
-			"spell_resistance",
-			"descriptive_text"
-		]
-	},
-	"components": {
-		"name": "Components",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 212](source/prpg_core_rulebook)",
+			"The next line of a spell description gives the spell's level, a number between 0 and 9 that defines the spell's relative power. This number is preceded by a list of classes whose members can cast the spell. A spell's level affects the DC for any save allowed against its effects.",
 			"",
 			"A spell's components explain what you must do or possess to cast the spell. The components entry in a spell description includes abbreviations that tell you what type of components it requires. Specifics for material and focus components are given at the end of the descriptive text. Usually you don't need to worry about components, but when you can't use a component for some reason or when a material or focus component is expensive, then the components are important.",
 			"",
@@ -1622,11 +1531,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1638,6 +1544,8 @@
 	},
 	"casting_time": {
 		"name": "Casting Time",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
@@ -1660,11 +1568,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1676,6 +1581,8 @@
 	},
 	"range": {
 		"name": "Range",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
@@ -1702,11 +1609,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1718,6 +1622,7 @@
 	},
 	"aiming_a_spell": {
 		"name": "Aiming a Spell",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
@@ -1792,11 +1697,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1808,6 +1710,8 @@
 	},
 	"duration": {
 		"name": "Duration",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 215](source/prpg_core_rulebook)",
@@ -1842,11 +1746,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1858,6 +1759,8 @@
 	},
 	"saving_throw": {
 		"name": "Saving Throw",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 216](source/prpg_core_rulebook)",
@@ -1909,11 +1812,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1925,6 +1825,8 @@
 	},
 	"spell_resistance": {
 		"name": "Spell Resistance",
+		"subtitle": "Spell Description",
+		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 217](source/prpg_core_rulebook)",
@@ -1933,7 +1835,7 @@
 			"",
 			"The Spell Resistance entry and the descriptive text of a spell description tell you whether spell resistance protects creatures from the spell. In many cases, spell resistance applies only when a resistant creature is targeted by the spell, not when a resistant creature encounters a spell that is already in place.",
 			"",
-			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for saving throws. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
+			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for [saving throws](rule/saving_throw). A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
 		],
 		"parent_topics": [
 			"magic",
@@ -1941,11 +1843,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -1957,6 +1856,7 @@
 	},
 	"descriptive_text": {
 		"name": "Descriptive Text",
+		"subtitle": "Spell Description",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 218](source/prpg_core_rulebook)",
@@ -1969,11 +1869,8 @@
 			"spell_descriptions"
 		],
 		"siblings": [
-			"name",
 			"school_subschool",
-			"descriptor",
 			"level",
-			"components",
 			"casting_time",
 			"range",
 			"aiming_a_spell",
@@ -2348,6 +2245,7 @@
 	},
 	"new_divine_spells": {
 		"name": "New Divine Spells",
+		"subtitle": "From Levelling Up",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 221](source/prpg_core_rulebook)",
@@ -2398,6 +2296,7 @@
 	},
 	"components_oa": {
 		"name": "Components",
+		"subtitle": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
@@ -2426,6 +2325,7 @@
 	},
 	"undercasting_spells": {
 		"name": "Undercasting Spells",
+		"subtitle": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
@@ -2783,6 +2683,7 @@
 	},
 	"benefits_of_harmful_conditions": {
 		"name": "Benefits of Harmful Conditions",
+		"subtitle": "Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 98](source/ultimate_magic)",
@@ -2853,6 +2754,7 @@
 	},
 	"starting_a_duel_um": {
 		"name": "Starting a Duel",
+		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 99](source/ultimate_magic)",
@@ -2880,6 +2782,7 @@
 	},
 	"duel_combat_um": {
 		"name": "Duel Combat",
+		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 99](source/ultimate_magic)",
@@ -2908,6 +2811,7 @@
 	},
 	"duel_counter": {
 		"name": "Duel Counter",
+		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 100](source/ultimate_magic)",
@@ -2943,6 +2847,7 @@
 	},
 	"duel_results_um": {
 		"name": "Duel Results",
+		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 100](source/ultimate_magic)",
@@ -2991,6 +2896,7 @@
 	},
 	"calling_outsiders": {
 		"name": "Calling Outsiders",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
@@ -3015,6 +2921,7 @@
 	},
 	"clerics_and_oracles": {
 		"name": "Clerics and Oracles",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
@@ -3036,6 +2943,7 @@
 	},
 	"wizards,_sorcerers,_and_summoners": {
 		"name": "Wizards, Sorcerers, and Summoners",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
@@ -3061,6 +2969,7 @@
 	},
 	"true_names": {
 		"name": "True Names",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
@@ -3089,6 +2998,7 @@
 	},
 	"dealing_with_outsiders": {
 		"name": "Dealing with Outsiders",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 102](source/ultimate_magic)",
@@ -3127,6 +3037,7 @@
 	},
 	"anathematic_substances": {
 		"name": "Anathematic Substances",
+		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 102](source/ultimate_magic)",
@@ -3196,6 +3107,7 @@
 	},
 	"aeon": {
 		"name": "Aeon",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 103](source/ultimate_magic)",
@@ -3238,6 +3150,7 @@
 	},
 	"agathion": {
 		"name": "Agathion",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 103](source/ultimate_magic)",
@@ -3284,6 +3197,7 @@
 	},
 	"angels": {
 		"name": "Angels",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 104](source/ultimate_magic)",
@@ -3328,6 +3242,7 @@
 	},
 	"archons": {
 		"name": "Archons",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 104](source/ultimate_magic)",
@@ -3370,6 +3285,7 @@
 	},
 	"azata": {
 		"name": "Azata",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 105](source/ultimate_magic)",
@@ -3414,6 +3330,7 @@
 	},
 	"daemons": {
 		"name": "Daemons",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 105](source/ultimate_magic)",
@@ -3468,6 +3385,7 @@
 	},
 	"demons": {
 		"name": "Demons",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 106](source/ultimate_magic)",
@@ -3532,6 +3450,7 @@
 	},
 	"devils": {
 		"name": "Devils",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 107](source/ultimate_magic)",
@@ -3594,6 +3513,7 @@
 	},
 	"elementals_and_genies": {
 		"name": "Elementals and Genies",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 108](source/ultimate_magic)",
@@ -3666,6 +3586,7 @@
 	},
 	"inevitables": {
 		"name": "Inevitables",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 109](source/ultimate_magic)",
@@ -3706,6 +3627,7 @@
 	},
 	"proteans": {
 		"name": "Proteans",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
@@ -3746,6 +3668,7 @@
 	},
 	"qlippoth": {
 		"name": "Qlippoth",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
@@ -3792,6 +3715,7 @@
 	},
 	"other_outsiders": {
 		"name": "Other Outsiders",
+		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
@@ -3878,7 +3802,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 111](source/ultimate_magic)",
 			"",
-			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the Craft Constructs feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the [Animated Object monster entry](monster/animated_object_monster_entry).",
+			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the [Craft Constructs](feat/craft_construct) feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the [Animated Object monster entry](monster/animated_object).",
 			"",
 			"**Augmented Critical (Ex, 1 CP):** Increase the threat range for the animated object's melee attacks by 1 or the threat multiplier by 1. This cannot combine with itself or with the piercing attack or slashing attack object abilities.",
 			"",
@@ -4013,6 +3937,7 @@
 	},
 	"basic_modifications": {
 		"name": "Basic Modifications",
+		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)",
@@ -4040,6 +3965,7 @@
 	},
 	"complex_modifications": {
 		"name": "Complex Modifications",
+		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)",
@@ -4106,6 +4032,7 @@
 	},
 	"the_golden_rule": {
 		"name": "The Golden Rule",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
@@ -4149,6 +4076,7 @@
 	},
 	"spell_terminology": {
 		"name": "Spell Terminology",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
@@ -4190,6 +4118,7 @@
 	},
 	"intended_level": {
 		"name": "Intended Level",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
@@ -4229,6 +4158,7 @@
 	},
 	"function": {
 		"name": "Function",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
@@ -4281,6 +4211,7 @@
 	},
 	"spell_research": {
 		"name": "Spell Research",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
@@ -4320,6 +4251,7 @@
 	},
 	"spell_damage": {
 		"name": "Spell Damage",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
@@ -4359,6 +4291,7 @@
 	},
 	"target": {
 		"name": "Target",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
@@ -4402,6 +4335,7 @@
 	},
 	"damage_caps": {
 		"name": "Damage Caps",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
@@ -4479,6 +4413,7 @@
 	},
 	"range_um": {
 		"name": "Range",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 130](source/ultimate_magic)",
@@ -4522,6 +4457,7 @@
 	},
 	"duration_um": {
 		"name": "Duration",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 130](source/ultimate_magic)",
@@ -4561,6 +4497,7 @@
 	},
 	"saving_throw_um": {
 		"name": "Saving Throw",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 131](source/ultimate_magic)",
@@ -4616,6 +4553,7 @@
 	},
 	"spell_resistance_um": {
 		"name": "Spell Resistance",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 132](source/ultimate_magic)",
@@ -4663,6 +4601,7 @@
 	},
 	"casting_time_um": {
 		"name": "Casting Time",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 132](source/ultimate_magic)",
@@ -4706,6 +4645,7 @@
 	},
 	"components_um": {
 		"name": "Components",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 133](source/ultimate_magic)",
@@ -4755,6 +4695,7 @@
 	},
 	"school": {
 		"name": "School",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 133](source/ultimate_magic)",
@@ -4794,6 +4735,7 @@
 	},
 	"bonus_type": {
 		"name": "Bonus Type",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 134](source/ultimate_magic)",
@@ -4859,6 +4801,7 @@
 	},
 	"description_um": {
 		"name": "Description",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 134](source/ultimate_magic)",
@@ -4908,6 +4851,7 @@
 	},
 	"hierarchy_of_attack_effects": {
 		"name": "Hierarchy of Attack Effects",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 135](source/ultimate_magic)",
@@ -4961,6 +4905,7 @@
 	},
 	"depletable_statistics": {
 		"name": "Depletable Statistics",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 135](source/ultimate_magic)",
@@ -5004,6 +4949,7 @@
 	},
 	"core_is_king": {
 		"name": "Core is King",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 136](source/ultimate_magic)",
@@ -5045,6 +4991,7 @@
 	},
 	"multipurpose_spells": {
 		"name": "Multipurpose Spells",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 136](source/ultimate_magic)",
@@ -5094,6 +5041,7 @@
 	},
 	"choosing_descriptors": {
 		"name": "Choosing Descriptors",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 137](source/ultimate_magic)",
@@ -5183,6 +5131,7 @@
 	},
 	"benchmarks": {
 		"name": "Benchmarks",
+		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
@@ -5233,6 +5182,7 @@
 	},
 	"1st_level": {
 		"name": "1st Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
@@ -5261,6 +5211,7 @@
 	},
 	"2nd_level": {
 		"name": "2nd Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
@@ -5291,6 +5242,7 @@
 	},
 	"3rd_level": {
 		"name": "3rd Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5329,6 +5281,7 @@
 	},
 	"4th_level": {
 		"name": "4th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5359,6 +5312,7 @@
 	},
 	"5th_level": {
 		"name": "5th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5391,6 +5345,7 @@
 	},
 	"6th_level": {
 		"name": "6th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5419,6 +5374,7 @@
 	},
 	"7th_level": {
 		"name": "7th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5445,6 +5401,7 @@
 	},
 	"8th_level": {
 		"name": "8th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5475,6 +5432,7 @@
 	},
 	"9th_level": {
 		"name": "9th Level",
+		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
@@ -5515,18 +5473,12 @@
 			"artificial_intelligence"
 		],
 		"description": [
-			"### Technology",
-			"",
-			"- [Crafting High-Tech Items](rule/crafting_high_tech_items)",
-			"- [Technological Equipment](rule/technological_equipment)",
-			"- [Timeworn Technology](rule/timeworn_technology)",
-			"- [Radiation](rule/radiation)",
-			"- [Traps and Technology](rule/traps_and_technology)",
-			"- [Artificial Intelligence](rule/artificial_intelligence)"
+			"This section covers topics related to high-tech items and effects."
 		]
 	},
 	"crafting_high_tech_items": {
 		"name": "Crafting High-Tech Items",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [ "technology" ],
 		"description": [
@@ -5558,6 +5510,8 @@
 	},
 	"crafting_laboritories": {
 		"name": "Crafting Laboratories",
+		"subtitle": "High-Tech Items",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [
 			"technology",
@@ -5588,6 +5542,8 @@
 	},
 	"hybrid_items": {
 		"name": "Hybrid Items",
+		"subtitle": "High-Tech Items",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [
 			"technology",
@@ -5606,6 +5562,7 @@
 	},
 	"pricing_and_creating_new_technological_items": {
 		"name": "Pricing and Creating New Technological Items",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [
 			"technology",
@@ -5622,6 +5579,7 @@
 	},
 	"technological_equipment": {
 		"name": "Technological Equipment",
+		"tags": "Technology",
 		"parent_topics": [ "technology" ],
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -5640,6 +5598,8 @@
 			"**Cybertech:** Cybertech is a form of technology that must be implanted in a body before it can function. Cybertech typically augments a character's abilities and statistics.",
 			"",
 			"**Technological Gear:** This catchall category includes a wide range of devices, from relatively minor gizmos like zipsticks to technological wonders like clonepods.",
+			"",
+			"Technological items can be found [here](main/equipment) under the **Technological Equipment** section.",
 			"",
 			"### Color Code",
 			"",
@@ -5682,6 +5642,7 @@
 	},
 	"timeworn_technology": {
 		"name": "Timeworn Technology",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [ "technology" ],
 		"description": [
@@ -5712,6 +5673,7 @@
 	},
 	"radiation": {
 		"name": "Radiation",
+		"tags": "Technology",
 		"parent_topics": [ "technology" ],
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -5743,6 +5705,7 @@
 	},
 	"traps_and_technology": {
 		"name": "Traps and Technology",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [ "technology" ],
 		"description": [
@@ -5785,6 +5748,7 @@
 	},
 	"artificial_intelligence": {
 		"name": "Artificial Intelligence",
+		"tags": "Technology AI",
 		"sources": [ "Technology Guide" ],
 		"subtopics": [ "creating_an_ai" ],
 		"parent_topics": [ "technology" ],
@@ -5806,6 +5770,7 @@
 	},
 	"creating_an_ai": {
 		"name": "Creating an AI",
+		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [
 			"technology",
@@ -5958,6 +5923,7 @@
 	},
 	"bouyancy": {
 		"name": "Bouyancy",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort. Land-dwelling creatures generally have a sinking buoyancy unless they are carrying a substantial amount of low-density gear (like wooden items, at least until they become waterlogged) and little or no high-density gear (such as items made from metal or stone). [Air tanks](equipment/misc/air_tank) in particular make it much easier to change your buoyancy to rising. It's also possible to adjust an air tank to hold just enough air to achieve a neutral buoyancy-but once a creature has done so, if it picks up other objects or uses the tank to breathe underwater, it loses its neutral buoyancy until it readjusts (which may require returning to the surface to refill the air tank). In addition to these three normal states of buoyancy, there are two extreme states: swiftly sinking and swiftly rising. If a creature is swiftly sinking, it and its gear are so dense that it can walk on the bottom of the body of water, but it also needs to succeed at a DC 20 Swim check to swim towards the surface or to stay off the bottom. A creature carrying plenty of dense stone or metal items gains this buoyancy state. If a creature is swiftly rising, it needs to succeed at a DC 20 Swim check to submerge itself and stay submerged; a sizable air tank or other flotation device, or the help of magic, is needed to achieve this state.",
@@ -5982,6 +5948,7 @@
 	},
 	"thinking_in_three_dimensions": {
 		"name": "Thinking in Three Dimensions",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"While flying creatures can add a third dimension to land-based combat, such creatures are an exception rather than the rule. The main challenge three-dimensional adventuring presents is representing a creature's vertical position during combat. This challenge is tougher than usual because most flying in adventures still involves encounters relatively close to the ground, rather than in the open sky, but plenty of encounters in an underwater adventure may occur in open water, nowhere near the surface or bottom. Typical solutions for flying creatures like using stackable tokens or transparent dice boxes to elevate the flying creature all depend on the main map being a consistent bottom altitude, but in an underwater fight, the combatants could just as easily move farther down. One way to avoid physically representing the third dimension is to use your imagination instead of a battlemap, but given that it's even harder to keep track of all three dimensions in your head, it becomes difficult to keep accurate relative distances that way. Another simple way to handle it is to mark a creature's depth relative to its starting depth, either on a small token you move along with the creature or directly on the battle map. This solution doesn't involve as much work as creating a complicated three-dimensional representation of the battle, but it isn't always easy to judge the relative vertical position without looking at the numbers and thinking about them. In the end, use the solution that works best for you whether that's judging distances in your head or crafting elaborate physical representations.",
@@ -6002,6 +5969,7 @@
 	},
 	"fighting_underwater": {
 		"name": "Fighting Underwater",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Combat underwater is more complex than on land, both because of the three-dimensional nature of the environment, and because being underwater changes how many actions work. This section contains rules advice and adjudication for major factors that change because of the water.",
@@ -6021,6 +5989,8 @@
 	},
 	"physical_attacks": {
 		"name": "Physical Attacks",
+		"subtitle": "Aquatic Adventures",
+		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"One of the most immediately noticeable differences when fighting underwater is that slashing and bludgeoning attacks are made with a -2 penalty and deal half damage, making piercing weapons the best bet for an underwater adventure. If you're off-balance (see [Off-Balance and Prone Underwater](rule/off-balance_and_prone_underwater)), your attacks with piercing weapons also take a -2 penalty and deal half damage. [Freedom of movement](spell/freedom_of_movement) can negate these penalties entirely and has [a variety of other effects](rule/freedom_of_movement). Additionally, [Aquadynamic Focus](feat/aquadynamic_focus) can specifically assist with this situation. Creatures with a natural swim speed from the aquatic or water subtype don't take these penalties with their inherent natural attacks. For instance, a kraken's bludgeoning tentacle attacks don't take penalties, but if it took the ectoplasmatist [spiritualist](class/spiritualist) archetype and gained two slashing ectoplasmic lash attacks, those would still take the penalties. Attacks that deal bludgeoning damage by pushing water, such as a [kineticist's](class/kineticist) water blast, also take no penalty and deal full damage underwater.",
@@ -6045,6 +6015,8 @@
 	},
 	"off-balance_and_prone_underwater": {
 		"name": "Physical Attacks",
+		"subtitle": "Aquatic Adventures",
+		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"\"Off-balance\" is a special state (though not technically a condition) that is listed in the [Combat Adjustments Underwater table](rule/underwater_combat). A creature off-balance in the water loses its Dexterity bonus to AC, its opponents gain a +2 bonus on attack rolls against it, and attacks it makes with piercing weapons are made at a -2 penalty and deal half damage. A creature typically becomes off-balance by failing a Swim check, which makes it off-balance for a round, even if it has a neutral buoyancy and doesn't sink or rise.",
@@ -6065,6 +6037,8 @@
 	},
 	"freedom_of_movement": {
 		"name": "Physical Attacks",
+		"subtitle": "Aquatic Adventures",
+		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"In addition to preventing a character from being grappled and several other nasty conditions, [freedom of movement](spell/freedom_of_movement) enables the target to move and attack normally while underwater. Thus, a creature benefitting from freedom of movement can swing weapons without penalties (though objects that leave its possession, like thrown weapons or ammo from ranged weapons, lose this benefit), lift objects without drag, and walk along the bottom at full speed. The creature automatically succeeds at all Swim checks as the water offers no significant resistance to its movement. If the creature has the ability to do so, it can fly or use spells like [air walk](spell/air_walk) to freely move around as if it were in air. Creatures who need just the movement benefits from freedom of movement without the benefits against grapple, paralysis, and magic effects that hinder movement should consider the lower-level spell [free swim](spell/free_swim)."
@@ -6083,6 +6057,8 @@
 	},
 	"spells": {
 		"name": "Physical Attacks",
+		"subtitle": "Aquatic Adventures",
+		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"While various spells have different effects underwater, the most fundamental hindrance to spellcasting, at least at low levels, is the fact that a creature holding its breath must succeed at a concentration check (DC = 15 + spell level) to cast a spell at all, whether or not the spell has a verbal component. If the spell has a verbal component, expelling the air needed to incant the spell reduces the creature's remaining number of rounds of breath by 3 (which stacks with the reduction from performing a standard or full-round action; see the [Drowning section](rule/drowning_aa).), and a creature can't finish the spell if it doesn't have enough breath left. Spells that have verbal components and casting times of swift or immediate actions instead decrease the caster's remaining number of rounds of breath by 1. Mundane spell components generally work fine underwater as long as they're stored in watertight containers, and aquatic-appropriate substitutions exist for any mundane component that would be inherently impossible to use underwater. The Core Rulebook describes the effect of fire spells underwater; some other spells exist that function differently.",
@@ -6115,6 +6091,7 @@
 	},
 	"underwater_hazards_and_features": {
 		"name": "Underwater Hazards and Features",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"In addition to the ways in which being underwater affects normal actions, an underwater environment presents a variety of special dangers and features that can prove hazardous to surface-dwellers and aquatic creatures alike."
@@ -6132,6 +6109,7 @@
 	},
 	"drowning_aa": {
 		"name": "Drowning",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action-generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the suffocation spell from the Advanced Player's Guide, can expel all of a creature's held breath.",
@@ -6154,6 +6132,7 @@
 	},
 	"oceanic_zones": {
 		"name": "Oceanic Zones",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"The ocean is divided into four zones: the sunlight zone (from the surface to 600 feet below), the twilight zone (from 600 feet down to 3,300 feet), the midnight zone (from 3,300 feet down to 13,000 feet-which often reaches the bottom), and the Abyssal zone (from 13,000 feet to the bottom in depths greater than 13,000 feet). Some oceanographers add a fifth zone, the Abaddonian zone, which describes areas 20,000 feet and below in the deepest ocean trenches.",
@@ -6188,6 +6167,7 @@
 	},
 	"currents_and_running_water": {
 		"name": "Currents and Running Water",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Currents in the ocean (or a similarly large body of water) work similarly to rivers. Each current has a particular speed (measured in feet per round), width, and direction, and at the beginning of a creature's turn, the current pushes it that distance. This movement provokes attacks of opportunity to creatures not in the same current. A creature can try to swim against the current's flow on its turn to stay in place, but it's usually a better idea to swim perpendicular to the current to reach the edge and exit the current. Fortunately, while rivers can reach speeds up to 90 feet per round, the fastest natural ocean currents are usually not much faster than 50 feet per round in the sunlight zone, and are slower the deeper one travels. This is because currents are mainly influenced by the weather near the surface and tiny discrepancies in temperature far below the surface, and the effects of the latter are not as strong. Currents always count as at least rough water (Swim DC 15), and faster currents count as at least stormy water (Swim DC 20).",
@@ -6208,6 +6188,7 @@
 	},
 	"whirlpools": {
 		"name": "Whirlpools",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in a circle and generating a centripetal force to pull nearby creatures and objects into the whirlpool and prevent those caught in the whirlpool from leaving. Whirlpool movement doesn't normally provoke attacks of opportunity, because no one caught in the current is in a position to make one. Conditions are so rough in maelstroms that Swim checks reach DC 40 or higher. Creatures caught in a whirlpool take 1d6 points of bludgeoning damage per round for every 50 feet of the whirlpool's speed. Sometimes the only way to survive a whirlpool is to reach the center, since-unlike when a water elemental creates and controls a whirlpool with mischief in mind-a natural whirlpool eventually drags its captives to the bottom and out."

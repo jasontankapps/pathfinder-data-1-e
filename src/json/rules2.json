@@ -1,6 +1,7 @@
 {
 	"scrolls": {
 		"name": "Scrolls",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 490](source/prpg_core_rulebook)",
@@ -111,6 +112,7 @@
 	},
 	"staves": {
 		"name": "Staves",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 491](source/prpg_core_rulebook)",
@@ -171,6 +173,7 @@
 	},
 	"wands": {
 		"name": "Wands",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)",
@@ -243,6 +246,7 @@
 	},
 	"wondrous_items": {
 		"name": "Wondrous Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)",
@@ -297,6 +301,7 @@
 	},
 	"intelligent_items": {
 		"name": "Intelligent Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 532](source/prpg_core_rulebook)",
@@ -359,6 +364,7 @@
 	},
 	"designing_an_intelligent_item": {
 		"name": "Designing an Intelligent Item",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 532](source/prpg_core_rulebook)",
@@ -387,6 +393,7 @@
 	},
 	"intelligent_item_alignment": {
 		"name": "Intelligent Item Alignment",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
@@ -429,6 +436,7 @@
 	},
 	"intelligent_item_ability_scores": {
 		"name": "Intelligent Item Ability Scores",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
@@ -469,6 +477,7 @@
 	},
 	"languages_spoken_by_item": {
 		"name": "Languages Spoken by Item",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
@@ -495,6 +504,7 @@
 	},
 	"senses_and_communication": {
 		"name": "Senses and Communication",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
@@ -546,6 +556,7 @@
 	},
 	"intelligent_item_powers": {
 		"name": "Intelligent Item Powers",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
@@ -594,6 +605,7 @@
 	},
 	"special_purpose_items": {
 		"name": "Special Purpose Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
@@ -640,6 +652,7 @@
 	},
 	"dedicated_powers": {
 		"name": "Dedicated Powers",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
@@ -678,6 +691,7 @@
 	},
 	"item_ego": {
 		"name": "Item Ego",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
@@ -715,6 +729,7 @@
 	},
 	"items_against_characters": {
 		"name": "Items against Characters",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
@@ -765,6 +780,7 @@
 	},
 	"cursed_items": {
 		"name": "Cursed Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 536](source/prpg_core_rulebook)",
@@ -816,6 +832,7 @@
 	},
 	"common_cursed_item_effects": {
 		"name": "Common Cursed Item Effects",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 536](source/prpg_core_rulebook)",
@@ -941,6 +958,7 @@
 	},
 	"artifacts": {
 		"name": "Artifacts",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 543](source/prpg_core_rulebook)",
@@ -995,6 +1013,7 @@
 	},
 	"minor_artifacts": {
 		"name": "Minor Artifacts",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 543](source/prpg_core_rulebook)",
@@ -1013,6 +1032,7 @@
 	},
 	"major_artifacts": {
 		"name": "Major Artifacts",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 547](source/prpg_core_rulebook)",
@@ -1310,6 +1330,7 @@
 	},
 	"creating_potions": {
 		"name": "Creating Potions",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 551](source/prpg_core_rulebook)",
@@ -1377,6 +1398,7 @@
 	},
 	"creating_rings": {
 		"name": "Creating Rings",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 551](source/prpg_core_rulebook)",
@@ -1433,6 +1455,7 @@
 	},
 	"creating_rods": {
 		"name": "Creating Rods",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
@@ -1489,6 +1512,7 @@
 	},
 	"creating_scrolls": {
 		"name": "Creating Scrolls",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
@@ -1564,6 +1588,7 @@
 	},
 	"creating_staves": {
 		"name": "Creating Staves",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
@@ -1624,6 +1649,7 @@
 	},
 	"creating_wands": {
 		"name": "Creating Wands",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
@@ -1692,6 +1718,7 @@
 	},
 	"creating_wondrous_items": {
 		"name": "Creating Wondrous Items",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
@@ -1748,6 +1775,7 @@
 	},
 	"adding_new_abilities": {
 		"name": "Adding New Abilities",
+		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
@@ -1888,6 +1916,7 @@
 	},
 	"drivers": {
 		"name": "Drivers",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 170](source/ultimate_combat)",
@@ -1916,6 +1945,7 @@
 	},
 	"occupants": {
 		"name": "Occupants",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 171](source/ultimate_combat)",
@@ -1942,6 +1972,7 @@
 	},
 	"propulsion_and_driving_checks": {
 		"name": "Propulsion and Driving Checks",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 171](source/ultimate_combat)",
@@ -2125,6 +2156,7 @@
 	},
 	"optional_rule_wide_turns": {
 		"name": "Optional Rule: Wide Turns",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
@@ -2307,6 +2339,7 @@
 	},
 	"propulsion_devices": {
 		"name": "Propulsion Devices",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 176](source/ultimate_combat)",
@@ -2352,6 +2385,7 @@
 	},
 	"driving_devices": {
 		"name": "Driving Devices",
+		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 177](source/ultimate_combat)",
@@ -3559,6 +3593,7 @@
 	},
 	"initiative": {
 		"name": "Initiative",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -3583,6 +3618,7 @@
 	},
 	"surprise": {
 		"name": "Surprise",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -3643,6 +3679,7 @@
 	},
 	"attack_roll": {
 		"name": "Attack Roll",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -3668,6 +3705,7 @@
 	},
 	"attack_bonus": {
 		"name": "Attack Bonus",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -3697,6 +3735,7 @@
 	},
 	"armor_class": {
 		"name": "Armor Class",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
@@ -3754,6 +3793,7 @@
 	},
 	"damage": {
 		"name": "Damage",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
@@ -3793,6 +3833,7 @@
 	},
 	"hit_points": {
 		"name": "Hit Points",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
@@ -3816,6 +3857,7 @@
 	},
 	"attacks_of_opportunity": {
 		"name": "Attacks of Opportunity",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
@@ -3855,6 +3897,7 @@
 	},
 	"speed": {
 		"name": "Speed",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
@@ -3882,6 +3925,7 @@
 	},
 	"saving_throws": {
 		"name": "Saving Throws",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
@@ -4982,6 +5026,7 @@
 	},
 	"injury_and_death": {
 		"name": "Injury and Death",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
@@ -5016,6 +5061,7 @@
 	},
 	"loss_of_hit_points": {
 		"name": "Loss of Hit Points",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
@@ -5049,6 +5095,7 @@
 	},
 	"disabled_0_hit_points": {
 		"name": "Disabled (0 Hit Points)",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
@@ -5078,6 +5125,7 @@
 	},
 	"dying_negative_hit_points": {
 		"name": "Dying (Negative Hit Points)",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
@@ -5105,6 +5153,7 @@
 	},
 	"dead": {
 		"name": "Dead",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 190](source/prpg_core_rulebook)",
@@ -5130,6 +5179,7 @@
 	},
 	"stable_characters_and_recovery": {
 		"name": "Stable Characters and Recovery",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 190](source/prpg_core_rulebook)",
@@ -5165,6 +5215,7 @@
 	},
 	"healing": {
 		"name": "Healing",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
@@ -5198,6 +5249,7 @@
 	},
 	"temporary_hit_points": {
 		"name": "Temporary Hit Points",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
@@ -5225,6 +5277,7 @@
 	},
 	"nonlethal_damage": {
 		"name": "Nonlethal Damage",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
@@ -5262,6 +5315,7 @@
 	},
 	"movement,_position,_and_distance": {
 		"name": "Movement, Position, and Distance",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
@@ -5293,6 +5347,7 @@
 	},
 	"tactical_movement_2": {
 		"name": "Tactical Movement",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
@@ -5333,6 +5388,7 @@
 	},
 	"measuring_distance": {
 		"name": "Measuring Distance",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
@@ -5359,6 +5415,7 @@
 	},
 	"moving_through_a_square": {
 		"name": "Moving Through a Square",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 193](source/prpg_core_rulebook)",
@@ -5395,6 +5452,7 @@
 	},
 	"terrain_and_obstacles": {
 		"name": "Terrain and Obstacles",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 193](source/prpg_core_rulebook)",
@@ -5435,6 +5493,7 @@
 	},
 	"special_movement_rules": {
 		"name": "Special Movement Rules",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 194](source/prpg_core_rulebook)",
@@ -5584,6 +5643,7 @@
 	},
 	"cover": {
 		"name": "Cover",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 195](source/prpg_core_rulebook)",
@@ -5623,6 +5683,7 @@
 	},
 	"concealment": {
 		"name": "Concealment",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 196](source/prpg_core_rulebook)",
@@ -5658,6 +5719,7 @@
 	},
 	"flanking": {
 		"name": "Flanking",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
@@ -5685,6 +5747,7 @@
 	},
 	"helpless_defenders": {
 		"name": "Helpless Defenders",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
@@ -5714,6 +5777,7 @@
 	},
 	"special_attacks": {
 		"name": "Special Attacks",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
@@ -5747,6 +5811,7 @@
 	},
 	"aid_another_2": {
 		"name": "Aid Another",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
@@ -5771,6 +5836,7 @@
 	},
 	"charge": {
 		"name": "Charge",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 198](source/prpg_core_rulebook)",
@@ -5861,6 +5927,7 @@
 	},
 	"bull_rush": {
 		"name": "Bull Rush",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
@@ -5891,6 +5958,7 @@
 	},
 	"dirty_trick": {
 		"name": "Dirty Trick",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
@@ -5919,6 +5987,7 @@
 	},
 	"disarm": {
 		"name": "Disarm",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
@@ -5947,6 +6016,7 @@
 	},
 	"drag": {
 		"name": "Drag",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
@@ -5979,6 +6049,7 @@
 	},
 	"grapple": {
 		"name": "Grapple",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
@@ -6017,6 +6088,7 @@
 	},
 	"overrun": {
 		"name": "Overrun",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
@@ -6045,6 +6117,7 @@
 	},
 	"reposition": {
 		"name": "Reposition",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
@@ -6075,6 +6148,7 @@
 	},
 	"steal": {
 		"name": "Steal",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
@@ -6105,6 +6179,7 @@
 	},
 	"sunder": {
 		"name": "Sunder",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
@@ -6133,6 +6208,7 @@
 	},
 	"trip": {
 		"name": "Trip",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
@@ -6161,6 +6237,7 @@
 	},
 	"feint": {
 		"name": "Feint",
+		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
@@ -6227,6 +6304,7 @@
 	},
 	"throw_splash_weapon": {
 		"name": "Throw Splash Weapon",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
@@ -6253,6 +6331,7 @@
 	},
 	"two-weapon_fighting": {
 		"name": "Two-Weapon Fighting",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
@@ -6290,6 +6369,7 @@
 	},
 	"special_initiative_actions": {
 		"name": "Special Initiative Actions",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
@@ -6318,6 +6398,7 @@
 	},
 	"delay": {
 		"name": "Delay",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 203](source/prpg_core_rulebook)",
@@ -6341,6 +6422,7 @@
 	},
 	"ready": {
 		"name": "Ready",
+		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 203](source/prpg_core_rulebook)",

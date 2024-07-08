@@ -1,4 +1,4 @@
-import { ReactNode, useMemo } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
@@ -17,7 +17,7 @@ interface BasicRulesProps {
 	extraHierarchy: HierarchyArray
 	markdown: string[]
 	tables?: Table[]
-	subtopics: ReactNode
+	subtopics: HierarchyArray
 	prevNext: (string[] | null)[] | false
 }
 
@@ -46,7 +46,16 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	return (
 		<BasicPage title={title} sources={sources} hierarchy={h}>
 			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} />
-			{subtopics}
+			{subtopics.length > 0 ?  (
+				<div className="subtopics">
+					<header>Subtopics:</header>
+					<ul>
+						{subtopics.map((sub, i) => (
+							<li key={`subtopic/${i}/${sub[1]}`}><Link to={sub[1]}>{sub[0]}</Link></li>
+						))}
+					</ul>
+				</div>
+			) : <></>}
 			{prevNext ? (
 				<div className={className}>
 					{previous ?

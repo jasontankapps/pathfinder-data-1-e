@@ -1,6 +1,7 @@
 {
 	"basics_from_the_core_rulebook": {
 		"name": "Basics from the Core Rulebook",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -50,6 +51,7 @@
 	},
 	"starting_a_campaign": {
 		"name": "Starting a Campaign",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -75,6 +77,7 @@
 	},
 	"published_adventures": {
 		"name": "Published Adventures",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -102,6 +105,7 @@
 	},
 	"building_an_adventure": {
 		"name": "Building an Adventure",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -136,6 +140,7 @@
 	},
 	"stat_blocks": {
 		"name": "Stat Blocks",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
@@ -159,6 +164,7 @@
 	},
 	"designing_encounters": {
 		"name": "Designing Encounters",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
@@ -260,6 +266,7 @@
 	},
 	"awarding_experience": {
 		"name": "Awarding Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 399](source/prpg_core_rulebook)",
@@ -289,6 +296,7 @@
 	},
 	"placing_treasure": {
 		"name": "Placing Treasure",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 399](source/prpg_core_rulebook)",
@@ -369,6 +377,7 @@
 	},
 	"building_a_treasure_hoard": {
 		"name": "Building a Treasure Hoard",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 400](source/prpg_core_rulebook)",
@@ -432,6 +441,7 @@
 	},
 	"preparing_for_the_game": {
 		"name": "Preparing for the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 401](source/prpg_core_rulebook)",
@@ -461,6 +471,7 @@
 	},
 	"during_the_game": {
 		"name": "During the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 402](source/prpg_core_rulebook)",
@@ -518,6 +529,7 @@
 	},
 	"campaign_tips": {
 		"name": "Campaign Tips",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 404](source/prpg_core_rulebook)",
@@ -555,6 +567,7 @@
 	},
 	"cost_of_living": {
 		"name": "Cost of Living",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 405](source/prpg_core_rulebook)",
@@ -583,6 +596,7 @@
 	},
 	"monstrous_characters": {
 		"name": "Monstrous Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 405](source/prpg_core_rulebook)",
@@ -629,6 +643,7 @@
 	},
 	"ending_the_campaign": {
 		"name": "Ending the Campaign",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 406](source/prpg_core_rulebook)",
@@ -653,6 +668,7 @@
 	},
 	"beyond_20th_level": {
 		"name": "Beyond 20th Level",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 406](source/prpg_core_rulebook)",
@@ -684,6 +700,7 @@
 	},
 	"creating_npcs": {
 		"name": "Creating NPCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 448](source/prpg_core_rulebook)",
@@ -697,8 +714,7 @@
 			"basics_from_the_core_rulebook"
 		],
 		"subtopics": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -717,35 +733,15 @@
 			"creating_npcs"
 		]
 	},
-	"step_1_the_basics": {
-		"name": "Step 1: The Basics",
+	"step_1_the_basics_step_2_determine_ability_scores": {
+		"name": "Steps 1 and 2: Basic Info and Determine Ability Scores",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 450](source/prpg_core_rulebook)",
 			"",
-			"The first step in making an NPC is to determine its basic role in your campaign. This includes its race, class, and basic concept."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"basics_from_the_core_rulebook",
-			"creating_npcs"
-		],
-		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
-			"step_3_skills",
-			"step_4_feats",
-			"step_5_class_features",
-			"step_6_gear",
-			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
-		]
-	},
-	"step_2_determine_ability_scores": {
-		"name": "Step 2: Determine Ability Scores",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 450](source/prpg_core_rulebook)",
+			"The first step in making an NPC is to determine its basic role in your campaign. This includes its race, class, and basic concept.",
 			"",
 			"Once the character's basic concept has been determined, its ability scores must be assigned. Apply the NPC's racial modifiers after the scores have been assigned. For every four levels the NPC has attained, increase one of its scores by 1. If the NPC possesses levels in a PC class, it is considered a heroic NPC and receives better ability scores. These scores can be assigned in any order.",
 			"",
@@ -787,8 +783,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -799,6 +794,8 @@
 	},
 	"step_3_skills": {
 		"name": "Step 3: Skills",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 451](source/prpg_core_rulebook)",
@@ -833,8 +830,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -845,6 +841,8 @@
 	},
 	"step_4_feats": {
 		"name": "Step 4: Feats",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 452](source/prpg_core_rulebook)",
@@ -879,8 +877,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -891,6 +888,8 @@
 	},
 	"step_5_class_features": {
 		"name": "Step 5: Class Features",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 453](source/prpg_core_rulebook)",
@@ -905,8 +904,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -917,6 +915,8 @@
 	},
 	"step_6_gear": {
 		"name": "Step 6: Gear",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 453](source/prpg_core_rulebook)",
@@ -967,8 +967,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -979,6 +978,8 @@
 	},
 	"step_7_details": {
 		"name": "Step 7: Details",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 454](source/prpg_core_rulebook)",
@@ -991,8 +992,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -1003,6 +1003,8 @@
 	},
 	"example_kiramor,_the_forest_shadow": {
 		"name": "Example: Kiramor, the Forest Shadow",
+		"subtitle": "Creating NPCs",
+		"tags": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 454](source/prpg_core_rulebook)",
@@ -1065,8 +1067,7 @@
 			"creating_npcs"
 		],
 		"siblings": [
-			"step_1_the_basics",
-			"step_2_determine_ability_scores",
+			"step_1_the_basics_step_2_determine_ability_scores",
 			"step_3_skills",
 			"step_4_feats",
 			"step_5_class_features",
@@ -1135,6 +1136,7 @@
 	},
 	"getting_started": {
 		"name": "Getting Started",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 8](source/gamemastery_guide)",
@@ -1181,6 +1183,7 @@
 	},
 	"a_game_master's_glossary": {
 		"name": "A Game Master's Glossary",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 9](source/gamemastery_guide)",
@@ -1216,6 +1219,7 @@
 	},
 	"tone_and_maturity": {
 		"name": "Tone and Maturity",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1245,6 +1249,7 @@
 	},
 	"style_of_play": {
 		"name": "Style of Play",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1267,6 +1272,7 @@
 	},
 	"tone_and_setting": {
 		"name": "Tone and Setting",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1289,6 +1295,7 @@
 	},
 	"group_styles": {
 		"name": "Group Styles",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1311,6 +1318,7 @@
 	},
 	"retaining_interest": {
 		"name": "Retaining Interest",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1335,6 +1343,7 @@
 	},
 	"sensitive_topics": {
 		"name": "Sensitive Topics",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 11](source/gamemastery_guide)",
@@ -1363,6 +1372,7 @@
 	},
 	"the_gm_as_host": {
 		"name": "The GM as Host",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1399,6 +1409,7 @@
 	},
 	"number_of_players": {
 		"name": "Number of Players",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1424,6 +1435,7 @@
 	},
 	"small_groups": {
 		"name": "Small Groups",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1451,6 +1463,7 @@
 	},
 	"large_groups": {
 		"name": "Large Groups",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1476,6 +1489,7 @@
 	},
 	"finding_players": {
 		"name": "Finding Players",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1511,6 +1525,7 @@
 	},
 	"where_to_play": {
 		"name": "Where to Play",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1543,6 +1558,7 @@
 	},
 	"the_building": {
 		"name": "The Building",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1574,6 +1590,7 @@
 	},
 	"the_room": {
 		"name": "The Room",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1599,6 +1616,7 @@
 	},
 	"when_to_play": {
 		"name": "When to Play",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1630,6 +1648,7 @@
 	},
 	"rules_of_the_house": {
 		"name": "Rules of the House",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1661,6 +1680,7 @@
 	},
 	"player_absence": {
 		"name": "Player Absence",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1693,6 +1713,7 @@
 	},
 	"calling_off_a_session": {
 		"name": "Calling off a Session",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1721,6 +1742,7 @@
 	},
 	"food_at_the_game_table": {
 		"name": "Food at the Game Table",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1749,6 +1771,7 @@
 	},
 	"children_and_pets": {
 		"name": "Children and Pets",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1775,6 +1798,7 @@
 	},
 	"other_activities_at_the_game_table": {
 		"name": "Other Activities at the Game Table",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1803,6 +1827,7 @@
 	},
 	"out-of-character_talking": {
 		"name": "Out-of-Character Talking",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1829,6 +1854,7 @@
 	},
 	"interplayer_conflict": {
 		"name": "Interplayer Conflict",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1855,6 +1881,7 @@
 	},
 	"preparing_to_run_a_game": {
 		"name": "Preparing to Run a Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1871,25 +1898,11 @@
 		"subtopics": [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		],
 		"siblings": [
@@ -1903,6 +1916,7 @@
 	},
 	"things_to_have_at_the_table": {
 		"name": "Things to Have at the Table",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1923,33 +1937,20 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"seven_essentials_for_good_preperation": {
 		"name": "Seven Essentials for Good Preperation",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1962,33 +1963,30 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
+			"published_or_homegrown",
+			"sharing_the_load",
+			"one-shot_games",
+			"characters",
+			"campaigns",
+			"winging_it"
+		],
+		"subtopics": [
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"know_the_characters_and_the_players": {
 		"name": "Know the Characters and the Players",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2003,35 +2001,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"know_the_scene": {
 		"name": "Know the Scene",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2044,35 +2030,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"know_the_story": {
 		"name": "Know the Story",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2085,35 +2059,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"know_the_adversaries": {
 		"name": "Know the Adversaries",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2136,35 +2098,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"know_the_rules": {
 		"name": "Know the Rules",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2179,35 +2129,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"don't_overdo_it": {
 		"name": "Don't Overdo it",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2220,35 +2158,23 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"lay_a_few_alternate_plans": {
 		"name": "Lay a few Alternate Plans",
+		"subtitle": "GM Preparations",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2261,35 +2187,22 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"seven_essentials_for_good_preperation"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
 			"know_the_characters_and_the_players",
 			"know_the_scene",
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
 			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"lay_a_few_alternate_plans"
 		]
 	},
 	"published_or_homegrown": {
 		"name": "Published or Homegrown",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2302,33 +2215,20 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"sharing_the_load": {
 		"name": "Sharing the Load",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2341,33 +2241,20 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"one-shot_games": {
 		"name": "One-Shot Games",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2384,33 +2271,20 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"characters": {
 		"name": "Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2423,170 +2297,27 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
-		]
-	},
-	"getting_started_2": {
-		"name": "Getting Started",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
-			"",
-			"A campaign offers something more than a series of adventures. A campaign gives context and depth to a group's activities, making them part of a larger world. A properly constructed campaign also provides you with story elements, locations, personalities, and conflicts that serve as springboards for your creativity as you create adventures. Campaigns can be completely plotted out ahead of time, such as the 6-part Pathfinder Adventure Path series, which give GMs all the adventures and supplemental material they need to run a complete campaign, or they can be crafted on the fly, with GMs stringing adventures together just a session or two in advance. A Campaign Sheet is included in the back of this book, which you can use to plan and record all of the relevant details of your campaigns.",
-			"",
-			"[Duties of a GM](rule/duties_of_a_gm)",
-			"",
-			"**Source** [GameMastery Guide pg. 8](source/gamemastery_guide)",
-			"",
-			"While everyone at the table plays the game, the Game Master creates the world, breathing life into it in front of a small audience enraptured by his story. The Game Master works the hardest of everyone, spending night upon night before each game session carefully weaving the strands of fate and plotting the course of the adventurers' lives, working in twists, building encounters and monsters, and pouring blood, sweat, and tears into his creation. To use a common analogy, roleplaying games are like movies where the actors get to improvise and alter the script as they go, working off prompts from the Game Master. Extending this comparison, if the players are the actors, then the Game Master is the director-and often the screenwriter, even when basing the story on a published adventure. While this is a generic comparison, it illustrates some of the multiple roles the Game Master fills. The position can also be broken down into a number of other duties and responsibilities as follows.",
-			"",
-			"**Storyteller:** Weaving plots involving the player characters and any number of nonplayer characters, leading dialogue, and unfurling a vast tapestry of ideas, stories, and adventure, the Game Master is a storyteller first and foremost. While the game is a collaborative narrative told from all sides of the table, the Game Master paves and maintains the road along which the adventurers walk.",
-			"",
-			"**Entertainer:** Despite the best-laid plans and most intricate plots, if the game isn't fun and engaging, it isn't worth the effort. It's the Game Master's job to do whatever's necessary to keep the players' energy and interest up, immersing the group in the story through the use of strange voices, animated gestures, and generally making a fool of himself in the most classic sense. In order to fulfill the role of every individual the player characters encounter, the Game Master needs to be impressionist, comedian, and thespian all in one. In the role of the entertainer, the Game Master is the steward of every player's experience, keeping everyone at the table involved and the story moving along at the proper pace.",
-			"",
-			"**Moderator:** While important in any game, the role of moderator becomes even more important in games with new players unfamiliar with the rules, or situations where the Game Master might be running a game for strangers, such as \"organized play\" sessions at gaming stores and conventions. Many players enjoy the tactical aspects of the game and make the most of the rules in and outside of combat. The Game Master should know what each character is capable of, as well as the abilities of the nonplayer characters and monsters, and should be prepared to pass judgment on any contradictory or disputed interpretations of the rules. And while it's important for the Game Master to be fair and hear out players' opinions and arguments, a good Game Master has the confidence and resolve to hold firm once he's made a decision.",
-			"",
-			"**Creator:** Not only does the Game Master bring stories to the table, but many times he is also the creator of entire worlds. More often than not, he spends more time preparing for the session than the session actually takes to play. When not using a published setting or adventure, the Game Master must take the time outside of the game to create the plot, build enemies, construct encounters, develop magic items and spells, design monsters, and flesh out the world of adventure the players will soon inhabit.",
-			"",
-			"**Instructor:** Not everyone is going to show up to the table with an equal-or even sufficient-understanding of the rules. Some of these players will be young, the new generation of gamers eager to enter into the ranks, and others will be friends you've encouraged to learn the joys of roleplaying games; some may even be fresh recruits at conventions or game stores. Everyone has a different aptitude for the admittedly complex rules of roleplaying games, and many people are intimidated by them. Part of a Game Master's role is to guide players in learning the game-after all, the majority of Game Masters playing today learned from another Game Master who was patient with them.",
-			"",
-			"**Player:** Despite a pervasive myth, roleplaying games are not about pitting the Game Master against the players. They are not competitions, and the Game Master does not lose when the players succeed-rather, if the players leave the table feeling tested but triumphant, then the Game Master has achieved the best possible result. Though one person guides the game, everyone is a player in some sense. Game Masters must be as convincing with the nonplayer characters they control as the players are with their own characters, if not more so.",
-			"",
-			"In addition to these roles, the Game Master might also fill a handful of others. Many groups maintain a set of house rules for their games, and the Game Master has the final say on particular interpretations and arbitrations of rules (though everyone in the group should be aware of any house rules beforehand). The Game Master may also act as host for the game. At the least, the host provides an ample place to play. While some extraordinary Game Masters might provide all materials, including books, character sheets, pencils, dice, miniatures, and a battlemat, groups should decide upon those details themselves. As the host for a game, it is important to provide a surface large enough to play upon, a place for everyone to sit, reasonable facilities, and the desire to get a good game going. Whether played at a Victorian dining table lit with candelabras, on the floor of a spartan apartment, in the library during recess, or in the back of a van on the way to a family camping trip, roleplaying games can be tailored to most any situation, as long as there's excitement and a desire to play.",
-			"",
-			"[Tone and Maturity](rule/tone_and_maturity)",
-			"",
-			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
-			"",
-			"Players come to games to feel larger than life, and each brings a character that has aspirations, desires, abilities, and unique ways of looking at the world. The Game Master's job is to help guide the story and involve each character in a way that makes her actions feel meaningful. This means listening to the players while simultaneously keeping your own preferences in mind. No two gaming groups are the same, so groups that discuss their preferences for styles of play, tone, and group dynamics are more likely to enjoy long-running, trouble-free games.",
-			"",
-			"[The GM as Host](rule/the_gm_as_host)",
-			"",
-			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
-			"",
-			"The GM's primary job is to run the game, but there's more to that task than just rolling dice and orchestrating ingame challenges. As the group member most responsible for the game's success, the GM is also the de facto host for each session, in charge of handling or delegating the logistics behind the fun.",
-			"",
-			"The social side of a session is at least as important as the quality of the game itself. Adult gamers might rarely get time to socialize, given the pressures of jobs, families, and homes, so game night becomes a welcome chance to spend time with friends, no different than a night of board games, movies, or poker. And like any party, there's work to be done both before and after.",
-			"",
-			"Some of the following issues can be delegated to a willing player, but ultimately, all of them are the GM's responsibility.",
-			"",
-			"[Rules of the House](rule/rules_of_the_house)",
-			"",
-			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
-			"",
-			"Once you have a place to play and a date for your first session, it's time to decide what \"house rules\" are needed for your campaign. While the term normally refers to modifications to the mechanics of the game, house rules can also be the literal rules of the house, covering the basic courtesies and dynamics of the game table. Some typical house rules are discussed below, but this list is by no means exhaustive. Discuss the issues and the options for handling them with your players before play begins, and make sure everyone agrees to abide by the final decision. If you see a need for a new house rule as play proceeds, talk to your players outside of the game, then implement the new rule at the next session, reminding the group about it before play begins.",
-			"",
-			"[Preparing to Run a Game](rule/preparing_to_run_a_game)",
-			"",
-			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
-			"",
-			"Great Game Masters make running a game look easy, weaving memorable characters, breathless action, and vivid descriptions into unforgettable tapestries of fantasy. Players in a well-run game have a sense of danger (and a sense of accomplishment in overcoming it), plus a general feeling of spontaneity as events unfold and the characters rise to meet new challenges.",
-			"",
-			"Such magical experiences require plenty of preparation, even a sense of spontaneity-it's tough to seem spontaneous when you're shuffling though notes.",
-			"",
-			"[Creating a Campaign Guide](rule/creating_a_campaign_guide)",
-			"",
-			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
-			"",
-			"In television series and similar ongoing media, there is the concept of the \"story bible,\" a document setting forth the essential information about the characters, story, and setting of the series so that later writers can produce scripts with some amount of consistency. In a similar vein, Game Masters can create a campaign guide to help keep track of their creation and to supply players with an overview of an ongoing campaign. This way, the players have some idea what to expect and can create and play their characters to best fit into the overall setting. The most important function of a campaign guide is to make your players excited to delve into the setting and play the game! Consider the following when preparing a campaign guide."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"preparing_to_run_a_game"
-		],
-		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
-		]
-	},
-	"wrapping_up": {
-		"name": "Wrapping up",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
-			"",
-			"Most advice in the section on preparing for a one-shot game applies to campaigns as well-only the scale is different. Below are a few elements to consider."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"preparing_to_run_a_game"
-		],
-		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"campaigns": {
 		"name": "Campaigns",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
+			"",
+			"A campaign offers something more than a series of adventures. A campaign gives context and depth to a group's activities, making them part of a larger world. A properly constructed campaign also provides you with story elements, locations, personalities, and conflicts that serve as springboards for your creativity as you create adventures. Campaigns can be completely plotted out ahead of time, such as the 6-part Pathfinder Adventure Path series, which give GMs all the adventures and supplemental material they need to run a complete campaign, or they can be crafted on the fly, with GMs stringing adventures together just a session or two in advance. A Campaign Sheet is included in the back of [the physical book], which you can use to plan and record all of the relevant details of your campaigns.",
+			"",
+			"Most advice in the section on preparing for a one-shot game applies to campaigns as well-only the scale is different. Below are a few elements to consider.",
 			"",
 			"Your campaign world provides the backdrop for all your adventures. Take some time to consider the lay of the land and what it might be like to visit the place.",
 			"",
@@ -2598,33 +2329,27 @@
 			"getting_started",
 			"preparing_to_run_a_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
+			"winging_it"
+		],
+		"subtopics": [
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"essentials_of_good_campaigns": {
 		"name": "Essentials of Good Campaigns",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2637,35 +2362,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"campaigns"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"setting_and_scope": {
 		"name": "Setting and Scope",
+		"subtitle": "Campaigns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2678,35 +2388,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"campaigns"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"story": {
 		"name": "Story",
+		"subtitle": "Campaigns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2719,35 +2414,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"campaigns"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"movers_and_shakers": {
 		"name": "Movers and Shakers",
+		"subtitle": "Campaigns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2758,35 +2438,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"campaigns"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"campaign_endings": {
 		"name": "Campaign Endings",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2801,35 +2466,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"getting_started",
-			"preparing_to_run_a_game"
+			"preparing_to_run_a_game",
+			"campaigns"
 		],
 		"siblings": [
-			"things_to_have_at_the_table",
-			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
-			"published_or_homegrown",
-			"sharing_the_load",
-			"one-shot_games",
-			"characters",
-			"getting_started_2",
-			"wrapping_up",
-			"campaigns",
 			"essentials_of_good_campaigns",
 			"setting_and_scope",
 			"story",
 			"movers_and_shakers",
-			"campaign_endings",
-			"winging_it"
+			"campaign_endings"
 		]
 	},
 	"winging_it": {
 		"name": "Winging It",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2851,30 +2501,17 @@
 		"siblings": [
 			"things_to_have_at_the_table",
 			"seven_essentials_for_good_preperation",
-			"know_the_characters_and_the_players",
-			"know_the_scene",
-			"know_the_story",
-			"know_the_adversaries",
-			"know_the_rules",
-			"don't_overdo_it",
-			"lay_a_few_alternate_plans",
 			"published_or_homegrown",
 			"sharing_the_load",
 			"one-shot_games",
 			"characters",
-			"getting_started_2",
-			"wrapping_up",
 			"campaigns",
-			"essentials_of_good_campaigns",
-			"setting_and_scope",
-			"story",
-			"movers_and_shakers",
-			"campaign_endings",
 			"winging_it"
 		]
 	},
 	"creating_a_campaign_guide": {
 		"name": "Creating a Campaign Guide",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2891,11 +2528,7 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		],
 		"siblings": [
 			"a_game_master's_glossary",
@@ -2908,6 +2541,8 @@
 	},
 	"system": {
 		"name": "System",
+		"subtitle": "Creating Campaign Guides",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2927,15 +2562,13 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		]
 	},
 	"setting_and_scope_2": {
 		"name": "Setting and Scope",
+		"subtitle": "Creating Campaign Guides",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2959,15 +2592,13 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		]
 	},
 	"story_2": {
 		"name": "Story",
+		"subtitle": "Creating Campaign Guides",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2987,15 +2618,13 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		]
 	},
 	"voice": {
 		"name": "Voice",
+		"subtitle": "Creating Campaign Guides",
+		"tags": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -3019,126 +2648,36 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		]
 	},
 	"publication": {
 		"name": "Publication",
+		"subtitle": "Creating Campaign Guides",
+		"tags": "Gamemastering copyrights media print electronic",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
 			"",
-			"Once the campaign guide document is prepared, you need to consider how to get it in front of the players. Modern media and desktop publishing create a wide range of options for sharing a campaign guide."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"creating_a_campaign_guide"
-		],
-		"siblings": [
-			"system",
-			"setting_and_scope_2",
-			"story_2",
-			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
-		]
-	},
-	"print": {
-		"name": "Print",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
+			"Once the campaign guide document is prepared, you need to consider how to get it in front of the players. Modern media and desktop publishing create a wide range of options for sharing a campaign guide.",
 			"",
-			"The first and simplest option is to print the campaign guide and give each player a copy. It could be printed out at home or produced professionally at a copy shop. Larger campaign guides might be held in binders or report covers, and print shops offer a variety of binding options, from square tape-bound to plastic spiral binding (with or without cardstock or plastic covers). These options add durability and quality to your guide, making it easy for players to use and reference over time, but might make you less inclined to make changes as you go."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"creating_a_campaign_guide"
-		],
-		"siblings": [
-			"system",
-			"setting_and_scope_2",
-			"story_2",
-			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
-		]
-	},
-	"electronic": {
-		"name": "Electronic",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
+			"### Print",
+			"",
+			"The first and simplest option is to print the campaign guide and give each player a copy. It could be printed out at home or produced professionally at a copy shop. Larger campaign guides might be held in binders or report covers, and print shops offer a variety of binding options, from square tape-bound to plastic spiral binding (with or without cardstock or plastic covers). These options add durability and quality to your guide, making it easy for players to use and reference over time, but might make you less inclined to make changes as you go.",
+			"",
+			"### Electronic",
 			"",
 			"You can also publish a campaign guide as an electronic document, easily shared via e-mail or hosted online. With laptops or handheld devices, players can still reference these documents during play.",
 			"",
 			"The other main electronic option is to publish your campaign guide as a web page or website. Web page design programs make this a fairly simple matter even for non-programmers, and there are many inexpensive web-hosting services. Players can access a web-based campaign guide from anywhere with an Internet connection, can save or print the pages for their own reference, and can even actively edit the guide (if the GM allows it). Unless the site is secured, web publication also makes your campaign guide publicly available to anyone who wants to view it, allowing other Game Masters to benefit from your ideas.",
 			"",
-			"Even if you publish your campaign guide in print for your players, you may want to have an electronic version as well for backup, further additions, and ease of reference, especially if you want to make the guide publicly available."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"creating_a_campaign_guide"
-		],
-		"siblings": [
-			"system",
-			"setting_and_scope_2",
-			"story_2",
-			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
-		]
-	},
-	"copyrights": {
-		"name": "Copyrights",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
+			"Even if you publish your campaign guide in print for your players, you may want to have an electronic version as well for backup, further additions, and ease of reference, especially if you want to make the guide publicly available.",
 			"",
-			"Most published RPG products are copyrighted, so you should take care not to violate the law by republishing parts of them without permission. Paizo has a Community Use Policy ([paizo.com/communityuse](https://paizo.com/communityuse)) that explains how you can safely use some of our copyrighted materials in your campaign guide."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"getting_started",
-			"creating_a_campaign_guide"
-		],
-		"siblings": [
-			"system",
-			"setting_and_scope_2",
-			"story_2",
-			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
-		]
-	},
-	"other_media": {
-		"name": "Other Media",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
+			"### Copyrights",
+			"",
+			"Most published RPG products are copyrighted, so you should take care not to violate the law by republishing parts of them without permission. Paizo has a Community Use Policy ([paizo.com/communityuse](https://paizo.com/communityuse)) that explains how you can safely use some of our copyrighted materials in your campaign guide.",
+			"",
+			"### Other Media",
 			"",
 			"Game Masters have taken advantage of desktop and online multimedia in recent years to create other ways of providing information to players. If you have musical talent, opening each session with custom theme music can be a powerful way of getting players into the right mindset. You can also create audio podcasts for your campaign, or even take things a step further and use video editing to create a \"campaign trailer,\" like a trailer for a film, which you can then distribute among your players or share online. This doesn't have to involve a lot of original video; you can use still images and artwork and give them motion through effects like pans or zooms, with different dissolves and transitions between images."
 		],
@@ -3153,15 +2692,12 @@
 			"setting_and_scope_2",
 			"story_2",
 			"voice",
-			"publication",
-			"print",
-			"electronic",
-			"copyrights",
-			"other_media"
+			"publication"
 		]
 	},
 	"running_a_game": {
 		"name": "Running a Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
@@ -3178,27 +2714,9 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"tools_for_game_masters"
 		],
 		"siblings": [
 			"getting_started",
@@ -3214,17 +2732,18 @@
 	},
 	"gming_style_choices": {
 		"name": "GMing Style Choices",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
 			"",
 			"Before you run your first session, there are a number of decisions you need to make regarding the nature of your game. Is your table a serious roleplaying experience, with players staying in character at all times? Is it an immersive experience with painted miniatures, three-dimensional terrain, soundtracks, and mood lighting? Is it a zany get-together with friends, where half the fun is the in-game banter? Or is it some combination of those, or perhaps something else altogether? There's no best answer, but such decisions have a vast impact on the experience you and your players have. Noted here are a few of the more common decisions a GM needs to make when running a game.",
 			"",
-			"Miniatures vs. Freeform: The Pathfinder Roleplaying Game presumes you're playing with miniatures and using a gridded mat to keep track of character locations during combat. This isn't the only method, though- you can also try charting things out on graph paper or drawing it on a white board, or utilize paper minis and combat tokens that can be printed out and discarded as needed. Yet you may decide that focusing on where everybody is and how far they can move in a round ruins the cinematic drama that you wish to create. In this case, you might prefer a more freeform style of play, where the GM keeps track of the action in his head, players describe the actions they wish to take, and the GM adjudicates the results. In this type of game, many rules take a backseat to flavorful flourishes and cinematic descriptions from both players and GM.",
+			"**Miniatures vs. Freeform:** The Pathfinder Roleplaying Game presumes you're playing with miniatures and using a gridded mat to keep track of character locations during combat. This isn't the only method, though- you can also try charting things out on graph paper or drawing it on a white board, or utilize paper minis and combat tokens that can be printed out and discarded as needed. Yet you may decide that focusing on where everybody is and how far they can move in a round ruins the cinematic drama that you wish to create. In this case, you might prefer a more freeform style of play, where the GM keeps track of the action in his head, players describe the actions they wish to take, and the GM adjudicates the results. In this type of game, many rules take a backseat to flavorful flourishes and cinematic descriptions from both players and GM.",
 			"",
-			"In Character vs. Out of Character: Do your players need to remain in character during the game, or can they speak as themselves, strategizing and giving advice to other players? Some GMs allow the latter only if there's a mechanism for determining when someone's in character, while others allow a casual blurring of the lines.",
+			"**In Character vs. Out of Character:** Do your players need to remain in character during the game, or can they speak as themselves, strategizing and giving advice to other players? Some GMs allow the latter only if there's a mechanism for determining when someone's in character, while others allow a casual blurring of the lines.",
 			"",
-			"GM Tracking vs. Players Tracking: There's a large amount of information to keep track of during a game. The Pathfinder RPG rules imply that this work should be split, with the players keeping track of their characters, hit points, abilities, ongoing effects, and so forth, and GMs tracking the same information for the NPCs. Yet some GMs prefer to keep everything a secret from their players, tracking even their experience points, hit points, spell durations, and other information, only giving the players vague, lifelike information-such as telling them that they feel weak from blood loss rather than how many hit points they have left. While this can help enhance both the game's mystery and its sense of danger, the sheer amount of bookkeeping required on the part of the GM makes it easy for such games to bog down and overwhelm the GM.",
+			"**GM Tracking vs. Players Tracking:** There's a large amount of information to keep track of during a game. The Pathfinder RPG rules imply that this work should be split, with the players keeping track of their characters, hit points, abilities, ongoing effects, and so forth, and GMs tracking the same information for the NPCs. Yet some GMs prefer to keep everything a secret from their players, tracking even their experience points, hit points, spell durations, and other information, only giving the players vague, lifelike information-such as telling them that they feel weak from blood loss rather than how many hit points they have left. While this can help enhance both the game's mystery and its sense of danger, the sheer amount of bookkeeping required on the part of the GM makes it easy for such games to bog down and overwhelm the GM.",
 			"",
 			"**Taking Back Mistakes:** Almost every game session, a player does something they didn't mean to do, whether it's stepping on the wrong square or forgetting to add a bonus that means the difference between success and failure. Some GMs have a rule that once it's left your mouth or you've moved your miniature on the mat, you're committed, even if the end result isn't what you would have normally done. Other GMs allow players to retroactively add bonuses to rolls, or take back poorly planned spells and other mistakes, letting them make the best moves possible for their character. This is a difficult balance- too much leeway and there's no risk, but being too strict can ruin the fun for your players. Remember, though, that the standard used for your players should apply to you as well, and such \"rewind\" moments can be anything from a misplaced miniature to letting a clue slip out too early."
 		],
@@ -3239,31 +2758,14 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"tools_for_game_masters"
 		]
 	},
 	"pregame_preperation": {
 		"name": "Pregame Preperation",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
@@ -3293,31 +2795,14 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"tools_for_game_masters"
 		]
 	},
 	"running_the_game": {
 		"name": "Running the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 25](source/gamemastery_guide)",
@@ -3351,31 +2836,14 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"tools_for_game_masters"
 		]
 	},
 	"post_game": {
 		"name": "Post Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 26](source/gamemastery_guide)",
@@ -3395,31 +2863,14 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"tools_for_game_masters"
 		]
 	},
 	"the_art_of_gming": {
 		"name": "The Art of GMing",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -3439,31 +2890,21 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
+			"the_science_of_gming",
+			"gm_considerations",
+			"tools_for_game_masters"
+		],
+		"subtopics": [
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"making_it_happen": {
 		"name": "Making it Happen",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -3477,7 +2918,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_art_of_gming"
 		],
 		"subtopics": [
 			"forcing_things",
@@ -3485,36 +2927,16 @@
 			"the_illusion_of_free_choice"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"forcing_things": {
 		"name": "Forcing Things",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -3527,6 +2949,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"making_it_happen"
 		],
 		"siblings": [
@@ -3537,6 +2960,7 @@
 	},
 	"follow_the_pcs'_lead": {
 		"name": "Follow the PCs' Lead",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -3551,6 +2975,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"making_it_happen"
 		],
 		"siblings": [
@@ -3561,6 +2986,7 @@
 	},
 	"the_illusion_of_free_choice": {
 		"name": "The Illusion of Free Choice",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -3577,6 +3003,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"making_it_happen"
 		],
 		"siblings": [
@@ -3587,6 +3014,7 @@
 	},
 	"gm_as_actor": {
 		"name": "GM as Actor",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 29](source/gamemastery_guide)",
@@ -3596,43 +3024,24 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_art_of_gming"
 		],
 		"subtopics": [
 			"volume_and_style",
 			"giving_direction"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"volume_and_style": {
 		"name": "Volume and Style",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 29](source/gamemastery_guide)",
@@ -3661,6 +3070,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"gm_as_actor"
 		],
 		"siblings": [
@@ -3670,6 +3080,7 @@
 	},
 	"giving_direction": {
 		"name": "Giving Direction",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3682,6 +3093,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"gm_as_actor"
 		],
 		"siblings": [
@@ -3691,6 +3103,7 @@
 	},
 	"presentation": {
 		"name": "Presentation",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3700,7 +3113,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_art_of_gming"
 		],
 		"subtopics": [
 			"handouts_and_props",
@@ -3709,36 +3123,16 @@
 			"attention_and_distractions"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"handouts_and_props": {
 		"name": "Handouts and Props",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3762,6 +3156,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"presentation"
 		],
 		"siblings": [
@@ -3773,6 +3168,7 @@
 	},
 	"music": {
 		"name": "Music",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3785,6 +3181,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"presentation"
 		],
 		"siblings": [
@@ -3796,6 +3193,7 @@
 	},
 	"lighting": {
 		"name": "Lighting",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3806,6 +3204,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"presentation"
 		],
 		"siblings": [
@@ -3817,6 +3216,7 @@
 	},
 	"attention_and_distractions": {
 		"name": "Attention and Distractions",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3827,6 +3227,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"presentation"
 		],
 		"siblings": [
@@ -3838,6 +3239,7 @@
 	},
 	"narrative_techniques": {
 		"name": "Narrative Techniques",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3847,7 +3249,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_art_of_gming"
 		],
 		"subtopics": [
 			"description",
@@ -3860,36 +3263,16 @@
 			"secrets"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"description": {
 		"name": "Description",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3906,6 +3289,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -3921,6 +3305,7 @@
 	},
 	"spotlight": {
 		"name": "Spotlight",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3935,6 +3320,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -3950,6 +3336,7 @@
 	},
 	"backstory": {
 		"name": "Backstory",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3965,6 +3352,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -3980,6 +3368,7 @@
 	},
 	"cliffhangers": {
 		"name": "Cliffhangers",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3999,6 +3388,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -4014,6 +3404,7 @@
 	},
 	"cut_scenes": {
 		"name": "Cut Scenes",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -4026,6 +3417,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -4041,6 +3433,7 @@
 	},
 	"flashbacks": {
 		"name": "Flashbacks",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -4053,6 +3446,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -4068,6 +3462,7 @@
 	},
 	"foreshadowing": {
 		"name": "Foreshadowing",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -4091,6 +3486,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -4106,6 +3502,7 @@
 	},
 	"secrets": {
 		"name": "Secrets",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -4118,6 +3515,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_art_of_gming",
 			"narrative_techniques"
 		],
 		"siblings": [
@@ -4133,6 +3531,7 @@
 	},
 	"cheatings": {
 		"name": "Cheatings",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -4146,44 +3545,25 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_art_of_gming"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
 			"making_it_happen",
 			"gm_as_actor",
 			"presentation",
 			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"cheatings"
 		]
 	},
 	"the_science_of_gming": {
 		"name": "The Science of GMing",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
 			"",
-			"Mastering the arts of narrative and group storytelling is crucial to running a good game. Yet game mastering has a practical side as well. The following pages address certain fundamental mechanics and tools that all GMs should familiarize themselves with."
+			"Mastering the arts of narrative and group storytelling is crucial to running a good game. Yet game mastering has a practical side as well. The following subtopics address certain fundamental mechanics and tools that all GMs should familiarize themselves with."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4196,36 +3576,42 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
+			"gm_considerations",
+			"tools_for_game_masters"
+		],
+		"subtopics": [
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
-	"gamemastering_basics": {
-		"name": "Gamemastering Basics",
+	"dice_mechanics_and_more": {
+		"name": "Dice Mechanics and More",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
 			"",
-			"While the heart of a roleplaying game is the story cooperatively created by the Game Master and the players, the physical tools used to play the game have an effect on the experience."
+			"While the heart of a roleplaying game is the story cooperatively created by the Game Master and the players, the physical tools used to play the game have an effect on the experience.",
+			"",
+			"### Dice Mechanics",
+			"",
+			"The Pathfinder Roleplaying Game uses dice to resolve events during the course of a game, such as whether the fighter hits the vampire or the vampire makes its save against the wizard's spell. However, the type and number of dice used determines the statistical probability for each numerical outcome, and fiddling with these probabilities can introduce interesting effects.",
+			"",
+			"A single die has an equal chance to produce any of its results; if you roll a d20, there is a 1-in-20 chance for a 1, or a 2, or a 20, and so on. That means those dreaded fumbles and beloved crits come up just as often as an unremarkable 7, 11, or 16. This type of roll result is called a **discrete uniform distribution.**",
+			"",
+			"Two dice added together do not create an equal distribution of results; if you roll 3d6, there is only a 1-in-216 chance for an 18 (by rolling three 6s), but a 27-in-216 chance to get an 11 (from multiple combinations of [3 3 4], [2 4 5], [2 3 6], and so on). That means the extreme values at the low and high end are much rarer than the middle values. This type of roll result is called a **normal distribution**, commonly known as a **bell curve** because graphing the results gives a line with a hump in the middle that tapers off toward the ends. The more dice you have in a roll, the more probable the middle results become (in the bell curve, the \"bell\" becomes taller and more narrow, and the rest of the curve is shorter and flatter).",
+			"",
+			"Note that even though a d% is normally generated by two d10s, the result is still a discrete uniform distribution rather than a bell curve because the numbers on the two dice aren't added together. It's also worth noting that, when estimating average values such as damage, the average of a d6 is 3.5 rather than 3, as the lowest value possible on most dice is 1, not 0.",
+			"",
+			"### Game Accessories",
+			"",
+			"There are many game aids that help make sessions smoother and more memorable."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4233,36 +3619,208 @@
 			"running_a_game"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
+		],
+		"subtopics": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"art": {
+		"name": "Art",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
+			"",
+			"In a fantasy world where terrible beasts crush villages and f lying cloud castles eclipse the sun, an evocative photo or painting can help set the mood or provide a backdrop for an encounter, or even an entire campaign. With millions of vacationers posting their photos to the internet and professional photographers displaying samples of their work online and in magazines, it's possible to find free inspiration for almost any game scene, whether a castle, desert, island, or volcano. Most modern fantasy artists have online galleries featuring beautiful illustrations of fantastic creatures and locations, and many artists sell \"coffee table books\" of their artwork for easy browsing. Art books, history books, and travel books are rich sources for great photos, as are web pages of concept art from movies and television."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"grid": {
+		"name": "Combat Grid",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
+			"",
+			"Many aspects of combat in the Pathfinder RPG assume the use of a grid to determine the relative positions of different creatures. You can simply use graph paper for battles, erasing and redrawing each creature's location as it moves. However, most gamers prefer larger-scale squares that are big enough to contain a token or miniature for each creature. Many groups use wet-erase \"battlemats\" with 1-inch grids; these durable mats roll up for easy storage or travel. Office supply stores carry easel pads with 1-inch grid paper, which are especially handy when you want to reuse a particular map multiple times (such as a prominent street or the PCs' favorite tavern); laminating the pages or using a Plexiglass overlay (which is safe for dry-erase and wet-erase markers) extends the utility of these pages. Many companies sell three-dimensional terrain, such as high-quality painted resin or fold-up paper models, and several companies sell inexpensive mapping software for creating your own gridded fantasy maps."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"face_cards": {
+		"name": "Face Cards",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
+			"",
+			"A picture is worth a thousand words, and even the most descriptive GM may have to deal with players who have a hard time remembering a specific NPC, as it's a person they've never seen. To remedy this problem, you can use index cards with the name of the NPC and a photograph or an illustration, and show the card whenever the PCs encounter that character. For major or recurring NPCs, you might attach them to your GM screen so they're always on display, or paste them into a player handout about the campaign setting",
+			"",
+			"To find good illustrations or photographs, look at collectible card games, magazines, and roleplaying games for appropriate historical and fantasy characters. Internet image searches for concept art generate good results, and can be further fine-tuned by adding race names to the search criteria. Given a large enough library of character illustrations, you can create a card for every significant NPC in your game-and the cards provide handy places for the players to record notes about that NPC."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"miniatures": {
+		"name": "Miniatures",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
+			"",
+			"The ancestors of the Pathfinder Roleplaying Game are tactical wargames that used tokens or miniature figures (once called \"figs\" by gamers, though \"minis\" is the most common term now). Many players still find miniatures an invaluable asset for gaming. Miniatures exist for almost every type of character, from gnome wizards to elven bards or orc barbarians, in any combination of weapons, armor, and body types. Monsters are just as prevalent, and come in all shapes, sizes, and poses. A trip to a craft or toy store presents dozens of toys, plastic figurines, and action figures suitable for gaming; even if the scale isn't quite right, the visual impact of a PC or monster miniature on the tabletop can help the players better visualize their allies and opponents—and placing an 8-inch-tall monster action figure in the middle of a party of 1-inch-tall PC minis can set the mood for a dangerous and exciting encounter. Weird monster action figures from movies, television, or other games can also spark the imagination for new creatures in a home campaign",
+			"",
+			"For decades, most miniatures were sold as unpainted metal or plastic, and painting and customizing miniatures required time and effort to create a visually appealing tabletop setup. While this is still popular, nowadays there are also companies that produce pre-painted plastic miniatures or printable paper miniatures in PDF form. Even if you're not interested in collecting or painting miniatures, consider rewarding a player who provides miniatures for the game with bonus XP (just as you might reward a player who always hosts the game, or provides food for everyone). Painting minis is also a way to get a non-gamer spouse or significant other peripherally involved in the hobby; more than one \"gamer widow\" has earned kudos for painting miniatures without ever touching dice."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"initiative_tracker": {
+		"name": "Initiative Tracker",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
+			"",
+			"Combat is the most complex part of the game, and the easiest place for a session to bog down. Anything that helps speed up combat means everyone gets more done and has more opportunities for fun. The simplest way of handling this is to record each PC and monster name on a card; when combat starts, write each creature's initiative score on its card and sort them into the initiative order. Thereafter, determining who's next to act is just a matter of cycling through the cards. Ambitious GMs can add info to the monsters' cards, such as hit points, special attack DCs, and other information relating to what the monster can do on its turn. (This can also be a useful place to record PC Perception checks and saves, so that you can make secret checks without asking players for their statistics.) Especially detailed initiative cards that resemble character sheets, with room for all of a creature's relevant data, can remove the need to refer to a book",
+			"",
+			"Another method is using a larger surface like a cork board, marker board, or dry-erase board to track PC and monster initiative and status. If positioned so the players can see it as well, this also lets them know when their turns are coming up so they can plan ahead."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"item_cards": {
+		"name": "Item Cards",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
+			"",
+			"Kill the monsters, take their treasure, and sort it all out later-it's a standard tactic of most adventuring groups. So what happens when the players want to identify a stockpile of magic items from their last adventure? Just as face cards help players remember NPCs, a physical card describing an item (and perhaps a note about who it was taken from) helps the players remember the unusual items their PCs carry-and helps a busy GM keep track of what that bubbling green potion, smoking longsword, and bleeding gauntlet actually do."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
+		]
+	},
+	"without_accessories": {
+		"name": "Without Accessories",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 36](source/gamemastery_guide)",
+			"",
+			"Of course, sometimes you don't want or need accessories at all—perhaps you're gaming in a car, at a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures or a grid, even for combat. You can describe items verbally and not refer to cards or pictures. Crits are just extra damage and fumbles are misses. Character initiative is clockwise from the GM. Random results are determined by playing pick-a-number or rock-paper-scissors. The appeal of roleplaying games is the shared experience of storytelling (whether the story is an epic quest or a monster bash), and humans have been telling stories together for thousands of years just with their minds and voices. Each gaming group is different; some like all the bells and whistles, some prefer simplicity and abstraction, and many fall somewhere in between. Just as the sort of campaign each group prefers is different, how they choose to play that campaign can vary from group to group or game to game."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game",
+			"dice_mechanics_and_more"
+		],
+		"siblings": [
+			"art",
+			"grid",
+			"face_cards",
+			"miniatures",
+			"initiative_tracker",
+			"item_cards",
+			"without_accessories"
 		]
 	},
 	"creating_adventures": {
 		"name": "Creating Adventures",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 36](source/gamemastery_guide)",
@@ -4291,36 +3849,18 @@
 			"running_a_game"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"running_smooth_combats": {
 		"name": "Running Smooth Combats",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 39](source/gamemastery_guide)",
@@ -4345,36 +3885,18 @@
 			"running_a_game"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"building_encounters": {
 		"name": "Building Encounters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 40](source/gamemastery_guide)",
@@ -4394,36 +3916,18 @@
 			"don't_stymie_the_pcs"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"play_to_the_pcs'_strengths": {
 		"name": "Play to the PCs' Strengths",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 40](source/gamemastery_guide)",
@@ -4450,6 +3954,7 @@
 	},
 	"high-_and_low-cr_encounters": {
 		"name": "High- and Low-CR Encounters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 41](source/gamemastery_guide)",
@@ -4480,6 +3985,7 @@
 	},
 	"solo_monsters_vs._groups_of_monsters": {
 		"name": "Solo Monsters vs. Groups of Monsters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 41](source/gamemastery_guide)",
@@ -4504,6 +4010,7 @@
 	},
 	"winning_monster_combos": {
 		"name": "Winning Monster Combos",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
@@ -4528,6 +4035,7 @@
 	},
 	"don't_stymie_the_pcs": {
 		"name": "Don't Stymie the PCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
@@ -4556,6 +4064,7 @@
 	},
 	"unusual_campaigns": {
 		"name": "Unusual Campaigns",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4575,36 +4084,18 @@
 			"large_party"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"no_healers": {
 		"name": "No Healers",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4627,6 +4118,7 @@
 	},
 	"no_spellcasters": {
 		"name": "No Spellcasters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4649,6 +4141,7 @@
 	},
 	"all_spellcasters": {
 		"name": "All Spellcasters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4671,6 +4164,7 @@
 	},
 	"small_party": {
 		"name": "Small Party",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4693,6 +4187,7 @@
 	},
 	"large_party": {
 		"name": "Large Party",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4719,6 +4214,7 @@
 	},
 	"variant_play_experiences": {
 		"name": "Variant Play Experiences",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4736,36 +4232,18 @@
 			"online_games"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"solo_campaigns": {
 		"name": "Solo Campaigns",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4796,6 +4274,7 @@
 	},
 	"convention_play": {
 		"name": "Convention Play",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4816,6 +4295,7 @@
 	},
 	"online_games": {
 		"name": "Online Games",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 45](source/gamemastery_guide)",
@@ -4840,6 +4320,7 @@
 	},
 	"fixing_a_'broken'_game": {
 		"name": "Fixing a 'Broken' Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 45](source/gamemastery_guide)",
@@ -4860,36 +4341,18 @@
 			"running_a_game"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
+			"dice_mechanics_and_more",
 			"creating_adventures",
 			"running_smooth_combats",
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
-			"game_changers",
-			"emergency_game_prep",
-			"tpks",
-			"overpowered_pcs",
-			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
-			"words_every_game_master_should_known"
+			"fixing_a_'broken'_game"
 		]
 	},
 	"gm_considerations": {
 		"name": "GM Considerations",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 46](source/gamemastery_guide)",
@@ -4907,20 +4370,11 @@
 			"running_the_game",
 			"post_game",
 			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
 			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
 			"gm_considerations",
+			"tools_for_game_masters"
+		],
+		"subtopics": [
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -4932,6 +4386,7 @@
 	},
 	"game_changers": {
 		"name": "Game Changers",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 46](source/gamemastery_guide)",
@@ -4999,28 +4454,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5032,6 +4469,7 @@
 	},
 	"emergency_game_prep": {
 		"name": "Emergency Game Prep",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 48](source/gamemastery_guide)",
@@ -5053,28 +4491,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5086,6 +4506,7 @@
 	},
 	"tpks": {
 		"name": "TPKs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 49](source/gamemastery_guide)",
@@ -5115,28 +4536,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5148,6 +4551,7 @@
 	},
 	"overpowered_pcs": {
 		"name": "Overpowered PCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 50](source/gamemastery_guide)",
@@ -5173,28 +4577,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5206,6 +4592,7 @@
 	},
 	"personalizing_published_adventures": {
 		"name": "Personalizing Published Adventures",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 51](source/gamemastery_guide)",
@@ -5219,28 +4606,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5252,6 +4621,7 @@
 	},
 	"converting_content_from_3.5_or_other_systems": {
 		"name": "Converting Content from 3.5 or Other Systems",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 51](source/gamemastery_guide)",
@@ -5271,28 +4641,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5304,6 +4656,7 @@
 	},
 	"words_every_game_master_should_known": {
 		"name": "Words Every Game Master Should Known",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 55](source/gamemastery_guide)",
@@ -5313,28 +4666,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"gm_considerations"
 		],
 		"siblings": [
-			"gming_style_choices",
-			"pregame_preperation",
-			"running_the_game",
-			"post_game",
-			"the_art_of_gming",
-			"making_it_happen",
-			"gm_as_actor",
-			"presentation",
-			"narrative_techniques",
-			"cheatings",
-			"the_science_of_gming",
-			"gamemastering_basics",
-			"creating_adventures",
-			"running_smooth_combats",
-			"building_encounters",
-			"unusual_campaigns",
-			"variant_play_experiences",
-			"fixing_a_'broken'_game",
-			"gm_considerations",
 			"game_changers",
 			"emergency_game_prep",
 			"tpks",
@@ -5346,6 +4681,7 @@
 	},
 	"tools_for_game_masters": {
 		"name": "Tools for Game Masters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The following is a supply of inspirational charts, suggestions, and other quick references to help inspire GMs both before and during a game session.",
@@ -5542,6 +4878,21 @@
 			"| Marki, Markis | Conde, Condesa | Perioikoi | Phraya |",
 			"| Jarl, Greve | Vizconde, Vizcondesa | Hypomeiones | Muen |",
 			"| Friherre | Bar&oacute;n, Baronesa | Helots | Pan |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"running_a_game"
+		],
+		"siblings": [
+			"gming_style_choices",
+			"pregame_preperation",
+			"running_the_game",
+			"post_game",
+			"the_art_of_gming",
+			"the_science_of_gming",
+			"gm_considerations",
+			"tools_for_game_masters"
 		]
 	},
 	"player_characters": {

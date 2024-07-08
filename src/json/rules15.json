@@ -1,6 +1,7 @@
 {
 	"removing_iterative_attacks": {
 		"name": "Removing Iterative Attacks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -46,6 +47,7 @@
 	},
 	"the_basics": {
 		"name": "The Basics",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -99,6 +101,7 @@
 	},
 	"attacking_multiple_targets": {
 		"name": "Attacking Multiple Targets",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -118,6 +121,7 @@
 	},
 	"critical_hits": {
 		"name": "Critical Hits",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -137,6 +141,7 @@
 	},
 	"two-weapon_fighting_pu": {
 		"name": "Two-Weapon Fighting",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -160,6 +165,7 @@
 	},
 	"natural_attacks": {
 		"name": "Natural Attacks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
@@ -183,6 +189,7 @@
 	},
 	"special_cases": {
 		"name": "Special Cases",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 111](source/pathfinder_unchained)",
@@ -216,6 +223,7 @@
 	},
 	"variant_mobile_melee": {
 		"name": "Variant: Mobile Melee",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 111](source/pathfinder_unchained)",
@@ -241,6 +249,7 @@
 	},
 	"revised_action_economy": {
 		"name": "Revised Action Economy",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 102](source/pathfinder_unchained)",
@@ -291,6 +300,7 @@
 	},
 	"revised_action_economy_overview": {
 		"name": "Revised Action Economy Overview",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 102](source/pathfinder_unchained)",
@@ -335,6 +345,7 @@
 	},
 	"action_types_and_subtypes": {
 		"name": "Action Types and Subtypes (Revised Actions)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 102](source/pathfinder_unchained)",
@@ -385,6 +396,7 @@
 	},
 	"simple_actions": {
 		"name": "Simple Actions (Revised Actions)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 103](source/pathfinder_unchained)",
@@ -473,6 +485,7 @@
 	},
 	"advanced_actions": {
 		"name": "Advanced Actions (Revised Actions)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 105](source/pathfinder_unchained)",
@@ -581,6 +594,7 @@
 	},
 	"free_actions_pu": {
 		"name": "Free Actions (Revised Actions)",
+		"subtitle": "Unchained",
 		"display_name": "Free Actions",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
@@ -632,6 +646,7 @@
 	},
 	"reactions": {
 		"name": "Reactions (Revised Actions)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 109](source/pathfinder_unchained)",
@@ -664,6 +679,7 @@
 	},
 	"converting_other_actions": {
 		"name": "Converting Other Actions (Revised Actions)",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 107](source/pathfinder_unchained)",
@@ -700,6 +716,7 @@
 	},
 	"final_considerations": {
 		"name": "Final Considerations",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 109](source/pathfinder_unchained)",
@@ -728,6 +745,7 @@
 	},
 	"scaling_items": {
 		"name": "Scaling Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 160](source/pathfinder_unchained)",
@@ -782,6 +800,7 @@
 	},
 	"adjusting_treasure": {
 		"name": "Adjusting Treasure",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 160](source/pathfinder_unchained)",
@@ -839,6 +858,7 @@
 	},
 	"maximum_level": {
 		"name": "Maximum Level",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
@@ -858,6 +878,7 @@
 	},
 	"mismatched_evels": {
 		"name": "Mismatched evels",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
@@ -877,6 +898,7 @@
 	},
 	"buying_and_selling_scaling_items": {
 		"name": "Buying and Selling Scaling Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
@@ -899,6 +921,7 @@
 	},
 	"crafting_scaling_items": {
 		"name": "Crafting Scaling Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
@@ -921,6 +944,7 @@
 	},
 	"pricing_new_scaling_items": {
 		"name": "Pricing New Scaling Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
@@ -982,6 +1006,7 @@
 	},
 	"standalone_new_scaling_items": {
 		"name": "Standalone New Scaling Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
@@ -1006,6 +1031,7 @@
 	},
 	"scaling_item_examples": {
 		"name": "Scaling Item Examples",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 162](source/pathfinder_unchained)",
@@ -1036,6 +1062,7 @@
 	},
 	"scaling_magic_armor_and_shields": {
 		"name": "Scaling Magic Armor and Shields",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 162](source/pathfinder_unchained)",
@@ -1122,6 +1149,7 @@
 	},
 	"scaling_magic_weapons": {
 		"name": "Scaling Magic Weapons",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
@@ -1262,6 +1290,7 @@
 	},
 	"scaling_rings": {
 		"name": "Scaling Rings",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
@@ -1436,6 +1465,7 @@
 	},
 	"scaling_rods": {
 		"name": "Scaling Rods",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 167](source/pathfinder_unchained)",
@@ -1499,6 +1529,7 @@
 	},
 	"scaling_staves": {
 		"name": "Scaling Staves",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
@@ -1577,6 +1608,7 @@
 	},
 	"scaling_wondrous_items": {
 		"name": "Scaling Wondrous Items",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
@@ -2390,6 +2422,7 @@
 	},
 	"simple_monster_creation": {
 		"name": "Simple Monster Creation",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 194](source/pathfinder_unchained)",
@@ -2443,6 +2476,7 @@
 	},
 	"step_1_array": {
 		"name": "Step 1: Array",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
@@ -2483,6 +2517,7 @@
 	},
 	"character_classes": {
 		"name": "Character Classes",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
@@ -2507,6 +2542,7 @@
 	},
 	"using_an_array": {
 		"name": "Using an Array",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
@@ -2557,6 +2593,7 @@
 	},
 	"combatant_array": {
 		"name": "Combatant Array",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 198](source/pathfinder_unchained)",
@@ -2679,6 +2716,7 @@
 	},
 	"expert_array": {
 		"name": "Expert Array",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 200](source/pathfinder_unchained)",
@@ -2799,6 +2837,7 @@
 	},
 	"spellcaster_array": {
 		"name": "Spellcaster Array",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 202](source/pathfinder_unchained)",
@@ -2920,6 +2959,7 @@
 	},
 	"step_2_creature_type_or_class_graft": {
 		"name": "Step 2: Creature Type or Class Graft",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 204](source/pathfinder_unchained)",
@@ -2955,6 +2995,7 @@
 	},
 	"creature_type_grafts": {
 		"name": "Creature Type Grafts",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 204](source/pathfinder_unchained)",
@@ -3104,6 +3145,7 @@
 	},
 	"class_grafts": {
 		"name": "Class Grafts",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
@@ -3787,6 +3829,7 @@
 	},
 	"step_3_subtype_graft": {
 		"name": "Step 3: Subtype Graft",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 214](source/pathfinder_unchained)",
@@ -3819,6 +3862,7 @@
 	},
 	"subtype_entries": {
 		"name": "Subtype Entries",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 214](source/pathfinder_unchained)",
@@ -3952,6 +3996,7 @@
 	},
 	"step_4_template_graft": {
 		"name": "Step 4: Template Graft",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 216](source/pathfinder_unchained)",
@@ -4095,6 +4140,7 @@
 	},
 	"step_5_size_graft": {
 		"name": "Step 5: Size Graft",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 217](source/pathfinder_unchained)",
@@ -4154,6 +4200,7 @@
 	},
 	"step_6_spells": {
 		"name": "Step 6: Spells",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
@@ -4193,6 +4240,7 @@
 	},
 	"choosing_spells": {
 		"name": "Choosing Spells",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
@@ -4242,6 +4290,7 @@
 	},
 	"spell_lists": {
 		"name": "Spell Lists",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
@@ -4983,6 +5032,7 @@
 	},
 	"step_7_monster_options": {
 		"name": "Step 7: Monster Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
@@ -5028,6 +5078,7 @@
 	},
 	"choosing_monster_options": {
 		"name": "Choosing Monster Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
@@ -5103,6 +5154,7 @@
 	},
 	"combat_options": {
 		"name": "Combat Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
@@ -5136,6 +5188,7 @@
 	},
 	"cunning": {
 		"name": "Cunning",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
@@ -5205,6 +5258,7 @@
 	},
 	"monstrous": {
 		"name": "Monstrous",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 232](source/pathfinder_unchained)",
@@ -5310,6 +5364,7 @@
 	},
 	"powerful": {
 		"name": "Powerful",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 234](source/pathfinder_unchained)",
@@ -5375,6 +5430,7 @@
 	},
 	"quick": {
 		"name": "Quick",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 234](source/pathfinder_unchained)",
@@ -5442,6 +5498,7 @@
 	},
 	"tough": {
 		"name": "Tough",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
@@ -5501,6 +5558,7 @@
 	},
 	"magic_options": {
 		"name": "Magic Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
@@ -5534,6 +5592,7 @@
 	},
 	"creature": {
 		"name": "Creature",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
@@ -5577,6 +5636,7 @@
 	},
 	"offensive": {
 		"name": "Offensive",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 236](source/pathfinder_unchained)",
@@ -5644,6 +5704,7 @@
 	},
 	"support": {
 		"name": "Support",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 237](source/pathfinder_unchained)",
@@ -5701,6 +5762,7 @@
 	},
 	"versatile": {
 		"name": "Versatile",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 237](source/pathfinder_unchained)",
@@ -5754,6 +5816,7 @@
 	},
 	"social_options": {
 		"name": "Social Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 238](source/pathfinder_unchained)",
@@ -5787,6 +5850,7 @@
 	},
 	"inspiration": {
 		"name": "Inspiration",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 238](source/pathfinder_unchained)",
@@ -5842,6 +5906,7 @@
 	},
 	"miscellaneous": {
 		"name": "Miscellaneous",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 239](source/pathfinder_unchained)",
@@ -5895,6 +5960,7 @@
 	},
 	"universal_options": {
 		"name": "Universal Options",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 239](source/pathfinder_unchained)",
@@ -5964,6 +6030,7 @@
 	},
 	"step_8_skills": {
 		"name": "Step 8: Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
@@ -5997,6 +6064,7 @@
 	},
 	"assigning_skills": {
 		"name": "Assigning Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
@@ -6018,6 +6086,7 @@
 	},
 	"choosing_skills": {
 		"name": "Choosing Skills",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
@@ -6066,6 +6135,7 @@
 	},
 	"step_9_damage": {
 		"name": "Step 9: Damage",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
@@ -6097,6 +6167,7 @@
 	},
 	"assigning_damage": {
 		"name": "Assigning Damage",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
@@ -6156,6 +6227,7 @@
 	},
 	"giving_a_monster_more_attacks": {
 		"name": "Giving a Monster More Attacks",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
@@ -6177,6 +6249,7 @@
 	},
 	"other_calculations": {
 		"name": "Other Calculations",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"The monster statistics below aren't defined in the individual steps. Calculate them at the end of the process.",
@@ -6224,6 +6297,7 @@
 	},
 	"monster_creation_examples": {
 		"name": "Monster Creation Examples",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 242](source/pathfinder_unchained)",
@@ -6255,6 +6329,7 @@
 	},
 	"extended_example_medusa": {
 		"name": "Extended Example: Medusa",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 242](source/pathfinder_unchained)",
@@ -6334,6 +6409,7 @@
 	},
 	"monster_examples": {
 		"name": "Monster Examples",
+		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
@@ -6387,194 +6463,6 @@
 		"siblings": [
 			"extended_example_medusa",
 			"monster_examples"
-		]
-	},
-	"simplified_spellcasting": {
-		"name": "Simplified Spellcasting",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"**Source** [Pathfinder Unchained pg. 144](source/pathfinder_unchained)",
-			"",
-			"For a 1st-level wizard who knows only a small handful of spells, it isn't too hard to decide which spells to prepare each day. But a 20th-level wizard could easily have more than 60 spells from which to select. Choosing them can eat up quite a bit of time, leaving the other players in your game twiddling their fingers.",
-			"",
-			"With simplified spellcasting, you keep track of only your 3 highest levels of spells, and all the other spells are placed in a pool that you can use on the fly. The number of spells in the pool is smaller than the number of lower-level spells you could otherwise cast, but the pool is more flexible than preparing all the spells in advance would be, and allows you to save the tricky decision-making for your most important spells. Because this system affects only your 3 highest levels of spells, it doesn't change anything for a character who isn't yet able to cast 4th-level spells."
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"pathfinder_unchained"
-		],
-		"subtopics": [
-			"simplified_spellcasting_rules",
-			"other_spellcasters",
-			"metamagic",
-			"pearls_of_power"
-		],
-		"siblings": [
-			"alignment_pu",
-			"alternate_crafting_and_profession_rules",
-			"automatic_bonus_progression",
-			"background_skills",
-			"consolidated_skills",
-			"diseases_and_poisons",
-			"dynamic_magic_item_creation",
-			"esoteric_material_components",
-			"fractional_base_bonuses",
-			"grouped_skills",
-			"innate_item_bonuses",
-			"removing_alignment",
-			"removing_iterative_attacks",
-			"revised_action_economy",
-			"scaling_items",
-			"simple_monster_creation",
-			"simplified_spellcasting",
-			"skill_unlocks",
-			"spell_alterations",
-			"staggered_advancement",
-			"stamina_and_combat_tricks",
-			"variant_multiclassing",
-			"wound_thresholds"
-		]
-	},
-	"simplified_spellcasting_rules": {
-		"name": "Simplified Spellcasting Rules",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"**Source** [Pathfinder Unchained pg. 144](source/pathfinder_unchained)",
-			"",
-			"To use simplified spellcasting, find the appropriate progression table for your class (or the table for a class that normally has the same spell progression as your class) and consult the row for your caster level. The 3 highest spell levels in the row each have a listed number indicating spells per day. Prepare these spells each day as you normally would; you still gain bonus spells per day for those levels if you have a high enough ability score. The letter -P- appears in the columns of all other available spell levels (except level 0) to indicate lower-level spells that are cast using your class's spell pool.",
-			"",
-			"Each day, you can spontaneously cast a number of lower-level spells from your class's spell list equal to the number listed for your class level in the Pool column of the table. The level of spell doesn't matter (as long as it's one of the levels that uses your pool), so if you could cast five spells from your pool per day, it wouldn't matter if you cast five 1stlevel spells, five 2nd-level spells, or a mix of the two. A spell cast using slots from your spell pool must still be on your spell list or in your spellbook, just as it would need to be if you were preparing the spell. It also must meet any other restrictions imposed by your class or other abilities, such as restrictions on casting spells of an opposing alignment. The slots in your spell pool refresh after 8 hours of rest, and any effect that prevents you from preparing spells also prevents you from refreshing your spell pool. Your pool increases if you have a high spellcasting ability modifier, similar to how you gain bonus spells in slots you prepare. Add a number of spells to your pool equal to 1/4 the ability score modifier of the ability score you would normally use to calculate your number of bonus spells per day.",
-			"",
-			"If your class grants bonus spells that are selected from an extremely limited number of options (such as domain spells, spirit spells, or similar bonus spells), you gain those spells separately from your pool. If your class grants bonus spells from a somewhat limited list (such as wizards' specialty school spells), when you gain a pool, you gain one additional slot in your spell pool each day that can be used only to cast spells of that type, and at 13th level you gain a second additional slot with the same restriction.",
-			"",
-			"For example, a 13th-level necromancer with an Intelligence score of 26 has a pool of five spells-three for being a 13th-level wizard and two for his high Intelligence (a +8 Intelligence modifier divided by 4)-as well as two additional spells per day that must be from the necromancy school. He could use the pool to cast his 1st- to 4th-level spells, but would still need to prepare his 5th- to 7th-level spells.",
-			"",
-			"**Expending Multiple Spell Slots:** If you have a class ability that requires expending multiple spell slots, such as a [battle oracle's combat healer revelation](unknown/battle_oracle's_combat_healer_revelation) or a wizard's opposition school, you must expend the appropriate number of slots from your spell pool to use the ability. For instance, if the 13th-level necromancer in the example above has conjuration as an opposition school, he could expend two slots from his spell pool to cast [summon monster II](spell/summon_monster_2).",
-			"",
-			"### Table 4-1: Magus or Warpriest Spells per Day",
-			"",
-			"| Level | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | Pool |",
-			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-			"| 1st | 3 | 1 | - | - | - | - | - | - |",
-			"| 2nd | 4 | 2 | - | - | - | - | - | - |",
-			"| 3rd | 4 | 3 | - | - | - | - | - | - |",
-			"| 4th | 4 | 3 | 1 | - | - | - | - | - |",
-			"| 5th | 4 | 4 | 2 | - | - | - | - | - |",
-			"| 6th | 5 | 4 | 3 | - | - | - | - | - |",
-			"| 7th | 5 | 4 | 3 | 1 | - | - | - | - |",
-			"| 8th | 5 | 4 | 4 | 2 | - | - | - | - |",
-			"| 9th | 5 | 5 | 4 | 3 | - | - | - | - |",
-			"| 10th | 5 | P | 4 | 3 | 1 | - | - | 1 |",
-			"| 11th | 5 | P | 4 | 4 | 2 | - | - | 1 |",
-			"| 12th | 5 | P | 5 | 4 | 3 | - | - | 1 |",
-			"| 13th | 5 | P | P | 4 | 3 | 1 | - | 3 |",
-			"| 14th | 5 | P | P | 4 | 4 | 2 | - | 3 |",
-			"| 15th | 5 | P | P | 5 | 4 | 3 | - | 3 |",
-			"| 16th | 5 | P | P | P | 4 | 3 | 1 | 4 |",
-			"| 17th | 5 | P | P | P | 4 | 4 | 2 | 4 |",
-			"| 18th | 5 | P | P | P | 5 | 4 | 3 | 4 |",
-			"| 19th | 5 | P | P | P | 5 | 5 | 4 | 4 |",
-			"| 20th | 5 | P | P | P | 5 | 5 | 5 | 4 |",
-			"",
-			"### Table 4-2: Cleric, Druid, Shaman, Witch, or Wizard Spells per Day",
-			"",
-			"| Level | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | Pool |",
-			"| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-			"| 1st | 3 | 1 | - | - | - | - | - | - | - | - | - |",
-			"| 2nd | 4 | 2 | - | - | - | - | - | - | - | - | - |",
-			"| 3rd | 4 | 2 | 1 | - | - | - | - | - | - | - | - |",
-			"| 4th | 4 | 3 | 2 | - | - | - | - | - | - | - | - |",
-			"| 5th | 4 | 3 | 2 | 1 | - | - | - | - | - | - | - |",
-			"| 6th | 4 | 3 | 3 | 2 | - | - | - | - | - | - | - |",
-			"| 7th | 4 | P | 3 | 2 | 1 | - | - | - | - | - | 1 |",
-			"| 8th | 4 | P | 3 | 3 | 2 | - | - | - | - | - | 1 |",
-			"| 9th | 4 | P | P | 3 | 2 | 1 | - | - | - | - | 2 |",
-			"| 10th | 4 | P | P | 3 | 3 | 2 | - | - | - | - | 2 |",
-			"| 11th | 4 | P | P | P | 3 | 2 | 1 | - | - | - | 2 |",
-			"| 12th | 4 | P | P | P | 3 | 3 | 2 | - | - | - | 2 |",
-			"| 13th | 4 | P | P | P | P | 3 | 2 | 1 | - | - | 3 |",
-			"| 14th | 4 | P | P | P | P | 3 | 3 | 2 | - | - | 3 |",
-			"| 15th | 4 | P | P | P | P | P | 3 | 2 | 1 | - | 4 |",
-			"| 16th | 4 | P | P | P | P | P | 3 | 3 | 2 | - | 4 |",
-			"| 17th | 4 | P | P | P | P | P | P | 3 | 2 | 1 | 5 |",
-			"| 18th | 4 | P | P | P | P | P | P | 3 | 3 | 2 | 5 |",
-			"| 19th | 4 | P | P | P | P | P | P | 4 | 3 | 3 | 5 |",
-			"| 20th | 4 | P | P | P | P | P | P | 4 | 4 | 4 | 5 |"
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"pathfinder_unchained",
-			"simplified_spellcasting"
-		],
-		"siblings": [
-			"simplified_spellcasting_rules",
-			"other_spellcasters",
-			"metamagic",
-			"pearls_of_power"
-		]
-	},
-	"other_spellcasters": {
-		"name": "Other Spellcasters",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"**Source** [Pathfinder Unchained pg. 145](source/pathfinder_unchained)",
-			"",
-			"Though spontaneous casters can use this system, they gain relatively little, since they already don't need to select which spells to prepare in advance, and their spell slots are comparable in number to those they would have if they used a spell pool.",
-			"",
-			"This system doesn't apply to spellcasters such as paladins and rangers, who gain only 1st- to 4th-level spells, since they have so few spell slots that they don't run into the same problems other spellcasters do."
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"pathfinder_unchained",
-			"simplified_spellcasting"
-		],
-		"siblings": [
-			"simplified_spellcasting_rules",
-			"other_spellcasters",
-			"metamagic",
-			"pearls_of_power"
-		]
-	},
-	"metamagic": {
-		"name": "Metamagic",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"**Source** [Pathfinder Unchained pg. 145](source/pathfinder_unchained)",
-			"",
-			"When using a [metamagic feat](main/feats_metamagic) to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
-			"",
-			"For instance, our example 13th-level necromancer could cast an [enlarged](feat/enlarge_spell) [fireball](spell/fireball) as a full-round action using his spell pool, but to cast an [empowered](feat/empower_spell) [fireball](spell/fireball), he would have to expend a 5th-level spell slot to prepare it, since 5th-level spells aren't part of his pool."
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"pathfinder_unchained",
-			"simplified_spellcasting"
-		],
-		"siblings": [
-			"simplified_spellcasting_rules",
-			"other_spellcasters",
-			"metamagic",
-			"pearls_of_power"
-		]
-	},
-	"pearls_of_power": {
-		"name": "Pearls of Power",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"**Source** [Pathfinder Unchained pg. 145](source/pathfinder_unchained)",
-			"",
-			"A [pearl of power](magic/wondrous/pearl_of_power) can be used only to regain a spell slot of a level you prepare, not to restore slots to your spell pool. Conversely, a [runestone of power](unknown/runestone_of_power) can allow the caster to cast a spell without expending a slot from his pool. The spell must be both of a level the runestone can restore and of a low enough level to be a part of his spell pool rather than a prepared spell."
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"pathfinder_unchained",
-			"simplified_spellcasting"
-		],
-		"siblings": [
-			"simplified_spellcasting_rules",
-			"other_spellcasters",
-			"metamagic",
-			"pearls_of_power"
 		]
 	}
 }
