@@ -31,13 +31,11 @@
 			"ending_the_campaign",
 			"creating_npcs"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -1116,13 +1114,11 @@
 			"advanced_topics",
 			"npc_gallery"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -3721,7 +3717,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
 			"",
-			"The ancestors of the Pathfinder Roleplaying Game are tactical wargames that used tokens or miniature figures (once called \"figs\" by gamers, though \"minis\" is the most common term now). Many players still find miniatures an invaluable asset for gaming. Miniatures exist for almost every type of character, from gnome wizards to elven bards or orc barbarians, in any combination of weapons, armor, and body types. Monsters are just as prevalent, and come in all shapes, sizes, and poses. A trip to a craft or toy store presents dozens of toys, plastic figurines, and action figures suitable for gaming; even if the scale isn't quite right, the visual impact of a PC or monster miniature on the tabletop can help the players better visualize their allies and opponents—and placing an 8-inch-tall monster action figure in the middle of a party of 1-inch-tall PC minis can set the mood for a dangerous and exciting encounter. Weird monster action figures from movies, television, or other games can also spark the imagination for new creatures in a home campaign",
+			"The ancestors of the Pathfinder Roleplaying Game are tactical wargames that used tokens or miniature figures (once called \"figs\" by gamers, though \"minis\" is the most common term now). Many players still find miniatures an invaluable asset for gaming. Miniatures exist for almost every type of character, from gnome wizards to elven bards or orc barbarians, in any combination of weapons, armor, and body types. Monsters are just as prevalent, and come in all shapes, sizes, and poses. A trip to a craft or toy store presents dozens of toys, plastic figurines, and action figures suitable for gaming; even if the scale isn't quite right, the visual impact of a PC or monster miniature on the tabletop can help the players better visualize their allies and opponents-and placing an 8-inch-tall monster action figure in the middle of a party of 1-inch-tall PC minis can set the mood for a dangerous and exciting encounter. Weird monster action figures from movies, television, or other games can also spark the imagination for new creatures in a home campaign",
 			"",
 			"For decades, most miniatures were sold as unpainted metal or plastic, and painting and customizing miniatures required time and effort to create a visually appealing tabletop setup. While this is still popular, nowadays there are also companies that produce pre-painted plastic miniatures or printable paper miniatures in PDF form. Even if you're not interested in collecting or painting miniatures, consider rewarding a player who provides miniatures for the game with bonus XP (just as you might reward a player who always hosts the game, or provides food for everyone). Painting minis is also a way to get a non-gamer spouse or significant other peripherally involved in the hobby; more than one \"gamer widow\" has earned kudos for painting miniatures without ever touching dice."
 		],
@@ -3800,7 +3796,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 36](source/gamemastery_guide)",
 			"",
-			"Of course, sometimes you don't want or need accessories at all—perhaps you're gaming in a car, at a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures or a grid, even for combat. You can describe items verbally and not refer to cards or pictures. Crits are just extra damage and fumbles are misses. Character initiative is clockwise from the GM. Random results are determined by playing pick-a-number or rock-paper-scissors. The appeal of roleplaying games is the shared experience of storytelling (whether the story is an epic quest or a monster bash), and humans have been telling stories together for thousands of years just with their minds and voices. Each gaming group is different; some like all the bells and whistles, some prefer simplicity and abstraction, and many fall somewhere in between. Just as the sort of campaign each group prefers is different, how they choose to play that campaign can vary from group to group or game to game."
+			"Of course, sometimes you don't want or need accessories at all-perhaps you're gaming in a car, at a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures or a grid, even for combat. You can describe items verbally and not refer to cards or pictures. Crits are just extra damage and fumbles are misses. Character initiative is clockwise from the GM. Random results are determined by playing pick-a-number or rock-paper-scissors. The appeal of roleplaying games is the shared experience of storytelling (whether the story is an epic quest or a monster bash), and humans have been telling stories together for thousands of years just with their minds and voices. Each gaming group is different; some like all the bells and whistles, some prefer simplicity and abstraction, and many fall somewhere in between. Just as the sort of campaign each group prefers is different, how they choose to play that campaign can vary from group to group or game to game."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3867,7 +3863,7 @@
 			"",
 			"Combat is the slowest and most complex part of the game, with issues of timing, multiple creatures acting at once, and many, many dice rolls. Here are some tips for speeding up combat-things you can do and things your players can do to help.",
 			"",
-			"**Be Prepared:** This sounds like a no-brainer, but the greatest source of combat slowdowns is not knowing what a creature can do or how its special ability functions. It's hard enough for the players to keep track of what their PCs can do, but as a GM you're usually running multiple creatures at once and have to keep in mind how the results of this combat affect other events in the session. Read over the stat blocks for all creatures you're using that session; if any of them have special abilities or use a [universal monster rule](rule/umr), be sure you're familiar with those as well. If a creature has a complex spell or spell-like ability, note its page number or print out the ability to save time referencing it.",
+			"**Be Prepared:** This sounds like a no-brainer, but the greatest source of combat slowdowns is not knowing what a creature can do or how its special ability functions. It's hard enough for the players to keep track of what their PCs can do, but as a GM you're usually running multiple creatures at once and have to keep in mind how the results of this combat affect other events in the session. Read over the stat blocks for all creatures you're using that session; if any of them have special abilities or use a [universal monster rule](main/umr), be sure you're familiar with those as well. If a creature has a complex spell or spell-like ability, note its page number or print out the ability to save time referencing it.",
 			"",
 			"**Display the Combat Order:** If a PC knows what the current tick of the initiative clock is and knows when the participants get to act, he knows when his turn is coming up and can plan for what he wants to do. This means instead of hemming and hawing for a minute at the start of his turn, he can hem and haw during the previous player's turn and be ready when it's his turn. It also lets the PCs coordinate their actions together-while stingy GMs may see this as cheating or metagaming, remember that the turn-based initiative system is just a tool to simulate real-time combat in a way that doesn't take forever, and in a real combat, people on the same side wouldn't be locked into only acting in a specific order without awareness of each others' intent.",
 			"",
@@ -4897,11 +4893,14 @@
 	},
 	"player_characters": {
 		"name": "Player Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
 			"",
-			"While the Game Master takes on numerous responsibilities vital to the smooth running and group enjoyment of a roleplaying game, his efforts focus on only half of a game's aspects. The other half-the creation of characters, the narrative drive of the campaign, and a thousand other major decisions-rest to a large extent on the shoulders of the players."
+			"While the Game Master takes on numerous responsibilities vital to the smooth running and group enjoyment of a roleplaying game, his efforts focus on only half of a game's aspects. The other half-the creation of characters, the narrative drive of the campaign, and a thousand other major decisions-rest to a large extent on the shoulders of the players.",
+			"",
+			"If the game were a movie and the GM its director, then the players would be both starring actors and audience. All the fearsome monsters, nasty traps, elaborate dungeons, and sinister plots in the world are wasted without a dynamic band of players to confront them and aid in developing an exciting story. By sharing a measure of responsibility with the GM for a game's story and the group's greater enjoyment, players go beyond the role of mere bystanders, and become both the stars and the coauthors of their heroic epic."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4927,13 +4926,12 @@
 	},
 	"starting_characters": {
 		"name": "Starting Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
 			"",
-			"If the game were a movie and the GM its director, then the players would be both starring actors and audience. All the fearsome monsters, nasty traps, elaborate dungeons, and sinister plots in the world are wasted without a dynamic band of players to confront them and aid in developing an exciting story. By sharing a measure of responsibility with the GM for a game's story and the group's greater enjoyment, players go beyond the role of mere bystanders, and become both the stars and the coauthors of their heroic epic.",
-			"",
-			"This chapter details the part of a Pathfinder game the Game Master does not directly control, discussing the elements of an adventuring party, players' rights and responsibilities, ways to involve newcomers and reengage veterans, and suggestions for how to work with gamers of all types toward the creation of more exciting stories and more enjoyable games."
+			"This section details the part of a Pathfinder game the Game Master does not directly control, discussing the elements of an adventuring party, players' rights and responsibilities, ways to involve newcomers and reengage veterans, and suggestions for how to work with gamers of all types toward the creation of more exciting stories and more enjoyable games."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4947,13 +4945,7 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		],
 		"siblings": [
 			"starting_characters",
@@ -4964,6 +4956,7 @@
 	},
 	"the_face_of_the_enemy": {
 		"name": "The Face of the Enemy",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -4987,17 +4980,12 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		]
 	},
 	"before_the_game": {
 		"name": "Before the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -5017,17 +5005,12 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		]
 	},
 	"group_composition": {
 		"name": "Group Composition",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -5051,17 +5034,12 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		]
 	},
 	"character_creation_gg": {
 		"name": "Character Creation",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5083,24 +5061,21 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		]
 	},
 	"character_backgrounds": {
 		"name": "Character Backgrounds",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
 			"",
 			"Every player is different when it comes to creating character backgrounds. Some like to write whole novels, while others just want a name and a weapon. Both approaches are completely valid, but come with their own particular pitfalls. The player who writes out an overly complex history might be possessive and irritated when the GM tries to work that twists and revelations that manipulate that history. At the same time, the character with no background runs the risk of being bored or feeling disconnected from the campaign.",
 			"",
-			"In general, a good character background serves two functions: getting the player excited about roleplaying, and giving you as the GM something to latch onto at the beginning of the story. As a result, regardless of how much extra work they want to do, encourage each of your players to give you a physical description (to inform NPC reactions), a basic reason for adventuring, and at least one hook involving an old vendetta, personal ethos, relative, or other core detail you can weave into the campaign."
+			"In general, a good character background serves two functions: getting the player excited about roleplaying, and giving you as the GM something to latch onto at the beginning of the story. As a result, regardless of how much extra work they want to do, encourage each of your players to give you a physical description (to inform NPC reactions), a basic reason for adventuring, and at least one hook involving an old vendetta, personal ethos, relative, or other core detail you can weave into the campaign.",
+			"",
+			"Also see: [How to Create a Background](rule/how_to_create_a_background)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5115,17 +5090,12 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"after_the_game"
 		]
 	},
 	"during_the_game_gg": {
 		"name": "During the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5145,17 +5115,17 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
+			"after_the_game"
+		],
+		"subtopics": [
 			"fair_gameplay",
 			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"plot_development"
 		]
 	},
 	"fair_gameplay": {
 		"name": "Fair Gameplay",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5170,26 +5140,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"during_the_game_gg"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
 			"fair_gameplay",
 			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"plot_development"
 		]
 	},
 	"player_knowledge": {
 		"name": "Player Knowledge",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 60](source/gamemastery_guide)",
@@ -5208,26 +5170,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"during_the_game_gg"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
 			"fair_gameplay",
 			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"plot_development"
 		]
 	},
 	"plot_development": {
 		"name": "Plot Development",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 61](source/gamemastery_guide)",
@@ -5246,26 +5200,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"during_the_game_gg"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
 			"fair_gameplay",
 			"player_knowledge",
-			"plot_development",
-			"after_the_game",
-			"keeping_current",
-			"feedback",
-			"creativity_between_sessions"
+			"plot_development"
 		]
 	},
 	"after_the_game": {
 		"name": "After the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5285,10 +5231,9 @@
 			"character_creation_gg",
 			"character_backgrounds",
 			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
+			"after_the_game"
+		],
+		"subtopics": [
 			"keeping_current",
 			"feedback",
 			"creativity_between_sessions"
@@ -5296,6 +5241,7 @@
 	},
 	"keeping_current": {
 		"name": "Keeping Current",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5311,16 +5257,6 @@
 			"starting_characters"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
 			"keeping_current",
 			"feedback",
 			"creativity_between_sessions"
@@ -5328,6 +5264,7 @@
 	},
 	"feedback": {
 		"name": "Feedback",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5343,16 +5280,6 @@
 			"starting_characters"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
 			"keeping_current",
 			"feedback",
 			"creativity_between_sessions"
@@ -5360,6 +5287,7 @@
 	},
 	"creativity_between_sessions": {
 		"name": "Creativity Between Sessions",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5377,16 +5305,6 @@
 			"starting_characters"
 		],
 		"siblings": [
-			"the_face_of_the_enemy",
-			"before_the_game",
-			"group_composition",
-			"character_creation_gg",
-			"character_backgrounds",
-			"during_the_game_gg",
-			"fair_gameplay",
-			"player_knowledge",
-			"plot_development",
-			"after_the_game",
 			"keeping_current",
 			"feedback",
 			"creativity_between_sessions"
@@ -5394,6 +5312,7 @@
 	},
 	"new_players": {
 		"name": "New Players",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 63](source/gamemastery_guide)",
@@ -5426,6 +5345,7 @@
 	},
 	"the_life_of_a_party": {
 		"name": "The Life of a Party",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5439,23 +5359,10 @@
 		],
 		"subtopics": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
 			"evil_characters"
 		],
 		"siblings": [
@@ -5467,6 +5374,7 @@
 	},
 	"gathering_a_group": {
 		"name": "Gathering A Group",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5481,28 +5389,22 @@
 		],
 		"siblings": [
 			"gathering_a_group",
+			"party_composition",
+			"handling_treasure",
+			"death_of_a_hero",
+			"alignment_gg",
+			"evil_characters"
+		],
+		"subtopics": [
 			"shared_past",
 			"shared_goal",
 			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"flash_forward"
 		]
 	},
 	"shared_past": {
 		"name": "Shared Past",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5517,32 +5419,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"gathering_a_group"
 		],
 		"siblings": [
-			"gathering_a_group",
 			"shared_past",
 			"shared_goal",
 			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"flash_forward"
 		]
 	},
 	"shared_goal": {
 		"name": "Shared Goal",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5553,32 +5442,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"gathering_a_group"
 		],
 		"siblings": [
-			"gathering_a_group",
 			"shared_past",
 			"shared_goal",
 			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"flash_forward"
 		]
 	},
 	"in_media_res": {
 		"name": "In Media Res",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5591,32 +5467,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"gathering_a_group"
 		],
 		"siblings": [
-			"gathering_a_group",
 			"shared_past",
 			"shared_goal",
 			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"flash_forward"
 		]
 	},
 	"flash_forward": {
 		"name": "Flash Forward",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5627,32 +5490,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"gathering_a_group"
 		],
 		"siblings": [
-			"gathering_a_group",
 			"shared_past",
 			"shared_goal",
 			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"flash_forward"
 		]
 	},
 	"party_composition": {
 		"name": "Party Composition",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5667,28 +5517,21 @@
 		],
 		"siblings": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
 			"evil_characters"
+		],
+		"subtopics": [
+			"splitting_the_party",
+			"adjusting_for_limitations",
+			"secondary_characters"
 		]
 	},
 	"splitting_the_party": {
 		"name": "Splitting the Party",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5717,32 +5560,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"party_composition"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
 			"splitting_the_party",
 			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"secondary_characters"
 		]
 	},
 	"adjusting_for_limitations": {
 		"name": "Adjusting for Limitations",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5761,32 +5590,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"party_composition"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
 			"splitting_the_party",
 			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"secondary_characters"
 		]
 	},
 	"secondary_characters": {
 		"name": "Secondary Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5797,32 +5612,18 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"party_composition"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
 			"splitting_the_party",
 			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"secondary_characters"
 		]
 	},
 	"handling_treasure": {
 		"name": "Handling Treasure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5843,28 +5644,16 @@
 		],
 		"siblings": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
 			"evil_characters"
 		]
 	},
 	"death_of_a_hero": {
 		"name": "Death of a Hero",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5879,28 +5668,20 @@
 		],
 		"siblings": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
 			"evil_characters"
+		],
+		"subtopics": [
+			"when_to_resurrect",
+			"back_from_the_grave"
 		]
 	},
 	"when_to_resurrect": {
 		"name": "When to Resurrect",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5913,32 +5694,17 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"death_of_a_hero"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
 			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"back_from_the_grave"
 		]
 	},
 	"back_from_the_grave": {
 		"name": "Back from the Grave",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5953,32 +5719,17 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"death_of_a_hero"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
 			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"back_from_the_grave"
 		]
 	},
 	"alignment_gg": {
 		"name": "Alignment",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -5997,28 +5748,22 @@
 		],
 		"siblings": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
+			"evil_characters"
+		],
+		"subtopics": [
 			"predestination",
 			"free_willl",
 			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"changing_alignment"
 		]
 	},
 	"predestination": {
 		"name": "Predestination",
+		"subtitle": "Gamemastering, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -6029,32 +5774,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"alignment_gg"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
 			"predestination",
 			"free_willl",
 			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"changing_alignment"
 		]
 	},
 	"free_willl": {
 		"name": "Free Willl",
+		"subtitle": "Gamemastering, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -6065,32 +5797,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"alignment_gg"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
 			"predestination",
 			"free_willl",
 			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"changing_alignment"
 		]
 	},
 	"defining_deeds": {
 		"name": "Defining Deeds",
+		"subtitle": "Gamemastering, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -6101,32 +5820,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"alignment_gg"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
 			"predestination",
 			"free_willl",
 			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"changing_alignment"
 		]
 	},
 	"changing_alignment": {
 		"name": "Changing Alignment",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 69](source/gamemastery_guide)",
@@ -6143,32 +5849,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"the_life_of_a_party"
+			"the_life_of_a_party",
+			"alignment_gg"
 		],
 		"siblings": [
-			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
-			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
-			"handling_treasure",
-			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
-			"alignment_gg",
 			"predestination",
 			"free_willl",
 			"defining_deeds",
-			"changing_alignment",
-			"evil_characters"
+			"changing_alignment"
 		]
 	},
 	"evil_characters": {
 		"name": "Evil Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 69](source/gamemastery_guide)",
@@ -6185,28 +5878,16 @@
 		],
 		"siblings": [
 			"gathering_a_group",
-			"shared_past",
-			"shared_goal",
-			"in_media_res",
-			"flash_forward",
 			"party_composition",
-			"splitting_the_party",
-			"adjusting_for_limitations",
-			"secondary_characters",
 			"handling_treasure",
 			"death_of_a_hero",
-			"when_to_resurrect",
-			"back_from_the_grave",
 			"alignment_gg",
-			"predestination",
-			"free_willl",
-			"defining_deeds",
-			"changing_alignment",
 			"evil_characters"
 		]
 	},
 	"player_interactions": {
 		"name": "Player Interactions",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 70](source/gamemastery_guide)",
@@ -6259,6 +5940,7 @@
 	},
 	"antagonist": {
 		"name": "Antagonist",
+		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 71](source/gamemastery_guide)",
@@ -6298,6 +5980,7 @@
 	},
 	"continuity_expert": {
 		"name": "Continuity Expert",
+		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 71](source/gamemastery_guide)",
@@ -6335,6 +6018,7 @@
 	},
 	"diva": {
 		"name": "Diva",
+		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 72](source/gamemastery_guide)",
@@ -6376,6 +6060,7 @@
 	},
 	"entrepreneur": {
 		"name": "Entrepreneur",
+		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 72](source/gamemastery_guide)",
@@ -6413,6 +6098,7 @@
 	},
 	"flake": {
 		"name": "Flake",
+		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 73](source/gamemastery_guide)",
@@ -6430,6 +6116,360 @@
 			"To be respectful of others, try using e-mail or other electronic means to have players RSVP to the gaming session. This lets everyone know who is showing up. And if something happens at the last minute, players can contact everyone to let the group know.",
 			"",
 			"If a player missing out on sessions truly cripples a group, consider using NPCs to fill the same role. The rest of the party can temporarily adopt or hire these NPCs to make up for missing skills, and the NPC's wages are a small price to pay for a well-timed fireball or backstab- especially if they come out of the missing character's share of treasure."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"glass_jaw": {
+		"name": "Glass Jaw",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 73](source/gamemastery_guide)",
+			"",
+			"Some characters have a weakness that constantly reveals itself or is easily exploited in virtually every encounter. Examples include characters with ultra-low ability scores, those unable to defend themselves in combat, characters cursed with the lowest possible number of hit points, and the like.",
+			"",
+			"Many sorts of glass jaws appear during character creation, giving the GM the opportunity to drill down into the player's real motivations before play begins. While it can be fun to occasionally include glass jaw characters as an opportunity to add additional roleplaying elements to the campaign, serious design flaws can handicap the rest of the party's enjoyment, and are best caught early. This is not to say that every character must be optimized to the fullest extent of the rules, but characters with crippling deficiencies-like a wizard unable to cast 2nd-level spells, or a bard with no Perform skill-should be addressed. Find out why that particular player has created the character with such a glaring weakness. For example, if the wizard player wants to play a sickly character for added drama, you could always adjust his Constitution score back into the normal range and instead let him roleplay through a less crippling affliction like a disease or curse.",
+			"",
+			"It's possible that the player isn't looking for a roleplaying opportunity. Depending on the creation method and the player's level of experience, he might just have rolled poorly or not know the rules well enough to make his character viable. If that's the case, working with the player to build the character and re-rolling or using a point-buy system for ability score generation is likely to resolve the situation.",
+			"",
+			"If none of the above suggestions fix the problem, it's best to talk to the player privately and determine what he intends to do with this character. Explain your concerns about what you perceive as the character's glass jaw and the impact it might have on the rest of the group. Together, you and the player should explore creative solutions to help improve everyone's time around the gaming table, modifying the character concept as necessary.",
+			"",
+			"**Power Gamers and Glass Jaws:** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"loner": {
+		"name": "Loner",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
+			"",
+			"The loner can be one of the most disruptive forces around the gaming table. She has little regard for group cohesion, and seizes every opportunity to go off alone, heedless of the effect on other players. This might be when the rest of the characters are expecting to rest and recover their spells, during combat in order to explore some dark side tunnel, or any time her interests diverge from the party's.",
+			"",
+			"There are really two issues here. First, what goals does the player have for her character that she doesn't feel can be met as part of the group experience? It may be that she feels bound by the character concept she's created, and needs help figuring out how to make it work within the party structure. Second, is the character's role in the group dynamic essential for the heroes to overcome their obstacles? If she's leaving when other players need her, this presents a serious problem that needs to be addressed.",
+			"",
+			"As the GM, you may want to work with the loner between sessions to help achieve her character's goals. Avoid the temptation to split your attention during the game-giving one player fully half of your game time simply because she wandered off is no fair to the rest of the players. Handle any side adventures that happen away from the group off camera, not when it wastes the whole group's time. And if the loner gets tired of sitting out simply because her character wandered away from the group, perhaps she won't be as likely to wander off again.",
+			"",
+			"You might also use the loner's meanderings to introduce new plot elements. In taking her leave, does the loner stumble into a group of wandering monsters that attack the party? Set off a trap? These effects don't have to be immediate-if your player wants to sneak out of the tavern in the middle of the night, you might quickly gloss over her escapade, but use the opportunity to explain how the orcs were able to locate the group's campsite. The idea isn't to punish a player for her loner tendencies, but rather to create the greatest amount of fun for the greatest number of players.",
+			"",
+			"Of course, you're not the only one likely to be irritated by a loner's gallivanting, and regular abandonment of the group eventually causes intra-party strife. Other characters-and players-might become upset and seek to confront the loner's character. This can be a great opportunity for roleplaying, but it risks alienating the loner. Make sure that the loner knows that while running her character in such a manner isn't \"wrong,\" going off alone can have a negative impact of the other players' enjoyment, and that you want to make sure everyone-including her-is getting their needs met."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"lump": {
+		"name": "Lump",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
+			"",
+			"The lump just takes up space at the gaming table, rolling dice when instructed or performing actions when other players ask him to do something. There's no passion here; the lump is more of an automaton awaiting its next orders. Many times, the lump is a player new to the game or an experienced player outside of his comfort zone.",
+			"",
+			"One of the GM's primary goals is to ensure that everyone is having fun during the game. For most people, lumpish behavior is the definition of boredom, and it's your job to reach out and bring the lump into the campaign for real.",
+			"",
+			"For new players, lack of familiarity with the rules is a frequent source of confusion. Not knowing exactly what to do, they shut down and wait for more experienced players to instruct them. They might be confused about their class role or the ebb and flow of the encounters, worried about wasting their abilities at the wrong time, or simply intimidated by louder and more experienced players. Aside from considering the [previous advice](rule/party_composition) and reminding new players that they can do anything, let your experienced players know that they need to encourage the new player to spread his wings. If he doesn't know the rules or the campaign setting, let him borrow a book to read up between sessions. Remember that people tend to best learn the rules by playing, though-focus on letting neophytes do things on their own, and at their own speed.",
+			"",
+			"**In-Game Advice:** If you want to take a more direct approach, the easiest way to get a lump roleplaying is to engage him directly via NPCs or situations that don't allow him to defer to other players. Mouthy NPC assistants and sentient items (especially those that can speak) can also work wonders at getting a lump out of his shell, as giving a PC an in-game source of advice (even faulty advice) can prompt roleplaying opportunities and manipulate the player into thinking about his acts and making his own decisions. Humor also helps many awkward players feel more at ease. Setting a lump up with an even less experienced NPC sidekick can help him feel more confident and capable.",
+			"",
+			"Lump vs. Diva: In many ways, the diva loves the lump player-he allows the diva to take all the limelight for herself while the lump does what he always does. But as the lump slowly emerges from his shell, suddenly there's less time in the sun for the diva. Jumping back and forth between these two player types can be a challenge; focus on fanning the flames of the lump until he becomes comfortable enough with the game that the diva won't be able to shove him back into his shell."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"one-trick_pony": {
+		"name": "One-Trick Pony",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
+			"",
+			"A player who falls into the one-trick pony type has a preference for playing a particular character or filling a specific role. She might always be the paladin, standing on the front lines and charging evil every time she sees it. Or maybe she's the wizard specialized in evocation who blasts enemies to bits. She has a play style she likes, and she tends to stick with it.",
+			"",
+			"The one-trick pony tends to keep a certain role locked down, preventing other players from experiencing the game from that perspective. Her insistence also has the effect of forcing other players to approach the campaign in a certain way. For example, players can never sneak in to attack the boss by surprise if the paladin always charges forward into every combat.",
+			"",
+			"Of course, there's nothing inherently wrong with indulging a one-trick pony as long as everyone is having fun and you're able to take your campaign to its final destination. But at the same time, you aren't required to maintain the status quo just because that's the way it's always been. When the time comes to shake things up, embrace the change and communicate it to everyone. One way to address this situation is by announcing the main campaign story before players roll up characters, and requiring everyone to come up with characters that fit into it. If you're running a thieves' guild campaign that requires stealth and trickery, it's fine to disallow certain classes or require select skills.",
+			"",
+			"A second type of one-trick pony is the player who uses a specific tactic against enemies again and again during the campaign. This player has found an effective combo or strategy and uses it whenever possible, to the exclusion of all others. Again, while not technically wrong, this play style can quickly get old, and there are a few ways to address it. Before you do so, however, stop and make sure there's actually a problem. Is the player's strategy boring the other party members? Or are you merely frustrated by its effectiveness? Don't punish players for being good at what they do-instead, try exploring counter strategies, and enlist other players and GMs outside of the game if you need tactical help. If you have recurring villains, it only makes sense that they'd quickly learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and begin using it against them. There's no strategy for which a defense cannot be devised, and if the one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of predictability."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"multitask_master": {
+		"name": "Multitask Master",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
+			"",
+			"Distractions come into the game room from a variety of sources: phone calls, family, the pizza guy-you name it. Once they start being generated by the gamers themselves, however, you may need to act quickly to keep your game under control and focused. The multitask master is the source of many such distractions around the table, as he e-mails friends from his laptop, sends text messages on his cell phones, and tells this week's joke to those next to him between initiative rounds.",
+			"",
+			"The first thing to do when confronted with multitaskers is to ask yourself why they're doing it. Are your players falling asleep because you're plotting out every possible location that a caltrop could land? Speed things up. Are you spending all your time on a diva's personal subplot, or waiting for a slow player to find the correct damage dice? Move on to the next player. Evenly distributing your attention and keeping the game moving is crucial.",
+			"",
+			"If you don't think you're fostering the distractions, then it's time to talk to the player (or the group at large) and explain your concerns. If you're having to reread encounters or explain to each player what the guy before him did, there's clearly a problem. Part of the problem might stem from unavoidable slowdowns, such as in a group where several players don't know the rules well yet, but there may be something else you can do to keep players' attention during the game. Ask them for ideas.",
+			"",
+			"Unless players are using laptops or cell phones to keep track of their characters, it's fine to ban them from the gaming table. If a player gets a call he must respond to, he should leave the table and take care of it. If he wants to text friends, he should do it away from the table during breaks. Such rules shouldn't feel draconian, but rather emphasize organization and respect for everyone around the table. Some groups even go so far as to specify what is allowed on the table (dice, character sheets, and pencils) instead of targeting what they don't like.",
+			"",
+			"Like most situations, this one is best handled in private at first. If you need to discuss the issue with the group, make sure not to single out a particular player. Instead, focus on the distractions that prevent the game from being fun and come up with a solution the entire group can accept. When possible, it's generally best to start a gaming group with such rules in place than to try and add them later after a problem arises. But distraction is contagious, and the slower the game gets, the more temptation there is for players to multitask."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"power_game": {
+		"name": "Power Game",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
+			"",
+			"The power gamer focuses on maximizing her character's strengths while minimizing her weaknesses. She focuses all her character choices to enable her to be highly effective in certain areas, without being correspondingly weak in others. She knows exactly which combinations work best for her character type, thrives under home rules that haven't been thoroughly balanced, and can easily wreak havoc on a GM who is less experienced with rules, seeks to appease all players, or emphasizes roleplaying over statistics.",
+			"",
+			"The power gamer tends to focus on combat, expertly manipulating the rules to create engines of destruction that few of her companions (or enemies) can match. The standard monsters from various rules supplements stand no chance against her unless they're many levels higher than the rest of the group. While the power gamer likely sees her actions as merely playing the game to the best of her ability, her proficiency makes creating challenging encounters for the entire party very difficult; monsters introduced to challenge the power gamer might well kill the other characters.",
+			"",
+			"In such situations, the first thing to do is to take a look at the rules in question. As a GM, you should reserve the right to vet new rules content from any source before it's allowed into your game, and if some of the power gamer's abilities are based on rules you don't approve of or house rules you hadn't thought through entirely, you can change them at the end of an adventure-provided players impacted by the change are allowed to go back and rebuild their characters.",
+			"",
+			"The most important thing when dealing with a power gamer is avoiding an adversarial relationship. Instead, try to learn from her, filing away her tactics for use by future villains. If a player is so effective in combat that it's ruining your game, take her aside and ask for her assistance. Congratulate her honestly on her prowess-she spent a lot of time devising those strategies-then explain the situation. Maybe she can help your other players maximize their characters-a group of all power gamers is easier to deal with than a mixed batch. If that doesn't work, perhaps she or another player can help you devise effective counter strategies, or maybe she'd enjoy the challenge of playing a character a few levels lower than everyone else. In the end, it's possible she may need to retire or redesign the character, but the more transparency you can have about this process, and the less it feels like punishment, the better. And if the character is only slightly too powerful, or the other players prefer to focus on roleplaying, there are always noncombat encounters to help give other players the chance to shine."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"rules_lawyer": {
+		"name": "Rules Lawyer",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
+			"",
+			"All players like to know that there are universal rules to level the playing field, but the rules lawyer takes it a step farther. He knows every obscure rule, and insists that each one work exactly as written-especially if it's in his favor.",
+			"",
+			"While of course the rules should work the same for villains as they do the heroes, the GM's challenge is ensuring that the game runs smoothly and everyone has fun. Sometimes it's acceptable for the letter of the law to fade a bit, especially if such sacrifices keep an adventure moving smoothly or to make the game more enjoyable. The following techniques can keep the game on track when confronted with a rules lawyer. If you're constantly being contradicted about rules, consider the following steps.",
+			"",
+			"**Establish House Rules:** If your house rules differ from the main rules, make sure everyone knows about it. Also, be sure to let your players know that this isn't a sport, and that you reserve the right to bend or break the rules for the sake of the game from time to time, with the understanding that your intention isn't to be unfair, but rather to make things more fun for the group as a whole.",
+			"",
+			"**When to Question:** As in the case of the continuity expert, let the rules lawyer know when and how it's appropriate to cite the rules. Openly contradicting is counterproductive unless it's a matter of life and death for a character, in which case you should spend a moment to quickly verify key points, but that's it. After the game or between sessions, you can discuss the rules in depth. Alternatively, if you're shaky on a particular rule and it's important to get it right, don't be afraid to ask the rules lawyer for help to keep the game moving. Making an ally of the rules lawyer validates him and likely makes it easier for him to accept when you're forced to overrule him.",
+			"",
+			"**Use Maps and Minis:** Groups that generalize the locations of their individual characters tend to have more problems with rules lawyers. It's difficult for players to understand the tactical layout of an area without actually seeing the area, and can lead to comments like, \"I didn't walk up to that chest; I skirted the edge of the wall.\" An established grid and physical markers prevent a lot of arguments.",
+			"",
+			"Even if you follow these rules, you may still have trouble with rules lawyers. Not everyone views rules the same way. The important thing is to stand behind your rulings, and when certain things break the rules-for good reason- don't feel like you have to reveal world secrets just because the rules lawyer demands answers. GMs work in mysterious ways, and with any luck history will vindicate your choice."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"tagalong": {
+		"name": "Tagalong",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
+			"",
+			"The tagalong isn't so much a player type as he is a distraction. He might be the significant other of one of the players that shows up each week to spend quality time with his gaming better half. Perhaps he's a player's best friend from high school who is stopping over. Maybe he's even one of the players' children. No matter the relationship, the tagalong is by definition bored by the game and serves as a distraction to the rest of the players. Here's how to prepare for that eventuality.",
+			"",
+			"If the tagalong proves interested in gaming but has never played before, have him observe a game session or take on a minor role, such as the squire, familiar, or assistant of another player, or one of your minor NPCs. If gradually teaching him the game and encouraging this interest works, he may eventually want to create his own character and join the campaign, and chances are good that at least the player who brought him is excited to have him at the table.",
+			"",
+			"If the tagalong has no interest in gaming, even after watching the proceedings for a bit, it's probably best to find some other activity to keep him entertained over the course of the game. If there is a separate room where he can watch TV or read a book, the chances of keeping everyone's attention on the game are much higher. Find out what the tagalong likes to do, and if possible provide him with the resources and equipment he needs to stay entertained. Ultimately, the responsibility for keeping the tagalong happy and distractions to a minimum lies with the player who brought him. Don't be afraid to privately enforce this responsibility.",
+			"",
+			"Children too young to join the game are the most challenging form of tagalongs, as they require both supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite parents should ask the group whether their children are too distracting for gaming, and if it's clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't find a babysitter. But if a group is willing to try-particularly if multiple players have tagalong children-you may be able to play through the distraction caused by children. The important thing is to make sure everyone's on board, as the presence of children can drive some gamers away from the game permanently. Approach this topic respectfully, but be sure to hear from all players before determining the best course of action."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"player_characters",
+			"player_interactions"
+		],
+		"siblings": [
+			"antagonist",
+			"continuity_expert",
+			"diva",
+			"entrepreneur",
+			"flake",
+			"glass_jaw",
+			"loner",
+			"lump",
+			"one-trick_pony",
+			"multitask_master",
+			"power_game",
+			"rules_lawyer",
+			"tagalong",
+			"thespian"
+		]
+	},
+	"thespian": {
+		"name": "Thespian",
+		"subtitle": "Gamemastering, Player Types",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
+			"",
+			"It's hardly surprising that actors would be drawn to roleplaying games. After all, while some roleplayers are interested solely in leveling up and getting cool new abilities, many take it to the next level, establishing dialects, mannerisms, catch phrases, and so on to bring their characters to life. They speak in character all the time, and relish the opportunity to add their drama skills to a social setting.",
+			"",
+			"Make no mistake about it-this is a good thing. As a GM, you're probably already doing many of these things to help set the stage, and having a few thespian player types to play off of can help you make the world that much more vivid.",
+			"",
+			"Yet like the diva, the thespian can easily come to dominate your sessions, especially if your other players are quieter or less interested in the roleplaying side of things. In such cases, the same techniques used to combat the diva apply here, namely switching back and forth between different NPCs and players to ensure that everyone gets equal time. Keep in mind that members of your gaming group likely embrace different depths of roleplaying, and even if they're not hamming it up themselves, some players might take great enjoyment out of watching the thespian roleplay her heart out. As long as everyone's having fun, go with it. (For advice on acting tricks to up your own performance as a GM, see [GM as Actor](rule/gm_as_actor).)",
+			"",
+			"If tangentially related roleplaying encounters begin to dominate a game, however, or certain players seem bored by the clever dialogue, it might be time to rein back on the roleplaying and throw in a few more combat encounters to accommodate everyone's play styles. Because they tend to involve less dice rolling than other types of encounters, social interactions between characters and NPCs can easily happen between games (though it should be noted that email tends to lose a lot of the flair and fun for thespians). Conversely, if some of your players are bored whenever they're not rolling dice, try incorporating more dice rolls into your social interactions. After all, your players put ranks into Bluff, Diplomacy, Sense Motive, and other social skills for a reason, and you shouldn't give away your biggest secrets to the thespian instead of the Diplomacyheavy bard just because the thespian player likes to do all the talking. As with other metagame questions of personal knowledge versus character knowledge, it's important to remember that a great performance by a player doesn't necessarily indicate the same from his character."
 		],
 		"parent_topics": [
 			"gamemastering",

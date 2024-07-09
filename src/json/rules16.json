@@ -1983,6 +1983,7 @@
 			"armor_piece_descriptions"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -2591,6 +2592,7 @@
 			"adapting_scaling_items"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -2698,6 +2700,7 @@
 			"introducing_words_of_power"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -6874,6 +6877,7 @@
 			"wounds_and_vigor_variant_feats"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -7098,6 +7102,7 @@
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",

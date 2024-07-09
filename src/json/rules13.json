@@ -1,6 +1,7 @@
 {
 	"archmage": {
 		"name": "Archmage",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Heroes of Golarion",
@@ -179,6 +180,7 @@
 	},
 	"champion": {
 		"name": "Champion",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -361,6 +363,7 @@
 	},
 	"guardian": {
 		"name": "Guardian",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -543,6 +546,7 @@
 	},
 	"hierophant": {
 		"name": "Heirophant",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -773,6 +777,7 @@
 	},
 	"marshal_2": {
 		"name": "Marshal",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -965,6 +970,7 @@
 	},
 	"trickster": {
 		"name": "Trickster",
+		"subtitle": "Mythic",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -1194,6 +1200,7 @@
 			"Mythic Origins"
 		],
 		"name": "Universal Path Abilities",
+		"subtitle": "Mythic",
 		"description": [
 			"These abilities can be selected by a mythic character on any path.",
 			"",
@@ -1396,6 +1403,7 @@
 	},
 	"gaining_tiers": {
 		"name": "Gaining Tiers",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 13](source/mythic_adventures)",
@@ -1483,6 +1491,7 @@
 	},
 	"godlings_of_golarion": {
 		"name": "Godlings of Golarion",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Origins" ],
 		"description": [
 			"**Source** [Mythic Origins pg. 5](source/mythic_origins)",
@@ -1794,6 +1803,7 @@
 	},
 	"contact": {
 		"name": "Contact",
+		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 119](source/mythic_adventures)",
@@ -1820,6 +1830,7 @@
 	},
 	"awakening": {
 		"name": "Awakening",
+		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 120](source/mythic_adventures)",
@@ -1848,6 +1859,7 @@
 	},
 	"journey": {
 		"name": "Journey",
+		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 120](source/mythic_adventures)",
@@ -1880,6 +1892,7 @@
 	},
 	"return": {
 		"name": "Return",
+		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 121](source/mythic_adventures)",
@@ -1908,6 +1921,7 @@
 	},
 	"life_afterward": {
 		"name": "Life Afterward",
+		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 121](source/mythic_adventures)",
@@ -1972,6 +1986,7 @@
 	},
 	"the_world's_reaction": {
 		"name": "The World's Reaction",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 123](source/mythic_adventures)",
@@ -2058,6 +2073,7 @@
 	},
 	"eldritch_magic": {
 		"name": "Eldritch Magic",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 123](source/mythic_adventures)",
@@ -2101,6 +2117,7 @@
 	},
 	"legendary_encounter": {
 		"name": "Legendary Encounter",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 124](source/mythic_adventures)",
@@ -2138,6 +2155,7 @@
 	},
 	"lost_inheritance": {
 		"name": "Lost Inheritance",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 124](source/mythic_adventures)",
@@ -2175,6 +2193,7 @@
 	},
 	"planar_might": {
 		"name": "Planar Might",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 126](source/mythic_adventures)",
@@ -2212,6 +2231,7 @@
 	},
 	"power_of_the_gods": {
 		"name": "Power of the Gods",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 126](source/mythic_adventures)",
@@ -2255,6 +2275,7 @@
 	},
 	"stolen_might": {
 		"name": "Stolen Might",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 127](source/mythic_adventures)",
@@ -2294,6 +2315,7 @@
 	},
 	"designing_encounters_ma": {
 		"name": "Designing Encounters (MA)",
+		"subtitle": "Mythic",
 		"display_name": "Designing Encounters",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2422,6 +2444,7 @@
 	},
 	"sample_trials": {
 		"name": "Sample Trials",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 130](source/mythic_adventures)",
@@ -2713,6 +2736,7 @@
 	},
 	"eternal_gaze": {
 		"name": "Eternal Gaze",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 135](source/mythic_adventures)",
@@ -2745,6 +2769,7 @@
 	},
 	"falling_stars": {
 		"name": "Falling Stars",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 135](source/mythic_adventures)",
@@ -2779,6 +2804,7 @@
 	},
 	"for_love_of_sport": {
 		"name": "For Love of Sport",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 137](source/mythic_adventures)",
@@ -2811,6 +2837,7 @@
 	},
 	"legacy_of_earth": {
 		"name": "Legacy of Earth",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 137](source/mythic_adventures)",
@@ -2841,6 +2868,7 @@
 	},
 	"the_nascent_sphere": {
 		"name": "The Nascent Sphere",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 138](source/mythic_adventures)",
@@ -2871,6 +2899,7 @@
 	},
 	"perilous_peaks": {
 		"name": "Perilous Peaks",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 138](source/mythic_adventures)",
@@ -2903,6 +2932,7 @@
 	},
 	"unexpected_travels": {
 		"name": "Unexpected Travels",
+		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 139](source/mythic_adventures)",
@@ -2982,6 +3012,7 @@
 	},
 	"legendary_items": {
 		"name": "Legendary Items",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
@@ -3008,6 +3039,7 @@
 	},
 	"becoming_legendary": {
 		"name": "Becoming Legendary",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
@@ -3033,6 +3065,7 @@
 	},
 	"legendary_artifacts": {
 		"name": "Legendary Artifacts",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
@@ -3054,6 +3087,7 @@
 	},
 	"base_legendary_abilities": {
 		"name": "Base Legendary Abilities",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
@@ -3133,6 +3167,7 @@
 	},
 	"legendary_item_abilities": {
 		"name": "Legendary Item Abilities",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 171](source/mythic_adventures)",
@@ -3305,6 +3340,7 @@
 	},
 	"mythic_rank": {
 		"name": "Mythic Rank",
+		"subtitle": "Mythic Monsters",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 176](source/mythic_adventures)",
@@ -3468,7 +3504,6 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	}

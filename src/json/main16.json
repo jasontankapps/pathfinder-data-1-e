@@ -909,6 +909,7 @@
 			"## main/monsters_unique View Unique Monsters || (CR, type, size, alignment, description; 156 monsters)",
 			"## main/monsters_mythical View Mythical Monsters || (CR, type, size, alignment, description; 81 monsters)",
 			"---",
+			"## main/umr View the Universal Monster Rules",
 			"## main/monster_families View Monster Families",
 			"# Monsters by Type",
 			"## main/monsters_aberrations Aberrations // (163 monsters)",

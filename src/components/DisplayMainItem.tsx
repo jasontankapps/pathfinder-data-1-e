@@ -47,24 +47,6 @@ const doLink = (props: MDaProps) => {
 	return <Link to={"/" + href}>{children}</Link>
 };
 
-const pBasic = (props: MDpProps, tables: Table[]) => {
-	const { children } = props;
-	if(typeof(children) === "string") {
-		let m = children.match(/^\{table([0-9]+)\}$/);
-		if(m) {
-			const index = parseInt(m[1]);
-			if(index >= 0 && index < tables.length) {
-				return (
-					<IonItem className="hasTable">
-						<DisplayTable table={tables[index]} />
-					</IonItem>
-				);
-			}
-		}
-	}
-	return <IonItem className="mainItem"><IonLabel>{children}</IonLabel></IonItem>;
-};
-
 const p = (props: MDpProps, tables: Table[]) => {
 	const { children } = props;
 	if(typeof(children) === "string") {
@@ -116,19 +98,19 @@ const getElementAndUrl = (input: string): [ReactNode, string] => {
 const h2 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked" href={url}>{element}</IonItem>
 };
 
 const h3 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem indented" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked indented" href={url}>{element}</IonItem>
 };
 
 const h6 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem reversed" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked reversed" href={url}>{element}</IonItem>
 };
 
 const hr = (props: MDpProps) => {
@@ -149,7 +131,7 @@ const makeComponents = (tables: Table[]) => {
 const makeBasicComponents = (tables: Table[]) => {
 	return {
 		a: doLink,
-		p: (props: MDpProps) => pBasic(props, tables)
+		p: (props: MDpProps) => p(props, tables)
 	};
 };
 
@@ -166,12 +148,14 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [] })
 				>{line}</Markdown>
 			);
 		}
+		const className = "mainItem basic" + (tables.length > 0 ? " hasTable" : "");
 		return (
-			<Markdown
-				key={`mainItem-${i}`}
-				remarkPlugins={plugins}
-				components={basicComponents}
-			>{line.join("\n")}</Markdown>
+			<IonItem className={className} key={`mainItemBasic-${i}`}><IonLabel>
+				<Markdown
+					remarkPlugins={plugins}
+					components={basicComponents}
+				>{line.join("\n")}</Markdown>
+			</IonLabel></IonItem>
 		);
 	});
 };

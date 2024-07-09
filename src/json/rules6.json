@@ -1,6 +1,8 @@
 {
 	"planar": {
 		"name": "Planar",
+		"subtitle": "Gamemastering",
+		"tags": "the planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -34,6 +36,7 @@
 	},
 	"what_is_a_plane?": {
 		"name": "What is a Plane?",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -69,6 +72,7 @@
 	},
 	"planar_traits": {
 		"name": "Planar Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -102,6 +106,7 @@
 	},
 	"physical_traits": {
 		"name": "Physical Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -133,6 +138,7 @@
 	},
 	"gravity_traits": {
 		"name": "Gravity Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -199,6 +205,7 @@
 	},
 	"time_traits": {
 		"name": "Time Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 185](source/gamemastery_guide)",
@@ -237,6 +244,7 @@
 	},
 	"morphic_traits": {
 		"name": "Morphic Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 186](source/gamemastery_guide)",
@@ -271,6 +279,7 @@
 	},
 	"elemental_and_energy_traits": {
 		"name": "Elemental and Energy Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 186](source/gamemastery_guide)",
@@ -314,6 +323,7 @@
 	},
 	"alignment_traits": {
 		"name": "Alignment Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 187](source/gamemastery_guide)",
@@ -353,6 +363,7 @@
 	},
 	"magic_traits": {
 		"name": "Magic Traits",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 187](source/gamemastery_guide)",
@@ -410,6 +421,7 @@
 	},
 	"the_great_beyond": {
 		"name": "The Great Beyond",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -458,6 +470,7 @@
 	},
 	"material_plane": {
 		"name": "Material Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -502,6 +515,7 @@
 	},
 	"shadow_plane": {
 		"name": "Shadow Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -546,6 +560,7 @@
 	},
 	"negative_energy_plane": {
 		"name": "Negative Energy Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -590,6 +605,7 @@
 	},
 	"positive_energy_plane": {
 		"name": "Positive Energy Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -634,6 +650,7 @@
 	},
 	"plane_of_air": {
 		"name": "Plane of Air",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 189](source/gamemastery_guide)",
@@ -678,6 +695,7 @@
 	},
 	"plane_of_earth": {
 		"name": "Plane of Earth",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -721,6 +739,7 @@
 	},
 	"plane_of_fire": {
 		"name": "Plane of Fire",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -764,6 +783,7 @@
 	},
 	"plane_of_water": {
 		"name": "Plane of Water",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -810,6 +830,7 @@
 	},
 	"ethereal_plane": {
 		"name": "Ethereal Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -856,6 +877,7 @@
 	},
 	"astral_plane": {
 		"name": "Astral Plane",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -900,6 +922,7 @@
 	},
 	"abaddon_neutral_evil": {
 		"name": "Abaddon (Neutral Evil)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -944,6 +967,7 @@
 	},
 	"the_abyss_chaotic_evil": {
 		"name": "The Abyss (Chaotic Evil)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -988,6 +1012,7 @@
 	},
 	"elysium_chaotic_good": {
 		"name": "Elysium (Chaotic Good)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -1032,6 +1057,7 @@
 	},
 	"heaven_lawful_good": {
 		"name": "Heaven (Lawful Good)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1076,6 +1102,7 @@
 	},
 	"hell_lawful_evil": {
 		"name": "Hell (Lawful Evil)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1120,6 +1147,7 @@
 	},
 	"limbo_chaotic_neutral": {
 		"name": "Limbo (Chaotic Neutral)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1165,6 +1193,7 @@
 	},
 	"nirvana_neutral_good": {
 		"name": "Nirvana (Neutral Good)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1209,6 +1238,7 @@
 	},
 	"purgatory_neutral": {
 		"name": "Purgatory (Neutral)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1253,6 +1283,7 @@
 	},
 	"utopia_lawful_neutral": {
 		"name": "Utopia (Lawful Neutral)",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1298,6 +1329,7 @@
 	},
 	"planar_toolbox": {
 		"name": "Planar Toolbox",
+		"subtitle": "The Planes, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The planes offer limitless possibilities for destinations, inhabitants, and adventures. What PCs might find on the other side of a portal might be an exotic foray in a wondrous land, or a campaign-changing expedition into the impossible. In either case, the following tables should help GMs planning adventures beyond the realms of mortals.",
@@ -1774,6 +1806,7 @@
 	},
 	"taverns": {
 		"name": "Taverns",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1813,6 +1846,7 @@
 	},
 	"services": {
 		"name": "Services",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1842,6 +1876,7 @@
 	},
 	"setting_and_quality": {
 		"name": "Setting and Quality",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1873,6 +1908,7 @@
 	},
 	"drinks": {
 		"name": "Drinks",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1904,6 +1940,7 @@
 	},
 	"food": {
 		"name": "Food",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1935,6 +1972,7 @@
 	},
 	"entertainment": {
 		"name": "Entertainment",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -1968,6 +2006,7 @@
 	},
 	"bedding": {
 		"name": "Bedding",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -1997,6 +2036,7 @@
 	},
 	"other_amenities": {
 		"name": "Other Amenities",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2026,6 +2066,7 @@
 	},
 	"staff_and_patrons": {
 		"name": "Staff and Patrons",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2055,6 +2096,7 @@
 	},
 	"staff": {
 		"name": "Staff",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2084,6 +2126,7 @@
 	},
 	"patrons": {
 		"name": "Patrons",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2113,6 +2156,7 @@
 	},
 	"describing_personalities": {
 		"name": "Describing Personalities",
+		"subtitle": "Taverns, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2142,6 +2186,7 @@
 	},
 	"tavern_toolbox": {
 		"name": "Tavern Toolbox",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"Over the course of a campaign, the PCs might seek solace in a blur of inns and taverns. But with a little effort and the help of the following charts full of details, the PCs may soon develop essential stopping places and favorite watering holes.",
@@ -2382,6 +2427,7 @@
 	},
 	"urban": {
 		"name": "Urban",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2419,6 +2465,7 @@
 	},
 	"the_shape_of_civilization": {
 		"name": "The Shape of Civilization",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2461,6 +2508,7 @@
 	},
 	"streets_and_traffic": {
 		"name": "Streets and Traffic",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2503,6 +2551,7 @@
 	},
 	"settlement_population_ranges": {
 		"name": "Settlement Population Ranges",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 203](source/gamemastery_guide)",
@@ -2542,6 +2591,7 @@
 	},
 	"settlements_in_play": {
 		"name": "Settlements in Play",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 203](source/gamemastery_guide)",
@@ -2574,6 +2624,7 @@
 	},
 	"the_settlement_stat_block": {
 		"name": "The Settlement Stat Block",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 204](source/gamemastery_guide)",
@@ -2654,6 +2705,7 @@
 	},
 	"settlement_modifiers": {
 		"name": "Settlement Modifiers",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 205](source/gamemastery_guide)",
@@ -2694,6 +2746,7 @@
 	},
 	"settlement_alignment": {
 		"name": "Settlement Alignment",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 206](source/gamemastery_guide)",
@@ -2722,6 +2775,7 @@
 	},
 	"settlement_government": {
 		"name": "Settlement Government",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 206](source/gamemastery_guide)",
@@ -2760,6 +2814,7 @@
 	},
 	"settlement_qualities": {
 		"name": "Settlement Qualities",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 207](source/gamemastery_guide)",
@@ -2814,6 +2869,7 @@
 	},
 	"settlement_disadvantages": {
 		"name": "Settlement Disadvantages",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 207](source/gamemastery_guide)",
@@ -2852,6 +2908,7 @@
 	},
 	"sample_settlements": {
 		"name": "Sample Settlements",
+		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3081,6 +3138,7 @@
 	},
 	"urban_toolbox": {
 		"name": "Urban Toolbox",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"Whether as a place to rest between adventures or the setting of an entire campaign, cities offer the PCs a vast number of options and the potential to draw unanticipated elements into a campaign. Whether the GM is designing an entirely new community, adding details to an existing city, or adding new elements on the fly, the following tables can help better describe and define the next urban adventure.",
@@ -3519,6 +3577,7 @@
 	},
 	"water": {
 		"name": "Water",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -3544,6 +3603,7 @@
 	},
 	"wilderness_gg": {
 		"name": "Wilderness",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -3575,6 +3635,7 @@
 	},
 	"climate_and_weather": {
 		"name": "Climate and Weather",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -3602,6 +3663,7 @@
 	},
 	"climate": {
 		"name": "Climate",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -3630,6 +3692,7 @@
 	},
 	"weather_gg": {
 		"name": "Weather",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -3656,6 +3719,7 @@
 	},
 	"environment_gg": {
 		"name": "Environment",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 221](source/gamemastery_guide)",
@@ -3686,6 +3750,7 @@
 	},
 	"deserts": {
 		"name": "Deserts",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -3713,6 +3778,7 @@
 	},
 	"forests_jungles": {
 		"name": "Forests/Jungles",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -3740,6 +3806,7 @@
 	},
 	"hills": {
 		"name": "Hills",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -3767,6 +3834,7 @@
 	},
 	"marshes,_swamps,_and_bogs": {
 		"name": "Marshes, Swamps, and Bogs",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -3794,6 +3862,7 @@
 	},
 	"mountains": {
 		"name": "Mountains",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -3821,6 +3890,7 @@
 	},
 	"plains": {
 		"name": "Plains",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -3848,6 +3918,7 @@
 	},
 	"underground": {
 		"name": "Underground",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -3875,6 +3946,7 @@
 	},
 	"encounters_on_a_journey": {
 		"name": "Encounters on a Journey",
+		"subtitle": "Wilderness, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -3902,6 +3974,7 @@
 	},
 	"wilderness_toolbox": {
 		"name": "Wilderness Toolbox",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The wilderness presents a vast range of opportunities for adventure, not just as far as setting and locations go, but also in terms of hazards one might encounter, creatures to be faced, and natives or travelers also venturing through such areas. The following charts should help GMs add additional details to their adventures in the wilds, whether suggesting discoveries to make along the road, or serving as a reminder to mention the weather.",
@@ -4362,6 +4435,7 @@
 	},
 	"advanced_topics": {
 		"name": "Advanced Topics",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -4399,6 +4473,7 @@
 	},
 	"customizing_your_game": {
 		"name": "Customizing Your Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -4432,6 +4507,7 @@
 	},
 	"when_to_design?": {
 		"name": "When to Design?",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -4455,6 +4531,7 @@
 	},
 	"when_to_disguise?": {
 		"name": "When to Disguise?",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 231](source/gamemastery_guide)",
@@ -4474,6 +4551,7 @@
 	},
 	"chases": {
 		"name": "Chases",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -4506,6 +4584,7 @@
 	},
 	"building_a_chase": {
 		"name": "Building a Chase",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -4538,6 +4617,7 @@
 	},
 	"chase_obstacles": {
 		"name": "Chase Obstacles",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -4562,6 +4642,7 @@
 	},
 	"running_a_chase": {
 		"name": "Running a Chase",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -4594,6 +4675,7 @@
 	},
 	"disasters": {
 		"name": "Disasters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4609,16 +4691,8 @@
 		],
 		"subtopics": [
 			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
 			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"undead_uprising"
 		],
 		"siblings": [
 			"customizing_your_game",
@@ -4636,6 +4710,7 @@
 	},
 	"volcanoes": {
 		"name": "Volcanoes",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4650,20 +4725,13 @@
 		],
 		"siblings": [
 			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
 			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"undead_uprising"
 		]
 	},
 	"lava": {
 		"name": "Lava",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4674,24 +4742,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"volcanoes"
 		],
 		"siblings": [
-			"volcanoes",
 			"lava",
 			"lava_bombs_cr_2_or_8",
 			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"pyroclastic_flows_cr_10"
 		]
 	},
 	"lava_bombs_cr_2_or_8": {
 		"name": "Lava Bombs (CR 2 or 8)",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4702,24 +4765,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"volcanoes"
 		],
 		"siblings": [
-			"volcanoes",
 			"lava",
 			"lava_bombs_cr_2_or_8",
 			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"pyroclastic_flows_cr_10"
 		]
 	},
 	"poisonous_gase_cr_5": {
 		"name": "Poisonous Gase (CR 5)",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4730,24 +4788,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"volcanoes"
 		],
 		"siblings": [
-			"volcanoes",
 			"lava",
 			"lava_bombs_cr_2_or_8",
 			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"pyroclastic_flows_cr_10"
 		]
 	},
 	"pyroclastic_flows_cr_10": {
 		"name": "Pyroclastic Flows (CR 10)",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4758,24 +4811,19 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"volcanoes"
 		],
 		"siblings": [
-			"volcanoes",
 			"lava",
 			"lava_bombs_cr_2_or_8",
 			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"pyroclastic_flows_cr_10"
 		]
 	},
 	"tsunamis": {
 		"name": "Tsunamis",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -4796,20 +4844,13 @@
 		],
 		"siblings": [
 			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
 			"tsunamis",
-			"undead_uprising",
-			"the_unquiet_dead",
-			"skeletal_awakening",
-			"lost_souls_uu",
-			"necropolis"
+			"undead_uprising"
 		]
 	},
 	"undead_uprising": {
 		"name": "Undead Uprising",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -4826,12 +4867,10 @@
 		],
 		"siblings": [
 			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
 			"tsunamis",
-			"undead_uprising",
+			"undead_uprising"
+		],
+		"subtopics": [
 			"the_unquiet_dead",
 			"skeletal_awakening",
 			"lost_souls_uu",
@@ -4840,6 +4879,7 @@
 	},
 	"the_unquiet_dead": {
 		"name": "The Unquiet Dead",
+		"subtitle": "Undead, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -4850,16 +4890,10 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"undead_uprising"
 		],
 		"siblings": [
-			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
 			"the_unquiet_dead",
 			"skeletal_awakening",
 			"lost_souls_uu",
@@ -4868,6 +4902,7 @@
 	},
 	"skeletal_awakening": {
 		"name": "Skeletal Awakening",
+		"subtitle": "Undead, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -4878,16 +4913,10 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"undead_uprising"
 		],
 		"siblings": [
-			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
 			"the_unquiet_dead",
 			"skeletal_awakening",
 			"lost_souls_uu",
@@ -4896,6 +4925,7 @@
 	},
 	"lost_souls_uu": {
 		"name": "Lost Souls",
+		"subtitle": "Undead, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -4910,16 +4940,10 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"undead_uprising"
 		],
 		"siblings": [
-			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
 			"the_unquiet_dead",
 			"skeletal_awakening",
 			"lost_souls_uu",
@@ -4928,6 +4952,7 @@
 	},
 	"necropolis": {
 		"name": "Necropolis",
+		"subtitle": "Undead, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -4940,16 +4965,10 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"disasters"
+			"disasters",
+			"undead_uprising"
 		],
 		"siblings": [
-			"volcanoes",
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10",
-			"tsunamis",
-			"undead_uprising",
 			"the_unquiet_dead",
 			"skeletal_awakening",
 			"lost_souls_uu",
@@ -4958,6 +4977,7 @@
 	},
 	"drugs_and_addiction": {
 		"name": "Drugs and Addiction",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -4993,6 +5013,7 @@
 	},
 	"drugs": {
 		"name": "Drugs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5020,6 +5041,7 @@
 	},
 	"addiction": {
 		"name": "Addiction",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5069,6 +5091,7 @@
 	},
 	"curing_addiction": {
 		"name": "Curing Addiction",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5090,6 +5113,7 @@
 	},
 	"drunkenness": {
 		"name": "Drunkenness",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 237](source/gamemastery_guide)",
@@ -5124,6 +5148,7 @@
 	},
 	"fortune-telling": {
 		"name": "Fortune-Telling",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -5161,6 +5186,7 @@
 	},
 	"basic_fortune-telling_methods": {
 		"name": "Basic Fortune-Telling Methods",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -5192,6 +5218,7 @@
 	},
 	"fortune-telling_props": {
 		"name": "Fortune-Telling Props",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -5221,6 +5248,7 @@
 	},
 	"fortune-telling_as_theater": {
 		"name": "Fortune-Telling as Theater",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 239](source/gamemastery_guide)",
@@ -5246,6 +5274,7 @@
 	},
 	"mundane_and_magical_fortune-telling": {
 		"name": "Mundane and Magical Fortune-Telling",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 239](source/gamemastery_guide)",
@@ -5269,6 +5298,7 @@
 	},
 	"gambling_and_games_of_chance": {
 		"name": "Gambling and Games of Chance",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -5306,6 +5336,7 @@
 	},
 	"creating_the_right_atmosphere": {
 		"name": "Creating the Right Atmosphere",
+		"subtitle": "Gambling, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -5335,6 +5366,7 @@
 	},
 	"types_of_gambling_games": {
 		"name": "Types of Gambling Games",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -5370,6 +5402,7 @@
 	},
 	"gambling_and_skill_checks": {
 		"name": "Gambling and Skill Checks",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -5397,6 +5430,7 @@
 	},
 	"sample_game_twenty_bones": {
 		"name": "Sample Game: Twenty Bones",
+		"subtitle": "Gambling, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -5422,6 +5456,7 @@
 	},
 	"games_of_chance": {
 		"name": "Games of Chance",
+		"subtitle": "Gambling, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -5455,6 +5490,7 @@
 	},
 	"designing_a_gambling_game": {
 		"name": "Designing a Gambling Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -5488,6 +5524,7 @@
 	},
 	"haunts": {
 		"name": "Haunts",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 242](source/gamemastery_guide)",
@@ -5503,19 +5540,9 @@
 		],
 		"subtopics": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		],
@@ -5535,6 +5562,7 @@
 	},
 	"haunt_rules": {
 		"name": "Haunt Rules",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 242](source/gamemastery_guide)",
@@ -5563,25 +5591,23 @@
 		],
 		"siblings": [
 			"haunt_rules",
+			"elements_of_a_haunt",
+			"creating_a_haunt",
+			"horror_haunt_elements",
+			"echoes_of_the_first_world",
+			"botanical_haunts"
+		],
+		"subtopics": [
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"new_haunt_rules": {
 		"name": "New Haunt Rules",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
@@ -5612,29 +5638,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"haunt_rules"
 		],
 		"siblings": [
-			"haunt_rules",
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"holy_water": {
 		"name": "Holy Water",
+		"subtitle": "Haunts, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
@@ -5645,29 +5662,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"haunt_rules"
 		],
 		"siblings": [
-			"haunt_rules",
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"item-bound_and_possessing_haunts": {
 		"name": "Item-Bound and Possessing Haunts",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
@@ -5682,29 +5690,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"haunt_rules"
 		],
 		"siblings": [
-			"haunt_rules",
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"chained_haunts": {
 		"name": "Chained Haunts",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 229](source/occult_adventures)",
@@ -5715,29 +5714,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"haunt_rules"
 		],
 		"siblings": [
-			"haunt_rules",
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"seances_and_spirit_communication": {
 		"name": "Seances and Spirit Communication",
+		"subtitle": "Haunts, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 230](source/occult_adventures)",
@@ -5750,29 +5740,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"haunt_rules"
 		],
 		"siblings": [
-			"haunt_rules",
 			"new_haunt_rules",
 			"holy_water",
 			"item-bound_and_possessing_haunts",
 			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"seances_and_spirit_communication"
 		]
 	},
 	"elements_of_a_haunt": {
 		"name": "Elements of a Haunt",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 243](source/gamemastery_guide)",
@@ -5809,25 +5790,16 @@
 		],
 		"siblings": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
 	},
 	"creating_a_haunt": {
 		"name": "Creating a Haunt",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 243](source/gamemastery_guide)",
@@ -5878,25 +5850,16 @@
 		],
 		"siblings": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
 	},
 	"horror_haunt_elements": {
 		"name": "Horror Haunt Elements",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -5913,25 +5876,23 @@
 		],
 		"siblings": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
+			"echoes_of_the_first_world",
+			"botanical_haunts"
+		],
+		"subtopics": [
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"elusive_haunt_cr_+1_or_+2": {
 		"name": "Elusive Haunt (CR +1 or +2)",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -5942,29 +5903,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"horror_haunt_elements"
 		],
 		"siblings": [
-			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"latent_haunt_cr_+0": {
 		"name": "Latent Haunt (CR +0)",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -5975,29 +5927,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"horror_haunt_elements"
 		],
 		"siblings": [
-			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"tenacious_haunt_cr_+1": {
 		"name": "Tenacious Haunt (CR +1)",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -6008,29 +5951,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"horror_haunt_elements"
 		],
 		"siblings": [
-			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"unyielding_haunt_cr_+2": {
 		"name": "Unyielding Haunt (CR +2)",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -6041,29 +5975,20 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"horror_haunt_elements"
 		],
 		"siblings": [
-			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"variant_haunts": {
 		"name": "Variant Haunts",
+		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
@@ -6074,36 +5999,27 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts"
+			"haunts",
+			"horror_haunt_elements"
 		],
 		"siblings": [
-			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
 			"elusive_haunt_cr_+1_or_+2",
 			"latent_haunt_cr_+0",
 			"tenacious_haunt_cr_+1",
 			"unyielding_haunt_cr_+2",
-			"variant_haunts",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
+			"variant_haunts"
 		]
 	},
 	"echoes_of_the_first_world": {
 		"name": "Echoes of the First World",
+		"subtitle": "Haunts, Gamemastering",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 132](source/ultimate_wilderness)",
 			"",
 			"The First World shares its place in existence with the Material Plane, and in some places, the boundary between the planes wears thin. The Material Plane's influence on the First World manifests as regions of stubborn stability called \"breach scars,\" which the First World's denizens regard with disgust. On the Material Plane, the fey realm's influence erodes the laws of time and space and transforms reality in its wake. Sometimes, this influence manifests as an echo of the First World.",
 			"",
-			"An echo of the First World functions (and is designed) as a [haunt](unknown/haunt), but unlike haunts, they are damaged by negative energy and healed by positive energy. These echoes can be any alignment, but they are almost always chaotic neutral. Three sample echoes are [Dimensional Tear](haunt/dimensional_tear), [Enchanting Demise](haunt/enchanting_demise), and [Following Footsteps](haunt/following_footsteps), but countless others certainly exist.",
+			"An echo of the First World functions (and is designed) as a haunt, but unlike haunts, they are damaged by negative energy and healed by positive energy. These echoes can be any alignment, but they are almost always chaotic neutral. Three sample echoes are [Dimensional Tear](haunt/dimensional_tear), [Enchanting Demise](haunt/enchanting_demise), and [Following Footsteps](haunt/following_footsteps), but countless others certainly exist.",
 			"",
 			"**Overcharge:** Positive energy and healing effects heal echoes of the First World. If such healing would cause an echo of the First World to exceed its normal maximum hit points, it gains half the excess as temporary hit points until those hit points are spent or 1 minute has passed since it last gained temporary hit points in this manner. As long as an echo of the First World has at least 1 temporary hit point gained in this way, it also gains its overcharge ability."
 		],
@@ -6115,25 +6031,16 @@
 		],
 		"siblings": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
 	},
 	"botanical_haunts": {
 		"name": "Botanical Haunts",
+		"subtitle": "Gamemastering",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_#144_midwives_to_death)",
@@ -6152,25 +6059,16 @@
 		],
 		"siblings": [
 			"haunt_rules",
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication",
 			"elements_of_a_haunt",
 			"creating_a_haunt",
 			"horror_haunt_elements",
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
-			"variant_haunts",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
 	},
 	"hazards": {
 		"name": "Hazards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)",
@@ -6203,6 +6101,7 @@
 	},
 	"sample_hazards": {
 		"name": "Sample Hazards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)",
@@ -6281,6 +6180,8 @@
 	},
 	"mysteries_and_investigations": {
 		"name": "Mysteries and Investigations",
+		"subtitle": "Gamemastering",
+		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
@@ -6315,6 +6216,7 @@
 	},
 	"the_fantasy_mystery": {
 		"name": "The Fantasy Mystery",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
@@ -6343,6 +6245,7 @@
 	},
 	"running_a_mystery": {
 		"name": "Running a Mystery",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
@@ -6375,6 +6278,8 @@
 	},
 	"magical_investigations": {
 		"name": "Magical Investigations",
+		"subtitle": "Gamemastering",
+		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 247](source/gamemastery_guide)",
@@ -6407,6 +6312,7 @@
 	},
 	"puzzles_and_riddles": {
 		"name": "Puzzles and Riddles",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -6441,6 +6347,7 @@
 	},
 	"the_setup": {
 		"name": "The Setup",
+		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -6469,6 +6376,7 @@
 	},
 	"the_mechanism": {
 		"name": "The Mechanism",
+		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -6501,6 +6409,7 @@
 	},
 	"the_clues": {
 		"name": "The Clues",
+		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -6523,6 +6432,7 @@
 	},
 	"sample_puzzles": {
 		"name": "Sample Puzzles",
+		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -6547,6 +6457,7 @@
 	},
 	"the_answer": {
 		"name": "The Answer",
+		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -6579,6 +6490,7 @@
 	},
 	"sanity_and_madness": {
 		"name": "Sanity and Madness",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
@@ -6611,6 +6523,7 @@
 	},
 	"going_insane": {
 		"name": "Going Insane",
+		"subtitle": "Sanity, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
@@ -6637,6 +6550,7 @@
 	},
 	"curing_insanity": {
 		"name": "Curing Insanity",
+		"subtitle": "Sanity, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
@@ -6659,6 +6573,7 @@
 	},
 	"types_of_insanity": {
 		"name": "Types of Insanity",
+		"subtitle": "Sanity, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
@@ -6688,6 +6603,7 @@
 	},
 	"npc_gallery": {
 		"name": "NPC Gallery",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 254](source/gamemastery_guide)",
@@ -6720,6 +6636,7 @@
 	},
 	"an_npc_by_any_other_name": {
 		"name": "An NPC by Any Other Name",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 254](source/gamemastery_guide)",
@@ -6746,11 +6663,12 @@
 	},
 	"npc_boons_2": {
 		"name": "NPC Boons",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 255](source/gamemastery_guide)",
 			"",
-			"[A previous chapter](rule/nonplayer_characters) presents an optional system for boons-minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs.",
+			"A previous chapter presents [an optional system for boons](rule/npc_boons)-minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs.",
 			"",
 			"- Adventurer:",
 			"    - [Battle Mage](npc/adventurer_battle_mage)",
@@ -6872,13 +6790,14 @@
 	},
 	"bestiary": {
 		"name": "Bestiary",
+		"tags": "monsters",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 5](source/pathfinder_rpg_bestiary)",
 			"",
 			"Welcome to the Pathfinder Roleplaying Game Bestiary! Within the pages of this tome you will encounter a wide range of monsters and creatures to pit against your players as they explore your world. The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisks) and [yetis](monster/yetis)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlocks) or H. P. Lovecraft's [ghasts](monster/ghasts) and [shoggoths](monster/shoggoths)) and new. In order to fully use the creatures in the Pathfinder RPG Bestiary, you'll need a copy of the Pathfinder Roleplaying Game Core Rulebook. These two books comprise the core rules for the Pathfinder RPG.",
 			"",
-			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [universal monster rules](rule/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
+			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [Universal Monster Rules](main/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
 			"",
 			"This book's appendices also contain a wealth of other information-you'll find rules for altering a monster's stats (including making it more or less powerful by applying templates, adjusting size and Hit Dice, or even giving a monster class levels), guidelines for monstrous PCs, and more.",
 			"",
@@ -6888,17 +6807,16 @@
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
+			"stat_block",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -6912,6 +6830,8 @@
 	},
 	"stat_block": {
 		"name": "Stat Block",
+		"subtitle": "Bestary",
+		"tags": "monsters",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 5](source/pathfinder_rpg_bestiary)",
@@ -6948,7 +6868,7 @@
 			"",
 			"**Space/Reach:** The creature's space and reach-if the creature's space and reach are standard (one 5-foot square and a reach of 5 feet), this line is omitted.",
 			"",
-			"**Special Attacks:** The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](rule/umr).",
+			"**Special Attacks:** The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](main/umr).",
 			"",
 			"**Spell-Like Abilities:** After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be dispelled. A creature can reactivate a constant spell-like ability as a swift action.",
 			"",
@@ -6972,25 +6892,9 @@
 			"",
 			"**Treasure:** The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table 12-5](unknown/table_12-5). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game-if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. \"Standard\" treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table 12-5. \"Double\" or \"triple\" treasure indicates the creature has double or triple this standard value. \"Incidental\" indicates the creature has half this standard value, and then only within the confines of its lair. \"None\" indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). \"NPC gear\" indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR (see [Table 14-9](unknown/table_14-9)).",
 			"",
-			"**Special Abilities:** Finally, any of the creature's more unique special abilities are detailed in full here."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"bestiary",
-			"introduction"
-		],
-		"siblings": [
-			"stat_block",
-			"description_pb1"
-		]
-	},
-	"description_pb1": {
-		"name": "Description",
-		"sources": [ "Pathfinder RPG Bestiary" ],
-		"description": [
-			"**Source** [Pathfinder RPG Bestiary pg. 6](source/pathfinder_rpg_bestiary)",
+			"**Special Abilities:** Finally, any of the creature's more unique special abilities are detailed in full here.",
 			"",
-			"Here you'll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it. Some monsters have additional sections that cover variant creatures, notes on using the monsters as PCs, methods of constructing the creature, and so on."
+			"**Description:** Under the stat block you'll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it. Some monsters have additional sections that cover variant creatures, notes on using the monsters as PCs, methods of constructing the creature, and so on."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6999,11 +6903,14 @@
 		],
 		"siblings": [
 			"stat_block",
-			"description_pb1"
+			"monster_creation",
+			"monster_advancement",
+			"monsters_as_pcs"
 		]
 	},
 	"monster_creation": {
 		"name": "Monster Creation",
+		"subtitle": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
@@ -7029,6 +6936,7 @@
 			"step_10_details"
 		],
 		"siblings": [
+			"stat_block",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -7036,6 +6944,8 @@
 	},
 	"step_1_concept": {
 		"name": "Step 1: Concept",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
@@ -7062,6 +6972,8 @@
 	},
 	"step_2_target_statistics": {
 		"name": "Step 2: Target Statistics",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -7140,6 +7052,8 @@
 	},
 	"step_3_hit_dice": {
 		"name": "Step 3: Hit Dice",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
@@ -7186,6 +7100,8 @@
 	},
 	"step_4_size": {
 		"name": "Step 4: Size",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
@@ -7230,6 +7146,8 @@
 	},
 	"step_5_abilities": {
 		"name": "Step 5: Abilities",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 291](source/pathfinder_rpg_bestiary)",
@@ -7260,6 +7178,8 @@
 	},
 	"step_6_skills_and_feats": {
 		"name": "Step 6: Skills and Feats",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
@@ -7308,6 +7228,8 @@
 	},
 	"step_7_other_statistics": {
 		"name": "Step 7: Other Statistics",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
@@ -7390,11 +7312,13 @@
 	},
 	"step_8_special_abilities_and_qualities": {
 		"name": "Step 8: Special Abilities and Qualities",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
 			"",
-			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at monsters in this book. Monsters should use abilities from the [Universal Monster Rules](rule/umr) whenever possible, instead of creating new yet similar abilities-when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
+			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at monsters in this book. Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities-when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
 			"",
 			"Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful.",
 			"",
@@ -7420,6 +7344,8 @@
 	},
 	"step_9_treasure": {
 		"name": "Step 9: Treasure",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 293](source/pathfinder_rpg_bestiary)",
@@ -7481,6 +7407,8 @@
 	},
 	"step_10_details": {
 		"name": "Step 10: Details",
+		"subtitle": "Monster Creation",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 293](source/pathfinder_rpg_bestiary)",
@@ -7507,6 +7435,7 @@
 	},
 	"monster_advancement": {
 		"name": "Monster Advancement",
+		"subtitle": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 294](source/pathfinder_rpg_bestiary)",
@@ -7523,6 +7452,7 @@
 			"adding_class_levels"
 		],
 		"siblings": [
+			"stat_block",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -7530,6 +7460,8 @@
 	},
 	"templates": {
 		"name": "Templates",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 294](source/pathfinder_rpg_bestiary)",
@@ -7553,6 +7485,8 @@
 	},
 	"adding_racial_hit_dice": {
 		"name": "Adding Racial Hit Dice",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 295](source/pathfinder_rpg_bestiary)",
@@ -7580,6 +7514,8 @@
 	},
 	"step_1_plan_the_monster": {
 		"name": "Step 1: Plan the Monster",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 295](source/pathfinder_rpg_bestiary)",
@@ -7603,6 +7539,8 @@
 	},
 	"step_2_add_hit_dice": {
 		"name": "Step 2: Add Hit Dice",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 295](source/pathfinder_rpg_bestiary)",
@@ -7669,6 +7607,8 @@
 	},
 	"step_3_ability_scores": {
 		"name": "Step 3: Ability Scores",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
@@ -7692,6 +7632,8 @@
 	},
 	"step_4_skills_and_feats": {
 		"name": "Step 4: Skills and Feats",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
@@ -7731,6 +7673,8 @@
 	},
 	"step_5_statistics": {
 		"name": "Step 5: Statistics",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
@@ -7754,6 +7698,8 @@
 	},
 	"step_6_comparison": {
 		"name": "Step 6: Comparison",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
@@ -7777,6 +7723,8 @@
 	},
 	"adding_class_levels": {
 		"name": "Adding Class Levels",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
@@ -7801,6 +7749,8 @@
 	},
 	"step_1_determine_creature's_role": {
 		"name": "Step 1: Determine Creature's Role",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 297](source/pathfinder_rpg_bestiary)",
@@ -7835,6 +7785,8 @@
 	},
 	"step_2_add_class_levels": {
 		"name": "Step 2: Add Class Levels",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 297](source/pathfinder_rpg_bestiary)",
@@ -7859,6 +7811,8 @@
 	},
 	"step_3_determine_cr": {
 		"name": "Step 3: Determine CR",
+		"subtitle": "Monster Advancement",
+		"tags": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 297](source/pathfinder_rpg_bestiary)",
@@ -7892,6 +7846,7 @@
 	},
 	"monsters_as_pcs": {
 		"name": "Monsters as PCs",
+		"subtitle": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 313](source/pathfinder_rpg_bestiary)",
@@ -7913,6 +7868,7 @@
 			"bestiary"
 		],
 		"siblings": [
+			"stat_block",
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
@@ -7920,6 +7876,7 @@
 	},
 	"race_builder": {
 		"name": "Race Builder",
+		"subtitle": "Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -7930,19 +7887,16 @@
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
-			"race_examples",
 			"creating_a_new_race",
 			"step_1_concept_arg",
 			"step_2_racial_qualities",
 			"step_3_racial_traits"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -7954,28 +7908,9 @@
 			"primal_magic"
 		]
 	},
-	"race_examples": {
-		"name": "Race Examples",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
-			"",
-			"This chapter features numerous examples of races designed with the race builder. Sidebars early in the chapter offer detailed examples of races found in the Pathfinder RPG Bestiary, Bestiary 2, and Bestiary 3 that would normally have racial Hit Dice, skills, and other abilities. PC members of such races, however, calculate these benefits based solely on their class. Note that these races are only an approximation of their monstrous counterparts and may not match exactly. Later in the chapter, sidebars detail entirely new races created using the race builder rules. Lastly, the final section of the chapter breaks down the points and abilities of core races and many of the featured and uncommon races."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder"
-		],
-		"siblings": [
-			"race_examples",
-			"creating_a_new_race",
-			"step_1_concept_arg",
-			"step_2_racial_qualities",
-			"step_3_racial_traits"
-		]
-	},
 	"creating_a_new_race": {
 		"name": "Creating a New Race",
+		"subtitle": "Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -8004,7 +7939,6 @@
 		],
 		"subtopics": [ "challenging_advanced_and_monstrous_races" ],
 		"siblings": [
-			"race_examples",
 			"creating_a_new_race",
 			"step_1_concept_arg",
 			"step_2_racial_qualities",
@@ -8013,6 +7947,7 @@
 	},
 	"challenging_advanced_and_monstrous_races": {
 		"name": "Challenging Advanced and Monstrous Races",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
@@ -8034,6 +7969,7 @@
 	},
 	"step_1_concept_arg": {
 		"name": "Step 1: Concept",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -8052,7 +7988,6 @@
 			"race_builder"
 		],
 		"siblings": [
-			"race_examples",
 			"creating_a_new_race",
 			"step_1_concept_arg",
 			"step_2_racial_qualities",
@@ -8061,6 +7996,7 @@
 	},
 	"step_2_racial_qualities": {
 		"name": "Step 2: Racial Qualities",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -8079,7 +8015,6 @@
 			"language_quality"
 		],
 		"siblings": [
-			"race_examples",
 			"creating_a_new_race",
 			"step_1_concept_arg",
 			"step_2_racial_qualities",
@@ -8088,6 +8023,7 @@
 	},
 	"type_quality": {
 		"name": "Type Quality",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -8128,6 +8064,7 @@
 	},
 	"aberration_3_rp": {
 		"name": "Aberration (3 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -8159,6 +8096,7 @@
 	},
 	"construct_20_rp": {
 		"name": "Construct (20 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
@@ -8206,6 +8144,7 @@
 	},
 	"dragon_10_rp": {
 		"name": "Dragon (10 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
@@ -8239,6 +8178,7 @@
 	},
 	"fey_2_rp": {
 		"name": "Fey (2 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8270,6 +8210,7 @@
 	},
 	"humanoid_0_rp": {
 		"name": "Humanoid (0 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8300,6 +8241,7 @@
 	},
 	"monstrous_humanoid_3_rp": {
 		"name": "Monstrous Humanoid (3 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8331,6 +8273,7 @@
 	},
 	"outsider_native_3_rp": {
 		"name": "Outsider (native) (3 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8362,6 +8305,7 @@
 	},
 	"plant_10_rp": {
 		"name": "Plant (10 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8395,6 +8339,7 @@
 	},
 	"undead_16_rp": {
 		"name": "Undead (16 RP)",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -8434,6 +8379,7 @@
 	},
 	"races_without_constitution": {
 		"name": "Races without Constitution",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -8470,6 +8416,7 @@
 	},
 	"special_subtypes": {
 		"name": "Special Subtypes",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
@@ -8515,6 +8462,7 @@
 	},
 	"size_quality": {
 		"name": "Size Quality",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
@@ -8544,6 +8492,7 @@
 	},
 	"base_speed_quality": {
 		"name": "Base Speed Quality",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
@@ -8569,6 +8518,7 @@
 	},
 	"ability_score_quality": {
 		"name": "Ability Score Quality",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 219](source/advanced_race_guide)",
@@ -8616,6 +8566,7 @@
 	},
 	"language_quality": {
 		"name": "Language Quality",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 219](source/advanced_race_guide)",

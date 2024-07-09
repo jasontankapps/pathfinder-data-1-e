@@ -2,7 +2,7 @@ import fs from 'fs';
 
 const read = (file) => fs.readFileSync(file, 'utf8');
 
-const GET = (file, joiner = " ") => JSON.parse(read("../src/json/" + file).replace(/\r/g, "").replace(/ *\n */g, joiner));
+const GET = (file, joiner = " ") => JSON.parse(read("./src/json/" + file).replace(/\r/g, "").replace(/ *\n */g, joiner));
 
 // The below will need to be updated if any files are modified/created/deleted.
 const basic_data_groups = {
@@ -1776,7 +1776,7 @@ const dataIndex = [];
 
 Object.entries(basic_data_groups).forEach(([file, pair]) => {
 	const data = GET(file);
-	const {proplink, link, num, type, properties = [], subtitle, tags} = pair;
+	const {proplink, link, num, type, properties = []} = pair;
 	if(!checkForType[type]) {
 		checkForType[type] = types.length;
 		types.push(type);
@@ -1790,7 +1790,7 @@ Object.entries(basic_data_groups).forEach(([file, pair]) => {
 	}
 	const has_properties = properties.length > 0;
 	Object.entries(data).forEach(([prop, value]) => {
-		const { name: n, title, copyof } = value;
+		const { name: n, title, copyof, subtitle, tags } = value;
 		if(copyof && !data[copyof]) {
 			console.log(`${file}.${prop}.copyof = [${copyof}], not found in same file`);
 			return;
@@ -1835,16 +1835,16 @@ Object.entries(basic_data_groups).forEach(([file, pair]) => {
 });
 
 Object.entries(grouping_data).forEach(([prop, value]) => {
-	fs.writeFileSync(`../src/json/_data_${prop}.json`, JSON.stringify(value));
+	fs.writeFileSync(`./src/json/_data_${prop}.json`, JSON.stringify(value));
 	console.log(`Saved _data_${prop}.json`);
 });
 
-fs.writeFileSync('../src/json/_data__fuse-translated_data.json', JSON.stringify({
+fs.writeFileSync('./src/json/_data__fuse-translated_data.json', JSON.stringify({
 	data: dataIndex,
 	types,
 	prefixes
 }));
 console.log("Saved _data__fuse-translated-data.json");
 
-fs.writeFileSync('../src/json/_data__fuse-index.json', JSON.stringify(fuseIndex));
+fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify(fuseIndex));
 console.log("Saved _data__fuse-index.json");

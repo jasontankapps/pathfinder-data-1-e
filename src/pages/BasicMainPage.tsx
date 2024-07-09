@@ -38,10 +38,10 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			<IonContent fullscreen>
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="main basicContent">
-					<HierarchyTab hierarchy={hierarchy} />
 					<IonList lines="full">
 						{displayItem ? <DisplayMainItem {...displayItem} /> : children}
 					</IonList>
+					<HierarchyTab hierarchy={hierarchy} />
 				</div>
 			</IonContent>
 			<IonFooter>

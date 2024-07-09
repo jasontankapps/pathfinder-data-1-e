@@ -1,6 +1,7 @@
 {
 	"hazards_and_disasters": {
 		"name": "Hazards and Disasters",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
@@ -38,6 +39,7 @@
 	},
 	"brambles_cr_1": {
 		"name": "Brambles (CR 1)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
@@ -68,6 +70,7 @@
 	},
 	"earthquake_cr_9": {
 		"name": "Earthquake (CR 9)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
@@ -108,6 +111,7 @@
 	},
 	"elemental_influx_cr_varies": {
 		"name": "Elemental Influx (CR Varies)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 147](source/ultimate_wilderness)",
@@ -146,6 +150,7 @@
 	},
 	"fording_a_river_cr_2": {
 		"name": "Fording a River (CR 2)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 148](source/ultimate_wilderness)",
@@ -190,6 +195,7 @@
 	},
 	"geothermal_spring_cr_varies": {
 		"name": "Geothermal Spring (CR Varies)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 149](source/ultimate_wilderness)",
@@ -230,6 +236,7 @@
 	},
 	"reflective_snow_cr_2": {
 		"name": "Reflective Snow (CR 2)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 149](source/ultimate_wilderness)",
@@ -256,6 +263,7 @@
 	},
 	"spellgorging_plants_cr_1+": {
 		"name": "Spellgorging Plants (CR 1+)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
@@ -284,6 +292,7 @@
 	},
 	"thin_ice_cr_1+": {
 		"name": "Thin Ice (CR 1+)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
@@ -327,6 +336,7 @@
 	},
 	"vampire_orchids_cr_3": {
 		"name": "Vampire Orchids (CR 3)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
@@ -353,6 +363,7 @@
 	},
 	"volcano_cr_varies": {
 		"name": "Volcano (CR Varies)",
+		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
@@ -397,6 +408,7 @@
 	},
 	"herbalism": {
 		"name": "Herbalism",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 152](source/ultimate_wilderness)",
@@ -438,6 +450,7 @@
 	},
 	"spells_of_the_wild": {
 		"name": "Spells of the Wild",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 156](source/ultimate_wilderness)",
@@ -472,6 +485,7 @@
 	},
 	"low-level_play_levels_1-6": {
 		"name": "Low-Level Play (Levels 1-6)",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 156](source/ultimate_wilderness)",
@@ -497,6 +511,7 @@
 	},
 	"conjuration_uw-1": {
 		"name": "Conjuration (UW-1)",
+		"subtitle": "Spells, Wilderness",
 		"display_name": "Conjuration",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -529,6 +544,7 @@
 	},
 	"divination_uw": {
 		"name": "Divination",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 157](source/ultimate_wilderness)",
@@ -554,6 +570,7 @@
 	},
 	"enchantment_uw": {
 		"name": "Enchantment",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 157](source/ultimate_wilderness)",
@@ -579,6 +596,7 @@
 	},
 	"transmutation_uw-1": {
 		"name": "Transmutation (UW-1)",
+		"subtitle": "Spells, Wilderness",
 		"display_name": "Transmutation",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -617,6 +635,7 @@
 	},
 	"mid-level_play_levels_7-12": {
 		"name": "Mid-Level Play (Levels 7-12)",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 159](source/ultimate_wilderness)",
@@ -641,6 +660,7 @@
 	},
 	"abjuration_uw": {
 		"name": "Abjuration",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 159](source/ultimate_wilderness)",
@@ -665,6 +685,7 @@
 	},
 	"conjuration_uw-2": {
 		"name": "Conjuration (UW-2)",
+		"subtitle": "Spells, Wilderness",
 		"display_name": "Conjuration",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -692,6 +713,7 @@
 	},
 	"transmutation_uw-2": {
 		"name": "Transmutation (UW-2)",
+		"subtitle": "Spells, Wilderness",
 		"display_name": "Transmutation",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -729,6 +751,7 @@
 	},
 	"high-level_play_level_13+": {
 		"name": "High-Level Play (Level 13+)",
+		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 161](source/ultimate_wilderness)",
@@ -760,6 +783,7 @@
 	},
 	"trophies_and_treasures": {
 		"name": "Trophies and Treasures",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 162](source/ultimate_wilderness)",
@@ -799,6 +823,7 @@
 	},
 	"harvesting_trophies": {
 		"name": "Harvesting Trophies",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 162](source/ultimate_wilderness)",
@@ -827,6 +852,7 @@
 	},
 	"trophy_weight": {
 		"name": "Trophy Weight",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 163](source/ultimate_wilderness)",
@@ -861,6 +887,7 @@
 	},
 	"selling_trophies": {
 		"name": "Selling Trophies",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 163](source/ultimate_wilderness)",
@@ -908,6 +935,7 @@
 	},
 	"magical_affinities_of_trophies": {
 		"name": "Magical Affinities of Trophies",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 163](source/ultimate_wilderness)",
@@ -1070,6 +1098,7 @@
 	},
 	"weather_baseline": {
 		"name": "Weather Baseline",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 165](source/ultimate_wilderness)",
@@ -1094,6 +1123,7 @@
 	},
 	"climate_uw": {
 		"name": "Climate",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 165](source/ultimate_wilderness)",
@@ -1130,6 +1160,7 @@
 	},
 	"elevation": {
 		"name": "Elevation",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 166](source/ultimate_wilderness)",
@@ -1164,6 +1195,7 @@
 	},
 	"season": {
 		"name": "Season",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 166](source/ultimate_wilderness)",
@@ -1195,6 +1227,7 @@
 	},
 	"temperature_variations_and_precipitation": {
 		"name": "Temperature Variations and Precipitation",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 166](source/ultimate_wilderness)",
@@ -1218,6 +1251,7 @@
 	},
 	"temperature_variations": {
 		"name": "Temperature Variations",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 166](source/ultimate_wilderness)",
@@ -1275,6 +1309,7 @@
 	},
 	"precipitation": {
 		"name": "Precipitation",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 167](source/ultimate_wilderness)",
@@ -1441,6 +1476,7 @@
 	},
 	"weather_details": {
 		"name": "Weather Details",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 169](source/ultimate_wilderness)",
@@ -1465,6 +1501,7 @@
 	},
 	"wind": {
 		"name": "Wind",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 170](source/ultimate_wilderness)",
@@ -1507,6 +1544,7 @@
 	},
 	"cloud_cover": {
 		"name": "Cloud Cover",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 171](source/ultimate_wilderness)",
@@ -1536,6 +1574,7 @@
 	},
 	"severe_events": {
 		"name": "Severe Events",
+		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 171](source/ultimate_wilderness)",
@@ -1572,6 +1611,7 @@
 	},
 	"companions_and_familiars": {
 		"name": "Companions and Familiars",
+		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 176](source/ultimate_wilderness)",
@@ -1600,6 +1640,7 @@
 	},
 	"magic_item_slots": {
 		"name": "Magic Item Slots",
+		"subtitle": "Familiars, Companions, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 176](source/ultimate_wilderness)",
@@ -1725,13 +1766,11 @@
 			"traits_of_a_plane",
 			"building_a_planar_campaign"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -1815,6 +1854,7 @@
 	},
 	"role_of_the_divine": {
 		"name": "Role of the Divine",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1849,6 +1889,7 @@
 	},
 	"divine_power": {
 		"name": "Divine Power",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1876,6 +1917,7 @@
 	},
 	"deity": {
 		"name": "Deity",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1898,6 +1940,7 @@
 	},
 	"demigod": {
 		"name": "Demigod",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1920,6 +1963,7 @@
 	},
 	"quasi_deity": {
 		"name": "Quasi Deity",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1944,6 +1988,7 @@
 	},
 	"divine_intervention": {
 		"name": "Divine Intervention",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 70](source/planar_adventures)",
@@ -1970,6 +2015,7 @@
 	},
 	"divine_gifts": {
 		"name": "Divine Gifts",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 71](source/planar_adventures)",
@@ -1996,6 +2042,7 @@
 	},
 	"faith_and_the_divine": {
 		"name": "Faith and the Divine",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 71](source/planar_adventures)",
@@ -2024,6 +2071,7 @@
 	},
 	"deific_realms": {
 		"name": "Deific Realms",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 72](source/planar_adventures)",
@@ -2050,6 +2098,7 @@
 	},
 	"the_core_pantheon": {
 		"name": "The Core Pantheon",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 73](source/planar_adventures)",
@@ -2073,6 +2122,7 @@
 	},
 	"reading_a_deity_stat_block": {
 		"name": "Reading a Deity Stat Block",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 73](source/planar_adventures)",
@@ -2125,6 +2175,7 @@
 	},
 	"traits_of_a_plane": {
 		"name": "Traits of a Plane",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 58](source/planar_adventures)",
@@ -2158,6 +2209,7 @@
 	},
 	"gravity_traits_pa": {
 		"name": "Gravity Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 58](source/planar_adventures)",
@@ -2209,6 +2261,7 @@
 	},
 	"time_traits_pa": {
 		"name": "Time Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 59](source/planar_adventures)",
@@ -2256,6 +2309,7 @@
 	},
 	"realm_traits": {
 		"name": "Realm Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 59](source/planar_adventures)",
@@ -2291,6 +2345,7 @@
 	},
 	"structural_traits": {
 		"name": "Structural Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 60](source/planar_adventures)",
@@ -2330,6 +2385,7 @@
 	},
 	"essence_traits": {
 		"name": "Essence Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 60](source/planar_adventures)",
@@ -2393,6 +2449,7 @@
 	},
 	"alignment_traits_pa": {
 		"name": "Alignment Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 62](source/planar_adventures)",
@@ -2428,6 +2485,7 @@
 	},
 	"magic_traits_pa": {
 		"name": "Magic Traits",
+		"subtitle": "Planar Traits, Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 62](source/planar_adventures)",
@@ -2493,6 +2551,7 @@
 	},
 	"building_a_planar_campaign": {
 		"name": "Building a Planar Campaign",
+		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2519,6 +2578,7 @@
 	},
 	"why_the_planes?": {
 		"name": "Why the Planes?",
+		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2545,6 +2605,7 @@
 	},
 	"access": {
 		"name": "Access",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2568,6 +2629,7 @@
 	},
 	"acquisition": {
 		"name": "Acquisition",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2591,6 +2653,7 @@
 	},
 	"confrontation": {
 		"name": "Confrontation",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2614,6 +2677,7 @@
 	},
 	"rescue": {
 		"name": "Rescue",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -2637,6 +2701,7 @@
 	},
 	"presenting_the_planes": {
 		"name": "Presenting the Planes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 83](source/planar_adventures)",
@@ -2662,6 +2727,7 @@
 	},
 	"not_just_another_dungeon": {
 		"name": "Not Just Another Dungeon",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 83](source/planar_adventures)",
@@ -2686,6 +2752,7 @@
 	},
 	"normal_is_abnormal": {
 		"name": "Normal Is Abnormal",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 84](source/planar_adventures)",
@@ -2710,6 +2777,7 @@
 	},
 	"traveling_the_planes": {
 		"name": "Traveling the Planes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 84](source/planar_adventures)",
@@ -2750,6 +2818,7 @@
 	},
 	"planar_tuning_forks": {
 		"name": "Planar Tuning Forks",
+		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -2793,6 +2862,7 @@
 	},
 	"untuned_fork": {
 		"name": "Untuned Fork",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -2817,6 +2887,7 @@
 	},
 	"common_tuning_fork": {
 		"name": "Common Tuning Fork",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -2839,6 +2910,7 @@
 	},
 	"uncommon_tuning_fork": {
 		"name": "Uncommon Tuning Fork",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -2863,6 +2935,7 @@
 	},
 	"rare_tuning_fork": {
 		"name": "Rare Tuning Fork",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -2887,6 +2960,7 @@
 	},
 	"unique_tuning_fork": {
 		"name": "Unique Tuning Fork",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -2911,6 +2985,7 @@
 	},
 	"alternate_cosmologies": {
 		"name": "Alternate Cosmologies",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -2939,6 +3014,7 @@
 	},
 	"alignment-free_cosmology": {
 		"name": "Alignment-Free Cosmology",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -2968,6 +3044,7 @@
 	},
 	"alternate_realities_and_parallel_worlds": {
 		"name": "Alternate Realities and Parallel Worlds",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 87](source/planar_adventures)",
@@ -2995,6 +3072,7 @@
 	},
 	"dualistic_cosmology": {
 		"name": "Dualistic Cosmology",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 87](source/planar_adventures)",
@@ -3022,6 +3100,7 @@
 	},
 	"extraterrestrial_planes": {
 		"name": "Extraterrestrial Planes",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 88](source/planar_adventures)",
@@ -3051,6 +3130,7 @@
 	},
 	"mundane_cosmology": {
 		"name": "Mundane Cosmology",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 88](source/planar_adventures)",
@@ -3078,6 +3158,7 @@
 	},
 	"world_tree": {
 		"name": "World Tree",
+		"subtitle": "Planar Adventures, Gamemastering",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 89](source/planar_adventures)",
@@ -3105,6 +3186,7 @@
 	},
 	"dungeons": {
 		"name": "Dungeons",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
@@ -3128,6 +3210,7 @@
 	},
 	"types_of_dungeons": {
 		"name": "Types of Dungeons",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
@@ -3161,6 +3244,7 @@
 	},
 	"dungeon_terrain": {
 		"name": "Dungeon Terrain",
+		"subtitle": "Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
@@ -3187,6 +3271,7 @@
 	},
 	"walls": {
 		"name": "Walls",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
@@ -3248,6 +3333,7 @@
 	},
 	"floors": {
 		"name": "Floors",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 411](source/prpg_core_rulebook)",
@@ -3299,6 +3385,7 @@
 	},
 	"doors": {
 		"name": "Doors",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 412](source/prpg_core_rulebook)",
@@ -3386,6 +3473,7 @@
 	},
 	"walls,_doors,_and_detect_spells": {
 		"name": "Walls, Doors, and Detect Spells",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
@@ -3409,6 +3497,7 @@
 	},
 	"stairs": {
 		"name": "Stairs",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
@@ -3432,6 +3521,7 @@
 	},
 	"cave-ins_and_collapses_cr_8": {
 		"name": "Cave-Ins and Collapses (CR 8)",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
@@ -3463,6 +3553,8 @@
 	},
 	"slimes,_molds,_and_fungi": {
 		"name": "Slimes, Molds, and Fungi",
+		"tags": "brown mold green slime shrieker yellow mold russet mold phosphorescent fungus",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
@@ -3556,6 +3648,7 @@
 	},
 	"type": {
 		"name": "Type",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 416](source/prpg_core_rulebook)",
@@ -3594,6 +3687,7 @@
 	},
 	"perception_and_disable_device_dcs": {
 		"name": "Perception and Disable Device DCs",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
@@ -3622,6 +3716,7 @@
 	},
 	"trigger": {
 		"name": "Trigger",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
@@ -3670,6 +3765,7 @@
 	},
 	"duration_2": {
 		"name": "Duration",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
@@ -3694,6 +3790,7 @@
 	},
 	"reset": {
 		"name": "Reset",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
@@ -3760,6 +3857,7 @@
 	},
 	"bypass_optional_element": {
 		"name": "Bypass (Optional Element)",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 418](source/prpg_core_rulebook)",
@@ -3790,6 +3888,7 @@
 	},
 	"effect": {
 		"name": "Effect",
+		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 418](source/prpg_core_rulebook)",
@@ -4288,6 +4387,7 @@
 	},
 	"getting_lost": {
 		"name": "Getting Lost",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 424](source/prpg_core_rulebook)",
@@ -4347,6 +4447,7 @@
 	},
 	"forest_terrain": {
 		"name": "Forest Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 425](source/prpg_core_rulebook)",
@@ -4392,6 +4493,7 @@
 	},
 	"forest_fires_cr_6": {
 		"name": "Forest Fires (CR 6)",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 426](source/prpg_core_rulebook)",
@@ -4421,6 +4523,7 @@
 	},
 	"marsh_terrain": {
 		"name": "Marsh Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 427](source/prpg_core_rulebook)",
@@ -4475,6 +4578,7 @@
 	},
 	"hills_terrain": {
 		"name": "Hills Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 427](source/prpg_core_rulebook)",
@@ -4517,6 +4621,7 @@
 	},
 	"mountain_terrain": {
 		"name": "Mountain Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 428](source/prpg_core_rulebook)",
@@ -4578,6 +4683,7 @@
 	},
 	"avalanches_cr_7": {
 		"name": "Avalanches (CR 7)",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 429](source/prpg_core_rulebook)",
@@ -4606,6 +4712,7 @@
 	},
 	"mountain_travel": {
 		"name": "Mountain Travel",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 430](source/prpg_core_rulebook)",
@@ -4634,6 +4741,7 @@
 	},
 	"desert_terrain": {
 		"name": "Desert Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 430](source/prpg_core_rulebook)",
@@ -4684,6 +4792,7 @@
 	},
 	"sandstorms": {
 		"name": "Sandstorms",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 431](source/prpg_core_rulebook)",
@@ -4699,6 +4808,7 @@
 	},
 	"plains_terrain": {
 		"name": "Plains Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 431](source/prpg_core_rulebook)",
@@ -4748,6 +4858,7 @@
 	},
 	"aquatic_terrain": {
 		"name": "Aquatic Terrain",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 432](source/prpg_core_rulebook)",
@@ -4787,6 +4898,7 @@
 	},
 	"underwater_combat": {
 		"name": "Underwater Combat",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 432](source/prpg_core_rulebook)",
@@ -4830,6 +4942,7 @@
 	},
 	"floods": {
 		"name": "Floods",
+		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 433](source/prpg_core_rulebook)",
@@ -4881,6 +4994,7 @@
 	},
 	"weapon_and_spell_restrictions": {
 		"name": "Weapon and Spell Restrictions",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 433](source/prpg_core_rulebook)",
@@ -4926,6 +5040,7 @@
 	},
 	"walls_and_gates": {
 		"name": "Walls and Gates",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 433](source/prpg_core_rulebook)",
@@ -4965,6 +5080,7 @@
 	},
 	"guards_and_soldiers": {
 		"name": "Guards and Soldiers",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 434](source/prpg_core_rulebook)",
@@ -4992,6 +5108,7 @@
 	},
 	"siege_engines": {
 		"name": "Siege Engines",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 434](source/prpg_core_rulebook)",
@@ -5063,6 +5180,7 @@
 	},
 	"city_streets": {
 		"name": "City Streets",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 435](source/prpg_core_rulebook)",
@@ -5094,6 +5212,7 @@
 	},
 	"above_and_beneath_the_streets": {
 		"name": "Above and Beneath the Streets",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 437](source/prpg_core_rulebook)",
@@ -5121,6 +5240,7 @@
 	},
 	"city_buildings": {
 		"name": "City Buildings",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 437](source/prpg_core_rulebook)",
@@ -5150,6 +5270,7 @@
 	},
 	"city_lights": {
 		"name": "City Lights",
+		"subtitle": "Urban",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 437](source/prpg_core_rulebook)",
@@ -5254,6 +5375,7 @@
 	},
 	"rain,_snow,_sleet,_and_hail": {
 		"name": "Rain, Snow, Sleet, and Hail",
+		"subtitle": "Weather",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 438](source/prpg_core_rulebook)",
@@ -5285,6 +5407,7 @@
 	},
 	"storms": {
 		"name": "Storms",
+		"subtitle": "Weather",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 438](source/prpg_core_rulebook)",
@@ -5320,6 +5443,7 @@
 	},
 	"fog": {
 		"name": "Fog",
+		"subtitle": "Weather",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 439](source/prpg_core_rulebook)",
@@ -5339,6 +5463,7 @@
 	},
 	"winds": {
 		"name": "Winds",
+		"subtitle": "Weather",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 439](source/prpg_core_rulebook)",
@@ -5417,6 +5542,7 @@
 	},
 	"layered_planes": {
 		"name": "Layered Planes",
+		"subtitle": "The Planes",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 441](source/prpg_core_rulebook)",
@@ -5436,6 +5562,7 @@
 	},
 	"how_planes_interact": {
 		"name": "How Planes Interact",
+		"subtitle": "The Planes",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 441](source/prpg_core_rulebook)",
@@ -5488,6 +5615,7 @@
 	},
 	"acid_effects": {
 		"name": "Acid Effects",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 442](source/prpg_core_rulebook)",
@@ -5517,6 +5645,7 @@
 	},
 	"cold_dangers": {
 		"name": "Cold and Ice Dangers",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 442](source/prpg_core_rulebook)",
@@ -5552,6 +5681,7 @@
 	},
 	"darkness": {
 		"name": "Darkness",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 442](source/prpg_core_rulebook)",
@@ -5599,6 +5729,7 @@
 	},
 	"falling": {
 		"name": "Falling",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 443](source/prpg_core_rulebook)",
@@ -5634,6 +5765,7 @@
 	},
 	"falling_objects": {
 		"name": "Falling Objects",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 443](source/prpg_core_rulebook)",
@@ -5675,6 +5807,7 @@
 	},
 	"heat_dangers": {
 		"name": "Heat Dangers",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 444](source/prpg_core_rulebook)",
@@ -5714,6 +5847,7 @@
 	},
 	"catching_on_fire": {
 		"name": "Catching on Fire",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 444](source/prpg_core_rulebook)",
@@ -5736,6 +5870,7 @@
 	},
 	"lava_effects": {
 		"name": "Lava Effects",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 444](source/prpg_core_rulebook)",
@@ -5756,6 +5891,7 @@
 	},
 	"smoke_effects": {
 		"name": "Smoke Effects",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 444](source/prpg_core_rulebook)",
@@ -5781,6 +5917,7 @@
 	},
 	"starvation_and_thirst": {
 		"name": "Starvation and Thirst",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 444](source/prpg_core_rulebook)",
@@ -5812,6 +5949,7 @@
 	},
 	"suffocation": {
 		"name": "Suffocation",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 445](source/prpg_core_rulebook)",
@@ -5841,6 +5979,7 @@
 	},
 	"water_dangers": {
 		"name": "Water Dangers",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 445](source/prpg_core_rulebook)",
@@ -5871,6 +6010,7 @@
 	},
 	"drowning": {
 		"name": "Drowning",
+		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 445](source/prpg_core_rulebook)",

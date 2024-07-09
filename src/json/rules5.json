@@ -1,351 +1,7 @@
 {
-	"glass_jaw": {
-		"name": "Glass Jaw",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 73](source/gamemastery_guide)",
-			"",
-			"Some characters have a weakness that constantly reveals itself or is easily exploited in virtually every encounter. Examples include characters with ultra-low ability scores, those unable to defend themselves in combat, characters cursed with the lowest possible number of hit points, and the like.",
-			"",
-			"Many sorts of glass jaws appear during character creation, giving the GM the opportunity to drill down into the player's real motivations before play begins. While it can be fun to occasionally include glass jaw characters as an opportunity to add additional roleplaying elements to the campaign, serious design flaws can handicap the rest of the party's enjoyment, and are best caught early. This is not to say that every character must be optimized to the fullest extent of the rules, but characters with crippling deficiencies-like a wizard unable to cast 2nd-level spells, or a bard with no Perform skill-should be addressed. Find out why that particular player has created the character with such a glaring weakness. For example, if the wizard player wants to play a sickly character for added drama, you could always adjust his Constitution score back into the normal range and instead let him roleplay through a less crippling affliction like a disease or curse.",
-			"",
-			"It's possible that the player isn't looking for a roleplaying opportunity. Depending on the creation method and the player's level of experience, he might just have rolled poorly or not know the rules well enough to make his character viable. If that's the case, working with the player to build the character and re-rolling or using a point-buy system for ability score generation is likely to resolve the situation.",
-			"",
-			"If none of the above suggestions fix the problem, it's best to talk to the player privately and determine what he intends to do with this character. Explain your concerns about what you perceive as the character's glass jaw and the impact it might have on the rest of the group. Together, you and the player should explore creative solutions to help improve everyone's time around the gaming table, modifying the character concept as necessary.",
-			"",
-			"**Power Gamers and Glass Jaws:** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"loner": {
-		"name": "Loner",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
-			"",
-			"The loner can be one of the most disruptive forces around the gaming table. She has little regard for group cohesion, and seizes every opportunity to go off alone, heedless of the effect on other players. This might be when the rest of the characters are expecting to rest and recover their spells, during combat in order to explore some dark side tunnel, or any time her interests diverge from the party's.",
-			"",
-			"There are really two issues here. First, what goals does the player have for her character that she doesn't feel can be met as part of the group experience? It may be that she feels bound by the character concept she's created, and needs help figuring out how to make it work within the party structure. Second, is the character's role in the group dynamic essential for the heroes to overcome their obstacles? If she's leaving when other players need her, this presents a serious problem that needs to be addressed.",
-			"",
-			"As the GM, you may want to work with the loner between sessions to help achieve her character's goals. Avoid the temptation to split your attention during the game-giving one player fully half of your game time simply because she wandered off is no fair to the rest of the players. Handle any side adventures that happen away from the group off camera, not when it wastes the whole group's time. And if the loner gets tired of sitting out simply because her character wandered away from the group, perhaps she won't be as likely to wander off again.",
-			"",
-			"You might also use the loner's meanderings to introduce new plot elements. In taking her leave, does the loner stumble into a group of wandering monsters that attack the party? Set off a trap? These effects don't have to be immediate-if your player wants to sneak out of the tavern in the middle of the night, you might quickly gloss over her escapade, but use the opportunity to explain how the orcs were able to locate the group's campsite. The idea isn't to punish a player for her loner tendencies, but rather to create the greatest amount of fun for the greatest number of players.",
-			"",
-			"Of course, you're not the only one likely to be irritated by a loner's gallivanting, and regular abandonment of the group eventually causes intra-party strife. Other characters-and players-might become upset and seek to confront the loner's character. This can be a great opportunity for roleplaying, but it risks alienating the loner. Make sure that the loner knows that while running her character in such a manner isn't \"wrong,\" going off alone can have a negative impact of the other players' enjoyment, and that you want to make sure everyone-including her-is getting their needs met."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"lump": {
-		"name": "Lump",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
-			"",
-			"The lump just takes up space at the gaming table, rolling dice when instructed or performing actions when other players ask him to do something. There's no passion here; the lump is more of an automaton awaiting its next orders. Many times, the lump is a player new to the game or an experienced player outside of his comfort zone.",
-			"",
-			"One of the GM's primary goals is to ensure that everyone is having fun during the game. For most people, lumpish behavior is the definition of boredom, and it's your job to reach out and bring the lump into the campaign for real.",
-			"",
-			"For new players, lack of familiarity with the rules is a frequent source of confusion. Not knowing exactly what to do, they shut down and wait for more experienced players to instruct them. They might be confused about their class role or the ebb and flow of the encounters, worried about wasting their abilities at the wrong time, or simply intimidated by louder and more experienced players. Aside from considering the [previous advice](rule/party_composition) and reminding new players that they can do anything, let your experienced players know that they need to encourage the new player to spread his wings. If he doesn't know the rules or the campaign setting, let him borrow a book to read up between sessions. Remember that people tend to best learn the rules by playing, though-focus on letting neophytes do things on their own, and at their own speed.",
-			"",
-			"**In-Game Advice:** If you want to take a more direct approach, the easiest way to get a lump roleplaying is to engage him directly via NPCs or situations that don't allow him to defer to other players. Mouthy NPC assistants and sentient items (especially those that can speak) can also work wonders at getting a lump out of his shell, as giving a PC an in-game source of advice (even faulty advice) can prompt roleplaying opportunities and manipulate the player into thinking about his acts and making his own decisions. Humor also helps many awkward players feel more at ease. Setting a lump up with an even less experienced NPC sidekick can help him feel more confident and capable.",
-			"",
-			"Lump vs. Diva: In many ways, the diva loves the lump player-he allows the diva to take all the limelight for herself while the lump does what he always does. But as the lump slowly emerges from his shell, suddenly there's less time in the sun for the diva. Jumping back and forth between these two player types can be a challenge; focus on fanning the flames of the lump until he becomes comfortable enough with the game that the diva won't be able to shove him back into his shell."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"one-trick_pony": {
-		"name": "One-Trick Pony",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
-			"",
-			"A player who falls into the one-trick pony type has a preference for playing a particular character or filling a specific role. She might always be the paladin, standing on the front lines and charging evil every time she sees it. Or maybe she's the wizard specialized in evocation who blasts enemies to bits. She has a play style she likes, and she tends to stick with it.",
-			"",
-			"The one-trick pony tends to keep a certain role locked down, preventing other players from experiencing the game from that perspective. Her insistence also has the effect of forcing other players to approach the campaign in a certain way. For example, players can never sneak in to attack the boss by surprise if the paladin always charges forward into every combat.",
-			"",
-			"Of course, there's nothing inherently wrong with indulging a one-trick pony as long as everyone is having fun and you're able to take your campaign to its final destination. But at the same time, you aren't required to maintain the status quo just because that's the way it's always been. When the time comes to shake things up, embrace the change and communicate it to everyone. One way to address this situation is by announcing the main campaign story before players roll up characters, and requiring everyone to come up with characters that fit into it. If you're running a thieves' guild campaign that requires stealth and trickery, it's fine to disallow certain classes or require select skills.",
-			"",
-			"A second type of one-trick pony is the player who uses a specific tactic against enemies again and again during the campaign. This player has found an effective combo or strategy and uses it whenever possible, to the exclusion of all others. Again, while not technically wrong, this play style can quickly get old, and there are a few ways to address it. Before you do so, however, stop and make sure there's actually a problem. Is the player's strategy boring the other party members? Or are you merely frustrated by its effectiveness? Don't punish players for being good at what they do-instead, try exploring counter strategies, and enlist other players and GMs outside of the game if you need tactical help. If you have recurring villains, it only makes sense that they'd quickly learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and begin using it against them. There's no strategy for which a defense cannot be devised, and if the one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of predictability."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"multitask_master": {
-		"name": "Multitask Master",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
-			"",
-			"Distractions come into the game room from a variety of sources: phone calls, family, the pizza guy-you name it. Once they start being generated by the gamers themselves, however, you may need to act quickly to keep your game under control and focused. The multitask master is the source of many such distractions around the table, as he e-mails friends from his laptop, sends text messages on his cell phones, and tells this week's joke to those next to him between initiative rounds.",
-			"",
-			"The first thing to do when confronted with multitaskers is to ask yourself why they're doing it. Are your players falling asleep because you're plotting out every possible location that a caltrop could land? Speed things up. Are you spending all your time on a diva's personal subplot, or waiting for a slow player to find the correct damage dice? Move on to the next player. Evenly distributing your attention and keeping the game moving is crucial.",
-			"",
-			"If you don't think you're fostering the distractions, then it's time to talk to the player (or the group at large) and explain your concerns. If you're having to reread encounters or explain to each player what the guy before him did, there's clearly a problem. Part of the problem might stem from unavoidable slowdowns, such as in a group where several players don't know the rules well yet, but there may be something else you can do to keep players' attention during the game. Ask them for ideas.",
-			"",
-			"Unless players are using laptops or cell phones to keep track of their characters, it's fine to ban them from the gaming table. If a player gets a call he must respond to, he should leave the table and take care of it. If he wants to text friends, he should do it away from the table during breaks. Such rules shouldn't feel draconian, but rather emphasize organization and respect for everyone around the table. Some groups even go so far as to specify what is allowed on the table (dice, character sheets, and pencils) instead of targeting what they don't like.",
-			"",
-			"Like most situations, this one is best handled in private at first. If you need to discuss the issue with the group, make sure not to single out a particular player. Instead, focus on the distractions that prevent the game from being fun and come up with a solution the entire group can accept. When possible, it's generally best to start a gaming group with such rules in place than to try and add them later after a problem arises. But distraction is contagious, and the slower the game gets, the more temptation there is for players to multitask."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"power_game": {
-		"name": "Power Game",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
-			"",
-			"The power gamer focuses on maximizing her character's strengths while minimizing her weaknesses. She focuses all her character choices to enable her to be highly effective in certain areas, without being correspondingly weak in others. She knows exactly which combinations work best for her character type, thrives under home rules that haven't been thoroughly balanced, and can easily wreak havoc on a GM who is less experienced with rules, seeks to appease all players, or emphasizes roleplaying over statistics.",
-			"",
-			"The power gamer tends to focus on combat, expertly manipulating the rules to create engines of destruction that few of her companions (or enemies) can match. The standard monsters from various rules supplements stand no chance against her unless they're many levels higher than the rest of the group. While the power gamer likely sees her actions as merely playing the game to the best of her ability, her proficiency makes creating challenging encounters for the entire party very difficult; monsters introduced to challenge the power gamer might well kill the other characters.",
-			"",
-			"In such situations, the first thing to do is to take a look at the rules in question. As a GM, you should reserve the right to vet new rules content from any source before it's allowed into your game, and if some of the power gamer's abilities are based on rules you don't approve of or house rules you hadn't thought through entirely, you can change them at the end of an adventure-provided players impacted by the change are allowed to go back and rebuild their characters.",
-			"",
-			"The most important thing when dealing with a power gamer is avoiding an adversarial relationship. Instead, try to learn from her, filing away her tactics for use by future villains. If a player is so effective in combat that it's ruining your game, take her aside and ask for her assistance. Congratulate her honestly on her prowess-she spent a lot of time devising those strategies-then explain the situation. Maybe she can help your other players maximize their characters-a group of all power gamers is easier to deal with than a mixed batch. If that doesn't work, perhaps she or another player can help you devise effective counter strategies, or maybe she'd enjoy the challenge of playing a character a few levels lower than everyone else. In the end, it's possible she may need to retire or redesign the character, but the more transparency you can have about this process, and the less it feels like punishment, the better. And if the character is only slightly too powerful, or the other players prefer to focus on roleplaying, there are always noncombat encounters to help give other players the chance to shine."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"rules_lawyer": {
-		"name": "Rules Lawyer",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
-			"",
-			"All players like to know that there are universal rules to level the playing field, but the rules lawyer takes it a step farther. He knows every obscure rule, and insists that each one work exactly as written-especially if it's in his favor.",
-			"",
-			"While of course the rules should work the same for villains as they do the heroes, the GM's challenge is ensuring that the game runs smoothly and everyone has fun. Sometimes it's acceptable for the letter of the law to fade a bit, especially if such sacrifices keep an adventure moving smoothly or to make the game more enjoyable. The following techniques can keep the game on track when confronted with a rules lawyer. If you're constantly being contradicted about rules, consider the following steps.",
-			"",
-			"**Establish House Rules:** If your house rules differ from the main rules, make sure everyone knows about it. Also, be sure to let your players know that this isn't a sport, and that you reserve the right to bend or break the rules for the sake of the game from time to time, with the understanding that your intention isn't to be unfair, but rather to make things more fun for the group as a whole.",
-			"",
-			"**When to Question:** As in the case of the continuity expert, let the rules lawyer know when and how it's appropriate to cite the rules. Openly contradicting is counterproductive unless it's a matter of life and death for a character, in which case you should spend a moment to quickly verify key points, but that's it. After the game or between sessions, you can discuss the rules in depth. Alternatively, if you're shaky on a particular rule and it's important to get it right, don't be afraid to ask the rules lawyer for help to keep the game moving. Making an ally of the rules lawyer validates him and likely makes it easier for him to accept when you're forced to overrule him.",
-			"",
-			"**Use Maps and Minis:** Groups that generalize the locations of their individual characters tend to have more problems with rules lawyers. It's difficult for players to understand the tactical layout of an area without actually seeing the area, and can lead to comments like, \"I didn't walk up to that chest; I skirted the edge of the wall.\" An established grid and physical markers prevent a lot of arguments.",
-			"",
-			"Even if you follow these rules, you may still have trouble with rules lawyers. Not everyone views rules the same way. The important thing is to stand behind your rulings, and when certain things break the rules-for good reason- don't feel like you have to reveal world secrets just because the rules lawyer demands answers. GMs work in mysterious ways, and with any luck history will vindicate your choice."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"tagalong": {
-		"name": "Tagalong",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
-			"",
-			"The tagalong isn't so much a player type as he is a distraction. He might be the significant other of one of the players that shows up each week to spend quality time with his gaming better half. Perhaps he's a player's best friend from high school who is stopping over. Maybe he's even one of the players' children. No matter the relationship, the tagalong is by definition bored by the game and serves as a distraction to the rest of the players. Here's how to prepare for that eventuality.",
-			"",
-			"If the tagalong proves interested in gaming but has never played before, have him observe a game session or take on a minor role, such as the squire, familiar, or assistant of another player, or one of your minor NPCs. If gradually teaching him the game and encouraging this interest works, he may eventually want to create his own character and join the campaign, and chances are good that at least the player who brought him is excited to have him at the table.",
-			"",
-			"If the tagalong has no interest in gaming, even after watching the proceedings for a bit, it's probably best to find some other activity to keep him entertained over the course of the game. If there is a separate room where he can watch TV or read a book, the chances of keeping everyone's attention on the game are much higher. Find out what the tagalong likes to do, and if possible provide him with the resources and equipment he needs to stay entertained. Ultimately, the responsibility for keeping the tagalong happy and distractions to a minimum lies with the player who brought him. Don't be afraid to privately enforce this responsibility.",
-			"",
-			"Children too young to join the game are the most challenging form of tagalongs, as they require both supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite parents should ask the group whether their children are too distracting for gaming, and if it's clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't find a babysitter. But if a group is willing to try-particularly if multiple players have tagalong children-you may be able to play through the distraction caused by children. The important thing is to make sure everyone's on board, as the presence of children can drive some gamers away from the game permanently. Approach this topic respectfully, but be sure to hear from all players before determining the best course of action."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
-	"thespian": {
-		"name": "Thespian",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
-			"",
-			"It's hardly surprising that actors would be drawn to roleplaying games. After all, while some roleplayers are interested solely in leveling up and getting cool new abilities, many take it to the next level, establishing dialects, mannerisms, catch phrases, and so on to bring their characters to life. They speak in character all the time, and relish the opportunity to add their drama skills to a social setting.",
-			"",
-			"Make no mistake about it-this is a good thing. As a GM, you're probably already doing many of these things to help set the stage, and having a few thespian player types to play off of can help you make the world that much more vivid.",
-			"",
-			"Yet like the diva, the thespian can easily come to dominate your sessions, especially if your other players are quieter or less interested in the roleplaying side of things. In such cases, the same techniques used to combat the diva apply here, namely switching back and forth between different NPCs and players to ensure that everyone gets equal time. Keep in mind that members of your gaming group likely embrace different depths of roleplaying, and even if they're not hamming it up themselves, some players might take great enjoyment out of watching the thespian roleplay her heart out. As long as everyone's having fun, go with it. (For advice on acting tricks to up your own performance as a GM, see [GM as Actor](rule/gm_as_actor).)",
-			"",
-			"If tangentially related roleplaying encounters begin to dominate a game, however, or certain players seem bored by the clever dialogue, it might be time to rein back on the roleplaying and throw in a few more combat encounters to accommodate everyone's play styles. Because they tend to involve less dice rolling than other types of encounters, social interactions between characters and NPCs can easily happen between games (though it should be noted that email tends to lose a lot of the flair and fun for thespians). Conversely, if some of your players are bored whenever they're not rolling dice, try incorporating more dice rolls into your social interactions. After all, your players put ranks into Bluff, Diplomacy, Sense Motive, and other social skills for a reason, and you shouldn't give away your biggest secrets to the thespian instead of the Diplomacyheavy bard just because the thespian player likes to do all the talking. As with other metagame questions of personal knowledge versus character knowledge, it's important to remember that a great performance by a player doesn't necessarily indicate the same from his character."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"player_characters",
-			"player_interactions"
-		],
-		"siblings": [
-			"antagonist",
-			"continuity_expert",
-			"diva",
-			"entrepreneur",
-			"flake",
-			"glass_jaw",
-			"loner",
-			"lump",
-			"one-trick_pony",
-			"multitask_master",
-			"power_game",
-			"rules_lawyer",
-			"tagalong",
-			"thespian"
-		]
-	},
 	"nonplayer_characters": {
 		"name": "Nonplayer Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -378,6 +34,7 @@
 	},
 	"cast_of_characters": {
 		"name": "Cast of Characters",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -408,6 +65,7 @@
 	},
 	"designing_npcs": {
 		"name": "Designing NPCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -431,6 +89,7 @@
 	},
 	"npc_roles": {
 		"name": "NPC Roles",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -466,6 +125,7 @@
 	},
 	"good_to_read,_good_to_play": {
 		"name": "Good to Read, Good to Play",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 81](source/gamemastery_guide)",
@@ -487,6 +147,7 @@
 	},
 	"npc_basics": {
 		"name": "NPC Basics",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 82](source/gamemastery_guide)",
@@ -516,6 +177,7 @@
 	},
 	"making_npcs_unique": {
 		"name": "Making NPCs Unique",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 84](source/gamemastery_guide)",
@@ -556,6 +218,7 @@
 	},
 	"naming_npcs": {
 		"name": "Naming NPCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 84](source/gamemastery_guide)",
@@ -578,13 +241,14 @@
 		],
 		"siblings": [
 			"naming_npcs",
-			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs"
+			"monstrous_npcs",
+			"avoiding_npc_overwork"
 		]
 	},
-	"avoiding_npc_overwork": {
-		"name": "Avoiding NPC Overwork",
+	"stereotypes": {
+		"name": "Stereotypes",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -599,13 +263,14 @@
 		],
 		"siblings": [
 			"naming_npcs",
-			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs"
+			"monstrous_npcs",
+			"avoiding_npc_overwork"
 		]
 	},
-	"stereotypes": {
-		"name": "Stereotypes",
+	"monstrous_npcs": {
+		"name": "Monstrous NPCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -622,13 +287,14 @@
 		],
 		"siblings": [
 			"naming_npcs",
-			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs"
+			"monstrous_npcs",
+			"avoiding_npc_overwork"
 		]
 	},
-	"monstrous_npcs": {
-		"name": "Monstrous NPCs",
+	"avoiding_npc_overwork": {
+		"name": "Avoiding NPC Overwork",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -651,13 +317,14 @@
 		],
 		"siblings": [
 			"naming_npcs",
-			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs"
+			"monstrous_npcs",
+			"avoiding_npc_overwork"
 		]
 	},
 	"life_of_an_npc": {
 		"name": "Life of an NPC",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -687,6 +354,7 @@
 	},
 	"building_connections": {
 		"name": "Building Connections",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -717,6 +385,7 @@
 	},
 	"dead_ends": {
 		"name": "Dead Ends",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -745,6 +414,7 @@
 	},
 	"who's_in_control?": {
 		"name": "Who's in Control?",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -767,6 +437,7 @@
 	},
 	"beyond_expectations": {
 		"name": "Beyond Expectations",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -789,6 +460,7 @@
 	},
 	"npc_traps": {
 		"name": "NPC Traps",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -817,6 +489,7 @@
 	},
 	"npc_boons": {
 		"name": "NPC Boons",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 88](source/gamemastery_guide)",
@@ -860,6 +533,7 @@
 	},
 	"adept": {
 		"name": "Adept",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -894,6 +568,7 @@
 	},
 	"aristocrat": {
 		"name": "Aristocrat",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -928,6 +603,7 @@
 	},
 	"commoner": {
 		"name": "Commoner",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -962,6 +638,7 @@
 	},
 	"expert": {
 		"name": "Expert",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -996,6 +673,7 @@
 	},
 	"warrior": {
 		"name": "Warrior",
+		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -1030,6 +708,7 @@
 	},
 	"villains": {
 		"name": "Villains",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -1059,6 +738,7 @@
 	},
 	"villainous_archetypes": {
 		"name": "Villainous Archetypes",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -1086,6 +766,7 @@
 	},
 	"crime_lord": {
 		"name": "Crime Lord",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -1115,6 +796,7 @@
 	},
 	"evil_overlord": {
 		"name": "Evil Overlord",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -1142,6 +824,7 @@
 	},
 	"evil_priest": {
 		"name": "Evil Priest",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 91](source/gamemastery_guide)",
@@ -1171,6 +854,7 @@
 	},
 	"mad_wizard": {
 		"name": "Mad Wizard",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 91](source/gamemastery_guide)",
@@ -1200,6 +884,7 @@
 	},
 	"scheming_noble": {
 		"name": "Scheming Noble",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 92](source/gamemastery_guide)",
@@ -1229,6 +914,7 @@
 	},
 	"advanced_villainy": {
 		"name": "Advanced Villainy",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 92](source/gamemastery_guide)",
@@ -1261,6 +947,7 @@
 	},
 	"playing_villains": {
 		"name": "Playing Villains",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1288,6 +975,7 @@
 	},
 	"hands-on_management": {
 		"name": "Hands-On Management",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1311,6 +999,7 @@
 	},
 	"secret_villains": {
 		"name": "Secret Villains",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1334,6 +1023,7 @@
 	},
 	"the_disembodied_voice": {
 		"name": "The Disembodied Voice",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1357,6 +1047,7 @@
 	},
 	"a_bolt-hole": {
 		"name": "A Bolt-Hole",
+		"subtitle": "Villains, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1380,6 +1071,7 @@
 	},
 	"the_villain's_escape_kit": {
 		"name": "The Villain's Escape Kit",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1415,6 +1107,7 @@
 	},
 	"npc_creator's_toolbox": {
 		"name": "NPC Creator's Toolbox",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 4-1: NPC Backgrounds",
@@ -1964,6 +1657,7 @@
 	},
 	"rewards": {
 		"name": "Rewards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -1994,6 +1688,7 @@
 	},
 	"the_role_of_rewards": {
 		"name": "The Role of Rewards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -2041,6 +1736,7 @@
 	},
 	"experience": {
 		"name": "Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -2073,6 +1769,7 @@
 	},
 	"backgrounded_experience": {
 		"name": "Backgrounded Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -2107,6 +1804,7 @@
 	},
 	"downtime_experience": {
 		"name": "Downtime Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -2143,6 +1841,7 @@
 	},
 	"immediate_experience": {
 		"name": "Immediate Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -2179,6 +1878,7 @@
 	},
 	"handwaved_experience": {
 		"name": "Handwaved Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -2211,6 +1911,7 @@
 	},
 	"ad_hoc_experience": {
 		"name": "Ad Hoc Experience",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -2260,6 +1961,7 @@
 	},
 	"treasure": {
 		"name": "Treasure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -2303,6 +2005,7 @@
 	},
 	"magic_items_gg": {
 		"name": "Magic Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -2343,6 +2046,7 @@
 	},
 	"high_or_low_magic?": {
 		"name": "High or Low Magic?",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -2381,6 +2085,7 @@
 	},
 	"reducing_magic_with_rules_adjustments": {
 		"name": "Reducing Magic with Rules Adjustments",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -2415,6 +2120,7 @@
 	},
 	"reducing_magic_with_world_description": {
 		"name": "Reducing Magic with World Description",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -2449,6 +2155,7 @@
 	},
 	"magic_shops": {
 		"name": "Magic Shops",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -2485,6 +2192,7 @@
 	},
 	"types_of_magic_shops": {
 		"name": "Types of Magic Shops",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -2521,6 +2229,7 @@
 	},
 	"story_items": {
 		"name": "Story Items",
+		"subtitle": "Magic, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 107](source/gamemastery_guide)",
@@ -2565,6 +2274,7 @@
 	},
 	"trouble_items": {
 		"name": "Trouble Items",
+		"subtitle": "Magic, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 107](source/gamemastery_guide)",
@@ -2603,6 +2313,7 @@
 	},
 	"starting_treasure": {
 		"name": "Starting Treasure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -2631,6 +2342,7 @@
 	},
 	"starting_with_magic_items": {
 		"name": "Starting with Magic Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -2660,6 +2372,7 @@
 	},
 	"heirloom_items": {
 		"name": "Heirloom Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -2689,6 +2402,7 @@
 	},
 	"setting_items": {
 		"name": "Setting Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -2719,6 +2433,7 @@
 	},
 	"plot_items": {
 		"name": "Plot Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -2747,6 +2462,7 @@
 	},
 	"mighty_items": {
 		"name": "Mighty Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 109](source/gamemastery_guide)",
@@ -2774,6 +2490,7 @@
 	},
 	"wealthy_characters": {
 		"name": "Wealthy Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 109](source/gamemastery_guide)",
@@ -2803,6 +2520,7 @@
 	},
 	"what_is_a_reward": {
 		"name": "What is a Reward",
+		"subtitle": "Treasure, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 110](source/gamemastery_guide)",
@@ -2835,6 +2553,7 @@
 	},
 	"making_basic_treasure_interesting": {
 		"name": "Making Basic Treasure Interesting",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 110](source/gamemastery_guide)",
@@ -2894,6 +2613,7 @@
 	},
 	"non-adventuring_magic_items": {
 		"name": "Non-Adventuring Magic Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2925,6 +2645,7 @@
 	},
 	"burdensome_treasure": {
 		"name": "Burdensome Treasure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2954,6 +2675,7 @@
 	},
 	"special_treasures": {
 		"name": "Special Treasures",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2983,6 +2705,7 @@
 	},
 	"services,_franchises_and_property": {
 		"name": "Services, Franchises and Property",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -3014,6 +2737,7 @@
 	},
 	"coins_gg": {
 		"name": "Coins",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -3053,6 +2777,7 @@
 	},
 	"intangible_benefits": {
 		"name": "Intangible Benefits",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -3090,6 +2815,7 @@
 	},
 	"story_benefits": {
 		"name": "Story Benefits",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -3125,6 +2851,7 @@
 	},
 	"treasures_as_adventures": {
 		"name": "Treasures as Adventures",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 113](source/gamemastery_guide)",
@@ -3160,6 +2887,7 @@
 	},
 	"exit_rewards": {
 		"name": "Exit Rewards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 113](source/gamemastery_guide)",
@@ -3193,6 +2921,7 @@
 	},
 	"pcs_controlling_rewards": {
 		"name": "PCs Controlling Rewards",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -3225,6 +2954,7 @@
 	},
 	"research_and_designing_spells": {
 		"name": "Research and Designing Spells",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -3260,6 +2990,7 @@
 	},
 	"good_spells_and_bad_spells": {
 		"name": "Good Spells and Bad Spells",
+		"subtitle": "Creating Spells, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -3293,6 +3024,7 @@
 	},
 	"creating_a_spell": {
 		"name": "Creating a Spell",
+		"subtitle": "Creating Spells, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -3333,6 +3065,7 @@
 	},
 	"spell_components": {
 		"name": "Spell Components",
+		"subtitle": "Creating Spells, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -3362,6 +3095,7 @@
 	},
 	"components_for_new_spells": {
 		"name": "Components for New Spells",
+		"subtitle": "Creating Spells, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -3395,6 +3129,7 @@
 	},
 	"enhanced_components": {
 		"name": "Enhanced Components",
+		"subtitle": "Creating Spells, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -3432,6 +3167,7 @@
 	},
 	"wishes": {
 		"name": "Wishes",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 116](source/gamemastery_guide)",
@@ -3473,6 +3209,7 @@
 	},
 	"making_magic_items": {
 		"name": "Making Magic Items",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 116](source/gamemastery_guide)",
@@ -3504,6 +3241,7 @@
 	},
 	"ad-hoc_pricing": {
 		"name": "Ad-Hoc Pricing",
+		"subtitle": "Magic Items, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 117](source/gamemastery_guide)",
@@ -3531,6 +3269,7 @@
 	},
 	"keeping_the_balance": {
 		"name": "Keeping the Balance",
+		"subtitle": "Magic Items, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 117](source/gamemastery_guide)",
@@ -3564,6 +3303,7 @@
 	},
 	"creating_a_world": {
 		"name": "Creating a World",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -3604,6 +3344,7 @@
 	},
 	"world_building": {
 		"name": "World Building",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -3639,6 +3380,7 @@
 	},
 	"defining_a_setting": {
 		"name": "Defining a Setting",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -3663,6 +3405,7 @@
 	},
 	"tools_of_the_trade": {
 		"name": "Tools of the Trade",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -3687,6 +3430,7 @@
 	},
 	"building_a_city": {
 		"name": "Building a City",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -3715,6 +3459,7 @@
 	},
 	"detailing_your_world": {
 		"name": "Detailing Your World",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 142](source/gamemastery_guide)",
@@ -3752,6 +3497,7 @@
 	},
 	"the_heroic_details": {
 		"name": "The Heroic Details",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 142](source/gamemastery_guide)",
@@ -3818,6 +3564,7 @@
 	},
 	"the_mundane_details": {
 		"name": "The Mundane Details",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 143](source/gamemastery_guide)",
@@ -3882,6 +3629,7 @@
 	},
 	"the_scholarly_details": {
 		"name": "The Scholarly Details",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 144](source/gamemastery_guide)",
@@ -3944,6 +3692,7 @@
 	},
 	"geography": {
 		"name": "Geography",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -3992,6 +3741,7 @@
 	},
 	"creating_a_world_map": {
 		"name": "Creating a World Map",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -4021,6 +3771,7 @@
 	},
 	"starting_size": {
 		"name": "Starting Size",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -4048,6 +3799,7 @@
 	},
 	"terrain_hierarchy": {
 		"name": "Terrain Hierarchy",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -4075,6 +3827,7 @@
 	},
 	"geologic_touchstones": {
 		"name": "Geologic Touchstones",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4107,6 +3860,7 @@
 	},
 	"coastlines": {
 		"name": "Coastlines",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4134,6 +3888,7 @@
 	},
 	"elevations": {
 		"name": "Elevations",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4161,6 +3916,7 @@
 	},
 	"rivers": {
 		"name": "Rivers",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4188,6 +3944,7 @@
 	},
 	"vegetation": {
 		"name": "Vegetation",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4215,6 +3972,7 @@
 	},
 	"tags": {
 		"name": "Tags",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4242,6 +4000,7 @@
 	},
 	"breaking_the_rules": {
 		"name": "Breaking the Rules",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -4269,6 +4028,7 @@
 	},
 	"cultural_considerations": {
 		"name": "Cultural Considerations",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -4315,6 +4075,7 @@
 	},
 	"core_elements_of_the_people": {
 		"name": "Core Elements of the People",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -4343,6 +4104,7 @@
 	},
 	"government_and_law": {
 		"name": "Government and Law",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -4380,6 +4142,7 @@
 	},
 	"economics": {
 		"name": "Economics",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 149](source/gamemastery_guide)",
@@ -4406,6 +4169,7 @@
 	},
 	"the_primitive_society": {
 		"name": "The Primitive Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -4458,6 +4222,7 @@
 	},
 	"defining_primitive_culture": {
 		"name": "Defining Primitive Culture",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -4485,6 +4250,7 @@
 	},
 	"leadership_and_control": {
 		"name": "Leadership and Control",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -4506,6 +4272,7 @@
 	},
 	"religion,_taboos,_rituals,_and_superstitions": {
 		"name": "Religion, Taboos, Rituals, and Superstitions",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 151](source/gamemastery_guide)",
@@ -4533,6 +4300,7 @@
 	},
 	"questions_about_your_primitive_society": {
 		"name": "Questions about Your Primitive Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 151](source/gamemastery_guide)",
@@ -4578,6 +4346,7 @@
 	},
 	"the_feudal_society": {
 		"name": "The Feudal Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 152](source/gamemastery_guide)",
@@ -4628,6 +4397,7 @@
 	},
 	"ruling_a_feudal_society": {
 		"name": "Ruling a Feudal Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 152](source/gamemastery_guide)",
@@ -4651,6 +4421,7 @@
 	},
 	"the_feudal_hierarchy": {
 		"name": "The Feudal Hierarchy",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -4686,6 +4457,7 @@
 	},
 	"religion's_role": {
 		"name": "Religion's Role",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -4709,6 +4481,7 @@
 	},
 	"questions_about_your_feudal_society": {
 		"name": "Questions about Your Feudal Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -4749,6 +4522,7 @@
 	},
 	"the_rural_agrarian_society": {
 		"name": "The Rural/Agrarian Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 154](source/gamemastery_guide)",
@@ -4798,6 +4572,7 @@
 	},
 	"life_in_an_agrarian_society": {
 		"name": "Life in an Agrarian Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 154](source/gamemastery_guide)",
@@ -4826,6 +4601,7 @@
 	},
 	"the_religion_of_farmers": {
 		"name": "The Religion of Farmers",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -4850,6 +4626,7 @@
 	},
 	"social_structure_and_economy": {
 		"name": "Social Structure and Economy",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -4874,6 +4651,7 @@
 	},
 	"challenges": {
 		"name": "Challenges",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -4896,6 +4674,7 @@
 	},
 	"questions_about_your_rural_agrarian_society": {
 		"name": "Questions about Your Rural/Agrarian Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -4938,6 +4717,7 @@
 	},
 	"the_cosmopolitan_society": {
 		"name": "The Cosmopolitan Society",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -4975,6 +4755,7 @@
 	},
 	"city_requirements": {
 		"name": "City Requirements",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -5001,6 +4782,7 @@
 	},
 	"urban_planning": {
 		"name": "Urban Planning",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -5031,6 +4813,7 @@
 	},
 	"questions_about_your_city": {
 		"name": "Questions about Your City",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 157](source/gamemastery_guide)",
@@ -5082,6 +4865,7 @@
 	},
 	"other_societies": {
 		"name": "Other Societies",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 158](source/gamemastery_guide)",
@@ -5149,6 +4933,7 @@
 	},
 	"technology_2": {
 		"name": "Technology",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 160](source/gamemastery_guide)",
@@ -5185,6 +4970,7 @@
 	},
 	"contentious_technology": {
 		"name": "Contentious Technology",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 160](source/gamemastery_guide)",
@@ -5218,6 +5004,7 @@
 	},
 	"multiple_levels_of_technology": {
 		"name": "Multiple Levels of Technology",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -5241,6 +5028,7 @@
 	},
 	"magic_and_technology": {
 		"name": "Magic and Technology",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -5264,6 +5052,7 @@
 	},
 	"anachronisms": {
 		"name": "Anachronisms",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -5289,6 +5078,7 @@
 	},
 	"time": {
 		"name": "Time",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -5329,6 +5119,7 @@
 	},
 	"the_role_of_time": {
 		"name": "The Role of Time",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -5356,6 +5147,7 @@
 	},
 	"time_in_your_game": {
 		"name": "Time in Your Game",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -5389,6 +5181,7 @@
 	},
 	"celebrating_time": {
 		"name": "Celebrating Time",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -5420,6 +5213,7 @@
 	},
 	"crafting_time": {
 		"name": "Crafting Time",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -5449,6 +5243,7 @@
 	},
 	"traps_and_opportunities": {
 		"name": "Traps and Opportunities",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -5480,6 +5275,7 @@
 	},
 	"the_age_of_the_world": {
 		"name": "The Age of the World",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -5505,6 +5301,7 @@
 	},
 	"youthful_worlds": {
 		"name": "Youthful Worlds",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -5530,6 +5327,7 @@
 	},
 	"ancient_worlds": {
 		"name": "Ancient Worlds",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -5555,6 +5353,7 @@
 	},
 	"the_cosmos": {
 		"name": "The Cosmos",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -5591,6 +5390,7 @@
 	},
 	"creating_your_planet": {
 		"name": "Creating Your Planet",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -5624,6 +5424,7 @@
 	},
 	"other_worlds": {
 		"name": "Other Worlds",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -5659,6 +5460,7 @@
 	},
 	"space_travel": {
 		"name": "Space Travel",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 165](source/gamemastery_guide)",
@@ -5686,6 +5488,7 @@
 	},
 	"extraterrestrials": {
 		"name": "Extraterrestrials",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 165](source/gamemastery_guide)",
@@ -5707,6 +5510,7 @@
 	},
 	"the_planes_gg": {
 		"name": "The Planes",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -5744,6 +5548,7 @@
 	},
 	"the_purpose_of_planes": {
 		"name": "The Purpose of Planes",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -5766,6 +5571,7 @@
 	},
 	"planar_models": {
 		"name": "Planar Models",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -5804,6 +5610,7 @@
 	},
 	"sample_cosmological_shapes": {
 		"name": "Sample Cosmological Shapes",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 167](source/gamemastery_guide)",
@@ -5833,6 +5640,7 @@
 	},
 	"location_and_travel": {
 		"name": "Location and Travel",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 167](source/gamemastery_guide)",
@@ -5857,6 +5665,7 @@
 	},
 	"other_considerations": {
 		"name": "Other Considerations",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 167](source/gamemastery_guide)",
@@ -5879,6 +5688,7 @@
 	},
 	"parallel_words": {
 		"name": "Parallel Words",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -5916,6 +5726,7 @@
 	},
 	"creating_a_parallel_world": {
 		"name": "Creating a Parallel World",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -5942,6 +5753,7 @@
 	},
 	"sample_parallel_worlds": {
 		"name": "Sample Parallel Worlds",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -5976,6 +5788,7 @@
 	},
 	"going_home": {
 		"name": "Going Home",
+		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 169](source/gamemastery_guide)",
@@ -5998,6 +5811,7 @@
 	},
 	"adventures": {
 		"name": "Adventures",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -6031,6 +5845,7 @@
 	},
 	"elements_of_adventure": {
 		"name": "Elements of Adventure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -6060,6 +5875,7 @@
 	},
 	"what_makes_a_great_adventure": {
 		"name": "What Makes a Great Adventure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -6081,6 +5897,7 @@
 	},
 	"choosing_your_adventure": {
 		"name": "Choosing Your Adventure",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -6104,6 +5921,7 @@
 	},
 	"dungeons_gg": {
 		"name": "Dungeons",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -6140,6 +5958,7 @@
 	},
 	"the_dungeon_concept": {
 		"name": "The Dungeon Concept",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -6167,6 +5986,7 @@
 	},
 	"drawing_a_dungeon_map": {
 		"name": "Drawing a Dungeon Map",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -6198,6 +6018,7 @@
 	},
 	"sketching_the_map": {
 		"name": "Sketching the Map",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -6241,6 +6062,7 @@
 	},
 	"inking_the_map": {
 		"name": "Inking the Map",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 175](source/gamemastery_guide)",
@@ -6270,6 +6092,7 @@
 	},
 	"tagging_the_map": {
 		"name": "Tagging the Map",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -6297,6 +6120,7 @@
 	},
 	"adding_details_to_the_map": {
 		"name": "Adding Details to the Map",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -6324,6 +6148,7 @@
 	},
 	"dungeon_ecology": {
 		"name": "Dungeon Ecology",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -6357,6 +6182,7 @@
 	},
 	"encounter_archetypes": {
 		"name": "Encounter Archetypes",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -6398,6 +6224,7 @@
 	},
 	"resting_in_the_dungeon": {
 		"name": "Resting in the Dungeon",
+		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 177](source/gamemastery_guide)",
@@ -6429,6 +6256,7 @@
 	},
 	"dungeon_toolbox": {
 		"name": "Dungeon Toolbox",
+		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"An innocent facade can often hide a dark secret, and who knows what lurks behind that stuck door or beyond that rusty portcullis? When looking for a lair for your villains or the inspiration to create a new trap-filled vault, consider using the ideas below, or simply use the following tables to generate a home for a villain you didn't expect the PCs to follow",

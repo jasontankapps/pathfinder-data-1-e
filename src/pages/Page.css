@@ -34,11 +34,65 @@ div.loadingPage {
 	height: 100%;
 }
 
-div.main ion-list ion-item.mainItem ion-label {
+/* Main */
+
+div.main ion-list ion-item.mainItem {
+	text-align: start;
+}
+div.main ion-list ion-item.mainItem.indented {
+	text-align: start;
+}
+div.main ion-list ion-item.mainItem.indented ion-label {
+	padding-inline-start: 2rem;
+}
+div.main ion-list ion-item.mainItem.reversed {
+	text-align: end;
+}
+div.main ion-list ion-item.mainItem.linked {
 	--color: var(--ion-color-primary);
 }
 div.main ion-list ion-item-divider.mainItem ion-label {
 	--color: var(--ion-color-step-800);
+}
+
+div.main.basicContent ion-list ion-item:first-child {
+	margin-inline-end: 3rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label {
+	--color: var(--ion-text-color);
+	text-align: start;
+	display: block;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label p {
+	color: var(--ion-text-color);
+	margin-block-end: 0.85rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label th p,
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label td p {
+	margin-block-end: 0;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {
+	font-size: 1.5rem;
+	margin-block-end: 1.35rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h3 {
+	font-size: 1.35rem;
+	margin-block-end: 1.25rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h4 {
+	font-size: 1.25rem;
+	margin-block-end: 1.15rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h5 {
+	font-size: 1.15rem;
+	margin-block-end: 1rem;
+}
+div.main.basicContent h2 a,
+div.main.basicContent h3 a,
+div.main.basicContent h4 a,
+div.main.basicContent h5 a,
+div.main.basicContent h6 a {
+	text-decoration: none;
 }
 
 /* General tables */

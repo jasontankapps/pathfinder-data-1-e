@@ -1,6 +1,7 @@
 {
 	"step_3_racial_traits": {
 		"name": "Step 3: Racial Traits",
+		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 220](source/advanced_race_guide)",
@@ -36,7 +37,6 @@
 			"other_racial_traits"
 		],
 		"siblings": [
-			"race_examples",
 			"creating_a_new_race",
 			"step_1_concept_arg",
 			"step_2_racial_qualities",
@@ -1215,7 +1215,7 @@
 			"",
 			"The downtime system is designed to put much of the power and decision making for non-adventuring tasks in the hands of the players. These rules assume the reader is a player making decisions about what his character does during downtime. However, the GM is still in charge of the campaign and the final judge of what is possible using this system; these rules simply take much of the burden away from busy GMs, allowing them more time to work on creating adventures and other campaign issues."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "optional_rules_systems" ],
 		"subtopics": [
 			"downtime_overview",
 			"downtime_activities",
@@ -1224,22 +1224,19 @@
 			"buildings_and_organizations",
 			"downtime_events"
 		],
-		"siblings": [
-			"basics_from_the_core_rulebook",
-			"gamemastery_guide",
-			"bestiary",
-			"umr",
-			"race_builder",
+		"siblings":  [
 			"downtime",
-			"campaign_systems",
-			"aquatic_adventures_aa",
-			"occult_rules",
-			"mastering_intrigue",
-			"horror_rules",
-			"infernal_contracts",
-			"mastering_the_wild",
-			"planar_adventures",
-			"primal_magic"
+			"armor_as_damage_reduction",
+			"called_shots",
+			"hero_points",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"pathfinder_unchained",
+			"piecemeal_armor",
+			"relics",
+			"the_hunger",
+			"words_of_power",
+			"wounds_and_vigor"
 		]
 	},
 	"downtime_overview": {
@@ -1345,6 +1342,7 @@
 	},
 	"gaining_capital": {
 		"name": "Gaining Capital",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 77](source/ultimate_campaign)",
@@ -1437,6 +1435,7 @@
 	},
 	"working_weekends": {
 		"name": "Working Weekends",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 79](source/ultimate_campaign)",
@@ -1459,6 +1458,7 @@
 	},
 	"converting_capital": {
 		"name": "Converting Capital",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 80](source/ultimate_campaign)",
@@ -1481,6 +1481,7 @@
 	},
 	"moving_capital": {
 		"name": "Moving Capital",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 80](source/ultimate_campaign)",
@@ -1503,6 +1504,7 @@
 	},
 	"spending_limits": {
 		"name": "Spending Limits",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 80](source/ultimate_campaign)",
@@ -1536,6 +1538,7 @@
 	},
 	"using_followers": {
 		"name": "Using Followers",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 80](source/ultimate_campaign)",
@@ -1562,6 +1565,7 @@
 	},
 	"spend_capital_to_boost_checks": {
 		"name": "Spend Capital to Boost Checks",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 81](source/ultimate_campaign)",
@@ -1632,6 +1636,7 @@
 	},
 	"upkeep_phase": {
 		"name": "Upkeep Phase",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 81](source/ultimate_campaign)",
@@ -1673,6 +1678,7 @@
 	},
 	"activity_phase": {
 		"name": "Activity Phase",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 82](source/ultimate_campaign)",
@@ -1702,6 +1708,7 @@
 	},
 	"income_phase": {
 		"name": "Income Phase",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 82](source/ultimate_campaign)",
@@ -1743,6 +1750,7 @@
 	},
 	"event_phase": {
 		"name": "Event Phase",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 83](source/ultimate_campaign)",
@@ -1815,6 +1823,7 @@
 	},
 	"add_spells_to_your_spellbook": {
 		"name": "Add Spells to Your Spellbook",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
@@ -1851,6 +1860,7 @@
 	},
 	"construct_buildings": {
 		"name": "Construct Buildings",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
@@ -1889,6 +1899,7 @@
 	},
 	"craft_magic_items": {
 		"name": "Craft Magic Items",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
@@ -1925,6 +1936,7 @@
 	},
 	"craft_mundane_items": {
 		"name": "Craft Mundane Items",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
@@ -1975,6 +1987,7 @@
 	},
 	"earn_capital": {
 		"name": "Earn Capital",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2011,6 +2024,7 @@
 	},
 	"earn_xp": {
 		"name": "Earn XP",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2051,6 +2065,7 @@
 	},
 	"gather_information": {
 		"name": "Gather Information",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2093,6 +2108,7 @@
 	},
 	"heal_others": {
 		"name": "Heal Others",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2135,6 +2151,7 @@
 	},
 	"lead_your_kingdom": {
 		"name": "Lead Your Kingdom",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2171,6 +2188,7 @@
 	},
 	"promote_a_business": {
 		"name": "Promote a Business",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
@@ -2213,6 +2231,7 @@
 	},
 	"replace_your_animal_companion": {
 		"name": "Replace Your Animal Companion",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
@@ -2249,11 +2268,12 @@
 	},
 	"replace_your_familiar": {
 		"name": "Replace Your Familiar",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
 			"",
-			"The Core Rulebook allows you to replace a familiar if at least 1 week has passed since it was dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a new familiar. The ritual costs 200 gp &times; your wizard or witch level. You can spend Goods or Magic toward the ritual cost."
+			"The Core Rulebook allows you to replace a familiar if at least 1 week has passed since it was dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a new familiar. The ritual costs 200 gp &times; your wizard or witch level. You can [spend Goods or Magic](rule/spend_capital_to_boost_checks) toward the ritual cost."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2285,6 +2305,7 @@
 	},
 	"recruit_for_an_organization": {
 		"name": "Recruit for an Organization",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
@@ -2321,13 +2342,14 @@
 	},
 	"research_a_spell": {
 		"name": "Research a Spell",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
 			"",
 			"The Core Rulebook allows you to perform spell research, either to create a new spell or learn an existing spell from another source. In the downtime system, the steps for spell research each day are as follows.",
 			"",
-			"1. Pay 100 gp &times; the spell's level for research costs and rare ingredients. You may spend Goods or Magic toward this cost.",
+			"1. Pay 100 gp &times; the spell's level for research costs and rare ingredients. You may [spend Goods or Magic](rule/spend_capital_to_boost_checks) toward this cost.",
 			"",
 			"2. Determine the total days of progress required to complete the research, which is 7 &times; the spell level.",
 			"",
@@ -2369,6 +2391,7 @@
 	},
 	"research_facts_and_lore": {
 		"name": "Research Facts and Lore",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
@@ -2411,6 +2434,7 @@
 	},
 	"rest": {
 		"name": "Rest",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
@@ -2447,11 +2471,12 @@
 	},
 	"retrain": {
 		"name": "Retrain",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
 			"",
-			"You can use your downtime to retrain (see [Retraining](rule/retraining). You may spend Goods, Influence, Labor, or Magic toward this cost."
+			"You can use your downtime to retrain (see [Retraining](rule/retraining)). You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) toward this cost."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2483,6 +2508,7 @@
 	},
 	"run_a_business": {
 		"name": "Run a Business",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 86](source/ultimate_campaign)",
@@ -2521,13 +2547,14 @@
 	},
 	"scheme_for_an_upcoming_adventure": {
 		"name": "Scheme for an Upcoming Adventure",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 87](source/ultimate_campaign)",
 			"",
 			"You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like [spending capital to boost checks](unknown/spending_capital_to_boost_checks), except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.",
 			"",
-			"For example, by spending 1 day of downtime and 1 point of Goods, you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
+			"For example, by spending 1 day of downtime and 1 point of [Goods](rule/spend_capital_to_boost_checks), you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2559,6 +2586,7 @@
 	},
 	"train_an_animal": {
 		"name": "Train an Animal",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 87](source/ultimate_campaign)",
@@ -2567,7 +2595,7 @@
 			"",
 			"This use of downtime doesn't allow you to exceed the animal's normal training limitations from the Core Rulebook. For example, spending downtime doesn't allow you to teach an animal more tricks than it could learn if you weren't using the downtime system.",
 			"",
-			"**Teach an Animal a Trick:** This requires 7 days and a successful [Handle Animal](skill/handle_animal) check at the end of the training period. You may spend Goods, Influence, Labor, or Magic to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
+			"**Teach an Animal a Trick:** This requires 7 days and a successful [Handle Animal](skill/handle_animal) check at the end of the training period. You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
 			"",
 			"**Train an Animal for a General Purpose:** This sort of training can take several weeks, depending on the nature of the training. You may spend Goods, Influence, Labor, or Magic to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
 			"",
@@ -2603,6 +2631,7 @@
 	},
 	"managers": {
 		"name": "Managers",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 88](source/ultimate_campaign)",
@@ -2635,6 +2664,7 @@
 	},
 	"reading_a_manager_stat_block": {
 		"name": "Reading a Manager Stat Block",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 88](source/ultimate_campaign)",
@@ -2660,6 +2690,7 @@
 	},
 	"example_managers": {
 		"name": "Example Managers",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 88](source/ultimate_campaign)",
@@ -2815,6 +2846,7 @@
 	},
 	"wilderness_managers": {
 		"name": "Wilderness Managers",
+		"subtitle": "Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 16](source/heroes_of_the_wild)",
@@ -2858,6 +2890,7 @@
 	},
 	"rooms_and_teams": {
 		"name": "Rooms and Teams",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 90](source/ultimate_campaign)",
@@ -2866,7 +2899,7 @@
 			"",
 			"A room can be as simple as a 10-foot-by-10-foot area surrounded by wooden walls, or as complex as a stone-walled guard tower with a heavy wooden gate. A team can be as simple as a few beggars or pickpockets, as skilled as a group of acolytes trained in the healing arts, or as dangerous as a band of veteran mercenary soldiers. The details of the room or team are left vague to allow you greater versatility- they provide the game mechanics for your building or organization, but you decide the layout or hierarchy that suits your aesthetics.",
 			"",
-			"Each room and team costs one or more kinds of capital (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A [list of rooms begins here](unknown/list_of_rooms_begins_here) and a [list of teams here](unknown/list_of_teams_here).",
+			"Each room and team costs one or more kinds of [capital](rule/gaining_capital) (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A [list of rooms begins here](unknown/list_of_rooms_begins_here) and a [list of teams here](unknown/list_of_teams_here).",
 			"",
 			"**Constructing Buildings from Rooms:** If you are [constructing a building](rule/buildings), you can connect these rooms in any way you see fit using normal doors and hallways, or fit them together without interior partitions into a large common space. Unless otherwise stated, each room includes a floor, ceiling, walls, furniture, doors, windows, and other details that are appropriate to the room's purpose in your building.",
 			"",
@@ -2924,6 +2957,7 @@
 	},
 	"construction_examples": {
 		"name": "Construction Examples",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 91](source/ultimate_campaign)",
@@ -2934,7 +2968,7 @@
 			"",
 			"Alternatively, if you just wanted to purchase a completed Inn and the GM says one is available, you can add up the gp cost listed in the Create entries of the Inn's rooms and pay that amount to the current owner. For the friendly traveler's Inn described above, that total price is 1,390 gp.",
 			"",
-			"Thieves' Guild",
+			"### Thieves' Guild",
 			"",
 			"Suppose you want to create a network of thieves and spies in town. You need eyes and ears on the street, so you should include a Cutpurse team. You want people to be able to break into homes and steal valuables, so you should include a Robber team. To hide your wealth from the tax collector, you need a Bureaucrat team. By adding up all the Goods, Influence, Labor, and Magic values in the Create and Time entries of the rooms' stat blocks, you get a total of 3 points of Goods, 11 points of Influence, 6 points of Labor, and 6 days. If you spend that capital, after 6 days of recruiting, your guild is ready to work.",
 			"",
@@ -2957,6 +2991,7 @@
 	},
 	"reading_a_unit_statblock": {
 		"name": "Reading a Unit Statblock",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 92](source/ultimate_campaign)",
@@ -3016,6 +3051,7 @@
 	},
 	"restrictions_on_earnings": {
 		"name": "Restrictions on Earnings",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 93](source/ultimate_campaign)",
@@ -3041,6 +3077,7 @@
 	},
 	"construction_and_recruitment_delays": {
 		"name": "Construction and Recruitment Delays",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 93](source/ultimate_campaign)",
@@ -3066,6 +3103,7 @@
 	},
 	"moving_an_organization": {
 		"name": "Moving an Organization",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 93](source/ultimate_campaign)",
@@ -3091,6 +3129,7 @@
 	},
 	"rooms": {
 		"name": "Rooms",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 94](source/ultimate_campaign)",
@@ -3798,6 +3837,7 @@
 	},
 	"wilderness_rooms": {
 		"name": "Wilderness Rooms",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 14](source/heroes_of_the_wild)",
@@ -3879,6 +3919,7 @@
 	},
 	"room_augmentations": {
 		"name": "Room Augmentations",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 104](source/ultimate_campaign)",
@@ -3920,6 +3961,7 @@
 	},
 	"wilderness_room_augmentations": {
 		"name": "Wilderness Room Augmentations",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 15](source/heroes_of_the_wild)",
@@ -3958,6 +4000,7 @@
 	},
 	"intrigue_room_augmentations": {
 		"name": "Intrigue Room Augmentations",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"**Source** [Inner Sea Intrigue pg. 56](source/inner_sea_intrigue)",
@@ -4035,6 +4078,7 @@
 	},
 	"teams": {
 		"name": "Teams",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 104](source/ultimate_campaign)",
@@ -4254,6 +4298,7 @@
 	},
 	"wilderness_teams": {
 		"name": "Wilderness Teams",
+		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 15](source/heroes_of_the_wild)",
@@ -4288,6 +4333,7 @@
 	},
 	"buildings_and_organizations": {
 		"name": "Buildings and Organizations",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
@@ -4317,6 +4363,7 @@
 	},
 	"buildings": {
 		"name": "Buildings",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
@@ -4749,6 +4796,7 @@
 	},
 	"wilderness_buildings": {
 		"name": "Wilderness Buildings",
+		"subtitle": "Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 16](source/heroes_of_the_wild)",
@@ -4809,6 +4857,7 @@
 	},
 	"organizations": {
 		"name": "Organizations",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 113](source/ultimate_campaign)",
@@ -4979,6 +5028,7 @@
 	},
 	"generic_building_events": {
 		"name": "Generic Building Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 114](source/ultimate_campaign)",
@@ -5062,6 +5112,7 @@
 	},
 	"alchemist_events": {
 		"name": "Alchemist Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 115](source/ultimate_campaign)",
@@ -5132,6 +5183,7 @@
 	},
 	"bardic_college_events": {
 		"name": "Bardic College Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 116](source/ultimate_campaign)",
@@ -5200,6 +5252,7 @@
 	},
 	"caster's_tower_events": {
 		"name": "Caster's Tower Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 116](source/ultimate_campaign)",
@@ -5256,6 +5309,7 @@
 	},
 	"castle_events": {
 		"name": "Castle Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 117](source/ultimate_campaign)",
@@ -5314,6 +5368,7 @@
 	},
 	"dance_hall_events": {
 		"name": "Dance Hall Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 117](source/ultimate_campaign)",
@@ -5375,6 +5430,7 @@
 	},
 	"guildhall_events": {
 		"name": "Guildhall Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 118](source/ultimate_campaign)",
@@ -5433,6 +5489,7 @@
 	},
 	"herbalist_events": {
 		"name": "Herbalist Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 118](source/ultimate_campaign)",
@@ -5489,6 +5546,7 @@
 	},
 	"house_events": {
 		"name": "House Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 119](source/ultimate_campaign)",
@@ -5548,6 +5606,7 @@
 	},
 	"inn_events": {
 		"name": "Inn Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 120](source/ultimate_campaign)",
@@ -5604,6 +5663,7 @@
 	},
 	"library_events": {
 		"name": "Library Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 120](source/ultimate_campaign)",
@@ -5665,6 +5725,7 @@
 	},
 	"magic_shop_events": {
 		"name": "Magic Shop Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 121](source/ultimate_campaign)",
@@ -5719,6 +5780,7 @@
 	},
 	"magical_academy_events": {
 		"name": "Magical Academy Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 121](source/ultimate_campaign)",
@@ -5781,6 +5843,7 @@
 	},
 	"menagerie_events": {
 		"name": "Menagerie Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 122](source/ultimate_campaign)",
@@ -5839,6 +5902,7 @@
 	},
 	"military_academy_events": {
 		"name": "Military Academy Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 122](source/ultimate_campaign)",
@@ -5898,6 +5962,7 @@
 	},
 	"monastery_events": {
 		"name": "Monastery Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 123](source/ultimate_campaign)",
@@ -5960,6 +6025,7 @@
 	},
 	"shop_events": {
 		"name": "Shop Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 123](source/ultimate_campaign)",
@@ -6021,6 +6087,7 @@
 	},
 	"smithy_events": {
 		"name": "Smithy Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 124](source/ultimate_campaign)",
@@ -6086,6 +6153,7 @@
 	},
 	"stable_events": {
 		"name": "Stable Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 125](source/ultimate_campaign)",
@@ -6147,6 +6215,7 @@
 	},
 	"tavern_events": {
 		"name": "Tavern Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 125](source/ultimate_campaign)",
@@ -6208,6 +6277,7 @@
 	},
 	"temple_events": {
 		"name": "Temple Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 126](source/ultimate_campaign)",
@@ -6270,6 +6340,7 @@
 	},
 	"theater_events": {
 		"name": "Theater Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 127](source/ultimate_campaign)",
@@ -6334,6 +6405,7 @@
 	},
 	"organization_events": {
 		"name": "Organization Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 127](source/ultimate_campaign)",
@@ -6379,6 +6451,7 @@
 	},
 	"cabal_events": {
 		"name": "Cabal Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 127](source/ultimate_campaign)",
@@ -6421,6 +6494,7 @@
 	},
 	"cult_events": {
 		"name": "Cult Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 128](source/ultimate_campaign)",
@@ -6465,6 +6539,7 @@
 	},
 	"mercenary_company_events": {
 		"name": "Mercenary Company Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 128](source/ultimate_campaign)",
@@ -6511,6 +6586,7 @@
 	},
 	"thieves'_guild_events": {
 		"name": "Thieves' Guild Events",
+		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 129](source/ultimate_campaign)",
@@ -6554,6 +6630,7 @@
 	},
 	"campaign_systems": {
 		"name": "Campaign Systems",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 134](source/ultimate_campaign)",
@@ -6605,13 +6682,11 @@
 			"young_characters",
 			"affiliations"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -6625,6 +6700,7 @@
 	},
 	"alignments": {
 		"name": "Alignments",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 134](source/ultimate_campaign)",
@@ -6673,6 +6749,7 @@
 	},
 	"lawful_good": {
 		"name": "Lawful Good",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 134](source/ultimate_campaign)",
@@ -6706,6 +6783,7 @@
 	},
 	"neutral_good": {
 		"name": "Neutral Good",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 135](source/ultimate_campaign)",
@@ -6739,6 +6817,7 @@
 	},
 	"chaotic_good": {
 		"name": "Chaotic Good",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 135](source/ultimate_campaign)",
@@ -6772,6 +6851,7 @@
 	},
 	"lawful_neutral": {
 		"name": "Lawful Neutral",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 135](source/ultimate_campaign)",
@@ -6805,6 +6885,7 @@
 	},
 	"neutral": {
 		"name": "Neutral",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 135](source/ultimate_campaign)",
@@ -6836,6 +6917,7 @@
 	},
 	"chaotic_neutral": {
 		"name": "Chaotic Neutral",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 136](source/ultimate_campaign)",
@@ -6867,6 +6949,7 @@
 	},
 	"lawful_evil": {
 		"name": "Lawful Evil",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 136](source/ultimate_campaign)",
@@ -6902,6 +6985,7 @@
 	},
 	"neutral_evil": {
 		"name": "Neutral Evil",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 136](source/ultimate_campaign)",
@@ -6933,6 +7017,7 @@
 	},
 	"chaotic_evil": {
 		"name": "Chaotic Evil",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 136](source/ultimate_campaign)",
@@ -6966,6 +7051,7 @@
 	},
 	"changing_alignment_ucp": {
 		"name": "Changing Alignment (UCp)",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"display_name": "Changing Alignment",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -7018,6 +7104,7 @@
 	},
 	"forced_alignment_change": {
 		"name": "Forced Alignment Change",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 137](source/ultimate_campaign)",
@@ -7047,6 +7134,7 @@
 	},
 	"bargaining": {
 		"name": "Bargaining",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7086,6 +7174,7 @@
 	},
 	"valuation": {
 		"name": "Valuation",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7108,6 +7197,7 @@
 	},
 	"bargaining_rules": {
 		"name": "Bargaining Rules",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7142,6 +7232,7 @@
 	},
 	"step_1_seller_sets_the_asking_price": {
 		"name": "Step 1: Seller Sets the Asking Price",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7165,6 +7256,7 @@
 	},
 	"step_2_evaluate_item": {
 		"name": "Step 2: Evaluate Item",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7192,6 +7284,7 @@
 	},
 	"step_3_determine_undercut": {
 		"name": "Step 3: Determine Undercut",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7217,6 +7310,7 @@
 	},
 	"step_4:set_offers": {
 		"name": "Step 4:Set Offers",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
@@ -7248,6 +7342,7 @@
 	},
 	"step_5_bargain": {
 		"name": "Step 5: Bargain",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7277,6 +7372,7 @@
 	},
 	"examples_of_bargaining": {
 		"name": "Examples of Bargaining",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7302,6 +7398,7 @@
 	},
 	"using_magic_to_bargain": {
 		"name": "Using Magic to Bargain",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7324,6 +7421,7 @@
 	},
 	"collector_npcs": {
 		"name": "Collector NPCs",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7346,6 +7444,7 @@
 	},
 	"flooding_the_market": {
 		"name": "Flooding the Market",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7368,6 +7467,7 @@
 	},
 	"trade_goods": {
 		"name": "Trade Goods",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
@@ -7390,6 +7490,7 @@
 	},
 	"companions": {
 		"name": "Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
@@ -7429,6 +7530,7 @@
 	},
 	"controlling_companions": {
 		"name": "Controlling Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
@@ -7455,6 +7557,7 @@
 	},
 	"aspects_of_control": {
 		"name": "Aspects of Control",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
@@ -7488,6 +7591,7 @@
 	},
 	"issues_of_control": {
 		"name": "Issues of Control",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 141](source/ultimate_campaign)",
@@ -7517,6 +7621,7 @@
 	},
 	"advancing_companions": {
 		"name": "Advancing Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 142](source/ultimate_campaign)",

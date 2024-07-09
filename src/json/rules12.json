@@ -17,6 +17,7 @@
 			"armor_as_dr"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -32,6 +33,7 @@
 	},
 	"defense": {
 		"name": "Defense",
+		"subtitle": "Armor as DR",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 191](source/ultimate_combat)",
@@ -119,6 +121,7 @@
 	},
 	"critical_hits_and_defense": {
 		"name": "Critical Hits and Defense",
+		"subtitle": "Armor as DR",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 192](source/ultimate_combat)",
@@ -159,6 +162,7 @@
 			"called_shot_effects"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -198,6 +202,7 @@
 	},
 	"additional_rules": {
 		"name": "Additional Rules",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 193](source/ultimate_combat)",
@@ -272,6 +277,7 @@
 	},
 	"arm": {
 		"name": "Arm",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 194](source/ultimate_combat)",
@@ -304,6 +310,7 @@
 	},
 	"chest": {
 		"name": "Chest",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 194](source/ultimate_combat)",
@@ -336,6 +343,7 @@
 	},
 	"ear": {
 		"name": "Ear",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 194](source/ultimate_combat)",
@@ -368,6 +376,7 @@
 	},
 	"eye": {
 		"name": "Eye",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 195](source/ultimate_combat)",
@@ -400,6 +409,7 @@
 	},
 	"hand": {
 		"name": "Hand",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 195](source/ultimate_combat)",
@@ -432,6 +442,7 @@
 	},
 	"head": {
 		"name": "Head",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 195](source/ultimate_combat)",
@@ -464,6 +475,7 @@
 	},
 	"heart": {
 		"name": "Heart",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 196](source/ultimate_combat)",
@@ -500,6 +512,7 @@
 	},
 	"leg": {
 		"name": "Leg",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 197](source/ultimate_combat)",
@@ -532,6 +545,7 @@
 	},
 	"neck": {
 		"name": "Neck",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 197](source/ultimate_combat)",
@@ -564,6 +578,7 @@
 	},
 	"vitals": {
 		"name": "Vitals",
+		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 197](source/ultimate_combat)",
@@ -612,6 +627,7 @@
 			"antiheroes"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -716,6 +732,7 @@
 	},
 	"antiheroes": {
 		"name": "Antiheroes",
+		"subtitle": "Hero Points",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 324](source/advanced_player's_guide)",
@@ -757,13 +774,11 @@
 			"escaping_contracts",
 			"sample_contracts"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -777,6 +792,7 @@
 	},
 	"variant_contracts": {
 		"name": "Variant Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 202](source/book_of_the_damned)",
@@ -798,6 +814,7 @@
 	},
 	"negotiating_contracts": {
 		"name": "Negotiating Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
@@ -829,6 +846,7 @@
 	},
 	"creating_contracts": {
 		"name": "Creating Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
@@ -854,6 +872,7 @@
 	},
 	"researching_contracts": {
 		"name": "Researching Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
@@ -883,6 +902,7 @@
 	},
 	"escaping_contracts": {
 		"name": "Escaping Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 204](source/book_of_the_damned)",
@@ -912,6 +932,7 @@
 	},
 	"sample_contracts": {
 		"name": "Sample Contracts",
+		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"**Source** [Book of the Damned pg. 205](source/book_of_the_damned)",
@@ -1086,6 +1107,7 @@
 			"mass_combat"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -1339,6 +1361,7 @@
 	},
 	"leadership_roles": {
 		"name": "Leadership Roles",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 200](source/ultimate_campaign)",
@@ -1414,6 +1437,7 @@
 	},
 	"ruler": {
 		"name": "Ruler",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 201](source/ultimate_campaign)",
@@ -1455,6 +1479,7 @@
 	},
 	"consort": {
 		"name": "Consort",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 201](source/ultimate_campaign)",
@@ -1492,6 +1517,7 @@
 	},
 	"councilor": {
 		"name": "Councilor",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 201](source/ultimate_campaign)",
@@ -1527,6 +1553,7 @@
 	},
 	"general": {
 		"name": "General",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 202](source/ultimate_campaign)",
@@ -1562,6 +1589,7 @@
 	},
 	"grand_diplomat": {
 		"name": "Grand Diplomat",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 202](source/ultimate_campaign)",
@@ -1597,6 +1625,7 @@
 	},
 	"heir": {
 		"name": "Heir",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 202](source/ultimate_campaign)",
@@ -1634,6 +1663,7 @@
 	},
 	"high_priest": {
 		"name": "High Priest",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 202](source/ultimate_campaign)",
@@ -1669,6 +1699,7 @@
 	},
 	"magister": {
 		"name": "Magister",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 202](source/ultimate_campaign)",
@@ -1704,6 +1735,7 @@
 	},
 	"marshal": {
 		"name": "Marshal",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
@@ -1739,6 +1771,7 @@
 	},
 	"royal_enforcer": {
 		"name": "Royal Enforcer",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
@@ -1774,6 +1807,7 @@
 	},
 	"spymaster": {
 		"name": "Spymaster",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
@@ -1809,6 +1843,7 @@
 	},
 	"treasurer": {
 		"name": "Treasurer",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
@@ -1844,6 +1879,7 @@
 	},
 	"viceroy": {
 		"name": "Viceroy",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
@@ -1879,6 +1915,7 @@
 	},
 	"warden": {
 		"name": "Warden",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 204](source/ultimate_campaign)",
@@ -1977,6 +2014,7 @@
 	},
 	"build_points": {
 		"name": "Build Points",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 204](source/ultimate_campaign)",
@@ -2020,6 +2058,7 @@
 	},
 	"wealthy_sponsor": {
 		"name": "Wealthy Sponsor",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 205](source/ultimate_campaign)",
@@ -2055,6 +2094,7 @@
 	},
 	"starting_from_scratch": {
 		"name": "Starting from Scratch",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 205](source/ultimate_campaign)",
@@ -2282,6 +2322,7 @@
 	},
 	"edicts": {
 		"name": "Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 208](source/ultimate_campaign)",
@@ -2323,6 +2364,7 @@
 	},
 	"holiday_edicts": {
 		"name": "Holiday Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 208](source/ultimate_campaign)",
@@ -2358,6 +2400,7 @@
 	},
 	"improvement_edicts": {
 		"name": "Improvement Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 208](source/ultimate_campaign)",
@@ -2393,6 +2436,7 @@
 	},
 	"promotion_edicts": {
 		"name": "Promotion Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 209](source/ultimate_campaign)",
@@ -2424,6 +2468,7 @@
 	},
 	"taxation_edicts": {
 		"name": "Taxation Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 209](source/ultimate_campaign)",
@@ -2455,6 +2500,7 @@
 	},
 	"losing_hexes": {
 		"name": "Losing Hexes",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 209](source/ultimate_campaign)",
@@ -2497,6 +2543,7 @@
 	},
 	"capital_city": {
 		"name": "Capital City",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 207](source/ultimate_campaign)",
@@ -2513,6 +2560,7 @@
 	},
 	"terrain_improvements": {
 		"name": "Terrain Improvements",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2595,6 +2643,7 @@
 	},
 	"aqueduct": {
 		"name": "Aqueduct",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2631,6 +2680,7 @@
 	},
 	"bridge": {
 		"name": "Bridge",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2663,6 +2713,7 @@
 	},
 	"canal": {
 		"name": "Canal",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2699,6 +2750,7 @@
 	},
 	"farm": {
 		"name": "Farm",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2735,6 +2787,7 @@
 	},
 	"fishery": {
 		"name": "Fishery",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2771,6 +2824,7 @@
 	},
 	"fort": {
 		"name": "Fort",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2807,6 +2861,7 @@
 	},
 	"highway": {
 		"name": "Highway",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 210](source/ultimate_campaign)",
@@ -2843,6 +2898,7 @@
 	},
 	"mine": {
 		"name": "Mine",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -2879,6 +2935,7 @@
 	},
 	"quarry": {
 		"name": "Quarry",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -2915,6 +2972,7 @@
 	},
 	"road": {
 		"name": "Road",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -2951,6 +3009,7 @@
 	},
 	"sawmill": {
 		"name": "Sawmill",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -2987,6 +3046,7 @@
 	},
 	"watchtower": {
 		"name": "Watchtower",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -3023,6 +3083,7 @@
 	},
 	"special_terrain": {
 		"name": "Special Terrain",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -3069,6 +3130,7 @@
 	},
 	"settlements_and_districts": {
 		"name": "Settlements and Districts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 211](source/ultimate_campaign)",
@@ -3131,6 +3193,7 @@
 	},
 	"founding_a_settlement": {
 		"name": "Founding a Settlement",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 212](source/ultimate_campaign)",
@@ -3181,6 +3244,7 @@
 	},
 	"magic_items_in_settlements": {
 		"name": "Magic Items in Settlements",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 213](source/ultimate_campaign)",
@@ -3211,6 +3275,7 @@
 	},
 	"claiming_water_and_islands": {
 		"name": "Claiming Water and Islands",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 213](source/ultimate_campaign)",
@@ -3284,6 +3349,7 @@
 	},
 	"building_descriptions": {
 		"name": "Building Descriptions",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 214](source/ultimate_campaign)",
@@ -3896,6 +3962,7 @@
 	},
 	"events": {
 		"name": "Events",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 220](source/ultimate_campaign)",
@@ -4098,6 +4165,7 @@
 	},
 	"gaining_experience_for_leadership": {
 		"name": "Gaining Experience for Leadership",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 215](source/ultimate_campaign)",
@@ -4182,6 +4250,7 @@
 	},
 	"abandoned_buildings": {
 		"name": "Abandoned Buildings",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 228](source/ultimate_campaign)",
@@ -4209,6 +4278,7 @@
 	},
 	"deities_and_holy_sites": {
 		"name": "Deities and Holy Sites",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 228](source/ultimate_campaign)",
@@ -4238,6 +4308,7 @@
 	},
 	"expanding_settlement_modifiers": {
 		"name": "Expanding Settlement Modifiers",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 230](source/ultimate_campaign)",
@@ -4263,6 +4334,7 @@
 	},
 	"fame_and_infamy": {
 		"name": "Fame and Infamy",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 230](source/ultimate_campaign)",
@@ -4300,6 +4372,7 @@
 	},
 	"forms_of_government": {
 		"name": "Forms of Government",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 231](source/ultimate_campaign)",
@@ -4339,6 +4412,7 @@
 	},
 	"independence_and_unification": {
 		"name": "Independence and Unification",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 231](source/ultimate_campaign)",
@@ -4368,6 +4442,7 @@
 	},
 	"declaring_independence": {
 		"name": "Declaring Independence",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 231](source/ultimate_campaign)",
@@ -4403,6 +4478,7 @@
 	},
 	"forming_a_union": {
 		"name": "Forming a Union",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 232](source/ultimate_campaign)",
@@ -4430,6 +4506,7 @@
 	},
 	"leadership_role_skills": {
 		"name": "Leadership Role Skills",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 232](source/ultimate_campaign)",
@@ -4487,6 +4564,7 @@
 	},
 	"settlement_sizes": {
 		"name": "Settlement Sizes",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 232](source/ultimate_campaign)",
@@ -4529,6 +4607,7 @@
 	},
 	"special_edicts": {
 		"name": "Special Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 229](source/ultimate_campaign)",
@@ -4562,6 +4641,7 @@
 	},
 	"diplomatic_edicts": {
 		"name": "Diplomatic Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 228](source/ultimate_campaign)",
@@ -4620,6 +4700,7 @@
 	},
 	"type_of_diplomatic_relationships": {
 		"name": "Type of Diplomatic Relationships",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 229](source/ultimate_campaign)",
@@ -4681,6 +4762,7 @@
 	},
 	"relationships_with_multiple_kingdoms": {
 		"name": "Relationships with Multiple Kingdoms",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 230](source/ultimate_campaign)",
@@ -4704,6 +4786,7 @@
 	},
 	"exploration_edicts": {
 		"name": "Exploration Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 230](source/ultimate_campaign)",
@@ -4733,6 +4816,7 @@
 	},
 	"trade_edicts": {
 		"name": "Trade Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 232](source/ultimate_campaign)",
@@ -4780,6 +4864,7 @@
 	},
 	"vassalage_edicts": {
 		"name": "Vassalage Edicts",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 233](source/ultimate_campaign)",
@@ -4961,6 +5046,7 @@
 	},
 	"beyond_the_kingdom": {
 		"name": "Beyond the Kingdom",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 236](source/ultimate_campaign)",
@@ -5033,6 +5119,7 @@
 	},
 	"recruiting_armies": {
 		"name": "Recruiting Armies",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 241](source/ultimate_campaign)",
@@ -5071,6 +5158,7 @@
 	},
 	"army_statistics": {
 		"name": "Army Statistics",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 234](source/ultimate_campaign)",
@@ -5153,6 +5241,7 @@
 	},
 	"battle_phases": {
 		"name": "Battle Phases",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 236](source/ultimate_campaign)",
@@ -5195,6 +5284,7 @@
 	},
 	"attacking_and_taking_damage": {
 		"name": "Attacking and Taking Damage",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 236](source/ultimate_campaign)",
@@ -5238,6 +5328,7 @@
 	},
 	"more_than_two_armies": {
 		"name": "More than Two Armies",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 237](source/ultimate_campaign)",
@@ -5254,6 +5345,7 @@
 	},
 	"battlefield_conditions": {
 		"name": "Battlefield Conditions",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 237](source/ultimate_campaign)",
@@ -5314,6 +5406,7 @@
 	},
 	"army_tactics": {
 		"name": "Army Tactics",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 237](source/ultimate_campaign)",
@@ -5384,6 +5477,7 @@
 	},
 	"strategy_track": {
 		"name": "Strategy Track",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 239](source/ultimate_campaign)",
@@ -5430,6 +5524,7 @@
 	},
 	"rout": {
 		"name": "Rout",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 239](source/ultimate_campaign)",
@@ -5466,6 +5561,7 @@
 	},
 	"victory,_rout,_or_defeat": {
 		"name": "Victory, Rout, or Defeat",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 239](source/ultimate_campaign)",
@@ -5520,6 +5616,7 @@
 	},
 	"recovery": {
 		"name": "Recovery",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 239](source/ultimate_campaign)",
@@ -5558,6 +5655,7 @@
 	},
 	"commanders": {
 		"name": "Commanders",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 239](source/ultimate_campaign)",
@@ -5615,6 +5713,7 @@
 	},
 	"boons": {
 		"name": "Boons",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 240](source/ultimate_campaign)",
@@ -5657,6 +5756,7 @@
 	},
 	"kingdom_leader_commanders": {
 		"name": "Kingdom Leader Commanders",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 240](source/ultimate_campaign)",
@@ -5707,6 +5807,7 @@
 	},
 	"losing_commanders": {
 		"name": "Losing Commanders",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 241](source/ultimate_campaign)",
@@ -5729,6 +5830,7 @@
 	},
 	"army_resources": {
 		"name": "Army Resources",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 241](source/ultimate_campaign)",
@@ -5798,6 +5900,7 @@
 	},
 	"transfering_resources": {
 		"name": "Transfering Resources",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 242](source/ultimate_campaign)",
@@ -5818,6 +5921,7 @@
 	},
 	"special_abilities_ucp": {
 		"name": "Special Abilities (UCp)",
+		"subtitle": "Mass Combat",
 		"display_name": "Special Abilities",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -6061,6 +6165,7 @@
 	},
 	"player_characters_in_battles": {
 		"name": "Player Characters in Battles",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 245](source/ultimate_campaign)",
@@ -6141,6 +6246,7 @@
 	},
 	"combining_armies": {
 		"name": "Combining Armies",
+		"subtitle": "Mass Combat, Optional",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 246](source/ultimate_campaign)",
@@ -6168,6 +6274,7 @@
 	},
 	"reforming_an_army": {
 		"name": "Reforming an Army",
+		"subtitle": "Mass Combat, Optional",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 246](source/ultimate_campaign)",
@@ -6195,6 +6302,7 @@
 	},
 	"reserve_army": {
 		"name": "Reserve Army",
+		"subtitle": "Mass Combat, Optional",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 246](source/ultimate_campaign)",
@@ -6220,6 +6328,7 @@
 	},
 	"splitting_an_army": {
 		"name": "Splitting an Army",
+		"subtitle": "Mass Combat, Optional",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 246](source/ultimate_campaign)",
@@ -6247,6 +6356,7 @@
 	},
 	"sample_armies": {
 		"name": "Sample Armies",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 247](source/ultimate_campaign)",
@@ -6292,6 +6402,7 @@
 	},
 	"army_examples": {
 		"name": "Army Examples",
+		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 247](source/ultimate_campaign)",
@@ -6893,6 +7004,7 @@
 			"mythic_monsters"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -6993,6 +7105,7 @@
 	},
 	"glossary": {
 		"name": "Glossary",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 7](source/mythic_adventures)",
@@ -7131,6 +7244,7 @@
 	},
 	"selecting_a_path": {
 		"name": "Selecting a Path",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 11](source/mythic_adventures)",
@@ -7215,12 +7329,12 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	},
 	"modify_an_existing_monster": {
 		"name": "Modify an Existing Monster",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 225](source/mythic_adventures)",
@@ -7251,12 +7365,12 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	},
 	"create_a_new_monster": {
 		"name": "Create a New Monster",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 225](source/mythic_adventures)",
@@ -7291,7 +7405,6 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	},
@@ -7356,59 +7469,12 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
-			"evaluating_monster_statistics"
-		]
-	},
-	"new_universal_monster_rules": {
-		"name": "New Universal Monster Rules",
-		"sources": [ "Mythic Adventures" ],
-		"description": [
-			"**Source** [Mythic Adventures pg. 226](source/mythic_adventures)",
-			"",
-			"Like the [universal monster rules](rule/umr), the following rules are referenced (but not repeated) in mythic monster stat blocks. Each rule includes a format guide for how it appears in a monster's listing and its location in the stat block.",
-			"",
-			"- [Block Attacks (Ex)](umr/block_attacks)",
-			"- [Dragon Blood (Su)](umr/dragon_blood)",
-			"- [Dragon Cantrips (Su)](umr/dragon_cantrips)",
-			"- [Dragon Fury (Su)](umr/dragon_fury)",
-			"- [Dual Initiative (Ex)](umr/dual_initiative)",
-			"- [Feral Savagery (Su)](umr/feral_savagery)",
-			"- [Fortification (Ex)](umr/fortification)",
-			"- [Greensight (Su)](umr/greensight)",
-			"- [Lingering Breath (Su)](umr/lingering_breath)",
-			"- [Mistsight (Ex)](umr/mistsight)",
-			"- [Mythic Magic (Su)](umr/mythic_magic)",
-			"- [Mythic Power (Su)](umr/mythic_power)",
-			"- [Poisonous Blood (Ex)](umr/poisonous_blood)",
-			"- [Powerful Blows (Ex)](umr/powerful_blows)",
-			"- [Sand Glide (Ex)](umr/sand_glide)",
-			"- [Second Save (Ex)](umr/second_save)",
-			"- [Simple Arcane Spellcasting](umr/simple_arcane_spellcasting)",
-			"- [Simple Divine Spellcasting](umr/simple_divine_spellcasting)",
-			"- [Smother (Ex)](umr/smother)",
-			"- [Steal (Ex)](umr/steal)",
-			"- [Surge (Su)](umr/surge)",
-			"- [X-Ray Vision (Su)](umr/x-ray_vision)"
-		],
-		"parent_topics": [
-			"optional_rules_systems",
-			"mythic_rules",
-			"mythic_monsters",
-			"mythic_monster_advancement"
-		],
-		"siblings": [
-			"mythic_simple_templates",
-			"building_a_mythic_creature",
-			"modify_an_existing_monster",
-			"create_a_new_monster",
-			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	},
 	"evaluating_monster_statistics": {
 		"name": "Evaluating Monster Statistics",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)",
@@ -7487,7 +7553,6 @@
 			"modify_an_existing_monster",
 			"create_a_new_monster",
 			"mythic_subtype",
-			"new_universal_monster_rules",
 			"evaluating_monster_statistics"
 		]
 	}

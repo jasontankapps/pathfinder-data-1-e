@@ -90,9 +90,7 @@
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -125,6 +123,7 @@
 	"optional_rules_systems": {
 		"name": "Optional Rules Systems",
 		"subtopics": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",

@@ -1,7 +1,6 @@
 {
 	"pathfinder_unchained": {
 		"name": "Pathfinder Unchained",
-		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 4](source/pathfinder_unchained)",
@@ -41,6 +40,7 @@
 			"wound_thresholds"
 		],
 		"siblings": [
+			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",

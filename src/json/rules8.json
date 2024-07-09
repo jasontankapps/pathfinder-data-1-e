@@ -1,6 +1,7 @@
 {
 	"intelligent_animals": {
 		"name": "Intelligent Animals",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 143](source/ultimate_campaign)",
@@ -29,6 +30,7 @@
 	},
 	"remembering_companions": {
 		"name": "Remembering Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 143](source/ultimate_campaign)",
@@ -55,6 +57,7 @@
 	},
 	"tips_for_remembering_companions": {
 		"name": "Tips for Remembering Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
@@ -84,6 +87,7 @@
 	},
 	"remembering_followers": {
 		"name": "Remembering Followers",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
@@ -105,6 +109,7 @@
 	},
 	"companion_plot_hooks": {
 		"name": "Companion Plot Hooks",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
@@ -134,6 +139,7 @@
 	},
 	"animal_companion": {
 		"name": "Animal Companion",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
@@ -158,6 +164,7 @@
 	},
 	"cohort": {
 		"name": "Cohort",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 145](source/ultimate_campaign)",
@@ -180,6 +187,7 @@
 	},
 	"eidolon": {
 		"name": "Eidolon",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 145](source/ultimate_campaign)",
@@ -204,6 +212,7 @@
 	},
 	"familiar": {
 		"name": "Familiar",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 146](source/ultimate_campaign)",
@@ -228,6 +237,7 @@
 	},
 	"follower": {
 		"name": "Follower",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 146](source/ultimate_campaign)",
@@ -258,6 +268,7 @@
 	},
 	"reviving_and_replacing_companions": {
 		"name": "Reviving and Replacing Companions",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
@@ -284,6 +295,7 @@
 	},
 	"reviving_a_dead_companion": {
 		"name": "Reviving a Dead Companion",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
@@ -307,6 +319,7 @@
 	},
 	"finding_a_replacement": {
 		"name": "Finding a Replacement",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
@@ -328,6 +341,7 @@
 	},
 	"contacts": {
 		"name": "Contacts",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
@@ -372,6 +386,7 @@
 	},
 	"trust": {
 		"name": "Trust",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
@@ -407,6 +422,7 @@
 	},
 	"risk": {
 		"name": "Risk",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
@@ -450,6 +466,7 @@
 	},
 	"negotiation_checks": {
 		"name": "Negotiation Checks",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 150](source/ultimate_campaign)",
@@ -491,6 +508,7 @@
 	},
 	"gaining,_cultivating,_and_losing_contacts": {
 		"name": "Gaining, Cultivating, and Losing Contacts",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 151](source/ultimate_campaign)",
@@ -530,6 +548,7 @@
 	},
 	"types_of_contacts": {
 		"name": "Types of Contacts",
+		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 151](source/ultimate_campaign)",
@@ -601,6 +620,7 @@
 	},
 	"exploration_ucp": {
 		"name": "Exploration",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
@@ -646,6 +666,7 @@
 	},
 	"tracking_travel": {
 		"name": "Tracking Travel",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
@@ -672,6 +693,7 @@
 	},
 	"sandbox_exploration": {
 		"name": "Sandbox Exploration",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
@@ -702,6 +724,7 @@
 	},
 	"movement_ucp": {
 		"name": "Movement",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 170](source/prpg_core_rulebook)",
@@ -728,6 +751,7 @@
 	},
 	"random_encounters": {
 		"name": "Random Encounters",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 155](source/ultimate_campaign)",
@@ -762,6 +786,7 @@
 	},
 	"planned_encounters": {
 		"name": "Planned Encounters",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
@@ -794,6 +819,7 @@
 	},
 	"hex_terrain_types": {
 		"name": "Hex Terrain Types",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
@@ -838,6 +864,7 @@
 	},
 	"keep_things_interesting": {
 		"name": "Keep Things Interesting",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
@@ -871,6 +898,7 @@
 	},
 	"desert": {
 		"name": "Desert",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
@@ -916,6 +944,7 @@
 	},
 	"forest": {
 		"name": "Forest",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
@@ -955,6 +984,7 @@
 	},
 	"hill": {
 		"name": "Hill",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
@@ -992,6 +1022,7 @@
 	},
 	"marsh": {
 		"name": "Marsh",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
@@ -1031,6 +1062,7 @@
 	},
 	"mountain": {
 		"name": "Mountain",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
@@ -1070,6 +1102,7 @@
 	},
 	"plain": {
 		"name": "Plain",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
@@ -1109,6 +1142,7 @@
 	},
 	"settlement": {
 		"name": "Settlement",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
@@ -1148,6 +1182,7 @@
 	},
 	"water_ucp": {
 		"name": "Water (UCp)",
+		"subtitle": "Exploration, Gamemastering",
 		"display_name": "Water",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -1188,6 +1223,7 @@
 	},
 	"aquatic_adventures": {
 		"name": "Aquatic Adventures",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -1218,6 +1254,7 @@
 	},
 	"adapting_to_aquatic_adventures": {
 		"name": "Adapting to Aquatic Adventures",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -1237,6 +1274,7 @@
 	},
 	"nautical_adventures": {
 		"name": "Nautical Adventures",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -1266,6 +1304,7 @@
 	},
 	"fast-play_ship_combat": {
 		"name": "Fast-Play Ship Combat",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -1321,6 +1360,7 @@
 	},
 	"sinking": {
 		"name": "Sinking",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
@@ -1341,6 +1381,7 @@
 	},
 	"ship_statistics": {
 		"name": "Ship Statistics",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
@@ -1379,6 +1420,7 @@
 	},
 	"random_map_generation": {
 		"name": "Random Map Generation",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
@@ -1425,6 +1467,7 @@
 	},
 	"getting_lost_ucp": {
 		"name": "Getting Lost (UCp)",
+		"subtitle": "Exploration, Gamemastering",
 		"display_name": "Getting Lost",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -1454,6 +1497,7 @@
 	},
 	"exploration_hazards": {
 		"name": "Exploration Hazards",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
@@ -1488,6 +1532,7 @@
 	},
 	"bad_weather_any": {
 		"name": "Bad Weather (Any)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1511,6 +1556,7 @@
 	},
 	"blight_any": {
 		"name": "Blight (Any)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1534,6 +1580,7 @@
 	},
 	"deadly_gas_desert,_marsh": {
 		"name": "Deadly Gas (Desert, Marsh)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1561,6 +1608,7 @@
 	},
 	"dust_devil_desert,_hill,_plain": {
 		"name": "Dust Devil (Desert, Hill, Plain)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1584,6 +1632,7 @@
 	},
 	"grass_fire_hill,_plain": {
 		"name": "Grass Fire (Hill, Plain)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1607,6 +1656,7 @@
 	},
 	"volcanic_tremor_hill,_mountain": {
 		"name": "Volcanic Tremor (Hill, Mountain)",
+		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
@@ -1630,6 +1680,7 @@
 	},
 	"exploration_rewards": {
 		"name": "Exploration Rewards",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
@@ -1656,6 +1707,7 @@
 	},
 	"honor": {
 		"name": "Honor",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 160](source/ultimate_campaign)",
@@ -1701,6 +1753,7 @@
 	},
 	"honor_points": {
 		"name": "Honor Points",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 160](source/ultimate_campaign)",
@@ -1725,6 +1778,7 @@
 	},
 	"gaining_and_losing_honor": {
 		"name": "Gaining and Losing Honor",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
@@ -1755,6 +1809,7 @@
 	},
 	"general_honor_events": {
 		"name": "General Honor Events",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
@@ -1801,6 +1856,7 @@
 	},
 	"chivalric_code": {
 		"name": "Chivalric Code",
+		"subtitle": "Honor, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
@@ -1847,6 +1903,7 @@
 	},
 	"criminal_code": {
 		"name": "Criminal Code",
+		"subtitle": "Honor, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
@@ -1895,6 +1952,7 @@
 	},
 	"political_code": {
 		"name": "Political Code",
+		"subtitle": "Honor, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
@@ -1948,6 +2006,7 @@
 	},
 	"samurai_code": {
 		"name": "Samurai Code",
+		"subtitle": "Honor, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 163](source/ultimate_campaign)",
@@ -1995,6 +2054,7 @@
 	},
 	"tribal_code": {
 		"name": "Tribal Code",
+		"subtitle": "Honor, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 163](source/ultimate_campaign)",
@@ -2042,6 +2102,7 @@
 	},
 	"spending_honor": {
 		"name": "Spending Honor",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
@@ -2068,6 +2129,7 @@
 	},
 	"consequences_of_losing_honor": {
 		"name": "Consequences of Losing Honor",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
@@ -2090,6 +2152,7 @@
 	},
 	"investment": {
 		"name": "Investment",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 164](source/ultimate_campaign)",
@@ -2129,6 +2192,7 @@
 	},
 	"investment_mechanics": {
 		"name": "Investment Mechanics",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 164](source/ultimate_campaign)",
@@ -2185,6 +2249,7 @@
 	},
 	"example_investments_and_problems": {
 		"name": "Example Investments and Problems",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 165](source/ultimate_campaign)",
@@ -2229,6 +2294,7 @@
 	},
 	"lineage": {
 		"name": "Lineage",
+		"subtitle": "Family, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
@@ -2271,6 +2337,7 @@
 	},
 	"developing_your_family": {
 		"name": "Developing Your Family",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
@@ -2304,6 +2371,7 @@
 	},
 	"complicated_and_dysfunctional_families": {
 		"name": "Complicated and Dysfunctional Families",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
@@ -2333,6 +2401,7 @@
 	},
 	"family_values": {
 		"name": "Family Values",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 167](source/ultimate_campaign)",
@@ -2360,6 +2429,7 @@
 	},
 	"including_families_in_the_game": {
 		"name": "Including Families in the Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 167](source/ultimate_campaign)",
@@ -2387,6 +2457,7 @@
 	},
 	"support_and_obligation": {
 		"name": "Support and Obligation",
+		"subtitle": "Family, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
@@ -2418,6 +2489,7 @@
 	},
 	"inheritance": {
 		"name": "Inheritance",
+		"subtitle": "Family, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
@@ -2447,6 +2519,7 @@
 	},
 	"family_members_as_foes": {
 		"name": "Family Members as Foes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
@@ -2478,6 +2551,7 @@
 	},
 	"death_in_the_family": {
 		"name": "Death in the Family",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 169](source/ultimate_campaign)",
@@ -2503,6 +2577,7 @@
 	},
 	"famous_lineages": {
 		"name": "Famous Lineages",
+		"subtitle": "Family, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 169](source/ultimate_campaign)",
@@ -2532,6 +2607,7 @@
 	},
 	"magic_item_creation_ucp": {
 		"name": "Magic Item Creation (UCp)",
+		"subtitle": "Gamemastering",
 		"display_name": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2576,6 +2652,7 @@
 	},
 	"pricing_new_items": {
 		"name": "Pricing New Items",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
@@ -2606,6 +2683,7 @@
 	},
 	"cooperative_crafting": {
 		"name": "Cooperative Crafting",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
@@ -2632,6 +2710,7 @@
 	},
 	"upgrading_items": {
 		"name": "Upgrading Items",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
@@ -2668,6 +2747,7 @@
 	},
 	"recharging_charged_items": {
 		"name": "Recharging Charged Items",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 171](source/ultimate_campaign)",
@@ -2694,6 +2774,7 @@
 	},
 	"altering_existing_items": {
 		"name": "Altering Existing Items",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 172](source/ultimate_campaign)",
@@ -2730,6 +2811,7 @@
 	},
 	"adjusting_character_wealth_by_level": {
 		"name": "Adjusting Character Wealth by Level",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
@@ -2760,6 +2842,7 @@
 	},
 	"creating_items_for_profit": {
 		"name": "Creating Items for Profit",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
@@ -2794,6 +2877,7 @@
 	},
 	"talismanic_components": {
 		"name": "Talismanic Components",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
@@ -2826,6 +2910,7 @@
 	},
 	"enriching_the_campaign": {
 		"name": "Enriching the Campaign",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -2849,6 +2934,7 @@
 	},
 	"using_components": {
 		"name": "Using Components",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -2876,6 +2962,7 @@
 	},
 	"requiring_components": {
 		"name": "Requiring Components",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -2899,6 +2986,7 @@
 	},
 	"components_as_commodities": {
 		"name": "Components as Commodities",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -2922,6 +3010,7 @@
 	},
 	"components_as_treasure": {
 		"name": "Components as Treasure",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -2949,6 +3038,7 @@
 	},
 	"example_components": {
 		"name": "Example Components",
+		"subtitle": "Magic Item Creation, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
@@ -3020,6 +3110,7 @@
 	},
 	"relationships": {
 		"name": "Relationships",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 176](source/ultimate_campaign)",
@@ -3063,6 +3154,7 @@
 	},
 	"relationship_levels": {
 		"name": "Relationship Levels",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 176](source/ultimate_campaign)",
@@ -3102,6 +3194,7 @@
 	},
 	"growing_relationships": {
 		"name": "Growing Relationships",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
@@ -3134,6 +3227,7 @@
 	},
 	"reversing_relationships": {
 		"name": "Reversing Relationships",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
@@ -3156,6 +3250,7 @@
 	},
 	"example_relationships": {
 		"name": "Example Relationships",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
@@ -3182,6 +3277,7 @@
 	},
 	"parent": {
 		"name": "Parent",
+		"subtitle": "Relationships, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
@@ -3213,6 +3309,7 @@
 	},
 	"sibiling": {
 		"name": "Sibiling",
+		"subtitle": "Relationships, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 178](source/ultimate_campaign)",
@@ -3246,6 +3343,7 @@
 	},
 	"childhood_rival": {
 		"name": "Childhood Rival",
+		"subtitle": "Relationships, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 178](source/ultimate_campaign)",
@@ -3281,6 +3379,7 @@
 	},
 	"spouse": {
 		"name": "Spouse",
+		"subtitle": "Relationships, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 179](source/ultimate_campaign)",
@@ -3312,6 +3411,7 @@
 	},
 	"reputation_and_fame": {
 		"name": "Reputation and Fame",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 180](source/ultimate_campaign)",
@@ -3358,6 +3458,7 @@
 	},
 	"fame": {
 		"name": "Fame",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 181](source/ultimate_campaign)",
@@ -3424,6 +3525,8 @@
 	},
 	"sphere_of_influence": {
 		"name": "Sphere of Influence",
+		"subtitle": "Gamemastering",
+		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 181](source/ultimate_campaign)",
@@ -3466,6 +3569,8 @@
 	},
 	"prestige_points": {
 		"name": "Prestige Points",
+		"subtitle": "Gamemastering",
+		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
@@ -3489,6 +3594,7 @@
 	},
 	"awards": {
 		"name": "Awards",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
@@ -3524,6 +3630,7 @@
 	},
 	"fame_1": {
 		"name": "Fame 1",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
@@ -3553,6 +3660,7 @@
 	},
 	"fame_10": {
 		"name": "Fame 10",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
@@ -3584,6 +3692,7 @@
 	},
 	"fame_20": {
 		"name": "Fame 20",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 183](source/ultimate_campaign)",
@@ -3627,6 +3736,7 @@
 	},
 	"fame_30": {
 		"name": "Fame 30",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 183](source/ultimate_campaign)",
@@ -3662,6 +3772,7 @@
 	},
 	"fame_40": {
 		"name": "Fame 40",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
@@ -3691,6 +3802,7 @@
 	},
 	"fame_55+": {
 		"name": "Fame 55+",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
@@ -3718,6 +3830,8 @@
 	},
 	"disrepute_and_infamy": {
 		"name": "Disrepute and Infamy",
+		"subtitle": "Gamemastering",
+		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
@@ -3757,6 +3871,7 @@
 	},
 	"shared_fame": {
 		"name": "Shared Fame",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 185](source/ultimate_campaign)",
@@ -3780,6 +3895,8 @@
 	},
 	"alter_egos,_aliases,_and_secret_identities": {
 		"name": "Alter Egos, Aliases, and Secret Identities",
+		"subtitle": "Gamemastering",
+		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 185](source/ultimate_campaign)",
@@ -3807,6 +3924,7 @@
 	},
 	"retirement": {
 		"name": "Retirement",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
@@ -3850,6 +3968,7 @@
 	},
 	"the_simple_life": {
 		"name": "The Simple Life",
+		"subtitle": "Retirement, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
@@ -3872,6 +3991,7 @@
 	},
 	"relationship_to_the_pcs": {
 		"name": "Relationship to the PCs",
+		"subtitle": "Retirement, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
@@ -3894,6 +4014,7 @@
 	},
 	"taking_a_different_path": {
 		"name": "Taking a Different Path",
+		"subtitle": "Retirement, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
@@ -3920,6 +4041,7 @@
 	},
 	"betrayal": {
 		"name": "Betrayal",
+		"subtitle": "Retirement, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 187](source/ultimate_campaign)",
@@ -3944,6 +4066,7 @@
 	},
 	"retraining": {
 		"name": "Retraining",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 188](source/ultimate_campaign)",
@@ -4001,6 +4124,7 @@
 	},
 	"ability_score_increase": {
 		"name": "Ability Score Increase",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 188](source/ultimate_campaign)",
@@ -4027,6 +4151,7 @@
 	},
 	"archetype": {
 		"name": "Archetype",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 189](source/ultimate_campaign)",
@@ -4063,6 +4188,7 @@
 	},
 	"class_feature": {
 		"name": "Class Feature",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 189](source/ultimate_campaign)",
@@ -4149,6 +4275,7 @@
 	},
 	"class_level": {
 		"name": "Class Level",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 190](source/ultimate_campaign)",
@@ -4213,6 +4340,7 @@
 	},
 	"feat": {
 		"name": "Feat",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4241,6 +4369,7 @@
 	},
 	"hit_points_ucp": {
 		"name": "Hit Points (UCp)",
+		"subtitle": "Retraining, Gamemastering",
 		"display_name": "Hit Points",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4272,6 +4401,7 @@
 	},
 	"new_language": {
 		"name": "New Language",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4300,6 +4430,7 @@
 	},
 	"racial_trait": {
 		"name": "Racial Trait",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4326,6 +4457,7 @@
 	},
 	"skill_ranks": {
 		"name": "Skill Ranks",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4354,6 +4486,7 @@
 	},
 	"spells_known": {
 		"name": "Spells Known",
+		"subtitle": "Retraining, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4382,6 +4515,7 @@
 	},
 	"taxation": {
 		"name": "Taxation",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
@@ -4426,6 +4560,7 @@
 	},
 	"types_of_taxes": {
 		"name": "Types of Taxes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
@@ -4451,6 +4586,7 @@
 	},
 	"types_of_services": {
 		"name": "Types of Services",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
@@ -4486,6 +4622,7 @@
 	},
 	"compliance": {
 		"name": "Compliance",
+		"subtitle": "Taxes, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 193](source/ultimate_campaign)",
@@ -4505,6 +4642,7 @@
 	},
 	"young_characters": {
 		"name": "Young Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
@@ -4541,6 +4679,7 @@
 	},
 	"creating_young_characters": {
 		"name": "Creating Young Characters",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
@@ -4583,6 +4722,7 @@
 	},
 	"leaving_youth_behind": {
 		"name": "Leaving Youth Behind",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
@@ -4606,6 +4746,7 @@
 	},
 	"considerations_of_youth": {
 		"name": "Considerations of Youth",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 195](source/ultimate_campaign)",
@@ -4633,6 +4774,7 @@
 	},
 	"affiliations": {
 		"name": "Affiliations",
+		"subtitle": "Gamemastering",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"**Source** [Adventurer's Guide pg. 5](source/adventurer's_guide)",
@@ -4676,6 +4818,7 @@
 	},
 	"affiliations_for_adventuring_parties": {
 		"name": "Affiliations for Adventuring Parties",
+		"subtitle": "Gamemastering",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
@@ -4698,6 +4841,7 @@
 	},
 	"afiliations_for_npcs": {
 		"name": "Afiliations for NPCs",
+		"subtitle": "Gamemastering",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
@@ -4718,6 +4862,7 @@
 	},
 	"rivals": {
 		"name": "Rivals",
+		"subtitle": "Gamemastering",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
@@ -4738,6 +4883,7 @@
 	},
 	"abandoning_affiliations": {
 		"name": "Abandoning Affiliations",
+		"subtitle": "Gamemastering",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
@@ -4790,13 +4936,11 @@
 			"occult_rituals",
 			"running_an_occult_game"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -4816,7 +4960,7 @@
 			"",
 			"Characters capable of casting psychic spells or who have the Psychic Sensitivity feat gain access to skill unlocks-a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.",
 			"",
-			"This section describes each new skill unlock and the typical DCs and modifiers for associated checks. Some new types of gear in this book grant bonuses on specific occult skill unlocks.",
+			"Skill descriptions contain sections on their occult unlocks, where applicable. Some new types of gear in this book grant bonuses on specific occult skill unlocks.",
 			"",
 			"- [Automatic Writing](skill/linguistics) (Linguistics)",
 			"- [Dowsing](skill/survival) (Survival)",
@@ -4843,6 +4987,7 @@
 	},
 	"auras": {
 		"name": "Auras",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 198](source/occult_adventures)",
@@ -4877,6 +5022,7 @@
 	},
 	"alignment_aura": {
 		"name": "Alignment Aura",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 198](source/occult_adventures)",
@@ -4899,6 +5045,7 @@
 	},
 	"emotion_aura": {
 		"name": "Emotion Aura",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 198](source/occult_adventures)",
@@ -4949,6 +5096,7 @@
 	},
 	"health_aura": {
 		"name": "Health Aura",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 199](source/occult_adventures)",
@@ -4971,6 +5119,7 @@
 	},
 	"magic_aura": {
 		"name": "Magic Aura",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 199](source/occult_adventures)",
@@ -4993,6 +5142,7 @@
 	},
 	"chakras": {
 		"name": "Chakras",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 200](source/occult_adventures)",
@@ -5020,6 +5170,7 @@
 	},
 	"activating_chakras": {
 		"name": "Activating Chakras",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 200](source/occult_adventures)",
@@ -5065,6 +5216,7 @@
 	},
 	"psychic_duels": {
 		"name": "Psychic Duels",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
@@ -5093,6 +5245,7 @@
 	},
 	"instigating_a_psychic_duel": {
 		"name": "Instigating a Psychic Duel",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
@@ -5117,6 +5270,7 @@
 	},
 	"running_psychic_duels": {
 		"name": "Running Psychic Duels",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
@@ -5147,6 +5301,7 @@
 	},
 	"psychic_manifestations": {
 		"name": "Psychic Manifestations",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
@@ -5174,6 +5329,7 @@
 	},
 	"generating_manifestation_points": {
 		"name": "Generating Manifestation Points",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
@@ -5208,6 +5364,7 @@
 	},
 	"creating_psychic_manifestations": {
 		"name": "Creating Psychic Manifestations",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 202](source/occult_adventures)",
@@ -5230,6 +5387,7 @@
 	},
 	"offensive_manifestation_full-round_action": {
 		"name": "Offensive Manifestation (Full-Round Action)",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 202](source/occult_adventures)",
@@ -5290,6 +5448,7 @@
 	},
 	"defensive_manifestation_action_type_varies": {
 		"name": "Defensive Manifestation (Action Type Varies)",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 203](source/occult_adventures)",
@@ -5324,6 +5483,7 @@
 	},
 	"thought-form_creature_1-round_action": {
 		"name": "Thought-Form Creature (1-Round Action)",
+		"subtitle": "Psychic Duels, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 204](source/occult_adventures)",
@@ -5366,6 +5526,7 @@
 	},
 	"concluding_a_psychic_duel": {
 		"name": "Concluding a Psychic Duel",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 204](source/occult_adventures)",
@@ -5386,6 +5547,7 @@
 	},
 	"possession": {
 		"name": "Possession",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 205](source/occult_adventures)",
@@ -5414,6 +5576,7 @@
 	},
 	"what_is_possession?": {
 		"name": "What is Possession?",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 205](source/occult_adventures)",
@@ -5442,6 +5605,7 @@
 	},
 	"core_mechanic_and_clarification": {
 		"name": "Core Mechanic and Clarification",
+		"subtitle": "Possession, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 205](source/occult_adventures)",
@@ -5466,6 +5630,7 @@
 	},
 	"rule_interactions": {
 		"name": "Rule Interactions",
+		"subtitle": "Possession, Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 205](source/occult_adventures)",
@@ -5498,6 +5663,7 @@
 	},
 	"possession_misc": {
 		"name": "Possession (Fiendish)",
+		"subtitle": "Occult Rules",
 		"display_name": "Possession",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
@@ -5530,6 +5696,7 @@
 	},
 	"possession_feats": {
 		"name": "Possession Feats",
+		"subtitle": "Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 57](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5550,6 +5717,7 @@
 	},
 	"possession_actions": {
 		"name": "Possession Actions",
+		"subtitle": "Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 58](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5583,6 +5751,7 @@
 	},
 	"bodily_possession": {
 		"name": "Bodily Possession",
+		"subtitle": "Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 59](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5756,6 +5925,7 @@
 	},
 	"object_possession": {
 		"name": "Object Possession",
+		"subtitle": "Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 61](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5859,6 +6029,7 @@
 	},
 	"possesed_locations": {
 		"name": "Possesed Locations",
+		"subtitle": "Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 63](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5922,6 +6093,7 @@
 	},
 	"exorcism": {
 		"name": "Exorcism",
+		"subtitle": "Possession, Occult Rules",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 61](source/pathfinder_#28_the_infernal_syndrome)",
@@ -5948,6 +6120,7 @@
 	},
 	"occult_rituals": {
 		"name": "Occult Rituals",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 208](source/occult_adventures)",
@@ -5978,6 +6151,7 @@
 	},
 	"casting_occult_rituals": {
 		"name": "Casting Occult Rituals",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 208](source/occult_adventures)",
@@ -6020,6 +6194,7 @@
 	},
 	"discovering_occult_rituals": {
 		"name": "Discovering Occult Rituals",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 209](source/occult_adventures)",
@@ -6042,6 +6217,7 @@
 	},
 	"sample_occult_rituals": {
 		"name": "Sample Occult Rituals",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 209](source/occult_adventures)",
@@ -6064,6 +6240,7 @@
 	},
 	"creating_occult_rituals": {
 		"name": "Creating Occult Rituals",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 214](source/occult_adventures)",
@@ -6170,6 +6347,7 @@
 	},
 	"running_an_occult_game": {
 		"name": "Running an Occult Game",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -6202,6 +6380,7 @@
 	},
 	"incorporating_the_occult": {
 		"name": "Incorporating the Occult",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -6226,6 +6405,7 @@
 	},
 	"occult_elements": {
 		"name": "Occult Elements",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -6256,6 +6436,7 @@
 	},
 	"mysteries_within_mysteries": {
 		"name": "Mysteries within Mysteries",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -6293,6 +6474,7 @@
 	},
 	"unseen_realms": {
 		"name": "Unseen Realms",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 219](source/occult_adventures)",
@@ -6320,6 +6502,7 @@
 	},
 	"the_power_and_price_of_knowledge": {
 		"name": "The Power and Price of Knowledge",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 219](source/occult_adventures)",
@@ -6347,6 +6530,7 @@
 	},
 	"strange_rules_and_peculiar_patterns": {
 		"name": "Strange Rules and Peculiar Patterns",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -6372,6 +6556,7 @@
 	},
 	"fates_worse_than_death": {
 		"name": "Fates Worse Than Death",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -6397,6 +6582,7 @@
 	},
 	"esoteric_atmosphere": {
 		"name": "Esoteric Atmosphere",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -6420,6 +6606,7 @@
 	},
 	"occult_themes": {
 		"name": "Occult Themes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -6449,6 +6636,7 @@
 	},
 	"the_occult_underworld": {
 		"name": "The Occult Underworld",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -6477,6 +6665,7 @@
 	},
 	"spiritual_warfare": {
 		"name": "Spiritual Warfare",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -6499,6 +6688,7 @@
 	},
 	"into_the_great_beyond": {
 		"name": "Into the Great Beyond",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -6527,6 +6717,7 @@
 	},
 	"fear_and_reverence_of_the_unknown": {
 		"name": "Fear and Reverence of the Unknown",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -6553,6 +6744,7 @@
 	},
 	"ultimate_occult": {
 		"name": "Ultimate Occult",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 222](source/occult_adventures)",
@@ -6577,6 +6769,7 @@
 	},
 	"occult_adventure_seeds": {
 		"name": "Occult Adventure Seeds",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 222](source/occult_adventures)",
@@ -6609,6 +6802,7 @@
 	},
 	"a_brace_of_imps": {
 		"name": "A Brace of Imps",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -6640,6 +6834,7 @@
 	},
 	"feast_of_souls": {
 		"name": "Feast of Souls",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -6671,6 +6866,7 @@
 	},
 	"golem's_revenge": {
 		"name": "Golem's Revenge",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -6702,6 +6898,7 @@
 	},
 	"lost_souls": {
 		"name": "Lost Souls",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -6733,6 +6930,7 @@
 	},
 	"the_menhir": {
 		"name": "The Menhir",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -6764,6 +6962,7 @@
 	},
 	"mind_trap": {
 		"name": "Mind Trap",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -6795,6 +6994,7 @@
 	},
 	"the_order": {
 		"name": "The Order",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",
@@ -6826,6 +7026,7 @@
 	},
 	"portrait_of_evil": {
 		"name": "Portrait of Evil",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",

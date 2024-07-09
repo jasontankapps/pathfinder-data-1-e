@@ -2427,11 +2427,11 @@
 		"sources": [],
 		"description": [
 			[
-				"### [Anxious](trait/anxious)",
+				"## [Anxious](trait/anxious)",
 				"",
 				"**Type:** Drawback",
 				"",
-				"After suffering terribly for not being tightlipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words. You take a -2 penalty on Diplomacy checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper."
+				"After suffering terribly for not being tight-lipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words. You take a -2 penalty on Diplomacy checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper."
 			],
 			[
 				"## [Arcane Malignancies](trait/arcane_malignancies)",
@@ -2445,7 +2445,7 @@
 				"",
 				"A changeling character can take an arcane malignancy as a drawback in order to select an additional trait at character creation. Randomly determine the arcane malignancy by rolling a d% and consulting the table below.",
 				"",
-				"| d% | arcane malignancy |",
+				"| d% | Arcane Malignancy |",
 				"| --- | --- |",
 				"| 1-2 | The smallest three toes on each of your feet have fused together. You take a -2 penalty on Acrobatics, Climb, and Perform (dance) checks. |",
 				"| 3-4 | Your incisors grow so long and sharp that you have difficulty eating. Eating takes twice as long. Consuming a potion or other magical foodstuff requires a full-round action. |",

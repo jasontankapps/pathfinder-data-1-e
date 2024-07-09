@@ -1,6 +1,7 @@
 {
 	"occult_locations": {
 		"name": "Occult Locations",
+		"subtitle": "Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -38,6 +39,7 @@
 	},
 	"loci_spirits": {
 		"name": "Loci Spirits",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -68,6 +70,7 @@
 	},
 	"loci_spirit_rules": {
 		"name": "Loci Spirit Rules",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -122,6 +125,7 @@
 	},
 	"corrupting_a_loci_spirit": {
 		"name": "Corrupting a Loci Spirit",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 227](source/occult_adventures)",
@@ -170,6 +174,7 @@
 	},
 	"elements_of_a_loci_spirit": {
 		"name": "Elements of a Loci Spirit",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 227](source/occult_adventures)",
@@ -218,6 +223,7 @@
 	},
 	"creating_a_loci_spirit": {
 		"name": "Creating a Loci Spirit",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
@@ -289,6 +295,7 @@
 	},
 	"ley_lines": {
 		"name": "Ley Lines",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -319,6 +326,7 @@
 	},
 	"qualities_of_ley_lines": {
 		"name": "Qualities of Ley Lines",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -353,6 +361,7 @@
 	},
 	"finding_ley_lines": {
 		"name": "Finding Ley Lines",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -387,6 +396,7 @@
 	},
 	"using_ley_lines": {
 		"name": "Using Ley Lines",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 233](source/occult_adventures)",
@@ -421,6 +431,7 @@
 	},
 	"mindscapes": {
 		"name": "Mindscapes",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 234](source/occult_adventures)",
@@ -461,6 +472,7 @@
 	},
 	"binary_mindscapes": {
 		"name": "Binary Mindscapes",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -492,6 +504,7 @@
 	},
 	"creation_and_control": {
 		"name": "Creation and Control",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -511,6 +524,7 @@
 	},
 	"immersive_mindscapes": {
 		"name": "Immersive Mindscapes",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -543,6 +557,7 @@
 	},
 	"mindscape_traits": {
 		"name": "Mindscape Traits",
+		"subtitle": "Occult Rules, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -584,6 +599,7 @@
 	},
 	"transparency": {
 		"name": "Transparency",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -615,6 +631,7 @@
 	},
 	"shape_and_size_traits_oa": {
 		"name": "Shape and Size Traits",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -646,6 +663,7 @@
 	},
 	"feedback_oa": {
 		"name": "Feedback",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -675,6 +693,7 @@
 	},
 	"gravity_traits_oa": {
 		"name": "Gravity Traits",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -710,6 +729,7 @@
 	},
 	"time_traits_oa": {
 		"name": "Time Traits",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -741,6 +761,7 @@
 	},
 	"alignment_traits_oa": {
 		"name": "Alignment Traits",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -770,6 +791,7 @@
 	},
 	"magic_traits_oa": {
 		"name": "Magic Traits",
+		"subtitle": "Mindscapes, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -801,6 +823,7 @@
 	},
 	"esoteric_planes": {
 		"name": "Esoteric Planes",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 238](source/occult_adventures)",
@@ -848,6 +871,7 @@
 	},
 	"positive_energy_plane_oa": {
 		"name": "Positive Energy Plane",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 239](source/occult_adventures)",
@@ -878,6 +902,7 @@
 	},
 	"negative_energy_plane_oa": {
 		"name": "Negative Energy Plane",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -910,6 +935,7 @@
 	},
 	"material_plane_oa": {
 		"name": "Material Plane",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -938,6 +964,7 @@
 	},
 	"ethereal_plane_oa": {
 		"name": "Ethereal Plane",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -974,6 +1001,7 @@
 	},
 	"dimension_of_dreams": {
 		"name": "Dimension of Dreams",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 241](source/occult_adventures)",
@@ -1020,6 +1048,7 @@
 	},
 	"astral_plane_oa": {
 		"name": "Astral Plane",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 243](source/occult_adventures)",
@@ -1054,6 +1083,7 @@
 	},
 	"akashic_record": {
 		"name": "Akashic Record",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 244](source/occult_adventures)",
@@ -1094,6 +1124,7 @@
 	},
 	"the_boneyard": {
 		"name": "The Boneyard",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 245](source/occult_adventures)",
@@ -1133,6 +1164,7 @@
 	},
 	"outer_sphere": {
 		"name": "Outer Sphere",
+		"subtitle": "Occult, Gamemastering",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 245](source/occult_adventures)",
@@ -1161,6 +1193,7 @@
 	},
 	"mastering_intrigue": {
 		"name": "Mastering Intrigue",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -1182,13 +1215,11 @@
 			"social_conflicts",
 			"verbal_duels"
 		],
-		"siblings": [
+		"siblings":  [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
-			"umr",
 			"race_builder",
-			"downtime",
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
@@ -1202,6 +1233,7 @@
 	},
 	"intrigue_systems": {
 		"name": "Intrigue Systems",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -1245,6 +1277,7 @@
 	},
 	"intrigue_elements": {
 		"name": "Intrigue Elements",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -1272,6 +1305,7 @@
 	},
 	"relationships_and_loyalty": {
 		"name": "Relationships and Loyalty",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -1306,6 +1340,7 @@
 	},
 	"measure_and_countermeasure": {
 		"name": "Measure and Countermeasure",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 99](source/ultimate_intrigue)",
@@ -1332,6 +1367,7 @@
 	},
 	"the_importance_of_appearances": {
 		"name": "The Importance of Appearances",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 99](source/ultimate_intrigue)",
@@ -1354,6 +1390,7 @@
 	},
 	"bargains_and_compromise": {
 		"name": "Bargains and Compromise",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -1376,6 +1413,7 @@
 	},
 	"the_power_of_secrets": {
 		"name": "The Power of Secrets",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -1398,6 +1436,7 @@
 	},
 	"intrigue_themes": {
 		"name": "Intrigue Themes",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -1423,6 +1462,7 @@
 	},
 	"a_game_of_nobles": {
 		"name": "A Game of Nobles",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -1445,6 +1485,7 @@
 	},
 	"the_criminal_underworld": {
 		"name": "The Criminal Underworld",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -1471,6 +1512,7 @@
 	},
 	"war_of_propaganda": {
 		"name": "War of Propaganda",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -1493,6 +1535,7 @@
 	},
 	"law_and_order": {
 		"name": "Law and Order",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -1519,6 +1562,7 @@
 	},
 	"ultimate_intrigue": {
 		"name": "Ultimate Intrigue",
+		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -1541,6 +1585,7 @@
 	},
 	"influence": {
 		"name": "Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -1571,6 +1616,7 @@
 	},
 	"individual_influence": {
 		"name": "Individual Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -1636,6 +1682,7 @@
 	},
 	"discovery_check": {
 		"name": "Discovery Check",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -1668,6 +1715,7 @@
 	},
 	"influence_check": {
 		"name": "Influence Check",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -1706,6 +1754,7 @@
 	},
 	"before_a_social_event": {
 		"name": "Before a Social Event",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 103](source/ultimate_intrigue)",
@@ -1734,6 +1783,7 @@
 	},
 	"active_opponents": {
 		"name": "Active Opponents",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 103](source/ultimate_intrigue)",
@@ -1762,6 +1812,7 @@
 	},
 	"influence_and_magic": {
 		"name": "Influence and Magic",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 103](source/ultimate_intrigue)",
@@ -1796,6 +1847,7 @@
 	},
 	"secret_identities_and_hidden_allegiences": {
 		"name": "Secret Identities and Hidden Allegiences",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 104](source/ultimate_intrigue)",
@@ -1826,6 +1878,7 @@
 	},
 	"divided_parties": {
 		"name": "Divided Parties",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 104](source/ultimate_intrigue)",
@@ -1854,6 +1907,7 @@
 	},
 	"benefits_of_influence": {
 		"name": "Benefits of Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 105](source/ultimate_intrigue)",
@@ -1894,6 +1948,7 @@
 	},
 	"countering_influence": {
 		"name": "Countering Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 106](source/ultimate_intrigue)",
@@ -1926,6 +1981,7 @@
 	},
 	"neglect": {
 		"name": "Neglect",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 106](source/ultimate_intrigue)",
@@ -1954,6 +2010,7 @@
 	},
 	"social_stat_block": {
 		"name": "Social Stat Block",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 107](source/ultimate_intrigue)",
@@ -2024,6 +2081,7 @@
 	},
 	"using_the_individual_influence_system": {
 		"name": "Using the Individual Influence System",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -2049,6 +2107,7 @@
 	},
 	"setting_the_scene": {
 		"name": "Setting the Scene",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -2070,6 +2129,7 @@
 	},
 	"what_happened": {
 		"name": "What Happened",
+		"subtitle": "Influence, Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -2091,6 +2151,7 @@
 	},
 	"the_value_of_influence": {
 		"name": "The Value of Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -2112,6 +2173,7 @@
 	},
 	"dramatis_personae": {
 		"name": "Dramatis Personae",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -2195,6 +2257,7 @@
 	},
 	"organizational_influence": {
 		"name": "Organizational Influence",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 109](source/ultimate_intrigue)",
@@ -2228,6 +2291,7 @@
 	},
 	"influence_points_and_ranks": {
 		"name": "Influence Points and Ranks",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 109](source/ultimate_intrigue)",
@@ -2287,6 +2351,7 @@
 	},
 	"positive_ranks": {
 		"name": "Positive Ranks",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 109](source/ultimate_intrigue)",
@@ -2326,6 +2391,7 @@
 	},
 	"negative_ranks": {
 		"name": "Negative Ranks",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 110](source/ultimate_intrigue)",
@@ -2363,6 +2429,7 @@
 	},
 	"gaining_influence_points": {
 		"name": "Gaining Influence Points",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 110](source/ultimate_intrigue)",
@@ -2392,6 +2459,7 @@
 	},
 	"losing_influence_points": {
 		"name": "Losing Influence Points",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 110](source/ultimate_intrigue)",
@@ -2423,6 +2491,7 @@
 	},
 	"organization_interactions": {
 		"name": "Organization Interactions",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 111](source/ultimate_intrigue)",
@@ -2456,6 +2525,7 @@
 	},
 	"prominence": {
 		"name": "Prominence",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 111](source/ultimate_intrigue)",
@@ -2485,6 +2555,7 @@
 	},
 	"favors": {
 		"name": "Favors",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 112](source/ultimate_intrigue)",
@@ -2553,6 +2624,7 @@
 	},
 	"clandestine_operations": {
 		"name": "Clandestine Operations",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 112](source/ultimate_intrigue)",
@@ -2586,6 +2658,7 @@
 	},
 	"organization_stat_block": {
 		"name": "Organization Stat Block",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 113](source/ultimate_intrigue)",
@@ -2639,6 +2712,7 @@
 	},
 	"common_benefits": {
 		"name": "Common Benefits",
+		"subtitle": "Organizations, Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 114](source/ultimate_intrigue)",
@@ -2678,6 +2752,7 @@
 	},
 	"sample_organizations": {
 		"name": "Sample Organizations",
+		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 114](source/ultimate_intrigue)",
@@ -2955,6 +3030,7 @@
 	},
 	"heists": {
 		"name": "Heists",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -2991,6 +3067,7 @@
 	},
 	"what_is_different?": {
 		"name": "What is Different?",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -3014,6 +3091,7 @@
 	},
 	"building_a_heist": {
 		"name": "Building a Heist",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -3055,6 +3133,7 @@
 	},
 	"step_1_establish_a_goal": {
 		"name": "Step 1: Establish a Goal",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -3092,6 +3171,7 @@
 	},
 	"step_2_determine_scope": {
 		"name": "Step 2: Determine Scope",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 119](source/ultimate_intrigue)",
@@ -3119,6 +3199,7 @@
 	},
 	"step_3_devise_obstacles": {
 		"name": "Step 3: Devise Obstacles",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 120](source/ultimate_intrigue)",
@@ -3164,6 +3245,7 @@
 	},
 	"step_4_diagram_the_heist": {
 		"name": "Step 4: Diagram the Heist",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 122](source/ultimate_intrigue)",
@@ -3189,6 +3271,7 @@
 	},
 	"running_a_heist": {
 		"name": "Running a Heist",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 122](source/ultimate_intrigue)",
@@ -3215,6 +3298,7 @@
 	},
 	"planning": {
 		"name": "Planning",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 122](source/ultimate_intrigue)",
@@ -3247,6 +3331,7 @@
 	},
 	"executing_the_heist": {
 		"name": "Executing the Heist",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 123](source/ultimate_intrigue)",
@@ -3279,6 +3364,7 @@
 	},
 	"tactics": {
 		"name": "Tactics",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 124](source/ultimate_intrigue)",
@@ -3345,6 +3431,7 @@
 	},
 	"example_heist": {
 		"name": "Example Heist",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 126](source/ultimate_intrigue)",
@@ -3380,6 +3467,7 @@
 	},
 	"infiltration": {
 		"name": "Infiltration",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 128](source/ultimate_intrigue)",
@@ -3409,6 +3497,7 @@
 	},
 	"alternate_goals": {
 		"name": "Alternate Goals",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 128](source/ultimate_intrigue)",
@@ -3436,6 +3525,7 @@
 	},
 	"scope": {
 		"name": "Scope",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 128](source/ultimate_intrigue)",
@@ -3461,6 +3551,7 @@
 	},
 	"covers_and_personas": {
 		"name": "Covers and Personas",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 128](source/ultimate_intrigue)",
@@ -3500,6 +3591,7 @@
 	},
 	"maintaining_the_charade": {
 		"name": "Maintaining the Charade",
+		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 129](source/ultimate_intrigue)",
@@ -3521,6 +3613,7 @@
 	},
 	"leadership": {
 		"name": "Leadership",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -3554,6 +3647,7 @@
 	},
 	"leadership_modifiers": {
 		"name": "Leadership Modifiers",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -3590,6 +3684,7 @@
 	},
 	"high_leadership_scores_and_followers": {
 		"name": "High Leadership Scores and Followers",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -3614,6 +3709,7 @@
 	},
 	"loyalty_and_the_leadership_feat": {
 		"name": "Loyalty and the Leadership Feat",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 131](source/ultimate_intrigue)",
@@ -3640,6 +3736,7 @@
 	},
 	"the_role_of_cohorts_and_followers": {
 		"name": "The Role of Cohorts and Followers",
+		"subtitle": "Leadership, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 131](source/ultimate_intrigue)",
@@ -3680,6 +3777,7 @@
 	},
 	"monstrous_allies": {
 		"name": "Monstrous Allies",
+		"subtitle": "Leadership, Intrigue",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Ultimate Intrigue"
@@ -3878,6 +3976,7 @@
 	},
 	"variant_leadership": {
 		"name": "Variant Leadership",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 132](source/ultimate_intrigue)",
@@ -3907,6 +4006,7 @@
 	},
 	"nemeses": {
 		"name": "Nemeses",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 136](source/ultimate_intrigue)",
@@ -3938,6 +4038,7 @@
 	},
 	"provoking_a_nemesis": {
 		"name": "Provoking a Nemesis",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 136](source/ultimate_intrigue)",
@@ -3976,6 +4077,7 @@
 	},
 	"opportunities": {
 		"name": "Opportunities",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 136](source/ultimate_intrigue)",
@@ -3998,6 +4100,7 @@
 	},
 	"stratagems": {
 		"name": "Stratagems",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 137](source/ultimate_intrigue)",
@@ -4024,6 +4127,7 @@
 	},
 	"stratagem_rewards": {
 		"name": "Stratagem Rewards",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 137](source/ultimate_intrigue)",
@@ -4051,6 +4155,7 @@
 	},
 	"simmering_stratagems": {
 		"name": "Simmering Stratagems",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 137](source/ultimate_intrigue)",
@@ -4132,6 +4237,7 @@
 	},
 	"engaged_stratagems": {
 		"name": "Engaged Stratagems",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 138](source/ultimate_intrigue)",
@@ -4243,6 +4349,7 @@
 	},
 	"intense_stratagems": {
 		"name": "Intense Stratagems",
+		"subtitle": "Nemeses, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 140](source/ultimate_intrigue)",
@@ -4334,6 +4441,7 @@
 	},
 	"nemesis_personas": {
 		"name": "Nemesis Personas",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 141](source/ultimate_intrigue)",
@@ -4364,6 +4472,7 @@
 	},
 	"pursuit": {
 		"name": "Pursuit",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -4400,6 +4509,7 @@
 	},
 	"the_core_mechanic": {
 		"name": "The Core Mechanic",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -4429,6 +4539,7 @@
 	},
 	"building_a_pursuit": {
 		"name": "Building a Pursuit",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -4458,6 +4569,7 @@
 	},
 	"direct_pursuits": {
 		"name": "Direct Pursuits",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -4483,6 +4595,7 @@
 	},
 	"races": {
 		"name": "Races",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -4502,6 +4615,7 @@
 	},
 	"running_a_pursuit": {
 		"name": "Running a Pursuit",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -4528,6 +4642,7 @@
 	},
 	"direct_pursuits_and_tracking": {
 		"name": "Direct Pursuits and Tracking",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -4546,6 +4661,7 @@
 	},
 	"terrain_tiles": {
 		"name": "Terrain Tiles",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -4691,6 +4807,7 @@
 	},
 	"pursuit_advantages": {
 		"name": "Pursuit Advantages",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 145](source/ultimate_intrigue)",
@@ -4721,6 +4838,7 @@
 	},
 	"sample_advantages": {
 		"name": "Sample Advantages",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 146](source/ultimate_intrigue)",
@@ -4757,6 +4875,7 @@
 	},
 	"pursuit_tactics": {
 		"name": "Pursuit Tactics",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 146](source/ultimate_intrigue)",
@@ -4784,6 +4903,7 @@
 	},
 	"individual_tactics": {
 		"name": "Individual Tactics",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 146](source/ultimate_intrigue)",
@@ -4811,6 +4931,7 @@
 	},
 	"group_tactics": {
 		"name": "Group Tactics",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 147](source/ultimate_intrigue)",
@@ -4842,6 +4963,7 @@
 	},
 	"damage,_fatigue,_and_exhaustion": {
 		"name": "Damage, Fatigue, and Exhaustion",
+		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 147](source/ultimate_intrigue)",
@@ -4875,6 +4997,7 @@
 	},
 	"research": {
 		"name": "Research",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 148](source/ultimate_intrigue)",
@@ -4909,6 +5032,7 @@
 	},
 	"using_a_library": {
 		"name": "Using a Library",
+		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 148](source/ultimate_intrigue)",
@@ -4939,6 +5063,7 @@
 	},
 	"research_by_expertise": {
 		"name": "Research by Expertise",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 148](source/ultimate_intrigue)",
@@ -4961,6 +5086,7 @@
 	},
 	"designing_a_library": {
 		"name": "Designing a Library",
+		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 149](source/ultimate_intrigue)",
@@ -5022,6 +5148,7 @@
 	},
 	"additional_elements": {
 		"name": "Additional Elements",
+		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 151](source/ultimate_intrigue)",
@@ -5056,6 +5183,7 @@
 	},
 	"sample_libraries": {
 		"name": "Sample Libraries",
+		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 152](source/ultimate_intrigue)",
@@ -5076,6 +5204,7 @@
 	},
 	"reading_a_library_stat_block": {
 		"name": "Reading a Library Stat Block",
+		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 152](source/ultimate_intrigue)",
@@ -5224,6 +5353,7 @@
 	},
 	"spells_of_intrigue": {
 		"name": "Spells of Intrigue",
+		"subtitle": "Intrigue, Gamemastering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 154](source/ultimate_intrigue)",
@@ -5257,6 +5387,7 @@
 	},
 	"low-level_play_1-6": {
 		"name": "Low-Level Play (1-6)",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 154](source/ultimate_intrigue)",
@@ -5283,6 +5414,7 @@
 	},
 	"divinations": {
 		"name": "Divinations",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 154](source/ultimate_intrigue)",
@@ -5360,6 +5492,7 @@
 	},
 	"enchantments": {
 		"name": "Enchantments",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 157](source/ultimate_intrigue)",
@@ -5387,6 +5520,7 @@
 	},
 	"illusions": {
 		"name": "Illusions",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 158](source/ultimate_intrigue)",
@@ -5420,6 +5554,7 @@
 	},
 	"necromancy_ui": {
 		"name": "Necromancy",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 158](source/ultimate_intrigue)",
@@ -5445,6 +5580,7 @@
 	},
 	"mid-level_play_7-12": {
 		"name": "Mid-Level Play (7-12)",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 158](source/ultimate_intrigue)",
@@ -5470,6 +5606,7 @@
 	},
 	"conjuration_ui": {
 		"name": "Conjuration",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 158](source/ultimate_intrigue)",
@@ -5494,6 +5631,7 @@
 	},
 	"divinations_2": {
 		"name": "Divinations",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 159](source/ultimate_intrigue)",
@@ -5542,6 +5680,7 @@
 	},
 	"enchantments_2": {
 		"name": "Enchantments",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
@@ -5566,6 +5705,7 @@
 	},
 	"high-level_play_13+": {
 		"name": "High-Level Play (13+)",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
@@ -5610,6 +5750,7 @@
 	},
 	"example_of_intrigue_spells": {
 		"name": "Example of Intrigue Spells",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
@@ -5635,6 +5776,7 @@
 	},
 	"the_story": {
 		"name": "The Story",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
@@ -5659,6 +5801,7 @@
 	},
 	"divination_poem": {
 		"name": "Divination Poem",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
@@ -5691,6 +5834,7 @@
 	},
 	"vision": {
 		"name": "Vision",
+		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
