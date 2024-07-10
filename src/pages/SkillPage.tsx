@@ -5,7 +5,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Skills", "main/skills"]];
+const hierarchy: HierarchyArray = [["Main", "main/skills"], ["Skills", "main/skills"]];
 
 type Data = typeof skills;
 
@@ -17,7 +17,7 @@ const SkillPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, skills);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default SkillPage;

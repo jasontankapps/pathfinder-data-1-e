@@ -6,6 +6,8 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
+	["Main", "main/main"],
+	["All Rules", "main/rules"],
 	["Environment", "rule/environment"],
 	["Traps (Rules)", "rule/traps"],
 	["Sample Traps", "rule/sample_traps"]
@@ -21,7 +23,7 @@ const TrapPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, traps);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default TrapPage;

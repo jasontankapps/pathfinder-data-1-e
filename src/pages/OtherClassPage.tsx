@@ -35,7 +35,7 @@ const OtherClassPage: React.FC = () => {
 	} = (classes[solidId] as JsonDataPropsClass);
 
 	return (
-		<BasicPage title={title} {...{hierarchy, sources}}>
+		<BasicPage title={title} hierarchy={hierarchy} sources={sources}>
 			<DisplayItem markdown={markdown} />
 		</BasicPage>
 	);

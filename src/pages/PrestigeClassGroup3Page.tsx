@@ -24,7 +24,7 @@ const PrestigeClassGroup3Page: React.FC<{id: string}> = ({id}) => {
 	} = (prestige_classes[(id as keyof Data)] as JsonDataPropsClass);
 
 	return (
-		<BasicPage title={title} {...{hierarchy, sources}}>
+		<BasicPage title={title} hierarchy={hierarchy} sources={sources}>
 			<DisplayItem markdown={markdown} />
 		</BasicPage>
 	);

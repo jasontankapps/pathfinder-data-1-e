@@ -6,6 +6,8 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
+	["Main", "main/main"],
+	["All Rules", "main/rules"],
 	["Universal Monster Rules", "main/umr"]
 ];
 
@@ -19,7 +21,7 @@ const UMRPage: React.FC = () => {
 
 	const { name: title, description: markdown, sources } = getItem<Data>(id, umr);
 
-	return <BasicPage title={title} displayItem={{markdown}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default UMRPage;

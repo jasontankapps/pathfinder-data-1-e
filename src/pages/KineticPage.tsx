@@ -45,12 +45,13 @@ const KineticPage: React.FC = () => {
 	const { name: title, description: markdown, sources, type = "simple" } = getItem<Data>(id, talents);
 
 	const hierarchy: HierarchyArray = [
+		["Main", "main/main"],
 		["Classes", "main/classes"],
 		["Kineticist", "class/kineticist"],
 		finalPage[type]
 	];
 
-	return <BasicPage title={title} displayItem={{markdown}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default KineticPage;

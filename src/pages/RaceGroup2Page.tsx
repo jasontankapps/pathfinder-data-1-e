@@ -24,7 +24,7 @@ const RaceGroup2Page: React.FC<{id: string}> = ({id}) => {
 	} = (races[(id as keyof Data)] as JsonDataPropsClass);
 
 	return (
-		<BasicPage title={title} {...{hierarchy, sources}}>
+		<BasicPage title={title} hierarchy={hierarchy} sources={sources}>
 			<DisplayItem markdown={markdown} />
 		</BasicPage>
 	);

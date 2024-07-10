@@ -10,7 +10,7 @@ const MainGroup05Page: React.FC<{id: string}> = ({id}) => {
 	isMain(data);
 	const { title, description, tables, previous: hierarchy, sources } = data;
 
-	return <BasicMainPage title={title} displayItem={{description, tables}} {...{hierarchy, sources}} />;
+	return <BasicMainPage title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default MainGroup05Page;

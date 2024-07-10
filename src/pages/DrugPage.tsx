@@ -6,6 +6,7 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
+	["Main", "main/main"],
 	["Gamemastering", "rule/gamemastering"],
 	["Gamemastery Guide", "rule/gamemastery_guide"],
 	["Advanced Topics", "rule/advanced_topics"],
@@ -23,7 +24,7 @@ const DrugPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, drugs);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default DrugPage;

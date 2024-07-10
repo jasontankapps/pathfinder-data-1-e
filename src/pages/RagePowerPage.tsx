@@ -32,7 +32,7 @@ const RagePowerPage: React.FC<{unchained?: boolean}> = ({unchained}) => {
 
 	const hierarchy = unchained ? hierarchy2 : hierarchy1;
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default RagePowerPage;

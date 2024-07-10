@@ -7,7 +7,8 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Pathfinder Rules", "main/rules"],
+	["Main", "main/main"],
+	["All Rules", "main/rules"],
 	["Gamemastering", "rule/gamemastering"],
 	["Universal Monster Rules", "rule/umr"]
 ];
@@ -24,7 +25,7 @@ const BlessingPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, typings);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default BlessingPage;

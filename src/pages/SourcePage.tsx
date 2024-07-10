@@ -38,7 +38,7 @@ const SourcePage: React.FC = () => {
 	const { title, url, unknown } = getItem<Data>(id, sources);
 
 	return (
-		<BasicPage title={title} {...{hierarchy}} hideSources>
+		<BasicPage title={title} hierarchy={hierarchy} hideSources>
 			{unknown ? (
 				<>
 					<h1>Unknown</h1>

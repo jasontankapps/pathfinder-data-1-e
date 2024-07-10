@@ -6,6 +6,7 @@ import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
+	["Main", "main/main"],
 	["Classes", "main/classes"],
 	["Oracle", "class/oracle"],
 	["Oracle Curses", "ability/oracle_curses"]
@@ -21,7 +22,7 @@ const CursePage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, curses);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default CursePage;

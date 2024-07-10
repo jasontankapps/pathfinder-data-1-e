@@ -22,7 +22,7 @@ const MagicPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
-	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy: [...hierarchy, ...subhierarchy], sources}} />;
+	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default MagicPage;

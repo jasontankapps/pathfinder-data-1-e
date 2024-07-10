@@ -7,16 +7,15 @@ import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import { DisplayItemProps, HierarchyArray } from '../types';
 import './Page.css';
 
-interface PageProps {
+interface PageProps extends Partial<DisplayItemProps> {
 	title: string
-	displayItem?: DisplayItemProps
 	hierarchy?: HierarchyArray
 	sources?: SourceProp[]
 	hideSources?: boolean
 }
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
-	const { title, displayItem, children, hierarchy = [], sources = [], hideSources } = props;
+	const { title, markdown, tables, className, children, hierarchy = [], sources = [], hideSources } = props;
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 
@@ -39,7 +38,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="basicContent simple">
 					<HierarchyTab hierarchy={hierarchy} />
-					{displayItem ? <DisplayItem {...displayItem} /> : children}
+					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} /> : children}
 				</div>
 			</IonContent>
 			<IonFooter>
