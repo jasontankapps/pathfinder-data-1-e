@@ -1,22 +1,16 @@
 import { FC, useState, useTransition } from 'react';
 import {
-	IonButton,
-	IonButtons,
 	IonContent,
-	IonFooter,
-	IonHeader,
-	IonIcon,
-	IonInput,
 	IonItem,
 	IonLabel,
 	IonList,
-	IonMenuButton,
 	IonPage,
+	IonSearchbar,
 	IonSpinner,
-	IonTitle,
 	IonToolbar
 } from '@ionic/react';
-import { chevronBack, chevronForward } from 'ionicons/icons';
+import PageFooter from '../components/PageFooter';
+import PageHeader from '../components/PageHeader';
 import Fuse from 'fuse.js';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
@@ -24,7 +18,7 @@ import './Page.css';
 
 interface Item {
 	name: string
-	tag?: string
+	tags?: string
 }
 
 interface ParallelItem {
@@ -41,7 +35,7 @@ isIndex(fuseIndex);
 
 // create options
 const options = {
-	//includeScore: true,
+	ignoreLocation: true,
 	keys: [
 		{
 			name: 'name',
@@ -49,8 +43,8 @@ const options = {
 			weight: 1
 		},
 		{
-			name: 'tag',
-			getFn: (item: Item) => item.tag || "",
+			name: 'tags',
+			getFn: (item: Item) => item.tags || "",
 			weight: 0.7
 		}
 	]
@@ -71,7 +65,7 @@ const { data, types, prefixes } = fuseTranslatedIndex;
 
 const SearchResults: FC<{searchText: string}> = ({searchText}) => {
 	if(!searchText) {
-		return <IonItem><IonLabel>Type something in the bar above to search.</IonLabel></IonItem>;
+		return <IonItem><IonLabel>Search results will appear here.</IonLabel></IonItem>;
 	}
 	const results = fuse.search(searchText, { limit: 50 });
 	if (results.length === 0) {
@@ -95,26 +89,17 @@ const SearchPage: FC = () => {
 
 	return (
 		<IonPage>
-			<IonHeader>
+			<PageHeader title="Search" noSearch>
 				<IonToolbar>
-					<IonButtons slot="start">
-						<IonMenuButton />
-					</IonButtons>
-					<IonTitle>Search</IonTitle>
+					<IonSearchbar
+						inputmode="text"
+						type="text"
+						placeholder="Search for titles and topics"
+						onInput={(input) => startTransition(() => setSearchText(String(input.currentTarget.value || "")))}
+					/>
 				</IonToolbar>
-			</IonHeader>
+			</PageHeader>
 			<IonContent fullscreen>
-				<IonList id="searchbar">
-					<IonItem>
-						<IonInput
-							id="searchInput"
-							label="Search"
-							labelPlacement="floating"
-							clearInput={true}
-							onInput={(input) => startTransition(() => setSearchText(String(input.currentTarget.value || "")))}
-						/>
-					</IonItem>
-				</IonList>
 				<IonList className="search" id="results">
 					{
 						isPending ?
@@ -124,20 +109,7 @@ const SearchPage: FC = () => {
 					}
 				</IonList>
 			</IonContent>
-			<IonFooter>
-				<IonToolbar>
-					<IonButtons slot="start">
-						<IonButton>
-							<IonIcon slot="icon-only" icon={chevronBack} />
-						</IonButton>
-					</IonButtons>
-					<IonButtons slot="end">
-						<IonButton>
-							<IonIcon slot="icon-only" icon={chevronForward} />
-						</IonButton>
-					</IonButtons>
-				</IonToolbar>
-			</IonFooter>
+			<PageFooter />
 		</IonPage>
 	);
 };

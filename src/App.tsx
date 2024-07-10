@@ -9,6 +9,7 @@ import ClassAbilityPage from './pages/ClassAbilityPage';
 import MainPage from './pages/MainPage';
 import PrestigeClassPage from './pages/PrestigeClassPage';
 import RacePage from './pages/RacePage';
+import ErrorPage from './pages/ErrorPage';
 import Loading from './Loading';
 
 /* Core CSS required for Ionic components to work properly */
@@ -220,6 +221,7 @@ const App: React.FC = () => {
 						<Route path="/trap/:id" render={() => <Suspense fallback={<Loading />}><TrapPage /></Suspense>} />
 						<Route path="/type/:id" render={typeOrSubtype} />
 						<Route path="/umr/:id" render={() => <Suspense fallback={<Loading />}><UMRPage /></Suspense>} />
+						<Route render={() => <ErrorPage />} />
 					</IonRouterOutlet>
 				</IonSplitPane>
 			</IonReactRouter>

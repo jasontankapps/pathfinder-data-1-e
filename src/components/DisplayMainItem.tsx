@@ -141,11 +141,13 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [] })
 	return description.map((line, i) => {
 		if(typeof line === "string") {
 			return (
-				<Markdown
-					key={`mainItem-${i}`}
-					remarkPlugins={plugins}
-					components={components}
-				>{line}</Markdown>
+				<IonItem className={"mainItem" + (tables.length > 0 ? " hasTable" : "")} key={`mainItemBasic-${i}`}>
+					<Markdown
+						key={`mainItem-${i}`}
+						remarkPlugins={plugins}
+						components={components}
+					>{line}</Markdown>
+				</IonItem>
 			);
 		}
 		const className = "mainItem basic" + (tables.length > 0 ? " hasTable" : "");

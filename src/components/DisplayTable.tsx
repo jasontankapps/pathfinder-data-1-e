@@ -170,14 +170,16 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 	}), [rows, types, nullValue, id]);
 	return (
-		<table key={`table/${id}`} className={className}>
-			<thead>
-				<tr>{headerItems}</tr>
-			</thead>
-			<tbody>
-				{rowItems}
-			</tbody>
-		</table>
+		<div className="tableWrap">
+			<table key={`table/${id}`} className={className}>
+				<thead>
+					<tr>{headerItems}</tr>
+				</thead>
+				<tbody>
+					{rowItems}
+				</tbody>
+			</table>
+		</div>
 	);
 };
 

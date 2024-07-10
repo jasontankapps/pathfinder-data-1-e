@@ -1,9 +1,10 @@
 import { FC, PropsWithChildren, useState } from 'react';
-import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonList, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { chevronBack, chevronForward, informationCircle, search } from 'ionicons/icons';
+import { IonContent, IonList, IonPage } from '@ionic/react';
 import DisplayMainItem, { DisplayMainItemProps } from '../components/DisplayMainItem';
 import HierarchyTab from '../components/HierarchyTab';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
+import PageFooter from '../components/PageFooter';
+import PageHeader from '../components/PageHeader';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
@@ -21,19 +22,7 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 
 	return (
 		<IonPage>
-			<IonHeader>
-				<IonToolbar>
-					<IonButtons slot="start">
-						<IonMenuButton />
-					</IonButtons>
-					<IonTitle>{title}</IonTitle>
-					<IonButtons slot="end">
-						<IonButton href="/search">
-							<IonIcon slot="icon-only" icon={search} />
-						</IonButton>
-					</IonButtons>
-				</IonToolbar>
-			</IonHeader>
+			<PageHeader title={title} />
 			<IonContent fullscreen>
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="main basicContent">
@@ -43,25 +32,7 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					<HierarchyTab hierarchy={hierarchy} />
 				</div>
 			</IonContent>
-			<IonFooter>
-				<IonToolbar>
-					<IonButtons slot="start">
-						<IonButton>
-							<IonIcon slot="icon-only" icon={chevronBack} />
-						</IonButton>
-					</IonButtons>
-					<IonButtons className="slotless">
-						<IonButton onClick={() => setIsSourcesModalOpen(true)}>
-							<IonIcon slot="icon-only" icon={informationCircle} />
-						</IonButton>
-					</IonButtons>
-					<IonButtons slot="end">
-						<IonButton>
-							<IonIcon slot="icon-only" icon={chevronForward} />
-						</IonButton>
-					</IonButtons>
-				</IonToolbar>
-			</IonFooter>
+			<PageFooter setIsSourcesModalOpen={setIsSourcesModalOpen} />
 		</IonPage>
 	);
 };
