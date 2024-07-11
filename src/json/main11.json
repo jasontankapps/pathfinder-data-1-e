@@ -3,6 +3,7 @@
 		"title": "All Psychic Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "psychic spells table",
@@ -1117,6 +1118,7 @@
 		"title": "All Sorcerer Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "sorcerer spells table",
@@ -3015,6 +3017,7 @@
 		"title": "All Spiritualist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "spiritualist spells table",

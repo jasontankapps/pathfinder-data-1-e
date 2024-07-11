@@ -3,6 +3,7 @@
 		"title": "Monsters: D to Fox",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters d fox",
@@ -575,6 +576,7 @@
 		"title": "Campaign Traits",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "campaign traits",
@@ -807,10 +809,9 @@
 		"sources": [],
 		"description": [
 			[
-				"Race traits are tied to specific races. Your character must be of the specified race to select a race trait.",
-				"",
-				"{table0}"
-			]
+				"Race traits are tied to specific races. Your character must be of the specified race to select a race trait."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -1251,7 +1252,7 @@
 		"title": "Social Traits",
 		"sources": [],
 		"description": [
-			"Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing.",
+			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
 				"## [Acrobat](trait/acrobat)",
 				"",
@@ -3445,7 +3446,7 @@
 		"title": "Magic Traits",
 		"sources": [],
 		"description": [
-			"Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing.",
+			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
 				"## [Acadamae Neophyte](trait/acadamae_neophyte)",
 				"",
@@ -4360,6 +4361,7 @@
 		"title": "Monsters: Li to Sci",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters li sci",

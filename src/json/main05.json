@@ -15,6 +15,7 @@
 		"title": "All Deities",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "all deities and faiths table",
@@ -898,10 +899,9 @@
 			[
 				"The cost of the armor is for Small or Medium humanoid creatures. For other creatures, see [here](rule/armor_for_unusual_creatures).",
 				"",
-				"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
-				"",
-				"{table0}"
-			]
+				"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -986,6 +986,7 @@
 		"title": "Armor and Shield Enhancements",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "armor and shield enhancements",
@@ -1030,10 +1031,9 @@
 				"",
 				"Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.",
 				"",
-				"A weapon with two types is both types if the entry specifies \"and,\" or either type (wielder's choice) if the entry specifies \"or.\"",
-				"",
-				"{table0}"
-			]
+				"A weapon with two types is both types if the entry specifies \"and,\" or either type (wielder's choice) if the entry specifies \"or.\""
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -1539,6 +1539,7 @@
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "misc equipment",

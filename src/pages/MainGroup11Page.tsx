@@ -8,9 +8,9 @@ const MainGroup11Page: React.FC<{id: string}> = ({id}) => {
 	isId(id, main);
 	const data = main[id];
 	isMain(data);
-	const { title, description, tables, previous: hierarchy, sources } = data;
+	const { title, description, tables, previous: hierarchy, sources, singleTable } = data;
 
-	return <BasicMainPage title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicMainPage title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} singleTable={singleTable} />;
 };
 
 export default MainGroup11Page;

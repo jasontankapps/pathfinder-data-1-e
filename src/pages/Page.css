@@ -62,9 +62,6 @@ div.main ion-list ion-item-divider.mainItem ion-label {
 	--color: var(--ion-color-step-800);
 }
 
-div.main.basicContent ion-list ion-item:first-child {
-	margin-inline-end: 3rem;
-}
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label {
 	--color: var(--ion-text-color);
 	text-align: start;
@@ -102,8 +99,12 @@ div.main.basicContent h6 a {
 	text-decoration: none;
 }
 
+/* WHY did I add this? Does hasTable even DO anything?
 div.basicContent.hasTable ion-list ion-item.mainItem {
 	margin-inline-end: 3rem;
+} */
+div.basicContent ion-list ion-item.mainItem.singleTable {
+	margin-block-start: 1em; /* bump past hierarchy tab */
 }
 
 /* General tables */
@@ -174,64 +175,25 @@ table tbody tr:last-child {
 	border-bottom: 0;
 }
 
-/* Hierarchy Tab */
+/* Hierarchy Modal */
 
-div.hierarchy {
-	position: absolute;
-	top: 56px;
-	right: 1em;
-	min-width: 5em;
+ion-list.hierarchyModal ion-item.linked {
+	--color: var(--ion-color-primary);
 }
-div.hierarchyButton {
-	text-align: end !important;
+ion-list.hierarchyModal ion-item.indent1 ion-label {
+	padding-left: 1.25em;
 }
-div.hierarchyButton ion-button {
-	margin-top: 0;
-	margin-inline: 1rem;
-	--background: var(--ion-color-secondary);
-	--color: var(--ion-color-secondary-contrast);
-	--border-radius: 0 0 0.5em 0.5em;
-	--padding-start: 0.5em;
-	--padding-end: 0.5em;
-	--padding-bottom: 0.5em;
-	--padding-top: 0.25em;
+ion-list.hierarchyModal ion-item.indent2 ion-label {
+	padding-left: 2.5em;
 }
-ol.hierarchyLinks {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: flex-end;
-	align-items: flex-start;
-	padding-inline-start: 1.5em;
-	padding-inline-end: 0.5em;
-	margin-block: 0;
-	border-radius: 0 0 0.5em 0.5em;
-	border-style: solid;
-	border-inline-width: 2px;
-	border-color: var(--ion-color-secondary);
-	border-block-start-width: 0;
-	color: var(--ion-color-secondary);
-	background-color: var(--ion-color-light-tint);
+ion-list.hierarchyModal ion-item.indent3 ion-label {
+	padding-left: 3.75em;
 }
-ol.hierarchyLinks li {
-	margin-block: 0.25em;
+ion-list.hierarchyModal ion-item.indent4 ion-label {
+	padding-left: 5em;
 }
-ol.hierarchyLinks a:link,
-ol.hierarchyLinks a:visited,
-ol.hierarchyLinks a:hover {
-	color: var(--ion-color-secondary);
-	text-decoration: none;
-}
-ol.hierarchyLinksOpen {
-	border-block-end-width: 2px;
-	padding-block: 0.25em;
-	max-height: 20rem;
-	overflow-y: auto;
-}
-ol.hierarchyLinksClosed {
-	border-block-end-width: 0;
-	padding-block: 0;
-	max-height: 0;
-	overflow-y: hidden;
+ion-list.hierarchyModal ion-item.indent5 ion-label {
+	padding-left: 6.25em;
 }
 
 /* Rules: Subtopics */

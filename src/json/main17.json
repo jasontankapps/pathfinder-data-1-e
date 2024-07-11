@@ -3,6 +3,7 @@
 		"title": "Monsters: Fr to Le",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters fr le",
@@ -564,6 +565,7 @@
 		"title": "All Investigator Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "investigator spells table",
@@ -983,6 +985,7 @@
 		"title": "Aberrations",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters abberations",
@@ -1163,6 +1166,7 @@
 		"title": "Animals",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters animals",
@@ -1472,6 +1476,7 @@
 		"title": "Constructs",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters constructs",
@@ -1663,6 +1668,7 @@
 		"title": "Dragons",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters dragons",
@@ -1855,6 +1861,7 @@
 		"title": "Fey",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters fey",
@@ -1994,6 +2001,7 @@
 		"title": "Humanoids",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters humanoids",
@@ -2319,6 +2327,7 @@
 		"title": "Giants",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters giants",
@@ -2429,6 +2438,7 @@
 		"title": "Goblinoids",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters goblinoids",

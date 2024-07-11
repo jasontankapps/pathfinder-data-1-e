@@ -3,6 +3,7 @@
 		"title": "All Witch Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "witch spells table",
@@ -1210,6 +1211,7 @@
 		"title": "All Sahir-Afiyun Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "sahirafiyun spells table",
@@ -1248,6 +1250,7 @@
 		"title": "All Mesmerist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "mesmerist spells table",
@@ -1816,6 +1819,7 @@
 		"title": "All Shaman Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "shaman spells table",
@@ -2504,7 +2508,7 @@
 			"## main/spells_mythic_divine Divine Classes",
 			"## main/spells_mythic_occult Occult Classes",
 			"---",
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -2644,23 +2648,23 @@
 		"sources": [],
 		"description": [
 			"# Arcanist, Sorcerer and Wizard",
-			"{table0}",
+			[ "{table0}" ],
 			"# Bard and Skald",
-			"{table5}",
+			[ "{table5}" ],
 			"# Magus",
-			"{table6}",
+			[ "{table6}" ],
 			"# Alchemist",
-			"{table1}",
+			[ "{table1}" ],
 			"# Investigator",
-			"{table2}",
+			[ "{table2}" ],
 			"# Witch",
-			"{table7}",
+			[ "{table7}" ],
 			"# Bloodrager",
-			"{table8}",
+			[ "{table8}" ],
 			"# Summoner",
-			"{table3}",
+			[ "{table3}" ],
 			"# Unchained Summoner",
-			"{table4}"
+			[ "{table4}" ]
 		],
 		"tables": [
 			{
@@ -3031,23 +3035,23 @@
 		"sources": [],
 		"description": [
 			"# Cleric and Oracle",
-			"{table0}",
+			[ "{table0}" ],
 			"# Druid",
-			"{table1}",
+			[ "{table1}" ],
 			"# Ranger",
-			"{table2}",
+			[ "{table2}" ],
 			"# Hunter",
-			"{table3}",
+			[ "{table3}" ],
 			"# Paladin",
-			"{table6}",
+			[ "{table6}" ],
 			"# Antipaladin",
-			"{table7}",
+			[ "{table7}" ],
 			"# Inquisitor",
-			"{table4}",
+			[ "{table4}" ],
 			"# Shaman",
-			"{table8}",
+			[ "{table8}" ],
 			"# Warpriest",
-			"{table5}"
+			[ "{table5}" ]
 		],
 		"tables": [
 			{
@@ -3333,15 +3337,15 @@
 		"sources": [],
 		"description": [
 			"# Medium",
-			"{table0}",
+			[ "{table0}" ],
 			"# Mesmerist",
-			"{table1}",
+			[ "{table1}" ],
 			"# Occultist",
-			"{table2}",
+			[ "{table2}" ],
 			"# Psychic",
-			"{table3}",
+			[ "{table3}" ],
 			"# Spiritualist",
-			"{table4}"
+			[ "{table4}" ]
 		],
 		"tables": [
 			{

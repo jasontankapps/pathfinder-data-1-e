@@ -3,6 +3,7 @@
 		"title": "All Inquisitor Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "inquisitor spells table",
@@ -675,6 +676,7 @@
 		"title": "All Paladin Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "paladin spells table",
@@ -992,6 +994,7 @@
 		"title": "All Alchemist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "alchemist spells table",
@@ -1417,6 +1420,7 @@
 		"title": "All Arcanist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "arcanist spells table",

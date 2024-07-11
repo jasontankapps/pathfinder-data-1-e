@@ -55,7 +55,7 @@ const SourcesModal: FC<ModalProps> = (props) => {
 				</IonToolbar>
 			</IonHeader>
 			<IonContent>
-				<IonList className="sourceList">
+				<IonList className="sourceList" lines="full">
 					{
 						sources.length > 0 ? (
 							<>

@@ -3,6 +3,7 @@
 		"title": "Monsters: A to C",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters a c",
@@ -547,6 +548,7 @@
 		"title": "All Adept Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "adept spells table",
@@ -640,6 +642,7 @@
 		"title": "All Monsters: Stats",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters by cr table",

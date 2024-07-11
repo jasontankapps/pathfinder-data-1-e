@@ -7,6 +7,7 @@ export interface JsonDataPropsMain {
 	tables?: Table[],
 	sources?: SourceProp[]
 	previous?: HierarchyArray
+	singleTable?: boolean
 }
 
 export function isId(id: string, value: object): asserts id is keyof typeof value {
@@ -15,7 +16,7 @@ export function isId(id: string, value: object): asserts id is keyof typeof valu
 	}
 }
 export function isMain(value: JsonDataPropsMain): asserts value is JsonDataPropsMain {
-	const { title, description, tables, sources, previous } = value;
+	const { title, description, tables, sources, previous, singleTable } = value;
 	if(
 		typeof title !== "string"
 		|| !Array.isArray(description)

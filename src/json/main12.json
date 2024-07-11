@@ -3,6 +3,7 @@
 		"title": "All Skald Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "skald spells table",
@@ -869,6 +870,7 @@
 		"title": "All Wizard Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "wizard spells table",
@@ -2779,6 +2781,7 @@
 		"title": "All Red Mantis Assassin Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "redmantisassassin spells table",
@@ -3069,6 +3072,7 @@
 		"title": "All Bloodrager Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "bloodrager spells table",

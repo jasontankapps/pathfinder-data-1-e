@@ -42,13 +42,12 @@
 				"",
 				"Depending on the motivations of the deity and the altar's creators, some altars may grant their blessings to non-worshipers who pray to the altar's deity so long as the creature's alignment is compatible with the deity's alignment. Conversely, an altar of an evil deity might allow anyone to gain its blessing, as drawing power from evil can corrupt good and neutral folk. Accepting the blessing of an evil altar is an evil act, and likewise for blessings from altars with other alignment auras.",
 				"",
-				"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
-				"",
-				"{table0}"
+				"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on."
 			],
+			[ "{table0}" ],
 			"# Construct Modifications",
-			"Information on construct modifications [can be found here.](rule/construct_modifications)",
-			"{table5}",
+			[ "Information on construct modifications [can be found here.](rule/construct_modifications)" ],
+			[ "{table5}" ],
 			"# Demonic Implants",
 			[
 				"**Description Source:** [Book of the Damned - Volume 2: Lords of Chaos](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
@@ -58,7 +57,7 @@
 				"",
 				"Implants must be physically excised to be removed. Removal inflicts 1d6 points of Constitution damage, and could have other effects as well (such as deafness or blindness) as determined by the GM."
 			],
-			"{table1}",
+			[ "{table1}" ],
 			"# Devil Talismans",
 			[
 				"**Description Source:** [Book of the Damned - Volume 1: Princes of Darkness](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
@@ -534,6 +533,7 @@
 		"title": "All Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "all spells table",
@@ -3575,6 +3575,7 @@
 		"title": "Magic Armor",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "magic armor table",

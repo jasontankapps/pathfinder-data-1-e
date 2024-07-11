@@ -3,6 +3,7 @@
 		"title": "Magical Beasts",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters magical beasts",
@@ -260,6 +261,7 @@
 		"title": "Monstrous Humanoids",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters monstrous humanoids",
@@ -419,6 +421,7 @@
 		"title": "Elementals",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters elementals",
@@ -518,6 +521,7 @@
 		"title": "Extraplanar Outsiders",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters extraplanar outsiders",
@@ -1013,6 +1017,7 @@
 		"title": "Native Outsiders",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters native outsiders",
@@ -1116,6 +1121,7 @@
 		"title": "Plants",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters plants",
@@ -1244,6 +1250,7 @@
 		"title": "Undead",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters undead",
@@ -1475,6 +1482,7 @@
 		"title": "Vermin",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters vermin",
@@ -1636,6 +1644,7 @@
 		"title": "Aquatic Monsters",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters aquatic",
@@ -1899,6 +1908,7 @@
 		"title": "Incorporeal Monsters",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters incorporeal",
@@ -1985,6 +1995,7 @@
 		"title": "Shapechanger Monsters",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters shapechangers",
@@ -2112,6 +2123,7 @@
 		"title": "Swarms",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters swarms",

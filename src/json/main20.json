@@ -3,6 +3,7 @@
 		"title": "Oozes",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters oozes",
@@ -93,13 +94,13 @@
 		"sources": [],
 		"description": [
 			"# Chaotic Monsters",
-			"{table0}",
+			[ "{table0}" ],
 			"# Evil Monsters",
-			"{table1}",
+			[ "{table1}" ],
 			"# Good Monsters",
-			"{table2}",
+			[ "{table2}" ],
 			"# Lawful Monsters",
-			"{table3}"
+			[ "{table3}" ]
 		],
 		"tables": [
 			{
@@ -737,9 +738,9 @@
 		"sources": [],
 		"description": [
 			"# Names and Descriptions",
-			"{table0}",
+			[ "{table0}" ],
 			"# Names and Stats",
-			"{table1}"
+			[ "{table1}" ]
 		],
 		"tables": [
 			{
@@ -1080,9 +1081,9 @@
 		"sources": [],
 		"description": [
 			"# Names and Descriptions",
-			"{table0}",
+			[ "{table0}" ],
 			"# Names and Stats",
-			"{table1}"
+			[ "{table1}" ]
 		],
 		"tables": [
 			{
@@ -1418,7 +1419,7 @@
 			"## main/npcs_other_core Barbarians, Fighters, Monks, Rogues",
 			"## main/npcs_other Other Classes",
 			"# All NPCs",
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -1925,15 +1926,15 @@
 		"sources": [],
 		"description": [
 			"# Adepts",
-			"{table0}",
+			[ "{table0}" ],
 			"# Aristocrats",
-			"{table3}",
+			[ "{table3}" ],
 			"# Commoners",
-			"{table2}",
+			[ "{table2}" ],
 			"# Experts",
-			"{table1}",
+			[ "{table1}" ],
 			"# Warriors",
-			"{table4}"
+			[ "{table4}" ]
 		],
 		"tables": [
 			{
@@ -2086,11 +2087,11 @@
 		"sources": [],
 		"description": [
 			"# Bards",
-			"{table0}",
+			[ "{table0}" ],
 			"# Sorcerers",
-			"{table1}",
+			[ "{table1}" ],
 			"# Wizards",
-			"{table2}"
+			[ "{table2}" ]
 		],
 		"tables": [
 			{
@@ -2225,13 +2226,13 @@
 		"sources": [],
 		"description": [
 			"# Clerics",
-			"{table0}",
+			[ "{table0}" ],
 			"# Druids",
-			"{table1}",
+			[ "{table1}" ],
 			"# Rangers",
-			"{table3}",
+			[ "{table3}" ],
 			"# Paladins",
-			"{table4}"
+			[ "{table4}" ]
 		],
 		"tables": [
 			{
@@ -2407,13 +2408,13 @@
 		"sources": [],
 		"description": [
 			"# Barbarians",
-			"{table0}",
+			[ "{table0}" ],
 			"# Fighters",
-			"{table1}",
+			[ "{table1}" ],
 			"# Monks",
-			"{table3}",
+			[ "{table3}" ],
 			"# Rogues",
-			"{table4}"
+			[ "{table4}" ]
 		],
 		"tables": [
 			{

@@ -1,7 +1,6 @@
 import { FC, PropsWithChildren, useState } from 'react';
 import { IonContent, IonList, IonPage } from '@ionic/react';
 import DisplayMainItem, { DisplayMainItemProps } from '../components/DisplayMainItem';
-import HierarchyTab from '../components/HierarchyTab';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
@@ -16,20 +15,19 @@ interface PageProps extends Partial<DisplayMainItemProps> {
 }
 
 const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
-	const { title, description, tables, children, hierarchy = [], sources = [], hideSources } = props;
+	const { title, description, tables, children, hierarchy, sources = [], hideSources, singleTable } = props;
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 
 	return (
 		<IonPage>
-			<PageHeader title={title} />
+			<PageHeader title={title} hierarchy={hierarchy} />
 			<IonContent fullscreen>
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="main basicContent">
 					<IonList lines="full">
-						{description ? <DisplayMainItem description={description} tables={tables} /> : children}
+						{description ? <DisplayMainItem description={description} tables={tables} singleTable={singleTable} /> : children}
 					</IonList>
-					<HierarchyTab hierarchy={hierarchy} />
 				</div>
 			</IonContent>
 			<PageFooter setIsSourcesModalOpen={setIsSourcesModalOpen} />

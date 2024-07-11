@@ -7,10 +7,9 @@
 				"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
 				"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
 				"",
-				"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
-				"",
-				"{table0}"
-			]
+				"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -45,8 +44,9 @@
 				"",
 				"Each of the special materials described below has a definite game effect. Some creatures have damage reduction that makes them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.",
 				"",
-				"[Go here for rules on special materials and how to use them.](rule/special_raw_materials)",
-				"",
+				"[Go here for rules on special materials and how to use them.](rule/special_raw_materials)"
+			],
+			[
 				"| Name | Description |",
 				"| :---: | --- |",
 				"| [Abysium](equipment/material/abysium) | Known also as feverstone , this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. |",
@@ -95,10 +95,10 @@
 				"| [Viridium](equipment/material/viridium) | This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. |",
 				"| [Voidglass](equipment/material/voidglass) | Voidglass resonates with a creature's mind, bolstering thought and mental defenses. |",
 				"| [Whipwood](equipment/material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
-				"| [Wyroot](equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |",
-				"",
-				"### Primitive Materials",
-				"",
+				"| [Wyroot](equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |"
+			],
+			"# Primitive Materials",
+			[
 				"The standard Pathfinder Roleplaying Game campaign takes place in a time period similar to the medieval and early Renaissance age of iron and steel. But even in fantasy campaigns set in this era, some cultures lack steel, and some lack metalworking entirely. Sometimes this deficit is due to geographical remoteness, lack of resources, repression by a strong overlord, or societal taboos. Other campaigns might be set before the medieval era, or in a dark future where apocalypse survivors eke out livings with the best tools they can scavenge. Some might even choose a lower level of technology as a point of pride, for religious reasons, as an assertion of superior martial prowess, or even to honor ancestral warriors by using their bones to make weapons, allowing them to symbolically keep fighting for their tribe or family from beyond the grave.",
 				"",
 				"Primitive campaigns can be broken into two broad categories based on the level of technology. The first is the Stone Age, where worked metals are all but unknown. The second is the Bronze Age, where metal weapons appear but iron and steel have not been mastered or are rare.",
@@ -123,6 +123,7 @@
 		"title": "Siege Engines",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "siege engines",
@@ -208,10 +209,9 @@
 				"",
 				"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
 				"",
-				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect.",
-				"",
-				"{table0}"
-			]
+				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -375,15 +375,16 @@
 			"Adventurer's Armory",
 			"Alchemy Manual"
 		],
-		"description": [[
-			"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)  ",
-			"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
-			"",
-			"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
-			"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
-			"",
-			"{table0}"
-		]],
+		"description": [
+			[
+				"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)  ",
+				"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
+				"",
+				"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
+				"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use."
+			],
+			[ "{table0}" ]
+		],
 		"tables": [
 			{
 				"id": "alchemical reagents",
@@ -472,7 +473,7 @@
 				"",
 				"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books)."
 			],
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -534,8 +535,9 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			[
-				"Each suit of technological armor has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-				"",
+				"Each suit of technological armor has a full description, including a set of abbreviated statistics. This information is organized as follows."
+			],
+			[
 				"**Price:** This is the cost in gold pieces to purchase the suit of armor if it's available for sale. As with magic armor, a technological suit of armor can be sold by PCs for half this value.",
 				"",
 				"**Weight:** The weight of the armor in pounds. Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
@@ -560,10 +562,9 @@
 				"",
 				"**Craft:** This is the Craft DC required to create the armor. It is also the Knowledge (engineering) DC to correctly identify the armor.",
 				"",
-				"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor.",
-				"",
-				"{table0}"
-			]
+				"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -605,8 +606,9 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			[
-				"Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-				"",
+				"Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows."
+			],
+			[
 				"**Price:** This is the cost (in gold pieces) to purchase the weapon if it's available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.",
 				"",
 				"**Type:** This indicates whether the weapon is a light, one-handed, or two-handed melee or ranged weapon.",
@@ -639,10 +641,9 @@
 				"",
 				"**Craft:** This is the Craft DC required to create the weapon. It is also the Knowledge (engineering) DC to correctly identify the weapon.",
 				"",
-				"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon",
-				"",
-				"{table0}"
-			]
+				"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon"
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -705,8 +706,9 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			[
-				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
-				"",
+				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible."
+			],
+			[
 				"Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score-a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.",
 				"",
 				"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
@@ -735,10 +737,9 @@
 				"",
 				"**Craft:** This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.",
 				"",
-				"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item",
-				"",
-				"{table0}"
-			]
+				"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item"
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -786,18 +787,18 @@
 			[
 				"A pharmaceutical takes a standard action to consume, or a move action if administered by a [medlance](tech/misc/medlance). A single dose of any pharmaceutical weighs only a tenth of a pound-no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.",
 				"",
-				"Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.",
-				"",
+				"Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows."
+			],
+			[
 				"**Price:** This is the cost in gold pieces to purchase the pharmaceutical if it's available for sale. As with magic potions, a pharmaceutical can be sold by PCs for half this value.",
 				"",
 				"**Construction Requirements:** Certain requirements must be met for a character to craft a pharmaceutical. These requirements generally include a feat and access to a medical laboratory. Crafting components are consumed during construction and are not counted as part of the item's cost; if the crafting attempt fails, new crafting components must be provided for the next attempt.",
 				"",
 				"**Craft:** This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.",
 				"",
-				"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
-				"",
-				"{table0}"
-			]
+				"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -832,7 +833,7 @@
 		"title": "Technology - Artifacts",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile.",
+			[ "In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile." ],
 			"# Power Generators",
 			[
 				"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
@@ -850,7 +851,7 @@
 				"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount."
 			],
 			"# Technological Artifacts",
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -890,8 +891,9 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			[
-				"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows.",
-				"",
+				"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows."
+			],
+			[
 				"**Price:** This value is the cost in gold pieces for the PCs to purchase the item-if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount. Slot: This is the part of the body the item must be worn on, if any. If the item's slot matches one of the existing magic item slots, wearing the item prevents the user from wearing or gaining the benefit from a magic item in the same slot.",
 				"",
 				"**Weight:** This entry lists the weight of the item in pounds. Capacity: This is the maximum number of charges the item can hold.",
@@ -904,10 +906,9 @@
 				"",
 				"**Craft:** This is the Craft DC required to create the item. It is also the Knowledge (engineering) DC to correctly identify the item.",
 				"",
-				"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item",
-				"",
-				"{table0}"
-			]
+				"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item"
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -1085,10 +1086,9 @@
 		"sources": [],
 		"description": [
 			[
-				"Adding an enhancement to armor, shields, and weapons raises the [base price](rule/magic_item_gold_piece_values) of the item being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
-				"",
-				"{table0}"
-			]
+				"Adding an enhancement to armor, shields, and weapons raises the [base price](rule/magic_item_gold_piece_values) of the item being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -1440,6 +1440,7 @@
 		"title": "Magic Staves",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "magic staves table",
@@ -1563,6 +1564,7 @@
 		"title": "Wondrous Items",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "wondrous items table",
@@ -4144,6 +4146,7 @@
 		"title": "Artifacts",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "magic artifact table",

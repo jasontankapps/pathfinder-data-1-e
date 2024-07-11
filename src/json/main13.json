@@ -7,10 +7,9 @@
 				"**Description Source** [Faiths and Philosophies pg. 19](source/faiths_and_philosophies)  ",
 				"Meditation provides some of the advantages of a monastic refuge anywhere. While meditation can help any character center herself or calm a troubled mind, those specially trained in the art can use it to unlock fantastic abilities within themselves, reflected in the following feats. These feats can be taken by any character who meets the prerequisites, but are most commonly encountered among those who have trained in a monastery.",
 				"",
-				"**Monks and Meditation Feats:** A monk may take a meditation feat in place of a bonus feat. She must meet all of the prerequisites to take the feat as normal.",
-				"",
-				"{table0}"
-			]
+				"**Monks and Meditation Feats:** A monk may take a meditation feat in place of a bonus feat. She must meet all of the prerequisites to take the feat as normal."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -47,10 +46,9 @@
 			"# Weapon Mastery Feats",
 			[
 				"**Description Source** [Weapon Master's Handbook pg. 20](source/weapon_master's_handbook)  ",
-				"Although most combat techniques are general enough to be categorized as combat feats, some require such a high level of martial skill that they are instead categorized as weapon mastery feats. Weapon mastery feats count as combat feats for all purposes, including which classes can select them as bonus feats, and you gain the benefits of a weapon mastery feat only while wielding a weapon that belongs to a fighter weapon group that you have selected with the fighter weapon training class feature (referred to hereafter as an \"appropriate weapon\"), and any effect of these feats related to attacks applies only to attacks from such weapons unless the feat specifies otherwise. Characters who lack the weapon training class feature can access weapon mastery feats by taking the Martial Focus feat below.",
-				"",
-				"{table0}"
+				"Although most combat techniques are general enough to be categorized as combat feats, some require such a high level of martial skill that they are instead categorized as weapon mastery feats. Weapon mastery feats count as combat feats for all purposes, including which classes can select them as bonus feats, and you gain the benefits of a weapon mastery feat only while wielding a weapon that belongs to a fighter weapon group that you have selected with the fighter weapon training class feature (referred to hereafter as an \"appropriate weapon\"), and any effect of these feats related to attacks applies only to attacks from such weapons unless the feat specifies otherwise. Characters who lack the weapon training class feature can access weapon mastery feats by taking the Martial Focus feat below."
 			],
+			[ "{table0}" ],
 			"# Armor Mastery Feats",
 			[
 				"**Description Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)  ",
@@ -210,7 +208,7 @@
 				"[^1]: Bouncing, disruptive, intensified, lingering, or scarring ability.",
 				"[^2]: Fearsome, sickening, or traumatic ability."
 			],
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -262,10 +260,9 @@
 				"**Description Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide)  ",
 				"Teamwork feats grant large bonuses, but they only function under specific circumstances. In most cases, these feats require an ally who also possesses the feat to be positioned carefully on the battlefield.",
 				"",
-				"Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats.",
-				"",
-				"{table0}"
+				"Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats."
 			],
+			[ "{table0}" ],
 			"# Betrayal Feats",
 			[
 				"**Description Source** [Champions of Corruption pg. 22](source/champions_of_corruption)  ",
@@ -522,10 +519,9 @@
 			"# Stare Feats",
 			[
 				"**Description Source** [Occult Adventures pg. 128](source/occult_adventures)  ",
-				"Stare feats allow a mesmerist to apply additional effects to his painful stare ability. Characters without the [Compounded Pain](feat/compounded_pain) feat can apply the effects of only one stare feat to an individual attack; A mesmerist with multiple stare feats must choose which to apply before the damage roll is made.",
-				"",
-				"{table0}"
+				"Stare feats allow a mesmerist to apply additional effects to his painful stare ability. Characters without the [Compounded Pain](feat/compounded_pain) feat can apply the effects of only one stare feat to an individual attack; A mesmerist with multiple stare feats must choose which to apply before the damage roll is made."
 			],
+			[ "{table0}" ],
 			"# Trick Feats",
 			[
 				"**Description Source** [Psychic Anthology pg. 16](source/psychic_anthology)  ",
@@ -615,9 +611,9 @@
 				"**Thwart:** Distinct from defeating a foe, thwarting a foe involves disrupting its plans in a substantial and essentially permanent fashion. Deposing a lord, bringing down a priest's temple, or banishing a sorcerer to the depths of Hell all qualify as thwarting. You keep any benefits gained by thwarting a foe even if it survives defeat and returns more powerful than before. You must be a significant participant in the events that lead to your foe being thwarted for your actions to count toward fulfilling a story requirement."
 			],
 			"# Story Feats and Stacking",
-			"Most story feat bonuses are untyped, and stack with almost any other bonus. However, if you have multiple story feats, their untyped bonuses do not stack with each other. For example, if two story feats gave you a bonus on saving throws, you would add only the higher bonus.",
+			[ "Most story feat bonuses are untyped, and stack with almost any other bonus. However, if you have multiple story feats, their untyped bonuses do not stack with each other. For example, if two story feats gave you a bonus on saving throws, you would add only the higher bonus." ],
 			"---",
-			"{table0}"
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -717,10 +713,9 @@
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
 				"For centuries, great warriors have looked to nature and the multiverse to find inspiration in battle. Countless monastic and contemplative orders have crafted intricate unarmed fighting styles based on the deadliness and grace of natural and supernatural creatures. Although many such fighting techniques were created by secretive orders, they have since spread to practitioners the world over.",
 				"",
-				"As a swift action, you can enter the stance employed by the fighting style a style feat embodies. Although you cannot use a style feat before combat begins, the style you are in persists until you spend a swift action to switch to a different combat style. You can use a feat that has a style feat as a prerequisite only while in the stance of the associated style. For example, if you have feats associated with Mantis Style and Tiger Style, you can use a swift action to adopt Tiger Style at the start of one turn, and then can use other feats that have Tiger Style as a prerequisite. By using another swift action at the start of your next turn, you could adopt Mantis Style and use other feats that have Mantis Style as a prerequisite.",
-				"",
-				"{table0}"
-			]
+				"As a swift action, you can enter the stance employed by the fighting style a style feat embodies. Although you cannot use a style feat before combat begins, the style you are in persists until you spend a swift action to switch to a different combat style. You can use a feat that has a style feat as a prerequisite only while in the stance of the associated style. For example, if you have feats associated with Mantis Style and Tiger Style, you can use a swift action to adopt Tiger Style at the start of one turn, and then can use other feats that have Tiger Style as a prerequisite. By using another swift action at the start of your next turn, you could adopt Mantis Style and use other feats that have Mantis Style as a prerequisite."
+			],
+			[ "{table0}" ]
 		],
 		"tables": [
 			{
@@ -855,10 +850,9 @@
 				"",
 				"**Magic Items and Metamagic Spells:** With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.",
 				"",
-				"**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell (see Magic).",
-				"",
-				"{table0}"
+				"**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell (see Magic)."
 			],
+			[ "{table0}" ],
 			"# Item Creation Feats",
 			[
 				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
@@ -1027,10 +1021,9 @@
 			"# Grit Feats",
 			[
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
-				"Grit feats interact with the gunslinger's grit class ability or the grit granted by the [Amateur Gunslinger](feat/amateur_gunslinger) feat, usually by adding to her set of deeds. Sometimes these feats increase the number of grit points a character has or how that character regains grit points. [Gunslingers](class/gunslinger) can take grit feats as bonus feats.",
-				"",
-				"{table0}"
+				"Grit feats interact with the gunslinger's grit class ability or the grit granted by the [Amateur Gunslinger](feat/amateur_gunslinger) feat, usually by adding to her set of deeds. Sometimes these feats increase the number of grit points a character has or how that character regains grit points. [Gunslingers](class/gunslinger) can take grit feats as bonus feats."
 			],
+			[ "{table0}" ],
 			"# Panache Feats",
 			[
 				"**Description Source** Advanced Class Guide pg. 136  ",
@@ -1099,6 +1092,7 @@
 		"title": "All Unchained Summoner Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "unchained_summoner spells table",
@@ -1478,6 +1472,7 @@
 		"title": "All Druid Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "druid spells table",
@@ -2285,6 +2280,7 @@
 		"title": "All Hunter Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "hunter spells table",
@@ -3109,6 +3105,7 @@
 		"title": "All Medium Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"singleTable": true,
 		"tables": [
 			{
 				"id": "medium spells table",

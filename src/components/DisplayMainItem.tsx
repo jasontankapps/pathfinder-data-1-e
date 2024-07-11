@@ -9,7 +9,7 @@ import { IonItem, IonItemDivider, IonLabel } from '@ionic/react';
 export interface DisplayMainItemProps {
 	description: (string | string[])[]
 	tables?: Table[]
-	className?: string
+	singleTable?: string
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -135,24 +135,22 @@ const makeBasicComponents = (tables: Table[]) => {
 	};
 };
 
-const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [] }) => {
+const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], singleTable }) => {
 	const components = useMemo(() => makeComponents(tables), [tables]);
 	const basicComponents = useMemo(() => makeBasicComponents(tables), [tables]);
+	const baseClass = "mainItem" + (singleTable ? " singleTable" : "");
 	return description.map((line, i) => {
 		if(typeof line === "string") {
 			return (
-				<IonItem className={"mainItem" + (tables.length > 0 ? " hasTable" : "")} key={`mainItemBasic-${i}`}>
-					<Markdown
-						key={`mainItem-${i}`}
-						remarkPlugins={plugins}
-						components={components}
-					>{line}</Markdown>
-				</IonItem>
+				<Markdown
+					key={`mainItemBasic-${i}`}
+					remarkPlugins={plugins}
+					components={components}
+				>{line}</Markdown>
 			);
 		}
-		const className = "mainItem basic" + (tables.length > 0 ? " hasTable" : "");
 		return (
-			<IonItem className={className} key={`mainItemBasic-${i}`}><IonLabel>
+			<IonItem className={`${baseClass} basic`} key={`mainItemBasic-${i}`}><IonLabel>
 				<Markdown
 					remarkPlugins={plugins}
 					components={basicComponents}
