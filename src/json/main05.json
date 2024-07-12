@@ -2,6 +2,7 @@
 	"faiths": {
 		"title": "Deities and Faiths",
 		"sources": [],
+		"searchgroup": "faith",
 		"description": [
 			"## main/faiths_all View All Deities // (463 deities/faiths)",
 			"## main/faiths_pantheons View Deities by Pantheon",
@@ -15,6 +16,7 @@
 		"title": "All Deities",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "faith",
 		"singleTable": true,
 		"tables": [
 			{
@@ -550,6 +552,7 @@
 				"| Other Deities/Faiths | [Achaekek](faith/achaekek), [Ah Pook](faith/ah_pook), [Ahriman](faith/ahriman), [Alazhra](faith/alazhra), [Alseta](faith/alseta), [Apsu](faith/apsu), [Arazni](faith/arazni), [Ashukharma](faith/ashukharma), [Besmara](faith/besmara), [Brigh](faith/brigh), [Camazotz](faith/camazotz), [Cihua Couatl](faith/cihua_couatl), [Dahak](faith/dahak), [Dhalavei](faith/dhalavei), [Easivra](faith/easivra), [Erecura](faith/erecura), [Feronia](faith/feronia), [Ghlaunder](faith/ghlaunder), [Grandmother Spider](faith/grandmother_spider), [Green Faith](faith/green_faith), [Groetus](faith/groetus), [Gruhastha](faith/gruhastha), [Gyronna](faith/gyronna), [Hanspur](faith/hanspur), [Kazutal](faith/kazutal), [Kitumu](faith/kitumu), [Kurgess](faith/kurgess), [Lissala](faith/lissala), [Matravash](faith/matravash), [Mazludeh](faith/mazludeh), [Milani](faith/milani), [Naderi](faith/naderi), [Nivi Rhombodazzle](faith/nivi_rhombodazzle), [Nocticula (Redeemed)](faith/nocticula_redeemed), [Omrataji](faith/omrataji), [Sivanah](faith/sivanah), [Speakers of the Depths](faith/speakers_of_the_depths), [Wendo (JuJu)](faith/wendo), [Ydersius](faith/ydersius), [Zyphus](faith/zyphus) |"
 			]
 		],
+		"searchgroup": "faith",
 		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
 	},
 	"faiths_domains": {
@@ -601,6 +604,7 @@
 				"| [Weather](domain/weather) | [Aegirran](faith/aegirran), [Besmara](faith/besmara), [Bokrug](faith/bokrug), [Daikitsu](faith/daikitsu), [Diceid](faith/diceid), [Elion](faith/elion), [Gozreh](faith/gozreh), [Halcamora](faith/halcamora), [Hataam](faith/hataam), [Hei Feng](faith/hei_feng), [Hshurha](faith/hshurha), [Imot](faith/imot), [Ithaqua](faith/ithaqua), [Ketephys](faith/ketephys), [Maat](faith/maat), [Nataka](faith/nataka), [Ng](faith/ng), [Psomeira](faith/psomeira), [Pulura](faith/pulura), [Rasvocel](faith/rasvocel), [Roqorolos](faith/roqorolos), [Rovagug](faith/rovagug), [Rull](faith/rull), [Set](faith/set), [Sithhud](faith/sithhud), [Trelmarixian](faith/trelmarixian), [Urxehl](faith/urxehl), [Valani](faith/valani), [Vermilion Mother](faith/vermilion_mother), [Vois](faith/vois), [Vonymos](faith/vonymos), [Yan-gant-y-tan](faith/yan_gant_y_tan) |"
 			]
 		],
+		"searchgroup": "faith",
 		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
 	},
 	"faiths_subdomains": {
@@ -756,11 +760,13 @@
 				"| Wind | [Areshkagal](faith/areshkagal), [Baalzebul](faith/baalzebul), [Chupurvagasti](faith/chupurvagasti), [Eligos](faith/eligos), [Geon](faith/geon), [Ghlaunder](faith/ghlaunder), [Gozreh](faith/gozreh), [Hei Feng](faith/hei_feng), [Horus](faith/horus), [Hshurha](faith/hshurha), [Isph-Aun-Vuln](faith/isph_aun_vuln), [Ithaqua](faith/ithaqua), [Libicocco](faith/libicocco), [Llamolaek](faith/llamolaek), [Onos](faith/onos), [Pazuzu](faith/pazuzu), [Rull](faith/rull), [Seramaydiel](faith/seramaydiel), [Sugroz](faith/sugroz), [Tjasse](faith/tjasse), [Uaransaph](faith/uaransaph), [Xiquiripat](faith/xiquiripat), [Ylimancha](faith/ylimancha) |"
 			]
 		],
+		"searchgroup": "faith",
 		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
 		"sources": [],
+		"searchgroup": "faith",
 		"description": [
 			"## main/faiths View All Deities/Faiths",
 			"## main/faiths_pantheons View Deities by Pantheon",
@@ -895,6 +901,7 @@
 	"equipment_armor": {
 		"title": "Armor",
 		"sources": [ "PRPG Core Rulebook" ],
+		"searchgroup": "equip",
 		"description": [
 			[
 				"The cost of the armor is for Small or Medium humanoid creatures. For other creatures, see [here](rule/armor_for_unusual_creatures).",
@@ -985,6 +992,7 @@
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
 		"sources": [],
+		"searchgroup": "equip",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [
@@ -1025,6 +1033,7 @@
 	"equipment_weapons": {
 		"title": "Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
+		"searchgroup": "equip",
 		"description": [
 			[
 				"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
@@ -1539,6 +1548,7 @@
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
 		"description": [ "{table0}" ],
+		"searchgroup": "equip",
 		"singleTable": true,
 		"tables": [
 			{

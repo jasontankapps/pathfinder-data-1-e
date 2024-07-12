@@ -257,6 +257,7 @@ div.search div.searchResult {
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: start;
+	position: relative;
 }
 div.search div.searchResult a {
 	display: flex;

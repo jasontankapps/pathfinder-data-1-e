@@ -23,6 +23,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "race",
 		"tables": [
 			{
 				"id": "all races table",
@@ -119,6 +120,7 @@
 			["Skills represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically."],
 			["{table0}"]
 		],
+		"searchgroup": "rule",
 		"tables": [
 			{
 				"id": "skills table",
@@ -175,6 +177,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "feat",
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -1795,7 +1798,7 @@
 	},
 	"traits": {
 		"title": "Traits",
-		"sources": [ "Ultimate Campaign" ],
+		"sources": [],
 		"description": [
 			[
 				"Character traits are abilities that are not tied to your race or class. They can enhance your skills, racial abilities, class abilities, or other statistics, allowing you further customization.",
@@ -1807,6 +1810,7 @@
 			"## main/traits_faith View Basic Faith Traits // (107 traits)",
 			"## main/traits_magic View Basic Magic Traits // (122 traits)",
 			"## main/traits_social View Basic Social Traits // (163 traits)",
+			"## main/traits_exemplar View Exemplar Traits // (5 traits)",
 			"## main/traits_campaign View Campaign Traits // (212 traits)",
 			"## main/traits_race View Race Traits // (420 traits)",
 			"## main/traits_regional View Regional Traits // (448 traits)",
@@ -1816,7 +1820,16 @@
 			"## main/traits_mount View Mount Traits // (13 traits)",
 			"## main/traits_cosmic View Cosmic Traits // (13 traits)",
 			"## main/traits_family View Family Traits // (7 traits)",
-			"## main/traits_drawbacks View all Drawbacks // (66 drawbacks)",
+			"## main/traits_drawbacks View all Drawbacks // (66 drawbacks)"
+		],
+		"searchgroup": "trait",
+		"previous": [ ["Main", "main/main"] ]
+	},
+	"traits_exemplar": {
+		"title": "Exemplar Traits",
+		"tags": "Artist of Battle in All Forms Charming Smile Cunning Soul Curator of Mystic Secrets Faith Unshakable and Unassailable Traveler of a Hundred Lands",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"# Exemplar Traits",
 			[
 				"**Source** Chronicle of Legends  ",
@@ -1858,6 +1871,7 @@
 				"You have learned the ways of many lands. Choose any two skills; each of those skills becomes a class skill for you. For every other regional trait you have, select an additional skill to treat as a class skill."
 			]
 		],
+		"searchgroup": "trait",
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
 	},
 	"spells_summoner": {
@@ -1865,6 +1879,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "summoner spells table",
@@ -2294,6 +2309,7 @@
 	"spell_definitions": {
 		"title": "Spell Definitions",
 		"sources": [],
+		"searchgroup": "rule",
 		"description": [
 			"# Schools and Subschools",
 			"",
@@ -2353,6 +2369,7 @@
 	},
 	"feats": {
 		"title": "Feats",
+		"searchgroup": "rule",
 		"sources": [
 			"Advanced Player's Guide",
 			"Champions of Corruption",
@@ -2871,6 +2888,7 @@
 	"umr": {
 		"title": "Universal Monster Rules",
 		"sources": [],
+		"searchgroup": "rule",
 		"description": [
 			"# Creature Types",
 			"## type/aberration Aberration",

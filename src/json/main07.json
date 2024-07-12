@@ -308,6 +308,7 @@
 				"| [Throne of the Ardent Defense](magic/throne/throne_of_the_ardent_defense) | 16,000gp | 350 lbs. |"
 			]
 		],
+		"searchgroup": "magic",
 		"tables": [
 			{
 				"id": "magic altars table",
@@ -486,6 +487,7 @@
 	"spells": {
 		"title": "Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [
 			"## main/spells_all View All Spells // (3,024 spells)",
 			"## main/spell_definitions View spell definitions",
@@ -533,6 +535,7 @@
 		"title": "All Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -3575,6 +3578,7 @@
 		"title": "Magic Armor",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "magic",
 		"singleTable": true,
 		"tables": [
 			{

@@ -2,6 +2,7 @@
 	"equipment_weaponenhancements": {
 		"title": "Weapon Enhancements",
 		"sources": [ "Adventurer's Armory 2" ],
+		"searchgroup": "equip",
 		"description": [
 			[
 				"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
@@ -37,6 +38,7 @@
 	"equipment_materials": {
 		"title": "Special Materials",
 		"sources": [ "Ultimate Equipment" ],
+		"searchgroup": "equip",
 		"description": [
 			[
 				"**Description Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
@@ -122,6 +124,7 @@
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
 		"sources": [],
+		"searchgroup": "equip",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [
@@ -213,6 +216,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "equip",
 		"tables": [
 			{
 				"id": "poisons",
@@ -385,6 +389,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "equip",
 		"tables": [
 			{
 				"id": "alchemical reagents",
@@ -475,6 +480,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "equip",
 		"tables": [
 			{
 				"id": "spellbooks",
@@ -566,6 +572,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "tech armor",
@@ -645,6 +652,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "tech weapons",
@@ -741,6 +749,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "tech cybertech",
@@ -800,6 +809,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "tech pharmaceuticals",
@@ -853,6 +863,7 @@
 			"# Technological Artifacts",
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "tech artifacts",
@@ -910,6 +921,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "tech",
 		"tables": [
 			{
 				"id": "misc tech",
@@ -1079,6 +1091,7 @@
 			"## main/magic_artifacts View Artifacts",
 			"## main/magic_misc View Miscellaneous Magic Items || Includes: Altars, Construct Modifications, Elemental Augmentations, Favors, Fetishes, Fleshcrafting, Fungal grafts, Implants, Infused poisons, Necrografts, Necrotoxins, Oils, Plants, Relics, Piercings, Talismans, Tattoos, Thrones, and Magical Sets."
 		],
+		"searchgroup": "magic",
 		"previous": [ ["Main", "main/main"] ]
 	},
 	"magic_enhancements": {
@@ -1090,6 +1103,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "magic",
 		"tables": [
 			{
 				"id": "all magic enhancements table",
@@ -1441,6 +1455,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "magic",
 		"tables": [
 			{
 				"id": "magic staves table",
@@ -1565,6 +1580,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "magic",
 		"tables": [
 			{
 				"id": "wondrous items table",
@@ -4147,6 +4163,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "magic",
 		"tables": [
 			{
 				"id": "magic artifact table",

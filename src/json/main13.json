@@ -2,6 +2,7 @@
 	"feats_meditation": {
 		"title": "Feats - Meditation",
 		"sources": [ "Faiths and Philosophies" ],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Description Source** [Faiths and Philosophies pg. 19](source/faiths_and_philosophies)  ",
@@ -42,6 +43,8 @@
 	"feats_mastery": {
 		"title": "Feats - Mastery",
 		"sources": [],
+		"searchgroup": "feat",
+		"tags": "weapon mastery armor mastery shield mastery item mastery",
 		"description": [
 			"# Weapon Mastery Feats",
 			[
@@ -185,6 +188,7 @@
 	"feats_monster": {
 		"title": "Feats - Monster",
 		"sources": [ "Horror Adventures" ],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Description Source** [Horror Adventures pg. 78](source/horror_adventures)  ",
@@ -254,6 +258,7 @@
 	"feats_teamwork": {
 		"title": "Feats - Teamwork, etc",
 		"sources": [ "Advanced Player's Guide" ],
+		"searchgroup": "feat",
 		"description": [
 			"# Teamwork Feats",
 			[
@@ -511,6 +516,7 @@
 	},
 	"feats_mesmerist": {
 		"title": "Feats - Stare/Trick",
+		"searchgroup": "feat",
 		"sources": [
 			"Occult Adventures",
 			"Psychic Anthology"
@@ -579,6 +585,7 @@
 	"feats_story": {
 		"title": "Feats - Story",
 		"sources": [ "Ultimate Campaign" ],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Description Source** [Ultimate Campaign pg. 66](source/ultimate_campaign)  ",
@@ -708,6 +715,7 @@
 	"feats_style": {
 		"title": "Feats - Style",
 		"sources": [],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
@@ -824,6 +832,7 @@
 	"feats_metamagic": {
 		"title": "Feats - Metamagic/Item Creation",
 		"sources": [],
+		"searchgroup": "feat",
 		"description": [
 			"# Metamagic Feats",
 			[
@@ -1017,6 +1026,7 @@
 	"feats_grit_panache": {
 		"title": "Feats - Grit/Panache",
 		"sources": [],
+		"searchgroup": "feat",
 		"description": [
 			"# Grit Feats",
 			[
@@ -1093,6 +1103,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "unchained_summoner spells table",
@@ -1473,6 +1484,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "druid spells table",
@@ -2281,6 +2293,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "hunter spells table",
@@ -3104,6 +3117,7 @@
 	"spells_medium": {
 		"title": "All Medium Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [

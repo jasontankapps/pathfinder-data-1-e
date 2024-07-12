@@ -18,10 +18,10 @@ const PageHeader: React.FC<PropsWithChildren<{
 				</IonButtons>
 				<IonTitle>{title}</IonTitle>
 				{
-					noSearch && !hierarchy
+					noSearch && (!hierarchy || !hierarchy.length)
 						? <></>
 						: <IonButtons slot="end">
-							{hierarchy
+							{(hierarchy && hierarchy.length)
 								? (
 									<IonButton onClick={() => setHierarchyModalOpen(!isHierarchyModalOpen)}>
 										<IonIcon slot="icon-only" icon={listCircleSharp} />

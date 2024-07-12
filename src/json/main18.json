@@ -3,6 +3,7 @@
 		"title": "Monsters: A to C",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "monster",
 		"singleTable": true,
 		"tables": [
 			{
@@ -549,6 +550,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "adept spells table",
@@ -643,6 +645,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "monster",
 		"tables": [
 			{
 				"id": "monsters by cr table",

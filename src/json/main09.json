@@ -4,6 +4,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "inquisitor spells table",
@@ -677,6 +678,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "paladin spells table",
@@ -995,6 +997,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "alchemist spells table",
@@ -1420,6 +1423,7 @@
 		"title": "All Arcanist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{

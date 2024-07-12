@@ -2,6 +2,7 @@
 	"traits_combat": {
 		"title": "Combat Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
@@ -1091,6 +1092,7 @@
 	"feats_combat": {
 		"title": "Feats - Combat",
 		"sources": [ "PRPG Core Rulebook" ],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
@@ -2418,6 +2420,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "monster",
 		"tables": [
 			{
 				"id": "monsters outsiders",

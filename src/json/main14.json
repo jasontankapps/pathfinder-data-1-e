@@ -2,6 +2,7 @@
 	"spells_witch": {
 		"title": "All Witch Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [
@@ -1210,6 +1211,7 @@
 	"spells_sahirafiyun": {
 		"title": "All Sahir-Afiyun Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [
@@ -1250,6 +1252,7 @@
 		"title": "All Mesmerist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -1819,6 +1822,7 @@
 		"title": "All Shaman Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -2502,6 +2506,7 @@
 	"spells_mythic": {
 		"title": "All Mythic Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [
 			"# Mythic Spells by Class",
 			"## main/spells_mythic_arcane Arcane Classes",
@@ -2646,6 +2651,7 @@
 	"spells_mythic_arcane": {
 		"title": "Arcane Mythic Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [
 			"# Arcanist, Sorcerer and Wizard",
 			[ "{table0}" ],
@@ -3033,6 +3039,7 @@
 	"spells_mythic_divine": {
 		"title": "Divine Mythic Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [
 			"# Cleric and Oracle",
 			[ "{table0}" ],
@@ -3335,6 +3342,7 @@
 	"spells_mythic_occult": {
 		"title": "Occult Mythic Spells",
 		"sources": [],
+		"searchgroup": "spell",
 		"description": [
 			"# Medium",
 			[ "{table0}" ],

@@ -2,6 +2,7 @@
 	"monsters_2": {
 		"title": "Monsters: D to Fox",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [ "{table0}" ],
 		"singleTable": true,
 		"tables": [
@@ -577,6 +578,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "trait",
 		"tables": [
 			{
 				"id": "campaign traits",
@@ -813,6 +815,7 @@
 			],
 			[ "{table0}" ]
 		],
+		"searchgroup": "trait",
 		"tables": [
 			{
 				"id": "race traits",
@@ -1250,6 +1253,7 @@
 	},
 	"traits_social": {
 		"title": "Social Traits",
+		"searchgroup": "trait",
 		"sources": [],
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
@@ -2426,6 +2430,7 @@
 	"traits_drawback": {
 		"title": "Drawback Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[
 				"## [Anxious](trait/anxious)",
@@ -2940,6 +2945,7 @@
 	"traits_equipment": {
 		"title": "Equipment Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[
 				"## [Augmented Disguise](trait/augmented_disguise)",
@@ -3165,6 +3171,7 @@
 	"traits_family": {
 		"title": "Family Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[
 				"## [Betrayal of Trust](trait/betrayal_of_trust)",
@@ -3223,6 +3230,7 @@
 	"traits_mount": {
 		"title": "Mount Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[
 				"## [Black as Night](trait/black_as_night)",
@@ -3334,6 +3342,7 @@
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[
 				"## [The Bridge](trait/the_bridge)",
@@ -3445,6 +3454,7 @@
 	"traits_magic": {
 		"title": "Magic Traits",
 		"sources": [],
+		"searchgroup": "trait",
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
@@ -4361,6 +4371,7 @@
 		"title": "Monsters: Li to Sci",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "monster",
 		"singleTable": true,
 		"tables": [
 			{

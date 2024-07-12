@@ -3,6 +3,7 @@
 		"title": "Oozes",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "monster",
 		"singleTable": true,
 		"tables": [
 			{
@@ -92,6 +93,7 @@
 	"monsters_aligned": {
 		"title": "Aligned Monsters",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Chaotic Monsters",
 			[ "{table0}" ],
@@ -736,6 +738,7 @@
 	"monsters_unique": {
 		"title": "Unique Monsters",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Names and Descriptions",
 			[ "{table0}" ],
@@ -1079,6 +1082,7 @@
 	"monsters_mythic": {
 		"title": "Mythic Monsters",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Names and Descriptions",
 			[ "{table0}" ],
@@ -1272,6 +1276,7 @@
 	"monster_families": {
 		"title": "Monster Families",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"## family/aeon Aeon",
 			"## family/agathion Agathion",
@@ -1411,6 +1416,7 @@
 	"npcs": {
 		"title": "NPCs",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# NPCs by Class",
 			"## main/npcs_npc_classes Adepts, Aristocrats, Commoners, Experts, Warriors",
@@ -1924,6 +1930,7 @@
 	"npcs_npc_classes": {
 		"title": "NPCs: NPC Classes",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Adepts",
 			[ "{table0}" ],
@@ -2085,6 +2092,7 @@
 	"npcs_bards_sorcerers_wizards": {
 		"title": "NPCs: Core Arcane Classes",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Bards",
 			[ "{table0}" ],
@@ -2224,6 +2232,7 @@
 	"npcs_clerics_druids_paladins": {
 		"title": "NPCs: Core Divine Classes",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Clerics",
 			[ "{table0}" ],
@@ -2405,6 +2414,7 @@
 	},
 	"npcs_other_core": {
 		"title": "NPCs: Core Non-Spellcasters",
+		"searchgroup": "monster",
 		"sources": [],
 		"description": [
 			"# Barbarians",
@@ -2639,6 +2649,7 @@
 	"npcs_other": {
 		"title": "NPCs: Non-Core Classes",
 		"sources": [],
+		"searchgroup": "monster",
 		"description": [
 			"# Alchemist",
 			[
@@ -3294,6 +3305,7 @@
 	"haunts": {
 		"title": "Haunts",
 		"sources": [],
+		"searchgroup": "rule",
 		"description": [
 			[
 				"| Haunt | CR |",
@@ -3356,6 +3368,7 @@
 	"corruptions": {
 		"title": "Corruptions",
 		"sources": [],
+		"searchgroup": "rule",
 		"description": [
 			[
 				"| Corruption | Description |",
@@ -3389,6 +3402,7 @@
 		"title": "Drugs",
 		"sources": [],
 		"description": [ "{table0} "],
+		"searchgroup": "rule",
 		"tables": [
 			{
 				"id": "drugs table",

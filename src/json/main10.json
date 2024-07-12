@@ -4,6 +4,7 @@
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,
+		"searchgroup": "spell",
 		"tables": [
 			{
 				"id": "warpriest spells table",
@@ -1001,6 +1002,7 @@
 		"title": "All Bard Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -1883,6 +1885,7 @@
 	"occult_rituals": {
 		"title": "Occult Rituals",
 		"sources": [ "Occult Adventures" ],
+		"searchgroup": "spell",
 		"description": [
 			[
 				"## Occult Rituals",
@@ -1992,6 +1995,7 @@
 		"title": "All Antipaladin Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -2289,6 +2293,7 @@
 		"title": "All Magus Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{
@@ -2790,6 +2795,7 @@
 		"title": "All Occultist Spells",
 		"sources": [],
 		"description": [ "{table0}" ],
+		"searchgroup": "spell",
 		"singleTable": true,
 		"tables": [
 			{

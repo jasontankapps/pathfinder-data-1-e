@@ -2,6 +2,7 @@
 	"feats_all": {
 		"title": "Feats - All",
 		"sources": [ "PRPG Core Rulebook" ],
+		"searchgroup": "feat",
 		"description": [
 			[
 				"**Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)",
