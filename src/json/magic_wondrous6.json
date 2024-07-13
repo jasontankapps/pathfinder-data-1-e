@@ -1865,6 +1865,7 @@
 					[ "[Sepia](magic/ioun/sepia_ellipsoid)", "Normal", "Ellipsoid", "Contains the powers of multiple ioun stones, but also drains powers from nearby ioun stones", 68000 ],
 					[ "[Pale Orange](magic/ioun/pale_orange_rhomboid)", "Normal", "Rhomboid", "Store your soul prior to death", 200000 ]
 				],
+				"ripples": [0],
 				"initialColumn": 4,
 				"nullValue": "None",
 				"className": "ioun"

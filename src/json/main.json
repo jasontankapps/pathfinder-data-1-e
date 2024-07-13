@@ -107,6 +107,7 @@
 					["[Wyvaran](race/wyvaran)",[3,"Rare"],"[Yes](monster/wyvaran)","These creatures are the result of magical draconic experiments at crossbreeding wyverns and kobolds."],
 					["[Yaddithian](race/yaddithian)",[3,"Rare"],"[Yes](monster/yaddithian)","Yaddithians are an ancient race of scholarly starfarers"]
 				],
+				"ripples": [0],
 				"initialColumn": 1,
 				"nullValue": "",
 				"className": "endcaps"
@@ -165,6 +166,7 @@
 					[ "[Swim](skill/swim)", "STR", null, "X", null, null, "You know how to swim and can do so even in stormy water." ],
 					[ "[Use Magic Device](skill/use_magic_device)", "CHA", "X", null, null, null, "You are skilled at activating magic items, even if you are not otherwise trained in their use." ]
 				],
+				"ripples": [0],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "endcaps"
@@ -185,6 +187,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "General feats table",
 				"data": [
 					[ "[Aberrant Tumor](feat/aberrant_tumor)", "Aberrant bloodline.", "Gain a tumor familiar" ],
@@ -1886,6 +1889,7 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
+				"ripples": [0],
 				"className": "endcaps",
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
@@ -2561,6 +2565,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Critical feats table",
 				"data": [
 					[ "[Accursed Critical](feat/accursed_critical)", "[Critical Focus](feat/critical_focus), ability to cast bestow curse or major curse, caster level 9th.", "Confirm a critical hit and cast a curse as part of the attack" ],
@@ -2600,6 +2605,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Familiar feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Decoy's Misdirection](feat/decoy's_misdirection)", "Must have a familiar with the decoy archetype.", "Fool scry attempts using your familiar" ],
 					[ "[Emissary's Emboldening](feat/emissary's_emboldening)", "Must have a familiar with the emissary archetype.", "Resist fear effects when your familiar is near" ],
@@ -2618,6 +2624,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Achievement feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Chainbreaker](feat/chainbreaker)", "Over the course of at least five different occasions, free a cumulative total of 50+ sentient beings held in unjust captivity.", "Gain a bonus to damage against slave-traders or masters" ],
 					[ "[Devil's Foe](feat/devil's_foe)", "Face 10 different devils in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them.", "Attacks count as good-aligned when bypassing a devil's DR" ],
@@ -2631,6 +2638,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Alignment feats table",
 				"data": [
 					[ "[Champion of Anarchy](feat/champion_of_anarchy)", "10 Hit Dice, chaotic neutral alignment.", "You spread chaos wherever you go." ],
@@ -2650,6 +2658,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Blood Hex feats table",
 				"data": [
 					[ "[Abeyance](feat/abeyance)", "Int 13, Spellcraft 5 ranks, Use Magic Device 1 rank.", "Blood curse causes a creature to lose access to it's spell-like abilities" ],
@@ -2669,6 +2678,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Called Shot feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Greater Called Shot](feat/greater_called_shot)", "Int 13, [Combat Expertise](feat/combat_expertise), [Improved Called Shot](feat/improved_called_shot), base attack bonus +6.", "You can make multiple called shots per round" ],
 					[ "[Improved Called Shot](feat/improved_called_shot)", "Int 13, [Combat Expertise](feat/combat_expertise).", "Gain a bonus on attack rolls while making called shots" ]
@@ -2680,6 +2690,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Targeting feats table",
 				"data": [
 					[ "[Ace Disarm](feat/ace_disarm)", "Dex 13, [Deadly Aim](feat/deadly_aim), [Ranged Disarm](feat/ranged_disarm) base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range" ],
@@ -2695,6 +2706,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Combination feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Combat Rhythm](feat/combat_rhythm)", "", "Reduce penalties to your attacks with successive hits against the same target" ],
 					[ "[Cracking the Shell](feat/cracking_the_shell)", "[Weapon Focus](feat/weapon_focus) with piercing weapon.", "Use a piercing weapon to reduce a creature's spell resistance or energy resistance" ],
@@ -2711,6 +2723,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Conduit feats table",
 				"data": [
 					[ "[Axiomatic Discourse](feat/axiomatic_discourse)", "Diplomacy 3 ranks, Knowledge (planes) 3 ranks.", "Your Diplomacy checks have a lower chance of backfiring" ],
@@ -2745,6 +2758,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Esoteric feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Esoteric Abjuration](feat/esoteric_abjuration)", "", "Your abjuration spells give the target a +1 competence bonus to a single saving throw for the duration of the spell" ],
 					[ "[Esoteric Conjuration](feat/esoteric_conjuration)", "", "Your conjuration spells that summon creatures grant them partial concealment for 1 round" ],
@@ -2764,6 +2778,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Performance feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Awe-Inspiring Smash](feat/awe-inspiring_smash)", "Str 15, [Power Attack](feat/power_attack), base attack bonus +3.", "Apply your Strength modifier instead of Charisma on performance combat checks" ],
 					[ "[Black Powder Spectacle](feat/black_powder_spectacle)", "Amateur Gunslinger or the grit class feature, base attack bonus +4.", "Gain a bonus on Intimidate and Perform checks by making a grand spectacle with your firearm" ],
@@ -2788,6 +2803,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Words of Power feats table",
 				"data": [
 					[ "[Experimental Spellcaster](feat/experimental_spellcaster)", "Ability to cast spells.", "Gain access to minor wordcasting" ],
@@ -2802,6 +2818,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Faction feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Advanced Defensive Combat Training](feat/advanced_defensive_combat_training)", "[Defensive Combat Training](feat/defensive_combat_training), Bellflower Network 10 TPA.", "Gain a +4 bonus to your CMD" ],
 					[ "[Bloodstone Manhunter](feat/bloodstone_manhunter)", "Bloodstone Swords 10 TPA.", "Become better skilled at fighting criminal humans" ],
@@ -2829,6 +2846,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Gathlain Court Title feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Ineffable Count of the Clock](feat/ineffable_count_of_the_clock)", "Fey creature type or [Fey Obedience](feat/fey_obedience) (Shyka), you must have either visited or interacted with an outsider from the Dimension of Time.", "You can borrow speed from the future" ],
 					[ "[Knight of the Twisted Word](feat/knight_of_the_twisted_word)", "Fey creature type or [Fey Obedience](feat/fey_obedience) (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat.", "Gain glibness as a spell-like ability used once per day" ],
@@ -2842,6 +2860,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "Hero Point feats table",
 				"data": [
 					[ "[Blood of Heroes](feat/blood_of_heroes)", "Hero's Fortune.", "Gain 2 hero points when leveling up." ],
@@ -2856,6 +2875,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Origin feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Chance Death](feat/chance_death)", "Duskwalker.", "Reroll a failed attack or saving throw that would have resulted in your death" ],
 					[ "[Deliberate Death](feat/deliberate_death)", "Duskwalker.", "When reduced below 0 hit points by a creature, you can attack them as an immediate action" ],
@@ -2875,6 +2895,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Damnation feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Fiendskin](feat/fiendskin)", "", "Gain defensive abilities related to your patron's outsider subtype" ],
 					[ "[Maleficium](feat/maleficium)", "", "Cast evil spells with increased potency" ],

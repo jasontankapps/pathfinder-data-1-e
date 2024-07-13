@@ -4,7 +4,7 @@ import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
 import DisplayTable from './DisplayTable';
 import { Table } from '../types';
-import { IonItem, IonItemDivider, IonLabel } from '@ionic/react';
+import { IonItem, IonItemDivider, IonLabel, IonRippleEffect } from '@ionic/react';
 
 export interface DisplayMainItemProps {
 	description: (string | string[])[]
@@ -44,7 +44,15 @@ const plugins = [remarkGfm];
 
 const doLink = (props: MDaProps) => {
 	const { href = "", children } = props;
+	if(href.match(/^\//)) {
+		// Initial slash indicates this needs a ripple.
+		return <Link to={href}>{children}<IonRippleEffect /></Link>
+	}
 	return <Link to={"/" + href}>{children}</Link>
+};
+
+const td = (props: MDpProps) => {
+	return <td className="ion-activatable">{props.children}</td>;
 };
 
 const p = (props: MDpProps, tables: Table[]) => {
@@ -125,13 +133,15 @@ const makeComponents = (tables: Table[]) => {
 		h2,
 		h3,
 		h6,
-		hr
+		hr,
+		td
 	};
 };
 const makeBasicComponents = (tables: Table[]) => {
 	return {
 		a: doLink,
-		p: (props: MDpProps) => p(props, tables)
+		p: (props: MDpProps) => p(props, tables),
+		td
 	};
 };
 

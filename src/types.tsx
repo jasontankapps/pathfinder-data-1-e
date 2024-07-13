@@ -32,6 +32,8 @@ export interface Table {
 	nullValue?: string
 	// the CSS class to assign to the table
 	className: string
+	// cells that are only going to contain links
+	ripples?: number[]
 }
 
 export interface DisplayItemProps {

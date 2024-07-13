@@ -3811,6 +3811,7 @@
 				"id": "monster cohorts",
 				"headers": [ "Monster", "Cohort Level" ],
 				"types": [ null, "num" ],
+				"ripples": [0],
 				"data": [
 					[  "[Adlet](monster/adlet)", 14 ],
 					[  "[Ahuizotl](monster/ahuizotl)", 11 ],

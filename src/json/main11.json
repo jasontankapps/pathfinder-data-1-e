@@ -12,6 +12,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1128,6 +1129,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -3028,6 +3030,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Daze](spell/daze)", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action." ],

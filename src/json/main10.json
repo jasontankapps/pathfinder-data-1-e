@@ -12,6 +12,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
@@ -1011,6 +1012,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Dancing Lights](spell/dancing_lights)", 0, "evocation", null, "light", "Creates torches or other lights." ],
 					[ "[Daze](spell/daze)", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action." ],
@@ -1902,6 +1904,7 @@
 				"id": "occult rituals table",
 				"headers": [ "Ritual", "Level", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Analytical Congress](spell/analytical_congress)", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],
 					[ "[Avoidance Ward](spell/avoidance_ward)", 4, "enchantment", "Prevents creatures of a specific type or subtype from interacting with a specific door." ],
@@ -2004,6 +2007,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Animal Purpose Training](spell/animal_purpose_training)", 1, "enchantment", "compulsion", "mind-affecting", "Animal gains a new general purpose." ],
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -2302,6 +2306,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -2804,6 +2809,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],

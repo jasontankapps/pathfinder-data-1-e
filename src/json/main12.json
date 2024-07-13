@@ -12,6 +12,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Dancing Lights](spell/dancing_lights)", 0, "evocation", null, "light", "Creates torches or other lights." ],
 					[ "[Daze](spell/daze)", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action." ],
@@ -880,6 +881,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -2792,6 +2794,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Alchemical Tinkering](spell/alchemical_tinkering)", 1, "transmutation", null, null, "Transform an alchemical item or firearm into another similar item." ],
 					[ "[Alter Musical Instrument](spell/alter_musical_instrument)", 1, "illusion", "figment", null, "Make one instrument sound like a different kind of instrument." ],
@@ -3084,6 +3087,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Barbed Chains](spell/barbed_chains)", 1, "conjuration", "summoning", "emotion, fear, mind-affecting", "Hellish chains attack and cause a target to become shaken" ],
 					[ "[Batrachian Surge](spell/batrachian_surge)", 1, "transmutation", null, null, "Amplify your latent amphibian nature" ],

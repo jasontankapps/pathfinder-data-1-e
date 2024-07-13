@@ -12,6 +12,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -686,6 +687,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Abadar's Truthtelling](spell/abadar's_truthtelling)", 1, "enchantment", "compulsion", "mind-affecting", "Force the target to speak the truth." ],
 					[ "[Alleviate Addiction](spell/alleviate_addiction)", 1, "conjuration", "healing", null, "Ignore the effects of addictions." ],
@@ -1005,6 +1007,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Abjuring Step](spell/abjuring_step)", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
 					[ "[Adhesive Spittle](spell/adhesive_spittle)", 1, "conjuration", "creation", null, "Spit a tanglefoot bag at a creature." ],
@@ -1432,6 +1435,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],

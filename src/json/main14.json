@@ -12,6 +12,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1221,6 +1222,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Alleviate Addiction](spell/alleviate_addiction)", 1, "conjuration", "healing", null, "Ignore the effects of addictions." ],
 					[ "[Confusion, Lesser](spell/confusion,_lesser)", 1, "enchantment", "compulsion", "mind-affecting", "One creature is confused for 1 round." ],
@@ -1261,6 +1263,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Dancing Lights](spell/dancing_lights)", 0, "evocation", null, "light", "Creates torches or other lights." ],
@@ -1831,6 +1834,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -2520,6 +2524,7 @@
 				"id": "mythic spells table",
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Animate Plants](spell/animate_plants)", 7, "transmutation", "One or more plants animate and fight for you." ],
 					[ "[Antimagic Field](spell/antimagic_field)", [ 6.711, "6-8" ], "abjuration", "Negates magic within 10 ft." ],
@@ -2679,6 +2684,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Break](spell/break)", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -2771,6 +2777,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -2803,6 +2810,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -2835,6 +2843,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
 					[ "[Reduce Person](spell/reduce_person)", 1, "transmutation", null, null, "Humanoid creature halves in size." ],
@@ -2855,6 +2864,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
 					[ "[Obscuring Mist](spell/obscuring_mist)", 1, "conjuration", "creation", null, "Fog surrounds you." ],
@@ -2876,6 +2886,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Chord of Shards](spell/chord_of_shards)", 1, "evocation", null, null, "Performance deals 2d6 piercing damage." ],
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -2905,6 +2916,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "[Color Spray](spell/color_spray)", 1, "illusion", "pattern", "mind-affecting", "Knocks unconscious, blinds, and/or stuns weak creatures." ],
@@ -2948,6 +2960,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -3000,6 +3013,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Break](spell/break)", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -3067,6 +3081,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -3114,6 +3129,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Call Animal](spell/call_animal)", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -3151,6 +3167,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Call Animal](spell/call_animal)", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -3168,6 +3185,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Call Animal](spell/call_animal)", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -3199,6 +3217,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -3230,6 +3249,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -3269,6 +3289,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -3286,6 +3307,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -3305,6 +3327,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -3362,6 +3385,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Command](spell/command)", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
 					[ "[Ear-Piercing Scream](spell/ear-piercing_scream)", 1, "evocation", null, "sonic", "Deal sonic damage and daze target." ],
@@ -3391,6 +3415,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bane](spell/bane)", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "[Call Animal](spell/call_animal)", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -3426,6 +3451,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Break](spell/break)", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "[Burning Hands](spell/burning_hands)", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -3475,6 +3501,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Break](spell/break)", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "[Color Spray](spell/color_spray)", 1, "illusion", "pattern", "mind-affecting", "Knocks unconscious, blinds, and/or stuns weak creatures." ],
@@ -3535,6 +3562,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Cure Light Wounds](spell/cure_light_wounds)", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "[Endure Elements](spell/endure_elements)", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],

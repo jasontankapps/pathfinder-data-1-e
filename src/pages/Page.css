@@ -41,6 +41,12 @@ div.loadingPage ion-text {
 	padding-block-end: 2rem;
 }
 
+/* Sources Modal */
+
+ion-item.sourceLink {
+	color: var(--ion-color-primary);
+}
+
 /* Main */
 
 div.main ion-list ion-item.mainItem {
@@ -112,6 +118,10 @@ div.basicContent ion-list ion-item.mainItem.singleTable {
 div.tableWrap {
 	overflow-x: scroll;
 }
+table tr td {
+	/* This is so linked cells will ripple */
+	position: relative;
+}
 table {
 	--tableborder: 2px solid var(--ion-color-light-tint);
 	background: var(--ion-color-light-shade);
@@ -129,6 +139,7 @@ table tr td {
 }
 table tr td {
 	text-align: var(--alignment);
+	position: relative;
 }
 table tr td a {
 	text-decoration: none;

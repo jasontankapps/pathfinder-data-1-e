@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
-import { IonIcon } from '@ionic/react';
+import { IonIcon, IonRippleEffect } from '@ionic/react';
 import { caretDown, caretUp } from 'ionicons/icons';
 import Markdown from 'react-markdown';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
@@ -18,6 +18,7 @@ interface ThProps {
 interface TdProps {
 	datum: Datum
 	type: TableColumnInfoTypes
+	hasRipple: boolean
 }
 
 const translateGp = (gp: number, adjustment: boolean = false): string => {
@@ -70,7 +71,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	);
 };
 
-const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
+const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
 	let text = "";
 	const [ test, output ] = Array.isArray(datum) ? datum : [ datum, datum ];
 	switch(type) {
@@ -133,11 +134,11 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 		default:
 			text = typeof output === "string" ? output : String(output);
 	}
-	return <td><Markdown>{text}</Markdown></td>;
+	return <td className={hasRipple ? "ion-activatable" : ""}><Markdown>{text}</Markdown>{hasRipple? <IonRippleEffect /> : <></>}</td>;
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
-	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;" } = table;
+	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;", ripples = [] } = table;
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
 	const sorter: TriggerSortFunc = useCallback((index, descending) => {
@@ -165,10 +166,11 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				type={types[j]}
 				datum={cell === null ? nullValue : cell}
 				key={`table/${id}/row/${i}/cell/${j}`}
+				hasRipple={ripples.indexOf(j) > -1}
 			/>;
 		});
 		return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
-	}), [rows, types, nullValue, id]);
+	}), [rows, types, nullValue, id, ripples]);
 	return (
 		<div className="tableWrap">
 			<table key={`table/${id}`} className={className}>

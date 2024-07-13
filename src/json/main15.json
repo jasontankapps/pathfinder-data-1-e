@@ -10,6 +10,7 @@
 				"id": "all monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aashaq's Wyvern](monster/aashaq's_wyvern)", 8, "dragon", [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
 					[ "[Aasimar](monster/aasimar)", [ -2, "1/2" ], "outsider", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],

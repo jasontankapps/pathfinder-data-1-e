@@ -10,6 +10,7 @@
 				"id": "monsters fr le",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Freezing Flow](monster/freezing_flow)", 4, "ooze", [ 5, "large" ], [ 4, "N" ], "This transparent blue formation of ice is as forbidding as the serpent it resembles." ],
 					[ "[Frightful Haunter](monster/frightful_haunter)", 8, "undead", [ 4, "medium" ], [ 8, "CE" ], "The mist forms a roughly humanoid shape. Its features are indistinct, except for its clawed hands and hairy, fanged face." ],
@@ -575,6 +576,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Abjuring Step](spell/abjuring_step)", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
 					[ "[Adhesive Spittle](spell/adhesive_spittle)", 1, "conjuration", "creation", null, "Spit a tanglefoot bag at a creature." ],
@@ -994,6 +996,7 @@
 				"id": "monsters abberations",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aatheriexa](monster/aatheriexa)", 7, "aberration", null, [ 4, "medium" ], [ 5, "NE" ], "A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each projecting an air of cruelty." ],
 					[ "[Akaname](monster/akaname)", 1, "aberration", null, [ 3, "small" ], [ 4, "N" ], "This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular tongue drags on the ground beneath it." ],
@@ -1176,6 +1179,7 @@
 				"id": "monsters animals",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Ape, Dire Ape (Gigantopithecus)](monster/ape,_dire_ape_gigantopithecus)", 3, "animal", null, [ 5, "large" ], [ 4, "N" ], "Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws." ],
 					[ "[Ape, Gorilla](monster/ape,_gorilla)", 2, "animal", null, [ 5, "large" ], [ 4, "N" ], "Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles." ],
@@ -1487,6 +1491,7 @@
 				"id": "monsters constructs",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aballonian](monster/aballonian)", 7, "construct", null, [ 4, "medium" ], [ 4, "N" ], "This insectile construct skitters around on metallic legs, its manipulators clacking and glowing eyes searching." ],
 					[ "[Abandoned Armory](monster/abandoned_armory)", 13, "construct", null, [ 6, "huge" ], [ 5, "NE" ], "This aggregation of weapons, armor, and other tools of war looms like a slow avalanche of twisted iron and eldritch sparks." ],
@@ -1680,6 +1685,7 @@
 				"id": "monsters dragons",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aashaq's Wyvern](monster/aashaq's_wyvern)", 8, "dragon", null, [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
 					[ "[Amphiptere](monster/amphiptere)", 4, "dragon", null, [ 5, "large" ], [ 4, "N" ], "This snake-bodied dragon has a sinuous tail with a spiked tip. Flared wings attach to its forelimbs, and it lacks rear legs." ],
@@ -1874,6 +1880,7 @@
 				"id": "monsters fey",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Alp](monster/alp)", 10, "fey", null, [ 4, "medium" ], [ 7, "CN" ], "This hoofed creature's large yellow eyes are set in a noseless face above a grinning, fang-filled mouth." ],
 					[ "[Alpluachra](monster/alpluachra)", [ -2, "1/2" ], "fey", "aquatic", [ 1, "diminutive" ], [ 7, "CN" ], "This minuscule creature resembles a newt with three tails. It's covered in a transparent slime, and looks hungry." ],
@@ -2015,6 +2022,7 @@
 				"id": "monsters humanoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abysogh](monster/abysogh)", 15, "humanoid", "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
 					[ "[Adlet](monster/adlet)", 10, "humanoid", "adlet, cold", [ 4, "medium" ], [ 7, "CN" ], "This humanoid wolf's fur is snowy white and its eyes piercing blue; it grips an ornate spear in its fist." ],
@@ -2342,6 +2350,7 @@
 				"id": "monsters giants",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abysogh](monster/abysogh)", 15, "humanoid", "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
 					[ "[Athach](monster/athach)", 12, "humanoid", "giant", [ 6, "huge" ], [ 8, "CE" ], "This giant's maw contains a pair of dripping tusks, but it is its gangly third arm that makes its appearance truly bizarre." ],
@@ -2454,6 +2463,7 @@
 				"id": "monsters goblinoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Bugbear](monster/bugbear)", 2, "humanoid", "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],
 					[ "[Bugbear, Bugbear Ambusher](monster/bugbear,_bugbear_ambusher)", 10, "humanoid", "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],

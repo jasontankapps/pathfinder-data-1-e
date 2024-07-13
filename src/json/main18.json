@@ -10,6 +10,7 @@
 				"id": "monsters a c",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aashaq's Wyvern](monster/aashaq's_wyvern)", 8, "dragon", [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
 					[ "[Aasimar](monster/aasimar)", [ -2, "1/2" ], "outsider", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
@@ -558,6 +559,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
 					[ "[Detect Magic](spell/detect_magic)", 0, "divination", null, null, "Detects spells and magic items within 60 ft." ],
@@ -651,6 +653,7 @@
 				"id": "monsters by cr table",
 				"headers": [ "Monster", "Type", "Size", "CR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"ripples": [0],
 				"data": [
 					[ "[Familiar, Bat](monster/familiar,_bat)", "animal", [ 1, "diminutive" ], [ -8, "1/8" ], 1, 15, 6, 2, 14, 5, 0, -2, 3 ],
 					[ "[Familiar, Cockroach](monster/familiar,_cockroach)", "vermin", [ 1, "diminutive" ], [ -8, "1/8" ], 1, 15, 14, null, 11, 2, 0, -2, 3 ],

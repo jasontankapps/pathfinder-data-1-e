@@ -20,6 +20,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Meditation feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Bend with the Wind](feat/bend_with_the_wind)", "Wis 15, [Body Control](feat/body_control), [Endurance](feat/endurance), [Meditation Master](feat/meditation_master).", "Gain cold and fire resist 5." ],
 					[ "[Body Control](feat/body_control)", "Wis 11, [Meditation Master](feat/meditation_master).", "+1 Fort vs. poison, disease, starvation, fatigue/exhausted effects. Eat less food, drink less water, sleep half as much." ],
@@ -88,6 +89,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Weapon Mastery feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Ace Disarm](feat/ace_disarm)", "Dex 13, [Deadly Aim](feat/deadly_aim), [Ranged Disarm](feat/ranged_disarm) base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range" ],
 					[ "[Ace Trip](feat/ace_trip)", "Dex 13, [Deadly Aim](feat/deadly_aim), [Ranged Trip](feat/ranged_trip), base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Trip, make special ranged trips against flying creatures" ],
@@ -115,6 +117,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Armor Mastery feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Armor Material Expertise](feat/armor_material_expertise)", "Base attack bonus +6 or fighter level 4th, armor training class feature.", "Gain a benefit based on your armor's special material" ],
 					[ "[Armor Material Mastery](feat/armor_material_mastery)", "[Armor Material Expertise](feat/armor_material_expertise), base attack bonus +11 or fighter level 8th, armor training class feature.", "Use Armor Material Expertise two additional times per day" ],
@@ -136,6 +139,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Shield Mastery feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Cushioning Shield](feat/cushioning_shield)", "[Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.", "Tranfer half your falling damage to your shield" ],
 					[ "[Defended Movement](feat/defended_movement)", "[Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.", "Gain +2 AC vs attacks of opportunity" ],
@@ -160,6 +164,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Item Mastery feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Ability Mastery](feat/ability_mastery)", "Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.", "Gain an enhancement bonus to an ability score with a suit of magic armor or transmutation-crafted item" ],
 					[ "[Compulsion Mastery](feat/compulsion_mastery)", "Use Magic Device 3 ranks, base Fortitude save bonus +6.", "Cast suggestion with an enchantment-crafted item" ],
@@ -222,6 +227,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Monster feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Ability Focus](feat/ability_focus)", "Special attack.", "Increase the DC of a special attack by 2." ],
 					[ "[Awesome Blow](feat/awesome_blow)", "Str 25, [Power Attack](feat/power_attack), [Improved Bull Rush](feat/improved_bull_rush), size Large or larger.", "Learn a maneuver to send opponent's flying backwards." ],
@@ -291,6 +297,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Teamwork feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Alien Mindpaths](feat/alien_mindpaths)", "Android, kasatha, lashunta, or Triaxian.", "Gain +4 on saves vs. mind-affecting effects and scrying" ],
 					[ "[Allied Spellcaster](feat/allied_spellcaster)", "Caster level 1st.", "+2 bonus on level checks to overcome spell resistance" ],
@@ -490,6 +497,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Betrayal feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Ally Shield](feat/ally_shield)", "", "Use your allies as shields" ],
 					[ "[Callous Casting](feat/callous_casting)", "Spellcraft 1 rank.", "Include allies in the area of your spells to dishearten your enemies" ],
@@ -506,6 +514,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Coven feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Familiar Link](feat/familiar_link)", "Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st.", "Within your coven, you have formed a bond with your fellow witches' familiars" ],
 					[ "[Metamagical Synergy](feat/metamagical_synergy)", "[Allied Spellcaster](feat/allied_spellcaster).", "You and the other members of your coven can weave your spells together to great effect" ]
@@ -544,6 +553,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Stare feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Bleeding Stare](feat/bleeding_stare)", "Mesmerist level 5th, painful stare class feature.", "Painful stare causes bleed damage" ],
 					[ "[Blinding Stare](feat/blinding_stare)", "Mesmerist level 7th, painful stare class feature.", "Painful stare inflicts blindness" ],
@@ -570,6 +580,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Trick feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Bouncing Trick](feat/bouncing_trick)", "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
 					[ "[Contingent Trick](feat/contingent_trick)", "Any two trick feats.", "Implant a flexible trick that has multiple options" ],
@@ -630,6 +641,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Story feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Accursed](feat/accursed)", "You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the Cursed Birth background.", "Gain SR 5 + level, cannot be lowered" ],
 					[ "[Agent of Purity](feat/agent_of_purity)", "A friend or ally must have been significantly corrupted by a specific natural or supernatural blight, or you must have a regional background trait tied to a specific blight.", "Gain combat bonuses against blighted creatures" ],
@@ -733,6 +745,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Style feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Aldori Style](feat/aldori_style)", "[Alertness](feat/alertness), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).", "Gain a +2 bonus to damage when fighting defensively or using Combat Expertise" ],
 					[ "[Archon Style](feat/archon_style)", "[Combat Expertise](feat/combat_expertise); [Combat Reflexes](feat/combat_reflexes); base attack bonus +2 or monk level 1st.", "Grant bonus to AC to allies against single opponent's attacks" ],
@@ -897,6 +910,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Metamagic feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Apocalyptic Spell](feat/apocalyptic_spell)", "", "Area affected by spell becomes difficult to move in" ],
 					[ "[Aquatic Spell](feat/aquatic_spell)", "", "Spell functions normally underwater" ],
@@ -991,6 +1005,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Item Creation feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Aligned Crafting](feat/aligned_crafting)", "Craft Magic Arms and Armor or Craft Wondrous Item.", "Create magic items infused with your alignment" ],
 					[ "[Brew Potion](feat/brew_potion)", "Caster level 3rd.", "Create magic potions" ],
@@ -1050,6 +1065,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Grit feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Battering Ram](feat/battering_ram)", "Craft (alchemy) 3 ranks; grit class feature or Amateur Gunslinger; pistol-whip gunslinger deed; quick clear gunslinger deed.", "Use the pistol-whip deed to remove your gun's broken condition after a misfire" ],
 					[ "[Blowout Shot Deed](feat/blowout_shot_deed)", "Craft (alchemy) 3 ranks, grit class feature or Amateur Gunslinger feat.", "Create concussive blasts with a specially prepared black powder mix" ],
@@ -1081,6 +1097,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Panache feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Confounding Tumble Deed](feat/confounding_tumble_deed)", "Amateur Swashbuckler feat or panache class feature, [Canny Tumble](feat/canny_tumble), Acrobatics 7 ranks.", "When you avoid attacks of opportunity and hit a foe, you can deny it its Dex bonus to AC for 1 round" ],
 					[ "[Dastardly Trick](feat/dastardly_trick)", "Int 13; Amateur Swashbuckler or panache class feature; [Combat Expertise](feat/combat_expertise); [Improved Dirty Trick](feat/improved_dirty_trick).", "Your dirty tricks are harder to remove" ],
@@ -1111,6 +1128,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Acid Splash](spell/acid_splash)", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
 					[ "[Arcane Mark](spell/arcane_mark)", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -1492,6 +1510,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Chameleon Scales](spell/chameleon_scales)", 0, "transmutation", null, null, "Change the color of your skin to something else." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
@@ -2301,6 +2320,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Chameleon Scales](spell/chameleon_scales)", 0, "transmutation", null, null, "Change the color of your skin to something else." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
@@ -3127,6 +3147,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Dancing Lights](spell/dancing_lights)", 0, "evocation", null, "light", "Creates torches or other lights." ],

@@ -22,6 +22,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
+				"ripples": [0],
 				"id": "all feats table",
 				"data": [
 					[ "[Aberrant Tumor](feat/aberrant_tumor)", "General", "Aberrant bloodline.", "Gain a tumor familiar" ],

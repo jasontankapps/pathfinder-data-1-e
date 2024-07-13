@@ -17,6 +17,20 @@ const searchgroups = [
 	"monster", // 11
 	"rule", // 12
 ];
+const searchindex = [
+	"Classes and Class Abilities", // 1
+	"Class Archetypes", // 2
+	"Feats", // 3
+	"Traits", // 4
+	"Magic Items", // 5
+	"Equipment", // 6
+	"Technology", // 7
+	"Spells", // 8
+	"Races", // 9
+	"Deities/Faiths", // 10
+	"Monsters", // 11
+	"Rules" // 12
+];
 // The below will need to be updated if any files are modified/created/deleted.
 const basic_data_groups = {
 	// filename: [property_prefix, link/prefix# (or zero if none), human-readable description]
@@ -1858,7 +1872,7 @@ fs.writeFileSync('./src/json/_data__fuse-translated_data.json', JSON.stringify({
 	data: dataIndex,
 	types,
 	prefixes,
-	searchgroups
+	searchindex
 }));
 console.log("Saved _data__fuse-translated-data.json");
 

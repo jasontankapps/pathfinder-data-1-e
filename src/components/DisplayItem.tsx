@@ -2,6 +2,7 @@ import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes } fr
 import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
+import { IonRippleEffect } from '@ionic/react';
 import DisplayTable from './DisplayTable';
 import { DisplayItemProps, Table } from '../types';
 
@@ -12,6 +13,10 @@ const plugins = [remarkGfm];
 
 const doLink = (props: MDaProps) => {
 	const { href = "", children } = props;
+	if(href.match(/^\//)) {
+		// Initial slash indicates this needs a ripple.
+		return <Link to={href}>{children}<IonRippleEffect /></Link>
+	}
 	return <Link to={"/" + href}>{children}</Link>
 };
 
@@ -29,10 +34,15 @@ const p = (props: MDpProps, tables: Table[]) => {
 	return <p>{children}</p>;
 };
 
+const td = (props: MDpProps) => {
+	return <td className="ion-activatable">{props.children}</td>;
+};
+
 const makeComponents = (tables: Table[]) => {
 	return {
 		a: doLink,
-		p: (props: MDpProps) => p(props, tables)
+		p: (props: MDpProps) => p(props, tables),
+		td
 	};
 };
 

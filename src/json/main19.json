@@ -10,6 +10,7 @@
 				"id": "monsters magical beasts",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abaia](monster/abaia)", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
 					[ "[Addu](monster/addu)", 15, "magical beast", "aquatic", [ 7, "gargantuan" ], [ 4, "N" ], "Striped with the brilliant colors of a maritime sunset, this beast winds its enormous body through the waves, a pair of wiry, talon-tipped arms and a snout full of horrendous teeth preceding a fan of razorlike fins." ],
@@ -269,6 +270,7 @@
 				"id": "monsters monstrous humanoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Adaro](monster/adaro)", 3, "monstrous humanoid", "aquatic", [ 4, "medium" ], [ 5, "NE" ], "This hybrid of human and shark holds its spear menacingly, thick, glistening saliva dripping from its razor-sharp teeth." ],
 					[ "[Adherer](monster/adherer)", 3, "monstrous humanoid", null, [ 4, "medium" ], [ 2, "LE" ], "This pallid humanoid creature is wrapped in wispy strips of skin, with bits of detritus and a sour stink clinging to it." ],
@@ -430,6 +432,7 @@
 				"id": "monsters elementals",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aerial Servant](monster/aerial_servant)", 11, "outsider", "air, elemental, extraplanar", [ 4, "medium" ], [ 4, "N" ], "A faint ripple in the air suggests a hazy and vaguely humanoid vapor moving with terrible swiftness." ],
 					[ "[Ahkhat](monster/ahkhat)", 4, "outsider", "earth, elemental, native", [ 3, "small" ], [ 4, "N" ], "The materials of the building stretch and pull as if elastic, taking on the form of an earthen humanoid with thick stony arms." ],
@@ -531,6 +534,7 @@
 				"id": "monsters extraplanar outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Achaierai](monster/achaierai)", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
 					[ "[Aeon, Agnoia](monster/aeon,_agnoia)", 14, "outsider", "aeon, extraplanar", [ 5, "large" ], [ 4, "N" ], "This cylindrical creature of pale fog and dark shadow stands on three clawed feet. Three pale arms jut from around the column, each ending in a hand with long, black claws." ],
@@ -1028,6 +1032,7 @@
 				"id": "monsters native outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aasimar](monster/aasimar)", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
 					[ "[Ahkhat](monster/ahkhat)", 4, "outsider", "earth, elemental, native", [ 3, "small" ], [ 4, "N" ], "The materials of the building stretch and pull as if elastic, taking on the form of an earthen humanoid with thick stony arms." ],
@@ -1133,6 +1138,7 @@
 				"id": "monsters plants",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Alraune](monster/alraune)", 13, "plant", null, [ 5, "large" ], [ 5, "NE" ], "An attractive green-skinned woman sits in the depths of this enormous, sweet-smelling flower." ],
 					[ "[Ascomoid](monster/ascomoid)", 5, "plant", null, [ 5, "large" ], [ 4, "N" ], "This misshapen sphere of pale yellow-green fungus rolls with an unnerving speed, spewing clouds of foul spores as it advances." ],
@@ -1263,6 +1269,7 @@
 				"id": "monsters undead",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abandoned One](monster/abandoned_one)", 4, "undead", null, [ 4, "medium" ], [ 8, "CE" ], "This corpse of a soldier is twisted and ghoulish, its old-fashioned clothes are caked in mud, and its is expression lost and forlorn." ],
 					[ "[Abhominal](monster/abhominal)", 6, "undead", null, [ 4, "medium" ], [ 5, "NE" ], "This gaunt humanoid has pale, translucent skin and is arched backward, scuttling on its hands and feet. A mass of barbed, black tentacles extends from its exposed abdomen." ],
@@ -1496,6 +1503,7 @@
 				"id": "monsters vermin",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Ant Lion, Giant Adult Ant Lion](monster/ant_lion,_giant_adult_ant_lion)", 6, "vermin", null, [ 6, "huge" ], [ 4, "N" ], "This spindly insect, borne aloft on four delicate wings, snaps its mandibles in obvious hunger." ],
 					[ "[Ant Lion, Giant Ant Lion](monster/ant_lion,_giant_ant_lion)", 5, "vermin", null, [ 5, "large" ], [ 4, "N" ], "This gigantic burrowing insect has an oversized abdomen. A terrifying set of long, hooked mandibles protrudes from its head." ],
@@ -1659,6 +1667,7 @@
 				"id": "monsters aquatic",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abaia](monster/abaia)", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
 					[ "[Adaro](monster/adaro)", 3, "monstrous humanoid", "aquatic", [ 4, "medium" ], [ 5, "NE" ], "This hybrid of human and shark holds its spear menacingly, thick, glistening saliva dripping from its razor-sharp teeth." ],
@@ -1924,6 +1933,7 @@
 				"id": "monsters incorporeal",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Allip](monster/allip)", 3, "undead", "incorporeal", [ 4, "medium" ], [ 8, "CE" ], "This malignant cloud of shadows boils in the air, its skeletal maw eerily babbling as the creature's claws manifest from the darkness." ],
 					[ "[Animate Dream](monster/animate_dream)", 8, "outsider", "extraplanar, incorporeal", [ 4, "medium" ], [ 5, "NE" ], "This indistinct figure suddenly takes on a nightmarish shape, not quite human or animal or fiend." ],
@@ -2012,6 +2022,7 @@
 				"id": "monsters shapechangers",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Akhlut](monster/akhlut)", 13, "magical beast", "cold, shapechanger", [ 6, "huge" ], [ 4, "N" ], "A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast." ],
 					[ "[Alghollthu, Enisysian](monster/alghollthu,_enisysian)", 4, "aberration", "aquatic, shapechanger", [ 3, "small" ], [ 2, "LE" ], "Three lidless eyes with vertical pupils stare out from a small umbrella-shaped creature. It moves about using squirming tentacles, each moving independently in a mesmerizing motion." ],
@@ -2141,6 +2152,7 @@
 				"id": "monsters swarms",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Alchemical Ooze Swarm, Choleric Ooze Swarm](monster/alchemical_ooze_swarm,_choleric_ooze_swarm)", 2, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
 					[ "[Alchemical Ooze Swarm, Melancholic Ooze Swarm](monster/alchemical_ooze_swarm,_melancholic_ooze_swarm)", 1, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],

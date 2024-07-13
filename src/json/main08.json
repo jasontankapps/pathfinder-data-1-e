@@ -10,6 +10,7 @@
 				"id": "magic weapon table",
 				"headers": [ "Weapon", "Cost", "Weight", "Slot", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[Darkness Arrow](magic/weapon/darkness_arrow)", 80, 0, null, [ 1, "No" ] ],
 					[ "[Vine Arrow](magic/weapon/vine_arrow)", 80, 0, null, [ 1, "No" ] ],
@@ -524,6 +525,7 @@
 				"id": "magic rings table",
 				"headers": [ "Ring", "Cost", "Weight", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Dungeon Ring (prisoner's)](magic/ring/dungeon_ring_prisoner's)", 250, 0, [ 1, "No" ] ],
 					[ "[Ironbound Ring (Minion)](magic/ring/ironbound_ring_minion)", 500, 0, [ 1, "No" ] ],
@@ -765,6 +767,7 @@
 				"id": "magic rods table",
 				"headers": [ "Rod", "Cost", "Weight", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Rod of Metamagic, Eclipsed (lesser)](magic/rod/rod_of_metamagic,_eclipsed_lesser)", 1500, 5, [ 1, "No" ] ],
 					[ "[Rod of Metamagic, Merciful (lesser)](magic/rod/rod_of_metamagic,_merciful_lesser)", 1500, 5, [ 1, "No" ] ],
@@ -1030,6 +1033,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
@@ -2181,6 +2185,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Bleed](spell/bleed)", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
 					[ "[Create Water](spell/create_water)", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],
@@ -3326,6 +3331,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
+				"ripples": [0],
 				"data": [
 					[ "[Abundant Ammunition](spell/abundant_ammunition)", 1, "conjuration", "summoning", null, "Replaces nonmagical ammunition every round." ],
 					[ "[Acid Maw](spell/acid_maw)", 1, "transmutation", null, "acid", "Enhance your animal companion's bite attack with acid." ],

@@ -17,6 +17,7 @@
 				"id": "weapon modifications",
 				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
 				"types": [ null, "gp+", "lbs+" ],
+				"ripples": [0],
 				"data": [
 					[ "[sawback sword](equipment/weaponenhancement/sawback_sword)", 5, [ 0, "&mdash;" ] ],
 					[ "[consecrated weapon](equipment/weaponenhancement/consecrated_weapon)", 150, [ 0, "&mdash;" ] ],
@@ -51,53 +52,53 @@
 			[
 				"| Name | Description |",
 				"| :---: | --- |",
-				"| [Abysium](equipment/material/abysium) | Known also as feverstone , this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. |",
-				"| [Adamantine](equipment/material/adamantine) | Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. |",
-				"| [Alchemical Silver](equipment/material/alchemical_silver) | A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes. |",
-				"| [Angelskin](equipment/material/angelskin) | The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. |",
-				"| [Aszite](equipment/material/aszite) | The navy-blue ore known as aszite is often used to reinforce buildings. |",
-				"| [Blackwood](equipment/material/blackwood) | Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. |",
-				"| [Blightburn](equipment/material/blightburn) | Blightburn is a highly radioactive crystalline mineral that grows in isolated pockets throughout the Darklands, from Nar-Voth all the way down to Orv. |",
-				"| [Blood Crystal](equipment/material/blood_crystal) | Mysterious radiation deep below the surface of the earth warps once-ordinary quartz into bloodcraving stone. |",
-				"| [Bulette Armor](equipment/material/bulette_armor) | Dwarves have long treasured bulettes for their thick hides and armor plating. |",
-				"| [Caphorite](equipment/material/caphorite) | Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. |",
-				"| [Cold Iron](equipment/material/cold_iron) | This iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. |",
-				"| [Cryptstone](equipment/material/cryptstone) | Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the Boneyard. |",
-				"| [Darkleaf Cloth](equipment/material/darkleaf_cloth) | Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin strips of bark from darkwood trees, then treating the resulting fabric with special alchemical processes. |",
-				"| [Darkwood](equipment/material/darkwood) | This rare magic wood is as hard as normal wood but very light. |",
-				"| [Djezet](equipment/material/djezet) | One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. |",
-				"| [Dragonhide](equipment/material/dragonhide) | Armorsmiths can work with the hides of dragons to produce armor or shields of masterwork quality. |",
-				"| [Druchite](equipment/material/druchite) | The black-and-violet ore known as druchite is synonymous with Shadow Absalom's towering spires. |",
-				"| [Eel Hide](equipment/material/eel_hide) | This supple material offers as much protection as leather, but is more flexible and resistant to electricity. |",
-				"| [Elysian Bronze](equipment/material/elysian_bronze) | First crafted in the deeps of time by the titans and bestowed as gifts to monster-slaying heroes among the lesser races, Elysian bronze retains the brazen coloration of its namesake but is as hard as steel. |",
-				"| [Fire-Forged Steel](equipment/material/fire-forged_steel) | Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly tools. It didn't take them long to adapt its unique properties to arms and armor. |",
-				"| [Frost-Forged Steel](equipment/material/frost-forged_steel) | This material is the same substance as fire-forged steel with a subtle difference in the alignment of the metal during crafting. |",
-				"| [Glaucite](equipment/material/glaucite) | When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. |",
-				"| [Greenwood](equipment/material/greenwood) | Greenwood remains alive as long as it is doused with at least one gallon of water (plus 1 gallon for every 10 pounds of the item's weight) once per week and allowed to rest for an hour in contact with fertile soil. |",
-				"| [Griffon Mane](equipment/material/griffon_mane) | This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. |",
-				"| [Heatstone Plating](equipment/material/heatstone_plating) | Heatstone plating involves placing heatstones at strategic points within clothing or armor. |",
-				"| [Horacalcum](equipment/material/horacalcum) | The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. |",
-				"| [Inubrix](equipment/material/inubrix) | This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" |",
-				"| [Irespan Basalt](equipment/material/irespan_basalt) | The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. |",
-				"| [Lazurite](equipment/material/lazurite) | Lazurite is a decayed form of a radioactive material no longer found in its natural form within the Darklands, said to be the remnants of a long-dead god. |",
-				"| [Liquid Glass](equipment/material/liquid_glass) | This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still liquid. |",
-				"| [Living Steel](equipment/material/living_steel) | This glossy green metal slowly repairs itself. |",
-				"| [Mithral](equipment/material/mithral) | Mithral is a rare, silvery metal that is lighter than steel but just as hard. |",
-				"| [Nexavaran Steel](equipment/material/nexavaran_steel) | Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish steel strikes true against monsters vulnerable to cold iron (such as demons). |",
-				"| [Noqual](equipment/material/noqual) | Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron despite its appearance. ",
-				"| [Paueliel](equipment/material/paueliel) | Towering above most other trees, the lofty paueliel are widely held as the \"first trees.\" |",
-				"| [Pyre Steel](equipment/material/pyre_steel) | Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. |",
-				"| [Siccatite](equipment/material/siccatite) | This shining silver metal is either incredibly hot or freezing cold when found. |",
-				"| [Silversheen](equipment/material/silversheen) | Blades made of this special metal count as alchemical silver weapons and are immune to rust, including that of rust monsters, the rusting grasp spell, and so on. |",
-				"| [Singing Steel](equipment/material/singing_steel) | This lustrous golden metal emits beautiful bell-like tones when struck. |",
-				"| [Spiresteel](equipment/material/spiresteel) | Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form of pure quintessence, but those brave enough to acquire some the substance report that ore mined from the Spire can be smelted and worked into weapons and armor. This substance, called spiresteel, exhibits an innate attraction for soul energy. |",
-				"| [Sunsilk](equipment/material/sunsilk) | Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite church, takes on a golden glitter after it has been left to cure in the sun. |",
-				"| [Sunsilver](equipment/material/sunsilver) | An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. |",
-				"| [Throneglass](equipment/material/throneglass) | The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture, including a famous skylight made of a single sheet of magically treated glass as durable as steel. |",
-				"| [Viridium](equipment/material/viridium) | This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. |",
-				"| [Voidglass](equipment/material/voidglass) | Voidglass resonates with a creature's mind, bolstering thought and mental defenses. |",
-				"| [Whipwood](equipment/material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
-				"| [Wyroot](equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |"
+				"| [Abysium](/equipment/material/abysium) | Known also as feverstone , this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. |",
+				"| [Adamantine](/equipment/material/adamantine) | Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. |",
+				"| [Alchemical Silver](/equipment/material/alchemical_silver) | A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes. |",
+				"| [Angelskin](/equipment/material/angelskin) | The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. |",
+				"| [Aszite](/equipment/material/aszite) | The navy-blue ore known as aszite is often used to reinforce buildings. |",
+				"| [Blackwood](/equipment/material/blackwood) | Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. |",
+				"| [Blightburn](/equipment/material/blightburn) | Blightburn is a highly radioactive crystalline mineral that grows in isolated pockets throughout the Darklands, from Nar-Voth all the way down to Orv. |",
+				"| [Blood Crystal](/equipment/material/blood_crystal) | Mysterious radiation deep below the surface of the earth warps once-ordinary quartz into bloodcraving stone. |",
+				"| [Bulette Armor](/equipment/material/bulette_armor) | Dwarves have long treasured bulettes for their thick hides and armor plating. |",
+				"| [Caphorite](/equipment/material/caphorite) | Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. |",
+				"| [Cold Iron](/equipment/material/cold_iron) | This iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. |",
+				"| [Cryptstone](/equipment/material/cryptstone) | Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the Boneyard. |",
+				"| [Darkleaf Cloth](/equipment/material/darkleaf_cloth) | Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin strips of bark from darkwood trees, then treating the resulting fabric with special alchemical processes. |",
+				"| [Darkwood](/equipment/material/darkwood) | This rare magic wood is as hard as normal wood but very light. |",
+				"| [Djezet](/equipment/material/djezet) | One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. |",
+				"| [Dragonhide](/equipment/material/dragonhide) | Armorsmiths can work with the hides of dragons to produce armor or shields of masterwork quality. |",
+				"| [Druchite](/equipment/material/druchite) | The black-and-violet ore known as druchite is synonymous with Shadow Absalom's towering spires. |",
+				"| [Eel Hide](/equipment/material/eel_hide) | This supple material offers as much protection as leather, but is more flexible and resistant to electricity. |",
+				"| [Elysian Bronze](/equipment/material/elysian_bronze) | First crafted in the deeps of time by the titans and bestowed as gifts to monster-slaying heroes among the lesser races, Elysian bronze retains the brazen coloration of its namesake but is as hard as steel. |",
+				"| [Fire-Forged Steel](/equipment/material/fire-forged_steel) | Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly tools. It didn't take them long to adapt its unique properties to arms and armor. |",
+				"| [Frost-Forged Steel](/equipment/material/frost-forged_steel) | This material is the same substance as fire-forged steel with a subtle difference in the alignment of the metal during crafting. |",
+				"| [Glaucite](/equipment/material/glaucite) | When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. |",
+				"| [Greenwood](/equipment/material/greenwood) | Greenwood remains alive as long as it is doused with at least one gallon of water (plus 1 gallon for every 10 pounds of the item's weight) once per week and allowed to rest for an hour in contact with fertile soil. |",
+				"| [Griffon Mane](/equipment/material/griffon_mane) | This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. |",
+				"| [Heatstone Plating](/equipment/material/heatstone_plating) | Heatstone plating involves placing heatstones at strategic points within clothing or armor. |",
+				"| [Horacalcum](/equipment/material/horacalcum) | The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. |",
+				"| [Inubrix](/equipment/material/inubrix) | This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" |",
+				"| [Irespan Basalt](/equipment/material/irespan_basalt) | The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. |",
+				"| [Lazurite](/equipment/material/lazurite) | Lazurite is a decayed form of a radioactive material no longer found in its natural form within the Darklands, said to be the remnants of a long-dead god. |",
+				"| [Liquid Glass](/equipment/material/liquid_glass) | This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still liquid. |",
+				"| [Living Steel](/equipment/material/living_steel) | This glossy green metal slowly repairs itself. |",
+				"| [Mithral](/equipment/material/mithral) | Mithral is a rare, silvery metal that is lighter than steel but just as hard. |",
+				"| [Nexavaran Steel](/equipment/material/nexavaran_steel) | Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish steel strikes true against monsters vulnerable to cold iron (such as demons). |",
+				"| [Noqual](/equipment/material/noqual) | Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron despite its appearance. ",
+				"| [Paueliel](/equipment/material/paueliel) | Towering above most other trees, the lofty paueliel are widely held as the \"first trees.\" |",
+				"| [Pyre Steel](/equipment/material/pyre_steel) | Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. |",
+				"| [Siccatite](/equipment/material/siccatite) | This shining silver metal is either incredibly hot or freezing cold when found. |",
+				"| [Silversheen](/equipment/material/silversheen) | Blades made of this special metal count as alchemical silver weapons and are immune to rust, including that of rust monsters, the rusting grasp spell, and so on. |",
+				"| [Singing Steel](/equipment/material/singing_steel) | This lustrous golden metal emits beautiful bell-like tones when struck. |",
+				"| [Spiresteel](/equipment/material/spiresteel) | Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form of pure quintessence, but those brave enough to acquire some the substance report that ore mined from the Spire can be smelted and worked into weapons and armor. This substance, called spiresteel, exhibits an innate attraction for soul energy. |",
+				"| [Sunsilk](/equipment/material/sunsilk) | Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite church, takes on a golden glitter after it has been left to cure in the sun. |",
+				"| [Sunsilver](/equipment/material/sunsilver) | An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. |",
+				"| [Throneglass](/equipment/material/throneglass) | The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture, including a famous skylight made of a single sheet of magically treated glass as durable as steel. |",
+				"| [Viridium](/equipment/material/viridium) | This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. |",
+				"| [Voidglass](/equipment/material/voidglass) | Voidglass resonates with a creature's mind, bolstering thought and mental defenses. |",
+				"| [Whipwood](/equipment/material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
+				"| [Wyroot](/equipment/material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |"
 			],
 			"# Primitive Materials",
 			[
@@ -111,12 +112,12 @@
 				"",
 				"| Name | Description |",
 				"| :---: | --- |",
-				"| [Bone](equipment/material/bone) | Bone can be used in place of wood and steel in weapons and armor. |",
-				"| [Bronze](equipment/material/bronze) | Before the advent of iron and steel, bronze ruled the world. |",
-				"| [Glass](equipment/material/glass) | Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. |",
-				"| [Gold](equipment/material/gold) | Typically only used for ceremonial weapons and armor and for display, metal equipment made from gold is fragile, heavy, and expensive. |",
-				"| [Obsidian](equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
-				"| [Stone](equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
+				"| [Bone](/equipment/material/bone) | Bone can be used in place of wood and steel in weapons and armor. |",
+				"| [Bronze](/equipment/material/bronze) | Before the advent of iron and steel, bronze ruled the world. |",
+				"| [Glass](/equipment/material/glass) | Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. |",
+				"| [Gold](/equipment/material/gold) | Typically only used for ceremonial weapons and armor and for display, metal equipment made from gold is fragile, heavy, and expensive. |",
+				"| [Obsidian](/equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
+				"| [Stone](/equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
 			]
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -131,6 +132,7 @@
 			{
 				"id": "siege engines",
 				"headers": [ "Name", "Type", "Cost", "Weight", "Damage", "Critical", "Range", "Damage Type", "Crew", "Aim", "Load", "Speed" ],
+				"ripples": [0],
 				"types": [ null, null, "gp", "lbs", null, null, null, null, null, null, null, null ],
 				"data": [
 					[ "[alchemist's fire](equipment/siegeengine/alchemist's_fire)", [ 0, "siege engine ammunition" ], 200, 10, null, null, [ 0, "&mdash;" ], null, [ -1, "&mdash;" ], [ -1, "&mdash;" ], null, [ -1, "&mdash;" ] ],
@@ -367,6 +369,7 @@
 					[ "[Woundweal](equipment/poison/woundweal)", "injury", "Fortitude DC 18", "1 round", "1/day", "impaired healing (see description)", 100 ],
 					[ "[Wyvern Poison](equipment/poison/wyvern_poison)", "injury", "Fortitude DC 17", null, "1/round for 6 rounds", "1d4 Con damage", 3000 ]
 				],
+				"ripples": [0],
 				"initialColumn": 0,
 				"className": "poisons"
 			}
@@ -394,6 +397,7 @@
 			{
 				"id": "alchemical reagents",
 				"headers": [ "Item", "Cost" ],
+				"ripples": [0],
 				"types": [ null, "gp" ],
 				"data": [
 					[ "[Acid](equipment/reagent/acid)", 10 ],
@@ -486,6 +490,7 @@
 				"id": "spellbooks",
 				"headers": [ "Spellbook", "Cost", "Type", "Class Requirements" ],
 				"types": [ null, "gp", null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[Apprentice Chapbook of Rul Thaven](equipment/spellbook/apprentice_chapbook_of_rul_thaven)", 195, "Spellbook", "Diviner - Level 2" ],
 					[ "[Arctic Call](equipment/spellbook/arctic_call)", 4335, "Spellbook", "Evoker - Level 11" ],
@@ -577,6 +582,7 @@
 			{
 				"id": "tech armor",
 				"headers": [ "Name", "Armor Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight", "Capacity", "Usage" ],
+				"ripples": [0],
 				"types": [ null, null, "gp", "bonus", "bonus", "num", null, null, null, "lbs", "num", null ],
 				"data": [
 					[ "[chameleon suit](tech/armor/chameleon_suit)", [ 0, "light" ], 15000, 2, 6, 0, "10%", "30 ft.", "20 ft.", 5, 50, "1 charge/minute" ],
@@ -658,6 +664,7 @@
 				"id": "tech weapons",
 				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Dmg (S)", "Dmg (M)", "Critical", "Range", "Capacity", "Usage", "Weight", "Dmg Type", "Special" ],
 				"types": [ null, null, null, "gp", null, null, null, null, null, null, "lbs", null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[neural inhibitor](tech/weapon/neural_inhibitor)", [0, "light"], [0, "simple"], 2400, "1d6", "1d6", "&times;2", null, "10", "see text", 2, "B", null ],
 					[ "[laser torch](tech/weapon/laser_torch)", [1, "one-handed"], [1, "martial"], 6000, "1d8", "1d10", "&times;3", null, "10", "1 charge", 4, "fire", "Touch" ],
@@ -714,9 +721,8 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			[
-				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible."
-			],
-			[
+				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
+				"",
 				"Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score-a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.",
 				"",
 				"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
@@ -755,6 +761,7 @@
 				"id": "tech cybertech",
 				"headers": [ "Name", "Cost", "Slot", "Weight", "Implantation", "Install DC" ],
 				"types": [ null, "gp", null, "lbs", "num", "num" ],
+				"ripples": [0],
 				"data": [
 					[ "[biofilter](tech/cybertech/biofilter)", 16000, "body", 2, 3, 25 ],
 					[ "[cranial bomb](tech/cybertech/cranial_bomb)", 4500, "head", 0.5, 1, 25 ],
@@ -815,6 +822,7 @@
 				"id": "tech pharmaceuticals",
 				"headers": [ "Name", "Cost" ],
 				"types": [ null, "gp" ],
+				"ripples": [0],
 				"data": [
 					[ "[azonite pellets](tech/pharmaceutical/azonite_pellets)", 100 ],
 					[ "[baseline](tech/pharmaceutical/baseline)", 2250 ],
@@ -891,6 +899,7 @@
 					[ "[Solar generator](tech/artifact/solar_generator)", "generator", null ],
 					[ "[Temporal accelerator](tech/artifact/temporal_accelerator)", "misc", 1 ]
 				],
+				"ripples": [0],
 				"initialColumn": 0,
 				"className": "simple"
 			}
@@ -1070,6 +1079,7 @@
 					[ "[veemod goggles](tech/misc/veemod_goggles)", 1000, 0, "eyes" ],
 					[ "[zipstick](tech/misc/zipstick)", 20, 1, null ]
 				],
+				"ripples": [0],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "simple"
@@ -1444,6 +1454,7 @@
 					[ "[Wounding](magic/enhancement/wounding)", 2, null, [1, "No"], [1, "No"], [0, "Yes"], [1, "No"] ],
 					[ "[Wyrmsbreath](magic/enhancement/wyrmsbreath)", null, 5000, [1, "No"], [0, "Yes"], [1, "No"], [1, "No"] ]
 				],
+				"ripples": [0],
 				"initialColumn": 0,
 				"className": "simple"
 			}
@@ -1460,6 +1471,7 @@
 			{
 				"id": "magic staves table",
 				"headers": [ "Staff", "Cost", "Weight", "Cursed?" ],
+				"ripples": [0],
 				"types": [ null, "gp", "lbs", null ],
 				"data": [
 					[ "[Staff of Blessed Relief](magic/staff/staff_of_blessed_relief)", 7200, 5, [ 1, "No" ] ],
@@ -1586,6 +1598,7 @@
 				"id": "wondrous items table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[Hex Nail](magic/wondrous/hex_nail)", 20, 0, "none", [ 1, "No" ] ],
 					[ "[Riffle Scroll (Cantrip)](magic/wondrous/riffle_scroll_cantrip)", 25, 1, "none", [ 1, "No" ] ],
@@ -4168,6 +4181,7 @@
 			{
 				"id": "magic artifact table",
 				"headers": [ "Artifact", "Weight", "Slot", "Intelligent?", "Cursed?" ],
+				"ripples": [0],
 				"types": [ null, "lbs", null, null, null ],
 				"data": [
 					[ "[Abyssal Runestone](magic/artifact/abyssal_runestone)", 1, null, [ 1, "No" ], [ 1, "No" ] ],

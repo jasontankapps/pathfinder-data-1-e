@@ -1108,6 +1108,7 @@
 				"nullValue": "",
 				"className": "plain",
 				"id": "Combat feats table",
+				"ripples": [0],
 				"data": [
 					[ "[Acrobatic Spellcaster](feat/acrobatic_spellcaster)", "[Combat Casting](feat/combat_casting), [Skill Focus (Acrobatics)](feat/skill_focus).", "Avoid attacks of opportunity from casting with Acrobatics" ],
 					[ "[Adder Strike](feat/adder_strike)", "Poison use class feature, Craft (alchemy) 1 rank, [Improved Unarmed Strike](feat/improved_unarmed_strike).", "May apply contact poison to unarmed strikes" ],
@@ -2426,6 +2427,7 @@
 				"id": "monsters outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aasimar](monster/aasimar)", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
 					[ "[Achaierai](monster/achaierai)", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],

@@ -10,6 +10,7 @@
 				"id": "monsters oozes",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Adaptive Ooze](monster/adaptive_ooze)", 7, "ooze", null, [ 5, "large" ], [ 4, "N" ], "The color and texture of this massive, metallic ooze shift whenever it touches something." ],
 					[ "[Alchemical Ooze Swarm, Choleric Ooze Swarm](monster/alchemical_ooze_swarm,_choleric_ooze_swarm)", 2, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
@@ -109,6 +110,7 @@
 				"id": "monsters chaotic",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abrakarn Viper](monster/abrakarn_viper)", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
 					[ "[Ataxian](monster/ataxian)", 4, "outsider", "chaotic, extraplanar, good", [ 2, "tiny" ], [ 6, "CG" ], "This sprite-like creature resembles a humanoid the size of a cat, with amber skin, surrounded by an aura of tiny bubbles." ],
@@ -250,6 +252,7 @@
 				"id": "monsters evil",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Abrakarn Viper](monster/abrakarn_viper)", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
 					[ "[Achaierai](monster/achaierai)", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -502,6 +505,7 @@
 				"id": "monsters good",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Agathion, Avoral](monster/agathion,_avoral)", 9, "outsider", "agathion, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Great feathers sweep back from this fierce bird-man's brow, and long, clawed hands grow from the end of his wings." ],
 					[ "[Agathion, Bishop Agathion](monster/agathion,_bishop_agathion)", 4, "outsider", "aquatic, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below its stately mouth, and its humanlike hands and feet end in stubby but sharp claws." ],
@@ -597,6 +601,7 @@
 				"id": "monsters lawful",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Achaierai](monster/achaierai)", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
 					[ "[Angel, Iophanite](monster/angel,_iophanite)", 4, "outsider", "angel, extraplanar, fire, good, lawful", [ 4, "medium" ], [ 0, "LG" ], "This disc of flying metal is about the size of a wagon wheel and burns with yellow-white flame." ],
@@ -750,6 +755,7 @@
 				"id": "all unique monsters",
 				"headers": [ "Monster", "CR", "MR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Agmazar the Star Titan](monster/agmazar_the_star_titan)", 26, null, "undead", "cold, kaiju", [ 8, "colossal" ], [ 5, "NE" ], "Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace." ],
 					[ "[Ahriman, Lord of All Divs](monster/ahriman)", 26, null, "outsider", "div, evil, extraplanar", [ 6, "huge" ], [ 5, "NE" ], "This humanoid creature has the head of a ravening, horned lion. A chorus of anguished screams echoes from his gaping maw." ],
@@ -915,6 +921,7 @@
 				"id": "monsters by cr unique",
 				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"ripples": [0],
 				"data": [
 					[ "[Eudranis](monster/eudranis)", "monstrous humanoid", [ 4, "medium" ], 5, null, 14, 16, 16, 7, 18, 10, 6, 8, 21 ],
 					[ "[Paakis-Si](monster/paakis-si)", "humanoid", [ 4, "medium" ], 5, null, 22, 19, 18, 11, 14, 9, 5, 11, 25 ],
@@ -1094,6 +1101,7 @@
 				"id": "all mythic monsters",
 				"headers": [ "Monster", "CR", "MR", "Type", "Subtype", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Aboleth](monster/aboleth_mythic)", 9, 3, "aberration", "aquatic, mythic", [ 6, "huge" ], [ 2, "LE" ], "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body." ],
 					[ "[Anunnaki](monster/anunnaki_mythic)", 18, 7, "monstrous humanoid", "mythic, shapechanger", [ 5, "large" ], [ 4, "N" ], "This towering humanoid has a strange, stony head. Small, mechanical wings spread out from its back." ],
@@ -1184,6 +1192,7 @@
 				"id": "monsters by cr mythic",
 				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"ripples": [0],
 				"data": [
 					[ "[Chaneque](monster/chaneque_mythic)", "fey", [ 3, "small" ], 1, 1, 6, 17, 10, 13, 14, 9, 1, -2, 11 ],
 					[ "[Human Skeleton](monster/human_skeleton_mythic)", "undead", [ 4, "medium" ], 1, 1, 15, 14, null, null, 10, 10, 1, 3, 15 ],
@@ -1432,6 +1441,7 @@
 				"id": "all npcs",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Acolyte](npc/acolyte)", [ -3, "1/3" ], "Human adept 1" ],
 					[ "[Apprentice Jeweler](npc/apprentice_jeweler)", [ -3, "1/3" ], "Human expert 1" ],
@@ -1948,6 +1958,7 @@
 				"id": "npcs adept",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Acolyte](npc/acolyte)", [ -3, "1/3" ], "Human adept 1" ],
 					[ "[Shaman](npc/shaman)", [ -2, "1/2" ], "Half-orc adept 2" ],
@@ -1969,6 +1980,7 @@
 				"id": "npcs expert",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Apprentice Jeweler](npc/apprentice_jeweler)", [ -3, "1/3" ], "Human expert 1" ],
 					[ "[Old Sailor](npc/old_sailor)", [ -2, "1/2" ], "Elf expert 2" ],
@@ -2003,6 +2015,7 @@
 				"id": "npcs commoner",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Beggar](npc/beggar)", [ -3, "1/3" ], "Half-elf commoner 1" ],
 					[ "[Villager (Village Idiot)](npc/villager_village_idiot)", [ -3, "1/3" ], "Human commoner 1" ],
@@ -2030,6 +2043,7 @@
 				"id": "npcs aristocrat",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Crusader (Squire)](npc/crusader_squire)", [ -3, "1/3" ], "Human aristocrat 1" ],
 					[ "[Page](npc/page)", [ -3, "1/3" ], "Halfling aristocrat 1" ],
@@ -2061,6 +2075,7 @@
 				"id": "npcs warrior",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Military (Foot Soldier)](npc/military_foot_soldier)", [ -3, "1/3" ], "Human warrior 1" ],
 					[ "[Recruit](npc/recruit)", [ -3, "1/3" ], "Dwarf warrior 1" ],
@@ -2106,6 +2121,7 @@
 				"id": "npcs bard",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Tavern Singer](npc/tavern_singer)", [ -2, "1/2" ], "Half-elf bard 1" ],
 					[ "[Entertainer (Storyteller)](npc/entertainer_storyteller)", 1, "Human bard 2" ],
@@ -2157,6 +2173,7 @@
 				"id": "npcs sorcerer",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Mercenary Magician](npc/mercenary_magician)", [ -2, "1/2" ], "Human sorcerer 1" ],
 					[ "[Gem Sorcerer](npc/gem_sorcerer)", 1, "Dwarf sorcerer 2" ],
@@ -2204,6 +2221,7 @@
 				"id": "npcs wizard",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Cautious Mage](npc/cautious_mage)", [ -2, "1/2" ], "Human wizard 1" ],
 					[ "[Battle Mage](npc/battle_mage)", 2, "Elf wizard 3" ],
@@ -2248,6 +2266,7 @@
 				"id": "npcs cleric",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Mercenary Healer](npc/mercenary_healer)", [ -2, "1/2" ], "Human cleric of Abadar 1" ],
 					[ "[Temple (Acolyte)](npc/temple_acolyte)", [ -2, "1/2" ], "Human cleric 1" ],
@@ -2295,6 +2314,7 @@
 				"id": "npcs druid",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Initiate of Flame](npc/initiate_of_flame)", [ -2, "1/2" ], "Dwarf druid 1" ],
 					[ "[Sail Master](npc/sail_master)", 1, "Human druid 2" ],
@@ -2332,6 +2352,7 @@
 				"id": "npcs ranger",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Novice Scout](npc/novice_scout)", [ -2, "1/2" ], "Half-elf ranger 1" ],
 					[ "[Town Watcher](npc/town_watcher)", 1, "Halfling ranger 2" ],
@@ -2378,6 +2399,7 @@
 				"id": "npcs paladin",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Callous Rake](npc/callous_rake)", [ -2, "1/2" ], "Human paladin of Iomedae 1" ],
 					[ "[Honorable Outcast](npc/honorable_outcast)", 1, "Half-orc paladin of Torag 2" ],
@@ -2431,6 +2453,7 @@
 				"id": "npcs barbarian",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Savage Mercenary](npc/savage_mercenary)", [ -2, "1/2" ], "Human barbarian 1" ],
 					[ "[Ulfen Raider](npc/ulfen_raider)", [ -2, "1/2" ], "Human barbarian 1" ],
@@ -2474,6 +2497,7 @@
 				"id": "npcs fighter",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Superstitious Mercenary](npc/superstitious_mercenary)", [ -2, "1/2" ], "Human fighter 1" ],
 					[ "[Criminal (Street Thug)](npc/criminal_street_thug)", 1, "Human fighter 1/rogue 1" ],
@@ -2541,6 +2565,7 @@
 				"id": "npcs monk",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Careful Initiate](npc/careful_initiate)", [ -2, "1/2" ], "Human monk 1" ],
 					[ "[Bullying Brawler](npc/bullying_brawler)", 1, "Human monk 2" ],
@@ -2577,6 +2602,7 @@
 				"id": "npcs rogue",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"ripples": [0],
 				"data": [
 					[ "[Criminal (Pickpocket)](npc/criminal_pickpocket)", [ -2, "1/2" ], "Human rogue 1" ],
 					[ "[Cutpurse](npc/cutpurse)", [ -2, "1/2" ], "Human rogue 1" ],
@@ -2655,70 +2681,70 @@
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Bleachling Lunatic](npc/bleachling_lunatic) | 3 | Middle-aged gnome alchemist 4 |",
-				"| [Numerian Fluid Scavenger](npc/numerian_fluid_scavenger) | 6 | Human alchemist 7 |",
-				"| [Sleepless Detective](npc/sleepless_detective) | 9 | Human alchemist 5/Sleepless detective 5 |"
+				"| [Bleachling Lunatic](/npc/bleachling_lunatic) | 3 | Middle-aged gnome alchemist 4 |",
+				"| [Numerian Fluid Scavenger](/npc/numerian_fluid_scavenger) | 6 | Human alchemist 7 |",
+				"| [Sleepless Detective](/npc/sleepless_detective) | 9 | Human alchemist 5/Sleepless detective 5 |"
 			],
 			"# Arcanist",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Magaambya Arcanist](npc/magaambya_arcanist) | 10 | Human wizard 5/Magaambyan arcanist 6 |"
+				"| [Magaambya Arcanist](/npc/magaambya_arcanist) | 10 | Human wizard 5/Magaambyan arcanist 6 |"
 			],
 			"# Brawler",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Lumber Consortium Enforcer](npc/lumber_consortium_enforcer) | 3 | Human brawler 4 |"
+				"| [Lumber Consortium Enforcer](/npc/lumber_consortium_enforcer) | 3 | Human brawler 4 |"
 			],
 			"# Cavalier",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Molthuni Commander](npc/molthuni_commander) | 6 | Human aristocrat 2/cavalier 5 |",
-				"| [Duergar Strandrider](npc/duergar_strandrider) | 8 | Duergar cavalier (beast rider) 9 |"
+				"| [Molthuni Commander](/npc/molthuni_commander) | 6 | Human aristocrat 2/cavalier 5 |",
+				"| [Duergar Strandrider](/npc/duergar_strandrider) | 8 | Duergar cavalier (beast rider) 9 |"
 			],
 			"# Gunslinger",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Numerian Gunslinger](npc/numerian_gunslinger) | 6 | Human gunslinger 6 |",
-				"| [Shieldmarshal](npc/shieldmarshal) | 8 | Human gunslinger 5/shieldmarshal 4 |"
+				"| [Numerian Gunslinger](/npc/numerian_gunslinger) | 6 | Human gunslinger 6 |",
+				"| [Shieldmarshal](/npc/shieldmarshal) | 8 | Human gunslinger 5/shieldmarshal 4 |"
 			],
 			"# Inquisitor",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Cannibal Zealot](npc/cannibal_zealot) | 6 | Human barbarian 3/inquisitor 4 |",
-				"| [Gray Gardener](npc/gray_gardener) | 7 | Human inquisitor of Norgorber 5/gray gardener 3 |"
+				"| [Cannibal Zealot](/npc/cannibal_zealot) | 6 | Human barbarian 3/inquisitor 4 |",
+				"| [Gray Gardener](/npc/gray_gardener) | 7 | Human inquisitor of Norgorber 5/gray gardener 3 |"
 			],
 			"# Magus",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Thrune Agent](npc/thrune_agent) | 7 | Human magus 8 |"
+				"| [Thrune Agent](/npc/thrune_agent) | 7 | Human magus 8 |"
 			],
 			"# Oracle",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Harbinger Disciple](npc/harbinger_disciple) | 3 | Human oracle 4 |",
-				"| [Old Ones Cultist](npc/old_ones_cultist) | 9 | Human oracle 10 |"
+				"| [Harbinger Disciple](/npc/harbinger_disciple) | 3 | Human oracle 4 |",
+				"| [Old Ones Cultist](/npc/old_ones_cultist) | 9 | Human oracle 10 |"
 			],
 			"# Summoner",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [God Caller](npc/god_caller) | 4 | Human summoner 5 |"
+				"| [God Caller](/npc/god_caller) | 4 | Human summoner 5 |"
 			],
 			"# Witch",
 			[
 				"| NPC | CR | Race/Class |",
 				"| --- | --- | --- |",
-				"| [Devil's Perch Rebel](npc/devil's_perch_rebel) | 4 | Strix witch 5 |",
-				"| [Winter Witch Baroness](npc/winter_witch_baroness) | 4 | Female human witch (winter witch) 5 |",
-				"| [Mushfens Cabalist](npc/mushfens_cabalist) | 8 | Changeling witch 9 |",
-				"| [Winter Witch Cold Sister](npc/winter_witch_cold_sister) | 9 | Female human witch (winter witch) 5/winter witch 5 |"
+				"| [Devil's Perch Rebel](/npc/devil's_perch_rebel) | 4 | Strix witch 5 |",
+				"| [Winter Witch Baroness](/npc/winter_witch_baroness) | 4 | Female human witch (winter witch) 5 |",
+				"| [Mushfens Cabalist](/npc/mushfens_cabalist) | 8 | Changeling witch 9 |",
+				"| [Winter Witch Cold Sister](/npc/winter_witch_cold_sister) | 9 | Female human witch (winter witch) 5/winter witch 5 |"
 			]
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -3310,51 +3336,51 @@
 			[
 				"| Haunt | CR |",
 				"| --- | --- |",
-				"| [Isolation Haunt](haunt/isolation_haunt) | &nbsp; |",
-				"| [Bloody Handprints](haunt/bloody_handprints) | 1/4 |",
-				"| [Scratching Behind the Wall](haunt/scratching_behind_the_wall) | 1/2 |",
-				"| [Cold Spot](haunt/cold_spot) | 1 |",
-				"| [Rapping Spirit](haunt/rapping_spirit) | 1 |",
-				"| [Spectral Screams](haunt/spectral_screams) | 2 |",
-				"| [Demanding Dead](haunt/demanding_dead) | 3 |",
-				"| [Foreboding Mist](haunt/foreboding_mist) | 3 |",
-				"| [Buried Alive](haunt/buried_alive) | 4 |",
-				"| [Flytrap](haunt/flytrap) | 4 |",
-				"| [Following Footsteps](haunt/following_footsteps) | 4 |",
-				"| [Belated Arrival](haunt/belated_arrival) | 5 |",
-				"| [Bleeding Walls](haunt/bleeding_walls) | 5 |",
-				"| [Spectral Vermin](haunt/spectral_vermin) | 5 |",
-				"| [Arcane Storm](haunt/arcane_storm) | 6 |",
-				"| [Death of Curchanus](haunt/death_of_curchanus) | 6 |",
-				"| [Unsolved Murder](haunt/unsolved_murder) | 6 |",
-				"| [Betrayal](haunt/betrayal) | 7 |",
-				"| [Drought's End](haunt/drought's_end) | 7 |",
-				"| [Malignant Weapon](haunt/malignant_weapon) | 7 |",
-				"| [Bountiful Feat](haunt/bountiful_feat) | 8 |",
-				"| [Dimensional Tear](haunt/dimensional_tear) | 8 |",
-				"| [Robotic Reactivation](haunt/robotic_reactivation) | 8 |",
-				"| [Watery Grave](haunt/watery_grave) | 8 |",
-				"| [Devouring Maws](haunt/devouring_maws) | 9 |",
-				"| [Insidious Presence](haunt/insidious_presence) | 9 |",
-				"| [Network of Lasers](haunt/network_of_lasers) | 9 |",
-				"| [Shifting Seasons](haunt/shifting_seasons) | 9 |",
-				"| [Enchanting Demise](haunt/enchanting_demise) | 10 |",
-				"| [Living Decay](haunt/living_decay) | 10 |",
-				"| [Maddening Influence](haunt/maddening_influence) | 10 |",
-				"| [Psychic Echo (Anger)](haunt/psychic_echo_anger) | 10 |",
-				"| [Servants of the Book](haunt/servants_of_the_book) | 10 |",
-				"| [Eternal Pyre](haunt/eternal_pyre) | 11 |",
-				"| [Spawn of the Abyss](haunt/spawn_of_the_abyss) | 11 |",
-				"| [Breach to the Quickening](haunt/breach_to_the_quickening) | 12 |",
-				"| [Dissolving Vat](haunt/dissolving_vat) | 12 |",
-				"| [Heart Explosion](haunt/heart_explosion) | 13 |",
-				"| [Crushing Terror](haunt/crushing_terror) | 14 |",
-				"| [Final Soldier](haunt/final_soldier) | 15 |",
-				"| [Fallen from the Sky](haunt/fallen_from_the_sky) | 16 |",
-				"| [Haunted Dungeon](haunt/haunted_dungeon) | 17 |",
-				"| [Flayed Suicide](haunt/flayed_suicide) | 18 |",
-				"| [Soul Vortex](haunt/soul_vortex) | 19 |",
-				"| [Twisted Wish](haunt/twisted_wish) | 20 |"
+				"| [Isolation Haunt](/haunt/isolation_haunt) | &nbsp; |",
+				"| [Bloody Handprints](/haunt/bloody_handprints) | 1/4 |",
+				"| [Scratching Behind the Wall](/haunt/scratching_behind_the_wall) | 1/2 |",
+				"| [Cold Spot](/haunt/cold_spot) | 1 |",
+				"| [Rapping Spirit](/haunt/rapping_spirit) | 1 |",
+				"| [Spectral Screams](/haunt/spectral_screams) | 2 |",
+				"| [Demanding Dead](/haunt/demanding_dead) | 3 |",
+				"| [Foreboding Mist](/haunt/foreboding_mist) | 3 |",
+				"| [Buried Alive](/haunt/buried_alive) | 4 |",
+				"| [Flytrap](/haunt/flytrap) | 4 |",
+				"| [Following Footsteps](/haunt/following_footsteps) | 4 |",
+				"| [Belated Arrival](/haunt/belated_arrival) | 5 |",
+				"| [Bleeding Walls](/haunt/bleeding_walls) | 5 |",
+				"| [Spectral Vermin](/haunt/spectral_vermin) | 5 |",
+				"| [Arcane Storm](/haunt/arcane_storm) | 6 |",
+				"| [Death of Curchanus](/haunt/death_of_curchanus) | 6 |",
+				"| [Unsolved Murder](/haunt/unsolved_murder) | 6 |",
+				"| [Betrayal](/haunt/betrayal) | 7 |",
+				"| [Drought's End](/haunt/drought's_end) | 7 |",
+				"| [Malignant Weapon](/haunt/malignant_weapon) | 7 |",
+				"| [Bountiful Feat](/haunt/bountiful_feat) | 8 |",
+				"| [Dimensional Tear](/haunt/dimensional_tear) | 8 |",
+				"| [Robotic Reactivation](/haunt/robotic_reactivation) | 8 |",
+				"| [Watery Grave](/haunt/watery_grave) | 8 |",
+				"| [Devouring Maws](/haunt/devouring_maws) | 9 |",
+				"| [Insidious Presence](/haunt/insidious_presence) | 9 |",
+				"| [Network of Lasers](/haunt/network_of_lasers) | 9 |",
+				"| [Shifting Seasons](/haunt/shifting_seasons) | 9 |",
+				"| [Enchanting Demise](/haunt/enchanting_demise) | 10 |",
+				"| [Living Decay](/haunt/living_decay) | 10 |",
+				"| [Maddening Influence](/haunt/maddening_influence) | 10 |",
+				"| [Psychic Echo (Anger)](/haunt/psychic_echo_anger) | 10 |",
+				"| [Servants of the Book](/haunt/servants_of_the_book) | 10 |",
+				"| [Eternal Pyre](/haunt/eternal_pyre) | 11 |",
+				"| [Spawn of the Abyss](/haunt/spawn_of_the_abyss) | 11 |",
+				"| [Breach to the Quickening](/haunt/breach_to_the_quickening) | 12 |",
+				"| [Dissolving Vat](/haunt/dissolving_vat) | 12 |",
+				"| [Heart Explosion](/haunt/heart_explosion) | 13 |",
+				"| [Crushing Terror](/haunt/crushing_terror) | 14 |",
+				"| [Final Soldier](/haunt/final_soldier) | 15 |",
+				"| [Fallen from the Sky](/haunt/fallen_from_the_sky) | 16 |",
+				"| [Haunted Dungeon](/haunt/haunted_dungeon) | 17 |",
+				"| [Flayed Suicide](/haunt/flayed_suicide) | 18 |",
+				"| [Soul Vortex](/haunt/soul_vortex) | 19 |",
+				"| [Twisted Wish](/haunt/twisted_wish) | 20 |"
 			]
 		],
 		"previous": [
@@ -3373,22 +3399,22 @@
 			[
 				"| Corruption | Description |",
 				"| --- | --- |",
-				"| [Aboleth](corruption/aboleth) | The veiled masters have long controlled countless minions in the Inner Sea region's political arenas. |",
-				"| [Accursed](corruption/accursed) | A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them. |",
-				"| [Amoral](corruption/amoral) | When an otherwise upstanding person turns to evil deeds to achieve his goals-whether by accident, due to sinister influence, or through desperation-he begins to slip, every excuse and justification furthering his descent into evil. |",
-				"| [Deep One](corruption/deep_one) | The waves call to you, like a siren's song echoing across crashing surf. |",
-				"| [Demonic](corruption/demonic) | Close contact with the Abyss or demons clouds your mind and twists your body. |",
-				"| [Ghoul](corruption/ghoul) | A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal. |",
-				"| [Hellbound](corruption/hellbound) | The pit of Hell waits for your damned soul. |",
-				"| [Hive](corruption/hive) | Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life. |",
-				"| [Lich](corruption/lich) | Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions). |",
-				"| [Lycanthropy](corruption/lycanthropy) | There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw. |",
-				"| [Plagued](corruption/plagued) | Disease can become a corruption when it causes long-lasting and physical changes to the body. |",
-				"| [Possessed](corruption/possessed) | Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body. |",
-				"| [Promethean](corruption/promethean) | Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components-corpse flesh, bone, wood, metal, or other exotic materials. |",
-				"| [Psychometabolic](corruption/psychometabolic) | Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions-often with disastrous results. |",
-				"| [Shadowbound](corruption/shadowbound) | Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color. |",
-				"| [Vampirism](corruption/vampirism) | You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents. |"
+				"| [Aboleth](/corruption/aboleth) | The veiled masters have long controlled countless minions in the Inner Sea region's political arenas. |",
+				"| [Accursed](/corruption/accursed) | A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them. |",
+				"| [Amoral](/corruption/amoral) | When an otherwise upstanding person turns to evil deeds to achieve his goals-whether by accident, due to sinister influence, or through desperation-he begins to slip, every excuse and justification furthering his descent into evil. |",
+				"| [Deep One](/corruption/deep_one) | The waves call to you, like a siren's song echoing across crashing surf. |",
+				"| [Demonic](/corruption/demonic) | Close contact with the Abyss or demons clouds your mind and twists your body. |",
+				"| [Ghoul](/corruption/ghoul) | A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal. |",
+				"| [Hellbound](/corruption/hellbound) | The pit of Hell waits for your damned soul. |",
+				"| [Hive](/corruption/hive) | Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life. |",
+				"| [Lich](/corruption/lich) | Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions). |",
+				"| [Lycanthropy](/corruption/lycanthropy) | There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw. |",
+				"| [Plagued](/corruption/plagued) | Disease can become a corruption when it causes long-lasting and physical changes to the body. |",
+				"| [Possessed](/corruption/possessed) | Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body. |",
+				"| [Promethean](/corruption/promethean) | Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components-corpse flesh, bone, wood, metal, or other exotic materials. |",
+				"| [Psychometabolic](/corruption/psychometabolic) | Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions-often with disastrous results. |",
+				"| [Shadowbound](/corruption/shadowbound) | Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color. |",
+				"| [Vampirism](/corruption/vampirism) | You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents. |"
 			]
 		],
 		"previous": [
@@ -3408,6 +3434,7 @@
 				"id": "drugs table",
 				"headers": [ "Drug", "Addiction", "Type", "Fortitude Save DC", "Price" ],
 				"types": [ null, "num", null, "num", "gp" ],
+				"ripples": [0],
 				"data": [
 					[ "[Keleshite Coffee](drug/keleshite_coffee)", [ 0, "minor" ], "ingested", 12, 5 ],
 					[ "[Flayleaf](drug/flayleaf)", [ 0, "minor" ], "inhaled or ingested", 12, 10 ],

@@ -10,6 +10,7 @@
 				"id": "monsters d fox",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[D'ziriak](monster/d'ziriak)", 3, "outsider", [ 4, "medium" ], [ 4, "N" ], "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes." ],
 					[ "[Daemon, Acrididaemon](monster/daemon,_acrididaemon)", 14, "outsider", [ 5, "large" ], [ 5, "NE" ], "This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts." ],
@@ -584,6 +585,7 @@
 				"id": "campaign traits",
 				"headers": [ "Trait", "Campaign" ],
 				"types": [ null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[Chance Savior](trait/chance_savior)", "Carrion Crown " ],
 					[ "[Inspired by Greatness](trait/inspired_by_greatness)", "Carrion Crown " ],
@@ -821,6 +823,7 @@
 				"id": "race traits",
 				"headers": [ "Trait", "Race" ],
 				"types": [ null, null ],
+				"ripples": [0],
 				"data": [
 					[ "[Adrift](trait/adrift)", "Aasimar " ],
 					[ "[Celestial Community](trait/celestial_community)", "Aasimar " ],
@@ -4378,6 +4381,7 @@
 				"id": "monsters li sci",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"ripples": [0],
 				"data": [
 					[ "[Liavaran Dreamer](monster/liavaran_dreamer)", 8, "aberration", [ 5, "large" ], [ 4, "N" ], "This amorphous creature resembles a golden-hued jellyfish that floats through the air, fleshy tentacles dangling down in a line." ],
 					[ "[Lich Newt](monster/lich_newt)", [ -4, "1/4" ], "animal", [ 2, "tiny" ], [ 4, "N" ], "Two sharp ridges of bone run along the back of this foot-long, black-and-white speckled newt." ],

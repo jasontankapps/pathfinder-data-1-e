@@ -44,7 +44,8 @@ interface ParallelItem {
 	s: SearchIndex // searchgroup
 }
 
-type SearchGroup = "class" // 1
+type SearchGroup =
+	"class" // 1
 	| "archetype" // 2
 	| "feat" // 3
 	| "trait" // 4
@@ -83,31 +84,16 @@ const options = {
 const fuse = new Fuse(fuseIndex, options);
 
 // Gather data
-const searchIndex: { title: string, prop: SearchGroup }[] = [
-	{ title: "Classes and Class Abilities", prop: "class" }, // 1
-	{ title: "Class Archetypes", prop: "archetype" }, // 2
-	{ title: "Feats", prop: "feat" }, // 3
-	{ title: "Traits", prop: "trait" }, // 4
-	{ title: "Magic Items", prop: "magic" }, // 5
-	{ title: "Equipment", prop: "equip" }, // 6
-	{ title: "Technology", prop: "tech" }, // 7
-	{ title: "Spells", prop: "spell" }, // 8
-	{ title: "Races", prop: "race" }, // 9
-	{ title: "Deities/Faiths", prop: "faith" }, // 10
-	{ title: "Monsters", prop: "monster" }, // 11
-	{ title: "Rules", prop: "rule" } // 12
-];
-
 interface DataObject {
 	data: ParallelItem[]
 	types: string[]
 	prefixes: string[]
-	searchgroups: SearchGroup[]
+	searchindex: string[]
 }
 function isData(value: unknown): asserts value is DataObject {}
 isData(fuseTranslatedIndex);
 
-const { data, types, prefixes, searchgroups } = fuseTranslatedIndex;
+const { data, types, prefixes, searchindex } = fuseTranslatedIndex;
 
 interface SearchResultItem {
 	index: number
@@ -204,15 +190,15 @@ const SearchModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, fi
 			<IonContent>
 				<IonList lines="full">
 					<IonItem button onClick={selectDeselect}><IonLabel color="tertiary">Select/Deselect All</IonLabel></IonItem>
-					{searchIndex.map((item, i) => (
-						<IonItem key={`filter/${item.prop}`}>
+					{searchindex.map((item, i) => (
+						<IonItem key={`filter/${i}`}>
 							<IonCheckbox
 								checked={temp.indexOf((i + 1) as SearchIndex) > -1}
 								value={i+1}
 								labelPlacement="start"
 								onClick={() => registerClick((i + 1) as SearchIndex)}
 								justify="end"
-							>{item.title}</IonCheckbox>
+							>{item}</IonCheckbox>
 						</IonItem>
 					))}
 				</IonList>
