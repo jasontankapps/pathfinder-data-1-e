@@ -2021,9 +2021,8 @@
 			"",
 			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
 			"**Element** aether,water,wood; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** kinetic healer wild talent, aasimar or [Planar Infusion (Elysium, Heaven, Nirvana)](feat/planar_infusion)",
-			"",
-			"Saving Throw none; SR none",
+			"**Prerequisite** kinetic healer wild talent, aasimar or [Planar Infusion (Elysium, Heaven, Nirvana)](feat/planar_infusion)  ",
+			"**Saving Throw** none; **SR** none",
 			"",
 			"When you use kinetic healer, the target of the healing gains the benefits of [protection from evil](spell/protection_from_evil) for 1 round."
 		]
@@ -2354,9 +2353,8 @@
 			"## Elemental Exile (Sp)",
 			"",
 			"**Sources:** [Wilderness Origins pg. 28](source/wilderness_origins)  ",
-			"**Element** universal; **Type** utility (Sp); **Level** 8; **Burn** 1",
-			"",
-			"Saving Throw Will negates; SR yes",
+			"**Element** universal; **Type** utility (Sp); **Level** 8; **Burn** 1  ",
+			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You transport a single creature you touch to the plane associated with your element. Precise accuracy regarding a particular arrival location on the intended plane is almost impossible. The creature appears 5 to 500 miles (5d%) from your intended destination. Elemental exile transports creatures instantaneously and then ends. The creature must find other means to travel back (such as casting [plane shift](spell/plane_shift) or using elemental exile again)."
 		]
@@ -2369,9 +2367,8 @@
 			"## Elemental Grip (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 24](source/occult_adventures)  ",
-			"**Element** universal; **Type** utility (Sp); **Level** 3; **Burn** 0",
-			"",
-			"Saving Throw Will negates; SR yes",
+			"**Element** universal; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
+			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You use your element to halt a creature associated with your element, as hold monster except it requires concentration to maintain, and it works only on creatures with a subtype matching one of your elements (for example, a pyrokineticist could use it on creatures of the fire subtype). At any time, you can accept 1 point of burn to remove the need to concentrate."
 		]
@@ -2384,9 +2381,8 @@
 			"## Elemental Transmission (Sp)",
 			"",
 			"**Sources:** [Wilderness Origins pg. 28](source/wilderness_origins)  ",
-			"**Element** earth,fire,water; **Type** utility (Sp); **Level** 5; **Burn** 0",
-			"",
-			"Saving Throw Will negates; SR yes",
+			"**Element** earth,fire,water; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
+			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You reach out to a creature with which you are familiar by using a conduit through an elemental plane. By concentrating for 10 minutes, you create one end of the conduit in a manifestation of your chosen element, such as a fire, pool of water, or section of earth, which must be at least 2 feet in diameter. If the creature you are attempting to contact is within earshot of a similar elemental manifestation and on the same plane, the conduit forms successfully, allowing both sides to see a likeness of the other. You can hear and talk to each other, though you cannot perceive anything else from the other side of the connection. If the creature is not within earshot of a similar elemental manifestation, you can maintain your concentration to wait until the creature comes close enough to such a feature. The connection lasts until you stop concentrating on it, use this ability again, or until the creature moves away from the conduit."
 		]
@@ -2645,9 +2641,8 @@
 			"",
 			"**Sources:** [Ultimate Wilderness pg. 58](source/ultimate_wilderness), [Psychic Anthology pg. 22](source/psychic_anthology)  ",
 			"**Element** fire,wood; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** fire blast or positive blast",
-			"",
-			"Saving Throw none; SR yes",
+			"**Prerequisite** fire blast or positive blast  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"You surround a creature with glowing flames that outline it, as per faerie fire. If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of severe heat and must succeed at a Fortitude save against nonlethal damage after 10 minutes. A creature can extinguish the foxfire automatically as a full-round action."
 		]
@@ -2781,9 +2776,8 @@
 			"",
 			"**Sources:** [Ultimate Wilderness pg. 59](source/ultimate_wilderness), [Psychic Anthology pg. 23](source/psychic_anthology)  ",
 			"**Element** aether,void,water,wood; **Type** utility (Sp); **Level** 4; **Burn** 1  ",
-			"**Prerequisite** kinetic healer or void healer",
-			"",
-			"Saving Throw none; SR yes",
+			"**Prerequisite** kinetic healer or void healer  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"You use kinetic healer or void healer (whichever you have, or either if you have both) to heal all creatures in a 30-foot radius around you. Healing burst heals half as much damage as normal, unless your healing amount is based on positive blast, in which case it heals the full amount. Unlike kinetic healer, you must accept the burn yourself. This counts as kinetic healer for the purpose of the kinetic chirurgeon archetype (the 17th-level metahealer ability heals the kinetic chirurgeon twice-once for half and once for full)."
 		]
@@ -2911,9 +2905,8 @@
 			"",
 			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** tiefling or [Planar Infusion (Hell)](feat/planar_infusion)",
-			"",
-			"Saving Throw none; SR yes",
+			"**Prerequisite** tiefling or [Planar Infusion (Hell)](feat/planar_infusion)  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"As a swift action before using a utility talent on a willing target, you can add the effects of [conditional favor](spell/conditional_favor), except that it applies to any beneficial utility talent instead of to spells of certain schools."
 		]
@@ -2993,9 +2986,8 @@
 			"## Kinetic Healer (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 26](source/occult_adventures)  ",
-			"**Element** aether,water; **Type** utility (Sp); **Level** 1; **Burn** 1",
-			"",
-			"Saving Throw none; SR yes",
+			"**Element** aether,water; **Type** utility (Sp); **Level** 1; **Burn** 1  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"With a touch, you can heal a willing living creature of an amount of damage equal to your kinetic blast's damage. Instead of paying the burn cost yourself, you can cause the recipient to take 1 point of burn. If you do so, the recipient takes 1 point of nonlethal damage per Hit Die he possesses, as usual for burn; this damage can't be healed by any means until the recipient takes a full night's rest."
 		]
@@ -3053,9 +3045,8 @@
 			"",
 			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
 			"**Element** air,earth; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
-			"**Prerequisite** magnetic infusion",
-			"",
-			"Saving Throw none; SR yes",
+			"**Prerequisite** magnetic infusion  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"You can push and pull metal objects using magnetism. This functions as telekinetic maneuvers but you can make only bull rush and drag combat maneuvers, and can do so only against metal objects or creatures. If you use this ability on an attended metal object, you must exceed the creature's CMD as normal, and if it's holding the object, it must drop it or this ability pushes or pulls the creature."
 		]
@@ -3069,9 +3060,8 @@
 			"",
 			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
 			"**Element** air,earth; **Type** utility (Sp); **Level** 9; **Burn** 0  ",
-			"**Prerequisite** magnetic infusion, magnetism",
-			"",
-			"Saving Throw none; SR no",
+			"**Prerequisite** magnetic infusion, magnetism  ",
+			"**Saving Throw** none; **SR** no",
 			"",
 			"You can repel or attract metal objects in a vast line with a magnetism so strong that there is no hope of escaping. This functions as repel metal or stone, except only for metal objects, and you can also pull the objects toward you instead of pushing them away. The effect lasts for 1 round, and the pulling version of the effect can't pull objects into the air unless they are already airborne. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have."
 		]
@@ -3366,9 +3356,8 @@
 			"",
 			"**Sources:** [Occult Adventures pg. 26](source/occult_adventures)  ",
 			"**Element** earth; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
-			"**Prerequisite** kinetic cover",
-			"",
-			"Saving Throw see text; SR no",
+			"**Prerequisite** kinetic cover  ",
+			"**Saving Throw** see text; **SR** no",
 			"",
 			"As a standard action, you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn't cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature's feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth."
 		]
@@ -3450,9 +3439,8 @@
 			"## Slick (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 27](source/occult_adventures)  ",
-			"**Element** water; **Type** utility (Sp); **Level** 1; **Burn** 0",
-			"",
-			"Saving Throw Reflex negates; SR no",
+			"**Element** water; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
+			"**Saving Throw** Reflex negates; **SR** no",
 			"",
 			"As a standard action, you call forth slippery water or ice, creating any of the effects of the grease spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess."
 		]
@@ -3465,9 +3453,8 @@
 			"## Smoke Storm (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 27](source/occult_adventures)  ",
-			"**Element** fire; **Type** utility (Sp); **Level** 3; **Burn** 0",
-			"",
-			"Saving Throw Fortitude negates; see text; SR no",
+			"**Element** fire; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
+			"**Saving Throw** Fortitude negates; see text; **SR** no",
 			"",
 			"You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius spread and affecting vision like a smokestick. All creatures that begin their turns inside the area become sickened as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates)."
 		]
@@ -3521,9 +3508,8 @@
 			"",
 			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
 			"**Element** water; **Type** utility (Sp); **Level** 5; **Burn** 1  ",
-			"**Prerequisite** tiefling or [Planar Infusion (Abaddon, Abyss, or Hell)](feat/planar_infusion)",
-			"",
-			"Saving Throw Will negates; SR yes",
+			"**Prerequisite** tiefling or [Planar Infusion (Abaddon, Abyss, or Hell)](feat/planar_infusion)  ",
+			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as [modify memory](spell/modify_memory), except that it can only eliminate memories."
 		]
@@ -3563,9 +3549,8 @@
 			"## Suffocate (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 27](source/occult_adventures)  ",
-			"**Element** aether,air,void,water; **Type** utility (Sp); **Level** 6; **Burn** 0",
-			"",
-			"Saving Throw Fortitude partial; SR yes",
+			"**Element** aether,air,void,water; **Type** utility (Sp); **Level** 6; **Burn** 0  ",
+			"**Saving Throw** Fortitude partial; **SR** yes",
 			"",
 			"You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect. You can accept 1 point of burn when activating this wild talent in order to expel the air from your target's lungs. If you do so and the target fails its first Fortitude save, it becomes disabled and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to -1 hit points."
 		]
@@ -3645,9 +3630,8 @@
 			"## Telekinetic Maneuvers (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 28](source/occult_adventures)  ",
-			"**Element** aether; **Type** utility (Sp); **Level** 4; **Burn** 0",
-			"",
-			"Saving Throw none; SR yes",
+			"**Element** aether; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"You can perform combat maneuvers as telekinesis, but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier. If you possess the telekinetic finesse wild talent, add dirty trick and steal combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier."
 		]
@@ -3731,9 +3715,8 @@
 			"## Trail of Flames (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 28](source/occult_adventures)  ",
-			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0",
-			"",
-			"Saving Throw none; SR yes",
+			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"When you take the withdraw or run action, you can leave a wall of fire in all squares you exit that lasts for 1 round."
 		]
@@ -3790,9 +3773,8 @@
 			"## Undead Grip (Sp)",
 			"",
 			"**Sources:** [Psychic Anthology pg. 23](source/psychic_anthology)  ",
-			"**Element** void; **Type** utility (Sp); **Level** 3; **Burn** 0",
-			"",
-			"Saving Throw Will negates; SR yes",
+			"**Element** void; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
+			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"This functions as elemental grip, except it works on a single undead creature as per halt undead. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
 		]
@@ -3831,9 +3813,8 @@
 			"## Voice of the Wind (Sp)",
 			"",
 			"**Sources:** [Occult Adventures pg. 29](source/occult_adventures)  ",
-			"**Element** air; **Type** utility (Sp); **Level** 1; **Burn** 0",
-			"",
-			"Saving Throw none; SR yes",
+			"**Element** air; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a message spell you cast. Alternatively, you can send your voice to a distant location as if casting whispering wind."
 		]
@@ -3907,9 +3888,8 @@
 			"",
 			"**Sources:** [Occult Adventures pg. 29](source/occult_adventures)  ",
 			"**Element** water; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
-			"**Prerequisite** kinetic cover",
-			"",
-			"Saving Throw none; see text; SR no",
+			"**Prerequisite** kinetic cover  ",
+			"**Saving Throw** none; see text; **SR** no",
 			"",
 			"You can manipulate massive quantities of water. As a standard action, you can raise or lower the level of water as if using control water, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect. This wild talent causes a slow effect on creatures made of water, just like control water (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
 		]
@@ -4064,9 +4044,8 @@
 			"",
 			"**Sources:** [Ultimate Wilderness pg. 61](source/ultimate_wilderness), [Psychic Anthology pg. 23](source/psychic_anthology)  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 1; **Burn** 1  ",
-			"**Prerequisite** positive blast",
-			"",
-			"Saving Throw none; SR yes",
+			"**Prerequisite** positive blast  ",
+			"**Saving Throw** none; **SR** yes",
 			"",
 			"This functions as kinetic healer, but you must base the amount of healing on your positive blast, not wood blast. A phytokineticist with positive blast as her first blast qualifies for the kinetic chirurgeon archetype and gains this utility talent instead of kinetic healer. This wild talent counts as kinetic healer for prerequisites for selecting other kineticist wild talents."
 		]

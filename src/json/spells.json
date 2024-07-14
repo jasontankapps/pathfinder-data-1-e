@@ -6466,11 +6466,10 @@
 			"",
 			"The haunt can grab and attempt to drown multiple creatures in its area on its initiative count. The magic holding the haunt together is unstable and deteriorates while the haunt is active. Each round at the end of its turn, the haunt automatically loses 1d6 hit points per creature it is currently affecting. Furthermore, the spell's haunt-like manifestation is active throughout the spell's duration, rendering it vulnerable to effects that damage haunts. When the haunt reaches 0 hit points, the spell ends.",
 			"",
-			"Haunt Statistics",
+			"### Haunt Statistics",
 			"",
-			"Notice Perception DC 30 (To detect the smell of brine)",
-			"",
-			"hp 5 hp/level; Trigger proximity; Reset none"
+			"**Notice** Perception DC 30 (To detect the smell of brine)  ",
+			"**hp** 5 hp/level; **Trigger** proximity; **Reset** none"
 		]
 	},
 	"bestow_auras": {

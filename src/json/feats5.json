@@ -2189,7 +2189,7 @@
 			"**Prerequisites:** [Brew Potion](feat/brew_potion), caster level 10th.  ",
 			"**Benefit:** When you brew a potion using a spell with a duration of 1 round per caster level, you can increase the spell's duration to 1 minute for the purposes of the resulting potion's effects on the imbiber. This does not stack with any other effect that would increase the duration of the potion, such as the Extend Spell metamagic feat. A spell brewed into a potion this way uses up a spell slot one level higher than the spell's actual level for the purposes of crafting and its cost.",
 			"",
-			"Versatile Brewing",
+			"### Versatile Brewing",
 			"",
 			"The above feat allows potion brewers to concoct unusual variations in their potions, altering the potions' effects in strange and useful ways. This feat functions similarly to metamagic feats, though it affects the creation of potions instead of the normal casting of spells. Level limits for potions apply to their level after the application of any relevant metamagic feats (if the feat affects the component spell's level)."
 		]
@@ -3405,9 +3405,8 @@
 			"**Prerequisites:** You must either have sold five or more self-created works of art worth a total of at least 5, 000 gp, have performed at least five performances for audiences of 50 or more while achieving a great performance result or better on your Perform check, or have the Virtuoso background.  ",
 			"**Benefit:** Choose a single Craft or Perform skill.",
 			"",
-			"Whenever you take 10 with this skill, treat your",
+			"Whenever you take 10 with this skill, treat your die result as a 15 instead.",
 			"",
-			"die result as a 15 instead.  ",
 			"**Goal:** Either sell a single self-created work of art for at least 25,000 gp, perform at least 10 performances for audiences of 100 or more while achieving an extraordinary result or better, or win the artistic patronage of the ruler of a country or city of at least 100,000 people. In each case, you must achieve this using the skill chosen above.  ",
 			"**Completion Benefit:** You gain a +5 bonus on skill checks made with your chosen skill, and a +2 bonus on all other Craft and Perform checks for which you have at least 1 rank."
 		]
@@ -3971,17 +3970,17 @@
 			"**Prerequisites:** Disguise 1 rank or dual identity class feature.  ",
 			"**Benefit:** Your masked persona represents a particular concept, granting you a benefit while in your masked persona or vigilante identity. Each time you gain a new character level, you can choose to embody a different symbol, forgoing your previous bonus and gaining a new one. Faith: +2 circumstance bonus on Diplomacy checks against creatures of your faith; +2 circumstance bonus on Intimidate checks against enemies of your faith.",
 			"",
-			"Fear: +3 circumstance bonus on Intimidate checks.",
+			"**Fear:** +3 circumstance bonus on Intimidate checks.",
 			"",
-			"Hope: +3 circumstance bonus on Diplomacy checks.",
+			"**Hope:** +3 circumstance bonus on Diplomacy checks.",
 			"",
-			"Leadership: +2 bonus to your Leadership score.",
+			"**Leadership:** +2 bonus to your Leadership score.",
 			"",
-			"Mystery: +2 circumstance bonus on Disguise checks to conceal your true identity; +2 circumstance bonus on Stealth checks to enter or escape unseen.",
+			"**Mystery:** +2 circumstance bonus on Disguise checks to conceal your true identity; +2 circumstance bonus on Stealth checks to enter or escape unseen.",
 			"",
-			"The People: +2 circumstance bonus on checks to influence crowds.",
+			"**The People:** +2 circumstance bonus on checks to influence crowds.",
 			"",
-			"Trust: +2 circumstance bonus on Bluff checks to lie and Diplomacy checks to make requests."
+			"**Trust:** +2 circumstance bonus on Bluff checks to lie and Diplomacy checks to make requests."
 		]
 	},
 	"master_alchemist": {

@@ -1177,11 +1177,10 @@
 			"",
 			"Those in this spell's area who fail their Will saving throws harbor a faint sense of paranoia and evoke the same feeling in others for the duration of the spell. Domesticated animals (not including familiars and animal companions) don't willingly approach affected creatures unless the animal's master succeeds at a DC 25 Handle Animal, Ride, or wild empathy check. Affected creatures take a -4 penalty on Handle Animal, Ride, and wild empathy checks against familiars, animal companions, animal cohorts, and other permanent companions provided by class abilities for the spell's duration. Anyone an affected creature interacts with must succeed at a Will save or have its initial attitude automatically worsened by one step for the spell's duration. Every time an affected creature attempts a Sense Motive check to get a hunch or detect a Bluff from another creature (or vice versa), it must succeed at a Will save or automatically assume the other party is lying or otherwise harbors ill will against it. Each time this spell causes an affected creature (or someone interacting with the affected creature) to attempt a Will saving throw, the spell's hauntlike manifestation occurs.",
 			"",
-			"Haunt Statistics",
+			"### Haunt Statistics",
 			"",
-			"Notice Perception DC DC 20 (to feel a sudden sense of dread, or to hear victims' names whispered behind their backs)",
-			"",
-			"hp 2 hp/level; Trigger proximity; Reset none"
+			"**Notice** Perception DC DC 20 (to feel a sudden sense of dread, or to hear victims' names whispered behind their backs)  ",
+			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
 		]
 	},
 	"unshakable_chill": {
@@ -1437,11 +1436,10 @@
 			"",
 			"You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature's attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as hide from undead). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature's spells and special abilities. The undead also ignores any concealment less than total concealment that an affected creature has. Each time the spell draws an undead creature's attention to an affected creature, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"Haunt Statistics",
+			"### Haunt Statistics",
 			"",
-			"Notice Perception DC 20 (to see a pale light briefly in the area)",
-			"",
-			"hp 2 hp/level; Trigger proximity; Reset none"
+			"**Notice** Perception DC 20 (to see a pale light briefly in the area)  ",
+			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
 		]
 	},
 	"utter_contempt": {
