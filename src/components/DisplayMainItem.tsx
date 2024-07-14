@@ -1,6 +1,7 @@
 import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
+import { HashLink } from 'react-router-hash-link';
 import remarkGfm from 'remark-gfm'
 import DisplayTable from './DisplayTable';
 import { Table } from '../types';
@@ -47,6 +48,18 @@ const doLink = (props: MDaProps) => {
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
 		return <Link to={href}>{children}<IonRippleEffect /></Link>
+	} else if (href.match(/^#(.+)/)) {
+		// Hash indicates internal link
+		const m = href.match(/user-content-fn-(.+)/);
+		const id = m ? "user-content-fnref-" + m[1] : undefined;
+		const scrollWithOffset = (el: HTMLElement) => {
+			const w = document.getElementsByTagName("ion-content");
+			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
+			const yOffset = id ? 0 : -80;
+			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+			[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
+		}
+		return <HashLink id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
 	}
 	return <Link to={"/" + href}>{children}</Link>
 };
