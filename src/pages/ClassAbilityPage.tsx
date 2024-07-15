@@ -11,9 +11,9 @@ const ClassAbilityGroup2Page = lazy(() => import("./ClassAbilityGroup2Page"));
 const ClassAbilityGroup3Page = lazy(() => import("./ClassAbilityGroup3Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassAbilityGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <ClassAbilityGroup1Page id={id} />,
+	({id}: {id: string}) => <ClassAbilityGroup2Page id={id} />,
+	({id}: {id: string}) => <ClassAbilityGroup3Page id={id} />,
 ]
 
 const ClassAbilityPage: React.FC = () => {
@@ -22,7 +22,7 @@ const ClassAbilityPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

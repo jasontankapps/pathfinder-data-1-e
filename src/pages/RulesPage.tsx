@@ -24,23 +24,23 @@ const RulesGroup15Page = lazy(() => import("./RulesGroup15Page"));
 const RulesGroup16Page = lazy(() => import("./RulesGroup16Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup01Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup02Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup03Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup04Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup05Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup06Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup07Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup08Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup09Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup10Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup11Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup12Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup13Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup14Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup15Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RulesGroup16Page id={id} /></Suspense>,
-]
+	({id}: {id: string}) => <RulesGroup01Page id={id} />,
+	({id}: {id: string}) => <RulesGroup02Page id={id} />,
+	({id}: {id: string}) => <RulesGroup03Page id={id} />,
+	({id}: {id: string}) => <RulesGroup04Page id={id} />,
+	({id}: {id: string}) => <RulesGroup05Page id={id} />,
+	({id}: {id: string}) => <RulesGroup06Page id={id} />,
+	({id}: {id: string}) => <RulesGroup07Page id={id} />,
+	({id}: {id: string}) => <RulesGroup08Page id={id} />,
+	({id}: {id: string}) => <RulesGroup09Page id={id} />,
+	({id}: {id: string}) => <RulesGroup10Page id={id} />,
+	({id}: {id: string}) => <RulesGroup11Page id={id} />,
+	({id}: {id: string}) => <RulesGroup12Page id={id} />,
+	({id}: {id: string}) => <RulesGroup13Page id={id} />,
+	({id}: {id: string}) => <RulesGroup14Page id={id} />,
+	({id}: {id: string}) => <RulesGroup15Page id={id} />,
+	({id}: {id: string}) => <RulesGroup16Page id={id} />,
+];
 
 const RulesPage: React.FC = () => {
 
@@ -48,7 +48,7 @@ const RulesPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id].page || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

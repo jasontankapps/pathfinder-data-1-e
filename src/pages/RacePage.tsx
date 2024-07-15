@@ -10,8 +10,8 @@ const RaceGroup1Page = lazy(() => import("./RaceGroup1Page"));
 const RaceGroup2Page = lazy(() => import("./RaceGroup2Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RaceGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><RaceGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <RaceGroup1Page id={id} />,
+	({id}: {id: string}) => <RaceGroup2Page id={id} />,
 ]
 
 const RacePage: React.FC = () => {
@@ -20,7 +20,7 @@ const RacePage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

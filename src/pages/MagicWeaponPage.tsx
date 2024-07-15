@@ -10,8 +10,8 @@ const MagicWeaponGroup1Page = lazy(() => import("./MagicWeaponGroup1Page"));
 const MagicWeaponGroup2Page = lazy(() => import("./MagicWeaponGroup2Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWeaponGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWeaponGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <MagicWeaponGroup1Page id={id} />,
+	({id}: {id: string}) => <MagicWeaponGroup2Page id={id} />,
 ]
 
 const MagicWeaponPage: React.FC = () => {
@@ -20,7 +20,7 @@ const MagicWeaponPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

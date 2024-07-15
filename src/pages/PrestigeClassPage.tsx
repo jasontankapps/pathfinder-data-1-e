@@ -11,9 +11,9 @@ const PrestigeClassGroup2Page = lazy(() => import("./PrestigeClassGroup2Page"));
 const PrestigeClassGroup3Page = lazy(() => import("./PrestigeClassGroup3Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><PrestigeClassGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><PrestigeClassGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><PrestigeClassGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <PrestigeClassGroup1Page id={id} />,
+	({id}: {id: string}) => <PrestigeClassGroup2Page id={id} />,
+	({id}: {id: string}) => <PrestigeClassGroup3Page id={id} />,
 ]
 
 const PrestigeClassPage: React.FC = () => {
@@ -22,7 +22,7 @@ const PrestigeClassPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

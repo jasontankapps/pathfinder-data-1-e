@@ -15,16 +15,16 @@ const ArchetypeGroup8Page = lazy(() => import("./ArchetypeGroup8Page"));
 const ArchetypeGroup9Page = lazy(() => import("./ArchetypeGroup9Page"));
 
 const pages = [
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup0Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup1Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup2Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup3Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup4Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup5Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup6Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup7Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup8Page id={id} parent={parent} title={title} /></Suspense>,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <Suspense fallback={<Loading />}><ArchetypeGroup9Page id={id} parent={parent} title={title} /></Suspense>
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup0Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup1Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup2Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup3Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup4Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup5Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup6Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup7Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup8Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup9Page id={id} parent={parent} title={title} />
 ];
 
 const classes: { [key: string]: [number, string] } = {
@@ -93,7 +93,7 @@ const ArchetypePage: React.FC = () => {
 
 	const Page = pages[num];
 
-	return <Page id={id} parent={parent} title={title} />;
+	return <Suspense fallback={<Loading />}><Page id={id} parent={parent} title={title} /></Suspense>;
 };
 
 export default ArchetypePage;

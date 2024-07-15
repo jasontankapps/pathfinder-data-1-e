@@ -28,26 +28,26 @@ const MainGroup19Page = lazy(() => import("./MainGroup19Page"));
 const MainGroup20Page = lazy(() => import("./MainGroup20Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup01Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup02Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup03Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup04Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup05Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup06Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup07Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup08Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup09Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup10Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup11Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup12Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup13Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup14Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup15Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup16Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup17Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup18Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup19Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MainGroup20Page id={id} /></Suspense>,
+	({id}: {id: string}) => <MainGroup01Page id={id} />,
+	({id}: {id: string}) => <MainGroup02Page id={id} />,
+	({id}: {id: string}) => <MainGroup03Page id={id} />,
+	({id}: {id: string}) => <MainGroup04Page id={id} />,
+	({id}: {id: string}) => <MainGroup05Page id={id} />,
+	({id}: {id: string}) => <MainGroup06Page id={id} />,
+	({id}: {id: string}) => <MainGroup07Page id={id} />,
+	({id}: {id: string}) => <MainGroup08Page id={id} />,
+	({id}: {id: string}) => <MainGroup09Page id={id} />,
+	({id}: {id: string}) => <MainGroup10Page id={id} />,
+	({id}: {id: string}) => <MainGroup11Page id={id} />,
+	({id}: {id: string}) => <MainGroup12Page id={id} />,
+	({id}: {id: string}) => <MainGroup13Page id={id} />,
+	({id}: {id: string}) => <MainGroup14Page id={id} />,
+	({id}: {id: string}) => <MainGroup15Page id={id} />,
+	({id}: {id: string}) => <MainGroup16Page id={id} />,
+	({id}: {id: string}) => <MainGroup17Page id={id} />,
+	({id}: {id: string}) => <MainGroup18Page id={id} />,
+	({id}: {id: string}) => <MainGroup19Page id={id} />,
+	({id}: {id: string}) => <MainGroup20Page id={id} />,
 ]
 
 const MainPage: React.FC = () => {
@@ -62,7 +62,7 @@ const MainPage: React.FC = () => {
 
 	const Page = pages[index];
 
-	return <Page id={mainpage || "main"} />;
+	return <Suspense fallback={<Loading />}><Page id={mainpage || "main"} /></Suspense>;
 
 };
 

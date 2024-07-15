@@ -10,8 +10,8 @@ const MonsterTemplateGroup1Page = lazy(() => import("./MonsterTemplateGroup1Page
 const MonsterTemplateGroup2Page = lazy(() => import("./MonsterTemplateGroup2Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterTemplateGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterTemplateGroup2Page id={id} /></Suspense>,
+	({id}: {id: string}) => <MonsterTemplateGroup1Page id={id} />,
+	({id}: {id: string}) => <MonsterTemplateGroup2Page id={id} />,
 ]
 
 const MonsterTemplatePage: React.FC = () => {
@@ -20,7 +20,7 @@ const MonsterTemplatePage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

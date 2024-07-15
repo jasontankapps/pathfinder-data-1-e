@@ -10,7 +10,7 @@ const hierarchy: HierarchyArray = [
 	["Main", "main/main"],
 	["All Rules", "main/rules"],
 	["Gamemastering", "rule/gamemastering"],
-	["Universal Monster Rules", "rule/umr"]
+	["Universal Monster Rules", "main/umr"]
 ];
 
 const typings = {...monster_types, ...monster_subtypes};

@@ -37,35 +37,35 @@ const MonsterGroup28Page = lazy(() => import("./MonsterGroup28Page"));
 const MonsterGroup29Page = lazy(() => import("./MonsterGroup29Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup01Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup02Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup03Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup04Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup05Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup06Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup07Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup08Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup09Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup10Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup11Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup12Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup13Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup14Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup15Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup16Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup17Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup18Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup19Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup20Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup21Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup22Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup23Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup24Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup25Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup26Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup27Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup28Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MonsterGroup29Page id={id} /></Suspense>,
+	({id}: {id: string}) => <MonsterGroup01Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup02Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup03Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup04Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup05Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup06Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup07Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup08Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup09Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup10Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup11Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup12Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup13Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup14Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup15Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup16Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup17Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup18Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup19Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup20Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup21Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup22Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup23Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup24Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup25Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup26Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup27Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup28Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup29Page id={id} />,
 ]
 
 const MonsterPage: React.FC = () => {
@@ -74,7 +74,7 @@ const MonsterPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "main"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "main"} /></Suspense>;
 
 };
 

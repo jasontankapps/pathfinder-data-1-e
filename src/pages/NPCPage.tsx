@@ -12,10 +12,10 @@ const NPCGroup3Page = lazy(() => import("./NPCGroup3Page"));
 const NPCGroup4Page = lazy(() => import("./NPCGroup4Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><NPCGroup4Page id={id} /></Suspense>,
+	({id}: {id: string}) => <NPCGroup1Page id={id} />,
+	({id}: {id: string}) => <NPCGroup2Page id={id} />,
+	({id}: {id: string}) => <NPCGroup3Page id={id} />,
+	({id}: {id: string}) => <NPCGroup4Page id={id} />,
 ]
 
 const NPCPage: React.FC = () => {
@@ -24,7 +24,7 @@ const NPCPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

@@ -16,14 +16,14 @@ const FeatGroup7Page = lazy(() => import("./FeatGroup7Page"));
 const FeatGroup8Page = lazy(() => import("./FeatGroup8Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup4Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup5Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup6Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup7Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FeatGroup8Page id={id} /></Suspense>,
+	({id}: {id: string}) => <FeatGroup1Page id={id} />,
+	({id}: {id: string}) => <FeatGroup2Page id={id} />,
+	({id}: {id: string}) => <FeatGroup3Page id={id} />,
+	({id}: {id: string}) => <FeatGroup4Page id={id} />,
+	({id}: {id: string}) => <FeatGroup5Page id={id} />,
+	({id}: {id: string}) => <FeatGroup6Page id={id} />,
+	({id}: {id: string}) => <FeatGroup7Page id={id} />,
+	({id}: {id: string}) => <FeatGroup8Page id={id} />,
 ]
 
 const FeatPage: React.FC = () => {
@@ -32,7 +32,7 @@ const FeatPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

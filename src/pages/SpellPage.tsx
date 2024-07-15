@@ -20,18 +20,18 @@ const SpellGroup11Page = lazy(() => import("./SpellGroup11Page"));
 const OccultRitualGroup12Page = lazy(() => import("./SpellGroup12Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup4Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup5Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup6Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup7Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup8Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup9Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup10Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><SpellGroup11Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><OccultRitualGroup12Page id={id} /></Suspense>,
+	({id}: {id: string}) => <SpellGroup1Page id={id} />,
+	({id}: {id: string}) => <SpellGroup2Page id={id} />,
+	({id}: {id: string}) => <SpellGroup3Page id={id} />,
+	({id}: {id: string}) => <SpellGroup4Page id={id} />,
+	({id}: {id: string}) => <SpellGroup5Page id={id} />,
+	({id}: {id: string}) => <SpellGroup6Page id={id} />,
+	({id}: {id: string}) => <SpellGroup7Page id={id} />,
+	({id}: {id: string}) => <SpellGroup8Page id={id} />,
+	({id}: {id: string}) => <SpellGroup9Page id={id} />,
+	({id}: {id: string}) => <SpellGroup10Page id={id} />,
+	({id}: {id: string}) => <SpellGroup11Page id={id} />,
+	({id}: {id: string}) => <OccultRitualGroup12Page id={id} />,
 ]
 
 const SpellPage: React.FC = () => {
@@ -40,7 +40,7 @@ const SpellPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

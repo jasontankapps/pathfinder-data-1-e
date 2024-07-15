@@ -15,13 +15,13 @@ const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup6Page"));
 const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup7Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup4Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup5Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup6Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><MagicWondrousGroup7Page id={id} /></Suspense>,
+	({id}: {id: string}) => <MagicWondrousGroup1Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup2Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup3Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup4Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup5Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup6Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup7Page id={id} />,
 ]
 
 const MagicWondrousPage: React.FC = () => {
@@ -30,7 +30,7 @@ const MagicWondrousPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

@@ -11,9 +11,9 @@ const FaithGroup2Page = lazy(() => import("./FaithGroup2Page"));
 const FaithGroup3Page = lazy(() => import("./FaithGroup3Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FaithGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FaithGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><FaithGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <FaithGroup1Page id={id} />,
+	({id}: {id: string}) => <FaithGroup2Page id={id} />,
+	({id}: {id: string}) => <FaithGroup3Page id={id} />,
 ]
 
 const FaithPage: React.FC = () => {
@@ -22,7 +22,7 @@ const FaithPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

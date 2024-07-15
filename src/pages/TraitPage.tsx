@@ -11,9 +11,9 @@ const TraitGroup2Page = lazy(() => import("./TraitGroup2Page"));
 const TraitGroup3Page = lazy(() => import("./TraitGroup3Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><TraitGroup3Page id={id} /></Suspense>,
+	({id}: {id: string}) => <TraitGroup1Page id={id} />,
+	({id}: {id: string}) => <TraitGroup2Page id={id} />,
+	({id}: {id: string}) => <TraitGroup3Page id={id} />,
 ]
 
 const TraitPage: React.FC = () => {
@@ -22,7 +22,7 @@ const TraitPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 

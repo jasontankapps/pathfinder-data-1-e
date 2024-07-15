@@ -14,10 +14,10 @@ const ClassGroup3Page = lazy(() => import("./ClassGroup3Page"));
 const ClassGroup4Page = lazy(() => import("./ClassGroup4Page"));
 
 const pages = [
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassGroup1Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassGroup2Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassGroup3Page id={id} /></Suspense>,
-	({id}: {id: string}) => <Suspense fallback={<Loading />}><ClassGroup4Page id={id} /></Suspense>,
+	({id}: {id: string}) => <ClassGroup1Page id={id} />,
+	({id}: {id: string}) => <ClassGroup2Page id={id} />,
+	({id}: {id: string}) => <ClassGroup3Page id={id} />,
+	({id}: {id: string}) => <ClassGroup4Page id={id} />,
 ];
 
 const ClassPage: React.FC<Params> = () => {
@@ -26,7 +26,7 @@ const ClassPage: React.FC<Params> = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Page id={id || "not_found"} />;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 
 };
 
