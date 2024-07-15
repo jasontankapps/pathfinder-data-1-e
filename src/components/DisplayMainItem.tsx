@@ -48,7 +48,7 @@ const doLink = (props: MDaProps) => {
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
 		return <Link to={href}>{children}<IonRippleEffect /></Link>
-	} else if (href.match(/^#(.+)/)) {
+	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		const m = href.match(/user-content-fn-(.+)/);
 		const id = m ? "user-content-fnref-" + m[1] : undefined;

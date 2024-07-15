@@ -3654,7 +3654,6 @@
 		"parent_topics": [ "combat" ],
 		"subtopics": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3678,7 +3677,7 @@
 		]
 	},
 	"attack_roll": {
-		"name": "Attack Roll",
+		"name": "Attack Roll and Attack Bonus",
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -3686,29 +3685,7 @@
 			"",
 			"An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target's Armor Class, you hit and deal damage.",
 			"",
-			"**Automatic Misses and Hits:** A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat-a possible critical hit (see the attack action)."
-		],
-		"parent_topics": [
-			"combat",
-			"combat_statistics"
-		],
-		"siblings": [
-			"attack_roll",
-			"attack_bonus",
-			"armor_class",
-			"damage",
-			"hit_points",
-			"attacks_of_opportunity",
-			"speed",
-			"saving_throws"
-		]
-	},
-	"attack_bonus": {
-		"name": "Attack Bonus",
-		"subtitle": "Combat",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"**Automatic Misses and Hits:** A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat-a possible critical hit (see the attack action).",
 			"",
 			"Your attack bonus with a melee weapon is the following:",
 			"",
@@ -3724,7 +3701,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3782,7 +3758,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3822,7 +3797,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3846,7 +3820,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3886,7 +3859,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3914,7 +3886,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3952,7 +3923,6 @@
 		],
 		"siblings": [
 			"attack_roll",
-			"attack_bonus",
 			"armor_class",
 			"damage",
 			"hit_points",
@@ -3977,13 +3947,13 @@
 			"",
 			"In some situations (such as in a surprise round), you may be limited to taking only a single move action or standard action.",
 			"",
-			"*Standard Action:* A standard action allows you to do something, most commonly to make an attack or cast a spell. See Table 8-2 for other standard actions.",
+			"*Standard Action:* A standard action allows you to do something, most commonly to make an attack or cast a spell. See [this table](rule/standard_actions) for other standard actions.",
 			"",
-			"*Move Action:* A move action allows you to move up to your speed or perform an action that takes a similar amount of time. See Table 8-2 for other move actions.",
+			"*Move Action:* A move action allows you to move up to your speed or perform an action that takes a similar amount of time. See [this table](rule/move_actions) for other move actions.",
 			"",
 			"You can take a move action in place of a standard action. If you move no actual distance in a round (commonly because you have swapped your move action for one or more equivalent actions), you can take one 5-foot step either before, during, or after the action.",
 			"",
-			"*Full-Round Action:* A full-round action consumes all your effort during a round. The only movement you can take during a full-round action is a 5-foot step before, during, or after the action. You can also perform free actions and swift actions (see below). See Table 8-2 for a list of full-round actions.",
+			"*Full-Round Action:* A full-round action consumes all your effort during a round. The only movement you can take during a full-round action is a 5-foot step before, during, or after the action. You can also perform free actions and swift actions (see below). See [this table](rule/full-round_actions) for a list of full-round actions.",
 			"",
 			"Some full-round actions do not allow you to take a 5-foot step.",
 			"",
@@ -6336,7 +6306,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
 			"",
-			"If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the Two-Weapon Fighting feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.",
+			"If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the [Two-Weapon Fighting](feat/two-weapon_fighting) feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.",
 			"",
 			"Table 8-7 summarizes the interaction of all these factors.",
 			"",
@@ -6452,6 +6422,7 @@
 	},
 	"conditions": {
 		"name": "Conditions",
+		"tags": "bleed blinded broken confused cowering dazed dazzled dead deafened disabled dying entangled energy drained exhausted fascinated fatigued flat-footed fragile frightened grappled helpless incorporeal invisible nauseated panicked paralyzed pinned petrified prone shaken sickened stable staggered stunned unconscious",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -6536,7 +6507,7 @@
 			"",
 			"**Incorporeal:** Creatures with the incorporeal condition do not have a physical body. Incorporeal creatures are immune to all nonmagical attack forms. Incorporeal creatures take half damage (50%) from magic weapons, spells, spell-like effects, and supernatural effects. Incorporeal creatures take full damage from other incorporeal creatures and effects, as well as all force effects.",
 			"",
-			"**Invisible:** Invisible creatures are visually undetectable. An invisible creature gains a +2 bonus on attack rolls against a sighted opponent, and ignores its opponent's Dexterity bonus to AC (if any). See Invisibility, under Special Abilities.",
+			"**Invisible:** Invisible creatures are visually undetectable. An invisible creature gains a +2 bonus on attack rolls against a sighted opponent, and ignores its opponent's Dexterity bonus to AC (if any). See [Invisibility](rule/invisibility), under Special Abilities.",
 			"",
 			"**Nauseated:** Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move actions per turn.",
 			"",
@@ -6600,7 +6571,7 @@
 			"",
 			"### Table 16-1: Special Ability Types",
 			"",
-			"| | Extraordinary | Spell-Like | Supernatural |",
+			"| Ability | Extraordinary | Spell-Like | Supernatural |",
 			"| --- | --- | --- | --- |",
 			"| **Dispel** | No | Yes | No |",
 			"| **Spell resistance** | No | Yes | No |",

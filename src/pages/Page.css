@@ -66,6 +66,8 @@ div.main ion-list ion-item.mainItem.linked {
 }
 div.main ion-list ion-item-divider.mainItem ion-label {
 	--color: var(--ion-color-step-800);
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label {
