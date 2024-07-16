@@ -7898,7 +7898,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
+			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},

@@ -843,8 +843,8 @@
 		"name": "Devil",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Accomplice Devil (Hesperian)](monster/accomplice_devil_hesperian)",
-			"- [Accuser Devil (Zebub)](monster/accuser_devil_zebub)",
+			"- [Accomplice Devil (Hesperian)](monster/hesperian)",
+			"- [Accuser Devil (Zebub)](monster/accuser_devil)",
 			"- [Advodaza](monster/advodaza)",
 			"- [Apostate Devil (Deimavigga)](monster/apostate_devil_deimavigga)",
 			"- [Barbed Devil (Hamatula)](monster/barbed_devil_hamatula)",
@@ -878,7 +878,7 @@
 			"- [Salikotal](monster/salikotal)",
 			"- [Sire Devil (Patraavex)](monster/sire_devil_patraavex)",
 			"- [Tinder Devil (Ukobach)](monster/tinder_devil_ukobach)",
-			"- [Warmonger Devil (Levaloch)](monster/warmonger_devil_levaloch)"
+			"- [Warmonger Devil (Levaloch)](monster/levaloch)"
 		],
 		"mythic_members": [
 			"- [Bone Devil](monster/bone_devil)",
@@ -3879,7 +3879,7 @@
 			"",
 			"Kytons' need to replace parts of themselves with those of stronger mortals puts them in perpetual danger of attacking creatures that are too powerful for them to kill. For this reason, kytons are pragmatic and ruthless in their battles, scrutinizing all potential outcomes of a situation before taking action. Seeing strength in numbers, kytons often attack or trap a mortal victim as a team, hauling the unfortunate soul to the Plane of Shadow, converting their prey into a new kyton or dividing its body and soul among them for grafting and nourishment.",
 			"",
-			"The kytons of the Pathfinder RPG Bestiary are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the [kyton subtype](subtype/kyton). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
+			"The original [kytons](monster/kyton) presented are a specific type of kyton (other kytons call them \"evangelists\"); they have all the traits listed in the [kyton subtype](subtype/kyton). The kytons listed here are but a few of the other known types-many more exist on the Plane of Shadow.",
 			"",
 			"**Kyton Demagogues**",
 			"",

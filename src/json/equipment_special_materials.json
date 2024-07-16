@@ -774,7 +774,7 @@
 			"",
 			"Oozes, plants, and outsiders are immune to the deadly emanations of viridium.",
 			"",
-			"Viridium weapons have half the hardness of their base weapon and have the [fragile quality](rule/conditions). Viridium can be magically strengthened at an additional cost of +1,000 gp for a weapon or +20 gp for ammunition. This removes the fragile quality from the item but does not otherwise affect its abilities.",
+			"Viridium weapons have half the hardness of their base weapon and have the [fragile quality](rule/broken_and_fragile). Viridium can be magically strengthened at an additional cost of +1,000 gp for a weapon or +20 gp for ammunition. This removes the fragile quality from the item but does not otherwise affect its abilities.",
 			"",
 			"| Type of Viridium Item | Item Price Modifier |",
 			"| --- | --- |",
@@ -840,7 +840,7 @@
 			"",
 			"Light and one-handed melee weapons, as well as twohanded weapons that deal bludgeoning damage only, can be crafted from bone. Hafted two-handed weapons such as spears can be crafted with bone tips, as can arrowheads. Other two-handed weapons cannot be constructed of bone.",
 			"",
-			"Bone weapons have half the hardness of their base weapons and have the fragile weapon quality. Masterwork bone weapons also have the [fragile quality](rule/conditions), but magic bone weapons do not. Bone weapons take a -2 penalty on damage rolls (minimum 1 damage).",
+			"Bone weapons have half the hardness of their base weapons and have the fragile weapon quality. Masterwork bone weapons also have the [fragile quality](rule/broken_and_fragile), but magic bone weapons do not. Bone weapons take a -2 penalty on damage rolls (minimum 1 damage).",
 			"",
 			"Studded leather, scale mail, breastplates, and wooden shields can all be constructed using bone. Bone either replaces the metal components of the armor, or in the case of wooden shields, large pieces of bone or shell replace the wood.",
 			"",
@@ -859,7 +859,7 @@
 			"",
 			"Light and one-handed weapons can be crafted from bronze. Likewise, spear points, arrowheads, and axe heads can be crafted from bronze, even those that are parts of twohanded weapons. Bronze is too weak to be used for twohanded weapons made entirely out of metal, and cannot typically be used to craft polearms, with the exception of the [rhomphaia](equipment/weapon/rhomphaia).",
 			"",
-			"Bronze weapons have the hardness of their base weapons but also have the [fragile quality](rule/conditions). Bronze weapons deal the same damage as steel weapons of the same type, and have the same cost and weight.",
+			"Bronze weapons have the hardness of their base weapons but also have the [fragile quality](rule/broken_and_fragile). Bronze weapons deal the same damage as steel weapons of the same type, and have the same cost and weight.",
 			"",
 			"Bronze can be used to create any medium or light armor that are made entirely of metal or that have metal components. Bronze armor protects a creature as well as steel armor does, but it has the fragile quality. Bronze armor has the same cost and weight as normal steel armor of its type. Bronze armor has hardness 9. Magically strengthened bronze does not have the fragile quality and can be made into heavy armor."
 		]
@@ -874,7 +874,7 @@
 			"",
 			"Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. The glass parts of these weapons replace what is typically a metal or stone component, such as an arrowhead or a dagger's blade. The remainder of the weapon is created normally, though the fittings require some specialization.",
 			"",
-			"Glass weapons cost half of what base items of their type do, and have 75% the weight of base items of their type. Glass can be used to craft light and one-handed weapons that deal piercing or slashing damage, as well as bullets, spear tips, and arrowheads. Glass weapons have half the hardness of their base weapon and have the [fragile quality](rule/conditions) (see Pathfinder RPG Ultimate Combat 146 for details on the fragile quality)."
+			"Glass weapons cost half of what base items of their type do, and have 75% the weight of base items of their type. Glass can be used to craft light and one-handed weapons that deal piercing or slashing damage, as well as bullets, spear tips, and arrowheads. Glass weapons have half the hardness of their base weapon and have the [fragile quality](rule/broken_and_fragile) (see Pathfinder RPG Ultimate Combat 146 for details on the fragile quality)."
 		]
 	},
 	"gold": {
@@ -891,7 +891,7 @@
 			"",
 			"Gold is often too soft to hold a decent edge, but light weapons that deal piercing or slashing damage can be constructed of gold or some nearly gold alloy. They take a -2 penalty on damage rolls (minimum 1 damage).",
 			"",
-			"Gold weapons have half the hardness of their base weapons and also have the [fragile quality](rule/conditions).",
+			"Gold weapons have half the hardness of their base weapons and also have the [fragile quality](rule/broken_and_fragile).",
 			"",
 			"Gold can be fashioned into light or medium metal armor. The softness and the weight of the metal decrease the armor/ shield bonus by 2, and increase the armor check penalty by 2. Gold armor has hardness 5 and the fragile quality. Magically strengthened gold is the equivalent of steel and can be made into any armor or weapon that can be made of steel."
 		]
@@ -910,7 +910,7 @@
 			"",
 			"Obsidian can be used to craft light and one-handed weapons that deal piercing or slashing damage, as well as spear tips and arrowheads.",
 			"",
-			"Obsidian weapons have half the hardness of their base weapons and have the [fragile quality](rule/conditions).",
+			"Obsidian weapons have half the hardness of their base weapons and have the [fragile quality](rule/broken_and_fragile).",
 			"",
 			"The fragile glass nature of obsidian is perfect for creating sharp points and blades, but those same qualities make it unsuitable for creating armor. Armor cannot be constructed from obsidian. Magically strengthened obsidian does not have the fragile quality, and can be made into any armor or weapon that can be made of stone."
 		]
@@ -929,7 +929,7 @@
 			"",
 			"Light and one-handed bludgeoning weapons, spears, axes, daggers, and arrowheads can all be made of stone.",
 			"",
-			"Weapons made of stone have half the hardness of their base weapons, and have the fragile condition. With a few exceptions (such as [stoneplate](equipment/armor/stoneplate), armor cannot usually be constructed from stone. Magically strengthened stone does not have the [fragile quality](rule/conditions)."
+			"Weapons made of stone have half the hardness of their base weapons, and have the fragile condition. With a few exceptions (such as [stoneplate](equipment/armor/stoneplate), armor cannot usually be constructed from stone. Magically strengthened stone does not have the [fragile quality](rule/broken_and_fragile)."
 		]
 	}
 }

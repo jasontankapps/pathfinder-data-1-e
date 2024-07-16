@@ -540,6 +540,8 @@
 			"",
 			"While users of divine magic are often regarded simply as healers, their wisdom and vaunted positions mean they can have much more to offer.",
 			"",
+			"> [Class link](npcclass/adept)",
+			"",
 			"**Favor:** Free healing on a single occasion.",
 			"",
 			"**Favor:** Letter of recommendation to lower-ranking priests, ordering them to help the PCs as required (granting the aid of a 1st-level adept hireling for 3 days).",
@@ -574,6 +576,8 @@
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
 			"",
 			"Aristocrats vary in rank from village squires to emperors, with most having wealth and position that grants them great influence in a community.",
+			"",
+			"> [Class link](npcclass/aristocrat)",
 			"",
 			"**Favor:** Provides an invitation to an aristocratic event, such as an estate party, royal gala, or public celebration.",
 			"",
@@ -610,6 +614,8 @@
 			"",
 			"Although not usual famous or wealthy, commoners have a wide variety of skills and can usually come up with creative ways to repay favors.",
 			"",
+			"> [Class link](npcclass/commoner)",
+			"",
 			"**Favor:** Provides room and prepares an elaborate feast in a PC's honor.",
 			"",
 			"**Favor:** Provides a 50% discount on a high quality, nonmagical item made using one of his Craft skills.",
@@ -645,6 +651,8 @@
 			"",
 			"Skilled craftsmen, professionals, and learned members of society regularly have a wide range of specific talents and obscure information that can prove useful to PCs.",
 			"",
+			"> [Class link](npcclass/expert)",
+			"",
 			"**Favor:** Provides material for a PC, cutting the price to create a non-magical item in half.",
 			"",
 			"**Favor:** Can find a seller to buy any non-magic item or a buyer for any magic item.",
@@ -679,6 +687,8 @@
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
 			"",
 			"Professional warriors typically have a wide range of experience and useful contacts among other career combatants, those they serve, and those they oppose.",
+			"",
+			"> [Class link](npcclass/warrior)",
 			"",
 			"**Favor:** Gifts a PC one non-magical weapon, piece of armor, or adventuring gear.",
 			"",
@@ -3328,7 +3338,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		],
 		"siblings": [
 			"getting_started",
@@ -3375,7 +3385,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"defining_a_setting": {
@@ -3492,7 +3502,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"the_heroic_details": {
@@ -3736,7 +3746,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"creating_a_world_map": {
@@ -4070,7 +4080,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"core_elements_of_the_people": {
@@ -4217,7 +4227,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"defining_primitive_culture": {
@@ -4392,7 +4402,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"ruling_a_feudal_society": {
@@ -4567,7 +4577,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"life_in_an_agrarian_society": {
@@ -4750,7 +4760,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"city_requirements": {
@@ -4928,7 +4938,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"technology_2": {
@@ -4965,7 +4975,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"contentious_technology": {
@@ -5114,7 +5124,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"the_role_of_time": {
@@ -5385,7 +5395,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"creating_your_planet": {
@@ -5543,7 +5553,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"the_purpose_of_planes": {
@@ -5686,8 +5696,8 @@
 			"other_considerations"
 		]
 	},
-	"parallel_words": {
-		"name": "Parallel Words",
+	"parallel_worlds": {
+		"name": "Parallel Worlds",
 		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -5721,7 +5731,7 @@
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
-			"parallel_words"
+			"parallel_worlds"
 		]
 	},
 	"creating_a_parallel_world": {
@@ -5743,7 +5753,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"parallel_words"
+			"parallel_worlds"
 		],
 		"siblings": [
 			"creating_a_parallel_world",
@@ -5778,7 +5788,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"parallel_words"
+			"parallel_worlds"
 		],
 		"siblings": [
 			"creating_a_parallel_world",
@@ -5801,7 +5811,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"parallel_words"
+			"parallel_worlds"
 		],
 		"siblings": [
 			"creating_a_parallel_world",

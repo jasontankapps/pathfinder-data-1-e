@@ -542,6 +542,46 @@
 			"**Abilities:** Str +4, Int -2."
 		]
 	},
+	"mythic_skeleton": {
+		"name": "Mythic Skeleton",
+		"sources": [ "Mythic Adventures" ],
+		"description": [
+			"## Mythic Skeleton (CR Varies)",
+			"",
+			"**Source** [Mythic Adventures](source/mythic_adventures)  ",
+			"**Acquired/Inherited Template** Acquired  ",
+			"**Simple Template** No  ",
+			"**Usable with Summons** No",
+			"",
+			"\"Mythic skeleton\" is an acquired template that can be added to any creature with the [skeleton](template/skeleton) template (referred to hereafter as the base skeleton).",
+			"",
+			"**Mythic Subtype:** A mythic skeleton gains the mythic subtype, with a rank equal to half the CR of the base skeleton. Instead of gaining additional abilities according to its CR, it always gains channel resistance +2, relentless, and superior two-weapon fighting. The mythic skeleton gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",
+			"",
+			"**CR:** Adjust the base skeleton's CR according to its mythic rank (this template doesn't increase the base skeleton's CR other than from the mythic rank).",
+			"",
+			"**Hit Dice:** A mythic skeleton's Hit Dice are determined as though it were a zombie instead of a skeleton.",
+			"",
+			"**Relentless (Ex):** Any melee attack made against a mythic skeleton provokes an attack of opportunity from the skeleton.",
+			"",
+			"**Superior Two Weapon Fighting (Ex):** A mythic humanoid skeleton usually fights with a scimitar in each hand. It does not take a penalty on attack or damage rolls for attacking with two weapons.",
+			"",
+			"### Variant Mythic Skeletons",
+			"",
+			"Other types of skeletons have the following additional or altered abilities.",
+			"",
+			"### Mythic Bloody Skeleton",
+			"",
+			"Destroying a mythic bloody skeleton in the area of a non-mythic bless spell doesn't prevent it from returning to unlife.",
+			"",
+			"### Mythic Burning Skeleton",
+			"",
+			"Add half the burning skeleton's mythic rank to its fiery aura damage and melee attack fire damage. Add its mythic rank to the DC of its fiery death ability.",
+			"",
+			"### Mythic Skeletal Champion",
+			"",
+			"To create a mythic skeletal champion, increase its channel resistance by +2, and add the mythic subtype, additional Hit Dice as if the skeletal champion were a zombie of its size, and mythic abilities according to the base skeletal champion's Hit Dice."
+		]
+	},
 	"nightmare_creature": {
 		"name": "Nightmare Creature",
 		"sources": [ "Bestiary 4" ],
@@ -1447,7 +1487,7 @@
 			"",
 			"**Special Quality:** A rampant creatures gain the following special quality.",
 			"",
-			"**Verdant Genesis (Su):** Every week, a group of living plants within 1 mile of the rampant creature grows into new plant creatures with total combined Hit Dice no higher than the rampant creature's total Hit Dice. For instance, a rampant [quickwood](monster/quickwood) with 10 HD could create two 4 HD [assassin vines](monster/assassin_vines) and two 1 HD [vegepygmies](unknown/vegepygmies). These new creatures are not under the rampant creature's command. These new creatures each take 1 permanent negative level for each full day they spend more than 1 mile from the rampant creature that spawned them. A rampant creature cannot suppress its verdant genesis ability."
+			"**Verdant Genesis (Su):** Every week, a group of living plants within 1 mile of the rampant creature grows into new plant creatures with total combined Hit Dice no higher than the rampant creature's total Hit Dice. For instance, a rampant [quickwood](monster/quickwood) with 10 HD could create two 4 HD [assassin vines](monster/assassin_vines) and two 1 HD [vegepygmies](monster/vegepygmy). These new creatures are not under the rampant creature's command. These new creatures each take 1 permanent negative level for each full day they spend more than 1 mile from the rampant creature that spawned them. A rampant creature cannot suppress its verdant genesis ability."
 		]
 	},
 	"ranger": {
@@ -3750,7 +3790,7 @@
 			"",
 			"**Relentless Zombie:** These have all the powers of fast zombies, and also gain a Climb speed equal to half the base creature's land speed, the scent special ability, a +4 racial bonus to Survival checks to track by smell, and two additional Hit Dice. (CR +1)",
 			"",
-			"**Zombie Lord:** Zombie lords are the fleshy counterparts to skeletal champions, rare zombies who have somehow managed to retain their intelligence. Use the normal zombie template for the zombie lord's Armor Class, base save bonuses, speed, melee attacks, base attack bonus, and damage reduction. Use the [skeletal champion](monster/skeletal_champion) template for the zombie lord's Hit Dice, skills, and ability scores. Zombie lords gain channel resistance +4 and [Toughness](feat/toughness) as a bonus feat. A zombie lord does not gain the staggered special quality. (CR as a zombie of the same Hit Dice +1.)"
+			"**Zombie Lord:** Zombie lords are the fleshy counterparts to skeletal champions, rare zombies who have somehow managed to retain their intelligence. Use the normal zombie template for the zombie lord's Armor Class, base save bonuses, speed, melee attacks, base attack bonus, and damage reduction. Use the [skeletal champion](template/skeletal_champion) template for the zombie lord's Hit Dice, skills, and ability scores. Zombie lords gain channel resistance +4 and [Toughness](feat/toughness) as a bonus feat. A zombie lord does not gain the staggered special quality. (CR as a zombie of the same Hit Dice +1.)"
 		]
 	},
 	"zombie_lord": {

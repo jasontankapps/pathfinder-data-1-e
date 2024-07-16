@@ -1236,7 +1236,7 @@
 			"",
 			"**Extra Mythic Power (Su)** ([Mythic Adventures pg. 50](source/mythic_adventures)): You can call upon your mythic power two additional times per day. You can select this ability up to three times.",
 			"",
-			"**Legendary Item (Ex)** ([Mythic Adventures pg. 50](source/mythic_adventures)): You gain a [legendary item](rule/legendary_item). This item grants a number of abilities equal to your tier (maximum 3). At 3rd tier, you can select this ability again, increasing the maximum to six abilities and causing the item to become a lesser artifact. At 6th tier, you can select this ability again, increasing the maximum to 10 abilities; the item then becomes a greater artifact.",
+			"**Legendary Item (Ex)** ([Mythic Adventures pg. 50](source/mythic_adventures)): You gain a [legendary item](rule/legendary_items). This item grants a number of abilities equal to your tier (maximum 3). At 3rd tier, you can select this ability again, increasing the maximum to six abilities and causing the item to become a lesser artifact. At 6th tier, you can select this ability again, increasing the maximum to 10 abilities; the item then becomes a greater artifact.",
 			"",
 			"**Longevity (Su)** ([Mythic Adventures pg. 50](source/mythic_adventures)): Upon taking this ability, you can no longer die from old age. If you have penalties to your physical ability scores due to aging, you no longer take those penalties. You still continue to age, and you gain all the benefits to your mental ability scores.",
 			"",
@@ -3351,7 +3351,7 @@
 			"",
 			"It is possible for a low-CR creature to have a high mythic rank, or for a high-CR creature to have a low mythic rank. For a typical monster that's acquired mythic power, its rank is equal to half its original CR. For example, a CR 4 owlbear that becomes a mythic creature should be 2nd rank. To determine a mythic monster's final CR, add half its mythic rank to its original CR. For example, a 2nd rank mythic owlbear's final CR is 5 (2 &times; 1/2 + 4). See [Designing Encounters](rule/designing_encounters_ma) for more details. All the monsters presented in this chapter use this typical MR value.",
 			"",
-			"A creature shouldn't have both a mythic tier and a mythic rank. For example, a mythic creature that gains the [vampire template](monster/vampire_template) has a mythic tier, and a non-mythic creature that gains the [mythic vampire template](unknown/mythic_vampire_template) has a mythic rank, but a mythic creature that becomes a mythic vampire loses its tier and gains ranks instead, as explained in the mythic vampire template. Mythic templates and other effects that grant a creature a mythic rank should include information about what happens when a mythic creature gains that template or effect."
+			"A creature shouldn't have both a mythic tier and a mythic rank. For example, a mythic creature that gains the [vampire template](monster/vampire) has a mythic tier, and a non-mythic creature that gains the [mythic vampire template](unknown/mythic_vampire_template) has a mythic rank, but a mythic creature that becomes a mythic vampire loses its tier and gains ranks instead, as explained in the mythic vampire template. Mythic templates and other effects that grant a creature a mythic rank should include information about what happens when a mythic creature gains that template or effect."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

@@ -1004,7 +1004,7 @@
 			"",
 			"**Sources** [Ultimate Magic](source/ultimate_magic)",
 			"",
-			"- [Human Skeleton Champion](monster/skeletal_champion)"
+			"- [Human Skeleton Champion](template/skeletal_champion)"
 		]
 	},
 	"summon_monster_iii_summon_evil_monster": {
@@ -1670,7 +1670,7 @@
 			"- [Schir (Demon, CE)](monster/schir) [chaotic, evil]",
 			"- [Spring-Heeled Jack (CE)](monster/spring-heeled_jack)",
 			"- [Yeth Hound (NE)](monster/yeth_hound) [evil]",
-			"- [Zebub (Devil, LE)](monster/accuser_devil_zebub) [evil, lawful]"
+			"- [Zebub (Devil, LE)](monster/accuser_devil) [evil, lawful]"
 		]
 	},
 	"summon_monster_iv_summon_good_monster": {
@@ -2522,7 +2522,7 @@
 			"",
 			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
 			"",
-			"- [Warmonger Devil (Levaloch)](monster/warmonger_devil_levaloch) [evil, lawful]"
+			"- [Warmonger Devil (Levaloch)](monster/levaloch) [evil, lawful]"
 		]
 	},
 	"summon_monster_vi_nethys": {

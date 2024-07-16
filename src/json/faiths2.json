@@ -323,11 +323,11 @@
 			"**Source** [Pathfinder #38: Racing to Ruin pg. 71](source/pathfinder_#38_racing_to_ruin)",
 			"",
 			"- **[Summon Monster II](spell/summon_monster_2):** [Merfolk](monster/merfolk) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-			"- **[Summon Monster VII](spell/summon_monster_7):** [Young Frost Giant](monster/young_frost_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+			"- **[Summon Monster VII](spell/summon_monster_7):** [Young](template/young) [Frost Giant](monster/frost_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Frost Giant](monster/frost_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-			"- **[Summon Monster VIII](spell/summon_monster_8):** [Young Cloud Giant](monster/young_cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+			"- **[Summon Monster VIII](spell/summon_monster_8):** [Young](template/young) [Cloud Giant](monster/cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Cloud Giant](monster/cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-			"- **[Summon Monster IX](spell/summon_monster_9):** [Young Storm Giant](monster/young_storm_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
+			"- **[Summon Monster IX](spell/summon_monster_9):** [Young](template/young) [Storm Giant](monster/storm_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
 		]
 	},
 	"graffiacane": {
@@ -4294,7 +4294,7 @@
 			"**Enemies** Abadar, Asmodeus, Desna, Iomedae, Rovagug, Sarenrae  ",
 			"**Temples** abandoned orphanages, caverns, ruined buildings  ",
 			"**Holy Days** Night of the Pale (night of grim revelry, December 31)  ",
-			"**Minions** [barghests](monster/barghests), [demons](subtype/demon), [yeth hounds](monster/yeth_hounds)  ",
+			"**Minions** [barghests](monster/barghests), [demons](subtype/demon), [yeth hounds](monster/yeth_hound)  ",
 			"**Herald** [Yethazmari](monster/yethazmari) (a snake-tailed jackal-like fiend)  ",
 			"**Favored Weapon** [Falchion](equipment/weapon/falchion)  ",
 			"**Symbol** Three-eyed jackal  ",
@@ -4651,7 +4651,7 @@
 			"",
 			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source/pathfinder_#65_into_the_nightmare_rift)",
 			"",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Advanced Kyton Evangelist](monster/advanced_kyton_evangelist) - LE (extraplanar)",
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Advanced](template/advanced) [Kyton Evangelist](monster/kyton) - LE (extraplanar)",
 			"- **[Summon Monster VI](spell/summon_monster_6):** [Dark Naga](monster/dark_naga) - LE"
 		]
 	},
@@ -6233,8 +6233,8 @@
 			"",
 			"**Source** [Pathfinder #105: The Inferno Gate pg. 73](source/pathfinder_#105_the_inferno_gate)",
 			"",
-			"- **[Summon Monster III](spell/summon_monster_3):** [Phantom Armor (Guardian)](monster/phantom_armor_guardian) - LE",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Warmonger Devil (Levaloch)](monster/warmonger_devil_levaloch)",
+			"- **[Summon Monster III](spell/summon_monster_3):** [Phantom Armor (Guardian)](monster/guardian_phantom_armor) - LE",
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Warmonger Devil (Levaloch)](monster/levaloch)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Tophet](monster/tophet)"
 		]
 	},
@@ -7577,7 +7577,7 @@
 			"**Enemies** Abadar, Cayden Cailean, Iomedae, Irori, Gorum  ",
 			"**Temples** hidden complexes, thieves' guilds, warehouses  ",
 			"**Holy Days** Ascendance Day (celebration of Norgorber's ascension to divinity, traditionally worshiped on the winter solstice)  ",
-			"**Minions** [jorogumos](monster/jorogumos), [soul eaters](monster/soul_eaters), [xills](monster/xills)  ",
+			"**Minions** [jorogumos](monster/jorogumos), [soul eaters](monster/soul_eaters), [xills](monster/xill)  ",
 			"**Herald** [the Stabbing Beast](monster/the_stabbing_beast) (a scorpion-like humanoid)  ",
 			"**Favored Weapon** [Short sword](equipment/weapon/short_sword)  ",
 			"**Symbol** One-eyed mask  ",

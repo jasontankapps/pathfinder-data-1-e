@@ -1786,7 +1786,7 @@
 			"",
 			"Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner of objects to your advantage in combat.  ",
 			"**Prerequisites:** [Catch Off-Guard](feat/catch_off_guard) or [Throw Anything](feat/throw_anything), [Shikigami Style](feat/shikigami_style).  ",
-			"**Benefit:** While in [Shikigami Style](feat/shikigami_style), you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the [fragile](rule/conditions) special quality or broken condition, you can treat it as if it had the jagged special quality."
+			"**Benefit:** While in [Shikigami Style](feat/shikigami_style), you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the [fragile](rule/broken_and_fragile) special quality or broken condition, you can treat it as if it had the jagged special quality."
 		]
 	},
 	"shikigami_style": {
@@ -3430,7 +3430,7 @@
 			"",
 			"**Source** [Monster Codex pg. 8](source/monster_codex)",
 			"",
-			"Your croak creates powerful sound waves that you can direct at [fragile](rule/conditions) targets.  ",
+			"Your croak creates powerful sound waves that you can direct at [fragile](rule/broken_and_fragile) targets.  ",
 			"**Prerequisites:** [Throat Pouch](feat/throat_pouch), boggard, terrifying croak.  ",
 			"**Benefit:** When you use your terrifying croak ability, instead of it imparting its normal effect, you can choose to deal 1d4 points of sonic damage to creatures in a 15-foot cone (Fortitude half ). The DC of this Fortitude save is the same as that of your terrifying croak. For every 3 Hit Dice you possess, the damage dealt increases by 1d4.  ",
 			"**Special:** The Throat Pouch feat increases the size of this feat's cone by 5 feet for every 6 HD you have, not every 2 HD."
@@ -4481,9 +4481,9 @@
 			"",
 			"**Source** [Ultimate Combat pg. 120](source/ultimate_combat)",
 			"",
-			"Your [fragile](rule/conditions) weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
+			"Your [fragile](rule/broken_and_fragile) weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient with weapon, weapon made of primitive material.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the [fragile](rule/conditions) weapon feature or similar quality and hit an opponent, you can give your weapon the broken condition to deal that opponent 1d4 points of bleed damage."
+			"**Benefit:** Whenever you use a melee or thrown weapon with the [fragile](rule/broken_and_fragile) weapon feature or similar quality and hit an opponent, you can give your weapon the broken condition to deal that opponent 1d4 points of bleed damage."
 		]
 	},
 	"split_hex": {

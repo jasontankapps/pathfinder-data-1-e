@@ -331,7 +331,7 @@
 		"description": [
 			"## Hurling, Lesser (Ex)",
 			"",
-			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_object) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply [Power Attack](feat/power_attack) to this attack as a one- or two-handed weapon, as appropriate."
+			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_objects) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply [Power Attack](feat/power_attack) to this attack as a one- or two-handed weapon, as appropriate."
 		]
 	},
 	"impelling_disarm": {
@@ -340,7 +340,7 @@
 		"description": [
 			"## Impelling Disarm (Ex)",
 			"",
-			"Once per rage, the barbarian can make a disarm attempt against a target in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the barbarian sends the target's weapon flying-either straight at the target, or spinning away to strike another foe up to 20 feet away. This ranged attack counts as [throwing a weapon that isn't designed to be thrown](rule/throwing_a_weapon_that_isn't_designed_to_be_thrown), even if the weapon disarmed is a thrown weapon. The barbarian makes a ranged attack, which doesn't provoke attacks of opportunity, at either the target of his disarm maneuver or another creature within 20 feet. If the barbarian is aiming for the disarmed creature, the foe doesn't count as being in melee for determining any penalty on the ranged attack from throwing a ranged weapon into melee. If the ranged attack hits, the disarmed weapon deals damage as if the barbarian had thrown it. The barbarian can choose to aim the disarmed weapon at a square rather than at a foe. A barbarian must be at least 4th level to select this rage power."
+			"Once per rage, the barbarian can make a disarm attempt against a target in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the barbarian sends the target's weapon flying-either straight at the target, or spinning away to strike another foe up to 20 feet away. This ranged attack has a -4 penalty, as it is treated as [throwing a weapon that isn't designed to be thrown](rule/weapons), even if the weapon disarmed is a thrown weapon. The barbarian makes a ranged attack, which doesn't provoke attacks of opportunity, at either the target of his disarm maneuver or another creature within 20 feet. If the barbarian is aiming for the disarmed creature, the foe doesn't count as being in melee for determining any penalty on the ranged attack from throwing a ranged weapon into melee. If the ranged attack hits, the disarmed weapon deals damage as if the barbarian had thrown it. The barbarian can choose to aim the disarmed weapon at a square rather than at a foe. A barbarian must be at least 4th level to select this rage power."
 		]
 	},
 	"intimidating_glare": {
@@ -520,7 +520,7 @@
 		"description": [
 			"## Savage Dirty Trick (Ex)",
 			"",
-			"Once per round while raging, (6th) the barbarian can attempt a [dirty trick combat maneuver](rule/dirty_trick_combat_maneuver) in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty trick based on the type of dirty trick performed and the following table.",
+			"Once per round while raging, (6th) the barbarian can attempt a [dirty trick combat maneuver](rule/dirty_trick) in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty trick based on the type of dirty trick performed and the following table.",
 			"",
 			"| Initial Penalty | Additional Penalty |",
 			"| --- | --- |",

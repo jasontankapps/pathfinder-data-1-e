@@ -5108,7 +5108,10 @@
 	"drunkenness": {
 		"name": "Drunkenness",
 		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+		"sources": [
+			"GameMastery Guide",
+			"Inner Sea Taverns"
+		],
 		"description": [
 			"**Source** [GameMastery Guide pg. 237](source/gamemastery_guide)",
 			"",
@@ -6789,7 +6792,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 5](source/pathfinder_rpg_bestiary)",
 			"",
-			"Welcome to the Pathfinder Roleplaying Game Bestiary! Within the pages of this tome you will encounter a wide range of monsters and creatures to pit against your players as they explore your world. The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisks) and [yetis](monster/yetis)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlocks) or H. P. Lovecraft's [ghasts](monster/ghasts) and [shoggoths](monster/shoggoths)) and new. In order to fully use the creatures in the Pathfinder RPG Bestiary, you'll need a copy of the Pathfinder Roleplaying Game Core Rulebook. These two books comprise the core rules for the Pathfinder RPG.",
+			"Welcome to the Pathfinder Roleplaying Game Bestiary! Within the pages of this tome you will encounter a wide range of monsters and creatures to pit against your players as they explore your world. The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisks) and [yetis](monster/yeti)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlocks) or H. P. Lovecraft's [ghasts](monster/ghasts) and [shoggoths](monster/shoggoths)) and new. In order to fully use the creatures in the Pathfinder RPG Bestiary, you'll need a copy of the Pathfinder Roleplaying Game Core Rulebook. These two books comprise the core rules for the Pathfinder RPG.",
 			"",
 			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [Universal Monster Rules](main/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
 			"",
