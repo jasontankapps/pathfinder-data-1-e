@@ -2607,7 +2607,7 @@
 			"- Old Mother Toad ([giant toad](monster/giant_toad) with [fey animal](template/fey_animal) template)",
 			"- Sonnorae the storyteller ([con artist](npc/con_artist))",
 			"- Vyushbaro the savior ([carousing champion](npc/carousing_champion))",
-			"- Winter's Son ([evasive slip](spell/evasive_slip))",
+			"- Winter's Son ([evasive slip](npc/evasive_slip))",
 			"- Zykomso the slaver ([bearded devil](monster/bearded_devil)"
 		]
 	},
@@ -3173,6 +3173,30 @@
 			"While protected by fastidiousness, your person and your equipment stay clean and dry. Dust and moisture slough off immediately; even when you are completely soiled, your appearance reverts to a pristine state over the course of 1 minute. While this spell offers no protection against most attacks, staying constantly sanitary grants you a +2 circumstance bonus on Fortitude saving throws against inhaled and ingested diseases.",
 			"",
 			"Members of the Prophet of Kalistrade prestige class can cast this spell, even though it is not a divination or enchantment."
+		]
+	},
+	"fear": {
+		"name": "Fear",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Fear",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 252](source/prpg_core_rulebook)  ",
+			"**School** [necromancy](spelldef/necromancy) [[emotion](spelldef/emotion), [fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** antipaladin 4, arcanist 4, bard 3, bloodrager 4, inquisitor 4, medium 4, mesmerist 3, occultist 4, psychic 4, shaman 4, skald 3, sorcerer 4, spiritualist 4, witch 4, wizard 4",
+			"",
+			"### Casting",
+			"",
+			"**Casting Time** 1 standard action  ",
+			"**Components** V, S, M (the heart of a hen or a white feather)",
+			"",
+			"### Effect",
+			"",
+			"**Range** 30ft.  ",
+			"**Area** cone-shaped burst  ",
+			"**Duration** 1 round/level or 1 round; see text  ",
+			"**Saving Throw** Will partial; **Spell Resistance** yes",
+			"",
+			"An invisible cone of terror causes each living creature in the area to become [panicked](rule/fear_conditions) unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is shaken for 1 round."
 		]
 	},
 	"fear_the_sun": {

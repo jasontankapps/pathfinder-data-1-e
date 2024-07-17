@@ -4472,7 +4472,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
 			"",
-			"Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the favor of the gods manifesting in physical phenomena, all bets are off. Will a monarch want to ally with a church? Early members of the royal family may find these alliances convenient, but when a priest can cast [detect evil](spell/detect_evil) or [know alignment](spell/know_alignment), rulers no longer have the option of hiding their true beliefs. Giving such power to a church might spell disaster for a royal house. When priests speak of a ruler having the divine right, the people can rest assured that this is so. One question, then, is what happens when a hereditary monarch doesn't have that favor. Does he corrupt the priesthood, or do the priests help to replace him? In a feudal society, these are not small tasks.",
+			"Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the favor of the gods manifesting in physical phenomena, all bets are off. Will a monarch want to ally with a church? Early members of the royal family may find these alliances convenient, but when a priest can cast [detect evil](spell/detect_evil) or [see alignment](spell/see_alignment), rulers no longer have the option of hiding their true beliefs. Giving such power to a church might spell disaster for a royal house. When priests speak of a ruler having the divine right, the people can rest assured that this is so. One question, then, is what happens when a hereditary monarch doesn't have that favor. Does he corrupt the priesthood, or do the priests help to replace him? In a feudal society, these are not small tasks.",
 			"",
 			"Depending on the society you design, the churches may be more or less woven into the framework of society, with churches of a lawful bent naturally appealing to a monarch from whom all laws stem. In such situations, the monarchy generally works with its spiritual advisors in much the same way as it does with its vassals-though in theory the church answers to itself, in practice power begets power, and those churches deeply enmeshed in feudal politics tend to spend much of their effort enforcing the social order, maintaining orthodoxy, and rooting out heresies."
 		],
@@ -5954,7 +5954,8 @@
 			"adding_details_to_the_map",
 			"dungeon_ecology",
 			"encounter_archetypes",
-			"resting_in_the_dungeon"
+			"resting_in_the_dungeon",
+			"dungeon_toolbox"
 		],
 		"siblings": [
 			"elements_of_adventure",

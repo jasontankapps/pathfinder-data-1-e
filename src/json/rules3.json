@@ -868,7 +868,6 @@
 			"counterspells",
 			"caster_level",
 			"spell_failure",
-			"the_spell's_results",
 			"special_spell_effects",
 			"combining_magic_effects"
 		],
@@ -2330,7 +2329,7 @@
 		"description": [
 			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
 			"",
-			"Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the level that he knows, or as any lower-level version of that spell, using the appropriate spell slot. When a spellcaster undercasts a spell, it is treated exactly like the lower-level version, including when determining its effect, saving throw, and other variables. For example, a psychic spellcaster who adds [ego whip III](spell/ego_whip_3) to his list of spells known can cast it as [ego whip I](spell/ego_whip_1), [II](spell/ii), or [III](spell/iii). If he casts it as [ego whip I](spell/ego_whip_1), it is treated in all ways as that spell; it uses the text and the saving throw DC for that spell, and requires him to expend a 3rd-level spell slot.",
+			"Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the level that he knows, or as any lower-level version of that spell, using the appropriate spell slot. When a spellcaster undercasts a spell, it is treated exactly like the lower-level version, including when determining its effect, saving throw, and other variables. For example, a psychic spellcaster who adds [ego whip III](spell/ego_whip_3) to his list of spells known can cast it as [ego whip I, II or III](spell/ego_whip_1). If he casts it as [ego whip I](spell/ego_whip_1), it is treated in all ways as that spell; it uses the text and the saving throw DC for that spell, and requires him to expend a 3rd-level spell slot.",
 			"",
 			"Whenever a spontaneous spellcaster adds a spell to his list of spells known that can be undercast, he can immediately learn a spell in place of each lower-level version of that spell he knows. In essence, he loses each earlier version and can replace it with another spell of the same level that is on his spell list."
 		],
@@ -2690,7 +2689,7 @@
 			"",
 			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the standard conditions described in Appendix 2 of the Core Rulebook can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
 			"",
-			"**Bleed:** While a spellcaster is affected by this condition, her [inflict wounds](spell/inflict_wounds) spells inflict an extra point of damage per die. This only applies when using an [inflict wounds](spell/inflict_wounds) spell, not when using those spells to heal undead.",
+			"**Bleed:** While a spellcaster is affected by this condition, her [inflict wounds](spell/inflict_light_wounds) spells inflict an extra point of damage per die. This only applies when using an *inflict wounds* spell, not when using those spells to heal undead.",
 			"",
 			"**Blinded:** A blinded spellcaster can use some of the energy of a spell with the light descriptor to try to counteract the blinded condition. Also, when a blinded spellcaster casts a spell with the light descriptor, she can choose to take a 20% chance of spell failure with that spell. If the caster successfully casts the spell, the spell also ends the blinded condition.",
 			"",
@@ -5437,7 +5436,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
 			"",
-			"[Gate](spell/gate): This powerful spell combines all of the planar ally/ planar binding effects and can be used to transport many creatures between planes.",
+			"[Gate](spell/gate): This powerful spell combines all of the planar ally/planar binding effects and can be used to transport many creatures between planes.",
 			"",
 			"[Miracle](spell/miracle)/[Wish](spell/wish): The pinnacle of spellcasting, these spells can duplicate almost any weaker spell, obliterate most harmful effects, revive the dead, or even turn back time. If your spell is better than [wish](spell/wish), you're trying to play god.",
 			"",
@@ -6067,7 +6066,7 @@
 			"",
 			"**Electricity Spells:** While normal electricity, such as that from a natural thunderstorm, tends to disperse in all directions underwater, magical electricity spells hold their integrity enough to have normal effects underwater, with one exception: visible and audible lightning bolts and sparks are the result of combusted air, and they don't happen underwater. Because of this, creatures that fail to identify an electricity spell that requires a ranged touch attack are flat-footed against the first such ranged touch attack during a fight, as they don't realize they need to dodge the invisible projectile (unless they otherwise have reason to expect it, like a spellcaster who can cast such spells). This doesn't apply to melee touch spells like [shocking grasp](spell/shocking_grasp), since the creature can still see the spellcaster's hand moving towards it.",
 			"",
-			"**Fire Spells:** While normal fire (including alchemist's fire) and most supernatural fire can't burn underwater at all, fire spells have a chance to transform into steam instead. Whenever you cast a fire spell underwater, you must succeed at a caster level check (DC = 20 + the spell's level) in order to channel the heat into the water and create steam, dealing the same amount of fire damage as normal but without secondary effects of fire, like igniting combustibles. A fire spell must be either entirely steam or entirely fire, which means that if it covers an area that would normally extend beyond the water's surface, you must choose whether to affect the region above the water or below, and the surface blocks line of effect for the rest of the spell. A spell or spell-like ability with the fire descriptor that already creates steam (like a [kineticist's](class/kineticist) steam blast) doesn't require the caster level check to create steam; only spells that would normally create an actual fire require the check. The [Steam Spell](spell/steam_spell) metamagic feat makes it easier to cast fire spells underwater.",
+			"**Fire Spells:** While normal fire (including alchemist's fire) and most supernatural fire can't burn underwater at all, fire spells have a chance to transform into steam instead. Whenever you cast a fire spell underwater, you must succeed at a caster level check (DC = 20 + the spell's level) in order to channel the heat into the water and create steam, dealing the same amount of fire damage as normal but without secondary effects of fire, like igniting combustibles. A fire spell must be either entirely steam or entirely fire, which means that if it covers an area that would normally extend beyond the water's surface, you must choose whether to affect the region above the water or below, and the surface blocks line of effect for the rest of the spell. A spell or spell-like ability with the fire descriptor that already creates steam (like a [kineticist's](class/kineticist) steam blast) doesn't require the caster level check to create steam; only spells that would normally create an actual fire require the check. The [Steam Spell](feat/steam_spell) metamagic feat makes it easier to cast fire spells underwater.",
 			"",
 			"**Invisibility:** Underwater, an invisible creature still displaces water, making it possible to spot and target it as if it had only concealment, as per the description of [invisibility](spell/invisibility). The [invisibility bubble](spell/invisibility_bubble) spells hide the displaced water and thus allow effective invisibility underwater.",
 			"",

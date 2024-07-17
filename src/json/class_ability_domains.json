@@ -742,7 +742,7 @@
 			"",
 			"**Spirit Touch (Su):** At 6th level, as a swift action, you can give your natural weapons or any weapons you wield the ghost touch weapon special ability. You can use this power a number of rounds per day equal to your cleric level. These rounds need not be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 3rd-[chains of perdition](spell/chains_of_perdition), 6th-[planar ally](spell/planar_ally) (psychopomps only), 8th-[trap the soul](spell/trap_the_soul).",
+			"**Replacement Domain Spells:** 3rd-[chain of perdition](spell/chain_of_perdition), 6th-[planar ally](spell/planar_ally) (psychopomps only), 8th-[trap the soul](spell/trap_the_soul).",
 			"",
 			"### Shadow Subdomain",
 			"",
@@ -1303,7 +1303,7 @@
 			"",
 			"**Witness the Legend (Su):** At 8th level, as a move action, you can extol the virtues of yourself or an ally within 60 feet that you can see. This causes the target to shed light like a torch for 1 minute, and while the effect lasts, you can expend a daily use of your touch of glory domain ability as an immediate action to add 1d6 to an attack, saving throw, skill check, or ability check attempted by the target; for a roll to confirm a critical hit or save against a fear effect, you instead add 1d12. You can use this ability once per day at 8th level and one additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 3rd-[contagious zeal](spell/contagious_zeal), 4th-[righteous vigor](spell/righteous_vigor), 6th-[unshakable zeal](spell/unshakable_zeal). If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
+			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 3rd-[contagious zeal](spell/contagious_zeal), 4th-[righteous vigor](spell/righteous_vigor), 6th-[unshakeable zeal](spell/unshakeable_zeal). If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
 		]
 	},
 	"chivalry": { "copyof": "glory" },
@@ -2385,7 +2385,7 @@
 			"",
 			"**Spirit Touch (Su):** At 6th level, as a swift action, you can give your natural weapons or any weapons you wield the ghost touch weapon special ability. You can use this power a number of rounds per day equal to your cleric level. These rounds need not be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 3rd-[chains of perdition](spell/chains_of_perdition), 6th-[planar ally](spell/planar_ally) (psychopomps only), 8th-[trap the soul](spell/trap_the_soul).",
+			"**Replacement Domain Spells:** 3rd-[chain of perdition](spell/chain_of_perdition), 6th-[planar ally](spell/planar_ally) (psychopomps only), 8th-[trap the soul](spell/trap_the_soul).",
 			"",
 			"### Souls Subdomain",
 			"",
@@ -2398,7 +2398,7 @@
 			"",
 			"**Touch the Spirit World (Su):** With a touch, you can empower a weapon to affect incorporeal creatures. The weapon touched deals half damage to incorporeal creatures, or full damage if it is a magic weapon. This benefit lasts for a number of rounds equal to your cleric level. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 3rd-[animate dead](spell/animate_dead), 6th-[antilife shield](spell/antilife_shield), 9th-[trap the soul](spell/trap_the_soul).",
+			"**Replacement Domain Spells:** 3rd-[animate dead](spell/animate_dead), 6th-[antilife shell](spell/antilife_shell), 9th-[trap the soul](spell/trap_the_soul).",
 			"",
 			"**Source:** [Paizo Blog - Golarion Day Subdomains](source/paizo_blog_-_golarion_day_subdomains)  ",
 			"**Pharasma-Friendly Souls Subdomain** 3rd-level domain spell: Replace *animate dead* with [speak with dead](spell/speak_with_dead)",

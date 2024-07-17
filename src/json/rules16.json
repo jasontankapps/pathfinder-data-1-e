@@ -2731,7 +2731,6 @@
 			"armor_piece_descriptions"
 		],
 		"siblings": [
-			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -3340,7 +3339,6 @@
 			"adapting_scaling_items"
 		],
 		"siblings": [
-			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -3448,7 +3446,6 @@
 			"introducing_words_of_power"
 		],
 		"siblings": [
-			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -6375,7 +6372,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"A wordspell with this effect word summons a creature to do your bidding. This creature attacks your opponents to the best of its ability each turn if able. If you can communicate with the creature, you can direct its attacks or instruct it to perform other actions. A wordspell with this effect word summons one creature from [Table 10-1](spell/table_10-1) from the 1st-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 1st-level list.",
+			"A wordspell with this effect word summons a creature to do your bidding. This creature attacks your opponents to the best of its ability each turn if able. If you can communicate with the creature, you can direct its attacks or instruct it to perform other actions. A wordspell with this effect word summons one creature from [Table 10-1](spell/summon_monster_1) from the 1st-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 1st-level list.",
 			"",
 			"A summoned creature cannot summon or conjure other creatures, nor can its use teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them. Creatures summoned using a wordspell with this effect word cannot use spells or spell-like abilities with expensive material components.",
 			"",
@@ -6390,7 +6387,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 2nd-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 2nd-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 2nd-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 2nd-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor III (Summoning)",
 			"",
@@ -6399,7 +6396,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 3rd-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 3rd-level list. If the target word is boosted, a spell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 3rd-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 3rd-level list. If the target word is boosted, a spell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor IV (Summoning)",
 			"",
@@ -6408,7 +6405,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 4th-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 4th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 4th-level list. If a wordspell with this effect word is cast by a ranger or druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 4th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor V (Summoning)",
 			"",
@@ -6417,7 +6414,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 5th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 5th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 5th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 5th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor VI (Summoning)",
 			"",
@@ -6426,7 +6423,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 6th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 6th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 6th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 6th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor VII (Summoning)",
 			"",
@@ -6435,7 +6432,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 7th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 7th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 7th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 7th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor VIII (Summoning)",
 			"",
@@ -6444,7 +6441,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I, except that it summons one creature from [Table 10-1](spell/table_10-1) from the 8thlevel list. If a wordspell with this effect spell is cast by a druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 8th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
+			"This effect word functions as servitor I, except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 8thlevel list. If a wordspell with this effect spell is cast by a druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 8th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures.",
 			"",
 			"### Servitor IX (Summoning)",
 			"",
@@ -6453,7 +6450,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** selected",
 			"",
-			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/table_10-1) from the 9th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/table_10-2) from the 9th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures."
+			"This effect word functions as servitor I except that it summons one creature from [Table 10-1](spell/summon_monster_1) from the 9th-level list. If a wordspell with this effect word is cast by a druid, it instead summons a creature from [Table 10-2](spell/summon_nature's_ally_1) from the 9th-level list. If the target word is boosted, a wordspell with this effect word summons 1d4+1 of the chosen creatures."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7591,7 +7588,6 @@
 			"wounds_and_vigor_variant_feats"
 		],
 		"siblings": [
-			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",
@@ -7816,7 +7812,6 @@
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"siblings": [
-			"downtime",
 			"armor_as_damage_reduction",
 			"called_shots",
 			"hero_points",

@@ -2250,7 +2250,7 @@
 			"",
 			"**Vehicular Overrun:** Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle smaller than it, the driver must make a vehicular overrun combat maneuver against the creature or vehicle. This may require the driver to make vehicular overrun checks against the same creature numerous times as new parts of the vehicle enter its square.",
 			"",
-			"When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the [Improved Overrun](spell/improved_overrun) feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the [Improved Overrun](spell/improved_overrun) feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.",
+			"When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the [Improved Overrun](feat/improved_overrun) feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the [Improved Overrun](feat/improved_overrun) feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.",
 			"",
 			"When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the Improved Overrun feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage (see Table 4-3 for base ramming damage by size, and individual vehicle stat blocks for their own ramming damage). If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop (see Sudden Stops).",
 			"",
@@ -3136,7 +3136,8 @@
 		"siblings": [
 			"movement",
 			"vision_and_light",
-			"breaking_and_entering"
+			"breaking_and_entering",
+			"downtime"
 		]
 	},
 	"tactical_movement": {
@@ -3346,7 +3347,8 @@
 		"siblings": [
 			"movement",
 			"vision_and_light",
-			"breaking_and_entering"
+			"breaking_and_entering",
+			"downtime"
 		]
 	},
 	"breaking_and_entering": {
@@ -3365,7 +3367,8 @@
 		"siblings": [
 			"movement",
 			"vision_and_light",
-			"breaking_and_entering"
+			"breaking_and_entering",
+			"downtime"
 		]
 	},
 	"smashing_an_object": {
@@ -4857,7 +4860,8 @@
 		],
 		"parent_topics": [
 			"combat",
-			"actions_in_combat"
+			"actions_in_combat",
+			"swift_actions"
 		],
 		"siblings": [ "cast_a_quickened_spell" ]
 	},
@@ -6454,6 +6458,7 @@
 			"energy_drained",
 			"entangled",
 			"exhaustion_conditions",
+			"fear_conditions",
 			"flat-footed",
 			"grapple_conditions",
 			"incorporeal",
@@ -6865,7 +6870,7 @@
 		]
 	},
 	"invisible": {
-		"name": "Broken and Fragile",
+		"name": "Invisible",
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -6987,7 +6992,7 @@
 		]
 	},
 	"prone": {
-		"name": "Broken and Fragile",
+		"name": "Prone",
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [

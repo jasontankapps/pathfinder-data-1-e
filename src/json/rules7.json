@@ -512,7 +512,7 @@
 			"",
 			"**Fiendish Sorcery (1 RP):** Prerequisite: Outsider (native) with ties to Abaddon, the Abyss, or Hell; Benefit: If a member of this race is a sorcerer with the Abyssal or Infernal bloodline, it treats its caster level as 1 higher when casting bonus spells and bloodline powers. This trait does not give members of this race early access to level-based powers; it only affects powers that they could already use without this trait.",
 			"",
-			"**Gnome Magic (2 RP):** Prerequisite: Gnome subtype; Benefit: Members of this race gain a +1 bonus to the DC of any saving throws against illusion spells that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/ day-[dancing lights](spell/dancing_lights), [ghost sounds](spell/ghost_sounds), [prestidigitation](spell/prestidigitation), [speak with animals](spell/speak_with_animals). The caster level for these effects is equal to the user's level. The DC for the spell-like abilities is equal to 10 + the spell's level + the user's Charisma modifier.",
+			"**Gnome Magic (2 RP):** Prerequisite: Gnome subtype; Benefit: Members of this race gain a +1 bonus to the DC of any saving throws against illusion spells that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/ day-[dancing lights](spell/dancing_lights), [ghost sound](spell/ghost_sound), [prestidigitation](spell/prestidigitation), [speak with animals](spell/speak_with_animals). The caster level for these effects is equal to the user's level. The DC for the spell-like abilities is equal to 10 + the spell's level + the user's Charisma modifier.",
 			"",
 			"**Heavenborn (3 RP):** Prerequisite: Outsider (native) with ties to Elysium, Heaven, or Nirvana; Benefit: Members of this race gain a +2 bonus on Knowledge (planes) checks, and they cast spells with the good or light descriptor at +1 caster level.",
 			"",
@@ -1215,7 +1215,7 @@
 			"",
 			"The downtime system is designed to put much of the power and decision making for non-adventuring tasks in the hands of the players. These rules assume the reader is a player making decisions about what his character does during downtime. However, the GM is still in charge of the campaign and the final judge of what is possible using this system; these rules simply take much of the burden away from busy GMs, allowing them more time to work on creating adventures and other campaign issues."
 		],
-		"parent_topics": [ "optional_rules_systems" ],
+		"parent_topics": [ "exploration" ],
 		"subtopics": [
 			"downtime_overview",
 			"downtime_activities",
@@ -1225,18 +1225,10 @@
 			"downtime_events"
 		],
 		"siblings":  [
-			"downtime",
-			"armor_as_damage_reduction",
-			"called_shots",
-			"hero_points",
-			"kingdoms_and_war",
-			"mythic_rules",
-			"pathfinder_unchained",
-			"piecemeal_armor",
-			"relics",
-			"the_hunger",
-			"words_of_power",
-			"wounds_and_vigor"
+			"movement",
+			"vision_and_light",
+			"breaking_and_entering",
+			"downtime"
 		]
 	},
 	"downtime_overview": {
@@ -1247,17 +1239,17 @@
 			"",
 			"The key parts of the downtime rules that you'll be referencing often are the following:",
 			"",
-			"- Explanation of the downtime terminology used throughout this chapter.",
-			"- Earning downtime capital such as Goods, Influence, and Labor.",
-			"- The phase sequence for using downtime.",
-			"- The kinds of activities you can do with this system.",
-			"- Constructing rooms, the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
-			"- Example buildings constructed out of rooms, and example organizations built out of teams.",
-			"- Positive and negative events that can occur during downtime.",
-			"- Downtime tracking sheet."
+			"- Explanation of the [downtime terminology](rule/downtime_terminology) used throughout this section.",
+			"- [Earning downtime capital](rule/gaining_capital) such as Goods, Influence, and Labor.",
+			"- The [phase sequence](rule/downtime_phases) for using downtime.",
+			"- The kinds of [activities](rule/downtime_activities) you can do with this system.",
+			"- Constructing [rooms](rule/rooms_and_teams), the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
+			"- [Example](rule/buildings_and_organizations) buildings constructed out of rooms, and example organizations built out of teams.",
+			"- Positive and negative [events](rule/downtime_events) that can occur during downtime.",
+			"- Downtime tracking sheet (included in physical book only)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -1307,7 +1299,7 @@
 			"**Organization:** This is a group of people who do what you say (such as a cult, thieves' guild, or mercenary company). An organization may or may not have a base of operations. The downtime system allows you to recruit organizations made up of specialized teams (see [Rooms and Teams](rule/rooms_and_teams))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview"
 		],
@@ -1328,7 +1320,7 @@
 			"The downtime system is a middle ground between personal projects (like crafting a new set of armor) and large-scale tasks (like ruling a kingdom). These rules interface with both ends of that scale, and aren't intended to completely replace them. In many cases, they might slightly contradict what is presented in the [kingdom-building rules](rule/kingdoms_and_war). For example, the kingdom-building rules allow you to construct any type of building in 1 month, even a grand palace, which would take much longer using the downtime system. That is because the leader of a kingdom can spend build points to muster incredible amounts of resources and make things happen, far beyond what even a popular hero can do by spending gold and calling in favors. If your GM is using both the downtime system and the kingdom-building rules and there are conflicts over how to handle a situation, the GM decides which method is used, but should lean toward whichever rules seem most appropriate and efficient for the task."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview"
 		],
@@ -1362,7 +1354,7 @@
 			"| Labor | 20 gp | 10 gp |",
 			"| Magic | 100 gp | 50 gp |",
 			"",
-			"This chapter assumes you are using the downtime system to earn capital rather than purchasing it, and all gp values in this chapter are based on the Earned Cost. If you aren't using the downtime system to earn capital (and are instead awarded capital as a treasure reward, for example), or you want to purchase something quickly by spending gold pieces, remember to double the listed gp value to find the Purchased Cost of the item or service.",
+			"This chapter assumes you are using the downtime system to earn capital rather than purchasing it, and all gp values in this chapter are based on the **Earned Cost**. If you aren't using the downtime system to earn capital (and are instead awarded capital as a treasure reward, for example), or you want to purchase something quickly by spending gold pieces, remember to double the listed gp value to find the *Purchased Cost* of the item or service.",
 			"",
 			"Think of purchasing capital as a stranger coming to town and throwing lots of money around to make things happen. It's effective, but the locals are inclined to overcharge for their work and may resent the obvious display of wealth. Earning capital is a person working with the locals and trying to be a part of the community in order to get things done. It takes longer, but the locals give a fair price and appreciate the person's honest dealings and lack of arrogance.",
 			"",
@@ -1414,7 +1406,7 @@
 			"These kinds of rewards are always decided by the GM. Keep in mind that a settlement's government usually has jurisdiction over what happens to an abandoned property. For example, just because you kill all the cultists using a building as their secret lair doesn't mean you can claim that building as your own."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview"
 		],
@@ -1443,7 +1435,7 @@
 			"The Craft and Profession skills in the Pathfinder RPG Core Rulebook allow you to attempt a skill check once per week, earning an amount of gp equal to 1/2 your check result. If you were to divide that amount by 7, you'd get your earnings per day. However, that assumes you work 7 days per week, and most people take 2 days off per week for rest and worship, so that's only 5 days of actual work per week. Dividing your check result by 2 and then by 5 is the same as dividing by 10, which is why the downtime system has you divide your check result by 10 to determine gp earned per day. You can work 7 days per week (if you really need the 2 extra days for earning capital), but even mighty adventurers need a day off now and then!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"gaining_capital"
@@ -1466,7 +1458,7 @@
 			"You can trade 3 points of Goods, Labor, Influence, or Magic for 1 point of Goods, Labor, or Influence. Under certain circumstances, the GM may allow you to trade these resources at a 2-for-1 rate rather than the normal 3-for-1. You can trade 5 points of Goods, Labor, or Influence for 1 point of Magic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"gaining_capital"
@@ -1489,7 +1481,7 @@
 			"Some types of capital-in particular Influence-might be specific to a particular settlement or region. Other types may be used at any settlement, though the GM might rule that there is a delay in transporting Goods or Labor to a new location before you can spend it there."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"gaining_capital"
@@ -1523,7 +1515,7 @@
 			"| Metropolis | 65 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"gaining_capital"
@@ -1550,7 +1542,7 @@
 			"Under certain circumstances, the GM may rule that followers provide less of a benefit than the standard 50% increase. For example, if your followers live in a different settlement and must travel to your location, but bandit activity makes travel risky or they have been away from home for a week or more, the GM might decide that your followers increase the effect of Influence or Labor by only 1 for every 3 followers or even 1 for every 4. Your followers are loyal to you, but they are not slaves and can provide only so much help before they go about their normal lives."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"gaining_capital"
@@ -1579,7 +1571,7 @@
 			"Example: Patrick's character is having a drink in a tavern after a long day adventuring when his nemesis walks in and spots him. Patrick is out of spells and wants to avoid a fight. He tells the GM he stands up to confront his nemesis, and wants to spend 5 points of Labor to have other tavern patrons back him up, pointing out that he has employed many local workers in the past few months and some of them might be in the tavern. The GM agrees and allows him to spend 5 points of Labor for a +5 bonus on his Intimidate check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview"
 		],
@@ -1616,7 +1608,7 @@
 			"These phases always occur in the above order. Each player may start one new downtime activity per day. Which player goes first usually doesn't matter; you may choose to go in initiative order, clockwise from the player to the GM's left, or some other method that works for your group so long as everyone gets a turn each day."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview"
 		],
@@ -1664,7 +1656,7 @@
 			"Example: Laura's character has 9 points of Goods, 10 points of Influence, and 7 points of Labor saved up in Sandpoint, and she owns a shop, a tavern, and a small house. After 40 days of adventuring away from Sandpoint (during which time she didn't try to keep contact with people there), she returns to town. She has no costs for her buildings, so she skips Step 1 and Step 2. Because of her 5 weeks of absence, in Step 3 she reduces each type of her downtime capital by 5, so she now has only 4 points of Goods, 5 points of Influence, and 2 points of Labor saved up in Sandpoint. Because she was gone at least 30 days, in Step 4 she must attempt a leadership check to retain control of her shop and tavern; the DC of this check is 30 (40 days absent - 10). She succeeds at the check for the tavern but fails at the check for the shop, so she loses control of the shop. She can attempt a leadership check each day during the Upkeep phase to try to reclaim the shop. Because her house doesn't generate capital, she doesn't have to make a leadership check for her house, but the GM decides that a bat swarm has made a nest in the attic and Laura's character must get rid of the pests if she wants a peaceful night's sleep."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"downtime_phases"
@@ -1694,7 +1686,7 @@
 			"Example: Patrick's character has been crafting a [wand of fireball](spell/fireball), but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"downtime_phases"
@@ -1736,7 +1728,7 @@
 			"Example: Laura is ready to determine what her character's buildings earned while she was off adventuring. Her house doesn't generate capital, and neither does her rebellious shop, so in Step 1 she has to deal with only the income from her tavern. The tavern has a +15 modifier on gp capital checks. Instead of making 40 separate checks for the 40 days she was gone, Laura takes 10, giving her a result of 25 on each check, for a total of 2 gp and 5 sp earned each day, then multiplies that amount by 40 to get 100 gp. Because of her 5 weeks of absence, she reduces this amount by 5 &times; 7 gp (35 gp), leaving her 65 gp in income, which she adds to her character sheet or her downtime tracking sheet. She has no organizations, so she skips Step 2. None of her other activities during this downtime session are generating income, so she skips Step 3. She doesn't want to abandon or sell her house or tavern, and plans to try to regain control of the rebellious shop during the next Upkeep phase, so she decides to not abandon or sell any assets, skipping Step 4 and 5."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"downtime_phases"
@@ -1764,7 +1756,7 @@
 			"Example: Laura's character spends 5 downtime days in Sandpoint. Because Laura owns buildings there, the GM makes a roll each downtime day on the event table, starting with a 20% chance the first day and increasing by 5% each day. On the fourth day (35% chance of an event), the GM rolls that an event occurs-a bar brawl! The GM decides this event happens while Laura's character is in the tavern, and gives her the opportunity to use her words or fists to put an end to the trouble. Because an event occurred, on the next day the chance of having an event resets to 20%."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_overview",
 			"downtime_phases"
@@ -1787,7 +1779,7 @@
 			"Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -1831,7 +1823,7 @@
 			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](unknown/spells_copied_from_another's_spellbook_or_a_scroll)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -1870,7 +1862,7 @@
 			"How much capital you can spend per day is limited by the size of the settlement you're in (see [Spending Limits](rule/spending_limits)). Once you've spent the total capital and time needed to finish your building, it's complete and you can use it immediately."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -1907,7 +1899,7 @@
 			"The Core Rulebook details how to [craft magic items](rule/craft_magic_items). As magic item crafting and the downtime rules both use days as time increments for all but the cheapest potions and scrolls, you can spend days in the downtime system to craft magic items, with each downtime day counting as 8 hours of crafting time. You may spend Magic toward the crafting cost."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -1958,7 +1950,7 @@
 			"If you fail a check by 4 or less, you make no progress that day. If you fail by 5 or more, you ruin some of the raw materials and have to pay 1/10 of the original raw material cost again."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -1995,7 +1987,7 @@
 			"You can spend 1 day of downtime earning capital. Depending on the nature of the work, this might require making some kind of check and paying an amount of gp. This work might be unskilled labor or skilled labor with a Craft or Profession skill. See [Gaining Capital](rule/gaining_capital) for more information."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2036,7 +2028,7 @@
 			"If using this downtime activity would increase your XP above the highest XP value among all the PCs in your party, it increases your XP to that value instead; any XP earned beyond this amount is lost. This activity allows you only to catch up, not to get ahead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2079,7 +2071,7 @@
 			"**Influential Questioning:** By spending 1 day of downtime and 1 point of Influence, you can attempt up to three Diplomacy checks, each with a +5 bonus. These checks can be for the same or different topics, and you can expend one of the rolls you haven't used yet to reroll a Diplomacy check you failed during this activity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2122,7 +2114,7 @@
 			"**Treat Disease:** Spending a day of downtime allows you to treat up to 50 patients of this type. You may combine this option with the treat wounds from caltrops, caring for up to 50 patients total per day."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2159,7 +2151,7 @@
 			"If you are using the [kingdom-building rules](rule/kingdom_building) and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](unknown/leadership_duties). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2202,7 +2194,7 @@
 			"If the building or organization does not generate capital (such as charity that takes care of war orphans), the promotion generates either gp or Influence (your choice) ."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2239,7 +2231,7 @@
 			"If you lose or dismiss your animal companion, you can spend 1 day performing a ceremony to gain a new one. This ceremony requires 24 uninterrupted hours of prayer in the environment where the new companion typically lives (at the GM's discretion, traveling might add to the downtime requirement if there's no suitable environment near the settlement)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2276,7 +2268,7 @@
 			"The Core Rulebook allows you to replace a familiar if at least 1 week has passed since it was dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a new familiar. The ritual costs 200 gp &times; your wizard or witch level. You can [spend Goods or Magic](rule/spend_capital_to_boost_checks) toward the ritual cost."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2313,7 +2305,7 @@
 			"You can create and recruit for an organization that doesn't rely on a specific building. For example, you could may want to recruit employees (or minions) if you're a rogue and want to start your own gang of cutpurses or a cleric who wants to start a cult of followers. You create an organization out of component teams, so you can configure the organization exactly how you want it (see [Rooms and Teams](rule/rooms_and_teams)). How much downtime capital you can spend in a day is limited by the size of the settlement you're in (see [Spending Limits](rule/spending_limits)). When you've spent the appropriate capital and time for your organization, it's complete and you can put it to work immediately."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2362,7 +2354,7 @@
 			"If you're an alchemist, you can use this downtime option to research a new extract formula. Instead of a Spellcraft check, attempt a Craft (alchemy) check. For Knowledge (arcana) checks, you may attempt a Knowledge (nature) check instead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2405,7 +2397,7 @@
 			"**Magical Research:** By spending 1 day of downtime and 1 point of Magic, you may attempt up to three Knowledge checks, each with a +5 bonus."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2442,7 +2434,7 @@
 			"You can use downtime to rest and recover. It is assumed that you spend 8 hours resting at night, which allows you to recover 1 hp per level per day and 1 point of ability damage for each affected ability score. If you spend a full day of downtime resting in bed, you recover another 1 hp per level per day and another 1 point of ability damage for each affected ability score."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2479,7 +2471,7 @@
 			"You can use your downtime to retrain (see [Retraining](rule/retraining)). You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) toward this cost."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2518,7 +2510,7 @@
 			"The capital you generate must be a kind that your building can generate. For example, an inn that generates gp and Influence can generate only those two currencies using this downtime activity; you can't use it to generate Goods, Labor, or Magic just because you're personally running it for the day. You must earn capital acquired in this way as normal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2557,7 +2549,7 @@
 			"For example, by spending 1 day of downtime and 1 point of [Goods](rule/spend_capital_to_boost_checks), you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2602,7 +2594,7 @@
 			"**Rear a Wild Animal:** Depending on the maturation rate of the animal, this can take anywhere from weeks to months or even years. For simplicity's sake, interacting with the animal for an hour per day in a safe environment counts toward this training and doesn't require you to spend any downtime. As long as you maintain this daily contact, you need to succeed at only one Handle Animal check at the end of the rearing period. An interruption requires you to succeed at a check to continue the rearing (you may attempt this check once per day). The assumption is that you have a non-expert taking care of the animal's basic needs while you are away so it isn't neglected. If you know you will miss a day of this contact, you may spend 1 point of Influence or 1 point of Labor for each missed day to have a skilled animal handler rear the animal for the day, meaning your absence doesn't count as an interruption in the animal's training."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_activities"
 		],
@@ -2645,7 +2637,7 @@
 			"It's a good idea to give a manager some means of contacting you while you're away, even just an address in a city near where you're adventuring. You might want to provide a magical means of contacting you (and leave funds set aside to pay for it) in case something requires your urgent attention."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -2678,7 +2670,7 @@
 			"You can select a cohort or notable follower to be a manager, but you still must pay a wage. Having a cohort or follower as a manager means you know the manager is loyal to you-it doesn't mean that she'll work for free while you're off adventuring."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"managers"
 		],
@@ -2817,7 +2809,7 @@
 			"A warden oversees a Jail, dungeon, or other place where people are detained. She's typically a 3rd-level cleric, expert, fighter, inquisitor, warrior, or member of any class suited to combat and guile. A warden sees to the needs of the guards employed within the Jail as well as those of the prisoners-, and monitors conditions within the facility."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"managers"
 		],
@@ -2858,7 +2850,7 @@
 			"A Master Scout oversees a network of agents who monitor a wide region of wilderness, coordinating reports and patrols. He's typically a 3rd-level ranger, but could be an expert or rogue."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"managers"
 		],
@@ -2914,7 +2906,7 @@
 			"**Combining Rooms and Teams:** This system allows you to construct a building that has no workers, create an organization that has no base of operations, or combine the two to make a fully staffed building or an organization with a headquarters. For example, if you build a Temple and recruit Acolytes in that settlement, you can have the Acolytes work at your temple. If the Temple has a place for the Acolytes to sleep, they can even live there. If you later want the Acolytes to go somewhere else or disperse, you still have the Temple and can use it for whatever purpose you see fit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -2955,7 +2947,7 @@
 			"Alternatively, if you wanted to just purchase an existing guild, with the GM's approval you can add up the gp prices for those teams and pay that amount to the current guildmaster. For the Thieves' Guild described above, the total price is 510 gp."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3015,7 +3007,7 @@
 			"You can't downgrade a room or team. With the GM's permission, you may repurpose any room or team into another room or team as if the change were an upgrade. Description: A description of the unit follows the statistics, along with more detail about the benefits of having the unit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3041,7 +3033,7 @@
 			"If you intend for your building or organization to generate capital, you must explain to the GM how it does so. You can change the purpose of your building or organization (for example, renovating an old military barracks into an inn or turning your greedy cult into a generous one) and in doing so change the capital it generates. You should choose one idea and stick to it, however, as a business that's open to the public on an irregular basis makes less money, as does a business that frequently changes its purpose. The GM might reduce the capital buildings generate in such situations."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3067,7 +3059,7 @@
 			"You can shorten this extra time before or during the delay by spending 1 point of Influence, which reduces the additional time by 1d6 days (minimum 0 days of delay). You can instead have a cohort monitor the work, or hire a [competent employee](unknown/competent_employee) to do so; either of these options completely prevents the delay."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3093,7 +3085,7 @@
 			"Instead of moving an entire organization, you can move just some of the teams within that organization. For example, if your Thieves' Guild includes two Robber teams, you could move one of the teams to a different settlement by spending 2 points of Influence and 1 point of Labor (half the price of recruiting a Robber team in the new location). This otherwise works like moving an entire organization. You may add these teams to an existing organization in the new settlement or use them to create a new organization."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3795,7 +3787,7 @@
 			"**Size** 8-16 squares This includes a table, chair, and appropriate [masterwork artisan's tools](unknown/masterwork_artisan's_tools) for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -3885,7 +3877,7 @@
 			"A Watering Hole provides bathing and drinking water for animals and traveling caravans. In addition to the pool of water itself, the Watering Hole also provides open space around it where animals can gather and rest. The pool can be a modified natural pond or spring, or it may be an artificially constructed pool that maximizes shore space around which animals can gather. Watering Holes often attract predators, which must be driven off or killed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams",
 			"rooms"
@@ -3927,7 +3919,7 @@
 			"Adding a Trap augmentation to a room costs the same as adding a dedicated Trap room; see the Trap room."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams",
 			"rooms"
@@ -3966,7 +3958,7 @@
 			"This augmentation integrates a room into the surrounding natural environment, putting the space into symbiosis with the local ecosystems. An Attuned room in a forest can be built amid great trees that act as some of the primary walls, while an Attuned room in a desert might be built to help foster the growth of desert plants. Once this augmentation is completed, the room is considered to be representative of the local flora for purposes of spells such as [entangle](spell/entangle) or [spike growth](spell/spike_growth)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams",
 			"rooms"
@@ -4044,7 +4036,7 @@
 			"All walls in the room are built with superior secrecy runes, as described above."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams",
 			"rooms"
@@ -4261,7 +4253,7 @@
 			"Soldiers are trained in combat and have the means and will to kill your enemies. Unlike Guards, Soldiers actively engage in fighting on behest of a leader (although you can make Soldiers act as Guards). Depending on the nature of your organization, they might be enforcers rather than military-style soldiers. They are typically 1st-level warriors, each with scale mail, a longsword, a heavy wooden shield, and javelins."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams"
 		],
@@ -4304,7 +4296,7 @@
 			"Stewards are workers who specialize in caring for land with consideration for the local wildlife as well as any civilized inhabitants. Most stewards are 3rd-level experts with ranks in Knowledge (Nature), Perception, and Profession (gardener). Stewards may be trained professionals or common workers who have gained experience over time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"rooms_and_teams",
 			"teams"
@@ -4325,7 +4317,7 @@
 			"Interspersed with these stat blocks are example maps of various types of buildings. These maps are not intended to exactly correspond to the buildings described in this section. Rather, you can use these maps as inspiration for buildings of their type or adapt them to other purposes. For example, even if players aren't using the downtime system to construct or purchase buildings of their own, a busy GM can use the maps for encounters in town."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -4764,7 +4756,7 @@
 			"A port for waterborne arrival and departure, with facilities for shipping and shipbuilding."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"buildings_and_organizations"
 		],
@@ -4828,7 +4820,7 @@
 			"A Wood Shop is a facility specially focused on the output of fine woodwork, from simple furniture to custom, masterwork engines of war."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"buildings_and_organizations",
 			"buildings"
@@ -4943,7 +4935,7 @@
 			"Unsavory wanderers skilled at stage magic, fortunetelling, rigged games, and snake oil."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"buildings_and_organizations"
 		],
@@ -4969,7 +4961,7 @@
 			"Many events allow a skill check to affect the outcome of the event. If you're present, either attempt this skill check yourself or ask another member of the party or a manager to attempt the check for you. If you're absent, either your representative (such as a cohort or manager) attempts the check or roll 1d20 with no bonuses to determine the result. The GM can also allow methods other than those listed to end harmful events. For example, you might be able to end an ongoing rivalry event by befriending the owner of the rival business or driving him out of town."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime"
 		],
 		"subtopics": [
@@ -5060,7 +5052,7 @@
 			"**Taxes:** You must pay some unexpected taxes. You can either pay the tax amount (1% of the total gp value of your building) or attempt a DC 20 Bluff check to talk your way out of the taxes. If you succeed, you don't have to pay these taxes. If you fail, the tax owed doubles and you can't talk your way out of it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5131,7 +5123,7 @@
 			"**Unstable Mutation:** A alchemical mishap causes one employee to temporarily mutate into a hideous, clumsy creature. Either you hide the employee in your business, losing 1d2 points of Goods per day for 1d3 days as the employee accidentally breaks merchandise, or you send the employee home and the building takes a -5 penalty on its next 1d3 checks to generate capital since people know about this incident."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5200,7 +5192,7 @@
 			"**Visiting Master:** A famous traveling bard has offered to teach your students for a week. For 7 days, you may trade Goods, Influence, and Labor on a 1-for-1 basis."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5257,7 +5249,7 @@
 			"**Mysterious Item:** A mysterious magic item is discovered on your doorstep, is unearthed by one of your employees, or is delivered to you by a desperate adventurer. If you succeed at a DC 30 Spellcraft check, you identify it as a random magic item worth 500 gp or less, though its unusual history might give it a higher value. Failing this check means you are unable to identify it, or you detect traces of curse magic; either way, you must sell it quickly to someone else for 1d10 &times; 10 gp before it causes you any trouble."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5316,7 +5308,7 @@
 			"**Training Drill:** The guards and soldiers of your Castle need constant training in order to stay on top of their duties. Attempt a DC 25 Diplomacy, Intimidate, or Profession (soldier) check. Success means the building gains a +2 bonus on all checks for 7 days. Failure indicates that your troops have fallen behind on their drills. You lose 1d2 points of Labor as you retrain them to their former proficiency."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5378,7 +5370,7 @@
 			"**Wild Night:** Overzealous patrons damage furnishings in a lounge or the main hall. The building takes a -10 penalty on checks to generate capital until repairs costing 1d3 points of Goods and 1d2 points of Labor are made."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5437,7 +5429,7 @@
 			"**Unfair Practices:** One of the guild members hasn't been contributing her fair share-skimming off the top, not paying dues, doing work for a rival guild, or taking more than her fair share of the profits. You can spend 1d4 points of Influence to discipline this member or attempt a DC 25 Intimidate check to set her straight. If you succeed at this check, you frighten her into donating excess funds to the guild to make up for previous transgressions, earning you 1d6 points of Goods. Failing the check costs you an additional 1d4 points of Influence as other members realize they can get away with more."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5494,7 +5486,7 @@
 			"**Snake Oil:** You've created an invigorating tonic that makes people feel better, though whether or not it has any actual curative effect is dubious. If you spend 1 point of Influence or Magic, you can attempt a DC 25 Bluff check to convince the locals to try your cure-all. If you succeed, the building gains a +15 bonus on its next check to generate capital. You can attempt this check every day after you roll this event, but the DC increases by 2 with each attempt. If you fail the check, the event ends, and you can no longer attempt these daily checks (at least, not until you roll this event again)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5554,7 +5546,7 @@
 			"**Unstable Foundation:** The foundation of your House is sinking. The building gains the broken condition, and you lose 1d2 points of Influence due to the embarrassment. It costs 1d2 points of Goods and 1d6 points of Labor to bolster the foundation and remove the broken condition."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5611,7 +5603,7 @@
 			"**Violence:** There is a 60% chance that this is just a simple brawl in the common room, and a 40% chance that someone has attempted actual harm against your employees or guests. If it is a simple brawl, you can break it up with a successful DC 20 Diplomacy or Intimidate check or by spending 1 point of Goods on the quarrelers. If it is a violent attack and you're present when it occurs, you can attempt to intercede (the GM should determine an appropriate combat encounter). Whether or not the violent attack is successful, the perpetrator must be dealt with. If you do nothing at all, you lose 1d4 points of Influence and 1d2 points of Labor as you lose frightened customers and employees. If you want the local authorities to take care of it, attempt a DC 20 Diplomacy or Intimidate check. Success means an investigation and arrest occur without any negative repercussions. Failure means you lose 1d4 points of Influence and 1 point of Labor. If you find and punish the perpetrator yourself (or hire someone to do so), you gain 1d4 points of Influence."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5673,7 +5665,7 @@
 			"**Strange Visitor:** A strange visitor comes to your Library in search of books that you fear contain dangerous knowledge. You can turn him away with a successful DC 25 Diplomacy or Intimidate check, but doing so could anger him-5% of the time, such strange visitors are powerful creatures in disguise who resort to violence to get what they want. Allowing the visitor to peruse your Library's resources might have unfortunate future repercussions, at the GM's discretion."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5728,7 +5720,7 @@
 			"**Unexpected Magic:** Magic can be unpredictable, especially when many magic items are stored in close proximity. Through the unpredictable results of overlapping and interacting magic auras, or perhaps as a result of a damaged magic item or leaking potion, a strange magical event occurs. The event is minor 75% of the time, causing flashing lights, strange smells, or unusual sounds. Attempt a DC 25 Knowledge (arcana) check in this case. On a success, you learn something useful about how to store magic and gain 1 point of Magic. The other 25% of the time, the interaction is dangerous-a sudden explosion of fire, the accidental animation of an object, the summoning of a hungry monster, and so on. These events should be tailored by the GM, but should be comparable in power to a trap or monster encounter of your level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5791,7 +5783,7 @@
 			"**Unexpected Grant:** Your academy has attracted the right kind of attention. You gain 2d4 points of Goods, and the building gains a +10 bonus on its next check to generate capital."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5850,7 +5842,7 @@
 			"**Unruly Druid:** An unruly druid embarks on a crusade against your Menagerie. The druid continues to harass your building until you succeed at a DC 30 Diplomacy or Knowledge (nature) check to mollify her, or until you detain or defeat her in combat. While the druid is acting against your Menagerie, all checks related to the building that you make take a -5 penalty."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5910,7 +5902,7 @@
 			"**Unexpected Grant:** See the event of the same name in the [Magical Academy Events](rule/magical_academy_events) section."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -5973,7 +5965,7 @@
 			"**Visiting Relic:** Your Monastery has been selected as the resting place for a traveling reliquary for 1d4 days. You gain 1d4 points of Influence each day the relic is housed in your Monastery."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6035,7 +6027,7 @@
 			"**Slow Day:** For some reason, no one's coming to the Shop today. If you don't spend the day at the Shop, it earns no capital for the day."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6101,7 +6093,7 @@
 			"**Valuable Ore:** Your suppliers send a particularly fine shipment of iron ore or steel bars. You gain 1d4 points of Goods. There's a 5% chance that the supplier also included precious metals or gemstones worth 5d20 gp by mistake. If you give these back to the supplier instead of keeping them, you gain 1d6 points of Influence."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6163,7 +6155,7 @@
 			"**Stable Fire:** Treat this as the [fire event from the Generic Building Events section](unknown/fire_event_from_the_generic_building_events_section). If it is a minor fire, there is also a 50% chance that your Stable also has a crazed horse event."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6225,7 +6217,7 @@
 			"**Taproom Trouble:** Something's gone bad in the kitchen. Foul beer, bad fish, spoiled stew-whatever the cause is, it's making the customers sick. You can avoid any negative repercussions by spending 1d2 points of Magic on potions or medicinal elixirs or succeeding at a DC 20 Heal check. Otherwise, bad word of mouth costs you 2d6 points of Influence, and for the next 2d6 days the building takes a -5 penalty on checks to generate capital."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6288,7 +6280,7 @@
 			"**Scandal:** This is the same as the [scandal event for a Monastery](unknown/scandal_event_for_a_monastery), except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see [Generic Building Events](rule/generic_building_events)) ."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6353,7 +6345,7 @@
 			"**Visiting Troupe:** A group of traveling players asks to perform at your Theater. On the first day after this event, the players require full access to your Theater. Since you can't be open to the public, the building generates no capital that day. The troupe remains for 1d4 days, and on those days you gain a +20 bonus on the building's first check to generate capital each day. If the troupe is present when an event at the Theater makes you lose Labor, the troupe leaves early."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6393,7 +6385,7 @@
 			"Unlike with buildings, there is no generic organization event table."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events"
 		],
@@ -6460,7 +6452,7 @@
 			"**Work Opportunity:** A noble, merchant, or other patron hires your Cabal to assist with magical preparations for a ritual or festival. For 1d6 days, the organization gains a +5 bonus on its first check to generate capital each day. If you rolled a 6 for the number of days, there's a 20% chance this causes a discovery event as described above."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events",
 			"organization_events"
@@ -6505,7 +6497,7 @@
 			"**Schism:** A popular member of your Cult tries to steal some of your people and create her own Cult. Attempt a Bluff, Diplomacy, Intimidate, or Knowledge (religion) check against a DC equal to 20 + the number of teams in the organization. If you succeed, treat this as an apostate event as described above. If you fail by less than 5, you lose 1d2 points of Influence and 1d2 points of Labor. If you fail by 5 or more, you lose one team for every 5 full points by which you failed the DC. These lost teams go with the apostate."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events",
 			"organization_events"
@@ -6552,7 +6544,7 @@
 			"**Windfall:** Your organization is rewarded handsomely for its recent efforts, either with payment from a grateful employer or rich spoils from looting an enemy. You gain 1d10 &times; 10 gp, 1d6 points of Goods, and 1 point of Magic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events",
 			"organization_events"
@@ -6596,7 +6588,7 @@
 			"**Rivalry:** Another guild is moving in on your territory. Treat this as the [rivalry event from Generic Building Events](unknown/rivalry_event_from_generic_building_events), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel event on the Mercenary Company Event table](unknown/duel_event_on_the_mercenary_company_event_table), but not necessarily to the death) or a thieving challenge."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"exploration",
 			"downtime",
 			"downtime_events",
 			"organization_events"

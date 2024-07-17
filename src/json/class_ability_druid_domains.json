@@ -58,7 +58,7 @@
 			"",
 			"**Badlands Spirit (Su):** At 8th level, whenever you use wild shape to take on the form of an earth elemental, you also gain the following spell-like abilities, depending on your druid class level: geyser (8th); sirocco (12th), scouring winds (15th). Each spell-like ability is usable once per day.",
 			"",
-			"**Domain Spells:** 1st-[cloak of shade](spell/cloak_of_shade), 2nd-[feast of ashes](spell/feast_of_ashes), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[spike stones](spell/spike_stones), 5th-[wind blades](spell/wind_blades), 6th-[find the path](spell/find_the_path), 7th-[firestorm](spell/firestorm), 8th-[earthquake](spell/earthquake), 9th-[storm of vengeance](spell/storm_of_vengeance)."
+			"**Domain Spells:** 1st-[cloak of shade](spell/cloak_of_shade), 2nd-[feast of ashes](spell/feast_of_ashes), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[spike stones](spell/spike_stones), 5th-[wind blades](spell/wind_blades), 6th-[find the path](spell/find_the_path), 7th-[fire storm](spell/fire_storm), 8th-[earthquake](spell/earthquake), 9th-[storm of vengeance](spell/storm_of_vengeance)."
 		]
 	},
 	"cave": {
@@ -219,7 +219,7 @@
 			"",
 			"**Thin Air (Su):** At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are fatigued (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from altitude sickness, taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.",
 			"",
-			"**Domain Spells:** 1st-[fist of stone](spell/fist_of_stone), 2nd-[stone call](spell/stone_call), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[stoneskin](spell/stoneskin), 5th-[geyser](spell/geyser), 6th-[suffocate](spell/suffocate), 7th-[flesh to stone](spell/flesh_to_stone), 8th-[reverse gravity](spell/reverse_gravity), 9th-[clashing rocks](spell/clashing_rocks)."
+			"**Domain Spells:** 1st-[stone fist](spell/stone_fist), 2nd-[stone call](spell/stone_call), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[stoneskin](spell/stoneskin), 5th-[geyser](spell/geyser), 6th-[suffocation](spell/suffocation), 7th-[flesh to stone](spell/flesh_to_stone), 8th-[reverse gravity](spell/reverse_gravity), 9th-[clashing rocks](spell/clashing_rocks)."
 		]
 	},
 	"panther": {
@@ -253,7 +253,7 @@
 			"",
 			"**Pounce (Ex):** At 6th level, you may use the pounce special attack once per day. You may pounce one additional time per day for every 3 levels after 6th.",
 			"",
-			"**Domain Spells:** 1st-[mount](spell/mount), 2nd-[chameleon stride](spell/chameleon_stride), 3rd-[haste](spell/haste), 4th-[aspect of the stag](spell/aspect_of_the_stag), 5th-[control winds](spell/control_winds), 6th-[find the path](spell/find_the_path), 7th-[whirlwind](spell/whirlwind), 8th-[animal shapes](spell/animal_shapes), 9th-[worldwave](spell/worldwave)."
+			"**Domain Spells:** 1st-[mount](spell/mount), 2nd-[chameleon stride](spell/chameleon_stride), 3rd-[haste](spell/haste), 4th-[aspect of the stag](spell/aspect_of_the_stag), 5th-[control winds](spell/control_winds), 6th-[find the path](spell/find_the_path), 7th-[whirlwind](spell/whirlwind), 8th-[animal shapes](spell/animal_shapes), 9th-[world wave](spell/world_wave)."
 		]
 	},
 	"plane_of_air": {
@@ -367,7 +367,7 @@
 			"",
 			"**Venom Immunity (Ex):** At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity.",
 			"",
-			"**Domain Spells:** 1st-[charm animal](spell/charm_animal), 2nd-[animal trance](spell/animal_trance), 3rd-[poison](spell/poison), 4th-[strong jaw](spell/strong_jaw), 5th-[snakestaff](spell/snakestaff), 6th-[charm monster](spell/charm_monster), 7th-[animal shapes](spell/animal_shapes) (reptiles and snakes only), 8th-[scintillating pattern](spell/scintillating_pattern), 9th-[crushing hand](spell/crushing_hand)."
+			"**Domain Spells:** 1st-[charm animal](spell/charm_animal), 2nd-[animal trance](spell/animal_trance), 3rd-[poison](spell/poison), 4th-[strong jaw](spell/strong_jaw), 5th-[snake staff](spell/snake_staff), 6th-[charm monster](spell/charm_monster), 7th-[animal shapes](spell/animal_shapes) (reptiles and snakes only), 8th-[scintillating pattern](spell/scintillating_pattern), 9th-[crushing hand](spell/crushing_hand)."
 		]
 	},
 	"swamp": {

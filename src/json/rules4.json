@@ -1182,8 +1182,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"getting_started",
-			"duties_of_a_gm"
+			"getting_started"
 		],
 		"siblings": [
 			"a_game_master's_glossary",
@@ -3593,7 +3592,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"siblings": [
 			"dice_mechanics_and_more",
@@ -3627,6 +3627,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3652,6 +3653,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3679,6 +3681,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3706,6 +3709,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3733,6 +3737,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3758,6 +3763,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3783,6 +3789,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"dice_mechanics_and_more"
 		],
 		"siblings": [
@@ -3823,7 +3830,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"siblings": [
 			"dice_mechanics_and_more",
@@ -3859,7 +3867,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"siblings": [
 			"dice_mechanics_and_more",
@@ -3883,7 +3892,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"subtopics": [
 			"play_to_the_pcs'_strengths",
@@ -3919,6 +3929,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"building_encounters"
 		],
 		"siblings": [
@@ -3950,6 +3961,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"building_encounters"
 		],
 		"siblings": [
@@ -3975,6 +3987,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"building_encounters"
 		],
 		"siblings": [
@@ -4000,6 +4013,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"building_encounters"
 		],
 		"siblings": [
@@ -4029,6 +4043,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"building_encounters"
 		],
 		"siblings": [
@@ -4051,7 +4066,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"subtopics": [
 			"no_healers",
@@ -4083,6 +4099,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"unusual_campaigns"
 		],
 		"siblings": [
@@ -4106,6 +4123,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"unusual_campaigns"
 		],
 		"siblings": [
@@ -4129,6 +4147,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"unusual_campaigns"
 		],
 		"siblings": [
@@ -4152,6 +4171,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"unusual_campaigns"
 		],
 		"siblings": [
@@ -4179,6 +4199,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"unusual_campaigns"
 		],
 		"siblings": [
@@ -4201,7 +4222,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"subtopics": [
 			"solo_campaigns",
@@ -4241,6 +4263,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"variant_play_experiences"
 		],
 		"siblings": [
@@ -4262,6 +4285,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"variant_play_experiences"
 		],
 		"siblings": [
@@ -4287,6 +4311,7 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"running_a_game",
+			"the_science_of_gming",
 			"variant_play_experiences"
 		],
 		"siblings": [
@@ -4315,7 +4340,8 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"running_a_game"
+			"running_a_game",
+			"the_science_of_gming"
 		],
 		"siblings": [
 			"dice_mechanics_and_more",
@@ -5235,7 +5261,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"after_the_game"
 		],
 		"siblings": [
 			"keeping_current",
@@ -5258,7 +5285,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"after_the_game"
 		],
 		"siblings": [
 			"keeping_current",
@@ -5283,7 +5311,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"player_characters",
-			"starting_characters"
+			"starting_characters",
+			"after_the_game"
 		],
 		"siblings": [
 			"keeping_current",

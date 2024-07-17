@@ -564,7 +564,7 @@
 			"",
 			"**Arcane Insight (Ex):** At 2nd level, a detective can find and disable magical traps, like a rogue's trapfinding ability. In addition, he gains a +4 bonus on saving throws made against illusions and a +4 bonus on caster level checks and saving throws to see through disguises and protections against divination (such as [magic aura](spell/magic_aura), [misdirection](spell/misdirection), and [nondetection](spell/nondetection)). This ability replaces well-versed.",
 			"",
-			"**Arcane Investigation:** In addition, a detective's class spell list includes the following: 1st-[detect chaos](spell/detect_chaos)/[evil](spell/evil)/[law](spell/law)/[good](spell/good); 2nd-[zone of truth](spell/zone_of_truth); 3rd-[arcane eye](spell/arcane_eye), [speak with dead](spell/speak_with_dead), [speak with plants](spell/speak_with_plants); 4th-[discern lies](spell/discern_lies); 5th-[prying eyes](spell/prying_eyes), [stone tell](spell/stone_tell); 6th-[discern location](spell/discern_location), [find the path](spell/find_the_path), [greater prying eyes](spell/greater_prying_eyes), [moment of prescience](spell/moment_of_prescience). A detective may add one of these spells or any divination spell on the bard spell list to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance."
+			"**Arcane Investigation:** In addition, a detective's class spell list includes the following: 1st-[detect chaos](spell/detect_chaos)/[evil](spell/detect_evil)/[law](spell/detect_law)/[good](spell/detect_good); 2nd-[zone of truth](spell/zone_of_truth); 3rd-[arcane eye](spell/arcane_eye), [speak with dead](spell/speak_with_dead), [speak with plants](spell/speak_with_plants); 4th-[discern lies](spell/discern_lies); 5th-[prying eyes](spell/prying_eyes), [stone tell](spell/stone_tell); 6th-[discern location](spell/discern_location), [find the path](spell/find_the_path), [greater prying eyes](spell/greater_prying_eyes), [moment of prescience](spell/moment_of_prescience). A detective may add one of these spells or any divination spell on the bard spell list to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance."
 		]
 	},
 	"dirge_bard": {
@@ -804,7 +804,7 @@
 			"",
 			"This ability replaces dirge of doom.",
 			"",
-			"**Dirty Trickster (Ex):** At 2nd level, a fey prankster gains [Improved Dirty Trick](feat/improved_dirty_trick) as a bonus feat and counts as having [Combat Expertise](feat/combat_expertise) for the purpose of meeting the prerequisites of feats that have [Improved Dirty Trick](spell/improved_dirty_trick) as a prerequisite.",
+			"**Dirty Trickster (Ex):** At 2nd level, a fey prankster gains [Improved Dirty Trick](feat/improved_dirty_trick) as a bonus feat and counts as having [Combat Expertise](feat/combat_expertise) for the purpose of meeting the prerequisites of feats that have [Improved Dirty Trick](feat/improved_dirty_trick) as a prerequisite.",
 			"",
 			"This ability replaces well-versed.",
 			"",
@@ -1763,7 +1763,7 @@
 			"",
 			"**Bardic Performance:** A street performer gains the following types of bardic performance.",
 			"",
-			"**Disappearing Act (Su):** A street performer can use performance to divert attention from an ally. All creatures within 30 feet that fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) treat one creature chosen by the bard as if it were [invisible](spell/invisible). This performance affects one additional creature at 5th level and every 6 levels thereafter. If the targets take any action that would cause them to become visible, they become visible to everyone. The bard cannot use this ability on himself. This ability is a mind-affecting effect that requires visual components. This performance replaces inspire courage.",
+			"**Disappearing Act (Su):** A street performer can use performance to divert attention from an ally. All creatures within 30 feet that fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) treat one creature chosen by the bard as if it were [invisible](rule/invisible). This performance affects one additional creature at 5th level and every 6 levels thereafter. If the targets take any action that would cause them to become visible, they become visible to everyone. The bard cannot use this ability on himself. This ability is a mind-affecting effect that requires visual components. This performance replaces inspire courage.",
 			"",
 			"**Harmless Performer (Su):** At 3rd level, a street performer can use performance to appear meek and unworthy of being attacked. While using this performance, whenever an enemy targets the street performer, the enemy must succeed at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha bonus) or be unable to attack the bard this round, as per [sanctuary](spell/sanctuary). The enemy loses the attack that targeted the bard, but may spend additional attacks targeting other creatures. If the opponent was targeting the street performer with a spell, it must succeed at a concentration check at the same DC or lose the spell. If this check succeeds, it may target another creature with the spell instead. This mind-affecting ability requires audible or visual components. This performance replaces inspire competence.",
 			"",

@@ -3589,6 +3589,7 @@
 					[ "[Burning Entanglement](spell/burning_entanglement)", 3, "evocation", null, null, "As entangle, but deals fire damage and obscures the area with smoke" ],
 					[ "[Burrow](spell/burrow)", 3, "transmutation", null, null, "Target gains a burrow speed of 15." ],
 					[ "[Burst of Speed](spell/burst_of_speed)", 3, "transmutation", null, null, "You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are." ],
+					[ "[Calistria's Guardian Wasps](spell/calistria's_guardian_wasps)", 3, "conjuration", "summoning", null, "Summon a swarm of wasps to ward an area." ],
 					[ "[Chameleon Stride, Greater](spell/chameleon_stride,_greater)", 3, "illusion", "glamer", null, "As chameleon stride, but affecting all nearby creatures." ],
 					[ "[Channel the Gift](spell/channel_the_gift)", 3, "evocation", null, null, "Fuel a target's spellcasting, spontaneously cast spells without expending the slot." ],
 					[ "[Cloak of Winds](spell/cloak_of_winds)", 3, "abjuration", null, "air", "Creates a screen of wind around you." ],

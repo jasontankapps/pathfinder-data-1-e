@@ -366,7 +366,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [lend power](spell/lend_power); **Price** +1 bonus"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [lend power](rule/marshal_2) ability; **Price** +1 bonus"
 		]
 	},
 	"spell_storing": {
@@ -2132,7 +2132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [soundburst](spell/soundburst); **Price** +1 bonus"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [sound burst](spell/sound_burst); **Price** +1 bonus"
 		]
 	},
 	"spellrending": {
@@ -2895,7 +2895,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [mythic severance](spell/severance); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [mythic severance](spell/mythic_severance); **Price** -"
 		]
 	},
 	"dispelling": {

@@ -38,12 +38,13 @@ function isGood(value) {
 			return true;
 		} else if (prop === "not_found") {
 			// Skip
+			return false;
 		} else if (test.siblings) {
-			const x = test.siblings;
-			if(!Array.isArray(x)) {
+			const siblings = test.siblings;
+			if(!Array.isArray(siblings)) {
 				console.log(`Bad ${prop}.siblings`);
 				return true;
-			} else if (x.some(bit => {
+			} else if (siblings.some(bit => {
 				if(!rules[bit]) {
 					return true;
 				} else if(!rules[bit].siblings || rules[bit].siblings.indexOf(prop) < 0) {
@@ -56,31 +57,36 @@ function isGood(value) {
 				found || console.log(`Bad ${prop}.siblings`);
 				return true;
 			}
-		} else if (test.parent_topics) {
-			const x = test.parent_topics;
-			const max = x.length - 1;
-			if(!Array.isArray(x)) {
+		}
+		if (test.parent_topics) {
+			const parents = test.parent_topics;
+			const max = parents.length - 1;
+			if(!Array.isArray(parents)) {
 				console.log(`Bad ${prop}.parent_topics`);
 				return true;
-			} else if (x.some((bit, i) => {
-				if(!rules[bit]) {
-					return true;
-				} else if(i === max && (!rules[bit].subtopics || rules[bit].subtopics.indexOf(prop) < 0)) {
-					found = true;
-					console.log(`${prop}.parent_topics => ${bit} is not reciprocal`)
+			} else {
+				const parentProp = parents.slice(-1).pop() || "";
+				const immediateParent = rules[parentProp];
+				if(!immediateParent) {
+					console.log(`${prop}.parent_topics contains invalid "${parentProp}"`);
 					return true;
 				}
-				return false;
-			})) {
-				found || console.log(`Bad ${prop}.parent_topics`);
-				return true;
+				const ancestry = parents.slice(0, -1).join(",");
+				if((immediateParent.parent_topics || []).join(",") !== ancestry) {
+					console.log(`${prop}.parent_topics does not correspond to ${parentProp}.parent_topics`);
+					return true;
+				} else if ((immediateParent.subtopics || []).indexOf(prop) < 0) {
+					console.log(`${prop} not found in ${parentProp}.subtopics`);
+					return true;
+				}
 			}
-		} else if (test.subtopics) {
-			const x = test.subtopics;
-			if(!Array.isArray(x)) {
+		}
+		if (test.subtopics) {
+			const subtopics = test.subtopics;
+			if(!Array.isArray(subtopics)) {
 				console.log(`Bad ${prop}.subtopics`);
 				return true;
-			} else if (x.some(bit => {
+			} else if (subtopics.some(bit => {
 				if(!rules[bit]) {
 					return true;
 				} else if(!rules[bit].parent_topics || rules[bit].parent_topics.indexOf(prop) < 0) {

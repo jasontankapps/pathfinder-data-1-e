@@ -430,7 +430,7 @@
 			"",
 			"| d% | Result |",
 			"| :---: | --- |",
-			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a [limited wish](spell/limited_wish), [regeneration](spell/regeneration) (not just the regeneration ability), or [wish](spell/wish) spell is administered. Immunity to ability drain prevents death, but immunity to death effects or poison does not. |",
+			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a [limited wish](spell/limited_wish), [regeneration](spell/regenerate) (not just the regeneration ability), or [wish](spell/wish) spell is administered. Immunity to ability drain prevents death, but immunity to death effects or poison does not. |",
 			"| 02-04 | The drinker permanently loses a random sense (roll 1d4: 1-hearing, 2-sight, 3-smell, 4-taste). A regenerate spell restores lost smell or taste. Moderate addiction. |",
 			"| 05-07 | The drinker ages 2d10 years. |",
 			"| 08-10 | The drinker takes 2d6 points of damage to all ability scores (roll once for damage, apply it to each). If any score reaches 0, death results. If the imbiber survives, roll again for an additional side effect, rerolling a result of 15 or lower. |",
