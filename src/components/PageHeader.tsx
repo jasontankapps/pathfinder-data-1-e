@@ -7,11 +7,12 @@ import HierarchyModal from './HierarchyModal';
 const PageHeader: React.FC<PropsWithChildren<{
 	title: string,
 	noSearch?: boolean,
-	hierarchy?: HierarchyArray
-}>> = ({ title, children, noSearch, hierarchy }) => {
+	hierarchy?: HierarchyArray,
+	className?: string
+}>> = ({ title, children, noSearch, hierarchy, className }) => {
 	const [isHierarchyModalOpen, setHierarchyModalOpen] = useState(false);
 	return (
-		<IonHeader>
+		<IonHeader className={className}>
 			<IonToolbar>
 				<IonButtons slot="start">
 					<IonMenuButton />

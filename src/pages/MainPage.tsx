@@ -50,11 +50,13 @@ const pages = [
 	({id}: {id: string}) => <MainGroup20Page id={id} />,
 ]
 
-const MainPage: React.FC = () => {
+const MainPage: React.FC<{id?: "main"}> = ({id = "main"}) => {
 
 	const { mainpage } = useParams<Params>();
 
-	const index = mainpage ? ((data[mainpage] || 0) - 1) : 0;
+	const page = mainpage || id;
+
+	const index = page ? ((data[page] || 0) - 1) : 0;
 
 	if(index < 0) {
 		return <></>;
@@ -62,7 +64,7 @@ const MainPage: React.FC = () => {
 
 	const Page = pages[index];
 
-	return <Suspense fallback={<Loading />}><Page id={mainpage || "main"} /></Suspense>;
+	return <Suspense fallback={<Loading />}><Page id={mainpage || id} /></Suspense>;
 
 };
 

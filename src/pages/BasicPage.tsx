@@ -22,7 +22,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	return (
 		<IonPage>
 			<PageHeader title={title} hierarchy={hierarchy} />
-			<IonContent fullscreen>
+			<IonContent>
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="basicContent simple">
 					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} /> : children}

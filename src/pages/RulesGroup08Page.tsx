@@ -45,7 +45,11 @@ const RulesGroup8Page: React.FC<{id: string}> = ({id}) => {
 		return false;
 	}, [siblings]);
 
-	const subs: HierarchyArray = useMemo(() => subtopics ? subtopics.map(sub => [data[sub].name, "/rule/" + sub]) : [], [subtopics]);
+	const subs: HierarchyArray = useMemo(
+		() => subtopics ? subtopics.map(
+			sub => [(data[sub] || {}).name || `ERROR fetching [${sub}.name]`, "/rule/" + sub]
+		) : [],
+	[subtopics]);
 
 	const h: HierarchyArray = useMemo(() => {
 		if(!parent_topics) {

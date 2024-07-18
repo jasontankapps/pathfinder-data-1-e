@@ -3,6 +3,7 @@ import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/r
 import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
+import FrontPage from './FrontPage';
 import ArchetypePage from './pages/ArchetypePage';
 import ClassPage from './pages/ClassPage';
 import ClassAbilityPage from './pages/ClassAbilityPage';
@@ -106,7 +107,6 @@ const SourcePage = lazy(() => import("./pages/SourcePage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 
 const magicMisc = () => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>;
-const mainPage = () => <MainPage />;
 const otherClassPage = () => <Suspense fallback={<Loading />}><OtherClassPage /></Suspense>;
 const typeOrSubtype = () => <Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense>;
 const mediumSpiritPage = () => <Suspense fallback={<Loading />}><MediumSpiritPage /></Suspense>;
@@ -118,8 +118,8 @@ const App: React.FC = () => {
 				<IonSplitPane contentId="main">
 					<Menu />
 					<IonRouterOutlet id="main">
-						<Route path="/" exact={true} render={mainPage} />
-						<Route path="/main/:mainpage" render={mainPage} />
+						<Route path="/" exact={true} render={() => <FrontPage />} />
+						<Route path="/main/:mainpage" render={() => <MainPage />} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />
 						<Route path="/archetype/:parent/:id" render={() => <ArchetypePage />} />

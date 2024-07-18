@@ -166,7 +166,7 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], s
 		if(typeof line === "string") {
 			return (
 				<Markdown
-					key={`mainItemBasic-${i}`}
+					key={`mainItem-${i}`}
 					remarkPlugins={plugins}
 					components={components}
 				>{line}</Markdown>

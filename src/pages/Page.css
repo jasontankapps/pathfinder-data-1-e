@@ -209,6 +209,26 @@ ion-list.hierarchyModal ion-item.indent5 ion-label {
 	padding-left: 6.25em;
 }
 
+/* Main: Non-basic pages */
+
+ion-item.mainItem.linked ion-label.endcap {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+ion-item.mainItem.linked ion-label.endcap div:nth-child(2) {
+	font-style: italic;
+}
+ion-item.mainItem.linked ion-label.bottomcap {
+	display: block;
+}
+ion-item.mainItem.linked ion-label.bottomcap div:nth-child(2) {
+	font-style: italic;
+	font-size: 0.75rem;
+	color: var(--ion-color-dark-tint);
+}
+
 /* Rules: Subtopics */
 
 div.subtopics {

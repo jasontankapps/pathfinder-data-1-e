@@ -23,13 +23,16 @@ ion-menu ion-list-header {
 }
 
 ion-menu ion-list-header,
-ion-menu ion-list#menu-list,
 ion-menu ion-list ion-item.endSection {
   border-block-end: 1px solid var(--ion-color-step-150, #d7d8da);
 }
 
 ion-menu ion-list ion-item.endSection {
   padding-block-end: 0.5rem;
+}
+
+ion-menu ion-list ion-item.topSection {
+  padding-block-start: 0.5rem;
 }
 
 ion-menu ion-item {

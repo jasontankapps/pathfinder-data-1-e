@@ -247,7 +247,7 @@ const SearchPage: FC = () => {
 					</IonButtons>
 				</IonToolbar>
 			</PageHeader>
-			<IonContent fullscreen>
+			<IonContent>
 				<SearchModal open={filterOpen} setOpen={setFilterOpen} filter={filter} setFilter={doFilterUpdate} />
 				{
 					isPending ? (

@@ -8,16 +8,18 @@ import {
 	IonMenu,
 	IonMenuToggle
 } from '@ionic/react';
-import { shieldCheckmark } from 'ionicons/icons';
+import { alertCircle, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'react-router-dom';
 import './Menu.css';
 
 interface AppPage {
-	url: string;
-	title: string;
-	icon: string;
+	url: string
+	title: string
+	icon: string
 	className?: string
 	prefix?: string
+	equals?: string
+	newSection?: boolean
 }
 
 const appPages: AppPage[] = [
@@ -91,7 +93,16 @@ const appPages: AppPage[] = [
 		title: "Monsters and NPCs",
 		url: "/main/monsters",
 		icon: "/icons/croc-jaws.svg",
-		prefix: "monster template family npc type subtype"
+		prefix: "monster template family npc type subtype",
+		className: "endSection"
+	},
+	{
+		title: "About",
+		url: "/",
+		icon: alertCircle,
+		newSection: true,
+		equals: "/",
+		className: "topSection endSection"
 	}
 ];
 
@@ -102,9 +113,9 @@ const Menu: React.FC = () => {
 		<IonMenu contentId="main" type="overlay">
 			<IonContent>
 				<IonList id="menu-list">
-					<IonListHeader>Pathfinder Data 1e</IonListHeader>
+					<IonListHeader>PF Data 1e</IonListHeader>
 					{appPages.map((appPage, index) => {
-						const { url, icon, title, className = "", prefix = "" } = appPage;
+						const { url, icon, title, className = "", prefix = "", newSection, equals } = appPage;
 						let cn = className;
 						const loc = location.pathname;
 						if(loc === url) {
@@ -117,6 +128,11 @@ const Menu: React.FC = () => {
 									cn = cn ? cn + " selected" : "selected";
 								}
 							}
+						} else if (equals && (loc === equals)) {
+							cn = cn ? cn + " selected" : "selected";
+						}
+						if(newSection) {
+							cn = cn ? cn + " newSection" : "newSection";
 						}
 						return (
 							<IonMenuToggle key={index} autoHide={false}>
