@@ -9,7 +9,7 @@
 		]
 	},
 	"alchemist's_fire": {
-		"name": "alchemist's fire",
+		"name": "Alchemist's fire",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Alchemist's fire",
@@ -22,7 +22,7 @@
 		]
 	},
 	"blast_shot": {
-		"name": "blast shot",
+		"name": "Blast Shot",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Blast Shot",
@@ -35,7 +35,7 @@
 		]
 	},
 	"bomb": {
-		"name": "bomb",
+		"name": "Bomb",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bomb",
@@ -48,7 +48,7 @@
 		]
 	},
 	"chain_shot": {
-		"name": "chain shot",
+		"name": "Chain shot",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Chain shot",
@@ -61,7 +61,7 @@
 		]
 	},
 	"defoliant_shot": {
-		"name": "defoliant shot",
+		"name": "Defoliant Shot",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Defoliant Shot",
@@ -76,7 +76,7 @@
 		]
 	},
 	"entangling_bolt": {
-		"name": "entangling bolt",
+		"name": "Entangling Bolt",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Entangling Bolt",
@@ -91,7 +91,7 @@
 		]
 	},
 	"liquid_ice": {
-		"name": "liquid ice",
+		"name": "Liquid ice",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Liquid ice",
@@ -104,7 +104,7 @@
 		]
 	},
 	"plague_bundle": {
-		"name": "plague bundle",
+		"name": "Plague bundle",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Plague bundle",
@@ -117,7 +117,7 @@
 		]
 	},
 	"rockwasp_bomb": {
-		"name": "rockwasp bomb",
+		"name": "Rockwasp Bomb",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Rockwasp Bomb",
@@ -130,7 +130,7 @@
 		]
 	},
 	"smoke_shot": {
-		"name": "smoke shot",
+		"name": "Smoke shot",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Smoke shot",
@@ -143,7 +143,7 @@
 		]
 	},
 	"ballista_net": {
-		"name": "ballista net",
+		"name": "Ballista net",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ballista net",
@@ -156,7 +156,7 @@
 		]
 	},
 	"flak": {
-		"name": "flak",
+		"name": "Flak",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flak",
@@ -169,7 +169,7 @@
 		]
 	},
 	"flechette_bolt": {
-		"name": "flechette bolt",
+		"name": "Flechette bolt",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flechette bolt",
@@ -184,7 +184,7 @@
 		]
 	},
 	"weighted_bolt": {
-		"name": "weighted bolt",
+		"name": "Weighted bolt",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Weighted bolt",
@@ -197,7 +197,7 @@
 		]
 	},
 	"ballista,_light": {
-		"name": "ballista, light",
+		"name": "Ballista, light",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -231,7 +231,7 @@
 		"copyof": "ballista,_light"
 	},
 	"cannon": {
-		"name": "cannon",
+		"name": "Cannon",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Cannon",
@@ -246,7 +246,7 @@
 		]
 	},
 	"ballista,_heavy": {
-		"name": "ballista, heavy",
+		"name": "Ballista, heavy",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista"
 	},
@@ -254,7 +254,7 @@
 		"copyof": "ballista,_heavy"
 	},
 	"cannon,_fiend's_mouth": {
-		"name": "cannon, fiend's mouth",
+		"name": "Cannon, fiend's mouth",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Cannon, fiend's mouth",
@@ -272,7 +272,7 @@
 		"copyof": "cannon,_fiend's_mouth"
 	},
 	"firedrake": {
-		"name": "firedrake",
+		"name": "Firedrake",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Firedrake",
@@ -287,7 +287,7 @@
 		]
 	},
 	"manticore's_tail": {
-		"name": "manticore's tail",
+		"name": "Manticore's Tail",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Manticore's Tail",
@@ -302,7 +302,7 @@
 		]
 	},
 	"ballista,_gate_breaker": {
-		"name": "ballista, gate breaker",
+		"name": "Ballista, gate Breaker",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista"
 	},
@@ -310,7 +310,7 @@
 		"copyof": "ballista,_gate_breaker"
 	},
 	"firewyrm": {
-		"name": "firewyrm",
+		"name": "Firewyrm",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Firewyrm",
@@ -325,7 +325,7 @@
 		]
 	},
 	"bombard,_light": {
-		"name": "bombard, light",
+		"name": "Bombard, light",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bombard",
@@ -356,7 +356,7 @@
 		"copyof": "bombard,_light"
 	},
 	"catapult,_light": {
-		"name": "catapult, light",
+		"name": "Catapult, light",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -390,7 +390,7 @@
 		"copyof": "catapult,_light"
 	},
 	"trebuchet,_light": {
-		"name": "trebuchet, light",
+		"name": "Trebuchet, light",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Trebuchet",
@@ -421,7 +421,7 @@
 		"copyof": "trebuchet,_light"
 	},
 	"bombard,_standard": {
-		"name": "bombard, standard",
+		"name": "Bombard, standard",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard"
 	},
@@ -429,7 +429,7 @@
 		"copyof": "bombard,_standard"
 	},
 	"catapult,_standard": {
-		"name": "catapult, standard",
+		"name": "Catapult, standard",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_catapult"
 	},
@@ -437,7 +437,7 @@
 		"copyof": "catapult,_standard"
 	},
 	"springal,_arrow": {
-		"name": "springal, arrow",
+		"name": "Springal, arrow",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Springal, arrow",
@@ -462,7 +462,7 @@
 		"copyof": "springal,_arrow"
 	},
 	"springal,_rocket": {
-		"name": "springal, rocket",
+		"name": "Springal, rocket",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "arrow_springal"
 	},
@@ -470,7 +470,7 @@
 		"copyof": "springal,_rocket"
 	},
 	"trebuchet,_standard": {
-		"name": "trebuchet, standard",
+		"name": "Trebuchet, standard",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet"
 	},
@@ -478,7 +478,7 @@
 		"copyof": "trebuchet,_standard"
 	},
 	"bombard,_heavy": {
-		"name": "bombard, heavy",
+		"name": "Bombard, heavy",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard"
 	},
@@ -486,7 +486,7 @@
 		"copyof": "bombard,_heavy"
 	},
 	"catapult,_heavy": {
-		"name": "catapult, heavy",
+		"name": "Catapult, heavy",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -497,7 +497,7 @@
 		"copyof": "catapult,_heavy"
 	},
 	"trebuchet,_heavy": {
-		"name": "trebuchet, heavy",
+		"name": "Trebuchet, heavy",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet"
 	},
@@ -505,7 +505,7 @@
 		"copyof": "trebuchet,_heavy"
 	},
 	"bridge,_assault,_colossal": {
-		"name": "bridge, assault, colossal",
+		"name": "Bridge, assault, colossal",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bridge, assault",
@@ -551,7 +551,7 @@
 		"copyof": "bridge,_assault,_colossal"
 	},
 	"bridge,_assault,_gargantuan": {
-		"name": "bridge, assault, gargantuan",
+		"name": "Bridge, assault, gargantuan",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
@@ -559,7 +559,7 @@
 		"copyof": "bridge,_assault,_gargantuan"
 	},
 	"bridge,_assault,_huge": {
-		"name": "bridge, assault, huge",
+		"name": "Bridge, assault, huge",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
@@ -567,7 +567,7 @@
 		"copyof": "bridge,_assault,_huge"
 	},
 	"bridge,_assault,_large": {
-		"name": "bridge, assault, large",
+		"name": "Bridge, assault, large",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
@@ -575,7 +575,7 @@
 		"copyof": "bridge,_assault,_large"
 	},
 	"corvus": {
-		"name": "corvus",
+		"name": "Corvus",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Corvus",
@@ -592,7 +592,7 @@
 		]
 	},
 	"crushing_wheel": {
-		"name": "crushing wheel",
+		"name": "Crushing Wheel",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Crushing Wheel",
@@ -609,7 +609,7 @@
 		]
 	},
 	"earthmaul": {
-		"name": "earthmaul",
+		"name": "Earthmaul",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Earthmaul",
@@ -626,7 +626,7 @@
 		]
 	},
 	"gallery,_colossal": {
-		"name": "gallery, colossal",
+		"name": "Gallery, colossal",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gallery",
@@ -667,7 +667,7 @@
 		"copyof": "gallery,_colossal"
 	},
 	"gallery,_gargantuan": {
-		"name": "gallery, gargantuan",
+		"name": "Gallery, gargantuan",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
@@ -675,7 +675,7 @@
 		"copyof": "gallery,_gargantuan"
 	},
 	"gallery,_huge": {
-		"name": "gallery, huge",
+		"name": "Gallery, huge",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
@@ -683,7 +683,7 @@
 		"copyof": "gallery,_huge"
 	},
 	"gallery,_large": {
-		"name": "gallery, large",
+		"name": "Gallery, large",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
@@ -691,7 +691,7 @@
 		"copyof": "gallery,_large"
 	},
 	"harvester": {
-		"name": "harvester",
+		"name": "Harvester",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Harvester",
@@ -708,7 +708,7 @@
 		]
 	},
 	"ladder,_escalade,_gargantuan": {
-		"name": "ladder, escalade, gargantuan",
+		"name": "Ladder, escalade, gargantuan",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Ladder, escalade",
@@ -754,7 +754,7 @@
 		"copyof": "ladder,_escalade,_gargantuan"
 	},
 	"ladder,_escalade,_colossal": {
-		"name": "ladder, escalade, colossal",
+		"name": "Ladder, escalade, colossal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
@@ -762,7 +762,7 @@
 		"copyof": "ladder,_escalade,_colossal"
 	},
 	"ladder,_escalade,_huge": {
-		"name": "ladder, escalade, huge",
+		"name": "Ladder, escalade, huge",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
@@ -770,7 +770,7 @@
 		"copyof": "ladder,_escalade,_huge"
 	},
 	"ladder,_escalade,_large": {
-		"name": "ladder, escalade, large",
+		"name": "Ladder, escalade, large",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
@@ -778,7 +778,7 @@
 		"copyof": "ladder,_escalade,_large"
 	},
 	"ram,_large": {
-		"name": "ram, large",
+		"name": "Ram, large",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -834,7 +834,7 @@
 		"copyof": "ram,_large"
 	},
 	"ram,_colossal": {
-		"name": "ram, colossal",
+		"name": "Ram, colossal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
@@ -842,7 +842,7 @@
 		"copyof": "ram,_colossal"
 	},
 	"ram,_gargantuan": {
-		"name": "ram, gargantuan",
+		"name": "Ram, gargantuan",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
@@ -850,7 +850,7 @@
 		"copyof": "ram,_gargantuan"
 	},
 	"ram,_huge": {
-		"name": "ram, huge",
+		"name": "Ram, huge",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
@@ -858,10 +858,10 @@
 		"copyof": "ram,_huge"
 	},
 	"siege_tower,_colossal": {
-		"name": "siege tower, colossal",
+		"name": "Siege Tower, colossal",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"## Siege tower",
+			"## Siege Tower",
 			"**Source** [Ultimate Combat pg. 166](source/ultimate_combat)",
 			"",
 			"A wooden gallery of stout construction, a siege tower consists of a tall protective shell with a roof section. The lower story of the tower contains the crew members who propel the tower, and provides total cover to those within. A siege tower with the broken condition moves at half speed. If a siege tower is destroyed, the entire tower collapses. Treat this as a [cave-in](unknown/cave-in).",
@@ -908,7 +908,7 @@
 		"copyof": "siege_tower,_colossal"
 	},
 	"siege_tower,_gargantuan": {
-		"name": "siege tower, gargantuan",
+		"name": "Siege Tower, gargantuan",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower"
 	},
@@ -916,7 +916,7 @@
 		"copyof": "siege_tower,_gargantuan"
 	},
 	"siege_tower,_huge": {
-		"name": "siege tower, huge",
+		"name": "Siege Tower, huge",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower"
 	},
@@ -924,7 +924,7 @@
 		"copyof": "siege_tower,_huge"
 	},
 	"siege_tower,_large": {
-		"name": "siege tower, large",
+		"name": "Siege Tower, large",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"

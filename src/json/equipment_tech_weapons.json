@@ -9,7 +9,7 @@
 		]
 	},
 	"monowhip": {
-		"name": "monowhip",
+		"name": "Monowhip",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Monowhip",
@@ -30,7 +30,7 @@
 		]
 	},
 	"null_blade": {
-		"name": "null blade",
+		"name": "Null blade",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Null blade",
@@ -53,7 +53,7 @@
 		]
 	},
 	"plasma_blade": {
-		"name": "plasma blade",
+		"name": "Plasma blade",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
 			"## Plasma blade",
@@ -73,7 +73,7 @@
 		]
 	},
 	"chainsaw": {
-		"name": "chainsaw",
+		"name": "Chainsaw",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chainsaw",
@@ -94,7 +94,7 @@
 		]
 	},
 	"neural_inhibitor": {
-		"name": "neural inhibitor",
+		"name": "Neural inhibitor",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Neural inhibitor",
@@ -115,7 +115,7 @@
 		]
 	},
 	"laser_torch": {
-		"name": "laser torch",
+		"name": "Laser torch",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser torch",
@@ -136,7 +136,7 @@
 		]
 	},
 	"stun_baton": {
-		"name": "stun baton",
+		"name": "Stun baton",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Stun baton",
@@ -157,7 +157,7 @@
 		]
 	},
 	"starfall_spade": {
-		"name": "starfall spade",
+		"name": "Starfall spade",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Starfall spade",
@@ -179,7 +179,7 @@
 		]
 	},
 	"arc_pistol": {
-		"name": "arc pistol",
+		"name": "Arc pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Arc pistol",
@@ -200,7 +200,7 @@
 		]
 	},
 	"dart_gun": {
-		"name": "dart gun",
+		"name": "Dart gun",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -222,7 +222,7 @@
 		]
 	},
 	"death_ray": {
-		"name": "death ray",
+		"name": "Death ray",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -246,7 +246,7 @@
 		]
 	},
 	"emp_pistol": {
-		"name": "emp pistol",
+		"name": "EMP pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## EMP pistol",
@@ -267,7 +267,7 @@
 		]
 	},
 	"flare_gun": {
-		"name": "flare gun",
+		"name": "Flare gun",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Flare gun",
@@ -288,7 +288,7 @@
 		]
 	},
 	"gravity_pistol": {
-		"name": "gravity pistol",
+		"name": "Gravity pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity pistol",
@@ -309,7 +309,7 @@
 		]
 	},
 	"inferno_pistol": {
-		"name": "inferno pistol",
+		"name": "Inferno pistol",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -331,7 +331,7 @@
 		]
 	},
 	"laser_pistol": {
-		"name": "laser pistol",
+		"name": "Laser pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser pistol",
@@ -352,7 +352,7 @@
 		]
 	},
 	"mind_burner": {
-		"name": "mind burner",
+		"name": "Mind burner",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Mind burner",
@@ -375,7 +375,7 @@
 		]
 	},
 	"mindrender": {
-		"name": "mindrender",
+		"name": "Mindrender",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -397,7 +397,7 @@
 		]
 	},
 	"sonic_pistol": {
-		"name": "sonic pistol",
+		"name": "Sonic pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Sonic pistol",
@@ -418,7 +418,7 @@
 		]
 	},
 	"stun_gun": {
-		"name": "stun gun",
+		"name": "Stun gun",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Stun gun",
@@ -439,7 +439,7 @@
 		]
 	},
 	"zero_pistol": {
-		"name": "zero pistol",
+		"name": "Zero pistol",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zero pistol",
@@ -460,7 +460,7 @@
 		]
 	},
 	"arc_rifle": {
-		"name": "arc rifle",
+		"name": "Arc rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Arc rifle",
@@ -481,7 +481,7 @@
 		]
 	},
 	"autograpnel": {
-		"name": "autograpnel",
+		"name": "Autograpnel",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Autograpnel",
@@ -506,7 +506,7 @@
 		]
 	},
 	"emp_rifle": {
-		"name": "emp rifle",
+		"name": "EMP rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## EMP rifle",
@@ -527,7 +527,7 @@
 		]
 	},
 	"gravity_rifle": {
-		"name": "gravity rifle",
+		"name": "Gravity rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity rifle",
@@ -548,7 +548,7 @@
 		]
 	},
 	"id_rifle": {
-		"name": "id rifle",
+		"name": "Id rifle",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -574,7 +574,7 @@
 		]
 	},
 	"laser_rifle": {
-		"name": "laser rifle",
+		"name": "Laser rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser rifle",
@@ -595,7 +595,7 @@
 		]
 	},
 	"sonic_rifle": {
-		"name": "sonic rifle",
+		"name": "Sonic rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Sonic rifle",
@@ -616,7 +616,7 @@
 		]
 	},
 	"zero_rifle": {
-		"name": "zero rifle",
+		"name": "Zero rifle",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zero rifle",
@@ -662,7 +662,7 @@
 		]
 	},
 	"beam_cannon_arc_cannon": {
-		"name": "Beam cannon (arc cannon)",
+		"name": "Beam Cannon (arc cannon)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -687,7 +687,7 @@
 		]
 	},
 	"beam_cannon_emp_cannon": {
-		"name": "Beam cannon (EMP cannon)",
+		"name": "Beam Cannon (EMP cannon)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -712,7 +712,7 @@
 		]
 	},
 	"beam_cannon_laser_cannon": {
-		"name": "Beam cannon (laser cannon)",
+		"name": "Beam Cannon (laser cannon)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -737,7 +737,7 @@
 		]
 	},
 	"beam_cannon_sonic_cannon": {
-		"name": "Beam cannon (sonic cannon)",
+		"name": "Beam Cannon (sonic cannon)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -762,7 +762,7 @@
 		]
 	},
 	"beam_cannon_zero_cannon": {
-		"name": "Beam cannon (zero cannon)",
+		"name": "Beam Cannon (zero cannon)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],

@@ -1824,7 +1824,7 @@
 			"## main/traits_mount View Mount Traits // (13 traits)",
 			"## main/traits_cosmic View Cosmic Traits // (13 traits)",
 			"## main/traits_family View Family Traits // (7 traits)",
-			"## main/traits_drawbacks View all Drawbacks // (66 drawbacks)"
+			"## main/traits_drawback View all Drawbacks // (66 drawbacks)"
 		],
 		"searchgroup": "trait",
 		"previous": [ ["Main", "main/main"] ]
@@ -2414,14 +2414,35 @@
 			"## main/feats_monster View Monster Feats // (42 feats)",
 			"## main/feats_story View Story Feats // (76 feats)",
 			"## main/feats_style View Style Feats // (90 feats)",
-			"# Critical Feats",
+			[
+				"**Skip to:**",
+				"",
+				"- [Achievement Feats](#achievement)",
+				"- [Alignment Feats](#alignment)",
+				"- [Blood Hex Feats](#bloodhex)",
+				"- [Called Shot Feats](#calledshot)",
+				"- [Combination Feats](#combination)",
+				"- [Conduit Feats](#conduit)",
+				"- [Critical Feats](#critical)",
+				"- [Damnation Feats](#damnation)",
+				"- [Esoteric Feats](#esoteric)",
+				"- [Faction Feats](#faction)",
+				"- [Familiar Feats](#familiar)",
+				"- [Gathlain Court Title Feats](#courttitle)",
+				"- [Hero Points Feats](#heropoints)",
+				"- [Origin Feats](#origin)",
+				"- [Performance Feats](#performance)",
+				"- [Targeting Feats](#targeting)",
+				"- [Words of Power Feats](#words)"
+			],
+			"# Critical Feats ! critical",
 			[
 				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
 				"Critical feats modify the effects of a critical hit by inflicting an additional condition on the victim of the critical hit. Characters without the Critical Mastery feat can only apply the effects of one critical feat to an individual critical hit. Characters with multiple critical feats can decide which feat to apply after the critical hit has been confirmed.",
 				"",
 				"{table0}"
 			],
-			"# Familiar Feats",
+			"# Familiar Feats ! familiar",
 			[
 				"**Description Source** [Familiar Folio pg. 18](source/familiar_folio)  ",
 				"The following feats can be taken by characters who have familiars that meet the listed prerequisites. Wizards can take a familiar feat as a bonus feat, and witches can select a familiar feat in place of a hex. If you lose your familiar and gain a new familiar that doesn't meet the listed prerequisites for a familiar feat you possess, your new familiar doesn't gain the benefits of that feat. A new familiar that meets the prerequisites automatically gains the benefits of that feat.",
@@ -2430,21 +2451,21 @@
 				"",
 				"{table1}"
 			],
-			"# Achievement Feats",
+			"# Achievement Feats ! achievement",
 			[
 				"**Description Source** [Legacy of Fire Player's Guide pg. 28](source/legacy_of_fire_player's_guide)  ",
 				"Inspired by a variety of video games and board games that utilize similar conventions, achievement feats require the cooperation of the player and the GM to make the transition into the world of pen-and-paper RPGs. Players who seek to qualify for an achievement feat should tell their GM early so he can begin noting the PC's progress toward the feat's requirement, or be aware that the player is tracking his character's accomplishments with this goal in mind. Although they require more bookkeeping to attain than typical feats, these feats are custom-designed to reward players of Legacy of Fire and should help PCs feel like they've accomplished something pertinent to the campaign's goals. GMs who don't think achievement feats are for their game can ignore this section with no detriment to their campaign, but for those who do test them out, we'd love to hear your stories and playtest experiences on our messageboards at pazio.com/traits.",
 				"",
 				"{table2}"
 			],
-			"# Alignment Feats",
+			"# Alignment Feats ! alignment",
 			[
 				"**Description Source** [Pathfinder Unchained pg. 98](source/pathfinder_unchained)  ",
 				"If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store affirmations for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost.",
 				"",
 				"{table3}"
 			],
-			"# Blood Hex Feats",
+			"# Blood Hex Feats ! bloodhex",
 			[
 				"**Description Source** [Magic Tactics Toolbox pg. 28](source/magic_tactics_toolbox)  ",
 				"The spilling of blood can unleash significant magic power, and many cultures on Golarion have developed ways of accessing that power. Some among the winter witches of Irrisen and the dervishes of Casmaron can use magic powered by inflicting significant wounds to curse their enemies. More sinister versions of these hexes can be found in the shadowy realms of Nidal and among the criminal blood magicians of Tian Xia. While these disparate magical traditions employ different terms for the tactic, a curse powered by the subject's own blood loss is commonly known as a blood hex.",
@@ -2457,84 +2478,84 @@
 				"",
 				"{table4}"
 			],
-			"# Called Shot Feats",
+			"# Called Shot Feats ! calledshot",
 			[
 				"**Description Source** [Ultimate Combat pg. 193](source/ultimate_combat)  ",
 				"Called Shot feats go with the [alternate rules](rule/called_shots) found in Ultimate Combat.",
 				"",
 				"{table5}"
 			],
-			"# Targeting Feats",
+			"# Targeting Feats ! targeting",
 			[
 				"**Description Source** [Ranged Tactics Toolbox pg. 8](source/ranged_tactics_toolbox)  ",
 				"Several of the following feats have the new targeting type. If you are using the optional [called shots rules](rule/called_shots), attacks made with targeting feats count as called shots for the purposes of abilities or effects that modify called shots, such as the Improved Called Shot feat from Ultimate Combat.",
 				"",
 				"{table6}"
 			],
-			"# Combination Feats",
+			"# Combination Feats ! combination",
 			[
 				"**Description Source** [Martial Arts Handbook pg. 26](source/martial_arts_handbook)  ",
 				"Masters of martial arts can string one attack into the next, setting an opponent up for her allies or wearing a foe down with inevitable attrition. You can apply the effects of only a single combination feat to an attack.",
 				"",
 				"{table7}"
 			],
-			"# Conduit Feats",
+			"# Conduit Feats ! conduit",
 			[
 				"**Description Source** [Planar Adventures pg. 22](source/planar_adventures)  ",
 				"Conduit feats grant the ability to draw energies from other planes. The effects of conduit feats are supernatural and do not function in an antimagic field or similar effect. In addition, since these abilities require energies from other planes, you cannot use them in areas that are warded against planar or dimensional travel (such as those under the effects of dimensional lock or forbiddance) or when you have been denied this ability (such as via dimensional anchor).",
 				"",
 				"{table8}"
 			],
-			"# Esoteric Feats",
+			"# Esoteric Feats ! esoteric",
 			[
 				"**Description Source** [Pathfinder Unchained pg. 154](source/pathfinder_unchained)  ",
 				"In a campaign that uses the [esoteric material component system](rule/esoteric_material_components), characters have access to the following feats. Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead.",
 				"",
 				"{table9}"
 			],
-			"# Performance Feats",
+			"# Performance Feats ! performance",
 			[
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
 				"Performance feats are used when you make a [performance combat](rule/performance_combat) check, typically granting a special action that occurs when you make that check. Unless you have the [Masterful Display](feat/masterful_display) feat, you can only apply the effect of one performance feat to each performance combat check you make.",
 				"",
 				"{table10}"
 			],
-			"# Words of Power Feats",
+			"# Words of Power Feats ! words",
 			[
 				"**Description Source** [Ultimate Magic pg. 166](source/ultimate_magic)  ",
 				"Words of Power feats go with the [alternate rules](rule/words_of_power) found in Ultimate Magic.",
 				"",
 				"{table11}"
 			],
-			"# Faction Feats",
+			"# Faction Feats ! faction",
 			[
 				"**Description Source** [Faction Guide pg. 55](source/faction_guide)  ",
 				"Any character who meets the prerequisites for these feats may select them, though some require specialized training only available from certain factions.",
 				"",
 				"{table12}"
 			],
-			"# Gathlain Court Title Feats",
+			"# Gathlain Court Title Feats ! courttitle",
 			[
 				"**Description Source** [Plane-Hopper's Handbook pg. 22](source/plane-hopper's_handbook)  ",
 				"The courts of the Eldest have many fanciful titles, and the strange logic of the fey means bearing one of them can grant a creature unusual powers. The following feats represent the metaphysical weight of gaining a title from a fey patron. Generally, the following titles are available only to creatures with the fey creature type (most frequently [gathlains](race/gathlain)), but loyal and particularly impressive servants of the Eldest can court the favor of the fey with audacious deeds, and are sometimes rewarded by being made peers.",
 				"",
 				"{table13}"
 			],
-			"# Hero Point Feats",
+			"# Hero Point Feats ! heropoints",
 			[
 				"**Description Source** [Advanced Player's Guide pg. 323](source/advanced_player's_guide)  ",
 				"The following feats enhance your ability to store and gain [hero points](rule/hero_points).",
 				"",
 				"{table14}"
 			],
-			"# Origin Feats",
+			"# Origin Feats ! origin",
 			[
 				"**Description Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook), [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)  ",
 				"Origin feats are [duskwalker](race/duskwalker) or [shabti](race/shabti) racial feats that grant additional powers based on the duskwalker's original cause of death, or the nature of the shabti's creators. Generally, a duskwalker or shabti can qualify for only a single origin feat, but at the GM's discretion, a duskwalker whose death matches multiple origin feats may be allowed to take more than one.",
 				"",
 				"{table15}"
 			],
-			"# Damnation Feats",
+			"# Damnation Feats ! damnation",
 			[
 				"**Description Source** [Champions of Corruption pg. 18](source/champions_of_corruption)  ",
 				"Damnation feats represent a bargain the character has made with some dark power, granting the character great power at the cost of her eternal soul. Damnation feats are distinct from more common feats in three ways.",

@@ -9,7 +9,7 @@
 		]
 	},
 	"consecrated_weapon": {
-		"name": "consecrated weapon",
+		"name": "Consecrated weapon",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Consecrated weapon",
@@ -22,7 +22,7 @@
 		]
 	},
 	"sawback_sword": {
-		"name": "sawback sword",
+		"name": "Sawback sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -37,7 +37,7 @@
 		]
 	},
 	"undine_weaponshaft": {
-		"name": "undine weaponshaft",
+		"name": "Undine weaponshaft",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Undine weaponshaft",
@@ -49,7 +49,7 @@
 		]
 	},
 	"brutally_weighted": {
-		"name": "brutally weighted",
+		"name": "Brutally weighted",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Brutally weighted",
@@ -61,7 +61,7 @@
 		]
 	},
 	"dual-balanced": {
-		"name": "dual-balanced",
+		"name": "Dual-balanced",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Dual-balanced",
@@ -76,7 +76,7 @@
 		"copyof": "dual-balanced"
 	},
 	"jagged_hooks": {
-		"name": "jagged hooks",
+		"name": "Jagged hooks",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Jagged hooks",
@@ -88,7 +88,7 @@
 		]
 	},
 	"razor-sharp": {
-		"name": "razor-sharp",
+		"name": "Razor-sharp",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razor-sharp",
@@ -103,7 +103,7 @@
 		"copyof": "razor-sharp"
 	},
 	"serrated_edge": {
-		"name": "serrated edge",
+		"name": "Serrated edge",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Serrated edge",
@@ -115,7 +115,7 @@
 		]
 	},
 	"tactically_adapted": {
-		"name": "tactically adapted",
+		"name": "Tactically adapted",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Tactically adapted",
@@ -127,7 +127,7 @@
 		]
 	},
 	"versatile_design": {
-		"name": "versatile design",
+		"name": "Versatile design",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Versatile design",

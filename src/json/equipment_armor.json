@@ -9,7 +9,7 @@
 		]
 	},
 	"barding": {
-		"name": "barding",
+		"name": "Barding",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -37,7 +37,7 @@
 		]
 	},
 	"armored_kilt": {
-		"name": "armored kilt",
+		"name": "Armored kilt",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting"
@@ -53,7 +53,7 @@
 		]
 	},
 	"haramaki": {
-		"name": "haramaki",
+		"name": "Haramaki",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -69,7 +69,7 @@
 		]
 	},
 	"martial_arts_training_gear": {
-		"name": "martial arts training gear",
+		"name": "Martial arts training gear",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Martial arts training gear",
@@ -82,7 +82,7 @@
 		]
 	},
 	"padded": {
-		"name": "padded",
+		"name": "Padded",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -98,7 +98,7 @@
 		]
 	},
 	"quilted_cloth": {
-		"name": "quilted cloth",
+		"name": "Quilted cloth",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -114,7 +114,7 @@
 		]
 	},
 	"reinforced_tunic": {
-		"name": "reinforced tunic",
+		"name": "Reinforced tunic",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Reinforced tunic",
@@ -127,7 +127,7 @@
 		]
 	},
 	"silken_ceremonial": {
-		"name": "silken ceremonial",
+		"name": "Silken ceremonial",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -143,7 +143,7 @@
 		]
 	},
 	"lamellar_cuirass": {
-		"name": "lamellar cuirass",
+		"name": "Lamellar cuirass",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -159,7 +159,7 @@
 		]
 	},
 	"leather": {
-		"name": "leather",
+		"name": "Leather",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -175,7 +175,7 @@
 		]
 	},
 	"rosewood_armor": {
-		"name": "rosewood armor",
+		"name": "Rosewood armor",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting",
@@ -192,7 +192,7 @@
 		]
 	},
 	"varisian_dancing_scarves": {
-		"name": "varisian dancing scarves",
+		"name": "Varisian dancing scarves",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Varisian dancing scarves",
@@ -205,7 +205,7 @@
 		]
 	},
 	"hellknight_leather": {
-		"name": "hellknight leather",
+		"name": "Hellknight leather",
 		"sources": [
 			"Adventurer's Guide",
 			"Path of the Hellknight"
@@ -221,7 +221,7 @@
 		]
 	},
 	"hide_shirt": {
-		"name": "hide shirt",
+		"name": "Hide shirt",
 		"sources": [
 			"Varisia, Birthplace of Legends",
 			"Rise of the Runelords Player's Guide",
@@ -238,7 +238,7 @@
 		]
 	},
 	"leaf_armor": {
-		"name": "leaf armor",
+		"name": "Leaf armor",
 		"sources": [
 			"Inner Sea World Guide",
 			"Adventurer's Armory",
@@ -256,7 +256,7 @@
 		]
 	},
 	"parade": {
-		"name": "parade",
+		"name": "Parade",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -272,7 +272,7 @@
 		]
 	},
 	"spider-silk_bodysuit": {
-		"name": "spider-silk bodysuit",
+		"name": "Spider-silk bodysuit",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spider-silk bodysuit",
@@ -288,7 +288,7 @@
 		"copyof": "spider-silk_bodysuit"
 	},
 	"studded_leather": {
-		"name": "studded leather",
+		"name": "Studded leather",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -304,7 +304,7 @@
 		]
 	},
 	"wooden": {
-		"name": "wooden",
+		"name": "Wooden",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -320,7 +320,7 @@
 		]
 	},
 	"chain_shirt": {
-		"name": "chain shirt",
+		"name": "Chain shirt",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -336,7 +336,7 @@
 		]
 	},
 	"lamellar_leather": {
-		"name": "lamellar (leather)",
+		"name": "Lamellar (leather)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -352,7 +352,7 @@
 		]
 	},
 	"armored_coat": {
-		"name": "armored coat",
+		"name": "Armored coat",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -368,7 +368,7 @@
 		]
 	},
 	"chain_coat": {
-		"name": "chain coat",
+		"name": "Chain coat",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Chain coat",
@@ -381,7 +381,7 @@
 		]
 	},
 	"erutaki_coat": {
-		"name": "erutaki coat",
+		"name": "Erutaki coat",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Erutaki coat",
@@ -394,7 +394,7 @@
 		]
 	},
 	"hide": {
-		"name": "hide",
+		"name": "Hide",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -410,7 +410,7 @@
 		]
 	},
 	"do-maru": {
-		"name": "do-maru",
+		"name": "Do-maru",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -429,7 +429,7 @@
 		"copyof": "do-maru"
 	},
 	"kikko": {
-		"name": "kikko",
+		"name": "Kikko",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -445,7 +445,7 @@
 		]
 	},
 	"lamellar_horn": {
-		"name": "lamellar (horn)",
+		"name": "Lamellar (horn)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -461,7 +461,7 @@
 		]
 	},
 	"scale_mail": {
-		"name": "scale mail",
+		"name": "Scale mail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -477,7 +477,7 @@
 		]
 	},
 	"agile_breastplate": {
-		"name": "agile breastplate",
+		"name": "Agile breastplate",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -493,7 +493,7 @@
 		]
 	},
 	"breastplate": {
-		"name": "breastplate",
+		"name": "Breastplate",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -509,7 +509,7 @@
 		]
 	},
 	"chainmail": {
-		"name": "chainmail",
+		"name": "Chainmail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -525,7 +525,7 @@
 		]
 	},
 	"four-mirror": {
-		"name": "four-mirror",
+		"name": "Four-mirror",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -544,7 +544,7 @@
 		"copyof": "four-mirror"
 	},
 	"lamellar_steel": {
-		"name": "lamellar (steel)",
+		"name": "Lamellar (steel)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -560,7 +560,7 @@
 		]
 	},
 	"mountain_pattern": {
-		"name": "mountain pattern",
+		"name": "Mountain pattern",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -576,7 +576,7 @@
 		]
 	},
 	"banded_mail": {
-		"name": "banded mail",
+		"name": "Banded mail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -592,7 +592,7 @@
 		]
 	},
 	"field_plate": {
-		"name": "field plate",
+		"name": "Field plate",
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting",
@@ -609,7 +609,7 @@
 		]
 	},
 	"kusari_gusoku": {
-		"name": "kusari gusoku",
+		"name": "Kusari gusoku",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -625,7 +625,7 @@
 		]
 	},
 	"lamellar_iron": {
-		"name": "lamellar (iron)",
+		"name": "Lamellar (iron)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -641,7 +641,7 @@
 		]
 	},
 	"splint_mail": {
-		"name": "splint mail",
+		"name": "Splint mail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -657,7 +657,7 @@
 		]
 	},
 	"tatami-do": {
-		"name": "tatami-do",
+		"name": "Tatami-do",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -676,7 +676,7 @@
 		"copyof": "tatami-do"
 	},
 	"agile_half-plate": {
-		"name": "agile half-plate",
+		"name": "Agile half-plate",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -695,7 +695,7 @@
 		"copyof": "agile_half-plate"
 	},
 	"alkenstar_fortress_plate": {
-		"name": "alkenstar fortress plate",
+		"name": "Alkenstar fortress plate",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Alkenstar fortress plate",
@@ -708,7 +708,7 @@
 		]
 	},
 	"half-plate": {
-		"name": "half-plate",
+		"name": "Half-plate",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -727,7 +727,7 @@
 		"copyof": "half-plate"
 	},
 	"hellknight_half-plate": {
-		"name": "hellknight half-plate",
+		"name": "Hellknight half-plate",
 		"sources": [
 			"Adventurer's Guide",
 			"Path of the Hellknight"
@@ -746,7 +746,7 @@
 		"copyof": "hellknight_half-plate"
 	},
 	"lamellar_stone": {
-		"name": "lamellar (stone)",
+		"name": "Lamellar (stone)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -762,7 +762,7 @@
 		]
 	},
 	"o-yoroi": {
-		"name": "o-yoroi",
+		"name": "O-yoroi",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -781,7 +781,7 @@
 		"copyof": "o-yoroi"
 	},
 	"full_plate": {
-		"name": "full plate",
+		"name": "Full plate",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -797,7 +797,7 @@
 		]
 	},
 	"gray_maiden_plate": {
-		"name": "gray maiden plate",
+		"name": "Gray maiden plate",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Gray maiden plate",
@@ -810,7 +810,7 @@
 		]
 	},
 	"hellknight_plate": {
-		"name": "hellknight plate",
+		"name": "Hellknight plate",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea World Guide"
@@ -826,7 +826,7 @@
 		]
 	},
 	"stoneplate": {
-		"name": "stoneplate",
+		"name": "Stoneplate",
 		"sources": [
 			"Ultimate Equipment",
 			"Inner Sea World Guide",
@@ -844,7 +844,7 @@
 		]
 	},
 	"buckler": {
-		"name": "buckler",
+		"name": "Buckler",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -860,7 +860,7 @@
 		]
 	},
 	"klar": {
-		"name": "klar",
+		"name": "Klar",
 		"sources": [
 			"Ultimate Equipment",
 			"Varisia, Birthplace of Legends",
@@ -885,7 +885,7 @@
 		]
 	},
 	"light_steel_shield": {
-		"name": "light steel shield",
+		"name": "Light steel shield",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -907,7 +907,7 @@
 		]
 	},
 	"light_steel_quickdraw_shield": {
-		"name": "light steel quickdraw shield",
+		"name": "Light steel quickdraw shield",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -929,7 +929,7 @@
 		]
 	},
 	"light_wooden_shield": {
-		"name": "light wooden shield",
+		"name": "Light wooden shield",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -951,7 +951,7 @@
 		]
 	},
 	"light_wooden_quickdraw_shield": {
-		"name": "light wooden quickdraw shield",
+		"name": "Light wooden quickdraw shield",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -973,7 +973,7 @@
 		]
 	},
 	"madu_shield_leather": {
-		"name": "madu shield (leather)",
+		"name": "Madu shield (leather)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -996,7 +996,7 @@
 		]
 	},
 	"madu_shield_steel": {
-		"name": "madu shield (steel)",
+		"name": "Madu shield (steel)",
 		"sources": [
 			"Ultimate Equipment",
 			"Legacy of Fire Player's Guide",
@@ -1019,7 +1019,7 @@
 		]
 	},
 	"poisoner's_buckler": {
-		"name": "poisoner's buckler",
+		"name": "Poisoner's Buckler",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Poisoner's Buckler",
@@ -1032,7 +1032,7 @@
 		]
 	},
 	"war-shield,_dwarven": {
-		"name": "war-shield, dwarven",
+		"name": "War-shield, dwarven",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## War-shield, dwarven",
@@ -1053,7 +1053,7 @@
 		"copyof": "war-shield,_dwarven"
 	},
 	"heavy_steel_shield": {
-		"name": "heavy steel shield",
+		"name": "Heavy steel shield",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1075,7 +1075,7 @@
 		]
 	},
 	"heavy_wooden_shield": {
-		"name": "heavy wooden shield",
+		"name": "Heavy wooden shield",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1097,7 +1097,7 @@
 		]
 	},
 	"snarlshield,_steel": {
-		"name": "snarlshield, steel",
+		"name": "Snarlshield, steel",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -1116,7 +1116,7 @@
 		"copyof": "snarlshield,_steel"
 	},
 	"snarlshield,_wooden": {
-		"name": "snarlshield, wooden",
+		"name": "Snarlshield, wooden",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -1135,7 +1135,7 @@
 		"copyof": "snarlshield,_wooden"
 	},
 	"tower_shield": {
-		"name": "tower shield",
+		"name": "Tower shield",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"

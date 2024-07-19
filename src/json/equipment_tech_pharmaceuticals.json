@@ -9,7 +9,7 @@
 		]
 	},
 	"azonite_pellets": {
-		"name": "azonite pellets",
+		"name": "Azonite Pellets",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Azonite Pellets",
@@ -26,7 +26,7 @@
 		]
 	},
 	"baseline": {
-		"name": "baseline",
+		"name": "Baseline",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Baseline",
@@ -43,7 +43,7 @@
 		]
 	},
 	"cardioamp": {
-		"name": "cardioamp",
+		"name": "Cardioamp",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cardioamp",
@@ -62,7 +62,7 @@
 		]
 	},
 	"cureall": {
-		"name": "cureall",
+		"name": "Cureall",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cureall",
@@ -81,7 +81,7 @@
 		]
 	},
 	"hemochem_grade_i": {
-		"name": "hemochem (grade I)",
+		"name": "Hemochem (grade I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade I)",
@@ -106,7 +106,7 @@
 		]
 	},
 	"hemochem_grade_ii": {
-		"name": "hemochem (grade II)",
+		"name": "Hemochem (grade II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade II)",
@@ -117,7 +117,7 @@
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grade_iii": {
-		"name": "hemochem (grade III)",
+		"name": "Hemochem (grade III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade III)",
@@ -128,7 +128,7 @@
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grade_iv": {
-		"name": "hemochem (grade IV)",
+		"name": "Hemochem (grade IV)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade IV)",
@@ -139,7 +139,7 @@
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grave_v": {
-		"name": "hemochem (grave V)",
+		"name": "Hemochem (grave V)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grave V)",
@@ -150,7 +150,7 @@
 		"copyof": "hemochem_grade_i"
 	},
 	"hype": {
-		"name": "hype",
+		"name": "Hype",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hype",
@@ -167,7 +167,7 @@
 		]
 	},
 	"soothe": {
-		"name": "soothe",
+		"name": "Soothe",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Soothe",
@@ -184,7 +184,7 @@
 		]
 	},
 	"torpinal": {
-		"name": "torpinal",
+		"name": "Torpinal",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Torpinal",
@@ -203,7 +203,7 @@
 		]
 	},
 	"universal_serum": {
-		"name": "universal serum",
+		"name": "Universal Serum",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Universal Serum",
@@ -220,7 +220,7 @@
 		]
 	},
 	"vitality_serum": {
-		"name": "vitality serum",
+		"name": "Vitality Serum",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Vitality Serum",
@@ -237,7 +237,7 @@
 		]
 	},
 	"vive": {
-		"name": "vive",
+		"name": "Vive",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Vive",
@@ -254,7 +254,7 @@
 		]
 	},
 	"zortaphen": {
-		"name": "zortaphen",
+		"name": "Zortaphen",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zortaphen",

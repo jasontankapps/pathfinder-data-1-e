@@ -15,6 +15,7 @@ export interface DisplayMainItemProps {
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
 type MDpProps = ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps;
+type MDtProps = ClassAttributes<HTMLTableElement> & HTMLAttributes<HTMLTableElement> & ExtraProps;
 
 /*
 
@@ -57,14 +58,21 @@ const doLink = (props: MDaProps) => {
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 			const yOffset = id ? 0 : -80;
 			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
+			const element = [...w].pop();
+			element && element.scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
 		return <HashLink id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
 	}
 	return <Link to={"/" + href}>{children}</Link>
 };
 
+const table = (props: MDtProps) => {
+	const { children } = props;
+	return <div className="tableWrap">{children}</div>;
+};
+
 const td = (props: MDpProps) => {
+	// for IonRippleEffect
 	return <td className="ion-activatable">{props.children}</td>;
 };
 
@@ -83,7 +91,17 @@ const p = (props: MDpProps, tables: Table[]) => {
 };
 
 const h1 = (props: MDpProps) => {
-	return <IonItemDivider className="mainItem"><IonLabel>{props.children}</IonLabel></IonItemDivider>
+	const { children } = props;
+	let id;
+	let text = children;
+	if(typeof children == "string") {
+		const point = children.match(/(^.+?) ! (.+$)/);
+		if(point) {
+			id = point[2];
+			text = point[1];
+		}
+	}
+	return <IonItemDivider className="mainItem" id={id}><IonLabel>{text}</IonLabel></IonItemDivider>
 };
 
 const getElementAndUrl = (input: string): [ReactNode, string] => {
@@ -154,7 +172,8 @@ const makeBasicComponents = (tables: Table[]) => {
 	return {
 		a: doLink,
 		p: (props: MDpProps) => p(props, tables),
-		td
+		td,
+		table
 	};
 };
 

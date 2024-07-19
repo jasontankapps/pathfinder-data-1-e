@@ -9,7 +9,7 @@
 		]
 	},
 	"adept": {
-		"name": "adept",
+		"name": "Adept",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -72,7 +72,7 @@
 		]
 	},
 	"aristocrat": {
-		"name": "aristocrat",
+		"name": "Aristocrat",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -119,7 +119,7 @@
 		]
 	},
 	"commoner": {
-		"name": "commoner",
+		"name": "Commoner",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -166,7 +166,7 @@
 		]
 	},
 	"expert": {
-		"name": "expert",
+		"name": "Expert",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -213,7 +213,7 @@
 		]
 	},
 	"warrior": {
-		"name": "warrior",
+		"name": "Warrior",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"

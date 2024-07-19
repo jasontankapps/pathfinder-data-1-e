@@ -9,7 +9,7 @@
 		]
 	},
 	"access_card_black": {
-		"name": "access card (black)",
+		"name": "Access Card (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Access card",
@@ -31,47 +31,47 @@
 		]
 	},
 	"access_card_blue": {
-		"name": "access card (blue)",
+		"name": "Access Card (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_brown": {
-		"name": "access card (brown)",
+		"name": "Access Card (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_gray": {
-		"name": "access card (gray)",
+		"name": "Access Card (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_green": {
-		"name": "access card (green)",
+		"name": "Access Card (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_orange": {
-		"name": "access card (orange)",
+		"name": "Access Card (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_prismatic": {
-		"name": "access card (prismatic)",
+		"name": "Access Card (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_red": {
-		"name": "access card (red)",
+		"name": "Access Card (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_white": {
-		"name": "access card (white)",
+		"name": "Access Card (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"e-pick_black": {
-		"name": "e-pick (black)",
+		"name": "E-pick (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## E-pick",
@@ -106,7 +106,7 @@
 		"copyof": "e-pick_black"
 	},
 	"e-pick_blue": {
-		"name": "e-pick (blue)",
+		"name": "E-pick (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -114,7 +114,7 @@
 		"copyof": "e-pick_blue"
 	},
 	"e-pick_brown": {
-		"name": "e-pick (brown)",
+		"name": "E-pick (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -122,7 +122,7 @@
 		"copyof": "e-pick_brown"
 	},
 	"e-pick_gray": {
-		"name": "e-pick (gray)",
+		"name": "E-pick (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -130,7 +130,7 @@
 		"copyof": "e-pick_gray"
 	},
 	"e-pick_green": {
-		"name": "e-pick (green)",
+		"name": "E-pick (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -138,7 +138,7 @@
 		"copyof": "e-pick_green"
 	},
 	"e-pick_orange": {
-		"name": "e-pick (orange)",
+		"name": "E-pick (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -146,7 +146,7 @@
 		"copyof": "e-pick_orange"
 	},
 	"e-pick_prismatic": {
-		"name": "e-pick (prismatic)",
+		"name": "E-pick (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -154,7 +154,7 @@
 		"copyof": "e-pick_prismatic"
 	},
 	"e-pick_red": {
-		"name": "e-pick (red)",
+		"name": "E-pick (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -162,7 +162,7 @@
 		"copyof": "e-pick_red"
 	},
 	"e-pick_white": {
-		"name": "e-pick (white)",
+		"name": "E-pick (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
@@ -170,7 +170,7 @@
 		"copyof": "e-pick_white"
 	},
 	"lock_coder_black": {
-		"name": "lock coder (black)",
+		"name": "Lock Coder (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Lock coder",
@@ -202,47 +202,47 @@
 		]
 	},
 	"lock_coder_blue": {
-		"name": "lock coder (blue)",
+		"name": "Lock Coder (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_brown": {
-		"name": "lock coder (brown)",
+		"name": "Lock Coder (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_gray": {
-		"name": "lock coder (gray)",
+		"name": "Lock Coder (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_green": {
-		"name": "lock coder (green)",
+		"name": "Lock Coder (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_orange": {
-		"name": "lock coder (orange)",
+		"name": "Lock Coder (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_prismatic": {
-		"name": "lock coder (prismatic)",
+		"name": "Lock Coder (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_red": {
-		"name": "lock coder (red)",
+		"name": "Lock Coder (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_white": {
-		"name": "lock coder (white)",
+		"name": "Lock Coder (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"battery": {
-		"name": "battery",
+		"name": "Battery",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Battery",
@@ -263,7 +263,7 @@
 		]
 	},
 	"power_cable": {
-		"name": "power cable",
+		"name": "Power cable",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Power cable",
@@ -282,7 +282,7 @@
 		]
 	},
 	"power_receiver": {
-		"name": "power receiver",
+		"name": "Power receiver",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Power receiver",
@@ -305,7 +305,7 @@
 		]
 	},
 	"cylex": {
-		"name": "cylex",
+		"name": "Cylex",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cylex",
@@ -324,7 +324,7 @@
 		]
 	},
 	"detonator": {
-		"name": "detonator",
+		"name": "Detonator",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Detonator",
@@ -347,7 +347,7 @@
 		]
 	},
 	"grenade_arc_grenade": {
-		"name": "grenade (arc grenade)",
+		"name": "Grenade (arc grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (arc grenade)",
@@ -385,7 +385,7 @@
 		]
 	},
 	"grenade_atom_grenade": {
-		"name": "grenade (atom grenade)",
+		"name": "Grenade (atom grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (atom grenade)",
@@ -398,7 +398,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bang_grenade": {
-		"name": "grenade (bang grenade)",
+		"name": "Grenade (bang grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (bang grenade)",
@@ -411,7 +411,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bio_grenade": {
-		"name": "grenade (bio grenade)",
+		"name": "Grenade (bio grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (bio grenade)",
@@ -424,7 +424,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_concussion_grenade": {
-		"name": "grenade (concussion grenade)",
+		"name": "Grenade (concussion grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (concussion grenade)",
@@ -437,7 +437,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_emp_grenade": {
-		"name": "grenade (emp grenade)",
+		"name": "Grenade (emp grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (EMP grenade)",
@@ -450,7 +450,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flash_grenade": {
-		"name": "grenade (flash grenade)",
+		"name": "Grenade (flash grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (flash grenade)",
@@ -463,7 +463,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flechette_grenade": {
-		"name": "grenade (flechette grenade)",
+		"name": "Grenade (flechette grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (flechette grenade)",
@@ -476,7 +476,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_fragmentation_grenade": {
-		"name": "grenade (fragmentation grenade)",
+		"name": "Grenade (fragmentation grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (fragmentation grenade)",
@@ -489,7 +489,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_gas_grenade": {
-		"name": "grenade (gas grenade)",
+		"name": "Grenade (gas grenade)",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Grenade (gas grenade)",
@@ -508,7 +508,7 @@
 		]
 	},
 	"grenade_gravity_grenade": {
-		"name": "grenade (gravity grenade)",
+		"name": "Grenade (gravity grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (gravity grenade)",
@@ -521,7 +521,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_inferno_grenade": {
-		"name": "grenade (inferno grenade)",
+		"name": "Grenade (inferno grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (inferno grenade)",
@@ -534,7 +534,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_plasma_grenade": {
-		"name": "grenade (plasma grenade)",
+		"name": "Grenade (plasma grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (plasma grenade)",
@@ -547,7 +547,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_soft_grenade": {
-		"name": "grenade (soft grenade)",
+		"name": "Grenade (soft grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (soft grenade)",
@@ -560,7 +560,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_sonic_grenade": {
-		"name": "grenade (sonic grenade)",
+		"name": "Grenade (sonic grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (sonic grenade)",
@@ -573,7 +573,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_zero_grenade": {
-		"name": "grenade (zero grenade)",
+		"name": "Grenade (zero grenade)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (zero grenade)",
@@ -586,7 +586,7 @@
 		"copyof": "grenade_arc_grenade"
 	},
 	"chemalyzer": {
-		"name": "chemalyzer",
+		"name": "Chemalyzer",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chemalyzer",
@@ -605,7 +605,7 @@
 		]
 	},
 	"clonepod": {
-		"name": "clonepod",
+		"name": "Clonepod",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Clonepod",
@@ -630,7 +630,7 @@
 		]
 	},
 	"cortex_gun_mark_i": {
-		"name": "cortex gun (mark I)",
+		"name": "Cortex Gun (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark I)",
@@ -666,7 +666,7 @@
 		]
 	},
 	"cortex_gun_mark_ii": {
-		"name": "cortex gun (mark II)",
+		"name": "Cortex Gun (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark II)",
@@ -679,7 +679,7 @@
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iii": {
-		"name": "cortex gun (mark III)",
+		"name": "Cortex Gun (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark III)",
@@ -692,7 +692,7 @@
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iv": {
-		"name": "cortex gun (mark IV)",
+		"name": "Cortex Gun (mark IV)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark IV)",
@@ -705,7 +705,7 @@
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_v": {
-		"name": "cortex gun (mark V)",
+		"name": "Cortex Gun (mark V)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark V)",
@@ -718,7 +718,7 @@
 		"copyof": "cortex_gun_mark_i"
 	},
 	"envoy's_mouthpiece": {
-		"name": "envoy's mouthpiece",
+		"name": "Envoy's mouthpiece",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Envoy's mouthpiece",
@@ -739,7 +739,7 @@
 		]
 	},
 	"filter_mask": {
-		"name": "filter mask",
+		"name": "Filter mask",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Filter mask",
@@ -758,7 +758,7 @@
 		]
 	},
 	"goo_tube": {
-		"name": "goo tube",
+		"name": "Goo tube",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Goo tube",
@@ -777,7 +777,7 @@
 		]
 	},
 	"medlance": {
-		"name": "medlance",
+		"name": "Medlance",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Medlance",
@@ -796,7 +796,7 @@
 		]
 	},
 	"mindmelder": {
-		"name": "mindmelder",
+		"name": "Mindmelder",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"## Mindmelder",
@@ -815,7 +815,7 @@
 		]
 	},
 	"nanite_canister": {
-		"name": "nanite canister",
+		"name": "Nanite canister",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite canister",
@@ -834,7 +834,7 @@
 		]
 	},
 	"nanite_hypogun_black": {
-		"name": "nanite hypogun (black)",
+		"name": "Nanite Hypogun (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite hypogun",
@@ -868,47 +868,47 @@
 		]
 	},
 	"nanite_hypogun_blue": {
-		"name": "nanite hypogun (blue)",
+		"name": "Nanite Hypogun (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_brown": {
-		"name": "nanite hypogun (brown)",
+		"name": "Nanite Hypogun (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_gray": {
-		"name": "nanite hypogun (gray)",
+		"name": "Nanite Hypogun (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_green": {
-		"name": "nanite hypogun (green)",
+		"name": "Nanite Hypogun (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_orange": {
-		"name": "nanite hypogun (orange)",
+		"name": "Nanite Hypogun (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_prismatic": {
-		"name": "nanite hypogun (prismatic)",
+		"name": "Nanite Hypogun (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_red": {
-		"name": "nanite hypogun (red)",
+		"name": "Nanite Hypogun (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_white": {
-		"name": "nanite hypogun (white)",
+		"name": "Nanite Hypogun (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"neurocam": {
-		"name": "neurocam",
+		"name": "Neurocam",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Neurocam",
@@ -931,7 +931,7 @@
 		]
 	},
 	"nutrient_training_node": {
-		"name": "nutrient training node",
+		"name": "Nutrient training node",
 		"sources": [ "Pathfinder #87: The Choking Tower" ],
 		"description": [
 			"## Nutrient training node",
@@ -954,7 +954,7 @@
 		]
 	},
 	"proximity_helmet": {
-		"name": "proximity helmet",
+		"name": "Proximity helmet",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Proximity helmet",
@@ -973,7 +973,7 @@
 		]
 	},
 	"skillchip_mark_i": {
-		"name": "skillchip (mark I)",
+		"name": "Skillchip (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark I)",
@@ -1003,7 +1003,7 @@
 		]
 	},
 	"skillchip_mark_ii": {
-		"name": "skillchip (mark II)",
+		"name": "Skillchip (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark II)",
@@ -1016,7 +1016,7 @@
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iii": {
-		"name": "skillchip (mark III)",
+		"name": "Skillchip (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark III)",
@@ -1029,7 +1029,7 @@
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iv": {
-		"name": "skillchip (mark IV)",
+		"name": "Skillchip (mark IV)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark IV)",
@@ -1042,7 +1042,7 @@
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_v": {
-		"name": "skillchip (mark V)",
+		"name": "Skillchip (mark V)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark V)",
@@ -1055,7 +1055,7 @@
 		"copyof": "skillchip_mark_i"
 	},
 	"trauma_pack": {
-		"name": "trauma pack",
+		"name": "Trauma pack",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Trauma pack",
@@ -1074,7 +1074,7 @@
 		]
 	},
 	"trauma_pack_plus": {
-		"name": "trauma pack plus",
+		"name": "Trauma pack plus",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Trauma pack plus",
@@ -1093,7 +1093,7 @@
 		]
 	},
 	"veemod_black": {
-		"name": "veemod (black)",
+		"name": "Veemod (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Veemod",
@@ -1135,47 +1135,47 @@
 		]
 	},
 	"veemod_blue": {
-		"name": "veemod (blue)",
+		"name": "Veemod (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_brown": {
-		"name": "veemod (brown)",
+		"name": "Veemod (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_gray": {
-		"name": "veemod (gray)",
+		"name": "Veemod (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_green": {
-		"name": "veemod (green)",
+		"name": "Veemod (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_orange": {
-		"name": "veemod (orange)",
+		"name": "Veemod (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_prismatic": {
-		"name": "veemod (prismatic)",
+		"name": "Veemod (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_red": {
-		"name": "veemod (red)",
+		"name": "Veemod (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_white": {
-		"name": "veemod (white)",
+		"name": "Veemod (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_goggles": {
-		"name": "veemod goggles",
+		"name": "Veemod goggles",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Veemod goggles",
@@ -1196,7 +1196,7 @@
 		]
 	},
 	"camera": {
-		"name": "camera",
+		"name": "Camera",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Camera",
@@ -1215,7 +1215,7 @@
 		]
 	},
 	"chipfinder_black": {
-		"name": "chipfinder (black)",
+		"name": "Chipfinder (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chipfinder",
@@ -1251,47 +1251,47 @@
 		]
 	},
 	"chipfinder_blue": {
-		"name": "chipfinder (blue)",
+		"name": "Chipfinder (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_brown": {
-		"name": "chipfinder (brown)",
+		"name": "Chipfinder (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_gray": {
-		"name": "chipfinder (gray)",
+		"name": "Chipfinder (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_green": {
-		"name": "chipfinder (green)",
+		"name": "Chipfinder (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_orange": {
-		"name": "chipfinder (orange)",
+		"name": "Chipfinder (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_prismatic": {
-		"name": "chipfinder (prismatic)",
+		"name": "Chipfinder (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_red": {
-		"name": "chipfinder (red)",
+		"name": "Chipfinder (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_white": {
-		"name": "chipfinder (white)",
+		"name": "Chipfinder (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"commset": {
-		"name": "commset",
+		"name": "Commset",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Commset",
@@ -1314,7 +1314,7 @@
 		]
 	},
 	"emergency_beacon": {
-		"name": "emergency beacon",
+		"name": "Emergency beacon",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency beacon",
@@ -1337,7 +1337,7 @@
 		]
 	},
 	"emergency_raft": {
-		"name": "emergency raft",
+		"name": "Emergency raft",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency raft",
@@ -1356,7 +1356,7 @@
 		]
 	},
 	"emergency_shelter": {
-		"name": "emergency shelter",
+		"name": "Emergency shelter",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency shelter",
@@ -1375,7 +1375,7 @@
 		]
 	},
 	"fire_extinguisher": {
-		"name": "fire extinguisher",
+		"name": "Fire extinguisher",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Fire extinguisher",
@@ -1396,7 +1396,7 @@
 		]
 	},
 	"flashlight": {
-		"name": "flashlight",
+		"name": "Flashlight",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Flashlight",
@@ -1415,7 +1415,7 @@
 		]
 	},
 	"force_field_black": {
-		"name": "force field (black)",
+		"name": "Force Field (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Force field",
@@ -1451,47 +1451,47 @@
 		]
 	},
 	"force_field_blue": {
-		"name": "force field (blue)",
+		"name": "Force Field (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_brown": {
-		"name": "force field (brown)",
+		"name": "Force Field (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_gray": {
-		"name": "force field (gray)",
+		"name": "Force Field (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_green": {
-		"name": "force field (green)",
+		"name": "Force Field (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_orange": {
-		"name": "force field (orange)",
+		"name": "Force Field (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_prismatic": {
-		"name": "force field (prismatic)",
+		"name": "Force Field (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_red": {
-		"name": "force field (red)",
+		"name": "Force Field (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_white": {
-		"name": "force field (white)",
+		"name": "Force Field (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"gravity_clip": {
-		"name": "gravity clip",
+		"name": "Gravity clip",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity clip",
@@ -1510,7 +1510,7 @@
 		]
 	},
 	"grip_of_death": {
-		"name": "grip of death",
+		"name": "Grip of death",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Grip of death",
@@ -1530,7 +1530,7 @@
 		]
 	},
 	"grippers": {
-		"name": "grippers",
+		"name": "Grippers",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grippers",
@@ -1549,7 +1549,7 @@
 		]
 	},
 	"hologram_generator_black": {
-		"name": "hologram generator (black)",
+		"name": "Hologram Generator (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hologram generator",
@@ -1597,47 +1597,47 @@
 		]
 	},
 	"hologram_generator_blue": {
-		"name": "hologram generator (blue)",
+		"name": "Hologram Generator (blue)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_brown": {
-		"name": "hologram generator (brown)",
+		"name": "Hologram Generator (brown)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_gray": {
-		"name": "hologram generator (gray)",
+		"name": "Hologram Generator (gray)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_green": {
-		"name": "hologram generator (green)",
+		"name": "Hologram Generator (green)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_orange": {
-		"name": "hologram generator (orange)",
+		"name": "Hologram Generator (orange)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_prismatic": {
-		"name": "hologram generator (prismatic)",
+		"name": "Hologram Generator (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_red": {
-		"name": "hologram generator (red)",
+		"name": "Hologram Generator (red)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_white": {
-		"name": "hologram generator (white)",
+		"name": "Hologram Generator (white)",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"inertial_dampening_belt": {
-		"name": "inertial dampening belt",
+		"name": "Inertial dampening belt",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Inertial dampening belt",
@@ -1656,7 +1656,7 @@
 		]
 	},
 	"ion_tape": {
-		"name": "ion tape",
+		"name": "Ion tape",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Ion tape",
@@ -1675,7 +1675,7 @@
 		]
 	},
 	"jetpack": {
-		"name": "jetpack",
+		"name": "Jetpack",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Jetpack",
@@ -1698,7 +1698,7 @@
 		]
 	},
 	"laser_sight": {
-		"name": "laser sight",
+		"name": "Laser sight",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser sight",
@@ -1717,7 +1717,7 @@
 		]
 	},
 	"lighter": {
-		"name": "lighter",
+		"name": "Lighter",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Lighter",
@@ -1736,7 +1736,7 @@
 		]
 	},
 	"magboots": {
-		"name": "magboots",
+		"name": "Magboots",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Magboots",
@@ -1755,7 +1755,7 @@
 		]
 	},
 	"motion_tracker": {
-		"name": "motion tracker",
+		"name": "Motion tracker",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Motion tracker",
@@ -1774,7 +1774,7 @@
 		]
 	},
 	"quantum_box": {
-		"name": "quantum box",
+		"name": "Quantum box",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Quantum box",
@@ -1793,7 +1793,7 @@
 		]
 	},
 	"radiation_detector": {
-		"name": "radiation detector",
+		"name": "Radiation detector",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Radiation detector",
@@ -1812,7 +1812,7 @@
 		]
 	},
 	"robojack": {
-		"name": "robojack",
+		"name": "Robojack",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Robojack",
@@ -1831,7 +1831,7 @@
 		]
 	},
 	"signal_booster": {
-		"name": "signal booster",
+		"name": "Signal booster",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Signal booster",
@@ -1854,7 +1854,7 @@
 		]
 	},
 	"signal_jammer": {
-		"name": "signal jammer",
+		"name": "Signal jammer",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Signal jammer",
@@ -1877,7 +1877,7 @@
 		]
 	},
 	"tracker_chip": {
-		"name": "tracker chip",
+		"name": "Tracker chip",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Tracker chip",
@@ -1898,7 +1898,7 @@
 		]
 	},
 	"zipstick": {
-		"name": "zipstick",
+		"name": "Zipstick",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zipstick",

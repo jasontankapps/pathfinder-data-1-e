@@ -1,6 +1,6 @@
 {
 	"planar_traveler's_kit": {
-		"name": "planar traveler's kit",
+		"name": "Planar traveler's kit",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Planar traveler's kit",
@@ -12,7 +12,7 @@
 		]
 	},
 	"pnakotic_record": {
-		"name": "pnakotic record",
+		"name": "Pnakotic record",
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
 			"## Pnakotic record",
@@ -24,7 +24,7 @@
 		]
 	},
 	"pocket_watch": {
-		"name": "pocket watch",
+		"name": "Pocket watch",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pocket watch",
@@ -36,7 +36,7 @@
 		]
 	},
 	"poh_armor": {
-		"name": "poh armor",
+		"name": "Poh armor",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Poh armor",
@@ -50,7 +50,7 @@
 		]
 	},
 	"poison_belcher": {
-		"name": "poison belcher",
+		"name": "Poison belcher",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Poison belcher",
@@ -62,7 +62,7 @@
 		]
 	},
 	"poison_caps": {
-		"name": "poison caps",
+		"name": "Poison caps",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Poison caps",
@@ -74,7 +74,7 @@
 		]
 	},
 	"poison_diffuser": {
-		"name": "poison diffuser",
+		"name": "Poison diffuser",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Poison diffuser",
@@ -91,7 +91,7 @@
 		]
 	},
 	"poison_frog": {
-		"name": "poison frog",
+		"name": "Poison frog",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Poison frog",
@@ -103,7 +103,7 @@
 		]
 	},
 	"poison_latch_needle": {
-		"name": "poison latch needle",
+		"name": "Poison latch needle",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Poison latch needle",
@@ -123,7 +123,7 @@
 		]
 	},
 	"poison_lip_paint": {
-		"name": "poison lip paint",
+		"name": "Poison lip paint",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Poison lip paint",
@@ -135,7 +135,7 @@
 		]
 	},
 	"poison_sealant": {
-		"name": "poison sealant",
+		"name": "Poison sealant",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Poison sealant",
@@ -147,7 +147,7 @@
 		]
 	},
 	"poison_sponge": {
-		"name": "poison sponge",
+		"name": "Poison sponge",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Poison sponge",
@@ -159,7 +159,7 @@
 		]
 	},
 	"poison_tattoo": {
-		"name": "poison tattoo",
+		"name": "Poison tattoo",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Poison tattoo",
@@ -174,7 +174,7 @@
 		]
 	},
 	"poison_ward_salve": {
-		"name": "poison ward salve",
+		"name": "Poison ward salve",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Poison ward salve",
@@ -189,7 +189,7 @@
 		]
 	},
 	"poisoned_locket": {
-		"name": "poisoned locket",
+		"name": "Poisoned locket",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoned locket",
@@ -201,7 +201,7 @@
 		]
 	},
 	"poisoned_quill": {
-		"name": "poisoned quill",
+		"name": "Poisoned quill",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoned quill",
@@ -213,7 +213,7 @@
 		]
 	},
 	"poisoner's_goblet": {
-		"name": "poisoner's goblet",
+		"name": "Poisoner's goblet",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoner's goblet",
@@ -225,7 +225,7 @@
 		]
 	},
 	"poisoning_sheath": {
-		"name": "poisoning sheath",
+		"name": "Poisoning sheath",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Poisoning sheath",
@@ -237,7 +237,7 @@
 		]
 	},
 	"pole": {
-		"name": "pole",
+		"name": "Pole",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -252,7 +252,7 @@
 		]
 	},
 	"polo_gear": {
-		"name": "polo gear",
+		"name": "Polo gear",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Polo gear",
@@ -264,7 +264,7 @@
 		]
 	},
 	"pomander_merchant's": {
-		"name": "pomander (merchant's)",
+		"name": "Pomander (merchant's)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Pomander",
@@ -277,12 +277,12 @@
 		]
 	},
 	"pomander_noble's": {
-		"name": "pomander (noble's)",
+		"name": "Pomander (noble's)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "pomander_merchant's"
 	},
 	"poncho": {
-		"name": "poncho",
+		"name": "Poncho",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Poncho",
@@ -294,7 +294,7 @@
 		]
 	},
 	"porcupine": {
-		"name": "porcupine",
+		"name": "Porcupine",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Porcupine",
@@ -306,7 +306,7 @@
 		]
 	},
 	"portable_alchemist's_lab": {
-		"name": "portable alchemist's lab",
+		"name": "Portable alchemist's lab",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -322,7 +322,7 @@
 		]
 	},
 	"portable_altar_masterwork": {
-		"name": "portable altar (masterwork)",
+		"name": "Portable altar (masterwork)",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Portable altar (masterwork)",
@@ -340,7 +340,7 @@
 		]
 	},
 	"portable_altar": {
-		"name": "portable altar",
+		"name": "Portable altar",
 		"sources": [
 			"Demon Hunter's Handbook",
 			"Adventurer's Armory",
@@ -356,7 +356,7 @@
 		]
 	},
 	"portable_bolt_trap": {
-		"name": "portable bolt trap",
+		"name": "Portable bolt trap",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Portable bolt trap",
@@ -374,7 +374,7 @@
 		]
 	},
 	"portable_bridge": {
-		"name": "portable bridge",
+		"name": "Portable bridge",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Portable bridge",
@@ -386,7 +386,7 @@
 		]
 	},
 	"portable_prison": {
-		"name": "portable prison",
+		"name": "Portable prison",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Portable prison",
@@ -398,7 +398,7 @@
 		]
 	},
 	"portable_ram": {
-		"name": "portable ram",
+		"name": "Portable ram",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -413,7 +413,7 @@
 		]
 	},
 	"portable_solarium": {
-		"name": "portable solarium",
+		"name": "Portable solarium",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Portable solarium",
@@ -425,7 +425,7 @@
 		]
 	},
 	"portable_sweat_lodge": {
-		"name": "portable sweat lodge",
+		"name": "Portable sweat lodge",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Portable sweat lodge",
@@ -437,7 +437,7 @@
 		]
 	},
 	"portable_terrarium": {
-		"name": "portable terrarium",
+		"name": "Portable terrarium",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Portable terrarium",
@@ -449,7 +449,7 @@
 		]
 	},
 	"portrait_book": {
-		"name": "portrait book",
+		"name": "Portrait book",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -464,7 +464,7 @@
 		]
 	},
 	"pot_common": {
-		"name": "pot (common)",
+		"name": "Pot (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pot",
@@ -475,7 +475,7 @@
 		]
 	},
 	"pot_iron": {
-		"name": "pot (iron)",
+		"name": "Pot (iron)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Pot (iron)",
@@ -487,12 +487,12 @@
 		]
 	},
 	"pot_mithral": {
-		"name": "pot (mithral)",
+		"name": "Pot (mithral)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pot_common"
 	},
 	"potion_sponge": {
-		"name": "potion sponge",
+		"name": "Potion sponge",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Potion sponge",
@@ -507,7 +507,7 @@
 		]
 	},
 	"pouch,_belt_empty": {
-		"name": "pouch, belt (empty)",
+		"name": "Pouch, belt (empty)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Pouch, belt (empty)",
@@ -522,7 +522,7 @@
 		"copyof": "pouch,_belt_empty"
 	},
 	"powder_ball_empty": {
-		"name": "powder ball (empty)",
+		"name": "Powder ball (empty)",
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Powder ball",
@@ -533,12 +533,12 @@
 		]
 	},
 	"powder_ball_fuel": {
-		"name": "powder ball (fuel)",
+		"name": "Powder ball (fuel)",
 		"sources": [ "Castles of the Inner Sea" ],
 		"copyof": "powder_ball_empty"
 	},
 	"powder_horn": {
-		"name": "powder horn",
+		"name": "Powder horn",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat",
@@ -554,7 +554,7 @@
 		]
 	},
 	"powder": {
-		"name": "powder",
+		"name": "Powder",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -571,7 +571,7 @@
 		]
 	},
 	"powdered_milk": {
-		"name": "powdered milk",
+		"name": "Powdered milk",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Powdered milk",
@@ -583,7 +583,7 @@
 		]
 	},
 	"practice_straitjacket": {
-		"name": "practice straitjacket",
+		"name": "Practice straitjacket",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Practice straitjacket",
@@ -595,7 +595,7 @@
 		]
 	},
 	"premium_hookah": {
-		"name": "premium hookah",
+		"name": "Premium hookah",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Premium hookah",
@@ -607,7 +607,7 @@
 		]
 	},
 	"pressure_pill": {
-		"name": "pressure pill",
+		"name": "Pressure pill",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Pressure pill",
@@ -619,7 +619,7 @@
 		]
 	},
 	"printing_press_1-page": {
-		"name": "printing press (1-page)",
+		"name": "Printing press (1-page)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Printing press (1-page)",
@@ -634,7 +634,7 @@
 		"copyof": "printing_press_1-page"
 	},
 	"prismatic_crystal": {
-		"name": "prismatic crystal",
+		"name": "Prismatic crystal",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Prismatic crystal",
@@ -646,7 +646,7 @@
 		]
 	},
 	"privacy_shelter": {
-		"name": "privacy shelter",
+		"name": "Privacy shelter",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Privacy shelter",
@@ -658,7 +658,7 @@
 		]
 	},
 	"prognostication_manual": {
-		"name": "prognostication manual",
+		"name": "Prognostication manual",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Prognostication manual",
@@ -672,7 +672,7 @@
 		]
 	},
 	"prosthetic_arm": {
-		"name": "prosthetic (arm)",
+		"name": "Prosthetic (arm)",
 		"sources": [
 			"Ultimate Equipment",
 			"Pirates of the Inner Sea",
@@ -687,7 +687,7 @@
 		]
 	},
 	"prosthetic_foot": {
-		"name": "prosthetic (foot)",
+		"name": "Prosthetic (foot)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -696,7 +696,7 @@
 		"copyof": "prosthetic_arm"
 	},
 	"prosthetic_hand": {
-		"name": "prosthetic (hand)",
+		"name": "Prosthetic (hand)",
 		"sources": [
 			"Ultimate Equipment",
 			"Pirates of the Inner Sea",
@@ -705,7 +705,7 @@
 		"copyof": "prosthetic_arm"
 	},
 	"prosthetic_leg": {
-		"name": "prosthetic (leg)",
+		"name": "Prosthetic (leg)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -714,7 +714,7 @@
 		"copyof": "prosthetic_arm"
 	},
 	"prowler's_palliative": {
-		"name": "prowler's palliative",
+		"name": "Prowler's palliative",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Prowler's palliative",
@@ -729,7 +729,7 @@
 		]
 	},
 	"pseudodragon": {
-		"name": "pseudodragon",
+		"name": "Pseudodragon",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -744,7 +744,7 @@
 		]
 	},
 	"psychic's_kit": {
-		"name": "psychic's kit",
+		"name": "Psychic's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychic's kit",
@@ -756,7 +756,7 @@
 		]
 	},
 	"psychometrist's_gloves": {
-		"name": "psychometrist's gloves",
+		"name": "Psychometrist's gloves",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychometrist's gloves",
@@ -768,7 +768,7 @@
 		]
 	},
 	"pteranodon": {
-		"name": "pteranodon",
+		"name": "Pteranodon",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Pteranodon",
@@ -780,7 +780,7 @@
 		]
 	},
 	"pull-cord_grenade": {
-		"name": "pull-cord grenade",
+		"name": "Pull-cord grenade",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Pull-cord grenade",
@@ -801,7 +801,7 @@
 		"copyof": "pull-cord_grenade"
 	},
 	"pulque_cup": {
-		"name": "pulque (cup)",
+		"name": "Pulque (cup)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pulque",
@@ -812,12 +812,12 @@
 		]
 	},
 	"pulque_wineskin": {
-		"name": "pulque (wineskin)",
+		"name": "Pulque (wineskin)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pulque_cup"
 	},
 	"pump_organ": {
-		"name": "pump organ",
+		"name": "Pump organ",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Pump organ",
@@ -829,7 +829,7 @@
 		]
 	},
 	"pump_water_canister": {
-		"name": "pump water canister",
+		"name": "Pump water canister",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pump water canister",
@@ -841,7 +841,7 @@
 		]
 	},
 	"purification_pellet": {
-		"name": "purification pellet",
+		"name": "Purification pellet",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Purification pellet",
@@ -856,7 +856,7 @@
 		]
 	},
 	"purity_test": {
-		"name": "purity test",
+		"name": "Purity test",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Purity test",
@@ -868,7 +868,7 @@
 		]
 	},
 	"puzzle_box": {
-		"name": "puzzle box",
+		"name": "Puzzle box",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -883,7 +883,7 @@
 		]
 	},
 	"puzzle_heel": {
-		"name": "puzzle heel",
+		"name": "Puzzle heel",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Puzzle heel",
@@ -901,7 +901,7 @@
 		]
 	},
 	"pyramid_buster's_kit": {
-		"name": "pyramid buster's kit",
+		"name": "Pyramid buster's kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Pyramid buster's kit",
@@ -913,7 +913,7 @@
 		]
 	},
 	"pyrography_kit": {
-		"name": "pyrography kit",
+		"name": "Pyrography kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pyrography kit",
@@ -925,7 +925,7 @@
 		]
 	},
 	"qadiran_saddle": {
-		"name": "qadiran saddle",
+		"name": "Qadiran saddle",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Qadiran saddle",
@@ -937,7 +937,7 @@
 		]
 	},
 	"questing_knight_package": {
-		"name": "questing knight package",
+		"name": "Questing knight package",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Questing knight package",
@@ -959,7 +959,7 @@
 		]
 	},
 	"quick-change_outfit": {
-		"name": "quick-change outfit",
+		"name": "Quick-change outfit",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Quick-change outfit",
@@ -974,7 +974,7 @@
 		"copyof": "quick-change_outfit"
 	},
 	"quick-pack_table": {
-		"name": "quick-pack table",
+		"name": "Quick-pack table",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Quick-pack table",
@@ -991,7 +991,7 @@
 		"copyof": "quick-pack_table"
 	},
 	"quick-step_concoction": {
-		"name": "quick-step concoction",
+		"name": "Quick-step concoction",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Quick-step concoction",
@@ -1006,7 +1006,7 @@
 		"copyof": "quick-step_concoction"
 	},
 	"quicksilver_barometer": {
-		"name": "quicksilver barometer",
+		"name": "Quicksilver barometer",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Quicksilver barometer",
@@ -1018,7 +1018,7 @@
 		]
 	},
 	"quieting_needles": {
-		"name": "quieting needles",
+		"name": "Quieting needles",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
 			"## Quieting needles",
@@ -1040,7 +1040,7 @@
 		]
 	},
 	"quintain": {
-		"name": "quintain",
+		"name": "Quintain",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Quintain",
@@ -1052,7 +1052,7 @@
 		]
 	},
 	"rabbit": {
-		"name": "rabbit",
+		"name": "Rabbit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rabbit",
@@ -1064,7 +1064,7 @@
 		]
 	},
 	"raccoon": {
-		"name": "raccoon",
+		"name": "Raccoon",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Raccoon",
@@ -1076,7 +1076,7 @@
 		]
 	},
 	"rack": {
-		"name": "rack",
+		"name": "Rack",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Rack",
@@ -1088,7 +1088,7 @@
 		]
 	},
 	"raft": {
-		"name": "raft",
+		"name": "Raft",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Raft",
@@ -1100,7 +1100,7 @@
 		]
 	},
 	"raft_travel,_per_mile": {
-		"name": "raft (travel, per mile)",
+		"name": "Raft (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "raft"
 	},
@@ -1108,7 +1108,7 @@
 		"copyof": "raft_travel,_per_mile"
 	},
 	"rager's_aid": {
-		"name": "rager's aid",
+		"name": "Rager's aid",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Rager's aid",
@@ -1123,7 +1123,7 @@
 		]
 	},
 	"rake's_friend": {
-		"name": "rake's friend",
+		"name": "Rake's friend",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Rake's friend",
@@ -1138,7 +1138,7 @@
 		]
 	},
 	"ram_combat-trained": {
-		"name": "ram (combat-trained)",
+		"name": "Ram (combat-trained)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Ram",
@@ -1151,12 +1151,12 @@
 		"copyof": "ram_combat-trained"
 	},
 	"ram_common": {
-		"name": "ram (common)",
+		"name": "Ram (common)",
 		"sources": [ "Animal Archive" ],
 		"copyof": "ram_combat_trained"
 	},
 	"ranger's_kit": {
-		"name": "ranger's kit",
+		"name": "Ranger's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ranger's kit",
@@ -1168,7 +1168,7 @@
 		]
 	},
 	"rat_blue": {
-		"name": "rat (blue)",
+		"name": "Rat (blue)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Rat",
@@ -1179,12 +1179,12 @@
 		]
 	},
 	"rat_common": {
-		"name": "rat (common)",
+		"name": "Rat (common)",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "rat_blue"
 	},
 	"rat_dire": {
-		"name": "rat (dire)",
+		"name": "Rat (dire)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1199,7 +1199,7 @@
 		]
 	},
 	"rat_cage": {
-		"name": "rat cage",
+		"name": "Rat cage",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Rat cage",
@@ -1211,7 +1211,7 @@
 		]
 	},
 	"rations,_space_per_day": {
-		"name": "rations, space (per day)",
+		"name": "Rations, space (per day)",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Rations, space (per day)",
@@ -1226,7 +1226,7 @@
 		"copyof": "rations,_space_per_day"
 	},
 	"raven": {
-		"name": "raven",
+		"name": "Raven",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1241,7 +1241,7 @@
 		]
 	},
 	"reagent_extractor": {
-		"name": "reagent extractor",
+		"name": "Reagent extractor",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Reagent extractor",
@@ -1253,7 +1253,7 @@
 		]
 	},
 	"reagent_paper": {
-		"name": "reagent paper",
+		"name": "Reagent paper",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Reagent paper",
@@ -1268,7 +1268,7 @@
 		]
 	},
 	"reanimating_fluid": {
-		"name": "reanimating fluid",
+		"name": "Reanimating fluid",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Reanimating fluid",
@@ -1283,7 +1283,7 @@
 		]
 	},
 	"red_flame_torch": {
-		"name": "red flame torch",
+		"name": "Red flame torch",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Red flame torch",
@@ -1295,7 +1295,7 @@
 		]
 	},
 	"reindeer": {
-		"name": "reindeer",
+		"name": "Reindeer",
 		"sources": [ "People of the North" ],
 		"description": [
 			"## Reindeer",
@@ -1307,7 +1307,7 @@
 		]
 	},
 	"remora_pad": {
-		"name": "remora pad",
+		"name": "Remora pad",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Remora pad",
@@ -1323,7 +1323,7 @@
 		]
 	},
 	"repellent_salts": {
-		"name": "repellent salts",
+		"name": "Repellent salts",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Repellent salts",
@@ -1335,7 +1335,7 @@
 		]
 	},
 	"retort": {
-		"name": "retort",
+		"name": "Retort",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Retort",
@@ -1347,7 +1347,7 @@
 		]
 	},
 	"reversible_cloak": {
-		"name": "reversible cloak",
+		"name": "Reversible cloak",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Reversible cloak",
@@ -1359,7 +1359,7 @@
 		]
 	},
 	"rhinarium_paste": {
-		"name": "rhinarium paste",
+		"name": "Rhinarium paste",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Rhinarium paste",
@@ -1374,7 +1374,7 @@
 		]
 	},
 	"rhinoceros_combat-trained": {
-		"name": "rhinoceros (combat-trained)",
+		"name": "Rhinoceros (combat-trained)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Rhinoceros",
@@ -1387,12 +1387,12 @@
 		"copyof": "rhinoceros_combat-trained"
 	},
 	"rhinoceros_common": {
-		"name": "rhinoceros (common)",
+		"name": "Rhinoceros (common)",
 		"sources": [ "Animal Archive" ],
 		"copyof": "rhinoceros_combat_trained"
 	},
 	"rice_paper_sheet": {
-		"name": "rice paper (sheet)",
+		"name": "Rice paper (sheet)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -1408,7 +1408,7 @@
 		]
 	},
 	"riding_bee_combat-trained_queen": {
-		"name": "riding bee (combat-trained queen)",
+		"name": "Riding bee (combat-trained queen)",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Riding bee",
@@ -1422,7 +1422,7 @@
 		"copyof": "riding_bee_combat-trained_queen"
 	},
 	"riding_bee_combat-trained_worker": {
-		"name": "riding bee (combat-trained worker)",
+		"name": "Riding bee (combat-trained worker)",
 		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
@@ -1430,17 +1430,17 @@
 		"copyof": "riding_bee_combat-trained_worker"
 	},
 	"riding_bee_queen": {
-		"name": "riding bee (queen)",
+		"name": "Riding bee (queen)",
 		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_bee_worker": {
-		"name": "riding bee (worker)",
+		"name": "Riding bee (worker)",
 		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_kit_common": {
-		"name": "riding kit (common)",
+		"name": "Riding kit (common)",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -1454,7 +1454,7 @@
 		]
 	},
 	"riding_kit_exotic_mount": {
-		"name": "riding kit (exotic mount)",
+		"name": "Riding kit (exotic mount)",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -1462,7 +1462,7 @@
 		"copyof": "riding_kit_common"
 	},
 	"riding_rat_combat_trained": {
-		"name": "riding rat (combat trained)",
+		"name": "Riding rat (combat trained)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Riding rat",
@@ -1473,12 +1473,12 @@
 		]
 	},
 	"riding_rat_common": {
-		"name": "riding rat (common)",
+		"name": "Riding rat (common)",
 		"sources": [ "Monster Codex" ],
 		"copyof": "riding_rat_combat_trained"
 	},
 	"ritual_bell": {
-		"name": "ritual bell",
+		"name": "Ritual bell",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ritual bell",
@@ -1490,7 +1490,7 @@
 		]
 	},
 	"ritual_disk": {
-		"name": "ritual disk",
+		"name": "Ritual disk",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Ritual disk",
@@ -1502,7 +1502,7 @@
 		]
 	},
 	"road_or_gate_toll": {
-		"name": "road or gate toll",
+		"name": "Road or gate toll",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1517,7 +1517,7 @@
 		]
 	},
 	"roar_cord": {
-		"name": "roar cord",
+		"name": "Roar cord",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Roar cord",
@@ -1529,7 +1529,7 @@
 		]
 	},
 	"roc_combat-trained": {
-		"name": "roc (combat-trained)",
+		"name": "Roc (combat-trained)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Roc",
@@ -1543,12 +1543,12 @@
 		"copyof": "roc_combat-trained"
 	},
 	"roc_common": {
-		"name": "roc (common)",
+		"name": "Roc (common)",
 		"sources": [ "Animal Archive" ],
 		"copyof": "roc_combat_trained"
 	},
 	"rockshard_canister": {
-		"name": "rockshard canister",
+		"name": "Rockshard canister",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Rockshard canister",
@@ -1562,7 +1562,7 @@
 		]
 	},
 	"rogue's_kit": {
-		"name": "rogue's kit",
+		"name": "Rogue's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rogue's kit",
@@ -1574,7 +1574,7 @@
 		]
 	},
 	"rope_50_ft.": {
-		"name": "rope (50 ft.)",
+		"name": "Rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1592,7 +1592,7 @@
 		"copyof": "rope_50_ft."
 	},
 	"rope_recaller": {
-		"name": "rope recaller",
+		"name": "Rope recaller",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Rope recaller",
@@ -1604,7 +1604,7 @@
 		]
 	},
 	"roperunner": {
-		"name": "roperunner",
+		"name": "Roperunner",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Roperunner",
@@ -1616,7 +1616,7 @@
 		]
 	},
 	"rounders_gear": {
-		"name": "rounders gear",
+		"name": "Rounders gear",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rounders gear",
@@ -1628,7 +1628,7 @@
 		]
 	},
 	"rowboat": {
-		"name": "rowboat",
+		"name": "Rowboat",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1643,7 +1643,7 @@
 		]
 	},
 	"rowboat_travel,_per_mile": {
-		"name": "rowboat (travel, per mile)",
+		"name": "Rowboat (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1654,7 +1654,7 @@
 		"copyof": "rowboat_travel,_per_mile"
 	},
 	"royal_outfit": {
-		"name": "royal outfit",
+		"name": "Royal outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -1677,7 +1677,7 @@
 		]
 	},
 	"tear-away_royal_outfit": {
-		"name": "tear-away royal outfit",
+		"name": "Tear-away royal outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -1689,7 +1689,7 @@
 		"copyof": "tear-away_royal_outfit"
 	},
 	"rumboozle_cup": {
-		"name": "rumboozle (cup)",
+		"name": "Rumboozle (cup)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1704,7 +1704,7 @@
 		]
 	},
 	"rust_repellent": {
-		"name": "rust repellent",
+		"name": "Rust repellent",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Rust repellent",
@@ -1716,7 +1716,7 @@
 		]
 	},
 	"rusting_powder": {
-		"name": "rusting powder",
+		"name": "Rusting powder",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rusting powder",
@@ -1733,7 +1733,7 @@
 		]
 	},
 	"sack": {
-		"name": "sack",
+		"name": "Sack",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1748,7 +1748,7 @@
 		]
 	},
 	"saddle_exotic,_military": {
-		"name": "saddle (exotic, military)",
+		"name": "Saddle (exotic, military)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1773,7 +1773,7 @@
 		"copyof": "saddle_exotic,_military"
 	},
 	"saddle_exotic,_pack": {
-		"name": "saddle (exotic, pack)",
+		"name": "Saddle (exotic, pack)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1784,7 +1784,7 @@
 		"copyof": "saddle_exotic,_pack"
 	},
 	"saddle_exotic,_riding": {
-		"name": "saddle (exotic, riding)",
+		"name": "Saddle (exotic, riding)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1795,7 +1795,7 @@
 		"copyof": "saddle_exotic,_riding"
 	},
 	"saddle_military": {
-		"name": "saddle (military)",
+		"name": "Saddle (military)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1803,7 +1803,7 @@
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_pack": {
-		"name": "saddle (pack)",
+		"name": "Saddle (pack)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1811,7 +1811,7 @@
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_riding": {
-		"name": "saddle (riding)",
+		"name": "Saddle (riding)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1819,7 +1819,7 @@
 		"copyof": "saddle_exotic_military"
 	},
 	"saddlebags": {
-		"name": "saddlebags",
+		"name": "Saddlebags",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1834,7 +1834,7 @@
 		]
 	},
 	"sailing_ship": {
-		"name": "sailing ship",
+		"name": "Sailing ship",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1849,7 +1849,7 @@
 		]
 	},
 	"sailing_ship_travel,_per_mile": {
-		"name": "sailing ship (travel, per mile)",
+		"name": "Sailing ship (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1860,7 +1860,7 @@
 		"copyof": "sailing_ship_travel,_per_mile"
 	},
 	"salt_tablets_10": {
-		"name": "salt tablets (10)",
+		"name": "Salt tablets (10)",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Salt tablets (10)",
@@ -1878,7 +1878,7 @@
 		"copyof": "salt_tablets_10"
 	},
 	"samsaran_life_wheel": {
-		"name": "samsaran life wheel",
+		"name": "Samsaran life wheel",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Samsaran life wheel",
@@ -1890,7 +1890,7 @@
 		]
 	},
 	"sanctified_rings_pair": {
-		"name": "sanctified rings (pair)",
+		"name": "Sanctified rings (pair)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Sanctified rings (pair)",
@@ -1903,7 +1903,7 @@
 		]
 	},
 	"sangwine": {
-		"name": "sangwine",
+		"name": "Sangwine",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Sangwine",
@@ -1915,7 +1915,7 @@
 		]
 	},
 	"saw": {
-		"name": "saw",
+		"name": "Saw",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -1931,7 +1931,7 @@
 		]
 	},
 	"scarf_pocketed": {
-		"name": "scarf (pocketed)",
+		"name": "Scarf (pocketed)",
 		"sources": [
 			"Ultimate Equipment",
 			"Varisia, Birthplace of Legends",
@@ -1949,7 +1949,7 @@
 		]
 	},
 	"scarf_reinforced": {
-		"name": "scarf (reinforced)",
+		"name": "Scarf (reinforced)",
 		"sources": [
 			"Ultimate Equipment",
 			"Rise of the Runelords Player's Guide",
@@ -1961,7 +1961,7 @@
 		"copyof": "scarf_pocketed"
 	},
 	"scarf": {
-		"name": "scarf",
+		"name": "Scarf",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -1977,7 +1977,7 @@
 		]
 	},
 	"scarsalve": {
-		"name": "scarsalve",
+		"name": "Scarsalve",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Scarsalve",
@@ -1989,7 +1989,7 @@
 		]
 	},
 	"scavenger_beetle_colony": {
-		"name": "scavenger beetle colony",
+		"name": "Scavenger beetle colony",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Scavenger beetle colony",
@@ -2001,7 +2001,7 @@
 		]
 	},
 	"scent_blocker": {
-		"name": "scent blocker",
+		"name": "Scent blocker",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Scent blocker",
@@ -2016,7 +2016,7 @@
 		]
 	},
 	"scent_cloak": {
-		"name": "scent cloak",
+		"name": "Scent cloak",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -2034,7 +2034,7 @@
 		]
 	},
 	"scent_salts": {
-		"name": "scent salts",
+		"name": "Scent salts",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Scent salts",
@@ -2046,7 +2046,7 @@
 		]
 	},
 	"scentbane_incense": {
-		"name": "scentbane incense",
+		"name": "Scentbane incense",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Scentbane incense",
@@ -2061,7 +2061,7 @@
 		]
 	},
 	"scholar's_outfit": {
-		"name": "scholar's outfit",
+		"name": "Scholar's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2084,7 +2084,7 @@
 		]
 	},
 	"tear-away_scholar's_outfit": {
-		"name": "tear-away scholar's outfit",
+		"name": "Tear-away scholar's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2096,7 +2096,7 @@
 		"copyof": "tear-away_scholar's_outfit"
 	},
 	"scorpion_greensting": {
-		"name": "scorpion (greensting)",
+		"name": "Scorpion (greensting)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scorpion (greensting)",
@@ -2108,7 +2108,7 @@
 		]
 	},
 	"scribe_map": {
-		"name": "scribe (map)",
+		"name": "Scribe (map)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scribe",
@@ -2119,12 +2119,12 @@
 		]
 	},
 	"scribe_text": {
-		"name": "scribe (text)",
+		"name": "Scribe (text)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "scribe_map"
 	},
 	"scrivener's_kit": {
-		"name": "scrivener's kit",
+		"name": "Scrivener's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scrivener's kit",
@@ -2136,7 +2136,7 @@
 		]
 	},
 	"scroll_belt": {
-		"name": "scroll belt",
+		"name": "Scroll belt",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Scroll belt",
@@ -2148,7 +2148,7 @@
 		]
 	},
 	"scroll_box": {
-		"name": "scroll box",
+		"name": "Scroll box",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scroll box",
@@ -2160,7 +2160,7 @@
 		]
 	},
 	"scroll_case": {
-		"name": "scroll case",
+		"name": "Scroll case",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook",
@@ -2177,7 +2177,7 @@
 		]
 	},
 	"scroll_case,_spring_loaded": {
-		"name": "scroll case, spring loaded",
+		"name": "Scroll case, spring loaded",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Scroll case, spring loaded",
@@ -2192,7 +2192,7 @@
 		"copyof": "scroll_case,_spring_loaded"
 	},
 	"sea_krait": {
-		"name": "sea krait",
+		"name": "Sea krait",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Sea krait",
@@ -2204,7 +2204,7 @@
 		]
 	},
 	"seal": {
-		"name": "seal",
+		"name": "Seal",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Seal",
@@ -2216,7 +2216,7 @@
 		]
 	},
 	"sealing_wax": {
-		"name": "sealing wax",
+		"name": "Sealing wax",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2231,7 +2231,7 @@
 		]
 	},
 	"sealord_wine_bottle": {
-		"name": "sealord wine (bottle)",
+		"name": "Sealord wine (bottle)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sealord wine (bottle)",
@@ -2243,7 +2243,7 @@
 		]
 	},
 	"seance_kit": {
-		"name": "seance kit",
+		"name": "Seance kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Seance kit",
@@ -2255,7 +2255,7 @@
 		]
 	},
 	"second-story_harness": {
-		"name": "second-story harness",
+		"name": "Second-story harness",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
 		"description": [
 			"## Second-story harness",
@@ -2270,7 +2270,7 @@
 		"copyof": "second-story_harness"
 	},
 	"seeing_slime": {
-		"name": "seeing slime",
+		"name": "Seeing Slime",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Seeing Slime",
@@ -2286,7 +2286,7 @@
 		]
 	},
 	"semblance_transfusion": {
-		"name": "semblance transfusion",
+		"name": "Semblance transfusion",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Semblance transfusion",
@@ -2301,7 +2301,7 @@
 		]
 	},
 	"sentry_mannequin_masterwork": {
-		"name": "sentry mannequin (masterwork)",
+		"name": "Sentry mannequin (masterwork)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sentry mannequin (masterwork)",
@@ -2313,7 +2313,7 @@
 		]
 	},
 	"sentry_mannequin": {
-		"name": "sentry mannequin",
+		"name": "Sentry mannequin",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sentry mannequin",
@@ -2325,7 +2325,7 @@
 		]
 	},
 	"sentry_seeds": {
-		"name": "sentry seeds",
+		"name": "Sentry seeds",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sentry seeds",
@@ -2337,7 +2337,7 @@
 		]
 	},
 	"serpent_line": {
-		"name": "serpent line",
+		"name": "Serpent line",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Serpent line",
@@ -2352,7 +2352,7 @@
 		]
 	},
 	"serrated_caltrops": {
-		"name": "serrated caltrops",
+		"name": "Serrated caltrops",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Serrated caltrops",
@@ -2364,7 +2364,7 @@
 		]
 	},
 	"sewing_needle": {
-		"name": "sewing needle",
+		"name": "Sewing needle",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2379,7 +2379,7 @@
 		]
 	},
 	"sextant": {
-		"name": "sextant",
+		"name": "Sextant",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2396,7 +2396,7 @@
 		]
 	},
 	"shadow_stencil_set": {
-		"name": "shadow stencil set",
+		"name": "Shadow stencil set",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shadow stencil set",
@@ -2408,7 +2408,7 @@
 		]
 	},
 	"shadowy_stalker_package": {
-		"name": "shadowy stalker package",
+		"name": "Shadowy stalker package",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shadowy stalker package",
@@ -2430,7 +2430,7 @@
 		]
 	},
 	"shaman's_kit": {
-		"name": "shaman's kit",
+		"name": "Shaman's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Shaman's kit",
@@ -2442,7 +2442,7 @@
 		]
 	},
 	"shaman's_paint": {
-		"name": "shaman's paint",
+		"name": "Shaman's paint",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Shaman's paint",
@@ -2457,7 +2457,7 @@
 		]
 	},
 	"shark": {
-		"name": "shark",
+		"name": "Shark",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Shark",
@@ -2469,7 +2469,7 @@
 		]
 	},
 	"shaving_kit": {
-		"name": "shaving kit",
+		"name": "Shaving kit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -2484,7 +2484,7 @@
 		]
 	},
 	"shears_adamantine": {
-		"name": "shears (adamantine)",
+		"name": "Shears (adamantine)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shears",
@@ -2497,17 +2497,17 @@
 		]
 	},
 	"shears_lopping": {
-		"name": "shears (lopping)",
+		"name": "Shears (lopping)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "shears_adamantine"
 	},
 	"shears_small": {
-		"name": "shears (small)",
+		"name": "Shears (small)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "shears_adamantine"
 	},
 	"sheep": {
-		"name": "sheep",
+		"name": "Sheep",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sheep",
@@ -2519,7 +2519,7 @@
 		]
 	},
 	"sherrif's_whistle": {
-		"name": "sherrif's whistle",
+		"name": "Sherrif's whistle",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Sherrif's whistle",
@@ -2531,7 +2531,7 @@
 		]
 	},
 	"shield_sconce": {
-		"name": "shield sconce",
+		"name": "Shield sconce",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -2546,7 +2546,7 @@
 		]
 	},
 	"shinobi_shozoku": {
-		"name": "shinobi shozoku",
+		"name": "Shinobi shozoku",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shinobi shozoku",
@@ -2558,7 +2558,7 @@
 		]
 	},
 	"ship's_boat": {
-		"name": "ship's boat",
+		"name": "Ship's boat",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ship's boat",
@@ -2570,7 +2570,7 @@
 		]
 	},
 	"ship's_boat_travel,_per_mile": {
-		"name": "ship's boat (travel, per mile)",
+		"name": "Ship's boat (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ship's_boat"
 	},
@@ -2578,7 +2578,7 @@
 		"copyof": "ship's_boat_travel,_per_mile"
 	},
 	"ship's_passage": {
-		"name": "ship's passage",
+		"name": "Ship's passage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Ship's passage",
@@ -2590,7 +2590,7 @@
 		]
 	},
 	"shoddy_item": {
-		"name": "shoddy item",
+		"name": "Shoddy item",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Shoddy item",
@@ -2606,7 +2606,7 @@
 		]
 	},
 	"shovel_common": {
-		"name": "shovel (common)",
+		"name": "Shovel (common)",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #51: The Hungry Storm"
@@ -2622,12 +2622,12 @@
 		]
 	},
 	"shovel_folding": {
-		"name": "shovel (folding)",
+		"name": "Shovel (folding)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "shovel_common"
 	},
 	"shovel,_common": {
-		"name": "shovel, common",
+		"name": "Shovel, common",
 		"sources": [
 			"Adventurer's Armory",
 			"PRPG Core Rulebook"
@@ -2645,7 +2645,7 @@
 		"copyof": "shovel,_common"
 	},
 	"shrapnel_caltrops": {
-		"name": "shrapnel caltrops",
+		"name": "Shrapnel caltrops",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Shrapnel caltrops",
@@ -2657,7 +2657,7 @@
 		]
 	},
 	"shrieking_paste": {
-		"name": "shrieking paste",
+		"name": "Shrieking paste",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Shrieking paste",
@@ -2672,7 +2672,7 @@
 		]
 	},
 	"signal_horn": {
-		"name": "signal horn",
+		"name": "Signal horn",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2688,7 +2688,7 @@
 		]
 	},
 	"signal_kite_kit": {
-		"name": "signal kite kit",
+		"name": "Signal kite kit",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Signal kite kit",
@@ -2700,7 +2700,7 @@
 		]
 	},
 	"signet_ring": {
-		"name": "signet ring",
+		"name": "Signet ring",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2715,14 +2715,14 @@
 		]
 	},
 	"poison_pill_signet_ring": {
-		"name": "poison pill signet ring",
+		"name": "Poison pill signet ring",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
 			"Advanced Player's Guide"
 		],
 		"description": [
-			"## Poison pill ring",
+			"## Poison pill signet ring",
 			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Advanced Player's Guide pg. 181](source/advanced_player's_guide)  ",
 			"**Price** +20 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
@@ -2731,7 +2731,7 @@
 		]
 	},
 	"signifer_mask": {
-		"name": "signifer mask",
+		"name": "Signifer mask",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Signifer mask",
@@ -2743,7 +2743,7 @@
 		]
 	},
 	"signifier_mask": {
-		"name": "signifier mask",
+		"name": "Signifier mask",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Signifier mask",
@@ -2757,7 +2757,7 @@
 		]
 	},
 	"silence_dust": {
-		"name": "silence dust",
+		"name": "Silence dust",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Silence dust",
@@ -2772,7 +2772,7 @@
 		]
 	},
 	"silent_piton": {
-		"name": "silent piton",
+		"name": "Silent piton",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Silent piton",
@@ -2784,7 +2784,7 @@
 		]
 	},
 	"silk_kimono": {
-		"name": "silk kimono",
+		"name": "Silk kimono",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Silk kimono",
@@ -2796,7 +2796,7 @@
 		]
 	},
 	"silk_rope_50_ft.": {
-		"name": "silk rope (50 ft.)",
+		"name": "Silk rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2814,7 +2814,7 @@
 		"copyof": "silk_rope_50_ft."
 	},
 	"silver_drops": {
-		"name": "silver drops",
+		"name": "Silver drops",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
 			"## Silver drops",
@@ -2829,7 +2829,7 @@
 		]
 	},
 	"singer's_solution": {
-		"name": "singer's solution",
+		"name": "Singer's solution",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Singer's solution",
@@ -2844,7 +2844,7 @@
 		]
 	},
 	"siphon_ray": {
-		"name": "siphon ray",
+		"name": "Siphon ray",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Siphon ray",
@@ -2858,7 +2858,7 @@
 		]
 	},
 	"skald's_kit": {
-		"name": "skald's kit",
+		"name": "Skald's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Skald's kit",
@@ -2870,7 +2870,7 @@
 		]
 	},
 	"skates": {
-		"name": "skates",
+		"name": "Skates",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Skates",
@@ -2882,7 +2882,7 @@
 		]
 	},
 	"skeleton_key": {
-		"name": "skeleton key",
+		"name": "Skeleton key",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -2897,7 +2897,7 @@
 		]
 	},
 	"skeleton_slayer's_kit": {
-		"name": "skeleton slayer's kit",
+		"name": "Skeleton slayer's kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Skeleton slayer's kit",
@@ -2909,7 +2909,7 @@
 		]
 	},
 	"skillet_common": {
-		"name": "skillet (common)",
+		"name": "Skillet (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skillet",
@@ -2920,12 +2920,12 @@
 		]
 	},
 	"skillet_mithral": {
-		"name": "skillet (mithral)",
+		"name": "Skillet (mithral)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "skillet_common"
 	},
 	"skis_and_poles": {
-		"name": "skis and poles",
+		"name": "Skis and poles",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Skis and poles",
@@ -2937,7 +2937,7 @@
 		]
 	},
 	"skis": {
-		"name": "skis",
+		"name": "Skis",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skis",
@@ -2949,7 +2949,7 @@
 		]
 	},
 	"skunk": {
-		"name": "skunk",
+		"name": "Skunk",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skunk",
@@ -2961,7 +2961,7 @@
 		]
 	},
 	"sky_mine": {
-		"name": "sky mine",
+		"name": "Sky mine",
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Sky mine",
@@ -2973,7 +2973,7 @@
 		]
 	},
 	"slave_hard_labor": {
-		"name": "slave (hard labor)",
+		"name": "Slave (hard labor)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Slave",
@@ -2984,12 +2984,12 @@
 		]
 	},
 	"slave_household": {
-		"name": "slave (household)",
+		"name": "Slave (household)",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slave_slip,_halfling": {
-		"name": "slave (slip, halfling)",
+		"name": "Slave (slip, halfling)",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
@@ -2997,17 +2997,17 @@
 		"copyof": "slave_slip,_halfling"
 	},
 	"slave_specialized": {
-		"name": "slave (specialized)",
+		"name": "Slave (specialized)",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slave": {
-		"name": "slave",
+		"name": "Slave",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slayer's_kit": {
-		"name": "slayer's kit",
+		"name": "Slayer's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Slayer's kit",
@@ -3019,7 +3019,7 @@
 		]
 	},
 	"sled": {
-		"name": "sled",
+		"name": "Sled",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Sled",
@@ -3031,7 +3031,7 @@
 		]
 	},
 	"sled_travel,_per_mile": {
-		"name": "sled (travel, per mile)",
+		"name": "Sled (travel, per mile)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "sled"
 	},
@@ -3039,7 +3039,7 @@
 		"copyof": "sled_travel,_per_mile"
 	},
 	"sledge": {
-		"name": "sledge",
+		"name": "Sledge",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3054,7 +3054,7 @@
 		]
 	},
 	"sleeve_holster": {
-		"name": "sleeve holster",
+		"name": "Sleeve holster",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sleeve holster",
@@ -3066,7 +3066,7 @@
 		]
 	},
 	"sleigh": {
-		"name": "sleigh",
+		"name": "Sleigh",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sleigh",
@@ -3078,7 +3078,7 @@
 		]
 	},
 	"sleigh_travel,_per_mile": {
-		"name": "sleigh (travel, per mile)",
+		"name": "Sleigh (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "sleigh"
 	},
@@ -3086,7 +3086,7 @@
 		"copyof": "sleigh_travel,_per_mile"
 	},
 	"slow-heart_concoction": {
-		"name": "slow-heart concoction",
+		"name": "Slow-heart concoction",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Slow-heart concoction",
@@ -3101,7 +3101,7 @@
 		"copyof": "slow-heart_concoction"
 	},
 	"smelling_salts": {
-		"name": "smelling salts",
+		"name": "Smelling salts",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3119,7 +3119,7 @@
 		]
 	},
 	"smoke_bomb": {
-		"name": "smoke bomb",
+		"name": "Smoke Bomb",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
 			"## Smoke Bomb",
@@ -3134,7 +3134,7 @@
 		]
 	},
 	"smoke_cover": {
-		"name": "smoke cover",
+		"name": "Smoke cover",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Smoke cover",
@@ -3150,7 +3150,7 @@
 		]
 	},
 	"smoke_pellet": {
-		"name": "smoke pellet",
+		"name": "Smoke pellet",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -3169,7 +3169,7 @@
 		]
 	},
 	"smoke_signal": {
-		"name": "smoke signal",
+		"name": "Smoke signal",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Smoke signal",
@@ -3184,7 +3184,7 @@
 		]
 	},
 	"smoked_goggles": {
-		"name": "smoked goggles",
+		"name": "Smoked goggles",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3199,7 +3199,7 @@
 		]
 	},
 	"smokestick": {
-		"name": "smokestick",
+		"name": "Smokestick",
 		"sources": [
 			"Alchemy Manual",
 			"PRPG Core Rulebook",
@@ -3218,7 +3218,7 @@
 		]
 	},
 	"smuggler's_wagon": {
-		"name": "smuggler's wagon",
+		"name": "Smuggler's wagon",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Smuggler's wagon",
@@ -3239,7 +3239,7 @@
 		]
 	},
 	"snail_kite": {
-		"name": "snail kite",
+		"name": "Snail kite",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Snail kite",
@@ -3251,7 +3251,7 @@
 		]
 	},
 	"snake_constrictor": {
-		"name": "snake (constrictor)",
+		"name": "Snake (constrictor)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -3266,7 +3266,7 @@
 		]
 	},
 	"snake_viper": {
-		"name": "snake (viper)",
+		"name": "Snake (viper)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -3281,7 +3281,7 @@
 		]
 	},
 	"snake_oil": {
-		"name": "snake oil",
+		"name": "Snake oil",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Snake oil",
@@ -3302,7 +3302,7 @@
 		]
 	},
 	"snake-tongue_concoction": {
-		"name": "snake-tongue concoction",
+		"name": "Snake-tongue concoction",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Snake-tongue concoction",
@@ -3317,7 +3317,7 @@
 		"copyof": "snake-tongue_concoction"
 	},
 	"snapping_turtle": {
-		"name": "snapping turtle",
+		"name": "Snapping turtle",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Snapping turtle",
@@ -3329,7 +3329,7 @@
 		]
 	},
 	"snorkel_common": {
-		"name": "snorkel (common)",
+		"name": "Snorkel (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Snorkel",
@@ -3342,12 +3342,12 @@
 		]
 	},
 	"snorkel_masterwork": {
-		"name": "snorkel (masterwork)",
+		"name": "Snorkel (masterwork)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "snorkel_common"
 	},
 	"snow_goggles": {
-		"name": "snow goggles",
+		"name": "Snow goggles",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Snow goggles",
@@ -3359,7 +3359,7 @@
 		]
 	},
 	"snowshoes": {
-		"name": "snowshoes",
+		"name": "Snowshoes",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #51: The Hungry Storm",
@@ -3376,7 +3376,7 @@
 		]
 	},
 	"snuffbox_bone_or_tortoise_shell": {
-		"name": "snuffbox (bone or tortoise shell)",
+		"name": "Snuffbox (bone or tortoise shell)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Snuffbox",
@@ -3387,17 +3387,17 @@
 		]
 	},
 	"snuffbox_ivory_or_precious_metal": {
-		"name": "snuffbox (ivory or precious metal)",
+		"name": "Snuffbox (ivory or precious metal)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "snuffbox_bone_or_tortoise_shell"
 	},
 	"snuffbox_tin_or_wood": {
-		"name": "snuffbox (tin or wood)",
+		"name": "Snuffbox (tin or wood)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "snuffbox_bone_or_tortoise_shell"
 	},
 	"soap": {
-		"name": "soap",
+		"name": "Soap",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -3413,7 +3413,7 @@
 		]
 	},
 	"softpaw_boots": {
-		"name": "softpaw boots",
+		"name": "Softpaw boots",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Softpaw boots",
@@ -3425,7 +3425,7 @@
 		]
 	},
 	"soldier's_uniform": {
-		"name": "soldier's uniform",
+		"name": "Soldier's uniform",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Soldier's uniform",
@@ -3437,7 +3437,7 @@
 		]
 	},
 	"songs_of_shazathared": {
-		"name": "songs of shazathared",
+		"name": "Songs of Shazathared",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Songs of Shazathared",
@@ -3451,7 +3451,7 @@
 		]
 	},
 	"soothe_syrup": {
-		"name": "soothe syrup",
+		"name": "Soothe syrup",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3469,7 +3469,7 @@
 		]
 	},
 	"sorcerer's_kit": {
-		"name": "sorcerer's kit",
+		"name": "Sorcerer's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sorcerer's kit",
@@ -3481,7 +3481,7 @@
 		]
 	},
 	"sorcerer's_spirits": {
-		"name": "sorcerer's spirits",
+		"name": "Sorcerer's spirits",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Sorcerer's spirits",
@@ -3496,7 +3496,7 @@
 		]
 	},
 	"soul_candle": {
-		"name": "soul candle",
+		"name": "Soul candle",
 		"sources": [ "Inner Sea Temples" ],
 		"description": [
 			"## Soul candle",
@@ -3508,7 +3508,7 @@
 		]
 	},
 	"soul_stimulant": {
-		"name": "soul stimulant",
+		"name": "Soul stimulant",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Soul stimulant",
@@ -3523,7 +3523,7 @@
 		]
 	},
 	"sparkle_smoke": {
-		"name": "sparkle smoke",
+		"name": "Sparkle smoke",
 		"sources": [
 			"Adventurer's Guide",
 			"Pathfinder #106: For Queen and Empire"
@@ -3541,7 +3541,7 @@
 		]
 	},
 	"sparring_gear": {
-		"name": "sparring gear",
+		"name": "Sparring gear",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sparring gear",
@@ -3553,7 +3553,7 @@
 		]
 	},
 	"speaking_trumpet": {
-		"name": "speaking trumpet",
+		"name": "Speaking trumpet",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Speaking trumpet",
@@ -3565,7 +3565,7 @@
 		]
 	},
 	"spear-thrower": {
-		"name": "spear-thrower",
+		"name": "Spear-thrower",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Spear-thrower",
@@ -3580,7 +3580,7 @@
 		"copyof": "spear-thrower"
 	},
 	"speech_resin": {
-		"name": "speech resin",
+		"name": "Speech resin",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Speech resin",
@@ -3595,7 +3595,7 @@
 		]
 	},
 	"speed_sheath": {
-		"name": "speed sheath",
+		"name": "Speed sheath",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Speed sheath",
@@ -3607,7 +3607,7 @@
 		]
 	},
 	"spell_component_pouch": {
-		"name": "spell component pouch",
+		"name": "Spell component pouch",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3622,7 +3622,7 @@
 		]
 	},
 	"spellbook": {
-		"name": "spellbook",
+		"name": "Spellbook",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3637,7 +3637,7 @@
 		]
 	},
 	"spellcasting": {
-		"name": "spellcasting",
+		"name": "Spellcasting",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3660,7 +3660,7 @@
 		]
 	},
 	"spelunking_kit": {
-		"name": "spelunking kit",
+		"name": "Spelunking kit",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -3675,7 +3675,7 @@
 		]
 	},
 	"sphere-song_concoction": {
-		"name": "sphere-song concoction",
+		"name": "Sphere-song concoction",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sphere-song concoction",
@@ -3690,7 +3690,7 @@
 		"copyof": "sphere-song_concoction"
 	},
 	"spider_sac": {
-		"name": "spider sac",
+		"name": "Spider sac",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Spider sac",
@@ -3705,7 +3705,7 @@
 		]
 	},
 	"spider": {
-		"name": "spider",
+		"name": "Spider",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spider",
@@ -3717,7 +3717,7 @@
 		]
 	},
 	"spider's_silk_rope_50_ft.": {
-		"name": "spider's silk rope (50 ft.)",
+		"name": "Spider's silk rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3735,7 +3735,7 @@
 		"copyof": "spider's_silk_rope_50_ft."
 	},
 	"spiderdraw": {
-		"name": "spiderdraw",
+		"name": "Spiderdraw",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Spiderdraw",
@@ -3754,7 +3754,7 @@
 		]
 	},
 	"spike_hilt": {
-		"name": "spike hilt",
+		"name": "Spike hilt",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Spike hilt",
@@ -3766,7 +3766,7 @@
 		]
 	},
 	"spiked_focus_ward": {
-		"name": "spiked focus ward",
+		"name": "Spiked focus ward",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Spiked focus ward",
@@ -3779,7 +3779,7 @@
 		]
 	},
 	"spinosaurus": {
-		"name": "spinosaurus",
+		"name": "Spinosaurus",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Spinosaurus",
@@ -3791,7 +3791,7 @@
 		]
 	},
 	"spirit_compass": {
-		"name": "spirit compass",
+		"name": "Spirit compass",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Spirit compass",
@@ -3803,7 +3803,7 @@
 		]
 	},
 	"spirit_of_glass": {
-		"name": "spirit of glass",
+		"name": "Spirit of glass",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Spirit of glass",
@@ -3818,7 +3818,7 @@
 		]
 	},
 	"spirit_offerings": {
-		"name": "spirit offerings",
+		"name": "Spirit offerings",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Spirit offerings",
@@ -3830,7 +3830,7 @@
 		]
 	},
 	"spirit_trumpet": {
-		"name": "spirit trumpet",
+		"name": "Spirit trumpet",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spirit trumpet",
@@ -3842,7 +3842,7 @@
 		]
 	},
 	"spirit-vision_ink": {
-		"name": "spirit-vision ink",
+		"name": "Spirit-vision ink",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spirit-vision ink",
@@ -3860,7 +3860,7 @@
 		"copyof": "spirit-vision_ink"
 	},
 	"spiritbane_spike": {
-		"name": "spiritbane spike",
+		"name": "Spiritbane spike",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Spiritbane spike",
@@ -3875,7 +3875,7 @@
 		]
 	},
 	"spiritual_leader's_vestments": {
-		"name": "spiritual leader's vestments",
+		"name": "Spiritual leader's vestments",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Spiritual leader's vestments",
@@ -3887,7 +3887,7 @@
 		]
 	},
 	"spiritualist's_kit": {
-		"name": "spiritualist's kit",
+		"name": "Spiritualist's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spiritualist's kit",
@@ -3899,7 +3899,7 @@
 		]
 	},
 	"sponge_suit": {
-		"name": "sponge suit",
+		"name": "Sponge suit",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Sponge suit",
@@ -3915,7 +3915,7 @@
 		]
 	},
 	"spotlight": {
-		"name": "spotlight",
+		"name": "Spotlight",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Spotlight",
@@ -3927,7 +3927,7 @@
 		]
 	},
 	"spy's_kit": {
-		"name": "spy's kit",
+		"name": "Spy's kit",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Spy's kit",
@@ -3939,7 +3939,7 @@
 		]
 	},
 	"spycatcher's_kit": {
-		"name": "spycatcher's kit",
+		"name": "Spycatcher's kit",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Spycatcher's kit",
@@ -3951,7 +3951,7 @@
 		]
 	},
 	"spyglass_masterwork": {
-		"name": "spyglass (masterwork)",
+		"name": "Spyglass (masterwork)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Spyglass (masterwork)",
@@ -3963,7 +3963,7 @@
 		]
 	},
 	"spyglass": {
-		"name": "spyglass",
+		"name": "Spyglass",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3978,7 +3978,7 @@
 		]
 	},
 	"squid": {
-		"name": "squid",
+		"name": "Squid",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Squid",
@@ -3990,7 +3990,7 @@
 		]
 	},
 	"squire's_outfit": {
-		"name": "squire's outfit",
+		"name": "Squire's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4013,7 +4013,7 @@
 		]
 	},
 	"tear-away_squire's_outfit": {
-		"name": "tear-away squire's outfit",
+		"name": "Tear-away squire's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4025,7 +4025,7 @@
 		"copyof": "tear-away_squire's_outfit"
 	},
 	"squirrel_common": {
-		"name": "squirrel (common)",
+		"name": "Squirrel (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Squirrel",
@@ -4038,12 +4038,12 @@
 		]
 	},
 	"squirrel_flying": {
-		"name": "squirrel (flying)",
+		"name": "Squirrel (flying)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "squirrel_common"
 	},
 	"stabling_per_day": {
-		"name": "stabling (per day)",
+		"name": "Stabling (per day)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4058,7 +4058,7 @@
 		]
 	},
 	"stagnant_fog_sack": {
-		"name": "stagnant fog sack",
+		"name": "Stagnant fog sack",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"## Stagnant fog sack",
@@ -4073,7 +4073,7 @@
 		]
 	},
 	"stalker's_oil": {
-		"name": "stalker's oil",
+		"name": "Stalker's oil",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Stalker's oil",
@@ -4085,7 +4085,7 @@
 		]
 	},
 	"star_charts": {
-		"name": "star charts",
+		"name": "Star charts",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Star charts",
@@ -4097,7 +4097,7 @@
 		]
 	},
 	"starlight_juice": {
-		"name": "starlight juice",
+		"name": "Starlight juice",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Starlight juice",
@@ -4112,7 +4112,7 @@
 		]
 	},
 	"static_wool": {
-		"name": "static wool",
+		"name": "Static wool",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Static wool",
@@ -4124,7 +4124,7 @@
 		]
 	},
 	"stationery": {
-		"name": "stationery",
+		"name": "Stationery",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4139,7 +4139,7 @@
 		]
 	},
 	"statue_disguise_kit": {
-		"name": "statue disguise kit",
+		"name": "Statue disguise kit",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Statue disguise kit",
@@ -4151,7 +4151,7 @@
 		]
 	},
 	"stegosaurus": {
-		"name": "stegosaurus",
+		"name": "Stegosaurus",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Stegosaurus",
@@ -4163,7 +4163,7 @@
 		]
 	},
 	"stiletto_boots": {
-		"name": "stiletto boots",
+		"name": "Stiletto boots",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Stiletto boots",
@@ -4175,7 +4175,7 @@
 		]
 	},
 	"stillgut_vial": {
-		"name": "stillgut (vial)",
+		"name": "Stillgut (vial)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stillgut (vial)",
@@ -4190,7 +4190,7 @@
 		]
 	},
 	"stilts_common": {
-		"name": "stilts (common)",
+		"name": "Stilts (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stilts",
@@ -4207,12 +4207,12 @@
 		]
 	},
 	"stilts_masterwork": {
-		"name": "stilts (masterwork)",
+		"name": "Stilts (masterwork)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "stilts_common"
 	},
 	"stinging_whip_calistria": {
-		"name": "stinging whip (calistria)",
+		"name": "Stinging whip (calistria)",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Stinging whip",
@@ -4225,7 +4225,7 @@
 		]
 	},
 	"stingray": {
-		"name": "stingray",
+		"name": "Stingray",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Stingray",
@@ -4237,7 +4237,7 @@
 		]
 	},
 	"stink_ink_arcane": {
-		"name": "stink ink (arcane)",
+		"name": "Stink ink (arcane)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stink ink (arcane)",
@@ -4249,7 +4249,7 @@
 		]
 	},
 	"stink_ink_common": {
-		"name": "stink ink (common)",
+		"name": "Stink ink (common)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stink ink (common)",
@@ -4264,7 +4264,7 @@
 		]
 	},
 	"stirge": {
-		"name": "stirge",
+		"name": "Stirge",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4279,7 +4279,7 @@
 		]
 	},
 	"stonechipper_salve": {
-		"name": "stonechipper salve",
+		"name": "Stonechipper salve",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stonechipper salve",
@@ -4294,7 +4294,7 @@
 		]
 	},
 	"storm_glass": {
-		"name": "storm glass",
+		"name": "Storm glass",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Storm glass",
@@ -4306,7 +4306,7 @@
 		]
 	},
 	"stout_solution": {
-		"name": "stout solution",
+		"name": "Stout solution",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Stout solution",
@@ -4321,7 +4321,7 @@
 		]
 	},
 	"stove_can": {
-		"name": "stove can",
+		"name": "Stove can",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4336,7 +4336,7 @@
 		]
 	},
 	"straitjacket_common": {
-		"name": "straitjacket (common)",
+		"name": "Straitjacket (common)",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Straitjacket",
@@ -4347,12 +4347,12 @@
 		]
 	},
 	"straitjacket_masterwork": {
-		"name": "straitjacket (masterwork)",
+		"name": "Straitjacket (masterwork)",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "straitjacket_common"
 	},
 	"street_meat": {
-		"name": "street meat",
+		"name": "Street meat",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Street meat",
@@ -4364,7 +4364,7 @@
 		]
 	},
 	"stretch_cords": {
-		"name": "stretch cords",
+		"name": "Stretch cords",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Stretch cords",
@@ -4376,7 +4376,7 @@
 		]
 	},
 	"stretcher": {
-		"name": "stretcher",
+		"name": "Stretcher",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4391,7 +4391,7 @@
 		]
 	},
 	"string_or_twine_50_ft.": {
-		"name": "string or twine (50 ft.)",
+		"name": "String or twine (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4411,7 +4411,7 @@
 		"copyof": "string_or_twine_50_ft."
 	},
 	"subversive_vest_vest": {
-		"name": "subversive vest (vest)",
+		"name": "Subversive vest (vest)",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Subversive vest",
@@ -4424,12 +4424,12 @@
 		]
 	},
 	"subversive_vest_vestment": {
-		"name": "subversive vest (vestment)",
+		"name": "Subversive vest (vestment)",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "subversive_vest_vest"
 	},
 	"sucker's_barrel": {
-		"name": "sucker's barrel",
+		"name": "Sucker's barrel",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Sucker's barrel",
@@ -4441,7 +4441,7 @@
 		]
 	},
 	"sugar_glass_bottle": {
-		"name": "sugar glass bottle",
+		"name": "Sugar glass bottle",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sugar glass bottle",
@@ -4453,7 +4453,7 @@
 		]
 	},
 	"summoner's_kit": {
-		"name": "summoner's kit",
+		"name": "Summoner's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Summoner's kit",
@@ -4465,7 +4465,7 @@
 		]
 	},
 	"sun_cinder": {
-		"name": "sun cinder",
+		"name": "Sun cinder",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Sun cinder",
@@ -4480,7 +4480,7 @@
 		]
 	},
 	"sun_cream": {
-		"name": "sun cream",
+		"name": "Sun cream",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Sun cream",
@@ -4495,7 +4495,7 @@
 		]
 	},
 	"sunblock_kohl": {
-		"name": "sunblock kohl",
+		"name": "Sunblock kohl",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Sunblock kohl",
@@ -4507,7 +4507,7 @@
 		]
 	},
 	"sunderblock": {
-		"name": "sunderblock",
+		"name": "Sunderblock",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Sunderblock",
@@ -4519,7 +4519,7 @@
 		]
 	},
 	"sundered_mask_nethys": {
-		"name": "sundered mask (nethys)",
+		"name": "Sundered mask (nethys)",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Sundered mask",
@@ -4532,7 +4532,7 @@
 		]
 	},
 	"sunrod": {
-		"name": "sunrod",
+		"name": "Sunrod",
 		"sources": [
 			"Alchemy Manual",
 			"PRPG Core Rulebook",
@@ -4551,7 +4551,7 @@
 		]
 	},
 	"sunsoil": {
-		"name": "sunsoil",
+		"name": "Sunsoil",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Sunsoil",
@@ -4563,7 +4563,7 @@
 		]
 	},
 	"surefoot_training_blocks": {
-		"name": "surefoot training blocks",
+		"name": "Surefoot training blocks",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Surefoot training blocks",
@@ -4577,7 +4577,7 @@
 		]
 	},
 	"sureseal_bladder_mundane": {
-		"name": "sureseal bladder (mundane)",
+		"name": "Sureseal bladder (mundane)",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Sureseal bladder",
@@ -4588,12 +4588,12 @@
 		]
 	},
 	"sureseal_bladder_potion": {
-		"name": "sureseal bladder (potion)",
+		"name": "Sureseal bladder (potion)",
 		"sources": [ "Aquatic Adventures" ],
 		"copyof": "sureseal_bladder_mundane"
 	},
 	"surge_syrup": {
-		"name": "surge syrup",
+		"name": "Surge syrup",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Surge syrup",
@@ -4608,7 +4608,7 @@
 		]
 	},
 	"surgeon's_tools": {
-		"name": "surgeon's tools",
+		"name": "Surgeon's tools",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #8: Seven Days to the Grave",
@@ -4624,7 +4624,7 @@
 		]
 	},
 	"surgical_jelly": {
-		"name": "surgical jelly",
+		"name": "Surgical jelly",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Surgical jelly",
@@ -4639,7 +4639,7 @@
 		]
 	},
 	"survival_kit_common": {
-		"name": "survival kit (common)",
+		"name": "Survival kit (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Survival kit",
@@ -4652,12 +4652,12 @@
 		]
 	},
 	"survival_kit_masterwork": {
-		"name": "survival kit (masterwork)",
+		"name": "Survival kit (masterwork)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "survival_kit_common"
 	},
 	"swarmsuit": {
-		"name": "swarmsuit",
+		"name": "Swarmsuit",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4672,7 +4672,7 @@
 		]
 	},
 	"swashbuckler's_kit": {
-		"name": "swashbuckler's kit",
+		"name": "Swashbuckler's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Swashbuckler's kit",
@@ -4684,7 +4684,7 @@
 		]
 	},
 	"sweet_rest": {
-		"name": "sweet rest",
+		"name": "Sweet Rest",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Sweet Rest",
@@ -4699,7 +4699,7 @@
 		]
 	},
 	"swift_hands_tonic": {
-		"name": "swift hands tonic",
+		"name": "Swift hands tonic",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Swift hands tonic",
@@ -4714,7 +4714,7 @@
 		]
 	},
 	"swim_fins": {
-		"name": "swim fins",
+		"name": "Swim fins",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Swim fins",
@@ -4726,7 +4726,7 @@
 		]
 	},
 	"sylirican_lemons": {
-		"name": "sylirican lemons",
+		"name": "Sylirican lemons",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Sylirican lemons",
@@ -4738,7 +4738,7 @@
 		]
 	},
 	"symptom_kit": {
-		"name": "symptom kit",
+		"name": "Symptom kit",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4753,7 +4753,7 @@
 		]
 	},
 	"synthetic_mumia": {
-		"name": "synthetic mumia",
+		"name": "Synthetic mumia",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Synthetic mumia",
@@ -4775,7 +4775,7 @@
 		]
 	},
 	"tabard": {
-		"name": "tabard",
+		"name": "Tabard",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tabard",
@@ -4787,7 +4787,7 @@
 		]
 	},
 	"talking_board": {
-		"name": "talking board",
+		"name": "Talking board",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Talking board",
@@ -4805,7 +4805,7 @@
 		]
 	},
 	"tattoo": {
-		"name": "tattoo",
+		"name": "Tattoo",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4822,7 +4822,7 @@
 		]
 	},
 	"taxidermy_tools": {
-		"name": "taxidermy tools",
+		"name": "Taxidermy tools",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Taxidermy tools",
@@ -4834,7 +4834,7 @@
 		]
 	},
 	"tea_ceremonial,_cup": {
-		"name": "tea (ceremonial, cup)",
+		"name": "Tea (ceremonial, cup)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4851,7 +4851,7 @@
 		"copyof": "tea_ceremonial,_cup"
 	},
 	"tea_cup": {
-		"name": "tea (cup)",
+		"name": "Tea (cup)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4859,7 +4859,7 @@
 		"copyof": "tea_ceremonial_cup"
 	},
 	"tea_ceremony_set": {
-		"name": "tea ceremony set",
+		"name": "Tea ceremony set",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -4874,7 +4874,7 @@
 		]
 	},
 	"tea_of_transference": {
-		"name": "tea of transference",
+		"name": "Tea of transference",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Tea of transference",
@@ -4889,7 +4889,7 @@
 		]
 	},
 	"tea,_kelp": {
-		"name": "tea, kelp",
+		"name": "Tea, kelp",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Tea, kelp",
@@ -4904,7 +4904,7 @@
 		"copyof": "tea,_kelp"
 	},
 	"teaching_staff": {
-		"name": "teaching staff",
+		"name": "Teaching staff",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Teaching staff",
@@ -4917,7 +4917,7 @@
 		]
 	},
 	"teapot": {
-		"name": "teapot",
+		"name": "Teapot",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Teapot",
@@ -4929,7 +4929,7 @@
 		]
 	},
 	"tears_of_razmir": {
-		"name": "tears of razmir",
+		"name": "Tears of Razmir",
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Tears of Razmir",
@@ -4945,7 +4945,7 @@
 		]
 	},
 	"telescope_x10": {
-		"name": "telescope (&times;10)",
+		"name": "Telescope (&times;10)",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Telescope",
@@ -4967,7 +4967,7 @@
 		"copyof": "telescope_x10"
 	},
 	"telescope_x250": {
-		"name": "telescope (&times;250)",
+		"name": "Telescope (&times;250)",
 		"sources": [ "People of the Stars" ],
 		"copyof": "telescope_xten"
 	},
@@ -4975,7 +4975,7 @@
 		"copyof": "telescope_x250"
 	},
 	"telescope_x50": {
-		"name": "telescope (&times;50)",
+		"name": "Telescope (&times;50)",
 		"sources": [ "People of the Stars" ],
 		"copyof": "telescope_xten"
 	},
@@ -4983,7 +4983,7 @@
 		"copyof": "telescope_x50"
 	},
 	"tennis_gear": {
-		"name": "tennis gear",
+		"name": "Tennis gear",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tennis gear",
@@ -4995,7 +4995,7 @@
 		]
 	},
 	"tent_large": {
-		"name": "tent (large)",
+		"name": "Tent (large)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5010,7 +5010,7 @@
 		]
 	},
 	"tent_medium": {
-		"name": "tent (medium)",
+		"name": "Tent (medium)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -5019,7 +5019,7 @@
 		"copyof": "tent_large"
 	},
 	"tent_pavilion": {
-		"name": "tent (pavilion)",
+		"name": "Tent (pavilion)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5028,7 +5028,7 @@
 		"copyof": "tent_large"
 	},
 	"tent_small": {
-		"name": "tent (small)",
+		"name": "Tent (small)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -5037,7 +5037,7 @@
 		"copyof": "tent_large"
 	},
 	"tent_cover": {
-		"name": "tent cover",
+		"name": "Tent cover",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tent cover",
@@ -5049,7 +5049,7 @@
 		]
 	},
 	"tent": {
-		"name": "tent",
+		"name": "Tent",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Tent",
@@ -5061,7 +5061,7 @@
 		]
 	},
 	"tent,_hanging": {
-		"name": "tent, hanging",
+		"name": "Tent, hanging",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tent, hanging",
@@ -5076,7 +5076,7 @@
 		"copyof": "tent,_hanging"
 	},
 	"tepache_cup": {
-		"name": "tepache (cup)",
+		"name": "Tepache (cup)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tepache (cup)",
@@ -5088,7 +5088,7 @@
 		]
 	},
 	"terror_kite": {
-		"name": "terror kite",
+		"name": "Terror kite",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Terror kite",
@@ -5100,7 +5100,7 @@
 		]
 	},
 	"the_prophecies_of_kalistrade": {
-		"name": "the prophecies of kalistrade",
+		"name": "The Prophecies of Kalistrade",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## The Prophecies of Kalistrade",
@@ -5112,7 +5112,7 @@
 		]
 	},
 	"thermometer": {
-		"name": "thermometer",
+		"name": "Thermometer",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Thermometer",
@@ -5124,7 +5124,7 @@
 		]
 	},
 	"thief_trainer": {
-		"name": "thief trainer",
+		"name": "Thief trainer",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Thief trainer",
@@ -5136,7 +5136,7 @@
 		]
 	},
 	"thieves'_ring": {
-		"name": "thieves' ring",
+		"name": "Thieves' ring",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Thieves' ring",
@@ -5148,7 +5148,7 @@
 		]
 	},
 	"thieves'_tool_extenders_common": {
-		"name": "thieves' tool extenders (common)",
+		"name": "Thieves' tool extenders (common)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Thieves' tool extenders",
@@ -5159,12 +5159,12 @@
 		]
 	},
 	"thieves'_tool_extenders_mithral": {
-		"name": "thieves' tool extenders (mithral)",
+		"name": "Thieves' tool extenders (mithral)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "thieves'_tool_extenders_common"
 	},
 	"thieves'_tools_common": {
-		"name": "thieves' tools (common)",
+		"name": "Thieves' tools (common)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5180,7 +5180,7 @@
 		]
 	},
 	"thieves'_tools_masterwork": {
-		"name": "thieves' tools (masterwork)",
+		"name": "Thieves' tools (masterwork)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5188,7 +5188,7 @@
 		"copyof": "thieves'_tools_common"
 	},
 	"thinker's_tipple": {
-		"name": "thinker's tipple",
+		"name": "Thinker's tipple",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Thinker's tipple",
@@ -5203,7 +5203,7 @@
 		]
 	},
 	"thrush": {
-		"name": "thrush",
+		"name": "Thrush",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Thrush",
@@ -5215,7 +5215,7 @@
 		]
 	},
 	"thumbscrews_common": {
-		"name": "thumbscrews (common)",
+		"name": "Thumbscrews (common)",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Thumbscrews",
@@ -5228,12 +5228,12 @@
 		]
 	},
 	"thumbscrews_masterwork": {
-		"name": "thumbscrews (masterwork)",
+		"name": "Thumbscrews (masterwork)",
 		"sources": [ "Horror Adventures" ],
 		"copyof": "thumbscrews_common"
 	},
 	"thunder_kettle": {
-		"name": "thunder kettle",
+		"name": "Thunder kettle",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"## Thunder kettle",
@@ -5248,7 +5248,7 @@
 		]
 	},
 	"thurible": {
-		"name": "thurible",
+		"name": "Thurible",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #8: Seven Days to the Grave",
@@ -5264,7 +5264,7 @@
 		]
 	},
 	"thylacine": {
-		"name": "thylacine",
+		"name": "Thylacine",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Thylacine",
@@ -5276,7 +5276,7 @@
 		]
 	},
 	"tiger_combat-trained": {
-		"name": "tiger (combat-trained)",
+		"name": "Tiger (combat-trained)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tiger",
@@ -5289,12 +5289,12 @@
 		"copyof": "tiger_combat-trained"
 	},
 	"tiger_common": {
-		"name": "tiger (common)",
+		"name": "Tiger (common)",
 		"sources": [ "Animal Archive" ],
 		"copyof": "tiger_combat_trained"
 	},
 	"tiller's_gum": {
-		"name": "tiller's gum",
+		"name": "Tiller's gum",
 		"sources": [
 			"Adventurer's Guide",
 			"Pathfinder #106: For Queen and Empire"
@@ -5312,7 +5312,7 @@
 		]
 	},
 	"tindertwig": {
-		"name": "tindertwig",
+		"name": "Tindertwig",
 		"sources": [
 			"Alchemy Manual",
 			"Ultimate Equipment",
@@ -5331,7 +5331,7 @@
 		]
 	},
 	"tinker's_cap": {
-		"name": "tinker's cap",
+		"name": "Tinker's cap",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Tinker's cap",
@@ -5343,7 +5343,7 @@
 		]
 	},
 	"titan's_tonic": {
-		"name": "titan's tonic",
+		"name": "Titan's tonic",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Titan's tonic",
@@ -5358,7 +5358,7 @@
 		]
 	},
 	"toad_vision": {
-		"name": "toad (vision)",
+		"name": "Toad (vision)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Toad (vision)",
@@ -5370,7 +5370,7 @@
 		]
 	},
 	"toad": {
-		"name": "toad",
+		"name": "Toad",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -5385,7 +5385,7 @@
 		]
 	},
 	"tobacco": {
-		"name": "tobacco",
+		"name": "Tobacco",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Tobacco",
@@ -5397,7 +5397,7 @@
 		]
 	},
 	"tome_of_epics": {
-		"name": "tome of epics",
+		"name": "Tome of epics",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tome of epics",
@@ -5409,7 +5409,7 @@
 		]
 	},
 	"torch": {
-		"name": "torch",
+		"name": "Torch",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5424,7 +5424,7 @@
 		]
 	},
 	"tossglove": {
-		"name": "tossglove",
+		"name": "Tossglove",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
 			"## Tossglove",
@@ -5436,7 +5436,7 @@
 		]
 	},
 	"toucan": {
-		"name": "toucan",
+		"name": "Toucan",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Toucan",
@@ -5448,7 +5448,7 @@
 		]
 	},
 	"toxic_censer": {
-		"name": "toxic censer",
+		"name": "Toxic censer",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Toxic censer",
@@ -5460,7 +5460,7 @@
 		]
 	},
 	"track-obscuring_soles": {
-		"name": "track-obscuring soles",
+		"name": "Track-obscuring soles",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Track-obscuring soles",
@@ -5475,7 +5475,7 @@
 		"copyof": "track-obscuring_soles"
 	},
 	"tracker's_kit": {
-		"name": "tracker's kit",
+		"name": "Tracker's kit",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Tracker's kit",
@@ -5487,7 +5487,7 @@
 		]
 	},
 	"tracker's_snuff": {
-		"name": "tracker's snuff",
+		"name": "Tracker's snuff",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tracker's snuff",
@@ -5502,7 +5502,7 @@
 		]
 	},
 	"tracking_powder": {
-		"name": "tracking powder",
+		"name": "Tracking powder",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tracking powder",
@@ -5517,7 +5517,7 @@
 		]
 	},
 	"trail_rations": {
-		"name": "trail rations",
+		"name": "Trail rations",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5532,7 +5532,7 @@
 		]
 	},
 	"trailscent_kit": {
-		"name": "trailscent kit",
+		"name": "Trailscent kit",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Trailscent kit",
@@ -5547,7 +5547,7 @@
 		]
 	},
 	"training_harness": {
-		"name": "training harness",
+		"name": "Training harness",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Training harness",
@@ -5559,7 +5559,7 @@
 		]
 	},
 	"training_sleeve": {
-		"name": "training sleeve",
+		"name": "Training sleeve",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Training sleeve",
@@ -5571,7 +5571,7 @@
 		]
 	},
 	"trapped_item_trapped_disguise_kit": {
-		"name": "trapped item (trapped disguise kit)",
+		"name": "Trapped item (trapped disguise kit)",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Trapped item",
@@ -5598,12 +5598,12 @@
 		]
 	},
 	"trapped_item_trapped_scroll_case": {
-		"name": "trapped item (trapped scroll case)",
+		"name": "Trapped item (trapped scroll case)",
 		"sources": [ "Kobolds of Golarion" ],
 		"copyof": "trapped_item_trapped_disguise_kit"
 	},
 	"trapper's_kit": {
-		"name": "trapper's kit",
+		"name": "Trapper's kit",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Trapper's kit",
@@ -5615,7 +5615,7 @@
 		]
 	},
 	"travel_cake_mix": {
-		"name": "travel cake mix",
+		"name": "Travel cake mix",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Travel cake mix",
@@ -5627,7 +5627,7 @@
 		]
 	},
 	"traveler's_dictionary": {
-		"name": "traveler's dictionary",
+		"name": "Traveler's dictionary",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Traveler's dictionary",
@@ -5639,7 +5639,7 @@
 		]
 	},
 	"traveler's_hookah": {
-		"name": "traveler's hookah",
+		"name": "Traveler's hookah",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Traveler's hookah",
@@ -5651,7 +5651,7 @@
 		]
 	},
 	"traveler's_outfit": {
-		"name": "traveler's outfit",
+		"name": "Traveler's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5674,7 +5674,7 @@
 		]
 	},
 	"tear-away_traveler's_outfit": {
-		"name": "tear-away traveler's outfit",
+		"name": "Tear-away traveler's outfit",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5686,7 +5686,7 @@
 		"copyof": "tear-away_traveler's_outfit"
 	},
 	"traveler's_pocket_watch": {
-		"name": "traveler's pocket watch",
+		"name": "Traveler's pocket watch",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Traveler's pocket watch",
@@ -5698,7 +5698,7 @@
 		]
 	},
 	"traveling_bee_hive": {
-		"name": "traveling bee hive",
+		"name": "Traveling bee hive",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Traveling bee hive",
@@ -5712,7 +5712,7 @@
 		]
 	},
 	"traveling_formula_book": {
-		"name": "traveling formula book",
+		"name": "Traveling formula book",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Traveling formula book",
@@ -5724,7 +5724,7 @@
 		]
 	},
 	"traveling_garden": {
-		"name": "traveling garden",
+		"name": "Traveling garden",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Traveling garden",
@@ -5736,7 +5736,7 @@
 		]
 	},
 	"traveling_spellbook": {
-		"name": "traveling spellbook",
+		"name": "Traveling spellbook",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -5752,7 +5752,7 @@
 		]
 	},
 	"treasure_chest_small": {
-		"name": "treasure chest (small)",
+		"name": "Treasure chest (small)",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea"
@@ -5766,12 +5766,12 @@
 		]
 	},
 	"treasure_chest_medium": {
-		"name": "treasure chest (medium)",
+		"name": "Treasure chest (medium)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "treasure_chest_small"
 	},
 	"treasure_chest_huge": {
-		"name": "treasure chest (huge)",
+		"name": "Treasure chest (huge)",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea"
@@ -5779,7 +5779,7 @@
 		"copyof": "treasure_chest_small"
 	},
 	"treasure_chest_large": {
-		"name": "treasure chest (large)",
+		"name": "Treasure chest (large)",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea"
@@ -5787,7 +5787,7 @@
 		"copyof": "treasure_chest_small"
 	},
 	"trekking_pole": {
-		"name": "trekking pole",
+		"name": "Trekking pole",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Trekking pole",
@@ -5799,7 +5799,7 @@
 		]
 	},
 	"trephine": {
-		"name": "trephine",
+		"name": "Trephine",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Trephine",
@@ -5811,7 +5811,7 @@
 		]
 	},
 	"trespasser's_boot": {
-		"name": "trespasser's boot",
+		"name": "Trespasser's boot",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Trespasser's boot",
@@ -5828,7 +5828,7 @@
 		]
 	},
 	"tribal_standard": {
-		"name": "tribal standard",
+		"name": "Tribal standard",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tribal standard",
@@ -5840,7 +5840,7 @@
 		]
 	},
 	"triceratops": {
-		"name": "triceratops",
+		"name": "Triceratops",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Triceratops",
@@ -5852,7 +5852,7 @@
 		]
 	},
 	"trickster's_kit": {
-		"name": "trickster's kit",
+		"name": "Trickster's kit",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Trickster's kit",
@@ -5864,7 +5864,7 @@
 		]
 	},
 	"troll_oil": {
-		"name": "troll oil",
+		"name": "Troll oil",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Troll oil",
@@ -5879,7 +5879,7 @@
 		]
 	},
 	"troll_slayer's_kit": {
-		"name": "troll slayer's kit",
+		"name": "Troll slayer's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Troll slayer's kit",
@@ -5891,7 +5891,7 @@
 		]
 	},
 	"troll_styptic": {
-		"name": "troll styptic",
+		"name": "Troll styptic",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Seekers of Secrets"
@@ -5909,7 +5909,7 @@
 		]
 	},
 	"tropical_kit": {
-		"name": "tropical kit",
+		"name": "Tropical kit",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Tropical kit",
@@ -5921,7 +5921,7 @@
 		]
 	},
 	"tunnel_creeper": {
-		"name": "tunnel creeper",
+		"name": "Tunnel creeper",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Tunnel creeper",
@@ -5936,7 +5936,7 @@
 		]
 	},
 	"turtle": {
-		"name": "turtle",
+		"name": "Turtle",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Turtle",
@@ -5948,7 +5948,7 @@
 		]
 	},
 	"tusk_blades": {
-		"name": "tusk blades",
+		"name": "Tusk blades",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Tusk blades",
@@ -5960,7 +5960,7 @@
 		]
 	},
 	"twitch_tonic": {
-		"name": "twitch tonic",
+		"name": "Twitch tonic",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Twitch tonic",
@@ -5975,7 +5975,7 @@
 		]
 	},
 	"tylosaurus": {
-		"name": "tylosaurus",
+		"name": "Tylosaurus",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tylosaurus",
@@ -5987,7 +5987,7 @@
 		]
 	},
 	"tyrannosaurus": {
-		"name": "tyrannosaurus",
+		"name": "Tyrannosaurus",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tyrannosaurus",
@@ -5999,7 +5999,7 @@
 		]
 	},
 	"undead_slayer's_kit": {
-		"name": "undead slayer's kit",
+		"name": "Undead slayer's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Undead slayer's kit",
@@ -6011,7 +6011,7 @@
 		]
 	},
 	"undead_survivor's_kit": {
-		"name": "undead survivor's kit",
+		"name": "Undead survivor's kit",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Undead survivor's kit",
@@ -6023,7 +6023,7 @@
 		]
 	},
 	"undeath_aid_kit": {
-		"name": "undeath aid kit",
+		"name": "Undeath aid kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Undeath aid kit",
@@ -6035,7 +6035,7 @@
 		]
 	},
 	"underground_survival_kit": {
-		"name": "underground survival kit",
+		"name": "Underground survival kit",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Underground survival kit",
@@ -6047,7 +6047,7 @@
 		]
 	},
 	"underwater_compass": {
-		"name": "underwater compass",
+		"name": "Underwater compass",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Underwater compass",
@@ -6059,7 +6059,7 @@
 		]
 	},
 	"underwater_goggles": {
-		"name": "underwater goggles",
+		"name": "Underwater goggles",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Underwater goggles",
@@ -6071,7 +6071,7 @@
 		]
 	},
 	"unstable_accelerant": {
-		"name": "unstable accelerant",
+		"name": "Unstable accelerant",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Unstable accelerant",
@@ -6086,7 +6086,7 @@
 		]
 	},
 	"valet": {
-		"name": "valet",
+		"name": "Valet",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Valet",
@@ -6098,7 +6098,7 @@
 		]
 	},
 	"vampire_slayer's_kit": {
-		"name": "vampire slayer's kit",
+		"name": "Vampire slayer's kit",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Vampire slayer's kit",
@@ -6110,7 +6110,7 @@
 		]
 	},
 	"vapors_of_easy_breath": {
-		"name": "vapors of easy breath",
+		"name": "Vapors of easy breath",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vapors of easy breath",
@@ -6125,7 +6125,7 @@
 		]
 	},
 	"varisian_idol": {
-		"name": "varisian idol",
+		"name": "Varisian idol",
 		"sources": [
 			"Varisia, Birthplace of Legends",
 			"Rise of the Runelords Player's Guide",
@@ -6157,7 +6157,7 @@
 		]
 	},
 	"vault_altimeter": {
-		"name": "vault altimeter",
+		"name": "Vault altimeter",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Vault altimeter",
@@ -6169,7 +6169,7 @@
 		]
 	},
 	"vector_ink": {
-		"name": "vector ink",
+		"name": "Vector ink",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vector ink",
@@ -6184,7 +6184,7 @@
 		]
 	},
 	"veil": {
-		"name": "veil",
+		"name": "Veil",
 		"sources": [
 			"Heroes of the High Court",
 			"People of the Sands"
@@ -6199,7 +6199,7 @@
 		]
 	},
 	"venom_trap": {
-		"name": "venom trap",
+		"name": "Venom trap",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Venom trap",
@@ -6217,7 +6217,7 @@
 		]
 	},
 	"venombane_lozenges": {
-		"name": "venombane lozenges",
+		"name": "Venombane lozenges",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Venombane lozenges",
@@ -6229,7 +6229,7 @@
 		]
 	},
 	"ventriloquist's_dummy": {
-		"name": "ventriloquist's dummy",
+		"name": "Ventriloquist's dummy",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ventriloquist's dummy",
@@ -6241,7 +6241,7 @@
 		]
 	},
 	"vermin_repellent": {
-		"name": "vermin repellent",
+		"name": "Vermin repellent",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6261,7 +6261,7 @@
 		]
 	},
 	"vest": {
-		"name": "vest",
+		"name": "Vest",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Vest",
@@ -6273,7 +6273,7 @@
 		]
 	},
 	"veterinarian's_kit": {
-		"name": "veterinarian's kit",
+		"name": "Veterinarian's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Veterinarian's kit",
@@ -6285,7 +6285,7 @@
 		]
 	},
 	"vial": {
-		"name": "vial",
+		"name": "Vial",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6300,7 +6300,7 @@
 		]
 	},
 	"vigil_cap": {
-		"name": "vigil cap",
+		"name": "Vigil cap",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Vigil cap",
@@ -6316,7 +6316,7 @@
 		]
 	},
 	"vigilante's_kit": {
-		"name": "vigilante's kit",
+		"name": "Vigilante's kit",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vigilante's kit",
@@ -6328,7 +6328,7 @@
 		]
 	},
 	"vine_tube": {
-		"name": "vine tube",
+		"name": "Vine tube",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Vine tube",
@@ -6343,7 +6343,7 @@
 		]
 	},
 	"vivifying_moxibustion_needles": {
-		"name": "vivifying moxibustion needles",
+		"name": "Vivifying moxibustion needles",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vivifying moxibustion needles",
@@ -6358,7 +6358,7 @@
 		]
 	},
 	"vomit_capsule": {
-		"name": "vomit capsule",
+		"name": "Vomit capsule",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Vomit capsule",
@@ -6373,7 +6373,7 @@
 		]
 	},
 	"vulture": {
-		"name": "vulture",
+		"name": "Vulture",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Vulture",
@@ -6385,7 +6385,7 @@
 		]
 	},
 	"wading_boots": {
-		"name": "wading boots",
+		"name": "Wading boots",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wading boots",
@@ -6397,7 +6397,7 @@
 		]
 	},
 	"waffle_iron_common": {
-		"name": "waffle iron (common)",
+		"name": "Waffle iron (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Waffle iron",
@@ -6408,12 +6408,12 @@
 		]
 	},
 	"waffle_iron_mithral": {
-		"name": "waffle iron (mithral)",
+		"name": "Waffle iron (mithral)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "waffle_iron_common"
 	},
 	"wagon_heavy": {
-		"name": "wagon (heavy)",
+		"name": "Wagon (heavy)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wagon",
@@ -6430,7 +6430,7 @@
 		]
 	},
 	"wagon_heavy_travel,_per_mile": {
-		"name": "wagon (heavy) (travel, per mile)",
+		"name": "Wagon (heavy) (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wagon_heavy"
 	},
@@ -6438,7 +6438,7 @@
 		"copyof": "wagon_heavy_travel,_per_mile"
 	},
 	"wagon_light": {
-		"name": "wagon (light)",
+		"name": "Wagon (light)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6446,12 +6446,12 @@
 		"copyof": "wagon_heavy"
 	},
 	"wagon_medium": {
-		"name": "wagon (medium)",
+		"name": "Wagon (medium)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wagon_heavy"
 	},
 	"wall_hook": {
-		"name": "wall hook",
+		"name": "Wall hook",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Wall hook",
@@ -6463,7 +6463,7 @@
 		]
 	},
 	"wandermeal_per_day": {
-		"name": "wandermeal (per day)",
+		"name": "Wandermeal (per day)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6478,7 +6478,7 @@
 		]
 	},
 	"war_spirit_pouch": {
-		"name": "war spirit pouch",
+		"name": "War spirit pouch",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## War spirit pouch",
@@ -6493,7 +6493,7 @@
 		]
 	},
 	"warding_ash": {
-		"name": "warding ash",
+		"name": "Warding ash",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Warding ash",
@@ -6508,7 +6508,7 @@
 		]
 	},
 	"warka_jar": {
-		"name": "warka jar",
+		"name": "Warka jar",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Warka jar",
@@ -6520,7 +6520,7 @@
 		]
 	},
 	"warpriest's_kit": {
-		"name": "warpriest's kit",
+		"name": "Warpriest's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Warpriest's kit",
@@ -6532,7 +6532,7 @@
 		]
 	},
 	"warship": {
-		"name": "warship",
+		"name": "Warship",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6547,7 +6547,7 @@
 		]
 	},
 	"warship_travel,_per_mile": {
-		"name": "warship (travel, per mile)",
+		"name": "Warship (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6558,7 +6558,7 @@
 		"copyof": "warship_travel,_per_mile"
 	},
 	"wasp_metheglin": {
-		"name": "wasp metheglin",
+		"name": "Wasp metheglin",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Wasp metheglin",
@@ -6570,7 +6570,7 @@
 		]
 	},
 	"waspguts": {
-		"name": "waspguts",
+		"name": "Waspguts",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Waspguts",
@@ -6585,7 +6585,7 @@
 		]
 	},
 	"waster": {
-		"name": "waster",
+		"name": "Waster",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Waster",
@@ -6599,7 +6599,7 @@
 		]
 	},
 	"watchman's_kit": {
-		"name": "watchman's kit",
+		"name": "Watchman's kit",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Watchman's kit",
@@ -6611,7 +6611,7 @@
 		]
 	},
 	"water_clock": {
-		"name": "water clock",
+		"name": "Water clock",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6626,7 +6626,7 @@
 		]
 	},
 	"water_purification_sponge": {
-		"name": "water purification sponge",
+		"name": "Water purification sponge",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6644,7 +6644,7 @@
 		]
 	},
 	"waterproof_bag": {
-		"name": "waterproof bag",
+		"name": "Waterproof bag",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6659,7 +6659,7 @@
 		]
 	},
 	"waterproof_lantern_bullseye": {
-		"name": "waterproof lantern (bullseye)",
+		"name": "Waterproof lantern (bullseye)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6677,7 +6677,7 @@
 		"copyof": "waterproof_lantern_bullseye"
 	},
 	"waterproof_lantern_dusk": {
-		"name": "waterproof lantern (dusk)",
+		"name": "Waterproof lantern (dusk)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "waterproof_lantern_bullseye"
 	},
@@ -6685,7 +6685,7 @@
 		"copyof": "waterproof_lantern_dusk"
 	},
 	"waterproof_lantern_hooded": {
-		"name": "waterproof lantern (hooded)",
+		"name": "Waterproof lantern (hooded)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6696,7 +6696,7 @@
 		"copyof": "waterproof_lantern_hooded"
 	},
 	"waterproof_lantern_miner's": {
-		"name": "waterproof lantern (miner's)",
+		"name": "Waterproof lantern (miner's)",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"copyof": "waterproof_lantern_bullseye"
 	},
@@ -6704,7 +6704,7 @@
 		"copyof": "waterproof_lantern_miner's"
 	},
 	"waterskin": {
-		"name": "waterskin",
+		"name": "Waterskin",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6719,7 +6719,7 @@
 		]
 	},
 	"wax_key_blank": {
-		"name": "wax key blank",
+		"name": "Wax key blank",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6734,7 +6734,7 @@
 		]
 	},
 	"weapon_blanch_adamantine": {
-		"name": "weapon blanch (adamantine)",
+		"name": "Weapon blanch (adamantine)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -6751,7 +6751,7 @@
 		]
 	},
 	"weapon_blanch_cold_iron": {
-		"name": "weapon blanch (cold iron)",
+		"name": "Weapon blanch (cold iron)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -6759,7 +6759,7 @@
 		"copyof": "weapon_blanch_adamantine"
 	},
 	"weapon_blanch_ghost_salt": {
-		"name": "weapon blanch (ghost salt)",
+		"name": "Weapon blanch (ghost salt)",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Weapon blanch (ghost salt)",
@@ -6771,7 +6771,7 @@
 		]
 	},
 	"weapon_blanch_silver": {
-		"name": "weapon blanch (silver)",
+		"name": "Weapon blanch (silver)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -6779,7 +6779,7 @@
 		"copyof": "weapon_blanch_adamantine"
 	},
 	"weapon_cord": {
-		"name": "weapon cord",
+		"name": "Weapon cord",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -6795,7 +6795,7 @@
 		]
 	},
 	"weasel": {
-		"name": "weasel",
+		"name": "Weasel",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6810,7 +6810,7 @@
 		]
 	},
 	"wet_suit": {
-		"name": "wet suit",
+		"name": "Wet suit",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Wet suit",
@@ -6822,7 +6822,7 @@
 		]
 	},
 	"whale_oil": {
-		"name": "whale oil",
+		"name": "Whale oil",
 		"sources": [ "People of the North" ],
 		"description": [
 			"## Whale oil",
@@ -6834,7 +6834,7 @@
 		]
 	},
 	"whale": {
-		"name": "whale",
+		"name": "Whale",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Whale",
@@ -6846,7 +6846,7 @@
 		]
 	},
 	"wheelchair": {
-		"name": "wheelchair",
+		"name": "Wheelchair",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wheelchair",
@@ -6858,7 +6858,7 @@
 		]
 	},
 	"whet_bone": {
-		"name": "whet bone",
+		"name": "Whet bone",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Whet bone",
@@ -6870,7 +6870,7 @@
 		]
 	},
 	"whetstone": {
-		"name": "whetstone",
+		"name": "Whetstone",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -6886,7 +6886,7 @@
 		]
 	},
 	"whip,_training": {
-		"name": "whip, training",
+		"name": "Whip, training",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Whip, training",
@@ -6901,7 +6901,7 @@
 		"copyof": "whip,_training"
 	},
 	"whiskey_cup": {
-		"name": "whiskey (cup)",
+		"name": "Whiskey (cup)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Whiskey (cup)",
@@ -6913,7 +6913,7 @@
 		]
 	},
 	"whistle_signal": {
-		"name": "whistle (signal)",
+		"name": "Whistle (signal)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -6929,7 +6929,7 @@
 		]
 	},
 	"whistle_silent": {
-		"name": "whistle (silent)",
+		"name": "Whistle (silent)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -6938,7 +6938,7 @@
 		"copyof": "whistle_signal"
 	},
 	"wig": {
-		"name": "wig",
+		"name": "Wig",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -6953,7 +6953,7 @@
 		]
 	},
 	"wild-blood_concoction": {
-		"name": "wild-blood concoction",
+		"name": "Wild-blood concoction",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wild-blood concoction",
@@ -6968,7 +6968,7 @@
 		"copyof": "wild-blood_concoction"
 	},
 	"wilderness_wanderer_package": {
-		"name": "wilderness wanderer package",
+		"name": "Wilderness wanderer package",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wilderness wanderer package",
@@ -6990,7 +6990,7 @@
 		]
 	},
 	"wind_chime": {
-		"name": "wind chime",
+		"name": "Wind chime",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Wind chime",
@@ -7002,7 +7002,7 @@
 		]
 	},
 	"wind_platform": {
-		"name": "wind platform",
+		"name": "Wind platform",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wind platform",
@@ -7020,7 +7020,7 @@
 		]
 	},
 	"windup_music_box": {
-		"name": "windup music box",
+		"name": "Windup music box",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Windup music box",
@@ -7032,7 +7032,7 @@
 		]
 	},
 	"wine_common,_pitcher": {
-		"name": "wine (common, pitcher)",
+		"name": "Wine (common, pitcher)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -7049,7 +7049,7 @@
 		"copyof": "wine_common,_pitcher"
 	},
 	"wine_fine,_bottle": {
-		"name": "wine (fine, bottle)",
+		"name": "Wine (fine, bottle)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -7060,7 +7060,7 @@
 		"copyof": "wine_fine,_bottle"
 	},
 	"wing_cloak": {
-		"name": "wing cloak",
+		"name": "Wing cloak",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wing cloak",
@@ -7072,7 +7072,7 @@
 		]
 	},
 	"wing_hobble": {
-		"name": "wing hobble",
+		"name": "Wing hobble",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wing hobble",
@@ -7084,7 +7084,7 @@
 		]
 	},
 	"wing_hooks": {
-		"name": "wing hooks",
+		"name": "Wing hooks",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wing hooks",
@@ -7096,7 +7096,7 @@
 		]
 	},
 	"wing_oil": {
-		"name": "wing oil",
+		"name": "Wing oil",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wing oil",
@@ -7111,7 +7111,7 @@
 		]
 	},
 	"wing_sheaths": {
-		"name": "wing sheaths",
+		"name": "Wing sheaths",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wing sheaths",
@@ -7123,7 +7123,7 @@
 		]
 	},
 	"wing_staff": {
-		"name": "wing staff",
+		"name": "Wing staff",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Wing staff",
@@ -7135,7 +7135,7 @@
 		]
 	},
 	"winged_fetish_pharasma": {
-		"name": "winged fetish (pharasma)",
+		"name": "Winged fetish (pharasma)",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Winged fetish",
@@ -7148,7 +7148,7 @@
 		]
 	},
 	"winterbite": {
-		"name": "winterbite",
+		"name": "Winterbite",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -7167,7 +7167,7 @@
 		]
 	},
 	"wire_saw_adamantine": {
-		"name": "wire saw (adamantine)",
+		"name": "Wire saw (adamantine)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wire saw",
@@ -7180,12 +7180,12 @@
 		]
 	},
 	"wire_saw_common": {
-		"name": "wire saw (common)",
+		"name": "Wire saw (common)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wire_saw_adamantine"
 	},
 	"wire": {
-		"name": "wire",
+		"name": "Wire",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wire",
@@ -7203,7 +7203,7 @@
 		]
 	},
 	"wismuth_salix": {
-		"name": "wismuth salix",
+		"name": "Wismuth salix",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wismuth salix",
@@ -7218,7 +7218,7 @@
 		]
 	},
 	"witch's_kit": {
-		"name": "witch's kit",
+		"name": "Witch's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Witch's kit",
@@ -7230,7 +7230,7 @@
 		]
 	},
 	"wizard's_kit": {
-		"name": "wizard's kit",
+		"name": "Wizard's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wizard's kit",
@@ -7242,7 +7242,7 @@
 		]
 	},
 	"woad_painting_kit": {
-		"name": "woad painting (kit)",
+		"name": "Woad painting (kit)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Woad painting",
@@ -7258,7 +7258,7 @@
 		]
 	},
 	"woad_painting_paint,_1_block": {
-		"name": "woad painting (paint, 1 block)",
+		"name": "Woad painting (paint, 1 block)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "woad_painting_kit"
 	},
@@ -7266,7 +7266,7 @@
 		"copyof": "woad_painting_paint,_1_block"
 	},
 	"wolf": {
-		"name": "wolf",
+		"name": "Wolf",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Wolf",
@@ -7278,7 +7278,7 @@
 		]
 	},
 	"wolfsbane": {
-		"name": "wolfsbane",
+		"name": "Wolfsbane",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Wolfsbane",
@@ -7290,7 +7290,7 @@
 		]
 	},
 	"wolverine": {
-		"name": "wolverine",
+		"name": "Wolverine",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Wolverine",
@@ -7302,7 +7302,7 @@
 		]
 	},
 	"woolly_mammoth_combat-trained": {
-		"name": "woolly mammoth (combat-trained)",
+		"name": "Woolly mammoth (combat-trained)",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Woolly mammoth",
@@ -7316,12 +7316,12 @@
 		"copyof": "woolly_mammoth_combat-trained"
 	},
 	"woolly_mammoth_normal": {
-		"name": "woolly mammoth (normal)",
+		"name": "Woolly mammoth (normal)",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"copyof": "woolly_mammoth_combat_trained"
 	},
 	"woolly_rhinoceros_common": {
-		"name": "woolly rhinoceros (common)",
+		"name": "Woolly rhinoceros (common)",
 		"sources": [
 			"Animal Archive",
 			"Belkzen, Hold of the Orc Hordes"
@@ -7335,7 +7335,7 @@
 		]
 	},
 	"woolly_rhinoceros_combat-trained": {
-		"name": "woolly rhinoceros (combat-trained)",
+		"name": "Woolly rhinoceros (combat-trained)",
 		"sources": [
 			"Belkzen, Hold of the Orc Hordes",
 			"Animal Archive"
@@ -7346,12 +7346,12 @@
 		"copyof": "woolly_rhinoceros_combat-trained"
 	},
 	"woolly_rhinoceros_normal": {
-		"name": "woolly rhinoceros (normal)",
+		"name": "Woolly rhinoceros (normal)",
 		"sources": [ "Animal Archive" ],
 		"copyof": "woolly_rhinoceros_common"
 	},
 	"wrangler's_gloves": {
-		"name": "wrangler's gloves",
+		"name": "Wrangler's gloves",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Wrangler's gloves",
@@ -7363,7 +7363,7 @@
 		]
 	},
 	"wrist_sheath_spring_loaded": {
-		"name": "wrist sheath (spring loaded)",
+		"name": "Wrist sheath (spring loaded)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Wrist sheath (spring loaded)",
@@ -7375,7 +7375,7 @@
 		]
 	},
 	"wrist_sheath": {
-		"name": "wrist sheath",
+		"name": "Wrist sheath",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -7390,7 +7390,7 @@
 		]
 	},
 	"wyrm_pesh": {
-		"name": "wyrm pesh",
+		"name": "Wyrm pesh",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wyrm pesh",
@@ -7410,7 +7410,7 @@
 		]
 	},
 	"wyrm's_breath_bitter": {
-		"name": "wyrm's breath bitter",
+		"name": "Wyrm's breath bitter",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Wyrm's breath bitter",
@@ -7425,7 +7425,7 @@
 		]
 	},
 	"yak": {
-		"name": "yak",
+		"name": "Yak",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Yak",
@@ -7437,7 +7437,7 @@
 		]
 	},
 	"yenchaburian_hybrid": {
-		"name": "yenchaburian hybrid",
+		"name": "Yenchaburian hybrid",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Yenchaburian hybrid",
@@ -7449,7 +7449,7 @@
 		]
 	},
 	"yogurt": {
-		"name": "yogurt",
+		"name": "Yogurt",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Yogurt",
@@ -7461,7 +7461,7 @@
 		]
 	},
 	"zip-line_hook_masterwork": {
-		"name": "zip-line hook (masterwork)",
+		"name": "Zip-line hook (masterwork)",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Zip-line hook",
@@ -7479,7 +7479,7 @@
 		"copyof": "zip-line_hook_masterwork"
 	},
 	"zip-line_hook_normal": {
-		"name": "zip-line hook (normal)",
+		"name": "Zip-line hook (normal)",
 		"sources": [ "Villain Codex" ],
 		"copyof": "zip_line_hook_masterwork"
 	},
@@ -7487,7 +7487,7 @@
 		"copyof": "zip-line_hook_normal"
 	},
 	"zombie_slayer's_kit": {
-		"name": "zombie slayer's kit",
+		"name": "Zombie slayer's kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Zombie slayer's kit",

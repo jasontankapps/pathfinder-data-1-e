@@ -9,7 +9,7 @@
 		]
 	},
 	"advancing": {
-		"name": "advancing",
+		"name": "Advancing",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Advancing",
@@ -26,7 +26,7 @@
 		]
 	},
 	"balanced": {
-		"name": "balanced",
+		"name": "Balanced",
 		"sources": [
 			"Armor Master's Handbook",
 			"Ultimate Equipment"
@@ -46,7 +46,7 @@
 		]
 	},
 	"benevolent": {
-		"name": "benevolent",
+		"name": "Benevolent",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Benevolent",
@@ -63,7 +63,7 @@
 		]
 	},
 	"billowing": {
-		"name": "billowing",
+		"name": "Billowing",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Billowing",
@@ -80,7 +80,7 @@
 		]
 	},
 	"bitter": {
-		"name": "bitter",
+		"name": "Bitter",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -102,7 +102,7 @@
 		]
 	},
 	"bolstering": {
-		"name": "bolstering",
+		"name": "Bolstering",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Bolstering",
@@ -119,7 +119,7 @@
 		]
 	},
 	"calming": {
-		"name": "calming",
+		"name": "Calming",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Calming",
@@ -136,7 +136,7 @@
 		]
 	},
 	"champion": {
-		"name": "champion",
+		"name": "Champion",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -156,7 +156,7 @@
 		]
 	},
 	"cocooning": {
-		"name": "cocooning",
+		"name": "Cocooning",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Cocooning",
@@ -173,7 +173,7 @@
 		]
 	},
 	"crusading": {
-		"name": "crusading",
+		"name": "Crusading",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Crusading",
@@ -190,7 +190,7 @@
 		]
 	},
 	"dastard": {
-		"name": "dastard",
+		"name": "Dastard",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -210,7 +210,7 @@
 		]
 	},
 	"deathless": {
-		"name": "deathless",
+		"name": "Deathless",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Deathless",
@@ -227,7 +227,7 @@
 		]
 	},
 	"defiant": {
-		"name": "defiant",
+		"name": "Defiant",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Defiant",
@@ -244,7 +244,7 @@
 		]
 	},
 	"evolving": {
-		"name": "evolving",
+		"name": "Evolving",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Evolving",
@@ -285,7 +285,7 @@
 		"copyof": "fortification_light"
 	},
 	"grinding": {
-		"name": "grinding",
+		"name": "Grinding",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Grinding",
@@ -302,7 +302,7 @@
 		]
 	},
 	"impervious": {
-		"name": "impervious",
+		"name": "Impervious",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impervious",
@@ -319,7 +319,7 @@
 		]
 	},
 	"mirrored": {
-		"name": "mirrored",
+		"name": "Mirrored",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mirrored",
@@ -336,7 +336,7 @@
 		]
 	},
 	"poisoning": {
-		"name": "poisoning",
+		"name": "Poisoning",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Poisoning",
@@ -353,7 +353,7 @@
 		]
 	},
 	"resonating": {
-		"name": "resonating",
+		"name": "Resonating",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Resonating",
@@ -370,7 +370,7 @@
 		]
 	},
 	"spell_storing": {
-		"name": "spell storing",
+		"name": "Spell Storing",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spell Storing",
@@ -387,7 +387,7 @@
 		]
 	},
 	"spellsink": {
-		"name": "spellsink",
+		"name": "Spellsink",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Spellsink",
@@ -404,7 +404,7 @@
 		]
 	},
 	"stanching": {
-		"name": "stanching",
+		"name": "Stanching",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stanching",
@@ -421,10 +421,10 @@
 		]
 	},
 	"terrain-striding": {
-		"name": "Terrain-striding",
+		"name": "Terrain-Striding",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
-			"## Terrain-striding",
+			"## Terrain-Striding",
 			"",
 			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
@@ -441,7 +441,7 @@
 		"copyof": "terrain-striding"
 	},
 	"trapwarding": {
-		"name": "trapwarding",
+		"name": "Trapwarding",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Trapwarding",
@@ -458,7 +458,7 @@
 		]
 	},
 	"vouchsafing": {
-		"name": "vouchsafing",
+		"name": "Vouchsafing",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Vouchsafing",
@@ -475,7 +475,7 @@
 		]
 	},
 	"warding": {
-		"name": "warding",
+		"name": "Warding",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Warding",
@@ -492,7 +492,7 @@
 		]
 	},
 	"withstanding": {
-		"name": "withstanding",
+		"name": "Withstanding",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Withstanding",
@@ -509,7 +509,7 @@
 		]
 	},
 	"buoyant_light_armor": {
-		"name": "Buoyant (light armor)",
+		"name": "Buoyant (light Armor)",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Buoyant",
@@ -526,7 +526,7 @@
 		]
 	},
 	"cushioned": {
-		"name": "cushioned",
+		"name": "Cushioned",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Cushioned",
@@ -543,7 +543,7 @@
 		]
 	},
 	"buoyant_medium_heavy_armor": {
-		"name": "Buoyant (medium/heavy armor)",
+		"name": "Buoyant (medium/heavy Armor)",
 		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor"
 	},
@@ -557,7 +557,7 @@
 		"copyof": "buoyant_medium_heavy_armor"
 	},
 	"fitting": {
-		"name": "fitting",
+		"name": "Fitting",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Fitting",
@@ -594,7 +594,7 @@
 		"copyof": "poison-resistant"
 	},
 	"glamered": {
-		"name": "glamered",
+		"name": "Glamered",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -614,7 +614,7 @@
 		]
 	},
 	"mental_focus": {
-		"name": "mental focus",
+		"name": "Mental Focus",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Mental Focus",
@@ -631,7 +631,7 @@
 		]
 	},
 	"aquadynamic": {
-		"name": "aquadynamic",
+		"name": "Aquadynamic",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquadynamic",
@@ -648,7 +648,7 @@
 		]
 	},
 	"jousting": {
-		"name": "jousting",
+		"name": "Jousting",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -668,7 +668,7 @@
 		]
 	},
 	"shadow": {
-		"name": "shadow",
+		"name": "Shadow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -688,7 +688,7 @@
 		]
 	},
 	"slick": {
-		"name": "slick",
+		"name": "Slick",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -708,7 +708,7 @@
 		]
 	},
 	"adamant": {
-		"name": "adamant",
+		"name": "Adamant",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Adamant",
@@ -725,7 +725,7 @@
 		]
 	},
 	"bloodthirsty": {
-		"name": "bloodthirsty",
+		"name": "Bloodthirsty",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Bloodthirsty",
@@ -742,7 +742,7 @@
 		]
 	},
 	"frosted": {
-		"name": "frosted",
+		"name": "Frosted",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Frosted",
@@ -759,7 +759,7 @@
 		]
 	},
 	"ghost_spike": {
-		"name": "ghost spike",
+		"name": "Ghost Spike",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Ghost Spike",
@@ -776,7 +776,7 @@
 		]
 	},
 	"jarring": {
-		"name": "jarring",
+		"name": "Jarring",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Jarring",
@@ -793,7 +793,7 @@
 		]
 	},
 	"mind_buttressing": {
-		"name": "mind buttressing",
+		"name": "Mind Buttressing",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Mind Buttressing",
@@ -810,7 +810,7 @@
 		]
 	},
 	"phantasmal": {
-		"name": "phantasmal",
+		"name": "Phantasmal",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Phantasmal",
@@ -827,7 +827,7 @@
 		]
 	},
 	"rampaging": {
-		"name": "rampaging",
+		"name": "Rampaging",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Rampaging",
@@ -844,7 +844,7 @@
 		]
 	},
 	"shadow_blending": {
-		"name": "shadow blending",
+		"name": "Shadow Blending",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Shadow Blending",
@@ -861,7 +861,7 @@
 		]
 	},
 	"spell_dodging": {
-		"name": "spell dodging",
+		"name": "Spell Dodging",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spell Dodging",
@@ -902,7 +902,7 @@
 		"copyof": "spell_resistance"
 	},
 	"steaming": {
-		"name": "steaming",
+		"name": "Steaming",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Steaming",
@@ -923,7 +923,7 @@
 		]
 	},
 	"volcanic": {
-		"name": "volcanic",
+		"name": "Volcanic",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Volcanic",
@@ -940,7 +940,7 @@
 		]
 	},
 	"burdenless": {
-		"name": "burdenless",
+		"name": "Burdenless",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Burdenless",
@@ -957,7 +957,7 @@
 		]
 	},
 	"expeditious": {
-		"name": "expeditious",
+		"name": "Expeditious",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Expeditious",
@@ -974,7 +974,7 @@
 		]
 	},
 	"amorphous": {
-		"name": "amorphous",
+		"name": "Amorphous",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Amorphous",
@@ -991,7 +991,7 @@
 		]
 	},
 	"restful": {
-		"name": "restful",
+		"name": "Restful",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Restful",
@@ -1008,7 +1008,7 @@
 		]
 	},
 	"cloudburst": {
-		"name": "cloudburst",
+		"name": "Cloudburst",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Cloudburst",
@@ -1025,7 +1025,7 @@
 		]
 	},
 	"comfort": {
-		"name": "comfort",
+		"name": "Comfort",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Comfort",
@@ -1042,7 +1042,7 @@
 		]
 	},
 	"corsair": {
-		"name": "corsair",
+		"name": "Corsair",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Corsair",
@@ -1059,7 +1059,7 @@
 		]
 	},
 	"creeping": {
-		"name": "creeping",
+		"name": "Creeping",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Creeping",
@@ -1076,7 +1076,7 @@
 		]
 	},
 	"deceiving": {
-		"name": "deceiving",
+		"name": "Deceiving",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Deceiving",
@@ -1093,7 +1093,7 @@
 		]
 	},
 	"malevolent": {
-		"name": "malevolent",
+		"name": "Malevolent",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Malevolent",
@@ -1110,7 +1110,7 @@
 		]
 	},
 	"rallying": {
-		"name": "rallying",
+		"name": "Rallying",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rallying",
@@ -1147,7 +1147,7 @@
 		"copyof": "spirit-bonded"
 	},
 	"locksmith": {
-		"name": "locksmith",
+		"name": "Locksmith",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Locksmith",
@@ -1164,7 +1164,7 @@
 		]
 	},
 	"adhesive": {
-		"name": "adhesive",
+		"name": "Adhesive",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Adhesive",
@@ -1181,7 +1181,7 @@
 		]
 	},
 	"spiteful": {
-		"name": "spiteful",
+		"name": "Spiteful",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spiteful",
@@ -1198,7 +1198,7 @@
 		]
 	},
 	"hosteling": {
-		"name": "hosteling",
+		"name": "Hosteling",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Hosteling",
@@ -1221,7 +1221,7 @@
 		]
 	},
 	"radiant": {
-		"name": "radiant",
+		"name": "Radiant",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Radiant",
@@ -1238,7 +1238,7 @@
 		]
 	},
 	"trackless": {
-		"name": "trackless",
+		"name": "Trackless",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Trackless",
@@ -1275,7 +1275,7 @@
 		"copyof": "arrow-collecting"
 	},
 	"brawling": {
-		"name": "brawling",
+		"name": "Brawling",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Brawling",
@@ -1292,7 +1292,7 @@
 		]
 	},
 	"cotraveling": {
-		"name": "cotraveling",
+		"name": "Cotraveling",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Cotraveling",
@@ -1316,7 +1316,7 @@
 		"copyof": "fortification_moderate"
 	},
 	"ghost_touch_armor": {
-		"name": "ghost touch",
+		"name": "Ghost Touch",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1341,7 +1341,7 @@
 		"copyof": "ghost_touch_armor"
 	},
 	"invulnerability": {
-		"name": "invulnerability",
+		"name": "Invulnerability",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1361,7 +1361,7 @@
 		]
 	},
 	"sensing": {
-		"name": "sensing",
+		"name": "Sensing",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sensing",
@@ -1382,7 +1382,7 @@
 		"copyof": "spell_resistance"
 	},
 	"titanic": {
-		"name": "titanic",
+		"name": "Titanic",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Titanic",
@@ -1399,7 +1399,7 @@
 		]
 	},
 	"wild": {
-		"name": "wild",
+		"name": "Wild",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1419,7 +1419,7 @@
 		]
 	},
 	"phase_lurching": {
-		"name": "phase lurching",
+		"name": "Phase Lurching",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Phase Lurching",
@@ -1436,7 +1436,7 @@
 		]
 	},
 	"delving": {
-		"name": "delving",
+		"name": "Delving",
 		"sources": [
 			"Ultimate Equipment",
 			"Dungeon Denizens Revisited"
@@ -1456,7 +1456,7 @@
 		]
 	},
 	"putrid": {
-		"name": "putrid",
+		"name": "Putrid",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Putrid",
@@ -1473,7 +1473,7 @@
 		]
 	},
 	"harmonizing": {
-		"name": "harmonizing",
+		"name": "Harmonizing",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Harmonizing",
@@ -1494,24 +1494,11 @@
 		]
 	},
 	"improved_aquadynamic": {
-		"name": "improved aquadynamic",
-		"sources": [ "Aquatic Adventures" ],
-		"description": [
-			"## Aquadynamic",
-			"",
-			"**Source** [Aquatic Adventures pg. 62](source/aquatic_adventures)  ",
-			"**Aura** varies; **CL** 5th  ",
-			"**Slot** none; **Price** (+3,750 gp), Improved (+15,000 gp), Greater (+33,750 gp); **Weight** -",
-			"",
-			"This sleek and mobile armor is magically streamlined to assist in swimming rather than making swimming more difficult, granting the wearer a +5 competence bonus on Swim checks for aquadynamic armor, a +10 competence bonus on Swim checks for improved aquadynamic armor, and a +15 competence bonus on Swim checks for greater aquadynamic armor.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
-		]
+		"name": "Improved Aquadynamic",
+		"copyof": "aquadynamic"
 	},
 	"radiant_flight": {
-		"name": "radiant flight",
+		"name": "Radiant Flight",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Radiant Flight",
@@ -1594,7 +1581,7 @@
 		"copyof": "venom-eating"
 	},
 	"denying": {
-		"name": "denying",
+		"name": "Denying",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Denying",
@@ -1615,7 +1602,7 @@
 		"copyof": "spell_resistance"
 	},
 	"energy_resistance": {
-		"name": "energy resistance",
+		"name": "Energy Resistance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1635,7 +1622,7 @@
 		]
 	},
 	"martyring": {
-		"name": "martyring",
+		"name": "Martyring",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Martyring",
@@ -1652,7 +1639,7 @@
 		]
 	},
 	"dread_wing": {
-		"name": "dread wing",
+		"name": "Dread Wing",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Dread Wing",
@@ -1680,7 +1667,7 @@
 		"copyof": "spell_resistance"
 	},
 	"unbowed": {
-		"name": "unbowed",
+		"name": "Unbowed",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Unbowed",
@@ -1697,7 +1684,7 @@
 		]
 	},
 	"righteous": {
-		"name": "righteous",
+		"name": "Righteous",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1717,7 +1704,7 @@
 		]
 	},
 	"unbound": {
-		"name": "unbound",
+		"name": "Unbound",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Unbound",
@@ -1734,7 +1721,7 @@
 		]
 	},
 	"unrighteous": {
-		"name": "unrighteous",
+		"name": "Unrighteous",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1754,7 +1741,7 @@
 		]
 	},
 	"vigilant": {
-		"name": "vigilant",
+		"name": "Vigilant",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Vigilant",
@@ -1771,7 +1758,7 @@
 		]
 	},
 	"determination": {
-		"name": "determination",
+		"name": "Determination",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1791,21 +1778,8 @@
 		]
 	},
 	"greater_aquadynamic": {
-		"name": "greater aquadynamic",
-		"sources": [ "Aquatic Adventures" ],
-		"description": [
-			"## Aquadynamic",
-			"",
-			"**Source** [Aquatic Adventures pg. 62](source/aquatic_adventures)  ",
-			"**Aura** varies; **CL** 5th  ",
-			"**Slot** none; **Price** (+3,750 gp), Improved (+15,000 gp), Greater (+33,750 gp); **Weight** -",
-			"",
-			"This sleek and mobile armor is magically streamlined to assist in swimming rather than making swimming more difficult, granting the wearer a +5 competence bonus on Swim checks for aquadynamic armor, a +10 competence bonus on Swim checks for improved aquadynamic armor, and a +15 competence bonus on Swim checks for greater aquadynamic armor.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
-		]
+		"name": "Greater Aquadynamic",
+		"copyof": "aquadynamic"
 	},
 	"shadow,_greater": {
 		"name": "Shadow, Greater",
@@ -1877,7 +1851,7 @@
 		"copyof": "energy_resistance,_improved"
 	},
 	"etherealness": {
-		"name": "etherealness",
+		"name": "Etherealness",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1897,7 +1871,7 @@
 		]
 	},
 	"undead_controlling": {
-		"name": "undead controlling",
+		"name": "Undead Controlling",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1940,7 +1914,7 @@
 		"copyof": "energy_resistance,_greater"
 	},
 	"arrow_catching": {
-		"name": "arrow catching",
+		"name": "Arrow Catching",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1960,7 +1934,7 @@
 		]
 	},
 	"assiduous": {
-		"name": "assiduous",
+		"name": "Assiduous",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Assiduous",
@@ -1977,7 +1951,7 @@
 		]
 	},
 	"bashing": {
-		"name": "bashing",
+		"name": "Bashing",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1997,7 +1971,7 @@
 		]
 	},
 	"blinding": {
-		"name": "blinding",
+		"name": "Blinding",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2017,7 +1991,7 @@
 		]
 	},
 	"clangorous": {
-		"name": "clangorous",
+		"name": "Clangorous",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Clangorous",
@@ -2034,7 +2008,7 @@
 		]
 	},
 	"folding": {
-		"name": "folding",
+		"name": "Folding",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Folding",
@@ -2051,7 +2025,7 @@
 		]
 	},
 	"guarding": {
-		"name": "guarding",
+		"name": "Guarding",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Guarding",
@@ -2068,7 +2042,7 @@
 		]
 	},
 	"heraldric": {
-		"name": "heraldric",
+		"name": "Heraldric",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Heraldric",
@@ -2085,7 +2059,7 @@
 		]
 	},
 	"ramming": {
-		"name": "ramming",
+		"name": "Ramming",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ramming",
@@ -2102,7 +2076,7 @@
 		]
 	},
 	"rebounding": {
-		"name": "rebounding",
+		"name": "Rebounding",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Rebounding",
@@ -2119,7 +2093,7 @@
 		]
 	},
 	"singing": {
-		"name": "singing",
+		"name": "Singing",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Singing",
@@ -2136,7 +2110,7 @@
 		]
 	},
 	"spellrending": {
-		"name": "spellrending",
+		"name": "Spellrending",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Spellrending",
@@ -2158,7 +2132,7 @@
 		"copyof": "buoyant_light_armor"
 	},
 	"animated": {
-		"name": "animated",
+		"name": "Animated",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2178,7 +2152,7 @@
 		]
 	},
 	"arrow_deflection": {
-		"name": "arrow deflection",
+		"name": "Arrow Deflection",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2218,7 +2192,7 @@
 		"copyof": "guarding,_greater"
 	},
 	"jawbreaker": {
-		"name": "jawbreaker",
+		"name": "Jawbreaker",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Jawbreaker",
@@ -2239,7 +2213,7 @@
 		]
 	},
 	"mastering": {
-		"name": "mastering",
+		"name": "Mastering",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Mastering",
@@ -2256,7 +2230,7 @@
 		]
 	},
 	"merging": {
-		"name": "merging",
+		"name": "Merging",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Merging",
@@ -2273,7 +2247,7 @@
 		]
 	},
 	"weeping": {
-		"name": "weeping",
+		"name": "Weeping",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Weeping",
@@ -2290,7 +2264,7 @@
 		]
 	},
 	"wyrmsbreath": {
-		"name": "wyrmsbreath",
+		"name": "Wyrmsbreath",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wyrmsbreath",
@@ -2307,7 +2281,7 @@
 		]
 	},
 	"deflecting": {
-		"name": "deflecting",
+		"name": "Deflecting",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Deflecting",
@@ -2324,7 +2298,7 @@
 		]
 	},
 	"bastion": {
-		"name": "bastion",
+		"name": "Bastion",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Bastion",
@@ -2341,7 +2315,7 @@
 		]
 	},
 	"channeling": {
-		"name": "channeling",
+		"name": "Channeling",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Channeling",
@@ -2358,7 +2332,7 @@
 		]
 	},
 	"reflecting": {
-		"name": "reflecting",
+		"name": "Reflecting",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2378,7 +2352,7 @@
 		]
 	},
 	"shrinking": {
-		"name": "shrinking",
+		"name": "Shrinking",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shrinking",
@@ -2395,7 +2369,7 @@
 		]
 	},
 	"agile": {
-		"name": "agile",
+		"name": "Agile",
 		"sources": [
 			"Pathfinder #100: A Song of Silver",
 			"Pathfinder Society Field Guide"
@@ -2415,7 +2389,7 @@
 		]
 	},
 	"allying": {
-		"name": "allying",
+		"name": "Allying",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2435,7 +2409,7 @@
 		]
 	},
 	"answering": {
-		"name": "answering",
+		"name": "Answering",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Answering",
@@ -2452,7 +2426,7 @@
 		]
 	},
 	"bane": {
-		"name": "bane",
+		"name": "Bane",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2488,7 +2462,7 @@
 		]
 	},
 	"benevolent_weapon": {
-		"name": "benevolent (weapon)",
+		"name": "Benevolent (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Benevolent",
@@ -2505,7 +2479,7 @@
 		]
 	},
 	"bewildering": {
-		"name": "bewildering",
+		"name": "Bewildering",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Bewildering",
@@ -2522,7 +2496,7 @@
 		]
 	},
 	"blood-hunting": {
-		"name": "blood-hunting",
+		"name": "Blood-Hunting",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Blood-Hunting",
@@ -2556,7 +2530,7 @@
 		"copyof": "blood-hunting"
 	},
 	"bloodsong": {
-		"name": "bloodsong",
+		"name": "Bloodsong",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bloodsong",
@@ -2573,7 +2547,7 @@
 		]
 	},
 	"brawling_weapon": {
-		"name": "brawling (weapon)",
+		"name": "Brawling (weapon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Brawling",
@@ -2590,7 +2564,7 @@
 		]
 	},
 	"breaking": {
-		"name": "breaking",
+		"name": "Breaking",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Breaking",
@@ -2607,7 +2581,7 @@
 		]
 	},
 	"called": {
-		"name": "called",
+		"name": "Called",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Called",
@@ -2624,7 +2598,7 @@
 		]
 	},
 	"catalytic": {
-		"name": "catalytic",
+		"name": "Catalytic",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Catalytic",
@@ -2641,7 +2615,7 @@
 		]
 	},
 	"compassionate": {
-		"name": "compassionate",
+		"name": "Compassionate",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Compassionate",
@@ -2658,7 +2632,7 @@
 		]
 	},
 	"conductive": {
-		"name": "conductive",
+		"name": "Conductive",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2678,7 +2652,7 @@
 		]
 	},
 	"confounding": {
-		"name": "confounding",
+		"name": "Confounding",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Confounding",
@@ -2695,7 +2669,7 @@
 		]
 	},
 	"corrosive": {
-		"name": "corrosive",
+		"name": "Corrosive",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2715,7 +2689,7 @@
 		]
 	},
 	"countering": {
-		"name": "countering",
+		"name": "Countering",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Countering",
@@ -2732,7 +2706,7 @@
 		]
 	},
 	"courageous": {
-		"name": "courageous",
+		"name": "Courageous",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Courageous",
@@ -2749,7 +2723,7 @@
 		]
 	},
 	"cruel": {
-		"name": "cruel",
+		"name": "Cruel",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -2769,7 +2743,7 @@
 		]
 	},
 	"cunning": {
-		"name": "cunning",
+		"name": "Cunning",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2789,7 +2763,7 @@
 		]
 	},
 	"dazzling_radiance": {
-		"name": "dazzling radiance",
+		"name": "Dazzling Radiance",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Dazzling Radiance",
@@ -2806,7 +2780,7 @@
 		]
 	},
 	"deadly": {
-		"name": "deadly",
+		"name": "Deadly",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -2826,7 +2800,7 @@
 		]
 	},
 	"debilitating": {
-		"name": "debilitating",
+		"name": "Debilitating",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Debilitating",
@@ -2845,7 +2819,7 @@
 		]
 	},
 	"deceptive": {
-		"name": "deceptive",
+		"name": "Deceptive",
 		"sources": [ "Pathfinder Society Primer" ],
 		"description": [
 			"## Deceptive",
@@ -2862,7 +2836,7 @@
 		]
 	},
 	"defending": {
-		"name": "defending",
+		"name": "Defending",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2882,7 +2856,7 @@
 		]
 	},
 	"disjoining": {
-		"name": "disjoining",
+		"name": "Disjoining",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Disjoining",
@@ -2899,7 +2873,7 @@
 		]
 	},
 	"dispelling": {
-		"name": "dispelling",
+		"name": "Dispelling",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dispelling",
@@ -2916,7 +2890,7 @@
 		]
 	},
 	"distracting": {
-		"name": "distracting",
+		"name": "Distracting",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Distracting",
@@ -2933,7 +2907,7 @@
 		]
 	},
 	"drowscourge": {
-		"name": "drowscourge",
+		"name": "Drowscourge",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"## Drowscourge",
@@ -2950,7 +2924,7 @@
 		]
 	},
 	"dueling_psfg": {
-		"name": "dueling (PSFG)",
+		"name": "Dueling (PSFG)",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Dueling (PSFG)",
@@ -2970,7 +2944,7 @@
 		"copyof": "dueling_psfg"
 	},
 	"fate-stealing": {
-		"name": "fate-stealing",
+		"name": "Fate-Stealing",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fate-Stealing",
@@ -2992,7 +2966,7 @@
 		"copyof": "fate-stealing"
 	},
 	"fervent": {
-		"name": "fervent",
+		"name": "Fervent",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Fervent",
@@ -3011,7 +2985,7 @@
 		]
 	},
 	"flamboyant": {
-		"name": "flamboyant",
+		"name": "Flamboyant",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flamboyant",
@@ -3030,7 +3004,7 @@
 		]
 	},
 	"flaming": {
-		"name": "flaming",
+		"name": "Flaming",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3050,7 +3024,7 @@
 		]
 	},
 	"fortuitous": {
-		"name": "fortuitous",
+		"name": "Fortuitous",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fortuitous",
@@ -3067,7 +3041,7 @@
 		]
 	},
 	"frost": {
-		"name": "frost",
+		"name": "Frost",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3087,7 +3061,7 @@
 		]
 	},
 	"furious": {
-		"name": "furious",
+		"name": "Furious",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3107,7 +3081,7 @@
 		]
 	},
 	"ghost_touch_weapon": {
-		"name": "ghost touch (weapon)",
+		"name": "Ghost Touch (weapon)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3129,7 +3103,7 @@
 		]
 	},
 	"grayflame": {
-		"name": "grayflame",
+		"name": "Grayflame",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3149,7 +3123,7 @@
 		]
 	},
 	"grounding": {
-		"name": "grounding",
+		"name": "Grounding",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Grounding",
@@ -3166,7 +3140,7 @@
 		]
 	},
 	"growing": {
-		"name": "growing",
+		"name": "Growing",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Growing",
@@ -3183,7 +3157,7 @@
 		]
 	},
 	"guardian": {
-		"name": "guardian",
+		"name": "Guardian",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -3205,7 +3179,7 @@
 		]
 	},
 	"guided": {
-		"name": "guided",
+		"name": "Guided",
 		"sources": [ "Pathfinder #10: A History of Ashes" ],
 		"description": [
 			"## Guided",
@@ -3222,7 +3196,7 @@
 		]
 	},
 	"heartseeker": {
-		"name": "heartseeker",
+		"name": "Heartseeker",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Heartseeker",
@@ -3239,7 +3213,7 @@
 		]
 	},
 	"huntsman": {
-		"name": "huntsman",
+		"name": "Huntsman",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3259,7 +3233,7 @@
 		]
 	},
 	"injecting": {
-		"name": "injecting",
+		"name": "Injecting",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Injecting",
@@ -3276,7 +3250,7 @@
 		]
 	},
 	"inspired": {
-		"name": "inspired",
+		"name": "Inspired",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Inspired",
@@ -3293,7 +3267,7 @@
 		]
 	},
 	"jurist": {
-		"name": "jurist",
+		"name": "Jurist",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3313,7 +3287,7 @@
 		]
 	},
 	"keen": {
-		"name": "keen",
+		"name": "Keen",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3333,7 +3307,7 @@
 		]
 	},
 	"ki_focus": {
-		"name": "ki focus",
+		"name": "Ki Focus",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3353,7 +3327,7 @@
 		]
 	},
 	"kinslayer": {
-		"name": "kinslayer",
+		"name": "Kinslayer",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Kinslayer",
@@ -3370,7 +3344,7 @@
 		]
 	},
 	"leveraging": {
-		"name": "leveraging",
+		"name": "Leveraging",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Leveraging",
@@ -3387,7 +3361,7 @@
 		]
 	},
 	"limning": {
-		"name": "limning",
+		"name": "Limning",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Limning",
@@ -3404,7 +3378,7 @@
 		]
 	},
 	"menacing": {
-		"name": "menacing",
+		"name": "Menacing",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3424,7 +3398,7 @@
 		]
 	},
 	"merciful": {
-		"name": "merciful",
+		"name": "Merciful",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3444,7 +3418,7 @@
 		]
 	},
 	"mighty_cleaving": {
-		"name": "mighty cleaving",
+		"name": "Mighty Cleaving",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3464,7 +3438,7 @@
 		]
 	},
 	"mimetic": {
-		"name": "mimetic",
+		"name": "Mimetic",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mimetic",
@@ -3481,7 +3455,7 @@
 		]
 	},
 	"miserable": {
-		"name": "miserable",
+		"name": "Miserable",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Miserable",
@@ -3498,7 +3472,7 @@
 		]
 	},
 	"mythic_bane": {
-		"name": "mythic bane",
+		"name": "Mythic Bane",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Bane",
@@ -3515,7 +3489,7 @@
 		]
 	},
 	"neutralizing": {
-		"name": "neutralizing",
+		"name": "Neutralizing",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Neutralizing",
@@ -3532,7 +3506,7 @@
 		]
 	},
 	"ominous": {
-		"name": "ominous",
+		"name": "Ominous",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ominous",
@@ -3549,7 +3523,7 @@
 		]
 	},
 	"patriotic": {
-		"name": "patriotic",
+		"name": "Patriotic",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Patriotic",
@@ -3568,7 +3542,7 @@
 		]
 	},
 	"pitfall": {
-		"name": "pitfall",
+		"name": "Pitfall",
 		"sources": [ "Taldor, Echoes of Glory" ],
 		"description": [
 			"## Pitfall",
@@ -3585,7 +3559,7 @@
 		]
 	},
 	"planar": {
-		"name": "planar",
+		"name": "Planar",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Planar",
@@ -3602,7 +3576,7 @@
 		]
 	},
 	"quenching": {
-		"name": "quenching",
+		"name": "Quenching",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Quenching",
@@ -3619,7 +3593,7 @@
 		]
 	},
 	"rusting": {
-		"name": "rusting",
+		"name": "Rusting",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Rusting",
@@ -3636,7 +3610,7 @@
 		]
 	},
 	"sacred": {
-		"name": "sacred",
+		"name": "Sacred",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sacred",
@@ -3655,7 +3629,7 @@
 		]
 	},
 	"sapping": {
-		"name": "sapping",
+		"name": "Sapping",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Sapping",
@@ -3672,7 +3646,7 @@
 		]
 	},
 	"seaborne": {
-		"name": "seaborne",
+		"name": "Seaborne",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Seaborne",
@@ -3689,7 +3663,7 @@
 		]
 	},
 	"shock": {
-		"name": "shock",
+		"name": "Shock",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3709,7 +3683,7 @@
 		]
 	},
 	"skewering": {
-		"name": "skewering",
+		"name": "Skewering",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Skewering",
@@ -3726,7 +3700,7 @@
 		]
 	},
 	"slithering": {
-		"name": "slithering",
+		"name": "Slithering",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Slithering",
@@ -3743,7 +3717,7 @@
 		]
 	},
 	"smashing": {
-		"name": "smashing",
+		"name": "Smashing",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Smashing",
@@ -3760,7 +3734,7 @@
 		]
 	},
 	"spell_storing_weapon": {
-		"name": "spell storing (weapon)",
+		"name": "Spell Storing (weapon)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3782,7 +3756,7 @@
 		]
 	},
 	"spirit-hunting": {
-		"name": "spirit-hunting",
+		"name": "Spirit-Hunting",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit-Hunting",
@@ -3815,7 +3789,7 @@
 		"copyof": "spirit-hunting"
 	},
 	"sticky": {
-		"name": "sticky",
+		"name": "Sticky",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Sticky",
@@ -3832,7 +3806,7 @@
 		]
 	},
 	"summon_bane": {
-		"name": "summon bane",
+		"name": "Summon Bane",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Summon Bane",
@@ -3849,7 +3823,7 @@
 		]
 	},
 	"thawing": {
-		"name": "thawing",
+		"name": "Thawing",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Thawing",
@@ -3866,7 +3840,7 @@
 		]
 	},
 	"throwing": {
-		"name": "throwing",
+		"name": "Throwing",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3886,7 +3860,7 @@
 		]
 	},
 	"thundering": {
-		"name": "thundering",
+		"name": "Thundering",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3906,7 +3880,7 @@
 		]
 	},
 	"training": {
-		"name": "training",
+		"name": "Training",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Training",
@@ -3923,7 +3897,7 @@
 		]
 	},
 	"unaligned": {
-		"name": "unaligned",
+		"name": "Unaligned",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Unaligned",
@@ -3940,7 +3914,7 @@
 		]
 	},
 	"underwater": {
-		"name": "underwater",
+		"name": "Underwater",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Underwater",
@@ -3957,7 +3931,7 @@
 		]
 	},
 	"valiant": {
-		"name": "valiant",
+		"name": "Valiant",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Valiant",
@@ -3974,7 +3948,7 @@
 		]
 	},
 	"vampiric": {
-		"name": "vampiric",
+		"name": "Vampiric",
 		"sources": [
 			"Horror Adventures",
 			"Weapon Master's Handbook"
@@ -3996,7 +3970,7 @@
 		]
 	},
 	"vicious": {
-		"name": "vicious",
+		"name": "Vicious",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4016,7 +3990,7 @@
 		]
 	},
 	"virulent": {
-		"name": "virulent",
+		"name": "Virulent",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Virulent",
@@ -4033,7 +4007,7 @@
 		]
 	},
 	"prehensile": {
-		"name": "prehensile",
+		"name": "Prehensile",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Prehensile",
@@ -4050,7 +4024,7 @@
 		]
 	},
 	"concealed,_lesser": {
-		"name": "concealed, lesser",
+		"name": "Concealed, Lesser",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Concealed, Lesser",
@@ -4070,7 +4044,7 @@
 		"copyof": "concealed,_lesser"
 	},
 	"impervious_weapon": {
-		"name": "impervious (weapon)",
+		"name": "Impervious (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impervious",
@@ -4087,7 +4061,7 @@
 		]
 	},
 	"exclusionary": {
-		"name": "exclusionary",
+		"name": "Exclusionary",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exclusionary",
@@ -4104,7 +4078,7 @@
 		]
 	},
 	"glamered_weapon": {
-		"name": "glamered (weapon)",
+		"name": "Glamered (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Glamered",
@@ -4121,7 +4095,7 @@
 		]
 	},
 	"resizing": {
-		"name": "resizing",
+		"name": "Resizing",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Resizing",
@@ -4138,7 +4112,7 @@
 		]
 	},
 	"sacrosanct": {
-		"name": "sacrosanct",
+		"name": "Sacrosanct",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Sacrosanct",
@@ -4157,7 +4131,7 @@
 		]
 	},
 	"sneaky": {
-		"name": "sneaky",
+		"name": "Sneaky",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sneaky",
@@ -4174,7 +4148,7 @@
 		]
 	},
 	"liberating_wmh": {
-		"name": "liberating (WMH)",
+		"name": "Liberating (WMH)",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Liberating (WMH)",
@@ -4191,7 +4165,7 @@
 		]
 	},
 	"concealed": {
-		"name": "concealed",
+		"name": "Concealed",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Concealed",
@@ -4212,7 +4186,7 @@
 		]
 	},
 	"advancing_weapon": {
-		"name": "advancing (weapon)",
+		"name": "Advancing (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Advancing",
@@ -4229,7 +4203,7 @@
 		]
 	},
 	"anarchic": {
-		"name": "anarchic",
+		"name": "Anarchic",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4249,7 +4223,7 @@
 		]
 	},
 	"anchoring": {
-		"name": "anchoring",
+		"name": "Anchoring",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Anchoring",
@@ -4266,7 +4240,7 @@
 		]
 	},
 	"axiomatic": {
-		"name": "axiomatic",
+		"name": "Axiomatic",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4286,7 +4260,7 @@
 		]
 	},
 	"burning": {
-		"name": "burning",
+		"name": "Burning",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Burning",
@@ -4307,7 +4281,7 @@
 		]
 	},
 	"corrosive_burst": {
-		"name": "corrosive burst",
+		"name": "Corrosive Burst",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4329,7 +4303,7 @@
 		]
 	},
 	"culling": {
-		"name": "culling",
+		"name": "Culling",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Culling",
@@ -4346,7 +4320,7 @@
 		]
 	},
 	"defiant_weapon": {
-		"name": "defiant (weapon)",
+		"name": "Defiant (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Defiant",
@@ -4363,7 +4337,7 @@
 		]
 	},
 	"dispelling_burst": {
-		"name": "dispelling burst",
+		"name": "Dispelling Burst",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dispelling Burst",
@@ -4382,7 +4356,7 @@
 		]
 	},
 	"disruption": {
-		"name": "disruption",
+		"name": "Disruption",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4402,7 +4376,7 @@
 		]
 	},
 	"distracting,_greater": {
-		"name": "distracting, greater",
+		"name": "Distracting, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Distracting, Greater",
@@ -4422,7 +4396,7 @@
 		"copyof": "distracting,_greater"
 	},
 	"flaming_burst": {
-		"name": "flaming burst",
+		"name": "Flaming Burst",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4444,7 +4418,7 @@
 		]
 	},
 	"furyborn": {
-		"name": "furyborn",
+		"name": "Furyborn",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Furyborn",
@@ -4461,7 +4435,7 @@
 		]
 	},
 	"fury-born": {
-		"name": "fury-born",
+		"name": "Fury-Born",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Fury-Born",
@@ -4481,7 +4455,7 @@
 		"copyof": "fury-born"
 	},
 	"glorious": {
-		"name": "glorious",
+		"name": "Glorious",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Glorious",
@@ -4498,7 +4472,7 @@
 		]
 	},
 	"harvesting": {
-		"name": "harvesting",
+		"name": "Harvesting",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Harvesting",
@@ -4517,7 +4491,7 @@
 		]
 	},
 	"heretical": {
-		"name": "heretical",
+		"name": "Heretical",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Heretical",
@@ -4534,7 +4508,7 @@
 		]
 	},
 	"holy": {
-		"name": "holy",
+		"name": "Holy",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4554,7 +4528,7 @@
 		]
 	},
 	"icy_burst": {
-		"name": "icy burst",
+		"name": "Icy Burst",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4576,7 +4550,7 @@
 		]
 	},
 	"igniting": {
-		"name": "igniting",
+		"name": "Igniting",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Igniting",
@@ -4593,7 +4567,7 @@
 		]
 	},
 	"impact": {
-		"name": "impact",
+		"name": "Impact",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impact",
@@ -4610,7 +4584,7 @@
 		]
 	},
 	"invigorating": {
-		"name": "invigorating",
+		"name": "Invigorating",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Invigorating",
@@ -4627,7 +4601,7 @@
 		]
 	},
 	"ki_intensifying": {
-		"name": "ki intensifying",
+		"name": "Ki Intensifying",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ki Intensifying",
@@ -4648,7 +4622,7 @@
 		]
 	},
 	"legbreaker": {
-		"name": "legbreaker",
+		"name": "Legbreaker",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Legbreaker",
@@ -4665,7 +4639,7 @@
 		]
 	},
 	"liberating_ui": {
-		"name": "liberating (UI)",
+		"name": "Liberating (UI)",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Liberating (UI)",
@@ -4682,7 +4656,7 @@
 		]
 	},
 	"lifesurge": {
-		"name": "lifesurge",
+		"name": "Lifesurge",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Lifesurge",
@@ -4701,7 +4675,7 @@
 		]
 	},
 	"negating": {
-		"name": "negating",
+		"name": "Negating",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Negating",
@@ -4718,7 +4692,7 @@
 		]
 	},
 	"obliviating": {
-		"name": "obliviating",
+		"name": "Obliviating",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Obliviating",
@@ -4735,7 +4709,7 @@
 		]
 	},
 	"peaceful": {
-		"name": "peaceful",
+		"name": "Peaceful",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Peaceful",
@@ -4752,7 +4726,7 @@
 		]
 	},
 	"phase_locking": {
-		"name": "phase locking",
+		"name": "Phase Locking",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Phase Locking",
@@ -4769,7 +4743,7 @@
 		]
 	},
 	"planestriking": {
-		"name": "planestriking",
+		"name": "Planestriking",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Planestriking",
@@ -4786,7 +4760,7 @@
 		]
 	},
 	"potent": {
-		"name": "potent",
+		"name": "Potent",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Potent",
@@ -4803,7 +4777,7 @@
 		]
 	},
 	"quaking": {
-		"name": "quaking",
+		"name": "Quaking",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Quaking",
@@ -4820,7 +4794,7 @@
 		]
 	},
 	"runeforged": {
-		"name": "runeforged",
+		"name": "Runeforged",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #5: Sins of the Saviors"
@@ -4862,7 +4836,7 @@
 		]
 	},
 	"sharding": {
-		"name": "sharding",
+		"name": "Sharding",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Sharding",
@@ -4879,7 +4853,7 @@
 		]
 	},
 	"shattering": {
-		"name": "shattering",
+		"name": "Shattering",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Shattering",
@@ -4898,7 +4872,7 @@
 		]
 	},
 	"shocking_burst": {
-		"name": "shocking burst",
+		"name": "Shocking Burst",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4920,7 +4894,7 @@
 		]
 	},
 	"silencing": {
-		"name": "silencing",
+		"name": "Silencing",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Silencing",
@@ -4939,7 +4913,7 @@
 		]
 	},
 	"stalking": {
-		"name": "stalking",
+		"name": "Stalking",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stalking",
@@ -4958,7 +4932,7 @@
 		]
 	},
 	"toxic": {
-		"name": "toxic",
+		"name": "Toxic",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Toxic",
@@ -4975,7 +4949,7 @@
 		]
 	},
 	"treasonous": {
-		"name": "treasonous",
+		"name": "Treasonous",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Treasonous",
@@ -4992,7 +4966,7 @@
 		]
 	},
 	"truthful": {
-		"name": "truthful",
+		"name": "Truthful",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Truthful",
@@ -5011,7 +4985,7 @@
 		]
 	},
 	"unholy": {
-		"name": "unholy",
+		"name": "Unholy",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5031,7 +5005,7 @@
 		]
 	},
 	"unseen": {
-		"name": "unseen",
+		"name": "Unseen",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Unseen",
@@ -5048,7 +5022,7 @@
 		]
 	},
 	"vampiric,_greater": {
-		"name": "vampiric, greater",
+		"name": "Vampiric, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Vampiric, Greater",
@@ -5068,7 +5042,7 @@
 		"copyof": "vampiric,_greater"
 	},
 	"wounding": {
-		"name": "wounding",
+		"name": "Wounding",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5088,7 +5062,7 @@
 		]
 	},
 	"transformative": {
-		"name": "transformative",
+		"name": "Transformative",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5108,7 +5082,7 @@
 		]
 	},
 	"dueling": {
-		"name": "dueling",
+		"name": "Dueling",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5128,7 +5102,7 @@
 		]
 	},
 	"transformative,_greater": {
-		"name": "transformative, greater",
+		"name": "Transformative, Greater",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Transformative, Greater",
@@ -5148,7 +5122,7 @@
 		"copyof": "transformative,_greater"
 	},
 	"exhausting": {
-		"name": "exhausting",
+		"name": "Exhausting",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exhausting",
@@ -5165,7 +5139,7 @@
 		]
 	},
 	"flamboyant,_greater": {
-		"name": "flamboyant, greater",
+		"name": "Flamboyant, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flamboyant, Greater",
@@ -5185,7 +5159,7 @@
 		"copyof": "flamboyant,_greater"
 	},
 	"gory": {
-		"name": "gory",
+		"name": "Gory",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Gory",
@@ -5202,7 +5176,7 @@
 		]
 	},
 	"nullifying": {
-		"name": "nullifying",
+		"name": "Nullifying",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Nullifying",
@@ -5219,7 +5193,7 @@
 		]
 	},
 	"redeemed": {
-		"name": "redeemed",
+		"name": "Redeemed",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Redeemed",
@@ -5236,7 +5210,7 @@
 		]
 	},
 	"repositioning": {
-		"name": "repositioning",
+		"name": "Repositioning",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Repositioning",
@@ -5253,7 +5227,7 @@
 		]
 	},
 	"speed": {
-		"name": "speed",
+		"name": "Speed",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5273,7 +5247,7 @@
 		]
 	},
 	"spellstealing": {
-		"name": "spellstealing",
+		"name": "Spellstealing",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spellstealing",
@@ -5290,7 +5264,7 @@
 		]
 	},
 	"umbral": {
-		"name": "umbral",
+		"name": "Umbral",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Umbral",
@@ -5309,7 +5283,7 @@
 		]
 	},
 	"brilliant_energy": {
-		"name": "brilliant energy",
+		"name": "Brilliant Energy",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5329,7 +5303,7 @@
 		]
 	},
 	"dancing": {
-		"name": "dancing",
+		"name": "Dancing",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5349,7 +5323,7 @@
 		]
 	},
 	"flying": {
-		"name": "flying",
+		"name": "Flying",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flying",
@@ -5366,7 +5340,7 @@
 		]
 	},
 	"spell_siphon": {
-		"name": "spell siphon",
+		"name": "Spell Siphon",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Spell Siphon",
@@ -5385,7 +5359,7 @@
 		]
 	},
 	"vorpal": {
-		"name": "vorpal",
+		"name": "Vorpal",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5405,7 +5379,7 @@
 		]
 	},
 	"adaptive": {
-		"name": "adaptive",
+		"name": "Adaptive",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Adaptive",
@@ -5422,7 +5396,7 @@
 		]
 	},
 	"dry_load": {
-		"name": "dry load",
+		"name": "Dry Load",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5446,7 +5420,7 @@
 		]
 	},
 	"sniping_normal": {
-		"name": "sniping (normal)",
+		"name": "Sniping (normal)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (normal)",
@@ -5466,7 +5440,7 @@
 		"copyof": "sniping_normal"
 	},
 	"ambushing": {
-		"name": "ambushing",
+		"name": "Ambushing",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ambushing",
@@ -5483,7 +5457,7 @@
 		]
 	},
 	"beaming": {
-		"name": "beaming",
+		"name": "Beaming",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Beaming",
@@ -5500,7 +5474,7 @@
 		]
 	},
 	"clustershot": {
-		"name": "clustershot",
+		"name": "Clustershot",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Clustershot",
@@ -5517,7 +5491,7 @@
 		]
 	},
 	"conserving": {
-		"name": "conserving",
+		"name": "Conserving",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Conserving",
@@ -5534,7 +5508,7 @@
 		]
 	},
 	"distance": {
-		"name": "distance",
+		"name": "Distance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5554,7 +5528,7 @@
 		]
 	},
 	"driving": {
-		"name": "driving",
+		"name": "Driving",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Driving",
@@ -5571,7 +5545,7 @@
 		]
 	},
 	"healer's_sorrow": {
-		"name": "healer's sorrow",
+		"name": "Healer's Sorrow",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Healer's Sorrow",
@@ -5588,7 +5562,7 @@
 		]
 	},
 	"lucky": {
-		"name": "lucky",
+		"name": "Lucky",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5608,7 +5582,7 @@
 		]
 	},
 	"plummeting": {
-		"name": "plummeting",
+		"name": "Plummeting",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Plummeting",
@@ -5625,7 +5599,7 @@
 		]
 	},
 	"reliable": {
-		"name": "reliable",
+		"name": "Reliable",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5645,7 +5619,7 @@
 		]
 	},
 	"returning": {
-		"name": "returning",
+		"name": "Returning",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5665,7 +5639,7 @@
 		]
 	},
 	"seeking": {
-		"name": "seeking",
+		"name": "Seeking",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5685,7 +5659,7 @@
 		]
 	},
 	"shadowshooting": {
-		"name": "shadowshooting",
+		"name": "Shadowshooting",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Shadowshooting",
@@ -5704,7 +5678,7 @@
 		]
 	},
 	"sparkfly_crystal_arrow": {
-		"name": "sparkfly crystal arrow",
+		"name": "Sparkfly Crystal Arrow",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Sparkfly Crystal Arrow",
@@ -5721,7 +5695,7 @@
 		]
 	},
 	"spell_hurling": {
-		"name": "spell hurling",
+		"name": "Spell Hurling",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Spell Hurling",
@@ -5738,7 +5712,7 @@
 		]
 	},
 	"veering": {
-		"name": "veering",
+		"name": "Veering",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Veering",
@@ -5755,7 +5729,7 @@
 		]
 	},
 	"phantom_ammunition": {
-		"name": "phantom ammunition",
+		"name": "Phantom Ammunition",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Phantom Ammunition",
@@ -5774,7 +5748,7 @@
 		]
 	},
 	"sniping_improved": {
-		"name": "sniping (improved)",
+		"name": "Sniping (improved)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (improved)",
@@ -5794,7 +5768,7 @@
 		"copyof": "sniping_improved"
 	},
 	"cyclonic": {
-		"name": "cyclonic",
+		"name": "Cyclonic",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Cyclonic",
@@ -5811,7 +5785,7 @@
 		]
 	},
 	"dazzling": {
-		"name": "dazzling",
+		"name": "Dazzling",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Dazzling",
@@ -5828,7 +5802,7 @@
 		]
 	},
 	"designating_lesser": {
-		"name": "designating (lesser)",
+		"name": "Designating (lesser)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Designating (lesser)",
@@ -5848,7 +5822,7 @@
 		"copyof": "designating_lesser"
 	},
 	"endless_ammunition": {
-		"name": "endless ammunition",
+		"name": "Endless Ammunition",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Endless Ammunition",
@@ -5867,7 +5841,7 @@
 		]
 	},
 	"glitterwake": {
-		"name": "glitterwake",
+		"name": "Glitterwake",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Glitterwake",
@@ -5884,7 +5858,7 @@
 		]
 	},
 	"penetrating": {
-		"name": "penetrating",
+		"name": "Penetrating",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Penetrating",
@@ -5901,7 +5875,7 @@
 		]
 	},
 	"sniping": {
-		"name": "sniping",
+		"name": "Sniping",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Sniping",
@@ -5918,7 +5892,7 @@
 		]
 	},
 	"sniping_greater": {
-		"name": "sniping (greater)",
+		"name": "Sniping (greater)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (greater)",
@@ -5938,7 +5912,7 @@
 		"copyof": "sniping_greater"
 	},
 	"lucky,_greater": {
-		"name": "lucky, greater",
+		"name": "Lucky, Greater",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5961,7 +5935,7 @@
 		"copyof": "lucky,_greater"
 	},
 	"reliable_greater": {
-		"name": "reliable (greater)",
+		"name": "Reliable (greater)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5984,7 +5958,7 @@
 		"copyof": "reliable_greater"
 	},
 	"sonic_boom": {
-		"name": "sonic boom",
+		"name": "Sonic Boom",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sonic Boom",
@@ -6001,7 +5975,7 @@
 		]
 	},
 	"tailwind": {
-		"name": "tailwind",
+		"name": "Tailwind",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Tailwind",
@@ -6018,7 +5992,7 @@
 		]
 	},
 	"designating_greater": {
-		"name": "designating (greater)",
+		"name": "Designating (greater)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Designating (greater)",
@@ -6038,7 +6012,7 @@
 		"copyof": "designating_greater"
 	},
 	"nimble_shot": {
-		"name": "nimble shot",
+		"name": "Nimble Shot",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Nimble Shot",
@@ -6055,7 +6029,7 @@
 		]
 	},
 	"second_chance": {
-		"name": "second chance",
+		"name": "Second Chance",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Second Chance",
@@ -6072,7 +6046,7 @@
 		]
 	},
 	"heart-piercing": {
-		"name": "heart-piercing",
+		"name": "Heart-Piercing",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Heart-Piercing",
@@ -6092,7 +6066,7 @@
 		"copyof": "heart-piercing"
 	},
 	"interfering": {
-		"name": "interfering",
+		"name": "Interfering",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Interfering",

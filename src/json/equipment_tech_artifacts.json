@@ -256,7 +256,7 @@
 		"copyof": "memory_facet_discipline,_entropy,_guile"
 	},
 	"power_relay": {
-		"name": "Power relay",
+		"name": "Power Relay",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Power Relay",
@@ -279,7 +279,7 @@
 		]
 	},
 	"powered_armor": {
-		"name": "Powered armor",
+		"name": "Powered Armor",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Powered Armor",
@@ -319,7 +319,7 @@
 		]
 	},
 	"psychic_imprinter": {
-		"name": "Psychic imprinter",
+		"name": "Psychic Imprinter",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Psychic Imprinter",
@@ -336,7 +336,7 @@
 		]
 	},
 	"rebirthing_chamber": {
-		"name": "Rebirthing chamber",
+		"name": "Rebirthing Chamber",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Rebirthing Chamber",
@@ -357,7 +357,7 @@
 		]
 	},
 	"temporal_accelerator": {
-		"name": "Temporal accelerator",
+		"name": "Temporal Accelerator",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Temporal Accelerator",

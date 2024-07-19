@@ -31,11 +31,10 @@
 			"**Benefit:** You do not take a penalty to AC while charging undead creatures and evil outsiders.  ",
 			"**Normal:** When you charge, you take a -2 penalty to AC until the start of your next turn.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
-			"",
-			"When charging any creature with an evil alignment, you can spend 2 stamina points in order to ignore the -2 penalty to AC imposed by charging."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">",
+			">When charging any creature with an evil alignment, you can spend 2 stamina points in order to ignore the -2 penalty to AC imposed by charging."
 		]
 	},
 	"charge_through": {
@@ -55,11 +54,10 @@
 			"**Benefit:** When making a charge, you can attempt to overrun one creature in the path of the charge as a free action. If you successfully overrun that creature, you can complete the charge. If the overrun is unsuccessful, the charge ends in the space directly in front of that creature.  ",
 			"**Normal:** You must have a clear path toward the target of your charge.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina points to finish your charge against that creature instead of losing your charge.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina points to finish your charge against that creature instead of losing your charge.",
 			"",
 			"### Mythic Charge Through",
 			"",
@@ -86,11 +84,10 @@
 			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** You can use the charge rules to make a thrown weapon attack. All the parameters of a charge apply, except that you must only move closer to your opponent, and you must end your movement within 30 feet of that opponent. If you do, you can make a single thrown weapon attack against that opponent, gaining the +2 bonus on the attack roll and taking a -2 penalty to your AC until the start of your next turn.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your target instead of 30 feet."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your target instead of 30 feet."
 		]
 	},
 	"charging_stag_style": {
@@ -266,11 +263,10 @@
 			"**Prerequisites:** [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +6 or monk level 5th.  ",
 			"**Benefit:** While you have an opponent up to one size category larger than you grappled, you can attempt a grapple combat maneuver with a -5 penalty on the check. If you succeed, you have pinned your opponent and hold the opponent in a chokehold. When you maintain the grapple, you also maintain the chokehold. A creature in a chokehold cannot breathe or speak, and thus cannot cast spells that have a verbal component. An opponent you have in a chokehold has to hold his breath or begin suffocating. Any creature that does not breathe, is immune to bleed damage, or is immune to critical hits is immune to the effects of your chokehold. When the grapple is ended, so is the chokehold.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1."
 		]
 	},
 	"choral_support": {
@@ -438,11 +434,10 @@
 			"**Benefit:** When you make a charge, you can make a full attack with your claws.  ",
 			"**Normal:** Charging is a special full-round action that limits you to a single attack.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When you charge, you can spend 5 stamina points to make a second attack with one of your claws."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When you charge, you can spend 5 stamina points to make a second attack with one of your claws."
 		]
 	},
 	"claw_wrench": {
@@ -491,11 +486,10 @@
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +1.  ",
 			"**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a -2 penalty to your Armor Class until your next turn.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When using the Cleave or Great Cleave feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When using the Cleave or Great Cleave feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
 			"",
 			"### Mythic Cleave",
 			"",
@@ -523,11 +517,10 @@
 			"**Benefit:** When using Cleave or Great Cleave, if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.  ",
 			"**Normal:** You may only make additional attacks with Cleave against creatures you threaten when you make your initial attack.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When using this feat, once per round when you hit a creature with a follow-up Cleave attack, you can spend 5 stamina points to take a second 5-foot step as a free action. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attacks as long as it meets all the other prerequisites."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When using this feat, once per round when you hit a creature with a follow-up Cleave attack, you can spend 5 stamina points to take a second 5-foot step as a free action. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attacks as long as it meets all the other prerequisites."
 		]
 	},
 	"cleaving_finish": {
@@ -545,11 +538,10 @@
 			"**Prerequisites:** Str 13, [Cleave](feat/cleave), [Power Attack](feat/power_attack).  ",
 			"**Benefit:** If you make a melee attack, and your target drops to 0 or fewer hit points as a result of your attack, you can make another melee attack using your highest base attack bonus against another opponent within reach. You can make only one extra attack per round with this feat.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"After making a Cleaving Finish attack, if you bring another target below 0 hit points in the same round, you can spend 5 stamina points to make another Cleaving Finish attack."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">After making a Cleaving Finish attack, if you bring another target below 0 hit points in the same round, you can spend 5 stamina points to make another Cleaving Finish attack."
 		]
 	},
 	"cleaving_sweep": {
@@ -703,11 +695,10 @@
 			"**Benefit:** Choose a type of thrown weapon. You do not provoke attacks of opportunity for making ranged attacks using the selected weapon. If you are an alchemist, and you select this feat and choose alchemist bombs, you do not provoke attacks of opportunity for the process of drawing components of, creating, and throwing a bomb.  ",
 			"**Normal:** Making a ranged attack provokes attacks of opportunity.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When throwing any thrown weapon, you can spend 2 stamina points. If you do, you do not provoke attacks of opportunity for that throw."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When throwing any thrown weapon, you can spend 2 stamina points. If you do, you do not provoke attacks of opportunity for that throw."
 		]
 	},
 	"close_quarters_thrower": {
@@ -767,11 +758,10 @@
 			"**Prerequisites:** [Dented Helm](feat/dented_helm), base attack bonus +11, dwarf.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls; this benefit stacks with Dented Helm. When you use Dented Helm to deflect a critical hit, you may apply all damage from the critical hit to your helmet before applying any damage to yourself. If you take no damage, any additional effects, such as critical feats or poison, are negated.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an additional bonus to AC against the critical confirmation roll equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an additional bonus to AC against the critical confirmation roll equal to the number of stamina points you spent."
 		]
 	},
 	"clustered_shots": {
@@ -790,11 +780,10 @@
 			"**Benefit:** When you use a full-attack action to make multiple ranged weapon attacks against the same opponent, total the damage from all hits before applying that opponent's damage reduction.  ",
 			"**Special:** If the massive damage optional rule is being used, that rule applies if the total damage you deal with this feat is equal to or exceeds half the opponent's full normal hit points (minimum 50 points of damage).",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When using this feat, you can spend up to 2 stamina points for each attack that hit the same target. Increase the damage pooled by this feat by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When using this feat, you can spend up to 2 stamina points for each attack that hit the same target. Increase the damage pooled by this feat by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"coaxing_spell": {
@@ -825,11 +814,10 @@
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), Gorgon's Fist, Medusa's Wrath, base attack bonus +16.  ",
 			"**Benefit:** As a full-round action, you can make a single unarmed strike against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe. If that attack is a critical hit, the target is petrified unless it succeeds on a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier. This is a supernatural polymorph effect.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to make a Cockatrice Strike attack against a foe you are flanking."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to make a Cockatrice Strike attack against a foe you are flanking."
 		]
 	},
 	"cold_celerity": {
@@ -941,11 +929,10 @@
 			"**Prerequisites:** Int 13.  ",
 			"**Benefit:** You can choose to take a -1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits, ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits, ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.",
 			"",
 			"### Mythic Combat Expertise",
 			"",
@@ -998,11 +985,10 @@
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), [Mobility](feat/mobility), base attack bonus +5.  ",
 			"**Benefit:** As a full-round action, you may set up a combat patrol, increasing your threatened area by 5 feet for every 5 points of your base attack bonus. Until the beginning of your next turn, you may make attacks of opportunity against any opponent in this threatened area that provokes attacks of opportunity. You may move as part of these attacks, provided your total movement before your next turn does not exceed your speed. Any movement you make provokes attacks of opportunity as normal.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When moving before or after making an attack of opportunity while using Combat Patrol, you can spend 1 stamina point per 5 feet moved. When you do, that movement does not provoke attacks of opportunity."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When moving before or after making an attack of opportunity while using Combat Patrol, you can spend 1 stamina point per 5 feet moved. When you do, that movement does not provoke attacks of opportunity."
 		]
 	},
 	"combat_reflexes": {
@@ -1022,11 +1008,10 @@
 			"**Normal:** A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.  ",
 			"**Special:** The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack roll and costs one of your attacks of opportunity for the round.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack roll and costs one of your attacks of opportunity for the round.",
 			"",
 			"### Mythic Combat Reflexes",
 			"",
@@ -1081,11 +1066,10 @@
 			"**Benefit:** You can switch your style as a free action. At the start of combat, pick one of your styles. You start the combat in that style, even in the surprise round.  ",
 			"**Normal:** It takes a swift action to begin or switch your styles.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When it is not your turn, you can spend 2 stamina points to take the free action to switch your style."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When it is not your turn, you can spend 2 stamina points to take the free action to switch your style."
 		]
 	},
 	"combat_vigor": {
@@ -1725,11 +1709,10 @@
 			"**Prerequisites:** You have at least two other teamwork feats, base attack bonus +10.  ",
 			"**Benefit:** When an ally with this feat charges a creature that is no further away from you than your speed, you can, as an immediate action, charge that creature. You must be able to follow all of the normal charge rules.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
-			"",
-			"When an ally with this feat charges a creature, and that creature is farther than your speed but no farther than double your speed, you can spend 5 stamina points to charge that creature. You must still be able to follow all the rules for a charge."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
+			">",
+			">When an ally with this feat charges a creature, and that creature is farther than your speed but no farther than double your speed, you can spend 5 stamina points to charge that creature. You must still be able to follow all the rules for a charge."
 		]
 	},
 	"coordinated_defense": {
@@ -1746,11 +1729,10 @@
 			"You are adept at working with allies to avoid being tripped, grappled, and subjected to other maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus to your Combat Maneuver Defense. This bonus increases to +4 if the creature attempting the maneuver is larger than both you and your ally.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you are targeted with a combat maneuver while you are adjacent to an ally who also has this feat, you can spend 1 or 2 stamina points. If you do, your bonus to Combat Maneuver Defense against that combat maneuver attempt increases by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you are targeted with a combat maneuver while you are adjacent to an ally who also has this feat, you can spend 1 or 2 stamina points. If you do, your bonus to Combat Maneuver Defense against that combat maneuver attempt increases by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"coordinated_distraction": {
@@ -1779,11 +1761,10 @@
 			"You are skilled at working with your allies to perform dangerous combat maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus on all combat maneuver checks. This bonus increases to +4 when attempting to break free from a grapple.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you attempt a combat maneuver while adjacent to an ally who also has this feat, you can spend 1 stamina point to increase your bonus from this feat on that combat maneuver check by 2."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you attempt a combat maneuver while adjacent to an ally who also has this feat, you can spend 1 stamina point to increase your bonus from this feat on that combat maneuver check by 2."
 		]
 	},
 	"coordinated_reposition": {
@@ -1814,11 +1795,10 @@
 			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** If your ally with this feat is threatening an opponent and is not providing cover to that opponent against your ranged attacks, you gain a +1 bonus on ranged attacks against that opponent. If your ally with this feat is flanking that opponent with another ally (even if that other ally doesn't have this feat), this bonus increases to +2.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When making an attack roll, you can spend 2 stamina points to ignore any cover provided by an ally who also has this feat."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When making an attack roll, you can spend 2 stamina points to ignore any cover provided by an ally who also has this feat."
 		]
 	},
 	"cornugon_shield": {
@@ -1957,11 +1937,10 @@
 			"**Prerequisites:** [Anticipate Dodge](feat/anticipate_dodge), [Dodge](feat/dodge), Mobility; base attack bonus +9, brawler level 6th, or monk level 6th.  ",
 			"**Benefit:** Opponents with the Mobility feat do not gain the dodge bonus granted by that feat when they provoke attacks of opportunity by moving out of or within your threatened area.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When an opponent with the Mobility feat moves out of or within your threatened area, you can spend 2 stamina points to gain a +4 bonus on your attack of opportunity."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When an opponent with the Mobility feat moves out of or within your threatened area, you can spend 2 stamina points to gain a +4 bonus on your attack of opportunity."
 		]
 	},
 	"countering_loophole": {
@@ -2006,11 +1985,10 @@
 			"**Prerequisites:** Dex 18, [Combat Reflexes](feat/combat_reflexes), [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +16 or brawler level 12th.  ",
 			"**Benefit:** Once per round, when you are fighting unarmed with both hands free and an opponent misses you with a melee attack, it provokes an attack of opportunity from you. You must use an unarmed strike for this attack of opportunity.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to use this feat a second time during the same round."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to use this feat a second time during the same round."
 		]
 	},
 	"courage_in_a_bottle": {
@@ -2112,11 +2090,10 @@
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6.  ",
 			"**Benefit:** When you use the total defense action while using a light, heavy, or tower shield, you can provide a cover bonus to AC against all attacks to an adjacent ally your size or smaller. This cover bonus is equal to your shield's shield bonus and lasts until the beginning of your next turn. Your shield does not provide a cover bonus to Reflex saves.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When using the total defense action, you can spend 5 stamina points. If you do, your shield also provides a cover bonus on your ally's Reflex saves."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When using the total defense action, you can spend 5 stamina points. If you do, your shield also provides a cover bonus on your ally's Reflex saves."
 		]
 	},
 	"covering_fire_rtt": {
@@ -2160,11 +2137,10 @@
 			"**Prerequisites:** Dex 13, Shield Focus, [Shield Proficiency](feat/shield_proficiency).  ",
 			"**Benefit:** While using a shield of the type to which your Shield Focus feat applies, you gain a bonus on Reflex saves against area of effect attacks equal to your shield's base bonus to armor class plus any bonuses granted by feats or class abilities. This does not transfer any enhancement bonuses on a shield to Reflex saves.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
-			"",
-			"You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save against one attack or hazard."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">",
+			">You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save against one attack or hazard."
 		]
 	},
 	"cracking_the_shell": {
@@ -2439,11 +2415,10 @@
 			"**Prerequisites:** [Crane Style](feat/crane_style), [Crane Wing](feat/crane_wing), [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8 or monk level 7th.  ",
 			"**Benefit:** You take only a -1 penalty on attack rolls for fighting defensively. Whenever you deflect an opponent's attack using Crane Wing or lose the dodge bonus from Crane Wing because an attack missed you by 4 or less, you can make an attack of opportunity against the attacker after the attack misses.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no penalty on your attack rolls from fighting defensively. This lasts until the start of your turn."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no penalty on your attack rolls from fighting defensively. This lasts until the start of your turn."
 		]
 	},
 	"crane_style": {
@@ -2461,11 +2436,10 @@
 			"**Prerequisites:** [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +2 or monk level 1st.  ",
 			"**Benefit:** You take only a -2 penalty on attack rolls for fighting defensively. While using this style and fighting defensively or using the total defense action, you gain an additional +1 dodge bonus to your Armor Class.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"While using this style and fighting defensively or using the total defense action, when you are targeted with a melee attack, you can spend up to 3 stamina points and take an immediate action to increase your dodge bonus to AC against that attack by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">While using this style and fighting defensively or using the total defense action, when you are targeted with a melee attack, you can spend up to 3 stamina points and take an immediate action to increase your dodge bonus to AC against that attack by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"crane_wing": {
@@ -2483,11 +2457,10 @@
 			"**Prerequisites:** [Crane Style](feat/crane_style), [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +5 or monk level 5th.  ",
 			"**Benefit:** When fighting defensively with at least one hand free, you gain a +4 dodge bonus to AC against melee attacks. If a melee attack misses you by 4 or less, you lose this dodge bonus until the beginning of your next turn. If you are using the total defense action instead, you can deflect one melee attack that would normally hit you. An attack so deflected deals no damage and has no other effect (instead treat it as a miss). You do not expend an action when using this feat, but you must be aware of the attack and not flat-footed.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When fighting defensively with at least one hand free, you can spend 5 stamina points to designate a second opponent for your Crane Wing feat. You also gain a +2 dodge bonus to AC against that opponent's attacks."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When fighting defensively with at least one hand free, you can spend 5 stamina points to designate a second opponent for your Crane Wing feat. You also gain a +2 dodge bonus to AC against that opponent's attacks."
 		]
 	},
 	"cranial_adjustment": {
@@ -2690,11 +2663,10 @@
 			"**Benefit:** Whenever you score a critical hit against an opponent, its speed is halved for 1 minute. A successful Fortitude save reduces this duration to 1d4 rounds. The DC of this save is equal to 10 + your base attack bonus. Against creatures with multiple types of movement, you must choose which movement type to affect. A flying creature hit by this attack must make a DC 10 Fly check to remain airborne, and has its maneuverability reduced by one step.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you confirm a critical hit and attempt to cripple an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you confirm a critical hit and attempt to cripple an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"crippling_thrust": {
@@ -2757,11 +2729,10 @@
 			"**Prerequisites:** Base attack bonus +9.  ",
 			"**Benefit:** You receive a +4 circumstance bonus on attack rolls made to confirm critical hits.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"If your successful critical confirmation roll is a natural 19 or 20, you can spend 2 stamina points to roll another confirmation roll. If this confirmation roll also succeeds, increase your critical multiplier by 1 for this attack, and you can roll again. If you continue to roll 19 or 20, you can continue to spend stamina points for additional rolls, and the increases to the critical multiplier stack.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">If your successful critical confirmation roll is a natural 19 or 20, you can spend 2 stamina points to roll another confirmation roll. If this confirmation roll also succeeds, increase your critical multiplier by 1 for this attack, and you can roll again. If you continue to roll 19 or 20, you can continue to spend stamina points for additional rolls, and the increases to the critical multiplier stack.",
 			"",
 			"### Mythic Critical Focus",
 			"",
@@ -2790,11 +2761,10 @@
 			"**Benefit:** When you score a critical hit, you can apply the effects of two critical feats in addition to the damage dealt.  ",
 			"**Normal:** You can only apply the effects of one critical feat to a given critical hit in addition to the damage dealt.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you confirm a critical hit, instead of applying the effects of two critical feats you possess, you can spend 2 stamina points to apply the effect of any one critical feat you don't possess (but for which you qualify).",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you confirm a critical hit, instead of applying the effects of two critical feats you possess, you can spend 2 stamina points to apply the effect of any one critical feat you don't possess (but for which you qualify).",
 			"",
 			"### Mythic Critical Mastery",
 			"",
@@ -2821,11 +2791,10 @@
 			"**Prerequisites:** Fighter level 11th, human.  ",
 			"**Benefit:** Once per day, you can spend 1 hour practicing maneuvers to gain one single critical feat that you meet the prerequisites for. You gain the benefits of the chosen critical feat until you choose to practice a different critical feat.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to use this feat a second time per day."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to use this feat a second time per day."
 		]
 	},
 	"crossbow_mastery": {
@@ -2846,11 +2815,10 @@
 			"**Benefit:** The time required for you to reload any type of crossbow is reduced to a free action, regardless of the type of crossbow used. You can fire a crossbow as many times in a full attack action as you could attack if you were using a bow. Reloading a crossbow for the type of crossbow you chose when you took Rapid Reload no longer provokes attacks of opportunity.  ",
 			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Crossbow Mastery as a combat style feat.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"As long as you have at least 1 stamina point in your stamina pool, reloading any kind of crossbow no longer provokes attacks of opportunity."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">As long as you have at least 1 stamina point in your stamina pool, reloading any kind of crossbow no longer provokes attacks of opportunity."
 		]
 	},
 	"crowd_control": {
@@ -2907,11 +2875,10 @@
 			"**Prerequisites:** Lay on hands class feature or touch of corruption class feature, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +6.  ",
 			"**Benefit:** When you attack with an unarmed strike and hit a creature that you can harm with your lay on hands or touch of corruption feature, you can use a swift action to expend a daily use of that feature to deal its normal damage as if you had hit with the feature's normal touch attack. This extra damage is not multiplied if you scored a critical hit.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you use Crusader's Fist and confirm a critical hit, you can spend 5 stamina points to multiply the extra damage for that critical hit."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you use Crusader's Fist and confirm a critical hit, you can spend 5 stamina points to multiply the extra damage for that critical hit."
 		]
 	},
 	"crusader's_flurry": {
@@ -2942,11 +2909,10 @@
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Stunning Fist](feat/stunning_fist).  ",
 			"**Benefit:** You can make a Stunning Fist attempt as a full-round action. If successful, instead of stunning your target, you reduce the target's AC by an amount equal to your Wisdom modifier for 1 minute. This penalty does not stack with other penalties applied due to Crushing Blow.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When using this feat, you can spend either 2 or 4 stamina points. If you do, the Crushing Blow attack reduces the target's AC by an additional 1 for every 2 stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When using this feat, you can spend either 2 or 4 stamina points. If you do, the Crushing Blow attack reduces the target's AC by an additional 1 for every 2 stamina points you spent."
 		]
 	},
 	"crushing_impact": {
@@ -3226,11 +3192,10 @@
 			"**Prerequisites:** Armor training class feature, proficiency with medium or heavy armor.  ",
 			"**Benefit:** When you take falling damage, you can direct half of the damage to your armor. This damage ignores the armor's hardness.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
-			"",
-			"You can spend 5 stamina points to utilize your armor's hardness when directing falling damage to it."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">",
+			">You can spend 5 stamina points to utilize your armor's hardness when directing falling damage to it."
 		]
 	},
 	"cushioning_shield": {
@@ -3245,11 +3210,10 @@
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
 			"**Benefit:** When you fall 10 or more feet, you can direct half of the falling damage you would take to your shield. This damage ignores the shield's hardness.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
-			"",
-			"You can spend 5 stamina points to utilize your shield's hardness when directing falling damage to it."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">",
+			">You can spend 5 stamina points to utilize your shield's hardness when directing falling damage to it."
 		]
 	},
 	"cut_from_the_air": {
@@ -3543,11 +3507,10 @@
 			"**Benefit:** You can deliver a coup de grace to cowering or stunned targets.  ",
 			"**Normal:** You can only coup de grace helpless targets.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"You can spend 10 stamina points to deliver a coup de grace against two helpless, cowering, or stunned targets within your reach as a fullround action. This provokes attacks of opportunity twice-one for each coup de grace.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">You can spend 10 stamina points to deliver a coup de grace against two helpless, cowering, or stunned targets within your reach as a fullround action. This provokes attacks of opportunity twice-one for each coup de grace.",
 			"",
 			"### Mythic Dastardly Finish",
 			"",
@@ -3613,11 +3576,10 @@
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +11.  ",
 			"**Benefit:** You can choose to take a -5 penalty on all melee attack rolls and combat maneuver checks to daze opponents you hit with your melee attacks for 1 round, in addition to the normal damage dealt by the attack. A successful Fortitude save negates the effect. The DC of this save is 10 + your base attack bonus. You must choose to use this feat before making the attack roll, and its effects last until your next turn.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"After hitting an opponent with a melee attack, you can spend 5 stamina points to attempt to daze that opponent as if using this feat."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">After hitting an opponent with a melee attack, you can spend 5 stamina points to attempt to daze that opponent as if using this feat."
 		]
 	},
 	"dazing_fist": {
@@ -3635,11 +3597,10 @@
 			"**Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +4.  ",
 			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Dazing Fist forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A foe who fails this saving throw is dazed for 1 round, until just before your next turn. You can attempt to use Dazing Fist once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to declare that you are using Dazing Fist after you've hit with an unarmed strike attack."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to declare that you are using Dazing Fist after you've hit with an unarmed strike attack."
 		]
 	},
 	"dazing_spell": {
@@ -3670,11 +3631,10 @@
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus), proficiency with the selected weapon.  ",
 			"**Benefit:** While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When wielding a melee weapon with which you have Weapon Focus, you can make a single melee attack as a standard action against a foe. If the attack hits, you can select any number of foes within 30 feet who saw the attack, including that foe. Spend 2 stamina points per foe you have selected, then attempt an Intimidate check to demoralize those foes.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When wielding a melee weapon with which you have Weapon Focus, you can make a single melee attack as a standard action against a foe. If the attack hits, you can select any number of foes within 30 feet who saw the attack, including that foe. Spend 2 stamina points per foe you have selected, then attempt an Intimidate check to demoralize those foes.",
 			"",
 			"### Mythic Dazzling Display",
 			"",
@@ -3758,11 +3718,10 @@
 			"**Prerequisites:** Dex 13, base attack bonus +1.  ",
 			"**Benefit:** You can choose to take a -1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When using this feat, you can spend 4 stamina points to reduce the penalty to attack rolls imposed by the feat by 1 until the beginning of your next turn. You can't reduce the penalty below 0.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When using this feat, you can spend 4 stamina points to reduce the penalty to attack rolls imposed by the feat by 1 until the beginning of your next turn. You can't reduce the penalty below 0.",
 			"",
 			"### Mythic Deadly Aim",
 			"",
@@ -3809,11 +3768,10 @@
 			"**Prerequisites:** Base attack bonus +11.  ",
 			"**Benefit:** When you hit with a melee attack and reduce your opponent to -1 or fewer hit points, you can force that opponent to succeed at a Fortitude save (DC 15 + the damage your attack dealt) or die.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you reduce an opponent to 0 hit points, you can spend 2 stamina points to force the creature to succeed at the saving throw for Deadly Finish or die."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you reduce an opponent to 0 hit points, you can spend 2 stamina points to force the creature to succeed at the saving throw for Deadly Finish or die."
 		]
 	},
 	"deadly_grappler": {
@@ -3874,11 +3832,10 @@
 			"**Prerequisites:** [Dazzling Display](feat/dazzling_display), [Greater Weapon Focus](feat/greater_weapon_focus), [Shatter Defenses](feat/shatter_defenses), [Weapon Focus](feat/weapon_focus), proficiency with the selected weapon, base attack bonus +11.  ",
 			"**Benefit:** As a standard action, make a single attack with the weapon for which you have Greater Weapon Focus against a stunned or flat-footed opponent. If you hit, you deal double the normal damage and the target takes 1 point of Constitution bleed. The additional damage and bleed is not multiplied on a critical hit.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to make a Deadly Stroke attack against a dazed opponent, or 10 stamina points to make a Deadly Stroke against an opponent you are flanking.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to make a Deadly Stroke attack against a dazed opponent, or 10 stamina points to make a Deadly Stroke against an opponent you are flanking.",
 			"",
 			"### Mythic Deadly Stroke",
 			"",
@@ -3932,11 +3889,10 @@
 			"**Benefit:** Whenever you score a critical hit against an opponent, the victim is permanently deafened. A successful Fortitude save reduces the deafness to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by heal, regeneration, remove deafness, or a similar ability.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
-			"",
-			"When you confirm a critical hit and attempt to deafen an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 116](source/pathfinder_unchained)",
+			">",
+			">When you confirm a critical hit and attempt to deafen an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"deafening_explosion": {
@@ -3986,11 +3942,10 @@
 			"You allow gravity to add extra force to your charges.  ",
 			"**Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, you gain a +5 bonus on attack rolls in place of the bonuses from charging and being on higher ground.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When charging an opponent from higher ground or from above while flying, you can spend 4 stamina points to gain a +5 bonus on the damage roll, and also retain the bonuses from charging and being on higher ground.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When charging an opponent from higher ground or from above while flying, you can spend 4 stamina points to gain a +5 bonus on the damage roll, and also retain the bonuses from charging and being on higher ground.",
 			"",
 			"### Mythic Death from Above",
 			"",
@@ -4031,11 +3986,10 @@
 			"**Benefit:** Against a creature of size Large or larger, you can make a single melee attack as a full-round action, gaining a +4 bonus on the attack roll, damage roll, and critical confirmation roll. You gain an additional +1 on this bonus at base attack bonus +11, +16, and +20 (for a maximum of +7 at base attack +20). After you resolve your attack, the opponent you attack can spend an immediate action to make a single melee attack against you with the same bonuses.  ",
 			"**Special:** You can combine the full-round action attack this feat allows with the benefit of Vital Strike, Improved Vital Strike, or Greater Vital Strike.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When you make a Death or Glory attack, you can spend 5 stamina points to automatically negate the opponent's immediate-action attack against you after it takes the action but before it rolls the attack."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When you make a Death or Glory attack, you can spend 5 stamina points to automatically negate the opponent's immediate-action attack against you after it takes the action but before it rolls the attack."
 		]
 	},
 	"death_roll": {
@@ -4066,11 +4020,10 @@
 			"**Prerequisites:** Str 13, Con 13, orc or half-orc, [Diehard](feat/diehard), [Endurance](feat/endurance), base attack bonus +6.  ",
 			"**Benefit:** You are not staggered while using the Diehard feat, but if you take a move and a standard action or a full-round action while you are at 0 or fewer hit points you take 1 point of damage. Further, while using the Diehard feat, you gain a +2 bonus on melee attacks and damage rolls.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When you are at 0 or fewer hit points, you can spend 2 stamina points to avoid taking damage when you take both a move and a standard action or a full-round action."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When you are at 0 or fewer hit points, you can spend 2 stamina points to avoid taking damage when you take both a move and a standard action or a full-round action."
 		]
 	},
 	"deathless_master": {
@@ -4088,11 +4041,10 @@
 			"**Prerequisites:** Str 13, Con 15, orc or half-orc, [Deathless Initiate](feat/deathless_initiate), [Diehard](feat/diehard), [Endurance](feat/endurance), [Ironhide](feat/ironhide), base attack bonus +9.  ",
 			"**Benefit:** When you are at 0 or fewer hit points, you do not lose 1 hit point when you take an action.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When you are at 0 or fewer hit points, you can spend 2 stamina points as a standard action at the start of your turn to gain 2 temporary hit points. These hit points last for 1 minute."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When you are at 0 or fewer hit points, you can spend 2 stamina points as a standard action at the start of your turn to gain 2 temporary hit points. These hit points last for 1 minute."
 		]
 	},
 	"deathless_zealot": {
@@ -4110,11 +4062,10 @@
 			"**Prerequisites:** Str 13, Con 17, orc or half-orc, [Deathless Initiate](feat/deathless_initiate), [Deathless Master](feat/deathless_master), [Diehard](feat/diehard), [Endurance](feat/endurance), [Ironhide](feat/ironhide), base attack bonus +12.  ",
 			"**Benefit:** Whenever a creature rolls to confirm a critical hit against you, it must roll twice and take the lowest result.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"Whenever a creature threatens a critical hit against you and neither of its confirmation rolls would succeed, you can spend 5 stamina points to make an attack of opportunity against that creature."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">Whenever a creature threatens a critical hit against you and neither of its confirmation rolls would succeed, you can spend 5 stamina points to make an attack of opportunity against that creature."
 		]
 	},
 	"death's_host": {
@@ -4327,11 +4278,10 @@
 			"**Benefit:** You gain a +2 bonus to your AC against attacks of opportunity.  ",
 			"**Special:** Defended Movement counts as both Dodge and Mobility for the purposes of feats that have Dodge and Mobility as prerequisites.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
-			"",
-			"You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against a single attack."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">",
+			">You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against a single attack."
 		]
 	},
 	"defending_eidolon": {
@@ -4362,11 +4312,10 @@
 			"You excel at defending yourself from all manner of combat maneuvers.  ",
 			"**Benefit:** You treat your total Hit Dice as your base attack bonus when calculating your Combat Maneuver Defense.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When targeted with a combat maneuver, you can spend any number of stamina points to gain a bonus to your CMD equal to the number of stamina points you spent.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When targeted with a combat maneuver, you can spend any number of stamina points to gain a bonus to your CMD equal to the number of stamina points you spent.",
 			"",
 			"### Mythic Defensive Combat Training",
 			"",
@@ -4394,11 +4343,10 @@
 			"**Benefit:** Choose a weapon group from the fighter's weapon training class ability list (except natural weapons). You gain a +2 dodge bonus on AC when an opponent attacks you using a weapon from that group. If you also have the weapon training class feature in the selected group, your dodge bonus from this feat increases to +3.  ",
 			"**Special:** You can select this feat more than once. Its effects do not stack. Each time you select this feat, it applies to a different weapon group.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points at the beginning of your turn to switch the weapon group of this feat to any other weapon group on the fighter's weapon training class ability list (except natural weapons). This benefit lasts for 3 rounds."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points at the beginning of your turn to switch the weapon group of this feat to any other weapon group on the fighter's weapon training class ability list (except natural weapons). This benefit lasts for 3 rounds."
 		]
 	},
 	"defiant_luck": {
@@ -4431,11 +4379,10 @@
 			"**Prerequisites:** Dex 13, [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
 			"**Benefit:** You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to deflect an arrow while you're flat-footed. You must still be aware of the attack.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to deflect an arrow while you're flat-footed. You must still be aware of the attack.",
 			"",
 			"### Mythic Deflect Arrows",
 			"",
@@ -4617,11 +4564,10 @@
 			"**Prerequisites:** Knowledge (planes) 6 ranks.  ",
 			"**Benefit:** You gain a +2 bonus on Knowledge (planes) checks to know the powers and abilities of demons. You gain a +2 morale bonus on all attack rolls and a +2 morale bonus on caster level checks to penetrate spell resistance made against creatures with the demon subtype you recognize as demons.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
-			"",
-			"When you successfully identify a demon using Knowledge (planes), you can spend up to 9 stamina points to increase the morale bonus on attack rolls and caster level checks from Demon Hunter by 1 per 3 stamina points spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">",
+			">When you successfully identify a demon using Knowledge (planes), you can spend up to 9 stamina points to increase the morale bonus on attack rolls and caster level checks from Demon Hunter by 1 per 3 stamina points spent."
 		]
 	},
 	"demonic_momentum": {
@@ -4739,11 +4685,10 @@
 			"**Prerequisites:** Base attack bonus +1, Intimidate 1 rank, hobgoblin.  ",
 			"**Benefit:** To use this feat, you must use a whip (or another weapon in the flails fighter weapon group) to attack a foe demoralized by an Intimidate check. If the attack hits, you extend the duration the creature is shaken by 1 round. This feat has no effect on creatures whose shaken conditions are from sources other than Intimidate checks.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When you hit a demoralized foe with a weapon in the flails fighter group, you can spend 2 stamina points to extend the duration of the shaken condition by 1d4 rounds instead of 1 round."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When you hit a demoralized foe with a weapon in the flails fighter group, you can spend 2 stamina points to extend the duration of the shaken condition by 1d4 rounds instead of 1 round."
 		]
 	},
 	"demoralizing_stare": {
@@ -4774,11 +4719,10 @@
 			"**Prerequisites:** [Hard-Headed](feat/hard-headed), base attack bonus +6, dwarf.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls. When a critical hit is confirmed against you, as an immediate action, you can apply half of the damage from the attack to your helmet rather than yourself, applying hardness as normal. If the damage destroys your helmet, any leftover damage is applied to you. After using this feat, you are staggered until the end of your next turn. You may not use this feat if your helmet has the broken condition or the attack ignores armor bonuses to AC.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"After using this feat, you can spend 5 stamina points to become sickened rather than staggered until the end of your next turn. You can't use this ability if you are immune to being sickened."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">After using this feat, you can spend 5 stamina points to become sickened rather than staggered until the end of your next turn. You can't use this ability if you are immune to being sickened."
 		]
 	},
 	"deny_death": {
@@ -4888,11 +4832,10 @@
 			"Your experiences fighting against numerous foes that have already overwhelmed your allies, friends, and family have forced you to excel at fighting on your own.  ",
 			"**Benefit:** When no ally is within 10 feet of you and you are not receiving benefits from the aid another action, you gain a +1 morale bonus on melee attack and damage rolls.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
-			"",
-			"You can spend 2 stamina points to gain the benefits of Desperate Battler even while an ally is within 10 feet of you (but not when receiving the benefits of the aid another action)."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">",
+			">You can spend 2 stamina points to gain the benefits of Desperate Battler even while an ally is within 10 feet of you (but not when receiving the benefits of the aid another action)."
 		]
 	},
 	"desperate_swing": {
@@ -4910,11 +4853,10 @@
 			"**Prerequisites:** [Cautious Fighter](feat/cautious_fighter), base attack bonus +1, halfling.  ",
 			"**Benefit:** Once per day, you can make a single melee attack while taking the total defense action. You take a -4 penalty on attack rolls when making this attack. You also gain a +4 bonus on critical confirmation rolls made while fighting defensively or making an attack of opportunity using this feat.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"You can spend 5 stamina points to use this feat an additional time per day. Each time you use this combat trick, you must spend 5 stamina points."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">You can spend 5 stamina points to use this feat an additional time per day. Each time you use this combat trick, you must spend 5 stamina points."
 		]
 	},
 	"destroy_identity": {
@@ -4933,11 +4875,10 @@
 			"**Prerequisites:** [Critical Focus](feat/critical_focus), base attack bonus +11, worshiper of Lamashtu.  ",
 			"**Benefit:** Whenever you confirm a critical hit against an opponent, in addition to dealing critical damage as normal, you maim your target so much that it takes 2 points of Charisma damage and becomes staggered for 1 round.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
-			"",
-			"When you confirm a critical hit against an opponent, you can spend 4 stamina points to increase the Charisma damage that opponent takes from Destroy Identity to 1d3+1 points."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">",
+			">When you confirm a critical hit against an opponent, you can spend 4 stamina points to increase the Charisma damage that opponent takes from Destroy Identity to 1d3+1 points."
 		]
 	},
 	"destroyer's_blessing": {
@@ -4956,11 +4897,10 @@
 			"**Prerequisites:** Half-orc or orc, rage class feature.  ",
 			"**Benefit:** When you are raging and you succeed at a sunder combat maneuver, you regain 1 round of rage. If the sunder attempt causes the object to gain the broken condition, you heal 1 hit point. You can only gain these benefits once per round.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"You can spend 2 stamina points to regain 1 round of rage after reducing a foe whose CR is at least half your character level to below 0 hit points, rather than upon successfully sundering a target."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">You can spend 2 stamina points to regain 1 round of rage after reducing a foe whose CR is at least half your character level to below 0 hit points, rather than upon successfully sundering a target."
 		]
 	},
 	"destructive_dispel": {
@@ -5044,11 +4984,10 @@
 			"**Prerequisites:** [Vital Strike](feat/vital_strike), base attack bonus +9.  ",
 			"**Benefit:** Whenever you use Vital Strike, Improved Vital Strike, or Greater Vital Strike, you gain a +2 bonus on each extra weapon damage dice roll those feats grant (+6 maximum). This bonus damage is multiplied on a critical hit.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"Whenever you use Vital Strike, Improved Vital Strike, or Greater Vital Strike, you can spend 5 stamina points to increase the bonus damage to +4 on each extra weapon damage die. For weapons with more than one damage die, count all of the weapon's base damage dice together as one set."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">Whenever you use Vital Strike, Improved Vital Strike, or Greater Vital Strike, you can spend 5 stamina points to increase the bonus damage to +4 on each extra weapon damage die. For weapons with more than one damage die, count all of the weapon's base damage dice together as one set."
 		]
 	},
 	"devil_sense": {
@@ -5094,7 +5033,7 @@
 		"name": "Devotion Against the Unnatural",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Devotion against the Unnatural",
+			"## Devotion Against the Unnatural",
 			"",
 			"**Source** [Ultimate Wilderness pg. 217](source/ultimate_wilderness)",
 			"",
@@ -5471,11 +5410,10 @@
 			"**Normal:** You must perform a disarm combat maneuver to disarm an opponent.  ",
 			"**Special:** You can only apply the effects of one of the following feats to a given critical hit",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to disarm the target anyway. When you do, reroll the confirmation roll and use it to determine if the disarm attempt exceeds the opponent's CMD. This reroll is used only for the disarm combat maneuver; it can't cause the critical to be confirmed. You still can't make the attempt if the target is immune to critical hits."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to disarm the target anyway. When you do, reroll the confirmation roll and use it to determine if the disarm attempt exceeds the opponent's CMD. This reroll is used only for the disarm combat maneuver; it can't cause the critical to be confirmed. You still can't make the attempt if the target is immune to critical hits."
 		]
 	},
 	"disarming_threat_deed": {
@@ -5600,11 +5538,10 @@
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Feint](feat/improved_feint).  ",
 			"**Benefit:** As a standard action, use Bluff to feint against an opponent. Instead of denying that opponent his Dexterity bonus to AC, a successful feint allows you to move up to your speed without provoking an attack of opportunity from the opponent you feinted for leaving the square you start in.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
-			"",
-			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to attempt a Disengaging Feint as a move action instead of a standard action."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
+			">",
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to attempt a Disengaging Feint as a move action instead of a standard action."
 		]
 	},
 	"disengaging_flourish": {
@@ -5622,11 +5559,10 @@
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Disengaging Feint](feat/disengaging_feint), [Improved Feint](feat/improved_feint).  ",
 			"**Benefit:** As a standard action, make a Bluff check against each opponent that currently threatens you. If you succeed against at least one opponent, you can move up to your speed. This movement does not provoke attacks of opportunity from any opponent you succeeded at feinting against.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make a Disengaging Flourish attempt as a move action instead of a standard action."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make a Disengaging Flourish attempt as a move action instead of a standard action."
 		]
 	},
 	"disengaging_shot": {
@@ -5644,11 +5580,10 @@
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Disengaging Feint](feat/disengaging_feint), [Dodge](feat/dodge), [Improved Feint](feat/improved_feint), [Mobility](feat/mobility).  ",
 			"**Benefit:** Whenever you use Disengaging Feint or Disengaging Flourish, you can make a single melee attack against one opponent you succeeded at feinting against. That opponent is denied his Dexterity bonus to AC against this attack.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. Just before you attempt your free melee attack with Disengaging Shot, you can spend up to 5 stamina points. If you do, increase the attack's damage by 2 points for each stamina point you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. Just before you attempt your free melee attack with Disengaging Shot, you can spend up to 5 stamina points. If you do, increase the attack's damage by 2 points for each stamina point you spent."
 		]
 	},
 	"disheartening_display": {
@@ -5666,11 +5601,10 @@
 			"**Prerequisites:** [Dazzling Display](feat/dazzling_display), [Weapon Focus](feat/weapon_focus), base attack bonus +6, proficiency with chosen weapon.  ",
 			"**Benefit:** When you successfully use Dazzling Display against any shaken, frightened, or panicked opponents, their fear increases by one step. An already panicked creature demoralized by this feat cowers. Once affected by this feat, a creature cannot be affected by it again (by you or anyone else) for 24 hours.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you affect a creature with this feat, you can spend 5 stamina points to gain the ability to affect that creature with this feat a second time during the same 24-hour period."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you affect a creature with this feat, you can spend 5 stamina points to gain the ability to affect that creature with this feat a second time during the same 24-hour period."
 		]
 	},
 	"dislocate": {
@@ -5832,11 +5766,10 @@
 			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point-blank_shot), fighter level 6th.  ",
 			"**Benefit:** If you ready an action to shoot an opponent casting a spell within 30 feet and successfully hit that opponent with a ranged attack, the concentration DC to successfully cast the spell is increased by +4.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you ready an action to shoot an opponent casting a spell, you can spend up to 3 stamina points. For each stamina point you spend, it increases the range from which you can successfully hit that opponent and gain the benefits of this feat by 10 feet (to a maximum of 60 feet)."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you ready an action to shoot an opponent casting a spell, you can spend up to 3 stamina points. For each stamina point you spend, it increases the range from which you can successfully hit that opponent and gain the benefits of this feat by 10 feet (to a maximum of 60 feet)."
 		]
 	},
 	"disruptive": {
@@ -5855,11 +5788,10 @@
 			"**Prerequisites:** 6th-level fighter.  ",
 			"**Benefit:** The DC to cast spells defensively increases by +4 for all enemies that are within your threatened area. This increase to casting spells defensively only applies if you are aware of the enemy's location and are capable of taking an attack of opportunity. If you can only take one attack of opportunity per round and have already used that attack, this increase does not apply.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you use your last attack of opportunity available to you in a round, you can spend 2 stamina points to extend the duration of this feat's increase to DCs for enemies casting defensively within your threatened area until the start of your next turn.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you use your last attack of opportunity available to you in a round, you can spend 2 stamina points to extend the duration of this feat's increase to DCs for enemies casting defensively within your threatened area until the start of your next turn.",
 			"",
 			"### Mythic Disruptive",
 			"",
@@ -5961,11 +5893,10 @@
 			"**Prerequisites:** Str 13.  ",
 			"**Benefit:** With a thrown weapon, you reduce your penalty on ranged attack rolls due to range by 2.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When making an attack with a thrown weapon, you can spend 2 stamina points to reduce your penalty on ranged attack rolls due to range by an additional 4.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When making an attack with a thrown weapon, you can spend 2 stamina points to reduce your penalty on ranged attack rolls due to range by an additional 4.",
 			"",
 			"### Mythic Distance Thrower",
 			"",
@@ -6032,11 +5963,10 @@
 			"Your ally's charge exposes an opening you can exploit.  ",
 			"**Benefit:** When your ally with this feat uses the charge action and hits, you gain a +2 bonus on your next attack roll against the target of that charge. This bonus must be used before your ally's next turn, or it is lost.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"You can spend 1 stamina point when an ally with this feat charges but misses with the charge attack. When you do, you can still gain the benefit of this feat when you charge."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">You can spend 1 stamina point when an ally with this feat charges but misses with the charge attack. When you do, you can still gain the benefit of this feat when you charge."
 		]
 	},
 	"distracting_explosion": {
@@ -6477,11 +6407,10 @@
 			"**Prerequisites:** Con 15, Wis 17, [Djinni Style](feat/djinni_style), [Djinni Spirit](feat/djinni_spirit), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using Djinni Style, as a standard action you can spend two Elemental Fist attempts to surround yourself with a whirlwind of electrified air. Creatures adjacent to you take your unarmed strike damage plus the electricity damage from your Elemental Fist and are deafened for 1d4 rounds. A successful Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being deafened.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"Instead of spending two uses of Elemental Fist to surround yourself in a whirlwind of electrified air, you can spend one use of Elemental Fist and 2 stamina points."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">Instead of spending two uses of Elemental Fist to surround yourself in a whirlwind of electrified air, you can spend one use of Elemental Fist and 2 stamina points."
 		]
 	},
 	"djinni_spirit": {
@@ -6499,11 +6428,10 @@
 			"**Prerequisites:** Con 15, Wis 15, [Djinni Style](feat/djinni_style), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Djinni Style, you gain electricity resistance equal to your base attack bonus or monk level, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take electricity damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) or be deafened for 1d4 rounds. Those who take damage from your Djinni Spin are deafened, even on a successful saving throw.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw of the deafening effect by an amount equal to the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw of the deafening effect by an amount equal to the number of stamina points you spent."
 		]
 	},
 	"djinni_style": {
@@ -6521,11 +6449,10 @@
 			"**Prerequisites:** Con 13, Wis 15, [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While you are in this style you must use Elemental Fist to deal electricity damage and you gain a bonus on electricity damage rolls equal to your Wisdom bonus. Further, while you are using this style and have remaining Elemental Fist attempts, you also gain a +2 dodge bonus to Armor Class against attacks of opportunity. A condition that makes you lose your Dexterity bonus to AC also makes you lose this dodge bonus.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you make an Elemental Fist attack to deal electricity damage, you can spend up to 5 stamina points. If you do, you deal an amount of additional electricity damage equal to double the number of stamina points you spent."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you make an Elemental Fist attack to deal electricity damage, you can spend up to 5 stamina points. If you do, you deal an amount of additional electricity damage equal to double the number of stamina points you spent."
 		]
 	},
 	"dodge": {
@@ -6544,11 +6471,10 @@
 			"**Prerequisites:** Dex 13.  ",
 			"**Benefit:** You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you move your speed or farther, you can spend a number of stamina points up to double your Dexterity bonus. If you do, until the start of your next turn, you gain an increase to the dodge bonus granted by the Dodge feat equal to half the number of stamina points you spent.",
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you move your speed or farther, you can spend a number of stamina points up to double your Dexterity bonus. If you do, until the start of your next turn, you gain an increase to the dodge bonus granted by the Dodge feat equal to half the number of stamina points you spent.",
 			"",
 			"### Mythic Dodge",
 			"",
@@ -6651,11 +6577,10 @@
 			"**Benefit:** When you gain this feat, choose one domain-granted power that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen granted power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying domain power.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"You can spend 2 stamina points to apply the effects of your chosen domain power as a free action instead of a swift action."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">You can spend 2 stamina points to apply the effects of your chosen domain power as a free action instead of a swift action."
 		]
 	},
 	"domino_crash": {
@@ -6721,11 +6646,10 @@
 			"**Benefit:** Add your Strength bonus to damage rolls made with your off-hand weapon.  ",
 			"**Normal:** You normally add only half of your Strength modifier to damage rolls made with a weapon wielded in your off-hand.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you hit an opponent with both a primary-hand attack and an off-hand attack while using Two-Weapon Fighting, you can spend a number of stamina points up to half your Strength bonus. If you do, add a bonus on the damage roll of the second of the two attacks equal to the number of stamina points you spent. You can use this combat trick only once per round."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you hit an opponent with both a primary-hand attack and an off-hand attack while using Two-Weapon Fighting, you can spend a number of stamina points up to half your Strength bonus. If you do, add a bonus on the damage roll of the second of the two attacks equal to the number of stamina points you spent. You can use this combat trick only once per round."
 		]
 	},
 	"draconian_law": {
@@ -6944,11 +6868,10 @@
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip).  ",
 			"**Benefit:** Whenever an opponent successfully trips you, you can attempt to trip that opponent as an immediate action.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If your retributive trip combat maneuver from Drag Down succeeds by 10 or more, you can spend 5 stamina points to stand up from prone without provoking an attack of opportunity as part of the same immediate action as the trip attempt."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If your retributive trip combat maneuver from Drag Down succeeds by 10 or more, you can spend 5 stamina points to stand up from prone without provoking an attack of opportunity as part of the same immediate action as the trip attempt."
 		]
 	},
 	"dragon_ferocity": {
@@ -6967,11 +6890,10 @@
 			"**Benefit:** While using Dragon Style, increase your Strength bonus on unarmed strike damage rolls by an additional one-half your Strength bonus, to a total of double your Strength bonus on the first attack and 1-1/2 times your Strength bonus on the other attacks. When you score a critical hit or a successful Stunning Fist attempt against an opponent while using this style, that opponent is also shaken for a number of rounds equal to 1d4 + your Strength bonus.  ",
 			"**Special:** Taking this feat allows you to qualify for the Elemental Fist feat even if you do not meet that feat's prerequisites. If you do not meet that feat's prerequisites, you must choose one of the damage types that feat offers, and you can use only that damage type with your Elemental Fist attacks until you meet the feat's normal prerequisites. A monk with this feat can use Elemental Fist as if he were a monk of the four winds.",
 			"",
-			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
-			"",
-			"**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
-			"",
-			"When you use this feat to make a foe shaken with a critical hit or a successful Stunning Fist attempt, you can spend 5 stamina points to also sicken that foe for 1d4 rounds."
+			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Source** [Pathfinder Unchained pg. 118](source/pathfinder_unchained)",
+			">",
+			">When you use this feat to make a foe shaken with a critical hit or a successful Stunning Fist attempt, you can spend 5 stamina points to also sicken that foe for 1d4 rounds."
 		]
 	},
 	"dragon_gold_crown": {

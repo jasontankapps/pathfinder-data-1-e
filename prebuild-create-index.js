@@ -33,7 +33,6 @@ const searchindex = [
 ];
 // The below will need to be updated if any files are modified/created/deleted.
 const basic_data_groups = {
-	// filename: [property_prefix, link/prefix# (or zero if none), human-readable description]
 	"archetypes_alchemist.json": {
 		proplink: "archetype_alchemist",
 		searchgroup: 2, // archetype

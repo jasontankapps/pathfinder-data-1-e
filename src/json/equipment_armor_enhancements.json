@@ -9,7 +9,7 @@
 		]
 	},
 	"sanctified_shield": {
-		"name": "sanctified shield",
+		"name": "Sanctified shield",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Sanctified shield",
@@ -22,7 +22,7 @@
 		]
 	},
 	"shield_boss_breakaway": {
-		"name": "shield boss (breakaway)",
+		"name": "Shield boss (breakaway)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shield boss",
@@ -43,22 +43,22 @@
 		]
 	},
 	"shield_boss_hooked": {
-		"name": "shield boss (hooked)",
+		"name": "Shield boss (hooked)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating": {
-		"name": "shield boss (illuminating)",
+		"name": "Shield boss (illuminating)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss": {
-		"name": "shield boss (reinforcing boss)",
+		"name": "Shield boss (reinforcing boss)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_breakaway,_masterwork": {
-		"name": "shield boss (breakaway, masterwork)",
+		"name": "Shield boss (breakaway, masterwork)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -66,7 +66,7 @@
 		"copyof": "shield_boss_breakaway,_masterwork"
 	},
 	"shield_boss_hooked,_masterwork": {
-		"name": "shield boss (hooked, masterwork)",
+		"name": "Shield boss (hooked, masterwork)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -74,7 +74,7 @@
 		"copyof": "shield_boss_hooked,_masterwork"
 	},
 	"shield_boss_illuminating,_masterwork": {
-		"name": "shield boss (illuminating, masterwork)",
+		"name": "Shield boss (illuminating, masterwork)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -82,7 +82,7 @@
 		"copyof": "shield_boss_illuminating,_masterwork"
 	},
 	"shield_boss_reinforcing_boss,_masterwork": {
-		"name": "shield boss (reinforcing boss, masterwork)",
+		"name": "Shield boss (reinforcing boss, masterwork)",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
@@ -90,7 +90,7 @@
 		"copyof": "shield_boss_reinforcing_boss,_masterwork"
 	},
 	"armor_vents": {
-		"name": "armor vents",
+		"name": "Armor vents",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Armor vents",
@@ -102,7 +102,7 @@
 		]
 	},
 	"armor_spikes": {
-		"name": "armor spikes",
+		"name": "Armor spikes",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -119,7 +119,7 @@
 		]
 	},
 	"locked_gauntlet": {
-		"name": "locked gauntlet",
+		"name": "Locked gauntlet",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -139,7 +139,7 @@
 		]
 	},
 	"shield_spikes": {
-		"name": "shield spikes",
+		"name": "Shield spikes",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -164,7 +164,7 @@
 		]
 	},
 	"burnished": {
-		"name": "burnished",
+		"name": "Burnished",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Burnished",
@@ -178,7 +178,7 @@
 		]
 	},
 	"deflecting": {
-		"name": "deflecting",
+		"name": "Deflecting",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"
@@ -195,7 +195,7 @@
 		]
 	},
 	"double-plated": {
-		"name": "double-plated",
+		"name": "Double-plated",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Double-plated",
@@ -212,7 +212,7 @@
 		"copyof": "double-plated"
 	},
 	"jarring": {
-		"name": "jarring",
+		"name": "Jarring",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"
@@ -229,7 +229,7 @@
 		]
 	},
 	"nimble": {
-		"name": "nimble",
+		"name": "Nimble",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Nimble",
@@ -243,7 +243,7 @@
 		]
 	},
 	"razored": {
-		"name": "razored",
+		"name": "Razored",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razored",
@@ -257,7 +257,7 @@
 		]
 	},
 	"slumbering": {
-		"name": "slumbering",
+		"name": "Slumbering",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Slumbering",
@@ -271,7 +271,7 @@
 		]
 	},
 	"throwing_shield": {
-		"name": "throwing shield",
+		"name": "Throwing shield",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Throwing shield",
@@ -285,7 +285,7 @@
 		]
 	},
 	"vitalguard": {
-		"name": "vitalguard",
+		"name": "Vitalguard",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"

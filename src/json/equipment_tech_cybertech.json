@@ -9,7 +9,7 @@
 		]
 	},
 	"cybernetic_legs": {
-		"name": "cybernetic legs",
+		"name": "Cybernetic Legs",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cybernetic Legs",
@@ -30,7 +30,7 @@
 		]
 	},
 	"cranial_bomb": {
-		"name": "cranial bomb",
+		"name": "Cranial Bomb",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cranial Bomb",
@@ -49,7 +49,7 @@
 		]
 	},
 	"cybernetic_eyes": {
-		"name": "cybernetic eyes",
+		"name": "Cybernetic Eyes",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cybernetic Eyes",
@@ -70,7 +70,7 @@
 		]
 	},
 	"optical_turrets": {
-		"name": "optical turrets",
+		"name": "Optical Turrets",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Optical Turrets",
@@ -91,7 +91,7 @@
 		]
 	},
 	"cybernetic_ears": {
-		"name": "cybernetic ears",
+		"name": "Cybernetic Ears",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cybernetic Ears",
@@ -112,7 +112,7 @@
 		]
 	},
 	"skillslot": {
-		"name": "skillslot",
+		"name": "Skillslot",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillslot",
@@ -131,7 +131,7 @@
 		]
 	},
 	"frenzychip": {
-		"name": "frenzychip",
+		"name": "Frenzychip",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Frenzychip",
@@ -150,7 +150,7 @@
 		]
 	},
 	"dermal_plating_mark_i": {
-		"name": "dermal plating (mark I)",
+		"name": "Dermal Plating (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Dermal Plating (Mark I)",
@@ -178,7 +178,7 @@
 		]
 	},
 	"cyberfiber_muscles_mark_i": {
-		"name": "cyberfiber muscles (mark I)",
+		"name": "Cyberfiber Muscles (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cyberfiber Muscles (Mark I)",
@@ -204,7 +204,7 @@
 		]
 	},
 	"thoracic_nanite_chamber_mark_i": {
-		"name": "thoracic nanite chamber (mark I)",
+		"name": "Thoracic Nanite Chamber (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Thoracic Nanite Chamber (Mark I)",
@@ -230,7 +230,7 @@
 		]
 	},
 	"wirejack_tendons_mark_i": {
-		"name": "wirejack tendons (mark I)",
+		"name": "Wirejack Tendons (mark I)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Wirejack Tendons (Mark I)",
@@ -256,7 +256,7 @@
 		]
 	},
 	"biofilter": {
-		"name": "biofilter",
+		"name": "Biofilter",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Biofilter",
@@ -275,7 +275,7 @@
 		]
 	},
 	"dermal_plating_mark_ii": {
-		"name": "dermal plating (mark II)",
+		"name": "Dermal Plating (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Dermal Plating (Mark II)",
@@ -289,7 +289,7 @@
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_ii": {
-		"name": "cyberfiber muscles (mark II)",
+		"name": "Cyberfiber Muscles (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cyberfiber Muscles (Mark II)",
@@ -303,7 +303,7 @@
 		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_ii": {
-		"name": "thoracic nanite chamber (mark II)",
+		"name": "Thoracic Nanite Chamber (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Thoracic Nanite Chamber (Mark II)",
@@ -317,7 +317,7 @@
 		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_ii": {
-		"name": "wirejack tendons (mark II)",
+		"name": "Wirejack Tendons (mark II)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Wirejack Tendons (Mark II)",
@@ -331,7 +331,7 @@
 		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_iii": {
-		"name": "dermal plating (mark III)",
+		"name": "Dermal Plating (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Dermal Plating (Mark III)",
@@ -345,7 +345,7 @@
 		"copyof": "dermal_plating_mark_i"
 	},
 	"dermal_plating_mark_iv": {
-		"name": "dermal plating (mark IV)",
+		"name": "Dermal Plating (mark IV)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Dermal Plating (Mark IV)",
@@ -359,7 +359,7 @@
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_iii": {
-		"name": "cyberfiber muscles (mark III)",
+		"name": "Cyberfiber Muscles (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cyberfiber Muscles (Mark III)",
@@ -373,7 +373,7 @@
 		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_iii": {
-		"name": "thoracic nanite chamber (mark III)",
+		"name": "Thoracic Nanite Chamber (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Thoracic Nanite Chamber (Mark III)",
@@ -387,7 +387,7 @@
 		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_iii": {
-		"name": "wirejack tendons (mark III)",
+		"name": "Wirejack Tendons (mark III)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Wirejack Tendons (Mark III)",
@@ -401,7 +401,7 @@
 		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_v": {
-		"name": "dermal plating (mark V)",
+		"name": "Dermal Plating (mark V)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Dermal Plating (Mark V)",
@@ -415,7 +415,7 @@
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cybernetic_arm": {
-		"name": "cybernetic arm",
+		"name": "Cybernetic Arm",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cybernetic Arm",
@@ -434,7 +434,7 @@
 		]
 	},
 	"implanted_weaponry": {
-		"name": "implanted weaponry",
+		"name": "Implanted Weaponry",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Implanted Weaponry",
@@ -453,7 +453,7 @@
 		]
 	},
 	"cyberart": {
-		"name": "cyberart",
+		"name": "Cyberart",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cyberart",
@@ -472,7 +472,7 @@
 		]
 	},
 	"implant_mesh": {
-		"name": "implant mesh",
+		"name": "Implant Mesh",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Implant Mesh",

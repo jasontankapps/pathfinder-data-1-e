@@ -9,7 +9,7 @@
 		]
 	},
 	"acid": {
-		"name": "acid",
+		"name": "Acid",
 		"sources": [
 			"Alchemy Manual",
 			"Ultimate Equipment",
@@ -28,7 +28,7 @@
 		]
 	},
 	"acid_neutralizer": {
-		"name": "acid neutralizer",
+		"name": "Acid neutralizer",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Acid neutralizer",
@@ -45,7 +45,7 @@
 		]
 	},
 	"alchemical_coal_blinding_cinders": {
-		"name": "alchemical coal (blinding cinders)",
+		"name": "Alchemical coal (blinding cinders)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Alchemical coal (blinding cinders)",
@@ -65,12 +65,12 @@
 		]
 	},
 	"alchemical_coal_choking_smoke": {
-		"name": "alchemical coal (choking smoke)",
+		"name": "Alchemical coal (choking smoke)",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "alchemical_coal_blinding_cinders"
 	},
 	"alchemist's_fire": {
-		"name": "alchemist's fire",
+		"name": "Alchemist's fire",
 		"sources": [
 			"Alchemy Manual",
 			"Ultimate Equipment",
@@ -91,7 +91,7 @@
 		]
 	},
 	"alkali_flask": {
-		"name": "alkali flask",
+		"name": "Alkali flask",
 		"sources": [
 			"Ultimate Equipment",
 			"Dungeon Denizens Revisited",
@@ -111,7 +111,7 @@
 		]
 	},
 	"arrow_bleeding": {
-		"name": "arrow (bleeding)",
+		"name": "Arrow (bleeding)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -131,7 +131,7 @@
 		]
 	},
 	"arrow_durable": {
-		"name": "arrow (durable)",
+		"name": "Arrow (durable)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -151,7 +151,7 @@
 		]
 	},
 	"arrow_dye": {
-		"name": "arrow (dye)",
+		"name": "Arrow (dye)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -171,7 +171,7 @@
 		]
 	},
 	"arrow_lodestone": {
-		"name": "arrow (lodestone)",
+		"name": "Arrow (lodestone)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -191,7 +191,7 @@
 		]
 	},
 	"arrow_pheromone": {
-		"name": "arrow (pheromone)",
+		"name": "Arrow (pheromone)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -211,7 +211,7 @@
 		]
 	},
 	"arrow_raining": {
-		"name": "arrow (raining)",
+		"name": "Arrow (raining)",
 		"sources": [
 			"Daughters of Fury",
 			"Elves of Golarion",
@@ -233,7 +233,7 @@
 		]
 	},
 	"arrow_slow_burn": {
-		"name": "arrow (slow burn)",
+		"name": "Arrow (slow burn)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -253,7 +253,7 @@
 		]
 	},
 	"arrow_splintercloud": {
-		"name": "arrow (splintercloud)",
+		"name": "Arrow (splintercloud)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -273,7 +273,7 @@
 		]
 	},
 	"arrow_tangleshot": {
-		"name": "arrow (tangleshot)",
+		"name": "Arrow (tangleshot)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -293,7 +293,7 @@
 		]
 	},
 	"arrow_trip": {
-		"name": "arrow (trip)",
+		"name": "Arrow (trip)",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
@@ -313,7 +313,7 @@
 		]
 	},
 	"artokus's_fire": {
-		"name": "artokus's fire",
+		"name": "Artokus's fire",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Artokus's fire",
@@ -330,7 +330,7 @@
 		]
 	},
 	"blanch_bomb_adamantine": {
-		"name": "blanch bomb (adamantine)",
+		"name": "Blanch bomb (adamantine)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Blanch bomb (adamantine)",
@@ -347,7 +347,7 @@
 		]
 	},
 	"blanch_bomb_cold_iron": {
-		"name": "blanch bomb (cold iron)",
+		"name": "Blanch bomb (cold iron)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Blanch bomb (cold iron)",
@@ -364,7 +364,7 @@
 		]
 	},
 	"blanch_bomb_silver": {
-		"name": "blanch bomb (silver)",
+		"name": "Blanch bomb (silver)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Blanch bomb (silver)",
@@ -381,7 +381,7 @@
 		]
 	},
 	"bloating_solution": {
-		"name": "bloating solution",
+		"name": "Bloating solution",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Bloating solution",
@@ -396,7 +396,7 @@
 		]
 	},
 	"bolt,_acid": {
-		"name": "bolt, acid",
+		"name": "Bolt, acid",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pathfinder #15: The Armageddon Echo"
@@ -420,7 +420,7 @@
 		"copyof": "bolt,_acid"
 	},
 	"bolt,_alchemical_fire": {
-		"name": "bolt, alchemical fire",
+		"name": "Bolt, alchemical fire",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, alchemical fire",
@@ -441,7 +441,7 @@
 		"copyof": "bolt,_alchemical_fire"
 	},
 	"bolt,_liquid_ice": {
-		"name": "bolt, liquid ice",
+		"name": "Bolt, liquid ice",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, liquid ice",
@@ -462,7 +462,7 @@
 		"copyof": "bolt,_liquid_ice"
 	},
 	"bolt,_poison": {
-		"name": "bolt, poison",
+		"name": "Bolt, poison",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, poison",
@@ -483,7 +483,7 @@
 		"copyof": "bolt,_poison"
 	},
 	"bone_burn": {
-		"name": "bone burn",
+		"name": "Bone Burn",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Bone Burn",
@@ -499,7 +499,7 @@
 		]
 	},
 	"bottled_lightning": {
-		"name": "bottled lightning",
+		"name": "Bottled lightning",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Bottled lightning",
@@ -515,7 +515,7 @@
 		]
 	},
 	"brewed_reek": {
-		"name": "brewed reek",
+		"name": "Brewed reek",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Brewed reek",
@@ -531,7 +531,7 @@
 		]
 	},
 	"burst_jar": {
-		"name": "burst jar",
+		"name": "Burst jar",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Burst jar",
@@ -547,7 +547,7 @@
 		]
 	},
 	"chroma_grenade": {
-		"name": "chroma grenade",
+		"name": "Chroma grenade",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Chroma grenade",
@@ -563,7 +563,7 @@
 		]
 	},
 	"congealer_spray": {
-		"name": "congealer spray",
+		"name": "Congealer spray",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Congealer spray",
@@ -578,7 +578,7 @@
 		]
 	},
 	"consecrated_salts": {
-		"name": "consecrated salts",
+		"name": "Consecrated Salts",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Consecrated Salts",
@@ -594,7 +594,7 @@
 		]
 	},
 	"corrosenze": {
-		"name": "corrosenze",
+		"name": "Corrosenze",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Corrosenze",
@@ -610,7 +610,7 @@
 		]
 	},
 	"cytillesh_stun_vial": {
-		"name": "cytillesh stun vial",
+		"name": "Cytillesh stun vial",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Cytillesh stun vial",
@@ -626,7 +626,7 @@
 		]
 	},
 	"darkflare": {
-		"name": "darkflare",
+		"name": "Darkflare",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Faction Guide"
@@ -645,7 +645,7 @@
 		]
 	},
 	"deadground_dust": {
-		"name": "deadground dust",
+		"name": "Deadground dust",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Deadground dust",
@@ -661,7 +661,7 @@
 		]
 	},
 	"desiccating_lubricant": {
-		"name": "desiccating lubricant",
+		"name": "Desiccating lubricant",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Desiccating lubricant",
@@ -676,7 +676,7 @@
 		]
 	},
 	"dung_grenade": {
-		"name": "dung grenade",
+		"name": "Dung grenade",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Dung grenade",
@@ -692,7 +692,7 @@
 		]
 	},
 	"dust_knuckles": {
-		"name": "dust knuckles",
+		"name": "Dust knuckles",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Dust knuckles",
@@ -713,17 +713,17 @@
 		]
 	},
 	"dust_knuckles_diamond_dust_vial": {
-		"name": "dust knuckles (diamond dust vial)",
+		"name": "Dust knuckles (diamond dust vial)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "dust_knuckles"
 	},
 	"dust_knuckles_gloves": {
-		"name": "dust knuckles (gloves)",
+		"name": "Dust knuckles (gloves)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "dust_knuckles"
 	},
 	"ectoplasmic_residue": {
-		"name": "ectoplasmic residue",
+		"name": "Ectoplasmic residue",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ectoplasmic residue",
@@ -739,7 +739,7 @@
 		]
 	},
 	"elemental_brine": {
-		"name": "elemental brine",
+		"name": "Elemental brine",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"## Elemental brine",
@@ -757,7 +757,7 @@
 		]
 	},
 	"elemental_flux_flask": {
-		"name": "elemental flux (flask)",
+		"name": "Elemental flux (flask)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Elemental flux (flask)",
@@ -773,7 +773,7 @@
 		]
 	},
 	"fiery_boulder": {
-		"name": "fiery boulder",
+		"name": "Fiery boulder",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Fiery boulder",
@@ -799,7 +799,7 @@
 		]
 	},
 	"firework_banshee_ballerina": {
-		"name": "firework (banshee ballerina)",
+		"name": "Firework (banshee ballerina)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Firework (banshee ballerina)",
@@ -815,7 +815,7 @@
 		]
 	},
 	"firework_coughing_dragon": {
-		"name": "firework (coughing dragon)",
+		"name": "Firework (coughing dragon)",
 		"sources": [ "Ships of the Inner Sea" ],
 		"description": [
 			"## Firework (coughing dragon)",
@@ -831,7 +831,7 @@
 		]
 	},
 	"firework_dancing_peonies": {
-		"name": "firework (dancing peonies)",
+		"name": "Firework (dancing peonies)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (dancing peonies)",
@@ -846,7 +846,7 @@
 		]
 	},
 	"firework_fire_wheel": {
-		"name": "firework (fire wheel)",
+		"name": "Firework (fire wheel)",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Firework (fire wheel)",
@@ -862,7 +862,7 @@
 		]
 	},
 	"firework_firecracker": {
-		"name": "firework (firecracker)",
+		"name": "Firework (firecracker)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (firecracker)",
@@ -877,7 +877,7 @@
 		]
 	},
 	"firework_firecracker,_spirit": {
-		"name": "firework (firecracker, spirit)",
+		"name": "Firework (firecracker, spirit)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (firecracker, spirit)",
@@ -895,7 +895,7 @@
 		"copyof": "firework_firecracker,_spirit"
 	},
 	"firework_flame_fountain": {
-		"name": "firework (flame fountain)",
+		"name": "Firework (flame fountain)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Firework (flame fountain)",
@@ -913,7 +913,7 @@
 		]
 	},
 	"firework_flashing_fiend": {
-		"name": "firework (flashing fiend)",
+		"name": "Firework (flashing fiend)",
 		"sources": [ "Ships of the Inner Sea" ],
 		"description": [
 			"## Firework (flashing fiend)",
@@ -929,7 +929,7 @@
 		]
 	},
 	"firework_holy_fountain": {
-		"name": "firework (holy fountain)",
+		"name": "Firework (holy fountain)",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Firework (holy fountain)",
@@ -947,7 +947,7 @@
 		]
 	},
 	"firework_jumping_jenny": {
-		"name": "firework (jumping jenny)",
+		"name": "Firework (jumping jenny)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (jumping jenny)",
@@ -962,7 +962,7 @@
 		]
 	},
 	"firework_paper_candle": {
-		"name": "firework (paper candle)",
+		"name": "Firework (paper candle)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -981,7 +981,7 @@
 		]
 	},
 	"firework_signal_rocket": {
-		"name": "firework (signal rocket)",
+		"name": "Firework (signal rocket)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Firework (signal rocket)",
@@ -997,7 +997,7 @@
 		]
 	},
 	"firework_skydragon": {
-		"name": "firework (skydragon)",
+		"name": "Firework (skydragon)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (skydragon)",
@@ -1012,7 +1012,7 @@
 		]
 	},
 	"firework_skyrocket": {
-		"name": "firework (skyrocket)",
+		"name": "Firework (skyrocket)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1031,7 +1031,7 @@
 		]
 	},
 	"firework_sparking_pinwheel": {
-		"name": "firework (sparking pinwheel)",
+		"name": "Firework (sparking pinwheel)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Firework (sparking pinwheel)",
@@ -1046,7 +1046,7 @@
 		]
 	},
 	"firework_star_candle": {
-		"name": "firework (star candle)",
+		"name": "Firework (star candle)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1067,7 +1067,7 @@
 		]
 	},
 	"firework_starfountain": {
-		"name": "firework (starfountain)",
+		"name": "Firework (starfountain)",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1086,7 +1086,7 @@
 		]
 	},
 	"flash_powder": {
-		"name": "flash powder",
+		"name": "Flash powder",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -1106,7 +1106,7 @@
 		]
 	},
 	"fuse_grenade": {
-		"name": "fuse grenade",
+		"name": "Fuse grenade",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1125,7 +1125,7 @@
 		]
 	},
 	"ghast_retch_flask": {
-		"name": "ghast retch flask",
+		"name": "Ghast retch flask",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ghast retch flask",
@@ -1141,7 +1141,7 @@
 		]
 	},
 	"hellfire_sparkler": {
-		"name": "hellfire sparkler",
+		"name": "Hellfire sparkler",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Hellfire sparkler",
@@ -1157,7 +1157,7 @@
 		]
 	},
 	"holy_water": {
-		"name": "holy water",
+		"name": "Holy water",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1178,7 +1178,7 @@
 		]
 	},
 	"holy_weapon_balm": {
-		"name": "holy weapon balm",
+		"name": "Holy weapon balm",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Holy weapon balm",
@@ -1194,7 +1194,7 @@
 		]
 	},
 	"incendiary_catalyst": {
-		"name": "incendiary catalyst",
+		"name": "Incendiary catalyst",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Incendiary catalyst",
@@ -1210,7 +1210,7 @@
 		]
 	},
 	"insomnia_powder": {
-		"name": "insomnia powder",
+		"name": "Insomnia powder",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Insomnia powder",
@@ -1228,7 +1228,7 @@
 		]
 	},
 	"itching_powder": {
-		"name": "itching powder",
+		"name": "Itching powder",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1247,7 +1247,7 @@
 		]
 	},
 	"keros_oil": {
-		"name": "keros oil",
+		"name": "Keros oil",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -1266,7 +1266,7 @@
 		]
 	},
 	"kitumu's_ire": {
-		"name": "kitumu's ire",
+		"name": "Kitumu's ire",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Kitumu's ire",
@@ -1282,7 +1282,7 @@
 		]
 	},
 	"liquid_blade": {
-		"name": "liquid blade",
+		"name": "Liquid blade",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Liquid blade",
@@ -1298,7 +1298,7 @@
 		]
 	},
 	"liquid_ice": {
-		"name": "liquid ice",
+		"name": "Liquid ice",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -1318,7 +1318,7 @@
 		]
 	},
 	"lyddric_essence": {
-		"name": "lyddric essence",
+		"name": "Lyddric essence",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Lyddric essence",
@@ -1333,7 +1333,7 @@
 		]
 	},
 	"mineral_acid": {
-		"name": "mineral acid",
+		"name": "Mineral acid",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Mineral acid",
@@ -1349,7 +1349,7 @@
 		]
 	},
 	"mu_spore_secretions": {
-		"name": "mu spore secretions",
+		"name": "Mu spore secretions",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Mu spore secretions",
@@ -1361,7 +1361,7 @@
 		]
 	},
 	"noxious_aromatic_flask": {
-		"name": "noxious aromatic (flask)",
+		"name": "Noxious aromatic (flask)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Noxious aromatic (flask)",
@@ -1377,7 +1377,7 @@
 		]
 	},
 	"noxious_pig": {
-		"name": "noxious pig",
+		"name": "Noxious pig",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Noxious pig",
@@ -1403,7 +1403,7 @@
 		]
 	},
 	"pellet_grenade_adamantine": {
-		"name": "pellet grenade (adamantine)",
+		"name": "Pellet grenade (adamantine)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pellet grenade (adamantine)",
@@ -1418,22 +1418,22 @@
 		]
 	},
 	"pellet_grenade_cold_iron": {
-		"name": "pellet grenade (cold iron)",
+		"name": "Pellet grenade (cold iron)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_iron": {
-		"name": "pellet grenade (iron)",
+		"name": "Pellet grenade (iron)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_silver": {
-		"name": "pellet grenade (silver)",
+		"name": "Pellet grenade (silver)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"perfect_ice": {
-		"name": "perfect ice",
+		"name": "Perfect ice",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Perfect ice",
@@ -1449,7 +1449,7 @@
 		]
 	},
 	"plague_powder": {
-		"name": "plague powder",
+		"name": "Plague powder",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Plague powder",
@@ -1467,7 +1467,7 @@
 		]
 	},
 	"portable_hive": {
-		"name": "portable hive",
+		"name": "Portable hive",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Portable hive",
@@ -1483,7 +1483,7 @@
 		]
 	},
 	"pox_burster": {
-		"name": "pox burster",
+		"name": "Pox burster",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Pox burster",
@@ -1499,7 +1499,7 @@
 		]
 	},
 	"shadowcloy_flask": {
-		"name": "shadowcloy flask",
+		"name": "Shadowcloy flask",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shadowcloy flask",
@@ -1515,7 +1515,7 @@
 		]
 	},
 	"shard_gel": {
-		"name": "shard gel",
+		"name": "Shard gel",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Shard gel",
@@ -1531,7 +1531,7 @@
 		]
 	},
 	"shriek_bomb": {
-		"name": "shriek bomb",
+		"name": "Shriek bomb",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Shriek bomb",
@@ -1546,7 +1546,7 @@
 		]
 	},
 	"silvercloud_oil": {
-		"name": "silvercloud oil",
+		"name": "Silvercloud oil",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
 			"## Silvercloud oil",
@@ -1562,7 +1562,7 @@
 		]
 	},
 	"slime_grenade": {
-		"name": "slime grenade",
+		"name": "Slime grenade",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Slime grenade",
@@ -1577,7 +1577,7 @@
 		]
 	},
 	"slime_slow": {
-		"name": "slime slow",
+		"name": "Slime slow",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Slime slow",
@@ -1593,7 +1593,7 @@
 		]
 	},
 	"sneezing_powder": {
-		"name": "sneezing powder",
+		"name": "Sneezing powder",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -1613,7 +1613,7 @@
 		]
 	},
 	"somnigrip": {
-		"name": "somnigrip",
+		"name": "Somnigrip",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Somnigrip",
@@ -1629,7 +1629,7 @@
 		]
 	},
 	"specialty_smoke_pellet_pepper": {
-		"name": "specialty smoke pellet (pepper)",
+		"name": "Specialty smoke pellet (pepper)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Specialty smoke pellet (Pepper)",
@@ -1648,12 +1648,12 @@
 		]
 	},
 	"specialty_smoke_pellet_smog": {
-		"name": "specialty smoke pellet (smog)",
+		"name": "Specialty smoke pellet (smog)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "specialty_smoke_pellet_pepper"
 	},
 	"spore_dehiscent": {
-		"name": "spore dehiscent",
+		"name": "Spore dehiscent",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Spore dehiscent",
@@ -1665,7 +1665,7 @@
 		]
 	},
 	"stench-gas_bladder": {
-		"name": "stench-gas bladder",
+		"name": "Stench-gas bladder",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Stench-gas bladder",
@@ -1680,7 +1680,7 @@
 		"copyof": "stench-gas_bladder"
 	},
 	"sting_grenade": {
-		"name": "sting grenade",
+		"name": "Sting grenade",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Sting grenade",
@@ -1696,7 +1696,7 @@
 		]
 	},
 	"stormstone": {
-		"name": "stormstone",
+		"name": "Stormstone",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Stormstone",
@@ -1713,7 +1713,7 @@
 		]
 	},
 	"suffocating_powder": {
-		"name": "suffocating powder",
+		"name": "Suffocating powder",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Suffocating powder",
@@ -1730,7 +1730,7 @@
 		]
 	},
 	"tangleburn_bag": {
-		"name": "tangleburn bag",
+		"name": "Tangleburn bag",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tangleburn bag",
@@ -1746,7 +1746,7 @@
 		]
 	},
 	"tanglefoot_bag": {
-		"name": "tanglefoot bag",
+		"name": "Tanglefoot bag",
 		"sources": [
 			"Alchemy Manual",
 			"Ultimate Equipment",
@@ -1767,7 +1767,7 @@
 		]
 	},
 	"tanglefoot_bundle": {
-		"name": "tanglefoot bundle",
+		"name": "Tanglefoot bundle",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Tanglefoot bundle",
@@ -1783,7 +1783,7 @@
 		]
 	},
 	"tar_bomb": {
-		"name": "tar bomb",
+		"name": "Tar bomb",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Tar bomb",
@@ -1801,7 +1801,7 @@
 		]
 	},
 	"thunderclap_charge": {
-		"name": "thunderclap charge",
+		"name": "Thunderclap charge",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Thunderclap charge",
@@ -1817,7 +1817,7 @@
 		]
 	},
 	"thunderstone": {
-		"name": "thunderstone",
+		"name": "Thunderstone",
 		"sources": [
 			"Alchemy Manual",
 			"Ultimate Equipment",
@@ -1838,7 +1838,7 @@
 		]
 	},
 	"tress_tincture": {
-		"name": "tress tincture",
+		"name": "Tress tincture",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Tress tincture",
@@ -1854,7 +1854,7 @@
 		]
 	},
 	"venomblock": {
-		"name": "venomblock",
+		"name": "Venomblock",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Venomblock",
@@ -1866,7 +1866,7 @@
 		]
 	},
 	"arrow,_iron-tipped_distance": {
-		"name": "arrow, iron-tipped distance",
+		"name": "Arrow, iron-tipped distance",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Arrow, iron-tipped distance",
@@ -1884,7 +1884,7 @@
 		"copyof": "arrow,_iron-tipped_distance"
 	},
 	"arrow": {
-		"name": "arrow",
+		"name": "Arrow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1902,7 +1902,7 @@
 		]
 	},
 	"atlatl_dart": {
-		"name": "atlatl dart",
+		"name": "Atlatl dart",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Atlatl dart",
@@ -1915,7 +1915,7 @@
 		]
 	},
 	"bamboo_shaft_arrows": {
-		"name": "bamboo shaft arrows",
+		"name": "Bamboo shaft arrows",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -1933,7 +1933,7 @@
 		]
 	},
 	"barbed_arrow": {
-		"name": "barbed arrow",
+		"name": "Barbed arrow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Barbed arrow",
@@ -1948,7 +1948,7 @@
 		]
 	},
 	"blowgun_darts": {
-		"name": "blowgun darts",
+		"name": "Blowgun darts",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -1967,7 +1967,7 @@
 		]
 	},
 	"blunt_arrows": {
-		"name": "blunt arrows",
+		"name": "Blunt arrows",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1985,7 +1985,7 @@
 		]
 	},
 	"bolas_bolts": {
-		"name": "bolas bolts",
+		"name": "Bolas bolts",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Bolas bolts",
@@ -2002,7 +2002,7 @@
 		]
 	},
 	"bolts,_heartstake": {
-		"name": "bolts, heartstake",
+		"name": "Bolts, heartstake",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Bolts, heartstake",
@@ -2020,7 +2020,7 @@
 		"copyof": "bolts,_heartstake"
 	},
 	"bullets,_groaning": {
-		"name": "bullets, groaning",
+		"name": "Bullets, groaning",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Bullets, groaning",
@@ -2038,7 +2038,7 @@
 		"copyof": "bullets,_groaning"
 	},
 	"crossbow_bolts": {
-		"name": "crossbow bolts",
+		"name": "Crossbow bolts",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2056,7 +2056,7 @@
 		]
 	},
 	"featherweight_dart": {
-		"name": "featherweight dart",
+		"name": "Featherweight dart",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Featherweight dart",
@@ -2069,7 +2069,7 @@
 		]
 	},
 	"flight_arrows": {
-		"name": "flight arrows",
+		"name": "Flight arrows",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2087,7 +2087,7 @@
 		]
 	},
 	"halfling_little_starstones": {
-		"name": "halfling little starstones",
+		"name": "Halfling little starstones",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling little starstones",
@@ -2102,7 +2102,7 @@
 		]
 	},
 	"halfling_sharpstones": {
-		"name": "halfling sharpstones",
+		"name": "Halfling sharpstones",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling sharpstones",
@@ -2117,7 +2117,7 @@
 		]
 	},
 	"halfling_softstones": {
-		"name": "halfling softstones",
+		"name": "Halfling softstones",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling softstones",
@@ -2132,7 +2132,7 @@
 		]
 	},
 	"halfling_spongestones": {
-		"name": "halfling spongestones",
+		"name": "Halfling spongestones",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling spongestones",
@@ -2147,7 +2147,7 @@
 		]
 	},
 	"incendiary_arrow": {
-		"name": "incendiary arrow",
+		"name": "Incendiary arrow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Incendiary arrow",
@@ -2162,7 +2162,7 @@
 		]
 	},
 	"kestros_dart": {
-		"name": "kestros dart",
+		"name": "Kestros dart",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Kestros dart",
@@ -2177,7 +2177,7 @@
 		]
 	},
 	"pronged_arrow": {
-		"name": "pronged arrow",
+		"name": "Pronged arrow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Pronged arrow",
@@ -2192,7 +2192,7 @@
 		]
 	},
 	"repeating_crossbow_bolts": {
-		"name": "repeating crossbow bolts",
+		"name": "Repeating crossbow bolts",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2210,7 +2210,7 @@
 		]
 	},
 	"sling_bullets": {
-		"name": "sling bullets",
+		"name": "Sling bullets",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2228,7 +2228,7 @@
 		]
 	},
 	"smoke_arrow": {
-		"name": "smoke arrow",
+		"name": "Smoke arrow",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2246,7 +2246,7 @@
 		]
 	},
 	"thistle_arrow": {
-		"name": "thistle arrow",
+		"name": "Thistle arrow",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting"
@@ -2264,7 +2264,7 @@
 		]
 	},
 	"throwing_arrow": {
-		"name": "throwing arrow",
+		"name": "Throwing arrow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Throwing arrow",
@@ -2277,7 +2277,7 @@
 		]
 	},
 	"whistling_arrows": {
-		"name": "whistling arrows",
+		"name": "Whistling arrows",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2296,7 +2296,7 @@
 		]
 	},
 	"ballista_net": {
-		"name": "ballista net",
+		"name": "Ballista net",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ballista net",
@@ -2309,7 +2309,7 @@
 		]
 	},
 	"flak": {
-		"name": "flak",
+		"name": "Flak",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flak",
@@ -2322,7 +2322,7 @@
 		]
 	},
 	"flechette_bolt": {
-		"name": "flechette bolt",
+		"name": "Flechette bolt",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flechette bolt",
@@ -2337,7 +2337,7 @@
 		]
 	},
 	"weighted_bolt": {
-		"name": "weighted bolt",
+		"name": "Weighted bolt",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Weighted bolt",
@@ -2350,7 +2350,7 @@
 		]
 	},
 	"battle_aspergillum": {
-		"name": "battle aspergillum",
+		"name": "Battle aspergillum",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2368,7 +2368,7 @@
 		]
 	},
 	"brass_knife": {
-		"name": "brass knife",
+		"name": "Brass knife",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Brass knife",
@@ -2384,7 +2384,7 @@
 		]
 	},
 	"brass_knuckles": {
-		"name": "brass knuckles",
+		"name": "Brass knuckles",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2403,7 +2403,7 @@
 		]
 	},
 	"cestus": {
-		"name": "cestus",
+		"name": "Cestus",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2422,7 +2422,7 @@
 		]
 	},
 	"dagger": {
-		"name": "dagger",
+		"name": "Dagger",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2440,7 +2440,7 @@
 		]
 	},
 	"gauntlet": {
-		"name": "gauntlet",
+		"name": "Gauntlet",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2458,7 +2458,7 @@
 		]
 	},
 	"hanbo": {
-		"name": "hanbo",
+		"name": "Hanbo",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Hanbo",
@@ -2473,7 +2473,7 @@
 		]
 	},
 	"handwraps": {
-		"name": "handwraps",
+		"name": "Handwraps",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Handwraps",
@@ -2487,7 +2487,7 @@
 		]
 	},
 	"hook_hand": {
-		"name": "hook hand",
+		"name": "Hook hand",
 		"sources": [
 			"Villain Codex",
 			"Pirates of the Inner Sea",
@@ -2505,7 +2505,7 @@
 		]
 	},
 	"kunai": {
-		"name": "kunai",
+		"name": "Kunai",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Kunai",
@@ -2519,7 +2519,7 @@
 		]
 	},
 	"light_mace": {
-		"name": "light mace",
+		"name": "Light mace",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2537,7 +2537,7 @@
 		]
 	},
 	"punching_dagger": {
-		"name": "punching dagger",
+		"name": "Punching dagger",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2555,7 +2555,7 @@
 		]
 	},
 	"katar": {
-		"name": "katar",
+		"name": "Katar",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2572,7 +2572,7 @@
 		]
 	},
 	"sickle": {
-		"name": "sickle",
+		"name": "Sickle",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2590,7 +2590,7 @@
 		]
 	},
 	"spider-leg_sickle": {
-		"name": "spider-leg sickle",
+		"name": "Spider-leg sickle",
 		"sources": [ "The House on Hook Street" ],
 		"description": [
 			"## Spider-leg sickle",
@@ -2607,7 +2607,7 @@
 		"copyof": "spider-leg_sickle"
 	},
 	"spiked_gauntlet": {
-		"name": "spiked gauntlet",
+		"name": "Spiked gauntlet",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2625,7 +2625,7 @@
 		]
 	},
 	"spring_blade": {
-		"name": "spring blade",
+		"name": "Spring blade",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Spring blade",
@@ -2639,7 +2639,7 @@
 		]
 	},
 	"traveling_kettle": {
-		"name": "traveling kettle",
+		"name": "Traveling kettle",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Traveling kettle",
@@ -2654,7 +2654,7 @@
 		]
 	},
 	"wooden_stake": {
-		"name": "wooden stake",
+		"name": "Wooden stake",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -2674,7 +2674,7 @@
 		]
 	},
 	"baston_fighting_stick": {
-		"name": "baston fighting stick",
+		"name": "Baston fighting stick",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Baston fighting stick",
@@ -2688,7 +2688,7 @@
 		]
 	},
 	"club": {
-		"name": "club",
+		"name": "Club",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2706,7 +2706,7 @@
 		]
 	},
 	"heavy_mace": {
-		"name": "heavy mace",
+		"name": "Heavy mace",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2724,7 +2724,7 @@
 		]
 	},
 	"mere_club": {
-		"name": "mere club",
+		"name": "Mere club",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -2742,7 +2742,7 @@
 		]
 	},
 	"morningstar": {
-		"name": "morningstar",
+		"name": "Morningstar",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2760,7 +2760,7 @@
 		]
 	},
 	"shortspear": {
-		"name": "shortspear",
+		"name": "Shortspear",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2778,7 +2778,7 @@
 		]
 	},
 	"bayonet": {
-		"name": "bayonet",
+		"name": "Bayonet",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -2799,7 +2799,7 @@
 		]
 	},
 	"boar_spear": {
-		"name": "boar spear",
+		"name": "Boar spear",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2817,7 +2817,7 @@
 		]
 	},
 	"boarding_pike": {
-		"name": "boarding pike",
+		"name": "Boarding pike",
 		"sources": [
 			"Pirates of the Inner Sea",
 			"Skull and Shackles Player's Guide"
@@ -2834,7 +2834,7 @@
 		]
 	},
 	"kumade": {
-		"name": "kumade",
+		"name": "Kumade",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Kumade",
@@ -2849,7 +2849,7 @@
 		]
 	},
 	"kumade,_collapsible": {
-		"name": "kumade, collapsible",
+		"name": "Kumade, collapsible",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Kumade, collapsible",
@@ -2867,7 +2867,7 @@
 		"copyof": "kumade,_collapsible"
 	},
 	"lantern_staff": {
-		"name": "lantern staff",
+		"name": "Lantern staff",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Lantern staff",
@@ -2882,7 +2882,7 @@
 		]
 	},
 	"longspear": {
-		"name": "longspear",
+		"name": "Longspear",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2900,7 +2900,7 @@
 		]
 	},
 	"quarterstaff": {
-		"name": "quarterstaff",
+		"name": "Quarterstaff",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2918,7 +2918,7 @@
 		]
 	},
 	"spear": {
-		"name": "spear",
+		"name": "Spear",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2936,7 +2936,7 @@
 		]
 	},
 	"weighted_spear": {
-		"name": "weighted spear",
+		"name": "Weighted spear",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Weighted spear",
@@ -2951,7 +2951,7 @@
 		]
 	},
 	"blowgun": {
-		"name": "blowgun",
+		"name": "Blowgun",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Pathfinder Campaign Setting",
@@ -2971,7 +2971,7 @@
 		]
 	},
 	"dart": {
-		"name": "dart",
+		"name": "Dart",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -2990,7 +2990,7 @@
 		]
 	},
 	"heavy_crossbow": {
-		"name": "heavy crossbow",
+		"name": "Heavy crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -3011,7 +3011,7 @@
 		]
 	},
 	"javelin": {
-		"name": "javelin",
+		"name": "Javelin",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -3031,7 +3031,7 @@
 		]
 	},
 	"light_crossbow": {
-		"name": "light crossbow",
+		"name": "Light crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -3052,7 +3052,7 @@
 		]
 	},
 	"sling": {
-		"name": "sling",
+		"name": "Sling",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -3073,7 +3073,7 @@
 		]
 	},
 	"stingchuck": {
-		"name": "stingchuck",
+		"name": "Stingchuck",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Stingchuck",
@@ -3087,7 +3087,7 @@
 		]
 	},
 	"stonebow": {
-		"name": "stonebow",
+		"name": "Stonebow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Stonebow",
@@ -3105,7 +3105,7 @@
 		]
 	},
 	"underwater_heavy_crossbow": {
-		"name": "underwater heavy crossbow",
+		"name": "Underwater heavy crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Advanced Race Guide",
@@ -3124,7 +3124,7 @@
 		]
 	},
 	"underwater_light_crossbow": {
-		"name": "underwater light crossbow",
+		"name": "Underwater light crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Advanced Race Guide",
@@ -3143,7 +3143,7 @@
 		]
 	},
 	"blade_boot": {
-		"name": "blade boot",
+		"name": "Blade boot",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Blade boot",
@@ -3157,7 +3157,7 @@
 		]
 	},
 	"boarding_axe": {
-		"name": "boarding axe",
+		"name": "Boarding axe",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea",
@@ -3176,7 +3176,7 @@
 		]
 	},
 	"butterfly_sword": {
-		"name": "butterfly sword",
+		"name": "Butterfly sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3194,7 +3194,7 @@
 		]
 	},
 	"cat-o'-nine-tails": {
-		"name": "cat-o'-nine-tails",
+		"name": "Cat-o'-nine-tails",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea",
@@ -3216,7 +3216,7 @@
 		"copyof": "cat-o'-nine-tails"
 	},
 	"dogslicer": {
-		"name": "dogslicer",
+		"name": "Dogslicer",
 		"sources": [
 			"Ultimate Equipment",
 			"Rise of the Runelords Player's Guide",
@@ -3238,7 +3238,7 @@
 		]
 	},
 	"dueling_dagger": {
-		"name": "dueling dagger",
+		"name": "Dueling dagger",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Dueling dagger",
@@ -3253,7 +3253,7 @@
 		]
 	},
 	"gladius": {
-		"name": "gladius",
+		"name": "Gladius",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3271,7 +3271,7 @@
 		]
 	},
 	"handaxe": {
-		"name": "handaxe",
+		"name": "Handaxe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3289,7 +3289,7 @@
 		]
 	},
 	"iron_brush": {
-		"name": "iron brush",
+		"name": "Iron brush",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3307,7 +3307,7 @@
 		]
 	},
 	"jutte": {
-		"name": "jutte",
+		"name": "Jutte",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3325,7 +3325,7 @@
 		]
 	},
 	"katar,_tri-bladed": {
-		"name": "katar, tri-bladed",
+		"name": "Katar, tri-bladed",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pathfinder #9: Escape from Old Korvosa",
@@ -3347,7 +3347,7 @@
 		"copyof": "katar,_tri-bladed"
 	},
 	"kerambit": {
-		"name": "kerambit",
+		"name": "Kerambit",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3365,7 +3365,7 @@
 		]
 	},
 	"kukri": {
-		"name": "kukri",
+		"name": "Kukri",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3383,7 +3383,7 @@
 		]
 	},
 	"light_hammer": {
-		"name": "light hammer",
+		"name": "Light hammer",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3401,7 +3401,7 @@
 		]
 	},
 	"light_pick": {
-		"name": "light pick",
+		"name": "Light pick",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3419,7 +3419,7 @@
 		]
 	},
 	"lungchuan_tamo": {
-		"name": "lungchuan tamo",
+		"name": "Lungchuan tamo",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3436,7 +3436,7 @@
 		]
 	},
 	"machete": {
-		"name": "machete",
+		"name": "Machete",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Machete",
@@ -3451,7 +3451,7 @@
 		]
 	},
 	"sap": {
-		"name": "sap",
+		"name": "Sap",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3469,7 +3469,7 @@
 		]
 	},
 	"sea-knife": {
-		"name": "sea-knife",
+		"name": "Sea-knife",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Sea-knife",
@@ -3486,7 +3486,7 @@
 		"copyof": "sea-knife"
 	},
 	"shang_gou": {
-		"name": "shang gou",
+		"name": "Shang gou",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3504,7 +3504,7 @@
 		]
 	},
 	"short_sword": {
-		"name": "short sword",
+		"name": "Short sword",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3522,7 +3522,7 @@
 		]
 	},
 	"starknife": {
-		"name": "starknife",
+		"name": "Starknife",
 		"sources": [
 			"Ultimate Equipment",
 			"Rise of the Runelords Player's Guide",
@@ -3544,7 +3544,7 @@
 		]
 	},
 	"switchblade_knife": {
-		"name": "switchblade knife",
+		"name": "Switchblade knife",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Switchblade knife",
@@ -3558,7 +3558,7 @@
 		]
 	},
 	"tailblade,_ratfolk": {
-		"name": "tailblade, ratfolk",
+		"name": "Tailblade, ratfolk",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tailblade, ratfolk",
@@ -3575,7 +3575,7 @@
 		"copyof": "tailblade,_ratfolk"
 	},
 	"throwing_axe": {
-		"name": "throwing axe",
+		"name": "Throwing axe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3593,7 +3593,7 @@
 		]
 	},
 	"tonfa": {
-		"name": "tonfa",
+		"name": "Tonfa",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3611,7 +3611,7 @@
 		]
 	},
 	"war_razor": {
-		"name": "war razor",
+		"name": "War razor",
 		"sources": [
 			"Book of the Damned",
 			"Rise of the Runelords Player's Guide",
@@ -3632,7 +3632,7 @@
 		]
 	},
 	"wushu_dart": {
-		"name": "wushu dart",
+		"name": "Wushu dart",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3650,7 +3650,7 @@
 		]
 	},
 	"ankus": {
-		"name": "ankus",
+		"name": "Ankus",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Ankus",
@@ -3665,7 +3665,7 @@
 		]
 	},
 	"battleaxe": {
-		"name": "battleaxe",
+		"name": "Battleaxe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3683,7 +3683,7 @@
 		]
 	},
 	"combat_scabbard": {
-		"name": "combat scabbard",
+		"name": "Combat scabbard",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Combat scabbard",
@@ -3697,7 +3697,7 @@
 		]
 	},
 	"combat_scabbard,_sharpened": {
-		"name": "combat scabbard, sharpened",
+		"name": "Combat scabbard, sharpened",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Combat scabbard, sharpened",
@@ -3714,7 +3714,7 @@
 		"copyof": "combat_scabbard,_sharpened"
 	},
 	"cutlass": {
-		"name": "cutlass",
+		"name": "Cutlass",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea",
@@ -3734,7 +3734,7 @@
 		]
 	},
 	"double_chicken_saber": {
-		"name": "double chicken saber",
+		"name": "Double chicken saber",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3752,7 +3752,7 @@
 		]
 	},
 	"gandasa": {
-		"name": "gandasa",
+		"name": "Gandasa",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Gandasa",
@@ -3767,7 +3767,7 @@
 		]
 	},
 	"heavy_pick": {
-		"name": "heavy pick",
+		"name": "Heavy pick",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3785,7 +3785,7 @@
 		]
 	},
 	"light_flail": {
-		"name": "light flail",
+		"name": "Light flail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3803,7 +3803,7 @@
 		]
 	},
 	"longsword": {
-		"name": "longsword",
+		"name": "Longsword",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3821,7 +3821,7 @@
 		]
 	},
 	"manople": {
-		"name": "manople",
+		"name": "Manople",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Manople",
@@ -3836,7 +3836,7 @@
 		]
 	},
 	"nine-ring_broadsword": {
-		"name": "nine-ring broadsword",
+		"name": "Nine-ring broadsword",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -3857,7 +3857,7 @@
 		"copyof": "nine-ring_broadsword"
 	},
 	"rapier": {
-		"name": "rapier",
+		"name": "Rapier",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3875,7 +3875,7 @@
 		]
 	},
 	"scimitar": {
-		"name": "scimitar",
+		"name": "Scimitar",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3893,7 +3893,7 @@
 		]
 	},
 	"scizore": {
-		"name": "scizore",
+		"name": "Scizore",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -3912,7 +3912,7 @@
 		]
 	},
 	"sibat": {
-		"name": "sibat",
+		"name": "Sibat",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -3931,7 +3931,7 @@
 		]
 	},
 	"sword_cane": {
-		"name": "sword cane",
+		"name": "Sword cane",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3949,7 +3949,7 @@
 		]
 	},
 	"terbutje": {
-		"name": "terbutje",
+		"name": "Terbutje",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -3967,7 +3967,7 @@
 		]
 	},
 	"terbutje,_steel": {
-		"name": "terbutje, steel",
+		"name": "Terbutje, steel",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Terbutje, steel",
@@ -3984,7 +3984,7 @@
 		"copyof": "terbutje,_steel"
 	},
 	"trident": {
-		"name": "trident",
+		"name": "Trident",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4002,7 +4002,7 @@
 		]
 	},
 	"warhammer": {
-		"name": "warhammer",
+		"name": "Warhammer",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4020,7 +4020,7 @@
 		]
 	},
 	"bardiche": {
-		"name": "bardiche",
+		"name": "Bardiche",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4039,7 +4039,7 @@
 		]
 	},
 	"bec_de_corbin": {
-		"name": "bec de corbin",
+		"name": "Bec de corbin",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4058,7 +4058,7 @@
 		]
 	},
 	"bill": {
-		"name": "bill",
+		"name": "Bill",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4077,7 +4077,7 @@
 		]
 	},
 	"earth_breaker": {
-		"name": "earth breaker",
+		"name": "Earth breaker",
 		"sources": [
 			"Ultimate Equipment",
 			"Rise of the Runelords Player's Guide",
@@ -4100,7 +4100,7 @@
 		]
 	},
 	"falchion": {
-		"name": "falchion",
+		"name": "Falchion",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4118,7 +4118,7 @@
 		]
 	},
 	"glaive": {
-		"name": "glaive",
+		"name": "Glaive",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4136,7 +4136,7 @@
 		]
 	},
 	"glaive-guisarme": {
-		"name": "glaive-guisarme",
+		"name": "Glaive-guisarme",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4158,7 +4158,7 @@
 		"copyof": "glaive-guisarme"
 	},
 	"greataxe": {
-		"name": "greataxe",
+		"name": "Greataxe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4176,7 +4176,7 @@
 		]
 	},
 	"greatclub": {
-		"name": "greatclub",
+		"name": "Greatclub",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4194,7 +4194,7 @@
 		]
 	},
 	"greatsword": {
-		"name": "greatsword",
+		"name": "Greatsword",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4212,7 +4212,7 @@
 		]
 	},
 	"guisarme": {
-		"name": "guisarme",
+		"name": "Guisarme",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4230,7 +4230,7 @@
 		]
 	},
 	"halberd": {
-		"name": "halberd",
+		"name": "Halberd",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4248,7 +4248,7 @@
 		]
 	},
 	"heavy_flail": {
-		"name": "heavy flail",
+		"name": "Heavy flail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4266,7 +4266,7 @@
 		]
 	},
 	"hooked_lance": {
-		"name": "hooked lance",
+		"name": "Hooked lance",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4284,7 +4284,7 @@
 		]
 	},
 	"horsechopper": {
-		"name": "horsechopper",
+		"name": "Horsechopper",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -4305,7 +4305,7 @@
 		]
 	},
 	"lance": {
-		"name": "lance",
+		"name": "Lance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4323,7 +4323,7 @@
 		]
 	},
 	"lucerne_hammer": {
-		"name": "lucerne hammer",
+		"name": "Lucerne hammer",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -4342,7 +4342,7 @@
 		]
 	},
 	"mattock": {
-		"name": "mattock",
+		"name": "Mattock",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mattock",
@@ -4357,7 +4357,7 @@
 		]
 	},
 	"monk's_spade": {
-		"name": "monk's spade",
+		"name": "Monk's spade",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4375,7 +4375,7 @@
 		]
 	},
 	"naginata": {
-		"name": "naginata",
+		"name": "Naginata",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4393,7 +4393,7 @@
 		]
 	},
 	"nodachi": {
-		"name": "nodachi",
+		"name": "Nodachi",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4411,7 +4411,7 @@
 		]
 	},
 	"ogre_hook": {
-		"name": "ogre hook",
+		"name": "Ogre hook",
 		"sources": [
 			"Ultimate Equipment",
 			"Rise of the Runelords Player's Guide",
@@ -4432,7 +4432,7 @@
 		]
 	},
 	"planson": {
-		"name": "planson",
+		"name": "Planson",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Planson",
@@ -4447,7 +4447,7 @@
 		]
 	},
 	"ranseur": {
-		"name": "ranseur",
+		"name": "Ranseur",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4465,7 +4465,7 @@
 		]
 	},
 	"rhomphaia": {
-		"name": "rhomphaia",
+		"name": "Rhomphaia",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rhomphaia",
@@ -4479,7 +4479,7 @@
 		]
 	},
 	"sansetsukon": {
-		"name": "sansetsukon",
+		"name": "Sansetsukon",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4497,7 +4497,7 @@
 		]
 	},
 	"sarissa": {
-		"name": "sarissa",
+		"name": "Sarissa",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Sarissa",
@@ -4511,7 +4511,7 @@
 		]
 	},
 	"scythe": {
-		"name": "scythe",
+		"name": "Scythe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4529,7 +4529,7 @@
 		]
 	},
 	"syringe_spear": {
-		"name": "syringe spear",
+		"name": "Syringe spear",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Syringe spear",
@@ -4543,7 +4543,7 @@
 		]
 	},
 	"tepoztopilli": {
-		"name": "tepoztopilli",
+		"name": "Tepoztopilli",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tepoztopilli",
@@ -4557,7 +4557,7 @@
 		]
 	},
 	"tiger_fork": {
-		"name": "tiger fork",
+		"name": "Tiger fork",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4575,7 +4575,7 @@
 		]
 	},
 	"tri-point_double-edged_sword": {
-		"name": "tri-point double-edged sword",
+		"name": "Tri-point double-edged sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -4596,7 +4596,7 @@
 		"copyof": "tri-point_double-edged_sword"
 	},
 	"amentum": {
-		"name": "amentum",
+		"name": "Amentum",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -4615,7 +4615,7 @@
 		]
 	},
 	"atlatl": {
-		"name": "atlatl",
+		"name": "Atlatl",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Equipment"
@@ -4633,7 +4633,7 @@
 		]
 	},
 	"chakram": {
-		"name": "chakram",
+		"name": "Chakram",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Adventurer's Armory",
@@ -4653,7 +4653,7 @@
 		]
 	},
 	"composite_longbow": {
-		"name": "composite longbow",
+		"name": "Composite longbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -4674,7 +4674,7 @@
 		]
 	},
 	"composite_shortbow": {
-		"name": "composite shortbow",
+		"name": "Composite shortbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -4695,7 +4695,7 @@
 		]
 	},
 	"gastraphetes": {
-		"name": "gastraphetes",
+		"name": "Gastraphetes",
 		"sources": [ "Distant Shores" ],
 		"description": [
 			"## Gastraphetes",
@@ -4709,7 +4709,7 @@
 		]
 	},
 	"hunga_munga": {
-		"name": "hunga munga",
+		"name": "Hunga munga",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Adventurer's Armory",
@@ -4728,7 +4728,7 @@
 		]
 	},
 	"hurlbat": {
-		"name": "hurlbat",
+		"name": "Hurlbat",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Hurlbat",
@@ -4742,7 +4742,7 @@
 		]
 	},
 	"jolting_dart": {
-		"name": "jolting dart",
+		"name": "Jolting dart",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Jolting dart",
@@ -4756,7 +4756,7 @@
 		]
 	},
 	"longbow": {
-		"name": "longbow",
+		"name": "Longbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -4775,7 +4775,7 @@
 		]
 	},
 	"phaleros": {
-		"name": "phaleros",
+		"name": "Phaleros",
 		"sources": [ "Distant Shores" ],
 		"description": [
 			"## Phaleros",
@@ -4789,7 +4789,7 @@
 		]
 	},
 	"pilum": {
-		"name": "pilum",
+		"name": "Pilum",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Adventurer's Armory",
@@ -4809,7 +4809,7 @@
 		]
 	},
 	"poisoned_sand_tube": {
-		"name": "poisoned sand tube",
+		"name": "Poisoned sand tube",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -4828,7 +4828,7 @@
 		]
 	},
 	"reflex_bow": {
-		"name": "reflex bow",
+		"name": "Reflex bow",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Reflex bow",
@@ -4842,7 +4842,7 @@
 		]
 	},
 	"shortbow": {
-		"name": "shortbow",
+		"name": "Shortbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -4861,7 +4861,7 @@
 		]
 	},
 	"spear-sling": {
-		"name": "spear-sling",
+		"name": "Spear-sling",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Spear-sling",
@@ -4880,7 +4880,7 @@
 		"copyof": "spear-sling"
 	},
 	"throwing_arrow_cord": {
-		"name": "throwing arrow cord",
+		"name": "Throwing arrow cord",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Throwing arrow cord",
@@ -4894,7 +4894,7 @@
 		]
 	},
 	"tube_arrow_shooter": {
-		"name": "tube arrow shooter",
+		"name": "Tube arrow shooter",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -4913,7 +4913,7 @@
 		]
 	},
 	"aklys": {
-		"name": "aklys",
+		"name": "Aklys",
 		"sources": [
 			"Ultimate Equipment",
 			"Classic Horrors Revisited",
@@ -4933,7 +4933,7 @@
 		]
 	},
 	"axe-gauntlet,_dwarven_light": {
-		"name": "axe-gauntlet, dwarven light",
+		"name": "Axe-gauntlet, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Axe-gauntlet, dwarven light",
@@ -4951,7 +4951,7 @@
 		"copyof": "axe-gauntlet,_dwarven_light"
 	},
 	"axe-gauntlet,_dwarven_heavy": {
-		"name": "axe-gauntlet, dwarven heavy",
+		"name": "Axe-gauntlet, dwarven heavy",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Axe-gauntlet, dwarven heavy",
@@ -4969,7 +4969,7 @@
 		"copyof": "axe-gauntlet,_dwarven_heavy"
 	},
 	"barbazu_beard": {
-		"name": "barbazu beard",
+		"name": "Barbazu beard",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
 			"## Barbazu beard",
@@ -4985,7 +4985,7 @@
 		]
 	},
 	"battle_poi": {
-		"name": "battle poi",
+		"name": "Battle poi",
 		"sources": [
 			"Adventurer's Armory",
 			"Legacy of Fire Player's Guide"
@@ -5003,7 +5003,7 @@
 		]
 	},
 	"butterfly_knife": {
-		"name": "butterfly knife",
+		"name": "Butterfly knife",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Butterfly knife",
@@ -5018,7 +5018,7 @@
 		]
 	},
 	"dan_bong": {
-		"name": "dan bong",
+		"name": "Dan bong",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5036,7 +5036,7 @@
 		]
 	},
 	"deer_horn_knife": {
-		"name": "deer horn knife",
+		"name": "Deer horn knife",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Deer horn knife",
@@ -5051,7 +5051,7 @@
 		]
 	},
 	"dwarven_maulaxe": {
-		"name": "dwarven maulaxe",
+		"name": "Dwarven maulaxe",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting"
@@ -5068,7 +5068,7 @@
 		]
 	},
 	"elven_leafblade": {
-		"name": "elven leafblade",
+		"name": "Elven leafblade",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Elven leafblade",
@@ -5082,7 +5082,7 @@
 		]
 	},
 	"emei_piercer": {
-		"name": "emei piercer",
+		"name": "Emei piercer",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5100,7 +5100,7 @@
 		]
 	},
 	"fighting_fan": {
-		"name": "fighting fan",
+		"name": "Fighting fan",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5118,7 +5118,7 @@
 		]
 	},
 	"flying_talon": {
-		"name": "flying talon",
+		"name": "Flying talon",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Flying talon",
@@ -5133,7 +5133,7 @@
 		]
 	},
 	"gnome_pincher": {
-		"name": "gnome pincher",
+		"name": "Gnome pincher",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Gnome pincher",
@@ -5148,7 +5148,7 @@
 		]
 	},
 	"halfling_rope-shot": {
-		"name": "halfling rope-shot",
+		"name": "Halfling rope-shot",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Halfling rope-shot",
@@ -5166,7 +5166,7 @@
 		"copyof": "halfling_rope-shot"
 	},
 	"helmet,_dwarven_boulder": {
-		"name": "helmet, dwarven boulder",
+		"name": "Helmet, dwarven boulder",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Helmet, dwarven boulder",
@@ -5183,7 +5183,7 @@
 		"copyof": "helmet,_dwarven_boulder"
 	},
 	"kama": {
-		"name": "kama",
+		"name": "Kama",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5201,7 +5201,7 @@
 		]
 	},
 	"kasatha_spinal_sword": {
-		"name": "kasatha spinal sword",
+		"name": "Kasatha spinal sword",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Kasatha spinal sword",
@@ -5215,7 +5215,7 @@
 		]
 	},
 	"knuckle_axe": {
-		"name": "knuckle axe",
+		"name": "Knuckle axe",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5233,7 +5233,7 @@
 		]
 	},
 	"nunchaku": {
-		"name": "nunchaku",
+		"name": "Nunchaku",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5251,7 +5251,7 @@
 		]
 	},
 	"pata": {
-		"name": "pata",
+		"name": "Pata",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #9: Escape from Old Korvosa",
@@ -5272,7 +5272,7 @@
 		]
 	},
 	"quadrens": {
-		"name": "quadrens",
+		"name": "Quadrens",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5290,7 +5290,7 @@
 		]
 	},
 	"razor,_drow": {
-		"name": "razor, drow",
+		"name": "Razor, drow",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razor, drow",
@@ -5308,7 +5308,7 @@
 		"copyof": "razor,_drow"
 	},
 	"rope_gauntlet": {
-		"name": "rope gauntlet",
+		"name": "Rope gauntlet",
 		"sources": [
 			"Adventurer's Armory",
 			"Legacy of Fire Player's Guide"
@@ -5326,7 +5326,7 @@
 		]
 	},
 	"sai": {
-		"name": "sai",
+		"name": "Sai",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5344,7 +5344,7 @@
 		]
 	},
 	"sanpkhang": {
-		"name": "sanpkhang",
+		"name": "Sanpkhang",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sanpkhang",
@@ -5359,7 +5359,7 @@
 		]
 	},
 	"scorpion_whip": {
-		"name": "scorpion whip",
+		"name": "Scorpion whip",
 		"sources": [
 			"Ultimate Equipment",
 			"Legacy of Fire Player's Guide",
@@ -5379,7 +5379,7 @@
 		]
 	},
 	"siangham": {
-		"name": "siangham",
+		"name": "Siangham",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5397,7 +5397,7 @@
 		]
 	},
 	"sica": {
-		"name": "sica",
+		"name": "Sica",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5416,7 +5416,7 @@
 		]
 	},
 	"swordbreaker_dagger": {
-		"name": "swordbreaker dagger",
+		"name": "Swordbreaker dagger",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5435,7 +5435,7 @@
 		]
 	},
 	"tekko-kagi": {
-		"name": "tekko-kagi",
+		"name": "Tekko-kagi",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5456,7 +5456,7 @@
 		"copyof": "tekko-kagi"
 	},
 	"wakizashi": {
-		"name": "wakizashi",
+		"name": "Wakizashi",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5474,7 +5474,7 @@
 		]
 	},
 	"waveblade": {
-		"name": "waveblade",
+		"name": "Waveblade",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Waveblade",
@@ -5489,7 +5489,7 @@
 		]
 	},
 	"aldori_dueling_sword": {
-		"name": "aldori dueling sword",
+		"name": "Aldori dueling sword",
 		"sources": [
 			"Adventurer's Guide",
 			"Pathfinder Campaign Setting",
@@ -5509,7 +5509,7 @@
 		]
 	},
 	"bastard_sword": {
-		"name": "bastard sword",
+		"name": "Bastard sword",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5527,7 +5527,7 @@
 		]
 	},
 	"broken-back_seax": {
-		"name": "broken-back seax",
+		"name": "Broken-back seax",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Broken-back seax",
@@ -5545,7 +5545,7 @@
 		"copyof": "broken-back_seax"
 	},
 	"doru": {
-		"name": "doru",
+		"name": "Doru",
 		"sources": [ "Distant Shores" ],
 		"description": [
 			"## Doru",
@@ -5559,7 +5559,7 @@
 		]
 	},
 	"dwarven_double_waraxe": {
-		"name": "dwarven double waraxe",
+		"name": "Dwarven double waraxe",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Dwarven double waraxe",
@@ -5573,7 +5573,7 @@
 		]
 	},
 	"dwarven_waraxe": {
-		"name": "dwarven waraxe",
+		"name": "Dwarven waraxe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5591,7 +5591,7 @@
 		]
 	},
 	"elven_thornblade": {
-		"name": "elven thornblade",
+		"name": "Elven thornblade",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Elven thornblade",
@@ -5605,7 +5605,7 @@
 		]
 	},
 	"estoc": {
-		"name": "estoc",
+		"name": "Estoc",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Estoc",
@@ -5620,7 +5620,7 @@
 		]
 	},
 	"falcata": {
-		"name": "falcata",
+		"name": "Falcata",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -5640,7 +5640,7 @@
 		]
 	},
 	"flindbar": {
-		"name": "flindbar",
+		"name": "Flindbar",
 		"sources": [
 			"Monster Codex",
 			"Classic Monsters Revisited"
@@ -5657,7 +5657,7 @@
 		]
 	},
 	"gnome_flick-mace": {
-		"name": "gnome flick-mace",
+		"name": "Gnome flick-mace",
 		"sources": [ "Gnomes of Golarion" ],
 		"description": [
 			"## Gnome flick-mace",
@@ -5672,7 +5672,7 @@
 		"copyof": "gnome_flick-mace"
 	},
 	"great_terbutje": {
-		"name": "great terbutje",
+		"name": "Great terbutje",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Great terbutje",
@@ -5687,7 +5687,7 @@
 		]
 	},
 	"hooked_axe": {
-		"name": "hooked axe",
+		"name": "Hooked axe",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5705,7 +5705,7 @@
 		]
 	},
 	"katana": {
-		"name": "katana",
+		"name": "Katana",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5723,7 +5723,7 @@
 		]
 	},
 	"khopesh": {
-		"name": "khopesh",
+		"name": "Khopesh",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -5743,7 +5743,7 @@
 		]
 	},
 	"knobkerrie": {
-		"name": "knobkerrie",
+		"name": "Knobkerrie",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Knobkerrie",
@@ -5757,7 +5757,7 @@
 		]
 	},
 	"nine-section_whip": {
-		"name": "nine-section whip",
+		"name": "Nine-section whip",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -5778,7 +5778,7 @@
 		"copyof": "nine-section_whip"
 	},
 	"ram_hammer,_dwarven": {
-		"name": "ram hammer, dwarven",
+		"name": "Ram hammer, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Ram hammer, dwarven",
@@ -5796,7 +5796,7 @@
 		"copyof": "ram_hammer,_dwarven"
 	},
 	"rhoka_sword": {
-		"name": "rhoka sword",
+		"name": "Rhoka sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Into the Darklands",
@@ -5815,7 +5815,7 @@
 		]
 	},
 	"sawtooth_sabre": {
-		"name": "sawtooth sabre",
+		"name": "Sawtooth sabre",
 		"sources": [
 			"Adventurer's Guide",
 			"Curse of the Crimson Throne Player's Guide",
@@ -5837,7 +5837,7 @@
 		]
 	},
 	"shotel": {
-		"name": "shotel",
+		"name": "Shotel",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -5856,7 +5856,7 @@
 		]
 	},
 	"sickle-sword": {
-		"name": "sickle-sword",
+		"name": "Sickle-sword",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sickle-sword",
@@ -5874,7 +5874,7 @@
 		"copyof": "sickle-sword"
 	},
 	"spiral_rapier": {
-		"name": "spiral rapier",
+		"name": "Spiral rapier",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spiral rapier",
@@ -5889,7 +5889,7 @@
 		]
 	},
 	"split-blade_sword": {
-		"name": "split-blade sword",
+		"name": "Split-blade sword",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Split-blade sword",
@@ -5907,7 +5907,7 @@
 		"copyof": "split-blade_sword"
 	},
 	"taiaha": {
-		"name": "taiaha",
+		"name": "Taiaha",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Taiaha",
@@ -5922,7 +5922,7 @@
 		]
 	},
 	"temple_sword": {
-		"name": "temple sword",
+		"name": "Temple sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #9: Escape from Old Korvosa",
@@ -5943,7 +5943,7 @@
 		]
 	},
 	"tongi": {
-		"name": "tongi",
+		"name": "Tongi",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Tongi",
@@ -5958,7 +5958,7 @@
 		]
 	},
 	"urumi": {
-		"name": "urumi",
+		"name": "Urumi",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #9: Escape from Old Korvosa",
@@ -5980,7 +5980,7 @@
 		]
 	},
 	"wahaika": {
-		"name": "wahaika",
+		"name": "Wahaika",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wahaika",
@@ -5995,7 +5995,7 @@
 		]
 	},
 	"whip": {
-		"name": "whip",
+		"name": "Whip",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6017,7 +6017,7 @@
 		]
 	},
 	"barbed_spear": {
-		"name": "barbed spear",
+		"name": "Barbed spear",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Barbed spear",
@@ -6031,7 +6031,7 @@
 		]
 	},
 	"battle_ladder,_gnome": {
-		"name": "battle ladder, gnome",
+		"name": "Battle ladder, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -6052,7 +6052,7 @@
 		"copyof": "battle_ladder,_gnome"
 	},
 	"bladed_scarf": {
-		"name": "bladed scarf",
+		"name": "Bladed scarf",
 		"sources": [
 			"Varisia, Birthplace of Legends",
 			"Rise of the Runelords Player's Guide",
@@ -6074,7 +6074,7 @@
 		]
 	},
 	"bo_staff": {
-		"name": "bo staff",
+		"name": "Bo staff",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6092,7 +6092,7 @@
 		]
 	},
 	"boarding_gaff": {
-		"name": "boarding gaff",
+		"name": "Boarding gaff",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Pirates of the Inner Sea"
@@ -6110,7 +6110,7 @@
 		]
 	},
 	"butchering_axe": {
-		"name": "butchering axe",
+		"name": "Butchering axe",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Butchering axe",
@@ -6125,7 +6125,7 @@
 		]
 	},
 	"chain_spear": {
-		"name": "chain spear",
+		"name": "Chain spear",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -6147,7 +6147,7 @@
 		]
 	},
 	"chain-hammer": {
-		"name": "chain-hammer",
+		"name": "Chain-hammer",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Chain-hammer",
@@ -6165,7 +6165,7 @@
 		"copyof": "chain-hammer"
 	},
 	"crook": {
-		"name": "crook",
+		"name": "Crook",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Crook",
@@ -6180,7 +6180,7 @@
 		]
 	},
 	"dire_flail": {
-		"name": "dire flail",
+		"name": "Dire flail",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6198,7 +6198,7 @@
 		]
 	},
 	"dorn-dergar,_dwarven": {
-		"name": "dorn-dergar, dwarven",
+		"name": "Dorn-dergar, dwarven",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Dwarves of Golarion"
@@ -6219,7 +6219,7 @@
 		"copyof": "dorn-dergar,_dwarven"
 	},
 	"double_spear": {
-		"name": "double spear",
+		"name": "Double spear",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Double spear",
@@ -6234,7 +6234,7 @@
 		]
 	},
 	"double-chained_kama": {
-		"name": "double-chained kama",
+		"name": "Double-chained kama",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6255,7 +6255,7 @@
 		"copyof": "double-chained_kama"
 	},
 	"dwarven_urgrosh": {
-		"name": "dwarven urgrosh",
+		"name": "Dwarven urgrosh",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6273,7 +6273,7 @@
 		]
 	},
 	"elven_branched_spear": {
-		"name": "elven branched spear",
+		"name": "Elven branched spear",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Elven branched spear",
@@ -6288,7 +6288,7 @@
 		]
 	},
 	"elven_curve_blade": {
-		"name": "elven curve blade",
+		"name": "Elven curve blade",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -6309,7 +6309,7 @@
 		]
 	},
 	"fauchard": {
-		"name": "fauchard",
+		"name": "Fauchard",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Classic Horrors Revisited"
@@ -6327,7 +6327,7 @@
 		]
 	},
 	"flailpole": {
-		"name": "flailpole",
+		"name": "Flailpole",
 		"sources": [ "Gnomes of Golarion" ],
 		"description": [
 			"## Flailpole",
@@ -6341,7 +6341,7 @@
 		]
 	},
 	"flambard": {
-		"name": "flambard",
+		"name": "Flambard",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Flambard",
@@ -6356,7 +6356,7 @@
 		]
 	},
 	"flask_pike": {
-		"name": "flask pike",
+		"name": "Flask pike",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Flask pike",
@@ -6370,7 +6370,7 @@
 		]
 	},
 	"flying_blade": {
-		"name": "flying blade",
+		"name": "Flying blade",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -6389,7 +6389,7 @@
 		]
 	},
 	"garrote": {
-		"name": "garrote",
+		"name": "Garrote",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Garrote",
@@ -6405,7 +6405,7 @@
 		]
 	},
 	"giant-sticker,_dwarven": {
-		"name": "giant-sticker, dwarven",
+		"name": "Giant-sticker, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Giant-sticker, dwarven",
@@ -6423,7 +6423,7 @@
 		"copyof": "giant-sticker,_dwarven"
 	},
 	"gnome_hooked_hammer": {
-		"name": "gnome hooked hammer",
+		"name": "Gnome hooked hammer",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6441,7 +6441,7 @@
 		]
 	},
 	"harpoon": {
-		"name": "harpoon",
+		"name": "Harpoon",
 		"sources": [
 			"Ultimate Equipment",
 			"Pirates of the Inner Sea",
@@ -6460,7 +6460,7 @@
 		]
 	},
 	"injection_spear": {
-		"name": "injection spear",
+		"name": "Injection spear",
 		"sources": [
 			"Pathfinder #61: Shards of Sin",
 			"Classic Horrors Revisited"
@@ -6477,7 +6477,7 @@
 		]
 	},
 	"katana,_double_walking_stick": {
-		"name": "katana, double walking stick",
+		"name": "Katana, double walking stick",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6498,7 +6498,7 @@
 		"copyof": "katana,_double_walking_stick"
 	},
 	"kusarigama": {
-		"name": "kusarigama",
+		"name": "Kusarigama",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6516,7 +6516,7 @@
 		]
 	},
 	"kyoketsu_shoge": {
-		"name": "kyoketsu shoge",
+		"name": "Kyoketsu shoge",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6534,7 +6534,7 @@
 		]
 	},
 	"longaxe,_dwarven": {
-		"name": "longaxe, dwarven",
+		"name": "Longaxe, dwarven",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Longaxe, dwarven",
@@ -6551,7 +6551,7 @@
 		"copyof": "longaxe,_dwarven"
 	},
 	"longhammer,_dwarven": {
-		"name": "longhammer, dwarven",
+		"name": "Longhammer, dwarven",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Longhammer, dwarven",
@@ -6568,7 +6568,7 @@
 		"copyof": "longhammer,_dwarven"
 	},
 	"mancatcher": {
-		"name": "mancatcher",
+		"name": "Mancatcher",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -6587,7 +6587,7 @@
 		]
 	},
 	"meteor_hammer": {
-		"name": "meteor hammer",
+		"name": "Meteor hammer",
 		"sources": [
 			"Ultimate Equipment",
 			"Legacy of Fire Player's Guide",
@@ -6607,7 +6607,7 @@
 		]
 	},
 	"orc_double_axe": {
-		"name": "orc double axe",
+		"name": "Orc double axe",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6625,7 +6625,7 @@
 		]
 	},
 	"orc_skull_ram": {
-		"name": "orc skull ram",
+		"name": "Orc skull ram",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Orc skull ram",
@@ -6640,7 +6640,7 @@
 		]
 	},
 	"piston_maul,_gnome": {
-		"name": "piston maul, gnome",
+		"name": "Piston maul, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -6661,7 +6661,7 @@
 		"copyof": "piston_maul,_gnome"
 	},
 	"ripsaw_glaive,_gnome": {
-		"name": "ripsaw glaive, gnome",
+		"name": "Ripsaw glaive, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -6682,7 +6682,7 @@
 		"copyof": "ripsaw_glaive,_gnome"
 	},
 	"seven-branched_sword": {
-		"name": "seven-branched sword",
+		"name": "Seven-branched sword",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6703,7 +6703,7 @@
 		"copyof": "seven-branched_sword"
 	},
 	"sphinx_hammer,_dwarven": {
-		"name": "sphinx hammer, dwarven",
+		"name": "Sphinx hammer, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Sphinx hammer, dwarven",
@@ -6721,7 +6721,7 @@
 		"copyof": "sphinx_hammer,_dwarven"
 	},
 	"spiked_chain": {
-		"name": "spiked chain",
+		"name": "Spiked chain",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6739,7 +6739,7 @@
 		]
 	},
 	"switchscythe": {
-		"name": "switchscythe",
+		"name": "Switchscythe",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Switchscythe",
@@ -6754,7 +6754,7 @@
 		]
 	},
 	"tetsubo": {
-		"name": "tetsubo",
+		"name": "Tetsubo",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6772,7 +6772,7 @@
 		]
 	},
 	"totem_spear": {
-		"name": "totem spear",
+		"name": "Totem spear",
 		"sources": [
 			"Varisia, Birthplace of Legends",
 			"Pathfinder #10: A History of Ashes"
@@ -6789,7 +6789,7 @@
 		]
 	},
 	"two-bladed_sword": {
-		"name": "two-bladed sword",
+		"name": "Two-bladed sword",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6810,7 +6810,7 @@
 		"copyof": "two-bladed_sword"
 	},
 	"bolas": {
-		"name": "bolas",
+		"name": "Bolas",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -6829,7 +6829,7 @@
 		]
 	},
 	"boomerang": {
-		"name": "boomerang",
+		"name": "Boomerang",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Adventurer's Armory",
@@ -6849,7 +6849,7 @@
 		]
 	},
 	"crystal_chakram": {
-		"name": "crystal chakram",
+		"name": "Crystal chakram",
 		"sources": [ "Classic Horrors Revisited" ],
 		"description": [
 			"## Crystal chakram",
@@ -6863,7 +6863,7 @@
 		]
 	},
 	"dire_bolas": {
-		"name": "dire bolas",
+		"name": "Dire bolas",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Dire bolas",
@@ -6877,7 +6877,7 @@
 		]
 	},
 	"double_crossbow": {
-		"name": "double crossbow",
+		"name": "Double crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Classic Monsters Revisited",
@@ -6899,7 +6899,7 @@
 		]
 	},
 	"flask_thrower": {
-		"name": "flask thrower",
+		"name": "Flask thrower",
 		"sources": [
 			"Adventurer's Armory 2",
 			"Gnomes of Golarion"
@@ -6917,7 +6917,7 @@
 		]
 	},
 	"grappling_hook": {
-		"name": "grappling hook",
+		"name": "Grappling hook",
 		"sources": [
 			"Pirates of the Inner Sea",
 			"Skull and Shackles Player's Guide"
@@ -6940,7 +6940,7 @@
 		]
 	},
 	"halfling_double_sling": {
-		"name": "halfling double sling",
+		"name": "Halfling double sling",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling double sling",
@@ -6956,7 +6956,7 @@
 		]
 	},
 	"halfling_sling_staff": {
-		"name": "halfling sling staff",
+		"name": "Halfling sling staff",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -6979,7 +6979,7 @@
 		]
 	},
 	"halfling_stitched_sling": {
-		"name": "halfling stitched sling",
+		"name": "Halfling stitched sling",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
 			"## Halfling stitched sling",
@@ -6993,7 +6993,7 @@
 		]
 	},
 	"hand_crossbow": {
-		"name": "hand crossbow",
+		"name": "Hand crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -7014,7 +7014,7 @@
 		]
 	},
 	"heavy_crank_crossbow": {
-		"name": "heavy crank crossbow",
+		"name": "Heavy crank crossbow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Heavy crank crossbow",
@@ -7028,7 +7028,7 @@
 		]
 	},
 	"heavy_slaver's_crossbow": {
-		"name": "heavy slaver's crossbow",
+		"name": "Heavy slaver's crossbow",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Heavy slaver's crossbow",
@@ -7042,7 +7042,7 @@
 		]
 	},
 	"heavy_wrist_launcher": {
-		"name": "heavy wrist launcher",
+		"name": "Heavy wrist launcher",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Heavy wrist launcher",
@@ -7056,7 +7056,7 @@
 		]
 	},
 	"hornbow,_orc": {
-		"name": "hornbow, orc",
+		"name": "Hornbow, orc",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Hornbow, orc",
@@ -7074,7 +7074,7 @@
 		"copyof": "hornbow,_orc"
 	},
 	"horse_bow": {
-		"name": "horse bow",
+		"name": "Horse bow",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Horse bow",
@@ -7088,7 +7088,7 @@
 		]
 	},
 	"kestros": {
-		"name": "kestros",
+		"name": "Kestros",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Equipment"
@@ -7106,7 +7106,7 @@
 		]
 	},
 	"lasso": {
-		"name": "lasso",
+		"name": "Lasso",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Adventurer's Armory",
@@ -7126,7 +7126,7 @@
 		]
 	},
 	"launching_crossbow": {
-		"name": "launching crossbow",
+		"name": "Launching crossbow",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Launching crossbow",
@@ -7141,7 +7141,7 @@
 		]
 	},
 	"light_crank_crossbow": {
-		"name": "light crank crossbow",
+		"name": "Light crank crossbow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Light crank crossbow",
@@ -7155,7 +7155,7 @@
 		]
 	},
 	"light_slaver's_crossbow": {
-		"name": "light slaver's crossbow",
+		"name": "Light slaver's crossbow",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Light slaver's crossbow",
@@ -7169,7 +7169,7 @@
 		]
 	},
 	"net": {
-		"name": "net",
+		"name": "Net",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -7192,7 +7192,7 @@
 		]
 	},
 	"pelletbow,_dwarven_heavy": {
-		"name": "pelletbow, dwarven heavy",
+		"name": "Pelletbow, dwarven heavy",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Pelletbow, dwarven heavy",
@@ -7212,7 +7212,7 @@
 		"copyof": "pelletbow,_dwarven_heavy"
 	},
 	"pelletbow,_dwarven_light": {
-		"name": "pelletbow, dwarven light",
+		"name": "Pelletbow, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Pelletbow, dwarven light",
@@ -7232,7 +7232,7 @@
 		"copyof": "pelletbow,_dwarven_light"
 	},
 	"repeating_hand_crossbow": {
-		"name": "repeating hand crossbow",
+		"name": "Repeating hand crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Equipment"
@@ -7250,7 +7250,7 @@
 		]
 	},
 	"repeating_heavy_crossbow": {
-		"name": "repeating heavy crossbow",
+		"name": "Repeating heavy crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -7271,7 +7271,7 @@
 		]
 	},
 	"repeating_light_crossbow": {
-		"name": "repeating light crossbow",
+		"name": "Repeating light crossbow",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -7290,7 +7290,7 @@
 		]
 	},
 	"rope_dart": {
-		"name": "rope dart",
+		"name": "Rope dart",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Ultimate Combat",
@@ -7309,7 +7309,7 @@
 		]
 	},
 	"shoanti_bolas": {
-		"name": "shoanti bolas",
+		"name": "Shoanti bolas",
 		"sources": [
 			"Varisia, Birthplace of Legends",
 			"Curse of the Crimson Throne Player's Guide",
@@ -7330,7 +7330,7 @@
 		]
 	},
 	"shrillshaft_javelin": {
-		"name": "shrillshaft javelin",
+		"name": "Shrillshaft javelin",
 		"sources": [ "Gnomes of Golarion" ],
 		"description": [
 			"## Shrillshaft javelin",
@@ -7344,7 +7344,7 @@
 		]
 	},
 	"shuriken": {
-		"name": "shuriken",
+		"name": "Shuriken",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"PRPG Core Rulebook",
@@ -7362,7 +7362,7 @@
 		]
 	},
 	"sling_glove": {
-		"name": "sling glove",
+		"name": "Sling glove",
 		"sources": [
 			"Adventurer's Armory",
 			"Legacy of Fire Player's Guide"
@@ -7380,7 +7380,7 @@
 		]
 	},
 	"snag_net": {
-		"name": "snag net",
+		"name": "Snag net",
 		"sources": [
 			"Ranged Tactics Toolbox",
 			"Advanced Race Guide",
@@ -7399,7 +7399,7 @@
 		]
 	},
 	"stormshaft_javelin": {
-		"name": "stormshaft javelin",
+		"name": "Stormshaft javelin",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Stormshaft javelin",
@@ -7414,7 +7414,7 @@
 		]
 	},
 	"thorn_bow": {
-		"name": "thorn bow",
+		"name": "Thorn bow",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting",
@@ -7432,7 +7432,7 @@
 		]
 	},
 	"wrist_launcher": {
-		"name": "wrist launcher",
+		"name": "Wrist launcher",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Wrist launcher",
@@ -7446,7 +7446,7 @@
 		]
 	},
 	"claw_blades": {
-		"name": "claw blades",
+		"name": "Claw blades",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Claw blades",
@@ -7460,7 +7460,7 @@
 		]
 	},
 	"kobold_tail,_long_lash": {
-		"name": "kobold tail, long lash",
+		"name": "Kobold tail, long lash",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Kobold tail, long lash",
@@ -7500,7 +7500,7 @@
 		"copyof": "kobold_tail,_long_lash"
 	},
 	"kobold_tail,_pounder": {
-		"name": "kobold tail, pounder",
+		"name": "Kobold tail, pounder",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
@@ -7508,7 +7508,7 @@
 		"copyof": "kobold_tail,_pounder"
 	},
 	"kobold_tail,_razored": {
-		"name": "kobold tail, razored",
+		"name": "Kobold tail, razored",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
@@ -7516,7 +7516,7 @@
 		"copyof": "kobold_tail,_razored"
 	},
 	"kobold_tail,_spiked": {
-		"name": "kobold tail, spiked",
+		"name": "Kobold tail, spiked",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
@@ -7524,7 +7524,7 @@
 		"copyof": "kobold_tail,_spiked"
 	},
 	"kobold_tail,_sweeper": {
-		"name": "kobold tail, sweeper",
+		"name": "Kobold tail, sweeper",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
@@ -7532,7 +7532,7 @@
 		"copyof": "kobold_tail,_sweeper"
 	},
 	"breech-loader": {
-		"name": "breech-loader",
+		"name": "Breech-loader",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Breech-loader",
@@ -7550,7 +7550,7 @@
 		"copyof": "breech-loader"
 	},
 	"buckler_gun": {
-		"name": "buckler gun",
+		"name": "Buckler gun",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7568,7 +7568,7 @@
 		]
 	},
 	"coat_pistol": {
-		"name": "coat pistol",
+		"name": "Coat pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7586,7 +7586,7 @@
 		]
 	},
 	"dagger_pistol": {
-		"name": "dagger pistol",
+		"name": "Dagger pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7604,7 +7604,7 @@
 		]
 	},
 	"double-barreled_pistol": {
-		"name": "double-barreled pistol",
+		"name": "Double-barreled pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7625,7 +7625,7 @@
 		"copyof": "double-barreled_pistol"
 	},
 	"dragon_pistol": {
-		"name": "dragon pistol",
+		"name": "Dragon pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7643,7 +7643,7 @@
 		]
 	},
 	"dragoon_pistol": {
-		"name": "dragoon pistol",
+		"name": "Dragoon Pistol",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Dragoon Pistol",
@@ -7658,7 +7658,7 @@
 		]
 	},
 	"paddle-foot_pistol": {
-		"name": "paddle-foot pistol",
+		"name": "Paddle-foot pistol",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Paddle-foot pistol",
@@ -7676,7 +7676,7 @@
 		"copyof": "paddle-foot_pistol"
 	},
 	"pepperbox": {
-		"name": "pepperbox",
+		"name": "Pepperbox",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7694,7 +7694,7 @@
 		]
 	},
 	"pistol": {
-		"name": "pistol",
+		"name": "Pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7714,7 +7714,7 @@
 		]
 	},
 	"sword_cane_pistol": {
-		"name": "sword cane pistol",
+		"name": "Sword cane pistol",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7732,7 +7732,7 @@
 		]
 	},
 	"air_repeater": {
-		"name": "air repeater",
+		"name": "Air repeater",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Air repeater",
@@ -7747,7 +7747,7 @@
 		]
 	},
 	"axe_musket": {
-		"name": "axe musket",
+		"name": "Axe musket",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7765,7 +7765,7 @@
 		]
 	},
 	"blunderbuss": {
-		"name": "blunderbuss",
+		"name": "Blunderbuss",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7783,7 +7783,7 @@
 		]
 	},
 	"culverin": {
-		"name": "culverin",
+		"name": "Culverin",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7801,7 +7801,7 @@
 		]
 	},
 	"cylinder_rifle": {
-		"name": "cylinder rifle",
+		"name": "Cylinder rifle",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Cylinder rifle",
@@ -7816,7 +7816,7 @@
 		]
 	},
 	"double_hackbut": {
-		"name": "double hackbut",
+		"name": "Double hackbut",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7834,7 +7834,7 @@
 		]
 	},
 	"double-barreled_musket": {
-		"name": "double-barreled musket",
+		"name": "Double-barreled musket",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7855,7 +7855,7 @@
 		"copyof": "double-barreled_musket"
 	},
 	"dragoon_musket": {
-		"name": "dragoon musket",
+		"name": "Dragoon Musket",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Dragoon Musket",
@@ -7870,7 +7870,7 @@
 		]
 	},
 	"fire_lance": {
-		"name": "fire lance",
+		"name": "Fire lance",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7888,7 +7888,7 @@
 		]
 	},
 	"musket": {
-		"name": "musket",
+		"name": "Musket",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7906,7 +7906,7 @@
 		]
 	},
 	"warhammer_musket": {
-		"name": "warhammer musket",
+		"name": "Warhammer musket",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7924,7 +7924,7 @@
 		]
 	},
 	"radium_pistol": {
-		"name": "radium pistol",
+		"name": "Radium pistol",
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Radium pistol",
@@ -7945,7 +7945,7 @@
 		]
 	},
 	"revolver": {
-		"name": "revolver",
+		"name": "Revolver",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7963,7 +7963,7 @@
 		]
 	},
 	"double-barreled_shotgun": {
-		"name": "double-barreled shotgun",
+		"name": "Double-barreled shotgun",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -7984,7 +7984,7 @@
 		"copyof": "double-barreled_shotgun"
 	},
 	"pepperbox_rifle": {
-		"name": "pepperbox rifle",
+		"name": "Pepperbox rifle",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8002,7 +8002,7 @@
 		]
 	},
 	"radium_rifle": {
-		"name": "radium rifle",
+		"name": "Radium rifle",
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Radium rifle",
@@ -8023,7 +8023,7 @@
 		]
 	},
 	"rifle": {
-		"name": "rifle",
+		"name": "Rifle",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8043,7 +8043,7 @@
 		]
 	},
 	"shotgun": {
-		"name": "shotgun",
+		"name": "Shotgun",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8063,7 +8063,7 @@
 		]
 	},
 	"thark_rifle": {
-		"name": "thark rifle",
+		"name": "Thark rifle",
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Thark rifle",
@@ -8084,7 +8084,7 @@
 		]
 	},
 	"air_reservoir": {
-		"name": "air reservoir",
+		"name": "Air reservoir",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Air reservoir",
@@ -8097,7 +8097,7 @@
 		]
 	},
 	"alchemical_cartridge_dragon's_breath": {
-		"name": "alchemical cartridge (dragon's breath)",
+		"name": "Alchemical cartridge (dragon's breath)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat",
@@ -8168,7 +8168,7 @@
 		]
 	},
 	"alchemical_cartridge_entangling_shot": {
-		"name": "alchemical cartridge (entangling shot)",
+		"name": "Alchemical cartridge (entangling shot)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8176,7 +8176,7 @@
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_flare": {
-		"name": "alchemical cartridge (flare)",
+		"name": "Alchemical cartridge (flare)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8184,22 +8184,22 @@
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_gray_dust_shot": {
-		"name": "alchemical cartridge (gray dust shot)",
+		"name": "Alchemical cartridge (gray dust shot)",
 		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_gray_dust": {
-		"name": "alchemical cartridge (gray dust)",
+		"name": "Alchemical cartridge (gray dust)",
 		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_molten_shot": {
-		"name": "alchemical cartridge (molten shot)",
+		"name": "Alchemical cartridge (molten shot)",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_paper,_bullet_or_pellet": {
-		"name": "alchemical cartridge (paper, bullet or pellet)",
+		"name": "Alchemical cartridge (paper, bullet or pellet)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8210,12 +8210,12 @@
 		"copyof": "alchemical_cartridge_paper,_bullet_or_pellet"
 	},
 	"alchemical_cartridge_repellent": {
-		"name": "alchemical cartridge (repellent)",
+		"name": "Alchemical cartridge (repellent)",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_salt_shot": {
-		"name": "alchemical cartridge (salt shot)",
+		"name": "Alchemical cartridge (salt shot)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8223,17 +8223,17 @@
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_smoke_cartridge": {
-		"name": "alchemical cartridge (smoke cartridge)",
+		"name": "Alchemical cartridge (smoke cartridge)",
 		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"alchemical_cartridge_toxin": {
-		"name": "alchemical cartridge (toxin)",
+		"name": "Alchemical cartridge (toxin)",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
 	"black_powder_dose": {
-		"name": "black powder (dose)",
+		"name": "Black powder (dose)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8249,7 +8249,7 @@
 		]
 	},
 	"black_powder_keg": {
-		"name": "black powder (keg)",
+		"name": "Black powder (keg)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8257,7 +8257,7 @@
 		"copyof": "black_powder_dose"
 	},
 	"bullet,_adamantine": {
-		"name": "bullet, adamantine",
+		"name": "Bullet, adamantine",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bullet, adamantine",
@@ -8273,7 +8273,7 @@
 		"copyof": "bullet,_adamantine"
 	},
 	"bullet,_screaming": {
-		"name": "bullet, screaming",
+		"name": "Bullet, screaming",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Bullet, screaming",
@@ -8289,7 +8289,7 @@
 		"copyof": "bullet,_screaming"
 	},
 	"dragoon_cartridge": {
-		"name": "dragoon cartridge",
+		"name": "Dragoon Cartridge",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Dragoon Cartridge",
@@ -8304,7 +8304,7 @@
 		]
 	},
 	"firearm_bullet": {
-		"name": "firearm bullet",
+		"name": "Firearm bullet",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
@@ -8323,7 +8323,7 @@
 		]
 	},
 	"firearm_bullet,_silver": {
-		"name": "firearm bullet, silver",
+		"name": "Firearm bullet, silver",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Firearm bullet, silver",
@@ -8341,7 +8341,7 @@
 		"copyof": "firearm_bullet,_silver"
 	},
 	"gunsmith's_kit": {
-		"name": "gunsmith's kit",
+		"name": "Gunsmith's kit",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gunsmith's kit",
@@ -8354,7 +8354,7 @@
 		]
 	},
 	"metal_cartridge": {
-		"name": "metal cartridge",
+		"name": "Metal cartridge",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8370,7 +8370,7 @@
 		]
 	},
 	"pellets_handful": {
-		"name": "pellets (handful)",
+		"name": "Pellets (handful)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8388,7 +8388,7 @@
 		]
 	},
 	"pitted_bullet": {
-		"name": "pitted bullet",
+		"name": "Pitted bullet",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -8404,7 +8404,7 @@
 		]
 	},
 	"powder_horn": {
-		"name": "powder horn",
+		"name": "Powder horn",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Powder horn",

@@ -564,7 +564,7 @@
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
 	},
 	"spells_investigator": {
-		"title": "All Investigator Spells",
+		"title": "All Investigator Formulae",
 		"sources": [],
 		"description": [ "{table0}" ],
 		"singleTable": true,

@@ -2006,7 +2006,7 @@
 		]
 	},
 	"relic_of_kazavon-armor_of_skulls": {
-		"name": "Relic of Kazavon-Armor of Skulls",
+		"name": "Relic of Kazavon, Armor of Skulls",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -2037,7 +2037,7 @@
 		"copyof": "relic_of_kazavon-armor_of_skulls"
 	},
 	"relic_of_kazavon-bound_blade": {
-		"name": "Relic of Kazavon-Bound Blade",
+		"name": "Relic of Kazavon, Bound Blade",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -2069,7 +2069,7 @@
 		"copyof": "relic_of_kazavon-bound_blade"
 	},
 	"relic_of_kazavon-crown_of_fangs": {
-		"name": "Relic of Kazavon-Crown of Fangs",
+		"name": "Relic of Kazavon, Crown of Fangs",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Relic of Kazavon, Crown of Fangs",
@@ -2097,7 +2097,7 @@
 		"copyof": "relic_of_kazavon-crown_of_fangs"
 	},
 	"relic_of_kazavon-howling_horn": {
-		"name": "Relic of Kazavon-Howling Horn",
+		"name": "Relic of Kazavon, Howling Horn",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -2128,7 +2128,7 @@
 		"copyof": "relic_of_kazavon-howling_horn"
 	},
 	"relic_of_kazavon-shredskin": {
-		"name": "Relic of Kazavon-Shredskin",
+		"name": "Relic of Kazavon, Shredskin",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -2159,7 +2159,7 @@
 		"copyof": "relic_of_kazavon-shredskin"
 	},
 	"relic_of_kazavon-staff_of_the_slain": {
-		"name": "Relic of Kazavon-Staff of the Slain",
+		"name": "Relic of Kazavon, Staff of the Slain",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -2192,7 +2192,7 @@
 		"copyof": "relic_of_kazavon-staff_of_the_slain"
 	},
 	"relic_of_kazavon-throne_of_nalt": {
-		"name": "Relic of Kazavon-Throne of Nalt",
+		"name": "Relic of Kazavon, Throne of Nalt",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -3142,7 +3142,7 @@
 		]
 	},
 	"sword_of_gluttony-ungarato": {
-		"name": "Sword of Gluttony-Ungarato",
+		"name": "Sword of Gluttony, Ungarato",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sword of Gluttony, Ungarato",
@@ -3172,7 +3172,7 @@
 		"copyof": "sword_of_gluttony-ungarato"
 	},
 	"sword_of_greed-chellan": {
-		"name": "Sword of Greed-Chellan",
+		"name": "Sword of Greed, Chellan",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Artifacts and Legends",
@@ -3208,7 +3208,7 @@
 		"copyof": "sword_of_greed-chellan"
 	},
 	"sword_of_lust-asheia": {
-		"name": "Sword of Lust-Asheia",
+		"name": "Sword of Lust, Asheia",
 		"sources": [
 			"Artifacts and Legends",
 			"Seven Swords of Sin"
@@ -3241,7 +3241,7 @@
 		"copyof": "sword_of_lust-asheia"
 	},
 	"sword_of_pride-baraket": {
-		"name": "Sword of Pride-Baraket",
+		"name": "Sword of Pride, Baraket",
 		"sources": [
 			"Pathfinder #133: Secrets of Roderic's Cove",
 			"Artifacts and Legends"
@@ -3323,7 +3323,7 @@
 		]
 	},
 	"sword_of_wrath-garvok": {
-		"name": "Sword of Wrath-Garvok",
+		"name": "Sword of Wrath, Garvok",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sword of Wrath, Garvok",
@@ -3398,7 +3398,7 @@
 		]
 	},
 	"tannaris-sword_of_envy": {
-		"name": "Tannaris-Sword of Envy",
+		"name": "Tannaris, Sword of Envy",
 		"sources": [
 			"Pathfinder #137: The City Outside of Time",
 			"Artifacts and Legends"

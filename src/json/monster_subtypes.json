@@ -1,6 +1,6 @@
 {
 	"adlet": {
-		"name": "adlet",
+		"name": "Adlet",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Adlet",
@@ -9,7 +9,7 @@
 		]
 	},
 	"aeon": {
-		"name": "aeon",
+		"name": "Aeon",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -27,7 +27,7 @@
 		]
 	},
 	"aether": {
-		"name": "aether",
+		"name": "Aether",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Aether",
@@ -36,7 +36,7 @@
 		]
 	},
 	"agathion": {
-		"name": "agathion",
+		"name": "Agathion",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2",
@@ -58,7 +58,7 @@
 		]
 	},
 	"air": {
-		"name": "air",
+		"name": "Air",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -74,7 +74,7 @@
 		]
 	},
 	"android": {
-		"name": "android",
+		"name": "Android",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Android",
@@ -83,7 +83,7 @@
 		]
 	},
 	"angel": {
-		"name": "angel",
+		"name": "Angel",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -105,7 +105,7 @@
 		]
 	},
 	"aquatic": {
-		"name": "aquatic",
+		"name": "Aquatic",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -121,7 +121,7 @@
 		]
 	},
 	"archon": {
-		"name": "archon",
+		"name": "Archon",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary",
@@ -142,7 +142,7 @@
 		]
 	},
 	"astomoi": {
-		"name": "astomoi",
+		"name": "Astomoi",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Astomoi",
@@ -151,7 +151,7 @@
 		]
 	},
 	"asura": {
-		"name": "asura",
+		"name": "Asura",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Asura",
@@ -171,7 +171,7 @@
 		]
 	},
 	"augmented": {
-		"name": "augmented",
+		"name": "Augmented",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -187,7 +187,7 @@
 		]
 	},
 	"azata": {
-		"name": "azata",
+		"name": "Azata",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -207,7 +207,7 @@
 		]
 	},
 	"behemoth": {
-		"name": "behemoth",
+		"name": "Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Behemoth",
@@ -227,7 +227,7 @@
 		]
 	},
 	"blight": {
-		"name": "blight",
+		"name": "Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Subtype: Blight",
@@ -244,7 +244,7 @@
 		]
 	},
 	"catfolk": {
-		"name": "catfolk",
+		"name": "Catfolk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Catfolk",
@@ -253,7 +253,7 @@
 		]
 	},
 	"changeling": {
-		"name": "changeling",
+		"name": "Changeling",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Subtype: Changeling",
@@ -262,7 +262,7 @@
 		]
 	},
 	"chaotic": {
-		"name": "chaotic",
+		"name": "Chaotic",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -278,7 +278,7 @@
 		]
 	},
 	"clockwork": {
-		"name": "clockwork",
+		"name": "Clockwork",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -297,7 +297,7 @@
 		]
 	},
 	"cold": {
-		"name": "cold",
+		"name": "Cold",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -313,7 +313,7 @@
 		]
 	},
 	"colossus": {
-		"name": "colossus",
+		"name": "Colossus",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 4"
@@ -332,7 +332,7 @@
 		]
 	},
 	"daemon": {
-		"name": "daemon",
+		"name": "Daemon",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2",
@@ -351,7 +351,7 @@
 		]
 	},
 	"dark_folk": {
-		"name": "dark folk",
+		"name": "Dark Folk",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2",
@@ -364,7 +364,7 @@
 		]
 	},
 	"deep_one": {
-		"name": "deep one",
+		"name": "Deep One",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Deep One",
@@ -373,7 +373,7 @@
 		]
 	},
 	"demodand": {
-		"name": "demodand",
+		"name": "Demodand",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -393,7 +393,7 @@
 		]
 	},
 	"demon": {
-		"name": "demon",
+		"name": "Demon",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -416,7 +416,7 @@
 		]
 	},
 	"derro": {
-		"name": "derro",
+		"name": "Derro",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Subtype: Derro",
@@ -425,7 +425,7 @@
 		]
 	},
 	"devil": {
-		"name": "devil",
+		"name": "Devil",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -449,7 +449,7 @@
 		]
 	},
 	"div": {
-		"name": "div",
+		"name": "Div",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Div",
@@ -465,7 +465,7 @@
 		]
 	},
 	"dwarf": {
-		"name": "dwarf",
+		"name": "Dwarf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Subtype: Dwarf",
@@ -474,7 +474,7 @@
 		]
 	},
 	"earth": {
-		"name": "earth",
+		"name": "Earth",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -490,7 +490,7 @@
 		]
 	},
 	"elemental": {
-		"name": "elemental",
+		"name": "Elemental",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -513,7 +513,7 @@
 		]
 	},
 	"elf": {
-		"name": "elf",
+		"name": "Elf",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -525,7 +525,7 @@
 		]
 	},
 	"evil": {
-		"name": "evil",
+		"name": "Evil",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -541,7 +541,7 @@
 		]
 	},
 	"extraplanar": {
-		"name": "extraplanar",
+		"name": "Extraplanar",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -557,7 +557,7 @@
 		]
 	},
 	"fire": {
-		"name": "fire",
+		"name": "Fire",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -573,7 +573,7 @@
 		]
 	},
 	"giant": {
-		"name": "giant",
+		"name": "Giant",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -589,7 +589,7 @@
 		]
 	},
 	"gnome": {
-		"name": "gnome",
+		"name": "Gnome",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -601,7 +601,7 @@
 		]
 	},
 	"goblinoid": {
-		"name": "goblinoid",
+		"name": "Goblinoid",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -614,7 +614,7 @@
 		]
 	},
 	"good": {
-		"name": "good",
+		"name": "Good",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -630,7 +630,7 @@
 		]
 	},
 	"gray": {
-		"name": "gray",
+		"name": "Gray",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Gray",
@@ -639,7 +639,7 @@
 		]
 	},
 	"great_old_one": {
-		"name": "great old one",
+		"name": "Great Old One",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -660,7 +660,7 @@
 		]
 	},
 	"grippli": {
-		"name": "grippli",
+		"name": "Grippli",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Subtype: Grippli",
@@ -669,7 +669,7 @@
 		]
 	},
 	"halfling": {
-		"name": "halfling",
+		"name": "Halfling",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Subtype: Halfling",
@@ -678,7 +678,7 @@
 		]
 	},
 	"hive": {
-		"name": "hive",
+		"name": "Hive",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Subtype: Hive",
@@ -706,7 +706,7 @@
 		]
 	},
 	"human": {
-		"name": "human",
+		"name": "Human",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -721,7 +721,7 @@
 		]
 	},
 	"incorporeal": {
-		"name": "incorporeal",
+		"name": "Incorporeal",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -737,7 +737,7 @@
 		]
 	},
 	"inevitable": {
-		"name": "inevitable",
+		"name": "Inevitable",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Subtype: Inevitable",
@@ -753,7 +753,7 @@
 		]
 	},
 	"kaiju": {
-		"name": "kaiju",
+		"name": "Kaiju",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -776,7 +776,7 @@
 		]
 	},
 	"kami": {
-		"name": "kami",
+		"name": "Kami",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -796,7 +796,7 @@
 		]
 	},
 	"kasatha": {
-		"name": "kasatha",
+		"name": "Kasatha",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Subtype: Kasatha",
@@ -805,7 +805,7 @@
 		]
 	},
 	"kitsune": {
-		"name": "kitsune",
+		"name": "Kitsune",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Subtype: Kitsune",
@@ -814,7 +814,7 @@
 		]
 	},
 	"kyton": {
-		"name": "kyton",
+		"name": "Kyton",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 3"
@@ -831,7 +831,7 @@
 		]
 	},
 	"lawful": {
-		"name": "lawful",
+		"name": "Lawful",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -847,7 +847,7 @@
 		]
 	},
 	"leshy": {
-		"name": "leshy",
+		"name": "Leshy",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -867,7 +867,7 @@
 		]
 	},
 	"manasaputra": {
-		"name": "manasaputra",
+		"name": "Manasaputra",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Manasaputra",
@@ -888,7 +888,7 @@
 		]
 	},
 	"mortic": {
-		"name": "mortic",
+		"name": "Mortic",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Subtype: Mortic",
@@ -905,7 +905,7 @@
 		]
 	},
 	"munavri": {
-		"name": "munavri",
+		"name": "Munavri",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Subtype: Munavri",
@@ -914,7 +914,7 @@
 		]
 	},
 	"mythic": {
-		"name": "mythic",
+		"name": "Mythic",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 4",
@@ -936,7 +936,7 @@
 		]
 	},
 	"native": {
-		"name": "native",
+		"name": "Native",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -952,7 +952,7 @@
 		]
 	},
 	"nightshade": {
-		"name": "nightshade",
+		"name": "Nightshade",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Subtype: Nightshade",
@@ -968,7 +968,7 @@
 		]
 	},
 	"oni": {
-		"name": "oni",
+		"name": "Oni",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Oni",
@@ -982,7 +982,7 @@
 		]
 	},
 	"orc": {
-		"name": "orc",
+		"name": "Orc",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Subtype: Orc",
@@ -991,7 +991,7 @@
 		]
 	},
 	"phantom": {
-		"name": "phantom",
+		"name": "Phantom",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Phantom",
@@ -1000,7 +1000,7 @@
 		]
 	},
 	"protean": {
-		"name": "protean",
+		"name": "Protean",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1045,7 +1045,7 @@
 		]
 	},
 	"psychopomp": {
-		"name": "psychopomp",
+		"name": "Psychopomp",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1065,7 +1065,7 @@
 		]
 	},
 	"qlippoth": {
-		"name": "qlippoth",
+		"name": "Qlippoth",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1083,7 +1083,7 @@
 		]
 	},
 	"rakshasa": {
-		"name": "rakshasa",
+		"name": "Rakshasa",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Rakshasa",
@@ -1099,7 +1099,7 @@
 		]
 	},
 	"ratfolk": {
-		"name": "ratfolk",
+		"name": "Ratfolk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Ratfolk",
@@ -1108,7 +1108,7 @@
 		]
 	},
 	"reptilian": {
-		"name": "reptilian",
+		"name": "Reptilian",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary",
@@ -1122,7 +1122,7 @@
 		]
 	},
 	"robot": {
-		"name": "robot",
+		"name": "Robot",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Robot",
@@ -1142,7 +1142,7 @@
 		]
 	},
 	"sahkil": {
-		"name": "sahkil",
+		"name": "Sahkil",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 5"
@@ -1166,7 +1166,7 @@
 		]
 	},
 	"samsaran": {
-		"name": "samsaran",
+		"name": "Samsaran",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Subtype: Samsaran",
@@ -1175,7 +1175,7 @@
 		]
 	},
 	"sasquatch": {
-		"name": "sasquatch",
+		"name": "Sasquatch",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -1187,7 +1187,7 @@
 		]
 	},
 	"shapechanger": {
-		"name": "shapechanger",
+		"name": "Shapechanger",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -1203,7 +1203,7 @@
 		]
 	},
 	"skinwalker": {
-		"name": "skinwalker",
+		"name": "Skinwalker",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Subtype: Skinwalker",
@@ -1212,7 +1212,7 @@
 		]
 	},
 	"spawn_of_rovagug": {
-		"name": "spawn of rovagug",
+		"name": "Spawn of Rovagug",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Subtype: Spawn of Rovagug",
@@ -1225,7 +1225,7 @@
 		]
 	},
 	"swarm": {
-		"name": "swarm",
+		"name": "Swarm",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -1258,7 +1258,7 @@
 		]
 	},
 	"troop": {
-		"name": "troop",
+		"name": "Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Subtype: Troop",
@@ -1285,7 +1285,7 @@
 		]
 	},
 	"vanara": {
-		"name": "vanara",
+		"name": "Vanara",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Vanara",
@@ -1294,7 +1294,7 @@
 		]
 	},
 	"vishkanya": {
-		"name": "vishkanya",
+		"name": "Vishkanya",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Subtype: Vishkanya",
@@ -1303,7 +1303,7 @@
 		]
 	},
 	"water": {
-		"name": "water",
+		"name": "Water",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary",
@@ -1319,7 +1319,7 @@
 		]
 	},
 	"wayang": {
-		"name": "wayang",
+		"name": "Wayang",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Subtype: Wayang",
@@ -1328,7 +1328,7 @@
 		]
 	},
 	"wild_hunt": {
-		"name": "wild hunt",
+		"name": "Wild Hunt",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Subtype: Wild Hunt",

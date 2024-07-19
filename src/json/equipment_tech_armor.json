@@ -9,7 +9,7 @@
 		]
 	},
 	"heavy_weapon_harness": {
-		"name": "heavy weapon harness",
+		"name": "Heavy weapon harness",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Heavy weapon harness",
@@ -36,7 +36,7 @@
 		]
 	},
 	"scatterlight_suit_brown": {
-		"name": "scatterlight suit (brown)",
+		"name": "Scatterlight Suit (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit",
@@ -59,7 +59,7 @@
 		]
 	},
 	"chameleon_suit": {
-		"name": "chameleon suit",
+		"name": "Chameleon suit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chameleon suit",
@@ -82,7 +82,7 @@
 		]
 	},
 	"neraplast_armor": {
-		"name": "neraplast armor",
+		"name": "Neraplast armor",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Neraplast armor",
@@ -105,7 +105,7 @@
 		]
 	},
 	"scatterlight_suit_black": {
-		"name": "scatterlight suit (black)",
+		"name": "Scatterlight Suit (black)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (black)",
@@ -127,7 +127,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"deep_diving_suit": {
-		"name": "deep diving suit",
+		"name": "Deep diving suit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Deep diving suit",
@@ -152,7 +152,7 @@
 		]
 	},
 	"inssuit": {
-		"name": "inssuit",
+		"name": "Inssuit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Inssuit",
@@ -175,7 +175,7 @@
 		]
 	},
 	"scatterlight_suit_white": {
-		"name": "scatterlight suit (white)",
+		"name": "Scatterlight Suit (white)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (white)",
@@ -197,7 +197,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"smart_armor_compact_form": {
-		"name": "smart armor (compact form)",
+		"name": "Smart Armor (compact form)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Smart armor (compact form)",
@@ -220,7 +220,7 @@
 		]
 	},
 	"scatterlight_suit_gray": {
-		"name": "scatterlight suit (gray)",
+		"name": "Scatterlight Suit (gray)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (gray)",
@@ -242,7 +242,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"scatterlight_suit_green": {
-		"name": "scatterlight suit (green)",
+		"name": "Scatterlight Suit (green)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (green)",
@@ -264,7 +264,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"scatterlight_suit_red": {
-		"name": "scatterlight suit (red)",
+		"name": "Scatterlight Suit (red)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (red)",
@@ -286,7 +286,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"scatterlight_suit_blue": {
-		"name": "scatterlight suit (blue)",
+		"name": "Scatterlight Suit (blue)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (blue)",
@@ -308,7 +308,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"scatterlight_suit_orange": {
-		"name": "scatterlight suit (orange)",
+		"name": "Scatterlight Suit (orange)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (orange)",
@@ -330,7 +330,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"scatterlight_suit_prismatic": {
-		"name": "scatterlight suit (prismatic)",
+		"name": "Scatterlight Suit (prismatic)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Scatterlight suit (prismatic)",
@@ -352,7 +352,7 @@
 		"copyof": "scatterlight_suit_brown"
 	},
 	"gravity_suit": {
-		"name": "gravity suit",
+		"name": "Gravity suit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity suit",
@@ -377,7 +377,7 @@
 		]
 	},
 	"panic_suit": {
-		"name": "panic suit",
+		"name": "Panic suit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Panic suit",
@@ -402,7 +402,7 @@
 		]
 	},
 	"hev_suit": {
-		"name": "hev suit",
+		"name": "HEV suit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## HEV suit",
@@ -427,7 +427,7 @@
 		]
 	},
 	"nanite_ablative_armor": {
-		"name": "nanite ablative armor",
+		"name": "Nanite ablative armor",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite ablative armor",
@@ -450,7 +450,7 @@
 		]
 	},
 	"spacesuit": {
-		"name": "spacesuit",
+		"name": "Spacesuit",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Spacesuit",
@@ -475,7 +475,7 @@
 		]
 	},
 	"smart_armor_expanded_form": {
-		"name": "smart armor (expanded form)",
+		"name": "Smart Armor (expanded form)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Smart armor (expanded form)",
@@ -497,7 +497,7 @@
 		"copyof": "smart_armor_compact_form"
 	},
 	"hard_light_shield": {
-		"name": "hard light shield",
+		"name": "Hard light shield",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hard light shield",

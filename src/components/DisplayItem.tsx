@@ -9,6 +9,7 @@ import { DisplayItemProps, Table } from '../types';
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
 type MDpProps = ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps;
+type MDtProps = ClassAttributes<HTMLTableElement> & HTMLAttributes<HTMLTableElement> & ExtraProps;
 
 const plugins = [remarkGfm];
 
@@ -47,7 +48,13 @@ const p = (props: MDpProps, tables: Table[]) => {
 	return <p>{children}</p>;
 };
 
+const table = (props: MDtProps) => {
+	const { children } = props;
+	return <div className="tableWrap">{children}</div>;
+};
+
 const td = (props: MDpProps) => {
+	// for IonRippleEffect
 	return <td className="ion-activatable">{props.children}</td>;
 };
 
@@ -55,7 +62,8 @@ const makeComponents = (tables: Table[]) => {
 	return {
 		a: doLink,
 		p: (props: MDpProps) => p(props, tables),
-		td
+		td,
+		table
 	};
 };
 

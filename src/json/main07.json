@@ -1,6 +1,7 @@
 {
 	"magic_misc": {
 		"title": "Miscellaneous Magic Items",
+		"subtitle": "oils altars demonic implants devil talismans elemental augmentation favors fleshcrafting fungal grafts infused poisons juju fetishes necrografts necrotoxins magical plants relics magic sets shadow piercings magical tattoos thrones",
 		"sources": [
 			"Alchemy Manual",
 			"Black Markets",
@@ -237,6 +238,27 @@
 				"",
 				"{table3}"
 			],
+			"# Relics",
+			[
+				"**Description Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+				"Throughout the War for the Crown Adventure Path, PCs can find *relics*. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)",
+				"",
+				"| Relic |",
+				"| --- |",
+				"| [Band of the Crusader's Alliance](/magic/relic/band_of_the_crusader's_alliance) |",
+				"| [Belt of the Last Wall](/magic/relic/belt_of_the_last_wall) |",
+				"| [Dignity's Barb](/magic/relic/dignity's_barb) |",
+				"| [Envoy Ring](/magic/relic/envoy_ring) |",
+				"| [Grace of the Last Azlanti](/magic/relic/grace_of_the_last_azlanti) |",
+				"| [Jalnesin's Broken Bonds](/magic/relic/jalnesin's_broken_bonds) |",
+				"| [Koriana's Blade](/magic/relic/koriana's_blade) |",
+				"| [Lance of the Leaping Lion](/magic/relic/lance_of_the_leaping_lion) |",
+				"| [Ovetrian's Plate](/magic/relic/ovetrian's_plate) |",
+				"| [Scion's Dagger](/magic/relic/scion's_dagger) |",
+				"| [Standard of Conquest](/magic/relic/standard_of_conquest) |",
+				"| [Subtle Mask](/magic/relic/subtle_mask) |",
+				"| [Taldaris's Bequeathal](/magic/relic/taldaris's_bequeathal) |"
+			],
 			"# Magical Sets",
 			[
 				"**Description Source** [Chronicle of Legends](source/chronicle_of_legends)  ",
@@ -254,11 +276,6 @@
 				"| [Irori's Meditation](/magic/set/irori's_meditation) |",
 				"| [Pharasma's Command](/magic/set/pharasma's_command) |",
 				"| [Urgathoa's Gluttony](/magic/set/urgathoa's_gluttony) |"
-			],
-			"# Relics",
-			[
-				"**Description Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
-				"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)"
 			],
 			"# Shadow Piercings",
 			[
@@ -507,7 +524,7 @@
 			"## main/spells_druid Druid Spells",
 			"## main/spells_hunter Hunter Spells",
 			"## main/spells_inquisitor Inquisitor Spells",
-			"## main/spells_investigator Investigator Spells",
+			"## main/spells_investigator Investigator Formulae",
 			"## main/spells_magus Magus Spells",
 			"## main/spells_medium Medium Spells",
 			"## main/spells_mesmerist Mesmerist Spells",

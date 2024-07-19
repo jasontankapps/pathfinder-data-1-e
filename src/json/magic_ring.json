@@ -1970,19 +1970,22 @@
 	},
 	"ring_of_craft_magic": {
 		"name": "Ring of Craft Magic",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
+		"sources": [
+			"Advanced Race Guide",
+			"Ultimate Equipment"
+		],
 		"description": [
-			"## Ring of Resistance",
+			"## Ring of Craft Magic",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source/pathfinder_#123_the_flooded_cathedral)  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** ring; **Price** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5); **Weight** -",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [Advanced Race Guide pg. 38](source/advanced_race_guide)  ",
+			"**Aura** faint transmutation; **CL** 3rd  ",
+			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"Protective symbols adorn this magic ring. It functions as a [cloak of resistance](unknown/cloak_of_resistance) with an equivalent bonus.",
+			"A *ring of craft magic* always bears some sort of tool-like design in its craftsmanship. The wearer of the ring sees spells as similar to crafts, and vice versa. The wearer may make a [Craft](skill/craft) check in place of a Spellcraft check to identify an item that could be created with that Craft skill. The wearer may also expend a spell slot or prepared spell to gain an enhancement bonus equal to the level of the expended spell on a single Craft or [Profession](skill/profession) check (regardless of the amount of time needed to make the check).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](spell/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](feat/forge_ring), creator must have the obsession racial trait; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_ectoplasmic_invigoration": {

@@ -22,10 +22,11 @@ import {
 	IonTitle,
 	IonToolbar
 } from '@ionic/react';
-import { closeCircle, filterCircle, close as closePlain, filter as filterIcon } from 'ionicons/icons';
+import { closeCircle, filterCircle, close as closePlain, filter as filterIcon, helpCircle } from 'ionicons/icons';
 import { RangeStartToEndMinusOne } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
+import SearchHelpModal from '../components/SearchHelpModal';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import './Page.css';
@@ -78,7 +79,9 @@ const options = {
 			getFn: (item: Item) => item.tags || "",
 			weight: 0.7
 		}
-	]
+	],
+	threshold: 0.8,
+	useExtendedSearch: true
 };
 // initialize Fuse with the index
 const fuse = new Fuse(fuseIndex, options);
@@ -162,7 +165,7 @@ interface SearchModalProps {
 	setFilter: (input: SearchIndex[]) => void
 }
 
-const SearchModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, filter, setFilter}) => {
+const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, filter, setFilter}) => {
 	const [temp, setTemp] = useState<SearchIndex[]>([...filter]);
 	const registerClick = (x: SearchIndex) => {
 		if(temp.indexOf(x) > -1) {
@@ -228,6 +231,7 @@ const SearchPage: FC = () => {
 	const [isPending, startTransition] = useTransition();
 	const [filter, setFilter] = useState<SearchIndex[]>([]);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
+	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
 	const doFilterUpdate = (input: SearchIndex[]) => startTransition(() => setFilter(input));
 	return (
@@ -244,11 +248,15 @@ const SearchPage: FC = () => {
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length ? "tertiary" : undefined}>
 							<IonIcon slot="icon-only" icon={filterCircle} />
 						</IonButton>
+						<IonButton onClick={() => setHelpOpen(true)}>
+							<IonIcon slot="icon-only" icon={helpCircle} />
+						</IonButton>
 					</IonButtons>
 				</IonToolbar>
 			</PageHeader>
 			<IonContent>
-				<SearchModal open={filterOpen} setOpen={setFilterOpen} filter={filter} setFilter={doFilterUpdate} />
+				<SearchFilterModal open={filterOpen} setOpen={setFilterOpen} filter={filter} setFilter={doFilterUpdate} />
+				<SearchHelpModal open={helpOpen} setOpen={setHelpOpen} />
 				{
 					isPending ? (
 						<IonList className="search">

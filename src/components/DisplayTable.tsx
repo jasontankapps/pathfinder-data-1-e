@@ -1,6 +1,6 @@
 import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
 import { IonIcon, IonRippleEffect } from '@ionic/react';
-import { caretDown, caretUp } from 'ionicons/icons';
+import { caretDown, caretUp, ellipse } from 'ionicons/icons';
 import Markdown from 'react-markdown';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 
@@ -63,10 +63,19 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 		const isDescending = sorter(index, !descending);
 		setDescending(isDescending);
 	}, [index, sorter]);
-	const props = sortable ? {onClick, className: "sortable"} : {};
+	if(sortable) {
+		return (
+			<th>
+				<div className="sortable" onClick={onClick}>
+					<Markdown>{children}</Markdown>
+					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
+				</div>
+			</th>
+		);
+	}
 	return (
-		<th {...props}>
-			<Markdown>{children}</Markdown> {active ? <DirectionIcon down={descending} /> : <></>}
+		<th>
+			<Markdown>{children}</Markdown>
 		</th>
 	);
 };
