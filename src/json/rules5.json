@@ -339,7 +339,7 @@
 		"subtopics": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		],
@@ -378,7 +378,7 @@
 		"siblings": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		]
@@ -407,12 +407,12 @@
 		"siblings": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		]
 	},
-	"who's_in_control?": {
+	"whos_in_control": {
 		"name": "Who's in Control?",
 		"subtitle": "NPCs, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -430,7 +430,7 @@
 		"siblings": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		]
@@ -453,7 +453,7 @@
 		"siblings": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		]
@@ -482,7 +482,7 @@
 		"siblings": [
 			"building_connections",
 			"dead_ends",
-			"who's_in_control?",
+			"whos_in_control",
 			"beyond_expectations",
 			"npc_traps"
 		]
@@ -1729,7 +1729,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1768,7 +1768,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1803,7 +1803,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1840,7 +1840,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1877,7 +1877,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1910,7 +1910,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -1960,7 +1960,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2004,7 +2004,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2045,7 +2045,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2054,7 +2054,7 @@
 			"trouble_items"
 		]
 	},
-	"high_or_low_magic?": {
+	"high_or_low_magic": {
 		"name": "High or Low Magic?",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -2084,7 +2084,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2119,7 +2119,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2154,7 +2154,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2191,7 +2191,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2228,7 +2228,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2273,7 +2273,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -2312,7 +2312,7 @@
 			"ad_hoc_experience",
 			"treasure",
 			"magic_items_gg",
-			"high_or_low_magic?",
+			"high_or_low_magic",
 			"reducing_magic_with_rules_adjustments",
 			"reducing_magic_with_world_description",
 			"magic_shops",
@@ -3228,7 +3228,7 @@
 			"",
 			"Pricing a magic item is more art than science. Guidance on item pricing is given in [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values), but a trip through the magic item section shows the formulas are often not applied exactly. An example is the [ring of invisibility](magic/ring/ring_of_invisibility), with a calculated price of 10,800 gp, but a book value of 20,000 gp. This is because the at-will nature of the ring offsets the biggest drawback of [invisibility](spell/invisibility), namely that it ends after attacking. When pricing new magic items, watch out for any item that counteracts a basic weakness of an ability, class, or spell.",
 			"",
-			"The best test for item pricing is to compare it to \"must have\" items in the game, like weapons, armor, and stat-boosting gear. Also compare it to other items that share the same slot, and items with similar powers. As a rule of thumb, if you'd take the item in a heartbeat over a more expensive standard item, it is probably too cheap. And if you'd never consider taking a 10,000 gp ring over a [belt of physical might +2](magic/wondrous/belt_of_physical_might_+2) or even a +2 battleaxe, it might just be overpriced. However, it is safer to price items too high rather than too low. After all, the PC gets a new, custom magic item out of the arrangement, and that's worth paying a bit extra."
+			"The best test for item pricing is to compare it to \"must have\" items in the game, like weapons, armor, and stat-boosting gear. Also compare it to other items that share the same slot, and items with similar powers. As a rule of thumb, if you'd take the item in a heartbeat over a more expensive standard item, it is probably too cheap. And if you'd never consider taking a 10,000 gp ring over a [belt of physical might +2](magic/wondrous/belt_of_physical_might_2) or even a +2 battleaxe, it might just be overpriced. However, it is safer to price items too high rather than too low. After all, the PC gets a new, custom magic item out of the arrangement, and that's worth paying a bit extra."
 		],
 		"parent_topics": [
 			"gamemastering",

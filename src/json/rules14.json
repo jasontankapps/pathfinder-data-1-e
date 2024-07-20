@@ -902,7 +902,7 @@
 		],
 		"subtopics": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -934,14 +934,14 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
 			"typical_business_setups"
 		]
 	},
-	"profession_wisdom;_trained_only": {
+	"profession_wisdom": {
 		"name": "Profession (Wisdom; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -960,7 +960,7 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -1011,7 +1011,7 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -1037,7 +1037,7 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -1063,7 +1063,7 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -1147,7 +1147,7 @@
 		],
 		"siblings": [
 			"alternate_profession_rules",
-			"profession_wisdom;_trained_only",
+			"profession_wisdom",
 			"setting_up_shop",
 			"running_the_business",
 			"determining_profits",
@@ -1752,7 +1752,7 @@
 		],
 		"subtopics": [
 			"artistry_int",
-			"lore_int;_trained_only"
+			"lore_int"
 		],
 		"siblings": [
 			"skill_changes",
@@ -1818,10 +1818,10 @@
 		],
 		"siblings": [
 			"artistry_int",
-			"lore_int;_trained_only"
+			"lore_int"
 		]
 	},
-	"lore_int;_trained_only": {
+	"lore_int": {
 		"name": "Lore (Int; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -1871,7 +1871,7 @@
 		],
 		"siblings": [
 			"artistry_int",
-			"lore_int;_trained_only"
+			"lore_int"
 		]
 	},
 	"expanded_skill_uses": {
@@ -2234,17 +2234,17 @@
 		],
 		"subtopics": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -2333,17 +2333,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -2353,7 +2353,7 @@
 			"special_class_rules"
 		]
 	},
-	"acrobatics_dex;_armor_check_penalty": {
+	"acrobatics_dex": {
 		"name": "Acrobatics (Dex; Armor Check Penalty)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -2398,17 +2398,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -2441,7 +2441,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2479,7 +2479,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2506,7 +2506,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2533,7 +2533,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2560,7 +2560,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2589,7 +2589,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2625,7 +2625,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"acrobatics_dex;_armor_check_penalty"
+			"acrobatics_dex"
 		],
 		"siblings": [
 			"balance",
@@ -2637,7 +2637,7 @@
 			"tumble"
 		]
 	},
-	"athletics_str;_armor_check_penalty": {
+	"athletics_str": {
 		"name": "Athletics (Str; Armor Check Penalty)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -2663,17 +2663,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -2700,7 +2700,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"athletics_str;_armor_check_penalty"
+			"athletics_str"
 		],
 		"siblings": [
 			"catch",
@@ -2754,7 +2754,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"athletics_str;_armor_check_penalty"
+			"athletics_str"
 		],
 		"siblings": [
 			"catch",
@@ -2770,7 +2770,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 57](source/pathfinder_unchained)",
 			"",
-			"You can make jumps using Athletics. The DC is equal to the distance crossed (in feet) for a long jump or four times the height to be reached (in feet) for a high jump. If you don't have a running start of at least 10 feet, double the DC. If you fail an Athletics check to jump across a horizontal gap by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side. If you fail by 5 or more, you fall (or land prone if you were attempting a high jump). The DC for a jump uses the same modifiers as the DC of an [Acrobatics check](rule/acrobatics_dex;_armor_check_penalty), depending on the surface from which you're jumping. For example, the DC for a jump that begins on a sandy surface would increase by 2. You can't exceed your maximum movement for a round by jumping.",
+			"You can make jumps using Athletics. The DC is equal to the distance crossed (in feet) for a long jump or four times the height to be reached (in feet) for a high jump. If you don't have a running start of at least 10 feet, double the DC. If you fail an Athletics check to jump across a horizontal gap by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side. If you fail by 5 or more, you fall (or land prone if you were attempting a high jump). The DC for a jump uses the same modifiers as the DC of an [Acrobatics check](rule/acrobatics_dex), depending on the surface from which you're jumping. For example, the DC for a jump that begins on a sandy surface would increase by 2. You can't exceed your maximum movement for a round by jumping.",
 			"",
 			"| Long Jump | Athletics DC |",
 			"| --- | --- |",
@@ -2797,7 +2797,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"athletics_str;_armor_check_penalty"
+			"athletics_str"
 		],
 		"siblings": [
 			"catch",
@@ -2835,7 +2835,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"athletics_str;_armor_check_penalty"
+			"athletics_str"
 		],
 		"siblings": [
 			"catch",
@@ -2844,7 +2844,7 @@
 			"swim"
 		]
 	},
-	"finesse_dex;_armor_check_penalty;_trained_only": {
+	"finesse_dex": {
 		"name": "Finesse (Dex; Armor Check Penalty; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -2871,17 +2871,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -2916,7 +2916,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"finesse_dex;_armor_check_penalty;_trained_only"
+			"finesse_dex"
 		],
 		"siblings": [
 			"conceal_objects_on_your_body",
@@ -2952,7 +2952,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"finesse_dex;_armor_check_penalty;_trained_only"
+			"finesse_dex"
 		],
 		"siblings": [
 			"conceal_objects_on_your_body",
@@ -2987,7 +2987,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"finesse_dex;_armor_check_penalty;_trained_only"
+			"finesse_dex"
 		],
 		"siblings": [
 			"conceal_objects_on_your_body",
@@ -3014,7 +3014,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"finesse_dex;_armor_check_penalty;_trained_only"
+			"finesse_dex"
 		],
 		"siblings": [
 			"conceal_objects_on_your_body",
@@ -3041,7 +3041,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"finesse_dex;_armor_check_penalty;_trained_only"
+			"finesse_dex"
 		],
 		"siblings": [
 			"conceal_objects_on_your_body",
@@ -3082,17 +3082,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -3427,7 +3427,7 @@
 			"pass_secret_messages"
 		]
 	},
-	"nature_int;_trained_only": {
+	"nature_int": {
 		"name": "Nature (Int; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -3452,17 +3452,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -3489,7 +3489,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"nature_int;_trained_only"
+			"nature_int"
 		],
 		"siblings": [
 			"handle_animals",
@@ -3510,7 +3510,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"nature_int;_trained_only"
+			"nature_int"
 		],
 		"siblings": [
 			"handle_animals",
@@ -3544,7 +3544,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"nature_int;_trained_only"
+			"nature_int"
 		],
 		"siblings": [
 			"handle_animals",
@@ -3580,17 +3580,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -3827,17 +3827,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -3905,7 +3905,7 @@
 			"impress_audiences"
 		]
 	},
-	"religion_int;_trained_only": {
+	"religion_int": {
 		"name": "Religion (Int; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -3929,17 +3929,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -3963,7 +3963,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"religion_int;_trained_only"
+			"religion_int"
 		],
 		"siblings": [
 			"identify_monsters_religion",
@@ -3993,14 +3993,14 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"religion_int;_trained_only"
+			"religion_int"
 		],
 		"siblings": [
 			"identify_monsters_religion",
 			"recall_knowledge_religion"
 		]
 	},
-	"society_int;_trained_only": {
+	"society_int": {
 		"name": "Society (Int; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -4027,17 +4027,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4066,7 +4066,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"society_int;_trained_only"
+			"society_int"
 		],
 		"siblings": [
 			"create_or_detect_forgeries",
@@ -4099,7 +4099,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"society_int;_trained_only"
+			"society_int"
 		],
 		"siblings": [
 			"create_or_detect_forgeries",
@@ -4123,7 +4123,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"society_int;_trained_only"
+			"society_int"
 		],
 		"siblings": [
 			"create_or_detect_forgeries",
@@ -4148,7 +4148,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"society_int;_trained_only"
+			"society_int"
 		],
 		"siblings": [
 			"create_or_detect_forgeries",
@@ -4183,7 +4183,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"society_int;_trained_only"
+			"society_int"
 		],
 		"siblings": [
 			"create_or_detect_forgeries",
@@ -4193,7 +4193,7 @@
 			"recall_knowledge_society"
 		]
 	},
-	"spellcraft_int;_trained_only": {
+	"spellcraft_int": {
 		"name": "Spellcraft (Int; Trained Only)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -4223,17 +4223,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4260,7 +4260,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4286,7 +4286,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4325,7 +4325,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4350,7 +4350,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4383,7 +4383,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4413,7 +4413,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"spellcraft_int;_trained_only"
+			"spellcraft_int"
 		],
 		"siblings": [
 			"activate_magic_items",
@@ -4424,7 +4424,7 @@
 			"recall_knowledge_spellcraft"
 		]
 	},
-	"stealth_dex;_armor_check_penalty": {
+	"stealth_dex": {
 		"name": "Stealth (Dex; Armor Check Penalty)",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -4445,17 +4445,17 @@
 		"subtopics": [ "avoid_being_noticed" ],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4480,7 +4480,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"consolidated_skills",
-			"stealth_dex;_armor_check_penalty"
+			"stealth_dex"
 		],
 		"siblings": [ "avoid_being_noticed" ]
 	},
@@ -4510,17 +4510,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4725,17 +4725,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4820,17 +4820,17 @@
 		"subtopics": [ "converting_existing_characters" ],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4878,17 +4878,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -4989,17 +4989,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -5025,17 +5025,17 @@
 		],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",
@@ -5106,17 +5106,17 @@
 		"subtopics": [ "miscellaneous_abilities" ],
 		"siblings": [
 			"skill_descriptions_pu",
-			"acrobatics_dex;_armor_check_penalty",
-			"athletics_str;_armor_check_penalty",
-			"finesse_dex;_armor_check_penalty;_trained_only",
+			"acrobatics_dex",
+			"athletics_str",
+			"finesse_dex",
 			"influence_cha",
-			"nature_int;_trained_only",
+			"nature_int",
 			"perception_wis",
 			"performance_cha",
-			"religion_int;_trained_only",
-			"society_int;_trained_only",
-			"spellcraft_int;_trained_only",
-			"stealth_dex;_armor_check_penalty",
+			"religion_int",
+			"society_int",
+			"spellcraft_int",
+			"stealth_dex",
 			"survival_wis",
 			"racial_bonuses",
 			"class_skills_2",

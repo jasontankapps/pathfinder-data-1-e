@@ -1136,7 +1136,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1185,7 +1185,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1252,7 +1252,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1295,7 +1295,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1338,7 +1338,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1414,7 +1414,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -1942,7 +1942,7 @@
 			"warden"
 		]
 	},
-	"who_rolls_the_kingdom_check?": {
+	"who_rolls_the_kingdom_check": {
 		"name": "Who Rolls the Kingdom Check?",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -1991,7 +1991,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -2035,7 +2035,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -2155,7 +2155,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -2341,7 +2341,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -2520,7 +2520,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -2620,7 +2620,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -3170,7 +3170,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -3221,7 +3221,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -3286,7 +3286,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -3326,7 +3326,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -4142,7 +4142,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -4198,7 +4198,7 @@
 			"kingdom_building_quick_reference",
 			"founding_a_kingdom",
 			"leadership_roles",
-			"who_rolls_the_kingdom_check?",
+			"who_rolls_the_kingdom_check",
 			"build_points",
 			"kingdom_turn_sequence",
 			"edicts",
@@ -6793,7 +6793,7 @@
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"subtopics": [
-			"what_is_mythic?",
+			"what_is_mythic",
 			"mythic_heroes",
 			"mythic_feats",
 			"mythic_spells",
@@ -6815,7 +6815,7 @@
 			"wounds_and_vigor"
 		]
 	},
-	"what_is_mythic?": {
+	"what_is_mythic": {
 		"name": "What is Mythic?",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -6843,7 +6843,7 @@
 			"glossary"
 		],
 		"siblings": [
-			"what_is_mythic?",
+			"what_is_mythic",
 			"mythic_heroes",
 			"mythic_feats",
 			"mythic_spells",
@@ -6871,7 +6871,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"mythic_rules",
-			"what_is_mythic?"
+			"what_is_mythic"
 		],
 		"siblings": [
 			"what_makes_mythic_adventures_different",
@@ -6892,7 +6892,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"mythic_rules",
-			"what_is_mythic?"
+			"what_is_mythic"
 		],
 		"siblings": [
 			"what_makes_mythic_adventures_different",
@@ -6934,7 +6934,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"mythic_rules",
-			"what_is_mythic?"
+			"what_is_mythic"
 		],
 		"siblings": [
 			"what_makes_mythic_adventures_different",
@@ -6963,7 +6963,7 @@
 			"godlings_of_golarion"
 		],
 		"siblings": [
-			"what_is_mythic?",
+			"what_is_mythic",
 			"mythic_heroes",
 			"mythic_feats",
 			"mythic_spells",

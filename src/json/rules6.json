@@ -15,7 +15,7 @@
 			"adventures"
 		],
 		"subtopics": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -34,7 +34,7 @@
 			"wilderness_gg"
 		]
 	},
-	"what_is_a_plane?": {
+	"what_is_a_plane": {
 		"name": "What is a Plane?",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -60,7 +60,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -94,7 +94,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -126,7 +126,7 @@
 			"morphic_traits"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -311,7 +311,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -351,7 +351,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -409,7 +409,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -437,7 +437,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -1794,7 +1794,7 @@
 			"planar"
 		],
 		"siblings": [
-			"what_is_a_plane?",
+			"what_is_a_plane",
 			"planar_traits",
 			"physical_traits",
 			"elemental_and_energy_traits",
@@ -4489,8 +4489,8 @@
 			"advanced_topics"
 		],
 		"subtopics": [
-			"when_to_design?",
-			"when_to_disguise?"
+			"when_to_design",
+			"when_to_disguise"
 		],
 		"siblings": [
 			"customizing_your_game",
@@ -4506,7 +4506,7 @@
 			"sanity_and_madness"
 		]
 	},
-	"when_to_design?": {
+	"when_to_design": {
 		"name": "When to Design?",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -4526,11 +4526,11 @@
 			"customizing_your_game"
 		],
 		"siblings": [
-			"when_to_design?",
-			"when_to_disguise?"
+			"when_to_design",
+			"when_to_disguise"
 		]
 	},
-	"when_to_disguise?": {
+	"when_to_disguise": {
 		"name": "When to Disguise?",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -4546,8 +4546,8 @@
 			"customizing_your_game"
 		],
 		"siblings": [
-			"when_to_design?",
-			"when_to_disguise?"
+			"when_to_design",
+			"when_to_disguise"
 		]
 	},
 	"chases": {
@@ -5887,14 +5887,14 @@
 			"botanical_haunts"
 		],
 		"subtopics": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},
-	"elusive_haunt_cr_+1_or_+2": {
+	"elusive_haunt_cr_1_or_2": {
 		"name": "Elusive Haunt (CR +1 or +2)",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
@@ -5911,14 +5911,14 @@
 			"horror_haunt_elements"
 		],
 		"siblings": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},
-	"latent_haunt_cr_+0": {
+	"latent_haunt_cr_0": {
 		"name": "Latent Haunt (CR +0)",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
@@ -5935,14 +5935,14 @@
 			"horror_haunt_elements"
 		],
 		"siblings": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},
-	"tenacious_haunt_cr_+1": {
+	"tenacious_haunt_cr_1": {
 		"name": "Tenacious Haunt (CR +1)",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
@@ -5959,14 +5959,14 @@
 			"horror_haunt_elements"
 		],
 		"siblings": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},
-	"unyielding_haunt_cr_+2": {
+	"unyielding_haunt_cr_2": {
 		"name": "Unyielding Haunt (CR +2)",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
@@ -5983,10 +5983,10 @@
 			"horror_haunt_elements"
 		],
 		"siblings": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},
@@ -6007,10 +6007,10 @@
 			"horror_haunt_elements"
 		],
 		"siblings": [
-			"elusive_haunt_cr_+1_or_+2",
-			"latent_haunt_cr_+0",
-			"tenacious_haunt_cr_+1",
-			"unyielding_haunt_cr_+2",
+			"elusive_haunt_cr_1_or_2",
+			"latent_haunt_cr_0",
+			"tenacious_haunt_cr_1",
+			"unyielding_haunt_cr_2",
 			"variant_haunts"
 		]
 	},

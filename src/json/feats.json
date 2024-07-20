@@ -5762,7 +5762,7 @@
 			">You can spend 2 stamina points to gain the effects of this feat on a single attack made as part of a full attack."
 		]
 	},
-	"burn_it_down!": {
+	"burn_it_down": {
 		"name": "Burn It Down!",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -5775,10 +5775,7 @@
 			"**Benefit:** Whenever you make an attack with a torch, a flask of lamp oil fitted with a fuse, alchemist's fire, or a flaming weapon, you gain a morale bonus on your damage roll equal to the number of goblin allies within 30 feet who also have this feat (maximum +4). This bonus damage is fire damage."
 		]
 	},
-	"burn_it_down": {
-		"copyof": "burn_it_down!"
-	},
-	"burn!_burn!_burn!": {
+	"burn_burn_burn": {
 		"name": "Burn! Burn! Burn!",
 		"sources": [
 			"Advanced Race Guide",
@@ -5793,9 +5790,6 @@
 			"**Prerequisites:** Disable Device 1 rank, goblin.  ",
 			"**Benefit:** You deal an extra 1d4 points of fire damage when you attack with fire from an alchemical or nonmagical source (such as with alchemical fire or torches) and gain a +4 competence bonus on Reflex saving throws made to avoid catching on fire or to put yourself out when on fire. Additional damage caused by this feat does not apply to magical attacks (such as an alchemist's bomb) or to splash damage."
 		]
-	},
-	"burn_burn_burn": {
-		"copyof": "burn!_burn!_burn!"
 	},
 	"burning_amplification": {
 		"name": "Burning Amplification",

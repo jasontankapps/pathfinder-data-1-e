@@ -19,8 +19,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		],
@@ -62,8 +62,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -103,8 +103,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -142,8 +142,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -187,8 +187,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -228,8 +228,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -255,13 +255,13 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
 	},
-	"spellgorging_plants_cr_1+": {
+	"spellgorging_plants_cr_1": {
 		"name": "Spellgorging Plants (CR 1+)",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
@@ -284,13 +284,13 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
 	},
-	"thin_ice_cr_1+": {
+	"thin_ice_cr_1": {
 		"name": "Thin Ice (CR 1+)",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
@@ -328,8 +328,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -355,8 +355,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -400,8 +400,8 @@
 			"fording_a_river_cr_2",
 			"geothermal_spring_cr_varies",
 			"reflective_snow_cr_2",
-			"spellgorging_plants_cr_1+",
-			"thin_ice_cr_1+",
+			"spellgorging_plants_cr_1",
+			"thin_ice_cr_1",
 			"vampire_orchids_cr_3",
 			"volcano_cr_varies"
 		]
@@ -468,7 +468,7 @@
 		"subtopics": [
 			"low-level_play_levels_1-6",
 			"mid-level_play_levels_7-12",
-			"high-level_play_level_13+"
+			"high-level_play_level_13"
 		],
 		"siblings": [
 			"discovery_and_exploration",
@@ -506,7 +506,7 @@
 		"siblings": [
 			"low-level_play_levels_1-6",
 			"mid-level_play_levels_7-12",
-			"high-level_play_level_13+"
+			"high-level_play_level_13"
 		]
 	},
 	"conjuration_uw-1": {
@@ -655,7 +655,7 @@
 		"siblings": [
 			"low-level_play_levels_1-6",
 			"mid-level_play_levels_7-12",
-			"high-level_play_level_13+"
+			"high-level_play_level_13"
 		]
 	},
 	"abjuration_uw": {
@@ -749,7 +749,7 @@
 			"transmutation_uw-2"
 		]
 	},
-	"high-level_play_level_13+": {
+	"high-level_play_level_13": {
 		"name": "High-Level Play (Level 13+)",
 		"subtitle": "Spells, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
@@ -778,7 +778,7 @@
 		"siblings": [
 			"low-level_play_levels_1-6",
 			"mid-level_play_levels_7-12",
-			"high-level_play_level_13+"
+			"high-level_play_level_13"
 		]
 	},
 	"trophies_and_treasures": {
@@ -2563,7 +2563,7 @@
 			"planar_adventures"
 		],
 		"subtopics": [
-			"why_the_planes?",
+			"why_the_planes",
 			"presenting_the_planes",
 			"planar_tuning_forks",
 			"alternate_cosmologies"
@@ -2576,7 +2576,7 @@
 			"building_a_planar_campaign"
 		]
 	},
-	"why_the_planes?": {
+	"why_the_planes": {
 		"name": "Why the Planes?",
 		"subtitle": "Gamemastering",
 		"sources": [ "Planar Adventures" ],
@@ -2597,7 +2597,7 @@
 			"rescue"
 		],
 		"siblings": [
-			"why_the_planes?",
+			"why_the_planes",
 			"presenting_the_planes",
 			"planar_tuning_forks",
 			"alternate_cosmologies"
@@ -2618,7 +2618,7 @@
 			"gamemastering",
 			"planar_adventures",
 			"building_a_planar_campaign",
-			"why_the_planes?"
+			"why_the_planes"
 		],
 		"siblings": [
 			"access",
@@ -2642,7 +2642,7 @@
 			"gamemastering",
 			"planar_adventures",
 			"building_a_planar_campaign",
-			"why_the_planes?"
+			"why_the_planes"
 		],
 		"siblings": [
 			"access",
@@ -2666,7 +2666,7 @@
 			"gamemastering",
 			"planar_adventures",
 			"building_a_planar_campaign",
-			"why_the_planes?"
+			"why_the_planes"
 		],
 		"siblings": [
 			"access",
@@ -2690,7 +2690,7 @@
 			"gamemastering",
 			"planar_adventures",
 			"building_a_planar_campaign",
-			"why_the_planes?"
+			"why_the_planes"
 		],
 		"siblings": [
 			"access",
@@ -2719,7 +2719,7 @@
 			"traveling_the_planes"
 		],
 		"siblings": [
-			"why_the_planes?",
+			"why_the_planes",
 			"presenting_the_planes",
 			"planar_tuning_forks",
 			"alternate_cosmologies"
@@ -2854,7 +2854,7 @@
 			"unique_tuning_fork"
 		],
 		"siblings": [
-			"why_the_planes?",
+			"why_the_planes",
 			"presenting_the_planes",
 			"planar_tuning_forks",
 			"alternate_cosmologies"
@@ -3006,7 +3006,7 @@
 			"world_tree"
 		],
 		"siblings": [
-			"why_the_planes?",
+			"why_the_planes",
 			"presenting_the_planes",
 			"planar_tuning_forks",
 			"alternate_cosmologies"

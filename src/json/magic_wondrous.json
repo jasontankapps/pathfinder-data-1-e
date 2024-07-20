@@ -66,7 +66,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), polymorph; **Cost** 500 gp"
 		]
 	},
-	"belt_of_superior_maneuvers_+1": {
+	"belt_of_superior_maneuvers_1": {
 		"name": "Belt of Superior Maneuvers (+1)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -82,9 +82,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divine favor, creator's caster level must be at least triple the belt's bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
 		]
-	},
-	"belt_of_superior_maneuvers_1": {
-		"copyof": "belt_of_superior_maneuvers_+1"
 	},
 	"bladed_belt": {
 		"name": "Bladed Belt",
@@ -236,7 +233,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace; **Cost** 1,600 gp"
 		]
 	},
-	"belt_of_mighty_constitution_+2": {
+	"belt_of_mighty_constitution_2": {
 		"name": "Belt of Mighty Constitution (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -256,10 +253,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"belt_of_mighty_constitution_2": {
-		"copyof": "belt_of_mighty_constitution_+2"
-	},
-	"belt_of_giant_strength_+2": {
+	"belt_of_giant_strength_2": {
 		"name": "Belt of Giant Strength (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -279,10 +273,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"belt_of_giant_strength_2": {
-		"copyof": "belt_of_giant_strength_+2"
-	},
-	"belt_of_incredible_dexterity_+2": {
+	"belt_of_incredible_dexterity_2": {
 		"name": "Belt of Incredible Dexterity (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -301,9 +292,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
-	},
-	"belt_of_incredible_dexterity_2": {
-		"copyof": "belt_of_incredible_dexterity_+2"
 	},
 	"belt_of_teeth": {
 		"name": "Belt of Teeth",
@@ -575,12 +563,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create water, gaseous form, levitate or water walk, creator must have 5 ranks in Swim; **Cost** 3,500 gp"
 		]
 	},
-	"belt_of_superior_maneuvers_+2": {
-		"name": "Belt of Superior Maneuvers (+2)",
-		"copyof": "belt_of_superior_maneuvers_+1"
-	},
 	"belt_of_superior_maneuvers_2": {
-		"copyof": "belt_of_superior_maneuvers_+2"
+		"name": "Belt of Superior Maneuvers (+2)",
+		"copyof": "belt_of_superior_maneuvers_1"
 	},
 	"serpent_belt": {
 		"name": "Serpent Belt",
@@ -636,7 +621,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), cat's grace; **Cost** 4,700 gp"
 		]
 	},
-	"belt_of_physical_might_+2": {
+	"belt_of_physical_might_2": {
 		"name": "Belt of Physical Might (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -655,9 +640,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, bull's strength, and/or cat's grace; **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)"
 		]
-	},
-	"belt_of_physical_might_2": {
-		"copyof": "belt_of_physical_might_+2"
 	},
 	"belt_of_the_weasel": {
 		"name": "Belt of the Weasel",
@@ -902,7 +884,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, lesser restoration; **Cost** 7,500 gp"
 		]
 	},
-	"belt_of_physical_perfection_+2": {
+	"belt_of_physical_perfection_2": {
 		"name": "Belt of Physical Perfection (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -922,29 +904,17 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, bull's strength, cat's grace; **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)"
 		]
 	},
-	"belt_of_physical_perfection_2": {
-		"copyof": "belt_of_physical_perfection_+2"
-	},
-	"belt_of_mighty_constitution_+4": {
-		"name": "Belt of Mighty Constitution (+4)",
-		"copyof": "belt_of_mighty_constitution_+2"
-	},
 	"belt_of_mighty_constitution_4": {
-		"copyof": "belt_of_mighty_constitution_+4"
-	},
-	"belt_of_incredible_dexterity_+4": {
-		"name": "Belt of Incredible Dexterity (+4)",
-		"copyof": "belt_of_incredible_dexterity_+2"
+		"name": "Belt of Mighty Constitution (+4)",
+		"copyof": "belt_of_mighty_constitution_2"
 	},
 	"belt_of_incredible_dexterity_4": {
-		"copyof": "belt_of_incredible_dexterity_+4"
-	},
-	"belt_of_giant_strength_+4": {
-		"name": "Belt of Giant Strength (+4)",
-		"copyof": "belt_of_giant_strength_+2"
+		"name": "Belt of Incredible Dexterity (+4)",
+		"copyof": "belt_of_incredible_dexterity_2"
 	},
 	"belt_of_giant_strength_4": {
-		"copyof": "belt_of_giant_strength_+4"
+		"name": "Belt of Giant Strength (+4)",
+		"copyof": "belt_of_giant_strength_2"
 	},
 	"belt_of_impossible_action_vudrani": {
 		"name": "Belt of Impossible Action (Vudrani)",
@@ -968,12 +938,9 @@
 	"belt_of_impossible_action": {
 		"copyof": "belt_of_impossible_action_vudrani"
 	},
-	"belt_of_superior_maneuvers_+3": {
-		"name": "Belt of Superior Maneuvers (+3)",
-		"copyof": "belt_of_superior_maneuvers_+1"
-	},
 	"belt_of_superior_maneuvers_3": {
-		"copyof": "belt_of_superior_maneuvers_+3"
+		"name": "Belt of Superior Maneuvers (+3)",
+		"copyof": "belt_of_superior_maneuvers_1"
 	},
 	"monkey_belt_greater": {
 		"name": "Monkey Belt (Greater)",
@@ -1179,12 +1146,9 @@
 	"greater_infernal_cord": {
 		"copyof": "infernal_cord_greater"
 	},
-	"belt_of_superior_maneuvers_+4": {
-		"name": "Belt of Superior Maneuvers (+4)",
-		"copyof": "belt_of_superior_maneuvers_+1"
-	},
 	"belt_of_superior_maneuvers_4": {
-		"copyof": "belt_of_superior_maneuvers_+4"
+		"name": "Belt of Superior Maneuvers (+4)",
+		"copyof": "belt_of_superior_maneuvers_1"
 	},
 	"merform_belt": {
 		"name": "Merform Belt",
@@ -1203,26 +1167,17 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self, water breathing; **Cost** 16,000 gp"
 		]
 	},
-	"belt_of_mighty_constitution_+6": {
-		"name": "Belt of Mighty Constitution (+6)",
-		"copyof": "belt_of_mighty_constitution_+2"
-	},
 	"belt_of_mighty_constitution_6": {
-		"copyof": "belt_of_mighty_constitution_+6"
-	},
-	"belt_of_giant_strength_+6": {
-		"name": "Belt of Giant Strength (+6)",
-		"copyof": "belt_of_giant_strength_+2"
+		"name": "Belt of Mighty Constitution (+6)",
+		"copyof": "belt_of_mighty_constitution_2"
 	},
 	"belt_of_giant_strength_6": {
-		"copyof": "belt_of_giant_strength_+6"
-	},
-	"belt_of_incredible_dexterity_+6": {
-		"name": "Belt of Incredible Dexterity (+6)",
-		"copyof": "belt_of_incredible_dexterity_+2"
+		"name": "Belt of Giant Strength (+6)",
+		"copyof": "belt_of_giant_strength_2"
 	},
 	"belt_of_incredible_dexterity_6": {
-		"copyof": "belt_of_incredible_dexterity_+6"
+		"name": "Belt of Incredible Dexterity (+6)",
+		"copyof": "belt_of_incredible_dexterity_2"
 	},
 	"mirroring_belt": {
 		"name": "Mirroring Belt",
@@ -1245,12 +1200,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), cat's grace, mirror image; **Cost** 18,000 gp"
 		]
 	},
-	"belt_of_physical_might_+4": {
-		"name": "Belt of Physical Might (+4)",
-		"copyof": "belt_of_physical_might_+2"
-	},
 	"belt_of_physical_might_4": {
-		"copyof": "belt_of_physical_might_+4"
+		"name": "Belt of Physical Might (+4)",
+		"copyof": "belt_of_physical_might_2"
 	},
 	"belt_of_mighty_hurling_greater": {
 		"name": "Belt of Mighty Hurling (Greater)",
@@ -1272,12 +1224,9 @@
 	"greater_belt_of_mighty_hurling": {
 		"copyof": "belt_of_mighty_hurling_greater"
 	},
-	"belt_of_superior_maneuvers_+5": {
-		"name": "Belt of Superior Maneuvers (+5)",
-		"copyof": "belt_of_superior_maneuvers_+1"
-	},
 	"belt_of_superior_maneuvers_5": {
-		"copyof": "belt_of_superior_maneuvers_+5"
+		"name": "Belt of Superior Maneuvers (+5)",
+		"copyof": "belt_of_superior_maneuvers_1"
 	},
 	"anchoring_belt": {
 		"name": "Anchoring Belt",
@@ -1318,12 +1267,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), stoneskin, creator must be an oread or a creature with the earth subtype; **Cost** 30,000 gp"
 		]
 	},
-	"belt_of_physical_perfection_+4": {
-		"name": "Belt of Physical Perfection (+4)",
-		"copyof": "belt_of_physical_perfection_+2"
-	},
 	"belt_of_physical_perfection_4": {
-		"copyof": "belt_of_physical_perfection_+4"
+		"name": "Belt of Physical Perfection (+4)",
+		"copyof": "belt_of_physical_perfection_2"
 	},
 	"coven_charm": {
 		"name": "Coven Charm",
@@ -1346,12 +1292,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a changeling or hag; **Cost** 37,500 gp"
 		]
 	},
-	"belt_of_physical_might_+6": {
-		"name": "Belt of Physical Might (+6)",
-		"copyof": "belt_of_physical_might_+2"
-	},
 	"belt_of_physical_might_6": {
-		"copyof": "belt_of_physical_might_+6"
+		"name": "Belt of Physical Might (+6)",
+		"copyof": "belt_of_physical_might_2"
 	},
 	"shadowform_belt": {
 		"name": "Shadowform Belt",
@@ -1370,12 +1313,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace, etherealness; **Cost** 55,000 gp"
 		]
 	},
-	"belt_of_physical_perfection_+6": {
-		"name": "Belt of Physical Perfection (+6)",
-		"copyof": "belt_of_physical_perfection_+2"
-	},
 	"belt_of_physical_perfection_6": {
-		"copyof": "belt_of_physical_perfection_+6"
+		"name": "Belt of Physical Perfection (+6)",
+		"copyof": "belt_of_physical_perfection_2"
 	},
 	"glorious_tabard_lesser": {
 		"name": "Glorious Tabard (Lesser)",
@@ -1554,7 +1494,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), endure elements; **Cost** 2,500 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+1": {
+	"bodywrap_of_mighty_strikes_1": {
 		"name": "Bodywrap of Mighty Strikes (+1)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1574,9 +1514,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic fang, creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities; **Cost** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5), 54,000 gp (+6), 73,500 gp (+7)"
 		]
-	},
-	"bodywrap_of_mighty_strikes_1": {
-		"copyof": "bodywrap_of_mighty_strikes_+1"
 	},
 	"corset_of_the_vishkanya": {
 		"name": "Corset of the Vishkanya",
@@ -2117,12 +2054,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Heighten Spell, resist energy, cone of cold; **Cost** 5,500 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+2": {
-		"name": "Bodywrap of Mighty Strikes (+2)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_2": {
-		"copyof": "bodywrap_of_mighty_strikes_+2"
+		"name": "Bodywrap of Mighty Strikes (+2)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"harness_of_hovering": {
 		"name": "Harness of Hovering",
@@ -2365,12 +2299,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self, fins to feet; **Cost** 12,600 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+3": {
-		"name": "Bodywrap of Mighty Strikes (+3)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_3": {
-		"copyof": "bodywrap_of_mighty_strikes_+3"
+		"name": "Bodywrap of Mighty Strikes (+3)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"robe_of_scintillating_colors": {
 		"name": "Robe of Scintillating Colors",
@@ -2507,12 +2438,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fox's cunning, limited wish; **Cost** 22,000 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+4": {
-		"name": "Bodywrap of Mighty Strikes (+4)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_4": {
-		"copyof": "bodywrap_of_mighty_strikes_+4"
+		"name": "Bodywrap of Mighty Strikes (+4)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"smuggler's_collapsible_robe": {
 		"name": "Smuggler's Collapsible Robe",
@@ -2640,12 +2568,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), recorporeal incarnation; **Cost** 35,000 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+5": {
-		"name": "Bodywrap of Mighty Strikes (+5)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_5": {
-		"copyof": "bodywrap_of_mighty_strikes_+5"
+		"name": "Bodywrap of Mighty Strikes (+5)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"resplendent_robe_of_the_thespian": {
 		"name": "Resplendent Robe of the Thespian",
@@ -2773,12 +2698,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), [magic vestment](spell/magic_vestment), prayer, resistance; **Cost** 47,500 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+6": {
-		"name": "Bodywrap of Mighty Strikes (+6)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_6": {
-		"copyof": "bodywrap_of_mighty_strikes_+6"
+		"name": "Bodywrap of Mighty Strikes (+6)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"robe_of_magma": {
 		"name": "Robe of Magma",
@@ -2823,12 +2745,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), true seeing; **Cost** 60,000 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_+7": {
-		"name": "Bodywrap of Mighty Strikes (+7)",
-		"copyof": "bodywrap_of_mighty_strikes_+1"
-	},
 	"bodywrap_of_mighty_strikes_7": {
-		"copyof": "bodywrap_of_mighty_strikes_+7"
+		"name": "Bodywrap of Mighty Strikes (+7)",
+		"copyof": "bodywrap_of_mighty_strikes_1"
 	},
 	"robes_of_xin-edasseril": {
 		"name": "Robes of Xin-Edasseril",
@@ -5491,7 +5410,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), hypnotism, creator must have bardic performance and 5 ranks in Perform (dance); **Cost** 1,875 gp"
 		]
 	},
-	"horseshoes_of_crushing_blows_+1": {
+	"horseshoes_of_crushing_blows_1": {
 		"name": "Horseshoes of Crushing Blows (+1)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5512,9 +5431,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item), creator's caster level must be at least three times the horseshoes' bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
-	},
-	"horseshoes_of_crushing_blows_1": {
-		"copyof": "horseshoes_of_crushing_blows_+1"
 	},
 	"boots_of_the_eternal_rose": {
 		"name": "Boots of the Eternal Rose",
@@ -6333,12 +6249,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gust of wind; **Cost** 7,500 gp"
 		]
 	},
-	"horseshoes_of_crushing_blows_+2": {
-		"name": "Horseshoes of Crushing Blows (+2)",
-		"copyof": "horseshoes_of_crushing_blows_+1"
-	},
 	"horseshoes_of_crushing_blows_2": {
-		"copyof": "horseshoes_of_crushing_blows_+2"
+		"name": "Horseshoes of Crushing Blows (+2)",
+		"copyof": "horseshoes_of_crushing_blows_1"
 	},
 	"daring_dancers": {
 		"name": "Daring Dancers",
@@ -6588,12 +6501,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), getaway (Advanced Player's Guide); **Cost** 15,000 gp"
 		]
 	},
-	"horseshoes_of_crushing_blows_+3": {
-		"name": "Horseshoes of Crushing Blows (+3)",
-		"copyof": "horseshoes_of_crushing_blows_+1"
-	},
 	"horseshoes_of_crushing_blows_3": {
-		"copyof": "horseshoes_of_crushing_blows_+3"
+		"name": "Horseshoes of Crushing Blows (+3)",
+		"copyof": "horseshoes_of_crushing_blows_1"
 	},
 	"horseshoes_of_glory": {
 		"name": "Horseshoes of Glory",
@@ -6694,12 +6604,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ride the waves (Ultimate Magic); **Cost** 28,000 gp"
 		]
 	},
-	"horseshoes_of_crushing_blows_+4": {
-		"name": "Horseshoes of Crushing Blows (+4)",
-		"copyof": "horseshoes_of_crushing_blows_+1"
-	},
 	"horseshoes_of_crushing_blows_4": {
-		"copyof": "horseshoes_of_crushing_blows_+4"
+		"name": "Horseshoes of Crushing Blows (+4)",
+		"copyof": "horseshoes_of_crushing_blows_1"
 	},
 	"unctuous_waders": {
 		"name": "Unctuous Waders",
@@ -6783,12 +6690,9 @@
 	"horseshoes_of_desert_fury": {
 		"copyof": "horseshoes_of_desert_fury_keleshite"
 	},
-	"horseshoes_of_crushing_blows_+5": {
-		"name": "Horseshoes of Crushing Blows (+5)",
-		"copyof": "horseshoes_of_crushing_blows_+1"
-	},
 	"horseshoes_of_crushing_blows_5": {
-		"copyof": "horseshoes_of_crushing_blows_+5"
+		"name": "Horseshoes of Crushing Blows (+5)",
+		"copyof": "horseshoes_of_crushing_blows_1"
 	},
 	"assisting_gloves": {
 		"name": "Assisting Gloves",

@@ -3046,7 +3046,7 @@
 			"mastering_intrigue"
 		],
 		"subtopics": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -3065,7 +3065,7 @@
 			"verbal_duels"
 		]
 	},
-	"what_is_different?": {
+	"what_is_different": {
 		"name": "What is Different?",
 		"subtitle": "Heists, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
@@ -3082,7 +3082,7 @@
 			"heists"
 		],
 		"siblings": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -3124,7 +3124,7 @@
 			"step_4_diagram_the_heist"
 		],
 		"siblings": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -3289,7 +3289,7 @@
 			"tactics"
 		],
 		"siblings": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -3458,7 +3458,7 @@
 			"heists"
 		],
 		"siblings": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -3488,7 +3488,7 @@
 			"maintaining_the_charade"
 		],
 		"siblings": [
-			"what_is_different?",
+			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
 			"example_heist",
@@ -5338,7 +5338,7 @@
 		"subtopics": [
 			"low-level_play_1-6",
 			"mid-level_play_7-12",
-			"high-level_play_13+",
+			"high-level_play_13",
 			"example_of_intrigue_spells"
 		],
 		"siblings": [
@@ -5377,7 +5377,7 @@
 		"siblings": [
 			"low-level_play_1-6",
 			"mid-level_play_7-12",
-			"high-level_play_13+",
+			"high-level_play_13",
 			"example_of_intrigue_spells"
 		]
 	},
@@ -5569,7 +5569,7 @@
 		"siblings": [
 			"low-level_play_1-6",
 			"mid-level_play_7-12",
-			"high-level_play_13+",
+			"high-level_play_13",
 			"example_of_intrigue_spells"
 		]
 	},
@@ -5672,7 +5672,7 @@
 			"enchantments_2"
 		]
 	},
-	"high-level_play_13+": {
+	"high-level_play_13": {
 		"name": "High-Level Play (13+)",
 		"subtitle": "Spells, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
@@ -5713,7 +5713,7 @@
 		"siblings": [
 			"low-level_play_1-6",
 			"mid-level_play_7-12",
-			"high-level_play_13+",
+			"high-level_play_13",
 			"example_of_intrigue_spells"
 		]
 	},
@@ -5739,7 +5739,7 @@
 		"siblings": [
 			"low-level_play_1-6",
 			"mid-level_play_7-12",
-			"high-level_play_13+",
+			"high-level_play_13",
 			"example_of_intrigue_spells"
 		]
 	},

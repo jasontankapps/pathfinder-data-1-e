@@ -2494,7 +2494,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
 			"",
-			"The GM may decide that your character inherits something of value from a deceased relative. This may be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a masterwork rapier or [ring of protection +1](magic/ring/ring_of_protection_+1), or something cryptic and unnerving like a glowing frog idol or a skull that whispers secrets.",
+			"The GM may decide that your character inherits something of value from a deceased relative. This may be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a masterwork rapier or [ring of protection +1](magic/ring/ring_of_protection_1), or something cryptic and unnerving like a glowing frog idol or a skull that whispers secrets.",
 			"",
 			"These items are often the source of adventure hooks: Perhaps squatters are living in your house, the rapier has an inscription in a lost language, or cultists are trying to steal the idol. Sometimes the inheritance creates family drama, such as a brother who is upset that you got the house instead of him, an impoverished uncle who'd like to sell the ring, or a religious cousin who shuns you because you own the blasphemous skull. Just like in real life, an inheritance can divide close family members or create alliances out of distant relatives.",
 			"",
@@ -2717,7 +2717,7 @@
 			"",
 			"Adding more magic to an existing item can be quite simple or very math-intensive. If the item's current and proposed abilities follow the normal pricing rules (particularly with weapons, armor, and shields), adding the new abilities is a matter of subtracting the old price from the new price and determining how many days of crafting it takes to make up the difference.",
 			"",
-			"Example: Patrick's wizard decides to use his downtime to increase the armor bonus on his [bracers of armor +1](magic/wondrous/bracers_of_armor_+1) to +3. The price difference between the two types of bracers is 8,000 gp, so Patrick's wizard must spend 8 days and 4,000 gp (half the 8,000 gp price difference) upgrading his bracers' magic. If he has fewer than 8 days before the next adventure, he'll need to finish his crafting while traveling or use accelerated crafting in town to speed up the process.",
+			"Example: Patrick's wizard decides to use his downtime to increase the armor bonus on his [bracers of armor +1](magic/wondrous/bracers_of_armor_1) to +3. The price difference between the two types of bracers is 8,000 gp, so Patrick's wizard must spend 8 days and 4,000 gp (half the 8,000 gp price difference) upgrading his bracers' magic. If he has fewer than 8 days before the next adventure, he'll need to finish his crafting while traveling or use accelerated crafting in town to speed up the process.",
 			"",
 			"For most other items, GMs should use the [multiple different abilities rule](unknown/multiple_different_abilities_rule) to determine the item's new price: increase the cost of the new ability by 50%, add that to the total price of the item to get the new price. Then subtract the old price from the new price to determine the difference, and determine how many days of crafting it takes to cover the difference.",
 			"",
@@ -2789,7 +2789,7 @@
 			"",
 			"**Respect Each Crafting Feat's Niche:** You might be tempted to create rings that have charges like wands, or bracers with multiple charge-based effects like staves. A GM allowing this makes [Craft Wondrous Item](feat/craft_wondrous_item) and [Forge Ring](feat/forge_ring) even more versatile and powerful, and devalues [Craft Staff](feat/craft_staff) and [Craft Wand](feat/craft_wand) because those two feats can create only charged items.",
 			"",
-			"Before allowing such an item, consider whether the reverse idea would be appropriate-if someone with [Craft Wand](feat/craft_wand) can't make a wand of protection +1 that grants a deflection bonus like a [ring of protection +1](magic/ring/ring_of_protection_+1), and if someone with [Craft Staff](feat/craft_staff) can't make a handy haverstaff that stores items like a [handy haversack](magic/wondrous/handy_haversack), then [Craft Wondrous Item](feat/craft_wondrous_item) and [Forge Ring](feat/forge_ring) shouldn't be able to poach item types from the other feats.",
+			"Before allowing such an item, consider whether the reverse idea would be appropriate-if someone with [Craft Wand](feat/craft_wand) can't make a wand of protection +1 that grants a deflection bonus like a [ring of protection +1](magic/ring/ring_of_protection_1), and if someone with [Craft Staff](feat/craft_staff) can't make a handy haverstaff that stores items like a [handy haversack](magic/wondrous/handy_haversack), then [Craft Wondrous Item](feat/craft_wondrous_item) and [Forge Ring](feat/forge_ring) shouldn't be able to poach item types from the other feats.",
 			"",
 			"GMs who wish to allow some of these sorts of alterations should consider using the original item as a [talismanic component](unknown/talismanic_component) for the final item."
 		],
@@ -3616,7 +3616,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		],
 		"siblings": [
 			"fame",
@@ -3655,7 +3655,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
 	"fame_10": {
@@ -3687,7 +3687,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
 	"fame_20": {
@@ -3731,7 +3731,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
 	"fame_30": {
@@ -3767,7 +3767,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
 	"fame_40": {
@@ -3797,10 +3797,10 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
-	"fame_55+": {
+	"fame_55": {
 		"name": "Fame 55+",
 		"subtitle": "Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -3825,7 +3825,7 @@
 			"fame_20",
 			"fame_30",
 			"fame_40",
-			"fame_55+"
+			"fame_55"
 		]
 	},
 	"disrepute_and_infamy": {
@@ -5559,7 +5559,7 @@
 			"occult_rules"
 		],
 		"subtopics": [
-			"what_is_possession?",
+			"what_is_possession",
 			"core_mechanic_and_clarification",
 			"rule_interactions",
 			"possession_misc"
@@ -5574,7 +5574,7 @@
 			"running_an_occult_game"
 		]
 	},
-	"what_is_possession?": {
+	"what_is_possession": {
 		"name": "What is Possession?",
 		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
@@ -5597,7 +5597,7 @@
 			"possession"
 		],
 		"siblings": [
-			"what_is_possession?",
+			"what_is_possession",
 			"core_mechanic_and_clarification",
 			"rule_interactions",
 			"possession_misc"
@@ -5622,7 +5622,7 @@
 			"possession"
 		],
 		"siblings": [
-			"what_is_possession?",
+			"what_is_possession",
 			"core_mechanic_and_clarification",
 			"rule_interactions",
 			"possession_misc"
@@ -5655,7 +5655,7 @@
 			"possession"
 		],
 		"siblings": [
-			"what_is_possession?",
+			"what_is_possession",
 			"core_mechanic_and_clarification",
 			"rule_interactions",
 			"possession_misc"
@@ -5688,7 +5688,7 @@
 			"exorcism"
 		],
 		"siblings": [
-			"what_is_possession?",
+			"what_is_possession",
 			"core_mechanic_and_clarification",
 			"rule_interactions",
 			"possession_misc"
@@ -5956,7 +5956,7 @@
 			"**Duration** 1 day  ",
 			"**Saving Throw** none",
 			"",
-			"A fiend possessing an object can imbue the item with its profane energies to mimic magical enchantment. When a fiend uses this action, it grants the possessed item magical properties equal to 1,000 gp per Hit Die the fiend possesses. This action is typically used on weapons and armor, though a fiend can duplicate other magic items if it possesses an appropriate item. The possessed item does not need to be of masterwork quality for the fiend to bestow these magical properties. For example, a 9-HD erinyes can imbue an item with up to 9,000 gp worth of magical properties. Thus the erinyes can make a normal longsword perform as if it were a +2 longsword or even a +1 [vicious](magic/enhancement/vicious) longsword. Likewise, the same erinyes could possess an amulet and cause it to act as an [amulet of natural armor +2](magic/wondrous/amulet_of_natural_armor_+2).",
+			"A fiend possessing an object can imbue the item with its profane energies to mimic magical enchantment. When a fiend uses this action, it grants the possessed item magical properties equal to 1,000 gp per Hit Die the fiend possesses. This action is typically used on weapons and armor, though a fiend can duplicate other magic items if it possesses an appropriate item. The possessed item does not need to be of masterwork quality for the fiend to bestow these magical properties. For example, a 9-HD erinyes can imbue an item with up to 9,000 gp worth of magical properties. Thus the erinyes can make a normal longsword perform as if it were a +2 longsword or even a +1 [vicious](magic/enhancement/vicious) longsword. Likewise, the same erinyes could possess an amulet and cause it to act as an [amulet of natural armor +2](magic/wondrous/amulet_of_natural_armor_2).",
 			"",
 			"The fiend, and not the user of the object, is in control of the properties of the item, even if it has been forced into possessing the item via a spell like [planar ally](spell/planar_ally) or [planar binding](spell/planar_binding). Each use of this ability lasts for 24 hours or until the fiend dismisses the effect. The fiend can remove these properties at will, and when the fiend leaves the item, the magical properties immediately vanish. A fiend cannot cause an item to take on properties other than those typical to its shape (one could not create a +1 vicious helmet, for example).",
 			"",

@@ -81,7 +81,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shield; **Cost** 100 gp"
 		]
 	},
-	"protean_cloak_+1_bonus": {
+	"protean_cloak_1_bonus": {
 		"name": "Protean Cloak (+1 bonus)",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -101,7 +101,7 @@
 		]
 	},
 	"protean_cloak_1": {
-		"copyof": "protean_cloak_+1_bonus"
+		"copyof": "protean_cloak_1_bonus"
 	},
 	"cloak_of_human_guise": {
 		"name": "Cloak of Human Guise",
@@ -123,7 +123,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self; **Cost** 450 gp"
 		]
 	},
-	"cloak_of_resistance_+1": {
+	"cloak_of_resistance_1": {
 		"name": "Cloak of Resistance (+1)",
 		"sources": [
 			"Ultimate Equipment",
@@ -142,9 +142,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, creator's caster level must be at least three times the cloak's bonus; **Cost** 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5)"
 		]
-	},
-	"cloak_of_resistance_1": {
-		"copyof": "cloak_of_resistance_+1"
 	},
 	"muleback_cords": {
 		"name": "Muleback Cords",
@@ -208,7 +205,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Cost** 500 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_+1_+2_fortitude": {
+	"pauldrons_of_unflinching_fortitude_1_2_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+1/+2 Fortitude)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -226,9 +223,9 @@
 		]
 	},
 	"pauldrons_of_unflinching_fortitude_1_or_2_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
 	},
-	"cloak_of_quick_reflexes_+1_+2_reflex": {
+	"cloak_of_quick_reflexes_1_2_reflex": {
 		"name": "Cloak of Quick Reflexes (+1/+2 Reflex)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -246,9 +243,9 @@
 		]
 	},
 	"cloak_of_quick_reflexes_1_or_2_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
 	},
-	"cape_of_free_will_+1_+2_will": {
+	"cape_of_free_will_1_2_will": {
 		"name": "Cape of Free Will (+1/+2 Will)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -266,7 +263,7 @@
 		]
 	},
 	"cape_of_free_will_1_or_2_will": {
-		"copyof": "cape_of_free_will_+1_+2_will"
+		"copyof": "cape_of_free_will_1_2_will"
 	},
 	"quickchange_cloak": {
 		"name": "Quickchange Cloak",
@@ -305,12 +302,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), sanctuary; **Cost** 900 gp"
 		]
 	},
-	"protean_cloak_+2_bonus": {
+	"protean_cloak_2_bonus": {
 		"name": "Protean Cloak (+2 bonus)",
-		"copyof": "protean_cloak_+1_bonus"
+		"copyof": "protean_cloak_1_bonus"
 	},
 	"protean_cloak_2": {
-		"copyof": "protean_cloak_+2_bonus"
+		"copyof": "protean_cloak_2_bonus"
 	},
 	"entangling_aiguillette": {
 		"name": "Entangling Aiguillette",
@@ -444,7 +441,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), invisibility, silent image; **Cost** 1,300 gp"
 		]
 	},
-	"caparison_of_resistance_+1_bonus": {
+	"caparison_of_resistance_1_bonus": {
 		"name": "Caparison of Resistance (+1 bonus)",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
@@ -462,7 +459,7 @@
 		]
 	},
 	"caparison_of_resistance_1": {
-		"copyof": "caparison_of_resistance_+1_bonus"
+		"copyof": "caparison_of_resistance_1_bonus"
 	},
 	"cloak_of_the_crusader": {
 		"name": "Cloak of the Crusader",
@@ -728,7 +725,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [expeditious retreat](spell/expeditious_retreat); **Cost** 1,800 gp"
 		]
 	},
-	"swordlord's_cloak_+1_bonus": {
+	"swordlord's_cloak_1_bonus": {
 		"name": "Swordlord's Cloak (+1 bonus)",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
@@ -748,14 +745,11 @@
 		]
 	},
 	"swordlord's_cloak_1": {
-		"copyof": "swordlord's_cloak_+1_bonus"
-	},
-	"cloak_of_resistance_+2": {
-		"name": "Cloak of Resistance (+2)",
-		"copyof": "cloak_of_resistance_+1"
+		"copyof": "swordlord's_cloak_1_bonus"
 	},
 	"cloak_of_resistance_2": {
-		"copyof": "cloak_of_resistance_+2"
+		"name": "Cloak of Resistance (+2)",
+		"copyof": "cloak_of_resistance_1"
 	},
 	"cloak_of_the_yeti": {
 		"name": "Cloak of the Yeti",
@@ -791,12 +785,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), feather fall, hide from animals; **Cost** 2,000 gp"
 		]
 	},
-	"protean_cloak_+3_bonus": {
+	"protean_cloak_3_bonus": {
 		"name": "Protean Cloak (+3 bonus)",
-		"copyof": "protean_cloak_+1_bonus"
+		"copyof": "protean_cloak_1_bonus"
 	},
 	"protean_cloak_3": {
-		"copyof": "protean_cloak_+3_bonus"
+		"copyof": "protean_cloak_3_bonus"
 	},
 	"golden_eagle_epaulets": {
 		"name": "Golden Eagle Epaulets",
@@ -894,26 +888,26 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), endure elements, resistance; **Cost** 2,875 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_+2_+3_fortitude": {
+	"pauldrons_of_unflinching_fortitude_2_3_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+2/+3 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
 	},
 	"pauldrons_of_unflinching_fortitude_2_or_3_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+2_+3_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_2_3_fortitude"
 	},
-	"cloak_of_quick_reflexes_+2_+3_reflex": {
+	"cloak_of_quick_reflexes_2_3_reflex": {
 		"name": "Cloak of Quick Reflexes (+2/+3 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
 	},
 	"cloak_of_quick_reflexes_2_or_3_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+2_+3_reflex"
+		"copyof": "cloak_of_quick_reflexes_2_3_reflex"
 	},
-	"cape_of_free_will_+2_+3_will": {
+	"cape_of_free_will_2_3_will": {
 		"name": "Cape of Free Will (+2/+3 Will)",
-		"copyof": "cape_of_free_will_+1_+2_will"
+		"copyof": "cape_of_free_will_1_2_will"
 	},
 	"cape_of_free_will_2_or_3_will": {
-		"copyof": "cape_of_free_will_+2_+3_will"
+		"copyof": "cape_of_free_will_2_3_will"
 	},
 	"cloak_of_heavenly_fire": {
 		"name": "Cloak of Heavenly Fire",
@@ -1134,12 +1128,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 3,750 gp"
 		]
 	},
-	"protean_cloak_+4_bonus": {
+	"protean_cloak_4_bonus": {
 		"name": "Protean Cloak (+4 bonus)",
-		"copyof": "protean_cloak_+1_bonus"
+		"copyof": "protean_cloak_1_bonus"
 	},
 	"protean_cloak_4": {
-		"copyof": "protean_cloak_+4_bonus"
+		"copyof": "protean_cloak_4_bonus"
 	},
 	"aspergillum_cloak": {
 		"name": "Aspergillum Cloak",
@@ -1177,12 +1171,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with animals](spell/speak_with_animals), [summon swarm](spell/summon_swarm); **Cost** 4,000 gp"
 		]
 	},
-	"cloak_of_resistance_+3": {
-		"name": "Cloak of Resistance (+3)",
-		"copyof": "cloak_of_resistance_+1"
-	},
 	"cloak_of_resistance_3": {
-		"copyof": "cloak_of_resistance_+3"
+		"name": "Cloak of Resistance (+3)",
+		"copyof": "cloak_of_resistance_1"
 	},
 	"arbalest_cloak": {
 		"name": "Arbalest Cloak",
@@ -1346,12 +1337,12 @@
 	"minor_stone_cloak": {
 		"copyof": "stone_cloak_minor"
 	},
-	"caparison_of_resistance_+2_bonus": {
+	"caparison_of_resistance_2_bonus": {
 		"name": "Caparison of Resistance (+2 bonus)",
-		"copyof": "caparison_of_resistance_+1_bonus"
+		"copyof": "caparison_of_resistance_1_bonus"
 	},
 	"caparison_of_resistance_2": {
-		"copyof": "caparison_of_resistance_+2_bonus"
+		"copyof": "caparison_of_resistance_2_bonus"
 	},
 	"cape_of_the_mountebank": {
 		"name": "Cape of the Mountebank",
@@ -1464,12 +1455,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shield other; **Cost** 6,100 gp"
 		]
 	},
-	"protean_cloak_+5_bonus": {
+	"protean_cloak_5_bonus": {
 		"name": "Protean Cloak (+5 bonus)",
-		"copyof": "protean_cloak_+1_bonus"
+		"copyof": "protean_cloak_1_bonus"
 	},
 	"protean_cloak_5": {
-		"copyof": "protean_cloak_+5_bonus"
+		"copyof": "protean_cloak_5_bonus"
 	},
 	"cloak_of_good_fortune": {
 		"name": "Cloak of Good Fortune",
@@ -1505,26 +1496,26 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), contagion; **Cost** 6,700 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_+3_+4_fortitude": {
+	"pauldrons_of_unflinching_fortitude_3_4_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+3/+4 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
 	},
 	"pauldrons_of_unflinching_fortitude_3_or_4_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+3_+4_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_3_4_fortitude"
 	},
-	"cloak_of_quick_reflexes_+3_+4_reflex": {
+	"cloak_of_quick_reflexes_3_4_reflex": {
 		"name": "Cloak of Quick Reflexes (+3/+4 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
 	},
 	"cloak_of_quick_reflexes_3_or_4_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+3_+4_reflex"
+		"copyof": "cloak_of_quick_reflexes_3_4_reflex"
 	},
-	"cape_of_free_will_+3_+4_will": {
+	"cape_of_free_will_3_4_will": {
 		"name": "Cape of Free Will (+3/+4 Will)",
-		"copyof": "cape_of_free_will_+1_+2_will"
+		"copyof": "cape_of_free_will_1_2_will"
 	},
 	"cape_of_free_will_3_or_4_will": {
-		"copyof": "cape_of_free_will_+3_+4_will"
+		"copyof": "cape_of_free_will_3_4_will"
 	},
 	"cloak_of_the_saga_keeper": {
 		"name": "Cloak of the Saga Keeper",
@@ -1739,19 +1730,16 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), speak with animals; **Cost** 7,800 gp"
 		]
 	},
-	"swordlord's_cloak_+2_bonus": {
+	"swordlord's_cloak_2_bonus": {
 		"name": "Swordlord's Cloak (+2 bonus)",
-		"copyof": "swordlord's_cloak_+1_bonus"
+		"copyof": "swordlord's_cloak_1_bonus"
 	},
 	"swordlord's_cloak_2": {
-		"copyof": "swordlord's_cloak_+2_bonus"
-	},
-	"cloak_of_resistance_+4": {
-		"name": "Cloak of Resistance (+4)",
-		"copyof": "cloak_of_resistance_+1"
+		"copyof": "swordlord's_cloak_2_bonus"
 	},
 	"cloak_of_resistance_4": {
-		"copyof": "cloak_of_resistance_+4"
+		"name": "Cloak of Resistance (+4)",
+		"copyof": "cloak_of_resistance_1"
 	},
 	"hyena_spirit_skin": {
 		"name": "Hyena Spirit Skin",
@@ -2090,26 +2078,26 @@
 	"lesser_wings_of_flying": {
 		"copyof": "wings_of_flying_lesser"
 	},
-	"pauldrons_of_unflinching_fortitude_+4_+5_fortitude": {
+	"pauldrons_of_unflinching_fortitude_4_5_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+4/+5 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
 	},
 	"pauldrons_of_unflinching_fortitude_4_or_5_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+4_+5_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_4_5_fortitude"
 	},
-	"cloak_of_quick_reflexes_+4_+5_reflex": {
+	"cloak_of_quick_reflexes_4_5_reflex": {
 		"name": "Cloak of Quick Reflexes (+4/+5 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
 	},
 	"cloak_of_quick_reflexes_4_or_5_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+4_+5_reflex"
+		"copyof": "cloak_of_quick_reflexes_4_5_reflex"
 	},
-	"cape_of_free_will_+4_+5_will": {
+	"cape_of_free_will_4_5_will": {
 		"name": "Cape of Free Will (+4/+5 Will)",
-		"copyof": "cape_of_free_will_+1_+2_will"
+		"copyof": "cape_of_free_will_1_2_will"
 	},
 	"cape_of_free_will_4_or_5_will": {
-		"copyof": "cape_of_free_will_+4_+5_will"
+		"copyof": "cape_of_free_will_4_5_will"
 	},
 	"lycanthrope_skin_skinwalker_boar,_rat,_wolf": {
 		"name": "Lycanthrope Skin (Skinwalker) (boar, rat, wolf)",
@@ -2156,19 +2144,16 @@
 	"minor_cloak_of_displacement": {
 		"copyof": "cloak_of_displacement_minor"
 	},
-	"caparison_of_resistance_+3_bonus": {
+	"caparison_of_resistance_3_bonus": {
 		"name": "Caparison of Resistance (+3 bonus)",
-		"copyof": "caparison_of_resistance_+1_bonus"
+		"copyof": "caparison_of_resistance_1_bonus"
 	},
 	"caparison_of_resistance_3": {
-		"copyof": "caparison_of_resistance_+3_bonus"
-	},
-	"cloak_of_resistance_+5": {
-		"name": "Cloak of Resistance (+5)",
-		"copyof": "cloak_of_resistance_+1"
+		"copyof": "caparison_of_resistance_3_bonus"
 	},
 	"cloak_of_resistance_5": {
-		"copyof": "cloak_of_resistance_+5"
+		"name": "Cloak of Resistance (+5)",
+		"copyof": "cloak_of_resistance_1"
 	},
 	"melding_cloak": {
 		"name": "Melding Cloak",
@@ -2300,33 +2285,33 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Improved Disarm, pilfering hand, creator must be a panache user; **Cost** 17,500 gp"
 		]
 	},
-	"swordlord's_cloak_+3_bonus": {
+	"swordlord's_cloak_3_bonus": {
 		"name": "Swordlord's Cloak (+3 bonus)",
-		"copyof": "swordlord's_cloak_+1_bonus"
+		"copyof": "swordlord's_cloak_1_bonus"
 	},
 	"swordlord's_cloak_3": {
-		"copyof": "swordlord's_cloak_+3_bonus"
+		"copyof": "swordlord's_cloak_3_bonus"
 	},
-	"pauldrons_of_unflinching_fortitude_+5_+6_fortitude": {
+	"pauldrons_of_unflinching_fortitude_5_6_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+5/+6 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
 	},
 	"pauldrons_of_unflinching_fortitude_5_or_6_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+5_+6_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_5_6_fortitude"
 	},
-	"cloak_of_quick_reflexes_+5_+6_reflex": {
+	"cloak_of_quick_reflexes_5_6_reflex": {
 		"name": "Cloak of Quick Reflexes (+5/+6 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
 	},
 	"cloak_of_quick_reflexes_5_or_6_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+5_+6_reflex"
+		"copyof": "cloak_of_quick_reflexes_5_6_reflex"
 	},
-	"cape_of_free_will_+5_+6_will": {
+	"cape_of_free_will_5_6_will": {
 		"name": "Cape of Free Will (+5/+6 Will)",
-		"copyof": "cape_of_free_will_+1_+2_will"
+		"copyof": "cape_of_free_will_1_2_will"
 	},
 	"cape_of_free_will_5_or_6_will": {
-		"copyof": "cape_of_free_will_+5_+6_will"
+		"copyof": "cape_of_free_will_5_6_will"
 	},
 	"plumed_mantle": {
 		"name": "Plumed Mantle",
@@ -2373,12 +2358,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), deadly juggernaut, enlarge person, rage; **Cost** 20,000 gp"
 		]
 	},
-	"caparison_of_resistance_+4_bonus": {
+	"caparison_of_resistance_4_bonus": {
 		"name": "Caparison of Resistance (+4 bonus)",
-		"copyof": "caparison_of_resistance_+1_bonus"
+		"copyof": "caparison_of_resistance_1_bonus"
 	},
 	"caparison_of_resistance_4": {
-		"copyof": "caparison_of_resistance_+4_bonus"
+		"copyof": "caparison_of_resistance_4_bonus"
 	},
 	"charlatan's_cape": {
 		"name": "Charlatan's Cape",
@@ -2540,12 +2525,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkness, sculpt sound, shadow body, shadow walk; **Cost** 31,625 gp"
 		]
 	},
-	"swordlord's_cloak_+4_bonus": {
+	"swordlord's_cloak_4_bonus": {
 		"name": "Swordlord's Cloak (+4 bonus)",
-		"copyof": "swordlord's_cloak_+1_bonus"
+		"copyof": "swordlord's_cloak_1_bonus"
 	},
 	"swordlord's_cloak_4": {
-		"copyof": "swordlord's_cloak_+4_bonus"
+		"copyof": "swordlord's_cloak_4_bonus"
 	},
 	"immolation_cloak": {
 		"name": "Immolation Cloak",
@@ -2566,12 +2551,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), detonate, fire shield, resist fire; **Cost** 32,500 gp"
 		]
 	},
-	"caparison_of_resistance_+5_bonus": {
+	"caparison_of_resistance_5_bonus": {
 		"name": "Caparison of Resistance (+5 bonus)",
-		"copyof": "caparison_of_resistance_+1_bonus"
+		"copyof": "caparison_of_resistance_1_bonus"
 	},
 	"caparison_of_resistance_5": {
-		"copyof": "caparison_of_resistance_+5_bonus"
+		"copyof": "caparison_of_resistance_5_bonus"
 	},
 	"wings_of_the_gargoyle": {
 		"name": "Wings of the Gargoyle",
@@ -2607,12 +2592,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), feather fall, fly, poison, resistance, creator must be at least caster level 12; **Cost** 39,300 gp"
 		]
 	},
-	"swordlord's_cloak_+5_bonus": {
+	"swordlord's_cloak_5_bonus": {
 		"name": "Swordlord's Cloak (+5 bonus)",
-		"copyof": "swordlord's_cloak_+1_bonus"
+		"copyof": "swordlord's_cloak_1_bonus"
 	},
 	"swordlord's_cloak_5": {
-		"copyof": "swordlord's_cloak_+5_bonus"
+		"copyof": "swordlord's_cloak_5_bonus"
 	},
 	"sleeves_of_many_garments": {
 		"name": "Sleeves of Many Garments",
@@ -2665,7 +2650,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [status](spell/status); **Cost** 375 gp"
 		]
 	},
-	"bracers_of_armor_+1": {
+	"bracers_of_armor_1": {
 		"name": "Bracers of Armor (+1)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2686,9 +2671,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), mage armor, creator's caster level must be at least two times that of the bonus placed on the bracers, plus any requirements of the armor special abilities; **Cost** 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5), 18,000 gp (+6), 24,500 gp (+7), 32,000 gp (+8)"
 		]
-	},
-	"bracers_of_armor_1": {
-		"copyof": "bracers_of_armor_+1"
 	},
 	"decorum_band": {
 		"name": "Decorum Band",
@@ -2862,12 +2844,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), command; **Cost** 1,930 gp"
 		]
 	},
-	"bracers_of_armor_+2": {
-		"name": "Bracers of Armor (+2)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_2": {
-		"copyof": "bracers_of_armor_+2"
+		"name": "Bracers of Armor (+2)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracers_of_falcon's_aim": {
 		"name": "Bracers of Falcon's Aim",
@@ -3220,12 +3199,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), drain poison, neutralize poison; **Cost** 4,250 gp"
 		]
 	},
-	"bracers_of_armor_+3": {
-		"name": "Bracers of Armor (+3)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_3": {
-		"copyof": "bracers_of_armor_+3"
+		"name": "Bracers of Armor (+3)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracelets_of_defiant_wind": {
 		"name": "Bracelets of Defiant Wind",
@@ -3547,12 +3523,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), breath of life; **Cost** 7,875 gp"
 		]
 	},
-	"bracers_of_armor_+4": {
-		"name": "Bracers of Armor (+4)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_4": {
-		"copyof": "bracers_of_armor_+4"
+		"name": "Bracers of Armor (+4)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracelet_of_good_luck_charms_halfling": {
 		"name": "Bracelet of Good Luck Charms (Halfling)",
@@ -3703,12 +3676,9 @@
 			"**Requirements** Combat Casting, [Craft Wondrous Item](feat/craft_wondrous_item), spectral hand; **Cost** 10,000 gp"
 		]
 	},
-	"bracers_of_armor_+5": {
-		"name": "Bracers of Armor (+5)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_5": {
-		"copyof": "bracers_of_armor_+5"
+		"name": "Bracers of Armor (+5)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracers_of_archery_greater": {
 		"name": "Bracers of Archery (Greater)",
@@ -3905,12 +3875,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dimensional anchor, thorn body; **Cost** 17,800 gp"
 		]
 	},
-	"bracers_of_armor_+6": {
-		"name": "Bracers of Armor (+6)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_6": {
-		"copyof": "bracers_of_armor_+6"
+		"name": "Bracers of Armor (+6)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracers_of_the_shield_mates": {
 		"name": "Bracers of the Shield Mates",
@@ -3931,19 +3898,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Mythic Creator, dimension door, shield; **Cost** 20,000 gp"
 		]
 	},
-	"bracers_of_armor_+7": {
-		"name": "Bracers of Armor (+7)",
-		"copyof": "bracers_of_armor_+1"
-	},
 	"bracers_of_armor_7": {
-		"copyof": "bracers_of_armor_+7"
-	},
-	"bracers_of_armor_+8": {
-		"name": "Bracers of Armor (+8)",
-		"copyof": "bracers_of_armor_+1"
+		"name": "Bracers of Armor (+7)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracers_of_armor_8": {
-		"copyof": "bracers_of_armor_+8"
+		"name": "Bracers of Armor (+8)",
+		"copyof": "bracers_of_armor_1"
 	},
 	"bracers_of_antiquity": {
 		"name": "Bracers of Antiquity",
@@ -3987,7 +3948,7 @@
 			"",
 			"A wizard who wears the headband gains two extra uses per day of a 1st-level arcane school power that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier.",
 			"",
-			"4th Level: The carved king's band acts as a [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_+2) (granting skill ranks in Perception).",
+			"4th Level: The carved king's band acts as a [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_2) (granting skill ranks in Perception).",
 			"",
 			"7th Level: Once per day when the wearer attempts a saving throw against a magical glyph, symbol, sigil, or similar written trap, as an immediate action, he can attempt a Spellcraft check against the same DC to dispel the effect.",
 			"",

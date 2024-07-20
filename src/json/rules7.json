@@ -7189,7 +7189,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		],
@@ -7221,7 +7221,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]
@@ -7249,7 +7249,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]
@@ -7275,12 +7275,12 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]
 	},
-	"step_4:set_offers": {
+	"step_4_set_offers": {
 		"name": "Step 4:Set Offers",
 		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -7307,7 +7307,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]
@@ -7337,7 +7337,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]
@@ -7363,7 +7363,7 @@
 			"step_1_seller_sets_the_asking_price",
 			"step_2_evaluate_item",
 			"step_3_determine_undercut",
-			"step_4:set_offers",
+			"step_4_set_offers",
 			"step_5_bargain",
 			"examples_of_bargaining"
 		]

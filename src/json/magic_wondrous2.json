@@ -218,12 +218,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic weapon, creator's caster level must be at least three times the gloves' bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
 	},
-	"gloves_of_improvised_might_+1": {
+	"gloves_of_improvised_might_1": {
 		"name": "Gloves of Improvised Might (+1)",
 		"copyof": "gloves_of_improvised_might"
-	},
-	"gloves_of_improvised_might_1": {
-		"copyof": "gloves_of_improvised_might_+1"
 	},
 	"gauntlets_of_the_skilled_maneuver": {
 		"name": "Gauntlets of the Skilled Maneuver",
@@ -1203,12 +1200,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), message, silence; **Cost** 7,700 gp"
 		]
 	},
-	"gloves_of_improvised_might_+2": {
+	"gloves_of_improvised_might_2": {
 		"name": "Gloves of Improvised Might (+2)",
 		"copyof": "gloves_of_improvised_might"
-	},
-	"gloves_of_improvised_might_2": {
-		"copyof": "gloves_of_improvised_might_+2"
 	},
 	"raven_bracers": {
 		"name": "Raven Bracers",
@@ -1410,12 +1404,9 @@
 	"greater_gauntlet_of_rust": {
 		"copyof": "gauntlet_of_rust_greater"
 	},
-	"gloves_of_improvised_might_+3": {
+	"gloves_of_improvised_might_3": {
 		"name": "Gloves of Improvised Might (+3)",
 		"copyof": "gloves_of_improvised_might"
-	},
-	"gloves_of_improvised_might_3": {
-		"copyof": "gloves_of_improvised_might_+3"
 	},
 	"stormcrusher_gauntlets": {
 		"name": "Stormcrusher Gauntlets",
@@ -1473,12 +1464,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), breath of life, death knell; **Cost** 27,000 gp"
 		]
 	},
-	"gloves_of_improvised_might_+4": {
+	"gloves_of_improvised_might_4": {
 		"name": "Gloves of Improvised Might (+4)",
 		"copyof": "gloves_of_improvised_might"
-	},
-	"gloves_of_improvised_might_4": {
-		"copyof": "gloves_of_improvised_might_+4"
 	},
 	"talons_of_leng": {
 		"name": "Talons of Leng",
@@ -1503,12 +1491,9 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item), greater magic fang, insanity; **Cost** 33,500 gp"
 		]
 	},
-	"gloves_of_improvised_might_+5": {
+	"gloves_of_improvised_might_5": {
 		"name": "Gloves of Improvised Might (+5)",
 		"copyof": "gloves_of_improvised_might"
-	},
-	"gloves_of_improvised_might_5": {
-		"copyof": "gloves_of_improvised_might_+5"
 	},
 	"gauntlets_of_the_weaponmaster": {
 		"name": "Gauntlets of the Weaponmaster",
@@ -4823,7 +4808,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), doom, shrink item; **Cost** 1,800 gp"
 		]
 	},
-	"headband_of_inspired_wisdom_+2": {
+	"headband_of_inspired_wisdom_2": {
 		"name": "Headband of Inspired Wisdom (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4843,10 +4828,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), owl's wisdom; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_inspired_wisdom_2": {
-		"copyof": "headband_of_inspired_wisdom_+2"
-	},
-	"headband_of_vast_intelligence_+2": {
+	"headband_of_vast_intelligence_2": {
 		"name": "Headband of Vast Intelligence (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4866,10 +4848,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fox's cunning; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_vast_intelligence_2": {
-		"copyof": "headband_of_vast_intelligence_+2"
-	},
-	"headband_of_alluring_charisma_+2": {
+	"headband_of_alluring_charisma_2": {
 		"name": "Headband of Alluring Charisma (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4889,9 +4868,6 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_alluring_charisma_2": {
-		"copyof": "headband_of_alluring_charisma_+2"
-	},
 	"imperious_headband": {
 		"name": "Imperious Headband",
 		"sources": [ "Agents of Evil" ],
@@ -4909,7 +4885,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), charm person, sanctuary; **Cost** 2,000 gp"
 		]
 	},
-	"headband_of_aerial_agility_+2": {
+	"headband_of_aerial_agility_2": {
 		"name": "Headband of Aerial Agility (+2)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4928,10 +4904,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, fly; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
 		]
 	},
-	"headband_of_aerial_agility_2": {
-		"copyof": "headband_of_aerial_agility_+2"
-	},
-	"shifter's_headband_+2": {
+	"shifter's_headband_2": {
 		"name": "Shifter's Headband (+2)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4957,9 +4930,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), polymorph self; **Cost** 2,250 gp (+2), 8,750 gp (+4), 19,500 gp (+6)"
 		]
-	},
-	"shifter's_headband_2": {
-		"copyof": "shifter's_headband_+2"
 	},
 	"headband_of_the_tainted_ouroboros": {
 		"name": "Headband of the Tainted Ouroboros",
@@ -5185,7 +5155,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** headband; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"This strange metal [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_+2) is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.",
+			"This strange metal [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_2) is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.",
 			"",
 			"The headband has two special indentations for [ioun stones](magic/wondrous/ioun_stone) similar to those found in a [wayfinder](magic/wondrous/wayfinder). When an ioun stone is inserted into one of the slots, the tentacles animate for a moment, adjusting themselves around the slot to accommodate the shape of the ioun stone. The wearer benefits from the ioun stone's effect as though the stone were orbiting her head.",
 			"",
@@ -5213,7 +5183,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animal trance, hypnotism, speak with animals, [summon nature's ally V](spell/summon_nature's_ally_5); **Cost** 4,500 gp"
 		]
 	},
-	"headband_of_mental_prowess_+2": {
+	"headband_of_mental_prowess_2": {
 		"name": "Headband of Mental Prowess (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5236,9 +5206,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, fox's cunning, owl's wisdom (any two); **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)"
 		]
-	},
-	"headband_of_mental_prowess_2": {
-		"copyof": "headband_of_mental_prowess_+2"
 	},
 	"hunter's_band": {
 		"name": "Hunter's Band",
@@ -5385,7 +5352,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), break enchantment, creator must have the giant subtype; **Cost** 7,500 gp"
 		]
 	},
-	"headband_of_mental_superiority_+2": {
+	"headband_of_mental_superiority_2": {
 		"name": "Headband of Mental Superiority (+2)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5405,36 +5372,21 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, fox's cunning, owl's wisdom; **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)"
 		]
 	},
-	"headband_of_mental_superiority_2": {
-		"copyof": "headband_of_mental_superiority_+2"
-	},
-	"headband_of_vast_intelligence_+4": {
-		"name": "Headband of Vast Intelligence (+4)",
-		"copyof": "headband_of_vast_intelligence_+2"
-	},
 	"headband_of_vast_intelligence_4": {
-		"copyof": "headband_of_vast_intelligence_+4"
-	},
-	"headband_of_inspired_wisdom_+4": {
-		"name": "Headband of Inspired Wisdom (+4)",
-		"copyof": "headband_of_inspired_wisdom_+2"
+		"name": "Headband of Vast Intelligence (+4)",
+		"copyof": "headband_of_vast_intelligence_2"
 	},
 	"headband_of_inspired_wisdom_4": {
-		"copyof": "headband_of_inspired_wisdom_+4"
-	},
-	"headband_of_alluring_charisma_+4": {
-		"name": "Headband of Alluring Charisma (+4)",
-		"copyof": "headband_of_alluring_charisma_+2"
+		"name": "Headband of Inspired Wisdom (+4)",
+		"copyof": "headband_of_inspired_wisdom_2"
 	},
 	"headband_of_alluring_charisma_4": {
-		"copyof": "headband_of_alluring_charisma_+4"
-	},
-	"shifter's_headband_+4": {
-		"name": "Shifter's Headband (+4)",
-		"copyof": "shifter's_headband_+2"
+		"name": "Headband of Alluring Charisma (+4)",
+		"copyof": "headband_of_alluring_charisma_2"
 	},
 	"shifter's_headband_4": {
-		"copyof": "shifter's_headband_+4"
+		"name": "Shifter's Headband (+4)",
+		"copyof": "shifter's_headband_2"
 	},
 	"guerrilla_bandanna": {
 		"name": "Guerrilla Bandanna",
@@ -5633,40 +5585,25 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), dragon's breath (Advanced Player's Guide), resist energy; **Cost** 16,000 gp"
 		]
 	},
-	"headband_of_inspired_wisdom_+6": {
-		"name": "Headband of Inspired Wisdom (+6)",
-		"copyof": "headband_of_inspired_wisdom_+2"
-	},
 	"headband_of_inspired_wisdom_6": {
-		"copyof": "headband_of_inspired_wisdom_+6"
-	},
-	"headband_of_vast_intelligence_+6": {
-		"name": "Headband of Vast Intelligence (+6)",
-		"copyof": "headband_of_vast_intelligence_+2"
+		"name": "Headband of Inspired Wisdom (+6)",
+		"copyof": "headband_of_inspired_wisdom_2"
 	},
 	"headband_of_vast_intelligence_6": {
-		"copyof": "headband_of_vast_intelligence_+6"
-	},
-	"headband_of_alluring_charisma_+6": {
-		"name": "Headband of Alluring Charisma (+6)",
-		"copyof": "headband_of_alluring_charisma_+2"
+		"name": "Headband of Vast Intelligence (+6)",
+		"copyof": "headband_of_vast_intelligence_2"
 	},
 	"headband_of_alluring_charisma_6": {
-		"copyof": "headband_of_alluring_charisma_+6"
-	},
-	"shifter's_headband_+6": {
-		"name": "Shifter's Headband (+6)",
-		"copyof": "shifter's_headband_+2"
+		"name": "Headband of Alluring Charisma (+6)",
+		"copyof": "headband_of_alluring_charisma_2"
 	},
 	"shifter's_headband_6": {
-		"copyof": "shifter's_headband_+6"
-	},
-	"headband_of_mental_prowess_+4": {
-		"name": "Headband of Mental Prowess (+4)",
-		"copyof": "headband_of_mental_prowess_+2"
+		"name": "Shifter's Headband (+6)",
+		"copyof": "shifter's_headband_2"
 	},
 	"headband_of_mental_prowess_4": {
-		"copyof": "headband_of_mental_prowess_+4"
+		"name": "Headband of Mental Prowess (+4)",
+		"copyof": "headband_of_mental_prowess_2"
 	},
 	"headband_of_controlling_illusions_elf": {
 		"name": "Headband of Controlling Illusions (Elf)",
@@ -5709,12 +5646,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unnatural lust; **Cost** 20,000 gp"
 		]
 	},
-	"headband_of_aerial_agility_+4": {
-		"name": "Headband of Aerial Agility (+4)",
-		"copyof": "headband_of_aerial_agility_+2"
-	},
 	"headband_of_aerial_agility_4": {
-		"copyof": "headband_of_aerial_agility_+4"
+		"name": "Headband of Aerial Agility (+4)",
+		"copyof": "headband_of_aerial_agility_2"
 	},
 	"esoteric_diadem_normal": {
 		"name": "Esoteric Diadem (Normal)",
@@ -5730,12 +5664,9 @@
 	"normal_kineticist's_diadem": {
 		"copyof": "kineticist's_diadem_normal"
 	},
-	"headband_of_mental_superiority_+4": {
-		"name": "Headband of Mental Superiority (+4)",
-		"copyof": "headband_of_mental_superiority_+2"
-	},
 	"headband_of_mental_superiority_4": {
-		"copyof": "headband_of_mental_superiority_+4"
+		"name": "Headband of Mental Superiority (+4)",
+		"copyof": "headband_of_mental_superiority_2"
 	},
 	"headband_of_mental_resilience": {
 		"name": "Headband of Mental Resilience",
@@ -5758,19 +5689,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, fox's cunning, lesser restoration, owl's wisdom; **Cost** 32,000 gp"
 		]
 	},
-	"headband_of_aerial_agility_+6": {
-		"name": "Headband of Aerial Agility (+6)",
-		"copyof": "headband_of_aerial_agility_+2"
-	},
 	"headband_of_aerial_agility_6": {
-		"copyof": "headband_of_aerial_agility_+6"
-	},
-	"headband_of_mental_prowess_+6": {
-		"name": "Headband of Mental Prowess (+6)",
-		"copyof": "headband_of_mental_prowess_+2"
+		"name": "Headband of Aerial Agility (+6)",
+		"copyof": "headband_of_aerial_agility_2"
 	},
 	"headband_of_mental_prowess_6": {
-		"copyof": "headband_of_mental_prowess_+6"
+		"name": "Headband of Mental Prowess (+6)",
+		"copyof": "headband_of_mental_prowess_2"
 	},
 	"kineticist's_diadem_greater": {
 		"name": "Kineticist's Diadem (Greater)",
@@ -5786,12 +5711,9 @@
 	"greater_esoteric_diadem": {
 		"copyof": "esoteric_diadem_greater"
 	},
-	"headband_of_mental_superiority_+6": {
-		"name": "Headband of Mental Superiority (+6)",
-		"copyof": "headband_of_mental_superiority_+2"
-	},
 	"headband_of_mental_superiority_6": {
-		"copyof": "headband_of_mental_superiority_+6"
+		"name": "Headband of Mental Superiority (+6)",
+		"copyof": "headband_of_mental_superiority_2"
 	},
 	"headband_of_sealed_thoughts": {
 		"name": "Headband of Sealed Thoughts",
@@ -6274,7 +6196,7 @@
 		"name": "Death's Head Talisman (14 HD)",
 		"copyof": "death's_head_talisman_10_hd"
 	},
-	"amulet_of_bullet_protection_+1": {
+	"amulet_of_bullet_protection_1": {
 		"name": "Amulet of Bullet Protection (+1)",
 		"sources": [
 			"Ultimate Equipment",
@@ -6294,36 +6216,21 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divine favor, creator's caster level must be at least three times the amulet's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 18,750 gp (+5)"
 		]
 	},
-	"amulet_of_bullet_protection_1": {
-		"copyof": "amulet_of_bullet_protection_+1"
-	},
-	"amulet_of_bullet_protection_+2": {
-		"name": "Amulet of Bullet Protection (+2)",
-		"copyof": "amulet_of_bullet_protection_+1"
-	},
 	"amulet_of_bullet_protection_2": {
-		"copyof": "amulet_of_bullet_protection_+2"
-	},
-	"amulet_of_bullet_protection_+3": {
-		"name": "Amulet of Bullet Protection (+3)",
-		"copyof": "amulet_of_bullet_protection_+1"
+		"name": "Amulet of Bullet Protection (+2)",
+		"copyof": "amulet_of_bullet_protection_1"
 	},
 	"amulet_of_bullet_protection_3": {
-		"copyof": "amulet_of_bullet_protection_+3"
-	},
-	"amulet_of_bullet_protection_+4": {
-		"name": "Amulet of Bullet Protection (+4)",
-		"copyof": "amulet_of_bullet_protection_+1"
+		"name": "Amulet of Bullet Protection (+3)",
+		"copyof": "amulet_of_bullet_protection_1"
 	},
 	"amulet_of_bullet_protection_4": {
-		"copyof": "amulet_of_bullet_protection_+4"
-	},
-	"amulet_of_bullet_protection_+5": {
-		"name": "Amulet of Bullet Protection (+5)",
-		"copyof": "amulet_of_bullet_protection_+1"
+		"name": "Amulet of Bullet Protection (+4)",
+		"copyof": "amulet_of_bullet_protection_1"
 	},
 	"amulet_of_bullet_protection_5": {
-		"copyof": "amulet_of_bullet_protection_+5"
+		"name": "Amulet of Bullet Protection (+5)",
+		"copyof": "amulet_of_bullet_protection_1"
 	},
 	"aegis_of_recovery": {
 		"name": "Aegis of Recovery",
@@ -6518,40 +6425,25 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), barkskin, creator's caster level must be at least three times the amulet's bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
 		]
 	},
-	"amulet_of_natural_armor_+1": {
+	"amulet_of_natural_armor_1": {
 		"name": "Amulet of Natural Armor (+1)",
 		"copyof": "amulet_of_natural_armor"
 	},
-	"amulet_of_natural_armor_1": {
-		"copyof": "amulet_of_natural_armor_+1"
-	},
-	"amulet_of_natural_armor_+2": {
+	"amulet_of_natural_armor_2": {
 		"name": "Amulet of Natural Armor (+2)",
 		"copyof": "amulet_of_natural_armor"
 	},
-	"amulet_of_natural_armor_2": {
-		"copyof": "amulet_of_natural_armor_+2"
-	},
-	"amulet_of_natural_armor_+3": {
+	"amulet_of_natural_armor_3": {
 		"name": "Amulet of Natural Armor (+3)",
 		"copyof": "amulet_of_natural_armor"
 	},
-	"amulet_of_natural_armor_3": {
-		"copyof": "amulet_of_natural_armor_+3"
-	},
-	"amulet_of_natural_armor_+4": {
+	"amulet_of_natural_armor_4": {
 		"name": "Amulet of Natural Armor (+4)",
 		"copyof": "amulet_of_natural_armor"
 	},
-	"amulet_of_natural_armor_4": {
-		"copyof": "amulet_of_natural_armor_+4"
-	},
-	"amulet_of_natural_armor_+5": {
+	"amulet_of_natural_armor_5": {
 		"name": "Amulet of Natural Armor (+5)",
 		"copyof": "amulet_of_natural_armor"
-	},
-	"amulet_of_natural_armor_5": {
-		"copyof": "amulet_of_natural_armor_+5"
 	},
 	"brooch_of_blending": {
 		"name": "Brooch of Blending",
@@ -7191,39 +7083,24 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic fang, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
 	},
-	"amulet_of_mighty_fists_+1": {
+	"amulet_of_mighty_fists_1": {
 		"name": "Amulet of Mighty Fists (+1)",
 		"copyof": "amulet_of_mighty_fists"
 	},
-	"amulet_of_mighty_fists_1": {
-		"copyof": "amulet_of_mighty_fists_+1"
-	},
-	"amulet_of_mighty_fists_+2": {
-		"name": "Amulet of Mighty Fists (+2)",
-		"copyof": "amulet_of_mighty_fists_+1"
-	},
 	"amulet_of_mighty_fists_2": {
-		"copyof": "amulet_of_mighty_fists_+2"
-	},
-	"amulet_of_mighty_fists_+3": {
-		"name": "Amulet of Mighty Fists (+3)",
-		"copyof": "amulet_of_mighty_fists_+1"
+		"name": "Amulet of Mighty Fists (+2)",
+		"copyof": "amulet_of_mighty_fists_1"
 	},
 	"amulet_of_mighty_fists_3": {
-		"copyof": "amulet_of_mighty_fists_+3"
-	},
-	"amulet_of_mighty_fists_+4": {
-		"name": "Amulet of Mighty Fists (+4)",
-		"copyof": "amulet_of_mighty_fists_+1"
+		"name": "Amulet of Mighty Fists (+3)",
+		"copyof": "amulet_of_mighty_fists_1"
 	},
 	"amulet_of_mighty_fists_4": {
-		"copyof": "amulet_of_mighty_fists_+4"
-	},
-	"amulet_of_mighty_fists_+5": {
-		"name": "Amulet of Mighty Fists (+5)",
-		"copyof": "amulet_of_mighty_fists_+1"
+		"name": "Amulet of Mighty Fists (+4)",
+		"copyof": "amulet_of_mighty_fists_1"
 	},
 	"amulet_of_mighty_fists_5": {
-		"copyof": "amulet_of_mighty_fists_+5"
+		"name": "Amulet of Mighty Fists (+5)",
+		"copyof": "amulet_of_mighty_fists_1"
 	}
 }

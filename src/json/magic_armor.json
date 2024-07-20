@@ -44,8 +44,8 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), obscuring mist; **Price** 1,250 gp"
 		]
 	},
-	"kiml&eacute;_coat": {
-		"name": "Kiml&eacute; Coat",
+	"kimle_coat": {
+		"name": "Kimle Coat",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Kiml&eacute; Coat",
@@ -60,9 +60,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), water breathing, creator must have 5 ranks in the Swim skill; **Price** 1,230 gp"
 		]
-	},
-	"kimle_coat": {
-		"copyof": "kiml&eacute;_coat"
 	},
 	"grim_gloom_mail": {
 		"name": "Grim Gloom Mail",
