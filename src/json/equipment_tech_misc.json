@@ -27,7 +27,7 @@
 			"",
 			"An access card is a small strip of stiff plastic with a colorcoded stripe on one side. Some access cards are further decorated with names or titles written in Androffan, or even photographs of long-dead crew members. An access card functions as a key-when swiped through an electronic lock (a move action), an access card unlocks any lock of its color code or a color code of a lower rating. Although access cards do not consume energy themselves, they work in only electronic locks that currently have power. Among certain societies in Numeria, access cards are also used as decorations, worn as affectations, and incorporated into ceremonial regalia.",
 			"",
-			"Access cards must be encoded to specific locks before they can function. Often, all of the doors in a complex are keyed to a unique set of cards that don't work on doors found in other complexes, much like a skeleton key might open all the doors in one castle but none in another. Coding an access card for specific locks requires a [lock coder](tech/misc/lock_coder_black). Some access cards could be worth far more than the prices listed above if they're specifically encoded to locks that protect more valuable or significant contents."
+			"Access cards must be encoded to specific locks before they can function. Often, all of the doors in a complex are keyed to a unique set of cards that don't work on doors found in other complexes, much like a skeleton key might open all the doors in one castle but none in another. Coding an access card for specific locks requires a [lock coder](tech-misc/lock_coder_black). Some access cards could be worth far more than the prices listed above if they're specifically encoded to locks that protect more valuable or significant contents."
 		]
 	},
 	"access_card_blue": {
@@ -186,7 +186,7 @@
 			"**Cost** 1,000 gp (black), 36,000 gp (blue), 300 gp (brown), 9,000 gp (gray), 16,000 gp (green), 49,000 gp (orange), 100,000 gp (prismatic), 25,000 gp (red), 4,000 gp (white)  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A lock coder is a bulky device capable of encoding an [access card](tech/misc/access_card_black) with the capability to open specific electronic locks of a rating equal to or lower than its own. The device can also be used to encode an electronic lock to a different color code of access, allowing it to be opened by lower-rated access cards. A lock coder can code any color access equal to or lower than its color. Encoding an access card or an electronic lock requires a successful Disable Device check as if the user were attempting to disable an electronic device. The DC to encode a lock or card to a specific color code is given on the table below (these DCs are equal to the DCs required to use Disable Device to pick the locks). It takes 1 minute to use a lock coder. The user can take 20 on this check if the lock coder isn't timeworn. An [e-pick](tech/misc/e-pick_black) can be used with a lock coder to increase the chance of success; for locks with a higher color rating, an e-pick is all but required even for the most gifted of technicians.",
+			"A lock coder is a bulky device capable of encoding an [access card](tech-misc/access_card_black) with the capability to open specific electronic locks of a rating equal to or lower than its own. The device can also be used to encode an electronic lock to a different color code of access, allowing it to be opened by lower-rated access cards. A lock coder can code any color access equal to or lower than its color. Encoding an access card or an electronic lock requires a successful Disable Device check as if the user were attempting to disable an electronic device. The DC to encode a lock or card to a specific color code is given on the table below (these DCs are equal to the DCs required to use Disable Device to pick the locks). It takes 1 minute to use a lock coder. The user can take 20 on this check if the lock coder isn't timeworn. An [e-pick](tech-misc/e-pick_black) can be used with a lock coder to increase the chance of success; for locks with a higher color rating, an e-pick is all but required even for the most gifted of technicians.",
 			"",
 			"| Color | Encode |",
 			"| --- | --- |",
@@ -297,7 +297,7 @@
 			"**Craft DC** 30; **Cost** 2,500 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a [signal booster](tech/misc/signal_booster) or blocked by a [signal jammer](tech/misc/signal_jammer).",
+			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a [signal booster](tech-misc/signal_booster) or blocked by a [signal jammer](tech-misc/signal_jammer).",
 			"",
 			"### On Signals",
 			"",
@@ -339,7 +339,7 @@
 			"**Craft DC** 23; **Cost** 250 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet- though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a [signal booster](tech/misc/signal_booster).",
+			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet- though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a [signal booster](tech-misc/signal_booster).",
 			"",
 			"### On Signals",
 			"",
@@ -363,7 +363,7 @@
 			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a [grenade launcher](tech/weapon/grenade_launcher). Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-footradius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
+			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a [grenade launcher](tech-weapon/grenade_launcher). Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-footradius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
 			"",
 			"The type of damage dealt by grenades varies widely and depends upon the nature of the specific grenade. The different types of grenades and the damage types they deal (along with any additional effects their damage deals) are listed below.",
 			"",
@@ -622,7 +622,7 @@
 			"",
 			"A clonepod looks like a human-sized capsule with a blue window at head height and a bank of touchsensitive screens and buttons at chest height. A small slot situated below the window can accept genetic material (fingernails, hair clippings, skin samples, and so forth). When genetic material is placed in the slot, the clonepod immediately atomizes the sample and processes the genetic information. At this point, activating the clonepod causes its interior to flood with blue biotic fluid, which is then supersaturated with a combination of proteins, nanites, and other materials. Over the course of the next 12 hours, the clonepod works nonstop to produce an exact replica of the creature from which the genetic material was harvested, as the creature was when the sample was taken. A clonepod can only duplicate a Medium or smaller creature-attempts to clone a larger creature result in a hideous, partially formed monstrosity that heaves and gasps a few times before dying.",
 			"",
-			"The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a [neurocam](tech/misc/neurocam) is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.",
+			"The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a [neurocam](tech-misc/neurocam) is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.",
 			"",
 			"Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a clone spell (including 2 negative levels or 2 points of Constitution drain)-provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a simulacrum).",
 			"",
@@ -927,7 +927,7 @@
 			"",
 			"A neurocam can store only one personality. Once used, it cannot store another even after the contents are uploaded elsewhere. A personality stored in a neurocam is effectively put into stasis-the mind does not age, nor does it gain new experiences or knowledge. It's cut off from the world, and though it experiences strange dreams, it isn't aware of the passage of time. If the neurocam is destroyed, the stored personality vanishes; however, loss of power does not harm a stored personality.",
 			"",
-			"A stored personality can be uploaded only once. It can be uploaded into a blank clone in a [clonepod](tech/misc/clonepod). Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane."
+			"A stored personality can be uploaded only once. It can be uploaded into a blank clone in a [clonepod](tech-misc/clonepod). Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane."
 		]
 	},
 	"nutrient_training_node": {
@@ -989,7 +989,7 @@
 			"**Cost** 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)  ",
 			"Craft Technological Item, at least 10 ranks in skill to be encoded, cybernetics lab",
 			"",
-			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active [skillslot](tech/cybertech/skillslot).",
+			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active [skillslot](tech-cybertech/skillslot).",
 			"",
 			"The magnitude of the bonus granted by a skillchip varies, ranging from a +2 enhancement bonus to a +10 enhancement bonus, as summarized on the following table.",
 			"",
@@ -1231,7 +1231,7 @@
 			"**Cost** 1,500 gp (black), 22,750 gp (blue), 500 gp (brown), 7,000 gp (gray), 11,250 gp (green), 30,000 gp (orange), 38,250 gp (prismatic), 16,500 gp (red), 3,750 gp (white)  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active [tracker chips](tech/misc/tracker_chip) within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a [signal booster](tech/misc/signal_booster) or blocked by a solid enough barrier.",
+			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active [tracker chips](tech-misc/tracker_chip) within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a [signal booster](tech-misc/signal_booster) or blocked by a solid enough barrier.",
 			"",
 			"| Color | Range |",
 			"| --- | --- |",
@@ -1306,7 +1306,7 @@
 			"**Craft DC** 27; **Cost** 3,000 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a [signal booster](tech/misc/signal_booster). The price and cost listed for this item are for a single commset.",
+			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a [signal booster](tech-misc/signal_booster). The price and cost listed for this item are for a single commset.",
 			"",
 			"### On Signals",
 			"",
@@ -1846,7 +1846,7 @@
 			"**Craft DC** 24; **Cost** 4,500 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a [commset](tech/misc/commset) normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
+			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a [commset](tech-misc/commset) normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
 			"",
 			"### On Signals",
 			"",
@@ -1913,7 +1913,7 @@
 			"**Craft DC** 18; **Cost** 10 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as [ion tape](tech/misc/ion_tape)."
+			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as [ion tape](tech-misc/ion_tape)."
 		]
 	}
 }

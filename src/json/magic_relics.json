@@ -63,7 +63,7 @@
 			"",
 			"**First Triumph:** Dignity's Barb is a +1 darkwood light crossbow and reduces miss chances from concealment by 10%. In addition, once per day when the weapon threatens a critical hit, the wielder can roll twice to confirm the critical and take the better result.",
 			"",
-			"**Second Triumph:** Dignity's Barb is a +1 [seeking](magic/enhancement/seeking) darkwood light crossbow.",
+			"**Second Triumph:** Dignity's Barb is a +1 [seeking](magic-enhancement/seeking) darkwood light crossbow.",
 			"",
 			"**Third Triumph:** Dignity's Barb is a +2 seeking darkwood light crossbow. The wielder can use its ability to roll twice to confirm a critical hit twice per day (though he can use it only once on a given critical threat). In addition, the wielder can attempt a lucky shot to foil a ranged attack. Once per day when a ranged weapon attack targets a creature within 30 feet of the wielder, the wielder can shoot Dignity's Barb at the projectile as an immediate action. He rolls a ranged attack, and if the result exceeds the attacker's roll, that attack is negated. This ability can be used only if Dignity's Barb is loaded or if the wielder can use Rapid Reload or a similar ability.",
 			"",
@@ -142,7 +142,7 @@
 			"",
 			"**Task** To be worthy of this relic, you must free at least a dozen enslaved or unjustly imprisoned innocents. For the purpose of this task, an innocent is any creature who was imprisoned without due process or whom you have proven innocent of any crime. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
-			"**Benefit** The weapon gains the [holy](magic/enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
+			"**Benefit** The weapon gains the [holy](magic-enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
 		]
 	},
 	"koriana's_blade": {
@@ -159,7 +159,7 @@
 			"",
 			"When the brave knight-commander Koriana of Zimar fell within the ranks of the Fifth Army of Exploration, her remains were returned home-along with her sundered steel shield. Her brother Tadric, distraught, focused only on creating a fitting legacy for Koriana's daughter. Devoting himself to the study of metalcraft and magical crafting, he eventually turned a shard of his sister's shield into a protective longsword. Though records indicate that Tadric's niece took up the sword and joined the military, her full tale and the blade's fate were lost to history. Rumors that she went into clandestine service for the royal family still circulate.",
 			"",
-			"Koriana's Blade is a +2 [defending](magic/enhancement/defending) longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a [magic missile](spell/magic_missile) spell.",
+			"Koriana's Blade is a +2 [defending](magic-enhancement/defending) longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a [magic missile](spell/magic_missile) spell.",
 			"",
 			"When the wielder transfers at least 1 point of the weapon's enhancement bonus to her AC using the defending special ability, she also chooses one creature other than herself within 10 feet to gain a +1 bonus to AC until the wielder's next turn. This bonus is always +1, regardless of how much of the weapon's bonus the wielder transfers to her AC.",
 			"",
@@ -186,7 +186,7 @@
 			"",
 			"The haft of this stout, ornate metal lance has an intricate pommel resembling a starburst. Affixed to its handle is a decorative counterweight engraved with the image of a Taldan knight kneeling in prayer.",
 			"",
-			"This +2 [glorious](magic/enhancement/glorious) lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
+			"This +2 [glorious](magic-enhancement/glorious) lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
 			"",
 			"### Worthiness",
 			"",
@@ -207,13 +207,13 @@
 			"**Slot** armor; **CL** 15th  ",
 			"**Weight** 50 lbs.",
 			"",
-			"This storied suit of +3 [rallying](magic/enhancement/rallying) full plate was worn by General Ovetrian over the course of many conquests. It was recorded that General Ovetrian wore this armor when he was a part of the Fifth Army of Exploration, where he led a group into the River Kingdoms and places east. Plated in platinum with a slight wave pattern, the armor's surface bears a resemblance to white fur. The armor's visor is fashioned to look like a male lion's maned head, and it is hinged so it can be either worn up or pulled down to protect the face. Stories of the general's battles claim that entire lines of soldiers fled from the general when he rode into battle.",
+			"This storied suit of +3 [rallying](magic-enhancement/rallying) full plate was worn by General Ovetrian over the course of many conquests. It was recorded that General Ovetrian wore this armor when he was a part of the Fifth Army of Exploration, where he led a group into the River Kingdoms and places east. Plated in platinum with a slight wave pattern, the armor's surface bears a resemblance to white fur. The armor's visor is fashioned to look like a male lion's maned head, and it is hinged so it can be either worn up or pulled down to protect the face. Stories of the general's battles claim that entire lines of soldiers fled from the general when he rode into battle.",
 			"",
 			"Once every 10 minutes, the armor's wearer can slam the helm's visor shut as a standard action, exposing the lion-shead design. When he does, he can attempt to demoralize all enemies within 30 feet, and he gains a competence bonus on his Intimidate check equal to the armor's enhancement bonus to AC. Once per day, instead of attempting to demoralize enemies, he can take this action to afflict all creatures within 30 feet with [fear](spell/fear) (DC = 20 + 1 per additional triumph attained).",
 			"",
-			"**First Triumph:** Ovetrian's Plate is +4 [rallying](magic/enhancement/rallying) full plate. A creature demoralized by the armor's ability is frightened for the first round of the effect's duration and is then shaken as normal for the rest of the duration (if any). Three times per day, the wearer of the armor can touch an adjacent ally as a standard action to affect that ally with either [break enchantment](spell/break_enchantment) or [greater heroism](spell/greater_heroism). This ability can't be used more than once every 10 minutes.",
+			"**First Triumph:** Ovetrian's Plate is +4 [rallying](magic-enhancement/rallying) full plate. A creature demoralized by the armor's ability is frightened for the first round of the effect's duration and is then shaken as normal for the rest of the duration (if any). Three times per day, the wearer of the armor can touch an adjacent ally as a standard action to affect that ally with either [break enchantment](spell/break_enchantment) or [greater heroism](spell/greater_heroism). This ability can't be used more than once every 10 minutes.",
 			"",
-			"**Second Triumph:** Ovetrian's Plate is +5 [rallying](magic/enhancement/rallying) full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
+			"**Second Triumph:** Ovetrian's Plate is +5 [rallying](magic-enhancement/rallying) full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
 		]
 	},
 	"scion's_dagger": {
@@ -230,15 +230,15 @@
 			"",
 			"This elegant, jeweled blade looks ornamental, but it is just as vicious as any weapon. A large black sapphire glitters in the dagger's pommel, and the delicate work along the blade's handle shows amazing artistry. The dagger was forged by Grand Prince Penticus IV to protect his son from a deal he struck with strange outsiders-trading his firstborn in order to win the crown. But Penticus V used the blade to take his own life, denying his father's benefactors their prize and securing the throne for his brother, Tralian V.",
 			"",
-			"Scion's Dagger is a +3 [ghost touch](magic/enhancement/ghost_touch_weapon) mithral dagger. As a full-round action, the dagger's owner can designate up to four willing creatures in her presence as her bodyguards. As a standard action, each of these creatures can determine the owner's location and condition, as per status, as long as the owner is holding the blade. The dagger's owner can change the designated bodyguards as a full-round action, with each chosen creature beyond four replacing a prior choice.",
+			"Scion's Dagger is a +3 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. As a full-round action, the dagger's owner can designate up to four willing creatures in her presence as her bodyguards. As a standard action, each of these creatures can determine the owner's location and condition, as per status, as long as the owner is holding the blade. The dagger's owner can change the designated bodyguards as a full-round action, with each chosen creature beyond four replacing a prior choice.",
 			"",
 			"If the owner of Scion's Dagger dies while carrying or wielding the blade, her body evaporates into smoke and her soul transfers into the black sapphire as per [soul bind](spell/soul_bind), except anyone holding the dagger can attempt to raise her as though they has access to her intact body. This effect fails if a soul already occupies the gem. Alternatively, a creature holding the dagger can instead speak a command word to release the trapped soul into the afterlife.",
 			"",
 			"**First Triumph:** Once per day, the dagger's wielder can teleport any number of her bodyguards to her location, as per [teleport](spell/teleport). They must be willing and within 100 miles, and when they arrive, they appear within 20 feet of the dagger's wielder in unoccupied spaces chosen by the GM.",
 			"",
-			"**Second Triumph:** Scion's Dagger is a +4 [ghost touch](magic/enhancement/ghost_touch_weapon) mithral dagger. Once per day as a swift action, the wielder can gain DR 1/- and fast healing 3 for 1 minute.",
+			"**Second Triumph:** Scion's Dagger is a +4 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. Once per day as a swift action, the wielder can gain DR 1/- and fast healing 3 for 1 minute.",
 			"",
-			"**Third Triumph:** Scion's Dagger is a +5 [ghost touch](magic/enhancement/ghost_touch_weapon) mithral dagger. When the wielder hits a humanoid with the dagger, she can activate the dagger as an immediate action to use [dominate person](spell/dominate_person) on the creature (DC 23) with a duration of 1 round. After the domination ends, the target is immune to this effect for 24 hours."
+			"**Third Triumph:** Scion's Dagger is a +5 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. When the wielder hits a humanoid with the dagger, she can activate the dagger as an immediate action to use [dominate person](spell/dominate_person) on the creature (DC 23) with a duration of 1 round. After the domination ends, the target is immune to this effect for 24 hours."
 		]
 	},
 	"standard_of_conquest": {
@@ -311,7 +311,7 @@
 			"",
 			"**Task** To be worthy of this relic, you must earn [Iomedae's](faith/iomedae) blessing by performing a miraculous act of heroic righteousness worthy of inclusion among the Acts of Iomedae, as determined by the GM, and you must perform this act while wearing the relic.",
 			"",
-			"**Benefit** The armor's enhancement bonus increases to +3, it gains the [determination](magic/enhancement/determination) armor special ability, and it gains the [defiant](magic/enhancement/defiant) armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a [dire lion](monster/dire_lion), as [beast shape II](spell/beast_shape_2). This is a spell-like ability that uses the armor's caster level."
+			"**Benefit** The armor's enhancement bonus increases to +3, it gains the [determination](magic-enhancement/determination) armor special ability, and it gains the [defiant](magic-enhancement/defiant) armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a [dire lion](monster/dire_lion), as [beast shape II](spell/beast_shape_2). This is a spell-like ability that uses the armor's caster level."
 		]
 	}
 }

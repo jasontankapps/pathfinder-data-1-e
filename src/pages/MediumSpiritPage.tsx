@@ -16,7 +16,7 @@ const hierarchy1: HierarchyArray = [
 const hierarchy2: HierarchyArray = [
 	["Classes", "main/classes"],
 	["Medium", "class/medium"],
-	["Outer Channeler", "class/archetype/outer_channeler"]
+	["Outer Channeler", "archetype-medium/outer_channeler"]
 ];
 
 const spirits = {...base_spirits, ...legendary_spirits, ...outsider_spirits};

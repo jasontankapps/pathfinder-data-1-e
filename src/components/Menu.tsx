@@ -33,7 +33,7 @@ const appPages: AppPage[] = [
 		title: "Pathfinder Rules",
 		url: "/main/rules",
 		icon: "/icons/read.svg",
-		prefix: "rule umr corruption disease trap drug haunt madness curse"
+		prefix: "rule umr corruption disease trap drug haunt madness curse infestation"
 	},
 	{
 		title: "Races",

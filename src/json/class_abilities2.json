@@ -1096,7 +1096,7 @@
 			"**Source** [Familiar Folio](source/familiar_folio), [Ultimate Magic](source/ultimate_magic)  ",
 			"While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more unusual creatures during their travels, which impart certain rules effects that should be considered at the table.",
 			"",
-			"Small familiars threaten the areas around them like other Small creatures, and can be used to flank enemies, though both familiars and their masters are generally loath to employ such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars; some form of magic item, like a [bag of holding](magic/wondrous/bag_of_holding_type_1), is usually required.",
+			"Small familiars threaten the areas around them like other Small creatures, and can be used to flank enemies, though both familiars and their masters are generally loath to employ such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars; some form of magic item, like a [bag of holding](magic-wondrous/bag_of_holding_type_1), is usually required.",
 			"",
 			"Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait if they had it. If such familiars lack a language, they communicate with their masters and other creatures of their kind (greensting scorpions with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents or pheromones. Other types of creatures can't understand this communication without magical aid.",
 			"",
@@ -1233,7 +1233,7 @@
 			"",
 			"**Fast Healing** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist's flesh responds to damage with shocking speed-he gains fast healing 5.",
 			"",
-			"**Philosopher's Stone** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist learns how to create a [philosopher's stone](magic/artifact/philosopher's_stone), and can do so once per month at no cost. Creating a philosopher's stone takes 1 day of work.",
+			"**Philosopher's Stone** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist learns how to create a [philosopher's stone](magic-artifact/philosopher's_stone), and can do so once per month at no cost. Creating a philosopher's stone takes 1 day of work.",
 			"",
 			"**Poison Touch** (*[Advanced Player's Guide](source/advanced_player's_guide)*): The alchemist gains a poisonous touch, as if under the effects of a [poison](spell/poison) spell. He can suppress or activate this ability as a free action. The physical appearance of how the alchemist generates and delivers his poisonous touch varies from alchemist to alchemist.",
 			"",
@@ -1685,7 +1685,7 @@
 			"",
 			"**Throat Jab (Ex)** ([Ultimate Intrigue pg. 16](source/ultimate_intrigue)): The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
 		],
-		"subhierarchy": [[ "Vigilante", "class/vigilante" ], [ "Stalker", "archetype/vigilante/stalker" ]]
+		"subhierarchy": [[ "Vigilante", "class/vigilante" ], [ "Stalker", "archetype-vigilante/stalker" ]]
 	},
 	"implements": {
 		"name": "Implements",

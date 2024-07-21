@@ -1782,7 +1782,7 @@
 			"",
 			"**Runeslave Poison:** Poisoningested; save Fort DC 20; frequency 1/round for 6 rounds; effect confusion for 1 round and 1d4 Wisdom drain (if this results in the giant's Wisdom being drained to 0, the giant immediately transforms into a runeslave); cure 3 consecutive saves; cost 10,000 gp.",
 			"",
-			"**Runeslave Cauldron:** Brought forth from Gastash, the domain of gluttony, these [massive cauldrons](magic/artifact/runeslave_cauldron) were large enough to fit an adult stone giant and infused with necromantic energies. Any giant placed in a cauldron and then slain is immediately resurrected as a runeslave."
+			"**Runeslave Cauldron:** Brought forth from Gastash, the domain of gluttony, these [massive cauldrons](magic-artifact/runeslave_cauldron) were large enough to fit an adult stone giant and infused with necromantic energies. Any giant placed in a cauldron and then slain is immediately resurrected as a runeslave."
 		]
 	},
 	"runewarped_creature": {
@@ -2195,7 +2195,7 @@
 			"",
 			"When druids are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds-an incursion of demons from the Abyss, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world-some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others-particularly other druids, whom they regard as cowards. Siabraes do not form spontaneously; they arise only as the result of the horrific [Welcome the Blighted Soul](spell/welcome_the_blighted_soul) ritual.",
 			"",
-			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the [welcome the blighted soul](spell/welcome_the_blighted_soul) ritual (hereafter referred to as the base creature). A siabrae can't have the [blight druid](archetype/druid/blight_druid) archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
+			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the [welcome the blighted soul](spell/welcome_the_blighted_soul) ritual (hereafter referred to as the base creature). A siabrae can't have the [blight druid](archetype-druid/blight_druid) archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
 			"",
 			"**CR:** Base creature's CR + 2.",
 			"",
@@ -3782,7 +3782,7 @@
 			"",
 			"**Cursed Zombie:** Created as the result of a powerful curse rather than through necromantic spells, cursed zombies can bestow a curse upon their victims. A cursed zombie gains the curse special attack, delivered with its slam attack. Zombie curse (Su) slam; save Will DC = 10 + 1/2 the zombie's Hit Dice + the zombie's Cha modifier; frequency -; effect as [bestow curse](spell/bestow_curse); cure -. (CR +1)",
 			"",
-			"**Gasburst Zombie:** These bloated zombies are filled with toxic gas. When a gasburst zombie dies, it explodes in a cloud of noxious vapors which fill a 10-foot cube surrounding the zombie. Gasburst zombies are commonly filled with [burnt othur fumes](equipment/poison/burnt_othur_fumes) or [ungol dust](equipment/poison/ungol_dust), but any poisonous gas may be used. Gas burst zombies have DR 5/ piercing instead of DR 5/slashing. (CR depends on poison used, usually +1)",
+			"**Gasburst Zombie:** These bloated zombies are filled with toxic gas. When a gasburst zombie dies, it explodes in a cloud of noxious vapors which fill a 10-foot cube surrounding the zombie. Gasburst zombies are commonly filled with [burnt othur fumes](equipment-poison/burnt_othur_fumes) or [ungol dust](equipment-poison/ungol_dust), but any poisonous gas may be used. Gas burst zombies have DR 5/ piercing instead of DR 5/slashing. (CR depends on poison used, usually +1)",
 			"",
 			"**Host Corpse:** This skeleton or zombie has been infested with a swarm of vermin or Tiny undead creatures that it releases from its body. Skeletal hosts often hold [carrionstorms](unknown/carrionstorms) or bat swarms in their rib cages, while zombie hosts frequently carry locusts or [flesh-eating cockroach swarms](monster/flesh-eating_cockroach_swarms) inside their rotting husks. Acid, bloody, and burning skeletons cannot be host corpses. (CR +0, with the swarm's CR counting as a separate creature)",
 			"",

@@ -939,7 +939,7 @@
 			"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways. Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.",
 			"",
 			"**Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.  ",
-			"**Magnimar:** Gain one random [Varisian idol](equipment/misc/varisian_idol).  ",
+			"**Magnimar:** Gain one random [Varisian idol](equipment-misc/varisian_idol).  ",
 			"**Riddleport:** Gain a +1 trait bonus on Swim checks."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
@@ -8567,7 +8567,7 @@
 			"",
 			"**Armor:** Leather armor, light wooden shield.  ",
 			"**Weapons:** Shortspear, sling with 10 bullets.  ",
-			"**Combat Gear:** Antitoxin, bead of blessing (as a [lesser strand of prayer beads](magic/wondrous/lesser_strand_of_prayer_beads) without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
+			"**Combat Gear:** Antitoxin, bead of blessing (as a [lesser strand of prayer beads](magic-wondrous/lesser_strand_of_prayer_beads) without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, healer's kit, holy symbol (silver), ioun torch, mess kit, mirror, sack, shovel, silk rope (50 ft.), smelling salts, soap, spell component pouch, trail rations (5 days), waterskin, 4 sp.  ",
 			"**Total Weight:** 67 lbs. (39-1/4 lbs. for a Small character).",
 			"",

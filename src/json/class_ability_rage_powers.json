@@ -1677,7 +1677,7 @@
 		"description": [
 			"## Infernal Blood, Lesser (Su)",
 			"",
-			"While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the [flaming](magic/enhancement/flaming) magic weapon special ability."
+			"While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the [flaming](magic-enhancement/flaming) magic weapon special ability."
 		]
 	},
 	"undead_blood": {
@@ -1686,7 +1686,7 @@
 		"description": [
 			"## Undead Blood (Su)",
 			"",
-			"While raging, all of the barbarian's melee attacks are treated as if they were made with a weapon with the [ghost touch](magic/enhancement/ghost_touch_weapon) weapon special ability."
+			"While raging, all of the barbarian's melee attacks are treated as if they were made with a weapon with the [ghost touch](magic-enhancement/ghost_touch_weapon) weapon special ability."
 		]
 	},
 	"greater_undead_blood": {

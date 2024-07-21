@@ -1,4 +1,4 @@
-module.exports = {
+const x = {
   root: true,
   env: {
     node: true
@@ -15,3 +15,4 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   }
 }
+export default x;

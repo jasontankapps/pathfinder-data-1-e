@@ -1,0 +1,39 @@
+{
+	"ability": {
+		"arcane_school": [
+			["Main", "main/main"],
+			["Classes", "main/classes"],
+			["Wizard", "class/wizard"]
+		]
+	},
+	"arcaneschool": [
+		["Main", "main/main"],
+		["Classes", "main/classes"],
+		["Wizard", "class/wizard"],
+		["Arcane Schools", "ability/arcane_schools"]
+	],
+	"curse": [
+		["Main", "main/main"],
+		["Rules", "main/rules"],
+		["Combat", "rule/combat"],
+		["Special Abilities", "rule/special_abilities_2"],
+		["Afflictions", "rule/afflictions"],
+		["Curses", "rule/curses"]
+	],
+	"disease": [
+		["Main", "main/main"],
+		["Rules", "main/rules"],
+		["Combat", "rule/combat"],
+		["Special Abilities", "rule/special_abilities_2"],
+		["Afflictions", "rule/afflictions"],
+		["Diseases", "rule/diseases"]
+	],
+	"infestation": [
+		["Main", "main/main"],
+		["Rules", "main/rules"],
+		["Combat", "rule/combat"],
+		["Special Abilities", "rule/special_abilities_2"],
+		["Afflictions", "rule/afflictions"],
+		["Infestations", "rule/infestations"]
+	]
+}

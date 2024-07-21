@@ -260,7 +260,7 @@
 			"## X-Ray Vision (Su) [Mythic]",
 			"",
 			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
-			"The monster can see through solid matter as if wearing a [ring of x-ray vision](magic/ring/ring_of_x-ray_vision). This is as exhausting as if the monster were actually using the ring.",
+			"The monster can see through solid matter as if wearing a [ring of x-ray vision](magic-ring/ring_of_x-ray_vision). This is as exhausting as if the monster were actually using the ring.",
 			"",
 			"**Format:** x-ray vision  ",
 			"**Location:** Senses."
@@ -1171,7 +1171,7 @@
 			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 81](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
 			"An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25. Ushers share the following traits and have the [psychopomp](subtype/psychopomp) subtype unless otherwise noted.",
 			"",
-			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the [ghost touch](magic/enhancement/ghost_touch_weapon) special ability for the purpose of overcoming damage resistance and immunities.",
+			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the [ghost touch](magic-enhancement/ghost_touch_weapon) special ability for the purpose of overcoming damage resistance and immunities.",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
 			"- Frightful Presence (Su): An usher can activate its frightful presence as a free action as part of any attack, special attack, spell-like ability, or by speaking aloud.",
 			"- Summon Psychopomps (Su): Three times per day as a swift action, an usher can summon a psychopomp or combination of psychopomps whose total combined CR is 20 or lower. This otherwise functions like the [summon](umr/summon) universal monster rule with 100% chance of success, and it counts as a 9th-level spell effect.",
@@ -1206,7 +1206,7 @@
 			"## Spells",
 			"",
 			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
-			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic/wondrous/incense_of_meditation) or a [pearl of power](magic/wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](unknown/cleric_domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
+			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](unknown/cleric_domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
 	"freeze": {
@@ -1428,7 +1428,7 @@
 			"## Fortification (Ex)",
 			"",
 			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
-			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic/enhancement/moderate_fortification) armor.",
+			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic-enhancement/moderate_fortification) armor.",
 			"",
 			"**Format:** fortification (50%)  ",
 			"**Location:** Defensive Abilities."

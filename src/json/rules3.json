@@ -294,7 +294,7 @@
 			"",
 			"**Dealing Maximum Damage:** Whenever a combatant deals maximum damage with a damage roll (weapon or spell, but not including sneak attack or other variable precision damage), she can make a performance combat check as a swift action. She gains a penalty or bonus on this check based on the type of weapon or spell she uses. Light weapons take a -4 penalty on the check, one-handed weapons grant neither a bonus or a penalty, and two-handed or exotic weapons grant a +2 circumstance bonus on the check. Spells grant a bonus on the performance combat check equal to half their spell level.",
 			"",
-			"**Energy Spells and Effects:** Crowds tend to respond to flashy spells and effects. If a combatant casts a spell or produces an effect that deals acid, cold, fire, electricity, force, or sonic damage in a visible way (including weapons with special abilities like [flaming burst](magic/enhancement/flaming_burst) or [shocking burst](magic/enhancement/shocking_burst) that deal bursts of energy damage on critical hits), she can make a performance combat check as a swift action.",
+			"**Energy Spells and Effects:** Crowds tend to respond to flashy spells and effects. If a combatant casts a spell or produces an effect that deals acid, cold, fire, electricity, force, or sonic damage in a visible way (including weapons with special abilities like [flaming burst](magic-enhancement/flaming_burst) or [shocking burst](magic-enhancement/shocking_burst) that deal bursts of energy damage on critical hits), she can make a performance combat check as a swift action.",
 			"",
 			"**Feint:** If a combatant successfully feints against an enemy, she can make a performance combat check as a swift action.",
 			"",
@@ -3045,21 +3045,21 @@
 			"",
 			"For every 5,000 gp of an anathematic substance used, the caster gains a +1 bonus on the opposed Charisma check to bargain with the outsider. This destroys the substance.",
 			"",
-			"**Anarchic:** Infused with the power of chaos, [anarchic](magic/enhancement/anarchic) weapons are anathema to many lawful outsiders, even those who are not specifically vulnerable to the weapons.",
+			"**Anarchic:** Infused with the power of chaos, [anarchic](magic-enhancement/anarchic) weapons are anathema to many lawful outsiders, even those who are not specifically vulnerable to the weapons.",
 			"",
-			"**Axiomatic:** Empowered by law, [axiomatic](magic/enhancement/axiomatic) weapons are harmful to chaotic outsiders, dealing extra damage even if the outsider is not particularly vulnerable to its effect.",
+			"**Axiomatic:** Empowered by law, [axiomatic](magic-enhancement/axiomatic) weapons are harmful to chaotic outsiders, dealing extra damage even if the outsider is not particularly vulnerable to its effect.",
 			"",
 			"**Alchemical Silver:** While a weapon made of alchemical silver reduces damage by 1, with a minimum of 1 point of damage, it may be more effective than other weapons against certain outsiders. It has 10 hit points per inch of thickness and hardness 8.",
 			"",
 			"**Cold Iron:** Effective against daemons, demons, and fey, cold iron has been drawn from deep beneath forbidding mountains and forged with the least heat possible. Because of the delicacy and difficulty of the process, a weapon made of cold iron costs twice as much to make, and every magical enhancement increases its price significantly. It has 30 hit points per inch of thickness and hardness 10.",
 			"",
-			"**Holy:** A [holy](magic/enhancement/holy) weapon is any weapon imbued with holy power, which allows it to bypass damage reduction for specific evil creatures and inflict an additional 2d6 points of damage on those monsters. Evil outsiders that do not have a specific vulnerability to holy weapons still take that additional damage if the weapon overcomes the creature's damage reduction.",
+			"**Holy:** A [holy](magic-enhancement/holy) weapon is any weapon imbued with holy power, which allows it to bypass damage reduction for specific evil creatures and inflict an additional 2d6 points of damage on those monsters. Evil outsiders that do not have a specific vulnerability to holy weapons still take that additional damage if the weapon overcomes the creature's damage reduction.",
 			"",
 			"**Mithral:** Most outsiders react to mithral in the same way that they do to actual silver.",
 			"",
 			"**Silver:** Long revered for its purity and ability to harm lycanthropes and devils, silver is also used to trap certain kinds of good outsiders.",
 			"",
-			"**Unholy:** The opposite of the holy weapon, an [unholy](magic/enhancement/unholy) weapon inflicts its damage on good-aligned outsiders, but is in other respects the same."
+			"**Unholy:** The opposite of the holy weapon, an [unholy](magic-enhancement/unholy) weapon inflicts its damage on good-aligned outsiders, but is in other respects the same."
 		],
 		"parent_topics": [
 			"magic",
@@ -4749,20 +4749,20 @@
 			"| --- | --- | --- | --- |",
 			"| Alchemical | Ability scores, saves | Antitoxin | - |",
 			"| Armor | AC | [Bracers of armor](unknown/bracers_of_armor) | [Mage armor](spell/mage_armor) |",
-			"| Circumstance | Attacks, checks | [Robe of blending](magic/wondrous/robe_of_blending) | - |",
-			"| Competence | Attacks, checks, saves | [Boots of elvenkind](magic/wondrous/boots_of_elvenkind) | [Guidance](spell/guidance) |",
+			"| Circumstance | Attacks, checks | [Robe of blending](magic-wondrous/robe_of_blending) | - |",
+			"| Competence | Attacks, checks, saves | [Boots of elvenkind](magic-wondrous/boots_of_elvenkind) | [Guidance](spell/guidance) |",
 			"| Deflection | AC | [Ring of protection](unknown/ring_of_protection) | - |",
 			"| Dodge | AC | Never&ast; | Never&ast; |",
-			"| Enhancement | Ability scores, AC, attacks, damage, speed | [Belt of giant strength](magic/wondrous/belt_of_giant_strength_2) | [Magic weapon](spell/magic_weapon) |",
+			"| Enhancement | Ability scores, AC, attacks, damage, speed | [Belt of giant strength](magic-wondrous/belt_of_giant_strength_2) | [Magic weapon](spell/magic_weapon) |",
 			"| Inherent | Ability scores | [Manual of bodily health](unknown/manual_of_bodily_health) | [Wish](spell/wish) |",
-			"| Insight | AC, attacks, checks, saves | [Dusty rose prism ioun stone](magic/ioun/dusty_rose_prism) | [True strike](spell/true_strike) |",
+			"| Insight | AC, attacks, checks, saves | [Dusty rose prism ioun stone](magic-ioun/dusty_rose_prism) | [True strike](spell/true_strike) |",
 			"| Luck | AC, attacks, checks, damage, saves | [Stone of good luck](unknown/stone_of_good_luck) | [Divine favor](spell/divine_favor) |",
-			"| Morale | Attacks, checks, damage, saves, Str, Con, Dex | [Candle of invocation](magic/wondrous/candle_of_invocation) | [Bless](spell/bless) |",
-			"| Natural armor | AC | [Amulet of natural armor](magic/wondrous/amulet_of_natural_armor) | [Barkskin](spell/barkskin) |",
+			"| Morale | Attacks, checks, damage, saves, Str, Con, Dex | [Candle of invocation](magic-wondrous/candle_of_invocation) | [Bless](spell/bless) |",
+			"| Natural armor | AC | [Amulet of natural armor](magic-wondrous/amulet_of_natural_armor) | [Barkskin](spell/barkskin) |",
 			"| Profane | AC, checks, damage, DCs, saves | - | [Desecrate](spell/desecrate) |",
 			"| Resistance | Saves | [Cloak of resistance](unknown/cloak_of_resistance) | [Mind blank](spell/mind_blank) |",
 			"| Sacred | AC, checks, damage, DCs, saves | - | [Consecrate](spell/consecrate) |",
-			"| Shield | AC | [Ring of force shield](magic/ring/ring_of_force_shield) | [Shield](spell/shield) |",
+			"| Shield | AC | [Ring of force shield](magic-ring/ring_of_force_shield) | [Shield](spell/shield) |",
 			"| Size | Ability scores, attacks, AC | - | [Enlarge person](spell/enlarge_person) |",
 			"",
 			"&ast; Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game."
@@ -5523,13 +5523,13 @@
 			"",
 			"**Cybernetics Lab (100 charges):** A cybernetics lab is used to craft cybernetic equipment and devices that interface directly with a living creature's biology.",
 			"",
-			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech/weapon/gravity_rifle), [force fields](tech/misc/force_field_black), and [magboots](tech/misc/magboots).",
+			"**Graviton Lab (250 charges):** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech-weapon/gravity_rifle), [force fields](tech-misc/force_field_black), and [magboots](tech-misc/magboots).",
 			"",
-			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](tech/misc/trauma_pack) and [medlances](tech/misc/medlance) and pharmaceuticals.",
+			"**Medical Lab (20 charges):** This lab is used to craft medical items like [trauma packs](tech-misc/trauma_pack) and [medlances](tech-misc/medlance) and pharmaceuticals.",
 			"",
 			"**Military Lab (100 charges):** A military lab is used to craft weapons that don't require more specialized laboratories.",
 			"",
-			"**Nanotech Lab (150 charges):** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](tech/weapon/id_rifle).",
+			"**Nanotech Lab (150 charges):** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](tech-weapon/id_rifle).",
 			"",
 			"**Production Lab (50 charges):** A production lab is used to craft objects that don't require more specialized laboratories."
 		],
@@ -5549,9 +5549,9 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"Items with both magical and technological components, such as the [null blade](tech/weapon/null_blade), use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for [magic item creation](rule/magic_item_creation). The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
+			"Items with both magical and technological components, such as the [null blade](tech-weapon/null_blade), use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for [magic item creation](rule/magic_item_creation). The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
 			"",
-			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](tech/weapon/laser_rifle), a +4 [dancing](magic/enhancement/dancing) humanoid [bane](magic/enhancement/bane) [chainsaw](tech/weapon/chainsaw), or a +1 [ghost touch](magic/enhancement/ghost_touch) [spacesuit](tech/armor/spacesuit). In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](tech/weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
+			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](tech-weapon/laser_rifle), a +4 [dancing](magic-enhancement/dancing) humanoid [bane](magic-enhancement/bane) [chainsaw](tech-weapon/chainsaw), or a +1 [ghost touch](magic-enhancement/ghost_touch) [spacesuit](tech-armor/spacesuit). In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](tech-weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -5568,7 +5568,7 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jetpacks](tech/misc/jetpack) function like [winged boots](magic/wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
+			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jetpacks](tech-misc/jetpack) function like [winged boots](magic-wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -5720,14 +5720,14 @@
 			"**Type** mechanical and technological; **Perception DC** 20; **Disable Device** DC 28",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** automatic (1 round)  ",
-			"**Effect** Atk +10 ranged touch (2d6 fire), range increment 150 ft. (see [laser pistol](tech/weapon/laser_pistol) for rules on lasers)",
+			"**Effect** Atk +10 ranged touch (2d6 fire), range increment 150 ft. (see [laser pistol](tech-weapon/laser_pistol) for rules on lasers)",
 			"",
 			"### Proximity Mine",
 			"#### CR 5",
 			"**Type** genetic, proximity **Perception DC** 28; **Disable Device** DC 20",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** none  ",
-			"**Effect** one [grenade](tech/misc/grenade_bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
+			"**Effect** one [grenade](tech-misc/grenade_bang_grenade) worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
 			"",
 			"### Electrified Door",
 			"#### CR 11",
@@ -5843,7 +5843,7 @@
 			"| 63-68 | A random number of creatures not to exceed the event's CR become confused unless they succeed at a Will save (DC = 10 + CR). For each affected creature, this effect persists until that creature's confusion effect results in \"act normally,\" at which point the effect ends for the creature. This is a mind-affecting effect. |",
 			"| 69-74 | A storm of energy (with an equal chances of being acid, cold, electricity, or fire) sweeps through the area in a CR &times; 5-foot radius spread. Each round, the storm inflicts 2 hit points of damage per CR; a Reflex save (DC 10 + CR) halves the damage done. The storm persists for CR rounds. |",
 			"| 75-78 | Strange telekinetic forces rip through the area, attempting to trip all creatures in a CR &times; 10 foot radius. The event makes a trip combat maneuver check against all available targets, using a CMB of 10 + CR. Any creature tripped by the event has its equipment reorganized and tangled by the mischievous telekinesis. Until a creature takes a minute to reorganize its belongings, retrieving a stowed item is a full-round action. |",
-			"| 79-88 | Choose two random creatures in the area, then randomly pick one to be the \"wielder\" and one to be the \"target.\" Roll on the [rod of wonder](magic/rod/rod_of_wonder) table to determine what sort of strange effect occurs between these two creatures. |",
+			"| 79-88 | Choose two random creatures in the area, then randomly pick one to be the \"wielder\" and one to be the \"target.\" Roll on the [rod of wonder](magic-rod/rod_of_wonder) table to determine what sort of strange effect occurs between these two creatures. |",
 			"| 89-94 | A teleportation storm occurs. All creatures in the area must make a Will saving throw (DC = 10 + CR). Those who fail are teleported, as if via dimension door, so that they randomly shift places. If this places a creature in an area too small to accept its space, it instead appears in the closest adjacent space that can contain it. If only one creature is affected, it teleports a number of feet equal to CR &times; 5 in a random direction. |",
 			"| 95-98 | A [magic jar](spell/magic_jar)-like effect affects two creatures. A Will save (DC = 10 + CR) negates the effect. If one creature fails this save but the other succeeds, the creature that fails the save is merely stunned for 1d4 rounds. If both creatures fail the save, their minds are switched into each other's bodies for a number of rounds equal to the event's CR. |",
 			"| 99-100 | Roll twice, discounting results of 99-100. Both events generated by these rolls occur simultaneously. |",
@@ -5921,7 +5921,7 @@
 		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort. Land-dwelling creatures generally have a sinking buoyancy unless they are carrying a substantial amount of low-density gear (like wooden items, at least until they become waterlogged) and little or no high-density gear (such as items made from metal or stone). [Air tanks](equipment/misc/air_tank) in particular make it much easier to change your buoyancy to rising. It's also possible to adjust an air tank to hold just enough air to achieve a neutral buoyancy-but once a creature has done so, if it picks up other objects or uses the tank to breathe underwater, it loses its neutral buoyancy until it readjusts (which may require returning to the surface to refill the air tank). In addition to these three normal states of buoyancy, there are two extreme states: swiftly sinking and swiftly rising. If a creature is swiftly sinking, it and its gear are so dense that it can walk on the bottom of the body of water, but it also needs to succeed at a DC 20 Swim check to swim towards the surface or to stay off the bottom. A creature carrying plenty of dense stone or metal items gains this buoyancy state. If a creature is swiftly rising, it needs to succeed at a DC 20 Swim check to submerge itself and stay submerged; a sizable air tank or other flotation device, or the help of magic, is needed to achieve this state.",
+			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort. Land-dwelling creatures generally have a sinking buoyancy unless they are carrying a substantial amount of low-density gear (like wooden items, at least until they become waterlogged) and little or no high-density gear (such as items made from metal or stone). [Air tanks](equipment-misc/air_tank) in particular make it much easier to change your buoyancy to rising. It's also possible to adjust an air tank to hold just enough air to achieve a neutral buoyancy-but once a creature has done so, if it picks up other objects or uses the tank to breathe underwater, it loses its neutral buoyancy until it readjusts (which may require returning to the surface to refill the air tank). In addition to these three normal states of buoyancy, there are two extreme states: swiftly sinking and swiftly rising. If a creature is swiftly sinking, it and its gear are so dense that it can walk on the bottom of the body of water, but it also needs to succeed at a DC 20 Swim check to swim towards the surface or to stay off the bottom. A creature carrying plenty of dense stone or metal items gains this buoyancy state. If a creature is swiftly rising, it needs to succeed at a DC 20 Swim check to submerge itself and stay submerged; a sizable air tank or other flotation device, or the help of magic, is needed to achieve this state.",
 			"",
 			"**Aquatic and Water Creatures:** Most naturally aquatic creatures (those with the aquatic subtype) have some form of air bladder or other organ that allows them to adjust their buoyancy on the fly, enabling them to maintain neutral buoyancy as a free action on their turn (unless they are carrying something large with particularly high or low density), and creatures with the water subtype naturally have the same buoyancy as water.",
 			"",
@@ -6111,7 +6111,7 @@
 			"",
 			"Once a creature has used up these rounds of safety, it lives on a knife's edge between life and death. Each round, the creature must succeed at a Constitution check, with a DC starting at 10 and increasing by 1 each round after the first. Once it fails this check, the creature begins to drown, falling unconscious (and dropping to 0 hit points if it currently had more), dropping to -1 hit points on the next round, and dying on the round after that. At any point, if the creature becomes able to breathe (perhaps because someone dragged it out of the water or cast a spell to assist it), it ceases drowning but doesn't regain any lost hit points. Note that if a creature holds its breath in a situation where it could normally breathe, it won't fall unconscious if it fails its Constitution check.",
 			"",
-			"Because of the prohibitive limitations of holding one's breath, underwater explorers from the surface use a variety of techniques to extend their ability to breathe underwater. The most common is [water breathing](spell/water_breathing), which is extremely long-lasting and can protect an entire group with one casting. A simpler, short-term solution is [air bubble](spell/air_bubble), which can protect a single creature for a few minutes-but not usually enough for an underwater adventure. The most powerful option is [life bubble](spell/life_bubble); while its duration is half that of water breathing, it also protects against many other underwater hazards such as extreme temperature and pressure. Those who prefer a mundane alternative to ephemeral (and dispellable) magic tend to use [air tanks](equipment/misc/air_tank) to store additional air, but characters hoping to stay underwater find that carrying around more than a few extra breaths of air sets their buoyancy to swiftly rising, almost like wearing a giant life preserver, so this solution is effective only for a strong swimmer or someone with access to magic to alter buoyancy."
+			"Because of the prohibitive limitations of holding one's breath, underwater explorers from the surface use a variety of techniques to extend their ability to breathe underwater. The most common is [water breathing](spell/water_breathing), which is extremely long-lasting and can protect an entire group with one casting. A simpler, short-term solution is [air bubble](spell/air_bubble), which can protect a single creature for a few minutes-but not usually enough for an underwater adventure. The most powerful option is [life bubble](spell/life_bubble); while its duration is half that of water breathing, it also protects against many other underwater hazards such as extreme temperature and pressure. Those who prefer a mundane alternative to ephemeral (and dispellable) magic tend to use [air tanks](equipment-misc/air_tank) to store additional air, but characters hoping to stay underwater find that carrying around more than a few extra breaths of air sets their buoyancy to swiftly rising, almost like wearing a giant life preserver, so this solution is effective only for a strong swimmer or someone with access to magic to alter buoyancy."
 		],
 		"parent_topics": [
 			"gamemastering",

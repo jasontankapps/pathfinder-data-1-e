@@ -4815,7 +4815,7 @@
 			"",
 			"This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the fatigued condition from -2 to -1 for 1 hour.",
 			"",
-			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a [coffee pot](equipment/misc/coffee_pot)."
+			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a [coffee pot](equipment-misc/coffee_pot)."
 		]
 	},
 	"coffee_pot": {
@@ -4827,7 +4827,7 @@
 			"**Price** 3 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This tall, teapotlike device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 [cups of coffee](equipment/misc/coffee_cup) at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
+			"This tall, teapotlike device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 [cups of coffee](equipment-misc/coffee_cup) at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
 		]
 	},
 	"coffin_common": {

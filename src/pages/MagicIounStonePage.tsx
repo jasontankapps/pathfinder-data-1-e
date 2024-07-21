@@ -9,7 +9,7 @@ const hierarchy: HierarchyArray = [
 	["Main", "main/main"],
 	["Magic Items", "main/magic"],
 	["Wondrous Items", "main/magic_wondrous"],
-	["Ioun Stone", "magic/wondrous/ioun_stone"]
+	["Ioun Stone", "magic-wondrous/ioun_stone"]
 ];
 
 type Data = typeof magic;

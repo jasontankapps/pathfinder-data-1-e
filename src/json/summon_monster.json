@@ -1067,11 +1067,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Aeon)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic-ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1081,11 +1081,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Agathion)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic-ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1095,11 +1095,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Angel)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic-ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1109,11 +1109,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Archon)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic-ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1123,11 +1123,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Asura)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic-ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1137,11 +1137,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1151,11 +1151,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1165,11 +1165,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Inevitable)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic-ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1179,11 +1179,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Kyton)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic-ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1193,11 +1193,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Protean)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic-ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1207,11 +1207,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Psychopomp)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic-ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1221,11 +1221,11 @@
 	"summon_monster_iii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster III: Ring of Summoning Affinity (Qlippoth)",
 		"spell": "Summon Monster III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic-ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1715,11 +1715,11 @@
 	"summon_monster_iv_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster IV: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster IV",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -1729,11 +1729,11 @@
 	"summon_monster_iv_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster IV: Ring of Summoning Affinity (Psychopomp)",
 		"spell": "Summon Monster IV",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic-ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2241,11 +2241,11 @@
 	"summon_monster_v_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster V: Ring of Summoning Affinity (Agathion)",
 		"spell": "Summon Monster V",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic-ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2255,11 +2255,11 @@
 	"summon_monster_v_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster V: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster V",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2719,11 +2719,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Aeon)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic-ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2733,11 +2733,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Archon)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic-ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2747,11 +2747,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Asura)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic-ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2761,11 +2761,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2775,11 +2775,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2789,11 +2789,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Protean)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic-ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2803,11 +2803,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Psychopomp)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic-ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -2817,11 +2817,11 @@
 	"summon_monster_vi_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VI: Ring of Summoning Affinity (Qlippoth)",
 		"spell": "Summon Monster VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic-ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3228,11 +3228,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Agathion)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic-ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3242,11 +3242,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Angel)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic-ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3256,11 +3256,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_archon": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Archon)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Archon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Archon)](magic-ring/ring_of_summoning_affinity_archon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3270,11 +3270,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Asura)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic-ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3284,11 +3284,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3299,11 +3299,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3313,11 +3313,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Inevitable)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic-ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3327,11 +3327,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Kyton)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic-ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3341,11 +3341,11 @@
 	"summon_monster_vii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VII: Ring of Summoning Affinity (Qlippoth)",
 		"spell": "Summon Monster VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic-ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3708,11 +3708,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_agathion": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Agathion)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Agathion)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+			"## Magic Ring: [Ring of Summoning Affinity (Agathion)](magic-ring/ring_of_summoning_affinity_agathion)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3722,11 +3722,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_angel": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Angel)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Angel)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+			"## Magic Ring: [Ring of Summoning Affinity (Angel)](magic-ring/ring_of_summoning_affinity_angel)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3736,11 +3736,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_asura": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Asura)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Asura)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+			"## Magic Ring: [Ring of Summoning Affinity (Asura)](magic-ring/ring_of_summoning_affinity_asura)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3750,11 +3750,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3765,11 +3765,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3779,11 +3779,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Inevitable)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic-ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -3793,11 +3793,11 @@
 	"summon_monster_viii_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster VIII: Ring of Summoning Affinity (Qlippoth)",
 		"spell": "Summon Monster VIII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic-ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4037,11 +4037,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_aeon": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Aeon)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Aeon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Aeon)](magic-ring/ring_of_summoning_affinity_aeon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4051,11 +4051,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_daemon": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Daemon)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+			"## Magic Ring: [Ring of Summoning Affinity (Daemon)](magic-ring/ring_of_summoning_affinity_daemon)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4065,11 +4065,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_div": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Div)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Div)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+			"## Magic Ring: [Ring of Summoning Affinity (Div)](magic-ring/ring_of_summoning_affinity_div)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4079,11 +4079,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_inevitable": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Inevitable)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Inevitable)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+			"## Magic Ring: [Ring of Summoning Affinity (Inevitable)](magic-ring/ring_of_summoning_affinity_inevitable)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4093,11 +4093,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_kyton": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Kyton)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Kyton)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+			"## Magic Ring: [Ring of Summoning Affinity (Kyton)](magic-ring/ring_of_summoning_affinity_kyton)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4107,11 +4107,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_protean": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Protean)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Protean)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+			"## Magic Ring: [Ring of Summoning Affinity (Protean)](magic-ring/ring_of_summoning_affinity_protean)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4121,11 +4121,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_psychopomp": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Psychopomp)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Psychopomp)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+			"## Magic Ring: [Ring of Summoning Affinity (Psychopomp)](magic-ring/ring_of_summoning_affinity_psychopomp)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4135,11 +4135,11 @@
 	"summon_monster_ix_ring_of_summoning_affinity_qlippoth": {
 		"name": "Summon Monster IX: Ring of Summoning Affinity (Qlippoth)",
 		"spell": "Summon Monster IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Summoning Affinity (Qlippoth)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+			"## Magic Ring: [Ring of Summoning Affinity (Qlippoth)](magic-ring/ring_of_summoning_affinity_qlippoth)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4314,11 +4314,11 @@
 	"summon_nature's_ally_i_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally I: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally I",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic-ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4550,11 +4550,11 @@
 	"summon_nature's_ally_ii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally II: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally II",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic-ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4792,11 +4792,11 @@
 	"summon_nature's_ally_iii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic-ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -4806,11 +4806,11 @@
 	"summon_nature's_ally_iii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally III",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic-ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5020,11 +5020,11 @@
 	"summon_nature's_ally_iv_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally IV",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic-ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5035,11 +5035,11 @@
 	"summon_nature's_ally_iv_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally IV",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Leshy)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+			"## Magic Ring: [Ring of Natural Attunement (Leshy)](magic-ring/ring_of_natural_attunement_leshy)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5292,11 +5292,11 @@
 	"summon_nature's_ally_v_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally V",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic-ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5306,11 +5306,11 @@
 	"summon_nature's_ally_v_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally V",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic-ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5503,11 +5503,11 @@
 	"summon_nature's_ally_vi_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally VI: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally VI",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic-ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5752,11 +5752,11 @@
 	"summon_nature's_ally_vii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally VII: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally VII",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic-ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -5988,11 +5988,11 @@
 	"summon_nature's_ally_ix_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Drake)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+			"## Magic Ring: [Ring of Natural Attunement (Drake)](magic-ring/ring_of_natural_attunement_drake)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",
@@ -6002,11 +6002,11 @@
 	"summon_nature's_ally_ix_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally IX",
-		"type": "magic/ring",
+		"type": "magic-ring",
 		"grantor": "Ring of Natural Attunement (Kami)",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+			"## Magic Ring: [Ring of Natural Attunement (Kami)](magic-ring/ring_of_natural_attunement_kami)",
 			"",
 			"**Sources** [Advanced Class Guide](source/advanced_class_guide)",
 			"",

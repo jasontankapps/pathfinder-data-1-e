@@ -1334,7 +1334,7 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [etherealness](spell/etherealness); **Price** +3 bonus",
 			"",
-			"See also: [ghost touch weapon enhancement](magic/enhancement/ghost_touch_weapon)"
+			"See also: [ghost touch weapon enhancement](magic-enhancement/ghost_touch_weapon)"
 		]
 	},
 	"ghost_touch": {
@@ -3099,7 +3099,7 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** -",
 			"",
-			"See also: [ghost touch armor enhancement](magic/enhancement/ghost_touch_armor)"
+			"See also: [ghost touch armor enhancement](magic-enhancement/ghost_touch_armor)"
 		]
 	},
 	"grayflame": {

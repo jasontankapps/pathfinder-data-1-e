@@ -200,7 +200,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This unique [ioun stone](magic/wondrous/ioun_stone) is infused with powerful positive energy. In order to destroy it, the stone must be cast into the Negative Energy Plane, where it can be shattered after floating through the entropy for at least 1 week."
+			"This unique [ioun stone](magic-wondrous/ioun_stone) is infused with powerful positive energy. In order to destroy it, the stone must be cast into the Negative Energy Plane, where it can be shattered after floating through the entropy for at least 1 week."
 		]
 	},
 	"argental_font": {
@@ -1040,7 +1040,7 @@
 			"",
 			"### Destruction",
 			"",
-			"A fetoring maw can be destroyed by first immersing it in a mixture of [holy water](equipment/weapon/holy_water) blessed by a priest of a deity with the [Healing](domain/healing) domain and [antitoxin](equipment/misc/antitoxin), in equal parts. For 1 minute after being immersed, the fetoring maw is weakened; if dealt at least 10 points of damage in a single blow with a bludgeoning magic weapon, the artifact shatters and any fog sphere it has created dissipates harmlessly."
+			"A fetoring maw can be destroyed by first immersing it in a mixture of [holy water](equipment-weapon/holy_water) blessed by a priest of a deity with the [Healing](domain/healing) domain and [antitoxin](equipment-misc/antitoxin), in equal parts. For 1 minute after being immersed, the fetoring maw is weakened; if dealt at least 10 points of damage in a single blow with a bludgeoning magic weapon, the artifact shatters and any fog sphere it has created dissipates harmlessly."
 		]
 	},
 	"final_blade": {
@@ -1339,7 +1339,7 @@
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** head; **Price** -; **Weight** 3 lbs.",
 			"",
-			"This helm masks the wearer's face and functions as a [helm of telepathy](magic/wondrous/helm_of_telepathy) combined with an [amulet of proof against detection and location](magic/wondrous/amulet_of_proof_against_detection_and_location). The wearer can cast [disguise self](spell/disguise_self) at will and benefits from [discern lies](spell/discern_lies) and [true seeing](spell/true_seeing) at all times. The helm provides complete protection from all gaze attacks and all forms of mental control. The helm also interfaces with illusory effects, allowing the wearer to see and hear through certain illusions as though those illusions acted as scrying sensors. The helm is currently attuned to numerous projection pads depicting Jazradan's programmed image, scattered throughout the ruins of Azlant.",
+			"This helm masks the wearer's face and functions as a [helm of telepathy](magic-wondrous/helm_of_telepathy) combined with an [amulet of proof against detection and location](magic-wondrous/amulet_of_proof_against_detection_and_location). The wearer can cast [disguise self](spell/disguise_self) at will and benefits from [discern lies](spell/discern_lies) and [true seeing](spell/true_seeing) at all times. The helm provides complete protection from all gaze attacks and all forms of mental control. The helm also interfaces with illusory effects, allowing the wearer to see and hear through certain illusions as though those illusions acted as scrying sensors. The helm is currently attuned to numerous projection pads depicting Jazradan's programmed image, scattered throughout the ruins of Azlant.",
 			"",
 			"Once per day as a swift action, the wearer of the helm of governance can utter the Azlanti word for \"stop,\" which causes a [time stop](spell/time_stop) effect. Similarly, up to three times per day as a swift action, the wearer can say \"insufficient\" in Azlanti, which targets a creature within 300 feet with [greater dispel magic](spell/greater_dispel_magic).",
 			"",
@@ -1474,7 +1474,7 @@
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
-			"In addition to serving as a vessel for Auberon's soul, the jaundiced skull ioun stone is a potent artifact with two protections against detection. First, when active, the [ioun stone](magic/wondrous/ioun_stone) is invisible as it orbits the bearer's head. Secondly, the jaundiced skull ioun stone is immune to divination effects.",
+			"In addition to serving as a vessel for Auberon's soul, the jaundiced skull ioun stone is a potent artifact with two protections against detection. First, when active, the [ioun stone](magic-wondrous/ioun_stone) is invisible as it orbits the bearer's head. Secondly, the jaundiced skull ioun stone is immune to divination effects.",
 			"",
 			"If a [lich](template/lich) activates this ioun stone, it can use its paralyzing touch as a ranged touch attack to a distance of 60 feet. In addition, if the lich whose soul is stored within the jaundiced skull ioun stone is slain and someone else takes possession of the artifact, the rate at which the lich rejuvenates is accelerated, as the ioun stone begins sapping the life force from its current bearer. The stone's bearer quickly rots, taking 1 point of Constitution drain initially and every hour thereafter while it is activated unless the bearer succeeds at a DC 25 Fortitude save. The creature bearing the ioun stone receives a new saving throw each time it would be subjected to Constitution drain. As long as the ioun stone has dealt at least 1 point of Constitution drain, the deterioration assists in the reformation of the lich's body, reducing the time required for rejuvenation to 1d10 hours instead of the normal 1d10 days.",
 			"",
@@ -1846,7 +1846,7 @@
 			"",
 			"This thick, syrupy, deep purple elixir contains within it the ability to infuse a drinker with a tiny fragment of a dead demon lord's mythic power. So potent is this elixir that it must be stored in a magically reinforced cold iron flask capped with a mixture of lead and demon ichor-the flask itself is essentially a wondrous magic item that does nothing else and costs 8,000 gp to craft. Even then, the elixir's essence fills a 10-foot-radius area with unholy energies that sicken all living creatures (this is a poison effect with no saving throw). If the flask is opened, this radius expands to 30 feet. A thin sheet of lead, 1 inch of common metal, or 1 foot of stone blocks this effect. Once the flask is opened, the elixir must be imbibed within 1 minute; re-capping the elixir at this point doesn't reset or pause this countdown. If the elixir has not been imbibed in that time, the energy within explodes in a 30-foot-radius burst that deals 15d6 points of unholy damage (Will DC 25 half) to all creatures in the area of effect, destroying the elixir.",
 			"",
-			"If a creature drinks a Nahyndrian elixir, it must succeed at a DC 25 Fortitude save or take 4d6 points of Constitution drain (demons automatically succeed). If a non-mythic chaotic evil creature succeeds, it undergoes mythic ascension-gaining either the first tier in a mythic path or a mythic rank, at the GM's discretion. A chaotic evil creature that is already mythic treats a Nahyndrian elixir as [nectar of the gods](magic/wondrous/nectar_of_the_gods).",
+			"If a creature drinks a Nahyndrian elixir, it must succeed at a DC 25 Fortitude save or take 4d6 points of Constitution drain (demons automatically succeed). If a non-mythic chaotic evil creature succeeds, it undergoes mythic ascension-gaining either the first tier in a mythic path or a mythic rank, at the GM's discretion. A chaotic evil creature that is already mythic treats a Nahyndrian elixir as [nectar of the gods](magic-wondrous/nectar_of_the_gods).",
 			"",
 			"Nahyndrian elixirs have the same strange immunity to teleportation effects as Nahyndrian crystals.",
 			"",
@@ -2299,7 +2299,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic-wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		]
 	},
 	"raven's_head": {
@@ -2792,7 +2792,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic-wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		]
 	},
 	"spear_of_shards": {
@@ -2838,7 +2838,7 @@
 			"",
 			"If a control check fails, the sphere slides 10 feet in the direction of the character attempting to move it. If two or more creatures vie for control of a sphere of annihilation, the rolls are opposed. If none are successful, the sphere slips toward the one who rolled lowest.",
 			"",
-			"See also [talisman of the sphere](magic/artifact/talisman_of_the_sphere).",
+			"See also [talisman of the sphere](magic-artifact/talisman_of_the_sphere).",
 			"",
 			"### Destruction",
 			"",
@@ -3046,7 +3046,7 @@
 			"",
 			"Among the varied items crafted by the earliest Storm Kindlers were these potent rods. Very few Storm Kindler's rods have been recovered, and today's Storm Kindlers suspect that many of these potent magical rods have been lost forever, for when they are wielded by those not of the Storm Kindler sect, they grow fragile. The current generation of Storm Kindlers have been unsuccessful in determining how their predecessors created these powerful minor artifacts, making the discovery of existing Storm Kindler's rods all the more important to the society.",
 			"",
-			"A Storm Kindler's rod acts as a +4 [shocking burst](magic/enhancement/shocking_burst) [spell storing](magic/enhancement/spell_storing) club, but its spell storing capabilities can store only druid spells. While carried in one hand, the rod grants its wielder immunity to cold and electricity. The rod's other powers are as follows. ",
+			"A Storm Kindler's rod acts as a +4 [shocking burst](magic-enhancement/shocking_burst) [spell storing](magic-enhancement/spell_storing) club, but its spell storing capabilities can store only druid spells. While carried in one hand, the rod grants its wielder immunity to cold and electricity. The rod's other powers are as follows. ",
 			"",
 			"- Invoke Lightning: Up to three times per day as a swift action, the wielder can call down a stroke of lightning from the skies. This functions as [flame strike](spell/flame_strike), save that the damage dealt is half electricity and half from divine power.",
 			"- Summon Lightning Elemental: Once per day as a standard action, the wielder can summon an [elder lightning elemental](monster/elder_lightning_elemental), 1d3 [greater lightning elementals](unknown/greater_lightning_elementals), or 1d4+1 [huge lightning elementals](unknown/huge_lightning_elementals). This functions as per [summon monster VIII](spell/summon_monster_8), except that it requires a standard action instead of a full round.",
@@ -3175,7 +3175,7 @@
 			"",
 			"A talisman of reluctant wishes appears the same as a stone of controlling earth elementals, a rugged rock that seems to pulse with an inner power. Its powers are quite different, however, and are dependent on the Charisma of the holder. Any character touching a talisman of reluctant wishes must make a DC 15 Charisma check.",
 			"",
-			"If the check fails, the talisman acts as a [stone of weight](magic/wondrous/stone_of_weight_loadstone). Discarding it results in 5d6 points of damage to the character and the disappearance of the talisman.",
+			"If the check fails, the talisman acts as a [stone of weight](magic-wondrous/stone_of_weight_loadstone). Discarding it results in 5d6 points of damage to the character and the disappearance of the talisman.",
 			"",
 			"If the check succeeds, the talisman remains with the character for 5d6 hours, or until a wish is made with it, whichever comes first. It then disappears.",
 			"",
@@ -3706,7 +3706,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic-wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		]
 	},
 	"void_crystal": {
@@ -3981,7 +3981,7 @@
 			"**Aura** strong evocation [evil]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 12 lbs.",
 			"",
-			"Alaznist's Hateful Ranseur is a +3 [keen](magic/enhancement/keen) [spell-storing](unknown/spell-storing) [wounding](magic/enhancement/wounding) adamantine ranseur that bears a charred human skull-a representation of Runelord Alderpash-impaled upon its blade, though this does not impede its use as a weapon. The ranseur grants the wielder a +2 luck bonus on attacks, saves, and ability and skill checks. On a critical hit, Alaznist's Hateful Ranseur deals 1d4 points of damage to the target's Charisma, Intelligence, or Wisdom-whichever score is the highest. The weapon tirelessly threatens destruction and vengeance upon any wielder who is not a rightful ruler of Bakrakhan, given its purpose of defeating all others than its wielder. The ranseur can cast [cure serious wounds](spell/cure_serious_wounds) and [protection from energy](spell/protection_from_energy) on its wielder each three times per day, and it can cast [lightning bolt](spell/lightning_bolt) three times per day.",
+			"Alaznist's Hateful Ranseur is a +3 [keen](magic-enhancement/keen) [spell-storing](unknown/spell-storing) [wounding](magic-enhancement/wounding) adamantine ranseur that bears a charred human skull-a representation of Runelord Alderpash-impaled upon its blade, though this does not impede its use as a weapon. The ranseur grants the wielder a +2 luck bonus on attacks, saves, and ability and skill checks. On a critical hit, Alaznist's Hateful Ranseur deals 1d4 points of damage to the target's Charisma, Intelligence, or Wisdom-whichever score is the highest. The weapon tirelessly threatens destruction and vengeance upon any wielder who is not a rightful ruler of Bakrakhan, given its purpose of defeating all others than its wielder. The ranseur can cast [cure serious wounds](spell/cure_serious_wounds) and [protection from energy](spell/protection_from_energy) on its wielder each three times per day, and it can cast [lightning bolt](spell/lightning_bolt) three times per day.",
 			"",
 			"### Destruction",
 			"",

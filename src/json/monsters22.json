@@ -2153,7 +2153,7 @@
 			"",
 			"### Construction",
 			"",
-			"While many secrets of Azlanti technology have been recovered from the depths of time, expert golemcrafters have yet to reverse engineer the means of building a smoke sentinel and tether. Current theories postulate that unique [ioun stones](magic/wondrous/ioun_stone) must be utilized in the creation process, though what shape or color these ioun stones need to take remains a mystery."
+			"While many secrets of Azlanti technology have been recovered from the depths of time, expert golemcrafters have yet to reverse engineer the means of building a smoke sentinel and tether. Current theories postulate that unique [ioun stones](magic-wondrous/ioun_stone) must be utilized in the creation process, though what shape or color these ioun stones need to take remains a mystery."
 		]
 	},
 	"smokeshade": {
@@ -3357,7 +3357,7 @@
 			"",
 			"**Site Bound (Ex)** A soulpierced cannot travel more than 100 feet from where it was created.",
 			"",
-			"**Soulpiercing Blade (Su)** A soulpierced's spirit is anchored in place by the blade through its heart. While this blade is in place, the soulpierced cannot be restored to life by any means other than direct intervention of a deity. This blade is also the source of the soulpierced's rejuvenation ability. Although a soulpierced is incorporeal, a corporeal creature can remove the blade as though it had the [ghost touch](magic/enhancement/ghost_touch_weapon) magic weapon special ability. Removing the blade requires a successful disarm or steal combat maneuver made as a full-round action. As a free action, a creature removing the blade must succeed at a DC 35 Knowledge (arcana) or Knowledge (religion) check to recite an appropriate prayer; otherwise, the blade isn't removed, even if the combat maneuver was successful. The blade disintegrates once removed, and the creature that removed it must succeed at a DC 29 Fortitude save or incur 2d4 negative levels. The save DC is Charisma-based.",
+			"**Soulpiercing Blade (Su)** A soulpierced's spirit is anchored in place by the blade through its heart. While this blade is in place, the soulpierced cannot be restored to life by any means other than direct intervention of a deity. This blade is also the source of the soulpierced's rejuvenation ability. Although a soulpierced is incorporeal, a corporeal creature can remove the blade as though it had the [ghost touch](magic-enhancement/ghost_touch_weapon) magic weapon special ability. Removing the blade requires a successful disarm or steal combat maneuver made as a full-round action. As a free action, a creature removing the blade must succeed at a DC 35 Knowledge (arcana) or Knowledge (religion) check to recite an appropriate prayer; otherwise, the blade isn't removed, even if the combat maneuver was successful. The blade disintegrates once removed, and the creature that removed it must succeed at a DC 29 Fortitude save or incur 2d4 negative levels. The save DC is Charisma-based.",
 			"",
 			"#### Description",
 			"",
@@ -5590,7 +5590,7 @@
 			"",
 			"**Dreamwarden (Su)** Any sleeping creature within 30 feet of a star monarch is protected by protection from evil and sanctuary (Will DC 15 negates). The save DC is Constitution-based.",
 			"",
-			"**Glowsap (Ex)** As a standard action, a star monarch can spray a target within 30 feet with an adhesive spittle as a ranged touch attack. A creature struck is affected as a [tanglefoot bag](equipment/weapon/tanglefoot_bag) (Reflex DC 20 partial). In addition, this adhesive glows under starlight or moonlight, limning the target as faerie fire if used outdoors at night. The save DC is Constitution-based.",
+			"**Glowsap (Ex)** As a standard action, a star monarch can spray a target within 30 feet with an adhesive spittle as a ranged touch attack. A creature struck is affected as a [tanglefoot bag](equipment-weapon/tanglefoot_bag) (Reflex DC 20 partial). In addition, this adhesive glows under starlight or moonlight, limning the target as faerie fire if used outdoors at night. The save DC is Constitution-based.",
 			"",
 			"**Navigational Awareness (Ex)** Star monarchs never become lost and are immune to maze spells or any effect that would cause them to lose their sense of direction.",
 			"",

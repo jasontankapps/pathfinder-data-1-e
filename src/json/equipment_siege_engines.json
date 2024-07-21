@@ -67,7 +67,7 @@
 			"## Defoliant Shot",
 			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen,_hold_of_the_orc_hordes)",
 			"",
-			"When used as ammunition in a catapult or trebuchet, this ceramic canister releases a mist of [defoliant](equipment/misc/defoliant) on impact. When it hits the target square, it deals 2d6 points of damage to any creature in that space. Plant creatures within 30 feet of the target square take an additional 4d6 points of damage. A successful DC 20 Fortitude saving throw halves this additional damage. Plant creatures within 5 feet of the target space that fail their saving throws also take 1d4 points of Strength damage and 1d4 points of Constitution damage. The defoliant also kills vegetation within 30 feet of the target square as described in Ultimate Equipment.",
+			"When used as ammunition in a catapult or trebuchet, this ceramic canister releases a mist of [defoliant](equipment-misc/defoliant) on impact. When it hits the target square, it deals 2d6 points of damage to any creature in that space. Plant creatures within 30 feet of the target square take an additional 4d6 points of damage. A successful DC 20 Fortitude saving throw halves this additional damage. Plant creatures within 5 feet of the target space that fail their saving throws also take 1d4 points of Strength damage and 1d4 points of Constitution damage. The defoliant also kills vegetation within 30 feet of the target square as described in Ultimate Equipment.",
 			"",
 			"On a siege engine mishap, this ammunition explodes before it's launched, dealing its damage to the siege engine and all nearby plant creatures as if one of the spaces of the siege engine (crew leader's choice) were the target square.",
 			"",
@@ -136,7 +136,7 @@
 			"## Smoke shot",
 			"**Source** [Ultimate Combat pg. 164](source/ultimate_combat)",
 			"",
-			"This hard ceramic sphere contains two alchemical substances separated by a thin barrier, much like a [smoke pellet](equipment/misc/smoke_pellet) in larger form, usable by cannons and fiend's mouth cannons. When it hits the targeting space, it deals 2d6 points of damage to any creature in that space, and the substances mingle and then create an area of foul but harmless yellow smoke radiating 30 feet from the target square. Treat the effect as a [fog cloud](spell/fog_cloud) spell. On a siege engine mishap, the ammunition explodes before it is launched. Its effect is centered on one of the spaces of the siege engine (crew leader's choice).",
+			"This hard ceramic sphere contains two alchemical substances separated by a thin barrier, much like a [smoke pellet](equipment-misc/smoke_pellet) in larger form, usable by cannons and fiend's mouth cannons. When it hits the targeting space, it deals 2d6 points of damage to any creature in that space, and the substances mingle and then create an area of foul but harmless yellow smoke radiating 30 feet from the target square. Treat the effect as a [fog cloud](spell/fog_cloud) spell. On a siege engine mishap, the ammunition explodes before it is launched. Its effect is centered on one of the spaces of the siege engine (crew leader's choice).",
 			"",
 			"**Cost** 250 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
