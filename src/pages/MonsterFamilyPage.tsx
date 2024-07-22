@@ -5,7 +5,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-interface FamilyProps {
+export interface FamilyProps {
 	name: string,
 	description: string[],
 	sources: SourceProp[],
@@ -35,7 +35,7 @@ type Data = typeof families;
 
 type Params = { id?: keyof Data };
 
-const BlessingPage: React.FC = () => {
+const MonsterFamilyPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
@@ -64,4 +64,4 @@ const BlessingPage: React.FC = () => {
 	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
 };
 
-export default BlessingPage;
+export default MonsterFamilyPage;

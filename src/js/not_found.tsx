@@ -1,4 +1,5 @@
-const x = {
+import { X } from './t';
+const x: X = {
 	"name": "Unknown",
 	"sources": [],
 	"description": [

@@ -58,6 +58,14 @@ export interface JsonRulesProps<Name> {
 	tables?: Table[]
 }
 
+export interface BasicItem {
+	name: string
+	description: string[]
+	tables?: Table[]
+	sources: SourceProp[]
+	subhierarchy?: HierarchyArray
+}
+
 // NUMERIC RANGE
 //Source: https://stackoverflow.com/questions/76658139/typescript-intrange-which-supports-negative-values
 

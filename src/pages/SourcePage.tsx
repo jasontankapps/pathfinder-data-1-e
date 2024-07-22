@@ -4,7 +4,7 @@ import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-interface SourceProps {
+export interface SourceProps {
 	title: string
 	url: string
 	unknown?: boolean
