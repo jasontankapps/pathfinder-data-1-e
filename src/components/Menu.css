@@ -1,5 +1,5 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: var(--ion-item-background, var(--ion-background-color));
 }
 
 ion-menu ion-content {
@@ -24,7 +24,14 @@ ion-menu ion-list-header {
 
 ion-menu ion-list-header,
 ion-menu ion-list ion-item.endSection {
-  border-block-end: 1px solid var(--ion-color-step-150, #d7d8da);
+  border-block-end: 1px solid var(--ion-color-step-150);
+}
+
+ion-menu hr {
+  border-color: var(--ion-color-step-150);
+  border-width: 0;
+  border-top-width: 1px;
+  border-style: solid;
 }
 
 ion-menu ion-list ion-item.endSection {
@@ -51,7 +58,7 @@ ion-menu ion-item.selected ion-icon {
 }
 
 ion-menu ion-item ion-icon {
-  color: #616e7e;
+  color: var(--ion-color-step-350);
 }
 
 ion-menu ion-item ion-label {

@@ -4,6 +4,11 @@ body {
 	--ion-font-family: Taviraj, "Noto Sans", "Crimson Text", "Playfair Display", Roboto;
 }
 
+li {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
 ion-content {
 	position: relative;
 }
@@ -138,6 +143,8 @@ table tr td {
 	border-inline-end: var(--tableborder);
 	text-align: center;
 	vertical-align: middle;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
 }
 table tr td {
 	text-align: var(--alignment);

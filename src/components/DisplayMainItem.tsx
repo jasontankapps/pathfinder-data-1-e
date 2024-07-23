@@ -10,7 +10,7 @@ import { IonItem, IonItemDivider, IonLabel, IonRippleEffect } from '@ionic/react
 export interface DisplayMainItemProps {
 	description: (string | string[])[]
 	tables?: Table[]
-	singleTable?: string
+	singleTable?: boolean
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -68,7 +68,7 @@ const doLink = (props: MDaProps) => {
 
 const table = (props: MDtProps) => {
 	const { children } = props;
-	return <div className="tableWrap">{children}</div>;
+	return <div className="tableWrap"><table>{children}</table></div>;
 };
 
 const td = (props: MDpProps) => {

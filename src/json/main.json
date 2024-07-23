@@ -119,14 +119,25 @@
 	"skills": {
 		"title": "Skills",
 		"description": [
-			["Skills represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically."],
-			["{table0}"]
+			[
+				"Skills represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically.",
+				"",
+				"For more information on skill descriptions, [read this](rule/skill_descriptions)."
+			],
+			[
+				"- **TO:** This skill is *\"trained only\"*; you must have at least 1 rank in this skill in order to use it.",
+				"- **ACP:** Your armor may impose an *armor check penalty* while using this skill.",
+				"- **BS:** This is considered a *background skill* in the [alternate skill rules](rule/background_skills) in *Pathfinder Unchained*.",
+				"- **UN:** This is an [optional skill](rule/new_skills) introduced in *Pathfinder Unchained*.",
+				"",
+				"{table0}"
+			]
 		],
 		"searchgroup": "rule",
 		"tables": [
 			{
 				"id": "skills table",
-				"headers": [ "Skill", "Stat", "Trained Only?", "Armor Check Penalty?", "Background Skill?", "Unchained?", "Description" ],
+				"headers": [ "Skill", "Stat", "TO", "ACP", "BS", "UN", "Description" ],
 				"types": [ null, null, null, null, null, null, 0 ],
 				"data": [
 					[ "[Acrobatics](skill/acrobatics)", "DEX", null, "X", null, null, "You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip, jump, and roll to avoid attacks and overcome obstacles." ],

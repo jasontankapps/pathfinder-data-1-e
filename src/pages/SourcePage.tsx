@@ -46,9 +46,8 @@ const SourcePage: React.FC = () => {
 				</>
 			) : (
 				<>
-					<h1>Note</h1>
-					<h2>This link leads to an external site.</h2>
-					<p><b>{title}</b> : <a href={url}>{url}</a></p>
+					<p><strong>Please note:</strong> This link leads to an external site.</p>
+					<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
 				</>
 			)}
 		</BasicPage>

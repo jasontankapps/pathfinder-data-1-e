@@ -50,7 +50,7 @@ const p = (props: MDpProps, tables: Table[]) => {
 
 const table = (props: MDtProps) => {
 	const { children } = props;
-	return <div className="tableWrap">{children}</div>;
+	return <div className="tableWrap"><table>{children}</table></div>;
 };
 
 const td = (props: MDpProps) => {

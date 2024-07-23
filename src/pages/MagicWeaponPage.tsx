@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import data from '../json/_data_magic_weapon.json';
+import data from '../json/_data_magic-weapon.json';
 import Loading from '../Loading';
 import './Page.css';
 

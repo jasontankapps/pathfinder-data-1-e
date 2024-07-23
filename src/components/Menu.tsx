@@ -13,21 +13,24 @@ import { useLocation } from 'react-router-dom';
 import './Menu.css';
 
 interface AppPage {
-	url: string
-	title: string
-	icon: string
+	url?: string
+	title?: string
+	icon?: string
 	className?: string
 	prefix?: string
 	equals?: string
 	newSection?: boolean
+	hr?: boolean
 }
 
 const appPages: AppPage[] = [
 	{
 		title: "Cheatsheet",
 		url: "/main/cheatsheet",
-		icon: shieldCheckmark,
-		className: "endSection"
+		icon: shieldCheckmark
+	},
+	{
+		hr: true
 	},
 	{
 		title: "Pathfinder Rules",
@@ -93,16 +96,16 @@ const appPages: AppPage[] = [
 		title: "Monsters and NPCs",
 		url: "/main/monsters",
 		icon: "/icons/croc-jaws.svg",
-		prefix: "monster template family npc type subtype",
-		className: "endSection"
+		prefix: "monster template family npc type subtype"
+	},
+	{
+		hr: true
 	},
 	{
 		title: "About",
 		url: "/",
 		icon: alertCircle,
-		newSection: true,
-		equals: "/",
-		className: "topSection endSection"
+		equals: "/"
 	}
 ];
 
@@ -115,24 +118,24 @@ const Menu: React.FC = () => {
 				<IonList id="menu-list">
 					<IonListHeader>PF Data 1e</IonListHeader>
 					{appPages.map((appPage, index) => {
-						const { url, icon, title, className = "", prefix = "", newSection, equals } = appPage;
-						let cn = className;
+						if (appPage.hr) {
+							return <hr />;
+						}
+						const { url, icon, title, prefix = "", equals } = appPage;
 						const loc = location.pathname;
+						let cn = "";
 						if(loc === url) {
-							cn = cn ? cn + " selected" : "selected";
+							cn = "selected";
 						} else if (prefix) {
 							const m = loc.match(/^\/(?:main\/)?([^_/]+?)(?:\/|s?_)/);
 							if(m) {
 								const rx = new RegExp(`\\b${m[1]}\\b`);
 								if(prefix.match(rx)) {
-									cn = cn ? cn + " selected" : "selected";
+									cn = "selected";
 								}
 							}
 						} else if (equals && (loc === equals)) {
-							cn = cn ? cn + " selected" : "selected";
-						}
-						if(newSection) {
-							cn = cn ? cn + " newSection" : "newSection";
+							cn = "selected";
 						}
 						return (
 							<IonMenuToggle key={index} autoHide={false}>

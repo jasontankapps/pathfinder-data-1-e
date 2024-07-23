@@ -27,7 +27,7 @@ const FrontPage: React.FC = () => {
 				</div>
 				<div className="ion-hide-lg-down basicContent simple">
 					<h2>General Info</h2>
-					<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy</a> (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. *PF Data 1e* is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
+					<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy</a> (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. <em>PF Data 1e</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
 					<p>The game rules herein are covered by the <a href="/main/ogc">Open Game License</a>.</p>
 					<p className="final">v.0.0.1</p>
 				</div>
