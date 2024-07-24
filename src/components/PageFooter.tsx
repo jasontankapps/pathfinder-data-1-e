@@ -2,7 +2,9 @@ import { IonButton, IonButtons, IonFooter, IonIcon, IonToolbar } from '@ionic/re
 import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
 import { useHistory } from 'react-router';
 
-const Slotless: React.FC<{func: React.Dispatch<React.SetStateAction<boolean>>}> = ({ func }) => {
+type Action = React.Dispatch<React.SetStateAction<boolean>>;
+
+const Slotless: React.FC<{func: Action}> = ({ func }) => {
 	return (
 		<IonButtons className="slotless">
 			<IonButton onClick={() => func(true)}>
@@ -12,9 +14,7 @@ const Slotless: React.FC<{func: React.Dispatch<React.SetStateAction<boolean>>}> 
 	);
 };
 
-const PageFooter: React.FC<{setIsSourcesModalOpen?: React.Dispatch<React.SetStateAction<boolean>>}> = (
-	{ setIsSourcesModalOpen }
-) => {
+const PageFooter: React.FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpen }) => {
 	const history = useHistory();
 	return (
 		<IonFooter>

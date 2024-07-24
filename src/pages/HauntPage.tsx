@@ -18,7 +18,7 @@ type Data = typeof haunts;
 
 type Params = { id?: keyof Data };
 
-const BlessingPage: React.FC = () => {
+const HauntPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
@@ -27,4 +27,4 @@ const BlessingPage: React.FC = () => {
 	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
-export default BlessingPage;
+export default HauntPage;

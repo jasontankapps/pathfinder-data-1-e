@@ -1,4 +1,5 @@
 import { useParams } from 'react-router';
+import { useRouteMatch } from "react-router-dom";
 import getItem from '../components/getItem';
 import curses from '../json/curses.json';
 import diseases from '../json/diseases.json';
@@ -36,9 +37,14 @@ const getByType = (id: Id | undefined, type: Affliction) => {
 	}
 };
 
-const AfflictionPage: React.FC<{type: Affliction }> = ({type}) => {
+const AfflictionPage: React.FC = () => {
 
+	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
+
+	const m = path.match(/\/(curse|disease|infestation)\//);
+
+	const type: Affliction = m ? m[1] as Affliction : "curse";
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getByType(id, type);
 

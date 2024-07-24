@@ -1,4 +1,5 @@
 import { useParams } from 'react-router';
+import { useRouteMatch } from "react-router-dom";
 import getItem from '../components/getItem';
 import powers from '../json/class_ability_rage_powers.json';
 import stances from '../json/class_ability_stance_rage_powers.json';
@@ -24,13 +25,14 @@ type Data = typeof rage_powers;
 
 type Params = { id?: keyof Data };
 
-const RagePowerPage: React.FC<{unchained?: boolean}> = ({unchained}) => {
-
+const RagePowerPage: React.FC = () => {
+	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, rage_powers);
 
-	const hierarchy = unchained ? hierarchy2 : hierarchy1;
+	const m = path.match(/outsiderspirit/);
+	const hierarchy = m ? hierarchy2 : hierarchy1;
 
 	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };

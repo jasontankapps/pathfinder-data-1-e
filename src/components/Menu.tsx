@@ -119,7 +119,7 @@ const Menu: React.FC = () => {
 					<IonListHeader>PF Data 1e</IonListHeader>
 					{appPages.map((appPage, index) => {
 						if (appPage.hr) {
-							return <hr />;
+							return <hr key={index} />;
 						}
 						const { url, icon, title, prefix = "", equals } = appPage;
 						const loc = location.pathname;
