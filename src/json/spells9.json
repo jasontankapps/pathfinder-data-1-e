@@ -6886,7 +6886,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as [summon monster V](spell/summon_monster_5), save that it can only be used to summon [host devils](monster/host_devil), noxious flying devils, known also as gaavs and magaavs."
+			"This spell functions as [summon monster V](spell/summon_monster_5), save that it can only be used to summon host devils, noxious flying devils, known also as [gaavs](monster/lesser_host_devil) and [magaavs](monster/greater_host_devil)."
 		]
 	},
 	"summon_instrument": {

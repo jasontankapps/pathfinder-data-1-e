@@ -5597,7 +5597,7 @@
 			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
 	},
-	"greater_verduous_ooze": { "copyof": "verdurous_ooze,_greater_verduous_ooze" },
+	"greater_verdurous_ooze": { "copyof": "verdurous_ooze,_greater_verduous_ooze" },
 	"vescavor_queen": {
 		"name": "Vescavor Queen",
 		"sources": [

@@ -177,9 +177,9 @@
 			"**Source** [Pathfinder #8: Seven Days to the Grave pg. 67](source/pathfinder_#8_seven_days_to_the_grave)",
 			"",
 			"- **[Summon Monster II](spell/summon_monster_2):** [Celestial Two-Headed Eagle](monster/eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
-			"- **[Summon Monster III](spell/summon_monster_3):** [Celestial Hippogriff](monster/celestial_hippogriff) - LN",
+			"- **[Summon Monster III](spell/summon_monster_3):** [Celestial](template/celestial) [Hippogriff](monster/hippogriff) - LN",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Two-Headed Giant Eagle](monster/giant_eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
-			"- **[Summon Monster V](spell/summon_monster_5):** [Celestial Griffon](monster/celestial_griffon) - LN",
+			"- **[Summon Monster V](spell/summon_monster_5):** [Celestial](template/celestial) [Griffon](monster/griffon) - LN",
 			"- **[Summon Monster IX](spell/summon_monster_9):** [Kolyarut](monster/kolyarut) - LN"
 		]
 	},
@@ -1803,7 +1803,7 @@
 			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 73](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
 			"",
 			"- **[Summon Monster III](spell/summon_monster_3):** Augur Kyton",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish Giant Scarab](monster/fiendish_giant_scarab)",
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish](template/fiendish) [Giant Scarab](monster/giant_scarab)",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** Interlocutor Kyton"
 		]
 	},
@@ -2286,7 +2286,7 @@
 			"",
 			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 73](source/pathfinder_#134_it_came_from_hollow_mountain)",
 			"",
-			"- **[Summon Monster IV](spell/summon_monster_4):** [Celestial Pegesus](monster/celestial_pegesus)",
+			"- **[Summon Monster IV](spell/summon_monster_4):** [Celestial](template/celestial) [Pegasus](monster/pegasus)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Lunar Naga](monster/lunar_naga)"
 		]
 	},
@@ -2346,7 +2346,7 @@
 			"**Enemies** Cayden Cailean, Iomedae, Irori, Lamashtu, Rovagug, Sarenrae, Shelyn  ",
 			"**Temples** cathedrals, libraries  ",
 			"**Holy Days** none (but many worshipers celebrate on holidays sacred to good deities in ways intended to blaspheme)  ",
-			"**Minions** [cerberi](monster/cerberi), [devils](subtype/devil) (including [archdevils](family/archdevil)), [hell hounds](monster/hell_hounds)  ",
+			"**Minions** [cerberi](monster/cerberi), [devils](subtype/devil) (including [archdevils](family/archdevil)), [hell hounds](monster/hell_hound)  ",
 			"**Herald** [Basileus](monster/basileus) (a corrupted, angel-like creature)  ",
 			"**Favored Weapon** [Mace](equipment-weapon/light_mace)  ",
 			"**Symbol** Red pentagram  ",
@@ -2467,7 +2467,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Accomplice Devil (Hesperian)](monster/hesperian), [Basileus (Herald)](monster/basileus_herald)",
+			"[Accomplice Devil (Hesperian)](monster/hesperian), [Basileus (Herald)](monster/basileus)",
 			"",
 			"#### Spells",
 			"",
@@ -2826,7 +2826,7 @@
 			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Half-Fiend Minotaur](monster/half-fiend_minotaur)",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish Chimera](monster/fiendish_chimera)",
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish](template/fiendish) [Chimera](monster/chimera)",
 			"",
 			"### Other Rules",
 			"",
@@ -3748,7 +3748,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Latten Mechanism (Herald)](monster/latten_mechanism_herald)",
+			"[Latten Mechanism (Herald)](monster/latten_mechanism)",
 			"",
 			"#### Spells",
 			"",
@@ -3987,7 +3987,7 @@
 			"**Enemies** Rovagug  ",
 			"**Temples** brothels, churches, hideouts, mansions, taverns  ",
 			"**Holy Days** none (individual temples have their own holidays to commemorate significant acts of revenge or trickery)  ",
-			"**Minions** [azatas](monster/azatas), [chaos beasts](monster/chaos_beasts), [empusas](monster/empusas), fey, [giant wasps](monster/giant_wasps), [valkyries](monster/valkyries)  ",
+			"**Minions** [azatas](family/azata), [chaos beasts](monster/chaos_beast), [empusas](monster/empusa), fey, [giant wasps](monster/giant_wasp), [valkyries](monster/valkyrie)  ",
 			"**Herald** [Menotherian](monster/menotherian) (a bear-sized wasp)  ",
 			"**Favored Weapon** [Whip](equipment-weapon/whip)  ",
 			"**Symbol** Three daggers  ",
@@ -4096,7 +4096,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[The Menotherian (Herald)](monster/the_menotherian_herald), [Vendenopterix](monster/vendenopterix)",
+			"[The Menotherian (Herald)](monster/the_menotherian), [Vendenopterix](monster/vendenopterix)",
 			"",
 			"#### Spells",
 			"",
@@ -4147,7 +4147,7 @@
 			"**Source** [Pathfinder #17: A Memory of Darkness pg. 60](source/pathfinder_#17_a_memory_of_darkness)",
 			"",
 			"- **[Summon Monster I](spell/summon_monster_1):** [Giant Bee](monster/giant_bee) - N",
-			"- **[Summon Monster II](spell/summon_monster_2):** [Tiefling Rogue 1](monster/tiefling_rogue_1) - CN",
+			"- **[Summon Monster II](spell/summon_monster_2):** [Tiefling Rogue 1](monster/tiefling) - CN",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Spider Eater](monster/spider_eater) - N",
 			"- **[Summon Monster VIII](spell/summon_monster_8):** [Hellwasp Swarm](monster/hellwasp_swarm) - CE"
 		]
@@ -4204,7 +4204,7 @@
 			"**Enemies** Asmodeus, Norgorber  ",
 			"**Temples** alehouses, breweries, taverns  ",
 			"**Holy Days** Ascension Day (drinking celebration of Cayden Cailean's ascension to godhood, December 11), First Brewing (community tasting of the year's brewing, typically 1 month after harvest time), Merrymead (sharing of stories and drinks around a fire or during pub crawls, February 2)  ",
-			"**Minions** [azatas](unknown/azatas), fey  ",
+			"**Minions** [azatas](family/azata), fey  ",
 			"**Herald** [Thais](monster/thais) (a five-winged woman)  ",
 			"**Favored Weapon** [Rapier](equipment-weapon/rapier)  ",
 			"**Symbol** Tankard  ",
@@ -4302,7 +4302,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Ataxian](monster/ataxian), [Thais (Herald)](monster/thais_herald)",
+			"[Ataxian](monster/ataxian), [Thais (Herald)](monster/thais)",
 			"",
 			"#### Prestige Classes",
 			"",
@@ -4340,7 +4340,7 @@
 			"",
 			"**Source** [Pathfinder #14: Children of the Void pg. 61](source/pathfinder_#14_children_of_the_void)",
 			"",
-			"- **[Summon Monster II](spell/summon_monster_2):** [Celestial Cayhound](monster/celestial_cayhound) - CG (uses riding dog statistics)",
+			"- **[Summon Monster II](spell/summon_monster_2):** [Celestial](template/celestial) [Cayhound](monster/cayhound) - CG (uses riding dog statistics)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Satyr](monster/satyr) - CG (without pipes)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Rust Monster](monster/rust_monster) - N",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Satyr](monster/satyr) - CG (with pipes)"
@@ -5927,8 +5927,8 @@
 			"**Source** [Pathfinder #78: City of Locusts pg. 70](source/pathfinder_#78_city_of_locusts)",
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Vermlek](monster/vermlek)",
-			"- **[Summon Monster V](spell/summon_monster_5):** [Fiendish Giant Locust](monster/fiendish_giant_locust)",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish Giant Mosquito](monster/fiendish_giant_mosquito)"
+			"- **[Summon Monster V](spell/summon_monster_5):** [Fiendish](template/fiendish) [Giant Locust](monster/giant_locust)",
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish](template/fiendish) [Giant Mosquito](monster/giant_mosquito)"
 		]
 	},
 	"desna": {
@@ -6063,7 +6063,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Night Monarch (Herald)](monster/night_monarch_herald), [Thyrlien](monster/thyrlien)",
+			"[Night Monarch (Herald)](monster/night_monarch), [Thyrlien](monster/thyrlien)",
 			"",
 			"#### Prestige Classes",
 			"",
@@ -6986,7 +6986,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Stag Archon](monster/stag_archon), [The Grim White Stag (Herald)](monster/the_grim_white_stag_herald)",
+			"[Stag Archon](monster/stag_archon), [The Grim White Stag (Herald)](monster/the_grim_white_stag)",
 			"",
 			"#### Prestige Classes",
 			"",
@@ -7026,8 +7026,8 @@
 			"",
 			"**Source** [Pathfinder #32: Rivers Run Red pg. 71](source/pathfinder_#32_rivers_run_red)",
 			"",
-			"- **[Summon Monster II](spell/summon_monster_2):** [Celestial Elk](monster/celestial_elk) - LG",
-			"- **[Summon Monster III](spell/summon_monster_3):** [Celestial Dire Boar](monster/celestial_dire_boar) - LG",
+			"- **[Summon Monster II](spell/summon_monster_2):** [Celestial](template/celestial) [Elk](monster/elk) - LG",
+			"- **[Summon Monster III](spell/summon_monster_3):** [Celestial](template/celestial) [Dire Boar](monster/dire_boar) - LG",
 			"",
 			"### Other Rules",
 			"",
@@ -7853,8 +7853,8 @@
 			"**Source** [Pathfinder #107: Scourge of the Godclaw pg. 73](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
 			"- **[Summon Monster IV](spell/summon_monster_4):** [Venomous Snake Swarm](monster/venomous_snake_swarm)",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Drowning Devil (Sarglagon)](monster/drowning_devil_sarglagon)",
-			"- **[Summon Monster VIII](spell/summon_monster_8):** [Aghasura (Asura)](monster/aghasura_asura)"
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Drowning Devil (Sarglagon)](monster/sarglagon)",
+			"- **[Summon Monster VIII](spell/summon_monster_8):** [Aghasura (Asura)](monster/aghasura)"
 		]
 	},
 	"ghatanothoa": {

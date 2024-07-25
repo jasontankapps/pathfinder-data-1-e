@@ -238,7 +238,7 @@
 			"",
 			"### Description",
 			"",
-			"The regret of those who arrived too late to spare others a terrible fate can manifest as a haunt. A belated arrival haunt often arises near another haunt or undead, representing the fate that these regretful spirits were not fast enough to stop. A belated arrival haunt is often chained to a [ghost](monster/ghost) but a [necrocraft](monster/necrocraft) is a truly horrifying alternative."
+			"The regret of those who arrived too late to spare others a terrible fate can manifest as a haunt. A belated arrival haunt often arises near another haunt or undead, representing the fate that these regretful spirits were not fast enough to stop. A belated arrival haunt is often chained to a [ghost](template/ghost) but a [necrocraft](monster/necrocraft) is a truly horrifying alternative."
 		]
 	},
 	"bleeding_walls": {
@@ -456,7 +456,7 @@
 			"**Notice** Perception DC 18 (to see rippling, rainbow-hued distortions in the air)  ",
 			"**hp** 27; **Weaknesses** negative energy (see [echoes of the first world](rule/echoes_of_the_first_world)); **Trigger** proximity  ",
 			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by [plane shift](spell/plane_shift) and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the [summon nature's ally VI](spell/summon_nature's_ally_6) list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
-			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_nature's_ally_7) list instead, and then add the [fey creature template](monster/fey_creature_template).  ",
+			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_nature's_ally_7) list instead, and then add the [fey creature template](template/fey_creature).  ",
 			"**Destruction** A character with [plane shift](spell/plane_shift) prepared can attempt to counterspell the echo's effect. Successfully doing so destroys the dimensional tear."
 		]
 	},
@@ -791,11 +791,11 @@
 			"| d% | Quickening Effect |",
 			"| --- | --- |",
 			"| 1-25 | The target transforms into a Tiny animal that is not native to the local region (as per [baleful polymorph](spell/baleful_polymorph)). As typical for that spell, a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
-			"| 26-40 | The target gains a random mutation from the [mutant creature template](monster/mutant_creature_template), with the exception of radiation affinity. Roll 1d20 to select the mutation. |",
-			"| 41-75 | The target gains a random deformity from the [mutant creature template](monster/mutant_creature_template). Roll 1d12 to select the specific deformity. |",
+			"| 26-40 | The target gains a random mutation from the [mutant creature template](template/mutant), with the exception of radiation affinity. Roll 1d20 to select the mutation. |",
+			"| 41-75 | The target gains a random deformity from the [mutant creature template](template/mutant). Roll 1d12 to select the specific deformity. |",
 			"| 76-95 | The First World lashes out at the target vindictively, bestowing the accursed corruption (Pathfinder RPG Horror Adventures). |",
 			"| 96-99 | The target gains a new form. This effect functions as per [reincarnate](spell/reincarnate), with a few exceptions. It takes full effect when the breach triggers, rather than taking 1 hour to activate. Additionally, it works only on living creatures, it does not impose any negative levels, and it does not cause a spellcaster to lose spells. Restoring the target to its original form requires a [miracle](spell/miracle) or [wish](spell/wish) spell. |",
-			"| 100 | The target gains the [fey creature template](monster/fey_creature_template), and its alignment changes to chaotic neutral. Restoring the target's original form requires a [miracle](spell/miracle) or [wish](spell/wish) spell. |",
+			"| 100 | The target gains the [fey creature template](template/fey_creature), and its alignment changes to chaotic neutral. Restoring the target's original form requires a [miracle](spell/miracle) or [wish](spell/wish) spell. |",
 			"",
 			"**Destruction** Breaches to the Quickening spontaneously close or move on their own as unpredictably as they appear. A [forbiddance](spell/forbiddance) or [dimensional lock](spell/dimensional_lock) cast on the area of a breach prevents the breach from exerting influence on the Material Plane until it moves to a different location. A [wish](spell/wish) or [miracle](spell/miracle) spell permanently closes a breach.",
 			"",
@@ -885,7 +885,7 @@
 			"**Notice** Perception DC 20 (to hear the muted sounds of battle)  ",
 			"**hp** 202; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** A horde of armor-clad spectral soldiers rises from all sides. On the haunt's initiative count, five soldiers beset each creature in the area, and each soldier makes a single incorporeal touch attack with a spectral sword (+12 to hit, 2d6+9 points of damage/19-20). Creatures in the haunt's area can attack the soldiers, but even if they destroy an individual soldier, five soldiers continue to attack each of the creatures each round until they disperse the haunt.  ",
-			"**Destruction** The final soldier will rest only once the ancient general, who has risen as a [graveknight](monster/graveknight) antipaladin, is permanently destroyed.",
+			"**Destruction** The final soldier will rest only once the ancient general, who has risen as a [graveknight](template/graveknight) antipaladin, is permanently destroyed.",
 			"",
 			"### Description",
 			"",

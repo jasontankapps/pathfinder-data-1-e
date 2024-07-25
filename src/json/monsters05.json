@@ -5362,7 +5362,7 @@
 			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 82](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
 			"**XP** 76,800  ",
 			"LG Huge outsider (native)  ",
-			"**Init** +9; **Senses** darkvision 120 ft., [,detect chaos/evil/good/law](unknown/,detect_chaos_evil_good_law); Perception +36  ",
+			"**Init** +9; **Senses** darkvision 120 ft., [detect chaos/evil/good/law](spell/detect_evil); Perception +36  ",
 			"**Aura** resplendence (1/2 mile)",
 			"",
 			"#### Defense",

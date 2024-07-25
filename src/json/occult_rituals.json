@@ -337,7 +337,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 1 permanent negative level.  ",
-			"**Failure** All casters take 2d4 points of Constitution drain as their flesh is siphoned into the pool; this flesh is transformed into a number of uncontrolled and violent [fleshdregs](monster/fleshdregs) equal to the number of casters.",
+			"**Failure** All casters take 2d4 points of Constitution drain as their flesh is siphoned into the pool; this flesh is transformed into a number of uncontrolled and violent [fleshdregs](monster/fleshdreg) equal to the number of casters.",
 			"",
 			"### Effect",
 			"",
@@ -389,7 +389,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** For 1 week following the performance of the ritual, every [psychopomp](family/psychopomp) within 10 miles of a caster knows the distance and direction to that caster and is aware that the caster was involved in a ritual to thwart a soul's natural progression.  ",
-			"**Failure** A helpless creature is automatically freed and whisked away to a place it considers familiar and safe, as [word of recall](spell/word_of_recall). An imprisoned soul is automatically freed. In addition, a [memitim psychopomp](monster/memitim_psychopomp) appears adjacent to each caster and attacks the caster to the best of its ability. The memitim disappears once its designated caster is slain or after 10 minutes, whichever comes first.",
+			"**Failure** A helpless creature is automatically freed and whisked away to a place it considers familiar and safe, as [word of recall](spell/word_of_recall). An imprisoned soul is automatically freed. In addition, a [memitim psychopomp](monster/memitim) appears adjacent to each caster and attacks the caster to the best of its ability. The memitim disappears once its designated caster is slain or after 10 minutes, whichever comes first.",
 			"",
 			"### Effect",
 			"",
@@ -1097,7 +1097,7 @@
 			"",
 			"A nemesis creature always knows its victim's location, but it must travel to the victim under its own power (or its creator's power). A victim can conceal itself from the nemesis creature's senses for 24 hours by succeeding at a Will saving throw each day at dawn. Should the nemesis creature be discovered and slain, its spirit returns to the depiction used to conjure it, where it re-forms after 1d4 days per Hit Die. Once re-formed, the nemesis creature emerges from its depiction to resume its campaign of subterfuge. The curse bestowed by this spell cannot be dispelled, but it can be removed with a miracle or wish spell. If the depiction of the nemesis creature is destroyed or if it is targeted with a remove curse or break enchantment spell, the nemesis creature is immediately destroyed and the curse ends.",
 			"",
-			"The following creatures can be summoned as nemesis creatures: [allip](monster/allip), [gremlin](monster/gremlin) (any), [hellhound](monster/hellhound), [imp](monster/imp), [lovelorn](monster/lovelorn), [poltergeist](monster/poltergeist), [quasit](monster/quasit), or [tooth fairy](monster/tooth_fairy)."
+			"The following creatures can be summoned as nemesis creatures: [allip](monster/allip), [gremlin](family/gremlin) (any), [hell hound](monster/hell_hound), [imp](monster/imp), [lovelorn](monster/lovelorn), [poltergeist](monster/poltergeist), [quasit](monster/quasit), or [tooth fairy](monster/tooth_fairy)."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1273,7 +1273,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The caster and secondary casters become exhausted.  ",
-			"**Failure** All casters are affected by the [ouroboros's](monster/ouroboros's) ruinous blood special attack. The dead body can't be the target of the ouroboros blood ritual in the future.",
+			"**Failure** All casters are affected by the [ouroboros's](monster/ouroboros) ruinous blood special attack. The dead body can't be the target of the ouroboros blood ritual in the future.",
 			"",
 			"### Effect",
 			"",
@@ -1302,7 +1302,7 @@
 			"",
 			"The caster prepares a ritual site no more than 100 feet long by 100 feet wide by 20 feet high, including sigils that prevent souls from escaping the perimeter. At the culmination of the ritual, the caster forces two spiritually close humanoid creatures experiencing a transitional state of their lives into ritual combat to the death. Among most humanoids, only teenage twins (fraternal or identical) young enough that they haven't gained a level in a PC class can be targets of this ritual; other pairings work only at the GM's discretion. One of the targets must slay the other with the ceremonial dagger focus for the ritual to succeed; even if all the checks succeed, if either target leaves the area while the other lives, or if someone else slays one of the targets, the ritual counts as a failure, and the primary caster suffers the failure effects.",
 			"",
-			"If the ritual succeeds, the soul of the creature slain by the ritual dagger is trapped within the ritual site. The surviving target has a choice either to allow the soul into her body, or to bar it from doing so. If the surviving target allows the soul inside her, she becomes a [spiritualist](class/spiritualist), with the slain target as her phantom. If the surviving target chooses not to allow the spirit entry, it instead becomes an [unfettered phantom](monster/unfettered_phantom) and eventually a malevolent [ghost](monster/ghost), haunting the ritual site. This ghost cannot directly attack the surviving target, but in order to overcome its rejuvenation, someone must provide proof of the surviving target's death (false evidence is not sufficient; that target must actually be dead)."
+			"If the ritual succeeds, the soul of the creature slain by the ritual dagger is trapped within the ritual site. The surviving target has a choice either to allow the soul into her body, or to bar it from doing so. If the surviving target allows the soul inside her, she becomes a [spiritualist](class/spiritualist), with the slain target as her phantom. If the surviving target chooses not to allow the spirit entry, it instead becomes an [unfettered phantom](monster/unfettered_phantom) and eventually a malevolent [ghost](template/ghost), haunting the ritual site. This ghost cannot directly attack the surviving target, but in order to overcome its rejuvenation, someone must provide proof of the surviving target's death (false evidence is not sufficient; that target must actually be dead)."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1577,7 +1577,7 @@
 			"",
 			"### Effect",
 			"",
-			"Preparation for the second apotheosis requires many more months of debased acts and vile plots, but at some point during this second year, the caster must contact her chosen fiendish patron, via either [commune](spell/commune) or [contact other plane](spell/contact_other_plane). A trusted minion or ally can cast this spell on the caster's behalf; it's common for a spellcaster to gain a [cacodaemon](monster/cacodaemon), [im](monster/im), or [quasit](monster/quasit) familiar so that it can use its [commune](spell/commune) spell-like ability for this purpose. Once contact is made, the patron must be told of the caster's desire to become a fiend; during this time, the [commune](spell/commune) or [contact other plane](spell/contact_other_plane) spell cannot be used to ask any other questions. At any point thereafter but before a year has passed, the caster must offer a significant sacrifice to her fiendish patron as a burned offering in a temple consecrated to the fiend. This offering can be either living or dead, but the burned offering must be of someone who is related to the caster by blood or family (such as a spouse or an adopted parent or child) and the caster and the offering must once have shared a positive emotional connection such as love or pride. If this ritual fails, the caster can try again, although the number of attempts she can make is limited in that each new attempt requires a burned offering of a different relative. Once the second apotheosis is successful, part of the caster's body transforms into something fiendish as proof of her patron's favor. Use the various [fleshcraft](unknown/fleshcraft) grafts to model these partial transformations; the specific transformation granted is up to the GM, but typical results include claw gauntlet or wings of darkness. Once the caster successfully completes the second apotheosis, she becomes eligible to undertake the [third apotheosis](spell/third_apotheosis)."
+			"Preparation for the second apotheosis requires many more months of debased acts and vile plots, but at some point during this second year, the caster must contact her chosen fiendish patron, via either [commune](spell/commune) or [contact other plane](spell/contact_other_plane). A trusted minion or ally can cast this spell on the caster's behalf; it's common for a spellcaster to gain a [cacodaemon](monster/cacodaemon), [imp](monster/imp), or [quasit](monster/quasit) familiar so that it can use its [commune](spell/commune) spell-like ability for this purpose. Once contact is made, the patron must be told of the caster's desire to become a fiend; during this time, the [commune](spell/commune) or [contact other plane](spell/contact_other_plane) spell cannot be used to ask any other questions. At any point thereafter but before a year has passed, the caster must offer a significant sacrifice to her fiendish patron as a burned offering in a temple consecrated to the fiend. This offering can be either living or dead, but the burned offering must be of someone who is related to the caster by blood or family (such as a spouse or an adopted parent or child) and the caster and the offering must once have shared a positive emotional connection such as love or pride. If this ritual fails, the caster can try again, although the number of attempts she can make is limited in that each new attempt requires a burned offering of a different relative. Once the second apotheosis is successful, part of the caster's body transforms into something fiendish as proof of her patron's favor. Use the various [fleshcraft](unknown/fleshcraft) grafts to model these partial transformations; the specific transformation granted is up to the GM, but typical results include claw gauntlet or wings of darkness. Once the caster successfully completes the second apotheosis, she becomes eligible to undertake the [third apotheosis](spell/third_apotheosis)."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},

@@ -575,11 +575,11 @@
 		"name": "Colossus",
 		"sources": [ "Bestiary 4" ],
 		"mythic_members": [
-			"- [Flesh Colossus](monster/flesh_colossus)",
-			"- [Iron Colossus](monster/iron_colossus)",
-			"- [Sphinx Colossus](monster/sphinx_colossus)",
-			"- [Stone Colossus](monster/stone_colossus)",
-			"- [Wood Colossus](monster/wood_colossus)"
+			"- [Flesh Colossus](monster/flesh_colossus_mythic)",
+			"- [Iron Colossus](monster/iron_colossus_mythic)",
+			"- [Sphinx Colossus](monster/sphinx_colossus_mythic)",
+			"- [Stone Colossus](monster/stone_colossus_mythic)",
+			"- [Wood Colossus](monster/wood_colossus_mythic)"
 		],
 		"description": [
 			"## Colossus",
@@ -846,38 +846,38 @@
 			"- [Accomplice Devil (Hesperian)](monster/hesperian)",
 			"- [Accuser Devil (Zebub)](monster/accuser_devil)",
 			"- [Advodaza](monster/advodaza)",
-			"- [Apostate Devil (Deimavigga)](monster/apostate_devil_deimavigga)",
-			"- [Barbed Devil (Hamatula)](monster/barbed_devil_hamatula)",
-			"- [Bearded Devil (Barbazu)](monster/bearded_devil_barbazu)",
-			"- [Belier Devil (Bdellavritra)](monster/belier_devil_bdellavritra)",
-			"- [Bone Devil (Osyluth)](monster/bone_devil_osyluth)",
-			"- [Cabal Devil (Uniila)](monster/cabal_devil_uniila)",
+			"- [Apostate Devil (Deimavigga)](monster/deimavigga)",
+			"- [Barbed Devil (Hamatula)](monster/hamatula)",
+			"- [Bearded Devil (Barbazu)](monster/barbazu)",
+			"- [Belier Devil (Bdellavritra)](monster/bdellavritra)",
+			"- [Bone Devil (Osyluth)](monster/osyluth)",
+			"- [Cabal Devil (Uniila)](monster/uniila)",
 			"- [Chortov](monster/chortov)",
-			"- [Contract Devil (Phistophilus)](monster/contract_devil_phistophilus)",
-			"- [Curse Devil (Phiam)](monster/curse_devil_phiam)",
-			"- [Drowning Devil (Sarglagon)](monster/drowning_devil_sarglagon)",
+			"- [Contract Devil (Phistophilus)](monster/phistophilus)",
+			"- [Curse Devil (Phiam)](monster/phiam)",
+			"- [Drowning Devil (Sarglagon)](monster/sarglagon)",
 			"- [Erinyes](monster/erinyes)",
-			"- [Executioner Devil (Munagola)](monster/executioner_devil_munagola)",
-			"- [Gambling Devil (Magadaz)](monster/gambling_devil_magadaz)",
-			"- [Handmaiden Devil (Gylou)](monster/handmaiden_devil_gylou)",
-			"- [Heresy Devil (Ayngavhaul)](monster/heresy_devil_ayngavhaul)",
-			"- [Horned Devil (Cornugon)](monster/horned_devil_cornugon)",
+			"- [Executioner Devil (Munagola)](monster/munagola)",
+			"- [Gambling Devil (Magadaz)](monster/magadaz)",
+			"- [Handmaiden Devil (Gylou)](monster/gylou)",
+			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul)",
+			"- [Horned Devil (Cornugon)](monster/cornugon)",
 			"- [Host Devil, Greater (Magaav)](monster/host_devil,_greater_magaav)",
 			"- [Host Devil, Lesser (Gaav)](monster/host_devil,_lesser_gaav)",
-			"- [Ice Devil (Gelugon)](monster/ice_devil_gelugon)",
-			"- [Immolation Devil (Puragaus)](monster/immolation_devil_puragaus)",
+			"- [Ice Devil (Gelugon)](monster/gelugon)",
+			"- [Immolation Devil (Puragaus)](monster/puragaus)",
 			"- [Imp](monster/imp)",
 			"- [Lemure](monster/lemure)",
 			"- [Mnemor](monster/mnemor)",
-			"- [Nemesis Devil (Advodaza)](monster/nemesis_devil_advodaza)",
+			"- [Nemesis Devil (Advodaza)](monster/advodaza)",
 			"- [Nupperibo](monster/nupperibo)",
 			"- [Pit Fiend](monster/pit_fiend)",
-			"- [Possession Devil, Greater (Gidim)](monster/possession_devil,_greater_gidim)",
-			"- [Possession Devil, Lesser (Gidim)](monster/possession_devil,_lesser_gidim)",
-			"- [Rust Devil (Ferrugon)](monster/rust_devil_ferrugon)",
+			"- [Possession Devil, Greater (Gidim)](monster/greater_gidim)",
+			"- [Possession Devil, Lesser (Gidim)](monster/lesser_gidim)",
+			"- [Rust Devil (Ferrugon)](monster/ferrugon)",
 			"- [Salikotal](monster/salikotal)",
-			"- [Sire Devil (Patraavex)](monster/sire_devil_patraavex)",
-			"- [Tinder Devil (Ukobach)](monster/tinder_devil_ukobach)",
+			"- [Sire Devil (Patraavex)](monster/patraavex)",
+			"- [Tinder Devil (Ukobach)](monster/ukobach)",
 			"- [Warmonger Devil (Levaloch)](monster/levaloch)"
 		],
 		"mythic_members": [
@@ -3366,7 +3366,7 @@
 			"- [Crystal Golem](monster/crystal_golem)",
 			"- [Dragonhide Golem](monster/dragonhide_golem)",
 			"- [Equine Bone Golem](monster/equine_bone_golem)",
-			"- [Fiend-Infused Golem](monster/fiend-infused_golem)",
+			"- [Fiend-Infused Golem](template/fiend-infused)",
 			"- [Flesh Golem](monster/flesh_golem)",
 			"- [Fossil Golem](monster/fossil_golem)",
 			"- [Glass Golem](monster/glass_golem)",
@@ -3850,7 +3850,7 @@
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Apocrisiarius](monster/apocrisiarius)",
-			"- [Apostle Kyton](monster/apostle_kyton)",
+			"- [Apostle Kyton](template/apostle_kyton)",
 			"- [Augur](monster/augur)",
 			"- [Cantor](monster/cantor)",
 			"- [Ephialtes](monster/ephialtes)",
@@ -3988,7 +3988,7 @@
 			"",
 			"The linnorms presented on the following pages represent only four of their kind. The most legendary linnorms are the crag linnorm, ice linnorm, and tarn linnorm, but others exist as well. Rumors of even more powerful unique linnorms persist in lands where these dragons are well-known and feared. The largest of their kind, unique linnorms are never less powerful than tor linnorms (who are often mistakenly thought to be the most dangerous species).",
 			"",
-			"**Linnorm Special Abilities**",
+			"### Linnorm Special Abilities",
 			"",
 			"While each linnorm has several unique powers, they all share certain abilities in common, as detailed below. In addition to these, every linnorm possesses a breath weapon and a poisonous attack, but the specific effects of these attacks vary from species to species.",
 			"",
@@ -4003,23 +4003,23 @@
 		"name": "Lycanthrope",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Silverblood Lycanthrope (Human Form)/Silverblood Werewolf (Hybrid Form)](monster/silverblood_lycanthrope)",
-			"- [Werebat (Human Form)/Werebat (Hybrid Form)](monster/werebat)",
-			"- [Werebear (Human Form)/Werebear (Hybrid Form)](monster/werebear)",
-			"- [Wereboar (Human Form)/Wereboar (Hybrid Form)](monster/wereboar)",
-			"- [Werecrocodile (Human Form)/Werecrocodile (Hybrid Form)](monster/werecrocodile)",
-			"- [Wereraptor (Human Form)/Wereraptor (Hybrid Form)](monster/wereraptor)",
-			"- [Wererat (Human Form)/Wererat (Hybrid Form)](monster/wererat)",
-			"- [Wereshark (Human Form)/Wereshark (Hybrid Form)](monster/wereshark)",
-			"- [Weretiger (Human Form)/Weretiger (Hybrid Form)](monster/weretiger)",
-			"- [Werewolf (Human Form)/Werewolf (Hybrid Form)](monster/werewolf)"
+			"- Silverblood Werewolf",
+			"- Werebat",
+			"- Werebear",
+			"- Wereboar",
+			"- Werecrocodile",
+			"- Wereraptor",
+			"- Wererat",
+			"- Wereshark",
+			"- Weretiger",
+			"- Werewolf"
 		],
 		"description": [
 			"## Lycanthrope",
 			"",
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
-			"See the [lycanthrope template](template/lycanthrope) for more information."
+			"See the [lycanthrope](template/lycanthrope), [lycanthropic creature](template/lycanthropic_creature), and [silverblood lycanthrope](template/silverblood_lycanthrope) templates for more information."
 		]
 	},
 	"lurking_ray": {
@@ -4047,7 +4047,7 @@
 			"- [Maharishi Manu](monster/maharishi_manu)",
 			"- [Manu](monster/manu)",
 			"- [Rishi Manu](monster/rishi_manu)",
-			"- [Twilight Pitri (Barhisad)](monster/twilight_pitri_barhisad)"
+			"- [Twilight Pitri (Barhisad)](monster/barhisad)"
 		],
 		"mythic_members": [
 			"- [Solar Pitri (Agnishvatta)](monster/solar_pitri_agnishvatta)"
@@ -4272,9 +4272,9 @@
 		"name": "Plague Swarm",
 		"sources": [ "Bestiary 5" ],
 		"mythic_members": [
-			"- [Bat Plague Swarm](monster/bat_plague_swarm)",
-			"- [Locust Plague Swarm](monster/locust_plague_swarm)",
-			"- [Rat Plague Swarm](monster/rat_plague_swarm)"
+			"- [Bat Plague Swarm](monster/bat_plague_swarm_mythic)",
+			"- [Locust Plague Swarm](monster/locust_plague_swarm_mythic)",
+			"- [Rat Plague Swarm](monster/rat_plague_swarm_mythic)"
 		],
 		"description": [
 			"## Plague Swarm",
@@ -4303,8 +4303,8 @@
 		"name": "Poppet",
 		"sources": [ "Adventurer's Armory 2" ],
 		"members": [
-			"- [Poppet, Small](monster/poppet,_small)",
-			"- [Poppet, Tiny](monster/poppet,_tiny)"
+			"- [Poppet, Small](monster/small_poppet)",
+			"- [Poppet, Tiny](monster/tiny_poppet)"
 		],
 		"description": [
 			"## Poppet",
@@ -4759,7 +4759,7 @@
 			"- [Chemnosit (The Monarch Worm)](monster/chemnosit_the_monarch_worm)",
 			"- [Festering Ulunat (The Unholy First)](monster/festering_ulunat_the_unholy_first)",
 			"- [Volnagur (The End-Singer)](monster/volnagur_the_end-singer)",
-			"- [Xotani (The Firebleeder)](monster/xotani_the_firebleeder)"
+			"- Xotani (The Firebleeder) (published stats are for D&amp;D 3.5, not Pathfinder)"
 		],
 		"description": [
 			"## Spawn of Rovagug",

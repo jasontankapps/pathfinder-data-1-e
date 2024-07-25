@@ -71,7 +71,7 @@
 			"",
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
-			"- [Fiendish Human Zombie](monster/human_zombie)"
+			"- [Fiendish Human Zombie](template/zombie)"
 		]
 	},
 	"summon_monster_i_kostchtchie": {
@@ -445,7 +445,7 @@
 			"**Sources** [Mythic Realms](source/mythic_realms)",
 			"",
 			"- [Fiendish Ghoul](monster/ghoul)",
-			"- [Fiendish Plague Zombie](monster/human_zombie)"
+			"- [Fiendish Plague Zombie](template/zombie)"
 		]
 	},
 	"summon_monster_ii_shelyn": {
@@ -539,7 +539,7 @@
 			"- [Compsognathus (Dinosaur)](monster/compsognathus) [^A][^I]",
 			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^A][^I]",
 			"- [Gar](monster/gar) [^A][^I]",
-			"- [Giant Geck (Lizard)](monster/giant_gecko) [^A][^I]",
+			"- [Giant Gecko (Lizard)](monster/giant_gecko) [^A][^I]",
 			"- [Giant Tortoise](monster/giant_tortoise) [^A][^I]",
 			"- [Giant Weasel](monster/giant_weasel) [^A][^I]",
 			"- [Manta Ray](monster/manta_ray) [^A][^I]",
@@ -981,7 +981,7 @@
 			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil][^I]",
 			"- [Dire Badger](monster/dire_badger) [^A][^I]",
 			"- [Doru (Div)](monster/doru) [evil][^I]",
-			"- [Foo Dog](monster/foo_dog) [good][^I]",
+			"- [Foo Dog](template/foo_creature) [good][^I]",
 			"- [Giant Porcupine](monster/giant_porcupine) [^A][^I]",
 			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good][^I]",
 			"- [Paracletus (Aeon)](monster/paracletus) [^I]",
@@ -1040,7 +1040,7 @@
 			"",
 			"- [Blink Dog (LG)](monster/blink_dog)",
 			"- [Celestial Shark (NG)](monster/shark)",
-			"- [Foo Dog( NG)](monster/foo_dog) [good]",
+			"- [Foo Dog( NG)](template/foo_creature) [good]",
 			"- [Lantern Archon (LG)](monster/lantern_archon) [good, lawful]",
 			"- [Lyrakien Azata (CG)](monster/lyrakien) [chaotic, good]",
 			"- [Silvanshee Agathion (NG)](monster/silvanshee) [good]"
@@ -1623,7 +1623,7 @@
 			"- [D'ziriak](monster/d'ziriak) [^I]",
 			"- [Dimetrodon (Dinasaur)](monster/dimetrodon) [^A][^I]",
 			"- [Dire Weasel](monster/dire_weasel) [^A][^I]",
-			"- [Foo Lion](monster/foo_lion) [good][^I]",
+			"- [Foo Lion](template/foo_creature) [good][^I]",
 			"- [Giant Seahorse](monster/giant_seahorse) [^A][^I]",
 			"- [Giant Vulture](monster/giant_vulture) [^A][^I]",
 			"- [Giraffe (Herd Animal)](monster/giraffe) [^A][^I]",
@@ -1688,7 +1688,7 @@
 			"- [Celestial Giant Eagle (NG)](monster/giant_eagle)",
 			"- [Celestial Pegasus (NG)](monster/pegasus)",
 			"- [Faerie Dragon (NG)](monster/faerie_dragon)",
-			"- [Foo Lion (NG)](monster/foo_lion) [good]",
+			"- [Foo Lion (NG)](template/foo_creature) [good]",
 			"- [Hound Archon (LG)](monster/hound_archon) [good, lawful]",
 			"- [Pixie (NG)](monster/pixie)"
 		]
@@ -1808,7 +1808,7 @@
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
-			"- [Bearded Devil](monster/bearded_devil_barbazu) [evil, lawful][^I]",
+			"- [Bearded Devil](monster/barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful][^I]"
 		],
 		"footnotes": ["I"]
@@ -2195,7 +2195,7 @@
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
 			"- [Babau (Demon, CE)](monster/babau) [chaotic, evil]",
-			"- [Barbazu (Devil, LE)](monster/bearded_devil_barbazu) [evil, lawful]",
+			"- [Barbazu (Devil, LE)](monster/barbazu) [evil, lawful]",
 			"- [Evangelist (Kyton, LE)](monster/kyton) [evil, lawful]",
 			"- [Fiendish Giant Moray Eel (NE)](monster/giant_moray_eel)",
 			"- [Lurker in Light (NE)](monster/lurker_in_light)",
@@ -2301,7 +2301,7 @@
 			"- [Air Elemental (Large)](monster/large_air_elemental) [air]",
 			"- [Ankylosaurus (Dinosaur)](monster/ankylosaurus) [^A]",
 			"- [Babau (Demon)](monster/babau) [chaotic, evil]",
-			"- [Bearded Devil](monster/bearded_devil_barbazu) [evil, lawful]",
+			"- [Bearded Devil](monster/barbazu) [evil, lawful]",
 			"- [Bralani Azata](monster/bralani) [chaotic, good]",
 			"- [Dire Lion](monster/dire_lion_spotted_lion) [^A]",
 			"- [Earth Elemental (Large)](monster/large_earth_elemental) [earth]",
@@ -2404,7 +2404,7 @@
 			"",
 			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
-			"- [Drowning Devil (Sarglagon)](monster/drowning_devil_sarglagon) [evil, lawful]"
+			"- [Drowning Devil (Sarglagon)](monster/sarglagon) [evil, lawful]"
 		]
 	},
 	"summon_monster_vi_gorum": {
@@ -3137,7 +3137,7 @@
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good][^I]",
 			"- [Behemoth Hippopotamus](monster/behemoth_hippopotamus) [^A][^I]",
-			"- [Contract Devil](monster/contract_devil_phistophilus) [evil, lawful][^I]",
+			"- [Contract Devil](monster/contract_devil) [evil, lawful][^I]",
 			"- [Ghawwas (Div)](monster/ghawwas) [evil][^I]",
 			"- [Giant Anaconda (Snake)](monster/giant_anaconda) [^A][^I]",
 			"- [Giant Snapping Turtle](monster/giant_snapping_turtle) [^A][^I]",
@@ -3183,7 +3183,7 @@
 			"- [Bogeyman (NE)](monster/bogeyman)",
 			"- [Leukodaemon (daemon, NE)](monster/leukodaemon) [evil]",
 			"- [Nuckelavee (NE)](monster/nuckelavee)",
-			"- [Osyluth (Devil, LE)](monster/bone_devil_osyluth) [evil, lawful]",
+			"- [Osyluth (Devil, LE)](monster/osyluth) [evil, lawful]",
 			"- [Sacristan (Kyton, LE)](monster/sacristan) [evil, lawful]",
 			"- [Vrock (Demon, CE)](monster/vrock) [chaotic, evil]"
 		]
@@ -3384,7 +3384,7 @@
 			"- [Aether Elemental (Greater)](monster/greater_aether_elemental)",
 			"- [Air Elemental (Greater)](monster/greater_air_elemental) [air]",
 			"- [Bebilith](monster/bebilith) [chaotic, evil]",
-			"- [Bone Devil](monster/bone_devil_osyluth) [evil, lawful]",
+			"- [Bone Devil](monster/osyluth) [evil, lawful]",
 			"- [Brachiosaurus (Dinosaur)](monster/brachiosaurus) [^A]",
 			"- [Dire Crocodile](monster/dire_crocodile) [^A]",
 			"- [Dire Shark](monster/dire_shark_megalodon) [^A]",
@@ -3480,20 +3480,6 @@
 		],
 		"footnotes": ["A"]
 	},
-	"summon_monster_viii_kabriri": {
-		"name": "Summon Monster VIII: Kabriri",
-		"spell": "Summon Monster VIII",
-		"type": "faith",
-		"grantor": "Kabriri",
-		"sources": [ "Mythic Realms" ],
-		"description": [
-			"## Faith: [Kabriri](faith/kabriri)",
-			"",
-			"**Sources** [Mythic Realms](source/mythic_realms)",
-			"",
-			"- [Black Jinni](monster/black_jinni) [chaotic, evil]"
-		]
-	},
 	"summon_monster_viii_kostchtchie": {
 		"name": "Summon Monster VIII: Kostchtchie",
 		"spell": "Summon Monster VIII",
@@ -3534,7 +3520,7 @@
 			"",
 			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
 			"",
-			"- [Cabal Devil](monster/cabal_devil_uniila) [evil, lawful]"
+			"- [Cabal Devil](monster/uniila) [evil, lawful]"
 		]
 	},
 	"summon_monster_viii_mephistopheles": {
@@ -3548,7 +3534,7 @@
 			"",
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
-			"- [Contract Devil (Phistophilus)](monster/contract_devil_phistophilus) [evil, lawful]"
+			"- [Contract Devil (Phistophilus)](monster/phistophilus) [evil, lawful]"
 		]
 	},
 	"summon_monster_viii_moloch": {
@@ -3666,7 +3652,7 @@
 			"",
 			"- [Baregara (CE)](monster/baregara) [chaotic, evil]",
 			"- [Dorvae (NE)](monster/dorvae) [evil]",
-			"- [Hamatula (Devil, LE)](monster/barbed_devil_hamatula) [evil, lawful]",
+			"- [Hamatula (Devil, LE)](monster/hamatula) [evil, lawful]",
 			"- [Hezrou (Demon, CE)](monster/hezrou) [chaotic, evil]",
 			"- [Meladaemon (Daemon, NE)](monster/meladaemon) [evil]",
 			"- [Rusalka (NE)](monster/rusalka)",
@@ -3820,7 +3806,7 @@
 			"",
 			"- [Aether Elemental (Elder)](monster/elder_aether_elemental)",
 			"- [Air Elemental (Elder)](monster/elder_air_elemental) [air]",
-			"- [Barbed Devil](monster/barbed_devil_hamatula) [evil, lawful]",
+			"- [Barbed Devil](monster/hamatula) [evil, lawful]",
 			"- [Earth Elemental (Elder)](monster/elder_earth_elemental) [earth]",
 			"- [Fire Elemental (Elder)](monster/elder_fire_elemental) [fire]",
 			"- [Hezrou (Demon)](monster/hezrou) [chaotic, evil]",
@@ -3870,20 +3856,6 @@
 		],
 		"footnotes": ["A", "I"]
 	},
-	"summon_monster_ix_kabriri": {
-		"name": "Summon Monster IX: Kabriri",
-		"spell": "Summon Monster IX",
-		"type": "faith",
-		"grantor": "Kabriri",
-		"sources": [ "Mythic Realms" ],
-		"description": [
-			"## Faith: [Kabriri](faith/kabriri)",
-			"",
-			"**Sources** [Mythic Realms](source/mythic_realms)",
-			"",
-			"- [Fiendish Black Jinni](monster/black_jinni) [chaotic, evil]"
-		]
-	},
 	"summon_monster_ix_kostchtchie": {
 		"name": "Summon Monster IX: Kostchtchie",
 		"spell": "Summon Monster IX",
@@ -3909,7 +3881,7 @@
 			"",
 			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
 			"",
-			"- [Heresy Devil (Ayngavhaul)](monster/heresy_devil_ayngavhaul) [evil, lawful]"
+			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul) [evil, lawful]"
 		]
 	},
 	"summon_monster_ix_pharasma": {
@@ -3992,7 +3964,7 @@
 			"",
 			"- [Ankou (LE)](monster/ankou)",
 			"- [Derghodaemon (Daemon, NE)](monster/derghodaemon) [evil]",
-			"- [Gelugon (Devil, LE)](monster/ice_devil_gelugon) [evil, lawful]",
+			"- [Gelugon (Devil, LE)](monster/gelugon) [evil, lawful]",
 			"- [Glabrezu (Demon, CE)](monster/glabrezu) [chaotic, evil]",
 			"- [Nalfeshnee (Demon, CE)](monster/nalfeshnee) [chaotic, evil]",
 			"- [Sepid (Div, NE)](monster/sepid) [evil]",
@@ -4173,7 +4145,7 @@
 			"- [Astral Deva (Angel)](monster/astral_deva) [good]",
 			"- [Ghaele Azata](monster/ghaele) [chaotic, good]",
 			"- [Glabrezu (Demon)](monster/glabrezu) [chaotic, evil]",
-			"- [Ice Devil](monster/ice_devil_gelugon) [evil, lawful]",
+			"- [Ice Devil](monster/gelugon) [evil, lawful]",
 			"- [Nalfeshnee (Demon)](monster/nalfeshnee) [chaotic, evil]",
 			"- [Trumpet Archon](monster/trumpet_archon) [good, lawful]"
 		]
@@ -5100,7 +5072,7 @@
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
 			"",
-			"- [Bearded Devil](monster/bearded_devil_barbazu) [evil, lawful][^I]",
+			"- [Bearded Devil](monster/barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful]"
 		],
 		"footnotes": ["I"]

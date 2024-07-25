@@ -67,7 +67,7 @@
 			"",
 			"**Minor Form:** You gain a +2 enhancement bonus to your Strength score. At 8th level, the bonus increases to +4, and at 15th level it increases to +6.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large [bull](monster/cattle). While in this form, you gain a base speed of 40 feet, low-light vision, scent, and a gore attack (1d8 damage) with powerful charge (+1d8 on your gore attack). At 8th level, you gain the [trample](umr/trample) as per the universal monster rule (dealing gore damage plus 1-1/2 times your Strength modifier). At 15th level, your gore damage increases to 2d8 and you gain the Awesome Blow feat.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large [bull](monster/aurochs) (use aurochs stats). While in this form, you gain a base speed of 40 feet, low-light vision, scent, and a gore attack (1d8 damage) with powerful charge (+1d8 on your gore attack). At 8th level, you gain the [trample](umr/trample) as per the universal monster rule (dealing gore damage plus 1-1/2 times your Strength modifier). At 15th level, your gore damage increases to 2d8 and you gain the Awesome Blow feat.",
 			"",
 			"**Alternate Natural Attacks:** Gore (P), hoof (B), slam (B)"
 		]
@@ -329,7 +329,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Escape Artist checks. It increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of an [octopus](monster/octopus). While in this form, you gain the [aquatic](monster/aquatic) subtype, a swim speed of 30 feet, low-light vision, a bite attack (1d3), a tentacles attack (no damage) with the [grab](umr/grab) ability, and [Multiattack](feat/multiattack) as a bonus feat. At 8th level, you gain the [jet](umr/jet) ability (200 feet). At 15th level, you gain the ability to produce an ink cloud (see below) and deal an amount of bludgeoning damage with your tentacles attack equal to the damage dealt by your shifter claws.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of an [octopus](monster/octopus). While in this form, you gain the [aquatic](subtype/aquatic) subtype, a swim speed of 30 feet, low-light vision, a bite attack (1d3), a tentacles attack (no damage) with the [grab](umr/grab) ability, and [Multiattack](feat/multiattack) as a bonus feat. At 8th level, you gain the [jet](umr/jet) ability (200 feet). At 15th level, you gain the ability to produce an ink cloud (see below) and deal an amount of bludgeoning damage with your tentacles attack equal to the damage dealt by your shifter claws.",
 			"",
 			"*Ink Cloud (Ex):* While within water, you can emit a 10-foot-radius sphere of ink once per minute as a swift action. This ink provides total concealment and persists for 1 minute.",
 			"",
