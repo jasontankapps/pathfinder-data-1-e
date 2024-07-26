@@ -1118,6 +1118,9 @@
 	"true_dragon": {
 		"copyof": "dragon_true"
 	},
+	"dragon": {
+		"copyof": "dragon_true"
+	},
 	"dragon_black": {
 		"name": "Dragon (Black)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1127,7 +1130,7 @@
 			"- [Young Black Dragon](monster/young_black_dragon)"
 		],
 		"mythic_members": [
-			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon)"
+			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon_mythic)"
 		],
 		"description": [
 			"## Dragon (Black)",
@@ -1180,7 +1183,7 @@
 			"- [Young Blue Dragon](monster/young_blue_dragon)"
 		],
 		"mythic_members": [
-			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon)"
+			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon_mythic)"
 		],
 		"description": [
 			"## Dragon (Blue)",
@@ -1500,7 +1503,7 @@
 			"- [Young Green Dragon](monster/young_green_dragon)"
 		],
 		"mythic_members": [
-			"[Very Old Green Dragon](monster/very_old_green_dragon)"
+			"- [Very Old Green Dragon](monster/very_old_green_dragon_mythic)"
 		],
 		"description": [
 			"## Green Dragon",
@@ -2556,7 +2559,7 @@
 		],
 		"mythic_members": [
 			"- [Wyrm Red Dragon](monster/wyrm_red_dragon)",
-			"- [Young Red Dragon](monster/young_red_dragon)"
+			"- [Young Red Dragon](monster/young_red_dragon_mythic)"
 		],
 		"description": [
 			"## Red Dragon",
@@ -2627,7 +2630,7 @@
 			"- [Young White Dragon](monster/young_white_dragon)"
 		],
 		"mythic_members": [
-			"[Juvenile White Dragon](monster/juvenile_white_dragon)"
+			"- [Juvenile White Dragon](monster/juvenile_white_dragon_mythic)"
 		],
 		"description": [
 			"## White Dragon",
@@ -2723,7 +2726,7 @@
 			"",
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
 			"",
-			"[Elemental (Aether)](monster/elemental_aether)",
+			"[Elemental (Aether)](monster/aether_elemental)",
 			"",
 			"**Source** [Bestiary 5 pg. 106](source/bestiary_5)",
 			"",
@@ -2757,7 +2760,7 @@
 			"- [Small Air Elemental](monster/small_air_elemental)"
 		],
 		"mythic_members": [
-			"[Elder Air Elemental](monster/elder_air_elemental)"
+			"- [Elder Air Elemental](monster/elder_air_elemental)"
 		],
 		"description": [
 			"## Elemental (Air)",
@@ -2801,7 +2804,7 @@
 			"- [Small Earth Elemental](monster/small_earth_elemental)"
 		],
 		"mythic_members": [
-			"[Elder Earth Elemental](monster/elder_earth_elemental)"
+			"- [Elder Earth Elemental](monster/elder_earth_elemental)"
 		],
 		"description": [
 			"## Elemental (Earth)",
@@ -2845,7 +2848,7 @@
 			"- [Small Fire Elemental](monster/small_fire_elemental)"
 		],
 		"mythic_members": [
-			"[Elder Fire Elemental](monster/elder_fire_elemental)"
+			"- [Elder Fire Elemental](monster/elder_fire_elemental)"
 		],
 		"description": [
 			"## Elemental (Fire)",
@@ -3019,7 +3022,7 @@
 			"- [Small Water Elemental](monster/small_water_elemental)"
 		],
 		"mythic_members": [
-			"[Elder Water Elemental](monster/elder_water_elemental)"
+			"- [Elder Water Elemental](monster/elder_water_elemental)"
 		],
 		"description": [
 			"## Elemental (Water)",
@@ -3123,7 +3126,7 @@
 			"- [Armadillo](monster/armadillo)",
 			"- [Bat](monster/bat)",
 			"- [Blue-Ringed Octopus](monster/blue-ringed_octopus)",
-			"- [Butterfly/Moth](monster/butterfly_moth)",
+			"- [Butterfly/Moth](monster/butterfly_or_moth)",
 			"- [Cat](monster/cat)",
 			"- [Chicken](monster/chicken)",
 			"- [Cockroach](monster/cockroach)",
@@ -3396,7 +3399,7 @@
 			"- [Wood Golem](monster/wood_golem)"
 		],
 		"mythic_members": [
-			"[Flesh Golem](monster/flesh_golem)"
+			"- [Flesh Golem](monster/flesh_golem)"
 		],
 		"description": [
 			"## Golem",
@@ -3900,7 +3903,7 @@
 		"name": "Kyton Demagogue",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
-			"[Inkariax](monster/inkariax)"
+			"- [Inkariax](monster/inkariax)"
 		],
 		"description": [
 			"## Kyton Demagogue",
@@ -4508,7 +4511,7 @@
 		"members": [
 			"- [Chavazvug](monster/chavazvug)",
 			"- [Isph-Aun-Vuln](monster/isph-aun-vuln)",
-			"- [Qaur-Ooung](monster/qaur-ooung)",
+			"- [Oaur-Ooung](monster/oaur-ooung)",
 			"- [Thuskchoon](monster/thuskchoon)",
 			"- [Yamasoth](monster/yamasoth)"
 		],
@@ -4735,7 +4738,7 @@
 		"name": "Siktempora",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"members": [
-			"[Misery Siktempora](monster/misery_siktempora)"
+			"- [Misery Siktempora](monster/misery_siktempora)"
 		],
 		"description": [
 			"## Siktempora",

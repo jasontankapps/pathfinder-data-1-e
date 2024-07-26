@@ -437,7 +437,7 @@
 			"",
 			"Chelaracs appear as enormous spiders that have a human head with spiderlike mouthparts. They are usually a greenish-yellow hue, and their abdomen is covered in dozens of fluid-filled sacs in which their young gestate. A typical chelarac stands 7 feet tall, has a leg span of 10 feet, and weighs over 800 pounds.",
 			"",
-			"Chelaracs are dangerous monsters that become even more dangerous as the fight goes on. Thankfully, these reclusive creatures live in isolated lairs underground or within ruins far from regular foot traffic. Some adventurers initially mistake chelaracs for [araneas](unknown/araneas), often underestimating their danger.",
+			"Chelaracs are dangerous monsters that become even more dangerous as the fight goes on. Thankfully, these reclusive creatures live in isolated lairs underground or within ruins far from regular foot traffic. Some adventurers initially mistake chelaracs for [araneas](monster/aranea), often underestimating their danger.",
 			"",
 			"These creatures can siphon memories from their victims, and they use this stolen knowledge to gain a better understanding of the outside world. Since they are typically encountered by explorers and adventurers, chelaracs obtain exciting and esoteric lore from their victims. Chelaracs are also long-lived, their life spans sometimes lasting for thousands of years. Taken together, this means that chelaracs can become living libraries of obscure lore and valuable information that would otherwise be lost to the march of time. Some creatures seek out chelaracs in hopes of learning from them; few chelaracs welcome strangers into their lairs, so interested parties must bargain with the monsters for their secrets. These bargains usually involve the stranger voluntarily subjecting herself to the chelarac's bite so that the monster can siphon her memories in exchange for the sought-after lore.",
 			"",
@@ -490,7 +490,7 @@
 			"",
 			"Chelaracs appear as enormous spiders that have a human head with spiderlike mouthparts. They are usually a greenish-yellow hue, and their abdomen is covered in dozens of fluid-filled sacs in which their young gestate. A typical chelarac stands 7 feet tall, has a leg span of 10 feet, and weighs over 800 pounds.",
 			"",
-			"Chelaracs are dangerous monsters that become even more dangerous as the fight goes on. Thankfully, these reclusive creatures live in isolated lairs underground or within ruins far from regular foot traffic. Some adventurers initially mistake chelaracs for [araneas](unknown/araneas), often underestimating their danger.",
+			"Chelaracs are dangerous monsters that become even more dangerous as the fight goes on. Thankfully, these reclusive creatures live in isolated lairs underground or within ruins far from regular foot traffic. Some adventurers initially mistake chelaracs for [araneas](monster/aranea), often underestimating their danger.",
 			"",
 			"These creatures can siphon memories from their victims, and they use this stolen knowledge to gain a better understanding of the outside world. Since they are typically encountered by explorers and adventurers, chelaracs obtain exciting and esoteric lore from their victims. Chelaracs are also long-lived, their life spans sometimes lasting for thousands of years. Taken together, this means that chelaracs can become living libraries of obscure lore and valuable information that would otherwise be lost to the march of time. Some creatures seek out chelaracs in hopes of learning from them; few chelaracs welcome strangers into their lairs, so interested parties must bargain with the monsters for their secrets. These bargains usually involve the stranger voluntarily subjecting herself to the chelarac's bite so that the monster can siphon her memories in exchange for the sought-after lore.",
 			"",
@@ -3327,7 +3327,7 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [animate object](unknown/animate_object), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [animate object](spell/animate_object), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
 		]
 	},
 	"clockwork_priest": { "copyof": "clockwork,_clockwork_priest" },
@@ -5651,7 +5651,7 @@
 			"",
 			"**Poison (Ex)** Injury-bite; save Fort DC 25; frequency 1/minute for 10 minutes; effect 1d6 Str; cure 2 consecutive saves.",
 			"",
-			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the [inquisitor](unknown/inquisitor_spell_list) and [paladin](unknown/paladin_spell_list) spell lists as well as those normally available to a [sorcerer](unknown/sorcerer_spell_list). These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
+			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the [inquisitor](main/spells_inquisitor) and [paladin](main/spells_paladin) spell lists as well as those normally available to a [sorcerer](main/spells_sorcerer). These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
 			"",
 			"**Stoke Flames (Ex)** Once per round when a tletli attacks with its wings, it can cause areas of active fire within 30 feet to spread as a free action. An affected 5-foot square of fire spreads to one adjacent square that is not on fire, possibly burning objects or creatures in that space. The tletli determines which adjacent squares are set on fire.",
 			"",

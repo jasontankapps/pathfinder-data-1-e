@@ -740,7 +740,7 @@
 					[ "[Cloak of Shadows](spell/cloak_of_shadows)", 5, "illusion", "shadow", "evil, shadow", "Shadows protect you from bright light and grants defensive abilities" ],
 					[ "[Commune with Texts](spell/commune_with_texts)", 5, "divination", null, null, "Quckly search though a collection of texts to find the right information" ],
 					[ "[Cure Light Wounds, Mass](spell/cure_light_wounds,_mass)", 5, "conjuration", "healing", null, "Cures 1d8 damage + 1/level, affects 1 subject/level." ],
-					[ "[Curse of the Outcast](spell/curse_of_the_outcast)", 5, "enchantment (compulsion) [curse, emotion, mind-affecting]", null, null, "Curse someone to rub people the wrong way." ],
+					[ "[Curse of the Outcast](spell/curse_of_the_outcast)", 5, "enchantment", "compulsion", "curse, emotion, mind-affecting", "Curse someone to rub people the wrong way." ],
 					[ "[Deafening Song Bolt](spell/deafening_song_bolt)", 5, "evocation", null, "sonic", "Blast of song deals 3d10 damage and deafens targets." ],
 					[ "[Death Pact](spell/death_pact)", 5, "enchantment", null, "mind-affecting", "Take control of a creature's mind and implant deadly subconscious commands." ],
 					[ "[Deceptive Redundancy](spell/deceptive_redundancy)", 5, "illusion", "glamer", null, "Protect your magic from attempts to dispel it" ],

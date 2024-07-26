@@ -1572,7 +1572,7 @@
 			"| 51-54 | 2d4 xills | 10 |",
 			"| 55-60 | 1d6 nabasus | 11 |",
 			"| 61-64 | 1d6 dark nagas | 11 |",
-			"| 65-67 | 1 retreiver | 11 |",
+			"| 65-67 | 1 retriever | 11 |",
 			"| 68-72 | 1d6 vrocks | 12 |",
 			"| 73-75 | 1 lich | 12 |",
 			"| 76-78 | 1d6 night hags | 12 |",
@@ -6898,7 +6898,7 @@
 			"",
 			"**Organization:** This lists how the creature is organized, including number ranges as appropriate.",
 			"",
-			"**Treasure:** The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table 12-5](unknown/table_12-5). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game-if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. \"Standard\" treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table 12-5. \"Double\" or \"triple\" treasure indicates the creature has double or triple this standard value. \"Incidental\" indicates the creature has half this standard value, and then only within the confines of its lair. \"None\" indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). \"NPC gear\" indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR (see [Table 14-9](unknown/table_14-9)).",
+			"**Treasure:** The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table 12-5](rule/placing_treasure). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game-if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. \"Standard\" treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table 12-5. \"Double\" or \"triple\" treasure indicates the creature has double or triple this standard value. \"Incidental\" indicates the creature has half this standard value, and then only within the confines of its lair. \"None\" indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). \"NPC gear\" indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR (see [Table 14-9](rule/step_6_gear)).",
 			"",
 			"**Special Abilities:** Finally, any of the creature's more unique special abilities are detailed in full here.",
 			"",
@@ -7241,7 +7241,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
 			"",
-			"Using Tables [1-1](unknown/1-1), [1-4](unknown/1-4), and 1-6, you can now determine many of the creature's other statistics.",
+			"Using Tables [1-1](rule/step_2_target_statistics), [1-4](rule/step_6_skills_and_feats), and 1-6, you can now determine many of the creature's other statistics.",
 			"",
 			"When building a creature's Armor Class, start by adding armor, shield, and natural armor bonuses to its Dexterity modifier. If a creature does not wear armor, give it a tougher hide to get it near its average AC. Remember that creatures with higher hit point totals might have a lower Armor Class, whereas creatures with fewer hit points might have a higher Armor Class. If a creature's Armor Class deviates from the average by more than 5 points, it might not be the right CR.",
 			"",
@@ -7477,7 +7477,7 @@
 			"",
 			"**Acquired Templates:** Some templates, like the [lich](template/lich), are the results of a creature's choice and desire to transform. Others, like the [ghost](template/ghost) template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation-these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
 			"",
-			"**Inherited Templates:** Some templates, such as the [half-dragon](monster/half-dragon) and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\""
+			"**Inherited Templates:** Some templates, such as the [half-dragon](template/half-dragon) and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\""
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7686,7 +7686,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
 			"",
-			"Next, adjust the creature's derived statistics, such as its initiative, AC, saving throws, melee and ranged attack bonuses, BAB, CMB, and CMD. Adjust any special attacks or qualities that are based on the creature's size, Hit Dice, or ability scores. If the creature changed in size, be sure to adjust its AC, attack, CMB, and CMD accordingly (as noted on [Table 2-3](unknown/table_2-3)). Table 2-1 also tracks the average change to the creature's AC, attack rolls, and damage rolls. Add up these values for each step of change between the creature's original and new CR. If the creature changed size, make sure to make changes to its natural armor bonus, as noted on [Table 2-2](unknown/table_2-2). If the creature does not meet these averages, you should consider adjusting its ability scores or Hit Dice to get it closer to the target."
+			"Next, adjust the creature's derived statistics, such as its initiative, AC, saving throws, melee and ranged attack bonuses, BAB, CMB, and CMD. Adjust any special attacks or qualities that are based on the creature's size, Hit Dice, or ability scores. If the creature changed in size, be sure to adjust its AC, attack, CMB, and CMD accordingly (as noted on [Table 2-3](rule/step_2_add_hit_dice)). Table 2-1 also tracks the average change to the creature's AC, attack rolls, and damage rolls. Add up these values for each step of change between the creature's original and new CR. If the creature changed size, make sure to make changes to its natural armor bonus, as noted on [Table 2-2](rule/step_4_skills_and_feats). If the creature does not meet these averages, you should consider adjusting its ability scores or Hit Dice to get it closer to the target."
 		],
 		"parent_topics": [
 			"gamemastering",

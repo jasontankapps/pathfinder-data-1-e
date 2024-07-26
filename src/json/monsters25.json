@@ -4856,9 +4856,10 @@
 			"",
 			"#### Description",
 			"",
-			"Xiomorns comprise two castes: the four-legged mythic [Vault Builders](unknown/vault_builders) and the two-legged non-mythic [Vault Keepers](unknown/vault_keepers). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
+			"Xiomorns comprise two castes: the four-legged mythic [Vault Builders](monster/vault_builder) and the two-legged non-mythic Vault Keepers. Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
+	"vault_keeper": { "copyof": "xiomorn,_vault_keeper" },
 	"xocothian": {
 		"name": "Xocothian",
 		"sources": [ "Inner Sea Gods" ],
@@ -6632,7 +6633,7 @@
 			"",
 			"#### Description",
 			"",
-			"The zhyen is a minor genie that serves as a messenger and servant to greater beings. Despite knowledge of their superior genie status as compared to mortal spellcasters, they often serve as familiars to powerful mages, especially the genie-friends known as [daivrat](monster/daivrat). They can be summoned with the [summon monster II](spell/summon_monster_2) spell.",
+			"The zhyen is a minor genie that serves as a messenger and servant to greater beings. Despite knowledge of their superior genie status as compared to mortal spellcasters, they often serve as familiars to powerful mages, especially the genie-friends known as [daivrat](prestigeclass/daivrat). They can be summoned with the [summon monster II](spell/summon_monster_2) spell.",
 			"",
 			"Each zhyen appears as a miniature djinni from the waist up, broadly muscular and attractive. Beneath the waist, the zhyen has no form at all, instead dissipating into a \"tail\" of the genie's favored element: a wisp of mist for air, a flowing wave for water, a trail of flame for fire, or a seemingly endless shower of stone for earth. This appearance is reflected in the skin tone of the zhyen as well, but has no influence on the genie's powers or abilities.",
 			"",

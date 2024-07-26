@@ -246,7 +246,7 @@
 			"",
 			"As characters enter the larger cosmic struggles of morality and alignment, they are able to gain new tools to help them champion their philosophies.",
 			"",
-			"[Alignment Feats](main/feats): If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store [affirmations](unknown/affirmations) for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost."
+			"[Alignment Feats](main/feats): If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store [affirmations](rule/shifts_and_affirmations) for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -2164,7 +2164,7 @@
 			"",
 			"The skills in the Core Rulebook allow for complex specialization. In some games, the GM might wish to use a smaller list to make characters more broadly talented, to group skills that characters typically choose together, and to speed up the leveling-up process. The consolidated skills system reduces the number of skills by combining related skills. In many cases, the new skills have been renamed to highlight the nature of the consolidated skill. This variant system makes each skill rank matter more. Even after reducing the number of skill ranks granted, characters will be somewhat more skilled. Character classes that are highly skilled, such as the bard or rogue, get the biggest boost.",
 			"",
-			"The consolidated skills system reduces the number of skills from 35 to 12. Many knowledge skills have been placed into larger categories with a similar theme. Knowledge (arcana), for example, is combined with Use Magic Device under Spellcraft. The list of new skills appears on Table 2-1: Consolidated Skills, along with the key ability for each consolidated skill and the core skills it replaces. Several skills are removed and not replicated by this system, as indicated by a dash (-) on Table 2-2: Converting Core Skills. These are typically skills that are less important for adventuring, but can be put back into your game using the [background skills variant](unknown/background_skills_variant). Skills can be converted to and from the consolidated skills system using Table 2-2. This is most helpful when running published adventures or using monsters built using the core system.",
+			"The consolidated skills system reduces the number of skills from 35 to 12. Many knowledge skills have been placed into larger categories with a similar theme. Knowledge (arcana), for example, is combined with Use Magic Device under Spellcraft. The list of new skills appears on Table 2-1: Consolidated Skills, along with the key ability for each consolidated skill and the core skills it replaces. Several skills are removed and not replicated by this system, as indicated by a dash (-) on Table 2-2: Converting Core Skills. These are typically skills that are less important for adventuring, but can be put back into your game using the [background skills variant](rule/background_skills). Skills can be converted to and from the consolidated skills system using Table 2-2. This is most helpful when running published adventures or using monsters built using the core system.",
 			"",
 			"### Table 2-1: Consolidated Skills",
 			"",
@@ -4278,7 +4278,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
 			"",
-			"You must attempt a Spellcraft check as part of the process of crafting a magic item. The DC varies by the item. [See the full rules on creating magic items](unknown/see_the_full_rules_on_creating_magic_items).",
+			"You must attempt a Spellcraft check as part of the process of crafting a magic item. The DC varies by the item. [See the full rules on creating magic items](rule/magic_item_creation).",
 			"",
 			"**Action:** None."
 		],
@@ -7077,7 +7077,7 @@
 			"",
 			"**Backlashing:** When attacking with or activating the item, the user takes 1d6 points of damage from magical energy backlash.",
 			"",
-			"**Cursed:** The item gains a curse. Roll on [Table 15-27](unknown/table_15-27) to determine the curse, or choose an appropriate curse.",
+			"**Cursed:** The item gains a curse. Roll on [Table 15-27](rule/common_cursed_item_effects) to determine the curse, or choose an appropriate curse.",
 			"",
 			"**Energy Weakened:** The item is particularly vulnerable to one random energy type. That energy type ignores the item's hardness and deals double damage to the item (but not to the item's bearer). Determine the energy type randomly, or choose one thematically tied to the challenge that caused the item to have the weakness.",
 			"",
@@ -7315,7 +7315,7 @@
 			"",
 			"### Lowering Your Caster Level",
 			"",
-			"A spellcaster using esoteric material components can voluntarily cast a spell as though she had a lower caster level. This means if she doesn't have enough components-or would like to save some money-she can still cast a less effective version of the spell. She can't lower her caster level to be lower than the level at which she could cast the spell. [Table 4-7: Esoteric Material Component Cost](unknown/table_4-7__esoteric_material_component_cost) shows this value for clerics, druids, and wizards, but a spellcaster with a slower progression has the same limitation. A bard couldn't cast a 3rd-level spell at a caster level lower than 7th, for example.",
+			"A spellcaster using esoteric material components can voluntarily cast a spell as though she had a lower caster level. This means if she doesn't have enough components-or would like to save some money-she can still cast a less effective version of the spell. She can't lower her caster level to be lower than the level at which she could cast the spell. [Table 4-7: Esoteric Material Component Cost](rule/esoteric_material_components) shows this value for clerics, druids, and wizards, but a spellcaster with a slower progression has the same limitation. A bard couldn't cast a 3rd-level spell at a caster level lower than 7th, for example.",
 			"",
 			"For spells that don't continue to increase in power after a certain caster level, it's usually best for the spellcaster to cast that spell as though she were a lower caster level to reduce the cost of her esoteric components."
 		],
@@ -7918,7 +7918,7 @@
 			"",
 			"In this system, the bonus a magic item grants corresponds to the item's starting market price as it appears in the item's original statistics. This price is shown on each table in this section in the \"Starting Price\" column. The second column shows the value of the bonus at a particular price range, and the header indicates to which statistics the bonus applies. In addition, any item that gains an innate item bonus also increases its market price by the amount shown on each table's \"Price Increase\" column.",
 			"",
-			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength-which only grants an enhancement bonus-wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](unknown/altered_item_slots_section_under_wondrous_items)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
+			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength-which only grants an enhancement bonus-wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
 			"",
 			"The price increase means that a significant range of prices doesn't come into play in a campaign that uses this system. For example, if a neck slot item would normally have a base market price of 2,000 gp, it would now grant an additional +1 enhancement bonus to natural armor, and its price would increase by 2,000 gp. That means a neck slot item can't have a final price between 2,000 gp and 3,999 gp. If you need treasure at a value in that range, look at items that don't grant innate bonuses.",
 			"",
@@ -8022,7 +8022,7 @@
 			"",
 			"Rings work in much the same way as wondrous items.",
 			"",
-			"**Removed Items:** Remove all [rings of protection](unknown/rings_of_protection), and add the deflection bonus specified on Table 4-12: Rings to all other rings.",
+			"**Removed Items:** Remove all [rings of protection](magic-ring/ring_of_protection), and add the deflection bonus specified on Table 4-12: Rings to all other rings.",
 			"",
 			"**Multiple Rings:** Note that deflection bonuses granted by multiple rings don't stack. It's up to the GM to decide how to deal with this, with two main options. The first option is to follow the rule outlined above and charge the price increase for each ring-consider the additional cost the price of essentially getting a third ring slot. The other option is to make the deflection bonus granted by rings (and the associated price increases) optional on a ring-by-ring basis, allowing characters to avoid paying twice for a non-stacking bonus. Doing so adds additional bookkeeping, however.",
 			"",

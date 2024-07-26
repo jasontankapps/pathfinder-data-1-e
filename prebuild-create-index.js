@@ -1033,6 +1033,11 @@ const basic_data_groups = {
 		num: 20,
 		type: "General Info"
 	},
+	"main21.json": {
+		link: "main",
+		num: 21,
+		type: "General Info"
+	},
 	"monsters_unique.json": {
 		searchgroup: 11, // monster
 		link: "monster",

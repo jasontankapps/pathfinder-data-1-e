@@ -91,7 +91,7 @@
 			"## Simple Divine Spellcasting [Mythic]",
 			"",
 			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
-			"The creature gains the ability to cast spells from the [cleric](unknown/cleric_spell_list) or [druid](unknown/druid_spell_list) spell list. Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses its Wisdom or Charisma (whichever is higher) to determine its spell DCs.",
+			"The creature gains the ability to cast spells from the [cleric](main/spells_cleric) or [druid](main/spells_druid) spell list. Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses its Wisdom or Charisma (whichever is higher) to determine its spell DCs.",
 			"",
 			"**Format:** simple divine spellcasting  ",
 			"**Location:** Special Attacks."
@@ -540,7 +540,7 @@
 			"## Simple Arcane Spellcasting [Mythic]",
 			"",
 			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
-			"The creature gains the ability to cast spells from the [sorcerer/wizard spell list](unknown/sorcerer_wizard_spell_list). Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses the higher of its Intelligence or Charisma modifiers to determine its spell DCs.",
+			"The creature gains the ability to cast spells from the [sorcerer/wizard spell list](main/spells_wizard). Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses the higher of its Intelligence or Charisma modifiers to determine its spell DCs.",
 			"",
 			"**Format:** simple arcane spellcasting  ",
 			"**Location:** Special Attacks."
@@ -1206,7 +1206,7 @@
 			"## Spells",
 			"",
 			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
-			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](unknown/cleric_domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
+			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
 	"freeze": {

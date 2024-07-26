@@ -3232,6 +3232,7 @@
 		]
 	},
 	"mogaru": { "copyof": "kaiju,_mogaru" },
+	"king_mogaru": { "copyof": "kaiju,_mogaru" },
 	"kaiju,_varklops": {
 		"name": "Kaiju, Varklops",
 		"sources": [

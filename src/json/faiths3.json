@@ -1758,8 +1758,7 @@
 			"",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Choker](monster/choker) - CE (extraplanar)",
 			"- **[Summon Monster V](spell/summon_monster_5):** [Fiendish](template/fiendish) [Grick](monster/grick) - NE",
-			"- **[Summon Monster V](spell/summon_monster_5):** [Gibbering Mouther](monster/gibbering_mouther) - CE (extraplanar)",
-			"- **[Summon Monster VII](spell/summon_monster_7):** [Emkrah](monster/emkrah) - CE"
+			"- **[Summon Monster V](spell/summon_monster_5):** [Gibbering Mouther](monster/gibbering_mouther) - CE (extraplanar)"
 		]
 	},
 	"rowdrosh": {
@@ -2768,7 +2767,7 @@
 			"**Enemies** Asmodeus, Rovagug, Urgathoa, Zon-Kuthon  ",
 			"**Temples** art galleries, cathedrals, gardens, museums, opera houses, theaters  ",
 			"**Holy Days** Crystalhue (day of artistic creation and romantic proposals, Winter solstice)  ",
-			"**Minions** [agathions](unknown/agathions), [azatas](family/azata), fey  ",
+			"**Minions** [agathions](family/agathion), [azatas](family/azata), fey  ",
 			"**Herald** [Spirit of Adoration](monster/spirit_of_adoration) (armored winged woman)  ",
 			"**Favored Weapon** [Glaive](equipment-weapon/glaive)  ",
 			"**Symbol** Multicolored songbird  ",
@@ -8507,7 +8506,7 @@
 			"",
 			"- **[Summon Monster I](spell/summon_monster_1):** [Burning Human Skeleton](template/skeleton) (extraplanar)",
 			"- **[Summon Monster III](spell/summon_monster_3):** [Thoqqua](monster/thoqqua)",
-			"- **[Summon Monster VI](spell/summon_monster_6):** [Burning Fire Giant Skeleton](monster/template/skeleton) (extraplanar)"
+			"- **[Summon Monster VI](spell/summon_monster_6):** [Burning Fire Giant Skeleton](template/skeleton) (extraplanar)"
 		]
 	},
 	"zyphus": {

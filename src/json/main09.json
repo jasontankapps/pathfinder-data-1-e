@@ -480,7 +480,7 @@
 					[ "[Crusader's Edge](spell/crusader's_edge)", 4, "transmutation", null, "good", "Grant a weapon the evil outsider bane quality and nauseate evil outsiders with a critical hit." ],
 					[ "[Cure Critical Wounds](spell/cure_critical_wounds)", 4, "conjuration", "healing", null, "Cures 4d8 damage + 1/level (max +20)." ],
 					[ "[Curse of Magic Negation](spell/curse_of_magic_negation)", 4, "abjuration", null, "curse", "Target gains the negated spellblight." ],
-					[ "[Curse of the Outcast](spell/curse_of_the_outcast)", 4, "enchantment (compulsion) [curse, emotion, mind-affecting]", null, null, "Curse someone to rub people the wrong way." ],
+					[ "[Curse of the Outcast](spell/curse_of_the_outcast)", 4, "enchantment", "compulsion", "curse, emotion, mind-affecting", "Curse someone to rub people the wrong way." ],
 					[ "[Daze, Mass](spell/daze,_mass)", 4, "enchantment", "compulsion", "mind-affecting", "As daze, but affecting multiple creatures." ],
 					[ "[Death Knell Aura](spell/death_knell_aura)", 4, "necromancy", null, "death, evil", "Create an aura that feeds on the souls of those who die within it." ],
 					[ "[Death Ward](spell/death_ward)", 4, "necromancy", null, null, "Grants bonuses against death spells and negative energy." ],

@@ -3855,7 +3855,7 @@
 			"",
 			"You've seen the reapers many times, and have learned something of their methods.  ",
 			"**Prerequisites:** Character level 9th, [duskwalker](race/duskwalker), ghost hunter racial trait.  ",
-			"**Benefit:** When you use your ghost hunter racial trait to grant a scythe, quarterstaff, whip, or bow the ghost touch weapon special ability, you also grant the [undead-bane](unknown/undead-bane) weapon special ability. You also gain an additional daily use of ghost hunter."
+			"**Benefit:** When you use your ghost hunter racial trait to grant a scythe, quarterstaff, whip, or bow the ghost touch weapon special ability, you also grant the [undead-bane](magic-enhancement/bane) weapon special ability. You also gain an additional daily use of ghost hunter."
 		]
 	},
 	"vaporous_potion": {
@@ -4073,7 +4073,7 @@
 			"",
 			"You can travel between magic plants and plants with which you have an affinity.  ",
 			"**Prerequisites:** Con 13, character level 7th, plant type.  ",
-			"**Benefit:** Once per day, you can step into an adjacent plant with which you share affinity, then exit from a plant of the same kind. This functions as [tree stride](spell/tree_stride) with the following changes: the duration is 1 round; the transport range is 200 feet per character level; transporting yourself is a standard action; and a [ghoran](race/ghoran) using this ability can pass through any living tree, while a [vine leshy](monster/vine_leshy) can pass through any living vine. You can also enter any magically created or enhanced plants, such as those produced by [wall of thorns](spell/wall_of_thorns) or plants affected by [entangle](spell/entangle), then exit from either another similar plant or a plant with which you have an affinity.  ",
+			"**Benefit:** Once per day, you can step into an adjacent plant with which you share affinity, then exit from a plant of the same kind. This functions as [tree stride](spell/tree_stride) with the following changes: the duration is 1 round; the transport range is 200 feet per character level; transporting yourself is a standard action; and a [ghoran](race/ghoran) using this ability can pass through any living tree, while a [vine leshy](race/vine_leshy) can pass through any living vine. You can also enter any magically created or enhanced plants, such as those produced by [wall of thorns](spell/wall_of_thorns) or plants affected by [entangle](spell/entangle), then exit from either another similar plant or a plant with which you have an affinity.  ",
 			"**Special:** The GM determines plant affinity for non-ghoran and non-vine leshy plant creatures."
 		]
 	},

@@ -6987,7 +6987,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster, except that it summons 1d3 [esobok psychopomps](monster/esobak_psychopomp) or 1d4+1 [nosoi psychopomps](monster/nosoi_psychopomp)."
+			"This spell functions like summon monster, except that it summons 1d3 [esobok psychopomps](monster/esobak) or 1d4+1 [nosoi psychopomps](monster/nosoi)."
 		]
 	},
 	"summon_meladaemon": {
@@ -7931,7 +7931,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster, except that it summons a single [vanth psychopomp](monster/vanth_psychopomp)."
+			"This spell functions like summon monster, except that it summons a single [vanth psychopomp](monster/vanth)."
 		]
 	},
 	"summoner_conduit": {

@@ -692,7 +692,7 @@
 			"",
 			"**Source** [Horror Adventures pg. 22](source/horror_adventures)  ",
 			"You have the mark of a fiend on your body.  ",
-			"**Gift:** You gain a 1st-level [sorcerer/wizard](unknown/wizard_sorcerer_spell_list) or [witch](unknown/witch_spell_list) spell of your choice as a spell-like ability usable a number of times per day equal to your manifestation level. It must not have a casting time longer than 1 standard action or a material or focus component costing more than 1 gp.  ",
+			"**Gift:** You gain a 1st-level [sorcerer/wizard](main/spells_wizard) or [witch](main/spells_witch) spell of your choice as a spell-like ability usable a number of times per day equal to your manifestation level. It must not have a casting time longer than 1 standard action or a material or focus component costing more than 1 gp.  ",
 			"**Stain:** Your devil's mark manifests on your body. It can't be hidden by magic, but can be hidden by clothing or other mundane means. Anyone who sees the mark automatically recognizes it as unnatural.",
 			"",
 			"#### Diabolical Servitor",
@@ -949,7 +949,7 @@
 			"**Source** [Horror Adventures pg. 27](source/horror_adventures)  ",
 			"You have gained unusual insights into necromancy.  ",
 			"**Prerequisite:** Manifestation level 2nd, ability to cast spells.  ",
-			"**Gift:** You can add one necromancy spell from the [sorcerer/wizard](unknown/wizard_sorcerer_spell_list) spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list. If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the [cleric](unknown/cleric_spell_list) or [witch](unknown/witch_spell_list) spell list instead.  ",
+			"**Gift:** You can add one necromancy spell from the [sorcerer/wizard](main/spells_wizard) spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list. If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the [cleric](main/spells_cleric) or [witch](main/spells_witch) spell list instead.  ",
 			"**Stain:** You cast any spell from a school other than necromancy as though your caster level were 1 lower, which might prevent you from casting the spell altogether.  ",
 			"**Special:** You can gain this manifestation multiple times. Each time you gain the gift, you gain a different necromancy spell, and each time you gain the stain, the penalties stack."
 		]

@@ -559,11 +559,11 @@
 			"",
 			"**Sources** [Champions of Corruption](source/champions_of_corruption)",
 			"",
-			"- [Damned Petitioner (LE)](monster/petitioner)",
+			"- [Damned Petitioner (LE)](template/petitioner)",
 			"- [Fiendish Squid (NE)](monster/squid)",
 			"- [Fuath (Gremlin, CE)](monster/fuath)",
-			"- [Hunted Petitioner (NE)](monster/petitioner)",
-			"- [Larvae Petitioner (CE)](monster/petitioner)",
+			"- [Hunted Petitioner (NE)](template/petitioner)",
+			"- [Larvae Petitioner (CE)](template/petitioner)",
 			"- [Lemure (Devil, LE)](monster/lemure) [evil, lawful]",
 			"- [Pugwampi (Gremlin, NE)](monster/pugwampi)"
 		]
@@ -3024,8 +3024,7 @@
 			"",
 			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye)",
 			"",
-			"- [Advanced Entropic Girtablilu](monster/girtablilu) [^I]",
-			"- [Emkrah (CE)](monster/emkrah)"
+			"- [Advanced Entropic Girtablilu](monster/girtablilu) [^I]"
 		],
 		"footnotes": ["I"]
 	},

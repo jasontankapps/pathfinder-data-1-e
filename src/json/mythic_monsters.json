@@ -1635,6 +1635,7 @@
 		]
 	},
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
 	"dragon_red,_young_red_dragon_mythic": {
 		"name": "Dragon (Red), Young Red Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -3582,6 +3583,7 @@
 	},
 	"agnishvatta_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
 	"solar_pitri_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
+	"solar_pitri": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
 	"manticore_mythic": {
 		"name": "Manticore",
 		"sources": [ "Mythic Adventures" ],
@@ -4666,6 +4668,7 @@
 		]
 	},
 	"danava_mythic": { "copyof": "titan,_danava_mythic" },
+	"danava": { "copyof": "titan,_danava_mythic" },
 	"titan,_fomorian_titan_mythic": {
 		"name": "Titan, Fomorian Titan",
 		"sources": [ "Bestiary 4" ],
@@ -4727,6 +4730,7 @@
 		]
 	},
 	"fomorian_titan_mythic": { "copyof": "titan,_fomorian_titan_mythic" },
+	"fomorian_titan": { "copyof": "titan,_fomorian_titan_mythic" },
 	"treant_mythic": {
 		"name": "Treant",
 		"sources": [ "Mythic Adventures" ],
@@ -5300,7 +5304,7 @@
 			"#### Ecology",
 			"",
 			"**Environment** any  ",
-			"**Organization** solitary, pair, or foundation (2 plus 4-20 [Vault Keepers](unknown/vault_keepers))  ",
+			"**Organization** solitary, pair, or foundation (2 plus 4-20 [Vault Keepers](monster/vault_keeper))  ",
 			"**Treasure** triple",
 			"",
 			"#### Special Abilities",
@@ -5321,8 +5325,9 @@
 			"",
 			"#### Description",
 			"",
-			"Xiomorns comprise two castes: the four-legged mythic [Vault Builders](unknown/vault_builders) and the two-legged non-mythic [Vault Keepers](unknown/vault_keepers). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
+			"Xiomorns comprise two castes: the four-legged mythic Vault Builders and the two-legged non-mythic [Vault Keepers](monster/vault_keeper). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
-	"xiomorn_vault_builder_mythic": { "copyof": "xiomorn,_vault_builder_mythic" }
+	"xiomorn_vault_builder_mythic": { "copyof": "xiomorn,_vault_builder_mythic" },
+	"vault_builder": { "copyof": "xiomorn,_vault_builder_mythic" }
 }

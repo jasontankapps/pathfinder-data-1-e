@@ -18,12 +18,14 @@ import main17 from '../src/json/main17.json' assert {type: 'json'};
 import main18 from '../src/json/main18.json' assert {type: 'json'};
 import main19 from '../src/json/main19.json' assert {type: 'json'};
 import main20 from '../src/json/main20.json' assert {type: 'json'};
+import main21 from '../src/json/main21.json' assert {type: 'json'};
 
 const main = {
 	...main1, ...main2, ...main3, ...main4, ...main5,
 	...main6, ...main7, ...main8, ...main9, ...main10,
 	...main11, ...main12, ...main13, ...main14, ...main15,
 	...main16, ...main17, ...main18, ...main19, ...main20,
+	...main21
 };
 
 function isGood(value) {

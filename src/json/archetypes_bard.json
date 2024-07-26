@@ -86,7 +86,7 @@
 			"",
 			"**Evasion (Ex):** At 6th level, an archaeologist gains [evasion, as the rogue ability of the same name](class/rogue).",
 			"",
-			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an [advanced rogue talent](unknown/advanced_rogue_talent) in place of a rogue talent."
+			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an [advanced rogue talent](ability/advanced_rogue_talents) in place of a rogue talent."
 		]
 	},
 	"archivist": {
@@ -186,11 +186,11 @@
 			"",
 			"**Bardic Performance:** An Averaka arbiter gains the following types of bardic performance.",
 			"",
-			"**Inspire Teamwork (Ex):** A 3rd-level Averaka arbiter can use his performance to treat his allies as if they possessed the same [teamwork feats](unknown/teamwork_feats) as the bard for the purpose of determining whether the bard receives a bonus from his teamwork feats. His allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for the bard to receive the listed bonus. This performance replaces inspire competence.",
+			"**Inspire Teamwork (Ex):** A 3rd-level Averaka arbiter can use his performance to treat his allies as if they possessed the same [teamwork feats](main/feats_teamwork) as the bard for the purpose of determining whether the bard receives a bonus from his teamwork feats. His allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for the bard to receive the listed bonus. This performance replaces inspire competence.",
 			"",
 			"**Ritual of Reconciliation (Su):** An Averaka arbiter of 8th level or higher can use his performance to improve the attitudes of nearby creatures by two steps. To be affected, a creature must be within 30 feet and able to hear the bard. Creatures whose attitude toward the bard becomes indifferent or better immediately cease attacking the bard and his allies, but may otherwise act as they please. The effect persists for as long as the creature is within 30 feet and the bard continues his performance. The effect ends if one of the bard's allies attacks the creature. A successful Will saving throw (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) negates the effect. Ritual of reconciliation relies on audible components. This performance replaces dirge of doom.",
 			"",
-			"**Versatile Teamwork (Ex):** At 2nd level, an Averaka arbiter gains a bonus [teamwork feat](unknown/teamwork_feat). He gains an additional bonus teamwork feat at 6th level and every 4 levels thereafter. This ability replaces versatile performance and well-versed."
+			"**Versatile Teamwork (Ex):** At 2nd level, an Averaka arbiter gains a bonus [teamwork feat](main/feats_teamwork). He gains an additional bonus teamwork feat at 6th level and every 4 levels thereafter. This ability replaces versatile performance and well-versed."
 		]
 	},
 	"brazen_deceiver": {
@@ -736,7 +736,7 @@
 			"",
 			"**Faithful:** Like a cleric, a faith singer must worship a deity, and his alignment must be within one step of his deity's alignment.",
 			"",
-			"**Devout Spell Knowledge (Su):** At 2nd level, a faith singer can select one [domain](unknown/domain) from among those belonging to his deity. Once per day as a spell-like ability using his bard level as his caster level, he can cast the 1st-level domain spell while giving a bardic performance. At 6th level, and every 4 bard levels thereafter, he can similarly cast the next-higher domain spell as a spell-like ability (to a maximum of the 5th-level domain spell at bard level 18th). He can use each spell-like ability only once per day.",
+			"**Devout Spell Knowledge (Su):** At 2nd level, a faith singer can select one [domain](ability/domains) from among those belonging to his deity. Once per day as a spell-like ability using his bard level as his caster level, he can cast the 1st-level domain spell while giving a bardic performance. At 6th level, and every 4 bard levels thereafter, he can similarly cast the next-higher domain spell as a spell-like ability (to a maximum of the 5th-level domain spell at bard level 18th). He can use each spell-like ability only once per day.",
 			"",
 			"This ability replaces versatile performance."
 		]
@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub_gremlin), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
 			"",
 			"This replaces inspire competence."
 		]
@@ -1096,7 +1096,7 @@
 			"",
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a concentration check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
-			"**Evasion (Ex):** At 2nd level, a juggler gains [evasion, as the rogue class feature of the same name](class/rogue). At 12th level, he gains improved evasion, as the [rogue advanced talent](unknown/rogue_advanced_talent). This ability replaces well-versed and soothing performance."
+			"**Evasion (Ex):** At 2nd level, a juggler gains [evasion, as the rogue class feature of the same name](class/rogue). At 12th level, he gains improved evasion, as the [rogue advanced talent](ability/advanced_rogue_talents). This ability replaces well-versed and soothing performance."
 		]
 	},
 	"lotus_geisha": {
@@ -1304,7 +1304,7 @@
 			"",
 			"**Master of Rhetoric (Ex):** At 5th level, the negotiator can take 10 on any Bluff, Diplomacy, Intimidate, Knowledge (local), or Sense Motive check if he has ranks in that skill. A negotiator can choose not to take 10 and can instead roll normally. In addition, the negotiator can take 20 on one of those skill checks (without spending any additional time). The negotiator can do this once per day at 5th level, twice per day at 11th level, and three times per day at 17th level. This ability replaces lore master.",
 			"",
-			"**Advanced Talents:** At 10th level and every 4 levels thereafter, a negotiator can select an [advanced rogue talent](unknown/advanced_rogue_talent) in place of a rogue talent. A negotiator cannot select an advanced talent that modifies the sneak attack ability."
+			"**Advanced Talents:** At 10th level and every 4 levels thereafter, a negotiator can select an [advanced rogue talent](ability/advanced_rogue_talents) in place of a rogue talent. A negotiator cannot select an advanced talent that modifies the sneak attack ability."
 		]
 	},
 	"phrenologist": {
@@ -1791,7 +1791,7 @@
 			"",
 			"This ability replaces distraction.",
 			"",
-			"**Comparative Arcane Studies (Su):** At 6th level, the studious librarian is exposed to a wide variety of magical writing, and can use his own magic to duplicate spells from other classes' spell lists. Once per day, a studious librarian can cast any spell from the [bard](unknown/bard_spell_list), [sorcerer/wizard](unknown/sorcerer_wizard_spell_list), or [witch](unknown/witch_spell_list) spell lists from a scroll or spellbook in hand as if it were one of his bard spells known, expending a bard spell slot of the same spell level to cast the desired spell. Casting a spell from a scroll this way does not cause the spell to vanish from the scroll. A spell cast in this way cannot be modified by metamagic. The studious librarian gains one additional daily use of this ability at 10th level and again every 4 bard levels thereafter, to a maximum of four times per day at 18th level.",
+			"**Comparative Arcane Studies (Su):** At 6th level, the studious librarian is exposed to a wide variety of magical writing, and can use his own magic to duplicate spells from other classes' spell lists. Once per day, a studious librarian can cast any spell from the [bard](main/spells_bard), [sorcerer/wizard](main/spells_wizard), or [witch](main/spells_witch) spell lists from a scroll or spellbook in hand as if it were one of his bard spells known, expending a bard spell slot of the same spell level to cast the desired spell. Casting a spell from a scroll this way does not cause the spell to vanish from the scroll. A spell cast in this way cannot be modified by metamagic. The studious librarian gains one additional daily use of this ability at 10th level and again every 4 bard levels thereafter, to a maximum of four times per day at 18th level.",
 			"",
 			"This ability replaces suggestion and jack-of-all-trades.",
 			"",
@@ -1884,7 +1884,7 @@
 			"",
 			"**Wild Knowledge (Ex):** At 1st level, a voice of the wild adds 1/2 his level (minimum 1) to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic knowledge.",
 			"",
-			"**Nature Magic:** At 1st level, a voice of the wild can select a 1st-level [druid](unknown/druid_spell_list) or [ranger](unknown/ranger_spell_list) spell as a bard spell known instead of a spell from the bard spell list. The voice of the wild can select another druid or ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he chooses to learn a new spell in place of an old one, he can exchange a druid or ranger spell for another. This ability replaces countersong, all instances of versatile performance, and jack-of-all-trades.",
+			"**Nature Magic:** At 1st level, a voice of the wild can select a 1st-level [druid](main/spells_druid) or [ranger](main/spells_ranger) spell as a bard spell known instead of a spell from the bard spell list. The voice of the wild can select another druid or ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he chooses to learn a new spell in place of an old one, he can exchange a druid or ranger spell for another. This ability replaces countersong, all instances of versatile performance, and jack-of-all-trades.",
 			"",
 			"**Bardic Performance:** Voices of the wild gain the following bardic performance.",
 			"",

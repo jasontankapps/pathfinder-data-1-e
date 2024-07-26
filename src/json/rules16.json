@@ -1371,7 +1371,7 @@
 			"",
 			"**With the Critical Fumble Deck:** If you're using the [Pathfinder Cards: Critical Fumble Deck](unknown/pathfinder_cards__critical_fumble_deck) in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren't using it to add other fumbles.",
 			"",
-			"**With Wild Magic:** You can use [Table 4-4: Wild Magic Surge](unknown/table_4-4__wild_magic_surge) instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
+			"**With Wild Magic:** You can use [Table 4-4: Wild Magic Surge](rule/wild_magic) instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
 			"",
 			"**With Spell Attack Rolls:** When using the [spell attack roll variant](unknown/spell_attack_roll_variant), a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time-if it would miss again, the spell has fumbled."
 		],
@@ -1805,7 +1805,7 @@
 			"",
 			"**Deity:** At 1st level, she must select a deity within one alignment step of her own. She gains the cleric's aura, bonus languages, code of conduct, and restriction from casting spells of opposed alignments. She also gains the cleric's spontaneous casting ability, which she can use with any prepared casting classes that have the appropriate spells on their spell lists.",
 			"",
-			"**Domain:** At 3rd level, she selects one [domain](unknown/domain) her deity grants, gaining that domain's 1st-level granted power, treating her character level as her effective cleric level.",
+			"**Domain:** At 3rd level, she selects one [domain](ability/domains) her deity grants, gaining that domain's 1st-level granted power, treating her character level as her effective cleric level.",
 			"",
 			"**Channel:** At 7th level, she gains the ability to channel energy as a cleric of her character level - 6 a number of times per day equal to her Charisma modifier + 1.",
 			"",

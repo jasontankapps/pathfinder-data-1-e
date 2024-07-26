@@ -1184,7 +1184,7 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
 			"",
-			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](unknown/ankle_bracelets_of_speed) or [horseshoes of spider climb](unknown/horseshoes_of_spider_climb) that act just like their traditional magic item counterparts, but fit the new race's form."
+			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](magic-wondrous/boots_of_speed) or [horseshoes of spider climb](magic-wondrous/slippers_of_spider_climb) that act just like their traditional magic item counterparts, but fit the new race's form."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1681,7 +1681,7 @@
 			"",
 			"**Step 2-Continue Ongoing Downtime Activity:** Your first priority is continuing a downtime activity that requires more than 1 day. Depending on the specific requirements of that activity, interrupting it might ruin any progress you've made. Some activities might require only a small bit of your attention and still allow you to perform other downtime activities in this phase.",
 			"",
-			"**Step 3-Begin New Downtime Activity:** If you aren't continuing an earlier downtime activity, or are continuing one that doesn't restrict you from starting a new activity, you can begin a new downtime activity. [The list of downtime activities can be found here](unknown/the_list_of_downtime_activities_can_be_found_here).",
+			"**Step 3-Begin New Downtime Activity:** If you aren't continuing an earlier downtime activity, or are continuing one that doesn't restrict you from starting a new activity, you can begin a new downtime activity. [The list of downtime activities can be found here](rule/downtime_activities).",
 			"",
 			"Example: Patrick's character has been crafting a [wand of fireball](spell/fireball), but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
 		],
@@ -1937,7 +1937,7 @@
 			"",
 			"1. Find the item's price in silver pieces (1 gp = 10 sp).",
 			"",
-			"2. Find the item's DC from [Table 4-4: Craft Skills](unknown/table_4-4__craft_skills).",
+			"2. Find the item's DC from [Table 4-4: Craft Skills](skill/craft).",
 			"",
 			"3. Pay 1/3 of the item's price in gp for the raw material cost. You may also spend Goods toward this cost.",
 			"",
@@ -2630,7 +2630,7 @@
 			"",
 			"A manager is a competent employee qualified to run a business while you're gone, even for weeks or months at a time. A manager is authorized to make certain decisions about your property while you're away, such as paying tax collectors, banning cultists from your store, and handling emergency situations.",
 			"",
-			"Having a manager delays capital attrition [Upkeep phase step 3](unknown/upkeep_phase_step_3)) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](unknown/see_step_4_of_the_upkeep_phase)).",
+			"Having a manager delays capital attrition [Upkeep phase step 3](rule/upkeep_phase)) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](rule/upkeep_phase)).",
 			"",
 			"Unlike a team, a manager requires daily wages paid in gp. It's customary to pay a manager in advance when you're going to be absent, or arrange to pay wages through a bank or accountant. If you trust the manager, you can even allow her to take wages out of your business's earnings or from money you've set aside for your building or organization.",
 			"",
@@ -5533,13 +5533,13 @@
 			"| 81-95 | Unstable foundation |",
 			"| 96-100 | Arson |",
 			"",
-			"**Arson:** Someone sets your House on fire to send you a message. Treat this as the [fire general building event](unknown/fire_general_building_event).",
+			"**Arson:** Someone sets your House on fire to send you a message. Treat this as the [fire generic building event](rule/generic_building_events).",
 			"",
 			"**Buried Relic:** You find an unusual object on your property-a gem, piece of jewelry, or magic item worth 300 gp or less. There's a 5% chance that the item is cursed or in some way faulty. Each time you roll this event, the chance of a cursed item increases by 5% (maximum 30% chance).",
 			"",
 			"**Fussy Neighbor:** A highly influential neighbor insists that you remodel some of your House's rooms. Choose 1d3 random rooms in your House to renovate, and pay an amount of gp equal to 20% of the cost of those rooms. For every 2 points of Influence you own, the gp cost decreases by 5%; if this reduces the cost to 0, you don't have to remodel. If you refuse to remodel, you lose 1d4 points of Influence.",
 			"",
-			"**Haunting:** A supernatural presence enters your home. Roll d%; on a 01-20, the presence is harmful, on a 21- 80, it's mischievous, and on an 81-100 it's helpful. A harmful presence increases [capital attrition](unknown/capital_attrition) of 1 point of Goods, Influence, Labor, and Magic per week, and has a 10% chance per night of attacking one overnight guest with a nightmare. A mischievous presence might bring bad luck (50%) or good luck (50%) to one roll for anyone who sleeps in your home; bad luck functions as if the subject were affected by the [touch of chaos granted power from the Chaos domain](unknown/touch_of_chaos_granted_power_from_the_chaos_domain), and good luck functions as if the subject were affected by the [bit of luck granted power from the Luck domain](unknown/bit_of_luck_granted_power_from_the_luck_domain). A helpful presence must be appeased once every 7 days with a successful DC 15 Diplomacy check. If you succeed at the check, you also gain 1 point of Influence or Labor (your choice). If you fail, the presence leaves on its own. Getting rid of any variety of supernatural presence requires appropriate spells or spending 2d6 points of Magic.",
+			"**Haunting:** A supernatural presence enters your home. Roll d%; on a 01-20, the presence is harmful, on a 21- 80, it's mischievous, and on an 81-100 it's helpful. A harmful presence increases [capital attrition](unknown/capital_attrition) of 1 point of Goods, Influence, Labor, and Magic per week, and has a 10% chance per night of attacking one overnight guest with a nightmare. A mischievous presence might bring bad luck (50%) or good luck (50%) to one roll for anyone who sleeps in your home; bad luck functions as if the subject were affected by the [touch of chaos granted power from the Chaos domain](domain/chaos), and good luck functions as if the subject were affected by the [bit of luck granted power from the Luck domain](domain/luck). A helpful presence must be appeased once every 7 days with a successful DC 15 Diplomacy check. If you succeed at the check, you also gain 1 point of Influence or Labor (your choice). If you fail, the presence leaves on its own. Getting rid of any variety of supernatural presence requires appropriate spells or spending 2d6 points of Magic.",
 			"",
 			"**Neighbor Rivalry:** You have a disagreement with a neighbor. Attempt a DC 15 Diplomacy or Intimidate check. If you succeed, the event ends. If you fail, you lose 1 point of Influence and must attempt another check each day, increasing the DC by 2 each time. At any time you can bury the hatchet and spend Goods or Labor (1 + 1 for each time you failed the check to end this event) to end the event by doing something nice for the neighbor.",
 			"",
@@ -5650,11 +5650,11 @@
 			"| 71-75 | Bookworm infestation |",
 			"| 76-100 | Stolen books |",
 			"",
-			"**Bookworm Infestation:** Your Library has become infested with the bane of the printed page-bookworms. You lose 1 point each of Goods and Magic. Proceed as if this were the [infestation event from the Generic Building Events section](unknown/infestation_event_from_the_generic_building_events_section), except that you lose 1 point each of Goods and Magic each day the infestation persists.",
+			"**Bookworm Infestation:** Your Library has become infested with the bane of the printed page-bookworms. You lose 1 point each of Goods and Magic. Proceed as if this were the [infestation event from the Generic Building Events section](rule/generic_building_events), except that you lose 1 point each of Goods and Magic each day the infestation persists.",
 			"",
 			"**Famous Writer:** A famous writer wants to use your Library for research for 2d6 days. Each day the writer remains, you gain 1 point of Influence. The writer leaves early if any event causes you to lose Goods or Magic. If the writer leaves early, you must succeed at a DC 20 Bluff or Diplomacy check to avoid losing twice the amount of Influence you gained from the visiting writer because of negative rumors.",
 			"",
-			"**Fire:** A fire breaks out. See the [fire event in Generic Building Events](unknown/fire_event_in_generic_building_events). This is always a major fire.",
+			"**Fire:** A fire breaks out. See the [fire event in Generic Building Events](rule/generic_building_events). This is always a major fire.",
 			"",
 			"**Pile of Books:** Your Library has the chance to acquire a large number of books. These could come from an estate sale, ally, or adventurers who found old tomes in a dungeon. Attempt a DC 25 Bluff or Diplomacy check. On a success, the owner donates the books; on a failure, you may purchase them by paying 100 gp for each point by which you failed the check. If you attain the books either way, you gain 1d2 points of Goods and 1d2 points of Magic.",
 			"",
@@ -5772,7 +5772,7 @@
 			"",
 			"**Experiment Amok:** A student's experiment has broken loose! This is a monster chosen by the GM, with a CR equal to your average party level-usually a construct, outsider, or even an undead, though your favored type of magic may mean other kinds of creatures are possible. You must defeat the monster in combat (your students flee the creature, but other PCs may help you defeat it if they are present). At the end of each combat round the monster remains alive, its rampage deals damage to the building, costing 1 point of Goods, Magic, or Labor (chosen randomly each time).",
 			"",
-			"**Explosion:** Treat this as the [explosion event for the Alchemist building](unknown/explosion_event_for_the_alchemist_building).",
+			"**Explosion:** Treat this as the [explosion event for the Alchemist building](rule/alchemist_events).",
 			"",
 			"**Hazing Gone Wrong:** One of your students is the victim of a cruel prank at the hands of the other students. The hazing event is shameful and dangerous, and you lose 1d6 points of Influence as the community learns of it. You must succeed at a DC 20 Heal or Spellcraft check to help the student. If you fail the check, the student dies or is permanently maimed, and you lose another 2d6 points of Influence, 1d6 points of Labor, and 1d3 points of Magic in dealing with the repercussions of the hazing.",
 			"",
@@ -5829,7 +5829,7 @@
 			"| 76-90 | Lost visitor |",
 			"| 91-100 | Unruly druid |",
 			"",
-			"**Contagion:** The creatures in your Menagerie suffer from a mysterious malady. Treat this as the [sickness event from Generic Building Events](unknown/sickness_event_from_generic_building_events), and your building gains the broken condition until the sickness is ended.",
+			"**Contagion:** The creatures in your Menagerie suffer from a mysterious malady. Treat this as the [sickness event from Generic Building Events](rule/generic_building_events), and your building gains the broken condition until the sickness is ended.",
 			"",
 			"**Escaped Animal:** One of your exhibits escapes its cage. If you keep track of specific creatures, determine the escaped creature randomly. Attempt a DC 25 Handle Animal, Perception, Survival, or wild empathy check (or if the escaped creature is intelligent, a Bluff or Diplomacy check) to find the creature and safely return it to its cage. If you fail, you lose 1d6 points of Influence and 1d4 points of Labor, and the building generates no capital that day.",
 			"",
@@ -6076,7 +6076,7 @@
 			"| 66-80 | Forced commission |",
 			"| 81-100 | Deadly accident |",
 			"",
-			"**Deadly Accident:** This is the same as the [deadly accident event from Generic Building Events](unknown/deadly_accident_event_from_generic_building_events), except that there is also a 25% chance that the accident starts a fire (as the fire event in same section).",
+			"**Deadly Accident:** This is the same as the [deadly accident event from Generic Building Events](rule/generic_building_events), except that there is also a 25% chance that the accident starts a fire (as the fire event in same section).",
 			"",
 			"**Exotic Metal:** A supplier offers to sell you a small amount of cold iron, mithral, or adamantine (up to 1,000 gp worth) at a 20% discount. You may spend Goods, Magic, or gp to pay for this metal.",
 			"",
@@ -6152,7 +6152,7 @@
 			"",
 			"**Runaway:** One or more horses in your Stable wander off or run away. Attempt a DC 25 Perception or Survival check to track the horses down. If you fail, you lose 1d6 points of Influence and for the next 1d4 days this building takes a -5 penalty on checks to generate capital.",
 			"",
-			"**Stable Fire:** Treat this as the [fire event from the Generic Building Events section](unknown/fire_event_from_the_generic_building_events_section). If it is a minor fire, there is also a 50% chance that your Stable also has a crazed horse event."
+			"**Stable Fire:** Treat this as the [fire event from the Generic Building Events section](rule/generic_building_events). If it is a minor fire, there is also a 50% chance that your Stable also has a crazed horse event."
 		],
 		"parent_topics": [
 			"exploration",
@@ -6208,7 +6208,7 @@
 			"",
 			"**Notorious Visitor:** A well-known criminal, evil adventurer, or known local troublemaker visits your Tavern with his cronies. There's a 50% chance the visitor starts a bar brawl (as the event above). Otherwise, his presence causes regulars to leave, halving the capital the building generates during the next Income phase. At the GM's discretion, this event could lead to more difficulties with the visitor if he feels you treat him poorly.",
 			"",
-			"**Protection Racket:** This is the same as the [protection racket event from the Shop Events section](unknown/protection_racket_event_from_the_shop_events_section).",
+			"**Protection Racket:** This is the same as the [protection racket event from the Shop Events section](rule/shop_events).",
 			"",
 			"**Rousing Performance:** A talented bard gives a rousing performance at your Tavern, delighting your customers. You gain 1d3 points of Influence, your building gains a +20 bonus on its next check to generate capital, and there's a 25% chance the bard's performance triggers a shenanigans event (see below).",
 			"",
@@ -6277,7 +6277,7 @@
 			"",
 			"**Sacred Ritual:** A ritual sacred to your faith is performed today at your Temple. Spend 2d4 points of Magic and attempt a DC 20 Knowledge (religion) check-if you succeed, faith runs high and you can choose one of the following effects to persist for 1d6 days: the building gains a +10 bonus on all checks (but only one check to generate capital per day), you gain a +2 bonus on one type of skill check, or you may prepare an additional domain spell of your highest domain spell level each day.",
 			"",
-			"**Scandal:** This is the same as the [scandal event for a Monastery](unknown/scandal_event_for_a_monastery), except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see [Generic Building Events](rule/generic_building_events)) ."
+			"**Scandal:** This is the same as the [scandal event for a Monastery](rule/monastery_events), except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see [Generic Building Events](rule/generic_building_events)) ."
 		],
 		"parent_topics": [
 			"exploration",
@@ -6332,7 +6332,7 @@
 			"",
 			"**Full House:** Your Theater is packed-an excellent opportunity to impress people. You gain a +20 bonus on the building's next check to generate capital. Attempt a DC 25 Perform check. If you succeed, word of the performance spreads and you gain 1d4 points of Influence. If you fail, there's a 50% chance that a poor performance event occurs.",
 			"",
-			"**House Fire:** Treat this as a [fire event from the Generic Building Events section](unknown/fire_event_from_the_generic_building_events_section), except there is a 50% chance of a minor fire and a 50% chance of a major fire. Increase any lost capital from the event by 50%.",
+			"**House Fire:** Treat this as a [fire event from the Generic Building Events section](rule/generic_building_events), except there is a 50% chance of a minor fire and a 50% chance of a major fire. Increase any lost capital from the event by 50%.",
 			"",
 			"**Poor Performance:** Everyone has off nights, but your entire cast is missing cues and flubbing lines. You lose 2d4 points of Influence from bad reviews and 1d3 points of Labor from performers who quit out of shame.",
 			"",
@@ -6340,7 +6340,7 @@
 			"",
 			"**Rave Reviews:** Your Theater has done well, and great reviews pour in. You gain 1d6 points of Influence.",
 			"",
-			"**Shenanigans:** This event is similar to the [shenanigans event from the Tavern Events section](unknown/shenanigans_event_from_the_tavern_events_section), though those involved in Theater shenanigans tend to be wealthier and more prominent. If you succeed at a DC 30 Bluff or Diplomacy check, you treat the incident with the proper discretion-you gain 1d6 points of Influence and someone involved gives you a tip of 10d10 gp for your tact.",
+			"**Shenanigans:** This event is similar to the [shenanigans event from the Tavern Events section](rule/tavern_events), though those involved in Theater shenanigans tend to be wealthier and more prominent. If you succeed at a DC 30 Bluff or Diplomacy check, you treat the incident with the proper discretion-you gain 1d6 points of Influence and someone involved gives you a tip of 10d10 gp for your tact.",
 			"",
 			"**Visiting Troupe:** A group of traveling players asks to perform at your Theater. On the first day after this event, the players require full access to your Theater. Since you can't be open to the public, the building generates no capital that day. The troupe remains for 1d4 days, and on those days you gain a +20 bonus on the building's first check to generate capital each day. If the troupe is present when an event at the Theater makes you lose Labor, the troupe leaves early."
 		],
@@ -6527,7 +6527,7 @@
 			"| 86-95 | Schism |",
 			"| 96-100 | Mutiny |",
 			"",
-			"**Brawl:** This functions like the [bar brawl in Tavern Events](unknown/bar_brawl_in_tavern_events), except you may attempt a Profession (soldier) check instead of an Intimidate check, and a failed check causes a loss of Influence and Labor.",
+			"**Brawl:** This functions like the [bar brawl in Tavern Events](rule/tavern_events), except you may attempt a Profession (soldier) check instead of an Intimidate check, and a failed check causes a loss of Influence and Labor.",
 			"",
 			"**Duel:** This functions like the [duel event from the Military Academy Events section](rule/military_academy_events), except you may attempt a Profession (soldier) check instead of a Diplomacy or Intimidate check.",
 			"",
@@ -6535,11 +6535,11 @@
 			"",
 			"**Mutiny:** A member tries to take over the group, either by challenging you to a fight or by an underhanded method like attacking you while you sleep. You may handle this as a combat encounter or attempt a DC 25 Bluff, Intimidate, or Profession (soldier) check. If you succeed, the instigator leaves and you lose 1 point of Labor but gain 1d2 points of Influence. If you fail, you lose control of the Mercenary Company as if from [business attrition](unknown/business_attrition).",
 			"",
-			"**Rivalry:** Another mercenary group is stealing jobs from your organization. Treat this as the [rivalry event from Generic Building Events](unknown/rivalry_event_from_generic_building_events)), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel Military Academy event](rule/military_academy_events), but not necessarily to the death).",
+			"**Rivalry:** Another mercenary group is stealing jobs from your organization. Treat this as the [rivalry event from Generic Building Events](rule/generic_building_events)), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel Military Academy event](rule/military_academy_events), but not necessarily to the death).",
 			"",
 			"**Scandal:** Some sort of scandal strikes your company-a member is accused of murder or one of your teams injures locals in a bar fight. For 2d4 days you lose 1d2 points of Influence each day and the organization takes a -5 penalty on checks to generate capital. Once per day, you can attempt to repair the damage to your reputation and end the event with a DC 20 Bluff or Diplomacy check. Failure extends the duration of the scandal's fallout by another 1d4 days.",
 			"",
-			"**Schism:** This functions as the [schism from the Cult Events section](unknown/schism_from_the_cult_events_section), except that the skills you can use to attempt to end it are Bluff, Diplomacy, Intimidate, and Profession (soldier), and that succeeding at the check means you lose 1 point of Labor and the event ends.",
+			"**Schism:** This functions as the [schism from the Cult Events section](rule/cult_events), except that the skills you can use to attempt to end it are Bluff, Diplomacy, Intimidate, and Profession (soldier), and that succeeding at the check means you lose 1 point of Labor and the event ends.",
 			"",
 			"**Windfall:** Your organization is rewarded handsomely for its recent efforts, either with payment from a grateful employer or rich spoils from looting an enemy. You gain 1d10 &times; 10 gp, 1d6 points of Goods, and 1 point of Magic."
 		],
@@ -6583,9 +6583,9 @@
 			"",
 			"**Meddling Adventurers:** Unusually competent do-gooders sniff around your territory and spar with your teams. You must succeed at a DC 25 Disable Device, Sleight of Hand, or Stealth check or lose 1d6 points of Goods because of their activities. If you succeed by 10 or more, you gain 1d3 points of Influence for trouncing the adventurers. If you fail by 10 or more, one of your teams is captured (treat this as the entrapment event described above).",
 			"",
-			"**Mutiny:** This functions like the [mutiny event in the Mercenary Company Events table](unknown/mutiny_event_in_the_mercenary_company_events_table), except you may resolve the event with a different kind of challenge (such as racing through a gauntlet of traps instead of a duel, requiring several skill checks) and you can't attempt a Profession (soldier) check to end the event.",
+			"**Mutiny:** This functions like the [mutiny event in the Mercenary Company Events table](rule/mercenary_company_events), except you may resolve the event with a different kind of challenge (such as racing through a gauntlet of traps instead of a duel, requiring several skill checks) and you can't attempt a Profession (soldier) check to end the event.",
 			"",
-			"**Rivalry:** Another guild is moving in on your territory. Treat this as the [rivalry event from Generic Building Events](unknown/rivalry_event_from_generic_building_events), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel event on the Mercenary Company Event table](unknown/duel_event_on_the_mercenary_company_event_table), but not necessarily to the death) or a thieving challenge."
+			"**Rivalry:** Another guild is moving in on your territory. Treat this as the [rivalry event from Generic Building Events](rule/generic_building_events), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel event on the Mercenary Company Event table](rule/mercenary_company_events), but not necessarily to the death) or a thieving challenge."
 		],
 		"parent_topics": [
 			"exploration",
@@ -7281,7 +7281,7 @@
 		]
 	},
 	"step_4_set_offers": {
-		"name": "Step 4:Set Offers",
+		"name": "Step 4: Set Offers",
 		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [

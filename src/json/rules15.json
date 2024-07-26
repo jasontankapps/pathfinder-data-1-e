@@ -370,7 +370,7 @@
 			"",
 			"## Two-Weapon Fighting and Flurry of Blows",
 			"",
-			"When you fight with a second weapon in your off hand or with a double weapon, you can make two attacks with the first attack simple action you take during your turn: one with your primary hand and another with your off hand. You take penalties on these attack rolls as listed on [Table 8-7: Two- Weapon Fighting Penalties](unknown/table_8-7__two-_weapon_fighting_penalties). Any other attack simple actions you take during your turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
+			"When you fight with a second weapon in your off hand or with a double weapon, you can make two attacks with the first attack simple action you take during your turn: one with your primary hand and another with your off hand. You take penalties on these attack rolls as listed on [Table 8-7: Two-Weapon Fighting Penalties](rule/two-weapon_fighting). Any other attack simple actions you take during your turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
 			"",
 			"If you have the [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting) feat, you can make two attack rolls on both the first and second attack simple actions taken during your turn; both of the attacks made on the second attack action are made at a -5 penalty. Further attack simple actions taken during the same turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
 			"",
@@ -883,7 +883,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
 			"",
-			"If a PC receives a scaling item of a caster level lower than her character level, she effectively receives an item that's worth more than the price listed in the stat block. Reference [Table 4-13: Value of Scaling Items](unknown/table_4-13__value_of_scaling_items) and use the PC's level to estimate how much the item is really worth to that PC, and use that purchase price as its treasure value. Giving an item with a caster level higher than the character's level doesn't present the same problems; it just means the PC won't be unlocking the item's higher-level powers for some time. Don't reduce treasure for such an item until the PC's level exceeds the item's caster level."
+			"If a PC receives a scaling item of a caster level lower than her character level, she effectively receives an item that's worth more than the price listed in the stat block. Reference [Table 4-13: Value of Scaling Items](rule/adjusting_treasure) and use the PC's level to estimate how much the item is really worth to that PC, and use that purchase price as its treasure value. Giving an item with a caster level higher than the character's level doesn't present the same problems; it just means the PC won't be unlocking the item's higher-level powers for some time. Don't reduce treasure for such an item until the PC's level exceeds the item's caster level."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -926,7 +926,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
 			"",
-			"Scaling items must be crafted at their highest level of power, with a cost determined by referencing [Table 4-13](unknown/table_4-13). Start with the value listed on the table for the item's category and its highest-level ability. Divide this by 2 to get the crafting cost, and add the value of any nonmagical armor or weapon component. The crafting cost is always much higher than the market price of a scaling item, since the crafting cost is based on the full set of abilities but the market price is based on the minimum caster level. When a PC crafts a scaling item, he doesn't need to pay any further cost in reduced treasure for keeping the item, because the full value of the item has already been accounted for. When setting the DC for crafting a scaling item, use the item's highest-level ability instead of its base caster level."
+			"Scaling items must be crafted at their highest level of power, with a cost determined by referencing [Table 4-13](rule/adjusting_treasure). Start with the value listed on the table for the item's category and its highest-level ability. Divide this by 2 to get the crafting cost, and add the value of any nonmagical armor or weapon component. The crafting cost is always much higher than the market price of a scaling item, since the crafting cost is based on the full set of abilities but the market price is based on the minimum caster level. When a PC crafts a scaling item, he doesn't need to pay any further cost in reduced treasure for keeping the item, because the full value of the item has already been accounted for. When setting the DC for crafting a scaling item, use the item's highest-level ability instead of its base caster level."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -951,7 +951,7 @@
 			"",
 			"To determine the price when creating a new scaling item, determine the cost of the base item without any of the level-based upgrades, and increase that price based on each additional ability as described below.",
 			"",
-			"**Pricing the Base Item:** First, decide whether the new item is a wonder (best for major items), a prize (best for utility items), or a bauble (suitable for items that are interesting but not significant). Price the base item according to the [normal rules for creating magic items](unknown/normal_rules_for_creating_magic_items). Then, using the column on [Table 4-13](unknown/table_4-13) that corresponds to the item's category, find the lowest gp value that includes that initial price. Use that value to determine the item's starting caster level.",
+			"**Pricing the Base Item:** First, decide whether the new item is a wonder (best for major items), a prize (best for utility items), or a bauble (suitable for items that are interesting but not significant). Price the base item according to the [normal rules for creating magic items](unknown/normal_rules_for_creating_magic_items). Then, using the column on [Table 4-13](rule/adjusting_treasure) that corresponds to the item's category, find the lowest gp value that includes that initial price. Use that value to determine the item's starting caster level.",
 			"",
 			"**Adding Scaling Abilities:** Use the following steps to assign additional abilities and spells, and the levels at which those abilities unlock.",
 			"",
@@ -1011,7 +1011,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
 			"",
-			"A GM can include specific scaling items as individual pieces of treasure even if she isn't using the scaling items system in her game. The base item can be used without any of the higher-level upgrades, or the GM can pick a higher level and create an individual item that has the base abilities plus one or more unlocked levels. She should use the standard price for that level of scaling item, as described on [Table 4-13](unknown/table_4-13)",
+			"A GM can include specific scaling items as individual pieces of treasure even if she isn't using the scaling items system in her game. The base item can be used without any of the higher-level upgrades, or the GM can pick a higher level and create an individual item that has the base abilities plus one or more unlocked levels. She should use the standard price for that level of scaling item, as described on [Table 4-13](rule/adjusting_treasure)",
 			"",
 			"For example, a GM could give out a [spear of the huntmaster](unknown/spear_of_the_huntmaster) as a CL 6th item worth 3,202 gp with just the base abilities, a CL 8th item worth 4,950 gp with the base abilities plus the 8th-level unlockable ability, a CL 10th item worth 9,300 gp with the base abilities plus the 8th- and 10th-level unlockable abilities, and so on."
 		],
@@ -1432,7 +1432,7 @@
 			"",
 			"### Description",
 			"",
-			"This five-piece puzzle ring must be properly assembled before it can be placed on a finger. Once per day as a move action, the wearer can create a single [mirror image](spell/mirror_image) as if using the [Trickery domain's copycat power](unknown/trickery_domain's_copycat_power). If the wearer is a cleric with the Trickery domain and the copycat power, she instead gains two additional uses of that ability.",
+			"This five-piece puzzle ring must be properly assembled before it can be placed on a finger. Once per day as a move action, the wearer can create a single [mirror image](spell/mirror_image) as if using the [Trickery domain's copycat power](domain/trickey). If the wearer is a cleric with the Trickery domain and the copycat power, she instead gains two additional uses of that ability.",
 			"",
 			"**6th Level:** The wearer can use [prestidigitation](spell/prestidigitation) at will.",
 			"",
@@ -3911,7 +3911,7 @@
 			"",
 			"[Giant](subtype/giant):** Low-light vision; skills-gain Intimidate as additional good skill.",
 			"",
-			"[Gnome](subtype/gnome):** Gain the Small graft, low-light vision, gain one CR-appropriate spell from the [illusion spell list](unknown/illusion_spell_list).",
+			"[Gnome](subtype/gnome):** Gain the Small graft, low-light vision, gain one CR-appropriate spell from the [illusion spell list](main/spells_illusion).",
 			"",
 			"[Goblinoid](subtype/goblinoid):** Skills-gain Stealth as an additional good skill.",
 			"",
@@ -5265,7 +5265,7 @@
 			"",
 			"These abilities are typically supernatural or inhuman in nature. If a monster is meant to be more like an NPC-and especially if it uses a PC race-avoid choosing monstrous combat options.",
 			"",
-			"**Blood Drain:** This monster deals Constitution damage as the [ability damage option](unknown/ability_damage_option), but does so automatically at the end of the monster's turn to any creature it's grappling.",
+			"**Blood Drain:** This monster deals Constitution damage as the [ability damage option](rule/cunning), but does so automatically at the end of the monster's turn to any creature it's grappling.",
 			"",
 			"**Breath Weapon:** The monster gains a breath weapon that deals 1d6 points of damage + 1d6 per CR. A target can attempt a Reflex saving throw to take half damage. If the breath weapon is a cone, it's 30 feet long, increasing by 10 feet for each size category above Medium, and decreasing by 5 feet for every size category below Medium. If the breath weapon is a line, its area of effect is twice as long as a cone would be.",
 			"",
@@ -5287,11 +5287,11 @@
 			"",
 			"**Distraction:** A creature damaged by this monster is nauseated for 1 round (Fortitude negates).",
 			"",
-			"**Draining Touch:** The monster can make a melee touch attack as though it had the [ability damage option](unknown/ability_damage_option) dealing ability drain. Each time the monster drains an ability score in this way, it heals 5 points of damage to itself.",
+			"**Draining Touch:** The monster can make a melee touch attack as though it had the [ability damage option](rule/cunning) dealing ability drain. Each time the monster drains an ability score in this way, it heals 5 points of damage to itself.",
 			"",
 			"**Energy Drain:** This monster bestows 1 negative level with its attacks (or attacks of a particular type) and gains 5 temporary hit points for each negative level bestowed. The number of negative levels bestowed increases to 2 at CR 10 and 3 at CR 20.",
 			"",
-			"**Engulf:** This functions as the [universal monster rule](unknown/universal_monster_rule), but uses the monster's ability DC from its array. The monster can either deal its high weapon damage to engulfed creatures, or deal its low weapon damage and inflict one of the following conditions: bleed (as the [option](unknown/option)), blinded (Fortitude negates), deafened, energy drain (as the option; see above), frightened (Will negates), nauseated (Fortitude negates), or paralyzed (Fortitude negates).",
+			"**Engulf:** This functions as the [universal monster rule](umr/engulf), but uses the monster's ability DC from its array. The monster can either deal its high weapon damage to engulfed creatures, or deal its low weapon damage and inflict one of the following conditions: bleed (as the [option](unknown/option)), blinded (Fortitude negates), deafened, energy drain (as the option; see above), frightened (Will negates), nauseated (Fortitude negates), or paralyzed (Fortitude negates).",
 			"",
 			"**Fast Healing:** This monster regains 2 hit points per round. This healing increases to 5 hit points per round at CR 4, 10 at CR 11, 15 at CR 16, and 20 at CR 21.",
 			"",
@@ -5311,7 +5311,7 @@
 			"",
 			"**Gaseous Form:** As a standard action, the monster can use [gaseous form](spell/gaseous_form) at will, and it can remain in this form indefinitely. While it does, it has a fly speed of 20 feet with perfect maneuverability.",
 			"",
-			"**Incorporeal:** This functions as the [universal monster rule](unknown/universal_monster_rule), without adjusting AC, attack bonuses, or CMB.",
+			"**Incorporeal:** This functions as the [universal monster rule](umr/incorporeal), without adjusting AC, attack bonuses, or CMB.",
 			"",
 			"**Malevolence:** Once per round, the monster can attempt to merge its body with a creature within its reach. The target can resist the attack with a successful Will save. A target that succeeds at its save becomes immune to the monster's malevolence for 24 hours. This ability is similar to [magic jar](spell/magic_jar), except that it doesn't require a receptacle.",
 			"",
@@ -5997,7 +5997,7 @@
 			"",
 			"**Save Boost:** Increase the monster's saving throw bonuses by 1, or increase any one of its saving throw bonuses by 3.",
 			"",
-			"**Secondary Magic:** Though this monster isn't primarily a spellcaster, it does have several spells or spell-like abilities. Choose any [spell list](unknown/spell_list). The monster can use each of that list's primary spells of its CR band once per day. This ability can also be used to give a spellcaster extra spell-like abilities to fit its monster type.",
+			"**Secondary Magic:** Though this monster isn't primarily a spellcaster, it does have several spells or spell-like abilities. Choose any [spell list](main/spells). The monster can use each of that list's primary spells of its CR band once per day. This ability can also be used to give a spellcaster extra spell-like abilities to fit its monster type.",
 			"",
 			"**Summon Allies:** This monster can attempt to summon monsters of the same creature type as itself as a full-round action. Choose either a creature of the same CR as the monster (with a 35% chance of success) or a creature with a CR no greater than the monster's - 5 (with a 60% chance of success). The summoned ally returns to the place from which it came after 1 hour.",
 			"",
