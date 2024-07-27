@@ -50,6 +50,7 @@
     "cypress": "^13.5.0",
     "eslint": "^8.35.0",
     "eslint-plugin-react": "^7.32.2",
+    "fs": "^0.0.1-security",
     "jsdom": "^22.1.0",
     "remove-markdown": "^0.5.0",
     "terser": "^5.4.0",
