@@ -6955,6 +6955,7 @@
 		]
 	},
 	"mastodon": { "copyof": "elephant,_mastodon" },
+	"mammoth": { "copyof": "elephant,_mastodon" },
 	"embalming_bear": {
 		"name": "Embalming Bear",
 		"sources": [ "Tears at Bitter Manor" ],

@@ -2606,7 +2606,7 @@
 			"",
 			"**Integrated Dogslicer (Ex)** One of a clockwork goblin's arms ends in an integrated dogslicer. This weapon cannot be disarmed, sundered, or removed. Some models of clockwork goblin sport an integrated horsechopper instead.",
 			"",
-			"**Searing Eyebeam (Su)** Once every 1d4 rounds, as a free action, a clockwork goblin can unleash a fiery beam from its eyes at a target within 20 feet as a ranged touch attack. This beam deals 2d6 points of fire damage, and a creature struck must succeed at a DC 14 Reflex save or [catch on fire](unknown/catch_on_fire). The save DC is Constitution-based.",
+			"**Searing Eyebeam (Su)** Once every 1d4 rounds, as a free action, a clockwork goblin can unleash a fiery beam from its eyes at a target within 20 feet as a ranged touch attack. This beam deals 2d6 points of fire damage, and a creature struck must succeed at a DC 14 Reflex save or [catch on fire](rule/catching_on_fire). The save DC is Constitution-based.",
 			"",
 			"**Unstable Construction (Ex)** Due to its shoddy and slapdash construction, a clockwork goblin stays wound for only 12 hours per winding. In addition, when a clockwork goblin's hit points are reduced to 0, the creature bursts into an explosion of shrapnel and flames that deals 1d6 points of slashing damage plus 2d6 points of fire damage to creatures within 5 feet. A target that succeeds at a DC 14 Reflex save takes half the damage. This save is Constitution-based.",
 			"",
@@ -3327,7 +3327,7 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [animate object](spell/animate_object), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
 		]
 	},
 	"clockwork_priest": { "copyof": "clockwork,_clockwork_priest" },
@@ -5337,7 +5337,7 @@
 			"",
 			"Auwaz couatls have moderate control over the weather, calling forth winds and storms as they feel necessary. They use this power to aid the travel of those they are guiding home, summoning strong winds to make the journeys of sailing ships shorter. Similarly, if an auwaz couatl encounters a sinking ship, it uses its powers to grant survivors the ability to breathe water and personally guides these victims to safety. This power also allows an auwaz couatl to work against evil travelers, making their journeys difficult and even calling on lightning storms to strike ships when necessary.",
 			"",
-			"Auwaz couatls have the shortest lives of all couatls, living only about a century at most, and most have life spans equivalent to those of humans. Due to their flighty nature, they rarely take the time to meet with others of their kind, though they do gather once every few years to reproduce, laying several eggs each. Its uncertain how auwaz couatls know the exact time to gather, though many believe they read a message in the stars left behind by their cousins, the [mix couatls](unknown/mix_couatls).",
+			"Auwaz couatls have the shortest lives of all couatls, living only about a century at most, and most have life spans equivalent to those of humans. Due to their flighty nature, they rarely take the time to meet with others of their kind, though they do gather once every few years to reproduce, laying several eggs each. Its uncertain how auwaz couatls know the exact time to gather, though many believe they read a message in the stars left behind by their cousins, the [mix couatls](monster/mix_couatl).",
 			"",
 			"### Habitat",
 			"",
@@ -5439,6 +5439,7 @@
 		]
 	},
 	"chicome": { "copyof": "couatl,_chicome" },
+	"chicome_couatl": { "copyof": "couatl,_chicome" },
 	"couatl,_lord_sun-warrior": {
 		"name": "Couatl, Lord Sun-Warrior",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -5573,7 +5574,7 @@
 			"",
 			"Each mix couatl is gifted with the knowledge of the rest of its brothers and sisters, though it does not have access to this knowledge on an individual basis. Instead, a mix couatl can call upon bits of knowledge to share with others, much as one might pluck a star from the night sky. The mix couatl can bless an individual with this knowledge, even though the couatl itself may not know the full details of the gift it grants. This shared knowledge allows mix couatls to work together and aid each other even if they never meet face to face, a lesson that they also teach to others. Individual mix couatls may have different skills from those listed above, depending on their own experience and expertise.",
 			"",
-			"Mix couatls are among the couatls with the longest life spans. Though they don't live as long as [xiuh couatls](unknown/xiuh_couatls), their legacy can live on for centuries thanks to the knowledge they share with others. When a mix couatl reaches the final years of its life, it lays a small clutch of eggs, which typically hatch up to half a dozen couatls.",
+			"Mix couatls are among the couatls with the longest life spans. Though they don't live as long as [xiuh couatls](monster/xiuh_couatl), their legacy can live on for centuries thanks to the knowledge they share with others. When a mix couatl reaches the final years of its life, it lays a small clutch of eggs, which typically hatch up to half a dozen couatls.",
 			"",
 			"Although they are more than capable hunters on their own, many mix couatls have grown accustomed to receiving gifts of fruit, vegetables, and livestock from the first harvests of a settlement. As such, many stories state that earning a mix couatl's favor requires a single sweet fruit.",
 			"",
@@ -5663,7 +5664,7 @@
 			"",
 			"The tletli has a unique connection to the powers of the firmament, even compared to other couatls. The divine intensity of a tletli's fire is so great that it can penetrate the defenses of even creatures made from flame, and its conflagration is infused with holy power that can wreak devastation among evil outsiders, dragons, and undead.",
 			"",
-			"Tletlis rarely gift their sacred feathers to mortals, but when they do it is a true honor, and one that bestows great power upon the recipient of the holy item. A tletli's freely given feather acts in all ways as a [couatl's](unknown/couatl's) feather, allowing a spellcaster to use it as an additional material component to cast [planar ally](spell/planar_ally) to conjure that specific tletli without expending the typical payment of gold or other valuables-provided the tletli approves of the service asked for by the spellcaster. Alternatively, a tletli's feather can be used as an additional material component while casting any damage-dealing spell with the fire descriptor; in this case, the spell gains the benefits of the [Maximize Spell](feat/maximize_spell) metamagic feat, and the spell uses up a spell slot 3 levels higher than the spell's actual level.",
+			"Tletlis rarely gift their sacred feathers to mortals, but when they do it is a true honor, and one that bestows great power upon the recipient of the holy item. A tletli's freely given feather acts in all ways as a [couatl's](monster/couatl) feather, allowing a spellcaster to use it as an additional material component to cast [planar ally](spell/planar_ally) to conjure that specific tletli without expending the typical payment of gold or other valuables-provided the tletli approves of the service asked for by the spellcaster. Alternatively, a tletli's feather can be used as an additional material component while casting any damage-dealing spell with the fire descriptor; in this case, the spell gains the benefits of the [Maximize Spell](feat/maximize_spell) metamagic feat, and the spell uses up a spell slot 3 levels higher than the spell's actual level.",
 			"",
 			"### Habitat",
 			"",

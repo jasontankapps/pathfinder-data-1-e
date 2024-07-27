@@ -7523,14 +7523,14 @@
 			"Bards, sorcerers, and wizards usually refer to this spell as geas, while clerics call the same spell quest."
 		]
 	},
-	"lesser_geas": {
-		"copyof": "geas,_lesser"
-	},
+	"lesser_geas": { "copyof": "geas,_lesser" },
 	"geas_quest": {
 		"name": "Geas/Quest",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "lesser_geas"
 	},
+	"geas": { "copyof": "geas_quest" },
+	"quest": { "copyof": "geas_quest" },
 	"geb's_hammer": {
 		"name": "Geb's Hammer",
 		"sources": [ "Inner Sea Magic" ],

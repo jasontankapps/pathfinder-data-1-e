@@ -1690,7 +1690,7 @@
 				"data": [
 					[ "[Aashaq's Wyvern](monster/aashaq's_wyvern)", 8, "dragon", null, [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
 					[ "[Amphiptere](monster/amphiptere)", 4, "dragon", null, [ 5, "large" ], [ 4, "N" ], "This snake-bodied dragon has a sinuous tail with a spiked tip. Flared wings attach to its forelimbs, and it lacks rear legs." ],
-					[ "[Caligraphy Wyrm](monster/caligraphy_wyrm)", 2, "dragon", null, [ 1, "diminutive" ], [ 4, "N" ], "The feet and tongue of this minuscule gold-scaled dragon are stained with ink." ],
+					[ "[Calligraphy Wyrm](monster/calligraphy_wyrm)", 2, "dragon", null, [ 1, "diminutive" ], [ 4, "N" ], "The feet and tongue of this minuscule gold-scaled dragon are stained with ink." ],
 					[ "[Cetus](monster/cetus)", 13, "dragon", "aquatic, water", [ 8, "colossal" ], [ 7, "CN" ], "This enormous scaled serpent has the head of a shark, powerful claws, and a maw wide enough to swallow a small ship." ],
 					[ "[Dragon (Black), Adult Black Dragon](monster/dragon_black,_adult_black_dragon)", 11, "dragon", "water", [ 5, "large" ], [ 8, "CE" ], null ],
 					[ "[Dragon (Black), Ancient Black Dragon](monster/dragon_black,_ancient_black_dragon)", 16, "dragon", "water", [ 6, "huge" ], [ 8, "CE" ], null ],

@@ -1310,7 +1310,7 @@
 	},
 	"fortification_moderate": {
 		"name": "Fortification (moderate)",
-		"copyof": "fortification_moderate"
+		"copyof": "fortification_light"
 	},
 	"moderate_fortification": {
 		"copyof": "fortification_moderate"
@@ -1657,7 +1657,7 @@
 	},
 	"fortification_heavy": {
 		"name": "Fortification (heavy)",
-		"copyof": "fortification_moderate"
+		"copyof": "fortification_light"
 	},
 	"heavy_fortification": {
 		"copyof": "fortification_heavy"

@@ -1097,7 +1097,7 @@
 			"## Horseman Traits (Ex, Sp, or Su)",
 			"",
 			"**Source** [Bestiary 6 pg. 294](source/bestiary_6)  ",
-			"A Horseman is a powerful, unique daemon that rules a major portion of Abaddon and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
+			"A Horseman is a powerful, unique [daemon](family/daemon) that rules a major portion of Abaddon and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
 			"",
 			"- A Horseman can grant spells to its worshipers as if it were a deity. A Horseman's domains are Evil and three other domains and four subdomains relevant to its theme and interests. Like a deity, a Horseman has a favored weapon.",
 			"- A Horseman's natural weapons, as well as any weapons it wields, are treated as epic and evil for the purpose of overcoming damage reduction.",
@@ -1206,7 +1206,7 @@
 			"## Spells",
 			"",
 			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
-			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](unknown/sorcerer_bloodline)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
+			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](ability/sorcerer_bloodlines)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10thlevel sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
 	"freeze": {
@@ -1669,6 +1669,25 @@
 			"",
 			"**Format:** trip (bite)  ",
 			"**Location:** individual attacks."
+		]
+	},
+	"daemonic_harbinger_traits": {
+		"name": "Daemonic Harbinger Traits (Su)",
+		"sources": [ "Inner Sea Bestiary" ],
+		"description": [
+			"## Daemonic Harbinger Traits (Su)",
+			"",
+			"**Source** [Inner Sea Bestiary pg. 62](source/inner_sea_bestiary)  ",
+			"A daemonic harbinger is a powerful [daemon](family/daemon) that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
+			"",
+			"- Immunity to acid, charm and compulsion effects, death effects, disease, and poison.",
+			"- Resistance to cold 30, electricity 30, and fire 30.",
+			"- Telepathy 300 feet.",
+			"- The harbinger's natural weapons, as well as any weapon it wields, are treated as evil and lawful for the purpose of overcoming damage reduction.",
+			"- The harbinger can grant spells to its worshipers. Granting spells does not require any specific action on its behalf. The specific domains and favored weapon and listed in the monster's entry.",
+			"",
+			"**Format:** daemonic harbinger traits  ",
+			"**Location:** SQ."
 		]
 	},
 	"demon_lord_traits": {

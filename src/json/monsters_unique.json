@@ -1837,7 +1837,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Daemonic Harbinger Traits (Su)** A daemonic harbinger is a powerful daemon that has not yet made the full transition from unique daemon to a horseman. It has several traits, as summarized here.",
+			"**Daemonic Harbinger Traits (Su)** A [daemonic harbinger](family/daemonic_harbinger) is a powerful daemon that has not yet made the full transition from unique daemon to a horseman. It has several traits, as summarized here.",
 			"",
 			"- Immunity to acid, charm and compulsion effects, death effects, disease, and poison.",
 			"- Resistance to cold 30, electricity 30, and fire 30.",
@@ -1852,7 +1852,7 @@
 			"**Toxic Quill (Su)** Braismois's quill is a manifestation of his spirit and is treated as a +5 dagger that functions as a natural attack and deals 3d6 points of piercing damage on a hit. Braismois can throw the quill as a ranged attack against any creature within 120 feet. As a full-round action, he can instead make a ranged attack against all foes within 60 feet. Braismois can instantly re-form his toxic quill as a free action. For each attack Braismois makes with the quill, he can select one of the following poisons to apply to the attack. If the attack is a confirmed critical hit, the DC of the poison increases by 6 and can affect creatures with poison immunity. The save DCs are Constitution-based.",
 			"",
 			"- Broken Oath: injury; save Fort DC 32; frequency 1/minute for 10 minutes; effect 1d6 Wis and controlled by Braismois as per [dominate monster](spell/dominate_monster) for the duration of the poison; cure 2 consecutive saves.",
-			"- Promise of Power: injury; save Fort DC 32; frequency 2/round for 3 rounds; effect 2d6 Str; cure 2 consecutive saves or agree to telepathically transmitted contract with Braismois, which acts as a [geas](unknown/geas) and instantly heals the applied ability damage.",
+			"- Promise of Power: injury; save Fort DC 32; frequency 2/round for 3 rounds; effect 2d6 Str; cure 2 consecutive saves or agree to telepathically transmitted contract with Braismois, which acts as a [geas](spell/geas) and instantly heals the applied ability damage.",
 			"- Silence: injury; save Fort DC 32; frequency 1/round for 6 rounds; effect 2d4 Con damage and cannot speak until the ability damage is healed; cure 2 consecutive saves.",
 			"",
 			"#### Description",
@@ -1863,11 +1863,7 @@
 			"",
 			"Those who serve Braismois in life end up as hunted petitioners doomed to roam the mazelike tunnels of the Silent Nation's lowest depths. Petitioners struggle eternally to decipher detailed but purposely inaccurate directions carved into the walls; those who fail to recognize the directions as falsehoods wander forever, those who recognize them as lies are quickly consumed by warden daemons, and those who put up misleading directions of their own to lead others into harm are elevated to the ranks of lesser daemonhood.",
 			"",
-			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](faith/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the wouldbe enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](faith/charon) as the Horseman of Death.",
-			"",
-			"**[Daemonic Harbinger](unknown/daemonic_harbinger)**",
-			"",
-			"This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh."
+			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](faith/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the wouldbe enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](faith/charon) as the Horseman of Death."
 		]
 	},
 	"braismois": { "copyof": "daemonic_harbinger,_braismois" },

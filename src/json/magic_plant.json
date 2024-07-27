@@ -93,7 +93,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [neutralize poison](spell/neutralize_poison), cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
+			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [neutralize poison](spell/neutralize_poison), cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
 		]
 	},
 	"goodberry_bush": {
@@ -188,7 +188,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
+			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
 		]
 	},
 	"acidic_lemon_tree": {
@@ -283,7 +283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
+			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
 		]
 	},
 	"tree_of_woe": {
@@ -321,7 +321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plant](unknown/cultivate_magic_plant), [feeblemind](spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
+			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [feeblemind](spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
 		]
 	},
 	"fishweed": {

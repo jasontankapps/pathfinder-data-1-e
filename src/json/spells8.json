@@ -1741,6 +1741,8 @@
 			"Remove blindness/deafness counters and dispels blindness/deafness."
 		]
 	},
+	"remove_blindness": { "copyof": "remove_blindness_deafness" },
+	"remove_deafness": { "copyof": "remove_blindness_deafness" },
 	"remove_curse": {
 		"name": "Remove Curse",
 		"sources": [ "PRPG Core Rulebook" ],

@@ -1259,12 +1259,9 @@
 	},
 	"artisan's_tools_masterwork": {
 		"name": "Artisan's tools (masterwork)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "artisan's_tools_common"
 	},
+	"masterwork_artisan's_tools": { "copyof": "artisan's_tools_masterwork" },
 	"artist's_poster": {
 		"name": "Artist's poster",
 		"sources": [ "Occult Adventures" ],

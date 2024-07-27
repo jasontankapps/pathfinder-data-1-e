@@ -1184,7 +1184,7 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
 			"",
-			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](magic-wondrous/boots_of_speed) or [horseshoes of spider climb](magic-wondrous/slippers_of_spider_climb) that act just like their traditional magic item counterparts, but fit the new race's form."
+			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](magic-wondrous/boots_of_speed) or [horseshoes of spider climb](magic-wondrous/slippers_of_spider_climbing) that act just like their traditional magic item counterparts, but fit the new race's form."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1774,7 +1774,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
 			"",
-			"This section provides many examples of activities you can undertake during downtime. Some of these are new, and others expand on options from the Core Rulebook or other sourcebooks to explain how those activities relate to the downtime rules. In most cases, using the downtime rules doesn't change the costs for performing the action, but it might allow you to spend capital instead of gp as per [Table 2-1: Capital Values](unknown/table_2-1__capital_values). You can substitute 1 point of Goods or Labor for 20 gp, 1 point of Influence for 30 gp, and 1 point of Magic for 100 gp where appropriate. You can combine multiple types of capital when substituting for a gp value.",
+			"This section provides many examples of activities you can undertake during downtime. Some of these are new, and others expand on options from the Core Rulebook or other sourcebooks to explain how those activities relate to the downtime rules. In most cases, using the downtime rules doesn't change the costs for performing the action, but it might allow you to spend capital instead of gp as per [Table 2-1: Capital Values](rule/gaining_capital). You can substitute 1 point of Goods or Labor for 20 gp, 1 point of Influence for 30 gp, and 1 point of Magic for 100 gp where appropriate. You can combine multiple types of capital when substituting for a gp value.",
 			"",
 			"Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check."
 		],
@@ -1820,7 +1820,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
 			"",
-			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](unknown/spells_copied_from_another's_spellbook_or_a_scroll)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
+			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](rule/adding_spells_to_a_wizard's_spellbook)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
 		],
 		"parent_topics": [
 			"exploration",
@@ -2148,7 +2148,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 85](source/ultimate_campaign)",
 			"",
-			"If you are using the [kingdom-building rules](rule/kingdom_building) and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](unknown/leadership_duties). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
+			"If you are using the [kingdom-building rules](rule/kingdom_building) and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](rule/leadership_roles). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
 		],
 		"parent_topics": [
 			"exploration",
@@ -2683,6 +2683,7 @@
 	"example_managers": {
 		"name": "Example Managers",
 		"subtitle": "Downtime",
+		"tags": "Abbot, Accountant, Captain, DoctorGuildmaster, Headmaster, Innkeeper, Lieutennant, Master Smith, Partner, Sensei, Smuggler, Stage Manager, Steward, Underboss, Warden",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 88](source/ultimate_campaign)",
@@ -2822,6 +2823,7 @@
 	"wilderness_managers": {
 		"name": "Wilderness Managers",
 		"subtitle": "Downtime",
+		"tags": "Animal Keeper, Master Carpenter, Master Scout",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 16](source/heroes_of_the_wild)",
@@ -2871,7 +2873,7 @@
 			"",
 			"A room can be as simple as a 10-foot-by-10-foot area surrounded by wooden walls, or as complex as a stone-walled guard tower with a heavy wooden gate. A team can be as simple as a few beggars or pickpockets, as skilled as a group of acolytes trained in the healing arts, or as dangerous as a band of veteran mercenary soldiers. The details of the room or team are left vague to allow you greater versatility- they provide the game mechanics for your building or organization, but you decide the layout or hierarchy that suits your aesthetics.",
 			"",
-			"Each room and team costs one or more kinds of [capital](rule/gaining_capital) (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A [list of rooms begins here](unknown/list_of_rooms_begins_here) and a [list of teams here](unknown/list_of_teams_here).",
+			"Each room and team costs one or more kinds of [capital](rule/gaining_capital) (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A [list of rooms begins here](rule/rooms) and a [list of teams here](rule/teams).",
 			"",
 			"**Constructing Buildings from Rooms:** If you are [constructing a building](rule/buildings), you can connect these rooms in any way you see fit using normal doors and hallways, or fit them together without interior partitions into a large common space. Unless otherwise stated, each room includes a floor, ceiling, walls, furniture, doors, windows, and other details that are appropriate to the room's purpose in your building.",
 			"",
@@ -2899,7 +2901,7 @@
 			"",
 			"**Teams and Leadership:** One advantage of having followers from the [Leadership](feat/leadership) feat is that they increase the effect of Influence and Labor you spend in a settlement (see [Using Followers](rule/using_followers)). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
 			"",
-			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the Leadership feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](unknown/step_3-determine_capital_attrition).",
+			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the Leadership feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
 			"",
 			"In addition to the ways to combat attrition mentioned in the Upkeep Phase section, recruiting your followers into your organization can help with this problem. You can automatically add followers to your organizations as you recruit teams. For every five of your followers who are also members of your organization, you gain a +1 bonus on the leadership check to avoid attrition. As most followers are low-level characters with NPC classes, most teams of followers aren't trained for combat and are usually recruited to be Acolytes, Bureaucrats, Craftspeople, Lackeys, and so on (see [Teams](rule/teams)).",
 			"",
@@ -2934,7 +2936,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 91](source/ultimate_campaign)",
 			"",
-			"The following are examples of how you can construct your own Inn using rooms or create your own Thieves' Guild using teams. [Many complete buildings and organizations are presented here](unknown/many_complete_buildings_and_organizations_are_presented_here).",
+			"The following are examples of how you can construct your own Inn using rooms or create your own Thieves' Guild using teams. [Many complete buildings and organizations are presented here](rule/buildings_and_organizations).",
 			"",
 			"Suppose you want to spend downtime constructing a friendly traveler's Inn. It needs a Bar so it can sell drinks, and a Kitchen so it can serve food. Guests need a place to eat and rooms to sleep in, so it must include a Common Room and a Lodging. To keep your guests' horses safe, it must include a Stall. By adding up all the Goods, Influence, Labor, and Magic values in the Create and Time entries of the rooms' stat blocks, you get a total of 33 points of Goods, 3 points of Influence, 32 points of Labor, and 90 days. By spending that capital, after 90 days of construction time your inn is finished.",
 			"",
@@ -2994,7 +2996,7 @@
 			"",
 			"If a team doesn't have a Time price, spending capital to recruit that team doesn't count as a downtime action.",
 			"",
-			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast [lesser restoration](spell/lesser_restoration), you don't have to spend 7 days of downtime recruiting a Priest team-you can just make [standard spellcasting arrangements as described here](unknown/standard_spellcasting_arrangements_as_described_here).",
+			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast [lesser restoration](spell/lesser_restoration), you don't have to spend 7 days of downtime recruiting a Priest team-you can just make the [standard spellcasting arrangements](equipment-misc/spellcasting).",
 			"",
 			"**Size:** If the unit is a room, this entry indicates a range of how many 5-foot squares are needed for a standard room of its type. For example, a Kitchen is 2-6 5-foot squares. If you need a larger room of this type, construct two rooms and join them. If you need a smaller room of this size, you can make it that smaller size for free. For example, if you only need a 5-foot-square Kitchen, you can construct one at the listed price, even though the smallest size listed is 2 5-foot squares.",
 			"",
@@ -3108,6 +3110,52 @@
 			"",
 			"You can use the following rooms to construct buildings.",
 			"",
+			"- [Group 1](rule/rooms1): *Alchemy Lab, Altar, Animal Pen, Armory, Artisan's Workshop, Auditorium, Ballroom, Bar, Bath, Battle Ring*",
+			"- [Group 2](rule/rooms2): *Bedroom, Bell Tower, Book Repository, Brewery, Bunks, Burial Ground, Cell, Ceremonial Room, Classroom, Clockwork Shop*",
+			"- [Group 3](rule/rooms3): *Common Room, Confessional, Courtyard, Crypt, Defensive Wall, Dock, Dojo, Drawbridge, Escape Route*",
+			"- [Group 4](rule/rooms4): *False Front, Farmland, Forge, Game Room, Garden, Gatehouse, Gauntlet, Greenhouse, Guard Post*",
+			"- [Group 5](rule/rooms5): *Habitat, Hatchery, Infirmary, Kitchen, Labyrinth, Laundry, Lavatory, Leather Workshop, Lodging, Magical Repository*",
+			"- [Group 6](rule/rooms6): *Mill Room, Nursery, Observation Dome, Office, Pit, Printer, Reliquary, Sanctum, Sauna, Scriptorium*",
+			"- [Group 7](rule/rooms7): *Scrying Room, Secret Room, Sewer Access, Sewing Room, Shack, Sitting Room, Sports Field, Stall, Statue, Storage*",
+			"- [Group 8](rule/rooms8): *Storefront, Summmoning Chamber, Throne Room, Toolbooth, Torture Chamber, Trap, Trophy Room, Vault, War Room, Workstation*",
+			"",
+			"There are also [wilderness \"rooms\"](rule/wilderness_rooms) that can be used to construct outdoor locations: *Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole*"
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams"
+		],
+		"subtopics":[
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		],
+		"siblings": [
+			"construction_examples",
+			"reading_a_unit_statblock",
+			"restrictions_on_earnings",
+			"construction_and_recruitment_delays",
+			"moving_an_organization",
+			"rooms",
+			"teams"
+		]
+	},
+	"rooms1": {
+		"name": "Rooms: Alchemy Lab through Battle Ring",
+		"subtitle": "Downtime",
+		"tags": "Alchemy Lab, Altar, Animal Pen, Armory, Artisan's Workshop, Auditorium, Ballroom, Bar, Bath, Battle Ring",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Alchemy Lab",
 			"",
 			"**Earnings** gp, Goods, or Magic +10  ",
@@ -3199,8 +3247,35 @@
 			"**Size** 40-100 squares  ",
 			"**Upgrades To** Sports Field",
 			"",
-			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and [performance combat](rule/performance_combat) checks. This benefit applies only within the settlement.",
-			"",
+			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and [performance combat](rule/performance_combat) checks. This benefit applies only within the settlement."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms2": {
+		"name": "Rooms: Bedroom through Clockwork Shop",
+		"subtitle": "Downtime",
+		"tags": "Bedroom, Bell Tower, Book Repository, Brewery, Bunks, Burial Ground, Cell, Ceremonial Room, Classroom, Clockwork Shop",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Bedroom",
 			"",
 			"**Earnings** gp or Influence +3  ",
@@ -3286,8 +3361,35 @@
 			"**Create** 9 Goods, 9 Labor (360 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
-			"This workshop provides all of the precision tools and workstations required for creating delicate clockwork goods. Up to three people can use the room at a time.",
-			"",
+			"This workshop provides all of the precision tools and workstations required for creating delicate clockwork goods. Up to three people can use the room at a time."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms3": {
+		"name": "Rooms: Common Room through Escape Route",
+		"subtitle": "Downtime",
+		"tags": "Common Room, Confessional, Courtyard, Crypt, Defensive Wall, Dock, Dojo, Drawbridge, Escape Route",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Common Room",
 			"",
 			"**Earnings** gp or Influence +7  ",
@@ -3359,8 +3461,35 @@
 			"**Size** 6-12 squares  ",
 			"**Upgrades From** Secret Room",
 			"",
-			"This is a hallway or tunnel leading to a hidden exit from the building. The exit door is typically a simple wooden door with an average lock (Disable Device DC 20 to open). Either or both ends of the hallway can be secret doors (Perception DC 20 to notice).",
-			"",
+			"This is a hallway or tunnel leading to a hidden exit from the building. The exit door is typically a simple wooden door with an average lock (Disable Device DC 20 to open). Either or both ends of the hallway can be secret doors (Perception DC 20 to notice)."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms4": {
+		"name": "Rooms: False Front through Guard Post",
+		"subtitle": "Downtime",
+		"tags": "False Front, Farmland, Forge, Game Room, Garden, Gatehouse, Gauntlet, Greenhouse, Guard Post",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### False Front",
 			"",
 			"**Earnings** gp or Goods +2  ",
@@ -3441,8 +3570,35 @@
 			"**Size** 6-10 squares  ",
 			"**Upgrades From** Tollbooth; **Upgrades To** Gatehouse",
 			"",
-			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Guard Post. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. Any defender using the Guard Post's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Guard Post.",
-			"",
+			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Guard Post. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. Any defender using the Guard Post's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Guard Post."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms5": {
+		"name": "Rooms: Habitat through Magical Repository",
+		"subtitle": "Downtime",
+		"tags": "Habitat, Hatchery, Infirmary, Kitchen, Labyrinth, Laundry, Lavatory, Leather Workshop, Lodging, Magical Repository",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Habitat",
 			"",
 			"**Earnings** gp or Influence +12  ",
@@ -3529,8 +3685,35 @@
 			"**Size** 4-12 squares  ",
 			"**Upgrades From** Book Repository",
 			"",
-			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see [Research a Spell](rule/research_a_spell)) and crafting magic items.",
-			"",
+			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see [Research a Spell](rule/research_a_spell)) and crafting magic items."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms6": {
+		"name": "Rooms: Mill Room through Scriptorium",
+		"subtitle": "Downtime",
+		"tags": "Mill Room, Nursery, Observation Dome, Office, Pit, Printer, Reliquary, Sanctum, Sauna, Scriptorium",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Mill Room",
 			"",
 			"**Earnings** gp or Goods +8  ",
@@ -3618,8 +3801,35 @@
 			"**Size** 5-16 squares  ",
 			"**Upgrades To** Printer",
 			"",
-			"A Scriptorium is where scribes do their work. It contains chairs and writing desks, as well as ink, paper, and other supplies needed to create or copy written works. Up to three people can use the room at a time for scribing scrolls or using Craft (calligraphy) or Profession (scribe).",
-			"",
+			"A Scriptorium is where scribes do their work. It contains chairs and writing desks, as well as ink, paper, and other supplies needed to create or copy written works. Up to three people can use the room at a time for scribing scrolls or using Craft (calligraphy) or Profession (scribe)."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms7": {
+		"name": "Rooms: Scrying Room through Storage",
+		"subtitle": "Downtime",
+		"tags": "Scrying Room, Secret Room, Sewer Access, Sewing Room, Shack, Sitting Room, Sports Field, Stall, Statue, Storage",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Scrying Room",
 			"",
 			"**Earnings** gp or Influence +2  ",
@@ -3701,8 +3911,35 @@
 			"**Size** 4-8 squares  ",
 			"**Upgrades From** False Front, Shack; **Upgrade To** Office, Vault",
 			"",
-			"Storage is any room used to store objects, keeping them out of the way for later use. Most Warehouses are just multiple Storage rooms built into a single building. A low-cost shop may allow its customers to browse items in the Storage area. A door to a Storage room includes an average lock.",
-			"",
+			"Storage is any room used to store objects, keeping them out of the way for later use. Most Warehouses are just multiple Storage rooms built into a single building. A low-cost shop may allow its customers to browse items in the Storage area. A door to a Storage room includes an average lock."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"rooms_and_teams",
+			"rooms"
+		],
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
+			"wilderness_rooms",
+			"room_augmentations",
+			"wilderness_room_augmentations",
+			"intrigue_room_augmentations"
+		]
+	},
+	"rooms8": {
+		"name": "Rooms: Storefront through Workstation",
+		"subtitle": "Downtime",
+		"tags": "Storefront, Summmoning Chamber, Throne Room, Toolbooth, Torture Chamber, Trap, Trophy Room, Vault, War Room, Workstation",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
 			"### Storefront",
 			"",
 			"**Earnings** capital +5 (of a type the building already generates)  ",
@@ -3784,32 +4021,35 @@
 			"**Earnings** gp, Goods, or Influence +8  ",
 			"**Benefit** counts as [masterwork artisan's tools](unknown/masterwork_artisan's_tools) for one Craft or Profession skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
-			"**Size** 8-16 squares This includes a table, chair, and appropriate [masterwork artisan's tools](unknown/masterwork_artisan's_tools) for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
+			"**Size** 8-16 squares",
+			"",
+			"This includes a table, chair, and appropriate [masterwork artisan's tools](unknown/masterwork_artisan's_tools) for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
 		],
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"rooms_and_teams"
+			"rooms_and_teams",
+			"rooms"
 		],
-		"subtopics": [
+		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
 			"wilderness_rooms",
 			"room_augmentations",
 			"wilderness_room_augmentations",
 			"intrigue_room_augmentations"
-		],
-		"siblings": [
-			"construction_examples",
-			"reading_a_unit_statblock",
-			"restrictions_on_earnings",
-			"construction_and_recruitment_delays",
-			"moving_an_organization",
-			"rooms",
-			"teams"
 		]
 	},
 	"wilderness_rooms": {
 		"name": "Wilderness Rooms",
 		"subtitle": "Rooms, Teams, Downtime",
+		"tags": "Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"**Source** [Heroes of the Wild pg. 14](source/heroes_of_the_wild)",
@@ -3883,6 +4123,14 @@
 			"rooms"
 		],
 		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
 			"wilderness_rooms",
 			"room_augmentations",
 			"wilderness_room_augmentations",
@@ -3916,7 +4164,7 @@
 			"",
 			"### Trap (Augmentation)",
 			"",
-			"Adding a Trap augmentation to a room costs the same as adding a dedicated Trap room; see the Trap room."
+			"Adding a Trap augmentation to a room costs the same as adding a dedicated Trap room; see the [Trap](rule/rooms8) room."
 		],
 		"parent_topics": [
 			"exploration",
@@ -3925,6 +4173,14 @@
 			"rooms"
 		],
 		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
 			"wilderness_rooms",
 			"room_augmentations",
 			"wilderness_room_augmentations",
@@ -3964,6 +4220,14 @@
 			"rooms"
 		],
 		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
 			"wilderness_rooms",
 			"room_augmentations",
 			"wilderness_room_augmentations",
@@ -4042,6 +4306,14 @@
 			"rooms"
 		],
 		"siblings": [
+			"rooms1",
+			"rooms2",
+			"rooms3",
+			"rooms4",
+			"rooms5",
+			"rooms6",
+			"rooms7",
+			"rooms8",
 			"wilderness_rooms",
 			"room_augmentations",
 			"wilderness_room_augmentations",
@@ -4310,7 +4582,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
-			"This section presents many standard buildings and organizations. Each example lists exactly what rooms or teams are used to construct it, a total of each type of capital required if you want to construct one of your own, and a gp total if you want to purchase a completed building of this type. The listed gp value assumes you are purchasing the building instead of constructing it by spending earned capital (see [Purchased Cost values from Table 2- 1: Capital Values)](unknown/purchased_cost_values_from_table_2-_1__capital_values)).",
+			"This section presents many standard buildings and organizations. Each example lists exactly what rooms or teams are used to construct it, a total of each type of capital required if you want to construct one of your own, and a gp total if you want to purchase a completed building of this type. The listed gp value assumes you are purchasing the building instead of constructing it by spending earned capital (see [Purchased Cost values from Table 2-1: Capital Values)](rule/gaining_capital)).",
 			"",
 			"The examples that follow are not the only ways to construct these kinds of buildings and organizations. A particular Inn might have two Lodgings instead of one, include a Trophy Room instead of a Bar, or display a Statue of the goddess of travelers. A Thieves' Guild might be larger and more thuggish because it includes more Cutpurses and Soldiers than are listed in this section. Use these as typical examples of these kinds of buildings and organizations, a baseline for designing your own versions, or a springboard for ideas on how to use this system to design whatever you want. The system is designed to be flexible so you can construct the kind of building you want to own.",
 			"",
@@ -4341,6 +4613,46 @@
 			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"Below are example buildings and their component rooms. Note that many of these buildings can also be found in the [kingdom-building rules](rule/kingdom_building).",
+			"",
+			"- [Group 1:](rule/buildings1) *Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bureau*",
+			"- [Group 2:](rule/buildings2) *Caster's Tower, Castle, Cathedral, Courthouse, Dance Hall, Exotic Artisan, Farm, Fort*",
+			"- [Group 3:](rule/buildings3) *Garrison, Granery, Graveyard, Guildhall, Herbalist, Hospital, House, Inn, Jail*",
+			"- [Group 4:](rule/buildings4) *Library, Luxury Store, Magic Shop, Magical Academy, Mansion, Menagerie, Military Academy, Mill*",
+			"- [Group 5:](rule/buildings5) *Mint, Monastery, Monument, Museum, Noble Villa, Observatory, Orphanage, Palace, Pier*",
+			"- [Group 6:](rule/buildings6) *School, Shop, Shrine, Smithy, Stable, Stockyard, Tannery, Tavern*",
+			"- [Group 7:](rule/buildings7) *Temple, Tenement, Theater, Town Hall, Trade Shop, University, Watchtower, Waterfront*",
+			"",
+			"In addition, the following wilderness \"buildings\" can be contructed.",
+			"",
+			"- [Wilderness Buildings:](rule/wilderness_buildings) *Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole*"
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations"
+		],
+		"subtopics": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		],
+		"siblings": [
+			"buildings",
+			"organizations"
+		]
+	},
+	"buildings1": {
+		"name": "Buildings: Academy through Bureau",
+		"subtitle": "Downtime",
+		"tags": "Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bureau",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Academy",
 			"",
@@ -4403,7 +4715,32 @@
 			"**Create** 55 Goods, 6 Influence, 52 Labor, 1 Magic (2,420 gp)  ",
 			"**Rooms** 1 Book Repository, 1 Lavatory, 4 Offices, 2 Scriptoriums, 1 Sitting Room, 2 Storages",
 			"",
-			"A large warren of offices for clerks and record-keepers working for a guild or government.",
+			"A large warren of offices for clerks and record-keepers working for a guild or government."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings2": {
+		"name": "Buildings: Caster's Tower through Fort",
+		"subtitle": "Downtime",
+		"tags": "Caster's Tower, Castle, Cathedral, Courthouse, Dance Hall, Exotic Artisan, Farm, Fort",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Caster's Tower",
 			"",
@@ -4459,7 +4796,32 @@
 			"**Create** 136 Goods, 25 Influence, 124 Labor, 1 Magic (6,050 gp)  ",
 			"**Rooms** 2 Armories, 1 Bedroom, 2 Bunks, 1 Cell, 1 Common Room, 1 Courtyard, 3 Defensive Walls, 1 Dojo, 2 Fortifications (in the Common Room and Gatehouse), 1 Gatehouse, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage, 1 War Room",
 			"",
-			"A fortified outpost for bandits, mercenaries, soldiers, or dangerous humanoids.",
+			"A fortified outpost for bandits, mercenaries, soldiers, or dangerous humanoids."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings3": {
+		"name": "Buildings: Garrison through Jail",
+		"subtitle": "Downtime",
+		"tags": "Garrison, Granery, Graveyard, Guildhall, Herbalist, Hospital, House, Inn, Jail",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Garrison",
 			"",
@@ -4522,7 +4884,32 @@
 			"**Create** 40 Goods, 5 Influence, 33 Labor (1,610 gp)  ",
 			"**Rooms** 4 Cells, 1 Guard Post, 1 Office, 1 Storage, 1 Torture Chamber",
 			"",
-			"A fortified structure for confining criminals.",
+			"A fortified structure for confining criminals."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings4": {
+		"name": "Buildings: Library through Mill",
+		"subtitle": "Downtime",
+		"tags": "Library, Luxury Store, Magic Shop, Magical Academy, Mansion, Menagerie, Military Academy, Mill",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Library",
 			"",
@@ -4531,7 +4918,7 @@
 			"",
 			"A large building containing an archive of books.",
 			"",
-			"### Luxary Store",
+			"### Luxury Store",
 			"",
 			"**Create** 28 Goods, 1 Influence, 22 Labor (1,030 gp)  ",
 			"**Rooms** 1 Furnishings (Storefront), 1 Office, 1 Storage, 1 Storefront, 1 Vault",
@@ -4578,7 +4965,32 @@
 			"**Create** 17 Goods, 16 Labor (660 gp)  ",
 			"**Rooms** 1 Mill Room, 1 Office, 2 Storages",
 			"",
-			"A building used to cut lumber or grind grain.",
+			"A building used to cut lumber or grind grain."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings5": {
+		"name": "Buildings: Mint through Pier",
+		"subtitle": "Downtime",
+		"tags": "Mint, Monastery, Monument, Museum, Noble Villa, Observatory, Orphanage, Palace, Pier",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Mint",
 			"",
@@ -4641,7 +5053,32 @@
 			"**Create** 22 Goods, 3 Influence, 20 Labor (930 gp)  ",
 			"**Rooms** 1 Animal Pen, 1 Dock, 1 Office, 2 Storages",
 			"",
-			"Warehouses and workshops for docking ships and handling cargo and passengers.",
+			"Warehouses and workshops for docking ships and handling cargo and passengers."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings6": {
+		"name": "Buildings: School through Tavern",
+		"subtitle": "Downtime",
+		"tags": "School, Shop, Shrine, Smithy, Stable, Stockyard, Tannery, Tavern",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### School",
 			"",
@@ -4697,7 +5134,32 @@
 			"**Create** 22 Goods, 1 Influence, 22 Labor (910 gp)  ",
 			"**Rooms** 1 Bar, 1 Common Room, 1 Lavatory, 1 Office, 1 Storage",
 			"",
-			"An eating or drinking establishment.",
+			"An eating or drinking establishment."
+		],
+		"parent_topics": [
+			"exploration",
+			"downtime",
+			"buildings_and_organizations",
+			"buildings"
+		],
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
+	},
+	"buildings7": {
+		"name": "Buildings: Temple through Waterfront",
+		"subtitle": "Downtime",
+		"tags": "Temple, Tenement, Theater, Town Hall, Trade Shop, University, Watchtower, Waterfront",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"**Source** [Ultimate Campaign pg. 107](source/ultimate_campaign)",
 			"",
 			"### Temple",
 			"",
@@ -4758,12 +5220,18 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"buildings_and_organizations"
+			"buildings_and_organizations",
+			"buildings"
 		],
-		"subtopics": [ "wilderness_buildings" ],
 		"siblings": [
-			"buildings",
-			"organizations"
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
 		]
 	},
 	"wilderness_buildings": {
@@ -4825,7 +5293,16 @@
 			"buildings_and_organizations",
 			"buildings"
 		],
-		"siblings": [ "wilderness_buildings" ]
+		"siblings": [
+			"buildings1",
+			"buildings2",
+			"buildings3",
+			"buildings4",
+			"buildings5",
+			"buildings6",
+			"buildings7",
+			"wilderness_buildings"
+		]
 	},
 	"organizations": {
 		"name": "Organizations",
@@ -5023,7 +5500,7 @@
 			"| 95-98 | Criminal activity |",
 			"| 99-100 | Roll twice |",
 			"",
-			"**Bad Weather:** A particularly bad patch of weather plagues the area. There's a 10% chance the weather is devastating. Attempt a DC 20 Survival check. If you succeed, you've anticipated the weather and your building is unaffected. If you fail, the bad weather damages some of your supplies, and you lose 1d4 points of Goods. If the bad weather is devastating, your [building gains the broken condition](unknown/building_gains_the_broken_condition).",
+			"**Bad Weather:** A particularly bad patch of weather plagues the area. There's a 10% chance the weather is devastating. Attempt a DC 20 Survival check. If you succeed, you've anticipated the weather and your building is unaffected. If you fail, the bad weather damages some of your supplies, and you lose 1d4 points of Goods. If the bad weather is devastating, your [building gains the broken condition](rule/conditions).",
 			"",
 			"**Building-Specific Event:** Roll on the specific table for your building. If there is no event table for that kind of building, reroll this result.",
 			"",
@@ -5539,7 +6016,7 @@
 			"",
 			"**Fussy Neighbor:** A highly influential neighbor insists that you remodel some of your House's rooms. Choose 1d3 random rooms in your House to renovate, and pay an amount of gp equal to 20% of the cost of those rooms. For every 2 points of Influence you own, the gp cost decreases by 5%; if this reduces the cost to 0, you don't have to remodel. If you refuse to remodel, you lose 1d4 points of Influence.",
 			"",
-			"**Haunting:** A supernatural presence enters your home. Roll d%; on a 01-20, the presence is harmful, on a 21- 80, it's mischievous, and on an 81-100 it's helpful. A harmful presence increases [capital attrition](unknown/capital_attrition) of 1 point of Goods, Influence, Labor, and Magic per week, and has a 10% chance per night of attacking one overnight guest with a nightmare. A mischievous presence might bring bad luck (50%) or good luck (50%) to one roll for anyone who sleeps in your home; bad luck functions as if the subject were affected by the [touch of chaos granted power from the Chaos domain](domain/chaos), and good luck functions as if the subject were affected by the [bit of luck granted power from the Luck domain](domain/luck). A helpful presence must be appeased once every 7 days with a successful DC 15 Diplomacy check. If you succeed at the check, you also gain 1 point of Influence or Labor (your choice). If you fail, the presence leaves on its own. Getting rid of any variety of supernatural presence requires appropriate spells or spending 2d6 points of Magic.",
+			"**Haunting:** A supernatural presence enters your home. Roll d%; on a 01-20, the presence is harmful, on a 21- 80, it's mischievous, and on an 81-100 it's helpful. A harmful presence increases [capital attrition](rule/upkeep_phase) of 1 point of Goods, Influence, Labor, and Magic per week, and has a 10% chance per night of attacking one overnight guest with a nightmare. A mischievous presence might bring bad luck (50%) or good luck (50%) to one roll for anyone who sleeps in your home; bad luck functions as if the subject were affected by the [touch of chaos granted power from the Chaos domain](domain/chaos), and good luck functions as if the subject were affected by the [bit of luck granted power from the Luck domain](domain/luck). A helpful presence must be appeased once every 7 days with a successful DC 15 Diplomacy check. If you succeed at the check, you also gain 1 point of Influence or Labor (your choice). If you fail, the presence leaves on its own. Getting rid of any variety of supernatural presence requires appropriate spells or spending 2d6 points of Magic.",
 			"",
 			"**Neighbor Rivalry:** You have a disagreement with a neighbor. Attempt a DC 15 Diplomacy or Intimidate check. If you succeed, the event ends. If you fail, you lose 1 point of Influence and must attempt another check each day, increasing the DC by 2 each time. At any time you can bury the hatchet and spend Goods or Labor (1 + 1 for each time you failed the check to end this event) to end the event by doing something nice for the neighbor.",
 			"",
@@ -6533,7 +7010,7 @@
 			"",
 			"**Impressive Results:** Your mercenaries perform admirably, eliminating a problem quickly or defeating a more powerful opponent with ease. You gain 1d4 points of Influence and 1d2 points of Labor, and for 1d6 days the organization gains a +10 bonus on its first check to generate capital each day.",
 			"",
-			"**Mutiny:** A member tries to take over the group, either by challenging you to a fight or by an underhanded method like attacking you while you sleep. You may handle this as a combat encounter or attempt a DC 25 Bluff, Intimidate, or Profession (soldier) check. If you succeed, the instigator leaves and you lose 1 point of Labor but gain 1d2 points of Influence. If you fail, you lose control of the Mercenary Company as if from [business attrition](unknown/business_attrition).",
+			"**Mutiny:** A member tries to take over the group, either by challenging you to a fight or by an underhanded method like attacking you while you sleep. You may handle this as a combat encounter or attempt a DC 25 Bluff, Intimidate, or Profession (soldier) check. If you succeed, the instigator leaves and you lose 1 point of Labor but gain 1d2 points of Influence. If you fail, you lose control of the Mercenary Company as if from [business attrition](rule/upkeep_phase).",
 			"",
 			"**Rivalry:** Another mercenary group is stealing jobs from your organization. Treat this as the [rivalry event from Generic Building Events](rule/generic_building_events)), except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the [duel Military Academy event](rule/military_academy_events), but not necessarily to the death).",
 			"",

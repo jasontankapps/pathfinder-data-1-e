@@ -809,7 +809,7 @@
 			"",
 			"For example, a 13th-level necromancer with an Intelligence score of 26 has a pool of five spells-three for being a 13th-level wizard and two for his high Intelligence (a +8 Intelligence modifier divided by 4)-as well as two additional spells per day that must be from the necromancy school. He could use the pool to cast his 1st- to 4th-level spells, but would still need to prepare his 5th- to 7th-level spells.",
 			"",
-			"**Expending Multiple Spell Slots:** If you have a class ability that requires expending multiple spell slots, such as a [battle oracle's combat healer revelation](unknown/battle_oracle's_combat_healer_revelation) or a wizard's opposition school, you must expend the appropriate number of slots from your spell pool to use the ability. For instance, if the 13th-level necromancer in the example above has conjuration as an opposition school, he could expend two slots from his spell pool to cast [summon monster II](spell/summon_monster_2).",
+			"**Expending Multiple Spell Slots:** If you have a class ability that requires expending multiple spell slots, such as a [battle oracle's combat healer revelation](mystery/battle) or a wizard's opposition school, you must expend the appropriate number of slots from your spell pool to use the ability. For instance, if the 13th-level necromancer in the example above has conjuration as an opposition school, he could expend two slots from his spell pool to cast [summon monster II](spell/summon_monster_2).",
 			"",
 			"### Table 4-1: Magus or Warpriest Spells per Day",
 			"",
@@ -1272,9 +1272,9 @@
 			"",
 			"As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a [scroll mishap](unknown/scroll_mishap).",
 			"",
-			"**With Limited Magic:** If you are using the [limited magic rules](unknown/limited_magic_rules), instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
+			"**With Limited Magic:** If you are using the [limited magic rules](rule/limited_magic), instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
 			"",
-			"**With Spell Fumbles:** Apply the results of a [spell fumble](unknown/spell_fumble) in place of a mishap."
+			"**With Spell Fumbles:** Apply the results of a [spell fumble](rule/spell_fumbles) in place of a mishap."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1328,9 +1328,9 @@
 			"",
 			"The GM is encouraged to apply other types of doubling where appropriate. For instance, a poison spell might afflict a target with 2 doses of poison on a critical hit instead of doubling the effect of the poison.",
 			"",
-			"**With Spell Attack Rolls:** This rule combines well with the [spell attack roll rule](unknown/spell_attack_roll_rule). If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.",
+			"**With Spell Attack Rolls:** This rule combines well with the [spell attack roll rule](rule/spell_attack_rolls). If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.",
 			"",
-			"**With Spell Fumbles:** This system is meant to be used in a campaign alongside the [spell fumbles variant](unknown/spell_fumbles_variant), though the two can be used separately."
+			"**With Spell Fumbles:** This system is meant to be used in a campaign alongside the [spell fumbles variant](rule/spell_fumbles), though the two can be used separately."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1373,7 +1373,7 @@
 			"",
 			"**With Wild Magic:** You can use [Table 4-4: Wild Magic Surge](rule/wild_magic) instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
 			"",
-			"**With Spell Attack Rolls:** When using the [spell attack roll variant](unknown/spell_attack_roll_variant), a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time-if it would miss again, the spell has fumbled."
+			"**With Spell Attack Rolls:** When using the [spell attack roll variant](rule/spell_attack_rolls), a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time-if it would miss again, the spell has fumbled."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -2084,7 +2084,7 @@
 			"",
 			"A character who chooses [sorcerer](class/sorcerer) as her secondary class gains the following secondary class features.",
 			"",
-			"**Bloodline:** At 1st level, she must select a [sorcerer bloodline](unknown/sorcerer_bloodline). She treats her character level as her effective sorcerer level for all bloodline powers.",
+			"**Bloodline:** At 1st level, she must select a [sorcerer bloodline](ability/sorcerer_bloodlines). She treats her character level as her effective sorcerer level for all bloodline powers.",
 			"",
 			"**Bloodline Power:** At 3rd level, she gains her bloodline's 1st-level bloodline power.",
 			"",
@@ -2125,7 +2125,7 @@
 			"",
 			"A character who chooses [wizard](class/wizard) as his secondary class gains the following secondary class features.",
 			"",
-			"**School:** At 1st level, he chooses a [school of magic](unknown/school_of_magic) in which to specialize. For all powers of that school, he treats his character level as his effective wizard level.",
+			"**School:** At 1st level, he chooses a [school of magic](ability/arcane_schools) in which to specialize. For all powers of that school, he treats his character level as his effective wizard level.",
 			"",
 			"**Familiar:** At 3rd level, he gains a [familiar](sidekick/familiar), treating his character level as his effective wizard level.",
 			"",
@@ -3382,7 +3382,7 @@
 		"description": [
 			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)",
 			"",
-			"To implement relics in your own game, you can use the Taldan items presented here, adjusting their themes and details as necessary. Alternatively, you can adapt [scaling items from Pathfinder RPG Pathfinder Unchained](unknown/scaling_items_from_pathfinder_rpg_pathfinder_unchained) or create your own items to suit your needs.",
+			"To implement relics in your own game, you can use the Taldan items presented here, adjusting their themes and details as necessary. Alternatively, you can adapt [scaling items from Pathfinder RPG Pathfinder Unchained](rule/scaling_items) or create your own items to suit your needs.",
 			"",
 			"You'll also need to set up potential triumphs the PCs can achieve to unlock the relics' abilities. These triumphs should happen every 2 to 3 character levels. A triumph should always be linked to the achievement of a major goal within the campaign's storyline. Include less frequent triumph events if the PCs are highly likely to succeed at all of them. If there's a high chance the PCs will fail to achieve a particular triumph, you might include another triumph event fairly soon after. You can always alter future triumph events if items are looking like they'll outpace the rate of one triumph every 2 levels. The theme of the relics you include should match the themes of the campaign. This doesn't mean their mechanics and powers need to correspond exactly, but the more history and flavor, the better.",
 			"",

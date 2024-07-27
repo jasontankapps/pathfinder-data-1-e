@@ -115,13 +115,18 @@ const whats = [
 	"skills"
 ];
 
-function getCopyOf (object, what, etc) {
-	const maybe = object[what];
+function getCopyOf (object, copiedProp, etc, counter = 0) {
+	(counter > 80) && console.log(`${copiedProp}, ${Object.keys(etc).join(", ")}`);
+	const maybe = object[copiedProp];
 	if(!maybe) { return false; }
 	const final = {...maybe, ...etc};
 	if(final.copyof) {
+		if(counter > 100) {
+			console.log(`Death spiral loop checking "${copiedProp}".`);
+			return false;
+		}
 		const { copyof, ...rest } = final
-		return getCopyOf(object, copyof, rest);
+		return getCopyOf(object, copyof, rest, counter + 1);
 	}
 	return final;
 }

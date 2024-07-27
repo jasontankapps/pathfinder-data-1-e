@@ -1163,7 +1163,7 @@
 			"",
 			"In order to face the dangers of the game, characters in the Pathfinder RPG normally need items that grant bonuses to their statistics. With this variant, characters instead gain those bonuses automatically as they increase in level, allowing them to use magic item slots for more interesting items.",
 			"",
-			"All characters gain the abilities listed on the table below when they reach the appropriate level. Decrease character [wealth by level](unknown/wealth_by_level) to half the normal amount. The automatic bonuses are often more beneficial than that reduction in wealth, but characters have less flexibility, so the advantages and disadvantages balance out. Items that only grant bonuses to AC, saving throws, and ability scores don't exist in this variant, and wish and similar spells never grant inherent bonuses to ability scores. Magic weapons and armor do exist, but grant only special abilities, not enhancement bonuses; calculate their prices with the table in the [Magic Weapons and Armor section](unknown/magic_weapons_and_armor_section).",
+			"All characters gain the abilities listed on the table below when they reach the appropriate level. Decrease character [wealth by level](unknown/wealth_by_level) to half the normal amount. The automatic bonuses are often more beneficial than that reduction in wealth, but characters have less flexibility, so the advantages and disadvantages balance out. Items that only grant bonuses to AC, saving throws, and ability scores don't exist in this variant, and wish and similar spells never grant inherent bonuses to ability scores. Magic weapons and armor do exist, but grant only special abilities, not enhancement bonuses; calculate their prices with the table in the [Magic Weapons and Armor section](rule/magic_weapons_and_armor).",
 			"",
 			"If you want to remove magic items entirely (or make them so exceedingly rare that there is no expectation of finding them), consider giving the characters bonuses from the following table as if they were 2 levels higher. The table extends to 22nd level to account for games without magic items.",
 			"",
@@ -2498,7 +2498,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
 			"",
-			"This use of Acrobatics functions as the [Fly core skill](unknown/fly_core_skill) The skill alone doesn't give you the ability to fly.",
+			"This use of Acrobatics functions as the [Fly core skill](skill/fly) The skill alone doesn't give you the ability to fly.",
 			"",
 			"**Action:** None."
 		],
@@ -2525,7 +2525,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
 			"",
-			"This use of Acrobatics functions as the [Ride core skill](unknown/ride_core_skill).",
+			"This use of Acrobatics functions as the [Ride core skill](skill/ride).",
 			"",
 			"**Action:** Varies. Mounting or dismounting is normally a move action."
 		],
@@ -3479,7 +3479,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
 			"",
-			"This use of Nature functions as the [Handle Animal core skill](unknown/handle_animal_core_skill), but uses Intelligence instead of Charisma.",
+			"This use of Nature functions as the [Handle Animal core skill](skill/handle_animal), but uses Intelligence instead of Charisma.",
 			"",
 			"**Action:** Varies. Handling an animal is a move action, while \"pushing\" an animal is a full-round action.",
 			"",
@@ -3854,7 +3854,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
 			"",
-			"This use of Performance functions as the [Disguise core skill](unknown/disguise_core_skill).",
+			"This use of Performance functions as the [Disguise core skill](skill/disguise).",
 			"",
 			"**Action:** 1d3 &times; 10 minutes. Using magic (such as disguise self ) reduces this to the time required to cast the spell or trigger the effect.",
 			"",
@@ -4140,7 +4140,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
 			"",
-			"Each time you put a rank in Society, you learn to speak and read a new language. See the [Linguistics core skill](unknown/linguistics_core_skill) for a list of common languages.",
+			"Each time you put a rank in Society, you learn to speak and read a new language. See the [Linguistics core skill](skill/linguistics) for a list of common languages.",
 			"",
 			"**Action:** None. Unlike with other skill uses, you gain this benefit at all times."
 		],
@@ -4250,7 +4250,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
 			"",
-			"This use of Spellcraft functions as the [Use Magic Device core skill](unknown/use_magic_device_core_skill), but uses Intelligence instead of Charisma.",
+			"This use of Spellcraft functions as the [Use Magic Device core skill](skill/use_magic_device), but uses Intelligence instead of Charisma.",
 			"",
 			"**Action:** None.",
 			"",
@@ -4472,7 +4472,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
 			"",
-			"This use of Stealth functions as the [Stealth core skill](unknown/stealth_core_skill).",
+			"This use of Stealth functions as the [Stealth core skill](skill/stealth).",
 			"",
 			"**Action:** None, though using Stealth immediately after making a ranged attack is a move action."
 		],
@@ -4678,7 +4678,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 66](source/pathfinder_unchained)",
 			"",
-			"This use of Survival functions as the [Heal core skill](unknown/heal_core_skill).",
+			"This use of Survival functions as the [Heal core skill](skill/heal).",
 			"",
 			"**Action:** Providing first aid, treating a wound, or treating poison is a standard action. Treating a disease or tending to a creature that has been wounded by a spike growth or spike stones spell requires 10 minutes of work. Treating deadly wounds requires 1 hour of work. Providing long-term care requires 8 hours of light activity.",
 			"",
@@ -5984,7 +5984,7 @@
 			"",
 			"**Time:** Challenges may add or subtract the number of remaining days of work required to create the item. When this happens, adjust the timing of challenges accordingly. The total number of days of work can never decrease below 1, nor can it decrease below the number of days the characters have already spent crafting the item. For example, if on day 3 of a 5-day process a successful challenge decreases the time by 1 day, the final challenge will happen on day 4 instead. But if the result says to decrease the time by 3 days, the PC is instead able to attempt the final challenge immediately.",
 			"",
-			"**Perks, Quirks, and Flaws:** A challenge may add a beneficial [perk](unknown/perk), a somewhat neutral [quirk](unknown/quirk), or a detrimental [flaw](unknown/flaw) to the item. These three types of adjustments give an item a distinct flavor that sets it apart from others of its kind. The GM should secretly roll for perks, quirks, and flaws as they occur, rerolling duplicate or contradictory results. [Detect magic](spell/detect_magic) and [identify](spell/identify) typically don't reveal an item's perks, quirks, and flaws; [analyze dweomer](spell/analyze_dweomer) does, though only once the item is complete.",
+			"**Perks, Quirks, and Flaws:** A challenge may add a beneficial [perk](rule/perks), a somewhat neutral [quirk](rule/quirks), or a detrimental [flaw](rule/flaws) to the item. These three types of adjustments give an item a distinct flavor that sets it apart from others of its kind. The GM should secretly roll for perks, quirks, and flaws as they occur, rerolling duplicate or contradictory results. [Detect magic](spell/detect_magic) and [identify](spell/identify) typically don't reveal an item's perks, quirks, and flaws; [analyze dweomer](spell/analyze_dweomer) does, though only once the item is complete.",
 			"",
 			"**Destruction:** A few challenges can, if critically failed, destroy the in-progress item, which costs the PCs their current investment. Such challenges come with enticing benefits for critically succeeding, making them potentially worth the risk."
 		],
@@ -7069,7 +7069,7 @@
 			"[^2]: Creator must have levels in a divine spellcasting class and have a patron deity.",
 			"[^3]: Item must be a held item.",
 			"",
-			"**Addictive:** The owner does not want to give up the item under any circumstances, and suffers the effects of [severe addiction](unknown/severe_addiction) when denied access to the item.",
+			"**Addictive:** The owner does not want to give up the item under any circumstances, and suffers the effects of [severe addiction](rule/addiction) when denied access to the item.",
 			"",
 			"**Allergic:** The item is especially sensitive to the presence of a particular type of creature, and ceases all magical functions whenever it is within 30 feet of such a creature. To determine the creature type, roll randomly or choose an appropriate type on the [ranger's favored enemy list](class/ranger).",
 			"",
@@ -7392,7 +7392,7 @@
 			"",
 			"This system uses four common esoteric components' entropic resin, geodes, prismatic sand, and verdant salts-plus one rare component called yliaster. A GM can change the descriptions of these components to different substances that better fit her game if she so chooses. The rare component could be a catchall for a number of equally potent magical substances. The blood of a god, a sliver of stone from deep in the earth, or a piece of ethereal substance made solid could each be used as the rare component, even within the same campaign.",
 			"",
-			"Each entry includes the associated schools, a description of the esoteric component type, the greater component effect, and the limited magic effect. The limited magic effect entry applies only if the campaign is also using the [limited magic system](unknown/limited_magic_system).",
+			"Each entry includes the associated schools, a description of the esoteric component type, the greater component effect, and the limited magic effect. The limited magic effect entry applies only if the campaign is also using the [limited magic system](rule/limited_magic).",
 			"",
 			"### Entropic Resin",
 			"",
@@ -7498,7 +7498,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 154](source/pathfinder_unchained)",
 			"",
-			"In a campaign that uses the esoteric material component system, characters have access to [Esoteric feats](unknown/esoteric_feats). Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead.",
+			"In a campaign that uses the esoteric material component system, characters have access to [Esoteric feats](main/feats). Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead.",
 			"",
 			"### Alternate Eschew Materials",
 			"",
@@ -8022,7 +8022,7 @@
 			"",
 			"Rings work in much the same way as wondrous items.",
 			"",
-			"**Removed Items:** Remove all [rings of protection](magic-ring/ring_of_protection), and add the deflection bonus specified on Table 4-12: Rings to all other rings.",
+			"**Removed Items:** Remove all [rings of protection](magic-ring/ring_of_protection_1), and add the deflection bonus specified on Table 4-12: Rings to all other rings.",
 			"",
 			"**Multiple Rings:** Note that deflection bonuses granted by multiple rings don't stack. It's up to the GM to decide how to deal with this, with two main options. The first option is to follow the rule outlined above and charge the price increase for each ring-consider the additional cost the price of essentially getting a third ring slot. The other option is to make the deflection bonus granted by rings (and the associated price increases) optional on a ring-by-ring basis, allowing characters to avoid paying twice for a non-stacking bonus. Doing so adds additional bookkeeping, however.",
 			"",
@@ -8181,7 +8181,7 @@
 			"",
 			"Many spells and effects rely on alignment, such as [detect evil](spell/detect_evil), [holy](magic-enhancement/holy) weapons, and [blasphemy](spell/blasphemy). Below are five suggested options for dealing with these abilities.",
 			"",
-			"**Full Removal:** You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the [celestial bloodline](unknown/celestial_bloodline)) or restrict character options to avoid such abilities.",
+			"**Full Removal:** You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the [celestial bloodline](sorcererbloodline/celestial)) or restrict character options to avoid such abilities.",
 			"",
 			"**Aligned Loyalties:** You can allow alignment-based effects to instead apply to characters who have loyalties to the concepts of chaos, evil, good, or law (or any concept close enough).",
 			"",

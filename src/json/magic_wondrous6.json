@@ -1074,6 +1074,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divine favor; **Cost** 10,000 gp"
 		]
 	},
+	"stone_of_good_luck": { "copyof": "stone_of_good_luck_luckstone" },
+	"luckstone": { "copyof": "stone_of_good_luck_luckstone" },
 	"third_eye": {
 		"name": "Third Eye",
 		"sources": [
@@ -1093,7 +1095,7 @@
 			"",
 			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. [Rakshasas](monster/rakshasa), whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
 			"",
-			"A third eye cannot be transferred between creatures-if removed from the owner's body, a third eye is destroyed. A third eye that remains in the owner's palm but is damaged or otherwise permanently blinded becomes useless until a [remove blindness](unknown/remove_blindness) spell is cast upon it.",
+			"A third eye cannot be transferred between creatures-if removed from the owner's body, a third eye is destroyed. A third eye that remains in the owner's palm but is damaged or otherwise permanently blinded becomes useless until a [remove blindness](spell/remove_blindness) spell is cast upon it.",
 			"",
 			"### Construction",
 			"",
@@ -3334,9 +3336,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scrying (plus any additional spells put into the crystal ball); **Cost** 21,000 gp (normal), 25,000 gp (see invisibility), 25,500 gp (detect thoughts), 35,000 gp (telepathy), 40,000 gp (true seeing)"
 		]
 	},
-	"normal_crystal_ball": {
-		"copyof": "crystal_ball_normal"
-	},
+	"crystal_ball": { "copyof": "crystal_ball_normal" },
+	"normal_crystal_ball": { "copyof": "crystal_ball_normal" },
 	"golem_manual_stone_guardian": {
 		"name": "Golem Manual (Stone Guardian)",
 		"copyof": "golem_manual_junk"
@@ -3627,7 +3628,7 @@
 			"",
 			"A shadow stylus can create a doorway between the Material Plane and the Shadow Plane. To do so, the user must prick a bit of skin with the stylus's pointed end, anointing it with a drop of blood from a living creature. The user must then use the shadowy chalk held in the stylus's other end to inscribe a doorway on a solid surface in an area of dim light. Doing so requires 1d4 rounds of work and, once completed, fashions a portal like that created by a [gate](spell/gate) spell, linking the Material Plane and the Shadow Plane. The destinations on both planes must overlap-to create a portal to Shadow Absalom, for example, the user would have to create the doorway from the Material Plane in Absalom. The portal created closes 1 minute after it is created.",
 			"",
-			"As long as a creature carries a shadow stylus on her person, she gains a +2 bonus on saving throws against spells of the shadow subschool and against all special attacks created by [kytons](unknown/kytons), [shadows](monster/shadow), and other creatures native to the Shadow Plane. In addition, the character can see on the Shadow Plane as if that realm were brightly lit. A shadow stylus has 6 uses when it is created. Once it is used to create a sixth portal, the stylus loses its ability to craft new portals but retains its protective qualities.",
+			"As long as a creature carries a shadow stylus on her person, she gains a +2 bonus on saving throws against spells of the shadow subschool and against all special attacks created by [kytons](family/kyton), [shadows](monster/shadow), and other creatures native to the Shadow Plane. In addition, the character can see on the Shadow Plane as if that realm were brightly lit. A shadow stylus has 6 uses when it is created. Once it is used to create a sixth portal, the stylus loses its ability to craft new portals but retains its protective qualities.",
 			"",
 			"### Construction",
 			"",

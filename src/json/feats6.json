@@ -1208,7 +1208,7 @@
 			"**Source** [Agents of Evil pg. 13](source/agents_of_evil)",
 			"",
 			"The Pathfinder Society grants you access to its archives in thanks for services previously rendered.  ",
-			"**Prerequisites:** [Associate (Pathfinder Society)](unknown/associate_pathfinder_society).  ",
+			"**Prerequisites:** [Associate (Pathfinder Society)](feat/associate).  ",
 			"**Benefit:** The Pathfinder Society's vast archives are available for you to exploit. In any settlement that is the size of a small town or larger, you can spend 1d4 hours researching notes from available Pathfinders to gain a +4 circumstance bonus on a single Knowledge check."
 		]
 	},
@@ -5044,7 +5044,7 @@
 			"**Source** [Agents of Evil pg. 13](source/agents_of_evil)",
 			"",
 			"You pass along private details to the Red Mantis, and they protect you in return.  ",
-			"**Prerequisites:** [Associate (Red Mantis)](unknown/associate_red_mantis).  ",
+			"**Prerequisites:** [Associate (Red Mantis)](feat/associate).  ",
 			"**Benefit:** The Red Mantis can help you hide from trouble in one of their secret safe houses. Anyone attempting Diplomacy or Survival checks to locate you during this time takes a -10 penalty, and anyone attempting to scry upon you or magically divine your location must first succeed at a caster level check (DC = 15 + your character level). You can stay in a Mantis safe house for up to 1 day per character level before you are forced to vacate."
 		]
 	},

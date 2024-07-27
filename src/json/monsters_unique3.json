@@ -1,7 +1,7 @@
 {
 	"lawgiver": {
 		"name": "Lawgiver",
-		"sources": [ "Inner Sea Gods " ],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Lawgiver",
 			"",
@@ -496,7 +496,7 @@
 	},
 	"night_monarch": {
 		"name": "Night Monarch",
-		"sources": [ "Inner Sea Gods " ],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Night Monarch",
 			"",
@@ -1159,7 +1159,7 @@
 	"pyralisia": { "copyof": "phoenix,_pyralisia" },
 	"prince_in_chains,_the": {
 		"name": "The Prince in Chains",
-		"sources": [ "Inner Sea Gods " ],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## The Prince in Chains",
 			"",
@@ -3541,7 +3541,7 @@
 	},
 	"yethazmari": {
 		"name": "Yethazmari",
-		"sources": [ "Inner Sea Gods " ],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Yethazmari",
 			"",
@@ -3867,13 +3867,13 @@
 			"",
 			"**Corpse Cremation (Su)** Whenever Zelishkar reduces a living creature to negative hit points, as a swift action he can turn its body to ashes and feed upon the target's life force, as death knell (Will DC 28 negates). Whenever Zelishkar slays a creature with any attack or ability, the creature's corpse is reduced to ashes (treat as disintegrate).",
 			"",
-			"**Daemonic Harbinger Traits** A daemonic harbinger is a powerful daemon that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
+			"**Daemonic Harbinger Traits (Su)** A [daemonic harbinger](family/daemonic_harbinger) is a powerful daemon that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
 			"",
 			"- Immunity to acid, charm and compulsion effects, death effects, disease, and poison.",
 			"- Resistance to cold 30, electricity 30, and fire 30.",
 			"- Telepathy 300 feet.",
 			"- The harbinger's natural weapons, as well as any weapon it wields, are treated as evil and lawful for the purpose of overcoming damage reduction.",
-			"- The harbinger can grant spells to its worshipers. Granting spells does not require any specific action on its behalf. Zelishkar grants access to the domains of Evil, Law, Magic, and Trickery. His favored weapon is the quarterstaff.",
+			"- The harbinger can grant spells to its worshipers. Granting spells does not require any specific action on its behalf. Zelishkar grants access to the domains of [Evil](domain/evil), [Knowledge](domain/knowledge), [Magic](domain/magic) and [Trickery](domain/trickery). His favored weapon is the quarterstaff.",
 			"",
 			"**Incandescent Body (Su)** As a free action, Zelishkar can cause his body to erupt into white-hot flame. He sheds light as bright as a daylight spell, and dazzles any creature that does not avert its gaze. Creatures with the fire subtype are immune to this dazzling effect. Zelishkar can dim his flames to burning black shadows as a free action, suppressing the dazzling effect and allowing him to use Stealth without penalty.",
 			"",

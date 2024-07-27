@@ -653,7 +653,7 @@
 			"",
 			"### The Four Horsemen",
 			"",
-			"Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the Four Horsemen of the Apocalypse. In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.",
+			"Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the [Four Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse). In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.",
 			"",
 			"Upon the poisonous expanses of Abaddon, lesser daemonic peers carve petty fiefdoms and posture as lords, but despite their world-spanning intrigues, all bow before the Horsemen-though most do so only grudgingly. Ancient myths also tell of a mysterious fifth Horseman, the Oinodaemon, though nearly all mention of such a creature has been scoured from the multiverse."
 		]
@@ -677,6 +677,19 @@
 			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)",
 			"",
 			"This family represents a group of similar monsters. No official description has been provided."
+		]
+	},
+	"daemonic_harbinger": {
+		"name": "Daemonic Harbinger",
+		"sources": [],
+		"members": [
+			"- [Daemonic Harbinger, Braismois](monster/braismois)",
+			"- [Zelishkar of the Bitter Flame](monster/zelishkar_of_the_bitter_flame)"
+		],
+		"description": [
+			"## Daemonic Harbinger",
+			"",
+			"A daemonic harbinger is a powerful [daemon](family/daemon) that has not yet made the full transition from unique daemon to a horseman."
 		]
 	},
 	"demodand": {
@@ -2726,7 +2739,7 @@
 			"",
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
 			"",
-			"[Elemental (Aether)](monster/aether_elemental)",
+			"[Elemental (Aether)](family/aether_elemental)",
 			"",
 			"**Source** [Bestiary 5 pg. 106](source/bestiary_5)",
 			"",
@@ -3654,7 +3667,7 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"The greatest of daemons, known as the Horsemen of the Apocalypse (or simply the Four), rule the blighted plane of Abaddon. Each of these monstrously powerful evil demigods is a unique physical personification of one of the four concepts of apocalyptic events: death, famine, pestilence, and war.",
+			"The greatest of [daemons](family/daemon), known as the Horsemen of the Apocalypse (or simply the Four), rule the blighted plane of Abaddon. Each of these monstrously powerful evil demigods is a unique physical personification of one of the four concepts of apocalyptic events: death, famine, pestilence, and war.",
 			"",
 			"Only four Horsemen can exist at any given time, though whether their claim to that status is granted by the assent of their other sibling-peers, by their native plane of Abaddon, or by a rumored fifth progenitor Horseman of deific power remains a mystery. While their number remains exclusive, Horsemen can and have died and been replaced, slain by vengeful gods, demon lords, daemonic harbingers from within their own courts, or even-in rare cases-their own sibling-peers among the Four. Among the Horsemen, only Charon, the Horseman of Death, has held his position from the beginning. The title of \"Horseman\" is gender neutral-there are and have been female, male, and genderless Horsemen of the Apocalypse, as well as ones with multiple genders.",
 			"",
@@ -4053,7 +4066,7 @@
 			"- [Twilight Pitri (Barhisad)](monster/barhisad)"
 		],
 		"mythic_members": [
-			"- [Solar Pitri (Agnishvatta)](monster/solar_pitri_agnishvatta)"
+			"- [Solar Pitri (Agnishvatta)](monster/solar_pitri)"
 		],
 		"description": [
 			"## Manasaputra",
@@ -4066,7 +4079,7 @@
 			"",
 			"Manasaputras belong to a complex hierarchy. While immortal beings known as kumaras ostensibly lead them, each manasaputra operates as an individual, free to pursue its own contemplation of the multiverse and its inhabitants. More powerful manasaputras mentor younger and less experienced ones, particularly when their paths to perfection align. These relationships are master and apprentice structures similar to the Material Plane's monastic hierarchies. Lesser manasaputras have deep respect and reverence for the elders of their kind and the phenomenal-often godlike-power they wield.",
 			"",
-			"When not contemplating reality in isolation at the heart of the Positive Energy Plane, manasaputras can be found drifting through the Astral Plane in search of wisdom, or drawn to the Material Plane when ignorance and chaos work hand in hand with cruelty and evil. Manasaputras do not often intervene in destructive events, preferring to instead aid mortals and teach them necessary skills that they can use to confront these challenges. Greater threats of a more cosmic nature can draw the direct intervention of dozens of manasaputras, especially when these threats concern the destruction of knowledge or foment disorder in the universe. To this end, manasaputras can sometimes be found working alongside aeons and inevitables on morally compatible agendas. Manasaputras respect the precious balance aeons bring to the planes, as well as inevitables' unfaltering dedication to their assigned tasks. They are distant toward most good-aligned outsiders, unable to fully share the passions of agathions and azatas, and put off by the zeal of angels and archons. They share a special kinship with devas, who often also oversee mortal affairs. Among outsiders, their greatest rivals are the [sahkils](unknown/sahkils) of the Ethereal Plane, who attempt to hold back mortal development and are thus sworn enemies of all manasaputras.",
+			"When not contemplating reality in isolation at the heart of the Positive Energy Plane, manasaputras can be found drifting through the Astral Plane in search of wisdom, or drawn to the Material Plane when ignorance and chaos work hand in hand with cruelty and evil. Manasaputras do not often intervene in destructive events, preferring to instead aid mortals and teach them necessary skills that they can use to confront these challenges. Greater threats of a more cosmic nature can draw the direct intervention of dozens of manasaputras, especially when these threats concern the destruction of knowledge or foment disorder in the universe. To this end, manasaputras can sometimes be found working alongside aeons and inevitables on morally compatible agendas. Manasaputras respect the precious balance aeons bring to the planes, as well as inevitables' unfaltering dedication to their assigned tasks. They are distant toward most good-aligned outsiders, unable to fully share the passions of agathions and azatas, and put off by the zeal of angels and archons. They share a special kinship with devas, who often also oversee mortal affairs. Among outsiders, their greatest rivals are the [sahkils](family/sahkil) of the Ethereal Plane, who attempt to hold back mortal development and are thus sworn enemies of all manasaputras.",
 			"",
 			"Manasaputras seldom interact with wicked mortal creatures of the Material Plane. Their charge is to nurture the spiritual development of those who walk the path of enlightenment, and thus have little concern for mortal creatures outside that path, except as obstacles their students must overcome.",
 			"",
@@ -4729,9 +4742,9 @@
 			"",
 			"The most dangerous sahkils rise to dominate their brethren as nightmare warlords. These sahkil tormentors form vast, sanity-bending realms from which only tortured sounds escape. Unique in form and objectives, these demigods gather legions of sahkil servitors, uniting them in campaigns targeting vulnerable souls, entire mortal worlds, or even rival tormentors. Regardless of their goals, sahkil tormentors are the most secretive members of the race, cloaking themselves to preserve the terror of their true faces, or sometimes to hide the beings they once were.",
 			"",
-			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](unknown/manasaputras) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
+			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](family/manasaputra) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
 			"",
-			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](subtype/daemon) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
+			"The sahkil are not without allies, though. [Divs](family/div), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](subtype/daemon) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](family/kyton), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
 		]
 	},
 	"siktempora": {

@@ -3611,6 +3611,7 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
+	"evangelist": { "copyof": "kyton" },
 	"kyton,_apocrisiarius": {
 		"name": "Kyton, Apocrisiarius",
 		"sources": [
