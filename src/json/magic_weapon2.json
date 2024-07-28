@@ -4272,7 +4272,7 @@
 			"**Communication** speech (Common and four other languages)"
 		]
 	},
-	"-2_cursed_sword": {
+	"2_cursed_sword": {
 		"name": "-2 Cursed Sword",
 		"sources": [
 			"Ultimate Equipment",
@@ -4296,7 +4296,7 @@
 		]
 	},
 	"cursed_sword": {
-		"copyof": "-2_cursed_sword"
+		"copyof": "2_cursed_sword"
 	},
 	"arrowbreak_bow": {
 		"name": "Arrowbreak Bow",

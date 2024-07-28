@@ -1477,7 +1477,7 @@
 			"",
 			"While moving through the wilderness, there is the possibility of adventurers losing track of where they're going. The lack of a clear path, coupled with low visibility due to terrain or weather, can cause explorers to head in the wrong direction. Anytime the characters move through marshes or forests, or have reduced visibility from the effects of any modifiers, they have a chance of becoming lost.",
 			"",
-			"The effect of getting lost is the same as in the [normal rules](unknown/normal_rules), except the GM randomly determines the next hex the lost party moves into, and does not reveal this misdirection to the party. Once the PCs have regained their bearings, the GM reveals their true location on the map."
+			"The effect of getting lost is the same as in the [normal rules](rule/getting_lost), except the GM randomly determines the next hex the lost party moves into, and does not reveal this misdirection to the party. Once the PCs have regained their bearings, the GM reveals their true location on the map."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1504,7 +1504,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
 			"",
-			"Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to liven up the PCs' journey as they explore the world. In addition to these hazards, you might use an [environmental danger that's suitable to the current terrain](unknown/environmental_danger_that's_suitable_to_the_current_terrain). After the effects of a hazard have been resolved, treat the hex as a standard example of that terrain."
+			"Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to liven up the PCs' journey as they explore the world. In addition to these hazards, you might use an [environmental danger that's suitable to the current terrain](rule/wilderness). After the effects of a hazard have been resolved, treat the hex as a standard example of that terrain."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1639,7 +1639,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
 			"",
-			"Grass fires are often caused by lightning or careless camp fires. A grass fire is similar to a [forest fire](unknown/forest_fire), except it can be spotted at twice the normal distance, and a PC caught in its area saves against heat damage only every 10 rounds."
+			"Grass fires are often caused by lightning or careless camp fires. A grass fire is similar to a [forest fire](rule/forest_fires_cr_6), except it can be spotted at twice the normal distance, and a PC caught in its area saves against heat damage only every 10 rounds."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2615,7 +2615,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
 			"",
-			"If you have [item creation feats](unknown/item_creation_feats) (or access to those feats from cohorts or other NPCs), you might want to use time between adventures to craft magic items, either to create new items from scratch or add abilities to existing items. If the desired item is something out of the Pathfinder RPG Core Rulebook and you have the appropriate feats, the GM's role is mainly to approve or disapprove the creation of the item (for example, if the GM has decided that the desired item is rare, requires exotic ingredients, or is illegal or forbidden where the downtime takes place). If there is a chance for you to accidentally create a cursed item by failing the skill check by 5 or more, the GM should roll the check in secret so you don't know whether or not the item is cursed.",
+			"If you have [item creation feats](main/feats_metamagic) (or access to those feats from cohorts or other NPCs), you might want to use time between adventures to craft magic items, either to create new items from scratch or add abilities to existing items. If the desired item is something out of the Pathfinder RPG Core Rulebook and you have the appropriate feats, the GM's role is mainly to approve or disapprove the creation of the item (for example, if the GM has decided that the desired item is rare, requires exotic ingredients, or is illegal or forbidden where the downtime takes place). If there is a chance for you to accidentally create a cursed item by failing the skill check by 5 or more, the GM should roll the check in secret so you don't know whether or not the item is cursed.",
 			"",
 			"If you want to create an entirely new type of item (such as a ring that allows you to cast [acid arrow](spell/acid_arrow) three times per day) or add properties to an existing item (such as adding the [flaming](magic-enhancement/flaming) property to a [holy avenger](magic-weapon/holy_avenger)), the process is more complex and requires discussion and cooperation between you and the GM. The following sections address common concerns and problems about magic item creation."
 		],
@@ -2692,7 +2692,7 @@
 			"",
 			"If you need another character to supply one of an item's requirements (such as if you're a wizard creating an item with a divine spell), both you and the other character must be present for the entire duration of the crafting process. If the GM is using the [downtime system](rule/downtime), both you and the other character must use downtime at the same time for this purpose. Only you make the skill check to complete the item-or, if there is a chance of creating a cursed item, the GM makes the check in secret.",
 			"",
-			"If the second character is providing a spell effect, that character's spell is expended for the day, just as if you were using one of your own spells for a requirement. If the second character is a hired NPC, you must pay for the NPC's [spellcasting service](unknown/spellcasting_service) for each day of the item creation."
+			"If the second character is providing a spell effect, that character's spell is expended for the day, just as if you were using one of your own spells for a requirement. If the second character is a hired NPC, you must pay for the NPC's [spellcasting service](equipment-misc/spellcasting) for each day of the item creation."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2721,7 +2721,7 @@
 			"",
 			"Example: Patrick's wizard decides to use his downtime to increase the armor bonus on his [bracers of armor +1](magic-wondrous/bracers_of_armor_1) to +3. The price difference between the two types of bracers is 8,000 gp, so Patrick's wizard must spend 8 days and 4,000 gp (half the 8,000 gp price difference) upgrading his bracers' magic. If he has fewer than 8 days before the next adventure, he'll need to finish his crafting while traveling or use accelerated crafting in town to speed up the process.",
 			"",
-			"For most other items, GMs should use the [multiple different abilities rule](unknown/multiple_different_abilities_rule) to determine the item's new price: increase the cost of the new ability by 50%, add that to the total price of the item to get the new price. Then subtract the old price from the new price to determine the difference, and determine how many days of crafting it takes to cover the difference.",
+			"For most other items, GMs should use the [multiple different abilities rule](rule/magic_item_gold_piece_values) to determine the item's new price: increase the cost of the new ability by 50%, add that to the total price of the item to get the new price. Then subtract the old price from the new price to determine the difference, and determine how many days of crafting it takes to cover the difference.",
 			"",
 			"Example: Lisa's paladin has [horseshoes of a zephyr](magic-wondrous/horseshoes_of_a_zephyr) and wants to hire Patrick's wizard to add the powers of [horseshoes of speed](magic-wondrous/horseshoes_of_speed) to her current horseshoes. Their GM, Jessica, decides that this is a suitable item and tells Lisa and Patrick they can proceed. The price of horseshoes of speed is 3,000 gp, increased by 50% for the multiple different abilities rule to 4,500 gp. Patrick's wizard must spend 5 days and Lisa's paladin must pay 2,250 gp (half the 4,500 gp price difference) to add the new property to the horseshoes, resulting in an item worth 10,500 gp (6,000 gp originally + 4,500 gp for the new property).",
 			"",
@@ -2729,7 +2729,7 @@
 			"",
 			"Example: Lisa's paladin has a [holy avenger](magic-weapon/holy_avenger) that she wants to upgrade with the [flaming](magic-enhancement/flaming) special ability. A [holy avenger](magic-weapon/holy_avenger) has a price of 120,630 gp, but when not in the hands of a paladin, it functions as a +5 holy cold iron longsword, which has a price of 100,630 gp. The 20,000 gp difference in the prices of these two possible base weapons includes the sword's spell resistance, [greater dispel magic](spell/greater_dispel_magic) once per round, and the limitation that the extra powers don't work for non-paladins. Jessica and Lisa talk about pricing ideas for a while, but can't figure out a fair way to price the upgrade. Lisa decides to upgrade her character's armor instead.",
 			"",
-			"The [multiple similar abilities rule](unknown/multiple_similar_abilities_rule) is specifically for items that don't use a magic item slot (such as staves), and can't be used for items that do use a magic item slot. The existing staves in the Core Rulebook all use this rule for pricing the cost of their spells. When adding abilities to these items, remember that they're priced with the highest-level spell at 100% of the normal cost, the next-highest at 75%, and all others at 50%, which means that adding a new spell that's between the lowest and highest spell level can alter the cost of the other abilities in the item. Increasing the number of charges required for an ability also affects the cost of that ability (see [Creating Staves](rule/creating_staves)). Because staff pricing is so complex, a GM might want to forbid adding new abilities to staves, or limit new abilities to the lowest-level spell already present in the item."
+			"The [multiple similar abilities rule](rule/magic_item_gold_piece_values) is specifically for items that don't use a magic item slot (such as staves), and can't be used for items that do use a magic item slot. The existing staves in the Core Rulebook all use this rule for pricing the cost of their spells. When adding abilities to these items, remember that they're priced with the highest-level spell at 100% of the normal cost, the next-highest at 75%, and all others at 50%, which means that adding a new spell that's between the lowest and highest spell level can alter the cost of the other abilities in the item. Increasing the number of charges required for an ability also affects the cost of that ability (see [Creating Staves](rule/creating_staves)). Because staff pricing is so complex, a GM might want to forbid adding new abilities to staves, or limit new abilities to the lowest-level spell already present in the item."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2793,7 +2793,7 @@
 			"",
 			"Before allowing such an item, consider whether the reverse idea would be appropriate-if someone with [Craft Wand](feat/craft_wand) can't make a wand of protection +1 that grants a deflection bonus like a [ring of protection +1](magic-ring/ring_of_protection_1), and if someone with [Craft Staff](feat/craft_staff) can't make a handy haverstaff that stores items like a [handy haversack](magic-wondrous/handy_haversack), then [Craft Wondrous Item](feat/craft_wondrous_item) and [Forge Ring](feat/forge_ring) shouldn't be able to poach item types from the other feats.",
 			"",
-			"GMs who wish to allow some of these sorts of alterations should consider using the original item as a [talismanic component](unknown/talismanic_component) for the final item."
+			"GMs who wish to allow some of these sorts of alterations should consider using the original item as a [talismanic component](rule/talismanic_components) for the final item."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2855,7 +2855,7 @@
 			"",
 			"**Use the Downtime System:** This is the simplest solution, and assumes you are spending downtime running the business rather than crafting specific items.",
 			"",
-			"Example: Patrick owns a magic shop and has 5 days free between adventures. Instead of crafting specific items for his own use, he uses that time on the [run a business downtime activity](unknown/run_a_business_downtime_activity), with the assumption that he is using his crafting feat to create minor magic items for customers to increase the money generated by his magic shop. Patrick doesn't have to specify what items he is creating, track inventory of completed items, or worry about interrupting his crafting-the details aren't important, just that he is using his skills to increase the profit of his business.",
+			"Example: Patrick owns a magic shop and has 5 days free between adventures. Instead of crafting specific items for his own use, he uses that time on the [run a business downtime activity](rule/run_a_business), with the assumption that he is using his crafting feat to create minor magic items for customers to increase the money generated by his magic shop. Patrick doesn't have to specify what items he is creating, track inventory of completed items, or worry about interrupting his crafting-the details aren't important, just that he is using his skills to increase the profit of his business.",
 			"",
 			"**Alter Wealth By Level:** Similar to using the item crafting rules to adjust wealth by level, this just applies a flat adjustment to your expected wealth. You don't even have to account for what specific items were crafted using this method.",
 			"",
@@ -2993,7 +2993,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
 			"",
-			"These components are trade goods just like gems, wheat, spices, or cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what you find in a treasure hoard at the listed cost. For example, 500 gp worth of dragon heartblood costs 500 gp in a city, and if you take a flask of dragon heartblood worth 500 gp as your share of treasure, you can sell it in town for 500 gp. If there is a surplus or shortage of a particular component, the price could go up or down, or merchants might be more inclined to [bargain over the price](unknown/bargain_over_the_price) to try to get a better deal."
+			"These components are trade goods just like gems, wheat, spices, or cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what you find in a treasure hoard at the listed cost. For example, 500 gp worth of dragon heartblood costs 500 gp in a city, and if you take a flask of dragon heartblood worth 500 gp as your share of treasure, you can sell it in town for 500 gp. If there is a surplus or shortage of a particular component, the price could go up or down, or merchants might be more inclined to [bargain over the price](rule/bargaining) to try to get a better deal."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4601,7 +4601,7 @@
 			"",
 			"**Espionage:** In many cases, espionage missions are given to an appropriate PC, such as a bard, enchanter, or rogue. As with assassination, collectors use PCs as spies so they have the advantage of deniability. Requests for espionage might be tied to a region the PCs already plan on visiting, or might require that they arrange their travel to suit the request.",
 			"",
-			"**Magic Item Creation:** A PC with an [item creation feat](unknown/item_creation_feat) could find herself called on to use her talents, either as a personal favor or for the common good. A PC wizard could be asked to enhance the blades of the city guard, or a PC cleric could be asked to provide [cure light wounds](spell/cure_light_wounds) potions for her temple. Depending on who makes the request, the cost of creating the magic item might be borne by the PC, paid for by the collector, or split between them.",
+			"**Magic Item Creation:** A PC with an [item creation feat](main/feats_metamagic) could find herself called on to use her talents, either as a personal favor or for the common good. A PC wizard could be asked to enhance the blades of the city guard, or a PC cleric could be asked to provide [cure light wounds](spell/cure_light_wounds) potions for her temple. Depending on who makes the request, the cost of creating the magic item might be borne by the PC, paid for by the collector, or split between them.",
 			"",
 			"**Military Service:** Usually only low-level PCs get called on for rank-and-file service. More capable adventurers might instead find themselves pressed into service in the role of elite commandos, sent to deal with the opposing force's most dangerous troops and monsters. PCs with appropriate expertise may be called up to train others in their skills-a tedious but valuable service that can be accomplished during downtime between adventures.",
 			"",
@@ -5000,7 +5000,7 @@
 			"",
 			"The energy of the aura permeates the body and spirit of a living creature, influencing its health and vitality while in turn being influenced by the creature's disposition, conception of self, and general emotional state. A creature's aura thus comprises many different auras intermixed with one another to form a singular whole. Emanations of the creature's ki form its health aura. Radiations of thought and belief issuing from the creature's soul suffuse the health aura with patterns that can be interpreted as its alignment aura. The flashes of color flowing through the whole reveal the creature's attitude and disposition, and are known as its emotion aura. Finally, an aura might contain emanations of a magical origin, which is usually a consequence of outside forces at work on the creature.",
 			"",
-			"Various spells can detect aspects of a creature's or object's aura. The [analyze aura](spell/analyze_aura) spell and the [read aura occult skill unlock](unknown/read_aura_occult_skill_unlock) are the most comprehensive ways to assess a creature's entire aura."
+			"Various spells can detect aspects of a creature's or object's aura. The [analyze aura](spell/analyze_aura) spell and the [read aura occult skill unlock](skill/perception) are the most comprehensive ways to assess a creature's entire aura."
 		],
 		"parent_topics": [
 			"gamemastering",

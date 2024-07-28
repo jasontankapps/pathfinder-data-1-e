@@ -3758,7 +3758,7 @@
 			"",
 			"Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation patterns. Desert vegetation is tough and sparse, able to store water for long periods, which means in turn that the soil in a desert is loose and barren, if not entirely rocky. Desert animals tend to be smaller insects, arachnids, mammals, and lizards, with some predatory birds. Venomous creatures are common. In hot deserts, the days are scorching; but at night the heat dissipates quickly, and those who don't have proper cover or clothing can suffer from exposure.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out desert terrain. [Desert terrain is described here](unknown/desert_terrain_is_described_here), but encounters in the desert might also include exposure to either severe heat or cold; storms, whether blizzards, sandstorms, or thunderstorms, which can lead to flash floods in the higher deserts in particular; and thirst, when water stores eventually vanish."
+			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out desert terrain. [Desert terrain is described here](rule/desert_terrain), but encounters in the desert might also include exposure to either severe heat or cold; storms, whether blizzards, sandstorms, or thunderstorms, which can lead to flash floods in the higher deserts in particular; and thirst, when water stores eventually vanish."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3786,7 +3786,7 @@
 			"",
 			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined-if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out forest or jungle terrain. [Forest terrain is described here](unknown/forest_terrain_is_described_here), but when adventuring in the forest or jungle, some possible encounters might also incorporate darkness, falling branches or trees, fog, forest fires and smoke, or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
+			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out forest or jungle terrain. [Forest terrain is described here](rule/forest_terrain), but when adventuring in the forest or jungle, some possible encounters might also incorporate darkness, falling branches or trees, fog, forest fires and smoke, or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3814,7 +3814,7 @@
 			"",
 			"Hills can be of many different types. They might be rolling hills in a broad grassland, or they can be the transitional point between plains and more rugged mountains. They could be small, craggy bluffs or smooth, gentle slopes. Much depends on the terrain surrounding the hilly area. Streams or rivers may wind between the hills, cutting their banks. If the hills are the tallest features in an area, they are of immense strategic value: anyone who occupies them can see farther than would-be enemies.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out hills terrain. [Hills terrain is described here](unknown/hills_terrain_is_described_here); hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include avalanches, the danger of falls, icy terrain, inclement weather, rivers and streams, and rubble. Hills used as defensive positions might also incorporate trenches and berms."
+			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out hills terrain. [Hills terrain is described here](rule/hills_terrain); hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include avalanches, the danger of falls, icy terrain, inclement weather, rivers and streams, and rubble. Hills used as defensive positions might also incorporate trenches and berms."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3870,7 +3870,7 @@
 			"",
 			"As with hills terrain, mountains come in a variety of shapes and sizes. In places where tectonic activity has for the most part stabilized and the rock is exposed to the upper air, the mountains are smoother and more eroded. In places where the earth is still relatively unstable, the mountains are harsher and more jagged and pose a greater (and more dangerous) challenge to climbers. Caves, chasms, cliff faces, and dense rubble are all common in mountains, to say nothing of the animals and monsters that make their homes in the peaks. Mountains flank strategic passes and overlook fertile valleys, which makes them common locales for fortresses and brigands.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out mountain terrain. [Mountain terrain is described here](unknown/mountain_terrain_is_described_here). Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or avalanches of snow, mud, or rock, low clouds that function as fog, and ice sheets. Volcanic mountains add dangers of smoke and lava."
+			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out mountain terrain. [Mountain terrain is described here](rule/mountain_terrain). Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or avalanches of snow, mud, or rock, low clouds that function as fog, and ice sheets. Volcanic mountains add dangers of smoke and lava."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3898,7 +3898,7 @@
 			"",
 			"Plains are large swaths of flat terrain with few trees. Several types of plains exist in different climates: prairie, savanna, steppe, and the like. The most common place for people to live, plains serve as farmlands, enabling the growth of culture on a huge number of levels. Because plains are so valuable, they are frequently contested, and those who rule the plains defend their turf ferociously. Because they are relatively flat and easy to traverse, plains also make convenient battlefields, as they afford the room needed for large-scale maneuvers. Lakes, ponds, rivers, streams, irrigation ditches, and other natural and man-made features divide plains and serve as impediments to travel.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out plains terrain. [Plains terrain is described here](unknown/plains_terrain_is_described_here). With few terrain features to shield them, plains are often beset by high winds, causing dust storms and even tornadoes. Grassfires are also a danger (treat as forest fires), and they can cause normally placid herd animals to stampede, effectively granting them the stampede and trample special abilities."
+			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out plains terrain. [Plains terrain is described here](rule/plains_terrain). With few terrain features to shield them, plains are often beset by high winds, causing dust storms and even tornadoes. Grassfires are also a danger (treat as forest fires), and they can cause normally placid herd animals to stampede, effectively granting them the stampede and trample special abilities."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3926,7 +3926,7 @@
 			"",
 			"Caves form under a huge variety of circumstances: by the action of waves along the shore, internal erosion from underground streams, or acidic air and water, as well as by tectonic action. Unless frequently used as a passageway by cave dwellers, a cave has rough and erratic floors, and its passages expand and contract along their lengths. Drop-offs are frequent-travelers without safety lines are almost guaranteed to suffer falls. Even worse are cave-ins, which come with little warning and are occasionally the result of traps set by cave-dwelling creatures. Movement underground is difficult without a light source, and subterranean creatures will either be attracted to the light or squirm away from it as quickly as possible. Food is difficult to find in caves unless a creature has evolved specifically to eat subterranean lichens and molds-a prime reason for most creatures to live aboveground. Creatures that have adapted to the perpetual darkness learn to navigate by touch, smell, taste, and sound, and they are extraordinarily aware of intruders in their realm.",
 			"",
-			"Dungeons are described in greater detail [here in the Pathfinder RPG Core Rulebook](unknown/here_in_the_pathfinder_rpg_core_rulebook) and [here in this book](unknown/here_in_this_book). Hazards in the Core Rulebook that can help liven up underground encounters include cave-ins, suffocation, falling rocks, darkness, and dangerous molds and fungi."
+			"Dungeons are described in greater detail [here in the Pathfinder RPG Core Rulebook](rule/dungeons) and [here in this book](rule/dungeons_gg). Hazards in the Core Rulebook that can help liven up underground encounters include cave-ins, suffocation, falling rocks, darkness, and dangerous molds and fungi."
 		],
 		"parent_topics": [
 			"gamemastering",

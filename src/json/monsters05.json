@@ -1001,13 +1001,13 @@
 			"",
 			"While these several variants of choking shades differ primarily by the nature of their suffocating deaths, the intensity of those deaths and the circumstances of their lives when the air was taken from their lungs make some shades even stronger and fiercer. At minimum, all variants have the advanced template as well as alterations to the gravedust special ability, modified by the circumstances of their deaths. Four are noted below.",
 			"",
-			"Crushed Shade: Suffocation following a cave-in or the collapse of a structure creates these shades. When a crushed shade is expelled from a host's lungs, the victim must succeed at a Will save against the gravedust's DC or be cursed by a permanent form of claustrophobia: whenever the victim is about to enter a cramped space, crowded venue, or other place from which escape may be difficult, she becomes shaken. The victim can attempt a DC 14 Will save to negate this condition, but failure makes the condition persistent. Even if the victim endures the claustrophobic circumstances with the shaken, frightened, or panicked condition and the threat passes (the crowded disperses or flees, the obstacle is surmounted or avoided), the condition persists until she succeeds at the appropriate saves. This is a curse effect.",
+			"**Crushed Shade:** Suffocation following a cave-in or the collapse of a structure creates these shades. When a crushed shade is expelled from a host's lungs, the victim must succeed at a Will save against the gravedust's DC or be cursed by a permanent form of claustrophobia: whenever the victim is about to enter a cramped space, crowded venue, or other place from which escape may be difficult, she becomes shaken. The victim can attempt a DC 14 Will save to negate this condition, but failure makes the condition persistent. Even if the victim endures the claustrophobic circumstances with the shaken, frightened, or panicked condition and the threat passes (the crowded disperses or flees, the obstacle is surmounted or avoided), the condition persists until she succeeds at the appropriate saves. This is a curse effect.",
 			"",
-			"Drowned Shade: Those choking shades whose suffocating deaths occurred in water are even more dreadful. When they are driven from a victim, the muck of the grave remains within the lungs. Victims are nauseated for 1d4 rounds after a drowned shade exits their lungs.",
+			"**Drowned Shade:** Those choking shades whose suffocating deaths occurred in water are even more dreadful. When they are driven from a victim, the muck of the grave remains within the lungs. Victims are nauseated for 1d4 rounds after a drowned shade exits their lungs.",
 			"",
-			"Smoking Shade: Smoke inhalation within a fire caused the deaths of these choking shades. Each round a smoking shade occupies the lungs of a host, that host also takes 1d4 points of fire damage. After the choking shade is expelled, the victim is staggered from the pain for 1 round.",
+			"**Smoking Shade:** Smoke inhalation within a fire caused the deaths of these choking shades. Each round a smoking shade occupies the lungs of a host, that host also takes 1d4 points of fire damage. After the choking shade is expelled, the victim is staggered from the pain for 1 round.",
 			"",
-			"Strangled Shade: A strangled shade was asphyxiated by a murderer, and when it invades a victim's lungs, hand-shaped bruises arise on the victim's throat. Each round a strangled shade occupies a host, the victim takes 1d4 points of bludgeoning damage, and after the strangled shade is expelled from the lungs, the victim can't speak until an hour passes or receiving any amount of magical healing (whichever comes first)."
+			"**Strangled Shade:** A strangled shade was asphyxiated by a murderer, and when it invades a victim's lungs, hand-shaped bruises arise on the victim's throat. Each round a strangled shade occupies a host, the victim takes 1d4 points of bludgeoning damage, and after the strangled shade is expelled from the lungs, the victim can't speak until an hour passes or receiving any amount of magical healing (whichever comes first)."
 		]
 	},
 	"chon_chon": {
@@ -5643,7 +5643,7 @@
 			"#### Ecology",
 			"",
 			"**Environment** any  ",
-			"**Organization** solitary, pair, or revelation (3-6 plus 1-2 angels and 1 [chicome couatl](unknown/chicome_couatl))  ",
+			"**Organization** solitary, pair, or revelation (3-6 plus 1-2 angels and 1 [chicome couatl](monster/chicome_couatl))  ",
 			"**Treasure** standard",
 			"",
 			"#### Special Abilities",

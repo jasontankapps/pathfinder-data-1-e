@@ -3214,7 +3214,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 59](source/pathfinder_unchained)",
 			"",
-			"[Feinting in combat is described here](unknown/feinting_in_combat_is_described_here). You use Influence instead of the Bluff core skill, and your opponent uses Perception instead of the Sense Motive core skill.",
+			"[Feinting in combat is described here.](rule/feint) You use Influence instead of the Bluff core skill, and your opponent uses Perception instead of the Sense Motive core skill.",
 			"",
 			"**Action:** Standard.",
 			"",
@@ -3782,7 +3782,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
 			"",
-			"With an opposed Perception check, you can tell when a creature is lying to you. See the [lie function of the Influence skill](unknown/lie_function_of_the_influence_skill).",
+			"With an opposed Perception check, you can tell when a creature is lying to you. See the [lie function of the Influence skill](rule/influence_cha).",
 			"",
 			"**Action:** None.",
 			"",
@@ -5797,7 +5797,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 180](source/pathfinder_unchained)",
 			"",
-			"The magic item creation system in this section divides the creation of magic items (other than potions and scrolls) into a series of challenges that the creators try to overcome. These challenges represent either setbacks or opportunities in the course of the creation process. The first and final challenges in the process are the same for every item: [preparing the vessel and completing the item](unknown/preparing_the_vessel_and_completing_the_item).",
+			"The magic item creation system in this section divides the creation of magic items (other than potions and scrolls) into a series of challenges that the creators try to overcome. These challenges represent either setbacks or opportunities in the course of the creation process. The first and final challenges in the process are the same for every item: [preparing the vessel and completing the item](rule/base_challenges).",
 			"",
 			"Between those steps, the characters face a number of random challenges based on the total market price of the item. The process includes one additional challenge per 5,000 gp in the item's market price (minimum 1), though the GM could increase or decrease the number. Having more challenges means it's more likely that an item will have unexpected properties, for good or ill. It also makes the item's creation more expensive or time consuming on average for less skilled characters, and conversely the process will likely be cheaper and faster for a highly skilled party."
 		],
@@ -5948,7 +5948,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 181](source/pathfinder_unchained)",
 			"",
-			"The default amount of time it takes to create an item with this system is the same as in the [normal item creation rules](unknown/normal_item_creation_rules). The process can't be accelerated by increasing check DCs as with the normal rules.",
+			"The default amount of time it takes to create an item with this system is the same as in the [normal item creation rules](rule/magic_item_creation). The process can't be accelerated by increasing check DCs as with the normal rules.",
 			"",
 			"Space the challenges out evenly. For instance, having four challenges for a 10,000 gp item (two base, two random) means having a challenge at the beginning, another after 3 days of work, the third challenge 7 days in, and the final on day 10."
 		],
@@ -7390,7 +7390,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 152](source/pathfinder_unchained)",
 			"",
-			"This system uses four common esoteric components' entropic resin, geodes, prismatic sand, and verdant salts-plus one rare component called yliaster. A GM can change the descriptions of these components to different substances that better fit her game if she so chooses. The rare component could be a catchall for a number of equally potent magical substances. The blood of a god, a sliver of stone from deep in the earth, or a piece of ethereal substance made solid could each be used as the rare component, even within the same campaign.",
+			"This system uses four common esoteric components-entropic resin, geodes, prismatic sand, and verdant salts-plus one rare component called yliaster. A GM can change the descriptions of these components to different substances that better fit her game if she so chooses. The rare component could be a catchall for a number of equally potent magical substances. The blood of a god, a sliver of stone from deep in the earth, or a piece of ethereal substance made solid could each be used as the rare component, even within the same campaign.",
 			"",
 			"Each entry includes the associated schools, a description of the esoteric component type, the greater component effect, and the limited magic effect. The limited magic effect entry applies only if the campaign is also using the [limited magic system](rule/limited_magic).",
 			"",
@@ -7871,7 +7871,7 @@
 			"",
 			"Some GMs may find themselves frustrated by the need for players to seek out magic items granting specific bonuses. Under this new system, characters gain the statistical bonuses they're expected to gain from magic items as they level up so long as they have any item in the relevant slot, instead of needing specific items. The system involves minimal alterations to existing items, and works especially well for campaigns with higher than normal wealth.",
 			"",
-			"The rules in the [Automatic Bonus Progression section](unknown/automatic_bonus_progression_section) downplay the role of magic items by granting bonuses to characters directly as they increase in level, and restricting the abilities of magic items. However, those rules don't work as well as the innate item bonuses system does in games that include more magic items than is assumed in the Core Rulebook. In addition, this system helps those GMs who prefer to emphasize the wonder and power of magic items."
+			"The rules in the [Automatic Bonus Progression section](rule/automatic_bonus_progression) downplay the role of magic items by granting bonuses to characters directly as they increase in level, and restricting the abilities of magic items. However, those rules don't work as well as the innate item bonuses system does in games that include more magic items than is assumed in the Core Rulebook. In addition, this system helps those GMs who prefer to emphasize the wonder and power of magic items."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

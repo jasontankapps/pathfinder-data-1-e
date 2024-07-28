@@ -1091,7 +1091,7 @@
 			"",
 			"As part of the process of crafting a third eye, the creator grafts an actual eye into the palm of the recipient's hand. Once an eye is grafted into a palm, it is undetectable while closed and doesn't hinder the user's manual dexterity in the slightest. When in use, the eye opens.",
 			"",
-			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience) for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) up to three times per day.",
+			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of [clairvoyance/clairaudience](spell/clairvoyance_clairaudience) for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) up to three times per day.",
 			"",
 			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. [Rakshasas](monster/rakshasa), whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
 			"",
@@ -1099,7 +1099,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience), access to obscure traditions and lore; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairvoyance/clairaudience](spell/clairvoyance_clairaudience), access to obscure traditions and lore; **Cost** 10,000 gp"
 		]
 	},
 	"trapmaker's_sack": {

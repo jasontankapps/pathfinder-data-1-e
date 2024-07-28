@@ -1048,7 +1048,7 @@
 			"",
 			"**Versed in Curses (Ex):** At 2nd level, a hoaxer gains a +4 bonus on saving throws against curses, hexes, and language-dependent effects. This ability replaces well-versed.",
 			"",
-			"**Curse Crafter (Ex):** At 5th level, a hoaxer learns how to craft cursed items. He gains one [item creation feat](unknown/item_creation_feat) as a bonus feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties-as if permanently affected by the [magic aura](spell/magic_aura) spell-for 50 gp. This ability replaces lore master."
+			"**Curse Crafter (Ex):** At 5th level, a hoaxer learns how to craft cursed items. He gains one [item creation feat](main/feats_metamagic) as a bonus feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties-as if permanently affected by the [magic aura](spell/magic_aura) spell-for 50 gp. This ability replaces lore master."
 		]
 	},
 	"impervious_messenger": {
@@ -1224,7 +1224,7 @@
 			"",
 			"This ability replaces mass suggestion.",
 			"",
-			"**Social Grace (Ex):** At 2nd level, a masked performer gains the [social grace vigilante social talent](unknown/social_grace_vigilante_social_talent). She gains an additional skill with social grace 1 level later than a vigilante (at 6th level, 10th level, and so on).",
+			"**Social Grace (Ex):** At 2nd level, a masked performer gains the [social grace vigilante social talent](ability/social_talents). She gains an additional skill with social grace 1 level later than a vigilante (at 6th level, 10th level, and so on).",
 			"",
 			"This ability replaces versatile performance.",
 			"",
@@ -1713,7 +1713,7 @@
 			"",
 			"This alters the bard's class skills.",
 			"",
-			"**Spells:** A speaker of the Palatine Eye draws his powers from the mysterious rites of the Esoteric Order of the Palatine Eye. He casts psychic spells from the [mesmerist list](unknown/mesmerist_list) instead of arcane spells from the bard spell list. He otherwise casts spells, learns spells, and determines his spell allotment and spell DCs as a bard.",
+			"**Spells:** A speaker of the Palatine Eye draws his powers from the mysterious rites of the Esoteric Order of the Palatine Eye. He casts psychic spells from the [mesmerist list](main/spells_mesmerist) instead of arcane spells from the bard spell list. He otherwise casts spells, learns spells, and determines his spell allotment and spell DCs as a bard.",
 			"",
 			"This alters spells.",
 			"",
@@ -1904,7 +1904,7 @@
 			"",
 			"This replaces bardic knowledge.",
 			"",
-			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the [favored terrain ranger class feature](unknown/ranger_favored_terrain), but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
+			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the [favored terrain ranger class feature](class/ranger), but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
 			"",
 			"If the wasteland chronicler has the favored terrain ability from any other classes, the levels from these different sources stack for the purposes of improving the bonuses of selected favored terrains and choosing new favored terrains.",
 			"",

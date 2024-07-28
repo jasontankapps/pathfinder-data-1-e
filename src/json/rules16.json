@@ -1122,7 +1122,7 @@
 			"",
 			"Consider altering other rules to account for a landscape with lower average DCs. For instance, [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), and [Lightning Reflexes](feat/lightning_reflexes) might provide only a +1 bonus on saves, or the increases to spell DCs from [Spell Focus](feat/spell_focus) and [Greater Spell Focus](feat/greater_spell_focus) could go up to 2.",
 			"",
-			"**With Esoteric Spell Components:** This system works especially well with the [esoteric spell components system](unknown/esoteric_spell_components_system). Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
+			"**With Esoteric Spell Components:** This system works especially well with the [esoteric spell components system](rule/esoteric_material_components). Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1369,7 +1369,7 @@
 			"| 9 | The caster is dazed for 1 round. |",
 			"| 10 | The caster takes 1 point of Constitution damage. |",
 			"",
-			"**With the Critical Fumble Deck:** If you're using the [Pathfinder Cards: Critical Fumble Deck](unknown/pathfinder_cards__critical_fumble_deck) in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren't using it to add other fumbles.",
+			"**With the Critical Fumble Deck:** If you're using the *Pathfinder Cards: Critical Fumble Deck* in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren't using it to add other fumbles.",
 			"",
 			"**With Wild Magic:** You can use [Table 4-4: Wild Magic Surge](rule/wild_magic) instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
 			"",
@@ -2275,7 +2275,7 @@
 			"",
 			"**Deed:** At 11th level, she gains the [Amateur Gunslinger](feat/amateur_gunslinger) feat.",
 			"",
-			"**Improved Deed:** At 15th level, she gains a 3rd-level [gunslinger deed](unknown/gunslinger_deed) of her choice.",
+			"**Improved Deed:** At 15th level, she gains a 3rd-level [gunslinger deed](ability/gunslinger_deeds) of her choice.",
 			"",
 			"**Greater Deed:** At 19th level, she gains a 7th-level gunslinger deed of her choice."
 		],
