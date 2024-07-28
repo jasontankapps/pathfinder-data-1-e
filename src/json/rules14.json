@@ -2746,7 +2746,7 @@
 			"",
 			"**Making Handholds and Footholds:** You can pound pitons into a wall to change the wall's base DC to 15. This takes 1 minute per piton, and one piton is needed per 5 feet of distance. You can cut your own handholds into an ice wall for the same purpose if you have a handaxe or similar implement.",
 			"",
-			"**Climb Speeds:** A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the [Climb skill page](unknown/climb_skill_page) for more information on climb speeds.",
+			"**Climb Speeds:** A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the [Climb skill](skill/climb) for more information on climb speeds.",
 			"",
 			"**Hauling:** You can haul a character up or down on a rope by sheer strength so that character doesn't need to attempt Athletics checks. You can lift double your maximum load in this manner."
 		],
@@ -3504,7 +3504,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
 			"",
-			"Nature can be used to identify monsters of the aberration, animal, fey, monstrous humanoid, ooze, plant, and vermin types. See [Monster Identification](unknown/monster_identification)."
+			"Nature can be used to identify monsters of the aberration, animal, fey, monstrous humanoid, ooze, plant, and vermin types."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3521,7 +3521,6 @@
 	"recall_knowledge_nature": {
 		"name": "Recall Knowledge (Nature)",
 		"subtitle": "Unchained",
-		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
@@ -3952,12 +3951,11 @@
 	"identify_monsters_religion": {
 		"name": "Identify Monsters (Religion)",
 		"subtitle": "Unchained",
-		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
 			"",
-			"Religion can be used to identify monsters of the outsider and undead types. See [Monster Identification](unknown/monster_identification)."
+			"Religion can be used to identify monsters of the outsider and undead types."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3973,7 +3971,6 @@
 	"recall_knowledge_religion": {
 		"name": "Recall Knowledge (Religion)",
 		"subtitle": "Unchained",
-		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -4112,12 +4109,11 @@
 	"identify_monsters_society": {
 		"name": "Identify Monsters (Society)",
 		"subtitle": "Unchained",
-		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
 			"",
-			"Society can be used to identify monsters of the humanoid type. See [Monster Identification](unknown/monster_identification)."
+			"Society can be used to identify monsters of the humanoid type."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -4161,7 +4157,6 @@
 	"recall_knowledge_society": {
 		"name": "Recall Knowledge (Society)",
 		"subtitle": "Unchained",
-		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
@@ -4339,12 +4334,11 @@
 	"identify_monsters_spellcraft": {
 		"name": "Identify Monsters (Spellcraft)",
 		"subtitle": "Unchained",
-		"display_name": "Identify Monsters",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
 			"",
-			"Spellcraft can be used to identify monsters of the construct, dragon, and magical beast types. See [Monster Identification](unknown/monster_identification)."
+			"Spellcraft can be used to identify monsters of the construct, dragon, and magical beast types."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -4397,7 +4391,6 @@
 	"recall_knowledge_spellcraft": {
 		"name": "Recall Knowledge (Spellcraft)",
 		"subtitle": "Unchained",
-		"display_name": "Recall Knowledge",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",

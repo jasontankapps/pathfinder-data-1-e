@@ -20,6 +20,30 @@
 		],
 		"description": [
 			[
+				"**Skip to:**",
+				"",
+				"- [Altars](#altars)",
+				"- [Construct Modifications](#constructmods)",
+				"- [Demonic Implants](#implants)",
+				"- [Devil Talismans](#talismans)",
+				"- [Elemental Augmentation](#augmentations)",
+				"- [Favors](#favors)",
+				"- [Fleshcrafting](#fleshcrafting)",
+				"- [Fungal Grafts](#grafts)",
+				"- [Infused Poisons](#poisons)",
+				"- [Juju Fetishes](#fetishes)",
+				"- [Necrografts](#necrografts)",
+				"- [Necrotoxins](#necrotoxins)",
+				"- [Oils](#oils)",
+				"- [Plants](#plants)",
+				"- [Relics](#relics)",
+				"- [Sets](#sets)",
+				"- [Shadow Piercings](#piercings)",
+				"- [Tattoos](#tattoos)",
+				"- [Thrones](#thrones)"
+			],
+			"# Oils ! oils",
+			[
 				"## Calming Oils (Gozreh)",
 				"",
 				"**Source** [Faiths of Balance pg. 26](source/faiths_of_balance)  ",
@@ -32,7 +56,7 @@
 				"",
 				"**Requirements** [Brew Potion](feat/brew_potion), [water breathing](spell/water_breathing), [wind wall](spell/wind_wall); **Cost** 500 gp"
 			],
-			"# Altars",
+			"# Altars ! altars",
 			[
 				"**Description Source:** [Inner Sea Gods](source/inner_sea_gods)  ",
 				"An altar is a stationary magic item used to focus the power of a particular deity into the world at a fixed point such as a temple, a monastery, a shrine, or the site of a miracle. An altar is normally about 10 feet by 5 feet by 5 feet at its widest points and is very heavy, usually weighing at least 150 pounds. It is often the central focus of an entire chamber, small sanctum, underground grotto, or forest grove. An altar is always fixed in place; it cannot be moved without losing its magical abilities. Most altars are secured to the floor, and a successful DC 25 Strength check is required to uproot or move them (or a higher DC, depending on their size and weight).",
@@ -43,23 +67,28 @@
 				"",
 				"Depending on the motivations of the deity and the altar's creators, some altars may grant their blessings to non-worshipers who pray to the altar's deity so long as the creature's alignment is compatible with the deity's alignment. Conversely, an altar of an evil deity might allow anyone to gain its blessing, as drawing power from evil can corrupt good and neutral folk. Accepting the blessing of an evil altar is an evil act, and likewise for blessings from altars with other alignment auras.",
 				"",
-				"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on."
+				"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
+				"",
+				"{table0}"
 			],
-			[ "{table0}" ],
-			"# Construct Modifications",
-			[ "Information on construct modifications [can be found here.](rule/construct_modifications)" ],
-			[ "{table5}" ],
-			"# Demonic Implants",
+			"# Construct Modifications ! constructmods",
+			[
+				"Detailed information on construct modifications [can be found here.](rule/construct_modifications)",
+				"",
+				"{table5}"
+			],
+			"# Demonic Implants ! implants",
 			[
 				"**Description Source:** [Book of the Damned - Volume 2: Lords of Chaos](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
 				"A less invasive, but perhaps more painful, method of becoming a demon is the piecemeal transplanting of demonic elements into a mortal's body. By extracting a portion of a demon's body and then preparing it by utilizing various occult techniques or strange methods of preservation, one can reap a portion of the demon's power and transfer it into a sentient being. Demonic implants can either be temporary (and often addictive) drug-like magical elixirs, or they can be actual body parts that must be grafted onto or into a living mortal before they work. All are treated as wondrous items for the purposes of construction and use. The three examples listed below merely scratch the surface of this reckless category of magic item.",
 				"",
 				"All demonic implants require a willing host to attach them to-attempts to attach a demonic implant to an unwilling host automatically fail. Successfully attached demonic implants impart a negative level to a lawful or good user-the number of negative levels imparted stacks with each new implant. These negative levels remain as long as the implant remains attached or (in the case of demon blood) until the effects wear off. They never result in actual level loss, but cannot be overcome in any way while the implant is in effect.",
 				"",
-				"Implants must be physically excised to be removed. Removal inflicts 1d6 points of Constitution damage, and could have other effects as well (such as deafness or blindness) as determined by the GM."
+				"Implants must be physically excised to be removed. Removal inflicts 1d6 points of Constitution damage, and could have other effects as well (such as deafness or blindness) as determined by the GM.",
+				"",
+				"{table1}"
 			],
-			[ "{table1}" ],
-			"# Devil Talismans",
+			"# Devil Talismans ! talismans",
 			[
 				"**Description Source:** [Book of the Damned - Volume 1: Princes of Darkness](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
 				"The denizens of Hell claim the crafting of devil talismans as one of their most closely guarded secrets. But in truth, knowledge of such methods is withheld only to whet mortal desires, a feint to hasten a diabolist's willing damnation. Ultimately, any spellcaster can create a devil talisman through the use of the [Craft Wondrous Item](feat/craft_wondrous_item) feat and planar binding. As an additional prerequisite to the creation of any type of devil talisman, the creator must summon a devil and bargain with it to be bound within the talisman. Most devils prove resistant to the idea of being trapped within a magic item, but might acquiesce to a particularly convincing summoner. A devil summoned via planar binding and coerced into being bound within a devil talisman gains a +10 bonus on its opposed Charisma check. Once convinced, the devil infuses the already prepared devil talisman, completing the profane item.",
@@ -72,7 +101,7 @@
 				"| [Melancholic Talisman](/magic-talisman/melancholic_talisman) | neck | 50,000gp |",
 				"| [Sanguine Talisman](/magic-talisman/sanguine_talisman) | neck | &mdash; |"
 			],
-			"# Elemental Augmentation",
+			"# Elemental Augmentation ! augmentations",
 			[
 				"**Description Source** [Elemental Master's Handbook](source/elemental_master's_handbook)  ",
 				"Some intentionally infuse their own bodies with elemental energy, permanently imbuing parts of themselves with primordial forces. Once a commonplace devotion to elemental forces, elemental augmentations are now a rare art known to only a few specialists. Elementalists in Quantium command high prices to augment eager recipients with elemental energy, but not all have the requisite expertise-accidents are distressingly common.",
@@ -91,7 +120,7 @@
 				"| [Vaporous Lungs](/magic-augmentation/vaporous_lungs) | 10,800gp |",
 				"| [Whirlpool Maw](/magic-augmentation/whirlpool_maw) | 19,000gp |"
 			],
-			"# Favors",
+			"# Favors ! favors",
 			[
 				"**Description Source:** [Heroes of the High Court](source/heroes_of_the_high_court)  ",
 				"Favors are a category of single-use magic items that are activated when given by one creature (called the presenter) to another (the recipient). The presenter must intentionally give the favor to the recipient, and the recipient must intentionally accept it and don it within 1 minute for the favor to activate. Giving a favor to a recipient is a standard action that doesn't provoke attacks of opportunity; receiving and donning a favor requires as much time as it takes to don an item of the favor's type (usually a standard action). Once donned, the favor provides the indicated effect for the listed duration. In addition, while the favor is active, the presenter can take a standard action to sense whether the recipient is alive (with 4 or more hit points), badly wounded (at 3 or fewer hit points), dead, undead, or neither alive nor dead (as a construct). This effect functions regardless of distance, as long as the presenter and recipient are on the same plane of existence.",
@@ -106,7 +135,7 @@
 				"| [Laurel of the Champion](/magic-favor/laurel_of_the_champion) | head | 2,000gp |",
 				"| [Token of Gallantry](/magic-favor/token_of_gallantry) | none | 2,400gp |"
 			],
-			"# Fleshcrafting",
+			"# Fleshcrafting ! fleshcrafting",
 			[
 				"**Description Source:** [Horror Adventures](source/horror_adventures)  ",
 				"Fleshcrafting involves the same processes and applications as true fleshwarping, but is used to modify only a single portion of a living creature. Fleshcrafts are living pieces of tissue that can be attached to any corporeal, living creature via a graft or grown by a consumed elixir. Once attached, a fleshcraft immediately begins functioning and grants its listed abilities to the grafted creature. While a fleshcraft is partially magical in genesis, it doesn't radiate magic or have a caster level, regardless of whether it has been grafted to the subject or supplied via an elixir.",
@@ -131,7 +160,7 @@
 				"",
 				"{table2}"
 			],
-			"# Fungal Grafts",
+			"# Fungal Grafts ! grafts",
 			[
 				"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
 				"Derros have long studied the effects of growing modified cytillesh fungus on and inside living creatures. Growing a fungal graft is similar to crafting a magic item, but requires only a specific number of ranks in Craft (alchemy) instead of an item creation feat.",
@@ -146,7 +175,7 @@
 				"| [Fungal Eyes](/magic-graft/fungal_eyes) | eyes | 18,000gp |",
 				"| [Reaching Vines](/magic-graft/reaching_vines) | wrists | 4,000gp |"
 			],
-			"# Infused Poisons",
+			"# Infused Poisons ! poisons",
 			[
 				"**Description Source:** [Pathfinder #39: The City of Seven Spears](source/pathfinder_#39_the_city_of_seven_spears)  ",
 				"By combining the skill of potioncraft with a poisoner's art, cunning assassins and herbalists can craft vile supernatural threats. An infused poison combines the effects of an ingested poison and a potion. A creature drinking an infused poison is affected by the poison (and its initial effects or damage) first, after which the infused spell effect triggers and the imbiber must attempt a second saving throw (often of a different type or DC) against its magical effects. Spell resistance applies normally to an infused poison's magical effects, but offers no protection against the poison, and poison resistance offers no protection against the magical effects of an infused poison. Poison immunity renders a creature immune to an infused poison's magical effects.",
@@ -164,7 +193,7 @@
 				"| [Dust of Eox](/magic-poison/dust_of_eox) | 1,150gp |",
 				"| [Liquid Influence](/magic-poison/liquid_influence) | 900gp |"
 			],
-			"# Juju Fetishes",
+			"# Juju Fetishes ! fetishes",
 			[
 				"**Description Source:** [Pathfinder #39: The City of Seven Spears](source/pathfinder_#39_the_city_of_seven_spears)  ",
 				"Juju fetishes are charms with finite lifespans, created for the purpose of aiding or harming the possessor. Many fetishes take the form of ensorcelled pouches about half the size of a human hand, made of skin or leather and containing bones, vegetable matter, stones, spices, broken pottery, hair, blood, grave dirt, and other such ingredients. The exterior may be dyed, or strange scratches may be worked into the surface. On occasion, some other item may be sewn onto the surface, such as the severed foot of a chicken tied with colored ribbon, or a frog's leg bone etched with strange patterns. However, a cursory examination of a pouch or its contents cannot reveal the fetish's purpose or nature, as each fetish is unique.",
@@ -181,7 +210,7 @@
 				"| [Laubo Powder](/magic-fetish/laubo_powder) | none | 2,800gp |",
 				"| [Spirit Tear](/magic-fetish/spirit_tear) | neck | 1,800gp |"
 			],
-			"# Necrografts",
+			"# Necrografts ! necrografts",
 			[
 				"**Description Source:** [Black Markets](source/black_markets)  ",
 				"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients-some are forced to endure the surgical process as part of mad experiments.",
@@ -199,7 +228,7 @@
 				"| [Sallowflesh](/magic-necrograft/sallowflesh) | 20,000gp |",
 				"| [Strangler's Tongue](/magic-necrograft/strangler's_tongue) | 36,000gp |"
 			],
-			"# Necrotoxins",
+			"# Necrotoxins ! necrotoxins",
 			[
 				"**Description Source:** [Black Markets](source/black_markets)  ",
 				"Hailing from the undead nation of Geb but illegal even there, necrotoxins fuse alchemy and necromancy to attack not just the body or the mind, but the very soul of the victim. Only alchemists in Geb and the poison-loving city of Daggermark have mastered the creation of these rare and reviled toxins.",
@@ -215,7 +244,7 @@
 				"| [Quick Rot](/magic-necrotoxin/quick_rot) | 450gp |",
 				"| [Xensh Spores](/magic-necrotoxin/xensh_spores) | 1,200gp |"
 			],
-			"# Magical Plants",
+			"# Magical Plants ! plants",
 			[
 				"**Description Source:** [Ultimate Wilderness](source/ultimate_wilderness)  ",
 				"Magic plants are a new type of magic item that are cultivated rather than constructed. Cultivating one requires the [Cultivate Magic Plants](feat/cultivate_magic_plants) item creation feat.",
@@ -238,7 +267,7 @@
 				"",
 				"{table3}"
 			],
-			"# Relics",
+			"# Relics ! relics",
 			[
 				"**Description Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
 				"Throughout the War for the Crown Adventure Path, PCs can find *relics*. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)",
@@ -259,7 +288,7 @@
 				"| [Subtle Mask](/magic-relic/subtle_mask) |",
 				"| [Taldaris's Bequeathal](/magic-relic/taldaris's_bequeathal) |"
 			],
-			"# Magical Sets",
+			"# Magical Sets ! sets",
 			[
 				"**Description Source** [Chronicle of Legends](source/chronicle_of_legends)  ",
 				"The following section details some unique items in the world of Golarion that can have specific additional benefits when worn or wielded together. These item sets are collections of thematically aligned equipment whose magical properties can resonate with each other to make the set greater than the sum of its parts. Set bonuses are cumulative; for example, a character who wears four pieces of a set gains the listed benefits for having two, three, and four of the items. If a set modifies a class feature or ability, the wearer must have this class feature or ability to gain this benefit; for example, a character wearing at least three pieces of the Archmage's Vestments must be able to cast 3rd-level spells to gain the additional 3rd-level spell slot.",
@@ -277,7 +306,7 @@
 				"| [Pharasma's Command](/magic-set/pharasma's_command) |",
 				"| [Urgathoa's Gluttony](/magic-set/urgathoa's_gluttony) |"
 			],
-			"# Shadow Piercings",
+			"# Shadow Piercings ! piercings",
 			[
 				"**Description Source:** [Champions of Corruption](source/champions_of_corruption)  ",
 				"True Nidalese savor pain, and they proudly wear this delight in the torturous piercing of their bodies. Shadow piercers are some of the most skilled pain artisans in Nidal's depraved culture. They create magical pieces of jewelry, formed partially of shadowstuff, and use them in all manner of surface piercings for their discerning clients. Some shadow piercings are more than just single pieces of jewelry-instead they are created in sets that form specific designs across an expanse of the wearer's skin.",
@@ -300,14 +329,14 @@
 				"| [Eye Piercings (Greater)](/magic-piercing/eye_piercings_greater) | eyes | 32,000gp |",
 				"| [Head Piercings (Greater)](/magic-piercing/head_piercings_greater) | head | 33,600gp |"
 			],
-			"# Magical Tattoos",
+			"# Magical Tattoos ! tattoos",
 			[
 				"**Description Source:** [Inner Sea Magic](source/inner_sea_magic)  ",
 				"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their [tattooed sorcerers](archetype-sorcerer/tattooed_sorcerer) bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
 				"",
 				"{table4}"
 			],
-			"# Thrones",
+			"# Thrones ! thrones",
 			[
 				"**Description Source:**[Heroes of the High Court](source/heroes_of_the_high_court)  ",
 				"A ruler's physical seat is as much a symbol of authority as a scepter or crown. Many courts enforce stiff penalties - including execution - for unlawfully sitting upon or even touching the throne of a rightful ruler. Some thrones are invested with magical power to match their reputations.",

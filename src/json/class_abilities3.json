@@ -2020,7 +2020,7 @@
 			"",
 			"**Spin Kick** ([Pathfinder Unchained pg. 19](source/pathfinder_unchained)) The monk spins about, delivering a kick his foe did not expect. The monk makes his attack against the foe's flat-footed AC. Creatures with the uncanny dodge class feature or a similar effect cannot be caught flat-footed by this style strike. The monk must attack with a kick to use this style strike.",
 			"",
-			"**Throat Crush** ([Martial Arts Handbook pg. 7](source/martial_arts_handbook)) The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](unknown/caster_croak_spellblight). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
+			"**Throat Crush** ([Martial Arts Handbook pg. 7](source/martial_arts_handbook)) The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](rule/minor_spellblights). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
 		],
 		"subhierarchy": [[ "Unchained Monk", "class/unchained_monk" ]]
 	},

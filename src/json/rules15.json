@@ -344,8 +344,8 @@
 		]
 	},
 	"action_types_and_subtypes": {
-		"name": "Action Types and Subtypes (Revised Actions)",
-		"subtitle": "Unchained",
+		"name": "Action Types and Subtypes",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 102](source/pathfinder_unchained)",
@@ -395,8 +395,8 @@
 		]
 	},
 	"simple_actions": {
-		"name": "Simple Actions (Revised Actions)",
-		"subtitle": "Unchained",
+		"name": "Simple Actions",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 103](source/pathfinder_unchained)",
@@ -484,8 +484,8 @@
 		]
 	},
 	"advanced_actions": {
-		"name": "Advanced Actions (Revised Actions)",
-		"subtitle": "Unchained",
+		"name": "Advanced Actions",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 105](source/pathfinder_unchained)",
@@ -593,9 +593,8 @@
 		]
 	},
 	"free_actions_pu": {
-		"name": "Free Actions (Revised Actions)",
-		"subtitle": "Unchained",
-		"display_name": "Free Actions",
+		"name": "Free Actions",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 109](source/pathfinder_unchained)",
@@ -645,8 +644,8 @@
 		]
 	},
 	"reactions": {
-		"name": "Reactions (Revised Actions)",
-		"subtitle": "Unchained",
+		"name": "Reactions",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 109](source/pathfinder_unchained)",
@@ -678,8 +677,8 @@
 		]
 	},
 	"converting_other_actions": {
-		"name": "Converting Other Actions (Revised Actions)",
-		"subtitle": "Unchained",
+		"name": "Converting Other Actions",
+		"subtitle": "Revised Actions, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 107](source/pathfinder_unchained)",
@@ -2089,7 +2088,7 @@
 			"",
 			"**15th Level:** The wearer can make a secondary natural attack with his roots, dealing an amount of damage equal to 1d4 + 1/2 the user's Strength bonus. At the beginning of the wearer's turn, if he still possesses roots from a previous round, the secondary root attack gains 5 feet of reach. This increase stacks with itself to a maximum of triple the wearer's natural reach, but it doesn't stack with any other increases. The reach resets whenever the roots fall away.",
 			"",
-			"**17th Level:** The wearer gains the [pull (root, 10 feet)](unknown/pull_root,_10_feet) universal monster ability.",
+			"**17th Level:** The wearer gains the [pull (root, 10 feet)](umr/pull) universal monster ability.",
 			"",
 			"**20th Level:** As long as the wearer's roots are planted in the ground, he gains the effect of a [ring of regeneration](magic-ring/ring_of_regeneration). When the roots fall away, it counts as removing the ring, so he only regenerates damage taken after planting the roots and before moving. As long as the wearer activates his roots for at least 8 hours each day, he does not need to sleep. The wearer's +4 bonus on saving throws for planting his roots now also applies to paralysis, poison, polymorph effects, sleep effects, and stun.",
 			"",
@@ -2747,7 +2746,7 @@
 			"",
 			"### Expert Classes",
 			"",
-			"If your monster is meant to act as though it has a character class, it gains a [class graft](unknown/class_graft). The following class grafts require the monster to use the expert array: alchemist, bard, inquisitor, magus, and rogue.",
+			"If your monster is meant to act as though it has a character class, it gains a [class graft](rule/class_grafts). The following class grafts require the monster to use the expert array: alchemist, bard, inquisitor, magus, and rogue.",
 			"",
 			"### Table 5-3: Expert Main Statistics",
 			"",
@@ -2866,7 +2865,7 @@
 			"",
 			"### Spellcaster Classes",
 			"",
-			"If your monster is meant to act as though it has a character class, it gains a [class graft](unknown/class_graft).",
+			"If your monster is meant to act as though it has a character class, it gains a [class graft](rule/class_grafts).",
 			"",
 			"The following class grafts require the monster to use the spellcaster array: cleric, druid, oracle, sorcerer, summoner, witch, and wizard. A summoner's eidolon is a separate monster, typically created using the combatant array.",
 			"",

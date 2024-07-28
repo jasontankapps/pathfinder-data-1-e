@@ -2314,9 +2314,8 @@
 		]
 	},
 	"designing_encounters_ma": {
-		"name": "Designing Encounters (MA)",
+		"name": "Designing Encounters",
 		"subtitle": "Mythic",
-		"display_name": "Designing Encounters",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 128](source/mythic_adventures)",
@@ -2992,8 +2991,7 @@
 		]
 	},
 	"magic_items_ma": {
-		"name": "Magic Items (MA)",
-		"display_name": "Magic Items",
+		"name": "Magic Items",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"**Source** [Mythic Adventures pg. 142](source/mythic_adventures)",

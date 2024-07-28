@@ -1183,9 +1183,8 @@
 		]
 	},
 	"water_ucp": {
-		"name": "Water (UCp)",
+		"name": "Water",
 		"subtitle": "Exploration, Gamemastering",
-		"display_name": "Water",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
@@ -1468,9 +1467,8 @@
 		]
 	},
 	"getting_lost_ucp": {
-		"name": "Getting Lost (UCp)",
+		"name": "Getting Lost",
 		"subtitle": "Exploration, Gamemastering",
-		"display_name": "Getting Lost",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 155](source/ultimate_campaign)",
@@ -2608,9 +2606,8 @@
 		]
 	},
 	"magic_item_creation_ucp": {
-		"name": "Magic Item Creation (UCp)",
+		"name": "Magic Item Creation",
 		"subtitle": "Gamemastering",
-		"display_name": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
@@ -3178,7 +3175,7 @@
 			"",
 			"**Devotion/Enmity:** You and the NPC are devoted to each other or actively opposed to one another. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 1,600 XP. The first time you gain this benefit in a campaign, your party gains an additional 1,600 XP.",
 			"",
-			"When a relationship with an NPC reaches this strength, it grants you a [bonus trait](unknown/bonus_trait), whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
+			"When a relationship with an NPC reaches this strength, it grants you a bonus [trait](main/traits), whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
 			"",
 			"The bonus XP from a relationship is divided among all PCs, just like other campaign-based XP awards. You can't gain XP bonuses from reaching a particular new Relationship Level with an individual NPC more than once (such as if you decrease your Relationship Level with an NPC or change its nature and bring it back up)."
 		],
@@ -3201,7 +3198,9 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
 			"",
-			"You can change your Relationship Score with an NPC in the following ways. Campaign Trait: If your GM is using [campaign traits](unknown/campaign_traits) for this campaign, and you have a campaign trait associated with a specific NPC, your Relationship Score with that NPC gains a one-time increase of 4 points.",
+			"You can change your Relationship Score with an NPC in the following ways.",
+			"",
+			"**Campaign Trait:** If your GM is using [campaign traits](main/traits_campaign) for this campaign, and you have a campaign trait associated with a specific NPC, your Relationship Score with that NPC gains a one-time increase of 4 points.",
 			"",
 			"**Charisma:** Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a [headband of alluring Charisma](magic-wondrous/headband_of_alluring_charisma_2)), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like [eagle's splendor](spell/eagle's_splendor), do not alter Relationship Scores.",
 			"",
@@ -4370,9 +4369,8 @@
 		]
 	},
 	"hit_points_ucp": {
-		"name": "Hit Points (UCp)",
+		"name": "Hit Points",
 		"subtitle": "Retraining, Gamemastering",
-		"display_name": "Hit Points",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
@@ -4694,7 +4692,7 @@
 			"",
 			"**Available Classes:** A young character does not have access to the same classes as adult characters. Not yet trained in the advanced techniques of war, arcana, faith, and varied other pursuits, a young character is a squire, apprentice, acolyte, or student on the path to expertise. As such, you can select only NPC classes while in this age category, beginning play and advancing in level as an adept, aristocrat, commoner, expert, or warrior, according to your interests and social background. As soon as you reach adulthood, though, you may retrain those NPC class levels as levels in any base classes of your choosing (see [Retraining](rule/retraining)).",
 			"",
-			"**Traits:** Because [character traits](unknown/character_traits) represent your character's background before becoming an adventurer, the GM might limit you to selecting only one trait at 1st level instead of the normal two traits allowed. When your character reaches adulthood, you select your second trait. Note that normally you can select a new trait after 1st level only if your character takes the [Additional Traits](feat/additional_traits) feat, so this option allows you more flexibility in choosing your second trait, as recent events in the campaign might make some of your trait options more valuable than they originally appeared when the campaign started.",
+			"**Traits:** Because [character traits](rule/traits) represent your character's background before becoming an adventurer, the GM might limit you to selecting only one trait at 1st level instead of the normal two traits allowed. When your character reaches adulthood, you select your second trait. Note that normally you can select a new trait after 1st level only if your character takes the [Additional Traits](feat/additional_traits) feat, so this option allows you more flexibility in choosing your second trait, as recent events in the campaign might make some of your trait options more valuable than they originally appeared when the campaign started.",
 			"",
 			"### Table 3-9: Random Young Starting Ages",
 			"",
@@ -5223,7 +5221,7 @@
 		"description": [
 			"**Source** [Occult Adventures pg. 201](source/occult_adventures)",
 			"",
-			"Psychic duels are battles in which combatants' minds become intertwined within a [binary mindscape](unknown/binary_mindscape). Though psychic spellcasters wield tremendous power in such battles, other creatures can also wield mental might with surprising potency."
+			"Psychic duels are battles in which combatants' minds become intertwined within a [binary mindscape](rule/binary_mindscapes). Though psychic spellcasters wield tremendous power in such battles, other creatures can also wield mental might with surprising potency."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5664,9 +5662,8 @@
 		]
 	},
 	"possession_misc": {
-		"name": "Possession (Fiendish)",
+		"name": "Possession",
 		"subtitle": "Occult Rules",
-		"display_name": "Possession",
 		"sources": [ "Pathfinder #28: The Infernal Syndrome" ],
 		"description": [
 			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 56](source/pathfinder_#28_the_infernal_syndrome)",
@@ -6201,7 +6198,7 @@
 			"",
 			"**Step 2-Determine School:** Once you have the concept for the ritual, next determine which school best suits the ritual's effect, just as if it were any other type of spell. If you're unsure which school is most appropriate, compare the effects with existing spells. If a ritual could have one or more possible schools, determine which is the most relevant school and use that one.",
 			"",
-			"**Step 3-Determine Ritual Level:** This step involves setting the level of the occult ritual. Occult rituals are always equivalent to at least 4th-level spells. Often the best way to determine a ritual level is to compare it to other spells in the game, or to use the guidelines for [designing new spells](unknown/designing_new_spells). The ritual level determines how many total successes are required to cast the ritual, the DCs for the skill checks needed to complete the ritual, the save DC for the ritual's effect (if applicable), and indirectly determines the ritual's range and duration.",
+			"**Step 3-Determine Ritual Level:** This step involves setting the level of the occult ritual. Occult rituals are always equivalent to at least 4th-level spells. Often the best way to determine a ritual level is to compare it to other spells in the game, or to use the guidelines for [designing new spells](rule/research_and_designing_spells). The ritual level determines how many total successes are required to cast the ritual, the DCs for the skill checks needed to complete the ritual, the save DC for the ritual's effect (if applicable), and indirectly determines the ritual's range and duration.",
 			"",
 			"The number of skill checks the ritual requires is equal to the level of the ritual, and the base DC of the skill checks needed to complete a ritual is 28 + the ritual level. Any saving throw DCs of the ritual (including any DC to remove a temporary negative level gained by the backlash or by failing the ritual) are equal to 10 + the ritual level + the primary caster's Intelligence, Wisdom, or Charisma bonus (whichever is highest).",
 			"",
@@ -6647,7 +6644,7 @@
 			"",
 			"When planning adventures along this theme, think about ways the characters can probe the realities before their eyes on a deeper level. For instance, as they investigate mysteries, you may want to occasionally provide ways for them to explore the Transitive Planes, and even the Outer Planes, to discover clues.",
 			"",
-			"A [mindscape](unknown/mindscape) is typically a surreal puzzle environment where the characters accomplish their tasks by navigating the mindscape and deceiving or satisfying the controlling mind, overcoming its defenses, unlocking its doors, and learning the secrets buried deep within.",
+			"A [mindscape](rule/mindscapes) is typically a surreal puzzle environment where the characters accomplish their tasks by navigating the mindscape and deceiving or satisfying the controlling mind, overcoming its defenses, unlocking its doors, and learning the secrets buried deep within.",
 			"",
 			"GMs should be prepared to adjudicate scenes where the characters project themselves into nonphysical realms. Adventures along this theme might find the characters entering the twisted mindscape of an insane or possessed victim, or they might enter the mindscape of an enemy to steal hidden knowledge or implant subconscious suggestions."
 		],

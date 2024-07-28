@@ -510,9 +510,8 @@
 		]
 	},
 	"conjuration_uw-1": {
-		"name": "Conjuration (UW-1)",
+		"name": "Conjuration",
 		"subtitle": "Spells, Wilderness",
-		"display_name": "Conjuration",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 156](source/ultimate_wilderness)",
@@ -595,9 +594,8 @@
 		]
 	},
 	"transmutation_uw-1": {
-		"name": "Transmutation (UW-1)",
+		"name": "Transmutation",
 		"subtitle": "Spells, Wilderness",
-		"display_name": "Transmutation",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 158](source/ultimate_wilderness)",
@@ -684,9 +682,8 @@
 		]
 	},
 	"conjuration_uw-2": {
-		"name": "Conjuration (UW-2)",
+		"name": "Conjuration",
 		"subtitle": "Spells, Wilderness",
-		"display_name": "Conjuration",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 159](source/ultimate_wilderness)",
@@ -712,9 +709,8 @@
 		]
 	},
 	"transmutation_uw-2": {
-		"name": "Transmutation (UW-2)",
+		"name": "Transmutation",
 		"subtitle": "Spells, Wilderness",
-		"display_name": "Transmutation",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 160](source/ultimate_wilderness)",
@@ -2792,9 +2788,9 @@
 			"",
 			"**[Flying Skiff](magic-wondrous/flying_skiff):** Few options are as luxurious and expensive as a flying skiff; entire campaigns might be built around this device. The PCs might serve as crew aboard a flying skiff and travel to sundry destinations under their employers' commands, only to find themselves inheriting the ship when misfortune befalls the previous owner.",
 			"",
-			"**[Obsidian Steed](unknown/obsidian_steed):** This figurine of wondrous power is an excellent escape plan-as long as players account for the fact that it can carry only a single creature. The item's tendency to deposit good-aligned riders in unpleasant places could also be the basis for a time-critical rescue mission.",
+			"**[Obsidian Steed](magic-wondrous/figurine_of_wondrous_power_obsidian_steed):** This figurine of wondrous power is an excellent escape plan-as long as players account for the fact that it can carry only a single creature. The item's tendency to deposit good-aligned riders in unpleasant places could also be the basis for a time-critical rescue mission.",
 			"",
-			"**[Planar Keystones](unknown/planar_keystones):** These items make for a low-cost method to allow travel to and from specific planes. Since their destinations are limited and it takes time to activate them, planar keystones have no real use in combat. But as a method of transporting a group of PCs to or from a plane at any experience level, planar keystones are one of your best options.",
+			"**[Planar Keystones](magic-wondrous/planar_keystone):** These items make for a low-cost method to allow travel to and from specific planes. Since their destinations are limited and it takes time to activate them, planar keystones have no real use in combat. But as a method of transporting a group of PCs to or from a plane at any experience level, planar keystones are one of your best options.",
 			"",
 			"**[Robe of Stars](magic-wondrous/robe_of_stars):** A robe of stars allows only one creature to travel. However, because the robe physically transports the wearer to the Astral Plane, they're neither protected by nor limited by the silver cord afforded by the [astral projection](spell/astral_projection) spell, allowing limitless travel from there to any number of demiplanes and Outer Planes.",
 			"",
