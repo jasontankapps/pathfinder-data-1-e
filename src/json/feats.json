@@ -2237,7 +2237,7 @@
 			"**Benefit:** You can use any armor tricks related to the chosen armor option if you meet the trick's prerequisites and are proficient with any armor that you use as part of the trick.  ",
 			"**Special:** You can gain Armor Trick multiple times. Each time you take the feat, it applies to a new armor trick option.",
 			"",
-			"**Heavy Armor Tricks**",
+			"### Heavy Armor Tricks",
 			"",
 			"**Source** [Armor Master's Handbook pg. 9](source/armor_master's_handbook)",
 			"",
@@ -2251,7 +2251,7 @@
 			"",
 			"*Steel-Plated Smasher* (Power Attack): You gain a bonus equal to 1/4 of your armor's armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armor's full armor check penalty.",
 			"",
-			"**Light Armor Tricks**",
+			"### Light Armor Tricks",
 			"",
 			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
 			"",
@@ -2265,7 +2265,7 @@
 			"",
 			"*Sliding Charge* (Improved Trip, base attack bonus +4): You can use your momentum to confound your opponents. Whenever you charge an opponent and attempt a trip combat maneuver check against that opponent as a melee attack, you can drop to the ground as a swift action in order to slide into your target. When doing so, you add your Dexterity bonus (up to your armor's maximum Dexterity bonus) to the combat maneuver check. Whether or not you succeed at the check, you are prone at the end of your charge.",
 			"",
-			"**Medium Armor Tricks**",
+			"### Medium Armor Tricks",
 			"",
 			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
 			"",
@@ -5507,7 +5507,7 @@
 			"",
 			"Your killing blows are so brutal that they scare other foes.  ",
 			"**Prerequisites:** [Dazzling Display](feat/dazzling_display), [Weapon Focus](feat/weapon_focus), base attack bonus +5, proficiency with the selected weapon.  ",
-			"**Benefit:** When you deliver a coup de grace with the selected weapon and kill the target, enemies within 30 feet of you who can see or hear you must succeed at a Will saving throw (DC = 10 + 1/2 your character level + your Charisma bonus) or become shaken. This is a mind-affecting fear effect."
+			"**Benefit:** When you deliver a [coup de grace](rule/helpless_defenders) with the selected weapon and kill the target, enemies within 30 feet of you who can see or hear you must succeed at a Will saving throw (DC = 10 + 1/2 your character level + your Charisma bonus) or become shaken. This is a mind-affecting fear effect."
 		]
 	},
 	"brutal_grappler": {

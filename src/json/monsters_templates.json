@@ -1848,7 +1848,7 @@
 			"",
 			"**Burst (Ex):** When an exoskeleton is destroyed, its desiccated husk bursts, releasing the dusty remains of the vermin's insides into the surrounding air. Any creature adjacent to an exoskeleton when it bursts must succeed at a Fortitude save or become staggered for 1 round as it coughs and sneezes. Creatures that don't need to breathe are immune to this effect. If the exoskeleton has 10 or more Hit Dice, the victim is instead nauseated for 1 round. The save DC is equal to 10 + half the exoskeleton's Hit Dice + its Charisma modifier.",
 			"",
-			"**Haunted Exoskeleton**",
+			"### Haunted Exoskeleton",
 			"",
 			"Rarely, an exoskeleton is haunted by the lost spirit of a stubborn soul. This wreaks havoc on the spirit, wiping away most of its memories but giving the exoskeleton an Intelligence score of 10, along with all of the feats and skill ranks its Hit Dice would afford. Climb, Fly, Perception, and Swim are class skills for haunted exoskeletons. A haunted exoskeleton typically understands one language (usually Common) but cannot speak."
 		]
@@ -3269,9 +3269,12 @@
 			"",
 			"**Quick Rules:** Darkvision; see in darkness; +1 to AC; +1 on rolls based on Str and Cha; contract bound; gore attack that deals 1d4 points of damage (for Medium creatures); summon (see table; 100%).",
 			"",
-			"**Rebuild Rules:** **Senses** darkvision, see in darkness; **AC** natural armor bonus increases by 1; **Weaknesses** contract bound; **Melee** gore attack that deals 1d4 points of damage (for Medium creatures); **Spell-like Abilities** summon (see table; 100%); **Ability Scores** +2 Str, +2 Cha. **Hellbound Summon**",
+			"**Rebuild Rules:** **Senses** darkvision, see in darkness; **AC** natural armor bonus increases by 1; **Weaknesses** contract bound; **Melee** gore attack that deals 1d4 points of damage (for Medium creatures); **Spell-like Abilities** summon (see table; 100%); **Ability Scores** +2 Str, +2 Cha.",
+			"",
+			"### Hellbound Summon",
 			"",
 			"| Hellbound Creature HD | Devil | Spell Level |",
+			"| --- | --- | --- |",
 			"| 8 or fewer | Lemure | 2nd |",
 			"| 9-10 | Bearded devil | 5th |",
 			"| 11-12 | Erinyes | 6th |",

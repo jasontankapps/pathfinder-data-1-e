@@ -251,7 +251,7 @@
 				"",
 				"To cultivate a magic plant, you need a place to plant it. This usually requires a 30-foot-radius area of nutrient-rich soil and a constant supply of water and light for larger magic plants, and it requires a 10-foot-radius area and similar soil, water, and light requirements for smaller plants. Most magic plants bear fruit, seeds, or sprouts that, once mature, replicate the effects of a spell when eaten, thrown, or used in some other way. A magic plant's price depends on the spell effect it replicates. The cultivation cost of a magic plant is half the plant's price.",
 				"",
-				"**Price = spell level &times; caster level &times; 2,000 &times; yield per day &times; growing season multiplier.**",
+				"> **Price = spell level &times; caster level &times; 2,000 &times; yield per day &times; growing season multiplier.**",
 				"",
 				"The yield per day is the number of fruit, seeds, or effects the plant generates per day during its growing season. For instance, a goodberry bush yields six berries per day. The growing season multiplier is equal to the number of growing seasons the plant has in a single year. Growing seasons are continuous 13-week-long periods confined to one of the four seasons (spring, summer, fall, and winter). If a season is longer than 13 weeks, the growing season needs not be continuous. Magic plants cannot be in a growing season for longer than 52 weeks, and a plant that has four consecutive growing seasons produces fruit, seeds, or effects year round. A magic plant generates its effects only during a growing season. Outside of a growing season, some plants will still grow but remain barren (such as a fruit tree), while others may wither and regrow in the following year (such as vines).",
 				"",
