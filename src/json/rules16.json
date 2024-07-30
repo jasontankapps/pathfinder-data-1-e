@@ -954,7 +954,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 145](source/pathfinder_unchained)",
 			"",
-			"A [pearl of power](magic-wondrous/pearl_of_power) can be used only to regain a spell slot of a level you prepare, not to restore slots to your spell pool. Conversely, a [runestone of power](unknown/runestone_of_power) can allow the caster to cast a spell without expending a slot from his pool. The spell must be both of a level the runestone can restore and of a low enough level to be a part of his spell pool rather than a prepared spell."
+			"A [pearl of power](magic-wondrous/pearl_of_power) can be used only to regain a spell slot of a level you prepare, not to restore slots to your spell pool. Conversely, a [runestone of power](magic-wondrous/runestone_of_power_1st) can allow the caster to cast a spell without expending a slot from his pool. The spell must be both of a level the runestone can restore and of a low enough level to be a part of his spell pool rather than a prepared spell."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1298,7 +1298,7 @@
 			"",
 			"Using the overclocked spells variant, confident spellcasters can attempt to weave more power into their spells as they cast them. This is not without risk: deviating from the stable, standard formulation of the spell risks collapse of the spell and the magical energy therein.",
 			"",
-			"As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a [scroll mishap](unknown/scroll_mishap).",
+			"As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a [scroll mishap](rule/scrolls).",
 			"",
 			"**With Limited Magic:** If you are using the [limited magic rules](rule/limited_magic), instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
 			"",
@@ -1651,7 +1651,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 88](source/pathfinder_unchained)",
 			"",
-			"Under the core rules, multiclassing can lead to a wide disparity in character ability. With this system, each character can choose a secondary class at 1st level that she trains in throughout her career, without giving up levels in her primary class. Once selected, this choice is permanent (though if using the [retraining rules](unknown/retraining_rules), the secondary class can be retrained by paying half the cost of retraining all her class levels). A character who selects this option doesn't gain feats at 3rd, 7th, 11th, 15th, and 19th levels, but instead gains class features from her secondary class as described on Table 2-8: Multiclass Character Advancement. It is probably a good idea to use either this variant system or normal multiclassing, but it's possible for the two systems to be used together. In a game using both systems, a character can't take levels in the secondary class she gains from this variant.",
+			"Under the core rules, multiclassing can lead to a wide disparity in character ability. With this system, each character can choose a secondary class at 1st level that she trains in throughout her career, without giving up levels in her primary class. Once selected, this choice is permanent (though if using the [retraining rules](rule/retraining), the secondary class can be retrained by paying half the cost of retraining all her class levels). A character who selects this option doesn't gain feats at 3rd, 7th, 11th, 15th, and 19th levels, but instead gains class features from her secondary class as described on Table 2-8: Multiclass Character Advancement. It is probably a good idea to use either this variant system or normal multiclassing, but it's possible for the two systems to be used together. In a game using both systems, a character can't take levels in the secondary class she gains from this variant.",
 			"",
 			"### Table 2-8: Multiclass Character Advancement",
 			"",
@@ -2001,7 +2001,7 @@
 			"",
 			"**Smite Evil:** At 11th level, she gains the ability to smite evil once per day as a paladin of her character level - 4.",
 			"",
-			"**Mercy:** At 15th level, she selects one [mercy](unknown/mercy) from the paladin's 3rd-level mercy list.",
+			"**Mercy:** At 15th level, she selects one [mercy](ability/mercies) from the paladin's 3rd-level mercy list.",
 			"",
 			"**Divine Bond:** At 19th level, she gains a divine bond to a weapon as a paladin of her character level - 3."
 		],

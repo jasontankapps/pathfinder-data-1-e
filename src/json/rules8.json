@@ -760,7 +760,7 @@
 			"",
 			"Natural disasters can occur anywhere. Untamed regions are often home to a wide variety of monsters. You can instill a bit of additional danger into your exploration sessions by including random encounters, whether they take the form of natural hazards or monsters that dwell in the terrain.",
 			"",
-			"Roll on the following table once per day (or once per hex, if the PCs enter multiple hexes in a single day). For hazards, see the [Hazards section](unknown/hazards_section). For monster encounters, in most cases the PCs face off against a creature appropriate to the terrain, but a nearby famine, drought, war, or plague may force a monster out of its normal territory and into a strange environment.",
+			"Roll on the following table once per day (or once per hex, if the PCs enter multiple hexes in a single day). For hazards, see the [Hazards section](rule/exploration_hazards). For monster encounters, in most cases the PCs face off against a creature appropriate to the terrain, but a nearby famine, drought, war, or plague may force a monster out of its normal territory and into a strange environment.",
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
@@ -1537,7 +1537,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 159](source/ultimate_campaign)",
 			"",
-			"Bad weather can range from minor precipitation to a [serious storm](unknown/serious_storm). The weather can include lightning strikes and cause floods, landslides, and other natural hazards."
+			"Bad weather can range from minor precipitation to a [serious storm](rule/storms). The weather can include lightning strikes and cause floods, landslides, and other natural hazards."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2660,9 +2660,9 @@
 			"",
 			"Example: Rob's cleric wants to create a heavy mace with a continuous [true strike](spell/true_strike) ability, granting its wielder a +20 insight bonus on attack rolls. The formula for a continuous spell effect is spell level &times; caster level &times; 2,000 gp, for a total of 2,000 gp (spell level 1, caster level 1). Jessica, the GM, points out that a +5 enhancement bonus on a weapon costs 50,000 gp, and the +20 bonus from true strike is much better than the +5 bonus from standard weapon enhancement, and suggests a price of 200,000 gp for the mace. Rob agrees that using the formula in this way is unreasonable and decides to craft a +1 heavy mace using the standard weapon pricing rules instead.",
 			"",
-			"Example: Patrick's wizard wants to create bracers with a continuous [mage armor](spell/mage_armor) ability, granting the wearer a +4 armor bonus to AC. The formula indicates this would cost 2,000 gp (spell level 1, caster level 1). Jessica reminds him that [bracers of armor](unknown/bracers_of_armor) +4 are priced at 16,000 gp and Patrick's bracers should have that price as well. Patrick agrees, and because he only has 2,000 gp to spend, he decides to spend 1,000 gp of that to craft [bracers of armor](unknown/bracers_of_armor) +1 using the standard bracer prices.",
+			"Example: Patrick's wizard wants to create bracers with a continuous [mage armor](spell/mage_armor) ability, granting the wearer a +4 armor bonus to AC. The formula indicates this would cost 2,000 gp (spell level 1, caster level 1). Jessica reminds him that [bracers of armor +4](magic-wondrous/bracers_of_armor_4) are priced at 16,000 gp and Patrick's bracers should have that price as well. Patrick agrees, and because he only has 2,000 gp to spend, he decides to spend 1,000 gp of that to craft [bracers of armor +1](magic-wondrous/bracers_of_armor_1) using the standard bracer prices.",
 			"",
-			"Some new items are really existing magic items with a different weapon or armor type, such as a [dagger of venom](magic-weapon/dagger_of_venom) that is a rapier instead of a dagger or a [lion's shield](magic-armor/lion's_shield) that's a wooden shield instead of a metal shield. For these items, just replace the price of the nonmagical masterwork item with the cost of the new type of item. For example, a [rapier of venom](unknown/rapier_of_venom) has a price of 8,320 gp instead of the [dagger of venom's](magic-weapon/dagger_of_venom) price of 8,302 gp."
+			"Some new items are really existing magic items with a different weapon or armor type, such as a [dagger of venom](magic-weapon/dagger_of_venom) that is a rapier instead of a dagger or a [lion's shield](magic-armor/lion's_shield) that's a wooden shield instead of a metal shield. For these items, just replace the price of the nonmagical masterwork item with the cost of the new type of item. For example, a *rapier of venom* has a price of 8,320 gp instead of the [dagger of venom's](magic-weapon/dagger_of_venom) price of 8,302 gp."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6123,7 +6123,7 @@
 			"",
 			"### Tapping into Ley Lines",
 			"",
-			"A primary ritual caster with the ability to cast spells or use spell-like abilities can tap into a [ley line](unknown/ley_line) within 30 feet by performing a simple ritual that takes 1 hour per 2 caster levels of the ley line. At the end of the ritual, the primary caster must succeed at a Spellcraft check (DC = 15 + the ley line's caster level) to attune herself with the ley line. If she fails, she can try the attunement ritual anew. On a successful check, the primary caster and any secondary casters gain a +1 bonus on skill checks to cast an occult ritual using the ley line, provided they remain within 30 feet of the ley line. This bonus increases by 1 for every 5 caster levels of the ley line, to a maximum of +5.",
+			"A primary ritual caster with the ability to cast spells or use spell-like abilities can tap into a [ley line](rule/ley_lines) within 30 feet by performing a simple ritual that takes 1 hour per 2 caster levels of the ley line. At the end of the ritual, the primary caster must succeed at a Spellcraft check (DC = 15 + the ley line's caster level) to attune herself with the ley line. If she fails, she can try the attunement ritual anew. On a successful check, the primary caster and any secondary casters gain a +1 bonus on skill checks to cast an occult ritual using the ley line, provided they remain within 30 feet of the ley line. This bonus increases by 1 for every 5 caster levels of the ley line, to a maximum of +5.",
 			"",
 			"This form of attunement can be broken in the standard ways described in [Using Ley Lines](rule/using_ley_lines)."
 		],

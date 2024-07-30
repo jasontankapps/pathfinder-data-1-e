@@ -2,6 +2,7 @@
 	"archmage": {
 		"name": "Archmage",
 		"subtitle": "Mythic",
+		"tags": "arcane surge, mage strike, wild arcana, true archmage, archmage arcana",
 		"sources": [
 			"Mythic Adventures",
 			"Heroes of Golarion",
@@ -26,18 +27,48 @@
 			"",
 			"**Archmage Arcana:** Select one of the following abilities. Once chosen, it can't be changed.",
 			"",
-			"*Arcane Surge (Su):* As a swift action, you can expend one use of mythic power to cast any one arcane spell without expending a prepared spell or spell slot. If you prepare spells, this spell must be one you prepared today (even if you have already cast it); if you're a spontaneous caster, this spell must be one of your spells known. If the spell requires a saving throw, any non-mythic creatures affected by the spell roll twice and take the lower result. If you must attempt a caster level check for the spell to overcome a creature's spell resistance, you can roll your caster level check twice (adding your tier to each) and take the higher result. You can't add a metamagic feat to a spell you cast using this ability.",
-			"",
-			"*Mage Strike (Su):* As a swift action, you can expend one use of mythic power to make one melee attack. This is in addition to any other attacks you make this round. If you expend one arcane spell that you've prepared or arcane spell slot that you have available, you gain a bonus on the attack roll equal to double the spell's or slot's level, and the attack deals an additional 2d6 points of energy damage (your choice of acid, cold, electricity, or fire) per level of the spell or slot expended. The normal damage from this attack bypasses all damage reduction, but the energy damage is still affected by resistances and immunities.",
-			"",
-			"*Wild Arcana (Su):* As a standard action, you can expend one use of mythic power to cast any one arcane spell without expending a prepared spell or spell slot. The spell must be on one of your arcane class spell lists, must be of a level that you can cast with that arcane spellcasting class, and must have a casting time of \"1 standard action\" (or less). You don't need to have the spell prepared, nor does it need to be on your list of spells known. When casting a spell in this way, you treat your caster level as 2 levels higher for the purpose of any effect dependent on level. You can apply any metamagic feats you know to this spell, but its total adjusted level can't be greater than that of the highest-level arcane spell you can cast from that spellcasting class.",
+			">*Arcane Surge (Su):* As a swift action, you can expend one use of mythic power to cast any one arcane spell without expending a prepared spell or spell slot. If you prepare spells, this spell must be one you prepared today (even if you have already cast it); if you're a spontaneous caster, this spell must be one of your spells known. If the spell requires a saving throw, any non-mythic creatures affected by the spell roll twice and take the lower result. If you must attempt a caster level check for the spell to overcome a creature's spell resistance, you can roll your caster level check twice (adding your tier to each) and take the higher result. You can't add a metamagic feat to a spell you cast using this ability.",
+			">",
+			">*Mage Strike (Su):* As a swift action, you can expend one use of mythic power to make one melee attack. This is in addition to any other attacks you make this round. If you expend one arcane spell that you've prepared or arcane spell slot that you have available, you gain a bonus on the attack roll equal to double the spell's or slot's level, and the attack deals an additional 2d6 points of energy damage (your choice of acid, cold, electricity, or fire) per level of the spell or slot expended. The normal damage from this attack bypasses all damage reduction, but the energy damage is still affected by resistances and immunities.",
+			">",
+			">*Wild Arcana (Su):* As a standard action, you can expend one use of mythic power to cast any one arcane spell without expending a prepared spell or spell slot. The spell must be on one of your arcane class spell lists, must be of a level that you can cast with that arcane spellcasting class, and must have a casting time of \"1 standard action\" (or less). You don't need to have the spell prepared, nor does it need to be on your list of spells known. When casting a spell in this way, you treat your caster level as 2 levels higher for the purpose of any effect dependent on level. You can apply any metamagic feats you know to this spell, but its total adjusted level can't be greater than that of the highest-level arcane spell you can cast from that spellcasting class.",
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the archmage path abilities lists or from the universal path abilities lists. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select those abilities.",
 			"",
-			"**True Archmage (Ex):** At 10th tier, whenever you cast an arcane spell that targets one or more non-mythic creatures, each of those creatures must roll any saving throws against the spell twice and take the lower result. You gain spell resistance equal to 15 + your highest arcane caster level, but only against arcane spells. Once per round when your spell resistance protects you from a spell cast by an enemy mythic creature, you regain one use of mythic power.",
-			"",
-			"### 1st-Tier Archmage Path Abilities",
-			"",
+			"**True Archmage (Ex):** At 10th tier, whenever you cast an arcane spell that targets one or more non-mythic creatures, each of those creatures must roll any saving throws against the spell twice and take the lower result. You gain spell resistance equal to 15 + your highest arcane caster level, but only against arcane spells. Once per round when your spell resistance protects you from a spell cast by an enemy mythic creature, you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"archmage_1",
+			"archmage_3",
+			"archmage_6"
+		]
+	},
+	"archmage_1": {
+		"name": "1st-Tier Archmage Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Abundant Casting, Arcane Endurance, Bloodline Intensity, Competent Caster, Coupled Arcana, Coupled Phenomena, Crafting Mastery, Deep Understanding, Eldritch Breach, Elemental Bond, Enduring Armor, Energy Conversion, Enhance Magic Items, Expanded Implement Knowledge, Flash of Omniscience, Flexible Counterspell, Flexible School, Greater Familiar Link, Harmonious Mage, Mythic Bloodline, Mythic Hexes, Mythic School, Necromantic Mastery, Perfect Preparation, Rapid Preparation, Reactive Ward, Remixer, Resilient Arcana, Sensory Link, Shapeshifting Mastery, Shifting Mastery, Spellbane Counterstrike, Telekinetic Master, Throw Spell, Transformative Familiar",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You can select these path abilities at any tier.",
 			"",
 			"**Abundant Casting (Ex)** ([Mythic Adventures pg. 15](source/mythic_adventures)): Whenever you cast a spell that specifically targets a limited number of targets (such as \"one creature/level\" or \"one or more creatures\"), add your tier to the number of targets the spell can affect. For example, a 5th-level wizard/1st-tier archmage can target up to six creatures when casting haste (five from caster level 5th and one from 1st tier). Alternatively, you can expend one use of mythic power when casting a spell that affects only one target (such as \"one creature\") to have the spell affect an additional target. If the spell requires you to succeed at a melee touch attack, you must [hold the charge](rule/duration) in order to make a second touch attack.",
@@ -108,10 +139,32 @@
 			"",
 			"**Throw Spell (Su)** ([Mythic Adventures pg. 17](source/mythic_adventures)): When casting a melee touch spell, you can expend one use of mythic power to throw that spell as a ranged touch attack. The range of this thrown spell is 10 feet per tier. If the spell allows you to make multiple melee touch attacks, you may make any number of the attacks as melee touch attacks and throw the rest as you see fit.",
 			"",
-			"**Transformative Familiar (Ex)** ([Mythic Origins pg. 20](source/mythic_origins)): Your familiar is able to assume the shape of a single masterwork amulet, ring, staff, wand, or weapon. While it's in this form, treat the familiar as an intelligent magic item with the familiar's mental ability scores but no magical abilities. You can add magical enhancements, intelligent item powers, and intelligent item senses as if you possessed the appropriate crafting feat. (For example, if your familiar transforms into a staff, you could craft it into an intelligent staff of fire as if you possessed the Craft Staff feat.) You must still pay for enhancements as normal. As a standard action, the familiar can transform into and out of its item form and does so in such a way that you can have it immediately equipped when the transformation is complete. While in item form, your familiar retains its original hit points, but gains the hardness of the item it transforms into. If your familiar takes enough points of damage in item form to become broken, it automatically reverts to its familiar form and cannot change to item form again until it is healed to its maximum hit point total. You must have a familiar to select this path ability.",
-			"",
-			"### 3rd-Tier Archmage Path Abilities",
-			"",
+			"**Transformative Familiar (Ex)** ([Mythic Origins pg. 20](source/mythic_origins)): Your familiar is able to assume the shape of a single masterwork amulet, ring, staff, wand, or weapon. While it's in this form, treat the familiar as an intelligent magic item with the familiar's mental ability scores but no magical abilities. You can add magical enhancements, intelligent item powers, and intelligent item senses as if you possessed the appropriate crafting feat. (For example, if your familiar transforms into a staff, you could craft it into an intelligent staff of fire as if you possessed the Craft Staff feat.) You must still pay for enhancements as normal. As a standard action, the familiar can transform into and out of its item form and does so in such a way that you can have it immediately equipped when the transformation is complete. While in item form, your familiar retains its original hit points, but gains the hardness of the item it transforms into. If your familiar takes enough points of damage in item form to become broken, it automatically reverts to its familiar form and cannot change to item form again until it is healed to its maximum hit point total. You must have a familiar to select this path ability."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"archmage"
+		],
+		"siblings": [
+			"archmage_1",
+			"archmage_3",
+			"archmage_6"
+		]
+	},
+	"archmage_3": {
+		"name": "3rd-Tier Archmage Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Arcane Metamastery, Arcane Potency, Bloodline Immunity, Component Freedom, Eldritch Flight, Infectious Spell, Many Forms, Mirror Dodge, Mythic Amplification, Mythic Spellpower, Reverse Scrying, Speedy Summons, Spell Sieve, Tangible Illusion, Teleportation Master",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Arcane Metamastery (Su)** ([Mythic Adventures pg. 18](source/mythic_adventures)): As a swift action, you can expend one use of mythic power and pick any one metamagic feat you know that increases the slot level of the spell by 0 or 1 levels. For the next 10 rounds, you can apply this metamagic feat to any arcane spell you cast without increasing the spell slot used or casting time. You can also use this ability on an arcane spell you cast from a scroll, staff, or wand. You can't have more than one use of this ability active at a time. If you use this ability again, any previous use immediately ends (though this doesn't affect spells already cast). You can select this ability more than once. Each time you select this ability, the maximum spell slot level increase of the metamagic feat you can choose goes up by 1, to a maximum of 4.",
@@ -142,10 +195,32 @@
 			"",
 			"**Tangible Illusion (Su)** ([Mythic Adventures pg. 18](source/mythic_adventures)): You can temporarily transform an illusory object into a real one. As a full-round action, you can expend one use of mythic power to temporarily transform a single object created by an illusion spell that you cast into a physical, nonmagical version of that object. The object lasts for 10 minutes per tier, after which it reverts to being an illusion (or vanishes, if the duration of the original illusion has expired). During that time, the illusion gains all the physical properties of the depicted illusory object. You must touch the illusion to use this ability, and the object can be no larger than 5 cubic feet per tier. For example, if you create an illusory stone door, you transform it into an actual nonmagical stone door.",
 			"",
-			"**Teleportation Master (Su)** ([Mythic Origins pg. 21](source/mythic_origins)): You have become an expert at teleportation magic. You can expend one use of mythic power when casting any spell of the teleportation subschool to visualize your destination before you fully materialize there, gaining sensory information of the area as though via a clairaudience/clairvoyance spell. After gaining this sensory information, you can choose to alter your teleportation destination by up to 100 feet in any direction. The new destination must be a legal location for the effect.",
-			"",
-			"### 6th-Tier Archmage Path Abilities",
-			"",
+			"**Teleportation Master (Su)** ([Mythic Origins pg. 21](source/mythic_origins)): You have become an expert at teleportation magic. You can expend one use of mythic power when casting any spell of the teleportation subschool to visualize your destination before you fully materialize there, gaining sensory information of the area as though via a clairaudience/clairvoyance spell. After gaining this sensory information, you can choose to alter your teleportation destination by up to 100 feet in any direction. The new destination must be a legal location for the effect."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"archmage"
+		],
+		"siblings": [
+			"archmage_1",
+			"archmage_3",
+			"archmage_6"
+		]
+	},
+	"archmage_6": {
+		"name": "6th-Tier Archmage Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Channel Power, Divine Knowledge, Dominion over Outsiders, Eldritch Reciprocation, Sanctum, Star Walker,",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Channel Power (Su)** ([Mythic Adventures pg. 19](source/mythic_adventures)): You gain the ability to channel raw arcane power into a spell. You can also expend one use of mythic power when casting an arcane spell to increase its damage by 50%. If the spell has a duration greater than 1 round, the duration doubles. Any saves required by the spell take a -4 penalty, although for mythic creatures, this penalty is reduced to -2. This spell ignores any spell resistance the targets have, although targets immune to the spell or to magic still retain that protection.",
@@ -166,16 +241,13 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"archmage"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"archmage_1",
+			"archmage_3",
+			"archmage_6"
 		]
 	},
 	"champion": {
@@ -211,10 +283,40 @@
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the champion path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
-			"**Legendary Champion (Ex):** At 10th tier, whenever you make an attack roll against a non-mythic foe and miss, you may immediately roll again. You must take the second roll, even if it's lower. Once per round when you roll a natural 20 on an attack roll, you regain one use of mythic power.",
-			"",
-			"### 1st-Tier Champion Path Abilities",
-			"",
+			"**Legendary Champion (Ex):** At 10th tier, whenever you make an attack roll against a non-mythic foe and miss, you may immediately roll again. You must take the second roll, even if it's lower. Once per round when you roll a natural 20 on an attack roll, you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"champion_1",
+			"champion_3",
+			"champion_6"
+		]
+	},
+	"champion_1": {
+		"name": "1st-Tier Champion Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Aerial Assault, Always a Chance, Always Armed, Armor Master, Backlash, Blowback, Burst Through, Clean Blade, Climbing Master, Crusader, Devastating Smash, Endless Hatred, Ever Ready, Flash of Rage, Impossible Speed, Imprinting Hand, Juggernaut, Lesson Learned, Limitless Range, Meat Shield, Mounted Maniac, Mule's Strength, Myth Slayer, Mythic Ki, Mythic Rage, Mythic Smite, Mythic Weapon Training, Overcharged Blast, Punishing Blow, Sniper's Riposte, Sunder Storm, Swimming Master, Tear Apart, Titan's Bane, Uncanny Grapple, Wall Smasher",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You can select these path abilities at any tier.",
 			"",
 			"**Aerial Assault (Su)** ([Mythic Adventures pg. 20](source/mythic_adventures)): You can charge at creatures in the air, or leap across obstacles as part of a charge. When making a charge attack, you can expend one use of mythic power to include a single Acrobatics check made to jump, adding 10 feet per tier to the height or distance you jump. You take no falling damage from the height gained as part of this leap. If your attack hits, you may deal an amount of additional damage equal to the falling damage appropriate for the height you reached. Alternatively, you may replace your melee attack from this charge with a grapple check. If you successfully grapple a creature, you bring it to the ground with you at the end of your jump, and it takes an appropriate amount of falling damage for the height it was at when you grappled it.",
@@ -289,10 +391,32 @@
 			"",
 			"**Uncanny Grapple (Ex)** ([Mythic Adventures pg. 23](source/mythic_adventures)): Upon making a successful grapple combat maneuver check against a creature you are grappling, you can perform one of the following actions: throw, crush, or swing. For a throw, you can throw the target of your grapple up to 10 feet per tier; if the creature strikes a solid object before reaching this distance, it takes 1d6 points of damage per 10 feet of the remaining throwing distance and lands prone. For a crush, you deal 1d6 points of nonlethal damage per tier. For a swing, you can use the target as a weapon against another creature, treating the grappled creature as a twohanded weapon. If you succeed at a melee attack against an opponent adjacent to the target, both that opponent and the grappled creature take 1d8 points of bludgeoning damage from this attack + 1-1/2 &times; your Strength modifier.",
 			"",
-			"**Wall Smasher (Ex)** ([Mythic Adventures pg. 23](source/mythic_adventures)): Whenever you succeed at a ki throw or a bull rush or reposition combat maneuver, you can smash your opponent against a wall (or suitable large obstacle) within the range you could move the target into as a result of the maneuver, dealing unarmed strike damage to your opponent and the wall. If you expend one use of mythic power when you use this ability, this damage ignores the hardness of the wall. If the damage destroys the wall, you move the opponent into the space beyond the wall and it immediately falls prone.",
-			"",
-			"### 3rd-Tier Champion Path Abilities",
-			"",
+			"**Wall Smasher (Ex)** ([Mythic Adventures pg. 23](source/mythic_adventures)): Whenever you succeed at a ki throw or a bull rush or reposition combat maneuver, you can smash your opponent against a wall (or suitable large obstacle) within the range you could move the target into as a result of the maneuver, dealing unarmed strike damage to your opponent and the wall. If you expend one use of mythic power when you use this ability, this damage ignores the hardness of the wall. If the damage destroys the wall, you move the opponent into the space beyond the wall and it immediately falls prone."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"champion"
+		],
+		"siblings": [
+			"champion_1",
+			"champion_3",
+			"champion_6"
+		]
+	},
+	"champion_3": {
+		"name": "3rd-Tier Champion Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Destroyer, Disabling Strike, Elemental Fury, Fleet Warrior, Groundshaker, Incredible Parry, Maneuver Expert, Master Grappler, Maximized Critical, Mighty Hurler, Penetrating Damage, Precision, Titan's Rage, To the Death, Unorthodox Infusion, Unstoppable Shot",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Destroyer (Ex)** ([Mythic Adventures pg. 23](source/mythic_adventures)): Whenever you attack an object, including a held or worn item, you ignore any Hardness the object might possess. This includes spell effects such as wall of force, but not objects that are also creatures, such as animated objects.",
@@ -325,10 +449,32 @@
 			"",
 			"**Unorthodox Infusion (Su)** ([Heroes of Golarion pg. 30](source/heroes_of_golarion)): You learn to master an infusion beyond those that normally apply to the elements in which you specialize. You learn a new infusion of your choice, regardless of that infusion's associated blasts. You can apply the chosen infusion to any blasts you are capable of using, even if they are not one of that infusion's associated blasts. You must be at least 3rd tier to select this path ability.",
 			"",
-			"**Unstoppable Shot (Ex)** ([Mythic Adventures pg. 24](source/mythic_adventures)): You can use a ranged or thrown weapon to make a single powerful shot that shoots through all creatures in a line. As a standard action, make a single ranged attack roll and resolve the attack against all targets in a straight line up to the maximum range of your weapon, stopping at any barrier the attack couldn't penetrate. Roll damage once and apply that damage to each creature hit by the attack. Before making the attack roll, you can expend one use of mythic power to bend the path of the attack up to two times as it strikes targets or objects. Each deflection can alter the line of the attack up to 90 degrees, allowing you to shoot around corners or cover.",
-			"",
-			"### 6th-Tier Champion Path Abilities",
-			"",
+			"**Unstoppable Shot (Ex)** ([Mythic Adventures pg. 24](source/mythic_adventures)): You can use a ranged or thrown weapon to make a single powerful shot that shoots through all creatures in a line. As a standard action, make a single ranged attack roll and resolve the attack against all targets in a straight line up to the maximum range of your weapon, stopping at any barrier the attack couldn't penetrate. Roll damage once and apply that damage to each creature hit by the attack. Before making the attack roll, you can expend one use of mythic power to bend the path of the attack up to two times as it strikes targets or objects. Each deflection can alter the line of the attack up to 90 degrees, allowing you to shoot around corners or cover."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"champion"
+		],
+		"siblings": [
+			"champion_1",
+			"champion_3",
+			"champion_6"
+		]
+	},
+	"champion_6": {
+		"name": "6th-Tier Champion Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Critical Master, Fistful of Daggers, Kinetic Font, Perfect Strike, Seven-League Leap, Shatter Spells, Sweeping Strike",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Critical Master (Ex)** ([Mythic Adventures pg. 25](source/mythic_adventures)): Whenever you roll a critical threat against a non-mythic creature, you automatically confirm the critical hit and deal the maximum amount of damage to that creature. This ability can be selected twice. The second time it is selected, it also applies to mythic creatures.",
@@ -349,21 +495,19 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"champion"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"champion_1",
+			"champion_3",
+			"champion_6"
 		]
 	},
 	"guardian": {
 		"name": "Guardian",
 		"subtitle": "Mythic",
+		"tags": "guardian's call, absorb blow, beast's fury, sudden block, true defender",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -394,10 +538,40 @@
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the guardian path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
-			"**True Defender (Su):** At 10th tier, whenever you take damage from a melee or ranged attack scored by a nonmythic creature, the damage is halved. This reduction is applied after all other reductions in damage, such as energy resistance or damage reduction. Once per round, when an enemy scores a critical hit against you, you regain one use of mythic power.",
-			"",
-			"### 1st-Tier Guardian Path Abilities",
-			"",
+			"**True Defender (Su):** At 10th tier, whenever you take damage from a melee or ranged attack scored by a nonmythic creature, the damage is halved. This reduction is applied after all other reductions in damage, such as energy resistance or damage reduction. Once per round, when an enemy scores a critical hit against you, you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"guardian_1",
+			"guardian_3",
+			"guardian_6"
+		]
+	},
+	"guardian_1": {
+		"name": "1st-Tier Guardian Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Adamantine Mind, Additional Call, Affliction Resistance, Armor Master, Armored Might, Avenging Maneuver, Borrow Elements, Burst Through, Draw Fire, Empathic Healing, Ever Ready, Fast Healing, Guarded Gathering, Guardian's Shout, Immovable, Imprinting Hand, Indefatigable Traveler, Irrepressible Soul, Knowledgeable Guardian, Lesson Learned, Mule's Strength, Mythic Companion, Mythic Mercy, Pack Wild Shape, Partial Transformation, Quick Recovery, Raise Animal, Ranged Disarm, Relentless Healing, Retributive Reach, Sacrificial Shield, Supreme Tracker, World's Heart",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You can select these path abilities at any tier.",
 			"",
 			"**Adamantine Mind (Ex)** ([Mythic Adventures pg. 26](source/mythic_adventures)): Your mind is as hard as any armor, and is dangerous to engage. You gain a bonus equal to your tier on saving throws against mind-affecting effects. Whenever you succeed at a save against a mind-affecting effect, the creature attacking you with that effect must succeed at a Will save (at the same DC) or be stunned for 1 round.",
@@ -464,10 +638,32 @@
 			"",
 			"**Supreme Tracker (Su)** ([Mythic Adventures pg. 30](source/mythic_adventures)): If you have something that carries a creature's scent (such as a personal item or piece of flesh), you can expend one use of mythic power to create a supernatural bond that allows you track that individual. As a free action, you can sense the creature's general direction and distance, as well as know whether it is alive, dead, destroyed, dying, or undead. The creature must be on the same plane as you for this ability to function. For the purpose of spells and effects that block scrying and divination, your caster level for this effect is a number equal to double your tier. At 6th tier, you can track the creature if it's on a different plane than you.",
 			"",
-			"**World's Heart (Su)** [Star Tower] ([Mythic Realms pg. 15](source/mythic_realms)): While touching the ground, you gain a bonus on Strength checks and to your CMD equal to half your mythic tier (minimum +1). As a swift action, you can expend one use of mythic power while touching the ground to remove the exhausted or fatigued condition and gain a bonus on attack and weapon damage rolls equal to half your mythic tier (minimum +1) for 1 round. For the purposes of this ability, you are considered to be touching the ground when you are outside or underground and on the ground, or when you are touching the floor in a stone or earthen building built on solid ground.",
-			"",
-			"### 3rd-Tier Guardian Path Abilities",
-			"",
+			"**World's Heart (Su)** [Star Tower] ([Mythic Realms pg. 15](source/mythic_realms)): While touching the ground, you gain a bonus on Strength checks and to your CMD equal to half your mythic tier (minimum +1). As a swift action, you can expend one use of mythic power while touching the ground to remove the exhausted or fatigued condition and gain a bonus on attack and weapon damage rolls equal to half your mythic tier (minimum +1) for 1 round. For the purposes of this ability, you are considered to be touching the ground when you are outside or underground and on the ground, or when you are touching the floor in a stone or earthen building built on solid ground."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"guardian"
+		],
+		"siblings": [
+			"guardian_1",
+			"guardian_3",
+			"guardian_6"
+		]
+	},
+	"guardian_3": {
+		"name": "3rd-Tier Guardian Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Cage Enemy, Dimensional Grappler, Drive Back, Earth Protection, Impervious Body, Impervious Companion, Incredible Parry, Mighty Hurler, Opportunistic Blast, Parry Spell, Possess Companion, Shadow's Embrace, Shrug It Off, To the Death, Turn the Tables, Uncanny Adaptability",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Cage Enemy (Ex)** ([Mythic Adventures pg. 30](source/mythic_adventures)): You can pin enemies foolish enough to face you. As an immediate action, you can expend one use of mythic power to hinder opponents until the end of your next turn. When this ability is active, any creature moving out of one of your threatened squares, even when making a 5-foot step or using a form of movement that doesn't usually provoke attacks of opportunity, provokes an attack of opportunity from you. If your attack of opportunity hits and deals damage, the creature remains in its current space and its movement ends. Alternatively, you can expend one use of mythic power as part of a charge. If the charge attack hits, the target can't move itself from its space until the beginning of your next turn (though others can move the creature).",
@@ -500,10 +696,32 @@
 			"",
 			"**Turn the Tables (Ex)** ([Mythic Adventures pg. 31](source/mythic_adventures)): If a creature fails a combat maneuver check made against you, as an immediate action you can expend one use of mythic power to attempt that same maneuver against that creature. You receive a +10 bonus on this combat maneuver check.",
 			"",
-			"**Uncanny Adaptability (Sp)** ([Mythic Origins pg. 25](source/mythic_origins)): As a standard action, you can expend one use of mythic power to create an invisible sphere around you that protects anyone inside from harsh environmental effects, as [planar adaptation](spell/planar_adaptation), except this effect also works for extreme physical conditions on the Material Plane. The radius of the sphere is equal to 5 feet per tier, and only creatures within the sphere receive the benefits of this effect. Anyone who steps outside of the sphere immediately loses the benefits of this ability until she steps back inside the sphere. This effect lasts for a number of hours equal to your tier or until you end it as a free action, whichever comes first.",
-			"",
-			"### 6th-Tier Guardian Path Abilities",
-			"",
+			"**Uncanny Adaptability (Sp)** ([Mythic Origins pg. 25](source/mythic_origins)): As a standard action, you can expend one use of mythic power to create an invisible sphere around you that protects anyone inside from harsh environmental effects, as [planar adaptation](spell/planar_adaptation), except this effect also works for extreme physical conditions on the Material Plane. The radius of the sphere is equal to 5 feet per tier, and only creatures within the sphere receive the benefits of this effect. Anyone who steps outside of the sphere immediately loses the benefits of this ability until she steps back inside the sphere. This effect lasts for a number of hours equal to your tier or until you end it as a free action, whichever comes first."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"guardian"
+		],
+		"siblings": [
+			"guardian_1",
+			"guardian_3",
+			"guardian_6"
+		]
+	},
+	"guardian_6": {
+		"name": "6th-Tier Guardian Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Cling to Life, Companion Power, Energy Conduit, Impassable, Indomitable, Invincible Stand, Mythic Resolve, Shield of the Martyr, Stasis, Take the Hit, Unbreakable Resilience",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Cling to Life (Su)** ([Mythic Adventures pg. 31](source/mythic_adventures)): When you die, as long as your body remains, you can be healed by any spell or effect that heals damage, though you regain only half the normal number of hit points. If you're healed to full hit points, you come back to life and gain 1 permanent negative level for each minute you were dead (these negative levels can be removed as normal). Until you're healed to full hit points, you don't regain consciousness and are still dead no matter what other abilities you might have. If you aren't brought back to life within a number of minutes equal to your total character level, your death is permanent (although you can still be brought back by spells such as raise dead).",
@@ -532,21 +750,19 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"guardian"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"guardian_1",
+			"guardian_3",
+			"guardian_6"
 		]
 	},
 	"hierophant": {
 		"name": "Heirophant",
 		"subtitle": "Mythic",
+		"tags": "divine surge, beast's fury, inspired spell, recalled blessing, divine vessel",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -577,10 +793,40 @@
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the hierophant path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
-			"**Divine Vessel (Ex):** At 10th tier, whenever you cast a spell that targets one or more non-mythic creatures, those creatures must roll twice for any saving throws associated with the spell and take the lower result. Whenever you are healed of hit point damage by a spell or effect, you are healed for the maximum possible amount. You also gain DR 10/epic. Once per round when you take more than 20 points of damage (after damage reduction is applied), you regain one use of mythic power.",
-			"",
-			"### 1st-Tier Hierophant Path Abilities",
-			"",
+			"**Divine Vessel (Ex):** At 10th tier, whenever you cast a spell that targets one or more non-mythic creatures, those creatures must roll twice for any saving throws associated with the spell and take the lower result. Whenever you are healed of hit point damage by a spell or effect, you are healed for the maximum possible amount. You also gain DR 10/epic. Once per round when you take more than 20 points of damage (after damage reduction is applied), you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"hierophant_1",
+			"hierophant_3",
+			"hierophant_6"
+		]
+	},
+	"hierophant_1": {
+		"name": "1st-Tier Hierophant Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Alter Channel, Bleed Holy Power, Channel Shockwave, Contingent Channel Energy, Divine Countenance, Divine Guardian, Eldritch Breach, Empathic Healing, Endless Bounty, Enhance Magic Items, Faith's Reach, Flexible Counterspell, Heathen Slayer, Impeccable Intuition, Insightful Interaction, Instrument of Faith, Inverted Spontaneous Casting, Mighty Summons, Mythic Companion, Mythic Domain, Mythic Wild Shape, Overflowing Grace, Pack Wild Shape, Plantbringer, Relentless Healing, Shielding Phantom, Sustained by Faith, Symbol of the Holy, Tongue of the Land, Water of Life",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You can select these path abilities at any tier.",
 			"",
 			"**Alter Channel (Su)** ([Mythic Adventures pg. 32](source/mythic_adventures)): If you're in the area of an opponent's channel energy ability and the energy type is the opposite of yours, as an immediate action you can expend one use of mythic power to transform the opponent's channeled energy to the opposite type. You can cause the altered energy to either affect the opposite kind of targets (undead or living), or change whether it heals or harms, but not both. Channeled energy that has been changed in this way heals or deals half the normal amount of damage. For example, if an evil cleric attempts to channel negative energy to heal undead, you can expend one use of mythic power to convert that to channeled positive energy that either heals the living or harms undead. You must have the channel energy ability to select this ability.",
@@ -641,10 +887,32 @@
 			"",
 			"**Tongue of the Land (Su)** ([Mythic Adventures pg. 35](source/mythic_adventures)): Animals, elementals, fey, and plants are magically able to understand you when you speak Druidic, as if you were using speak with animals or tongues. If speaking to creatures of different types at the same time, you can allow all of them to understand you or speak understandably to just one type at a time. For example, if speaking to a group of animals and fey, you can make yourself understandable to all of them, just to the animals, or just to the fey.",
 			"",
-			"**Water of Life (Su)** ([Mythic Adventures pg. 35](source/mythic_adventures)): Any potions you consume have the maximum effect, as if they were created using the Maximize Spell feat. You can quickly create a temporary potion by casting a spell into a pint of water. The spell must be a valid choice for the Brew Potion feat and have a spell level no higher than your tier. The targeted liquid becomes a potion of that spell. If not consumed, the temporary potion reverts to normal water after 1 hour per tier.",
-			"",
-			"### 3rd-Tier Hierophant Path Abilities",
-			"",
+			"**Water of Life (Su)** ([Mythic Adventures pg. 35](source/mythic_adventures)): Any potions you consume have the maximum effect, as if they were created using the Maximize Spell feat. You can quickly create a temporary potion by casting a spell into a pint of water. The spell must be a valid choice for the Brew Potion feat and have a spell level no higher than your tier. The targeted liquid becomes a potion of that spell. If not consumed, the temporary potion reverts to normal water after 1 hour per tier."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"hierophant"
+		],
+		"siblings": [
+			"hierophant_1",
+			"hierophant_3",
+			"hierophant_6"
+		]
+	},
+	"hierophant_3": {
+		"name": "3rd-Tier Hierophant Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Abundant Healing, Alignment Insight, Animal Friend, Blessed Companion, Divine Metamastery, Divine Potency, Domain Immunity, Enduring Blessing, Flowers in Your Footsteps, Hand of Mercy, Hear the Word, Hurling Vengeance, Life Current, Mind to Mindlessness, Mythic Treatment, Pilgrim of the Waves, Shape Channel",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Abundant Healing (Su)** ([Mythic Adventures pg. 35](source/mythic_adventures)): When you use a spell or class ability to heal a creature's hit point damage, you can apply excess healing (over the target's full hit points) to one ally adjacent to you. You can continue to apply excess healing to other adjacent allies until no injured allies are adjacent or you run out of excess healing. For example, if you could cure 40 points of damage with your cure critical wounds spell and the target has taken only 20 points of damage, you can apply the remaining 20 points of healing to an adjacent ally; if that second ally has taken only 15 points of damage, you can apply the remaining 5 points of healing to another adjacent ally.",
@@ -679,10 +947,32 @@
 			"",
 			"**Pilgrim of the Waves (Su)** ([Mythic Origins pg. 27](source/mythic_origins)): You can breathe water as easily as you breathe air. You can also walk on any body of water, as water walk, except this ability does not allow you to walk upon any bodies of liquid other than water. You can choose to sink to the bottom of any body of water you could walk upon, descending at a rate of 60 feet per round, and thereafter you can travel along the bottom of the water as though it were dry land. While at the bottom of a body of water, you can attack and act normally, as though under the effects of a freedom of movement spell, though this ability does not impart the other benefits of that spell.",
 			"",
-			"**Shape Channel (Ex)** ([Mythic Origins pg. 27](source/mythic_origins)): As a standard action, you can simultaneously expend one use of mythic power and one use of your channel energy ability to channel energy in a 60-foot cone, a 20-foot-tall cylinder with a 20-foot radius, or a 120-foot line. In addition, whenever you channel energy to damage creatures (whether undead creatures with positive energy or living creatures with negative energy), you can choose to deal half damage (or one-quarter damage to creatures that succeed at their saving throws) and then push back all creatures damaged by the effect. You push each creature back 5 feet for every 1d6 points of channel energy damage you are capable of dealing. Creatures that succeed at their saving throws against your channeled energy are only pushed back half as far (minimum 5 feet). You must have the channel energy class feature to select this path ability.",
-			"",
-			"### 6th-Tier Hierophant Path Abilities",
-			"",
+			"**Shape Channel (Ex)** ([Mythic Origins pg. 27](source/mythic_origins)): As a standard action, you can simultaneously expend one use of mythic power and one use of your channel energy ability to channel energy in a 60-foot cone, a 20-foot-tall cylinder with a 20-foot radius, or a 120-foot line. In addition, whenever you channel energy to damage creatures (whether undead creatures with positive energy or living creatures with negative energy), you can choose to deal half damage (or one-quarter damage to creatures that succeed at their saving throws) and then push back all creatures damaged by the effect. You push each creature back 5 feet for every 1d6 points of channel energy damage you are capable of dealing. Creatures that succeed at their saving throws against your channeled energy are only pushed back half as far (minimum 5 feet). You must have the channel energy class feature to select this path ability."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"hierophant"
+		],
+		"siblings": [
+			"hierophant_1",
+			"hierophant_3",
+			"hierophant_6"
+		]
+	},
+	"hierophant_6": {
+		"name": "6th-Tier Hierophant Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Arcane Knowledge, Conduit of Divine Will, Overcome Curse, Pilgrim of the Sky, Psychic Healing, Puppet Master, Servant of Balance, Undying Healer, Divine Patron,",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Arcane Knowledge (Ex)** ([Mythic Adventures pg. 37](source/mythic_adventures)): You can use divine power to cast a small number of arcane spells. Choose three 1st-level spells from the sorcerer/wizard spell list or three 1st-level spells from the bard spell list. You can add those spells to your list of spells that you can prepare each day. You can select this ability up to three times. Each time you select it, you choose three more spells from the same class's spell list (sorcerer/wizard or bard), and the highest spell level you can select from increases by 1 (up to 2nd level the second time and up to 3rd level the third time). You must be a cleric or druid to select this ability.",
@@ -763,21 +1053,19 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"hierophant"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"hierophant_1",
+			"hierophant_3",
+			"hierophant_6"
 		]
 	},
 	"marshal_2": {
 		"name": "Marshal",
 		"subtitle": "Mythic",
+		"tags": "marshal's order, advance, decisive strike, rally, visionary commander",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -808,8 +1096,40 @@
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the marshal path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
-			"**Visionary Commander (Su):** At 10th tier, whenever you or an ally within 30 feet rolls an initiative check, roll twice and take either result. If the first round of combat is a surprise round, you and all allies within 30 feet at the start of the combat can take a full round's worth of actions instead of just a move or standard action. Once per round, when you or an ally within 30 feet scores a critical hit against a mythic creature, you regain one use of mythic power.",
-			"",
+			"**Visionary Commander (Su):** At 10th tier, whenever you or an ally within 30 feet rolls an initiative check, roll twice and take either result. If the first round of combat is a surprise round, you and all allies within 30 feet at the start of the combat can take a full round's worth of actions instead of just a move or standard action. Once per round, when you or an ally within 30 feet scores a critical hit against a mythic creature, you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"marshal_2_1",
+			"marshal_2_3",
+			"marshal_2_6"
+		]
+	},
+	"marshal_2_1": {
+		"name": "1st-Tier Marshal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Additional Order, Assured Skill, Clarion Call, Commanding Entrance, Deadly Guidance, Directed Assault, Distracting Assailant, Focus, Granted Stride, Greater Surge, Helpful Rebuke, Heroic Block, Inspire Minions, Inspired Defense, Inspiring Surge, Lend Power, Lightning Performance, Loyalty, Menacing Presence, Mounted Marshal, Mythic Fascination, Painful Gambit, Perfect Aid, Persuasive Countenance, Potent Message, Press the Advantage, Redirect Attention, Resurging Words, Rise Up, Shout of Defiance, Smiting Aura, Spirit Influence, Stand Tall, Tactical Genius, Unwavering Skill",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"### 1st-Tier Marshal Path Abilities",
 			"",
 			"You can select these path abilities at any tier.",
@@ -882,10 +1202,32 @@
 			"",
 			"**Tactical Genius (Su)** ([Mythic Adventures pg. 41](source/mythic_adventures)): You gain a bonus teamwork feat. You must meet all prerequisites for the feat. Any ally within 30 feet of you counts as having that teamwork feat for the purposes of you gaining bonuses from the feat (the ally doesn't gain the bonus unless it actually has the feat). At the start of each day, you can spend 10 minutes and expend one use of mythic power to replace this teamwork feat with any other teamwork feat you qualify for. You can select this ability up to three times. Each time, you gain an additional bonus teamwork feat. If you have selected this ability more than once, at the start of each day you can replace any number of teamwork feats this ability grants you, spending time and uses of mythic power for each feat you replace.",
 			"",
-			"**Unwavering Skill (Ex)** ([Mythic Adventures pg. 41](source/mythic_adventures)): You can always take 10 or 20 on checks using class skills, even if threatened or in a hazardous situation. You can't use this ability with skill checks that don't normally allow you to take 10 or take 20.",
-			"",
-			"### 3rd-Tier Marshal Path Abilities",
-			"",
+			"**Unwavering Skill (Ex)** ([Mythic Adventures pg. 41](source/mythic_adventures)): You can always take 10 or 20 on checks using class skills, even if threatened or in a hazardous situation. You can't use this ability with skill checks that don't normally allow you to take 10 or take 20."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"marshal_2"
+		],
+		"siblings": [
+			"marshal_2_1",
+			"marshal_2_3",
+			"marshal_2_6"
+		]
+	},
+	"marshal_2_3": {
+		"name": "3rd-Tier Marshal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Aura of Perseverance, Caster's Friend, Commanding Presence, Concentrated Barrage, Confidence, Corner of the Eyes, Demagogue, Dispel Fear, Don't Cross Me, Flexible Confidence, Glorious Charge, Inspire Martyrdom, Master of Mercy, Master of Shadows, Mob Ruler, Mythic Bond, Shared Alertness, Shatter Resilience, Unfettered Spirit, Words of Hope",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Aura of Perseverance (Ex)** ([Mythic Adventures pg. 41](source/mythic_adventures)): Your leadership keeps your allies going even when they're at death's door. Allies within 30 feet of you don't become unconscious or disabled when reduced to 0 hit points or fewer. As soon as you and an ally at 0 hit points or fewer are more than 30 feet apart, that ally becomes unconscious or disabled. You can expend one use of mythic power to stabilize all dying allies within 30 feet and let all allies within this range ignore the staggered condition for a number of rounds equal to your tier.",
@@ -926,10 +1268,32 @@
 			"",
 			"**Unfettered Spirit (Su)** ([Heroes of Golarion pg. 30](source/heroes_of_golarion)): As an immediate action when an ally within 30 feet fails a d20 roll that could be modified by your spirit bonus, you can spend 1 point of mythic power and allow your spirit to gain 1 additional point of influence over you to add your spirit surge die to the check's result. If the ally is receiving your spirit bonus from the spirit influence ability, you can choose to either spend your mythic power or allow your spirit to gain additional influence instead. You must be at least 3rd tier to select this path ability.",
 			"",
-			"**Words of Hope (Su)** ([Mythic Adventures pg. 42](source/mythic_adventures)): As a standard action, you can expend one use of mythic power to inspire allies within a 30-foot radius, granting each of them the ability to roll twice and take the higher result on one attack roll, saving throw, skill check, or ability check. An ally can use this ability once per round for a number of rounds equal to half your tier, and must choose whether to roll twice before rolling the die. This is a language-dependent emotion effect.",
-			"",
-			"### 6th-Tier Marshal Path Abilities",
-			"",
+			"**Words of Hope (Su)** ([Mythic Adventures pg. 42](source/mythic_adventures)): As a standard action, you can expend one use of mythic power to inspire allies within a 30-foot radius, granting each of them the ability to roll twice and take the higher result on one attack roll, saving throw, skill check, or ability check. An ally can use this ability once per round for a number of rounds equal to half your tier, and must choose whether to roll twice before rolling the die. This is a language-dependent emotion effect."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"marshal_2"
+		],
+		"siblings": [
+			"marshal_2_1",
+			"marshal_2_3",
+			"marshal_2_6"
+		]
+	},
+	"marshal_2_6": {
+		"name": "6th-Tier Marshal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Beacon of Hope, Castigate, Fast Friends, Fight On, Free Your Mind, Inspiring Assault, Stones Will Weep, Surge of Inspiration, Unswerving Loyalty, Words of Valor",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Beacon of Hope (Su)** ([Mythic Adventures pg. 42](source/mythic_adventures)): You radiate a supernatural aura that fills your allies with hope and resolve. All allies within 30 feet gain a +2 morale bonus against fear and emotion effects, and a +4 bonus on stabilization checks. Furthermore, each time one of these allies is subject to a healing spell or effect, it heals a number of additional hit points equal to your tier. Once per day as a standard action, you can expend one use of mythic power and end this aura to heal all allies within 30 feet of an amount of damage equal to 1d6 hit points per tier you possess. If dismissed, the aura automatically reactivates 24 hours later.",
@@ -956,21 +1320,19 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"marshal_2"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"marshal_2_1",
+			"marshal_2_3",
+			"marshal_2_6"
 		]
 	},
 	"trickster": {
 		"name": "Trickster",
 		"subtitle": "Mythic",
+		"tags": "trickster attack, deadly throw, fleet charge, surprise strike, supreme trickster",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
@@ -1000,8 +1362,40 @@
 			"",
 			"**Path Ability:** At 1st tier and every tier thereafter, select one new path ability from the trickster path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
-			"**Supreme Trickster (Su):** At 10th tier, whenever you make an attack roll against a non-mythic foe, that foe is treated as flat-footed, even if it has abilities that prevent it from being flat-footed. Once per round when you roll a natural 20 on an opposed skill check against a mythic foe, you regain one use of mythic power.",
-			"",
+			"**Supreme Trickster (Su):** At 10th tier, whenever you make an attack roll against a non-mythic foe, that foe is treated as flat-footed, even if it has abilities that prevent it from being flat-footed. Once per round when you roll a natural 20 on an opposed skill check against a mythic foe, you regain one use of mythic power."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"trickster_1",
+			"trickster_3",
+			"trickster_6"
+		]
+	},
+	"trickster_1": {
+		"name": "1st-Tier Trickster Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Additional Trick, Aim for the Eye, Assured Drinker, Assured Skill, Astounding Disable, Clown, Combat Trickery, Compelling Feint, Control the Mindless, Crime Spree, Deadly Dodge, Defensive Move, Down Like Dominoes, Enhance Magic Items, Faster than the Eye, Ghostly Performance, Impeccable Balance, Improbable Prestidigitation, Inspire Minions, Knot Expert, Master Dilettante, Master of Escape, Nimble Glide, No One of Consequence, Path Dabbling, Persuasive Countenance, Ranged Disable, Rebounding Stare, Redirect Attention, Ricochet, Shadow Stealth, Sniper's Riposte, Subtle Magic, Supreme Stealth, This Might Just Work, Thwart Detection, Titan's Bane, Transfer Magic, Trap Taker, Treacherous Critical, Unintentional Feint, Unwavering Skill, Wall Run",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"### 1st-Tier Trickster Path Abilities",
 			"",
 			"You can select these path abilities at any tier.",
@@ -1090,10 +1484,32 @@
 			"",
 			"**Unwavering Skill (Ex)** ([Mythic Adventures pg. 47](source/mythic_adventures)): You can always take 10 or 20 on class skills, even if threatened or in a hazardous situation. You can't use this ability with skill checks that don't normally allow you to take 10 or take 20.",
 			"",
-			"**Wall Run (Ex)** ([Mythic Adventures pg. 47](source/mythic_adventures)): When you move, you can travel across vertical surfaces as if they were floors. If your movement doesn't end on a horizontal surface, you fall at the end of your move unless you are able to remain in place using another ability (such as using the Climb skill to cling to a handhold). The vertical surface must be capable of supporting your weight-for example, you couldn't move across a windowpane or curtain.",
-			"",
-			"### 3rd-Tier Trickster Path Abilities",
-			"",
+			"**Wall Run (Ex)** ([Mythic Adventures pg. 47](source/mythic_adventures)): When you move, you can travel across vertical surfaces as if they were floors. If your movement doesn't end on a horizontal surface, you fall at the end of your move unless you are able to remain in place using another ability (such as using the Climb skill to cling to a handhold). The vertical surface must be capable of supporting your weight-for example, you couldn't move across a windowpane or curtain."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"trickster"
+		],
+		"siblings": [
+			"trickster_1",
+			"trickster_3",
+			"trickster_6"
+		]
+	},
+	"trickster_3": {
+		"name": "3rd-Tier Trickster Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Combat Saboteur, Critical Skill, Ethereal Trapsmith, Feather Step, Fickle Attack, Menacing Whisper, Mirror Dodge, Perfect Lie, Perfect Mimic, Quick Trick, Sardonic Wit, Vanishing Move",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Combat Saboteur (Ex)** ([Mythic Adventures pg. 47](source/mythic_adventures)): You can sabotage an opponent's gear with a simple touch. This sabotage is a sunder combat maneuver that doesn't provoke attacks of opportunity. Add your tier to your CMB when attempting this maneuver. If you succeed, you can give the broken condition to a single item the opponent is wielding or carrying. This attack doesn't deal any damage to the object. The condition can be removed by spending 1 minute undoing the sabotage, or instantaneously with mending or a similar spell.",
@@ -1153,10 +1569,32 @@
 			"",
 			"**Sardonic Wit (Su)** ([Mythic Adventures pg. 48](source/mythic_adventures)): You know exactly when to lighten the mood and help shake off the doldrums. As a move action, you can expend one use of mythic power to remove a single mind-affecting effect from one creature within 30 feet. This ability doesn't work on effects with an instantaneous or permanent duration.",
 			"",
-			"**Vanishing Move (Su)** ([Mythic Adventures pg. 48](source/mythic_adventures)): When you wish to not be seen, you aren't. As a swift action, you can make yourself invisible until the end of your turn. This effect ends if you do anything other than move. If you expend one use of mythic power when using this ability, it instead acts as greater invisibility using double your tier as your caster level.",
-			"",
-			"### 6th-Tier Trickster Path Abilities",
-			"",
+			"**Vanishing Move (Su)** ([Mythic Adventures pg. 48](source/mythic_adventures)): When you wish to not be seen, you aren't. As a swift action, you can make yourself invisible until the end of your turn. This effect ends if you do anything other than move. If you expend one use of mythic power when using this ability, it instead acts as greater invisibility using double your tier as your caster level."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"trickster"
+		],
+		"siblings": [
+			"trickster_1",
+			"trickster_3",
+			"trickster_6"
+		]
+	},
+	"trickster_6": {
+		"name": "6th-Tier Trickster Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Bloody Streak, Bottled Talent, Class Mimic, Enduring Elixir, Precision Critical, Slayer's Cyclone, Steal Power, Unending Performance",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Bloody Streak (Ex)** ([Mythic Origins pg. 31](source/mythic_origins)): Whenever you successfully deal sneak attack damage to a creature, you can expend one use of mythic power as a swift action to heighten your bloodshed. Thereafter, every consecutive round that you deal sneak attack damage, add a cumulative +1d6 bonus on your sneak attack damage roll. The targets of these sneak attacks don't need to be the same. You can gain a maximum number of bonus d6s on your sneak attack damage in this way equal to your tier. As soon as you fail to deal sneak attack damage to a creature in a round, this effect ends and you no longer gain the bonus on sneak attack damage until you use this ability again. For example, a 10th-level rogue, 6th-tier trickster uses this ability after dealing 5d6 points of sneak attack damage to a foe. On the next round, she deals 6d6 points of sneak attack damage to a foe (5d6 from her rogue levels + 1d6 from this ability). The round after that, she deals 7d6 points of sneak attack damage, but on the next round, she fails to deal any sneak attack damage, and so her sneak attack damage resets back to 5d6.",
@@ -1179,16 +1617,13 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"trickster"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"trickster_1",
+			"trickster_3",
+			"trickster_6"
 		]
 	},
 	"universal_path_abilities": {
@@ -1202,10 +1637,40 @@
 		"name": "Universal Path Abilities",
 		"subtitle": "Mythic",
 		"description": [
-			"These abilities can be selected by a mythic character on any path.",
-			"",
-			"### 1st-Tier Universal Path Abilities",
-			"",
+			"These abilities can be selected by a mythic character on any path."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths"
+		],
+		"siblings": [
+			"archmage",
+			"champion",
+			"guardian",
+			"hierophant",
+			"marshal_2",
+			"trickster",
+			"universal_path_abilities"
+		],
+		"subtopics": [
+			"upa_1",
+			"upa_3",
+			"upa_6"
+		]
+	},
+	"upa_1": {
+		"name": "1st-Tier Universal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Akitonian Physiology, As Foretold, Borrow Mythic Power, Commune with Power, Dampen Magic, Display of Charisma, Display of Constitution, Display of Dexterity, Display of Intelligence, Display of Strength, Display of Wisdom, Extra Mythic Feat, Extra Mythic Power, Legendary Item, Longevity, Mortal Herald, Mythic Burn, Mythic Craft, Mythic Spellcasting, Mythic Sustenance, Occult Mastery, Pierce the Darkness, Returning Flasks, Seal of the Star Tower, Seat of Power, Splash Back, Touched by the Depths, Voice of the Spire",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You can select these path abilities at any tier.",
 			"",
 			"**Akitonian Physiology (Ex) [Doorway to the Red Star]** ([Mythic Realms pg. 9](source/mythic_realms)): When you select this path ability, you permanently reshape your body in imitation of the alien species of Akiton, permanently gaining the benefits of one of the following alchemist discoveries: chameleon, preserve organs, tumor familiar, or vestigial arm. Your alchemist level for the purpose of this ability is equal to your tier plus your alchemist level. You can select this path ability multiple times, each time selecting a new permanent mutation. Each time beyond the first that you take this path ability, your pool of mythic power is permanently reduced by 1 (as that power is used to maintain your alien physiology) and you take a cumulative -1 penalty on all Charisma checks and Charisma-based skill checks when interacting with animals, fey, and humanoids.",
@@ -1266,10 +1731,32 @@
 			"",
 			"**Touched by the Depths (Su) [Mordant Spire]** ([Mythic Realms pg. 13](source/mythic_realms)): You gain the [hold breath](umr/hold_breath) ability. You can expend one use of mythic power as a standard action to gain a swim speed equal to your land speed, the ability to breathe water, and tremorsense out to a range of 30 feet that only functions while under water. The ability to breathe water does not hinder your ability to breathe air. These effects last for 10 minutes per mythic tier.",
 			"",
-			"**Voice of the Spire (Su) [Mordant Spire]** ([Mythic Realms pg. 13](source/mythic_realms)): A voice only you can hear warns you of peril. If you're unaware at the start of a surprise round, you can expend one use of mythic power to act in that surprise round. When acting in a surprise round, you can expend two uses of mythic power to take both a standard and a move action (or a full-round action) in the surprise round. This ability doesn't prevent you from being flat-footed before you have acted.",
-			"",
-			"### 3rd-Tier Universal Path Abilities",
-			"",
+			"**Voice of the Spire (Su) [Mordant Spire]** ([Mythic Realms pg. 13](source/mythic_realms)): A voice only you can hear warns you of peril. If you're unaware at the start of a surprise round, you can expend one use of mythic power to act in that surprise round. When acting in a surprise round, you can expend two uses of mythic power to take both a standard and a move action (or a full-round action) in the surprise round. This ability doesn't prevent you from being flat-footed before you have acted."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"universal_path_abilities"
+		],
+		"siblings": [
+			"upa_1",
+			"upa_3",
+			"upa_6"
+		]
+	},
+	"upa_3": {
+		"name": "3rd-Tier Universal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Beyond Morality, Binding Ritual, Defy Death, Divine Source, Enhanced Ability, Fearless, Mythic Contact, Pure Body, Pure Destiny, Pure Senses, Sleepless, Spellscarred, Telepathic Mindlink, Ultimate Versatility, Unchanging, Waters of Contemplation",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 3rd tier to select these path abilities.",
 			"",
 			"**Beyond Morality (Ex)** ([Mythic Adventures pg. 50](source/mythic_adventures)): You have no alignment. You can become a member of any class, even one with an alignment requirement, and can never lose your membership because of a change in alignment. If you violate the code of ethics of any of your classes, you might still lose access to certain features of such classes, subject to GM discretion. Attempts to detect your alignment don't return any results. If a class restricts you from casting spells with an alignment descriptor, you can cast such spells without restrictions or repercussions. If you're the target of a spell or effect that is based on alignment, you're treated as the most favorable alignment when determining the spell's effect on you. Any effects that alter alignment have no effect on you. If you lose this effect, you revert to your previous alignment.",
@@ -1308,10 +1795,32 @@
 			"",
 			"**Unchanging (Su)** ([Mythic Adventures pg. 51](source/mythic_adventures)): Your form is so stable that you become immune to non-mythic polymorph and petrification effects. Polymorph and petrification from mythic sources count as mythic for the purposes of this ability.",
 			"",
-			"**Waters of Contemplation (Su) [Doorway to the Red Star]** ([Mythic Realms pg. 9](source/mythic_realms)): You can meditate for 1 hour and expend one use of mythic power to transmute any magical potion into an alchemical [cognatogen](class/alchemist) that increases your mental faculties at the expense of your physical prowess usable only by you. Your effective alchemist level for this cognatogen is equal to your tier plus your alchemist level. If you are at least 6th tier, you can use this ability to create a greater cognatogen. If you are at least 9th tier, you can use this ability to create a grand cognatogen. If you expend one additional use of mythic power when brewing the waters of contemplation, you gain the benefit of tongues for as long as the cognatogen lasts.",
-			"",
-			"### 6th-Tier Universal Path Abilities",
-			"",
+			"**Waters of Contemplation (Su) [Doorway to the Red Star]** ([Mythic Realms pg. 9](source/mythic_realms)): You can meditate for 1 hour and expend one use of mythic power to transmute any magical potion into an alchemical [cognatogen](class/alchemist) that increases your mental faculties at the expense of your physical prowess usable only by you. Your effective alchemist level for this cognatogen is equal to your tier plus your alchemist level. If you are at least 6th tier, you can use this ability to create a greater cognatogen. If you are at least 9th tier, you can use this ability to create a grand cognatogen. If you expend one additional use of mythic power when brewing the waters of contemplation, you gain the benefit of tongues for as long as the cognatogen lasts."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_heroes",
+			"mythic_paths",
+			"universal_path_abilities"
+		],
+		"siblings": [
+			"upa_1",
+			"upa_3",
+			"upa_6"
+		]
+	},
+	"upa_6": {
+		"name": "6th-Tier Universal Path Abilities",
+		"subtitle": "Mythic",
+		"tags": "Farwalker, Mythic Presence, Mythic Sight, Phantom Possession,Tongues",
+		"sources": [
+			"Mythic Adventures",
+			"Mythic Origins",
+			"Distant Shores",
+			"Heroes of Golarion"
+		],
+		"description": [
 			"You must be at least 6th tier to select these path abilities.",
 			"",
 			"**Farwalker (Sp)** ([Mythic Adventures pg. 51](source/mythic_adventures)): The boundaries of the Material Plane mean little to you. You can plane shift once per day, using double your tier as your caster level. You can take this ability twice. When you take it a second time, you can use this ability three times per day.",
@@ -1328,16 +1837,13 @@
 			"optional_rules_systems",
 			"mythic_rules",
 			"mythic_heroes",
-			"mythic_paths"
+			"mythic_paths",
+			"universal_path_abilities"
 		],
 		"siblings": [
-			"archmage",
-			"champion",
-			"guardian",
-			"hierophant",
-			"marshal_2",
-			"trickster",
-			"universal_path_abilities"
+			"upa_1",
+			"upa_3",
+			"upa_6"
 		]
 	},
 	"base_mythic_abilities": {

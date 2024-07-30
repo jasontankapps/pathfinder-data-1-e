@@ -6877,7 +6877,7 @@
 			"**Price** 324 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like [plague powder](equipment-weapon/plague_powder) for [pallid gift](unknown/pallid_gift) (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
+			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like [plague powder](equipment-weapon/plague_powder) for [pallid gift](disease/pallid_gift) (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		]
 	},
 	"palm_paws": {

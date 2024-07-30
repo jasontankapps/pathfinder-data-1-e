@@ -5736,7 +5736,7 @@
 		"description": [
 			"**Source** [Occult Adventures pg. 230](source/occult_adventures)",
 			"",
-			"Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect to have neutralized haunts revert to [rapping spirits](unknown/rapping_spirits) or possessing dead haunts during their reset periods. Likewise, GMs may elect for rejuvenating undead such as ghosts and poltergeists to assume one of these states during rejuvenation periods. While still potentially frightening or even malevolent, these haunts can potentially communicate by using a code (such as one rap for \"yes\" and two for \"no\") in response to called out words, numbers, and letters. Those in contact with a demanding dead haunt, on the other hand, typically whisper messages in darkened seance chambers, or scribble writing at the haunt's suggestion. In either case, such spirits are often unreliable, always cryptic, and never able to convey knowledge beyond what they knew in life.",
+			"Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect to have neutralized haunts revert to [rapping spirits](haunt/rapping_spirit) or possessing dead haunts during their reset periods. Likewise, GMs may elect for rejuvenating undead such as ghosts and poltergeists to assume one of these states during rejuvenation periods. While still potentially frightening or even malevolent, these haunts can potentially communicate by using a code (such as one rap for \"yes\" and two for \"no\") in response to called out words, numbers, and letters. Those in contact with a demanding dead haunt, on the other hand, typically whisper messages in darkened seance chambers, or scribble writing at the haunt's suggestion. In either case, such spirits are often unreliable, always cryptic, and never able to convey knowledge beyond what they knew in life.",
 			"",
 			"Diplomacy, spells such as [calm spirit](spell/calm_spirit), and comforting environments such as darkened seance cabinets can all improve a spirit's attitude. Some characters attempting to communicate with haunts carry flat, lettered boards known as talking boards, cone-shaped spirit trumpets, or writing planchettes-small, wheeled boards that write with chalk or charcoal pencils. While these are mundane items with no inherent magic of their own, in the hands of those with properly established rapports, these tools increase the efficiency of messages received from haunts, doubling the rate of communication from two signals (raps, letters, etc.) per round to four signals per round."
 		],
@@ -5868,7 +5868,7 @@
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
 			"",
-			"Haunts are the echoes of tormented spirits that linger in locations keyed to their suffering-and they have proven to be a favorite challenge in many adventures. The Pathfinder RPG GameMastery Guide introduced [rules for haunts](unknown/rules_for_haunts) and those [rules are expanded](unknown/rules_are_expanded) in Pathfinder RPG Occult Adventures. This section introduces new elements to add to haunts, as well as variants that expand the haunt rules to apply to corrupted or twisted regions that are not tied to undeath.",
+			"Haunts are the echoes of tormented spirits that linger in locations keyed to their suffering-and they have proven to be a favorite challenge in many adventures. The Pathfinder RPG GameMastery Guide introduced [rules for haunts](rule/haunts) and those rules are expanded in Pathfinder RPG Occult Adventures. This section introduces new elements to add to haunts, as well as variants that expand the haunt rules to apply to corrupted or twisted regions that are not tied to undeath.",
 			"",
 			"The new haunt elements in this section are templates that can be applied to any haunt."
 		],
@@ -7191,7 +7191,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
 			"",
-			"Using Table 1-4, determine how many skill ranks your creature has based on its type and Hit Dice. Assign these ranks as determined by the creature's concept. A creature's class skills are determined by its type (see the [creature types](unknown/creature_types)). Creatures with a low Intelligence typically only have ranks in Dexterity- and Strength-based skills.",
+			"Using Table 1-4, determine how many skill ranks your creature has based on its type and Hit Dice. Assign these ranks as determined by the creature's concept. A creature's class skills are determined by its type (see the [creature types](main/umr)). Creatures with a low Intelligence typically only have ranks in Dexterity- and Strength-based skills.",
 			"",
 			"After you have assigned skills, it's time to assign the creature's feats. Each creature with an Intelligence score receives a number of feats equal to 1 + 1 per every 2 Hit Dice after the first (so, 1 at 1 HD, 2 at 3 HD, etc.). A creature must qualify to take a feat as normal. See Table 1-6 for a quick feat calculation chart.",
 			"",

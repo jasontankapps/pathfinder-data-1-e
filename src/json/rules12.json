@@ -1286,9 +1286,9 @@
 			"",
 			"You and the other PCs take specific roles in leading your kingdom, such as [Ruler, High Priest, General, and so on](rule/leadership_roles). The leaders provide bonuses on rolls you make to manage the kingdom's economy and other important issues. For example, having a High Priest makes your kingdom more stable and your citizens more loyal, and having a Treasurer makes your kingdom more profitable.",
 			"",
-			"Instead of using gold pieces, a kingdom uses a type of currency called [build points (BP)](unknown/build_points_bp), which represent actual cash, labor, expertise, and raw materials. While it is possible to convert gp into BP and back again, for the most part you'll just be spending BP to run your kingdom.",
+			"Instead of using gold pieces, a kingdom uses a type of currency called [build points (BP)](rule/build_points), which represent actual cash, labor, expertise, and raw materials. While it is possible to convert gp into BP and back again, for the most part you'll just be spending BP to run your kingdom.",
 			"",
-			"Running a kingdom takes place over a series of turns, similar to how combat takes place over a series of rounds. A [kingdom turn](unknown/kingdom_turn) takes 1 month of game time. Each turn has four phases which you resolve in order: the Upkeep phase, where you pay the kingdom's bills; the Edict phase, where you levy taxes and build improvements; the Income phase, where you collect taxes; and the Events phase, where you see if something especially good or bad happens to your kingdom.",
+			"Running a kingdom takes place over a series of turns, similar to how combat takes place over a series of rounds. A [kingdom turn](rule/kingdom_turn_sequence) takes 1 month of game time. Each turn has four phases which you resolve in order: the Upkeep phase, where you pay the kingdom's bills; the Edict phase, where you levy taxes and build improvements; the Income phase, where you collect taxes; and the Events phase, where you see if something especially good or bad happens to your kingdom.",
 			"",
 			"If this is your first time reading these rules, start with the section on [Founding a Settlement](rule/founding_a_settlement) and read the rest of the kingdom-building rules in order. If you find a term you're not familiar with, check the [Kingdom Terminology](rule/kingdom_terminology) section or refer to the [Kingdom Building Overview](rule/kingdom_building_overview) for a better idea of where you can find that information."
 		],
@@ -1527,7 +1527,7 @@
 			"",
 			"**Benefit:** Add your Charisma modifier or Wisdom modifier to Loyalty.",
 			"",
-			"**Vacancy Penalty:** Loyalty decreases by 2. The kingdom gains no benefits from the [Holiday edict](unknown/holiday_edict). During the Upkeep phase, Unrest increases by 1."
+			"**Vacancy Penalty:** Loyalty decreases by 2. The kingdom gains no benefits from the [Holiday edict](rule/holiday_edicts). During the Upkeep phase, Unrest increases by 1."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1885,7 +1885,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 203](source/ultimate_campaign)",
 			"",
-			"The Viceroy represents the Ruler's interests on an ongoing basis in a specific location such as a colony or vassal state (see the optional [Vassalage edict](unknown/vassalage_edict)). The Viceroy is in effect the Ruler for that territory; her orders are superceded only by direct commands from the Ruler.",
+			"The Viceroy represents the Ruler's interests on an ongoing basis in a specific location such as a colony or vassal state (see the optional [Vassalage edict](rule/vassalage_edicts)). The Viceroy is in effect the Ruler for that territory; her orders are superceded only by direct commands from the Ruler.",
 			"",
 			"**Benefit:** Add half your Intelligence or Wisdom modifier to Economy. You may assume any leadership role (including Ruler) for your colony or vassal state, but any benefit you provide in this role is 1 less than normal; if you do so, you must spend 7 days that month performing duties appropriate to that leadership role in addition to the 7 days spent for Viceroy duties.",
 			"",
@@ -3103,7 +3103,7 @@
 			"",
 			"**Resource:** A Resource is a ready supply of some kind of valuable commodity that offers a great economic boon to your kingdom, such as exotic lumber, precious metal, gems, rare herbs, incense, silk, ivory, furs, salt, dyes, and the like. If you claim a hex with a Resource, Economy increases by 1. If you construct a Mine, Quarry, or Sawmill in a hex with a Resource, all of its benefits increase by 1. If you construct a Farm or Fishery in a hex with a Resource, those improvements decrease Consumption by an additional 1 BP.",
 			"",
-			"**River:** A River allows [water travel](unknown/water_travel) through your kingdom, facilitating trade and allowing irrigation. Economy increases by 1 for every 4 River hexes claimed, and Stability increases by 1 for every 8 such hexes claimed.",
+			"**River:** A River allows [water travel](rule/overland_movement) through your kingdom, facilitating trade and allowing irrigation. Economy increases by 1 for every 4 River hexes claimed, and Stability increases by 1 for every 8 such hexes claimed.",
 			"",
 			"**Ruin:** A Ruin is a partially destroyed building. If you claim a hex containing a Ruin and build a settlement at the Ruin's location, you can use the Ruin as the basis of an appropriate type of building (as determined by the GM), reducing the cost of that building by half. Alternatively, you can salvage building materials from the Ruin, reducing the cost of 1 building in that hex by 1d4 BP."
 		],
@@ -3894,7 +3894,7 @@
 			"",
 			"**Kingdom** Economy +2, Loyalty +6, Stability +2; Fame +1  ",
 			"**Discount** Mansion, Mint, Noble Villa  ",
-			"**Special** Base value +1,000 gp; you may make two [special edicts per turn](rule/special_edict), but take a -2 penalty on kingdom checks associated with each special edict  ",
+			"**Special** Base value +1,000 gp; you may make two [special edicts per turn](rule/special_edicts), but take a -2 penalty on kingdom checks associated with each special edict  ",
 			"**Settlement** Law +2",
 			"",
 			"A grand edifice and walled grounds demonstrating one's wealth, power, and authority to the world."
@@ -4276,7 +4276,7 @@
 		"description": [
 			"**Archaeological Find:** A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. Effect: Lore +1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).",
 			"",
-			"**Diplomatic Overture:** A nearby kingdom sends an ambassador to you to negotiate an embassy (01-60), treaty (61-90), or alliance (91-100), as if using a [diplomatic edict](unknown/diplomatic_edict). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.",
+			"**Diplomatic Overture:** A nearby kingdom sends an ambassador to you to negotiate an embassy (01-60), treaty (61-90), or alliance (91-100), as if using a [diplomatic edict](rule/diplomatic_edicts). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.",
 			"",
 			"**Discovery (Settlement):** Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.",
 			"",
@@ -7098,7 +7098,7 @@
 			"",
 			"**Mythic Power:** Each mythic character can call upon this [base mythic ability](rule/base_mythic_abilities) to influence destiny and fuel other abilities. At its most basic, mythic power is needed to use the surge ability, but it can also be called upon to use a number of other mythic abilities.",
 			"",
-			"**Mythic Rank:** (Often referred to just as a \"rank.\") Similar to tiers, [mythic ranks](unknown/mythic_ranks) are used to describe the approximate mythic power possessed by a monster. All creatures with a mythic rank are considered mythic for the purposes of feats, spells, magic items, and other abilities. Mythic ranks range from 1 to 10.",
+			"**Mythic Rank:** (Often referred to just as a \"rank.\") Similar to tiers, [mythic ranks](rule/mythic_rank) are used to describe the approximate mythic power possessed by a monster. All creatures with a mythic rank are considered mythic for the purposes of feats, spells, magic items, and other abilities. Mythic ranks range from 1 to 10.",
 			"",
 			"**Mythic Tier:** (Often referred to just as a \"tier.\") Mythic characters advance in power by [gaining tiers](rule/gaining_tiers), each of which grants new abilities. Attaining a new mythic tier requires completing difficult trials within the campaign's story rather than accumulating experience points. Mythic tiers range from 1 to 10. Characters who achieve 10th tier are at the height of mythic power, and are in some respects akin to minor deities.",
 			"",

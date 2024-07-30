@@ -3125,6 +3125,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"web_tyrant": { "copyof": "spider,_web_tyrant" },
 	"spitting_cobra": {
 		"name": "Spitting Cobra",
 		"sources": [ "Ultimate Wilderness" ],
