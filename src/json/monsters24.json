@@ -441,7 +441,12 @@
 			"",
 			"Sylphs are defined by class levels-they do not possess racial Hit Dice. Sylphs have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Intelligence, -2 Constitution: Sylphs are quick and insightful, but slight and delicate. Darkvision: Sylphs can see in the dark up to 60 feet. Sylph Magic: Feather fall 1/day (caster level equals the sylph's Hit Dice). Energy Resistance: Sylphs have electricity resistance 5. Air Affinity: See above. Languages: Sylphs begin play speaking Common and Auran. Sylphs with high Intelligence scores can choose any of the following bonus languages: Aquan, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran."
+			"**+2 Dexterity, +2 Intelligence, -2 Constitution:** Sylphs are quick and insightful, but slight and delicate.  ",
+			"**Darkvision:** Sylphs can see in the dark up to 60 feet.  ",
+			"**Sylph Magic:** Feather fall 1/day (caster level equals the sylph's Hit Dice).  ",
+			"**Energy Resistance:** Sylphs have electricity resistance 5.  ",
+			"**Air Affinity:** See above.  ",
+			"**Languages:** Sylphs begin play speaking Common and Auran. Sylphs with high Intelligence scores can choose any of the following bonus languages: Aquan, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran."
 		]
 	},
 	"syricta": {
@@ -1812,7 +1817,13 @@
 			"",
 			"Trox are defined by their class levels-they do not possess racial Hit Dice. Despite having no racial Hit Dice, trox are powerful creatures and their CR is 2 higher than a human of the same level. All trox have the following racial traits.",
 			"",
-			"+6 Strength, -2 Intelligence, -2 Wisdom, -2 Charisma: Trox are very strong, but they can be dim, unreceptive, and inhospitable. Normal Speed: Trox have a base speed of 30 feet. Large: Trox are Large and take a -1 size penalty to AC, take a -4 size penalty on Stealth checks, and gain a +1 size bonus on combat maneuver checks and to combat maneuver defense. Darkvision 60 ft.: Trox can see in the dark up to 60 feet. Burrow: Trox have a burrow speed of 20 feet. Frenzy: See stat block above. Grabbing Appendages: See stat block above. Languages: Terran. A Trox with a high Intelligence score can choose from the following: Common, Dwarven, Giant, Orc, and Undercommon."
+			"**+6 Strength, -2 Intelligence, -2 Wisdom, -2 Charisma:** Trox are very strong, but they can be dim, unreceptive, and inhospitable.  ",
+			"**Normal Speed:** Trox have a base speed of 30 feet.  ",
+			"**Large:** Trox are Large and take a -1 size penalty to AC, take a -4 size penalty on Stealth checks, and gain a +1 size bonus on combat maneuver checks and to combat maneuver defense. Darkvision 60 ft.: Trox can see in the dark up to 60 feet.  ",
+			"**Burrow:** Trox have a burrow speed of 20 feet.  ",
+			"**Frenzy:** See stat block above.  ",
+			"**Grabbing Appendages:** See stat block above.  ",
+			"**Languages:** Terran. A Trox with a high Intelligence score can choose from the following: Common, Dwarven, Giant, Orc, and Undercommon."
 		]
 	},
 	"tsaalgrend": {
@@ -3388,7 +3399,12 @@
 			"",
 			"Undines are defined by class levels-they do not possess racial Hit Dice. Undines have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Wisdom, -2 Strength: Undines are both perceptive and agile, but tend to adapt rather than match force with force. Speed: Undines have a swim speed of 30 feet. Darkvision: Undines can see in the dark up to 60 feet. Spell-Like Abilities: Hydraulic push 1/day. (Caster level equals the undine's total Hit Dice.) Energy Resistance: Undines have cold resistance 5. Water Affinity: See above. Languages: Undines begin play speaking Common and Aquan. Undines with high Intelligence scores can choose any of the following bonus languages: Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran."
+			"**+2 Dexterity, +2 Wisdom, -2 Strength:** Undines are both perceptive and agile, but tend to adapt rather than match force with force.  ",
+			"**Speed:** Undines have a swim speed of 30 feet.  ",
+			"**Darkvision:** Undines can see in the dark up to 60 feet.  ",
+			"**Spell-Like Abilities:** Hydraulic push 1/day. (Caster level equals the undine's total Hit Dice.) Energy Resistance: Undines have cold resistance 5.  ",
+			"**Water Affinity:** See above.  ",
+			"**Languages:** Undines begin play speaking Common and Aquan. Undines with high Intelligence scores can choose any of the following bonus languages: Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran."
 		]
 	},
 	"unfettered_phantom": {
@@ -4754,7 +4770,12 @@
 			"",
 			"Vanaras are defined by their class levels-they do not possess racial Hit Dice. All vanaras have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Wisdom, -2 Charisma: Vanaras are agile and insightful, but are also rather mischievous. Climb Speed: Vanaras have a climb speed of 20 feet. Low-Light Vision: Vanaras can see twice as far as a human in conditions of dim light. Nimble: Vanaras have a +2 racial bonus on Acrobatics and Stealth checks. Prehensile Tail: See above. Languages: A vanara begins play speaking both Common and Vanaran. Vanaras with high Int scores can choose from among the following bonus languages: Aklo, Celestial, Elven, Gnome, Goblin, and Sylvan."
+			"**+2 Dexterity, +2 Wisdom, -2 Charisma:** Vanaras are agile and insightful, but are also rather mischievous.  ",
+			"**Climb Speed:** Vanaras have a climb speed of 20 feet.  ",
+			"**Low-Light Vision:** Vanaras can see twice as far as a human in conditions of dim light.  ",
+			"**Nimble:** Vanaras have a +2 racial bonus on Acrobatics and Stealth checks.  ",
+			"**Prehensile Tail:** See above.  ",
+			"**Languages:** A vanara begins play speaking both Common and Vanaran. Vanaras with high Int scores can choose from among the following bonus languages: Aklo, Celestial, Elven, Gnome, Goblin, and Sylvan."
 		]
 	},
 	"vargouille": {
@@ -6248,7 +6269,15 @@
 			"",
 			"Vishkanyas are defined by their class levels-they do not possess racial Hit Dice. Vishkanyas have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Charisma, -2 Wisdom: Vishkanyas are graceful and elegant, but often irrational. Low-Light Vision: Vishkanyas can see twice as far as humans in conditions of dim light. Keen Senses: Vishkanyas receive a +2 racial bonus on Perception checks. Limber: Vishkanyas gain a +2 racial bonus on Escape Artist and Stealth checks. Poison Resistance: A vishkanya has a racial bonus on saves against poison equal to its Hit Dice. Poison Use: See above. Toxic: See above. Weapon Familiarity: Vishkanyas are always proficient with blowguns, kukri, and shuriken. Languages: Vishkanyas begin play speaking Common and Vishkanya. Vishkanyas with high Intelligence scores can choose any of the following bonus languages: Aklo, Draconic, Elven, Goblin, Sylvan, and Undercommon."
+			"**+2 Dexterity, +2 Charisma, -2 Wisdom:** Vishkanyas are graceful and elegant, but often irrational.  ",
+			"**Low-Light Vision:** Vishkanyas can see twice as far as humans in conditions of dim light.  ",
+			"**Keen Senses:** Vishkanyas receive a +2 racial bonus on Perception checks.  ",
+			"**Limber:** Vishkanyas gain a +2 racial bonus on Escape Artist and Stealth checks.  ",
+			"**Poison Resistance:** A vishkanya has a racial bonus on saves against poison equal to its Hit Dice.  ",
+			"**Poison Use:** See above.  ",
+			"**Toxic:** See above.  ",
+			"**Weapon Familiarity:** Vishkanyas are always proficient with blowguns, kukri, and shuriken.  ",
+			"**Languages:** Vishkanyas begin play speaking Common and Vishkanya. Vishkanyas with high Intelligence scores can choose any of the following bonus languages: Aklo, Draconic, Elven, Goblin, Sylvan, and Undercommon."
 		]
 	},
 	"vodyanoi": {

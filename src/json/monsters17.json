@@ -1260,7 +1260,9 @@
 			"",
 			"**Fleshwalker Mohrg (+0 CR):** When a criminal is executed through methods that leave no physical mark upon the body (such as by poison or a death effect), and then the corpse is preserved via a [gentle repose](spell/gentle_repose) spell, a fleshwalker mohrg is the result. While these mohrgs function as normal mohrgs, their flesh does not decay- further castings of gentle repose are unnecessary. Only upon close inspection (whereupon one might notice a faint underlying charnel stench, or might note the lack of breathing with a DC 30 Perception check) or in combat (when the creature's hideous tongue extrudes from its mouth) is the truth apparent.",
 			"",
-			"**Frost Mohrg (+1 CR):** Distinctive for the icy sheen over the blue flesh of its innards and tendrils, a frost mohrg's genesis is similar to that of a desert mohrg-a violent criminal that is executed via lingering exposure to the elements, only in this case, in a cold environment. Frost mohrgs look partially frozen and retain much of their flesh, albeit flesh blackened by frostbite. A frost mohrg has the [advanced](template/advanced) creature simple template, and its attacks deal an additional 1d6 points of cold damage on a hit. Mohrg-mother (+1 CR): Perhaps among the most perverse category of mohrg arises when the executed murderer is also pregnant with child. The unborn, undead infants of these nightmarish monsters cling to the exposed entrails of the mohrg, but do not grant any additional powers. All mohrg-mothers always have the [advanced](template/advanced) creature simple template. Once per day, a mohrg-mother can choose to animate a recently slain victim as another mohrg instead of as a fast zombie."
+			"**Frost Mohrg (+1 CR):** Distinctive for the icy sheen over the blue flesh of its innards and tendrils, a frost mohrg's genesis is similar to that of a desert mohrg-a violent criminal that is executed via lingering exposure to the elements, only in this case, in a cold environment. Frost mohrgs look partially frozen and retain much of their flesh, albeit flesh blackened by frostbite. A frost mohrg has the [advanced](template/advanced) creature simple template, and its attacks deal an additional 1d6 points of cold damage on a hit.",
+			"",
+			"**Mohrg-mother (+1 CR):** Perhaps among the most perverse category of mohrg arises when the executed murderer is also pregnant with child. The unborn, undead infants of these nightmarish monsters cling to the exposed entrails of the mohrg, but do not grant any additional powers. All mohrg-mothers always have the [advanced](template/advanced) creature simple template. Once per day, a mohrg-mother can choose to animate a recently slain victim as another mohrg instead of as a fast zombie."
 		]
 	},
 	"moit_of_shub-niggurath,_spawning_canker": {
@@ -4210,7 +4212,14 @@
 			"",
 			"Nagaji are defined by class levels-they do not possess racial Hit Dice. Nagaji have the following racial traits.",
 			"",
-			"+2 Strength, +2 Charisma, -2 Intelligence: Nagaji have strong bodies and personalities, but disdain intellectualism. Medium: Nagaji are Medium creatures and have no bonuses or penalties due to their size. Normal Speed: Nagaji have a base speed of 30 feet. Low-Light Vision: Nagaji can see twice as far as humans in conditions of dim light. Armored Scales: Nagaji have a +1 natural armor bonus due to their scaly flesh. Resistant (Ex): Nagaji receive a +2 racial saving throw bonus against mind-affecting effects and poison. Serpent's Sense (Ex): Nagaji receive a +2 racial bonus on Handle Animal checks against reptiles, and a +2 racial bonus on Perception checks. Languages: Nagaji begin play speaking Common and Draconic. Nagaji with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan."
+			"**+2 Strength, +2 Charisma, -2 Intelligence:** Nagaji have strong bodies and personalities, but disdain intellectualism.  ",
+			"**Medium:** Nagaji are Medium creatures and have no bonuses or penalties due to their size.  ",
+			"**Normal Speed:** Nagaji have a base speed of 30 feet.  ",
+			"**Low-Light Vision:** Nagaji can see twice as far as humans in conditions of dim light.  ",
+			"**Armored Scales:** Nagaji have a +1 natural armor bonus due to their scaly flesh.  ",
+			"**Resistant (Ex):** Nagaji receive a +2 racial saving throw bonus against mind-affecting effects and poison.  ",
+			"**Serpent's Sense (Ex):** Nagaji receive a +2 racial bonus on Handle Animal checks against reptiles, and a +2 racial bonus on Perception checks.  ",
+			"**Languages:** Nagaji begin play speaking Common and Draconic. Nagaji with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan."
 		]
 	},
 	"naiad": {
@@ -4384,7 +4393,8 @@
 			"- Bone Armor (Ex, 1 CP): Fortified with extra bone (perhaps including bones fused to its outer surface like armor), the necrocraft increases its natural armor bonus by 2. This ability can be selected up to three times.",
 			"- Cannibalize (Ex, 1 CP): If the necrocraft is left near the corpse of a Medium or larger creature with discernible anatomy, it eats the corpse or tears off parts to repair its own substance. An undead creature consumed in this fashion heals the necrocraft 5 hit points plus 5 hit points per size category above Medium; any other type of creature restores only 1/5 this amount. Feeding takes 1 hour; any interruption (such as combat) requires it to start again.",
 			"- Constrict (Ex, 1 CP): The necrocraft's claw attacks gain the constrict ability. It must have grab before this ability can be selected.",
-			"- Disease (Su, 1 CP): One of the necrocraft's natural attacks is grafted with ghoul mouthparts, exposing a creature it hits to ghoul fever. Ghoul Fever: Bite, claw, or slam-injury; save Fort DC 13; onset 1 day; frequency 1/day; effect 1d3 Con damage and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast.",
+			"- Disease (Su, 1 CP): One of the necrocraft's natural attacks is grafted with ghoul mouthparts, exposing a creature it hits to ghoul fever. *Ghoul Fever: Bite, claw, or slam-injury; save Fort DC 13; onset 1 day; frequency 1/day; effect 1d3 Con damage and 1d3 Dex damage; cure 2 consecutive saves.* The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast.",
+			"",
 			"- Extra Attack (Ex, 1 CP): The necrocraft gains an additional bite attack or claw attack. This ability can be selected multiple times.",
 			"- Extra Legs (Ex, 1 CP): The necrocraft gains two more legs, increasing its base speed by 5 feet and increasing its CMD against overrun and trip attempts by 4. This ability can be selected multiple times.",
 			"- Extra Strength (Ex, 1 CP): The necrocraft's Strength increases by 2 but its Dexterity decreases by 2. This ability can be selected twice.",
@@ -4395,7 +4405,7 @@
 			"- Paralysis (Su, 2 CP): Up to three of necrocraft's natural attacks gain the paralysis ability (1d4+1 rounds, DC 13, elves are immune to this effect). This graft requires the body of at least 1 ghoul. For an additional Construction Point, the paralysis ability can affect elves.",
 			"- Reach Attacks (Ex, 1 CP): Up to two of the necrocraft's natural attacks increase their natural reach by 5 feet. This ability can be selected multiple times.",
 			"- Rending Claws (Ex, 2 CP): The necrocraft gains the rend ability, activating when both claws hit and dealing additional damage equal to the damage dice for one claw plus 1-1/2 times the necrocraft's Strength bonus.",
-			"- Rotting Flesh (Ex, 2 CP): Two of the necrocraft's bite or claw attacks are poisonous. Poison: bite or claw-injury; save Fort DC 15; frequency 1/round for 2 rounds; effect 1d3 Constitution damage; cure 1 save.",
+			"- Rotting Flesh (Ex, 2 CP): Two of the necrocraft's bite or claw attacks are poisonous. *Poison: bite or claw-injury; save Fort DC 15; frequency 1/round for 2 rounds; effect 1d3 Constitution damage; cure 1 save.*",
 			"- Stench (Ex, 2 CP): The necrocraft has the [stench](umr/stench) ability (10- foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes). This graft requires the body of at least one ghoul.",
 			"- Trample (Ex, 2 CP): The necrocraft gains the [trample](umr/trample) universal monster ability as a special attack.",
 			"",

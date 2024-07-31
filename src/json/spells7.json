@@ -6516,7 +6516,7 @@
 			"| 1st | Red | Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half). | Cone of cold |",
 			"| 2nd | Orange | Stops magical ranged weapons. Deals 40 points of acid damage (Reflex half). | Gust of wind |",
 			"| 3rd | Yellow | Stops poisons, gases, and petrification. Deals 80 points of electricity damage (Reflex half). | Disintegrate |",
-			"| 4th | Green | Stops breath weapons. Poison (frequency: 1/rd for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves). | Passwall |",
+			"| 4th | Green | Stops breath weapons. *Poison: (frequency: 1/rd for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves)*. | Passwall |",
 			"| 5th | Blue | Stops divination and mental attacks. Turned to stone (Fortitude negates). | Magic missile |",
 			"| 6th | Indigo | Stops all spells. Will save or become insane (as insanity spell). | Daylight |",
 			"| 7th | Violet | Energy field destroys all objects and effects.[^V] Creatures sent to another plane (Will negates). | Dispel magic or greater dispel magic |",

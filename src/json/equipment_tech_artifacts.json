@@ -48,14 +48,14 @@
 			"",
 			"The various operations an autodoc can perform are as follows; additional operations can be devised as needed.",
 			"",
-			"- **Minor Surgery (DC 15):** The patient heals 1d8+1 points of damage. Operation Time: 1 minute.",
-			"- **Moderate Surgery (DC 20):** The patient heals 2d8+3 points of damage and 1d4+1 points of ability damage to a selected ability score. Operation Time: 2 minutes.",
-			"- **Major Surgery (DC 25):** The patient heals 3d8+5 points of damage and is cured of blindness and deafness. Operation Time: 3 minutes.",
-			"- **Critical Surgery (DC 30):** The patient heals 4d8+7 points of damage and either all ability damage to all ability scores or all ability drain to one ability score. Operation Time: 4 minutes.",
-			"- **Back from the Brink (DC 35):** A dead patient whose body is relatively intact is restored to life at 1 hit point per Hit Die, as if by raise dead (including time restrictions and negative levels). Operation Time: 1 hour.",
-			"- **Total Molecular Reconstruction (DC 45):** As long as at least a small amount of a patient's DNA is available, an autodoc can reconstruct a patient's body completely. At the end of the reconstruction process, the new body is considered to be a blank clone of the patient, and until the patient's memories and personality are implanted into the clone via a neurocam, the body remains alive but inert. Operation Time: 24 hours.",
-			"- **Install Cybertech (DC = the cybertech install DC):** Cybernetic equipment is installed safely. Operation Time: 10 minutes per point of implantation of the cybertech being installed.",
-			"- **Treat Toxin (DC = 10 + the save DC of disease or poison):** The patient has one disease or poison currently afflicting him removed. Operation Time: 10 minutes."
+			"- **Minor Surgery (DC 15):** The patient heals 1d8+1 points of damage. *Operation Time:* 1 minute.",
+			"- **Moderate Surgery (DC 20):** The patient heals 2d8+3 points of damage and 1d4+1 points of ability damage to a selected ability score. *Operation Time:* 2 minutes.",
+			"- **Major Surgery (DC 25):** The patient heals 3d8+5 points of damage and is cured of blindness and deafness. *Operation Time:* 3 minutes.",
+			"- **Critical Surgery (DC 30):** The patient heals 4d8+7 points of damage and either all ability damage to all ability scores or all ability drain to one ability score. *Operation Time:* 4 minutes.",
+			"- **Back from the Brink (DC 35):** A dead patient whose body is relatively intact is restored to life at 1 hit point per Hit Die, as if by raise dead (including time restrictions and negative levels). *Operation Time:* 1 hour.",
+			"- **Total Molecular Reconstruction (DC 45):** As long as at least a small amount of a patient's DNA is available, an autodoc can reconstruct a patient's body completely. At the end of the reconstruction process, the new body is considered to be a blank clone of the patient, and until the patient's memories and personality are implanted into the clone via a neurocam, the body remains alive but inert. *Operation Time:* 24 hours.",
+			"- **Install Cybertech (DC = the cybertech install DC):** Cybernetic equipment is installed safely. *Operation Time:* 10 minutes per point of implantation of the cybertech being installed.",
+			"- **Treat Toxin (DC = 10 + the save DC of disease or poison):** The patient has one disease or poison currently afflicting him removed. *Operation Time:* 10 minutes."
 		]
 	},
 	"beam_cannon_gravity_cannon": {

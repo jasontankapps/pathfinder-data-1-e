@@ -22,7 +22,8 @@ const RulesGroup14Page: React.FC<{id: string}> = ({id}) => {
 		subtopics,
 		siblings,
 		sources = [],
-		tables
+		tables,
+		className
 	} = (rules[id as Prop]) as JsonRulesProps<Name>;
 
 	const prevNext = useMemo(() => {
@@ -67,6 +68,7 @@ const RulesGroup14Page: React.FC<{id: string}> = ({id}) => {
 			tables={tables}
 			subtopics={subs}
 			prevNext={prevNext}
+			className={className}
 		/>
 	);
 };

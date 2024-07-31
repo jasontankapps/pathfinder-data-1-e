@@ -748,7 +748,9 @@
 			"**Type:** Regional  ",
 			"**Region:** Silver Mount",
 			"",
-			"You are in some way tied to the mysterious alien monument known as Silver Mount in Numeria, but you have forgotten an important piece of your past. Perhaps you were a metallurgist's experiment gone awry, a rediscovered automaton that escaped the mountain's confines, or the result of some equally enigmatic phenomenon. Regardless, your unusual origins mark you as somehow different from others, and you know the gaps in your memory hold the key to your past. You start play with a unique compass that doesn't point north and is riddled with indecipherable alien markings-the only object you have that you know to be tied to your home. In addition, your inscrutable mannerisms give you a +2 trait bonus on opposed Bluff checks. Suggestion: Consider being a member of the android race from *Pathfinder Campaign Setting: Inner Sea Bestiary.*"
+			"You are in some way tied to the mysterious alien monument known as Silver Mount in Numeria, but you have forgotten an important piece of your past. Perhaps you were a metallurgist's experiment gone awry, a rediscovered automaton that escaped the mountain's confines, or the result of some equally enigmatic phenomenon. Regardless, your unusual origins mark you as somehow different from others, and you know the gaps in your memory hold the key to your past. You start play with a unique compass that doesn't point north and is riddled with indecipherable alien markings-the only object you have that you know to be tied to your home. In addition, your inscrutable mannerisms give you a +2 trait bonus on opposed Bluff checks.",
+			"",
+			"**Suggestion:** Consider being a member of the [android race](race/android).*"
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -1657,7 +1659,21 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the animal aspects granted to you by the animal focus feature. You must be a hunter or have access to the animal aspect class feature to select this trait, and you must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed. Cliff (Shadde-Quah, Frog): The creature gains a +4 competence bonus on Acrobatics checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level. Emberstorm (Sklar-Quah, Bear): The creature gains fire resistance 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level. Horse (Shriikirri-Quah, Owl): The creature gains a +4 competence bonus on Ride checks. This bonus increases to +6 at 8th level and +8 at 15th level. Star (Lyrune-Quah, Falcon): The creature gains low-light vision and a +2 competence bonus on Perception checks. This bonus increases to +4 at 8th level and +6 at 15th level. Storm (Tamiir-Quah, Snake): The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level. Storm Roc (Shundar-Quah, Mouse): The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level. Will-o--Wisp (Skoan-Quah, Wolf ): The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
+			"You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the animal aspects granted to you by the animal focus feature. You must be a hunter or have access to the animal aspect class feature to select this trait, and you must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed.",
+			"",
+			"**Cliff (Shadde-Quah, Frog):** The creature gains a +4 competence bonus on Acrobatics checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"",
+			"**Emberstorm (Sklar-Quah, Bear):** The creature gains fire resistance 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level.",
+			"",
+			"**Horse (Shriikirri-Quah, Owl):** The creature gains a +4 competence bonus on Ride checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
+			"",
+			"**Star (Lyrune-Quah, Falcon):** The creature gains low-light vision and a +2 competence bonus on Perception checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"",
+			"**Storm (Tamiir-Quah, Snake):** The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level.",
+			"",
+			"**Storm Roc (Shundar-Quah, Mouse):** The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"",
+			"**Will-o'-Wisp (Skoan-Quah, Wolf ):** The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -1846,7 +1862,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the Pathfinder Society, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened. Suggested Characters: Osirians, Pathfinders, Taldans."
+			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the Pathfinder Society, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.",
+			"",
+			"**Suggested Characters:** Osirians, Pathfinders, Taldans."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2420,7 +2438,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"You've sat on your favorite barstool at the Rusty Dragon every night for as long as you can remember- and some nights you can't remember thanks to a few too many drinks. In your various hazes, You've gotten to know the tap house's proprietor, Ameiko, or one of her regulars, Sandru, quite well. Additionally, you're well acquainted with a variety of uses for strong drink. Any time you have an alcoholic beverage on hand, you can expend one use of it to grant you a +2 trait bonus on a Heal check. This bonus increases to +4 if you're treating your favorite drinking buddy (your NPC of choice). NPC Choices: Ameiko, Sandru."
+			"You've sat on your favorite barstool at the Rusty Dragon every night for as long as you can remember- and some nights you can't remember thanks to a few too many drinks. In your various hazes, You've gotten to know the tap house's proprietor, Ameiko, or one of her regulars, Sandru, quite well. Additionally, you're well acquainted with a variety of uses for strong drink. Any time you have an alcoholic beverage on hand, you can expend one use of it to grant you a +2 trait bonus on a Heal check. This bonus increases to +4 if you're treating your favorite drinking buddy (your NPC of choice).",
+			"",
+			"**NPC Choices:** Ameiko, Sandru."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2433,7 +2453,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"You are best friends with one of the NPCs; you've grown up together, and while your friend has had a much more exciting life than you so far, you hope one day to follow in your friend's footsteps and see the world-or perhaps even become an adventurer yourself. you've picked up a lot from your friend, but particularly his or her skill in interacting with others. If Ameiko is your best friend, you gain a +2 trait bonus on Diplomacy checks. If Sandru is your best friend, you gain a +2 trait bonus on Bluff checks. Whichever skill you gain a trait bonus on, that skill is always considered a class skill for you. In addition, in situations where your best friend is in danger, you gain a +1 trait bonus on all attack rolls against foes that threaten your friend. NPC Choices: Ameiko, Sandru."
+			"You are best friends with one of the NPCs; you've grown up together, and while your friend has had a much more exciting life than you so far, you hope one day to follow in your friend's footsteps and see the world-or perhaps even become an adventurer yourself. you've picked up a lot from your friend, but particularly his or her skill in interacting with others. If Ameiko is your best friend, you gain a +2 trait bonus on Diplomacy checks. If Sandru is your best friend, you gain a +2 trait bonus on Bluff checks. Whichever skill you gain a trait bonus on, that skill is always considered a class skill for you. In addition, in situations where your best friend is in danger, you gain a +1 trait bonus on all attack rolls against foes that threaten your friend.",
+			"",
+			"**NPC Choices:** Ameiko, Sandru."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -3910,7 +3932,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"You recently hired on to Sandru's caravan to serve as a guard, but the job, while it paid well, gave you little chance to scratch the adventuring itch, since the caravan never really ventured into dangerous territory. You understand why Sandru avoided the more dangerous routes, of course, but that didn't help assuage your urge to seek adventure. You've just told Sandru that you're quitting the job in order to try your hand at adventuring- he seemed to understand, and even gave you some good tips on how best to survive potential challenges. You gain a +1 trait bonus on Survival checks, and Survival becomes a class skill for you. NPC Choices: Sandru."
+			"You recently hired on to Sandru's caravan to serve as a guard, but the job, while it paid well, gave you little chance to scratch the adventuring itch, since the caravan never really ventured into dangerous territory. You understand why Sandru avoided the more dangerous routes, of course, but that didn't help assuage your urge to seek adventure. You've just told Sandru that you're quitting the job in order to try your hand at adventuring- he seemed to understand, and even gave you some good tips on how best to survive potential challenges. You gain a +1 trait bonus on Survival checks, and Survival becomes a class skill for you.",
+			"",
+			"**NPC Choices:** Sandru."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4568,7 +4592,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"You've never had the guts to act on it, but for as long as you can remember, You've had a crush on one of the NPCs. Someday, maybe you'll be able to earn the NPC's love, but for now, you're content to spend time in the NPC's proximity, or even to do things for the NPC that might earn you a word of thanks or a smile. Once per day, you may attempt to earn a kind word or a smile from the NPC whom you have a crush on by making a DC 15 Charisma check. If you're successful, the elation and joy at the attention gives you a +1 trait bonus on all saving throws for the remainder of the day. If you're ever lucky enough to win the NPC's love, this +1 trait bonus on saving throws applies at all times, as long as your relationship remains active. Note that gender isn't an issue in the case of these three NPCs. Unless your GM says otherwise, all three of these NPCs are considered to be bisexual as far as this trait's implications are concerned. Note that if you take this trait, you'll likely want to coordinate NPC choices with any other player who chooses this trait as well, since choosing the same NPC could cause unwanted party strife. Of course- if that's what you and the other player are looking for, go for it! In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your crush. NPC Choices: Ameiko, Sandru, Shalelu."
+			"You've never had the guts to act on it, but for as long as you can remember, You've had a crush on one of the NPCs. Someday, maybe you'll be able to earn the NPC's love, but for now, you're content to spend time in the NPC's proximity, or even to do things for the NPC that might earn you a word of thanks or a smile. Once per day, you may attempt to earn a kind word or a smile from the NPC whom you have a crush on by making a DC 15 Charisma check. If you're successful, the elation and joy at the attention gives you a +1 trait bonus on all saving throws for the remainder of the day. If you're ever lucky enough to win the NPC's love, this +1 trait bonus on saving throws applies at all times, as long as your relationship remains active. Note that gender isn't an issue in the case of these three NPCs. Unless your GM says otherwise, all three of these NPCs are considered to be bisexual as far as this trait's implications are concerned. Note that if you take this trait, you'll likely want to coordinate NPC choices with any other player who chooses this trait as well, since choosing the same NPC could cause unwanted party strife. Of course- if that's what you and the other player are looking for, go for it! In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your crush.",
+			"",
+			"**NPC Choices:** Ameiko, Sandru, Shalelu."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5124,7 +5150,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential. Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature). Suggested Characters: Brevans, Kurgess worshipers, Sargavans."
+			"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential. Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).",
+			"",
+			"**Suggested Characters:** Brevans, Kurgess worshipers, Sargavans."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -5934,7 +5962,9 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community. Once per week, when looking for an item with a price greater than [the local community's base value](rule/purchasing_magic_items), make a DC 10 Diplomacy check; add 10 to the DC for each community size category between the current community and the community size with a base value sufficient for that item. Success means (with GM approval) you're able to sell or purchase that item as if the local community were of sufficient size. Each additional attempt (successful or otherwise) in that community increases the DC by an additional +10. Example: If you're trying to find a +1 cloak of resistance (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town."
+			"You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community. Once per week, when looking for an item with a price greater than [the local community's base value](rule/purchasing_magic_items), make a DC 10 Diplomacy check; add 10 to the DC for each community size category between the current community and the community size with a base value sufficient for that item. Success means (with GM approval) you're able to sell or purchase that item as if the local community were of sufficient size. Each additional attempt (successful or otherwise) in that community increases the DC by an additional +10.",
+			"",
+			"**Example:** If you're trying to find a +1 cloak of resistance (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town."
 		],
 		"subhierarchy": [[ "Equipment Traits", "main/traits_equipment" ]]
 	},
@@ -6447,7 +6477,9 @@
 			"**Type:** Regional  ",
 			"**Region:** Absalom",
 			"",
-			"Ever since you were a child growing up in one of Absalom's vast city quarters, you've been obsessed with the Starstone Cathedral and the prospect of acquiring true divinity by passing the Test of the Starstone. Though it remains to be seen whether you will ever achieve your long-standing dream, your fascination with the would-be deities who enter the Starstone Cathedral and never come back has granted you no small measure of savvy when it comes to preparing to explore dungeons. You start with a kit worth no more than 300 gp, and the expendable contents of the kit are automatically restored to their original capacity at no cost to you whenever you enter a settlement with a population of at least 2,500. Suggestion: Consider playing a character who worships, reveres, or perhaps even envies one of the Ascended- Cayden Cailean, Iomedae, or Norgorber."
+			"Ever since you were a child growing up in one of Absalom's vast city quarters, you've been obsessed with the Starstone Cathedral and the prospect of acquiring true divinity by passing the Test of the Starstone. Though it remains to be seen whether you will ever achieve your long-standing dream, your fascination with the would-be deities who enter the Starstone Cathedral and never come back has granted you no small measure of savvy when it comes to preparing to explore dungeons. You start with a kit worth no more than 300 gp, and the expendable contents of the kit are automatically restored to their original capacity at no cost to you whenever you enter a settlement with a population of at least 2,500.",
+			"",
+			"**Suggestion:** Consider playing a character who worships, reveres, or perhaps even envies one of the Ascended- Cayden Cailean, Iomedae, or Norgorber."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -7334,7 +7366,9 @@
 			"**Type:** Regional  ",
 			"**Region:** underground",
 			"",
-			"Not only are you competent while deep underground, you thrive in these perilous environs. Whether you were born in one of the labyrinthine tunnels that riddle the islands of the Shackles or your mysterious parental figures brought you up in the sand-ridden corridors of some forgotten Osirian pyramid, your emergence on Golarion is somehow tied to one of the world's infamous subterranean dungeons. You start with one additional language chosen from the following list: Aklo, Dark Folk, Draconic, Goblin, Necril, Orc, or Undercommon. In addition, whenever you must attempt a Survival check to avoid getting lost in a dungeon, you may roll the check twice and take the better result. Suggestion: Consider playing an uncommon race from the Pathfinder RPG Advanced Race Guide."
+			"Not only are you competent while deep underground, you thrive in these perilous environs. Whether you were born in one of the labyrinthine tunnels that riddle the islands of the Shackles or your mysterious parental figures brought you up in the sand-ridden corridors of some forgotten Osirian pyramid, your emergence on Golarion is somehow tied to one of the world's infamous subterranean dungeons. You start with one additional language chosen from the following list: Aklo, Dark Folk, Draconic, Goblin, Necril, Orc, or Undercommon. In addition, whenever you must attempt a Survival check to avoid getting lost in a dungeon, you may roll the check twice and take the better result.",
+			"",
+			"**Suggestion:** Consider playing an uncommon race from the Pathfinder RPG Advanced Race Guide."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},

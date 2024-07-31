@@ -1100,7 +1100,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"At some point in the past, you had a terrifyingly close brush with death. Maybe a goblin nearly killed you during an attack on the town, or perhaps a building struck by a giant's boulder collapsed around you. Whatever the peril was, you would have certainly died if not for the swift actions of Koya or Shalelu, who intervened just in time to save your life. You've never forgotten this, and remain fiercely loyal to the NPC who saved you. Perhaps even more importantly, the method in which she saved you seems to have had an impact on your own skills. If Koya saved you, she did so by casting a healing spell on you just before you died, and as a result you gain a +2 trait bonus whenever you use cure spells to heal damage. If it was Shalelu who saved you, she did so by pulling you to safety while simultaneously defeating the peril that almost did you in, and as a result, you gain a +1 trait bonus on Acrobatics checks and Acrobatics is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your savior. NPC Choices: Koya, Shalelu."
+			"At some point in the past, you had a terrifyingly close brush with death. Maybe a goblin nearly killed you during an attack on the town, or perhaps a building struck by a giant's boulder collapsed around you. Whatever the peril was, you would have certainly died if not for the swift actions of Koya or Shalelu, who intervened just in time to save your life. You've never forgotten this, and remain fiercely loyal to the NPC who saved you. Perhaps even more importantly, the method in which she saved you seems to have had an impact on your own skills. If Koya saved you, she did so by casting a healing spell on you just before you died, and as a result you gain a +2 trait bonus whenever you use cure spells to heal damage. If it was Shalelu who saved you, she did so by pulling you to safety while simultaneously defeating the peril that almost did you in, and as a result, you gain a +1 trait bonus on Acrobatics checks and Acrobatics is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your savior.",
+			"",
+			"**NPC Choices:** Koya, Shalelu."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2450,7 +2452,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret. You gain a +1 trait bonus on Bluff checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth. Suggested Characters: Chelaxians, Galtans, Nidalese."
+			"Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret. You gain a +1 trait bonus on Bluff checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.",
+			"",
+			"**Suggested Characters:** Chelaxians, Galtans, Nidalese."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -3668,7 +3672,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold. You gain a +1 trait bonus on saving throws against cold effects and a +2 trait bonus on Fortitude saves against the effects of cold weather. Suggested Characters: Irriseni, Kellids, Ulfen."
+			"You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold. You gain a +1 trait bonus on saving throws against cold effects and a +2 trait bonus on Fortitude saves against the effects of cold weather.",
+			"",
+			"**Suggested Characters:** Irriseni, Kellids, Ulfen."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -4798,7 +4804,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Although she is seen as something of a mystery to most of Sandpoint's citizens, Shalelu has never really seemed all that mysterious to you. Of course, that's probably because she helped raise you. You have never quite figured out why Shalelu decided to treat you as a younger sibling, but you certainly appreciated it- and you eagerly absorbed all of the survivalist tricks that she showed you over the years. As a result, you gain a +2 trait bonus on all Survival checks, and Survival is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your mentor. NPC Choices: Shalelu."
+			"Although she is seen as something of a mystery to most of Sandpoint's citizens, Shalelu has never really seemed all that mysterious to you. Of course, that's probably because she helped raise you. You have never quite figured out why Shalelu decided to treat you as a younger sibling, but you certainly appreciated it- and you eagerly absorbed all of the survivalist tricks that she showed you over the years. As a result, you gain a +2 trait bonus on all Survival checks, and Survival is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your mentor.",
+			"",
+			"**NPC Choices:** Shalelu."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5074,7 +5082,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends. You gain a +1 trait bonus on skill checks to use the aid another action. Suggested Characters: Halflings, Mwangi, Tians."
+			"You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends. You gain a +1 trait bonus on skill checks to use the aid another action.",
+			"",
+			"**Suggested Characters:** Halflings, Mwangi, Tians."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -6611,7 +6621,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat. You gain a +1 trait bonus on saving throws against fire effects and a +2 trait bonus on Fortitude saves against the effects of hot weather. Suggested Characters: Garundi, Keleshites, Mwangi."
+			"You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat. You gain a +1 trait bonus on saving throws against fire effects and a +2 trait bonus on Fortitude saves against the effects of hot weather.",
+			"",
+			"**Suggested Characters:** Garundi, Keleshites, Mwangi."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -8001,7 +8013,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland. Treat your base land speed as 10 feet higher when determining your overland speed. Suggested Characters: Desnans, halflings, Varisians."
+			"Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland. Treat your base land speed as 10 feet higher when determining your overland speed.",
+			"",
+			"**Suggested Characters:** Desnans, halflings, Varisians."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -9138,7 +9152,11 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"You've lived your whole life in the shadow of your older sibling, a person who seems to have the adventure-filled lifestyle You've always wanted for yourself. While your sibling always took care of you, he or she never supported your desire to become an adventurer-your sibling never explained why, only saying, \"Adventuring can cause a lot of pain just as easily as it can bring success and riches.\" As a younger sibling to one of Sandpoint's more influential citizens, you share some of that NPC's innate talent and skill at adventuring. If you're Ameiko's younger sibling, your ferocious independence and self-confidence give you a +1 trait bonus on Will saving throws. If you're Sandru's younger sibling, your hearty constitution gives you a +1 trait bonus on all Fortitude saving throws. If you're Shalelu's younger sibling, your quick reflexes give you a +1 trait bonus on all Reflex saving throws. Note: Although you're a younger sibling of an established NPC, this doesn't necessarily lock you in to being the same race as that NPC-if you're a different race or ethnicity than the NPC you choose as your older sister or brother, you were adopted into the family by your parents. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your older sibling. NPC Choices: Ameiko, Sandru, Shalelu."
+			"You've lived your whole life in the shadow of your older sibling, a person who seems to have the adventure-filled lifestyle You've always wanted for yourself. While your sibling always took care of you, he or she never supported your desire to become an adventurer-your sibling never explained why, only saying, \"Adventuring can cause a lot of pain just as easily as it can bring success and riches.\" As a younger sibling to one of Sandpoint's more influential citizens, you share some of that NPC's innate talent and skill at adventuring. If you're Ameiko's younger sibling, your ferocious independence and self-confidence give you a +1 trait bonus on Will saving throws. If you're Sandru's younger sibling, your hearty constitution gives you a +1 trait bonus on all Fortitude saving throws. If you're Shalelu's younger sibling, your quick reflexes give you a +1 trait bonus on all Reflex saving throws.",
+			"",
+			"**Note:** Although you're a younger sibling of an established NPC, this doesn't necessarily lock you in to being the same race as that NPC-if you're a different race or ethnicity than the NPC you choose as your older sister or brother, you were adopted into the family by your parents. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your older sibling.",
+			"",
+			"**NPC Choices:** Ameiko, Sandru, Shalelu."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

@@ -649,7 +649,7 @@
 			"",
 			"### Watcher Faith",
 			"",
-			"Most watchers follow a dualistic faith that venerates an entity known as the First Watcher (a being that serves the role of preserver) and the Oliphaunt (which serves the role of destroyer), but other strange beliefs vary from watcher to watcher. Both the Oliphaunt and the First Watcher are very real creatures. The Oliphaunt is detailed in Pathfinder RPG Campaign Setting: Mythic Realms. The First Watcher is a colossal watcher with the advanced creature template and unique abilities, and it is the only creature capable of birthing new watchers as they are needed. The role of First Watcher is hereditary. When a First Watcher is slain, another watcher immediately ascends in power to replace it-yet regardless of how many cycles of incarnation occur, it is always known as the First Watcher."
+			"Most watchers follow a dualistic faith that venerates an entity known as the First Watcher (a being that serves the role of preserver) and the Oliphaunt (which serves the role of destroyer), but other strange beliefs vary from watcher to watcher. Both the [Oliphaunt](monster/oliphaunt_of_jandelay) and the First Watcher are very real creatures. The First Watcher is a colossal watcher with the advanced creature template and unique abilities, and it is the only creature capable of birthing new watchers as they are needed. The role of First Watcher is hereditary. When a First Watcher is slain, another watcher immediately ascends in power to replace it-yet regardless of how many cycles of incarnation occur, it is always known as the First Watcher."
 		]
 	},
 	"water_leaper": {
@@ -1044,7 +1044,15 @@
 			"",
 			"Wayangs are defined by class levels-they don't have racial Hit Dice. Wayangs have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Intelligence, -2 Wisdom: Wayangs are nimble and cagey, but their worldview is strange. Small: Wayangs are Small creatures and gain a +1 size bonus to AC, a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to CMD, and a +4 size bonus on Stealth checks. Slow Speed: Wayangs have a base speed of 20 feet. Darkvision: Wayangs can see in the dark up to 60 feet. Light and Dark (Su): See stat block above. Lurker: Wayangs gain a +2 racial bonus on Perception and Stealth checks. Shadow Magic: Wayangs add +1 to the save DC of shadow subschool spells they cast. Wayangs with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day-ghost sound, pass without trace, ventriloquism (caster level equals the wayang's level, saves are Charisma-based). Shadow Resistance: Wayangs get a +2 racial bonus on saves against spells of the shadow subschool. Languages: Wayangs begin play speaking Common and Wayang. Those with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Draconic, Goblin, and Infernal."
+			"**+2 Dexterity, +2 Intelligence, -2 Wisdom:** Wayangs are nimble and cagey, but their worldview is strange.  ",
+			"**Small:** Wayangs are Small creatures and gain a +1 size bonus to AC, a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to CMD, and a +4 size bonus on Stealth checks.  ",
+			"**Slow Speed:** Wayangs have a base speed of 20 feet.  ",
+			"**Darkvision:** Wayangs can see in the dark up to 60 feet.  ",
+			"**Light and Dark (Su):** See stat block above.  ",
+			"**Lurker:** Wayangs gain a +2 racial bonus on Perception and Stealth checks.  ",
+			"**Shadow Magic:** Wayangs add +1 to the save DC of shadow subschool spells they cast. Wayangs with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day-ghost sound, pass without trace, ventriloquism (caster level equals the wayang's level, saves are Charisma-based).  ",
+			"**Shadow Resistance:** Wayangs get a +2 racial bonus on saves against spells of the shadow subschool.  ",
+			"**Languages:** Wayangs begin play speaking Common and Wayang. Those with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Draconic, Goblin, and Infernal."
 		]
 	},
 	"weasel,_dire_weasel": {
@@ -4046,7 +4054,11 @@
 			"",
 			"Wyrwood are defined by their class levels-they do not possess racial Hit Dice. All wyrwoods have the following racial traits.",
 			"",
-			"+2 Dexterity, +2 Intelligence, -2 Charisma: Wyrwoods are quick and calculating. As constructs, wyrwoods do not have a Constitution score. Normal Speed: Wyrwoods have a base speed of 30 feet. Small: Wyrwoods are Small creatures and gain a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to combat maneuver defense, a +2 bonus on Fly checks, and a +4 size bonus on Stealth checks. Darkvision 60 ft.: Wyrwoods can see in the dark up to 60 feet. Low-Light Vision: Wyrwoods have low-light vision. Languages: Wyrwoods speak Common. A wyrwood with a high Intelligence score can choose from the following: Draconic, Dwarven, Elven, Gnome, Goblin, or Orc."
+			"**+2 Dexterity, +2 Intelligence, -2 Charisma:** Wyrwoods are quick and calculating. As constructs, wyrwoods do not have a Constitution score.  ",
+			"**Normal Speed:** Wyrwoods have a base speed of 30 feet.  ",
+			"**Small:** Wyrwoods are Small creatures and gain a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to combat maneuver defense, a +2 bonus on Fly checks, and a +4 size bonus on Stealth checks. Darkvision 60 ft.: Wyrwoods can see in the dark up to 60 feet.  ",
+			"**Low-Light Vision:** Wyrwoods have low-light vision.  ",
+			"**Languages:** Wyrwoods speak Common. A wyrwood with a high Intelligence score can choose from the following: Draconic, Dwarven, Elven, Gnome, Goblin, or Orc."
 		]
 	},
 	"wysp,_aether_wysp": {
@@ -4379,7 +4391,12 @@
 			"",
 			"Wyvarans are defined by their class levels-they don't have racial Hit Dice. All wyvarans have the following racial traits.",
 			"",
-			"+2 Dexterity, -2 Intelligence, +2 Wisdom: Wyvarans have a reptilian grace and a strong will, but they tend to be a little dimwitted. Normal Speed: Wyvarans have a base speed of 30 feet. Flight: Wyvarans have dragonlike wings that grant them a fly speed of 30 feet with clumsy maneuverability. Slapping Tail (Ex): Wyvarans have a tail attack they can only use when making attacks of opportunity. This slapping tail attack deals 1d8 points of damage plus the wyvaran's Strength modifier. Darkvision 60 ft.: Wyvarans can see in the dark up to 60 feet. Low-Light Vision: Wyvarans have low-light vision. Languages: Wyvarans speak Common and Draconic. A wyvaran with a high Intelligence score can choose from the following: Dwarven, Elven, Gnome, Goblin, and Orc."
+			"**+2 Dexterity, -2 Intelligence, +2 Wisdom:** Wyvarans have a reptilian grace and a strong will, but they tend to be a little dimwitted.  ",
+			"**Normal Speed:** Wyvarans have a base speed of 30 feet.  ",
+			"**Flight:** Wyvarans have dragonlike wings that grant them a fly speed of 30 feet with clumsy maneuverability.  ",
+			"**Slapping Tail (Ex):** Wyvarans have a tail attack they can only use when making attacks of opportunity. This slapping tail attack deals 1d8 points of damage plus the wyvaran's Strength modifier. Darkvision 60 ft.: Wyvarans can see in the dark up to 60 feet.  ",
+			"**Low-Light Vision:** Wyvarans have low-light vision.  ",
+			"**Languages:** Wyvarans speak Common and Draconic. A wyvaran with a high Intelligence score can choose from the following: Dwarven, Elven, Gnome, Goblin, and Orc."
 		]
 	},
 	"wyvern": {

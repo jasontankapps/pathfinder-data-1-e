@@ -33,13 +33,12 @@ ion-buttons.slotless {
 
 div.loadingPage {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
 }
-div.loadingPage ion-text,
-div.loadingPage ion-spinner {
+div.loadingPage ion-text {
 	display: block;
 }
 div.loadingPage ion-text {
@@ -169,7 +168,8 @@ table.compositeblasts tr td:nth-child(4n+2),
 table.ioun tr td:first-child,
 table.ioun tr td:nth-child(4),
 table.traits,
-table.faiths {
+table.faiths,
+div.hasInfoTable table {
 	--alignment: start;
 }
 table.archetypegrid tr td:first-child {

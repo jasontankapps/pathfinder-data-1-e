@@ -5350,7 +5350,9 @@
 			"",
 			"**Weakened:** A character weakened by Strength poison suffers a -2 penalty on Strength-based attack rolls, damage rolls, skill checks, and ability checks. Her carrying capacity is divided by 3. She is always considered to be carrying at least a medium load.",
 			"",
-			"**Impaired:** A character impaired by Strength poison experiences rapid muscle atrophy. She takes an additional -2 penalty on the affected Strength-based rolls, and is always considered to be carrying at least a heavy load. Staggered: A character staggered by Strength poison is so weakened that she suffers the effects of the staggered condition (except she can take a full-round action if it is purely mental).",
+			"**Impaired:** A character impaired by Strength poison experiences rapid muscle atrophy. She takes an additional -2 penalty on the affected Strength-based rolls, and is always considered to be carrying at least a heavy load.",
+			"",
+			"**Staggered:** A character staggered by Strength poison is so weakened that she suffers the effects of the staggered condition (except she can take a full-round action if it is purely mental).",
 			"",
 			"**Immobile:** A character rendered immobile by Strength poison cannot move her body at all. She is helpless and can take only purely mental actions.",
 			"",
@@ -5482,7 +5484,9 @@
 			"",
 			"Healthy-Weakened-Impaired-Confused-Comatose-Dead",
 			"",
-			"**Weakened:** A character whose awareness is weakened by Wisdom poison takes a -2 penalty on all Wisdom-based skill checks and ability checks, as well as on Will saves. A character with spellcasting based on Wisdom decreases her DCs by 2 and can no longer cast her highest level of spells. Impaired: A character impaired by Wisdom poison does not add her Wisdom bonus to the number of uses per day of pools and abilities (such as a ki pool) and does not gain bonus spells per day from her Wisdom. She takes an additional -2 penalty on the above Wisdom-based rolls. A Wisdom-based caster reduces her DCs by an additional 2, and can no longer cast her 2 highest levels of spells.",
+			"**Weakened:** A character whose awareness is weakened by Wisdom poison takes a -2 penalty on all Wisdom-based skill checks and ability checks, as well as on Will saves. A character with spellcasting based on Wisdom decreases her DCs by 2 and can no longer cast her highest level of spells.",
+			"",
+			"**Impaired:** A character impaired by Wisdom poison does not add her Wisdom bonus to the number of uses per day of pools and abilities (such as a ki pool) and does not gain bonus spells per day from her Wisdom. She takes an additional -2 penalty on the above Wisdom-based rolls. A Wisdom-based caster reduces her DCs by an additional 2, and can no longer cast her 2 highest levels of spells.",
 			"",
 			"**Confused:** A character who's confused by Wisdom poison has difficulty processing reality and is dangerous to herself and others. Each round, she rolls on the chart from the [confusion](spell/confusion) spell to determine her actions.",
 			"",
@@ -8274,7 +8278,7 @@
 			"",
 			"**Greater Component Effect:** Increase the DC of any saving throw, skill check, or ability check an enemy must attempt due to this spell by 1. In addition, treat your caster level as though it were 2 higher for this spell. This increase can also raise the maximum damage dice of the spell beyond its limit. For example, a 10th-level wizard casting [fireball](spell/fireball) could expend 600 gp worth of yliaster to cast it at CL 12th and deal 12d6 points of fire damage. This bonus also applies on caster level checks to overcome spell resistance and on concentration checks while casting the spell.",
 			"",
-			"**Price:** Unlike with other esoteric components, the required amount of yliaster doesn't vary with caster level. The cost of using yliaster is always 200 gp per spell level. Yliaster is even lighter than common components, weighing 1 pound per 2,000 gp of value. Few people, even experienced spellcasters, are able to find yliaster easily. [Treat it as though it were a major magic item for the purposes of determining its availability](unknown/major_magic_item). It's typically sold in pieces worth 1,000 gp (five castings of a 1st-level spell), or multiples of 1,000 gp for larger pieces."
+			"**Price:** Unlike with other esoteric components, the required amount of yliaster doesn't vary with caster level. The cost of using yliaster is always 200 gp per spell level. Yliaster is even lighter than common components, weighing 1 pound per 2,000 gp of value. Few people, even experienced spellcasters, are able to find yliaster easily. Treat it as though it were a major magic item for the purposes of [determining its availability](rule/purchasing_magic_items). It's typically sold in pieces worth 1,000 gp (five castings of a 1st-level spell), or multiples of 1,000 gp for larger pieces."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

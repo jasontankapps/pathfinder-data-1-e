@@ -2235,7 +2235,9 @@
 			">",
 			">If a vehicle is being pulled by creatures, and any of those creatures is killed, dazed, stunned, or becomes unconscious, the vehicle comes to a sudden stop (see Sudden Stops). If a vehicle has a crew, and half or more of that crew is killed, dazed, stunned, or rendered unconscious, the vehicle can no longer be controlled.",
 			">",
-			">**Attacking the Driving Device:** A driving device is its own object with its own statistics. When a driving device gains the broken condition or is disabled, all driving checks are increased by 10. When a driving device is destroyed, the vehicle can no longer be driven. Driving devices are typically objects with object immunities and resistances. Attacking Conveyance: An attack against wheels, rudders, or similar forms of conveyance takes a -10 penalty on the attack roll, but does maximum damage to the vehicle (no roll necessary). If the attack is a critical hit, multiply this maximum damage by the critical multiplier of the attack. Conveyances are typically objects with object immunities and resistances.",
+			">**Attacking the Driving Device:** A driving device is its own object with its own statistics. When a driving device gains the broken condition or is disabled, all driving checks are increased by 10. When a driving device is destroyed, the vehicle can no longer be driven. Driving devices are typically objects with object immunities and resistances.",
+			">",
+			">**Attacking Conveyance:** An attack against wheels, rudders, or similar forms of conveyance takes a -10 penalty on the attack roll, but does maximum damage to the vehicle (no roll necessary). If the attack is a critical hit, multiply this maximum damage by the critical multiplier of the attack. Conveyances are typically objects with object immunities and resistances.",
 			"",
 			"### Table 4-5: Vehicle AC and CMB Modifier by Size",
 			"",
@@ -4068,7 +4070,9 @@
 			"",
 			"**Provoking an Attack of Opportunity:** Two kinds of actions can provoke attacks of opportunity: moving out of a threatened square and performing certain actions within a threatened square.",
 			"",
-			"**Moving:** Moving out of a threatened square usually provokes attacks of opportunity from threatening opponents. There are two common methods of avoiding such an attack-the 5-foot step and the withdraw action. Performing a Distracting Act: Some actions, when performed in a threatened square, provoke attacks of opportunity as you divert your attention from the battle. Table 8-2 notes many of the actions that provoke attacks of opportunity.",
+			"**Moving:** Moving out of a threatened square usually provokes attacks of opportunity from threatening opponents. There are two common methods of avoiding such an attack-the 5-foot step and the withdraw action.",
+			"",
+			"**Performing a Distracting Act:** Some actions, when performed in a threatened square, provoke attacks of opportunity as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: [standard actions](rule/standard_actions), [move actions](rule/move_actions), [full-round actions](rule/full-round_actions), [free actions](rule/free_actions), [swift actions](rule/swift_actions), [immediate actions](rule/immediate_actions), and [miscellaneous actions](rule/miscellaneous_actions).",
 			"",
 			"Remember that even actions that normally provoke attacks of opportunity may have exceptions to this rule.",
 			"",
@@ -4238,7 +4242,7 @@
 			"| Channel energy | No |",
 			"| Concentration to maintain an active spell | No |",
 			"| Dismiss a spell | No |",
-			"| Draw a hidden weapon (see Sleight of Hand skill) | No |",
+			"| Draw a hidden weapon (see [Sleight of Hand](skill/sleight_of_hand)) | No |",
 			"| Drink a potion or apply an oil | Yes |",
 			"| Escape a grapple | No |",
 			"| Feint | No |",
@@ -4351,7 +4355,9 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 183](source/prpg_core_rulebook)",
 			"",
-			"Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action. Spell Completion Items: [Activating a spell completion](rule/using_items) item is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.",
+			"Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.",
+			"",
+			"**Spell Completion Items:** [Activating a spell completion](rule/using_items) item is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.",
 			"",
 			"**Spell Trigger, Command Word, or Use-Activated Items:** Activating any of these kinds of items does not require concentration and does not provoke attacks of opportunity."
 		],
@@ -4506,7 +4512,7 @@
 			"| Move | Yes |",
 			"| Control a frightened mount | Yes |",
 			"| Direct or redirect an active spell | No |",
-			"| Draw a weapon[^3] | No |",
+			"| Draw a weapon[^2] | No |",
 			"| Load a hand crossbow or light crossbow | Yes |",
 			"| Open or close a door | No |",
 			"| Mount/dismount a steed | No |",
@@ -4516,9 +4522,8 @@
 			"| Stand up from prone | Yes |",
 			"| Ready or drop a shield[^3] | No |",
 			"| Retrieve a stored item | Yes |",
-			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^3]: If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the Two-Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one."
+			"[^2]: If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one."
 		],
 		"parent_topics": [
 			"combat",
@@ -4551,7 +4556,9 @@
 			"",
 			"The simplest move action is moving your speed. If you take this kind of move action during your turn, you can't also take a 5-foot step.",
 			"",
-			"Many nonstandard modes of movement are covered under this category, including climbing (up to onequarter of your speed) and swimming (up to one-quarter of your speed). Accelerated Climbing: You can climb at half your speed as a move action by accepting a -5 penalty on your Climb check.",
+			"Many nonstandard modes of movement are covered under this category, including climbing (up to onequarter of your speed) and swimming (up to one-quarter of your speed).",
+			"",
+			"**Accelerated Climbing:** You can climb at half your speed as a move action by accepting a -5 penalty on your Climb check.",
 			"",
 			"**Crawling:** You can crawl 5 feet as a move action. Crawling incurs attacks of opportunity from any attackers who threaten you at any point of your crawl. A crawling character is considered prone and must take a move action to stand up, provoking an attack of opportunity."
 		],
@@ -4626,7 +4633,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
 			"",
-			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in Table 8-2."
+			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in [the table here](rule/move_actions)."
 		],
 		"parent_topics": [
 			"combat",
@@ -5632,7 +5639,9 @@
 			"",
 			"**Square Occupied by Creature Three Sizes Larger or Smaller:** Any creature can move through a square occupied by a creature three size categories larger than itself.",
 			"",
-			"A big creature can move through a square occupied by a creature three size categories smaller than it is. Creatures moving through squares occupied by other creatures provoke attacks of opportunity from those creatures. Designated Exceptions: Some creatures break the above rules. A creature that completely fills the squares it occupies cannot be moved past, even with the Acrobatics skill or similar special abilities."
+			"A big creature can move through a square occupied by a creature three size categories smaller than it is. Creatures moving through squares occupied by other creatures provoke attacks of opportunity from those creatures.",
+			"",
+			"**Designated Exceptions:** Some creatures break the above rules. A creature that completely fills the squares it occupies cannot be moved past, even with the Acrobatics skill or similar special abilities."
 		],
 		"parent_topics": [
 			"combat",
@@ -8417,7 +8426,9 @@
 			"",
 			"Firearms and gunslingers are not for every campaign, and even if you are excited about introducing firearms into your campaign, you should still make a decision about how commonplace they are. The following are broad categories of firearm rarity and the rules that govern them. Pathfinder's world of Golarion uses the rules for emerging guns, which is also the default category of gun rarity detailed in this Pathfinder RPG supplement.",
 			"",
-			"**No Guns:** If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them. Very Rare Guns: Early firearms are rare; advanced firearms, the gunslinger class, the [Amateur Gunslinger](feat/amateur_gunslinger) feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items-things of wonder and mystery-rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the [Gunsmithing](feat/gunsmithing) feat.",
+			"**No Guns:** If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.",
+			"",
+			"**Very Rare Guns:** Early firearms are rare; advanced firearms, the gunslinger class, the [Amateur Gunslinger](feat/amateur_gunslinger) feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items-things of wonder and mystery-rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the [Gunsmithing](feat/gunsmithing) feat.",
 			"",
 			"**Emerging Guns:** Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two-the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition given in this chapter are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the [Gunsmithing](feat/gunsmithing) feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items-the stuff of high-level treasure troves.",
 			"",

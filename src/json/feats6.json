@@ -5210,7 +5210,8 @@
 			"",
 			"Your magical creations are hardier than most.  ",
 			"**Prerequisites:** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ability to cast make whole or mending.  ",
-			"**Benefit:** When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item's total construction cost by 10%. If it's a weapon, when it becomes broken, the penalty to attack and damage rolls is reduced to -1 (this can never reduce a broken weapon's penalty to attack and damage to 0 or a positive number). If it's a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal. Normal: A broken weapon imposes a -2 penalty on attack and damage rolls. The bonus a broken suit of armor or a broken shield grants to AC is halved."
+			"**Benefit:** When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item's total construction cost by 10%. If it's a weapon, when it becomes broken, the penalty to attack and damage rolls is reduced to -1 (this can never reduce a broken weapon's penalty to attack and damage to 0 or a positive number). If it's a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal.  ",
+			"**Normal:** A broken weapon imposes a -2 penalty on attack and damage rolls. The bonus a broken suit of armor or a broken shield grants to AC is halved."
 		]
 	},
 	"reject_poison": {
@@ -6363,7 +6364,7 @@
 			"",
 			"**Source** [Familiar Folio pg. 19](source/familiar_folio)",
 			"",
-			"Your familiar's keen observations help you defeat foes. Prerequisite: Must have a familiar with the sage archetype.  ",
+			"Your familiar's keen observations help you defeat foes.  ",
 			"**Prerequisites:** Must have a familiar with the sage archetype.  ",
 			"**Benefit:** When your familiar succeeds at a Knowledge check to identify a hazard or an opponent's weaknesses and abilities, you gain a +2 insight bonus on attacks and skill checks against the opponent or hazard for 1 round. If your familiar is sharing a space with the opponent or hazard, this bonus is granted to all allies who can see and understand the familiar."
 		]

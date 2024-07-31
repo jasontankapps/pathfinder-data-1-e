@@ -2956,7 +2956,11 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
 			"",
-			"The time required to don an armor piece is based on its type and the area it protects; see Table 5-6. Don: This column tells how long it takes a character to put on the armor piece. (One minute is 10 rounds.) Don Hastily: This column tells how long it takes a character to put on the armor piece in a hurry. The armor check penalty and armor bonus for hastily donned armor are each 1 point worse than normal (minimum 0 in the case of armor bonus). Remove: This column tells how long it takes a character to remove the armor piece.",
+			"The time required to don an armor piece is based on its type and the area it protects; see Table 5-6.",
+			"",
+			"**Don:** This column tells how long it takes a character to put on the armor piece. (One minute is 10 rounds.) Don Hastily: This column tells how long it takes a character to put on the armor piece in a hurry. The armor check penalty and armor bonus for hastily donned armor are each 1 point worse than normal (minimum 0 in the case of armor bonus).",
+			"",
+			"**Remove:** This column tells how long it takes a character to remove the armor piece.",
 			"",
 			"### Table 5-6: Donning Armor Pieces",
 			"",
@@ -3118,7 +3122,9 @@
 			"",
 			"**Mountain Pattern Arm Armor Piece:** These sleeves are made from many interlocking pieces of steel shaped to resemble a symbol for the word \"mountain\" and riveted onto cloth.",
 			"",
-			"**O-Yoroi Arm Armor Piece:** This armor piece consists of steel lamellar shoulder guards, and sleeves made of metal reinforced with leather. O-yoroi arms end in gauntlets. Padded Arm Armor Piece: These sleeves are made of heavy or quilted cloth.",
+			"**O-Yoroi Arm Armor Piece:** This armor piece consists of steel lamellar shoulder guards, and sleeves made of metal reinforced with leather. O-yoroi arms end in gauntlets.",
+			"",
+			"**Padded Arm Armor Piece:** These sleeves are made of heavy or quilted cloth.",
 			"",
 			"**Plate Arm Armor Piece:** A plate lamellar is composed of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets, along with bits of chainmail and padded armor.",
 			"",
@@ -3493,7 +3499,9 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 163](source/ultimate_magic)",
 			"",
-			"Words of power are an optional subsystem for the Pathfinder Roleplaying Game. Before making a wordcaster, check with your GM to make sure her campaign allows them. Warning: Words of power spellcasting is a complicated subsystem that, in the hands of players suffering from bouts of analysis paralysis, may slow down game play. But in the right hands, the system creates a fun, flexible play experience for fans of free-form spellcasting that works either alone or with standard Pathfinder spellcasters."
+			"Words of power are an optional subsystem for the Pathfinder Roleplaying Game. Before making a wordcaster, check with your GM to make sure her campaign allows them.",
+			"",
+			"**Warning:** Words of power spellcasting is a complicated subsystem that, in the hands of players suffering from bouts of analysis paralysis, may slow down game play. But in the right hands, the system creates a fun, flexible play experience for fans of free-form spellcasting that works either alone or with standard Pathfinder spellcasters."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7705,7 +7713,9 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
 			"",
-			"A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points. Healing Spells and Effects: When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the [heal](spell/heal) spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.",
+			"A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points.",
+			"",
+			"**Healing Spells and Effects:** When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the [heal](spell/heal) spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.",
 			"",
 			"For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the [heal](spell/heal) spell, she would restore 12 wound points to the creature touched.",
 			"",
@@ -7795,7 +7805,9 @@
 			"",
 			"Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.",
 			"",
-			"**Prerequisites:** Str 13, Con 15, [Deathless Initiate](feat/deathless_initiate), [Diehard](feat/diehard), [Endurance](feat/endurance), [Ironhide](feat/ironhide), base attack bonus +9, orc or half-orc. Benefit: When your wound points reach your wound threshold, you do not take 1 wound point when you take an action.",
+			"**Prerequisites:** Str 13, Con 15, [Deathless Initiate](feat/deathless_initiate), [Diehard](feat/diehard), [Endurance](feat/endurance), [Ironhide](feat/ironhide), base attack bonus +9, orc or half-orc.",
+			"",
+			"**Benefit:** When your wound points reach your wound threshold, you do not take 1 wound point when you take an action.",
 			"",
 			"### Diehard",
 			"",

@@ -1,8 +1,8 @@
 import {
 	IonPage,
 	IonContent,
-	IonSpinner,
-	IonText
+	IonText,
+	IonProgressBar
 } from '@ionic/react';
 
 const Loading = () => {
@@ -11,7 +11,7 @@ const Loading = () => {
 			<IonContent>
 				<div className="loadingPage">
 					<IonText color="primary"><h1>Loading</h1></IonText>
-					<IonSpinner name="bubbles" color="secondary" />
+					<IonProgressBar type="indeterminate"  color="secondary"/>
 				</div>
 			</IonContent>
 		</IonPage>

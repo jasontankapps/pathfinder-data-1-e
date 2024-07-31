@@ -4268,7 +4268,12 @@
 			"",
 			"Catfolk have no racial Hit Dice, gaining their capabilities from class levels. All catfolk have the following racial traits.",
 			"",
-			"+2 Dexterity, -2 Wisdom, +2 Charisma: Catfolk are agile and amiable, but they are known for their lack of common sense and self-control. Low-Light Vision: In dim light, catfolk can see twice as far as humans. Cat's Luck: See above. Sprinter: See above. Natural Hunter: Catfolk receive a +2 racial bonus on Perception, Stealth, and Survival checks. Languages: Catfolk speak Catfolk and Common. A catfolk who has a high Intelligence score can choose from the following bonus languages: Elven, Gnoll, Gnome, Goblin, Halfling, Orc, and Sylvan."
+			">**+2 Dexterity, -2 Wisdom, +2 Charisma:** Catfolk are agile and amiable, but they are known for their lack of common sense and self-control.  ",
+			">**Low-Light Vision:** In dim light, catfolk can see twice as far as humans.  ",
+			">**Cat's Luck:** See above.  ",
+			">**Sprinter:** See above.  ",
+			">**Natural Hunter:** Catfolk receive a +2 racial bonus on Perception, Stealth, and Survival checks.  ",
+			">**Languages:** Catfolk speak Catfolk and Common. A catfolk who has a high Intelligence score can choose from the following bonus languages: Elven, Gnoll, Gnome, Goblin, Halfling, Orc, and Sylvan."
 		]
 	},
 	"catoblepas": {
@@ -5334,7 +5339,19 @@
 			"",
 			"The circumstances under which a centianima forms greatly affect its abilities. The following are the most common variants.",
 			"",
-			"**Aquatic (CR +0):** These centianimas arise from the bones of aquatic animals. They usually inhabit sunken ships and ruins claimed by the sea. Aquatic centianimas gain the aquatic subtype and a swim speed of 40 feet. Burrowing (CR +0): This underground variant usually arises from the dry bones of many burrowing creatures. Burrowing centianimas gain a burrow speed of 20 feet. Chittering (CR +1): This variant centianima can emit a bone-rattling chitter as a standard action. Any creature within 30 feet must succeed at a DC 15 Fortitude save or be shaken for 1d4+1 rounds. Any creature that makes a successful save against the effect is immune to that centianima's chitter for 24 hours. The save DC is Charisma-based. Jumping (CR +0): This desert-dwelling variant gains a +12 racial bonus on Acrobatics checks to jump and it treats any Acrobatics skill check to jump, as if it had a running start. It doesn't provoke attacks of opportunity while jumping. A jumping centianima uses this ability to position itself amid its enemies so it can better attack with both of its heads. One-Headed (CR -1): This rare variant occurs when the formation of a centianima is interrupted before the second head has formed. One-headed centianimas have only 3 Hit Dice, and they don't gain all-around vision or the dual threat special ability. Paralytic (CR +1): These centianimas arise from the bones of venomous animals. Any creature that takes damage from the centianima's bite attack must succeed at a DC 15 Fortitude save or be paralyzed for 1d4+1 rounds. The save DC is Charisma-based. Symbiotic (CR +1): These centianimas have formed a close symbiotic relationship with the vermin that feed on the rotting flesh in their lairs. Three times per day, the centianima can vomit up a spider swarm as a standard action. This swarm attacks the nearest living creature, but is otherwise not controlled by the centianima."
+			"**Aquatic (CR +0):** These centianimas arise from the bones of aquatic animals. They usually inhabit sunken ships and ruins claimed by the sea. Aquatic centianimas gain the aquatic subtype and a swim speed of 40 feet.",
+			"",
+			"**Burrowing (CR +0):** This underground variant usually arises from the dry bones of many burrowing creatures. Burrowing centianimas gain a burrow speed of 20 feet.",
+			"",
+			"**Chittering (CR +1):** This variant centianima can emit a bone-rattling chitter as a standard action. Any creature within 30 feet must succeed at a DC 15 Fortitude save or be shaken for 1d4+1 rounds. Any creature that makes a successful save against the effect is immune to that centianima's chitter for 24 hours. The save DC is Charisma-based.",
+			"",
+			"**Jumping (CR +0):** This desert-dwelling variant gains a +12 racial bonus on Acrobatics checks to jump and it treats any Acrobatics skill check to jump, as if it had a running start. It doesn't provoke attacks of opportunity while jumping. A jumping centianima uses this ability to position itself amid its enemies so it can better attack with both of its heads.",
+			"",
+			"**One-Headed (CR -1):** This rare variant occurs when the formation of a centianima is interrupted before the second head has formed. One-headed centianimas have only 3 Hit Dice, and they don't gain all-around vision or the dual threat special ability.",
+			"",
+			"**Paralytic (CR +1):** These centianimas arise from the bones of venomous animals. Any creature that takes damage from the centianima's bite attack must succeed at a DC 15 Fortitude save or be paralyzed for 1d4+1 rounds. The save DC is Charisma-based.",
+			"",
+			"**Symbiotic (CR +1):** These centianimas have formed a close symbiotic relationship with the vermin that feed on the rotting flesh in their lairs. Three times per day, the centianima can vomit up a spider swarm as a standard action. This swarm attacks the nearest living creature, but is otherwise not controlled by the centianima."
 		]
 	},
 	"centipede,_centipede_swarm": {
@@ -6566,9 +6583,19 @@
 			"",
 			"### Changeling Characters",
 			"",
-			"Changelings are defined by their class levels' they don't have racial Hit Dice. All changelings have the following racial traits.",
+			"Changelings are defined by their class levels- they don't have racial Hit Dice. All changelings have the following racial traits.",
 			"",
-			"-2 Constitution, +2 Wisdom, +2 Charisma: Changelings are frail, but are clever and comely. Hag Trait: A changeling possesses one of the following traits, depending on the type of hag her mother is. Hulking Changeling (Annis Hag): The changeling gains a +1 racial bonus on melee damage rolls. Green Widow (Green Hag): The changeling gains a +2 racial bonus on Bluff checks against creatures that are sexually attracted to her. Sea Lungs (Sea Hag): The changeling can hold her breath for a number of rounds equal to 3 &times; her Constitution score before she risks drowning. Claws: A changeling's hands and fingernails tend to harden and become sharp, granting her two claw attacks, each of which deals 1d4 points of damage. Natural Armor: Changelings have a +1 natural armor bonus. Darkvision: Changelings can see in the dark up to 60 feet. Languages: Changelings begin play speaking Common and the primary language of their host society. Changelings who have high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc."
+			">**-2 Constitution, +2 Wisdom, +2 Charisma:** Changelings are frail, but are clever and comely.  ",
+			">**Hag Trait:** A changeling possesses one of the following traits, depending on the type of hag her mother is.",
+			">",
+			">>*Hulking Changeling (Annis Hag):* The changeling gains a +1 racial bonus on melee damage rolls.  ",
+			">>*Green Widow (Green Hag):* The changeling gains a +2 racial bonus on Bluff checks against creatures that are sexually attracted to her.  ",
+			">>*Sea Lungs (Sea Hag):* The changeling can hold her breath for a number of rounds equal to 3 &times; her Constitution score before she risks drowning.",
+			">",
+			">**Claws:** A changeling's hands and fingernails tend to harden and become sharp, granting her two claw attacks, each of which deals 1d4 points of damage.  ",
+			"**Natural Armor:** Changelings have a +1 natural armor bonus.  ",
+			">**Darkvision:** Changelings can see in the dark up to 60 feet.  ",
+			">**Languages:** Changelings begin play speaking Common and the primary language of their host society. Changelings who have high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc."
 		]
 	},
 	"chaos_beast": {

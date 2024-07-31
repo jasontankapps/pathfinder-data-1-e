@@ -5446,7 +5446,7 @@
 			"",
 			"**Energy Drain:** This monster bestows 1 negative level with its attacks (or attacks of a particular type) and gains 5 temporary hit points for each negative level bestowed. The number of negative levels bestowed increases to 2 at CR 10 and 3 at CR 20.",
 			"",
-			"**Engulf:** This functions as the [universal monster rule](umr/engulf), but uses the monster's ability DC from its array. The monster can either deal its high weapon damage to engulfed creatures, or deal its low weapon damage and inflict one of the following conditions: bleed (as the [option](unknown/option)), blinded (Fortitude negates), deafened, energy drain (as the option; see above), frightened (Will negates), nauseated (Fortitude negates), or paralyzed (Fortitude negates).",
+			"**Engulf:** This functions as the [universal monster rule](umr/engulf), but uses the monster's ability DC from its array. The monster can either deal its high weapon damage to engulfed creatures, or deal its low weapon damage and inflict one of the following conditions: bleed (as the [option](rule/powerful)), blinded (Fortitude negates), deafened, energy drain (as the option; see above), frightened (Will negates), nauseated (Fortitude negates), or paralyzed (Fortitude negates).",
 			"",
 			"**Fast Healing:** This monster regains 2 hit points per round. This healing increases to 5 hit points per round at CR 4, 10 at CR 11, 15 at CR 16, and 20 at CR 21.",
 			"",

@@ -135,7 +135,9 @@
 			"",
 			"For instance, if a Medium creature is hit with a crossbow fired by a Medium 6th-level fighter with two critical feats, and the critical threat attack roll is a 19, the target of the potential critical hit makes a critical defense check with a DC of 24 to reduce the critical hit to a normal hit. If the target is wearing +1 leather armor, has a Dexterity of 18, and is using a +1 buckler, that target would have a +9 bonus on the critical defense check to reduce the critical hit to a normal hit. On a roll of 15 or higher, the critical hit is reduced to a normal hit, and the target takes normal damage for the hit (which is reduced by its DR). If the creature firing the crossbow had rolled a 20, the target of the critical hit would need to roll a 16 or higher on its critical defense check to reduce the impact of the critical hit, making it a normal hit.",
 			"",
-			"On a failed critical defense check, the target of the critical hit takes the damage for the critical hit. That damage is still reduced by the target of the critical hit's DR. Fortification Special Armor Quality: The fortification special armor quality acts in concert with the check, coming into play if the armor check fails."
+			"On a failed critical defense check, the target of the critical hit takes the damage for the critical hit. That damage is still reduced by the target of the critical hit's DR.",
+			"",
+			"**Fortification Special Armor Quality:** The fortification special armor quality acts in concert with the check, coming into play if the armor check fails."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -679,7 +681,9 @@
 			"",
 			"Hero points can be spent at any time and do not require an action to use (although the actions they modify consume part of your character's turn as normal). You cannot spend more than 1 hero point during a single round of combat. Whenever a hero point is spent, it can have any one of the following effects.",
 			"",
-			"**Act Out of Turn:** You can spend a hero point to take your turn immediately. Treat this as a readied action, moving your initiative to just before the currently acting creature. You may only take a move or a standard action on this turn. Bonus: If used before a roll is made, a hero point grants you a +8 luck bonus to any one d20 roll. If used after a roll is made, this bonus is reduced to +4. You can use a hero point to grant this bonus to another character, as long as you are in the same location and your character can reasonably affect the outcome of the roll (such as distracting a monster, shouting words of encouragement, or otherwise aiding another with the check). Hero points spent to aid another character grant only half the listed bonus (+4 before the roll, +2 after the roll).",
+			"**Act Out of Turn:** You can spend a hero point to take your turn immediately. Treat this as a readied action, moving your initiative to just before the currently acting creature. You may only take a move or a standard action on this turn.",
+			"",
+			"**Bonus:** If used before a roll is made, a hero point grants you a +8 luck bonus to any one d20 roll. If used after a roll is made, this bonus is reduced to +4. You can use a hero point to grant this bonus to another character, as long as you are in the same location and your character can reasonably affect the outcome of the roll (such as distracting a monster, shouting words of encouragement, or otherwise aiding another with the check). Hero points spent to aid another character grant only half the listed bonus (+4 before the roll, +2 after the roll).",
 			"",
 			"**Extra Action:** You can spend a hero point on your turn to gain an additional standard or move action this turn.",
 			"",
@@ -1243,7 +1247,9 @@
 			"",
 			"**Treasury:** The Treasury is the amount of BP your kingdom has saved and can spend on activities (much in the same way that your character has gold and other valuables you can spend on gear). Your Treasury can fall below 0 (meaning your kingdom's costs exceed its savings and it is operating in debt), but this increases Unrest (see [Kingdom Upkeep Phase](rule/kingdom_upkeep_phase)).",
 			"",
-			"**Turn:** A kingdom turn spans 1 month of game time. You make your kingdom checks and other decisions about running your kingdom at the end of each month. Unrest: Your kingdom's Unrest indicates how rebellious your citizens are. Your kingdom's initial Unrest is 0. Unrest can never fall below 0 (anything that would modify it to less than 0 is wasted). Subtract your kingdom's Unrest from all Economy, Loyalty, and Stability checks.",
+			"**Turn:** A kingdom turn spans 1 month of game time. You make your kingdom checks and other decisions about running your kingdom at the end of each month.",
+			"",
+			"**Unrest:** Your kingdom's Unrest indicates how rebellious your citizens are. Your kingdom's initial Unrest is 0. Unrest can never fall below 0 (anything that would modify it to less than 0 is wasted). Subtract your kingdom's Unrest from all Economy, Loyalty, and Stability checks.",
 			"",
 			"If your kingdom's Unrest is 11 or higher, the kingdom begins to lose control of hexes it has claimed.",
 			"",
@@ -1599,7 +1605,7 @@
 			"",
 			"**Benefit:** Add your Charisma modifier or Intelligence modifier to Stability.",
 			"",
-			"**Vacancy Penalty:** Stability decreases by 2. The kingdom cannot issue [Diplomatic](unknown/diplomatic) or [Exploration](rule/exploration) edicts."
+			"**Vacancy Penalty:** Stability decreases by 2. The kingdom cannot issue [Diplomatic](rule/diplomatic_edicts) or [Exploration](rule/exploration_edicts) edicts."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -2230,7 +2236,7 @@
 			"",
 			"**Step 4-Build Terrain Improvements:** You may spend BP to build terrain improvements like Farms, Forts, Roads, Mines, and Quarries (see [Terrain Improvements](rule/terrain_improvements)).",
 			"",
-			"You may also prepare a hex for constructing a settlement. Depending on the site, this may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the [Preparation Cost column on Table 4-6: Terrain and Terrain Improvements](rule/terrain_improvements) to determine how many BP this requires.",
+			"You may also prepare a hex for constructing a settlement. Depending on the site, this may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the Preparation Cost column on [Table 4-6: Terrain and Terrain Improvements](rule/terrain_improvements) to determine how many BP this requires.",
 			"",
 			"[Table 4-4: Improvement Edicts](rule/improvement_edicts) tells you the maximum number of terrain improvements you can make per turn.",
 			"",
@@ -2982,9 +2988,9 @@
 			"",
 			"**Terrain:** Any land.",
 			"",
-			"**Effect:** Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves [overland travel speed](unknown/overland_travel_speed).",
+			"**Effect:** Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves [overland travel speed](rule/overland_movement).",
 			"",
-			"**Cost:** See the Road column of Table 4-6: Terrain and Terrain Improvements."
+			"**Cost:** See the Road column of [Table 4-6: Terrain and Terrain Improvements](rule/terrain_improvements)."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3248,7 +3254,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 213](source/ultimate_campaign)",
 			"",
-			"In addition to the commonly available items in a settlement as determined by its [base value](unknown/base_value), some buildings increase the likelihood of having specific or unusual magic items available for purchase.",
+			"In addition to the commonly available items in a settlement as determined by its [base value](rule/the_settlement_stat_block), some buildings increase the likelihood of having specific or unusual magic items available for purchase.",
 			"",
 			"**Gaining Item Slots:** When you construct one of these buildings, mark the appropriate boxes in the Magic Items section of the settlement's District Grid; this indicates that the settlement has gained a slot for an item of that type.",
 			"",
@@ -3366,12 +3372,12 @@
 			"",
 			"Some buildings require that you construct them adjacent to at least 1 or 2 of a specific kind of building or feature of the settlement. For example, a Shop or Tavern must be adjacent to a House or Mansion. The required adjacent building can only count toward 1 building that requires it. For example, if you have a House and a Shop, that House can't be used to meet the requirement for another Shop or a Tavern; you have to construct a new House and use it to meet the requirement of the new Shop or Tavern.",
 			"",
-			"For example, you can't construct a Tannery next to a House, Mansion, Noble Villa, or Tenement. If you want to use a lot for this type of building, you must demolish all prohibited adjacent structures first (see [Demolition](unknown/demolition)).",
+			"For example, you can't construct a Tannery next to a House, Mansion, Noble Villa, or Tenement. If you want to use a lot for this type of building, you must demolish all prohibited adjacent structures first (see [Demolition](rule/buildings_in_the_kingdom)).",
 			"",
 			"If you get overzealous in constructing a particular type of building in a settlement, the GM should feel free to add events to discourage this practice. For example, a settlement with too many Dumps is prone to otyugh and wererat attacks, and a settlement with too many Graveyards tends to have frequent undead attacks. This should not occur, however, if you build too many Houses, Parks, Tenements, or Waterways.",
 			"",
 			"**Upgrade To/From:** Some buildings can be converted into a more advanced form of the existing building, such as converting a Shrine into a Temple. To upgrade a building, pay the BP cost difference between the current building and the new building. Remove the modifiers from the old building and apply the modifiers from the new building. Upgrading counts as constructing a building for the purpose of the maximum number of buildings you can construct on your turn. You can't upgrade a building to a larger one if there isn't space in the District Grid for the building's new size.  ",
-			"**Special:** This lists any other effect the building has, such as increasing Defense, the settlement's [base value](unknown/base_value), or the output of a nearby Mine.  ",
+			"**Special:** This lists any other effect the building has, such as increasing Defense, the settlement's [base value](rule/the_settlement_stat_block), or the output of a nearby Mine.  ",
 			"**Magic Items:** This lists any magic item slot the building creates, which may be filled in the Upkeep phase (see [Magic Items in Settlements](rule/magic_items_in_settlements)). If a building lists multiple options within a category (such as -1 minor potion or wondrous item), it has an equal chance for each option.  ",
 			"**Settlement:** This lists [settlement modifiers](rule/settlement_modifiers) that affect specific skills within the settlement. These modifiers are ongoing from turn to turn, but apply only to skill checks within that settlement (not other settlements in the hex or anywhere else in your kingdom). Note that the GameMastery Guide also uses a settlement statistic called Economy; to avoid confusion with the Economy kingdom score, this book renames the Economy settlement statistic \"Productivity.\"",
 			"",
@@ -4274,7 +4280,8 @@
 		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Archaeological Find:** A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. Effect: Lore +1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).",
+			"**Archaeological Find:** A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago.  ",
+			"*Effect:* Lore +1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).",
 			"",
 			"**Diplomatic Overture:** A nearby kingdom sends an ambassador to you to negotiate an embassy (01-60), treaty (61-90), or alliance (91-100), as if using a [diplomatic edict](rule/diplomatic_edicts). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.",
 			"",
@@ -4320,7 +4327,9 @@
 			"",
 			"**Food Shortage:** Spoilage, treachery, or bad luck has caused a food shortage this turn. Attempt a Stability check. If you succeed, Consumption in the next Upkeep phase increases by 50%. If you fail, Consumption in the next Upkeep phase increases by 100%.",
 			"",
-			"**Food Surplus:** Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom's Consumption is halved (but returns to normal on the next turn). Good Weather: Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.",
+			"**Food Surplus:** Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom's Consumption is halved (but returns to normal on the next turn).",
+			"",
+			"**Good Weather:** Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.",
 			"",
 			"**Improvement Demand (hex):** This event is identical to the building demand event, but the citizens want the construction or destruction of a terrain improvement in the hex.",
 			"",
@@ -4647,19 +4656,26 @@
 			"",
 			"The kingdom-building rules presume your government is a feudal monarchy; the leaders are appointed for life (either by themselves or an outside agency such as a nearby monarch), and pass their titles to their heirs. The form of government you choose can help establish the flavor and feel of the kingdom and also adjust its settlements' modifiers. You may choose one of the following as the kingdom's government.",
 			"",
-			"**Autocracy:** A single person rules the kingdom by popular acclaim. This person may be elected by the people, a popular hero asked to lead, or even a hereditary monarch who rules with a light hand. Modifiers: None.",
+			"**Autocracy:** A single person rules the kingdom by popular acclaim. This person may be elected by the people, a popular hero asked to lead, or even a hereditary monarch who rules with a light hand.  ",
+			"*Modifiers:* None.",
 			"",
-			"**Magocracy:** An individual or group with potent magical power leads the kingdom and promotes the spread of magical and mundane knowledge and education. Those with magical abilities often enjoy favored status in the kingdom. Modifiers: Lore +2, Productivity -1, Society -1.",
+			"**Magocracy:** An individual or group with potent magical power leads the kingdom and promotes the spread of magical and mundane knowledge and education. Those with magical abilities often enjoy favored status in the kingdom.  ",
+			"*Modifiers:* Lore +2, Productivity -1, Society -1.",
 			"",
-			"**Oligarchy:** A group of councilors, guild masters, aristocrats, and other wealthy and powerful individuals meet in council to lead the kingdom and direct its policies. Modifiers: Corruption +1, Law -1, Lore -1, Society +1.",
+			"**Oligarchy:** A group of councilors, guild masters, aristocrats, and other wealthy and powerful individuals meet in council to lead the kingdom and direct its policies.  ",
+			"*Modifiers:* Corruption +1, Law -1, Lore -1, Society +1.",
 			"",
-			"**Overlord:** The kingdom's ruler is a single individual who either seized control or inherited command of the settlement and maintains a tight grasp on power. Modifiers: Corruption +1, Crime -1, Law +1, Society -1.",
+			"**Overlord:** The kingdom's ruler is a single individual who either seized control or inherited command of the settlement and maintains a tight grasp on power.  ",
+			"*Modifiers:* Corruption +1, Crime -1, Law +1, Society -1.",
 			"",
-			"**Republic:** The kingdom is ruled by a parliament of elected or appointed officials who represent the various geographic areas and cultural constituents of the kingdom, making decisions for the whole through voting, bureaucratic procedures, and coalition-building. Modifiers: Crime -1, Law -1, Productivity +1, Society +1.",
+			"**Republic:** The kingdom is ruled by a parliament of elected or appointed officials who represent the various geographic areas and cultural constituents of the kingdom, making decisions for the whole through voting, bureaucratic procedures, and coalition-building.  ",
+			"*Modifiers:* Crime -1, Law -1, Productivity +1, Society +1.",
 			"",
-			"**Secret Syndicate:** An unofficial or illegal group like a thieves' guild rules the kingdom-the group may use a puppet leader to maintain secrecy, but the group pulls the strings. Modifiers: Corruption +1, Crime +1, Law -3, Productivity +1.",
+			"**Secret Syndicate:** An unofficial or illegal group like a thieves' guild rules the kingdom-the group may use a puppet leader to maintain secrecy, but the group pulls the strings.  ",
+			"*Modifiers:* Corruption +1, Crime +1, Law -3, Productivity +1.",
 			"",
-			"**Theocracy:** The kingdom is ruled by the leader of its most popular religion, and the ideas and members of that religion often enjoy favored status in government and the kingdom. Modifiers: Corruption -1, Law +1, Lore +1, Society -1."
+			"**Theocracy:** The kingdom is ruled by the leader of its most popular religion, and the ideas and members of that religion often enjoy favored status in government and the kingdom.  ",
+			"*Modifiers:* Corruption -1, Law +1, Lore +1, Society -1."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -5516,11 +5532,11 @@
 			"",
 			"Mass combat takes place over the course of three battle phases: the Tactics Phase, the Ranged Phase, and the Melee Phase. A phase doesn't denote a specific passage of time, leaving the GM latitude to determine how long a mass combat takes to resolve. For example, a battle in a muddy field after a rain could take place over hours and involve several short breaks to remove the dead from the battlefield, but still counts as one battle for the purposes of these rules. If there is an extended break (such as stopping at nightfall to resume combat in the morning) or the battle conditions change significantly (such as the assassination of a commander, the arrival of another army, and so on), the GM should treat each period of combat between armies as one battle. The battle phases are as follows.",
 			"",
-			"1. Tactics Phase: The GM decides what battlefield modifiers apply to the battle. The commanders each select a [tactic their respective armies will use during the battle](rule/army_tactics).",
+			"1. **Tactics Phase:** The GM decides what battlefield modifiers apply to the battle. The commanders each select a [tactic their respective armies will use during the battle](rule/army_tactics).",
 			"",
-			"2. Ranged Phase: Any army with the ability to make ranged attacks may make one attack against an enemy army. This phase typically lasts for 1 round (one attack) as the two armies use ranged attacks while they advance to melee range, and then use melee attacks thereafter. The battlefield's shape and other conditions can extend this duration. If both armies have ranged attacks, they may choose to stay at range and never approach each other for melee (at least until they run out of ammunition, though the Consumption cost of maintaining an army generally means the army is capable of many shots before this happens). Armies without ranged capability can't attack during this phase, but may still rush forward.",
+			"2. **Ranged Phase:** Any army with the ability to make ranged attacks may make one attack against an enemy army. This phase typically lasts for 1 round (one attack) as the two armies use ranged attacks while they advance to melee range, and then use melee attacks thereafter. The battlefield's shape and other conditions can extend this duration. If both armies have ranged attacks, they may choose to stay at range and never approach each other for melee (at least until they run out of ammunition, though the Consumption cost of maintaining an army generally means the army is capable of many shots before this happens). Armies without ranged capability can't attack during this phase, but may still rush forward.",
 			"",
-			"3. Melee Phase: The armies finally clash with melee attacks. Each commander selects a strategy using the [Strategy Track](rule/strategy_track), then each army makes an attack against another army. Repeat the Melee phase until one army is defeated or routs, or some other event ends the battle."
+			"3. **Melee Phase:** The armies finally clash with melee attacks. Each commander selects a strategy using the [Strategy Track](rule/strategy_track), then each army makes an attack against another army. Repeat the Melee phase until one army is defeated or routs, or some other event ends the battle."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -6191,6 +6207,7 @@
 		"name": "Special Abilities",
 		"subtitle": "Mass Combat",
 		"sources": [ "Ultimate Campaign" ],
+		"className": "hasInfoTable",
 		"description": [
 			"**Source** [Ultimate Campaign pg. 242](source/ultimate_campaign)",
 			"",
@@ -6966,7 +6983,7 @@
 		"description": [
 			"**Source** [Mythic Adventures pg. 4](source/mythic_adventures)",
 			"",
-			"Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the underworld rise to swallow the land of the living, a few brave souls will hear the call to greatness. Their deeds will become the stories of our time, and their victories will be celebrated for centuries to come. Even now, they walk among us' unaware of the destiny that awaits them. The moment is almost here. Their hour is at hand."
+			"Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the underworld rise to swallow the land of the living, a few brave souls will hear the call to greatness. Their deeds will become the stories of our time, and their victories will be celebrated for centuries to come. Even now, they walk among us, unaware of the destiny that awaits them. The moment is almost here. Their hour is at hand."
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"subtopics": [
@@ -7094,7 +7111,7 @@
 			"",
 			"**Mythic:** With abilities seemingly beyond the those of ordinary mortals, a mythic character or mythic monster becomes part of a story that plays out on a greater scale than ordinary people can understand. An attack, spell, or other effect is considered mythic if it originates from a mythic source, such as a character or creature with a mythic tier or rank. (See [Mythic versus Non-Mythic](rule/mythic_versus_non-mythic).)",
 			"",
-			"**Mythic Path:** (Often referred to just as a \"path.\") The theme of a character's mythic abilities is determined by her [mythic path](unknown/mythic_path)-archmage, champion, guardian, hierophant, marshal, or trickster. Each path has a number of special abilities associated with it that the character can select as she advances in tier.",
+			"**Mythic Path:** (Often referred to just as a \"path.\") The theme of a character's mythic abilities is determined by her [mythic path](rule/mythic_paths)-archmage, champion, guardian, hierophant, marshal, or trickster. Each path has a number of special abilities associated with it that the character can select as she advances in tier.",
 			"",
 			"**Mythic Power:** Each mythic character can call upon this [base mythic ability](rule/base_mythic_abilities) to influence destiny and fuel other abilities. At its most basic, mythic power is needed to use the surge ability, but it can also be called upon to use a number of other mythic abilities.",
 			"",

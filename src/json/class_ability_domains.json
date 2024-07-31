@@ -2549,7 +2549,11 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the venomous stare power of the Scalykind domain.",
 			"",
-			"**Venomous Saliva (Su):** Just as certain serpents can spray poison from their fangs, as a swift action, you can spit a gout of life-stealing venom onto a weapon you are wielding. The poison lasts for 1 minute or until you make an attack with that weapon that injures a foe. Life-Stealing Venom: Injury; save Fort DC 10 + half your class level + your Wisdom modifier; frequency 1/round for 3 rounds; effect 1 Con damage; cure 1 save. You can use the venomous saliva ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"**Venomous Saliva (Su):** Just as certain serpents can spray poison from their fangs, as a swift action, you can spit a gout of life-stealing venom onto a weapon you are wielding. The poison lasts for 1 minute or until you make an attack with that weapon that injures a foe.",
+			"",
+			">**Life-Stealing Venom:** Injury; save Fort DC 10 + half your class level + your Wisdom modifier; frequency 1/round for 3 rounds; effect 1 Con damage; cure 1 save.",
+			"",
+			"You can use the venomous saliva ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Replacement Domain Spells:** 2nd-[pernicious poison](spell/pernicious_poison), 6th-[cloudkill](spell/cloudkill)."
 		]

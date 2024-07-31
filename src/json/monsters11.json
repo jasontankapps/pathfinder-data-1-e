@@ -1326,7 +1326,13 @@
 			"",
 			"Gathlains are defined by their class levels-they don't have racial Hit Dice. All gathlains have the following racial traits.",
 			"",
-			"+2 Dexterity, -2 Constitution, +2 Charisma: Gathlains are quick, with dynamic and engaging personalities, but are rather fragile. Small: Gathlains are Small and gain a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to CMD, a +2 bonus on Fly checks, and a +4 size bonus on Stealth checks. Normal Speed: Gathlains have a base speed of 30 feet and a fly speed of 40 feet (poor). Low-Light Vision: Gathlains can see twice as far as humans in dim light. Natural Armor: Gathlains have a +1 natural armor bonus. Spell-Like Abilities: 1/day-entangle, feather step (caster level equals the gathlain's character level). Languages: Gathlains speak Common and Sylvan. A gathlain with a high Intelligence score can choose from the following languages: Draconic, Elven, Goblin, Halfling, and Orc."
+			"**+2 Dexterity, -2 Constitution, +2 Charisma:** Gathlains are quick, with dynamic and engaging personalities, but are rather fragile.  ",
+			"**Small:** Gathlains are Small and gain a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to CMD, a +2 bonus on Fly checks, and a +4 size bonus on Stealth checks.  ",
+			"**Normal Speed:** Gathlains have a base speed of 30 feet and a fly speed of 40 feet (poor).  ",
+			"**Low-Light Vision:** Gathlains can see twice as far as humans in dim light.  ",
+			"**Natural Armor:** Gathlains have a +1 natural armor bonus.  ",
+			"**Spell-Like Abilities:** 1/day-entangle, feather step (caster level equals the gathlain's character level).  ",
+			"**Languages:** Gathlains speak Common and Sylvan. A gathlain with a high Intelligence score can choose from the following languages: Draconic, Elven, Goblin, Halfling, and Orc."
 		]
 	},
 	"gearghost": {
@@ -2628,11 +2634,23 @@
 			"",
 			"**Source** [Classic Horrors Revisited pg. 19](source/classic_horrors_revisited) The typical ghoul is assumed to have come from a Medium humanoid like a human, half-elf, dwarf, or elf. Yet some humanoids have remarkably different characteristics that make these ghouls more or less powerful.",
 			"",
-			"Larger Ghouls: A giant that succumbs to ghoul fever retains its larger size, its higher natural armor bonus, and all of its racial Hit Dice, but is otherwise treated as a ghoul advanced to its new Hit Dice and size.",
+			"**Larger Ghouls:** A giant that succumbs to ghoul fever retains its larger size, its higher natural armor bonus, and all of its racial Hit Dice, but is otherwise treated as a ghoul advanced to its new Hit Dice and size.",
 			"",
-			"Smaller Ghouls: Small humanoids who become ghouls have 1 HD and all of the appropriate bonuses and penalties for dropping from Medium to Small size (-4 Str, +2 Dex, +1 size bonus on attack rolls and to AC, reduced natural attack damage, etc.). A Small ghoul is CR 1/2.",
+			"**Smaller Ghouls:** Small humanoids who become ghouls have 1 HD and all of the appropriate bonuses and penalties for dropping from Medium to Small size (-4 Str, +2 Dex, +1 size bonus on attack rolls and to AC, reduced natural attack damage, etc.). A Small ghoul is CR 1/2.",
 			"",
-			"Unusual Ghouls: Some humanoids transformed into ghouls have unusual advantages. Boggard, Merfolk: These races always spawn into lacedons. Bugbear, Lizardfolk, Troglodyte: These races always spawn into ghasts. Ettin: An ettin ghoul has two bite attacks, in addition to being advanced to Large size and 10 HD. Fire Giant: A fire giant ghoul gains the Fire subtype. Frost Giant: A frost giant ghoul gains the Cold subtype. Lycanthrope: While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the [lycanthrope](template/lycanthrope) template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
+			"**Unusual Ghouls:** Some humanoids transformed into ghouls have unusual advantages.",
+			"",
+			">**Boggard, Merfolk:** These races always spawn into lacedons.",
+			">",
+			">**Bugbear, Lizardfolk, Troglodyte:** These races always spawn into ghasts.",
+			">",
+			">**Ettin:** An ettin ghoul has two bite attacks, in addition to being advanced to Large size and 10 HD.",
+			">",
+			">**Fire Giant:** A fire giant ghoul gains the Fire subtype.",
+			">",
+			">**Frost Giant:** A frost giant ghoul gains the Cold subtype.",
+			">",
+			">**Lycanthrope:** While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the [lycanthrope](template/lycanthrope) template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
 		]
 	},
 	"ghoul_hound": {

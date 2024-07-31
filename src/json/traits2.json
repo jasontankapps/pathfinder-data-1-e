@@ -753,7 +753,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the Bluff skill). NPC Choices: Ameiko, Koya, Sandru, Shalelu.",
+			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the Bluff skill).",
+			"",
+			"**NPC Choices:** Ameiko, Koya, Sandru, Shalelu.",
 			"",
 			"- Ameiko: Tien, Varisian",
 			"- Koya or Sandru: Varisian",
@@ -877,7 +879,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Koya Mvashti might be old enough to be your grandmother, but to you, she's always been your mom. Ever since your parents passed away, Koya's been taking care of you as if she were your mother. You never really figured out why Koya took you into her care, but you do know she's done this before-most recently with Sandru Vhiski, whom you think of as your brother. Growing up, Koya made sure that you had the best education possible, particularly in one particular topic. Choose any Knowledge skill-you gain a +2 bonus on skill checks with that Knowledge skill, and it becomes a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your adoptive mother. NPC Choices: Koya."
+			"Koya Mvashti might be old enough to be your grandmother, but to you, she's always been your mom. Ever since your parents passed away, Koya's been taking care of you as if she were your mother. You never really figured out why Koya took you into her care, but you do know she's done this before-most recently with Sandru Vhiski, whom you think of as your brother. Growing up, Koya made sure that you had the best education possible, particularly in one particular topic. Choose any Knowledge skill-you gain a +2 bonus on skill checks with that Knowledge skill, and it becomes a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your adoptive mother.",
+			"",
+			"**NPC Choices:** Koya."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -988,7 +992,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against languagedependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2. Suggested Characters: Andorens, Desnans, Erastil worshipers."
+			"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against languagedependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2.",
+			"",
+			"**Suggested Characters:** Andorens, Desnans, Erastil worshipers."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -1121,7 +1127,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Your family has been close friends with the Mvashtis for as long as you've been alive. Old Niska Mvashti's recent death wasn't all that unexpected- she must have been over a hundred years old, as far as you know-but it was a sobering moment nonetheless. What no one else in your family knows, though, is that in the weeks before her death, Niska must have known that her days were numbered, because she called you to her house one day and made you make a promise: If her daughter Koya ever went on a long trip, you would go with her to ensure her safety. Although the chances of Koya going on a long trip seem remote (she must be at least 60 years old, after all), you've made a promise to Niska to accompany her daughter if such an event comes to pass. Ever since you made this promise, you've felt a strange sense of destiny looming in your future-you might even think that Niska is now watching over your shoulder, just as she asked you to watch over her daughter. As a result of this eerie sense of being watched over, you've been able to react to dangerous situations more quickly than ever. As long as Koya remains alive, you gain a +1 trait bonus on Perception checks, and Perception becomes a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten Koya. NPC Choices: Koya."
+			"Your family has been close friends with the Mvashtis for as long as you've been alive. Old Niska Mvashti's recent death wasn't all that unexpected- she must have been over a hundred years old, as far as you know-but it was a sobering moment nonetheless. What no one else in your family knows, though, is that in the weeks before her death, Niska must have known that her days were numbered, because she called you to her house one day and made you make a promise: If her daughter Koya ever went on a long trip, you would go with her to ensure her safety. Although the chances of Koya going on a long trip seem remote (she must be at least 60 years old, after all), you've made a promise to Niska to accompany her daughter if such an event comes to pass. Ever since you made this promise, you've felt a strange sense of destiny looming in your future-you might even think that Niska is now watching over your shoulder, just as she asked you to watch over her daughter. As a result of this eerie sense of being watched over, you've been able to react to dangerous situations more quickly than ever. As long as Koya remains alive, you gain a +1 trait bonus on Perception checks, and Perception becomes a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten Koya.",
+			"",
+			"**NPC Choices:** Koya."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1185,7 +1193,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials. Suggested Characters: Absalom natives, Aspis Consortium agents, Taldans."
+			"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials.",
+			"",
+			"**Suggested Characters:** Absalom natives, Aspis Consortium agents, Taldans."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2079,7 +2089,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse. Suggested Characters: Eagle Knights, Garundi, Pathfinders."
+			"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.",
+			"",
+			"**Suggested Characters:** Eagle Knights, Garundi, Pathfinders."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2106,7 +2118,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit. As a standard action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours. Suggested Characters: Galtans, Rahadoumi, Ustalavs."
+			"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit. As a standard action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.",
+			"",
+			"**Suggested Characters:** Galtans, Rahadoumi, Ustalavs."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2713,7 +2727,9 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Everyone in town seems to admire Ameiko and Shalelu-they're heroes, after all, and played key roles in the recent troubles that plagued Sandpoint. You, though, take this admiration to a new level-you practically worship one of these two. This could be because you saw one of them perform a particularly impressive act of bravery at some point in the past, or maybe they just happened to give you the exact right words of encouragement or a kind gift at some point a few years ago when you were young and impressionable. In any case, they've done your best to emulate your hero's talents at spellcasting or combat. If your hero is Ameiko, you gain a +2 bonus on concentration checks. If your hero is Shalelu, you gain a +1 bonus to your AC against attacks of opportunity. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your hero. NPC Choices: Ameiko, Shalelu."
+			"Everyone in town seems to admire Ameiko and Shalelu-they're heroes, after all, and played key roles in the recent troubles that plagued Sandpoint. You, though, take this admiration to a new level-you practically worship one of these two. This could be because you saw one of them perform a particularly impressive act of bravery at some point in the past, or maybe they just happened to give you the exact right words of encouragement or a kind gift at some point a few years ago when you were young and impressionable. In any case, they've done your best to emulate your hero's talents at spellcasting or combat. If your hero is Ameiko, you gain a +2 bonus on concentration checks. If your hero is Shalelu, you gain a +1 bonus to your AC against attacks of opportunity. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your hero.",
+			"",
+			"**NPC Choices:** Ameiko, Shalelu."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5260,7 +5276,9 @@
 			"**Type:** Regional  ",
 			"**Requirements:** Settlement near a famous dungeon",
 			"",
-			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2. Suggestion: With the help of your GM and using the [example dungeon guides](main/equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
+			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2.",
+			"",
+			"**Suggestion:** With the help of your GM and using the [example dungeon guides](main/equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5943,7 +5961,9 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Growing up amid a large number of children, you learned quickly how to get others' attention and keep it. When you modify a character's attitude with the Diplomacy or Intimidate skill, the attitude change lasts 1-1/2 times longer than it otherwise would. Whenever you create a fear or mind-affecting effect that imposes a penalty or bonus with a duration of at least 2 rounds, it lasts 1 additional round after it would normally end. For example, if you demoralize a foe with an Intimidate check and beat the DC by 5, the victim is shaken for 3 rounds instead of the usual 2 rounds. Suggested Characters: Free Captains, gnomes, Keleshites."
+			"Growing up amid a large number of children, you learned quickly how to get others' attention and keep it. When you modify a character's attitude with the Diplomacy or Intimidate skill, the attitude change lasts 1-1/2 times longer than it otherwise would. Whenever you create a fear or mind-affecting effect that imposes a penalty or bonus with a duration of at least 2 rounds, it lasts 1 additional round after it would normally end. For example, if you demoralize a foe with an Intimidate check and beat the DC by 5, the victim is shaken for 3 rounds instead of the usual 2 rounds.",
+			"",
+			"**Suggested Characters:** Free Captains, gnomes, Keleshites."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},

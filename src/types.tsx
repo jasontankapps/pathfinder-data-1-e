@@ -56,6 +56,7 @@ export interface JsonRulesProps<Name> {
 	siblings?: Name[]
 	sources: SourceProp[]
 	tables?: Table[]
+	className?: string
 }
 
 export interface BasicItem {
