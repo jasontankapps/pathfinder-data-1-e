@@ -26,6 +26,23 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
+	"black_smear": {
+		"name": "Black Smear",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Black Smear",
+			"",
+			"**Sources** [Pathfinder RPG Bestiary pg. 54](source/pathfinder_rpg_bestiary)",
+			"",
+			"**Price** N/A; **Weight** &mdash;  ",
+			"**Type** injury; **Save** Fortitude DC 15  ",
+			"**Frequency** 1/round for 6 rounds  ",
+			"**Effect** 1d2 Strength damage  ",
+			"**Cure** 1 save",
+			"",
+			"The poison DC is Constitution-based."
+		]
+	},
 	"blackfrost": {
 		"name": "Blackfrost",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],

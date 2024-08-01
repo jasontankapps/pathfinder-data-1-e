@@ -668,7 +668,7 @@
 					[ "[Embrace of the Dark Fey](feat/embrace_of_the_dark_fey)", "You must have an evil fey such as a quickling or redcap somewhere in your family line, or you must have the Shameful Heritage background.", "See text" ],
 					[ "[Enemy Cult](feat/enemy_cult)", "You must have encountered a cult whose general alignment is opposite to yours on at least one axis or who threatened your beliefs or way of life, or you must have the Angelic Encounter, the False Witness, The Omen, or the Terrible Secret background (all of which are found in Ultimate Campaign).", "Detect the cult's alignment, and on completion, gain defenses against that alignment" ],
 					[ "[Explorer](feat/explorer)", "You must have crossed at least 30 miles of wilderness without map or guide.", "Gain skills to aid getting along in the wild" ],
-					[ "[Fascinated by the Mundane](feat/fascinated_by_the_mundane)", "You must have a fey ancestor somewhere in your family line, and you must have the Adopted by the Fey, Fey Meeting, or Met a Fantastic Creature background (Ultimate Campaign 21, 30, and 24, respectively).", "See text" ],
+					[ "[Fascinated by the Mundane](feat/fascinated_by_the_mundane)", "You must have a fey ancestor somewhere in your family line, and you must have the Adopted by the Fey, Fey Meeting, or Met a Fantastic Creature background.", "See text" ],
 					[ "[Fearless Zeal](feat/fearless_zeal)", "You must be ordained as a sacred (or profane) champion of your faith by a high-ranking member of its clergy, or have the Devoted, Faith-Bringer, or Moral Debt background. Such an honor goes above and beyond the normal oaths required of a cleric or paladin.", "Become a living symbol of your faith" ],
 					[ "[Feral Heart](feat/feral_heart)", "You must have reverted to savage behavior through a traumatic event or extended period in the wilderness, or have the Raised by Beasts background.", "Embrace your savage behaivor for increased combat ability" ],
 					[ "[Foeslayer](feat/foeslayer)", "You must have been defeated and robbed of at least half your possessions by a particular group of humanoids or monstrous humanoids, or have the An Eye for an Eye, Hated Foe, Raiders, or Vengeance background. You may choose a specific race, such as duergar, or a broader group, such as goblinoids. At the GM's discretion, you may instead choose residents of a particular country, settlement, or tribe.", "Improve your battle prowess against the chosen enemy" ],
@@ -1040,7 +1040,10 @@
 	},
 	"feats_grit_panache": {
 		"title": "Feats - Grit/Panache",
-		"sources": [],
+		"sources": [
+			"Ultimate Combat",
+			"Advanced Class Guide"
+		],
 		"searchgroup": "feat",
 		"description": [
 			"# Grit Feats",
@@ -1051,7 +1054,7 @@
 			[ "{table0}" ],
 			"# Panache Feats",
 			[
-				"**Description Source** Advanced Class Guide pg. 136  ",
+				"**Description Source** [Advanced Class Guide pg. 136](source/advanced_class_guide)  ",
 				"Panache feats interact with the [swashbuckler's](class/swashbuckler) panache class ability or the panache granted by the [Amateur Swashbuckler](feat/amateur_swashbuckler) feat. Swashbucklers can take panache feats as bonus feats.",
 				"",
 				"{table1}"

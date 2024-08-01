@@ -210,8 +210,7 @@
 				"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
 				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 				"",
-				"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)",
-				"",
+				"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)  ",
 				"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
 				"",
 				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."
@@ -234,6 +233,7 @@
 					[ "[Belladonna](equipment-poison/belladonna)", "ingested", "Fortitude DC 14", "10 minutes", "1/minute for 6 minutes", "1d2 Str, see text", 100 ],
 					[ "[Black Adder Venom](equipment-poison/black_adder_venom)", "injury", "Fortitude DC 11", null, "1/round for 6 rounds", "1d2 Con damage", 120 ],
 					[ "[Black Lotus Extract](equipment-poison/black_lotus_extract)", "contact", "Fortitude DC 20", "1 minute", "1/round for 6 rounds", "1d6 Con damage", 4500 ],
+					[ "[Black Smear](equipment-poison/black_smear)", "injury", "Fortitude DC 15", null, "1/round for 6 minutes", "1d2 Str damage", [ 99999, "N/A" ] ],
 					[ "[Black spider marsh poison](equipment-poison/black_spider_marsh_poison)", "injury", "Fortitude DC 14", null, "1/round for 6 rounds", "1d4 Dex, confused 1 round", 800 ],
 					[ "[Black whinnis](equipment-poison/black_whinnis)", "injury", "Fortitude DC 14", null, "1/round for 2 rounds", "1 Con damage / nauseated 1d4 rounds", 200 ],
 					[ "[Blackfinder's silence](equipment-poison/blackfinder's_silence)", "injury", "Fortitude DC 14", null, "1/round for 4 rounds", "unable to speak for 1 round", 400 ],
