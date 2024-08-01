@@ -1,0 +1,46 @@
+/* Search Page */
+
+div.search div.searchResult {
+	border-color: var(--ion-border-color);
+	border-width: 0 0 1px;
+	border-style: solid;
+	background: var(--ion-item-background);
+	height: 70px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: start;
+	position: relative;
+}
+div.search div.searchResult a {
+	display: flex;
+	padding-inline: 1rem;
+	padding-block: 0.625rem;
+	width: 100%;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: start;
+	text-decoration: none;
+}
+div.search div.searchResult a h3 {
+	color: var(--ion-color-primary);
+	font-size: 1rem;
+	margin: 0;
+	text-transform: capitalize;
+}
+div.search div.searchResult a h4 {
+	color: var(--ion-text-color);
+	font-size: 0.825rem;
+	margin: 0;
+	font-weight: normal;
+}
+div.searchHelpModal {
+	padding: 1rem 1rem;
+	border-inline: 2px solid var(--ion-color-light);
+}
+div.searchHelpModal p {
+	text-indent: 1.5rem;
+}
+div.searchHelpModal table {
+	margin: 1rem auto;
+}

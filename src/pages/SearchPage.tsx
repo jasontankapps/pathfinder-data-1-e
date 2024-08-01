@@ -30,13 +30,12 @@ import SearchHelpModal from '../components/SearchHelpModal';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import './Page.css';
+import './SearchPage.css';
 
 interface Item {
 	name: string
 	tags?: string
 }
-
-type SearchIndex = RangeStartToEndMinusOne<1, 13>;
 
 interface ParallelItem {
 	t: number // type
@@ -45,7 +44,7 @@ interface ParallelItem {
 	s: SearchIndex // searchgroup
 }
 
-type SearchGroup =
+/*type SearchGroup =
 	"class" // 1
 	| "archetype" // 2
 	| "feat" // 3
@@ -58,9 +57,14 @@ type SearchGroup =
 	| "faith" // 10
 	| "monster" // 11
 	| "rule"; // 12
+*/
 
 function isIndex(value: unknown): asserts value is Item[] {}
 isIndex(fuseIndex);
+
+type SearchIndex = RangeStartToEndMinusOne<1, 13>;
+
+const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 //// Load and deserialize index
 //const myIndex = Fuse.parseIndex(fuseIndex);
@@ -175,11 +179,11 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 		}
 	}
 	const save = () => {
-		setFilter(temp);
+		setFilter(temp.length ? temp : allSearchFiltersActive);
 		setOpen(false);
 	};
 	const close = () => setOpen(false);
-	const selectDeselect = () => setTemp(temp.length ? [] : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+	const selectDeselect = () => setTemp(temp.length ? [] : allSearchFiltersActive);
 	return (
 		<IonModal isOpen={open} onIonModalDidDismiss={() => setOpen(false)} onLoad={() => setTemp(filter)}>
 			<IonHeader>
@@ -229,7 +233,7 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 const SearchPage: FC = () => {
 	const [searchText, setSearchText] = useState<string>("");
 	const [isPending, startTransition] = useTransition();
-	const [filter, setFilter] = useState<SearchIndex[]>([]);
+	const [filter, setFilter] = useState<SearchIndex[]>(allSearchFiltersActive);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
@@ -245,7 +249,7 @@ const SearchPage: FC = () => {
 						onInput={(input) => startTransition(() => setSearchText(String(input.currentTarget.value || "")))}
 					/>
 					<IonButtons slot="end">
-						<IonButton onClick={() => setFilterOpen(true)} color={filter.length ? "tertiary" : undefined}>
+						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>
 							<IonIcon slot="icon-only" icon={filterCircle} />
 						</IonButton>
 						<IonButton onClick={() => setHelpOpen(true)}>

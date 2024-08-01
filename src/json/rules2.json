@@ -3370,7 +3370,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 170](source/prpg_core_rulebook)",
 			"",
-			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons' they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
+			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons-they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
 			"",
 			"**Hampered Movement:** Difficult terrain, obstacles, and poor visibility can hamper movement (see Table 7-7 for details). When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move. If more than one hampering condition applies, multiply all additional costs that apply. This is a specific exception to the normal rule for doubling.",
 			"",
@@ -7439,7 +7439,7 @@
 			"",
 			"**Onset:** Some afflictions have a variable amount of time before they set in. Creatures that come in contact with an affliction with an onset time must make a saving throw immediately. Success means that the affliction is avoided and no further saving throws must be made. Failure means that the creature has contracted the affliction and must begin making additional saves after the onset period has elapsed. The affliction's effect does not occur until after the onset period has elapsed and then only if further saving throws are failed.",
 			"",
-			"**Frequency:** This is how often the periodic saving throw must be attempted after the affliction has been contracted (after the onset time, if the affliction has any). While some afflictions last until they are cured, others end prematurely, even if the character is not cured through other means. If an affliction ends after a set amount of time, it will be noted in the frequency. For example, a disease with a frequency of -1/ day- lasts until cured, but a poison with a frequency of -1/ round for 6 rounds' ends after 6 rounds have passed.",
+			"**Frequency:** This is how often the periodic saving throw must be attempted after the affliction has been contracted (after the onset time, if the affliction has any). While some afflictions last until they are cured, others end prematurely, even if the character is not cured through other means. If an affliction ends after a set amount of time, it will be noted in the frequency. For example, a disease with a frequency of *1/day* lasts until cured, but a poison with a frequency of *1/round for 6 rounds* ends after 6 rounds have passed.",
 			"",
 			"Afflictions without a frequency occur only once, immediately upon contraction (or after the onset time if one is listed).",
 			"",
@@ -8398,7 +8398,7 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 135](source/ultimate_combat)",
 			"",
-			"Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones' relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.",
+			"Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones-relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.",
 			"",
 			"This section presents an anachronistic collection of hand-held black powder weapons. Most of them are singleshot muzzle-loaders with highly inefficient triggering mechanisms-traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover."
 		],
@@ -8518,82 +8518,31 @@
 			"",
 			"There are two general categories of firearms: early and advanced.",
 			"",
-			"Firearms are further divided into one-handed, twohanded, and siege firearms. As the category's name implies, one-handed firearms need only one hand to wield and shoot. Two-handed firearms work best when you use two hands while shooting them. Two-handed firearms can be shot with one hand at a -4 penalty on the attack roll. Siege weapons are typically mounted on some sort of platform, movable or otherwise, and have greater power but a much slower rate of fire."
+			"Firearms are further divided into one-handed, two-handed, and siege firearms. As the category's name implies, one-handed firearms need only one hand to wield and shoot. Two-handed firearms work best when you use two hands while shooting them. Two-handed firearms can be shot with one hand at a -4 penalty on the attack roll. Siege weapons are typically mounted on some sort of platform, movable or otherwise, and have greater power but a much slower rate of fire.",
+			"",
+			"### Early Firearms",
+			"",
+			"Early firearms are typically matchlock, wheellock, or flintlock weapons, and require more finesse and care to use than advanced firearms. Early firearms are muzzle-loaded, requiring a bullet and powder (or other special alchemical substances) to be shoved down the barrel before the weapon is fired. Early firearm ammunition can be loaded from a cartridge, but that cartridge is made of soft material (like paper or cloth) that is torn open so that the contents may be shoved down the barrel.",
+			"",
+			"### Advanced Firearms",
+			"",
+			"Advanced firearms are more reliable and accurate than early firearms. The ammunition of an advanced firearm takes the form of metal (usually brass) cartridges that are loaded into a chamber rather than shoved down the muzzle.",
+			"",
+			"### Firearm Ammunition and Adventuring Gear",
+			"",
+			"Those who wield guns have a number of options when it comes to loading their weapons, and often need gunsmith's kits to provide proper care and upkeep for their firearms.",
+			"",
+			"[Firearms and gear can be found here.](main/equipment_firearms)"
 		],
 		"parent_topics": [
 			"combat",
 			"mastering_combat",
 			"firearms"
 		],
-		"subtopics": [
-			"early_firearms",
-			"advanced_firearms",
-			"firearm_ammunition_and_adventuring_gear"
-		],
 		"siblings": [
 			"firearms_in_your_campaign",
 			"firearm_rules",
 			"firearm_description"
-		]
-	},
-	"early_firearms": {
-		"name": "Early Firearms",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 137](source/ultimate_combat)",
-			"",
-			"Early firearms are typically matchlock, wheellock, or flintlock weapons, and require more finesse and care to use than advanced firearms. Early firearms are muzzle-loaded, requiring a bullet and powder (or other special alchemical substances) to be shoved down the barrel before the weapon is fired. Early firearm ammunition can be loaded from a cartridge, but that cartridge is made of soft material (like paper or cloth) that is torn open so that the contents may be shoved down the barrel."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"firearms",
-			"firearm_description"
-		],
-		"siblings": [
-			"early_firearms",
-			"advanced_firearms",
-			"firearm_ammunition_and_adventuring_gear"
-		]
-	},
-	"advanced_firearms": {
-		"name": "Advanced Firearms",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 139](source/ultimate_combat)",
-			"",
-			"Advanced firearms are more reliable and accurate than early firearms. The ammunition of an advanced firearm takes the form of metal (usually brass) cartridges that are loaded into a chamber rather than shoved down the muzzle."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"firearms",
-			"firearm_description"
-		],
-		"siblings": [
-			"early_firearms",
-			"advanced_firearms",
-			"firearm_ammunition_and_adventuring_gear"
-		]
-	},
-	"firearm_ammunition_and_adventuring_gear": {
-		"name": "Firearm Ammunition and Adventuring Gear",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 140](source/ultimate_combat)",
-			"",
-			"Those who wield guns have a number of options when it comes to loading their weapons, and often need gunsmith's kits to provide proper care and upkeep for their firearms."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"firearms",
-			"firearm_description"
-		],
-		"siblings": [
-			"early_firearms",
-			"advanced_firearms",
-			"firearm_ammunition_and_adventuring_gear"
 		]
 	}
 }

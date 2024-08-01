@@ -1,6 +1,33 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+/* Setting up Fonts */
+
+@font-face {
+	font-family: 'Taviraj';
+	src: url('/fonts/Taviraj-Regular.woff2') format(woff2);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Taviraj';
+	src: url('/fonts/Taviraj-Bold.woff2') format(woff2);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Taviraj';
+	src: url('/fonts/Taviraj-Italic.woff2') format(woff2);
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Taviraj';
+	src: url('/fonts/Taviraj-BoldItalic.woff2') format(woff2);
+	font-weight: bold;
+	font-style: italic;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -239,4 +266,6 @@ html {
   /* For more information on dynamic font scaling, visit the documentation: 
   https://ionicframework.com/docs/layout/dynamic-font-scaling */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
+	--ion-font-family: 'Taviraj', serif;
+	--ion-default-font: var(--ion-font-family);
 }
