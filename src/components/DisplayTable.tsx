@@ -106,7 +106,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
 				text = `Invalid LB number [${test}]`;
 			} else {
 				text = typeof output === "number"
-					? `${output.toLocaleString()} lb${output > 1 || output < -1 ? "s": ""}.`
+					? `${output.toLocaleString()} lb${output > 1 || output < -1 || !output ? "s": ""}.`
 					: output;
 			}
 			break;
@@ -116,7 +116,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
 				text = `Invalid LB+ number [${test}]`;
 			} else {
 				text = typeof output === "number"
-					? `${output >= 0 ? "+" : ""}${output.toLocaleString()} lb${output > 1 || output < -1 ? "s": ""}.`
+					? `${output >= 0 ? "+" : ""}${output.toLocaleString()} lb${output > 1 || output < -1 || !output ? "s": ""}.`
 					: output;
 			}
 			break;

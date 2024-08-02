@@ -3337,7 +3337,7 @@
 		"sources": [],
 		"description": [
 			[
-				"*Summonable* indicates the template can be applied to a summon creature.",
+				"*Summonable* indicates the template can be applied to a summoned creature.",
 				"",
 				"- **X** - No additional restrictions",
 				"- **X&ast;** - See template for restrictions",
@@ -3405,12 +3405,12 @@
 					[ "[Failed Prophet](template/failed_prophet)", [2, "+2"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "[Fey Animal](template/fey_animal)", [1, "+1"], [1, "X"], [1, "X"], [2, ""], [1, "X"] ],
 					[ "[Fey Creature](template/fey_creature)", [1.2, "+1 or +2"], [1, "X"], [1, "X"], [2, ""], [2, ""] ],
-					[ "[Fey-Touched Creature](template/fey-touched_creature)", [0.1, "+0 or +1"], [2, ""], [1, "X"], [2, ""], "Yes - Spellcasters with ties to the fey (such as sorcerers with the fey bloodline) can summon fey-touched creatures with summon monster spells" ],
+					[ "[Fey-Touched Creature](template/fey-touched_creature)", [0.1, "+0 or +1"], [2, ""], [1, "X"], [2, ""], [ 1.1, "X&ast;" ] ],
 					[ "[Fiend-Infused](template/fiend-infused)", [2, "+2"], [2, ""], [1, "X"], [2, ""], [2, ""] ],
 					[ "[Fiendish](template/fiendish)", [0.1, "+0 or +1"], [1, "X"], [2, ""], [1, "X"], [1, "X"] ],
 					[ "[Fiery](template/fiery)", [0.1, "+0 or +1"], [1, "X"], [2, ""], [1, "X"], [1.2, "X&ast;&ast;"] ],
 					[ "[Fighter](template/fighter)", [1.2, "+1 or +2"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
-					[ "[First World Creature](template/first_world_creature)", [0.1, "+0 or +1"], [2, ""], [1, "X"], [2, ""], "Yes - Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_nature's_ally_1), and [planar ally](spell/planar_ally)." ],
+					[ "[First World Creature](template/first_world_creature)", [0.1, "+0 or +1"], [2, ""], [1, "X"], [2, ""], [ 1, "X" ] ],
 					[ "[Fleshwarped Creature](template/fleshwarped_creature)", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ "[Floodslain](template/floodslain)", [1, "+1"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "[Foo Creature](template/foo_creature)", [1, "+1"], [2, ""], [1, "X"], [2, ""], [2, ""] ],

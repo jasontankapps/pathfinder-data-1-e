@@ -8,8 +8,11 @@ li {
 ion-content {
 	position: relative;
 }
-div.basicContent.simple {
+div.basicContent.simple,
+div.basicContent ion-item.mainItem {
 	user-select: text;
+}
+div.basicContent.simple {
 	padding-inline: 1em;
 }
 
