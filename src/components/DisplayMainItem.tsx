@@ -41,29 +41,18 @@ h1, h2, h3, h6, hr
 
 */
 
-type TempMemory = { [key: string]: number };
-
 const plugins = [remarkGfm];
 
-const makeId = (info: string, memory: TempMemory) => {
-	if(memory[info]) {
-		return `user-content-fnref-${info}-${++memory[info]}`;
-	}
-	memory[info] = 1;
-	return "user-content-fnref-" + info;
-};
-
-const doLink = (props: MDaProps, memory: TempMemory) => {
-	const { href = "", children } = props;
+const doLink = (props: MDaProps) => {
+	const { href = "", children, id, "aria-label": ariaLabel } = props;
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
-		return <Link to={href}>{children}<IonRippleEffect /></Link>
+		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		const m = href.match(/user-content-fn-(.+)/);
 		// Trying to make create the ID property that the footnote link will be pointing at,
 		//   since the plugin apparently doesn't do that automatically...
-		const id = m ? makeId(m[1], memory) : undefined;
 		const scrollWithOffset = (el: HTMLElement) => {
 			const w = document.getElementsByTagName("ion-content");
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
@@ -72,9 +61,9 @@ const doLink = (props: MDaProps, memory: TempMemory) => {
 			const element = [...w].pop();
 			element && element.scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
-		return <HashLink id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
+		return <HashLink aria-label={ariaLabel} id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
 	}
-	return <Link to={"/" + href}>{children}</Link>
+	return <Link to={"/" + href} id={id} aria-label={ariaLabel}>{children}</Link>
 };
 
 const table = (props: MDtProps) => {
@@ -151,6 +140,13 @@ const h2 = (props: MDpProps) => {
 	return <IonItem className="mainItem linked" href={url}>{element}</IonItem>
 };
 
+const h22 = (props: MDpProps) => {
+	if (props.children === "Footnotes") {
+		return <h3>{props.children}</h3>;
+	}
+	return <h2>{props.children}</h2>;
+};
+
 const h3 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
@@ -168,9 +164,8 @@ const hr = (props: MDpProps) => {
 };
 
 const makeComponents = (tables: Table[]) => {
-	const memory: TempMemory = {};
 	return {
-		a: (props: MDaProps) => doLink(props, memory),
+		a: doLink,
 		p: (props: MDpProps) => p(props, tables),
 		h1,
 		h2,
@@ -181,12 +176,12 @@ const makeComponents = (tables: Table[]) => {
 	};
 };
 const makeBasicComponents = (tables: Table[]) => {
-	const memory: TempMemory = {};
 	return {
-		a: (props: MDaProps) => doLink(props, memory),
+		a: doLink,
 		p: (props: MDpProps) => p(props, tables),
 		td,
-		table
+		table,
+		h2: h22
 	};
 };
 

@@ -2689,7 +2689,7 @@
 					[ "[Shingle Runner](feat/shingle_runner)", "General", "Dex 12, Acrobatic.", "+2 Acrobatics/Climb, take 10 on Climb, fall down from heights easier" ],
 					[ "[Shocking Amplification](feat/shocking_amplification)", "General", "", "Your electricity spells cause creatures to become fatigued" ],
 					[ "[Shocking Bellow](feat/shocking_bellow)", "Combat", "[Intimidating Prowess](feat/intimidating_prowess).", "Demoralize for free during the surprise round" ],
-					[ "[Shoki's Argument](feat/shoki's_argument)", "General", "Ability to cast [disrupt undead](spell/disrupt_undead), character level 3rd, [duskwalker](race/duskwalker).", "Increase the damage of disrupt undead by 1/6 damage/3 levels" ],
+					[ "[Shoki's Argument](feat/shoki's_argument)", "General", "Ability to cast [disrupt undead](spell/disrupt_undead), character level 3rd, [duskwalker](race/duskwalker).", "Increase the damage of disrupt undead by 1d6 damage/3 levels" ],
 					[ "[Shot on the Run](feat/shot_on_the_run)", "Combat", "Dex 13, [Dodge](feat/dodge), [Mobility](feat/mobility), base attack bonus +4.", "Make ranged attack at any point during movement" ],
 					[ "[Shrapnel Strike](feat/shrapnel_strike)", "Combat", "Str 15, [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack).", "Gain a bonus to break objects which can shatter" ],
 					[ "[Shrewd Tactician](feat/shrewd_tactician)", "Combat", "[Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes).", "Flanking is less efficient against you" ],

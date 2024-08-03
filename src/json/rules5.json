@@ -1719,7 +1719,15 @@
 			"",
 			"Players more focused on characterization or story progress may look at reward management as a form of homework. They're more interested in seeing what's on the other side of that hill, or talking to the crazy hermit, than stopping every scene to add up their XP totals or divide treasure. They'll find it easier to stay engaged with the game if you bundle rewards together, dealing with them all at the same time.",
 			"",
-			"The diagram on the next page lays out in graphic form the various considerations to take into account when deciding how much emphasis to give to rewards over the course of a session. Factors on the left side of the continuum lead to giving out awards in occasional bundles. Factors on the right side argue in favor of giving out rewards throughout the session."
+			"The table below lays out the various considerations to take into account when deciding how much emphasis to give to rewards over the course of a session. Factors on the left side lead to giving out awards in occasional bundles. Factors on the right side argue in favor of giving out rewards throughout the session.",
+			"",
+			"| Bundled | Frequent |",
+			"| --- | --- |",
+			"| Experienced Players | New Players |",
+			"| Short Sessions | Long Sessions |",
+			"| Story-Focused Players | Combat-Focused Players |",
+			"| Characterization-Focused Players | Power-Focused Players |",
+			"| PCs Pivotal to Sweeping Events | PCs as Scroungers, Traders, Crafters |"
 		],
 		"parent_topics": [
 			"gamemastering",

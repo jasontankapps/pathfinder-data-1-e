@@ -1462,7 +1462,7 @@
 					[ "[Shifting Patterns](feat/shifting_patterns)", "[Spell Focus (illusion)](feat/spell_focus), caster level 5th.", "Move an existing pattern spell 10 feet" ],
 					[ "[Shingle Runner](feat/shingle_runner)", "Dex 12, Acrobatic.", "+2 Acrobatics/Climb, take 10 on Climb, fall down from heights easier" ],
 					[ "[Shocking Amplification](feat/shocking_amplification)", "", "Your electricity spells cause creatures to become fatigued" ],
-					[ "[Shoki's Argument](feat/shoki's_argument)", "Ability to cast [disrupt undead](spell/disrupt_undead), character level 3rd, [duskwalker](race/duskwalker).", "Increase the damage of disrupt undead by 1/6 damage/3 levels" ],
+					[ "[Shoki's Argument](feat/shoki's_argument)", "Ability to cast [disrupt undead](spell/disrupt_undead), character level 3rd, [duskwalker](race/duskwalker).", "Increase the damage of disrupt undead by 1d6 damage/3 levels" ],
 					[ "[Shrouded in Mystery](feat/shrouded_in_mystery)", "Bluff 1 rank; Disguise 1 rank; Kitsune, nagaji, samsaran, tengu, or wayang.", "Against other humanoid races, gain a +2 bonus on Will saves vs. mind-affecting spells and a +3 bonus on Bluff checks" ],
 					[ "[Signature Skill](feat/signature_skill)", "5 ranks in the chosen skill.", "Gain unique abilities with a chosen skill" ],
 					[ "[Signifer Armor Training](feat/signifer_armor_training)", "[Arcane Armor Mastery](feat/arcane_armor_mastery), [Arcane Armor Training](feat/arcane_armor_training), Heavy Armor Proficiency, caster level 7th, must swear allegiance to a single Hellknight order.", "Reduce the arcane spell failure chance for your Hellknight armor by 30%" ],
@@ -3196,7 +3196,9 @@
 				"",
 				"Here's [an overview of combat](rule/how_combat_works), outlining how it starts and continues.",
 				"",
-				"[This section summarizes combat statistics](rule/combat_statistics), including [attack rolls](rule/attack_roll), [armor class (AC)](rule/armor_class), [saving throws](rule/saving_throws), and [attacks of opportunity](rule/attacks_of_opportunity)."
+				"[This section summarizes combat statistics](rule/combat_statistics), including [attack rolls](rule/attack_roll), [armor class (AC)](rule/armor_class), and [saving throws](rule/saving_throws).",
+				"",
+				"[Attacks of opportunity](rule/attacks_of_opportunity) can be tough to understand on the fly, so be sure to read about them beforehand."
 			],
 			[
 				"## The Five Main Action Types",
@@ -3244,7 +3246,9 @@
 			[
 				"## Magic Items",
 				"",
-				"Item slots are [explained here](rule/magic_items_on_the_body)."
+				"There is a limit to how many magic items you can utilize at the same time, based on \"slots\", [explained here](rule/magic_items_on_the_body).",
+				"",
+				"Many items are clear as to which slot they occupy. For example, helmets will use the head slot and boots will use the feet slot. However, some items are ambiguous. Cloaks sometimes use the body slot, and sometimes use the shoulders slot. Gauntlets can use the hands slot or the wrists slot. Always check the item in question to be sure."
 			]
 		],
 		"searchgroup": "rule",

@@ -65,8 +65,9 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	}, [index, sorter]);
 	if(sortable) {
 		return (
-			<th>
+			<th className="ion-activatable">
 				<div className="sortable" onClick={onClick}>
+					<IonRippleEffect />
 					<Markdown>{children}</Markdown>
 					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
 				</div>
