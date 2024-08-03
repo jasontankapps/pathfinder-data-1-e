@@ -2419,7 +2419,7 @@
 			"## main/feats_metamagic View Metamagic and Item Creation Feats // (111 feats)",
 			"## main/feats_teamwork View Teamwork Feats || (Also includes \"Betrayal\" and \"Coven\" feats; 191 feats)",
 			"## main/feats_grit_panache View Grit and Panache Feats // (32 feats)",
-			"## main/feats_mesmerist View Mesmerist Class Feats // (Stare and Trick; 22 feats)",
+			"## main/feats_mesmerist View Mesmerist Class Feats || (Stare and Trick; 22 feats)",
 			"## main/feats_mastery View Mastery Feats || (Weapon Mastery, Armor Mastery, Shield Mastery, Item Mastery; 61 feats)",
 			"## main/feats_meditation View Meditation Feats // (14 feats)",
 			"## main/feats_monster View Monster Feats // (42 feats)",
@@ -3240,6 +3240,11 @@
 				"- **Nature:** animals, fey, monstrous humanoids, plants, vermin",
 				"- **Planes:** outsiders",
 				"- **Religion:** undead"
+			],
+			[
+				"## Magic Items",
+				"",
+				"Item slots are [explained here](rule/magic_items_on_the_body)."
 			]
 		],
 		"searchgroup": "rule",

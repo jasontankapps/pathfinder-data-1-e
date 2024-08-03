@@ -5055,6 +5055,7 @@
 	},
 	"magic_items_on_the_body": {
 		"name": "Magic Items on the Body",
+		"tags": "slots, item slots",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",

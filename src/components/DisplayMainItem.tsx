@@ -41,10 +41,19 @@ h1, h2, h3, h6, hr
 
 */
 
+type TempMemory = { [key: string]: number };
 
 const plugins = [remarkGfm];
 
-const doLink = (props: MDaProps) => {
+const makeId = (info: string, memory: TempMemory) => {
+	if(memory[info]) {
+		return `user-content-fnref-${info}-${++memory[info]}`;
+	}
+	memory[info] = 1;
+	return "user-content-fnref-" + info;
+};
+
+const doLink = (props: MDaProps, memory: TempMemory) => {
 	const { href = "", children } = props;
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
@@ -52,7 +61,9 @@ const doLink = (props: MDaProps) => {
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		const m = href.match(/user-content-fn-(.+)/);
-		const id = m ? "user-content-fnref-" + m[1] : undefined;
+		// Trying to make create the ID property that the footnote link will be pointing at,
+		//   since the plugin apparently doesn't do that automatically...
+		const id = m ? makeId(m[1], memory) : undefined;
 		const scrollWithOffset = (el: HTMLElement) => {
 			const w = document.getElementsByTagName("ion-content");
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
@@ -157,8 +168,9 @@ const hr = (props: MDpProps) => {
 };
 
 const makeComponents = (tables: Table[]) => {
+	const memory: TempMemory = {};
 	return {
-		a: doLink,
+		a: (props: MDaProps) => doLink(props, memory),
 		p: (props: MDpProps) => p(props, tables),
 		h1,
 		h2,
@@ -169,8 +181,9 @@ const makeComponents = (tables: Table[]) => {
 	};
 };
 const makeBasicComponents = (tables: Table[]) => {
+	const memory: TempMemory = {};
 	return {
-		a: doLink,
+		a: (props: MDaProps) => doLink(props, memory),
 		p: (props: MDpProps) => p(props, tables),
 		td,
 		table
