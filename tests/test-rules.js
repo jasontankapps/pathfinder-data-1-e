@@ -89,9 +89,15 @@ function isGood(value) {
 			} else if (subtopics.some(bit => {
 				if(!rules[bit]) {
 					return true;
-				} else if(!rules[bit].parent_topics || rules[bit].parent_topics.indexOf(prop) < 0) {
+				}
+				const rb = rules[bit];
+				if(!rb.parent_topics || rb.parent_topics.indexOf(prop) < 0) {
 					found = true;
 					console.log(`${prop}.subtopics => ${bit} is not reciprocal`)
+					return true;
+				} else if (!rb.siblings || !Array.isArray(rb.siblings)) {
+					found = true;
+					console.log(`${bit} does not have a siblings property`)
 					return true;
 				}
 				return false;

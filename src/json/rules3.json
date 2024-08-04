@@ -6073,7 +6073,8 @@
 			"**Languages:** AIs speak Androffan. An AI knows a number of additional languages equal to its Intelligence modifier.",
 			"",
 			"**Special Abilities:** Use this section to cover any unusual abilities the AI possesses."
-		]
+		],
+		"siblings": [ "creating_an_ai" ]
 	},
 	"primal_magic": {
 		"name": "Primal Magic",
@@ -6190,6 +6191,11 @@
 		"subtopics": [
 			"buoyancy",
 			"thinking_in_three_dimensions"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
 		]
 	},
 	"buoyancy": {
@@ -6256,6 +6262,11 @@
 			"off-balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
 		]
 	},
 	"physical_attacks": {
@@ -6376,6 +6387,11 @@
 			"oceanic_zones",
 			"currents_and_running_water",
 			"whirlpools"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
 		]
 	},
 	"drowning_aa": {

@@ -158,7 +158,8 @@ table.ioun tr td:first-child,
 table.ioun tr td:nth-child(4),
 table.traits,
 table.faiths,
-div.hasInfoTable table {
+div.hasInfoTable table,
+div.centerFirst tr td:last-child {
 	--alignment: start;
 }
 table.archetypegrid tr td:first-child {
