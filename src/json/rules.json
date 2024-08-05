@@ -2790,12 +2790,12 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 1-15 | Calistrian Initiate: You worked in a temple of Calistria, where you learned to listen with great care when others are at their most relaxed. You gain access to the [Calistrian courtesan](trait/calistrian_courtesan) and [charming](trait/charming) traits, as well as the [lonely](trait/lonely) drawback. |",
-			"| 16-30 | Consecrated Confidante: You stumbled upon a dangerous secret once while counseling a member of your faith, and ever since have listened all the more closely to those who cross paths with you. You gain access to the [divine confidante](trait/divine_confidante) trait. |",
-			"| 31-45 | Galtan Collaborator: In order to stay alive in the chaotic nation of Galt, you quickly learned you had to condemn someone to the Gray Gardeners' guillotines at least occasionally to keep attention off of you. You gain access to the [bully](trait/bully) trait and the [guilty fraud](trait/guilty_fraud) drawback. |",
-			"| 46-60 | Patriotic Vigilance: You believe in your nation's ideals and have earned respect for your ability to notice threats against it. You gain access to the [official ties](trait/official_ties) trait. |",
-			"| 61-75 | Rootless Warrior: Whether you're a Varisian wanderer, a Kellid barbarian, or some other adventurer, you have learned to keep moving to avoid difficult questions while profiting from selling the information you stumble upon to interested parties. You gain access to the [friend in every town](trait/friend_in_every_town) and [reactionary](trait/reactionary) traits, as well as the [secret shame](trait/secret_shame) drawback. |",
-			"| 76-100 | Itinerant Scholar: You found travel to be the best way to get exposure to a wide array of magical techniques, including closely guarded ones that might be dangerous to share. You gain access to the [secret scrolls](trait/secret_scrolls) trait."
+			"| 1-15 | **Calistrian Initiate:** You worked in a temple of Calistria, where you learned to listen with great care when others are at their most relaxed. You gain access to the [Calistrian courtesan](trait/calistrian_courtesan) and [charming](trait/charming) traits, as well as the [lonely](trait/lonely) drawback. |",
+			"| 16-30 | **Consecrated Confidante:** You stumbled upon a dangerous secret once while counseling a member of your faith, and ever since have listened all the more closely to those who cross paths with you. You gain access to the [divine confidante](trait/divine_confidante) trait. |",
+			"| 31-45 | **Galtan Collaborator:** In order to stay alive in the chaotic nation of Galt, you quickly learned you had to condemn someone to the Gray Gardeners' guillotines at least occasionally to keep attention off of you. You gain access to the [bully](trait/bully) trait and the [guilty fraud](trait/guilty_fraud) drawback. |",
+			"| 46-60 | **Patriotic Vigilance:** You believe in your nation's ideals and have earned respect for your ability to notice threats against it. You gain access to the [official ties](trait/official_ties) trait. |",
+			"| 61-75 | **Rootless Warrior:** Whether you're a Varisian wanderer, a Kellid barbarian, or some other adventurer, you have learned to keep moving to avoid difficult questions while profiting from selling the information you stumble upon to interested parties. You gain access to the [friend in every town](trait/friend_in_every_town) and [reactionary](trait/reactionary) traits, as well as the [secret shame](trait/secret_shame) drawback. |",
+			"| 76-100 | **Itinerant Scholar:** You found travel to be the best way to get exposure to a wide array of magical techniques, including closely guarded ones that might be dangerous to share. You gain access to the [secret scrolls](trait/secret_scrolls) trait."
 		],
 		"parent_topics": [
 			"basics",
@@ -2821,12 +2821,12 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 1-15 | Lovesick Warden: Before you even reached adulthood, you joined the border patrol to watch enemy armies posturing near Kalabuto or Nirmathas, and fell in love with someone from the other side. You gain access to the [frontier-forged](trait/frontier-forged) and [tactician](trait/tactician) traits, as well as the [lovesick](trait/lovesick) drawback. |",
-			"| 16-30 | Chelish Informant: Whether raised in a free nation or under Chelish authority, you dismiss fanciful idealism and wish to share in the amazing power and wealth of Cheliax's rulers under whatever identity is most useful. You gain access to the [Chelish sympathizer](trait/chelish_sympathizer) trait. |",
-			"| 31-45 | Kitharodian Actor: The Kitharodian Academy taught you to see real intrigue like a performance you could master with enough practice and sacrifice. You gain access to the [mentored](trait/mentored) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [empty mask](trait/empty_mask) drawback. |",
-			"| 46-60 | Twilight Impersonator: You once glimpsed a Twilight Talon surprise and attack an oppressor while disguised as an innocuous professional, and were inspired to develop the skills of a spy even though Andoran could offer you no official support. You gain access to the [ordinary](trait/ordinary) and [surprise weapon](trait/surprise_weapon) traits~~, as well as the *stateless agent* drawback~~. (No such drawback was provided in the book.) |",
-			"| 61-75 | Wolf in Sheep's Clothing: You were groomed from a young age (perhaps by drow, geniekin, or gillmen) to live among a foreign people as one of them in order to help conquer or undermine them. You gain access to the [deep cover](trait/deep_cover) trait. |",
-			"| 76-100 | Double Agent: Your government trained you in the ways of revolutionaries and dissidents so you could move among them and goad them into revealing themselves. You gain access to the [official ties](trait/official_ties) and [vigilant battler](trait/vigilant_battler) traits, as well as the [paranoid](trait/paranoid) drawback."
+			"| 1-15 | **Lovesick Warden:** Before you even reached adulthood, you joined the border patrol to watch enemy armies posturing near Kalabuto or Nirmathas, and fell in love with someone from the other side. You gain access to the [frontier-forged](trait/frontier-forged) and [tactician](trait/tactician) traits, as well as the [lovesick](trait/lovesick) drawback. |",
+			"| 16-30 | **Chelish Informant:** Whether raised in a free nation or under Chelish authority, you dismiss fanciful idealism and wish to share in the amazing power and wealth of Cheliax's rulers under whatever identity is most useful. You gain access to the [Chelish sympathizer](trait/chelish_sympathizer) trait. |",
+			"| 31-45 | **Kitharodian Actor:** The Kitharodian Academy taught you to see real intrigue like a performance you could master with enough practice and sacrifice. You gain access to the [mentored](trait/mentored) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [empty mask](trait/empty_mask) drawback. |",
+			"| 46-60 | **Twilight Impersonator:** You once glimpsed a Twilight Talon surprise and attack an oppressor while disguised as an innocuous professional, and were inspired to develop the skills of a spy even though Andoran could offer you no official support. You gain access to the [ordinary](trait/ordinary) and [surprise weapon](trait/surprise_weapon) traits~~, as well as the *stateless agent* drawback~~. (No such drawback was provided in the book.) |",
+			"| 61-75 | **Wolf in Sheep's Clothing:** You were groomed from a young age (perhaps by drow, geniekin, or gillmen) to live among a foreign people as one of them in order to help conquer or undermine them. You gain access to the [deep cover](trait/deep_cover) trait. |",
+			"| 76-100 | **Double Agent:** Your government trained you in the ways of revolutionaries and dissidents so you could move among them and goad them into revealing themselves. You gain access to the [official ties](trait/official_ties) and [vigilant battler](trait/vigilant_battler) traits, as well as the [paranoid](trait/paranoid) drawback."
 		],
 		"parent_topics": [
 			"basics",
@@ -2852,11 +2852,11 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 1-20 | Avenger: You were orphaned and raised as a vengeance-seeker by a vigilante or a secretive organization such as the church of Calistria. You gain access to the [grief-filled](trait/grief-filled) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [attached](trait/attached) drawback. |",
-			"| 21-40 | Criminal Enforcer: As a young tough in the territory of a criminal organization, you demonstrated a talent for exploiting enemies' vulnerabilities. You gain access to the [criminal](trait/criminal) and [dirty fighter](trait/dirty_fighter_apg) traits, as well as the [infamous](trait/infamous) drawback. |",
-			"| 41-60 | Impure Thinker: Raised in Touvette, Nidal, Rahadoum, or another nation that suppressed your religion, you seek out any way you can to undermine the authorities without drawing attention to yourself. You gain access to the [hidden faith](trait/hidden_faith) trait. |",
-			"| 61-80 | Ninja Training: You were raised by a ninja clan of Minkai to use stealth as both a tool and a weapon to gain glory and honor for yourself or your clan. You gain access to the [criminal roots](trait/criminal_roots) trait. |",
-			"| 81-100 | Quantium Problem-Solver: You witnessed a devastating magical accident in Nex, possibly engineered by the Invisible Blades, and realized how easy it would be to eliminate anyone undetected in similar fashion. You gain access to the [dangerously curious](trait/dangerously_curious) and [mercenary](trait/mercenary) traits, as well as the [magical klutz](trait/magical_klutz) drawback."
+			"| 1-20 | **Avenger:** You were orphaned and raised as a vengeance-seeker by a vigilante or a secretive organization such as the church of Calistria. You gain access to the [grief-filled](trait/grief-filled) and [youthful infiltrator](trait/youthful_infiltrator) traits, as well as the [attached](trait/attached) drawback. |",
+			"| 21-40 | **Criminal Enforcer:** As a young tough in the territory of a criminal organization, you demonstrated a talent for exploiting enemies' vulnerabilities. You gain access to the [criminal](trait/criminal) and [dirty fighter](trait/dirty_fighter_apg) traits, as well as the [infamous](trait/infamous) drawback. |",
+			"| 41-60 | **Impure Thinker:** Raised in Touvette, Nidal, Rahadoum, or another nation that suppressed your religion, you seek out any way you can to undermine the authorities without drawing attention to yourself. You gain access to the [hidden faith](trait/hidden_faith) trait. |",
+			"| 61-80 | **Ninja Training:** You were raised by a ninja clan of Minkai to use stealth as both a tool and a weapon to gain glory and honor for yourself or your clan. You gain access to the [criminal roots](trait/criminal_roots) trait. |",
+			"| 81-100 | **Quantium Problem-Solver:** You witnessed a devastating magical accident in Nex, possibly engineered by the Invisible Blades, and realized how easy it would be to eliminate anyone undetected in similar fashion. You gain access to the [dangerously curious](trait/dangerously_curious) and [mercenary](trait/mercenary) traits, as well as the [magical klutz](trait/magical_klutz) drawback."
 		],
 		"parent_topics": [
 			"basics",
@@ -2882,12 +2882,12 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 1-15 | Bellflower Sown: You stumbled into a Bellflower Network group moving slaves out of Cheliax and saved the group with a quick improvisation. You gain access to the [slave runner](trait/slave_runner) trait. |",
-			"| 16-30 | Child of the Resistance: You were raised among dissenters in an oppressed nation such as Galt, Irrisen, or Mzali, who found your youthful idealism inspiring in the face of tyranny. You gain access to the [dedicated defender](trait/dedicated_defender) and [natural-born leader](trait/natural-born_leader_social) traits. |",
-			"| 31-45 | Corrupt Official: You were selected at a young age to serve your community in a public role by drawing secretly upon connections and information derived from political favors and Drumish or Taldan money. ~~You gain access to the *heir to corruption* trait.~~ (No such trait was provided in the book.) |",
-			"| 46-60 | Reputable Business: You earned a position of respect in your community by passing the tests of the esteemed Prophets of Kalistrade, and can easily spend time talking to almost anyone without question. You gain access to the [Kalistocratic prophecy](trait/kalistocratic_prophecy) trait. |",
-			"| 61-75 | Spiritual Guide: Your faith encourages you to counsel anyone who prays to your deity (whether or not he has chosen her as his patron), making you the perfect choice to coordinate agents serving your faith or an allied organization. You gain access to the [persuasive insight](trait/persuasive_insight) trait. |",
-			"| 76-100 | Military Strategist: You were implicitly trusted by soldiers or officers impressed by your strategic instincts. You gain access to the [Wily Warrior](feat/wily_warrior) story feat."
+			"| 1-15 | **Bellflower Sown:** You stumbled into a Bellflower Network group moving slaves out of Cheliax and saved the group with a quick improvisation. You gain access to the [slave runner](trait/slave_runner) trait. |",
+			"| 16-30 | **Child of the Resistance:** You were raised among dissenters in an oppressed nation such as Galt, Irrisen, or Mzali, who found your youthful idealism inspiring in the face of tyranny. You gain access to the [dedicated defender](trait/dedicated_defender) and [natural-born leader](trait/natural-born_leader_social) traits. |",
+			"| 31-45 | **Corrupt Official:** You were selected at a young age to serve your community in a public role by drawing secretly upon connections and information derived from political favors and Drumish or Taldan money. ~~You gain access to the *heir to corruption* trait.~~ (No such trait was provided in the book.) |",
+			"| 46-60 | **Reputable Business:** You earned a position of respect in your community by passing the tests of the esteemed Prophets of Kalistrade, and can easily spend time talking to almost anyone without question. You gain access to the [Kalistocratic prophecy](trait/kalistocratic_prophecy) trait. |",
+			"| 61-75 | **Spiritual Guide:** Your faith encourages you to counsel anyone who prays to your deity (whether or not he has chosen her as his patron), making you the perfect choice to coordinate agents serving your faith or an allied organization. You gain access to the [persuasive insight](trait/persuasive_insight) trait. |",
+			"| 76-100 | **Military Strategist:** You were implicitly trusted by soldiers or officers impressed by your strategic instincts. You gain access to the [Wily Warrior](feat/wily_warrior) story feat."
 		],
 		"parent_topics": [
 			"basics",
@@ -3033,6 +3033,7 @@
 	},
 	"generating_ability_scores": {
 		"name": "Generating Ability Scores",
+		"tags": "standard classic heroic dice pool purchase",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 15](source/prpg_core_rulebook)",
@@ -3362,6 +3363,7 @@
 	},
 	"carrying_capacity": {
 		"name": "Carrying Capacity",
+		"subtitle": "Strength",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 169](source/prpg_core_rulebook)",
@@ -3466,6 +3468,7 @@
 	},
 	"character_advancement": {
 		"name": "Character Advancement",
+		"tags": "XP",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 30](source/prpg_core_rulebook)",
@@ -3612,29 +3615,9 @@
 			"",
 			"Prestige classes allow characters to become truly exceptional, gaining powers beyond the ken of their peers. Unlike the core classes, characters must meet specific requirements before they can take their first level of a prestige class. If a character does not meet the requirements for a prestige class before gaining any benefits of that level, that character cannot take that prestige class. Characters that take levels in prestige classes do not gain any favored class bonuses for those levels.",
 			"",
-			"This chapter presents 10 prestige classes for you to choose from, and other prestige classes appear in other Pathfinder products. Some prestige classes are quite focused and heavy on flavor that might not be compatible with your campaign-consult with your GM before you start to work toward qualifying for a prestige class to make sure that the class is allowed",
+			"Some prestige classes are quite focused and heavy on flavor that might not be compatible with your campaign-consult with your GM before you start to work toward qualifying for a prestige class to make sure that the class is allowed",
 			"",
-			"The prestige classes presented in this chapter are summarized below.",
-			"",
-			"[Arcane Archer](prestigeclass/arcane_archer):** An arcane spellcaster who draws upon ancient elven traditions to infuse his arrows with potent magical power.",
-			"",
-			"[Arcane Trickster](prestigeclass/arcane_trickster):** A troublemaker and a scoundrel who uses arcane magic to enhance her thievery and trickery.",
-			"",
-			"[Assassin](prestigeclass/assassin):** A remorseless murderer who kills for money and the sheer thrill of death-dealing.",
-			"",
-			"[Dragon Disciple](prestigeclass/dragon_disciple):** An arcane spellcaster who has embraced his latent draconic heritage and, over the course of training and devotion, undergoes a partial transformation into a dragon.",
-			"",
-			"[Duelist](prestigeclass/duelist):** A swashbuckling swordfighter who relies upon grace, poise, and acrobatics to win the day.",
-			"",
-			"[Eldritch Knight](prestigeclass/eldritch_knight):** An arcane spellcaster who augments his magical skills with combat to create a deadly combination of weapons and magic.",
-			"",
-			"[Loremaster](prestigeclass/loremaster):** A spellcaster who devotes his life to research and rumination upon the mysteries of the world.",
-			"",
-			"[Mystic Theurge](prestigeclass/mystic_theurge):** Equally devoted to divine and arcane magic, the mystic theurge combines both magical traditions into one incredibly diverse class.",
-			"",
-			"[Pathfinder Chronicler](prestigeclass/pathfinder_chronicler):** An explorer at heart, the Pathfinder chronicler travels to distant, exotic lands to expand her knowledge of the world.",
-			"",
-			"[Shadowdancer](prestigeclass/shadowdancer):** A mysterious adventurer who walks the boundaries between the real world and the realm of shadows, and who can command shadows to do her bidding."
+			"Prestige classes are listed at the bottom of the [list of classes](main/classes)."
 		],
 		"parent_topics": [
 			"basics",
@@ -3732,6 +3715,7 @@
 	},
 	"the_nine_alignments": {
 		"name": "The Nine Alignments",
+		"tags": "lawful good lawful neutral lawful evil neutral good true neutral neutral evil chaotic good chaotic neutral chaotic evil",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 166](source/prpg_core_rulebook)",
@@ -3824,17 +3808,46 @@
 			"",
 			"| Class | Skill Ranks per Level |",
 			"| --- | --- |",
-			"| Barbarian | 4 + Int modifier |",
+			"| Alchemist | 4 + Int modifier |",
+			"| Antipaladin | 2 + Int modifier |",
+			"| Arcanist | 2 + Int modifier |",
+			"| Barbarian[^U] | 4 + Int modifier |",
 			"| Bard | 6 + Int modifier |",
+			"| Bloodrager | 4 + Int modifier |",
+			"| Brawler | 2 + Int modifier |",
+			"| Cavalier | 4 + Int modifier |",
 			"| Cleric | 2 + Int modifier |",
 			"| Druid | 4 + Int modifier |",
 			"| Fighter | 2 + Int modifier |",
-			"| Monk | 4 + Int modifier |",
+			"| Gunslinger | 4 + Int modifier |",
+			"| Hunter | 6 + Int modifier |",
+			"| Inquisitor | 6 + Int modifier |",
+			"| Kineticist | 4 + Int modifier |",
+			"| Magus | 2 + Int modifier |",
+			"| Medium | 4 + Int modifier |",
+			"| Mesmerist | 6 + Int modifier |",
+			"| Monk[^U] | 4 + Int modifier |",
+			"| Ninja | 8 + Int modifier |",
+			"| Oracle | 4 + Int modifier |",
+			"| Occultist | 4 + Int modifier |",
 			"| Paladin | 2 + Int modifier |",
+			"| Psychic | 2 + Int modifier |",
 			"| Ranger | 6 + Int modifier |",
-			"| Rogue | 8 + Int modifier |",
+			"| Rogue[^U] | 8 + Int modifier |",
+			"| Samurai | 4 + Int modifier |",
+			"| Shaman | 4 + Int modifier |",
+			"| Shifter | 4 + Int modifier |",
+			"| Skald | 4 + Int modifier |",
+			"| Slayer | 6 + Int modifier |",
 			"| Sorcerer | 2 + Int modifier |",
-			"| Wizard | 2 + Int modifier |"
+			"| Spiritualist | 4 + Int modifier |",
+			"| Summoner[^U] | 2 + Int modifier |",
+			"| Swashbuckler | 4 + Int modifier |",
+			"| Vigilante | 6 + Int modifier |",
+			"| Warpriest | 2 + Int modifier |",
+			"| Witch | 2 + Int modifier |",
+			"| Wizard | 2 + Int modifier |",
+			"[^U]: The Unchained versio of this class has the same skill points."
 		],
 		"parent_topics": [ "skills" ],
 		"subtopics": [
@@ -3883,6 +3896,7 @@
 	"taking_10_and_taking_20": {
 		"name": "Taking 10 and Taking 20",
 		"subtitle": "Skill Checks",
+		"tags": "ability checks, caster level checks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 86](source/prpg_core_rulebook)",
@@ -4034,6 +4048,7 @@
 	},
 	"bluff": {
 		"name": "Bluff",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 182](source/ultimate_intrigue)",
@@ -4060,7 +4075,7 @@
 	},
 	"lying": {
 		"name": "Lying",
-		"subtitle": "Bluff",
+		"subtopic": "Bluff, Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 182](source/ultimate_intrigue)",
@@ -4103,6 +4118,7 @@
 	},
 	"other_uses_of_bluff": {
 		"name": "Other Uses of Bluff",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 184](source/ultimate_intrigue)",
@@ -4129,6 +4145,7 @@
 	},
 	"diplomacy": {
 		"name": "Diplomacy",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 184](source/ultimate_intrigue)",
@@ -4152,7 +4169,7 @@
 	},
 	"attitudes_and_requests": {
 		"name": "Attitudes and Requests",
-		"subtitle": "Diplomacy",
+		"subtopic": "Diplomacy, Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 185](source/ultimate_intrigue)",
@@ -4186,6 +4203,7 @@
 	},
 	"disguise": {
 		"name": "Disguise",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 186](source/ultimate_intrigue)",
@@ -4218,6 +4236,7 @@
 	},
 	"intimidate_ui": {
 		"name": "Intimidate",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 186](source/ultimate_intrigue)",
@@ -4246,6 +4265,7 @@
 	},
 	"perception_and_stealth": {
 		"name": "Perception and Stealth",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 187](source/ultimate_intrigue)",
@@ -4284,6 +4304,7 @@
 	},
 	"sense_motive_ui": {
 		"name": "Sense Motive",
+		"subtopic": "Skills in Conflict, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 188](source/ultimate_intrigue)",
@@ -4315,7 +4336,7 @@
 	"replacing_opposed_rolls": {
 		"name": "Replacing Opposed Rolls",
 		"subtitle": "Skill Checks",
-		"tags": "espionage",
+		"tags": "espionage, intrigue, skills in conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 189](source/ultimate_intrigue)",
@@ -4447,6 +4468,7 @@
 	},
 	"coins": {
 		"name": "Coins",
+		"subtopic": "Wealth and Money",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 140](source/prpg_core_rulebook)",
@@ -4514,6 +4536,7 @@
 	},
 	"selling_treasure": {
 		"name": "Selling Treasure",
+		"subtopic": "Equipment, Wealth and Money",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 140](source/prpg_core_rulebook)",
@@ -4609,7 +4632,7 @@
 			"",
 			"**Cost:** This value is the weapon's cost in gold pieces (gp) or silver pieces (sp). The cost includes miscellaneous gear that goes with the weapon, such as a scabbard or quiver. This cost is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
 			"",
-			"**Dmg:** These columns give the damage dealt by the weapon on a successful hit. The column labeled -Dmg (S)- is for Small weapons. The column labeled -Dmg (M)- is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table 6-5 gives weapon damage values for Tiny and Large weapons.",
+			"**Dmg:** These columns give the damage dealt by the weapon on a successful hit. The column labeled **Dmg (S)** is for Small weapons. The column labeled **Dmg (M)** is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table 6-5 gives weapon damage values for Tiny and Large weapons.",
 			"",
 			"### Table 6-5: Tiny and Large Weapon Damage",
 			"",
@@ -4862,7 +4885,6 @@
 			"| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute[^1] |",
 			"| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes[^1] | 1 minute | 1 minute[^1] |",
 			"| Half-plate or full plate | 4 minutes[^2] | 4 minutes[^1] | 1d4+1 minutes[^1] |",
-			"",
 			"[^1]: If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Twocharacters can't help each other don armor at the same time.",
 			"[^2]: The wearer must have help to don this armor. Without help, it can be donned only hastily."
 		],
@@ -4887,7 +4909,7 @@
 			"",
 			"From the common potion of cure light wounds to the mighty holy avenger, magic items are valuable tools used by heroes and villains alike. This chapter contains a wide variety of items to enhance any character.",
 			"",
-			"Magic items are divided into categories: armor, weapons, potions, rings, rods, scrolls, staves, wands, and wondrous items. In addition, some magic items are cursed or intelligent. Finally, a few magic items are of such rarity and power that they are considered to belong to a category of their own- artifacts. Artifacts are classified in turn as minor (extremely rare but not one-of-a-kind items) or major (each one unique and incredibly potent)."
+			"Magic items are divided into categories: armor, weapons, potions, rings, rods, scrolls, staves, wands, and wondrous items. In addition, some magic items are cursed or intelligent. Finally, a few magic items are of such rarity and power that they are considered to belong to a category of their own: artifacts. Artifacts are classified in turn as minor (extremely rare but not one-of-a-kind items) or major (each one unique and incredibly potent)."
 		],
 		"parent_topics": [ "items" ],
 		"subtopics": [
@@ -4957,30 +4979,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"using_items": {
@@ -5029,30 +5031,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"size_and_magic_items": {
@@ -5127,30 +5109,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"saving_throws_against_magic_item_powers": {
@@ -5177,30 +5139,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"damaging_magic_items": {
@@ -5229,30 +5171,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"repairing_magic_items": {
@@ -5353,30 +5275,10 @@
 			"damaging_magic_items",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"magic_item_descriptions": {
@@ -5421,15 +5323,8 @@
 			"items",
 			"magic_items"
 		],
-		"subtopics": [ "extradimensional_spaces" ],
-		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+		"subtopics": [
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5438,22 +5333,20 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
+			"wondrous_items"
+		],
+		"siblings": [
+			"magic_items_and_detect_magic",
+			"using_items",
+			"magic_items_on_the_body",
+			"saving_throws_against_magic_item_powers",
+			"damaging_magic_items",
+			"purchasing_magic_items",
+			"magic_item_descriptions",
 			"intelligent_items",
 			"cursed_items",
 			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"magic_item_creation"
 		]
 	},
 	"extradimensional_spaces": {
@@ -5470,7 +5363,18 @@
 			"magic_items",
 			"magic_item_descriptions"
 		],
-		"siblings": [ "extradimensional_spaces" ]
+		"siblings": [
+			"extradimensional_spaces",
+			"magic_armor",
+			"magic_weapons",
+			"potions",
+			"rings",
+			"rods",
+			"scrolls",
+			"staves",
+			"wands",
+			"wondrous_items"
+		]
 	},
 	"magic_armor": {
 		"name": "Magic Armor",
@@ -5526,16 +5430,11 @@
 		],
 		"parent_topics": [
 			"items",
-			"magic_items"
+			"magic_items",
+			"magic_item_descriptions"
 		],
 		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5544,22 +5443,7 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
-			"intelligent_items",
-			"cursed_items",
-			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"wondrous_items"
 		]
 	},
 	"magic_weapons": {
@@ -5621,16 +5505,11 @@
 		],
 		"parent_topics": [
 			"items",
-			"magic_items"
+			"magic_items",
+			"magic_item_descriptions"
 		],
 		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5639,22 +5518,7 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
-			"intelligent_items",
-			"cursed_items",
-			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"wondrous_items"
 		]
 	},
 	"potions": {
@@ -5702,16 +5566,11 @@
 		],
 		"parent_topics": [
 			"items",
-			"magic_items"
+			"magic_items",
+			"magic_item_descriptions"
 		],
 		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5720,22 +5579,7 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
-			"intelligent_items",
-			"cursed_items",
-			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"wondrous_items"
 		]
 	},
 	"rings": {
@@ -5757,16 +5601,11 @@
 		],
 		"parent_topics": [
 			"items",
-			"magic_items"
+			"magic_items",
+			"magic_item_descriptions"
 		],
 		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5775,22 +5614,7 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
-			"intelligent_items",
-			"cursed_items",
-			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"wondrous_items"
 		]
 	},
 	"rods": {
@@ -5812,16 +5636,11 @@
 		],
 		"parent_topics": [
 			"items",
-			"magic_items"
+			"magic_items",
+			"magic_item_descriptions"
 		],
 		"siblings": [
-			"magic_items_and_detect_magic",
-			"using_items",
-			"magic_items_on_the_body",
-			"saving_throws_against_magic_item_powers",
-			"damaging_magic_items",
-			"purchasing_magic_items",
-			"magic_item_descriptions",
+			"extradimensional_spaces",
 			"magic_armor",
 			"magic_weapons",
 			"potions",
@@ -5830,22 +5649,7 @@
 			"scrolls",
 			"staves",
 			"wands",
-			"wondrous_items",
-			"intelligent_items",
-			"cursed_items",
-			"artifacts",
-			"magic_item_creation",
-			"magic_item_gold_piece_values",
-			"creating_magic_armor",
-			"creating_magic_weapons",
-			"creating_potions",
-			"creating_rings",
-			"creating_rods",
-			"creating_scrolls",
-			"creating_staves",
-			"creating_wands",
-			"creating_wondrous_items",
-			"adding_new_abilities"
+			"wondrous_items"
 		]
 	}
 }
