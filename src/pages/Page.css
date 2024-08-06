@@ -15,6 +15,12 @@ div.basicContent ion-item.mainItem {
 div.basicContent.simple {
 	padding-inline: 1em;
 }
+ion-content hr {
+	border-color: var(--ion-color-step-150);
+	border-width: 0;
+	border-top-width: 1px;
+	border-style: solid;
+}
 
 /* Footer */
 

@@ -1837,31 +1837,171 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
 			"",
-			"A vehicle in combat can become a target for attacks and can affect combatants with special vehicular maneuvers. The following are the rules for how a vehicle acts in the combat round.",
+			"A vehicle in combat can become a target for attacks and can affect combatants with special vehicular maneuvers. The following are the rules for how a vehicle acts in the combat round."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules"
+		],
+		"siblings": [
+			"drivers",
+			"occupants",
+			"propulsion_and_driving_checks",
+			"vehicle_size_and_space",
+			"vehicle_facing_and_movement",
+			"driving_vehicles",
+			"optional_rule_wide_turns",
+			"vehicles_in_combat",
+			"propulsion_devices",
+			"driving_devices"
+		],
+		"subtopics": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_initiative_and_movement": {
+		"name": "Initiative, Movement, and Sudden Stops",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
 			"",
-			"**Initiative:** A vehicle moves on its driver's initiative. If a driver delays or readies an action, the vehicle goes out of control, and does nothing except take the uncontrolled action until it stops or someone becomes its new driver.",
+			"### Initiative",
 			"",
-			"**Movement:** At the start of the driver's turn, she makes a driving check to control the vehicle as detailed in the Driving Vehicles section. When doing so, she takes whatever action is required before doing anything else that turn.",
+			"A vehicle moves on its driver's initiative. If a driver delays or readies an action, the vehicle goes out of control, and does nothing except take the uncontrolled action until it stops or someone becomes its new driver.",
+			"",
+			"### Movement",
+			"",
+			"At the start of the driver's turn, she makes a driving check to control the vehicle as detailed in the [Driving Vehicles](rule/driving_vehicles) section. When doing so, she takes whatever action is required before doing anything else that turn.",
 			"",
 			"Vehicles usually ignore difficult terrain due to rubble and foliage, but treat steep inclines as difficult terrain, and depending on the vehicle type and GM judgment, they may be affected by other difficult terrain types as well.",
 			"",
 			"Vehicles and creatures that occupy vehicles can enter the spaces of other vehicles and creatures, though doing so usually provokes a vehicular overrun or ramming maneuver (see Vehicle Combat Maneuvers). A vehicle can even end its turn in the space of a creature or another vehicle.",
 			"",
-			"**Threatening:** Vehicles cannot threaten areas, but their non-crew occupants can. A character driving a vehicle still threatens the squares around her, though she may have limited options for attack depending on the requirements of the device used to drive the vehicle. Creatures used as propulsion do not threaten areas, and are treated as part of the vehicle for purposes of vehicular combat maneuvers.",
+			"### Sudden Stops",
 			"",
-			"**Line of Sight and Cover:** Vehicles typically grant their occupants partial cover (+2 to AC and +1 on Reflex saving throws) against those outside the vehicle, and may grant partial cover against opponents within the vehicles as well. Vehicles with more protection or internal chambers can offer greater cover and can even block line of sight.",
+			"When a vehicle comes to a sudden stop-its movement is reduced to 0 in some way other than the driver using a drive action to slow the vehicle-both creatures and items on the vehicle are violently pushed toward the vehicle's forward facing a number of squares equal to 1/2 the vehicle's current speed before it came to the sudden stop. This movement does not provoke attacks of opportunity. At the end of this movement, creatures and objects take 1d6 points of damage, and creatures must succeed at a DC 20 Reflex saving throw or be knocked prone. If the movement pushes creatures or objects into solid objects, that creature or object takes an additional 1d6 points of damage for each 5-foot square the push was reduced by the solid object.",
 			"",
-			"**Jumping On or Off a Vehicle:** Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the Acrobatics check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in the Acrobatics skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.",
+			"For instance, if a vehicle with a movement of 60 feet makes a sudden stop due to hitting a brick wall, its driver is thrown 30 feet toward the brick wall. If the brick wall was only 5 feet away from the driver at the point of impact, the driver moves forward 5 feet, hits the wall, and takes 5d6 points of damage. She then takes the original 1d6 points of damage, after which she makes a Reflex saving throw to see if she falls prone for the sudden stop."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_threatening_and_line_of_sight": {
+		"name": "Threatening and Line of Sight",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"",
+			"### Threatening",
+			"",
+			"Vehicles cannot threaten areas, but their non-crew occupants can. A character driving a vehicle still threatens the squares around her, though she may have limited options for attack depending on the requirements of the device used to drive the vehicle. Creatures used as propulsion do not threaten areas, and are treated as part of the vehicle for purposes of vehicular combat maneuvers.",
+			"",
+			"### Line of Sight and Cover",
+			"",
+			"Vehicles typically grant their occupants partial cover (+2 to AC and +1 on Reflex saving throws) against those outside the vehicle, and may grant partial cover against opponents within the vehicles as well. Vehicles with more protection or internal chambers can offer greater cover and can even block line of sight."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_jumping_on_or_off_vehicle": {
+		"name": "Jumping On or Off a Vehicle",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"",
+			"Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the Acrobatics check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in the Acrobatics skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.",
 			"",
 			"For example, jumping onto a vehicle with a current speed of 90 feet increases the DC by 15 if the jumper is not also on a moving vehicle. If the jumper is on a moving vehicle, and that vehicle is moving at the same current speed as the vehicle the jumper wants to jump to, there is no increase to the DC. If the difference between their speeds is less than 30 feet, the DC of the Acrobatics check increases by 5. If it's between 30 and 60, it increases by 10, and so on.",
 			"",
-			"Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle's movement for the purposes of determining damage. Acrobatics can be used to soften this fall, and magic abilities such as [feather fall](spell/feather_fall) can be used to negate the effects of jumping off a vehicle.",
+			"Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle's movement for the purposes of determining damage. Acrobatics can be used to soften this fall, and magic abilities such as [feather fall](spell/feather_fall) can be used to negate the effects of jumping off a vehicle."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_taking_control_of_a_vehicle": {
+		"name": "Taking Control of a Vehicle",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
 			"",
-			"**Taking Control of a Vehicle:** If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle's driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver's turn, but not on the new driver's first turn after taking control of the vehicle.",
+			"If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle's driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver's turn, but not on the new driver's first turn after taking control of the vehicle.",
 			"",
-			"If a creature wants to take control of a vehicle from another forcefully, it must pull the driver off the controls as part of a grapple and take over the driving device as part of a pin. When a creature successfully pins a vehicle's driver, it can choose to end the grapple immediately. When it does, the creature moves the current driver 5 feet to any unoccupied space within the vehicle (this movement does not provoke attacks of opportunity) and becomes the vehicle's new driver.",
+			"If a creature wants to take control of a vehicle from another forcefully, it must pull the driver off the controls as part of a grapple and take over the driving device as part of a pin. When a creature successfully pins a vehicle's driver, it can choose to end the grapple immediately. When it does, the creature moves the current driver 5 feet to any unoccupied space within the vehicle (this movement does not provoke attacks of opportunity) and becomes the vehicle's new driver."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_attacks_against_vehicles": {
+		"name": "Attacks against Vehicles",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
 			"",
-			"**Attacks against Vehicles:** A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate the vehicle's actual AC, add the current driver's driving skill modifier (or Wisdom modifier, if it is using that ability to drive the vehicle) to the vehicle's base AC. Touch attacks against a vehicle ignore its driver's driving skill or ability modifier; thus a vehicle's base AC is its touch AC. A vehicle is never considered flat-footed.",
+			"A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate the vehicle's actual AC, add the current driver's driving skill modifier (or Wisdom modifier, if it is using that ability to drive the vehicle) to the vehicle's base AC. Touch attacks against a vehicle ignore its driver's driving skill or ability modifier; thus a vehicle's base AC is its touch AC. A vehicle is never considered flat-footed.",
 			"",
 			"A vehicle has a base saving throw listed in its stat block. This determines its base Fortitude and Reflex saving throw. A vehicle is immune to effects that require a Will saving throw (though drivers, crew members, passengers, and creatures providing muscle propulsion typically are not). To determine the vehicle's actual Fortitude and Reflex saving throws, add half the driver's driving skill modifier (or half the driver's Wisdom modifier) to the vehicle's base saving throw.",
 			"",
@@ -1890,9 +2030,32 @@
 			"| Large vehicle | 9 | +1 |",
 			"| Huge vehicle | 8 | +2 |",
 			"| Gargantuan vehicle | 6 | +4 |",
-			"| Colossal vehicle | 2 | +8 |",
+			"| Colossal vehicle | 2 | +8 |"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_vehicle_combat_maneuvers": {
+		"name": "Vehicle Combat Maneuvers",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
 			"",
-			"**Vehicle Combat Maneuvers:** Vehicles typically don't have attacks, though some can be fitted with siege weapons. A vehicle can make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver as part of its movement. Unlike creatures, a vehicle can enter the space of creatures or objects smaller than it, and when it does, it makes either a vehicular overrun or vehicular bull rush. When a vehicle hits a creature or a vehicle that is its size or larger, or it hits a solid object (a wall or structure that is immobile and has a hardness of 5 or more), it makes a ramming maneuver.",
+			"Vehicles typically don't have attacks, though some can be fitted with siege weapons. A vehicle can make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver as part of its movement. Unlike creatures, a vehicle can enter the space of creatures or objects smaller than it, and when it does, it makes either a vehicular overrun or vehicular bull rush. When a vehicle hits a creature or a vehicle that is its size or larger, or it hits a solid object (a wall or structure that is immobile and has a hardness of 5 or more), it makes a ramming maneuver.",
 			"",
 			">**Vehicular Overrun:** Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle smaller than it, the driver must make a vehicular overrun combat maneuver against the creature or vehicle. This may require the driver to make vehicular overrun checks against the same creature numerous times as new parts of the vehicle enter its square.",
 			">",
@@ -1931,7 +2094,41 @@
 			"| Gargantuan vehicle | 4d8 |",
 			"| Colossal vehicle | 8d8 |",
 			"",
-			"**Damaging a Vehicle:** Vehicles have hit points and hardness based on their primary components. Most vehicles are made of wood. Heavier construction materials are possible, but they at least double the number of squares of propulsion a vehicle requires. Materials like stone or heavy metals quadruple the number of squares of propulsion needed.",
+			"### Table 4-5: Vehicle AC and CMB Modifier by Size",
+			"",
+			"| Vehicle Size | AC | CMB Modifier |",
+			"| --- | --- | --- |",
+			"| Large vehicle | 9 | +1 |",
+			"| Huge vehicle | 8 | +2 |",
+			"| Gargantuan vehicle | 6 | +4 |",
+			"| Colossal vehicle | 2 | +8 |"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"full_vehicle_rules",
+			"vehicles_in_combat"
+		],
+		"siblings": [
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
+		]
+	},
+	"vic_damaging_a_vehicle": {
+		"name": "Damaging and Repairing a Vehicle",
+		"subtitle": "Vehicles in Combat",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"",
+			"### Damaging a Vehicle",
+			"",
+			"Vehicles have hit points and hardness based on their primary components. Most vehicles are made of wood. Heavier construction materials are possible, but they at least double the number of squares of propulsion a vehicle requires. Materials like stone or heavy metals quadruple the number of squares of propulsion needed.",
 			"",
 			"A vehicle has a total number of hit points equal to its base material hit point value times its vehicle's number of squares (see Table 4-4). When it is reduced to below half hit points, it becomes broken. When it reaches 0 hit points, it becomes wrecked. When it reaches negative hit points equal to its number of squares, it is destroyed-it is so damaged it cannot even be used for scrap material.",
 			"",
@@ -1959,28 +2156,24 @@
 			">",
 			">If either the means of propulsion or the vehicle is destroyed, it comes to a sudden stop if it is not stopped already. Water vehicles sink and drop to the bottom of the body of water. Air vehicles fall.",
 			"",
-			"**Sudden Stops:** When a vehicle comes to a sudden stop-its movement is reduced to 0 in some way other than the driver using a drive action to slow the vehicle-both creatures and items on the vehicle are violently pushed toward the vehicle's forward facing a number of squares equal to 1/2 the vehicle's current speed before it came to the sudden stop. This movement does not provoke attacks of opportunity. At the end of this movement, creatures and objects take 1d6 points of damage, and creatures must succeed at a DC 20 Reflex saving throw or be knocked prone. If the movement pushes creatures or objects into solid objects, that creature or object takes an additional 1d6 points of damage for each 5-foot square the push was reduced by the solid object.",
+			"### Repairing a Vehicle",
 			"",
-			"For instance, if a vehicle with a movement of 60 feet makes a sudden stop due to hitting a brick wall, its driver is thrown 30 feet toward the brick wall. If the brick wall was only 5 feet away from the driver at the point of impact, the driver moves forward 5 feet, hits the wall, and takes 5d6 points of damage. She then takes the original 1d6 points of damage, after which she makes a Reflex saving throw to see if she falls prone for the sudden stop.",
-			"",
-			"**Repairing a Vehicle:** The fastest and easiest way to repair a vehicle is with the [mending](spell/mending) and [make whole](spell/make_whole) spells, but more mundane methods can also be used. Craft (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require Craft (ships) to repair. Depending on the nature of the damage, such skills like Craft (cloth), Craft (alchemy), Knowledge (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day's worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure."
+			"The fastest and easiest way to repair a vehicle is with the [mending](spell/mending) and [make whole](spell/make_whole) spells, but more mundane methods can also be used. Craft (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require Craft (ships) to repair. Depending on the nature of the damage, such skills like Craft (cloth), Craft (alchemy), Knowledge (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day's worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure."
 		],
 		"parent_topics": [
 			"items",
 			"vehicles",
-			"full_vehicle_rules"
+			"full_vehicle_rules",
+			"vehicles_in_combat"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
-			"propulsion_and_driving_checks",
-			"vehicle_size_and_space",
-			"vehicle_facing_and_movement",
-			"driving_vehicles",
-			"optional_rule_wide_turns",
-			"vehicles_in_combat",
-			"propulsion_devices",
-			"driving_devices"
+			"vic_initiative_and_movement",
+			"vic_threatening_and_line_of_sight",
+			"vic_jumping_on_or_off_vehicle",
+			"vic_taking_control_of_a_vehicle",
+			"vic_attacks_against_vehicles",
+			"vic_vehicle_combat_maneuvers",
+			"vic_damaging_a_vehicle"
 		]
 	},
 	"propulsion_devices": {
@@ -2002,14 +2195,14 @@
 			"",
 			"**Sails:** Used on magically or alchemically powered airships and on any fast-moving water vehicle, sails are often weaker than the vessels they propel, though they are relatively easy to repair. Taking out the sails is a good way to capture a vessel. Sails have 5 hit points per square and no hardness. They take double the normal damage from acid and fire attacks (multiply the damage roll by 2). While the sails have rigging, such rigging manipulated by the crew, and as such are not considered driving devices.",
 			"",
+			"### Material Hit Points per Square Hardness",
+			"",
 			"| Device | hp | Hardness |",
 			"| --- | --- | --- |",
 			"| Sails | 5 | 0 |",
 			"| Dirigible | 5 | 0 |",
 			"| Alchemical Engine | 20 | 8 |",
-			"| Magically Treated | &times;2 | &times;2 |",
-			"",
-			"Material Hit Points per Square Hardness"
+			"| Magically Treated | &times;2 | &times;2 |"
 		],
 		"parent_topics": [
 			"items",
@@ -2173,7 +2366,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** the speed of the pulling creature(s)   ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2210,7 +2403,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **2 (5 ft. by 10 ft.; 4 feet high); **Cost** 15 gp",
+			"**Squares** 2 (5 ft. by 10 ft.; 4 feet high); **Cost** 15 gp",
 			"",
 			"### Defense",
 			"",
@@ -2222,7 +2415,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s) &ndash;10 ft.; **Acceleration** the speed of the pulling creature(s) &ndash;5 ft.  ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2259,7 +2452,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **2 (5 ft. by 10 ft.; 5 feet high); **Cost** 50 gp",
+			"**Squares** 2 (5 ft. by 10 ft.; 5 feet high); **Cost** 50 gp",
 			"",
 			"### Defense",
 			"",
@@ -2271,7 +2464,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** the speed of the pulling creature(s)   ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2308,7 +2501,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **4 (10 ft. by 10 ft.; 5 feet high); **Cost** 100 gp",
+			"**Squares** 4 (10 ft. by 10 ft.; 5 feet high); **Cost** 100 gp",
 			"",
 			"### Defense",
 			"",
@@ -2320,7 +2513,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** half the speed of the pulling creature(s)   ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2369,7 +2562,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** half the speed of the pulling creature(s)  ",
 			"**CMB** +2; **CMD** 12  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2407,7 +2600,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **4 (10 ft. by 10 ft.; 3 feet high or 13 feet high with sail); **Cost **100 gp",
+			"**Squares** 4 (10 ft. by 10 ft.; 3 feet high or 13 feet high with sail); **Cost **100 gp",
 			"",
 			"### Defense",
 			"",
@@ -2419,7 +2612,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s) (muscle), or 100 ft. (current); **Acceleration** half the speed of the pulling creature(s) (muscle), or 30 ft. (current)  ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2456,7 +2649,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Gargantuan land vehicle  ",
-			"**Squares **16 (20 ft. by 20 ft.; 26 feet high); **Cost** 80,000 gp ",
+			"**Squares** 16 (20 ft. by 20 ft.; 26 feet high); **Cost** 80,000 gp ",
 			"",
 			"### Defense",
 			"",
@@ -2468,7 +2661,7 @@
 			"",
 			"**Maximum Speed** 60 ft.; **Acceleration** 30 ft.   ",
 			"**CMB** +4; **CMD** 14  ",
-			"**Ramming Damage **4d8",
+			"**Ramming Damage** 4d8",
 			"",
 			"### Description",
 			"",
@@ -2508,7 +2701,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **4 (10 ft. by 10 ft.; 5 feet high); **Cost** 50 gp",
+			"**Squares** 4 (10 ft. by 10 ft.; 5 feet high); **Cost** 50 gp",
 			"",
 			"### Defense",
 			"",
@@ -2520,7 +2713,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** half the speed of the pulling creature(s)  ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2557,7 +2750,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"Large land vehicle  ",
-			"**Squares **6 (10 ft. by 15 ft.; 5 feet high); **Cost** 75 gp",
+			"**Squares** 6 (10 ft. by 15 ft.; 5 feet high); **Cost** 75 gp",
 			"",
 			"### Defense",
 			"",
@@ -2569,7 +2762,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** half the speed of the pulling creature(s)  ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"### Description",
 			"",
@@ -2618,7 +2811,7 @@
 			"",
 			"**Maximum Speed** twice the speed of the pulling creature(s); **Acceleration** half the speed of the pulling creature(s)  ",
 			"**CMB** +2; **CMD** 12  ",
-			"**Ramming Damage **2d8",
+			"**Ramming Damage** 2d8",
 			"",
 			"### Description",
 			"",
@@ -2657,10 +2850,44 @@
 			"",
 			"Water vehicles move across bodies of water, whether as small as a river or as large as an ocean. They are typically propelled by muscle or sail, but can be moved by a variety of propulsion methods. The following are the most common types of water vehicles, including all water vehicles that characters can purchase in the Core Rulebook.",
 			"",
-			"### Galley",
+			"| Vehicle | Size | Cost | AC | Hardness |",
+			"| --- | --- | --- | --- | --- |",
+			"| Galley | Colossal, 104 Squares | 10,000gp | 2 | 5 |",
+			"| Keelboat | Colossal, 40 Squares | 13,000gp | 2 | 5 |",
+			"| Longship | Colossal, 45 Squares | 10,000gp | 2 | 5 |",
+			"| Rowboat | Large, 3 Squares | 50gp | 9 | 5 |",
+			"| Sailing Ship | Colossal, 60 Squares | 10,000gp | 2 | 5 |",
+			"| Warship | Colossal, 80 Squares | 25,000gp | 2 | 10 |"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles"
+		],
+		"siblings": [
+			"vehicle_basics",
+			"full_vehicle_rules",
+			"vehicle_statistics",
+			"land_vehicles",
+			"water_vehicles",
+			"air_vehicles"
+		],
+		"subtopics": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_galley": {
+		"name": "Galley",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Colossal water vehicle  ",
-			"**Squares **104 (20 ft. by 130 ft.); **Cost** 10,000 gp",
+			"**Squares** 104 (20 ft. by 130 ft.); **Cost** 10,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2672,7 +2899,7 @@
 			"",
 			"**Maximum Speed** 180 ft. (current) or 60 ft. (muscle); **Acceleration** 30 ft. (current) or 15 ft. (muscle)  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2685,12 +2912,31 @@
 			"**Driving Space** the nine squares around the steering wheel, typically located in the aft of the ship  ",
 			"**Crew** 20 or 160 (if the boat is rowed)  ",
 			"**Decks** 3  ",
-			"**Weapons** Up to 40 Large direct-fire siege engines in banks of 20 positioned on the port and starboard sides of the galley, or up to 12 Huge direct-fire siege engines in banks of six on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship that they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These siege engines cannot be used while the galley is being rowed. For 8,000 gp more, the galley can be fitted with a battering ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large direct-fire siege engine that can fire either out the sides of the ship or in the direction of its location. An amidships platform can fire out either the port or starboard sides of the galley. ",
-			"",
-			"### Keelboat",
+			"**Weapons** Up to 40 Large direct-fire siege engines in banks of 20 positioned on the port and starboard sides of the galley, or up to 12 Huge direct-fire siege engines in banks of six on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship that they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These siege engines cannot be used while the galley is being rowed. For 8,000 gp more, the galley can be fitted with a battering ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large direct-fire siege engine that can fire either out the sides of the ship or in the direction of its location. An amidships platform can fire out either the port or starboard sides of the galley."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"water_vehicles"
+		],
+		"siblings": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_keelboat": {
+		"name": "Keelboat",
+		"subtitle": "Water Vehicles",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Colossal water vehicle  ",
-			"**Squares **40 (20 ft. by 50 ft.); **Cost** 13,000 gp",
+			"**Squares** 40 (20 ft. by 50 ft.); **Cost** 13,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2702,7 +2948,7 @@
 			"",
 			"**Maximum Speed** 60 ft. (current) or 30 ft. (muscle); **Acceleration** 15 ft. (muscle) or 30 ft. (current)  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2714,12 +2960,31 @@
 			"**Driving Device** rudder  ",
 			"**Driving Space** the two middle rear squares of the keelboat   ",
 			"**Crew** 8   ",
-			"**Decks** 1",
-			"",
-			"### Longship",
+			"**Decks** 1"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"water_vehicles"
+		],
+		"siblings": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_longship": {
+		"name": "Longship",
+		"subtitle": "Water Vehicles",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Colossal water vehicle  ",
-			"**Squares **45 (15 ft. by 75 ft.); **Cost** 10,000 gp",
+			"**Squares** 45 (15 ft. by 75 ft.); **Cost** 10,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2731,7 +2996,7 @@
 			"",
 			"**Maximum Speed** 120 ft. (current and muscle) or 30 ft. (muscle only); **Acceleration** 30 ft. (current and muscle) or 15 ft. (muscle only)  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2743,12 +3008,31 @@
 			"**Driving Device** rudder  ",
 			"**Driving Space** the two middle rear squares of the longship  ",
 			"**Crew** 40  ",
-			"**Decks** 1 (with small cargo area under the deck)",
-			"",
-			"### Rowboat",
+			"**Decks** 1 (with small cargo area under the deck)"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"water_vehicles"
+		],
+		"siblings": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_rowboat": {
+		"name": "Rowboat",
+		"subtitle": "Water Vehicles",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Large water vehicle  ",
-			"**Squares **3 (5 ft. by 15 ft.); **Cost** 50 gp",
+			"**Squares** 3 (5 ft. by 15 ft.); **Cost** 50 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2760,7 +3044,7 @@
 			"",
 			"**Maximum Speed** 30 ft.; **Acceleration** 10 ft.   ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"#### Description",
 			"",
@@ -2771,12 +3055,31 @@
 			"**Forward Facing** boat's forward  ",
 			"**Driving Device** oars  ",
 			"**Driving Space** the center square of the rowboat  ",
-			"**Decks** 1",
-			"",
-			"### Sailing Ship",
+			"**Decks** 1"
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"water_vehicles"
+		],
+		"siblings": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_sailing_ship": {
+		"name": "Sailing Ship",
+		"subtitle": "Water Vehicles",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Colossal water vehicle  ",
-			"**Squares **60 (20 ft. by 75 ft.); **Cost** 10,000 gp",
+			"**Squares** 60 (20 ft. by 75 ft.); **Cost** 10,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2788,7 +3091,7 @@
 			"",
 			"**Maximum Speed** 180 ft. (current) or 60 ft. (muscle); **Acceleration** 30 ft. (current) or 15 ft. (muscle)  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2801,12 +3104,31 @@
 			"**Driving Space** the nine squares around the steering wheel, typically located in the aft of the ship  ",
 			"**Crew** 20  ",
 			"**Decks** 2  ",
-			"**Weapons** Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to 6 Huge direct-fire siege engines in banks of 3 on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.",
-			"",
-			"### Warship",
+			"**Weapons** Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to 6 Huge direct-fire siege engines in banks of 3 on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship."
+		],
+		"parent_topics": [
+			"items",
+			"vehicles",
+			"water_vehicles"
+		],
+		"siblings": [
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
+		]
+	},
+	"wv_warship": {
+		"name": "Warship",
+		"subtitle": "Water Vehicles",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
 			"",
 			"Colossal water vehicle  ",
-			"**Squares **80 (20 ft. by 100 ft.); **Cost** 25,000 gp",
+			"**Squares** 80 (20 ft. by 100 ft.); **Cost** 25,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2818,7 +3140,7 @@
 			"",
 			"**Maximum Speed** 150 ft. (current) or 60 ft. (muscle); **Acceleration** 30 ft. (current) or 15 ft. (muscle)  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2835,15 +3157,16 @@
 		],
 		"parent_topics": [
 			"items",
-			"vehicles"
+			"vehicles",
+			"water_vehicles"
 		],
 		"siblings": [
-			"vehicle_basics",
-			"full_vehicle_rules",
-			"vehicle_statistics",
-			"land_vehicles",
-			"water_vehicles",
-			"air_vehicles"
+			"wv_galley",
+			"wv_keelboat",
+			"wv_longship",
+			"wv_rowboat",
+			"wv_sailing_ship",
+			"wv_warship"
 		]
 	},
 	"air_vehicles": {
@@ -2854,10 +3177,12 @@
 			"",
 			"Air vehicles fly through the air. They are usually propelled by air currents, alchemical engines, magic, or in the case of larger air vehicles, a mix of air currents and alchemical engines or magic. Airships, because of their nature, travel though all three dimensions instead of two. When they ascend, they must do so at half their current speed. When air vehicles descend, they can (but do not have to) move at double their current speed. After the ascent or descent, treat the vehicle's current speed as it was before making the ascent or descent.",
 			"",
+			"---",
+			"",
 			"### Airship",
 			"",
 			"Colossal air vehicle  ",
-			"**Squares **48 (20 ft. by 60 ft.); **Cost** 50,000 gp",
+			"**Squares** 48 (20 ft. by 60 ft.); **Cost** 50,000 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2869,7 +3194,7 @@
 			"",
 			"**Maximum Speed** 100 ft.; **Acceleration** 30 ft.  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2884,10 +3209,12 @@
 			"**Decks** 2  ",
 			"**Weapons** Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the airship, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.",
 			"",
+			"---",
+			"",
 			"### Alchemical Dragon",
 			"",
 			"Colossal air vehicle   ",
-			"**Squares **60 (20 ft. by 75 ft.); **Cost** 100,000 gp ",
+			"**Squares** 60 (20 ft. by 75 ft.); **Cost** 100,000 gp ",
 			"",
 			"#### Defense",
 			"",
@@ -2899,7 +3226,7 @@
 			"",
 			"**Maximum Speed** 100 ft.; **Acceleration** 30 ft.  ",
 			"**CMB** +8; **CMD** 18  ",
-			"**Ramming Damage **8d8",
+			"**Ramming Damage** 8d8",
 			"",
 			"#### Description",
 			"",
@@ -2914,10 +3241,12 @@
 			"**Decks** 1  ",
 			"**Weapons** Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the alchemical dragon, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.",
 			"",
+			"---",
+			"",
 			"### Glider",
 			"",
 			"Large air vehicle  ",
-			"**Squares **4 (10 ft. by 10 ft.); **Cost** 500 gp",
+			"**Squares** 4 (10 ft. by 10 ft.); **Cost** 500 gp",
 			"",
 			"#### Defense",
 			"",
@@ -2929,7 +3258,7 @@
 			"",
 			"**Maximum Speed** 80 ft.; **Acceleration** 10 ft. (30 ft. when it first pushes off)  ",
 			"**CMB** +1; **CMD** 11  ",
-			"**Ramming Damage **1d8",
+			"**Ramming Damage** 1d8",
 			"",
 			"#### Description",
 			"",
@@ -3241,6 +3570,7 @@
 	},
 	"smashing_an_object": {
 		"name": "Smashing an Object",
+		"subtitle": "Hardness, AC",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 173](source/prpg_core_rulebook)",
