@@ -7438,6 +7438,8 @@
 			"| Personal surge | Spellcaster who draws power from within, such as an oracle or a sorcerer |",
 			"| Sign from the gods | Divine spellcaster with a patron deity |",
 			"",
+			"---",
+			"",
 			"### Crisis of Faith",
 			"",
 			"During the creation process, you experience ill omens from your patron deity that make you question your very faith.",
@@ -7457,6 +7459,8 @@
 			"**Failure** Shaken faith. +1 day, +5% cost, 1 quirk.",
 			"",
 			"**Critical Failure** Patron's ire. +3 days, +10% cost, 1 flaw.",
+			"",
+			"---",
 			"",
 			"### Instability from Within",
 			"",
@@ -7478,6 +7482,8 @@
 			"",
 			"**Critical Failure** Unstable item. +5% cost, 1 quirk, 1 flaw.",
 			"",
+			"---",
+			"",
 			"### Natural Disaster",
 			"",
 			"During a stage of the item's creation in a natural setting, there's an unexpected natural disaster.",
@@ -7497,6 +7503,8 @@
 			"**Failure** Damaging disaster. +7 days, +10% cost.",
 			"",
 			"**Critical Failure** Disastrous consequences. Item destroyed. Lose 25% of the item's market price and start over. Creators take 1d6 points of damage per item's caster level of an energy type appropriate to the disaster.",
+			"",
+			"---",
 			"",
 			"### Natural Wonder",
 			"",
@@ -7518,6 +7526,8 @@
 			"",
 			"**Critical Failure** Distracting wonder. +7 days, +5% cost, 1 quirk.",
 			"",
+			"---",
+			"",
 			"### Otherworldly Aid",
 			"",
 			"Otherworldly beings are tampering with your item's creation in an attempt to assist you.",
@@ -7537,6 +7547,8 @@
 			"**Failure** Ineffective Aid. 1 quirk.",
 			"",
 			"**Critical Failure** Disaster. +3 days, +10% cost, 1 quirk, 1 flaw.",
+			"",
+			"---",
 			"",
 			"### Otherworldly Interference",
 			"",
@@ -7558,6 +7570,8 @@
 			"",
 			"**Critical Failure** Severe interference. +3 days, +5% cost, 1 quirk, 1 flaw.",
 			"",
+			"---",
+			"",
 			"### Personal Surge",
 			"",
 			"A surge of beneficial power springs up from unknown depths within you.",
@@ -7577,6 +7591,8 @@
 			"**Failure** Squandered surge. 1 quirk.",
 			"",
 			"**Critical Failure** Overload. +5% cost, 1 quirk, 1 flaw.",
+			"",
+			"---",
 			"",
 			"### Sign from the Gods",
 			"",
@@ -9028,6 +9044,254 @@
 			"loyalties",
 			"classes",
 			"creatures,_spells,_and_effects"
+		]
+	},
+	"removing_iterative_attacks": {
+		"name": "Removing Iterative Attacks",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"Iterative attacks allow combatants to deal a high amount of damage, but they can also make turns take a long time. Since a character's subsequent attacks have a bonus that's so much lower, this can lead to a lot of time spent on missed attacks. With this new system, an entire full attack resolves with a single d20 roll. Other sorts of attacks (such as attack actions, attacks of opportunity, and attacks granted by the [Whirlwind Attack](feat/whirlwind_attack) feat) are resolved as normal."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained"
+		],
+		"subtopics": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
+		],
+		"siblings": [
+			"alignment_pu",
+			"alternate_crafting_and_profession_rules",
+			"automatic_bonus_progression",
+			"background_skills",
+			"consolidated_skills",
+			"diseases_and_poisons",
+			"dynamic_magic_item_creation",
+			"esoteric_material_components",
+			"fractional_base_bonuses",
+			"grouped_skills",
+			"innate_item_bonuses",
+			"removing_alignment",
+			"removing_iterative_attacks",
+			"revised_action_economy",
+			"scaling_items",
+			"simple_monster_creation",
+			"simplified_spellcasting",
+			"skill_unlocks",
+			"spell_alterations",
+			"staggered_advancement",
+			"stamina_and_combat_tricks",
+			"variant_multiclassing",
+			"wound_thresholds"
+		]
+	},
+	"the_basics": {
+		"name": "The Basics",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"When making a full attack, roll only one attack roll and compare your result to the target's AC. If your attack result is lower than the target's AC by 6 or more, you miss and deal no damage. If your result is lower than the target's AC by 5 or less, you deliver a glancing blow, dealing an amount of damage equal to 1/2 the minimum damage you would normally deal on a hit with the weapon you're using. Effects that trigger on a hit do not trigger on a glancing blow. If your attack result equals or exceeds the target's AC, you score a hit, plus one additional hit for every 5 by which your roll exceeds that target's AC, up to your maximum number of hits. At first level, you can score a maximum of only one hit, but at base attack bonus +6 and at every +5 to your base attack bonus thereafter, you can score another. This is shown on Table 3-3, and also matches the progression of iterative attacks you'd gain if you were using the core rules for attacks. For each hit you score, roll damage separately; damage reduction applies to each hit.",
+			"",
+			"For example, say you have a base attack bonus of +8, are using a melee weapon that deals 1d10 points of damage on a hit, and have a Strength modifier of +4. Your target has an AC of 21. If your attack roll result is 15 or lower, you miss. If your result is 16-20, you deal a glancing blow for 2 points of damage (your damage die's minimum of 1 plus your Strength modifier of +4, divided by 2 and rounded down). If your result is 21-25, you hit and deal 1d10+4 points of damage. If your result is 26 or higher, you hit twice and deal 1d10+4 points of damage twice. Even if your result were 31 or higher, you would still hit only twice because your base attack bonus is lower than +11.",
+			"",
+			"**Tracking:** When using this system, it speeds up the game if players calculate in advance the amount of damage they deal on a glancing blow with each weapon their characters use and write it on the character sheets. It also helps if the GM notes the monster's AC - 6, AC + 5, AC + 10, and AC + 15.",
+			"",
+			"### Table 3-2: Attack Results",
+			"",
+			"| Attack Roll Result | Type of Hit | Damage Dealt |",
+			"| --- | --- | --- |",
+			"| Below AC by 6 or more | Miss | None |",
+			"| Below AC by 5 or less | Glancing Blow | 1/2 minimum damage |",
+			"| Equal or exceed AC | Hit | Normal damage |",
+			"| Exceed AC by 5 or more&ast; | Additional hit | Normal damage |",
+			"",
+			"&ast; You can gain an additional hit for every 5 by which the attack roll exceeds the target's AC, limited by your base attack bonus.",
+			"",
+			"### Table 3-3: Maximum Hits",
+			"",
+			"| Base Attack Bonus | Maximum Hits |",
+			"| --- | --- |",
+			"| +0 to +5 | 1 |",
+			"| +6 to +10 | 2 |",
+			"| +11 to +15 | 3 |",
+			"| +16 to +20 | 4 |",
+			"| +21 to +25&ast; | 5 |",
+			"| +26 to +30&ast; | 6 |",
+			"",
+			"&ast;Typically, only monsters have a base attack bonus this high."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks"
+		],
+		"subtopics": [
+			"attacking_multiple_targets",
+			"critical_hits"
+		],
+		"siblings": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
+		]
+	},
+	"attacking_multiple_targets": {
+		"name": "Attacking Multiple Targets",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"If you have more than one maximum hit, you can declare you're making a full attack against more than one target. In that case, your number of hits is determined by the highest AC among your targets, and you can allocate your hits however you like among all the targets after determining your total number of hits-you can even choose not to hit the target whose AC you rolled against. This doesn't allow you to bypass effects that would prevent you from hitting a creature normally. For instance, you couldn't assign a hit to a creature under a [sanctuary](spell/sanctuary) effect when making an attack roll against a different creature (unless you first succeeded on the required Will save)."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks",
+			"the_basics"
+		],
+		"siblings": [
+			"attacking_multiple_targets",
+			"critical_hits"
+		]
+	},
+	"critical_hits": {
+		"name": "Critical Hits",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"When you threaten a critical hit, roll to confirm at your full bonus and apply the effects of the critical hit to any one of your hits. If your original attack roll scored multiple hits and the critical confirmation roll also falls within your weapon's critical threat range, you score two critical hits and can apply them to any two hits."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks",
+			"the_basics"
+		],
+		"siblings": [
+			"attacking_multiple_targets",
+			"critical_hits"
+		]
+	},
+	"two-weapon_fighting_pu": {
+		"name": "Two-Weapon Fighting",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"When fighting with two weapons, use the lower attack bonus of the two weapons. If you score one hit, you also score a hit with your off-hand weapon. If you have [Improved Two- Weapon Fighting](feat/improved_two-weapon_fighting) and score two hits, you also score a second hit with your off-hand weapon, for a total of four. If you have [Greater Two-Weapon Fighting](feat/greater_two-weapon_fighting) and score three hits, you also score a third hit with your off-hand weapon, for a total of six.",
+			"",
+			"**Critical Hits with Two-Weapon Fighting:** If you threaten a critical hit when using Two-Weapon Fighting, roll a single confirmation roll using the lower attack bonus among the two weapons. If you confirm, you score one critical hit with each weapon, so long as the initial roll threatened a critical with both weapons. For example, if you're fighting with a rapier and a light pick, roll an 18 on your initial attack roll, and confirm the critical hit, you score a critical hit with only the rapier. However, if you roll a 20 and confirm, you score a critical hit with each weapon."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks"
+		],
+		"siblings": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
+		]
+	},
+	"natural_attacks": {
+		"name": "Natural Attacks",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 110](source/pathfinder_unchained)",
+			"",
+			"If a creature with at least three natural attacks makes a full attack using only natural weapons, the creature has a maximum number of hits equal to the number of secondary attacks plus 1/2 the number of primary attacks (rounded up). The creature uses the lowest attack bonus of its primary natural weapons for its attack roll. For each hit it scores, the creature can choose to deal damage with any two primary natural weapons or any one secondary natural weapon. If it misses by 5 or less, it hits with one primary natural weapon instead of dealing a glancing blow.",
+			"",
+			"For example, a monster with two primary claw attacks and a secondary tail slap can score up to two hits. If it scores one hit, it can apply both of its claws or its tail slap. If it misses by 5 or less, it can apply one of its claws. If it succeeds by 5 or more, scoring two hits, it can apply all three of its attacks."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks"
+		],
+		"siblings": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
+		]
+	},
+	"special_cases": {
+		"name": "Special Cases",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 111](source/pathfinder_unchained)",
+			"",
+			"Dealing with spells and abilities that grant additional attacks, rerolls, or high bonuses can be tricky under this system. So many rules are based around iterative attacks that it's not possible to cover every type of effect that needs to be adjusted. GMs should use the following rules as guidelines when interpreting how to implement similar spells and abilities.",
+			"",
+			"### Extra Attacks",
+			"",
+			"Effects such as haste that grant additional attacks instead raise your maximum number of hits by one. This includes secondary natural attacks made at the end of a manufactured weapon full attack.",
+			"",
+			"### Rerolls",
+			"",
+			"Since the full attack roll simulates a series of rolls, effects that grant or force single rerolls instead grant either a +2 bonus (if the attacker keeps the better roll, or the character causing the reroll intends to aid the attacker) or -2 penalty (if the attacker keeps the lower roll, or the character causing the reroll intends to hinder the attacker). Effects that would grant rerolls for all attack rolls made as part of the full attack allow the attacker to reroll the attack roll instead of imposing a bonus or penalty.",
+			"",
+			"### True Strike",
+			"",
+			"When using [true strike](spell/true_strike) with a full attack, first see how many hits you would have scored without [true strike](spell/true_strike). A single casting of [true strike](spell/true_strike) adds at most one more hit."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks"
+		],
+		"siblings": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
+		]
+	},
+	"variant_mobile_melee": {
+		"name": "Variant: Mobile Melee",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"**Source** [Pathfinder Unchained pg. 111](source/pathfinder_unchained)",
+			"",
+			"This variant modification to removing iterative attacks allows a character greater mobility during a melee full attack rather than forcing them to stay put. When a character declares a melee full attack, she can also declare she will move before or after the attacks, up to a maximum of her movement speed. For every 5 feet she moves beyond the first 5 feet, she takes a -5 penalty on her attack roll for the purposes of determining extra hits only. Apply this penalty after determining whether she hits at least once.",
+			"",
+			"The character can attempt an Acrobatics check to reduce this penalty by an amount equal to the result of her Acrobatics check divided by 5. No matter how high her Acrobatics check result may be, she can't reduce the penalty below -2 per 5 feet moved beyond the first 5 feet.",
+			"",
+			"Characters with the [Spring Attack](feat/spring_attack) feat can move before, after, and in between the attacks when using this option, and they reduce the penalty to -4 for every 5 feet moved beyond the first 5 feet."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"pathfinder_unchained",
+			"removing_iterative_attacks"
+		],
+		"siblings": [
+			"the_basics",
+			"two-weapon_fighting_pu",
+			"natural_attacks",
+			"special_cases",
+			"variant_mobile_melee"
 		]
 	}
 }

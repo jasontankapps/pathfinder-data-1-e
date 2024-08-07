@@ -1,4 +1,160 @@
 {
+	"high-level_play_13": {
+		"name": "High-Level Play (13+)",
+		"subtitle": "Spells, Intrigue",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
+			"",
+			"The most reliable spells for finding out information arrive at higher levels, and are 7th level or higher.",
+			"",
+			"### [Abjuration](rule/abjuration)",
+			"",
+			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
+			"",
+			"At least one noteworthy abjuration spell becomes available at 15th level, with far-reaching effects.",
+			"",
+			"[Mind Blank](spell/mind_blank): The 8th-level spell mind blank is a powerful and versatile protection spell that becomes ubiquitous at high levels. Spells such as [discern location](spell/discern_location) can make people easy to find in high-level play, so a credible villain whose identity the PCs know should have [mind blank](spell/mind_blank) cast on himself at all times. If the villain absolutely can't employ a spellcaster with this spell, consider having him join forces with a hag coven (which can offer unlimited castings of [mind blank](spell/mind_blank) spells each day) or equipping him with a [headband of sealed thoughts](magic-wondrous/headband_of_sealed_thoughts).",
+			"",
+			"The PCs are likely starting to cast [mind blank](spell/mind_blank) as much as possible at this level as well, so the villains should put in at least as much effort. Obviously, the villain won't be able to keep all his allies and staff under [mind blank](spell/mind_blank), which provides plenty of opportunities for clever PCs to exploit. For instance, though scrying on a nearby ally of the villain still doesn't reveal the villain protected by [mind blank](spell/mind_blank), PCs might be able to notice a one-sided conversation that indicates that someone with [mind blank](spell/mind_blank) is present.",
+			"",
+			"It all comes down to the villain mustering a defense that is reasonable given his resources, and allowing the PCs to find a clever way to circumvent those defenses. No defense in the world is perfect. For instance, even if a villain somehow convinced a coven of hags to act as a source of [mind blank](spell/mind_blank) for his entire network of allies, the hags become a new vulnerability. The PCs can capture one of the villain's agents, discover information about the hags, and then eliminate the hags or scout out their coven's domain in an attempt to ambush the villain on his way to reestablishing his [mind blank](spell/mind_blank).",
+			"",
+			"### [Divinations](rule/divinations)",
+			"",
+			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
+			"",
+			"Divinations in high-level play tend to be incredibly powerful, with only [mind blank](spell/mind_blank) offering protection.",
+			"",
+			"[Discern Location](spell/discern_location): This spell lacks the mitigations common to lower-level locating spells. Unless you have a deity willing to cooperate, the only protection from [discern location](spell/discern_location) is [mind blank](spell/mind_blank). Because not everyone can be under [mind blank](spell/mind_blank) all the time, [discern location](spell/discern_location) is incredibly useful, allowing the PCs to get close to a target protected by [mind blank](spell/mind_blank) as long as he has allies or interacts with other people-almost a certainty in an intrigue-focused game. The spell becomes well known by most NPCs, and even threatening to use discern location can be a powerful tactic.",
+			"",
+			"[Greater Scrying](spell/greater_scrying): This is mostly the same as its lesser version, but the timing is vastly different. It takes only a single standard action to cast, and can last the better part of a day. The long duration gives the caster a much greater chance of following the target to a place about which the caster knows the exact layout and precise location. On the other hand, by this level, [detect scrying](spell/detect_scrying) becomes easier to cast, many creatures can see invisible spies, and [mind blank](spell/mind_blank) may shield targets.",
+			"",
+			"[Vision](spell/vision): Compared to [legend lore](spell/legend_lore), [vision](spell/vision) takes much less time to cast, causes fatigue, and requires a caster level check to succeed. Stylistically, the big difference is that the caster sees a single vision rather than hearing information from numerous legends. The character also gets to ask a particular question to narrow the scope of the spell, so that one vision is likely to be related to a topic about which the character really wants to know. For a vision spell, put some good thought into exactly what the PC sees, and try to describe it as vividly as possible with plenty of visual details. You can tailor the vision to show the most-interesting visual snippet related to the question the PC asked. By describing what the PC sees as if she were there, you make the spell an experience rather than a simple information dump. The PC must still interpret what she saw. You may even wish to take the spellcaster's player to another room and describe the vision, then let her return to describe and interpret what her spell revealed to the rest of the party. Sometimes the caster will focus on one of the visual details when another was an even greater clue, which she only discovers later on in an exciting moment of revelation."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"spells_of_intrigue"
+		],
+		"siblings": [
+			"low-level_play_1-6",
+			"mid-level_play_7-12",
+			"high-level_play_13",
+			"example_of_intrigue_spells"
+		]
+	},
+	"example_of_intrigue_spells": {
+		"name": "Example of Intrigue Spells",
+		"subtitle": "Spells, Intrigue",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
+			"",
+			"The following detailed example puts some of the above advice into practice, using two of the most difficult spells to adjudicate, divination and vision. The GM in this example provides different sets of clues to her players with each spell that help point them toward the mystery's solution only when examined together."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"spells_of_intrigue"
+		],
+		"subtopics": [
+			"the_story",
+			"divination_poem",
+			"vision"
+		],
+		"siblings": [
+			"low-level_play_1-6",
+			"mid-level_play_7-12",
+			"high-level_play_13",
+			"example_of_intrigue_spells"
+		]
+	},
+	"the_story": {
+		"name": "The Story",
+		"subtitle": "Spells, Intrigue",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
+			"",
+			"Long ago, a powerful hag led a wicked coven that sought to destroy the kingdom of Gaheris. Seeking to turn enemies into allies, the king of Gaheris convinced the two weaker sisters to break their coven and betray their leader. In exchange, he used magic to reincarnate them into humans and married them to two of his most powerful dukes. The hags sealed their elder sister in her shack and burned her alive, only to see her to rise as a powerful [witchfire](monster/witchfire). After weeks of pitched battle with the undead hag that ranged all across the kingdom, the two sisters trapped the witchfire on the other side of a thick wall in the royal mausoleum, and warded it to contain incorporeal entities, believing they had sealed away the menace forever.",
+			"",
+			"Centuries later, a tomb robber accidentally chipped a hole in the wall, allowing the trapped witchfire to escape. Now consumed with revenge, the enraged undead creature seeks out any of her treacherous sisters' descendants. Given the interbreeding common among the nobility, this includes much of Gaheris's current nobility. Given her original goal of destroying the kingdom, that suits the witchfire just fine. Using ritual magic born of hatred and well beyond a witchfire's normal abilities, she called back the souls of her sisters and bound them into black sapphires, allowing her to gain all the powers of a coven and more. Then, she returned to a cave near her old burned-down hut in the swamp and began to enact her vengeance, using mind-controlled minions to burn her targets alive.",
+			"",
+			"The PCs receive a plea from the current king of Gaheris, asking them to investigate the cause of the streak of arson, which has been targeting members of his family. Kyra casts [divination](spell/divination) with the goal of solving the arsons and Ezren casts [vision](spell/vision), hoping to learn about the true source of the arsons."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"spells_of_intrigue",
+			"example_of_intrigue_spells"
+		],
+		"siblings": [
+			"the_story",
+			"divination_poem",
+			"vision"
+		]
+	},
+	"divination_poem": {
+		"name": "Divination Poem",
+		"subtitle": "Spells, Intrigue",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
+			"",
+			"The GM composes a poem for Kyra to represent the information imparted to her by her deity.",
+			"",
+			"The flame of passion, that which brightest burns,  ",
+			"Of love and hatred treasured or betrayed,  ",
+			"We chip away at every wall in turns,  ",
+			"Not thwarted is the payment, just delayed.",
+			"",
+			"In blackened yawn near the first hungry pyre,  ",
+			"Twin sleepers lie, once foul but later fair,  ",
+			"Dark beauty gleams the prisons two to break,  ",
+			"No loyalty, no love except to take.",
+			"",
+			"**Interpretation:** When read aloud, the first line of the poem contains a homophone of the word \"witch.\" The verse references the witchfire's escape when the wall of the tomb was chipped away. The witchfire's vengeance, or payment as the poem describes it, has just been delayed. The cave mouth is a blackened yawn, and the \"first\" pyre is the one where the hag was burned, though the PCs might go to the first arson as a red herring before they realize this, except perhaps by using additional clues from Ezren's [vision](spell/vision) below. The twin sleepers in prisons of dark beauty are the sisters' souls trapped in black sapphires; freeing them from their magical prisons would weaken the witchfire substantially. The final line hints at the story of betrayal between the sisters, and of how the witchfire only gained their cooperation by taking it forcefully."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"spells_of_intrigue",
+			"example_of_intrigue_spells"
+		],
+		"siblings": [
+			"the_story",
+			"divination_poem",
+			"vision"
+		]
+	},
+	"vision": {
+		"name": "Vision",
+		"subtitle": "Spells, Intrigue",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
+			"",
+			"The GM writes a descriptive vision for Ezren.",
+			"",
+			"Flames engulf everything around you. You're in a simple wooden hut that looks out over a swamp onto a great cypress tree in the distance. You see two silhouettes outside, and the front door seems barricaded. Your vision blurs from the smoke and moves violently toward that entrance, as if you were attempting to smash it down-a futile effort. At the edges of your vision, you see countless objects bursting into flames, and you can barely make out strange spices, straw dolls, and what appears to be an eyeball in a bowl of water. Then there is nothing but flame. Your view shifts toward the floor, as your charred hand, with long fingernails, bashes over and over against the floor of the hut. But the effort was too late, and your hand stops moving, as the inferno rises once more, consuming everything.",
+			"",
+			"You shake yourself from the vision and find yourself fatigued, your breathing and heart rate still elevated from the horrible desperation of the burning hut.",
+			"",
+			"**Interpretation:** The true source of the arsons, when it comes down to it, is the original killing of the coven leader, who became a witchfire. The vision provides numerous clues to some of the elements of the story, but the most striking one might be the distinctive great cypress tree. With some further research, Ezren might be able to locate it, allowing him to find the hut's remains, which are also near the cave where the witchfire placed the door to her new demesne."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"spells_of_intrigue",
+			"example_of_intrigue_spells"
+		],
+		"siblings": [
+			"the_story",
+			"divination_poem",
+			"vision"
+		]
+	},
 	"social_conflicts": {
 		"name": "Social Conflicts",
 		"sources": [ "Ultimate Intrigue" ],
@@ -833,101 +989,7 @@
 			"",
 			"**Optional Rule:** Inspired Roleplaying",
 			"",
-			"While not everyone is as good at verbal sparring as their character's statistics indicate, players will often want to roleplay their tactics during a verbal duel. For particularly inspired or heart-felt roleplaying, the GM might award anywhere up to a +2 modifier on a tactic's associated skill check. For brilliant roleplaying during a verbal duel, a GM might award an edge, and that edge can be general or keyed to a particular tactic.",
-			"",
-			"### Allegory",
-			"",
-			"You use a fable or parable featuring an underlying message to frame the debate. While it is sometimes difficult to use allegory in the heat of an exchange, it makes a very effective opener.",
-			"",
-			"**Associated Skills:** Knowledge (history), Knowledge (religion), Perform (act), Perform (oratory).",
-			"",
-			"**Interaction:** You take a -2 penalty on the associated skill checks when using allegory as a counter.",
-			"",
-			"**Special:** If you use allegory to open an exchange, and your opponent chooses to end the exchange rather than attempt to counter your allegory, increase the exchange's current ante by 2 (before your opponent's determination is reduced) instead of gaining an edge.",
-			"",
-			"### Baiting",
-			"",
-			"You hurl taunts and barbs, or level false dichotomies, goading your opponent into a trap. Baiting works best when the stakes are already high, since in that case backing down can be even more damaging than blundering into your trap.",
-			"",
-			"**Associated Skills:** Bluff, Intimidate, Perform (comedy), Sense Motive.",
-			"",
-			"**Interaction:** A duelist using a tactic other than presence takes a -2 penalty on the associated skill check when countering baiting.",
-			"",
-			"**Special:** Baiting cannot be employed to open an exchange. If your opponent ends an exchange rather than counter your baiting, your baiting doesn't suffer the normal -2 penalty on future associated skill checks for winning an exchange.",
-			"",
-			"### Emotional Appeal",
-			"",
-			"You make an argument appealing to the emotional desires of your opponent or audience. This tactic is particularly useful against an opponent with an advantage in status or knowledge; raising the emotional stakes can be rewarding, but it can also be dangerous.",
-			"",
-			"**Associated Skills:** Bluff, Perform (oratory), Sense Motive.",
-			"",
-			"**Interaction:** You gain a +2 bonus on the associated skill check when using an emotional appeal to counter logic, presence, and rhetoric.",
-			"",
-			"**Special:** Successfully countering with an emotional appeal increases the exchange's ante by an additional 1.",
-			"",
-			"### Flattery",
-			"",
-			"You ingratiate yourself to your opponent, causing him to either let down his guard or to gain some other advantage. While usually deceptive and manipulative, this tactic also covers the actions of characters who are genuinely likeable and friendly.",
-			"",
-			"**Associated Skills:** Bluff, Diplomacy, Knowledge (nobility).",
-			"",
-			"**Interaction:** You take a -2 penalty on the associated skill check when using flattery to counter mockery. You gain a +2 bonus on the associated skill check when using flattery to counter presence.",
-			"",
-			"**Special:** If you win an exchange with flattery, reduce the ante of the exchange by 2 (minimum 0) and gain an edge that can be used with any skill check in a verbal duel.",
-			"",
-			"### Logic",
-			"",
-			"When you use logic, you present facts, figures, and expert testimony. While logic can still be used to mislead your adversary or the audience, unlike most other tactics, it still requires a strong understanding of the subject matter to do so.",
-			"",
-			"**Associated Skills:** Knowledge (any pertinent); occasionally, other skills will apply instead, such as Appraise (for a verbal duel involving barter or haggling) or Profession (for a verbal duel involving knowledge or practice of that profession's skill set, such as Profession [barrister] during a trial).",
-			"",
-			"**Interaction:** You gain a +2 bonus on the associated skill check when you use logic as an opener. You take a -2 penalty on the associated skill check when you use logic to counter baiting, emotional appeal, mockery, red herring, or wit.",
-			"",
-			"**Special:** When you win an exchange with logic, you gain 1 edge that you can only use with logic.",
-			"",
-			"### Mockery",
-			"",
-			"You use personal attacks, mudslinging, or creative insults to belittle your opponent. Mockery works best when you capitalize on your opponent's use of an unpopular tactic.",
-			"",
-			"**Associated Skills:** Bluff, Intimidate, Perform (comedy).",
-			"",
-			"**Interaction:** You take a -2 penalty on the associated skill check when you use mockery to counter logic and wit.",
-			"",
-			"**Special:** You gain a +2 bonus on the associated skill check when you use mockery to counter a tactic with a negative audience bias, and if you win the exchange with mockery against such a tactic, increase the ante by 1. You take a -2 penalty on the associated skill check when you use mockery to counter a tactic with a positive audience bias, though if you succeed, reduce the ante by 1.",
-			"",
-			"### Presence",
-			"",
-			"You make a show of confidence or true nobility or you simply put on airs, and an opponent's claims slide off and bounce back against him, leaving you unscathed. This tactic works to deflect baiting and mockery but is less effective against other tricks.",
-			"",
-			"**Associated Skills:** Intimidate, Knowledge (nobility).",
-			"",
-			"**Interaction:** You gain a +2 bonus on the associated skill check when you use presence to counter baiting or mockery. You takes a -2 penalty on the associated skill check when using presence to counter allegory, emotional appeal, or red herring.",
-			"",
-			"**Special:** If you win an exchange with presence, you regain 1 determination (to a maximum amount equal to your starting determination).",
-			"",
-			"### Red Herring",
-			"",
-			"You use this tactic to distract your opponent or the audience from the heart of the debate, avoiding the danger of the current exchange. While a red herring can't be used as an opener, it can be used to quickly end an exchange that is getting too dangerous to continue.",
-			"",
-			"**Associated Skills:** Bluff, Perform (oratory).",
-			"",
-			"**Special:** You cannot use red herring as an opener. When using a red herring as a counter, you can choose to gain a +4 bonus on the associated skill check. If you do so and succeed, instead of continuing and escalating the exchange as normal, you reduce the ante to 0 and automatically win the exchange. Unlike normal, you start the next exchange.",
-			"",
-			"### Rhetoric",
-			"",
-			"You use versatile debating tactics, applying advantageous rhetorical devices to squash your opponent's arguments. Most of the verbal maneuvers included in this tactic are simple and forthright linguistic devices; deceptive debating gambits are often included as part of other tactics such as baiting, emotional appeal, mockery, or red herring. Rhetoric is a multipurpose tactic that lacks some of the dangers of other tactics, but doesn't offer any significant rewards either.",
-			"",
-			"**Associated Skills:** Diplomacy, Linguistics, Perform (act), Perform (oratory).",
-			"",
-			"**Special:** Since rhetoric involves subtle word choices that most audiences don't notice consciously, it is very rare for an audience to have a negative bias toward rhetoric.",
-			"",
-			"### Wit",
-			"",
-			"You use humor or cleverness to gain an advantage over your opponent, but the tactic can backfire if your jokes and jibes fall flat.",
-			"",
-			"**Associated Skills:** Linguistics, Perform (comedy).",
-			"",
-			"**Special:** When using wit, you can choose to gain a +2 bonus on the associated skill check. If you do so and fail the associated skill check, decrease your determination by 1. If you fail by 5 or more, you take a -2 penalty on wit's associated skill checks for the rest of the duel."
+			"While not everyone is as good at verbal sparring as their character's statistics indicate, players will often want to roleplay their tactics during a verbal duel. For particularly inspired or heart-felt roleplaying, the GM might award anywhere up to a +2 modifier on a tactic's associated skill check. For brilliant roleplaying during a verbal duel, a GM might award an edge, and that edge can be general or keyed to a particular tactic."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -939,6 +1001,362 @@
 			"tactics_2",
 			"verbal_exchanges",
 			"ending_a_duel"
+		],
+		"subtopics": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_allegory": {
+		"name": "Allegory",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You use a fable or parable featuring an underlying message to frame the debate. While it is sometimes difficult to use allegory in the heat of an exchange, it makes a very effective opener.",
+			"",
+			"**Associated Skills:** Knowledge (history), Knowledge (religion), Perform (act), Perform (oratory).",
+			"",
+			"**Interaction:** You take a -2 penalty on the associated skill checks when using allegory as a counter.",
+			"",
+			"**Special:** If you use allegory to open an exchange, and your opponent chooses to end the exchange rather than attempt to counter your allegory, increase the exchange's current ante by 2 (before your opponent's determination is reduced) instead of gaining an edge."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_baiting": {
+		"name": "Baiting",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You hurl taunts and barbs, or level false dichotomies, goading your opponent into a trap. Baiting works best when the stakes are already high, since in that case backing down can be even more damaging than blundering into your trap.",
+			"",
+			"**Associated Skills:** Bluff, Intimidate, Perform (comedy), Sense Motive.",
+			"",
+			"**Interaction:** A duelist using a tactic other than presence takes a -2 penalty on the associated skill check when countering baiting.",
+			"",
+			"**Special:** Baiting cannot be employed to open an exchange. If your opponent ends an exchange rather than counter your baiting, your baiting doesn't suffer the normal -2 penalty on future associated skill checks for winning an exchange."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_emotional_appeal": {
+		"name": "Emotional Appeal",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You make an argument appealing to the emotional desires of your opponent or audience. This tactic is particularly useful against an opponent with an advantage in status or knowledge; raising the emotional stakes can be rewarding, but it can also be dangerous.",
+			"",
+			"**Associated Skills:** Bluff, Perform (oratory), Sense Motive.",
+			"",
+			"**Interaction:** You gain a +2 bonus on the associated skill check when using an emotional appeal to counter logic, presence, and rhetoric.",
+			"",
+			"**Special:** Successfully countering with an emotional appeal increases the exchange's ante by an additional 1."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_flattery": {
+		"name": "Flattery",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You ingratiate yourself to your opponent, causing him to either let down his guard or to gain some other advantage. While usually deceptive and manipulative, this tactic also covers the actions of characters who are genuinely likeable and friendly.",
+			"",
+			"**Associated Skills:** Bluff, Diplomacy, Knowledge (nobility).",
+			"",
+			"**Interaction:** You take a -2 penalty on the associated skill check when using flattery to counter mockery. You gain a +2 bonus on the associated skill check when using flattery to counter presence.",
+			"",
+			"**Special:** If you win an exchange with flattery, reduce the ante of the exchange by 2 (minimum 0) and gain an edge that can be used with any skill check in a verbal duel."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_logic": {
+		"name": "Logic",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"When you use logic, you present facts, figures, and expert testimony. While logic can still be used to mislead your adversary or the audience, unlike most other tactics, it still requires a strong understanding of the subject matter to do so.",
+			"",
+			"**Associated Skills:** Knowledge (any pertinent); occasionally, other skills will apply instead, such as Appraise (for a verbal duel involving barter or haggling) or Profession (for a verbal duel involving knowledge or practice of that profession's skill set, such as Profession [barrister] during a trial).",
+			"",
+			"**Interaction:** You gain a +2 bonus on the associated skill check when you use logic as an opener. You take a -2 penalty on the associated skill check when you use logic to counter baiting, emotional appeal, mockery, red herring, or wit.",
+			"",
+			"**Special:** When you win an exchange with logic, you gain 1 edge that you can only use with logic."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_mockery": {
+		"name": "Mockery",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You use personal attacks, mudslinging, or creative insults to belittle your opponent. Mockery works best when you capitalize on your opponent's use of an unpopular tactic.",
+			"",
+			"**Associated Skills:** Bluff, Intimidate, Perform (comedy).",
+			"",
+			"**Interaction:** You take a -2 penalty on the associated skill check when you use mockery to counter logic and wit.",
+			"",
+			"**Special:** You gain a +2 bonus on the associated skill check when you use mockery to counter a tactic with a negative audience bias, and if you win the exchange with mockery against such a tactic, increase the ante by 1. You take a -2 penalty on the associated skill check when you use mockery to counter a tactic with a positive audience bias, though if you succeed, reduce the ante by 1."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_presence": {
+		"name": "Presence",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You make a show of confidence or true nobility or you simply put on airs, and an opponent's claims slide off and bounce back against him, leaving you unscathed. This tactic works to deflect baiting and mockery but is less effective against other tricks.",
+			"",
+			"**Associated Skills:** Intimidate, Knowledge (nobility).",
+			"",
+			"**Interaction:** You gain a +2 bonus on the associated skill check when you use presence to counter baiting or mockery. You takes a -2 penalty on the associated skill check when using presence to counter allegory, emotional appeal, or red herring.",
+			"",
+			"**Special:** If you win an exchange with presence, you regain 1 determination (to a maximum amount equal to your starting determination)."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_red_herring": {
+		"name": "Red Herring",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You use this tactic to distract your opponent or the audience from the heart of the debate, avoiding the danger of the current exchange. While a red herring can't be used as an opener, it can be used to quickly end an exchange that is getting too dangerous to continue.",
+			"",
+			"**Associated Skills:** Bluff, Perform (oratory).",
+			"",
+			"**Special:** You cannot use red herring as an opener. When using a red herring as a counter, you can choose to gain a +4 bonus on the associated skill check. If you do so and succeed, instead of continuing and escalating the exchange as normal, you reduce the ante to 0 and automatically win the exchange. Unlike normal, you start the next exchange."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_rhetoric": {
+		"name": "Rhetoric",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You use versatile debating tactics, applying advantageous rhetorical devices to squash your opponent's arguments. Most of the verbal maneuvers included in this tactic are simple and forthright linguistic devices; deceptive debating gambits are often included as part of other tactics such as baiting, emotional appeal, mockery, or red herring. Rhetoric is a multipurpose tactic that lacks some of the dangers of other tactics, but doesn't offer any significant rewards either.",
+			"",
+			"**Associated Skills:** Diplomacy, Linguistics, Perform (act), Perform (oratory).",
+			"",
+			"**Special:** Since rhetoric involves subtle word choices that most audiences don't notice consciously, it is very rare for an audience to have a negative bias toward rhetoric."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
+		]
+	},
+	"tactics_wit": {
+		"name": "Wit",
+		"subtitle": "Verbal Duel Tactics",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"**Source** [Ultimate Intrigue pg. 178](source/ultimate_intrigue)",
+			"",
+			"You use humor or cleverness to gain an advantage over your opponent, but the tactic can backfire if your jokes and jibes fall flat.",
+			"",
+			"**Associated Skills:** Linguistics, Perform (comedy).",
+			"",
+			"**Special:** When using wit, you can choose to gain a +2 bonus on the associated skill check. If you do so and fail the associated skill check, decrease your determination by 1. If you fail by 5 or more, you take a -2 penalty on wit's associated skill checks for the rest of the duel."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue",
+			"verbal_duels",
+			"dueling_with_words",
+			"tactics_2"
+		],
+		"siblings": [
+			"tactics_allegory",
+			"tactics_baiting",
+			"tactics_emotional_appeal",
+			"tactics_flattery",
+			"tactics_logic",
+			"tactics_mockery",
+			"tactics_presence",
+			"tactics_red_herring",
+			"tactics_rhetoric",
+			"tactics_wit"
 		]
 	},
 	"verbal_exchanges": {
@@ -5215,192 +5633,5 @@
 			"pixie_pollen_cr_2",
 			"weeping_waste_cr_10"
 		]
-	},
-	"foraging_and_salvaging": {
-		"name": "Foraging and Salvaging",
-		"subtitle": "Gamemastering",
-		"sources": [ "Ultimate Wilderness" ],
-		"description": [
-			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
-			"",
-			"When far from the crafters and the markets of the city, an adventurer needs to have skill in foraging and salvaging to acquire materials and repair useful gear."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_the_wild"
-		],
-		"subtopics": [
-			"foraging",
-			"salvaging"
-		],
-		"siblings": [
-			"discovery_and_exploration",
-			"the_first_world",
-			"foraging_and_salvaging",
-			"harvesting_poisons",
-			"hazards_and_disasters",
-			"herbalism",
-			"spells_of_the_wild",
-			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"companions_and_familiars"
-		]
-	},
-	"foraging": {
-		"name": "Foraging",
-		"subtitle": "Wilderness, Gamemastering",
-		"sources": [ "Ultimate Wilderness" ],
-		"description": [
-			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
-			"",
-			"These foraging techniques assume a search in a typically bountiful wilderness area. The exact time required to forage for supplies depends on the specific supplies desired and the type of terrain being searched, as does the DC of the skill check to successfully forage, as listed on Table 4-4 below. As a general rule, a character who spends more than 8 hours per day foraging becomes fatigued.",
-			"",
-			"The base amount of time required to forage for supplies depends on the type of supplies you're searching for, as listed in each supply category below. When foraging, multiply this base time by the terrain's \"forage factor\" as listed on the table below. Whether the terrain in question counts as standard, barren, or abundant depends on the type of terrain being searched, what is begin searched for, and the GM's discretion (for example, a remote shoreline may qualify as abundant for the purposes of foraging for tools and weapons, but barren for the purposes of foraging for herbs), but in most cases, the standard category should be used. Rugged terrain includes all terrain with difficult physical obstacles (numerous steep mountainsides or cliffs, particularly dense undergrowth, or any other terrain where the searcher's movement type is impeded), and its forage factor stacks with other forage factors for different types of terrain.",
-			"",
-			"### Table 4-4: Foraging",
-			"",
-			"| Type of Terrain | Forage Factor | Forage DC |",
-			"| --- | --- | --- |",
-			"| Standard | &times;1 | 15 |",
-			"| Barren | &times;2 | 20 |",
-			"| Abundant | &times;1/2 | 10 |",
-			"| Terrain is rugged | &times;2 | +5 |",
-			"",
-			"Time spent to forage for supplies need not be consecutive and can be split over multiple days. Once the required time has passed, attempt a skill check against the appropriate forage DC as indicated on the table above; typically this is a Survival check, but searching for some types of supplies sometimes allows the substitution of a different skill.",
-			"",
-			"When a character attempts to forage for supplies, he must choose what kind of supplies he is searching for from the broad categories detailed below.",
-			"",
-			"**Alchemical Supplies and Material Components:** Many alchemical supplies and material components can be found in the wilderness. You can forage enough supplies to approximate the contents of an alchemy crafting kit or a spell component pouch with a successful Survival check and 2d4 hours of effort, but the GM can rule that certain components simply aren't available in an area (for example, bat guano cannot be foraged in terrain where no bats live). If a component is unavailable in the area but its cost remains negligible, you can create a rudimentary substitute component from your foraged supplies with a successful Craft (alchemy) or Spellcraft check and 1 hour of effort (DC = 15 + double the level of the extract or spell). An extract or spell cast with such an improvised substitute has a 20% chance of failure (in addition to any other chance of failure). Focus components or costly material components cannot be foraged.",
-			"",
-			"**Herbs:** Foraging for specific herbs requires a [Knowledge (nature)](skill/knowledge_nature) or [Profession (herbalist)](skill/profession) check and follows special rules.",
-			"",
-			"**Repair Materials and Improvised Tools:** A period of 1d6 hours and a successful Survival check are enough to forage rudimentary supplies to perform field repairs for damaged equipment when the proper tools and supplies are not available. On a successful check, a character gathers the equivalent of 2d6 gp in raw materials. She must still spend the time and attempt Craft or Spellcraft skill checks as normal to use these materials to repair an object, but she takes a -5 penalty on the check due to the foraged nature of the materials used. Repair materials gathered in this way cannot be sold.",
-			"",
-			"If these gathered materials are instead used to craft improvised tools, a successful forage check gathers only the equivalent of 1d6 gp in raw materials. A Craft or Spellcraft check to repair an object or to craft an improvised tool with foraged supplies always fails on a natural 1.",
-			"",
-			"**Weapons:** Functional clubs and quarterstaves can be foraged with 10 minutes of foraging in any area with trees or wood; in other regions, clubs and quarterstaves require 1d4 hours of searching and function as improvised weapons. At the GM's discretion, other improvised weapons can be foraged.",
-			"",
-			"### Options for Foraging",
-			"",
-			"At the GM's discretion, the following additional rules can be applied to foraging.",
-			"",
-			"Encounters while Foraging: If you use wandering monsters in your game, you should consider checking for a random encounter once per foraging expedition.",
-			"",
-			"**Exhausting Resources:** At the GM's discretion, a region can eventually be exhausted of supplies viable for foraging.",
-			"",
-			"Foraging while Traveling: You can forage while traveling, but doing so doubles the amount of time required to forage and halves your overall distance traveled. If you move through multiple types of terrain, use the least advantageous forage factor and forage DC of the terrains traveled through.",
-			"",
-			"**Group Foraging:** Characters can always take the aid another action to improve a character's skill check to forage; when they do so, they need not remain adjacent to the creature they are aiding.",
-			"",
-			"**Swift Foraging:** A character can attempt to forage more quickly by increasing the required DC by 10; doing so cuts the time taken to forage in half."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_the_wild",
-			"foraging_and_salvaging"
-		],
-		"siblings": [
-			"foraging",
-			"salvaging"
-		]
-	},
-	"salvaging": {
-		"name": "Salvaging",
-		"subtitle": "Wilderness, Gamemastering",
-		"sources": [ "Ultimate Wilderness" ],
-		"description": [
-			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
-			"",
-			"Foraging is one way to gather resources in the wild, but you can also recycle or repurpose items and gear as well, salvaging materials from items you no longer need or are willing to sacrifice. You can't salvage materials from artifacts, cursed items, or items you can't destroy. Successfully salvaging an item requires a Craft or Spellcraft check and takes an amount of time as indicated in the specific type of salvage operation below.",
-			"",
-			"**Ammunition:** You can use destroyed ammunition as raw materials for new ammunition. Five pieces of destroyed ammunition provide suitable material to create one new piece of ammunition using the normal crafting rules.",
-			"",
-			"**Potions:** If you have the [Brew Potion](feat/brew_potion) feat, you can combine natural catalysts with a potion to salvage it and create a different potion of a lower spell level. Salvaging a potion requires raw magic item materials (these can be salvaged from existing items, as detailed below). To salvage a potion, you must spend 1 hour per spell level of the original potion and then attempt a Craft (alchemy) or Spellcraft check with a DC equal to 15 + 3 &times; the original potion's spell level. If you succeed, you transmute the original potion into a new potion of a spell at least one spell level lower, provided you know the spell in question (it need not be one you can currently cast). If you fail this check by 4 or less, the attempt fails and the catalyst is wasted, but the potion is unharmed. If you fail by 5 or more, the raw materials are lost and the original potion is ruined.",
-			"",
-			"**Raw Crafting Materials:** Anyone trained in the Craft skill can salvage raw materials from equipment for use in crafting or repair. You must carefully dismantle the item to be salvaged, resulting in the item's destruction. If the item's price is 1 gp or less, its materials can be salvaged with only 1 hour of work; otherwise it takes 8 hours to salvage crafting materials. A successful Craft check against the item's creation DC + 5 yields raw materials worth one-quarter the item's price. If you fail the Craft check by 4 or less, the item is destroyed but the materials can still be salvaged in a future attempt. If you fail the Craft check by 5 or more, the item is destroyed and the materials are ruined. Salvaged raw materials can be used to create or repair any item of the same materials and reduces the construction time by the proportion of the new item's raw materials that are salvaged (minimum 8 hours).",
-			"",
-			"**Raw Magic Item Materials:** Anyone with an item creation feat can salvage the raw materials from magic items for the creation of new ones or repair of existing ones. You must have the item creation feat required for that item to salvage its raw materials. Each attempt requires destroying a magic item and 8 hours of work. If the item's price is 500 gp or less, you can salvage its materials in only 2 hours. A successful Craft or Spellcraft check with a DC equal to 10 + the item's caster level yields raw materials worth two-thirds the creation cost of the destroyed item (one-third the market price). If you fail the skill check by 4 or less, the item is destroyed but the materials can still be salvaged in a future attempt. If you fail the skill check by 5 or more, the item is destroyed and the materials are ruined. Salvaged raw materials can be used to create or repair any item made of similar materials or that shares any of the creation requirements as the original. Including the majority of the materials allows you to automatically meet any construction requirements of a new item that the salvaged item also required and reduces the construction or repair time by the proportion of the new item's construction materials that are salvaged (with the usual minimum creation time). Spellbooks and formula books can be salvaged for magic inks and paper usable in formula books, scrolls, and spellbooks.",
-			"",
-			"**Costly Spell Components:** Anyone trained in Spellcraft can salvage costly material or focus spell components from magic items. Each attempt requires destroying the item and 8 hours of work. An item can be broken down into a powder that can be used in place of gemstone dust as a material component. Otherwise, the item must have a spell requiring the component in its construction requirements to salvage that component. A successful Spellcraft check with a DC equal to 10 + the item's caster level yields materials usable in place of that spell component worth two-thirds the item's creation cost (one-third its market price). If you fail the check by 4 or less, the item is destroyed without yielding spell components, but you can try to salvage them again. If you fail the check by 5 or more, the item is destroyed and the spell components are ruined."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_the_wild",
-			"foraging_and_salvaging"
-		],
-		"siblings": [
-			"foraging",
-			"salvaging"
-		]
-	},
-	"harvesting_poisons": {
-		"name": "Harvesting Poisons",
-		"subtitle": "Wilderness, Gamemastering",
-		"sources": [ "Ultimate Wilderness" ],
-		"description": [
-			"**Source** [Ultimate Wilderness pg. 142](source/ultimate_wilderness)",
-			"",
-			"While some think of poison as an assassin's tool, the herbalists and naturalists of the world know that poison carries in it no more inherent evil than fire or water. Indeed, in the wildlands of the world, harvesting poison to give a hunter an edge or to aid in the production of antivenom is a time-honored practice.",
-			"",
-			"While Craft (alchemy) is necessary to brew long-lasting poisons, there are many natural sources of poison in the world, and poison crafters who wish to avoid the expense of purchasing raw ingredients may seek to harvest poison from natural sources instead. The following section presents rules for harvesting poisons from the wild.",
-			"",
-			"Unless a dose of harvested poison is preserved (see Preserving Harvested Poison), it remains potent for 24 hours after it is harvested.",
-			"",
-			"**Harvesting from Dead Creatures:** Once a venomous creature is slain, its venom sacs can be removed, allowing 1 or more doses of its venom to be harvested for later use. In order to harvest venom, the creature must have been dead for less than 24 hours. Every hour the source creature has been dead reduces the lifespan of the harvested poison by an hour. Removing venom sacs is a messy and time-consuming process, requiring 10 minutes of work, access to surgical tools, and a container to store the venom in. If proper surgical tools are not available, a dagger or other light slashing weapon can be used, although this imposes a -2 penalty on checks to harvest the venom. The harvester must succeed at a Survival check (DC = 15 + the dead creature's CR) in order to successfully harvest poison. On a success, the harvester acquires a single dose of the creature's venom, plus 1 additional dose for every 5 by which the result of this check exceeded the DC (to a maximum number of doses equal to the creature's Constitution modifier, minimum 1). Failing the check causes all of the venom to be lost. Failure by 5 or more exposes the harvester to 1d3 doses of the creature's venom unless she has the poison use class feature.",
-			"",
-			"**Harvesting Poison from Hazards:** Some hazards, such as poison oak and spider vines, feature poisons that can be harvested by those who know how to do so. This process requires 1 hour and an alchemist's lab or alchemy crafting kit. If the harvester succeeds at a Survival check (DC = 15 + the hazard's CR), she collects 1 dose of poison. Harvesting poison from a hazard in this way requires getting close enough to it to touch it, which may expose the harvester to the hazard's effects.",
-			"",
-			"**Milking Venom:** Venom can be harvested from a living creature without harming the creature, although the process is dangerous unless the creature has been trained for that specific purpose (see the [Handle Animal](skill/handle_animal) skill). For most venomous creatures, this involves stretching a thin canvas over a jar or vial and then coaxing the creature to bite into the canvas before massaging its venom glands, causing the venom to drip from its fangs into the container. Similar methods are used for creatures that deliver venom in other ways, such as with a stinger.",
-			"",
-			"Milking a single dose of poison from a creature takes 10 minutes of work and requires a successful Handle Animal check (DC = 10 + the donor's Hit Dice + the donor's Wisdom modifier). Failure by less than 5 indicates that the venom is not collected, but the handler suffers no other ill effect. Failure by 5 or more indicates that the creature bites, stings, or otherwise injects the handler with its venom. It automatically hits the handler with one of its natural attacks that delivers its poison, and it applies the effects of the attack normally. The creature might continue to attack the handler after doing so, possibly initiating combat. Milking venom from a cooperative intelligent creature doesn't require a Handle Animal check but presents a 5% chance of exposure to the venom.",
-			"",
-			"A creature can produce a number of doses of venom in this way each day equal to its Constitution modifier (minimum 1). A creature that is milked of venom this many times in one day (whether or not the attempts are successful) loses its poison special ability until the next time it rests.",
-			"",
-			"**Preserving Harvested Poison:** Poison harvested from a creature or hazard remains potent for 24 hours. If a character wishes to preserve harvested poison for a longer period, she must treat it alchemically, as if crafting the poison with Craft (alchemy) but using the poison dose as the raw ingredients normally needed to brew a dose of the poison and thus avoiding the gp cost to craft the poison."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_the_wild"
-		],
-		"subtopics": [ "crafting_antivenom" ],
-		"siblings": [
-			"discovery_and_exploration",
-			"the_first_world",
-			"foraging_and_salvaging",
-			"harvesting_poisons",
-			"hazards_and_disasters",
-			"herbalism",
-			"spells_of_the_wild",
-			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"companions_and_familiars"
-		]
-	},
-	"crafting_antivenom": {
-		"name": "Crafting Antivenom",
-		"subtitle": "Wilderness, Gamemastering",
-		"tags": "poison",
-		"sources": [ "Ultimate Wilderness" ],
-		"description": [
-			"**Source** [Ultimate Wilderness pg. 143](source/ultimate_wilderness)",
-			"",
-			"While [antitoxin](equipment-misc/antitoxin), as presented in the Pathfinder RPG Core Rulebook, presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.",
-			"",
-			"**Antivenom Effects:** A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.",
-			"",
-			"**Crafting Antivenom:** To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested.",
-			"",
-			"Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom.",
-			"",
-			"Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.",
-			"",
-			"**Purchasing Antivenom:** Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_the_wild",
-			"harvesting_poisons"
-		],
-		"siblings": [ "crafting_antivenom" ]
 	}
 }

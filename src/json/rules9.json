@@ -1,4 +1,293 @@
 {
+	"occult_adventure_seeds": {
+		"name": "Occult Adventure Seeds",
+		"subtitle": "Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 222](source/occult_adventures)",
+			"",
+			"The following adventure seeds play on the elements and themes integral to occult adventures."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game"
+		],
+		"subtopics": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		],
+		"siblings": [
+			"incorporating_the_occult",
+			"occult_elements",
+			"occult_themes",
+			"occult_adventure_seeds",
+			"occult_locations",
+			"esoteric_planes"
+		]
+	},
+	"a_brace_of_imps": {
+		"name": "A Brace of Imps",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
+			"",
+			"Rumors of the corpses of strange creatures appearing for sale in the city are confirmed with the display of a brace of dead [imps](monster/imp) in a local market. Where are they from, and why are they here?",
+			"",
+			"**Discovery:** The characters overhear the rush of fear and excitement when the corpses of two imps appear for sale in a local bazaar. It is soon revealed that the source of the corpses is a local ragpicker with some knowledge of the occult, who discovered the imps discarded behind an old lodge building of a defunct fraternal society. Soon, another pair is discovered, and more pairs follow on its heels. What could be causing their appearance, and who is killing them two at a time?",
+			"",
+			"**Adversary:** The imps are actually the messengers of a powerful devil once in league with the defunct secret society. A sorcerer recently took up residence in the old lodge, and the imps began appearing with tempting offerings from their diabolical master. The sorcerer slew the daily emissaries and disposed of their bodies. Their master is angered by the spellcaster's violent response to his daily demands, and soon more powerful forces well out of the sorcerer's league may appear to exact revenge. Can the PCs come to the sorcerer's aid, or are they already too late?",
+			"",
+			"**Further Adventures:** The PCs may gain a new ally in the form of the sorcerer, or a powerful antagonist if she takes the devil's bargain. Does the ragpicker know more than he is willing to admit? What dark secrets does the lodge hold that the devil may seek for himself ?"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"feast_of_souls": {
+		"name": "Feast of Souls",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
+			"",
+			"With alarming frequency, the rising of the morning sun reveals multiple brutal murders from the night before, and the victims' souls, now separated from their mortal vessels, have failed to answer their bereaved relatives' calls during seances. Someone, or something, is harvesting the souls of the deceased before they can reach their ultimate reward.",
+			"",
+			"**Discovery:** The PCs encounter two competing seance circles that seek to uncover the murderer and the fate of the victims' souls. But both groups' ambitions are murky, and their combativeness threatens to rip the community apart. The PCs enter this chaotic scene as desperation sets in among the victims' families, who only want the comfort of knowing their relatives' souls have found final rest.",
+			"",
+			"**Adversary:** The seance circles began with good intentions, but one of them is unwittingly the pawn of a [night hag](monster/night_hag), unknowingly concealing her dread ambitions. The night hag has extorted the local thieves' guild to gain its services by holding its leader hostage with her dream haunting ability. The guild is now murdering innocent victims so that she can bind their souls to her heartstone. She has also extorted a talented spiritualist in service to one seance circle to use his phantom in place of the rival circle's summoned spirits, sabotaging the group closest to discovering the terrible secret behind the murders by spreading disinformation and deceit. The PCs must reveal the truth behind these proceedings by exposing the fraudulent spiritualist or infiltrating the thieves' guild to discover the identity of the true mastermind behind the murders, before they can finally shatter the hag's heartstone and bring rest to the souls of the dead.",
+			"",
+			"**Further Adventures:** Destroying the hag's heartstone frees the bound souls within, but did the hag have a deeper, more insidious motivation than the mere collection of souls for profit in the evil planes? Perhaps she had captured the spirit of a powerful, corrupt entity that now threatens the city with darker strife after gaining its freedom. The PCs have brought peace to the community for a time, but at what price, and what deadly machinations await?"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"golem's_revenge": {
+		"name": "Golem's Revenge",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
+			"",
+			"Years ago, a vicious purge sought to wipe the poor and wretched from their homes in the city's slums, until a mysterious creature came to their salvation. Now, a generation later, the bodies of city authorities are left broken on the slum's streets for all to see.",
+			"",
+			"**Discovery:** The PCs are called on to investigate the murders and find the corpses brutally smashed and savagely disfigured in ways hardly possible for mortal man. Locals suspect a dimwitted strongman from a traveling freak show, but the true culprit is a deadly [clay golem](monster/clay_golem) once built for protection.",
+			"",
+			"**Adversary:** The secret society responsible for the original purge is planning another. They decided it would be truly poetic if the same protector that stopped the previous purge became the spark for the new one. Using the [awaken construct](spell/awaken_construct) spell, the son of the purge's original architect awakened the old protector, whose creator had since died of old age, and convinced it that he was its father. After sending it out to commit murders of authorities and build anger against the slums, the young aristocrat plans to betray the golem and come out of that betrayal as the hero who stopped the murders, as he leads a second retributive purge of the slums.",
+			"",
+			"**Further Adventures:** The PCs may defeat the golem, but unless they uncover the true plans of the secret society, they haven't thwarted the new purge. Will the PCs come to the rescue of those who cannot protect themselves? Convincing the golem of the truth might net the PCs a powerful ally, but if they destroyed it, they might need to find the old golem crafter's notes and try to teach themselves the occult rituals he used so they can fashion a new golem, if they are to have any hope of defeating the cult's foul undertaking."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"lost_souls": {
+		"name": "Lost Souls",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
+			"",
+			"When a wise and benevolent ruler mysteriously falls unconscious and begins to waste away, turmoil erupts throughout the land as various factions vie for power.",
+			"",
+			"**Discovery:** The ruler's regent, a skilled spiritualist, desperately seeks the PCs. The PCs must take a dangerous psychic journey to the Ethereal Plane, the Dimension of Dreams, or both, in order to find the monarch's errant mind or soul and bring it back before the body dies and the land is divided by strife. If the PCs perish while on this journey, their bodies suffer the same fate as the ruler.",
+			"",
+			"**Adversary:** The ruler has no desire to return to the sorrows of life on the Material Plane, and opposes the PCs at every turn. On the Ethereal Plane, the ruler's spirit makes a procession toward Heaven accompanied by the spirits of loyal knights. The procession visits the ethereal versions of three places significant to the ruler in life. If the characters travel to the Dimension of Dreams, these places are idealized memories rather than ethereal haunts. Regardless of the reality the PCs visit, the ruler resists them. The characters must learn the true reasons for the ruler's sorrow and convince the mind or soul to return to the body. Along the way, they may clash with the ruler's champions as they seek to accomplish their goals.",
+			"",
+			"**Further Adventures:** If the ruler's coma was result of the dark arts or an attempted assassination, the true culprits may lurk in ambush for the characters as they voyage through these strange realms. And as the characters explore, they find the processions of other rulers heading toward Heaven or Hell. Are these events all somehow connected?"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"the_menhir": {
+		"name": "The Menhir",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
+			"",
+			"Every generation, the people of a village on a windswept moor venture out to a solitary menhir, where they join hands and say old words in a language that's been passed down from generation to generation. Farther from this place, in a hidden hillside glen, is a smaller circle of stones-one for every generation- with human bones buried below, the remains of offerings.",
+			"",
+			"**Discovery:** The PCs stop at the village during the course of their adventures. During their stay, the villagers welcome them and throw a feast, declaring one PC to be the \"monarch\" of the harvest and a villager the PC's symbolic \"consort.\" During the night, the villagers make a clumsy attempt to abduct the honored PC and bring him to the menhir (if they fail to abduct the PC, they snatch a second villager instead). The villagers abandon their homes and gather around the menhir, chanting words in a forgotten language. The chosen monarchs are within the circle, seemingly unharmed. If the PCs don't interfere, the next day the king and queen are simply gone, and the villagers claim ignorance of their whereabouts and seem reluctant to investigate.",
+			"",
+			"**Adversary:** A psychic ghost or aberrant horror bound to the menhir manifests every generation to feed on the offerings provided by the villagers. When the being feeds, the menhir glows with a soft golden radiance, and the land for miles around becomes rich and fertile for a whole generation. If the PCs stake out the menhir during the night of the sacrifice, they have a chance to fight the creature, and if they rescue the sacrifices, the creature comes after them.",
+			"",
+			"**Further Adventures:** Creatures of psychic power are attracted to a ley line passing through the menhir. Following the ley line leads to other villages with their own menhirs; those that were denied their sacrifices are now surrounded by dry and desolate land where nothing lives. Ley lines lead from these menhirs as well, on and on throughout the world. Generation after generation, the beings bound to these menhirs feed and grow more powerful. How can the PCs release the common folk from these mysterious horrors?"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"mind_trap": {
+		"name": "Mind Trap",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
+			"",
+			"The PCs find a remarkable amount of success during their exploits, but all is not as it seems.",
+			"",
+			"**Discovery:** After concluding a previous adventure, the PCs celebrate a job well done. During their revelry, they meet a woman who is excited for their success and invites them to her villa. She offers comfortable beds, fine foods and drinks, and the run of her abode. She tells them they are welcome to stay as long as they like, if they help her with a simple task.",
+			"",
+			"**Adversary:** The woman is actually the consciousness of an ancient being imprisoned within an immersive mindscape. It long ago stopped trying to escape its mental prison, and now all it wants is some companionship. The PCs were unknowingly drawn into the consciousness's mindscape at some point during their previous adventure, and are now trapped there with it. The consciousness creates whatever the characters desire, weaving a compelling tapestry of experience at first indistinguishable from the material world. Eventually, the characters figure out that wealth, fame, and fortune are falling into their laps just a little too easily and realize they must find a way out of the mindscape.",
+			"",
+			"**Further Adventures:** The PCs might decide to destroy the mindscape-perhaps by traveling to the Dimension of Dreams, and possibly even freeing the ancient consciousness in the process. Other trapped creatures might exist inside the mindscape, and freeing them might provide the characters with future contacts or adversaries."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"the_order": {
+		"name": "The Order",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",
+			"",
+			"Following a series of disasters or a virulent plague, the desperate populace places its faith in a fanatical faction of an otherwise reputable church. With great resources now at their disposal, the zealots promise to undo the curse by appeasing the gods through punishment of evildoers and heretics.",
+			"",
+			"**Discovery:** \"Witch hunters\" begin an inquisition and arrest anyone who dabbles in magic or the supernatural, including clerics of other faiths. The PCs enter the scene when the witch hunters attempt to arrest them or their allies, or when family members and close associates are captured by the order.",
+			"",
+			"**Adversary:** Outwardly, the leader of the order, the Truthseeker, appears to be its most rational and penitent member. In truth, this person is a psychic tyrant who uses his abilities to read minds and expose enemies of the order. In short time, the splinter faction becomes a powerful cult as the Truthseeker trains the witch hunters to read minds and tell the future. The PCs might simply rescue their allies from the order, or they might expose the Truthseeker.",
+			"",
+			"**Further Adventures:** As the Truthseeker's cult gathers power, how does the original church respond? How many cities and towns has it infiltrated, and how readily does it swell its numbers? Did the cultists cause the tragic events that led to their rise to power? Even if the PCs stop the Truthseeker, is another cult member ready to take up the mantle?"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
+	"portrait_of_evil": {
+		"name": "Portrait of Evil",
+		"subtitle": "Occult, Gamemastering",
+		"sources": [ "Occult Adventures" ],
+		"description": [
+			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",
+			"",
+			"The PCs are tasked with looking into a series of disappearances in a major city. During their investigation, they accidentally come across evidence that implicates a local noble. While the evidence is conclusive in their eyes, it's inadmissible to the local courts, and they soon find themselves at odds with the accused. The PCs are unaware that their suspect is the owner of a [soul portrait](magic-artifact/soul_portrait).",
+			"",
+			"**Discovery:** As the PCs delve into the background of the accused, they learn that despite her youthful appearance, she is well into her seventies. Further research reveals that a series of her acquaintances, competitors, and family members disappeared in the years following her thirtieth birthday. Detailed investigation discovers the accused's obsession with a portrait commissioned in her late twenties, a portrait that some visitors describe as a vision of a rare and radiant beauty, and others speak of only in haunted whispers.",
+			"",
+			"**Adversary:** The accused noble is defended by a legion of mercenaries who are too powerful for the PCs to assault directly. The soul portrait prevents divinations that would reveal her true nature, projecting the image of her innocent younger self. While the PCs are sure she is the cause of the disappearances and other crimes, the noble deflects any blame by means of her sizable wealth and perceived charitable nature. When the PCs truly become a threat to her, the noble attacks those closest to them using various forms of harassment and torture. The PCs have to contend with a foe empowered by the (mistaken) belief that she can suffer no consequences from her actions. Eventually, unless the PCs find a way to catch the accused in a situation where her portrait can't protect her, they are forced to take the law into their own hands.",
+			"",
+			"**Further Adventures:** When the accused is defeated, her image moves to the background of the soul portrait, and the PCs are left with the unsavory task of deciding what to do with the artifact. Less scrupulous PCs may decide to take it for themselves, commissioning an artist to add their likenesses to the canvas, having learned of the powers bequeathed by the portrait. PCs with stronger morals might seek to destroy the artifact, but will soon learn that only the owner of a soul portrait can destroy it- and at the high cost of another's life."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"occult_rules",
+			"running_an_occult_game",
+			"occult_adventure_seeds"
+		],
+		"siblings": [
+			"a_brace_of_imps",
+			"feast_of_souls",
+			"golem's_revenge",
+			"lost_souls",
+			"the_menhir",
+			"mind_trap",
+			"the_order",
+			"portrait_of_evil"
+		]
+	},
 	"occult_locations": {
 		"name": "Occult Locations",
 		"subtitle": "Gamemastering",
@@ -4681,6 +4970,8 @@
 			"",
 			"Each terrain tile's stat block lists the amount of progress a group needs to make to pass off of that tile and onto the next one, followed by the typical type of ground and the base Survival DC in parentheses, plus the maximum number of advantages a group can employ on that type of tile. This limit resets when the group enters a new 1-hour pursuit phase. The number of advantages is smaller the easier the terrain is to navigate, as there's not many tricks that can speed up travel along a road, for instance, without using a vehicle or magical means of conveyance.",
 			"",
+			"---",
+			"",
 			"### Inclement Weather",
 			"",
 			"Bad weather, especially precipitation, can affect both the progress a group makes and the DCs of Survival checks required during pursuits.",
@@ -4689,12 +4980,16 @@
 			"",
 			"**Tracking:** If there is rain during a direct pursuit, increase the DC of the Survival check by 1 for every pursuit phase that it rained. If it snowed, increase the DC by 10 instead. To track the duration of the precipitation during a direct pursuit, mark down the tile where the quarries are and the amount of progress they have made when the precipitation begins, then mark down the progress they had made when the precipitation ends. When the pursuers are on that tile and have made an amount of progress equal to or greater than the lower progress value, use the increased Survival DCs. After the pursuers have passed the higher progress value, the Survival DCs return to normal. If the precipitation occurs before the quarries entered an area, the Survival DCs to follow the trail might be reduced since the ground becomes very soft mud or covered in snow.",
 			"",
+			"---",
+			"",
 			"### Cold",
 			"",
 			"**Progress to Complete** 12  ",
 			"**Ground** soft (DC 10) or very soft (DC 5); **Maximum Advantages** 2",
 			"",
 			"Cold terrain includes tundras, glaciers, and the like. The rules for [environmental cold dangers](rule/cold_dangers) apply in most cases, potentially affecting both groups.",
+			"",
+			"---",
 			"",
 			"### Desert",
 			"",
@@ -4703,12 +4998,16 @@
 			"",
 			"Desert terrain includes warm and sandy areas. The rules for [environmental heat dangers](rule/heat_dangers) apply in most cases, potentially affecting both groups.",
 			"",
+			"---",
+			"",
 			"### Forest",
 			"",
 			"**Progress to Complete** 16  ",
 			"**Ground** firm (DC 15); **Maximum Advantages** 3",
 			"",
 			"Forest terrain includes both deciduous and coniferous forests, but not dense jungles or rain forests.",
+			"",
+			"---",
 			"",
 			"### Hill",
 			"",
@@ -4717,12 +5016,16 @@
 			"",
 			"Hilly terrain includes areas with plenty of uphill and downhill travel, but not mountains.",
 			"",
+			"---",
+			"",
 			"### Jungle",
 			"",
 			"**Progress to Complete** 32  ",
 			"**Ground** firm (DC 15); **Maximum Advantages** 8",
 			"",
 			"Jungle terrain is denser than forest terrain, and it also includes rain forests. Jungle terrain is particularly slow going, but there is ample opportunity to gain an advantage over pursuers or quarries.",
+			"",
+			"---",
 			"",
 			"### Mountain",
 			"",
@@ -4731,12 +5034,16 @@
 			"",
 			"Mountainous terrain contains areas that require climbing, as well as the potential for steep cliffs and precipitous drops. If the need to climb is especially ubiquitous or if the characters are climbing above the timber line (use the rules for [cold dangers](rule/cold_dangers)), a mountain tile can have more maximum advantages and take more progress in order to complete.",
 			"",
+			"---",
+			"",
 			"### Plain",
 			"",
 			"**Progress to Complete** 8  ",
 			"**Ground** firm (DC 15); **Maximum Advantages** 0",
 			"",
 			"The plains terrain is a basic terrain type with no particular hindrances or advantages, and often represents a tame, flat grassland that isn't difficult to travel across. A wild and overgrown savannah tile can easily have more maximum advantages and take more progress to complete. The statistics for a plain tile also suit many other types of readily navigable ground.",
+			"",
+			"---",
 			"",
 			"### Planar",
 			"",
@@ -4745,12 +5052,16 @@
 			"",
 			"Planes vary so wildly in their nature that it would be impossible to create a listing that covers them all in any meaningful way. Sometimes, an area on the planes can be simulated by using another sort of terrain tile. On other planes, tracking becomes nearly impossible. On planes with truly strange or exotic features, such as highly morphic planes, it's appropriate to offer plenty of [know the terrain advantages](rule/sample_advantages) and other advantages involving the plane's nature (such as an advantage using the Fly skill to understand and control subjective gravity).",
 			"",
+			"---",
+			"",
 			"### Road",
 			"",
 			"**Progress to Complete** 8  ",
 			"**Ground** firm (DC 15) or hard (DC 20); **Maximum Advantages** 0",
 			"",
 			"A dirt or cobblestone road can let a group move quickly without leaving as clear a trail as they would in unworked terrain. However, traveling on a road makes it more likely they'll be seen. The [gather information tactic](rule/group_tactics) can make it easier to track road travelers. Old, unused, and overgrown roads are treated like plains.",
+			"",
+			"---",
 			"",
 			"### Swamp",
 			"",
@@ -4759,12 +5070,16 @@
 			"",
 			"Swampy terrain includes bogs, marshes, and fens, as well as any other sort of wetlands. A swamp tile with a significant number of deep areas, quicksand, or more can easily have more maximum advantages and take more progress to complete.",
 			"",
+			"---",
+			"",
 			"### Underground",
 			"",
 			"**Progress to Complete** 12  ",
 			"**Ground** hard (DC 20); **Maximum Advantages** 2",
 			"",
 			"Underground terrain includes caverns and dungeons. While the ground is hard-making it one of the most difficult terrains through which to track prey-the lack of rain or snow can make it much easier for pursuers to catch up to their quarries. While the typical underground tile only offers a small number of obstacles and hindrances, an underground tile with extremely narrow tunnels, yawning chasms, treacherous dips and climbs, or other sorts of features can easily have more maximum advantages and take more progress to complete.",
+			"",
+			"---",
 			"",
 			"### Underwater",
 			"",
@@ -4773,12 +5088,16 @@
 			"",
 			"Underwater pursuits also require more planning than other types. Because travel speeds can very wildly, a pursuit might end up being trivial if one side has members with swim speeds and the other doesn't. Typically, if so much of the pursuit occurs underwater that it takes up an entire terrain tile or more, and both groups are on equal footing in terms of their ability to move underwater, it's best to find an analog among the other terrain tiles and use that instead. For instance, traversing an underwater garden might work like a jungle, traversing open stretches of water might work like a plain, and swimming under an iceberg might be cold terrain or a mountain (and could use the rules for [cold dangers](rule/cold_dangers)). This also assumes the groups can breathe underwater for enough pursuit phases to traverse an underwater tile.",
 			"",
+			"---",
+			"",
 			"### Urban",
 			"",
 			"**Progress to Complete** 16  ",
 			"**Ground** firm (DC 15) or hard (DC 20); **Maximum Advantages** 3",
 			"",
 			"In theory, urban terrain covers settlements from a thorp to a metropolis, but for an entire terrain tile to count as urban, it must be a large enough city to warrant a tile (though smaller settlements might certainly appear on another terrain's tile, thus opening up different tactics or advantages). Tracking through an urban environment can be extremely challenging, given the sheer number of creatures present, but that also makes the [gather information tactic](rule/group_tactics) more effective. Despite the relative ease of moving through a city, an urban tile takes longer to navigate because of the difficulty of tracking creatures through a heavily populated environment.",
+			"",
+			"---",
 			"",
 			"### Water",
 			"",
@@ -5688,162 +6007,6 @@
 			"conjuration_ui",
 			"divinations_2",
 			"enchantments_2"
-		]
-	},
-	"high-level_play_13": {
-		"name": "High-Level Play (13+)",
-		"subtitle": "Spells, Intrigue",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
-			"",
-			"The most reliable spells for finding out information arrive at higher levels, and are 7th level or higher.",
-			"",
-			"### [Abjuration](rule/abjuration)",
-			"",
-			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
-			"",
-			"At least one noteworthy abjuration spell becomes available at 15th level, with far-reaching effects.",
-			"",
-			"[Mind Blank](spell/mind_blank): The 8th-level spell mind blank is a powerful and versatile protection spell that becomes ubiquitous at high levels. Spells such as [discern location](spell/discern_location) can make people easy to find in high-level play, so a credible villain whose identity the PCs know should have [mind blank](spell/mind_blank) cast on himself at all times. If the villain absolutely can't employ a spellcaster with this spell, consider having him join forces with a hag coven (which can offer unlimited castings of [mind blank](spell/mind_blank) spells each day) or equipping him with a [headband of sealed thoughts](magic-wondrous/headband_of_sealed_thoughts).",
-			"",
-			"The PCs are likely starting to cast [mind blank](spell/mind_blank) as much as possible at this level as well, so the villains should put in at least as much effort. Obviously, the villain won't be able to keep all his allies and staff under [mind blank](spell/mind_blank), which provides plenty of opportunities for clever PCs to exploit. For instance, though scrying on a nearby ally of the villain still doesn't reveal the villain protected by [mind blank](spell/mind_blank), PCs might be able to notice a one-sided conversation that indicates that someone with [mind blank](spell/mind_blank) is present.",
-			"",
-			"It all comes down to the villain mustering a defense that is reasonable given his resources, and allowing the PCs to find a clever way to circumvent those defenses. No defense in the world is perfect. For instance, even if a villain somehow convinced a coven of hags to act as a source of [mind blank](spell/mind_blank) for his entire network of allies, the hags become a new vulnerability. The PCs can capture one of the villain's agents, discover information about the hags, and then eliminate the hags or scout out their coven's domain in an attempt to ambush the villain on his way to reestablishing his [mind blank](spell/mind_blank).",
-			"",
-			"### [Divinations](rule/divinations)",
-			"",
-			"**Source** [Ultimate Intrigue pg. 162](source/ultimate_intrigue)",
-			"",
-			"Divinations in high-level play tend to be incredibly powerful, with only [mind blank](spell/mind_blank) offering protection.",
-			"",
-			"[Discern Location](spell/discern_location): This spell lacks the mitigations common to lower-level locating spells. Unless you have a deity willing to cooperate, the only protection from [discern location](spell/discern_location) is [mind blank](spell/mind_blank). Because not everyone can be under [mind blank](spell/mind_blank) all the time, [discern location](spell/discern_location) is incredibly useful, allowing the PCs to get close to a target protected by [mind blank](spell/mind_blank) as long as he has allies or interacts with other people-almost a certainty in an intrigue-focused game. The spell becomes well known by most NPCs, and even threatening to use discern location can be a powerful tactic.",
-			"",
-			"[Greater Scrying](spell/greater_scrying): This is mostly the same as its lesser version, but the timing is vastly different. It takes only a single standard action to cast, and can last the better part of a day. The long duration gives the caster a much greater chance of following the target to a place about which the caster knows the exact layout and precise location. On the other hand, by this level, [detect scrying](spell/detect_scrying) becomes easier to cast, many creatures can see invisible spies, and [mind blank](spell/mind_blank) may shield targets.",
-			"",
-			"[Vision](spell/vision): Compared to [legend lore](spell/legend_lore), [vision](spell/vision) takes much less time to cast, causes fatigue, and requires a caster level check to succeed. Stylistically, the big difference is that the caster sees a single vision rather than hearing information from numerous legends. The character also gets to ask a particular question to narrow the scope of the spell, so that one vision is likely to be related to a topic about which the character really wants to know. For a vision spell, put some good thought into exactly what the PC sees, and try to describe it as vividly as possible with plenty of visual details. You can tailor the vision to show the most-interesting visual snippet related to the question the PC asked. By describing what the PC sees as if she were there, you make the spell an experience rather than a simple information dump. The PC must still interpret what she saw. You may even wish to take the spellcaster's player to another room and describe the vision, then let her return to describe and interpret what her spell revealed to the rest of the party. Sometimes the caster will focus on one of the visual details when another was an even greater clue, which she only discovers later on in an exciting moment of revelation."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_intrigue",
-			"spells_of_intrigue"
-		],
-		"siblings": [
-			"low-level_play_1-6",
-			"mid-level_play_7-12",
-			"high-level_play_13",
-			"example_of_intrigue_spells"
-		]
-	},
-	"example_of_intrigue_spells": {
-		"name": "Example of Intrigue Spells",
-		"subtitle": "Spells, Intrigue",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
-			"",
-			"The following detailed example puts some of the above advice into practice, using two of the most difficult spells to adjudicate, divination and vision. The GM in this example provides different sets of clues to her players with each spell that help point them toward the mystery's solution only when examined together."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_intrigue",
-			"spells_of_intrigue"
-		],
-		"subtopics": [
-			"the_story",
-			"divination_poem",
-			"vision"
-		],
-		"siblings": [
-			"low-level_play_1-6",
-			"mid-level_play_7-12",
-			"high-level_play_13",
-			"example_of_intrigue_spells"
-		]
-	},
-	"the_story": {
-		"name": "The Story",
-		"subtitle": "Spells, Intrigue",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
-			"",
-			"Long ago, a powerful hag led a wicked coven that sought to destroy the kingdom of Gaheris. Seeking to turn enemies into allies, the king of Gaheris convinced the two weaker sisters to break their coven and betray their leader. In exchange, he used magic to reincarnate them into humans and married them to two of his most powerful dukes. The hags sealed their elder sister in her shack and burned her alive, only to see her to rise as a powerful [witchfire](monster/witchfire). After weeks of pitched battle with the undead hag that ranged all across the kingdom, the two sisters trapped the witchfire on the other side of a thick wall in the royal mausoleum, and warded it to contain incorporeal entities, believing they had sealed away the menace forever.",
-			"",
-			"Centuries later, a tomb robber accidentally chipped a hole in the wall, allowing the trapped witchfire to escape. Now consumed with revenge, the enraged undead creature seeks out any of her treacherous sisters' descendants. Given the interbreeding common among the nobility, this includes much of Gaheris's current nobility. Given her original goal of destroying the kingdom, that suits the witchfire just fine. Using ritual magic born of hatred and well beyond a witchfire's normal abilities, she called back the souls of her sisters and bound them into black sapphires, allowing her to gain all the powers of a coven and more. Then, she returned to a cave near her old burned-down hut in the swamp and began to enact her vengeance, using mind-controlled minions to burn her targets alive.",
-			"",
-			"The PCs receive a plea from the current king of Gaheris, asking them to investigate the cause of the streak of arson, which has been targeting members of his family. Kyra casts [divination](spell/divination) with the goal of solving the arsons and Ezren casts [vision](spell/vision), hoping to learn about the true source of the arsons."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_intrigue",
-			"spells_of_intrigue",
-			"example_of_intrigue_spells"
-		],
-		"siblings": [
-			"the_story",
-			"divination_poem",
-			"vision"
-		]
-	},
-	"divination_poem": {
-		"name": "Divination Poem",
-		"subtitle": "Spells, Intrigue",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
-			"",
-			"The GM composes a poem for Kyra to represent the information imparted to her by her deity.",
-			"",
-			"The flame of passion, that which brightest burns,  ",
-			"Of love and hatred treasured or betrayed,  ",
-			"We chip away at every wall in turns,  ",
-			"Not thwarted is the payment, just delayed.",
-			"",
-			"In blackened yawn near the first hungry pyre,  ",
-			"Twin sleepers lie, once foul but later fair,  ",
-			"Dark beauty gleams the prisons two to break,  ",
-			"No loyalty, no love except to take.",
-			"",
-			"**Interpretation:** When read aloud, the first line of the poem contains a homophone of the word \"witch.\" The verse references the witchfire's escape when the wall of the tomb was chipped away. The witchfire's vengeance, or payment as the poem describes it, has just been delayed. The cave mouth is a blackened yawn, and the \"first\" pyre is the one where the hag was burned, though the PCs might go to the first arson as a red herring before they realize this, except perhaps by using additional clues from Ezren's [vision](spell/vision) below. The twin sleepers in prisons of dark beauty are the sisters' souls trapped in black sapphires; freeing them from their magical prisons would weaken the witchfire substantially. The final line hints at the story of betrayal between the sisters, and of how the witchfire only gained their cooperation by taking it forcefully."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_intrigue",
-			"spells_of_intrigue",
-			"example_of_intrigue_spells"
-		],
-		"siblings": [
-			"the_story",
-			"divination_poem",
-			"vision"
-		]
-	},
-	"vision": {
-		"name": "Vision",
-		"subtitle": "Spells, Intrigue",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"**Source** [Ultimate Intrigue pg. 163](source/ultimate_intrigue)",
-			"",
-			"The GM writes a descriptive vision for Ezren.",
-			"",
-			"Flames engulf everything around you. You're in a simple wooden hut that looks out over a swamp onto a great cypress tree in the distance. You see two silhouettes outside, and the front door seems barricaded. Your vision blurs from the smoke and moves violently toward that entrance, as if you were attempting to smash it down-a futile effort. At the edges of your vision, you see countless objects bursting into flames, and you can barely make out strange spices, straw dolls, and what appears to be an eyeball in a bowl of water. Then there is nothing but flame. Your view shifts toward the floor, as your charred hand, with long fingernails, bashes over and over against the floor of the hut. But the effort was too late, and your hand stops moving, as the inferno rises once more, consuming everything.",
-			"",
-			"You shake yourself from the vision and find yourself fatigued, your breathing and heart rate still elevated from the horrible desperation of the burning hut.",
-			"",
-			"**Interpretation:** The true source of the arsons, when it comes down to it, is the original killing of the coven leader, who became a witchfire. The vision provides numerous clues to some of the elements of the story, but the most striking one might be the distinctive great cypress tree. With some further research, Ezren might be able to locate it, allowing him to find the hut's remains, which are also near the cave where the witchfire placed the door to her new demesne."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"mastering_intrigue",
-			"spells_of_intrigue",
-			"example_of_intrigue_spells"
-		],
-		"siblings": [
-			"the_story",
-			"divination_poem",
-			"vision"
 		]
 	}
 }

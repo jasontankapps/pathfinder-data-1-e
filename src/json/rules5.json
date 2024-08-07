@@ -1126,6 +1126,33 @@
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
+			"These tables can be used to construct NPCs quickly."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"nonplayer_characters"
+		],
+		"siblings": [
+			"cast_of_characters",
+			"making_npcs_unique",
+			"life_of_an_npc",
+			"npc_boons",
+			"villains",
+			"npc_creator's_toolbox"
+		],
+		"subtopics": [
+			"npc_toolbox_1",
+			"npc_toolbox_2",
+			"npc_toolbox_3",
+			"npc_toolbox_4"
+		]
+	},
+	"npc_toolbox_1": {
+		"name": "Backgrounds and Goals",
+		"subtitle": "NPC Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 4-1: NPC Backgrounds",
 			"",
 			"| d% | Background |",
@@ -1225,8 +1252,26 @@
 			"| 93-94 | Become a monster |",
 			"| 95-96 | Become a hero |",
 			"| 97-98 | Marry a prince/princess |",
-			"| 99-100 | Rule a country |",
-			"",
+			"| 99-100 | Rule a country |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"nonplayer_characters",
+			"npc_creator's_toolbox"
+		],
+		"siblings": [
+			"npc_toolbox_1",
+			"npc_toolbox_2",
+			"npc_toolbox_3",
+			"npc_toolbox_4"
+		]
+	},
+	"npc_toolbox_2": {
+		"name": "Physical and Personality Characteristics",
+		"subtitle": "NPC Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 4-3: NPC Physical Characteristics",
 			"",
 			"| d% | Characteristic |",
@@ -1437,8 +1482,26 @@
 			"| 97 | Has an imaginary ethereal friend |",
 			"| 98 | Has a habit of eating live insects without realizing it |",
 			"| 99 | Compulsively wipes or cleans things  |",
-			"| 100 | Asks a kobold glove puppet its opinion at inopportune moments |",
-			"",
+			"| 100 | Asks a kobold glove puppet its opinion at inopportune moments |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"nonplayer_characters",
+			"npc_creator's_toolbox"
+		],
+		"siblings": [
+			"npc_toolbox_1",
+			"npc_toolbox_2",
+			"npc_toolbox_3",
+			"npc_toolbox_4"
+		]
+	},
+	"npc_toolbox_3": {
+		"name": "Occupations and Secrets",
+		"subtitle": "NPC Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 4-5: NPC Occupations",
 			"",
 			"To pick an option randomly, roll 1d6 to pick a column, then pick a row using 1d4 and 1d12, rerolling a 12 if it comes up.",
@@ -1543,8 +1606,26 @@
 			"| 93-94 | Has some orc blood in their family |",
 			"| 95-96 | Has some troll blood in their family |",
 			"| 97-98 | Knows where the meteor landed |",
-			"| 99-100 | Knows someone is not what appears to be |",
-			"",
+			"| 99-100 | Knows someone is not what appears to be |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"nonplayer_characters",
+			"npc_creator's_toolbox"
+		],
+		"siblings": [
+			"npc_toolbox_1",
+			"npc_toolbox_2",
+			"npc_toolbox_3",
+			"npc_toolbox_4"
+		]
+	},
+	"npc_toolbox_4": {
+		"name": "Rewards and Random Name Generator",
+		"subtitle": "NPC Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 4-7: NPC Rewards for Heroic Deeds",
 			"",
 			"| d% | Reward |",
@@ -1660,15 +1741,14 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"nonplayer_characters",
+			"npc_creator's_toolbox"
 		],
 		"siblings": [
-			"cast_of_characters",
-			"making_npcs_unique",
-			"life_of_an_npc",
-			"npc_boons",
-			"villains",
-			"npc_creator's_toolbox"
+			"npc_toolbox_1",
+			"npc_toolbox_2",
+			"npc_toolbox_3",
+			"npc_toolbox_4"
 		]
 	},
 	"rewards": {
@@ -6284,8 +6364,40 @@
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"An innocent facade can often hide a dark secret, and who knows what lurks behind that stuck door or beyond that rusty portcullis? When looking for a lair for your villains or the inspiration to create a new trap-filled vault, consider using the ideas below, or simply use the following tables to generate a home for a villain you didn't expect the PCs to follow",
-			"",
+			"An innocent facade can often hide a dark secret, and who knows what lurks behind that stuck door or beyond that rusty portcullis? When looking for a lair for your villains or the inspiration to create a new trap-filled vault, consider using the ideas below, or simply use the following tables to generate a home for a villain you didn't expect the PCs to follow"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg"
+		],
+		"siblings": [
+			"the_dungeon_concept",
+			"drawing_a_dungeon_map",
+			"sketching_the_map",
+			"inking_the_map",
+			"tagging_the_map",
+			"adding_details_to_the_map",
+			"dungeon_ecology",
+			"encounter_archetypes",
+			"resting_in_the_dungeon",
+			"dungeon_toolbox"
+		],
+		"subtopics": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_1": {
+		"name": "Dungeon Locations, Types and Entrances",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-1: Places to Find Dungeons",
 			"",
 			"| d% | Dungeon Setting |",
@@ -6441,8 +6553,29 @@
 			"| 93-94 | A magically animated maw |",
 			"| 95-96 | A lighthouse that casts a solid beam |",
 			"| 97-98 | A bridge made from rainbows |",
-			"| 99-100 | A moonbeam reveals a door in a stone circle |",
-			"",
+			"| 99-100 | A moonbeam reveals a door in a stone circle |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_2": {
+		"name": "Dungeon Rooms",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-4: Dungeon Rooms ",
 			"",
 			"| d% | Room |",
@@ -6606,8 +6739,29 @@
 			"| 93-94 | Has a magic pool |",
 			"| 95-96 | Is the stomach of a creature |",
 			"| 97-98 | Weeps to itself |",
-			"| 99-100 | Is alive |",
-			"",
+			"| 99-100 | Is alive |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_3": {
+		"name": "100 Pieces of Minor and Major Dungeon Dressing",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-7: 100 Pieces of Minor and Major Dungeon Dressing",
 			"",
 			"| d% | Minor Objects | Major Objects |",
@@ -6711,8 +6865,29 @@
 			"| 97 | Wall markings | Washstand |",
 			"| 98 | Wax | Well |",
 			"| 99 | Wheelbarrow | Winch |",
-			"| 100 | Whistle | Wood bench |",
-			"",
+			"| 100 | Whistle | Wood bench |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_4": {
+		"name": "Dragon's Lair, Goblin Den, Graveyard/Necropolis",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-8: Dragon's Lair",
 			"",
 			"| d% | Encounter | Avg. CR |",
@@ -6798,8 +6973,29 @@
 			"| 89-92 | 1d4 vampires | 11 |",
 			"| 93-95 | 1 stone golem | 11 |",
 			"| 96-98 | 1d6 mohrgs | 11 |",
-			"| 99-100 | 1 lich | 12 |",
-			"",
+			"| 99-100 | 1 lich | 12 |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_5": {
+		"name": "Lost Jungle City, Planar Stronghold, Underwater Ruin",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-11: Lost Jungle City",
 			"",
 			"| d% | Encounter | Avg. CR |",
@@ -6884,8 +7080,29 @@
 			"| 90-91 | 1 hezrou | 11 |",
 			"| 92-95 | 1d6 giant octopi | 11 |",
 			"| 96-98 | 1 sea serpent | 12 |",
-			"| 99-100 | 1 kraken | 18 |",
-			"",
+			"| 99-100 | 1 kraken | 18 |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"dungeons_gg",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
+		]
+	},
+	"dt_6": {
+		"name": "Unholy Temple, Wizard's Laboratory",
+		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
 			"### Table 7-14: Unholy Temple",
 			"",
 			"| d% | Encounter | Avg. CR |",
@@ -6948,19 +7165,16 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"dungeons_gg"
+			"dungeons_gg",
+			"dungeon_toolbox"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"dt_1",
+			"dt_2",
+			"dt_3",
+			"dt_4",
+			"dt_5",
+			"dt_6"
 		]
 	}
 }
