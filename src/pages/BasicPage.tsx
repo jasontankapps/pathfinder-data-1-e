@@ -28,7 +28,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} /> : children}
 				</div>
 			</IonContent>
-			<PageFooter setIsSourcesModalOpen={setIsSourcesModalOpen} />
+			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />
 		</IonPage>
 	);
 };

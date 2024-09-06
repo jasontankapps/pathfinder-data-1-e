@@ -16,6 +16,7 @@ import ErrorPage from './pages/ErrorPage';
 import Loading from './Loading';
 
 import FrontPage from './FrontPage';
+import AboutOnlyPage from './AboutOnlyPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -118,6 +119,7 @@ const App: FC = () => {
 					<Menu />
 					<IonRouterOutlet id="main">
 						<Route path="/" exact={true} render={() => <FrontPage />} />
+						<Route path="/about" exact={true} render={() => <AboutOnlyPage />} />
 						<Route path="/main/:mainpage" render={() => <MainPage />} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />

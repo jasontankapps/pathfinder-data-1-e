@@ -103,7 +103,7 @@ const appPages: AppPage[] = [
 	},
 	{
 		title: "About",
-		url: "/",
+		url: "/about",
 		icon: alertCircle,
 		equals: "/"
 	}

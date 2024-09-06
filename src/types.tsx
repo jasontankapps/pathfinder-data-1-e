@@ -75,23 +75,46 @@ type Digit = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 type Next = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 type Inc<T extends number> =
 	T extends -1 ? 0 :
-	`${T}` extends `-${infer N extends number}` ? `-${Dec<N>}` extends
-	`${infer M extends number}` ? M : never :
-	`${T}` extends `${infer F extends number}${Digit}` ?
-	`${T}` extends `${F}${infer D extends Digit}` ?
-	`${D extends 9 ? Inc<F> : F}${Next[D]}` extends
-	`${infer N extends number}` ? N : never : never :
-	T extends 9 ? 10 : Next[T];
+	(
+		`${T}` extends `-${infer N extends number}` ?
+			(`-${Dec<N>}` extends `${infer M extends number}` ? M : never)
+		:
+			(
+				`${T}` extends `${infer F extends number}${Digit}` ?
+					(
+						`${T}` extends `${F}${infer D extends Digit}` ?
+							(`${D extends 9 ? Inc<F> : F}${Next[D]}` extends `${infer N extends number}` ? N : never)
+						:
+							never
+					)
+				:
+					(T extends 9 ? 10 : Next[T])
+			)
+	);
 
 type Prev = [9, 0, 1, 2, 3, 4, 5, 6, 7, 8];
 type Dec<T extends number> =
-	`${T}` extends `-${infer N extends number}` ? `-${Inc<N>}` extends
-	`${infer M extends number}` ? M : never :
-	`${T}` extends `${infer F extends number}${Digit}` ?
-	`${T}` extends `${F}${infer D extends Digit}` ?
-	`${D extends 0 ? Dec<F> extends 0 ? "" : Dec<F> : F}${Prev[D]}` extends
-	`${infer N extends number}` ? N : never : never :
-	T extends 0 ? -1 : Prev[T];
+	(
+		`${T}` extends `-${infer N extends number}` ?
+			(`-${Inc<N>}` extends `${infer M extends number}` ? M : never)
+		:
+			(
+				`${T}` extends `${infer F extends number}${Digit}` ?
+					(
+						`${T}` extends `${F}${infer D extends Digit}` ?
+							(
+								`${D extends 0 ? Dec<F> extends 0 ? "" : Dec<F> : F}${Prev[D]}` extends `${infer N extends number}` ?
+									N
+								:
+									never
+							)
+						:
+							never
+					)
+				:
+					(T extends 0 ? -1 : Prev[T])
+			)
+	);
 
 // RangeStartToEndMinusOne<desired start, desired end + 1>
 // This will fail if (END - START) >= 1000

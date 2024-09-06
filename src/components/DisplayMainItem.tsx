@@ -50,7 +50,7 @@ const doLink = (props: MDaProps) => {
 		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
-		const m = href.match(/user-content-fn-(.+)/);
+		//const m = href.match(/user-content-fn-(.+)/);
 		// Trying to make create the ID property that the footnote link will be pointing at,
 		//   since the plugin apparently doesn't do that automatically...
 		const scrollWithOffset = (el: HTMLElement) => {
@@ -79,7 +79,7 @@ const td = (props: MDpProps) => {
 const p = (props: MDpProps, tables: Table[]) => {
 	const { children } = props;
 	if(typeof(children) === "string") {
-		let m = children.match(/^\{table([0-9]+)\}$/);
+		const m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {
 			const index = parseInt(m[1]);
 			if(index >= 0 && index < tables.length) {
@@ -110,7 +110,7 @@ const getElementAndUrl = (input: string): [ReactNode, string] => {
 		return [<h1 className="error">{input}</h1>, ""];
 	}
 	const url = m[1];
-	let text = m[2];
+	const text = m[2];
 	const slash = text.match(/(^.+?) \/\/ (.+$)/);
 	if(slash) {
 		return ([
@@ -159,7 +159,7 @@ const h6 = (props: MDpProps) => {
 	return <IonItem className="mainItem linked reversed" href={url}>{element}</IonItem>
 };
 
-const hr = (props: MDpProps) => {
+const hr = () => {
 	return <IonItemDivider className="mainItem divider"></IonItemDivider>
 };
 

@@ -4,6 +4,7 @@ import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
 import { HierarchyArray, Table } from '../types';
 import BasicPage from './BasicPage';
+import './BasicRulesPage.css';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [

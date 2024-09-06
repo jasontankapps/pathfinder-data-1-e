@@ -1,5 +1,5 @@
-import { IonButton, IonButtons, IonFooter, IonIcon, IonToolbar } from '@ionic/react';
-import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
+import { IonButton, IonButtons, IonFooter, IonIcon, IonLabel, IonToolbar, IonTabButton } from '@ionic/react';
+import { chevronBack, chevronForward, book } from 'ionicons/icons';
 import { useHistory } from 'react-router';
 
 type Action = React.Dispatch<React.SetStateAction<boolean>>;
@@ -7,9 +7,12 @@ type Action = React.Dispatch<React.SetStateAction<boolean>>;
 const Slotless: React.FC<{func: Action}> = ({ func }) => {
 	return (
 		<IonButtons className="slotless">
-			<IonButton onClick={() => func(true)}>
-				<IonIcon slot="icon-only" icon={informationCircle} />
-			</IonButton>
+			<div onClick={() => func(true)}>
+				<IonTabButton>
+					<IonIcon icon={book} />
+					<IonLabel>Sources</IonLabel>
+				</IonTabButton>
+			</div>
 		</IonButtons>
 	);
 };
