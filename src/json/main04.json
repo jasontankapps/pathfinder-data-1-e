@@ -565,8 +565,7 @@
 					[ "[Forsaken Legion, Forsaken Defender](monster/forsaken_legion,_forsaken_defender)", 4, "undead", [ 4, "medium" ], [ 2, "LE" ], "This undead soldier carries a heavy-looking pickaxe in one hand and a short sword in the other." ],
 					[ "[Forsaken Legion, Forsaken Foot Soldier](monster/forsaken_legion,_forsaken_foot_soldier)", 2, "undead", [ 4, "medium" ], [ 2, "LE" ], "This withered corpse carries a sharpened spear and has a small shield strapped to its emaciated arm." ],
 					[ "[Fossegrim](monster/fossegrim)", 4, "fey", [ 4, "medium" ], [ 5, "NE" ], "This striking, blue-eyed man with luminous skin and flowing white hair holds an ethereal harp." ],
-					[ "[Fox (Familiar)](monster/familiar,_fox)", [ -4, "1/4" ], "animal", [ 2, "tiny" ], [ 4, "N" ], null
-					]
+					[ "[Fox (Familiar)](monster/familiar,_fox)", [ -4, "1/4" ], "animal", [ 2, "tiny" ], [ 4, "N" ], null ]
 				],
 				"initialColumn": 0,
 				"className": "endcaps"
@@ -798,8 +797,7 @@
 					[ "[Bitter Nobleman](trait/bitter_nobleman)", null ],
 					[ "[Black Sheep](trait/black_sheep)", null ],
 					[ "[Favored Son or Daughter](trait/favored_son_or_daughter)", null ],
-					[ "[Outlander](trait/outlander)", null
-					]
+					[ "[Outlander](trait/outlander)", null ]
 				],
 				"initialColumn": 1,
 				"nullValue": "*(any)*",
@@ -1244,8 +1242,7 @@
 					[ "[Resilient Construction](trait/resilient_construction)", "Wyrwood " ],
 					[ "[Fierce Flanker](trait/fierce_flanker)", "Wyvaran " ],
 					[ "[Blood of Dragons](trait/blood_of_dragons)", null ],
-					[ "[Draconic Lineage](trait/draconic_lineage)", null
-					]
+					[ "[Draconic Lineage](trait/draconic_lineage)", null ]
 				],
 				"initialColumn": 1,
 				"nullValue": "*(any)*",
@@ -4940,8 +4937,7 @@
 					[ "[Scarlet Walker](monster/scarlet_walker)", 12, "outsider", [ 6, "huge" ], [ 2, "LE" ], "This crimson horror walks upon six long, thin legs. Its face is neither that of a skull nor spider, but some horrid mix of the two." ],
 					[ "[Sceaduinar](monster/sceaduinar)", 7, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This gargoyle-like creature has long spiky legs and a bat-like head-its body seems to be made of living, dark purple crystal." ],
 					[ "[Sceazir](monster/sceazir)", 9, "outsider", [ 5, "large" ], [ 5, "NE" ], "This winged, six-legged creature seems to be constructed of dark crystal. Its mouth is disproportionately large for its wolfish head, gaping open to display rows of jagged teeth, and its spiky, manyjointed legs bend in unsettling ways." ],
-					[ "[Scitalis](monster/scitalis)", 12, "dragon", [ 5, "large" ], [ 4, "N" ], "This ophidian dragon's scales and frills form a brightly colored pattern, backlit like stained glass by the creature's inner glow."
-					]
+					[ "[Scitalis](monster/scitalis)", 12, "dragon", [ 5, "large" ], [ 4, "N" ], "This ophidian dragon's scales and frills form a brightly colored pattern, backlit like stained glass by the creature's inner glow." ]
 				],
 				"initialColumn": 0,
 				"className": "endcaps"

@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "net.jasontank.pathfinderdata1e"
+    namespace "net.jasontank.pfdata1e"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "net.jasontank.pathfinderdata1e"
+        applicationId "net.jasontank.pfdata1e"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package net.jasontank.pathfinderdata1e;
+package net.jasontank.pfdata1e;
 
 import com.getcapacitor.BridgeActivity;
 

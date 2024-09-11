@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Pathfinder Data 1E</string>
-    <string name="title_activity_main">Pathfinder Data 1E</string>
-    <string name="package_name">net.jasontank.pathfinderdata1e</string>
-    <string name="custom_url_scheme">net.jasontank.pathfinderdata1e</string>
+    <string name="app_name">PF Data 1E</string>
+    <string name="title_activity_main">PF Data 1E</string>
+    <string name="package_name">net.jasontank.pfdata1e</string>
+    <string name="custom_url_scheme">net.jasontank.pfdata1e</string>
 </resources>
