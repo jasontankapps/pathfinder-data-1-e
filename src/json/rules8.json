@@ -769,7 +769,7 @@
 			"",
 			"**Pariah (MR 2):** A pariah suffers the disdain of a certain group such as a city council, local religious leaders and their congregation, or even an entire community. Though not openly persecuted or hunted, the pariah has few rights and no privileges. What pariahs can offer varies from one to another. Use another contact type for the basis of that aid, but use the pariah's minimum Risk.",
 			"",
-			"**Petty Criminal (MR 2):** A petty criminal dabbles in minor nonviolent crimes, such as burglary, smuggling, and money laundering. He might also know about covert passages through a city and which officials accept bribes. He could be willing to introduce you to a professional criminal or crime boss.",
+			"**Petty Criminal (MR 2):** A petty criminal dabbles in minor non-violent crimes, such as burglary, smuggling, and money laundering. He might also know about covert passages through a city and which officials accept bribes. He could be willing to introduce you to a professional criminal or crime boss.",
 			"",
 			"**Politician (MR 2):** This person holds an influential position within the community's current political structure. She might be a royal advisor, a tribal council member, or the scion of another politician. The contact maintains direct access to the ears and concerns of those with political power and can attempt to influence their decisions. This type of contact is highly sought after, so her actions are closely watched to prevent outsiders (like you) from bribing or otherwise manipulating her. Though she has great potential to initiate social and political changes, she remains under close scrutiny at all times. A politician who has fallen out of favor could become a gossip, outsider, manipulator, or even a pariah or traitor.",
 			"",
@@ -884,7 +884,7 @@
 			"",
 			"When designing tasks for sandbox gaming, have them be things the party can choose to do, not that they must do. By leaving the choice of which tasks to undertake up to them, you allow the PCs to be wandering heroes' masters of their own fate who travel the land setting things right.",
 			"",
-			"This kind of nonlinear play encourages PCs to move out into the world, search for new tasks, and claim their rewards. You can also use these tasks to introduce new sites in the world by offering the characters jobs delivering goods, escorting travelers, and the like."
+			"This kind of non-linear play encourages PCs to move out into the world, search for new tasks, and claim their rewards. You can also use these tasks to introduce new sites in the world by offering the characters jobs delivering goods, escorting travelers, and the like."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2531,7 +2531,7 @@
 			"",
 			"The most obvious manifestation of your character's lineage is his still-living relatives. Many of these NPCs have been with the character since birth, and helped shape him into the person he is today. A character's family is an extension of that character's backstory, and so you should ultimately have the final say over its size and nature. The GM should only intervene when your desired family would disrupt the campaign in some way or give you an unfair advantage. For the same reason, the GM should avoid introducing new members to your character's family after the campaign begins, unless the circumstances of the story (such as marriage or pregnancy) demand it.",
 			"",
-			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this book and in [Nonplayer Characters](rule/nonplayer_characters) to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see [Complicated and Dysfunctional Families](rule/complicated_and_dysfunctional_families).",
+			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this book and in [Non-Player Characters](rule/non-player_characters) to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see [Complicated and Dysfunctional Families](rule/complicated_and_dysfunctional_families).",
 			"",
 			"**Immediate Family:** This group includes anyone who played a direct role in raising the character, or anyone whom the character is raising (such as a child or younger sibling). Generally this includes the character's mother, father, surrogate parents, brothers, sisters, and any other live-in relatives. The character's spouse (if any) also belongs in this category, as do any children. The size of an immediate family varies by culture, but for most campaigns they shouldn't be too numerous. These family members are usually very loyal, and start the campaign with a helpful attitude toward the PC (though in most campaigns they are low-level NPC-class characters and can't provide much support in terms of finances or gear). It should be difficult to permanently worsen their attitudes, barring exceptionally heinous actions. A character's greatest obligations are often to immediate family members, and when times get rough for the family, he may be expected to spend time or money helping them.",
 			"",
@@ -2593,7 +2593,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 167](source/ultimate_campaign)",
 			"",
-			"You can create and describe the individual members of your character's family using rules in [Nonplayer Characters](rule/nonplayer_characters) and the guidelines earlier in this chapter, but a true family is more than a collection of NPCs with the same surname. Families have traditions, values, and a shared folklore that sets them apart, even from other groups in the same culture. When developing your character's family, you should consider what makes that family unique.",
+			"You can create and describe the individual members of your character's family using rules in [Non-Player Characters](rule/non-player_characters) and the guidelines earlier in this chapter, but a true family is more than a collection of NPCs with the same surname. Families have traditions, values, and a shared folklore that sets them apart, even from other groups in the same culture. When developing your character's family, you should consider what makes that family unique.",
 			"",
 			"Does the family have any famous ancestors that they're proud or embarrassed of? What stories do the family elders tell about them? What stories do other family members tell? Does the family follow any special naming traditions, or worship a deity unusual for the region? What songs do they sing? Do any members have notorious reputations? Does the family have a motto? What values do they hold and what behaviors do they condemn? These are just a few examples of questions you can use to breathe life into the family and give its members a sense of cohesion."
 		],
@@ -3679,7 +3679,7 @@
 			"| Defeat a key rival in combat | +5 |",
 			"| Be convicted of a petty crime | -1 |",
 			"| Keep company with someone of disreputable character[^8] | -1 |",
-			"| Be convicted of a serious nonviolent crime | -2 |",
+			"| Be convicted of a serious non-violent crime | -2 |",
 			"| Publicly flee an encounter of a CR lower than your APL | -3 |",
 			"| Attack innocent people | -5 |",
 			"| Be convicted of a serious violent crime | -5 |",
@@ -4622,7 +4622,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
 			"",
-			"If your campaign uses alternate racial traits, you can retrain a racial trait. This takes 20 nonconsecutive days and requires a trainer with the racial trait you want. The replacement trait must be an appropriate one from your racial list. The old and new racial traits must replace the same standard racial trait. For example, the [magic resistant and stubborn alternate dwarven traits replace the hardy standard trait](race/dwarf), so you can retrain one of those for the other."
+			"If your campaign uses alternate racial traits, you can retrain a racial trait. This takes 20 non-consecutive days and requires a trainer with the racial trait you want. The replacement trait must be an appropriate one from your racial list. The old and new racial traits must replace the same standard racial trait. For example, the [magic resistant and stubborn alternate dwarven traits replace the hardy standard trait](race/dwarf), so you can retrain one of those for the other."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6866,7 +6866,7 @@
 			"",
 			"A [mindscape](rule/mindscapes) is typically a surreal puzzle environment where the characters accomplish their tasks by navigating the mindscape and deceiving or satisfying the controlling mind, overcoming its defenses, unlocking its doors, and learning the secrets buried deep within.",
 			"",
-			"GMs should be prepared to adjudicate scenes where the characters project themselves into nonphysical realms. Adventures along this theme might find the characters entering the twisted mindscape of an insane or possessed victim, or they might enter the mindscape of an enemy to steal hidden knowledge or implant subconscious suggestions."
+			"GMs should be prepared to adjudicate scenes where the characters project themselves into non-physical realms. Adventures along this theme might find the characters entering the twisted mindscape of an insane or possessed victim, or they might enter the mindscape of an enemy to steal hidden knowledge or implant subconscious suggestions."
 		],
 		"parent_topics": [
 			"gamemastering",

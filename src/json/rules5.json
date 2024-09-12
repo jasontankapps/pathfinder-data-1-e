@@ -1,12 +1,12 @@
 {
-	"nonplayer_characters": {
-		"name": "Nonplayer Characters",
+	"non-player_characters": {
+		"name": "Non-Player Characters",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
 			"",
-			"While player characters provide the focus and driving force of a game's plot, over the course of even a single adventure dozens or even hundreds of other characters take their entrances and exits, sometimes aiding, sometimes threatening, yet always contributing something to the tale. These are nonplayer characters, the populations of entire campaign worlds, the monsters and villains of plots crude and nefarious, allies and agents, royals and shopkeeps, and the limitless arsenal of a storyteller's imagination."
+			"While player characters provide the focus and driving force of a game's plot, over the course of even a single adventure dozens or even hundreds of other characters take their entrances and exits, sometimes aiding, sometimes threatening, yet always contributing something to the tale. These are non-player characters, the populations of entire campaign worlds, the monsters and villains of plots crude and nefarious, allies and agents, royals and shopkeeps, and the limitless arsenal of a storyteller's imagination."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -24,7 +24,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",
@@ -41,12 +41,12 @@
 			"",
 			"For every player character with complete statistics and volumes of background there exist countless NPCs, some just as nuanced and well developed as veteran heroes, others two-dimensional and stereotyped, destined to speak but once before fading back into anonymity. Regardless of their role or impact on a campaign, a GM's legion of NPCs enables him to weave the tale he has to tell. Some swiftly become favorites, either of the players or GM, and take on roles bordering on the PCs' significance. Others are challenges to be avoided or overcome, whether reoccurring opponents or ravenous things straight from a bestiary's pages. Still others exist merely to give color and life to a world, commoners and passersby who merely brush against the PCs in their adventures, aiding, hindering, or simply living their lives as natives of a shared fantasy. Whether recurring or transitory, helpful or menacing, NPCs serve as the living descriptions of a campaign world, each eliciting a reaction from the collected players, and each helping to take the tale beyond the realm of one-sided narrative and into the experience of a vibrant, living adventure.",
 			"",
-			"This chapter delves into the world of nonplayer characters: from designing the types of characters a GM might want to include in his story to making even the most peripheral personalities memorable. Beyond such advice and toolboxes of character creation also comes advice on detailing those most important of NPCs: villains. As with many sections in this book, this chapter can serve as a reference and toolbox for GMs during the course of their games, making use of the tables at the end of the chapter either as aids to give unanticipated characters a little extra flair or resources to provide your favorite NPCs the details they need to be truly memorable. In addition, an NPC Sheet is included in the back of this book for you to record the details of the NPCs you create."
+			"This chapter delves into the world of non-player characters: from designing the types of characters a GM might want to include in his story to making even the most peripheral personalities memorable. Beyond such advice and toolboxes of character creation also comes advice on detailing those most important of NPCs: villains. As with many sections in this book, this chapter can serve as a reference and toolbox for GMs during the course of their games, making use of the tables at the end of the chapter either as aids to give unanticipated characters a little extra flair or resources to provide your favorite NPCs the details they need to be truly memorable. In addition, an NPC Sheet is included in the back of this book for you to record the details of the NPCs you create."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"subtopics": [
 			"designing_npcs",
@@ -77,7 +77,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"cast_of_characters"
 		],
 		"siblings": [
@@ -113,7 +113,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"cast_of_characters"
 		],
 		"siblings": [
@@ -135,7 +135,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"cast_of_characters"
 		],
 		"siblings": [
@@ -165,7 +165,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"cast_of_characters"
 		],
 		"siblings": [
@@ -201,7 +201,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"subtopics": [
 			"naming_npcs",
@@ -238,7 +238,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"making_npcs_unique"
 		],
 		"siblings": [
@@ -260,7 +260,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"making_npcs_unique"
 		],
 		"siblings": [
@@ -284,7 +284,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"making_npcs_unique"
 		],
 		"siblings": [
@@ -314,7 +314,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"making_npcs_unique"
 		],
 		"siblings": [
@@ -336,7 +336,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"subtopics": [
 			"building_connections",
@@ -374,7 +374,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"life_of_an_npc"
 		],
 		"siblings": [
@@ -405,7 +405,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"life_of_an_npc"
 		],
 		"siblings": [
@@ -423,12 +423,12 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
 			"",
-			"The term \"nonplayer character\" suggests that NPCs are characters played by the GM, but according to circumstances and GM preference, they might also be played by one or more assistant GMs, or by players whose characters have died in situations where it is not feasible for the party to meet a replacement PC. PCs who gain devotees might also take on the role of playing one of their followers. Who plays which NPCs is ultimately up to the GM, but often making a secondary character a player's responsibility allows the GM to remain focused on the story and keeps him from giving a single character and her retinue an unfair amount of attention. Regardless of who plays an NPC, the important distinction is that PCs play the \"starring roles\" in a roleplaying adventure, while NPCs are secondary characters and extras. Yet remember that just because NPCs are usually played by the GM, they don't always have to be and can afford new or guest players a unique opportunity to participate in the game."
+			"The term \"non-player character\" suggests that NPCs are characters played by the GM, but according to circumstances and GM preference, they might also be played by one or more assistant GMs, or by players whose characters have died in situations where it is not feasible for the party to meet a replacement PC. PCs who gain devotees might also take on the role of playing one of their followers. Who plays which NPCs is ultimately up to the GM, but often making a secondary character a player's responsibility allows the GM to remain focused on the story and keeps him from giving a single character and her retinue an unfair amount of attention. Regardless of who plays an NPC, the important distinction is that PCs play the \"starring roles\" in a roleplaying adventure, while NPCs are secondary characters and extras. Yet remember that just because NPCs are usually played by the GM, they don't always have to be and can afford new or guest players a unique opportunity to participate in the game."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"life_of_an_npc"
 		],
 		"siblings": [
@@ -451,7 +451,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"life_of_an_npc"
 		],
 		"siblings": [
@@ -480,7 +480,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"life_of_an_npc"
 		],
 		"siblings": [
@@ -517,7 +517,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"subtopics": [
 			"adept",
@@ -561,7 +561,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_boons"
 		],
 		"siblings": [
@@ -598,7 +598,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_boons"
 		],
 		"siblings": [
@@ -635,7 +635,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_boons"
 		],
 		"siblings": [
@@ -672,7 +672,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_boons"
 		],
 		"siblings": [
@@ -709,7 +709,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_boons"
 		],
 		"siblings": [
@@ -734,7 +734,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"subtopics": [
 			"villainous_archetypes",
@@ -762,7 +762,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains"
 		],
 		"siblings": [
@@ -796,7 +796,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"villainous_archetypes"
 		],
@@ -826,7 +826,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"villainous_archetypes"
 		],
@@ -856,7 +856,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"villainous_archetypes"
 		],
@@ -886,7 +886,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"villainous_archetypes"
 		],
@@ -916,7 +916,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"villainous_archetypes"
 		],
@@ -952,7 +952,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains"
 		],
 		"siblings": [
@@ -973,7 +973,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains"
 		],
 		"siblings": [
@@ -1001,7 +1001,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"playing_villains"
 		],
@@ -1025,7 +1025,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"playing_villains"
 		],
@@ -1049,7 +1049,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"playing_villains"
 		],
@@ -1073,7 +1073,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"playing_villains"
 		],
@@ -1109,7 +1109,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"villains",
 			"playing_villains"
 		],
@@ -1131,7 +1131,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters"
+			"non-player_characters"
 		],
 		"siblings": [
 			"cast_of_characters",
@@ -1257,7 +1257,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_creator's_toolbox"
 		],
 		"siblings": [
@@ -1453,7 +1453,7 @@
 			"| 68 | Gets angrier and more determined with each setback  |",
 			"| 69 | Thinks most objects are magical wondrous items |",
 			"| 70 | Seems to lack a moral compass when making plans (though not in everyday life); often proposes horrific solutions to minor problems |",
-			"| 71 | Quietly makes personal sacrifices to help others, including forgoing meals, \"losing\" warm clothing, and repaying nonexistent loans |",
+			"| 71 | Quietly makes personal sacrifices to help others, including forgoing meals, \"losing\" warm clothing, and repaying non-existent loans |",
 			"| 72 | Suffering from some terminal illness |",
 			"| 73 | Name-drops constantly  |",
 			"| 74 | Does a terrible job rather than refuse an unpleasant or unwanted task |",
@@ -1487,7 +1487,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_creator's_toolbox"
 		],
 		"siblings": [
@@ -1611,7 +1611,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_creator's_toolbox"
 		],
 		"siblings": [
@@ -1741,7 +1741,7 @@
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
-			"nonplayer_characters",
+			"non-player_characters",
 			"npc_creator's_toolbox"
 		],
 		"siblings": [
@@ -1774,7 +1774,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",
@@ -2688,7 +2688,7 @@
 			"",
 			"Often you want the party to meet a supporting player in a casual context before they discover his or her true importance in the story. The NPC might later be revealed to be an evil conspirator, a prince unaware of his birthright, or a predatory monster in disguise. If so, introduce an item of treasure that character will want to buy, examine, or attempt to steal. For example, make your conspirator a rug merchant, and the item of treasure a rare and valuable carpet.",
 			"",
-			"#### Would an item lead the characters to interact nonviolently with an enemy who wouldn't ordinarily talk to them?",
+			"#### Would an item lead the characters to interact non-violently with an enemy who wouldn't ordinarily talk to them?",
 			"",
 			"A precious memento or object of art might attract the attention of a cruel and powerful entity who wants it enough to negotiate a fair transaction under neutral circumstances. This allows the PCs to converse with the dragon, bandit king, or demon lord they'll wind up fighting later, when they have enough experience to tackle the foe.",
 			"",
@@ -3438,7 +3438,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",
@@ -3776,7 +3776,7 @@
 			"",
 			"### Which is strongest: magic, gods, or nature?",
 			"",
-			"Fantasy worlds often hang in the balance between opposing forces. Is your world all a grand design, woven by cosmic beings? Is arcane magic in opposition to the power of the gods and their clerics? Does nature battle magic's transforming nature, or do the forces of order and chaos battle for domination? It's possible that a nonstandard answer to this question can form the heart of a world or campaign.",
+			"Fantasy worlds often hang in the balance between opposing forces. Is your world all a grand design, woven by cosmic beings? Is arcane magic in opposition to the power of the gods and their clerics? Does nature battle magic's transforming nature, or do the forces of order and chaos battle for domination? It's possible that a non-standard answer to this question can form the heart of a world or campaign.",
 			"",
 			"### If I drop this off the balcony, what happens?",
 			"",
@@ -5939,7 +5939,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",

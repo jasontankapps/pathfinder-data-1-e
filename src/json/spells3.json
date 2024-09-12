@@ -4142,7 +4142,7 @@
 			"",
 			"*2nd Round:* Number of different magical auras and the power of the most potent aura.",
 			"",
-			"*3rd Round:* The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).",
+			"*3rd Round:* The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).",
 			"",
 			"Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.",
 			"",
@@ -4913,7 +4913,7 @@
 			"",
 			"**Source** [Mythic Adventures pg. 91](source/mythic_adventures)",
 			"",
-			"When determining the spell's effect on nonmythic creatures, add your tier to your caster level. Nonlawful creatures that fail their saves against the spell also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last."
+			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nonlawful creatures that fail their saves against the spell also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last."
 		]
 	},
 	"dimension_door": {
@@ -6732,7 +6732,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to Table 3-1 in the Pathfinder RPG Bestiary to determine an attack's altered base damage. If the creature's natural attack deals nonstandard damage, refer instead to the [Improved Natural Attack](feat/improved_natural_attack) feat. It is not possible to reduce the base damage of a creature's natural attack below 1d2 with this spell."
+			"When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to Table 3-1 in the Pathfinder RPG Bestiary to determine an attack's altered base damage. If the creature's natural attack deals non-standard damage, refer instead to the [Improved Natural Attack](feat/improved_natural_attack) feat. It is not possible to reduce the base damage of a creature's natural attack below 1d2 with this spell."
 		]
 	},
 	"dragon's_breath": {

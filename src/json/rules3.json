@@ -339,7 +339,7 @@
 			"",
 			"While combatants do the actual fighting in performance combat, the crowd remains an active participant in these bouts. The audience can bolster or demoralize the competitors with their enthusiasm or scorn for what they see on the battlefield, with serious results.",
 			"",
-			"A crowd's attitude is similar to a nonplayer character's attitude when a character uses the Diplomacy skill. The DC of performance combat checks to improve crowd reaction is tied to the crowd's starting or current attitude. Each time the combatants do something spectacular on the battlefield, they have the opportunity to parlay that success into a better crowd reaction, but missteps can also create contempt among the crowd.",
+			"A crowd's attitude is similar to a non-player character's attitude when a character uses the Diplomacy skill. The DC of performance combat checks to improve crowd reaction is tied to the crowd's starting or current attitude. Each time the combatants do something spectacular on the battlefield, they have the opportunity to parlay that success into a better crowd reaction, but missteps can also create contempt among the crowd.",
 			"",
 			"During performance combat, it is important for the GM to keep track of the crowd's attitude toward each side of the combat. Given that a crowd is filled with many people shouting, clapping, booing, hissing, or otherwise showing their pleasure or displeasure, the exact crowd reaction changes from moment to moment based on events on the battlefield, but groups of combatants always have a reasonable idea of what the crowd thinks of their performance at any given time.",
 			"",
@@ -3762,7 +3762,7 @@
 			"",
 			"**Lemure:** Lemures prefer reminders of their former lives, and so the best offering is food or pornography.",
 			"",
-			"**Pit Fiend (SR 31):** Pit fiends, the greatest of all the nonnoble devils in Hell, are rarely tempted to answer a summons; when called, most of them come to see the stupidity or the arrogance that brought them to the Material Plane before snatching the wizard away for an eternity of torment. Only the greatest of promises, such as a noble offering the enslavement of an entire empire, a priest offering the destruction of holy relics, or an antipaladin pledging the delivery of a helpless and noteworthy angel for the pit fiend's pleasure, might induce the pit fiend into service."
+			"**Pit Fiend (SR 31):** Pit fiends, the greatest of all the non-noble devils in Hell, are rarely tempted to answer a summons; when called, most of them come to see the stupidity or the arrogance that brought them to the Material Plane before snatching the wizard away for an eternity of torment. Only the greatest of promises, such as a noble offering the enslavement of an entire empire, a priest offering the destruction of holy relics, or an antipaladin pledging the delivery of a helpless and noteworthy angel for the pit fiend's pleasure, might induce the pit fiend into service."
 		],
 		"parent_topics": [
 			"magic",
@@ -3827,7 +3827,7 @@
 			"",
 			"**Mihstu (SR 19):** The strategy for binding and commanding these creatures is similar to that for an air elemental. Unlike other elementals, mihstu typically bargain with the binder, as many wish to haunt the dark places of the Material Plane.",
 			"",
-			"**Mud Elemental:** While mud elementals vary in consistency, all of them fear becoming too watery or too dry, as both conditions have adverse effects on them. Using air spells and petrification spells as punishments for noncompliance usually makes these elementals more willing to take direction and enter into negotiations for appropriate gifts for services rendered.",
+			"**Mud Elemental:** While mud elementals vary in consistency, all of them fear becoming too watery or too dry, as both conditions have adverse effects on them. Using air spells and petrification spells as punishments for non-compliance usually makes these elementals more willing to take direction and enter into negotiations for appropriate gifts for services rendered.",
 			"",
 			"**Sandman:** Subtle and craftier than other elementals, these creatures nearly always bargain with their binder, but are arrogant and headstrong. Even after their task is done, they voluntarily remain on the Material Plane to wreak as much havoc as possible.",
 			"",
@@ -4164,7 +4164,7 @@
 			"",
 			"Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The [make whole](spell/make_whole) or [rapid repair](spell/rapid_repair) spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems.",
 			"",
-			"Failing that, a crafter can repair a construct with the Craft Construct feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or nonfunctioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.",
+			"Failing that, a crafter can repair a construct with the Craft Construct feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or non-functioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.",
 			"",
 			"A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct. Additionally, some constructs have special means of repair, usually involving spells related to the golem's nature (such as the use of acid damage to heal a clay golem.)"
 		],
@@ -4187,7 +4187,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)",
 			"",
-			"Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or nonfunctioning.",
+			"Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or non-functioning.",
 			"",
 			"Performing modifications on one's own construct requires the Craft Construct feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).",
 			"",
@@ -5401,9 +5401,9 @@
 		"sources": [ "Technology Guide" ],
 		"parent_topics": [ "technology" ],
 		"description": [
-			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\"-damaged and malfunctioning (when not completely nonfunctional). These malfunctions manifest in two ways: limited charges and glitches.",
+			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\"-damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
 			"",
-			"Only technological items that consume charges (including nanite canisters) or are pharmaceutical items can be affected by these timeworn rules, though any technological item can still become broken or nonfunctional just as any other item.",
+			"Only technological items that consume charges (including nanite canisters) or are pharmaceutical items can be affected by these timeworn rules, though any technological item can still become broken or non-functional just as any other item.",
 			"",
 			"A piece of timeworn technology may have additional aesthetic and functional differences from a new piece of the same equipment. Many of these effects are purely cosmetic, such as cracks in the casing of an arc grenade or primitive etchings on a suit of technological armor placed there by a barbarian millennia ago. Pieces of timeworn technology may also have minor mechanical effects beyond glitches (at the GM's discretion). A timeworn laser pistol might constantly hum at a low but noticeable frequency, imparting a -1 penalty on Stealth checks. A timeworn plasma grenade could be caked in a strange viscous fluid that has a pungent odor, making its wielder more easily tracked via scent. Timeworn technological items should clearly evoke a sense of age and danger, and even the most standard piece of Androffan gear can be made unique based on individual deteriorations.",
 			"",

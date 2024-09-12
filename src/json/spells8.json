@@ -1331,7 +1331,7 @@
 			"",
 			"It's possible for the change in the subject's ability scores to make it difficult for it to pursue its previous character class. If this is the case, the subject is advised to become a multiclass character.",
 			"",
-			"For a humanoid creature, the new incarnation is determined using the table on the next page. For nonhumanoid creatures, a similar table of creatures of the same type should be created.",
+			"For a humanoid creature, the new incarnation is determined using the table on the next page. For non-humanoid creatures, a similar table of creatures of the same type should be created.",
 			"",
 			"A creature that has been turned into an undead creature or killed by a death effect can't be returned to life by this spell. Constructs, elementals, outsiders, and undead creatures can't be reincarnated. The spell can bring back a creature that has died of old age.",
 			"",
@@ -1435,7 +1435,7 @@
 			"",
 			"This spell allows a dead creature that died no more than 1 year before the casting of the spell to return to life in a body that closely resembles its original body; it functions as reincarnate except as noted. Cyclic reincarnation returns the dead creature to life in a new body of the same race that the target belonged to in life, and the new body appears physically similar to the creature's previous one, to the extent that the creature could be easily mistaken for its own offspring or kin. If the affected creature isn't a humanoid, there is a 75% chance that the creature returns to life as a youth of its race, gaining the young creature simple template instead (or becomes a juvenile, in the case of dragons and other creatures whose power is determined by their age category).",
 			"",
-			"You can use cyclic reincarnation on someone who was killed by a death effect or turned into an undead creature and then destroyed, but nonhumanoids so restored always return to life with the young creature simple template (or as a juvenile, in the case of creatures whose power is determined by their age category).",
+			"You can use cyclic reincarnation on someone who was killed by a death effect or turned into an undead creature and then destroyed, but non-humanoids so restored always return to life with the young creature simple template (or as a juvenile, in the case of creatures whose power is determined by their age category).",
 			"",
 			"### Reincarnate Spy",
 			"",
@@ -2747,7 +2747,7 @@
 			"",
 			"Each of the mansion's exterior doorways and windows are protected by alarm spells. You choose whether each alarm is audible or mental as you cast the spell, and each alarm has a different sound (for an audible alarm) or sensation (for a mental one), allowing you to instantly determine which portal has been used.",
 			"",
-			"The mansion must be created on a plot of land free of other structures. It adapts to the natural terrain, adopting all structural requirements for being built on, for example, a mountainside. The mansion adjusts around small features such as ponds or spires of rock, but can't be created on water or other nonsolid surfaces. If created on snow, sand dunes, or other soft surfaces with a solid surface underneath, the foundation reaches the solid ground. If created on a solid but unstable surface, such as a swamp or an area plagued by tremors, there's a 10% chance each day that the mansion begins to sink or collapse.",
+			"The mansion must be created on a plot of land free of other structures. It adapts to the natural terrain, adopting all structural requirements for being built on, for example, a mountainside. The mansion adjusts around small features such as ponds or spires of rock, but can't be created on water or other non-solid surfaces. If created on snow, sand dunes, or other soft surfaces with a solid surface underneath, the foundation reaches the solid ground. If created on a solid but unstable surface, such as a swamp or an area plagued by tremors, there's a 10% chance each day that the mansion begins to sink or collapse.",
 			"",
 			"The mansion doesn't harm creatures within the area when it appears, and can't be created among a crowd or in a densely populated area. Any creature inadvertently caught inside the mansion when the spell is cast ends up unharmed inside the complete mansion."
 		]
@@ -4879,7 +4879,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** no",
 			"",
-			"Any opponent attempting to directly attack the warded creature, even with a targeted spell, must attempt a Will save. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can't follow through with the attack, that part of its action is lost, and it can't directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area of effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.",
+			"Any opponent attempting to directly attack the warded creature, even with a targeted spell, must attempt a Will save. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can't follow through with the attack, that part of its action is lost, and it can't directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area of effect spells. The subject cannot attack without breaking the spell but may use non-attack spells or otherwise act.",
 			"",
 			"### Mythic Sanctuary",
 			"",
@@ -7224,7 +7224,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will disbelief (if interacted with); varies; see text; **Spell Resistance** yes; see text",
 			"",
-			"This spell functions like shadow conjuration, except that it mimics conjuration spells of 8th level or lower. The illusory conjurations created deal four-fifths (80%) damage to nonbelievers, and nondamaging effects are 80% likely to work against nonbelievers."
+			"This spell functions like shadow conjuration, except that it mimics conjuration spells of 8th level or lower. The illusory conjurations created deal four-fifths (80%) damage to nonbelievers, and non-damaging effects are 80% likely to work against nonbelievers."
 		]
 	},
 	"shadow_anchor": {
@@ -7413,7 +7413,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will disbelief (if interacted with); varies; see text; **Spell Resistance** yes; see text",
 			"",
-			"This spell functions like shadow conjuration, except that it duplicates any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 6th level or lower. The illusory conjurations created deal three-fifths (60%) damage to nonbelievers, and nondamaging effects are 60% likely to work against nonbelievers."
+			"This spell functions like shadow conjuration, except that it duplicates any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 6th level or lower. The illusory conjurations created deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers."
 		]
 	},
 	"shadow_conjuration,_greater": {
@@ -7552,7 +7552,7 @@
 			"",
 			"You tap energy from the Plane of Shadow to cast a quasi-real, illusory version of a sorcerer or wizard evocation spell of 4th level or lower. Spells that deal damage have normal effects unless an affected creature succeeds on a Will save. Each disbelieving creature takes only one-fifth damage from the attack. If the disbelieved attack has a special effect other than damage, that effect is one-fifth as strong (if applicable) or only 20% likely to occur. If recognized as a shadow evocation, a damaging spell deals only one-fifth (20%) damage. Regardless of the result of the save to disbelieve, an affected creature is also allowed any save (or spell resistance) that the spell being simulated allows, but the save DC is set according to shadow evocation's level (5th) rather than the spell's normal level.",
 			"",
-			"Nondamaging effects have normal effects except against those who disbelieve them. Against disbelievers, they have no effect.",
+			"Non-damaging effects have normal effects except against those who disbelieve them. Against disbelievers, they have no effect.",
 			"",
 			"Objects automatically succeed on their Will saves against this spell.",
 			"",
@@ -7752,7 +7752,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will disbelief (if interacted with), varies, see text; **Spell Resistance** yes, see text",
 			"",
-			"This spell functions like shadow transmutation, except it can mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow transmutation deal three-fifths (60%) damage to nonbelievers, and nondamaging effects are 60% likely to work against nonbelievers."
+			"This spell functions like shadow transmutation, except it can mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow transmutation deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers."
 		]
 	},
 	"shadow_transmutation,_greater": {

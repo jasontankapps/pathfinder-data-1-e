@@ -2184,7 +2184,7 @@
 					[ "[Healing Leak](spell/healing_leak)", 3, "necromancy", null, null, "Touched target only gains and grants half the benefits from magical healing" ],
 					[ "[Healing Thief](spell/healing_thief)", 3, "necromancy", null, null, "You siphon half of all magical healing that the targeted creature receives." ],
 					[ "[Heart of the Metal](spell/heart_of_the_metal)", 3, "transmutation", null, "earth", "Enable weapons to overcome DR like adamantine, cold iron, or silver." ],
-					[ "[Heatstroke](spell/heatstroke)", 3, "evocation", null, "fire", "Fire a ray to give someone heatstroke, dealing 1d4 nonleathal damage and inducing exhaustion." ],
+					[ "[Heatstroke](spell/heatstroke)", 3, "evocation", null, "fire", "Fire a ray to give someone heatstroke, dealing 1d4 non-lethal damage and inducing exhaustion." ],
 					[ "[Heroism](spell/heroism)", 3, "enchantment", "compulsion", "mind-affecting", "Gives +2 on attack rolls, saves, skill checks." ],
 					[ "[Hold Fey](spell/hold_fey)", 3, "enchantment", "compulsion", "mind-affecting", "As hold person, but targets fey" ],
 					[ "[Hold Person](spell/hold_person)", 3, "enchantment", "compulsion", "mind-affecting", "Paralyzes one humanoid for 1 round/level." ],

@@ -445,7 +445,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 73](source/pathfinder_unchained)",
 			"",
-			"The following are the categories of crafting difficulties and the items within those categories. The items are split into general categories. Alchemical items and poisons require Craft (alchemy) checks. Armor and shields require Craft (armor) checks. Weapons require Craft (weapons) checks for melee weapons, thrown weapons, nonsiege firearms, crossbows, or crossbow bolts; Craft (bows) checks for bows or arrows; Craft (alchemy) checks for firearm ammunition; and Craft (siege engines) checks for all forms of siege engines. The Craft checks for mundane items depend on the item being crafted, with the most common ones being baskets, books, calligraphy, carpentry, cloth, clothing, glass, jewelry, leather, locks, paintings, pottery, sculptures, shoes, and stonemasonry. Crafting vehicles requires Craft (carpentry) for most land-based vehicles, Craft (ships) for seaborne vessels and airships, and Craft (alchemy) for alchemical dragons and steam giants. Crafting traps requires Craft (traps)."
+			"The following are the categories of crafting difficulties and the items within those categories. The items are split into general categories. Alchemical items and poisons require Craft (alchemy) checks. Armor and shields require Craft (armor) checks. Weapons require Craft (weapons) checks for melee weapons, thrown weapons, non-siege firearms, crossbows, or crossbow bolts; Craft (bows) checks for bows or arrows; Craft (alchemy) checks for firearm ammunition; and Craft (siege engines) checks for all forms of siege engines. The Craft checks for mundane items depend on the item being crafted, with the most common ones being baskets, books, calligraphy, carpentry, cloth, clothing, glass, jewelry, leather, locks, paintings, pottery, sculptures, shoes, and stonemasonry. Crafting vehicles requires Craft (carpentry) for most land-based vehicles, Craft (ships) for seaborne vessels and airships, and Craft (alchemy) for alchemical dragons and steam giants. Crafting traps requires Craft (traps)."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -638,7 +638,7 @@
 			"",
 			"**Vehicles:** Galley, sailing ship, warship.",
 			"",
-			"**Weapons:** Advanced firearm ammunition, advanced firearms, nonalchemical and nonfirearm siege weapons."
+			"**Weapons:** Advanced firearm ammunition, advanced firearms, non-alchemical and non-firearm siege weapons."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1521,7 +1521,7 @@
 			"",
 			"The skill system presented in the Core Rulebook has a lot of versatility. It allows characters to overcome various challenges related to their diverse talents, with simple rules for dealing with beneficial or adverse conditions. Though many players simply spend their skill ranks on the same skills at every level, it is also possible for a character to diversify his investment in order to gain access to more skills overall or to remedy a shortcoming.",
 			"",
-			"However, not all skills provide the same benefit to characters. It's difficult to argue that a high bonus in a Profession skill has the same value as a high bonus in a more general skill such as Perception. Yet Profession is an important skill for nonplayer characters, as well as for players who wish to show that adventuring isn't the only thing their characters care about.",
+			"However, not all skills provide the same benefit to characters. It's difficult to argue that a high bonus in a Profession skill has the same value as a high bonus in a more general skill such as Perception. Yet Profession is an important skill for non-player characters, as well as for players who wish to show that adventuring isn't the only thing their characters care about.",
 			"",
 			"The background skills system recognizes that skills such as Craft, Knowledge, and Profession serve an important role in the game. Though these skills don't directly affect the careers of typical adventurers the same way that Bluff, Perception, and Stealth do, they are useful means for characters to interact with and explore the world outside of combat. You shouldn't have to choose between having the knowledge to understand the world and the ability to survive in it!",
 			"",
@@ -1948,7 +1948,7 @@
 			"| Create a fake gemstone[^1] | Jewelry | Opposed[^2] |",
 			"| Identify the sort of creature from which a piece or leather came[^1] | Leather | 10[^3] |",
 			"| Skin an animal and tan the hide | Leather | 15 |",
-			"| Create a high-quality item from the hide of a nonstandard creature | Leather | 20 |",
+			"| Create a high-quality item from the hide of a non-standard creature | Leather | 20 |",
 			"| Create leather, studded leather, or hide armor without Craft (armor) | Leather | +5 |",
 			"| Aid another on a Disable Device check to open a lock[^1] | Locsk | 5 |",
 			"| Tune a musical instrument | Musical instruments | 10 |",

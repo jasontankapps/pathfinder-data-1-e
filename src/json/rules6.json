@@ -226,7 +226,7 @@
 			"",
 			"**Flowing Time:** On some planes, the flow of time is consistently faster or slower. One may travel to another plane, spend a year there, and then return to the Material Plane to find that only 6 seconds have elapsed. Everything on the plane returned to is only a few seconds older. But for that traveler and the items, spells, and effects working on him, that year away was entirely real. When designating how time works on planes with flowing time, put the Material Plane's flow of time first, followed by the flow in the other plane.",
 			"",
-			"**Timeless:** On planes with this trait, time still passes, but the effects of time are diminished. How the timeless trait affects certain activities or conditions such as hunger, thirst, aging, the effects of poison, and healing varies from plane to plane. The danger of a timeless plane is that once an individual leaves such a plane for one where time flows normally, conditions such as hunger and aging occur retroactively. If a plane is timeless with respect to magic, any spell cast with a noninstantaneous duration is permanent until dispelled."
+			"**Timeless:** On planes with this trait, time still passes, but the effects of time are diminished. How the timeless trait affects certain activities or conditions such as hunger, thirst, aging, the effects of poison, and healing varies from plane to plane. The danger of a timeless plane is that once an individual leaves such a plane for one where time flows normally, conditions such as hunger and aging occur retroactively. If a plane is timeless with respect to magic, any spell cast with a non-instantaneous duration is permanent until dispelled."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2811,7 +2811,7 @@
 			"",
 			"**Lore:** A settlement's lore modifier measures not only how willing the citizens are to chat and talk with visitors, but also how available and accessible its libraries and sages are. A low lore modifier doesn't mean the settlement's citizens are idiots, just that they're close-mouthed or simply lack knowledge resources. A settlement's lore modifier applies on Diplomacy checks made to gather information and Knowledge checks made using the city's resources to do research when using a library.",
 			"",
-			"**Society:** Society measures how open-minded and civilized a settlement's citizens are. A low society modifier might mean many of the citizens harbor prejudices or are overly suspicious of out-of-towners. A high society modifier means that citizens are used to diversity and unusual visitors and that they respond better to wellspoken attempts at conversation. A settlement's society modifier applies on all Disguise checks, as well as on Diplomacy checks made to alter the attitude of any nongovernment official."
+			"**Society:** Society measures how open-minded and civilized a settlement's citizens are. A low society modifier might mean many of the citizens harbor prejudices or are overly suspicious of out-of-towners. A high society modifier means that citizens are used to diversity and unusual visitors and that they respond better to wellspoken attempts at conversation. A settlement's society modifier applies on all Disguise checks, as well as on Diplomacy checks made to alter the attitude of any non-government official."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5444,7 +5444,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",
@@ -5517,7 +5517,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 231](source/gamemastery_guide)",
 			"",
-			"Often the appearance of a rule works just as well as a rule. For a GM faced with a situation for which there seems to be no obvious reference in the game's rules, yet who also lacks the time or interest needed to create a new subsystem, good storytelling, even-handed arbitration, and a bit of deception can typically solve the problem and keep a game moving along. When need for a new rules element unexpectedly comes up mid-game, that's rarely the time to stop and begin designing new rules. While you can easily make a few cosmetic changes to existing rules and stat blocks if you know of elements that might serve as good stand-ins, sometimes players come up with plans no rules system could account for. Say a PC wishes to run, leap off a cliff, and attack a dragon soaring past, digging in his axe to maintain a hold on the soaring beast. While rules exist for elements of the action, sticking and hanging onto a weapon embedded in another creature is not part of the game system. Yet rather than denying a character the opportunity to attempt a heroic feat, you could easily rely on the results of the rules you do know to arbitrate those you don't. For example, if the same character rolls high on his Acrobatics skill check and significantly exceeds his target's AC with his attack, you could declare that her plan works and she's now being dragged along by the dragon. Alternatively, if the PC botches either roll, she might be in for a long fall. Either way, interpreting existing rules in an unconventional way, or even just calling for an ability check to suggest either a good or poor result, can save you from paging through volumes of rules trying to find a nonexistent perfect fit. And with some shuffling of notes and hidden dice roles, no player should be the wiser to such an improvised ruling."
+			"Often the appearance of a rule works just as well as a rule. For a GM faced with a situation for which there seems to be no obvious reference in the game's rules, yet who also lacks the time or interest needed to create a new subsystem, good storytelling, even-handed arbitration, and a bit of deception can typically solve the problem and keep a game moving along. When need for a new rules element unexpectedly comes up mid-game, that's rarely the time to stop and begin designing new rules. While you can easily make a few cosmetic changes to existing rules and stat blocks if you know of elements that might serve as good stand-ins, sometimes players come up with plans no rules system could account for. Say a PC wishes to run, leap off a cliff, and attack a dragon soaring past, digging in his axe to maintain a hold on the soaring beast. While rules exist for elements of the action, sticking and hanging onto a weapon embedded in another creature is not part of the game system. Yet rather than denying a character the opportunity to attempt a heroic feat, you could easily rely on the results of the rules you do know to arbitrate those you don't. For example, if the same character rolls high on his Acrobatics skill check and significantly exceeds his target's AC with his attack, you could declare that her plan works and she's now being dragged along by the dragon. Alternatively, if the PC botches either roll, she might be in for a long fall. Either way, interpreting existing rules in an unconventional way, or even just calling for an ability check to suggest either a good or poor result, can save you from paging through volumes of rules trying to find a non-existent perfect fit. And with some shuffling of notes and hidden dice roles, no player should be the wiser to such an improvised ruling."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5723,7 +5723,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
 			"",
-			"Lava flows are usually associated with nonexplosive eruptions, and can be a permanent fixture of active volcanoes. Most lava flows are quite slow, moving at 15 feet per round. Hotter flows move faster, achieving speeds up to 60 feet per round. Lava in a channel such as a lava tube is especially dangerous, moving as fast as 120 feet per round (a CR 6 hazard). Creatures overrun by a lava flow must make a DC 20 Reflex save or be engulfed in the lava. Success indicates that they are in contact with the lava but not immersed."
+			"Lava flows are usually associated with non-explosive eruptions, and can be a permanent fixture of active volcanoes. Most lava flows are quite slow, moving at 15 feet per round. Hotter flows move faster, achieving speeds up to 60 feet per round. Lava in a channel such as a lava tube is especially dangerous, moving as fast as 120 feet per round (a CR 6 hazard). Creatures overrun by a lava flow must make a DC 20 Reflex save or be engulfed in the lava. Success indicates that they are in contact with the lava but not immersed."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7098,7 +7098,7 @@
 			"",
 			"### Bad Air (CR 1 or 4)",
 			"",
-			"An invisible hazard, pockets of low-oxygen gas present a danger to miners and spelunkers as well as caverndelving adventurers. Nonflammable gases such as carbon dioxide or nitrogen are CR 1 and require a DC 25 Survival check to notice. Creatures breathing the air must make a Fortitude save (DC 15 + 1 per previous check) each hour or become fatigued. After a creature becomes fatigued, [slow suffocation](rule/suffocation) sets in. Creatures holding their breath can avoid these effects.",
+			"An invisible hazard, pockets of low-oxygen gas present a danger to miners and spelunkers as well as caverndelving adventurers. Non-flammable gases such as carbon dioxide or nitrogen are CR 1 and require a DC 25 Survival check to notice. Creatures breathing the air must make a Fortitude save (DC 15 + 1 per previous check) each hour or become fatigued. After a creature becomes fatigued, [slow suffocation](rule/suffocation) sets in. Creatures holding their breath can avoid these effects.",
 			"",
 			"Flammable vapors such as coal gas are much more dangerous (CR 4). The gases displace breathable air in the lungs, causing fatigue as described above. In addition, any open flame or spark causes an explosion for 6d6 points of damage (Reflex save DC 15 for half ) to all in the cavern or within 5 feet of an entrance. The fire burns away the oxygen in the air, leaving it unbreathable for 2d4 minutes. After an explosion, flammable gas usually takes several days to build up to dangerous levels again.",
 			"",
@@ -7596,7 +7596,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 254](source/gamemastery_guide)",
 			"",
-			"For every player character adventuring through a fantasy world, there exist dozens if not hundreds of nonplayer characters, each existing to provide vital services to characters, progress important story lines, or just add flavor between sagas. From the local farmer to the tavern storyteller and from the highest king to the poorest urchin, these characters are the residents of the worlds and stories all GMs craft. They are the allies and hindrances, the employers and victims, the cheering throngs and the booing crowds. Whenever the PCs need aid, have business, or venture off the beaten path, these are the characters ready to come to life.",
+			"For every player character adventuring through a fantasy world, there exist dozens if not hundreds of non-player characters, each existing to provide vital services to characters, progress important story lines, or just add flavor between sagas. From the local farmer to the tavern storyteller and from the highest king to the poorest urchin, these characters are the residents of the worlds and stories all GMs craft. They are the allies and hindrances, the employers and victims, the cheering throngs and the booing crowds. Whenever the PCs need aid, have business, or venture off the beaten path, these are the characters ready to come to life.",
 			"",
 			"Yet, for all the importance of the lords of the land, the business owners, and the ever-imperiled common folk, the meat of most adventures focuses on the monsters, villains, and dangers beyond familiar streets. Thus, when something inevitably goes awry at the local tavern, diplomacy breaks down at the royal court, or any of countless other unanticipated events arise, most GMs find themselves faking dice rolls or leafing through pages for statistics to adapt to the moment's needs. This chapter exists to serve GMs in those times, when they need statistics they didn't anticipate, one more encounter is required on the fly, or players zig when they were expected to zag.",
 			"",
@@ -7614,7 +7614,7 @@
 			"getting_started",
 			"running_a_game",
 			"player_characters",
-			"nonplayer_characters",
+			"non-player_characters",
 			"rewards",
 			"creating_a_world",
 			"adventures",

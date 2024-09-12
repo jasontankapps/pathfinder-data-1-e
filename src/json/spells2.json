@@ -4494,7 +4494,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell makes a creature more charitable, compelling it to aid others rather than use violence. An affected creature practices nonviolent combat behaviors according to the following list of priorities, beginning with the first priority. The subject continues to perform a priority until he can no longer fulfill its demands (at which point he moves to the next priority) or until the spell ends, whichever comes first.",
+			"This spell makes a creature more charitable, compelling it to aid others rather than use violence. An affected creature practices non-violent combat behaviors according to the following list of priorities, beginning with the first priority. The subject continues to perform a priority until he can no longer fulfill its demands (at which point he moves to the next priority) or until the spell ends, whichever comes first.",
 			"",
 			"*1st Priority:* Heal injured creatures within 30 feet, beginning with the closest creatures and using whatever methods the subject has at hand (including potions, spells, and so on).",
 			"",
@@ -5966,7 +5966,7 @@
 			"**Target** you  ",
 			"**Duration** instantaneous",
 			"",
-			"You become one with the plane around you, attaining knowledge of the surrounding territory. You instantly gain knowledge of as many as three facts from among the following subjects: areas with different planar traits, the layout and topography of local terrain, local divine influences, planar phenomena, portals between planes, presence of creatures native to the plane, presence of powerful nonnative creatures, the general state of the plane, or valuable planar substances.",
+			"You become one with the plane around you, attaining knowledge of the surrounding territory. You instantly gain knowledge of as many as three facts from among the following subjects: areas with different planar traits, the layout and topography of local terrain, local divine influences, planar phenomena, portals between planes, presence of creatures native to the plane, presence of powerful non-native creatures, the general state of the plane, or valuable planar substances.",
 			"",
 			"On standard planes, the spell operates with a radius of 1 mile per caster level. On demiplanes, the spell is less powerful, and its radius is limited to 100 feet per caster level. This spell has no effect when cast on the Material Plane."
 		]
@@ -7400,7 +7400,7 @@
 			"",
 			"Hurricane force winds (75+ mph) destroy wooden buildings, uproot large trees, and cause most ships to founder.",
 			"",
-			"A tornado (175+ mph) destroys all nonfortified buildings and often uproots large trees."
+			"A tornado (175+ mph) destroys all non-fortified buildings and often uproots large trees."
 		]
 	},
 	"conversing_wind": {

@@ -39,7 +39,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **15. COPYRIGHT NOTICE**  
 **Open Game License v 1.0** Copyright 2000, Wizards of the Coast, Inc.  
 **System Reference Document** Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.  
-**Pf Data 1e** Copyright 2024-  
+**Pf Data 1e** Copyright 2024, Jason Tamez  
 **Jade Dragons and Hungry Ghosts** &copy; 2001, Green Ronin Publishing; Authors: Wolfgang Baur, David "Zeb" Cook, Erik Mona, Leon Phillips, Chris Pramas, and Steven E. Schend.  
 **Legions of Hell** &copy; 2001, Green Ronin Publishing; Author: Chris Pramas.  
 **Adherer from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene and Clark Peterson, based on original material by Guy Shearer.  

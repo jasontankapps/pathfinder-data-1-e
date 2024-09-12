@@ -131,7 +131,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes nonpoisonous. To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an antidote prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.) A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint."
+			"Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes non-poisonous. To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an antidote prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.) A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint."
 		]
 	},
 	"poison_sealant": {
@@ -3755,7 +3755,7 @@
 			"**Price** 100 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually nonexistent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
+			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
 		]
 	},
 	"spider's_silk_rope_fifty_ft": {
@@ -4329,7 +4329,7 @@
 			"**Price** 80 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Heavy gray mist fills the interior of a storm glass, a receptacle lined with thin metal strips and equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are attuned to the Material Plane and can detect planar anomalies or intrusions, specifically the presence of outsiders. The mist within a storm glass changes coloration after 1 minute of being within 60 feet of a nonnative outsider (including creatures possessed by non-native outsiders), and grants a +2 circumstance bonus on Knowledge (planes) checks to identify such creatures. The color change lasts as long as the jar remains within range of an outsider and for 1d4+1 rounds after leaving the area. Removing the storm glass from the Material Plane (including placing it in extraplanar containers such as a portable hole) causes the gas to permanently revert to a colorless, inert vapor."
+			"Heavy gray mist fills the interior of a storm glass, a receptacle lined with thin metal strips and equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are attuned to the Material Plane and can detect planar anomalies or intrusions, specifically the presence of outsiders. The mist within a storm glass changes coloration after 1 minute of being within 60 feet of a non-native outsider (including creatures possessed by non-native outsiders), and grants a +2 circumstance bonus on Knowledge (planes) checks to identify such creatures. The color change lasts as long as the jar remains within range of an outsider and for 1d4+1 rounds after leaving the area. Removing the storm glass from the Material Plane (including placing it in extraplanar containers such as a portable hole) causes the gas to permanently revert to a colorless, inert vapor."
 		]
 	},
 	"stout_solution": {
@@ -7386,7 +7386,7 @@
 			"**Price** 20 gp; **Weight** 6 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to grapple a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a nonreach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)"
+			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to grapple a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)"
 		]
 	},
 	"wrist_sheath_spring_loaded": {
