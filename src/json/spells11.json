@@ -5254,6 +5254,7 @@
 			"| Up to caster level -1 | Stunned, deafened |",
 			"| Up to caster level -5 | Confused, stunned, deafened |",
 			"| Up to caster level -10 | Killed, confused, stunned, deafened |",
+			"",
 			"The effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.",
 			"",
 			"*Deafened:* The creature is deafened for 1d4 rounds. Save negates.",

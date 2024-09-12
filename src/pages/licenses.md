@@ -1,6 +1,6 @@
 # Licenses
 
-This app uses trademarks and/or copyrights owned by Paizo Inc., used under [Paizo's Community Use Policy](https://paizo.com/communityuse) (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. [This app/respository] is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit [paizo.com](https://paizo.com/).
+This app uses trademarks and/or copyrights owned by Paizo Inc., used under [Paizo's Community Use Policy](https://paizo.com/communityuse) (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. *Pf Data 1e* is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit [paizo.com](https://paizo.com/).
 
 ## Open Game License
 
@@ -39,7 +39,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **15. COPYRIGHT NOTICE**  
 **Open Game License v 1.0** Copyright 2000, Wizards of the Coast, Inc.  
 **System Reference Document** Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.  
-[This app/repository] Copyright 2024-  
+**Pf Data 1e** Copyright 2024-  
 **Jade Dragons and Hungry Ghosts** &copy; 2001, Green Ronin Publishing; Authors: Wolfgang Baur, David "Zeb" Cook, Erik Mona, Leon Phillips, Chris Pramas, and Steven E. Schend.  
 **Legions of Hell** &copy; 2001, Green Ronin Publishing; Author: Chris Pramas.  
 **Adherer from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene and Clark Peterson, based on original material by Guy Shearer.  

@@ -3506,7 +3506,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Orc",
 			"",
-			"You were exposed to vision-granting caustic vapors by the oracles of the Brimstone Haruspex, whether because you had a pressing question or because a parent or chieftain considered you an expendable proxy. The vapors left scars that impose a -1 penalty on Charismabased checks, but once per day you gain a flash of insight that allows you to roll twice on a Knowledge skill check or Intelligence check and take the better result. You must choose to use this trait before rolling."
+			"You were exposed to vision-granting caustic vapors by the oracles of the Brimstone Haruspex, whether because you had a pressing question or because a parent or chieftain considered you an expendable proxy. The vapors left scars that impose a -1 penalty on Charisma-based checks, but once per day you gain a flash of insight that allows you to roll twice on a Knowledge skill check or Intelligence check and take the better result. You must choose to use this trait before rolling."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -4362,7 +4362,7 @@
 			"",
 			"This trait assumes you belong to a minor noble human family with a small manor or estate in some backwater of the empire. If you're not human, either you were adopted into a noble human family, or your family was recently granted a nonhereditary noble title.",
 			"",
-			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charismabased checks against other members of the Chelish aristocracy. The [Noble Scion](feat/noble_scion) feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
+			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charisma-based checks against other members of the Chelish aristocracy. The [Noble Scion](feat/noble_scion) feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

@@ -91,6 +91,7 @@
 			"| Huge | 6 vials | 3 vials | 2 vials | 2 vials | 3 grips |",
 			"| Gargantuan | 7 vials | 3 vials | 3 vials | 3 vials | 3 grips |",
 			"| Colossal | 8 vials | 4 vials | 3 vials | 3 vials | 3 grips |",
+			"",
 			"**Special:** Normally, if a suit of dragonhide armor has energy immunity, one may enhance such a suit with additional energy protection for the wearer at a 25% reduced cost. However, only effects with the same elemental type as the armor's immunity are eligible for this discount. An artisan with the Dragoncrafting feat may add 1 additional elemental protection to a suit of dragonhide armor at the same 25% discount, even if this energy resistance is not normally associated with the type of dragonhide being used."
 		]
 	},
@@ -1473,11 +1474,11 @@
 			"You have undergone the painful and ancient art of cranial binding, deforming your skull to unlock the hidden potential of your psychic self.  ",
 			"**Benefit:** Your cranium has been tightly bound with boards and wrappings to change its shape and attune your mind to your psychic discipline. If you take this feat after 1st level, you must undergo a painful 6-month regimen of increased tightening and head binding, during which you take a -1 penalty on Intelligence, Wisdom, and Charisma checks and on Intelligence-, Wisdom-, and Charisma-based skill checks. Once the binding is completed, your skull takes on one of three shapes of your choosing, each with a specific benefit. Once chosen, this shape cannot be changed.",
 			"",
-			"Fronto-Occipital Elongation: Your head slopes severely in a high conical shape, tapering from your brow to the crown of your head. You take a -1 penalty on Intelligence and Wisdom checks and on Intelligence- and Wisdombased skill checks, but gain a +2 bonus on Charisma checks and Charisma-based skill checks. In addition, once per day, you can extend the duration of a psychic spell you cast by 50% (minimum 0 additional rounds). The increased duration doesn't stack with the increase granted by the Extend Spell feat.",
+			"Fronto-Occipital Elongation: Your head slopes severely in a high conical shape, tapering from your brow to the crown of your head. You take a -1 penalty on Intelligence and Wisdom checks and on Intelligence- and Wisdom-based skill checks, but gain a +2 bonus on Charisma checks and Charisma-based skill checks. In addition, once per day, you can extend the duration of a psychic spell you cast by 50% (minimum 0 additional rounds). The increased duration doesn't stack with the increase granted by the Extend Spell feat.",
 			"",
 			"Ovoid Compression: Your head takes on a larger, more bulbous appearance than normal. You take a -1 penalty on Charisma and Wisdom checks and on Wisdom- and Charisma-based skill checks, but gain a +2 bonus on Intelligence checks and Intelligence-based skill checks. In addition, once per day you can cast one psychic magic spell you know with a +1 bonus to its caster level.",
 			"",
-			"Sagittal Elongation: Your head slopes back in a gentle, elongated curve. You take a -1 penalty on Intelligence and Charisma checks and on Intelligence- and Charismabased skill checks, but gain a +2 bonus on Wisdom checks and Wisdom-based skill checks. In addition, once per day, you can increase the DC of a psychic spell you cast by 1."
+			"Sagittal Elongation: Your head slopes back in a gentle, elongated curve. You take a -1 penalty on Intelligence and Charisma checks and on Intelligence- and Charisma-based skill checks, but gain a +2 bonus on Wisdom checks and Wisdom-based skill checks. In addition, once per day, you can increase the DC of a psychic spell you cast by 1."
 		]
 	},
 	"elusive_redirection": {
@@ -1692,7 +1693,7 @@
 			"",
 			"You have learned to experience emotion.  ",
 			"**Prerequisites:** Cha 13, android.  ",
-			"**Benefit:** You lose the emotionless special quality. You can gain morale bonuses, and can be affected by emotionbased effects and fear effects. You lack the +4 racial bonus on saving throws against mind-affecting effects."
+			"**Benefit:** You lose the emotionless special quality. You can gain morale bonuses, and can be affected by emotion-based effects and fear effects. You lack the +4 racial bonus on saving throws against mind-affecting effects."
 		]
 	},
 	"empower_spell": {
@@ -1737,6 +1738,7 @@
 			"| 7th | 18th | - |",
 			"| 8th | 20th | - |",
 			"| 9th | - | - |",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different spell-like ability."
 		]
 	},
@@ -2354,7 +2356,7 @@
 			"",
 			"*Ricochet Shield* (Deadly Aim, Throw Anything): When you throw a shield, you can bounce it off one or more hard surfaces in order to strike a target from an unexpected angle or to bypass an obstacle such as cover. Each object you ricochet your shield off of imposes a -2 penalty on the attack roll. Range increments apply for the total distance the shield travels, not just the direct distance between you and the target.",
 			"",
-			"*Shield Gag* (Improved Grapple, Throw Anything): You can force your shield into the mouth of a creature to prevent it from using bite attacks or other mouthbased abilities. Make a grapple check against a creature at least two sizes larger than your size category. If you succeed, you wedge your shield into its mouth. At any time you may release your shield, which means you both lose the grappled condition, though your shield remains in its mouth. The creature may remove the shield by destroying it (or leaving it with the broken condition), forcing the shield out of its mouth with a grapple check against your CMB, or swallowing it (if it has the swallow whole ability) as if the shield were a creature.",
+			"*Shield Gag* (Improved Grapple, Throw Anything): You can force your shield into the mouth of a creature to prevent it from using bite attacks or other mouth-based abilities. Make a grapple check against a creature at least two sizes larger than your size category. If you succeed, you wedge your shield into its mouth. At any time you may release your shield, which means you both lose the grappled condition, though your shield remains in its mouth. The creature may remove the shield by destroying it (or leaving it with the broken condition), forcing the shield out of its mouth with a grapple check against your CMB, or swallowing it (if it has the swallow whole ability) as if the shield were a creature.",
 			"",
 			"While the shield is in place, the monster cannot use its mouth to make attacks (such as a bite or a giant frog's sticky tongue) against anything but the shield and cannot speak clearly enough to cast spells or use items requiring speech. If it uses a breath weapon, its range is half normal and any damage dealt must first get through the shield, with any remaining damage affecting the area normally.",
 			"",

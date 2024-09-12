@@ -1349,6 +1349,7 @@
 			"| Likeness or picture | -2 |",
 			"| Possession or garment | -4 |",
 			"| Body part, lock of hair, bit of nail,etc. | -10 |",
+			"",
 			"Dispel evil cast on the subject while you are casting the spell dispels the nightmare and causes you to be stunned for 10 minutes per caster level of the dispel evil.",
 			"",
 			"If the recipient is awake when the spell begins, you can choose to cease casting (ending the spell) or to enter a trance until the recipient goes to sleep, whereupon you become alert again and complete the casting. If you are disturbed during the trance, you must succeed on a Concentration check as if you were in the midst of casting a spell or the spell ends.",
@@ -3532,6 +3533,7 @@
 			"| Read magic | 9th | 2,500 gp |",
 			"| See invisibility | 10th | 5,000 gp |",
 			"| Tongues | 11th | 7,500 gp |",
+			"",
 			"You cannot cast these spells on other creatures. This application of permanency can be dispelled only by a caster of higher level than you were when you cast the spell.",
 			"",
 			"In addition to personal use, permanency can be used to make the following spells permanent on yourself, another creature, or an object (as appropriate).",
@@ -3576,6 +3578,7 @@
 			"| Wall of fire | 12th | 10,000 gp |",
 			"| Wall of force | 13th | 7,500 gp |",
 			"| Web | 10th | 5,000 gp |",
+			"",
 			"Spells cast on other targets are vulnerable to dispel magic as normal. The GM may allow other spells to be made permanent."
 		]
 	},
@@ -5710,6 +5713,7 @@
 			"| 6 | 2 days | Sheep to wool coat |",
 			"| 7 | 1 week | Shrew to manticore |",
 			"| 9+ | Permanent | Manticore to shrew |",
+			"",
 			"If the target of the spell does not have physical ability scores (Strength, Dexterity, or Constitution), this spell grants a base score of 10 to each missing ability score. If the target of the spell does not have mental ability scores (Intelligence, Wisdom, or Charisma), this spell grants a score of 5 to such scores. Damage taken by the new form can result in the injury or death of the polymorphed creature. In general, damage occurs when the new form is changed through physical force. A nonmagical object cannot be made into a magic item with this spell. Magic items aren't affected by this spell.",
 			"",
 			"This spell cannot create material of great intrinsic value, such as copper, silver, gems, silk, gold, platinum, mithral, or adamantine. It also cannot reproduce the special properties of cold iron in order to overcome the damage reduction of certain creatures.",

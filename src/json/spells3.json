@@ -336,6 +336,7 @@
 			"| 12th-14th | Ghast |",
 			"| 15th-17th | Mummy |",
 			"| 18th or higher | Mohrg |",
+			"",
 			"You may create less powerful undead than your level would allow if you choose. Created undead are not automatically under the control of their animator. If you are capable of commanding undead, you may attempt to command the undead creature as it forms.",
 			"",
 			"This spell must be cast at night."
@@ -479,6 +480,7 @@
 			"| 26-50 | Attempt a steal combat maneuver or Sleight of Hand check to steal a random valuable object from the nearest creature (or a nearby unattended object, if obviously of great value), moving adjacent to that creature or object as needed. Once an affected creature has stolen an item, further results of 26-50 cause the affected creature to flee, focusing all of its efforts on escaping with its loot and fighting to prevent the stolen object from being taken. |",
 			"| 51-75 | Attempt to break, destroy, or deface the nearest unattended manufactured object or structure. If the object or structure is too difficult to damage, the affected creature instead vandalizes or otherwise defaces its appearance. |",
 			"| 76-100 | Attack the nearest creature (for this purpose, a familiar counts as part of the affected creature's self). |",
+			"",
 			"A character affected by a crime wave who is unable to carry out the indicated action moves toward the nearest source of cover or concealment and attempts a Stealth check to hide. Affected creatures with the ability to turn invisible (including through the use of magic items or spells) do so instead of attempting a Stealth check.",
 			"",
 			"### Crime of Opportunity",
@@ -1631,6 +1633,7 @@
 			"| 01-25 | Target attacks the creature nearest to it. |",
 			"| 26-75 | Target attacks its nearest ally. |",
 			"| 76-100 | Target always attacks the last creature to attack it. |",
+			"",
 			"Beginning on its next turn, the target attacks the subject determined by the chart with a melee weapon, natural weapon, or supernatural ability that deals damage. If necessary, it moves to or charges to the subject in order to make this attack. If it is unable to reach its subject on its next turn, the target uses its turn to get as close as possible to the subject of its bloodlust. The target gains a +2 morale bonus on attack and damage rolls, and cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any abilities that require patience or concentration. This spell is otherwise treated as confusion and rage-any creature immune to confusion or rage is immune to this spell, and any ability or effect that ends confusion or rage (such as calm emotions) can end this spell.",
 			"",
 			"Antipaladins, bloodragers, clerics, and inquisitors who worship Dahak add Dahak's release to their spell lists as a 4th-level spell."
@@ -4891,6 +4894,7 @@
 			"| Up to caster level -1 | Staggered, deafened |",
 			"| Up to caster level -5 | Paralyzed, staggered, deafened |",
 			"| Up to caster level -10 | Killed, paralyzed, staggered, deafened |",
+			"",
 			"The effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.",
 			"",
 			"*Deafened:* The creature is deafened for 1d4 rounds. Save negates.",
@@ -7135,6 +7139,7 @@
 			"| Known creature | 1-88 | 89-94 | 95-98 | 99-100 |",
 			"| Not well known | 1-76 | 77-88 | 89-96 | 97-100 |",
 			"| False identity | - | - | 81-92 | 93-100 |",
+			"",
 			"*Familiarity:* \"Very familiar\" means that you have had contact using dream, dream council, dream scan, or a similar spell within the past 24 hours with the creature whose dreamscape you are trying to locate. \"Somewhat familiar\" means that you have had contact with the dreaming character using one of those spells at least once in the past. \"Known creature\" means that while you know the creature whose dreamscape you're trying to locate, you have not connected to its dreams with those spells. \"Not well known\" is a creature you have heard of, know by name and true identity, but have never met.",
 			"",
 			"\"False identity\" means that whether or not you have met the creature, you know it only through a false identity. When trying to locate the dreamscape of a creature known to you through a false identity, roll 1d20 + 80 on the table to obtain your results (instead of rolling d%), since there is no way for you to pinpoint the correct dreamscape.",
@@ -7161,6 +7166,7 @@
 			"| 4 | Creature is possessed as [possession](spell/possession) by an outsider (50% chance to be a creature from the destination plane; otherwise, it is a random hostile outsider). |",
 			"| 5 | Creature is affected as feeblemind. |",
 			"| 6 | Creature is affected as insanity. |",
+			"",
 			"Traveling to a different planar destination decreases the accuracy of your dream transit. If you exit a creature's dream onto a plane different from the plane you started on, you end up in a random location on the destination plane.",
 			"",
 			"If the target of your dream travel isn't dreaming, you and the other travelers can wait on the Dimension of Dreams until that creature begins sleeping. For each hour that passes during this wait, each dream traveler must attempt a Will save as if it were traveling to reach another plane."

@@ -906,6 +906,7 @@
 			"| Exhausted | Fatigued |",
 			"| Frightened | Shaken |",
 			"| Nauseated | Sickened |",
+			"",
 			"At the end of the spell's duration, the targets are again subject to the appropriate penalties if the original conditions affecting the target are still in effect."
 		]
 	},
@@ -4648,13 +4649,12 @@
 			"| Type | Sacrifice | Granted Bonus | GP Value |",
 			"| --- | --- | --- | --- |",
 			"| Treasures | 100 gp/HD of target | +1 | Equal |",
-			"| Lives1 | One living creature with HD equal to target | +2 | 200 gp/HD |",
-			"| Body/Mind1 | Reduction of ability scores by 1 reduced | +4 | 500 gp/point |",
-			"| Morals2 | Alignment shifts one step toward target's | +6 | 1,000 gp/step |",
-			"| Soul1 | One permanent negative level | +8 | 2,500 gp |",
-			"1 When used to sacrifice a life, body, mind, or soul other than the caster's own, this is an evil act.",
-			"",
-			"2 A character can sacrifice only her own morals, and can do so only once per lifetime."
+			"| Lives[^1] | One living creature with HD equal to target | +2 | 200 gp/HD |",
+			"| Body/Mind[^1] | Reduction of ability scores by 1 reduced | +4 | 500 gp/point |",
+			"| Morals[^2] | Alignment shifts one step toward target's | +6 | 1,000 gp/step |",
+			"| Soul[^1] | One permanent negative level | +8 | 2,500 gp |",
+			"[^1]: When used to sacrifice a life, body, mind, or soul other than the caster's own, this is an evil act.",
+			"[^2]: A character can sacrifice only her own morals, and can do so only once per lifetime."
 		]
 	},
 	"sacrificial_oath": {
@@ -4762,6 +4762,7 @@
 			"| Sailing ship | 2 hours |",
 			"| Warship | 3 hours |",
 			"| Galleon | 4 hours |",
+			"",
 			"At the end of the duration, an air bubble forms around the repaired ship. If submerged, the ship shoots to the surface, erupting with a great splash before settling on the water.",
 			"",
 			"Though the spell requires time to repair the ship, its effects are instantaneous. A salvaged ship cannot be dispelled to return it to a shipwreck. However, before the spell's duration ends and while the ship is still being repaired, salvage can be dispelled to interrupt the repair process. The ship remains in the condition it was in when the spell was interrupted until a new salvage spell is cast (but continues to age normally and suffers the effects of its environments). A new salvage spell's duration is modified by any repairs already begun."

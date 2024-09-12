@@ -152,6 +152,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
 	const sorter: TriggerSortFunc = useCallback((index, descending) => {
+		// sorter(index: number, descending: boolean)
+		//   Returns the boolean opposite of descending
+		// This function reorganizes the rows and sets the 'active' column
 		const newRows = [...rows];
 		const normal = (active !== index) || descending;
 		const sortfunc = normal ? descendingSort : ascendingSort;

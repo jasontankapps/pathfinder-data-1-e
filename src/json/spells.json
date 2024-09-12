@@ -3315,6 +3315,7 @@
 			"| 85-90 | Random demiplane |",
 			"| 91-95 | Material Plane (random world) |",
 			"| 96-100 | GM's choice |",
+			"",
 			"A creature that is transported by anywhere but here cannot be affected by a subsequent casting of anywhere but here for 24 hours afterward (but can be affected normally by other forms of planar travel)."
 		]
 	},
@@ -3743,6 +3744,7 @@
 			"| Up to caster level - 1 | Sickened, staggered |",
 			"| Up to caster level - 5 | Nauseated, sickened, staggered |",
 			"| Up to caster level - 10 | Killed, nauseated, sickened, staggered |",
+			"",
 			"The effects are concurrent. A creature can attempt a Will save to reduce or negate the effects. If subject to multiple effects, the creature rolls once and applies the result to each effect.",
 			"",
 			"*Sickened:* The creature is sickened for 1d4 rounds (Will negates).",
@@ -7599,6 +7601,7 @@
 			"| Up to caster level -1 | Weakened, dazed |",
 			"| Up to caster level -5 | Paralyzed, weakened, dazed |",
 			"| Up to caster level -10 | Killed, paralyzed, weakened, dazed |",
+			"",
 			"The effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.",
 			"",
 			"*Dazed:* The creature can take no actions for 1 round, though it defends itself normally. Save negates.",
