@@ -904,11 +904,13 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
+			[ "[Jump to the table](#armortable)" ],
 			[
 				"The cost of the armor is for Small or Medium humanoid creatures. For other creatures, see [here](rule/armor_for_unusual_creatures).",
 				"",
 				"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much."
 			],
+			"# Table ! armortable",
 			[ "{table0}" ]
 		],
 		"tables": [
@@ -1038,6 +1040,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
+			[ "[Jump to the table](#weaponstable)" ],
 			[
 				"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
 				"",
@@ -1047,6 +1050,7 @@
 				"",
 				"Firearms and related gear can be found [here](main/equipment_firearms)."
 			],
+			"# Table ! weaponstable",
 			[ "{table0}" ]
 		],
 		"tables": [

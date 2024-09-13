@@ -4,12 +4,14 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"searchgroup": "equip",
 		"description": [
+			[ "[Jump to the table](#wenhancetables)" ],
 			[
 				"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
 				"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
 				"",
 				"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type."
 			],
+			"# Table ! wenhancetables",
 			[ "{table0}" ]
 		],
 		"tables": [
@@ -41,6 +43,8 @@
 		"sources": [ "Ultimate Equipment" ],
 		"searchgroup": "equip",
 		"description": [
+			[ "[Jump to the table](#materialstable)" ],
+			[ "[Jump to primitive materials](#primitives)" ],
 			[
 				"**Description Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
 				"Weapons and armor can be crafted using materials that have innate special properties. If you make a suit of armor or a weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
@@ -49,6 +53,7 @@
 				"",
 				"[Go here for rules on special materials and how to use them.](rule/special_raw_materials)"
 			],
+			"# Table ! materialstable",
 			[
 				"| Name | Description |",
 				"| :---: | --- |",
@@ -100,7 +105,7 @@
 				"| [Whipwood](/equipment-material/whipwood) | Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. |",
 				"| [Wyroot](/equipment-material/wyroot) | The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. |"
 			],
-			"# Primitive Materials",
+			"# Primitive Materials ! primitives",
 			[
 				"The standard Pathfinder Roleplaying Game campaign takes place in a time period similar to the medieval and early Renaissance age of iron and steel. But even in fantasy campaigns set in this era, some cultures lack steel, and some lack metalworking entirely. Sometimes this deficit is due to geographical remoteness, lack of resources, repression by a strong overlord, or societal taboos. Other campaigns might be set before the medieval era, or in a dark future where apocalypse survivors eke out livings with the best tools they can scavenge. Some might even choose a lower level of technology as a point of pride, for religious reasons, as an assertion of superior martial prowess, or even to honor ancestral warriors by using their bones to make weapons, allowing them to symbolically keep fighting for their tribe or family from beyond the grave.",
 				"",
@@ -206,6 +211,7 @@
 			"Inner Sea Intrigue"
 		],
 		"description": [
+			[ "[Jump to the table](#poisonstable)" ],
 			[
 				"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
 				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
@@ -215,6 +221,7 @@
 				"",
 				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."
 			],
+			"# Table ! poisonstable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "equip",
@@ -383,6 +390,7 @@
 			"Alchemy Manual"
 		],
 		"description": [
+			[ "[Jump to the table](#reagentstable)" ],
 			[
 				"**Description Source:** [Adventurer's Armory](source/adventurer's_armory)  ",
 				"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
@@ -390,6 +398,7 @@
 				"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
 				"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use."
 			],
+			"# Table ! reagentstable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "equip",
@@ -451,6 +460,7 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			[ "[Jump to the table](#spellbookstable)" ],
 			[
 				"**Description Source:** [Ultimate Magic](source/ultimate_magic)  ",
 				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
@@ -482,6 +492,7 @@
 				"",
 				"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books)."
 			],
+			"# Table ! spellbookstable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "equip",
@@ -545,6 +556,7 @@
 		"title": "Technology - Armor",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#techarmortable)" ],
 			[
 				"Each suit of technological armor has a full description, including a set of abbreviated statistics. This information is organized as follows."
 			],
@@ -575,6 +587,7 @@
 				"",
 				"**Cost:** This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor."
 			],
+			"# Table ! techarmortable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
@@ -618,6 +631,7 @@
 		"title": "Technology - Weapons",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#techweaponstable)" ],
 			[
 				"Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows."
 			],
@@ -656,6 +670,7 @@
 				"",
 				"**Cost:** This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon"
 			],
+			"# Table ! techweaponstable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
@@ -720,6 +735,7 @@
 		"title": "Technology - Cybertech",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#cybertable)" ],
 			[
 				"Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape-installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
 				"",
@@ -753,6 +769,7 @@
 				"",
 				"**Cost:** This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item"
 			],
+			"# Table ! cybertable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
@@ -800,6 +817,7 @@
 		"title": "Technology - Pharmaceuticals",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#pharmatable)" ],
 			[
 				"A pharmaceutical takes a standard action to consume, or a move action if administered by a [medlance](tech-misc/medlance). A single dose of any pharmaceutical weighs only a tenth of a pound-no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.",
 				"",
@@ -814,6 +832,7 @@
 				"",
 				"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical."
 			],
+			"# Table ! pharmatable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
@@ -851,6 +870,7 @@
 		"title": "Technology - Artifacts",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#techartitable)" ],
 			[ "In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile." ],
 			"# Power Generators",
 			[
@@ -868,7 +888,7 @@
 				"",
 				"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount."
 			],
-			"# Technological Artifacts",
+			"# Technological Artifacts ! techartitable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
@@ -881,9 +901,9 @@
 					[ "[Arms of the Iron God](tech-artifact/arms_of_the_iron_god)", "cybertech", 28 ],
 					[ "[Autodoc](tech-artifact/autodoc)", "misc", 1200 ],
 					[ "[Beam cannon (gravity cannon)](tech-artifact/beam_cannon_gravity_cannon)", "weapon", 18 ],
-					[ "[Compact AI Core](tech-artifact/compact_ai_core)", "misc", 0 ],
-					[ "[Divinity Drive](tech-artifact/divinity_drive)", "misc", 0 ],
-					[ "[Extinction Wave Device](tech-artifact/extinction_wave_device)", "weapon", 0 ],
+					[ "[Compact AI Core](tech-artifact/compact_ai_core)", "misc", 8 ],
+					[ "[Divinity Drive](tech-artifact/divinity_drive)", "misc", 25000 ],
+					[ "[Extinction Wave Device](tech-artifact/extinction_wave_device)", "weapon", 1000 ],
 					[ "[Fission reactor](tech-artifact/fission_reactor)", "generator", [ 9999999, "&mdash;" ] ],
 					[ "[Fusion reactor](tech-artifact/fusion_reactor)", "generator", [ 9999999, "&mdash;" ] ],
 					[ "[Geothermal generator](tech-artifact/geothermal_generator)", "generator", [ 9999999, "&mdash;" ] ],
@@ -910,6 +930,7 @@
 		"title": "Technology - Miscellaneous",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			[ "[Jump to the table](#misctechtable)" ],
 			[
 				"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows."
 			],
@@ -932,6 +953,7 @@
 				"",
 				"**Cost:** This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item"
 			],
+			"# Table ! misctechtable",
 			[ "{table0}" ]
 		],
 		"searchgroup": "tech",
