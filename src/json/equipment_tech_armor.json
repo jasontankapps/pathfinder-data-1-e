@@ -55,7 +55,7 @@
 			"**Craft DC** 24; **Cost** 50 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A scatterlight suit is a tight, form-fitting suit of highly reflective polymers and synthetic metal fibers. It's designed to reflect beam weapon attacks, and provides only minimal protection against physical damage. Activating a scatterlight suit is a standard action; once activated, the suit diffuses and blurs light reflected from its surface, making the wearer appear hazy and indistinct. While active, a scatterlight suit increases the wearer's touch AC by a variable amount-this bonus is an armor bonus, but does not increase the wearer's normal or flatfooted AC beyond the scatterlight suit's baseline armor bonus of +1. This bonus to touch AC only applies to attacks made by beam weapons and rays-it does not provide additional protection to other touch attacks."
+			"A scatterlight suit is a tight, form-fitting suit of highly reflective polymers and synthetic metal fibers. It's designed to reflect beam weapon attacks, and provides only minimal protection against physical damage. Activating a scatterlight suit is a standard action; once activated, the suit diffuses and blurs light reflected from its surface, making the wearer appear hazy and indistinct. While active, a scatterlight suit increases the wearer's touch AC by a variable amount-this bonus is an armor bonus, but does not increase the wearer's normal or flat-footed AC beyond the scatterlight suit's baseline armor bonus of +1. This bonus to touch AC only applies to attacks made by beam weapons and rays-it does not provide additional protection to other touch attacks."
 		]
 	},
 	"chameleon_suit": {
@@ -423,7 +423,7 @@
 			"",
 			"Short for \"hazardous environment,\" an HEV suit provides protection from radiation, disease, poisonous gas, cold, heat, and similar environmental dangers. The suit needs a power supply to work-while deactivated, none of the following abilities function at all.",
 			"",
-			"While powered, the suit provides immunity to inhaled poisons and diseases, and provides resistance 10 against all forms of energy except for sonic damage. An HEV suit completely protects against low radiation, and reduces the effects of medium radiation to low radiation, but it offers no protection against high or severe radiation. The suit's selfrepairing polymer resin fabric automatically seals secondary punctures or tears created by physical attacks to the wearer and damage dealt specifically against the suit. It repairs damage at the rate of 2d6 points of damage per charge consumed. While repairing damage in this manner, the suit's other protective functions listed above are any taken offline. An HEV suit has hardness 2 and 30 hit points."
+			"While powered, the suit provides immunity to inhaled poisons and diseases, and provides resistance 10 against all forms of energy except for sonic damage. An HEV suit completely protects against low radiation, and reduces the effects of medium radiation to low radiation, but it offers no protection against high or severe radiation. The suit's self-repairing polymer resin fabric automatically seals secondary punctures or tears created by physical attacks to the wearer and damage dealt specifically against the suit. It repairs damage at the rate of 2d6 points of damage per charge consumed. While repairing damage in this manner, the suit's other protective functions listed above are any taken offline. An HEV suit has hardness 2 and 30 hit points."
 		]
 	},
 	"nanite_ablative_armor": {

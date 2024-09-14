@@ -992,7 +992,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against languagedependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2.",
+			"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2.",
 			"",
 			"**Suggested Characters:** Andorens, Desnans, Erastil worshipers."
 		],
@@ -5353,7 +5353,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Grudinnar",
 			"",
-			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as shield other) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
+			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as [shield other](spell/shield_other)) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -7816,7 +7816,7 @@
 			"",
 			"**Lore Seeker:** The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities-meaning less competition to study the ancient monuments in the region, you hope! You gain a +1 trait bonus on Knowledge (arcana) checks, and Knowledge (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.",
 			"",
-			"**Exile:** For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to twon, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.",
+			"**Exile:** For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to town, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.",
 			"",
 			"**Missionary:** You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region-what that need is, though, you're not quite sure. You gain a +1 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus."
 		],

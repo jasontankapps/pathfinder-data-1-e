@@ -141,7 +141,7 @@
 			"**Source** [Antihero's Handbook pg. 9](source/antihero's_handbook)",
 			"",
 			"When someone grabs you, you can easily reach that opponent's vulnerable spots.  ",
-			"**Benefit:** While you are grappled (but not when you are controlling the grapple), you can attempt a dirty trick combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the Improved Dirty Trick feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and Greater Dirty Trick feats."
+			"**Benefit:** While you are grappled (but not when you are controlling the grapple), you can attempt a dirty trick combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the [Improved Dirty Trick](feat/improved_dirty_trick) feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and [Greater Dirty Trick](feat/greater_dirty_trick) feats."
 		]
 	},
 	"oracular_intuition": {
@@ -180,7 +180,7 @@
 			"",
 			"You inspire great fear in your enemies.  ",
 			"**Prerequisites:** [Bullying Blow](feat/bullying_blow), [Intimidating Prowess](feat/intimidating_prowess), Intimidate 3 ranks, weapon familiarity racial trait.  ",
-			"**Benefit:** While wielding a greataxe, a falchion, or any melee weapon that has \"orc\" in its name, you can use the Bullying Blow feat with the first attack of a full-attack action or as part of a standard action to make one or more attacks (such as with the Cleave feat)."
+			"**Benefit:** While wielding a greataxe, a falchion, or any melee weapon that has \"orc\" in its name, you can use the Bullying Blow feat with the first attack of a full-attack action or as part of a standard action to make one or more attacks (such as with the [Cleave](feat/cleave) feat)."
 		]
 	},
 	"orc_hewer": {
@@ -201,7 +201,7 @@
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 128](source/pathfinder_unchained)",
 			">",
-			">As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks against humanoids with the orc subtype increases to +4."
+			">As long as you have at least 1 stamina point in your stamina pool, the bonus on [Cleave](feat/cleave) attacks against humanoids with the orc subtype increases to +4."
 		]
 	},
 	"orc_rampage": {
@@ -452,7 +452,7 @@
 			"You and your allies use the sun's glare to your advantage.  ",
 			"**Prerequisites:** Bluff 3 ranks, Stealth 3 ranks.  ",
 			"**Benefit:** When you hit with a melee attack, you can attempt a Bluff check as a move action to feint. You do not gain the benefits of this feint; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in dim light or darkness.  ",
-			"**Special:** If you have the Improved Feint feat, you can feint with Out of the Sun as a swift action after you hit with a melee attack."
+			"**Special:** If you have the [Improved Feint](feat/improved_feint) feat, you can feint with Out of the Sun as a swift action after you hit with a melee attack."
 		]
 	},
 	"outer_planes_traveler": {
@@ -510,7 +510,7 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"You can make quick, defensive movements.  ",
-			"**Prerequisites:** Int 13; Combat Expertise or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); [Outslug Weave](feat/outslug_weave); Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); [Outslug Weave](feat/outslug_weave); [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
 			"**Benefit:** While using Outslug Style, you can move an additional 5 feet when making a 5-foot step."
 		]
 	},
@@ -523,7 +523,7 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"You dart in and out of combat.  ",
-			"**Prerequisites:** Int 13; Combat Expertise or brawler's cunning class feature; Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
 			"**Benefit:** Choose one weapon from the close fighter weapon group. While using this style, when you take a 5-foot step, you gain a +1 dodge bonus to AC and a +1 bonus on weapon damage rolls with the chosen weapon until the beginning of your next turn.  ",
 			"**Special:** In addition to the chosen weapon, a character with the weapon training (close) or the brawler's close weapon mastery class feature can use Outslug Style with any close weapon."
 		]
@@ -537,7 +537,7 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"You land precise attacks from afar.  ",
-			"**Prerequisites:** Int 13; Combat Expertise or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
 			"**Benefit:** While using Outslug Style, you don't take a -2 penalty to your AC when using the Lunge feat. The bonuses to AC and on weapon damage rolls that you gain from Outslug Style increase to +2."
 		]
 	},
@@ -604,7 +604,7 @@
 			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_master's_handbook)",
 			"",
 			"You have learned to wait until your ranged attacks have the greatest effect.  ",
-			"**Prerequisites:** [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
 			"**Benefit:** While using this style, as a full-round action you can ready two ranged attacks with the chosen weapon, each with its own triggering event. You take a -2 penalty on attack rolls made with these readied actions.  ",
 			"**Special:** A character with this feat and the weapon training (bows, crossbows, or firearms) class feature can use Overwatch Style with any bow, crossbow, or firearm, respectively, in addition to the chosen weapon."
 		]
@@ -618,7 +618,7 @@
 			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
 			"",
 			"You quickly prepare to react to your enemies' actions.  ",
-			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
 			"**Benefit:** While using Overwatch Style, you can ready two ranged attacks as a standard action, rather than a full-round action."
 		]
 	},
@@ -631,7 +631,7 @@
 			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
 			"",
 			"You are ready to respond to many more of your foes' actions.  ",
-			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Overwatch Tactician](feat/overwatch_tactician), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), Weapon Focus with the chosen weapon, base attack bonus +11.  ",
+			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Overwatch Tactician](feat/overwatch_tactician), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +11.  ",
 			"**Benefit:** While using the Overwatch Style, as a full-round action you can ready up to four ranged attacks, each with its own triggering event. You take a -2 penalty on attack rolls made with these readied actions."
 		]
 	},
@@ -684,7 +684,7 @@
 			"",
 			"You can move with the quiet grace of an owl.  ",
 			"**Prerequisites:** Dex 13, [Skill Focus (Stealth)](feat/skill_focus), Stealth 1 rank.  ",
-			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of Skill Focus). While in this stance and using Stealth, you can charge at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like blindsight) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
+			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of [Skill Focus](feat/skill_focus)). While in this stance and using Stealth, you can charge at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like blindsight) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
 		]
 	},
 	"owl_swoop": {
@@ -833,7 +833,7 @@
 			"",
 			"You have learned how to land blows so painful it is difficult for struck spellcasters to concentrate.  ",
 			"**Prerequisites:** [Vital Strike](feat/vital_strike), base attack bonus +6, Knowledge (arcana) 3 ranks.  ",
-			"**Benefit:** When you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), the creature you hit with the attack must treat the damage dealt as continuous damage until the beginning of your next turn. This forces the target to attempt a concentration check if it casts a spell. You can use this benefit twice per day, or three times per day if your base attack bonus is +12 or higher."
+			"**Benefit:** When you use Vital Strike (or [Improved Vital Strike](feat/improved_vital_strike) or [Greater Vital Strike](feat/greater_vital_strike)), the creature you hit with the attack must treat the damage dealt as continuous damage until the beginning of your next turn. This forces the target to attempt a concentration check if it casts a spell. You can use this benefit twice per day, or three times per day if your base attack bonus is +12 or higher."
 		]
 	},
 	"painful_collision": {
@@ -1750,7 +1750,7 @@
 			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
 			"",
 			"You cast a spell destined to fail in order to help your ally overcome an enemy's spell resistance.  ",
-			"**Prerequisites:** Spell Penetration or Bluff 3 ranks; caster level 1st.  ",
+			"**Prerequisites:** [Spell Penetration](feat/spell_penetration) or Bluff 3 ranks; caster level 1st.  ",
 			"**Benefit:** You can expend one prepared spell or spell slot, as if you had cast the spell, to weaken an enemy's defenses. Your spell has no effect, but a designated ally who also has this feat gains a bonus on her caster level check to overcome spell resistance equal to half the level of the spell or spell slot you expended, lasting until the start of your next turn."
 		]
 	},
@@ -1895,7 +1895,7 @@
 			"**Source** [Ultimate Combat pg. 113](source/ultimate_combat)",
 			"",
 			"You deftly use specially prepared needles to apply poison for maximum effect.  ",
-			"**Prerequisites:** Poison use class feature, Craft (alchemy) 6 ranks, [Adder Strike](feat/adder_strike), [Improved Unarmed Strike](feat/improved_unarmed_strike), Two-Weapon Fighting or flurry of blows class feature.  ",
+			"**Prerequisites:** Poison use class feature, Craft (alchemy) 6 ranks, [Adder Strike](feat/adder_strike), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Two-Weapon Fighting](feat/two-weapon_fighting) or flurry of blows class feature.  ",
 			"**Benefit:** When you use Adder Strike, you can instead poison up to two blowgun darts that you can then use to strike your opponent in melee. (Drawing such darts is a free action.) While holding these darts, you can spend a standard action to attack with one or a full-attack action to attack with both. Such attacks are considered melee touch attacks that deal 1d2 damage plus any bonuses you gain on your normal unarmed strike damage, and they deliver the poison. You can instead throw such darts as if they were shuriken, making your ranged attack rolls against the target's AC.  ",
 			"**Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.",
 			"",
@@ -1946,7 +1946,7 @@
 			"",
 			"You make a combination of quick strikes, sacrificing accuracy for multiple, minor wounds that prove exceptionally deadly.  ",
 			"**Prerequisites:** [Weapon Finesse](feat/weapon_finesse), base attack bonus +1.  ",
-			"**Benefit:** When wielding a light weapon, you can choose to take a -1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is halved (-50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and for every 4 points thereafter, the penalty increases by -1 and the bonus on damage rolls increases by +2. You must choose to use this feat before the attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage. This feat cannot be used in conjunction with the Power Attack feat."
+			"**Benefit:** When wielding a light weapon, you can choose to take a -1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is halved (-50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and for every 4 points thereafter, the penalty increases by -1 and the bonus on damage rolls increases by +2. You must choose to use this feat before the attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage. This feat cannot be used in conjunction with the [Power Attack](feat/power_attack) feat."
 		]
 	},
 	"plague_resistance": {
@@ -2185,7 +2185,7 @@
 			"",
 			"**Basic:** Hell's influence grants you a silvered tongue and bolsters your arrogance. You gain a +1 bonus on Will saves, a +2 bonus on Bluff checks to lie to or fool someone, and a +2 bonus on Diplomacy checks to adjust a creature's attitude.",
 			"",
-			"**Improved:** Whenever you deal fire damage, you can instead deal hellfire damage (hellfire damage is half fire damage and half damage from unholy energy; evil-aligned creatures and creatures with the evil subtype take no damage from the unholy energy, but goodaligned beings and those with the good subtype take double the normal damage from it. Creatures under the effects of spells such as protection from evil are unaffected by this unholy energy, though they are still subject to the fire damage.). Secondary fires lit by your initial fire attack deal normal fire damage (including burn damage, if such damage occurs).",
+			"**Improved:** Whenever you deal fire damage, you can instead deal hellfire damage (hellfire damage is half fire damage and half damage from unholy energy; evil-aligned creatures and creatures with the evil subtype take no damage from the unholy energy, but good-aligned beings and those with the good subtype take double the normal damage from it. Creatures under the effects of spells such as protection from evil are unaffected by this unholy energy, though they are still subject to the fire damage.). Secondary fires lit by your initial fire attack deal normal fire damage (including burn damage, if such damage occurs).",
 			"",
 			"**Greater:** You can inflict the agonizing pain of eternal damnation on the masses for a brief instant. You can use mass inflict pain once per day as a spell-like ability.",
 			"",
@@ -2378,7 +2378,7 @@
 			"",
 			"Your study of the nature and hazards of a diverse array of planes has prepared you for their dangers.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks, Survival 3 ranks.  ",
-			"**Benefit:** You gain a +2 bonus on Survival checks on planes other than the Material Plane and a +2 bonus on saving throws against hazards encountered in such environments. If you have 10 or more ranks in Survival, the bonus on Survival checks increases to +4. This bonus does not stack with the bonus granted by the Self-Sufficient feat."
+			"**Benefit:** You gain a +2 bonus on Survival checks on planes other than the Material Plane and a +2 bonus on saving throws against hazards encountered in such environments. If you have 10 or more ranks in Survival, the bonus on Survival checks increases to +4. This bonus does not stack with the bonus granted by the [Self-Sufficient](feat/self-sufficient) feat."
 		]
 	},
 	"planar_traveler": {
@@ -2488,10 +2488,10 @@
 			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
 			"",
 			"You are adept at firing ranged weapons in close quarters.  ",
-			"**Prerequisites:** Weapon Specialization with selected ranged weapon.  ",
+			"**Prerequisites:** [Weapon Specialization](feat/weapon_specialization) with selected ranged weapon.  ",
 			"**Benefit:** Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened.  ",
 			"**Normal:** Using a ranged weapon while you are threatened provokes attacks of opportunity.  ",
-			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Point Blank Master as a combat style feat, but he must have Weapon Focus instead of Weapon Specialization in the selected weapon.",
+			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Point Blank Master as a combat style feat, but he must have [Weapon Focus](feat/weapon_focus) instead of Weapon Specialization in the selected weapon.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 129](source/pathfinder_unchained)",
@@ -2563,7 +2563,7 @@
 			"",
 			"You know the secrets of creating especially vicious poisons.  ",
 			"**Prerequisites:** Craft (alchemy) 1 rank.  ",
-			"**Benefit:** The save DC of any poison you craft with Craft (alchemy) and any spells you cast with the poison descriptor increases by 1. This bonus doesn't stack with the bonus granted by Spell Focus."
+			"**Benefit:** The save DC of any poison you craft with Craft (alchemy) and any spells you cast with the poison descriptor increases by 1. This bonus doesn't stack with the bonus granted by [Spell Focus](feat/spell_focus)."
 		]
 	},
 	"poison_resin": {
@@ -2664,7 +2664,7 @@
 			"",
 			"With a surprise swipe with your pommel, you can topple a foe.  ",
 			"**Prerequisites:** Amateur Swashbuckler or panache class feature; base attack bonus +3.  ",
-			"**Benefit:** You can spend 1 panache point to make a melee attack with the pommel of a light or one-handed piercing melee weapon as a standard action. You make this attack as if you were using the weapon normally (including any bonuses gained from the swashbuckler's finesse class feature, Weapon Finesse, or other similar feats and effects), but you deal 1d6 bludgeoning damage (or 1d4 if you are Small) instead of the weapon's normal damage. Regardless of your size, the critical threat range and critical multiplier of this attack are 20/&times;2, and they are not affected by Improved Critical, the keen weapon special ability, or similar effects. If the attack hits, you can attempt a combat maneuver check to knock the target prone as a free action."
+			"**Benefit:** You can spend 1 panache point to make a melee attack with the pommel of a light or one-handed piercing melee weapon as a standard action. You make this attack as if you were using the weapon normally (including any bonuses gained from the swashbuckler's finesse class feature, [Weapon Finesse](feat/weapon_finesse), or other similar feats and effects), but you deal 1d6 bludgeoning damage (or 1d4 if you are Small) instead of the weapon's normal damage. Regardless of your size, the critical threat range and critical multiplier of this attack are 20/&times;2, and they are not affected by [Improved Critical](feat/improved_critical), the keen weapon special ability, or similar effects. If the attack hits, you can attempt a combat maneuver check to knock the target prone as a free action."
 		]
 	},
 	"poppet_familiar": {
@@ -2922,7 +2922,7 @@
 			"",
 			"You have a large wingspan for a member of your race, and can use these appendages to batter your foes.  ",
 			"**Prerequisites:** Str 13, [Skill Focus (Fly)](feat/skill_focus), base attack bonus +8.  ",
-			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the Hover feat.  ",
+			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the [Hover](feat/hover) feat.  ",
 			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
 		]
 	},
@@ -3059,7 +3059,7 @@
 			"",
 			"Even in youth, you seek to be more adult than your childish peers, a personal trait that will no doubt aid you in future years.  ",
 			"**Prerequisites:** Young age category.  ",
-			"**Benefit:** You lose one of the penalties associated with the young age category, either -2 Constitution, -2 Strength, or -2 Wisdom. Upon reaching adulthood you may exchange this feat for Great Fortitude, Iron Will, or Lightning Reflexes.  ",
+			"**Benefit:** You lose one of the penalties associated with the young age category, either -2 Constitution, -2 Strength, or -2 Wisdom. Upon reaching adulthood you may exchange this feat for [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or [Lightning Reflexes](feat/lightning_reflexes).  ",
 			"**Special:** You may take this feat up to three times. Each time you do, it affects a different penalty and must be exchanged for a different feat upon reaching adulthood."
 		]
 	},
@@ -3588,7 +3588,7 @@
 			"**Source** [Advanced Class Guide pg. 154](source/advanced_class_guide)",
 			"",
 			"Your unarmed strikes weave together in an effortless combo, focusing on the spots you've weakened with the last hit.  ",
-			"**Prerequisites:** Improved Unarmed Strike; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
+			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
 			"**Benefit:** Whenever you use a full-attack action or flurry of blows to make multiple attacks against a single opponent with unarmed strikes, total the damage from all hits before applying damage reduction. This ability works only with unarmed strikes, no matter what other abilities you might possess.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -3811,7 +3811,7 @@
 			"",
 			"You can wield a quarterstaff as either a two-handed or one-handed weapon.  ",
 			"**Prerequisites:** [Weapon Focus (quarterstaff)](feat/weapon_focus), base attack bonus +5.  ",
-			"**Benefit:** By employing a number of different stances and techniques, you can wield a quarterstaff as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat Weapon Specialization in the quarterstaff even if you have no levels in fighter.",
+			"**Benefit:** By employing a number of different stances and techniques, you can wield a quarterstaff as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat [Weapon Specialization](feat/weapon_specialization) in the quarterstaff even if you have no levels in fighter.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 129](source/pathfinder_unchained)",
@@ -4012,7 +4012,7 @@
 			"",
 			"You effortlessly stow items and sheathe weapons.  ",
 			"**Prerequisites:** [Quick Draw](feat/quick_draw), base attack bonus +1.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when sheathing a weapon, and you can combine a move action to sheathe a weapon with a regular move action. (You can both stow and draw a weapon as part of the same move action in this way.) If you have the Two-Weapon Fighting feat, you can sheathe two light or one-handed weapons in the time it would normally take to sheathe one.",
+			"**Benefit:** You do not provoke an attack of opportunity when sheathing a weapon, and you can combine a move action to sheathe a weapon with a regular move action. (You can both stow and draw a weapon as part of the same move action in this way.) If you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat, you can sheathe two light or one-handed weapons in the time it would normally take to sheathe one.",
 			"",
 			"You can also quickly stow items in a backpack or other container that you are wearing or carrying. When you successfully use an action to pick up an item (including when you steal an item with a successful Sleight of Hand check or steal combat maneuver check), you can stow the item as part of the same action used to acquire it. You can try to hide this object by attempting a Sleight of Hand check with a -20 penalty, opposed by the Perception check results of all opponents."
 		]
@@ -4479,7 +4479,7 @@
 			"**Source** [Advanced Class Guide pg. 155](source/advanced_class_guide)",
 			"",
 			"You can use a limited form of studied combat and studied strike with a weapon of your choice.  ",
-			"**Prerequisites:** Weapon Focus with the chosen weapon, studied combat class feature.  ",
+			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with the chosen weapon, studied combat class feature.  ",
 			"**Benefit:** Choose one kind of ranged weapon. You gain the bonuses for studied combat with your chosen weapon and can use studied strike with your chosen weapon as long as the target of your studied strike is within 30 feet of you.  ",
 			"**Normal:** You gain the bonuses for studied combat and can use studied strike only with melee weapons."
 		]
@@ -4564,7 +4564,7 @@
 			"**Source** [Ultimate Combat pg. 115](source/ultimate_combat), [Inner Sea World Guide pg. 288](source/inner_sea_world_guide), [PRPG Core Rulebook pg. 132](source/prpg_core_rulebook)",
 			"",
 			"Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly.  ",
-			"**Prerequisites:** Weapon Proficiency (crossbow type chosen) or Exotic Weapon Proficiency (firearm).  ",
+			"**Prerequisites:** Weapon Proficiency (crossbow type chosen) or [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (firearm).  ",
 			"**Benefit:** The time required for you to reload your chosen type of weapon is reduced to a free action (for a hand or light crossbow), a move action (for heavy crossbow or one-handed firearm), or a standard action (two-handed firearm). Reloading a crossbow or firearm still provokes attacks of opportunity.",
 			"",
 			"If you have selected this feat for a hand crossbow or light crossbow, you may fire that weapon as many times in a full-attack action as you could attack if you were using a bow.  ",
@@ -4707,7 +4707,7 @@
 			"You are proficient at avoiding polearms and long-limbed creatures.  ",
 			"**Prerequisites:** Dex 15  ",
 			"**Benefit:** You gain a +2 dodge bonus to Armor Class against attacks of opportunity from opponents that are not adjacent to you.  ",
-			"**Special:** This feat counts as Dodge for the purposes of qualifying for the Mobility and Spring Attack feats.",
+			"**Special:** This feat counts as [Dodge](feat/dodge) for the purposes of qualifying for the [Mobility](feat/mobility) and [Spring Attack](feat/spring_attack) feats.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
@@ -5414,7 +5414,7 @@
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Reposition](feat/improved_reposition), base attack bonus +9.  ",
 			"**Benefit:** Whenever you score a critical hit with a melee attack, you can move your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may move your opponent as if from the reposition combat maneuver. This does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a reposition combat maneuver to reposition an opponent.  ",
-			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: Bull Rush Strike, Disarming Strike, Repositioning Strike, Sundering Strike, or Tripping Strike. You may choose to use this feat after you make your confirmation roll.",
+			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: [Bull Rush Strike](feat/bull_rush_strike), [Disarming Strike](feat/disarming_strike), [Repositioning Strike](feat/repositioning_strike), [Sundering Strike](feat/sundering_strike), or [Tripping Strike](feat/tripping_strike). You may choose to use this feat after you make your confirmation roll.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 130](source/pathfinder_unchained)",
@@ -5485,7 +5485,7 @@
 			"",
 			"You are especially adept at fighting off the grabbing appendages of aberrations and other tentacled horrors.  ",
 			"**Prerequisites:** Dex 13.  ",
-			"**Benefit:** When a creature hits you with a melee attack and attempts to use the grab ability, it provokes an attack of opportunity from you unless it has the Improved Grapple feat. If you hit the opponent with your attack, treat the damage you deal as 5 higher when calculating the penalty on the attacker's combat maneuver check to grapple you.  ",
+			"**Benefit:** When a creature hits you with a melee attack and attempts to use the grab ability, it provokes an attack of opportunity from you unless it has the [Improved Grapple](feat/improved_grapple) feat. If you hit the opponent with your attack, treat the damage you deal as 5 higher when calculating the penalty on the attacker's combat maneuver check to grapple you.  ",
 			"**Normal:** Creatures using the grab ability does not provoke attacks of opportunity."
 		]
 	},
@@ -5799,7 +5799,7 @@
 			"",
 			"You are able to angle your thrown weapon attacks in such a way that the weapon ricochets and immediately returns to you.  ",
 			"**Prerequisites:** [Quick Draw](feat/quick_draw), base attack bonus +6, weapon training class feature with a ranged weapon.  ",
-			"**Benefit:** When you make a ranged attack with an appropriate thrown weapon, the weapon returns to your hand immediately after the attack is resolved. This ability does not allow bullets, thrown ammunition such as darts or shuriken, or thrown splash weapons to return to you. Improvised thrown weapons don't return to you unless you have the Throw Anything feat."
+			"**Benefit:** When you make a ranged attack with an appropriate thrown weapon, the weapon returns to your hand immediately after the attack is resolved. This ability does not allow bullets, thrown ammunition such as darts or shuriken, or thrown splash weapons to return to you. Improvised thrown weapons don't return to you unless you have the [Throw Anything](feat/throw_anything) feat."
 		]
 	},
 	"ride-by_attack": {
@@ -6154,7 +6154,7 @@
 			"",
 			"You can deliver touch spells with frightful ferocity.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** As long as two of your hands are free, you can cast a spell with a range of touch and deliver the spell to a single target as part of a charge action. When you do so, you gain a +2 bonus on caster level checks to overcome the target's spell resistance, and the critical threat range of that touch attack is 19-20. This increased threat range does not stack with similar abilities such as Improved Critical."
+			"**Benefit:** As long as two of your hands are free, you can cast a spell with a range of touch and deliver the spell to a single target as part of a charge action. When you do so, you gain a +2 bonus on caster level checks to overcome the target's spell resistance, and the critical threat range of that touch attack is 19-20. This increased threat range does not stack with similar abilities such as [Improved Critical](feat/improved_critical)."
 		]
 	},
 	"rushing_winds": {
@@ -6507,7 +6507,7 @@
 			"",
 			"You are able to land critical hits precisely, dealing devastating damage.  ",
 			"**Prerequisites:** Str 19, ogre, sneak attack +2d6.  ",
-			"**Benefit:** When you hit a creature using the Vital Strike feat or confirm a critical hit against an opponent, add your sneak attack damage to the damage from the attack. This feat has no effect on attacks that already allow you to add sneak attack damage."
+			"**Benefit:** When you hit a creature using the [Vital Strike](feat/vital_strike) feat or confirm a critical hit against an opponent, add your sneak attack damage to the damage from the attack. This feat has no effect on attacks that already allow you to add sneak attack damage."
 		]
 	},
 	"savage_display": {
@@ -6657,7 +6657,7 @@
 			"**Source** [Blood of the Coven pg. 20](source/blood_of_the_coven)",
 			"",
 			"Your calloused soul attracts curses, even those afflicting others, and you have grown resistant to their effects.  ",
-			"**Prerequisites:** Great Fortitude or Iron Will.  ",
+			"**Prerequisites:** [Great Fortitude](feat/great_fortitude) or [Iron Will](feat/iron_will).  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against curses. Once per day as a standard action, you can touch a creature suffering from a curse effect in an attempt to remove that curse from its target. You must attempt a character level check against the DC of the curse effect you wish to absorb. If you succeed, the curse is removed from the target but immediately affects you instead as if you were the original target and had failed your initial saving throw against the curse; you are subject to the curse's effects, removal conditions, and remaining duration."
 		]
 	},

@@ -677,7 +677,7 @@
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 156](source/ultimate_wilderness)",
 			"",
-			"Many wilderness-appropriate spells are available as early as 1st level. These low-level spells are often disregarded, as many of them can be substituted with class abilities, equipment, and skills. Still, low-level spells (those of 3rd level and lower) can remain useful at high levels, especially because highlevel characters can cast them far more frequently."
+			"Many wilderness-appropriate spells are available as early as 1st level. These low-level spells are often disregarded, as many of them can be substituted with class abilities, equipment, and skills. Still, low-level spells (those of 3rd level and lower) can remain useful at high levels, especially because high-level characters can cast them far more frequently."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1515,7 +1515,7 @@
 			">",
 			">**Sleet:** Essentially frozen rain, sleet has the same effect as light snow, but any accumulation typically doesn't last longer than 1-2 hours after the storm.",
 			">",
-			">**Snow, Heavy:** Heavy snow reduces visibility ranges to onequarter of the normal range, resulting in a -6 penalty on Perception checks. It extinguishes unprotected flames and imposes a -6 penalty on ranged attacks. Heavy snow impedes movement even before it begins to stick. Moving into a square during a heavy snowstorm requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of heavy snow leaves 1d4 inches of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, 2 extra squares of movement are required to enter a snow-filled square instead. A heavy snowstorm has a 10% chance of generating [thundersnow](rule/severe_events) and has a 40% chance of becoming a blizzard if the wind speed is severe or stronger.",
+			">**Snow, Heavy:** Heavy snow reduces visibility ranges to one-quarter of the normal range, resulting in a -6 penalty on Perception checks. It extinguishes unprotected flames and imposes a -6 penalty on ranged attacks. Heavy snow impedes movement even before it begins to stick. Moving into a square during a heavy snowstorm requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of heavy snow leaves 1d4 inches of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, 2 extra squares of movement are required to enter a snow-filled square instead. A heavy snowstorm has a 10% chance of generating [thundersnow](rule/severe_events) and has a 40% chance of becoming a blizzard if the wind speed is severe or stronger.",
 			">",
 			">**Snow, Light:** Light snow reduces visibility to three-quarters of the normal range, resulting in a -2 penalty on Perception checks. Light snow has a 75% chance each hour of extinguishing unprotected flames and imposes a -2 penalty on ranged attacks. Light snow does not impede movement unless it continues for 2 or more hours, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every 2 hours of light snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.",
 			">",
@@ -2595,7 +2595,7 @@
 			"",
 			"### Water-Dominant",
 			"",
-			"Planes with this trait are mostly liquid. Visitors who can't breathe in water or reach a pocket of air likely drown. Creatures of the fire subtype are extremely uncomfortable on water-dominant planes, and those made of fire take 1d10 points of damage each round while on a waterdominant plane.",
+			"Planes with this trait are mostly liquid. Visitors who can't breathe in water or reach a pocket of air likely drown. Creatures of the fire subtype are extremely uncomfortable on water-dominant planes, and those made of fire take 1d10 points of damage each round while on a water-dominant plane.",
 			"",
 			"### Negative-Dominant",
 			"",
@@ -3318,7 +3318,7 @@
 			"",
 			"What if there were no other planes at all, in any form whatsoever? What if the universe was all there was, with nothing beyond the prosaic existence of physical reality? No celestials, no fiends, no elementals, and no gods? In such a setting, life would be followed by death and the oblivion of nonexistence. What sort of world would exist in the absence of the celestial, infernal, and even the divine? Without the ever-present threat of divine justice and an eternal reward or punishment, what would such a world look like? Religion would most certainly still exist, but it would rely on pure faith rather than demonstrable divine intervention and direct contact with divine emissaries. Likewise, divine spellcasters would still exist, but their magic would be fueled solely by their internal beliefs (you may restrict choices to classes like [clerics](class/cleric), who must select domains, or give players complete freedom as to which domains they wish to pursue for their own personal religions); they would no longer be direct servants of supernatural beings.",
 			"",
-			"In such a setting, you would need to decide if resurrection is at all possible and whether there is any place in the setting for the undead. Both of these concepts presuppose something akin to a soul; what happens to a soul in a mundane cosmology? Are souls natural by-products of life, or is a soul some sort of stellar energy adrift in the cosmos? Maybe there is no such thing as a soul, and all who die become [ghosts](template/ghost) unless some other event transforms them into specific undead creatures. Where do these ghosts go? How many would remain behind to haunt the site of their death? Do ghosts simply remain invisible and unseen? Do they drift to the edge of the universe?",
+			"In such a setting, you would need to decide if resurrection is at all possible and whether there is any place in the setting for the undead. Both of these concepts presuppose something akin to a soul; what happens to a soul in a mundane cosmology? Are souls natural byproducts of life, or is a soul some sort of stellar energy adrift in the cosmos? Maybe there is no such thing as a soul, and all who die become [ghosts](template/ghost) unless some other event transforms them into specific undead creatures. Where do these ghosts go? How many would remain behind to haunt the site of their death? Do ghosts simply remain invisible and unseen? Do they drift to the edge of the universe?",
 			"",
 			"Would outsiders exist at all? Certainly not in the normal conceptualization. Outsiders in such a cosmology could represent mortal beliefs rather than being an intrinsic part of reality. Powerful spellcasters likely don't summon them from somewhere else-such outsiders are instead created out of raw magical energy and infused with a specific alignment or characterizing belief. A wizard seeking bloody, destructive revenge might channel his power to create a [balor](monster/balor) and set the creature loose upon his enemies. A religious spellcaster might form an [angel](family/angel) that embodies her beliefs, rather than believing in the creed of the angel's divine patron, turning the standard paradigm on its head."
 		],
@@ -3877,7 +3877,7 @@
 			"",
 			"**Mechanical Trap:** The base DC for both Perception and Disable Device checks is 20. Raising or lowering either of these DCs affects the CR (Table 13-3).",
 			"",
-			"**Magic Trap:** The DC for both Perception and Disable Device checks is equal to 25 + the spell level of the highestlevel spell used. Only characters with the trapfinding class feature can attempt a Disable Device check involving a magic trap."
+			"**Magic Trap:** The DC for both Perception and Disable Device checks is equal to 25 + the spell level of the highest-level spell used. Only characters with the trapfinding class feature can attempt a Disable Device check involving a magic trap."
 		],
 		"parent_topics": [
 			"environment",

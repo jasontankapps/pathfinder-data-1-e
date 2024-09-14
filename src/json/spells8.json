@@ -5914,7 +5914,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can't transfer damage to or from another, such as through shield other, a spiritualist's life bond, or a summoner's life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits."
+			"You seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can't transfer damage to or from another, such as through [shield other](spell/shield_other), a spiritualist's life bond, or a summoner's life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits."
 		]
 	},
 	"sealed_life,_greater": {
@@ -7362,7 +7362,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"You summon a pair of claws over your hands formed from semireal material. This grants you two primary claw attacks dealing 1d4 points of damage if you are Medium (1d3 if Small) plus 1 point of Strength damage. A successful Fortitude saving throw negates the Strength damage (DC = this spell's DC)."
+			"You summon a pair of claws over your hands formed from semi-real material. This grants you two primary claw attacks dealing 1d4 points of damage if you are Medium (1d3 if Small) plus 1 point of Strength damage. A successful Fortitude saving throw negates the Strength damage (DC = this spell's DC)."
 		]
 	},
 	"shadow_conjuration": {

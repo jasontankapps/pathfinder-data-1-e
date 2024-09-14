@@ -1960,7 +1960,7 @@
 			"",
 			"You must have a clear line of effect to any target that you cast a spell on or to any space in which you wish to create an effect. You must have a clear line of effect to the point of origin of any spell you cast.",
 			"",
-			"A burst, cone, cylinder, or emanation spell affects only an area, creature, or object to which it has line of effect from its origin (a spherical burst's center point, a coneshaped burst's starting point, a cylinder's circle, or an emanation's point of origin).",
+			"A burst, cone, cylinder, or emanation spell affects only an area, creature, or object to which it has line of effect from its origin (a spherical burst's center point, a cone-shaped burst's starting point, a cylinder's circle, or an emanation's point of origin).",
 			"",
 			"An otherwise solid barrier with a hole of at least 1 square foot through it does not block a spell's line of effect. Such an opening means that the 5-foot length of wall containing the hole is no longer considered a barrier for purposes of a spell's line of effect."
 		],
@@ -2480,7 +2480,7 @@
 			"",
 			"Divine spellcasters do not require spellbooks. However, a divine spellcaster's spell selection is limited to the spells on the list for her class. Clerics, druids, paladins, and rangers have separate spell lists. A cleric also has access to two domains determined during character creation. Each domain gives her access to a number of special abilities and bonus spells.",
 			"",
-			"**Spell Slots:** The character class tables show how many spells of each level each can cast per day. These openings for daily spells are called spell slots. A spellcaster always has the option to fill a higher-level spell slot with a lowerlevel spell. A spellcaster who lacks a high enough ability score to cast spells that would otherwise be her due still gets the slots but must fill them with spells of lower levels.",
+			"**Spell Slots:** The character class tables show how many spells of each level each can cast per day. These openings for daily spells are called spell slots. A spellcaster always has the option to fill a higher-level spell slot with a lower-level spell. A spellcaster who lacks a high enough ability score to cast spells that would otherwise be her due still gets the slots but must fill them with spells of lower levels.",
 			"",
 			"**Recent Casting Limit:** As with arcane spells, at the time of preparation any spells cast within the previous 8 hours count against the number of spells that can be prepared.",
 			"",

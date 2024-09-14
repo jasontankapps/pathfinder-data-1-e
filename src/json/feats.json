@@ -273,7 +273,7 @@
 			"",
 			"You can easily move over and through obstacles.  ",
 			"**Prerequisites:** Dex 15, [Nimble Moves](feat/nimble_moves).  ",
-			"**Benefit:** Whenever you move, you may move through up to 15 feet of difficult terrain each round as if it were normal terrain. The effects of this feat stack with those provided by Nimble Moves (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
+			"**Benefit:** Whenever you move, you may move through up to 15 feet of difficult terrain each round as if it were normal terrain. The effects of this feat stack with those provided by [Nimble Moves](feat/nimble_moves) (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
 		]
 	},
 	"acupuncture_specialist": {
@@ -513,7 +513,7 @@
 			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
 			"",
 			"The Gray Maidens' signature armor hinders you less than others.  ",
-			"**Prerequisites:** Str 13; Dex 13; Endurance or armor training class feature; proficiency with heavy armor.  ",
+			"**Prerequisites:** Str 13; Dex 13; [Endurance](feat/endurance) or armor training class feature; proficiency with heavy armor.  ",
 			"**Benefit:** For the purpose of class features (such as a ranger's combat style, a barbarian's fast movement, or a magus's spellcasting), you treat Gray Maiden plate as medium armor or heavy armor, whichever is more beneficial to a given ability. This does not affect the armor's statistics, and it is still considered heavy armor for all other purposes."
 		]
 	},
@@ -640,8 +640,8 @@
 			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide)",
 			"",
 			"You can do more with your blade than slash and stab.  ",
-			"**Prerequisites:** Exotic Weapon Proficiency (Aldori dueling sword), [Weapon Finesse](feat/weapon_finesse), base attack bonus +2.  ",
-			"**Benefit:** Choose one of the following combat maneuvers: disarm, reposition, steal, sunder, or trip. You gain a +2 bonus when performing the selected maneuver while wielding an Aldori dueling sword. This bonus does not stack with the bonus provided by a combat maneuver feat with \"improved\" in its name (such as Improved Trip).  ",
+			"**Prerequisites:** [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Weapon Finesse](feat/weapon_finesse), base attack bonus +2.  ",
+			"**Benefit:** Choose one of the following combat maneuvers: disarm, reposition, steal, sunder, or trip. You gain a +2 bonus when performing the selected maneuver while wielding an Aldori dueling sword. This bonus does not stack with the bonus provided by a combat maneuver feat with \"improved\" in its name (such as [Improved Trip](feat/improved_trip)).  ",
 			"**Special:** You can select this feat multiple times, choosing a different combat maneuver each time."
 		]
 	},
@@ -700,7 +700,7 @@
 			"",
 			"You have learned the classic Aldori dueling stance.  ",
 			"**Prerequisites:** [Alertness](feat/alertness), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
-			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you fight defensively or use Combat Expertise, you gain a +2 bonus on weapon damage rolls."
+			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you fight defensively or use [Combat Expertise](feat/combat_expertise), you gain a +2 bonus on weapon damage rolls."
 		]
 	},
 	"aldori_style_aegis": {
@@ -713,7 +713,7 @@
 			"",
 			"Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.  ",
 			"**Prerequisites:** [Aldori Style](feat/aldori_style), [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
-			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using Combat Expertise or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's opportune parry and riposte deed, except that it does not cost panache and you cannot riposte."
+			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using [Combat Expertise](feat/combat_expertise) or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's opportune parry and riposte deed, except that it does not cost panache and you cannot riposte."
 		]
 	},
 	"aldori_style_conquest": {
@@ -726,7 +726,7 @@
 			"",
 			"Defense is now second nature to you, and your blade punishes those who try to attack and fail.  ",
 			"**Prerequisites:** [Aldori Style](feat/aldori_style), [Aldori Style Aegis](feat/aldori_style_aegis), [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
-			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using Combat Expertise or fighting defensively."
+			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using [Combat Expertise](feat/combat_expertise) or fighting defensively."
 		]
 	},
 	"alertness": {
@@ -776,7 +776,7 @@
 			"",
 			"You gain the ability to bless equipment with abilities that make them more effective against outsiders.  ",
 			"**Prerequisites:** [Alignment Channel](feat/alignment_channel), [Bless Equipment](feat/bless_equipment), caster level 3rd, channel energy class feature.  ",
-			"**Benefit:** In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with Alignment Channel. For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.",
+			"**Benefit:** In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with [Alignment Channel](feat/alignment_channel). For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.",
 			"",
 			"### Aligned Equipment Blessings",
 			"",
@@ -846,7 +846,7 @@
 			"",
 			"You deliver unchecked destruction when you stand against multiple foes, sometimes to your own detriment.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Cleave](feat/cleave), [Vital Strike](feat/vital_strike), base attack bonus +8.  ",
-			"**Benefit:** Whenever you use Cleave or Great Cleave, you can apply the additional damage you would gain from Vital Strike, Improved Vital Strike, or Greater Vital Strike to the initial target of your attack. When you do so, the strain on your body causes you to take an amount of damage equal to the extra damage dealt by your Vital Strike feat. This self-inflicted damage is not reduced by damage reduction."
+			"**Benefit:** Whenever you use Cleave or Great Cleave, you can apply the additional damage you would gain from [Vital Strike](feat/vital_strike), [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike) to the initial target of your attack. When you do so, the strain on your body causes you to take an amount of damage equal to the extra damage dealt by your Vital Strike feat. This self-inflicted damage is not reduced by damage reduction."
 		]
 	},
 	"all_consuming_swing": {
@@ -1082,7 +1082,7 @@
 			"",
 			"You have learned to augment your hexes with the energy of your spells.  ",
 			"**Prerequisites:** Hex class feature.  ",
-			"**Benefit:** You can augment the power of a hex by expending a spell slot or prepared spell of at least 1st level. Each additional time you use this ability in the same day, it requires a prepared spell or spell slot 1 level higher (a 2nd-level spell the second time, a 3rdlevel spell the third time, and so on). When you amplify a hex, you can choose one: increase its saving throw DC by 1, increase its range by 30 feet (if it already has at least a 30-foot range), or increase its duration by 1 round (if it already has a duration of at least 1 round)."
+			"**Benefit:** You can augment the power of a hex by expending a spell slot or prepared spell of at least 1st level. Each additional time you use this ability in the same day, it requires a prepared spell or spell slot 1 level higher (a 2nd-level spell the second time, a 3rd-level spell the third time, and so on). When you amplify a hex, you can choose one: increase its saving throw DC by 1, increase its range by 30 feet (if it already has at least a 30-foot range), or increase its duration by 1 round (if it already has a duration of at least 1 round)."
 		]
 	},
 	"amplified_radiance": {
@@ -1121,7 +1121,7 @@
 			"",
 			"You know how to perform deadly strikes against even the most nebulous of targets.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus), base attack bonus +12.  ",
-			"**Benefit:** Choose one weapon with which you have the Weapon Focus feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the fortification armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
+			"**Benefit:** Choose one weapon with which you have the [Weapon Focus](feat/weapon_focus) feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the fortification armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
 			"**Special:** You can take this feat multiple times. Each time you take the feat, it applies to a different weapon."
 		]
 	},
@@ -1163,7 +1163,7 @@
 			"",
 			"You have mastered ancient techniques that increase the effectiveness of your race's ancestral weapons.  ",
 			"**Prerequisites:** Base attack bonus +1, weapon familiarity racial trait.  ",
-			"**Benefit:** You're proficient with all of your race's racial weapons (the weapons mentioned in your race's weapon familiarity racial trait). If you're already proficient with any of those weapons, you instead gain Weapon Focus for one of those weapons as a bonus feat. Furthermore, if you gain Weapon Focus as a bonus feat with one of your racial weapons as a result of this feat, you can change which racial weapon your bonus Weapon Focus feat applies to by engaging in 10 minutes of practice with the new weapon. The benefits of this bonus Weapon Focus feat last until you choose to practice and apply it to a different racial weapon."
+			"**Benefit:** You're proficient with all of your race's racial weapons (the weapons mentioned in your race's weapon familiarity racial trait). If you're already proficient with any of those weapons, you instead gain [Weapon Focus](feat/weapon_focus) for one of those weapons as a bonus feat. Furthermore, if you gain Weapon Focus as a bonus feat with one of your racial weapons as a result of this feat, you can change which racial weapon your bonus Weapon Focus feat applies to by engaging in 10 minutes of practice with the new weapon. The benefits of this bonus Weapon Focus feat last until you choose to practice and apply it to a different racial weapon."
 		]
 	},
 	"ancient_draconic": {
@@ -1482,7 +1482,7 @@
 			"**Source** [Advanced Class Guide pg. 141](source/advanced_class_guide)",
 			"",
 			"Your knowledge of mobility and your attack prowess allow you to thwart elusive opponents.  ",
-			"**Prerequisites:** [Dodge](feat/dodge), Mobility; base attack bonus +7, brawler level 4th, or monk level 4th.  ",
+			"**Prerequisites:** [Dodge](feat/dodge), [Mobility](feat/mobility); base attack bonus +7, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** You automatically know whether a creature you can see has a dodge bonus to its AC. You gain up to a +2 bonus on attack rolls against a target that has a dodge bonus. This bonus cannot exceed the dodge bonus of the creature you attack.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1558,7 +1558,7 @@
 			"",
 			"Your skill with your chosen weapons is so great that you can use them underwater without impediment.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus), base attack bonus +1.  ",
-			"**Benefit:** You don't take additional penalties on attack and damage rolls for fighting underwater with bludgeoning and slashing melee weapons for which you have taken the Weapon Focus feat.  ",
+			"**Benefit:** You don't take additional penalties on attack and damage rolls for fighting underwater with bludgeoning and slashing melee weapons for which you have taken the [Weapon Focus](feat/weapon_focus) feat.  ",
 			"**Normal:** When using bludgeoning and slashing melee weapons underwater, you take a -2 penalty on attack rolls and deal half damage."
 		]
 	},
@@ -2338,7 +2338,7 @@
 			"You are practiced at avoiding attacks when outnumbered.  ",
 			"**Prerequisites:** Int 13.  ",
 			"**Benefit:** If you are the only character threatening an opponent, you gain a +1 dodge bonus to AC against that opponent.  ",
-			"**Special:** The Artful Dodge feat acts as the Dodge feat for the purpose of satisfying prerequisites that require Dodge. You can use Intelligence, rather than Dexterity, for feats with a minimum Dexterity prerequisite.",
+			"**Special:** The Artful Dodge feat acts as the [Dodge](feat/dodge) feat for the purpose of satisfying prerequisites that require Dodge. You can use Intelligence, rather than Dexterity, for feats with a minimum Dexterity prerequisite.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
@@ -2434,7 +2434,7 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"You have mastered the ability to blend the use of arms with martial arts.  ",
-			"**Prerequisites:** [Ascetic Style](feat/ascetic_style); Weapon Focus with the chosen melee weapon; base attack bonus +5 or monk level 5th.  ",
+			"**Prerequisites:** [Ascetic Style](feat/ascetic_style); [Weapon Focus](feat/weapon_focus) with the chosen melee weapon; base attack bonus +5 or monk level 5th.  ",
 			"**Benefit:** You can use the chosen melee weapon with any class ability that can be used with an unarmed strike, such as an unchained monk's style strike ability. In addition, you are treated as a monk with a level equal to your character level for the purpose of determining the number of times per day that you can use feats with uses per day that depend upon your monk level, such as the Stunning Fist or Perfect Strike feats."
 		]
 	},
@@ -2447,7 +2447,7 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"Your weapon strikes deal more damage than usual.  ",
-			"**Prerequisites:** [Ascetic Form](feat/ascetic_form); [Ascetic Style](feat/ascetic_style); Weapon Focus with the chosen weapon; base attack bonus +7 or monk level 7th.  ",
+			"**Prerequisites:** [Ascetic Form](feat/ascetic_form); [Ascetic Style](feat/ascetic_style); [Weapon Focus](feat/weapon_focus) with the chosen weapon; base attack bonus +7 or monk level 7th.  ",
 			"**Benefit:** You can use the unarmed strike damage of a monk 4 levels lower than your character level (minimum 1st) instead of the base damage for the chosen weapon. Ascetic Strike functions in all other ways as the brawler's close weapon mastery class feature. In addition, you ignore the still mind class feature prerequisite for the Monastic Legacy feat."
 		]
 	},
@@ -2460,8 +2460,8 @@
 			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
 			"",
 			"You blend arms and martial arts, using weapons with the same ease as unarmed strikes.  ",
-			"**Prerequisites:** Weapon Focus with the chosen melee weapon; base attack bonus +1 or monk level 1st.  ",
-			"**Benefit:** Choose one weapon from the monk fighter weapon group. While using this style and wielding the chosen weapon, you can apply the effects of feats that have Improved Unarmed Strike as a prerequisite, as well as effects that augment an unarmed strike, as if attacks with the weapon were unarmed attacks.  ",
+			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with the chosen melee weapon; base attack bonus +1 or monk level 1st.  ",
+			"**Benefit:** Choose one weapon from the monk fighter weapon group. While using this style and wielding the chosen weapon, you can apply the effects of feats that have [Improved Unarmed Strike](feat/improved_unarmed_strike) as a prerequisite, as well as effects that augment an unarmed strike, as if attacks with the weapon were unarmed attacks.  ",
 			"**Special:** A 5th-level monk or character with the weapon training (monk) class feature can use Ascetic Style with any monk weapon, in addition to the chosen melee weapon."
 		]
 	},
@@ -2846,7 +2846,7 @@
 			"**Source** [Blood of the Coven pg. 4](source/blood_of_the_coven)",
 			"",
 			"Through ritual or force of will, you have awakened the latent power inherited from your hag mother.  ",
-			"**Prerequisites:** Iron Will or Mother's Gift, changeling.  ",
+			"**Prerequisites:** [Iron Will](feat/iron_will) or [Mother's Gift](feat/mother's_gift), changeling.  ",
 			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the [individual changeling heritage entries](race/changeling).  ",
 			"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby-such as curling pages or spoiling milk-at the GM's discretion"
 		]
@@ -2941,7 +2941,7 @@
 			"",
 			"You move with uncommon grace that disorients enemies, causing foes that strike at you to overreach and stumble.  ",
 			"**Prerequisites:** [Agile Maneuvers](feat/agile_maneuvers), [Azata Style](feat/azata_style), [Dodge](feat/dodge), [Mobility](feat/mobility), base attack bonus +6.  ",
-			"**Benefit:** While using Azata Style, whenever an opponent misses you with an attack of opportunity provoked by your movement through its threatened squares, you can attempt a trip combat maneuver against that creature at the end of your turn as a swift action, provided you are still adjacent to the creature when you end your movement for the round. This trip attempt does not provoke attacks of opportunity. You gain a bonus on your combat maneuver check equal to any bonuses to AC you gain against attacks of opportunity provoked by movement (such as that granted by the Mobility feat)."
+			"**Benefit:** While using Azata Style, whenever an opponent misses you with an attack of opportunity provoked by your movement through its threatened squares, you can attempt a trip combat maneuver against that creature at the end of your turn as a swift action, provided you are still adjacent to the creature when you end your movement for the round. This trip attempt does not provoke attacks of opportunity. You gain a bonus on your combat maneuver check equal to any bonuses to AC you gain against attacks of opportunity provoked by movement (such as that granted by the [Mobility](feat/mobility) feat)."
 		]
 	},
 	"azata_sprint": {
@@ -4078,7 +4078,7 @@
 			"**Prerequisites:** You must have had friendly contact with a good outsider that would qualify as a challenging foe, be a sorcerer with the celestial bloodline, or have direct celestial ancestry (such as by being an aasimar).  ",
 			"**Benefit:** You gain a +2 bonus on Charisma-based checks involving good-aligned outsiders and a +1 bonus to the DC of spells and spell-like abilities you use against such creatures. You take a -2 penalty on Charisma-based checks involving evil-aligned outsiders.  ",
 			"**Goal:** Thwart or decisively defeat an evil creature that qualifies as a challenging foe, but show mercy and then convert that creature toward good.  ",
-			"**Completion Benefit:** You gain the benefit of protection from evil as a constant spell-like ability. In addition, you gain a +2 bonus on caster level checks against evilaligned outsiders.",
+			"**Completion Benefit:** You gain the benefit of protection from evil as a constant spell-like ability. In addition, you gain a +2 bonus on caster level checks against evil-aligned outsiders.",
 			"",
 			"Suggested Traits: Indomitable Faith, Inspiring, Memorable.",
 			"",
@@ -4189,7 +4189,7 @@
 			"",
 			"You hold no fear of blindness, as your other senses improve without the distractions of sight.  ",
 			"**Prerequisites:** [Blind-Fight](feat/blind-fight), Perception 5 ranks.  ",
-			"**Benefit:** While you are using this style, you gain a number of benefits whenever you are blinded or unable to see (including when you wear a blindfold or close your eyes). Under such circumstances, you do not take any penalties on Strength- or Dexterity-based skill checks due to blindness. In addition, you gain a +4 bonus on hearing- and smell-based Perception checks and gain the scent special ability with a range of 10 feet; if you already have scent, the range of your scent ability increases by 10 feet instead. Having this feat counts as having 10 ranks in Perception for the purpose of satisfying the prerequisites of the Improved Blind-Fight feat, as well as any feat that lists Improved Blind-Fight as a prerequisite."
+			"**Benefit:** While you are using this style, you gain a number of benefits whenever you are blinded or unable to see (including when you wear a blindfold or close your eyes). Under such circumstances, you do not take any penalties on Strength- or Dexterity-based skill checks due to blindness. In addition, you gain a +4 bonus on hearing- and smell-based Perception checks and gain the scent special ability with a range of 10 feet; if you already have scent, the range of your scent ability increases by 10 feet instead. Having this feat counts as having 10 ranks in Perception for the purpose of satisfying the prerequisites of the [Improved Blind-Fight](feat/improved_blind-fight) feat, as well as any feat that lists Improved Blind-Fight as a prerequisite."
 		]
 	},
 	"blinded_competence": {
@@ -4202,7 +4202,7 @@
 			"",
 			"Your lack of sight enables you to strike your foes with uncanny precision.  ",
 			"**Prerequisites:** [Blinded Blade Style](feat/blinded_blade_style), Perception 10 ranks.  ",
-			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like blindsense, except creatures you cannot see do not gain total concealment against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the Greater Blind-Fight feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
+			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like blindsense, except creatures you cannot see do not gain total concealment against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the [Greater Blind-Fight](feat/greater_blind-fight) feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
 		]
 	},
 	"blinded_master": {
@@ -4380,7 +4380,7 @@
 			"",
 			"Your introduction to the ways of the bloatmage allows you to use elaborate rituals and gruesome rites to increase the amount of blood and lymph in your body, expanding your reserves of magical energy.  ",
 			"**Prerequisites:** [Spell Focus (any school)](feat/spell_focus).  ",
-			"**Benefit:** You learn the basics of the ancient art of hemotheurgy. Pick one school of magic in which you possess the Spell Focus feat-you cast spells from this school of magic at +1 caster level. This bonus stacks with the bonus from Spell Focus. Unfortunately, the bloating side effects increase your girth to such a point that you are constantly under the effects of a medium load-your maximum bonus to AC from Dexterity is +3, you gain an armor check penalty of -3, and your speed decreases as appropriate (generally from 30 feet to 20 feet for a Medium creature)."
+			"**Benefit:** You learn the basics of the ancient art of hemotheurgy. Pick one school of magic in which you possess the [Spell Focus](feat/spell_focus) feat-you cast spells from this school of magic at +1 caster level. This bonus stacks with the bonus from Spell Focus. Unfortunately, the bloating side effects increase your girth to such a point that you are constantly under the effects of a medium load-your maximum bonus to AC from Dexterity is +3, you gain an armor check penalty of -3, and your speed decreases as appropriate (generally from 30 feet to 20 feet for a Medium creature)."
 		]
 	},
 	"block_chakras": {
@@ -4432,7 +4432,7 @@
 			"Your bleed attack is bloody and dangerous.  ",
 			"**Prerequisites:** Base attack bonus +5, natural weapon racial trait, tengu.  ",
 			"**Benefit:** Increase the damage of your beak attack to 1d6. Furthermore, when you confirm a critical hit with your beak attack, you also deal 1 point of bleed damage.  ",
-			"**Special:** The bleed effect from this feat stacks with that of the Bleeding Critical feat and similar effects, adding 1 point to your bleed damage.",
+			"**Special:** The bleed effect from this feat stacks with that of the [Bleeding Critical](feat/bleeding_critical) feat and similar effects, adding 1 point to your bleed damage.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 114](source/pathfinder_unchained)",
@@ -4636,7 +4636,7 @@
 			"",
 			"Arcane energy guides your devastating attack.  ",
 			"**Prerequisites:** [Arcane Strike](feat/arcane_strike), ability to cast arcane spells, bloodrage class feature.  ",
-			"**Benefit:** While you are bloodraging, you don't need to spend a swift action to use your Arcane Strike-it is always in effect. When you use this ability with Vital Strike, Improved Vital Strike, or Greater Vital Strike, the bonus on damage rolls for Arcane Strike is multiplied by the number of times (two, three, or four) you roll damage dice for one of those feats.",
+			"**Benefit:** While you are bloodraging, you don't need to spend a swift action to use your Arcane Strike-it is always in effect. When you use this ability with [Vital Strike](feat/vital_strike), [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike), the bonus on damage rolls for Arcane Strike is multiplied by the number of times (two, three, or four) you roll damage dice for one of those feats.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 114](source/pathfinder_unchained)",
@@ -4988,7 +4988,7 @@
 			"**Source** [Halflings of Golarion pg. 26](source/halflings_of_golarion)",
 			"",
 			"Your ability to resist certain effects somehow makes it even harder for creatures you jinx to do the same.  ",
-			"**Prerequisites:** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or Lightning Reflexes; Halfling Jinx trait.  ",
+			"**Prerequisites:** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or [Lightning Reflexes](feat/lightning_reflexes); Halfling Jinx trait.  ",
 			"**Benefit:** A jinxed target's penalty on Fortitude, Reflex, or Will saves increases by 2 if you have the Great Fortitude, Lightning Reflexes, or Iron Will feat, respectively. If you have more than one of these feats, the additional penalties apply to all of the corresponding saves."
 		]
 	},
@@ -5196,7 +5196,7 @@
 			"You can leap through difficult terrain like a deer or elk.  ",
 			"**Prerequisites:** Dex 15, [Nimble Moves](feat/nimble_moves).  ",
 			"**Benefit:** You gain a +2 bonus on Acrobatics checks to keep your balance and Reflex saves to avoid falling. Additionally, select one terrain type from the ranger list of favored terrains. Within that terrain, the maximum number of feet of difficult terrain you can move through as if it were normal terrain increases by 10 feet.  ",
-			"**Normal:** Nimble Moves allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
+			"**Normal:** [Nimble Moves](feat/nimble_moves) allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
 			"**Special:** If you have the favored terrain class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
 		]
 	},
@@ -5667,7 +5667,7 @@
 			"**Source** [Monster Hunter's Handbook pg. 8](source/monster_hunter's_handbook)",
 			"",
 			"You can use a charging foe's momentum to throw them aside.  ",
-			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Improved Grapple](feat/improved_grapple), Improved Unarmed Strike; base attack bonus +8, brawler level 4th, or monk level 4th.  ",
+			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +8, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** When you successfully grapple a creature with the Bull-Catcher Style feat, you can immediately move that creature into any square you threaten. After it is placed, you can break your grapple as an immediate action to move the creature an additional 5 feet in any direction. You can't use this maneuver to move a foe into a space that is intrinsically dangerous or unstable, such as a pit, wall of fire, or midair."
 		]
 	},
@@ -5683,7 +5683,7 @@
 			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunter's_handbook)",
 			"",
 			"You can wrestle a charging foe to the ground.  ",
-			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Bull-Catcher Toss](feat/bull_catcher_toss), [Improved Grapple](feat/improved_grapple), Improved Unarmed Strike; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
+			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Bull-Catcher Toss](feat/bull_catcher_toss), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** When a creature is charging you, and you successfully grapple it with the Bull-Catcher Style feat, you can immediately move it as per the Bull-Catcher Toss feat. Once the creature is moved, you can break your grapple as an immediate action. If you do, select another creature in the repositioned target's threatened area. That creature becomes the new target of the initial charge attack."
 		]
 	},
@@ -5738,7 +5738,7 @@
 			"**Prerequisites:** Handle Animal 4 ranks, Intimidate 4 ranks, animal companion or mount class feature.  ",
 			"**Benefit:** Your animal companion or mount gains Intimidate as a class skill. It can attempt to demoralize an opponent using the Intimidate skill as a move action on the same round that it damages an opponent with a natural attack.  ",
 			"**Normal:** Animal companions and mounts with an Intelligence score of 2 or less must select feats from a limited list.  ",
-			"**Special:** Your animal companion can select the Dazzling Display and Shatter Defenses feats if it meets the prerequisites. This feat does not allow your animal companion to use Intimidate to make a target friendly or gain their assistance."
+			"**Special:** Your animal companion can select the [Dazzling Display](feat/dazzling_display) and [Shatter Defenses](feat/shatter_defenses) feats if it meets the prerequisites. This feat does not allow your animal companion to use Intimidate to make a target friendly or gain their assistance."
 		]
 	},
 	"bullying_blow": {
@@ -6276,7 +6276,7 @@
 			"",
 			"You know exactly how to insult your favored enemies in order to make them lose their heads.  ",
 			"**Prerequisites:** Bluff 1 rank, favored enemy class feature, gnome.  ",
-			"**Benefit:** As a standard action, you can make a Bluff check against one sort of favored enemy. Any creature of that type within 60 feet of you must make a Will saving throw or become angered. If an affected creature attacks you, it's treated as if it were using Power Attack (taking a penalty on attack rolls but gaining a bonus on damage rolls). If the creature already has the power attack feat, the attack penalty increases by 1 and the damage bonus increases by 2. These modifiers end when combat ends.",
+			"**Benefit:** As a standard action, you can make a Bluff check against one sort of favored enemy. Any creature of that type within 60 feet of you must make a Will saving throw or become angered. If an affected creature attacks you, it's treated as if it were using [Power Attack](feat/power_attack) (taking a penalty on attack rolls but gaining a bonus on damage rolls). If the creature already has the power attack feat, the attack penalty increases by 1 and the damage bonus increases by 2. These modifiers end when combat ends.",
 			"",
 			"This ability does not work on creatures that cannot understand you, though sometimes a simple gesture is sufficient for an intelligent opponent to catch your gist regardless of any language barrier."
 		]
@@ -6415,7 +6415,7 @@
 			"",
 			"You have posted loyal followers in the most vital places.  ",
 			"**Prerequisites:** Leadership score 13, hold a leadership role related to running a kingdom.  ",
-			"**Benefit:** Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the Leadership feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects.",
+			"**Benefit:** Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the [Leadership](feat/leadership) feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects.",
 			"",
 			"This feat only applies to one building, and committing multiple followers to this or different buildings has no effect-the selected location is treated as being of particular importance to you, and its uniqueness combined with the follower's loyalty grants it special efficiencies. The same follower does not have to oversee your center of power every month, but you must keep at least one follower dedicated to this location for the entire month to gain this feat's benefits. Once per year, you may change which building is your center of power."
 		]

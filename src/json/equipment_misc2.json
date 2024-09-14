@@ -3140,7 +3140,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This milky white liquid bubbles into a 1-foot-thick semisolid sheet of foam when splashed across the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you can throw the flask as a splash weapon. The foam does not interfere with movement, but reacts strongly to sudden force. A creature that falls onto a sheet of impact foam ignores the first 1d6 points of falling damage and converts the second 1d6 points of falling damage into nonlethal damage. A sheet of impact foam dissolves after 10 minutes or when exposed to at least a gallon of water.",
+			"This milky white liquid bubbles into a 1-foot-thick semi-solid sheet of foam when splashed across the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you can throw the flask as a splash weapon. The foam does not interfere with movement, but reacts strongly to sudden force. A creature that falls onto a sheet of impact foam ignores the first 1d6 points of falling damage and converts the second 1d6 points of falling damage into nonlethal damage. A sheet of impact foam dissolves after 10 minutes or when exposed to at least a gallon of water.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -6386,7 +6386,7 @@
 			"**Price** 7 sp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in Heal and the Skill Focus (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in Heal and the [Skill Focus](feat/skill_focus) (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"nushadir": {

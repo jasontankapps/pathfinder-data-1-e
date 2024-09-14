@@ -1272,7 +1272,7 @@
 			"",
 			">**Step 1-Homeland, Family, and Childhood:** Determine the circumstances of your birth, your parents' profession, and a major childhood event. To determine the number of siblings you have, roll on the table appropriate for your race. For each sibling you have, roll d%; 01-50: the sibling is female, 51-100: the sibling is male. Then roll on the [Relative Age of Sibling table](rule/siblings) to determine the relative age of the sibling.",
 			">",
-			"?**Step 2-Adolescence and Training:** Determine the circumstances and events that defined your adolescence and the training you received, as well as create an influential associate from this time in your life.",
+			">**Step 2-Adolescence and Training:** Determine the circumstances and events that defined your adolescence and the training you received, as well as create an influential associate from this time in your life.",
 			">",
 			">**Step 3-Moral Conflict, Relationships, and Vulnerabilities:** Determine a major conflict in your past, the other party involved, and how you resolved the conflict. Also determine your romantic relationships, relationships with fellow adventurers, and personality drawbacks.",
 			"",
@@ -1422,7 +1422,7 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 01-80 | 1d2 biological siblings. If you roll 2 siblings, you gain access to the [Kin Guardian](trait/kin_guardian)n combat trait. |",
+			"| 01-80 | 1d2 biological siblings. If you roll 2 siblings, you gain access to the [Kin Guardian](trait/kin_guardian) combat trait. |",
 			"| 81-85 | 1d4+1 biological siblings. You gain access to the Kin Guardian combat trait. |",
 			"| 86-90 | 1d4+1 biological siblings. 1d3-1 of these siblings are half-elves, adopted, or a mix of the two (your choice). You gain access to the Kin Guardian combat trait. Roll on the [Race of Adopted Sibling table](rule/siblings) to determine the race of any adopted siblings. |",
 			"| 91-100 | No siblings. |"
@@ -3542,7 +3542,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 30](source/prpg_core_rulebook)",
 			"",
-			"Instead of gaining the abilities granted by the next level in your character's current class, he can instead gain the 1stlevel abilities of a new class, adding all of those abilities to his existing ones. This is known as \"multiclassing.\"",
+			"Instead of gaining the abilities granted by the next level in your character's current class, he can instead gain the 1st-level abilities of a new class, adding all of those abilities to his existing ones. This is known as \"multiclassing.\"",
 			"",
 			"For example, let's say a 5th-level fighter decides to dabble in the arcane arts, and adds one level of wizard when he advances to 6th level. Such a character would have the powers and abilities of both a 5th-level fighter and a 1st-level wizard, but would still be considered a 6th-level character. (His class levels would be 5th and 1st, but his total character level is 6th.) He keeps all of his bonus feats gained from 5 levels of fighter, but can now also cast 1st-level spells and picks an arcane school. He adds all of the hit points, base attack bonuses, and saving throw bonuses from a 1st-level wizard on top of those gained from being a 5th-level fighter.",
 			"",
@@ -4593,7 +4593,7 @@
 			"",
 			"**Weapon Size:** Every weapon has a size category. This designation indicates the size of the creature for which the weapon was designed.",
 			"",
-			"A weapon's size category isn't the same as its size as an object. Instead, a weapon's size category is keyed to the size of the intended wielder. In general, a light weapon is an object two size categories smaller than the wielder, a onehanded weapon is an object one size category smaller than the wielder, and a two-handed weapon is an object of the same size category as the wielder.",
+			"A weapon's size category isn't the same as its size as an object. Instead, a weapon's size category is keyed to the size of the intended wielder. In general, a light weapon is an object two size categories smaller than the wielder, a one-handed weapon is an object one size category smaller than the wielder, and a two-handed weapon is an object of the same size category as the wielder.",
 			"",
 			"**Inappropriately Sized Weapons:** A creature can't make optimum use of a weapon that isn't properly sized for it. A cumulative -2 penalty applies on attack rolls for each size category of difference between the size of its intended wielder and the size of its actual wielder. If the creature isn't proficient with the weapon, a -4 nonproficiency penalty also applies.",
 			"",
@@ -4882,7 +4882,7 @@
 			"| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute[^1] |",
 			"| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes[^1] | 1 minute | 1 minute[^1] |",
 			"| Half-plate or full plate | 4 minutes[^2] | 4 minutes[^1] | 1d4+1 minutes[^1] |",
-			"[^1]: If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Twocharacters can't help each other don armor at the same time.",
+			"[^1]: If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.",
 			"[^2]: The wearer must have help to don this armor. Without help, it can be donned only hastily."
 		],
 		"parent_topics": [

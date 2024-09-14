@@ -160,9 +160,9 @@
 			"",
 			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created-items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
 			"",
-			"**Aggression Facet:** This memory facet enhances an AI's offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting Deadly Aim and Power Attack as bonus feats when the AI is controlling a robot.",
+			"**Aggression Facet:** This memory facet enhances an AI's offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting [Deadly Aim](feat/deadly_aim) and [Power Attack](feat/power_attack) as bonus feats when the AI is controlling a robot.",
 			"",
-			"**Ego Facet:** An ego facet bolsters an AI's sense of selfesteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting Toughness as a bonus feat when the AI is controlling a robot.",
+			"**Ego Facet:** An ego facet bolsters an AI's sense of self-esteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting [Toughness](feat/toughness) as a bonus feat when the AI is controlling a robot.",
 			"",
 			"**Inhibitor Facet:** An inhibitor facet is unusual among memory facets in that it isn't intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI's Charisma by 4 and imposes a -4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack."
 		]
@@ -212,15 +212,15 @@
 			"",
 			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created-items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
 			"",
-			"**Creativity Facet:** This memory facet enhances the AI's creativity and ability to react quickly to problems. It grants a +6 bonus to the AI's Charisma score and grants Improved Initiative as a bonus feat.",
+			"**Creativity Facet:** This memory facet enhances the AI's creativity and ability to react quickly to problems. It grants a +6 bonus to the AI's Charisma score and grants [Improved Initiative](feat/improved_initiative) as a bonus feat.",
 			"",
 			"**Cruelty Facet:** This memory facet bolsters an AI's ability to do harm, granting a +4 bonus on all damage rolls. In addition, while the AI controls an aggregate, the facet grants the aggregate a rogue's sneak attack ability (+2d6) and bleeding strike talent.",
 			"",
-			"**Instinct Facet:** This memory facet enhances the AI's ability to act on instinct. It grants a +6 bonus to the AI's Wisdom score and grants Combat Reflexes as a bonus feat. The AI can use either its Wisdom modifier or its aggregate's Dexterity modifier (its choice) to determine the number of attacks of opportunity this bonus feat grants.",
+			"**Instinct Facet:** This memory facet enhances the AI's ability to act on instinct. It grants a +6 bonus to the AI's Wisdom score and grants [Combat Reflexes](feat/combat_reflexes) as a bonus feat. The AI can use either its Wisdom modifier or its aggregate's Dexterity modifier (its choice) to determine the number of attacks of opportunity this bonus feat grants.",
 			"",
-			"**Intuition Facet:** An intuition facet bolsters the AI's processing speed by allowing it to use probability and intuition to make incredibly swift decisions. The facet grants a +2 bonus on all Reflex saving throws and Initiative checks, as well as granting Dodge and Mobility as bonus feats when the AI is in an aggregate.",
+			"**Intuition Facet:** An intuition facet bolsters the AI's processing speed by allowing it to use probability and intuition to make incredibly swift decisions. The facet grants a +2 bonus on all Reflex saving throws and Initiative checks, as well as granting [Dodge](feat/dodge) and [Mobility](feat/mobility) as bonus feats when the AI is in an aggregate.",
 			"",
-			"**Logic Facet:** This memory facet enhances the AI's ability to utilize logic. It grants a +6 bonus to the AI's Intelligence score and grants Combat Expertise as a bonus feat.",
+			"**Logic Facet:** This memory facet enhances the AI's ability to utilize logic. It grants a +6 bonus to the AI's Intelligence score and grants [Combat Expertise](feat/combat_expertise) as a bonus feat.",
 			"",
 			"**Psyche Facet:** A psyche facet bolsters a robot's sense of self and enhances its ability to resist peril and danger. It grants a +3 resistance bonus on all saving throws. In addition, once per day the AI can restore a destroyed robot to activity, as memory of function, using the AI's CR as the effective caster level."
 		]
@@ -249,7 +249,7 @@
 			"",
 			"**Entropy Facet:** This memory facet enhances an AI's capacity to understand and interpret chaos theory and probabilities, allowing it to more swiftly react to and mimic emotions. The facet grants a +2 enhancement bonus to the AI's Charisma score. In addition, up to three times per day when the AI rolls a d20, it can roll twice and take either result as an immediate action. This ability must be used after the first roll but before the results are revealed.  ",
 			"",
-			"**Guile Facet:** This facet augments the AI's skills at deception and trickery. The facet grants a +4 bonus on Bluff checks. When the AI attempts a Sense Motive check to see through a Bluff, it rolls twice and takes the higher result. Finally, while the AI is controlling a robot, it gains Improved Feint and Greater Improved Feint as bonus feats; it does not need to meet the prerequisites for those feats."
+			"**Guile Facet:** This facet augments the AI's skills at deception and trickery. The facet grants a +4 bonus on Bluff checks. When the AI attempts a Sense Motive check to see through a Bluff, it rolls twice and takes the higher result. Finally, while the AI is controlling a robot, it gains [Improved Feint](feat/improved_feint) and [Greater Feint](feat/greater_feint) as bonus feats; it does not need to meet the prerequisites for those feats."
 		]
 	},
 	"memory_facet_discipline_entropy_guile": {

@@ -381,7 +381,7 @@
 					[ "[Hammer Guards the Anvil](feat/hammer_guards_the_anvil)", "", "Limit when a foe can make an attack of opportunity against you" ],
 					[ "[Harder They Fall](feat/harder_they_fall)", "Str 13, Int 13, [Combat Expertise](feat/combat_expertise), [Power Attack](feat/power_attack).", "Grant ally a +2 bonus on bull rush or trip attempt" ],
 					[ "[Harrying Partners](feat/harrying_partners)", "Any teamwork feat, base attack bonus +6.", "Uses of aid another to improve AC last longer" ],
-					[ "[High Magic Focus](feat/high_magic_focus)", "Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, human (Garundi).", "Spontaneously apply metamagic feats without using higherlevel spell slots or increasing casting time if allies ready an action to cast the same spell" ],
+					[ "[High Magic Focus](feat/high_magic_focus)", "Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, human (Garundi).", "Spontaneously apply metamagic feats without using higher-level spell slots or increasing casting time if allies ready an action to cast the same spell" ],
 					[ "[Horde Charge](feat/horde_charge)", "Base attack bonus +1, half-orc or orc.", "+2 attack/damage when charging at the same time" ],
 					[ "[Improved Back to Back](feat/improved_back_to_back)", "[Back to Back](feat/back_to_back), Perception 5 ranks.", "Grant adjacent ally +2 to AC against flanking opponents" ],
 					[ "[Improved Disarm Partner](feat/improved_disarm_partner)", "[Disarm Partner](feat/disarm_partner), base attack bonus +5.", "Make attacks of opportunity and disarm checks when an ally fails to disarm someone" ],
@@ -726,15 +726,17 @@
 	},
 	"feats_style": {
 		"title": "Feats - Style",
-		"sources": [],
+		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
 		"description": [
+			[ "[Jump to the table](#stylefeatstable)" ],
 			[
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
 				"For centuries, great warriors have looked to nature and the multiverse to find inspiration in battle. Countless monastic and contemplative orders have crafted intricate unarmed fighting styles based on the deadliness and grace of natural and supernatural creatures. Although many such fighting techniques were created by secretive orders, they have since spread to practitioners the world over.",
 				"",
 				"As a swift action, you can enter the stance employed by the fighting style a style feat embodies. Although you cannot use a style feat before combat begins, the style you are in persists until you spend a swift action to switch to a different combat style. You can use a feat that has a style feat as a prerequisite only while in the stance of the associated style. For example, if you have feats associated with Mantis Style and Tiger Style, you can use a swift action to adopt Tiger Style at the start of one turn, and then can use other feats that have Tiger Style as a prerequisite. By using another swift action at the start of your next turn, you could adopt Mantis Style and use other feats that have Mantis Style as a prerequisite."
 			],
+			"# Table ! stylefeatstable",
 			[ "{table0}" ]
 		],
 		"tables": [

@@ -169,7 +169,7 @@
 			"",
 			"Your innate adaptability allows you to imitate others of your kind nearly flawlessly, to the extent that you can utilize their mastery over skills almost as if you had personally trained in their use.  ",
 			"**Prerequisites:** Half-elf, adaptability or ancestral arms racial trait.  ",
-			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a Skill Focus feat, you also count as having that feat for the purpose of the following skill uses: Acrobatics checks to move through threatened squares, Bluff checks to feint, Escape Artist checks to escape a grapple, Intimidate checks to demoralize, Knowledge checks to identify a monster, and Perception checks to notice a creature using Stealth. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
+			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a [Skill Focus](feat/skill_focus) feat, you also count as having that feat for the purpose of the following skill uses: Acrobatics checks to move through threatened squares, Bluff checks to feint, Escape Artist checks to escape a grapple, Intimidate checks to demoralize, Knowledge checks to identify a monster, and Perception checks to notice a creature using Stealth. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
 		]
 	},
 	"instant_alchemy": {
@@ -338,7 +338,7 @@
 			"",
 			"You can combine your blasts with those of another kineticist.  ",
 			"**Prerequisites:** Kinetic blast class feature.  ",
-			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can ready an action to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6thlevel hydrokineticist worked together to create a steam blast, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
+			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can ready an action to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6th-level hydrokineticist worked together to create a steam blast, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
 			"",
 			"One participant can provide a form infusion appropriate for the composite blast, and the other can provide an appropriate substance infusion. Each participant accepts the burn cost for the infusion she provided. The participant who didn't take the special ready action can apply a metakinesis to the blast, and she is the only one who can gather power to reduce the blast's cost (since only she has a move action to take prior to the blast). However, whatever metakinesis she applies affects the entire composite blast.",
 			"",
@@ -383,7 +383,7 @@
 			"",
 			"You have boundless faith in your success.  ",
 			"**Prerequisites:** Cha 13, [Fearless Curiosity](feat/fearless_curiosity), Intimidate 5 ranks, human.  ",
-			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with the bonus granted by Fearless Curiosity. When you confirm a critical hit, as a free action you can make an Intimidate check to demoralize one creature you threaten. If you have the Dazzling Display feat, you can make Intimidate checks to demoralize all creatures you threaten instead. You gain a +2 bonus on this check if your weapon has a &times;3 critical modifier, or +4 if it has a &times;4 critical modifier."
+			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with the bonus granted by Fearless Curiosity. When you confirm a critical hit, as a free action you can make an Intimidate check to demoralize one creature you threaten. If you have the [Dazzling Display](feat/dazzling_display) feat, you can make Intimidate checks to demoralize all creatures you threaten instead. You gain a +2 bonus on this check if your weapon has a &times;3 critical modifier, or +4 if it has a &times;4 critical modifier."
 		]
 	},
 	"intimidating_gaze": {
@@ -425,7 +425,7 @@
 			"**Prerequisites:** Ability to start a performance (or raging song) as a move action, bardic performance or raging song class feature.  ",
 			"**Benefit:** When you start a performance (or a raging song) as a move or swift action, you can use a standard action to demoralize a foe, attempting a Perform check appropriate to your performance in place of the Intimidate check. Your performance must be one with an audible component.",
 			"",
-			"If you can start a performance as a swift action and you have the Dazzling Display feat, you can gain the benefit of Dazzling Display by succeeding at a Perform check in place of an Intimidate check."
+			"If you can start a performance as a swift action and you have the [Dazzling Display](feat/dazzling_display) feat, you can gain the benefit of Dazzling Display by succeeding at a Perform check in place of an Intimidate check."
 		]
 	},
 	"intimidating_prowess": {
@@ -578,7 +578,7 @@
 			"",
 			"By swearing to never use a weapon other than a longsword, you can achieve things normally limited to the most highly trained swordsmen.  ",
 			"**Prerequisites:** Proficient in longsword, [Weapon Focus (longsword)](feat/weapon_focus), base attack bonus +4, worshiper of Iomedae.  ",
-			"**Benefit:** You may select longsword-related feats as if you were a 4th-level fighter. For example, you may select Weapon Specialization (longsword) as a feat.  ",
+			"**Benefit:** You may select longsword-related feats as if you were a 4th-level fighter. For example, you may select [Weapon Specialization](feat/weapon_specialization) (longsword) as a feat.  ",
 			"**Special:** If you ever use a melee or ranged weapon other than a longsword in combat, you lose the benefits of this feat until you receive an atonement spell. You may still use spells that act as weapons (such as flame blade and spiritual weapon) without affecting your oath."
 		]
 	},
@@ -642,7 +642,7 @@
 			"",
 			"You appeal to sound reasoning and fact, rather than to emotion, when attempting to sway others.  ",
 			"**Prerequisites:** Int 19, Diplomacy 3 ranks.  ",
-			"**Benefit:** You gain a +4 bonus on Diplomacy checks whenever you add your Charisma modifier on those checks. If you have at least 10 ranks in Diplomacy and an Intelligence score of 27 or more, this bonus increases to +8. This bonus doesn't stack with the bonus from Skill Focus (Diplomacy), but this feat counts as Skill Focus (Diplomacy) for the purpose of feats and other elements with Skill Focus (Diplomacy) as a prerequisite. In verbal duels, when using tactics to which you assigned an Intelligence-based skill, you can add your Intelligence modifier instead of your Charisma modifier to the associated skill check."
+			"**Benefit:** You gain a +4 bonus on Diplomacy checks whenever you add your Charisma modifier on those checks. If you have at least 10 ranks in Diplomacy and an Intelligence score of 27 or more, this bonus increases to +8. This bonus doesn't stack with the bonus from [Skill Focus](feat/skill_focus) (Diplomacy), but this feat counts as Skill Focus (Diplomacy) for the purpose of feats and other elements with Skill Focus (Diplomacy) as a prerequisite. In verbal duels, when using tactics to which you assigned an Intelligence-based skill, you can add your Intelligence modifier instead of your Charisma modifier to the associated skill check."
 		]
 	},
 	"ironclad_reactions": {
@@ -714,7 +714,7 @@
 			"**Source** [Advanced Class Guide pg. 151](source/advanced_class_guide)",
 			"",
 			"You've learned to bend and shift your body to avoid attacks and reposition yourself advantageously.  ",
-			"**Prerequisites:** [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Jabbing Style](feat/jabbing_style), Mobility; base attack bonus +9, brawler level 5th, or monk level 5th.  ",
+			"**Prerequisites:** [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Jabbing Style](feat/jabbing_style), [Mobility](feat/mobility); base attack bonus +9, brawler level 5th, or monk level 5th.  ",
 			"**Benefit:** Each time you hit with an unarmed strike while using Jabbing Style, you can move 5 feet without provoking an attack of opportunity as long as you move to a space adjacent to the opponent you hit with the unarmed strike. If you use this feat, you cannot take a 5-foot step during your next turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -735,7 +735,7 @@
 			"**Source** [Advanced Class Guide pg. 151](source/advanced_class_guide)",
 			"",
 			"Your quick punches become even more lethal.  ",
-			"**Prerequisites:** [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Jabbing Dancer](feat/jabbing_dancer), [Jabbing Style](feat/jabbing_style), [Mobility](feat/mobility), Power Attack; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
+			"**Prerequisites:** [Dodge](feat/dodge), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Jabbing Dancer](feat/jabbing_dancer), [Jabbing Style](feat/jabbing_style), [Mobility](feat/mobility), [Power Attack](feat/power_attack); base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** While using Jabbing Style, the extra damage you deal when you hit a single target with two unarmed strikes increases to 2d6, and the extra damage when you hit a single target with three or more unarmed strikes increases to 4d6.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -756,7 +756,7 @@
 			"**Source** [Advanced Class Guide pg. 152](source/advanced_class_guide)",
 			"",
 			"A cluster of quick strikes deals more damage than a single roundhouse swing.  ",
-			"**Prerequisites:** Improved Unarmed Strike; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
+			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
 			"**Benefit:** When you hit a target with an unarmed strike and you have hit that target with an unarmed strike previously that round, you deal an extra 1d6 points of damage to that target.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -803,7 +803,7 @@
 			"",
 			"Your ambushes are especially lethal.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
-			"**Benefit:** When making a charge or using Spring Attack against an opponent who is flat-footed or helpless, you treat your first melee attack against that target as if you had the Improved Critical feat."
+			"**Benefit:** When making a charge or using [Spring Attack](feat/spring_attack) against an opponent who is flat-footed or helpless, you treat your first melee attack against that target as if you had the [Improved Critical](feat/improved_critical) feat."
 		]
 	},
 	"janni_rush": {
@@ -2401,7 +2401,7 @@
 			"",
 			"A realm's light gravity lets you reach your full potential.  ",
 			"**Prerequisites:** Dex 13, Acrobatics 3 ranks.  ",
-			"**Benefit:** Your land speed increases by 10 feet while on a plane with light gravity, and other creatures do not gain a circumstance bonus on attack rolls against you from light gravity. At the GM's discretion, these effects might apply to certain environments on the Material Plane, such as low-gravity planets. In addition, you gain a +2 bonus on Acrobatics checks; if you have 10 or more ranks in Acrobatics, this bonus increases to +4. This bonus does not stack with that provided by the Acrobatic feat."
+			"**Benefit:** Your land speed increases by 10 feet while on a plane with light gravity, and other creatures do not gain a circumstance bonus on attack rolls against you from light gravity. At the GM's discretion, these effects might apply to certain environments on the Material Plane, such as low-gravity planets. In addition, you gain a +2 bonus on Acrobatics checks; if you have 10 or more ranks in Acrobatics, this bonus increases to +4. This bonus does not stack with that provided by the [Acrobatic](feat/acrobatic) feat."
 		]
 	},
 	"light_step": {
@@ -3465,7 +3465,7 @@
 			"",
 			"You infuse your body with protoplasm from the Maelstrom.  ",
 			"**Prerequisites:** Knowledge (planes) 7 ranks.  ",
-			"**Benefit:** As a full-round action, you can infuse yourself with protoplasm, converting your body and equipment to a semi-gelatinous state. You gain the [compression](umr/compression) universal monster ability, which allows you to move through an area as small as one-quarter your space without squeezing or oneeighth your space when squeezing. You also gain a bonus to your CMD against grapple and trip combat maneuvers equal to half your ranks in Knowledge (planes). Due to your form's softness and instability, your attacks with manufactured weapons, natural weapons, and unarmed strikes deal half damage while you are in malleable form. This effect offers no protection against critical hits or precision damage.",
+			"**Benefit:** As a full-round action, you can infuse yourself with protoplasm, converting your body and equipment to a semi-gelatinous state. You gain the [compression](umr/compression) universal monster ability, which allows you to move through an area as small as one-quarter your space without squeezing or one-eighth your space when squeezing. You also gain a bonus to your CMD against grapple and trip combat maneuvers equal to half your ranks in Knowledge (planes). Due to your form's softness and instability, your attacks with manufactured weapons, natural weapons, and unarmed strikes deal half damage while you are in malleable form. This effect offers no protection against critical hits or precision damage.",
 			"",
 			"You can use this feat's benefit for a number of minutes per day equal to your ranks in Knowledge (planes). These minutes need not be consecutive, but they must be spent in 1-minute increments."
 		]
@@ -3727,7 +3727,7 @@
 			"**Source** [Mythic Adventures pg. 69](source/mythic_adventures)",
 			"",
 			"You're destined for glory beyond the ken of ordinary adventurers and mere mortals.  ",
-			"**Prerequisites:** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or Lightning Reflexes.  ",
+			"**Prerequisites:** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or [Lightning Reflexes](feat/lightning_reflexes).  ",
 			"**Benefit:** You can use the surge ability once per day (adding 1d6). If you are or become mythic, you can use your surge one additional time per day."
 		]
 	},
@@ -3785,7 +3785,7 @@
 			"",
 			"You broaden your study of weapons to encompass multiple similar weapons.  ",
 			"**Prerequisites:** [Martial Versatility](feat/martial_versatility), fighter level 16th, human.  ",
-			"**Benefit:** Each combat feat you have that applies to a specific weapon (e.g., Weapon Focus) can be used with all weapons in the same weapon group.",
+			"**Benefit:** Each combat feat you have that applies to a specific weapon (e.g., [Weapon Focus](feat/weapon_focus)) can be used with all weapons in the same weapon group.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 126](source/pathfinder_unchained)",
@@ -3806,7 +3806,7 @@
 			"",
 			"You further broaden your study of weapons to encompass multiple similar weapons.  ",
 			"**Prerequisites:** Fighter level 4th, human.  ",
-			"**Benefit:** Choose one combat feat you know that applies to a specific weapon (e.g., Weapon Focus). You can use that feat with any weapon within the same weapon group.  ",
+			"**Benefit:** Choose one combat feat you know that applies to a specific weapon (e.g., [Weapon Focus](feat/weapon_focus)). You can use that feat with any weapon within the same weapon group.  ",
 			"**Special:** You may take this feat more than once. Each time it applies to a different feat.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -4584,7 +4584,7 @@
 			"",
 			"Your rending claws expose your opponent's vital organs to your teeth.  ",
 			"**Prerequisites:** Base attack bonus +6, bite attack, rend, troll.  ",
-			"**Benefit:** If you deal damage to a creature with your rend ability, the critical threat range of your bite attack becomes 18-20 until the start of your next turn. This increase does not stack with other effects that increase your bite's critical threat range (such as the keen weapon special ability or the Improved Critical feat)."
+			"**Benefit:** If you deal damage to a creature with your rend ability, the critical threat range of your bite attack becomes 18-20 until the start of your next turn. This increase does not stack with other effects that increase your bite's critical threat range (such as the keen weapon special ability or the [Improved Critical](feat/improved_critical) feat)."
 		]
 	},
 	"mighty_boughs": {
@@ -4968,7 +4968,7 @@
 			"**Prerequisites:** Proficiency with the selected weapon.  ",
 			"**Benefit:** Select one type of weapon, such as longsword. You are always considered to be proficient with modified weapons of that type.  ",
 			"**Normal:** A modified weapon is treated as one category more difficult to wield.  ",
-			"**Special:** A warpriest with the focus weapon class feature can gain this feat with his deity's favored weapon in place of his bonus Weapon Focus feat. A magus with the kensai archetype can gain this feat with his chosen weapon in place of his bonus Weapon Focus feat."
+			"**Special:** A warpriest with the focus weapon class feature can gain this feat with his deity's favored weapon in place of his bonus [Weapon Focus](feat/weapon_focus) feat. A magus with the kensai archetype can gain this feat with his chosen weapon in place of his bonus Weapon Focus feat."
 		]
 	},
 	"monastic_legacy": {
@@ -5585,7 +5585,7 @@
 			"",
 			"You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of battle.  ",
 			"**Prerequisites:** [Throw Anything](feat/throw_anything).  ",
-			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a dirty trick combat maneuver against the target as a free action; this dirty trick can be used only to blind the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the Improved Dirty Trick feat).  ",
+			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a dirty trick combat maneuver against the target as a free action; this dirty trick can be used only to blind the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the [Improved Dirty Trick](feat/improved_dirty_trick) feat).  ",
 			"**Special:** A character with favored terrain (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
 		]
 	},
@@ -5653,8 +5653,8 @@
 			"This multi-armed creature is skilled at making attacks with multiple weapons.  ",
 			"**Prerequisites:** Dex 13, three or more hands.  ",
 			"**Benefit:** Penalties for fighting with multiple weapons are reduced by -2 with the primary hand and by -6 with off hands.  ",
-			"**Normal:** A creature without this feat takes a -6 penalty on attacks made with its primary hand and a -10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See Two-Weapon Fighting in the Pathfinder RPG Core Rulebook.  ",
-			"**Special:** This feat replaces the Two-Weapon Fighting feat for creatures with more than two arms."
+			"**Normal:** A creature without this feat takes a -6 penalty on attacks made with its primary hand and a -10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See [Two-Weapon Fighting](rule/two-weapon_fighting) in the Pathfinder RPG Core Rulebook.  ",
+			"**Special:** This feat replaces the [Two-Weapon Fighting](feat/two-weapon_fighting) feat for creatures with more than two arms."
 		]
 	},
 	"multiweapon_specialist": {
@@ -6524,7 +6524,7 @@
 			"You can use your ability to create magical darkness to terrorize enemies.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Nightmare Fist](feat/nightmare_fist), Intimidate 2 ranks, ability to cast darkness.  ",
 			"**Benefit:** By spending a full-round action to cast darkness, you can also make Intimidate checks to demoralize all foes in the spell's initial area.  ",
-			"**Special:** This feat counts as Dazzling Display for purposes of qualifying for Deadly Stroke and Shatter Defenses.",
+			"**Special:** This feat counts as [Dazzling Display](feat/dazzling_display) for purposes of qualifying for Deadly Stroke and Shatter Defenses.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 127](source/pathfinder_unchained)",
@@ -6586,7 +6586,7 @@
 			"",
 			"You were born to charge your enemies and nobody does it better.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1, catfolk, sprinter racial trait.  ",
-			"**Benefit:** You do not take a -2 penalty to AC when you use the Cleave feat, Lunge feat, or when you charge.",
+			"**Benefit:** You do not take a -2 penalty to AC when you use the [Cleave](feat/cleave) feat, [Lunge](feat/lunge) feat, or when you charge.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 127](source/pathfinder_unchained)",
@@ -6619,7 +6619,7 @@
 			"**Prerequisites:** Must not be a member of an established family or a member of nobility.  ",
 			"**Benefit:** You gain a +2 bonus on Bluff and Knowledge (nobility) checks and these skills are class skills for you.  ",
 			"**Goal:** Convince at least three noble families, a ruling monarch, or a settlement of at least small city size that you are a member of an existing or a previously unknown noble family.  ",
-			"**Completion Benefit:** You gain followers as if you had the Leadership feat. If you also have the Leadership feat, increase your Leadership score by 3 for the purpose of determining how many followers you have."
+			"**Completion Benefit:** You gain followers as if you had the [Leadership](feat/leadership) feat. If you also have the Leadership feat, increase your Leadership score by 3 for the purpose of determining how many followers you have."
 		]
 	},
 	"noble_scion": {
@@ -6677,7 +6677,7 @@
 			"",
 			"Scion of Osirion: You reduce the amount of nonlethal damage you take from heat exposure by 2 (minimum 0). Additionally, you require only a gallon of water per day to avoid dehydration in hot climates.",
 			"",
-			"Scion of Qadira: Once per day, when attempting to negate an attack with Mounted Combat, you can roll twice and take the better result. Ride is a class skill for you.",
+			"Scion of Qadira: Once per day, when attempting to negate an attack with [Mounted Combat](feat/mounted_combat), you can roll twice and take the better result. Ride is a class skill for you.",
 			"",
 			"Scion of the River Kingdoms: Whenever you take 10 on Handle Animal, Knowledge (nature), Perception, Ride, or Survival checks, treat the result as if you had rolled a 13 instead of a 10.",
 			"",
@@ -6849,7 +6849,7 @@
 			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain favored enemy (dragon) +2 , as the ranger class feature of t he same name. T his bonus stacks with favored enemy bonuses granted by other sources.",
 			"",
 			"Red Mantis Hit List  ",
-			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the Red Mantis assassins, you gain insights into their deadliest secrets. You gain Exotic Weapon Proficiency (sawtooth sabre) and Weapon Focus (sawtooth sabre) as bonus feats.",
+			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the Red Mantis assassins, you gain insights into their deadliest secrets. You gain [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (sawtooth sabre) and [Weapon Focus](feat/weapon_focus) (sawtooth sabre) as bonus feats.",
 			"",
 			"Sun Orchid Elixir  ",
 			"**Completion Benefit:** Upon acquiring a dose of sun orchid elixir and restoring your youth, you completely lose your fear of physical harm. You gain a +2 bonus on saves against Strength, Dexterity, and Constitution damage.",

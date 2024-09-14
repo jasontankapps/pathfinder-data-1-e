@@ -67,7 +67,7 @@
 					[ "[Deathtrap Ooze](monster/deathtrap_ooze)", 8, "ooze", [ 5, "large" ], [ 4, "N" ], "The killing blade of this horrific trap drips with an animated sheen of foul brown-orange slime." ],
 					[ "[Deathweb](monster/deathweb)", 6, "undead", [ 5, "large" ], [ 4, "N" ], "This animated husk from an enormous spider seems filled with thousands of living spiders that fall from its body like drops of blood." ],
 					[ "[Decapus](monster/decapus)", 4, "aberration", [ 4, "medium" ], [ 8, "CE" ], "This swollen cephalopod has ten writhing tentacles and a hideously monstrous face with pale, milky eyes on its bulbous body." ],
-					[ "[Deep Merfolk](monster/deep_merfolk)", 3, "humanoid", [ 4, "medium" ], [ 4, "N" ], "This gaunt mermaid has a long, semitransparent tail with a vivid red crest and caudal fin." ],
+					[ "[Deep Merfolk](monster/deep_merfolk)", 3, "humanoid", [ 4, "medium" ], [ 4, "N" ], "This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and caudal fin." ],
 					[ "[Deep One, Deep One Hybrid](monster/deep_one,_deep_one_hybrid)", [ -2, "1/2" ], "humanoid", [ 4, "medium" ], [ 8, "CE" ], "This elderly man's wide-mouthed, staring countenance and webbed hands suggest a sinister taint in his bloodline." ],
 					[ "[Deep One, Elder Deep One](monster/deep_one,_elder_deep_one)", 14, "monstrous humanoid", [ 7, "gargantuan" ], [ 8, "CE" ], "The frame of this immense monstrosity is humanoid, but its ichthyic visage is that of a deep-sea predator." ],
 					[ "[Deep One](monster/deep_one)", 1, "monstrous humanoid", [ 4, "medium" ], [ 8, "CE" ], "This lumbering creature's gray-green hide glistens with moisture, and saliva dribbles from its fishlike maw." ],
@@ -1738,7 +1738,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against languagedependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2. Suggested Characters: Andorens, Desnans, Erastil worshipers."
+				"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2. Suggested Characters: Andorens, Desnans, Erastil worshipers."
 			],
 			[
 				"## [Friend in Every Town](trait/friend_in_every_town)",
@@ -3060,7 +3060,7 @@
 			[
 				"## Blessed Warden Package",
 				"",
-				"A blessed warden is prepared to protect herself against the horrors of evil-aligned planes. This equipment package is suitable for clerics, druids, inquisitors, oracles, and paladins. The specific gear is appropriate for those visiting the chaotic evil Abyss but can be adjusted to suit other evilaligned planes, such as swapping the scrolls of protection from chaos for scrolls of protection from law for a package designed for travel to Hell.",
+				"A blessed warden is prepared to protect herself against the horrors of evil-aligned planes. This equipment package is suitable for clerics, druids, inquisitors, oracles, and paladins. The specific gear is appropriate for those visiting the chaotic evil Abyss but can be adjusted to suit other evil-aligned planes, such as swapping the scrolls of protection from chaos for scrolls of protection from law for a package designed for travel to Hell.",
 				"",
 				"**Armor:** Masterwork chain shirt.  ",
 				"**Weapons:** Cold iron shortspear, light crossbow with 20 crossbow bolts.  ",
@@ -3666,7 +3666,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful selfassurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands. Choose one 1st-level enchantment spell you are capable of casting. The DC of that spell increases by 1.",
+				"When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful self-assurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands. Choose one 1st-level enchantment spell you are capable of casting. The DC of that spell increases by 1.",
 				"",
 				"Suggested Characters: Chelaxians, Irriseni, Mwangi."
 			],
@@ -4444,7 +4444,7 @@
 					[ "[Magma Ooze](monster/magma_ooze)", 7, "ooze", [ 5, "large" ], [ 4, "N" ], "This seething mass of bubbling molten rock churns and moves of its own hungry accord." ],
 					[ "[Magmin](monster/magmin)", 3, "outsider", [ 3, "small" ], [ 7, "CN" ], "Built of fire and magma, this short humanoid radiates intense heat that causes the air around it to shimmer." ],
 					[ "[Makara Vahana](monster/makara_vahana)", 9, "magical beast", [ 6, "huge" ], [ 4, "N" ], "This massive creature combines the trunk, tusks, and size of an elephant with the powerful jaws, scaly hide, and tail of a crocodile." ],
-					[ "[Malbolgian Cerberi](monster/malbolgian_cerberi)", 12, "outsider", [ 5, "large" ], [ 2, "LE" ], "A beast leapt forth from the flames of Hell, this gigantic, threeheaded hound howls a sound like the cacophony of a raging wildfire. Large enough to heft a horse in its monstrous maws, this terror bears no flesh, its body merely a thing of exposed bone and charred musculature. From its three fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's skeletal jaws." ],
+					[ "[Malbolgian Cerberi](monster/malbolgian_cerberi)", 12, "outsider", [ 5, "large" ], [ 2, "LE" ], "A beast leapt forth from the flames of Hell, this gigantic, three-headed hound howls a sound like the cacophony of a raging wildfire. Large enough to heft a horse in its monstrous maws, this terror bears no flesh, its body merely a thing of exposed bone and charred musculature. From its three fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's skeletal jaws." ],
 					[ "[Mamiwa](monster/mamiwa)", 2, "outsider", [ 2, "tiny" ], [ 4, "N" ], "The tail of this shimmering, salamander-like creature is composed entirely of water." ],
 					[ "[Manananggal](monster/manananggal)", 7, "undead", [ 4, "medium" ], [ 8, "CE" ], "This disembodied female torso flaps through the air on batlike wings, her fanged face a hateful mask." ],
 					[ "[Manasaputra, Maharishi Manu](monster/manasaputra,_maharishi_manu)", 16, "outsider", [ 4, "medium" ], [ 0, "LG" ], "This elderly figure looks out with heavy-lidded eyes, and seems lost in its own serenity." ],

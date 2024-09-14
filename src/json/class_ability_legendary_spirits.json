@@ -95,7 +95,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Beldam, you must embrace every opportunity to pull a prank or make a jest, but never at your own expense.",
 			"",
-			"**Princely Humor (Lesser, Su):** You gain Improved Dirty Trick and Improved Feint as bonus feats. When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with hideous laughter (DC = 10 + 1/2 your medium level + your Charisma modifier) as a free action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.",
+			"**Princely Humor (Lesser, Su):** You gain [Improved Dirty Trick](feat/improved_dirty_trick) and [Improved Feint](feat/improved_feint) as bonus feats. When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with hideous laughter (DC = 10 + 1/2 your medium level + your Charisma modifier) as a free action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.",
 			"",
 			"**Atrocious Gift (Greater, Su):** You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a standard action. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter."
 		]
@@ -213,7 +213,7 @@
 			"",
 			"**Conqueror's Weapons (Lesser, Su):** You are considered proficient with the weapon types you gathered in order to gain favor with this spirit (such as longswords or hand crossbows).",
 			"",
-			"**Conquered Blades (Greater, Su):** You gain Improved Critical with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-)."
+			"**Conquered Blades (Greater, Su):** You gain [Improved Critical](feat/improved_critical) with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-)."
 		]
 	},
 	"heretic": {
@@ -371,7 +371,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Savith, you must never coat any of your natural or manufactured weapons in poison, nor can you ever dose an enemy with any type of poison.",
 			"",
-			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a greatsword in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: Disruptive, Greater Weapon Focus (greatsword), Greater Weapon Specialization (greatsword), Weapon Focus (greatsword), Weapon Specialization (greatsword), and Spellbreaker. This ability alters champion's prowess and legendary champion.",
+			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a greatsword in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: [Disruptive](feat/disruptive), [Greater Weapon Focus](feat/greater_weapon_focus) (greatsword), [Greater Weapon Specialization](feat/greater_weapon_specialization) (greatsword), [Weapon Focus](feat/weapon_focus) (greatsword), [Weapon Specialization](feat/weapon_specialization) (greatsword), and [Spellbreaker](feat/spellbreaker). This ability alters champion's prowess and legendary champion.",
 			"",
 			"**Toe to Toe (Intermediate, Sp):** When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are flanking it, you can spend a swift action to increase your own size as if through enlarge person, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead."
 		]

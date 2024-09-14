@@ -124,7 +124,7 @@
 			"**Source** [People of the Stars pg. 8](source/people_of_the_stars)  ",
 			"Thanks to their four arms, kasathas can master a combat form native to their home world and rarely witnessed on Golarion-wielding two bows at once. This archetype is available to kasathas (and to other races with four or more arms at the GM's discretion).",
 			"",
-			"**Twin Bows (Ex):** At 1st level, a bow nomad can simultaneously wield a combination of two of any of the following ranged weapons: shortbow, longbow, and their composite versions. When a bow nomad makes a full attack with two bows, twoweapon penalties apply and can be offset with Two- Weapon Fighting feats. Since bows aren't light weapons, a bow nomad with Two-Weapon Fighting takes a -4 penalty on attacks with each of her bows. Extra attacks from other sources, such as those granted by Manyshot or Rapid Shot, can be applied to only one of the wielded bows per round. This ability replaces wild empathy.",
+			"**Twin Bows (Ex):** At 1st level, a bow nomad can simultaneously wield a combination of two of any of the following ranged weapons: shortbow, longbow, and their composite versions. When a bow nomad makes a full attack with two bows, two-weapon penalties apply and can be offset with Two- Weapon Fighting feats. Since bows aren't light weapons, a bow nomad with Two-Weapon Fighting takes a -4 penalty on attacks with each of her bows. Extra attacks from other sources, such as those granted by Manyshot or Rapid Shot, can be applied to only one of the wielded bows per round. This ability replaces wild empathy.",
 			"",
 			"**Combat Style (Ex):** At 2nd level, a bow nomad must select archery as her combat style.",
 			"",
@@ -669,7 +669,7 @@
 			"",
 			"**Strong Bond (Ex):** At 12th level, the horse lord strengthens his bond with his mount. The ranger's effective druid level for his mount is now equal to his ranger level. This ability replaces camouflage.",
 			"",
-			"**Spiritual Bond (Su):** At 17th level, the horse lord can grant his animal companion temporary hit points equal to his ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share the damage taken by his mount as if using shield other. This ability replaces hide in plain sight."
+			"**Spiritual Bond (Su):** At 17th level, the horse lord can grant his animal companion temporary hit points equal to his ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share the damage taken by his mount as if using [shield other](spell/shield_other). This ability replaces hide in plain sight."
 		]
 	},
 	"ilsurian_archer": {

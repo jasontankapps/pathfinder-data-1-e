@@ -74,7 +74,7 @@
 			"",
 			"**Wild Empathy (Ex):** An ape shaman can use wild empathy with apes and other primates as a full-round action with a +4 bonus.",
 			"",
-			"**Totem Transformation (Su):** At 2nd level, an ape shaman may adopt an aspect of the ape while retaining her normal form. The druid gains one of the following sets of bonuses and abilities: movement (climb speed 20 ft., +4 racial bonus on Climb checks), senses (low-light vision, scent), natural weapons (2 slams [1d6 for a Medium shaman], +2 on combat maneuver checks to grapple), or toughness (+2 natural armor bonus to AC, Endurance feat).",
+			"**Totem Transformation (Su):** At 2nd level, an ape shaman may adopt an aspect of the ape while retaining her normal form. The druid gains one of the following sets of bonuses and abilities: movement (climb speed 20 ft., +4 racial bonus on Climb checks), senses (low-light vision, scent), natural weapons (2 slams [1d6 for a Medium shaman], +2 on combat maneuver checks to grapple), or toughness (+2 natural armor bonus to AC, [Endurance](feat/endurance) feat).",
 			"",
 			"While using totem transformation, the ape shaman may speak normally and can cast speak with animals (primates only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The ape shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.",
 			"",
@@ -84,7 +84,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, an ape shaman's wild shape ability functions at her druid level -2. If she takes on the form of an ape, she instead uses her druid level +2.",
 			"",
-			"**Bonus Feat:** At 9th level and every four levels thereafter, an ape shaman gains one of the following bonus feats: Diehard, Endurance, Great Fortitude, Improved Bull Rush, and Toughness. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every four levels thereafter, an ape shaman gains one of the following bonus feats: [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), and [Toughness](feat/toughness). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"aquatic_druid": {
@@ -196,7 +196,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a bat shaman's wild shape ability functions at her druid level -2. If she takes on the form of a bat, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every four levels thereafter, a bat shaman gains one of the following bonus feats: Acrobatic, Agile Maneuvers, Improved Initiative, Lightning Reflexes, or Skill Focus (Perception). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every four levels thereafter, a bat shaman gains one of the following bonus feats: [Acrobatic](feat/acrobatic), [Agile Maneuvers](feat/agile_maneuvers), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), or [Skill Focus](feat/skill_focus) (Perception). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"bear_shaman": {
@@ -212,13 +212,13 @@
 			"",
 			"**Wild Empathy (Ex):** A bear shaman can use wild empathy with bears and wolverines as a full-round action with a +4 bonus.",
 			"",
-			"**Totem Transformation (Su):** At 2nd level, a bear shaman may adopt an aspect of the bear while retaining her normal form. She gains one of the following bonuses: movement (+10 enhancement bonus to land speed, +4 racial bonus on Swim checks), senses (low-light vision, scent), toughness (+2 natural armor bonus to AC, Endurance feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 to CMB on grapple checks). While using totem transformation, the bear shaman may speak normally and can cast speak with animals (mammals only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The bear shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.",
+			"**Totem Transformation (Su):** At 2nd level, a bear shaman may adopt an aspect of the bear while retaining her normal form. She gains one of the following bonuses: movement (+10 enhancement bonus to land speed, +4 racial bonus on Swim checks), senses (low-light vision, scent), toughness (+2 natural armor bonus to AC, [Endurance](feat/endurance) feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 to CMB on grapple checks). While using totem transformation, the bear shaman may speak normally and can cast speak with animals (mammals only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The bear shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.",
 			"",
 			"**Totemic Summons (Su):** At 5th level, a bear shaman may cast summon nature's ally as a standard action when summoning bears, and summoned bears gain temporary hit points equal to her druid level. She can apply the young template to any bear to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the advanced or the giant template, or increase it by two to apply both the advanced and giant templates. This ability replaces a thousand faces.",
 			"",
 			"**Wild Shape (Su):** At 6th level, a bear shaman's wild shape ability functions at her druid level - 2. If she takes on the form of a bear, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a bear shaman gains one of the following bonus feats: Diehard, Endurance, Great Fortitude, Improved Great Fortitude, Toughness. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a bear shaman gains one of the following bonus feats: [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Improved Great Fortitude](feat/improved_great_fortitude), [Toughness](feat/toughness). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"blight_druid": {
@@ -254,7 +254,7 @@
 			"",
 			"**Wild Empathy (Ex):** A boar shaman can use wild empathy with porcine creatures as a full-round action with a +4 bonus.",
 			"",
-			"**Totem Transformation (Su):** At 2nd level, a boar shaman may adopt an aspect of the boar while retaining her normal form. This ability functions as the ape shaman ability, but the druid may select from the following sets of bonuses and abilities: movement (+10 enhancement bonus to land speed), senses (low-light vision, scent), natural weapons (gore [1d8 for a Medium druid], +2 on combat maneuver checks to overrun), or toughness (+2 natural armor bonus to AC, Endurance feat). While using totem transformation, the boar shaman may speak normally and can cast speak with animals (boars and related animals only) at will.",
+			"**Totem Transformation (Su):** At 2nd level, a boar shaman may adopt an aspect of the boar while retaining her normal form. This ability functions as the ape shaman ability, but the druid may select from the following sets of bonuses and abilities: movement (+10 enhancement bonus to land speed), senses (low-light vision, scent), natural weapons (gore [1d8 for a Medium druid], +2 on combat maneuver checks to overrun), or toughness (+2 natural armor bonus to AC, [Endurance](feat/endurance) feat). While using totem transformation, the boar shaman may speak normally and can cast speak with animals (boars and related animals only) at will.",
 			"",
 			"This ability replaces woodland stride.",
 			"",
@@ -262,7 +262,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a boar shaman's wild shape ability functions at her druid level -2. If she takes on the form of a boar, she instead uses her druid level +2.",
 			"",
-			"**Bonus Feat:** At 9th level and every four levels thereafter, a boar shaman gains one of the following bonus feats: Bleeding Critical, Blind-Fight, Diehard, or Improved Overrun. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every four levels thereafter, a boar shaman gains one of the following bonus feats: [Bleeding Critical](feat/bleeding_critical), [Blind-Fight](feat/blind-fight), [Diehard](feat/diehard), or [Improved Overrun](feat/improved_overrun). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"cave_druid": {
@@ -482,7 +482,7 @@
 			"",
 			"**Wild Empathy (Ex):** A dragon shaman can use her wild empathy ability with lizards as a full-round action with a +4 bonus.",
 			"",
-			"**Totem Transformation (Su):** At 2nd level, a dragon shaman may adopt an aspect of the dragon while retaining her normal form. She gains one of the following bonuses: movement (fly speed 30 feet [average], the druid must be 5th level to select this bonus), senses (low-light vision, +4 racial bonus to Perception), toughness (+2 natural armor bonus to AC, Endurance feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 bonus on CMB on grapple checks). While using totem transformation, the dragon shaman may speak normally and can cast speak with animals (lizards only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The dragon shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.",
+			"**Totem Transformation (Su):** At 2nd level, a dragon shaman may adopt an aspect of the dragon while retaining her normal form. She gains one of the following bonuses: movement (fly speed 30 feet [average], the druid must be 5th level to select this bonus), senses (low-light vision, +4 racial bonus to Perception), toughness (+2 natural armor bonus to AC, [Endurance](feat/endurance) feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 bonus on CMB on grapple checks). While using totem transformation, the dragon shaman may speak normally and can cast speak with animals (lizards only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The dragon shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.",
 			"",
 			"**Totemic Summons (Su):** At 5th level, a dragon shaman may cast summon nature's ally as a standard action when summoning lizards, and summoned lizards gain temporary hit points equal to her druid level. She can apply the young template to any lizard to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the advanced or the giant template, or increase it by two to apply both the advanced and giant templates. This ability replaces a thousand faces.",
 			"",
@@ -490,7 +490,7 @@
 			"",
 			"**Dragon Bite (Su):** At 8th level, a dragon shaman's bite attack (whether using totem transformation or wild shape to take the form of a lizard) deals +1d6 points of energy damage (acid, cold, electricity, or fire). She chooses what kind of energy damage that she deals each time she bites. This ability replaces the additional use of wild shape at 8th level.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: Combat Casting, Dazzling Display, Magical Aptitude, Skill Focus (Knowledge [arcana]), and Spell Penetration. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: [Combat Casting](feat/combat_casting), [Dazzling Display](feat/dazzling_display), [Magical Aptitude](feat/magical_aptitude), [Skill Focus](feat/skill_focus) (Knowledge [arcana]), and [Spell Penetration](feat/spell_penetration). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"drovier": {
@@ -532,7 +532,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, an eagle shaman's wild shape ability functions at her druid level - 2. If she takes on the form of an eagle or roc, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, an eagle shaman gains one of the following bonus feats: Flyby Attack, Improved Lightning Reflexes, Lightning Reflexes, Skill Focus (Perception), or Wind Stance. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, an eagle shaman gains one of the following bonus feats: [Flyby Attack](feat/flyby_attack), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus](feat/skill_focus) (Perception), or [Wind Stance](feat/wind_stance). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"elemental_ally": {
@@ -580,7 +580,7 @@
 			"",
 			"**Illiteracy:** At 1st level, a feral child is unable to read and write, though she may learn by taking 1 rank of Linguistics. She does not gain Druidic as a free language and cannot select Sylvan as a bonus language.",
 			"",
-			"**Improved Unarmed Strike:** At 1st level, a feral child gains Improved Unarmed Strike as a bonus feat.",
+			"**Improved Unarmed Strike:** At 1st level, a feral child gains [Improved Unarmed Strike](feat/improved_unarmed_strike) as a bonus feat.",
 			"",
 			"**Beast Family (Ex):** At 1st level, a feral child may choose one specific type of animal as the type that raised her. She gains a +2 circumstance bonus on Handle Animal and wild empathy checks with animals of that type, and she can communicate with them as if using a continual speak with animals spell-like ability, but this ability is nonmagical.",
 			"",
@@ -783,7 +783,7 @@
 			"",
 			"This ability replaces trackless step.",
 			"",
-			"**Resist Unnatural Influence (Ex):** At 4th level, a green scourge gains a +4 bonus on saving throws against aberrations' spelllike abilities, supernatural abilities, and poisons.",
+			"**Resist Unnatural Influence (Ex):** At 4th level, a green scourge gains a +4 bonus on saving throws against aberrations' spell-like abilities, supernatural abilities, and poisons.",
 			"",
 			"This replaces resist nature's lure."
 		]
@@ -875,7 +875,7 @@
 			"",
 			"At each of 6th, 8th, 10th, and 12th levels, a kraken caller can grow an additional tentacle. As a move action, she can retract or regrow any number of the additional tentacles, redistributing the mass of any retracted tentacles. For every 2 retracted tentacles, she can increase the reach of the remaining tentacles by 5 feet (to a maximum of 15 feet), or increase the damage dealt by her tentacles as if she were one size category larger.",
 			"",
-			"While in this form, a kraken caller can expel a 10-footradius cloud of ink once per minute as a standard action. This cloud provides total concealment in water and persists for 1 round per level. The ink has no effect out of water. This ability alters wild shape.",
+			"While in this form, a kraken caller can expel a 10-foot-radius cloud of ink once per minute as a standard action. This cloud provides total concealment in water and persists for 1 round per level. The ink has no effect out of water. This ability alters wild shape.",
 			"",
 			"**Beast of the Depths (Su):** At 13th level, a kraken caller gains a swim speed equal to her base land speed and can breathe water as though affected by the spell water breathing. This ability replaces a thousand faces."
 		]
@@ -936,7 +936,7 @@
 			"",
 			"**Wicker Talismans (Su):** At 4th level, a life channeler gains a selection of wicker talismans that can store and convert the life energy of sentient creatures into the growth, health, and fertility of plants around her. The life channeler gains one wicker talisman corresponding to each level of druid spells she can cast, starting with 1st-level spells. These talismans are initially empty, but can hold life energy. When the life channeler ritualistically kills a creature with a coup de grace, she can store life energy in a talisman instead of gaining the plant growth effect. The creature must be of a CR equal to at least twice the spell level of the corresponding talisman. For instance, a CR 8 creature's life energy could provide energy for a talisman holding up to a 4th-level spell. A talisman is either full or empty; it can't hold more than one creature's life energy. A life channeler can expend the energy stored in a talisman to cast her domain spell of the talisman's level without expending a spell slot.",
 			"",
-			"Starting at 6th level, a life channeler gathers a flock of willing sacrifices. This grants her the benefits of the Leadership feat, except that using a follower as a human sacrifice with this ability doesn't cause the life channeler to take a penalty to her Leadership score.",
+			"Starting at 6th level, a life channeler gathers a flock of willing sacrifices. This grants her the benefits of the [Leadership](feat/leadership) feat, except that using a follower as a human sacrifice with this ability doesn't cause the life channeler to take a penalty to her Leadership score.",
 			"",
 			"This ability replaces wild shape.",
 			"",
@@ -966,7 +966,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a lion shaman's wild shape ability functions at her druid level - 2. If she takes on the form of a feline, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a lion shaman gains one of the following bonus feats: Dodge, Lunge, Improved Iron Will, Iron Will, or Skill Focus (Acrobatics). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a lion shaman gains one of the following bonus feats: [Dodge](feat/dodge), [Lunge](feat/lunge), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), or [Skill Focus](feat/skill_focus) (Acrobatics). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"mantella": {
@@ -1463,7 +1463,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a saurian shaman's wild shape ability functions at her druid level -2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: Improved Overrun, Nimble Moves, Power Attack, Skill Focus (Intimidate), or Vital Strike. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: [Improved Overrun](feat/improved_overrun), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Skill Focus](feat/skill_focus) (Intimidate), or [Vital Strike](feat/vital_strike). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"season_keeper": {
@@ -1545,7 +1545,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a serpent shaman's wild shape ability functions at her druid level - 2. If she takes on the form of a snake, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a serpent shaman gains one of the following bonus feats: Combat Expertise, Improved Feint, Skill Focus (Bluff), Stealthy, or Strike Back. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a serpent shaman gains one of the following bonus feats: [Combat Expertise](feat/combat_expertise), [Improved Feint](feat/improved_feint), [Skill Focus](feat/skill_focus) (Bluff), [Stealthy](feat/stealthy), or [Strike Back](feat/strike_back). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"shark_shaman": {
@@ -1567,7 +1567,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a shark shaman's wild shape ability functions at her druid level -2. If she takes on the form of a shark, she instead uses her druid level +2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: Bleeding Critical, Improved Initiative, Lightning Reflexes, Self-Sufficient, or Skill Focus (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: [Bleeding Critical](feat/bleeding_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Self-Sufficient](feat/self-sufficient), or [Skill Focus](feat/skill_focus) (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"skinshaper": {
@@ -1583,7 +1583,7 @@
 			"",
 			"This alters the druid's class skills.",
 			"",
-			"**Skinshaping (Su):** At 4th level, a skinshaper gains the ability to turn herself into any Small or Medium humanoid and back again once per day. This ability functions as per alter self, except as noted here. The effect lasts for 1 hour per druid level, or until the skinshaper changes back. Changing form is a standard action and doesn't provoke an attack of opportunity. The skinshaper must be familiar with the form she has chosen. She can use this ability an additional time per day at 6th level and every 2 druid levels thereafter, up to a total of eight times at 18th level. At 20th level, she can use skinshaping at will. The skinshaper learns to intuitively use her body as a weapon. While skinshaping, she gains the benefit of the Improved Unarmed Strike feat, and her unarmed strike deals damage as if she were a monk with a monk level equal to her druid level - 3.",
+			"**Skinshaping (Su):** At 4th level, a skinshaper gains the ability to turn herself into any Small or Medium humanoid and back again once per day. This ability functions as per alter self, except as noted here. The effect lasts for 1 hour per druid level, or until the skinshaper changes back. Changing form is a standard action and doesn't provoke an attack of opportunity. The skinshaper must be familiar with the form she has chosen. She can use this ability an additional time per day at 6th level and every 2 druid levels thereafter, up to a total of eight times at 18th level. At 20th level, she can use skinshaping at will. The skinshaper learns to intuitively use her body as a weapon. While skinshaping, she gains the benefit of the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat, and her unarmed strike deals damage as if she were a monk with a monk level equal to her druid level - 3.",
 			"",
 			"At 6th level, a skinshaper gains the ability to channel the versatile nature of humanoids to enhance her body and mind. Whenever she uses skinshaping to assume a humanoid shape other than her own, she gains a +2 enhancement bonus to any one ability score. The bonus persists as long as she remains in that form. At 10th, 14th, and 18th levels, she gains an additional +2 enhancement bonus to one ability score. She can distribute these bonuses as she wishes in increments of +2, but the enhancement bonus on any single ability score cannot exceed +4.",
 			"",
@@ -2092,7 +2092,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a wolf shaman's wild shape ability functions at her druid level - 2. If she takes on the form of a canine, she instead uses her druid level + 2.",
 			"",
-			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a wolf shaman gains one of the following bonus feats: Greater Trip, Improved Trip, Mobility, Skill Focus (Stealth), or Spring Attack. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+			"**Bonus Feat:** At 9th level and every 4 levels thereafter, a wolf shaman gains one of the following bonus feats: [Greater Trip](feat/greater_trip), [Improved Trip](feat/improved_trip), [Mobility](feat/mobility), [Skill Focus](feat/skill_focus) (Stealth), or [Spring Attack](feat/spring_attack). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 		]
 	},
 	"world_walker": {

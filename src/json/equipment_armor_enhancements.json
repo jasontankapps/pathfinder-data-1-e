@@ -222,7 +222,7 @@
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
 			"**Cost** +1,000 gp **Weight** +20 lbs.",
 			"",
-			"Opponents who swing too hard at targets wearing this armor often regret it-striking jarring armor sends a shock up the arm. Whenever an opponent makes a melee attack against you using the Power Attack feat and misses by 5 or fewer, he must succeed at a Fortitude saving throw (DC = 10 + the bonus that Power Attack would have applied to the attacker's weapon damage roll) or be sickened for 1 round.",
+			"Opponents who swing too hard at targets wearing this armor often regret it-striking jarring armor sends a shock up the arm. Whenever an opponent makes a melee attack against you using the [Power Attack](feat/power_attack) feat and misses by 5 or fewer, he must succeed at a Fortitude saving throw (DC = 10 + the bonus that Power Attack would have applied to the attacker's weapon damage roll) or be sickened for 1 round.",
 			"",
 			"*Drawback*  ",
 			"Jarring armor reduces your speed by 5 feet."
@@ -264,7 +264,7 @@
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
 			"**Cost** +500 gp **Weight** +5 lbs.",
 			"",
-			"Soldiers in the field and adventurers in the dungeon both find slumbering armor to be a boon, as its layers of downy internal padding allow the wearer to rest comfortably while armored. Slumbering armor is considered to be one category lighter for the purpose of sleeping in the armor. This allows you to sleep in medium armor without penalty, and if you have the Endurance feat (or another method of sleeping in medium armor) you can sleep in heavy slumbering armor without penalty.",
+			"Soldiers in the field and adventurers in the dungeon both find slumbering armor to be a boon, as its layers of downy internal padding allow the wearer to rest comfortably while armored. Slumbering armor is considered to be one category lighter for the purpose of sleeping in the armor. This allows you to sleep in medium armor without penalty, and if you have the [Endurance](feat/endurance) feat (or another method of sleeping in medium armor) you can sleep in heavy slumbering armor without penalty.",
 			"",
 			"*Drawback*  ",
 			"Slumbering armor's armor check penalty is increased by 1. This increase is applied after reductions for armor material and masterwork armor."

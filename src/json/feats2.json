@@ -489,7 +489,7 @@
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 115](source/pathfinder_unchained)",
 			">",
-			">When using the Cleave or Great Cleave feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
+			">When using the Cleave or [Great Cleave](feat/great_cleave) feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
 			"",
 			"### Mythic Cleave",
 			"",
@@ -514,7 +514,7 @@
 			"",
 			"You are ferocious at hewing smaller opponents.  ",
 			"**Prerequisites:** Str 13, [Cleave](feat/cleave), [Power Attack](feat/power_attack), base attack bonus +11, dwarf.  ",
-			"**Benefit:** When using Cleave or Great Cleave, if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.  ",
+			"**Benefit:** When using Cleave or [Great Cleave](feat/great_cleave), if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.  ",
 			"**Normal:** You may only make additional attacks with Cleave against creatures you threaten when you make your initial attack.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -608,7 +608,7 @@
 			"**Source** [Blood of Shadows pg. 24](source/blood_of_shadows)",
 			"",
 			"Your attacks effortlessly inflict debilitating conditions on unaware opponents.  ",
-			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), [Vital Strike](feat/vital_strike), Weapon Focus with the chosen weapon, base attack bonus +6.  ",
+			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), [Vital Strike](feat/vital_strike), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +6.  ",
 			"**Benefit:** Choose one light melee weapon. While using this style, whenever you use the attack action to attack an opponent during a surprise round with your chosen weapon, you can attempt a dirty trick combat maneuver check against that opponent as a free action. Additionally, if an adjacent target attempts to remove a condition that you inflicted upon it with the dirty trick combat maneuver, it provokes an attack of opportunity from you.  ",
 			"**Special:** In addition to the chosen weapon, a character with the weapon training class feature can use Cloak and Dagger Style with any light melee weapon belonging to any fighter weapon group he has selected with weapon training. A character with the swashbuckler weapon training class feature can use Cloak and Dagger Style with light and one-handed piercing weapons."
 		]
@@ -622,7 +622,7 @@
 			"**Source** [Blood of Shadows pg. 25](source/blood_of_shadows)",
 			"",
 			"Your increased martial skill allows you to take advantage of distracted foes to easily impose conditions, and even steal items without being noticed.  ",
-			"**Prerequisites:** Int 13, [Cloak and Dagger Style](feat/cloak_and_dagger_style), [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), Weapon Focus with the chosen weapon, base attack bonus +11.  ",
+			"**Prerequisites:** Int 13, [Cloak and Dagger Style](feat/cloak_and_dagger_style), [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +11.  ",
 			"**Benefit:** While you are using Cloak and Dagger Style and wielding your chosen weapon, whenever you make an attack of opportunity against a target, you can attempt a free dirty trick combat maneuver check against the target as a free action as well. Additionally, whenever you successfully perform a dirty trick maneuver against a target, you can immediately attempt a steal combat maneuver check against the target as a free action. If you succeed, the target is unaware you have stolen an item."
 		]
 	},
@@ -635,7 +635,7 @@
 			"**Source** [Blood of Shadows pg. 25](source/blood_of_shadows)",
 			"",
 			"You devastate enemies that you catch off-guard.  ",
-			"**Prerequisites:** Int 13, [Cloak and Dagger Style](feat/cloak_and_dagger_style), [Cloak and Dagger Subterfuge](feat/cloak_and_dagger_subterfuge), [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), [Vital Strike](feat/vital_strike), Weapon Focus with the chosen weapon, base attack bonus +16.  ",
+			"**Prerequisites:** Int 13, [Cloak and Dagger Style](feat/cloak_and_dagger_style), [Cloak and Dagger Subterfuge](feat/cloak_and_dagger_subterfuge), [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), [Vital Strike](feat/vital_strike), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +16.  ",
 			"**Benefit:** While you are using Cloak and Dagger Style and wielding your chosen weapon, whenever you hit an opponent that is denied its Dexterity bonus to AC or that you are flanking, or make an attack using Vital Strike (or its improved or greater versions), you can attempt a dirty trick combat maneuver check against that opponent as a free action. If you succeed, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Intelligence modifier) or take an additional penalty from the dirty trick selected from the following list: anchored in place and unable to move from that square, confused, exhausted, or staggered. This additional penalty lasts only 1 round, regardless of how long the dirty trick's normal penalty lasts, and can be removed by the target with a standard action. You can only attempt one free dirty trick combat maneuver check per round using this feat."
 		]
 	},
@@ -691,7 +691,7 @@
 			"**Source** [Ultimate Combat pg. 92](source/ultimate_combat)",
 			"",
 			"You are agile enough to avoid melee attacks while throwing weapons or bombs.  ",
-			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), Weapon Focus with selected thrown weapon.  ",
+			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), [Weapon Focus](feat/weapon_focus) with selected thrown weapon.  ",
 			"**Benefit:** Choose a type of thrown weapon. You do not provoke attacks of opportunity for making ranged attacks using the selected weapon. If you are an alchemist, and you select this feat and choose alchemist bombs, you do not provoke attacks of opportunity for the process of drawing components of, creating, and throwing a bomb.  ",
 			"**Normal:** Making a ranged attack provokes attacks of opportunity.",
 			"",
@@ -1146,7 +1146,7 @@
 			"",
 			"You employ ruthlessness and malice to command other races of goblinoids to do your bidding.  ",
 			"**Prerequisites:** Cha 13, hobgoblin.  ",
-			"**Benefit:** You receive a +5 competence bonus on Knowledge (local) checks and Charisma-based skill checks regarding other goblinoids. If you have the Leadership feat, treat your leadership score as 2 higher when taking followers or a cohort with the goblinoid subtype."
+			"**Benefit:** You receive a +5 competence bonus on Knowledge (local) checks and Charisma-based skill checks regarding other goblinoids. If you have the [Leadership](feat/leadership) feat, treat your leadership score as 2 higher when taking followers or a cohort with the goblinoid subtype."
 		]
 	},
 	"companion_figurine": {
@@ -1294,7 +1294,7 @@
 			"**Source** [Ranged Tactics Toolbox pg. 6](source/ranged_tactics_toolbox)",
 			"",
 			"You can limit the splatter of your splash weapons to increase damage against your target.  ",
-			"**Prerequisites:** Precise Shot or Throw Anything.  ",
+			"**Prerequisites:** [Precise Shot](feat/precise_shot) or [Throw Anything](feat/throw_anything).  ",
 			"**Benefit:** When you deal a direct hit to a creature with a splash weapon that normally also deals splash damage, you can choose to forgo dealing splash damage. If you do, the damage dealt to the target of the direct hit increases by 50%. This damage is multiplied on a critical hit.",
 			"",
 			"This feat cannot be used with an alchemist's bombs."
@@ -1934,7 +1934,7 @@
 			"**Source** [Advanced Class Guide pg. 144](source/advanced_class_guide)",
 			"",
 			"Your opponent's advanced training in moving around you is surpassed only by your readiness for it.  ",
-			"**Prerequisites:** [Anticipate Dodge](feat/anticipate_dodge), [Dodge](feat/dodge), Mobility; base attack bonus +9, brawler level 6th, or monk level 6th.  ",
+			"**Prerequisites:** [Anticipate Dodge](feat/anticipate_dodge), [Dodge](feat/dodge), [Mobility](feat/mobility); base attack bonus +9, brawler level 6th, or monk level 6th.  ",
 			"**Benefit:** Opponents with the Mobility feat do not gain the dodge bonus granted by that feat when they provoke attacks of opportunity by moving out of or within your threatened area.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -2487,7 +2487,7 @@
 			"**Source** [Occult Origins pg. 24](source/occult_origins)",
 			"",
 			"You turn the science of phrenology inward, driving needles and nails into your or another's brain to grant focus through the pathways of pain.  ",
-			"**Prerequisites:** Self-Sufficient or Trepanation, Heal 7 ranks.  ",
+			"**Prerequisites:** [Self-Sufficient](feat/self-sufficient) or [Trepanation](feat/trepanation), Heal 7 ranks.  ",
 			"**Benefit:** You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use phrenology one additional time per day.",
 			"",
 			"In addition, you can insert needles into a creature's brain to help center its thoughts and emotions. Doing so requires a successful Heal check (DC = 25 + the target's Hit Dice). Creatures with implanted needles gain a +1 bonus on saving throws against spells with the emotion or fear descriptor (or similar effects), but take a -1 penalty on saving throws against spells with the electricity or pain descriptors. Implanting needles deals 1d6 points of damage to the patient, which can't be healed by any means until the needles are removed (which requires a second successful Heal check at the same DC, or a restoration or regenerate spell).",
@@ -2710,7 +2710,7 @@
 			"",
 			"You are deadly when delivering your master's magic.  ",
 			"**Prerequisites:** Deliver touch spells ability, familiar.  ",
-			"**Benefit:** When delivering a touch spell for your master, the critical threat range of your touch attack is doubled. This feat does not stack with Improved Critical or other effects that increase critical threat range."
+			"**Benefit:** When delivering a touch spell for your master, the critical threat range of your touch attack is doubled. This feat does not stack with [Improved Critical](feat/improved_critical) or other effects that increase critical threat range."
 		]
 	},
 	"critical_focus": {
@@ -2890,7 +2890,7 @@
 			"**Source** [Ultimate Combat pg. 94](source/ultimate_combat)",
 			"",
 			"You learned to use your deity's favored weapon as part of your martial arts form.  ",
-			"**Prerequisites:** Channel energy class feature, flurry of blows class feature, Weapon Focus with your deity's favored melee weapon.  ",
+			"**Prerequisites:** Channel energy class feature, flurry of blows class feature, [Weapon Focus](feat/weapon_focus) with your deity's favored melee weapon.  ",
 			"**Benefit:** You can use your deity's favored weapon as if it were a monk weapon."
 		]
 	},
@@ -3256,7 +3256,7 @@
 			"",
 			"You know how to cut a foe deeply with humiliation.  ",
 			"**Prerequisites:** [Persuasive](feat/persuasive), Intimidate 5 ranks.  ",
-			"**Benefit:** When you successfully demoralize a target by using a verbal Intimidate check in a social situation (rather than an Intimidate check you can make via an ability such as Dazzling Display or Enforcer), you can instead humiliate the target, causing it to take a -2 penalty on Charisma-based skill checks and Charisma ability checks for 1 hour + 1 additional hour for every 5 by which the result of your check exceeds the DC. The target can remove the effect early by taking 10 minutes to compose herself. If you fail this check, any creature who witnessed the failure is immune to your humiliation from this feat for 24 hours. If you fail by 5 or more, you become humiliated for 1 hour instead of your target."
+			"**Benefit:** When you successfully demoralize a target by using a verbal Intimidate check in a social situation (rather than an Intimidate check you can make via an ability such as [Dazzling Display](feat/dazzling_display) or [Enforcer](feat/enforcer)), you can instead humiliate the target, causing it to take a -2 penalty on Charisma-based skill checks and Charisma ability checks for 1 hour + 1 additional hour for every 5 by which the result of your check exceeds the DC. The target can remove the effect early by taking 10 minutes to compose herself. If you fail this check, any creature who witnessed the failure is immune to your humiliation from this feat for 24 hours. If you fail by 5 or more, you become humiliated for 1 hour instead of your target."
 		]
 	},
 	"cypher_magic": {
@@ -3984,7 +3984,7 @@
 			"Even when facing a larger foe, you aren't afraid to take great risks in order to finish the fight.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +6.  ",
 			"**Benefit:** Against a creature of size Large or larger, you can make a single melee attack as a full-round action, gaining a +4 bonus on the attack roll, damage roll, and critical confirmation roll. You gain an additional +1 on this bonus at base attack bonus +11, +16, and +20 (for a maximum of +7 at base attack +20). After you resolve your attack, the opponent you attack can spend an immediate action to make a single melee attack against you with the same bonuses.  ",
-			"**Special:** You can combine the full-round action attack this feat allows with the benefit of Vital Strike, Improved Vital Strike, or Greater Vital Strike.",
+			"**Special:** You can combine the full-round action attack this feat allows with the benefit of [Vital Strike](feat/vital_strike), [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
@@ -4276,7 +4276,7 @@
 			"You deftly block attacks with your shield while moving through battle.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
 			"**Benefit:** You gain a +2 bonus to your AC against attacks of opportunity.  ",
-			"**Special:** Defended Movement counts as both Dodge and Mobility for the purposes of feats that have Dodge and Mobility as prerequisites.",
+			"**Special:** Defended Movement counts as both [Dodge](feat/dodge) and [Mobility](feat/mobility) for the purposes of feats that have Dodge and Mobility as prerequisites.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
@@ -4982,7 +4982,7 @@
 			"",
 			"Pitting all of your strength and resolve against your enemy, you deliver a strike that is impossible to ignore.  ",
 			"**Prerequisites:** [Vital Strike](feat/vital_strike), base attack bonus +9.  ",
-			"**Benefit:** Whenever you use Vital Strike, Improved Vital Strike, or Greater Vital Strike, you gain a +2 bonus on each extra weapon damage dice roll those feats grant (+6 maximum). This bonus damage is multiplied on a critical hit.",
+			"**Benefit:** Whenever you use Vital Strike, [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike), you gain a +2 bonus on each extra weapon damage dice roll those feats grant (+6 maximum). This bonus damage is multiplied on a critical hit.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 117](source/pathfinder_unchained)",
@@ -5051,9 +5051,9 @@
 			"**Source** [Planar Adventures pg. 27](source/planar_adventures)",
 			"",
 			"Your humiliating strikes decrease a foe's morale.  ",
-			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), Diabolic Style; Vital Strike; Improved Unarmed Strike or Weapon Focus (unarmed strike); base attack bonus +8 or monk level 7th.  ",
+			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), [Diabolic Style](feat/diabolic_style); [Vital Strike](feat/vital_strike); [Improved Unarmed Strike](feat/improved_unarmed_strike) or [Weapon Focus](feat/weapon_focus) (unarmed strike); base attack bonus +8 or monk level 7th.  ",
 			"**Benefit:** When you successfully stagger a foe with an unarmed strike using Diabolic Style, the target becomes further humiliated. The target cannot gain the benefit of any morale bonus for 1 minute after being staggered in this way, and for the duration of that minute, any additional staggered effects it suffers from your attacks of opportunity last for 2 rounds rather than 1. The durations of multiple staggered effects administered in this way stack.  ",
-			"**Special:** A monk of at least 10th level with this feat can select Improved Vital Strike as a monk bonus feat."
+			"**Special:** A monk of at least 10th level with this feat can select [Improved Vital Strike](feat/improved_vital_strike) as a monk bonus feat."
 		]
 	},
 	"diabolic_judgement": {
@@ -5065,9 +5065,9 @@
 			"**Source** [Planar Adventures pg. 27](source/planar_adventures)",
 			"",
 			"You punish your foes for every opportunity they present.  ",
-			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes); [Diabolic Humiliation](feat/diabolic_humiliation); [Diabolic Style](feat/diabolic_style); [Improved Vital Strike](feat/improved_vital_strike); [Vital Strike](feat/vital_strike); Improved Unarmed Strike or Weapon Focus (unarmed strike); base attack bonus +12 or monk level 11th.  ",
+			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes); [Diabolic Humiliation](feat/diabolic_humiliation); [Diabolic Style](feat/diabolic_style); [Improved Vital Strike](feat/improved_vital_strike); [Vital Strike](feat/vital_strike); [Improved Unarmed Strike](feat/improved_unarmed_strike) or [Weapon Focus](feat/weapon_focus) (unarmed strike); base attack bonus +12 or monk level 11th.  ",
 			"**Benefit:** While using Diabolic Style, the first time each round that you successfully hit with an attack of opportunity, you can apply the effects of any Vital Strike feat you have to that attack.  ",
-			"**Special:** A monk of at least 14th level with this feat can select Greater Vital Strike as a monk bonus feat."
+			"**Special:** A monk of at least 14th level with this feat can select [Greater Vital Strike](feat/greater_vital_strike) as a monk bonus feat."
 		]
 	},
 	"diabolic_style": {
@@ -5079,9 +5079,9 @@
 			"**Source** [Planar Adventures pg. 27](source/planar_adventures)",
 			"",
 			"You utilize combat as an opportunity to inflict humiliation upon those who provoke your attacks of opportunity.  ",
-			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes); Improved Unarmed Strike or Weapon Focus (unarmed strike); base attack bonus +2 or monk level 1st.  ",
+			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes); [Improved Unarmed Strike](feat/improved_unarmed_strike) or [Weapon Focus](feat/weapon_focus) (unarmed strike); base attack bonus +2 or monk level 1st.  ",
 			"**Benefit:** While using this style, you can make an attack of opportunity with an unarmed strike to deliver a humiliating swat to the target. If you hit the target, you inflict 1 point of nonlethal damage and the target must succeed at a Will saving throw (DC = 10 + half your level + your Charisma modifier) or become staggered for 1 round.  ",
-			"**Special:** A monk of at least 6th level with this feat can select Vital Strike as a monk bonus feat."
+			"**Special:** A monk of at least 6th level with this feat can select [Vital Strike](feat/vital_strike) as a monk bonus feat."
 		]
 	},
 	"diabolical_negotiator": {
@@ -5151,7 +5151,7 @@
 			"",
 			"What some would call dabbling you call a wide range of interests. Your breadth of knowledge offers unexpected insights in many situations.  ",
 			"**Prerequisites:** 2 ranks each in 5 different Knowledge skills.  ",
-			"**Benefit:** You gain a +2 bonus on Knowledge checks if you have 1-5 ranks in that skill. This bonus does not stack with Skill Focus. You can make untrained Knowledge checks with DCs up to 15.  ",
+			"**Benefit:** You gain a +2 bonus on Knowledge checks if you have 1-5 ranks in that skill. This bonus does not stack with [Skill Focus](feat/skill_focus). You can make untrained Knowledge checks with DCs up to 15.  ",
 			"**Normal:** You may only make untrained Knowledge checks for common knowledge (DC 10 or lower)."
 		]
 	},
@@ -5190,7 +5190,7 @@
 			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoner's_handbook)",
 			"",
 			"Your exposure to summoned creatures allows you to predict where conjured opponents will likely appear.  ",
-			"**Prerequisites:** Arcane Strike or Disruptive; [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); Spellcraft 8 ranks; arcane pool class feature.  ",
+			"**Prerequisites:** [Arcane Strike](feat/arcane_strike) or [Disruptive](feat/disruptive); [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); Spellcraft 8 ranks; arcane pool class feature.  ",
 			"**Benefit:** If a summoned or called creature materializes in a space you threaten, you can make an attack of opportunity against that creature before it acts, gaining a +2 circumstance bonus on the attack roll if you successfully identified the spell used to summon or call that creature.  ",
 			"**Normal:** A summoned or called creature appears instantly when the spell used to conjure it is completed, allowing for no attack of opportunity against the creature."
 		]
@@ -5218,7 +5218,7 @@
 			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)",
 			"",
 			"You've become so adept at combating summoned creatures that you can interrupt the magical energies that summon them to your plane.  ",
-			"**Prerequisites:** Arcane Strike or Disruptive; [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); [Dimensional Awareness](feat/dimensional_awareness); Spellcraft 8 ranks; arcane pool class feature.  ",
+			"**Prerequisites:** [Arcane Strike](feat/arcane_strike) or [Disruptive](feat/disruptive); [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); [Dimensional Awareness](feat/dimensional_awareness); Spellcraft 8 ranks; arcane pool class feature.  ",
 			"**Benefit:** When you use Dimensional Awareness to make an attack of opportunity against a creature being summoned or called into a square you threaten, you can additionally use an immediate action to attempt to send the creature back to its home plane. Attempt a Spellcraft check (DC = 15 + the creature's CR [minimum 1] + the spell level of the spell that summoned the creature). If you succeed, the creature does not get to act and is immediately sent back to its home plane.  ",
 			"**Normal:** A summoning or calling spell can be disrupted only by a failed concentration check or by countering the spell."
 		]
@@ -5338,7 +5338,7 @@
 			"",
 			"You can take advantage of a distracted foe.  ",
 			"**Benefit:** When you attempt a combat maneuver check against a foe you are flanking, you can forgo the +2 bonus on your attack roll for flanking to instead have the combat maneuver not provoke an attack of opportunity. If you have a feat or ability that allows you to attempt the combat maneuver without provoking an attack of opportunity, you can instead increase the bonus on your attack roll for flanking to +4 for the combat maneuver check.  ",
-			"**Special:** This feat counts as having Dex 13, Int 13, Combat Expertise, and Improved Unarmed Strike for the purposes of meeting the prerequisites of the various improved combat maneuver feats, as well as feats that require those improved combat maneuver feats as prerequisites."
+			"**Special:** This feat counts as having Dex 13, Int 13, [Combat Expertise](feat/combat_expertise), and [Improved Unarmed Strike](feat/improved_unarmed_strike) for the purposes of meeting the prerequisites of the various improved combat maneuver feats, as well as feats that require those improved combat maneuver feats as prerequisites."
 		]
 	},
 	"dirty_grapple": {
@@ -5468,7 +5468,7 @@
 			"",
 			"Your dedication to mastering Iomedae's favored weapon puts other to shame.  ",
 			"**Prerequisites:** [Weapon Focus (longsword)](feat/weapon_focus), cleric or inquisitor level 4th, worshiper of Iomedae.  ",
-			"**Benefit:** You gain the benefits of Weapon Specialization (longsword), and you can use your cleric or inquisitor level in place of your fighter level for the purpose of qualifying for Greater Weapon Focus (longsword) and Greater Weapon Specialization (longsword). You can use this feat instead of Weapon Specialization (longsword) to qualify for Greater Weapon Specialization (longsword)."
+			"**Benefit:** You gain the benefits of [Weapon Specialization](feat/weapon_specialization) (longsword), and you can use your cleric or inquisitor level in place of your fighter level for the purpose of qualifying for [Greater Weapon Focus](feat/greater_weapon_focus) (longsword) and [Greater Weapon Specialization](feat/greater_weapon_specialization) (longsword). You can use this feat instead of Weapon Specialization (longsword) to qualify for Greater Weapon Specialization (longsword)."
 		]
 	},
 	"disciplinary_devotee": {
@@ -5815,7 +5815,7 @@
 			"**Prerequisites:** Animal companion.  ",
 			"**Benefit:** The animal companion is trained to interfere with its opponent's concentration, making even rote tasks difficult. Increase the concentration check DC of spells and spell-like abilities that opponents cast while within the animal companion's reach by +2. Additionally, opponents can't take 10 on d20 rolls or checks while within the animal companion's reach. If an opponent has an ability that allows it to always take 10 on certain skill checks while distracted (such as the skill mastery advanced talent), it gains the benefit of such abilities only if its number of skill ranks is at least 4 higher than the animal companion's Hit Dice.",
 			"",
-			"In addition, the animal companion counts as a fighter with a number of class levels equal to its Hit Dice for the purposes of qualifying for the Disruptive feat, as well as for any feat that lists the Disruptive feat as a prerequisite. The animal companion also adds those feats to the list of animal feats that it can choose from when gaining a new feat."
+			"In addition, the animal companion counts as a fighter with a number of class levels equal to its Hit Dice for the purposes of qualifying for the [Disruptive](feat/disruptive) feat, as well as for any feat that lists the Disruptive feat as a prerequisite. The animal companion also adds those feats to the list of animal feats that it can choose from when gaining a new feat."
 		]
 	},
 	"disruptive_recall": {
@@ -6216,7 +6216,7 @@
 			"",
 			"Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within Wrath and Punishment, the most well-known fighting manual of the Church of Asmodeus, are as old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of Cheliax, copies of Wrath and Punishment tend to be found in Hellknight enclaves.  ",
 			"**Initial Benefit:** Whenever you threaten a critical hit with a light mace or heavy mace on a foe, that foe becomes sickened for 1 round. If you confirm the critical hit, the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with multiple critical threats.  ",
-			"**Advanced Prerequisites:** Int 13; Combat Expertise; Divine Fighting Technique; Improved Feint; base attack bonus +10 or Bluff 10 ranks.  ",
+			"**Advanced Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise); [Divine Fighting Technique](feat/divine_fighting_technique); [Improved Feint](feat/improved_feint); base attack bonus +10 or Bluff 10 ranks.  ",
 			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty trick combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",
 			"",
 			"### Calistria's Poisoned Lash",
@@ -6226,7 +6226,7 @@
 			"Calistria inspires creative ways to poison foes.  ",
 			"**Optional Replacement:** A chaotic neutral rogue or slayer who worships Calistria can replace one talent with the following initial benefit.  ",
 			"**Initial Benefit:** You can apply poison (your choice) to a whip as a move action. You do not risk poisoning yourself when applying poison to a whip. A whip you wield can deliver contact poison upon a successful combat maneuver check as well as upon a successful attack roll, regardless of whether you deal damage.  ",
-			"**Advanced Prerequisites:** Whip Mastery, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** [Whip Mastery](feat/whip_mastery), base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral rogue or slayer who worships Calistria can replace one advanced talent with the following advanced benefit even if she doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** You can apply poison to a whip as a swift action. You can apply up to 3 doses of the same poison to a whip at a time. Foes are exposed to only 1 dose of poison from any one attack.",
 			"",
@@ -6237,7 +6237,7 @@
 			"Cayden Cailean is famous for wading into battle with a tankard in his off hand.  ",
 			"**Optional Replacement:** A chaotic good fighter or swashbuckler who worships Cayden Cailean can replace proficiency with shields or bucklers with the following initial benefit.  ",
 			"**Initial Benefit:** You can wield a tankard (or mug) as a weapon, treating it in all ways as a light mace appropriate for your size. If you engage in two-weapon fighting with a rapier or light weapon in one hand and a tankard in the other, you can drink a potion or other liquid from the tankard or attempt to toss liquid from the tankard as a dirty trick combat maneuver (such as to blind a foe) in place of attacking with it. You do not provoke attacks of opportunity for attempting a dirty trick maneuver with a tankard.  ",
-			"**Advanced Prerequisites:** Two-Weapon Fighting, Improved Two-Weapon Fighting, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** [Two-Weapon Fighting](feat/two-weapon_fighting), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic good fighter or swashbuckler of at least 10th level who worships Cayden Cailean can replace a bonus feat or deed with the following advanced benefit, even if he doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** You can refill your tankard with a beverage, potion, or other liquid from a bottle or vial as a swift action. You gain a +2 bonus on combat maneuver checks to perform dirty tricks with tankards. The effects of such a dirty trick lasts for 1d4 rounds + 1 round for every 5 points by which the result of your combat maneuver check exceeds the target's CMD; a standard action is required for the target to remove this penalty.",
 			"",
@@ -6247,8 +6247,8 @@
 			"",
 			"Among the divine fighting manuals of the Inner Sea, few are as ancient as Clamor of the Spheres, a collection of fighting techniques favored by Desna's faithful. True to its name, the manual focuses on interpreting the chaos and sounds of combat, but nevertheless provides insightful and downright brilliant methods of defense with Desna's favored weapon, using techniques that treat a fight with a starknife more as a beautiful dance than a battle.  ",
 			"**Optional Replacement:** A chaotic good bard of at least 2nd level who worships Desna can replace a versatile performance with the following initial benefit.  ",
-			"**Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when wielding a starknife. If you do so, you don't modify attack rolls and damage rolls with your starknife with your Strength modifier, your Dexterity modifier (if you have Weapon Finesse), or any other ability score (if you have an ability that allows you to modify attack rolls and damage rolls with that ability score).  ",
-			"**Advanced Prerequisites:** Dex 17; Divine Fighting Technique; Point-Blank Shot; Rapid Shot; base attack bonus +11 or Sleight of Hand 11 ranks.  ",
+			"**Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when wielding a starknife. If you do so, you don't modify attack rolls and damage rolls with your starknife with your Strength modifier, your Dexterity modifier (if you have [Weapon Finesse](feat/weapon_finesse)), or any other ability score (if you have an ability that allows you to modify attack rolls and damage rolls with that ability score).  ",
+			"**Advanced Prerequisites:** Dex 17; [Divine Fighting Technique](feat/divine_fighting_technique); [Point-Blank Shot](feat/point-blank_shot); [Rapid Shot](feat/rapid_shot); base attack bonus +11 or Sleight of Hand 11 ranks.  ",
 			"**Optional Replacement:** A chaotic good bard of at least 10th level who worships Desna can replace a versatile performance with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** You can impart a powerful spin to a thrown starknife so that multiple blades strike the target rather than just a single blade of the four, dealing extra damage with the other blades. As a full-round action, you can make a single attack with a thrown starknife, rolling 1d4 to determine how many effective strikes you gain with the attack (if you roll a 1, then only one blade strikes). If the attack hits, all of the effective strikes damage the target. Apply precision-based damage (such as sneak attack damage) and critical hit damage only once for this attack. The damage bonus from your appropriate ability score modifier applies to each strike, as do other damage bonuses, such as a bard's inspire competence bonus. Damage reduction and resistances apply separately to each strike.",
 			"",
@@ -6259,7 +6259,7 @@
 			"Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk is a manual completely dedicated to archery. Lacking the folktales that the Parables are celebrated for, the Horns of the Elk instead focuses on covering a wide array of beginner and advanced archery tactics. A copy of the manual can be found virtually anywhere a shrine to Erastil exists.  ",
 			"**Optional Replacement:** A lawful good ranger who worships Erastil can choose Divine Fighting Technique as the bonus feat granted by his combat style if he chooses archery as his combat style.  ",
 			"**Initial Benefit:** As a standard action, you can fire a distracting shot from your longbow or shortbow; when you do, select one ally who is adjacent to the creature you are targeting with the distracting shot. If you hit the creature, the chosen ally gains a +2 bonus to her Armor Class against that creature. This bonus to her Armor Class lasts until the start of your next turn.  ",
-			"**Advanced Prerequisites:** Dex 17, Divine Fighting Technique, Point-Blank Shot, Precise Shot, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** Dex 17, Divine Fighting Technique, [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), base attack bonus +10.  ",
 			"**Optional Replacement:** A lawful good ranger who worships Erastil and has the Divine Fighting Technique feat can replace the bonus feat granted by his combat style at 10th level with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** When you fire a distracting shot at a creature and hit the creature, you grant a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies within 30 feet of the selected adjacent ally against attacks by the targeted creature.",
 			"",
@@ -6269,10 +6269,10 @@
 			"",
 			"Gorum teaches devastating greatsword techniques.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter who worships Gorum can replace a bonus feat or rage power with the following initial benefit.  ",
-			"**Initial Benefit:** If you have the Vital Strike feat, you can apply its effect to an attack you make with a greatsword at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
-			"**Advanced Prerequisites:** Str 13, Cleave, Power Attack, Vital Strike, base attack bonus +10.  ",
+			"**Initial Benefit:** If you have the [Vital Strike](feat/vital_strike) feat, you can apply its effect to an attack you make with a greatsword at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
+			"**Advanced Prerequisites:** Str 13, [Cleave](feat/cleave), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter of at least 10th level who worships Gorum can replace a bonus feat or rage power with the following advanced benefit, even if she doesn't meet the prerequisites.  ",
-			"**Advanced Benefit:** When you use Vital Strike, Improved Vital Strike, or Greater Vital Strike with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a concentration check to cast spells.",
+			"**Advanced Benefit:** When you use Vital Strike, [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike) with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a concentration check to cast spells.",
 			"",
 			"### Irori's Perfected Fist",
 			"",
@@ -6281,7 +6281,7 @@
 			"Practically synonymous with Irori and his faith, The Woven Fist is among the best known of all diving fighting manuals. Many learned monks were taught their first martial techniques using drills and regiments from this manual, which some claim was written by Irori's own hand before his ascension to divinity. Although most commonly found in temples to Irori and secluded monasteries, copies of The Woven Fist often make their way into less scrupulous hands because of their effectiveness.  ",
 			"**Optional Replacement:** A lawful neutral brawler or monk can replace a bonus feat with the following initial benefit.  ",
 			"**Initial Benefit:** You can take a -2 penalty on all attack rolls made with your unarmed strikes in order to deal the average amount of damage with each successful attack instead of rolling your weapon damage. For instance, if your unarmed strike would normally deal 1d4 points of weapon damage, you instead deal 2 points of weapon damage. Apply bonuses and modifiers to this result as if you had rolled your damage normally. You must choose to use this benefit before making an attack roll, and its effects last until your next turn. You do not average additional damage dice (such as those granted by a sneak attack) when using this ability.  ",
-			"**Advanced Prerequisites:** Critical Focus; Divine Fighting Technique; Weapon Focus (unarmed strike); base attack bonus +10 or monk level 10th.  ",
+			"**Advanced Prerequisites:** [Critical Focus](feat/critical_focus); Divine Fighting Technique; [Weapon Focus](feat/weapon_focus) (unarmed strike); base attack bonus +10 or monk level 10th.  ",
 			"**Optional Replacement:** A lawful neutral brawler or monk of at least 10th level who worships Irori and has the Divine Fighting Technique feat can replace a bonus feat with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** You no longer take a -2 penalty on attack rolls with your unarmed strikes when you choose to deal the average amount of damage. If you critically hit a creature when using this ability, you automatically inflict maximum weapon damage for that critical hit (although you must still roll sneak attack dice or any other dice-based additional damage).",
 			"",
@@ -6291,7 +6291,7 @@
 			"",
 			"One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that depicts the fighting styles favored by the followers of Lamashtu, the Mother of Monsters. In addition to detailing many of the more gruesome rites favored by the Demon Queen, Fecundity of Corpses includes hundreds of techniques recorded in blood by cultists of Lamashtu from across the Inner Sea region. Though no standardized edition of this manual exists because of the cult's discordant hierarchy, each tome manages to perfectly capture similar techniques for sowing fear and blood in Lamashtu's name.  ",
 			"**Initial Benefit:** As a standard action, you can make a single attack with a falchion or a kukri in order to deal bleed damage to the target. When you make this attack, you do not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit point damage dealt by your attack-instead, add an amount of bleed damage equal to this modifier. The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing. Bleed damage from this benefit doesn't stack with itself.  ",
-			"**Advanced Prerequisites:** Str 13, Dazing Assault, Divine Fighting Technique, Power Attack.  ",
+			"**Advanced Prerequisites:** Str 13, Dazing Assault, Divine Fighting Technique, [Power Attack](feat/power_attack).  ",
 			"**Advanced Benefit:** Whenever you hit a bleeding creature with a melee attack using a falchion or a kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attack bonus) or become staggered for 1 round. Multiple attacks do not cause this condition to stack, and a creature that successfully saves against this staggering effect is immune to this effect for 1 round.",
 			"",
 			"### Rovagug's Thunder",
@@ -6300,7 +6300,7 @@
 			"",
 			"Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast Rovagug, are scrawled in blood upon flensed skins by orc priests-and indeed the vile techniques described within originated from the Hold of Belkzen not long after the orcs first seized that land as their own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish despoiling beauty in Rovagug's name.  ",
 			"**Initial Benefit:** Whenever you succeed at a dirty trick combat maneuver check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1 minute) or until the target receives any form of magical healing.  ",
-			"**Advanced Prerequisites:** Power Attack, Divine Fighting Technique, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** [Power Attack](feat/power_attack), Divine Fighting Technique, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic evil barbarian of at least 10th level who worships Rovagug can replace a rage power with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** Anytime you use Power Attack with a great axe or a natural attack, you ignore an amount of the target's hardness or damage reduction equal to the penalty Power Attack imparts to your attack roll. This benefit stacks with Penetrating Strike and Greater Penetrating Strike.",
 			"",
@@ -6310,7 +6310,7 @@
 			"",
 			"Although the Dawnflower is the goddess of healing and redemption, she is not a goddess of peace, and her followers are taught that combat may be the only way to ensure the safety of those who look to the faith for protection. In such situations, the faithful of Sarenrae are expected to end combat swiftly and efficiently, to avoid drawing out the pain and agony of battle. When one can end a battle without resorting to killing, the opportunity for redemption of the defeated foe still remains. The pages of Dawnflower's Mercies teach methods by which those who serve Sarenrae as soldiers can vanquish enemies in combat without killing them, and encourage those who follow the teachings held within to offer those they take prisoner the chance to be welcomed into Sarenrae's arms.  ",
 			"**Initial Benefit:** You take no penalty on attack rolls for using a scimitar to deal nonlethal damage. If your attack with the scimitar would normally deal additional damage (such as via sneak attack, the flaming weapon special ability, or the like), this additional damage can be nonlethal damage. You can also alter spells with the fire, good, or light descriptor and inflict spells so that the damage they deal is nonlethal damage instead. You can choose to apply this effect as the spell is cast.  ",
-			"**Advanced Prerequisites:** Great Fortitude, Weapon Focus (scimitar), Heal 10 ranks.  ",
+			"**Advanced Prerequisites:** [Great Fortitude](feat/great_fortitude), [Weapon Focus](feat/weapon_focus) (scimitar), Heal 10 ranks.  ",
 			"**Advanced Benefit:** Once per round as you strike a foe with a weapon and deal nonlethal damage with that attack, you regain 1d6 hit points as the warmth of Sarenrae's approval and the conviction that you are doing the right thing to minimize suffering infuses your body and soul. If the attack that dealt nonlethal damage was from a scimitar, you instead regain 2d6 hit points. You can gain the benefit of this healing only once per round, regardless of how many successful attacks you make with the weapon.",
 			"",
 			"### Torag's Patient Strikes",
@@ -6318,9 +6318,9 @@
 			"**Source** [Divine Anthology pg. 31](source/divine_anthology)",
 			"",
 			"Copies of Lessons of the Father, the divine fighting manual of Torag, are somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons of the Father must be scribed by hand in Dwarven on iron sheets and bound between slabs of stone hand-carved by a cleric of Torag. As a result, these tomes are somewhat cumbersome to transport (even the smallest copy of the book weighs 50 pounds, and most exceed 100 pounds in weight). Those who have mastered the Lessons of the Father are highly respected within the faith.  ",
-			"**Initial Benefit:** Whenever you wield a warhammer, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by Combat Reflexes, but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're flat-footed.  ",
-			"**Advanced Prerequisites:** Divine Fighting Technique, Vital Strike, Weapon Focus (warhammer), base attack bonus +10.  ",
-			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the Improved Vital Strike or Greater Vital Strike feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or trip combat maneuver check against the target as a free action-this combat maneuver does not provoke an attack of opportunity.",
+			"**Initial Benefit:** Whenever you wield a warhammer, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by [Combat Reflexes](feat/combat_reflexes), but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're flat-footed.  ",
+			"**Advanced Prerequisites:** Divine Fighting Technique, [Vital Strike](feat/vital_strike), [Weapon Focus](feat/weapon_focus) (warhammer), base attack bonus +10.  ",
+			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the [Improved Vital Strike](feat/improved_vital_strike) or [Greater Vital Strike](feat/greater_vital_strike) feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or trip combat maneuver check against the target as a free action-this combat maneuver does not provoke an attack of opportunity.",
 			"",
 			"### Urgathoa's Hunger",
 			"",
@@ -6769,7 +6769,7 @@
 			"",
 			"The scions with the power of the elementally attuned primal dragons are not often subtle in appearance. They tend towards hardy builds and skin tones that take on shimmering, iridescent hues in direct light. Additionally, they often experience tempestuous emotions that are difficult to control.",
 			"",
-			"Draconic Heritage: Choose acid, cold, electricity, or fire when you take this feat; once made, this choice cannot be changed. As a standard action, you can create a 10-footradius aura of elemental energy that lasts for 1 round. The area of this aura is considered difficult terrain, and creatures that end their turns in your aura take 1d6 points of energy damage of the appropriate type. A successful Fortitude save halves this damage but does not negate the difficult terrain effect. You can create an aura of elemental energy once per day for every 4 characters levels you have (minimum 1).  ",
+			"Draconic Heritage: Choose acid, cold, electricity, or fire when you take this feat; once made, this choice cannot be changed. As a standard action, you can create a 10-foot-radius aura of elemental energy that lasts for 1 round. The area of this aura is considered difficult terrain, and creatures that end their turns in your aura take 1d6 points of energy damage of the appropriate type. A successful Fortitude save halves this damage but does not negate the difficult terrain effect. You can create an aura of elemental energy once per day for every 4 characters levels you have (minimum 1).  ",
 			"**Special:** If you are a druid, hunter, or kineticist, you can create an elemental aura a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"### Lesser Dragons",

@@ -318,7 +318,7 @@
 			"",
 			"You channel all of your rage into one massive blow to crush your enemy.  ",
 			"**Prerequisites:** Rage class feature, [Vital Strike](feat/vital_strike), base attack bonus +6.  ",
-			"**Benefit:** While raging, when you use the Vital Strike feat, you can choose not to roll your damage dice and instead deal damage equal to the maximum roll possible on those damage dice. If you do, your rage immediately ends, and you are fatigued (even if you would not normally be)."
+			"**Benefit:** While raging, when you use the [Vital Strike](feat/vital_strike) feat, you can choose not to roll your damage dice and instead deal damage equal to the maximum roll possible on those damage dice. If you do, your rage immediately ends, and you are fatigued (even if you would not normally be)."
 		]
 	},
 	"furious_focus": {
@@ -335,12 +335,12 @@
 			"",
 			"Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +1.  ",
-			"**Benefit:** When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the Power Attack feat, you do not suffer Power Attack's penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.",
+			"**Benefit:** When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the [Power Attack](feat/power_attack) feat, you do not suffer Power Attack's penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 120](source/pathfinder_unchained)",
 			">",
-			">When using the Power Attack feat and wielding a two-handed melee weapon or a onehanded melee weapon with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the beginning of your next turn.",
+			">When using the Power Attack feat and wielding a two-handed melee weapon or a one-handed melee weapon with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the beginning of your next turn.",
 			"",
 			"### Mythic Furious Focus",
 			"",
@@ -372,7 +372,7 @@
 			"",
 			"**Source** [Blood of Fiends pg. 25](source/blood_of_fiends)",
 			"",
-			"The unstoppable anger you feel toward do-gooders and selfproclaimed saints makes you a force to be reckoned with.  ",
+			"The unstoppable anger you feel toward do-gooders and self-proclaimed saints makes you a force to be reckoned with.  ",
 			"**Prerequisites:** Cha 13, rage class feature, tiefling.  ",
 			"**Benefit:** While raging, you gain a +4 competence bonus on saving throws made against spells and effects with the good descriptor."
 		]
@@ -449,7 +449,7 @@
 			"You've learned to defend yourself against spell and storm with dazzling flourishes of your weapon.  ",
 			"**Prerequisites:** [Alertness](feat/alertness), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +4.  ",
 			"**Prerequisites:** [Alertness](feat/alertness), base attack bonus +4.  ",
-			"**Benefit:** Whenever you use Combat Expertise, fight defensively, or take the total defense action, choose a type of saving throw. (You can choose a different type each time you take such an action.) Once per round before attempting a saving throw using the selected save, you gain a +2 bonus on that save. If you have a base attack bonus of +11 or higher, this bonus increases to +3. If you have a base attack bonus of +16 or higher, the bonus instead increases to +4."
+			"**Benefit:** Whenever you use [Combat Expertise](feat/combat_expertise), fight defensively, or take the total defense action, choose a type of saving throw. (You can choose a different type each time you take such an action.) Once per round before attempting a saving throw using the selected save, you gain a +2 bonus on that save. If you have a base attack bonus of +11 or higher, this bonus increases to +3. If you have a base attack bonus of +16 or higher, the bonus instead increases to +4."
 		]
 	},
 	"gate_breaker": {
@@ -678,7 +678,7 @@
 			"",
 			"When you strike hard, you knock smaller foes off their feet.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), base attack bonus +6, giant subtype.  ",
-			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both Power Attack and Vital Strike, the creature that you attacked is also knocked prone. A successful Reflex save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
+			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both [Power Attack](feat/power_attack) and [Vital Strike](feat/vital_strike), the creature that you attacked is also knocked prone. A successful Reflex save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
 			"**Special:** This effect stacks with the effect of Giant's Wallop."
 		]
 	},
@@ -705,7 +705,7 @@
 			"",
 			"When you strike, you knock the sense out of smaller foes.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), base attack bonus +6, giant subtype.  ",
-			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both Power Attack and Vital Strike, the creature you attacked is also dazed for 1 round. A successful Fortitude save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
+			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both [Power Attack](feat/power_attack) and [Vital Strike](feat/vital_strike), the creature you attacked is also dazed for 1 round. A successful Fortitude save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
 			"**Special:** This effect stacks with the effect of Giant's Crush."
 		]
 	},
@@ -863,7 +863,7 @@
 			"**Source** [Monster Codex pg. 152](source/monster_codex)",
 			"",
 			"Some ogres are able to quickly choke down even the largest of meals so they can get on with other business.  ",
-			"**Prerequisites:** Both Improved Unarmed Strike and Improved Grapple or the grab ability, ogre, size Large or larger.  ",
+			"**Prerequisites:** Both [Improved Unarmed Strike](feat/improved_unarmed_strike) and [Improved Grapple](feat/improved_grapple) or the grab ability, ogre, size Large or larger.  ",
 			"**Benefit:** If you start your turn grappling another creature at least two size categories smaller than you, you can put the grappled creature in your mouth as a move action and attempt another grapple combat maneuver check (as though attempting to pin the opponent). If you succeed, you swallow the opponent as if you had the swallow whole special ability."
 		]
 	},
@@ -1102,7 +1102,7 @@
 			"",
 			"By drawing upon wells of savagery, you can slay your foe in creative and horrifyingly gruesome manners, intimidating nearby foes.  ",
 			"**Prerequisites:** [Dazzling Display](feat/dazzling_display), [Weapon Focus](feat/weapon_focus).  ",
-			"**Benefit:** When you use the attack action, you can use a weapon with which you have Weapon Focus to make a single attack at your highest base attack bonus. If you reduce your target to negative hit points, you can spend a swift action to make an Intimidate check to demoralize all foes within 30 feet who could see your attack.",
+			"**Benefit:** When you use the attack action, you can use a weapon with which you have [Weapon Focus](feat/weapon_focus) to make a single attack at your highest base attack bonus. If you reduce your target to negative hit points, you can spend a swift action to make an Intimidate check to demoralize all foes within 30 feet who could see your attack.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 120](source/pathfinder_unchained)",
@@ -1157,7 +1157,7 @@
 			"**Source** [Advanced Class Guide pg. 148](source/advanced_class_guide)",
 			"",
 			"You can move easily with a grappled enemy in tow.  ",
-			"**Prerequisites:** [Grabbing Style](feat/grabbing_style), Improved Grapple; base attack bonus +8, brawler level 4th, or monk level 4th.  ",
+			"**Prerequisites:** [Grabbing Style](feat/grabbing_style), [Improved Grapple](feat/improved_grapple); base attack bonus +8, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** When you are using Grabbing Style, if you use the move grapple action, you can move both yourself and a single target that you're grappling your full speed instead of half your speed. After you have done so, you can use a move action to move yourself and the target of your grapple half your speed without needing to attempt an additional combat maneuver check. You cannot use this feat if you are grappling two targets.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1178,7 +1178,7 @@
 			"**Source** [Advanced Class Guide pg. 148](source/advanced_class_guide)",
 			"",
 			"You can grapple two foes as easily as one.  ",
-			"**Prerequisites:** [Grabbing Drag](feat/grabbing_drag), [Grabbing Style](feat/grabbing_style), Improved Grapple; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
+			"**Prerequisites:** [Grabbing Drag](feat/grabbing_drag), [Grabbing Style](feat/grabbing_style), [Improved Grapple](feat/improved_grapple); base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** When you are grabbing two opponents while using Grabbing Style, you can use your grapple to move or damage one or both opponents you are grappling, instead of just one.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1199,7 +1199,7 @@
 			"**Source** [Advanced Class Guide pg. 148](source/advanced_class_guide)",
 			"",
 			"You are adept at the one-handed grab.  ",
-			"**Prerequisites:** Improved Grapple; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
+			"**Prerequisites:** [Improved Grapple](feat/improved_grapple); base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.  ",
 			"**Benefit:** When you use this style, you do not take a -4 penalty on combat maneuver checks to grapple a foe with only one hand. Additionally, you do not lose your Dexterity bonus to AC while pinning an opponent.  ",
 			"**Normal:** Without two hands free, you take a -4 penalty on the combat maneuver roll to grapple a foe. While pinning a foe, you lose your Dexterity bonus to AC.",
 			"",
@@ -1299,7 +1299,7 @@
 			"",
 			"You have trained to cast spells while wrestling an opponent.  ",
 			"**Prerequisites:** [Combat Casting](feat/combat_casting).  ",
-			"**Benefit:** You gain a +4 bonus on concentration checks to cast spells while grappled. This bonus stacks with the bonus granted by Combat Casting."
+			"**Benefit:** You gain a +4 bonus on concentration checks to cast spells while grappled. This bonus stacks with the bonus granted by [Combat Casting](feat/combat_casting)."
 		]
 	},
 	"grasping_strike": {
@@ -1314,8 +1314,8 @@
 			"**Source** [Advanced Class Guide pg. 148](source/advanced_class_guide)",
 			"",
 			"The surrounding foliage lurches forth at your enemies in concert with your strikes.  ",
-			"**Prerequisites:** Nature Magic or the ability to cast druid or ranger spells; Vital Strike, Knowledge (nature) 5 ranks.  ",
-			"**Benefit:** When you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), you cause the foliage in the area to reach out and entangle your foe (as the condition) if it fails a Reflex save (DC = 10 + 1/2 your character level + your Wisdom modifier). The effect lasts for 1 minute or until the enemy breaks free with a successful Strength check or an Escape Artist check (DC = the effect's saving throw DC), whichever comes first.",
+			"**Prerequisites:** Nature Magic or the ability to cast druid or ranger spells; [Vital Strike](feat/vital_strike), Knowledge (nature) 5 ranks.  ",
+			"**Benefit:** When you use Vital Strike (or [Improved Vital Strike](feat/improved_vital_strike) or [Greater Vital Strike](feat/greater_vital_strike)), you cause the foliage in the area to reach out and entangle your foe (as the condition) if it fails a Reflex save (DC = 10 + 1/2 your character level + your Wisdom modifier). The effect lasts for 1 minute or until the enemy breaks free with a successful Strength check or an Escape Artist check (DC = the effect's saving throw DC), whichever comes first.",
 			"",
 			"You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1). You can choose to use this ability as a free action after you hit the enemy with the attack. This is a supernatural ability.",
 			"",
@@ -1352,7 +1352,7 @@
 			"",
 			"You use unusual gravities to adjust your vital strikes.  ",
 			"**Prerequisites:** [Vital Strike](feat/vital_strike); Heavy Gravity Acclimation or Light Gravity Acclimation.  ",
-			"**Benefit:** When using any Vital Strike feat in an area of light or heavy gravity, roll the weapon's damage dice for the attack one additional time. For example, if using Improved Vital Strike, you would roll the weapon's damage dice for the attack four times before adding other damage bonuses, instead of three times. You must have the appropriate prerequisite feat associated with the plane's gravity trait to gain this benefit."
+			"**Benefit:** When using any [Vital Strike](feat/vital_strike) feat in an area of light or heavy gravity, roll the weapon's damage dice for the attack one additional time. For example, if using [Improved Vital Strike](feat/improved_vital_strike), you would roll the weapon's damage dice for the attack four times before adding other damage bonuses, instead of three times. You must have the appropriate prerequisite feat associated with the plane's gravity trait to gain this benefit."
 		]
 	},
 	"gray_dwarf_magic": {
@@ -1611,7 +1611,7 @@
 			"",
 			"Your bull rush attacks throw enemies off balance.  ",
 			"**Prerequisites:** [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), base attack bonus +6, Str 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
+			"**Benefit:** You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by [Improved Bull Rush](feat/improved_bull_rush). Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
 			"**Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1700,7 +1700,7 @@
 			"",
 			"When you pull a dirty trick, your foe is truly hindered.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), base attack bonus +6.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to attempt a dirty trick. This bonus stacks with the bonus granted by Improved Dirty Trick. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to attempt a dirty trick. This bonus stacks with the bonus granted by [Improved Dirty Trick](feat/improved_dirty_trick). Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.  ",
 			"**Normal:** The condition imposed by a dirty trick lasts for 1 round plus 1 round for every 5 by which your attack exceeds the target's CMD. Removing the condition requires the target to spend a move action.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1854,7 +1854,7 @@
 			"",
 			"Maintaining a grapple is second nature to you.  ",
 			"**Prerequisites:** [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +6, Dex 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to grapple a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to grapple a foe. This bonus stacks with the bonus granted by [Improved Grapple](feat/improved_grapple). Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.  ",
 			"**Normal:** Maintaining a grapple is a standard action.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1948,7 +1948,7 @@
 			"",
 			"Enemies must dive to avoid your dangerous move.  ",
 			"**Prerequisites:** [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), base attack bonus +6, Str 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you overrun opponents, they provoke attacks of opportunity if they are knocked prone by your overrun.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by [Improved Overrun](feat/improved_overrun). Whenever you overrun opponents, they provoke attacks of opportunity if they are knocked prone by your overrun.  ",
 			"**Normal:** Creatures knocked prone by your overrun do not provoke an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -1970,7 +1970,7 @@
 			"",
 			"Your attacks penetrate the defenses of most foes.  ",
 			"**Prerequisites:** [Penetrating Strike](feat/penetrating_strike), [Weapon Focus](feat/weapon_focus), 16th-level fighter.  ",
-			"**Benefit:** Your attacks with weapons selected with Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-).",
+			"**Benefit:** Your attacks with weapons selected with [Weapon Focus](feat/weapon_focus) ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 121](source/pathfinder_unchained)",
@@ -2058,7 +2058,7 @@
 			"",
 			"When you reposition foes, they are left vulnerable to the attacks of your allies.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Reposition](feat/improved_reposition), base attack bonus +6.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to reposition a foe. This bonus stacks with the bonus granted by Improved Reposition. Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
+			"**Benefit:** You receive a +2 bonus on checks made to reposition a foe. This bonus stacks with the bonus granted by [Improved Reposition](feat/improved_reposition). Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
 			"**Normal:** Creatures moved by reposition do not provoke attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -2178,7 +2178,7 @@
 			"",
 			"**Source** [PRPG Core Rulebook pg. 125](source/prpg_core_rulebook)",
 			"",
-			"Choose a school of magic to which you have already applied the Spell Focus feat. Any spells you cast of this school are very hard to resist.  ",
+			"Choose a school of magic to which you have already applied the [Spell Focus](feat/spell_focus) feat. Any spells you cast of this school are very hard to resist.  ",
 			"**Prerequisites:** [Spell Focus](feat/spell_focus).  ",
 			"**Benefit:** Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school to which you already have applied the Spell Focus feat."
@@ -2435,7 +2435,7 @@
 			"**Source** [Advanced Class Guide pg. 149](source/advanced_class_guide)",
 			"",
 			"Your deity guides your hand when you fight with her favored weapon.  ",
-			"**Prerequisites:** [Improved Weapon of the Chosen](feat/improved_weapon_of_the_chosen), Weapon Focus with deity's favored weapon, [Weapon of the Chosen](feat/weapon_of_the_chosen), worship and receive spells from a deity.  ",
+			"**Prerequisites:** [Improved Weapon of the Chosen](feat/improved_weapon_of_the_chosen), [Weapon Focus](feat/weapon_focus) with deity's favored weapon, [Weapon of the Chosen](feat/weapon_of_the_chosen), worship and receive spells from a deity.  ",
 			"**Benefit:** When you use your deity's favored weapon to attempt a single attack with the attack action, you roll two dice for your attack roll and take the higher result. You do not need to use your Weapon of the Chosen feat to gain this feat's benefit. As usual, the reroll does not apply to any confirmation rolls.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -2469,7 +2469,7 @@
 			"**Source** [PRPG Core Rulebook pg. 126](source/prpg_core_rulebook)",
 			"",
 			"Choose one type of weapon (including unarmed strike or grapple) for which you possess the Weapon Specialization feat. Your attacks with the chosen weapon are more devastating than normal.  ",
-			"**Prerequisites:** Proficiency with selected weapon, Greater Weapon Focus with selected weapon, Weapon Focus with selected weapon, Weapon Specialization with selected weapon, 12th-level fighter.  ",
+			"**Prerequisites:** Proficiency with selected weapon, [Greater Weapon Focus](feat/greater_weapon_focus) with selected weapon, [Weapon Focus](feat/weapon_focus) with selected weapon, [Weapon Specialization](feat/weapon_specialization) with selected weapon, 12th-level fighter.  ",
 			"**Benefit:** You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.  ",
 			"**Special:** You can gain Greater Weapon Specialization multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
 			"",
@@ -2500,7 +2500,7 @@
 			"",
 			"**Free Hands:** You take no penalty on your combat maneuver check for having fewer than two hands free when you use your whip to grapple.",
 			"",
-			"**Reach:** Rather than pulling your grappled opponent adjacent to you when you successfully grapple and when you move the grapple, you must keep him within your whip's reach minus his own reach to maintain the grapple. If the difference in reach is less than 0, such as is the case for a Medium whip wielder and a Gargantuan creature, you cannot grapple that opponent with your whip. If you have to pull a creature adjacent to you to grapple it with your whip, you still provoke an attack of opportunity from that opponent unless you have the Improved Grapple feat.",
+			"**Reach:** Rather than pulling your grappled opponent adjacent to you when you successfully grapple and when you move the grapple, you must keep him within your whip's reach minus his own reach to maintain the grapple. If the difference in reach is less than 0, such as is the case for a Medium whip wielder and a Gargantuan creature, you cannot grapple that opponent with your whip. If you have to pull a creature adjacent to you to grapple it with your whip, you still provoke an attack of opportunity from that opponent unless you have the [Improved Grapple](feat/improved_grapple) feat.",
 			"",
 			"**Tie Up:** While adjacent to your opponent, you can attempt to use your whip to tie him up. If you do so to an opponent you have grappled rather than pinned, you take only a -5 penalty on the combat maneuver check rather than the normal -10.",
 			"",
@@ -2811,8 +2811,8 @@
 			"",
 			"Your raised shield protects you as you charge forward.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
-			"**Benefit:** When performing a bull rush or overrun combat maneuver as part of a charge, you don't provoke an attack of opportunity for that maneuver. If you already have the improved Bull Rush or Improved Overrun feats, you gain an additional +2 bonus on your combat maneuver check when attempting the respective maneuver.  ",
-			"**Special:** This feat counts as having a Strength score of 13 and Power Attack for the purposes of meeting the prerequisites of Improved Bull Rush and Improved Overrun, and for feats that require either of those two feats as prerequisites."
+			"**Benefit:** When performing a bull rush or overrun combat maneuver as part of a charge, you don't provoke an attack of opportunity for that maneuver. If you already have the [Improved Bull Rush](feat/improved_bull_rush) or [Improved Overrun](feat/improved_overrun) feats, you gain an additional +2 bonus on your combat maneuver check when attempting the respective maneuver.  ",
+			"**Special:** This feat counts as having a Strength score of 13 and [Power Attack](feat/power_attack) for the purposes of meeting the prerequisites of Improved Bull Rush and Improved Overrun, and for feats that require either of those two feats as prerequisites."
 		]
 	},
 	"guardian_of_the_wild": {
@@ -2901,7 +2901,7 @@
 			"**Source** [Heroes of the Streets pg. 29](source/heroes_of_the_streets)",
 			"",
 			"Not only are you associated with a powerful thieves' guild or similar shadowy group, you are well-enough connected to gain benefits when dealing with the underworld in any settlement.  ",
-			"**Prerequisites:** Leadership or Underworld Connections (see below).  ",
+			"**Prerequisites:** [Leadership](feat/leadership) or [Underworld Connections](feat/underworld_connections) (see below).  ",
 			"**Benefit:** You can attempt a special character level check (1d20 + your Charisma modifier + your character level) in place of a Diplomacy check when attempting to gather information. You can ask local contacts to find information for you. While this still takes the normal amount of time (typically 1d4 hours), you can gather information about multiple topics at once (up to a maximum number of topics equal to 3 + your Charisma bonus).",
 			"",
 			"Additionally, when you are in a settlement no smaller than a small city and are seeking a magic item with a value equal to or less than the city's base value and the item is not available, you can check again after 1 day (rather than 1 week).",
@@ -2919,9 +2919,9 @@
 			"",
 			"You can spin and juggle a small firearm, making it difficult to predict where you will shoot.  ",
 			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, [Dazzling Display](feat/dazzling_display), [Weapon Focus](feat/weapon_focus).  ",
-			"**Benefit:** You can spend 1 grit point to make a feint attempt using a one-handed firearm for which you have Weapon Focus (instead of a melee weapon). The target of this feint must be within 30 feet of you and be able to see you.",
+			"**Benefit:** You can spend 1 grit point to make a feint attempt using a one-handed firearm for which you have [Weapon Focus](feat/weapon_focus) (instead of a melee weapon). The target of this feint must be within 30 feet of you and be able to see you.",
 			"",
-			"If you have the Quick Draw feat, you can holster a onehanded firearm as a free action as long as you have at least 1 grit point."
+			"If you have the Quick Draw feat, you can holster a one-handed firearm as a free action as long as you have at least 1 grit point."
 		]
 	},
 	"gunsmithing": {
@@ -3078,7 +3078,7 @@
 			"",
 			"Your possessed hand can act independently.  ",
 			"**Prerequisites:** [Possessed Hand](feat/possessed_hand).  ",
-			"**Benefit:** You reduce the penalties for fighting with two weapons (including fighting with double weapons or when throwing weapons from each hand) by 2, to a minimum penalty of -1. This benefit stacks with the Two-Weapon Fighting feat. When you are unconscious, paralyzed, asleep, or stunned, your possessed hand can still act on your behalf in a limited fashion. The hand uses your statistics when performing any action in this manner. The hand can't take attacks of opportunity, but can draw attacks of opportunity from actions it takes. The hand can perform the following actions each turn on your initiative count.",
+			"**Benefit:** You reduce the penalties for fighting with two weapons (including fighting with double weapons or when throwing weapons from each hand) by 2, to a minimum penalty of -1. This benefit stacks with the [Two-Weapon Fighting](feat/two-weapon_fighting) feat. When you are unconscious, paralyzed, asleep, or stunned, your possessed hand can still act on your behalf in a limited fashion. The hand uses your statistics when performing any action in this manner. The hand can't take attacks of opportunity, but can draw attacks of opportunity from actions it takes. The hand can perform the following actions each turn on your initiative count.",
 			"",
 			"- The hand can retrieve or pick up an item or weapon as a standard action.",
 			"- The hand can attempt any of the following skill checks at a -4 penalty: Disable Device, Escape Artist, Heal, Sleight of Hand, or Use Magic Device.",
@@ -3497,7 +3497,7 @@
 			"**Source** [Planar Adventures pg. 29](source/planar_adventures)",
 			"",
 			"Your muscles work overtime in areas with heavy gravity.  ",
-			"**Prerequisites:** Str 17 or Endurance.  ",
+			"**Prerequisites:** Str 17 or [Endurance](feat/endurance).  ",
 			"**Benefit:** You do not take the normal penalties for being on heavy gravity planes. At the GM's discretion, this effect may apply to certain environments on the Material Plane, such as high-gravity planets. In addition, your Strength is considered to be 4 higher for the purpose of determining your carrying capacity."
 		]
 	},
@@ -4042,7 +4042,7 @@
 			"You can defend yourself using the horn or tusk of a creature you're lashed to.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You gain a +1 shield bonus to AC when lashed into a horn harness.  ",
-			"**Special:** A creature with this feat can take the Mounted Archery feat without possessing 1 rank in the Ride skill or the Mounted Combat feat."
+			"**Special:** A creature with this feat can take the Mounted Archery feat without possessing 1 rank in the Ride skill or the [Mounted Combat](feat/mounted_combat) feat."
 		]
 	},
 	"horn_rider's_charge": {
@@ -4385,7 +4385,7 @@
 			"**Source** [Ultimate Combat pg. 105](source/ultimate_combat)",
 			"",
 			"Your critical hits can skewer your foes.  ",
-			"**Prerequisites:** [Critical Focus](feat/critical_focus), Weapon Specialization with selected piercing melee weapon, base attack bonus +11.  ",
+			"**Prerequisites:** [Critical Focus](feat/critical_focus), [Weapon Specialization](feat/weapon_specialization) with selected piercing melee weapon, base attack bonus +11.  ",
 			"**Benefit:** Whenever you score a critical hit with the selected piercing melee weapon, you can impale your opponent on your weapon. While your opponent is impaled in this way, each time he starts his turn, you deal damage equal to your weapon's damage dice plus the extra damage dice from your weapon's properties. As an immediate action, you can pull your weapon out of your opponent. If your opponent is ever outside your reach, you must spend a free action to let go of your weapon or pull it out of him. Your opponent can also spend a move action to pull your weapon out. When the weapon comes out, your opponent takes damage as if starting his turn impaled. While you impale your opponent with your weapon, you cannot use it to attack, and you must hold on to it.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -4902,7 +4902,7 @@
 			"",
 			"You learned the importance of an honest day's work while training as an initiate of the Pathfinder Society.  ",
 			"**Prerequisites:** Ability to attempt Day Job checks (see the Guide to Pathfinder Society Organized Play).  ",
-			"**Benefit:** You gain a +3 bonus on Day Job checks using one skill you choose when you take this feat. This bonus stacks with other feats that grant a bonus to the chosen skill, including Skill Focus."
+			"**Benefit:** You gain a +3 bonus on Day Job checks using one skill you choose when you take this feat. This bonus stacks with other feats that grant a bonus to the chosen skill, including [Skill Focus](feat/skill_focus)."
 		]
 	},
 	"improved_death-stealing": {
@@ -4934,7 +4934,7 @@
 			"",
 			"The fury and power channeled through your attack is enough to kill a lesser being outright.  ",
 			"**Prerequisites:** [Devastating Strike](feat/devastating_strike), [Vital Strike](feat/vital_strike), base attack bonus +13.  ",
-			"**Benefit:** Whenever you use Vital Strike, Improved Vital Strike, or Greater Vital Strike, you gain a bonus on attack rolls to confirm a critical hit equal to the bonus on damage rolls you gain from Devastating Strike.",
+			"**Benefit:** Whenever you use Vital Strike, [Improved Vital Strike](feat/improved_vital_strike), or [Greater Vital Strike](feat/greater_vital_strike), you gain a bonus on attack rolls to confirm a critical hit equal to the bonus on damage rolls you gain from Devastating Strike.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 123](source/pathfinder_unchained)",
@@ -5408,7 +5408,7 @@
 			"**Source** [Ultimate Combat pg. 105](source/ultimate_combat)",
 			"",
 			"When you impale a target, you hinder its movement and can cause severe bleeding.  ",
-			"**Prerequisites:** [Impaling Critical](feat/impaling_critical), [Critical Focus](feat/critical_focus), Weapon Specialization with selected piercing melee weapon, base attack bonus +13.  ",
+			"**Prerequisites:** [Impaling Critical](feat/impaling_critical), [Critical Focus](feat/critical_focus), [Weapon Specialization](feat/weapon_specialization) with selected piercing melee weapon, base attack bonus +13.  ",
 			"**Benefit:** While you are using Impaling Critical to impale an opponent, and you are still holding onto that weapon, that opponent must succeed at a grapple combat maneuver check against you to pull your weapon out. If you have let go of your weapon, the impaled opponent must spend a standard action to remove the weapon. Until the opponent pulls the weapon out, his speed in all modes is halved and his maneuverability, if any, is reduced by one step. When the weapon comes out, instead of dealing the damage normal for Impaling Critical, you can deal bleed damage equal to your weapon's damage dice result once per round at the start of that opponent's turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -5789,7 +5789,7 @@
 			"**Source** [Villain Codex pg. 188](source/villain_codex)",
 			"",
 			"You are particularly skilled in pressing your advantage when negotiating with noncombatants.  ",
-			"**Prerequisites:** [Position of Strength](feat/position_of_strength); Two-Weapon Fighting or Multiattack; Intimidate 5 ranks.  ",
+			"**Prerequisites:** [Position of Strength](feat/position_of_strength); [Two-Weapon Fighting](feat/two-weapon_fighting) or [Multiattack](feat/multiattack); Intimidate 5 ranks.  ",
 			"**Benefit:** As long as you are wielding one or more weapons with which you are proficient, you gain the bonus on Intimidate checks from Position of Strength against creatures that are armed with fewer weapons than you are wielding."
 		]
 	},
@@ -6368,7 +6368,7 @@
 			"",
 			"Your primary weapon keeps a foe off balance, allowing you to slip your off-hand weapon past his defenses.  ",
 			"**Prerequisites:** Dex 17, Int 13, [Combat Expertise](feat/combat_expertise), base attack bonus +6.  ",
-			"**Benefit:** While using Two-Weapon Fighting to make melee attacks, you can forgo your first primary-hand melee attack to make a Bluff check to feint an opponent. If you successfully feint, that opponent is denied his Dexterity bonus to AC until the end of your turn.",
+			"**Benefit:** While using [Two-Weapon Fighting](feat/two-weapon_fighting) to make melee attacks, you can forgo your first primary-hand melee attack to make a Bluff check to feint an opponent. If you successfully feint, that opponent is denied his Dexterity bonus to AC until the end of your turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 124](source/pathfinder_unchained)",
@@ -6508,7 +6508,7 @@
 			"**Source** [Advanced Class Guide pg. 151](source/advanced_class_guide)",
 			"",
 			"You gain even greater favor when you use your deity's favored weapon.  ",
-			"**Prerequisites:** Weapon Focus with your deity's favored weapon, [Weapon of the Chosen](feat/weapon_of_the_chosen).  ",
+			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with your deity's favored weapon, [Weapon of the Chosen](feat/weapon_of_the_chosen).  ",
 			"**Benefit:** This feat acts as Weapon of the Chosen, except you gain the benefits on all attacks until the start of your next turn. Your attacks gain a single alignment component of your deity-either chaotic, evil, good, or lawful-for the purpose of overcoming damage reduction. If your deity is neutral with no other alignment components, your attacks instead overcome damage reduction as though your weapon were both cold iron and silver.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -6801,7 +6801,7 @@
 			"",
 			"You will punish the guilty without letting any innocents be harmed as a result.  ",
 			"**Prerequisites:** Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye or the Raiders background. If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are.  ",
-			"**Benefit:** Once per day, you can choose to take the maximum possible weapon damage die roll rather than rolling when you hit a foe that is unaware of you or considers you an ally. Bonus dice, including from sneak attack, surprise attack, and Vital Strike, are rolled normally.  ",
+			"**Benefit:** Once per day, you can choose to take the maximum possible weapon damage die roll rather than rolling when you hit a foe that is unaware of you or considers you an ally. Bonus dice, including from sneak attack, surprise attack, and [Vital Strike](feat/vital_strike), are rolled normally.  ",
 			"**Goal:** Decisively defeat or slay the offender without killing any innocents in the process. You can complete the goal after killing innocents if you receive an atonement spell.  ",
 			"**Completion Benefit:** You can use this feat's benefit once per combat."
 		]

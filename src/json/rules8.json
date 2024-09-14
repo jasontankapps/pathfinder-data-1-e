@@ -2938,7 +2938,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 171](source/ultimate_campaign)",
 			"",
-			"The Core Rulebook doesn't allow item creation feats to recharge charged items such as wands. This is because wands are the most cost-effective form of expendable spellcasting in the game (the minimum price is 15 gp per charge, as compared to a minimum price of 25 gp per use for a scroll or 50 gp per use for a potion). Allowing wand recharging devalues scrolls and potions in the game, especially as using a wand does not provoke attacks of opportunity. A wand's lower price increment would also mean that partially recharging the wand is easily done with a short downtime period (10 charges per day for a 2ndlevel wand, 4 per day for a 3rd-level wand, and 2 per day for a 4th-level wand), making the wand even more useful and cost-effective.",
+			"The Core Rulebook doesn't allow item creation feats to recharge charged items such as wands. This is because wands are the most cost-effective form of expendable spellcasting in the game (the minimum price is 15 gp per charge, as compared to a minimum price of 25 gp per use for a scroll or 50 gp per use for a potion). Allowing wand recharging devalues scrolls and potions in the game, especially as using a wand does not provoke attacks of opportunity. A wand's lower price increment would also mean that partially recharging the wand is easily done with a short downtime period (10 charges per day for a 2nd-level wand, 4 per day for a 3rd-level wand, and 2 per day for a 4th-level wand), making the wand even more useful and cost-effective.",
 			"",
 			"A GM who wants to allow wand recharging can require a minimum of 25 charges added to the item to help offset this advantage, as it forces you to spend a larger amount of gold at once instead of smaller amounts more frequently."
 		],
@@ -3008,7 +3008,7 @@
 			"",
 			"If you are creating items for other characters in the party, the increased wealth for the other characters should come out of your increased allotment. Not only does this prevent you from skewing the wealth by level for everyone in the party, but it encourages other characters to learn [item creation feats](main/feats_metamagic).",
 			"",
-			"Example: The Character Wealth By Level table states that an 8th-level character should have about 33,000 gp worth of items. Using the above 25% rule, Patrick's 8thlevel wizard with [Craft Wondrous Item](feat/craft_wondrous_item) is allowed an additional 8,250 gp worth of crafted wondrous items. If he uses his feat to craft items for the rest of the party, any excess value the other PCs have because of those items should count toward Patrick's additional 8,250 gp worth of crafted items."
+			"Example: The Character Wealth By Level table states that an 8th-level character should have about 33,000 gp worth of items. Using the above 25% rule, Patrick's 8th-level wizard with [Craft Wondrous Item](feat/craft_wondrous_item) is allowed an additional 8,250 gp worth of crafted wondrous items. If he uses his feat to craft items for the rest of the party, any excess value the other PCs have because of those items should count toward Patrick's additional 8,250 gp worth of crafted items."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3855,7 +3855,7 @@
 			"",
 			"This is the typical Fame of a character who has completed a couple of adventures.",
 			"",
-			"**Arcane Study I (1 or 2 PP):** With the help of a wizard or magical ritual, you gain the ability to prepare and cast a few weak arcane spells. If you spend 1 PP, you can prepare 4 wizard cantrips or one 1st-level wizard spell. If you spend 2 PP, you can prepare 4 wizard cantrips and one 1stlevel wizard spell. You cast these spells as a wizard, and must have the minimum Intelligence to prepare these spells. You can't select this award if you're a wizard. After 24 hours, you take 1d3 points of Intelligence damage and lose any prepared spells you didn't cast.",
+			"**Arcane Study I (1 or 2 PP):** With the help of a wizard or magical ritual, you gain the ability to prepare and cast a few weak arcane spells. If you spend 1 PP, you can prepare 4 wizard cantrips or one 1st-level wizard spell. If you spend 2 PP, you can prepare 4 wizard cantrips and one 1st-level wizard spell. You cast these spells as a wizard, and must have the minimum Intelligence to prepare these spells. You can't select this award if you're a wizard. After 24 hours, you take 1d3 points of Intelligence damage and lose any prepared spells you didn't cast.",
 			"",
 			"**Character Witness (5 PP):** If you happen to find yourself in trouble with authorities as a result of false accusations, an influential benefactor steps forth to vouch for your honor, absolving you of any wrongdoing. You can use this award without penalty up to three times, after which the available benefactors begin to question your reputation; any further uses cost you an additional 1d4 Prestige Points.",
 			"",
