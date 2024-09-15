@@ -877,7 +877,7 @@
 			"",
 			"This elegant silk ribbon gleams like mithral and feels like polished steel. When wrapped around the grip of a one-handed piercing or slashing melee weapon for 24 hours, the ribbon's magic permanently merges with the weapon, reducing the attack roll penalty incurred by a wielder who is smaller than the weapon's intended wielder by 2 (to a minimum penalty of 0).",
 			"",
-			"If the weapon is wielded by a creature whose size matches that of the weapon's intended wielder, the weapon is treated as a light melee weapon when determining whether it can be used with Weapon Finesse, as well as with any feat, spell, or special weapon ability that can be used in conjunction with light weapons. Once an effortless lace's abilities have been conveyed to a weapon, the ribbon must remain attached to the weapon or its effects end immediately, its magic is permanently lost, and it is reduced to worthless cloth. Effects that would dispel the magic of the weapon or cause the weapon to gain the broken condition (such as sundering) destroy the ribbon as well.",
+			"If the weapon is wielded by a creature whose size matches that of the weapon's intended wielder, the weapon is treated as a light melee weapon when determining whether it can be used with [Weapon Finesse](feat/weapon_finesse), as well as with any feat, spell, or special weapon ability that can be used in conjunction with light weapons. Once an effortless lace's abilities have been conveyed to a weapon, the ribbon must remain attached to the weapon or its effects end immediately, its magic is permanently lost, and it is reduced to worthless cloth. Effects that would dispel the magic of the weapon or cause the weapon to gain the broken condition (such as sundering) destroy the ribbon as well.",
 			"",
 			"### Construction",
 			"",
@@ -1134,7 +1134,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Quicken Spell, bless, cure light wounds; **Price** 2,078 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Quicken Spell](feat/quicken_spell), bless, cure light wounds; **Price** 2,078 gp"
 		]
 	},
 	"kinbonded_bow": {
@@ -1217,7 +1217,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 4,305 gp; **Weight** 2 lbs.",
 			"",
-			"The lashing aklys was first invented by derro magisters to bolster their ability to upend their foes. A lashing aklys is a +1 aklys that grants a +2 bonus on combat maneuver checks made to trip foes-this bonus stacks with that granted by Improved Trip. If you have Improved Trip, you can make trip attempts against foes of up to two size categories larger than you with a lashing aklys.",
+			"The lashing aklys was first invented by derro magisters to bolster their ability to upend their foes. A lashing aklys is a +1 aklys that grants a +2 bonus on combat maneuver checks made to trip foes-this bonus stacks with that granted by [Improved Trip](feat/improved_trip). If you have Improved Trip, you can make trip attempts against foes of up to two size categories larger than you with a lashing aklys.",
 			"",
 			"### Construction",
 			"",
@@ -1325,11 +1325,11 @@
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 4,315 gp; **Weight** 4 lbs.",
 			"",
-			"This intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along the blade, excellent for catching and sundering a foe's weapon. Wielders without the Improved Sunder feat use a shatterspike as a +1 longsword only. Wielders with the Improved Sunder feat instead use shatterspike as a +4 longsword when attempting to sunder an opponent's weapon. Shatterspike can damage weapons with an enhancement bonus of +4 or lower.",
+			"This intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along the blade, excellent for catching and sundering a foe's weapon. Wielders without the [Improved Sunder](feat/improved_sunder) feat use a shatterspike as a +1 longsword only. Wielders with the Improved Sunder feat instead use shatterspike as a +4 longsword when attempting to sunder an opponent's weapon. Shatterspike can damage weapons with an enhancement bonus of +4 or lower.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Str 13, Craft Arms and Armor, Improved Sunder, Power Attack, shatter; **Price** 2,315 gp"
+			"**Requirements** Str 13, Craft Arms and Armor, Improved Sunder, [Power Attack](feat/power_attack), shatter; **Price** 2,315 gp"
 		]
 	},
 	"grafting_blade": {
@@ -1395,7 +1395,7 @@
 			"**Aura** faint conjuration and divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 4,461 gp; **Weight** 2 lbs.",
 			"",
-			"This long piece of cloth is so fine that it can pass through a finger ring. Delicately woven with multiple colors to spell out Iroran prayers, it is usually worn as a shawl or belt, or wrapped around the chest and shoulders-it does not use a magic item body slot. If wrapped around at least one limb, it grants the wearer the Improved Unarmed Strike feat. It may also be wielded as a +1 whip. The wearer can meditate on the shawl's sacred mantras to use cure light wounds and know the enemy each once per day.",
+			"This long piece of cloth is so fine that it can pass through a finger ring. Delicately woven with multiple colors to spell out Iroran prayers, it is usually worn as a shawl or belt, or wrapped around the chest and shoulders-it does not use a magic item body slot. If wrapped around at least one limb, it grants the wearer the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat. It may also be wielded as a +1 whip. The wearer can meditate on the shawl's sacred mantras to use cure light wounds and know the enemy each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -1463,7 +1463,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 5,005 gp; **Weight** 2 lbs.",
 			"",
-			"On a successful critical hit with this +1 scorpion whip, the wielder can attempt a steal combat maneuver against the target as a swift action as if she had the Improved Steal feat.",
+			"On a successful critical hit with this +1 scorpion whip, the wielder can attempt a steal combat maneuver against the target as a swift action as if she had the [Improved Steal](feat/improved_steal) feat.",
 			"",
 			"### Construction",
 			"",
@@ -1856,7 +1856,7 @@
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** none; **Price** 7,300 gp; **Weight** 3 lbs.",
 			"",
-			"This +1 club is often decorated with large teeth and carved with stylized images of different animals. As a standard action, the wielder may transform the club into the head or limb of an animal; the weapon's damage does not change but the type of damage changes to one of the following to suit the shape of the club: bite (piercing), claw (slashing), gore (piercing), slam (bludgeoning), sting (piercing), or talon (slashing). When transformed, the club counts as a natural weapon and a manufactured weapon for the purpose of spells and effects that enhance or improve either manufactured or natural weapons. The club also counts as the natural weapon of its current shape for the purpose of feats and spells that rely on specific natural weapons, such as Weapon Focus (bite) or the bloody claws spell (Advanced Player's Guide). If the wielder has the wild shape ability, she can expend one use of wildshape to increase the weapon's damage by one step for the duration of that wild shape as long as the druid remains in contact with the weapon; if the wielder can wild shape at will, the club's damage is always increased in this fashion. If unattended, the club reverts to its normal shape.",
+			"This +1 club is often decorated with large teeth and carved with stylized images of different animals. As a standard action, the wielder may transform the club into the head or limb of an animal; the weapon's damage does not change but the type of damage changes to one of the following to suit the shape of the club: bite (piercing), claw (slashing), gore (piercing), slam (bludgeoning), sting (piercing), or talon (slashing). When transformed, the club counts as a natural weapon and a manufactured weapon for the purpose of spells and effects that enhance or improve either manufactured or natural weapons. The club also counts as the natural weapon of its current shape for the purpose of feats and spells that rely on specific natural weapons, such as [Weapon Focus](feat/weapon_focus) (bite) or the bloody claws spell (Advanced Player's Guide). If the wielder has the wild shape ability, she can expend one use of wildshape to increase the weapon's damage by one step for the duration of that wild shape as long as the druid remains in contact with the weapon; if the wielder can wild shape at will, the club's damage is always increased in this fashion. If unattended, the club reverts to its normal shape.",
 			"",
 			"### Construction",
 			"",
@@ -1892,7 +1892,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 7,305 gp; **Weight** 1 lb.",
 			"",
-			"This bloodstained, skull-bedecked bayonet has thin blood gutters running along both sides of its 14-inch blade. When attached to a magic crossbow or firearm, a sharpshooter's blade gains the enhancement bonus and other weapon special abilities of the ranged weapon it is attached to, and feats, spells, and abilities that enhance or improve attacks with the ranged weapon can be used with the sharpshooter's blade, provided these would work with a weapon of the bayonet's type (a two-handed piercing melee weapon). These bonuses and benefits don't stack with bonuses or benefits of the same type or from the same source. For example, a character with both Weapon Focus (bayonet) and Weapon Focus (heavy crossbow) would only gain the benefits of one of those feats when attacking with a sharpshooter's blade attached to a heavy crossbow. Use-activated abilities of the ranged weapon can be triggered through the sharpshooter's blade but count toward the usage limitations of the ranged weapon.",
+			"This bloodstained, skull-bedecked bayonet has thin blood gutters running along both sides of its 14-inch blade. When attached to a magic crossbow or firearm, a sharpshooter's blade gains the enhancement bonus and other weapon special abilities of the ranged weapon it is attached to, and feats, spells, and abilities that enhance or improve attacks with the ranged weapon can be used with the sharpshooter's blade, provided these would work with a weapon of the bayonet's type (a two-handed piercing melee weapon). These bonuses and benefits don't stack with bonuses or benefits of the same type or from the same source. For example, a character with both [Weapon Focus](feat/weapon_focus) (bayonet) and Weapon Focus (heavy crossbow) would only gain the benefits of one of those feats when attacking with a sharpshooter's blade attached to a heavy crossbow. Use-activated abilities of the ranged weapon can be triggered through the sharpshooter's blade but count toward the usage limitations of the ranged weapon.",
 			"",
 			"When not attached to a magic crossbow or firearm, a sharpshooter's blade has no enhancement bonus, but is still of masterwork quality and counts as magic for the purpose of overcoming damage reduction.",
 			"",
@@ -2287,7 +2287,7 @@
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 8,810 gp; **Weight** 2 lbs.",
 			"",
-			"As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a +1 short sword when in dim light. In darkness, it acts as +2 short sword. When surrounded by supernatural darkness, such as in an area of deeper darkness, it acts a +2 short sword and bestows the benefit of the Blind-Fight feat on its wielder. In daylight or bright illumination, the sword temporarily loses all its magical enhancement bonuses and acts as a masterwork weapon, though it resumes its magical functions once it is no longer in the bright light.",
+			"As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a +1 short sword when in dim light. In darkness, it acts as +2 short sword. When surrounded by supernatural darkness, such as in an area of deeper darkness, it acts a +2 short sword and bestows the benefit of the [Blind-Fight](feat/blind-fight) feat on its wielder. In daylight or bright illumination, the sword temporarily loses all its magical enhancement bonuses and acts as a masterwork weapon, though it resumes its magical functions once it is no longer in the bright light.",
 			"",
 			"### Construction",
 			"",
@@ -2304,7 +2304,7 @@
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 8,825 gp; **Weight** 10 lbs.",
 			"",
-			"This bloodstained spiked chain has a large handle-ring that glows a pale violet color when wielded in normal light. An umbral chain grows more potent in darkness. It acts as a +1 spiked chain when in dim light. In darkness, it acts as a +2 spiked chain. When surrounded by supernatural darkness (such as in an area of deeper darkness), it acts as a +2 spiked chain and grants the wielder the Blind-Fight feat. In daylight or bright illumination, the weapon temporarily loses all its magical enhancement bonuses and is effectively a masterwork weapon, though it resumes its magical functions once it's no longer in bright light. The violet glow from the weapon dims in response to ambient light, vanishing completely in darkness or supernatural darkness.",
+			"This bloodstained spiked chain has a large handle-ring that glows a pale violet color when wielded in normal light. An umbral chain grows more potent in darkness. It acts as a +1 spiked chain when in dim light. In darkness, it acts as a +2 spiked chain. When surrounded by supernatural darkness (such as in an area of deeper darkness), it acts as a +2 spiked chain and grants the wielder the [Blind-Fight](feat/blind-fight) feat. In daylight or bright illumination, the weapon temporarily loses all its magical enhancement bonuses and is effectively a masterwork weapon, though it resumes its magical functions once it's no longer in bright light. The violet glow from the weapon dims in response to ambient light, vanishing completely in darkness or supernatural darkness.",
 			"",
 			"### Construction",
 			"",
@@ -2717,7 +2717,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Whip Mastery, fireball; **Price** 5,301 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Whip Mastery](feat/whip_mastery), fireball; **Price** 5,301 gp"
 		]
 	},
 	"cailean_fighting_tankard": {
@@ -2767,7 +2767,7 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 10,302 gp; **Weight** 1 lb.",
 			"",
-			"A wielder with a free hand can split this +1 dagger into two identical +1 daggers as a swift action, or a free action if she has the Quick Draw feat. The doubled daggers can't be split again. If either dagger is thrown while doubled, the hurled dagger vanishes after resolving the attack and the remaining dagger can be split again. If the wielder drops a doubled dagger or it otherwise leaves her person, it vanishes. If both daggers leave the wielder's hands at the same time, determine randomly which dagger vanishes.",
+			"A wielder with a free hand can split this +1 dagger into two identical +1 daggers as a swift action, or a free action if she has the [Quick Draw](feat/quick_draw) feat. The doubled daggers can't be split again. If either dagger is thrown while doubled, the hurled dagger vanishes after resolving the attack and the remaining dagger can be split again. If the wielder drops a doubled dagger or it otherwise leaves her person, it vanishes. If both daggers leave the wielder's hands at the same time, determine randomly which dagger vanishes.",
 			"",
 			"Spells or effects placed on a dagger of doubling don't duplicate when the dagger is split. Any active effects on a dagger end when it vanishes. Destroying one of the doubled daggers just causes the duplicate to disappear, but any damage to a single dagger of doubling remains on both daggers when it doubles.",
 			"",
@@ -3626,7 +3626,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Improved Counterspell, dispel magic, ice storm, creator must be a caster of at least 10th level; **Price** 6,556 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Counterspell](feat/improved_counterspell), dispel magic, ice storm, creator must be a caster of at least 10th level; **Price** 6,556 gp"
 		]
 	},
 	"deck_of_slivering_fate": {
@@ -3639,7 +3639,7 @@
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 13,000 gp; **Weight** -",
 			"",
-			"The 54 cards in this +1 limning harrow deck have more violent imagery than a standard harrow deck, and each card has a thin metallic frill around its edges. When the wielder uses a card from this deck with the Deadly Dealer feat, the metallic frills become taut and sharp. When they are used in this way, the cards deal slashing damage instead of piercing, and the bonus damage from the Arcane Strike feat is doubled.",
+			"The 54 cards in this +1 limning harrow deck have more violent imagery than a standard harrow deck, and each card has a thin metallic frill around its edges. When the wielder uses a card from this deck with the Deadly Dealer feat, the metallic frills become taut and sharp. When they are used in this way, the cards deal slashing damage instead of piercing, and the bonus damage from the [Arcane Strike](feat/arcane_strike) feat is doubled.",
 			"",
 			"### Construction",
 			"",
@@ -4341,7 +4341,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Spell Penetration, [summon monster I](spell/summon_monster_1), true strike; **Price** 9,835 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Spell Penetration](feat/spell_penetration), [summon monster I](spell/summon_monster_1), true strike; **Price** 9,835 gp"
 		]
 	},
 	"zul": {

@@ -126,7 +126,7 @@
 			"",
 			"**Kodama (Su):** As a standard action, the ward speaker can afflict one target that can see him with a distracting gaze. If the target fails a Will save (DC = 10 + half the ward speaker's samurai level), it is staggered for 1d4 rounds. At 9th level, it is instead staggered for 2d4 rounds. At 17th level, it is instead staggered for 1 minute. Once a creature has been targeted by this ability, it cannot be targeted by it again for 24 hours.",
 			"",
-			"**Shikigami (Ex):** The ward speaker gains Catch Off-Guard and Throw Anything as bonus feats. At 9th level, he gains Toughness and Step Up. At 17th level, he gains Following Step and Step Up and Strike, even if he does not meet the prerequisites.",
+			"**Shikigami (Ex):** The ward speaker gains [Catch Off-Guard](feat/catch_off-guard) and [Throw Anything](feat/throw_anything) as bonus feats. At 9th level, he gains [Toughness](feat/toughness) and [Step Up](feat/step_up). At 17th level, he gains [Following Step](feat/following_step) and [Step Up and Strike](feat/step_up_and_strike), even if he does not meet the prerequisites.",
 			"",
 			"**Toshigami (Sp):** The ward speaker can speak with plants, as the speak with plants spell. At 9th level, the ward speaker can dismiss this fortune as an immediate action to cast haste as a spell-like ability. Once per day at 17th level, the ward speaker can instead dismiss this fortune to cast temporal stasis as a spell-like ability. The ward speaker's caster level for these spell-like abilities is equal to his samurai level.",
 			"",
@@ -160,7 +160,7 @@
 			"",
 			"**Jininsiel's Guidance:** The warrior poet gains the rogue's uncanny dodge class feature. This flourish can be selected up to twice; selecting it a second time grants the warrior poet the rogue's improved uncanny dodge class feature. The warrior poet must be at least 4th level to select this flourish the first time and at least 8th level to select this flourish the second time.",
 			"",
-			"**Kitsune's Mystique:** The warrior poet gains [Improved Feint](feat/improved_feint) as a bonus feat, ignoring its prerequisites. When the warrior poet uses Spring Attack or takes a move action to move, she can attempt to feint against one creature she threatens during her movement as part of her movement.",
+			"**Kitsune's Mystique:** The warrior poet gains [Improved Feint](feat/improved_feint) as a bonus feat, ignoring its prerequisites. When the warrior poet uses [Spring Attack](feat/spring_attack) or takes a move action to move, she can attempt to feint against one creature she threatens during her movement as part of her movement.",
 			"",
 			"**Petals on the Wind:** Whenever a foe provokes an attack of opportunity from the warrior poet, she can move 5 feet before making the attack of opportunity. This movement does not provoke attacks of opportunity. If the warrior poet takes an action to move during her next turn, she subtracts 5 feet from her total movement for each time she has used this ability since her last turn.",
 			"",
@@ -200,7 +200,7 @@
 			"",
 			"This ability replaces weapon expertise.",
 			"",
-			"**Intercept (Ex):** At 4th level, a yojimbo learns to better disrupt the attacks of his enemies. He gains Bodyguard as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the yojimbo uses the aid another action to increase an ally's Armor Class, the bonus to Armor Class from the aid another action increases by 1.",
+			"**Intercept (Ex):** At 4th level, a yojimbo learns to better disrupt the attacks of his enemies. He gains [Bodyguard](feat/bodyguard) as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the yojimbo uses the aid another action to increase an ally's Armor Class, the bonus to Armor Class from the aid another action increases by 1.",
 			"",
 			"This ability replaces mounted archer."
 		]

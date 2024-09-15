@@ -158,7 +158,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Rapid Shot, blindness/deafness, haste; **Price** 11,800 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Rapid Shot](feat/rapid_shot), blindness/deafness, haste; **Price** 11,800 gp"
 		]
 	},
 	"firedrake_pistol": {
@@ -342,7 +342,7 @@
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 20,925 gp; **Weight** 4 lbs.",
 			"",
-			"A skull and partial backbone carved from ivory top this +2 sword cane, and gray sharkskin covers its wooden scabbard. The wielder can use the Weapon Finesse feat to apply her Dexterity modifier instead of her Strength modifier to attack rolls with a scoundrel's sword cane sized for her, even though it isn't a light weapon.",
+			"A skull and partial backbone carved from ivory top this +2 sword cane, and gray sharkskin covers its wooden scabbard. The wielder can use the [Weapon Finesse](feat/weapon_finesse) feat to apply her Dexterity modifier instead of her Strength modifier to attack rolls with a scoundrel's sword cane sized for her, even though it isn't a light weapon.",
 			"",
 			"The eyes of the skull atop the scoundrel's sword cane constantly enhance the wielder's awareness, granting the wielder a +5 competence bonus on Perception checks. In addition, once per day, the wielder can concentrate while holding the cane to see through the skull's eyes as if they were her own. In effect, the scoundrel's sword cane can be used as a periscope, allowing the wielder to safely peer over obstacles or around corners. If the wielder has total concealment from an observed creature except for the end of the cane, the wielder uses the skull's Diminutive size modifier for her Stealth check instead of her own size modifier.",
 			"",
@@ -460,7 +460,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Reflexes, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
+			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
 		]
 	},
 	"luck_blade_0_wishes": {
@@ -536,7 +536,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cleave, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Great Cleave, divine power; **Price** 11,307 gp"
+			"**Requirements** [Cleave](feat/cleave), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Great Cleave](feat/great_cleave), divine power; **Price** 11,307 gp"
 		]
 	},
 	"sword_of_subtlety": {
@@ -612,7 +612,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Combat Expertise, Improved Drag, Improved Reposition, haste; **Price** 11,325 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Combat Expertise](feat/combat_expertise), [Improved Drag](feat/improved_drag), [Improved Reposition](feat/improved_reposition), haste; **Price** 11,325 gp"
 		]
 	},
 	"fanged_falchion": {
@@ -1794,7 +1794,7 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 33,910 gp; **Weight** 2 lbs.",
 			"",
-			"This simply made +1 dancing shortsword leaps to hand at the slightest touch. It can be drawn as a free action as though using the Quick Draw feat. The cutthroat's apprentice dances for 8 rounds instead of 4 when activated, but can only dance twice per day. When dancing and attacking a creature, it moves into the target's space and provides the person who activated it (but no other creatures) with flanking during his turn if he attacks the same target in melee. Once the sword's activator completes his turn, the sword moves back to her space. If directed to attack multiple creatures in the same turn, the cutthroat's apprentice provides a flank against only the last creature attacked.",
+			"This simply made +1 dancing shortsword leaps to hand at the slightest touch. It can be drawn as a free action as though using the [Quick Draw](feat/quick_draw) feat. The cutthroat's apprentice dances for 8 rounds instead of 4 when activated, but can only dance twice per day. When dancing and attacking a creature, it moves into the target's space and provides the person who activated it (but no other creatures) with flanking during his turn if he attacks the same target in melee. Once the sword's activator completes his turn, the sword moves back to her space. If directed to attack multiple creatures in the same turn, the cutthroat's apprentice provides a flank against only the last creature attacked.",
 			"",
 			"### Construction",
 			"",
@@ -1953,7 +1953,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Reflexes, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, daze; **Price** 17,820 gp"
+			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, daze; **Price** 17,820 gp"
 		]
 	},
 	"enervative_shadowcraft_weapon": {
@@ -2074,7 +2074,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 38,000 gp; **Weight** 12 lbs.",
 			"",
-			"The haft of this +1 adamantine greataxe is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the Improved Sunder feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has Improved Sunder, the axe grants Greater Sunder; and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.",
+			"The haft of this +1 adamantine greataxe is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the [Improved Sunder](feat/improved_sunder) feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has Improved Sunder, the axe grants [Greater Sunder](feat/greater_sunder); and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.",
 			"",
 			"As an immediate action after making a successful attack with the axe, the wielder can expend one use of mythic power to make a combat maneuver check to sunder a single item being used by the creature he just successfully attacked. This sunder attempt deals double damage and uses the wielder's full base attack bonus. If the item is destroyed by this sunder attempt, no excess damage is applied to the item's wielder or other items.",
 			"",
@@ -2471,7 +2471,7 @@
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Price** 47,315 gp; **Weight** 4 lbs.",
 			"",
-			"When used outdoors in a temperate climate, this +3 scimitar grants its wielder the use of the Cleave feat and deals an extra 1d6 points of damage.",
+			"When used outdoors in a temperate climate, this +3 scimitar grants its wielder the use of the [Cleave](feat/cleave) feat and deals an extra 1d6 points of damage.",
 			"",
 			"### Construction",
 			"",
@@ -2606,7 +2606,7 @@
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 50,335 gp; **Weight** 2 lbs.",
 			"",
-			"This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, Weapon Focus and Weapon Specialization in short sword and bastard sword apply equally, but the benefits of those feats do not stack.",
+			"This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, [Weapon Focus](feat/weapon_focus) and [Weapon Specialization](feat/weapon_specialization) in short sword and bastard sword apply equally, but the benefits of those feats do not stack.",
 			"",
 			"In normal combat, the glowing golden blade of the weapon is equal to a +2 bastard sword. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and &times;3 on a critical hit instead of the usual &times;2).",
 			"",
@@ -2765,7 +2765,7 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 53,801 gp; **Weight** 3 lbs.",
 			"",
-			"This +2 elysian bronze spear is capable of warping space to strike faraway targets as if they stood within arm's reach. As a standard action, the farspear's wielder can make a single melee attack against a creature within 60 feet as though it were within his melee reach. Cover and concealment apply as if making a ranged attack. The wielder can use any Vital Strike feat he has as part of this melee attack. The Spiresworn based these weapons upon the legendary Azlanti farspears, artifacts created by the warrior goddess Acavna that allowed wielders to strike from leagues away.",
+			"This +2 elysian bronze spear is capable of warping space to strike faraway targets as if they stood within arm's reach. As a standard action, the farspear's wielder can make a single melee attack against a creature within 60 feet as though it were within his melee reach. Cover and concealment apply as if making a ranged attack. The wielder can use any [Vital Strike](feat/vital_strike) feat he has as part of this melee attack. The Spiresworn based these weapons upon the legendary Azlanti farspears, artifacts created by the warrior goddess Acavna that allowed wielders to strike from leagues away.",
 			"",
 			"### Construction",
 			"",
@@ -2895,7 +2895,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Gunsmithing, air bubble, mending, [summon monster I](spell/summon_monster_1), water breathing; **Price** 30,550 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Gunsmithing](feat/gunsmithing), air bubble, mending, [summon monster I](spell/summon_monster_1), water breathing; **Price** 30,550 gp"
 		]
 	},
 	"thorn_bow": {
@@ -3311,7 +3311,7 @@
 			"",
 			"This exquisitely forged katana is the result of painstaking attention and craftsmanship by one who is dedicated to mastering swordplay in its highest form.",
 			"",
-			"A blade of the sword-saint is a +3 ki intensifying katana. In the hands of a monk, it becomes an instrument of deadly utility. In addition to its more common properties, this weapon can be employed as though the wielder were unarmed: the wielder benefits from feats such as Deflect Arrows or Snatch Arrows (although he can redirect attacks but not catch them if he has no hands free), and a monk treats the blade as a monk weapon for use in his flurry of blows.",
+			"A blade of the sword-saint is a +3 ki intensifying katana. In the hands of a monk, it becomes an instrument of deadly utility. In addition to its more common properties, this weapon can be employed as though the wielder were unarmed: the wielder benefits from feats such as [Deflect Arrows](feat/deflect_arrows) or [Snatch Arrows](feat/snatch_arrows) (although he can redirect attacks but not catch them if he has no hands free), and a monk treats the blade as a monk weapon for use in his flurry of blows.",
 			"",
 			"### Construction",
 			"",
@@ -3575,7 +3575,7 @@
 			"",
 			"This +2/+2 cruel quarterstaff is made of polished ebony, and features a blackened metal spike on its bottom end. As a standard action, the wielder can drive the spike into the ground on either the Material Plane or the Shadow Plane, creating a rift merging those two planes. This rift is 30 feet in diameter, lasts for 1 minute, and can be created once per day. If the creature that drives the shadow spike into the ground expends one use of mythic power when doing so, the effect lasts until the shadow spike is pulled out of the ground (which takes a standard action).",
 			"",
-			"The rift's area acts as the deeper darkness spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the Extend Spell feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to plane shift to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature plane shifts while holding the shadow spike, the weapon teleports with that creature, ending the effect.",
+			"The rift's area acts as the deeper darkness spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the [Extend Spell](feat/extend_spell) feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to plane shift to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature plane shifts while holding the shadow spike, the weapon teleports with that creature, ending the effect.",
 			"",
 			"### Construction",
 			"",
@@ -4097,7 +4097,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Heroic Defiance, break enchantment, stabilize; **Price** 40,600 gp",
+			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Heroic Defiance](feat/heroic_defiance), break enchantment, stabilize; **Price** 40,600 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4348,7 +4348,7 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Weight** 6 lbs.",
 			"",
-			"This vicious-looking +2 battleaxe grants its wielder the Great Cleave feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a biting battleaxe must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a remove curse spell or similar effect.",
+			"This vicious-looking +2 battleaxe grants its wielder the [Great Cleave](feat/great_cleave) feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a biting battleaxe must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a remove curse spell or similar effect.",
 			"",
 			"### Construction",
 			"",

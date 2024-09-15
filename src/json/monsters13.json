@@ -407,7 +407,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Collateral Damage (Su)** Whenever an attack fails to damage a hobkins, whether due to the attack result being too low, a miss chance, or a failure to penetrate DR, the hobkins can redirect the attack to any target that was in range of the original attack (if any). The attack can't be redirected against the original attacker. The attacker rolls a new attack and damage roll against the new target, and is considered to possess the Improved Critical feat for the redirected attack. Hobkins delight in using this ability to force creatures to destroy their own prized possessions.",
+			"**Collateral Damage (Su)** Whenever an attack fails to damage a hobkins, whether due to the attack result being too low, a miss chance, or a failure to penetrate DR, the hobkins can redirect the attack to any target that was in range of the original attack (if any). The attack can't be redirected against the original attacker. The attacker rolls a new attack and damage roll against the new target, and is considered to possess the [Improved Critical](feat/improved_critical) feat for the redirected attack. Hobkins delight in using this ability to force creatures to destroy their own prized possessions.",
 			"",
 			"**Frightener (Ex)** Intimidate is always a class skill for a hobkins, and it never takes a penalty on Intimidate checks due to being smaller than its target.",
 			"",
@@ -886,7 +886,7 @@
 			"",
 			"### Jungle Gricks",
 			"",
-			"These surface-adapted varieties of the underground grick are shades of green and lurk in the undergrowth of jungles or climb low-hanging branches to drop on unsuspecting prey. Their racial bonus on Stealth checks applies in forested terrain instead of rocky terrain. Jungle gricks are heartier creatures than their underground-dwelling kin-all jungle gricks possess the advanced creature simple template and gain Toughness as a bonus feat."
+			"These surface-adapted varieties of the underground grick are shades of green and lurk in the undergrowth of jungles or climb low-hanging branches to drop on unsuspecting prey. Their racial bonus on Stealth checks applies in forested terrain instead of rocky terrain. Jungle gricks are heartier creatures than their underground-dwelling kin-all jungle gricks possess the advanced creature simple template and gain [Toughness](feat/toughness) as a bonus feat."
 		]
 	},
 	"griefgall": {
@@ -3336,7 +3336,7 @@
 			"- Solar Disk: A hanshepsu can change its head into a single non-animal form: that of a solar disk. In this form, a hanshepsu becomes immobile and heals itself at a rate of 5 hit points per hour.",
 			"- Vulture: Each time a creature is struck by the hanshepsu's mace, it must succeed at a Fortitude save or contract bubonic plague.",
 			"",
-			"**Soldier's Training (Ex)** A hanshepsu has Weapon Specialization (heavy mace) despite not being a 4th-level fighter.",
+			"**Soldier's Training (Ex)** A hanshepsu has [Weapon Specialization](feat/weapon_specialization) (heavy mace) despite not being a 4th-level fighter.",
 			"",
 			"**Warrior's Mace (Su)** A hanshepsu's mace is treated as a +1 weapon, and the hanshepsu can deal nonlethal damage with the mace without taking a penalty. The mace is permanently affixed to the hanshepsu's hand during creation so it can't be disarmed; it can, however, be sundered. If the mace is destroyed, a hanshepsu can make 1 slam attack per round that deals 1d8+7 points of damage.",
 			"",
@@ -3707,7 +3707,7 @@
 			"",
 			"**Challenge (Su)** Two times per day as a swift action, a heikegani can challenge a foe to combat. Until either that foe is rendered unconscious, or the combat ends, the heikegani gains a +4 bonus on damage rolls against that enemy, and takes a -2 penalty to AC except against attacks made by the challenged foe. The heikegani gains DR 2/- against attacks made by the target of its challenge.",
 			"",
-			"**Intimidating Glare (Ex)** As a full-round action, a heikegani can stand on its rear legs and display its facelike carapace, snapping its pincers in a threatening display. The heikegani can attempt an Intimidate check to demoralize all foes within 30 feet that can see its display, as if it had used the Dazzling Display feat. It doesn't take penalties on this check for being smaller than its targets.",
+			"**Intimidating Glare (Ex)** As a full-round action, a heikegani can stand on its rear legs and display its facelike carapace, snapping its pincers in a threatening display. The heikegani can attempt an Intimidate check to demoralize all foes within 30 feet that can see its display, as if it had used the [Dazzling Display](feat/dazzling_display) feat. It doesn't take penalties on this check for being smaller than its targets.",
 			"",
 			"**Memory of Honor (Su)** Once per day when the heikegani is about to attempt a saving throw or skill check, it can call upon the resolve it held to in its prior life, gaining a +4 bonus on the roll. The heikegani must decide to use this ability before the roll is made.",
 			"",
@@ -4716,7 +4716,7 @@
 			"",
 			"The hippocampus is relatively easily trained-the amount of work and cost it requires is equivalent to what it takes to train a horse. As armor impacts the creature's swim speed, those who train hippocampi for war rarely bother to put barding on these creatures-when they do, they generally opt for the lightest armor, such as padded or leather barding. Mounted combat on a hippocampus is similar to fighting while riding a horse, although the hippocampus is a clumsy creature on land and cannot move at all out of the water if it has a rider weighing it down. Although a hippocampus has only two front legs, determine its carrying capacity as if it were a quadruped. Thus, a light load for a hippocampus is up to 228 pounds. Medium loads are up to 459 pounds, and heavy loads up to 690 pounds.",
 			"",
-			"A number of variant species of hippocampus exist, although the majority of these species differ from the creature presented here only in color and feat choice. Common feats other than Endurance for alternative hippocampus species are Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Swim), and Toughness. A few species of hippocampus are heartier and tougher all around-these creatures are generally those found in colder waters and are known as polar hippocampi. A polar hippocampus has the advanced creature simple template. Most impressive of all are hippocampi that dwell in the deeper seas. These creatures, known as giant hippocampi, are much larger-to generate stats for a giant hippocampus, advance the standard hippocampus to Huge size and increase its Hit Dice to 10. A giant hippocampus is CR 8."
+			"A number of variant species of hippocampus exist, although the majority of these species differ from the creature presented here only in color and feat choice. Common feats other than Endurance for alternative hippocampus species are [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus](feat/skill_focus) (Swim), and [Toughness](feat/toughness). A few species of hippocampus are heartier and tougher all around-these creatures are generally those found in colder waters and are known as polar hippocampi. A polar hippocampus has the advanced creature simple template. Most impressive of all are hippocampi that dwell in the deeper seas. These creatures, known as giant hippocampi, are much larger-to generate stats for a giant hippocampus, advance the standard hippocampus to Huge size and increase its Hit Dice to 10. A giant hippocampus is CR 8."
 		]
 	},
 	"hippogriff": {
@@ -5698,7 +5698,7 @@
 			"*Statistics*  ",
 			"**Str** 22, **Dex** 17, **Con** 17, **Int** 2, **Wis** 12, **Cha** 6  ",
 			"**Base Atk** +8; **CMB** +15; **CMD** 28 (32 vs. trip)  ",
-			"**Feats** Diehard, Endurance, Iron Will, Light Armor Proficiency, Power Attack, Run, Toughness  ",
+			"**Feats** [Diehard](feat/diehard), [Endurance](feat/endurance), [Iron Will](feat/iron_will), Light Armor Proficiency, [Power Attack](feat/power_attack), [Run](feat/run), [Toughness](feat/toughness)  ",
 			"**Skills** Perception +15  ",
 			"**SQ** combat trained, tricks (attack, come, defend, down, fetch, guard, heel, seek, stay, track, work)  ",
 			"**Gear** leather lamellar barding"

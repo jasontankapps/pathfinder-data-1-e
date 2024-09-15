@@ -240,7 +240,7 @@
 			"",
 			"Although many creatures rightly fear these ferocious hunters, few dragonnes are blatantly evil-most are just highly territorial and seek to defend their homes and hunting grounds from interlopers. Creatures that draw too close to a dragonne's lair are typically met by the resident's fearsome roar, followed by its claws and fangs if this warning is ignored. Those who attempt to settle in a dragonne's territory find themselves harassed constantly until they decide to leave or the dragonne is slain. These intimidating predators spend the majority of their time on the ground, even when in combat, since their wings prove somewhat ungainly. They typically search for prey and intruders from the air, then land nearby to charge and pounce.",
 			"",
-			"Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the Leadership feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.",
+			"Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the [Leadership](feat/leadership) feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.",
 			"",
 			"A dragonne measures between 10 and 12 feet long and weighs up to 1,200 pounds."
 		]
@@ -3917,7 +3917,7 @@
 			"",
 			"**Serpentine Base Form:** Speed 20 ft., climb 20 ft.; Saves Fort (bad), Ref (good), Will (good); Ability Scores Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11; Starting Evolutions bite, climb, reach (bite), tail, tail slap.",
 			"",
-			"An unfettered eidolon begins with 1 Hit Die, a +2 natural armor bonus, and the evasion ability. As an unfettered eidolon's Hit Dice increase (see Evolution Points, below), it gains additional bonuses and abilities. At 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon's base armor bonus increases by +2. This bonus may be split between an armor bonus and a natural armor bonus. Also at 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon adds +1 to both its Strength and Dexterity scores. At 5 Hit Dice, and every 4 HD thereafter, an unfettered eidolon adds +1 to any one of its ability scores. At 7 Hit Dice, an unfettered eidolon gains Multiattack as a bonus feat.",
+			"An unfettered eidolon begins with 1 Hit Die, a +2 natural armor bonus, and the evasion ability. As an unfettered eidolon's Hit Dice increase (see Evolution Points, below), it gains additional bonuses and abilities. At 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon's base armor bonus increases by +2. This bonus may be split between an armor bonus and a natural armor bonus. Also at 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon adds +1 to both its Strength and Dexterity scores. At 5 Hit Dice, and every 4 HD thereafter, an unfettered eidolon adds +1 to any one of its ability scores. At 7 Hit Dice, an unfettered eidolon gains [Multiattack](feat/multiattack) as a bonus feat.",
 			"",
 			"### Evolution Points",
 			"",

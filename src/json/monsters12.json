@@ -2811,7 +2811,7 @@
 			"*Statistics*  ",
 			"**Str** 14, **Dex** 16, **Con** 14, **Int** 2, **Wis** 15, **Cha** 7  ",
 			"**Base Atk** +3; CMB +5; CMD 18  ",
-			"**Feats** Flyby Attack, Power Attack  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack), [Power Attack](feat/power_attack)  ",
 			"**Skills** Fly +10, Perception +7 SQ tricks (attack, come, defend, down, guard, stay)  ",
 			"**Gear** flying straps"
 		]
@@ -3978,7 +3978,7 @@
 			"- A magical attack that deals fire damage ends any slow effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal.",
 			"- Any attempt at direct possession (such as the possession spell but not dominate monster) can affect a crystal golem. The golem does not resist these effects if they come from its creator or targets designated by its creator. Against all other attempts at intrusion, the golem receives a Will save at a +5 bonus.",
 			"",
-			"**Psychic Amplification (Su)** Each time a creature within 30 feet of a crystal golem uses a psychic spell or spell-like ability, the caster can choose to gain the benefit of either the Enlarge Spell, Extend Spell, Intuitive Spell, or Logical Spell metamagic feat without requiring a full-round action to cast. Only one such feat can be applied to a given casting. A crystal golem can use the spell-like abilities from its psychic magic as a swift action, and all its spell-like ability save DCs are Wisdom-based.",
+			"**Psychic Amplification (Su)** Each time a creature within 30 feet of a crystal golem uses a psychic spell or spell-like ability, the caster can choose to gain the benefit of either the [Enlarge Spell](feat/enlarge_spell), [Extend Spell](feat/extend_spell), [Intuitive Spell](feat/intuitive_spell), or [Logical Spell](feat/logical_spell) metamagic feat without requiring a full-round action to cast. Only one such feat can be applied to a given casting. A crystal golem can use the spell-like abilities from its psychic magic as a swift action, and all its spell-like ability save DCs are Wisdom-based.",
 			"",
 			"#### Description",
 			"",
@@ -4150,7 +4150,7 @@
 			"",
 			"Courser Bone Golem (CR +0): Designed to be ridden swiftly into battle, a courser bone golem lacks heavy weights on its reinforced hooves. A courser bone golem loses the staggering stomp ability, but has a base speed of 50 feet and gains the pounce ability.",
 			"",
-			"Destrier Bone Golem (CR +1): A destrier bone golem is fashioned with metal plates to resemble barding, although these plates primarily serve to bolster the golem's structural integrity rather than deflect blows. A destrier bone golem gains a +2 armor bonus to its AC, 20 additional hit points, and Improved Natural Attack as a bonus feat for each of its natural attacks.",
+			"Destrier Bone Golem (CR +1): A destrier bone golem is fashioned with metal plates to resemble barding, although these plates primarily serve to bolster the golem's structural integrity rather than deflect blows. A destrier bone golem gains a +2 armor bonus to its AC, 20 additional hit points, and [Improved Natural Attack](feat/improved_natural_attack) as a bonus feat for each of its natural attacks.",
 			"",
 			"**Family:** [Golem](family/golem)"
 		]
@@ -5504,7 +5504,7 @@
 			"",
 			"In addition, if a spell bearer panthereon's creator casts a spell within 60 feet of the panthereon, the golem may mirror its creator, and also cast the same spell the following round. A spell bearer panthereon can use this ability once per day for any spell 3rd-level or lower.",
 			"",
-			"Additional Construction Requirements: Improved Counterspell, mnemonic enhancer; Additional Cost: 30,000 gp.",
+			"Additional Construction Requirements: [Improved Counterspell](feat/improved_counterspell), mnemonic enhancer; Additional Cost: 30,000 gp.",
 			"",
 			"#### True Hunter (CR +1)",
 			"",
@@ -6438,7 +6438,7 @@
 			"",
 			"**Hibernate (Ex)** A gowrow can dig a burrow into wet ground and hibernate for up to a decade before needing to emerge and feed.",
 			"",
-			"**Swim-By Attack (Ex)** Known for water ambushes, gowrows gain Spring Attack as a bonus feat when swimming",
+			"**Swim-By Attack (Ex)** Known for water ambushes, gowrows gain [Spring Attack](feat/spring_attack) as a bonus feat when swimming",
 			"",
 			"#### Description",
 			"",
@@ -6769,11 +6769,11 @@
 			"",
 			"**Rune:** Rune Carved (Su)-Runes cover the graven guardian. Whenever the graven guardian takes energy damage or energy damage fails to overcome its SR, for the next round, its attacks deal +1d6 points of damage of that energy type. If more than one type of energy attack occurs in a round, roll randomly to determine what kind of extra energy damage it deals.",
 			"",
-			"**Strength:** Powerful (Ex)-The graven guardian gains Power Attack as a bonus feat.",
+			"**Strength:** Powerful (Ex)-The graven guardian gains [Power Attack](feat/power_attack) as a bonus feat.",
 			"",
 			"**Sun:** Dazzling (Su)-When the graven guardian scores a critical hit with its magic weapon, a bright flash blinds the target for 1d4 rounds (Fortitude save negates).",
 			"",
-			"**Travel:** Speedy (Su)-The guardian gains Mobility as a bonus feat, and all of its modes of movement increase by +10 feet.",
+			"**Travel:** Speedy (Su)-The guardian gains [Mobility](feat/mobility) as a bonus feat, and all of its modes of movement increase by +10 feet.",
 			"",
 			"**Trickery:** Trip (Su)-The graven guardian gains the trip ability with its melee weapon and slam attacks.",
 			"",
@@ -7089,7 +7089,7 @@
 			"",
 			"Crystal Ooze (CR 4): The crystal ooze is an aquatic variant that dwells in deeper waters than most commonly found in the gray ooze's beloved swamps. A crystal ooze has the aquatic subtype and a swim speed of 30 ft. The crystal ooze lacks the gray ooze's constrict ability, but it does secrete a paralytic toxin that causes those whom it strikes to become paralyzed for 3d6 rounds if they fail a Fortitude saving throw (the save DC is Constitution-based).",
 			"",
-			"Id Ooze (CR 6): Perhaps the strangest variant gray oozes are those that have developed a rudimentary intelligence, including the ability to communicate telepathically with other oozes, or even the ability to blast enemies with pulses of raw mental power. Id oozes are advanced gray oozes with an Intelligence score of 2 (and thus gain skill ranks and feats-typically 4 ranks in Stealth, Improved Initiative, and Toughness), can communicate basic empathic information with other id oozes within 100 feet via telepathy, and can use lesser confusion at will as a spell-like ability (CL equals the id ooze's HD)."
+			"Id Ooze (CR 6): Perhaps the strangest variant gray oozes are those that have developed a rudimentary intelligence, including the ability to communicate telepathically with other oozes, or even the ability to blast enemies with pulses of raw mental power. Id oozes are advanced gray oozes with an Intelligence score of 2 (and thus gain skill ranks and feats-typically 4 ranks in Stealth, [Improved Initiative](feat/improved_initiative), and [Toughness](feat/toughness)), can communicate basic empathic information with other id oozes within 100 feet via telepathy, and can use lesser confusion at will as a spell-like ability (CL equals the id ooze's HD)."
 		]
 	},
 	"gray_render": {

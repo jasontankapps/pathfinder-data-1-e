@@ -76,7 +76,7 @@
 			"",
 			"### Greater Faceless Hulks",
 			"",
-			"Known as ugoloroths among their own kind, the largest and most ancient faceless hulks serve as spies and infiltrators within the societies of the largest races of giantkind, including cloud giants, storm giants, and taiga giants. An ugoloroth is a faceless hulk with the advanced and giant creature simple templates. It gains Combat Reflexes and Greater Bull Rush as bonus feats. It casts spell-like abilities as a 12th-level caster, and gains levitate and undetectable alignment as at-will spell-like abilities. When using its change shape ability, an ugoloroth can take the shape of any Huge humanoid. More so than their ugoroth kin, ugoloroths often take levels in classes such as barbarian, fighter, ranger, sorcerer, and witch to more easily pass as members of various giant races."
+			"Known as ugoloroths among their own kind, the largest and most ancient faceless hulks serve as spies and infiltrators within the societies of the largest races of giantkind, including cloud giants, storm giants, and taiga giants. An ugoloroth is a faceless hulk with the advanced and giant creature simple templates. It gains [Combat Reflexes](feat/combat_reflexes) and [Greater Bull Rush](feat/greater_bull_rush) as bonus feats. It casts spell-like abilities as a 12th-level caster, and gains levitate and undetectable alignment as at-will spell-like abilities. When using its change shape ability, an ugoloroth can take the shape of any Huge humanoid. More so than their ugoroth kin, ugoloroths often take levels in classes such as barbarian, fighter, ranger, sorcerer, and witch to more easily pass as members of various giant races."
 		]
 	},
 	"ugoroth": { "copyof": "faceless_hulk_ugoroth" },
@@ -381,7 +381,7 @@
 			"",
 			"**Stability (Ex)** While standing on the ground, faerie mounts gain a +4 racial bonus to their Combat Maneuver Defense against bull rush and trip combat maneuvers.",
 			"",
-			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains Nimble Moves as a bonus feat.",
+			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains [Nimble Moves](feat/nimble_moves) as a bonus feat.",
 			"",
 			"#### Description",
 			"",
@@ -7141,7 +7141,7 @@
 			"",
 			"**Adamantine Bite (Ex)** A forgefiend's bite attacks are treated as adamantine for the purposes of overcoming damage reduction.",
 			"",
-			"**Rend Armor (Ex)** When a forgefiend hits with a bite attack, it chews any armor worn by the target-this grants the forgefiend a free sunder attempt against armor worn by the target if the victim fails a DC 22 Reflex save. A forgefiend also gains Greater Sunder and Improved Sunder as bonus feats. The save DC is Strength-based.",
+			"**Rend Armor (Ex)** When a forgefiend hits with a bite attack, it chews any armor worn by the target-this grants the forgefiend a free sunder attempt against armor worn by the target if the victim fails a DC 22 Reflex save. A forgefiend also gains [Greater Sunder](feat/greater_sunder) and [Improved Sunder](feat/improved_sunder) as bonus feats. The save DC is Strength-based.",
 			"",
 			"**Searing Spew (Su)** A forgefiend can belch forth a searing pile of slag from its body maw as a standard action once every 1d4 rounds. This blob of molten metal affects any 10-foot-square area adjacent to the forgefiend. Any creature in this area takes 14d6 points of fire damage (Reflex DC 22 halves). The slag quickly cools, forming a rugged pile of worthless scrap and misshapen metal that is treated as difficult terrain-this stuff crumbles to powder in 1 hour. The save DC is Constitution-based.",
 			"",
@@ -7609,7 +7609,7 @@
 			"",
 			"#### Description",
 			"",
-			"Oozes are much-feared denizens of the Darklands, yet many of them share characteristics that canny adventurers can exploit. The two best known are their mindlessness (a feature that lets an experienced adventurer manipulate the ooze in a battle, due to its inability to use tactics) and their lack of armor (a quality that allows for tactics like Power Attack to be used with abandon). However, those who stumble across one of the so-called formless spawn of Tsathoggua would do well to remember that not all oozes are mindless and easily hit in combat, for these deadly guardians prove quite cunning and display an alacrity that grants them incredible defenses against physical attacks.",
+			"Oozes are much-feared denizens of the Darklands, yet many of them share characteristics that canny adventurers can exploit. The two best known are their mindlessness (a feature that lets an experienced adventurer manipulate the ooze in a battle, due to its inability to use tactics) and their lack of armor (a quality that allows for tactics like [Power Attack](feat/power_attack) to be used with abandon). However, those who stumble across one of the so-called formless spawn of Tsathoggua would do well to remember that not all oozes are mindless and easily hit in combat, for these deadly guardians prove quite cunning and display an alacrity that grants them incredible defenses against physical attacks.",
 			"",
 			"A formless spawn at rest resembles nothing more than a simple puddle of tar, oil, or another dark, thick liquid; once roused to attack, however, it could never be mistaken for anything other than a monstrous and malignant predator. The creature's outline changes constantly, shifting from serpentine to insectile to a truly shapeless mass-at times even approximating humanoid or other bestial shapes before collapsing in on itself a moment later. Always, the formless spawn sends forth a storm of tendrils that whip and writhe, blocking attacks and fouling attempts at combat maneuvers. The creatures can speak if they deign to, yet they rarely bother to do so with creatures that have fixed shapes-formless spawn consider talking to one's food a waste of time.",
 			"",

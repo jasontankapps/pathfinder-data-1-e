@@ -139,7 +139,7 @@
 			"**Aura** faint abjuration and transmutation; **CL** 3rd  ",
 			"**Slot** hands; **Price** 3,000 gp; **Weight** 1 lb.",
 			"",
-			"These sleek gloves bear a faint scaled pattern and shimmer slightly, as if they were covered in ice crystals. While in cold or colder weather, rimeshaper gloves allow the wearer to solidify nearby snow or ice into a light or one-handed weapon of normal quality with a hardness of 2. Creating such a weapon takes the same amount of time that it would take to draw it from a sheath-a move action for most, but faster for a wearer with the Quick Draw feat or a similar ability, for example. These weapons evaporate if left unattended for 1 round; otherwise, they last for 1 minute, after which they melt into pure liquid. Alternatively, as a move action, the wearer can cause actual ice crystals to form over the gloves, causing them to act as masterwork spiked gauntlets that also grant a +2 competence bonus on Climb checks. This effect lasts until it is dismissed as a standard action. Finally, the gloves grant the wearer cold resistance 5.",
+			"These sleek gloves bear a faint scaled pattern and shimmer slightly, as if they were covered in ice crystals. While in cold or colder weather, rimeshaper gloves allow the wearer to solidify nearby snow or ice into a light or one-handed weapon of normal quality with a hardness of 2. Creating such a weapon takes the same amount of time that it would take to draw it from a sheath-a move action for most, but faster for a wearer with the [Quick Draw](feat/quick_draw) feat or a similar ability, for example. These weapons evaporate if left unattended for 1 round; otherwise, they last for 1 minute, after which they melt into pure liquid. Alternatively, as a move action, the wearer can cause actual ice crystals to form over the gloves, causing them to act as masterwork spiked gauntlets that also grant a +2 competence bonus on Climb checks. This effect lasts until it is dismissed as a standard action. Finally, the gloves grant the wearer cold resistance 5.",
 			"",
 			"### Construction",
 			"",
@@ -211,7 +211,7 @@
 			"",
 			"These rough leather gloves grant an enhancement bonus of +1 to +5 on attack and damage rolls with improvised weapons. Alternatively, the gloves can grant melee weapon special abilities, so long as they can be applied to melee or thrown weapons. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. Gloves of improvised might cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. Unlike an amulet of mighty fists, gloves of improvised might must have a +1 enhancement bonus to grant a melee weapon special ability.",
 			"",
-			"Normal weapons are unaffected by gloves of improvised might except when used as an improvised weapon in a way specifically permitted by the weapon description, such as using an arrow or bolt as a melee weapon (or if the user has an ability that allows the use of normal weapons as improvised weapons). The wearer still takes a -4 nonproficiency penalty on attack rolls with improvised weapons, as normal, unless he has the Catch Off-Guard feat or a similar ability.",
+			"Normal weapons are unaffected by gloves of improvised might except when used as an improvised weapon in a way specifically permitted by the weapon description, such as using an arrow or bolt as a melee weapon (or if the user has an ability that allows the use of normal weapons as improvised weapons). The wearer still takes a -4 nonproficiency penalty on attack rolls with improvised weapons, as normal, unless he has the [Catch Off-Guard](feat/catch_off-guard) feat or a similar ability.",
 			"",
 			"### Construction",
 			"",
@@ -273,7 +273,7 @@
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** hands; **Price** 4,000 gp; **Weight** -;",
 			"",
-			"Once worn, these snug gloves seem to meld with the hands, becoming almost invisible to casual observation. Twice per day, the wearer can act as if he had the Snatch Arrows feat, even if he does not meet the prerequisites for the feat. Both gloves must be worn for the magic to be effective, and at least one hand must be free to take advantage of the magic.",
+			"Once worn, these snug gloves seem to meld with the hands, becoming almost invisible to casual observation. Twice per day, the wearer can act as if he had the [Snatch Arrows](feat/snatch_arrows) feat, even if he does not meet the prerequisites for the feat. Both gloves must be worn for the magic to be effective, and at least one hand must be free to take advantage of the magic.",
 			"",
 			"### Construction",
 			"",
@@ -419,7 +419,7 @@
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** hands; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"These soft leather gloves are decorated with even rows of mithral rivets. Only a spellcaster with the Arcane Strike feat can activate their abilities. These abilities are as follows.",
+			"These soft leather gloves are decorated with even rows of mithral rivets. Only a spellcaster with the [Arcane Strike](feat/arcane_strike) feat can activate their abilities. These abilities are as follows.",
 			"",
 			"- When the wearer uses the aid another action to improve an ally's attack roll, the ally adds the wearer's Arcane Strike damage bonus to its damage roll for that attack.",
 			"- When the wearer makes an attack using Arcane Strike and hits, enemies adjacent to the target take damage equal to the wearer's Arcane Strike damage bonus. This damage is of the same type as the weapon's damage (bludgeoning, piercing, and so on).",
@@ -585,7 +585,7 @@
 			"**Aura** faint necromancy and transmutation; **CL** 4th  ",
 			"**Slot** hands; **Price** 7,200 gp; **Weight** 1 lb.",
 			"",
-			"These ruddy leather gloves enhance the precision of the wearer. When wielding a piercing or slashing weapon and using Weapon Finesse, the wearer can mark a creature when confirming a critical hit instead of dealing additional damage. The mark consists of a simple symbol, such as a single letter.",
+			"These ruddy leather gloves enhance the precision of the wearer. When wielding a piercing or slashing weapon and using [Weapon Finesse](feat/weapon_finesse), the wearer can mark a creature when confirming a critical hit instead of dealing additional damage. The mark consists of a simple symbol, such as a single letter.",
 			"",
 			"The wielder and her allies gain a +2 morale bonus on attack rolls and melee damage rolls against the marked creature for 1 minute. In addition, the marked creature must succeed at a Will saving throw (DC 10 + one-half the wielder's level + the wielder's Dexterity modifier) or be shaken for 1 minute. The bonuses and condition persist even if the damage caused by the mark is healed.",
 			"",
@@ -642,7 +642,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Casting, [Craft Wondrous Item](feat/craft_wondrous_item), creator must be an elf; **Cost** 3,500 gp"
+			"**Requirements** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), creator must be an elf; **Cost** 3,500 gp"
 		]
 	},
 	"bloodstained_gloves": {
@@ -821,7 +821,7 @@
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** hands; **Price** 9,000 gp; **Weight** -;",
 			"",
-			"These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky. Like gloves of arrow snaring, twice per day the wearer can act as if she had the Snatch Arrow feat, even if she doesn't meet the prerequisites for that feat. In addition, the wearer can expend one of this item's uses per day to use the Snatch Arrows feat on a projectile targeting an ally in a space adjacent to her.",
+			"These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky. Like gloves of arrow snaring, twice per day the wearer can act as if she had the [Snatch Arrow](feat/snatch_arrow) feat, even if she doesn't meet the prerequisites for that feat. In addition, the wearer can expend one of this item's uses per day to use the Snatch Arrows feat on a projectile targeting an ally in a space adjacent to her.",
 			"",
 			"As an immediate action, the wearer can expend one use of mythic power and one of this item's uses per day to block a spell targeting her or an adjacent ally, as the parry spell guardian path ability.",
 			"",
@@ -985,7 +985,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
-			"These fine silk wrappings-covered in mystic symbols and diagrams of the wearer's pressure points-wind around the wearer's hands and wrists. When the wearer spends ki to make an additional attack, he can spend 1 additional point of ki to use the Stunning Fist feat with the attack, even if he has already used the feat that round.",
+			"These fine silk wrappings-covered in mystic symbols and diagrams of the wearer's pressure points-wind around the wearer's hands and wrists. When the wearer spends ki to make an additional attack, he can spend 1 additional point of ki to use the [Stunning Fist](feat/stunning_fist) feat with the attack, even if he has already used the feat that round.",
 			"",
 			"If the wearer is a monk using an archetype that replaces Stunning Fist with a different feat that's usable a number times per day equal to his monk level, hand wraps of blinding ki allow that feat to be used a second time instead of allowing him to use Stunning Fist.",
 			"",
@@ -1040,11 +1040,11 @@
 			"",
 			"This pair of nondescript gloves comes in a great variety of styles. Some are elegant, suitable for pairing with a tuxedo or evening gown. Others are rugged and fingerless, or appear medical in nature. The gloves, when worn, grant the wearer the Catch Off- Guard feat, even if the wearer doesn't qualify for it.",
 			"",
-			"Expert gloves of unexpected violence also grant the Improvised Weapon Mastery feat.",
+			"Expert gloves of unexpected violence also grant the [Improvised Weapon Mastery](feat/improvised_weapon_mastery) feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Catch Off-Guard, [Craft Wondrous Item](feat/craft_wondrous_item), Improvised Weapon Mastery; **Cost** 5,000 gp (Standard), 15,000 gp (Expert)"
+			"**Requirements** [Catch Off-Guard](feat/catch_off-guard), [Craft Wondrous Item](feat/craft_wondrous_item), Improvised Weapon Mastery; **Cost** 5,000 gp (Standard), 15,000 gp (Expert)"
 		]
 	},
 	"standard_gloves_of_unexpected_violence": {
@@ -1277,7 +1277,7 @@
 			"",
 			"As a move action, the wearer of these fine leather gloves can pick up an unattended object (weighing no more than 20 pounds) that is up to 30 feet away, and move it up to 30 feet. The object falls to the ground at the end of the movement unless the wearer of the gloves moves it into his hand. This action doesn't provoke attacks of opportunity.",
 			"",
-			"By expending one use of mythic power as a free action on his turn, the wearer can focus the power of the gloves, allowing him to make unarmed strikes and combat maneuvers to bull rush, disarm, or trip against foes up to 30 feet away until the end of his turn. Treat these attacks as though the wearer had 30 feet of reach. When attacking a non-adjacent target in this manner, the wearer can't be affected by feats and abilities like Strike Back or fire shield that require touching or coming near the target. The gloves don't increase the wearer's threatened area.",
+			"By expending one use of mythic power as a free action on his turn, the wearer can focus the power of the gloves, allowing him to make unarmed strikes and combat maneuvers to bull rush, disarm, or trip against foes up to 30 feet away until the end of his turn. Treat these attacks as though the wearer had 30 feet of reach. When attacking a non-adjacent target in this manner, the wearer can't be affected by feats and abilities like [Strike Back](feat/strike_back) or fire shield that require touching or coming near the target. The gloves don't increase the wearer's threatened area.",
 			"",
 			"### Construction",
 			"",
@@ -2037,7 +2037,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** head; **Price** 3,200 gp; **Weight** -;",
 			"",
-			"This ghost-white shawl is partially transparent and flutters elegantly with every motion its wearer makes. If the wearer has the shared consciousness class feature, she gains the Skill Focus feat in both skills determined by her phantom's emotional focus while the phantom is manifested in ectoplasmic or incorporeal form. While her phantom is confined in her consciousness, she instead gains a +4 competence bonus on skill checks with those skills.",
+			"This ghost-white shawl is partially transparent and flutters elegantly with every motion its wearer makes. If the wearer has the shared consciousness class feature, she gains the [Skill Focus](feat/skill_focus) feat in both skills determined by her phantom's emotional focus while the phantom is manifested in ectoplasmic or incorporeal form. While her phantom is confined in her consciousness, she instead gains a +4 competence bonus on skill checks with those skills.",
 			"",
 			"### Construction",
 			"",
@@ -3183,7 +3183,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, heroism; **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), heroism; **Cost** 6,000 gp"
 		]
 	},
 	"mask_of_the_rabbit_prince": {
@@ -3710,7 +3710,7 @@
 			"",
 			"Crafted from gold and lacquer, these elaborate masks resemble various outsiders. Once per day when the wearer casts a summon monster spell, he may choose to house the summoned outsider within the visage of the bound rather than conjuring it onto the Material Plane. For the spell's duration, the wearer can use of any of the bound outsider's spell-like abilities as if they were his own. A visage of the bound has no effect on outsiders already summoned or on summoning spells cast by other creatures. Removing the mask immediately releases a bound outsider.",
 			"",
-			"The wearer cannot use the bound outsider's spell-like abilities to summon other creatures, and a summoner cannot activate a visage of the bound while his eidolon is summoned. Effects that extend the duration of a summon monster spell (such a the Extend Spell metamagic feat or the conjurer's summoner's charm class ability) have no effect on the duration of a spell contained by a visage of the bound. Outsiders who are opposed to one or more axes of the wearer's alignment cannot be housed within a visage of the bound.",
+			"The wearer cannot use the bound outsider's spell-like abilities to summon other creatures, and a summoner cannot activate a visage of the bound while his eidolon is summoned. Effects that extend the duration of a summon monster spell (such a the [Extend Spell](feat/extend_spell) metamagic feat or the conjurer's summoner's charm class ability) have no effect on the duration of a spell contained by a visage of the bound. Outsiders who are opposed to one or more axes of the wearer's alignment cannot be housed within a visage of the bound.",
 			"",
 			"### Construction",
 			"",
@@ -3823,7 +3823,7 @@
 			"",
 			"This crown of steel and gold projects an aura of menacing power. The wearer gains a +4 competence bonus on Intimidate checks, and whenever he confirms a critical hit, the crown creates a prayer effect centered on the crown's wearer (caster level 5th).",
 			"",
-			"If the wearer of the crown has the Leadership feat, he gains a +1 bonus to his Leadership score and any follower or cohort of the wearer gains a +1 bonus on attack rolls and saving throws against fear effects while within line of sight of the wearer.",
+			"If the wearer of the crown has the [Leadership](feat/leadership) feat, he gains a +1 bonus to his Leadership score and any follower or cohort of the wearer gains a +1 bonus on attack rolls and saving throws against fear effects while within line of sight of the wearer.",
 			"",
 			"### Construction",
 			"",
@@ -4018,7 +4018,7 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** head; **Price** 29,000 gp; **Weight** 6 lbs.",
 			"",
-			"Many seasoned military commanders in Molthune wear this style of silver helmet adorned with a single oversized red plume. If the wearer of an Imperial Army greathelm has the Leadership feat, he gains a +3 bonus to his Leadership score, and any of his followers or cohorts gain a +1 bonus on attack rolls and on saving throws against fear effects while they're within line of sight of him.",
+			"Many seasoned military commanders in Molthune wear this style of silver helmet adorned with a single oversized red plume. If the wearer of an Imperial Army greathelm has the [Leadership](feat/leadership) feat, he gains a +3 bonus to his Leadership score, and any of his followers or cohorts gain a +1 bonus on attack rolls and on saving throws against fear effects while they're within line of sight of him.",
 			"",
 			"If the wearer possesses the tactician class feature, the range of that ability increases to 60 feet.",
 			"",
@@ -4901,7 +4901,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, fly; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), fly; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
 		]
 	},
 	"shifter's_headband_2": {

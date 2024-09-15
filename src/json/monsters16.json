@@ -315,7 +315,7 @@
 			"",
 			"### Crocotta",
 			"",
-			"These degenerate offshoots of leucrottas have animal-level intelligence, but sense a kinship with leucrottas and obey them instinctively. Treat a crocotta as an advanced dire hyena with Improved Critical (bite) as a bonus feat.",
+			"These degenerate offshoots of leucrottas have animal-level intelligence, but sense a kinship with leucrottas and obey them instinctively. Treat a crocotta as an advanced dire hyena with [Improved Critical](feat/improved_critical) (bite) as a bonus feat.",
 			"",
 			"A crocotta looks similar to a leucrotta, save that it has shorter back legs, giving it a hunched, more hyena-like appearance. Leucrottas view crocottas with disdain and even shame, but it's not unusual to find these large hyena-like beasts in close proximity to a leucrotta pack. Crocottas are popular attractions in traveling carnivals, where unscrupulous con artists bill them as cursed humanoids or animals."
 		]
@@ -2645,7 +2645,7 @@
 			"*Statistics*  ",
 			"**Str** 21, **Dex** 14, **Con** 13, **Int** 2, **Wis** 12, **Cha** 7  ",
 			"**Base Atk** +6; **CMB** +12 (+14 bull rush or overrun); **CMD** 24 (26 vs. bull rush or overrun)  ",
-			"**Feats** Improved Bull Rush, Improved Natural Attack (gore), Improved Overrun, Power Attack  ",
+			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Improved Natural Attack](feat/improved_natural_attack) (gore), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack)  ",
 			"**Skills** Perception +12  ",
 			"**SQ** devotion, tricks (attack [all creatures], come, defend, down, guard, heal, seek, stay, work)"
 		]
@@ -5128,7 +5128,7 @@
 			"",
 			"**Str** 27, **Dex** 12, **Con**: 21, **Int** 2, **Wis** 21, **Cha**, 12  ",
 			"**Base Atk** +14; **CMB** +24; **CMD** 35  ",
-			"**Feats** Improved Critical (claw), Improved Initiative, [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus) [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** [Improved Critical](feat/improved_critical) (claw), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus) [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Perception +18, Stealth +11 (+19 in forests); **Racial Modifiers** +8 Stealth (+16 in forests)",
 			"",
 			"#### Ecology",
@@ -7041,7 +7041,7 @@
 			"",
 			"Without the need to eat, sleep, or breathe, mezlans are practically immortal. When they are defeated in battle, they simply discorporate and begin seeping down into the soil or cracks in the ground. If the material making up a mezlan isn't contained in some way or destroyed by subjecting it to continued energy damage, the creature lies dormant for 10 years before reforming. When a mezlan reincorporates, it is treated as if it had 16 negative levels. These negative levels are removed at a rate of 1 per month.",
 			"",
-			"Mezlans retain a portion of their previous memories and experiences, but the extent of those memories varies from individual to individual. Some mezlans slowly regain their memories, some immediately remember everything from their previous incorporation, and others never fully recall their previous selves. A mezlan that retains its living memories typically has several class levels, although it should be noted that not all skills and abilities humanoids have in life translate directly to life as a shapeshifting ooze. One notable exception is a mezlan's morphic weapons. While these attacks are natural weapons and a mezlan thus cannot gain iterative attacks, a mezlan who has feats or class abilities that bolster specific weapons can apply the effects of those feats or abilities to its morphic weapons, provided the weapons are of the right shape. For example, a mezlan with Weapon Focus (longsword) would gain a +1 bonus on attack rolls with its morphic weapon attacks when they are in the shape of a longsword. This limits the damage type dealt by the morphic weapon to a damage type appropriate to the weapon being duplicated.",
+			"Mezlans retain a portion of their previous memories and experiences, but the extent of those memories varies from individual to individual. Some mezlans slowly regain their memories, some immediately remember everything from their previous incorporation, and others never fully recall their previous selves. A mezlan that retains its living memories typically has several class levels, although it should be noted that not all skills and abilities humanoids have in life translate directly to life as a shapeshifting ooze. One notable exception is a mezlan's morphic weapons. While these attacks are natural weapons and a mezlan thus cannot gain iterative attacks, a mezlan who has feats or class abilities that bolster specific weapons can apply the effects of those feats or abilities to its morphic weapons, provided the weapons are of the right shape. For example, a mezlan with [Weapon Focus](feat/weapon_focus) (longsword) would gain a +1 bonus on attack rolls with its morphic weapon attacks when they are in the shape of a longsword. This limits the damage type dealt by the morphic weapon to a damage type appropriate to the weapon being duplicated.",
 			"",
 			"From all appearances, mezlans seem to get along well with each other; however, to normal, living creatures, they often appear strange and unnatural in both form and behavior. They are very observant creatures that study everything they encounter, especially animals and humanoids-a frequent use of their skill pool ability. Some mezlans become accustomed to a particular form or body and use it as a default. Others keep dozens of regular guises and take on the ones most appropriate for particular duties they need to complete, using appearances and personalities as tools throughout their day-to-day activities. A few purists keep an amorphous, bloblike form unless they need to resemble something else. Strange mezlans who have gone mad over the years constantly shift their forms, flickering between hundreds of different shapes.",
 			"",

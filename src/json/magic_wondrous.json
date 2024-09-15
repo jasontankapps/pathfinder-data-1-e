@@ -760,7 +760,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** belt; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
-			"The secret weapons of the Lumber Consortium's enforcers throughout Andoran, these belts nominally appear as expensive but effective aids for felling trees, but are instead used by the Consortium's enforcers. A creature wearing a feller's belt gains +4 bonus on combat maneuver checks to sunder wooden objects, ignores any hardness possessed by wooden objects, and bypasses the damage reduction of any creatures of the plant or fey type. A creature wearing a feller's belt for over 24 hours doubles the critical threat range of any held axe, as though that weapon possessed the keen weapon special ability. This benefit lasts for as long as the belt is worn, and doesn't stack with any other effects that expand the critical threat range of a weapon (such as keen edge or the Improved Critical feat).",
+			"The secret weapons of the Lumber Consortium's enforcers throughout Andoran, these belts nominally appear as expensive but effective aids for felling trees, but are instead used by the Consortium's enforcers. A creature wearing a feller's belt gains +4 bonus on combat maneuver checks to sunder wooden objects, ignores any hardness possessed by wooden objects, and bypasses the damage reduction of any creatures of the plant or fey type. A creature wearing a feller's belt for over 24 hours doubles the critical threat range of any held axe, as though that weapon possessed the keen weapon special ability. This benefit lasts for as long as the belt is worn, and doesn't stack with any other effects that expand the critical threat range of a weapon (such as keen edge or the [Improved Critical](feat/improved_critical) feat).",
 			"",
 			"### Construction",
 			"",
@@ -1115,11 +1115,11 @@
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
-			"If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for Power Attack. If his attack roll is greater than the opponent's attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer's reach to use this ability. Whether the attack succeeds or not, the wearer takes a -4 penalty on attack rolls until the end of his next turn.",
+			"If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for [Power Attack](feat/power_attack). If his attack roll is greater than the opponent's attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer's reach to use this ability. Whether the attack succeeds or not, the wearer takes a -4 penalty on attack rolls until the end of his next turn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Combat Expertise, Improved Unarmed Strike; **Cost** 12,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Combat Expertise](feat/combat_expertise), [Improved Unarmed Strike](feat/improved_unarmed_strike); **Cost** 12,500 gp"
 		]
 	},
 	"silver_soul_cord": {
@@ -1751,7 +1751,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Quicken Spell-Like Ability, creator must be a sorcerer; **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Quicken Spell-Like Ability](feat/quicken_spell-like_ability), creator must be a sorcerer; **Cost** 2,500 gp"
 		]
 	},
 	"dhoti_of_style_mastery": {
@@ -2106,7 +2106,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** body; **Price** 13,000 gp; **Weight** 1 lb.",
 			"",
-			"When worn, this simple brown robe confers great ability in unarmed combat. If the wearer has levels in monk, her AC and unarmed damage are treated as a monk of 5 levels higher. If donned by a character with the Stunning Fist feat, the robe lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk (although she does not add her Wisdom bonus to her AC). This AC bonus functions just like the monk's AC bonus.",
+			"When worn, this simple brown robe confers great ability in unarmed combat. If the wearer has levels in monk, her AC and unarmed damage are treated as a monk of 5 levels higher. If donned by a character with the [Stunning Fist](feat/stunning_fist) feat, the robe lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk (although she does not add her Wisdom bonus to her AC). This AC bonus functions just like the monk's AC bonus.",
 			"",
 			"### Construction",
 			"",
@@ -2150,7 +2150,7 @@
 			"",
 			"If the wearer is evil but not a monk, she gains the AC bonus and unarmed damage of a 5th-level monk (although she doesn't add her Wisdom bonus to her AC). This AC bonus otherwise functions just like the monk's AC bonus.",
 			"",
-			"If the robe is donned by a character with the Hamatulatsu feat, the duration of the sickened effect increases to 2 rounds. If the wearer doesn't have the Hamatulatsu feat, she gains this feat while wearing the robes, but gains no further benefits to that ability.",
+			"If the robe is donned by a character with the [Hamatulatsu](feat/hamatulatsu) feat, the duration of the sickened effect increases to 2 rounds. If the wearer doesn't have the Hamatulatsu feat, she gains this feat while wearing the robes, but gains no further benefits to that ability.",
 			"",
 			"### Construction",
 			"",
@@ -2395,7 +2395,7 @@
 			"**Aura** strong abjuration; **CL** 12th  ",
 			"**Slot** body; **Price** 36,000 gp; **Weight** 5 lbs.",
 			"",
-			"This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the Amateur Gunslinger feat (see Ultimate Combat), she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.",
+			"This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the [Amateur Gunslinger](feat/amateur_gunslinger) feat, she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.",
 			"",
 			"### Construction",
 			"",
@@ -3062,7 +3062,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Combat Casting; **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Combat Casting](feat/combat_casting); **Cost** 2,500 gp"
 		]
 	},
 	"apron_of_the_careful_chemist": {
@@ -3405,7 +3405,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** chest; **Price** 10,000 gp; **Weight** -;",
 			"",
-			"This stylish silk shirt has a loose and flowing fit except for the sleeves, which cling snugly to the wearer's arms from elbow to wrist. The sleeves guide the wearer's attacks to take advantage of brief gaps in a foe's defenses. Five times per day, the wearer can make a lunging melee maneuver and extend his reach by 5 feet for a single melee attack. If the wearer has the Lunge feat, he can instead use that feat five times per day without taking the normal -2 penalty.",
+			"This stylish silk shirt has a loose and flowing fit except for the sleeves, which cling snugly to the wearer's arms from elbow to wrist. The sleeves guide the wearer's attacks to take advantage of brief gaps in a foe's defenses. Five times per day, the wearer can make a lunging melee maneuver and extend his reach by 5 feet for a single melee attack. If the wearer has the [Lunge](feat/lunge) feat, he can instead use that feat five times per day without taking the normal -2 penalty.",
 			"",
 			"### Construction",
 			"",
@@ -4146,7 +4146,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Skill Focus (Perception), acute senses; **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Skill Focus](feat/skill_focus) (Perception), acute senses; **Cost** 3,000 gp"
 		]
 	},
 	"spendthrift_spectacles": {
@@ -4404,7 +4404,7 @@
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** eyes; **Price** 12,000 gp; **Weight** -;",
 			"",
-			"Fashioned from a scrap of a blind beggar's clothing, a blind man's fold is often used by explorers who must traverse caves inhabited by invisible creatures, or those drawn to sources of light. A blind man's fold fully obscures normal vision while worn, but grants the effects of the Improved Blind-Fight feat. Creatures which are unable to see normally gain no benefit from wearing a blind man's fold.",
+			"Fashioned from a scrap of a blind beggar's clothing, a blind man's fold is often used by explorers who must traverse caves inhabited by invisible creatures, or those drawn to sources of light. A blind man's fold fully obscures normal vision while worn, but grants the effects of the [Improved Blind-Fight](feat/improved_blind-fight) feat. Creatures which are unable to see normally gain no benefit from wearing a blind man's fold.",
 			"",
 			"### Construction",
 			"",
@@ -5079,7 +5079,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Endurance; **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Endurance](feat/endurance); **Cost** 750 gp"
 		]
 	},
 	"bondbreaker's_boots": {
@@ -5866,7 +5866,7 @@
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** feet; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"These simple wooden sandals allow their wearer to step in the way of danger to protect her allies. Three times per day as an immediate action, the wearer can take a 5-foot step to move into the path of a ranged attack and treat herself as the target of the ranged attack that passes through her square for the purposes of Deflect Arrows, Snatch Arrows, Missile Shield, and other feats and abilities that allow her to deflect ranged attacks. If she lacks a feat or ability that would allow her to deflect the ranged attack, the wearer is instead simply struck by the attack regardless of the attack roll's result or her AC. The wearer can't take a 5-foot step during the turn after using this ability.",
+			"These simple wooden sandals allow their wearer to step in the way of danger to protect her allies. Three times per day as an immediate action, the wearer can take a 5-foot step to move into the path of a ranged attack and treat herself as the target of the ranged attack that passes through her square for the purposes of [Deflect Arrows](feat/deflect_arrows), [Snatch Arrows](feat/snatch_arrows), [Missile Shield](feat/missile_shield), and other feats and abilities that allow her to deflect ranged attacks. If she lacks a feat or ability that would allow her to deflect the ranged attack, the wearer is instead simply struck by the attack regardless of the attack roll's result or her AC. The wearer can't take a 5-foot step during the turn after using this ability.",
 			"",
 			"### Construction",
 			"",
@@ -6541,7 +6541,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Quicken Spell, dimension door, fog cloud, creator must be a tiefling; **Cost** 22,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Quicken Spell](feat/quicken_spell), dimension door, fog cloud, creator must be a tiefling; **Cost** 22,500 gp"
 		]
 	},
 	"boots_of_fiendish_escape": {

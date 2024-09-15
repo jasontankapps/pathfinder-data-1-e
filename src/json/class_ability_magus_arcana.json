@@ -40,7 +40,7 @@
 		"name": "Arcane Dealer",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the [Deadly Dealer](feat/deadly_dealer) feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either Arcane Strike or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
+			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the [Deadly Dealer](feat/deadly_dealer) feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either [Arcane Strike](feat/arcane_strike) or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
 		]
 	},
 	"arcane_deed": {

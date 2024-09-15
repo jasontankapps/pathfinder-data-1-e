@@ -64,7 +64,7 @@
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** 1/2 lb.",
 			"",
-			"This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric's smite, an inquisitor's smiting judgment, or a paladin's smite), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the Improved Unarmed Strike feat.",
+			"This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric's smite, an inquisitor's smiting judgment, or a paladin's smite), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat.",
 			"",
 			"### Construction",
 			"",
@@ -481,7 +481,7 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 4 lbs.",
 			"",
-			"This heavy gold neck ring resembles a braided rope. When the wearer performs a raging song or benefits from an ally's raging song, she gains the Diehard feat for the duration of the song. In addition, she benefits from any helpful raging song or bardic performance for 1 round after the performance ends or would normally cease affecting the wearer. This does not stack with other means of prolonging the effects of a performance that has ended.",
+			"This heavy gold neck ring resembles a braided rope. When the wearer performs a raging song or benefits from an ally's raging song, she gains the [Diehard](feat/diehard) feat for the duration of the song. In addition, she benefits from any helpful raging song or bardic performance for 1 round after the performance ends or would normally cease affecting the wearer. This does not stack with other means of prolonging the effects of a performance that has ended.",
 			"",
 			"### Construction",
 			"",
@@ -739,7 +739,7 @@
 			"",
 			"The fine chain bears a glass-fronted locket. If a piece of an outsider with an alignment subtype-such as a tooth from a demon or an angel's wing feather-is held in the locket for 24 hours, the blessed keepsake's magic activates. If the creature has more than one alignment subtype, one must be chosen when the piece is added to the locket.",
 			"",
-			"The wearer can detect creatures of the chosen alignment at will, as the corresponding detect chaos/evil/good/law spell. Three times per day, the wearer can use the blessed keepsake to gain protection from creatures of that alignment, as the corresponding protection from chaos/evil/good/law spell. Lastly, if the wearer has the channel energy ability, she can channel energy to affect outsiders with that subtype as if she possessed the Alignment Channel feat.",
+			"The wearer can detect creatures of the chosen alignment at will, as the corresponding detect chaos/evil/good/law spell. Three times per day, the wearer can use the blessed keepsake to gain protection from creatures of that alignment, as the corresponding protection from chaos/evil/good/law spell. Lastly, if the wearer has the channel energy ability, she can channel energy to affect outsiders with that subtype as if she possessed the [Alignment Channel](feat/alignment_channel) feat.",
 			"",
 			"If the piece of outsider is removed, the blessed keepsake is inactive until a new piece is attuned.",
 			"",
@@ -1394,7 +1394,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Spell Focus (abjuration), resistance, creator must be able to use the ward hex; **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Spell Focus](feat/spell_focus) (abjuration), resistance, creator must be able to use the ward hex; **Cost** 5,000 gp"
 		]
 	},
 	"nursing_necklace_leech": {
@@ -1749,7 +1749,7 @@
 			"",
 			"This small statuette-carved from the tusk of a dire boar, chunks of twisted metal, or some manner of dark stone-is a simplistic depiction of a pregnant deity, fiend, or orc. Dark stains mark the face of the crude icon, typically smears of a fallen orc's blood. A simple strand of leather affixes the amulet around the neck.",
 			"",
-			"The figurine allows the wearer to act normally for a single round after being reduced to less than 0 hit points, as though he had the orc ferocity half-orc racial ability. A wearer with orc blood is instead treated as though he had the Diehard feat. If the wearer is of orc blood and already has the Diehard feat, he may act normally for an additional round after being reduced to below 0 hit points.",
+			"The figurine allows the wearer to act normally for a single round after being reduced to less than 0 hit points, as though he had the orc ferocity half-orc racial ability. A wearer with orc blood is instead treated as though he had the [Diehard](feat/diehard) feat. If the wearer is of orc blood and already has the Diehard feat, he may act normally for an additional round after being reduced to below 0 hit points.",
 			"",
 			"Whenever the wearer of the talisman is reduced to less than 0 hit points, the amulet weeps tears of blood. Should the wearer be slain, the talisman screams and shatters.",
 			"",
@@ -2176,7 +2176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Spell Penetration, magic weapon, jump; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Spell Penetration](feat/spell_penetration), magic weapon, jump; **Cost** 10,000 gp"
 		]
 	},
 	"halflight_charm_greater": {
@@ -2417,7 +2417,7 @@
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** neck; **Price** 28,000 gp; **Weight** -;",
 			"",
-			"This simple bronze amulet depicts a mountaintop being shattered by a sword blow. Twice per day, the amulet's wearer can make a single melee attack against the ground as a standard action. The wearer can choose a point of origin within 100 feet of himself and apply his attack roll against all creatures within a 20-foot radius of that point. The amulet's wearer rolls his attack's damage once and applies it to all creatures in the affected area. The damage includes the weapon's base damage dice, the wearer's Strength modifier, and damage from feats such as Power Attack and Vital Strike; it doesn't include damage from other magical sources, such as enhancement bonuses, spells, and magic weapon special abilities.",
+			"This simple bronze amulet depicts a mountaintop being shattered by a sword blow. Twice per day, the amulet's wearer can make a single melee attack against the ground as a standard action. The wearer can choose a point of origin within 100 feet of himself and apply his attack roll against all creatures within a 20-foot radius of that point. The amulet's wearer rolls his attack's damage once and applies it to all creatures in the affected area. The damage includes the weapon's base damage dice, the wearer's Strength modifier, and damage from feats such as [Power Attack](feat/power_attack) and [Vital Strike](feat/vital_strike); it doesn't include damage from other magical sources, such as enhancement bonuses, spells, and magic weapon special abilities.",
 			"",
 			"### Construction",
 			"",
@@ -2793,7 +2793,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 67,500 gp; **Weight** -;",
 			"",
-			"This crimson devil talisman once belonged to the diabolist Sheel Leroung, a conjurer who aided Daidian Ruel in investigating the ways of Hell. The wearer of this talisman gains a +3 profane bonus to Armor Class and a telepathic bond with the bearded devil bound within. Once per day, the wearer can attempt an opposed Charisma check against the barbazu's +0 modifier to summon him forth for 8 rounds, as per the spell summon monster. The barbazu bound within this talisman is known as Lodveyn the Wizened. Rather than Weapon Focus (glaive), Lodveyn has Throw Anything-preferring to fling his polearm, then following it into the fray with his vicious claws. He claims to have been a servant of both Leroung and the ice devil Voulgarghas, and remembers much of the early days of the Hellknights' founding.",
+			"This crimson devil talisman once belonged to the diabolist Sheel Leroung, a conjurer who aided Daidian Ruel in investigating the ways of Hell. The wearer of this talisman gains a +3 profane bonus to Armor Class and a telepathic bond with the bearded devil bound within. Once per day, the wearer can attempt an opposed Charisma check against the barbazu's +0 modifier to summon him forth for 8 rounds, as per the spell summon monster. The barbazu bound within this talisman is known as Lodveyn the Wizened. Rather than [Weapon Focus](feat/weapon_focus) (glaive), Lodveyn has [Throw Anything](feat/throw_anything)-preferring to fling his polearm, then following it into the fray with his vicious claws. He claims to have been a servant of both Leroung and the ice devil Voulgarghas, and remembers much of the early days of the Hellknights' founding.",
 			"",
 			"### Construction",
 			"",
@@ -4424,7 +4424,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Spell Penetration; **Cost** 250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Spell Penetration](feat/spell_penetration); **Cost** 250 gp"
 		]
 	},
 	"elixir_of_amnesia": {
@@ -5430,7 +5430,7 @@
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater); **Weight** 1 lb.",
 			"",
-			"This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the Extend Spell feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a metamagic rod for the purpose of combining multiple metamagic effects on a spell. A normal book of extended summoning can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash and is destroyed.",
+			"This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the [Extend Spell](feat/extend_spell) feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a metamagic rod for the purpose of combining multiple metamagic effects on a spell. A normal book of extended summoning can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash and is destroyed.",
 			"",
 			"### Construction",
 			"",

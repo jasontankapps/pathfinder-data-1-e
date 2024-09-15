@@ -2484,7 +2484,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Alertness, [Craft Wondrous Item](feat/craft_wondrous_item), alarm; **Cost** 15,000 gp"
+			"**Requirements** [Alertness](feat/alertness), [Craft Wondrous Item](feat/craft_wondrous_item), alarm; **Cost** 15,000 gp"
 		]
 	},
 	"witching_doll": {
@@ -2552,7 +2552,7 @@
 			"**Aura** moderate abjuration [evil, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 3 lbs.",
 			"",
-			"This simple mat is woven from a type of reed that grows in the swamps of Geryon's realm. Meditating on the mat opens the user's mind to the destructive power of emptiness. If a lawful evil character with a ki pool meditates upon an asura meditation mat for 1 hour, for the next 4 hours, the user's mind becomes an empty vessel guided by wrath. During this time, the user gains a +4 profane bonus on saving throws against mind-affecting effects but must attempt saving throws against all mind-affecting effects (including beneficial or harmless ones). In addition, before the user makes a melee attack with an unarmed strike or a monk weapon, she can spend up to 4 ki points to declare an empty strike. The user gains a profane bonus on the attack roll and weapon damage roll equal to twice the number of ki points spent, and the attack ignores 2 points of hardness or damage reduction for each ki point spent. When used with Stunning Fist or similar feats, an empty strike also increases the DC of that effect by the number of ki points spent. A user without a ki pool, or one who is not lawful evil, gains no benefit from an asura meditation mat.",
+			"This simple mat is woven from a type of reed that grows in the swamps of Geryon's realm. Meditating on the mat opens the user's mind to the destructive power of emptiness. If a lawful evil character with a ki pool meditates upon an asura meditation mat for 1 hour, for the next 4 hours, the user's mind becomes an empty vessel guided by wrath. During this time, the user gains a +4 profane bonus on saving throws against mind-affecting effects but must attempt saving throws against all mind-affecting effects (including beneficial or harmless ones). In addition, before the user makes a melee attack with an unarmed strike or a monk weapon, she can spend up to 4 ki points to declare an empty strike. The user gains a profane bonus on the attack roll and weapon damage roll equal to twice the number of ki points spent, and the attack ignores 2 points of hardness or damage reduction for each ki point spent. When used with [Stunning Fist](feat/stunning_fist) or similar feats, an empty strike also increases the DC of that effect by the number of ki points spent. A user without a ki pool, or one who is not lawful evil, gains no benefit from an asura meditation mat.",
 			"",
 			"### Construction",
 			"",
@@ -3416,7 +3416,7 @@
 			"",
 			"Ferocity: Allies of the bearer of a hobgoblin battle standard of ferocity gain a +2 morale bonus on attack rolls, weapon damage rolls, and saving throws against mind-affecting effects as long as they are within 60 feet of the banner.",
 			"",
-			"Iron Resolve: Allies of the bearer of a hobgoblin battle standard of iron resolve gain 10 temporary hit points and the benefits of the Diehard feat for as long as they are within 30 feet of the banner. The temporary hit points can only be gained once per day per creature.",
+			"Iron Resolve: Allies of the bearer of a hobgoblin battle standard of iron resolve gain 10 temporary hit points and the benefits of the [Diehard](feat/diehard) feat for as long as they are within 30 feet of the banner. The temporary hit points can only be gained once per day per creature.",
 			"",
 			"### Construction",
 			"",
@@ -4082,7 +4082,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.",
 			"",
-			"The banner of the rushing horde is a tattered cloth flag, typically 3 feet wide and 6 feet long, depicting the device or insignia of an orc tribe or unit. It can be carried on a staff, affixed to a pole that's planted in the ground, or hung from the harness of a great beast. Allies within 60 feet of the banner gain the benefits of the Improved Bull Rush and Improved Overrun feats. If planted, the flag does not need a bearer, but if it is toppled or touched by an enemy, it loses its effectiveness until reclaimed and replanted by allies of its owner.",
+			"The banner of the rushing horde is a tattered cloth flag, typically 3 feet wide and 6 feet long, depicting the device or insignia of an orc tribe or unit. It can be carried on a staff, affixed to a pole that's planted in the ground, or hung from the harness of a great beast. Allies within 60 feet of the banner gain the benefits of the [Improved Bull Rush](feat/improved_bull_rush) and [Improved Overrun](feat/improved_overrun) feats. If planted, the flag does not need a bearer, but if it is toppled or touched by an enemy, it loses its effectiveness until reclaimed and replanted by allies of its owner.",
 			"",
 			"### Construction",
 			"",

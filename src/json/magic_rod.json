@@ -373,7 +373,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Extend Spell, creator must possess the hex class feature; **Cost** 5,500 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Extend Spell](feat/extend_spell), creator must possess the hex class feature; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_giant_summoning_normal": {
@@ -916,7 +916,7 @@
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
-			"This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore, once per day, and on command, the wielder can affect up to seven living creatures with good hope, as the spell. If the wielder of a suzerain scepter has the Leadership feat, she may attract double the normal number of followers for her Leadership score; however, if the rod is out of the wielder's possession for more than 1 week these extra followers leave. In addition, a suzerain scepter radiates a continuous bless effect that affects any cohort, follower, animal companion, familiar, special mount, or creature charmed or summoned by the wielder (but not called creatures or those under dominate or other compulsion effects). Whenever the wielder creates an effect that provides a morale bonus to such creatures (not including the scepter's bless effect), that bonus increases by 1.",
+			"This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore, once per day, and on command, the wielder can affect up to seven living creatures with good hope, as the spell. If the wielder of a suzerain scepter has the [Leadership](feat/leadership) feat, she may attract double the normal number of followers for her Leadership score; however, if the rod is out of the wielder's possession for more than 1 week these extra followers leave. In addition, a suzerain scepter radiates a continuous bless effect that affects any cohort, follower, animal companion, familiar, special mount, or creature charmed or summoned by the wielder (but not called creatures or those under dominate or other compulsion effects). Whenever the wielder creates an effect that provides a morale bonus to such creatures (not including the scepter's bless effect), that bonus increases by 1.",
 			"",
 			"### Construction",
 			"",
@@ -1704,7 +1704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Quicken Spell, creator must possess the hex class feature; **Cost** 37,750 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Quicken Spell](feat/quicken_spell), creator must possess the hex class feature; **Cost** 37,750 gp"
 		]
 	},
 	"lava_rod": {
@@ -2098,7 +2098,7 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are disruptive as though using the Disruptive Spell feat (Advanced Player's Guide).",
+			"The wielder can cast up to three spells per day that are disruptive as though using the [Disruptive Spell](feat/disruptive_spell) feat (Advanced Player's Guide).",
 			"",
 			"### Construction",
 			"",
@@ -2194,7 +2194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Extend Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Extend Spell](feat/extend_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_extend_rod_of_metamagic": {
@@ -3539,7 +3539,7 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 35,000 gp (lesser), 75,500 gp (normal), 170,000 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are quickened as though using the Quicken Spell feat.",
+			"The wielder can cast up to three spells per day that are quickened as though using the [Quicken Spell](feat/quicken_spell) feat.",
 			"",
 			"### Construction",
 			"",

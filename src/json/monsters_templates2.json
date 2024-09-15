@@ -123,7 +123,7 @@
 			"**Armor Class:** A man-eating animal's natural armor improves by +2.  ",
 			"**Hit Dice:** A man-eating animal's racial HD change to d10s.  ",
 			"**Defenses/Qualities:** A man-eating animal gains darkvision 60 feet, and DR 5/slashing (if HD 11 or fewer) or 10/slashing (if HD 12 or more).  ",
-			"**Melee:** A man-eating animal gains a bite attack. Damage from the bite attack depends on [the creature's size](umr/natural_attacks). If the base creature already has a bite attack, it gains Improved Natural Attack (bite) and Improved Critical (bite) as bonus feats. It also adds 1-1/2 times its Str bonus to the damage (or twice its Str bonus if a bite is its only natural attack).  ",
+			"**Melee:** A man-eating animal gains a bite attack. Damage from the bite attack depends on [the creature's size](umr/natural_attacks). If the base creature already has a bite attack, it gains [Improved Natural Attack](feat/improved_natural_attack) (bite) and [Improved Critical](feat/improved_critical) (bite) as bonus feats. It also adds 1-1/2 times its Str bonus to the damage (or twice its Str bonus if a bite is its only natural attack).  ",
 			"**Abilities:** Con +4, Int +2, Wis +4, Cha +4.  ",
 			"**BAB:** A man-eating animal's base attack bonus is equal to its Hit Dice.  ",
 			"**Skills:** A man-eating animal gains a +4 racial bonus on Survival checks to follow tracks.  ",
@@ -228,9 +228,9 @@
 			"",
 			"A monk creature gains extra attacks with unarmed strikes or natural attacks, an increase in damage with those attacks, and defensive abilities. A monk creature's CR increases by 3 if the creature has 10 or more HD. A monk creature must be lawful.",
 			"",
-			"**Quick Rules:** +2 on all rolls based on Dex and Wis; gains the Improved Unarmed Strike feat. When the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type (of its choice) with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk of a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks instead increases the damage dealt by all of its natural attacks by one die step. If the creature is wearing no armor, it gains a bonus to AC equal to 2 + its Wis modifier. This bonus to AC increases by 1 for every 4 HD it possesses (to a maximum of +5 at 20 HD). The creature gains evasion (improved evasion if the creature has 10 or more HD).",
+			"**Quick Rules:** +2 on all rolls based on Dex and Wis; gains the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat. When the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type (of its choice) with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk of a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks instead increases the damage dealt by all of its natural attacks by one die step. If the creature is wearing no armor, it gains a bonus to AC equal to 2 + its Wis modifier. This bonus to AC increases by 1 for every 4 HD it possesses (to a maximum of +5 at 20 HD). The creature gains evasion (improved evasion if the creature has 10 or more HD).",
 			"",
-			"**Rebuild Rules:** **Defensive Abilities** evasion (improved evasion if the creature has 10 or more HD), and if the creature is wearing no armor, it gains a bonus to AC equal its Wis modifier. This bonus to AC increases by 1 for every 4 HD (to a maximum of +5 at 20 HD); **Special Attacks** when the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk with a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks increases the damage dealt by all of its natural attacks by one die step instead; **Ability Scores** +4 Dexterity and Wisdom; **Feats** Improved Unarmed Strike."
+			"**Rebuild Rules:** **Defensive Abilities** evasion (improved evasion if the creature has 10 or more HD), and if the creature is wearing no armor, it gains a bonus to AC equal its Wis modifier. This bonus to AC increases by 1 for every 4 HD (to a maximum of +5 at 20 HD); **Special Attacks** when the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk with a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks increases the damage dealt by all of its natural attacks by one die step instead; **Ability Scores** +4 Dexterity and Wisdom; **Feats** [Improved Unarmed Strike](feat/improved_unarmed_strike)."
 		]
 	},
 	"mummified_animal": {
@@ -311,7 +311,7 @@
 			"**Dust Stroke (Su):** A creature killed by a mummified creature's natural attack or slam attack is disintegrated into a cloud of dust and ash, completely destroying the victim's body (as disintegrate).",
 			"",
 			"**Abilities:** Str +4, Int -2 (minimum 1). As an undead creature, a mummified creature has no Constitution score.  ",
-			"**Feats:** A mummified creature gains Toughness as a bonus feat, and Improved Natural Attack as a bonus feat for each of the base creature's natural attacks.  ",
+			"**Feats:** A mummified creature gains [Toughness](feat/toughness) as a bonus feat, and [Improved Natural Attack](feat/improved_natural_attack) as a bonus feat for each of the base creature's natural attacks.  ",
 			"**Skills:** A mummified creature gains a +4 racial bonus on Stealth checks.",
 			"",
 			"### Variant Mummy Special Abilities",
@@ -760,7 +760,7 @@
 			"",
 			"**Ability Scores:** Str +2, Dex +4, Int +2, Wis +6, Cha +4. As an undead creature, a nosferatu has no Constitution score.  ",
 			"**Skills:** A nosferatu gains a +8 racial bonus on Perception, Sense Motive, and Stealth checks.  ",
-			"**Feats:** A nosferatu gains Alertness, Improved Initiative, Lightning Reflexes, and Skill Focus (in two different skills) as bonus feats."
+			"**Feats:** A nosferatu gains [Alertness](feat/alertness), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), and [Skill Focus](feat/skill_focus) (in two different skills) as bonus feats."
 		]
 	},
 	"ogrekin": {
@@ -824,13 +824,13 @@
 			"| --- | --- |",
 			"| 1 | Bulging Eye: The ogrekin gains darkvision 60 feet. |",
 			"| 2 | Enlarged Skull: The ogrekin takes no penalty to Intelligence from the ogrekin template. |",
-			"| 3 | Gnarled Hands: The ogrekin gains a claw attack. This attack is considered a primary natural attack that deals 1d6 points of damage. If the ogrekin already possesses a claw attack, it instead gains Improved Natural Attack (claw) as a bonus feat. |",
+			"| 3 | Gnarled Hands: The ogrekin gains a claw attack. This attack is considered a primary natural attack that deals 1d6 points of damage. If the ogrekin already possesses a claw attack, it instead gains [Improved Natural Attack](feat/improved_natural_attack) (claw) as a bonus feat. |",
 			"| 4 | Grotesque Ears: The ogrekin gains blindsense 10 feet and a +4 racial bonus on Perception checks. |",
 			"| 5 | Lanky: The ogrekin's natural reach increases by 5 feet. |",
 			"| 6 | Snout: The ogrekin gains the scent ability. |",
 			"| 7 | Thick Feet: The ogrekin gains a +4 racial bonus to its CMD against bull rush, overrun, and trip combat maneuvers, as well as a +2 bonus to its AC against attacks made as part of a charge action. |",
 			"| 8 | Vice Grip: The ogrekin gains a +2 racial bonus on disarm and grapple combat maneuver checks and a +4 racial bonus to CMD against disarm and grapple maneuvers. |",
-			"| 9 | Warty Knuckles: The ogrekin gains Improved Unarmed Strike as a bonus feat. |",
+			"| 9 | Warty Knuckles: The ogrekin gains [Improved Unarmed Strike](feat/improved_unarmed_strike) as a bonus feat. |",
 			"| 10 | Webbed Fingers: The ogrekin gains a swim speed equal to half its land speed. |",
 			"",
 			"**Disadvantageous Deformities:** The ogrekin gains one of the following, chosen randomly.",
@@ -928,7 +928,7 @@
 			"",
 			"**Abilities:** An Osirion mummy's ability scores are modified as follows: Str +4, Int -2 (minimum 1). As an undead creature, an Osmon mummy has no Constitution score.",
 			"",
-			"**Feats:** The creature gains Improved Natural Attack for each natural attack form as a bonus feat. If the creature previously had a slam attack before adding the template. the creature's new slam attack also gains the Improved Natural Attack feat.",
+			"**Feats:** The creature gains [Improved Natural Attack](feat/improved_natural_attack) for each natural attack form as a bonus feat. If the creature previously had a slam attack before adding the template. the creature's new slam attack also gains the Improved Natural Attack feat.",
 			"",
 			"**Environment:** Any.",
 			"",
@@ -1064,7 +1064,7 @@
 			"**Attacks:** The creature's BAB is +2, subject to modification for size and Strength. It loses all natural attacks and gains a slam attack as appropriate for a creature of its size.  ",
 			"**Special Attacks:** Petitioners lose all special attacks.  ",
 			"**Abilities:** Same as the base creature.  ",
-			"**Feats:** Petitioners lose all feats. As a 2 HD outsider, a petitioner gains one feat-typically Toughness.  ",
+			"**Feats:** Petitioners lose all feats. As a 2 HD outsider, a petitioner gains one feat-typically [Toughness](feat/toughness).  ",
 			"**Skills:** Petitioners lose all skill ranks they possessed as mortals. As a 2 HD outsider, a petitioner has 12 skill ranks it can spend on skills (with a maximum of 2 ranks in any one skill), and gains bonus skill ranks as appropriate for its Intelligence. Unlike most outsiders, petitioners do not gain an additional 4 class skills beyond those available to all outsiders.  ",
 			"**Special Qualities:** Petitioners lose all special qualities, along with all abilities granted by class levels (including increases on saving throws and to HD and BAB).",
 			"",
@@ -1243,7 +1243,7 @@
 			"",
 			"**Skills:** Prana ghosts have a +8 racial bonus on Perception, Sense Motive, and Stealth skill checks. A prana ghost always treats Acrobatics, Bluff, Craft, Diplomacy, Intimidate, Knowledge (planes), Perception, Sense Motive, Stealth, and Use Magic Device as class skills. Otherwise, class skills are the same as the base creature.",
 			"",
-			"**Feats:** Prana ghosts gain Alertness, Improved Initiative, and Toughness as bonus feats."
+			"**Feats:** Prana ghosts gain [Alertness](feat/alertness), [Improved Initiative](feat/improved_initiative), and [Toughness](feat/toughness) as bonus feats."
 		]
 	},
 	"primordial": {
@@ -1429,7 +1429,7 @@
 			"",
 			"**Ability Scores:** Str +2, Dex +2, Int +4, Wis +4, Cha +6. As an undead creature, a psychic vampire has no Constitution score.",
 			"",
-			"**Feats:** Psychic vampires gain Alertness, Combat Expertise, Dodge, Improved Initiative, and Iron Will as bonus feats.",
+			"**Feats:** Psychic vampires gain [Alertness](feat/alertness), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), and [Iron Will](feat/iron_will) as bonus feats.",
 			"",
 			"**Skills:** Psychic vampires gain a +8 racial bonus on Bluff, Perception, Sense Motive, and Stealth checks."
 		]
@@ -1561,7 +1561,7 @@
 			"",
 			"A ranger creature gains a favored enemy. It also gains a basic combat style, tracking, and some defensive abilities. A ranger creature's CR increases by 2 if the creature has 10 or more HD.",
 			"",
-			"**Quick Rules:** Choose either Str or Dex. The creature gains +2 on all rolls based on the chosen ability score (and +2 to AC if Dex is chosen). The creature gains either Point Blank Shot or Two-Weapon Fighting as a bonus feat (if the creature has 10 or more HD, choose two more bonus feats from the lists in combat style class feature-from archery if the creature took Point-Blank Shot, or from two-weapon combat if the creature took Two-Weapon Fighting). The creature also gains favored enemy (choosing only one favored enemy; the favored enemy bonus increases by 2 at 5 HD and every 5 HD thereafter, to a maximum of +10 at 20 HD). Lastly, the creature gains track (and evasion if the creature has 10 or more HD).",
+			"**Quick Rules:** Choose either Str or Dex. The creature gains +2 on all rolls based on the chosen ability score (and +2 to AC if Dex is chosen). The creature gains either [Point Blank Shot](feat/point_blank_shot) or [Two-Weapon Fighting](feat/two-weapon_fighting) as a bonus feat (if the creature has 10 or more HD, choose two more bonus feats from the lists in combat style class feature-from archery if the creature took Point-Blank Shot, or from two-weapon combat if the creature took Two-Weapon Fighting). The creature also gains favored enemy (choosing only one favored enemy; the favored enemy bonus increases by 2 at 5 HD and every 5 HD thereafter, to a maximum of +10 at 20 HD). Lastly, the creature gains track (and evasion if the creature has 10 or more HD).",
 			"",
 			"**Rebuild Rules:** **Defensive Abilities** evasion (if the creature has 10 or more HD); **Special Attacks** favored enemy (choosing only one favored enemy; the favored enemy bonus increases by 2 at 5 HD and every 5 HD thereafter, to a maximum of +10 at 20 HD); **Special Qualities** track; **Ability Scores** +4 Strength or Dexterity; **Feats** either Point-Blank Shot or Two-Weapon Fighting as a bonus feat (if the creature has 10 or more HD, choose two more bonus feats from the lists in the combat style ranger class feature-either from archery if the creature took Point-Blank Shot, or from two-weapon combat if the creature took Two-Weapon Fighting)."
 		]
@@ -1598,7 +1598,7 @@
 			"**Saving Throws:** As undead, a ravener uses its Charisma modifier on Fortitude saves (instead of Constitution).  ",
 			"**Defensive Abilities:** A ravener gains channel resistance +4 and all of the immunities derived from undead traits. Its damage reduction changes from DR/magic to DR/good. A ravener also gains the following ability.  ",
 			"**Soul Ward (Su):** An intangible field of siphoned soul energy protects a ravener from destruction. This ward has a maximum number of hit points equal to twice the ravener's Hit Dice, but starts at half this amount. Whenever a ravener would be reduced below 1 hit point, all damage in excess of that which would reduce it to 1 hit point is instead dealt to its soul ward. If this damage reduces the soul ward to fewer than 0 hit points, the ravener is destroyed.  ",
-			"**Attacks:** A ravener retains all of the natural attacks of the base creature, but each of these attacks threatens a critical hit on a 19 or 20. Feats like Improved Critical can increase this range further. If the ravener scores a critical hit with a natural weapon, the target gains 1 negative level. The DC to remove this negative level is equal to 10 + 1/2 the ravener's Hit Dice + the ravener's Charisma modifier. Whenever a creature gains a negative level in this way, the ravener adds 5 points to its soul ward.  ",
+			"**Attacks:** A ravener retains all of the natural attacks of the base creature, but each of these attacks threatens a critical hit on a 19 or 20. Feats like [Improved Critical](feat/improved_critical) can increase this range further. If the ravener scores a critical hit with a natural weapon, the target gains 1 negative level. The DC to remove this negative level is equal to 10 + 1/2 the ravener's Hit Dice + the ravener's Charisma modifier. Whenever a creature gains a negative level in this way, the ravener adds 5 points to its soul ward.  ",
 			"**Special Attacks:** A ravener retains all of the special attacks of the base creature and gains the following special attacks as described below. All save DCs are equal to 10 + 1/2 the ravener's HD + the ravener's Charisma modifier.  ",
 			"**Breath Weapon (Su):** A ravener keeps the breath weapon of the base creature-the save DC for this breath weapon is now Charisma-based. In addition, a ravener's breath weapon bestows 2 negative levels on all creatures in the area. A successful Reflex save halves the damage and reduces the energy drain to 1 negative level. The save DC to remove these negative levels is equal to the ravener's breath weapon DC. The ravener adds 1 hit point to its soul ward ability for each negative level bestowed in this way.  ",
 			"**Cowering Fear (Su):** Any creature shaken by the ravener's frightful presence is cowering instead of shaken for the first round of the effect, and shaken for the rest of the duration. Any creature that is panicked by its frightful presence is instead cowering for the duration.  ",
@@ -1826,7 +1826,7 @@
 			"**Special Attacks:** A runeslave gains the following special attack.  ",
 			"**Arcane Surge (Su):** Once per day as a swift action, a runeslave can gain the benefits of the spell haste for 6 rounds. Using this ability forces the giant to make an additional Fortitude save against arcane decay, even if it has already made its weekly save to resist the disease.  ",
 			"**Abilities:** Change from the base creature as follows: Str +4, Dex +2, Int -2, Wis -2, Cha -2.  ",
-			"**Feats:** Runeslaves gain Diehard and Toughness as bonus feats.",
+			"**Feats:** Runeslaves gain [Diehard](feat/diehard) and [Toughness](feat/toughness) as bonus feats.",
 			"",
 			"### The Runeslave Curse",
 			"",
@@ -2376,7 +2376,7 @@
 			"",
 			"**Skills:** Gains skill ranks per racial Hit Die equal to 4 + its Int modifier. Class skills for racial HD are Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth. Skills gained from class levels remain unchanged.",
 			"",
-			"**Feats:** A skeletal champion gains Improved Initiative as a bonus feat.",
+			"**Feats:** A skeletal champion gains [Improved Initiative](feat/improved_initiative) as a bonus feat.",
 			"",
 			"**Saves:** Base save bonuses for racial Hit Dice are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.",
 			"",
@@ -2466,7 +2466,7 @@
 			"",
 			"**Skills:** A skeleton loses all skill ranks possessed by the base creature and gains none of its own.",
 			"",
-			"**Feats:** A skeleton loses all feats possessed by the base creature and gains Improved Initiative as a bonus feat.",
+			"**Feats:** A skeleton loses all feats possessed by the base creature and gains [Improved Initiative](feat/improved_initiative) as a bonus feat.",
 			"",
 			"**Special Qualities:** A skeleton loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks.",
 			"",
@@ -2821,7 +2821,7 @@
 			"",
 			"**Skills:** A sunbaked zombie has no skill ranks.",
 			"",
-			"**Feats:** A sunbaked zombie loses all feats possessed by the base creature and gains Toughness as a bonus feat.",
+			"**Feats:** A sunbaked zombie loses all feats possessed by the base creature and gains [Toughness](feat/toughness) as a bonus feat.",
 			"",
 			"**Special Qualities:** A sunbaked zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks."
 		]
@@ -3254,7 +3254,7 @@
 			"",
 			"Skills Vampires gain a +8 racial bonus on Bluff, Perception, Sense Motive, and Stealth checks.",
 			"",
-			"Feats Vampires gain Alertness, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, and Toughness as bonus feats.",
+			"Feats Vampires gain [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), and [Toughness](feat/toughness) as bonus feats.",
 			"",
 			"### Vampire Spawn",
 			"",
@@ -3353,7 +3353,7 @@
 			"**Special Qualities:** A vampire spawn gains the gaseous form, shadowless, and spider climb abilities of a vampire.  ",
 			"**Ability Scores:** Cha +2.  ",
 			"**Skills:** Spawn gain a +8 racial bonus on Acrobatics and Stealth checks.  ",
-			"**Feats:** Spawn gain Skill Focus (Perception) as a bonus feat."
+			"**Feats:** Spawn gain [Skill Focus](feat/skill_focus) (Perception) as a bonus feat."
 		]
 	},
 	"vampiric_creature": {
@@ -3425,7 +3425,7 @@
 			"",
 			"**Ability Scores:** Str +4, Dex +2, Int +4, Wis +2, Cha +6. As an undead creature, a vetala has no Constitution score.",
 			"",
-			"**Feats:** Vetalas gain Alertness, Blind-Fight, Deceitful, Improved Initiative, and Skill Focus (Disguise) as bonus feats.",
+			"**Feats:** Vetalas gain [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Deceitful](feat/deceitful), [Improved Initiative](feat/improved_initiative), and [Skill Focus](feat/skill_focus) (Disguise) as bonus feats.",
 			"",
 			"**Skills:** Vetalas gain a +8 racial bonus on Disguise, Perception, Sense Motive, and Stealth checks."
 		]
@@ -3501,7 +3501,7 @@
 			"",
 			"**Skills:** A waxwork creature loses all of the base creature's skills and gains none of its own.",
 			"",
-			"**Feats:** A waxwork creature loses all of the base creature's feats and gains Improved Initiative as a bonus feat.",
+			"**Feats:** A waxwork creature loses all of the base creature's feats and gains [Improved Initiative](feat/improved_initiative) as a bonus feat.",
 			"",
 			"**Special Qualities:** A waxwork creature loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A waxwork creature gains the [freeze](umr/freeze) universal monster ability to appear as a wax sculpture.",
 			"",
@@ -3671,7 +3671,7 @@
 			"Tenacious (Ex) A worm that walks gains a +8 racial bonus on CMB checks made to grapple and a +4 racial bonus to its CMD.  ",
 			"**Abilities:** Dex +4, Con +4.  ",
 			"**Skills:** Worms that walk gain a +8 racial bonus on Perception, Sense Motive, and Stealth checks.  ",
-			"**Feats:** Worms that walk gain Diehard as a bonus feat."
+			"**Feats:** Worms that walk gain [Diehard](feat/diehard) as a bonus feat."
 		]
 	},
 	"young": {
@@ -3777,7 +3777,7 @@
 			"",
 			"**Skills:** A zombie has no skill ranks.",
 			"",
-			"**Feats:** A zombie loses all feats possessed by the base creature, and does not gain feats as its Hit Dice increase, but it does gain Toughness as a bonus feat.",
+			"**Feats:** A zombie loses all feats possessed by the base creature, and does not gain feats as its Hit Dice increase, but it does gain [Toughness](feat/toughness) as a bonus feat.",
 			"",
 			"**Special Qualities:** A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.",
 			"",
@@ -3890,7 +3890,7 @@
 			"**Abilities:** Str +2, Dex +2. As an undead, it has no Constitution score.  ",
 			"**BAB:** A zombie lord's BAB for its racial HD is equal to 3/4 its HD.  ",
 			"**Skills:** A zombie lord gains skill ranks per racial Hit Die equal to 4 + its Int modifier (class skills as the undead type). Skills gained from class levels remain unchanged.  ",
-			"**Feats:** A zombie lord gains Toughness as a bonus feat.  ",
+			"**Feats:** A zombie lord gains [Toughness](feat/toughness) as a bonus feat.  ",
 			"**Special Qualities:** Unlike a common zombie, a zombie lord does not gain the staggered special quality."
 		]
 	}

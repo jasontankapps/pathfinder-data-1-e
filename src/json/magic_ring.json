@@ -333,7 +333,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Endurance, Extend Spell, [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 1,000 gp"
+			"**Requirements** [Endurance](feat/endurance), [Extend Spell](feat/extend_spell), [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_the_grasping_grave": {
@@ -581,7 +581,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Spell Focus, creator must have the bloodrage class feature; **Cost** 1,500 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [Spell Focus](feat/spell_focus), creator must have the bloodrage class feature; **Cost** 1,500 gp"
 		]
 	},
 	"tyrant's_friend": {
@@ -651,7 +651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Endurance, Extend Spell, [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 2,000 gp"
+			"**Requirements** [Endurance](feat/endurance), [Extend Spell](feat/extend_spell), [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 2,000 gp"
 		]
 	},
 	"ring_of_counterspells": {
@@ -853,7 +853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Reflexes, [Forge Ring](feat/forge_ring), Quicken Spell; **Cost** 17,500 gp"
+			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Forge Ring](feat/forge_ring), [Quicken Spell](feat/quicken_spell); **Cost** 17,500 gp"
 		]
 	},
 	"ring_of_resistance_2": {
@@ -1737,7 +1737,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Self-Sufficient, endure elements; **Cost** 5,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [Self-Sufficient](feat/self-sufficient), endure elements; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_swimming_improved": {
@@ -2267,7 +2267,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Quicken Spell, fireball; **Cost** 7,500 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [Quicken Spell](feat/quicken_spell), fireball; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_the_cacodaemon": {
@@ -2846,7 +2846,7 @@
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 28,500 gp; **Weight** -",
 			"",
-			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the Leadership feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
+			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the [Leadership](feat/leadership) feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
 			"",
 			"Once per day, the wearer of the ring can use prayer and enter image (Advanced Player's Guide), often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
 			"",

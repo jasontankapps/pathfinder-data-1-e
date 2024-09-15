@@ -4058,7 +4058,7 @@
 			"*Statistics*  ",
 			"**Str** 25, **Dex** 21, **Con** -, **Int** 2, **Wis** 15, **Cha** 14  ",
 			"**Base Atk** +4; **CMB** +12; **CMD** 28  ",
-			"**Feats** Dodge, Improved Initiative, Mobility  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility)  ",
 			"**Skills** Fly +12, Perception +7, Stealth +6  ",
 			"**Gear** leather barding, military saddle"
 		]
@@ -5957,7 +5957,7 @@
 			"",
 			"**Canopic Stone**  ",
 			"**CL** 12th; **Price** 28,800 gp  ",
-			"**Requirements** Craft Wondrous Item, create undead, rage; **Cost** 14,400 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, rage; **Cost** 14,400 gp"
 		]
 	},
 	"violet_fungus": {

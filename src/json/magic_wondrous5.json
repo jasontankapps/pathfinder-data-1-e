@@ -165,7 +165,7 @@
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"This small silver shackle is carved with conjuration runes. When used as a focus as part of a summoning spell of 3rd level or less, it creates a faintly-glowing intangible magical chain from the caster to the summoned creature or creatures. The duration of that summoning spell is extended as if using the Extend Spell feat, with no increase in casting time. The chain prevents the creature from moving more than 30 feet from the caster, even when using teleportation (though the caster can use these effects to exceed this distance, which ends the shackling effect immediately). The chain does not otherwise obstruct or interfere with any object or creature other than the summoned creature. The shackle may be used up to five times per day. If the shackle or the chain is dispelled, the range limitation and increased duration ends; if the spell's unmodified duration would already have ended by then, the spell ends immediately.",
+			"This small silver shackle is carved with conjuration runes. When used as a focus as part of a summoning spell of 3rd level or less, it creates a faintly-glowing intangible magical chain from the caster to the summoned creature or creatures. The duration of that summoning spell is extended as if using the [Extend Spell](feat/extend_spell) feat, with no increase in casting time. The chain prevents the creature from moving more than 30 feet from the caster, even when using teleportation (though the caster can use these effects to exceed this distance, which ends the shackling effect immediately). The chain does not otherwise obstruct or interfere with any object or creature other than the summoned creature. The shackle may be used up to five times per day. If the shackle or the chain is dispelled, the range limitation and increased duration ends; if the spell's unmodified duration would already have ended by then, the spell ends immediately.",
 			"",
 			"### Construction",
 			"",
@@ -806,7 +806,7 @@
 			"",
 			"**Ruby Butterfly:** Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](monster/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](class/wizard) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](spell/nightmare) or a [night hag's dream haunting](monster/night_hag) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](spell/animate_objects), [dream](spell/dream).",
 			"",
-			"**Black Jade Raven:** This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
+			"**Black Jade Raven:** This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have [Improved Steal](feat/improved_steal) as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
 			"",
 			"The raven can maintain its non-figurine status for only 24 hours per week. This duration need not be continuous, but it must be used in 1-hour increments. After three transformations into its giant raven form (though not its smaller version), the statuette loses all magical properties. ; **CL** 11th; [Craft Wondrous Item](feat/craft_wondrous_item), animate objects.",
 			"",
@@ -4187,7 +4187,7 @@
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 10,380 gp; **Weight** 1 lb.",
 			"",
-			"This seemingly ordinary deck of 54 playing cards is held in an ornate wooden box with a simple clasp, decorated with wasp-themed art. The clergy of Calistria sometimes gifts decks of this kind to its more devout and covert spies. As a move action, the owner of a deck of the hellwasp's sting can draw a card from the deck and speak a command word to transform that card into a thrown weapon (treat as a +1 flaming dart). Alternatively, the user can draw and activate a card covertly as a standard action, using Sleight of Hand to palm it and treat it as a hidden weapon for a subsequent attack. A card is always destroyed after being thrown, even if it doesn't hit the target. If the thrower uses the Arcane Strike feat with this attack, the feat's bonus damage doubles.",
+			"This seemingly ordinary deck of 54 playing cards is held in an ornate wooden box with a simple clasp, decorated with wasp-themed art. The clergy of Calistria sometimes gifts decks of this kind to its more devout and covert spies. As a move action, the owner of a deck of the hellwasp's sting can draw a card from the deck and speak a command word to transform that card into a thrown weapon (treat as a +1 flaming dart). Alternatively, the user can draw and activate a card covertly as a standard action, using Sleight of Hand to palm it and treat it as a hidden weapon for a subsequent attack. A card is always destroyed after being thrown, even if it doesn't hit the target. If the thrower uses the [Arcane Strike](feat/arcane_strike) feat with this attack, the feat's bonus damage doubles.",
 			"",
 			"In addition, as long as there are at least 20 cards remaining in the deck, the entire deck can be sacrificed by speaking a command word and tossing the cards into the air as a full-round action. The cards transform into a swarm of burning, poisonous paper with the same statistics as a hellwasp swarm, except the swarm doesn't gain the inhabit ability, and all damage dealt by its swarm attack is fire damage. The character who activated the ability can control the swarm as if it were summoned by the summon swarm spell for up to 10 rounds, at which point the swarm dissipates.",
 			"",
@@ -4631,7 +4631,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Quicken Spell, contingency, imbue with spell ability; **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Quicken Spell](feat/quicken_spell), contingency, imbue with spell ability; **Cost** 6,000 gp"
 		]
 	},
 	"spirit_slate": {

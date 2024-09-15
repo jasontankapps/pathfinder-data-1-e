@@ -1031,7 +1031,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, resistance; **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), resistance; **Cost** 750 gp"
 		]
 	},
 	"regression_mine": {
@@ -3155,7 +3155,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Blind Fight, [Craft Wondrous Item](feat/craft_wondrous_item), Improved Trip, Lunge, Nimble Moves, good hope; **Cost** 1,250 gp"
+			"**Requirements** Blind Fight, [Craft Wondrous Item](feat/craft_wondrous_item), [Improved Trip](feat/improved_trip), [Lunge](feat/lunge), [Nimble Moves](feat/nimble_moves), good hope; **Cost** 1,250 gp"
 		]
 	},
 	"bag_of_holding_type_1": {
@@ -4110,7 +4110,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, [summon monster V](spell/summon_monster_5); **Cost** 1,650 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), [summon monster V](spell/summon_monster_5); **Cost** 1,650 gp"
 		]
 	},
 	"bronze_skinning_knife": {
@@ -5117,7 +5117,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, dimensional anchor, [magic circle against evil](spell/magic_circle_against_evil); **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), dimensional anchor, [magic circle against evil](spell/magic_circle_against_evil); **Cost** 2,000 gp"
 		]
 	},
 	"wolf_caller's_horn": {
@@ -5290,7 +5290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Spell Focus (conjuration), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Cost** 2,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Spell Focus](feat/spell_focus) (conjuration), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Cost** 2,250 gp"
 		]
 	},
 	"goblin_fire_drum_greater": {
@@ -6011,7 +6011,7 @@
 			"",
 			"This scabbard can hold multiple melee weapons in an extradimensional space, including weapons that would not normally fit in any kind of scabbard or sheath. It can hold up to four two-handed weapons. Two one-handed or light melee weapons can fit in each two-handed weapon slot, for a maximum capacity of eight one-handed or light melee weapons. Only weapons designed to be used by creatures the same size as the wearer or smaller can be kept in a scabbard of many blades. The scabbard can't be used to store shields (even if they can be used to make melee attacks), gauntlets, improvised weapons, or wands, but can store rods (which are treated as one-handed weapons) and magic staves (which are treated as two-handed weapons).",
 			"",
-			"When the wearer draws a weapon from the scabbard, if she does not lose her grip on it (keeping it in her hands at all times), as a move action she can have it switch places with another weapon in the scabbard. If the wearer has the Quick Draw feat, she can do this as a swift action. If the wearer loses her grip on a weapon drawn from the scabbard, that weapon can't switch places with another weapon until it has been, sheathed in the scabbard of many blades and drawn again.",
+			"When the wearer draws a weapon from the scabbard, if she does not lose her grip on it (keeping it in her hands at all times), as a move action she can have it switch places with another weapon in the scabbard. If the wearer has the [Quick Draw](feat/quick_draw) feat, she can do this as a swift action. If the wearer loses her grip on a weapon drawn from the scabbard, that weapon can't switch places with another weapon until it has been, sheathed in the scabbard of many blades and drawn again.",
 			"",
 			"### Construction",
 			"",

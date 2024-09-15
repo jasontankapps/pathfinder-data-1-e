@@ -379,7 +379,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), prestidigitation and any spell the cloak allows the caster to use; the creator must have Spell Focus in the cloak's school of magic; **Cost** 1,125 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), prestidigitation and any spell the cloak allows the caster to use; the creator must have [Spell Focus](feat/spell_focus) in the cloak's school of magic; **Cost** 1,125 gp"
 		]
 	},
 	"cloak_of_the_night_sky": {
@@ -1244,7 +1244,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, mirror image; **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), mirror image; **Cost** 4,500 gp"
 		]
 	},
 	"poet's_cloak": {
@@ -1819,7 +1819,7 @@
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 18,000 gp; **Weight** 2 lbs.",
 			"",
-			"This heavy black cloak is trimmed with silver brocade and jingles ever so slightly when disturbed. The wearer of a cloak of daggers can draw daggers as a free action as though she possessed the Quick Draw feat; if she already has the Quick Draw feat, drawing a single hidden dagger becomes a free action. Once per day, the wearer can perform a cartwheel as a standard action at any point during a move action, creating a 15-foot cone of daggers that deals an amount of piercing damage equal to the wearer's sneak attack damage (minimum 1d6). A successful Reflex save (DC = 10 + the number of the wearer's sneak attack dice + the wearer's Intelligence modifier) halves the damage. The daggers disappear immediately.",
+			"This heavy black cloak is trimmed with silver brocade and jingles ever so slightly when disturbed. The wearer of a cloak of daggers can draw daggers as a free action as though she possessed the [Quick Draw](feat/quick_draw) feat; if she already has the Quick Draw feat, drawing a single hidden dagger becomes a free action. Once per day, the wearer can perform a cartwheel as a standard action at any point during a move action, creating a 15-foot cone of daggers that deals an amount of piercing damage equal to the wearer's sneak attack damage (minimum 1d6). A successful Reflex save (DC = 10 + the number of the wearer's sneak attack dice + the wearer's Intelligence modifier) halves the damage. The daggers disappear immediately.",
 			"",
 			"### Construction",
 			"",
@@ -2282,7 +2282,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Improved Disarm, pilfering hand, creator must be a panache user; **Cost** 17,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Improved Disarm](feat/improved_disarm), pilfering hand, creator must be a panache user; **Cost** 17,500 gp"
 		]
 	},
 	"swordlord's_cloak_3_bonus": {
@@ -2416,7 +2416,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Extend Spell, displacement; **Cost** 25,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), displacement; **Cost** 25,000 gp"
 		]
 	},
 	"major_cloak_of_displacement": {
@@ -2942,7 +2942,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Casting, [Craft Wondrous Item](feat/craft_wondrous_item), warding weapon (Ultimate Combat); **Cost** 2,500 gp"
+			"**Requirements** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), warding weapon (Ultimate Combat); **Cost** 2,500 gp"
 		]
 	},
 	"vanishing_sheath": {
@@ -3008,7 +3008,7 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** wrist; **Price** 6,000 gp; **Weight** 3 lbs.",
 			"",
-			"These polished steel vambraces grant a +1 deflection bonus to AC. Once per day, as an immediate action, if the wearer has at least one hand free, when he would normally be hit with an attack from a ranged weapon, he may deflect it with the bracers, taking no damage from it, as if he had the Deflect Arrows feat.",
+			"These polished steel vambraces grant a +1 deflection bonus to AC. Once per day, as an immediate action, if the wearer has at least one hand free, when he would normally be hit with an attack from a ranged weapon, he may deflect it with the bracers, taking no damage from it, as if he had the [Deflect Arrows](feat/deflect_arrows) feat.",
 			"",
 			"### Construction",
 			"",
@@ -3312,7 +3312,7 @@
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
-			"These tight-fitting mithral bracers are used throughout the Inner Sea region in nations where dueling is prominent. The wearer of dueling cuffs gains a +1 deflection bonus to AC. This bonus increases to +2 if the wearer is wielding one or more weapons that benefit from the Weapon Finesse feat.",
+			"These tight-fitting mithral bracers are used throughout the Inner Sea region in nations where dueling is prominent. The wearer of dueling cuffs gains a +1 deflection bonus to AC. This bonus increases to +2 if the wearer is wielding one or more weapons that benefit from the [Weapon Finesse](feat/weapon_finesse) feat.",
 			"",
 			"In a duel, the wielder doesn't take the normal -5 penalty when using the dueling parry action. In addition, the wielder can attempt to deflect ranged attacks from firearms with a dueling parry, but takes a -5 penalty on such attempts.",
 			"",
@@ -3673,7 +3673,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Combat Casting, [Craft Wondrous Item](feat/craft_wondrous_item), spectral hand; **Cost** 10,000 gp"
+			"**Requirements** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), spectral hand; **Cost** 10,000 gp"
 		]
 	},
 	"bracers_of_armor_5": {

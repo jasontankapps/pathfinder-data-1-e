@@ -49,7 +49,7 @@
 			"**Source** [Ultimate Combat pg. 52](source/ultimate_combat)  ",
 			"**Deities** Any (with GM approval)",
 			"",
-			"**Granted Powers:** You gain Exotic Weapon Proficiency (firearms) and Gunsmithing as bonus feats. When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on concentration checks for 1 round."
+			"**Granted Powers:** You gain [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (firearms) and [Gunsmithing](feat/gunsmithing) as bonus feats. When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on concentration checks for 1 round."
 		]
 	},
 	"chivalry": {
@@ -115,7 +115,7 @@
 			"",
 			"*Criminal Minds (Sp)*: You can touch a creature and fill its mind with criminal impulses. This otherwise functions as per crime of opportunity, though a target that fails its saving throw and acts on an impulse gets those desires out of its system and becomes immune to the effects of your criminal minds ability for 24 hours. You can use this ability a number of times per day equal to 3 + your Wisdom modifier (minimum 1).",
 			"",
-			"*Thief's Soul (Ex)*: At 8th level, you gain Improved Steal, Greater Steal, and Quick Steal as bonus feats, even if you don't meet the prerequisites."
+			"*Thief's Soul (Ex)*: At 8th level, you gain [Improved Steal](feat/improved_steal), [Greater Steal](feat/greater_steal), and [Quick Steal](feat/quick_steal) as bonus feats, even if you don't meet the prerequisites."
 		]
 	},
 	"damnation": {
@@ -277,7 +277,7 @@
 			"",
 			"**Granted Powers:** Some must learn that to submit to one's fate often means submitting to your form of justice.",
 			"",
-			"*Judicious Force (Su)*: If you or an ally within 10 feet makes a critical threat with a melee or ranged attack, as an immediate action you may add +4 to the confirmation roll. This does not stack with the Critical Focus feat. You may use this ability a number of times per day equal to your Wisdom bonus.",
+			"*Judicious Force (Su)*: If you or an ally within 10 feet makes a critical threat with a melee or ranged attack, as an immediate action you may add +4 to the confirmation roll. This does not stack with the [Critical Focus](feat/critical_focus) feat. You may use this ability a number of times per day equal to your Wisdom bonus.",
 			"",
 			"*Chains of Justice (Su)*: At 6th level, once per day, you can bind an opponent within 60 feet to you with spectral chains (Will negates). When you take damage from an enemy, the bound target takes this damage as well. Whenever the bound target takes damage from you or one of your allies, you take this damage as well. You and the target are not physically bound to each other, and either can end the connection by breaking the line of effect or exceeding the ability's"
 		]
@@ -323,7 +323,7 @@
 			"**Source** [Ultimate Magic pg. 43](source/ultimate_magic)  ",
 			"**Deities** Asmodeus, Iomedae, Urgathoa",
 			"",
-			"**Granted Powers:** Your deity chose you for your persistence. You have vowed to pursue the enemies of the faith to the world's end if necessary. You receive Step Up as a bonus feat.",
+			"**Granted Powers:** Your deity chose you for your persistence. You have vowed to pursue the enemies of the faith to the world's end if necessary. You receive [Step Up](feat/step_up) as a bonus feat.",
 			"",
 			"*Relentless Footing (Ex)*: As a swift action, you can add 10 feet to your land speed. This increase counts as an enhancement bonus, and it affects your jumping distance as normal for increased speed. You can use this ability a number of times per day equal to 3 + your Wisdom bonus (minimum 1).",
 			"",

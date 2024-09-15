@@ -3166,7 +3166,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Enwrap (Ex)** A cameroceras can maintain a grapple as a move action, as if it possessed the Greater Grapple feat, but if it does so, it must choose to pin its victim.",
+			"**Enwrap (Ex)** A cameroceras can maintain a grapple as a move action, as if it possessed the [Greater Grapple](feat/greater_grapple) feat, but if it does so, it must choose to pin its victim.",
 			"",
 			"**Pressure Adaptation (Ex)** A cameroceras suffers no pressure damage at depths less than 1 mile, even if it is instantaneously moved to a different pressure.",
 			"",
@@ -6086,7 +6086,7 @@
 			"",
 			"A cervine protector might be encountered alongside the Grim White Stag, or as the companion of one of Erastil's clergy. In natural settings sacred to Erastil, solitary cervine protectors sometimes stand vigil, ensuring that no taint befalls their charge.",
 			"",
-			"Characters with the Leadership feat can take a cervine protector as a cohort at cohort level 10th or higher."
+			"Characters with the [Leadership](feat/leadership) feat can take a cervine protector as a cohort at cohort level 10th or higher."
 		]
 	},
 	"cerynitis": {
@@ -6141,7 +6141,7 @@
 			"",
 			"**Uncanny Dodge (Ex)** This ability functions as the rogue class feature of the same name.",
 			"",
-			"**Unearthly Speed (Ex)** When a creature makes a ranged or melee attack against a cerynitis, targets her with an ability, or includes her in the area of effect of an ability, the cerynitis can move up to half her speed as if she had readied an action to move. If she moves at all, this foils ranged and melee attacks; if she moves out of the area of effect, she avoids an area of effect ability; if she moves out of range of the targeted effect, she avoids a targeted ability. Once she uses this ability, a cerynitis can't use it again for 1 round. Each use of this ability counts as a move action for the purpose of triggering Lightning Stance. A cerynitis can't use unearthly speed to avoid an attack or ability if she is not aware of the attack or ability, and she cannot use this ability at all if she is rendered immobile or if she bears a rider.",
+			"**Unearthly Speed (Ex)** When a creature makes a ranged or melee attack against a cerynitis, targets her with an ability, or includes her in the area of effect of an ability, the cerynitis can move up to half her speed as if she had readied an action to move. If she moves at all, this foils ranged and melee attacks; if she moves out of the area of effect, she avoids an area of effect ability; if she moves out of range of the targeted effect, she avoids a targeted ability. Once she uses this ability, a cerynitis can't use it again for 1 round. Each use of this ability counts as a move action for the purpose of triggering [Lightning Stance](feat/lightning_stance). A cerynitis can't use unearthly speed to avoid an attack or ability if she is not aware of the attack or ability, and she cannot use this ability at all if she is rendered immobile or if she bears a rider.",
 			"",
 			"#### Description",
 			"",
@@ -6699,7 +6699,7 @@
 			"",
 			"**Shrieking Frenzy (Su)** Once per day, a charau-ka can enter a state of shrieking frenzy as a free action. While in this state, the charau-ka automatically fails Stealth checks and cannot speak or cast spells that use verbal components (or use items that require command words to activate), but functions as if under the effects of a haste spell. The charauka can continue shrieking for up to 3 rounds, after which it is staggered for 1 round.",
 			"",
-			"**Thrown-Weapon Mastery (Ex)** Charau-ka are masters of thrown weapons. All charau-ka gain Throw Anything as a bonus feat. In addition, a charau-ka gains a +1 racial bonus on all thrown weapons, and their threat range for thrown weapons is doubled, as if the charau-ka possessed the Improved Critical feat for all thrown weapons. This effect doesn't stack with any other effect that expands the threat range of a weapon.",
+			"**Thrown-Weapon Mastery (Ex)** Charau-ka are masters of thrown weapons. All charau-ka gain [Throw Anything](feat/throw_anything) as a bonus feat. In addition, a charau-ka gains a +1 racial bonus on all thrown weapons, and their threat range for thrown weapons is doubled, as if the charau-ka possessed the [Improved Critical](feat/improved_critical) feat for all thrown weapons. This effect doesn't stack with any other effect that expands the threat range of a weapon.",
 			"",
 			"#### Description",
 			"",
