@@ -4793,7 +4793,7 @@
 			"**Region:** Mwangi Expanse or Varisia  ",
 			"**Requirements:** Elf",
 			"",
-			"Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves. You gain a +1 trait bonus on Diplomacy and Gather Information checks when interacting with Forlorn elves and non-elf races."
+			"Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves. You gain a +1 trait bonus on Diplomacy checks when interacting with Forlorn elves and non-elf races."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5225,7 +5225,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
 			"",
-			"Although out of work, you aren't particularly keen on the prospect of gambling away your last remaining coins simply for a chance at riches. That said, if the Gold Goblin's fortunes reverse after this big gambling tournament, you're relatively certain its owner, Saul Vancaskerkin, will be needing to hire on some new staff members. You've secured payment for the tournament, and intend on attending mostly to check the place out, to decide if it's a place you'd want to work at (as a bouncer, bartender, croupier, server, entertainer, spotter, or cook), and hopefully get a chance to catch Saul's eye and make an impression. You've long worked at honing your skills, and are quite accomplished and certain that you have something to offer. Pick one of the following skills: Bluff, Craft (any), Diplomacy, Intimidate, Perform (any), Profession (gambler), or Spot. You gain a +1 trait bonus in that skill, and that skill is always considered a class skill for you."
+			"Although out of work, you aren't particularly keen on the prospect of gambling away your last remaining coins simply for a chance at riches. That said, if the Gold Goblin's fortunes reverse after this big gambling tournament, you're relatively certain its owner, Saul Vancaskerkin, will be needing to hire on some new staff members. You've secured payment for the tournament, and intend on attending mostly to check the place out, to decide if it's a place you'd want to work at (as a bouncer, bartender, croupier, server, entertainer, spotter, or cook), and hopefully get a chance to catch Saul's eye and make an impression. You've long worked at honing your skills, and are quite accomplished and certain that you have something to offer. Pick one of the following skills: Bluff, Craft (any), Diplomacy, Intimidate, Perform (any), Profession (gambler), or Perception. You gain a +1 trait bonus in that skill, and that skill is always considered a class skill for you."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

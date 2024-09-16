@@ -3185,7 +3185,7 @@
 			"",
 			"You spent significant time as a vagabond and know your way around their society.  ",
 			"**Prerequisites:** Bluff 2 ranks, Knowledge (local) 2 ranks, member of an underclass.  ",
-			"**Benefit:** When dealing with criminals, vagabonds, unsavory characters, or other members of a country's underclass, you gain a +1 bonus on Bluff, Gather Information, Knowledge (local), and Sense Motive checks. When traveling with at least one other person who has this feat, you gain a +2 circumstance bonus on Listen and Spot checks to avoid being surprised at the start of combat."
+			"**Benefit:** When dealing with criminals, vagabonds, unsavory characters, or other members of a country's underclass, you gain a +1 bonus on Bluff, Diplomacy, Knowledge (local), and Sense Motive checks. When traveling with at least one other person who has this feat, you gain a +2 circumstance bonus on Perception checks to avoid being surprised at the start of combat."
 		]
 	},
 	"experimental_spellcaster": {
@@ -3867,7 +3867,7 @@
 			"**Source** [Advanced Class Guide pg. 147](source/advanced_class_guide)",
 			"",
 			"You are more able to draw upon inspiration than most.  ",
-			"**Prerequisites:** Amateur Investigator or inspiration class feature.  ",
+			"**Prerequisites:** [Amateur Investigator](feat/amateur_investigator) or inspiration class feature.  ",
 			"**Benefit:** You gain three extra use per day of inspiration in your inspiration pool.  ",
 			"**Special:** If you have levels in the investigator class, you can take this feat multiple times. Each time you do, you gain three extra uses of inspiration per day."
 		]
