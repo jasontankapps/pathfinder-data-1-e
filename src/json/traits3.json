@@ -305,7 +305,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling",
 			"",
-			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the Extend Spell metamagic feat."
+			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the [Extend Spell](feat/extend_spell) metamagic feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -799,7 +799,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the Leadership feat, you receive a +1 trait bonus to your Leadership score."
+			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the [Leadership](feat/leadership) feat, you receive a +1 trait bonus to your Leadership score."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -1363,7 +1363,7 @@
 			"",
 			"**Type:** Regional  ",
 			"**Region:** Qadira  ",
-			"**Requirements:** Mounted Combat feat",
+			"**Requirements:** [Mounted Combat](feat/mounted_combat) feat",
 			"",
 			"You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet."
 		],
@@ -3240,7 +3240,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the Eschew Materials feat."
+			"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the [Eschew Materials](feat/eschew_materials) feat."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -4130,7 +4130,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the Improved Dirty Trick feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
+			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the [Improved Dirty Trick](feat/improved_dirty_trick) feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -4320,7 +4320,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
 			"",
-			"They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. you've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the Technologist feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3."
+			"They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. you've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the [Technologist](feat/technologist) feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5951,7 +5951,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You know how to avoid a blow while still maintaining your offensive posture. When you use Combat Expertise, reduce the number you subtract from your melee attack rolls by 1."
+			"You know how to avoid a blow while still maintaining your offensive posture. When you use [Combat Expertise](feat/combat_expertise), reduce the number you subtract from your melee attack rolls by 1."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -6406,7 +6406,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the Extend Spell metamagic feat or similar abilities."
+			"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the [Extend Spell](feat/extend_spell) metamagic feat or similar abilities."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -7278,7 +7278,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the Still Spell feat. Using this trait does not modify the spell's level."
+			"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the [Still Spell](feat/still_spell) feat. Using this trait does not modify the spell's level."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -8784,7 +8784,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc",
 			"",
-			"Select one terrain type from the ranger's favored terrain list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the Diehard feat."
+			"Select one terrain type from the ranger's favored terrain list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the [Diehard](feat/diehard) feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},

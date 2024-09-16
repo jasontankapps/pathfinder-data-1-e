@@ -22,7 +22,7 @@
 			"",
 			"You give the targets the appearance and many of the abilities of sahuagin mutants, with effects as described below. Choose one benefit for all targets of this spell. This spell has no effect on sahuagin that are already mutants or already under the effects of gift of the deep.",
 			"",
-			"*Four-Armed:* The sahuagin sprouts an extra pair of arms-which can be used to make claw attacks (dealing 1d4 points of damage), or to wield weapons or hold items. It gains the benefits of the Multiattack and Multiweapon Fighting feats.",
+			"*Four-Armed:* The sahuagin sprouts an extra pair of arms-which can be used to make claw attacks (dealing 1d4 points of damage), or to wield weapons or hold items. It gains the benefits of the [Multiattack](feat/multiattack) and [Multiweapon Fighting](feat/multiweapon_fighting) feats.",
 			"",
 			"*Malenti:* The sahuagin's features shift to resemble those of an aquatic elf. It loses its light blindness as well as its claw and bite attacks. The sahuagin gains a +4 enhancement bonus to Dexterity and Charisma, and a +10 circumstance bonus on Disguise checks to appear to be an aquatic elf.",
 			"",
@@ -32,7 +32,7 @@
 			"",
 			"*Sightless:* The sahuagin is blinded, but gains the benefits of the Blind Fight feat and blindsense with a range of 90 feet.",
 			"",
-			"*Spined:* Spines grow on the sahuagin's scales. Any creature that successfully grapples with it, is grappled by it, or hits it with an unarmed strike or natural weapon takes 1d4 points of piercing damage. The sahuagin also gains the benefits of the Improved Grapple feat."
+			"*Spined:* Spines grow on the sahuagin's scales. Any creature that successfully grapples with it, is grappled by it, or hits it with an unarmed strike or natural weapon takes 1d4 points of piercing damage. The sahuagin also gains the benefits of the [Improved Grapple](feat/improved_grapple) feat."
 		]
 	},
 	"gilded_whispers": {
@@ -2460,7 +2460,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will (harmless); **Spell Resistance** no",
 			"",
-			"The target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to fear, a +4 morale bonus to Will saves, and doubles the critical threat range of all its attacks against creatures of the dragon type (this does not stack with Improved Critical, keen edge, or similar effects)."
+			"The target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to fear, a +4 morale bonus to Will saves, and doubles the critical threat range of all its attacks against creatures of the dragon type (this does not stack with [Improved Critical](feat/improved_critical), keen edge, or similar effects)."
 		]
 	},
 	"heart_of_the_metal": {
@@ -7669,7 +7669,7 @@
 			"**Target** you  ",
 			"**Duration** 1 hour or until discharged",
 			"",
-			"This spell enhances your spells that bring the dead back to life. If you cast raise dead, the target creature is restored to full hit points. If you cast breath of life, that spell can revive a dead target as long as you cast it within a number of rounds equal to half your caster level, and the healing effect is treated as if the spell were empowered with the Empower Spell feat. Casting any of these spells discharges the invigorating repose spell."
+			"This spell enhances your spells that bring the dead back to life. If you cast raise dead, the target creature is restored to full hit points. If you cast breath of life, that spell can revive a dead target as long as you cast it within a number of rounds equal to half your caster level, and the healing effect is treated as if the spell were empowered with the [Empower Spell](feat/empower_spell) feat. Casting any of these spells discharges the invigorating repose spell."
 		]
 	},
 	"invisibility": {

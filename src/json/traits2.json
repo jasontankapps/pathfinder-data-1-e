@@ -1089,7 +1089,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the Catch Off-Guard or Throw Anything feats, you still take penalties on these attack rolls as normal."
+			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the [Catch Off-Guard](feat/catch_off-guard) or [Throw Anything](feat/throw_anything) feats, you still take penalties on these attack rolls as normal."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -3079,7 +3079,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for Iron Will as the prerequisite for the [Familiar Bond](feat/familiar_bond) feat."
+			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for [Iron Will](feat/iron_will) as the prerequisite for the [Familiar Bond](feat/familiar_bond) feat."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -5133,7 +5133,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
 			"",
-			"You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the Technologist feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3."
+			"You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the [Technologist](feat/technologist) feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6264,7 +6264,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Chaldira",
 			"",
-			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having Improved Dirty Trick), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
+			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having [Improved Dirty Trick](feat/improved_dirty_trick)), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -6769,7 +6769,7 @@
 			"",
 			"Whenever you found yourself involved in a group effort in the past, be it working with siblings to handle a family emergency, conspiring with friends to orchestrate a prank, or throwing in with coworkers to take care of an unanticipated complication at work, you tended to end up in a position of leadership. It might be unclear to you why this is the case, or you might deliberately seek out such positions, knowing you can organize any group to be something greater than the sum of its parts, but your knack for managing groups has always pushed you to the front of any operation you've found yourself a part of.",
 			"",
-			"You excel in the role of manager. You treat your Charisma score as if it were 14 (or 2 points higher than its actual score if your actual Charisma is already 14 or higher) for the purposes of determining how many teams you can manage in the rebellion, and for the purposes of determining the bonus you add to your managed teams' actions. In addition, you gain a +1 trait bonus to your Leadership score if you take the Leadership feat."
+			"You excel in the role of manager. You treat your Charisma score as if it were 14 (or 2 points higher than its actual score if your actual Charisma is already 14 or higher) for the purposes of determining how many teams you can manage in the rebellion, and for the purposes of determining the bonus you add to your managed teams' actions. In addition, you gain a +1 trait bonus to your Leadership score if you take the [Leadership](feat/leadership) feat."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6835,7 +6835,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the Leadership feat, you gain a +1 trait bonus to your Leadership score."
+			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the [Leadership](feat/leadership) feat, you gain a +1 trait bonus to your Leadership score."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -6977,7 +6977,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the Diehard feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
+			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the [Diehard](feat/diehard) feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -7074,7 +7074,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kitsune",
 			"",
-			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the Magical Tail feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his Stunning Fist feat for Magical Tail."
+			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the [Magical Tail](feat/magical_tail) feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his [Stunning Fist](feat/stunning_fist) feat for Magical Tail."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},

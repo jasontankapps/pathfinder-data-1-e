@@ -333,7 +333,7 @@
 			"",
 			"You \"blink\" quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. Blink has several effects, as follows.",
 			"",
-			"Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).",
+			"Physical attacks against you have a 50% miss chance, and the [Blind-Fight](feat/blind-fight) feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).",
 			"",
 			"If the attacker can see invisible creatures, the miss chance is also only 20%. (For an attacker who can both see and strike ethereal creatures, there is no miss chance.) Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike.",
 			"",
@@ -553,7 +553,7 @@
 			"",
 			"**Source** [Mythic Adventures pg. 87](source/mythic_adventures)",
 			"",
-			"Unarmed strikes attempted with this spell are treated as if you had the Improved Critical (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance."
+			"Unarmed strikes attempted with this spell are treated as if you had the [Improved Critical](feat/improved_critical) (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance."
 		]
 	},
 	"blood_in_the_water": {
@@ -752,7 +752,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** none; **Spell Resistance** no (harmless)",
 			"",
-			"After casting this spell, you pour a few drops of your blood and saliva into the mouth of the animal sculpture material component, temporarily giving it life. The animal is bonded to you as if it were a familiar, and it has the abilities of a familiar (use your caster level as your effective wizard level to determine its abilities), but it does not grant you the Alertness feat or the special ability of its animal type. If your blood sentinel is slain, you take 2 points of Intelligence drain and the blood sentinel's body becomes a destroyed statue. This spell has no effect if you already have a familiar or another blood sentinel."
+			"After casting this spell, you pour a few drops of your blood and saliva into the mouth of the animal sculpture material component, temporarily giving it life. The animal is bonded to you as if it were a familiar, and it has the abilities of a familiar (use your caster level as your effective wizard level to determine its abilities), but it does not grant you the [Alertness](feat/alertness) feat or the special ability of its animal type. If your blood sentinel is slain, you take 2 points of Intelligence drain and the blood sentinel's body becomes a destroyed statue. This spell has no effect if you already have a familiar or another blood sentinel."
 		]
 	},
 	"blood_song": {
@@ -5647,7 +5647,7 @@
 			"**Target** one creature  ",
 			"**Duration** instantaneous",
 			"",
-			"You tap into the magical resonance between you and your allies to enhance one another's magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the Empower Spell metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the Maximize Spell or Widen Spell metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can't target yourself with collaborative thaumaturgy."
+			"You tap into the magical resonance between you and your allies to enhance one another's magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: [Enlarge Spell](feat/enlarge_spell), [Extend Spell](feat/extend_spell), [Silent Spell](feat/silent_spell), or [Still Spell](feat/still_spell). If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the [Empower Spell](feat/empower_spell) metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the [Maximize Spell](feat/maximize_spell) or [Widen Spell](feat/widen_spell) metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can't target yourself with collaborative thaumaturgy."
 		]
 	},
 	"color_spray": {
@@ -6226,7 +6226,7 @@
 			"**Duration** 1 hour/level; see text  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell allows affected creatures to hold their breath freely without negative effects or risk of suffocation. Divide the duration evenly among all creatures touched. A creature that doesn't need to breathe because of this spell is not at risk of drowning and is immune to effects that require breathing, such as inhaled poisons. This does not grant immunity to cloud or gas attacks that don't require breathing. While a creature is holding its breath, it can't speak or cast spells with a verbal component (unless it's using Silent Spell). This spell does not prevent a creature from breathing normally; it just removes the need for the creature to breathe."
+			"This spell allows affected creatures to hold their breath freely without negative effects or risk of suffocation. Divide the duration evenly among all creatures touched. A creature that doesn't need to breathe because of this spell is not at risk of drowning and is immune to effects that require breathing, such as inhaled poisons. This does not grant immunity to cloud or gas attacks that don't require breathing. While a creature is holding its breath, it can't speak or cast spells with a verbal component (unless it's using [Silent Spell](feat/silent_spell)). This spell does not prevent a creature from breathing normally; it just removes the need for the creature to breathe."
 		]
 	},
 	"condensed_ether": {
@@ -6250,7 +6250,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on concealment, and Blind-Fight, true seeing, and similar effects do not reduce it."
+			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on concealment, and [Blind-Fight](feat/blind-fight), true seeing, and similar effects do not reduce it."
 		]
 	},
 	"conditional_favor": {
@@ -7448,7 +7448,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your Outflank feat, but an ally flanking the orc with you would. Your allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus."
+			"Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your [Outflank](feat/outflank) feat, but an ally flanking the orc with you would. Your allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus."
 		]
 	},
 	"corpse_lanterns": {

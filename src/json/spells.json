@@ -2398,7 +2398,7 @@
 			"",
 			"*Gorilla:* Your arms become long, flexible, and strong like those of a great ape. Your unarmed damage die type increases by one step, and you gain a +4 competence bonus on combat maneuver checks when making the grapple or reposition combat maneuver.",
 			"",
-			"*Monkey:* Your hands and arms become dexterous like those of a simian. You gain a +4 competence bonus on Climb checks, and you can throw objects as if you had the Throw Anything feat.",
+			"*Monkey:* Your hands and arms become dexterous like those of a simian. You gain a +4 competence bonus on Climb checks, and you can throw objects as if you had the [Throw Anything](feat/throw_anything) feat.",
 			"",
 			"*Otter:* Your hands and feet gain webbing, and your lungs gain capacity, allowing you to move through the water with ease. You gain a Swim speed equal to half your speed, and all the benefits of having a swim speed. Additionally, you can hold your breath for 4 rounds per point of Constitution before being forced to make Constitution checks to keep holding your breath.",
 			"",
@@ -2443,7 +2443,7 @@
 			"",
 			"*Raccoon:* Your competence bonuses on Disable Device, Sleight of Hand, and Stealth checks increase to +4.",
 			"",
-			"*Raptor:* Your enhancement bonus to speed increases to +30 feet, and you gain the benefit of the Run feat.",
+			"*Raptor:* Your enhancement bonus to speed increases to +30 feet, and you gain the benefit of the [Run](feat/run) feat.",
 			"",
 			"*Tree Lizard:* You gain a +4 competence bonus on Stealth checks."
 		]
@@ -3880,7 +3880,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"A shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to the DC of any saving throws against the spell, and can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): Enlarge Spell, Extend Spell, Silent Spell, or Still Spell (you choose the metamagic feat when you cast arcane concordance)."
+			"A shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to the DC of any saving throws against the spell, and can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): [Enlarge Spell](feat/enlarge_spell), [Extend Spell](feat/extend_spell), [Silent Spell](feat/silent_spell), or [Still Spell](feat/still_spell) (you choose the metamagic feat when you cast arcane concordance)."
 		]
 	},
 	"arcane_disruption": {
@@ -4496,7 +4496,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"You take on an aspect of a falcon. Your eyes become wide and raptor-like, and you grow feathers on the sides of your head. You gain a +3 competence bonus on Perception checks, a +1 competence bonus on ranged attacks, and the critical multiplier for your bows and crossbows becomes 19-20/&times;3. This effect does not stack with any other effect that expands the threat range of a weapon, such as the Improved Critical feat or a keen weapon."
+			"You take on an aspect of a falcon. Your eyes become wide and raptor-like, and you grow feathers on the sides of your head. You gain a +3 competence bonus on Perception checks, a +1 competence bonus on ranged attacks, and the critical multiplier for your bows and crossbows becomes 19-20/&times;3. This effect does not stack with any other effect that expands the threat range of a weapon, such as the [Improved Critical](feat/improved_critical) feat or a keen weapon."
 		]
 	},
 	"aspect_of_the_nightingale": {
@@ -6116,7 +6116,7 @@
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the Natural Spell feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the [Natural Spell](feat/natural_spell) feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			"### Beast Shape II",
 			"",
@@ -6148,7 +6148,7 @@
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the Natural Spell feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the [Natural Spell](feat/natural_spell) feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			"### Beast Shape III",
 			"",
@@ -6184,7 +6184,7 @@
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the Natural Spell feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the [Natural Spell](feat/natural_spell) feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			"### Beast Shape IV",
 			"",
@@ -6216,7 +6216,7 @@
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the Natural Spell feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the [Natural Spell](feat/natural_spell) feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			"### Magical Beast Shape",
 			"",
@@ -7513,7 +7513,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks, nudging your weapons in the proper direction. When you voluntarily use one or more actions or feats that apply penalties to attack rolls with your melee weapons (such as a charge, fighting defensively, or using the Power Attack feat), the spirit reduces the total penalty on affected attacks by 1 (to a minimum penalty of 0). The penalty is reduced by an additional 1 for every 5 caster levels you possess (to a minimum penalty of 0). Only penalties incurred by voluntary use of feats or maneuvers are reduced by this spell.",
+			"You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks, nudging your weapons in the proper direction. When you voluntarily use one or more actions or feats that apply penalties to attack rolls with your melee weapons (such as a charge, fighting defensively, or using the [Power Attack](feat/power_attack) feat), the spirit reduces the total penalty on affected attacks by 1 (to a minimum penalty of 0). The penalty is reduced by an additional 1 for every 5 caster levels you possess (to a minimum penalty of 0). Only penalties incurred by voluntary use of feats or maneuvers are reduced by this spell.",
 			"",
 			"The spirit can't be attacked or harmed by physical attacks, but disintegrate, dispel magic, a rod of cancellation, or a sphere of annihilation can affect it. A protective spirit's AC against touch attacks is equal to 10 + your Dexterity modifier."
 		]
@@ -8014,7 +8014,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"The target is considered to be armed even when unarmed, so it doesn't provoke attacks of opportunity when it attacks foes with unarmed strikes. Its unarmed strikes can deal lethal or nonlethal damage (target's choice). If the target already has this ability (such as from the monk unarmed strike ability or the Improved Unarmed Strike feat), its unarmed strikes gain a +1 enhancement bonus on attack rolls and damage rolls, and they count as good-aligned weapons for the purposes of overcoming damage reduction."
+			"The target is considered to be armed even when unarmed, so it doesn't provoke attacks of opportunity when it attacks foes with unarmed strikes. Its unarmed strikes can deal lethal or nonlethal damage (target's choice). If the target already has this ability (such as from the monk unarmed strike ability or the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat), its unarmed strikes gain a +1 enhancement bonus on attack rolls and damage rolls, and they count as good-aligned weapons for the purposes of overcoming damage reduction."
 		]
 	},
 	"blessing_of_courage_and_life": {

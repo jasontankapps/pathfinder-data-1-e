@@ -227,7 +227,7 @@
 			"",
 			"Foot soldiers are the backbone of any army, stout soldiers who \"hold the line\" in the face of the enemy's charge with a bristling wall of pikes, decimate an opposing force's ranks with a hail of javelins, or hew with their swords in the bloody grind of close combat. Foot soldiers close the gap when their foes try to flee the field, and are tough enough to shrug off blows that would fell a common man.",
 			"",
-			"Changing a foot soldier's character class from warrior to fighter creates a professional veteran soldier. This necessitates a number of changes, the foremost of which is using the heroic numbers for his ability scores (15, 14, 13, 12, 10, and 8). In addition, the foot soldier receives a bonus fighter feat such as Combat Reflexes, Power Attack, or Weapon Focus.",
+			"Changing a foot soldier's character class from warrior to fighter creates a professional veteran soldier. This necessitates a number of changes, the foremost of which is using the heroic numbers for his ability scores (15, 14, 13, 12, 10, and 8). In addition, the foot soldier receives a bonus fighter feat such as [Combat Reflexes](feat/combat_reflexes), [Power Attack](feat/power_attack), or [Weapon Focus](feat/weapon_focus).",
 			"",
 			"Different varieties of foot soldier can be easily created by exchanging weapons and armor. For example, replacing the longspear and greatsword with a shortspear, longsword, and heavy steel shield increases the foot soldier's AC by 2.",
 			"",
@@ -364,9 +364,9 @@
 			"",
 			"The village idiot is an amiable simpleton, eking out a meager existence through charity, begging, odd jobs, or occasionally bringing down small game with his sling. While usually a gentle soul, the village idiot is prone to anger if provoked, and may lash out blindly with whatever item is at hand.",
 			"",
-			"Giving a village idiot the Skill Focus feat in place of Endurance creates an idiot savant, displaying great knowledge in one specific area, usually a Craft or Knowledge skill. Switching an idiot savant's Constitution and Charisma scores, and giving him Animal Affinity, Skill Focus (Handle Animal), and the Handle Animal skill instead of Climb, creates a horse whisperer or someone who relates better to animals than to humans (hp 4, Fort +0, Handle Animal +11). A village idiot might also carry a crude knife, or could have learned to defend himself from the taunts of cruel villagers with his fists (and the Improved Unarmed Strike feat).",
+			"Giving a village idiot the [Skill Focus](feat/skill_focus) feat in place of Endurance creates an idiot savant, displaying great knowledge in one specific area, usually a Craft or Knowledge skill. Switching an idiot savant's Constitution and Charisma scores, and giving him [Animal Affinity](feat/animal_affinity), Skill Focus (Handle Animal), and the Handle Animal skill instead of Climb, creates a horse whisperer or someone who relates better to animals than to humans (hp 4, Fort +0, Handle Animal +11). A village idiot might also carry a crude knife, or could have learned to defend himself from the taunts of cruel villagers with his fists (and the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat).",
 			"",
-			"Village idiots can also be used as prisoners, galley slaves, or incarcerated lunatics in an asylum. A village idiot can also represent any simple commoner, by replacing his Climb skill with an appropriate Craft or Profession skill. A stableboy might have the Ride skill instead, while a dock rat may possess the Swim skill. An urchin runner might have the Fleet and Run feats instead.",
+			"Village idiots can also be used as prisoners, galley slaves, or incarcerated lunatics in an asylum. A village idiot can also represent any simple commoner, by replacing his Climb skill with an appropriate Craft or Profession skill. A stableboy might have the Ride skill instead, while a dock rat may possess the Swim skill. An urchin runner might have the [Fleet](feat/fleet) and [Run](feat/run) feats instead.",
 			"",
 			"A village idiot is usually encountered alone, but may also be found tagging along with an acolyte, drunkard, farmer, or shopkeep."
 		]
@@ -445,7 +445,7 @@
 			"",
 			"**Str** 13, **Dex** 14, **Con** 11, **Int** 10, **Wis** 8, **Cha** 9  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 16  ",
-			"**Feats** [Dodge](feat/dodge), Point Blank Shot  ",
+			"**Feats** [Dodge](feat/dodge), [Point Blank Shot](feat/point_blank_shot)  ",
 			"**Skills** Climb +4, Handle Animal +3, Intimidate +3, Ride +5, Stealth +2  ",
 			"**Languages** Common  ",
 			"**Gear** studded leather, buckler, composite longbow (+1 Str) with 20 arrows, rapier, sap, light horse (combat trained)",
@@ -456,7 +456,7 @@
 			"",
 			"Bandits can be deserters from an army, disaffected huntsmen, rootless drifters with no taste for hard work, cattle rustlers or horse thieves, or even folk-hero freedom fighters who rob from the rich to feed the poor.",
 			"",
-			"Bandits can be used as low-level archer soldiers (N alignment, replace Dodge feat with Weapon Focus [longbow]) or crossbowmen (replace longbow with light or heavy crossbow), or as guards manning city walls (LN alignment, replace rapiers with longswords and replace Dodge feat with Weapon Focus [longsword]). They can also be used as bored young nobles or dandies out on a hunt or as low-level scouts or outriders.",
+			"Bandits can be used as low-level archer soldiers (N alignment, replace Dodge feat with [Weapon Focus](feat/weapon_focus) [longbow]) or crossbowmen (replace longbow with light or heavy crossbow), or as guards manning city walls (LN alignment, replace rapiers with longswords and replace Dodge feat with Weapon Focus [longsword]). They can also be used as bored young nobles or dandies out on a hunt or as low-level scouts or outriders.",
 			"",
 			"Bandits are usually found in pairs (CR 1) or in a gang of a dozen accompanying a highwayman (CR 8). They often make up the rank-and-file members of a bandit lord's gang (CR 12)."
 		]
@@ -693,7 +693,7 @@
 			"",
 			"Pickpockets are the bane of the marketplace-innocuous waifs with innocent smiles and deft hands who can cut a purse in an eyeblink. Pickpockets could also serve as any of the countless street urchins or guttersnipes found on the streets of any large city.",
 			"",
-			"Adding a dagger or short sword turns a pickpocket into a desperate mugger. Replacing Deft Hands with Deceitful and changing Skill Focus from Sleight of Hand to Bluff can make a con artist pickpocket, while changing Skill Focus to Disable Device makes for a good apprentice lock-picker or trapspringer. Replacing the Appraise skill with Perform creates common acrobats, jugglers, or mummers, perhaps members of a troupe that engages in a little larceny on the side.",
+			"Adding a dagger or short sword turns a pickpocket into a desperate mugger. Replacing Deft Hands with [Deceitful](feat/deceitful) and changing Skill Focus from Sleight of Hand to Bluff can make a con artist pickpocket, while changing Skill Focus to Disable Device makes for a good apprentice lock-picker or trapspringer. Replacing the Appraise skill with Perform creates common acrobats, jugglers, or mummers, perhaps members of a troupe that engages in a little larceny on the side.",
 			"",
 			"In pairs (CR 1), one pickpocket usually provides a distraction for her partner to take advantage of. In large cities and markets, pickpockets often work in gangs of six (CR 4) or even more. A wanderer might employ a pickpocket assistant (CR 3), while a storyteller or minstrel might employ half a dozen pickpockets to help \"work\" the crowd (CR 5 or 6). A shady barkeep might keep two pickpockets on staff disguised as serving girls, along with his two regular barmaids, to supplement his tavern's income (CR 5)."
 		]
@@ -1184,7 +1184,7 @@
 			"",
 			"Shipmates can be used as low-level marines, rivermen, bargefolk, or even swamp rats living in stilt-houses.",
 			"",
-			"Replacing a shipmate's Dodge feat with Athletic reduces his AC and CMD by 1, but increases his Climb and Swim skills by 2 each. Replacing his Profession (fisherman) skill with ranks in Linguistics or a Knowledge skill creates a sailor who has traveled the world and has knowledge of distant lands or languages.",
+			"Replacing a shipmate's Dodge feat with [Athletic](feat/athletic) reduces his AC and CMD by 1, but increases his Climb and Swim skills by 2 each. Replacing his Profession (fisherman) skill with ranks in Linguistics or a Knowledge skill creates a sailor who has traveled the world and has knowledge of distant lands or languages.",
 			"",
 			"On board a ship, shipmates might serve as crew for a variety of characters: eight shipmates could work for an evil slaver (CR 6), a seagoing traveling merchant (CR 7), a marauding viking (CR 8), or a pirate captain and her first mate (CR 12).",
 			"",
@@ -1381,7 +1381,7 @@
 			"",
 			"A barmaid might also be used as a farmer's, fisherman's, or shopkeep's wife, or any type of servant, whether in an inn or a noble's manor. Changing a barmaid's Profession skills can create any type of servant needed. Profession (courtesan) creates an inexperienced prostitute, or simply a serving girl who works in a brothel.",
 			"",
-			"While skilled in improvised weapons, changing a barmaid's feats can create a servant with other useful skills. Alertness or Skill Focus (Perception) makes a barmaid good at overhearing conversations, while a barmaid working in a dangerous dive might carry a concealed dagger and have the Improved Unarmed Strike and Weapon Finesse feats.",
+			"While skilled in improvised weapons, changing a barmaid's feats can create a servant with other useful skills. [Alertness](feat/alertness) or [Skill Focus](feat/skill_focus) (Perception) makes a barmaid good at overhearing conversations, while a barmaid working in a dangerous dive might carry a concealed dagger and have the [Improved Unarmed Strike](feat/improved_unarmed_strike) and [Weapon Finesse](feat/weapon_finesse) feats.",
 			"",
 			"A typical small tavern may have only a barkeep and a pair of barmaids (CR 4), while a large inn might have half a dozen barmaids serving the barkeep, with a street thug bouncer for protection (CR 6). A barmaid is often found in the company of a pair of farmers or shipmates (CR 2) or a noble scion (CR 3), or two barmaids might serve a pair of drunkards, street thugs, or vagabonds (CR 4)."
 		]
@@ -1670,7 +1670,7 @@
 			"",
 			"Guards of the city watch are vigilant soldiers, dedicated to keeping the peace and maintaining order. They defend the city walls and gates against external threats, but they also stand ready to break up fights and brawls, disarming or sundering weapons drawn in anger, forcing unruly citizens apart, and tending the wounded.",
 			"",
-			"Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace Improved Sunder with Exotic Weapon Proficiency (two-bladed sword). Prison guards might replace Improved Sunder with Improved Unarmed Strike and Power Attack with Exotic Weapon Proficiency (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.",
+			"Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace Improved Sunder with [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (two-bladed sword). Prison guards might replace Improved Sunder with [Improved Unarmed Strike](feat/improved_unarmed_strike) and Power Attack with Exotic Weapon Proficiency (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.",
 			"",
 			"Guards may be encountered alone, in pairs (CR 3), in groups of four (CR 5), or as a patrol of six accompanied by a guard officer (CR 7), depending on how dangerous their city or neighborhood is."
 		]
@@ -1716,7 +1716,7 @@
 			"",
 			"Street thugs are the alleybashers and bullyboys of the streets. They are the crude muscle employed by other criminals to keep rivals at bay and shake down hapless shopkeeps and business owners. Innocent townsfolk live in fear of a street thug slipping out of the shadows to administer a brutal beating.",
 			"",
-			"In more lawless cities, street thugs can serve as corrupt guardsmen or as a vigilante militia. Street thugs can also be used as bouncers in a tavern or casino. Replacing Two-Weapon Fighting with Intimidating Prowess makes a street thug a better extortionist. Outside of cities and towns, street thugs can also be used as bandits or brigands, or as low-level guards for a merchant caravan.",
+			"In more lawless cities, street thugs can serve as corrupt guardsmen or as a vigilante militia. Street thugs can also be used as bouncers in a tavern or casino. Replacing Two-Weapon Fighting with [Intimidating Prowess](feat/intimidating_prowess) makes a street thug a better extortionist. Outside of cities and towns, street thugs can also be used as bandits or brigands, or as low-level guards for a merchant caravan.",
 			"",
 			"A single street thug can be a prostitute's pimp (CR 3) or the intimidating partner of a pickpocket (CR 2). A pair of street thugs might operate with a slaver (CR 5) or torturer (CR 6), or they might work as bodyguards for a dealer acting as a minor crimelord (CR 5). Six street thugs might form a riot-busting brute squad (CR 6)."
 		]
@@ -1905,7 +1905,7 @@
 			"",
 			"Initiates can serve as bodyguards in areas where weapons are forbidden or as unconventional foot soldiers and skirmishers. They could also be used as unarmed brawlers, boxers, gladiators, or pit fighters.",
 			"",
-			"Exchanging an initiate's monk bonus feats creates NPCs with different combat abilities, such as Catch Off-Guard and Throw Anything for an improvised weapon master, Improved Grapple for a wrestler, or Scorpion Style for different unarmed combat flavor.",
+			"Exchanging an initiate's monk bonus feats creates NPCs with different combat abilities, such as [Catch Off-Guard](feat/catch_off-guard) and [Throw Anything](feat/throw_anything) for an improvised weapon master, [Improved Grapple](feat/improved_grapple) for a wrestler, or [Scorpion Style](feat/scorpion_style) for different unarmed combat flavor.",
 			"",
 			"An initiate may be found escorting a pair of acolytes (CR 3), or four initiates could be responsible for protecting a group of six pilgrims on a pilgrimage to a distant temple (CR 9). A group of six initiates might be encountered traveling between two monasteries (CR 6), or five initiates could form a training class under the tutelage of a battle monk (CR 7)."
 		]
@@ -2186,7 +2186,7 @@
 			"",
 			"Caravan guards are sturdy veterans with an eye for troublemakers. Often surly and pugnacious, they ride alongside pack and wagon trains with crossbows at the ready, but if real danger threatens most are more comfortable fighting with their boots safely on the ground and sword and shield in hand.",
 			"",
-			"Caravan guards can serve as scouts, messengers, or outriders. Replacing a caravan guard's Alertness and Animal Affinity feats with Mounted Combat and Mounted Archery makes him more adept at fighting from horseback. Replacing Rapid Reload with Ride-By Attack or Trample, coupled with the Mounted Combat feats, creates a low-level nomadic horse warrior. For better flavor, exchange his longsword and heavy crossbow for a scimitar and composite shortbow.",
+			"Caravan guards can serve as scouts, messengers, or outriders. Replacing a caravan guard's Alertness and Animal Affinity feats with [Mounted Combat](feat/mounted_combat) and [Mounted Archery](feat/mounted_archery) makes him more adept at fighting from horseback. Replacing Rapid Reload with [Ride-By Attack](feat/ride-by_attack) or [Trample](feat/trample), coupled with the Mounted Combat feats, creates a low-level nomadic horse warrior. For better flavor, exchange his longsword and heavy crossbow for a scimitar and composite shortbow.",
 			"",
 			"Two slavers might use four caravan guards to watch their chattel (CR 7), while a squad of six caravan guards might accompany a highwayman (CR 8), or guard a group of six vagabonds (CR 8) or five pilgrims (CR 9). A troop of eight caravan guards is usually led by a sellsword (CR 9), or a traveling merchant or merchant prince can hire eight caravan guards to guard his caravan (CR 8 or 10)."
 		]
@@ -2310,7 +2310,7 @@
 			"",
 			"**Str** 13, **Dex** 13, **Con** 12, **Int** 10, **Wis** 8, **Cha** 9  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 14  ",
-			"**Feats** [Alertness](feat/alertness), Point Blank Shot, [Rapid Shot](feat/rapid_shot)  ",
+			"**Feats** [Alertness](feat/alertness), [Point Blank Shot](feat/point_blank_shot), [Rapid Shot](feat/rapid_shot)  ",
 			"**Skills** Climb +3, Handle Animal +3, Knowledge (geography) +1, Knowledge (local) +1, Perception +7, Ride +3, Sense Motive +2, Survival +1, Swim +3  ",
 			"**Languages** Common  ",
 			"**Gear** masterwork chain shirt, buckler, battleaxe, dagger, masterwork composite longbow (+1 Str) with 20 arrows, mule, saddle",
@@ -2321,7 +2321,7 @@
 			"",
 			"Vagabonds serve well as hunters, woodsmen, and herders who live on the fringes of society. A vagabond might also work as a traveling peddler or merchant, or serve as a scout for a town militia.",
 			"",
-			"Vagabonds make good low-level archers, and this skill can be improved by replacing the Alertness feat with Far Shot, Precise Shot, or Weapon Focus (longbow). Alternatively, you can replace the archery feats with Power Attack and Toughness to make a vagabond better in melee combat.",
+			"Vagabonds make good low-level archers, and this skill can be improved by replacing the Alertness feat with [Far Shot](feat/far_shot), [Precise Shot](feat/precise_shot), or [Weapon Focus](feat/weapon_focus) (longbow). Alternatively, you can replace the archery feats with [Power Attack](feat/power_attack) and [Toughness](feat/toughness) to make a vagabond better in melee combat.",
 			"",
 			"Vagabonds are usually loners, but may partner with a caravan guard, storyteller, or pair of farmers (CR 3). Two vagabonds might join a troupe of four wanderers (CR 7), or occasionally travel in small groups of four, accompanied by a single wanderer, pilgrim, or trapper (CR 6)."
 		]
@@ -2662,7 +2662,7 @@
 			"",
 			"Beggars are the homeless and hopeless wretches that eke out a meager existence at the fringes of society in cities and towns. Some are once farmers, craftsmen, or other working folk stricken blind or lame, while others are orphans from birth, subsisting on alms and charity so long they have known nothing else.",
 			"",
-			"Beggars can serve as apprentice thieves and pickpockets (and not a few beggars supplement their begging this way). They might also be used as urchins, link boys, the inhabitants of a leper colony, or even cultists of a dark god of disease, thievery, or murder. Exchanging a beggar's Skill Focus (Survival) with Skill Focus (Sleight of Hand) or Skill Focus (Stealth) creates a better pickpocket or thief. Replacing Endurance with Weapon Finesse, as well as adding some light armor or an additional weapon, makes a beggar more effective in combat, as does replacing both of a beggar's feats with Dodge and Mobility.",
+			"Beggars can serve as apprentice thieves and pickpockets (and not a few beggars supplement their begging this way). They might also be used as urchins, link boys, the inhabitants of a leper colony, or even cultists of a dark god of disease, thievery, or murder. Exchanging a beggar's Skill Focus (Survival) with Skill Focus (Sleight of Hand) or Skill Focus (Stealth) creates a better pickpocket or thief. Replacing Endurance with [Weapon Finesse](feat/weapon_finesse), as well as adding some light armor or an additional weapon, makes a beggar more effective in combat, as does replacing both of a beggar's feats with [Dodge](feat/dodge) and [Mobility](feat/mobility).",
 			"",
 			"A beggar might be accompanied by a village idiot (CR 2), or may team up with a street thug or a pair of pickpockets (CR 3). A pair of beggars may also trail after a dealer or pilgrim (CR 5), or work with a troupe of four wanderers (CR 7). Beggars working as thieves or pickpockets might form gangs of six (CR 6), while four thieving beggars might add their skills to a gang of eight bandits (CR 7)."
 		]
@@ -2959,7 +2959,7 @@
 			"",
 			"Cannibals are ferocious, savage humanoids, feral people with a taste for sentient flesh. In battle, they charge with savage war cries, often tossing their weapons aside to hurl themselves onto their foes with hunger and abandon, eager to taste the blood and flesh in the ecstatic heat of battle.",
 			"",
-			"Cannibals can also be used as regular barbarian tribesmen. In these cases, they might have different rage powers (such as intimidating glare, powerful blow, or superstition), and their feats can be replaced with Endurance and Diehard, or Power Attack and Cleave. A cannibal with the scent rage power makes a skilled tracker, while one with swift foot can easily run down prey.",
+			"Cannibals can also be used as regular barbarian tribesmen. In these cases, they might have different rage powers (such as intimidating glare, powerful blow, or superstition), and their feats can be replaced with [Endurance](feat/endurance) and [Diehard](feat/diehard), or [Power Attack](feat/power_attack) and [Cleave](feat/cleave). A cannibal with the scent rage power makes a skilled tracker, while one with swift foot can easily run down prey.",
 			"",
 			"Cannibals are usually found in hunting parties of four to six (CR 5 or 6), often accompanied by an equal number of half-tamed large dogs (CR 6 or 7). Eight cannibals might accompany a shaman (CR 8) or a chieftain (CR 11)."
 		]
@@ -3206,7 +3206,7 @@
 			"",
 			"Burglars are prowlers of cities and towns, dancing catlike along rooftops and slipping quietly into homes and shops by night.",
 			"",
-			"Changing Skill Focus (Perception) to Skill Focus (Disable Device) turns a burglar into an expert safecracker, while replacing Deft Hands and Skill Focus (Perception) with Point Blank Shot and Weapon Focus (shortbow) makes a skulking sniper. Replacing Skill Focus (Perception) with Skill Focus (Acrobatics), and changing the quick disable rogue talent to ledge walker or stand up creates a thief-acrobat. Changing a burglar's rogue talent is a good way to customize further.",
+			"Changing Skill Focus (Perception) to Skill Focus (Disable Device) turns a burglar into an expert safecracker, while replacing Deft Hands and Skill Focus (Perception) with [Point Blank Shot](feat/point_blank_shot) and [Weapon Focus](feat/weapon_focus) (shortbow) makes a skulking sniper. Replacing Skill Focus (Perception) with Skill Focus (Acrobatics), and changing the quick disable rogue talent to ledge walker or stand up creates a thief-acrobat. Changing a burglar's rogue talent is a good way to customize further.",
 			"",
 			"Burglars usually work alone but will sometimes hire a pickpocket as a lookout (CR 3). A trio of burglars might cooperate to rob a large house or bank, with three street thugs for muscle and a pickpocket lookout (CR 7). A burglar may also work in concert with a barkeep and barmaid (CR 5) to rob patrons' rooms of valuables."
 		]
@@ -3346,7 +3346,7 @@
 			"",
 			"Prisoners are hapless wretches who have spent uncounted years locked away in the deepest cells. Battered and bruised, their minds assaulted by the endless imprisonment and the mad ravings of weak-minded cellmates, prisoners endure through sheer force of will and the hope that one day they shall see their freedom. Prisoners may be found in town jails, large prisons, or underground dungeons, either as convicted criminals, political prisoners, or wretched captives.",
 			"",
-			"Prisoners can be used for escaped convicts, beggars, galley slaves, shipwreck survivors, escaped slaves, or similar outlaws or desperate folk. Giving a prisoner the Throw Anything feat makes a prisoner skilled with improvised melee and ranged weapons. Giving him a Skill Focus feat makes an expert being held prisoner for his skill or knowledge, perhaps someone the PCs are hired to rescue. Prisoners might have Great Fortitude, Iron Will, or Lightning Reflexes to represent the hardships they have overcome.",
+			"Prisoners can be used for escaped convicts, beggars, galley slaves, shipwreck survivors, escaped slaves, or similar outlaws or desperate folk. Giving a prisoner the [Throw Anything](feat/throw_anything) feat makes a prisoner skilled with improvised melee and ranged weapons. Giving him a [Skill Focus](feat/skill_focus) feat makes an expert being held prisoner for his skill or knowledge, perhaps someone the PCs are hired to rescue. Prisoners might have [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or [Lightning Reflexes](feat/lightning_reflexes) to represent the hardships they have overcome.",
 			"",
 			"Prisoners may be found alone or in a work gang of a half-dozen under the watchful eye of a slaver (CR 6). Five prisoners can serve as the crazed flock of a cultist (CR 7). A dozen prisoners outfitted with pitchforks and other farm implements makes an angry peasant mob (CR 9)."
 		]
@@ -5131,7 +5131,7 @@
 			"",
 			"Turnkeys can also be used as armed porters, gate guards, or well-armored warehouse guards. In non-good cities, turnkeys might be used as thuggish city guards or brute squads.",
 			"",
-			"Changing a turnkey's feats creates a variety of different NPCs. A turnkey with Skill Focus (Sense Motive) instead of Improved Bull Rush is an even more canny judge of character, while Skill Focus (Intimidate) creates an even scarier jailer. Replacing Improved Bull Rush with Improved Overrun or Improved Sunder gives turnkeys alternate combat maneuvers to use. The Blind-Fight feat allows turnkeys to operate more effectively in dark dungeons, and Combat Reflexes combined with Stand Still makes turnkeys almost impossible for escaped prisoners to slip by.",
+			"Changing a turnkey's feats creates a variety of different NPCs. A turnkey with [Skill Focus](feat/skill_focus) (Sense Motive) instead of Improved Bull Rush is an even more canny judge of character, while Skill Focus (Intimidate) creates an even scarier jailer. Replacing Improved Bull Rush with [Improved Overrun](feat/improved_overrun) or [Improved Sunder](feat/improved_sunder) gives turnkeys alternate combat maneuvers to use. The [Blind-Fight](feat/blind-fight) feat allows turnkeys to operate more effectively in dark dungeons, and [Combat Reflexes](feat/combat_reflexes) combined with [Stand Still](feat/stand_still) makes turnkeys almost impossible for escaped prisoners to slip by.",
 			"",
 			"A turnkey will usually have a pair of guards to assist in his patrols (CR 5), or four guards in particularly dangerous prisons (CR 6). Four turnkeys might be found together in a well-staffed guardroom (CR 7). A slaver might be accompanied by two turnkey guards (CR 6), and a torturer often has two turnkeys as guards for her charges (CR 7)."
 		]
@@ -5260,7 +5260,7 @@
 			"",
 			"**Str** 14, **Dex** 15, **Con** 12, **Int** 10, **Wis** 13, **Cha** 10  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Dodge](feat/dodge), [Endurance](feat/endurance), [Mobility](feat/mobility), Point Blank Shot  ",
+			"**Feats** [Deadly Aim](feat/deadly_aim), [Dodge](feat/dodge), [Endurance](feat/endurance), [Mobility](feat/mobility), [Point Blank Shot](feat/point_blank_shot)  ",
 			"**Skills** Climb +10, Craft (traps) +9, Handle Animal +6, Heal +8, Perception +7, Profession (trapper) +8, Ride +6, Stealth +8, Survival +8 (+10 to follow tracks), Swim +6  ",
 			"**Languages** Common  ",
 			"**SQ** favored terrain (woods +2), hunter's bond (badger animal companion), track +2, wild empathy +4  ",
@@ -6970,7 +6970,7 @@
 			"",
 			"**Str** 16, **Dex** 16, **Con** 14, **Int** 7, **Wis** 10, **Cha** 11  ",
 			"**Base Atk** +4; **CMB** +7 (+11 grapple); **CMD** 20 (24 vs. trip)  ",
-			"**Feats** Iron Will, Multiattack, Toughness  ",
+			"**Feats** [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Toughness](feat/toughness)  ",
 			"**Skills** Intimidate +4, Perception +7, Sense Motive +7, Stealth +8, Swim +13  ",
 			"**Languages** Common  ",
 			"**SQ** link, evolutions (bite, gills, improved natural armor, limbs [arms], limbs [legs, 2], pincers, swim), share spells",

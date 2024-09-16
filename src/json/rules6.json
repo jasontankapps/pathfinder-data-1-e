@@ -7840,7 +7840,7 @@
 			"",
 			"**AC:** The creature's Armor Class, touch Armor Class, and flat-footed Armor Class. The modifiers that generate its AC are listed parenthetically at the end of this entry.",
 			"",
-			"**hp:** The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the Toughness feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. Fast healing and regeneration values, if any, follow the creature's HD.",
+			"**hp:** The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the [Toughness](feat/toughness) feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. Fast healing and regeneration values, if any, follow the creature's HD.",
 			"",
 			"**Saving Throws:** The creature's Fortitude, Reflex, and Will saves, followed by situational modifiers to those rolls.",
 			"",

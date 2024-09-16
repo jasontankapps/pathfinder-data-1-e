@@ -174,7 +174,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Fortitude negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"Those under the effects of this spell become faster in the use of thrown weapons. They can draw thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within their space without the need for the Quick Draw feat, allowing them to make their full normal rate of attacks with such weapons. This has no effects on other forms of ranged weapon ammunition."
+			"Those under the effects of this spell become faster in the use of thrown weapons. They can draw thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within their space without the need for the [Quick Draw](feat/quick_draw) feat, allowing them to make their full normal rate of attacks with such weapons. This has no effects on other forms of ranged weapon ammunition."
 		]
 	},
 	"quieting_weapons": {
@@ -4182,7 +4182,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature's CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. Improved Trip does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM's discretion."
+			"You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature's CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. [Improved Trip](feat/improved_trip) does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM's discretion."
 		]
 	},
 	"rubberskin": {
@@ -4603,7 +4603,7 @@
 			"**Duration** 2 hours/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using Alignment Channel) increases by +2. In addition, evil outsiders take a -1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a sacred space. If the sacred space contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast sacred space in an area with a permanent fixture dedicated to a deity other than yours."
+			"This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using [Alignment Channel](feat/alignment_channel)) increases by +2. In addition, evil outsiders take a -1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a sacred space. If the sacred space contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast sacred space in an area with a permanent fixture dedicated to a deity other than yours."
 		]
 	},
 	"sacrifice": {
@@ -6526,7 +6526,7 @@
 			"",
 			"You leave a magical trace in the mind of a creature with an attitude of at least indifferent toward you. The target takes a cumulative -2 penalty on its Will save to negate the spell for each step by which its attitude is better than indifferent.",
 			"",
-			"The target takes a -2 penalty on saving throws against divination spells you cast. You can target that creature with mind-affecting spells of a spell level lower than seeds of influence as if those spells were modified by Enlarge Spell (the modified spell doesn't take longer to cast and doesn't use a higher-level spell slot). Whenever the target succeeds at a saving throw against a divination or mind-affecting spell you cast, seeds of influence ends for that target. A creature can be subject to only one seeds of influence spell at a time; later castings of seeds of influence remove any previous casting.",
+			"The target takes a -2 penalty on saving throws against divination spells you cast. You can target that creature with mind-affecting spells of a spell level lower than seeds of influence as if those spells were modified by [Enlarge Spell](feat/enlarge_spell) (the modified spell doesn't take longer to cast and doesn't use a higher-level spell slot). Whenever the target succeeds at a saving throw against a divination or mind-affecting spell you cast, seeds of influence ends for that target. A creature can be subject to only one seeds of influence spell at a time; later castings of seeds of influence remove any previous casting.",
 			"",
 			"### Seeds of Influence, Greater",
 			"",
@@ -7071,7 +7071,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using Combat Expertise, fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage."
+			"You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using [Combat Expertise](feat/combat_expertise), fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage."
 		]
 	},
 	"serren's_armor_lock": {
@@ -7313,7 +7313,7 @@
 			"",
 			"You exchange the crude matter of your material body with the insubstantial essence of the Plane of Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light or normal light, but you gain total concealment in dim light or darkness. Against creatures with darkvision, you gain concealment rather than total concealment. Your shadow body is incorporeal for most purposes, though you can't fly or pass through solid objects or creatures. However, you can move at your normal speed along any surface, including horizontal and vertical surfaces and liquids, and you are never slowed by difficult terrain. Your size doesn't change.",
 			"",
-			"You can speak and cast spells and perform mental actions, but you have no physical substance and cannot manipulate objects or attack physically. You can deliver touch spells and effects as if making an incorporeal touch attack. Your equipment merges with your shadow body, so you can't cast spells with a material component unless those spells are prepared with Eschew Materials."
+			"You can speak and cast spells and perform mental actions, but you have no physical substance and cannot manipulate objects or attack physically. You can deliver touch spells and effects as if making an incorporeal touch attack. Your equipment merges with your shadow body, so you can't cast spells with a material component unless those spells are prepared with [Eschew Materials](feat/eschew_materials)."
 		]
 	},
 	"shadow_bomb_admixture": {

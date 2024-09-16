@@ -839,7 +839,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Thamir Gixx",
 			"",
-			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have Weapon Focus. If you have the Quick Draw feat, drawing this weapon is a free action."
+			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have [Weapon Focus](feat/weapon_focus). If you have the [Quick Draw](feat/quick_draw) feat, drawing this weapon is a free action."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -1389,7 +1389,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Drow",
 			"",
-			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the Extend Spell metamagic feat."
+			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the [Extend Spell](feat/extend_spell) metamagic feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -2954,7 +2954,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Vildeis",
 			"",
-			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain Blind-Fight as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
+			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain [Blind-Fight](feat/blind-fight) as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -3115,7 +3115,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereboar-kin",
 			"",
-			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the Endurance prerequisite for the Diehard feat."
+			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the [Endurance](feat/endurance) prerequisite for the [Diehard](feat/diehard) feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3244,7 +3244,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir",
 			"",
-			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the Endurance feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
+			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the [Endurance](feat/endurance) feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3610,7 +3610,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the Improved Unarmed Strike feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
+			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -4463,7 +4463,7 @@
 			"",
 			"With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in Aroden's View or Senate's Hill. If you want to be a member of one of Oppara's major noble families, you must take the [Noble Scion](feat/noble_scion) feat at 1st level.",
 			"",
-			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat (see the sidebar) does not have a Charisma prerequisite for you. In addition, you start play with a [noble's outfit](equipment-misc/noble's_outfit), a [signet ring](equipment-misc/signet_ring), and a single additional nonmagical item worth no more than 200 gp."
+			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a [noble's outfit](equipment-misc/noble's_outfit), a [signet ring](equipment-misc/signet_ring), and a single additional nonmagical item worth no more than 200 gp."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5482,7 +5482,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using Combat Expertise, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
+			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using [Combat Expertise](feat/combat_expertise), you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -5653,7 +5653,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti Island",
 			"",
-			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the Red Mantis cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the Two-Weapon Fighting feat) ."
+			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the Red Mantis cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat) ."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -6734,7 +6734,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the Improved Dirty Trick feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
+			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the [Improved Dirty Trick](feat/improved_dirty_trick) feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -7381,7 +7381,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
 			"",
-			"When you use your change shape ability, you can choose to gain the benefits of the Endurance feat rather than gaining a special ability."
+			"When you use your change shape ability, you can choose to gain the benefits of the [Endurance](feat/endurance) feat rather than gaining a special ability."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -8645,7 +8645,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Droskar",
 			"",
-			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the Extend Spell feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
+			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the [Extend Spell](feat/extend_spell) feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},

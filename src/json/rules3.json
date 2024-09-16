@@ -106,7 +106,7 @@
 			"",
 			"Alternatively, a spellcaster can use [dispel magic](spell/dispel_magic) or [greater dispel magic](spell/greater_dispel_magic) as a dueling counter. When a duelist spellcaster does so, he does not need to identify the spell being cast, can counter a spell of any level, and must succeed at a caster level check against a DC of 11 + the spell's caster level. When [dispel magic](spell/dispel_magic) is used as a dueling counter, it is not modified by any of the circumstances in Table 3-10.",
 			"",
-			"Because readying a counterspell is its own action, a dueling spellcaster can prepare to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents, or someone with access to the Quicken Spell feat or other abilities that allow casting two spells in the same round.",
+			"Because readying a counterspell is its own action, a dueling spellcaster can prepare to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents, or someone with access to the [Quicken Spell](feat/quicken_spell) feat or other abilities that allow casting two spells in the same round.",
 			"",
 			"| Circumstance | Modifier |",
 			"| --- | --- |",
@@ -4056,7 +4056,7 @@
 			"",
 			"Not all constructs are built with the [Craft Construct](feat/craft_construct) feat. Spells like [animate objects](spell/animate_objects) allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.",
 			"",
-			"A caster can use the [animate objects](spell/animate_objects) spell to instantly create a temporary construct. A [permanency](spell/permanency) spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. Craft Construct creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object monster entry](monster/animated_object)."
+			"A caster can use the [animate objects](spell/animate_objects) spell to instantly create a temporary construct. A [permanency](spell/permanency) spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. [Craft Construct](feat/craft_construct) creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object monster entry](monster/animated_object)."
 		],
 		"parent_topics": [
 			"magic",
@@ -4164,7 +4164,7 @@
 			"",
 			"Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The [make whole](spell/make_whole) or [rapid repair](spell/rapid_repair) spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems.",
 			"",
-			"Failing that, a crafter can repair a construct with the Craft Construct feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or non-functioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.",
+			"Failing that, a crafter can repair a construct with the [Craft Construct](feat/craft_construct) feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or non-functioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.",
 			"",
 			"A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct. Additionally, some constructs have special means of repair, usually involving spells related to the golem's nature (such as the use of acid damage to heal a clay golem.)"
 		],
@@ -4189,7 +4189,7 @@
 			"",
 			"Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or non-functioning.",
 			"",
-			"Performing modifications on one's own construct requires the Craft Construct feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).",
+			"Performing modifications on one's own construct requires the [Craft Construct](feat/craft_construct) feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).",
 			"",
 			"A list of all construct modifications can be found in [Miscellaneous Magic](main/magic_misc) under the Construct Modifications heading."
 		],
@@ -5548,7 +5548,7 @@
 			"",
 			"**Skills:** An AI has skill points equal to 6 + its Intelligence modifier per point of CR. An AI has a number of class skills equal to its Charisma modifier. These may be any skill, though the most common class skills for AIs are: Bluff, Diplomacy, Intimidate, Knowledge (all), Linguistics, Perception, and Sense Motive.",
 			"",
-			"**Feats:** An AI has a number of feats equal to half its CR (minimum 1). An AI must meet all prerequisites of its feats. AIs also gain Technologist as a bonus feat.",
+			"**Feats:** An AI has a number of feats equal to half its CR (minimum 1). An AI must meet all prerequisites of its feats. AIs also gain [Technologist](feat/technologist) as a bonus feat.",
 			"",
 			"**Languages:** AIs speak Androffan. An AI knows a number of additional languages equal to its Intelligence modifier.",
 			"",

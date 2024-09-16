@@ -1122,7 +1122,7 @@
 			"",
 			"**Str** 18, **Dex** 12, **Con** 14, **Int** 10, **Wis** 16, **Cha** 8  ",
 			"**Base Atk** +7; **CMB** +14 (+17 bull rush); **CMD** 28 (30 vs. bull rush)  ",
-			"**Feats** [Dodge](feat/dodge), [Extra Ki](feat/extra_ki), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lunge](feat/lunge), Medusa's Wrath, [Power Attack](feat/power_attack), [Scorpion Style](feat/scorpion_style), [Stunning Fist](feat/stunning_fist), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Dodge](feat/dodge), [Extra Ki](feat/extra_ki), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lunge](feat/lunge), [Medusa's Wrath](feat/medusa's_wrath), [Power Attack](feat/power_attack), [Scorpion Style](feat/scorpion_style), [Stunning Fist](feat/stunning_fist), [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Acrobatics +6 (+28 when jumping), Climb +12, Intimidate +9, Knowledge (history) +4, Perception +12, Sense Motive +16, Stealth +19, Survival +8, Swim +8  ",
 			"**Languages** Common, Orc  ",
 			"**SQ** fast movement, high jump, ki pool (10 points, lawful, magic), maneuver training, orc blood, purity of body, slow fall 50 ft., weapon familiarity, wholeness of body  ",
@@ -1954,7 +1954,7 @@
 			"**Str** 10, **Dex** 14, **Con** 14, **Int** 18, **Wis** 8, **Cha** 12  ",
 			"**Base Atk** +5; **CMB** +5; **CMD** 18  ",
 			"**Feats** [Arcane Strike](feat/arcane_strike), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor), [Craft Technological Item](feat/craft_technological_item), [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), [Scribe Scroll](feat/scribe_scroll), [Skill Focus](feat/skill_focus) (Knowledge [engineering]), [Technologist](feat/technologist), [Toughness](feat/toughness)  ",
-			"**Skills** Arcane Strike, Craft Magic Arms and Armor, Craft Technological Arms and Armor, Craft Technological Item, Exotic Weapon Proficiency (firearms), Scribe Scroll, Skill Focus (Knowledge [engineering]), Technologist, Toughness  ",
+			"**Skills** Craft (mechanical) +15 (+19 with technology), Disable Device +15 (+19 with technology), Fly +10, Intimidate +13, Knowledge (arcana) +17, Knowledge (engineering) +23 (+27 with technology), Knowledge (geography) +17, Linguistics +8 (+12 with technology), Perception +12, Spellcraft +17  ",
 			"**Languages** Androffan, Aklo, Common, Draconic, Hallit, Infernal, Orc  ",
 			"**SQ** arcane battery, arcane bond (amulet [Technic League badge]), efficient construction, recondition (brown nanite hypogun, commset), recycle technology, study technology, technic spell mastery (discharge), technical expertise  ",
 			"**Combat Gear** scroll of discharge, scroll of lightning bolt (CL 9th), scrolls of technomancy (4), hemochem (grade III, 2 doses), soft grenades (2), torpinal (3 doses); **Other Gear** +1 stun gun, mwk dagger, ring of protection +1, batteries (4), green access card, timeworn brown nanite hypogun, timeworn commset, Technic League badge worth 50 gp",
@@ -2903,7 +2903,7 @@
 			"**SQ** armor training 3  ",
 			"**Combat Gear** potions of cure light wounds (2); **Other Gear** +1 full plate with cold iron armor spikes, +1 glaive, composite longbow (+4 Str) with 20 arrows, belt of giant strength +2, cloak of resistance +2, ring of protection +1, heavy horse (combat trained) with chain shirt barding and military saddle",
 			"",
-			"**Boon** Generals can provide access to trustworthy mercenary troops. A character with Leadership gains a +2 bonus to Leadership for recruiting followers for 1 month. Other PCs can hire mercenaries at a 20% discount.",
+			"**Boon** Generals can provide access to trustworthy mercenary troops. A character with [Leadership](feat/leadership) gains a +2 bonus to Leadership for recruiting followers for 1 month. Other PCs can hire mercenaries at a 20% discount.",
 			"",
 			"Generals are the masters of the battlefield, expert and veteran soldiers who conceive and execute tactical plans and inspire their troops on to victory. Generals may command from a rearward vantage point, but when needed, may dive into the fray with sword in hand to turn the tide through sheer puissance. Generals can be used as arena champions, masters of fighting schools, or elite warriors trained to fight with or against spellcasters. A general is usually accompanied by a knight adjutant, with a lance of four cavalry as bodyguards and messengers (CR 12)."
 		]
@@ -3207,7 +3207,7 @@
 			"",
 			"As with shamans and cannibals, chieftains can rule either proud, noble barbarian groups or bestial, degenerate cannibal tribes. A chieftain who claimed his position by virtue of his heroic deeds might have a dragon bane or magical beast bane greatsword instead of the listed weapon, while a powerful cannibal chief might wear the heavier armor and wield the foreign weapons of defeated (and consumed) foes.",
 			"",
-			"Chieftains can also be used as simple, direct gladiators, or even as high-level guardsmen, perhaps in charge of an entire castle's or city's guard force. Such guard generals wear heavier armor, usually banded mail or full plate (AC 18 or 20, respectively), and might possess the Power Attack and Cleave feats instead of Endurance and Diehard.",
+			"Chieftains can also be used as simple, direct gladiators, or even as high-level guardsmen, perhaps in charge of an entire castle's or city's guard force. Such guard generals wear heavier armor, usually banded mail or full plate (AC 18 or 20, respectively), and might possess the [Power Attack](feat/power_attack) and [Cleave](feat/cleave) feats instead of Endurance and Diehard.",
 			"",
 			"Chieftains are usually found with two raider bodyguards, a shaman, and a dozen cannibals (CR 12). A chieftain might also lead a raiding party of 10 raiders (CR 13) or nine vikings (CR 14)."
 		]
@@ -3363,7 +3363,7 @@
 			"",
 			"**Str** 21, **Dex** 18, **Con** 14, **Int** 2, **Wis** 14, **Cha** 6  ",
 			"**Base Atk** +6; **CMB** +12; **CMD** 26  ",
-			"**Feats** Improved Natural Attack (bite), Power Attack, Toughness, Vital Strike, Weapon Focus (bite)  ",
+			"**Feats** [Improved Natural Attack](feat/improved_natural_attack) (bite), [Power Attack](feat/power_attack), [Toughness](feat/toughness), [Vital Strike](feat/vital_strike), [Weapon Focus](feat/weapon_focus) (bite)  ",
 			"**Skills** Fly +10, Perception +13  ",
 			"**SQ** link, share spells, tricks (attack [any], come, defend, down, fetch, guard, seek, stay, work)"
 		]
@@ -4103,7 +4103,7 @@
 			"",
 			"**Str** 14, **Dex** 20, **Con** 14, **Int** 10, **Wis** 13, **Cha** 8  ",
 			"**Base Atk** +12; **CMB** +14; **CMD** 29  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Endurance](feat/endurance), [Improved Precise Shot](feat/improved_precise_shot), [Improved Vital Strike](feat/improved_vital_strike), [Manyshot](feat/manyshot), [Pinpoint Targeting](feat/pinpoint_targeting), Point Blank Shot, [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Vital Strike](feat/vital_strike), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Deadly Aim](feat/deadly_aim), [Endurance](feat/endurance), [Improved Precise Shot](feat/improved_precise_shot), [Improved Vital Strike](feat/improved_vital_strike), [Manyshot](feat/manyshot), [Pinpoint Targeting](feat/pinpoint_targeting), [Point Blank Shot](feat/point_blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Vital Strike](feat/vital_strike), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Climb +10, Craft (traps) +10, Handle Animal +14, Heal +5, Intimidate +14, Knowledge (geography) +5, Knowledge (local) +1, Knowledge (nature) +5, Linguistics +2, Perception +16, Ride +12, Stealth +24, Survival +16 (+22 to follow tracks), Swim +6  ",
 			"**Languages** Common, Elven, Halfling  ",
 			"**SQ** camouflage, favored terrain (urban +4, underground +2), hunter's bond (tiger animal companion), swift tracker, track +6, wild empathy +11, woodland stride  ",
@@ -4298,7 +4298,7 @@
 			"",
 			"**Str** 16, **Dex** 15, **Con** 12, **Int** 10, **Wis** 20, **Cha** 8  ",
 			"**Base Atk** +9; **CMB** +15 (+17 trip); **CMD** 33 (35 vs. trip)  ",
-			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Extra Ki](feat/extra_ki), Gorgon's Fist, [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lunge](feat/lunge), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Scorpion Style](feat/scorpion_style), [Spring Attack](feat/spring_attack), [Stunning Fist](feat/stunning_fist)  ",
+			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Extra Ki](feat/extra_ki), [Gorgon's Fist](feat/gorgon's_fist), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lunge](feat/lunge), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Scorpion Style](feat/scorpion_style), [Spring Attack](feat/spring_attack), [Stunning Fist](feat/stunning_fist)  ",
 			"**Skills** Acrobatics +15 (+43 when jumping), Climb +11, Knowledge (geography, local) +4, Knowledge (history) +6, Knowledge (religion) +7, Linguistics +3, Perception +20, Sense Motive +18, Stealth +15, Swim +7  ",
 			"**Languages** Common, Dwarven, Elven, Gnome, Orc  ",
 			"**SQ** abundant step, diamond body, fast movement, high jump, ki pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., wholeness of body  ",

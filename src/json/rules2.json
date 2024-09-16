@@ -1413,7 +1413,7 @@
 			"",
 			"Crafting a wondrous item requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Wondrous Item.",
+			"*Item Creation Feat Required:* [Craft Wondrous Item](feat/craft_wondrous_item).",
 			"",
 			"*Skill Used In Creation:* Spellcraft or an applicable Craft or Profession skill check."
 		],
@@ -2061,7 +2061,7 @@
 			">",
 			">When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the [Improved Overrun](feat/improved_overrun) feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the [Improved Overrun](feat/improved_overrun) feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.",
 			">",
-			">When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the Improved Overrun feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage (see Table 4-3 for base ramming damage by size, and individual vehicle stat blocks for their own ramming damage). If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop (see Sudden Stops).",
+			">When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the [Improved Overrun](feat/improved_overrun) feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage (see Table 4-3 for base ramming damage by size, and individual vehicle stat blocks for their own ramming damage). If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop (see Sudden Stops).",
 			">",
 			">It takes at least 5 full-round actions and a DC 25 Strength check from creatures adjacent to the vehicle to push a Large land or water vehicle up from being prone. For every size category that the vehicle is larger than size Large, increase the number of full-round actions by three and the Strength check DC by 5.",
 			">",
@@ -2069,7 +2069,7 @@
 			">",
 			">A vehicle equipped with a ram deals +2d8 points of damage with a vehicular overrun.",
 			">",
-			">**Vehicular Bull Rush:** As a swift action, taken when the driver takes all but the \"uncontrolled\" action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle's movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the Improved Bull Rush feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.",
+			">**Vehicular Bull Rush:** As a swift action, taken when the driver takes all but the \"uncontrolled\" action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle's movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the [Improved Bull Rush](feat/improved_bull_rush) feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.",
 			">",
 			">If the bull rush is successful, the target of the bull rush is pushed 5 feet away from the vehicle. If you succeed at the check for the vehicular bull rush by 5 or more, you can deal the vehicle's ramming damage to the creature. For every 5 by which your attack exceeds your opponent's CMD, you push the target an additional 5 feet away. A creature being moved by a vehicular bull rush does not provoke attacks of opportunity, unless the driver possesses the [Greater Bull Rush](feat/greater_bull_rush) feat. You cannot bull rush a creature or vehicle into a square that is occupied by an object (including a vehicle). If there is another creature in the way of a bull rush, the driver must immediately make a combat maneuver check to bull rush that creature, taking a -4 penalty on this check for each creature being pushed beyond the first. If successful, the driver can continue to push the creature or vehicle a distance equal to the lesser result.",
 			">",
@@ -3803,7 +3803,7 @@
 			"",
 			"If two or more combatants have the same initiative check result, the combatants who are tied act in order of total initiative modifier (highest first). If there is still a tie, the tied characters should roll to determine which one of them goes before the other.",
 			"",
-			"**Flat-Footed:** At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your Dexterity bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their Dexterity bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the Combat Reflexes feat.",
+			"**Flat-Footed:** At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your Dexterity bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their Dexterity bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the [Combat Reflexes](feat/combat_reflexes) feat.",
 			"",
 			"**Inaction:** Even if you can't take actions, you retain your initiative score for the duration of the encounter."
 		],
@@ -4291,7 +4291,7 @@
 			"",
 			"An unarmed character can't take attacks of opportunity (but see \"Armed\" Unarmed Attacks, below).",
 			"",
-			"**\"Armed\" Unarmed Attacks:** Sometimes a character's or creature's unarmed attack counts as an armed attack. A monk, a character with the Improved Unarmed Strike feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see natural attacks).",
+			"**\"Armed\" Unarmed Attacks:** Sometimes a character's or creature's unarmed attack counts as an armed attack. A monk, a character with the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see natural attacks).",
 			"",
 			"Note that being armed counts for both offense and defense (the character can make attacks of opportunity).",
 			"",
@@ -4305,7 +4305,7 @@
 			"",
 			"Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your Strength modifier on damage rolls.",
 			"",
-			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as Two-Weapon Fighting and Multiattack can reduce these penalties.",
+			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as [Two-Weapon Fighting](feat/two-weapon_fighting) and [Multiattack](feat/multiattack) can reduce these penalties.",
 			"",
 			"**Multiple Attacks:** A character who can make more than one attack per round must use the [full-attack action](rule/full-round_actions) in order to get more than one attack.",
 			"",
@@ -4313,7 +4313,7 @@
 			"",
 			"If your target is two size categories larger than the friendly characters it is engaged with, this penalty is reduced to -2. There is no penalty for firing at a creature that is three size categories larger than the friendly characters it is engaged with.",
 			"",
-			"**Precise Shot:** If you have the Precise Shot feat, you don't take this penalty.",
+			"**Precise Shot:** If you have the [Precise Shot](feat/precise_shot) feat, you don't take this penalty.",
 			"",
 			"**Fighting Defensively as a Standard Action:** You can choose to fight defensively when attacking. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn.",
 			"",
@@ -4447,7 +4447,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 185](source/prpg_core_rulebook)",
 			"",
-			"You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the Combat Expertise feat. You can't make attacks of opportunity while using total defense."
+			"You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the [Combat Expertise](feat/combat_expertise) feat. You can't make attacks of opportunity while using total defense."
 		],
 		"parent_topics": [
 			"combat",
@@ -4602,7 +4602,7 @@
 			"",
 			"Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.",
 			"",
-			"If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the Two-Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.",
+			"If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.",
 			"",
 			"Drawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken) is a free action."
 		],
@@ -4807,7 +4807,7 @@
 			"",
 			"This action is otherwise identical to the cast a spell action described under Standard Actions.",
 			"",
-			"**Casting a Metamagic Spell:** Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a metamagic feat) than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the Quicken Spell feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
+			"**Casting a Metamagic Spell:** Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a metamagic feat) than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the [Quicken Spell](feat/quicken_spell) feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
 			"",
 			"Clerics and druids must take more time to spontaneously cast a metamagic version of a cure, inflict, or summon spell. Spontaneously casting a metamagic version of a spell with a casting time of 1 standard action is a full-round action, and spells with longer casting times take an extra full-round action to cast."
 		],
@@ -4853,7 +4853,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
 			"",
-			"You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the Run feat.",
+			"You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the [Run](feat/run) feat.",
 			"",
 			"You can run for a number of rounds equal to your Constitution score, but after that you must make a DC 10 Constitution check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.",
 			"",
@@ -5079,7 +5079,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
 			"",
-			"You can cast a quickened spell (see the Quicken Spell feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity."
+			"You can cast a quickened spell (see the [Quicken Spell](feat/quicken_spell) feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity."
 		],
 		"parent_topics": [
 			"combat",
@@ -6046,7 +6046,7 @@
 			"",
 			"If you don't have line of sight to the opponent at the start of your turn, you can't charge that opponent.",
 			"",
-			"You can't take a 5-foot step in the same round as a charge. If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the Quick Draw feat. You can't use this option unless you are restricted to taking only a standard action on your turn.",
+			"You can't take a 5-foot step in the same round as a charge. If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the [Quick Draw](feat/quick_draw) feat. You can't use this option unless you are restricted to taking only a standard action on your turn.",
 			"",
 			"**Attacking on a Charge:** After moving, you may make a single melee attack. You get a +2 bonus on the attack roll and take a -2 penalty to your AC until the start of your next turn.",
 			"",
@@ -6131,11 +6131,11 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
 			"",
-			"You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the Improved Bull Rush feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.",
+			"You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the [Improved Bull Rush](feat/improved_bull_rush) feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack is successful, your target is pushed back 5 feet. For every 5 by which your attack exceeds your opponent's CMD you can push the target back an additional 5 feet. You can move with the target if you wish but you must have the available movement to do so. If your attack fails, your movement ends in front of the target.",
 			"",
-			"An enemy being moved by a bull rush does not provoke an attack of opportunity because of the movement unless you possess the Greater Bull Rush feat. You cannot bull rush a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your bull rush, you must immediately make a combat maneuver check to bull rush that creature. You take a -4 penalty on this check for each creature being pushed beyond the first. If you are successful, you can continue to push the creatures a distance equal to the lesser result. For example, if a fighter bull rushes a goblin for a total of 15 feet, but there is another goblin 5 feet behind the first, he must make another combat maneuver check against the second goblin after having pushed the first 5 feet. If his check reveals that he can push the second goblin a total of 20 feet, he can continue to push both goblins another 10 feet (since the first goblin will have moved a total of 15 feet)."
+			"An enemy being moved by a bull rush does not provoke an attack of opportunity because of the movement unless you possess the [Greater Bull Rush](feat/greater_bull_rush) feat. You cannot bull rush a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your bull rush, you must immediately make a combat maneuver check to bull rush that creature. You take a -4 penalty on this check for each creature being pushed beyond the first. If you are successful, you can continue to push the creatures a distance equal to the lesser result. For example, if a fighter bull rushes a goblin for a total of 15 feet, but there is another goblin 5 feet behind the first, he must make another combat maneuver check against the second goblin after having pushed the first 5 feet. If his check reveals that he can push the second goblin a total of 20 feet, he can continue to push both goblins another 10 feet (since the first goblin will have moved a total of 15 feet)."
 		],
 		"parent_topics": [
 			"combat",
@@ -6162,9 +6162,9 @@
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
 			"",
-			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the Improved Dirty Trick feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the [Improved Dirty Trick](feat/improved_dirty_trick) feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
 			"",
-			"If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the Greater Dirty Trick feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action."
+			"If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the [Greater Dirty Trick](feat/greater_dirty_trick) feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action."
 		],
 		"parent_topics": [
 			"combat",
@@ -6191,7 +6191,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
 			"",
-			"You can attempt to disarm your opponent in place of a melee attack. If you do not have the Improved Disarm feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack.",
+			"You can attempt to disarm your opponent in place of a melee attack. If you do not have the [Improved Disarm](feat/improved_disarm) feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack.",
 			"",
 			"If your attack is successful, your target drops one item it is carrying of your choice (even if the item is wielded with two hands). If your attack exceeds the CMD of the target by 10 or more, the target drops the items it is carrying in both hands (maximum two items if the target has more than two hands). If your attack fails by 10 or more, you drop the weapon that you were using to attempt the disarm. If you successfully disarm your opponent without using a weapon, you may automatically pick up the item dropped."
 		],
@@ -6220,11 +6220,11 @@
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
 			"",
-			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the Improved Drag feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the [Improved Drag](feat/improved_drag) feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack is successful, both you and your target are moved 5 feet back, with your opponent occupying your original space and you in the space behind that in a straight line. For every 5 by which your attack exceeds your opponent's CMD, you can drag the target back an additional 5 feet. You must be able to move with the target to perform this maneuver. If you do not have enough movement, the drag goes to the maximum amount of movement available to you and ends.",
 			"",
-			"An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the Greater Drag feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.",
+			"An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the [Greater Drag](feat/greater_drag) feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.",
 			"",
 			"**Stability:** Some characters or types of creatures prove particularly sure-footed, making them more difficult to overthrow and move around the battlefield. Any racial ability that grants a bonus to CMD versus bull rush attempts grants the same bonus against drag combat maneuvers."
 		],
@@ -6253,7 +6253,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
 			"",
-			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have Improved Grapple, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the grappled condition (see the Appendices). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
+			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have [Improved Grapple](feat/improved_grapple), grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the grappled condition (see the Appendices). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
 			"",
 			"**Move:** You can move both yourself and your target up to half your speed. At the end of your movement, you can place your target in any square adjacent to you. If you attempt to place your foe in a hazardous location, such as in a wall of fire or over a pit, the target receives a free attempt to break your grapple with a +4 bonus.",
 			"",
@@ -6292,7 +6292,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
 			"",
-			"As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the Improved Overrun feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.",
+			"As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the [Improved Overrun](feat/improved_overrun) feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.",
 			"",
 			"When you attempt to overrun a target, it can choose to avoid you, allowing you to pass through its square without requiring an attack. If your target does not avoid you, make a combat maneuver check as normal. If your maneuver is successful, you move through the target's space. If your attack exceeds your opponent's CMD by 5 or more, you move through the target's space and the target is knocked prone. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has."
 		],
@@ -6321,11 +6321,11 @@
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
 			"",
-			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the Improved Reposition feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or [wall of fire](spell/wall_of_fire).",
+			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the [Improved Reposition](feat/improved_reposition) feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or [wall of fire](spell/wall_of_fire).",
 			"",
 			"If your attack is successful, you may move your target 5 feet to a new location. For every 5 by which your attack exceeds your opponent's CMD, you can move the target an additional 5 feet. The target must remain within your reach at all times during this movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach.",
 			"",
-			"An enemy being moved by a reposition does not provoke an attack of opportunity because of the movement unless you possess the Greater Reposition feat. You cannot move a creature into a square that is occupied by a solid object or obstacle."
+			"An enemy being moved by a reposition does not provoke an attack of opportunity because of the movement unless you possess the [Greater Reposition](feat/greater_reposition) feat. You cannot move a creature into a square that is occupied by a solid object or obstacle."
 		],
 		"parent_topics": [
 			"combat",
@@ -6352,11 +6352,11 @@
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
 			"",
-			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver-you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the Improved Steal feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver-you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the [Improved Steal](feat/improved_steal) feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"Although this maneuver can only be performed if the target is within your reach, you can use a whip to steal an object from a target within range with a -4 penalty on the attack roll.",
 			"",
-			"If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the Greater Steal feat."
+			"If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the [Greater Steal](feat/greater_steal) feat."
 		],
 		"parent_topics": [
 			"combat",
@@ -6383,7 +6383,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
 			"",
-			"You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the Improved Sunder feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the [Improved Sunder](feat/improved_sunder) feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack is successful, you deal damage to the item normally. Damage that exceeds the object's Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the [broken condition](rule/broken_and_fragile). If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition."
 		],
@@ -6412,7 +6412,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
 			"",
-			"You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the Improved Trip feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the [Improved Trip](feat/improved_trip) feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack exceeds the target's CMD, the target is knocked prone. If your attack fails by 10 or more, you are knocked prone instead. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has. Some creatures-such as oozes, creatures without legs, and flying creatures-cannot be tripped."
 		],
@@ -6445,7 +6445,7 @@
 			"",
 			"When feinting against a non-humanoid you take a -4 penalty. Against a creature of animal Intelligence (1 or 2), you take a -8 penalty. Against a creature lacking an Intelligence score, it's impossible. Feinting in combat does not provoke attacks of opportunity.",
 			"",
-			"**Feinting as a Move Action:** With the Improved Feint feat, you can attempt a feint as a move action."
+			"**Feinting as a Move Action:** With the [Improved Feint](feat/improved_feint) feat, you can attempt a feint as a move action."
 		],
 		"parent_topics": [
 			"combat",
@@ -8097,13 +8097,13 @@
 			"",
 			"A creature with the scent ability can detect an invisible creature as it would a visible one.",
 			"",
-			"A creature with the Blind-Fight feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
+			"A creature with the [Blind-Fight](feat/blind-fight) feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
 			"",
 			"A creature with blindsight can attack (and otherwise interact with) creatures regardless of invisibility.",
 			"",
 			"An invisible burning torch still gives off light, as does an invisible object with a light or similar spell cast upon it.",
 			"",
-			"Ethereal creatures (such as ghosts from the Pathfinder RPG Bestiary) are invisible. Since ethereal creatures are not materially present, Perception checks, scent, Blind- Fight, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, Blind-Fight, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Perception checks can help.",
+			"Ethereal creatures (such as ghosts from the Pathfinder RPG Bestiary) are invisible. Since ethereal creatures are not materially present, Perception checks, scent, Blind-Fight, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, Blind-Fight, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Perception checks can help.",
 			"",
 			"Invisible creatures cannot use gaze attacks.",
 			"",

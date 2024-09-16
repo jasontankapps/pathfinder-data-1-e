@@ -1397,7 +1397,7 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 239](source/advanced_race_guide)",
 			"",
-			"**Grabbing Appendages (6 RP):** Prerequisites: Any type except humanoid, Large size; Benefit: Members of this race have a small group of appendages that are useful for little more than to aid in grappling. Members of this race gain Improved Grapple as a bonus feat, and can maintain a grapple and still make attacks with their main appendages."
+			"**Grabbing Appendages (6 RP):** Prerequisites: Any type except humanoid, Large size; Benefit: Members of this race have a small group of appendages that are useful for little more than to aid in grappling. Members of this race gain [Improved Grapple](feat/improved_grapple) as a bonus feat, and can maintain a grapple and still make attacks with their main appendages."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3198,7 +3198,7 @@
 			"",
 			"**Teams and Leadership:** One advantage of having followers from the [Leadership](feat/leadership) feat is that they increase the effect of Influence and Labor you spend in a settlement (see [Using Followers](rule/using_followers)). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
 			"",
-			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the Leadership feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
+			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the [Leadership](feat/leadership) feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
 			"",
 			"In addition to the ways to combat attrition mentioned in the Upkeep Phase section, recruiting your followers into your organization can help with this problem. You can automatically add followers to your organizations as you recruit teams. For every five of your followers who are also members of your organization, you gain a +1 bonus on the leadership check to avoid attrition. As most followers are low-level characters with NPC classes, most teams of followers aren't trained for combat and are usually recruited to be Acolytes, Bureaucrats, Craftspeople, Lackeys, and so on (see [Teams](rule/teams)).",
 			"",

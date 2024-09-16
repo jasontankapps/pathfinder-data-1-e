@@ -42,7 +42,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Augment Summoning, [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Augment Summoning](feat/augment_summoning), [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_rod_of_giant_summoning": {
@@ -180,7 +180,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Empower Spell, the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Empower Spell](feat/empower_spell), the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
 		]
 	},
 	"lesser_recondite_rod": {
@@ -356,7 +356,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Reach Spell, creator must possess the hex class feature; **Cost** 5,500 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Reach Spell](feat/reach_spell), creator must possess the hex class feature; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_interminable_hexes": {
@@ -755,7 +755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Widen Spell, creator must have the channel energy class feature; **Cost** 8,812 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Widen Spell](feat/widen_spell), creator must have the channel energy class feature; **Cost** 8,812 gp"
 		]
 	},
 	"rod_of_beguiling": {
@@ -920,7 +920,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Leadership, bless, good hope, greater command, the creator must have the Leadership feat; **Cost** 10,000 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), Leadership, bless, good hope, greater command, the creator must have the [Leadership](feat/leadership) feat; **Cost** 10,000 gp"
 		]
 	},
 	"fiery_nimbus_rod": {
@@ -1460,7 +1460,7 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.",
 			"",
-			"Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3 dire flail. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a -2 penalty (as if she had the Two- Weapon Fighting feat).",
+			"Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3 dire flail. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a -2 penalty (as if she had the [Two-Weapon Fighting](feat/two-weapon_fighting) feat).",
 			"",
 			"Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to AC and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit.",
 			"",
@@ -1485,7 +1485,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Maximize Spell, creator must possess the hex class feature; **Cost** 27,000 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Maximize Spell](feat/maximize_spell), creator must possess the hex class feature; **Cost** 27,000 gp"
 		]
 	},
 	"gravitic_force_rod": {
@@ -2102,7 +2102,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Disruptive Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Disruptive Spell](feat/disruptive_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_disruptive_rod_of_metamagic": {
@@ -2125,7 +2125,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Ectoplasmic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Ectoplasmic Spell](feat/ectoplasmic_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_ectoplasmic_rod_of_metamagic": {
@@ -2171,7 +2171,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Enlarge Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Enlarge Spell](feat/enlarge_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_enlarge_rod_of_metamagic": {
@@ -2323,7 +2323,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Logical Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Logical Spell](feat/logical_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_logical_rod_of_metamagic": {
@@ -2366,7 +2366,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Reach Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Reach Spell](feat/reach_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_reach_rod_of_metamagic": {
@@ -2452,7 +2452,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Silent Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Silent Spell](feat/silent_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_silent_rod_of_metamagic": {
@@ -2567,7 +2567,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Burning Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Burning Spell](feat/burning_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_burning_rod_of_metamagic": {
@@ -2610,7 +2610,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Empower Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Empower Spell](feat/empower_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_empower_rod_of_metamagic": {
@@ -2736,7 +2736,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Thanatopic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Thanatopic Spell](feat/thanatopic_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_thanatopic_rod_of_metamagic": {
@@ -2756,7 +2756,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Threnodic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Threnodic Spell](feat/threnodic_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_threnodic_rod_of_metamagic": {
@@ -3156,7 +3156,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Maximize Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Maximize Spell](feat/maximize_spell); **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_maximize_rod_of_metamagic": {
@@ -3176,7 +3176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Widen Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Widen Spell](feat/widen_spell); **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_widen_rod_of_metamagic": {
@@ -3543,7 +3543,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Quicken Spell; **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Quicken Spell](feat/quicken_spell); **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
 		]
 	},
 	"lesser_quicken_rod_of_metamagic": {
@@ -3882,7 +3882,7 @@
 			"",
 			"The rod can be used as a +1 light mace. On command, it transforms into a +1/+1 quarterstaff or back to its rod form.",
 			"",
-			"A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as Silent Spell and Empower Spell) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.",
+			"A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as [Silent Spell](feat/silent_spell) and [Empower Spell](feat/empower_spell)) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.",
 			"",
 			"The rod can use read magic and [detect magic](spell/detect_magic) at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.",
 			"",
