@@ -2801,7 +2801,7 @@
 			"",
 			"**Mold Mulch (Ex)** Upon being reduced to 0 hit points, a calathgar withers and swiftly decays, transforming into a 5-foot patch of [brown mold](rule/slimes,_molds,_and_fungi). If a calathgar is killed by fire, the mold immediately grows into a 10-foot patch. If it is killed in a space already occupied by brown mold, that mold patch doubles in size just as though fire had been brought near. The area within 30 feet of brown mold is cold enough to activate a calathgar's cold healing and the persistent effect of its seed spray. Brown mold deals 3d6 points of nonlethal cold damage to all creatures within 5 feet of it.",
 			"",
-			"**Seed Spray (Ex)** Once every 1d4 rounds, up to 3 times per day, a calathgar can expel a blast of thorny, frozen seeds in a 15-foot cone. All creatures in this area take 4d6 points of cold damage (Reflex DC 15 for half ). In frigid climes-areas where the temperature is 40 degrees or colder-these seeds cling to those they strike, dealing an additional 1d6 points of cold damage on the following round. The save DC is Constitution-based.",
+			"**Seed Spray (Ex)** Once every 1d4 rounds, up to 3 times per day, a calathgar can expel a blast of thorny, frozen seeds in a 15-foot cone. All creatures in this area take 4d6 points of cold damage (Reflex DC 15 for half). In frigid climes-areas where the temperature is 40 degrees or colder-these seeds cling to those they strike, dealing an additional 1d6 points of cold damage on the following round. The save DC is Constitution-based.",
 			"",
 			"#### Description",
 			"",
@@ -3877,7 +3877,7 @@
 			"",
 			"**CL** 9th; **Price** 12,000 gp",
 			"",
-			"**Requirements** Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level; Skill Craft ( sculpting) or Craft (stonemasonry) DC 15; **Cost** 7,000 gp"
+			"**Requirements** Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level; Skill Craft (sculpting) or Craft (stonemasonry) DC 15; **Cost** 7,000 gp"
 		]
 	},
 	"cassomir_stray": {

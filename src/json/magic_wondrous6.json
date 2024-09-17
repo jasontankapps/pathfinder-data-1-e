@@ -438,7 +438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dread bolt (Ultimate Magic), creator must be evil; **Cost** 9,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dread bolt, creator must be evil; **Cost** 9,000 gp"
 		]
 	},
 	"pipes_of_shifting_tempo": {
@@ -1347,7 +1347,7 @@
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 22,500 gp; **Weight** 8 lbs.",
 			"",
-			"This strange device appears to be a twisted rod crafted of some unknown alloy of metal and crystal. The device requires two hands to use. When activated, the mist projector discharges a 60-foot cone of supercooled mist. This functions as cone of cold, dealing 10d6 points of cold damage to all creatures in the area (DC 17 Reflex save for half ). Once fired, a cloud of mist persists in the area of effect for 1d10 minutes or until dispersed, functioning as a fog cloud. A mi-go mist projector normally contains 27 charges. A mist projector is impossible to recharge without mi-go technology.",
+			"This strange device appears to be a twisted rod crafted of some unknown alloy of metal and crystal. The device requires two hands to use. When activated, the mist projector discharges a 60-foot cone of supercooled mist. This functions as cone of cold, dealing 10d6 points of cold damage to all creatures in the area (DC 17 Reflex save for half). Once fired, a cloud of mist persists in the area of effect for 1d10 minutes or until dispersed, functioning as a fog cloud. A mi-go mist projector normally contains 27 charges. A mist projector is impossible to recharge without mi-go technology.",
 			"",
 			"### Construction",
 			"",
@@ -3187,7 +3187,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), instant enemy (Advanced Player's Guide), creator must have the favored enemy class feature; **Cost** 20,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), instant enemy, creator must have the favored enemy class feature; **Cost** 20,000 gp"
 		]
 	},
 	"moribund_key": {
@@ -4198,7 +4198,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), arrow of law (Ultimate Magic), [detect chaos](spell/detect_chaos), [detect law](spell/detect_law), dispel chaos; **Cost** 30,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), arrow of law, [detect chaos](spell/detect_chaos), [detect law](spell/detect_law), dispel chaos; **Cost** 30,000 gp"
 		]
 	},
 	"ribbon_of_the_three": {
@@ -5703,7 +5703,7 @@
 			"",
 			"The Silent Aviary is a unique harrow deck that features beautiful artwork of songbirds on each card. Anyone who counts the cards while looking at the illustrated fronts sees that the deck has 54 cards. Counting the cards while looking at their backs, however, always produces a card count of 55. The mysterious 55th card is the accursed Cage.",
 			"",
-			"The Silent Aviary functions identically to a standard Harrow Deck of Many Things, except only a single character can draw from it each day, and only a single card can be drawn (although cards that allow or require redraws still function normally). The deck of many things from Pathfinder RPG Ultimate Equipment can be used to model it instead if preferred (though its total card count is 22 rather than 54). However, unlike most harrow decks, the Silent Aviary offers its user a unique advantage: at any time during the drawing process, the user of the Silent Aviary may choose to immediately replace a drawn card. To do so, the user must simply utter a command phrase, put the rejected card back in the deck, and draw a new card to replace it. Only the effects of the replacement card are realized. However, every time a user rejects a card, he risks replacing it with the Cage card.",
+			"The Silent Aviary functions identically to a standard Harrow Deck of Many Things, except only a single character can draw from it each day, and only a single card can be drawn (although cards that allow or require redraws still function normally). The *deck of many things* can be used to model it instead if preferred (though its total card count is 22 rather than 54). However, unlike most harrow decks, the Silent Aviary offers its user a unique advantage: at any time during the drawing process, the user of the Silent Aviary may choose to immediately replace a drawn card. To do so, the user must simply utter a command phrase, put the rejected card back in the deck, and draw a new card to replace it. Only the effects of the replacement card are realized. However, every time a user rejects a card, he risks replacing it with the Cage card.",
 			"",
 			"Every time a user utters the command phrase, he must attempt a DC 20 Will saving throw. If successful, the user replaces the rejected card as detailed above. However, if he fails the Will saving throw, the replacement card automatically comes up as the Cage. In this instance, the user is sucked into the card, as if she had fallen into a bag of holding. The user is then trapped in an extradimensional space that contains 250 cubic feet of space, 24 hours worth of breathable air, and over a dozen corpses.",
 			"",

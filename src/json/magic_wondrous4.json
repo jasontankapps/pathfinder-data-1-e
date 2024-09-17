@@ -592,7 +592,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dragon's breath (Advanced Player's Guide); **Cost** 700 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dragon's breath; **Cost** 700 gp"
 		]
 	},
 	"elixir_of_rancid_breath": {
@@ -1851,7 +1851,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), air bubble (Ultimate Combat); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), air bubble; **Cost** 1,000 gp"
 		]
 	},
 	"eye_of_the_mantis": {
@@ -2059,7 +2059,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), pyrotechnics, spark (Advanced Player's Guide); **Cost** 1,000 gp (Normal), 2,250 gp (Greater)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), pyrotechnics, spark; **Cost** 1,000 gp (Normal), 2,250 gp (Greater)"
 		]
 	},
 	"normal_goblin_fire_drum": {
@@ -2356,7 +2356,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alchemical allocation (Advanced Player's Guide); **Cost** 1,100 gp (1st), 1,500 gp (2nd), 1,900 gp (3rd)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alchemical allocation; **Cost** 1,100 gp (1st), 1,500 gp (2nd), 1,900 gp (3rd)"
 		]
 	},
 	"blight_siphoner": {
@@ -3469,7 +3469,7 @@
 			"",
 			"**Source** [Black Markets pg. 21](source/black_markets)  ",
 			"**Aura** varies; **CL** varies  ",
-			"**Slot** none; **Price** 2,890 gp (Blunt pit), 5,410 gp ( Spiked pit), 10,090 gp ( Acid pit), 14,410 gp ( Persistent pit), 16,210 gp ( Hungry pit); **Weight** 1 lb.",
+			"**Slot** none; **Price** 2,890 gp (Blunt pit), 5,410 gp (Spiked pit), 10,090 gp (Acid pit), 14,410 gp (Persistent pit), 16,210 gp (Hungry pit); **Weight** 1 lb.",
 			"",
 			"This rolled cloth resembles a rug or sheet. If the cloth is unfurled on a flat horizontal surface and its command word spoken as a standard action, its 10-foot-by-10-foot surface changes to match the coloration of the surrounding ground. The next time a Small or larger creature walks over the portable pit, it transforms into an extradimensional chasm at least 20 feet deep. Creatures that trigger this effect and those adjacent to the portable pit when it transforms must succeed a DC 20 Reflex save or fall into the pit, taking damage and suffering additional effects (see below). The extradimensional pit persists for 1 minute before collapsing (harmlessly expelling any trapped creatures into an adjacent space) and becoming inert for 24 hours. If the command word is spoken a second time, a portable pit transforms back into cloth and can be picked up, moved, or stored.",
 			"",
@@ -4072,7 +4072,7 @@
 			"",
 			"Finally, the pilot of a wind-propelled ship can make a DC 20 Profession (sailor) check to plot a course within the Shackles using the charts. If the check is successful, the charts grant the ship a +10% enhancement bonus to its waterborne speed as long as it follows the plotted course.",
 			"",
-			"All of the charts' benefits only apply within the geographic region of the Shackles. GMs with access to the Pathfinder Campaign Setting: Skull & Shackles Map Folio might use the elaborate player map of the Shackles included therein to represent this item.",
+			"All of the charts' benefits only apply within the geographic region of the Shackles.",
 			"",
 			"### Construction",
 			"",
@@ -4745,7 +4745,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell (Advanced Player's Guide), feather fall; **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell, feather fall; **Cost** 2,000 gp"
 		]
 	},
 	"corpse-ferrying_bag": {
@@ -5245,7 +5245,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter winds (Advanced Player's Guide); **Cost** 2,200 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter winds; **Cost** 2,200 gp"
 		]
 	},
 	"wind_caller_compass": {
@@ -5990,7 +5990,7 @@
 			"**Aura** moderate divination; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.",
 			"",
-			"This disc of thick green glass is 12 inches in diameter and has a small, stylized image of a boat acid-etched into its center. When set against the deck of a waterborne vessel, the plate warns of nearby obstacles on or under the water, presenting them as glowing green silhouettes on the glass in relation to the boat etched on the plate's center. A riverseer plate warns of inanimate dangers within a 300-foot radius beyond the vessel in which it is set, providing a +6 competence bonus on sailing checks to navigate the vessel around potential dangers (see Ultimate Combat for the full rules on sailing checks).",
+			"This disc of thick green glass is 12 inches in diameter and has a small, stylized image of a boat acid-etched into its center. When set against the deck of a waterborne vessel, the plate warns of nearby obstacles on or under the water, presenting them as glowing green silhouettes on the glass in relation to the boat etched on the plate's center. A riverseer plate warns of inanimate dangers within a 300-foot radius beyond the vessel in which it is set, providing a +6 competence bonus on sailing checks to navigate the vessel around potential dangers for the full rules on sailing checks).",
 			"",
 			"Once per day, a creature can apply a drop of blood to a riverseer plate's surface. For 5 minutes thereafter, the plate marks the location of Small or larger animate creatures in the water around the vessel, presenting them on the plate's surface as glowing red dots.",
 			"",

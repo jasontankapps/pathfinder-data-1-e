@@ -166,7 +166,7 @@
 			"**Source** [Aquatic Adventures pg. 57](source/aquatic_adventures)",
 			"",
 			"You are the child of a land-dwelling creature and an aquatic creature, struggling to reconcile your dual heritage.  ",
-			"**Prerequisites:** Whether through an elixir of two worlds or other means, one of your parents was aquatic and the other was a land-dweller. You are mostly a normal member of your race, except as stated in this feat. You must select this feat at 1st level, and you can't have other feats, traits, or abilities that specify your bloodline such as Racial Heritage. Thematically appropriate backgrounds include Adopted Outside Your Race, Bastard Born, Death in the Family, One of a Kind, and The Relative. These backgrounds are found in Pathfinder RPG Ultimate Intrigue.  ",
+			"**Prerequisites:** Whether through an elixir of two worlds or other means, one of your parents was aquatic and the other was a land-dweller. You are mostly a normal member of your race, except as stated in this feat. You must select this feat at 1st level, and you can't have other feats, traits, or abilities that specify your bloodline such as Racial Heritage.  ",
 			"**Benefit:** You gain a land speed of 10 feet if you are aquatic; if you aren't aquatic, you gain a +4 racial bonus on Swim checks that doesn't stack with the bonus for having a swim speed.  ",
 			"**Goal:** You must live among your other parent's race (the aquatic parent if you are a land-dweller or the land-dwelling parent if you are aquatic), learning to adapt to their strange world and culture until others of that race truly accept you. It isn't enough to simply find a member of the appropriate race and badger or sweet-talk them until they agree to accept you; you must perform significant rites of passage and form real bonds with members of your other parent's race.  ",
 			"**Special:** You gain the amphibious subtype (and the aquatic subtype, if you don't have it) and can breathe both water and air with equal ease. As a swift action, you can transform your feet into a tail fin (gaining a swim speed of 40 feet) or your tail fin into feet (gaining a land speed of 30 feet), changing back and forth as often as you wish."
@@ -2217,7 +2217,7 @@
 			"",
 			"While ooze creatures cannot normally be purchased in traditional marketplaces, GMs who wish to include such an option in their games-perhaps with oozes sold as black market commodities' need only double the construction cost of a specific ooze creature in order to figure out a fair market price.",
 			"",
-			"The following table lists some of the most commonly crafted oozes and their creation requirements. At the GM's discretion, other types of ooze creatures can be created with this feat. Creatures from Pathfinder RPG Bestiary 2, 3, or 4 are marked with a matching superscript.",
+			"The following table lists some of the most commonly crafted oozes and their creation requirements. At the GM's discretion, other types of ooze creatures can be created with this feat.",
 			"",
 			"| Ooze | Construction Cost | Craft DC |",
 			"| --- | --- | --- |",
@@ -3303,7 +3303,7 @@
 			"",
 			"You understand the exclusive poisons brewed by your guild far better than the buyers you sell to, and you can deliver them so they are more difficult to weather.  ",
 			"**Prerequisites:** Craft (alchemy) 5 ranks, member of the Daggermark Poisoner's Guild, poison lore or poison use class feature.  ",
-			"**Benefit:** Choose one poison. When you deliver that poison, the number of saves needed to cure it increases by 1, and the DC to cure it with neutralize poison increases by 5. Succeeding at the initial save still negates the poison. Typical poisons used by Daggermark poisoners are listed in Pathfinder Player Companion: Alchemy Manual and Pathfinder Chronicles: Guide to the River Kingdoms.",
+			"**Benefit:** Choose one poison. When you deliver that poison, the number of saves needed to cure it increases by 1, and the DC to cure it with neutralize poison increases by 5. Succeeding at the initial save still negates the poison.",
 			"",
 			"Additionally, if you have the poison lore class feature, you're considered to have the poison use class feature for the purpose of meeting prerequisites."
 		]
@@ -6532,7 +6532,7 @@
 			"",
 			"You circle your foes like dolphins, forcing them to play into your attacks.  ",
 			"**Prerequisites:** [Dolphin Dart](feat/dolphin_dart), [Dolphin Style](feat/dolphin_style), [Improved Unarmed Strike](feat/improved_unarmed_strike), Swim 10 ranks, base attack bonus +10 or monk level 10th.  ",
-			"**Benefit:** While in Dolphin Style, as a full-round action underwater you can choose a circular path starting and ending in your current space whose length is no longer than you could swim with a single move action. You circle around that path until your next turn, and this movement doesn't provoke attacks of opportunity. You are considered to be in every space along the path for the purpose of threatening squares and providing flanking for other allies (but not yourself ), as well as whether you are in the area of an area effect. Other creatures can attack you (and touch you with beneficial touch spells) as if you were in every space along the path. However, you don't count as being in any of the spaces for the purpose of other creatures moving through an occupied space. At the beginning of your next turn, choose any space along the path to stop circling."
+			"**Benefit:** While in Dolphin Style, as a full-round action underwater you can choose a circular path starting and ending in your current space whose length is no longer than you could swim with a single move action. You circle around that path until your next turn, and this movement doesn't provoke attacks of opportunity. You are considered to be in every space along the path for the purpose of threatening squares and providing flanking for other allies (but not yourself), as well as whether you are in the area of an area effect. Other creatures can attack you (and touch you with beneficial touch spells) as if you were in every space along the path. However, you don't count as being in any of the spaces for the purpose of other creatures moving through an occupied space. At the beginning of your next turn, choose any space along the path to stop circling."
 		]
 	},
 	"dolphin_dart": {

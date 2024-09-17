@@ -350,7 +350,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), sculpt corpse (Advanced Player's Guide); **Cost** 1,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), sculpt corpse; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_feather_falling": {
@@ -1007,7 +1007,7 @@
 			"",
 			"Once per day, without the need to take an action to do so, the wearer can spend 1 grit point stored in the ring to grant herself a +2 insight bonus to initiative.",
 			"",
-			"Once per day, as a standard action, the wearer of the ring can spend 2 grit points stored within the ring to activate a bullet shield as the spell (Ultimate Combat).",
+			"Once per day, as a standard action, the wearer of the ring can spend 2 grit points stored within the ring to activate a bullet shield as the spell.",
 			"",
 			"Any grit points stored in the ring disappear at the start of each day.",
 			"",
@@ -2527,7 +2527,7 @@
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** ring; **Price** 19,500 gp; **Weight** -",
 			"",
-			"A ring of energy shroud always appears to be glass or crystal in construction, tinted in a red, green, blue, or yellow hue. Closer inspection reveals a small band of metal within the glass or crystal. Treasured by frontline fighters and anyone with a trusted evoker ally, rings of energy shroud normally function as a minor ring of energy resistance. However, once per day as an immediate action, the ring's wearer can negate the damage of an incoming acid, cold, electricity, or fire energy effect for himself (but not for other creatures affected by the spell or effect), transforming that damage into a shroud of energy that wreathes the wearer's body acting as if under the effects of the elemental aura spell (Advanced Player's Guide). The elemental aura effect has the same energy type of the damage negated.",
+			"A ring of energy shroud always appears to be glass or crystal in construction, tinted in a red, green, blue, or yellow hue. Closer inspection reveals a small band of metal within the glass or crystal. Treasured by frontline fighters and anyone with a trusted evoker ally, rings of energy shroud normally function as a minor ring of energy resistance. However, once per day as an immediate action, the ring's wearer can negate the damage of an incoming acid, cold, electricity, or fire energy effect for himself (but not for other creatures affected by the spell or effect), transforming that damage into a shroud of energy that wreathes the wearer's body acting as if under the effects of the elemental aura spell. The elemental aura effect has the same energy type of the damage negated.",
 			"",
 			"### Construction",
 			"",
@@ -2848,7 +2848,7 @@
 			"",
 			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the [Leadership](feat/leadership) feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
 			"",
-			"Once per day, the wearer of the ring can use prayer and enter image (Advanced Player's Guide), often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
+			"Once per day, the wearer of the ring can use *prayer* and *enter image*, often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
 			"",
 			"### Construction",
 			"",
@@ -3512,7 +3512,7 @@
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** ring; **Price** 125,000 gp; **Weight** -",
 			"",
-			"This \"genie\" ring serves as a special gate by means of which a specific djinni (see the Pathfinder RPG Bestiary) can be called from the Plane of Air. When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes nonmagical and worthless.",
+			"This \"genie\" ring serves as a special gate by means of which a specific djinni can be called from the Plane of Air. When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes nonmagical and worthless.",
 			"",
 			"### Construction",
 			"",

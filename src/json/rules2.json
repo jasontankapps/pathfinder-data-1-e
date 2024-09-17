@@ -1190,7 +1190,7 @@
 			"",
 			"*Item Creation Feat Required:* Forge Ring.",
 			"",
-			"*Skill Used in Creation:* Spellcraft or Craft ( jewelry)."
+			"*Skill Used in Creation:* Spellcraft or Craft (jewelry)."
 		],
 		"parent_topics": [
 			"items",
@@ -1228,7 +1228,7 @@
 			"",
 			"*Item Creation Feat Required:* Craft Rod.",
 			"",
-			"*Skill Used in Creation:* Spellcraft, Craft ( jewelry), Craft (sculptures), or Craft (weapons)."
+			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Craft (weapons)."
 		],
 		"parent_topics": [
 			"items",
@@ -1325,9 +1325,9 @@
 			"",
 			"Crafting a staff requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Staff.",
+			"*Item Creation Feat Required:* [Craft Staff](feat/craft_staff).",
 			"",
-			"*Skill Used in Creation:* Spellcraft, Craft ( jewelry), Craft (sculptures), or Profession (woodcutter)."
+			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter)."
 		],
 		"parent_topics": [
 			"items",
@@ -1363,7 +1363,7 @@
 			"",
 			"*Item Creation Feat Required:* Craft Wand.",
 			"",
-			"*Skill Used in Creation:* Spellcraft, Craft ( jewelry), Craft (sculptures), or Profession (woodcutter).",
+			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter).",
 			"",
 			"### Wand Base Costs (By Crafter's Class)",
 			"",
@@ -5701,7 +5701,7 @@
 			"",
 			"**Accidentally Ending Movement in an Illegal Space:** Sometimes a character ends its movement while moving through a space where it's not allowed to stop. When that happens, put your miniature in the last legal position you occupied, or the closest legal position, if there's a legal position that's closer.",
 			"",
-			"**Double Movement Cost:** When your movement is hampered in some way, your movement usually costs double. For example, each square of movement through difficult terrain counts as 2 squares, and each diagonal move through such terrain counts as 3 squares ( just as two diagonal moves normally do).",
+			"**Double Movement Cost:** When your movement is hampered in some way, your movement usually costs double. For example, each square of movement through difficult terrain counts as 2 squares, and each diagonal move through such terrain counts as 3 squares (just as two diagonal moves normally do).",
 			"",
 			"If movement cost is doubled twice, then each square counts as 4 squares (or as 6 squares if moving diagonally). If movement cost is doubled three times, then each square counts as 8 squares (12 if diagonal) and so on. This is an exception to the general rule that two doublings are equivalent to a tripling.",
 			"",
@@ -7740,7 +7740,7 @@
 			"",
 			"- A charmed creature doesn't gain any magical ability to understand his new friend's language.",
 			"- A charmed character retains his original alignment and allegiances, generally with the exception that he now regards the charming creature as a dear friend and will give great weight to his suggestions and directions.",
-			"- A charmed character fights his former allies only if they threaten his new friend, and even then he uses the least lethal means at his disposal as long as these tactics show any possibility of success ( just as he would in a fight with an actual friend).",
+			"- A charmed character fights his former allies only if they threaten his new friend, and even then he uses the least lethal means at his disposal as long as these tactics show any possibility of success (just as he would in a fight with an actual friend).",
 			"- A charmed character is entitled to an opposed Charisma check against his master in order to resist instructions or commands that would make him do something he wouldn't normally do even for a close friend. If he succeeds, he decides not to go along with that order but remains charmed.",
 			"- A charmed character never obeys a command that is obviously suicidal or grievously harmful to him.",
 			"- If the charming creature commands his minion to do something that the influenced character would be violently opposed to, the subject may attempt a new saving throw to break free of the influence altogether.",
@@ -8103,7 +8103,7 @@
 			"",
 			"An invisible burning torch still gives off light, as does an invisible object with a light or similar spell cast upon it.",
 			"",
-			"Ethereal creatures (such as ghosts from the Pathfinder RPG Bestiary) are invisible. Since ethereal creatures are not materially present, Perception checks, scent, Blind-Fight, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, Blind-Fight, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Perception checks can help.",
+			"Ethereal creatures (such as ghosts) are invisible. Since ethereal creatures are not materially present, Perception checks, scent, Blind-Fight, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, Blind-Fight, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Perception checks can help.",
 			"",
 			"Invisible creatures cannot use gaze attacks.",
 			"",

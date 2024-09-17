@@ -994,7 +994,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), rejuvenate eidolon (Advanced Player's Guide); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), rejuvenate eidolon; **Cost** 3,000 gp"
 		]
 	},
 	"luminous_lockpicks": {
@@ -1234,7 +1234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), versatile weapon (Advanced Player's Guide); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), versatile weapon; **Cost** 3,000 gp"
 		]
 	},
 	"spiral_tiles_pharasma": {
@@ -1287,7 +1287,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), share memory (Ultimate Magic), creator must be a witch; **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), share memory, creator must be a witch; **Cost** 3,000 gp"
 		]
 	},
 	"symbol_of_luck": {
@@ -1783,7 +1783,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [monstrous physique IV](spell/monstrous_physique_4) (Ultimate Magic); **Cost** 3,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [monstrous physique IV](spell/monstrous_physique_4); **Cost** 3,300 gp"
 		]
 	},
 	"naga_scale_bindi": {
@@ -1937,7 +1937,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), compel hostility (Ultimate Combat), creator must have 5 ranks in the Bluff skill; **Cost** 3,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), compel hostility, creator must have 5 ranks in the Bluff skill; **Cost** 3,500 gp"
 		]
 	},
 	"costume_bureau": {
@@ -2132,7 +2132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), grace (Advanced Player's Guide); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), grace; **Cost** 3,750 gp"
 		]
 	},
 	"binding_contract_chelaxian": {
@@ -2567,7 +2567,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Ectoplasmic Spell (Advanced Player's Guide), [detect undead](spell/detect_undead), creator must be an inquisitor; **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Ectoplasmic Spell, [detect undead](spell/detect_undead), creator must be an inquisitor; **Cost** 4,000 gp"
 		]
 	},
 	"force_casket": {
@@ -2604,7 +2604,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), break (Advanced Player's Guide), shatter; **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), break, shatter; **Cost** 4,000 gp"
 		]
 	},
 	"herald_seed": {
@@ -3327,7 +3327,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unadulterated loathing (Ultimate Magic); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unadulterated loathing; **Cost** 4,500 gp"
 		]
 	},
 	"mithral_rose": {
@@ -4030,7 +4030,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), sacred bond (Advanced Player's Guide); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), sacred bond; **Cost** 5,000 gp"
 		]
 	},
 	"prayer_wheel_of_ethical_strength": {
@@ -5346,7 +5346,7 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.",
 			"",
-			"This golden trumpet is inlaid with silver and ivory and in. Once per day the bearer can sound a singular clarion note that affects up to 9 incorporeal creatures within 30 feet with ghostbane dirge (Will DC 17 negates, Advanced Player's Guide) for 9 rounds.",
+			"This golden trumpet is inlaid with silver and ivory and in. Once per day the bearer can sound a singular clarion note that affects up to 9 incorporeal creatures within 30 feet with ghostbane dirge (Will DC 17 negates) for 9 rounds.",
 			"",
 			"### Construction",
 			"",

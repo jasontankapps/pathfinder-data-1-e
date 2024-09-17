@@ -2954,7 +2954,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 90](source/pathfinder_unchained)",
 			"",
-			"The following secondary class features are based on features of the classes found in the Advanced Player's Guide, Ultimate Combat, and Ultimate Magic."
+			"The following secondary class features are based on features of the classes."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3508,7 +3508,7 @@
 			"",
 			"All armor in the Pathfinder Roleplaying Game is constructed of pieces and parts that are carefully (or hastily) donned each time the armor is used. While a full suit of armor is always more protective than wearing pieces of armor, sometimes a character does not have time to don an entire suit of armor before jumping into the fray. Other times characters may not have access to an entire suit of armor; in dire situations, they may need to find pieces or parts of armor among lower-level treasure hoards, or they have to scavenge from the bodies of fallen foes in order to protect themselves.",
 			"",
-			"The following rules allow you to introduce piecemeal armor into your campaign. All of the armors presented in this book, the Core Rulebook, and the Advanced Player's Guide are separated into three different and distinct sections or pieces: arms, legs, and torso."
+			"The following rules allow you to introduce piecemeal armor into your campaign. All of the armors presented are separated into three different and distinct sections or pieces: arms, legs, and torso."
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"subtopics": [
@@ -3536,6 +3536,7 @@
 	},
 	"armor_pieces_and_armor_suits": {
 		"name": "Armor Pieces and Armor Suits",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 198](source/ultimate_combat)",
@@ -3574,6 +3575,7 @@
 	},
 	"armor_pieces_and_proficiency": {
 		"name": "Armor Pieces and Proficiency",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 198](source/ultimate_combat)",
@@ -3598,6 +3600,7 @@
 	},
 	"masterwork,_special_material,_and_magic_armor": {
 		"name": "Masterwork, Special Material, and Magic Armor",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
@@ -3635,6 +3638,7 @@
 	},
 	"adamantine": {
 		"name": "Adamantine",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
@@ -3663,6 +3667,7 @@
 	},
 	"dragonhide": {
 		"name": "Dragonhide",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
@@ -3682,6 +3687,7 @@
 	},
 	"mithral": {
 		"name": "Mithral",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
@@ -3714,6 +3720,7 @@
 	},
 	"getting_into_and_out_of_armor_pieces": {
 		"name": "Getting Into and Out of Armor Pieces",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
@@ -3828,6 +3835,7 @@
 	},
 	"arms": {
 		"name": "Arms",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
@@ -3917,6 +3925,7 @@
 	},
 	"legs": {
 		"name": "Legs",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 202](source/ultimate_combat)",
@@ -4004,6 +4013,7 @@
 	},
 	"torso": {
 		"name": "Torso",
+		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 203](source/ultimate_combat)",
@@ -4150,6 +4160,7 @@
 	},
 	"triumphs": {
 		"name": "Triumphs",
+		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)",
@@ -4196,11 +4207,12 @@
 	},
 	"adapting_scaling_items": {
 		"name": "Adapting Scaling Items",
+		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_#128_songbird,_scion,_saboteur)",
 			"",
-			"Relics work much like the [scaling items](rule/scaling_items) introduced in Pathfinder Unchained, with the exceptions that they don't cost a share of your treasure and they scale up due to story events rather than at certain levels. This makes it easy to adapt the scaling items from that book to use as relics, either to replace ones listed here that don't suit your group in War for the Crown or to use in a different campaign. Doing so requires the following adjustments, in addition to adding thematic background elements to the items to tie them to the triumphs of your game.",
+			"Relics work much like [scaling items](rule/scaling_items), with the exceptions that they don't cost a share of your treasure and they scale up due to story events rather than at certain levels. This makes it easy to adapt the scaling items from that book to use as relics, either to replace ones listed here that don't suit your group in War for the Crown or to use in a different campaign. Doing so requires the following adjustments, in addition to adding thematic background elements to the items to tie them to the triumphs of your game.",
 			"",
 			"**Remove Cost, Price, and Scaling Category:** Because relics can't be crafted and aren't typically bought or sold, they don't have cost or price entries. Similarly, the scaling progression (bauble, prize, or wonder) is not usually relevant for relics. However, you might want to restrict yourself to only prizes and wonders when converting scaling items, since baubles aren't as impressive as relics should be.",
 			"",
@@ -4257,6 +4269,7 @@
 	},
 	"optional": {
 		"name": "Optional",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 163](source/ultimate_magic)",
@@ -4282,6 +4295,7 @@
 	},
 	"becoming_a_wordcaster": {
 		"name": "Becoming a Wordcaster",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 162](source/ultimate_magic)",
@@ -4347,13 +4361,14 @@
 	},
 	"class-specific_rules": {
 		"name": "Class-Specific Rules",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 162](source/ultimate_magic)",
 			"",
 			"Some classes interact with these rules a little differently from the others. From sorcerer bloodlines to cleric domains, each of these specific rules are discussed here.",
 			"",
-			"**Alchemist:** The alchemist only learns the personal and selected target words. He uses words to create extracts as normal, but they can only target the drinker (in most cases, the alchemist himself ).",
+			"**Alchemist:** The alchemist only learns the personal and selected target words. He uses words to create extracts as normal, but they can only target the drinker (in most cases, the alchemist himself).",
 			"",
 			"**Clerics:** A cleric chooses her domains as normal, and must use her domain spell slot to prepare a domain spell from one of her chosen domains. She cannot use that slot to prepare a wordspell. A cleric can spontaneously cast a wordspell containing an effect word from the Healing group or the Wounding group, but the spell cannot contain any other effect words. She can cast such wordspells by sacrificing an arranged and prepared wordspell (not a domain spell) of a level equal to the level of the spell she wishes to cast. Good clerics can only spontaneously cast wordspells with effect words from the Healing group, whereas evil clerics can only spontaneously cast wordspells with effect words from the Wounding group. Neutral clerics can elect to cast wordspells with either Healing or Wounding effect words, but once they have chosen, they cannot spontaneously cast spells with effect words from the other group, and this choice cannot be changed.",
 			"",
@@ -4434,6 +4449,7 @@
 	},
 	"casting_wordspells": {
 		"name": "Casting Wordspells",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 164](source/ultimate_magic)",
@@ -4478,6 +4494,7 @@
 	},
 	"magic_item_creation_um": {
 		"name": "Magic Item Creation",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 165](source/ultimate_magic)",
@@ -4504,6 +4521,7 @@
 	},
 	"examples": {
 		"name": "Examples",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 165](source/ultimate_magic)",
@@ -4532,6 +4550,7 @@
 	},
 	"target_words": {
 		"name": "Target Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 165](source/ultimate_magic)",
@@ -4623,6 +4642,7 @@
 	},
 	"effect_word_descriptions": {
 		"name": "Effect Word Descriptions",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 167](source/ultimate_magic)",
@@ -4701,6 +4721,7 @@
 	},
 	"acid_words": {
 		"name": "Acid Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 167](source/ultimate_magic)",
@@ -4786,6 +4807,7 @@
 	},
 	"alignment_words": {
 		"name": "Alignment Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 168](source/ultimate_magic)",
@@ -4864,6 +4886,7 @@
 	},
 	"animal_words": {
 		"name": "Animal Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 168](source/ultimate_magic)",
@@ -4942,6 +4965,7 @@
 	},
 	"armor_words": {
 		"name": "Armor Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 169](source/ultimate_magic)",
@@ -5031,6 +5055,7 @@
 	},
 	"binding_words": {
 		"name": "Binding Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 170](source/ultimate_magic)",
@@ -5118,6 +5143,7 @@
 	},
 	"body_words": {
 		"name": "Body Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 170](source/ultimate_magic)",
@@ -5216,6 +5242,7 @@
 	},
 	"change_words": {
 		"name": "Change Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 171](source/ultimate_magic)",
@@ -5306,6 +5333,7 @@
 	},
 	"cold_words": {
 		"name": "Cold Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 171](source/ultimate_magic)",
@@ -5390,6 +5418,7 @@
 	},
 	"command_words": {
 		"name": "Command Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 172](source/ultimate_magic)",
@@ -5489,6 +5518,7 @@
 	},
 	"concealing_words": {
 		"name": "Concealing Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 173](source/ultimate_magic)",
@@ -5573,6 +5603,7 @@
 	},
 	"death_words": {
 		"name": "Death Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 173](source/ultimate_magic)",
@@ -5662,6 +5693,7 @@
 	},
 	"destruction_words": {
 		"name": "Destruction Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 174](source/ultimate_magic)",
@@ -5740,6 +5772,7 @@
 	},
 	"detection_words": {
 		"name": "Detection Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 174](source/ultimate_magic)",
@@ -5833,6 +5866,7 @@
 	},
 	"dispelling_words": {
 		"name": "Dispelling Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 175](source/ultimate_magic)",
@@ -5922,6 +5956,7 @@
 	},
 	"divination_words": {
 		"name": "Divination Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 176](source/ultimate_magic)",
@@ -6002,6 +6037,7 @@
 	},
 	"electricity_words": {
 		"name": "Electricity Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 176](source/ultimate_magic)",
@@ -6092,6 +6128,7 @@
 	},
 	"fear_words": {
 		"name": "Fear Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 177](source/ultimate_magic)",
@@ -6169,6 +6206,7 @@
 	},
 	"fire_words": {
 		"name": "Fire Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 177](source/ultimate_magic)",
@@ -6271,6 +6309,7 @@
 	},
 	"flight_words": {
 		"name": "Flight Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 177](source/ultimate_magic)",
@@ -6349,6 +6388,7 @@
 	},
 	"force_words": {
 		"name": "Force Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 178](source/ultimate_magic)",
@@ -6417,6 +6457,7 @@
 	},
 	"gravity_words": {
 		"name": "Gravity Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 179](source/ultimate_magic)",
@@ -6497,6 +6538,7 @@
 	},
 	"healing_words": {
 		"name": "Healing Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 179](source/ultimate_magic)",
@@ -6603,6 +6645,7 @@
 	},
 	"illusion_words": {
 		"name": "Illusion Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 180](source/ultimate_magic)",
@@ -6672,6 +6715,7 @@
 	},
 	"illumination_words": {
 		"name": "Illumination Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 180](source/ultimate_magic)",
@@ -6750,6 +6794,7 @@
 	},
 	"language_words": {
 		"name": "Language Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 180](source/ultimate_magic)",
@@ -6832,6 +6877,7 @@
 	},
 	"life_words": {
 		"name": "Life Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 181](source/ultimate_magic)",
@@ -6916,6 +6962,7 @@
 	},
 	"pain_words": {
 		"name": "Pain Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 181](source/ultimate_magic)",
@@ -6991,6 +7038,7 @@
 	},
 	"power_words": {
 		"name": "Power Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 182](source/ultimate_magic)",
@@ -7081,6 +7129,7 @@
 	},
 	"sonic_words": {
 		"name": "Sonic Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 182](source/ultimate_magic)",
@@ -7157,6 +7206,7 @@
 	},
 	"summoning_words": {
 		"name": "Summoning Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 182](source/ultimate_magic)",
@@ -7295,6 +7345,7 @@
 	},
 	"teleportation_words": {
 		"name": "Teleportation Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 184](source/ultimate_magic)",
@@ -7380,6 +7431,7 @@
 	},
 	"time_words": {
 		"name": "Time Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 185](source/ultimate_magic)",
@@ -7500,6 +7552,7 @@
 	},
 	"wall_words": {
 		"name": "Wall Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 186](source/ultimate_magic)",
@@ -7596,6 +7649,7 @@
 	},
 	"weather_words": {
 		"name": "Weather Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 186](source/ultimate_magic)",
@@ -7689,6 +7743,7 @@
 	},
 	"wounding_words": {
 		"name": "Wounding Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 187](source/ultimate_magic)",
@@ -7795,6 +7850,7 @@
 	},
 	"meta_words": {
 		"name": "Meta Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 188](source/ultimate_magic)",
@@ -7862,6 +7918,7 @@
 	},
 	"class_word_lists": {
 		"name": "Class Word Lists",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 189](source/ultimate_magic)",
@@ -7898,6 +7955,7 @@
 	},
 	"alchemist_words": {
 		"name": "Alchemist Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 189](source/ultimate_magic)",
@@ -7935,6 +7993,7 @@
 	},
 	"bard_words": {
 		"name": "Bard Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 189](source/ultimate_magic)",
@@ -7972,6 +8031,7 @@
 	},
 	"cleric_oracle_words": {
 		"name": "Cleric/Oracle Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 189](source/ultimate_magic)",
@@ -8015,6 +8075,7 @@
 	},
 	"druid_words": {
 		"name": "Druid Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 190](source/ultimate_magic)",
@@ -8058,6 +8119,7 @@
 	},
 	"inquisitor_words": {
 		"name": "Inquisitor Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 190](source/ultimate_magic)",
@@ -8095,6 +8157,7 @@
 	},
 	"magus_words": {
 		"name": "Magus Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 191](source/ultimate_magic)",
@@ -8132,6 +8195,7 @@
 	},
 	"paladin_words": {
 		"name": "Paladin Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 191](source/ultimate_magic)",
@@ -8165,6 +8229,7 @@
 	},
 	"ranger_words": {
 		"name": "Ranger Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 191](source/ultimate_magic)",
@@ -8198,6 +8263,7 @@
 	},
 	"sorcerer_wizard_words": {
 		"name": "Sorcerer/Wizard Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 191](source/ultimate_magic)",
@@ -8241,6 +8307,7 @@
 	},
 	"summoner_words": {
 		"name": "Summoner Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 192](source/ultimate_magic)",
@@ -8278,6 +8345,7 @@
 	},
 	"witch_words": {
 		"name": "Witch Words",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"**Source** [Ultimate Magic pg. 193](source/ultimate_magic)",
@@ -8523,6 +8591,7 @@
 	},
 	"other_considerations_uc": {
 		"name": "Other Considerations",
+		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Source** [Ultimate Combat pg. 207](source/ultimate_combat)",
@@ -8629,6 +8698,7 @@
 	},
 	"creatures_and_their_hunger": {
 		"name": "Creatures and Their Hunger",
+		"subtitle": "The Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.",
@@ -8652,6 +8722,7 @@
 	},
 	"hunger_rules": {
 		"name": "Hunger Rules",
+		"subtitle": "The Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"Where the living suffer physically from starvation, undead suffer mentally. After long enough without a \"meal,\" even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.",
@@ -8676,6 +8747,7 @@
 	},
 	"withdrawal_effects": {
 		"name": "Withdrawl Effects",
+		"subtitle": "The Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table on the facing page, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases,",
@@ -8711,6 +8783,7 @@
 	},
 	"feeding_bonuses": {
 		"name": "Feeding Bonuses",
+		"subtitle": "The Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).",

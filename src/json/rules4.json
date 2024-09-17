@@ -143,7 +143,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
 			"",
-			"One of the most complex parts of the game is the stat block. Every NPC, every monster, and every timid little forest creature in the campaign world has its own stat block. This isn't to say, of course, that you need to generate a stat block for every creature that appears in your adventure, but you should certainly generate stat blocks for all of the important NPCs and monsters with whom you expect the PCs to interact. The Pathfinder RPG Bestiary provides more than 300 pre-made monster stat blocks for use in adventures, and that's just the beginning-you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3x5 card or into a small document you can easily bring up on your computer during the game-you can keep these cards and documents forever to reuse them as needed."
+			"One of the most complex parts of the game is the stat block. Every NPC, every monster, and every timid little forest creature in the campaign world has its own stat block. This isn't to say, of course, that you need to generate a stat block for every creature that appears in your adventure, but you should certainly generate stat blocks for all of the important NPCs and monsters with whom you expect the PCs to interact. The *Pathfinder RPG Bestiary* provides more than 300 pre-made monster stat blocks for use in adventures, and that's just the beginning-you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3x5 card or into a small document you can easily bring up on your computer during the game-you can keep these cards and documents forever to reuse them as needed."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -239,7 +239,7 @@
 			"| 12 Creatures | CR +7 |",
 			"| 16 Creatures | CR +8 |",
 			"",
-			"**Ad Hoc CR Adjustments:** While you can adjust a specific monster's CR by advancing it, applying templates, or giving it class levels (rules for all three of these options appear in the Pathfinder RPG Bestiary), you can also adjust an encounter's difficulty by applying ad hoc adjustments to the encounter or creature itself. Listed here are three additional ways you can alter an encounter's difficulty.",
+			"**Ad Hoc CR Adjustments:** While you can adjust a specific monster's CR by advancing it, applying templates, or giving it class levels, you can also adjust an encounter's difficulty by applying ad hoc adjustments to the encounter or creature itself. Listed here are three additional ways you can alter an encounter's difficulty.",
 			"",
 			"**Favorable Terrain for the PCs:** An encounter against a monster that's out of its favored element (like a yeti encountered in a sweltering cave with lava, or an enormous dragon encountered in a tiny room) gives the PCs an advantage. Build the encounter as normal, but when you award experience for the encounter, do so as if the encounter were one CR lower than its actual CR.",
 			"",
@@ -599,11 +599,11 @@
 			"",
 			"You should decide on how exotic your world is at the start. The Pathfinder Roleplaying Game assumes a baseline that all PCs, and thus the majority of the civilized world's NPCs, are of one of the [seven \"common\" races](main/races). You might want to narrow those choices-perhaps there are only humans in your world, or perhaps one or more of those races are rare enough to be nearly legends on their own. In these cases, you should inform your players that their choices for races are reduced, as appropriate.",
 			"",
-			"On the other end of things, perhaps your world is much more extravagant than the implied world. In this case, you might allow your players to play characters of races other than the common ones. The Pathfinder RPG Bestiary has many non-standard races to choose from, but you should note that most of these are significantly more powerful than those presented as common. Any race that grants racial Hit Dice is probably too potent a choice for most campaigns. As a general guideline, you should advise your players to choose races of roughly equal power, using a creature's racial HD (not its CR) as a general guideline. Characters who wish instead to play standard races should be allowed to start at higher level, so that their total HD match the highest HD held by a non-standard race in the party.",
+			"On the other end of things, perhaps your world is much more extravagant than the implied world. In this case, you might allow your players to play characters of races other than the common ones. The *Pathfinder RPG Bestiary* has many non-standard races to choose from, but you should note that most of these are significantly more powerful than those presented as common. Any race that grants racial Hit Dice is probably too potent a choice for most campaigns. As a general guideline, you should advise your players to choose races of roughly equal power, using a creature's racial HD (not its CR) as a general guideline. Characters who wish instead to play standard races should be allowed to start at higher level, so that their total HD match the highest HD held by a non-standard race in the party.",
 			"",
 			"### Alternative Races",
 			"",
-			"Only more experienced GMs should consider allowing players to play anything other than the races presented, but if you want to start experimenting, the following races from the Pathfinder RPG Bestiary are good choices.",
+			"Only more experienced GMs should consider allowing players to play anything other than the races presented, but if you want to start experimenting, the following races are good choices.",
 			"",
 			"- Aasimar",
 			"- Goblin",
@@ -1035,7 +1035,7 @@
 			"**Feats** [Deadly Aim](feat/deadly_aim), [Endurance](feat/endurance), [Point Blank Shot](feat/point_blank_shot), [Rapid Shot](feat/rapid_shot), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Acrobatics +13, Climb +10, Escape Artist +9, Heal +9, Knowledge (geography) +11, Knowledge (nature) +11, Perception +11 (+13 in forests), Stealth +13, Survival +9 (+11 following tracks), Swim +6  ",
 			"**Languages** Common, Elven, Orc, Sylvan  ",
-			"**SQ** nature bond (wolf ), track, trapfinding +1  ",
+			"**SQ** nature bond (wolf), track, trapfinding +1  ",
 			"**Combat Gear** potion of cure moderate wounds, potion of invisibility; **Other Gear** +1 longbow with 40 arrows, mwk rapier, +1 studded leather armor, gear and coins worth 200 gp"
 		],
 		"parent_topics": [
@@ -4606,7 +4606,7 @@
 			"",
 			"It's not easy to be a Game Master; of all the roles in the game, the GM has to put in the most work, and sometimes you'll want to relax and use a published adventure instead of creating your own. While many such adventures are ready to go straight out of the box, so to speak, the key to integrating one seamlessly into an existing campaign or setting is adapting the adventure to suit your campaign and your PCs, and this means you have to recognize whether or not the adventure is a good fit for you and your party.",
 			"",
-			"Presuming the theme or feel is suitable for your campaign, you need to look at the game mechanics in the adventure, particularly the monsters and how they compare to your PCs' abilities. It's possible that the party composition may make an adventure too easy-a party with a paladin, good cleric, and good necromancer is going to blow through an undead-heavy adventure with little trouble (though that isn't a bad thing, as letting the PCs feel powerful is nice now and then). You should always feel free to adjust the power level of an adventure's monsters (using the simple templates in the back of the Pathfinder RPG Bestiary is the easiest way) or swap them out for other monsters with similar CRs.",
+			"Presuming the theme or feel is suitable for your campaign, you need to look at the game mechanics in the adventure, particularly the monsters and how they compare to your PCs' abilities. It's possible that the party composition may make an adventure too easy-a party with a paladin, good cleric, and good necromancer is going to blow through an undead-heavy adventure with little trouble (though that isn't a bad thing, as letting the PCs feel powerful is nice now and then). You should always feel free to adjust the power level of an adventure's monsters (using the simple templates in the back of the *Pathfinder RPG Bestiary* is the easiest way) or swap them out for other monsters with similar CRs.",
 			"",
 			"What it comes down to is that you have to make the adventure your own-whether a Pathfinder Module, a one-session Pathfinder Society Scenario, or a third-party adventure. If you're lucky and choose well, you can save yourself a lot of work. Make changes to the story if you have to, embrace tangents the PCs introduce, and always feel free to point the story in the general direction of your campaign's primary plot if the PCs decide to abandon the story in the published adventure."
 		],
@@ -5309,7 +5309,7 @@
 			"",
 			"Although campaign journals serve as the most common creative activity between sessions, no GM should underestimate the imagination of her players. Artistic players might create sketches of their characters, portraits of their enemies, or illustrations of their exploits, while more craft-focused players might help the GM make maps or props of important items, or might fashion costumes or adornments based on their characters. If you have a player looking for such a project, consider bringing them in on one of the creative aspects you don't have time for, whether it's painting miniatures, making maps, or creating a playlist for the game's soundtrack.",
 			"",
-			"It's not just artists and writers who can help the GM between sessions, either. If you have a trusted player who's particularly adept with the rules (or maybe even GMs himself ), feel free to use him as a resource, perhaps vetting rules supplements proposed by other players and advising you on tricky balance issues, or educating other players in particularly confusing aspects of the game."
+			"It's not just artists and writers who can help the GM between sessions, either. If you have a trusted player who's particularly adept with the rules (or maybe even GMs himself), feel free to use him as a resource, perhaps vetting rules supplements proposed by other players and advising you on tricky balance issues, or educating other players in particularly confusing aspects of the game."
 		],
 		"parent_topics": [
 			"gamemastering",

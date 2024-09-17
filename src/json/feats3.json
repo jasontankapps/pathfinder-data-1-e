@@ -623,7 +623,7 @@
 			"**Prerequisites:** You must have lived in the chosen city for at least 1 year or be the heir of a former city leader.  ",
 			"**Benefit:** You gain followers as if you had the Leadership feat, although you cannot attract followers of a level higher than your level - 2. If you also have the Leadership feat, increase your Leadership score by 3 for the purpose of determining how many followers you have.  ",
 			"**Goal:** Thwart all rivals to rulership over the chosen region, including at least one challenging foe.  ",
-			"**Completion Benefit:** You gain control of the settlement (see the settlement rules in the Pathfinder RPG GameMastery Guide). Upon gaining this benefit and once per year thereafter, you can attempt to alter the settlement in one of the following ways by attempting a DC 25 Diplomacy check modified by the settlement's Society modifier or a DC 25 Intimidate check modified by its Law modifier:",
+			"**Completion Benefit:** You gain control of the settlement (see the [settlement rules](rule/urban)). Upon gaining this benefit and once per year thereafter, you can attempt to alter the settlement in one of the following ways by attempting a DC 25 Diplomacy check modified by the settlement's Society modifier or a DC 25 Intimidate check modified by its Law modifier:",
 			"",
 			"- Move the settlement's alignment 1 step closer to yours along either the good-evil or law-chaos axis.",
 			"- Replace one settlement quality with another.",
@@ -631,7 +631,7 @@
 			"- Significantly alter the laws.",
 			"",
 			"Failure indicates that popular opinion in the city successfully opposes you. In addition, from now on, your followers gain a +1 morale bonus on attack rolls and saving throws as long as they can see you.  ",
-			"**Special:** For groups using the kingdom-building rules from Pathfinder RPG Ultimate Campaign, you can optionally use the rules for establishing a settlement to complete the goal of this story feat.",
+			"**Special:** For groups using the [kingdom-building rules](rule/kingdom_building), you can optionally use the rules for establishing a settlement to complete the goal of this story feat.",
 			"",
 			"Suggested Traits: Domineering, Inspiring, Natural-Born Leader.",
 			"",
@@ -1624,7 +1624,7 @@
 			"",
 			"You can adapt your defenses to any situation.  ",
 			"**Prerequisites:** Spellcraft 7 ranks.  ",
-			"**Benefit:** As a standard action, you can alter one of your ongoing abjuration or transmutation spells. It must be currently affecting you and must grant a choice of options when cast. You change its benefit to a different one from the same list. In order to accomplish this, you must make a successful Spellcraft check (DC equal to 10 + the level of the spell to be altered). The duration of the spell is reduced to half of the spell's remaining duration. For example, a 7th-level wizard could change her resist energy ( fire) spell with 50 minutes of its duration remaining into resist energy (cold), but the new duration would be 25 minutes. This ability does not change the benefit for any other creatures targeted by the original spell."
+			"**Benefit:** As a standard action, you can alter one of your ongoing abjuration or transmutation spells. It must be currently affecting you and must grant a choice of options when cast. You change its benefit to a different one from the same list. In order to accomplish this, you must make a successful Spellcraft check (DC equal to 10 + the level of the spell to be altered). The duration of the spell is reduced to half of the spell's remaining duration. For example, a 7th-level wizard could change her resist energy (fire) spell with 50 minutes of its duration remaining into resist energy (cold), but the new duration would be 25 minutes. This ability does not change the benefit for any other creatures targeted by the original spell."
 		]
 	},
 	"emissary's_emboldening": {
@@ -1893,7 +1893,7 @@
 			"**Source** [Horror Adventures pg. 86](source/horror_adventures)",
 			"",
 			"You have crossed paths with a cult opposed to everything in which you believe.  ",
-			"**Prerequisites:** You must have encountered a cult whose general alignment is opposite to yours on at least one axis or who threatened your beliefs or way of life, or you must have the Angelic Encounter, the False Witness, The Omen, or the Terrible Secret background (all of which are found in Ultimate Campaign).  ",
+			"**Prerequisites:** You must have encountered a cult whose general alignment is opposite to yours on at least one axis or who threatened your beliefs or way of life.  ",
 			"**Benefit:** Choose an appropriate detect chaos/evil/good/law spell that would aid you in opposing your chosen enemy cult. You can cast this spell twice per day as a spell-like ability with a caster level equal to your character level.  ",
 			"**Goal:** Thwart the enemy cult, whose leader must be a challenging foe. You must deal that cult leader a decisive defeat, and additionally eradicate the cult or drive the cult from the area.  ",
 			"**Completion Benefit:** You gain a +2 resistance bonus on saving throws against evil creatures and a +2 deflection bonus to AC against evil creatures' attacks. These bonuses double against evil summoned creatures."
@@ -2045,7 +2045,7 @@
 			"**Source** [Dragon Empires Primer pg. 24](source/dragon_empires_primer)",
 			"",
 			"You enhance the force of your ki throws, enabling you to devastate your opponents as you slam them to the ground.  ",
-			"**Prerequisites:** Ki pool class feature, Ki Throw (see the Pathfinder RPG Advanced Player's Guide).  ",
+			"**Prerequisites:** Ki pool class feature, [Ki Throw](feat/ki_throw).  ",
 			"**Benefit:** When using the Ki Throw feat, you can expend 1 ki point to amplify the force of your attack. If your ki throw succeeds, when the target hits the ground, it takes damage as if you had hit it with an unarmed strike."
 		]
 	},
@@ -5052,7 +5052,7 @@
 			"**Source** [Paths of the Righteous pg. 3](source/paths_of_the_righteous)",
 			"",
 			"You have come to favor a certain prestige class, either because you are particularly devoted to the class's cause, have trained more than most others have for that specific role, or have simply been destined to excel in the prestige class all along. Regardless of the reason, levels gained in your favored prestige class grant additional benefits in a way similar to those you gain for taking levels in your base favored class.  ",
-			"**Benefit:** Choose one prestige class and one skill that is a class skill for that prestige class. Whenever you gain a level in that prestige class, you receive +1 hit point or +1 skill rank. You gain a +2 bonus on checks using the skill you chose from that prestige class's class skills. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. This bonus stacks with the bonus granted by Skill Focus, but does not stack with a bonus granted by any other feat (such as Magical Aptitude or Persuasive). The choice of favored prestige class cannot be changed once you make it. Levels in a favored prestige class are not the same as levels in a regular favored class, and as such levels in a favored prestige class can never be used to qualify or gain favored class options like those introduced in Pathfinder RPG Advanced Player's Guide. You can have only one favored prestige class, but can still have a favored base class as well.",
+			"**Benefit:** Choose one prestige class and one skill that is a class skill for that prestige class. Whenever you gain a level in that prestige class, you receive +1 hit point or +1 skill rank. You gain a +2 bonus on checks using the skill you chose from that prestige class's class skills. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. This bonus stacks with the bonus granted by Skill Focus, but does not stack with a bonus granted by any other feat (such as Magical Aptitude or Persuasive). The choice of favored prestige class cannot be changed once you make it. Levels in a favored prestige class are not the same as levels in a regular favored class, and as such levels in a favored prestige class can never be used to qualify or gain favored class options. You can have only one favored prestige class, but can still have a favored base class as well.",
 			"",
 			"You can select this feat before you gain levels in your chosen favored prestige class, but the benefits of the feat do not apply until you actually gain at least 1 level in that prestige class.  ",
 			"**Normal:** Prestige classes cannot be a favored class, and cannot benefit from the additional hit point or skill rank afforded to those who take levels in a favored class."
@@ -6275,7 +6275,7 @@
 			"",
 			"Your expertise aids you against many similar foes.  ",
 			"**Prerequisites:** Base attack bonus +5, favored enemy (any humanoid or any outsider), favored enemy class feature.  ",
-			"**Benefit:** Once per day as a swift action, you can change the subtype of the humanoid or outsider you chose as your favored enemy. For example, you can change your favored enemy from humanoid (elf ) to humanoid (dwarf ). The bonus granted by favored enemy when used in this way is always +2, regardless of the original bonus. This change lasts for a number of rounds equal to your character level.  ",
+			"**Benefit:** Once per day as a swift action, you can change the subtype of the humanoid or outsider you chose as your favored enemy. For example, you can change your favored enemy from humanoid (elf) to humanoid (dwarf). The bonus granted by favored enemy when used in this way is always +2, regardless of the original bonus. This change lasts for a number of rounds equal to your character level.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take the feat, you can use this ability one additional time per day."
 		]
 	},

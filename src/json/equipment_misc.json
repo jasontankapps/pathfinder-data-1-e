@@ -506,6 +506,7 @@
 	},
 	"alchemy_crafting_kit": {
 		"name": "Alchemy crafting kit",
+		"tags": "alchemist's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Alchemy crafting kit",
@@ -513,7 +514,7 @@
 			"**Price** 25 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
-			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an \"alchemist's kit\" in the Advanced Player's Guide, and was renamed to avoid confusion with this book's pre-selected set of adventuring gear called an \"alchemist's kit.\")"
+			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an \"alchemist's kit\" in the *Advanced Player's Guide*, and was renamed to avoid confusion with the pre-selected set of adventuring gear in *Ultimate Equipment* called an \"alchemist's kit.\")"
 		]
 	},
 	"ale_gallon": {
@@ -1394,7 +1395,7 @@
 			"**Price** 1,500 gp; **Weight** 500 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Large avian predators are sometimes used as hunting animals but are prized as mounts. More information on these creatures can be found in Bestiary 3."
+			"These Large avian predators are sometimes used as hunting animals but are prized as mounts."
 		]
 	},
 	"axe_beak_egg": {
@@ -1500,7 +1501,7 @@
 			"**Price** 15 gp; **Weight** 20 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These fierce, burrowing creatures are only rarely kept as pets. More information on badgers can be found in Bestiary 2."
+			"These fierce, burrowing creatures are only rarely kept as pets."
 		]
 	},
 	"bag,_bear": {
@@ -3544,7 +3545,7 @@
 			"**Price** 150 gp; **Weight** 1,500 lbs  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. They tend to be ill-tempered beasts. More information on camels can be found in Bestiary 2."
+			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. They tend to be ill-tempered beasts."
 		]
 	},
 	"camouflage_blanket": {
@@ -3961,7 +3962,7 @@
 			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** 3 cp (common), 6 gp (Osirian wise-eye); **Weight** 8 lbs. (common), 8 lbs. (Osirian wise-eye)",
 			"",
-			"These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities. More information on cats can be found in the Bestiary."
+			"These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities."
 		]
 	},
 	"cat_osirian_wise-eye": {
@@ -4159,7 +4160,7 @@
 			"**Price** 1 cp; **Weight** 3 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait. More information on house centipedes can be found in Ultimate Magic."
+			"These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait."
 		]
 	},
 	"chain_10_ft.": {
@@ -5362,7 +5363,7 @@
 			"**Price** 20 gp; **Weight** 5-7 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Aquatic spellcasters often find large ocean crabs to be agreeable familiars. Without the bond of a familiar, however, these crustacean's lack of intelligence makes them dull pets. More information on king crabs can be found in Ultimate Magic."
+			"Aquatic spellcasters often find large ocean crabs to be agreeable familiars. Without the bond of a familiar, however, these crustacean's lack of intelligence makes them dull pets."
 		]
 	},
 	"crimson_whale": {
@@ -6249,11 +6250,11 @@
 			"",
 			"Most dogs fall into one of the following categories.",
 			"",
-			"Guard Dog: This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry. More information on dogs can be found in the Bestiary.",
+			"**Guard Dog:** This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.",
 			"",
-			"Lap Dog: These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as [foxes](monster/fox).",
+			"**Lap Dog:** These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as [foxes](monster/fox).",
 			"",
-			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities. More information on riding dogs can be found in the Bestiary."
+			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities."
 		]
 	},
 	"dog_lap": {
@@ -6354,7 +6355,7 @@
 			"**Price** 1 gp; **Weight** 50 lbs  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Tiny capybara-like white rodents are native to temperate swamps and coasts. They are common pets and livestock in some lands. More information on donkey rats can be found in Ultimate Magic."
+			"These Tiny capybara-like white rodents are native to temperate swamps and coasts. They are common pets and livestock in some lands."
 		]
 	},
 	"dowsing_rod": {
@@ -6466,7 +6467,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Dragoncraft",
 			"",
-			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut. When used as a thrown splash weapon, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage. Additionally, dragon's gut has alternate effects when used in place of acid as an alchemical power component (see Pathfinder Player Companion: Adventurer's Armory).",
+			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut. When used as a thrown splash weapon, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage. Additionally, dragon's gut has alternate effects when used in place of acid as an alchemical power component.",
 			"",
 			"**Acid arrow:** The spell lasts 1d3 rounds longer than usual.",
 			"",
@@ -6901,7 +6902,7 @@
 			"**Price** 1,000 gp; **Weight** 5 tons  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive. More information on elephants can be found in the Bestiary."
+			"These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive."
 		]
 	},
 	"elk_combat-trained": {

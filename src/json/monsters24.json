@@ -1243,7 +1243,7 @@
 			"",
 			"Field Hospital Troop (CR 14): This troop includes several clerics and warpriests trained in combat medicine and able to channel positive energy and magically enhance the troop's weapons. A field hospital troop moves at a speed of 20 feet, and its AC is reduced by 3. It can use battlefield healing five times per day. Its members are primarily outfitted with breastplates and longswords. Additionally, a field hospital troop gains the following special attacks.",
 			"",
-			"Channel Energy (Su): As a standard action, the troop can emit a 30-foot radius burst of positive energy to damage undead creatures, dealing 5d6 points of damage (Will DC 25 half ). This burst can originate from the corner of any square in the troop's space. The save DC is Charisma-based and includes a +2 bonus from the Glory domain.",
+			"Channel Energy (Su): As a standard action, the troop can emit a 30-foot radius burst of positive energy to damage undead creatures, dealing 5d6 points of damage (Will DC 25 half). This burst can originate from the corner of any square in the troop's space. The save DC is Charisma-based and includes a +2 bonus from the Glory domain.",
 			"",
 			"Holy Weapons (Su): Twice per day as a swift action, the troop gains a +20 bonus on troop and volley damage rolls against evil creatures, and such attacks are considered good and magic for the purpose of bypassing damage reduction. This effect lasts for 6 rounds.",
 			"",
@@ -1259,9 +1259,9 @@
 			"",
 			"Siege Engineer Troop (CR 14): Trained in the transport and use of siege engines, this troop swiftly brings ballistae and catapults to bear against enemies. A siege engineer troop has a speed of 10 feet and lacks the volley special attack, but it gains the following special attacks.",
 			"",
-			"Ballista Volley (Ex): As a move action, the troop can fire a volley of ballista bolts. This attack takes the form of a 360-foot line and deals 8d8 points of piercing damage (Reflex DC 21 half ) to creatures in the line. The save DC is Dexterity-based.",
+			"Ballista Volley (Ex): As a move action, the troop can fire a volley of ballista bolts. This attack takes the form of a 360-foot line and deals 8d8 points of piercing damage (Reflex DC 21 half) to creatures in the line. The save DC is Dexterity-based.",
 			"",
-			"Catapult Bombardment (Ex): As a move action, the troop can target a single square up to 400 feet away with catapult stones (minimum range of 100 feet). This attack deals 12d6 points of bludgeoning damage to all creatures in a 30-foot-radius burst (Reflex DC 21 for half ). If the siege engineer troop does not have line of sight to the target square, creatures in the burst gain a +4 circumstance bonus on their Reflex saving throws. The save DC is Dexterity-based.",
+			"Catapult Bombardment (Ex): As a move action, the troop can target a single square up to 400 feet away with catapult stones (minimum range of 100 feet). This attack deals 12d6 points of bludgeoning damage to all creatures in a 30-foot-radius burst (Reflex DC 21 for half). If the siege engineer troop does not have line of sight to the target square, creatures in the burst gain a +4 circumstance bonus on their Reflex saving throws. The save DC is Dexterity-based.",
 			"",
 			"**Family:** [Troops](family/troops)"
 		]

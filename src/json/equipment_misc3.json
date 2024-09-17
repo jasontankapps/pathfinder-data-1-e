@@ -529,7 +529,7 @@
 			"**Source** [Castles of the Inner Sea pg. 39](source/castles_of_the_inner_sea)  ",
 			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)",
 			"",
-			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half ). A powder ball explodes in this way three times-the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
+			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half). A powder ball explodes in this way three times-the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
 	},
 	"powder_ball_fuel": {
@@ -1072,7 +1072,7 @@
 			"**Price** 5 gp; **Weight** 7 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to \"wash\" their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars. More information on raccoons can be found in Bestiary 3."
+			"These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to \"wash\" their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars."
 		]
 	},
 	"rack": {
@@ -1175,7 +1175,7 @@
 			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** 1 gp (blue), 1 cp (common); **Weight** 1 lb. (blue), 1 lb. (common)",
 			"",
-			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars. More information on rats can be found in the Bestiary."
+			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars."
 		]
 	},
 	"rat_common": {
@@ -1195,7 +1195,7 @@
 			"**Price** 5 gp; **Weight** 50 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever. More information on dire rats can be found in the Bestiary."
+			"These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever."
 		]
 	},
 	"rat_cage": {
@@ -1237,7 +1237,7 @@
 			"**Price** 2 gp; **Weight** 3 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats. More information on ravens can be found in the Bestiary."
+			"These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats."
 		]
 	},
 	"reagent_extractor": {
@@ -2104,7 +2104,7 @@
 			"**Price** 15 gp; **Weight** 9 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait. More information on greensting scorpions can be found in Ultimate Magic."
+			"Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait."
 		]
 	},
 	"scribe_map": {
@@ -2957,7 +2957,7 @@
 			"**Price** 10 gp; **Weight** 10 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed. More information on skunks can be found in Bestiary 3."
+			"These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed."
 		]
 	},
 	"sky_mine": {
@@ -3262,7 +3262,7 @@
 			"**Price** 5 gp; **Weight** 60 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory. More information on constrictor snakes can be found in the Bestiary."
+			"These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory."
 		]
 	},
 	"snake_viper": {
@@ -3277,7 +3277,7 @@
 			"**Price** 5 gp; **Weight** 10 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer. More information on vipers can be found in the Bestiary."
+			"This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer."
 		]
 	},
 	"snake_oil": {
@@ -3740,7 +3740,7 @@
 			"**Price** 25 gp; **Weight** 8 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast webs, though they are poisonous. For more information, see Ultimate Magic."
+			"These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast webs, though they are poisonous."
 		]
 	},
 	"spider's_silk_rope_50_ft.": {
@@ -4061,7 +4061,7 @@
 			"",
 			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats (see the Bestiary).",
 			"",
-			"**Flying squirrel:** These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars. More information on flying squirrels can be found in the Bestiary 3."
+			"**Flying squirrel:** These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars."
 		]
 	},
 	"squirrel_flying": {
@@ -5238,7 +5238,7 @@
 			"**Price** 1 sp; **Weight** 7 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech. More information on thrushes can be found in Ultimate Magic."
+			"These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech."
 		]
 	},
 	"thumbscrews_common": {
@@ -5408,7 +5408,7 @@
 			"**Price** 2 cp; **Weight** 7 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects. More information on toads can be found in Bestiary."
+			"This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects."
 		]
 	},
 	"tobacco": {
@@ -5971,7 +5971,7 @@
 			"**Price** 3 gp; **Weight** 4 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used as familiars, and in some places their flesh is eaten or used as an ingredient in medicines. More information on turtles can be found in Ultimate Magic."
+			"These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used as familiars, and in some places their flesh is eaten or used as an ingredient in medicines."
 		]
 	},
 	"tusk_blades": {
@@ -6794,7 +6794,7 @@
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time (see the Advanced Player's Guide for other forms of weapon blanch)."
+			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of [weapon blanch](equipment-misc/weapon_blanch_adamantine) can be on a weapon at one time."
 		]
 	},
 	"weapon_blanch_silver": {
@@ -6833,7 +6833,7 @@
 			"**Price** 2 gp; **Weight** 8 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats. More information on weasels can be found in the Bestiary."
+			"These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats."
 		]
 	},
 	"wet_suit": {

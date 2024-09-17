@@ -296,7 +296,7 @@
 			"**Prerequisite:** Perform (dance) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** After completing the series of exercises, anyone who observed the performance (including yourself ) gains a circumstance bonus on all Acrobatics checks and to CMD equal to 1/5 of your bard level (minimum +1). This bonus persists for 10 minutes.",
+			"**Effect:** After completing the series of exercises, anyone who observed the performance (including yourself) gains a circumstance bonus on all Acrobatics checks and to CMD equal to 1/5 of your bard level (minimum +1). This bonus persists for 10 minutes.",
 			"",
 			"**Use:** 1 round of bardic performance.  ",
 			"**Action:** 3 rounds."
@@ -716,7 +716,7 @@
 			"**Prerequisite:** Perform (keyboard, sing, string, or wind) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on concentration checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full bed rest beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of Wisdom damage (or 1d4 points of sanity damage if using the sanity rules from Horror Adventures). This is a curse effect with audible components.",
+			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on concentration checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full bed rest beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of Wisdom damage (or 1d4 points of [sanity damage](rule/sanity)). This is a curse effect with audible components.",
 			"",
 			"**Use:** 1 round of bardic performance.  ",
 			"**Action:** 1 immediate action."
@@ -1045,9 +1045,9 @@
 			"",
 			"For each round you continue to expend bardic performance rounds, the area experiences a round-long aftershock, which has the following effects.",
 			"",
-			"Caves, Caverns, or Tunnels: Smaller collapses cause 4d6 points of damage (Reflex DC 5 half ) and pin any creatures caught inside.",
+			"Caves, Caverns, or Tunnels: Smaller collapses cause 4d6 points of damage (Reflex DC 5 half) and pin any creatures caught inside.",
 			"",
-			"**Cliffs:** More cliffs crumble, creating a landslide that travels half as far horizontally as it falls vertically. Any creature in the path takes 4d6 points of bludgeoning damage (Reflex DC 5 half ) and is pinned beneath the rubble.",
+			"**Cliffs:** More cliffs crumble, creating a landslide that travels half as far horizontally as it falls vertically. Any creature in the path takes 4d6 points of bludgeoning damage (Reflex DC 5 half) and is pinned beneath the rubble.",
 			"",
 			"**Open Ground:** Each creature standing in the area must make a DC 5 Reflex save or fall down. Fissures open in the earth, and every creature on the ground has a 25% chance of falling into one (Reflex DC 10 to avoid a fissure). The fissures are 20 feet deep, and these fissures remain open at the end of the quake.",
 			"",
@@ -1057,7 +1057,7 @@
 			"",
 			"**Spellcasting:** The concentration DC to cast during an aftershock is 15 + the spell's level.",
 			"",
-			"**Structure:** Any structure standing on open ground takes 50 points of damage. A collapsing structure deals 4d6 points of bludgeoning damage to creatures inside it (Reflex DC 5 half ), and the creatures inside are pinned beneath the rubble.",
+			"**Structure:** Any structure standing on open ground takes 50 points of damage. A collapsing structure deals 4d6 points of bludgeoning damage to creatures inside it (Reflex DC 5 half), and the creatures inside are pinned beneath the rubble.",
 			"",
 			"**Use:** 10 rounds of bardic performance, +1 round for each round of aftershocks.  ",
 			"**Action:** 10 full rounds."

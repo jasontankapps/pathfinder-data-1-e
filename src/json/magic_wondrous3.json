@@ -2109,7 +2109,7 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** -;",
 			"",
-			"This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing preserved liquid blood. Each ampoule is attuned to a specific sorcerer bloodline. If a sorcerer (or other creature with sorcerer bloodline powers, such as from the Eldritch Heritage feat in Ultimate Magic) wears the ampoule for at least one day, she loses her existing bloodline powers and gains the bloodline powers of the ampoule's bloodline, using her sorcerer level to determine the powers gained. The ampoule has no effect on the sorcerer's bonus spells, bloodline arcana, or bonus feats from her original bloodline (which remain unchanged).",
+			"This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing preserved liquid blood. Each ampoule is attuned to a specific sorcerer bloodline. If a sorcerer (or other creature with sorcerer bloodline powers, such as from the Eldritch Heritage feat) wears the ampoule for at least one day, she loses her existing bloodline powers and gains the bloodline powers of the ampoule's bloodline, using her sorcerer level to determine the powers gained. The ampoule has no effect on the sorcerer's bonus spells, bloodline arcana, or bonus feats from her original bloodline (which remain unchanged).",
 			"",
 			"The sorcerer can only use these bloodline powers as long as she wears the necklace. Removing the necklace leaves the sorcerer unable to access any bloodline power, either her own or those of the ampoule, until one hour has passed.",
 			"",
@@ -2626,7 +2626,7 @@
 			"**Aura** strong illusion and transmutation; **CL** 12th  ",
 			"**Slot** neck; **Price** 42,000 gp; **Weight** -;",
 			"",
-			"This marvelous mithral necklace forms a broad, draping lacework of threadlike chains set with a multitude of tiny jewels. Seven of these jewels are larger than the rest. While wearing a necklace of netted stars, the wearer can create dancing lights at will and wandering star motes (see Advanced Player's Guide) once per day. In addition, each of the seven jewels of the necklace can recall a previously cast 1st-level or 0-level spell, as a pearl of power.",
+			"This marvelous mithral necklace forms a broad, draping lacework of threadlike chains set with a multitude of tiny jewels. Seven of these jewels are larger than the rest. While wearing a necklace of netted stars, the wearer can create dancing lights at will and wandering star motes once per day. In addition, each of the seven jewels of the necklace can recall a previously cast 1st-level or 0-level spell, as a pearl of power.",
 			"",
 			"Once per day, the wearer may use the necklace to catch a spell targeted at him, as if readying an action to counterspell using dispel magic, with a bonus on the check equal to 12 + the number of jewels not yet used to recall spells that day. If all jewels have been used, this ability cannot be used that day. The level of the spell to be countered must be less than or equal to the number of unused jewels. If the counterspell succeeds, the spell is negated and the wearer can use its magical energy to recall a previously cast spell of the same level or lower as an immediate action. Whether or not the attempt succeeds, this action exhausts the power of all of the necklace's jewels for that day.",
 			"",
@@ -4027,7 +4027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), beguiling gift (Advanced Player's Guide), hold person; **Cost** 200 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), beguiling gift, hold person; **Cost** 200 gp"
 		]
 	},
 	"feather_token_catapult": {
@@ -4383,7 +4383,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a witch with the poison steep hex (Ultimate Magic); **Cost** 250 gp"
+			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a witch with the poison steep hex; **Cost** 250 gp"
 		]
 	},
 	"feather_token_campsite": {
@@ -5264,7 +5264,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), archon's aura (Ultimate Magic); **Cost** 375 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), archon's aura; **Cost** 375 gp"
 		]
 	},
 	"aspis_badge_of_last_resort": {
@@ -6525,7 +6525,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell (Advanced Player's Guide), creator must have an animal companion or familiar; **Cost** 500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell, creator must have an animal companion or familiar; **Cost** 500 gp"
 		]
 	},
 	"beast_bond_brand": {

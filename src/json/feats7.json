@@ -545,9 +545,7 @@
 			"**Prerequisites:** [Weapon Finesse](feat/weapon_finesse), proficient in whip.  ",
 			"**Benefit:** As a standard action, you can make a disarm or trip maneuver with your whip. If it succeeds, you can make an additional disarm or trip maneuver with the same bonus against a target adjacent to the first and also within your whip's reach.",
 			"",
-			"In addition, you can use your whip to perform reposition maneuvers, though you take a -4 penalty on your CMB and you may only move the target toward you from its original position.",
-			"",
-			"This feat originally appeared in Pathfinder Campaign Setting: Osirion, Land of the Pharaohs."
+			"In addition, you can use your whip to perform reposition maneuvers, though you take a -4 penalty on your CMB and you may only move the target toward you from its original position."
 		]
 	},
 	"serpentine_compression": {
@@ -3393,7 +3391,7 @@
 			"",
 			"Your croak creates powerful sound waves that you can direct at [fragile](rule/broken_and_fragile) targets.  ",
 			"**Prerequisites:** [Throat Pouch](feat/throat_pouch), boggard, terrifying croak.  ",
-			"**Benefit:** When you use your terrifying croak ability, instead of it imparting its normal effect, you can choose to deal 1d4 points of sonic damage to creatures in a 15-foot cone (Fortitude half ). The DC of this Fortitude save is the same as that of your terrifying croak. For every 3 Hit Dice you possess, the damage dealt increases by 1d4.  ",
+			"**Benefit:** When you use your terrifying croak ability, instead of it imparting its normal effect, you can choose to deal 1d4 points of sonic damage to creatures in a 15-foot cone (Fortitude half). The DC of this Fortitude save is the same as that of your terrifying croak. For every 3 Hit Dice you possess, the damage dealt increases by 1d4.  ",
 			"**Special:** The Throat Pouch feat increases the size of this feat's cone by 5 feet for every 6 HD you have, not every 2 HD."
 		]
 	},
@@ -5689,7 +5687,7 @@
 			"**Source** [Adventurer's Guide pg. 184](source/adventurer's_guide), [Pathfinder Campaign Setting pg. 133](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 289](source/inner_sea_world_guide)",
 			"",
 			"A life spent enduring gales and storms has hardened your body to the elements.  ",
-			"**Benefit:** You can ignore many of the effects of severe weather. In rainy conditions, your visibility is reduced by only one-quarter (not by half ) and you take only a -2 penalty on Perception checks. You are treated as if you were one size category larger for the purpose of wind effects, and halve any penalty on Perception checks caused by high winds. Finally, you gain a +2 bonus on saving throws against effects with the electricity descriptor or that deal electricity damage."
+			"**Benefit:** You can ignore many of the effects of severe weather. In rainy conditions, your visibility is reduced by only one-quarter (not by half) and you take only a -2 penalty on Perception checks. You are treated as if you were one size category larger for the purpose of wind effects, and halve any penalty on Perception checks caused by high winds. Finally, you gain a +2 bonus on saving throws against effects with the electricity descriptor or that deal electricity damage."
 		]
 	},
 	"storm_lashed": {

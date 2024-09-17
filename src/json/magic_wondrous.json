@@ -130,7 +130,7 @@
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.",
 			"",
-			"This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent ant haul spell (Advanced Player's Guide).",
+			"This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent ant haul spell.",
 			"",
 			"### Construction",
 			"",
@@ -173,7 +173,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), touch of the sea (Advanced Player's Guide); **Cost** 1,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), touch of the sea; **Cost** 1,300 gp"
 		]
 	},
 	"belt_of_the_snake_king": {
@@ -674,7 +674,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, lead blades (Advanced Player's Guide); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, lead blades; **Cost** 5,000 gp"
 		]
 	},
 	"canopic_wrap": {
@@ -710,7 +710,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item)s, bull's strength, feather step (Advanced Player's Guide); **Cost** 5,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item)s, bull's strength, feather step; **Cost** 5,500 gp"
 		]
 	},
 	"plague_rat_belt_greater": {
@@ -820,7 +820,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, longshot (Ultimate Combat); **Cost** 7,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, longshot; **Cost** 7,000 gp"
 		]
 	},
 	"lesser_belt_of_mighty_hurling": {
@@ -1066,7 +1066,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item)s, bull's strength, feather step (Advanced Player's Guide), poison; **Cost** 11,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item)s, bull's strength, feather step, poison; **Cost** 11,500 gp"
 		]
 	},
 	"elemental_earth_belt": {
@@ -1218,7 +1218,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, longshot (Ultimate Combat), returning weapon (Ultimate Combat); **Cost** 21,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, longshot, returning weapon; **Cost** 21,000 gp"
 		]
 	},
 	"greater_belt_of_mighty_hurling": {
@@ -1528,7 +1528,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** body; **Price** 3,000 gp; **Weight** 1 lb.",
 			"",
-			"This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a squeeze spell (Advanced Race Guide) for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on Escape Artist checks.",
+			"This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a squeeze spell for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on Escape Artist checks.",
 			"",
 			"### Construction",
 			"",
@@ -2860,7 +2860,7 @@
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** chest; **Price** 1,500 gp; **Weight** 2 lbs.",
 			"",
-			"Small loops sewn into this bandolier look like they can hold twenty alchemical cartridges (ammunition for a firearm, see Ultimate Combat), but due to a subtle bending of space can actually hold up to 60 cartridges. Additionally, the six thin pockets on the bandolier are extradimensional spaces meant to hold extra guns and gear. The four small pockets can each hold a one-handed firearm, 1 pound of ammunition, a powder horn, or a similarly sized object. The two large pockets are large enough to hold a two-handed firearm or a similarly sized object. The wearer can draw an item stored in the bandolier as easily as if from an ordinary ammunition pouch or holster. The bandolier weighs the same no matter what is placed inside it.",
+			"Small loops sewn into this bandolier look like they can hold twenty alchemical cartridges (ammunition for a firearm), but due to a subtle bending of space can actually hold up to 60 cartridges. Additionally, the six thin pockets on the bandolier are extradimensional spaces meant to hold extra guns and gear. The four small pockets can each hold a one-handed firearm, 1 pound of ammunition, a powder horn, or a similarly sized object. The two large pockets are large enough to hold a two-handed firearm or a similarly sized object. The wearer can draw an item stored in the bandolier as easily as if from an ordinary ammunition pouch or holster. The bandolier weighs the same no matter what is placed inside it.",
 			"",
 			"### Construction",
 			"",
@@ -3959,7 +3959,7 @@
 			"**Aura** faint transmutation; **CL** 2nd  ",
 			"**Slot** eyes; **Price** 2,600 gp; **Weight** -;",
 			"",
-			"This black silk eye patch is adorned by a skull and crossbones worked in silver thread. The wearer of this patch gains a +2 competence bonus on Swim and Climb checks. In addition, once per day, the wearer of this eye patch can gain the effects of either touch of the sea (Advanced Player's Guide) or expeditious retreat on command (wearer's choice).",
+			"This black silk eye patch is adorned by a skull and crossbones worked in silver thread. The wearer of this patch gains a +2 competence bonus on Swim and Climb checks. In addition, once per day, the wearer of this eye patch can gain the effects of either touch of the sea or expeditious retreat on command (wearer's choice).",
 			"",
 			"### Construction",
 			"",
@@ -4129,7 +4129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), keen senses (Advanced Player's Guide); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), keen senses; **Cost** 3,000 gp"
 		]
 	},
 	"storm_goggles": {
@@ -4218,7 +4218,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), share senses (Advanced Player's Guide); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), share senses; **Cost** 3,750 gp"
 		]
 	},
 	"lenses_of_the_predator's_gaze": {
@@ -4551,7 +4551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), countless eyes (Ultimate Magic); **Cost** 7,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), countless eyes; **Cost** 7,500 gp"
 		]
 	},
 	"eyes_of_the_damned": {
@@ -4700,7 +4700,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkvision, terrain bond (Ultimate Magic); **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkvision, terrain bond; **Cost** 10,000 gp"
 		]
 	},
 	"mask_of_stolen_identities_gillman": {
@@ -4922,7 +4922,7 @@
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** eyes; **Price** 70,000 gp; **Weight** -;",
 			"",
-			"This ornate silk eye patch is embroidered with gold thread and studded with pearls in a pattern representing a whirlpool. The wearer of this item, which is a favorite patch of ruthless or particularly driven pirate captains, is constantly affected as if subject to the touch of the sea (Advanced Player's Guide) and water breathing spells. Furthermore, once per day on command, the wearer can use mass charm monster, as per the spell.",
+			"This ornate silk eye patch is embroidered with gold thread and studded with pearls in a pattern representing a whirlpool. The wearer of this item, which is a favorite patch of ruthless or particularly driven pirate captains, is constantly affected as if subject to the touch of the sea and water breathing spells. Furthermore, once per day on command, the wearer can use mass charm monster, as per the spell.",
 			"",
 			"### Construction",
 			"",
@@ -5166,7 +5166,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), feather step (Advanced Player's Guide); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), feather step; **Cost** 1,000 gp"
 		]
 	},
 	"fungal_slippers": {
@@ -5491,7 +5491,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), anticipate peril (Ultimate Magic), haste; **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), anticipate peril, haste; **Cost** 2,000 gp"
 		]
 	},
 	"snowshoes_of_northern_pursuit": {
@@ -5779,7 +5779,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), jester's jaunt (Advanced Player's Guide); **Cost** 3,600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), jester's jaunt; **Cost** 3,600 gp"
 		]
 	},
 	"boots_of_levitation": {
@@ -6501,7 +6501,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), getaway (Advanced Player's Guide); **Cost** 15,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), getaway; **Cost** 15,000 gp"
 		]
 	},
 	"horseshoes_of_crushing_blows_3": {
@@ -6604,7 +6604,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ride the waves (Ultimate Magic); **Cost** 28,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ride the waves; **Cost** 28,000 gp"
 		]
 	},
 	"horseshoes_of_crushing_blows_4": {

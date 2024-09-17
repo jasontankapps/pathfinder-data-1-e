@@ -1016,7 +1016,7 @@
 			"**Source** [Ultimate Wilderness pg. 115](source/ultimate_wilderness)",
 			"",
 			"Normally pestilential rain forests are a safe haven and home to you.  ",
-			"**Prerequisites:** Favored terrain ( jungle) class feature.  ",
+			"**Prerequisites:** Favored terrain (jungle) class feature.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against diseases, poisons, and the distraction ability of creatures with the swarm subtype. You also gain a +2 bonus on Acrobatics and Climb checks when climbing trees and a +2 bonus on Perception checks against creatures that gain a racial bonus on Stealth checks in vegetation."
 		]
 	},
@@ -6723,8 +6723,9 @@
 			"",
 			"Vinmark: Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the Ulfen Guard. Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
 			"",
-			"Zespire: Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.  ",
-			"**Special:** This is a variant of the [Noble Scion](feat/noble_scion) feat presented in Pathfinder Campaign Setting: The Inner Sea World Guide. If you take this version of the feat, you cannot also take the version presented in that book."
+			"Zespire: Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.",
+			"",
+			"**Special:** This is a variant of the [Noble Scion](feat/noble_scion) feat. If you take this version of the feat, you cannot also take the original version."
 		]
 	},
 	"noble_spell_resistance": {
@@ -6855,7 +6856,7 @@
 			"**Completion Benefit:** Upon acquiring a dose of sun orchid elixir and restoring your youth, you completely lose your fear of physical harm. You gain a +2 bonus on saves against Strength, Dexterity, and Constitution damage.",
 			"",
 			"Throne Card  ",
-			"**Completion Benefit:** By snagging the Throne card from a deck of many things, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the kingdom-building rules from Pathfinder RPG Ultimate Campaign."
+			"**Completion Benefit:** By snagging the Throne card from a deck of many things, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the [kingdom-building rules](rule/kingdom_building)."
 		]
 	},
 	"oblivating_stare": {

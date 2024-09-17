@@ -995,11 +995,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
-			"This shawl of delicate lace can be activated once per day to grant the benefits of the fins to feet spell (Advanced Race Guide), transforming the wearer's lower fins or appendages into feet whenever he is on dry land-unless dismissed, this effect lasts for 5 hours.",
+			"This shawl of delicate lace can be activated once per day to grant the benefits of the fins to feet spell, transforming the wearer's lower fins or appendages into feet whenever he is on dry land-unless dismissed, this effect lasts for 5 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fins to feet (Advanced Race Guide); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fins to feet; **Cost** 3,000 gp"
 		]
 	},
 	"treeform_cloak": {
@@ -1069,7 +1069,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), feather fall, perceive clues (Advanced Player's Guide); **Cost** 3,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), feather fall, perceive clues; **Cost** 3,500 gp"
 		]
 	},
 	"cloak_of_the_manta_ray": {
@@ -1297,7 +1297,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin_shape_1) (Ultimate Magic); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vermin shape I](spell/vermin_shape_1); **Cost** 5,000 gp"
 		]
 	},
 	"pauldrons_of_the_bull": {
@@ -1602,7 +1602,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bullet shield (Ultimate Combat); **Cost** 7,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bullet shield; **Cost** 7,000 gp"
 		]
 	},
 	"tentacle_cloak": {
@@ -2261,7 +2261,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 32,500 gp; **Weight** 1 lb.",
 			"",
-			"This reversible multicolored cape marks the wearer's flamboyant audacity when turned with its bright colors outward, granting a +5 competence bonus on Bluff checks. Reversible as a move action, the dappled camouflage of its other side grants a +5 competence bonus on Stealth checks. Regardless of the cape's current facing, the wearer can spend an immediate action at will to roll an Escape Artist check against being grappled, bound, or restrained as if the cape targeted her with liberating command (Ultimate Combat)",
+			"This reversible multicolored cape marks the wearer's flamboyant audacity when turned with its bright colors outward, granting a +5 competence bonus on Bluff checks. Reversible as a move action, the dappled camouflage of its other side grants a +5 competence bonus on Stealth checks. Regardless of the cape's current facing, the wearer can spend an immediate action at will to roll an Escape Artist check against being grappled, bound, or restrained as if the cape targeted her with liberating command",
 			"",
 			"### Construction",
 			"",
@@ -2351,7 +2351,7 @@
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 40,000 gp; **Weight** 1 lb.",
 			"",
-			"These massive pauldrons take the shape of a pair of clenched fists made of beaten bronze. They bestow a +4 bonus on CMD, and grant the wearer the ferocity ability. On command, the wearer can increase its size, as though subject to an enlarge person spell, and can revert to regular size with another command. Three times per day, as an immediate action after the pauldrons' wearer kills an opponent, the wearer gains the benefit of the deadly juggernaut spell (Ultimate Combat) for 1 minute.",
+			"These massive pauldrons take the shape of a pair of clenched fists made of beaten bronze. They bestow a +4 bonus on CMD, and grant the wearer the ferocity ability. On command, the wearer can increase its size, as though subject to an enlarge person spell, and can revert to regular size with another command. Three times per day, as an immediate action after the pauldrons' wearer kills an opponent, the wearer gains the benefit of the deadly juggernaut spell for 1 minute.",
 			"",
 			"### Construction",
 			"",
@@ -2862,7 +2862,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aspect of the falcon (Advanced Player's Guide); **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aspect of the falcon; **Cost** 2,000 gp"
 		]
 	},
 	"inquisitor's_bastion_vambraces": {
@@ -2942,7 +2942,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), warding weapon (Ultimate Combat); **Cost** 2,500 gp"
+			"**Requirements** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), warding weapon; **Cost** 2,500 gp"
 		]
 	},
 	"vanishing_sheath": {
@@ -3128,7 +3128,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), calm emotions, charm person, cure moderate wounds, prayer, shadow weapon (Ultimate Magic); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), calm emotions, charm person, cure moderate wounds, prayer, shadow weapon; **Cost** 4,000 gp"
 		]
 	},
 	"duelist's_vambraces": {
@@ -3162,7 +3162,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cleanse (Advanced Player's Guide); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cleanse; **Cost** 4,000 gp"
 		]
 	},
 	"vambraces_of_the_tactician": {
@@ -3394,7 +3394,7 @@
 			"",
 			"Efreeti: These scorched bronze bracers allow the wearer to use invisibility (self only), produce flame, and pyrotechnics each once per day.",
 			"",
-			"Marid: These coral bracers allow the wearer to use hydraulic torrent (Advanced Player's Guide), invisibility, and water breathing each once per day.",
+			"Marid: These coral bracers allow the wearer to use hydraulic torrent, invisibility, and water breathing each once per day.",
 			"",
 			"Shaitan: These adamantine bracers allow the wearer to use glitterdust, meld into stone, and stone shape each once per day.",
 			"",
@@ -4153,13 +4153,13 @@
 			"",
 			"This lute is a masterwork instrument constructed of polished ebony, with mother of pearl embellishments and gold frets. It grants any creature playing it a +2 competence bonus on Perform (string instruments) checks as it gently telepathically whispers ways the creature can improve is current performance. It also grants those who can play the lute the following abilities. ",
 			"",
-			"- Three times per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord on the lute of discord to employ the murderous command spell (Ultimate Magic).",
-			"- Three times per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord on the lute of discord to use the distracting cacophony spell (3rd level) (Ultimate Magic).",
-			"- Once per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord to use the echolocation spell (Ultimate Magic) (4th level caster)",
+			"- Three times per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord on the lute of discord to employ the murderous command spell.",
+			"- Three times per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord on the lute of discord to use the distracting cacophony spell (3rd level).",
+			"- Once per day on command, a creature with at least 6 ranks in Perform (string instruments) can play a chord to use the echolocation spell (4th level caster)",
 			"",
 			"### Construction",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), distracting cacophony ( Ultimate Magic), echolocation (Ultimate Magic), murderous command (Ultimate Magic); **Price** 18,950 gp",
+			"[Craft Wondrous Item](feat/craft_wondrous_item), distracting cacophony, echolocation, murderous command; **Price** 18,950 gp",
 			"",
 			"### Statistics",
 			"",

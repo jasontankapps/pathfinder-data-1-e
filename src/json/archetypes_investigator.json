@@ -568,7 +568,7 @@
 			"",
 			"Whenever an ally begins a workday task such as Craft, Profession, magic item creation, spell research, managing a kingdom, using the downtime rules, or other similar tasks, the majordomo can spend one use of inspiration and 1 minute of planning to create a plan for that ally. If the ally chooses to follow the majordomo's plan and attempts the task on the same day, if the task would normally take at least 4 hours, it instead takes 30 minutes less time, and if the task would normally take at least 8 hours, it instead takes 1 hour less time.",
 			"",
-			"If using the kingdom-building rules from Pathfinder RPG Ultimate Campaign, at 3rd level, the majordomo counts her Intelligence score as 2 higher when determining the bonus she provides in a kingdom leadership role. Her effective Intelligence score increases by an additional 2 at 6th level and every 3 investigator levels thereafter.",
+			"If using the [kingdom-building rules](rule/kingdom_building), at 3rd level, the majordomo counts her Intelligence score as 2 higher when determining the bonus she provides in a kingdom leadership role. Her effective Intelligence score increases by an additional 2 at 6th level and every 3 investigator levels thereafter.",
 			"",
 			"This ability replaces all instances of trap sense."
 		]
@@ -1069,7 +1069,7 @@
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Expert Mediator (Ex):** A Tekritanin arbiter learns to forge lasting harmony between enemies. At 2nd level, whenever the arbiter uses the Diplomacy skill to improve the starting attitude of a creature, that attitude shift lasts for 24 hours instead of 1d4 hours, barring any circumstance or event that causes it to be decreased. If the arbiter spends 1 minute continuously interacting with a creature, he can attempt a Sense Motive check (DC = 10 + the creature's Bluff skill bonus) to identify the creature's starting attitude (per the Diplomacy skill) in regard to all other creatures present (including himself ). With this understanding, the arbiter can use the Diplomacy skill to improve a target's attitude toward any other creature present. This functions as if using the Diplomacy skill to improve the target's attitude toward the arbiter, but instead uses the Diplomacy DC determined by the target's starting attitude toward the creature of the arbiter's choosing.",
+			"**Expert Mediator (Ex):** A Tekritanin arbiter learns to forge lasting harmony between enemies. At 2nd level, whenever the arbiter uses the Diplomacy skill to improve the starting attitude of a creature, that attitude shift lasts for 24 hours instead of 1d4 hours, barring any circumstance or event that causes it to be decreased. If the arbiter spends 1 minute continuously interacting with a creature, he can attempt a Sense Motive check (DC = 10 + the creature's Bluff skill bonus) to identify the creature's starting attitude (per the Diplomacy skill) in regard to all other creatures present (including himself). With this understanding, the arbiter can use the Diplomacy skill to improve a target's attitude toward any other creature present. This functions as if using the Diplomacy skill to improve the target's attitude toward the arbiter, but instead uses the Diplomacy DC determined by the target's starting attitude toward the creature of the arbiter's choosing.",
 			"",
 			"This replaces poison lore.",
 			"",

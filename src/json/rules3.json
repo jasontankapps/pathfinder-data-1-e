@@ -836,7 +836,7 @@
 			"",
 			"**Critical:** The entry for this column notes how the engine is used with the rules for critical hits. Unlike normal ranged weapons, siege engines can deal critical damage to objects as well as creatures.",
 			"",
-			"**Range:** Any attack at more than the distance listed in this entry is penalized for range. Beyond this range, the attack or targeting check takes a cumulative -2 penalty for each full range increment (or fraction thereof ) of distance to the target. Some siege engines have a minimum range for effectiveness. If that is the case, the range of this weapon is followed by a parenthetical with the minimum range, followed by the abbreviation \"min.\"",
+			"**Range:** Any attack at more than the distance listed in this entry is penalized for range. Beyond this range, the attack or targeting check takes a cumulative -2 penalty for each full range increment (or fraction thereof) of distance to the target. Some siege engines have a minimum range for effectiveness. If that is the case, the range of this weapon is followed by a parenthetical with the minimum range, followed by the abbreviation \"min.\"",
 			"",
 			"**Type:** Like weapons, siege engines that deal damage are classified according to the type of damage they deal: B for bludgeoning, P for piercing, or S for slashing. Some engines deal damage of multiple types. Some special siege engines (like the firedrake and the firewyrm) deal energy damage, typically fire damage. In those cases, the type of energy damage is listed instead.",
 			"",
@@ -2400,7 +2400,7 @@
 			"",
 			"Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their class level limits the number of spells she can cast (see these class descriptions). Her high Charisma score might allow her to cast a few extra spells. A member of either class must have a Charisma score of at least 10 + the spell's level to cast the spell.",
 			"",
-			"**Daily Readying of Spells:** Each day, sorcerers and bards must focus their minds on the task of casting their spells. A sorcerer or bard needs 8 hours of rest ( just like a wizard), after which she spends 15 minutes concentrating. (A bard must sing, recite, or play an instrument of some kind while concentrating.) During this period, the sorcerer or bard readies her mind to cast her daily allotment of spells. Without such a period to refresh herself, the character does not regain the spell slots she used up the day before.",
+			"**Daily Readying of Spells:** Each day, sorcerers and bards must focus their minds on the task of casting their spells. A sorcerer or bard needs 8 hours of rest (just like a wizard), after which she spends 15 minutes concentrating. (A bard must sing, recite, or play an instrument of some kind while concentrating.) During this period, the sorcerer or bard readies her mind to cast her daily allotment of spells. Without such a period to refresh herself, the character does not regain the spell slots she used up the day before.",
 			"",
 			"**Recent Casting Limit:** Any spells cast within the last 8 hours count against the sorcerer's or bard's daily limit.",
 			"",
@@ -3573,7 +3573,7 @@
 			"",
 			"**Bralani (SR 17):** Bralani azatas are fierce and wild, and constantly seek to prove themselves in battle or in contests of wits. If a wizard suggests a game of strength, wits, or dexterity that the bralani has not played, or develops a new one for the bralani to take back to Elysium, he receives a +2 Charisma bonus when negotiating with the azata.",
 			"",
-			"**Brijidine (SR 28):** Lovers of fire, poetry, and spicy food, a brijidine can be successfully wooed with rare (and fireproof ) scrolls of poetry or a gourmet spicy dish. Binders should be aware, however, that brijidine have exotic, expensive, and particular tastes.",
+			"**Brijidine (SR 28):** Lovers of fire, poetry, and spicy food, a brijidine can be successfully wooed with rare (and fireproof) scrolls of poetry or a gourmet spicy dish. Binders should be aware, however, that brijidine have exotic, expensive, and particular tastes.",
 			"",
 			"**Ghaele (SR 25):** Ghaeles are strong hunters, courtly and knightly, and pursue great foes. Offering them evidence of the binder's mighty hunts (at least 3 CR higher than the binder), or summoning them to a locale where they can pursue dragons or fiends provides a Charisma bonus to the caster.",
 			"",
@@ -4519,7 +4519,7 @@
 			"",
 			"Helpful spells and spells that do not harm the target in any way either should have no saving throw, or should allow a saving throw but have -(harmless)- listed after the type of saving throw (see [fly](spell/fly)).",
 			"",
-			"Spells that only affect the caster never require a saving throw (you'd never try to resist a beneficial spell you're casting on yourself ), so you don't list a saving throw for those spells at all (see [true strike](spell/true_strike))."
+			"Spells that only affect the caster never require a saving throw (you'd never try to resist a beneficial spell you're casting on yourself), so you don't list a saving throw for those spells at all (see [true strike](spell/true_strike))."
 		],
 		"parent_topics": [
 			"magic",
@@ -5879,7 +5879,7 @@
 		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action-generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the suffocation spell from the Advanced Player's Guide, can expel all of a creature's held breath.",
+			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action-generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the suffocation spell, can expel all of a creature's held breath.",
 			"",
 			"Once a creature has used up these rounds of safety, it lives on a knife's edge between life and death. Each round, the creature must succeed at a Constitution check, with a DC starting at 10 and increasing by 1 each round after the first. Once it fails this check, the creature begins to drown, falling unconscious (and dropping to 0 hit points if it currently had more), dropping to -1 hit points on the next round, and dying on the round after that. At any point, if the creature becomes able to breathe (perhaps because someone dragged it out of the water or cast a spell to assist it), it ceases drowning but doesn't regain any lost hit points. Note that if a creature holds its breath in a situation where it could normally breathe, it won't fall unconscious if it fails its Constitution check.",
 			"",

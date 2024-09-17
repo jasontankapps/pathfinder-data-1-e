@@ -9,7 +9,7 @@
 			"",
 			"But a game designer never stops tinkering. In the years since, we've released tons of new rules, from classes and subsystems to feats and spells. Yet there were always those ideas too big to be touched-the shiny, terrifying ones that could fundamentally alter the way the game works. Unwilling to rock the boat, we incorporated them into our home games or set them aside.",
 			"",
-			"Until now. Within these pages, you'll find lovingly crafted refinements that fine-tune the Pathfinder RPG rules system, and mad experiments that transform it completely. With Pathfinder Unchained, you become the designer-which parts of this book you incorporate into your game, and which parts you leave on the shelf, are entirely your call.",
+			"Until now. Within these pages, you'll find lovingly crafted refinements that fine-tune the Pathfinder RPG rules system, and mad experiments that transform it completely. With *Pathfinder Unchained*, you become the designer-which parts of this book you incorporate into your game, and which parts you leave on the shelf, are entirely your call.",
 			"",
 			"We're opening up our workshop and offering you our best tools. What you build with them is up to you."
 		],
@@ -1675,7 +1675,7 @@
 			"",
 			"In addition to their normal allotment of regular skill ranks, all characters gain 2 background skill ranks each time they gain a level in a PC class. The character's Intelligence modifier doesn't adjust this value. Background skill ranks can be used to gain ranks only in background skills, not adventuring skills. Characters can expend their regular skill ranks on background skills if they desire.",
 			"",
-			"Even the most dedicated adventurers have other things they enjoy doing in their spare time. Some pursue business interests during their downtime between adventures, and though these can be modeled with the downtime rules in Pathfinder RPG Ultimate Campaign, players who aren't interested in such a robust system still might wish to include elements of those interests on their character sheets."
+			"Even the most dedicated adventurers have other things they enjoy doing in their spare time. Some pursue business interests during their downtime between adventures, and though these can be modeled with the [downtime rules](rule/downtime), players who aren't interested in such a robust system still might wish to include elements of those interests on their character sheets."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -2649,7 +2649,7 @@
 			"",
 			"**Functions:** Catch, climb, jump, swim.",
 			"",
-			"**Core Skills:** Acrobatics ( jumping only), Climb, Swim."
+			"**Core Skills:** Acrobatics (jumping only), Climb, Swim."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3856,7 +3856,7 @@
 			"",
 			"This use of Performance functions as the [Disguise core skill](skill/disguise).",
 			"",
-			"**Action:** 1d3 &times; 10 minutes. Using magic (such as disguise self ) reduces this to the time required to cast the spell or trigger the effect.",
+			"**Action:** 1d3 &times; 10 minutes. Using magic (such as disguise self) reduces this to the time required to cast the spell or trigger the effect.",
 			"",
 			"**Try Again:** Yes, though if others know a disguise was attempted, they'll be more suspicious."
 		],

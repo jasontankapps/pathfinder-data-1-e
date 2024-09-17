@@ -1545,7 +1545,7 @@
 			"",
 			"**Special Attacks:** An energized golem retains all of the base creature's special abilities and gains the following special attack.",
 			"",
-			"**Energy Discharge (Su):** Once per hour, an energized golem can discharge a pulse of energy from its body as a standard action, affecting all targets within a 20-foot burst. This burst deals 1d8 points of energy damage for every 2 Hit Dice the energized golem has (Reflex half ). Each creature damaged by this ability must succeed at a second saving throw or suffer an additional effect. The type of energy damage, the additional effect, and the type of save to avoid this additional effect are determined by the elemental overcharge special quality.",
+			"**Energy Discharge (Su):** Once per hour, an energized golem can discharge a pulse of energy from its body as a standard action, affecting all targets within a 20-foot burst. This burst deals 1d8 points of energy damage for every 2 Hit Dice the energized golem has (Reflex half). Each creature damaged by this ability must succeed at a second saving throw or suffer an additional effect. The type of energy damage, the additional effect, and the type of save to avoid this additional effect are determined by the elemental overcharge special quality.",
 			"",
 			"**Ability Scores:** An energized golem gains ability scores based on the base creature's Hit Dice and the type of elemental spirit used in its creation. If the elemental spirit used is an air or fire elemental spirit, the energized golem gains a +2 bonus to Strength and +4 bonus to Dexterity. If the elemental spirit used is an earth or water elemental spirit, the energized golem gains a +4 bonus to Strength and +2 bonus to Dexterity. If the base creature has 10 or more Hit Dice, these ability score bonuses increase to +8 and +4.",
 			"",
@@ -3558,7 +3558,7 @@
 			"| 1-2 | Doom 3/day, magic weapon 3/day |",
 			"| 3-4 | Bull's strength, command 3/day |",
 			"| 6-8 | Fly 3/day |",
-			"| 9+ | Alter self (at will), monstrous physique I (at will, Pathfinder RPG Ultimate Magic) |",
+			"| 9+ | Alter self (at will), monstrous physique I (at will) |",
 			"",
 			"**Abilities:** A kanabo gains a +4 bonus to Strength and Constitution, and a +2 bonus to Dexterity, Intelligence, Wisdom, and Charisma.  ",
 			"**Skills:** A kanabo with racial HD has skill ranks equal to 6 + its Intelligence modifier for each racial HD. Racial class skills are unchanged, and class level skill ranks are unaffected."

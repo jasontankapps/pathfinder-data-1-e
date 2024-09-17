@@ -1326,7 +1326,7 @@
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
 			">**Source** [Pathfinder Unchained pg. 128](source/pathfinder_unchained)",
 			">",
-			">Whenever you deal damage to a creature with damage reduction using the selected weapons, you can spend 5 stamina points to allow all your allies (other than yourself ) within 30 feet of the creature to ignore 5 points of the creature's damage reduction for 1 round. This has no effect on creatures with damage reduction without a type (such as DR 10/-). This effect does not stack with Penetrating Strike's normal effect, but it does allow you to apply the effect to all your other weapons for the duration.",
+			">Whenever you deal damage to a creature with damage reduction using the selected weapons, you can spend 5 stamina points to allow all your allies (other than yourself) within 30 feet of the creature to ignore 5 points of the creature's damage reduction for 1 round. This has no effect on creatures with damage reduction without a type (such as DR 10/-). This effect does not stack with Penetrating Strike's normal effect, but it does allow you to apply the effect to all your other weapons for the duration.",
 			"",
 			"### Mythic Penetrating Strike",
 			"",
@@ -3339,7 +3339,7 @@
 			"**Source** [Horror Adventures pg. 91](source/horror_adventures)",
 			"",
 			"You have vowed to construct a defender for your community.  ",
-			"**Prerequisites:** Your community has come under persecution and requires considerable defense, or you have the Raiders, the Righting a Wrong, The War, or The Way Things Work background (all of which are found in Ultimate Campaign).  ",
+			"**Prerequisites:** Your community has come under persecution and requires considerable defense.  ",
 			"**Benefit:** You temporarily gain the Craft Construct feat for the purposes of building one golem to satisfy the goal of this story feat. You do not need to meet Craft Construct's prerequisites, and it can't be used as a prerequisite for any other crafting endeavor.  ",
 			"**Goal:** Craft a golem of CR 5 or greater and donate it to your community for its defense against persecution. You and your allies must fund the construction, not the community. You must be significantly involved in the golem's construction. After completion, this golem cannot be used as a personal adventuring companion; it is the property of the community to which it was dedicated. The donated creature must be a golem and not another type of construct, such as an animated object.  ",
 			"**Completion Benefit:** You gain Craft Construct as a bonus feat without meeting its prerequisites and can use it for any purpose. The cost to build any construct that normally costs less than the cost of your donated golem is permanently reduced by 10%; the cost of the base materials is not reduced, however."
@@ -5977,7 +5977,7 @@
 			"",
 			"You have a rival, and the two of you try to sabotage, humiliate, or otherwise defeat each other without allowing anyone else to interfere.  ",
 			"**Prerequisites:** You must have at least one enemy who wishes to outdo you. If you have multiple rivals, the GM may keep the specific rival secret, or have many of your enemies work together against you. If your rival is not already a challenging foe, it either advances to become one or allies itself with others one or more creatures who are .  ",
-			"**Benefit:** Your striving pushes you to become ever more skillful. When you gain this feat, and every 2 character levels thereafter, either you gain 1 skill point or your Fame score increases by 1 (if your game uses the reputation and Fame system from Ultimate Campaign).  ",
+			"**Benefit:** Your striving pushes you to become ever more skillful. When you gain this feat, and every 2 character levels thereafter, either you gain 1 skill point or your [Fame](rule/reputation_and_fame) score increases by 1.  ",
 			"**Goal:** Thwart your rival without anyone else directly interfering. Achieving your rival's goal before her in a manner that humiliates her or completely steals her glory through your direct actions also qualifies.  ",
 			"**Completion Benefit:** Once per day, you can take 20 on a single skill check as a standard action if the skill check is one that would allow you to take 20."
 		]

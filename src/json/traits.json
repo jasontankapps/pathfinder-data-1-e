@@ -410,7 +410,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Gnome",
 			"",
-			"You are determined to ward off the Bleaching, and get a certain thrill out of being forced to experience negative emotions. Once per day when you fail a saving throw against a spell with the emotion descriptor (see Pathfinder RPG Ultimate Magic), you can gain 1d6 temporary hit points. These temporary hit points last for 1 minute."
+			"You are determined to ward off the Bleaching, and get a certain thrill out of being forced to experience negative emotions. Once per day when you fail a saving throw against a spell with the emotion descriptor, you can gain 1d6 temporary hit points. These temporary hit points last for 1 minute."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -614,7 +614,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Plane of Air",
 			"",
-			"Your years of piloting airships on the Plane of Air, dodging angry mephits and protecting your passengers from the depredations of capricious elementals, have taught you how to expertly command your vessel, as well as how to arrest yourself even in the midst of the most turbulent planar storms. You gain a +2 trait bonus on Wisdom checks to move in a plane with subjective directional gravity (see the planar rules in the Pathfinder RPG GameMastery Guide) and a +2 trait bonus on driving checks (see the vehicle rules in Pathfinder RPG Ultimate Combat)."
+			"Your years of piloting airships on the Plane of Air, dodging angry mephits and protecting your passengers from the depredations of capricious elementals, have taught you how to expertly command your vessel, as well as how to arrest yourself even in the midst of the most turbulent planar storms. You gain a +2 trait bonus on Wisdom checks to move in a plane with subjective directional gravity (see the [planar rules](rule/planar_traits)) and a +2 trait bonus on driving checks (see the [vehicle rules](rule/full_vehicle_rules))."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -657,7 +657,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"You are a member of one of Magnimar's wealthiest families-or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk-goals which led you to the Pathfinder Society. Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on Diplomacy and Intimidate checks made within the city. Additionally, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing; see Magnimar, City of Monuments)."
+			"You are a member of one of Magnimar's wealthiest families-or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk-goals which led you to the Pathfinder Society. Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on Diplomacy and Intimidate checks made within the city. Additionally, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing)."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1673,7 +1673,7 @@
 			"",
 			"**Storm Roc (Shundar-Quah, Mouse):** The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Will-o'-Wisp (Skoan-Quah, Wolf ):** The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
+			"**Will-o'-Wisp (Skoan-Quah, Wolf):** The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -1811,7 +1811,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Vishkanya",
 			"",
-			"You can use your natural poison to augment the spells you cast. You can spend a use of your toxic racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor (see Pathfinder RPG Ultimate Magic) to increase the spell's save DC by 1."
+			"You can use your natural poison to augment the spells you cast. You can spend a use of your toxic racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor to increase the spell's save DC by 1."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -5494,7 +5494,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of ) her pure faith. Whatever the case, your shaken confidence grants you a +1 trait bonus on saving throws against illusions. You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive atonement."
+			"You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your shaken confidence grants you a +1 trait bonus on saving throws against illusions. You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive atonement."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -7368,7 +7368,7 @@
 			"",
 			"Not only are you competent while deep underground, you thrive in these perilous environs. Whether you were born in one of the labyrinthine tunnels that riddle the islands of the Shackles or your mysterious parental figures brought you up in the sand-ridden corridors of some forgotten Osirian pyramid, your emergence on Golarion is somehow tied to one of the world's infamous subterranean dungeons. You start with one additional language chosen from the following list: Aklo, Dark Folk, Draconic, Goblin, Necril, Orc, or Undercommon. In addition, whenever you must attempt a Survival check to avoid getting lost in a dungeon, you may roll the check twice and take the better result.",
 			"",
-			"**Suggestion:** Consider playing an uncommon race from the Pathfinder RPG Advanced Race Guide."
+			"**Suggestion:** Consider playing an uncommon race."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -8442,7 +8442,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"Although you're a relative newcomer to Magnimar, you're not some naive stranger. You've been sent by the Pathfinder Society lodge in your home country to learn more about Varisia by experiencing the frontier firsthand. After arriving, you reported to the Magnimar lodge and placed your expertise at the venture-captain's disposal. To represent your experience in distant lands, choose a country other than Varisia as your homeland and gain one of the languages spoken in that country as a bonus language (see The Inner Sea World Guide). Additionally, choose one of the following skills: Handle Animal, Knowledge (geography), Linguistics, or Survival. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you."
+			"Although you're a relative newcomer to Magnimar, you're not some naive stranger. You've been sent by the Pathfinder Society lodge in your home country to learn more about Varisia by experiencing the frontier firsthand. After arriving, you reported to the Magnimar lodge and placed your expertise at the venture-captain's disposal. To represent your experience in distant lands, choose a country other than Varisia as your homeland and gain one of the languages spoken in that country as a bonus language. Additionally, choose one of the following skills: Handle Animal, Knowledge (geography), Linguistics, or Survival. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

@@ -270,7 +270,7 @@
 			"",
 			"**5 Ranks**: The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.  ",
 			"**10 Ranks**: You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.  ",
-			"**15 Ranks**: Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff ) or the effect reveals nothing.  ",
+			"**15 Ranks**: Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff) or the effect reveals nothing.  ",
 			"**20 Ranks**: As a full-round action, you can make a [suggestion](spell/suggestion) (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your [suggestion](spell/suggestion) is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion."
 		]
 	},
@@ -2927,7 +2927,7 @@
 			"",
 			"As a normal part of using a Survival check to get along in the wild, a character can make simple snares and deadfalls to trap small game. Though not as robust or dangerous as ranger traps or traps created using the Craft (traps) skill, simple traps and snares can also be used against prey that is more dangerous than typical game.",
 			"",
-			"Regardless of the nature of its construction, such a trap acts as an extraordinary ranger snare trap (*Pathfinder RPG Ultimate Magic *65), with the following modifications. With a successful DC 15 Survival check, a simple trap can be constructed in 20 minutes in a typical wilderness area using proper tools. The trap affects only creatures of a single size category, determined when the trap is constructed. (Smaller creatures slip out easily, and larger creatures are too big to be effectively snared.) The trap is obvious unless it is hidden with a successful DC 20 Stealth check, in which case noticing it requires a successful DC 15 Perception check. The trap's DC is 13, it has 10 hit points, and it can be burst with a successful DC 15 Strength check. If left unattended, a simple trap has a 25% chance of becoming ineffective each day.",
+			"Regardless of the nature of its construction, such a trap acts as an extraordinary ranger snare trap, with the following modifications. With a successful DC 15 Survival check, a simple trap can be constructed in 20 minutes in a typical wilderness area using proper tools. The trap affects only creatures of a single size category, determined when the trap is constructed. (Smaller creatures slip out easily, and larger creatures are too big to be effectively snared.) The trap is obvious unless it is hidden with a successful DC 20 Stealth check, in which case noticing it requires a successful DC 15 Perception check. The trap's DC is 13, it has 10 hit points, and it can be burst with a successful DC 15 Strength check. If left unattended, a simple trap has a 25% chance of becoming ineffective each day.",
 			"",
 			"Characters who wish to create more effective traps should invest skill ranks in Craft (traps) or take the [Learn Ranger Trap](feat/learn_ranger_trap) feat.",
 			"",

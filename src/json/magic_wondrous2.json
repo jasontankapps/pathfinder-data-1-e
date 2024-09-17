@@ -1381,7 +1381,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), comprehend languages, control summoned creature (Ultimate Magic); **Cost** 15,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), comprehend languages, control summoned creature; **Cost** 15,000 gp"
 		]
 	},
 	"gauntlet_of_rust_greater": {
@@ -1420,7 +1420,7 @@
 			"",
 			"These speckled metal gauntlets provide a noticeable prickling sensation when donned. Three times per day when the wearer would take electricity damage, she can attempt a Strength check as an immediate action to catch the electricity and crush it into harmless sparks that deal no damage (DC = 10 + 1 per 10 points of damage).",
 			"",
-			"If the wearer possesses mythic tiers (see Pathfinder RPG Mythic Adventures), she can also expend one use of her mythic power to reshape the crushed lightning into a variety of forms: blasts of electric force, blinding showers of sparks, or even lassos. This allows the wearer to perform a bull rush, dirty trick, grapple, reposition, or trip combat maneuver on her next turn against any opponent within range (10 feet per mythic tier she possesses). If the wearer succeeds at this combat maneuver check, her opponent also takes an amount of electricity damage equal to the wearer's combat maneuver check result (up to a maximum of the original electricity effect's damage). Creatures immune to electricity damage are immune to this ability. If the wearer expends the mythic power but doesn't attempt to use the crushed lightning by her next turn, the energy surges out, dealing the original effect's electricity damage to the wearer with no save granted.",
+			"If the wearer possesses mythic tiers, she can also expend one use of her mythic power to reshape the crushed lightning into a variety of forms: blasts of electric force, blinding showers of sparks, or even lassos. This allows the wearer to perform a bull rush, dirty trick, grapple, reposition, or trip combat maneuver on her next turn against any opponent within range (10 feet per mythic tier she possesses). If the wearer succeeds at this combat maneuver check, her opponent also takes an amount of electricity damage equal to the wearer's combat maneuver check result (up to a maximum of the original electricity effect's damage). Creatures immune to electricity damage are immune to this ability. If the wearer expends the mythic power but doesn't attempt to use the crushed lightning by her next turn, the energy surges out, dealing the original effect's electricity damage to the wearer with no save granted.",
 			"",
 			"### Construction",
 			"",
@@ -1990,7 +1990,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bloodhound (Advanced Player's Guide), the creator must have 4 ranks in Appraise; **Cost** 1,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bloodhound, the creator must have 4 ranks in Appraise; **Cost** 1,500 gp"
 		]
 	},
 	"ossuary_mask": {
@@ -2807,7 +2807,7 @@
 			"",
 			"The helm of the Mammoth Lord also protects the wearer from cold environments as the endure elements spell. Furthermore, it provides a +5 competence bonus on Handle Animal, Ride, and wild empathy checks with elephants, mammoths, mastodons, and other elephant-like creatures.",
 			"",
-			"On command, the wearer may use detect animals or plants or speak with animals, but only to detect or communicate with elephant-like creatures. This helm originally appeared in Pathfinder RPG Ultimate Equipment.",
+			"On command, the wearer may use detect animals or plants or speak with animals, but only to detect or communicate with elephant-like creatures.",
 			"",
 			"### Construction",
 			"",
@@ -3462,7 +3462,7 @@
 			"",
 			"This fearsome helm, wrought into the shape of a roaring dragon's maw, has dozens of glittering dragon scales across its surface. The helm's wearer gains a +4 competence bonus on Intimidate checks and a +4 insight bonus on saves to resist a dragon's frightful presence aura.",
 			"",
-			"Each helm is modeled after a particular type of chromatic or metallic dragon. Once per day on command, the wearer can breathe out a blast of energy, as the dragon's breath spell (Advanced Player's Guide) to mimic the breath weapon of the dragon the helm is modeled after (7d6 points of damage, Reflex DC 16 half).",
+			"Each helm is modeled after a particular type of chromatic or metallic dragon. Once per day on command, the wearer can breathe out a blast of energy, as the dragon's breath spell to mimic the breath weapon of the dragon the helm is modeled after (7d6 points of damage, Reflex DC 16 half).",
 			"",
 			"### Construction",
 			"",
@@ -4181,7 +4181,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), surmount affliction (Ultimate Magic); **Cost** 16,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), surmount affliction; **Cost** 16,800 gp"
 		]
 	},
 	"steel_mind_cap": {
@@ -4715,7 +4715,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aura of doom (Ultimate Magic), [detect evil](spell/detect_evil), dispel evil, [magic circle against evil](spell/magic_circle_against_evil), tongues; **Cost** 75,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aura of doom, [detect evil](spell/detect_evil), dispel evil, [magic circle against evil](spell/magic_circle_against_evil), tongues; **Cost** 75,000 gp"
 		]
 	},
 	"centering_jewel": {
@@ -4998,7 +4998,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), know the enemy (Ultimate Magic); **Cost** 2,550 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), know the enemy; **Cost** 2,550 gp"
 		]
 	},
 	"headband_of_ki_focus": {
@@ -5217,11 +5217,11 @@
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** headband; **Price** 11,000 gp; **Weight** 1 lb.",
 			"",
-			"This simple headband of braided hide grants a +5 competence bonus on Survival checks and inures the wearer to the strain of long travel, as the tireless pursuit spell (Advanced Player's Guide). If the wearer is a ranger, the hunter's band increases his favored enemy bonus on attack rolls by +1 for all his favored enemies. If the ranger has the hunter's bond (companions) class feature, this increase also applies to the attack roll bonus his allies gain from that ability.",
+			"This simple headband of braided hide grants a +5 competence bonus on Survival checks and inures the wearer to the strain of long travel, as the tireless pursuit spell. If the wearer is a ranger, the hunter's band increases his favored enemy bonus on attack rolls by +1 for all his favored enemies. If the ranger has the hunter's bond (companions) class feature, this increase also applies to the attack roll bonus his allies gain from that ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), instant enemy (Advanced Player's Guide), tireless pursuit, creator must have 5 ranks in Survival; **Cost** 5,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), instant enemy, tireless pursuit, creator must have 5 ranks in Survival; **Cost** 5,500 gp"
 		]
 	},
 	"phylactery_of_negative_channeling": {
@@ -5559,7 +5559,7 @@
 			"",
 			"Once implanted, the soulbound eye allows the master to observe the world around the wearer through the wearer's senses. It also allows for telepathic communication between the wearer and the master. Neither of these features function across planar boundaries.",
 			"",
-			"The soulbound eye's wearer is not compelled to obey its master's telepathic commands, but the master can use the soulbound eye as a conduit for hold monster, modify memory, pain strike (Advanced Player's Guide), and suggestion spells, treating the wearer as the target of the spell no matter the distance between master and wearer. The victim is allowed any normal saving throws or spell resistance against spells cast through the soulbound eye.",
+			"The soulbound eye's wearer is not compelled to obey its master's telepathic commands, but the master can use the soulbound eye as a conduit for hold monster, modify memory, pain strike, and suggestion spells, treating the wearer as the target of the spell no matter the distance between master and wearer. The victim is allowed any normal saving throws or spell resistance against spells cast through the soulbound eye.",
 			"",
 			"An implanted soulbound eye functions like a cursed item once it is in place-it can only be removed if the curse is first lifted via an effect like remove curse or break enchantment. Once removed, a soulbound eye crumbles to fragments.",
 			"",
@@ -5582,7 +5582,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), dragon's breath (Advanced Player's Guide), resist energy; **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), dragon's breath, resist energy; **Cost** 16,000 gp"
 		]
 	},
 	"headband_of_inspired_wisdom_6": {
@@ -5639,7 +5639,7 @@
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** headband; **Price** 40,000 gp; **Weight** 1 lb.",
 			"",
-			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell unnatural lust (Ultimate Magic) but with a duration of 10 minutes.",
+			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell unnatural lust but with a duration of 10 minutes.",
 			"",
 			"### Construction",
 			"",
