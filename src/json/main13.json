@@ -846,9 +846,12 @@
 	},
 	"feats_metamagic": {
 		"title": "Feats - Metamagic/Item Creation",
-		"sources": [],
+		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "feat",
 		"description": [
+			[ "[Jump to Table of Metamagic Feats](#metamagicfeats)" ],
+			[ "[Jump to Item Creation Feats](#itemcreationsection)" ],
+			[ "[Jump to Table of Item Creation Feats](#itemcreationfeats)" ],
 			"# Metamagic Feats",
 			[
 				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
@@ -874,8 +877,9 @@
 				"",
 				"**Magic Items and Metamagic Spells:** With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.",
 				"",
-				"**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell (see Magic)."
+				"**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to [counterspelling](rule/counterspells) or its ability to counterspell another spell."
 			],
+			"# Table of Metamagic Feats ! itemcreationsection",
 			[ "{table0}" ],
 			"# Item Creation Feats",
 			[
@@ -899,10 +903,10 @@
 				"",
 				"**Extra Costs:** Any potion, scroll, or wand that stores a spell with a costly material component also carries a commensurate cost. For potions and scrolls, the creator must expend the material component cost when creating the item. For a wand, the creator must expend 50 units of the material component. Some magic items similarly incur extra costs in material components, as noted in their descriptions.",
 				"",
-				"**Skill Check:** Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See [Magic Item Creation](rule/magic_item_creation) for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See Magic Items for more details.",
-				"",
-				"{table1}"
-			]
+				"**Skill Check:** Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See [Magic Item Creation](rule/magic_item_creation) for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See Magic Items for more details."
+			],
+			"# Table of Item Creation Feats ! itemcreationfeats",
+			[ "{table1}" ]
 		],
 		"tables": [
 			{
@@ -1048,19 +1052,19 @@
 		],
 		"searchgroup": "feat",
 		"description": [
+			[ "[Jump to Panache Feats](#panachefeats)" ],
 			"# Grit Feats",
 			[
 				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
 				"Grit feats interact with the gunslinger's grit class ability or the grit granted by the [Amateur Gunslinger](feat/amateur_gunslinger) feat, usually by adding to her set of deeds. Sometimes these feats increase the number of grit points a character has or how that character regains grit points. [Gunslingers](class/gunslinger) can take grit feats as bonus feats."
 			],
 			[ "{table0}" ],
-			"# Panache Feats",
+			"# Panache Feats ! panachefeats",
 			[
 				"**Description Source** [Advanced Class Guide pg. 136](source/advanced_class_guide)  ",
-				"Panache feats interact with the [swashbuckler's](class/swashbuckler) panache class ability or the panache granted by the [Amateur Swashbuckler](feat/amateur_swashbuckler) feat. Swashbucklers can take panache feats as bonus feats.",
-				"",
-				"{table1}"
-			]
+				"Panache feats interact with the [swashbuckler's](class/swashbuckler) panache class ability or the panache granted by the [Amateur Swashbuckler](feat/amateur_swashbuckler) feat. Swashbucklers can take panache feats as bonus feats."
+			],
+			[ "{table1}" ]
 		],
 		"tables": [
 			{
