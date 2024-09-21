@@ -1,3 +1,4 @@
+import { useCallback } from 'react';
 import {
 	IonButton,
 	IonButtons,
@@ -25,14 +26,15 @@ interface PageProps {
 const HierarchyModal: React.FC<PageProps> = (props) => {
 
 	const { hierarchy, isOpen, setIsOpen } = props;
+	const close = useCallback(() => setIsOpen(false), [setIsOpen]);
 
 	return (
-		<IonModal isOpen={isOpen} onIonModalDidDismiss={() => setIsOpen(false)}>
+		<IonModal isOpen={isOpen} onIonModalDidDismiss={close}>
 			<IonHeader>
 				<IonToolbar>
 					<IonTitle>Hierarchy</IonTitle>
 					<IonButtons slot="end">
-						<IonButton onClick={() => setIsOpen(false)}><IonIcon slot="icon-only" icon={closeCircle} /></IonButton>
+						<IonButton onClick={close}><IonIcon slot="icon-only" icon={closeCircle} /></IonButton>
 					</IonButtons>
 				</IonToolbar>
 			</IonHeader>
@@ -43,8 +45,10 @@ const HierarchyModal: React.FC<PageProps> = (props) => {
 							const key = `parents/${i}`;
 							return <IonItem
 								key={key + "/empty"}
-								href={"/" + pair[1]}
+								routerLink={"/" + pair[1]}
+								routerDirection="forward"
 								className={`linked ${i ? ` indent${i}` : ""}`}
+								onClick={close}
 							><IonLabel>{`${i + 1}. ${pair[0]}`}</IonLabel></IonItem>;
 						})
 					}

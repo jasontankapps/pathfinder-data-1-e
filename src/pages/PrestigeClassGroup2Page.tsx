@@ -15,7 +15,11 @@ interface JsonDataPropsClass {
 	sources: SourceProp[]
 }
 
-const PrestigeClassGroup2Page: React.FC<{id: string}> = ({id}) => {
+interface ClassProps {
+	id: string,
+};
+
+const PrestigeClassGroup2Page: React.FC<ClassProps> = ({id}) => {
 
 	const {
 		name: title,
@@ -24,7 +28,7 @@ const PrestigeClassGroup2Page: React.FC<{id: string}> = ({id}) => {
 	} = (prestige_classes[(id as keyof Data)] as JsonDataPropsClass);
 
 	return (
-		<BasicPage title={title} hierarchy={hierarchy} sources={sources}>
+		<BasicPage pageId={"prestigeclass/" + id} title={title} hierarchy={hierarchy} sources={sources}>
 			<DisplayItem markdown={markdown} />
 		</BasicPage>
 	);

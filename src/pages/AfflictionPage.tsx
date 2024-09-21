@@ -46,9 +46,18 @@ const AfflictionPage: React.FC = () => {
 
 	const type: Affliction = m ? m[1] as Affliction : "curse";
 
+	const pageId = `${type}/${id}`;
+
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getByType(id, type);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		pageId={pageId}
+	/>;
 };
 
 export default AfflictionPage;

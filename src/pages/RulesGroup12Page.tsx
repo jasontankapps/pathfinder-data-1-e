@@ -13,7 +13,10 @@ type Data = typeof data;
 
 type Name = keyof Data;
 
-const RulesGroup12Page: React.FC<{id: string}> = ({id}) => {
+interface RulesProps {
+	id: string
+}
+const RulesGroup12Page: React.FC<RulesProps> = ({id}) => {
 
 	const {
 		name: n,
@@ -61,6 +64,7 @@ const RulesGroup12Page: React.FC<{id: string}> = ({id}) => {
 
 	return (
 		<BasicRulesPage
+			pageId={"rules/" + id}
 			title={n}
 			sources={sources}
 			extraHierarchy={h}

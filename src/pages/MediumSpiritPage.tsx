@@ -35,7 +35,16 @@ const MediumSpiritPage: React.FC = () => {
 	const m = path.match(/outsiderspirit/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	const pageId = (m ? "spirit/" : "outsiderspirit/") + id;
+
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={pageId}
+	/>;
 };
 
 export default MediumSpiritPage;

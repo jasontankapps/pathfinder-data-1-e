@@ -61,7 +61,14 @@ const MonsterFamilyPage: React.FC = () => {
 		);
 	}
 
-	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		/* tables={tables} */
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"monster-family/" + id}
+	/>;
 };
 
 export default MonsterFamilyPage;

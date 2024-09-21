@@ -105,11 +105,11 @@ const h1 = (props: MDpProps) => {
 };
 
 const getElementAndUrl = (input: string): [ReactNode, string] => {
-	const m = input.match(/(^[^ ]+) (.+$)/);
+	const m = input.match(/^\/?([^ ]+) (.+$)/);
 	if(!m) {
 		return [<h1 className="error">{input}</h1>, ""];
 	}
-	const url = m[1];
+	const url = "/" + m[1];
 	const text = m[2];
 	const slash = text.match(/(^.+?) \/\/ (.+$)/);
 	if(slash) {
@@ -137,7 +137,7 @@ const getElementAndUrl = (input: string): [ReactNode, string] => {
 const h2 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked" routerLink={url} routerDirection="forward">{element}</IonItem>
 };
 
 const h22 = (props: MDpProps) => {
@@ -150,13 +150,13 @@ const h22 = (props: MDpProps) => {
 const h3 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked indented" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked indented" routerLink={url} routerDirection="forward">{element}</IonItem>
 };
 
 const h6 = (props: MDpProps) => {
 	const input = props.children;
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked reversed" href={url}>{element}</IonItem>
+	return <IonItem className="mainItem linked reversed" routerLink={url} routerDirection="forward">{element}</IonItem>
 };
 
 const hr = () => {

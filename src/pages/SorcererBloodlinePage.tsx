@@ -22,7 +22,14 @@ const SorcererBloodlinePage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, bloodlines);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"sorcerer-bloodline/" + id}
+	/>;
 };
 
 export default SorcererBloodlinePage;

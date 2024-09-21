@@ -1,4 +1,5 @@
 import { IonContent, IonList, IonPage } from '@ionic/react';
+import { Link } from 'react-router-dom';
 import { isId, isMain } from './components/mainAssertions';
 import DisplayMainItem from './components/DisplayMainItem';
 import PageHeader from './components/PageHeader';
@@ -28,7 +29,7 @@ const FrontPage: React.FC = () => {
 				<div className="ion-hide-lg-down basicContent simple">
 					<h2>General Info</h2>
 					<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy (paizo.com/communityuse)</a>. We are expressly prohibited from charging you to use or access this content. <em>PfD1e</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
-					<p>The game rules herein are covered by the <a href="/main/ogc">Open Game License</a>.</p>
+					<p>The game rules herein are covered by the <Link to="/main/ogc">Open Game License</Link>.</p>
 					<h2>Bug Reports</h2>
 					<p>If you run into any issues or find any bad information, please report it to the <a href="https://github.com/jasontankapps/pathfinder-data-1-e/issues">Github</a>.</p>
 					<h2>Credits</h2>

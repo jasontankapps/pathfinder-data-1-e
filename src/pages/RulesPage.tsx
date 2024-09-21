@@ -23,23 +23,27 @@ const RulesGroup14Page = lazy(() => import("./RulesGroup14Page"));
 const RulesGroup15Page = lazy(() => import("./RulesGroup15Page"));
 const RulesGroup16Page = lazy(() => import("./RulesGroup16Page"));
 
+interface PageProps {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <RulesGroup01Page id={id} />,
-	({id}: {id: string}) => <RulesGroup02Page id={id} />,
-	({id}: {id: string}) => <RulesGroup03Page id={id} />,
-	({id}: {id: string}) => <RulesGroup04Page id={id} />,
-	({id}: {id: string}) => <RulesGroup05Page id={id} />,
-	({id}: {id: string}) => <RulesGroup06Page id={id} />,
-	({id}: {id: string}) => <RulesGroup07Page id={id} />,
-	({id}: {id: string}) => <RulesGroup08Page id={id} />,
-	({id}: {id: string}) => <RulesGroup09Page id={id} />,
-	({id}: {id: string}) => <RulesGroup10Page id={id} />,
-	({id}: {id: string}) => <RulesGroup11Page id={id} />,
-	({id}: {id: string}) => <RulesGroup12Page id={id} />,
-	({id}: {id: string}) => <RulesGroup13Page id={id} />,
-	({id}: {id: string}) => <RulesGroup14Page id={id} />,
-	({id}: {id: string}) => <RulesGroup15Page id={id} />,
-	({id}: {id: string}) => <RulesGroup16Page id={id} />,
+	(props: PageProps) => <RulesGroup01Page id={props.id} />,
+	(props: PageProps) => <RulesGroup02Page id={props.id} />,
+	(props: PageProps) => <RulesGroup03Page id={props.id} />,
+	(props: PageProps) => <RulesGroup04Page id={props.id} />,
+	(props: PageProps) => <RulesGroup05Page id={props.id} />,
+	(props: PageProps) => <RulesGroup06Page id={props.id} />,
+	(props: PageProps) => <RulesGroup07Page id={props.id} />,
+	(props: PageProps) => <RulesGroup08Page id={props.id} />,
+	(props: PageProps) => <RulesGroup09Page id={props.id} />,
+	(props: PageProps) => <RulesGroup10Page id={props.id} />,
+	(props: PageProps) => <RulesGroup11Page id={props.id} />,
+	(props: PageProps) => <RulesGroup12Page id={props.id} />,
+	(props: PageProps) => <RulesGroup13Page id={props.id} />,
+	(props: PageProps) => <RulesGroup14Page id={props.id} />,
+	(props: PageProps) => <RulesGroup15Page id={props.id} />,
+	(props: PageProps) => <RulesGroup16Page id={props.id} />,
 ];
 
 const RulesPage: React.FC = () => {

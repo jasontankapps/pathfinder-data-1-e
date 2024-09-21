@@ -21,6 +21,7 @@ interface BasicRulesProps {
 	subtopics: HierarchyArray
 	prevNext: (string[] | null)[] | false
 	className?: string
+	pageId: string
 }
 
 const nulls = [null, null];
@@ -33,7 +34,8 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	tables,
 	subtopics,
 	prevNext,
-	className: cn
+	className: cn,
+	pageId
 }) => {
 	const [previous, next] = prevNext || nulls;
 
@@ -47,7 +49,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	const className = "prevNext" + (next && !previous ? " nextOnly" : "");
 
 	return (
-		<BasicPage title={title} sources={sources} hierarchy={h}>
+		<BasicPage title={title} sources={sources} hierarchy={h} pageId={pageId}>
 			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn} />
 			{subtopics.length > 0 ?  (
 				<div className="subtopics">

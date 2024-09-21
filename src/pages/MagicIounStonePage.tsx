@@ -22,7 +22,14 @@ const MagicPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		pageId={"magic-ioun/" + id}
+	/>;
 };
 
 export default MagicPage;

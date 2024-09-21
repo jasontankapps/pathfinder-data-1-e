@@ -8,11 +8,22 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/clas
 
 type Data = typeof classes;
 
-const ClassGroup2Page: React.FC<{id: string}> = ({id}) => {
+interface ClassProps {
+	id: string,
+};
+
+const ClassGroup2Page: React.FC<ClassProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources } = getGuaranteedItem<Data>((id as keyof Data), classes);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"class-ability/" + id}
+	/>;
 };
 
 export default ClassGroup2Page;

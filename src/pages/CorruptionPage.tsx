@@ -22,7 +22,14 @@ const CorruptionPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, corruptions);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"corruption/" + id}
+	/>;
 };
 
 export default CorruptionPage;

@@ -8,11 +8,15 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Spells", "main/spell
 
 type Data = typeof spells;
 
-const SpellGroup11Page: React.FC<{id: string}> = ({id}) => {
+interface SpellProps {
+	id: string,
+};
+
+const SpellGroup11Page: React.FC<SpellProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"spell/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default SpellGroup11Page;

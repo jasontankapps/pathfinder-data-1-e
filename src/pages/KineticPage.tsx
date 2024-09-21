@@ -51,7 +51,14 @@ const KineticPage: React.FC = () => {
 		finalPage[type]
 	];
 
-	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		/* tables={tables} */
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"kinetic/" + id}
+	/>;
 };
 
 export default KineticPage;

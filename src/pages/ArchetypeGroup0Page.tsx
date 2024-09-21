@@ -22,21 +22,28 @@ const archetypes = {
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup0Page: React.FC<{id: string, parent: string, title: string}> = ({id, parent, title}) => {
+interface ArchetypeProps {
+	id: string,
+	parent: string,
+	title: string
+};
+
+const ArchetypeGroup0Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
 	const { name: n, description, tables, sources } = getItem<Data>((id as keyof Data), archetypes);
 
 	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
 
-	return (
-		<BasicPage
-			title={n}
-			markdown={markdown}
-			tables={tables}
-			hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent]]}
-			sources={sources}
-		/>
-	);
+	const pageId = `archetype-${parent}/${id}`;
+
+	return <BasicPage
+		title={n}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent]]}
+		sources={sources}
+		pageId={pageId}
+	/>;
 };
 
 export default ArchetypeGroup0Page;

@@ -21,7 +21,14 @@ const UMRPage: React.FC = () => {
 
 	const { name: title, description: markdown, sources } = getItem<Data>(id, umr);
 
-	return <BasicPage title={title} markdown={markdown} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		/* tables={tables} */
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"umr/" + id}
+	/>;
 };
 
 export default UMRPage;

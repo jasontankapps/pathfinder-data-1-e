@@ -68,7 +68,7 @@ const SourcesModal: FC<ModalProps> = (props) => {
 									const sourceObject = getItem<Data>(source, sourceInfo);
 									return (
 										sourceInfo[source]
-											? <IonItem key={key} href={sourceObject.url} className="sourceLink"><IonLabel>{sourceObject.title}</IonLabel></IonItem>
+											? <IonItem key={key} routerLink={sourceObject.url} routerDirection="forward" className="sourceLink"><IonLabel>{sourceObject.title}</IonLabel></IonItem>
 											: <IonItem key={key}><IonLabel>{source}</IonLabel></IonItem>
 											//: <IonItem key={key + "/empty"}><IonLabel>{source}</IonLabel></IonItem>
 									);

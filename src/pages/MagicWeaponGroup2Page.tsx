@@ -8,11 +8,15 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/
 
 type Data = typeof magic_weapons;
 
-const MagicWeaponGroup2Page: React.FC<{id: string}> = ({id}) => {
+interface MagicProps {
+	id: string,
+};
+
+const MagicWeaponGroup2Page: React.FC<MagicProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_weapons);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"magic-weapon/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default MagicWeaponGroup2Page;

@@ -25,7 +25,14 @@ const MonsterTypingPage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, typings);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"monster-typing/" + id}
+	/>;
 };
 
 export default MonsterTypingPage;

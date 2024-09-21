@@ -8,11 +8,15 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Monsters", "main/mon
 
 type Data = typeof npcs;
 
-const NPCGroup3Page: React.FC<{id: string}> = ({id}) => {
+interface NPCProps {
+	id: string,
+};
+
+const NPCGroup3Page: React.FC<NPCProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), npcs);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"npc/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default NPCGroup3Page;

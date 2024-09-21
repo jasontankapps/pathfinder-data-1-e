@@ -18,7 +18,14 @@ const EquipmentSiegeEnginePage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, equipment);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"equipment-siegeengines/" + id}
+	/>;
 };
 
 export default EquipmentSiegeEnginePage;

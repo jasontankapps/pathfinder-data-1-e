@@ -1,7 +1,9 @@
-import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
+import { AnchorHTMLAttributes, ClassAttributes, FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
 import { IonIcon, IonRippleEffect } from '@ionic/react';
 import { caretDown, caretUp, ellipse } from 'ionicons/icons';
-import Markdown from 'react-markdown';
+import Markdown, { ExtraProps } from 'react-markdown';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 
 type TriggerSortFunc = (index: number, descending: boolean) => boolean;
@@ -20,6 +22,32 @@ interface TdProps {
 	type: TableColumnInfoTypes
 	hasRipple: boolean
 }
+
+type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
+
+const a = (props: MDaProps) => {
+	const { href = "", children, id, "aria-label": ariaLabel } = props;
+	if(href.match(/^\//)) {
+		// Initial slash indicates this needs a ripple.
+		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
+	} else if (href.match(/^#/)) {
+		// Hash indicates internal link
+		//const m = href.match(/user-content-fn-(.+)/);
+		// Trying to make create the ID property that the footnote link will be pointing at,
+		//   since the plugin apparently doesn't do that automatically...
+		const scrollWithOffset = (el: HTMLElement) => {
+			const w = document.getElementsByTagName("ion-content");
+			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
+			const yOffset = id ? 0 : -80;
+			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+			const element = [...w].pop();
+			element && element.scrollByPoint(0, yCoordinate + yOffset, 500);
+		}
+		return <HashLink aria-label={ariaLabel} id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
+	}
+	return <Link to={"/" + href} id={id} aria-label={ariaLabel}>{children}</Link>
+};
+const components = { a };
 
 const translateGp = (gp: number, adjustment: boolean = false): string => {
 	if(gp !== gp) {
@@ -68,7 +96,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 			<th className="ion-activatable">
 				<div className="sortable" onClick={onClick}>
 					<IonRippleEffect />
-					<Markdown>{children}</Markdown>
+					<Markdown components={components}>{children}</Markdown>
 					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
 				</div>
 			</th>
@@ -76,7 +104,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	}
 	return (
 		<th>
-			<Markdown>{children}</Markdown>
+			<Markdown components={components}>{children}</Markdown>
 		</th>
 	);
 };
@@ -144,7 +172,12 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
 		default:
 			text = typeof output === "string" ? output : String(output);
 	}
-	return <td className={hasRipple ? "ion-activatable" : ""}><Markdown>{text}</Markdown>{hasRipple? <IonRippleEffect /> : <></>}</td>;
+	return (
+		<td className={hasRipple ? "ion-activatable" : ""}>
+			<Markdown components={components}>{text}</Markdown>
+			{hasRipple? <IonRippleEffect /> : <></>}
+		</td>
+	);
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {

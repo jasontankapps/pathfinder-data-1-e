@@ -15,7 +15,11 @@ interface JsonDataPropsClass {
 	sources: SourceProp[]
 }
 
-const RaceGroup1Page: React.FC<{id: string}> = ({id}) => {
+interface RaceProps {
+	id: string,
+};
+
+const RaceGroup1Page: React.FC<RaceProps> = ({id}) => {
 
 	const {
 		name: title,
@@ -24,7 +28,7 @@ const RaceGroup1Page: React.FC<{id: string}> = ({id}) => {
 	} = (races[(id as keyof Data) || "not_found"] as JsonDataPropsClass);
 
 	return (
-		<BasicPage title={title} hierarchy={hierarchy} sources={sources}>
+		<BasicPage pageId={"race/" + id} title={title} hierarchy={hierarchy} sources={sources}>
 			<DisplayItem markdown={markdown} />
 		</BasicPage>
 	);

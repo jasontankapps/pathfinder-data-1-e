@@ -34,7 +34,14 @@ const RagePowerPage: React.FC = () => {
 	const m = path.match(/outsiderspirit/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		markdown={markdown}
+		tables={tables}
+		hierarchy={hierarchy}
+		sources={sources}
+		pageId={"ragepower/" + id}
+	/>;
 };
 
 export default RagePowerPage;

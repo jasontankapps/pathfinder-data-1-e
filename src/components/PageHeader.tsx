@@ -32,7 +32,7 @@ const PageHeader: React.FC<PropsWithChildren<{
 							{noSearch
 								? <></>
 								: (
-									<IonButton href="/search">
+									<IonButton routerLink="/search" routerDirection="forward">
 										<IonIcon slot="icon-only" icon={search} />
 									</IonButton>
 								)

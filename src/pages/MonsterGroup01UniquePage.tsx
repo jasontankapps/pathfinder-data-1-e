@@ -8,11 +8,15 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Monsters", "main/mon
 
 type Data = typeof monsters;
 
-const MonsterGroup01Page: React.FC<{id: string}> = ({id}) => {
+interface MonsterProps {
+	id: string,
+};
+
+const MonsterGroup01Page: React.FC<MonsterProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>((id as keyof Data), monsters);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage pageId={"monster/" + id} title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default MonsterGroup01Page;

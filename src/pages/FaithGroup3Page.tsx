@@ -8,11 +8,15 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Faiths", "main/faith
 
 type Data = typeof faiths;
 
-const FaithGroup3Page: React.FC<{id: string}> = ({id}) => {
+interface FaithProps {
+	id: string,
+};
+
+const FaithGroup3Page: React.FC<FaithProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), faiths);
 
-	return <BasicPage title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"faith/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default FaithGroup3Page;
