@@ -116,7 +116,7 @@ const Menu: React.FC = () => {
 		<IonMenu contentId="main" type="overlay">
 			<IonContent>
 				<IonList id="menu-list">
-					<IonListHeader>PF Data 1e</IonListHeader>
+					<IonListHeader>Pf Data 1e</IonListHeader>
 					{appPages.map((appPage, index) => {
 						if (appPage.hr) {
 							return <hr key={index} />;

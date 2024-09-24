@@ -29,9 +29,9 @@ const main = {
 };
 
 function isGood(value) {
-	console.log("\n...beginning test\n");
+	const msg = [ "\n...beginning test: [main]\n" ];
 	let found = false;
-	if(Object.entries(value).some(([prop, value]) => {
+	if(!Object.entries(value).some(([prop, value]) => {
 		const test = value;
 		if(
 			!test
@@ -55,7 +55,7 @@ function isGood(value) {
 						|| typeof pair[1] !== "string"
 					) {
 						found = true;
-						console.log(`Bad info at ${prop}.previous[${i}]`);
+						msg.push(`Bad info at ${prop}.previous[${i}]`);
 						return true;
 					}
 				})
@@ -65,7 +65,7 @@ function isGood(value) {
 				|| test.tables.some((table, i) => {
 					if(typeof table !== "object") {
 						found = true;
-						console.log(`Non-object table at ${prop}.tables[${i}]`)
+						msg.push(`Non-object table at ${prop}.tables[${i}]`)
 						return true;
 					} else {
 						const { id, headers, types, data, initialColumn, className, nullValue } = table;
@@ -79,7 +79,7 @@ function isGood(value) {
 							|| (nullValue && typeof nullValue !== "string")
 						) {
 							found = true;
-							console.log(`Simple table error at ${prop}.tables[${i}]`)
+							msg.push(`Simple table error at ${prop}.tables[${i}]`)
 							return true;
 						} else if (
 							headers.length !== types.length
@@ -87,7 +87,7 @@ function isGood(value) {
 							|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", null, 0].indexOf(type) === -1)
 						) {
 							found = true;
-							console.log(`Header/type table error at ${prop}.tables[${i}]`)
+							msg.push(`Header/type table error at ${prop}.tables[${i}]`)
 							return true;
 						} else if (data.some((line, j) => {
 							if(
@@ -108,12 +108,12 @@ function isGood(value) {
 										))
 									) {
 										found = true;
-										console.log(`Invalid "main" entry at ${prop}.tables[${i}][${j}][${k}] -> ${line}`);
+										msg.push(`Invalid "main" entry at ${prop}.tables[${i}][${j}][${k}] -> ${line}`);
 										return true;
 									}
 								})
 							) {
-								found || console.log(`Invalid "main" entry at ${prop}.tables[${i}][${j}] -> ${line}`);
+								found || msg.push(`Invalid "main" entry at ${prop}.tables[${i}][${j}] -> ${line}`);
 								found = true;
 								return true;
 							}
@@ -125,15 +125,19 @@ function isGood(value) {
 				})
 			))
 		) {
-			found || console.log(`Basic problem with ${prop}`);
+			found || msg.push(`Basic problem with ${prop}`);
 			found = true;
 			return true;
 		}
 		return false;
 	})) {
-		return;
+		msg.push("Test passed.");
 	}
-	console.log("Test passed.");
+	return msg;
 }
 
-isGood(main);
+// isGood(main);
+
+const mainTest = () => isGood(main).join("\n");
+
+export default mainTest;

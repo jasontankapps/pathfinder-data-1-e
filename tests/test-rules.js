@@ -23,7 +23,7 @@ const rules = {
 };
 
 function isGood(value) {
-	console.log("\n...beginning rules test\n");
+	const msg = [ "\n...beginning test: [rules]\n" ];
 	let found = false;
 	if(Object.entries(value).some(([prop, value]) => {
 		const test = value;
@@ -34,7 +34,7 @@ function isGood(value) {
 			|| !Array.isArray(test.description)
 			|| test.description.some(line => typeof line !== "string")
 		) {
-			console.log(`Basic problem with ${prop}`);
+			msg.push(`Basic problem with ${prop}`);
 			return true;
 		} else if (prop === "not_found") {
 			// Skip
@@ -42,19 +42,19 @@ function isGood(value) {
 		} else if (test.siblings) {
 			const siblings = test.siblings;
 			if(!Array.isArray(siblings)) {
-				console.log(`Bad ${prop}.siblings`);
+				msg.push(`Bad ${prop}.siblings`);
 				return true;
 			} else if (siblings.some(bit => {
 				if(!rules[bit]) {
 					return true;
 				} else if(!rules[bit].siblings || rules[bit].siblings.indexOf(prop) < 0) {
 					found = true;
-					console.log(`${prop}.siblings => ${bit} is not reciprocal`)
+					msg.push(`${prop}.siblings => ${bit} is not reciprocal`)
 					return true;
 				}
 				return false;
 			})) {
-				found || console.log(`Bad ${prop}.siblings`);
+				found || msg.push(`Bad ${prop}.siblings`);
 				return true;
 			}
 		}
@@ -62,21 +62,21 @@ function isGood(value) {
 			const parents = test.parent_topics;
 			const max = parents.length - 1;
 			if(!Array.isArray(parents)) {
-				console.log(`Bad ${prop}.parent_topics`);
+				msg.push(`Bad ${prop}.parent_topics`);
 				return true;
 			} else {
 				const parentProp = parents.slice(-1).pop() || "";
 				const immediateParent = rules[parentProp];
 				if(!immediateParent) {
-					console.log(`${prop}.parent_topics contains invalid "${parentProp}"`);
+					msg.push(`${prop}.parent_topics contains invalid "${parentProp}"`);
 					return true;
 				}
 				const ancestry = parents.slice(0, -1).join(",");
 				if((immediateParent.parent_topics || []).join(",") !== ancestry) {
-					console.log(`${prop}.parent_topics does not correspond to ${parentProp}.parent_topics`);
+					msg.push(`${prop}.parent_topics does not correspond to ${parentProp}.parent_topics`);
 					return true;
 				} else if ((immediateParent.subtopics || []).indexOf(prop) < 0) {
-					console.log(`${prop} not found in ${parentProp}.subtopics`);
+					msg.push(`${prop} not found in ${parentProp}.subtopics`);
 					return true;
 				}
 			}
@@ -84,7 +84,7 @@ function isGood(value) {
 		if (test.subtopics) {
 			const subtopics = test.subtopics;
 			if(!Array.isArray(subtopics)) {
-				console.log(`Bad ${prop}.subtopics`);
+				msg.push(`Bad ${prop}.subtopics`);
 				return true;
 			} else if (subtopics.some(bit => {
 				if(!rules[bit]) {
@@ -93,16 +93,16 @@ function isGood(value) {
 				const rb = rules[bit];
 				if(!rb.parent_topics || rb.parent_topics.indexOf(prop) < 0) {
 					found = true;
-					console.log(`${prop}.subtopics => ${bit} is not reciprocal`)
+					msg.push(`${prop}.subtopics => ${bit} is not reciprocal`)
 					return true;
 				} else if (!rb.siblings || !Array.isArray(rb.siblings)) {
 					found = true;
-					console.log(`${bit} does not have a siblings property`)
+					msg.push(`${bit} does not have a siblings property`)
 					return true;
 				}
 				return false;
 			})) {
-				found || console.log(`Bad ${prop}.subtopics`);
+				found || msg.push(`Bad ${prop}.subtopics`);
 				return true;
 			}
 		}
@@ -110,7 +110,12 @@ function isGood(value) {
 	})) {
 		return;
 	}
-	console.log("Test passed.");
+	msg.push("Test passed.");
+	return msg;
 }
 
-isGood(rules);
+// isGood(rules);
+
+const rulesTest = () => isGood(rules).join("\n");
+
+export default rulesTest;

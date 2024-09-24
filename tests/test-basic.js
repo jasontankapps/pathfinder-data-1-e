@@ -132,13 +132,13 @@ function getCopyOf (object, copiedProp, etc, counter = 0) {
 }
 
 function isGood(object, what) {
-	console.log("\n...beginning test: [" + what + "]\n");
+	const msg = [ "\n...beginning test: [" + what + "]\n" ];
 	if(!object.not_found) {
-		console.log("Missing 'not_found' entry.");
-		return;
+		msg.push("Missing 'not_found' entry.");
+		return msg;
 	}
 	let found = false;
-	if(Object.entries(object).some(([prop, value]) => {
+	if(!Object.entries(object).some(([prop, value]) => {
 		const { copyof, ...etc } = value;
 		const test = copyof ? getCopyOf(object, copyof, etc) : etc;
 		if(
@@ -158,7 +158,7 @@ function isGood(object, what) {
 						|| typeof pair[1] !== "string"
 					) {
 						found = true;
-						console.log(`Bad info at ${prop}.subhierarchy[${i}]`);
+						msg.push(`Bad info at ${prop}.subhierarchy[${i}]`);
 						return true;
 					}
 				})
@@ -168,7 +168,7 @@ function isGood(object, what) {
 				|| test.tables.some((table, i) => {
 					if(typeof table !== "object") {
 						found = true;
-						console.log(`Non-object table at ${prop}.tables[${i}]`)
+						msg.push(`Non-object table at ${prop}.tables[${i}]`)
 						return true;
 					} else {
 						const { id, headers, types, data, initialColumn, className, nullValue } = table;
@@ -182,7 +182,7 @@ function isGood(object, what) {
 							|| (nullValue && typeof nullValue !== "string")
 						) {
 							found = true;
-							console.log(`Simple table error at ${prop}.tables[${i}]`)
+							msg.push(`Simple table error at ${prop}.tables[${i}]`)
 							return true;
 						} else if (
 							headers.length !== types.length
@@ -190,7 +190,7 @@ function isGood(object, what) {
 							|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", null, 0].indexOf(type) === -1)
 						) {
 							found = true;
-							console.log(`Header/type table error at ${prop}.tables[${i}]`)
+							msg.push(`Header/type table error at ${prop}.tables[${i}]`)
 							return true;
 						} else if (data.some((line, j) => {
 							if(
@@ -211,12 +211,12 @@ function isGood(object, what) {
 										))
 									) {
 										found = true;
-										console.log(`Invalid "main" entry at ${prop}.tables[${i}][${j}][${k}] -> ${line}`);
+										msg.push(`Invalid "main" entry at ${prop}.tables[${i}][${j}][${k}] -> ${line}`);
 										return true;
 									}
 								})
 							) {
-								found || console.log(`Invalid "main" entry at ${prop}.tables[${i}][${j}] -> ${line}`);
+								found || msg.push(`Invalid "main" entry at ${prop}.tables[${i}][${j}] -> ${line}`);
 								found = true;
 								return true;
 							}
@@ -228,15 +228,19 @@ function isGood(object, what) {
 				})
 			))
 		) {
-			found || console.log(`Basic problem with ${prop}`);
+			found || msg.push(`Basic problem with ${prop}`);
 			found = true;
 			return true;
 		}
 		return false;
 	})) {
-		return;
+		msg.push("Test passed.");
 	}
-	console.log("Test passed.");
+	return msg;
 }
 
-basics.forEach((data, i) => isGood(data, whats[i]));
+// basics.forEach((data, i) => isGood(data, whats[i]));
+
+const basicsTest = () => basics.map((data, i) => isGood(data, whats[i]).join("\n")).join("\n");
+
+export default basicsTest;
