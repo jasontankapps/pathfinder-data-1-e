@@ -5678,7 +5678,6 @@
 			"| Likeness or picture | -2 |",
 			"| Possession or garment | -4 |",
 			"| Body part, lock of hair, bit of nail, etc. | -10 |",
-			"[^N]: You must have some sort of connection (see below) to a creature of which you have no knowledge.",
 			"",
 			"If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.",
 			"",
@@ -5703,7 +5702,9 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, message, read magic, and tongues."
+			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, message, read magic, and tongues.",
+			"",
+			"[^N]: You must have some sort of connection (see below) to a creature of which you have no knowledge."
 		]
 	},
 	"scrying,_greater": {

@@ -1953,7 +1953,6 @@
 			"| Has a familiar, special mount, or animal companion | -2 |",
 			"| Recruits a cohort of a different alignment | -1 |",
 			"| Caused the death of a cohort | -2[^C] |",
-			"[^C]: Cumulative per cohort killed.",
 			"",
 			"Followers have different priorities from cohorts. When you try to attract a follower, use the following modifiers.",
 			"",
@@ -1973,7 +1972,9 @@
 			"",
 			"*Number of Followers by Level:* You can lead up to the indicated number of characters of each level. Followers are similar to cohorts, except they're generally low-level NPCs. Because they're usually 5 or more levels behind you, they're rarely effective in combat.",
 			"",
-			"Followers don't earn experience and thus don't gain levels. When you gain a new level, consult the table above to determine if you acquire more followers, some of whom may be higher level than the existing followers. Don't consult the table to see if your cohort gains levels, however, because cohorts earn experience on their own."
+			"Followers don't earn experience and thus don't gain levels. When you gain a new level, consult the table above to determine if you acquire more followers, some of whom may be higher level than the existing followers. Don't consult the table to see if your cohort gains levels, however, because cohorts earn experience on their own.",
+			"",
+			"[^C]: Cumulative per cohort killed."
 		]
 	},
 	"leaf_singer": {

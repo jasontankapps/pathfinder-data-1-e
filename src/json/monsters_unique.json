@@ -393,8 +393,7 @@
 			"*Constant*-detect chaos, detect good, mind blank, shield of law (DC 30), true seeing  ",
 			"*At will*-astral projection, curse of disgust (DC 27), desecrate[^M], dictum[^M] (DC 29), greater dispel magic, greater invisibility, greater teleport, icy prison (DC 27), insect plague, order's wrath[^M] (DC 26), unhallow  ",
 			"*3/day*-demand (DC 30), finger of death[^M] (DC 29), quickened freezing sphere, empowered cone of cold[^M], summon devils  ",
-			"*1/day*-mass suffocation (DC 31), time stop[^M], wish[^M]  ",
-			"[^M]: Baalzebul can use this ability's mythic version in his infernal realm.",
+			"*1/day*-mass suffocation (DC 31), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -439,7 +438,9 @@
 			"",
 			"Baalzebul's unholy symbol is a broken black crown tipped at an angle, underneath a shining white diamond inside a broken white halo. Although he prefers the use of the longsword himself, his arrogance prevents him from sharing his favor of that weapon with his worshipers - instead, his favored weapon is the spear. He grants access to the Air, Death, Evil, and Law domains, and to the Devil, Murder, Undead, and Wind subdomains.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Baalzebul can use this ability's mythic version in his infernal realm."
 		]
 	},
 	"baalzebul": { "copyof": "archdevil,_baalzebul" },
@@ -475,8 +476,7 @@
 			"*Constant*-air walk, detect chaos, detect good, mind blank, speak with animals, true seeing, unholy aura (DC 28)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 27), desecrate[^M], dominate person[^M] (DC 25), greater dispel magic, dominate animal (DC 23), greater scrying (DC 27), greater teleport, plane shift[^M] (DC 27), unhallow, unholy blight[^M] (DC 24)  ",
 			"*3/day*-banishment (DC 27), quickened contagion[^M] (DC 24), dimensional lock[^M], maze[^M], summon devils  ",
-			"*1/day*-gate, time stop[^M], wish[^M]  ",
-			"[^M]: Barbatos can use this ability's mythic version in his realm",
+			"*1/day*-gate, time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -517,7 +517,9 @@
 			"",
 			"Barbatos's unholy symbol is an inverted triangle with three red eyes-often, the triangle portion of his symbol appears to be three filthy beards, the tangled hairs of which extend in three directions around the eyes at the center. His favored weapon is the quarterstaff. He grants access to the Evil, Law, Magic, and Travel domains, and to the Arcane, Devil, Divine, and Trade subdomains.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Barbatos can use this ability's mythic version in his realm"
 		]
 	},
 	"barbatos": { "copyof": "archdevil,_barbatos" },
@@ -553,8 +555,7 @@
 			"*Constant*-detect chaos, detect good, mind blank, shield of law (DC 31), true seeing  ",
 			"*At will*-astral projection, baleful polymorph[^M] (DC 28), desecrate[^M], dictum[^M] (DC 30), dominate person[^M] (DC 28), greater dispel magic, greater teleport, matchmaker (DC 26), modify memory[^M] (DC 27), order's wrath[^M] (DC 27), unhallow  ",
 			"*3/day*-quickened mass suggestion (DC 29), prismatic spray[^M] (DC 30), summon devils, sympathy (DC 31), waves of ecstasy (DC 30)  ",
-			"*1/day*-overwhelming presence (DC 32), time stop[^M], wish[^M]  ",
-			"[^M]: Belial can use this ability's mythic version in their realm.",
+			"*1/day*-overwhelming presence (DC 32), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -601,7 +602,9 @@
 			"",
 			"Belial's unholy symbol is a split-faced mask, one side of which is smiling and white and the other frowning and red. Their favored weapon is the ranseur. The Pale Kiss grants access to the domains of Charm, Destruction, Evil, and Law, and to the subdomains of Catastrophe, Devil, Lust, and Rage.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Belial can use this ability's mythic version in their realm."
 		]
 	},
 	"belial": { "copyof": "archdevil,_belial" },
@@ -638,8 +641,7 @@
 			"*Constant*-detect chaos, detect good, fly, mind blank, shield of law (DC 29), true seeing  ",
 			"*At will*-astral projection, charm monster (DC 27), desecrate[^M], dictum[^M] (DC 28), dominate person (DC 28), greater dispel magic, greater teleport, iron body, order's wrath[^M] (DC 25), unhallow, wall of iron  ",
 			"*3/day*-quickened blade barrier[^M] (DC 27), forcecage (DC 28), geas/quest, summon devils, symbol of pain (DC 27)  ",
-			"*1/day*-imprisonment (DC 30), time stop[^M], wish[^M]  ",
-			"[^M]: Dispater can use this ability's mythic version in his realm.",
+			"*1/day*-imprisonment (DC 30), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -678,7 +680,9 @@
 			"",
 			"Dispater's unholy symbol is a heavy black nail piercing a red crown. His favored weapon is the heavy mace. He grants access to the domains of Evil, Law, Nobility, and Trickery, and to the subdomains of Deception, Devil, Leadership, and Tyranny.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Dispater can use this ability's mythic version in his realm."
 		]
 	},
 	"dispater": { "copyof": "archdevil,_dispater" },
@@ -715,8 +719,7 @@
 			"*Constant*-air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing  ",
 			"*At will*-astral projection, black tentacles[^M], desecrate[^M], dictum[^M] (DC 28), greater dispel magic, greater teleport, mindwipe (DC 25), modify memory[^M] (DC 25), order's wrath[^M] (DC 25), unhallow, wall of ice  ",
 			"*3/day*-feeblemind (DC 26), quickened mindwipe (DC 25), mislead, persistent image (DC 26), summon devils, vision  ",
-			"*1/day*-prediction of failure (DC 29), time stop[^M], wish[^M]  ",
-			"[^M]: Geryon can use this ability's mythic version in its realm.",
+			"*1/day*-prediction of failure (DC 29), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -761,7 +764,9 @@
 			"",
 			"Geryon's unholy symbol is a shadowed, red-and-black serpent's head. It favored weapon is the heavy flail. It grants access to the domains of Evil, Law, Strength, and Water, and to the subdomains of Devil, Ferocity, Oceans, and Resolve.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Geryon can use this ability's mythic version in its realm."
 		]
 	},
 	"geryon": { "copyof": "archdevil,_geryon" },
@@ -796,8 +801,7 @@
 			"*Constant*-air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing  ",
 			"*At will*-astral projection, beguiling gift (DC 22), desecrate[^M], dictum[^M] (DC 28), enter image, greater dispel magic, greater object possession (DC 30), greater teleport, order's wrath[^M] (DC 25), possession (DC 26), unhallow  ",
 			"*3/day*-awaken construct, greater scrying (DC 28), polymorph any object (DC 29), quickened possession (DC 26), summon devils, sympathy (DC 29)  ",
-			"*1/day*-microcosm (DC 30), time stop[^M], wish[^M]  ",
-			"[^M]: Mammon can use this ability's mythic version in his realm.",
+			"*1/day*-microcosm (DC 30), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -838,7 +842,9 @@
 			"",
 			"Mammon's unholy symbol is a midnight blue coin with a horned devil's head and an infernal inscription of his name in pale silvery blue. His favored weapon is the shortspear. He grants access to the Artifice, Earth, Evil, and Law domains, and to the Construct, Devil, Metal, and Toil subdomains.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Mammon can use this ability's mythic version in his realm."
 		]
 	},
 	"mammon": { "copyof": "archdevil,_mammon" },
@@ -875,8 +881,7 @@
 			"*Constant*-detect chaos, detect good, discern lies (DC 28), freedom of movement, mind blank, shield of law (DC 32), true seeing  ",
 			"*At will*-astral projection, deeper darkness, desecrate[^M], dictum[^M] (DC 31), dominate person[^M] (DC 29), greater dispel magic, greater scrying (DC 31), greater teleport, order's wrath[^M] (DC 28), secret page, unhallow  ",
 			"*3/day*-quickened dominate person[^M] (DC 29), fire storm[^M] (DC 32), globe of invulnerability[^M], mass charm monster (DC 32), mislead[^M] (DC 30), summon devils  ",
-			"*1/day*-soul bind (DC 33), time stop[^M], wish[^M]  ",
-			"[^M]: Mephistopheles can use this ability's mythic version in his realm.",
+			"*1/day*-soul bind (DC 33), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -915,7 +920,9 @@
 			"",
 			"His unholy symbol is a diagonal scarlet trident piercing a golden halo. His favored weapon is the trident. He grants access to the Evil, Knowledge, Law, and Rune domains, and to the Devil, Language, Memory, and Thought subdomains.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Mephistopheles can use this ability's mythic version in his realm."
 		]
 	},
 	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
@@ -952,8 +959,7 @@
 			"*Constant*-air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing  ",
 			"*At will*-astral projection, desecrate[^M], dictum[^M] (DC 28), dominate person[^M] (DC 26), fireball[^M] (DC 24), greater dispel magic, greater teleport, order's wrath[^M] (DC 25), slow[^M] (DC 24), unhallow, wall of fire[^M]  ",
 			"*3/day*-quickened blade barrier[^M] (DC 27), empowered fire storm (DC 29), mass charm monster (DC 29), mass hold person (DC 28), summon devils  ",
-			"*1/day*-meteor swarm[^M] (DC 30), time stop[^M], wish[^M]  ",
-			"[^M]: Moloch can use this ability's mythic version in his realm",
+			"*1/day*-meteor swarm[^M] (DC 30), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -998,7 +1004,9 @@
 			"",
 			"Moloch's unholy symbol is a shadowed red-and-black bull's head with a sickly yellow flame within. Although he can use any weapon (and favors the battleaxe Goreletch and the longsword Ramithaine), his favored weapon is the whip, as he prefers his worshipers to drive armies by the lash. He grants access to the Evil, Fire, Law, and War domains, and to the Ash, Devil, Smoke, and Tactics subdomains.",
 			"",
-			"**Family:** [Archdevil](family/archdevil)"
+			"**Family:** [Archdevil](family/archdevil)",
+			"",
+			"[^M]: Moloch can use this ability's mythic version in his realm"
 		]
 	},
 	"moloch": { "copyof": "archdevil,_moloch" },
@@ -2046,8 +2054,7 @@
 			"*Constant*-detect good, detect law, freedom of movement, speak with animals (aquatic animals only), true seeing, unholy aura (DC 28)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 27), control water, control weather[^M], desecrate[^M], greater dispel magic, greater teleport, shapechange, telekinesis[^M] (DC 25), unhallow, unholy blight[^M] (DC 24)  ",
 			"*3/day*-quickened greater dispel magic, insanity (DC 27), summon demons, symbol of insanity (DC 28), vortex (DC 27)  ",
-			"*1/day*-storm of vengeance[^M] (DC 29), time stop[^M], tsunami[^M] (DC 29)  ",
-			"[^M]: Dagon can use the mythic version of this ability in his realm.",
+			"*1/day*-storm of vengeance[^M] (DC 29), time stop[^M], tsunami[^M] (DC 29)",
 			"",
 			"#### Statistics",
 			"",
@@ -2088,7 +2095,9 @@
 			"",
 			"Dagon is also known as the Shadow in the Sea. His unholy symbol is a gold disk inscribed with sinister runes around an open octopus eye. His favored weapon is the trident. He grants access to the domains of Chaos, Destruction, Evil, and Water, and access to the subdomains of Catastrophe, Demon, Oceans, and Rage.",
 			"",
-			"**Family:** [Demon Lord](family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)",
+			"",
+			"[^M]: Dagon can use the mythic version of this ability in his realm."
 		]
 	},
 	"dagon": { "copyof": "demon_lord,_dagon" },
@@ -2214,8 +2223,7 @@
 			"*Constant*-air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 26)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 25), cone of cold[^M] (DC 23), desecrate[^M], enlarge person[^M], greater dispel magic, greater teleport, telekinesis[^M] (DC 23), shapechange, unhallow, unholy blight[^M] (DC 22)  ",
 			"*3/day*-polar ray[^M], power word stun[^M], summon demons, symbol of stunning (DC 25)  ",
-			"*1/day*-mass icy prison (DC 27), polar midnight (DC 27), time stop[^M]  ",
-			"[^M]: Kostchtchie can use the mythic version of this ability in his realm.",
+			"*1/day*-mass icy prison (DC 27), polar midnight (DC 27), time stop[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2260,7 +2268,9 @@
 			"",
 			"Kostchtchie's unholy symbol is an ice-caked, runecarved warhammer, and the warhammer is his favored weapon. He grants access to the domains of Chaos, Evil, Strength, and War, and access to the subdomains of Demon, Ferocity, Ice, and Tactics (although the Ice subdomain is normally not available without the Water domain, an exception is made in this case because of the demon lord's close association with cold).",
 			"",
-			"**Family:** [Demon Lord](family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)",
+			"",
+			"[^M]: Kostchtchie can use the mythic version of this ability in his realm."
 		]
 	},
 	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
@@ -2384,8 +2394,7 @@
 			"*Constant*-detect good, detect law, freedom of movement, speak with animals (winged animals only), true seeing, unholy aura (DC 31)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 30), control winds, desecrate[^M], dominate person[^M] (DC 28), greater dispel magic, greater teleport, shapechange, telekinesis[^M] (DC 28), unhallow, unholy blight[^M] (DC 27)  ",
 			"*3/day*-quickened dominate person[^M] (DC 28), summon demons, symbol of persuasion (DC 29), sympathy (DC 31), whirlwind[^M]  ",
-			"*1/day*-dominate monster (DC 32), time stop[^M], wish[^M]  ",
-			"[^M]: Pazuzu can use the mythic version of this ability in his realm.",
+			"*1/day*-dominate monster (DC 32), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2430,7 +2439,9 @@
 			"",
 			"Pazuzu's Scepter of Shibaxet can be found [here](magic-artifact/scepter_of_shibaxet).",
 			"",
-			"**Family:** [Demon Lord](family/demon_lord)"
+			"**Family:** [Demon Lord](family/demon_lord)",
+			"",
+			"[^M]: Pazuzu can use the mythic version of this ability in his realm."
 		]
 	},
 	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
@@ -2799,8 +2810,7 @@
 			"*Constant*-detect evil, true seeing  ",
 			"*At will*-cure critical wounds[^M], detect anxieties (DC 25), detect desireI (DC 25), detect thoughts (DC 25), good hope, greater dispel magic, greater teleport, holy word[^M] (DC 30), matchmaker (DC 25), plane shift[^M] (DC 30), project image (DC 30), shapechange  ",
 			"*3/day*-discern location, quickened greater invisibility, heroes' feast, irresistible dance[^M] (DC 31), limited wish (to duplicate 5th-level or lower bard spells only), mass heal, mind blank, moment of prescience, sympathy (DC 31)  ",
-			"*1/day*-time stop[^M], wish[^M]  ",
-			"[^M]: Arshea can use the mythic version of this ability in certain conditions (see Nomadic below).",
+			"*1/day*-time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2845,7 +2855,9 @@
 			"",
 			"Arshea's holy symbol is a reclining figure draped in multicolored sashes, and their favored weapon is the flail. The Spirit of Abandon grants access to the domains of Charm, Good, Liberation, and Strength, and to the subdomains of Agathion, Freedom, Love, and Lust.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Arshea can use the mythic version of this ability in certain conditions (see Nomadic below)."
 		]
 	},
 	"arshea": { "copyof": "empyreal_lord,_arshea" },
@@ -2885,8 +2897,7 @@
 			"*Constant*-detect evil, detect law, freedom of movement, mind blank, true seeing  ",
 			"*At will*-break enchantment, calm spirit (DC 27), faerie fire[^M], find the path, flare burst (DC 26), greater dispel magic, greater teleport, haste[^M], hide from undead, holy word[^M] (DC 32), moonstruck (DC 29)  ",
 			"*3/day*-chaos hammer[^M] (DC 29), halt undead (DC 28), irresistible dance (DC 33), lunar veil (DC 32), mass cat's grace, quickened moonstruck (DC 29)  ",
-			"*1/day*-freedom, time stop, undeath to death (DC 31)  ",
-			"[^M]: Ashava can use this ability's mythic version in her realm.",
+			"*1/day*-freedom, time stop, undeath to death (DC 31)",
 			"",
 			"#### Statistics",
 			"",
@@ -2933,7 +2944,9 @@
 			"",
 			"Ashava's holy symbol is a silhouette of a dancing woman against a full moon. Her favored weapon is the [bladed scarf](equipment-weapon/bladed_scarf) and her sacred animal is the wolf. She grants access to the domains of [Chaos](domain/chaos), [Darkness](domain/darkness), [Good](domain/good), and [Repose](domain/repose), and access to the subdomains of Ancestors, Azata, Moon, and Revelry.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Ashava can use this ability's mythic version in her realm."
 		]
 	},
 	"ashava": { "copyof": "empyreal_lord,_ashava" },
@@ -2974,8 +2987,7 @@
 			"*Constant*-detect aberration, detect evil, detect law, freedom of movement, mind blank, true seeing  ",
 			"*At will*-break enchantment, deeper darkness, dimensional anchor, greater dispel magic, haste[^M], holy smite[^M] (DC 25), holy word[^M] (DC 28), interplanetary teleport, wandering star motes (DC 25)  ",
 			"*3/day*-antimagic field[^M], quickened heal[^M], reverse gravity[^M], quickened wandering star motes (DC 25)  ",
-			"*1/day*-gate, implosion (DC 30), mage's disjunction[^M], moment of prescience, time stop[^M]  ",
-			"[^M]: Black Butterfly can use this ability's mythic version in her realm.",
+			"*1/day*-gate, implosion (DC 30), mage's disjunction[^M], moment of prescience, time stop[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -3022,7 +3034,9 @@
 			"",
 			"Black Butterfly's holy symbol is a black-winged butterfly with a white star for a body on a field of purple. Her favored weapon is the starknife. She grants access to the domains of Chaos, Good, Liberation, and Void, and access to the subdomains of Azata, Freedom, Revolution, and Stars.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Black Butterfly can use this ability's mythic version in her realm."
 		]
 	},
 	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
@@ -3072,7 +3086,6 @@
 			"*2nd*-chill metal (DC 18), fog cloud, heat metal (DC 18), lesser restoration, resist energy (2)  ",
 			"*1st*-calm animals (DC 17, 2), cure light wounds (2), pass without trace (2)  ",
 			"*0*-create water, mending, purify food and drink, read magic",
-			"[^M]: Cernunnos can use the mythic version of this ability in his realm.",
 			"",
 			"#### Statistics",
 			"",
@@ -3125,7 +3138,9 @@
 			"",
 			"Cernunnos's holy symbol is the head of a stag, ram or similar horned creature with torcs or rings hanging from its horns. His favored weapon is the longbow. He grants access to the Animal, Chaos, Good, and Plant domains, and access to the Azata, Feather, Fur, and Growth subdomains.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Cernunnos can use the mythic version of this ability in his realm."
 		]
 	},
 	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
@@ -3162,8 +3177,7 @@
 			"*Constant*-detect evil, detect thoughts, foresight[^M], sanctuary[^M] (DC 25), water walk  ",
 			"*At will*-augury, bless[^M], calm animals (DC 25), calm emotions (DC 26), cure serious wounds[^M], greater teleport, mirror image[^M]  ",
 			"*3/day*-divination, mad monkeys, quickened mirror image[^M], neutralize poison, true seeing, wall of force[^M]  ",
-			"*1/day*-antimagic field, moment of prescience  ",
-			"[^M]: Korada can use the mythic version of this ability in his realm.",
+			"*1/day*-antimagic field, moment of prescience",
 			"",
 			"#### Statistics",
 			"",
@@ -3214,7 +3228,9 @@
 			"",
 			"Korada's holy symbol is two devotees kneeling before a lotus or a golden monkey with three tails. His favored weapon is the unarmed strike. His clerics have access to the domains of Good, Healing, Magic, and Protection, and the subdomains of Agathion, Defense, Divine, and Restoration.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Korada can use the mythic version of this ability in his realm."
 		]
 	},
 	"korada": { "copyof": "empyreal_lord,_korada" },
@@ -3254,8 +3270,7 @@
 			"*Constant*-detect evil, holy aura (DC 27), true seeing  ",
 			"*At will*-bestow grace, fire of judgment (DC 22), greater dispel magic, greater teleport, holy word[^M] (DC 26), geas/ quest, mark of justice, shield other[^M]  ",
 			"*3/day*-banishment (DC 26), quickened blade barrier[^M] (DC 25), blessing of fervor, discern location, heal[^M]  ",
-			"*1/day*-gate, meteor swarm[^M] (DC 28), time stop[^M]  ",
-			"[^M]: Ragathiel can use this ability's mythic version in his realm.",
+			"*1/day*-gate, meteor swarm[^M] (DC 28), time stop[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -3302,7 +3317,9 @@
 			"",
 			"Ragathiel's holy symbol is a bastard sword across a crimson wing. His favored weapon is the bastard sword. His clerics have access to the domains of Destruction, Good, Law, and Nobility, and the subdomains of Archon, Judgment, Martyr, and Rage.",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Ragathiel can use this ability's mythic version in his realm."
 		]
 	},
 	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
@@ -3345,7 +3362,6 @@
 			"*3rd*-dispel magic, fires of judgment (DC 18), prayer, righteous vigor  ",
 			"*2nd*-bull's strength, corruption resistance, litany of warding, remove paralysis, shield other  ",
 			"*1st*-divine favor (3), hero's defiance, lesser restoration (2)",
-			"[^M]: Vildeis can use the mythic version of this ability in her realm.  ",
 			"",
 			"#### Statistics",
 			"",
@@ -3390,7 +3406,9 @@
 			"",
 			"The artifact Cicatrix can be found [here](magic-artifact/cicatrix).",
 			"",
-			"**Family:** [Empyreal Lord](family/empyreal_lord)"
+			"**Family:** [Empyreal Lord](family/empyreal_lord)",
+			"",
+			"[^M]: Vildeis can use the mythic version of this ability in her realm.  "
 		]
 	},
 	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
@@ -3497,7 +3515,7 @@
 			"*2nd*-align weapon[^D] (chaos only), hold person (DC 16), resist energy, spiritual weapon  ",
 			"*1st*-cure light wounds, divine favor, murderous command (DC 15), protection from law[^D], shield of faith  ",
 			"*0 (at will)*-bleed (DC 14), create water, detect magic, purify food and drink (DC 14)  ",
-			"[^D]: Domain spell; **Domains** Chaos, Madness",
+			"**Domains** Chaos, Madness",
 			"",
 			"#### Statistics",
 			"",
@@ -3513,7 +3531,9 @@
 			"",
 			"A devotee of the goddess Lamashtu, Eudranis found himself as a speaker for the Mother of Monsters following his tribe's encounter with a group of Pathfinder Society agents. These agents presented themselves as the morlocks' ancestors, effectively turning Eudranis's tribe into indentured slave labor for the Pathfinders' archaeological endeavors. Though he was initially honored to serve his revered ancestors, Eudranis became suspicious when they appeared to have only their own interests in mind, ignoring the well-being of their \"descendants.\" Following a vivid nightmare in which the Pathfinders abandoned the morlocks and absconded with the treasures of their ancestors, Eudranis spied on the resting agents. Overhearing the Pathfinders' mockery of the simple morlocks shattered Eudranis's faith in his ancestor worship. He began preaching against the Pathfinders in secret and gathered his tribe for a retributive strike.",
 			"",
-			"Following a night of bloodshed, the morlocks tortured and slew the Pathfinders, whose screams echoed through the ruins of the ancient Azlanti city they had come to plunder. The morlocks soon hailed Eudranis as a prophet of the tribe's new true goddess, Lamashtu. Guiding his tribe fully into Lamashtu's worship, Eudranis has vowed never to be tricked by humanity again. The morlocks of his tribe have embraced their monstrous physiques and abandoned the reverence their race traditionally holds for their human ancestors."
+			"Following a night of bloodshed, the morlocks tortured and slew the Pathfinders, whose screams echoed through the ruins of the ancient Azlanti city they had come to plunder. The morlocks soon hailed Eudranis as a prophet of the tribe's new true goddess, Lamashtu. Guiding his tribe fully into Lamashtu's worship, Eudranis has vowed never to be tricked by humanity again. The morlocks of his tribe have embraced their monstrous physiques and abandoned the reverence their race traditionally holds for their human ancestors.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"fyndylsnitch_the_shadowking": {

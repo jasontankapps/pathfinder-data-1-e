@@ -81,7 +81,7 @@ const options = {
 		{
 			name: 'tags',
 			getFn: (item: Item) => item.tags || "",
-			weight: 0.7
+			weight: 0.9
 		}
 	],
 	threshold: 0.8,

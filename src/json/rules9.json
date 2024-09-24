@@ -545,9 +545,6 @@
 			"| Hard to heal | -1[^1] |",
 			"| Susceptible to | -1[^2] |",
 			"",
-			"[^1]: Loci spirits that are hard to heal gain only half the normal amount of hit points from effects that restore hit points.",
-			"[^2]: Loci spirits that are susceptible to corruption lose twice the amount of hit points from corrupting actions.",
-			"",
 			"### Benevolent Priest CR 5",
 			"",
 			"**XP 1,600** NG protective coterie loci spirit (10-ft.-by-10-ft. room) **Caster Level** 5th hp 10; **Ceremony** Knowledge (religion) DC 25, Survival DC 25 **Effect** When the celebrant performs the appropriate offering of twigs and berries, the loci spirit manifests as a ghostly, rotund man in clerical garb bearing trays of food, which he offers to the celebrant and its allies, as the [create food and water](spell/create_food_and_water) spell. **Corruption Effect** [Create food and water](spell/create_food_and_water) becomes [contagion](spell/contagion) (DC 14).",
@@ -558,7 +555,10 @@
 			"",
 			"### Hero's Call CR 4",
 			"",
-			"**XP 1,200** CG energized singular loci spirit (15-ft. radius centered on the hero's statue) **Caster Level** 4th hp 8; **Ceremony** Knowledge (history) DC 24, Perform (oratory) DC 24 **Effect** The celebrant entreats the brave hero from the ancient past, recalling the hero's great deeds and requesting some of the hero's strength for the celebrant's own quest. If the ceremony is successful, the hero's statue seems to raise its sword in a salute, and the celebrant gains the benefit of a [heroism](spell/heroism) spell. **Corruption Effect** [Heroism](spell/heroism) becomes [scare](spell/scare) (DC 13)."
+			"**XP 1,200** CG energized singular loci spirit (15-ft. radius centered on the hero's statue) **Caster Level** 4th hp 8; **Ceremony** Knowledge (history) DC 24, Perform (oratory) DC 24 **Effect** The celebrant entreats the brave hero from the ancient past, recalling the hero's great deeds and requesting some of the hero's strength for the celebrant's own quest. If the ceremony is successful, the hero's statue seems to raise its sword in a salute, and the celebrant gains the benefit of a [heroism](spell/heroism) spell. **Corruption Effect** [Heroism](spell/heroism) becomes [scare](spell/scare) (DC 13).",
+			"",
+			"[^1]: Loci spirits that are hard to heal gain only half the normal amount of hit points from effects that restore hit points.",
+			"[^2]: Loci spirits that are susceptible to corruption lose twice the amount of hit points from corrupting actions."
 		],
 		"parent_topics": [
 			"gamemastering",

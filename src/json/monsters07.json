@@ -5156,8 +5156,7 @@
 			"*Constant* - greater invisibility  ",
 			"*At will* - bleed (DC 15), ghost sound[^D] (DC 15), greater teleport (self plus 50 lbs. of objects only), knock[^D] (DC 17), levitate[^D] (DC 17), major image[^D] (DC 18), prestidigitation[^D] (DC 15), unseen servant[^D] (DC 16)  ",
 			"*3/day* - animate dead, animate rope[^D] (DC 16), bestow curse (DC 19), contagion (DC 19), dancing lights[^D] (DC 15), ethereal jaunt (Ethereal Plane to Material Plane and vice versa), gust of wind[^D] (DC 17), major creation, plane shift (self only; to Ethereal Plane, Hell, or Material Plane only), produce flame[^D] (DC 16), stinking cloud (DC 18), suggestion (DC 18)  ",
-			"*1/day* - summon (level 5, 1d4 lesser possession devils, 40%)  ",
-			"[^D]: causes dread (see below)",
+			"*1/day* - summon (level 5, 1d4 lesser possession devils, 40%)",
 			"",
 			"#### Statistics",
 			"",
@@ -5196,7 +5195,9 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** [Devil](family/devil)",
+			"",
+			"[^D]: causes dread (see special abilities)"
 		]
 	},
 	"greater_gidim": { "copyof": "devil,_possession_devil,_greater_gidim" },
@@ -5236,8 +5237,7 @@
 			"*Constant* - greater invisibility  ",
 			"*At will* - bleed (DC 13), ghost sound[^D] (DC 13), greater teleport (self plus 50 lbs. of objects only), knock[^D] (DC 15), levitate[^D] (DC 15), open/close[^D] (DC 13), prestidigitation[^D] (DC 13), mage hand[^D] (DC 13)  ",
 			"*3/day* - animate rope[^D] (DC 14), dancing lights[^D] (DC 13), ethereal jaunt (Ethereal Plane to Material Plane and vice versa), minor creation, plane shift (self only; to Ethereal Plane, Hell, or Material Plane only), produce flame[^D] (DC 14), silent image[^D] (DC 14), suggestion (DC 16), unseen servant[^D] (DC 14)  ",
-			"*1/day* - summon (level 4, 1 lesser possession devil, 40%)  ",
-			"[^D]: causes dread",
+			"*1/day* - summon (level 4, 1 lesser possession devil, 40%)",
 			"",
 			"#### Statistics",
 			"",
@@ -5276,7 +5276,9 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** [Devil](family/devil)",
+			"",
+			"[^D]: causes dread (see special abilities)"
 		]
 	},
 	"lesser_gidim": { "copyof": "devil,_possession_devil,_lesser_gidim" },

@@ -198,8 +198,7 @@
 			"*3rd (8/day)*-create food and water, invisibility purge, speak with dead (DC 22), wind wall  ",
 			"*2nd (8/day)*-calm emotions (DC 21), hold person (DC 21), silence (DC 21), sound burst (DC 21), zone of truth (DC 21)  ",
 			"*1st (9/day)*-comprehend languages, divine favorM, obscuring mist[^M], sanctuary[^M] (DC 20), shield of faith[^M]  ",
-			"*0 (at will)*-create water, detect magic, detect poison, guidance, light, mending, purify food and drink, read magic, stabilize  ",
-			"[^M]: mythic spell",
+			"*0 (at will)*-create water, detect magic, detect poison, guidance, light, mending, purify food and drink, read magic, stabilize",
 			"",
 			"#### Statistics",
 			"",
@@ -240,7 +239,9 @@
 			"",
 			"Apkallus appear as large, muscular humanoids with the feathered heads of raptors, and with powerful, hawk-like wings. They dress in surplices of fish scales, which glitter with a milky iridescence that casts shimmering rainbows across their forms, and they typically carry magical bronze spears. They can also adopt two alternate forms-one human, and one merfolk-in which they move through terrestrial and aquatic settlements and cities, respectively.",
 			"",
-			"While apkallus are peaceful by nature, they are nevertheless capable of defending themselves and others with powerful magic, especially in defense of Utopia or mortal cities under their protection."
+			"While apkallus are peaceful by nature, they are nevertheless capable of defending themselves and others with powerful magic, especially in defense of Utopia or mortal cities under their protection.",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"apocalypse_locust_mythic": {
@@ -1602,8 +1603,7 @@
 			"*4th (7)*-fear (DC 21), fire shield, greater invisibility, stoneskin[^M]  ",
 			"*3rd (8)*-dispel magic[^M], displacement, haste[^M], tongues  ",
 			"*2nd (8)*-alter self, detect thoughts (DC 19), misdirection, resist energy[^M], see invisibility  ",
-			"*1st (8)*-alarm, grease, magic missile[^M], shield, true strike[^M]  ",
-			"[^M]: Mythic spell",
+			"*1st (8)*-alarm, grease, magic missile[^M], shield, true strike[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -1631,7 +1631,9 @@
 			"Mythic red dragons use their magic to protect their lairs with a variety of protective spells. A typical lair also contains slave-built mundane traps, environmental hazards such as steam vents poisonous fumes, and (if within an active volcano) molten rock as part of its defenses.",
 			"",
 			"**Family:** [True Dragon](family/true_dragon)  ",
-			"**Family:** [Red Dragon](family/red_dragon)"
+			"**Family:** [Red Dragon](family/red_dragon)",
+			"",
+			"[^M]: Mythic spell"
 		]
 	},
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
@@ -3442,8 +3444,7 @@
 			"*3rd*-bestow curse (2, DC 23), contagion[^M] (DC 23), dispel magic[^D], invisibility purge, meld into stone, protection from energy  ",
 			"*2nd*-align weapon[^D] (evil only), calm emotions (DC 20), darkness, desecrate, hold person (DC 20), resist energy, spiritual weapon  ",
 			"*1st*-bane (DC 19), cause fear (DC 21), deathwatch, entropic shield, identify[^D], obscuring mist (2)  ",
-			"*0 (at will)*-bleed (DC 20), detect magic, purify food and drink, read magic [^D]: Domain spell; Domains Evil, Magic  ",
-			"[^M]: Mythic spell",
+			"*0 (at will)*-bleed (DC 20), detect magic, purify food and drink, read magic [^D]: Domain spell; Domains Evil, Magic",
 			"",
 			"#### Statistics",
 			"",
@@ -3502,7 +3503,9 @@
 			"| 14-15 | 7th | Augmented spellcasting, spell perception |",
 			"| 16-17 | 8th | Channel resistance +12, immediate counterspell |",
 			"| 18-19 | 9th | Enhanced spellcasting, sustained by magic |",
-			"| 20+ 10th Channel resistance (immunity), formidable animation |"
+			"| 20+ 10th Channel resistance (immunity), formidable animation |",
+			"",
+			"[^M]: Mythic spell"
 		]
 	},
 	"manasaputra,_solar_pitri_agnishvatta_mythic": {
@@ -3539,8 +3542,7 @@
 			"*At will*-greater teleport (self only), plane shift[^M] (self only)  ",
 			"*1/day*-miracle (DC 28), true resurrection, wish[^M] (DC 28)  ",
 			"**Psychic Magic** (CL 20th; concentration +29; Wisdom-based)  ",
-			"*36 PE*-awaken construct (6 PE, DC 25), divide mind (9 PE), ego whip V (7 PE, DC 26), greater create mindscape (6 PE, DC 25), mindscape door (5 PE, DC 24), retrocognition (5 PE)  ",
-			"[^M]: mythic spell-like ability",
+			"*36 PE*-awaken construct (6 PE, DC 25), divide mind (9 PE), ego whip V (7 PE, DC 26), greater create mindscape (6 PE, DC 25), mindscape door (5 PE, DC 24), retrocognition (5 PE)",
 			"",
 			"#### Statistics",
 			"",
@@ -3579,7 +3581,9 @@
 			"",
 			"The lore regarding the relationship between the solar pitris and mortal races is less muddled. Most stories relate that at the dawn of creation, solar pitris took pity on misguided mortals, who were confused by the teachings and guidance given to them by the twilight pitris. The twilight pitris' nurturing led to overly rational mortals who lacked the compassion and empathy necessary for true enlightenment. The solar pitris intervened, and granted those wayward mortals a favored place in the cycle of cosmic reincarnation. Scholars speculate that this act on the part of the solar pitris was the first step that led to the evolution of samsarans, though many samsarans deny this story, instead insisting that they are early forms of what will later become the next wave of manasaputras.",
 			"",
-			"Because of their unfathomably ancient minds and farreaching plans, solar pitris rarely interact with other creatures. They must restrain their power, lest their very presence prove deadly to other living beings. Solar pitris are creatures of fire, and even witnessing a solar pitri shifting from corporeality to incorporeality from afar can blind mortals. Creatures that come close to a solar pitri are scorched by the outsider's boundless, radiant energies. Adherents of some cults attempt such approaches regardless of the danger, believing that even if they burn to death, their souls will be purified by the solar pitri's presence. Most of what is known about solar pitris comes from the teachings handed down to mortals by lesser manasaputras, the traditions of those samsarans who believe that they are connected to manasaputras (or even that they are some early form of manu), the often wild and fanciful speculation of occult thinkers, the feverish dreams of eccentric mystics, and the few legitimate historical accounts of the various kumaras leaving their contemplation within the Cosmic Fire and interacting with mortals. But even then, only monumental events such as mass extinctions of whole worlds, the death of gods, the eradication of an entire intelligent species, or other reality-shaking events draw solar pitris' attention. Otherwise, their time is spent pondering unknowable truths and guiding other manasaputras from deep within the heart of the Positive Energy Plane."
+			"Because of their unfathomably ancient minds and farreaching plans, solar pitris rarely interact with other creatures. They must restrain their power, lest their very presence prove deadly to other living beings. Solar pitris are creatures of fire, and even witnessing a solar pitri shifting from corporeality to incorporeality from afar can blind mortals. Creatures that come close to a solar pitri are scorched by the outsider's boundless, radiant energies. Adherents of some cults attempt such approaches regardless of the danger, believing that even if they burn to death, their souls will be purified by the solar pitri's presence. Most of what is known about solar pitris comes from the teachings handed down to mortals by lesser manasaputras, the traditions of those samsarans who believe that they are connected to manasaputras (or even that they are some early form of manu), the often wild and fanciful speculation of occult thinkers, the feverish dreams of eccentric mystics, and the few legitimate historical accounts of the various kumaras leaving their contemplation within the Cosmic Fire and interacting with mortals. But even then, only monumental events such as mass extinctions of whole worlds, the death of gods, the eradication of an entire intelligent species, or other reality-shaking events draw solar pitris' attention. Otherwise, their time is spent pondering unknowable truths and guiding other manasaputras from deep within the heart of the Positive Energy Plane.",
+			"",
+			"[^M]: mythic spell-like ability"
 		]
 	},
 	"agnishvatta_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
@@ -4323,8 +4327,7 @@
 			"*Constant*-arcane sight  ",
 			"*At will*-crushing despair, fog cloud[^M], good hope, hydraulic torrent[^M], water walk  ",
 			"*3/day*-control water (DC 21), dispel magic[^M], quickened rusting grasp, warp wood (DC 19)  ",
-			"*1/day*-control weather (as druid), vortex (DC 24)  ",
-			"[^M]: mythic spell",
+			"*1/day*-control weather (as druid), vortex (DC 24)",
 			"",
 			"#### Statistics",
 			"",
@@ -4371,7 +4374,9 @@
 			"",
 			"On their native plane, portunuses are most often found where the Plane of Water borders other planes, playing among the storms where it meets the Plane of Air or hiding within the chasms where it meets the Plane of Earth. Large chunks of other elements floating in the endless sea might also contain hollows where portunuses dwell. On the Material Plane, each portunus is bound to a specific natural harbor, which serves as a link to its home plane. A portunus can leave its bonded harbor, but these excursions are infrequent and usually short. Though they might be found along any coast, portunuses are most common in regions with many inlets, especially the sunken continent of Azlant, the many islands of Iblydos, and the fjords of the Lands of the Linnorm Kings.",
 			"",
-			"Portunuses serve as protectors of their harbors and the creatures that live there. While they may be initially wary of humanoids making use of their harbors, most portunuses come to view them as just another part of the bay's ecosystem, as long as the humanoids are respectful of nature."
+			"Portunuses serve as protectors of their harbors and the creatures that live there. While they may be initially wary of humanoids making use of their harbors, most portunuses come to view them as just another part of the bay's ecosystem, as long as the humanoids are respectful of nature.",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"rakshasa_mythic": {
@@ -4406,8 +4411,7 @@
 			"*3rd (7)*-lightning bolt[^M] (DC 18), suggestion[^M] (DC 18), vampiric touch  ",
 			"*2nd (7)*-acid arrow, invisibility[^M], minor image (DC 17), mirror image  ",
 			"*1st (8)*-charm person (DC 16), mage armor, magic missile[^M], shield, silent image[^M] (DC 16)  ",
-			"*0 (at will)*-dancing lights, detect magic, ghost sound (DC 15), mage hand, mending, message, prestidigitation  ",
-			"[^M]: Mythic spell",
+			"*0 (at will)*-dancing lights, detect magic, ghost sound (DC 15), mage hand, mending, message, prestidigitation",
 			"",
 			"#### Statistics",
 			"",
@@ -4434,7 +4438,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic rakshasa is a natural mind reader and uses its abilities to tempt great heroes into failure and ruin-all toward to ultimate goal of seeding an entire civilization's destruction."
+			"A mythic rakshasa is a natural mind reader and uses its abilities to tempt great heroes into failure and ruin-all toward to ultimate goal of seeding an entire civilization's destruction.",
+			"",
+			"[^M]: Mythic spell"
 		]
 	},
 	"shen_mythic": {
@@ -4476,8 +4482,7 @@
 			"*4th (7/day)*-dimension door[^M], greater invisibility, rainbow pattern (DC 24), shadow conjuration (DC 24)  ",
 			"*3rd (7/day)*-deep slumber[^M] (DC 19), dispel magic, haste[^M], major image (DC 23)  ",
 			"*2nd (8/day)*-euphoric cloud (DC 18), hypnotic pattern (DC 22), minor image[^M] (DC 22), mirror image, invisibility[^M]  ",
-			"*1st (8/day)*-comprehend languages, obscuring mist, silent image (DC 21), unseen servant, vanish  ",
-			"[^M]: mythic spell",
+			"*1st (8/day)*-comprehend languages, obscuring mist, silent image (DC 21), unseen servant, vanish",
 			"",
 			"#### Statistics",
 			"",
@@ -4526,7 +4531,9 @@
 			"",
 			"To protect their treasures, shen create immense mirage castles on or in the bodies of water they call home. These castles are often huge, encompassing dozens of empty rooms bedecked in illusory silks and gold, opulent dining halls outfitted with phantasmal furniture, and massive antechambers illuminated by simulated chandeliers. No one understands exactly why these creatures choose to model their mirage homes after human dwellings, and often the surface resemblance only serves to further confuse and befuddle visitors.",
 			"",
-			"Despite being solitary creatures, shen socialize more often than many other types of dragons, and on occasion conspire along with fellow shen to accomplish some great task or deed. Though such groups rarely interfere with the more ephemeral races, they are known to show pity in times of great need and have delivered much needed rains during drought or rid the areas neighboring their homes of some particularly bothersome creatures. Because of this and out of fear for the great beasts, local peoples give shen considerable reverence, and pay the dragons tribute with sacrifices or treasure."
+			"Despite being solitary creatures, shen socialize more often than many other types of dragons, and on occasion conspire along with fellow shen to accomplish some great task or deed. Though such groups rarely interfere with the more ephemeral races, they are known to show pity in times of great need and have delivered much needed rains during drought or rid the areas neighboring their homes of some particularly bothersome creatures. Because of this and out of fear for the great beasts, local peoples give shen considerable reverence, and pay the dragons tribute with sacrifices or treasure.",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"sphinx_mythic": {

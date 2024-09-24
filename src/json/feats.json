@@ -4055,7 +4055,6 @@
 			"| Disruption | 3 | 6th |",
 			"| Lifesurge | 3 | 6th |",
 			"| Nullifying | 4 | 9th |",
-			"[^N]: You must choose the creature type or subtype at the time of blessing.",
 			"",
 			"| Armor/Shield Blessings | Uses of Channel Energy | Caster Level Required |",
 			"| --- | --- | --- |",
@@ -4063,6 +4062,8 @@
 			"| Stanching[^S] | 2 | 3rd |",
 			"| Ghost touch | 4 | 9th |",
 			"| Undead-controlling | 6 | 13th |",
+			"",
+			"[^N]: You must choose the creature type or subtype at the time of blessing.",
 			"[^S]: Cannot be applied to shields."
 		]
 	},

@@ -4759,7 +4759,7 @@
 			"*2nd*-barkskin, cat's grace, cure moderate wounds[^D], flaming sphere (DC 18), lesser restoration, soften earth and stone, tree shape  ",
 			"*1st*-ant haul, cure light wounds[^D], endure elements, faerie fire, goodberry, longstrider, obscuring mist  ",
 			"*0*-create water, detect magic, purify food and drink, stabilize  ",
-			"[^D]: Domain spell; **Domain** Healing",
+			"**Domain** Healing",
 			"",
 			"#### Statistics",
 			"",
@@ -4788,7 +4788,9 @@
 			"",
 			"#### Description",
 			"",
-			"Fastachees are mysterious, wise, and generous fey who foster the growth of nearby plants. Many communities who interact with them revere them as bringers of food and medicine, as well as protectors of crops. These fey have a particularly strong connection to corn; they regularly project their senses through corn plants to monitor the health of the field and search the local area for threats. They prefer to avoid direct confrontation if possible, using their ability to originate their spells from corn plants to harass those they wish to chase away."
+			"Fastachees are mysterious, wise, and generous fey who foster the growth of nearby plants. Many communities who interact with them revere them as bringers of food and medicine, as well as protectors of crops. These fey have a particularly strong connection to corn; they regularly project their senses through corn plants to monitor the health of the field and search the local area for threats. They prefer to avoid direct confrontation if possible, using their ability to originate their spells from corn plants to harass those they wish to chase away.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"faun": {

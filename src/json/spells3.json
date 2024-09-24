@@ -4034,9 +4034,9 @@
 			"| Aligned outsider (HD) | - | 1 or lower | 2-4 | 5-10 | 11 or higher |",
 			"| Cleric or paladin of an aligned deity[^A] (class levels) | - | 1 | 2-4 | 5-10 | 11 or higher |",
 			"| Aligned magic item or spell (caster level) | 5th or lower | 6th-10th | 11th-15th | 16th-20th | 21st or higher |",
-			"[^E]: Excludes undead and outsiders, which have their own entries on the table.",
 			"",
-			"[^A]: Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies."
+			"[^A]: Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.",
+			"[^E]: Excludes undead and outsiders, which have their own entries on the table."
 		]
 	},
 	"detect_fiendish_presence": {

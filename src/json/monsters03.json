@@ -6543,7 +6543,7 @@
 			"*2nd*-bear's endurance, death knell (DC 17), enthrall (DC 17), fog cloud[^D], resist energy, sound burst (DC 17)  ",
 			"*1st*-bane (DC 16), bless, cure light wounds, divine favor, protection from good[^D], sanctuary (DC 16), shield of faith  ",
 			"*0 (at will)*-create water, detect poison, guidance, purify food and water  ",
-			"[^D]: Domain spell; **Domains** Evil, Water",
+			"**Domains** Evil, Water",
 			"",
 			"#### Tactics",
 			"",
@@ -6565,7 +6565,9 @@
 			"",
 			"#### Description",
 			"",
-			"Boggard priest-kings are the undisputed lords of their tribes, interpreting the wills of their dark patron deities (wills that are often suspiciously similar to what the priest-kings themselves desire). Grotesquely large, a boggard priest-king is usually the tribe's most capable combatant, and acts as a champion when needed."
+			"Boggard priest-kings are the undisputed lords of their tribes, interpreting the wills of their dark patron deities (wills that are often suspiciously similar to what the priest-kings themselves desire). Grotesquely large, a boggard priest-king is usually the tribe's most capable combatant, and acts as a champion when needed.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"boggard_priest-king": { "copyof": "boggard,_boggard_priest-king" },
@@ -6805,7 +6807,7 @@
 			"*2nd*-bull's strength, burst of nettles[^D], summon swarm  ",
 			"*1st*-entangle (DC 13), hydraulic push[^D], longstrider, shillelagh  ",
 			"*0 (at will)*-flare (DC 12), guidance, mending, resistance  ",
-			"[^D]: Domain spell; **Domain** Swamp",
+			"**Domain** Swamp",
 			"",
 			"#### Statistics",
 			"",
@@ -6823,7 +6825,9 @@
 			"",
 			"#### Description",
 			"",
-			"These casters are often the children of the priest-king."
+			"These casters are often the children of the priest-king.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"boggard_swampseer": { "copyof": "boggard,_boggard_swampseer" },

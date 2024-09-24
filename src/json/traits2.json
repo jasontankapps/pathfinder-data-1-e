@@ -174,13 +174,13 @@
 		"description": [
 			"## Fey Protection",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your birth brought an unexpected guest to your parents' home: a helpful fey who prophesied about your future and gave you a magical gift in exchange for your parents' hospitality, a cup of milk, and a drop of your blood. You gain a +1 trait bonus to AC against attacks of opportunities made by fey and a +1 trait bonus on saving throws against the effects of fey creatures.",
 			"",
 			"Suggested Characters: Drumans, Eldest worshipers, Ulfen."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"fey-taken": {
 		"name": "Fey-Taken",
@@ -464,11 +464,11 @@
 		"description": [
 			"## Flame-Touched",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You share an affinity with elemental fire. You gain DR 1/- against creatures and attacks with the fire type."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"flame_touched": {
 		"copyof": "flame-touched"
@@ -548,11 +548,11 @@
 		"description": [
 			"## Focused Burn",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You know the secret of making punishing fire bombs. Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"focused_disciple": {
 		"name": "Focused Disciple",
@@ -576,11 +576,11 @@
 		"description": [
 			"## Focused Mind",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"foe_of_the_strange": {
 		"name": "Foe of the Strange",
@@ -848,13 +848,13 @@
 		"description": [
 			"## Fortunate",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You are blessed by fate. Once per day when you use a spell or magic item with a randomized effect (such as confusion, mirror image, prismatic spray, or a bag of tricks), before you roll to determine the result, you may choose to roll twice and pick either result.",
 			"",
 			"Suggested Characters: Calistrians, harrow deck readers, Vudrani."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"fortune_found": {
 		"name": "Fortune Found",
@@ -1650,11 +1650,11 @@
 		"description": [
 			"## Gifted Adept",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait-from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"gifted_medium": {
 		"name": "Gifted Medium",
@@ -2035,11 +2035,11 @@
 		"description": [
 			"## Greater Link",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"The link between you and your eidolon is stronger than most. Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"greater_purpose": {
 		"name": "Greater Purpose",
@@ -2047,11 +2047,11 @@
 		"description": [
 			"## Greater Purpose",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You are convinced you're alive to achieve a great purpose. You gain a +1 trait bonus on all saving throws to resist death effects and a +1 trait bonus on Constitution checks made to stabilize while dying."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"green-blooded": {
 		"name": "Green-Blooded",
@@ -2059,11 +2059,11 @@
 		"description": [
 			"## Green-Blooded",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level druid spell. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"green_blooded": {
 		"copyof": "green-blooded"
@@ -2250,11 +2250,11 @@
 		"description": [
 			"## Guiding Spirit",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have brief ly glimpsed this strange spirit-or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"guilty_fraud": {
 		"name": "Guilty Fraud",
@@ -2529,11 +2529,11 @@
 		"description": [
 			"## Hedge Magician",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques. Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"hedonistic": {
 		"name": "Hedonistic",
@@ -2739,11 +2739,11 @@
 		"description": [
 			"## Hex-Proof",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You've dealt too often with cruel fey magic, and so gain a +2 bonus on Will saves against hexes and fey creatures' spells and spell-like abilities."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"hex_proof": {
 		"copyof": "hex-proof"
@@ -3039,11 +3039,11 @@
 		"description": [
 			"## Horrifying Mind",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is shaken for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"horse_lord": {
 		"name": "Horse Lord",
@@ -3077,11 +3077,11 @@
 		"description": [
 			"## House of Green Mothers Pupil",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for [Iron Will](feat/iron_will) as the prerequisite for the [Familiar Bond](feat/familiar_bond) feat."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"huldra's_luck": {
 		"name": "Huldra's Luck",
@@ -3696,11 +3696,11 @@
 		"description": [
 			"## Insistent Benefactor",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies. Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"inspired": {
 		"name": "Inspired",
@@ -3855,11 +3855,11 @@
 		"description": [
 			"## Internal Compass",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You maintain a sense of direction, even on planes where direction is relative. If you are on a plane that has no analogue to north, you automatically know the direction toward the plane's major dominating feature (for instance, Pharasma's Spire in the Boneyard, or the sun in Nirvana). If there is no such dominating feature, you instead know the direction of the closest feature significant to one of the plane's divinities or demigods."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"into_enemy_territory": {
 		"name": "Into Enemy Territory",
@@ -3923,13 +3923,13 @@
 		"description": [
 			"## Inured to Death",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You have been around death or the undead all of your life; you have become accustomed to its shadowy presence, and are no longer overwhelmed by it. You gain a +2 trait bonus on saving throws against death effects.",
 			"",
 			"Suggested Characters: Gebbites, Urgathoans, Ustalavs."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"inured_to_disease": {
 		"name": "Inured to Disease",
@@ -4368,13 +4368,13 @@
 		"description": [
 			"## Keen Appraiser",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your frequent handling of magic items, artifacts, and other enchanted goods has made you an expert at determining when something has magical properties. You gain a +1 trait bonus on Appraise checks. In addition, you need only exceed the DC of an Appraise check by 2 in order to determine whether the item in question has magic properties (although success still does not grant knowledge of the magic item's abilities).",
 			"",
 			"Suggested Characters: Drumans, dwarves, Torag worshipers."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"keeper_of_the_ancestral_scrolls": {
 		"name": "Keeper of the Ancestral Scrolls",
@@ -4477,11 +4477,11 @@
 		"description": [
 			"## Kin Bond",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"The bond between you and a close sibling is nearly mystical. Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are dazed for 1 round."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"kin_guardian": {
 		"name": "Kin Guardian",
@@ -4541,11 +4541,11 @@
 		"description": [
 			"## Knowledgeable Caster",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any Knowledge checks associated with your sorcerer bloodline, if any."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"kobold_faith": {
 		"name": "Kobold Faith",
@@ -4675,11 +4675,11 @@
 		"description": [
 			"## Lamia's Bane",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms. You gain a +1 trait bonus on saving throws against enchantment effects and a +2 trait bonus on saving throws against the spells and spell-like abilities of lamias."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"lantern_spirit": {
 		"name": "Lantern Spirit",
@@ -4843,11 +4843,11 @@
 		"description": [
 			"## Less Effort",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Select one spell belonging to the abjuration or transmutation school on your spell list. When you cast that spell or it is cast on you, treat the caster level as 2 higher for the purpose of determining the duration."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"lessons_of_chaldira": {
 		"name": "Lessons of Chaldira",
@@ -5044,11 +5044,11 @@
 		"description": [
 			"## Linked Surge",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Once per day, you may make a Strength- or Constitution-based ability check or skill check using you eidolon's ability score in place of your own. Your eidolon must be summoned and with 30 feet for you to use this trait."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"lion's_audacity": {
 		"name": "Lion's Audacity",
@@ -5338,11 +5338,11 @@
 		"description": [
 			"## Low Blow",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"When targeting a good-aligned creature with a spell or spell-like ability with the pain descriptor or that imposes a morale penalty, increase its effective caster level by 1. If you are of an evil alignment, increase the save DC of the effect by 1 as well."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"loyal_bond": {
 		"name": "Loyal Bond",
@@ -5414,11 +5414,11 @@
 		"description": [
 			"## Lunar Birth",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic. You gain a +1 trait bonus on saving throws against the spells and spell-like abilities cast by humans."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"lycanthropic_bloodlust": {
 		"name": "Lycanthropic Bloodlust",
@@ -5468,11 +5468,11 @@
 		"description": [
 			"## Magic Crafter",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your early magical training involved study of the properties and creation of magic items. You gain a +1 trait bonus on Appraise checks and a +1 bonus on any Craft checks attempted while making magic items."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"magic_is_life": {
 		"name": "Magic Is Life",
@@ -5536,13 +5536,13 @@
 		"description": [
 			"## Magical Flair",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"At a young age, you saw a witch burned by fearful peasants, druids falsely punished for demon worship, or another sort of spellcaster persecuted for merely practicing her dubious craft. Intent on not suffering the same fate, you approach spellcasting with a powerful desire to control how your magic is perceived by others. You can cause spells you cast to manifest with strange visual, auditory, or olfactory features that make them hard to identify. Choose a school of magic. The Spellcraft DC to identify spells you cast from that school of magic increases by 2. Onlookers who fail a Spellcraft check to identify your spell by 2 or less incorrectly identify the spell as another randomly selected spell of the same school and level.",
 			"",
 			"Suggested Characters: Gnomes, Razmir worshipers, witches."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"magical_klutz": {
 		"name": "Magical Klutz",
@@ -5566,11 +5566,11 @@
 		"description": [
 			"## Magical Knack",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait-your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"magical_lineage": {
 		"name": "Magical Lineage",
@@ -5582,11 +5582,11 @@
 		"description": [
 			"## Magical Lineage",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two-and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"magical_talent": {
 		"name": "Magical Talent",
@@ -5598,11 +5598,11 @@
 		"description": [
 			"## Magical Talent",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"making_good_on_promises": {
 		"name": "Making Good on Promises",
@@ -5650,11 +5650,11 @@
 		"description": [
 			"## Malleable Magic",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Once per day as a swift action, you can lose a single 1st-, 2nd- or 3rd-level magus spell to regain 1 arcane pool point. You can't exceed the maximum number of arcane pool points in your arcane pool by using this trait."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"mammoth_master": {
 		"name": "Mammoth Master",
@@ -5898,11 +5898,11 @@
 		"description": [
 			"## Mathematical Prodigy",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Mathematics has always come easily for you, and you have always been able to \"see the math\" in the physical and magical world. You gain a +1 bonus on Knowledge (arcana) and Knowledge (engineering) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"mechanical_aptitude": {
 		"name": "Mechanical Aptitude",
@@ -5910,11 +5910,11 @@
 		"description": [
 			"## Mechanical Aptitude",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You have learned much from tinkering with ancient technology from the Jistka Imperium. Choose one of the following skills: Disable Device, Knowledge (engineering), or Use Magic Device. Once per day, you can reroll a check with that skill before the outcome of the check is revealed. You must take the second result, even if it is worse."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"mechanical_expertise": {
 		"name": "Mechanical Expertise",
@@ -6117,11 +6117,11 @@
 		"description": [
 			"## Meticulous Concoction",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your meticulous carefulness makes your bombs and extracts more potent. Once per day, you can either add a +2 trait bonus to the save DC for one bomb you throw or extend the duration of one extract you imbibe by 2 rounds. Extracts with an instantaneous duration are not affected by this trait."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"mighty_protector": {
 		"name": "Mighty Protector",
@@ -6604,13 +6604,13 @@
 		"description": [
 			"## Mutant Eye",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"One of your parents was exposed to uncontrolled magic or arcane pollution before you were born, causing you to develop a minor mutation that has marked you as different all your life. You have a third eye on your forehead. As long as it is uncovered and open, you can get a clearer sense of the emotions of those you see, granting you a +2 trait bonus on Sense Motive checks that increases to +4 on checks to notice whether a character is under a mind-affecting effect. However, the eye is unsettling, and you take a -1 penalty on Bluff and Diplomacy checks against humanoids who can see it.",
 			"",
 			"Suggested Characters: Lamashtans, Mana Wastes natives, Nexians."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"mwangi_herbal_tradition": {
 		"name": "Mwangi Herbal Tradition",
@@ -7780,11 +7780,11 @@
 		"description": [
 			"## Outcast's Intuition",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You are able to sense the motives of others and use that sense to bolster your magic against dispelling. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"outer_dragon_blood": {
 		"name": "Outer Dragon Blood",
@@ -7792,7 +7792,7 @@
 		"description": [
 			"## Outer Dragon Blood",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"The blood of outer dragons courses through your veins, and you've inherited a portion of their magic. You gain Draconic as a bonus language. In addition, if you are a sorcerer with the draconic bloodline, you can select one of the outer dragon types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.",
 			"",
@@ -7802,7 +7802,7 @@
 			"**Void:** Cold energy, 30-foot cone  ",
 			"**Vortex:** Fire energy, 30-foot cone"
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"outlander": {
 		"name": "Outlander",
@@ -7854,11 +7854,11 @@
 		"description": [
 			"## Outsider Ties",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as angel or elemental. When you summon an outsider of that subtype via summon monster, planar ally, planar binding, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"overprotective": {
 		"name": "Overprotective",
@@ -7878,11 +7878,11 @@
 		"description": [
 			"## Overwhelming Beauty",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection. The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"ozem-inspired": {
 		"name": "Ozem-Inspired",
@@ -7993,11 +7993,11 @@
 		"description": [
 			"## Partial Protege",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You are adept at disguising your true talents. You gain a +1 trait bonus on Bluff checks and on Use Magic Device checks made to emulate a class feature."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"passionate_believer": {
 		"name": "Passionate Believer",
@@ -8043,11 +8043,11 @@
 		"description": [
 			"## Pathfinder's Focus",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a wayfinder. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for [improving magic items](rule/adding_new_abilities). A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"patient_calm": {
 		"name": "Patient Calm",
@@ -8168,11 +8168,11 @@
 		"description": [
 			"## Perfectionist's Brew",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You know that potion recipes should be followed with exact precision. You gain a +2 trait bonus on all Craft (alchemy) checks and on Spellcraft checks made to brew potions."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"performer's_surprise": {
 		"name": "Performer's Surprise",
@@ -8365,11 +8365,11 @@
 		"description": [
 			"## Planar Escapee",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances. At character creation, select acid, cold, electricity, or fire (once chosen, this selection can't be changed). Once per day as a swift action, you can choose a single creature that is within 30 feet of you and within your line of sight; treat that creature's resistance against your chosen energy as 5 lower than its normal energy resistance for 1 round. This ability has no effect if the creature has no resistance to the chosen energy or if the creature has immunity to the chosen energy."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"planar_negotiator_boa": {
 		"name": "Planar Negotiator (BoA)",
@@ -8533,11 +8533,11 @@
 		"description": [
 			"## Possessed",
 			"",
-			"**Type:** Faith",
+			"**Type:** Magic",
 			"",
 			"You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge. Once per day, you can attempt a Knowledge check of your choice even if you are not trained in that skill and it is not usually possible to use that skill untrained. If you can normally use that skill untrained, you gain a +2 trait bonus on the check."
 		],
-		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
+		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
 	"potent_concoctions": {
 		"name": "Potent Concoctions",

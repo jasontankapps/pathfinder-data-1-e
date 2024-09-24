@@ -2283,11 +2283,12 @@
 			"| 8 | Yellow | Wearer gains freedom of movement |",
 			"| 9 | Copper | Wearer gains a +5 resistance bonus on saving throws |",
 			"| 10[^R] | Roll again |",
-			"[^R]: This step does not count as a facet for the purposes of adjusting the ring's daily ability.",
 			"",
 			"### Destruction",
 			"",
-			"If the wearer of the Ring of Nine Facets successfully shifts it through all nine facets twice (requiring a DC 105 Wisdom check and incurring 18d6 points of nonlethal damage) a tenth, black facet is revealed. This causes the ring to deal 2d6 points of lethal damage to any non-neutral (not solely neutral) wearer every round it is worn. The other powers of this new facet are a mystery, but the wearer can use the tenth facet to completely destroy the Ring of Nine Facets."
+			"If the wearer of the Ring of Nine Facets successfully shifts it through all nine facets twice (requiring a DC 105 Wisdom check and incurring 18d6 points of nonlethal damage) a tenth, black facet is revealed. This causes the ring to deal 2d6 points of lethal damage to any non-neutral (not solely neutral) wearer every round it is worn. The other powers of this new facet are a mystery, but the wearer can use the tenth facet to completely destroy the Ring of Nine Facets.",
+			"",
+			"[^R]: This step does not count as a facet for the purposes of adjusting the ring's daily ability."
 		]
 	},
 	"robe_of_the_rifts": {

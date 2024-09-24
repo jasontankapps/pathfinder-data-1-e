@@ -5488,7 +5488,7 @@
 			"*2nd*-aid, bear's endurance, death knell (DC 15), lesser restoration, sound burst (DC 15), spiritual weapon[^D]  ",
 			"*1st*-bless, entropic shield, magic weapon[^D], remove fear (2), shield of faith  ",
 			"*0 (at will)*-bleed (DC 13), detect magic, guidance, stabilize  ",
-			"[^D]: Domain spell; **Domains** Law, War",
+			"**Domains** Law, War",
 			"",
 			"#### Tactics",
 			"",
@@ -5511,7 +5511,9 @@
 			"",
 			"Battle priests' augmentations to their allies' strength, stamina, precision, and speed are vital to many hobgoblin tactics, and as such the clerics often serve as trusted advisors to commanders, consulting to determine what magical support would best serve the tactical situation.",
 			"",
-			"Like all hobgoblins, battle priests live for the adrenaline rush of open warfare, and during the heat of a skirmish they often turn their attention away from their allies-it is the task of the soldier to survive and drive his enemy before him, and a battle priest sees it as coddling weakness to tend to wounds among those soldiers not strong enough to grasp their own victory. Rather, battle priests employ their magic to debilitate their foes, channeling the wrath of their gods of war upon those who oppose them."
+			"Like all hobgoblins, battle priests live for the adrenaline rush of open warfare, and during the heat of a skirmish they often turn their attention away from their allies-it is the task of the soldier to survive and drive his enemy before him, and a battle priest sees it as coddling weakness to tend to wounds among those soldiers not strong enough to grasp their own victory. Rather, battle priests employ their magic to debilitate their foes, channeling the wrath of their gods of war upon those who oppose them.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"hobgoblin_battle_priest": { "copyof": "hobgoblin,_hobgoblin_battle_priest" },
@@ -5548,7 +5550,7 @@
 			"**Cleric Spells Prepared ** (CL 2nd; concentration +4)  ",
 			"*1st*-cure light wounds, magic weapon[^D], sanctuary (DC 13), shield of faith  ",
 			"*0 (at will)*-guidance, light, stabilize, virtue  ",
-			"[^D]: Domain spell; **Domains** Strength, War",
+			"**Domains** Strength, War",
 			"",
 			"#### Statistics",
 			"",
@@ -5565,7 +5567,9 @@
 			"",
 			"#### Description",
 			"",
-			"Zealots generally use their magic to aid their allies and provide healing, knowing that keeping their tougher allies in good health makes for a stronger army."
+			"Zealots generally use their magic to aid their allies and provide healing, knowing that keeping their tougher allies in good health makes for a stronger army.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"hobgoblin_battlefield_zealot": { "copyof": "hobgoblin,_hobgoblin_battlefield_zealot" },

@@ -3295,7 +3295,7 @@
 			"*2nd*-bear's endurance, calm emotions (DC 18), darkness, dread bolt (DC 18), hold person (2, DC 18), spiritual weapon[^D]  ",
 			"*1st*-bane (DC 17), forbid action (DC 17), murderous command (2, DC 17), protection from good[^D], shield of faith (2)  ",
 			"*0 (at will)*-bleed (DC 16), detect magic, resistance, stabilize  ",
-			"[^D]: Domain spell; **Domains** Evil, War",
+			"**Domains** Evil, War",
 			"",
 			"#### Tactics",
 			"",
@@ -3320,7 +3320,9 @@
 			"",
 			"#### Description",
 			"",
-			"Serpentfolk high priests are the leaders of their people."
+			"Serpentfolk high priests are the leaders of their people.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"serpentfolk_high_priest": { "copyof": "serpentfolk,_serpentfolk_high_priest" },
@@ -6737,7 +6739,7 @@
 			"*2nd*-flaming sphere (2, DC 19), fog cloud, heat metal (DC 19), extended longstrider, soften earth and stone[^D], tree shape  ",
 			"*1st*-entangle (2, DC 18), faerie fire, magic stone[^D], obscuring mist, produce flame (2)  ",
 			"*0 (at will)*-detect magic, flare (DC 17), guidance, light  ",
-			"[^D]: Domain spell; **Domain** Earth",
+			"**Domain** Earth",
 			"",
 			"#### Statistics",
 			"",
@@ -6758,7 +6760,9 @@
 			"",
 			"When druids are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds-an incursion of demons from the Abyss, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world-some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others-particularly other druids, whom they regard as cowards.",
 			"",
-			"Siabraes do not form spontaneously; they arise only as the result of the this [horrific ritual](spell/welcome_the_blighted_soul) ([see here for full rules on rituals](rule/occult_rituals))."
+			"Siabraes do not form spontaneously; they arise only as the result of the this [horrific ritual](spell/welcome_the_blighted_soul) ([see here for full rules on rituals](rule/occult_rituals)).",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"siktempora,_misery_siktempora": {

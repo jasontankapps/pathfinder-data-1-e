@@ -5150,7 +5150,7 @@
 			"*2nd*-barkskin, bull's strength (2), produce flame[^D], stone call  ",
 			"*1st*-burning hands[^D] (DC 14), cure light wounds (2), longstrider, pass without trace  ",
 			"*0 (at will)*-create water, detect magic, know direction, mending  ",
-			"[^D]: Domain spell; **Domain** Fire",
+			"**Domain** Fire",
 			"",
 			"#### Tactics",
 			"",
@@ -5174,7 +5174,9 @@
 			"",
 			"#### Description",
 			"",
-			"Most ferocious troglodyte chieftains earn their positions by killing and eating their predecessors. Almost all chieftains practice some form of divine magic, and they must be strong-and cruel-to reign over their fractious, savage tribes. Troglodyte chieftains often wear fine metal items claimed from other creatures that they or their subjects have killed."
+			"Most ferocious troglodyte chieftains earn their positions by killing and eating their predecessors. Almost all chieftains practice some form of divine magic, and they must be strong-and cruel-to reign over their fractious, savage tribes. Troglodyte chieftains often wear fine metal items claimed from other creatures that they or their subjects have killed.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"troglodyte_chieftain": { "copyof": "troglodyte,_troglodyte_chieftain" },
@@ -5213,7 +5215,7 @@
 			"*2nd*-amplify stench, bull's strength[^D], hold person (DC 14)  ",
 			"*1st*-bless, command (DC 13), doom[^D] (DC 13), magic weapon  ",
 			"*0 (at will)*-bleed (DC 12), detect magic, guidance, spark  ",
-			"[^D]: Domain spell; **Domains** Evil (Demon subdomain), Strength",
+			"**Domains** Evil (Demon subdomain), Strength",
 			"",
 			"#### Tactics",
 			"",
@@ -5235,7 +5237,9 @@
 			"",
 			"#### Description",
 			"",
-			"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles."
+			"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"troglodyte_priest": { "copyof": "troglodyte,_troglodyte_priest" },
@@ -5434,7 +5438,7 @@
 			"*2nd*-amplify stench, bull's strength[^D], cure moderate wounds, hold person (DC 17), spiritual weapon  ",
 			"*1st*-bless, command (DC 16), cure light wounds (3), entropic shield, protection from good[^D]  ",
 			"*0 (at will)*-bleed (DC 15), detect magic, guidance, stabilize  ",
-			"[^D]: Domain spell; **Domains** Evil (Demon subdomain), Strength",
+			"**Domains** Evil (Demon subdomain), Strength",
 			"",
 			"#### Tactics",
 			"",
@@ -5457,7 +5461,9 @@
 			"",
 			"#### Description",
 			"",
-			"Troglodyte tyrants come from the enlightened troglodytes who live far deeper underground than common troglodytes. Stronger, more intelligent, and longer-lived than their degenerate kin, they find it easy to assert dominance over tribes of normal troglodytes. Warlike in the extreme, tyrants are seasoned veterans of numerous military campaigns and they are expert tacticians, willing to sacrifice large numbers of troglodyte warriors to probe an enemy's strengths and weaknesses."
+			"Troglodyte tyrants come from the enlightened troglodytes who live far deeper underground than common troglodytes. Stronger, more intelligent, and longer-lived than their degenerate kin, they find it easy to assert dominance over tribes of normal troglodytes. Warlike in the extreme, tyrants are seasoned veterans of numerous military campaigns and they are expert tacticians, willing to sacrifice large numbers of troglodyte warriors to probe an enemy's strengths and weaknesses.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"troglodyte_tyrant": { "copyof": "troglodyte,_troglodyte_tyrant" },
@@ -6228,7 +6234,7 @@
 			"**Cleric Spells Prepared ** (CL 2nd; concentration +3)  ",
 			"*1st*-bless, divine favor, obscuring mist[^D], sun metal  ",
 			"*0 (at will)*-bleed (DC 11), detect magic, resistance, spark  ",
-			"[^D]: Domain spell; **Domains** Destruction, Weather",
+			"**Domains** Destruction, Weather",
 			"",
 			"#### Tactics",
 			"",
@@ -6252,7 +6258,9 @@
 			"",
 			"A troll acolyte has tested her devotion to a demon lord by searing her flesh with acid and fire so it must heal naturally, without regeneration.",
 			"",
-			"**Family:** [Troll](family/troll)"
+			"**Family:** [Troll](family/troll)",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"troll_acolyte": { "copyof": "troll,_troll_acolyte" },

@@ -1717,7 +1717,7 @@
 			"*2nd*-align weapon[^D] (evil only), delay poison, dread bolt (DC 19), hold person (DC 19), lesser restoration, protective penumbra, sound burst (DC 19)  ",
 			"*1st*-cure light wounds (2), entropic shield, murderous command (2, DC 18), protection from good[^D], shield of faith  ",
 			"*0 (at will)*-detect magic, detect poison, guidance, read magic  ",
-			"[^D]: Domain spell; **Domains** Evil, Magic",
+			"**Domains** Evil, Magic",
 			"",
 			"#### Statistics",
 			"",
@@ -1735,7 +1735,9 @@
 			"",
 			"#### Description",
 			"",
-			"Born with unusual powers, the matron has survived coup attempts by countless rivals to remain the head of her house."
+			"Born with unusual powers, the matron has survived coup attempts by countless rivals to remain the head of her house.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"drow_matron": { "copyof": "drow,_drow_matron" },
@@ -1777,7 +1779,7 @@
 			"*2nd*-death knell[^D] (DC 15), hold person (DC 15), silence (DC 15)  ",
 			"*1st*-bless, cause fear (DC 14), cure light wounds, protection from law[^D]  ",
 			"*0*-bleed (DC 13), detect poison, read magic, resistance  ",
-			"[^D]: Domain spell; **Domains** Chaos, Death",
+			"**Domains** Chaos, Death",
 			"",
 			"#### Statistics",
 			"",
@@ -1801,7 +1803,9 @@
 			"",
 			"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of drow are the common soldiers and decadent citizenry, with base stats as presented here-drow nobles are more powerful and dangerous, and are detailed below.",
 			"",
-			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape."
+			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"drow_noble": { "copyof": "drow,_drow_noble" },
@@ -1908,7 +1912,7 @@
 			"*2nd*-align weapon[^D] (evil only), dread bolt (DC 16), hold person (DC 16), spiritual weapon  ",
 			"*1st*-cure light wounds, entropic shield, murderous command (DC 15), protection from good[^D], shield of faith  ",
 			"*0 (at will)*-bleed (DC 14), detect magic, detect poison, read magic  ",
-			"[^D]: Domain spell; **Domains** Evil, Magic",
+			"**Domains** Evil, Magic",
 			"",
 			"#### Tactics",
 			"",
@@ -1932,7 +1936,9 @@
 			"",
 			"#### Description",
 			"",
-			"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of drow society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons."
+			"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of drow society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"drow_priest": { "copyof": "drow,_drow_priest" },
@@ -2365,7 +2371,7 @@
 			"*2nd*-control vermin (DC 17), hold person (2, DC 17), invisibility[^D], sound burst (DC 17), spiritual weapon  ",
 			"*1st*-bane (DC 16), charm person[^D] (DC 16), cure light wounds, divine favor, doom (DC 16), shield of faith (2)  ",
 			"*0 (at will)*-detect magic, guidance, resistance, virtue  ",
-			"[^D]: Domain spell; **Domains** Charm, Trickery",
+			"**Domains** Charm, Trickery",
 			"",
 			"#### Tactics",
 			"",
@@ -2389,7 +2395,9 @@
 			"",
 			"#### Description",
 			"",
-			"Because religious doctrine is so influential in duergar society, common duergar treat high priests like the voice of their god, trusting their wisdom in all things. A high priest is effectively the primary lawmaker for her clan."
+			"Because religious doctrine is so influential in duergar society, common duergar treat high priests like the voice of their god, trusting their wisdom in all things. A high priest is effectively the primary lawmaker for her clan.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"duergar_high_priest": { "copyof": "duergar,_duergar_high_priest" },

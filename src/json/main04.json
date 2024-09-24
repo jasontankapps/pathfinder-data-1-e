@@ -808,7 +808,7 @@
 	},
 	"traits_race": {
 		"title": "Race Traits",
-		"sources": [],
+		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			[
 				"Race traits are tied to specific races. Your character must be of the specified race to select a race trait."
@@ -1254,7 +1254,43 @@
 	"traits_social": {
 		"title": "Social Traits",
 		"searchgroup": "trait",
-		"sources": [],
+		"sources": [
+			"Advanced Player's Guide",
+			"Adventurer's Armory 2",
+			"Agents of Evil",
+			"Antihero's Handbook",
+			"Arcane Anthology",
+			"Bastards of Golarion",
+			"Black Markets",
+			"Blood of the Ancients",
+			"Blood of the Coven",
+			"Champions of Balance",
+			"Champions of Corruption",
+			"Champions of Purity",
+			"Cheliax, Empire of Devils",
+			"Disciple's Doctrine",
+			"Elemental Master's Handbook",
+			"Faction Guide",
+			"Gnomes of Golarion",
+			"Heroes of the Darklands",
+			"Heroes of the High Court",
+			"Heroes of the Streets",
+			"Heroes of the Wild",
+			"Knights of the Inner Sea",
+			"Legacy of Dragons",
+			"Merchant's Manifest",
+			"Monster Hunter's Handbook",
+			"Monster Summoner's Handbook",
+			"Path of the Hellknight",
+			"Pathfinder Society Primer",
+			"People of the Wastes",
+			"Qadira, Gateway to the East",
+			"Quests and Campaigns",
+			"Second Darkness Player's Guide",
+			"Shattered Star Player's Guide",
+			"Spymaster's Handbook",
+			"Ultimate Campaign"
+		],
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
@@ -2429,7 +2465,14 @@
 	},
 	"traits_drawback": {
 		"title": "Drawback Traits",
-		"sources": [],
+		"sources": [
+			"Antihero's Handbook",
+			"Blood of the Coven",
+			"Champions of Corruption",
+			"Quests and Campaigns",
+			"Spymaster's Handbook",
+			"Ultimate Campaign"
+		],
 		"searchgroup": "trait",
 		"description": [
 			[
@@ -2944,9 +2987,20 @@
 	},
 	"traits_equipment": {
 		"title": "Equipment Traits",
-		"sources": [],
+		"sources": [
+			"Adventurer's Armory",
+			"Adventurer's Armory 2",
+			"Plane-Hopper's Handbook"
+		],
 		"searchgroup": "trait",
 		"description": [
+			[
+				"Many adventurers come to rely on certain gear to the extent that the equipment and the adventurer each become something more when the other is present. The symbiosis between adventurers and their gear is varied and complex.",
+				"",
+				"Equipment Traits are keyed to specific types of equipment. They represent an unusual knack for a particular kind of equipment (such as splash weapons) or for a specific item (such as a family heirloom sword).",
+				"",
+				"The following Equipment Traits are available to any character who has an available trait, as per the normal trait rules."
+			],
 			[
 				"## [Augmented Disguise](trait/augmented_disguise)",
 				"",
@@ -3172,9 +3226,12 @@
 	},
 	"traits_family": {
 		"title": "Family Traits",
-		"sources": [],
+		"sources": [ "Cohorts and Companions" ],
 		"searchgroup": "trait",
 		"description": [
+			[
+				"This new trait type allows you to inject a mechanical edge into the dynamics of your family. Unlike other trait types, **you are not limited to a single family trait per character.** Many of these traits work only on a member of your family, or require another character with the same trait to be nearby for the benefits to apply. For a character to count as having the same trait, they must be your family member. At the GM's discretion, the \"family\" for some of these traits could in fact be another group with strong interpersonal ties and common interests, such as a martial arts school, army unit, mutual protection society, or criminal gang. In this case, however, they become Social traits, which limits the character to one trait."
+			],
 			[
 				"## [Betrayal of Trust](trait/betrayal_of_trust)",
 				"",
@@ -3231,9 +3288,15 @@
 	},
 	"traits_mount": {
 		"title": "Mount Traits",
-		"sources": [],
+		"sources": [
+			"Knights of the Inner Sea",
+			"Wilderness Origins"
+		],
 		"searchgroup": "trait",
 		"description": [
+			[
+				"Each of the following entries details a specific breed of riding animal, indicates where to find statistics for its kind, and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a character replaces his mount, he effectively loses the old trait and gains the new mount's trait"
+			],
 			[
 				"## [Black as Night](trait/black_as_night)",
 				"",
@@ -3343,14 +3406,41 @@
 	},
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
-		"sources": [],
+		"sources": [ "Occult Mysteries" ],
 		"searchgroup": "trait",
 		"description": [
+			[
+				"In Avistan and Garund, the Cosmic Caravan is the astrological tool of choice for most diviners. Though some cultures grant the Caravan religious connotations, it is an inherently secular system, available for use by characters of all cultures, alignments, and faiths. A list of the Caravan's signs appears on page 37, along with matching traits for characters born under that sign. Players who know their characters' birth dates could incorporate the appropriate traits. Each sign also features a percentage range, which allows a player who doesn't know his character's birth date to determine it with a d% roll."
+			],
+			[
+				"## [The Thrush](trait/the_thrush)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 18 Kuthona and 20 Abadius (or 1-7 on d%)",
+				"",
+				"Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity. You gain a +1 bonus on Perform (sing) checks, and Perform (sing) becomes a class skill for you."
+			],
+			[
+				"## [The Lantern Bearer](trait/the_lantern_bearer)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 21 Abadius and 16 Calistril (or 8-14 on d%)",
+				"",
+				"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
+			],
+			[
+				"## [The Newlyweds](trait/the_newlyweds)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 17 Calistril and 11 Pharast (or 15-21 on d%)",
+				"",
+				"Your sign is of two lovers, intertwined as one. You gain a +2 bonus on Diplomacy checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you."
+			],
 			[
 				"## [The Bridge](trait/the_bridge)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 12 Pharast and 18 Gozran",
+				"**Requirements:** Born between 12 Pharast and 18 Gozran (or 22-28 on d%)",
 				"",
 				"The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring. You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors."
 			],
@@ -3358,71 +3448,55 @@
 				"## [The Daughter](trait/the_daughter)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 19 Gozran and 13 Desnus",
+				"**Requirements:** Born between 19 Gozran and 13 Desnus (or 29-35 on d%)",
 				"",
 				"You are filled with the light-hearted joy of the Daughter, who dances her way into springtime. Every creature within 10 feet of you adds +2 moral bonuses to the DCs of checks to demoralize them."
-			],
-			[
-				"## [The Follower](trait/the_follower)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 30 Neth and 17 Kuthona",
-				"",
-				"You are born under the sign of the dark figure that trails the Caravan-the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
-			],
-			[
-				"## [The Lantern Bearer](trait/the_lantern_bearer)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 21 Abadius and 16 Calistril",
-				"",
-				"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
-			],
-			[
-				"## [The Mother](trait/the_mother)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 17 Rova and 30 Lamashan",
-				"",
-				"Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan. Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious."
-			],
-			[
-				"## [The Newlyweds](trait/the_newlyweds)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 17 Calistril and 11 Pharast",
-				"",
-				"Your sign is of two lovers, intertwined as one. You gain a +2 bonus on Diplomacy checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you."
-			],
-			[
-				"## [The Pack](trait/the_pack)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 11 Arodus and 16 Rova",
-				"",
-				"You are blessed by the beasts that trail the caravan, which represent protection in numbers. You gain a +2 trait bonus on Handle Animal checks to teach animals tricks, and Handle Animal becomes a class skill for you."
-			],
-			[
-				"## [The Patriarch](trait/the_patriarch)",
-				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 21 Sarenith and 20 Erastus",
-				"",
-				"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use know direction as a spell-like ability, treating your character level as your caster level."
 			],
 			[
 				"## [The Rider](trait/the_rider)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 14 Desnus and 20 Sarenith",
+				"**Requirements:** Born between 14 Desnus and 20 Sarenith (or 36-42 on d%)",
 				"",
 				"You are born under the auspice of the mounted caravan guard, whose very presence deters danger. Once per day, when you succeed at a Ride check, you can attempt an immediate Intimidate check against the nearest foe. If you fail this check, the DC of your next Intimidate check against that opponent does not increase (as it normally would)."
+			],
+			[
+				"## [The Patriarch](trait/the_patriarch)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 21 Sarenith and 20 Erastus (or 43-49 on d%)",
+				"",
+				"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use know direction as a spell-like ability, treating your character level as your caster level."
+			],
+			[
+				"## [The Wagon](trait/the_wagon)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 21 Erastus and 10 Arodus (or 50-56 on d%)",
+				"",
+				"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round."
+			],
+			[
+				"## [The Pack](trait/the_pack)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 11 Arodus and 16 Rova (or 57-63 on d%)",
+				"",
+				"You are blessed by the beasts that trail the caravan, which represent protection in numbers. You gain a +2 trait bonus on Handle Animal checks to teach animals tricks, and Handle Animal becomes a class skill for you."
+			],
+			[
+				"## [The Mother](trait/the_mother)",
+				"",
+				"**Type:** Cosmic  ",
+				"**Requirements:** Born between 17 Rova and 30 Lamashan (or 64-70 on d%)",
+				"",
+				"Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan. Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious."
 			],
 			[
 				"## [The Star Gazer](trait/the_star_gazer)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 31 Lamashan and 20 Neth",
+				"**Requirements:** Born between 31 Lamashan and 20 Neth (or 71-77 on d%)",
 				"",
 				"With his head in the clouds, the Stargazer sees far-off events, but misses the pitfalls directly before him. When rolling initiative as part of a surprise round, you take a -2 penalty on initiative checks, but you gain a +2 luck bonus to AC during all surprise rounds."
 			],
@@ -3430,32 +3504,65 @@
 				"## [The Stranger](trait/the_stranger)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 21 Neth and 29 Neth",
+				"**Requirements:** Born between 21 Neth and 29 Neth (or 78-84 on d%)",
 				"",
 				"Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers. You gain a +1 trait bonus on Diplomacy and Knowledge (local) checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you."
 			],
 			[
-				"## [The Thrush](trait/the_thrush)",
+				"## [The Follower](trait/the_follower)",
 				"",
 				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 18 Kuthona and 20 Abadius",
+				"**Requirements:** Born between 30 Neth and 17 Kuthona (or 85-91 on d%)",
 				"",
-				"Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity. You gain a +1 bonus on Perform (sing) checks, and Perform (sing) becomes a class skill for you."
+				"You are born under the sign of the dark figure that trails the Caravan-the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
 			],
 			[
-				"## [The Wagon](trait/the_wagon)",
+				"## Cusp",
 				"",
-				"**Type:** Cosmic  ",
-				"**Requirements:** Born between 21 Erastus and 10 Arodus",
+				"**Requirements:** 92-100 on d%.",
 				"",
-				"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round."
+				"You were born right on the dividing line between two consecutive signs, providing you with a choice of which sign to adopt. Reroll d100, then choose between the resulting sign or either of the signs adjacent to it."
 			]
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
 	},
 	"traits_magic": {
 		"title": "Magic Traits",
-		"sources": [],
+		"sources": [
+			"Advanced Player's Guide",
+			"Adventurer's Armory 2",
+			"Agents of Evil",
+			"Arcane Anthology",
+			"Bastards of Golarion",
+			"Black Markets",
+			"Blood of the Ancients",
+			"Blood of the Coven",
+			"Blood of the Moon",
+			"Champions of Balance",
+			"Champions of Corruption",
+			"Champions of Purity",
+			"Cheliax, Empire of Devils",
+			"Distant Shores",
+			"Dwarves of Golarion",
+			"Elemental Master's Handbook",
+			"Faction Guide",
+			"Gnomes of Golarion",
+			"Haunted Heroes Handbook",
+			"Heroes of the Darklands",
+			"Heroes of the Wild",
+			"Legacy of Dragons",
+			"Merchant's Manifest",
+			"Monster Summoner's Handbook",
+			"Pathfinder Society Primer",
+			"People of the Stars",
+			"People of the Wastes",
+			"Plane-Hopper's Handbook",
+			"Quests and Campaigns",
+			"Second Darkness Player's Guide",
+			"Shattered Star Player's Guide",
+			"Spymaster's Handbook",
+			"Ultimate Campaign"
+		],
 		"searchgroup": "trait",
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],

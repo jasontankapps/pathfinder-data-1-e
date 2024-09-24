@@ -32,7 +32,6 @@
 			"**Symbol** Sword in mountain  ",
 			"**Sacred Animal(s)** Rhinoceros  ",
 			"**Sacred Color(s)** Gray, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -188,7 +187,9 @@
 			">",
 			">**Source** [Pathfinder #35: War of the River Kings pg. 73](source/pathfinder_#35_war_of_the_river_kings)",
 			">",
-			">- Followers are forbidden from casting the [rusting grasp](spell/rusting_grasp) spell. Druids are permitted to wear metal armor, though they do not automatically gain proficiency in any other categories of armor. They cannot cast spells while wearing metal armor, nor does it meld with them when they use wild shape; druids interested in metal armor acquire a set for a specific beast form and have allies or slaves put it on them when it is time to fight."
+			">- Followers are forbidden from casting the [rusting grasp](spell/rusting_grasp) spell. Druids are permitted to wear metal armor, though they do not automatically gain proficiency in any other categories of armor. They cannot cast spells while wearing metal armor, nor does it meld with them when they use wild shape; druids interested in metal armor acquire a set for a specific beast form and have allies or slaves put it on them when it is time to fight.",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"gozreh": {
@@ -224,7 +225,6 @@
 			"**Symbol** Dripping leaf  ",
 			"**Sacred Animal(s)** All  ",
 			"**Sacred Color(s)** Blue, green",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -367,7 +367,9 @@
 			">- **[Summon Monster VIII](spell/summon_monster_8):** [Frost Giant](monster/frost_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			">- **[Summon Monster VIII](spell/summon_monster_8):** [Young](template/young) [Cloud Giant](monster/cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 			">- **[Summon Monster IX](spell/summon_monster_9):** [Cloud Giant](monster/cloud_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-			">- **[Summon Monster IX](spell/summon_monster_9):** [Young](template/young) [Storm Giant](monster/storm_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
+			">- **[Summon Monster IX](spell/summon_monster_9):** [Young](template/young) [Storm Giant](monster/storm_giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"graffiacane": {
@@ -594,7 +596,6 @@
 			"**Symbol** Skull-faced moon  ",
 			"**Sacred Animal(s)** None  ",
 			"**Sacred Color(s)** None",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -671,7 +672,9 @@
 			">",
 			">- **[Summon Monster II](spell/summon_monster_2):** [Akata](monster/akata) (extraplanar)",
 			">- **[Summon Monster VI](spell/summon_monster_6):** [Chaos Beast](monster/chaos_beast)",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Mothman](monster/mothman) (extraplanar)"
+			">- **[Summon Monster VI](spell/summon_monster_6):** [Mothman](monster/mothman) (extraplanar)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"gruhastha": {
@@ -922,7 +925,6 @@
 			"**Symbol** Philosopher's stone  ",
 			"**Sacred Animal(s)** Bull  ",
 			"**Sacred Color(s)** Gold, lead gray",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -968,7 +970,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Demonic Persuasion](trait/demonic_persuasion)"
+			">- [Demonic Persuasion](trait/demonic_persuasion)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"haborym": {
@@ -1480,7 +1484,6 @@
 			"**Favored Weapon** [Nine-ring broadsword](equipment-weapon/nine-ring_broadsword)  ",
 			"**Symbol** Lightning bolt issuing from a black storm cloud  ",
 			"**Sacred Animal(s)** Raven",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -1544,7 +1547,9 @@
 			">",
 			">- [Gust of Wind](spell/gust_of_wind) can be prepared as a 2nd-level spell",
 			">- [Lightning Bolt](spell/lightning_bolt) can be prepared as a 3rd-level spell",
-			">- [Hydraulic Push](spell/hydraulic_push) can be prepared as a 3rd-level spell"
+			">- [Hydraulic Push](spell/hydraulic_push) can be prepared as a 3rd-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"hembad": {
@@ -1953,7 +1958,6 @@
 			"**Symbol** Herb-covered wooden toad  ",
 			"**Sacred Animal(s)** Toad  ",
 			"**Sacred Color(s)** Brown, green",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -1979,7 +1983,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"imot": {
@@ -2139,7 +2145,6 @@
 			"**Symbol** Sword and sun  ",
 			"**Sacred Animal(s)** Lion  ",
 			"**Sacred Color(s)** Red, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -2330,7 +2335,9 @@
 			">",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Celestial](template/celestial) [Lion](monster/lion) - LG",
 			">- **[Summon Monster VI](spell/summon_monster_6):** [Celestial](template/celestial) [Griffon](monster/griffon) - NG",
-			">- **[Summon Nature's Ally VI](spell/summon_nature's_ally_6):** [Celestial](template/celestial) [Griffon](monster/griffon) - NG"
+			">- **[Summon Nature's Ally VI](spell/summon_nature's_ally_6):** [Celestial](template/celestial) [Griffon](monster/griffon) - NG",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"ioramvol": {
@@ -2454,7 +2461,6 @@
 			"**Symbol** Blue hand  ",
 			"**Sacred Animal(s)** Snail  ",
 			"**Sacred Color(s)** Blue, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -2632,7 +2638,9 @@
 			">",
 			">**Source** [Pathfinder #53: Tide of Honor pg. 73](source/pathfinder_#53_tide_of_honor)",
 			">",
-			">- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a [heal](spell/heal), [restoration](spell/restoration), or [greater restoration](spell/greater_restoration) spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid."
+			">- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a [heal](spell/heal), [restoration](spell/restoration), or [greater restoration](spell/greater_restoration) spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid.",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"isis": {
@@ -2887,7 +2895,6 @@
 			"**Symbol** Path between two trees  ",
 			"**Sacred Animal(s)** Black tiger  ",
 			"**Sacred Color(s)** Brown, green",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -2913,7 +2920,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"jalaijatali": {
@@ -3843,12 +3852,13 @@
 			"**Favored Weapon** [Bo staff](equipment-weapon/bo_staff)  ",
 			"**Symbol** String of seven coins  ",
 			"**Sacred Animal(s)** Dog",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
 			"**Centers of Worship** Hongal, Hwanggot, Tianjing  ",
-			"**Nationality** Tian-Hwan"
+			"**Nationality** Tian-Hwan",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"kols": {
@@ -3920,7 +3930,6 @@
 			"**Symbol** Lotus above two figures  ",
 			"**Sacred Animal(s)** Monkey  ",
 			"**Sacred Color(s)** Green, purple",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -3946,7 +3955,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"kostchtchie": {
@@ -4188,7 +4199,6 @@
 			"**Symbol** Flexing arm with chain  ",
 			"**Sacred Animal(s)** Horse  ",
 			"**Sacred Color(s)** Gold, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -4263,7 +4273,9 @@
 			">#### Cleric, Warpriest",
 			">",
 			">- [Expeditious Retreat](spell/expeditious_retreat) can be prepared as a 1st-level spell",
-			">- [Jump](spell/jump) can be prepared as a 1st-level spell"
+			">- [Jump](spell/jump) can be prepared as a 1st-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"lady_nanbyo": {
@@ -4358,7 +4370,6 @@
 			"**Symbol** Rainbow with shadow  ",
 			"**Sacred Animal(s)** Lacewing  ",
 			"**Sacred Color(s)** All",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -4384,7 +4395,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"lamashtu": {
@@ -4423,7 +4436,6 @@
 			"**Symbol** Three-eyed jackal  ",
 			"**Sacred Animal(s)** Jackal  ",
 			"**Sacred Color(s)** Red, yellow",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -4616,7 +4628,9 @@
 			">",
 			">**Source** [Inner Sea Gods pg. 99](source/inner_sea_gods)",
 			">",
-			">- Druids and Rangers can use [summon nature's ally](spell/summon_nature's_ally_1) spells to summon fiendish animals from the same level summon monster list."
+			">- Druids and Rangers can use [summon nature's ally](spell/summon_nature's_ally_1) spells to summon fiendish animals from the same level summon monster list.",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"lanishra": {
@@ -4778,7 +4792,6 @@
 			"**Symbol** Sihedron  ",
 			"**Sacred Animal(s)** Snake  ",
 			"**Sacred Color(s)** Gold, green",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -4806,7 +4819,9 @@
 			">**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source/pathfinder_#65_into_the_nightmare_rift)",
 			">",
 			">- **[Summon Monster VI](spell/summon_monster_6):** [Advanced](template/advanced) [Kyton Evangelist](monster/kyton) - LE (extraplanar)",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Dark Naga](monster/dark_naga) - LE"
+			">- **[Summon Monster VI](spell/summon_monster_6):** [Dark Naga](monster/dark_naga) - LE",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"llamolaek": {
@@ -5738,7 +5753,6 @@
 			"**Symbol** Skull in spiderweb  ",
 			"**Sacred Animal(s)** Spider  ",
 			"**Sacred Color(s)** Black, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -5784,7 +5798,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Demonic Persuasion](trait/demonic_persuasion)"
+			">- [Demonic Persuasion](trait/demonic_persuasion)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"menxyr": {
@@ -6233,7 +6249,6 @@
 			"**Symbol** Anvil on a cave floor in front of a triangular background with a moon, a planet, and a star, respectively, at the corners  ",
 			"**Sacred Animal(s)** Cave bear  ",
 			"**Sacred Color(s)** Brown, gray",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -6257,7 +6272,9 @@
 			">2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the axiomatic weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
 			">3. **Rocky Flesh (Sp)** You gain a profane bonus equal to your Charisma modifier on your Fortitude saving throws and to your natural armor bonus.",
 			">",
-			">### [Summon Monster VII](spell/summon_monster_7): [Stone Giant](monster/stone_giant) (fiendish or resolute)"
+			">### [Summon Monster VII](spell/summon_monster_7): [Stone Giant](monster/stone_giant) (fiendish or resolute)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"mneoc": {
@@ -6874,7 +6891,6 @@
 			"**Favored Weapon** [Urumi](equipment-weapon/urumi)  ",
 			"**Symbol** Snake coiled in a lotus flower  ",
 			"**Sacred Animal(s)** Snake",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -6887,7 +6903,9 @@
 			"",
 			"#### Cleric, Inquisitor, Oracle, Warpriest",
 			"",
-			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
+			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"nalmungder": {
@@ -7247,7 +7265,6 @@
 			"**Symbol** Two-toned mask  ",
 			"**Sacred Animal(s)** Zebra  ",
 			"**Sacred Color(s)** Black, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -7388,7 +7405,9 @@
 			">",
 			">**Source** [Inner Sea Gods pg. 107](source/inner_sea_gods)",
 			">",
-			">- Forbidden from using [imbue with spell ability](spell/imbue_with_spell_ability) (or similar spells that grant spellcasting abilities) on living targets that cannot normally use spells or use spell-like abilities; it is considered an unworthy sharring of blessed magic."
+			">- Forbidden from using [imbue with spell ability](spell/imbue_with_spell_ability) (or similar spells that grant spellcasting abilities) on living targets that cannot normally use spells or use spell-like abilities; it is considered an unworthy sharring of blessed magic.",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"ng": {
@@ -7773,7 +7792,6 @@
 			"**Symbol** One-eyed mask  ",
 			"**Sacred Animal(s)** Spider  ",
 			"**Sacred Color(s)** Black, gray",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -7856,7 +7874,9 @@
 			">",
 			">- **[Summon Monster III](spell/summon_monster_3):** [Human Natural Wererat Rogue 2](template/lycanthrope) (extraplanar)",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Choker](monster/choker) (extraplanar)",
-			">- **[Summon Monster V](spell/summon_monster_5):** [Shadow Mastiff](monster/shadow_mastiff)"
+			">- **[Summon Monster V](spell/summon_monster_5):** [Shadow Mastiff](monster/shadow_mastiff)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"nulgreth": {
@@ -7907,7 +7927,6 @@
 			"**Symbol** Lion jaws around the sun  ",
 			"**Sacred Animal(s)** Lion  ",
 			"**Sacred Color(s)** Yellow, orange",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -7953,7 +7972,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Demonic Persuasion](trait/demonic_persuasion)"
+			">- [Demonic Persuasion](trait/demonic_persuasion)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"nyarlathotep_black_pharaoh": {
@@ -8132,7 +8153,6 @@
 			"**Symbol** Figure framed by branches  ",
 			"**Sacred Animal(s)** Wolf  ",
 			"**Sacred Color(s)** Blue, gold",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -8158,7 +8178,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"omrataji": {

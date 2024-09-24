@@ -401,7 +401,6 @@
 			"1st-*command* (DC 13), *divine favor*, *magic weapon*[^D], *shield of faith*, *summon monster I*  ",
 			"0 (at will)-*guidance*, *light*, *purify food and drink*, *resistance*  ",
 			"**Domains** Law, War",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -427,7 +426,9 @@
 			"",
 			"**Combat Encounters:** Esme works well alone or in a leadership role. She might be an ally of a powerful character, using her neutrality to get things done for a good employer or moderating a nearly evil one.",
 			"",
-			"**Roleplaying Suggestions:** Esme might ask for assistance in dealing with an undead or fiendish threat beyond her capabilities. She could serve as an important intermediary with the local nobility, especially if the PCs have preexisting conflicts with the nobles. Esme could also be cynically close to losing her faith, giving the PCs the opportunity to save her before she falls from grace."
+			"**Roleplaying Suggestions:** Esme might ask for assistance in dealing with an undead or fiendish threat beyond her capabilities. She could serve as an important intermediary with the local nobility, especially if the PCs have preexisting conflicts with the nobles. Esme could also be cynically close to losing her faith, giving the PCs the opportunity to save her before she falls from grace.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"officer": {
@@ -753,7 +754,6 @@
 			"1st-*command* (DC 14), *cure light wounds*, *doom* (DC 14), *forbid action* (DC 15), *true strike*[^D]  ",
 			"0 (at will)-*create water*, *detect magic*, *read magic*, *resistance*  ",
 			"**Domains** Catastrophe, Evil",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -769,7 +769,9 @@
 			"",
 			"Usij seek to destroy. Some insinuate themselves into high political positions where they steer the might of armies against others, or squander the coffers of wealthy nations and noble houses. Other Usij cabalists spend their efforts to destroy bonds of family, friends, and faith. They maneuver themselves into relationships with troubled people who are easy to sway, and avoid getting their own hands dirty by persuading the desperate to commit ruinous acts. Many Usij are skilled alchemists and entire cells are dedicated to refining deadly poisons and powerful drugs.",
 			"",
-			"These div-callers and agents of catastrophe sometimes gather in secret societies within urban areas or inhabit desert complexes far from scrutiny. Any large cell of Usij is likely to include at least one div that associates with the cell, typically a pairaka or sepid, and many Usij sorcerers and wizards call dorus as familiars. Usij cabals operate independently of each other, but they always pursue the same goal: ruin. Recent rumors claim a cabal of Usij alchemists have joined with a great wyrm blue dragon and are scouring the desert for sun orchids in order to synthesize their own version of the sun orchid elixir. Some say that certain Usij leaders meet annually at a secret location somewhere in central Casmaron, but this may be only whispers on paranoid lips."
+			"These div-callers and agents of catastrophe sometimes gather in secret societies within urban areas or inhabit desert complexes far from scrutiny. Any large cell of Usij is likely to include at least one div that associates with the cell, typically a pairaka or sepid, and many Usij sorcerers and wizards call dorus as familiars. Usij cabals operate independently of each other, but they always pursue the same goal: ruin. Recent rumors claim a cabal of Usij alchemists have joined with a great wyrm blue dragon and are scouring the desert for sun orchids in order to synthesize their own version of the sun orchid elixir. Some say that certain Usij leaders meet annually at a secret location somewhere in central Casmaron, but this may be only whispers on paranoid lips.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"wayward_crusader": {
@@ -1346,7 +1348,6 @@
 			"1st-*bless water*, *charm person*[^D] (DC 14), *comprehend languages*, *detect undead*, *hide from undead*  ",
 			"0 (at will)-*detect magic*, *detect poison*, *guidance*, *virtue*  ",
 			"**Domains** Chaos, Charm",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -1370,7 +1371,9 @@
 			"",
 			"**Combat Encounters:** Though he is hard to influence with magic, clever lies and subtle manipulation can easily turn Eggal against the PCs, and it's not uncommon for him to come into conflict with the lawful authorities in a region if he feels they are profiting at the expense of the common people. If he sees the PCs as agents of oppression, regardless of their justifications, he's likely to oppose them-with his mace if necessary. Because of his reluctance to kill, he is useful for an encounter where the PCs should negotiate or surrender instead of fighting.",
 			"",
-			"**Roleplaying Suggestions:** Eggal can be a reliable feature of local taverns, even showing up in other cities where the PCs travel. Because he tends to help when asked, he might end up in over his head and need rescuing, or have friends in need of rescue. He can also help out the PCs as an ally against undead, as a backup healer, or as a contact in Cayden Cailean's church."
+			"**Roleplaying Suggestions:** Eggal can be a reliable feature of local taverns, even showing up in other cities where the PCs travel. Because he tends to help when asked, he might end up in over his head and need rescuing, or have friends in need of rescue. He can also help out the PCs as an ally against undead, as a backup healer, or as a contact in Cayden Cailean's church.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"cave_stalker": {
@@ -1711,8 +1714,7 @@
 			"2nd-*barkskin*, *extended summon nature's ally I*, *summon swarm*, *wind wall*[^D]  ",
 			"1st-*endure elements*, *faerie fire*, *magic fang*, *obscuring mist*[^D], *speak with animals*  ",
 			"0 (at will)-*detect poison*, *know direction*, *light*, *purify food and drink*  ",
-			"**Domain** Air  ",
-			"[^D]: Domain spell",
+			"**Domain** Air",
 			"",
 			"#### Tactics",
 			"",
@@ -1737,7 +1739,9 @@
 			"",
 			"**Combat Encounters:** Given his extreme paranoia, Velun rarely teams up with any other sentient creatures, and the few times he does, he make sure they have few connections to other people so word of his location won't reach the ears of slavers or other corrupt city folk. Velun tries to stay out of combat, using his summoned creatures to ensure his escape.",
 			"",
-			"**Roleplaying Suggestions:** Velun tends to think that all creatures that come looking for him are slavers in disguise. If he sees them coming, he sneaks away if he can. If they do manage to talk to him, he tells them almost nothing, as he believes that seeming useful or friendly makes him an even more appealing target for slavers. After he's encountered new people, Velun relocates to a new campsite so no one can track him down."
+			"**Roleplaying Suggestions:** Velun tends to think that all creatures that come looking for him are slavers in disguise. If he sees them coming, he sneaks away if he can. If they do manage to talk to him, he tells them almost nothing, as he believes that seeming useful or friendly makes him an even more appealing target for slavers. After he's encountered new people, Velun relocates to a new campsite so no one can track him down.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"expert_bodyguard": {
@@ -3612,8 +3616,7 @@
 			"2nd-*animal messenger*, *barkskin*, *bear's endurance*, *fog cloud*[^D], *resist energy*  ",
 			"1st-*cure light wounds*, *endure elements*, *magic fang*, *obscuring mist*[^D], *shillelagh*, *speak with animals*  ",
 			"0 (at will)-*light*, *mending*, *purify food and drink*, *read magic*  ",
-			"**Domain** Water  ",
-			"[^D]: Domain spell",
+			"**Domain** Water",
 			"",
 			"#### Tactics",
 			"",
@@ -3635,7 +3638,9 @@
 			"",
 			"### Tasseira Sprayspirit",
 			"",
-			"Tasseira is one of the grim elven defenders of a far-off island that contains an ancient evil. She sees all non-elves as trespassing on her domain, and attacks them on sight. She has a very close connection to the sea, spending much of her day wild shaped into an aquatic creature. She wears an ornate wooden mask to hide her features, and loose-fitting clothes of green and blue."
+			"Tasseira is one of the grim elven defenders of a far-off island that contains an ancient evil. She sees all non-elves as trespassing on her domain, and attacks them on sight. She has a very close connection to the sea, spending much of her day wild shaped into an aquatic creature. She wears an ornate wooden mask to hide her features, and loose-fitting clothes of green and blue.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"molthuni_commander": {
@@ -4245,8 +4250,7 @@
 			"2nd-*barkskin*[^D], *bull's strength*, *flaming sphere* (DC 15), *warp wood*  ",
 			"1st-*cure light wounds*, *entangle*[^D] (DC 14), *faerie fire*, *magic stone*, *longstrider*  ",
 			"0 (at will)-*create water*, *detect poison*, *guidance*, *purify food and drink*  ",
-			"**Domain** Plant  ",
-			"[^D]: Domain spell",
+			"**Domain** Plant",
 			"",
 			"#### Statistics",
 			"",
@@ -4260,7 +4264,9 @@
 			"",
 			"The savage charau-ka of Usaro in the Mwangi Expanse worship the demon lord Angazhan and toil to bring him humanoid sacrifices. Although most charau-ka embrace their birth culture, handfuls of defectors flee the unforgiving monarchy. Also, if rumors are true, the ape-men have developed a technique for reincarnating sacrificed humans as charau-ka; those who retain their memories often flee the cacophonous city in horror. Even though they have turned their backs on Usaro, charau-ka rebels are rarely benevolent. For the defectors, self-serving opportunism replaces religious faithfulness. For the reincarnated, the Mwangi Expanse provides a seemingly limitless wilderness in which to eke out a living (and perhaps nurse bitter grudges for being abandoned by their allies after they were captured by the forces of Usaro) while avoiding the judgment of more civilized lands.",
 			"",
-			"When it serves their needs, some Usaro rebels are known to hire themselves out as guides through the Mwangi Expanse, often because the destination of their patrons is somewhere they too want to go."
+			"When it serves their needs, some Usaro rebels are known to hire themselves out as guides through the Mwangi Expanse, often because the destination of their patrons is somewhere they too want to go.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"village_elder": {
@@ -4343,7 +4349,6 @@
 			"1st-*cause fear*[^D] (2, DC 15), *deathwatch*, *doom* (DC 15), *magic weapon*, *shield of faith*  ",
 			"0 (at will)-*bleed* (DC 14), *detect magic*, *light*, *resistance*  ",
 			"**Domains** Darkness, Death",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -4368,7 +4373,9 @@
 			"",
 			"**Combat Encounters:** Melisai is useful as an enemy leader, member of a rival adventuring party, or servant of an important NPC or villain.",
 			"",
-			"**Roleplaying Suggestions:** Though evil and disturbing, Melisai is easy to get along with. She is forthright, and has no problem helping the PCs if it achieves her own ends."
+			"**Roleplaying Suggestions:** Though evil and disturbing, Melisai is easy to get along with. She is forthright, and has no problem helping the PCs if it achieves her own ends.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"wise_sage": {
@@ -5547,8 +5554,7 @@
 			"2nd-*barkskin*, *bull's strength*, *fog cloud*[^D], *gust of wind* (DC 16), *warp wood*  ",
 			"1st-*cure light wounds* (4), *endure elements*, *obscuring mist*[^D]  ",
 			"0 (at will)-*create water*, *detect magic*, *flare* (DC 14), *light*  ",
-			"**Domain** Weather  ",
-			"[^D]: Domain spell",
+			"**Domain** Weather",
 			"",
 			"#### Tactics",
 			"",
@@ -5574,7 +5580,9 @@
 			"",
 			"**Combat Encounters:** Edal is most often found on his ship, along with his crew. When his crew is diminished, he sails in to a port, where he leads press gangs to round up new crew members.",
 			"",
-			"**Roleplaying Suggestions:** A thrill-seeker by nature, Edal is quick to tell a bawdy joke, accept a dare, or even start a tavern brawl so that he can prove his mettle."
+			"**Roleplaying Suggestions:** A thrill-seeker by nature, Edal is quick to tell a bawdy joke, accept a dare, or even start a tavern brawl so that he can prove his mettle.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"seductive_enchanter": {
@@ -5892,7 +5900,6 @@
 			"1st-*bane* (DC 13), *divine favor*, *entropic shield*, *protection from good*, *shield of faith*, *true strike*[^D]  ",
 			"0 (at will)-*bleed* (DC 12), *guidance*, *light*, *resistance*  ",
 			"**Domains** Destruction, Evil",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -5917,7 +5924,9 @@
 			"",
 			"**Combat Encounters:** Aznek makes a good solo encounter, boss of a group of raiders (especially orcs), or minion of a strong leader or powerful warbeast.",
 			"",
-			"**Roleplaying Suggestions:** Aznek's nature makes it difficult to interact with him except as his servant."
+			"**Roleplaying Suggestions:** Aznek's nature makes it difficult to interact with him except as his servant.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"aloof_scholar": {
@@ -6136,8 +6145,7 @@
 			"2nd (5/day)-*bull's strength*, *protection from arrows*  ",
 			"1st (7/day)-*bless*, *burning hands* (DC 12), *enlarge person*, *shield*, *true strike*  ",
 			"0 (at will)-*dancing lights*, *detect magic*, *detect poison*, *mage hand*, *mending*, *message*, *read magic*  ",
-			"**Bloodline** celestial  ",
-			"[^D]: Domain spell",
+			"**Bloodline** celestial",
 			"",
 			"#### Tactics",
 			"",
@@ -6163,7 +6171,9 @@
 			"",
 			"**Combat Encounters:** Allying with paladins, inquisitors, and clerics, Traica works to make the world safe for good people everywhere.",
 			"",
-			"**Roleplaying Suggestions:** Gracious and kind, Traica is always willing to help the downtrodden."
+			"**Roleplaying Suggestions:** Gracious and kind, Traica is always willing to help the downtrodden.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"criminal_slayer": {
@@ -6479,7 +6489,6 @@
 			"1st-*bane* (DC 15), *cause fear*[^D] (DC 17, 2), *entropic shield*, *obscuring mist*, *protection from good*  ",
 			"0 (at will)-*bleed* (DC 16), *detect poison*, *light*, *virtue*  ",
 			"**Domains** Death, Magic",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -6505,7 +6514,9 @@
 			"",
 			"**Combat Encounters:** Relyk can be used as a solo opponent, but is much more dangerous with undead allies. Because she is healed by negative energy, she can sustain herself and multiple undead with her channel energy ability, and may pretend to be undead to gain an advantage over gullible enemies.",
 			"",
-			"**Roleplaying Suggestions:** Relyk can be an advocate for a country ruled by undead, the commander of a large tribe of underground ghouls, or a daytime liaison for a cabal of vampires. When she defeats an enemy, she \"graciously\" offers to raise him as undead."
+			"**Roleplaying Suggestions:** Relyk can be an advocate for a country ruled by undead, the commander of a large tribe of underground ghouls, or a daytime liaison for a cabal of vampires. When she defeats an enemy, she \"graciously\" offers to raise him as undead.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"desert_hermit": {
@@ -6547,7 +6558,6 @@
 			"1st-*alter winds* (DC 15), *cloak of shade*[^D], *faerie fire*, *feather step*, *longstrider*, *speak with animals*  ",
 			"0 (at will)-*create water*, *detect poison*, *light*, *virtue*  ",
 			"**Domains** Desert",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -6566,7 +6576,9 @@
 			"",
 			"A desert hermit seeks the solitude in the windswept wastes for two chief reasons. First, the hermit finds that isolation allows him to more easily experience nature's harsh beauty and raw power, which he seeks to emulate. Second, the wide open spaces provide the hermit with the freedom to experience the world without interference from human society, which is trapped in meaningless competitions to get ahead in a race toward an unhappy death plagued by debt, troublesome relationships, and arbitrary expectations enforced by shame, discrimination, and even violence.",
 			"",
-			"Desert hermits are often defensive and suspicious when interrupted by outsiders. They rarely form druid circles, preferring true isolation. Those who forgo their connection to the desert in favor of a bestial ally tend to select camels, cobras, jackals, and vultures."
+			"Desert hermits are often defensive and suspicious when interrupted by outsiders. They rarely form druid circles, preferring true isolation. Those who forgo their connection to the desert in favor of a bestial ally tend to select camels, cobras, jackals, and vultures.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"divine_loremaster": {
@@ -6604,7 +6616,6 @@
 			"1st-*bane*, *bless*, *command* (DC 14), *comprehend languages*, *obscuring mist*, *sanctuary*[^D] (DC 14)  ",
 			"0 (at will)-*detect magic*, *detect poison*, *guidance*, *light*  ",
 			"**Domains** Law, Protection",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -6630,7 +6641,9 @@
 			"",
 			"**Combat Encounters:** Nearly always supporting a group of adventurers, Onora cares more about accumulating knowledge than the goals of the group she's joined. Though she usually provides support via spells, she's been known to slip away and pilfer books from an enemy spellcaster's library while her allies fight the menace.",
 			"",
-			"**Roleplaying Suggestions:** Honest to a fault, Onora is never stingy with her knowledge. She believes everyone should have access to the truth-and that truth should be unvarnished and free of all the inaccuracies, alterations made by political powers, and rampant hyperbole that plague so many publications claiming to be factual."
+			"**Roleplaying Suggestions:** Honest to a fault, Onora is never stingy with her knowledge. She believes everyone should have access to the truth-and that truth should be unvarnished and free of all the inaccuracies, alterations made by political powers, and rampant hyperbole that plague so many publications claiming to be factual.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"duergar_strandrider": {

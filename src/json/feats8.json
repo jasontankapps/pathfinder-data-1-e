@@ -4306,7 +4306,6 @@
 			"| Gained power by eliminating a superior | +1 |",
 			"| Fails to punish or kill minions who make costly mistakes | -2[^C] |",
 			"| Recruits a cohort of a different alignment | -1 |",
-			"[^C]: Cumulative per incident of compassion shown. This penalty is incurred even if you show mercy to avoid killing or punishing more than 20% of your minions during a given character level (see the footnote in the following table).",
 			"",
 			"Followers have different priorities from cohorts. When you try to attract a follower, use the following modifiers.",
 			"",
@@ -4316,6 +4315,8 @@
 			"| Has punished or killed minions to set an example or assert dominance | +1[^B] |",
 			"| Has a tendency toward long periods of inactivity | -1 |",
 			"| Restricts minions from looting, pillaging, or pursing other spoils of war | -1 |",
+			"",
+			"[^C]: Cumulative per incident of compassion shown. This penalty is incurred even if you show mercy to avoid killing or punishing more than 20% of your minions during a given character level (see the footnote in the following table).",
 			"[^B]: Cumulative to a maximum bonus of +1 per character level. If you punish or kill more than 20% of your minions during a given character level, this bonus becomes a penalty instead. When you gain a new level, any bonus or penalty from punishing or killing minions resets to 0."
 		]
 	},

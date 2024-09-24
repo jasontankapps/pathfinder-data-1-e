@@ -3513,7 +3513,7 @@
 			"*2nd*-cure moderate wounds, darkness, hold person (DC 17), shatter[^D], spiritual weapon  ",
 			"*1st*-command (DC 16), cure light wounds, doom (DC 16), obscuring mist, protection from good, shield of faith, true strike[^D]  ",
 			"*0 (at will)*-detect magic, guidance, read magic, resistance  ",
-			"[^D]: Domain spell; **Domains** Destruction, Evil",
+			"**Domains** Destruction, Evil",
 			"",
 			"#### Statistics",
 			"",
@@ -3534,7 +3534,9 @@
 			"",
 			"Locusts: Found in any area that sports-or once sported-verdant plant life, this worm that walks variant has plague-like nuances and can be particularly hard to kill. Made up of ravenous locusts, these worms that walk make meals of any creatures weaker than they, and are particularly attuned to their animalistic instincts. One of these particularly appalling worms that walk is said to threaten the agriculture-rich lands of Geb, and due to the influence of Deskari in the Worldwound, a few of these creatures have been spotted in the ruins of Sarkoris.",
 			"",
-			"Wasps: Typically found in warm, moist regions, these worms that walk are made from hundreds of thousands of buzzing, swarming wasps. Aggressive and cruel, these worms that walk favor poison and other debilitating substances, and commonly focus their arcane knowledge on creating potent toxins. Rumor has it that one of these horrific creatures rules over a tribe of hunters along one of the winding tributaries threading throughout the Mwangi Expanse."
+			"Wasps: Typically found in warm, moist regions, these worms that walk are made from hundreds of thousands of buzzing, swarming wasps. Aggressive and cruel, these worms that walk favor poison and other debilitating substances, and commonly focus their arcane knowledge on creating potent toxins. Rumor has it that one of these horrific creatures rules over a tribe of hunters along one of the winding tributaries threading throughout the Mwangi Expanse.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"locust_variant": { "copyof": "worm_that_walks,_locust_variant" },

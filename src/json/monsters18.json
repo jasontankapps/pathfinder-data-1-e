@@ -1615,7 +1615,7 @@
 			"**Cleric Spells Prepared ** (CL 2nd; concentration +3)  ",
 			"*1st*-bless, cure light wounds, divine favor, enlarge person[^D]  ",
 			"*0 (at will)*-create water, detect magic, mending, stabilize  ",
-			"[^D]: Domain spell; **Domains** Madness, Strength",
+			"**Domains** Madness, Strength",
 			"",
 			"#### Statistics",
 			"",
@@ -1632,7 +1632,9 @@
 			"",
 			"#### Description",
 			"",
-			"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power."
+			"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"ogre_priest": { "copyof": "ogre,_ogre_priest" },
@@ -3664,7 +3666,7 @@
 			"*2nd*-bull's strength, invisibility[^D]  ",
 			"*1st*-bane (DC 12), magic weapon, murderous command (DC 12), protection from good[^D]  ",
 			"*0 (at will)*-bleed (DC 11), detect magic, guidance, read magic  ",
-			"[^D]: Domain spell; **Domains** Evil, Trickery",
+			"**Domains** Evil, Trickery",
 			"",
 			"#### Tactics",
 			"",
@@ -3689,7 +3691,9 @@
 			"",
 			"Orcs worship in a different way from many other races, adhering to a polytheistic tradition that varies by tribe. These gods speak to the orcs' love of fire, destruction, slavery, and the like, but the particular offerings and prayers one tribe uses for the Blood God might be the same ones a different tribe gives to the Destroyer. Orcs take little notice of these distinctions. There's no point in religious squabbling when there are villages to raid and people to slaughter.",
 			"",
-			"There's seldom more than one full mystic in a tribe, though the mystic may teach the ways of divine magic to multiple apprentices. These apprentices are practically slaves to the mystic, and face beatings and starvation during their tutelage. It's not uncommon for a mystic to murder overly ambitious apprentices who seek to usurp his position in the tribe."
+			"There's seldom more than one full mystic in a tribe, though the mystic may teach the ways of divine magic to multiple apprentices. These apprentices are practically slaves to the mystic, and face beatings and starvation during their tutelage. It's not uncommon for a mystic to murder overly ambitious apprentices who seek to usurp his position in the tribe.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"orc_mystic": { "copyof": "orc,_orc_mystic" },

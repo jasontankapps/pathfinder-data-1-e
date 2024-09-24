@@ -43,7 +43,6 @@
 			"**Symbol** Golden key  ",
 			"**Sacred Animal(s)** Monkey  ",
 			"**Sacred Color(s)** Gold, silver",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -214,7 +213,9 @@
 			">- **[Summon Monster III](spell/summon_monster_3):** [Celestial](template/celestial) [Hippogriff](monster/hippogriff) - LN",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Two-Headed Giant Eagle](monster/giant_eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
 			">- **[Summon Monster V](spell/summon_monster_5):** [Celestial](template/celestial) [Griffon](monster/griffon) - LN",
-			">- **[Summon Monster IX](spell/summon_monster_9):** [Kolyarut](monster/kolyarut) - LN"
+			">- **[Summon Monster IX](spell/summon_monster_9):** [Kolyarut](monster/kolyarut) - LN",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"abhoth": {
@@ -275,7 +276,6 @@
 			"**Symbol** Demonic face and snakes  ",
 			"**Sacred Animal(s)** Snake  ",
 			"**Sacred Color(s)** Green, orange",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -329,7 +329,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Demonic Persuasion](trait/demonic_persuasion)"
+			">- [Demonic Persuasion](trait/demonic_persuasion)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"acavna": {
@@ -377,7 +379,6 @@
 			"**Symbol** Crossed mantis claws  ",
 			"**Sacred Animal(s)** Crimson mantis  ",
 			"**Sacred Color(s)** Red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -462,7 +463,9 @@
 			">",
 			">#### Druid",
 			">",
-			">- [Murderous Command](spell/murderous_command) can be prepared as a 1st-level spell"
+			">- [Murderous Command](spell/murderous_command) can be prepared as a 1st-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"aegirran": {
@@ -824,7 +827,6 @@
 			"**Symbol** Sandy gold scorpion  ",
 			"**Sacred Animal(s)** Scorpion  ",
 			"**Sacred Color(s)** Gold, orange",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -874,7 +876,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Demonic Persuasion](trait/demonic_persuasion)"
+			">- [Demonic Persuasion](trait/demonic_persuasion)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"alichino": {
@@ -997,7 +1001,6 @@
 			"**Symbol** Two faces in profile  ",
 			"**Sacred Animal(s)** Tortoise  ",
 			"**Sacred Color(s)** Brown, gray",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -1074,7 +1077,9 @@
 			">",
 			">- [Open/Close](spell/open_close) can be prepared as a 0-level spell",
 			">- [Arcane Lock](spell/arcane_lock) can be prepared as a 2nd-level spell",
-			">- [Knock](spell/knock) can be prepared as a 2nd-level spell"
+			">- [Knock](spell/knock) can be prepared as a 2nd-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"amaznen": {
@@ -2198,7 +2203,6 @@
 			"**Symbol** Figure with colorful sashes  ",
 			"**Sacred Animal(s)** Swan  ",
 			"**Sacred Color(s)** Purple, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -2224,7 +2228,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"ashava": {
@@ -2401,7 +2407,6 @@
 			"**Symbol** Red pentagram  ",
 			"**Sacred Animal(s)** Serpent  ",
 			"**Sacred Color(s)** Black, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -2574,7 +2579,9 @@
 			">",
 			">- **[Summon Monster II](spell/summon_monster_2):** [Hell Hound](monster/hell_hound) - LE",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Cerberi](monster/cerberi) - LE",
-			">- **[Summon Monster V](spell/summon_monster_5):** [Bearded Devil](monster/bearded_devil) - LE"
+			">- **[Summon Monster V](spell/summon_monster_5):** [Bearded Devil](monster/bearded_devil) - LE",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"atlach_nacha": {
@@ -2680,7 +2687,6 @@
 			"**Symbol** Fossilized dinosaur tooth  ",
 			"**Sacred Animal(s)** Tyrannosaurus rex  ",
 			"**Sacred Color(s)** Brown, gray",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -2692,7 +2698,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Affinity for the Elements](trait/affinity_for_the_elements)"
+			">- [Affinity for the Elements](trait/affinity_for_the_elements)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"azathoth": {
@@ -2985,7 +2993,6 @@
 			"**Symbol** Three-eyed beard  ",
 			"**Sacred Animal(s)** Raven  ",
 			"**Sacred Color(s)** Gray, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -3027,7 +3034,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Flames of Hell](trait/flames_of_hell)"
+			">- [Flames of Hell](trait/flames_of_hell)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"barravoclair": {
@@ -3794,7 +3803,6 @@
 			"**Symbol** Mask with forehead rune  ",
 			"**Sacred Animal(s)** Termite  ",
 			"**Sacred Color(s)** Bronze, silver",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -3880,7 +3888,9 @@
 			">",
 			">- **[Summon Monster I](spell/summon_monster_1):** [Clockwork Spy](monster/clockwork_spy)",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Clockwork Servant](monster/clockwork_servant)",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Clockwork Soldier](monster/clockwork_soldier)"
+			">- **[Summon Monster VI](spell/summon_monster_6):** [Clockwork Soldier](monster/clockwork_soldier)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"bundha": {
@@ -4083,7 +4093,6 @@
 			"**Symbol** Three daggers  ",
 			"**Sacred Animal(s)** Wasp  ",
 			"**Sacred Color(s)** Black, yellow",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -4277,7 +4286,9 @@
 			">- **[Summon Monster I](spell/summon_monster_1):** [Giant Bee](monster/giant_bee) - N",
 			">- **[Summon Monster II](spell/summon_monster_2):** [Tiefling Rogue 1](monster/tiefling) - CN",
 			">- **[Summon Monster V](spell/summon_monster_5):** [Spider Eater](monster/spider_eater) - N",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** [Hellwasp Swarm](monster/hellwasp_swarm) - CE"
+			">- **[Summon Monster VIII](spell/summon_monster_8):** [Hellwasp Swarm](monster/hellwasp_swarm) - CE",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"camazotz": {
@@ -5830,12 +5841,13 @@
 			"**Favored Weapon** [Flail](equipment-weapon/light_flail)  ",
 			"**Symbol** Nine-tailed fox  ",
 			"**Sacred Animal(s)** Fox",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
 			"**Centers of Worship** Forest of Spirits, Minkai, Shokuro  ",
-			"**Nationality** Kitsune"
+			"**Nationality** Kitsune",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"dalenydra": {
@@ -5859,7 +5871,6 @@
 			"**Symbol** Bandage-wrapped fist  ",
 			"**Sacred Animal(s)** Silkworm  ",
 			"**Sacred Color(s)** Red, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -5872,7 +5883,9 @@
 			">### Traits",
 			">",
 			">- [Empyreal Focus](trait/empyreal_focus)",
-			">- [Scarred by War](trait/scarred_by_war)"
+			">- [Scarred by War](trait/scarred_by_war)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"damerrich": {
@@ -5997,7 +6010,6 @@
 			"**Symbol** Bloody locust wings  ",
 			"**Sacred Animal(s)** Locust  ",
 			"**Sacred Color(s)** Green, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -6076,7 +6088,9 @@
 			">",
 			">- **[Summon Monster IV](spell/summon_monster_4):** [Vermlek](monster/vermlek)",
 			">- **[Summon Monster V](spell/summon_monster_5):** [Fiendish](template/fiendish) [Giant Locust](monster/giant_locust)",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish](template/fiendish) [Giant Mosquito](monster/giant_mosquito)"
+			">- **[Summon Monster VI](spell/summon_monster_6):** [Fiendish](template/fiendish) [Giant Mosquito](monster/giant_mosquito)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"desna": {
@@ -6419,7 +6433,6 @@
 			"**Symbol** Iron nail, crown, and ring  ",
 			"**Sacred Animal(s)** Hound  ",
 			"**Sacred Color(s)** Iron gray, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -6461,7 +6474,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Flames of Hell](trait/flames_of_hell)"
+			">- [Flames of Hell](trait/flames_of_hell)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"doloras": {
@@ -7333,7 +7348,6 @@
 			"**Symbol** Sword held aloft  ",
 			"**Sacred Animal(s)** Cat  ",
 			"**Sacred Color(s)** Silver, white",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"---",
 			"",
@@ -7359,7 +7373,9 @@
 			">",
 			">### Traits",
 			">",
-			">- [Empyreal Focus](trait/empyreal_focus)"
+			">- [Empyreal Focus](trait/empyreal_focus)",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"fandarra": {
@@ -7888,7 +7904,6 @@
 			"**Favored Weapon** [Longbow](equipment-weapon/longbow)  ",
 			"**Symbol** Black winged horse  ",
 			"**Sacred Animal(s)** Horse",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -7901,7 +7916,9 @@
 			"",
 			"#### Cleric, Inquisitor, Oracle, Warpriest",
 			"",
-			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell"
+			"- [Tail Strike](spell/tail_strike) can be prepared as a 4th-level spell",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"geon": {
@@ -8173,7 +8190,6 @@
 			"**Symbol** Mosquito in profile  ",
 			"**Sacred Animal(s)** Mosquito  ",
 			"**Sacred Color(s)** Light gray, red",
-			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait.",
 			"",
 			"#### On Golarion",
 			"",
@@ -8239,7 +8255,9 @@
 			">",
 			">**Source** [Inner Sea Faiths pg. 44](source/inner_sea_faiths)",
 			">",
-			">- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals."
+			">- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals.",
+			"",
+			"[^A]: Requires the [Acolyte of Apocrypha](trait/acolyte_of_apocrypha) trait."
 		]
 	},
 	"gogunta": {

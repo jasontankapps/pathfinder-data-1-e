@@ -805,7 +805,7 @@
 			"*2nd*-align weapon[^D] (evil only), death knell (DC 18), dread bolt (DC 18), grace, hold person (DC 18), silence (DC 18), spiritual weapon  ",
 			"*1st*-cause fear (DC 17), doom (DC 17), entropic shield, magic stone, murderous command (DC 17), protection from good[^D], ray of sickening (DC 17)  ",
 			"*0 (at will)*-bleed (DC 16), guidance, read magic, resistance  ",
-			"[^D]: Domain spell; **Domains** Evil, Water",
+			"**Domains** Evil, Water",
 			"",
 			"#### Statistics",
 			"",
@@ -822,7 +822,9 @@
 			"",
 			"The Mushfens are bordered on the south by Conqueror's Bay, forming a long coastline where the brutes practice their frightening rituals to Dagon. They are visited often by the demon lord's sea-spawn, resulting in many births of deformed brineborn. One of Dagon's horrific emissaries stays with Oozlosh's tribe occasionally, reveling in the giants' vulgar devotion. It has tasked Oozlosh with safeguarding the tribe's brineborn until they are called to fulfill a dark purpose, a secret the high priest guards with his life.",
 			"",
-			"Oozlosh's zealotry for Dagon knows no bounds. He debases himself physically to honor the demon lord and expects his followers to do the same. The high priest's swamp hovel is not grand, but in the muck around his shack, he secretly conceals prizes scavenged from the tribe's victims. Oozlosh also keeps a cage of shocker lizards outside his home, having become addicted to the jolts he receives when chewing the creatures."
+			"Oozlosh's zealotry for Dagon knows no bounds. He debases himself physically to honor the demon lord and expects his followers to do the same. The high priest's swamp hovel is not grand, but in the muck around his shack, he secretly conceals prizes scavenged from the tribe's victims. Oozlosh also keeps a cage of shocker lizards outside his home, having become addicted to the jolts he receives when chewing the creatures.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"orania": {
@@ -1382,8 +1384,7 @@
 			"*Constant*-cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing  ",
 			"*At will*-contagious flame, desecrate[^M], fireball[^M] (DC 19), greater dispel magic, greater teleport, wall of fire[^M]  ",
 			"*3/day*-quickened contagious flame, delayed blast fireball (DC 23), harm[^M] (DC 22), resurrection (see tainted resurrection), wall of lava  ",
-			"*1/day*-meteor swarm[^M] (DC 25), summon qlippoth  ",
-			"[^M]: Chavazvug can use the mythic version of this ability within his sanctum.",
+			"*1/day*-meteor swarm[^M] (DC 25), summon qlippoth",
 			"",
 			"#### Statistics",
 			"",
@@ -1428,7 +1429,9 @@
 			"",
 			"Chavazvug's symbol is a burning tentacled rune, and his favored weapon is the heavy flail. He grants access to the domains of Chaos, Evil, Fire, and Repose, and to the subdomains of Ash, Entropy, Smoke, and Souls.",
 			"",
-			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)",
+			"",
+			"[^M]: Chavazvug can use the mythic version of this ability within his sanctum."
 		]
 	},
 	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
@@ -1464,8 +1467,7 @@
 			"*Constant*-cloak of chaos (DC 27), detect good, detect law, freedom of movement, tongues, true seeing  ",
 			"*At will*-charm monster (DC 23), desecrate[^M], greater command (DC 25), greater dispel magic, greater object possession (DC 26), greater teleport  ",
 			"*3/day*-dominate monster (DC 28), greater possession (DC 27), quickened mass suggestion (DC 25), quickened mind fog (DC 24), whirlwind[^M] (DC 27)  ",
-			"*1/day*-summon qlippoth, wish[^M]  ",
-			"[^M]: Isph-Aun-Vuln can use the mythic version of this ability within her sanctum",
+			"*1/day*-summon qlippoth, wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -1509,7 +1511,9 @@
 			"",
 			"Isph-Aun-Vuln's holy symbol is a rune within a cloud of tentacles, and her favored weapon is the longbow. She grants access to the domains of Air, Chaos, Evil, and Trickery, and to the subdomains of Deception, Fear, Venom, and Wind.",
 			"",
-			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)",
+			"",
+			"[^M]: Isph-Aun-Vuln can use the mythic version of this ability within her sanctum"
 		]
 	},
 	"isph-aun-vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
@@ -1547,8 +1551,7 @@
 			"*Constant*-cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing  ",
 			"*At will*-black tentacles[^M], cloudkill[^M] (DC 21), control water, desecrate[^M], greater dispel magic, greater teleport  ",
 			"*3/day*-control plants (DC 24), quickened heal[^M], horrid wilting[^M] (DC 24), plundered power (DC 23), vortex (DC 23)  ",
-			"*1/day*-tsunami[^M] (DC 25), summon qlippoth  ",
-			"[^M]: Oaur-Ooung can use the mythic version of this ability within her sanctum.",
+			"*1/day*-tsunami[^M] (DC 25), summon qlippoth",
 			"",
 			"#### Statistics",
 			"",
@@ -1599,7 +1602,9 @@
 			"",
 			"Oaur-Ooung's symbol is a jellyfish-shaped rune, and her favored weapon is the trident. This qlippoth lord grants access to the domains of Chaos, Evil, Plant, and Water, and to the subdomains of Decay, Fear, Growth, and Oceans.",
 			"",
-			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)",
+			"",
+			"[^M]: Oaur-Ooung can use the mythic version of this ability within her sanctum."
 		]
 	},
 	"oaur-ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
@@ -1638,8 +1643,7 @@
 			"*Constant*-cloak of chaos (DC 23), detect good, detect law, fly, freedom of movement, true seeing  ",
 			"*At will*-acid fog, blindness/deafness[^M] (DC 17), desecrate[^M], greater dispel magic, greater teleport, slow[^M] (DC 18)  ",
 			"*3/day*-foresight[^M], mass hunger for flesh (DC 21), power word blind[^M], quickened slow (DC 18), vision, waves of exhaustion  ",
-			"*1/day*-imprisonment (DC 24), summon qlippoth  ",
-			"[^M]: Thuskchoon can use the mythic version of this ability within his sanctum.",
+			"*1/day*-imprisonment (DC 24), summon qlippoth",
 			"",
 			"#### Statistics",
 			"",
@@ -1684,7 +1688,9 @@
 			"",
 			"Thuskchoon's symbol is a triangular rune with teeth, and his favored weapon is the greatclub. He grants access to the domains of Chaos, Destruction, Evil, and Knowledge, and to the subdomains of Catastrophe, Entropy, Rage, and Thought.",
 			"",
-			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
+			"**Family:** [Qlippoth Lord](family/qlippoth_lord)",
+			"",
+			"[^M]: Thuskchoon can use the mythic version of this ability within his sanctum."
 		]
 	},
 	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
@@ -2066,7 +2072,7 @@
 			"*2nd*-augury, compassionate ally (DC 22), grace, hold person (DC 22), silence (DC 22), slipstream[^D] (DC 22), sound burst (DC 22), zone of truth (DC 22)  ",
 			"*1st*-command (DC 21), divine favor, murderous command (DC 21), obscuring mist[^D], protection from evil, remove fear, sanctuary (DC 21), shield of faith  ",
 			"*0 (at will)*-detect magic, guidance, light, purify food and drink  ",
-			"[^D]: Domain spell; **Domains** Water (Oceans subdomain), Weather (Storms subdomain)",
+			"**Domains** Water (Oceans subdomain), Weather (Storms subdomain)",
 			"",
 			"#### Statistics",
 			"",
@@ -2080,7 +2086,9 @@
 			"",
 			"#### Description",
 			"",
-			"Scyld Hranni is a revered storm giant warrior, her family originally hailing from a small islet just west of the island of Thuryan in Cheliax. The Hranni family gave up their holdings not long after Cheliax bound their fate to the devils of Hell, and since their disbanding, Scyld has searched for purpose amid the vast waters of the Arcadian Ocean, traveling along the coast of southern Avistan and northern Garund. Other storm giants regard her violet hair as a sign of being blessed by the gods, a notion she encourages through her devoted worship of Aegirran. Clad in sleek mithral armor and a barnacle-encrusted shield of driftwood and jagged coral, Scyld trains the myriad sea creatures of the Arcadian Ocean to help her in her search for purpose and her ambitions of eliminating evil throughout the region."
+			"Scyld Hranni is a revered storm giant warrior, her family originally hailing from a small islet just west of the island of Thuryan in Cheliax. The Hranni family gave up their holdings not long after Cheliax bound their fate to the devils of Hell, and since their disbanding, Scyld has searched for purpose amid the vast waters of the Arcadian Ocean, traveling along the coast of southern Avistan and northern Garund. Other storm giants regard her violet hair as a sign of being blessed by the gods, a notion she encourages through her devoted worship of Aegirran. Clad in sleek mithral armor and a barnacle-encrusted shield of driftwood and jagged coral, Scyld trains the myriad sea creatures of the Arcadian Ocean to help her in her search for purpose and her ambitions of eliminating evil throughout the region.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"shamira": {
@@ -2545,7 +2553,7 @@
 			"*2nd*-aspect of the bear[^D], barkskin, bear's endurance, eagle eye, gust of wind (DC 17), stone call  ",
 			"*1st*-cure light wounds (DC 16), endure elements, feather step[^D] (DC 16), frostbite, longstrider, obscuring mist, shillelagh  ",
 			"*0 (at will)*-detect magic, guidance, purify food and drink, stabilize  ",
-			"[^D]: Domain spell; **Domain** Arctic",
+			"**Domain** Arctic",
 			"",
 			"#### Statistics",
 			"",
@@ -2559,7 +2567,9 @@
 			"",
 			"#### Description",
 			"",
-			"Tanaq Mammoth-Eater is a savage shaman among his clan of taiga giants, and his prowess in both the arctic cold and the towering heights of the Tusks proves the title was rightfully earned. A century ago, he led the tribe from their previous home in Red Rune Canyon in the Realm of the Mammoth Lords when their preferred mammoth-hunting grounds started to reek foully of demonic taint. He wields his father's bloodstone impaler, one of the first of its kind crafted by his people, and his hatred for the Kellid raiders who years ago slew his family still burns fiercely within him."
+			"Tanaq Mammoth-Eater is a savage shaman among his clan of taiga giants, and his prowess in both the arctic cold and the towering heights of the Tusks proves the title was rightfully earned. A century ago, he led the tribe from their previous home in Red Rune Canyon in the Realm of the Mammoth Lords when their preferred mammoth-hunting grounds started to reek foully of demonic taint. He wields his father's bloodstone impaler, one of the first of its kind crafted by his people, and his hatred for the Kellid raiders who years ago slew his family still burns fiercely within him.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"tanaq_mammoth_eater": { "copyof": "tanaq_mammoth-eater" },
@@ -3373,7 +3383,7 @@
 			"*2nd*-darkness, death knell (DC 21), gust of wind[^D] (DC 21), shatter (2), spiritual weapon  ",
 			"*1st*-cause fear (DC 20), command (DC 20, 2), divine favor, entropic shield, obscuring mist, shield of faith, true strike[^D]  ",
 			"*0 (at will)*-bleed (DC 19), detect magic, guidance, virtue  ",
-			"[^D]: Domain spell; **Domains** Destruction (Catastrophe subdomain), Weather (Storms subdomain)",
+			"**Domains** Destruction (Catastrophe subdomain), Weather (Storms subdomain)",
 			"",
 			"#### Statistics",
 			"",
@@ -3410,7 +3420,9 @@
 			"Urtleytlar tends to find sailors before they find her, and those who purposefully seek out the legendary monster are regarded as mad.",
 			"",
 			"- Eager to acquire more power to further her course of destruction, Urtleytlar sends skum scouts to raid the underwater city of Wetan near the Sodden Lands. Once a port city of Lirgen, Wetan fell beneath the waves with the formation of the Eye of Abendego, and after the settlement's destruction, a tribe of locathah squatters sought the protection of its abandoned buildings. There they discovered an inoperable planetary gate and managed to partially activate it. Urtleytlar can sense the power and wants it for her own, despite not knowing exactly what she might gain.",
-			"- Though Urtleytlar enjoys the caress of the Eye, she is hardly contained to one place, and her touch can be felt on the shores of the Shackles, the Sodden Lands, and Mediogalti Isle. Her destructive roaming causes especial trouble for the pirates of the Shackles, and a number of unlikely collaborators have settled their grudges, forming a pact to locate the dangerous scylla and kill her. Of course, with an endeavor like this, the pirates are eager for additional help."
+			"- Though Urtleytlar enjoys the caress of the Eye, she is hardly contained to one place, and her touch can be felt on the shores of the Shackles, the Sodden Lands, and Mediogalti Isle. Her destructive roaming causes especial trouble for the pirates of the Shackles, and a number of unlikely collaborators have settled their grudges, forming a pact to locate the dangerous scylla and kill her. Of course, with an endeavor like this, the pirates are eager for additional help.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"uvaglor": {

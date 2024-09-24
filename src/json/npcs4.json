@@ -97,8 +97,7 @@
 			"2nd-*barkskin* (3), *bull's strength*, *cat's grace*, *produce flame*[^D]  ",
 			"1st-*burning hands*[^D] (2, DC 17), *cure light wounds*, *faerie fire*, *shillelagh*, *speak with animals*  ",
 			"0 (at will)-*create water*, *flare* (DC 16), *light*, *stabilize*  ",
-			"**Domain** Fire  ",
-			"[^D]: Domain spell",
+			"**Domain** Fire",
 			"",
 			"#### Tactics",
 			"",
@@ -124,7 +123,9 @@
 			"",
 			"**Combat Encounters:** Karuth attacks with no warning, laughing maniacally as he burns alive any whom he encounters.",
 			"",
-			"**Roleplaying Suggestions:** Although Karuth is evil, he occasionally suffers from periods of strange lucidity and regret. During these times he tearfully asking those who seem like they have a chance of standing against his fearful might to grant him release from his evil compulsions through death."
+			"**Roleplaying Suggestions:** Although Karuth is evil, he occasionally suffers from periods of strange lucidity and regret. During these times he tearfully asking those who seem like they have a chance of standing against his fearful might to grant him release from his evil compulsions through death.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"ice_mage": {
@@ -562,7 +563,6 @@
 			"1st-*cause fear* (2, DC 17), *command* (DC 17), *divine favor*, *entropic shield*, *sanctuary* (DC 17), *true strike*[^D]  ",
 			"0 (at will)-*create water*, *detect poison*, *mending*, *read magic*  ",
 			"**Domains** Luck, Protection",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -588,7 +588,9 @@
 			"",
 			"**Combat Encounters:** Pindle is a capable guardian and might agree to guard a place or thing as a favor for an allied church or devotee of beauty-even if this pits him against good-aligned PCs. If the PCs steal a valuable gem, art object, or magic item relevant to his interests (or if he has been led to believe this), he might track them down and insist that they return it, or even take it by force if necessary.",
 			"",
-			"**Roleplaying Suggestions:** Pindle is knowledgeable about art, gems, famous armors, and similar topics. He'd gladly accompany most PCs to an exotic location of great beauty or in search of a lost art object."
+			"**Roleplaying Suggestions:** Pindle is knowledgeable about art, gems, famous armors, and similar topics. He'd gladly accompany most PCs to an exotic location of great beauty or in search of a lost art object.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"tunnel_drummer": {
@@ -821,8 +823,7 @@
 			"2nd-*barkskin*[^D] (3), *bear's endurance*, *lesser restoration*, *longstrider*  ",
 			"1st-*cure light wounds* (2), *entangle*[^D] (DC 16), *faerie fire* (2), *obscuring mist*, *speak with animals*  ",
 			"0 (at will)-*detect magic*, *light*, *mending*, *read magic*  ",
-			"**Domain** Plant  ",
-			"[^D]: Domain spell",
+			"**Domain** Plant",
 			"",
 			"#### Tactics",
 			"",
@@ -844,7 +845,9 @@
 			"",
 			"### Genyielt Graycloak",
 			"",
-			"This stalker of bogs and moors works tirelessly to end the encroachment of civilization on her desolate home."
+			"This stalker of bogs and moors works tirelessly to end the encroachment of civilization on her desolate home.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"cruel_conjurer": {
@@ -1380,7 +1383,6 @@
 			"1st-*bane* (DC 18), *cause fear*[^D] (DC 18), *divine favor*, *doom* (2, DC 18), *entropic shield*, *shield of faith*  ",
 			"0 (at will)-*bleed* (DC 17), *light*, *resistance*, *virtue*  ",
 			"**Domains** Death, Evil",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -1402,7 +1404,9 @@
 			"",
 			"### Thamo Hakasa",
 			"",
-			"Thamo, a living priest, fears that becoming undead would ruin his appetites for food and physical pleasure."
+			"Thamo, a living priest, fears that becoming undead would ruin his appetites for food and physical pleasure.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"pirate_king": {
@@ -1762,7 +1766,6 @@
 			"1st-*bless*, *command* (2, DC 18), *cure light wounds*, *divine favor*, *obscuring mist*[^D], *shield of faith*  ",
 			"0 (at will)-*create water*, *detect magic*, *read magic*, *resistance*  ",
 			"**Domains** Air, Water",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -1780,7 +1783,9 @@
 			"**SQ** aura  ",
 			"**Combat Gear** potions of invisibility (2); **Other Gear** +1 mithral chainmail, masterwork light crossbow with 20 bolts, masterwork quarterstaff, amulet of natural armor +2, cloak of resistance +2, headband of inspired wisdom +6, ring of protection +1, forked metal rods (for plane shift), wooden unholy symbol, 1,564 gp",
 			"",
-			"The elemental priest commands the forces of nature and summons powerful air and water spirits to do his bidding."
+			"The elemental priest commands the forces of nature and summons powerful air and water spirits to do his bidding.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"horse_monk": {
@@ -2118,8 +2123,7 @@
 			"2nd-*barkskin* (3), *bear's endurance*, *bull's strength*, *cat's grace*, *fog cloud*[^D]  ",
 			"1st-*cure light wounds* (3), *faerie fire*, *longstrider*, *obscuring mist*[^D], *speak with animals*  ",
 			"0 (at will)-*create water*, *detect magic*, *light*, *mending*  ",
-			"**Domain** Water  ",
-			"[^D]: Domain spell",
+			"**Domain** Water",
 			"",
 			"#### Tactics",
 			"",
@@ -2136,7 +2140,9 @@
 			"**SQ** a thousand faces, nature bond (Water domain), nature sense, timeless body, trackless step, wild empathy +15, woodland stride  ",
 			"**Combat Gear** potion of haste, potion of displacement, scroll of word of recall, wand of cure serious wounds (10 charges); **Other Gear** +1 wild ironwood full plate, +1 darkwood heavy wooden shield, +1 scimitar, +1 sling with 10 bullets, cloak of resistance +2, headband of inspired wisdom +4, ring of protection +2, cold weather outfit, healer's kit, holly and mistletoe, masterwork woodcarving tools, spell component pouch, 110 gp",
 			"",
-			"These hardy druids patrol and protect the icy reaches of northern forests, and command spells and abilities equally as cold and unforgiving."
+			"These hardy druids patrol and protect the icy reaches of northern forests, and command spells and abilities equally as cold and unforgiving.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"undead_hunter": {
@@ -2476,8 +2482,7 @@
 			"2nd-*false life*, *flaming sphere* (DC 15), *gust of wind* (DC 15), *invisibility*, *mirror image*, *misdirection*  ",
 			"1st-*comprehend languages*, *expeditious retreat*, *feather fall*, *magic missile* (2), *unseen servant*  ",
 			"0 (at will)-*dancing lights*, *detect magic*, *mage hand*, *read magic*  ",
-			"**Opposition Schools** abjuration, enchantment  ",
-			"[^D]: Domain spell",
+			"**Opposition Schools** abjuration, enchantment",
 			"",
 			"#### Tactics",
 			"",
@@ -2495,7 +2500,9 @@
 			"**SQ** aura, arcane bond (staff of swarming insects), combined spells (4th), elf blood  ",
 			"**Combat Gear** staff of swarming insects; **Other Gear** +3 mithral full plate, +1 heavy mace, amulet of natural armor +3, belt of mighty constitution +4, cloak of resistance +3, hat of disguise, headband of mental prowess +4 (Int, Wis), ring of protection +3, 5,838 gp",
 			"",
-			"A death master slings a spell with each stride."
+			"A death master slings a spell with each stride.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"dragon_chieftain": {
@@ -2756,8 +2763,7 @@
 			"2nd-*barkskin* (3), *bull's strength* (2), *cat's grace*, *fog cloud*[^D]  ",
 			"1st-*entangle* (2, DC 18), *faerie fire* (2), *obscuring mist*[^D], *shillelagh*, *speak with animals*  ",
 			"0 (at will)-*flare* (DC 17), *light*, *purify food and drink*, *resistance*  ",
-			"**Domain** Weather  ",
-			"[^D]: Domain spell",
+			"**Domain** Weather",
 			"",
 			"#### Tactics",
 			"",
@@ -2778,7 +2784,9 @@
 			"",
 			"### Pateba Blackmind",
 			"",
-			"As feral as a wild cat, Pateba defends her forest without pity or remorse. Those who intrude are things to hunt and destroy."
+			"As feral as a wild cat, Pateba defends her forest without pity or remorse. Those who intrude are things to hunt and destroy.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"herald_of_armageddon": {
@@ -2820,7 +2828,6 @@
 			"1st-*bane* (DC 16), *cause fear* (2, DC 16), *divine favor*, *doom* (DC 16), *entropic shield*, *true strike*[^D]  ",
 			"0 (at will)-*bleed* (DC 15), *guidance*, *read magic*, *resistance*  ",
 			"**Domains** Evil, War",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -2841,7 +2848,9 @@
 			"",
 			"### Gavramha Batzur",
 			"",
-			"Gavramha was born into the cult of destruction and raised as the \"chosen one,\" prophesied to break open the world and release her mad god from his prison."
+			"Gavramha was born into the cult of destruction and raised as the \"chosen one,\" prophesied to break open the world and release her mad god from his prison.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"iron_duelist": {
@@ -3574,8 +3583,7 @@
 			"2nd-*barkskin*[^D] (3), *fog cloud*, *hold animal* (DC 17), *spider climb*  ",
 			"1st-*cure light wounds*, *entangle*[^D] (DC 16), *faerie fire* (2), *obscuring mist*, *shillelagh*, *speak with animals*  ",
 			"0 (at will)-*know direction*, *light*, *read magic*, *stabilize*  ",
-			"**Domain** Plant  ",
-			"[^D]: Domain spell",
+			"**Domain** Plant",
 			"",
 			"#### Tactics",
 			"",
@@ -3592,7 +3600,9 @@
 			"**SQ** a thousand faces, bramble armor (1d6+9, 18 rounds/day), nature bond (Plant domain), nature sense, timeless body, trackless step, wild empathy +18, woodland stride  ",
 			"**Combat Gear** potions of cure serious wounds (2), potion of haste, wand of ice storm (3 charges); **Other Gear** +2 leather armor, +3 heavy wild darkwood wooden shield, +1 quarterstaff, +1 sling with 20 bullets, cloak of resistance +3, dusty rose prism ioun stone, headband of inspired wisdom +4, ring of protection +3, backpack, everburning torch, holly and mistletoe, silk rope (50 ft.), spell component pouch, 96 gp",
 			"",
-			"These dark nature priests do not nurture their home, but rather spread disease, filth, and hate throughout humanoid communities on behalf of an enraged and exploited landscape."
+			"These dark nature priests do not nurture their home, but rather spread disease, filth, and hate throughout humanoid communities on behalf of an enraged and exploited landscape.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"demon-blooded_sorcerer": {
@@ -4099,7 +4109,6 @@
 			"1st-*cause fear* (DC 17), *comprehend languages*, *disguise self*[^D], *divine favor*, *entropic shield*, *obscuring mist*, *shield of faith*  ",
 			"0 (at will)-*bleed* (DC 16), *detect magic*, *detect poison*, *mending*  ",
 			"**Domains** Death, Trickery",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -4125,7 +4134,9 @@
 			"",
 			"**Combat Encounters:** Soufara might direct a group of master assassins, dealing with spellcasters while her allies kill the rest.",
 			"",
-			"**Roleplaying Suggestions:** Soufara might help PCs in exchange for magic that can heal her memory loss."
+			"**Roleplaying Suggestions:** Soufara might help PCs in exchange for magic that can heal her memory loss.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"crime_lord": {
@@ -4603,7 +4614,6 @@
 			"1st-*bane* (DC 17), *bless*, *cause fear*[^D] (DC 17), *deathwatch*, *doom* (DC 17), *entropic shield*, *obscuring mist*  ",
 			"0 (at will)-*detect magic*, *guidance*, *read magic*, *virtue*  ",
 			"**Domains** Darkness, Death",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -4621,7 +4631,9 @@
 			"**SQ** aura, death's embrace, eyes of darkness (9 rounds/day)  ",
 			"**Gear** +1 full plate, +1 spiked chain, javelin of lightning, amulet of natural armor +2, belt of physical might +4 (Str, Con), cloak of resistance +1, headband of mental prowess +2 (Wis, Cha), phylactery of negative channeling, ring of force shield, ring of protection +4, silver unholy symbol, unholy water, materials for unhallow (worth 1,000 gp), onyx gems (worth 1,500 gp each), platinum rings for shield other (worth 100 gp), silver dust for desecrate (worth 25 gp), 3,450 gp",
 			"",
-			"The priest of oblivion wishes to drown all creatures in darkness and despair, then defile their bodies and raise them as undead."
+			"The priest of oblivion wishes to drown all creatures in darkness and despair, then defile their bodies and raise them as undead.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"puppet_master": {
@@ -4728,8 +4740,7 @@
 			"2nd-*barkskin* (2), *bull's strength* (2), *hold animal* (DC 20), *produce flame*[^D], *lesser restoration*  ",
 			"1st-*burning hands*[^D] (2, DC 21), *cure light wounds*, *endure elements*, *faerie fire* (2), *shillelagh*  ",
 			"0 (at will)-*create water*, *flare* (DC 20), *guidance*, *resistance*  ",
-			"**Domain** Fire  ",
-			"[^D]: Domain spell",
+			"**Domain** Fire",
 			"",
 			"#### Tactics",
 			"",
@@ -4746,7 +4757,9 @@
 			"**SQ** a thousand faces, nature bond (Fire domain), nature sense, orc blood, timeless body, trackless step, weapon familiarity, wild empathy +18, woodland stride  ",
 			"**Combat Gear** potions of cure serious wounds (2), potion of haste, scroll of mass cure serious wounds; **Other Gear** +2 wild ironwood breastplate, +2 animated darkwood heavy wooden shield, +1 club, +1 sling with 10 bullets, belt of mighty constitution +2, cloak of resistance +3, dusty rose prism ioun stone, headband of inspired wisdom +6, ring of protection +3, holly and mistletoe, spell component pouch, silver crown (worth 200 gp), 63 gp",
 			"",
-			"These druids dwell in the most explosive spots in the world."
+			"These druids dwell in the most explosive spots in the world.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"sword_savant": {
@@ -5360,8 +5373,7 @@
 			"2nd-*barkskin* (3), *bear's endurance*, *bull's strength*, *cat's grace*, *soften earth and stone*[^D]  ",
 			"1st-*cure light wounds* (2), *faerie fire* (2), *magic stone*[^D], *obscuring mist*, *speak with animals*  ",
 			"0 (at will)-*create water*, *guidance*, *mending*, *stabilize*  ",
-			"**Domain** Earth  ",
-			"[^D]: Domain spell",
+			"**Domain** Earth",
 			"",
 			"#### Tactics",
 			"",
@@ -5378,7 +5390,9 @@
 			"**SQ** a thousand faces, nature bond (Earth domain), nature sense, timeless body, trackless step, wild empathy +18, woodland stride  ",
 			"**Gear** +3 wild ironwood full plate, +3 animated darkwood heavy wooden shield, +1 ghost touch quarterstaff, +1 light hammer, boots of speed, cloak of resistance +3, dusty rose prism ioun stone, headband of inspired wisdom +4, ring of evasion, ring of protection +3, holly and mistletoe, spell component pouch, 487 gp",
 			"",
-			"Providers of ancient wisdom, these rare and powerful dwarven druids are venerated by their people."
+			"Providers of ancient wisdom, these rare and powerful dwarven druids are venerated by their people.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"fatal_axe": {
@@ -5477,7 +5491,6 @@
 			"1st-*bless*, *burning hands*[^D] (DC 18), *command* (3, DC 16), *doom* (DC 16), *sanctuary* (DC 16)  ",
 			"0 (at will)-*create water*, *detect magic*, *guidance*, *mending*  ",
 			"**Domains** Fire, Magic",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -5495,7 +5508,9 @@
 			"**SQ** aura  ",
 			"**Combat Gear** potion of displacement, potion of fly, potion of haste; **Other Gear** +1 mithral breastplate, +1 heavy steel shield, +1 heavy crossbow with 20 bolts, rod of the viper, amulet of natural armor +4, bag of holding (type II), belt of physical might +2 (Con, Dex), cloak of resistance +4, headband of inspired wisdom +4, ring of counterspells, ring of protection +4, silver unholy symbol, material components for gate (worth 10,000 gp), 3,855 gp",
 			"",
-			"The fire diabolist serves the lord of Hell. He uses flame and infernal creatures to subjugate all to his will."
+			"The fire diabolist serves the lord of Hell. He uses flame and infernal creatures to subjugate all to his will.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"god_stealer": {
@@ -5611,8 +5626,7 @@
 			"3rd-*fireball* (DC 20), *haste* (2), *heroism*, *suggestion* (DC 19)  ",
 			"2nd-*acid arrow*, *invisibility*, *see invisibility* (2), *web* (2, DC 18)  ",
 			"1st-*charm person* (DC 17), *magic missile* (3), *shield* (2)  ",
-			"0 (at will)\"detect poison, disrupt undead, mage hand, message  ",
-			"[^D]: Domain spell",
+			"0 (at will)\"detect poison, disrupt undead, mage hand, message",
 			"",
 			"#### Tactics",
 			"",
@@ -5630,7 +5644,9 @@
 			"**SQ** aura, arcane bond (+1 holy warhammer), combined spells (5th)  ",
 			"**Combat Gear** potions of bull's strength (2), wand of cure serious wounds (20 charges), holy water (5); **Other Gear** +5 mithral chainmail, +1 holy warhammer, amulet of natural armor +5, belt of mighty constitution +6, minor cloak of displacement, ring of protection +5, diamond dust (worth 500 gp), eye ointment (worth 250 gp), pair of canine statuettes (worth 50 gp), 1,863 gp",
 			"",
-			"These master theurges mix support for allies with offensive might."
+			"These master theurges mix support for allies with offensive might.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"ice_maiden": {

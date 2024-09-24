@@ -3370,7 +3370,7 @@
 			"**Cleric Spells Prepared ** (CL 1st; concentration +4)  ",
 			"*1st*-bless, charm person[^D], divine favor  ",
 			"*0 (at will)*-create water, guidance, stabilize  ",
-			"[^D]: Domain spell; **Domains** Charm, Water",
+			"**Domains** Charm, Water",
 			"",
 			"#### Statistics",
 			"",
@@ -3404,7 +3404,9 @@
 			"**Darkvision:** Undines can see in the dark up to 60 feet.  ",
 			"**Spell-Like Abilities:** Hydraulic push 1/day. (Caster level equals the undine's total Hit Dice.) Energy Resistance: Undines have cold resistance 5.  ",
 			"**Water Affinity:** See above.  ",
-			"**Languages:** Undines begin play speaking Common and Aquan. Undines with high Intelligence scores can choose any of the following bonus languages: Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran."
+			"**Languages:** Undines begin play speaking Common and Aquan. Undines with high Intelligence scores can choose any of the following bonus languages: Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"unfettered_phantom": {

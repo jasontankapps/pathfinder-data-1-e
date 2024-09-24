@@ -1944,9 +1944,6 @@
 			"| Create a temporary stone support or small rampart with found supplies | Stonemasonry | 15 |",
 			"| Determine the age of a mechanical trap | Traps | 15 |",
 			"| Identify a masterwork weapon on sight | Weapons | 15 |",
-			"[^1]: A character must be trained in the listed skill to attempt this task.",
-			"[^2]: With a successful opposed Perception or Craft (jewelry) check, a character identifies the work as a fake.",
-			"[^3]: This DC is for items made from the hides of common animals, such as cattle, and increases by 5 for other types of creatures.",
 			"",
 			"The table below lists which craft skills to use for certain prominent items and adventuring tools. The list omits obvious items-outfits are made with Craft (clothing), keelboats with Craft (ships), and so on. More specific skills can also be used instead of the listed skill, such as using Craft (tattoos) instead of Craft (paintings) for a tattoo.",
 			"",
@@ -2012,7 +2009,11 @@
 			"| Phylactery | Leather or carpentry |",
 			"| Ring | Jewelry |",
 			"| Robe | Clothing |",
-			"| Vestments | Clothing |"
+			"| Vestments | Clothing |",
+			"",
+			"[^1]: A character must be trained in the listed skill to attempt this task.",
+			"[^2]: With a successful opposed Perception or Craft (jewelry) check, a character identifies the work as a fake.",
+			"[^3]: This DC is for items made from the hides of common animals, such as cattle, and increases by 5 for other types of creatures."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7650,12 +7651,6 @@
 			"| 95-97 | Resizing |",
 			"| 98-100 | Egoistic[^3] |",
 			"",
-			"[^1]: Creator must have levels in a divine spellcasting class and have a patron deity.",
-			"[^2]: Item must be one that delivers effects upon touch, such as a staff or a wand.",
-			"[^3]: Item must be a weapon.",
-			"[^4]: Item must be a weapon, armor, or an activated item.",
-			"[^5]: Item must be activated by a command word.",
-			"",
 			"**Draconic:** Determine a random type of chromatic or metallic dragon. The item has a sheen in the color of that dragon's scales, and grants its bearer 3 points of energy resistance against the damage type that dragon's breath weapon deals.",
 			"",
 			"**Durable:** The item has twice as many hit points as it normally would.",
@@ -7708,7 +7703,13 @@
 			"",
 			"**Tentacled Touch:** As the aberrant quirk, but the tentacles can extend, allowing the item to deliver any touch effects with an additional 5 feet of reach. This does not increase the weapon reach of a magic weapon.",
 			"",
-			"**Unassuming:** The item registers as though it were nonmagical, as though affected by a [magic aura](spell/magic_aura) spell."
+			"**Unassuming:** The item registers as though it were nonmagical, as though affected by a [magic aura](spell/magic_aura) spell.",
+			"",
+			"[^1]: Creator must have levels in a divine spellcasting class and have a patron deity.",
+			"[^2]: Item must be one that delivers effects upon touch, such as a staff or a wand.",
+			"[^3]: Item must be a weapon.",
+			"[^4]: Item must be a weapon, armor, or an activated item.",
+			"[^5]: Item must be activated by a command word."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7887,10 +7888,6 @@
 			"| 97-99 | Paranoid |",
 			"| 100+ | Cursed |",
 			"",
-			"[^1]: Item must be a weapon.",
-			"[^2]: Creator must have levels in a divine spellcasting class and have a patron deity.",
-			"[^3]: Item must be a held item.",
-			"",
 			"**Addictive:** The owner does not want to give up the item under any circumstances, and suffers the effects of [severe addiction](rule/addiction) when denied access to the item.",
 			"",
 			"**Allergic:** The item is especially sensitive to the presence of a particular type of creature, and ceases all magical functions whenever it is within 30 feet of such a creature. To determine the creature type, roll randomly or choose an appropriate type on the [ranger's favored enemy list](class/ranger).",
@@ -7943,7 +7940,11 @@
 			"",
 			"**Wrathful:** In combat, the bearer's mind is clouded by rage, and she must succeed at a DC 20 Will save to use any ability that can't be used during a barbarian rage. This doesn't allow a barbarian to use those abilities when she is in a rage.",
 			"",
-			"**Zealous:** The item functions only for worshipers of the creator's patron deity. If more than one creator qualifies, roll randomly between their patron deities."
+			"**Zealous:** The item functions only for worshipers of the creator's patron deity. If more than one creator qualifies, roll randomly between their patron deities.",
+			"",
+			"[^1]: Item must be a weapon.",
+			"[^2]: Creator must have levels in a divine spellcasting class and have a patron deity.",
+			"[^3]: Item must be a held item."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

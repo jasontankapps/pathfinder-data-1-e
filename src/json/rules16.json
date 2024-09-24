@@ -3868,8 +3868,6 @@
 			"| Heavy | Splint | 50 gp | +1 | +0 | -4 | 20% | 30 ft. | 20 ft. | 5 lbs. |",
 			"| Heavy | Tatami-do | 100 gp | +1 | +3 | -5 | 35% | 30 ft. | 20 ft. | 5 lbs. |",
 			"",
-			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.",
-			"",
 			"**Agile Plate Arm Armor Piece:** This armor piece consists of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets all cunningly designed to increase the maneuverability of the wearer. When worn alone, with an agile plate torso armor piece, or with an agile plate torso armor piece and a chain leg armor piece (or lighter armor), the armor check penalty for Climb skill and jump checks is only -4 (masterwork and mithral versions of this armor and the above armor piece combination reduce this penalty as well as the normal penalty).",
 			"",
 			"**Banded Arm Armor Piece:** These overlapping strips of metal on leather usually take the form of long sleeves connected to pauldrons of the same material at the top of the sleeves and a pair of metal gauntlets at the hands of the armor piece.",
@@ -3910,7 +3908,9 @@
 			"",
 			"**Tatami-Do Arm Armor Piece:** A lighter version of o-yoroi armor, a tatami-do arm armor piece is composed of a lighter lamellar shoulder guard and a lacquered sleeve. A set of tatami-do arm armor pieces includes a pair of gauntlets.",
 			"",
-			"**Wooden Arm Armor Piece:** These sleeves are constructed of fire-treated wood sewn over leather."
+			"**Wooden Arm Armor Piece:** These sleeves are constructed of fire-treated wood sewn over leather.",
+			"",
+			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -3957,9 +3957,6 @@
 			"| Heavy | Tatami-do | 150 gp | +1 | +3 | -3 | 15% | 20 ft.[^2] | 15 ft.[^2] | 5 lbs. |",
 			"| Heavy | O-yoroi | 300 gp | +1 | +2 | -3 | 20% | 20 ft.[^2] | 15 ft.[^2] | 5 lbs. |",
 			"",
-			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.",
-			"[^2]: When running while wearing this armor piece, you move at only triple your speed, not quadruple.",
-			"",
 			"**Banded Leg Armor Piece:** These overlapping strips of metal on leather usually take the form of leggings or a skirt.",
 			"",
 			"**Chain Leg Armor Piece:** A chain leg piece takes the form of a long skirt made of chainmail that is further protected by steel greaves, or individual leggings of tighter-fitting chain reinforced by padding, steel kneeplates, and leather straps.",
@@ -3998,7 +3995,10 @@
 			"",
 			"**Tatami-Do Leg Armor Piece:** This armor piece is constructed of light lamellar thigh guards and leggings.",
 			"",
-			"**Wooden Leg Armor Piece:** This armor piece consists of a pair of leggings or a skirt constructed of fire-treated wood sewn over leather."
+			"**Wooden Leg Armor Piece:** This armor piece consists of a pair of leggings or a skirt constructed of fire-treated wood sewn over leather.",
+			"",
+			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.",
+			"[^2]: When running while wearing this armor piece, you move at only triple your speed, not quadruple."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -4052,10 +4052,6 @@
 			"| Heavy | Agile Plate[^3] | 400 gp | +6 | +3 | -4 | 25% | 20 ft.[^2] | 15 ft.[^2] | 25 lbs. |",
 			"| Heavy | Plate[^3] | 200 gp | +6 | +3 | -4 | 35% | 20 ft.[^2] | 15 ft.[^2] | 30 lbs. |",
 			"| Heavy | Stone coat | 500 gp | +8 | +0 | -7 | 40% | 20 ft.[^2] | 15 ft.[^2] | 45 lbs. |",
-			"",
-			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.",
-			"[^2]: When running while wearing this armor piece, you move only triple your speed, not quadruple.",
-			"[^3]: These armor pieces are considered to be one weight category lower when worn with no other armor pieces. A chain torso armor piece worn alone is a chain shirt (light armor), and a plate or agile plate torso armor piece is a breastplate (medium armor).",
 			"",
 			"**Agile Plate Torso Armor Piece:** This breastplate is designed to allow its wearer extra flexibility. When worn alone, the wearer's armor check penalty for the Climb and jump checks is only -1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).",
 			"",
@@ -4113,7 +4109,11 @@
 			"",
 			"**Tatami-Do Torso Armor Piece:** A lighter version of a o-yoroi torso armor piece, this piece is constructed of a lighter lamellar shirt. It includes a collapsible kabuto helmet and an armored hood.",
 			"",
-			"**Wooden Torso Armor Piece:** This shirt or cuirass is constructed of fire-treated wood sewn over leather."
+			"**Wooden Torso Armor Piece:** This shirt or cuirass is constructed of fire-treated wood sewn over leather.",
+			"",
+			"[^1]: Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.",
+			"[^2]: When running while wearing this armor piece, you move only triple your speed, not quadruple.",
+			"[^3]: These armor pieces are considered to be one weight category lower when worn with no other armor pieces. A chain torso armor piece worn alone is a chain shirt (light armor), and a plate or agile plate torso armor piece is a breastplate (medium armor)."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

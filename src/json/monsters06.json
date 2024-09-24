@@ -4344,7 +4344,7 @@
 			"*2nd* - death knell[^D] (DC 15), hold person (DC 15), inflict moderate wounds (DC 15), resist energy, spiritual weapon  ",
 			"*1st* - cause fear[^D] (DC 14), command (DC 14), divine favor, obscuring mist, shield of faith  ",
 			"*0* - bleed (DC 13), detect magic, guidance, resistance  ",
-			"[^D]: Domain spell; **Domains** Death, Magic",
+			"**Domains** Death, Magic",
 			"",
 			"#### Statistics",
 			"",
@@ -4372,7 +4372,9 @@
 			"",
 			"#### Description",
 			"",
-			"Within the church of the goddess of undeath, few more coveted stations exist than daughter of Urgathoa, yet no high priest can bestow the title, and no living worshiper can take the role. Rather, daughters of Urgathoa are selected by the fickle goddess herself, chosen from her most zealous and accomplished priestesses only at the moment of their deaths. Even after their transformations into things of pestilence and dead flesh, daughters of Urgathoa remain social beings who typically surround themselves with fanatical cults."
+			"Within the church of the goddess of undeath, few more coveted stations exist than daughter of Urgathoa, yet no high priest can bestow the title, and no living worshiper can take the role. Rather, daughters of Urgathoa are selected by the fickle goddess herself, chosen from her most zealous and accomplished priestesses only at the moment of their deaths. Even after their transformations into things of pestilence and dead flesh, daughters of Urgathoa remain social beings who typically surround themselves with fanatical cults.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"dawn_piper": {
@@ -5164,7 +5166,7 @@
 			"**Cleric Spells Prepared ** (CL 1st; concentration +4)  ",
 			"*1st*-cause fear (DC 14), cure light wounds, lesser confusion[^D] (DC 14)  ",
 			"*0 (at will)*-bleed (DC 13), light, resistance  ",
-			"[^D]: Domain spell; **Domains** Chaos, Madness",
+			"**Domains** Chaos, Madness",
 			"",
 			"#### Statistics",
 			"",
@@ -5191,7 +5193,9 @@
 			"",
 			"#### Description",
 			"",
-			"Deep one hybrids are the spawn of humans and deep ones. They are most comfortable with others of their kind, and typically cluster in small, insular settlements where they can assume positions of authority. They keep any humans within their towns subservient and cowed, making sure those other residents know better than to act against local laws. Though deep ones are devoutly religious, they usually cloak their true beliefs under a facade of more conventional worship, believing that by doing so they can avoid suspicion from visitors and nearby societies."
+			"Deep one hybrids are the spawn of humans and deep ones. They are most comfortable with others of their kind, and typically cluster in small, insular settlements where they can assume positions of authority. They keep any humans within their towns subservient and cowed, making sure those other residents know better than to act against local laws. Though deep ones are devoutly religious, they usually cloak their true beliefs under a facade of more conventional worship, believing that by doing so they can avoid suspicion from visitors and nearby societies.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"deep_one_hybrid": { "copyof": "deep_one,_deep_one_hybrid" },

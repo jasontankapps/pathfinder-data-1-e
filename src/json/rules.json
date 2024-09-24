@@ -182,6 +182,7 @@
 	},
 	"common_terms": {
 		"name": "Common Terms",
+		"tags": "stacking round turn abilities ability score action alignment ac bab bonus class check combat maneuver cmb cmd concentration check dr dc ex sp su xp npc pc sr hd hit dice gm game master hp hit points initiative init level multiply multiplying rounding saves saving throws resistance supernatural spell-like extraordinary",
 		"sources": [ "PRPG Core Rulebook" ],
 		"className": "centerFirst",
 		"description": [
@@ -222,8 +223,8 @@
 			"| Player Character (Character, PC) | These are the characters portrayed by the players. |",
 			"| Round | Combat is measured in rounds. During an individual round, all creatures have a chance to take a turn to act, in order of initiative. A round represents 6 seconds in the game world. |",
 			"| Rounding | Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3. |",
-			"| Saving Throw | When a creature is the subject of a dangerous spell or effect, it often receives a saving throw to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw-they are made automatically. There are three types of saving throws: Fortitude (used to resist poisons, diseases, and other bodily ailments), Reflex (used to avoid effects that target an entire area, such as fireball), and Will (used to resist mental attacks and spells). |",
-			"| Skill | A skill represents a creature's ability to perform an ordinary task, such as climb a wall, sneak down a hallway, or spot an intruder. The number of ranks possessed by a creature in a given skill represents its proficiency in that skill. As a creature gains Hit Dice, it also gains additional skill ranks that can be added to its skills. |",
+			"| Saving Throw | When a creature is the subject of a dangerous spell or effect, it often receives a [saving throw](rule/saving_throws) to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw-they are made automatically. There are three types of saving throws: Fortitude (used to resist poisons, diseases, and other bodily ailments), Reflex (used to avoid effects that target an entire area, such as fireball), and Will (used to resist mental attacks and spells). |",
+			"| Skill | A [skill](main/skills) represents a creature's ability to perform an ordinary task, such as climb a wall, sneak down a hallway, or spot an intruder. The number of ranks possessed by a creature in a given skill represents its proficiency in that skill. As a creature gains Hit Dice, it also gains additional skill ranks that can be added to its skills. |",
 			"| Spell | Spells can perform a wide variety of tasks, from harming enemies to bringing the dead back to life. Spells specify what they can target, what their effects are, and how they can be resisted or negated. |",
 			"| Spell-Like Abilities (Sp) | Spell-like abilities function just like spells, but are granted through a special racial ability or by a specific class ability (as opposed to spells, which are gained by spellcasting classes as a character gains levels). |",
 			"| Spell Resistance (SR) | Some creatures are resistant to magic and gain spell resistance. When a creature with spell resistance is targeted by a spell, the caster of the spell must make a caster level check to see if the spell affects the target. The DC of this check is equal to the target creature's SR (some spells do not allow SR checks). |",
@@ -292,7 +293,7 @@
 			"",
 			"### Table 7-1: Random Starting Ages",
 			"",
-			"| Race | Adulthood | Intuitive[^I] | Self-Taught[^S] | Trained[^T] |",
+			"| Race | Adulthood | Intuitive[^I] | Self-Taught[^S] | Trained[^T][^O] |",
 			"| --- | --- | --- | --- | --- |",
 			"| Human | 15 years | +1d4 | +1d6 | +2d6 |",
 			"| Dwarf | 40 years | +3d6 | +5d6 | +7d6 |",
@@ -331,11 +332,6 @@
 			"| Vanara | 14 years | +1d4 | +1d6 | +2d6 |",
 			"| Vishkanya | 15 years | +1d4 | +1d6 | +2d6 |",
 			"| Wayang | 40 years | +4d6 | +5d6 | +6d6 |",
-			"",
-			"[^I]: Includes the barbarian, oracle, rogue, and sorcerer.",
-			"[^S]: Includes the bard, cavalier, fighter, gunslinger, paladin, ranger, summoner, and witch.",
-			"[^T]: Includes the alchemist, cleric, druid, inquisitor, magus, monk, and wizard.[^O]",
-			"[^O]: Classes not listed above have not officially been given a specific group. The following is a suggestion: classify Bloodrager, Kineticist and Spiritualist as Intuitive; place Arcanist, Investigator, Psychic, Shifter, and Warpriest in Trained; treat all others as Self-Trained.",
 			"",
 			"With age, a character's physical ability scores decrease and his mental ability scores increase. The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.When a character reaches venerable age, secretly roll his maximum age and record the result, which the player does not know. A character who reaches his maximum age dies of old age sometime during the following year.",
 			"",
@@ -384,9 +380,14 @@
 			"| Vishkanya | 35 years | 53 years | 70 years | 70 + 2d20 years |",
 			"| Wayang | 100 years | 150 years | 200 years | 200 + 1d% years |",
 			"",
+			"",
+			"[^I]: Includes the barbarian, oracle, rogue, and sorcerer.",
+			"[^S]: Includes the bard, cavalier, fighter, gunslinger, paladin, ranger, summoner, and witch.",
+			"[^T]: Includes the alchemist, cleric, druid, inquisitor, magus, monk, and wizard.",
+			"[^O]: Classes not listed above have not officially been given a specific group. The following is a suggestion: classify Bloodrager, Kineticist and Spiritualist as Intuitive; place Arcanist, Investigator, Psychic, Shifter, and Warpriest in Trained; treat all others as Self-Trained.",
 			"[^1]: At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha",
 			"[^2]: At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha",
-			"[^3]: at venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha"
+			"[^3]: At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha"
 		],
 		"parent_topics": [
 			"basics",
@@ -2952,23 +2953,26 @@
 	},
 	"types_of_traits": {
 		"name": "Types of Traits",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Campaign"
+		],
 		"description": [
 			"**Source** [Advanced Player's Guide pg. 326](source/advanced_player's_guide)",
 			"",
 			"There are five types of character traits to choose from: basic (split among four categories: Combat, Faith, Magic, and Social), campaign, race, regional, and religion.",
 			"",
-			"**Basic Traits:** There are a total of 40 basic traits, which are split evenly among the categories of [Combat](main/traits_combat), [Faith](main/traits_faith), [Magic](main/traits_magic), and [Social](main/traits_social). Note that each of these four categories roughly equates to the four modes of adventuring, but aren't tied to specific classes. It's perfectly possible to have a religious rogue, for example, or a magic-obsessed fighter. Basic traits are \"generic,\" and should be able to fit into any campaign setting with a minimum of customization.",
+			"**Basic Traits:** The original traits were split among the categories of [Combat](main/traits_combat), [Faith](main/traits_faith), [Magic](main/traits_magic), and [Social](main/traits_social). Each of these four categories roughly equates to the four modes of adventuring, but aren't tied to specific classes. It's perfectly possible to have a religious rogue, for example, or a magic-obsessed fighter. Basic traits are \"generic,\" and should be able to fit into any campaign setting with a minimum of customization.",
 			"",
-			"**Campaign Traits:** These traits are specifically tailored to give new characters an instant hook into a new campaign. [Campaign traits](main/traits_campaign) tailored to a specific Pathfinder Adventure Path can always be found in that Adventure Path's Player's Guide.",
+			"**Campaign Traits:** These traits are specifically tailored to give new characters an instant hook into a new campaign. [Campaign traits](main/traits_campaign) tailored to a specific Pathfinder Adventure Path can always be found in that Adventure Path's Player's Guide. When playing an adventure path, a PC will usually be required to take a campaign trait as one of their two traits.",
 			"",
 			"**Race Traits:** [Race traits](main/traits_race) are keyed to specific races or ethnicities, which your character must belong to in order to select the trait. If your race or ethnicity changes at some later point (perhaps as a result of polymorph magic or a [reincarnation](spell/reincarnate) spell), the benefits gained by your race trait persist-only if your mind and memories change as well do you lose the benefits of a race trait.",
 			"",
 			"**Regional Traits:** [Regional traits](main/traits_regional) are keyed to specific regions, be they large (such as a nation or geographic region) or small (such as a city or a specific mountain). In order to select a regional trait, your PC must have spent at least a year living in that region. At 1st level, you can only select one regional trait (typically the one tied to your character's place of birth or homeland), despite the number of regions you might wish to write into your character's background.",
 			"",
-			"**Religion Traits:** [Religion traits](main/traits_religion) indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed below under Restrictions on Trait Selection.",
+			"**Religion Traits:** [Religion traits](main/traits_religion) indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed under [Restrictions on Trait Selection](rule/restrictions_on_trait_selection).",
 			"",
-			"**Drawbacks:** [Drawbacks](main/traits_drawback) are traits in reverse. Instead of granting you a boon, they grant you a negative effect, typically in particular circumstances. If you choose to take a drawback, you can take a third trait that you have access to. You don't have to take a drawback.",
+			"**Drawbacks:** [Drawbacks](main/traits_drawback) are traits in reverse. Instead of granting you a boon, they grant you a negative effect, typically in particular circumstances. If you choose to take a drawback, you get to offset this penalty by selecting an additional trait (following the same [restrictions](restrictions_on_trait_selection) on trait selections). For example, you can take a campaign trait and a magic trait, then take a drawback and a combat trait, for a total of three traits and one drawback.",
 			"",
 			"Other types of traits exist, introduced in various supplemental sources. They include [Faction traits](main/traits_faction), [Equipment traits](main/traits_equipment), [Mount traits](main/traits_mount), [Cosmic traits](main/traits_cosmic), [Family traits](main/traits_family), and [Exemplar traits](main/traits_exemplar)."
 		],
@@ -3561,48 +3565,39 @@
 	},
 	"favored_class": {
 		"name": "Favored Class",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide"
+		],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 31](source/prpg_core_rulebook)",
 			"",
-			"Each character begins play with a single favored class of his choosing-typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. [Prestige classes](rule/prestige_classes) can never be a favored class."
+			"Each character begins play with a single favored class of his choosing-typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. [Prestige classes](rule/prestige_classes) can never be a favored class.",
+			"",
+			"**Source** [Advanced Player's Guide pg. 8](source/advanced_player's_guide)",
+			"",
+			"The final section for each racial discussion describes alternative benefits for members of that race taking certain classes as a favored class. The normal benefit of having a favored class is simple and effective: your character gains one extra hit point or one extra skill rank each time she gains a level in that class (or in either of two classes, if she is a half-elf). The alternate favored class abilities listed here may not have as broad an appeal as the standard choices. They are designed to reflect flavorful options that might be less useful in general but prove handy in the right situations or for a character with the right focus. Most of them play off racial archetypes, like a half-orc's toughness and proclivity for breaking things or elven grace and finesse.",
+			"",
+			"In most cases, these benefits are gained on a level-by-level basis: your character gains the specified incremental benefit each time she gains a level. Unless otherwise noted, these benefits always stack with themselves. For example, a human with paladin as a favored class may choose to gain 1 point of energy resistance each time she gains a level; choosing this benefit twice increases this resistance bonus to 2, 10 times raises it to 10, and so on.",
+			"",
+			"In some cases this benefit may eventually hit a fixed numerical limit, after which selecting that favored class benefit has no effect. Of course, you can still select the bonus hit point or skill rank as your favored class benefit, so there is always a reward for sticking with a favored class.",
+			"",
+			"Finally, some of these alternate favored class benefits only add +1/2, +1/3, +1/4, or +1/6 to a roll (rather than +1) each time the benefit is selected; when applying this result to the die roll, round down (minimum 0). For example, a dwarf with rogue as his favored class adds +1/2 to his trap sense ability regarding stone traps each time he selects the alternate rogue favored class benefit; though this means the net effect is +0 after selecting it once (because +1/2 rounds down to +0), after 20 levels this benefit gives the dwarf a +10 bonus to his trap sense (in addition to the base value from being a 20th-level rogue).",
+			"",
+			"What is presented here is a set of alternative benefits that characters of each race may choose instead of the normal benefits for their favored class. Thus, rather than taking an extra hit point or an extra skill rank, players may choose for their characters to gain the benefit listed here. This is not a permanent or irrevocable choice; just as characters could alternate between taking skill ranks and hit points when they gain levels in their favored class, these benefits provide a third option, and characters may freely alternate between them.",
+			"",
+			"As with any alternate or optional rule, consult with your GM to determine whether exchanging normal favored class benefits for those in this section will be allowed."
 		],
 		"parent_topics": [
 			"basics",
 			"character_advancement"
 		],
-		"subtopics": [ "racial_favored_class_bonus" ],
 		"siblings": [
 			"advancing_your_character",
 			"multiclassing",
 			"favored_class",
 			"prestige_classes"
 		]
-	},
-	"racial_favored_class_bonus": {
-		"name": "Racial Favored Class Bonus",
-		"sources": [ "Advanced Player's Guide" ],
-		"description": [
-			"**Source** [Advanced Player's Guide pg. 8](source/advanced_player's_guide)",
-			"",
-			"The final section for each racial discussion describes alternative benefits for members of that race taking certain classes as a favored class. The normal benefit of having a favored class is simple and effective: your character gains one extra hit point or one extra skill rank each time she gains a level in that class (or in either of two classes, if she is a half-elf). The alternate favored class abilities listed here may not have as broad an appeal as the standard choices. They are designed to reflect flavorful options that might be less useful in general but prove handy in the right situations or for a character with the right focus. Most of them play off racial archetypes, like a half-orc's toughness and proclivity for breaking things or elven grace and finesse.",
-			"",
-			"In most cases, these benefits are gained on a level-by-level basis-your character gains the specified incremental benefit each time she gains a level. Unless otherwise noted, these benefits always stack with themselves. For example, a human with paladin as a favored class may choose to gain 1 point of energy resistance each time she gains a level; choosing this benefit twice increases this resistance bonus to 2, 10 times raises it to 10, and so on.",
-			"",
-			"In some cases this benefit may eventually hit a fixed numerical limit, after which selecting that favored class benefit has no effect. Of course, you can still select the bonus hit point or skill rank as your favored class benefit, so there is always a reward for sticking with a favored class.",
-			"",
-			"Finally, some of these alternate favored class benefits only add +1/2, +1/3, +1/4, or +1/6 to a roll (rather than +1) each time the benefit is selected; when applying this result to the die roll, round down (minimum 0). For example, a dwarf with rogue as his favored class adds +1/2 to his trap sense ability regarding stone traps each time he selects the alternate rogue favored class benefit; though this means the net effect is +0 after selecting it once (because +1/2 rounds down to +0), after 20 levels this benefit gives the dwarf a +10 bonus to his trap sense (in addition to the base value from being a 20th-level rogue).",
-			"",
-			"As in the previous section, what is presented here is a set of alternative benefits that characters of each race may choose instead of the normal benefits for their favored class. Thus, rather than taking an extra hit point or an extra skill rank, players may choose for their characters to gain the benefit listed here. This is not a permanent or irrevocable choice; just as characters could alternate between taking skill ranks and hit points when they gain levels in their favored class, these benefits provide a third option, and characters may freely alternate between them.",
-			"",
-			"As with any alternate or optional rule, consult with your GM to determine whether exchanging normal favored class benefits for those in this chapter will be allowed."
-		],
-		"parent_topics": [
-			"basics",
-			"character_advancement",
-			"favored_class"
-		],
-		"siblings": [ "racial_favored_class_bonus" ]
 	},
 	"prestige_classes": {
 		"name": "Prestige Classes",
@@ -3614,43 +3609,28 @@
 			"",
 			"Some prestige classes are quite focused and heavy on flavor that might not be compatible with your campaign-consult with your GM before you start to work toward qualifying for a prestige class to make sure that the class is allowed",
 			"",
-			"Prestige classes are listed at the bottom of the [list of classes](main/classes)."
+			"Prestige classes are listed at the bottom of the [list of classes](main/classes).",
+			"",
+			"Here are definitions of some terms used in prestige classes.",
+			"",
+			">**Core Class:** One of the standard [classes](main/classes).",
+			">",
+			">**Caster Level:** Generally equal to the number of class levels (see below) in a spellcasting class. Some prestige classes add caster levels to an existing class.",
+			">",
+			">**Character Level:** The total level of the character, which is the sum of all class levels held by that character.",
+			">",
+			">**Class Level:** The level of a character in a particular class. For a character with levels in only one class, class level and character level are the same."
 		],
 		"parent_topics": [
 			"basics",
 			"character_advancement"
 		],
-		"subtopics": [ "definitions_of_terms" ],
 		"siblings": [
 			"advancing_your_character",
 			"multiclassing",
 			"favored_class",
 			"prestige_classes"
 		]
-	},
-	"definitions_of_terms": {
-		"name": "Definitions of Terms",
-		"subtitle": "Classes",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 374](source/prpg_core_rulebook)",
-			"",
-			"Here are definitions of some terms used in this section.",
-			"",
-			"**Core Class:** One of the standard eleven [classes](main/classes).",
-			"",
-			"**Caster Level:** Generally equal to the number of class levels (see below) in a spellcasting class. Some prestige classes add caster levels to an existing class.",
-			"",
-			"**Character Level:** The total level of the character, which is the sum of all class levels held by that character.",
-			"",
-			"**Class Level:** The level of a character in a particular class. For a character with levels in only one class, class level and character level are the same."
-		],
-		"parent_topics": [
-			"basics",
-			"character_advancement",
-			"prestige_classes"
-		],
-		"siblings": [ "definitions_of_terms" ]
 	},
 	"alignment": {
 		"name": "Alignment",

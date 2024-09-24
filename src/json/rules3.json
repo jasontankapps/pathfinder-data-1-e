@@ -611,8 +611,6 @@
 			"| Friendly | 15 |",
 			"| Helpful | 20[^1] |",
 			"",
-			"[^1]: This is the DC to gain a victory point. The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances.",
-			"",
 			"**Size of the Crowd:** Larger crowds are harder to sway to one side or the other. It takes great shows of daring or a progression of numerous displays of crowd-pleasing actions to get them to change their attitude. Presented here are the general crowd sizes and their effects on the DC to improve crowd attitudes and gain victory points.",
 			"",
 			"**Small Crowd:** A small crowd contains no fewer than two and no more than 25 creatures. It does not increase the base DC of all performance combat checks.",
@@ -653,7 +651,9 @@
 			"| Small crowd | DC 15 | 25 gp |",
 			"| Medium crowd | DC 20 | 250 gp |",
 			"| Large crowd | DC 25 | 750 gp |",
-			"| Massive mob | DC 30 | 2,000 gp |"
+			"| Massive mob | DC 30 | 2,000 gp |",
+			"",
+			"[^1]: This is the DC to gain a victory point. The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances."
 		],
 		"parent_topics": [
 			"combat",

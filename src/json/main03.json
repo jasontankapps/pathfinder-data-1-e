@@ -2004,8 +2004,12 @@
 	},
 	"traits_religion": {
 		"title": "Religion Traits",
-		"sources": [],
-		"description": [ "{table0}" ],
+		"sources": [ "Advanced Player's Guide" ],
+		"description": [
+			"Religion traits indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed under [Restrictions on Trait Selection](rule/restrictions_on_trait_selection).",
+			"",
+			"{table0}"
+		],
 		"searchgroup": "trait",
 		"singleTable": true,
 		"tables": [
@@ -2295,7 +2299,7 @@
 	},
 	"traits_regional": {
 		"title": "Regional Traits",
-		"sources": [],
+		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			[
 				"Regional traits are tied to particular regions, often specific nations, territories, or cities in a campaign. The following regional traits represent several generic regions that can be use in most campaign settings. It also includes many traits specific to regions on Golarion."
@@ -2768,7 +2772,37 @@
 	},
 	"traits_faith": {
 		"title": "Faith Traits",
-		"sources": [],
+		"sources": [
+			"Advanced Player's Guide",
+			"Adventurer's Armory 2",
+			"Antihero's Handbook",
+			"Black Markets",
+			"Blood of the Beast",
+			"Blood of the Coven",
+			"Champions of Purity",
+			"Disciple's Doctrine",
+			"Distant Shores",
+			"Divine Anthology",
+			"Dwarves of Golarion",
+			"Faction Guide",
+			"Faiths and Philosophies",
+			"Gnomes of Golarion",
+			"Healer's Handbook",
+			"Heroes of the Darklands",
+			"Heroes of the High Court",
+			"Heroes of the Streets",
+			"Merchant's Manifest",
+			"Monster Summoner's Handbook",
+			"Path of the Hellknight",
+			"People of the River",
+			"Plane-Hopper's Handbook",
+			"Quests and Campaigns",
+			"Sargava, the Lost Colony",
+			"Second Darkness Player's Guide",
+			"Shattered Star Player's Guide",
+			"Spymaster's Handbook",
+			"Ultimate Campaign"
+		],
 		"searchgroup": "trait",
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],

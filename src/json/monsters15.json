@@ -2335,7 +2335,7 @@
 			"*2nd*-death knell (DC 15), hold person (DC 15), invisibility[^D], lesser animate dead, protective penumbra  ",
 			"*1st*-bane (DC 14), bless, disguise self[^D], moment of greatness, obscuring mist, sanctuary (DC 14)  ",
 			"*0 (at will)*-bleed (DC 13), detect magic, guidance, mending  ",
-			"[^D]: Domain spell; **Domains** Law, Trickery",
+			"**Domains** Law, Trickery",
 			"",
 			"#### Tactics",
 			"",
@@ -2358,7 +2358,9 @@
 			"",
 			"#### Description",
 			"",
-			"Kobold priests are charged with ensuring both the spiritual and the physical welfare of a kobold tribe. Though some priests serve the dragon gods, many pay homage to Asmodeus, seeing in Hell the perfect embodiment of a lawful evil society. These devilspeakers believe a tribe should work like a well-oiled machine, and while kobolds' natural cowardice sometimes gets in the way, devilspeakers keep their warriors fighting bravely-whether the troops like it or not. Devilspeakers keep spells like animate dead handy, turning fallen kobold warriors into zombies. These kobold zombies effectively soften up invading adventurers, and dig tirelessly in the mines."
+			"Kobold priests are charged with ensuring both the spiritual and the physical welfare of a kobold tribe. Though some priests serve the dragon gods, many pay homage to Asmodeus, seeing in Hell the perfect embodiment of a lawful evil society. These devilspeakers believe a tribe should work like a well-oiled machine, and while kobolds' natural cowardice sometimes gets in the way, devilspeakers keep their warriors fighting bravely-whether the troops like it or not. Devilspeakers keep spells like animate dead handy, turning fallen kobold warriors into zombies. These kobold zombies effectively soften up invading adventurers, and dig tirelessly in the mines.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"kobold_devilspeaker": { "copyof": "kobold,_kobold_devilspeaker" },

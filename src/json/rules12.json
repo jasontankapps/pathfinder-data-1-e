@@ -4174,8 +4174,6 @@
 			"| 98 | Squatters and roll again[^2] |",
 			"| 99 | Monster attack and roll again[^2] |",
 			"| 100 | Vandals and roll again[^2] |",
-			"[^1]: If the reroll indicates the same event, ignore the duplicate event and do not reroll again.",
-			"[^2]: If the reroll indicates the same event, the second event occurs elsewhere in the kingdom.",
 			"",
 			"### Table 4-8: Beneficial Kingdom Events",
 			"",
@@ -4240,7 +4238,10 @@
 			"| 67-74 | Sensational crime |",
 			"| 75-80 | Slavers |",
 			"| 81-90 | Squatters |",
-			"| 91-100 | Vandals |"
+			"| 91-100 | Vandals |",
+			"",
+			"[^1]: If the reroll indicates the same event, ignore the duplicate event and do not reroll again.",
+			"[^2]: If the reroll indicates the same event, the second event occurs elsewhere in the kingdom."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

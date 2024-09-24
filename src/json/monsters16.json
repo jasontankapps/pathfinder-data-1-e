@@ -646,7 +646,7 @@
 			"*2nd*-death knell[^D], desecrate, gentle repose, hold person (DC 17), resist energy, silence (DC 17)  ",
 			"*1st*-cause fear[^D] (DC 16), command (DC 16), entropic shield, deathwatch, doom (DC 16), protection from good, shield of faith  ",
 			"*0 (at will)*-bleed, detect magic, guidance, read magic  ",
-			"[^D]: Domain spell; **Domains** Death, Magic",
+			"**Domains** Death, Magic",
 			"",
 			"#### Statistics",
 			"",
@@ -664,7 +664,9 @@
 			"",
 			"In these sorrowful cases, the process traps the soul of the would-be lich outside a phylactery that will not accept it and a body that has rejected it. The potent arcane forces tampered with by the lich's failed creation also find themselves unleashed but uncontrolled, surrounding the newly formed abomination, empowering it but also slowly consuming its essence.",
 			"",
-			"This creature, known as a forsaken lich, is granted the undeath it sought in life, but in a terrifyingly temporary fashion. For the miscalculations of its ambitions, the creature's once-vibrant body shrivels and decays like that of a lich, but becomes a lifeless shell manipulated by the malicious soul and unchecked magical storm that envelop it, forces that control the corpse's actions almost like a marionette. Yet this doom is temporary for nearly all who attempt this foul transition. With the soul unbound from the body and both spirit and corpse exposed to destructive arcane tides, both are slowly eroded. After 1d10 days, the forsaken lich's body and soul are both consumed like a lit candle, eventually reduced physically to ashes, and spiritually to nothing-its essence utterly annihilated, scoured from existence for all time."
+			"This creature, known as a forsaken lich, is granted the undeath it sought in life, but in a terrifyingly temporary fashion. For the miscalculations of its ambitions, the creature's once-vibrant body shrivels and decays like that of a lich, but becomes a lifeless shell manipulated by the malicious soul and unchecked magical storm that envelop it, forces that control the corpse's actions almost like a marionette. Yet this doom is temporary for nearly all who attempt this foul transition. With the soul unbound from the body and both spirit and corpse exposed to destructive arcane tides, both are slowly eroded. After 1d10 days, the forsaken lich's body and soul are both consumed like a lit candle, eventually reduced physically to ashes, and spiritually to nothing-its essence utterly annihilated, scoured from existence for all time.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"forsaken_lich": { "copyof": "lich,_forsaken_lich" },
@@ -2686,7 +2688,7 @@
 			"*2nd*-animal messenger, barkskin, delay poison, lesser restoration (2), shield other[^D]  ",
 			"*1st*-calm animals (DC 16), cure light wounds (2), entangle (DC 16), sanctuary[^D] (DC 16), shillelagh, speak with animals  ",
 			"*0 (at will)*-create water, detect poison, guidance, mending  ",
-			"[^D]: Domain spell; **Domain** Protection",
+			"**Domain** Protection",
 			"",
 			"#### Tactics",
 			"",
@@ -2710,7 +2712,9 @@
 			"",
 			"The clutch mother seeks only to protect her ways and her kind. She faces the onslaught of civilization with diplomacy, reason, and patience.",
 			"",
-			"While other races might see guarding the children as a waste of one's best warriors, lizardfolk inherently value defense over offense. They think warm-blooded races are insane for sending all their capable combatants off to fight in distant wars, leaving only the aged and infirm to protect the children. Clutch mother (or occasionally clutch father) is a position of prominence and prestige, and many lizardfolk warriors compete eagerly to prove themselves worthy of this great responsibility."
+			"While other races might see guarding the children as a waste of one's best warriors, lizardfolk inherently value defense over offense. They think warm-blooded races are insane for sending all their capable combatants off to fight in distant wars, leaving only the aged and infirm to protect the children. Clutch mother (or occasionally clutch father) is a position of prominence and prestige, and many lizardfolk warriors compete eagerly to prove themselves worthy of this great responsibility.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"lizardfolk_clutch_mother": { "copyof": "lizardfolk,_lizardfolk_clutch_mother" },

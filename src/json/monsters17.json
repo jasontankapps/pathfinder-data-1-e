@@ -645,7 +645,7 @@
 			"*2nd*- bull's strength, resist energy, shatter (DC 17), spiritual weapon, status, wind wall  ",
 			"*1st*-bane (DC 15), cause fear (DC 15), cure light wounds, divine favor, protection from good[^D], shield of faith  ",
 			"*0 (at will)*-bleed (DC 14), detect magic, guidance, read magic  ",
-			"[^D]: Domain spell; **Domains** Evil, Strength",
+			"**Domains** Evil, Strength",
 			"",
 			"#### Statistics",
 			"",
@@ -662,7 +662,9 @@
 			"",
 			"#### Description",
 			"",
-			"Just as minotaurs believe they're direct descendants of Baphomet, minotaur prophets consider themselves his ideal mortal servitors. Prophets favor cunning gambits and manipulation over direct confrontation, and toy with captives and even their own cultists. Prophets also honor the Lord of the Labyrinth's more bestial interests; worshipers and enemies alike often fall victim to a prophet's monstrous appetite for flesh."
+			"Just as minotaurs believe they're direct descendants of Baphomet, minotaur prophets consider themselves his ideal mortal servitors. Prophets favor cunning gambits and manipulation over direct confrontation, and toy with captives and even their own cultists. Prophets also honor the Lord of the Labyrinth's more bestial interests; worshipers and enemies alike often fall victim to a prophet's monstrous appetite for flesh.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"prophet_of_baphomet": { "copyof": "minotaur,_prophet_of_baphomet" },
@@ -3176,7 +3178,7 @@
 			"*2nd*-align weapon[^D] (evil only), bull's strength, desecrate, dread bolt (DC 17), hold person (DC 18), silence (DC 17)  ",
 			"*1st*-bane (DC 17), cause fear (DC 17), command (DC 17), detect good, divine favor, protection from good[^D], sanctuary (DC 16)  ",
 			"*0 (at will)*-detect magic, guidance, read magic, resistance  ",
-			"[^D]: Domain spell; **Domains** Darkness, Evil",
+			"**Domains** Darkness, Evil",
 			"",
 			"#### Statistics",
 			"",
@@ -3195,7 +3197,9 @@
 			"",
 			"#### Description",
 			"",
-			"Many cultures practice the sacred art of mummification, though the sinister magical techniques used to imbue corpses with undead vitality are far less widespread. In certain ancient lands, such blasphemous techniques have been refined through centuries of ceremony and countless deaths, giving rise to mummies of terrible power. On rare occasions, if the deceased was of great rank and exceeding malevolence, he might undergo such elaborate rituals, rising from his tomb as a fearful mummy lord. Similarly, a ruler known for his malice or who died in a moment of great rage might spontaneously arise as such a vengeful despot. Regardless of the exact circumstances of his resurrection, a mummy lord retains the abilities he had in life, becoming a creature consumed by the desire to restore his rule and dominate both the living and dead."
+			"Many cultures practice the sacred art of mummification, though the sinister magical techniques used to imbue corpses with undead vitality are far less widespread. In certain ancient lands, such blasphemous techniques have been refined through centuries of ceremony and countless deaths, giving rise to mummies of terrible power. On rare occasions, if the deceased was of great rank and exceeding malevolence, he might undergo such elaborate rituals, rising from his tomb as a fearful mummy lord. Similarly, a ruler known for his malice or who died in a moment of great rage might spontaneously arise as such a vengeful despot. Regardless of the exact circumstances of his resurrection, a mummy lord retains the abilities he had in life, becoming a creature consumed by the desire to restore his rule and dominate both the living and dead.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"munavri": {

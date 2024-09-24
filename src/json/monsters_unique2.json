@@ -626,8 +626,7 @@
 			"*Constant*-air walk, true seeing  ",
 			"*At will*-clairaudience/clairvoyance, dimension door[^M], dream[^M], greater dispel magic, nightmare[^M], statue (DC 26), sympathetic vibration  ",
 			"*3/day*-demand (DC 27), quickened feeblemind (DC 24), quickened flesh to stone[^M] (DC 25), stone to flesh  ",
-			"*1/day*-earthquake[^M], imprisonment (DC 28), symbol of strife (DC 28)  ",
-			"[^M]: mythic spell",
+			"*1/day*-earthquake[^M], imprisonment (DC 28), symbol of strife (DC 28)",
 			"",
 			"#### Statistics",
 			"",
@@ -672,7 +671,9 @@
 			"",
 			"Rhan-Tegoth's clerics have access to the domains of Chaos, Evil, Repose, and Void, and to the subdomains of Ancestors, Dark Tapestry, Entropy, and Stars. His favored weapon is the sickle.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"rhan-tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
@@ -713,8 +714,7 @@
 			"*Constant*-cloak of chaos (DC 30), freedom of movement, tongues, true seeing  ",
 			"*At will*-astral projection, dimensional lock[^M], dream[^M], greater dispel magic, interplanetary teleport, nightmare[^M], plane shift[^M] (DC 29), sending[^M], teleport object (DC 29)  ",
 			"*3/day*-demand (DC 30), quickened disintegrate[^M] (DC 28), quickened feeblemind (DC 27), quickened mislead[^M] (DC 28)  ",
-			"*1/day*-gate, microcosm (DC 31), summon (level 9, 2 ancient ones 100%), time stop[^M], wish[^M]  ",
-			"[^M]: mythic spell",
+			"*1/day*-gate, microcosm (DC 31), summon (level 9, 2 ancient ones 100%), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -761,7 +761,9 @@
 			"",
 			"Tawil at-Umr's symbol is a black spiral inside of a hexagon, and his favored weapon is the dagger. The Great Old One grants access to the domains of Chaos, Knowledge, Travel, and Void, and to the subdomains of Dark Tapestry, Exploration, Night, and Stars.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
@@ -989,8 +991,7 @@
 			"*Constant*-air walk, freedom of movement, speak with animals (reptiles only)  ",
 			"*At will*-awaken (snakes only), baleful polymorph[^M] (DC 25, into harmless snakes only), commune with nature, dimension door[^M], dream[^M], greater dispel magic, nightmare[^M] (DC 25), transport via plants  ",
 			"*3/day*-demand, quickened feeblemind (DC 25), heal[^M], quickened poison (DC 24)  ",
-			"*1/day*-control weather[^M], symbol of persuasion (DC 26), true resurrection  ",
-			"[^M]: mythic spell",
+			"*1/day*-control weather[^M], symbol of persuasion (DC 26), true resurrection",
 			"",
 			"#### Statistics",
 			"",
@@ -1033,7 +1034,9 @@
 			"",
 			"Yig's clerics have access to the domains of Chaos, Community, Protection, and Scalykind, and to the subdomains of Defense, Dragon, Revelry, and Venom. His favored weapon is the punching dagger.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** [Great Old One](family/great_old_one)",
+			"",
+			"[^M]: mythic spell"
 		]
 	},
 	"yig": { "copyof": "great_old_one,_yig" },
@@ -2584,8 +2587,7 @@
 			"*Constant*-detect good, freedom of movement, true seeing, unholy aura (DC 29)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 28), creeping doom (DC 28), desecrate[^M], contagion[^M] (DC 24), greater dispel magic, greater teleport, shapechange, telekinesis[^M] (DC 26), unhallow, unholy blight[^M] (DC 25)  ",
 			"*3/day*-quickened epidemic (DC 27), quickened plague storm (DC 27), soul bind (DC 30), summon daemon  ",
-			"*1/day*-cursed earth (DC 30), time stop[^M], wish[^M]  ",
-			"[^M]: Apollyon can use this ability's mythic version in his realm.",
+			"*1/day*-cursed earth (DC 30), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2626,7 +2628,9 @@
 			"",
 			"Apollyon is worshiped by those who carry, suffer from, or use disease, including neutral evil druids, vengeful lepers, wererats and the like. Apollyon also commands the allegiance of a significant portion of the daemon-worshiping urdefhan race. The Prince of Plagues is served by leukodaemons, his deacon servitor race, as well as astradaemons, diseased undead, monstrous rats, nuckelavees, otyughs, piscodaemons, and all manner of vermin. His unholy symbol is a yellow scythe, and the scythe is also his favored weapon. He grants access to the domains of Air, Darkness, Destruction, and Evil, and to the subdomains of Catastrophe, Daemon, Loss, and Night.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"",
+			"[^M]: Apollyon can use this ability's mythic version in his realm."
 		]
 	},
 	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
@@ -2664,8 +2668,7 @@
 			"*Constant*-air walk, detect good, freedom of movement, true seeing, unholy aura (DC 30), water walk  ",
 			"*At will*-animate dead[^M], astral projection, blasphemy[^M] (DC 29), circle of death[^M] (DC 28), control undead (DC 29), create greater undead, create undead, desecrate[^M], greater dispel magic, greater teleport, shapechange, telekinesis[^M] (DC 27), unhallow, unholy blight[^M] (DC 26)  ",
 			"*3/day*-quickened circle of death[^M] (DC 28), plane shift[^M] (DC 29), soul bind (DC 31), summon daemon, symbol of death (DC 30), quickened telekinesis[^M] (DC 27), wail of the banshee (DC 31)  ",
-			"*1/day*-time stop[^M], wish[^M]  ",
-			"[^M]: Charon can use this ability's mythic version in his realm",
+			"*1/day*-time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2712,7 +2715,9 @@
 			"",
 			"Charon is worshiped by ferrymen and -women, grave robbers, undertakers, the undead, and so very many doomed and damned would-be immortals. The Horseman of Death is served by thanadaemons, his deacon servitor race, along with fiendish krakens, grim reapers, hags, hydrodaemons, river monsters, and numerous varieties of undead. Charon's unholy symbol is a skull with coins over its eye sockets, and the quarterstaff is his favored weapon. He grants access to the domains of Death, Evil, Knowledge, and Water, and to the subdomains of Daemon, Ice, Memory, and Undead.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"",
+			"[^M]: Charon can use this ability's mythic version in his realm"
 		]
 	},
 	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
@@ -2748,8 +2753,7 @@
 			"*Constant*-detect good, fire shield (warm shield), freedom of movement, true seeing, unholy aura (DC 28)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 27), desecrate[^M], greater dispel magic, greater teleport, shapechange, spiritual weapon[^M], telekinesis[^M] (DC 25), unhallow, unholy blight[^M] (DC 24)  ",
 			"*3/day*-blade barrier[^M] (DC 26), fire storm[^M] (DC 28), incendiary cloud (DC 28), plane shift (DC 27), summon daemon, quickened telekinesis[^M] (DC 25)  ",
-			"*1/day*-meteor swarm[^M] (DC 29), time stop[^M], wish[^M]  ",
-			"[^M]: Szuriel can use this ability's mythic version in her realm.",
+			"*1/day*-meteor swarm[^M] (DC 29), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2790,7 +2794,9 @@
 			"",
 			"Szuriel is worshiped by those associated with every facet of war, including everything leading up to it and arising in its bloody wake. Arms dealers, looters, mercenaries, soldiers, and warlords worship the Angel of Desolation. Szuriel also holds the allegiance of a significant number of the daemon-worshiping and daemon-created urdefhan race. The Seraph of Devastation is served by her deacon race of purrodaemons as well as carrion eaters, obcisidaemons, undead soldiers, war beasts, and warswornB4. Szuriel's unholy symbol is a pale hand and black sword, and the greatsword is her favored weapon. She grants access to the domains of Evil, Fire, Strength, and War, and to the subdomains of Blood, Daemon, Ferocity, and Tactics.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"",
+			"[^M]: Szuriel can use this ability's mythic version in her realm."
 		]
 	},
 	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
@@ -2826,8 +2832,7 @@
 			"*Constant*-detect good, freedom of movement, true seeing, unholy aura (DC 28)  ",
 			"*At will*-astral projection, blasphemy[^M] (DC 27), desecrate[^M], greater dispel magic, greater teleport, shapechange, telekinesis[^M] (DC 25), unhallow, unholy blight[^M] (DC 24)  ",
 			"*3/day*-control weather[^M], horrid wilting (DC 28), quickened hunger for flesh (DC 24), insanity (DC 27), mass hunger for flesh (DC 27), plane shift (DC 27), soul bind (DC 29), summon daemon, waves of fatigue  ",
-			"*1/day*-imprisonment (DC 29), time stop[^M], wish[^M]  ",
-			"[^M]: Trelmarixian can use this ability's mythic version in his realm.",
+			"*1/day*-imprisonment (DC 29), time stop[^M], wish[^M]",
 			"",
 			"#### Statistics",
 			"",
@@ -2870,7 +2875,9 @@
 			"",
 			"Trelmarixian's unholy symbol is a jackal skull viewed from the side as it clutches a solar eclipse in its jaws, and the spiked gauntlet is his favored weapon. He grants access to the domains of Earth, Evil, Madness, and Weather, and to the subdomains of Daemon, Decay, Insanity, and Seasons.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)"
+			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"",
+			"[^M]: Trelmarixian can use this ability's mythic version in his realm."
 		]
 	},
 	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
@@ -2917,7 +2924,7 @@
 			"*2nd*-blindness/deafness[^D] (DC 17, only to cause blindness), cure moderate wounds (2), hold person (DC 17), silence (DC 17), undetectable alignment  ",
 			"*1st*-charm person[^D] (DC 16), command (DC 16), cure light wounds (5), divine favor  ",
 			"*0 (at will)*-bleed (DC 15), detect magic, guidance, read magic  ",
-			"[^D]: Domain spell; **Domains** Charm, Darkness",
+			"**Domains** Charm, Darkness",
 			"",
 			"#### Statistics",
 			"",
@@ -2941,7 +2948,9 @@
 			"",
 			"The Gloom Widow earned her appellation as a result of her preferred method of preying upon mortals. When she finds herself on the Material Plane, she seeks out young couples who are too shy or hesitant to make the first steps toward forming a relationship, then possesses one of their friends. Using that friend as a proxy, she arranges for the couple to meet, fall in love, and eventually wed, retaining control of the friend the whole time. During the honeymoon, Ilzunae brings the friend to a distant city via teleportation, informs the friend of her plans before releasing him, then teleports back to the honeymooners, where she possesses one of them to enjoy their first night of wedded bliss. The non-possessed spouse never survives until the dawn, and if they are lucky, Ilzunae waits until the final hour of the night to shift from sharing bliss to giving pain. She then abandons the possessed widow or widower with a message that all this was made possible through the jealousy of the friend, who has fled to a distant city. In most cases, the surviving spouse either commits suicide or seeks out the \"friend\" to murder them, and when she can, Ilzunae enjoys intercepting those sinful lost souls when they come to the Abyss so she can harvest and keep them in gilt bird cages in her palace as trophies.",
 			"",
-			"Ilzunae prefers promises of time left to her own devices on the Material Plane, but will accept the bodies of grieving widows or widowers as well. It's a DC 29 check to research the Gloom Widow."
+			"Ilzunae prefers promises of time left to her own devices on the Material Plane, but will accept the bodies of grieving widows or widowers as well. It's a DC 29 check to research the Gloom Widow.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"jarl_gnargorak": {
@@ -3704,7 +3713,6 @@
 			"*1st (9/day)*-chill touch (DC 23), expeditious retreat, feather fall, ray of enfeeblement (DC 23), silent image (DC 21), vanish  ",
 			"*0 (at will)*-acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage hand, message, prestidigitation, read magic, tough of fatigue  ",
 			"**Bloodline** undead (sanguine); [^M]: mythic spell",
-			"[^D]: domain spell; Domains Death (Undead subdomain), Knowledge (Thought subdomain)",
 			"",
 			"#### Statistics",
 			"",
@@ -3732,7 +3740,9 @@
 			"",
 			"Not even the genies of Garund have escaped the Priest-King's capture squads. Many have been defeated and converted by the powers of death into great ghuls, often serving in positions of prominence as atamans, beys, and pashas under Khain's dominion. The most powerful of these are four great ghul oracles called the Quadrate Pillars, each formed from the undead remnant of a genie twisted into serving in death the element that was its opposite in life. A few renegade shaitans have been converted to the worship of Kabriri, and serve Kortash Khain as architects, engineers, and builders in his city. This so-called Blackstone Brotherhood is held in high esteem in Nemret Noktoria not only for its architectural creations but also for its members' prowess as hunters. They infiltrate their genie brethren and lure them into ambushes.",
 			"",
-			"Kortash Khain and any other clerics or oracles worshiping Kabriri gain several unique options when summoning or creating undead to serve them. They add the following creatures to their summon monster lists: I-fiendish human zombie (standard or fast zombie); II-fiendish ghoul, fiendish plague zombie; III-fiendish ghast; IV-giant fiendish ghast; V-ghul; VI-fiendish ghul, great ghul; VII-fiendish great ghul, fiendish shaitan. When using create undead, a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell."
+			"Kortash Khain and any other clerics or oracles worshiping Kabriri gain several unique options when summoning or creating undead to serve them. They add the following creatures to their summon monster lists: I-fiendish human zombie (standard or fast zombie); II-fiendish ghoul, fiendish plague zombie; III-fiendish ghast; IV-giant fiendish ghast; V-ghul; VI-fiendish ghul, great ghul; VII-fiendish great ghul, fiendish shaitan. When using create undead, a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell.",
+			"",
+			"[^D]: domain spell; Domains Death (Undead subdomain), Knowledge (Thought subdomain)"
 		]
 	},
 	"kurshu_the_undying": {

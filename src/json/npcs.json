@@ -783,8 +783,7 @@
 			"**Druid Spells Prepared** (CL 1st; concentration +3)  ",
 			"1st-*burning hands*[^D] (DC 13), *endure elements*, *faerie fire*  ",
 			"0 (at will)-*detect poison*, *flare* (DC 12), *stabilize*  ",
-			"**Domain** Fire  ",
-			"[^D]: Domain spell",
+			"**Domain** Fire",
 			"",
 			"#### Tactics",
 			"",
@@ -801,7 +800,9 @@
 			"**SQ** nature bond (Fire domain), nature sense, wild empathy -1  ",
 			"**Combat Gear** alchemist's fire (2), smokesticks (2); **Other Gear** masterwork hide armor, sling with 20 bullets, spear, climber's kit, healer's kit, holly and mistletoe, spell component pouch, 8 gp",
 			"",
-			"These hostile guardians of volcanic mountain regions have tempers to match their fiery environs, and tolerate no intruders."
+			"These hostile guardians of volcanic mountain regions have tempers to match their fiery environs, and tolerate no intruders.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"mercenary_healer": {
@@ -836,7 +837,6 @@
 			"1st-**cure light wounds**, *longstrider*[^D], *protection from good*  ",
 			"0 (at will)-*detect magic*, *mending*, *read magic*  ",
 			"**Domains** Nobility, Travel",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -860,7 +860,9 @@
 			"",
 			"**Combat Encounters:** Zened works best with several bodyguards or in a low-level adventuring party.",
 			"",
-			"**Roleplaying Suggestions:** Zened does nothing for free (including healing allies) and often attempts to renegotiate contracts precisely when his \"comrades\" need him most."
+			"**Roleplaying Suggestions:** Zened does nothing for free (including healing allies) and often attempts to renegotiate contracts precisely when his \"comrades\" need him most.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"mercenary_magician": {
@@ -2356,8 +2358,7 @@
 			"**Druid Spells Prepared** (CL 2nd; concentration +3)  ",
 			"1st-*cure light wounds*, *jump*, *obscuring mist*[^D], *shillelagh*  ",
 			"0 (at will)-*flare* (DC 11), *know direction*, *light*, *stabilize*  ",
-			"**Domain** Weather  ",
-			"[^D]: Domain spell",
+			"**Domain** Weather",
 			"",
 			"#### Tactics",
 			"",
@@ -2373,7 +2374,9 @@
 			"**SQ** nature bond (Weather domain), nature sense, wild empathy +2, woodland stride  ",
 			"**Combat Gear** scrolls of cure light wounds (2), scroll of entangle (2), alchemist's fire (4); **Other Gear** masterwork leather armor, heavy wooden shield, masterwork club, shortspear, grappling hook, healer's kit, hemp rope (50 ft.), holly and mistletoe, spell component pouch, amber necklace (worth 25 gp), 45 gp",
 			"",
-			"Mastery of the wind and weather is a boon on any ship, and many northern druids thus serve as captains, navigators, and battle support."
+			"Mastery of the wind and weather is a boon on any ship, and many northern druids thus serve as captains, navigators, and battle support.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"sczarni_thug": {
@@ -2996,7 +2999,6 @@
 			"1st-**bane** (DC 14), *magic stone*, *magic weapon*, *true strike*[^D]  ",
 			"0 (at will)-*bleed* (DC 13), *detect magic*, *detect poison*, *read magic*  ",
 			"**Domains** Chaos, Destruction",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -3014,7 +3016,9 @@
 			"**SQ** aura  ",
 			"**Combat Gear** potions of cure light wounds (2); **Other Gear** masterwork scale mail, light crossbow with 20 bolts, masterwork greatsword, wooden unholy symbol, 94 gp",
 			"",
-			"The dwarven war priest serves the god of strength, and uses her divine powers for the glory of war itself."
+			"The dwarven war priest serves the god of strength, and uses her divine powers for the glory of war itself.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"accomplished_angler": {
@@ -3832,7 +3836,6 @@
 			"1st-*command* (DC 14), *detect undead*, *faerie fire*, *magic weapon*  ",
 			"0 (at will)-*detect magic*, *guidance*, *light*, *purify food and drink*  ",
 			"**Domains** Good, Moon*",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -3851,7 +3854,9 @@
 			"",
 			"Just as the legendary Mistress Ordellia Whilwren once prayed to a mysterious angel to save Magnimar from a devastating deluge, other dwellers of the city have likewise devoted themselves to holy figures, including angels, azatas, and agathions. Called \"mystery cultists\" by most Magnimarians because of their small numbers and esoteric manner of worship, the dedicated followers of the empyreal lords keep to themselves and rarely proselytize. Most mystery cults hold at least one of Magnimar's numerous monuments in high esteem, whether for their importance in local traditions or their part in Varisian legends. Practitioners of these religions often congregate around structures such as the Arvensoar, the Irespan, or the Mistress of Angels to practice their faith, sometimes forming assemblies of over a hundred worshipers. Although the cults' gatherings can occasionally be disruptive to the flow of traffic throughout the City of Monuments, Magnimar's leaders do little to dissuade the cults' practices, which are almost wholly harmless and serve to promote life, freedom, and other righteous virtues.",
 			"",
-			"Three of the most commonly worshiped figures among the mystery cults of Magnimar are the empyreal lords Ashava, Soralyon, and Ylimancha, though smaller cults to other celestial beings are not uncommon in the City of Monuments."
+			"Three of the most commonly worshiped figures among the mystery cults of Magnimar are the empyreal lords Ashava, Soralyon, and Ylimancha, though smaller cults to other celestial beings are not uncommon in the City of Monuments.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"noble_noble_scion": {
@@ -4076,7 +4081,6 @@
 			"1st-*command* (2, DC 15), *erase*[^D], *obscuring mist*  ",
 			"0 (at will)-*detect magic*, *detect poison*, *purify food and drink*, *stabilize*  ",
 			"**Domains** Magic, Rune",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -4092,7 +4096,9 @@
 			"**SQ** aura  ",
 			"**Combat Gear** potion of invisibility, scroll of comprehend languages, scroll of cure moderate wounds, scroll of darkness, scroll of find traps, alchemist's fire (2), everburning torch, smokesticks (2); **Other Gear** masterwork breastplate, light crossbow with 20 bolts, quarterstaff, silver unholy symbol, 537 gp",
 			"",
-			"The scholar priest is a devotee of magical knowledge, securing it from the unworthy at all costs."
+			"The scholar priest is a devotee of magical knowledge, securing it from the unworthy at all costs.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"sczarni_thief": {
@@ -4332,7 +4338,6 @@
 			"1st-*disguise self*[^D], *murderous command* (DC 15), *protection from good*, *shield of faith*  ",
 			"0 (at will)-*bleed* (DC 13), *detect magic*, *guidance*, *resistance*  ",
 			"**Domains** Death, Deception",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -4350,7 +4355,9 @@
 			"",
 			"Worshipers of Norgorber following one of the god's other three aspects interact with Skinsaw cultists in different ways. Those who revere Blackfingers may work with Skinsaw cultists in order to provide their deadly poisons for the Skinsaw cultists' blades, more concerned about proliferating poison than the act of murder. Followers of the Reaper of Reputation may guide Skinsaw cultists toward choice targets, using them as tools to enact their political machinations, preferring that those they wish dead be slain by a fellow Norgorberite. Many who follow Norgorber's fourth aspect, that of the Gray Master, tend to avoid Skinsaw cultists unless they have a need to sow chaos and terror. While they believe murder is certainly a tool of thievery, it is a secondary aspect, and makes for a sloppier job in the eyes of their masked deity.",
 			"",
-			"Skinsaw cultists rarely interact with followers of Father Skinsaw from different cells, each city typically hosting only one such cult. That said, when a fellow cultist comes through a foreign town, a local cell will always take her in temporarily, sometimes even urging her to kill while there. Occasionally, however, a Skinsaw cultist receives a calling from her god to travel the world and leave a wake of murder and mayhem in her wake. In these instances, such a slayer would likely seek out safe havens in unfamiliar ports, relying on her compatriots to guide her to choice targets in each new city."
+			"Skinsaw cultists rarely interact with followers of Father Skinsaw from different cells, each city typically hosting only one such cult. That said, when a fellow cultist comes through a foreign town, a local cell will always take her in temporarily, sometimes even urging her to kill while there. Occasionally, however, a Skinsaw cultist receives a calling from her god to travel the world and leave a wake of murder and mayhem in her wake. In these instances, such a slayer would likely seek out safe havens in unfamiliar ports, relying on her compatriots to guide her to choice targets in each new city.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"sylvan_protector": {
@@ -4386,8 +4393,7 @@
 			"2nd-*flaming sphere* (DC 14), *summon swarm*, *wind wall*[^D]  ",
 			"1st-*cure light wounds* (2), *obscuring mist*[^D], *speak with animals*  ",
 			"0 (at will)-*flare* (DC 12), *light*, *stabilize*, *virtue*  ",
-			"**Domain** Air  ",
-			"[^D]: Domain spell",
+			"**Domain** Air",
 			"",
 			"#### Tactics",
 			"",
@@ -4403,7 +4409,9 @@
 			"**SQ** nature bond (Air domain), nature sense, wild empathy +5, woodland stride, trackless step  ",
 			"**Combat Gear** scrolls of cure light wounds (3), scroll of spider climb, tanglefoot bags (2); **Other Gear** +1 leather armor, masterwork heavy wooden shield, sickle, holly and mistletoe, spell component pouch, 95 gp",
 			"",
-			"There is no description for this NPC."
+			"There is no description for this NPC.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"traitorous_brigand": {
@@ -5649,7 +5657,6 @@
 			"1st-*bless*, *remove fear*, *sanctuary*[^D] (DC 13), *shield of faith*, *summon monster I*  ",
 			"0 (at will)-*guidance*, *know direction*, *purify food and drink*, *stabilize*  ",
 			"**Domains** Protection, Water",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -5669,7 +5676,9 @@
 			"",
 			"While attending to an Osirian river in accordance with Wadjet's tenets, river clerics expect to be paid for their services just as any other guide or ferryman. Unlike others who perform similar functions, however, clerics of Wadjet use nearly all of their income to fund their deity's church. A river cleric never turns down a job unless she feels it clearly violates her deity's code of conduct (such as obstructing or defiling the river or acting against the interests of the pharaoh and his loyal subjects). Even when not ferrying clients, a river cleric can be found traveling along the river, offering her goddess's insight and blessings to the loyal subjects of the reigning pharaoh.",
 			"",
-			"For more information on Wadjet and the other gods of Ancient Osirion, see Pathfinder Adventure Path #80: Empty Graves."
+			"For more information on Wadjet and the other gods of Ancient Osirion, see Pathfinder Adventure Path #80: Empty Graves.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"road_pilgrim": {
@@ -5793,8 +5802,7 @@
 			"2nd-*barkskin*[^D], *bull's strength*, *summon swarm*  ",
 			"1st-*entangle*[^D] (2, DC 12), *faerie fire*, *shillelagh* (2)  ",
 			"0 (at will)-*create water*, *know direction*, *light*, *stabilize*  ",
-			"**Domain** Plant  ",
-			"[^D]: Domain spell",
+			"**Domain** Plant",
 			"",
 			"#### Tactics",
 			"",
@@ -5812,7 +5820,9 @@
 			"**SQ** nature bond (Plant domain), nature sense, orc blood, trackless step, weapon familiarity, wild empathy +4, woodland stride  ",
 			"**Combat Gear** potion of cure moderate wounds; **Other Gear** +1 dragonhide breastplate, masterwork club, spears (4), holly and mistletoe, 93 gp",
 			"",
-			"There is no description for this NPC."
+			"There is no description for this NPC.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"shoreline_cleric": {
@@ -5849,7 +5859,6 @@
 			"1st-*cause fear* (DC 15), *cure light wounds*, *endure elements*[^D], *entangle* (DC 15), *entropic shield*  ",
 			"0 (at will)-*bleed* (2, *DC 14)*, *guidance*, *light*  ",
 			"**Domains** Plant, Weather",
-			"[^D]: Domain spell",
 			"",
 			"#### Tactics",
 			"",
@@ -5867,7 +5876,9 @@
 			"**SQ** aura, elf blood  ",
 			"**Combat Gear** +1 human-bane arrows (2), +1 orc-bane arrow, potion of cure moderate wounds; **Other Gear** +1 chain shirt, shortbow with 20 arrows, trident, anchor feather token, wooden holy symbol, 256 gp",
 			"",
-			"There is no description for this NPC."
+			"There is no description for this NPC.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"skirmishing_crusader": {
@@ -6358,7 +6369,6 @@
 			"1st-*bless*, *cure light wounds*, *deathwatch*, *obscuring mist*[^D], *remove fear*  ",
 			"0 (at will)-*create water*, *purify food and drink*, *read magic*, *stabilize*  ",
 			"**Domains** Water, Weather",
-			"[^D]: Domain spell",
 			"",
 			"#### Statistics",
 			"",
@@ -6377,7 +6387,9 @@
 			"",
 			"Priests of Besmara are common fixtures on pirate vessels sailing the Shackles, simultaneously serving as healers and spiritual guides for comrades who often have no time for religion until death is already grinning in their faces. While clerics of Besmara often end up captaining ships of their own, they usually spend most of their pirating careers as first mates or ship's surgeons.",
 			"",
-			"When not needed to confront a more immediate peril, a cleric of Besmara sees to the health of the crew, purifying spoiled food and water, healing the inevitable injuries sailors acquire in the course of their duties, or curing crew members of the diseases so widespread in the tropics and the sordid brothels that are a staple of every seaside town. If these duties spare her any time, a Besmaran priest goes out of her way to assist others in their tasks onboard and learn everything there is to know about running a ship and crew, for there is no telling what duties will be required aboard Besmara's own Seawraith should the cleric earn a coveted berth in the afterlife. In addition, every priest of Besmara is expected to make a pilgrimage to the mysterious island called Besmara's Throne at least once in her life, and shipmates greeting a cleric upon her return are often struck by the renewed fervor with which she sets about her tasks."
+			"When not needed to confront a more immediate peril, a cleric of Besmara sees to the health of the crew, purifying spoiled food and water, healing the inevitable injuries sailors acquire in the course of their duties, or curing crew members of the diseases so widespread in the tropics and the sordid brothels that are a staple of every seaside town. If these duties spare her any time, a Besmaran priest goes out of her way to assist others in their tasks onboard and learn everything there is to know about running a ship and crew, for there is no telling what duties will be required aboard Besmara's own Seawraith should the cleric earn a coveted berth in the afterlife. In addition, every priest of Besmara is expected to make a pilgrimage to the mysterious island called Besmara's Throne at least once in her life, and shipmates greeting a cleric upon her return are often struck by the renewed fervor with which she sets about her tasks.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"bramble_sorcerer": {
@@ -6524,8 +6536,7 @@
 			"2nd-*barkskin*, *bear's endurance*, *soften earth and stone*[^D], *summon swarm*  ",
 			"1st-*cure light wounds*, *magic stone*[^D], *obscuring mist*, *shillelagh*, *speak with animals*  ",
 			"0 (at will)-*create water*, *guidance*, *know direction*, *light*  ",
-			"**Domain** Earth  ",
-			"[^D]: Domain spell",
+			"**Domain** Earth",
 			"",
 			"#### Tactics",
 			"",
@@ -6550,7 +6561,9 @@
 			"",
 			"**Combat Encounters:** Zirul's combat axiom is that a good defense lays the groundwork for a devastating offense. She always makes sure to enter combat from a position of defensive strength.",
 			"",
-			"**Roleplaying Suggestions:** Zirul has nearly lost her ability to feel empathy for other humanoids. She constantly mutters to herself and to the rats that swarm around her, ignoring other people's perturbed reactions to her odd behavior."
+			"**Roleplaying Suggestions:** Zirul has nearly lost her ability to feel empathy for other humanoids. She constantly mutters to herself and to the rats that swarm around her, ignoring other people's perturbed reactions to her odd behavior.",
+			"",
+			"[^D]: Domain spell"
 		]
 	},
 	"city_watch_captain_magnimar": {

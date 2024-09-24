@@ -3332,11 +3332,12 @@
 			"| Crystal ball with detect thoughts (Will DC 13 negates) | 51,000 gp |",
 			"| Crystal ball with telepathy[^T] | 70,000 gp |",
 			"| Crystal ball with true seeing | 80,000 gp |",
-			"[^T]: The viewer is able to send and receive silent mental messages with the person appearing in the crystal ball. Once per day, the character may attempt to implant a suggestion (as the spell, Will DC 14 negates) as well.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scrying (plus any additional spells put into the crystal ball); **Cost** 21,000 gp (normal), 25,000 gp (see invisibility), 25,500 gp (detect thoughts), 35,000 gp (telepathy), 40,000 gp (true seeing)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scrying (plus any additional spells put into the crystal ball); **Cost** 21,000 gp (normal), 25,000 gp (see invisibility), 25,500 gp (detect thoughts), 35,000 gp (telepathy), 40,000 gp (true seeing)",
+			"",
+			"[^T]: The viewer is able to send and receive silent mental messages with the person appearing in the crystal ball. Once per day, the character may attempt to implant a suggestion (as the spell, Will DC 14 negates) as well."
 		]
 	},
 	"crystal_ball": { "copyof": "crystal_ball_normal" },
