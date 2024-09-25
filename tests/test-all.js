@@ -6,12 +6,21 @@ import magicTest from './test-magic.js';
 import mainTest from './test-main.js';
 import rulesTest from './test-rules.js';
 
-console.log(
-	basicsTest() + "\n",
-	classTest() + "\n",
-	equipTest() + "\n",
-	magicTest() + "\n",
-	mainTest() + "\n",
-	rulesTest() + "\n",
-	archTest() + "\n",
-);
+const data = [...basicsTest(), classTest(), ...equipTest(), ...magicTest(), mainTest(), rulesTest(), ...archTest()];
+
+const output = [];
+
+const ok = [];
+
+data.forEach(result => {
+	const [error, type, msg] = result;
+	if(error) {
+		output.push(msg.join("\n"));
+	} else {
+		ok.push(type);
+	}
+});
+
+output.unshift(`OK: ${ok.join(", ")}`);
+
+console.log(output.join("\n\n"));

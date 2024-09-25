@@ -10,7 +10,7 @@
 				"headers": [ "Feat", "Description" ],
 				"types": [ null, 0 ],
 				"initialColumn": 0,
-				"nullValue": "-",
+				"nullValue": "&ndash;",
 				"className": "plain",
 				"ripples": [0],
 				"id": "all mythic feats table",

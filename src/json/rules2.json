@@ -1,215 +1,4 @@
 {
-	"scrolls": {
-		"name": "Scrolls",
-		"subtitle": "Magic Items",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 490](source/prpg_core_rulebook)",
-			"",
-			"A scroll is a spell (or collection of spells) that has been stored in written form. A spell on a scroll can be used only once. The writing vanishes from the scroll when the spell is activated. Using a scroll is basically like casting a spell. The price of a scroll is equal to the level of the spell &times; the creator's caster level &times; 25 gp. If the scroll has a material component cost, it is added to the base price and cost to create. Table 15-15 gives sample prices for scrolls created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster scribing the scroll.",
-			"",
-			"**Physical Description:** A scroll is a heavy sheet of fine vellum or high-quality paper. An area about 8-1/2 inches wide and 11 inches long is sufficient to hold one spell. The sheet is reinforced at the top and bottom with strips of leather slightly longer than the sheet is wide. A scroll holding more than one spell has the same width (about 8-1/2 inches) but is an extra foot or so long for each additional spell. Scrolls that hold three or more spells are usually fitted with reinforcing rods at each end rather than simple strips of leather. A scroll has AC 9, 1 hit point, hardness 0, and a break DC of 8.",
-			"",
-			"To protect it from wrinkling or tearing, a scroll is rolled up from both ends to form a double cylinder. (This also helps the user unroll the scroll quickly.) The scroll is placed in a tube of ivory, jade, leather, metal, or wood. Most scroll cases are inscribed with magic symbols which often identify the owner or the spells stored on the scrolls inside. The symbols sometimes hide magic traps.",
-			"",
-			"**Activation:** To activate a scroll, a spellcaster must read the spell written on it. This involves several steps and conditions.",
-			"",
-			"**Decipher the Writing:** The writing on a scroll must be deciphered before a character can use it or know exactly what spell it contains. This requires a read magic spell or a successful Spellcraft check (DC 20 + spell level). Deciphering a scroll is a full-round action.",
-			"",
-			"Deciphering a scroll to determine its contents does not activate its magic unless it is a specially prepared cursed scroll. A character can decipher the writing on a scroll in advance so that she can proceed directly to the next step when the time comes to use the scroll.",
-			"",
-			"**Activate the Spell:** Activating a scroll requires reading the spell from the scroll. The character must be able to see and read the writing on the scroll. Activating a scroll spell requires no material components or focus. (The creator of the scroll provided these when scribing the scroll.) Note that some spells are effective only when cast on an item or items. In such a case, the scroll user must provide the item when activating the spell. Activating a scroll spell is subject to disruption just as casting a normally prepared spell would be. Using a scroll is like casting a spell for purposes of arcane spell failure chance.",
-			"",
-			"To have any chance of activating a scroll spell, the scroll user must meet the following requirements.",
-			"",
-			"- The spell must be of the correct type (arcane or divine). Arcane spellcasters (wizards, sorcerers, and bards) can only use scrolls containing arcane spells, and divine spellcasters (clerics, druids, paladins, and rangers) can only use scrolls containing divine spells. (The type of scroll a character creates is also determined by his class.)",
-			"- The user must have the spell on her class list.",
-			"- The user must have the requisite ability score.",
-			"",
-			"If the user meets all the requirements noted above, and her caster level is at least equal to the spell's caster level, she can automatically activate the spell without a check. If she meets all three requirements but her own caster level is lower than the scroll spell's caster level, then she has to make a caster level check (DC = scroll's caster level + 1) to cast the spell successfully. If she fails, she must make a DC 5 Wisdom check to avoid a mishap (see Scroll Mishaps). A natural roll of 1 always fails, whatever the modifiers. If the caster level check fails but no mishap occurs, the scroll is not expended. Activating a scroll is a standard action (or the spell's casting time, whichever is longer) and it provokes attacks of opportunity exactly as casting a spell does.",
-			"",
-			"**Determine Effect:** A spell successfully activated from a scroll works exactly like a spell prepared and cast the normal way. Assume the scroll spell's caster level is always the minimum level required to cast the spell for the character who scribed the scroll, unless the scriber specifically desired otherwise.",
-			"",
-			"The writing for an activated spell disappears from the scroll as the spell is cast.",
-			"",
-			"**Scroll Mishaps:** When a mishap occurs, the spell on the scroll has a reversed or harmful effect. Possible mishaps are given below.",
-			"",
-			"- A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the scroll user.",
-			"- Spell strikes the scroll user or an ally instead of the intended target, or a random target nearby if the scroll user was the intended recipient.",
-			"- Spell takes effect at some random location within spell range.",
-			"- Spell's effect on the target is contrary to the spell's normal effect.",
-			"- The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell's duration, or 2d10 minutes for instantaneous spells.",
-			"- Some innocuous item or items appear in the spell's area.",
-			"- Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.",
-			"",
-			"### Table 15-15: Scrolls",
-			"",
-			"| Minor | Medium | Major | Spell Level | Caster Level |",
-			"| --- | --- | --- | --- | --- |",
-			"| 01-05 | - | - | 0 | 1st |",
-			"| 06-50 | - | - | 1 | 1st |",
-			"| 51-95 | 01-05 | - | 2 | 3rd |",
-			"| 96-100 | 06-65 | - | 3 | 5th |",
-			"| - | 66-95 | 01-05 | 4 | 7th |",
-			"| - | 96-100 | 06-50 | 5 | 9th |",
-			"| - | - | 51-70 | 6 | 11th |",
-			"| - | - | 71-85 | 7 | 13th |",
-			"| - | - | 86-95 | 8 | 15th |",
-			"| - | - | 96-100 | 9 | 17th |",
-			"",
-			"### Scroll Costs",
-			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |",
-			"| --- | --- | --- | --- | --- |",
-			"| 0 | 12.5 gp | 12.5 gp | 12.5 gp | - |",
-			"| 1st | 25 gp | 25 gp | 25 gp | 25 gp |",
-			"| 2nd | 150 gp | 200 gp | 200 gp | 200 gp |",
-			"| 3rd | 375 gp | 450 gp | 525 gp | 525 gp |",
-			"| 4th | 700 gp | 800 gp | 1,000 gp | 1,000 gp |",
-			"| 5th | 1,125 gp | 1,250 gp | 1,625 gp | - |",
-			"| 6th | 1,650 gp | 1,800 gp | 2,400 gp | - |",
-			"| 7th | 2,275 gp | 2,450 gp | - | - |",
-			"| 8th | 3,000 gp | 3,200 gp | - | - |",
-			"| 9th | 3,825 gp | 4,050 gp | - | - |"
-		],
-		"parent_topics": [
-			"items",
-			"magic_items",
-			"magic_item_descriptions"
-		],
-		"siblings": [
-			"extradimensional_spaces",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items"
-		]
-	},
-	"staves": {
-		"name": "Staves",
-		"subtitle": "Magic Items",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 491](source/prpg_core_rulebook)",
-			"",
-			"A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when created.",
-			"",
-			"**Physical Description:** A typical staff measures anywhere from 4 feet to 7 feet long and is 2 inches to 3 inches thick, weighing about 5 pounds. Most staves are wood, but an exotic few are bone, metal, or even glass. A staff often has a gem or some device at its tip or is shod in metal at one or both ends. Staves are often decorated with carvings or runes. A typical staff is like a walking stick, quarterstaff, or cudgel. It has AC 7, 10 hit points, hardness 5, and a break DC of 24.",
-			"",
-			"**Activation:** Staves use the spell trigger activation method, so casting a spell from a staff is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 standard action, however, it takes that long to cast the spell from a staff.) To activate a staff, a character must hold it forth in at least one hand (or whatever passes for a hand, for non-humanoid creatures).",
-			"",
-			"**Special Qualities:** Roll d%. A 01-30 result indicates that something (a design, inscription, or the like) provides some clue to the staff's function, and 31-100 indicates no special qualities.",
-			"",
-			"**Using Staves:** Staves use the wielder's ability score and relevant feats to set the DC for saves against their spells. Unlike with other sorts of magic items, the wielder can use his caster level when activating the power of a staff if it's higher than the caster level of the staff.",
-			"",
-			"This means that staves are far more potent in the hands of a powerful spellcaster. Because they use the wielder's ability score to set the save DC for the spell, spells from a staff are often harder to resist than those from other magic items, which use the minimum ability score required to cast the spell. Not only are aspects of the spell dependent on caster level (range, duration, and so on) potentially higher, but spells from a staff are also harder to dispel and have a better chance of overcoming a target's spell resistance.",
-			"",
-			"Staves hold a maximum of 10 charges. Each spell cast from a staff consumes one or more charges. When a staff runs out of charges, it cannot be used until it is recharged. Each morning, when a spellcaster prepares spells or regains spell slots, he can also imbue one staff with a portion of his power so long as one or more of the spells cast by the staff is on his spell list and he is capable of casting at least one of the spells. Imbuing a staff with this power restores one charge to the staff, but the caster must forgo one prepared spell or spell slot of a level equal to the highest-level spell cast by the staff. For example, a 9th-level wizard with a staff of fire could imbue the staff with one charge per day by using up one of his 4th-level spells. A staff cannot gain more than one charge per day and a caster cannot imbue more than one staff per day.",
-			"",
-			"Furthermore, a staff can hold a spell of any level, unlike a wand, which is limited to spells of 4th level or lower. The minimum caster level of a staff is 8th.",
-			"",
-			"### Table 15-16: Staves",
-			"",
-			"| Medium | Major | Staff | Market Price |",
-			"| --- | --- | --- | --- |",
-			"| 01-15 | 01-03 | Charming | 17,600 gp |",
-			"| 16-30 | 04-09 | Fire | 18,950 gp |",
-			"| 31-40 | 10-11 | Swarming insects | 22,800 gp |",
-			"| 41-55 | 12-13 | Size alteration | 26,150 gp |",
-			"| 56-75 | 14-19 | Healing | 29,600 gp |",
-			"| 76-90 | 20-24 | Frost | 41,400 gp |",
-			"| 91-95 | 25-31 | Illumination | 51,500 gp |",
-			"| 96-100 | 32-38 | Defense | 62,000 gp |",
-			"| &mdash; | 39-45 | Abjuration | 82,000 gp |",
-			"| &mdash; | 46-50 | Conjuration | 82,000 gp |",
-			"| &mdash; | 51-55 | Divination | 82,000 gp |",
-			"| &mdash; | 56-60 | Enchantment | 82,000 gp |",
-			"| &mdash; | 61-65 | Evocation | 82,000 gp |",
-			"| &mdash; | 66-70 | Illusion | 82,000 gp |",
-			"| &mdash; | 71-75 | Necromancy | 82,000 gp |",
-			"| &mdash; | 76-80 | Transmutation | 82,000 gp |",
-			"| &mdash; | 81-85 | Earth and stone | 85,800 gp |",
-			"| &mdash; | 86-90 | Woodlands | 100,400 gp |",
-			"| &mdash; | 91-95 | Life | 109,400 gp |",
-			"| &mdash; | 96-98 | Passage | 206,900 gp |",
-			"| &mdash; | 99-100 | Power | 235,000 gp |"
-		],
-		"parent_topics": [
-			"items",
-			"magic_items",
-			"magic_item_descriptions"
-		],
-		"siblings": [
-			"extradimensional_spaces",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items"
-		]
-	},
-	"wands": {
-		"name": "Wands",
-		"subtitle": "Magic Items",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)",
-			"",
-			"A wand is a thin baton that contains a single spell of 4th level or lower. A wand has 50 charges when created-each charge allows the use of the wand's spell one time. A wand that runs out of charges is just a stick. The price of a wand is equal to the level of the spell &times; the creator's caster level &times; 750 gp. If the wand has a material component cost, it is added to the base price and cost to create once for each charge (50 &times; material component cost). Table 15-17 gives sample prices for wands created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster crafting the wand.",
-			"",
-			"**Physical Description:** A wand is 6 to 12 inches long, 1/4 inch thick, and weighs no more than 1 ounce. Most wands are wood, but some are bone, metal, or even crystal. A typical wand has AC 7, 5 hit points, hardness 5, and a break DC of 16.",
-			"",
-			"**Activation:** Wands use the spell trigger activation method, so casting a spell from a wand is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 action, however, it takes that long to cast the spell from a wand.) To activate a wand, a character must hold it in hand (or whatever passes for a hand, for non-humanoid creatures) and point it in the general direction of the target or area. A wand may be used while grappling or while swallowed whole.",
-			"",
-			"**Special Qualities:** Roll d%. A 01-30 result indicates that something (a design, inscription, or the like) provides some clue to the wand's function, and 31-100 indicates no special qualities.",
-			"",
-			"### Table 15-17: Wands",
-			"",
-			"| Minor | Medium | Major | Spell Level | Caster Level |",
-			"| --- | --- | --- | --- | --- |",
-			"| 01-05 | - | - | 0 | 1st |",
-			"| 06-60 | - | - | 1st | 1st |",
-			"| 61-100 | 01-606 | - | 2nd | 3rd |",
-			"| - | 61-100 | 01-60 | 3rd | 5th |",
-			"| - | - | 61-100 | 4th | 7th |",
-			"",
-			"### Wand Costs",
-			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |",
-			"| --- | --- | --- | --- | --- |",
-			"| 0 | 375 gp | 375 gp | 375 gp | - |",
-			"| 1st | 750 gp | 750 gp | 750 gp | 750 gp |",
-			"| 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |",
-			"| 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |",
-			"| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |"
-		],
-		"parent_topics": [
-			"items",
-			"magic_items",
-			"magic_item_descriptions"
-		],
-		"siblings": [
-			"extradimensional_spaces",
-			"magic_armor",
-			"magic_weapons",
-			"potions",
-			"rings",
-			"rods",
-			"scrolls",
-			"staves",
-			"wands",
-			"wondrous_items"
-		]
-	},
 	"wondrous_items": {
 		"name": "Wondrous Items",
 		"subtitle": "Magic Items",
@@ -4451,7 +4240,7 @@
 			"",
 			"**Moving:** Moving out of a threatened square usually provokes AoOs from threatening opponents. There are two common methods of avoiding such an attack-the 5-foot step and the withdraw action.",
 			"",
-			"**Performing a Distracting Act:** Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: [standard actions](rule/standard_actions), [move actions](rule/move_actions), [full-round actions](rule/full-round_actions), [free actions](rule/free_actions), [swift actions](rule/swift_actions), [immediate actions](rule/immediate_actions), and [miscellaneous actions](rule/miscellaneous_actions). They are summarized in the table below.",
+			"**Performing a Distracting Act:** Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: [standard actions](rule/standard_actions), [move actions](rule/move_actions), [full-round actions](rule/full-round_actions), [free actions](rule/free_actions), [swift actions, immediate actions](rule/swift_and_immediate_actions), and [miscellaneous actions](rule/miscellaneous_actions). They are summarized in the list below.",
 			"",
 			"Remember that even actions that normally provoke AoOs may have exceptions to this rule.",
 			"",
@@ -4617,8 +4406,7 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		]
 	},
@@ -4655,6 +4443,7 @@
 			"| Use skill that takes 1 action | Usually |",
 			"| Use spell-like ability | Yes |",
 			"| Use supernatural ability | No |",
+			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
 			"[^2]: If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well."
 		],
@@ -4667,17 +4456,15 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		],
 		"subtopics": [
 			"attack",
 			"activate_magic_item",
 			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
+			"use_special_ability",
+			"other_standard_actions"
 		]
 	},
 	"attack": {
@@ -4743,9 +4530,8 @@
 			"attack",
 			"activate_magic_item",
 			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
+			"use_special_ability",
+			"other_standard_actions"
 		]
 	},
 	"activate_magic_item": {
@@ -4769,9 +4555,8 @@
 			"attack",
 			"activate_magic_item",
 			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
+			"use_special_ability",
+			"other_standard_actions"
 		]
 	},
 	"cast_a_spell": {
@@ -4819,53 +4604,8 @@
 			"attack",
 			"activate_magic_item",
 			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
-		]
-	},
-	"start_complete_full-round_action": {
-		"name": "Start/Complete Full-Round Action",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 185](source/prpg_core_rulebook)",
-			"",
-			"The \"start full-round action\" standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action. You can't use this action to start or complete a full attack, charge, run, or withdraw."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"standard_actions"
-		],
-		"siblings": [
-			"attack",
-			"activate_magic_item",
-			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
-		]
-	},
-	"total_defense": {
-		"name": "Total Defense",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 185](source/prpg_core_rulebook)",
-			"",
-			"You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the [Combat Expertise](feat/combat_expertise) feat. You can't make attacks of opportunity while using total defense."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"standard_actions"
-		],
-		"siblings": [
-			"attack",
-			"activate_magic_item",
-			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
+			"use_special_ability",
+			"other_standard_actions"
 		]
 	},
 	"use_special_ability": {
@@ -4893,9 +4633,31 @@
 			"attack",
 			"activate_magic_item",
 			"cast_a_spell",
-			"start_complete_full-round_action",
-			"total_defense",
-			"use_special_ability"
+			"use_special_ability",
+			"other_standard_actions"
+		]
+	},
+	"other_standard_actions": {
+		"name": "Other Standard Actions",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"**Source** [PRPG Core Rulebook pg. 185](source/prpg_core_rulebook)",
+			"",
+			"The **start full-round action** standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action (**complete full-round action**). You can't use this action to start or complete a full attack, charge, run, or withdraw.",
+			"",
+			"**Total defense** lets you defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the [Combat Expertise](feat/combat_expertise) feat. You can't make attacks of opportunity while using total defense."
+		],
+		"parent_topics": [
+			"combat",
+			"actions_in_combat",
+			"standard_actions"
+		],
+		"siblings": [
+			"attack",
+			"activate_magic_item",
+			"cast_a_spell",
+			"use_special_ability",
+			"other_standard_actions"
 		]
 	},
 	"move_actions": {
@@ -4919,8 +4681,9 @@
 			"| Pick up an item | Yes |",
 			"| Sheathe a weapon | Yes |",
 			"| Stand up from prone | Yes |",
-			"| Ready or drop a shield[^3] | No |",
+			"| Ready or drop a shield[^2] | No |",
 			"| Retrieve a stored item | Yes |",
+			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
 			"[^2]: If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one."
 		],
@@ -4933,18 +4696,15 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		],
 		"subtopics": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
 	"move": {
@@ -4968,35 +4728,10 @@
 		],
 		"siblings": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
-		]
-	},
-	"direct_or_redirect_a_spell": {
-		"name": "Direct or Redirect a Spell",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 186](source/prpg_core_rulebook)",
-			"",
-			"Some spells allow you to redirect the effect to new targets or areas after you cast the spell. Redirecting a spell requires a move action and does not provoke attacks of opportunity or require concentration."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"move_actions"
-		],
-		"siblings": [
-			"move",
-			"direct_or_redirect_a_spell",
-			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
-			"mount_dismount_a_steed",
-			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
 	"draw_or_sheathe_a_weapon": {
@@ -5018,35 +4753,10 @@
 		],
 		"siblings": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
-		]
-	},
-	"manipulate_an_item": {
-		"name": "Manipulate an Item",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
-			"",
-			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in [the table here](rule/move_actions)."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"move_actions"
-		],
-		"siblings": [
-			"move",
-			"direct_or_redirect_a_spell",
-			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
-			"mount_dismount_a_steed",
-			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
 	"mount_dismount_a_steed": {
@@ -5066,12 +4776,10 @@
 		],
 		"siblings": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
 	"ready_or_drop_a_shield": {
@@ -5089,21 +4797,24 @@
 		],
 		"siblings": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
-	"stand_up": {
-		"name": "Stand Up",
+	"other_move_actions": {
+		"name": "Other Move Actions",
+		"tags": "manipulating an item stand up from prone direct spell redirect spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
 			"",
-			"Standing up from a prone position requires a move action and provokes attacks of opportunity."
+			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in [the table here](rule/move_actions).",
+			"",
+			"Some spells allow you to redirect the effect to new targets or areas after you cast the spell. **Redirecting a spell** requires a move action and does not provoke attacks of opportunity or require concentration.",
+			"",
+			"**Standing up** from a prone position requires a move action and provokes attacks of opportunity."
 		],
 		"parent_topics": [
 			"combat",
@@ -5112,12 +4823,10 @@
 		],
 		"siblings": [
 			"move",
-			"direct_or_redirect_a_spell",
 			"draw_or_sheathe_a_weapon",
-			"manipulate_an_item",
 			"mount_dismount_a_steed",
 			"ready_or_drop_a_shield",
-			"stand_up"
+			"other_move_actions"
 		]
 	},
 	"full-round_actions": {
@@ -5131,7 +4840,7 @@
 			"| Full-Round Action | Attack of Opportunity[^1] |",
 			"| --- | --- |",
 			"| Full attack | No |",
-			"| Charge[^4] | No |",
+			"| Charge[^2] | No |",
 			"| Deliver coup de grace | Yes |",
 			"| Escape from a net | Yes |",
 			"| Extinguish flames | No |",
@@ -5142,9 +4851,10 @@
 			"| Run | Yes |",
 			"| Use skill that takes 1 round | Usually |",
 			"| Use a touch spell on up to six friends | Yes |",
-			"| Withdraw[^4] | No |",
+			"| Withdraw[^2] | No |",
+			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^4]: May be taken as a standard action if you are limited to taking only a single action in a round."
+			"[^2]: May be taken as a standard action if you are limited to taking only a single action in a round."
 		],
 		"parent_topics": [
 			"combat",
@@ -5155,17 +4865,15 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		],
 		"subtopics": [
 			"full_attack",
 			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
 			"run",
-			"use_special_ability_2",
-			"withdraw"
+			"withdraw",
+			"other_full-round_actions"
 		]
 	},
 	"full_attack": {
@@ -5192,14 +4900,14 @@
 		"siblings": [
 			"full_attack",
 			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
 			"run",
-			"use_special_ability_2",
-			"withdraw"
+			"withdraw",
+			"other_full-round_actions"
 		]
 	},
 	"cast_a_spell_2": {
 		"name": "Cast a Spell",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
@@ -5224,36 +4932,14 @@
 		"siblings": [
 			"full_attack",
 			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
 			"run",
-			"use_special_ability_2",
-			"withdraw"
-		]
-	},
-	"move_5_feet_through_difficult_terrain": {
-		"name": "Move 5 Feet through Difficult Terrain",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"In some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (a single square). In such a case, you may spend a full-round action to move 5 feet (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"full-round_actions"
-		],
-		"siblings": [
-			"full_attack",
-			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
-			"run",
-			"use_special_ability_2",
-			"withdraw"
+			"withdraw",
+			"other_full-round_actions"
 		]
 	},
 	"run": {
 		"name": "Run",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
@@ -5274,36 +4960,14 @@
 		"siblings": [
 			"full_attack",
 			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
 			"run",
-			"use_special_ability_2",
-			"withdraw"
-		]
-	},
-	"use_special_ability_2": {
-		"name": "Use Special Ability",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"Using a special ability is usually a standard action, but some may be full-round actions, as defined by the ability."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"full-round_actions"
-		],
-		"siblings": [
-			"full_attack",
-			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
-			"run",
-			"use_special_ability_2",
-			"withdraw"
+			"withdraw",
+			"other_full-round_actions"
 		]
 	},
 	"withdraw": {
 		"name": "Withdraw",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
@@ -5326,10 +4990,33 @@
 		"siblings": [
 			"full_attack",
 			"cast_a_spell_2",
-			"move_5_feet_through_difficult_terrain",
 			"run",
-			"use_special_ability_2",
-			"withdraw"
+			"withdraw",
+			"other_full-round_actions"
+		]
+	},
+	"other_full-round_actions": {
+		"name": "Other Full-Round Actions",
+		"tags": "Move 5 Feet through Difficult Terrain Use Special Ability",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"",
+			"In some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (a single square). In such a case, you may spend a full-round action to **move 5 feet** (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally.",
+			"",
+			"**Using a special ability** is usually a standard action, but some may be full-round actions, as defined by the ability."
+		],
+		"parent_topics": [
+			"combat",
+			"actions_in_combat",
+			"full-round_actions"
+		],
+		"siblings": [
+			"full_attack",
+			"cast_a_spell_2",
+			"run",
+			"withdraw",
+			"other_full-round_actions"
 		]
 	},
 	"free_actions": {
@@ -5342,13 +5029,15 @@
 			"",
 			"| Free Action | Attack of Opportunity[^1] |",
 			"| --- | --- |",
-			"| Cease concentration on a spell | No |",
-			"| Drop an item | No |",
-			"| Drop to the floor | No |",
-			"| Prepare spell components to cast spell[^5] | No |",
-			"| Speak | No |",
+			"| Ceasing concentration on a spell | No |",
+			"| Dropping an item in your space or into an adjacent square | No |",
+			"| Dropping to a prone position in your space | No |",
+			"| Prepare spell components to cast spell[^2] | No |",
+			"| Speak[^3] | No |",
+			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^5]: Unless the component is an extremely large or awkward item."
+			"[^2]: Unless the component is an extremely large or awkward item.",
+			"[^3]: In general, speaking is a free action that you can perform even when it isn't your turn. Speaking more than a few sentences is generally beyond the limit of a free action."
 		],
 		"parent_topics": [
 			"combat",
@@ -5359,154 +5048,33 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
-		],
-		"subtopics": [
-			"cease_concentration_on_spell",
-			"drop_an_item",
-			"drop_prone",
-			"speak"
 		]
 	},
-	"cease_concentration_on_spell": {
-		"name": "Cease Concentration on Spell",
+	"swift_and_immediate_actions": {
+		"name": "Swift and Immediate Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
 			"",
-			"You can stop concentrating on a spell as a free action."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"free_actions"
-		],
-		"siblings": [
-			"cease_concentration_on_spell",
-			"drop_an_item",
-			"drop_prone",
-			"speak"
-		]
-	},
-	"drop_an_item": {
-		"name": "Drop an Item",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"Dropping an item in your space or into an adjacent square is a free action."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"free_actions"
-		],
-		"siblings": [
-			"cease_concentration_on_spell",
-			"drop_an_item",
-			"drop_prone",
-			"speak"
-		]
-	},
-	"drop_prone": {
-		"name": "Drop Prone",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"Dropping to a prone position in your space is a free action."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"free_actions"
-		],
-		"siblings": [
-			"cease_concentration_on_spell",
-			"drop_an_item",
-			"drop_prone",
-			"speak"
-		]
-	},
-	"speak": {
-		"name": "Speak",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"In general, speaking is a free action that you can perform even when it isn't your turn. Speaking more than a few sentences is generally beyond the limit of a free action."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"free_actions"
-		],
-		"siblings": [
-			"cease_concentration_on_spell",
-			"drop_an_item",
-			"drop_prone",
-			"speak"
-		]
-	},
-	"swift_actions": {
-		"name": "Swift Actions",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
-			"",
-			"A swift action consumes a very small amount of time, but represents a larger expenditure of effort than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. You can, however, perform only one single swift action per turn, regardless of what other actions you take. You can take a swift action anytime you would normally be allowed to take a free action. Swift actions usually involve spellcasting, activating a feat, or the activation of magic items.",
+			"A **swift action** consumes a very small amount of time, but represents a larger expenditure of effort than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. You can, however, perform only one single swift action per turn, regardless of what other actions you take. You can take a swift action anytime you would normally be allowed to take a free action. Swift actions usually involve spellcasting, activating a feat, or the activation of magic items.",
 			"",
 			"| Swift Action | Attack of Opportunity[^1] |",
 			"| --- | --- |",
-			"| Cast a quickened spell | No |",
-			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat"
-		],
-		"siblings": [
-			"standard_actions",
-			"move_actions",
-			"full-round_actions",
-			"free_actions",
-			"swift_actions",
-			"immediate_actions",
-			"miscellaneous_actions"
-		],
-		"subtopics": [ "cast_a_quickened_spell" ]
-	},
-	"cast_a_quickened_spell": {
-		"name": "Cast a Quickened Spell",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"| Cast a quickened spell[^2] | No |",
 			"",
-			"You can cast a quickened spell (see the [Quicken Spell](feat/quicken_spell) feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"swift_actions"
-		],
-		"siblings": [ "cast_a_quickened_spell" ]
-	},
-	"immediate_actions": {
-		"name": "Immediate Actions",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
-			"",
-			"Much like a swift action, an immediate action consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time-even if it's not your turn. Casting feather fall is an immediate action, since the spell can be cast at any time.",
+			"Much like a swift action, an **immediate action** consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time-even if it's not your turn. Casting feather fall is an immediate action, since the spell can be cast at any time.",
 			"",
 			"Using an immediate action on your turn is the same as using a swift action and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are flat-footed.",
 			"",
-			"| Immediate Action | Attack of Opportunity[^1] |",
+			"| Immediate Action | Attack of Opportunity[^3] |",
 			"| --- | --- |",
-			"| Cast feather fall | No |",
-			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity."
+			"| Cast [feather fall](spell/feather_fall) | No |",
+			"",
+			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
+			"[^2]: You can cast a quickened spell (see the [Quicken Spell](feat/quicken_spell) feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity.",
+			"[^3]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity."
 		],
 		"parent_topics": [
 			"combat",
@@ -5517,34 +5085,30 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		]
 	},
 	"miscellaneous_actions": {
 		"name": "Miscellaneous Actions",
+		"tags": "delay take 5-foot step perform combat maneuver use feat use skill",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
 			"",
 			"The following actions take a variable amount of time to accomplish or otherwise work differently than other actions.",
 			"",
-			"| No Action | Attack of Opportunity[^1] |",
+			"| Action | Attack of Opportunity[^1] |",
 			"| --- | --- |",
-			"| Delay | No |",
+			"| [Delay](rule/delay) | No |",
 			"| 5-foot step | No |",
-			"",
-			"### Magical Light Sources",
-			"",
-			"| Action Type Varies | Attack of Opportunity[^1] |",
-			"| --- | --- |",
-			"| Perform a combat maneuver[^6] | Yes |",
-			"| Use feat[^7] | Varies |",
+			"| Perform a combat maneuver[^2] | Yes |",
+			"| Use feat[^3] or skill[^4] | Varies |",
 			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^6]: Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.",
-			"[^7]: The description of a feat defines its effect."
+			"[^2]: Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.",
+			"[^3]: Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them.",
+			"[^4]: Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely. The individual skill descriptions tell you what sorts of actions are required to perform skills."
 		],
 		"parent_topics": [
 			"combat",
@@ -5555,14 +5119,11 @@
 			"move_actions",
 			"full-round_actions",
 			"free_actions",
-			"swift_actions",
-			"immediate_actions",
+			"swift_and_immediate_actions",
 			"miscellaneous_actions"
 		],
 		"subtopics": [
-			"take_5-foot_step",
-			"use_feat",
-			"use_skill"
+			"take_5-foot_step"
 		]
 	},
 	"take_5-foot_step": {
@@ -5571,7 +5132,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
 			"",
-			"You can move 5 feet in any round when you don't perform any other kind of movement. Taking this 5-foot step never provokes an attack of opportunity. You can't take more than one 5-foot step in a round, and you can't take a 5-foot step in the same round that you move any distance. You can take a 5-foot step before, during, or after your other actions in the round.",
+			"You can move 5 feet in any round when you don't perform any other kind of movement. Taking this **5-foot step** never provokes an attack of opportunity. You can't take more than one 5-foot step in a round, and you can't take a 5-foot step in the same round that you move any distance. You can take a 5-foot step before, during, or after your other actions in the round.",
 			"",
 			"You can only take a 5-foot-step if your movement isn't hampered by difficult terrain or darkness. Any creature with a speed of 5 feet or less can't take a 5-foot step, since moving even 5 feet requires a move action for such a slow creature.",
 			"",
@@ -5583,49 +5144,7 @@
 			"miscellaneous_actions"
 		],
 		"siblings": [
-			"take_5-foot_step",
-			"use_feat",
-			"use_skill"
-		]
-	},
-	"use_feat": {
-		"name": "Use Feat",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
-			"",
-			"Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"miscellaneous_actions"
-		],
-		"siblings": [
-			"take_5-foot_step",
-			"use_feat",
-			"use_skill"
-		]
-	},
-	"use_skill": {
-		"name": "Use Skill",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
-			"",
-			"Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely.",
-			"",
-			"The individual skill descriptions tell you what sorts of actions are required to perform skills."
-		],
-		"parent_topics": [
-			"combat",
-			"actions_in_combat",
-			"miscellaneous_actions"
-		],
-		"siblings": [
-			"take_5-foot_step",
-			"use_feat",
-			"use_skill"
+			"take_5-foot_step"
 		]
 	},
 	"injury_and_death": {

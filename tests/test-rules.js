@@ -25,7 +25,7 @@ const rules = {
 function isGood(value) {
 	const msg = [ "\n...beginning test: [rules]\n" ];
 	let found = false;
-	if(Object.entries(value).some(([prop, value]) => {
+	if(!Object.entries(value).some(([prop, value]) => {
 		const test = value;
 		if(
 			!test
@@ -108,14 +108,13 @@ function isGood(value) {
 		}
 		return false;
 	})) {
-		return;
-	}
-	msg.push("Test passed.");
-	return msg;
+		msg.push("Test passed.");
+	} else { found = true; }
+	return [found, "rules", msg];
 }
 
 // isGood(rules);
 
-const rulesTest = () => isGood(rules).join("\n");
+const rulesTest = () => isGood(rules);
 
 export default rulesTest;

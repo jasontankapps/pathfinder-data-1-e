@@ -235,12 +235,12 @@ function isGood(object, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, what, msg];
 }
 
 // basics.forEach((data, i) => isGood(data, whats[i]));
 
-const basicsTest = () => basics.map((data, i) => isGood(data, whats[i]).join("\n")).join("\n");
+const basicsTest = () => basics.map((data, i) => isGood(data, whats[i]));
 
 export default basicsTest;

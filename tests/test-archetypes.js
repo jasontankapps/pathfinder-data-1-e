@@ -56,50 +56,50 @@ const arch = [
 ];
 
 const whats = [
-	"archetypes_COMPANION.json",
-	"archetypes_FAMILIAR.json",
-	"archetypes_alchemist.json",
-	"archetypes_antipaladin.json",
-	"archetypes_arcanist.json",
-	"archetypes_barbarian.json",
-	"archetypes_bard.json",
-	"archetypes_bloodrager.json",
-	"archetypes_brawler.json",
-	"archetypes_cavalier.json",
-	"archetypes_cleric.json",
-	"archetypes_druid.json",
-	"archetypes_fighter.json",
-	"archetypes_gunslinger.json",
-	"archetypes_hunter.json",
-	"archetypes_inquisitor.json",
-	"archetypes_investigator.json",
-	"archetypes_kineticist.json",
-	"archetypes_magus.json",
-	"archetypes_medium.json",
-	"archetypes_mesmerist.json",
-	"archetypes_monk.json",
-	"archetypes_monk_UC.json",
-	"archetypes_ninja.json",
-	"archetypes_occultist.json",
-	"archetypes_oracle.json",
-	"archetypes_paladin.json",
-	"archetypes_psychic.json",
-	"archetypes_ranger.json",
-	"archetypes_rogue.json",
-	"archetypes_samurai.json",
-	"archetypes_shaman.json",
-	"archetypes_shifter.json",
-	"archetypes_skald.json",
-	"archetypes_slayer.json",
-	"archetypes_sorcerer.json",
-	"archetypes_spiritualist.json",
-	"archetypes_summoner.json",
-	"archetypes_summoner_UC.json",
-	"archetypes_swashbuckler.json",
-	"archetypes_vigilante.json",
-	"archetypes_warpriest.json",
-	"archetypes_witch.json",
-	"archetypes_wizard.json"
+	"animal companion archetypes",
+	"familiar archetypes",
+	"alchemist archetypes",
+	"antipaladin archetypes",
+	"arcanist archetypes",
+	"barbarian archetypes",
+	"bard archetypes",
+	"bloodrager archetypes",
+	"brawler archetypes",
+	"cavalier archetypes",
+	"cleric archetypes",
+	"druid archetypes",
+	"fighter archetypes",
+	"gunslinger archetypes",
+	"hunter archetypes",
+	"inquisitor archetypes",
+	"investigator archetypes",
+	"kineticist archetypes",
+	"magus archetypes",
+	"medium archetypes",
+	"mesmerist archetypes",
+	"monk archetypes",
+	"unchained monk archetypes",
+	"ninja archetypes",
+	"occultist archetypes",
+	"oracle archetypes",
+	"paladin archetypes",
+	"psychic archetypes",
+	"ranger archetypes",
+	"rogue archetypes",
+	"samurai archetypes",
+	"shaman archetypes",
+	"shifter archetypes",
+	"skald archetypes",
+	"slayer archetypes",
+	"sorcerer archetypes",
+	"spiritualist archetypes",
+	"summoner archetypes",
+	"unchained summoner archetypes",
+	"swashbuckler archetypes",
+	"vigilante archetypes",
+	"warpriest archetypes",
+	"witch archetypes",
+	"wizard archetypes"
 ];
 
 function isGood(value, what) {
@@ -133,11 +133,11 @@ function isGood(value, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, what, msg];
 }
 
 // isGood(arch);
-const archTest = () => arch.map((a, i) => isGood(a, whats[i]).join("\n")).join("\n");
+const archTest = () => arch.map((a, i) => isGood(a, whats[i]));
 
 export default archTest;

@@ -164,12 +164,12 @@ function isGood(object, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, what, msg];
 }
 
 // equipment.forEach((data, i) => isGood(data, whats[i]));
 
-const equipTest = () => equipment.map((data, i) => isGood(data, whats[i]).join("\n")).join("\n");
+const equipTest = () => equipment.map((data, i) => isGood(data, whats[i]));
 
 export default equipTest;

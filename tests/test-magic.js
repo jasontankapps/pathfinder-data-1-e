@@ -35,6 +35,17 @@ import magic_wondrous7 from '../src/json/magic_wondrous7.json' assert {type: 'js
 
 const magic = [
 	magic_armor,
+	{...magic_artifact1, ...magic_artifact2},
+	magic_enhancements,
+	magic_ioun_stones,
+	magic_ring,
+	magic_rod,
+	magic_staff,
+	{...magic_weapon1, ...magic_weapon2},
+	{
+		...magic_wondrous1, ...magic_wondrous2, ...magic_wondrous3, ...magic_wondrous4, ...magic_wondrous5,
+		...magic_wondrous6, ...magic_wondrous7
+	},
 	{
 		...magic_altar,
 		...magic_demonic_implants,
@@ -53,31 +64,20 @@ const magic = [
 		...magic_set,
 		...magic_throne,
 		...magic_tattoo,
-	},
-	{...magic_artifact1, ...magic_artifact2},
-	magic_enhancements,
-	magic_ioun_stones,
-	magic_ring,
-	magic_rod,
-	magic_staff,
-	{...magic_weapon1, ...magic_weapon2},
-	{
-		...magic_wondrous1, ...magic_wondrous2, ...magic_wondrous3, ...magic_wondrous4, ...magic_wondrous5,
-		...magic_wondrous6, ...magic_wondrous7
 	}
 ];
 
 const whats = [
-	"magic_armor",
-	"magic_misc",
-	"magic_artifact",
-	"magic_enhancements",
-	"magic_ioun_stones",
-	"magic_ring",
-	"magic_rod",
-	"magic_staff",
-	"magic_weapon",
-	"magic_wondrous"
+	"magic armor",
+	"artifacts",
+	"magical enhancements",
+	"ioun stones",
+	"magic rings",
+	"magic rods",
+	"magic staves",
+	"magic weapons",
+	"wondrous items",
+	"misc. magic items"
 ];
 
 function getCopyOf (object, copiedProp, etc, counter = 0) {
@@ -200,13 +200,13 @@ function isGood(object, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, what, msg];
 }
 
 // magic.forEach((data, i) => isGood(data, whats[i]));
 
-const magicTest = () => magic.map((data, i) => isGood(data, whats[i]).join("\n")).join("\n");
+const magicTest = () => magic.map((data, i) => isGood(data, whats[i]));
 
 export default magicTest;
 

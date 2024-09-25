@@ -124,6 +124,10 @@ div.basicContent ion-list ion-item.mainItem.singleTable {
 
 div.tableWrap {
 	overflow-x: auto;
+	width: 100%;
+}
+div.tableWrap table {
+	margin: 0 auto;
 }
 table tr td {
 	/* This is so linked cells will ripple */

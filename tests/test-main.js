@@ -132,12 +132,12 @@ function isGood(value) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, "\"Main\" files", msg];
 }
 
 // isGood(main);
 
-const mainTest = () => isGood(main).join("\n");
+const mainTest = () => isGood(main);
 
 export default mainTest;

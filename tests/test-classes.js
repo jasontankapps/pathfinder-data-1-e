@@ -90,12 +90,12 @@ function isGood(value) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	}
-	return msg;
+	} else { found = true; }
+	return [found, "all PC classes", msg];
 }
 
 // isGood(classes);
 
-const classTest = () => isGood(classes).join("\n");
+const classTest = () => isGood(classes);
 
 export default classTest;
