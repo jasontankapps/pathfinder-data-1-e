@@ -3912,7 +3912,7 @@
 			"**Duration** concentration, up to 10 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like detect evil, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful."
+			"This spell functions like [detect evil](spell/detect_evil), except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful."
 		]
 	},
 	"detect_charm": {
@@ -3939,7 +3939,7 @@
 			"**Duration** concentration, up to 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as per detect magic, except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see [Spellcraft](skill/spellcraft)). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area)."
+			"This spell functions as per [detect magic](spell/detect_magic), except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see [Spellcraft](skill/spellcraft)). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area)."
 		]
 	},
 	"detect_demon": {
@@ -3973,7 +3973,7 @@
 			"",
 			"*3rd Round:* The power and location of each aura, and what demon lord, if any, a demon is most closely affiliated with. If an aura is outside your line of sight, you discern the direction but not its exact location. Affiliation to a demon lord is only revealed when the creature detected is a demon (not merely a creature tainted by a demon). Demons receive a Will saving throw to resist revealing what demon lord they are affiliated with. If the demon succeeds at this saving throw or is not forsworn to a demon lord, you know only that this aspect of the spell returned no information.",
 			"",
-			"Aside from what is detailed above, this spell otherwise functions similarly to detect evil in terms of aura power, lingering auras, overwhelming auras, and so forth."
+			"Aside from what is detailed above, this spell otherwise functions similarly to [detect evil](spell/detect_evil) in terms of aura power, lingering auras, overwhelming auras, and so forth."
 		]
 	},
 	"detect_desires": {
@@ -4060,7 +4060,7 @@
 			"**Duration** concentration, up to 10 minutes/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like detect evil, except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including Asmodeus, archdevils, daemonic harbingers, and demon lords."
+			"This spell functions like [detect evil](spell/detect_evil), except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including Asmodeus, archdevils, daemonic harbingers, and demon lords."
 		]
 	},
 	"detect_good": {
@@ -4084,7 +4084,7 @@
 			"**Duration** concentration, up to 10 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like detect evil, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil."
+			"This spell functions like [detect evil](spell/detect_evil), except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil."
 		]
 	},
 	"detect_law": {
@@ -4108,7 +4108,7 @@
 			"**Duration** concentration, up to 10 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like detect evil, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic."
+			"This spell functions like [detect evil](spell/detect_evil), except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic."
 		]
 	},
 	"detect_magic": {
@@ -5173,7 +5173,7 @@
 			"**Target** you  ",
 			"**Duration** 1 hour/level",
 			"",
-			"You can avoid being detected when you are on the edges of some divination spells' ranges. Whenever you would normally be within the area of effect of a detection spell (such as detect magic, detect evil, or detect undead), the area of effect is reduced by half for the purposes of the spell's caster detecting you or your possessions. The caster of the detect spell is unaware of this reduction in her spell's range; she simply does not detect you."
+			"You can avoid being detected when you are on the edges of some divination spells' ranges. Whenever you would normally be within the area of effect of a detection spell (such as [detect magic](spell/detect_magic), [detect evil](spell/detect_evil), or [detect undead](spell/detect_undead)), the area of effect is reduced by half for the purposes of the spell's caster detecting you or your possessions. The caster of the detect spell is unaware of this reduction in her spell's range; she simply does not detect you."
 		]
 	},
 	"dirge_of_the_victorious_knights": {
@@ -7586,7 +7586,7 @@
 			"",
 			"Legends say that the first eaglesoul spell was created when an agathion avoral joined his own spirit with that of a courageous paladin who was about to be overwhelmed on the field of battle. The holy knight used the combined might of the agathion's great strength and his own to win the day for the crusaders. Now, although the spell is still in use chiefly among those that patrol the borders of the Worldwound, other champions of good have carried it with them to all corners of the Inner Sea region.",
 			"",
-			"When you cast this spell, you reach into the great beyond and beseech a good-aligned outsider for their aid against evil. The outsider infuses a small portion of its own power into you, making you a powerful force for good. You gain a +2 morale bonus on all Perception checks made against evil creatures, a +2 bonus on Initiative checks, and detect evil as a constant spell-like ability.",
+			"When you cast this spell, you reach into the great beyond and beseech a good-aligned outsider for their aid against evil. The outsider infuses a small portion of its own power into you, making you a powerful force for good. You gain a +2 morale bonus on all Perception checks made against evil creatures, a +2 bonus on Initiative checks, and [detect evil](spell/detect_evil) as a constant spell-like ability.",
 			"",
 			"In addition, once during the spell's duration you can call forth a surge of holy power when fighting an evil creature. Doing so is a swift action that shortens the spell's remaining duration so that its remaining hours of duration become rounds of duration. For the rest of this duration, the surge of power grants you the following benefits:",
 			"",

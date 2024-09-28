@@ -405,7 +405,7 @@
 			"",
 			"*Torag's Boon (Su):* As a standard action, you can call upon Torag's protection to form a shield around you that blocks incoming attacks for a number of minutes equal to 1/2 your oracle level (minimum 1). The shield grants a +4 deflection bonus to your Armor Class. At 7th level, and again at 11th level and 15th level, this bonus increases by +1. At 19th level, the shield also grants you DR 2/chaos. The shield's duration does not need to be consecutive, but it must be spent in 1-minute increments.",
 			"",
-			"*Final Revelation:* Upon reaching 20th level, you can cast detect chaos, detect law, and discern lies at will as spell-like abilities, using your oracle level as your caster level. You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus increases by 5. Once per day, you can cast crushing hand as a spell-like ability without requiring a focus component, treating your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet."
+			"*Final Revelation:* Upon reaching 20th level, you can cast [detect chaos](spell/detect_chaos), [detect law](spell/detect_law), and [discern lies](spell/discern_lies) at will as spell-like abilities, using your oracle level as your caster level. You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus increases by 5. Once per day, you can cast crushing hand as a spell-like ability without requiring a focus component, treating your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet."
 		]
 	},
 	"heavens": {

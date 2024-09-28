@@ -1,6 +1,6 @@
 import { SourceProp } from "./components/SourcesModal";
 
-export type Datum = string | number | [ number, string ] | [ string, string ];
+export type Datum = string | number | [ number, string ] | [ string, string ] | [ string, string, string ];
 
 export type RawDatum = null | Datum;
 
@@ -34,6 +34,8 @@ export interface Table {
 	className: string
 	// cells that are only going to contain links
 	ripples?: number[]
+	// some tables do not need sorting information (defaults to true)
+	sortable?: boolean
 }
 
 export interface DisplayItemProps {

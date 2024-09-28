@@ -100,12 +100,21 @@ function isGood(value) {
 										&& typeof bit !== "number"
 										&& (
 											!Array.isArray(bit)
-											|| bit.length !== 2
-											|| typeof bit[1] !== "string"
 											|| (
-												typeof bit[0] !== "string"
-												&& typeof bit[0] !== "number"
-										))
+												bit.length === 2 ? (
+													typeof bit[1] !== "string"
+													|| (
+														typeof bit[0] !== "string"
+														&& typeof bit[0] !== "number"
+													)
+												) : (
+													bit.length === 3 ? (
+														typeof bit[2] !== "string"
+														|| typeof bit[1] !== "string"
+													) : true
+												)
+											)
+										)
 									) {
 										found = true;
 										msg.push(`Invalid "main" entry at ${prop}.tables[${i}][${j}][${k}] -> ${line}`);

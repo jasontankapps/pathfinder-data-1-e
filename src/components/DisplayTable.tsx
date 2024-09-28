@@ -2,7 +2,7 @@ import { AnchorHTMLAttributes, ClassAttributes, FC, PropsWithChildren, useCallba
 import { IonIcon, IonRippleEffect } from '@ionic/react';
 import { caretDown, caretUp, ellipse } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 
@@ -20,7 +20,10 @@ interface ThProps {
 interface TdProps {
 	datum: Datum
 	type: TableColumnInfoTypes
-	hasRipple: boolean
+}
+
+interface TdRouterLinkProps {
+	datum: Datum
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -109,7 +112,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	);
 };
 
-const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
+const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 	let text = "";
 	const [ test, output ] = Array.isArray(datum) ? datum : [ datum, datum ];
 	switch(type) {
@@ -173,15 +176,29 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, hasRipple }) => {
 			text = typeof output === "string" ? output : String(output);
 	}
 	return (
-		<td className={hasRipple ? "ion-activatable" : ""}>
+		<td>
 			<Markdown components={components}>{text}</Markdown>
-			{hasRipple? <IonRippleEffect /> : <></>}
+		</td>
+	);
+};
+
+const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
+	const history = useHistory();
+	// datum will be either [ linkString, text ] or [ sortString, linkString, text ]
+	const [ one, two, three ] = Array.isArray(datum) ? datum : [ "", `MISSING LINK: ${datum}` ];
+	const link = three ? two : one;
+	const output = three || two;
+	const click = useCallback(() => history.push(`/${link}`), []);
+	return (
+		<td className="ion-activatable cell-link" onClick={click}>
+			{output}
+			<IonRippleEffect />
 		</td>
 	);
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
-	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;", ripples = [] } = table;
+	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;", ripples = [], sortable = true } = table;
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
 	const sorter: TriggerSortFunc = useCallback((index, descending) => {
@@ -203,17 +220,22 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			initialSort={i === initialColumn}
 			active={i === active}
 			sorter={sorter}
-			sortable={types[i] !== 0}
+			sortable={sortable && (types[i] !== 0)}
 		>{th}</Th>;
 	}), [headers, id, initialColumn, sorter, active]);
 	const rowItems = useMemo(() => rows.map((row, i) => {
 		const cells = row.map((cell, j) => {
-			return <Td
-				type={types[j]}
-				datum={cell === null ? nullValue : cell}
-				key={`table/${id}/row/${i}/cell/${j}`}
-				hasRipple={ripples.indexOf(j) > -1}
-			/>;
+			return (ripples.indexOf(j) > -1) ?
+				<TdRouterLink
+					datum={cell === null ? nullValue : cell}
+					key={`table/${id}/row/${i}/cell/${j}`}
+				/>
+			:
+				<Td
+					type={types[j]}
+					datum={cell === null ? nullValue : cell}
+					key={`table/${id}/row/${i}/cell/${j}`}
+				/>;
 		});
 		return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 	}), [rows, types, nullValue, id, ripples]);

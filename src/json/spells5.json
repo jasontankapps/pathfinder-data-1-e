@@ -3300,7 +3300,7 @@
 			"",
 			"This subtle but useful spell allows you to safeguard important knowledge-even from yourself. While casting this spell, you recite one piece of knowledge (up to a maximum of 50 words). Upon completion of the spell's casting, you transfer the knowledge from your mind to your skin in the form of an intricate, runic tattoo placed anywhere you choose on your body. The knowledge disappears utterly from your mind, and you might not realize you forgot something. The magic of the spell patches over gaps in your memory with recollections from the past. Until the spell's duration ends, the knowledge is lost to you. When you cast this spell, you decide how long you wish the spell's duration to be, up to a maximum duration of 1 day per level.",
 			"",
-			"Many Cyphermages commission nonmagical tattoos to disguise the effects of this spell. A detect magic spell or a successful Linguistics or Spellcraft check (DC 20 + your Intelligence modifier) reveals an enchanted tattoo, but not its contents. The effects of hidden knowledge can be dispelled normally, in which case the knowledge is completely lost."
+			"Many Cyphermages commission nonmagical tattoos to disguise the effects of this spell. A [detect magic](spell/detect_magic) spell or a successful Linguistics or Spellcraft check (DC 20 + your Intelligence modifier) reveals an enchanted tattoo, but not its contents. The effects of hidden knowledge can be dispelled normally, in which case the knowledge is completely lost."
 		]
 	},
 	"hidden_presence": {
@@ -5347,7 +5347,7 @@
 			"**Duration** 3 rounds/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as detect magic, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts."
+			"This spell functions as [detect magic](spell/detect_magic), except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts."
 		]
 	},
 	"ignoble_form": {
@@ -5744,7 +5744,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** yes",
 			"",
-			"You infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target's actual alignment is not changed, but spells like detect evil or detect good detect only the aura, not the creature's actual alignment. For the duration of this spell, effects influenced by the target's alignment function according to the imposed aura, not the creature's actual aura. When the spell ends, the target's aura returns to normal, and alignment-affecting magic affects it according to its actual alignment."
+			"You infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target's actual alignment is not changed, but spells like [detect evil](spell/detect_evil) or [detect good](spell/detect_good) detect only the aura, not the creature's actual alignment. For the duration of this spell, effects influenced by the target's alignment function according to the imposed aura, not the creature's actual aura. When the spell ends, the target's aura returns to normal, and alignment-affecting magic affects it according to its actual alignment."
 		]
 	},
 	"imbue_with_elemental_might": {
@@ -7712,7 +7712,7 @@
 			"",
 			"**Source** [Mythic Adventures pg. 99](source/mythic_adventures)",
 			"",
-			"The invisible target can't be detected with detect magic or other spells that detect magic auras. The invisibility can't be penetrated, revealed, or dispelled by spells of 2nd level or lower (such as see invisibility or glitterdust), though true seeing and dust of appearance can reveal the invisible target's presence.",
+			"The invisible target can't be detected with [detect magic](spell/detect_magic) or other spells that detect magic auras. The invisibility can't be penetrated, revealed, or dispelled by spells of 2nd level or lower (such as see invisibility or glitterdust), though true seeing and dust of appearance can reveal the invisible target's presence.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the invisible target is undetectable by blindsense, blindsight, scent, and tremorsense.",
 			"",

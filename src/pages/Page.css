@@ -157,6 +157,10 @@ table tr td {
 table tr td a {
 	text-decoration: none;
 }
+table tr td.cell-link {
+	color: var(--ion-color-primary);
+	cursor: pointer;
+}
 table,
 table.faiths tr td:nth-child(3),
 table.traits tr td:nth-child(2) {

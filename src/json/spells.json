@@ -2097,13 +2097,13 @@
 			"",
 			"You peer into the aura of one target creature or object, gaining valuable information about its condition and nature. Each round, choose one of the target's four auras. This spell functions similarly to the read aura occult skill unlock, but doesn't require checks and returns results on all the target's auras in an instant.",
 			"",
-			"*Alignment Aura:* You study the target's spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as detect evil.",
+			"*Alignment Aura:* You study the target's spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as [detect evil](spell/detect_evil).",
 			"",
 			"*Emotion Aura:* The colors playing within the target's aura reveal its emotional state, granting valuable insight into its psyche. You learn a general summary of the target's current disposition, as well as its attitude toward any other creatures within 30 feet of it. For the duration of the spell and for 1 hour afterward, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks you attempt against the target. Objects do not have emotion auras, except intelligent weapons and similar sentient oddities.",
 			"",
 			"*Health Aura:* The flow of vital force animating the target becomes plainly visible, giving you insight into its physical condition. You know whether the target is unharmed or wounded, whether it is poisoned or diseased, and whether it is under any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, or unconscious. Further, your insight into the overall strength of the target's vital force reveals the total number of points available in its ki pool, grit pool, or similar resource. Objects and most undead creatures don't have health auras.",
 			"",
-			"*Magic Aura:* You determine the number and power of all magical auras on the target (as detect magic to determine a magic aura's power), as well as the school of each aura. You can attempt Knowledge (arcana) or Spellcraft skill checks to determine the school or identify properties of a magic item, as normal. If cast on an item, analyze aura cuts through the obfuscation of the magic aura spell."
+			"*Magic Aura:* You determine the number and power of all magical auras on the target (as [detect magic](spell/detect_magic) to determine a magic aura's power), as well as the school of each aura. You can attempt Knowledge (arcana) or Spellcraft skill checks to determine the school or identify properties of a magic item, as normal. If cast on an item, analyze aura cuts through the obfuscation of the magic aura spell."
 		]
 	},
 	"analyze_dweomer": {
@@ -4064,7 +4064,7 @@
 			"",
 			"This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns aura location and power more quickly.",
 			"",
-			"You know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the detect magic spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a non-spell effect.)",
+			"You know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the [detect magic](spell/detect_magic) spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a non-spell effect.)",
 			"",
 			"If you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use.",
 			"",
@@ -5213,7 +5213,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level (D)",
 			"",
-			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a detect chaos/evil/good/law spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
+			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a [detect chaos](spell/detect_chaos)/evil/good/law spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
 			"",
 			"You know the location and power of all chaotic, evil, good, and lawful auras within your sight. An aura's power depends on a creature's Hit Dice or an item's caster level, as noted in the description of the detect evil spell. If an item or a creature bearing an aura is in line of sight, you can attempt a Knowledge (religion) check to determine the aura's strength (one check per aura; DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect).",
 			"",
@@ -5240,7 +5240,7 @@
 			"**Effect** see text  ",
 			"**Duration** 1 minute/level",
 			"",
-			"Your understanding of the written word becomes analytical and discerning. You gain an insight bonus equal to your caster level (maximum +10) on Appraise checks to determine the value of books and scrolls and on Linguistics checks to detect forgeries, and you can attempt a Linguistics check to detect a forged document at a glance, rather than taking the normal 1 round of examination per page. In addition, you immediately detect whether written works within 30 feet and within your line of sight have a magical aura and the strength of any such auras, as though you had concentrated on each written work for 1 round using detect magic."
+			"Your understanding of the written word becomes analytical and discerning. You gain an insight bonus equal to your caster level (maximum +10) on Appraise checks to determine the value of books and scrolls and on Linguistics checks to detect forgeries, and you can attempt a Linguistics check to detect a forged document at a glance, rather than taking the normal 1 round of examination per page. In addition, you immediately detect whether written works within 30 feet and within your line of sight have a magical aura and the strength of any such auras, as though you had concentrated on each written work for 1 round using [detect magic](spell/detect_magic)."
 		]
 	},
 	"aversion": {
@@ -6671,7 +6671,7 @@
 			"**Duration** 1 round/level (see text)  ",
 			"**Saving Throw** yes (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You channel the power of good and law into the target, temporarily giving it powers similar to those of a paladin. The target gains the ability to use detect evil at will as a spell-like ability, immunity to disease (suppressing any diseases currently affecting it), and immunity to fear (ending any fear effects currently affecting it); can lay on hands (on itself only) once as a paladin of 1/2 your caster level; and can smite evil once as a paladin of 1/2 your caster level. It adds its Charisma bonus to all its saving throws. It can use spell completion, spell trigger, or other magic items that require the ability to cast spells as a paladin. Any abilities not used by the time the spell expires are lost. This spell has no effect if cast on a paladin."
+			"You channel the power of good and law into the target, temporarily giving it powers similar to those of a paladin. The target gains the ability to use [detect evil](spell/detect_evil) at will as a spell-like ability, immunity to disease (suppressing any diseases currently affecting it), and immunity to fear (ending any fear effects currently affecting it); can lay on hands (on itself only) once as a paladin of 1/2 your caster level; and can smite evil once as a paladin of 1/2 your caster level. It adds its Charisma bonus to all its saving throws. It can use spell completion, spell trigger, or other magic items that require the ability to cast spells as a paladin. Any abilities not used by the time the spell expires are lost. This spell has no effect if cast on a paladin."
 		]
 	},
 	"bestow_insight": {

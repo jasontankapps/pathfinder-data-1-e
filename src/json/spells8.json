@@ -5681,7 +5681,7 @@
 			"",
 			"If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.",
 			"",
-			"As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, and message.",
+			"As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), and [message](spell/message).",
 			"",
 			"If the save succeeds, you can't attempt to scry on that subject again for at least 24 hours.",
 			"",
@@ -5702,7 +5702,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, message, read magic, and tongues.",
+			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), [message](spell/message), [read magic](spell/read_magic), and [tongues](spell/tongues).",
 			"",
 			"[^N]: You must have some sort of connection (see below) to a creature of which you have no knowledge."
 		]
@@ -6836,7 +6836,7 @@
 			"**Duration** concentration, up to 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of [madness](rule/madness) or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score,_edge,_and_thresholds), or is under a magical compulsion that could be detected by detect magic, you can detect the presence of such a disturbance on the first round of concentration.",
+			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of [madness](rule/madness) or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score,_edge,_and_thresholds), or is under a magical compulsion that could be detected by [detect magic](spell/detect_magic), you can detect the presence of such a disturbance on the first round of concentration.",
 			"",
 			"If you concentrate on the same creature for an additional round, you learn if the creature's total sanity damage is greater than or equal to its sanity edge, and you can attempt a Sense Motive check against a DC equal to 10 + the save DC of the target's madness or addiction to determine the exact nature of a madness or addiction. Additionally, you can attempt a Spellcraft check with a DC equal to 11 + the caster level of the compulsion against each magical compulsion currently affecting the target that could be detected by detect magic. If successful, you can identify the specific spell affecting the target. You gain a +4 bonus on your Spellcraft check if the effect is confusion, insanity, or a similar effect that explicitly causes madness or insanity. If you successfully identify such an effect with sense madness, the insights provided by this spell grant you a +1 circumstance bonus on your next caster level check in the following 1 minute made to counter, dispel, or remove that specific effect. After attempting a check to identify a madness, addiction, or compulsion, you can't attempt that check against the same creature again, even if you concentrate on the creature again."
 		]

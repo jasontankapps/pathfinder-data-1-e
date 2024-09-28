@@ -91,7 +91,7 @@ function isGood(value) {
 					return true;
 				}
 				const rb = rules[bit];
-				if(!rb.parent_topics || rb.parent_topics.indexOf(prop) < 0) {
+				if(!rb.parent_topics || rb.parent_topics.indexOf(prop) !== (rb.parent_topics.length - 1)) {
 					found = true;
 					msg.push(`${prop}.subtopics => ${bit} is not reciprocal`)
 					return true;
