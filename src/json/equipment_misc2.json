@@ -1,5 +1,5 @@
 {
-	"fetish,_tribal": {
+	"fetish_tribal": {
 		"name": "Fetish, tribal",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
@@ -12,7 +12,7 @@
 		]
 	},
 	"tribal_fetish": {
-		"copyof": "fetish,_tribal"
+		"copyof": "fetish_tribal"
 	},
 	"fetters_common": {
 		"name": "Fetters (common)",
@@ -315,7 +315,7 @@
 			"This net measures 5 feet by 5 feet, and can be used to cover a pit or to block Tiny or larger creatures from entering an area."
 		]
 	},
-	"flag_ensign_or_courtesy,_large": {
+	"flag_ensign_or_courtesy_large": {
 		"name": "Flag (ensign or courtesy, large)",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
@@ -331,31 +331,31 @@
 		]
 	},
 	"large_flag_ensign_or_courtesy": {
-		"copyof": "flag_ensign_or_courtesy,_large"
+		"copyof": "flag_ensign_or_courtesy_large"
 	},
-	"flag_ensign_or_courtesy,_small": {
+	"flag_ensign_or_courtesy_small": {
 		"name": "Flag (ensign or courtesy, small)",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"small_flag_ensign_or_courtesy": {
-		"copyof": "flag_ensign_or_courtesy,_small"
+		"copyof": "flag_ensign_or_courtesy_small"
 	},
-	"flag_personal_signal,_large": {
+	"flag_personal_signal_large": {
 		"name": "Flag (personal signal, large)",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"large_flag_personal_signal": {
-		"copyof": "flag_personal_signal,_large"
+		"copyof": "flag_personal_signal_large"
 	},
-	"flag_personal_signal,_small": {
+	"flag_personal_signal_small": {
 		"name": "Flag (personal signal, small)",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"small_flag_personal_signal": {
-		"copyof": "flag_personal_signal,_small"
+		"copyof": "flag_personal_signal_small"
 	},
 	"flag": {
 		"name": "Flag",
@@ -968,16 +968,13 @@
 			"This three-masted ship has 70 oars on either side and requires a total crew of 200. A galley is 130 feet long and 20 feet wide, and can carry 150 tons of cargo or 250 soldiers. For 8,000 gp more, it can be fitted with a ram and firing platforms fore, aft, and amidships. This ship cannot make sea voyages and sticks close to the coast. It moves about 4 miles per hour when being rowed or under sail."
 		]
 	},
-	"galley_travel,_per_mile": {
+	"galley_travel_per_mile": {
 		"name": "Galley (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "galley"
-	},
-	"galley_travel_per_mile": {
-		"copyof": "galley_travel,_per_mile"
 	},
 	"gambeson": {
 		"name": "Gambeson",
@@ -1100,16 +1097,13 @@
 			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require exotic saddles to ride. A riding gecko has the same statistics as a giant gecko with the [giant template](template/giant)."
 		]
 	},
-	"gecko_riding,_combat_trained": {
+	"gecko_riding_combat_trained": {
 		"name": "Gecko (riding, combat trained)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
 		"copyof": "gecko_riding"
-	},
-	"gecko_riding_combat_trained": {
-		"copyof": "gecko_riding,_combat_trained"
 	},
 	"gecko_gloves": {
 		"name": "Gecko gloves",
@@ -1385,7 +1379,7 @@
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Gildea myrrh",
-			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira_jewel_of_the_east)  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -1946,7 +1940,7 @@
 		],
 		"description": [
 			"## Harpy musk",
-			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia,_birthplace_of_legends), [Mythical Monsters Revisited pg. 24](source/mythical_monsters_revisited), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide)  ",
+			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Mythical Monsters Revisited pg. 24](source/mythical_monsters_revisited), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide)  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2211,7 +2205,7 @@
 			"This collection of genealogical tables, descriptions of common traits found in particular noble families, heraldry, scurrilous rumors, and ancestral deeds provides readers with a great deal of insight into the aristocracy. Consulting this book grants a +2 circumstance bonus on Knowledge (nobility) checks."
 		]
 	},
-	"heroka's_saga,_vol._i": {
+	"heroka's_saga_vol_i": {
 		"name": "Heroka's Saga, Vol. I",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
@@ -2229,8 +2223,8 @@
 			"- Identify poisonous flora (Knowledge [nature] +2)"
 		]
 	},
-	"heroka's_saga_vol_i": {
-		"copyof": "heroka's_saga,_vol._i"
+	"heroka's_saga_vol_1": {
+		"copyof": "heroka's_saga_vol_i"
 	},
 	"hide_dye": {
 		"name": "Hide dye",
@@ -2315,7 +2309,7 @@
 			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
-	"hireling_trained,_per_day": {
+	"hireling_trained_per_day": {
 		"name": "Hireling (trained, per day)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2331,10 +2325,7 @@
 			"Typical equipment for a guard or mercenary warrior is studded leather armor and a club, shortsword, or shortspear. Most guards are off-duty soldiers or city watchmen, though some are unskilled laborers with a talent for fighting."
 		]
 	},
-	"hireling_trained_per_day": {
-		"copyof": "hireling_trained,_per_day"
-	},
-	"hireling_untrained,_per_day": {
+	"hireling_untrained_per_day": {
 		"name": "Hireling (untrained, per day)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2342,10 +2333,7 @@
 		],
 		"copyof": "hireling_trained_per_day"
 	},
-	"hireling_untrained_per_day": {
-		"copyof": "hireling_untrained,_per_day"
-	},
-	"hireling,_crier_masterful,_per_day": {
+	"hireling_crier_masterful_per_day": {
 		"name": "Hireling, crier (masterful, per day)",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
@@ -2356,32 +2344,20 @@
 			"A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks. If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers)."
 		]
 	},
-	"hireling_crier_masterful_per_day": {
-		"copyof": "hireling,_crier_masterful,_per_day"
-	},
-	"hireling,_crier_skilled,_per_day": {
+	"hireling_crier_skilled_per_day": {
 		"name": "Hireling, crier (skilled, per day)",
 		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
 	},
-	"hireling_crier_skilled_per_day": {
-		"copyof": "hireling,_crier_skilled,_per_day"
-	},
-	"hireling,_crier_trained,_per_day": {
+	"hireling_crier_trained_per_day": {
 		"name": "Hireling, crier (trained, per day)",
 		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
 	},
-	"hireling_crier_trained_per_day": {
-		"copyof": "hireling,_crier_trained,_per_day"
-	},
-	"hireling,_crier_untrained,_per_day": {
+	"hireling_crier_untrained_per_day": {
 		"name": "Hireling, crier (untrained, per day)",
 		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
-	},
-	"hireling_crier_untrained_per_day": {
-		"copyof": "hireling,_crier_untrained,_per_day"
 	},
 	"hobgoblin_war_draught": {
 		"name": "Hobgoblin war draught",
@@ -2478,7 +2454,7 @@
 			"The bright red berries of the holly tree have many uses as decorations and ritual objects. Druids harvest holly berries with specially prepared tools and during sacred times of the year."
 		]
 	},
-	"holy_symbol_gold,_compartment": {
+	"holy_symbol_gold_compartment": {
 		"name": "Holy symbol (gold, compartment)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2491,25 +2467,25 @@
 		]
 	},
 	"holy_symbol_compartment_gold": {
-		"copyof": "holy_symbol_gold,_compartment"
+		"copyof": "holy_symbol_gold_compartment"
 	},
-	"holy_symbol_iron,_compartment": {
+	"holy_symbol_iron_compartment": {
 		"name": "Holy symbol (iron, compartment)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_iron": {
-		"copyof": "holy_symbol_iron,_compartment"
+		"copyof": "holy_symbol_iron_compartment"
 	},
-	"holy_symbol_platinum,_compartment": {
+	"holy_symbol_platinum_compartment": {
 		"name": "Holy symbol (platinum, compartment)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_platinum": {
-		"copyof": "holy_symbol_platinum,_compartment"
+		"copyof": "holy_symbol_platinum_compartment"
 	},
-	"holy_symbol_silver,_compartment": {
+	"holy_symbol_silver_compartment": {
 		"name": "Holy symbol (silver, compartment)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2518,9 +2494,9 @@
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_silver": {
-		"copyof": "holy_symbol_silver,_compartment"
+		"copyof": "holy_symbol_silver_compartment"
 	},
-	"holy_symbol_wooden,_compartment": {
+	"holy_symbol_wooden_compartment": {
 		"name": "Holy symbol (wooden, compartment)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2529,9 +2505,9 @@
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_wooden": {
-		"copyof": "holy_symbol_wooden,_compartment"
+		"copyof": "holy_symbol_wooden_compartment"
 	},
-	"holy_symbol_gold,_flask": {
+	"holy_symbol_gold_flask": {
 		"name": "Holy symbol (gold, flask)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2544,25 +2520,25 @@
 		]
 	},
 	"holy_symbol_flask_gold": {
-		"copyof": "holy_symbol_gold,_flask"
+		"copyof": "holy_symbol_gold_flask"
 	},
-	"holy_symbol_iron,_flask": {
+	"holy_symbol_iron_flask": {
 		"name": "Holy symbol (iron, flask)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_iron": {
-		"copyof": "holy_symbol_iron,_flask"
+		"copyof": "holy_symbol_iron_flask"
 	},
-	"holy_symbol_platinum,_flask": {
+	"holy_symbol_platinum_flask": {
 		"name": "Holy symbol (platinum, flask)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_platinum": {
-		"copyof": "holy_symbol_platinum,_flask"
+		"copyof": "holy_symbol_platinum_flask"
 	},
-	"holy_symbol_silver,_flask": {
+	"holy_symbol_silver_flask": {
 		"name": "Holy symbol (silver, flask)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2571,9 +2547,9 @@
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_silver": {
-		"copyof": "holy_symbol_silver,_flask"
+		"copyof": "holy_symbol_silver_flask"
 	},
-	"holy_symbol_wooden,_flask": {
+	"holy_symbol_wooden_flask": {
 		"name": "Holy symbol (wooden, flask)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2582,7 +2558,7 @@
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_wooden": {
-		"copyof": "holy_symbol_wooden,_flask"
+		"copyof": "holy_symbol_wooden_flask"
 	},
 	"holy_symbol_gold": {
 		"name": "Holy symbol (gold)",
@@ -2776,7 +2752,7 @@
 			"**Pony (Combat Trained):** Ponies can be trained for war just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
 		]
 	},
-	"horse_heavy,_combat_trained": {
+	"horse_heavy_combat_trained": {
 		"name": "Horse (heavy, combat trained)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2784,9 +2760,6 @@
 			"Adventurer's Armory"
 		],
 		"copyof": "horse_heavy"
-	},
-	"horse_heavy_combat_trained": {
-		"copyof": "horse_heavy,_combat_trained"
 	},
 	"horse_light": {
 		"name": "Horse (light)",
@@ -2797,7 +2770,7 @@
 		],
 		"copyof": "horse_heavy"
 	},
-	"horse_light,_combat_trained": {
+	"horse_light_combat_trained": {
 		"name": "Horse (light, combat trained)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2805,9 +2778,6 @@
 			"Adventurer's Armory"
 		],
 		"copyof": "horse_heavy"
-	},
-	"horse_light_combat_trained": {
-		"copyof": "horse_light,_combat_trained"
 	},
 	"horse_pony": {
 		"name": "Horse (pony)",
@@ -2818,7 +2788,7 @@
 		],
 		"copyof": "horse_heavy"
 	},
-	"horse_pony,_combat_trained": {
+	"horse_pony_combat_trained": {
 		"name": "Horse (pony, combat trained)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2826,9 +2796,6 @@
 			"Adventurer's Armory"
 		],
 		"copyof": "horse_heavy"
-	},
-	"horse_pony_combat_trained": {
-		"copyof": "horse_pony,_combat_trained"
 	},
 	"horse_whip": {
 		"name": "Horse whip",
@@ -2978,7 +2945,7 @@
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Howdah",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Price** 500 gp; **Weight** 250 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -3245,7 +3212,7 @@
 			"This alchemically concocted black ink can be attuned to a standard sheet of parchment. Anything inscribed using the ink (anywhere on the same plane of existence) appears on the attuned parchment in a sparkling blue script that lasts 1 hour. There is enough ink in one vial to fill one sheet of parchment. The ink cannot duplicate any written magical effects, such as a symbol of death (as per the spell of the same name). Crafting a vial of ink of stolen secrets requires a successful DC 15 Craft (alchemy) check."
 		]
 	},
-	"ink,_black": {
+	"ink_black": {
 		"name": "Ink, black",
 		"sources": [
 			"Ultimate Equipment",
@@ -3260,10 +3227,7 @@
 			"This vial contains 1 ounce of ink. Ink in colors other than black costs twice as much."
 		]
 	},
-	"ink_black": {
-		"copyof": "ink,_black"
-	},
-	"ink,_non-black": {
+	"ink_non-black": {
 		"name": "Ink, non-black",
 		"sources": [
 			"Ultimate Equipment",
@@ -3272,9 +3236,9 @@
 		"copyof": "ink_black"
 	},
 	"ink_non_black": {
-		"copyof": "ink,_non-black"
+		"copyof": "ink_non-black"
 	},
-	"ink,_bioluminescent": {
+	"ink_bioluminescent": {
 		"name": "Ink, bioluminescent",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
@@ -3287,7 +3251,7 @@
 		]
 	},
 	"bioluminescent_ink": {
-		"copyof": "ink,_bioluminescent"
+		"copyof": "ink_bioluminescent"
 	},
 	"inkpen": {
 		"name": "Inkpen",
@@ -3336,29 +3300,29 @@
 		],
 		"copyof": "inn_stay_common"
 	},
-	"inn_stay_suite,_average": {
+	"inn_stay_suite_average": {
 		"name": "Inn stay (suite, average)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"average_inn_stay_suite": {
-		"copyof": "inn_stay_suite,_average"
+		"copyof": "inn_stay_suite_average"
 	},
-	"inn_stay_suite,_luxurious": {
+	"inn_stay_suite_luxurious": {
 		"name": "Inn stay (suite, luxurious)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"luxurious_inn_stay_suite": {
-		"copyof": "inn_stay_suite,_luxurious"
+		"copyof": "inn_stay_suite_luxurious"
 	},
-	"inn_stay_suite,_small": {
+	"inn_stay_suite_small": {
 		"name": "Inn stay (suite, small)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"small_inn_stay_suite": {
-		"copyof": "inn_stay_suite,_small"
+		"copyof": "inn_stay_suite_small"
 	},
 	"inquisitor's_kit": {
 		"name": "Inquisitor's kit",
@@ -3617,7 +3581,7 @@
 			"This metal potion bottle has hardness 5, 3 hit points, and a break DC of 14."
 		]
 	},
-	"jellyfish,_luminous": {
+	"jellyfish_luminous": {
 		"name": "Jellyfish, luminous",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
@@ -3628,9 +3592,6 @@
 			"",
 			"This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as brightly as a candle, typically in a blue or green color, but various species allow an array of possible colors (though generally this commands greater prices). When trapped in a container with small holes to allow in the plankton the creature eats, these creatures can serve as living lanterns, especially for creatures with low-light vision. In some places, like Talasantri, they drift freely as mobile light sources. A luminous jellyfish lives up to 1 year in this stage of its life cycle before dying."
 		]
-	},
-	"jellyfish_luminous": {
-		"copyof": "jellyfish,_luminous"
 	},
 	"jetcaster": {
 		"name": "Jetcaster",
@@ -3732,13 +3693,10 @@
 			"This flat-bottomed sailing ship has two or three masts with junk-rigged sails, allowing it to be easily sailed by small crews. Junks typically have a high poop deck and no keel."
 		]
 	},
-	"junk_travel,_per_mile": {
+	"junk_travel_per_mile": {
 		"name": "Junk (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "junk"
-	},
-	"junk_travel_per_mile": {
-		"copyof": "junk_travel,_per_mile"
 	},
 	"just_scale_abadar": {
 		"name": "Just scale (abadar)",
@@ -3761,7 +3719,7 @@
 		],
 		"description": [
 			"## Kaava musk",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** 40 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3825,16 +3783,13 @@
 			"This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen oars to supplement its single mast with a square sail. It requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour."
 		]
 	},
-	"keelboat_travel,_per_mile": {
+	"keelboat_travel_per_mile": {
 		"name": "Keelboat (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "keelboat"
-	},
-	"keelboat_travel_per_mile": {
-		"copyof": "keelboat_travel,_per_mile"
 	},
 	"key-wound_rattler": {
 		"name": "Key-wound rattler",
@@ -4548,16 +4503,13 @@
 			"This 75-foot-long ship with 40 oars requires a total crew of 50. It has a single mast and a square sail, and it can carry 50 tons of cargo or 120 soldiers. A longship can make sea voyages. It moves about 3 miles per hour when being rowed or under sail."
 		]
 	},
-	"longship_travel,_per_mile": {
+	"longship_travel_per_mile": {
 		"name": "Longship (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "longship"
-	},
-	"longship_travel_per_mile": {
-		"copyof": "longship_travel,_per_mile"
 	},
 	"lonoma_eel": {
 		"name": "Lonoma eel",
@@ -5199,7 +5151,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "mead_gallon"
 	},
-	"meal_common,_per_day": {
+	"meal_common_per_day": {
 		"name": "Meal (common, per day)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5213,10 +5165,7 @@
 			"The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might consist of bread and pastries, beef, peas, and ale or wine."
 		]
 	},
-	"meal_common_per_day": {
-		"copyof": "meal_common,_per_day"
-	},
-	"meal_good,_per_day": {
+	"meal_good_per_day": {
 		"name": "Meal (good, per day)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5224,10 +5173,7 @@
 		],
 		"copyof": "meal_common_per_day"
 	},
-	"meal_good_per_day": {
-		"copyof": "meal_good,_per_day"
-	},
-	"meal_poor,_per_day": {
+	"meal_poor_per_day": {
 		"name": "Meal (poor, per day)",
 		"sources": [
 			"Ultimate Equipment",
@@ -5235,10 +5181,7 @@
 		],
 		"copyof": "meal_common_per_day"
 	},
-	"meal_poor_per_day": {
-		"copyof": "meal_poor,_per_day"
-	},
-	"measuring_cord,_10_ft.": {
+	"measuring_cord_10_ft": {
 		"name": "Measuring cord, 10 ft.",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -5251,7 +5194,7 @@
 		]
 	},
 	"measuring_cord_ten_ft": {
-		"copyof": "measuring_cord,_10_ft."
+		"copyof": "measuring_cord_10_ft"
 	},
 	"meat": {
 		"name": "Meat",
@@ -5722,7 +5665,7 @@
 			"This golden-colored parasitic plant grows on many different sorts of trees. Druids harvest mistletoe with specially prepared tools and during sacred times of the year."
 		]
 	},
-	"mithral_chain_10_ft.": {
+	"mithral_chain_10_ft": {
 		"name": "Mithral chain (10 ft.)",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
@@ -5735,7 +5678,7 @@
 		]
 	},
 	"mithral_chain_ten_ft": {
-		"copyof": "mithral_chain_10_ft."
+		"copyof": "mithral_chain_10_ft"
 	},
 	"mithral_horseshoes": {
 		"name": "Mithral horseshoes",
@@ -6939,7 +6882,7 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"paper,_underwater_sheet": {
+	"paper_underwater_sheet": {
 		"name": "Paper, underwater (sheet)",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
@@ -6952,7 +6895,7 @@
 		]
 	},
 	"underwater_sheet_paper": {
-		"copyof": "paper,_underwater_sheet"
+		"copyof": "paper_underwater_sheet"
 	},
 	"parasaurolophus": {
 		"name": "Parasaurolophus",
@@ -7243,7 +7186,7 @@
 			"Peg legs presume that the knee joint is intact. If the knee joint is not intact, use the prosthesis statistics instead."
 		]
 	},
-	"pen,_underwater": {
+	"pen_underwater": {
 		"name": "Pen, underwater",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
@@ -7256,7 +7199,7 @@
 		]
 	},
 	"underwater_pen": {
-		"copyof": "pen,_underwater"
+		"copyof": "pen_underwater"
 	},
 	"performer's_token": {
 		"name": "Performer's token",
@@ -7270,7 +7213,7 @@
 			"Most commonly shaped like a coin, a performer's token is a small keepsake given out by stage performers prior to their presentations or used as a token of admission to closed-door performances. Similar tokens are also issued by mediums as calling cards prior to performing a seance."
 		]
 	},
-	"perfume_common,_per_dose": {
+	"perfume_common_per_dose": {
 		"name": "Perfume (common, per dose)",
 		"sources": [
 			"Inner Sea World Guide",
@@ -7285,10 +7228,7 @@
 			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent)."
 		]
 	},
-	"perfume_common_per_dose": {
-		"copyof": "perfume_common,_per_dose"
-	},
-	"perfume_exotic,_per_dose": {
+	"perfume_exotic_per_dose": {
 		"name": "Perfume (exotic, per dose)",
 		"sources": [
 			"Inner Sea World Guide",
@@ -7296,9 +7236,6 @@
 			"Pathfinder Campaign Setting"
 		],
 		"copyof": "perfume_common_per_dose"
-	},
-	"perfume_exotic_per_dose": {
-		"copyof": "perfume_exotic,_per_dose"
 	},
 	"perfume_kit": {
 		"name": "Perfume kit",
@@ -7438,7 +7375,7 @@
 			"A pickle extractor is little more than a spike stuck through the end of a stick, used mainly by goblins to grab things at the bottom of a barrel."
 		]
 	},
-	"pickles,_goblin_1_jar": {
+	"pickles_goblin_1_jar": {
 		"name": "Pickles, goblin (1 jar)",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
@@ -7451,7 +7388,7 @@
 		]
 	},
 	"pickles_goblin_one_jar": {
-		"copyof": "pickles,_goblin_1_jar"
+		"copyof": "pickles_goblin_1_jar"
 	},
 	"pickpocket's_outfit": {
 		"name": "Pickpocket's outfit",

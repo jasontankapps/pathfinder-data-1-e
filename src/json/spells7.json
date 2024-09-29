@@ -353,13 +353,13 @@
 			"This spell functions like mount, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the steeds summoned."
 		]
 	},
-	"mount,_communal": {
+	"mount_communal": {
 		"name": "Mount, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "mount"
 	},
 	"communal_mount": {
-		"copyof": "mount,_communal"
+		"copyof": "mount_communal"
 	},
 	"move_earth": {
 		"name": "Move Earth",
@@ -632,13 +632,13 @@
 			"This spell functions as mydriatic spontaneity, except it can affect multiple creatures."
 		]
 	},
-	"mydriatic_spontaneity,_mass": {
+	"mydriatic_spontaneity_mass": {
 		"name": "Mydriatic Spontaneity, Mass",
 		"sources": [ "Blood of Shadows" ],
 		"copyof": "mydriatic_spontaneity"
 	},
 	"mass_mydriatic_spontaneity": {
-		"copyof": "mydriatic_spontaneity,_mass"
+		"copyof": "mydriatic_spontaneity_mass"
 	},
 	"mythic_severance": {
 		"name": "Mythic Severance",
@@ -804,13 +804,13 @@
 			"This spell functions like named bullet, except it deals 2 extra points of damage per caster level (maximum 40)."
 		]
 	},
-	"named_bullet,_greater": {
+	"named_bullet_greater": {
 		"name": "Named Bullet, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "named_bullet"
 	},
 	"greater_named_bullet": {
-		"copyof": "named_bullet,_greater"
+		"copyof": "named_bullet_greater"
 	},
 	"nap_stack": {
 		"name": "Nap Stack",
@@ -958,13 +958,13 @@
 			"This spell functions like nature's ravages, except the target corpse ages a number of years equal to up to 1 year per caster level (maximum 20 years at 20th level)."
 		]
 	},
-	"nature's_ravages,_greater": {
+	"nature's_ravages_greater": {
 		"name": "Nature's Ravages, Greater",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "nature's_ravages"
 	},
 	"greater_nature's_ravages": {
-		"copyof": "nature's_ravages,_greater"
+		"copyof": "nature's_ravages_greater"
 	},
 	"nauseating_dart": {
 		"name": "Nauseating Dart",
@@ -1209,13 +1209,13 @@
 			"This spell functions as neutralize poison, except as noted here. You automatically succeed at all caster level checks to neutralize any poisons affecting the target creature. The spell also reverses all instantaneous or permanent effects caused by poisons, such as temporary ability damage or permanent ability drain (it does not heal ability drain caused by anything other than poison, however). If you use the spell to neutralize the poison in a poisonous creature or object, the duration is 1 hour per level rather than 10 minutes per level. If the spell is cast on a creature, the creature can negate the effect by succeeding at a Will saving throw."
 		]
 	},
-	"neutralize_poison,_greater": {
+	"neutralize_poison_greater": {
 		"name": "Neutralize Poison, Greater",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"copyof": "neutralize_poison"
 	},
 	"greater_neutralize_poison": {
-		"copyof": "neutralize_poison,_greater"
+		"copyof": "neutralize_poison_greater"
 	},
 	"nex's_secret_workshop": {
 		"name": "Nex's Secret Workshop",
@@ -1524,15 +1524,15 @@
 			"This spell functions like nondetection, except you divide the duration in 1-hour increments among the creatures or objects touched."
 		]
 	},
-	"nondetection,_communal": {
+	"nondetection_communal": {
 		"name": "Nondetection, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "nondetection"
 	},
 	"communal_nondetection": {
-		"copyof": "nondetection,_communal"
+		"copyof": "nondetection_communal"
 	},
-	"nondetection,_lesser": {
+	"nondetection_lesser": {
 		"name": "Nondetection, Lesser",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
@@ -1557,7 +1557,7 @@
 		]
 	},
 	"lesser_nondetection": {
-		"copyof": "nondetection,_lesser"
+		"copyof": "nondetection_lesser"
 	},
 	"numerological_evocation": {
 		"name": "Numerological Evocation",
@@ -1745,15 +1745,15 @@
 		"sources": [ "Occult Adventures" ],
 		"copyof": "lesser_object_possession"
 	},
-	"object_possession,_greater": {
+	"object_possession_greater": {
 		"name": "Object Possession, Greater",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "lesser_object_possession"
 	},
 	"greater_object_possession": {
-		"copyof": "object_possession,_greater"
+		"copyof": "object_possession_greater"
 	},
-	"object_possession,_lesser": {
+	"object_possession_lesser": {
 		"name": "Object Possession, Lesser",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -1824,7 +1824,7 @@
 		]
 	},
 	"lesser_object_possession": {
-		"copyof": "object_possession,_lesser"
+		"copyof": "object_possession_lesser"
 	},
 	"object_reading": {
 		"name": "Object Reading",
@@ -2058,13 +2058,13 @@
 			"This spell functions as oneiric horror except each round the subject fails its Will save, it takes 1 point of Strength damage, and after the spell ends, the subject must succeed at a Fortitude save or be fatigued for a number of minutes equal to the number of rounds spent under the spell's effect."
 		]
 	},
-	"oneiric_horror,_greater": {
+	"oneiric_horror_greater": {
 		"name": "Oneiric Horror, Greater",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "oneiric_horror"
 	},
 	"greater_oneiric_horror": {
-		"copyof": "oneiric_horror,_greater"
+		"copyof": "oneiric_horror_greater"
 	},
 	"ooze_form_1": {
 		"name": "Ooze Form I",
@@ -2725,13 +2725,13 @@
 			"This spell functions like owl's wisdom, except that it affects multiple creatures."
 		]
 	},
-	"owl's_wisdom,_mass": {
+	"owl's_wisdom_mass": {
 		"name": "Owl's Wisdom, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "owl's_wisdom"
 	},
 	"mass_owl's_wisdom": {
-		"copyof": "owl's_wisdom,_mass"
+		"copyof": "owl's_wisdom_mass"
 	},
 	"pack_empathy": {
 		"name": "Pack Empathy",
@@ -2827,13 +2827,13 @@
 			"This spell works like pain strike, except as noted above."
 		]
 	},
-	"pain_strike,_mass": {
+	"pain_strike_mass": {
 		"name": "Pain Strike, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "pain_strike"
 	},
 	"mass_pain_strike": {
-		"copyof": "pain_strike,_mass"
+		"copyof": "pain_strike_mass"
 	},
 	"painful_revelation": {
 		"name": "Painful Revelation",
@@ -3059,13 +3059,13 @@
 			"This spell functions as per passing fancy except as noted above."
 		]
 	},
-	"passing_fancy,_mass": {
+	"passing_fancy_mass": {
 		"name": "Passing Fancy, Mass",
 		"sources": [ "Spymaster's Handbook" ],
 		"copyof": "passing_fancy"
 	},
 	"mass_passing_fancy": {
-		"copyof": "passing_fancy,_mass"
+		"copyof": "passing_fancy_mass"
 	},
 	"passwall": {
 		"name": "Passwall",
@@ -3134,13 +3134,13 @@
 			"This spell functions as path of glory, except as noted above, and a square provides 5 points of healing instead of 1."
 		]
 	},
-	"path_of_glory,_greater": {
+	"path_of_glory_greater": {
 		"name": "Path of Glory, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "path_of_glory"
 	},
 	"greater_path_of_glory": {
-		"copyof": "path_of_glory,_greater"
+		"copyof": "path_of_glory_greater"
 	},
 	"path_of_the_winds": {
 		"name": "Path of the Winds",
@@ -3263,13 +3263,13 @@
 			"If a target weapon is not currently sheathed or slung as the spell is cast, the weapon immediately attempts to sheathe itself, and its wielder must succeed at a Strength check to prevent it from doing so. Once sheathed or slung in this way, the weapon is difficult to draw, as previously noted above. Unattended weapons that are not currently sheathed or slung are anchored in place by the spell, and require a successful Strength check to pick up; each attempt requires a standard action. If the wielder doesn't have a sheath or sling available for the weapon, failure on the Strength check causes the weapon to fall to the ground, at which point it requires a Strength check to pick up, as with unattended weapons."
 		]
 	},
-	"peacebond,_greater": {
+	"peacebond_greater": {
 		"name": "Peacebond, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "peacebond"
 	},
 	"greater_peacebond": {
-		"copyof": "peacebond,_greater"
+		"copyof": "peacebond_greater"
 	},
 	"peacemaker's_parley": {
 		"name": "Peacemaker's Parley",
@@ -3787,13 +3787,13 @@
 			"This spell functions like lesser geas, except the only allowed command is \"use pesh or refined pesh.\""
 		]
 	},
-	"pesh_addiction,_lesser": {
+	"pesh_addiction_lesser": {
 		"name": "Pesh Addiction, Lesser",
 		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"copyof": "pesh_addiction"
 	},
 	"lesser_pesh_addiction": {
-		"copyof": "pesh_addiction,_lesser"
+		"copyof": "pesh_addiction_lesser"
 	},
 	"pesh_vigor": {
 		"name": "Pesh Vigor",
@@ -4305,13 +4305,13 @@
 		"sources": [ "Wilderness Origins" ],
 		"copyof": "phantom_steed"
 	},
-	"phantom_steed,_communal": {
+	"phantom_steed_communal": {
 		"name": "Phantom Steed, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "phantom_steed"
 	},
 	"communal_phantom_steed": {
-		"copyof": "phantom_steed,_communal"
+		"copyof": "phantom_steed_communal"
 	},
 	"phantom_trap": {
 		"name": "Phantom Trap",
@@ -4800,13 +4800,13 @@
 			"This spell functions like planar adaptation, except as noted above."
 		]
 	},
-	"planar_adaptation,_mass": {
+	"planar_adaptation_mass": {
 		"name": "Planar Adaptation, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "planar_adaptation"
 	},
 	"mass_planar_adaptation": {
-		"copyof": "planar_adaptation,_mass"
+		"copyof": "planar_adaptation_mass"
 	},
 	"planar_aegis": {
 		"name": "Planar Aegis",
@@ -4914,21 +4914,21 @@
 			"*Note:* When you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type."
 		]
 	},
-	"planar_ally,_greater": {
+	"planar_ally_greater": {
 		"name": "Planar Ally, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_ally"
 	},
 	"greater_planar_ally": {
-		"copyof": "planar_ally,_greater"
+		"copyof": "planar_ally_greater"
 	},
-	"planar_ally,_lesser": {
+	"planar_ally_lesser": {
 		"name": "Planar Ally, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_ally"
 	},
 	"lesser_planar_ally": {
-		"copyof": "planar_ally,_lesser"
+		"copyof": "planar_ally_lesser"
 	},
 	"planar_binding": {
 		"name": "Planar Binding",
@@ -5002,21 +5002,21 @@
 			"When you use a calling spell to call an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type."
 		]
 	},
-	"planar_binding,_greater": {
+	"planar_binding_greater": {
 		"name": "Planar Binding, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_binding"
 	},
 	"greater_planar_binding": {
-		"copyof": "planar_binding,_greater"
+		"copyof": "planar_binding_greater"
 	},
-	"planar_binding,_lesser": {
+	"planar_binding_lesser": {
 		"name": "Planar Binding, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_binding"
 	},
 	"lesser_planar_binding": {
-		"copyof": "planar_binding,_lesser"
+		"copyof": "planar_binding_lesser"
 	},
 	"planar_inquiry": {
 		"name": "Planar Inquiry",
@@ -5032,7 +5032,7 @@
 		"description": [
 			"## Planar Orientation",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world_realm_of_the_fey)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 1, bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, oracle 1, psychic 1, ranger 1, shaman 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -5232,7 +5232,7 @@
 			"This spell functions as planetary adaptation, except as noted above."
 		]
 	},
-	"planetary_adaptation,_mass": {
+	"planetary_adaptation_mass": {
 		"name": "Planetary Adaptation, Mass",
 		"sources": [
 			"People of the Stars",
@@ -5241,7 +5241,7 @@
 		"copyof": "planetary_adaptation"
 	},
 	"mass_planetary_adaptation": {
-		"copyof": "planetary_adaptation,_mass"
+		"copyof": "planetary_adaptation_mass"
 	},
 	"planned_assault": {
 		"name": "Planned Assault",
@@ -5750,7 +5750,7 @@
 			"At caster level 7th, this spell functions as beast shape II. At caster level 9th, it functions as beast shape III. At caster level 11th, it functions as beast shape IV."
 		]
 	},
-	"polymorph,_greater": {
+	"polymorph_greater": {
 		"name": "Polymorph, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -5775,7 +5775,7 @@
 		]
 	},
 	"greater_polymorph": {
-		"copyof": "polymorph,_greater"
+		"copyof": "polymorph_greater"
 	},
 	"polypurpose_panacea": {
 		"name": "Polypurpose Panacea",
@@ -5865,13 +5865,13 @@
 			"This spell functions like positive pulse, except that the damage dealt increases to 3d6 plus your caster level, and the bonus on saving throws increases to +8."
 		]
 	},
-	"positive_pulse,_greater": {
+	"positive_pulse_greater": {
 		"name": "Positive Pulse, Greater",
 		"sources": [ "Planar Adventures" ],
 		"copyof": "positive_pulse"
 	},
 	"greater_positive_pulse": {
-		"copyof": "positive_pulse,_greater"
+		"copyof": "positive_pulse_greater"
 	},
 	"possession": {
 		"name": "Possession",
@@ -5949,13 +5949,13 @@
 			"If the possessor's Will save is successful, you are affected by its possession attempt as normal, and may attempt a saving throw against this possession attempt if one is normally allowed. Regardless of whether the possessor fails or succeeds at its save against possession trap, you immediately become aware of the possession attempt and whether or not a creature is trapped in the focus gem. If the focus gem is destroyed while it contains a creature, the creature is immediately released. Once this spell is triggered, it offers no further protection, and a trapped creature can attempt to possess you again once it's free of the focus gem."
 		]
 	},
-	"possession,_greater": {
+	"possession_greater": {
 		"name": "Possession, Greater",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "possession"
 	},
 	"greater_possession": {
-		"copyof": "possession,_greater"
+		"copyof": "possession_greater"
 	},
 	"pouncing_fury": {
 		"name": "Pouncing Fury",
@@ -6846,26 +6846,26 @@
 			"This spell functions like protection from arrows, except you divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum 100 points) for a subject, the spell's effects end for that subject."
 		]
 	},
-	"protection_from_arrows,_communal": {
+	"protection_from_arrows_communal": {
 		"name": "Protection from Arrows, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_arrows"
 	},
 	"communal_protection_from_arrows": {
-		"copyof": "protection_from_arrows,_communal"
+		"copyof": "protection_from_arrows_communal"
 	},
 	"protection_from_chaos": {
 		"name": "Protection from Chaos",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
-	"protection_from_chaos,_communal": {
+	"protection_from_chaos_communal": {
 		"name": "Protection from Chaos, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_chaos": {
-		"copyof": "protection_from_chaos,_communal"
+		"copyof": "protection_from_chaos_communal"
 	},
 	"protection_from_energy": {
 		"name": "Protection from Energy",
@@ -6915,13 +6915,13 @@
 			"This spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject."
 		]
 	},
-	"protection_from_energy,_communal": {
+	"protection_from_energy_communal": {
 		"name": "Protection from Energy, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_energy"
 	},
 	"communal_protection_from_energy": {
-		"copyof": "protection_from_energy,_communal"
+		"copyof": "protection_from_energy_communal"
 	},
 	"protection_from_evil": {
 		"name": "Protection from Evil",
@@ -7114,39 +7114,39 @@
 			"This spell functions like protection from law, except you divide the duration in 1-minute intervals among the creatures touched."
 		]
 	},
-	"protection_from_evil,_communal": {
+	"protection_from_evil_communal": {
 		"name": "Protection from Evil, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_evil": {
-		"copyof": "protection_from_evil,_communal"
+		"copyof": "protection_from_evil_communal"
 	},
 	"protection_from_good": {
 		"name": "Protection from Good",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
-	"protection_from_good,_communal": {
+	"protection_from_good_communal": {
 		"name": "Protection from Good, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_good": {
-		"copyof": "protection_from_good,_communal"
+		"copyof": "protection_from_good_communal"
 	},
 	"protection_from_law": {
 		"name": "Protection from Law",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
-	"protection_from_law,_communal": {
+	"protection_from_law_communal": {
 		"name": "Protection from Law, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_law": {
-		"copyof": "protection_from_law,_communal"
+		"copyof": "protection_from_law_communal"
 	},
 	"protection_from_natural_attacks": {
 		"name": "Protection from Natural Attacks",
@@ -7365,7 +7365,7 @@
 			"The eyes exist for up to 1 hour per caster level or until they return to you. Dispel magic can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself."
 		]
 	},
-	"prying_eyes,_greater": {
+	"prying_eyes_greater": {
 		"name": "Prying Eyes, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -7390,7 +7390,7 @@
 		]
 	},
 	"greater_prying_eyes": {
-		"copyof": "prying_eyes,_greater"
+		"copyof": "prying_eyes_greater"
 	},
 	"psychic_asylum": {
 		"name": "Psychic Asylum",

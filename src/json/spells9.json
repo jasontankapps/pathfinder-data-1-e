@@ -65,13 +65,13 @@
 			"This spell functions as shapechanger's gift except the chosen form can be an animal (as per beast shape I), elemental (as per elemental body I), fey (as per fey form I), humanoid (as per alter self), monstrous humanoid (as per monstrous physique I), or vermin (as per vermin shape I) and the chosen form can have a fly speed."
 		]
 	},
-	"shapechanger's_gift,_greater": {
+	"shapechanger's_gift_greater": {
 		"name": "Shapechanger's Gift, Greater",
 		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "shapechanger's_gift"
 	},
 	"greater_shapechanger's_gift": {
-		"copyof": "shapechanger's_gift,_greater"
+		"copyof": "shapechanger's_gift_greater"
 	},
 	"shard_of_chaos": {
 		"name": "Shard of Chaos",
@@ -191,26 +191,26 @@
 			"This spell functions like share language, except you divide the duration in 1-hour increments among the creatures touched."
 		]
 	},
-	"share_language,_communal": {
+	"share_language_communal": {
 		"name": "Share Language, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "share_language"
 	},
 	"communal_share_language": {
-		"copyof": "share_language,_communal"
+		"copyof": "share_language_communal"
 	},
 	"compel_tongue": {
 		"name": "Compel Tongue",
 		"sources": [ "Black Markets" ],
 		"copyof": "share_language"
 	},
-	"compel_tongue,_mass": {
+	"compel_tongue_mass": {
 		"name": "Compel Tongue, Mass",
 		"sources": [ "Black Markets" ],
 		"copyof": "compel_tongue"
 	},
 	"mass_compel_tongue": {
-		"copyof": "compel_tongue,_mass"
+		"copyof": "compel_tongue_mass"
 	},
 	"share_memory": {
 		"name": "Share Memory",
@@ -303,13 +303,13 @@
 			"This spell functions like share skin, except as noted here."
 		]
 	},
-	"share_skin,_greater": {
+	"share_skin_greater": {
 		"name": "Share Skin, Greater",
 		"sources": [ "Blood of the Moon" ],
 		"copyof": "share_skin"
 	},
 	"greater_share_skin": {
-		"copyof": "share_skin,_greater"
+		"copyof": "share_skin_greater"
 	},
 	"shared_sacrifice": {
 		"name": "Shared Sacrifice",
@@ -631,13 +631,13 @@
 			"This spell functions as shield of fortification, except there is a 50% chance that the critical hit or sneak attack is negated and damage is instead be rolled normally, rather than 25%."
 		]
 	},
-	"shield_of_fortification,_greater": {
+	"shield_of_fortification_greater": {
 		"name": "Shield of Fortification, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "shield_of_fortification"
 	},
 	"greater_shield_of_fortification": {
-		"copyof": "shield_of_fortification,_greater"
+		"copyof": "shield_of_fortification_greater"
 	},
 	"shield_of_law": {
 		"name": "Shield of Law",
@@ -751,13 +751,13 @@
 			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell flame strike). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a daylight spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower."
 		]
 	},
-	"shield_of_the_dawnflower,_greater": {
+	"shield_of_the_dawnflower_greater": {
 		"name": "Shield of the Dawnflower, Greater",
 		"sources": [ "Inner Sea Gods" ],
 		"copyof": "shield_of_the_dawnflower"
 	},
 	"greater_shield_of_the_dawnflower": {
-		"copyof": "shield_of_the_dawnflower,_greater"
+		"copyof": "shield_of_the_dawnflower_greater"
 	},
 	"shield_of_wings": {
 		"name": "Shield of Wings",
@@ -844,7 +844,7 @@
 		"description": [
 			"## Shield Speech",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor_echoes_of_glory)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 1, bard 1, cleric 1, druid 1, hunter 1, oracle 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -863,7 +863,7 @@
 			"",
 			"### Shield Speech, Greater",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor_echoes_of_glory)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"#### Casting",
@@ -881,13 +881,13 @@
 			"This spell functions as shield speech, except all creatures within the dome may communicate with each other as if linked by shield speech. If they speak with anyone outside the area, those outside the area hear them normally."
 		]
 	},
-	"shield_speech,_greater": {
+	"shield_speech_greater": {
 		"name": "Shield Speech, Greater",
 		"sources": [ "Taldor, Echoes of Glory" ],
 		"copyof": "shield_speech"
 	},
 	"greater_shield_speech": {
-		"copyof": "shield_speech,_greater"
+		"copyof": "shield_speech_greater"
 	},
 	"shield_the_banner": {
 		"name": "Shield the Banner",
@@ -1181,13 +1181,13 @@
 			"This spell functions like shout, except that the cone deals 10d6 points of sonic damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline objects or crystalline creatures). It also causes creatures to be stunned for 1 round and deafened for 4d6 rounds. A creature in the area of the cone can negate the stunning and halve both the damage and the duration of the deafness with a successful Fortitude save. A creature holding vulnerable objects can attempt a Reflex save to negate the damage to those objects."
 		]
 	},
-	"shout,_greater": {
+	"shout_greater": {
 		"name": "Shout, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shout"
 	},
 	"greater_shout": {
-		"copyof": "shout,_greater"
+		"copyof": "shout_greater"
 	},
 	"shrink_item": {
 		"name": "Shrink Item",
@@ -1332,13 +1332,13 @@
 			"As siege of trees, but you can affect larger-sized plants. Each plant acts as a catapult of its size."
 		]
 	},
-	"siege_of_trees,_greater": {
+	"siege_of_trees_greater": {
 		"name": "Siege of Trees, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "siege_of_trees"
 	},
 	"greater_siege_of_trees": {
-		"copyof": "siege_of_trees,_greater"
+		"copyof": "siege_of_trees_greater"
 	},
 	"siege_scatter": {
 		"name": "Siege Scatter",
@@ -1394,7 +1394,7 @@
 		"description": [
 			"## Sign of the Dawnflower",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor_echoes_of_glory)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 0, druid 0, hunter 0, oracle 0, paladin 1, ranger 1, warpriest 0 (Sarenrae)",
 			"",
 			"### Casting",
@@ -1445,7 +1445,7 @@
 		"description": [
 			"## Signifer's Rally",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax_empire_of_devils)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)) [[evil](spelldef/evil)]; **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -1703,13 +1703,13 @@
 			"This spell functions as simulacrum, except you can't create a simulacrum of a creature whose HD or levels exceed your caster level, and it has no magical abilities. The creature is not under your control, though it recognizes you are its creator."
 		]
 	},
-	"simulacrum,_lesser": {
+	"simulacrum_lesser": {
 		"name": "Simulacrum, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "simulacrum"
 	},
 	"lesser_simulacrum": {
-		"copyof": "simulacrum,_lesser"
+		"copyof": "simulacrum_lesser"
 	},
 	"siphon_magic": {
 		"name": "Siphon Magic",
@@ -2642,13 +2642,13 @@
 			"This spell functions as song of discord except that affected creatures automatically attack the nearest target each round. In addition, all affected creatures gain a +4 morale bonus to Strength for the duration of the spell. A creature that succeeds at the Will save reduces the effect's duration to 1 round."
 		]
 	},
-	"song_of_discord,_greater": {
+	"song_of_discord_greater": {
 		"name": "Song of Discord, Greater",
 		"sources": [ "Chronicle of Legends" ],
 		"copyof": "song_of_discord"
 	},
 	"greater_song_of_discord": {
-		"copyof": "song_of_discord,_greater"
+		"copyof": "song_of_discord_greater"
 	},
 	"song_of_kyonin": {
 		"name": "Song of Kyonin",
@@ -3402,7 +3402,7 @@
 		"description": [
 			"## Spectral Saluqi",
 			"",
-			"**Source** [Occult Mysteries pg. 58](source/occult_mysteries), [Osirion, Land of the Pharaohs pg. 27](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Occult Mysteries pg. 58](source/occult_mysteries), [Osirion, Land of the Pharaohs pg. 27](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 6, sorcerer 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -3512,13 +3512,13 @@
 			"This spell functions as spell absorption, save that you can absorb countered spells of 6th level or lower."
 		]
 	},
-	"spell_absorption,_greater": {
+	"spell_absorption_greater": {
 		"name": "Spell Absorption, Greater",
 		"sources": [ "Inner Sea Magic" ],
 		"copyof": "spell_absorption"
 	},
 	"greater_spell_absorption": {
-		"copyof": "spell_absorption,_greater"
+		"copyof": "spell_absorption_greater"
 	},
 	"spell_gauge": {
 		"name": "Spell Gauge",
@@ -3633,29 +3633,29 @@
 			"This spell functions like greater spell immunity, except you divide the duration among the creatures in 10-minute intervals among the creatures touched."
 		]
 	},
-	"spell_immunity,_communal": {
+	"spell_immunity_communal": {
 		"name": "Spell Immunity, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "spell_immunity"
 	},
 	"communal_spell_immunity": {
-		"copyof": "spell_immunity,_communal"
+		"copyof": "spell_immunity_communal"
 	},
-	"spell_immunity,_greater": {
+	"spell_immunity_greater": {
 		"name": "Spell Immunity, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "spell_immunity"
 	},
 	"greater_spell_immunity": {
-		"copyof": "spell_immunity,_greater"
+		"copyof": "spell_immunity_greater"
 	},
-	"spell_immunity,_greater_communal": {
+	"spell_immunity_greater_communal": {
 		"name": "Spell Immunity, Greater Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "spell_immunity"
 	},
 	"greater_communal_spell_immunity": {
-		"copyof": "spell_immunity,_greater_communal"
+		"copyof": "spell_immunity_greater_communal"
 	},
 	"spell_resistance": {
 		"name": "Spell Resistance",
@@ -3742,15 +3742,15 @@
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"copyof": "lesser_spellcasting_contract"
 	},
-	"spellcasting_contract,_greater": {
+	"spellcasting_contract_greater": {
 		"name": "Spellcasting Contract, Greater",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"copyof": "lesser_spellcasting_contract"
 	},
 	"greater_spellcasting_contract": {
-		"copyof": "spellcasting_contract,_greater"
+		"copyof": "spellcasting_contract_greater"
 	},
-	"spellcasting_contract,_lesser": {
+	"spellcasting_contract_lesser": {
 		"name": "Spellcasting Contract, Lesser",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
@@ -3821,22 +3821,22 @@
 		]
 	},
 	"lesser_spellcasting_contract": {
-		"copyof": "spellcasting_contract,_lesser"
+		"copyof": "spellcasting_contract_lesser"
 	},
 	"spellcrash": {
 		"name": "Spellcrash",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "lesser_spellcrash"
 	},
-	"spellcrash,_greater": {
+	"spellcrash_greater": {
 		"name": "Spellcrash, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "lesser_spellcrash"
 	},
 	"greater_spellcrash": {
-		"copyof": "spellcrash,_greater"
+		"copyof": "spellcrash_greater"
 	},
-	"spellcrash,_lesser": {
+	"spellcrash_lesser": {
 		"name": "Spellcrash, Lesser",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3909,7 +3909,7 @@
 		]
 	},
 	"lesser_spellcrash": {
-		"copyof": "spellcrash,_lesser"
+		"copyof": "spellcrash_lesser"
 	},
 	"spellcurse": {
 		"name": "Spellcurse",
@@ -4123,13 +4123,13 @@
 			"This spell functions like spider climb, except you divide the duration in 10-minute intervals among the creatures touched."
 		]
 	},
-	"spider_climb,_communal": {
+	"spider_climb_communal": {
 		"name": "Spider Climb, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "spider_climb"
 	},
 	"communal_spider_climb": {
-		"copyof": "spider_climb,_communal"
+		"copyof": "spider_climb_communal"
 	},
 	"spike_growth": {
 		"name": "Spike Growth",
@@ -4243,13 +4243,13 @@
 			"This spell functions as spindrift spritz, except as noted above."
 		]
 	},
-	"spindrift_spritz,_mass": {
+	"spindrift_spritz_mass": {
 		"name": "Spindrift Spritz, Mass",
 		"sources": [ "Elemental Master's Handbook" ],
 		"copyof": "spindrift_spritz"
 	},
 	"mass_spindrift_spritz": {
-		"copyof": "spindrift_spritz,_mass"
+		"copyof": "spindrift_spritz_mass"
 	},
 	"spiral_ascent": {
 		"name": "Spiral Ascent",
@@ -5118,13 +5118,13 @@
 			"This spell functions like steal years, except you drain 1d6 years per two caster levels (maximum 10d6)."
 		]
 	},
-	"steal_years,_greater": {
+	"steal_years_greater": {
 		"name": "Steal Years, Greater",
 		"sources": [ "Blood of the Night" ],
 		"copyof": "steal_years"
 	},
 	"greater_steal_years": {
-		"copyof": "steal_years,_greater"
+		"copyof": "steal_years_greater"
 	},
 	"steam_ray_fusillade": {
 		"name": "Steam Ray Fusillade",
@@ -5565,13 +5565,13 @@
 			"This spell functions like stoneskin, except you divide the duration in 10 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150 points) for a subject, the spell's effects end for that subject."
 		]
 	},
-	"stoneskin,_communal": {
+	"stoneskin_communal": {
 		"name": "Stoneskin, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "stoneskin"
 	},
 	"communal_stoneskin": {
-		"copyof": "stoneskin,_communal"
+		"copyof": "stoneskin_communal"
 	},
 	"clay_skin": {
 		"name": "Clay Skin",
@@ -5972,13 +5972,13 @@
 			"This spell functions as stunning barrier, except as noted above, and it provides a +2 bonus to AC and on saving throws. It is not discharged until it has stunned a number of creatures equal to your caster level."
 		]
 	},
-	"stunning_barrier,_greater": {
+	"stunning_barrier_greater": {
 		"name": "Stunning Barrier, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "stunning_barrier"
 	},
 	"greater_stunning_barrier": {
-		"copyof": "stunning_barrier,_greater"
+		"copyof": "stunning_barrier_greater"
 	},
 	"stunning_finale": {
 		"name": "Stunning Finale",
@@ -6151,7 +6151,7 @@
 			"This spell functions as suffocation except as noted above. Note that the duration of this spell is much longer, forcing those suffering from the effect to make far more Fortitude saves to stave off eventual suffocation."
 		]
 	},
-	"suffocation,_instant": {
+	"suffocation_instant": {
 		"name": "Suffocation, Instant",
 		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"description": [
@@ -6195,23 +6195,23 @@
 		]
 	},
 	"instant_suffocation": {
-		"copyof": "suffocation,_instant"
+		"copyof": "suffocation_instant"
 	},
-	"suffocation,_mass": {
+	"suffocation_mass": {
 		"name": "Suffocation, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "suffocation"
 	},
 	"mass_suffocation": {
-		"copyof": "suffocation,_mass"
+		"copyof": "suffocation_mass"
 	},
-	"suffocation,_slow": {
+	"suffocation_slow": {
 		"name": "Suffocation, Slow",
 		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"copyof": "instant_suffocation"
 	},
 	"slow_suffocation": {
-		"copyof": "suffocation,_slow"
+		"copyof": "suffocation_slow"
 	},
 	"suggestion": {
 		"name": "Suggestion",
@@ -6308,13 +6308,13 @@
 			"This spell functions as suggestion, except you can use it only to specify a condition that triggers a special activity, and the subject does not remember that you made the suggestion. For example, you could use triggered suggestion on a palace guard to make him attack the king the next time he and the king are alone, and the guard would not remember the suggestion to do so until the trigger occurred."
 		]
 	},
-	"suggestion,_mass": {
+	"suggestion_mass": {
 		"name": "Suggestion, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "suggestion"
 	},
 	"mass_suggestion": {
-		"copyof": "suggestion,_mass"
+		"copyof": "suggestion_mass"
 	},
 	"contagious_suggestion": {
 		"name": "Contagious Suggestion",
@@ -6471,13 +6471,13 @@
 			"This spell functions like summon cacodaemon, except that it summons 1d4+1 cacodaemons."
 		]
 	},
-	"summon_cacodaemon,_greater": {
+	"summon_cacodaemon_greater": {
 		"name": "Summon Cacodaemon, Greater",
 		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
 		"copyof": "summon_cacodaemon"
 	},
 	"greater_summon_cacodaemon": {
-		"copyof": "summon_cacodaemon,_greater"
+		"copyof": "summon_cacodaemon_greater"
 	},
 	"summon_ceustodaemon": {
 		"name": "Summon Ceustodaemon",
@@ -6640,7 +6640,7 @@
 		"description": [
 			"## Summon Flight of Eagles",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)); **Level** arcanist 6, bloodrager 4, druid 6, hunter 4, ranger 4, shaman 6, sorcerer 6, summoner 6, summoner (unchained) 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -6687,15 +6687,15 @@
 		"sources": [ "People of the Sands" ],
 		"copyof": "lesser_summon_genie"
 	},
-	"summon_genie,_greater": {
+	"summon_genie_greater": {
 		"name": "Summon Genie, Greater",
 		"sources": [ "People of the Sands" ],
 		"copyof": "lesser_summon_genie"
 	},
 	"greater_summon_genie": {
-		"copyof": "summon_genie,_greater"
+		"copyof": "summon_genie_greater"
 	},
-	"summon_genie,_lesser": {
+	"summon_genie_lesser": {
 		"name": "Summon Genie, Lesser",
 		"sources": [ "People of the Sands" ],
 		"description": [
@@ -6758,7 +6758,7 @@
 		]
 	},
 	"lesser_summon_genie": {
-		"copyof": "summon_genie,_lesser"
+		"copyof": "summon_genie_lesser"
 	},
 	"summon_giant_ally_1": {
 		"name": "Summon Giant Ally I",
@@ -8179,12 +8179,12 @@
 			"This spell functions like sun's disdain, except that it can affect multiple creatures."
 		]
 	},
-	"sun's_disdain,_mass": {
+	"sun's_disdain_mass": {
 		"name": "Sun's Disdain, Mass",
 		"sources": [ "Adventurer's Guide" ],
 		"copyof": "sun's_disdain"
 	},
 	"mass_sun's_disdain": {
-		"copyof": "sun's_disdain,_mass"
+		"copyof": "sun's_disdain_mass"
 	}
 }

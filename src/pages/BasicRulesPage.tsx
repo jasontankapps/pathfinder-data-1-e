@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
@@ -8,7 +7,6 @@ import './BasicRulesPage.css';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [
-	["Main", "main/main"],
 	["All Rules", "main/rules"]
 ];
 
@@ -24,7 +22,18 @@ interface BasicRulesProps {
 	pageId: string
 }
 
+interface HierarchyProps {
+	extraHierarchy: HierarchyArray
+}
+
 const nulls = [null, null];
+
+const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
+	const h = [...hierarchy, ...extraHierarchy].map((pair, i) => (
+		<span key={`rules-page-hierarchy-link-${i}`}>{i === 0 ? "" : " > "}<Link to={"/" + pair[1]}>{pair[0]}</Link></span>
+	));
+	return <div className="hierarchyRulesInset">{h}</div>;
+};
 
 const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	title,
@@ -39,17 +48,11 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 }) => {
 	const [previous, next] = prevNext || nulls;
 
-	const h: HierarchyArray = useMemo(() => {
-		if(!extraHierarchy) {
-			return [...hierarchy];
-		}
-		return [...hierarchy, ...extraHierarchy];
-	}, [extraHierarchy]);
-
 	const className = "prevNext" + (next && !previous ? " nextOnly" : "");
 
 	return (
-		<BasicPage title={title} sources={sources} hierarchy={h} pageId={pageId}>
+		<BasicPage title={title} sources={sources} pageId={pageId}>
+			<HierarchyRulesInset extraHierarchy={extraHierarchy} />
 			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn} />
 			{subtopics.length > 0 ?  (
 				<div className="subtopics">

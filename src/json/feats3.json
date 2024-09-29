@@ -684,7 +684,7 @@
 		"description": [
 			"## Eagle Knight Candidate (Achievement)",
 			"",
-			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran,_spirit_of_liberty)",
+			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran_spirit_of_liberty)",
 			"",
 			"You have proven your courage and skill to both the Eagle Knights and the leaders of Andoran.  ",
 			"**Prerequisites:** Character level 5th, convince four different Eagle Knights and either a member of the People's Council or an Andoran town mayor to write letters of commendation on your behalf.  ",
@@ -722,7 +722,7 @@
 		"description": [
 			"## Eagle's Resolve",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 28](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 28](source/andoran_birthplace_of_freedom)",
 			"",
 			"You are resolute in your opposition to slavery and oppression, and the very thought of mental control disgusts you.  ",
 			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
@@ -1439,7 +1439,7 @@
 		"description": [
 			"## Elephant Stomp (Combat)",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony)",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony)",
 			"",
 			"You deliver a crushing blow to downed enemies.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Improved Overrun](feat/improved_overrun), base attack bonus +1.  ",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"## Equipment Trick (Combat)",
 			"",
-			"**Source** [Heroes from the Fringe pg. 29](source/heroes_from_the_fringe), [Sargava, the Lost Colony pg. 25](source/sargava,_the_lost_colony), [Adventurer's Armory pg. 22](source/adventurer's_armory), [Dirty Tactics Toolbox pg. 18](source/dirty_tactics_toolbox), [Adventurer's Armory 2 pg. 2](source/adventurer's_armory_2)",
+			"**Source** [Heroes from the Fringe pg. 29](source/heroes_from_the_fringe), [Sargava, the Lost Colony pg. 25](source/sargava_the_lost_colony), [Adventurer's Armory pg. 22](source/adventurer's_armory), [Dirty Tactics Toolbox pg. 18](source/dirty_tactics_toolbox), [Adventurer's Armory 2 pg. 2](source/adventurer's_armory_2)",
 			"",
 			"Choose a piece of equipment, such as an anvil, boots, a cloak, a heavy blade scabbard, a sunrod, or a wondrous item. You understand how to use that piece of equipment in combat.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -2266,7 +2266,7 @@
 			"",
 			"### Kaava Musk Tricks",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 25](source/sargava,_the_lost_colony)",
+			"**Source** [Sargava, the Lost Colony pg. 25](source/sargava_the_lost_colony)",
 			"",
 			"In addition to the feat, skill, or other requirement listed for each of these tricks, you normally must have the Equipment Trick (Kaava musk) feat to use a trick. You can, however, attempt Kaava musk tricks marked with an asterisk without the Equipment Trick (Kaava musk) feat, but you have a 50% chance of splashing yourself with the musk instead of completing the trick; this failure uses the dose of the musk (and in most cases invalidates what you were planning to use the musk for).",
 			"",
@@ -3181,7 +3181,7 @@
 		"description": [
 			"## Experienced Vagabond",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 28](source/taldor,_echoes_of_glory)",
+			"**Source** [Taldor, Echoes of Glory pg. 28](source/taldor_echoes_of_glory)",
 			"",
 			"You spent significant time as a vagabond and know your way around their society.  ",
 			"**Prerequisites:** Bluff 2 ranks, Knowledge (local) 2 ranks, member of an underclass.  ",
@@ -3211,7 +3211,7 @@
 		"description": [
 			"## Expert Boarder",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 32](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 32](source/andoran_birthplace_of_freedom)",
 			"",
 			"You are as comfortable dangling from a ship's rigging as you are on stable land.  ",
 			"**Prerequisites:** Affiliated with the Gray Corsairs.  ",
@@ -4515,7 +4515,7 @@
 		"description": [
 			"## Falcon's Cry",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 30](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 30](source/andoran_birthplace_of_freedom)",
 			"",
 			"You inspire others to throw off the shackles of oppression.  ",
 			"**Prerequisites:** Cha 13, affiliated with the Steel Falcons.  ",
@@ -5555,7 +5555,7 @@
 		"description": [
 			"## Fey Obedience",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 17](source/the_first_world,_realm_of_the_fey)",
+			"**Source** [The First World, Realm of the Fey pg. 17](source/the_first_world_realm_of_the_fey)",
 			"",
 			"Your devotion to one of the Eldest is so great that daily prayer and offerings grant you special boons.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks, must worship one of the Eldest.  ",

@@ -810,7 +810,7 @@
 		"description": [
 			"## Admonishing Ray",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 24](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 24](source/taldor_echoes_of_glory)  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -929,15 +929,15 @@
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_age_resistance"
 	},
-	"age_resistance,_greater": {
+	"age_resistance_greater": {
 		"name": "Age Resistance, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_age_resistance"
 	},
 	"greater_age_resistance": {
-		"copyof": "age_resistance,_greater"
+		"copyof": "age_resistance_greater"
 	},
-	"age_resistance,_lesser": {
+	"age_resistance_lesser": {
 		"name": "Age Resistance, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -997,7 +997,7 @@
 		]
 	},
 	"lesser_age_resistance": {
-		"copyof": "age_resistance,_lesser"
+		"copyof": "age_resistance_lesser"
 	},
 	"aggravate_affliction": {
 		"name": "Aggravate Affliction",
@@ -1068,13 +1068,13 @@
 			"This spell functions as aggressive thundercloud, except it deals 6d6 points of electricity damage to any creature it strikes. The first creature damaged by the cloud is also stunned for 1 round (Fortitude negates); this is a sonic effect."
 		]
 	},
-	"aggressive_thundercloud,_greater": {
+	"aggressive_thundercloud_greater": {
 		"name": "Aggressive Thundercloud, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "aggressive_thundercloud"
 	},
 	"greater_aggressive_thundercloud": {
-		"copyof": "aggressive_thundercloud,_greater"
+		"copyof": "aggressive_thundercloud_greater"
 	},
 	"agonize": {
 		"name": "Agonize",
@@ -1325,13 +1325,13 @@
 			"This spell functions like air walk, except divide the duration in 10-minute intervals among the creatures touched."
 		]
 	},
-	"air_walk,_communal": {
+	"air_walk_communal": {
 		"name": "Air Walk, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "air_walk"
 	},
 	"communal_air_walk": {
-		"copyof": "air_walk,_communal"
+		"copyof": "air_walk_communal"
 	},
 	"akashic_communion": {
 		"name": "Akashic Communion",
@@ -1614,13 +1614,13 @@
 			"This spell functions as align weapon, except you divide the duration in 1-minute increments between any number of touched weapons. Every group of up to 50 projectiles (which must be together at the time of casting) counts as one weapon for the purpose of dividing the spell's duration."
 		]
 	},
-	"align_weapon,_communal": {
+	"align_weapon_communal": {
 		"name": "Align Weapon, Communal",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "align_weapon"
 	},
 	"communal_align_weapon": {
-		"copyof": "align_weapon,_communal"
+		"copyof": "align_weapon_communal"
 	},
 	"allegro": {
 		"name": "Allegro",
@@ -2263,15 +2263,15 @@
 		"sources": [ "Champions of Purity" ],
 		"copyof": "lesser_angelic_aspect"
 	},
-	"angelic_aspect,_greater": {
+	"angelic_aspect_greater": {
 		"name": "Angelic Aspect, Greater",
 		"sources": [ "Champions of Purity" ],
 		"copyof": "lesser_angelic_aspect"
 	},
 	"greater_angelic_aspect": {
-		"copyof": "angelic_aspect,_greater"
+		"copyof": "angelic_aspect_greater"
 	},
-	"angelic_aspect,_lesser": {
+	"angelic_aspect_lesser": {
 		"name": "Angelic Aspect, Lesser",
 		"sources": [ "Champions of Purity" ],
 		"description": [
@@ -2338,7 +2338,7 @@
 		]
 	},
 	"lesser_angelic_aspect": {
-		"copyof": "angelic_aspect,_lesser"
+		"copyof": "angelic_aspect_lesser"
 	},
 	"animal_ambassador": {
 		"name": "Animal Ambassador",
@@ -2448,13 +2448,13 @@
 			"*Tree Lizard:* You gain a +4 competence bonus on Stealth checks."
 		]
 	},
-	"animal_aspect,_greater": {
+	"animal_aspect_greater": {
 		"name": "Animal Aspect, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "animal_aspect"
 	},
 	"greater_animal_aspect": {
-		"copyof": "animal_aspect,_greater"
+		"copyof": "animal_aspect_greater"
 	},
 	"animal_growth": {
 		"name": "Animal Growth",
@@ -2655,13 +2655,13 @@
 			"This spell functions as animate dead, except you can only create a single Small or Medium skeleton or zombie. You cannot create variant skeletons or zombies with this spell."
 		]
 	},
-	"animate_dead,_lesser": {
+	"animate_dead_lesser": {
 		"name": "Animate Dead, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "animate_dead"
 	},
 	"lesser_animate_dead": {
-		"copyof": "animate_dead,_lesser"
+		"copyof": "animate_dead_lesser"
 	},
 	"animate_objects": {
 		"name": "Animate Objects",
@@ -2815,13 +2815,13 @@
 			"This functions as per animus mine, except the triggering creature is stunned for 1d4 rounds instead of staggered. If the target succeeds at a Will saving throw, it takes only half damage and negates the stunned effect. If the target fails this Will saving throw, you automatically succeed at any saving throw against the mind-affecting effect that triggered the mine."
 		]
 	},
-	"animus_mine,_greater": {
+	"animus_mine_greater": {
 		"name": "Animus Mine, Greater",
 		"sources": [ "Heroes of the Darklands" ],
 		"copyof": "animus_mine"
 	},
 	"greater_animus_mine": {
-		"copyof": "animus_mine,_greater"
+		"copyof": "animus_mine_greater"
 	},
 	"anonymous_interaction": {
 		"name": "Anonymous Interaction",
@@ -2893,13 +2893,13 @@
 			"This spell functions like ant haul, except you may divide the duration in 2-hour intervals among the creatures touched."
 		]
 	},
-	"ant_haul,_communal": {
+	"ant_haul_communal": {
 		"name": "Ant Haul, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "ant_haul"
 	},
 	"communal_ant_haul": {
-		"copyof": "ant_haul,_communal"
+		"copyof": "ant_haul_communal"
 	},
 	"anthropomorphic_animal": {
 		"name": "Anthropomorphic Animal",
@@ -3351,7 +3351,7 @@
 		"description": [
 			"## Ape Walk",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava_the_lost_colony)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, druid 3, hunter 2, ranger 2, redmantisassassin 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -3501,13 +3501,13 @@
 			"This spell functions as appearance of life, except that you can disguise a single undead creature regardless of its number of Hit Dice, and the illusion also creates relevant smells, sounds, textures, and temperatures to match the appearance. If you disguise the target as a living version of itself, creatures that interact with the target take a -5 penalty on their Will saving throws to disbelieve the illusion, though if the target attacks a creature, the attacked creature no longer takes this penalty."
 		]
 	},
-	"appearance_of_life,_greater": {
+	"appearance_of_life_greater": {
 		"name": "Appearance of Life, Greater",
 		"sources": [ "Villain Codex" ],
 		"copyof": "appearance_of_life"
 	},
 	"greater_appearance_of_life": {
-		"copyof": "appearance_of_life,_greater"
+		"copyof": "appearance_of_life_greater"
 	},
 	"apport_animal": {
 		"name": "Apport Animal",
@@ -4093,13 +4093,13 @@
 			"Unlike arcane sight, this spell cannot be made permanent with a permanency spell."
 		]
 	},
-	"arcane_sight,_greater": {
+	"arcane_sight_greater": {
 		"name": "Arcane Sight, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "arcane_sight"
 	},
 	"greater_arcane_sight": {
-		"copyof": "arcane_sight,_greater"
+		"copyof": "arcane_sight_greater"
 	},
 	"archon's_aura": {
 		"name": "Archon's Aura",
@@ -4616,13 +4616,13 @@
 			"Additionally, if a likeness used as a focus for the spell is kept on your person or within 30 feet at all times, the aura of greater ssume appearance is redirected to the likeness instead of to you, similar to a reverse application of the misdirection spell."
 		]
 	},
-	"assume_appearance,_greater": {
+	"assume_appearance_greater": {
 		"name": "Assume Appearance, Greater",
 		"sources": [ "Horror Adventures" ],
 		"copyof": "assume_appearance"
 	},
 	"greater_assume_appearance": {
-		"copyof": "assume_appearance,_greater"
+		"copyof": "assume_appearance_greater"
 	},
 	"assumed_likeness": {
 		"name": "Assumed Likeness",
@@ -4710,13 +4710,13 @@
 			"This spell functions as astral projection, except you cannot leave the Astral Plane and explore other planes (though you can still return to the plane you were on when you cast this spell)."
 		]
 	},
-	"astral_projection,_lesser": {
+	"astral_projection_lesser": {
 		"name": "Astral Projection, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "astral_projection"
 	},
 	"lesser_astral_projection": {
-		"copyof": "astral_projection,_lesser"
+		"copyof": "astral_projection_lesser"
 	},
 	"atavism": {
 		"name": "Atavism",
@@ -4761,13 +4761,13 @@
 			"This spell functions as atavism, except that it affects multiple creatures."
 		]
 	},
-	"atavism,_mass": {
+	"atavism_mass": {
 		"name": "Atavism, Mass",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "atavism"
 	},
 	"mass_atavism": {
-		"copyof": "atavism,_mass"
+		"copyof": "atavism_mass"
 	},
 	"atonement": {
 		"name": "Atonement",
@@ -5175,7 +5175,7 @@
 		"description": [
 			"## Aura of the Unremarkable",
 			"",
-			"**Source** [Ultimate Intrigue pg. 204](source/ultimate_intrigue), [Cheliax, Empire of Devils pg. 22](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Ultimate Intrigue pg. 204](source/ultimate_intrigue), [Cheliax, Empire of Devils pg. 22](source/cheliax_empire_of_devils)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 3, medium 2, mesmerist 3, psychic 3, skald 3, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -6069,13 +6069,13 @@
 			"Mass bear's endurance works like bear's endurance, except that it affects multiple creatures."
 		]
 	},
-	"bear's_endurance,_mass": {
+	"bear's_endurance_mass": {
 		"name": "Bear's Endurance, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "bear's_endurance"
 	},
 	"mass_bear's_endurance": {
-		"copyof": "bear's_endurance,_mass"
+		"copyof": "bear's_endurance_mass"
 	},
 	"beast_shape_1": {
 		"name": "Beast Shape I",
@@ -6605,26 +6605,26 @@
 			"This spell functions as bestow curse, except the DC to remove the curse is equal to the save DC + 5."
 		]
 	},
-	"bestow_curse,_greater": {
+	"bestow_curse_greater": {
 		"name": "Bestow Curse, Greater",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"copyof": "bestow_curse"
 	},
 	"greater_bestow_curse": {
-		"copyof": "bestow_curse,_greater"
+		"copyof": "bestow_curse_greater"
 	},
 	"conditional_curse": {
 		"name": "Conditional Curse",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "bestow_curse"
 	},
-	"curse,_major": {
+	"curse_major": {
 		"name": "Curse, Major",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "bestow_curse"
 	},
 	"major_curse": {
-		"copyof": "curse,_major"
+		"copyof": "curse_major"
 	},
 	"bestow_grace": {
 		"name": "Bestow Grace",
@@ -7031,13 +7031,13 @@
 			"This spell functions as binding earth, except as noted above."
 		]
 	},
-	"binding_earth,_mass": {
+	"binding_earth_mass": {
 		"name": "Binding Earth, Mass",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "binding_earth"
 	},
 	"mass_binding_earth": {
-		"copyof": "binding_earth,_mass"
+		"copyof": "binding_earth_mass"
 	},
 	"bit_of_luck": {
 		"name": "Bit of Luck",
@@ -7107,13 +7107,13 @@
 			"This spell functions like bite the hand, except as noted above. The target creatures do not need to have all been summoned by the same being."
 		]
 	},
-	"bite_the_hand,_mass": {
+	"bite_the_hand_mass": {
 		"name": "Bite the Hand, Mass",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"copyof": "bite_the_hand"
 	},
 	"mass_bite_the_hand": {
-		"copyof": "bite_the_hand,_mass"
+		"copyof": "bite_the_hand_mass"
 	},
 	"biting_words": {
 		"name": "Biting Words",
@@ -7561,13 +7561,13 @@
 			"This spell functions like bladed dash, save that you can make a single melee attack against every creature you pass during the 30 feet of your dash. You cannot attack an individual creature more than once with spell."
 		]
 	},
-	"bladed_dash,_greater": {
+	"bladed_dash_greater": {
 		"name": "Bladed Dash, Greater",
 		"sources": [ "Inner Sea Magic" ],
 		"copyof": "bladed_dash"
 	},
 	"greater_bladed_dash": {
-		"copyof": "bladed_dash,_greater"
+		"copyof": "bladed_dash_greater"
 	},
 	"blasphemy": {
 		"name": "Blasphemy",

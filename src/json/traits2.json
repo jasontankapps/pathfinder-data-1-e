@@ -5513,7 +5513,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Changeling",
 			"",
-			"You possess natural magical ability. Select one of the following spells: [bleed](spell/bleed), [create water](bleed/create_water), [dancing lights](spell/dancing_lights), [detect good](spell/detect_good), [ghost sound](spell/ghost_sound), [putrefy food and drink](spell/putrefy_food_and_drink). You can cast this spell three times per day as a spell-like ability."
+			"You possess natural magical ability. Select one of the following spells: [bleed](spell/bleed), [create water](spell/create_water), [dancing lights](spell/dancing_lights), [detect good](spell/detect_good), [ghost sound](spell/ghost_sound), [putrefy food and drink](spell/putrefy_food_and_drink). You can cast this spell three times per day as a spell-like ability."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -7046,7 +7046,7 @@
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
-	"nimble_fingers,_keen_mind": {
+	"nimble_fingers_keen_mind": {
 		"name": "Nimble Fingers, Keen Mind",
 		"sources": [
 			"Inner Sea Gods",
@@ -7061,9 +7061,6 @@
 			"Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on Disable Device checks, and Disable Device is a class skill for you."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
-	},
-	"nimble_fingers_keen_mind": {
-		"copyof": "nimble_fingers,_keen_mind"
 	},
 	"nine-tailed_scion": {
 		"name": "Nine-Tailed Scion",

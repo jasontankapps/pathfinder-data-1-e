@@ -1180,13 +1180,13 @@
 			"This spell functions like reduce person, except that it affects multiple creatures."
 		]
 	},
-	"reduce_person,_mass": {
+	"reduce_person_mass": {
 		"name": "Reduce Person, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "reduce_person"
 	},
 	"mass_reduce_person": {
-		"copyof": "reduce_person,_mass"
+		"copyof": "reduce_person_mass"
 	},
 	"refine_improvised_weapon": {
 		"name": "Refine Improvised Weapon",
@@ -1512,13 +1512,13 @@
 			"This spell functions like reinforce armaments, except you divide the duration in 10-minute intervals among the objects touched."
 		]
 	},
-	"reinforce_armaments,_communal": {
+	"reinforce_armaments_communal": {
 		"name": "Reinforce Armaments, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "reinforce_armaments"
 	},
 	"communal_reinforce_armaments": {
-		"copyof": "reinforce_armaments,_communal"
+		"copyof": "reinforce_armaments_communal"
 	},
 	"reinvigorating_wind": {
 		"name": "Reinvigorating Wind",
@@ -1549,15 +1549,15 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
-	"rejuvenate_eidolon,_greater": {
+	"rejuvenate_eidolon_greater": {
 		"name": "Rejuvenate Eidolon, Greater",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
 	"greater_rejuvenate_eidolon": {
-		"copyof": "rejuvenate_eidolon,_greater"
+		"copyof": "rejuvenate_eidolon_greater"
 	},
-	"rejuvenate_eidolon,_lesser": {
+	"rejuvenate_eidolon_lesser": {
 		"name": "Rejuvenate Eidolon, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
@@ -1620,7 +1620,7 @@
 		]
 	},
 	"lesser_rejuvenate_eidolon": {
-		"copyof": "rejuvenate_eidolon,_lesser"
+		"copyof": "rejuvenate_eidolon_lesser"
 	},
 	"release_the_hounds": {
 		"name": "Release the Hounds",
@@ -1892,13 +1892,13 @@
 			"This spell functions like remove radioactivity, save that it cures all ability damage and drain due to radioactivity that the target has taken. In addition, you can deplete a radioactive object as well, although because you must touch the object to affect it, you expose yourself to at least 1 round of contact with the object's radiation. You must succeed at a caster level check (DC = 5 + the Fortitude DC associated with the radiation effect) in order to deplete the object. If you are successful, the object no longer emits radiation. In the case of a nuclear reactor or atomic warhead, this permanently renders the reactor or warhead inert and harmless."
 		]
 	},
-	"remove_radioactivity,_greater": {
+	"remove_radioactivity_greater": {
 		"name": "Remove Radioactivity, Greater",
 		"sources": [ "Technology Guide" ],
 		"copyof": "remove_radioactivity"
 	},
 	"greater_remove_radioactivity": {
-		"copyof": "remove_radioactivity,_greater"
+		"copyof": "remove_radioactivity_greater"
 	},
 	"remove_sickness": {
 		"name": "Remove Sickness",
@@ -2079,7 +2079,7 @@
 			"When you touch an undead creature, you channel negative energy that heals 1d8 points of damage + 1 point per caster level (maximum +5). This spell has no effect on living creatures, except those that are healed by negative energy are also healed by the spell."
 		]
 	},
-	"repair_undead,_mass": {
+	"repair_undead_mass": {
 		"name": "Repair Undead, Mass",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -2104,7 +2104,7 @@
 		]
 	},
 	"mass_repair_undead": {
-		"copyof": "repair_undead,_mass"
+		"copyof": "repair_undead_mass"
 	},
 	"repel_metal_or_stone": {
 		"name": "Repel Metal or Stone",
@@ -2515,13 +2515,13 @@
 			"This spell functions like resist energy, except you divide the duration in 10-minute intervals among the creatures touched."
 		]
 	},
-	"resist_energy,_communal": {
+	"resist_energy_communal": {
 		"name": "Resist Energy, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "resist_energy"
 	},
 	"communal_resist_energy": {
-		"copyof": "resist_energy,_communal"
+		"copyof": "resist_energy_communal"
 	},
 	"resist_starvation": {
 		"name": "Resist Starvation",
@@ -2887,21 +2887,21 @@
 			"Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
 		]
 	},
-	"restoration,_greater": {
+	"restoration_greater": {
 		"name": "Restoration, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "restoration"
 	},
 	"greater_restoration": {
-		"copyof": "restoration,_greater"
+		"copyof": "restoration_greater"
 	},
-	"restoration,_lesser": {
+	"restoration_lesser": {
 		"name": "Restoration, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "restoration"
 	},
 	"lesser_restoration": {
-		"copyof": "restoration,_lesser"
+		"copyof": "restoration_lesser"
 	},
 	"restore_corpse": {
 		"name": "Restore Corpse",
@@ -2932,7 +2932,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_restore_eidolon"
 	},
-	"restore_eidolon,_lesser": {
+	"restore_eidolon_lesser": {
 		"name": "Restore Eidolon, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -2976,7 +2976,7 @@
 		]
 	},
 	"lesser_restore_eidolon": {
-		"copyof": "restore_eidolon,_lesser"
+		"copyof": "restore_eidolon_lesser"
 	},
 	"restore_mythic_power": {
 		"name": "Restore Mythic Power",
@@ -3109,13 +3109,13 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "resurrection"
 	},
-	"false_resurrection,_greater": {
+	"false_resurrection_greater": {
 		"name": "False Resurrection, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "resurrection"
 	},
 	"greater_false_resurrection": {
-		"copyof": "false_resurrection,_greater"
+		"copyof": "false_resurrection_greater"
 	},
 	"retribution": {
 		"name": "Retribution",
@@ -3269,13 +3269,13 @@
 			"This spell functions like returning weapon, except you divide the duration in 1-minute intervals among the targeted weapons."
 		]
 	},
-	"returning_weapon,_communal": {
+	"returning_weapon_communal": {
 		"name": "Returning Weapon, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "returning_weapon"
 	},
 	"communal_returning_weapon": {
-		"copyof": "returning_weapon,_communal"
+		"copyof": "returning_weapon_communal"
 	},
 	"reveal_emotions": {
 		"name": "Reveal Emotions",
@@ -3307,7 +3307,7 @@
 		"description": [
 			"## Reveal Mirage",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 46](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 46](source/osirion_legacy_of_the_pharaohs)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, cleric 3, druid 2, hunter 1, oracle 3, ranger 1, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -4924,7 +4924,7 @@
 		"description": [
 			"## Sand Whirlwind",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor_echoes_of_glory)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** cleric 3, oracle 3, warpriest 3",
 			"",
 			"### Casting",
@@ -4943,7 +4943,7 @@
 			"",
 			"### Sand Whirlwind, Greater",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 25](source/taldor_echoes_of_glory)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** cleric 5, oracle 5, warpriest 5",
 			"",
 			"#### Casting",
@@ -4961,13 +4961,13 @@
 			"This spell functions as sand whirlwind except as noted above."
 		]
 	},
-	"sand_whirlwind,_greater": {
+	"sand_whirlwind_greater": {
 		"name": "Sand Whirlwind, Greater",
 		"sources": [ "Taldor, Echoes of Glory" ],
 		"copyof": "sand_whirlwind"
 	},
 	"greater_sand_whirlwind": {
-		"copyof": "sand_whirlwind,_greater"
+		"copyof": "sand_whirlwind_greater"
 	},
 	"sands_of_time": {
 		"name": "Sands of Time",
@@ -4979,7 +4979,7 @@
 		"description": [
 			"## Sands of Time",
 			"",
-			"**Source** [Ultimate Magic pg. 236](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Ultimate Magic pg. 236](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 3, cleric 3, occultist 3, oracle 3, psychic 3, shaman 4, sorcerer 3, spiritualist 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -5168,13 +5168,13 @@
 			"This spell functions like scale spikes, except that the spikes growing out of the scales have an enhancement bonus on attack and damage rolls equal to +1 for every 4 caster levels (maximum +5). This bonus does not allow the spikes to bypass damage reduction aside from magic."
 		]
 	},
-	"scale_spikes,_greater": {
+	"scale_spikes_greater": {
 		"name": "Scale Spikes, Greater",
 		"sources": [ "Monster Codex" ],
 		"copyof": "scale_spikes"
 	},
 	"greater_scale_spikes": {
-		"copyof": "scale_spikes,_greater"
+		"copyof": "scale_spikes_greater"
 	},
 	"scales_of_deflection": {
 		"name": "Scales of Deflection",
@@ -5707,13 +5707,13 @@
 			"[^N]: You must have some sort of connection (see below) to a creature of which you have no knowledge."
 		]
 	},
-	"scrying,_greater": {
+	"scrying_greater": {
 		"name": "Scrying, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "scrying"
 	},
 	"greater_scrying": {
-		"copyof": "scrying,_greater"
+		"copyof": "scrying_greater"
 	},
 	"sculpt_corpse": {
 		"name": "Sculpt Corpse",
@@ -5918,7 +5918,7 @@
 			"You seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can't transfer damage to or from another, such as through [shield other](spell/shield_other), a spiritualist's life bond, or a summoner's life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits."
 		]
 	},
-	"sealed_life,_greater": {
+	"sealed_life_greater": {
 		"name": "Sealed Life, Greater",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -5943,7 +5943,7 @@
 		]
 	},
 	"greater_sealed_life": {
-		"copyof": "sealed_life,_greater"
+		"copyof": "sealed_life_greater"
 	},
 	"sealed_sending": {
 		"name": "Sealed Sending",
@@ -6549,13 +6549,13 @@
 			"This spell functions as seeds of influence, except that if the target is protected by a spell that grants immunity, spell resistance, or a saving throw bonus against a divination or mind-affecting spell you cast on the target, you can attempt caster level checks to dispel each such effect before applying the effects of those protections against the spell. The DC of the caster level check to dispel each effect is equal to 11 + the effect's caster level. Such spells cast on the target while greater seeds of influence is active grant no protection against greater seeds of influence."
 		]
 	},
-	"seeds_of_influence,_greater": {
+	"seeds_of_influence_greater": {
 		"name": "Seeds of Influence, Greater",
 		"sources": [ "Inner Sea Intrigue" ],
 		"copyof": "seeds_of_influence"
 	},
 	"greater_seeds_of_influence": {
-		"copyof": "seeds_of_influence,_greater"
+		"copyof": "seeds_of_influence_greater"
 	},
 	"seek_shelter": {
 		"name": "Seek Shelter",
@@ -6836,7 +6836,7 @@
 			"**Duration** concentration, up to 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of [madness](rule/madness) or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score,_edge,_and_thresholds), or is under a magical compulsion that could be detected by [detect magic](spell/detect_magic), you can detect the presence of such a disturbance on the first round of concentration.",
+			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of [madness](rule/madness) or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score_edge_and_thresholds), or is under a magical compulsion that could be detected by [detect magic](spell/detect_magic), you can detect the presence of such a disturbance on the first round of concentration.",
 			"",
 			"If you concentrate on the same creature for an additional round, you learn if the creature's total sanity damage is greater than or equal to its sanity edge, and you can attempt a Sense Motive check against a DC equal to 10 + the save DC of the target's madness or addiction to determine the exact nature of a madness or addiction. Additionally, you can attempt a Spellcraft check with a DC equal to 11 + the caster level of the compulsion against each magical compulsion currently affecting the target that could be detected by detect magic. If successful, you can identify the specific spell affecting the target. You gain a +4 bonus on your Spellcraft check if the effect is confusion, insanity, or a similar effect that explicitly causes madness or insanity. If you successfully identify such an effect with sense madness, the insights provided by this spell grant you a +1 circumstance bonus on your next caster level check in the following 1 minute made to counter, dispel, or remove that specific effect. After attempting a check to identify a madness, addiction, or compulsion, you can't attempt that check against the same creature again, even if you concentrate on the creature again."
 		]
@@ -7417,13 +7417,13 @@
 			"This spell functions like shadow conjuration, except that it duplicates any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 6th level or lower. The illusory conjurations created deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers."
 		]
 	},
-	"shadow_conjuration,_greater": {
+	"shadow_conjuration_greater": {
 		"name": "Shadow Conjuration, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shadow_conjuration"
 	},
 	"greater_shadow_conjuration": {
-		"copyof": "shadow_conjuration,_greater"
+		"copyof": "shadow_conjuration_greater"
 	},
 	"shadow_dragon_aspect": {
 		"name": "Shadow Dragon Aspect",
@@ -7494,13 +7494,13 @@
 			"This spell functions like shadow enchantment, except that it enables you to create partially real, illusory versions of psychic, sorcerer, or wizard enchantment spells of 5th level or lower. If the spell is recognized as a greater shadow enchantment, it's only three-fifths (60%) as effective."
 		]
 	},
-	"shadow_enchantment,_greater": {
+	"shadow_enchantment_greater": {
 		"name": "Shadow Enchantment, Greater",
 		"sources": [ "Occult Realms" ],
 		"copyof": "shadow_enchantment"
 	},
 	"greater_shadow_enchantment": {
-		"copyof": "shadow_enchantment,_greater"
+		"copyof": "shadow_enchantment_greater"
 	},
 	"shadow_endurance": {
 		"name": "Shadow Endurance",
@@ -7577,13 +7577,13 @@
 			"This spell functions like shadow evocation, except that it enables you to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a greater shadow evocation, a damaging spell deals only three-fifths (60%) damage."
 		]
 	},
-	"shadow_evocation,_greater": {
+	"shadow_evocation_greater": {
 		"name": "Shadow Evocation, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shadow_evocation"
 	},
 	"greater_shadow_evocation": {
-		"copyof": "shadow_evocation,_greater"
+		"copyof": "shadow_evocation_greater"
 	},
 	"shadow_invasion": {
 		"name": "Shadow Invasion",
@@ -7756,13 +7756,13 @@
 			"This spell functions like shadow transmutation, except it can mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow transmutation deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers."
 		]
 	},
-	"shadow_transmutation,_greater": {
+	"shadow_transmutation_greater": {
 		"name": "Shadow Transmutation, Greater",
 		"sources": [ "Blood of Shadows" ],
 		"copyof": "shadow_transmutation"
 	},
 	"greater_shadow_transmutation": {
-		"copyof": "shadow_transmutation,_greater"
+		"copyof": "shadow_transmutation_greater"
 	},
 	"shadow_trap": {
 		"name": "Shadow Trap",

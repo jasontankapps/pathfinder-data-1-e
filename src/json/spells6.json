@@ -197,7 +197,7 @@
 		"description": [
 			"## Iron Stake",
 			"",
-			"**Source** [Ultimate Wilderness pg. 231](source/ultimate_wilderness), [The First World, Realm of the Fey pg. 12](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [Ultimate Wilderness pg. 231](source/ultimate_wilderness), [The First World, Realm of the Fey pg. 12](source/the_first_world_realm_of_the_fey)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 3, cleric 3, druid 3, hunter 2, inquisitor 2, oracle 3, ranger 2, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1285,13 +1285,13 @@
 			"Also known as \"unshackle,\" this spell functions as knock, but works on multiple means of closure at once."
 		]
 	},
-	"knock,_mass": {
+	"knock_mass": {
 		"name": "Knock, Mass",
 		"sources": [ "Inner Sea Temples" ],
 		"copyof": "knock"
 	},
 	"mass_knock": {
-		"copyof": "knock,_mass"
+		"copyof": "knock_mass"
 	},
 	"know_direction": {
 		"name": "Know Direction",
@@ -1568,13 +1568,13 @@
 			"This spell functions as Aroden's defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range."
 		]
 	},
-	"last_azlanti's_defending_sword,_mass": {
+	"last_azlanti's_defending_sword_mass": {
 		"name": "Last Azlanti's Defending Sword, Mass",
 		"sources": [ "Arcane Anthology" ],
 		"copyof": "last_azlanti's_defending_sword"
 	},
 	"mass_last_azlanti's_defending_sword": {
-		"copyof": "last_azlanti's_defending_sword,_mass"
+		"copyof": "last_azlanti's_defending_sword_mass"
 	},
 	"lay_of_the_land": {
 		"name": "Lay of the Land",
@@ -1791,13 +1791,13 @@
 			"This functions as lend judgment, except the ally gains the benefit of all your active judgments."
 		]
 	},
-	"lend_judgment,_greater": {
+	"lend_judgment_greater": {
 		"name": "Lend Judgment, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lend_judgment"
 	},
 	"greater_lend_judgment": {
-		"copyof": "lend_judgment,_greater"
+		"copyof": "lend_judgment_greater"
 	},
 	"lend_path": {
 		"name": "Lend Path",
@@ -1899,7 +1899,7 @@
 		"description": [
 			"## Liberating Command",
 			"",
-			"**Source** [Ultimate Combat pg. 233](source/ultimate_combat), [Andoran, Spirit of Liberty pg. 27](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Ultimate Combat pg. 233](source/ultimate_combat), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bard 1, cleric 1, druid 1, hunter 1, medium 1, occultist 1, oracle 1, paladin 1, psychic 1, ranger 1, redmantisassassin 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -2054,21 +2054,21 @@
 			"This spell functions like life conduit, except you can transfer 2d6 hit points as a swift action."
 		]
 	},
-	"life_conduit,_greater": {
+	"life_conduit_greater": {
 		"name": "Life Conduit, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "life_conduit"
 	},
 	"greater_life_conduit": {
-		"copyof": "life_conduit,_greater"
+		"copyof": "life_conduit_greater"
 	},
-	"life_conduit,_improved": {
+	"life_conduit_improved": {
 		"name": "Life Conduit, Improved",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "life_conduit"
 	},
 	"improved_life_conduit": {
-		"copyof": "life_conduit,_improved"
+		"copyof": "life_conduit_improved"
 	},
 	"life_current": {
 		"name": "Life Current",
@@ -2340,7 +2340,7 @@
 			"This spell functions like lighten object, except that it affects a number of objects equal to half your caster level."
 		]
 	},
-	"lighten_object,_mass": {
+	"lighten_object_mass": {
 		"name": "Lighten Object, Mass",
 		"sources": [
 			"Inner Sea Gods",
@@ -2349,7 +2349,7 @@
 		"copyof": "lighten_object"
 	},
 	"mass_lighten_object": {
-		"copyof": "lighten_object,_mass"
+		"copyof": "lighten_object_mass"
 	},
 	"lightfingers": {
 		"name": "Lightfingers",
@@ -3138,7 +3138,7 @@
 		"description": [
 			"## Litany of Truth",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira_jewel_of_the_east)  ",
 			"**School** [divination](spelldef/divination) [[language-dependent](spelldef/language-dependent)]; **Level** inquisitor 6, paladin 4",
 			"",
 			"### Casting",
@@ -3381,7 +3381,7 @@
 		"description": [
 			"## Locate Portal",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world_realm_of_the_fey)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 2, cleric 2, druid 2, hunter 1, oracle 2, psychic 2, ranger 1, shaman 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -3583,13 +3583,13 @@
 			"This functions as longstrider, except it gives you a +20 foot enhancement bonus to your base speed and a +10 foot enhancement bonus to your other modes of movement (burrow, climb, fly, swim, and so on). It does not affect movement modes you do not actually have-for example, if you do not have a swim speed, this spell does not grant you a swim speed."
 		]
 	},
-	"longstrider,_greater": {
+	"longstrider_greater": {
 		"name": "Longstrider, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "longstrider"
 	},
 	"greater_longstrider": {
-		"copyof": "longstrider,_greater"
+		"copyof": "longstrider_greater"
 	},
 	"lose_the_trail": {
 		"name": "Lose the Trail",
@@ -4264,13 +4264,13 @@
 		"sources": [ "Adventurer's Guide" ],
 		"copyof": "magic_aura"
 	},
-	"magic_aura,_greater": {
+	"magic_aura_greater": {
 		"name": "Magic Aura, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "magic_aura"
 	},
 	"greater_magic_aura": {
-		"copyof": "magic_aura,_greater"
+		"copyof": "magic_aura_greater"
 	},
 	"magic_boulder": {
 		"name": "Magic Boulder",
@@ -4494,13 +4494,13 @@
 			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: flaming burst, icy burst, or shocking burst."
 		]
 	},
-	"magic_fang,_greater": {
+	"magic_fang_greater": {
 		"name": "Magic Fang, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "magic_fang"
 	},
 	"greater_magic_fang": {
-		"copyof": "magic_fang,_greater"
+		"copyof": "magic_fang_greater"
 	},
 	"magic_jar": {
 		"name": "Magic Jar",
@@ -4707,13 +4707,13 @@
 			"This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as greater magic weapon."
 		]
 	},
-	"magic_siege_engine,_greater": {
+	"magic_siege_engine_greater": {
 		"name": "Magic Siege Engine, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "magic_siege_engine"
 	},
 	"greater_magic_siege_engine": {
-		"copyof": "magic_siege_engine,_greater"
+		"copyof": "magic_siege_engine_greater"
 	},
 	"magic_stone": {
 		"name": "Magic Stone",
@@ -4834,13 +4834,13 @@
 			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonus by 1 to add two of the above abilities or one of the following abilities: anarchic, axiomatic, flaming burst, holy, icy burst, shocking burst, or unholy."
 		]
 	},
-	"magic_weapon,_greater": {
+	"magic_weapon_greater": {
 		"name": "Magic Weapon, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "magic_weapon"
 	},
 	"greater_magic_weapon": {
-		"copyof": "magic_weapon,_greater"
+		"copyof": "magic_weapon_greater"
 	},
 	"magnetic_field": {
 		"name": "Magnetic Field",
@@ -5031,13 +5031,13 @@
 			"This spell repairs 1d6 points of damage plus 1 point per level when cast on a construct creature (maximum 10d6+10). Greater make whole can fix destroyed magic items or technological items (items at 0 hit points or fewer), and restores the magic properties of the item if your caster level at least equal to that of the item. This spell otherwise functions as make whole."
 		]
 	},
-	"make_whole,_greater": {
+	"make_whole_greater": {
 		"name": "Make Whole, Greater",
 		"sources": [ "Technology Guide" ],
 		"copyof": "make_whole"
 	},
 	"greater_make_whole": {
-		"copyof": "make_whole,_greater"
+		"copyof": "make_whole_greater"
 	},
 	"malediction": {
 		"name": "Malediction",
@@ -5630,13 +5630,13 @@
 			"This spell functions like mask dweomer, except you divide the duration in 1-day increments among the creatures or objects touched."
 		]
 	},
-	"mask_dweomer,_communal": {
+	"mask_dweomer_communal": {
 		"name": "Mask Dweomer, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "mask_dweomer"
 	},
 	"communal_mask_dweomer": {
-		"copyof": "mask_dweomer,_communal"
+		"copyof": "mask_dweomer_communal"
 	},
 	"mask_from_divination": {
 		"name": "Mask from Divination",
@@ -6376,13 +6376,13 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "message"
 	},
-	"demanding_message,_mass": {
+	"demanding_message_mass": {
 		"name": "Demanding Message, Mass",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "message"
 	},
 	"mass_demanding_message": {
-		"copyof": "demanding_message,_mass"
+		"copyof": "demanding_message_mass"
 	},
 	"metabolic_molting": {
 		"name": "Metabolic Molting",
@@ -6659,13 +6659,13 @@
 			"This spell functions like mind blank, except you divide the duration in 1-hour increments among the creatures touched."
 		]
 	},
-	"mind_blank,_communal": {
+	"mind_blank_communal": {
 		"name": "Mind Blank, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "mind_blank"
 	},
 	"communal_mind_blank": {
-		"copyof": "mind_blank,_communal"
+		"copyof": "mind_blank_communal"
 	},
 	"mind_fog": {
 		"name": "Mind Fog",
@@ -6818,13 +6818,13 @@
 			"The spell functions as mind swap, except as noted above. In addition, after 24 hours, instead of using each other's hit points, you each revert to your original hit points, modified by your new Constitution modifiers. This spell can be reversed only with miracle, wish, or another major mind swap."
 		]
 	},
-	"mind_swap,_major": {
+	"mind_swap_major": {
 		"name": "Mind Swap, Major",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_swap"
 	},
 	"major_mind_swap": {
-		"copyof": "mind_swap,_major"
+		"copyof": "mind_swap_major"
 	},
 	"mind_thrust_1": {
 		"name": "Mind Thrust I",
@@ -7323,13 +7323,13 @@
 			"You create a replica within the Akashic Record of each target at the time the spell is cast. Each targeted creature must currently have at least half its hit points. If at any time during the duration of the spell a target is brought below half her maximum hit points, that target can end the spell on herself as an immediate action to absorb strength from her replica and immediately regain a number of hit points equal to 1d8 plus 1 point per caster level (maximum +25)."
 		]
 	},
-	"minor_reversion,_mass": {
+	"minor_reversion_mass": {
 		"name": "Minor Reversion, Mass",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"copyof": "minor_reversion"
 	},
 	"mass_minor_reversion": {
-		"copyof": "minor_reversion,_mass"
+		"copyof": "minor_reversion_mass"
 	},
 	"greater_reversion": {
 		"name": "Greater Reversion",

@@ -7020,7 +7020,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), delusional pride; **Cost** 1,800 gp"
 		]
 	},
-	"aegis_of_recovery,_greater": {
+	"aegis_of_recovery_greater": {
 		"name": "Aegis of Recovery, Greater",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -7038,7 +7038,7 @@
 		]
 	},
 	"greater_aegis_of_recovery": {
-		"copyof": "aegis_of_recovery,_greater"
+		"copyof": "aegis_of_recovery_greater"
 	},
 	"orb_of_the_waybringer": {
 		"name": "Orb of the Waybringer",

@@ -1,5 +1,5 @@
 {
-	"kami,_shikigami": {
+	"kami_shikigami": {
 		"name": "Kami, Shikigami",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -64,8 +64,8 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"shikigami": { "copyof": "kami,_shikigami" },
-	"kami,_suijin": {
+	"shikigami": { "copyof": "kami_shikigami" },
+	"kami_suijin": {
 		"name": "Kami, Suijin",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
@@ -144,8 +144,8 @@
 			"Suijins are solitary kami, and rarely go out of their way to band with others of their kind, preferring instead to protect isolated bodies of water. This form of aloofness isn't out of fear of or apathy for other kami; instead, suijins merely adhere to a loosely established territorial pact, knowing that their powers are more valuable when spread throughout regions, rather than concentrated on particular bodies of water. When suijins do interact with one another, they do so at points where two bodies of water meet, such as estuaries and deltas. If two connecting bodies of water are especially healthy and the suijins residing in them are entirely undisturbed by forces of corruption, it is said that the water kami celebrate nature in a sort of bonding ritual. The rare event can be seen as motes of blue and green light whirling in the shallows of the adjoining water, and scholars speculate that this event may symbolize the creation of a new suijin."
 		]
 	},
-	"suijin": { "copyof": "kami,_suijin" },
-	"kami,_toshigami": {
+	"suijin": { "copyof": "kami_suijin" },
+	"kami_toshigami": {
 		"name": "Kami, Toshigami",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -205,8 +205,8 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"toshigami": { "copyof": "kami,_toshigami" },
-	"kami,_zuishin": {
+	"toshigami": { "copyof": "kami_toshigami" },
+	"kami_zuishin": {
 		"name": "Kami, Zuishin",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -272,7 +272,7 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"zuishin": { "copyof": "kami,_zuishin" },
+	"zuishin": { "copyof": "kami_zuishin" },
 	"kangaroo": {
 		"name": "Kangaroo",
 		"sources": [ "Bestiary 3" ],
@@ -571,7 +571,7 @@
 			"While karkinoi rarely ally with other creatures, they are easily swayed by aboleths promising destruction and raw power. In return, the aboleths gain expendable, fastbreeding shock troops and guardians. Some scholars believe this race was actually created by aboleths in ancient times, but were later turned loose in the ocean because skum made more reliable slaves than karkinoi brutes."
 		]
 	},
-	"karkinoi,_karkinoi_brood_swarm": {
+	"karkinoi_karkinoi_brood_swarm": {
 		"name": "Karkinoi, Karkinoi Brood Swarm",
 		"sources": [ "Plunder and Peril" ],
 		"description": [
@@ -634,7 +634,7 @@
 			"The karkinoi brood mother remains close by her progeny after they hatch, both to educate them and to safeguard them from predators, especially other karkinoi, which have been known to cannibalize karkinoi spawn. Karkinoi spawn mature rapidly, growing larger and aggressively vying for domination over each other. A karkinoi brood swarm's spawn rapidly diminish in number as the stronger members consume the vanquished. Eventually the karkinoi adolescents split up, searching for their own aquatic lairs and ample sources of soft meat."
 		]
 	},
-	"karkinoi_brood_swarm": { "copyof": "karkinoi,_karkinoi_brood_swarm" },
+	"karkinoi_brood_swarm": { "copyof": "karkinoi_karkinoi_brood_swarm" },
 	"karumzek": {
 		"name": "Karumzek",
 		"sources": [ "Inner Sea Gods" ],
@@ -1370,7 +1370,7 @@
 			"",
 			"### Keulia, CR 1/4",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma_profit_and_prophecy)  ",
 			"**XP** 100  ",
 			"N Tiny animal  ",
 			"**Init** +1; **Senses** low-light vision; Perception +5",
@@ -2091,7 +2091,7 @@
 			"Kobold coloration varies even among siblings from the same egg clutch, ranging through the colors of the chromatic dragons, with red being the most common but white, green, blue, and black kobolds not unheard of."
 		]
 	},
-	"kobold,_kobold_battle_master": {
+	"kobold_kobold_battle_master": {
 		"name": "Kobold, Kobold Battle Master",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2140,8 +2140,8 @@
 			"The boldest kobolds enjoy riding bizarre beasts into battle."
 		]
 	},
-	"kobold_battle_master": { "copyof": "kobold,_kobold_battle_master" },
-	"kobold,_kobold_blade": {
+	"kobold_battle_master": { "copyof": "kobold_kobold_battle_master" },
+	"kobold_kobold_blade": {
 		"name": "Kobold, Kobold Blade",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2190,8 +2190,8 @@
 			"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option."
 		]
 	},
-	"kobold_blade": { "copyof": "kobold,_kobold_blade" },
-	"kobold,_kobold_bomber": {
+	"kobold_blade": { "copyof": "kobold_kobold_blade" },
+	"kobold_kobold_bomber": {
 		"name": "Kobold, Kobold Bomber",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2246,8 +2246,8 @@
 			"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects."
 		]
 	},
-	"kobold_bomber": { "copyof": "kobold,_kobold_bomber" },
-	"kobold,_kobold_chieftain": {
+	"kobold_bomber": { "copyof": "kobold_kobold_bomber" },
+	"kobold_kobold_chieftain": {
 		"name": "Kobold, Kobold Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2296,8 +2296,8 @@
 			"Kobold leaders are the undisputed masters of their tribes."
 		]
 	},
-	"kobold_chieftain": { "copyof": "kobold,_kobold_chieftain" },
-	"kobold,_kobold_devilspeaker": {
+	"kobold_chieftain": { "copyof": "kobold_kobold_chieftain" },
+	"kobold_kobold_devilspeaker": {
 		"name": "Kobold, Kobold Devilspeaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2363,8 +2363,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"kobold_devilspeaker": { "copyof": "kobold,_kobold_devilspeaker" },
-	"kobold,_kobold_guilecaster": {
+	"kobold_devilspeaker": { "copyof": "kobold_kobold_devilspeaker" },
+	"kobold_kobold_guilecaster": {
 		"name": "Kobold, Kobold Guilecaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2419,8 +2419,8 @@
 			"Kobolds see sorcery as proof of their draconic heritage."
 		]
 	},
-	"kobold_guilecaster": { "copyof": "kobold,_kobold_guilecaster" },
-	"kobold,_kobold_master_trapper": {
+	"kobold_guilecaster": { "copyof": "kobold_kobold_guilecaster" },
+	"kobold_kobold_master_trapper": {
 		"name": "Kobold, Kobold Master Trapper",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2474,8 +2474,8 @@
 			"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects."
 		]
 	},
-	"kobold_master_trapper": { "copyof": "kobold,_kobold_master_trapper" },
-	"kobold,_kobold_monster_wrangler": {
+	"kobold_master_trapper": { "copyof": "kobold_kobold_master_trapper" },
+	"kobold_kobold_monster_wrangler": {
 		"name": "Kobold, Kobold Monster Wrangler",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2523,8 +2523,8 @@
 			"The boldest kobolds enjoy riding bizarre beasts into battle."
 		]
 	},
-	"kobold_monster_wrangler": { "copyof": "kobold,_kobold_monster_wrangler" },
-	"kobold,_kobold_scalecaster": {
+	"kobold_monster_wrangler": { "copyof": "kobold_kobold_monster_wrangler" },
+	"kobold_kobold_scalecaster": {
 		"name": "Kobold, Kobold Scalecaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2577,8 +2577,8 @@
 			"Kobolds see sorcery as proof of their draconic heritage."
 		]
 	},
-	"kobold_scalecaster": { "copyof": "kobold,_kobold_scalecaster" },
-	"kobold,_kobold_sniper": {
+	"kobold_scalecaster": { "copyof": "kobold_kobold_scalecaster" },
+	"kobold_kobold_sniper": {
 		"name": "Kobold, Kobold Sniper",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2626,8 +2626,8 @@
 			"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option."
 		]
 	},
-	"kobold_sniper": { "copyof": "kobold,_kobold_sniper" },
-	"kobold,_kobold_yapper": {
+	"kobold_sniper": { "copyof": "kobold_kobold_sniper" },
+	"kobold_kobold_yapper": {
 		"name": "Kobold, Kobold Yapper",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2681,7 +2681,7 @@
 			"Kobold leaders are the undisputed masters of their tribes."
 		]
 	},
-	"kobold_yapper": { "copyof": "kobold,_kobold_yapper" },
+	"kobold_yapper": { "copyof": "kobold_kobold_yapper" },
 	"kokogiak": {
 		"name": "Kokogiak",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
@@ -2692,7 +2692,7 @@
 			"",
 			"### Kokogiak, CR 12",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 86](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 86](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**XP** 19,200  ",
 			"NE Huge magical beast  ",
 			"**Init** +1; **Senses** darkvision 60 ft., low-light vision; Perception +18",
@@ -3063,7 +3063,7 @@
 			"A kraken measures nearly 100 feet in length and weighs 4,000 pounds."
 		]
 	},
-	"kraken,_qwoshokk": {
+	"kraken_qwoshokk": {
 		"name": "Kraken, Qwoshokk",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -3114,7 +3114,7 @@
 			"Having worked on the Cholcorite Mechanism for millennia, Qwoshokk was able to extract several unnecessary parts out of the device for his personal use. Among them are his crown and armlets, items which he's bonded to his flesh to give him power over lightning as well as to enhance his ability to summon and control creatures with weak minds."
 		]
 	},
-	"qwoshokk": { "copyof": "kraken,_qwoshokk" },
+	"qwoshokk": { "copyof": "kraken_qwoshokk" },
 	"krampus": {
 		"name": "Krampus",
 		"sources": [ "Bestiary 6" ],
@@ -3629,7 +3629,7 @@
 		]
 	},
 	"evangelist": { "copyof": "kyton" },
-	"kyton,_apocrisiarius": {
+	"kyton_apocrisiarius": {
 		"name": "Kyton, Apocrisiarius",
 		"sources": [
 			"Pathfinder #98: Turn of the Torrent",
@@ -3713,8 +3713,8 @@
 			"An apocrisiarius' victims are particularly unfortunate souls, for these kytons have no interest in their prisoners' well-being after truths have been extracted. Indeed, apocrisiariuses have been known to deliberately avoid acquiring the desired information in a timely manner in order to maximize the amount of time they can spend tormenting their victims, under the theory that only when a being has nothing else to cling to does the truth it conceals become pure. This does mean that in cases where a creature might hold multiple secrets, an apocrisiarius may not be the best choice for the job. These kytons excel at extracting the truth, but often their subjects do not survive beyond uttering their first revelations."
 		]
 	},
-	"apocrisiarius": { "copyof": "kyton,_apocrisiarius" },
-	"kyton,_augur": {
+	"apocrisiarius": { "copyof": "kyton_apocrisiarius" },
+	"kyton_augur": {
 		"name": "Kyton, Augur",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3781,8 +3781,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"augur": { "copyof": "kyton,_augur" },
-	"kyton,_cantor": {
+	"augur": { "copyof": "kyton_augur" },
+	"kyton_cantor": {
 		"name": "Kyton, Cantor",
 		"sources": [
 			"Occult Bestiary",
@@ -3849,8 +3849,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"cantor": { "copyof": "kyton,_cantor" },
-	"kyton,_ephialtes": {
+	"cantor": { "copyof": "kyton_cantor" },
+	"kyton_ephialtes": {
 		"name": "Kyton, Ephialtes",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
@@ -3932,8 +3932,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"ephialtes": { "copyof": "kyton,_ephialtes" },
-	"kyton,_eremite": {
+	"ephialtes": { "copyof": "kyton_ephialtes" },
+	"kyton_eremite": {
 		"name": "Kyton, Eremite",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4016,8 +4016,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"eremite": { "copyof": "kyton,_eremite" },
-	"kyton,_interlocutor": {
+	"eremite": { "copyof": "kyton_eremite" },
+	"kyton_interlocutor": {
 		"name": "Kyton, Interlocutor",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4081,8 +4081,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"interlocutor": { "copyof": "kyton,_interlocutor" },
-	"kyton,_lampadarius": {
+	"interlocutor": { "copyof": "kyton_interlocutor" },
+	"kyton_lampadarius": {
 		"name": "Kyton, Lampadarius",
 		"sources": [
 			"Inner Sea Gods",
@@ -4151,8 +4151,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"lampadarius": { "copyof": "kyton,_lampadarius" },
-	"kyton,_libitinarii": {
+	"lampadarius": { "copyof": "kyton_lampadarius" },
+	"kyton_libitinarii": {
 		"name": "Kyton, Libitinarii",
 		"sources": [
 			"Pathfinder #137: The City Outside of Time",
@@ -4236,8 +4236,8 @@
 			"An infamous libitinarii ritual is the Rite of Piercing, which is common practice in the realm of Frozen Tears. In this ritual, libitinariis drive foot-long nails of ice through the flesh of victims they have determined to be morally pure. When the victims reach the point of death, the kytons then freeze them into icy statues and arrange them into unholy menageries."
 		]
 	},
-	"libitinarii": { "copyof": "kyton,_libitinarii" },
-	"kyton,_oitos": {
+	"libitinarii": { "copyof": "kyton_libitinarii" },
+	"kyton_oitos": {
 		"name": "Kyton, Oitos",
 		"sources": [
 			"Book of the Damned",
@@ -4306,8 +4306,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"oitos": { "copyof": "kyton,_oitos" },
-	"kyton,_ostiarius": {
+	"oitos": { "copyof": "kyton_oitos" },
+	"kyton_ostiarius": {
 		"name": "Kyton, Ostiarius",
 		"sources": [
 			"Bestiary 4",
@@ -4374,8 +4374,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"ostiarius": { "copyof": "kyton,_ostiarius" },
-	"kyton,_phylacator": {
+	"ostiarius": { "copyof": "kyton_ostiarius" },
+	"kyton_phylacator": {
 		"name": "Kyton, Phylacator",
 		"sources": [
 			"Pathfinder #132: The Six-Legend Soul",
@@ -4460,13 +4460,13 @@
 			"",
 			"Although the creatures mortals call kytons are properly known as \"velstracs,\" most don't mind the term \"kyton\" as it denotes a flattering appreciation for their skills. Phylacators are an exception; they bristle at being called kytons and insist that their kind be called velstracs instead. Failing to do so after a single instance of correction is sufficient to earn a phylacator's ire.",
 			"",
-			"A select few phylacators are bound to the Material Plane to serve as jailers for military prisons or other high-security detention facilities. A spellcaster can bound a phylacator only with powerful spells such as [planar ally, greater](spell/planar_ally,_greater) or [greater planar binding](spell/greater_planar_binding). A conjurer that knows a phylacator's proper name can promise the phylacator sanction over not less than 100 good or chaotic creatures and ownership of the corpses of prisoners executed under the phylacator's jurisdiction. If these criteria are met, a phylacator serves willingly and obediently for 1 year. A phylacator might serve longer for a larger prison population, or increasingly sadistic authority over the prisoners.",
+			"A select few phylacators are bound to the Material Plane to serve as jailers for military prisons or other high-security detention facilities. A spellcaster can bound a phylacator only with powerful spells such as [planar ally, greater](spell/planar_ally_greater) or [greater planar binding](spell/greater_planar_binding). A conjurer that knows a phylacator's proper name can promise the phylacator sanction over not less than 100 good or chaotic creatures and ownership of the corpses of prisoners executed under the phylacator's jurisdiction. If these criteria are met, a phylacator serves willingly and obediently for 1 year. A phylacator might serve longer for a larger prison population, or increasingly sadistic authority over the prisoners.",
 			"",
 			"Most phylacators on Golarion serve evil dictators or wicked cults, although a few secretly serve less despicable benefactors who use the outsiders to keep dangerous criminals securely locked away. For instance, many Nidalese know of phylacators serving in Pangolais, but rumors that taxmasters of Abadar employ a phylacator in a secret correctional installation beneath Oppara are stridently denied by the church."
 		]
 	},
-	"phylacator": { "copyof": "kyton,_phylacator" },
-	"kyton,_sacristan": {
+	"phylacator": { "copyof": "kyton_phylacator" },
+	"kyton_sacristan": {
 		"name": "Kyton, Sacristan",
 		"sources": [
 			"Bestiary 4",
@@ -4531,8 +4531,8 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"sacristan": { "copyof": "kyton,_sacristan" },
-	"kyton,_suffragan": {
+	"sacristan": { "copyof": "kyton_sacristan" },
+	"kyton_suffragan": {
 		"name": "Kyton, Suffragan",
 		"sources": [
 			"Nidal, Land of Shadows",
@@ -4545,7 +4545,7 @@
 			"",
 			"### Suffragan, CR 5",
 			"",
-			"**Source** [Nidal, Land of Shadows pg. 58](source/nidal,_land_of_shadows)  ",
+			"**Source** [Nidal, Land of Shadows pg. 58](source/nidal_land_of_shadows)  ",
 			"**XP** 1,600  ",
 			"LE Medium outsider (evil, extraplanar, kyton, lawful)  ",
 			"**Init** +3; **Senses** darkvision 60 ft.; Perception +12",
@@ -4618,8 +4618,8 @@
 			"As suffragans switch easily and naturally between their configurations, they are often quite comfortable with other creatures that have malleable forms. Suffragans particularly like oozes, keeping them as pampered pets when possible and feeding them cast-off bits of flesh or the remains of their victims. Suffragans find doppelgangers and faceless stalkers intriguing, and such captives might earn an opportunity to escape by promising an entertaining display of shape-shifting."
 		]
 	},
-	"suffragan": { "copyof": "kyton,_suffragan" },
-	"kyton,_termagant": {
+	"suffragan": { "copyof": "kyton_suffragan" },
+	"kyton_termagant": {
 		"name": "Kyton, Termagant",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -4684,7 +4684,7 @@
 			"**Family:** [Kyton](family/kyton)"
 		]
 	},
-	"termagant": { "copyof": "kyton,_termagant" },
+	"termagant": { "copyof": "kyton_termagant" },
 	"lamhigyn": {
 		"name": "Lamhigyn",
 		"sources": [
@@ -4878,7 +4878,7 @@
 			"The queens of a race consumed by bitterness and predatory instinct, lamia matriarchs mastermind all manner of foul plots in hopes of breaking the bestial curse that afflicts their race. They move with shocking ease from silken-tongued temptresses to dervishes, striking with all the deadly precision of vipers. Quick to covet, enslave, and overindulge, lamia matriarchs luxuriate in gory feasts, violent trysts, and bloody entertainments, reveling until their playthings are broken or until they tire and move on."
 		]
 	},
-	"lamia-kin,_hungerer": {
+	"lamia-kin_hungerer": {
 		"name": "Lamia-Kin, Hungerer",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
@@ -4945,9 +4945,9 @@
 			"Hungerers are unnatural creatures, re-released into the world with Karzoug's awakening. These terrors live in constant pain and serve as living embodiments of hunger, insatiable in their constant quests for sustenance. Although they prefer to tear and rend living flesh, hungerers can consume almost any organic material, and might even gnaw on stone or metal without ill effect when nothing else is available."
 		]
 	},
-	"hungerer": { "copyof": "lamia-kin,_hungerer" },
-	"lamia_kin_hungerer": { "copyof": "lamia-kin,_hungerer" },
-	"lamia-kin,_kuchrima": {
+	"hungerer": { "copyof": "lamia-kin_hungerer" },
+	"lamia_kin_hungerer": { "copyof": "lamia-kin_hungerer" },
+	"lamia-kin_kuchrima": {
 		"name": "Lamia-Kin, Kuchrima",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
@@ -5011,8 +5011,8 @@
 			"Kuchrimas dwell principally in the thin air among the upper peaks of desolate mountain ranges, where they have gathered in enclaves or \"gluttonies.\" They have lived in a state of static barbarism since the diaspora following the fall of the Thassilonian Empire. In the thousands of years since that civilization's collapse, these lamia-kin have migrated to many mountainous regions throughout Golarion. These disease-ridden hunters strive to remain well out of sight of landbound races, which they mistrust and fear in numbers. Should a new runelord or powerful harridan come into power and manage to locate these disparate gluttonies, however, the kuchrimas could be gathered into a formidable airborne force once again."
 		]
 	},
-	"kuchrima": { "copyof": "lamia-kin,_kuchrima" },
-	"lamia_kin_kuchrima": { "copyof": "lamia-kin,_kuchrima" },
+	"kuchrima": { "copyof": "lamia-kin_kuchrima" },
+	"lamia_kin_kuchrima": { "copyof": "lamia-kin_kuchrima" },
 	"lammasu": {
 		"name": "Lammasu",
 		"sources": [
@@ -5090,7 +5090,7 @@
 			"",
 			"### Lamp Blighter, CR 6",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 90](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 90](source/pathfinder_#128_songbird_scion_saboteur)  ",
 			"**XP** 2,400  ",
 			"CE Small fey  ",
 			"**Init** +5; **Senses** blindsight 60 ft., darkvision 60 ft., low-light vision; Perception +15",
@@ -5713,7 +5713,7 @@
 			"Winter: A leaf ray in the winter turns a dull range of browns and grays, and its poison deals Constitution damage instead of Dexterity damage. Because of this, few leaf rays are successful in implanting their seeds during this season."
 		]
 	},
-	"leech,_giant_leech": {
+	"leech_giant_leech": {
 		"name": "Leech, Giant Leech",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5768,8 +5768,8 @@
 			"These invertebrate parasitic relatives of the worm lurk in stagnant or slow-moving water, waiting for a suitable host."
 		]
 	},
-	"giant_leech": { "copyof": "leech,_giant_leech" },
-	"leech,_leech_swarm": {
+	"giant_leech": { "copyof": "leech_giant_leech" },
+	"leech_leech_swarm": {
 		"name": "Leech, Leech Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5822,8 +5822,8 @@
 			"This horrifying cloud of ravenous, blood-draining parasites eschews the stealth of a lone leech's methods in favor of swift and merciless feeding."
 		]
 	},
-	"leech_swarm": { "copyof": "leech,_leech_swarm" },
-	"leshy,_cactus_leshy": {
+	"leech_swarm": { "copyof": "leech_leech_swarm" },
+	"leshy_cactus_leshy": {
 		"name": "Leshy, Cactus Leshy",
 		"sources": [
 			"Pathfinder #115: Trail of the Hunted",
@@ -5904,8 +5904,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"cactus_leshy": { "copyof": "leshy,_cactus_leshy" },
-	"leshy,_flytrap_leshy": {
+	"cactus_leshy": { "copyof": "leshy_cactus_leshy" },
+	"leshy_flytrap_leshy": {
 		"name": "Leshy, Flytrap Leshy",
 		"sources": [
 			"Bestiary 5",
@@ -5982,8 +5982,8 @@
 			"**Requirements** Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 		]
 	},
-	"flytrap_leshy": { "copyof": "leshy,_flytrap_leshy" },
-	"leshy,_fungus_leshy": {
+	"flytrap_leshy": { "copyof": "leshy_flytrap_leshy" },
+	"leshy_fungus_leshy": {
 		"name": "Leshy, Fungus Leshy",
 		"sources": [
 			"Bestiary 3",
@@ -6061,8 +6061,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"fungus_leshy": { "copyof": "leshy,_fungus_leshy" },
-	"leshy,_gourd_leshy": {
+	"fungus_leshy": { "copyof": "leshy_fungus_leshy" },
+	"leshy_gourd_leshy": {
 		"name": "Leshy, Gourd Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6139,8 +6139,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"gourd_leshy": { "copyof": "leshy,_gourd_leshy" },
-	"leshy,_leaf_leshy": {
+	"gourd_leshy": { "copyof": "leshy_gourd_leshy" },
+	"leshy_leaf_leshy": {
 		"name": "Leshy, Leaf Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6212,8 +6212,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"leaf_leshy": { "copyof": "leshy,_leaf_leshy" },
-	"leshy,_lichen_leshy": {
+	"leaf_leshy": { "copyof": "leshy_leaf_leshy" },
+	"leshy_lichen_leshy": {
 		"name": "Leshy, Lichen Leshy",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
@@ -6293,8 +6293,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"lichen_leshy": { "copyof": "leshy,_lichen_leshy" },
-	"leshy,_lotus_leshy": {
+	"lichen_leshy": { "copyof": "leshy_lichen_leshy" },
+	"leshy_lotus_leshy": {
 		"name": "Leshy, Lotus Leshy",
 		"sources": [
 			"Bestiary 5",
@@ -6370,8 +6370,8 @@
 			"**Requirements** Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; **Cost** 4,500 gp"
 		]
 	},
-	"lotus_leshy": { "copyof": "leshy,_lotus_leshy" },
-	"leshy,_seaweed_leshy": {
+	"lotus_leshy": { "copyof": "leshy_lotus_leshy" },
+	"leshy_seaweed_leshy": {
 		"name": "Leshy, Seaweed Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6446,8 +6446,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"seaweed_leshy": { "copyof": "leshy,_seaweed_leshy" },
-	"leshy,_snapdragon_leshy": {
+	"seaweed_leshy": { "copyof": "leshy_seaweed_leshy" },
+	"leshy_snapdragon_leshy": {
 		"name": "Leshy, Snapdragon Leshy",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
@@ -6525,8 +6525,8 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"snapdragon_leshy": { "copyof": "leshy,_snapdragon_leshy" },
-	"leshy,_sunflower_leshy": {
+	"snapdragon_leshy": { "copyof": "leshy_snapdragon_leshy" },
+	"leshy_sunflower_leshy": {
 		"name": "Leshy, Sunflower Leshy",
 		"sources": [
 			"Pathfinder #115: Trail of the Hunted",
@@ -6604,5 +6604,5 @@
 			"**Family:** [Leshy](family/leshy)"
 		]
 	},
-	"sunflower_leshy": { "copyof": "leshy,_sunflower_leshy" }
+	"sunflower_leshy": { "copyof": "leshy_sunflower_leshy" }
 }

@@ -1,5 +1,5 @@
 {
-	"demon,_ghalzarokh": {
+	"demon_ghalzarokh": {
 		"name": "Demon, Ghalzarokh",
 		"sources": [
 			"Book of the Damned",
@@ -61,8 +61,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"ghalzarokh": { "copyof": "demon,_ghalzarokh" },
-	"demon,_gibrileth": {
+	"ghalzarokh": { "copyof": "demon_ghalzarokh" },
+	"demon_gibrileth": {
 		"name": "Demon, Gibrileth",
 		"sources": [
 			"The Worldwound",
@@ -131,8 +131,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"gibrileth": { "copyof": "demon,_gibrileth" },
-	"demon,_glabrezu": {
+	"gibrileth": { "copyof": "demon_gibrileth" },
+	"demon_glabrezu": {
 		"name": "Demon, Glabrezu",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -189,8 +189,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"glabrezu": { "copyof": "demon,_glabrezu" },
-	"demon,_hala": {
+	"glabrezu": { "copyof": "demon_glabrezu" },
+	"demon_hala": {
 		"name": "Demon, Hala",
 		"sources": [
 			"Pathfinder #49: The Brinewall Legacy",
@@ -274,8 +274,8 @@
 			"While hala demons have a general dislike for or distrust of nearly all creatures, they have an especially strong fear and hatred of two creatures: eagles and dragons. Eagles have an innate response to attack and drive a hala from the skies, possibly due to the threat the hala represents to the eagle's territory and offspring. Dragons-of any breed-largely view the storm demons as a danger to their own hoards of treasure, for if a hala discovers the dragon's lair, it will stop at nothing to possess all that lies within it."
 		]
 	},
-	"hala": { "copyof": "demon,_hala" },
-	"demon,_hezrou": {
+	"hala": { "copyof": "demon_hala" },
+	"demon_hezrou": {
 		"name": "Demon, Hezrou",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -339,8 +339,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"hezrou": { "copyof": "demon,_hezrou" },
-	"demon,_incubus": {
+	"hezrou": { "copyof": "demon_hezrou" },
+	"demon_incubus": {
 		"name": "Demon, Incubus",
 		"sources": [
 			"Bestiary 3",
@@ -405,8 +405,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"incubus": { "copyof": "demon,_incubus" },
-	"demon,_kalavakus": {
+	"incubus": { "copyof": "demon_incubus" },
+	"demon_kalavakus": {
 		"name": "Demon, Kalavakus",
 		"sources": [
 			"Bestiary 2",
@@ -470,8 +470,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"kalavakus": { "copyof": "demon,_kalavakus" },
-	"demon,_katpaskir": {
+	"kalavakus": { "copyof": "demon_kalavakus" },
+	"demon_katpaskir": {
 		"name": "Demon, Katpaskir",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
@@ -554,8 +554,8 @@
 			"Katpaskirs are drawn to newly opened rifts and thin places between the planes. Upon reaching such areas, a katpaskir may either attempt to accelerate the opening of the rift or wait for whatever creatures come through once it opens."
 		]
 	},
-	"katpaskir": { "copyof": "demon,_katpaskir" },
-	"demon,_kithangian": {
+	"katpaskir": { "copyof": "demon_katpaskir" },
+	"demon_kithangian": {
 		"name": "Demon, Kithangian",
 		"sources": [
 			"The Worldwound",
@@ -624,8 +624,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"kithangian": { "copyof": "demon,_kithangian" },
-	"demon,_larva": {
+	"kithangian": { "copyof": "demon_kithangian" },
+	"demon_larva": {
 		"name": "Demon, Larva",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
@@ -671,8 +671,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"larva": { "copyof": "demon,_larva" },
-	"demon,_lilitu": {
+	"larva": { "copyof": "demon_larva" },
+	"demon_lilitu": {
 		"name": "Demon, Lilitu",
 		"sources": [
 			"Bestiary 6",
@@ -762,8 +762,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"lilitu": { "copyof": "demon,_lilitu" },
-	"demon,_marilith": {
+	"lilitu": { "copyof": "demon_lilitu" },
+	"demon_marilith": {
 		"name": "Demon, Marilith",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -829,8 +829,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"marilith": { "copyof": "demon,_marilith" },
-	"demon,_nabasu": {
+	"marilith": { "copyof": "demon_marilith" },
+	"demon_nabasu": {
 		"name": "Demon, Nabasu",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -889,8 +889,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"nabasu": { "copyof": "demon,_nabasu" },
-	"demon,_nalfeshnee": {
+	"nabasu": { "copyof": "demon_nabasu" },
+	"demon_nalfeshnee": {
 		"name": "Demon, Nalfeshnee",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -951,8 +951,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"nalfeshnee": { "copyof": "demon,_nalfeshnee" },
-	"demon,_omox": {
+	"nalfeshnee": { "copyof": "demon_nalfeshnee" },
+	"demon_omox": {
 		"name": "Demon, Omox",
 		"sources": [
 			"Bestiary 2",
@@ -1021,8 +1021,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"omox": { "copyof": "demon,_omox" },
-	"demon,_oolioddroo": {
+	"omox": { "copyof": "demon_omox" },
+	"demon_oolioddroo": {
 		"name": "Demon, Oolioddroo",
 		"sources": [
 			"Bestiary 6",
@@ -1102,8 +1102,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"oolioddroo": { "copyof": "demon,_oolioddroo" },
-	"demon,_painajai": {
+	"oolioddroo": { "copyof": "demon_oolioddroo" },
+	"demon_painajai": {
 		"name": "Demon, Painajai",
 		"sources": [
 			"Occult Bestiary",
@@ -1172,8 +1172,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"painajai": { "copyof": "demon,_painajai" },
-	"demon,_quasit": {
+	"painajai": { "copyof": "demon_painajai" },
+	"demon_quasit": {
 		"name": "Demon, Quasit",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1237,8 +1237,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"quasit": { "copyof": "demon,_quasit" },
-	"demon,_schir": {
+	"quasit": { "copyof": "demon_quasit" },
+	"demon_schir": {
 		"name": "Demon, Schir",
 		"sources": [
 			"Bestiary 3",
@@ -1306,8 +1306,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"schir": { "copyof": "demon,_schir" },
-	"demon,_seraptis": {
+	"schir": { "copyof": "demon_schir" },
+	"demon_seraptis": {
 		"name": "Demon, Seraptis",
 		"sources": [
 			"Bestiary 5",
@@ -1376,8 +1376,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"seraptis": { "copyof": "demon,_seraptis" },
-	"demon,_shachath": {
+	"seraptis": { "copyof": "demon_seraptis" },
+	"demon_shachath": {
 		"name": "Demon, Shachath",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
@@ -1456,8 +1456,8 @@
 			"Shachaths that reside in the Abyss typically act as advisors and counselors to more powerful demons that seek their unique insight into good gods, outsiders, and the mortal condition itself. Others are skilled at interrogating and breaking good-aligned prisoners. On the Material Plane, shachaths dedicate their efforts toward the corruption of mortal faith. This can represent an attack upon a devout cleric or an entire community-or both, if they can manage."
 		]
 	},
-	"shachath": { "copyof": "demon,_shachath" },
-	"demon,_shadow_demon": {
+	"shachath": { "copyof": "demon_shachath" },
+	"demon_shadow_demon": {
 		"name": "Demon, Shadow Demon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1521,8 +1521,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"shadow_demon": { "copyof": "demon,_shadow_demon" },
-	"demon,_shemhazian": {
+	"shadow_demon": { "copyof": "demon_shadow_demon" },
+	"demon_shemhazian": {
 		"name": "Demon, Shemhazian",
 		"sources": [
 			"Bestiary 2",
@@ -1589,8 +1589,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"shemhazian": { "copyof": "demon,_shemhazian" },
-	"demon,_succubus": {
+	"shemhazian": { "copyof": "demon_shemhazian" },
+	"demon_succubus": {
 		"name": "Demon, Succubus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1650,8 +1650,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"succubus": { "copyof": "demon,_succubus" },
-	"demon,_swaithe": {
+	"succubus": { "copyof": "demon_succubus" },
+	"demon_swaithe": {
 		"name": "Demon, Swaithe",
 		"sources": [
 			"Inner Sea Gods",
@@ -1725,8 +1725,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"swaithe": { "copyof": "demon,_swaithe" },
-	"demon,_thoxel_demon": {
+	"swaithe": { "copyof": "demon_swaithe" },
+	"demon_thoxel_demon": {
 		"name": "Demon, Thoxel Demon",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
@@ -1807,8 +1807,8 @@
 			"Thoxel demons are skilled artisans, able to forge and maintain weapons and armor of excellent quality, and they take a certain pride in ensuring their personal armaments are always sharp and in good repair. When closely supervised, thoxel demons can be tasked with forge duty, turning out weapons for demonic legions in great numbers. However, their selfishness and laziness impairs their usefulness as foundry smiths for demon armies, as they frequently take shortcuts to get through their quotas and care little for the fate of demonic soldiers whose weapons shatter in battle or whose armor is ill-fitting or missing key fasteners. Anyone who relies on an insubordination demon's craftsmanship takes a great risk, for thoxels rarely put much care and attention to detail into the armor or weapons that are intended for anyone but themselves."
 		]
 	},
-	"thoxel_demon": { "copyof": "demon,_thoxel_demon" },
-	"demon,_ulkreth": {
+	"thoxel_demon": { "copyof": "demon_thoxel_demon" },
+	"demon_ulkreth": {
 		"name": "Demon, Ulkreth",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
@@ -1892,8 +1892,8 @@
 			"On the Material Plane, the cultists of Xoveron and his gargoyle minions stand sentinel against the encroachment of civilization, ready to foil its ambitious reach towards eternity. When his minions report cities growing too great, too lovely, or too proud, Xoveron tempts mortals with a gluttonous hunger for power and a jealous pride and rage toward their fellows that drives them to call forth a ulkreth demon. Mortal gargoyles can sense the presence of one of their master's favored servants and flock to its side to swoop hooting and screeching overhead as the wrecker commences a reign of terror. Of course, ulkreths are notoriously indiscriminate about their destruction, and those summoning them must be very careful not to become casualties of the ulkreth's rampage."
 		]
 	},
-	"ulkreth": { "copyof": "demon,_ulkreth" },
-	"demon,_vavakia": {
+	"ulkreth": { "copyof": "demon_ulkreth" },
+	"demon_vavakia": {
 		"name": "Demon, Vavakia",
 		"sources": [
 			"Bestiary 6",
@@ -1971,8 +1971,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"vavakia": { "copyof": "demon,_vavakia" },
-	"demon,_vermlek": {
+	"vavakia": { "copyof": "demon_vavakia" },
+	"demon_vermlek": {
 		"name": "Demon, Vermlek",
 		"sources": [
 			"Bestiary 6",
@@ -2040,8 +2040,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"vermlek": { "copyof": "demon,_vermlek" },
-	"demon,_vilsteth": {
+	"vermlek": { "copyof": "demon_vermlek" },
+	"demon_vilsteth": {
 		"name": "Demon, Vilsteth",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
@@ -2121,8 +2121,8 @@
 			"When vilsteths are encountered outside of the Abyss, these demons are often found in places where Baphomet's cults hold power. In rural areas, such cults may form around insular villages that have abandoned the traditional gods of hunt and harvest, trading them for a predatory faith hidden from the eyes of outsiders. In urban settlements, cultic cells and clandestine rites conducted behind masks and veils work together to suborn existing governmental, legal, and cultural authorities. Vilsteth demons may visit Baphomet's faithful in either milieu, acting as ambassadors and agents provocateur, often sitting in judgment of those who have violated the cult's confidentiality and helping to design and implement their agendas for anarchy and societal upheaval."
 		]
 	},
-	"vilsteth": { "copyof": "demon,_vilsteth" },
-	"demon,_vrock": {
+	"vilsteth": { "copyof": "demon_vilsteth" },
+	"demon_vrock": {
 		"name": "Demon, Vrock",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2185,8 +2185,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"vrock": { "copyof": "demon,_vrock" },
-	"demon,_vrolikai": {
+	"vrock": { "copyof": "demon_vrock" },
+	"demon_vrolikai": {
 		"name": "Demon, Vrolikai",
 		"sources": [
 			"Bestiary 2",
@@ -2254,8 +2254,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"vrolikai": { "copyof": "demon,_vrolikai" },
-	"demon,_yaenit": {
+	"vrolikai": { "copyof": "demon_vrolikai" },
+	"demon_yaenit": {
 		"name": "Demon, Yaenit",
 		"sources": [
 			"Bestiary 6",
@@ -2322,7 +2322,7 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"yaenit": { "copyof": "demon,_yaenit" },
+	"yaenit": { "copyof": "demon_yaenit" },
 	"denizen_of_leng": {
 		"name": "Denizen of Leng",
 		"sources": [
@@ -2523,7 +2523,7 @@
 			"A derro stands 3 feet tall and weighs 70 pounds."
 		]
 	},
-	"derro,_derro_bodysnatcher": {
+	"derro_derro_bodysnatcher": {
 		"name": "Derro, Derro Bodysnatcher",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -2580,8 +2580,8 @@
 			"When derros grow brazen enough to take multiple specimens, they target complete households. Bodysnatchers are unparalleled in their ability to pluck victims from secure havens. Since news of an entire family's disappearance creates a stir, derros often direct such operations toward a settlement's rural outskirts and make it look like their marks were the victims of raiding bandits or a wild beast. Sometimes bodysnatchers even provide such cover themselves, dragging captured monsters with them from the depths to rampage through a home once their own work is complete, covering up any trace of derro involvement and leaving a delightful surprise for any concerned citizens who rush to their neighbors' aid."
 		]
 	},
-	"derro_bodysnatcher": { "copyof": "derro,_derro_bodysnatcher" },
-	"derro,_derro_brainwasher": {
+	"derro_bodysnatcher": { "copyof": "derro_derro_bodysnatcher" },
+	"derro_derro_brainwasher": {
 		"name": "Derro, Derro Brainwasher",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -2639,8 +2639,8 @@
 			"Brainwashers typically venture aboveground to examine former test subjects when their memories of Nar-Voth visits threaten to return with unwelcome clarity. Instead of killing these leaks outright, the derro would rather protect their investment and try to recover these subjects, open them up to see what went wrong, and return them after appropriate repairs. Fortunately for the brainwashers, these former guests are generally so unhinged from their experience that they're unable to hide effectively. Most rave about white-eyed abductors, slobbering in seedy taverns where they quell the horrible visions with strong drink, or are locked away in asylums when they're caught violently preparing for their tormentors' return. Once the brainwashers locate their targets, they incapacitate the unfortunate victims, bring them back underground, and alter their memories of recent events using either magic or drastic surgery. They rarely come to the surface unprepared or alone, however, and their expeditions often return with new subjects as well as old ones."
 		]
 	},
-	"derro_brainwasher": { "copyof": "derro,_derro_brainwasher" },
-	"derro,_derro_magister": {
+	"derro_brainwasher": { "copyof": "derro_derro_brainwasher" },
+	"derro_derro_magister": {
 		"name": "Derro, Derro Magister",
 		"sources": [
 			"Bestiary 6",
@@ -2706,8 +2706,8 @@
 			"Ingesting high doses of the fungus cytillesh imbues derro magisters with heightened mental abilities"
 		]
 	},
-	"derro_magister": { "copyof": "derro,_derro_magister" },
-	"derro,_urban_stalker": {
+	"derro_magister": { "copyof": "derro_derro_magister" },
+	"derro_urban_stalker": {
 		"name": "Derro, Urban Stalker",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -2762,8 +2762,8 @@
 			"Urban stalkers pursue their targets over several days and take great satisfaction in seeing their marks during the most intimate moments of their lives, even forming an unreciprocated obsession during their pursuit. When the moment finally comes to quiet those too stubborn to forget their experiences in Nar-Voth, these sadistic derros savor the last moments they have with their victims, even crying to themselves once the deed is done and their new \"friends\" lie quiet and cold. To protect themselves from this painful separation, urban stalkers stretch the killing out over an inhumane amount of time and always collect a memento from each victim that they lovingly care for and keep in a safe place alongside their other souvenirs."
 		]
 	},
-	"urban_stalker": { "copyof": "derro,_urban_stalker" },
-	"derro,_white-eyed_torturer": {
+	"urban_stalker": { "copyof": "derro_urban_stalker" },
+	"derro_white-eyed_torturer": {
 		"name": "Derro, White-Eyed Torturer",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -2821,9 +2821,9 @@
 			"The self-mutilated white-eyed torturer carves into humanoid flesh with deviant glee and bestial hands, eager to learn the limits of anatomy. Armed with cutting implements, pliers, clamps, and perhaps even aberrant claws, this twisted surgeon goes about his work modifying his patients and himself. To this derro, his subject is at best a beast, and as his victim's screams echo through the nearby fungus-lined tunnels, other derros become drawn to the song and wait eagerly outside the torturer's laboratory to see what wonder he has created."
 		]
 	},
-	"white-eyed_torturer": { "copyof": "derro,_white-eyed_torturer" },
-	"white_eyed_torturer": { "copyof": "derro,_white-eyed_torturer" },
-	"desert_vermin,_giant_ground_wasp": {
+	"white-eyed_torturer": { "copyof": "derro_white-eyed_torturer" },
+	"white_eyed_torturer": { "copyof": "derro_white-eyed_torturer" },
+	"desert_vermin_giant_ground_wasp": {
 		"name": "Desert Vermin, Giant Ground Wasp",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
@@ -2874,8 +2874,8 @@
 			"In areas of dense vegetation, ground wasps can destroy crops and ruin the land with their burrows, but in the rocky and sandy desert, living creatures are most at risk from these dangerous vermin. The blistering heat of the desert can damage delicate eggs laid in exposed locations, so ground wasps have evolved to lay their eggs safely in the bodies of their victims. They keep to their shallow burrows during the hottest parts of the day, but remain near the opening to ambush creatures that wander near. A fully-grown ground wasp is 2 feet long, with a wingspan of 5 feet, and weighs 22 pounds."
 		]
 	},
-	"giant_ground_wasp": { "copyof": "desert_vermin,_giant_ground_wasp" },
-	"desert_vermin,_giant_walking_stick": {
+	"giant_ground_wasp": { "copyof": "desert_vermin_giant_ground_wasp" },
+	"desert_vermin_giant_walking_stick": {
 		"name": "Desert Vermin, Giant Walking Stick",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
@@ -2927,7 +2927,7 @@
 			"A fully grown giant walking stick stretches from 6 to 10 feet long, but typically weighs only 120 pounds."
 		]
 	},
-	"giant_walking_stick": { "copyof": "desert_vermin,_giant_walking_stick" },
+	"giant_walking_stick": { "copyof": "desert_vermin_giant_walking_stick" },
 	"despoiler": {
 		"name": "Despoiler",
 		"sources": [ "Seers of the Drowned City" ],
@@ -3094,7 +3094,7 @@
 			"Owing to their rarity, reclusiveness, and unusual appearance, devil monkeys are often surrounded by legends. In many cases, they are mistaken for other creatures. Their spoor might suggest an unusually large bear or other predator, while those who catch sight of the primate may mistake it for a devil or other fiend. Even when they're recognized as a kind of monkey, the fact that they may live far from typical monkey territory often adds to their air of sinister mystery."
 		]
 	},
-	"devil,_accomplice_devil_hesperian": {
+	"devil_accomplice_devil_hesperian": {
 		"name": "Devil, Accomplice Devil (Hesperian)",
 		"sources": [
 			"Inner Sea Gods",
@@ -3163,9 +3163,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"hesperian": { "copyof": "devil,_accomplice_devil_hesperian" },
-	"accomplice_devil": { "copyof": "devil,_accomplice_devil_hesperian" },
-	"devil,_accuser_devil_zebub": {
+	"hesperian": { "copyof": "devil_accomplice_devil_hesperian" },
+	"accomplice_devil": { "copyof": "devil_accomplice_devil_hesperian" },
+	"devil_accuser_devil_zebub": {
 		"name": "Devil, Accuser Devil (Zebub)",
 		"sources": [
 			"Bestiary 2",
@@ -3233,9 +3233,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"zebub": { "copyof": "devil,_accuser_devil_zebub" },
-	"accuser_devil": { "copyof": "devil,_accuser_devil_zebub" },
-	"devil,_advodaza": {
+	"zebub": { "copyof": "devil_accuser_devil_zebub" },
+	"accuser_devil": { "copyof": "devil_accuser_devil_zebub" },
+	"devil_advodaza": {
 		"name": "Devil, Advodaza",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
@@ -3310,8 +3310,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"advodaza": { "copyof": "devil,_advodaza" },
-	"devil,_apostate_devil_deimavigga": {
+	"advodaza": { "copyof": "devil_advodaza" },
+	"devil_apostate_devil_deimavigga": {
 		"name": "Devil, Apostate Devil (Deimavigga)",
 		"sources": [
 			"Bestiary 5",
@@ -3392,9 +3392,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"deimavigga": { "copyof": "devil,_apostate_devil_deimavigga" },
-	"apostate_devil": { "copyof": "devil,_apostate_devil_deimavigga" },
-	"devil,_barbed_devil_hamatula": {
+	"deimavigga": { "copyof": "devil_apostate_devil_deimavigga" },
+	"apostate_devil": { "copyof": "devil_apostate_devil_deimavigga" },
+	"devil_barbed_devil_hamatula": {
 		"name": "Devil, Barbed Devil (Hamatula)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3458,9 +3458,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"hamatula": { "copyof": "devil,_barbed_devil_hamatula" },
-	"barbed_devil": { "copyof": "devil,_barbed_devil_hamatula" },
-	"devil,_bearded_devil_barbazu": {
+	"hamatula": { "copyof": "devil_barbed_devil_hamatula" },
+	"barbed_devil": { "copyof": "devil_barbed_devil_hamatula" },
+	"devil_bearded_devil_barbazu": {
 		"name": "Devil, Bearded Devil (Barbazu)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3523,9 +3523,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"barbazu": { "copyof": "devil,_bearded_devil_barbazu" },
-	"bearded_devil": { "copyof": "devil,_bearded_devil_barbazu" },
-	"devil,_belier_devil_bdellavritra": {
+	"barbazu": { "copyof": "devil_bearded_devil_barbazu" },
+	"bearded_devil": { "copyof": "devil_bearded_devil_barbazu" },
+	"devil_belier_devil_bdellavritra": {
 		"name": "Devil, Belier Devil (Bdellavritra)",
 		"sources": [
 			"Bestiary 2",
@@ -3589,9 +3589,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"bdellavritra": { "copyof": "devil,_belier_devil_bdellavritra" },
-	"belier_devil": { "copyof": "devil,_belier_devil_bdellavritra" },
-	"devil,_bone_devil_osyluth": {
+	"bdellavritra": { "copyof": "devil_belier_devil_bdellavritra" },
+	"belier_devil": { "copyof": "devil_belier_devil_bdellavritra" },
+	"devil_bone_devil_osyluth": {
 		"name": "Devil, Bone Devil (Osyluth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3654,9 +3654,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"osyluth": { "copyof": "devil,_bone_devil_osyluth" },
-	"bone_devil": { "copyof": "devil,_bone_devil_osyluth" },
-	"devil,_cabal_devil_uniila": {
+	"osyluth": { "copyof": "devil_bone_devil_osyluth" },
+	"bone_devil": { "copyof": "devil_bone_devil_osyluth" },
+	"devil_cabal_devil_uniila": {
 		"name": "Devil, Cabal Devil (Uniila)",
 		"sources": [
 			"Pathfinder #28: The Infernal Syndrome",
@@ -3719,7 +3719,7 @@
 			"",
 			"Once a target chooses to make use of this spell, it is cast at the uniila's caster level (typically 8th) and is treated as having the evil subtype. In addition, as the uniila chooses, she may spontaneously add the effects of any metamagic feat to the spell (without the spell being treated as though it were of an increased spell level). Typically, uniilas use this ability to compel magic users to rely on them for more powerful magic, though they might also use effects like [Widen Spell](feat/widen_spell) to affect unintended targets.",
 			"",
-			"**Scroll Mastery (Su)** All uniilas possess Scribe Scroll as a bonus feat. An uniila is treated as knowing all spells of 6th level or lower in the Pathfinder RPG Core Rulebook and can create scrolls of any of those spells. Whether an uniila knows rarer magic is decided by the GM.",
+			"**Scroll Mastery (Su)** All uniilas possess [Scribe Scroll](feat/scribe_scroll) as a bonus feat. An uniila is treated as knowing all spells of 6th level or lower in the Pathfinder RPG Core Rulebook and can create scrolls of any of those spells. Whether an uniila knows rarer magic is decided by the GM.",
 			"",
 			"**Summon Devil (Su)** Once per day, an uniila can attempt to summon 2d4 imps with a 55% chance of success. This ability is the equivalent of a 4th-level spell.",
 			"",
@@ -3740,9 +3740,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"uniila": { "copyof": "devil,_cabal_devil_uniila" },
-	"cabal_devil": { "copyof": "devil,_cabal_devil_uniila" },
-	"devil,_chortov": {
+	"uniila": { "copyof": "devil_cabal_devil_uniila" },
+	"cabal_devil": { "copyof": "devil_cabal_devil_uniila" },
+	"devil_chortov": {
 		"name": "Devil, Chortov",
 		"sources": [
 			"Pathfinder #27: What Lies in Dust",
@@ -3809,8 +3809,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"chortov": { "copyof": "devil,_chortov" },
-	"devil,_contract_devil_phistophilus": {
+	"chortov": { "copyof": "devil_chortov" },
+	"devil_contract_devil_phistophilus": {
 		"name": "Devil, Contract Devil (Phistophilus)",
 		"sources": [
 			"Bestiary 3",
@@ -3898,9 +3898,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"phistophilus": { "copyof": "devil,_contract_devil_phistophilus" },
-	"contract_devil": { "copyof": "devil,_contract_devil_phistophilus" },
-	"devil,_curse_devil_phiam": {
+	"phistophilus": { "copyof": "devil_contract_devil_phistophilus" },
+	"contract_devil": { "copyof": "devil_contract_devil_phistophilus" },
+	"devil_curse_devil_phiam": {
 		"name": "Devil, Curse Devil (Phiam)",
 		"sources": [
 			"Daughters of Fury",
@@ -3969,9 +3969,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"phiam": { "copyof": "devil,_curse_devil_phiam" },
-	"curse_devil": { "copyof": "devil,_curse_devil_phiam" },
-	"devil,_drowning_devil_sarglagon": {
+	"phiam": { "copyof": "devil_curse_devil_phiam" },
+	"curse_devil": { "copyof": "devil_curse_devil_phiam" },
+	"devil_drowning_devil_sarglagon": {
 		"name": "Devil, Drowning Devil (Sarglagon)",
 		"sources": [
 			"Bestiary 4",
@@ -4039,9 +4039,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"sarglagon": { "copyof": "devil,_drowning_devil_sarglagon" },
-	"drowning_devil": { "copyof": "devil,_drowning_devil_sarglagon" },
-	"devil,_erinyes": {
+	"sarglagon": { "copyof": "devil_drowning_devil_sarglagon" },
+	"drowning_devil": { "copyof": "devil_drowning_devil_sarglagon" },
+	"devil_erinyes": {
 		"name": "Devil, Erinyes",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4102,8 +4102,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"erinyes": { "copyof": "devil,_erinyes" },
-	"devil,_executioner_devil_munagola": {
+	"erinyes": { "copyof": "devil_erinyes" },
+	"devil_executioner_devil_munagola": {
 		"name": "Devil, Executioner Devil (Munagola)",
 		"sources": [
 			"Book of the Damned",
@@ -4162,9 +4162,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"munagola": { "copyof": "devil,_executioner_devil_munagola" },
-	"executioner_devil": { "copyof": "devil,_executioner_devil_munagola" },
-	"devil,_gambling_devil_magadaz": {
+	"munagola": { "copyof": "devil_executioner_devil_munagola" },
+	"executioner_devil": { "copyof": "devil_executioner_devil_munagola" },
+	"devil_gambling_devil_magadaz": {
 		"name": "Devil, Gambling Devil (Magadaz)",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
@@ -4248,9 +4248,9 @@
 			"The fact that one never knows whether a called gambling devil will be meticulous or incompetent poses an additional risk. When not tasked with a job, less effectual gambling devils seize upon any opportunity for a game of chance. To combat this inclination, canny summoners provide a bound magadaz with constant distractions. Many find benefit in calling two magadazes at once, allowing them free rein to gamble as they will so long as they do so only with one another."
 		]
 	},
-	"magadaz": { "copyof": "devil,_gambling_devil_magadaz" },
-	"gambling_devil": { "copyof": "devil,_gambling_devil_magadaz" },
-	"devil,_handmaiden_devil_gylou": {
+	"magadaz": { "copyof": "devil_gambling_devil_magadaz" },
+	"gambling_devil": { "copyof": "devil_gambling_devil_magadaz" },
+	"devil_handmaiden_devil_gylou": {
 		"name": "Devil, Handmaiden Devil (Gylou)",
 		"sources": [
 			"Bestiary 2",
@@ -4317,9 +4317,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"gylou": { "copyof": "devil,_handmaiden_devil_gylou" },
-	"handmaiden_devil": { "copyof": "devil,_handmaiden_devil_gylou" },
-	"devil,_heresy_devil_ayngavhaul": {
+	"gylou": { "copyof": "devil_handmaiden_devil_gylou" },
+	"handmaiden_devil": { "copyof": "devil_handmaiden_devil_gylou" },
+	"devil_heresy_devil_ayngavhaul": {
 		"name": "Devil, Heresy Devil (Ayngavhaul)",
 		"sources": [
 			"Bestiary 5",
@@ -4389,9 +4389,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"ayngavhaul": { "copyof": "devil,_heresy_devil_ayngavhaul" },
-	"heresy_devil": { "copyof": "devil,_heresy_devil_ayngavhaul" },
-	"devil,_horned_devil_cornugon": {
+	"ayngavhaul": { "copyof": "devil_heresy_devil_ayngavhaul" },
+	"heresy_devil": { "copyof": "devil_heresy_devil_ayngavhaul" },
+	"devil_horned_devil_cornugon": {
 		"name": "Devil, Horned Devil (Cornugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4453,9 +4453,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"cornugon": { "copyof": "devil,_horned_devil_cornugon" },
-	"horned_devil": { "copyof": "devil,_horned_devil_cornugon" },
-	"devil,_host_devil,_greater_magaav": {
+	"cornugon": { "copyof": "devil_horned_devil_cornugon" },
+	"horned_devil": { "copyof": "devil_horned_devil_cornugon" },
+	"devil_host_devil_greater_magaav": {
 		"name": "Devil, Host Devil, Greater (Magaav)",
 		"sources": [
 			"Bestiary 4",
@@ -4523,9 +4523,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"host_devil,_greater_magaav": { "copyof": "devil,_host_devil,_greater_magaav" },
-	"greater_host_devil": { "copyof": "devil,_host_devil,_greater_magaav" },
-	"devil,_host_devil,_lesser_gaav": {
+	"host_devil_greater_magaav": { "copyof": "devil_host_devil_greater_magaav" },
+	"greater_host_devil": { "copyof": "devil_host_devil_greater_magaav" },
+	"devil_host_devil_lesser_gaav": {
 		"name": "Devil, Host Devil, Lesser (Gaav)",
 		"sources": [
 			"Book of the Damned - Volume 1: Princes of Darkness",
@@ -4594,9 +4594,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"host_devil,_lesser_gaav": { "copyof": "devil,_host_devil,_lesser_gaav" },
-	"lesser_host_devil": { "copyof": "devil,_host_devil,_lesser_gaav" },
-	"devil,_ice_devil_gelugon": {
+	"host_devil_lesser_gaav": { "copyof": "devil_host_devil_lesser_gaav" },
+	"lesser_host_devil": { "copyof": "devil_host_devil_lesser_gaav" },
+	"devil_ice_devil_gelugon": {
 		"name": "Devil, Ice Devil (Gelugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4658,9 +4658,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"gelugon": { "copyof": "devil,_ice_devil_gelugon" },
-	"ice_devil": { "copyof": "devil,_ice_devil_gelugon" },
-	"devil,_immolation_devil_puragaus": {
+	"gelugon": { "copyof": "devil_ice_devil_gelugon" },
+	"ice_devil": { "copyof": "devil_ice_devil_gelugon" },
+	"devil_immolation_devil_puragaus": {
 		"name": "Devil, Immolation Devil (Puragaus)",
 		"sources": [
 			"Bestiary 2",
@@ -4724,9 +4724,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"puragaus": { "copyof": "devil,_immolation_devil_puragaus" },
-	"immolation_devil": { "copyof": "devil,_immolation_devil_puragaus" },
-	"devil,_imp": {
+	"puragaus": { "copyof": "devil_immolation_devil_puragaus" },
+	"immolation_devil": { "copyof": "devil_immolation_devil_puragaus" },
+	"devil_imp": {
 		"name": "Devil, Imp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4791,8 +4791,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"imp": { "copyof": "devil,_imp" },
-	"devil,_lemure": {
+	"imp": { "copyof": "devil_imp" },
+	"devil_lemure": {
 		"name": "Devil, Lemure",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4839,8 +4839,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"lemure": { "copyof": "devil,_lemure" },
-	"devil,_mnemor": {
+	"lemure": { "copyof": "devil_lemure" },
+	"devil_mnemor": {
 		"name": "Devil, Mnemor",
 		"sources": [
 			"Occult Bestiary",
@@ -4909,8 +4909,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"mnemor": { "copyof": "devil,_mnemor" },
-	"devil,_nemesis_devil_advodaza": {
+	"mnemor": { "copyof": "devil_mnemor" },
+	"devil_nemesis_devil_advodaza": {
 		"name": "Devil, Nemesis Devil (Advodaza)",
 		"sources": [
 			"Bestiary 4",
@@ -4993,8 +4993,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"nemesis_devil": { "copyof": "devil,_nemesis_devil_advodaza" },
-	"devil,_nupperibo": {
+	"nemesis_devil": { "copyof": "devil_nemesis_devil_advodaza" },
+	"devil_nupperibo": {
 		"name": "Devil, Nupperibo",
 		"sources": [
 			"Pathfinder #61: Shards of Sin",
@@ -5044,8 +5044,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"nupperibo": { "copyof": "devil,_nupperibo" },
-	"devil,_pit_fiend": {
+	"nupperibo": { "copyof": "devil_nupperibo" },
+	"devil_pit_fiend": {
 		"name": "Devil, Pit Fiend",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5123,8 +5123,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"pit_fiend": { "copyof": "devil,_pit_fiend" },
-	"devil,_possession_devil,_greater_gidim": {
+	"pit_fiend": { "copyof": "devil_pit_fiend" },
+	"devil_possession_devil_greater_gidim": {
 		"name": "Devil, Possession Devil, Greater (Gidim)",
 		"sources": [
 			"Pathfinder #29: Mother of Flies",
@@ -5200,9 +5200,9 @@
 			"[^D]: causes dread (see special abilities)"
 		]
 	},
-	"greater_gidim": { "copyof": "devil,_possession_devil,_greater_gidim" },
-	"greater_possession_devil": { "copyof": "devil,_possession_devil,_greater_gidim" },
-	"devil,_possession_devil,_lesser_gidim": {
+	"greater_gidim": { "copyof": "devil_possession_devil_greater_gidim" },
+	"greater_possession_devil": { "copyof": "devil_possession_devil_greater_gidim" },
+	"devil_possession_devil_lesser_gidim": {
 		"name": "Devil, Possession Devil, Lesser (Gidim)",
 		"sources": [
 			"Pathfinder #29: Mother of Flies",
@@ -5281,9 +5281,9 @@
 			"[^D]: causes dread (see special abilities)"
 		]
 	},
-	"lesser_gidim": { "copyof": "devil,_possession_devil,_lesser_gidim" },
-	"lesser_possession_devil": { "copyof": "devil,_possession_devil,_lesser_gidim" },
-	"devil,_rust_devil_ferrugon": {
+	"lesser_gidim": { "copyof": "devil_possession_devil_lesser_gidim" },
+	"lesser_possession_devil": { "copyof": "devil_possession_devil_lesser_gidim" },
+	"devil_rust_devil_ferrugon": {
 		"name": "Devil, Rust Devil (Ferrugon)",
 		"sources": [
 			"Pathfinder #101: The Kintargo Contract",
@@ -5381,9 +5381,9 @@
 			"Description Infernal contracts created by rust devils incorporate complex diagrams and sketches as examples to either help explain or obfuscate the contract's contents. Complexity 34 Specialized Skills Craft (any), Knowledge (engineering), Profession (any that produces physical goods) kp 36 Hidden Condition (18 kp) Once per month, the rust devil can use enter image on any object created by the contracted mortal that depicts a visage of any type. While this effect is active, the rust devil can use its spell-like abilities through the image on any target within range and sight. Termination Clause (0 kp) If the mortal harvests a replacement rib from a donor of the same race as himself and then allows this rib to be used as an additional material component during the casting of a regenerate spell cast by the creature from whom the rib was harvested, the contract is terminated."
 		]
 	},
-	"ferrugon": { "copyof": "devil,_rust_devil_ferrugon" },
-	"rust_devil": { "copyof": "devil,_rust_devil_ferrugon" },
-	"devil,_salikotal": {
+	"ferrugon": { "copyof": "devil_rust_devil_ferrugon" },
+	"rust_devil": { "copyof": "devil_rust_devil_ferrugon" },
+	"devil_salikotal": {
 		"name": "Devil, Salikotal",
 		"sources": [
 			"Pathfinder #26: The Sixfold Trial",
@@ -5461,8 +5461,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"salikotal": { "copyof": "devil,_salikotal" },
-	"devil,_sire_devil_patraavex": {
+	"salikotal": { "copyof": "devil_salikotal" },
+	"devil_sire_devil_patraavex": {
 		"name": "Devil, Sire Devil (Patraavex)",
 		"sources": [
 			"Cheliax, the Infernal Empire",
@@ -5475,7 +5475,7 @@
 			"",
 			"### Sire Devil (Patraavex), CR 7",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 59](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 59](source/cheliax_the_infernal_empire)  ",
 			"**XP** 3,200  ",
 			"LE Medium outsider (devil, evil, extraplanar, lawful, shapechanger)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., see in darkness, see invisibility; Perception +13",
@@ -5528,9 +5528,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"patraavex": { "copyof": "devil,_sire_devil_patraavex" },
-	"sire_devil": { "copyof": "devil,_sire_devil_patraavex" },
-	"devil,_tinder_devil_ukobach": {
+	"patraavex": { "copyof": "devil_sire_devil_patraavex" },
+	"sire_devil": { "copyof": "devil_sire_devil_patraavex" },
+	"devil_tinder_devil_ukobach": {
 		"name": "Devil, Tinder Devil (Ukobach)",
 		"sources": [
 			"Pathfinder #25: The Bastards of Erebus",
@@ -5606,9 +5606,9 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"ukobach": { "copyof": "devil,_tinder_devil_ukobach" },
-	"tinder_devil": { "copyof": "devil,_tinder_devil_ukobach" },
-	"devil,_warmonger_devil_levaloch": {
+	"ukobach": { "copyof": "devil_tinder_devil_ukobach" },
+	"tinder_devil": { "copyof": "devil_tinder_devil_ukobach" },
+	"devil_warmonger_devil_levaloch": {
 		"name": "Devil, Warmonger Devil (Levaloch)",
 		"sources": [
 			"Bestiary 5",
@@ -5679,8 +5679,8 @@
 			"**Family:** [Devil](family/devil)"
 		]
 	},
-	"levaloch": { "copyof": "devil,_warmonger_devil_levaloch" },
-	"warmonger_devil": { "copyof": "devil,_warmonger_devil_levaloch" },
+	"levaloch": { "copyof": "devil_warmonger_devil_levaloch" },
+	"warmonger_devil": { "copyof": "devil_warmonger_devil_levaloch" },
 	"devilfish": {
 		"name": "Devilfish",
 		"sources": [
@@ -6005,7 +6005,7 @@
 			"A dimensional shambler typically stands just over 7 feet in height, and weighs 350 pounds."
 		]
 	},
-	"dinosaur,_allosaurus": {
+	"dinosaur_allosaurus": {
 		"name": "Dinosaur, Allosaurus",
 		"sources": [
 			"Bestiary 2",
@@ -6056,8 +6056,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"allosaurus": { "copyof": "dinosaur,_allosaurus" },
-	"dinosaur,_amargasaurus": {
+	"allosaurus": { "copyof": "dinosaur_allosaurus" },
+	"dinosaur_amargasaurus": {
 		"name": "Dinosaur, Amargasaurus",
 		"sources": [
 			"Bestiary 6",
@@ -6108,8 +6108,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"amargasaurus": { "copyof": "dinosaur,_amargasaurus" },
-	"dinosaur,_ankylosaurus": {
+	"amargasaurus": { "copyof": "dinosaur_amargasaurus" },
+	"dinosaur_ankylosaurus": {
 		"name": "Dinosaur, Ankylosaurus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6160,8 +6160,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"ankylosaurus": { "copyof": "dinosaur,_ankylosaurus" },
-	"dinosaur,_brachiosaurus": {
+	"ankylosaurus": { "copyof": "dinosaur_ankylosaurus" },
+	"dinosaur_brachiosaurus": {
 		"name": "Dinosaur, Brachiosaurus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6209,8 +6209,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"brachiosaurus": { "copyof": "dinosaur,_brachiosaurus" },
-	"dinosaur,_ceratosaurus": {
+	"brachiosaurus": { "copyof": "dinosaur_brachiosaurus" },
+	"dinosaur_ceratosaurus": {
 		"name": "Dinosaur, Ceratosaurus",
 		"sources": [
 			"Bestiary 5",
@@ -6262,8 +6262,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"ceratosaurus": { "copyof": "dinosaur,_ceratosaurus" },
-	"dinosaur,_compsognathus": {
+	"ceratosaurus": { "copyof": "dinosaur_ceratosaurus" },
+	"dinosaur_compsognathus": {
 		"name": "Dinosaur, Compsognathus",
 		"sources": [
 			"Bestiary 2",
@@ -6319,8 +6319,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"compsognathus": { "copyof": "dinosaur,_compsognathus" },
-	"dinosaur,_deinonychus": {
+	"compsognathus": { "copyof": "dinosaur_compsognathus" },
+	"dinosaur_deinonychus": {
 		"name": "Dinosaur, Deinonychus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6369,8 +6369,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"deinonychus": { "copyof": "dinosaur,_deinonychus" },
-	"dinosaur,_dimetrodon": {
+	"deinonychus": { "copyof": "dinosaur_deinonychus" },
+	"dinosaur_dimetrodon": {
 		"name": "Dinosaur, Dimetrodon",
 		"sources": [
 			"Bestiary 3",
@@ -6427,8 +6427,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"dimetrodon": { "copyof": "dinosaur,_dimetrodon" },
-	"dinosaur,_dimorphodon": {
+	"dimetrodon": { "copyof": "dinosaur_dimetrodon" },
+	"dinosaur_dimorphodon": {
 		"name": "Dinosaur, Dimorphodon",
 		"sources": [
 			"Bestiary 4",
@@ -6487,8 +6487,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"dimorphodon": { "copyof": "dinosaur,_dimorphodon" },
-	"dinosaur,_diplodocus": {
+	"dimorphodon": { "copyof": "dinosaur_dimorphodon" },
+	"dinosaur_diplodocus": {
 		"name": "Dinosaur, Diplodocus",
 		"sources": [
 			"Bestiary 4",
@@ -6543,8 +6543,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"diplodocus": { "copyof": "dinosaur,_diplodocus" },
-	"dinosaur,_elasmosaurus": {
+	"diplodocus": { "copyof": "dinosaur_diplodocus" },
+	"dinosaur_elasmosaurus": {
 		"name": "Dinosaur, Elasmosaurus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6591,8 +6591,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"elasmosaurus": { "copyof": "dinosaur,_elasmosaurus" },
-	"dinosaur,_giganotosaurus": {
+	"elasmosaurus": { "copyof": "dinosaur_elasmosaurus" },
+	"dinosaur_giganotosaurus": {
 		"name": "Dinosaur, Giganotosaurus",
 		"sources": [
 			"Bestiary 6",
@@ -6643,8 +6643,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"giganotosaurus": { "copyof": "dinosaur,_giganotosaurus" },
-	"dinosaur,_iguanodon": {
+	"giganotosaurus": { "copyof": "dinosaur_giganotosaurus" },
+	"dinosaur_iguanodon": {
 		"name": "Dinosaur, Iguanodon",
 		"sources": [
 			"Bestiary 3",
@@ -6701,8 +6701,8 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"iguanodon": { "copyof": "dinosaur,_iguanodon" },
-	"dinosaur,_kentrosaurus": {
+	"iguanodon": { "copyof": "dinosaur_iguanodon" },
+	"dinosaur_kentrosaurus": {
 		"name": "Dinosaur, Kentrosaurus",
 		"sources": [
 			"Bestiary 6",
@@ -6760,5 +6760,5 @@
 			"**Family:** [Dinosaur](family/dinosaur)"
 		]
 	},
-	"kentrosaurus": { "copyof": "dinosaur,_kentrosaurus" }
+	"kentrosaurus": { "copyof": "dinosaur_kentrosaurus" }
 }

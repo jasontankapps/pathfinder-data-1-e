@@ -87,7 +87,7 @@
 			"**Cure** An endless night can be lifted only by successfully casting [remove curse](spell/remove_curse) followed by [sunburst](spell/sunburst) at noon on a clear day."
 		]
 	},
-	"haunting,_major": {
+	"haunting_major": {
 		"name": "Haunting, Major",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -99,8 +99,8 @@
 			"**Cure** Unlike a minor haunting, a major haunting can be ended only by putting the ghost to rest, though casting [remove curse](spell/remove_curse) directly after the ghost is destroyed prevents it from reviving for 2d4 days."
 		]
 	},
-	"major_haunting": { "copyof": "haunting,_major" },
-	"haunting,_minor": {
+	"major_haunting": { "copyof": "haunting_major" },
+	"haunting_minor": {
 		"name": "Haunting, Minor",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -112,7 +112,7 @@
 			"**Cure** In addition to the normal means for removing a curse, this one can be ended by determining the poltergeist's reason for existence and setting right whatever prevents it from resting in peace."
 		]
 	},
-	"minor_haunting": { "copyof": "haunting,_minor" },
+	"minor_haunting": { "copyof": "haunting_minor" },
 	"hunt_of_the_ankou": {
 		"name": "Hunt of the Ankou",
 		"sources": [ "Horror Adventures" ],
@@ -163,7 +163,7 @@
 			"**Cure** mummy rot can only be cured by successfully casting both [remove curse](spell/remove_curse) and [remove disease](spell/remove_disease) within 1 minute of each other."
 		]
 	},
-	"perilous_demesne,_grand": {
+	"perilous_demesne_grand": {
 		"name": "Perilous Demesne, Grand",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -175,8 +175,8 @@
 			"**Cure** [Remove curse](spell/remove_curse) removes a grand perilous demesne only if followed by a casting of [hallow](spell/hallow) at the effect's center, and then casting [disintegrate](spell/disintegrate) on each of the hazards before the next nightfall or midnight."
 		]
 	},
-	"grand_perilous_demesne": { "copyof": "perilous_demesne,_grand" },
-	"perilous_demesne,_greater": {
+	"grand_perilous_demesne": { "copyof": "perilous_demesne_grand" },
+	"perilous_demesne_greater": {
 		"name": "Perilous Demesne, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -188,8 +188,8 @@
 			"**Cure** [Remove curse](spell/remove_curse) removes a greater perilous demesne only if followed by a casting of [hallow](spell/hallow) at the effect's center."
 		]
 	},
-	"greater_perilous_demesne": { "copyof": "perilous_demesne,_greater" },
-	"perilous_demesne,_major": {
+	"greater_perilous_demesne": { "copyof": "perilous_demesne_greater" },
+	"perilous_demesne_major": {
 		"name": "Perilous Demesne, Major",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -200,8 +200,8 @@
 			"**Effect** As per [minor perilous demesne](curse/minor_perilous_demesne), except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together)."
 		]
 	},
-	"major_perilous_demesne": { "copyof": "perilous_demesne,_major" },
-	"perilous_demesne,_minor": {
+	"major_perilous_demesne": { "copyof": "perilous_demesne_major" },
+	"perilous_demesne_minor": {
 		"name": "Perilous Demesne, Minor",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -212,7 +212,7 @@
 			"**Effect** Up to three hazards (see the [Horror Environments](rule/horror_environments) section), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time. If a creature places this curse, it can choose the hazards. The hazards must be appropriate to the type of terrain (at the GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight."
 		]
 	},
-	"minor_perilous_demesne": { "copyof": "perilous_demesne,_minor" },
+	"minor_perilous_demesne": { "copyof": "perilous_demesne_minor" },
 	"sealed_fate": {
 		"name": "Sealed Fate",
 		"sources": [ "Horror Adventures" ],

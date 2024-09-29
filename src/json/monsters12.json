@@ -81,7 +81,7 @@
 			"- In response to sightings of a gigas clam breaching the water this past summer near Corentyn, the Chelish Navy issued notice of a substantial bounty on the strange beasts. Several folk plan to set sail to hunt the creature. One ship in particular is crewed entirely by tengus, who keep a mysterious contraption covered with oiled canvas on their ship's deck and guard it day and night."
 		]
 	},
-	"gigas,_abaddon_gigas": {
+	"gigas_abaddon_gigas": {
 		"name": "Gigas, Abaddon Gigas",
 		"sources": [
 			"Pathfinder #96: Shadow of the Storm Tyrant",
@@ -172,8 +172,8 @@
 			"Mephengitan emits a 30-foot-radius aura of frigid cold. Any living creature that begins its turn in this area must succeed at a DC 26 Fortitude save or take 4d6 points of cold damage as its core body temperature plummets and its blood begins to freeze. Creatures that don't need water to live are immune to this effect. Creatures with the water subtype take twice as much as damage."
 		]
 	},
-	"abaddon_gigas": { "copyof": "gigas,_abaddon_gigas" },
-	"gigas,_abyss_gigas": {
+	"abaddon_gigas": { "copyof": "gigas_abaddon_gigas" },
+	"gigas_abyss_gigas": {
 		"name": "Gigas, Abyss Gigas",
 		"sources": [
 			"The Witchwar Legacy",
@@ -243,8 +243,8 @@
 			"**Family:** [Gigas](family/gigas)"
 		]
 	},
-	"abyss_gigas": { "copyof": "gigas,_abyss_gigas" },
-	"gigas,_hell_gigas": {
+	"abyss_gigas": { "copyof": "gigas_abyss_gigas" },
+	"gigas_hell_gigas": {
 		"name": "Gigas, Hell Gigas",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
@@ -307,7 +307,7 @@
 			"**Family:** [Gigas](family/gigas)"
 		]
 	},
-	"hell_gigas": { "copyof": "gigas,_hell_gigas" },
+	"hell_gigas": { "copyof": "gigas_hell_gigas" },
 	"gillman": {
 		"name": "Gillman",
 		"sources": [ "Inner Sea World Guide" ],
@@ -365,7 +365,7 @@
 			"Physically, gillmen resemble their ancient ancestors, with expressive brows, pale skin, dark hair, and bright purple eyes. Three slim gills mark each side of their necks, near the shoulder, but they are close enough in appearance to humans that they can pass as such (for a time) without fear of detection."
 		]
 	},
-	"gillman,_awakened_agent": {
+	"gillman_awakened_agent": {
 		"name": "Gillman, Awakened Agent",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -427,8 +427,8 @@
 			"Awakened agents gather data about the surface world and use their influence over other Low Azlanti to complete whatever tasks are doled out by their aboleth masters. Many lead cults, ostensibly leading their people in the worship of \"hidden Azlanti gods\" or \"newly risen ocean spirits,\" their congregations never realize they bow to the very foes who laid their ancient empire low. Some awakened agents teeter on the brink of madness, never fully understanding the purpose behind their own actions. Others carry out their assignments in the belief that everything they do is absolutely necessary for the well-being of their race-sacrificing the world to guarantee their people a role as favored pets. Aboleths frequently trust these skilled servants with strange and advanced magic, such as the mind-warping [masters' call](magic-wondrous/masters'_call) amulets."
 		]
 	},
-	"awakened_agent": { "copyof": "gillman,_awakened_agent" },
-	"gillman,_ship_scavenger": {
+	"awakened_agent": { "copyof": "gillman_awakened_agent" },
+	"gillman_ship_scavenger": {
 		"name": "Gillman, Ship Scavenger",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -482,8 +482,8 @@
 			"While most ship scavengers content themselves with recovering lost treasures from past accidents or battles, a greedy few cause shipwrecks by moving buoys, extinguishing lighthouses, disseminating false charts, and sabotaging vessels. The worst are little better than pirates, prying ships apart from below the waves or setting them aflame, then slaughtering the crew as they leap into the ocean. Whether they're malign or merely opportunistic, ship scavengers are unlikely to share a wreck's treasures, even-or especially-with its air-breathing former owners."
 		]
 	},
-	"ship_scavenger": { "copyof": "gillman,_ship_scavenger" },
-	"gillman,_squall_seer": {
+	"ship_scavenger": { "copyof": "gillman_ship_scavenger" },
+	"gillman_squall_seer": {
 		"name": "Gillman, Squall Seer",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -541,8 +541,8 @@
 			"Equal parts clergy and sailors, squall seers often amass cultish crews of gillmen and humans with blind faith in their ability to see ships through any storm as they journey across Golarion, whether they're crashing through ice floes in the Steaming Sea, riding the storm-lashed currents of the Eye of Abendego, or challenging beasts from the darkest ocean trenches. More than a few alternate between piracy and pirate-hunting, following whatever impulse seems most exciting; they may be denounced in one city only to be celebrated 50 miles up the coast."
 		]
 	},
-	"squall_seer": { "copyof": "gillman,_squall_seer" },
-	"gillman,_wet-house_emissary": {
+	"squall_seer": { "copyof": "gillman_squall_seer" },
+	"gillman_wet-house_emissary": {
 		"name": "Gillman, Wet-House Emissary",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -596,8 +596,8 @@
 			"With the whole ocean as a resource, emissaries excel at distracting those who would investigate the Low Azlanti too closely with strange new challenges. They possess an almost endless supply of sea-creature venoms, aquatic beasts that boggle description, and secret magic lost below the waves for centuries. With access to all manner of twisting, secluded hideaways, these gillmen can lead the overly curious into undertaking convoluted quests while the Low Azlanti accomplish their real objectives. Victims who survive the emissaries' poisons or monster attacks may look forward to a short, desperate future spent trapped in lightless sea caves unseen by landwalkers' eyes for 10,000 years."
 		]
 	},
-	"wet-house_emissary": { "copyof": "gillman,_wet-house_emissary" },
-	"wet_house_emissary": { "copyof": "gillman,_wet-house_emissary" },
+	"wet-house_emissary": { "copyof": "gillman_wet-house_emissary" },
+	"wet_house_emissary": { "copyof": "gillman_wet-house_emissary" },
 	"ginever": {
 		"name": "Ginever",
 		"sources": [ "Taldor, the First Empire" ],
@@ -608,7 +608,7 @@
 			"",
 			"### Ginever, CR 5",
 			"",
-			"**Source** [Taldor, the First Empire pg. 58](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 58](source/taldor_the_first_empire)  ",
 			"**XP** 1,600  ",
 			"CE Medium monstrous humanoid  ",
 			"**Init** +2; **Senses** darkvision 60 ft., low-light vision; Perception +4",
@@ -772,7 +772,7 @@
 			"A girtablilu is 13 feet long and weighs 800 pounds."
 		]
 	},
-	"girtablilu,_divine_chieftain": {
+	"girtablilu_divine_chieftain": {
 		"name": "Girtablilu, Divine Chieftain",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -834,8 +834,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"divine_chieftain": { "copyof": "girtablilu,_divine_chieftain" },
-	"girtablilu,_dune_strider": {
+	"divine_chieftain": { "copyof": "girtablilu_divine_chieftain" },
+	"girtablilu_dune_strider": {
 		"name": "Girtablilu, Dune Strider",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -888,8 +888,8 @@
 			"Quick and sure-footed, dune striders prefer to follow targets from dune tops or ragged bluffs, snipe at them, and then move on before enemies can close in. The dune striders' victims often die before ever noticing the massive hunters' presence, and travelers and adventurers spread stories through Qadira, Osirion, and Thuvia of explorers abandoning their expeditions upon waking to discover that all their guards and porters were silently executed in the night."
 		]
 	},
-	"dune_strider": { "copyof": "girtablilu,_dune_strider" },
-	"girtablilu,_quick_striker": {
+	"dune_strider": { "copyof": "girtablilu_dune_strider" },
+	"girtablilu_quick_striker": {
 		"name": "Girtablilu, Quick Striker",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -943,8 +943,8 @@
 			"Quick strikers are vital to helping a tribe establish its hold on new territory. Their skills make them good at harassing monsters in newly discovered ruins and disarming any dangers left behind by past masters. Because of their knowledge of alchemy and anatomy, they may also serve as healers, treating injuries as mundane as snakebites as the tribe ekes out an existence in the desert."
 		]
 	},
-	"quick_striker": { "copyof": "girtablilu,_quick_striker" },
-	"girtablilu,_raging_sting": {
+	"quick_striker": { "copyof": "girtablilu_quick_striker" },
+	"girtablilu_raging_sting": {
 		"name": "Girtablilu, Raging Sting",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -1001,7 +1001,7 @@
 			"In peacetime, raging stings make up much of a tribe's labor force, working to preserve important sites. Raging stings see themselves as a natural balance to the desert sands, uncovering ancient works, honing age-worn edges, and treading on intruders rather than being trodden upon."
 		]
 	},
-	"raging_sting": { "copyof": "girtablilu,_raging_sting" },
+	"raging_sting": { "copyof": "girtablilu_raging_sting" },
 	"gishvit": {
 		"name": "Gishvit",
 		"sources": [ "Pathfinder #127: Crownfall" ],
@@ -1520,7 +1520,7 @@
 			"Gnoll leaders are typically rangers, although clerics are highly regarded as well. Most gnolls find arcane magic difficult to master, and as a result it is relatively rare to see a gnoll bard, sorcerer, or wizard."
 		]
 	},
-	"gnoll,_chosen_of_lamashtu": {
+	"gnoll_chosen_of_lamashtu": {
 		"name": "Gnoll, Chosen of Lamashtu",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1586,8 +1586,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"chosen_of_lamashtu": { "copyof": "gnoll,_chosen_of_lamashtu" },
-	"gnoll,_eye_of_lamashtu": {
+	"chosen_of_lamashtu": { "copyof": "gnoll_chosen_of_lamashtu" },
+	"gnoll_eye_of_lamashtu": {
 		"name": "Gnoll, Eye of Lamashtu",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1641,8 +1641,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"eye_of_lamashtu": { "copyof": "gnoll,_eye_of_lamashtu" },
-	"gnoll,_flind": {
+	"eye_of_lamashtu": { "copyof": "gnoll_eye_of_lamashtu" },
+	"gnoll_flind": {
 		"name": "Gnoll, Flind",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1699,8 +1699,8 @@
 			"A flind is roughly 7 feet tall and weighs between 280 and 315 pounds. Flinds have brindled or spotted fur, and are primarily russet in color with patches of black."
 		]
 	},
-	"flind": { "copyof": "gnoll,_flind" },
-	"gnoll,_gnoll_bouda": {
+	"flind": { "copyof": "gnoll_flind" },
+	"gnoll_gnoll_bouda": {
 		"name": "Gnoll, Gnoll Bouda",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1759,8 +1759,8 @@
 			"Though she sees after the pack, a bouda is an unknowable and cryptic being even to gnolls who grew up with her, for arcane magic remains largely a mystery to gnolls, and most avoid it. Because a bouda's expertise seems so alien and odd, a witch must prove her toughness before she is accepted as a revered bouda."
 		]
 	},
-	"gnoll_bouda": { "copyof": "gnoll,_gnoll_bouda" },
-	"gnoll,_gnoll_bruiser": {
+	"gnoll_bouda": { "copyof": "gnoll_gnoll_bouda" },
+	"gnoll_gnoll_bruiser": {
 		"name": "Gnoll, Gnoll Bruiser",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1810,8 +1810,8 @@
 			"These massive gnolls pound enemies into submission."
 		]
 	},
-	"gnoll_bruiser": { "copyof": "gnoll,_gnoll_bruiser" },
-	"gnoll,_gnoll_lieutenant": {
+	"gnoll_bruiser": { "copyof": "gnoll_gnoll_bruiser" },
+	"gnoll_gnoll_lieutenant": {
 		"name": "Gnoll, Gnoll Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1862,8 +1862,8 @@
 			"Gnoll lieutenants use intimidation and the crack of their scorpion whips to push lesser members of the pack into battle and to demoralize their enemies."
 		]
 	},
-	"gnoll_lieutenant": { "copyof": "gnoll,_gnoll_lieutenant" },
-	"gnoll,_gnoll_packlord": {
+	"gnoll_lieutenant": { "copyof": "gnoll_gnoll_lieutenant" },
+	"gnoll_gnoll_packlord": {
 		"name": "Gnoll, Gnoll Packlord",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1914,8 +1914,8 @@
 			"Gnoll barbarians feed off one another's rage, and use pack tactics to savage their enemies."
 		]
 	},
-	"gnoll_packlord": { "copyof": "gnoll,_gnoll_packlord" },
-	"gnoll,_gnoll_rageborn": {
+	"gnoll_packlord": { "copyof": "gnoll_gnoll_packlord" },
+	"gnoll_gnoll_rageborn": {
 		"name": "Gnoll, Gnoll Rageborn",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1966,8 +1966,8 @@
 			"Gnoll barbarians feed off one another's rage, and use pack tactics to savage their enemies."
 		]
 	},
-	"gnoll_rageborn": { "copyof": "gnoll,_gnoll_rageborn" },
-	"gnoll,_gnoll_ravager": {
+	"gnoll_rageborn": { "copyof": "gnoll_gnoll_rageborn" },
+	"gnoll_gnoll_ravager": {
 		"name": "Gnoll, Gnoll Ravager",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2024,8 +2024,8 @@
 			"Gnolls revere Lamashtu above all other gods."
 		]
 	},
-	"gnoll_ravager": { "copyof": "gnoll,_gnoll_ravager" },
-	"gnoll,_gnoll_sergeant": {
+	"gnoll_ravager": { "copyof": "gnoll_gnoll_ravager" },
+	"gnoll_gnoll_sergeant": {
 		"name": "Gnoll, Gnoll Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2071,8 +2071,8 @@
 			"The lowest of gnoll war leaders, sergeants are always eager to prove their mettle in order to move up in the dominance hierarchy of the pack."
 		]
 	},
-	"gnoll_sergeant": { "copyof": "gnoll,_gnoll_sergeant" },
-	"gnoll,_gnoll_warden": {
+	"gnoll_sergeant": { "copyof": "gnoll_gnoll_sergeant" },
+	"gnoll_gnoll_warden": {
 		"name": "Gnoll, Gnoll Warden",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2119,7 +2119,7 @@
 			"The warden often serves as a gnoll pack's forward scout, tracking prey and wearing it down with pursuit before her packmates swoop in to attack."
 		]
 	},
-	"gnoll_warden": { "copyof": "gnoll,_gnoll_warden" },
+	"gnoll_warden": { "copyof": "gnoll_gnoll_warden" },
 	"gnoph-keh": {
 		"name": "Gnoph-Keh",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
@@ -2361,7 +2361,7 @@
 			"Goblin snakes share goblins' fear of horses (who could easily step on and crush an unwary goblin snake) and love of fire (though their lack of arms gives them little opportunity to indulge in arson), but they are not as superstitious as goblins. Goblin snakes eagerly embrace magic if given the opportunity, and it is not uncommon for a goblin snake with adept, cleric, oracle, or sorcerer class levels to serve as a goblin tribe's shaman or high priest."
 		]
 	},
-	"goblin,_goblin_chief": {
+	"goblin_goblin_chief": {
 		"name": "Goblin, Goblin Chief",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2412,8 +2412,8 @@
 			"A massive brute, the goblin chief gets the best food and treasure that the tribe collects. Some lesser goblins test their mighty chief by returning from a raid empty-handed but full-bellied-this almost always ends poorly for them."
 		]
 	},
-	"goblin_chief": { "copyof": "goblin,_goblin_chief" },
-	"goblin,_goblin_commando": {
+	"goblin_chief": { "copyof": "goblin_goblin_chief" },
+	"goblin_goblin_commando": {
 		"name": "Goblin, Goblin Commando",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2459,8 +2459,8 @@
 			"A goblin commando is a cut above a typical goblin warrior-braver, cleverer, and more persuasive. He uses fear and threats to keep other goblins in line."
 		]
 	},
-	"goblin_commando": { "copyof": "goblin,_goblin_commando" },
-	"goblin,_goblin_firestarter": {
+	"goblin_commando": { "copyof": "goblin_goblin_commando" },
+	"goblin_goblin_firestarter": {
 		"name": "Goblin, Goblin Firestarter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2511,8 +2511,8 @@
 			"Goblins adore theft, and are adept at slinking about undetected. Goblin sneaks are master ambushers and spectacular hiders. The most talented also incorporate their racial love of fire into their tactics."
 		]
 	},
-	"goblin_firestarter": { "copyof": "goblin,_goblin_firestarter" },
-	"goblin,_goblin_frog-talker": {
+	"goblin_firestarter": { "copyof": "goblin_goblin_firestarter" },
+	"goblin_goblin_frog-talker": {
 		"name": "Goblin, Goblin Frog-Talker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2573,9 +2573,9 @@
 			"Regardless of what their origins may be, frog-talkers are powerful spellcasters who vomit up swarms of swamp creatures to do their bidding and fry disobedient minions with sizzling lightning. The only mortal creatures a frogtalker seems to truly respect are (naturally) frogs, and most keep a frog or toad on their person at all times. But the most worrying aspect of frog-talkers is that they don't appear to feel fear-an otherwise omnipresent aspect of goblin life."
 		]
 	},
-	"goblin_frog-talker": { "copyof": "goblin,_goblin_frog-talker" },
-	"goblin_frog_talker": { "copyof": "goblin,_goblin_frog-talker" },
-	"goblin,_goblin_outrider": {
+	"goblin_frog-talker": { "copyof": "goblin_goblin_frog-talker" },
+	"goblin_frog_talker": { "copyof": "goblin_goblin_frog-talker" },
+	"goblin_goblin_outrider": {
 		"name": "Goblin, Goblin Outrider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2625,8 +2625,8 @@
 			"Goblin riders usually ride goblin dogs, wolves, or worgs, but might also ride exotic creatures like giant geckos."
 		]
 	},
-	"goblin_outrider": { "copyof": "goblin,_goblin_outrider" },
-	"goblin,_goblin_sneak": {
+	"goblin_outrider": { "copyof": "goblin_goblin_outrider" },
+	"goblin_goblin_sneak": {
 		"name": "Goblin, Goblin Sneak",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2677,8 +2677,8 @@
 			"Goblins adore theft, and are adept at slinking about undetected. Goblin sneaks are master ambushers and spectacular hiders. The most talented also incorporate their racial love of fire into their tactics."
 		]
 	},
-	"goblin_sneak": { "copyof": "goblin,_goblin_sneak" },
-	"goblin,_goblin_stickylord": {
+	"goblin_sneak": { "copyof": "goblin_goblin_sneak" },
+	"goblin_goblin_stickylord": {
 		"name": "Goblin, Goblin Stickylord",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2739,8 +2739,8 @@
 			"Despite their obsession, goblin stickylords are careful to always carry powerful solvents, as even the best of them wind up glued in place on occasion."
 		]
 	},
-	"goblin_stickylord": { "copyof": "goblin,_goblin_stickylord" },
-	"goblin,_goblin_vulture_pilot": {
+	"goblin_stickylord": { "copyof": "goblin_goblin_stickylord" },
+	"goblin_goblin_vulture_pilot": {
 		"name": "Goblin, Goblin Vulture Pilot",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2822,8 +2822,8 @@
 			"**Gear** flying straps"
 		]
 	},
-	"goblin_vulture_pilot": { "copyof": "goblin,_goblin_vulture_pilot" },
-	"goblin,_grizzled_rider": {
+	"goblin_vulture_pilot": { "copyof": "goblin_goblin_vulture_pilot" },
+	"goblin_grizzled_rider": {
 		"name": "Goblin, Grizzled Rider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2875,8 +2875,8 @@
 			"Goblin riders usually ride goblin dogs, wolves, or worgs, but might also ride exotic creatures like giant geckos."
 		]
 	},
-	"grizzled_rider": { "copyof": "goblin,_grizzled_rider" },
-	"goblin,_monkey_goblin": {
+	"grizzled_rider": { "copyof": "goblin_grizzled_rider" },
+	"goblin_monkey_goblin": {
 		"name": "Goblin, Monkey Goblin",
 		"sources": [
 			"Bestiary 6",
@@ -2934,7 +2934,7 @@
 			"Monkey goblins lead savage lives, and many take levels in the barbarian class, though fighters and rogues are also common among the race. While spellcasting classes are almost unheard of among them, monkey goblin clerics in the service of dark gods are given a level of respect by other monkey goblins that borders on fear."
 		]
 	},
-	"monkey_goblin": { "copyof": "goblin,_monkey_goblin" },
+	"monkey_goblin": { "copyof": "goblin_monkey_goblin" },
 	"goezspall": {
 		"name": "Goezspall",
 		"sources": [
@@ -3067,7 +3067,7 @@
 			"",
 			"### Goldpebble, CR 5",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 88](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 88](source/pathfinder_#128_songbird_scion_saboteur)  ",
 			"**XP** 1,600  ",
 			"N Large magical beast (aquatic)  ",
 			"**Init** +7; **Senses** darkvision 60 ft., low-light vision, tremorsense; Perception +6",
@@ -3133,7 +3133,7 @@
 			"One of the side effects of its rapid breeding cycle is the goldpebble's ability to adapt to its environment. The alchemist's original manipulations of the goldpebble's mineral-laced scales have changed slowly over time in some subpopulations of the snake, meaning that some goldpebbles have scales that, instead of being struck through with streaks of gold, glitter like gems or other precious stones. There are clans of dwarves who attempt to capitalize on this adaptiveness despite the creature's dangerous poison. They harvest young goldpebbles and then pour them into crevices in deep caves, in locations where they suspect veins of precious gems exist but are too difficult or dangerous to mine effectively. When the surviving snakes are fully grown, they return to the more spacious caves of the mine as gempebbles, ready to be harvested-and just as likely as their gold-streaked cousins to attack their dwarven stewards."
 		]
 	},
-	"golem,_adamantine_golem": {
+	"golem_adamantine_golem": {
 		"name": "Golem, Adamantine Golem",
 		"sources": [
 			"Bestiary 2",
@@ -3201,8 +3201,8 @@
 			"**Requirements** Craft Construct, crushing fist, geas/quest, heal, stoneskin, wish, creator must be caster level 20th; Skill Craft (sculpture) DC 35; **Cost** 350,000 gp"
 		]
 	},
-	"adamantine_golem": { "copyof": "golem,_adamantine_golem" },
-	"golem,_alchemical_golem": {
+	"adamantine_golem": { "copyof": "golem_adamantine_golem" },
+	"golem_alchemical_golem": {
 		"name": "Golem, Alchemical Golem",
 		"sources": [
 			"Bestiary 2",
@@ -3271,8 +3271,8 @@
 			"**Requirements** Craft Construct, geas/quest, gentle repose, major creation, resist energy, telekinesis, creator must be caster level 10th; Skill Craft (alchemy) DC 20; **Cost** 18,000 gp"
 		]
 	},
-	"alchemical_golem": { "copyof": "golem,_alchemical_golem" },
-	"golem,_behemoth_golem": {
+	"alchemical_golem": { "copyof": "golem_alchemical_golem" },
+	"golem_behemoth_golem": {
 		"name": "Golem, Behemoth Golem",
 		"sources": [
 			"Lost Kingdoms",
@@ -3343,8 +3343,8 @@
 			"Behemoth Golem; **CL** 18th; **Price** 305,000 gp; **Requirements** Craft Construct, earthquake, geas/quest, mage's magnificent mansion, wish, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
 		]
 	},
-	"behemoth_golem": { "copyof": "golem,_behemoth_golem" },
-	"golem,_blood_golem": {
+	"behemoth_golem": { "copyof": "golem_behemoth_golem" },
+	"golem_blood_golem": {
 		"name": "Golem, Blood Golem",
 		"sources": [
 			"Bestiary 4",
@@ -3416,8 +3416,8 @@
 			"**Requirements** Craft Construct, animate dead, bleed, cure critical wounds, geas/quest, creator must be caster level 12th; Skill Craft (alchemy) DC 17; **Cost** 11,500 gp"
 		]
 	},
-	"blood_golem": { "copyof": "golem,_blood_golem" },
-	"golem,_bone_golem": {
+	"blood_golem": { "copyof": "golem_blood_golem" },
+	"golem_bone_golem": {
 		"name": "Golem, Bone Golem",
 		"sources": [
 			"Bestiary 3",
@@ -3486,8 +3486,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, telekinesis, and either animate dead or animate objects, creator must be at least caster level 9th; Skill Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp"
 		]
 	},
-	"bone_golem": { "copyof": "golem,_bone_golem" },
-	"golem,_brass_golem": {
+	"bone_golem": { "copyof": "golem_bone_golem" },
+	"golem_brass_golem": {
 		"name": "Golem, Brass Golem",
 		"sources": [
 			"Bestiary 3",
@@ -3562,8 +3562,8 @@
 			"**Requirements** Craft Construct, geas/quest, incendiary cloud, limited wish, see invisibility, creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
 		]
 	},
-	"brass_golem": { "copyof": "golem,_brass_golem" },
-	"golem,_cannon_golem": {
+	"brass_golem": { "copyof": "golem_brass_golem" },
+	"golem_cannon_golem": {
 		"name": "Golem, Cannon Golem",
 		"sources": [
 			"Bestiary 3",
@@ -3639,8 +3639,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, plane shift or secret chest, creator must be caster level 17th; Skill Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp"
 		]
 	},
-	"cannon_golem": { "copyof": "golem,_cannon_golem" },
-	"golem,_carrion_golem": {
+	"cannon_golem": { "copyof": "golem_cannon_golem" },
+	"golem_carrion_golem": {
 		"name": "Golem, Carrion Golem",
 		"sources": [
 			"Bestiary 2",
@@ -3714,8 +3714,8 @@
 			"**Requirements** Craft Construct, animate dead, contagion, false life, gentle repose, lesser geas, creator must be caster level 7th; Skill Craft (leather) or Heal DC 13; **Cost** 5,500 gp"
 		]
 	},
-	"carrion_golem": { "copyof": "golem,_carrion_golem" },
-	"golem,_clay_golem": {
+	"carrion_golem": { "copyof": "golem_carrion_golem" },
+	"golem_clay_golem": {
 		"name": "Golem, Clay Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3783,8 +3783,8 @@
 			"**CL** 11th; **Price** 41,500 gp; **Requirements** Craft Construct, animate objects, bless, commune, prayer, resurrection, creator must be caster level 11th; Skill Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
 		]
 	},
-	"clay_golem": { "copyof": "golem,_clay_golem" },
-	"golem,_clockwork_golem": {
+	"clay_golem": { "copyof": "golem_clay_golem" },
+	"golem_clockwork_golem": {
 		"name": "Golem, Clockwork Golem",
 		"sources": [
 			"Bestiary 2",
@@ -3855,8 +3855,8 @@
 			"**Requirements** Craft Construct, animate objects, blade barrier, geas/quest, grease, telekinesis, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
 		]
 	},
-	"clockwork_golem": { "copyof": "golem,_clockwork_golem" },
-	"golem,_coral_golem": {
+	"clockwork_golem": { "copyof": "golem_clockwork_golem" },
+	"golem_coral_golem": {
 		"name": "Golem, Coral Golem",
 		"sources": [
 			"Bestiary 4",
@@ -3928,8 +3928,8 @@
 			"**Requirements** Craft Construct, animate object, geas/quest, keen edge, limited wish, water breathing, creator must be caster level 11th; Skill Craft (sculpture) DC 15; **Cost** 30,500 gp"
 		]
 	},
-	"coral_golem": { "copyof": "golem,_coral_golem" },
-	"golem,_crystal_golem": {
+	"coral_golem": { "copyof": "golem_coral_golem" },
+	"golem_crystal_golem": {
 		"name": "Golem, Crystal Golem",
 		"sources": [
 			"Bestiary 5",
@@ -4001,8 +4001,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, possession, thoughtsense, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
 		]
 	},
-	"crystal_golem": { "copyof": "golem,_crystal_golem" },
-	"golem,_dragonhide_golem": {
+	"crystal_golem": { "copyof": "golem_crystal_golem" },
+	"golem_dragonhide_golem": {
 		"name": "Golem, Dragonhide Golem",
 		"sources": [
 			"Construct Handbook",
@@ -4098,8 +4098,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [create greater undead](spell/create_greater_undead), [form of the dragon I](spell/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 		]
 	},
-	"dragonhide_golem": { "copyof": "golem,_dragonhide_golem" },
-	"golem,_equine_bone_golem": {
+	"dragonhide_golem": { "copyof": "golem_dragonhide_golem" },
+	"golem_equine_bone_golem": {
 		"name": "Golem, Equine Bone Golem",
 		"sources": [
 			"Tombs of Golarion",
@@ -4161,8 +4161,8 @@
 			"**Family:** [Golem](family/golem)"
 		]
 	},
-	"equine_bone_golem": { "copyof": "golem,_equine_bone_golem" },
-	"golem,_flesh_golem": {
+	"equine_bone_golem": { "copyof": "golem_equine_bone_golem" },
+	"golem_flesh_golem": {
 		"name": "Golem, Flesh Golem",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -4246,8 +4246,8 @@
 			"**CL** 8th; **Price** 20,500 gp; **Requirements** Craft Construct, animate dead, bull's strength, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 10,500 gp"
 		]
 	},
-	"flesh_golem": { "copyof": "golem,_flesh_golem" },
-	"golem,_fossil_golem": {
+	"flesh_golem": { "copyof": "golem_flesh_golem" },
+	"golem_fossil_golem": {
 		"name": "Golem, Fossil Golem",
 		"sources": [
 			"Bestiary 3",
@@ -4316,8 +4316,8 @@
 			"**Requirements** Craft Construct, flesh to stone, geas/quest, limited wish, stone shape, creator must be at least caster level 15th; Skill Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp"
 		]
 	},
-	"fossil_golem": { "copyof": "golem,_fossil_golem" },
-	"golem,_glass_golem": {
+	"fossil_golem": { "copyof": "golem_fossil_golem" },
+	"golem_glass_golem": {
 		"name": "Golem, Glass Golem",
 		"sources": [
 			"Bestiary 2",
@@ -4392,8 +4392,8 @@
 			"**Requirements** Craft Construct, animate objects, flame strike, geas/quest, spell turning, creator must be caster level 10th; Skill Craft (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)"
 		]
 	},
-	"glass_golem": { "copyof": "golem,_glass_golem" },
-	"golem,_gold_golem": {
+	"glass_golem": { "copyof": "golem_glass_golem" },
+	"golem_gold_golem": {
 		"name": "Golem, Gold Golem",
 		"sources": [
 			"Bestiary 6",
@@ -4473,8 +4473,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, polymorph any object, and prismatic spray, creator must be at least caster level 18th; Skill Craft (armor) DC 25; **Cost** 122,500 gp"
 		]
 	},
-	"gold_golem": { "copyof": "golem,_gold_golem" },
-	"golem,_ice_golem": {
+	"gold_golem": { "copyof": "golem_gold_golem" },
+	"golem_ice_golem": {
 		"name": "Golem, Ice Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4540,8 +4540,8 @@
 			"**CL** 12th; **Price** 18,500 gp; **Requirements** Craft Construct, chill touch, cone of cold, geas/quest, ice storm, resist energy (cold), creator must be caster level 12th; Skill Craft (sculptures) DC 17; **Cost** 9,500 gp"
 		]
 	},
-	"ice_golem": { "copyof": "golem,_ice_golem" },
-	"golem,_inubrix_golem": {
+	"ice_golem": { "copyof": "golem_ice_golem" },
+	"golem_inubrix_golem": {
 		"name": "Golem, Inubrix Golem",
 		"sources": [
 			"Construct Handbook",
@@ -4631,8 +4631,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [air walk](spell/air_walk), [enervation](spell/enervation), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
-	"inubrix_golem": { "copyof": "golem,_inubrix_golem" },
-	"golem,_ioun_golem": {
+	"inubrix_golem": { "copyof": "golem_inubrix_golem" },
+	"golem_ioun_golem": {
 		"name": "Golem, Ioun Golem",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
@@ -4720,8 +4720,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [geas/quest](spell/geas_quest), [wish](spell/wish), creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
 		]
 	},
-	"ioun_golem": { "copyof": "golem,_ioun_golem" },
-	"golem,_iron_golem": {
+	"ioun_golem": { "copyof": "golem_ioun_golem" },
+	"golem_iron_golem": {
 		"name": "Golem, Iron Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4790,8 +4790,8 @@
 			"**CL** 16th; **Price** 150,000 gp; **Requirements** Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 21; **Cost** 80,000 gp"
 		]
 	},
-	"iron_golem": { "copyof": "golem,_iron_golem" },
-	"golem,_junk_golem": {
+	"iron_golem": { "copyof": "golem_iron_golem" },
+	"golem_junk_golem": {
 		"name": "Golem, Junk Golem",
 		"sources": [
 			"Bestiary 4",
@@ -4864,8 +4864,8 @@
 			"**Requirements** Craft Construct, false life, lesser geas, minor creation, rusting grasp, creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
 		]
 	},
-	"junk_golem": { "copyof": "golem,_junk_golem" },
-	"golem,_lead_golem": {
+	"junk_golem": { "copyof": "golem_junk_golem" },
+	"golem_lead_golem": {
 		"name": "Golem, Lead Golem",
 		"sources": [
 			"Bestiary 5",
@@ -4939,8 +4939,8 @@
 			"**Requirements** Craft Construct, cloudkill, geas/quest, limited wish, sequester, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 32,500 gp"
 		]
 	},
-	"lead_golem": { "copyof": "golem,_lead_golem" },
-	"golem,_magnetitie_golem": {
+	"lead_golem": { "copyof": "golem_lead_golem" },
+	"golem_magnetitie_golem": {
 		"name": "Golem, Magnetitie Golem",
 		"sources": [
 			"Pathfinder #95: Anvil of Fire",
@@ -5028,8 +5028,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, reverse gravity, telekinesis, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 47,500 gp"
 		]
 	},
-	"magnetitie_golem": { "copyof": "golem,_magnetitie_golem" },
-	"golem,_marrowstone_golem": {
+	"magnetitie_golem": { "copyof": "golem_magnetitie_golem" },
+	"golem_marrowstone_golem": {
 		"name": "Golem, Marrowstone Golem",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -5098,8 +5098,8 @@
 			"**CL** 11th; **Price** 42,500 gp; **Requirements** Craft Construct, animate object, antilife shell, create undead, creator must be caster level 11th; Skill Craft (sculpture) or Craft (stonemasonry) DC 21; **Cost** 22,500 gp"
 		]
 	},
-	"marrowstone_golem": { "copyof": "golem,_marrowstone_golem" },
-	"golem,_mask_golem": {
+	"marrowstone_golem": { "copyof": "golem_marrowstone_golem" },
+	"golem_mask_golem": {
 		"name": "Golem, Mask Golem",
 		"sources": [
 			"Masks of the Living God",
@@ -5181,8 +5181,8 @@
 			"**CL** 9th; **Price** 22,500 gp; **Requirements** Craft Construct, dominate person, see invisibility, telekinesis, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
 		]
 	},
-	"mask_golem": { "copyof": "golem,_mask_golem" },
-	"golem,_mithral_golem": {
+	"mask_golem": { "copyof": "golem_mask_golem" },
+	"golem_mithral_golem": {
 		"name": "Golem, Mithral Golem",
 		"sources": [
 			"Bestiary 2",
@@ -5253,8 +5253,8 @@
 			"**Requirements** Craft Construct, animate objects, geas/quest, haste, polymorph any object, wish, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp"
 		]
 	},
-	"mithral_golem": { "copyof": "golem,_mithral_golem" },
-	"golem,_noqual_golem": {
+	"mithral_golem": { "copyof": "golem_mithral_golem" },
+	"golem_noqual_golem": {
 		"name": "Golem, Noqual Golem",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -5331,8 +5331,8 @@
 			"**CL** 18th; **Price** 253,000 gp; **Requirements** Craft Construct, geas/quest, greater dispel magic, polymorph any object, wish, creator must be caster level 18th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp"
 		]
 	},
-	"noqual_golem": { "copyof": "golem,_noqual_golem" },
-	"golem,_obsidian_golem": {
+	"noqual_golem": { "copyof": "golem_noqual_golem" },
+	"golem_obsidian_golem": {
 		"name": "Golem, Obsidian Golem",
 		"sources": [
 			"Bestiary 6",
@@ -5405,8 +5405,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, and volcanic storm, creator must be at least caster level 15th; Skill Craft (glass or sculpture) DC 24; **Cost** 69,250 gp"
 		]
 	},
-	"obsidian_golem": { "copyof": "golem,_obsidian_golem" },
-	"golem,_panthereon": {
+	"obsidian_golem": { "copyof": "golem_obsidian_golem" },
+	"golem_panthereon": {
 		"name": "Golem, Panthereon",
 		"sources": [
 			"Pathfinder #82: Secrets of the Sphinx",
@@ -5521,8 +5521,8 @@
 			"Additional Construction Requirements: instant enemy; Additional Cost: 26,500 gp."
 		]
 	},
-	"panthereon": { "copyof": "golem,_panthereon" },
-	"golem,_quantium_golem": {
+	"panthereon": { "copyof": "golem_panthereon" },
+	"golem_quantium_golem": {
 		"name": "Golem, Quantium Golem",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -5593,8 +5593,8 @@
 			"The secret of the Quantium golems' construction vanished with their creator, the archmage Nex."
 		]
 	},
-	"quantium_golem": { "copyof": "golem,_quantium_golem" },
-	"golem,_quintessence_golem": {
+	"quantium_golem": { "copyof": "golem_quantium_golem" },
+	"golem_quintessence_golem": {
 		"name": "Golem, Quintessence Golem",
 		"sources": [
 			"Bestiary 6",
@@ -5668,8 +5668,8 @@
 			"**Requirements** Craft Construct, energy drain, geas/ quest, trap the soul, and wish, creator must be at least caster level 20th; Skill Craft (glass) DC 40 and Knowledge (planes) DC 30; **Cost** 450,000 gp"
 		]
 	},
-	"quintessence_golem": { "copyof": "golem,_quintessence_golem" },
-	"golem,_robot_golem": {
+	"quintessence_golem": { "copyof": "golem_quintessence_golem" },
+	"golem_robot_golem": {
 		"name": "Golem, Robot Golem",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
@@ -5682,7 +5682,7 @@
 			"",
 			"### Robot Golem, CR 11",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 49](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 49](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 12,800  ",
 			"N Large construct  ",
 			"**Init** +0; **Senses** darkvision 60 ft., low-light vision; Perception +0",
@@ -5739,8 +5739,8 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, make whole, shatter, creator must be caster level 13th; Skill Craft (mechanical) DC 20; **Cost** 36,000 gp"
 		]
 	},
-	"robot_golem": { "copyof": "golem,_robot_golem" },
-	"golem,_sand_golem": {
+	"robot_golem": { "copyof": "golem_robot_golem" },
+	"golem_sand_golem": {
 		"name": "Golem, Sand Golem",
 		"sources": [
 			"Construct Handbook",
@@ -5830,8 +5830,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [move earth](spell/move_earth), creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
 		]
 	},
-	"sand_golem": { "copyof": "golem,_sand_golem" },
-	"golem,_sentient_wax_golem": {
+	"sand_golem": { "copyof": "golem_sand_golem" },
+	"golem_sentient_wax_golem": {
 		"name": "Golem, Sentient Wax Golem",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
@@ -5916,8 +5916,8 @@
 			"**CL** 9th; **Price** 14,000 gp Craft Requirements Craft Construct, animate objects, geas/quest, limited wish, silent image, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
-	"sentient_wax_golem": { "copyof": "golem,_sentient_wax_golem" },
-	"golem,_shadow_golem": {
+	"sentient_wax_golem": { "copyof": "golem_sentient_wax_golem" },
+	"golem_shadow_golem": {
 		"name": "Golem, Shadow Golem",
 		"sources": [
 			"Pathfinder #102: Breaking the Bones of Hell",
@@ -6002,8 +6002,8 @@
 			"**Requirements** Craft Construct, geas/quest, greater shadow conjuration, limited wish, polymorph any object, creator must be caster level 18th; Skill Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
 		]
 	},
-	"shadow_golem": { "copyof": "golem,_shadow_golem" },
-	"golem,_stone_golem": {
+	"shadow_golem": { "copyof": "golem_shadow_golem" },
+	"golem_stone_golem": {
 		"name": "Golem, Stone Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6067,8 +6067,8 @@
 			"**CL** 14th; **Price** 105,000 gp; **Requirements** Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 19; **Cost** 55,000 gp"
 		]
 	},
-	"stone_golem": { "copyof": "golem,_stone_golem" },
-	"golem,_viridium_golem": {
+	"stone_golem": { "copyof": "golem_stone_golem" },
+	"golem_viridium_golem": {
 		"name": "Golem, Viridium Golem",
 		"sources": [
 			"Bestiary 6",
@@ -6140,8 +6140,8 @@
 			"**Requirements** Craft Construct, contagion, geas/quest, horrid wilting, poison, and wish, creator must be at least caster level 18th; Skill Craft (glass or sculpture) DC 26; **Cost** 142,500 gp"
 		]
 	},
-	"viridium_golem": { "copyof": "golem,_viridium_golem" },
-	"golem,_wax_golem": {
+	"viridium_golem": { "copyof": "golem_viridium_golem" },
+	"golem_wax_golem": {
 		"name": "Golem, Wax Golem",
 		"sources": [
 			"Bestiary 4",
@@ -6211,8 +6211,8 @@
 			"**Requirements** Craft Construct, animate objects, geas/quest, limited wish, silent image, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
-	"wax_golem": { "copyof": "golem,_wax_golem" },
-	"golem,_wood_golem": {
+	"wax_golem": { "copyof": "golem_wax_golem" },
+	"golem_wood_golem": {
 		"name": "Golem, Wood Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6275,7 +6275,7 @@
 			"**CL** 7th; **Price** 19,300 gp; **Requirements** Craft Construct, alarm, animate objects, cat's grace, geas/quest, limited wish, creator must be caster level 12th; Skill Craft (carpentry) DC 17; **Cost** 8,800 gp"
 		]
 	},
-	"wood_golem": { "copyof": "golem,_wood_golem" },
+	"wood_golem": { "copyof": "golem_wood_golem" },
 	"gorgon": {
 		"name": "Gorgon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -6987,7 +6987,7 @@
 			"",
 			"### Gray Goo, CR 14",
 			"",
-			"**Source** [Bestiary 5 pg. 130](source/bestiary_5), [Numeria, Land of Fallen Stars pg. 50](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Bestiary 5 pg. 130](source/bestiary_5), [Numeria, Land of Fallen Stars pg. 50](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 38,400  ",
 			"N Fine construct (swarm)  ",
 			"**Init** +10; **Senses** darkvision 60 ft., low-light vision; Perception +13",

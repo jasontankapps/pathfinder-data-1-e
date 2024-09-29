@@ -262,7 +262,7 @@
 			"",
 			"### Galluvix, CR 2",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 84](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 84](source/pathfinder_#128_songbird_scion_saboteur)  ",
 			"**XP** 600  ",
 			"N Tiny magical beast  ",
 			"**Init** +6; **Senses** darkvision 60 ft., low-light vision; Perception +5",
@@ -592,7 +592,7 @@
 			"Gars are predatory fish that live in deep lakes and rivers. Sleek and swift, they regard anything their own size or smaller as food. A typical gar is 7 feet long and weighs 200 pounds. One species known as the alligator gar can grow to lengths of 10 feet. An alligator gar is a gar with the advanced creature template."
 		]
 	},
-	"gar,_giant_gar": {
+	"gar_giant_gar": {
 		"name": "Gar, Giant Gar",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -640,7 +640,7 @@
 			"Giant gars are often kept as pets and guard animals by aquatic creatures such as merrows, scrags (aquatic trolls), and the rare sea hags who dwell in freshwater dens."
 		]
 	},
-	"giant_gar": { "copyof": "gar,_giant_gar" },
+	"giant_gar": { "copyof": "gar_giant_gar" },
 	"garden_ooze": {
 		"name": "Garden Ooze",
 		"sources": [ "Bestiary 3" ],
@@ -836,7 +836,7 @@
 			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
-	"gargoyle,_four-armed_gargoyle": {
+	"gargoyle_four-armed_gargoyle": {
 		"name": "Gargoyle, Four-Armed Gargoyle",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
@@ -892,9 +892,9 @@
 			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
-	"four-armed_gargoyle": { "copyof": "gargoyle,_four-armed_gargoyle" },
-	"four_armed_gargoyle": { "copyof": "gargoyle,_four-armed_gargoyle" },
-	"gargoyle,_gargoyle_abductor": {
+	"four-armed_gargoyle": { "copyof": "gargoyle_four-armed_gargoyle" },
+	"four_armed_gargoyle": { "copyof": "gargoyle_four-armed_gargoyle" },
+	"gargoyle_gargoyle_abductor": {
 		"name": "Gargoyle, Gargoyle Abductor",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
@@ -952,8 +952,8 @@
 			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
-	"gargoyle_abductor": { "copyof": "gargoyle,_gargoyle_abductor" },
-	"gargoyle,_gargoyle_guardian": {
+	"gargoyle_abductor": { "copyof": "gargoyle_gargoyle_abductor" },
+	"gargoyle_gargoyle_guardian": {
 		"name": "Gargoyle, Gargoyle Guardian",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
@@ -1021,8 +1021,8 @@
 			"**CL** 10th; **Price** 30,000 gp; 50,000 gp (sentry); **Requirements** Craft Construct, animate objects, stone shape, geas/quest; **Cost** 15,000 gp; 25,000 gp (sentry)"
 		]
 	},
-	"gargoyle_guardian": { "copyof": "gargoyle,_gargoyle_guardian" },
-	"gargoyle,_kapoacinth_hunter": {
+	"gargoyle_guardian": { "copyof": "gargoyle_gargoyle_guardian" },
+	"gargoyle_kapoacinth_hunter": {
 		"name": "Gargoyle, Kapoacinth Hunter",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
@@ -1078,7 +1078,7 @@
 			"**Family:** [Gargoyle](family/gargoyle)"
 		]
 	},
-	"kapoacinth_hunter": { "copyof": "gargoyle,_kapoacinth_hunter" },
+	"kapoacinth_hunter": { "copyof": "gargoyle_kapoacinth_hunter" },
 	"garipan": {
 		"name": "Garipan",
 		"sources": [ "Academy of Secrets" ],
@@ -1653,7 +1653,7 @@
 			"The local lords believe that someone-probably one among them-accidentally brought genghryl eggs from the Mwangi Expanse, perhaps mixed in with seeds or some other product intended to boost production on their lands. Without any giant ants to serve as natural predators, the creatures hatched and began preying on the prairie dogs and other regional creatures, including people. Word of this threat has reached the imperial governor in Canorate, who is offering a substantial reward to anyone who can exterminate the genghryls without introducing aggressive giant ants to Molthune. The imperial governor is also offering a slightly smaller reward to whoever identifies the fool who brought the genghryls to Molthune in the first place."
 		]
 	},
-	"genie,_djinni": {
+	"genie_djinni": {
 		"name": "Genie, Djinni",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1716,8 +1716,8 @@
 			"**Family:** [Genie](family/genie)"
 		]
 	},
-	"djinni": { "copyof": "genie,_djinni" },
-	"genie,_efreeti": {
+	"djinni": { "copyof": "genie_djinni" },
+	"genie_efreeti": {
 		"name": "Genie, Efreeti",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1782,8 +1782,8 @@
 			"**Family:** [Genie](family/genie)"
 		]
 	},
-	"efreeti": { "copyof": "genie,_efreeti" },
-	"genie,_janni": {
+	"efreeti": { "copyof": "genie_efreeti" },
+	"genie_janni": {
 		"name": "Genie, Janni",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1851,8 +1851,8 @@
 			"**Family:** [Genie](family/genie)"
 		]
 	},
-	"janni": { "copyof": "genie,_janni" },
-	"genie,_marid": {
+	"janni": { "copyof": "genie_janni" },
+	"genie_marid": {
 		"name": "Genie, Marid",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1921,8 +1921,8 @@
 			"**Family:** [Genie](family/genie)"
 		]
 	},
-	"marid": { "copyof": "genie,_marid" },
-	"genie,_shaitan": {
+	"marid": { "copyof": "genie_marid" },
+	"genie_shaitan": {
 		"name": "Genie, Shaitan",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -1992,7 +1992,7 @@
 			"**Family:** [Genie](family/genie)"
 		]
 	},
-	"shaitan": { "copyof": "genie,_shaitan" },
+	"shaitan": { "copyof": "genie_shaitan" },
 	"genie-touched_horse": {
 		"name": "Genie-Touched Horse",
 		"sources": [ "Qadira, Jewel of the East" ],
@@ -2003,7 +2003,7 @@
 			"",
 			"### Genie-Touched Horse, CR 6",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 60](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 60](source/qadira_jewel_of_the_east)  ",
 			"**XP** 2,400  ",
 			"N Large magical beast  ",
 			"**Init** +2; **Senses** darkvision 60 ft., low-light vision, scent; Perception +9",
@@ -2179,7 +2179,7 @@
 			"",
 			"### Gerbie, CR 4",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 62](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 62](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 1,200  ",
 			"CG Small fey  ",
 			"**Init** +3; **Senses** low-light vision; Perception +13  ",
@@ -2708,7 +2708,7 @@
 			"Grathkoll (CR 2): A larger breed of ghoul hound, the grathkoll can be ridden by a Medium creature. A grathkoll is a ghoul hound with the giant simple template and a +10 bonus to its base land speed."
 		]
 	},
-	"ghoul,_ancient_gravedigger": {
+	"ghoul_ancient_gravedigger": {
 		"name": "Ghoul, Ancient Gravedigger",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2769,8 +2769,8 @@
 			"Years of digging up graves have given this ancient ghoul an affinity for earth magic. Powerful spellcasting ghouls usually rise to positions of leadership, and in his ghoul city, this gravedigger is a high-ranking member of the ruling elite."
 		]
 	},
-	"ancient_gravedigger": { "copyof": "ghoul,_ancient_gravedigger" },
-	"ghoul,_ghoul_commander": {
+	"ancient_gravedigger": { "copyof": "ghoul_ancient_gravedigger" },
+	"ghoul_ghoul_commander": {
 		"name": "Ghoul, Ghoul Commander",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2828,8 +2828,8 @@
 			"Fiendish Dire Boar Servant hp 42 When ghouls marshal themselves into organized groups, it is ghoul commanders who shoulder the responsibility of leadership and command. In \"civilized\" ghoul cities and nations, ghoul commanders serve as an elite officer class, directing and commanding units of more common ghouls in military maneuvers and on excursions. While they receive their orders from ghouls higher up the chain of command, ghoul commanders are responsible for translating those orders into concrete tactics, and enjoy great autonomy on the battlefield-so long as their strategies succeed, at least."
 		]
 	},
-	"ghoul_commander": { "copyof": "ghoul,_ghoul_commander" },
-	"ghoul,_ghoul_creeper": {
+	"ghoul_commander": { "copyof": "ghoul_ghoul_commander" },
+	"ghoul_ghoul_creeper": {
 		"name": "Ghoul, Ghoul Creeper",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2876,8 +2876,8 @@
 			"While all ghouls are quiet and deadly in the night, these ghouls specialize in striking from cover or exploiting tactical advantages. They set up ambushes or fight using group tactics to claim their prey."
 		]
 	},
-	"ghoul_creeper": { "copyof": "ghoul,_ghoul_creeper" },
-	"ghoul,_ghoul_huntsmaster": {
+	"ghoul_creeper": { "copyof": "ghoul_ghoul_creeper" },
+	"ghoul_ghoul_huntsmaster": {
 		"name": "Ghoul, Ghoul Huntsmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2955,8 +2955,8 @@
 			"**SQ** tricks (attack [all creatures], come, fetch, guard, seek, stay, track)"
 		]
 	},
-	"ghoul_huntsmaster": { "copyof": "ghoul,_ghoul_huntsmaster" },
-	"ghoul,_ghoul_monarch": {
+	"ghoul_huntsmaster": { "copyof": "ghoul_ghoul_huntsmaster" },
+	"ghoul_ghoul_monarch": {
 		"name": "Ghoul, Ghoul Monarch",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3018,8 +3018,8 @@
 			"These ancient sorcerers have attained their power by using those around them as puppets. They command mortals and undead using both their magic and force of personality."
 		]
 	},
-	"ghoul_monarch": { "copyof": "ghoul,_ghoul_monarch" },
-	"ghoul,_ghoul_stalker": {
+	"ghoul_monarch": { "copyof": "ghoul_ghoul_monarch" },
+	"ghoul_ghoul_stalker": {
 		"name": "Ghoul, Ghoul Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3066,8 +3066,8 @@
 			"While all ghouls are quiet and deadly in the night, these ghouls specialize in striking from cover or exploiting tactical advantages. They set up ambushes or fight using group tactics to claim their prey."
 		]
 	},
-	"ghoul_stalker": { "copyof": "ghoul,_ghoul_stalker" },
-	"ghoul,_leng_ghoul": {
+	"ghoul_stalker": { "copyof": "ghoul_ghoul_stalker" },
+	"ghoul_leng_ghoul": {
 		"name": "Ghoul, Leng Ghoul",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -3127,8 +3127,8 @@
 			"Although most Leng ghouls venerate the Great Old Ones or Outer Gods (they have a particular affinity for Nyarlathotep), a rare few of these creatures retain more of their humanity than merely their living intellect. These unique few drift away from evil in their pursuit of magical lore-while they still hunger for dead flesh, many try their best to feed only on those who died naturally or willingly offer themselves up to the carrion feast in return for favors. While many eventually succumb to the temptation to feed on fresh kills in time, a rare few manage to maintain nonevil alignments. Such rare ghouls also retain some or all of the class levels they had in life, transferring those levels onto their new undead forms. The bulk of these Leng ghouls have levels as arcane spellcasters or rogues, since those who were once divine spellcasters, or otherwise religious in life, tend to be wholly devoted to gods of evil and decay."
 		]
 	},
-	"leng_ghoul": { "copyof": "ghoul,_leng_ghoul" },
-	"ghoul,_masked_murderer": {
+	"leng_ghoul": { "copyof": "ghoul_leng_ghoul" },
+	"ghoul_masked_murderer": {
 		"name": "Ghoul, Masked Murderer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3189,7 +3189,7 @@
 			"Unfortunately for ghouls, spending so much time among the living serves only to highlight the life they traded away for the unending hunger of their undead existence. Many masked murderers find themselves conflicted as a result, envying the vibrant lives of their prey. In the end, however, a masked murderer's ghoulish hunger always overwhelms any other emotion she might feel, and she hunts her prey with as much ravenous fervor as any other ghoul, if not more."
 		]
 	},
-	"masked_murderer": { "copyof": "ghoul,_masked_murderer" },
+	"masked_murderer": { "copyof": "ghoul_masked_murderer" },
 	"ghul": {
 		"name": "Ghul",
 		"sources": [
@@ -3275,7 +3275,7 @@
 			"Whirlwind (Su) As a standard action a great ghul can transform itself into a whirlwind of air, bone shards, and pieces of gristle, with its head floating about. A great ghul's movement while in whirlwind form does not provoke attacks of opportunity, even if the great ghul enters the space another creature occupies. Any creature sharing a space with the whirlwind or attacking it with natural weapons takes 1d6 hit points of damage. Any living creature that begins its turn in the whirlwind's space must succeed on a DC 18 Fortitude save or be nauseated for 1 round. The save DC is Charisma-based. Returning to its normal form is a standard action. Only a great ghul that was once a djinni can have this ability."
 		]
 	},
-	"giant_fire,_fire_giant": {
+	"giant_fire_fire_giant": {
 		"name": "Giant (Fire), Fire Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3335,8 +3335,8 @@
 			"Fire giants prefer hot locations-the hotter, the better. They've been found in deserts, volcanoes, hot springs, and deep beneath the earth near lava vents. They live in castles, walled settlements, or large caverns, and the design of these locations reflects their rigid, militaristic lifestyle, with officers living in better quarters than the rank-and-file."
 		]
 	},
-	"fire_giant": { "copyof": "giant_fire,_fire_giant" },
-	"giant_fire,_fire_giant_doombringer": {
+	"fire_giant": { "copyof": "giant_fire_fire_giant" },
+	"giant_fire_fire_giant_doombringer": {
 		"name": "Giant (Fire), Fire Giant Doombringer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3400,8 +3400,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_doombringer": { "copyof": "giant_fire,_fire_giant_doombringer" },
-	"giant_fire,_fire_giant_glaive": {
+	"fire_giant_doombringer": { "copyof": "giant_fire_fire_giant_doombringer" },
+	"giant_fire_fire_giant_glaive": {
 		"name": "Giant (Fire), Fire Giant Glaive",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3453,8 +3453,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_glaive": { "copyof": "giant_fire,_fire_giant_glaive" },
-	"giant_fire,_fire_giant_king": {
+	"fire_giant_glaive": { "copyof": "giant_fire_fire_giant_glaive" },
+	"giant_fire_fire_giant_king": {
 		"name": "Giant (Fire), Fire Giant King",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3517,8 +3517,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_king": { "copyof": "giant_fire,_fire_giant_king" },
-	"giant_fire,_fire_giant_lieutenant": {
+	"fire_giant_king": { "copyof": "giant_fire_fire_giant_king" },
+	"giant_fire_fire_giant_lieutenant": {
 		"name": "Giant (Fire), Fire Giant Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3578,8 +3578,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_lieutenant": { "copyof": "giant_fire,_fire_giant_lieutenant" },
-	"giant_fire,_fire_giant_magmablade": {
+	"fire_giant_lieutenant": { "copyof": "giant_fire_fire_giant_lieutenant" },
+	"giant_fire_fire_giant_magmablade": {
 		"name": "Giant (Fire), Fire Giant Magmablade",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3645,8 +3645,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_magmablade": { "copyof": "giant_fire,_fire_giant_magmablade" },
-	"giant_fire,_fire_giant_queen": {
+	"fire_giant_magmablade": { "copyof": "giant_fire_fire_giant_magmablade" },
+	"giant_fire_fire_giant_queen": {
 		"name": "Giant (Fire), Fire Giant Queen",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3710,8 +3710,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_queen": { "copyof": "giant_fire,_fire_giant_queen" },
-	"giant_fire,_fire_giant_strongarm": {
+	"fire_giant_queen": { "copyof": "giant_fire_fire_giant_queen" },
+	"giant_fire_fire_giant_strongarm": {
 		"name": "Giant (Fire), Fire Giant Strongarm",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3764,8 +3764,8 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_strongarm": { "copyof": "giant_fire,_fire_giant_strongarm" },
-	"giant_frost,_frost_giant": {
+	"fire_giant_strongarm": { "copyof": "giant_fire_fire_giant_strongarm" },
+	"giant_frost_frost_giant": {
 		"name": "Giant (Frost), Frost Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3821,8 +3821,8 @@
 			"Frost giants love to take captives, and use them for food as well as slaves and commodities. Every group of frost giants typically has 1-2 humanoid slaves shackled to a slave handler-usually the meanest and cruelest non-jarl in the group. They are also quite fond of monstrous pets-white dragons and winter wolves are popular choices, but remorhazes, yetis, and even linnorms can be found dwelling in a frost giant lair."
 		]
 	},
-	"frost_giant": { "copyof": "giant_frost,_frost_giant" },
-	"giant_frost,_frost_giant_battle_priest": {
+	"frost_giant": { "copyof": "giant_frost_frost_giant" },
+	"giant_frost_frost_giant_battle_priest": {
 		"name": "Giant (Frost), Frost Giant Battle Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3892,8 +3892,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"frost_giant_battle_priest": { "copyof": "giant_frost,_frost_giant_battle_priest" },
-	"giant_frost,_frost_giant_elite_scout": {
+	"frost_giant_battle_priest": { "copyof": "giant_frost_frost_giant_battle_priest" },
+	"giant_frost_frost_giant_elite_scout": {
 		"name": "Giant (Frost), Frost Giant Elite Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3947,8 +3947,8 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_elite_scout": { "copyof": "giant_frost,_frost_giant_elite_scout" },
-	"giant_frost,_frost_giant_houndmaster": {
+	"frost_giant_elite_scout": { "copyof": "giant_frost_frost_giant_elite_scout" },
+	"giant_frost_frost_giant_houndmaster": {
 		"name": "Giant (Frost), Frost Giant Houndmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4013,8 +4013,8 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_houndmaster": { "copyof": "giant_frost,_frost_giant_houndmaster" },
-	"giant_frost,_frost_giant_hunter": {
+	"frost_giant_houndmaster": { "copyof": "giant_frost_frost_giant_houndmaster" },
+	"giant_frost_frost_giant_hunter": {
 		"name": "Giant (Frost), Frost Giant Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4067,8 +4067,8 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_hunter": { "copyof": "giant_frost,_frost_giant_hunter" },
-	"giant_frost,_frost_giant_ice_mage": {
+	"frost_giant_hunter": { "copyof": "giant_frost_frost_giant_hunter" },
+	"giant_frost_frost_giant_ice_mage": {
 		"name": "Giant (Frost), Frost Giant Ice Mage",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4134,8 +4134,8 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_ice_mage": { "copyof": "giant_frost,_frost_giant_ice_mage" },
-	"giant_frost,_frost_giant_jarl": {
+	"frost_giant_ice_mage": { "copyof": "giant_frost_frost_giant_ice_mage" },
+	"giant_frost_frost_giant_jarl": {
 		"name": "Giant (Frost), Frost Giant Jarl",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4196,8 +4196,8 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_jarl": { "copyof": "giant_frost,_frost_giant_jarl" },
-	"giant_frost,_frost_giant_raider": {
+	"frost_giant_jarl": { "copyof": "giant_frost_frost_giant_jarl" },
+	"giant_frost_frost_giant_raider": {
 		"name": "Giant (Frost), Frost Giant Raider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4257,7 +4257,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_raider": { "copyof": "giant_frost,_frost_giant_raider" },
+	"frost_giant_raider": { "copyof": "giant_frost_frost_giant_raider" },
 	"giant_ant_spore_zombie": {
 		"name": "Giant Ant Spore Zombie",
 		"sources": [ "Bestiary 6" ],
@@ -4371,7 +4371,7 @@
 			"",
 			"### Giant Devil's Tooth, CR 6",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 86](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 86](source/pathfinder_#128_songbird_scion_saboteur)  ",
 			"**XP** 2,400  ",
 			"NE Huge plant  ",
 			"**Init** +2; **Senses** blindsense 30 ft., low-light vision; Perception +13",
@@ -4490,7 +4490,7 @@
 			"Many swamp-dwelling cultures attach religious significance to brightly colored and ravenous giant dragonflies, particularly boggards. The frog-men attach particular significance to a giant dragonfly's color, and their priest-kings often refuse to eat anything but specific colors of giant dragonflies."
 		]
 	},
-	"giant_dragonfly,_giant_dragonfly_nymph": {
+	"giant_dragonfly_giant_dragonfly_nymph": {
 		"name": "Giant Dragonfly, Giant Dragonfly Nymph",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4540,7 +4540,7 @@
 			"Giant dragonflies lay clutches of eggs in swampy terrain or areas of standing water. Their young, called nymphs, voraciously eat carrion and small prey, growing and maturing rapidly until they sprout fully functional wings and become adult dragonflies."
 		]
 	},
-	"giant_dragonfly_nymph": { "copyof": "giant_dragonfly,_giant_dragonfly_nymph" },
+	"giant_dragonfly_nymph": { "copyof": "giant_dragonfly_giant_dragonfly_nymph" },
 	"giant_fly": {
 		"name": "Giant Fly",
 		"sources": [
@@ -5426,7 +5426,7 @@
 			"The giant tube worm resides entirely within its constructed, armored tube. It extends its stinging tendrils out into the water to search for prey. This and the hookfang are but two varieties of the giant sea worm-some grow much larger, such as the gargantuan reef worm or the truly colossal trench worm. Others, like the brine worm and the crimson worm, are much smaller."
 		]
 	},
-	"giant,_ash_giant": {
+	"giant_ash_giant": {
 		"name": "Giant, Ash Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5490,8 +5490,8 @@
 			"Ash giants are 10 feet tall and weigh 1,200 pounds."
 		]
 	},
-	"ash_giant": { "copyof": "giant,_ash_giant" },
-	"giant,_cave_giant": {
+	"ash_giant": { "copyof": "giant_ash_giant" },
+	"giant_cave_giant": {
 		"name": "Giant, Cave Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5552,8 +5552,8 @@
 			"Giant lizards of all types serve as both guard beasts and sport for the cave giants. Giant frilled lizards are rarely pets, as most cave giants opt to keep less dangerous monitor lizards instead. Kept in check only by fear and brutal beatings, such pets turn on their handlers at the first sign of weakness. At feeding time, live captives are tossed into the pens, a festive event filled with boisterous cheers and spirited betting."
 		]
 	},
-	"cave_giant": { "copyof": "giant,_cave_giant" },
-	"giant,_cliff_giant": {
+	"cave_giant": { "copyof": "giant_cave_giant" },
+	"giant_cliff_giant": {
 		"name": "Giant, Cliff Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -5617,8 +5617,8 @@
 			"Cliff giants respect their elders, and some pairs living together are an adult giant with an old parent or grandparent."
 		]
 	},
-	"cliff_giant": { "copyof": "giant,_cliff_giant" },
-	"giant,_cloud_giant": {
+	"cliff_giant": { "copyof": "giant_cliff_giant" },
+	"giant_cloud_giant": {
 		"name": "Giant, Cloud Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5679,8 +5679,8 @@
 			"Legends abound of magical cloud giant cities nestled in the very clouds themselves that float with the winds and circumnavigate the world. While most cloud giants recognize this as a fantasy, there are some who not only claim to have seen them but have dedicated the entirety of their long lives to finding them again."
 		]
 	},
-	"cloud_giant": { "copyof": "giant,_cloud_giant" },
-	"giant,_desert_giant": {
+	"cloud_giant": { "copyof": "giant_cloud_giant" },
+	"giant_desert_giant": {
 		"name": "Giant, Desert Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5740,8 +5740,8 @@
 			"Despite their nomadic ways, desert giants guard their territory fiercely, driving away all interlopers, whether intelligent or bestial."
 		]
 	},
-	"desert_giant": { "copyof": "giant,_desert_giant" },
-	"giant,_eclipse_giant": {
+	"desert_giant": { "copyof": "giant_desert_giant" },
+	"giant_eclipse_giant": {
 		"name": "Giant, Eclipse Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5807,8 +5807,8 @@
 			"Eclipse seers are able to predict the coming of eclipses. While some believe this knowledge is divinely inspired, in truth most such giants are able to derive the eclipses using mathematical formulas. A typical eclipse seer has the advanced simple template or a few levels in bard, investigator, or wizard (specializing in divination)."
 		]
 	},
-	"eclipse_giant": { "copyof": "giant,_eclipse_giant" },
-	"giant,_hill_giant": {
+	"eclipse_giant": { "copyof": "giant_eclipse_giant" },
+	"giant_hill_giant": {
 		"name": "Giant, Hill Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5863,8 +5863,8 @@
 			"Solitary, non-evil hill giants are very rare but can sometimes be found in other humanoid societies, though they are almost never accepted in central cities or population centers. They do best as laborers and soldiers in outlying frontier towns, and often serve as rudimentary diplomats to negotiate with marauding hill giant bands. Unfortunately, hill giants who shed their racial lifestyle for civilization are mocked and often killed on sight by their nomadic brethren. Still, these \"civilized\" hill giants can find their place within society and many have managed to live peaceful, uneventful lives."
 		]
 	},
-	"hill_giant": { "copyof": "giant,_hill_giant" },
-	"giant,_jungle_giant": {
+	"hill_giant": { "copyof": "giant_hill_giant" },
+	"giant_jungle_giant": {
 		"name": "Giant, Jungle Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5923,8 +5923,8 @@
 			"Jungle giants stand 17 feet tall and weigh 4,000 pounds. Their barklike skin bears runic brands etched into each giant as a rite of passage into adulthood. Jungle giant tribes are matriarchal, ruled by an elder female warrior. Males traditionally defend the village, gather food, tend livestock, and raise children."
 		]
 	},
-	"jungle_giant": { "copyof": "giant,_jungle_giant" },
-	"giant,_marsh_giant": {
+	"jungle_giant": { "copyof": "giant_jungle_giant" },
+	"giant_marsh_giant": {
 		"name": "Giant, Marsh Giant",
 		"sources": [
 			"Bestiary 2",
@@ -5984,8 +5984,8 @@
 			"*Constant*-speak with animals; 3/day-contagion (DC 15), confusion (DC 14), quench (DC 14)."
 		]
 	},
-	"marsh_giant": { "copyof": "giant,_marsh_giant" },
-	"giant,_moon_giant": {
+	"marsh_giant": { "copyof": "giant_marsh_giant" },
+	"giant_moon_giant": {
 		"name": "Giant, Moon Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -6055,8 +6055,8 @@
 			"Most moon giants stand about 24 feet tall and weigh almost 18,000 pounds."
 		]
 	},
-	"moon_giant": { "copyof": "giant,_moon_giant" },
-	"giant,_mountain_giant": {
+	"moon_giant": { "copyof": "giant_moon_giant" },
+	"giant_mountain_giant": {
 		"name": "Giant, Mountain Giant",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -6118,8 +6118,8 @@
 			"The typical mountain giant stands a towering 45 feet tall and weighs 30,000 pounds."
 		]
 	},
-	"mountain_giant": { "copyof": "giant,_mountain_giant" },
-	"giant,_ocean_giant": {
+	"mountain_giant": { "copyof": "giant_mountain_giant" },
+	"giant_ocean_giant": {
 		"name": "Giant, Ocean Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6181,8 +6181,8 @@
 			"Adult ocean giants stand approximately 22 feet tall and weigh about 15,000 pounds. Most live to be about 500 years old."
 		]
 	},
-	"ocean_giant": { "copyof": "giant,_ocean_giant" },
-	"giant,_plague_giant": {
+	"ocean_giant": { "copyof": "giant_ocean_giant" },
+	"giant_plague_giant": {
 		"name": "Giant, Plague Giant",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -6245,8 +6245,8 @@
 			"The average plague giant is 24 feet tall and weigh 15,000 pounds."
 		]
 	},
-	"plague_giant": { "copyof": "giant,_plague_giant" },
-	"giant,_river_giant": {
+	"plague_giant": { "copyof": "giant_plague_giant" },
+	"giant_river_giant": {
 		"name": "Giant, River Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6304,8 +6304,8 @@
 			"River giants prefer to lair on small islands, rock formations, or sediment banks where rivers come together. A river giant uses its home, usually a simple earthen hut of mud and reeds, to store its valuables or as a place to gather with others of its kind."
 		]
 	},
-	"river_giant": { "copyof": "giant,_river_giant" },
-	"giant,_rune_giant": {
+	"river_giant": { "copyof": "giant_river_giant" },
+	"giant_rune_giant": {
 		"name": "Giant, Rune Giant",
 		"sources": [
 			"Bestiary 2",
@@ -6372,8 +6372,8 @@
 			"Rune giants' charcoal flesh is decorated by dozens of runes-manifestations of their eldritch powers. Rune giants are 40 feet tall and weigh 25,000 pounds."
 		]
 	},
-	"rune_giant": { "copyof": "giant,_rune_giant" },
-	"giant,_shadow_giant": {
+	"rune_giant": { "copyof": "giant_rune_giant" },
+	"giant_shadow_giant": {
 		"name": "Giant, Shadow Giant",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -6434,8 +6434,8 @@
 			"Most shadow giants are especially taciturn and keep to themselves when not called to duty by the Umbral Court. They keep their own counsel and practice their own mysterious religion, whose bloody rituals of autosacrifice and cannibalism are presided over by their bone-and-featheradorned shamans atop short-stepped pyramids constructed of dark basalt blocks. On the Shadow Plane, families of shadow giants have been known to combine together to form greater tribes when times of war are at hand. Such an army arrayed upon the field of battle is often enough to make enemies sue for peace with offers of gold and prisoners for sacrifice."
 		]
 	},
-	"shadow_giant": { "copyof": "giant,_shadow_giant" },
-	"giant,_slag_giant": {
+	"shadow_giant": { "copyof": "giant_shadow_giant" },
+	"giant_slag_giant": {
 		"name": "Giant, Slag Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6493,8 +6493,8 @@
 			"Slag giant settlements usually consist of several stone homes (built from or surrounded by forge slag) with built-in forges and large, smoking chimneys. Most are in hills or mountains, but they can be found anywhere there is a ready supply of iron ore. Although they prefer creation to combat, slag giants are brutal and efficient fighters, capable of destroying an enemy's weapons or armor in a few precise blows. They often let opponents retreat if it gives the giants the opportunity to collect any broken weapons and armor as salvage. If approached peacefully, they are willing to barter or sell their goods, though they usually don't have human-sized items on hand. Trespassers who carelessly or wantonly destroy a slag giant's work or foul its forge usually end up in the fire. Most settlements have several giant-sized breastplates the residents can don if they expect a serious fight."
 		]
 	},
-	"slag_giant": { "copyof": "giant,_slag_giant" },
-	"giant,_stone_giant": {
+	"slag_giant": { "copyof": "giant_slag_giant" },
+	"giant_stone_giant": {
 		"name": "Giant, Stone Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6555,8 +6555,8 @@
 			"Some stone giants develop special abilities related to their environment. Called elders, these stone giants have Charisma scores of at least 15 and three spell-like abilities (CL 10th). Once per day they can use stone shape, stone tell, and either transmute rock to mud or transmute mud to rock (DC 17). The save DC is Charisma-based. One in 10 elders is a sorcerer, usually of 3rd to 6th level. Stone giant elders add +1 to their CR."
 		]
 	},
-	"stone_giant": { "copyof": "giant,_stone_giant" },
-	"giant,_storm_giant": {
+	"stone_giant": { "copyof": "giant_stone_giant" },
+	"giant_storm_giant": {
 		"name": "Giant, Storm Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6619,8 +6619,8 @@
 			"Storm giants live in well-constructed towers, castles, or walled settlements, and prefer to live off the land. They maintain enormous, well-tended gardens and manage hundreds of acres of farmland per group. They often hire other humanoids, such as elves or humans, to help them run their massive farms. A storm giant enclave often takes responsibility for the safety of an entire island or stretch of coastline."
 		]
 	},
-	"storm_giant": { "copyof": "giant,_storm_giant" },
-	"giant,_sun_giant": {
+	"storm_giant": { "copyof": "giant_storm_giant" },
+	"giant_sun_giant": {
 		"name": "Giant, Sun Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -6684,8 +6684,8 @@
 			"Though they live for centuries, sun giants are blessed with eternally youthful appearances, a blessing that remains even for those who become selfish and corrupt. They tower over 25 feet tall and weigh roughly 18,000 pounds."
 		]
 	},
-	"sun_giant": { "copyof": "giant,_sun_giant" },
-	"giant,_taiga_giant": {
+	"sun_giant": { "copyof": "giant_sun_giant" },
+	"giant_taiga_giant": {
 		"name": "Giant, Taiga Giant",
 		"sources": [
 			"Bestiary 2",
@@ -6746,8 +6746,8 @@
 			"A typical taiga giant stands 20 feet in height and weighs 10,000 pounds. Skin tones vary from dark to pale gray, with hair color ranging from dark brown to red."
 		]
 	},
-	"taiga_giant": { "copyof": "giant,_taiga_giant" },
-	"giant,_tomb_giant": {
+	"taiga_giant": { "copyof": "giant_taiga_giant" },
+	"giant_tomb_giant": {
 		"name": "Giant, Tomb Giant",
 		"sources": [
 			"Pathfinder #94: Ice Tomb of the Giant Queen",
@@ -6831,8 +6831,8 @@
 			"Tomb giants are a secretive race, and go to extraordinary lengths to pursue and capture anyone they catch spying on them. Surrounding themselves with undead creatures (most of which are under their control) has provided the giants the secrecy they crave, as the dead don't utter secrets. Some folktales speak of silent, pale folk of impossible height who come out of the night in pursuit of a victim who has \"seen something no one should see.\" These stories have a grain of truth to them, and invariably end with the foolhardy individual vanished from his home, never to be seen again. Those few fortunate enough to have escaped with their lives bear scars of their interactions with the sinister giants, and survivors tell tales of pale giants who made light conversation with their victims while preparing to cook them. Darker tales hint at the tomb giants' perverse mating rituals, wherein chained victims are drained of their life force and left hanging on the walls, bearing witness to the giants' frenzied couplings before the pale creatures eat their weakened captives alive. Wherever these alabaster fiends tread, horror and madness is sure to follow."
 		]
 	},
-	"tomb_giant": { "copyof": "giant,_tomb_giant" },
-	"giant,_vault_giant": {
+	"tomb_giant": { "copyof": "giant_tomb_giant" },
+	"giant_vault_giant": {
 		"name": "Giant, Vault Giant",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
@@ -6908,8 +6908,8 @@
 			"In their interactions with other intelligent denizens of the Sightless Sea, such as aboleths, munavris, and urdefhans, vault giants seem to operate according to an inscrutable agenda. They might raid one settlement, lavish gifts upon another, or raze yet another to the ground and take all of its inhabitants as prisoners. Intelligent captives receive equally erratic treatment: they might be eaten in a communal feast or set free in a distant corner of Orv. Vault giants are cautious when they meet unfamiliar intelligent creatures for the first time, preferring to take them captive until they receive instructions from their leaders. Vault giants know only that they loyally follow the orders of their psychic circle; few realize that these powerful psychics take their commands in turn from unknown masters far below the Sightless Sea."
 		]
 	},
-	"vault_giant": { "copyof": "giant,_vault_giant" },
-	"giant,_wood_giant": {
+	"vault_giant": { "copyof": "giant_vault_giant" },
+	"giant_wood_giant": {
 		"name": "Giant, Wood Giant",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6967,7 +6967,7 @@
 			"Wood giants stand 14 feet tall and weigh 1,200 pounds. They are vegetarians by choice, resorting to eating meat only when no other option is available."
 		]
 	},
-	"wood_giant": { "copyof": "giant,_wood_giant" },
+	"wood_giant": { "copyof": "giant_wood_giant" },
 	"gibbering_mouther": {
 		"name": "Gibbering Mouther",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -7030,7 +7030,7 @@
 			"Disgusting, loathsome, and hungry-these are the only words that properly describe the gibbering mouther. A foul beast that lurks in underground caves, sewers, and nightmares, mouthers have no societal, ecological or religious significance other than their ability to drive those that listen to them mad. Some scholars believe that gibbering mouthers are a lesser variant of the much more dangerous shoggoth, while others theorize they are a punishment by some powerful being or deity inflicted on those who have offended it."
 		]
 	},
-	"walrus,_emperor_walrus": {
+	"walrus_emperor_walrus": {
 		"name": "Walrus, Emperor Walrus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7078,8 +7078,8 @@
 			"A full-grown male emperor walrus measures 20 feet in length and weighs around 16 tons, with tusks up to 6 feet long. It can live up to 80 years."
 		]
 	},
-	"emperor_walrus": { "copyof": "walrus,_emperor_walrus" },
-	"walrus,_walrus_b4": {
+	"emperor_walrus": { "copyof": "walrus_emperor_walrus" },
+	"walrus_walrus_b4": {
 		"name": "Walrus, Walrus (B4)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7129,8 +7129,8 @@
 			"Owing to their fearsome tusks, prodigious strength, and willingness to fight as a herd, only the most aggressive or hungry polar predators risk attacking an adult walrus. People hunt walruses for meat and for their tusks, valued for their worth as ivory and as impressive trophies in their own right."
 		]
 	},
-	"walrus_b4": { "copyof": "walrus,_walrus_b4" },
-	"walrus,_walrus_ff": {
+	"walrus_b4": { "copyof": "walrus_walrus_b4" },
+	"walrus_walrus_ff": {
 		"name": "Walrus, Walrus (FF)",
 		"sources": [ "Animal Archive" ],
 		"description": [
@@ -7180,7 +7180,7 @@
 			"Young walruses start out with gray hides, but their flesh becomes almost pinkish when they reach old age (20-30 years for most walruses). Their hide is up to 4 inches thick, with another 6 inches of blubber hidden underneath that, accounting for their incredible toughness-and for their usefulness to arctic cultures as a source of meat and fuel."
 		]
 	},
-	"walrus_ff": { "copyof": "walrus,_walrus_ff" },
+	"walrus_ff": { "copyof": "walrus_walrus_ff" },
 	"wamp": {
 		"name": "Wamp",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],

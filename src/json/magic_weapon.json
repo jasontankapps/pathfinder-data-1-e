@@ -1668,7 +1668,7 @@
 		"description": [
 			"## Machete of Clearing",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava_the_lost_colony)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** normal (5,550 gp), animal or plant bane (11,550 gp); **Weight** 2 lbs.",
 			"",
@@ -3031,7 +3031,7 @@
 		"description": [
 			"## Grudge Blade",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax_empire_of_devils)  ",
 			"**Aura** minor necromancy; **CL** 9th  ",
 			"**Slot** weapon; **Price** 10,320 gp; **Weight** 2 lbs.",
 			"",
@@ -3402,7 +3402,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Craft Wand, ice spears, icicle dagger; **Price** 6,125 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wand](feat/craft_wand), ice spears, icicle dagger; **Price** 6,125 gp"
 		]
 	},
 	"constrictor's_gauntlets": {
@@ -4075,7 +4075,7 @@
 	"lesser_mace_of_smiting": {
 		"copyof": "mace_of_smiting_lesser"
 	},
-	"tsuruhashi,_the_silent_crane": {
+	"tsuruhashi_the_silent_crane": {
 		"name": "Tsuruhashi, the Silent Crane",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
@@ -4091,9 +4091,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), silence, slay living; **Price** 9,551 gp"
 		]
-	},
-	"tsuruhashi_the_silent_crane": {
-		"copyof": "tsuruhashi,_the_silent_crane"
 	},
 	"dagger_of_black_sands": {
 		"name": "Dagger of Black Sands",
@@ -4164,7 +4161,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Magic Arms And Armor, animate objects; **Price** 10,025 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects; **Price** 10,025 gp"
 		]
 	},
 	"hero's_blade": {

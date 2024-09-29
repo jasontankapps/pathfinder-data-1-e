@@ -61,7 +61,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -983,7 +983,7 @@
 		],
 		"subtopics": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
@@ -1018,13 +1018,13 @@
 		],
 		"siblings": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
 		]
 	},
-	"friends,_allies,_and_influences": {
+	"friends_allies_and_influences": {
 		"name": "Friends, Allies, and Influences",
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
@@ -1043,7 +1043,7 @@
 		],
 		"siblings": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
@@ -1068,7 +1068,7 @@
 		],
 		"siblings": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
@@ -1093,7 +1093,7 @@
 		],
 		"siblings": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
@@ -1116,7 +1116,7 @@
 		],
 		"siblings": [
 			"initiation_rites",
-			"friends,_allies,_and_influences",
+			"friends_allies_and_influences",
 			"class_event",
 			"first_love",
 			"duty_and_responsibilities"
@@ -1143,7 +1143,7 @@
 		"subtopics": [
 			"conflict_and_behavior",
 			"vulnerability",
-			"friends,_associates,_and_companions"
+			"friends_associates_and_companions"
 		],
 		"siblings": [
 			"how_to_create_a_background",
@@ -1176,7 +1176,7 @@
 		"siblings": [
 			"conflict_and_behavior",
 			"vulnerability",
-			"friends,_associates,_and_companions"
+			"friends_associates_and_companions"
 		]
 	},
 	"vulnerability": {
@@ -1205,10 +1205,10 @@
 		"siblings": [
 			"conflict_and_behavior",
 			"vulnerability",
-			"friends,_associates,_and_companions"
+			"friends_associates_and_companions"
 		]
 	},
-	"friends,_associates,_and_companions": {
+	"friends_associates_and_companions": {
 		"name": "Friends, Associates, and Companions",
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
@@ -1230,7 +1230,7 @@
 		"siblings": [
 			"conflict_and_behavior",
 			"vulnerability",
-			"friends,_associates,_and_companions"
+			"friends_associates_and_companions"
 		]
 	},
 	"two_quirks_and_a_flaw_quick_and_dirty_character_establishement": {
@@ -4570,7 +4570,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4612,7 +4612,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4667,7 +4667,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4698,7 +4698,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4762,7 +4762,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4795,7 +4795,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4826,7 +4826,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4855,7 +4855,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4864,7 +4864,7 @@
 			"magic_item_creation"
 		]
 	},
-	"charges,_doses,_and_multiple_uses": {
+	"charges_doses_and_multiple_uses": {
 		"name": "Charges, Doses, and Multiple Uses",
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -4887,7 +4887,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -4955,7 +4955,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -5026,7 +5026,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -5388,12 +5388,20 @@
 			"",
 			"### Potion Costs",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 25 gp | 25 gp | 25 gp | - |",
 			"| 1st | 50 gp | 50 gp | 50 gp | 50 gp |",
 			"| 2nd | 300 gp | 400 gp | 400 gp | 400 gp |",
-			"| 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |"
+			"| 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |",
+			"",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger"
 		],
 		"parent_topics": [
 			"items",
@@ -5635,7 +5643,7 @@
 			"",
 			"### Scroll Costs",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 12.5 gp | 12.5 gp | 12.5 gp | - |",
 			"| 1st | 25 gp | 25 gp | 25 gp | 25 gp |",
@@ -5646,7 +5654,15 @@
 			"| 6th | 1,650 gp | 1,800 gp | 2,400 gp | - |",
 			"| 7th | 2,275 gp | 2,450 gp | - | - |",
 			"| 8th | 3,000 gp | 3,200 gp | - | - |",
-			"| 9th | 3,825 gp | 4,050 gp | - | - |"
+			"| 9th | 3,825 gp | 4,050 gp | - | - |",
+			"",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger"
 		],
 		"parent_topics": [
 			"items",
@@ -5760,13 +5776,21 @@
 			"",
 			"### Wand Costs",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 375 gp | 375 gp | 375 gp | - |",
 			"| 1st | 750 gp | 750 gp | 750 gp | 750 gp |",
 			"| 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |",
 			"| 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |",
-			"| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |"
+			"| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |",
+			"",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger"
 		],
 		"parent_topics": [
 			"items",

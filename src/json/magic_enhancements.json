@@ -1514,7 +1514,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fly](spell/fly); **Price** 7,500 gp"
 		]
 	},
-	"shadow,_improved": {
+	"shadow_improved": {
 		"name": "Shadow, Improved",
 		"sources": [
 			"Ultimate Equipment",
@@ -1535,9 +1535,9 @@
 		]
 	},
 	"improved_shadow": {
-		"copyof": "shadow,_improved"
+		"copyof": "shadow_improved"
 	},
-	"slick,_improved": {
+	"slick_improved": {
 		"name": "Slick, Improved",
 		"sources": [
 			"Ultimate Equipment",
@@ -1558,7 +1558,7 @@
 		]
 	},
 	"improved_slick": {
-		"copyof": "slick,_improved"
+		"copyof": "slick_improved"
 	},
 	"venom-eating": {
 		"name": "Venom-eating",
@@ -1781,7 +1781,7 @@
 		"name": "Greater Aquadynamic",
 		"copyof": "aquadynamic"
 	},
-	"shadow,_greater": {
+	"shadow_greater": {
 		"name": "Shadow, Greater",
 		"sources": [
 			"Ultimate Equipment",
@@ -1802,9 +1802,9 @@
 		]
 	},
 	"greater_shadow": {
-		"copyof": "shadow,_greater"
+		"copyof": "shadow_greater"
 	},
-	"slick,_greater": {
+	"slick_greater": {
 		"name": "Slick, Greater",
 		"sources": [
 			"Ultimate Equipment",
@@ -1825,9 +1825,9 @@
 		]
 	},
 	"greater_slick": {
-		"copyof": "slick,_greater"
+		"copyof": "slick_greater"
 	},
-	"energy_resistance,_improved": {
+	"energy_resistance_improved": {
 		"name": "Energy Resistance, Improved",
 		"sources": [
 			"Ultimate Equipment",
@@ -1848,7 +1848,7 @@
 		]
 	},
 	"improved_energy_resistance": {
-		"copyof": "energy_resistance,_improved"
+		"copyof": "energy_resistance_improved"
 	},
 	"etherealness": {
 		"name": "Etherealness",
@@ -1890,7 +1890,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [control undead](spell/control_undead); **Price** +24,500 gp"
 		]
 	},
-	"energy_resistance,_greater": {
+	"energy_resistance_greater": {
 		"name": "Energy Resistance, Greater",
 		"sources": [
 			"Ultimate Equipment",
@@ -1911,7 +1911,7 @@
 		]
 	},
 	"greater_energy_resistance": {
-		"copyof": "energy_resistance,_greater"
+		"copyof": "energy_resistance_greater"
 	},
 	"arrow_catching": {
 		"name": "Arrow Catching",
@@ -2171,7 +2171,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** +2 bonus"
 		]
 	},
-	"guarding,_greater": {
+	"guarding_greater": {
 		"name": "Guarding, Greater",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2189,7 +2189,7 @@
 		]
 	},
 	"greater_guarding": {
-		"copyof": "guarding,_greater"
+		"copyof": "guarding_greater"
 	},
 	"jawbreaker": {
 		"name": "Jawbreaker",
@@ -3547,7 +3547,7 @@
 		"description": [
 			"## Pitfall",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 27](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 27](source/taldor_echoes_of_glory)  ",
 			"**Aura** moderate transmutation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -4023,7 +4023,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rope trick](spell/rope_trick); **Price** 1,250 gp"
 		]
 	},
-	"concealed,_lesser": {
+	"concealed_lesser": {
 		"name": "Concealed, Lesser",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
@@ -4041,7 +4041,7 @@
 		]
 	},
 	"lesser_concealed": {
-		"copyof": "concealed,_lesser"
+		"copyof": "concealed_lesser"
 	},
 	"impervious_weapon": {
 		"name": "Impervious (weapon)",
@@ -4375,7 +4375,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heal](spell/heal); **Price** -"
 		]
 	},
-	"distracting,_greater": {
+	"distracting_greater": {
 		"name": "Distracting, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -4393,7 +4393,7 @@
 		]
 	},
 	"greater_distracting": {
-		"copyof": "distracting,_greater"
+		"copyof": "distracting_greater"
 	},
 	"flaming_burst": {
 		"name": "Flaming Burst",
@@ -5021,7 +5021,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater invisibility](spell/greater_invisibility); **Price** -"
 		]
 	},
-	"vampiric,_greater": {
+	"vampiric_greater": {
 		"name": "Vampiric, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -5039,7 +5039,7 @@
 		]
 	},
 	"greater_vampiric": {
-		"copyof": "vampiric,_greater"
+		"copyof": "vampiric_greater"
 	},
 	"wounding": {
 		"name": "Wounding",
@@ -5101,7 +5101,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** +7,000 gp"
 		]
 	},
-	"transformative,_greater": {
+	"transformative_greater": {
 		"name": "Transformative, Greater",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -5119,7 +5119,7 @@
 		]
 	},
 	"greater_transformative": {
-		"copyof": "transformative,_greater"
+		"copyof": "transformative_greater"
 	},
 	"exhausting": {
 		"name": "Exhausting",
@@ -5138,7 +5138,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ray of exhaustion](spell/ray_of_exhaustion); **Price** -"
 		]
 	},
-	"flamboyant,_greater": {
+	"flamboyant_greater": {
 		"name": "Flamboyant, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -5156,7 +5156,7 @@
 		]
 	},
 	"greater_flamboyant": {
-		"copyof": "flamboyant,_greater"
+		"copyof": "flamboyant_greater"
 	},
 	"gory": {
 		"name": "Gory",
@@ -5911,7 +5911,7 @@
 	"greater_sniping": {
 		"copyof": "sniping_greater"
 	},
-	"lucky,_greater": {
+	"lucky_greater": {
 		"name": "Lucky, Greater",
 		"sources": [
 			"Ultimate Equipment",
@@ -5932,7 +5932,7 @@
 		]
 	},
 	"greater_lucky": {
-		"copyof": "lucky,_greater"
+		"copyof": "lucky_greater"
 	},
 	"reliable_greater": {
 		"name": "Reliable (greater)",

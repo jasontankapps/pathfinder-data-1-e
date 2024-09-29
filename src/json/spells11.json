@@ -42,13 +42,13 @@
 			"This spell functions as umbral infusion, except it can affect multiple mindless undead creatures."
 		]
 	},
-	"umbral_infusion,_mass": {
+	"umbral_infusion_mass": {
 		"name": "Umbral Infusion, Mass",
 		"sources": [ "Blood of Shadows" ],
 		"copyof": "umbral_infusion"
 	},
 	"mass_umbral_infusion": {
-		"copyof": "umbral_infusion,_mass"
+		"copyof": "umbral_infusion_mass"
 	},
 	"umbral_strike": {
 		"name": "Umbral Strike",
@@ -756,13 +756,13 @@
 			"Greater unhallowed blows can be made permanent with a permanency spell. In this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as a material component."
 		]
 	},
-	"unhallowed_blows,_greater": {
+	"unhallowed_blows_greater": {
 		"name": "Unhallowed Blows, Greater",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "unhallowed_blows"
 	},
 	"greater_unhallowed_blows": {
-		"copyof": "unhallowed_blows,_greater"
+		"copyof": "unhallowed_blows_greater"
 	},
 	"unholy_aura": {
 		"name": "Unholy Aura",
@@ -2371,13 +2371,13 @@
 			"This spell functions as violent misfire except as noted above."
 		]
 	},
-	"violent_misfire,_greater": {
+	"violent_misfire_greater": {
 		"name": "Violent Misfire, Greater",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "violent_misfire"
 	},
 	"greater_violent_misfire": {
-		"copyof": "violent_misfire,_greater"
+		"copyof": "violent_misfire_greater"
 	},
 	"viper_bomb_admixture": {
 		"name": "Viper Bomb Admixture",
@@ -3918,13 +3918,13 @@
 			"This spell functions like water walk, except you divide the duration in 10-minute intervals among the creatures touched."
 		]
 	},
-	"water_walk,_communal": {
+	"water_walk_communal": {
 		"name": "Water Walk, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "water_walk"
 	},
 	"communal_water_walk": {
-		"copyof": "water_walk,_communal"
+		"copyof": "water_walk_communal"
 	},
 	"waterproof": {
 		"name": "Waterproof",

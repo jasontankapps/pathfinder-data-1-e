@@ -506,7 +506,7 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"pouch,_belt_empty": {
+	"pouch_belt_empty": {
 		"name": "Pouch, belt (empty)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -517,9 +517,6 @@
 			"",
 			"No description was provided for this entry."
 		]
-	},
-	"pouch_belt_empty": {
-		"copyof": "pouch,_belt_empty"
 	},
 	"powder_ball_empty": {
 		"name": "Powder ball (empty)",
@@ -929,7 +926,7 @@
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Qadiran saddle",
-			"**Source** [Qadira, Jewel of the East pg. 57](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 57](source/qadira_jewel_of_the_east)  ",
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -1099,13 +1096,10 @@
 			"The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four oars for propulsion."
 		]
 	},
-	"raft_travel,_per_mile": {
+	"raft_travel_per_mile": {
 		"name": "Raft (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "raft"
-	},
-	"raft_travel_per_mile": {
-		"copyof": "raft_travel,_per_mile"
 	},
 	"rager's_aid": {
 		"name": "Rager's aid",
@@ -1210,7 +1204,7 @@
 			"This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a helpless victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 Escape Artist check, though some of the voracious vermin may continue their consumption in subsequent rounds."
 		]
 	},
-	"rations,_space_per_day": {
+	"rations_space_per_day": {
 		"name": "Rations, space (per day)",
 		"sources": [ "People of the Stars" ],
 		"description": [
@@ -1221,9 +1215,6 @@
 			"",
 			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes fatigued until she drinks enough water."
 		]
-	},
-	"rations_space_per_day": {
-		"copyof": "rations,_space_per_day"
 	},
 	"raven": {
 		"name": "Raven",
@@ -1573,7 +1564,7 @@
 			"This kit includes a backpack, a bedroll, a belt pouch, caltrops, chalk (10), a flint and steel, a grappling hook, an iron pot, a mess kit, a mirror, pitons (10), rope, soap, thieves' tools, torches (10), trail rations (5 days), and a waterskin."
 		]
 	},
-	"rope_50_ft.": {
+	"rope_50_ft": {
 		"name": "Rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
@@ -1589,7 +1580,7 @@
 		]
 	},
 	"rope_fifty_ft": {
-		"copyof": "rope_50_ft."
+		"copyof": "rope_50_ft"
 	},
 	"rope_recaller": {
 		"name": "Rope recaller",
@@ -1642,16 +1633,13 @@
 			"This 8- to 12-foot-long boat with two oars holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A rowboat moves about 1-1/2 miles per hour."
 		]
 	},
-	"rowboat_travel,_per_mile": {
+	"rowboat_travel_per_mile": {
 		"name": "Rowboat (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "rowboat"
-	},
-	"rowboat_travel_per_mile": {
-		"copyof": "rowboat_travel,_per_mile"
 	},
 	"royal_outfit": {
 		"name": "Royal outfit",
@@ -1747,7 +1735,7 @@
 			"This heavy canvas sack, useful for carrying adventuring gear and other supplies, holds about 4 cubic feet. A leather thong threaded through loops at the bag's end allows it to be tied shut easily."
 		]
 	},
-	"saddle_exotic,_military": {
+	"saddle_exotic_military": {
 		"name": "Saddle (exotic, military)",
 		"sources": [
 			"Ultimate Equipment",
@@ -1769,10 +1757,7 @@
 			"**Exotic Saddle:** These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits."
 		]
 	},
-	"saddle_exotic_military": {
-		"copyof": "saddle_exotic,_military"
-	},
-	"saddle_exotic,_pack": {
+	"saddle_exotic_pack": {
 		"name": "Saddle (exotic, pack)",
 		"sources": [
 			"Ultimate Equipment",
@@ -1780,19 +1765,13 @@
 		],
 		"copyof": "saddle_exotic_military"
 	},
-	"saddle_exotic_pack": {
-		"copyof": "saddle_exotic,_pack"
-	},
-	"saddle_exotic,_riding": {
+	"saddle_exotic_riding": {
 		"name": "Saddle (exotic, riding)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "saddle_exotic_military"
-	},
-	"saddle_exotic_riding": {
-		"copyof": "saddle_exotic,_riding"
 	},
 	"saddle_military": {
 		"name": "Saddle (military)",
@@ -1848,16 +1827,13 @@
 			"This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. It moves about 2 miles per hour."
 		]
 	},
-	"sailing_ship_travel,_per_mile": {
+	"sailing_ship_travel_per_mile": {
 		"name": "Sailing ship (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "sailing_ship"
-	},
-	"sailing_ship_travel_per_mile": {
-		"copyof": "sailing_ship_travel,_per_mile"
 	},
 	"salt_tablets_10": {
 		"name": "Salt tablets (10)",
@@ -1942,7 +1918,7 @@
 		],
 		"description": [
 			"## Scarf",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 15](source/varisia,_birthplace_of_legends), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide)  ",
 			"**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)",
 			"",
 			"An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
@@ -1969,7 +1945,7 @@
 		],
 		"description": [
 			"## Scarf",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Varisia, Birthplace of Legends pg. 15](source/varisia,_birthplace_of_legends)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends)  ",
 			"**Price** 1 sp-5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -2176,7 +2152,7 @@
 			"A leather or wooden scroll case easily holds four scrolls; you can cram more inside, but retrieving any of them becomes a full-round action rather than a move action. You must destroy the scroll case to damage its contents (hardness 2 for leather or 5 for wood, 2 hit points, break DC 15). A scroll case is not watertight, and must still be protected from the elements."
 		]
 	},
-	"scroll_case,_spring_loaded": {
+	"scroll_case_spring_loaded": {
 		"name": "Scroll case, spring loaded",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -2187,9 +2163,6 @@
 			"",
 			"This specialized scroll case can hold a single scroll and features a leather strap to hang the case from a belt or backpack. Retrieving the scroll held within is a swift action. Preparing the case for this use requires cranking the case's tiny gears and springs into place (a full-round action that provokes an attack of opportunity)."
 		]
-	},
-	"scroll_case_spring_loaded": {
-		"copyof": "scroll_case,_spring_loaded"
 	},
 	"sea_krait": {
 		"name": "Sea krait",
@@ -2569,13 +2542,10 @@
 			"Ship's boats are usually carried on the decks of larger ships to ferry passengers and cargo."
 		]
 	},
-	"ship's_boat_travel,_per_mile": {
+	"ship's_boat_travel_per_mile": {
 		"name": "Ship's boat (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ship's_boat"
-	},
-	"ship's_boat_travel_per_mile": {
-		"copyof": "ship's_boat_travel,_per_mile"
 	},
 	"ship's_passage": {
 		"name": "Ship's passage",
@@ -2626,7 +2596,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "shovel_common"
 	},
-	"shovel,_common": {
+	"shovel_common_2": {
 		"name": "Shovel, common",
 		"sources": [
 			"Adventurer's Armory",
@@ -2642,7 +2612,7 @@
 		]
 	},
 	"common_shovel": {
-		"copyof": "shovel,_common"
+		"copyof": "shovel_common_2"
 	},
 	"shrapnel_caltrops": {
 		"name": "Shrapnel caltrops",
@@ -2795,7 +2765,7 @@
 			"This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 Knowledge (nobility) check. When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on Diplomacy checks, as well as on Disguise checks made to appear as a geisha, noble, or other high standing member of Minkai society."
 		]
 	},
-	"silk_rope_50_ft.": {
+	"silk_rope_50_ft": {
 		"name": "Silk rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2811,7 +2781,7 @@
 		]
 	},
 	"silk_rope_fifty_ft": {
-		"copyof": "silk_rope_50_ft."
+		"copyof": "silk_rope_50_ft"
 	},
 	"silver_drops": {
 		"name": "Silver drops",
@@ -2988,13 +2958,13 @@
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
-	"slave_slip,_halfling": {
+	"slave_slip_halfling": {
 		"name": "Slave (slip, halfling)",
 		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"halfling_slave_slip": {
-		"copyof": "slave_slip,_halfling"
+		"copyof": "slave_slip_halfling"
 	},
 	"slave_specialized": {
 		"name": "Slave (specialized)",
@@ -3030,13 +3000,10 @@
 			"This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the harness needed to pull it."
 		]
 	},
-	"sled_travel,_per_mile": {
+	"sled_travel_per_mile": {
 		"name": "Sled (travel, per mile)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "sled"
-	},
-	"sled_travel_per_mile": {
-		"copyof": "sled_travel,_per_mile"
 	},
 	"sledge": {
 		"name": "Sledge",
@@ -3077,13 +3044,10 @@
 			"This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the harness required to pull it."
 		]
 	},
-	"sleigh_travel,_per_mile": {
+	"sleigh_travel_per_mile": {
 		"name": "Sleigh (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "sleigh"
-	},
-	"sleigh_travel_per_mile": {
-		"copyof": "sleigh_travel,_per_mile"
 	},
 	"slow-heart_concoction": {
 		"name": "Slow-heart concoction",
@@ -3743,7 +3707,7 @@
 			"These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast webs, though they are poisonous."
 		]
 	},
-	"spider's_silk_rope_50_ft.": {
+	"spider's_silk_rope_50_ft": {
 		"name": "Spider's silk rope (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3759,7 +3723,7 @@
 		]
 	},
 	"spider's_silk_rope_fifty_ft": {
-		"copyof": "spider's_silk_rope_50_ft."
+		"copyof": "spider's_silk_rope_50_ft"
 	},
 	"spiderdraw": {
 		"name": "Spiderdraw",
@@ -4417,7 +4381,7 @@
 			"A stretcher allows two people to share the burden of carrying one heavy object. You can also use it to drag a load you couldn't carry on your own. A stretcher holds up to 300 pounds."
 		]
 	},
-	"string_or_twine_50_ft.": {
+	"string_or_twine_50_ft": {
 		"name": "String or twine (50 ft.)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4435,7 +4399,7 @@
 		]
 	},
 	"string_or_twine_fifty_ft": {
-		"copyof": "string_or_twine_50_ft."
+		"copyof": "string_or_twine_50_ft"
 	},
 	"subversive_vest_vest": {
 		"name": "Subversive vest (vest)",
@@ -4860,7 +4824,7 @@
 			"This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel. The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted ornaments and parts harvested using taxidermy tools remain potent for twice their usual duration."
 		]
 	},
-	"tea_ceremonial,_cup": {
+	"tea_ceremonial_cup": {
 		"name": "Tea (ceremonial, cup)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4873,9 +4837,6 @@
 			"",
 			"A popular beverage in many regions, tea may be green or black, depending on when the leaves are picked and how they are prepared. It may be served unadorned, or with milk, sugar, lemon, or spices."
 		]
-	},
-	"tea_ceremonial_cup": {
-		"copyof": "tea_ceremonial,_cup"
 	},
 	"tea_cup": {
 		"name": "Tea (cup)",
@@ -4915,7 +4876,7 @@
 			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
 		]
 	},
-	"tea,_kelp": {
+	"tea_kelp": {
 		"name": "Tea, kelp",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
@@ -4926,9 +4887,6 @@
 			"",
 			"elp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder."
 		]
-	},
-	"tea_kelp": {
-		"copyof": "tea,_kelp"
 	},
 	"teaching_staff": {
 		"name": "Teaching staff",
@@ -5087,7 +5045,7 @@
 			"No description was provided for this entry."
 		]
 	},
-	"tent,_hanging": {
+	"tent_hanging": {
 		"name": "Tent, hanging",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -5098,9 +5056,6 @@
 			"",
 			"A hanging tent is a small tent (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 Climb check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
 		]
-	},
-	"tent_hanging": {
-		"copyof": "tent,_hanging"
 	},
 	"tepache_cup": {
 		"name": "Tepache (cup)",
@@ -5979,7 +5934,7 @@
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Tusk blades",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Price** 50 gp; **Weight** 10 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -6160,7 +6115,7 @@
 		],
 		"description": [
 			"## Varisian idol",
-			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia,_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide)  ",
+			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide)  ",
 			"**Price** 75 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6456,13 +6411,10 @@
 			"**Heavy Wagon:** Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures."
 		]
 	},
-	"wagon_heavy_travel,_per_mile": {
+	"wagon_heavy_travel_per_mile": {
 		"name": "Wagon (heavy) (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wagon_heavy"
-	},
-	"wagon_heavy_travel_per_mile": {
-		"copyof": "wagon_heavy_travel,_per_mile"
 	},
 	"wagon_light": {
 		"name": "Wagon (light)",
@@ -6573,16 +6525,13 @@
 			"This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ship can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail."
 		]
 	},
-	"warship_travel,_per_mile": {
+	"warship_travel_per_mile": {
 		"name": "Warship (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "warship"
-	},
-	"warship_travel_per_mile": {
-		"copyof": "warship_travel,_per_mile"
 	},
 	"wasp_metheglin": {
 		"name": "Wasp metheglin",
@@ -6912,7 +6861,7 @@
 			"A whetstone allows you to sharpen a blade by sliding it against the stone at a precise angle. Honing a blade with a whetstone requires about 15 minutes of work and grants the weapon a +1 bonus on your damage roll the first time you hit with it. This only works on nonmagical blades."
 		]
 	},
-	"whip,_training": {
+	"whip_training": {
 		"name": "Whip, training",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -6923,9 +6872,6 @@
 			"",
 			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal whip. The wielder gains a +2 circumstance bonus on Handle Animal checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to fascinate the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
 		]
-	},
-	"whip_training": {
-		"copyof": "whip,_training"
 	},
 	"whiskey_cup": {
 		"name": "Whiskey (cup)",
@@ -7058,7 +7004,7 @@
 			"A tiny crank protrudes from this small wooden box. After its crank is turned for 1 round, the box produces a pleasing melody for 4 rounds, as the pins on a revolving cylinder inside the box pluck the tuned teeth of a steel comb."
 		]
 	},
-	"wine_common,_pitcher": {
+	"wine_common_pitcher": {
 		"name": "Wine (common, pitcher)",
 		"sources": [
 			"Ultimate Equipment",
@@ -7072,19 +7018,13 @@
 			"Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter."
 		]
 	},
-	"wine_common_pitcher": {
-		"copyof": "wine_common,_pitcher"
-	},
-	"wine_fine,_bottle": {
+	"wine_fine_bottle": {
 		"name": "Wine (fine, bottle)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "wine_common_pitcher"
-	},
-	"wine_fine_bottle": {
-		"copyof": "wine_fine,_bottle"
 	},
 	"wing_cloak": {
 		"name": "Wing cloak",
@@ -7284,13 +7224,13 @@
 			"Craft (Alchemy) DC 30"
 		]
 	},
-	"woad_painting_paint,_1_block": {
+	"woad_painting_paint_1_block": {
 		"name": "Woad painting (paint, 1 block)",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "woad_painting_kit"
 	},
 	"woad_painting_paint_one_block": {
-		"copyof": "woad_painting_paint,_1_block"
+		"copyof": "woad_painting_paint_1_block"
 	},
 	"wolf": {
 		"name": "Wolf",
@@ -7333,7 +7273,7 @@
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Woolly mammoth",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons (normal)",
 			"",
 			"Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
@@ -7355,7 +7295,7 @@
 		],
 		"description": [
 			"## Woolly rhinoceros",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Price** 3,000 gp (combat-trained), 2,000 gp (common), 2,000 gp (normal); **Weight** 3 tons (combat-trained), - (common), 3 tons (normal)",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."

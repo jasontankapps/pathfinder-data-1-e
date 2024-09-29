@@ -229,7 +229,7 @@
 		],
 		"description": [
 			"## Hide shirt",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide)  ",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide)  ",
 			"**Cost** 20 gp **Weight** 18 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +4; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -872,7 +872,7 @@
 		],
 		"description": [
 			"## Klar",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurer's_armory)  ",
 			"**Cost** 12 gp **Weight** 6 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -1031,7 +1031,7 @@
 			"Half-drow make these bucklers to allow for quick application of exactly the right poison in the middle of combat. This mithral buckler is painted black with three deep grooves running over the surface, each fitted with a slot that can hold a vial of poison. As a move action, the user can swipe a weapon over the surface of the buckler, coating it with a single dose of poison. The buckler can hold 3 doses of poison. If the wearer does not have the poison use ability, she faces the standard risk of poisoning herself"
 		]
 	},
-	"war-shield,_dwarven": {
+	"war-shield_dwarven": {
 		"name": "War-shield, dwarven",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -1050,7 +1050,7 @@
 		]
 	},
 	"dwarven_war_shield": {
-		"copyof": "war-shield,_dwarven"
+		"copyof": "war-shield_dwarven"
 	},
 	"heavy_steel_shield": {
 		"name": "Heavy steel shield",
@@ -1096,7 +1096,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
 		]
 	},
-	"snarlshield,_steel": {
+	"snarlshield_steel": {
 		"name": "Snarlshield, steel",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -1113,9 +1113,9 @@
 		]
 	},
 	"steel_snarlshield": {
-		"copyof": "snarlshield,_steel"
+		"copyof": "snarlshield_steel"
 	},
-	"snarlshield,_wooden": {
+	"snarlshield_wooden": {
 		"name": "Snarlshield, wooden",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -1132,7 +1132,7 @@
 		]
 	},
 	"wooden_snarlshield": {
-		"copyof": "snarlshield,_wooden"
+		"copyof": "snarlshield_wooden"
 	},
 	"tower_shield": {
 		"name": "Tower shield",

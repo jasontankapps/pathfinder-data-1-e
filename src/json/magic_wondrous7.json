@@ -332,7 +332,7 @@
 		"description": [
 			"## Cloak of the Jungle",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava_the_lost_colony)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 2,400 gp; **Weight** 1 lb.",
 			"",
@@ -801,7 +801,7 @@
 		"description": [
 			"## Golden Eagle Epaulets",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 4,500 gp; **Weight** 1 lb.",
 			"",
@@ -1387,7 +1387,7 @@
 		"description": [
 			"## Cloak of Flash and Shadow",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax_empire_of_devils)  ",
 			"**Aura** minor illusion; **CL** 3rd  ",
 			"**Slot** cloak; **Price** 11,000 gp; **Weight** 1 lb.",
 			"",
@@ -2099,7 +2099,7 @@
 	"cape_of_free_will_4_or_5_will": {
 		"copyof": "cape_of_free_will_4_5_will"
 	},
-	"lycanthrope_skin_skinwalker_boar,_rat,_wolf": {
+	"lycanthrope_skin_skinwalker_boar_rat_wolf": {
 		"name": "Lycanthrope Skin (Skinwalker) (boar, rat, wolf)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -2119,7 +2119,7 @@
 		]
 	},
 	"lycanthrope_skin_boar_rat_wolf": {
-		"copyof": "lycanthrope_skin_skinwalker_boar,_rat,_wolf"
+		"copyof": "lycanthrope_skin_skinwalker_boar_rat_wolf"
 	},
 	"cloak_of_displacement_minor": {
 		"name": "Cloak of Displacement (Minor)",
@@ -2334,12 +2334,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), feather fall, fly, minor image; **Cost** 19,775 gp"
 		]
 	},
-	"lycanthrope_skin_skinwalker_brown_bear,_bat,_crocodile,_shark,_tiger": {
+	"lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger": {
 		"name": "Lycanthrope Skin (Skinwalker) (brown bear, bat, crocodile, shark, tiger)",
-		"copyof": "lycanthrope_skin_skinwalker_boar,_rat,_wolf"
+		"copyof": "lycanthrope_skin_skinwalker_boar_rat_wolf"
 	},
 	"lycanthrope_skin_brown_bear_bat_crocodile_shark_tiger": {
-		"copyof": "lycanthrope_skin_skinwalker_brown_bear,_bat,_crocodile,_shark,_tiger"
+		"copyof": "lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger"
 	},
 	"juggernaut's_pauldrons": {
 		"name": "Juggernaut's Pauldrons",
@@ -2639,7 +2639,7 @@
 		"description": [
 			"## Lover's Bangle",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 36](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 36](source/pathfinder_#128_songbird_scion_saboteur)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** wrists; **Price** 750 gp; **Weight** 1 lb.",
 			"",

@@ -100,7 +100,7 @@
 			"Using the pillar to hone your acrobatic techniques requires 1 hour of practice and a DC 20 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to avoid attacks of opportunity provoked by moving out of or through an opponent's threatened area. This bonus lasts for 24 hours or until you fail an Acrobatics check."
 		]
 	},
-	"adamantine_chain_10_ft.": {
+	"adamantine_chain_10_ft": {
 		"name": "Adamantine chain (10 ft.)",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
@@ -113,7 +113,7 @@
 		]
 	},
 	"adamantine_chain": {
-		"copyof": "adamantine_chain_10_ft."
+		"copyof": "adamantine_chain_10_ft"
 	},
 	"adhesive_strip": {
 		"name": "Adhesive strip",
@@ -193,7 +193,7 @@
 			"Tanks full of normal air don't last long as breathing devices, but a large air tank is excellent for ensuring a character has a swiftly rising buoyancy, and a savvy diver can adjust her air tank just enough to give her a neutral buoyancy, making it much easier to explore underwater. Every 6 gallons of air is enough to breathe for roughly 1 minute underwater; it takes far less air for a Medium creature to achieve neutral buoyancy unless it's carrying a significant amount of metal and other dense material."
 		]
 	},
-	"air_tank,_pressurized": {
+	"air_tank_pressurized": {
 		"name": "Air tank, pressurized",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
@@ -206,10 +206,10 @@
 		]
 	},
 	"pressurized_air_tank": {
-		"copyof": "air_tank,_pressurized"
+		"copyof": "air_tank_pressurized"
 	},
 	"air_tank": {
-		"copyof": "air_tank,_pressurized"
+		"copyof": "air_tank_pressurized"
 	},
 	"alchemical_blood": {
 		"name": "Alchemical blood",
@@ -1504,7 +1504,7 @@
 			"These fierce, burrowing creatures are only rarely kept as pets."
 		]
 	},
-	"bag,_bear": {
+	"bag_bear": {
 		"name": "Bag, bear",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -1517,7 +1517,7 @@
 		]
 	},
 	"bear_bag": {
-		"copyof": "bag,_bear"
+		"copyof": "bag_bear"
 	},
 	"baijiu_bottle": {
 		"name": "Baijiu (bottle)",
@@ -1547,7 +1547,7 @@
 			"This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance bonus on Acrobatics checks made to traverse a narrow surface."
 		]
 	},
-	"ball_10_in.": {
+	"ball_10_in": {
 		"name": "Ball (10 in.)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1559,23 +1559,23 @@
 		]
 	},
 	"ball_ten_in": {
-		"copyof": "ball_10_in."
+		"copyof": "ball_10_in"
 	},
-	"ball_2_in.": {
+	"ball_2_in": {
 		"name": "Ball (2 in.)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ball_ten_in"
 	},
 	"ball_two_in": {
-		"copyof": "ball_2_in."
+		"copyof": "ball_2_in"
 	},
-	"ball_5_in.": {
+	"ball_5_in": {
 		"name": "Ball (5 in.)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ball_ten_in"
 	},
 	"ball_five_in": {
-		"copyof": "ball_5_in."
+		"copyof": "ball_5_in"
 	},
 	"balloon_trap": {
 		"name": "Balloon trap",
@@ -1672,7 +1672,7 @@
 		],
 		"description": [
 			"## Barbarian chew",
-			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia,_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3127,7 +3127,7 @@
 			"A brewer's kit includes a mash tun, as well as copper kettles and piping for boiling and cooling before casking it and allowing it to ferment. It also includes a variety of dried hops and spices for flavoring."
 		]
 	},
-	"brewer's_kit,_masterwork": {
+	"brewer's_kit_masterwork": {
 		"name": "Brewer's kit, masterwork",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
@@ -3140,7 +3140,7 @@
 		]
 	},
 	"masterwork_brewer's_kit": {
-		"copyof": "brewer's_kit,_masterwork"
+		"copyof": "brewer's_kit_masterwork"
 	},
 	"broadsheet": {
 		"name": "Broadsheet",
@@ -3400,7 +3400,7 @@
 		],
 		"copyof": "cage_diminutive_or_fine"
 	},
-	"cage_diminutive_or_fine,_aquatic": {
+	"cage_diminutive_or_fine_aquatic": {
 		"name": "Cage (diminutive or fine, aquatic)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3409,10 +3409,7 @@
 		],
 		"copyof": "cage_diminutive_or_fine"
 	},
-	"cage_diminutive_or_fine_aquatic": {
-		"copyof": "cage_diminutive_or_fine,_aquatic"
-	},
-	"cage_tiny,_aquatic": {
+	"cage_tiny_aquatic": {
 		"name": "Cage (tiny, aquatic)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3421,10 +3418,7 @@
 		],
 		"copyof": "cage_diminutive_or_fine"
 	},
-	"cage_tiny_aquatic": {
-		"copyof": "cage_tiny,_aquatic"
-	},
-	"cage_small_or_medium,_aquatic": {
+	"cage_small_or_medium_aquatic": {
 		"name": "Cage (small or medium, aquatic)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3433,10 +3427,7 @@
 		],
 		"copyof": "cage_diminutive_or_fine"
 	},
-	"cage_small_or_medium_aquatic": {
-		"copyof": "cage_small_or_medium,_aquatic"
-	},
-	"cage_large,_aquatic": {
+	"cage_large_aquatic": {
 		"name": "Cage (large, aquatic)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3445,10 +3436,7 @@
 		],
 		"copyof": "cage_diminutive_or_fine"
 	},
-	"cage_large_aquatic": {
-		"copyof": "cage_large,_aquatic"
-	},
-	"cage_huge,_aquatic": {
+	"cage_huge_aquatic": {
 		"name": "Cage (huge, aquatic)",
 		"sources": [
 			"Ultimate Equipment",
@@ -3456,9 +3444,6 @@
 			"Adventurer's Armory"
 		],
 		"copyof": "cage_diminutive_or_fine"
-	},
-	"cage_huge_aquatic": {
-		"copyof": "cage_huge,_aquatic"
 	},
 	"calistria's_kindness": {
 		"name": "Calistria's kindness",
@@ -3494,7 +3479,7 @@
 			"Caltrops may not work against unusual opponents."
 		]
 	},
-	"caltrops,_cold_iron": {
+	"caltrops_cold_iron": {
 		"name": "Caltrops, cold iron",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
@@ -3507,9 +3492,9 @@
 		]
 	},
 	"cold_iron_caltrops": {
-		"copyof": "caltrops,_cold_iron"
+		"copyof": "caltrops_cold_iron"
 	},
-	"caltrops,_vicious": {
+	"caltrops_vicious": {
 		"name": "Caltrops, vicious",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
@@ -3522,7 +3507,7 @@
 		]
 	},
 	"vicious_caltrops": {
-		"copyof": "caltrops,_vicious"
+		"copyof": "caltrops_vicious"
 	},
 	"calumet": {
 		"name": "Calumet",
@@ -3713,7 +3698,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "cane_common"
 	},
-	"cane,_hollow_common": {
+	"cane_hollow_common": {
 		"name": "Cane, hollow (common)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -3726,23 +3711,23 @@
 		]
 	},
 	"hollow_common_cane": {
-		"copyof": "cane,_hollow_common"
+		"copyof": "cane_hollow_common"
 	},
-	"cane,_hollow_simple": {
+	"cane_hollow_simple": {
 		"name": "Cane, hollow (simple)",
 		"sources": [ "Adventurer's Armory 2" ],
-		"copyof": "cane,_hollow_common"
+		"copyof": "cane_hollow_common"
 	},
 	"hollow_simple_cane": {
-		"copyof": "cane,_hollow_simple"
+		"copyof": "cane_hollow_simple"
 	},
-	"cane,_hollow_elegant": {
+	"cane_hollow_elegant": {
 		"name": "Cane, hollow (elegant)",
 		"sources": [ "Adventurer's Armory 2" ],
-		"copyof": "cane,_hollow_common"
+		"copyof": "cane_hollow_common"
 	},
 	"hollow_elegant_cane": {
-		"copyof": "cane,_hollow_elegant"
+		"copyof": "cane_hollow_elegant"
 	},
 	"cannon_ball": {
 		"name": "Cannon ball",
@@ -3879,16 +3864,13 @@
 			"This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two horses (or other beasts of burden) draw it. A carriage comes with the harness needed to pull it."
 		]
 	},
-	"carriage_travel,_per_mile": {
+	"carriage_travel_per_mile": {
 		"name": "Carriage (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "carriage"
-	},
-	"carriage_travel_per_mile": {
-		"copyof": "carriage_travel,_per_mile"
 	},
 	"carrion_bait": {
 		"name": "Carrion bait",
@@ -3922,16 +3904,13 @@
 			"This two-wheeled vehicle can be drawn by a single horse or other beast of burden, and is often used to transport goods across short distances. It comes with a harness."
 		]
 	},
-	"cart_travel,_per_mile": {
+	"cart_travel_per_mile": {
 		"name": "Cart (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"copyof": "cart"
-	},
-	"cart_travel_per_mile": {
-		"copyof": "cart_travel,_per_mile"
 	},
 	"casting_plaster": {
 		"name": "Casting plaster",
@@ -4163,7 +4142,7 @@
 			"These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait."
 		]
 	},
-	"chain_10_ft.": {
+	"chain_10_ft": {
 		"name": "Chain (10 ft.)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4179,7 +4158,7 @@
 		]
 	},
 	"chain_ten_ft": {
-		"copyof": "chain_10_ft."
+		"copyof": "chain_10_ft"
 	},
 	"chain_belt": {
 		"name": "Chain belt",
@@ -4293,7 +4272,7 @@
 			"This tiny set of sculpted claws, made from stone carefully chipped from the Battle of Charda monument, is set upon a fine chain. Once per day when attempting an Intimidate check to demoralize a single opponent in combat, the user can forcefully present the charda claws as part of the action to activate their residual power. Using the claws in this way requires a free hand, but only while the Intimidate check is made. If the Intimidate check was a success and the target is demoralized, the claws grant the wielder a +1 morale bonus on attack rolls against that creature for the duration of the demoralized effect. If the wielder uses the claws but the Intimidate check is not successful, the claws' daily use is expended to no effect."
 		]
 	},
-	"chariot_heavy_travel,_per_mile": {
+	"chariot_heavy_travel_per_mile": {
 		"name": "Chariot (heavy) (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4309,9 +4288,6 @@
 			"",
 			"**Heavy Chariots:** This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield."
 		]
-	},
-	"chariot_heavy_travel_per_mile": {
-		"copyof": "chariot_heavy_travel,_per_mile"
 	},
 	"chariot_heavy": {
 		"name": "Chariot (heavy)",
@@ -4330,26 +4306,20 @@
 			"**Heavy Chariots:** This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield."
 		]
 	},
-	"chariot_light_travel,_per_mile": {
+	"chariot_light_travel_per_mile": {
 		"name": "Chariot (light) (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
-	},
-	"chariot_light_travel_per_mile": {
-		"copyof": "chariot_light_travel,_per_mile"
 	},
 	"chariot_light": {
 		"name": "Chariot (light)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
 	},
-	"chariot_medium_travel,_per_mile": {
+	"chariot_medium_travel_per_mile": {
 		"name": "Chariot (medium) (travel, per mile)",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
-	},
-	"chariot_medium_travel_per_mile": {
-		"copyof": "chariot_medium_travel,_per_mile"
 	},
 	"chariot_medium": {
 		"name": "Chariot (medium)",
@@ -4767,13 +4737,10 @@
 			"The price given is for a ride in a coach that transports people (and light cargo) between towns. For a ride in a cab that transports passengers within a city, 1 copper piece usually takes you anywhere you need to go."
 		]
 	},
-	"coach_cab_travel,_per_mile": {
+	"coach_cab_travel_per_mile": {
 		"name": "Coach cab (travel, per mile)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "coach_cab"
-	},
-	"coach_cab_travel_per_mile": {
-		"copyof": "coach_cab_travel,_per_mile"
 	},
 	"cobbled_item": {
 		"name": "Cobbled item",
@@ -5505,7 +5472,7 @@
 		],
 		"description": [
 			"## Curative myrrh",
-			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurer's_armory_2), [Qadira, Gateway to the East pg. 19](source/qadira,_gateway_to_the_east)  ",
+			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurer's_armory_2), [Qadira, Gateway to the East pg. 19](source/qadira_gateway_to_the_east)  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -5580,7 +5547,7 @@
 			"This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements. Dancer's garb provides a +2 circumstance bonus on Perform (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing."
 		]
 	},
-	"dancer's_garb,_silver": {
+	"dancer's_garb_silver": {
 		"name": "Dancer's garb, silver",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -5593,7 +5560,7 @@
 		]
 	},
 	"silver_dancer's_garb": {
-		"copyof": "dancer's_garb,_silver"
+		"copyof": "dancer's_garb_silver"
 	},
 	"dandy_brush": {
 		"name": "Dandy brush",
@@ -5937,16 +5904,13 @@
 		],
 		"copyof": "dire_bat_common"
 	},
-	"dire_bat_riding,_combat_trained": {
+	"dire_bat_riding_combat_trained": {
 		"name": "Dire bat (riding, combat trained)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
 		"copyof": "dire_bat_common"
-	},
-	"dire_bat_riding_combat_trained": {
-		"copyof": "dire_bat_riding,_combat_trained"
 	},
 	"dire_bear": {
 		"name": "Dire bear",
@@ -6292,7 +6256,7 @@
 			"This sled is designed to be pulled over snow and ice by a team of trained riding dogs. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it."
 		]
 	},
-	"dog_sled_travel,_per_mile": {
+	"dog_sled_travel_per_mile": {
 		"name": "Dog sled (travel, per mile)",
 		"sources": [
 			"Ultimate Equipment",
@@ -6301,9 +6265,6 @@
 			"Pathfinder #51: The Hungry Storm"
 		],
 		"copyof": "dog_sled"
-	},
-	"dog_sled_travel_per_mile": {
-		"copyof": "dog_sled_travel,_per_mile"
 	},
 	"dolphin": {
 		"name": "Dolphin",

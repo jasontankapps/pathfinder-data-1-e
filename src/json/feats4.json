@@ -383,7 +383,7 @@
 		"description": [
 			"## Fury's Fall (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"You can use strength and agility to send foes crashing to the ground.  ",
 			"**Prerequisites:** [Improved Trip](feat/improved_trip).  ",
@@ -396,7 +396,7 @@
 		"description": [
 			"## Fury's Snare (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"You entangle your foe in your weapon.  ",
 			"**Prerequisites:** Fury's Fall, [Improved Trip](feat/improved_trip).  ",
@@ -409,7 +409,7 @@
 		"description": [
 			"## Galley Slave",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 28](source/taldor,_echoes_of_glory)",
+			"**Source** [Taldor, Echoes of Glory pg. 28](source/taldor_echoes_of_glory)",
 			"",
 			"Your experience as a galley slave has given you some unique insight into the world of sailing and piracy.  ",
 			"**Prerequisites:** Profession (sailor) 1 rank, current or former galley slave.  ",
@@ -498,7 +498,7 @@
 		"description": [
 			"## Genie-Touched Companion",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 61](source/qadira,_jewel_of_the_east)",
+			"**Source** [Qadira, Jewel of the East pg. 61](source/qadira_jewel_of_the_east)",
 			"",
 			"Your animal companion is descended from creatures from one of the Elemental Planes.  ",
 			"**Prerequisites:** Cha 13, animal companion or mount class feature.  ",
@@ -1034,7 +1034,7 @@
 		"description": [
 			"## Golem's Conviction",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 19](source/druma,_profit_and_prophecy)",
+			"**Source** [Druma, Profit and Prophecy pg. 19](source/druma_profit_and_prophecy)",
 			"",
 			"Others whisper that you're little more than a golem obeying orders. They're wrong, but your dedication is clear.  ",
 			"**Prerequisites:** [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), base attack bonus +8.",
@@ -2978,7 +2978,7 @@
 		"description": [
 			"## Hamatula Grasp (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"You deal terrible damage to impaled foes.  ",
 			"**Prerequisites:** [Hamatula Strike](feat/hamatula_strike), [Improved Grapple](feat/improved_grapple), Strength 13, base attack bonus +9.  ",
@@ -2991,7 +2991,7 @@
 		"description": [
 			"## Hamatula Strike (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"You can catch your opponents on your weapon and hold them in place.  ",
 			"**Prerequisites:** [Improved Grapple](feat/improved_grapple), Strength 13, Base Attack Bonus +7.  ",
@@ -3532,7 +3532,7 @@
 		"description": [
 			"## Heightened Trap Sense",
 			"",
-			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You are acutely attentive to the subtleties of traps and how they are hidden.  ",
 			"**Prerequisites:** Search 6 ranks, trap sense +1.  ",
@@ -3546,7 +3546,7 @@
 		"description": [
 			"## Hellcat Pounce (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"You attack unsuspecting foes twice.  ",
 			"**Prerequisites:** [Hellcat Stealth](feat/hellcat_stealth), sneak attack +2d6.  ",
@@ -3560,7 +3560,7 @@
 		"description": [
 			"## Hellcat Stealth",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"You are difficult to see in the light.  ",
 			"**Prerequisites:** [Skill Focus (Stealth)](feat/skill_focus), Stealth 6 ranks.  ",

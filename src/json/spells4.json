@@ -70,13 +70,13 @@
 			"This spell functions like eldritch conduit save for the differences listed above and that the target must be within medium range (100 ft. + 10 ft./level) in order for you to use the conduit. Using a creature as a conduit for a spell ends the greater eldritch conduit effect on that creature, but does not end the effect for other eldritch conduits."
 		]
 	},
-	"eldritch_conduit,_greater": {
+	"eldritch_conduit_greater": {
 		"name": "Eldritch Conduit, Greater",
 		"sources": [ "Inner Sea Magic" ],
 		"copyof": "eldritch_conduit"
 	},
 	"greater_eldritch_conduit": {
-		"copyof": "eldritch_conduit,_greater"
+		"copyof": "eldritch_conduit_greater"
 	},
 	"eldritch_fever": {
 		"name": "Eldritch Fever",
@@ -612,7 +612,7 @@
 		"description": [
 			"## Emergency Force Sphere",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax_empire_of_devils)  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -835,13 +835,13 @@
 			"This spell functions like endure elements, except you divide the duration in 1-hour increments among the creatures touched."
 		]
 	},
-	"endure_elements,_communal": {
+	"endure_elements_communal": {
 		"name": "Endure Elements, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "endure_elements"
 	},
 	"communal_endure_elements": {
-		"copyof": "endure_elements,_communal"
+		"copyof": "endure_elements_communal"
 	},
 	"enemy_hammer": {
 		"name": "Enemy Hammer",
@@ -1049,13 +1049,13 @@
 			"This spell functions like energy shot, except it can target siege engines of any size, not just Large siege engines."
 		]
 	},
-	"energy_siege_shot,_greater": {
+	"energy_siege_shot_greater": {
 		"name": "Energy Siege Shot, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "energy_siege_shot"
 	},
 	"greater_energy_siege_shot": {
-		"copyof": "energy_siege_shot,_greater"
+		"copyof": "energy_siege_shot_greater"
 	},
 	"enervation": {
 		"name": "Enervation",
@@ -1131,7 +1131,7 @@
 		"description": [
 			"## Enhanced Diplomacy",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 24](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Taldor, Echoes of Glory pg. 24](source/taldor_echoes_of_glory)  ",
 			"**School** [divination](spelldef/divination); **Level** cleric 0, druid 0, hunter 0, oracle 0, warpriest 0",
 			"",
 			"### Casting",
@@ -1213,13 +1213,13 @@
 			"This spell functions like enlarge person, except that it affects multiple creatures."
 		]
 	},
-	"enlarge_person,_mass": {
+	"enlarge_person_mass": {
 		"name": "Enlarge Person, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "enlarge_person"
 	},
 	"mass_enlarge_person": {
-		"copyof": "enlarge_person,_mass"
+		"copyof": "enlarge_person_mass"
 	},
 	"enlarge_tail": {
 		"name": "Enlarge Tail",
@@ -1493,15 +1493,15 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "lesser_entice_fey"
 	},
-	"entice_fey,_greater": {
+	"entice_fey_greater": {
 		"name": "Entice Fey, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "lesser_entice_fey"
 	},
 	"greater_entice_fey": {
-		"copyof": "entice_fey,_greater"
+		"copyof": "entice_fey_greater"
 	},
-	"entice_fey,_lesser": {
+	"entice_fey_lesser": {
 		"name": "Entice Fey, Lesser",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -1564,7 +1564,7 @@
 		]
 	},
 	"lesser_entice_fey": {
-		"copyof": "entice_fey,_lesser"
+		"copyof": "entice_fey_lesser"
 	},
 	"enticing_adulation": {
 		"name": "Enticing Adulation",
@@ -2136,15 +2136,15 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_evolution_surge"
 	},
-	"evolution_surge,_greater": {
+	"evolution_surge_greater": {
 		"name": "Evolution Surge, Greater",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_evolution_surge"
 	},
 	"greater_evolution_surge": {
-		"copyof": "evolution_surge,_greater"
+		"copyof": "evolution_surge_greater"
 	},
-	"evolution_surge,_lesser": {
+	"evolution_surge_lesser": {
 		"name": "Evolution Surge, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
@@ -2207,7 +2207,7 @@
 		]
 	},
 	"lesser_evolution_surge": {
-		"copyof": "evolution_surge,_lesser"
+		"copyof": "evolution_surge_lesser"
 	},
 	"excruciating_deformation": {
 		"name": "Excruciating Deformation",
@@ -3032,13 +3032,13 @@
 			"This spell functions as false life, except you gain temporary hit points equal to 2d10 + 1 point per caster level (maximum +20). The effects of this spell do not stack with those of false life."
 		]
 	},
-	"false_life,_greater": {
+	"false_life_greater": {
 		"name": "False Life, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "false_life"
 	},
 	"greater_false_life": {
-		"copyof": "false_life,_greater"
+		"copyof": "false_life_greater"
 	},
 	"false_vision": {
 		"name": "False Vision",
@@ -3090,13 +3090,13 @@
 			"The illusion applies to only those who observe the target via a divination (scrying) spell, and has no effect on viewers who are there in person."
 		]
 	},
-	"false_vision,_greater": {
+	"false_vision_greater": {
 		"name": "False Vision, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "false_vision"
 	},
 	"greater_false_vision": {
-		"copyof": "false_vision,_greater"
+		"copyof": "false_vision_greater"
 	},
 	"familiar_figment": {
 		"name": "Familiar Figment",
@@ -3398,13 +3398,13 @@
 			"As feather step, except this spell affects multiple creatures."
 		]
 	},
-	"feather_step,_mass": {
+	"feather_step_mass": {
 		"name": "Feather Step, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "feather_step"
 	},
 	"mass_feather_step": {
-		"copyof": "feather_step,_mass"
+		"copyof": "feather_step_mass"
 	},
 	"feeblemind": {
 		"name": "Feeblemind",
@@ -3497,13 +3497,13 @@
 			"This spell functions as fester, except that it affects multiple foes."
 		]
 	},
-	"fester,_mass": {
+	"fester_mass": {
 		"name": "Fester, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "fester"
 	},
 	"mass_fester": {
-		"copyof": "fester,_mass"
+		"copyof": "fester_mass"
 	},
 	"fey_form_1": {
 		"name": "Fey Form I",
@@ -4739,13 +4739,13 @@
 			"This spell functions as flaming sphere, except that it deals 6d6 points of fire damage to any creature it strikes. Any creature that fails its save against the sphere [catches on fire](rule/catching_on_fire). If a creature catches on fire, the DC to extinguish the flames is equal to the DC of this spell."
 		]
 	},
-	"flaming_sphere,_greater": {
+	"flaming_sphere_greater": {
 		"name": "Flaming Sphere, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "flaming_sphere"
 	},
 	"greater_flaming_sphere": {
-		"copyof": "flaming_sphere,_greater"
+		"copyof": "flaming_sphere_greater"
 	},
 	"flare": {
 		"name": "Flare",
@@ -4967,13 +4967,13 @@
 			"This spell functions as fleeting memory, except that it affects multiple creatures."
 		]
 	},
-	"fleeting_memory,_mass": {
+	"fleeting_memory_mass": {
 		"name": "Fleeting Memory, Mass",
 		"sources": [ "Black Markets" ],
 		"copyof": "fleeting_memory"
 	},
 	"mass_fleeting_memory": {
-		"copyof": "fleeting_memory,_mass"
+		"copyof": "fleeting_memory_mass"
 	},
 	"flesh_puppet": {
 		"name": "Flesh Puppet",
@@ -5478,13 +5478,13 @@
 			"This spell functions as fly, save that it can target numerous creatures and lasts longer."
 		]
 	},
-	"fly,_mass": {
+	"fly_mass": {
 		"name": "Fly, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "fly"
 	},
 	"mass_fly": {
-		"copyof": "fly,_mass"
+		"copyof": "fly_mass"
 	},
 	"focused_scrutiny": {
 		"name": "Focused Scrutiny",
@@ -5801,13 +5801,13 @@
 			"This spell functions as forbid action, except up to one creature per level may be affected. Each creature must receive the same forbidden action."
 		]
 	},
-	"forbid_action,_greater": {
+	"forbid_action_greater": {
 		"name": "Forbid Action, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "forbid_action"
 	},
 	"greater_forbid_action": {
-		"copyof": "forbid_action,_greater"
+		"copyof": "forbid_action_greater"
 	},
 	"forbiddance": {
 		"name": "Forbiddance",
@@ -6680,13 +6680,13 @@
 			"This spell functions like fox's cunning, except that it affects multiple creatures."
 		]
 	},
-	"fox's_cunning,_mass": {
+	"fox's_cunning_mass": {
 		"name": "Fox's Cunning, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "fox's_cunning"
 	},
 	"mass_fox's_cunning": {
-		"copyof": "fox's_cunning,_mass"
+		"copyof": "fox's_cunning_mass"
 	},
 	"fractions_of_heal_and_harm": {
 		"name": "Fractions of Heal and Harm",
@@ -7020,7 +7020,7 @@
 		"description": [
 			"## Frosthammer",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** antipaladin 3, cleric 3, hunter 3, inquisitor 3, oracle 3, ranger 3, warpriest 3 (Kostchtchie)",
 			"",
 			"### Casting",
@@ -7469,7 +7469,7 @@
 			"While the spell always deposits travelers on solid ground in the First World, it conveys no protections against whatever creatures or environmental hazards may be present there."
 		]
 	},
-	"geas,_lesser": {
+	"geas_lesser": {
 		"name": "Geas, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -7526,7 +7526,7 @@
 			"Bards, sorcerers, and wizards usually refer to this spell as geas, while clerics call the same spell quest."
 		]
 	},
-	"lesser_geas": { "copyof": "geas,_lesser" },
+	"lesser_geas": { "copyof": "geas_lesser" },
 	"geas_quest": {
 		"name": "Geas/Quest",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -7932,13 +7932,13 @@
 			"This spell functions as ghostbane dirge, except that it affects multiple targets."
 		]
 	},
-	"ghostbane_dirge,_mass": {
+	"ghostbane_dirge_mass": {
 		"name": "Ghostbane Dirge, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ghostbane_dirge"
 	},
 	"mass_ghostbane_dirge": {
-		"copyof": "ghostbane_dirge,_mass"
+		"copyof": "ghostbane_dirge_mass"
 	},
 	"ghostly_disguise": {
 		"name": "Ghostly Disguise",

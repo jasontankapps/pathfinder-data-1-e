@@ -1100,7 +1100,7 @@
 			"**Requirements** Craft Construct, animate objects, permanency, prismatic sphere, true seeing, creator must be caster level 17th; **Skill** Craft (clockwork) DC 25; **Cost** 110,000 gp"
 		]
 	},
-	"phoenix,_pyralisia": {
+	"phoenix_pyralisia": {
 		"name": "Phoenix, Pyralisia, the Rain of Embers",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -1158,8 +1158,8 @@
 			"This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it."
 		]
 	},
-	"pyralisia": { "copyof": "phoenix,_pyralisia" },
-	"prince_in_chains,_the": {
+	"pyralisia": { "copyof": "phoenix_pyralisia" },
+	"prince_in_chains_the": {
 		"name": "The Prince in Chains",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -1225,8 +1225,8 @@
 			"[Zon-Kuthon](faith/zon-kuthon) has stripped the flesh from this spirit-wolf and replaced it with haphazard layers of metal, leather, and necrotic tissue to create a terrifying herald. The Prince in Chains stands i8 feet tall and weighs nearly 3 tons."
 		]
 	},
-	"the_prince_in_chains": { "copyof": "prince_in_chains,_the" },
-	"psychopomp_usher,_barzahk": {
+	"the_prince_in_chains": { "copyof": "prince_in_chains_the" },
+	"psychopomp_usher_barzahk": {
 		"name": "Psychopomp Usher, Barzahk",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
@@ -1247,7 +1247,7 @@
 			"**AC** 46, touch 26, flat-footed 35 (+4 armor, +5 deflection, +10 Dex, +1 dodge, +16 natural)  ",
 			"**hp** 676 (33d10+495); regeneration 30 (deific or mythic)  ",
 			"**Fort** +33, **Ref** +23, **Will** +31  ",
-			"**Defensive Abilities** [freedom of movement](spell/freedom_of_movement), improved evasion, ominous bird of yore, uncertain rustling, usher traits, walk with death; **DR** 20/adamantine and epic; **Immune** ability damage, ability drain, acid, charm, compulsion, death effects, disease, energy drain, necromancy effects, petrification, poison; **Resist** cold 30, electricity 30; **SR** 39",
+			"**Defensive Abilities** [freedom of movement](spell/freedom_of_movement), improved evasion, ominous bird of yore, uncertain rustling, [usher traits](umr/psychopomp_usher_traits), walk with death; **DR** 20/adamantine and epic; **Immune** ability damage, ability drain, acid, charm, compulsion, death effects, disease, energy drain, necromancy effects, petrification, poison; **Resist** cold 30, electricity 30; **SR** 39",
 			"",
 			"#### Offense",
 			"",
@@ -1294,7 +1294,7 @@
 			"Barzahk normally wanders the Dead Roads among the faceless flocks of ravens, jays, vultures, and whippoorwills that infest the Dead Roads, but they sometimes assume a larger, more humanoid form. In this form, they stand just over 5 feet tall and weigh 200 pounds."
 		]
 	},
-	"barzahk": { "copyof": "psychopomp_usher,_barzahk" },
+	"barzahk": { "copyof": "psychopomp_usher_barzahk" },
 	"qaishan_yeti": {
 		"name": "Qaishan Yeti",
 		"sources": [ "Mystery Monsters Revisited" ],
@@ -1351,7 +1351,7 @@
 			"Qaishan monks train their minds and bodies so they can protect the peaks as required by their sacred oaths. They use a unique combination of feral combat and hardened discipline to ward off interplanar invaders as well as foes who would seek to hinder or distract their order. Instead of landing successive strikes with their fists, they rely on their deadly claws to inflict horrendous gashes that blaze with pain thanks to the supernaturally cold energy that infuses their blows. Those seeking to learn the secret techniques of the Qaishan are politely ushered away, and those who press their luck experience the swift and brutal wrath of the normally staid yetis."
 		]
 	},
-	"qlippoth_lord,_chavazvug": {
+	"qlippoth_lord_chavazvug": {
 		"name": "Qlippoth Lord, Chavazvug",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1434,8 +1434,8 @@
 			"[^M]: Chavazvug can use the mythic version of this ability within his sanctum."
 		]
 	},
-	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
-	"qlippoth_lord,_isph-aun-vuln": {
+	"chavazvug": { "copyof": "qlippoth_lord_chavazvug" },
+	"qlippoth_lord_isph-aun-vuln": {
 		"name": "Qlippoth Lord, Isph-Aun-Vuln",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1516,9 +1516,9 @@
 			"[^M]: Isph-Aun-Vuln can use the mythic version of this ability within her sanctum"
 		]
 	},
-	"isph-aun-vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
-	"isph_aun_vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
-	"qlippoth_lord,_oaur-ooung": {
+	"isph-aun-vuln": { "copyof": "qlippoth_lord_isph-aun-vuln" },
+	"isph_aun_vuln": { "copyof": "qlippoth_lord_isph-aun-vuln" },
+	"qlippoth_lord_oaur-ooung": {
 		"name": "Qlippoth Lord, Oaur-Ooung",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1607,9 +1607,9 @@
 			"[^M]: Oaur-Ooung can use the mythic version of this ability within her sanctum."
 		]
 	},
-	"oaur-ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
-	"oaur_ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
-	"qlippoth_lord,_thuskchoon": {
+	"oaur-ooung": { "copyof": "qlippoth_lord_oaur-ooung" },
+	"oaur_ooung": { "copyof": "qlippoth_lord_oaur-ooung" },
+	"qlippoth_lord_thuskchoon": {
 		"name": "Qlippoth Lord, Thuskchoon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1693,8 +1693,8 @@
 			"[^M]: Thuskchoon can use the mythic version of this ability within his sanctum."
 		]
 	},
-	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
-	"qlippoth_lord,_yamasoth": {
+	"thuskchoon": { "copyof": "qlippoth_lord_thuskchoon" },
+	"qlippoth_lord_yamasoth": {
 		"name": "Qlippoth Lord, Yamasoth",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -1774,7 +1774,7 @@
 			"**Family:** [Qlippoth Lord](family/qlippoth_lord)"
 		]
 	},
-	"yamasoth": { "copyof": "qlippoth_lord,_yamasoth" },
+	"yamasoth": { "copyof": "qlippoth_lord_yamasoth" },
 	"quetzutrhul": {
 		"name": "Quetzutrhul",
 		"sources": [ "Darklands Revisited" ],
@@ -2229,7 +2229,7 @@
 			"Shaorhaz prefers offerings of druids, especially those of the Green Faith. He often promises to let these offerings live if they can reveal to him something of the druidic faith that he has not already confirmed for himself-those druids foolish enough to take the demon at his word get the deaths they deserve. It's a DC 33 check to research the Glutton of the Green."
 		]
 	},
-	"spawn_of_rovagug,_chemnosit_the_monarch_worm": {
+	"spawn_of_rovagug_chemnosit_the_monarch_worm": {
 		"name": "Spawn of Rovagug, Chemnosit (The Monarch Worm)",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
@@ -2291,9 +2291,9 @@
 			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
-	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
-	"chemnosit": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
-	"spawn_of_rovagug,_festering_ulunat_the_unholy_first": {
+	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
+	"chemnosit": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
+	"spawn_of_rovagug_festering_ulunat_the_unholy_first": {
 		"name": "Spawn of Rovagug, Festering Ulunat (The Unholy First)",
 		"sources": [
 			"Pathfinder #84: Pyramid of the Sky Pharaoh",
@@ -2368,9 +2368,9 @@
 			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
-	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
-	"festering_ulunat": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
-	"spawn_of_rovagug,_volnagur_the_end-singer": {
+	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
+	"festering_ulunat": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
+	"spawn_of_rovagug_volnagur_the_end-singer": {
 		"name": "Spawn of Rovagug, Volnagur (The End-Singer)",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
@@ -2433,8 +2433,8 @@
 			"**Family:** [Spawn of Rovagug](family/spawn_of_rovagug)"
 		]
 	},
-	"volnagur_the_end-singer": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
-	"volnagur": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
+	"volnagur_the_end-singer": { "copyof": "spawn_of_rovagug_volnagur_the_end-singer" },
+	"volnagur": { "copyof": "spawn_of_rovagug_volnagur_the_end-singer" },
 	"talmandor": {
 		"name": "Talmandor",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
@@ -2445,7 +2445,7 @@
 			"",
 			"### Talmandor, CR 23",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 62](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 62](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 819,200  ",
 			"NG Large outsider (agathion, extraplanar, good)  ",
 			"**Init** +13; **Senses** darkvision 60 ft., see invisibility, true seeing; Perception +44  ",
@@ -3740,7 +3740,7 @@
 			"It was on one such venture that Yrldak met her demise upon the Material Plane, when facing a particularly greedy white dragon who thought the norn trio's treasure would make a good addition to its hoard. As happens to all norns who die outside the First World, Yrldak was reborn on her native plane, and is quickly growing while traversing Golarion looking for her sisters. Exhibiting the dark features of a reborn norn, whose hair and eyes lighten as they age, Yrldak is distinctive among her kind, and though her ebon hair reveals her still undeveloped power, Yrldak is a force to be reckoned with if any stand in her way or tempt fate in her presence. Eager to rejoin her sisters, Yrldak might seek the aid of adventurers, to whom she may promise wealth, prophecy, and other boons if they assist her in her quest."
 		]
 	},
-	"elemental_lord,_ymeri": {
+	"elemental_lord_ymeri": {
 		"name": "Elemental Lord, Ymeri",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -3821,7 +3821,7 @@
 			"Ymeri's unholy symbol is a quartet of flaming swords, and her favored weapon is the longsword. She grants access to the Destruction, Evil, Fire, and War domains, and access to the subdomains of Ash, Catastrophe, Fear, and Tactics."
 		]
 	},
-	"ymeri": { "copyof": "elemental_lord,_ymeri" },
+	"ymeri": { "copyof": "elemental_lord_ymeri" },
 	"zelishkar_of_the_bitter_flame": {
 		"name": "Zelishkar of the Bitter Flame",
 		"sources": [ "Inner Sea Bestiary" ],

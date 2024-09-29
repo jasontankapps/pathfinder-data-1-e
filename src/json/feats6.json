@@ -385,7 +385,7 @@
 		"description": [
 			"## Osyluth Guile (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"You are skilled at misdirecting an opponent's attacks.  ",
 			"**Prerequisites:** Bluff 8 ranks, [Dodge](feat/dodge).  ",
@@ -407,7 +407,7 @@
 			"**Completion Benefit:** You gain an amount of spell resistance equal to 5 + your character level against spells or spell-like abilities originating from outsiders."
 		]
 	},
-	"our_bounty,_our_glory": {
+	"our_bounty_our_glory": {
 		"name": "Our Bounty, Our Glory",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
@@ -421,9 +421,6 @@
 			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as [rage](spell/rage).  ",
 			"**Completion Benefit:** Once per day, you can use [heroes' feast](spell/heroes'_feast) as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of [neutralize poison](spell/neutralize_poison) or [remove disease](spell/remove_disease)."
 		]
-	},
-	"our_bounty_our_glory": {
-		"copyof": "our_bounty,_our_glory"
 	},
 	"out_of_the_sun": {
 		"name": "Out of the Sun",
@@ -1131,7 +1128,7 @@
 		"description": [
 			"## Partner",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira,_jewel_of_the_east)",
+			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira_jewel_of_the_east)",
 			"",
 			"The closest relationship one can achieve with an established merchant house is to be named a partner.  ",
 			"**Prerequisites:** Character level 9th. The character must have been a colleague of the merchant house for at least 3 years, and must have performed a life-changing service for a member of the house, such as saving her life or setting up a lucrative trade network in an otherwise inaccessible area (such as another plane).  ",
@@ -1929,7 +1926,7 @@
 		"description": [
 			"## Piranha Strike (Combat)",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony)",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony)",
 			"",
 			"You make a combination of quick strikes, sacrificing accuracy for multiple, minor wounds that prove exceptionally deadly.  ",
 			"**Prerequisites:** [Weapon Finesse](feat/weapon_finesse), base attack bonus +1.  ",
@@ -3114,7 +3111,7 @@
 		"description": [
 			"## Primal Ancestry",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 34](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Andoran, Birthplace of Freedom pg. 34](source/andoran_birthplace_of_freedom)",
 			"",
 			"You have a deep connection to the primal First World and can channel this link into powerful effects once a day.  ",
 			"**Prerequisites:** Wis 13, member of the Primordial Ones  ",
@@ -5277,7 +5274,7 @@
 		"description": [
 			"## Religious Pilgrim",
 			"",
-			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You are a religious pilgrim who often journeys great distances to holy sites of your faith. You take solace in fulfilling your religious purpose and vows, and those you meet respect your dedication and faithfulness.  ",
 			"**Prerequisites:** Knowledge (geography) 2 ranks, Knowledge (religion) 4 ranks.  ",
@@ -5741,7 +5738,7 @@
 		"description": [
 			"## Rhino Charge (Combat)",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony)",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony)",
 			"",
 			"Your charges are both violent and unpredictable.  ",
 			"**Prerequisites:** [Power Attack](feat/power_attack), [Improved Bull Rush](feat/improved_bull_rush), base attack bonus +5.  ",

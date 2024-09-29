@@ -126,7 +126,7 @@
 			"A 7th-level chaotic good spellcaster with the [Improved Familiar](feat/improved_familiar) feat can gain a house drake as a familiar."
 		]
 	},
-	"house_spirit,_domovoi": {
+	"house_spirit_domovoi": {
 		"name": "House Spirit, Domovoi",
 		"sources": [
 			"Bestiary 5",
@@ -187,8 +187,8 @@
 			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
-	"domovoi": { "copyof": "house_spirit,_domovoi" },
-	"house_spirit,_dvorovoi": {
+	"domovoi": { "copyof": "house_spirit_domovoi" },
+	"house_spirit_dvorovoi": {
 		"name": "House Spirit, Dvorovoi",
 		"sources": [
 			"Bestiary 5",
@@ -254,8 +254,8 @@
 			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
-	"dvorovoi": { "copyof": "house_spirit,_dvorovoi" },
-	"house_spirit,_ovinnik": {
+	"dvorovoi": { "copyof": "house_spirit_dvorovoi" },
+	"house_spirit_ovinnik": {
 		"name": "House Spirit, Ovinnik",
 		"sources": [
 			"Bestiary 5",
@@ -315,7 +315,7 @@
 			"**Family:** [House Spirit](family/house_spirit)"
 		]
 	},
-	"ovinnik": { "copyof": "house_spirit,_ovinnik" },
+	"ovinnik": { "copyof": "house_spirit_ovinnik" },
 	"howler": {
 		"name": "Howler",
 		"sources": [ "Bestiary 2" ],
@@ -1119,7 +1119,7 @@
 			"Cryohydra/Pyrohydra (+2 CR): Variants of the standard hydra, the cryohydra lives in cold marshes or on glaciers, while the pyrohydra prefers deserts or volcanic mountains. A cryohydra gains the Cold subtype, while a pyrohydra gains the Fire subtype. Each of its heads has a breath weapon (15-ft. cone, 3d6 cold damage [cryohydra] or 3d6 fire damage [pyrohydra], Reflex half) useable every 1d4 rounds. The save DC is 10 + 1/2 the hydra's HD + the hydra's Con modifier. Although fire attacks cannot prevent a pyrohydra's neck stump from growing new heads (since it is immune to fire), 5 points of cold damage does. Acid works normally on both hydra variants."
 		]
 	},
-	"hydra,_dhirgiska": {
+	"hydra_dhirgiska": {
 		"name": "Hydra, Dhirgiska",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -1174,7 +1174,7 @@
 			"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes."
 		]
 	},
-	"dhirgiska": { "copyof": "hydra,_dhirgiska" },
+	"dhirgiska": { "copyof": "hydra_dhirgiska" },
 	"hyena": {
 		"name": "Hyena",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1223,7 +1223,7 @@
 			"Many of the savage humanoid races, particularly gnolls, use hyenas as guard dogs. Such hyenas typically wear leather barding and are trained from birth to be vicious and savage-many such creatures are advanced hyenas."
 		]
 	},
-	"hyena,_dire_hyena_hyaenodon": {
+	"hyena_dire_hyena_hyaenodon": {
 		"name": "Hyena, Dire Hyena (Hyaenodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1270,8 +1270,8 @@
 			"Gnolls have been known to train hyaenodons to serve in their lairs as guardians, or more commonly as fearsome mounts."
 		]
 	},
-	"hyaenodon": { "copyof": "hyena,_dire_hyena_hyaenodon" },
-	"dire_hyena": { "copyof": "hyena,_dire_hyena_hyaenodon" },
+	"hyaenodon": { "copyof": "hyena_dire_hyena_hyaenodon" },
+	"dire_hyena": { "copyof": "hyena_dire_hyena_hyaenodon" },
 	"hypnalis": {
 		"name": "Hypnalis",
 		"sources": [ "Bestiary 4" ],
@@ -1507,7 +1507,7 @@
 			"An average ichthyocentaur stands just over 5 feet tall when propped up by its legs and tail, is nearly 15 feet long from head to tail tip, and weighs over 1,700 pounds, but tribes from different areas vary significantly in build and size."
 		]
 	},
-	"idol,_bone": {
+	"idol_bone": {
 		"name": "Idol, Bone",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
@@ -1572,8 +1572,8 @@
 			"**Family:** [Idol](family/idol)"
 		]
 	},
-	"bone": { "copyof": "idol,_bone" },
-	"idol,_jade": {
+	"bone": { "copyof": "idol_bone" },
+	"idol_jade": {
 		"name": "Idol, Jade",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
@@ -1642,8 +1642,8 @@
 			"**Family:** [Idol](family/idol)"
 		]
 	},
-	"jade": { "copyof": "idol,_jade" },
-	"idol,_stone": {
+	"jade": { "copyof": "idol_jade" },
+	"idol_stone": {
 		"name": "Idol, Stone",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
@@ -1709,8 +1709,8 @@
 			"**Family:** [Idol](family/idol)"
 		]
 	},
-	"stone": { "copyof": "idol,_stone" },
-	"idol,_wood": {
+	"stone": { "copyof": "idol_stone" },
+	"idol_wood": {
 		"name": "Idol, Wood",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
@@ -1778,7 +1778,7 @@
 			"**Family:** [Idol](family/idol)"
 		]
 	},
-	"wood": { "copyof": "idol,_wood" },
+	"wood": { "copyof": "idol_wood" },
 	"ifrit": {
 		"name": "Ifrit",
 		"sources": [ "Bestiary 2" ],
@@ -2350,7 +2350,7 @@
 			"An incutilis weighs about 25 pounds (30 with its shell) and measures 4 feet from the tips of its longest tentacles to the top of its shell."
 		]
 	},
-	"incutilis,_incutilis_lord": {
+	"incutilis_incutilis_lord": {
 		"name": "Incutilis, Incutilis Lord",
 		"sources": [ "Plunder and Peril" ],
 		"description": [
@@ -2416,7 +2416,7 @@
 			"**Rebuild Rules:** Senses darkvision 60 ft.; AC increase natural armor by 4; Immune mind-affecting effects; Ability Scores +4 Str and Con. A calcified creature has no Intelligence score, but can use its physical skills as directed by the incutilis lord that created it and does not lose any skill ranks; Skills: +8 racial bonus on Stealth checks in dim or no light."
 		]
 	},
-	"incutilis_lord": { "copyof": "incutilis,_incutilis_lord" },
+	"incutilis_lord": { "copyof": "incutilis_incutilis_lord" },
 	"indarugant": {
 		"name": "Indarugant",
 		"sources": [ "Pathfinder #94: Ice Tomb of the Giant Queen" ],
@@ -2496,7 +2496,7 @@
 			"Scholars of giant lore claim that all the races of giants once buried their dead in this manner, or at least created indarugants through similar rituals, if they did not live in icy climates. In Varisia, this changed during the Age of Legend, when the runelords of Azlant enslaved the giants and bent them to their sinister will. Those giants who fought back against the runelords called upon the might of their undying ancestors, sending legions of indarugants down into the plains to defend the giant tribes. Though the undead guardians fought fiercely, they were unable to stand against the might of Thassilon, and all were eventually destroyed. Since that time, only the taiga giants, who largely escaped slavery, continue the practice of creating indarugants. This may not be true for much longer, however, as reports of stone and frost giants burying their dead in the high ice now grow ever more common."
 		]
 	},
-	"indescribable_swarm,_pallid_wriggler_swarm": {
+	"indescribable_swarm_pallid_wriggler_swarm": {
 		"name": "Indescribable Swarm, Pallid Wriggler Swarm",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
@@ -2552,8 +2552,8 @@
 			"These creatures aren't terribly dangerous individually, but meet any disturbances in their territory with swift and often deadly investigation. The creatures immediately swarm any intruders, trying to learn their scent from as close as possible. They seem driven more by curiosity than animosity, but the resultant battering and probing can occasionally prove fatal. Pallid wrigglers are herbivores, feeding on the fungus that is ubiquitous in their cavernous lairs, so creatures slain by their attentions often rot away unless eaten by another scavenger."
 		]
 	},
-	"pallid_wriggler_swarm": { "copyof": "indescribable_swarm,_pallid_wriggler_swarm" },
-	"indescribable_swarm,_patchwork_insect_swarm": {
+	"pallid_wriggler_swarm": { "copyof": "indescribable_swarm_pallid_wriggler_swarm" },
+	"indescribable_swarm_patchwork_insect_swarm": {
 		"name": "Indescribable Swarm, Patchwork Insect Swarm",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
@@ -2607,8 +2607,8 @@
 			"Scholars who have had an opportunity to study these creatures up close speculate that they are actually created by some strange form of fungus or parasite that grows a humanlike skin over the existing chitin of the vermin involved. The incredible coincidence of the resemblance to human forms makes the influence of occult magic a strong possibility, but there is no record of the history of these monstrous creatures that might reveal the truth."
 		]
 	},
-	"patchwork_insect_swarm": { "copyof": "indescribable_swarm,_patchwork_insect_swarm" },
-	"indescribable_swarm,_swimming_eye_swarm": {
+	"patchwork_insect_swarm": { "copyof": "indescribable_swarm_patchwork_insect_swarm" },
+	"indescribable_swarm_swimming_eye_swarm": {
 		"name": "Indescribable Swarm, Swimming Eye Swarm",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
@@ -2666,8 +2666,8 @@
 			"Like many of their common jellyfish cousins, the creatures in a swimming eye swarm are incredibly poisonous. Their uncanny eyeballs act as poison sacs as well as a sensory organ. These eyes are remarkably fragile, often bursting after even the gentlest jostling. However, a swarm's eyeballs grow back quickly, often in less than a week."
 		]
 	},
-	"swimming_eye_swarm": { "copyof": "indescribable_swarm,_swimming_eye_swarm" },
-	"inevitable,_arbiter": {
+	"swimming_eye_swarm": { "copyof": "indescribable_swarm_swimming_eye_swarm" },
+	"inevitable_arbiter": {
 		"name": "Inevitable, Arbiter",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2736,8 +2736,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"arbiter": { "copyof": "inevitable,_arbiter" },
-	"inevitable,_hykariut": {
+	"arbiter": { "copyof": "inevitable_arbiter" },
+	"inevitable_hykariut": {
 		"name": "Inevitable, Hykariut",
 		"sources": [
 			"Pathfinder #131: The Reaper's Right Hand",
@@ -2822,8 +2822,8 @@
 			"Hykariuts work together only rarely, and only for far-reaching or tenacious rebellions. A pair of hykariuts has monitored Galt's Red Revolution since its infancy, regularly meeting with and dispatching spies to measure scores of qualitative variables. Despite the immense amount of data collected over the decades, these inevitables haven't moved against the Gray Gardeners or Revolutionary Council-much to the hykariuts' mortal agents' distress. It may be that the inevitables believe the Galtan incident contained, or that they have calculated the frequent upheavals that replace each Revolutionary Council serve as a lesson to other mortal societies to avoid the same mistakes."
 		]
 	},
-	"hykariut": { "copyof": "inevitable,_hykariut" },
-	"inevitable,_impariut": {
+	"hykariut": { "copyof": "inevitable_hykariut" },
+	"inevitable_impariut": {
 		"name": "Inevitable, Impariut",
 		"sources": [
 			"Pathfinder #131: The Reaper's Right Hand",
@@ -2908,8 +2908,8 @@
 			"Those spellcasters who would instead force an impariut to obey can placate it by offering rare history volumes and noteworthy biographies, gaining a +1 bonus on the binder's Charisma check for every 100 gp worth of literature provided (maximum +4). At the same time, though, an impariut judges the conjurer, assessing whether the spellcaster might ultimately undermine the region's rule of law-and whether to destroy the conjurer at a later date."
 		]
 	},
-	"impariut": { "copyof": "inevitable,_impariut" },
-	"inevitable,_kastamut": {
+	"impariut": { "copyof": "inevitable_impariut" },
+	"inevitable_kastamut": {
 		"name": "Inevitable, Kastamut",
 		"sources": [
 			"Pathfinder #118: Siege of Stone",
@@ -3000,8 +3000,8 @@
 			"This does not mean, however, that kastamuts are never encountered in the wilderness. In fact, many of the cultures in the greatest danger of being subverted or destroyed are found in the wilds. A few of these inevitables are believed to operate in the jungles of the Mwangi Expanse, working against those Chelish colonists seeking to quell resistance by the region's indigenous population. Pathfinder Society reports also indicate that at least one kastamut haunts the western border of Irrisen, working against white witches and their minions who attempt to eliminate the many Ulfen tribes that dwell there. At the same time, kastamuts have also appeared in Irrisen and Nidal to oppose rebels seeking to undermine the cultural status quo."
 		]
 	},
-	"kastamut": { "copyof": "inevitable,_kastamut" },
-	"inevitable,_kolyarut": {
+	"kastamut": { "copyof": "inevitable_kastamut" },
+	"inevitable_kolyarut": {
 		"name": "Inevitable, Kolyarut",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3057,8 +3057,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"kolyarut": { "copyof": "inevitable,_kolyarut" },
-	"inevitable,_lhaksharut": {
+	"kolyarut": { "copyof": "inevitable_kolyarut" },
+	"inevitable_lhaksharut": {
 		"name": "Inevitable, Lhaksharut",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3140,8 +3140,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"lhaksharut": { "copyof": "inevitable,_lhaksharut" },
-	"inevitable,_marut": {
+	"lhaksharut": { "copyof": "inevitable_lhaksharut" },
+	"inevitable_marut": {
 		"name": "Inevitable, Marut",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3204,8 +3204,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"marut": { "copyof": "inevitable,_marut" },
-	"inevitable,_novenarut": {
+	"marut": { "copyof": "inevitable_marut" },
+	"inevitable_novenarut": {
 		"name": "Inevitable, Novenarut",
 		"sources": [
 			"Planar Adventures",
@@ -3270,8 +3270,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"novenarut": { "copyof": "inevitable,_novenarut" },
-	"inevitable,_rokyamut": {
+	"novenarut": { "copyof": "inevitable_novenarut" },
+	"inevitable_rokyamut": {
 		"name": "Inevitable, Rokyamut",
 		"sources": [
 			"Concordance of Rivals",
@@ -3353,8 +3353,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"rokyamut": { "copyof": "inevitable,_rokyamut" },
-	"inevitable,_valharut": {
+	"rokyamut": { "copyof": "inevitable_rokyamut" },
+	"inevitable_valharut": {
 		"name": "Inevitable, Valharut",
 		"sources": [
 			"Planar Adventures",
@@ -3419,8 +3419,8 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"valharut": { "copyof": "inevitable,_valharut" },
-	"inevitable,_yarahkut": {
+	"valharut": { "copyof": "inevitable_valharut" },
+	"inevitable_yarahkut": {
 		"name": "Inevitable, Yarahkut",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
@@ -3510,8 +3510,8 @@
 			"Sometimes yarahkuts seek out other types of inevitables when the need arises. For example, a situation in which a powerful undead creature has discovered a lost army of robots may prompt an alliance of convenience with a marut. If a bargain was broken regarding powerful technology, a yarahkut might instead align with a kolyarut, while a death-marked exile from Numeria bringing stolen items to other nations might necessitate working with a zelekhut in order to track the renegade down."
 		]
 	},
-	"yarahkut": { "copyof": "inevitable,_yarahkut" },
-	"inevitable,_zelekhut": {
+	"yarahkut": { "copyof": "inevitable_yarahkut" },
+	"inevitable_zelekhut": {
 		"name": "Inevitable, Zelekhut",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3572,7 +3572,7 @@
 			"**Family:** [Inevitable](family/inevitable)"
 		]
 	},
-	"zelekhut": { "copyof": "inevitable,_zelekhut" },
+	"zelekhut": { "copyof": "inevitable_zelekhut" },
 	"inkanyamba": {
 		"name": "Inkanyamba",
 		"sources": [ "Pathfinder #41: The Thousand Fangs Below" ],
@@ -4477,7 +4477,7 @@
 			"",
 			"### Jackal, CR 1/2",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 54](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 54](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 200  ",
 			"N Small animal  ",
 			"**Init** +2; **Senses** low-light vision, scent; Perception +5",
@@ -4642,7 +4642,7 @@
 		]
 	},
 	"jack_o'_lantern": { "copyof": "jack-o'-lantern" },
-	"jellyfish,_bathysphere": {
+	"jellyfish_bathysphere": {
 		"name": "Jellyfish, Bathysphere",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -4696,8 +4696,8 @@
 			"Bathysphere jellyfish have the unique ability to create pockets of musty but breathable air in even the deepest ocean regions. These jellyfish can be dangerous to individuals who fall unconscious while using these creatures to breathe underwater. The jellyfish instinctively strive to protect their hosts, but horror stories of travelers trapped by the creatures can make an adventurer think twice before allowing the vermin on his head. A bathysphere jellyfish is 1 foot long and weighs 5 pounds."
 		]
 	},
-	"bathysphere": { "copyof": "jellyfish,_bathysphere" },
-	"jellyfish,_death's_head_jellyfish": {
+	"bathysphere": { "copyof": "jellyfish_bathysphere" },
+	"jellyfish_death's_head_jellyfish": {
 		"name": "Jellyfish, Death's Head Jellyfish",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4747,8 +4747,8 @@
 			"Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated."
 		]
 	},
-	"death's_head_jellyfish": { "copyof": "jellyfish,_death's_head_jellyfish" },
-	"jellyfish,_giant_jellyfish": {
+	"death's_head_jellyfish": { "copyof": "jellyfish_death's_head_jellyfish" },
+	"jellyfish_giant_jellyfish": {
 		"name": "Jellyfish, Giant Jellyfish",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4806,8 +4806,8 @@
 			"| Whaler jellyfish | 17 | Colossal | 20 |"
 		]
 	},
-	"giant_jellyfish": { "copyof": "jellyfish,_giant_jellyfish" },
-	"jellyfish,_jellyfish_swarm": {
+	"giant_jellyfish": { "copyof": "jellyfish_giant_jellyfish" },
+	"jellyfish_jellyfish_swarm": {
 		"name": "Jellyfish, Jellyfish Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4857,8 +4857,8 @@
 			"Jellyfish often cluster together during springtime or when environmental conditions such as an increase in ocean temperature favor it. When conditions are right, jellyfish shift from being a nuisance to being a menace, if accidentally so, for a jellyfish swarm, unlike more aggressive monstrous kin like the giant jellyfish, comprises not aggressive hunters but rather opportunistic strikers. They do not generally move to attack nearby prey, but their nearly translucent coloration makes it horrifically easy for a creature to swim into a swarm unawares. Once a jellyfish swarm deals damage to a creature, the swarm pursues it for several rounds before giving up the chase. Many aquatic races use jellyfish swarms as defensive guardians, trusting a swarm's lack of interest in moving to keep it stationary for long periods of time."
 		]
 	},
-	"jellyfish_swarm": { "copyof": "jellyfish,_jellyfish_swarm" },
-	"jellyfish,_sapphire_jellyfish": {
+	"jellyfish_swarm": { "copyof": "jellyfish_jellyfish_swarm" },
+	"jellyfish_sapphire_jellyfish": {
 		"name": "Jellyfish, Sapphire Jellyfish",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4911,7 +4911,7 @@
 			"Like other giant jellyfish, a sapphire jellyfish is an active hunter. It stores powerful electrical charges in its domelike bell, which is 16 feet in diameter. Its sensory tentacles can trail for twice that length, but the dangerous toxic tentacles are positioned within about 20 feet of the creature's bell."
 		]
 	},
-	"sapphire_jellyfish": { "copyof": "jellyfish,_sapphire_jellyfish" },
+	"sapphire_jellyfish": { "copyof": "jellyfish_sapphire_jellyfish" },
 	"jinmenju": {
 		"name": "Jinmenju",
 		"sources": [
@@ -5049,7 +5049,7 @@
 			"",
 			"### Joyful Thing, CR 6",
 			"",
-			"**Source** [Nidal, Land of Shadows pg. 57](source/nidal,_land_of_shadows)  ",
+			"**Source** [Nidal, Land of Shadows pg. 57](source/nidal_land_of_shadows)  ",
 			"**XP** 2,400  ",
 			"LE Medium outsider (native)  ",
 			"**Init** +2; **Senses** darkvision 60 ft.; Perception +11",
@@ -5176,7 +5176,7 @@
 			"",
 			"### Juggerloathe, CR 16",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 62](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 62](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 76,800  ",
 			"CE Gargantuan magical beast  ",
 			"**Init** +5; **Senses** darkvision 120 ft., low-light vision, scent, tremorsense 120 ft.; Perception +16",
@@ -5701,7 +5701,7 @@
 			"Kamaitachis revel in causing pain. A kamaitachi might, for example, hold someone hostage with its delayed doom ability and force that person (or one of the victim's loved ones) to commit horrible or demeaning acts in exchange for the hostage's life. Of course, depending on its fickle mood, the kamaitachi is just as likely to kill a hostage who meets its demands."
 		]
 	},
-	"kami,_dosojin": {
+	"kami_dosojin": {
 		"name": "Kami, Dosojin",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
@@ -5781,8 +5781,8 @@
 			"- Mortals who stray from a dosojin's path to do harm should not expect to find that path ever again."
 		]
 	},
-	"dosojin": { "copyof": "kami,_dosojin" },
-	"kami,_dunagh": {
+	"dosojin": { "copyof": "kami_dosojin" },
+	"kami_dunagh": {
 		"name": "Kami, Dunagh",
 		"sources": [
 			"Daughters of Fury",
@@ -5849,8 +5849,8 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"dunagh": { "copyof": "kami,_dunagh" },
-	"kami,_fukujin": {
+	"dunagh": { "copyof": "kami_dunagh" },
+	"kami_fukujin": {
 		"name": "Kami, Fukujin",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
@@ -5933,8 +5933,8 @@
 			"Occasionally one might encounter a fukujin in the wild, in lands far from the societies and plants where they commonly make their homes. In such cases, these miniature kami often claim shrubs, young plants, and even whimiscal-looking mushrooms as their wards, grooming nearby groves and glades into quiet meditation gardens or into artistic shapes, inviting visitors to rest and reflect."
 		]
 	},
-	"fukujin": { "copyof": "kami,_fukujin" },
-	"kami,_jinushigami": {
+	"fukujin": { "copyof": "kami_fukujin" },
+	"kami_jinushigami": {
 		"name": "Kami, Jinushigami",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6017,8 +6017,8 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"jinushigami": { "copyof": "kami,_jinushigami" },
-	"kami,_kaminari": {
+	"jinushigami": { "copyof": "kami_jinushigami" },
+	"kami_kaminari": {
 		"name": "Kami, Kaminari",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
@@ -6099,8 +6099,8 @@
 			"A kaminari goes to great lengths to surround itself with booming noise, and is rarely seen without its instrument of choice. While most kaminaris prefer to use drums and other percussion instruments to fill the air around them with sound, rare individuals also adhere to the use of keyboard, string, and wind instruments. The powers of these kaminaris do not greatly differ, but their choice of instrument is usually a fair indicator of their temperament as well as the kind of storm they travel upon-those who play keyboards are usually found amid desert-quenching storms that wander arid environments, bringing with them the power of tornadoes and dust storms; players of string instruments tend toward oceanic environs, residing within the hearts of devastating hurricanes of incredible magnitude far out at sea; and kaminaris who use wind instruments occupy blizzards, commanding the powers of the ice and snow that constantly whip about them."
 		]
 	},
-	"kaminari": { "copyof": "kami,_kaminari" },
-	"kami,_kodama": {
+	"kaminari": { "copyof": "kami_kaminari" },
+	"kami_kodama": {
 		"name": "Kami, Kodama",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6163,5 +6163,5 @@
 			"**Family:** [Kami](family/kami)"
 		]
 	},
-	"kodama": { "copyof": "kami,_kodama" }
+	"kodama": { "copyof": "kami_kodama" }
 }

@@ -2296,7 +2296,7 @@
 		"name": "Satchel of Plentiful Feed (Type IV)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
-	"wayfinder,_shining": {
+	"wayfinder_shining": {
 		"name": "Wayfinder, Shining",
 		"sources": [
 			"Adventurer's Guide",
@@ -2315,9 +2315,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect evil](spell/detect_evil), light, [protection from evil](spell/protection_from_evil); **Cost** 1,000 gp"
 		]
-	},
-	"wayfinder_shining": {
-		"copyof": "wayfinder,_shining"
 	},
 	"silver_nail": {
 		"name": "Silver Nail",
@@ -2373,7 +2370,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Forge Ring, remove disease; **Cost** 1,100 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), remove disease; **Cost** 1,100 gp"
 		]
 	},
 	"knight's_pennon_honor": {
@@ -2830,7 +2827,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a witch with the eternal slumber grand hex; **Cost** 1,250 gp"
+			"**Requirements** [Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a witch with the eternal slumber grand hex; **Cost** 1,250 gp"
 		]
 	},
 	"banner_of_piracy": {
@@ -4428,7 +4425,7 @@
 		"description": [
 			"## Pact Parchment",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax_empire_of_devils)  ",
 			"**Aura** moderate enchantment; **CL** 11th  ",
 			"**Price** 3,500 gp; **Weight** -;",
 			"",
@@ -4852,7 +4849,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), create water, cure moderate wounds, enlarge person, heroism, lesser restoration, rage, reduce person; **Cost** 2,000 gp"
+			"**Requirements** [Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), create water, cure moderate wounds, enlarge person, heroism, lesser restoration, rage, reduce person; **Cost** 2,000 gp"
 		]
 	},
 	"holdout_wand_wrap": {
@@ -5418,11 +5415,11 @@
 		"description": [
 			"## Globe of Blizzards",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 4,550 gp; **Weight** 1 lb.",
 			"",
-			"Tiny white crystals hang suspended in a clear fluid inside this fist-sized glass ball, which contains a miniature scene of leafless trees in a snow-covered landscape. Shaking the globe (a move action) activates it, and causes the crystals inside to fly wildly about the globe, taking on the appearance of a mad snowstorm for 1d6 minutes until they settle back down. Shattering an activated globe (hardness 1, hp 2) creates raging blizzard conditions in a 2-mile-radius circle centered on the location where the globe was shattered. In this area, temperatures drop to below freezing, winds blow at over 50 miles per hour, and [heavy snow falls](rule/rain,_snow,_sleet,_and_hail). It takes 10 minutes for the blizzard to form, and the conditions last for 1 hour before dissipating, at which point normal weather conditions in the area return. Once shattered, a globe of blizzards is destroyed.",
+			"Tiny white crystals hang suspended in a clear fluid inside this fist-sized glass ball, which contains a miniature scene of leafless trees in a snow-covered landscape. Shaking the globe (a move action) activates it, and causes the crystals inside to fly wildly about the globe, taking on the appearance of a mad snowstorm for 1d6 minutes until they settle back down. Shattering an activated globe (hardness 1, hp 2) creates raging blizzard conditions in a 2-mile-radius circle centered on the location where the globe was shattered. In this area, temperatures drop to below freezing, winds blow at over 50 miles per hour, and [heavy snow falls](rule/rain_snow_sleet_and_hail). It takes 10 minutes for the blizzard to form, and the conditions last for 1 hour before dissipating, at which point normal weather conditions in the area return. Once shattered, a globe of blizzards is destroyed.",
 			"",
 			"### Construction",
 			"",

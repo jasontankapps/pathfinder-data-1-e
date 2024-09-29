@@ -214,7 +214,7 @@
 			"",
 			"This ability replaces well-versed.",
 			"",
-			"**Invoke Vyriavaxus (Ex):** Westcrown suffered under the shadow curse for many years, and a brazen deceiver has a tiny piece of that darkness lodged in his soul; as his skills increase, he learns to command this shadowy power. A brazen deceiver adds the following spells to his bard spells known at the listed class levels. At 2nd level, the brazen deceiver adds [bleed](spell/bleed) and [touch of fatigue](spell/touch_of_fatigue) to his 0-level bard spells known. At 6th level, the brazen deceiver adds [darkness](spell/darkness) and [darkvision](spell/darkvision) to his 2nd-level bard spells known. At 10th level, he adds [shadow conjuration](spell/shadow_conjuration) and [shadow step](spell/shadow_step) to his 4th-level bard spells known. At 14th level, he adds [shadow evocation](spell/shadow_evocation) and [shadow walk](spell/shadow_walk) to his 5th-level bard spells known. At 18th level, he adds [shadow conjuration, greater](spell/shadow_conjuration,_greater) and [greater shadow evocation](spell/greater_shadow_evocation) to his 6th-level bard spells known.",
+			"**Invoke Vyriavaxus (Ex):** Westcrown suffered under the shadow curse for many years, and a brazen deceiver has a tiny piece of that darkness lodged in his soul; as his skills increase, he learns to command this shadowy power. A brazen deceiver adds the following spells to his bard spells known at the listed class levels. At 2nd level, the brazen deceiver adds [bleed](spell/bleed) and [touch of fatigue](spell/touch_of_fatigue) to his 0-level bard spells known. At 6th level, the brazen deceiver adds [darkness](spell/darkness) and [darkvision](spell/darkvision) to his 2nd-level bard spells known. At 10th level, he adds [shadow conjuration](spell/shadow_conjuration) and [shadow step](spell/shadow_step) to his 4th-level bard spells known. At 14th level, he adds [shadow evocation](spell/shadow_evocation) and [shadow walk](spell/shadow_walk) to his 5th-level bard spells known. At 18th level, he adds [shadow conjuration, greater](spell/shadow_conjuration_greater) and [greater shadow evocation](spell/greater_shadow_evocation) to his 6th-level bard spells known.",
 			"",
 			"This ability replaces versatile performance.",
 			"",
@@ -988,7 +988,7 @@
 			"",
 			"**Geisha Knowledge:** A geisha adds half her class level (minimum 1) on Craft (calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform check (act, dance, oratory, percussion, string instruments, or sing); she may make checks with these skills untrained. This replaces bardic knowledge.",
 			"",
-			"**Scribe Scroll:** A geisha gains Scribe Scroll as a bonus feat."
+			"**Scribe Scroll:** A geisha gains [Scribe Scroll](feat/scribe_scroll) as a bonus feat."
 		]
 	},
 	"hatharat_agent": {
@@ -997,7 +997,7 @@
 		"description": [
 			"## Hatharat Agent",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 47](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 47](source/qadira_jewel_of_the_east)  ",
 			"Although the Hatharat employs all manner of specialists, bards who take up the role of agent are among its most infamous and widespread.",
 			"",
 			"**Called Favor (Ex):** At 1st level, a Hatharat agent can use his contacts to ask for a favor from various individuals who have benefited from Hatharat aid in the past. The agent must spend 1d4 hours in an urban area with a population of at least 200 people to use this ability, and must succeed at a DC 20 Diplomacy check to secure the favor. Once an attempt to call in a favor has been made, whether or not the Diplomacy check was successful, the Hatharat agent must wait 2d6 days before attempting to call in a new favor, so as to not overtax the favors owed the society as a whole.",
@@ -1817,7 +1817,7 @@
 		"description": [
 			"## Thundercaller",
 			"",
-			"**Source** [Ultimate Wilderness pg. 41](source/ultimate_wilderness), [Varisia, Birthplace of Legends pg. 11](source/varisia,_birthplace_of_legends)  ",
+			"**Source** [Ultimate Wilderness pg. 41](source/ultimate_wilderness), [Varisia, Birthplace of Legends pg. 11](source/varisia_birthplace_of_legends)  ",
 			"Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for which they care so deeply. Their voices ring like thunder, calling the sky's wrath down upon their enemies and summoning furious rage to bolster their allies.",
 			"",
 			"**Bound to the Land (Ex):** A thundercaller gains a bonus equal to half her level on Handle Animal checks, Knowledge (nature) checks, and Survival checks.",

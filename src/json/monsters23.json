@@ -74,7 +74,7 @@
 			"",
 			"### Targotha, CR 15",
 			"",
-			"**Source** [Bestiary 6 pg. 261](source/bestiary_6), [Numeria, Land of Fallen Stars pg. 60](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Bestiary 6 pg. 261](source/bestiary_6), [Numeria, Land of Fallen Stars pg. 60](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 51,200  ",
 			"N Huge aberration  ",
 			"**Init** +1; **Senses** blindsense 120 ft., darkvision 60 ft.; Perception +16",
@@ -324,7 +324,7 @@
 			"",
 			"### Tauhoti, CR 1/6",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 63](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 63](source/druma_profit_and_prophecy)  ",
 			"**XP** 65  ",
 			"N Diminutive animal  ",
 			"**Init** +3; **Senses** low-light vision, scent; Perception +8",
@@ -1173,7 +1173,7 @@
 			"One dose of poison can be harvested from the corpse of a tetrolimulus, provided the lower half of the creature is intact. This requires a DC 25 Survival check, and even those who usually find themselves competent at skinning or gutting creatures struggle with the intricacies of the sharp tail stinger. In harvesting the tetrodotoxin poison, those without the poison use ability are subject to the standard 5% chance of self-poisoning."
 		]
 	},
-	"thassilonian_sentinel,_bronze_sentinel": {
+	"thassilonian_sentinel_bronze_sentinel": {
 		"name": "Thassilonian Sentinel, Bronze Sentinel",
 		"sources": [
 			"Pathfinder #62: Curse of the Lady's Light",
@@ -1242,8 +1242,8 @@
 			"Bronze Sentinel; **CL** 10th; **Price** 21,000 gp; **Requirements** Craft Construct, alarm, detect magic, geas/quest, limited wish, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
 		]
 	},
-	"bronze_sentinel": { "copyof": "thassilonian_sentinel,_bronze_sentinel" },
-	"thassilonian_sentinel,_iron_sentinel": {
+	"bronze_sentinel": { "copyof": "thassilonian_sentinel_bronze_sentinel" },
+	"thassilonian_sentinel_iron_sentinel": {
 		"name": "Thassilonian Sentinel, Iron Sentinel",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
@@ -1314,8 +1314,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm), [cone of cold](spell/cone_of_cold), [detect magic](spell/detect_magic), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish); Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
 		]
 	},
-	"iron_sentinel": { "copyof": "thassilonian_sentinel,_iron_sentinel" },
-	"thassilonian_sentinel,_ivory_sentinel": {
+	"iron_sentinel": { "copyof": "thassilonian_sentinel_iron_sentinel" },
+	"thassilonian_sentinel_ivory_sentinel": {
 		"name": "Thassilonian Sentinel, Ivory Sentinel",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
@@ -1387,8 +1387,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm), [detect magic](spell/detect_magic), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [poison](spell/poison), [shout](spell/shout); Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
 		]
 	},
-	"ivory_sentinel": { "copyof": "thassilonian_sentinel,_ivory_sentinel" },
-	"thassilonian_sentinel,_marble_sentinel": {
+	"ivory_sentinel": { "copyof": "thassilonian_sentinel_ivory_sentinel" },
+	"thassilonian_sentinel_marble_sentinel": {
 		"name": "Thassilonian Sentinel, Marble Sentinel",
 		"sources": [
 			"Pathfinder #62: Curse of the Lady's Light",
@@ -1457,7 +1457,7 @@
 			"Marble Sentinel; **CL** 12th; **Price** 24,000 gp; **Requirements** Craft Construct, alarm, detect magic, geas/quest, limited wish, stone shape, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
 		]
 	},
-	"marble_sentinel": { "copyof": "thassilonian_sentinel,_marble_sentinel" },
+	"marble_sentinel": { "copyof": "thassilonian_sentinel_marble_sentinel" },
 	"thawn": {
 		"name": "Thawn",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
@@ -1969,7 +1969,7 @@
 			"In combat, thremindyrs attempt to keep their distance from their enemies. They prefer to fly just out of the reach of their foes and attack with their breath weapons, hoping to entrap those struck. Once an opponent is immobilized, the thremindyr focuses on other foes until they are all coated in rime. Thremindyrs can tell whether creatures are magically protected against the cold, and they find these sorts of protections affronts to their icy nature. Thremindyrs focus their attacks on protected creatures first, and use their shatter protection ability to break down these defenses. If their enemies fight using ranged weapons, thremindyrs soar down and attack using Flyby Attack, sometimes remaining in melee combat long enough for their auras to damage their opponents."
 		]
 	},
-	"thriae,_thriae_constructor": {
+	"thriae_thriae_constructor": {
 		"name": "Thriae, Thriae Constructor",
 		"sources": [
 			"Bestiary 5",
@@ -2031,8 +2031,8 @@
 			"**Family:** [Thriae](family/thriae)"
 		]
 	},
-	"thriae_constructor": { "copyof": "thriae,_thriae_constructor" },
-	"thriae,_thriae_dancer": {
+	"thriae_constructor": { "copyof": "thriae_thriae_constructor" },
+	"thriae_thriae_dancer": {
 		"name": "Thriae, Thriae Dancer",
 		"sources": [
 			"Bestiary 5",
@@ -2102,8 +2102,8 @@
 			"**Family:** [Thriae](family/thriae)"
 		]
 	},
-	"thriae_dancer": { "copyof": "thriae,_thriae_dancer" },
-	"thriae,_thriae_queen": {
+	"thriae_dancer": { "copyof": "thriae_thriae_dancer" },
+	"thriae_thriae_queen": {
 		"name": "Thriae, Thriae Queen",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2180,8 +2180,8 @@
 			"**Family:** [Thriae](family/thriae)"
 		]
 	},
-	"thriae_queen": { "copyof": "thriae,_thriae_queen" },
-	"thriae,_thriae_seer": {
+	"thriae_queen": { "copyof": "thriae_thriae_queen" },
+	"thriae_thriae_seer": {
 		"name": "Thriae, Thriae Seer",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2247,8 +2247,8 @@
 			"**Family:** [Thriae](family/thriae)"
 		]
 	},
-	"thriae_seer": { "copyof": "thriae,_thriae_seer" },
-	"thriae,_thriae_soldier": {
+	"thriae_seer": { "copyof": "thriae_thriae_seer" },
+	"thriae_thriae_soldier": {
 		"name": "Thriae, Thriae Soldier",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2310,7 +2310,7 @@
 			"**Family:** [Thriae](family/thriae)"
 		]
 	},
-	"thriae_soldier": { "copyof": "thriae,_thriae_soldier" },
+	"thriae_soldier": { "copyof": "thriae_thriae_soldier" },
 	"thrushmoor_angler": {
 		"name": "Thrushmoor Angler",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
@@ -2498,7 +2498,7 @@
 			"These carnivorous, wide-jawed marsupials typically hunt at night and have a reputation for savagery. By day, they nest in hollow trees or clusters of bushes."
 		]
 	},
-	"thylacine,_brush_thylacine": {
+	"thylacine_brush_thylacine": {
 		"name": "Thylacine, Brush Thylacine",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
 		"description": [
@@ -2553,7 +2553,7 @@
 			"Sarusan Wolf: The Sarusan wolf is a slightly bigger and more doglike form of the normal thylacine. Whereas indigenous people refer to the thylacine as a lion or other great cat, the Sarusan wolf has an unmistakable canine jaw. While they are physically larger, Sarusan wolves are actually less hardy than their traditional cousins, due to poor weight allocation. Prone to tiring quickly and falling down, Sarusan wolves focus more on rapid takedowns of their prey. Sarusan wolves have a Constitution score of 12 and gain [Power Attack](feat/power_attack) as a bonus feat."
 		]
 	},
-	"brush_thylacine": { "copyof": "thylacine,_brush_thylacine" },
+	"brush_thylacine": { "copyof": "thylacine_brush_thylacine" },
 	"tiberolith": {
 		"name": "Tiberolith",
 		"sources": [
@@ -2620,7 +2620,7 @@
 			"**Requirements** Craft Construct, acid fog, limited wish, stone shape, creator must be at least caster level 11th; Skill Craft (sculptures) or Craft (stonemasonry) DC 18; **Cost** 24,000 gp"
 		]
 	},
-	"tick,_giant_tick": {
+	"tick_giant_tick": {
 		"name": "Tick, Giant Tick",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2671,8 +2671,8 @@
 			"In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin-it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds."
 		]
 	},
-	"giant_tick": { "copyof": "tick,_giant_tick" },
-	"tick,_tick_swarm": {
+	"giant_tick": { "copyof": "tick_giant_tick" },
+	"tick_tick_swarm": {
 		"name": "Tick, Tick Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2723,7 +2723,7 @@
 			"Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks."
 		]
 	},
-	"tick_swarm": { "copyof": "tick,_tick_swarm" },
+	"tick_swarm": { "copyof": "tick_tick_swarm" },
 	"tidewretch": {
 		"name": "Tidewretch",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
@@ -2910,7 +2910,7 @@
 			"These immense hunting cats grow to be over 12 feet long and can weigh up to 6,000 pounds."
 		]
 	},
-	"tiger,_dire_tiger_smilodon": {
+	"tiger_dire_tiger_smilodon": {
 		"name": "Tiger, Dire Tiger (Smilodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2962,8 +2962,8 @@
 			"These immense hunting cats grow to be over 12 feet long and can weigh up to 6,000 pounds."
 		]
 	},
-	"dire_tiger_smilodon": { "copyof": "tiger,_dire_tiger_smilodon" },
-	"dire_tiger": { "copyof": "tiger,_dire_tiger_smilodon" },
+	"dire_tiger_smilodon": { "copyof": "tiger_dire_tiger_smilodon" },
+	"dire_tiger": { "copyof": "tiger_dire_tiger_smilodon" },
 	"tikbalang": {
 		"name": "Tikbalang",
 		"sources": [ "Bestiary 4" ],
@@ -3178,7 +3178,7 @@
 			"Some speculate that there is, in fact, only a single time dimensional, and appearances of multiple ones arise from sightings of the same creature crossing and recrossing its own temporal path, meeting later or earlier incarnations of itself. In this theory, the Dimension of Time created the first and only time dimensional at the birth of time and dispatches the same one to deal with all temporal disruptions, and therefore rumors of time dimensionals with more powerful abilities are sightings of an older or advanced version of the same creature. Too much research into this model appears to be dangerous, however, as chronomancers and temporal scholars who investigate the most advanced time dimensionals often disappear entirely. The esoteric calculations these scholars leave behind hint that, after a certain point, the single time dimensional becomes so powerful that it breaks free of the Dimension of Time and pursues its own independent agenda, with indescribably catastrophic results for the multiverse."
 		]
 	},
-	"titan,_elysian": {
+	"titan_elysian": {
 		"name": "Titan, Elysian",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3240,8 +3240,8 @@
 			"**Family:** [Titan](family/titan)"
 		]
 	},
-	"elysian": { "copyof": "titan,_elysian" },
-	"titan,_hekatonkheires": {
+	"elysian": { "copyof": "titan_elysian" },
+	"titan_hekatonkheires": {
 		"name": "Titan, Hekatonkheires",
 		"sources": [
 			"Bestiary 3",
@@ -3323,8 +3323,8 @@
 			"**Family:** [Titan](family/titan)"
 		]
 	},
-	"hekatonkheires": { "copyof": "titan,_hekatonkheires" },
-	"titan,_thanatotic": {
+	"hekatonkheires": { "copyof": "titan_hekatonkheires" },
+	"titan_thanatotic": {
 		"name": "Titan, Thanatotic",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3387,7 +3387,7 @@
 			"**Family:** [Titan](family/titan)"
 		]
 	},
-	"thanatotic": { "copyof": "titan,_thanatotic" },
+	"thanatotic": { "copyof": "titan_thanatotic" },
 	"titanboar": {
 		"name": "Titanboar",
 		"sources": [ "Taldor, the First Empire" ],
@@ -3398,7 +3398,7 @@
 			"",
 			"### Titanboar, CR 6",
 			"",
-			"**Source** [Taldor, the First Empire pg. 61](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 61](source/taldor_the_first_empire)  ",
 			"**XP** 2,400  ",
 			"N Large animal  ",
 			"**Init** +4; **Senses** low-light vision, scent; Perception +13",
@@ -3632,7 +3632,7 @@
 			"An adult tizheruk is 15 feet long and weighs 200 pounds, though a tizheruk that has just fed may weigh up to two or three times as much. Larger tizheruks with the giant template are threats to even bigger prey."
 		]
 	},
-	"toad,_giant_toad": {
+	"toad_giant_toad": {
 		"name": "Toad, Giant Toad",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3687,8 +3687,8 @@
 			"Giant toad companions are identical to giant frog companions, save that they lack the frog's tongue and pull abilities. Instead, they gain the poison skin ability at 4th level."
 		]
 	},
-	"giant_toad": { "copyof": "toad,_giant_toad" },
-	"toad,_glacier_toad": {
+	"giant_toad": { "copyof": "toad_giant_toad" },
+	"toad_glacier_toad": {
 		"name": "Toad, Glacier Toad",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3742,7 +3742,7 @@
 			"Glacier toads are strange, magical cousins of the more common giant toads. None can say for certain whether they were bred, or evolved from exposure to elemental energies. Glacier toads have no practical use for most treasure, but have a fondness for shiny objects like gems and glowing items."
 		]
 	},
-	"glacier_toad": { "copyof": "toad,_glacier_toad" },
+	"glacier_toad": { "copyof": "toad_glacier_toad" },
 	"tobongo_mwangi_treant": {
 		"name": "Tobongo (Mwangi Treant)",
 		"sources": [ "Heart of the Jungle" ],
@@ -3933,7 +3933,7 @@
 			"Tooth fairies use stolen teeth either to replace their own lost teeth (if the stolen teeth are small) or to decorate their dwellings, which usually lie inside abandoned buildings or knotholes in trees. Used as stools, carved into minuscule sculptures, or worn as crowns, the prized teeth serves as trophies of their successful raids."
 		]
 	},
-	"tooth_fairy,_tooth_fairy_monarch": {
+	"tooth_fairy_tooth_fairy_monarch": {
 		"name": "Tooth Fairy, Tooth Fairy Monarch",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
@@ -4010,7 +4010,7 @@
 			"Tooth fairy monarchs are willing to stand up to nearly any creature with imperious bluster. The sole exceptions to their bravado are cats. Even a tiny kitten causes quivering terror in tooth fairy monarchs, and they insist that their attendants chase away such creatures. Most tooth fairy monarchs will abandon all their \"wealth\"- including their hoards of carefully collected teeth-rather than share a lair with a cat."
 		]
 	},
-	"tooth_fairy_monarch": { "copyof": "tooth_fairy,_tooth_fairy_monarch" },
+	"tooth_fairy_monarch": { "copyof": "tooth_fairy_tooth_fairy_monarch" },
 	"tophet": {
 		"name": "Tophet",
 		"sources": [
@@ -4134,7 +4134,7 @@
 			"Torbles that undergo the process of becoming a spellcaster's familiar lose their telepathic sensitivity and hive mind abilities, but gain a permanent Intelligence score of 3. Torble familiars grant their masters a +2 bonus on Craft (alchemy) checks."
 		]
 	},
-	"torble,_torble_swarm": {
+	"torble_torble_swarm": {
 		"name": "Torble, Torble Swarm",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
 		"description": [
@@ -4197,8 +4197,8 @@
 			"This scuttling thing looks at first glance like a colorful, animate blob of slime, but its thin insectoid legs and eyestalks suggest it is a more advanced creature. Its antennae-like appendages wave about curiously, and its multiple legs carry forth its transparent, hand-sized body at a surprisingly swift scuttle."
 		]
 	},
-	"torble_swarm": { "copyof": "torble,_torble_swarm" },
-	"tortoise,_giant_tortoise": {
+	"torble_swarm": { "copyof": "torble_torble_swarm" },
+	"tortoise_giant_tortoise": {
 		"name": "Tortoise, Giant Tortoise",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -4253,8 +4253,8 @@
 			"A typical giant tortoise is 3-1/2 feet tall to the top of the shell and weighs 500 pounds."
 		]
 	},
-	"giant_tortoise": { "copyof": "tortoise,_giant_tortoise" },
-	"tortoise,_immense_tortoise": {
+	"giant_tortoise": { "copyof": "tortoise_giant_tortoise" },
+	"tortoise_immense_tortoise": {
 		"name": "Tortoise, Immense Tortoise",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -4301,7 +4301,7 @@
 			"These immense, ancient tortoises never stop growing."
 		]
 	},
-	"immense_tortoise": { "copyof": "tortoise,_immense_tortoise" },
+	"immense_tortoise": { "copyof": "tortoise_immense_tortoise" },
 	"totenmaske": {
 		"name": "Totenmaske",
 		"sources": [
@@ -4564,7 +4564,7 @@
 			"A trench mist's billowing form extends 20 feet across, but if bottled, weighs less than a pound."
 		]
 	},
-	"trench_mist,_trench_zombie": {
+	"trench_mist_trench_zombie": {
 		"name": "Trench Mist, Trench Zombie",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
@@ -4623,7 +4623,7 @@
 			"Symbiote (Ex) A unique relationship with trench mists grants trench zombies immunity to acid. In addition, when a trench zombie reaches 0 hit points and is destroyed, the mustard-colored mist that animates the creature bursts violently from its damaged form. All creatures adjacent to the trench zombie are exposed to the toxic gas and take 4d6 points of acid damage. If the trench zombie is enveloped within the fog of its parent trench mist when this death burst occurs, the mist's fast healing ability increases by 1 for a number of rounds equal to the Hit Dice of the destroyed trench zombie. The effects of the deaths of multiple symbiotic trench zombies stack."
 		]
 	},
-	"trench_zombie": { "copyof": "trench_mist,_trench_zombie" },
+	"trench_zombie": { "copyof": "trench_mist_trench_zombie" },
 	"triaxian": {
 		"name": "Triaxian",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
@@ -4870,7 +4870,7 @@
 			"These dim-witted creatures are a mongrel cross between a troll and an ogre, combining the worst features of each. They usually act like animals and move on all fours, but can rear up on their hind legs to attack with their sharp claws and vicious bites. Some ogres keep them as pets, treating them as exceptionally stupid but hilarious kinfolk. Trolls usually kill troggles on sight, and have been known to band together to wipe out entire ogre clans that possess troggles."
 		]
 	},
-	"troggle,_troggle_raider": {
+	"troggle_troggle_raider": {
 		"name": "Troggle, Troggle Raider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4919,7 +4919,7 @@
 			"Some troggles exhibit natural skill for hunting and tracking, and their ogre masters take advantage of these talents to create fast, deadly pets that excel at finding and killing humans for the stewpot."
 		]
 	},
-	"troggle_raider": { "copyof": "troggle,_troggle_raider" },
+	"troggle_raider": { "copyof": "troggle_troggle_raider" },
 	"troglodyte": {
 		"name": "Troglodyte",
 		"sources": [
@@ -5005,7 +5005,7 @@
 			"Latent Troglodytes (Troglodyte Variant, CR +1): By some genetic miracle of evolutionary remembrance, some troglodytes regain the psychic abilities of their xulgath forbearers. These troglodytes gain a xulgath's psychogenic secretions supernatural ability. These touched troglodytes also gain the following: Psychic Magic (CL 3rd; concentration +3), 4 PE-mind thrust I (1 PE, DC 11), mindlink (1 PE, DC 11), suggestion (2 PE, DC 12)."
 		]
 	},
-	"troglodyte,_troglodyte_beast-speaker": {
+	"troglodyte_troglodyte_beast-speaker": {
 		"name": "Troglodyte, Troglodyte Beast-Speaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5062,9 +5062,9 @@
 			"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles."
 		]
 	},
-	"troglodyte_beast-speaker": { "copyof": "troglodyte,_troglodyte_beast-speaker" },
-	"troglodyte_beast_speaker": { "copyof": "troglodyte,_troglodyte_beast-speaker" },
-	"troglodyte,_troglodyte_champion": {
+	"troglodyte_beast-speaker": { "copyof": "troglodyte_troglodyte_beast-speaker" },
+	"troglodyte_beast_speaker": { "copyof": "troglodyte_troglodyte_beast-speaker" },
+	"troglodyte_troglodyte_champion": {
 		"name": "Troglodyte, Troglodyte Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5114,8 +5114,8 @@
 			"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
 		]
 	},
-	"troglodyte_champion": { "copyof": "troglodyte,_troglodyte_champion" },
-	"troglodyte,_troglodyte_chieftain": {
+	"troglodyte_champion": { "copyof": "troglodyte_troglodyte_champion" },
+	"troglodyte_troglodyte_chieftain": {
 		"name": "Troglodyte, Troglodyte Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5179,8 +5179,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_chieftain": { "copyof": "troglodyte,_troglodyte_chieftain" },
-	"troglodyte,_troglodyte_priest": {
+	"troglodyte_chieftain": { "copyof": "troglodyte_troglodyte_chieftain" },
+	"troglodyte_troglodyte_priest": {
 		"name": "Troglodyte, Troglodyte Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5242,8 +5242,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_priest": { "copyof": "troglodyte,_troglodyte_priest" },
-	"troglodyte,_troglodyte_scale-rider": {
+	"troglodyte_priest": { "copyof": "troglodyte_troglodyte_priest" },
+	"troglodyte_troglodyte_scale-rider": {
 		"name": "Troglodyte, Troglodyte Scale-Rider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5292,9 +5292,9 @@
 			"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
 		]
 	},
-	"troglodyte_scale-rider": { "copyof": "troglodyte,_troglodyte_scale-rider" },
-	"troglodyte_scale_rider": { "copyof": "troglodyte,_troglodyte_scale-rider" },
-	"troglodyte,_troglodyte_skulker": {
+	"troglodyte_scale-rider": { "copyof": "troglodyte_troglodyte_scale-rider" },
+	"troglodyte_scale_rider": { "copyof": "troglodyte_troglodyte_scale-rider" },
+	"troglodyte_troglodyte_skulker": {
 		"name": "Troglodyte, Troglodyte Skulker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5344,8 +5344,8 @@
 			"Far-ranging and mobile, troglodyte skulkers spend most of their time away from the tribe."
 		]
 	},
-	"troglodyte_skulker": { "copyof": "troglodyte,_troglodyte_skulker" },
-	"troglodyte,_troglodyte_sorcerer": {
+	"troglodyte_skulker": { "copyof": "troglodyte_troglodyte_skulker" },
+	"troglodyte_troglodyte_sorcerer": {
 		"name": "Troglodyte, Troglodyte Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5399,8 +5399,8 @@
 			"Arcane casters often become scouts, as their divine counterparts monopolize the positions of power within the tribe. Most troglodyte sorcerers have the Abyssal, Deep Earth, Draconic, or Undead bloodline."
 		]
 	},
-	"troglodyte_sorcerer": { "copyof": "troglodyte,_troglodyte_sorcerer" },
-	"troglodyte,_troglodyte_tyrant": {
+	"troglodyte_sorcerer": { "copyof": "troglodyte_troglodyte_sorcerer" },
+	"troglodyte_troglodyte_tyrant": {
 		"name": "Troglodyte, Troglodyte Tyrant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5466,8 +5466,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_tyrant": { "copyof": "troglodyte,_troglodyte_tyrant" },
-	"troglodyte,_troglodyte_warren_guard": {
+	"troglodyte_tyrant": { "copyof": "troglodyte_troglodyte_tyrant" },
+	"troglodyte_troglodyte_warren_guard": {
 		"name": "Troglodyte, Troglodyte Warren Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5523,7 +5523,7 @@
 			"Troglodyte tribes trust only their most powerful members to look after the tribe's future members. Warren guards care for all of the tribe's eggs except those that are badly flawed; the warren guards consume eggs that will not hatch or that will likely result in a weak or sickly hatchling to ensure the future strength of the tribe. Despite warren guards' usual impartiality, religious leaders in the tribe are sometimes able to arrange for preferential treatment for eggs they laid or fertilized. This stops, however, at getting a warmer position for their eggs. A leader who tries to destroy a rival's eggs by pressuring or bribing a warren guard almost invariably draws that guard's wrath. These hulking, savage troglodytes fight with only tooth and claw. They're devoted to guarding the egg clutches, and leave their warrens only if all of the eggs have been destroyed. When set loose from this obligation, warren guards are feral, uncontrolled, and extremely dangerous."
 		]
 	},
-	"troglodyte_warren_guard": { "copyof": "troglodyte,_troglodyte_warren_guard" },
+	"troglodyte_warren_guard": { "copyof": "troglodyte_troglodyte_warren_guard" },
 	"troll": {
 		"name": "Troll",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -5581,7 +5581,7 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll,_canopy_troll": {
+	"troll_canopy_troll": {
 		"name": "Troll, Canopy Troll",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
@@ -5659,8 +5659,8 @@
 			"Canopy trolls are simpleminded even compared to average trolls, living more like animals than humanoids in apelike troops. A troop selects the largest tree in its territory as a nest site, building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the branches. Canopy trolls have little concern for one another, flocking together simply because their preferred hunting tactic- piling onto a single creature until the poor beast can barely move or breathe under the weight- requires large numbers. They hash out a rough pecking order through constant bullying, and after large meals the troop generally falls to infighting to more formally determine the leader for the next few days. Affection and compassion are alien concepts, with each member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes gather around an outsider-usually a larger troll but occasionally another large predator-deferring to that individual as temporary leader until they grow restless, hungry, or bored, whereupon they turn their provisional leader into a meal."
 		]
 	},
-	"canopy_troll": { "copyof": "troll,_canopy_troll" },
-	"troll,_chimney_troll": {
+	"canopy_troll": { "copyof": "troll_canopy_troll" },
+	"troll_chimney_troll": {
 		"name": "Troll, Chimney Troll",
 		"sources": [
 			"Daughters of Fury",
@@ -5728,8 +5728,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"chimney_troll": { "copyof": "troll,_chimney_troll" },
-	"troll,_flood_troll": {
+	"chimney_troll": { "copyof": "troll_chimney_troll" },
+	"troll_flood_troll": {
 		"name": "Troll, Flood Troll",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
@@ -5810,8 +5810,8 @@
 			"Because they can survive in arid environments for longer periods, flood trolls are much more common in Belkzen than their scrag forebears. The orcs of Belkzen claim that flood trolls wander over the Mindspin and Kodar mountain ranges, fleeing their scrag families in the Mushfens and Varisia's other wetlands. In the frigid Lands of the Linnorm Kings and Irrisen, scrags dwelling along the coast of the Arcadian Ocean and in Glacier Lake drive their flood troll offspring south along the Marbleflow River or east toward the Gullik River. While they are most commonly encountered in Avistan, flood trolls may be found around the world, wherever scrags carry the aruk-taii mutation, though their physical features vary somewhat depending on where they originate. The Zenj tribes of the Mwangi Expanse speak of blueskinned, humanoid horrors-jeburo in the Polyglot tongue-that stalk the jungle's riverbeds during the dry season and boldly attack villages as the storm season approaches. A number of these flood trolls make their way into the Sodden Lands. Never lacking for the rain that allows for their regeneration, these flood trolls terrorize the few remaining enclaves of humanity in that drenched land."
 		]
 	},
-	"flood_troll": { "copyof": "troll,_flood_troll" },
-	"troll,_ice_troll": {
+	"flood_troll": { "copyof": "troll_flood_troll" },
+	"troll_ice_troll": {
 		"name": "Troll, Ice Troll",
 		"sources": [
 			"Bestiary 2",
@@ -5873,8 +5873,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"ice_troll": { "copyof": "troll,_ice_troll" },
-	"troll,_jotund_troll": {
+	"ice_troll": { "copyof": "troll_ice_troll" },
+	"troll_jotund_troll": {
 		"name": "Troll, Jotund Troll",
 		"sources": [
 			"Bestiary 3",
@@ -5940,8 +5940,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"jotund_troll": { "copyof": "troll,_jotund_troll" },
-	"troll,_moss_troll": {
+	"jotund_troll": { "copyof": "troll_jotund_troll" },
+	"troll_moss_troll": {
 		"name": "Troll, Moss Troll",
 		"sources": [
 			"Bestiary 3",
@@ -6008,8 +6008,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"moss_troll": { "copyof": "troll,_moss_troll" },
-	"troll,_mountain_troll": {
+	"moss_troll": { "copyof": "troll_moss_troll" },
+	"troll_mountain_troll": {
 		"name": "Troll, Mountain Troll",
 		"sources": [
 			"Lands of the Linnorm Kings",
@@ -6074,8 +6074,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"mountain_troll": { "copyof": "troll,_mountain_troll" },
-	"troll,_rock_troll": {
+	"mountain_troll": { "copyof": "troll_mountain_troll" },
+	"troll_rock_troll": {
 		"name": "Troll, Rock Troll",
 		"sources": [
 			"Bestiary 2",
@@ -6134,8 +6134,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"rock_troll": { "copyof": "troll,_rock_troll" },
-	"troll,_sewer_troll": {
+	"rock_troll": { "copyof": "troll_rock_troll" },
+	"troll_sewer_troll": {
 		"name": "Troll, Sewer Troll",
 		"sources": [
 			"Monster Codex",
@@ -6199,8 +6199,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"sewer_troll": { "copyof": "troll,_sewer_troll" },
-	"troll,_troll_acolyte": {
+	"sewer_troll": { "copyof": "troll_sewer_troll" },
+	"troll_troll_acolyte": {
 		"name": "Troll, Troll Acolyte",
 		"sources": [
 			"Monster Codex",
@@ -6263,8 +6263,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troll_acolyte": { "copyof": "troll,_troll_acolyte" },
-	"troll,_troll_berserker": {
+	"troll_acolyte": { "copyof": "troll_troll_acolyte" },
+	"troll_troll_berserker": {
 		"name": "Troll, Troll Berserker",
 		"sources": [
 			"Monster Codex",
@@ -6320,8 +6320,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_berserker": { "copyof": "troll,_troll_berserker" },
-	"troll,_troll_brute": {
+	"troll_berserker": { "copyof": "troll_troll_berserker" },
+	"troll_troll_brute": {
 		"name": "Troll, Troll Brute",
 		"sources": [
 			"Monster Codex",
@@ -6378,8 +6378,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_brute": { "copyof": "troll,_troll_brute" },
-	"troll,_troll_elder_matron": {
+	"troll_brute": { "copyof": "troll_troll_brute" },
+	"troll_troll_elder_matron": {
 		"name": "Troll, Troll Elder Matron",
 		"sources": [
 			"Monster Codex",
@@ -6441,8 +6441,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_elder_matron": { "copyof": "troll,_troll_elder_matron" },
-	"troll,_troll_fury": {
+	"troll_elder_matron": { "copyof": "troll_troll_elder_matron" },
+	"troll_troll_fury": {
 		"name": "Troll, Troll Fury",
 		"sources": [
 			"Monster Codex",
@@ -6505,8 +6505,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_fury": { "copyof": "troll,_troll_fury" },
-	"troll,_troll_monarch": {
+	"troll_fury": { "copyof": "troll_troll_fury" },
+	"troll_troll_monarch": {
 		"name": "Troll, Troll Monarch",
 		"sources": [
 			"Monster Codex",
@@ -6567,8 +6567,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_monarch": { "copyof": "troll,_troll_monarch" },
-	"troll,_troll_render": {
+	"troll_monarch": { "copyof": "troll_troll_monarch" },
+	"troll_troll_render": {
 		"name": "Troll, Troll Render",
 		"sources": [
 			"Monster Codex",
@@ -6624,8 +6624,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_render": { "copyof": "troll,_troll_render" },
-	"troll,_troll_ripper": {
+	"troll_render": { "copyof": "troll_troll_render" },
+	"troll_troll_ripper": {
 		"name": "Troll, Troll Ripper",
 		"sources": [
 			"Monster Codex",
@@ -6677,8 +6677,8 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_ripper": { "copyof": "troll,_troll_ripper" },
-	"troll,_troll_warden": {
+	"troll_ripper": { "copyof": "troll_troll_ripper" },
+	"troll_troll_warden": {
 		"name": "Troll, Troll Warden",
 		"sources": [
 			"Monster Codex",
@@ -6729,7 +6729,7 @@
 			"**Family:** [Troll](family/troll)"
 		]
 	},
-	"troll_warden": { "copyof": "troll,_troll_warden" },
+	"troll_warden": { "copyof": "troll_troll_warden" },
 	"trollhound": {
 		"name": "Trollhound",
 		"sources": [

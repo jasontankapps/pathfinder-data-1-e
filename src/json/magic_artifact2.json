@@ -1727,7 +1727,7 @@
 			"The Mirror of Sorshen shatters into a thousand pieces if an intelligent but completely innocent creature first resists the mirror's attraction and then later accidentally drops it."
 		]
 	},
-	"mog-lathar,_the_petrified_spider": {
+	"mog-lathar_the_petrified_spider": {
 		"name": "Mog-Lathar, the Petrified Spider",
 		"sources": [ "The House on Hook Street" ],
 		"description": [
@@ -1749,7 +1749,7 @@
 		]
 	},
 	"mog_lathar_the_petrified_spider": {
-		"copyof": "mog-lathar,_the_petrified_spider"
+		"copyof": "mog-lathar_the_petrified_spider"
 	},
 	"netherworld_cauldron": {
 		"name": "Netherworld Cauldron",
@@ -3284,7 +3284,7 @@
 	"sword_of_pride_baraket": {
 		"copyof": "sword_of_pride-baraket"
 	},
-	"sword_of_sloth,_shin-tari": {
+	"sword_of_sloth_shin-tari": {
 		"name": "Sword of Sloth, Shin-Tari",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
@@ -3312,7 +3312,7 @@
 		]
 	},
 	"sword_of_sloth_shin_tari": {
-		"copyof": "sword_of_sloth,_shin-tari"
+		"copyof": "sword_of_sloth_shin-tari"
 	},
 	"sword_of_valor": {
 		"name": "Sword of Valor",

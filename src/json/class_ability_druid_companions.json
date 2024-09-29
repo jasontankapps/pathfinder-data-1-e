@@ -40,7 +40,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (2d6 plus grab); Ability Scores Str +2, Dex -2, Con +4; Special Qualities grab (Large), swallow whole (Medium)."
 		]
 	},
-	"ant,_giant": {
+	"ant_giant": {
 		"name": "Ant, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -57,7 +57,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus grab), sting (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC)."
 		]
 	},
-	"giant_ant": { "copyof": "ant,_giant" },
+	"giant_ant": { "copyof": "ant_giant" },
 	"antelope": {
 		"name": "Antelope",
 		"sources": [ "Bestiary 3" ],
@@ -125,7 +125,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +2, Dex -2, Con +4."
 		]
 	},
-	"assassin_bug,_giant": {
+	"assassin_bug_giant": {
 		"name": "Assassin Bug, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -142,7 +142,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex; cure 2 saves; Con-based DC).."
 		]
 	},
-	"giant_assassin_bug": { "copyof": "assassin_bug,_giant" },
+	"giant_assassin_bug": { "copyof": "assassin_bug_giant" },
 	"aurochs": {
 		"name": "Aurochs",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -204,7 +204,7 @@
 		"description": [
 			"## Bacallia",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma_profit_and_prophecy)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/bacallia)",
 			"",
@@ -250,7 +250,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"beetle,_giant": {
+	"beetle_giant": {
 		"name": "Beetle, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -266,7 +266,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks trample (1d4)."
 		]
 	},
-	"giant_beetle": { "copyof": "beetle,_giant" },
+	"giant_beetle": { "copyof": "beetle_giant" },
 	"bird": {
 		"name": "Bird (Eagle/Hawk/Owl)",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -344,7 +344,7 @@
 		"description": [
 			"## Bristle Boar",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/bristle_boar)",
 			"",
@@ -377,7 +377,7 @@
 		"description": [
 			"## Bull of Zagresh",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/bull_of_zagresh)",
 			"",
@@ -454,7 +454,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
-	"cat,_big": {
+	"cat_big": {
 		"name": "Cat, Big (Lion, Tiger)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -471,9 +471,9 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
 		]
 	},
-	"lion": { "copyof": "cat,_big" },
-	"tiger": { "copyof": "cat,_big" },
-	"cat,_small_cheetah,_leopard": {
+	"lion": { "copyof": "cat_big" },
+	"tiger": { "copyof": "cat_big" },
+	"cat_small_cheetah_leopard": {
 		"name": "Cat, Small (Cheetah, Leopard)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -490,9 +490,9 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus trip), 2 claws (1d3); Ability Scores Str +4, Dex -2, Con +2; Special Qualities sprint."
 		]
 	},
-	"cheetah": { "copyof": "cat,_small_cheetah,_leopard" },
-	"leopard": { "copyof": "cat,_small_cheetah,_leopard" },
-	"caterpillar,_giant": {
+	"cheetah": { "copyof": "cat_small_cheetah_leopard" },
+	"leopard": { "copyof": "cat_small_cheetah_leopard" },
+	"caterpillar_giant": {
 		"name": "Caterpillar, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -508,7 +508,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8), bristles (secondary natural attack, 1d6 piercing plus poison); Ability Scores Str +4, Dex -2, Con +2"
 		]
 	},
-	"giant_caterpillar": { "copyof": "caterpillar,_giant" },
+	"giant_caterpillar": { "copyof": "caterpillar_giant" },
 	"cattle": {
 		"name": "Cattle",
 		"sources": [ "Ultimate Wilderness" ],
@@ -543,7 +543,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see [Handle Animal](skill/handle_animal))."
 		]
 	},
-	"centipede,_giant": {
+	"centipede_giant": {
 		"name": "Centipede, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -560,7 +560,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"giant_centipede": { "copyof": "centipede,_giant" },
+	"giant_centipede": { "copyof": "centipede_giant" },
 	"ceratosaurus": {
 		"name": "Ceratosaurus",
 		"sources": [ "Bestiary 5" ],
@@ -609,7 +609,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), slam (1d4 plus grab); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"cockroach,_giant": {
+	"cockroach_giant": {
 		"name": "Cockroach, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -626,7 +626,7 @@
 			"**4th-Level Advancement:** Speed 30 ft. climb 30 ft., fly 30 ft. (poor); AC +2 natural armor; Ability Scores Str +2, Dex +2, Con +2; Bonus Feat(s) [Diehard](feat/diehard)."
 		]
 	},
-	"giant_cockroach": { "copyof": "cockroach,_giant" },
+	"giant_cockroach": { "copyof": "cockroach_giant" },
 	"corpse-eater_fungus": {
 		"name": "Corpse-Eater Fungus",
 		"sources": [ "Ultimate Wilderness" ],
@@ -643,7 +643,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d8 plus 1d4 acid); Ability Scores Str +4, Dex -2, Con +2; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d8 acid damage); Special Qualities darkvision 60 ft.."
 		]
 	},
-	"crab,_giant": {
+	"crab_giant": {
 		"name": "Crab, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -660,7 +660,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack 2 claws (1d4 plus grab); Ability Scores Str +2, Dex -2, Con +2; Special Attacks constrict (1d4)."
 		]
 	},
-	"giant_crab": { "copyof": "crab,_giant" },
+	"giant_crab": { "copyof": "crab_giant" },
 	"creeping_puffball": {
 		"name": "Creeping Puffball",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1170,7 +1170,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2, Con +2; Special Qualities blindsight 120 ft.."
 		]
 	},
-	"dragonfly,_giant": {
+	"dragonfly_giant": {
 		"name": "Dragonfly, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1187,7 +1187,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4;; Bonus Feat(s) [Flyby Attack](feat/flyby_attack)."
 		]
 	},
-	"giant_dragonfly": { "copyof": "dragonfly,_giant" },
+	"giant_dragonfly": { "copyof": "dragonfly_giant" },
 	"dunkleosteus": {
 		"name": "Dunkleosteus",
 		"sources": [ "Bestiary 6" ],
@@ -1356,7 +1356,7 @@
 			"**4th-Level Advancement:** Ability Scores Dex +2, Con +2."
 		]
 	},
-	"frilled_lizard,_giant": {
+	"frilled_lizard_giant": {
 		"name": "Frilled Lizard, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1373,7 +1373,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tail (1d6); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
-	"giant_frilled_lizard": { "copyof": "frilled_lizard,_giant" },
+	"giant_frilled_lizard": { "copyof": "frilled_lizard_giant" },
 	"frog_father": {
 		"name": "Frog Father",
 		"sources": [ "Bestiary 5" ],
@@ -1794,7 +1794,7 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack tail (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities defensive spikes."
 		]
 	},
-	"leech,_giant": {
+	"leech_giant": {
 		"name": "Leech, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -1811,7 +1811,7 @@
 			"**7th-Level Advancement:** Size Medium; Attack bite (1d6 plus attach); Ability Scores Str +2, Dex -2, Con +2; Special Attacks blood drain (1 Str and 1 Con damage); Special Qualities blindsight 30 ft.."
 		]
 	},
-	"giant_leech": { "copyof": "leech,_giant" },
+	"giant_leech": { "copyof": "leech_giant" },
 	"lizard_giant_chameleon": {
 		"name": "Lizard (Giant Chameleon)",
 		"sources": [ "Bestiary 3" ],
@@ -1883,7 +1883,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +4."
 		]
 	},
-	"locust,_giant": {
+	"locust_giant": {
 		"name": "Locust, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1900,7 +1900,7 @@
 			"**4th-Level Advancement:** Size Medium; Speed 20 ft., climb 20 ft., fly 60 ft. (average); AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks voracious (bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials).."
 		]
 	},
-	"giant_locust": { "copyof": "locust,_giant" },
+	"giant_locust": { "copyof": "locust_giant" },
 	"manta_ray": {
 		"name": "Manta Ray",
 		"sources": [ "Bestiary 2" ],
@@ -1918,7 +1918,7 @@
 			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blindsense 30 ft.."
 		]
 	},
-	"mantis_shrimp,_giant": {
+	"mantis_shrimp_giant": {
 		"name": "Mantis Shrimp, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1935,8 +1935,8 @@
 			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack 2 pincers (1d8); Ability Scores Str +6, Dex -2, Con +2; Special Attacks speedy pincers (can make iterative attacks with one of its pincer attacks); Special Qualities blindsight 10 ft., sonic resistance 10."
 		]
 	},
-	"giant_mantis_shrimp": { "copyof": "mantis_shrimp,_giant" },
-	"mantis,_giant": {
+	"giant_mantis_shrimp": { "copyof": "mantis_shrimp_giant" },
+	"mantis_giant": {
 		"name": "Mantis, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -1953,7 +1953,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round)."
 		]
 	},
-	"giant_mantis": { "copyof": "mantis,_giant" },
+	"giant_mantis": { "copyof": "mantis_giant" },
 	"marax": {
 		"name": "Marax",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
@@ -2255,7 +2255,7 @@
 			"**9th-Level Advancement:** Size Large; AC +4 natural armor; Attack bite (2d6), tail slap (2d6, reach 15 ft.); Ability Scores Str +8, Dex -2, Con +4; Special Qualities trample, whip tail."
 		]
 	},
-	"mole,_giant": {
+	"mole_giant": {
 		"name": "Mole, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2271,7 +2271,7 @@
 			"**4th-Level Advancement:** Size Medium; Speed burrow 20 ft.; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks rend (2 claws, 1d6)."
 		]
 	},
-	"giant_mole": { "copyof": "mole,_giant" },
+	"giant_mole": { "copyof": "mole_giant" },
 	"mome_rath": {
 		"name": "Mome Rath",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -2324,7 +2324,7 @@
 		]
 	},
 	"giant_moray_eel": { "copyof": "moray_eel" },
-	"mosquito,_giant": {
+	"mosquito_giant": {
 		"name": "Mosquito, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2341,7 +2341,7 @@
 			"**7th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8 plus bleed and grab); Ability Scores Str +4, Dex -2, Con +2; Special Attacks bleed (2d4), blood drain (1d2 Constitution)."
 		]
 	},
-	"giant_mosquito": { "copyof": "mosquito,_giant" },
+	"giant_mosquito": { "copyof": "mosquito_giant" },
 	"narwhal": {
 		"name": "Narwhal",
 		"sources": [ "Bestiary 5" ],
@@ -2414,7 +2414,7 @@
 		"description": [
 			"## Ostrich",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion_legacy_of_the_pharaohs)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/ostrich)",
 			"",
@@ -2425,7 +2425,7 @@
 			"**4th-Level Advancement:** Size Medium; Speed 60 ft.; Attack claw (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities crouch."
 		]
 	},
-	"owl,_giant": {
+	"owl_giant": {
 		"name": "Owl, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2442,7 +2442,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 talons (1d6); Ability Scores Str +8, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth; Special Attacks rend (2 talons, 1d6)."
 		]
 	},
-	"giant_owl": { "copyof": "owl,_giant" },
+	"giant_owl": { "copyof": "owl_giant" },
 	"panda": {
 		"name": "Panda",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2527,7 +2527,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Qualities combat trained."
 		]
 	},
-	"porcupine,_giant": {
+	"porcupine_giant": {
 		"name": "Porcupine, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2544,7 +2544,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as [giant porcupine](monster/giant_porcupine) quills)."
 		]
 	},
-	"giant_porcupine": { "copyof": "porcupine,_giant" },
+	"giant_porcupine": { "copyof": "porcupine_giant" },
 	"prionosuchus": {
 		"name": "Prionosuchus",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2661,7 +2661,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack slam (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex damage and sickened for 1 roun; cure 2 saves; Con-based DC)."
 		]
 	},
-	"raven,_giant": {
+	"raven_giant": {
 		"name": "Raven, Giant",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
@@ -2681,7 +2681,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex +2, Con +2."
 		]
 	},
-	"giant_raven": { "copyof": "raven,_giant" },
+	"giant_raven": { "copyof": "raven_giant" },
 	"reef_snake": {
 		"name": "Reef Snake",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2815,7 +2815,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks pounce, saber-toothed bite (2d8 bite attack, only on a grapple check to deal damage)."
 		]
 	},
-	"salamander,_giant": {
+	"salamander_giant": {
 		"name": "Salamander, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2831,8 +2831,8 @@
 			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth."
 		]
 	},
-	"giant_salamander": { "copyof": "salamander,_giant" },
-	"scorpion,_giant": {
+	"giant_salamander": { "copyof": "salamander_giant" },
+	"scorpion_giant": {
 		"name": "Scorpion, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -2849,7 +2849,7 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 claws (1d6 plus grab) and sting (1d6 plus poison); Ability Scores Str +8, Dex -2, Con +4; Special Attacks poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC); Special Qualities tremorsense 60 ft.."
 		]
 	},
-	"giant_scorpion": { "copyof": "scorpion,_giant" },
+	"giant_scorpion": { "copyof": "scorpion_giant" },
 	"sea_crawler": {
 		"name": "Sea Crawler",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
@@ -2867,7 +2867,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d8); Ability Scores Str +2, Dex -2, Con +2; Special Attacks grab; Special Qualities regrowth."
 		]
 	},
-	"seahorse,_giant": {
+	"seahorse_giant": {
 		"name": "Seahorse, Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2884,7 +2884,7 @@
 			"**4th-Level Advancement:** Attack bite (1d6); Ability Scores Str +2, Con +2; Special Attacks anchor."
 		]
 	},
-	"giant_seahorse": { "copyof": "seahorse,_giant" },
+	"giant_seahorse": { "copyof": "seahorse_giant" },
 	"shark": {
 		"name": "Shark",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2908,7 +2908,7 @@
 		"description": [
 			"## Shissah",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 63](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 63](source/qadira_jewel_of_the_east)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/shissah)",
 			"",
@@ -2936,7 +2936,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack gore (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities egg cracker."
 		]
 	},
-	"skunk,_giant": {
+	"skunk_giant": {
 		"name": "Skunk, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2953,7 +2953,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks spray (usable 2/day); Special Qualities musk (Fort save or nauseated for 1d3 rounds)."
 		]
 	},
-	"giant_skunk": { "copyof": "skunk,_giant" },
+	"giant_skunk": { "copyof": "skunk_giant" },
 	"slithering_sundew": {
 		"name": "Slithering Sundew",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2970,7 +2970,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 slams (1d6 plus 1d3 acid plus grab); Ability Scores Str +6, Dex -2, Con +4; Special Attacks constrict (2d6 acid)."
 		]
 	},
-	"slug,_giant": {
+	"slug_giant": {
 		"name": "Slug, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -2987,8 +2987,8 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tongue (1d6 plus 1d2 acid); Ability Scores Str +2, Dex -2, Con +2; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d8 acid damage); Special Qualities blindsight 30 ft.."
 		]
 	},
-	"giant_slug": { "copyof": "slug,_giant" },
-	"snake,_constrictor": {
+	"giant_slug": { "copyof": "slug_giant" },
+	"snake_constrictor": {
 		"name": "Snake, Constrictor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -3005,8 +3005,8 @@
 			"**4th-Level Advancement:** Size Large; AC +1 natural armor; Attack bite (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict 1d4."
 		]
 	},
-	"constrictor_snake": { "copyof": "snake,_constrictor" },
-	"snake,_viper": {
+	"constrictor_snake": { "copyof": "snake_constrictor" },
+	"snake_viper": {
 		"name": "Snake, Viper",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -3023,7 +3023,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"viper": { "copyof": "snake,_viper" },
+	"viper": { "copyof": "snake_viper" },
 	"snapping_flytrap": {
 		"name": "Snapping Flytrap",
 		"sources": [ "Ultimate Wilderness" ],
@@ -3056,7 +3056,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack gore (1d6) or 2 thorns (ranged attack, 60-foot range, 2d6 piercing damage, no Strength bonus on damage); Ability Scores Dex +2, Con +2"
 		]
 	},
-	"solifugid,_giant": {
+	"solifugid_giant": {
 		"name": "Solifugid, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -3073,7 +3073,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pounce, rend (2 claws; 1d4)."
 		]
 	},
-	"giant_solifugid": { "copyof": "solifugid,_giant" },
+	"giant_solifugid": { "copyof": "solifugid_giant" },
 	"sorico": {
 		"name": "Sorico",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
@@ -3091,7 +3091,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6), 2 claws (1d6); Ability Scores Str +4, Dex +2, Con +2; Special Attacks dust cloud."
 		]
 	},
-	"spider,_giant": {
+	"spider_giant": {
 		"name": "Spider, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -3108,8 +3108,8 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"giant_spider": { "copyof": "spider,_giant" },
-	"spider,_web_tyrant": {
+	"giant_spider": { "copyof": "spider_giant" },
+	"spider_web_tyrant": {
 		"name": "Spider, Web Tyrant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -3125,7 +3125,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"web_tyrant": { "copyof": "spider,_web_tyrant" },
+	"web_tyrant": { "copyof": "spider_web_tyrant" },
 	"spitting_cobra": {
 		"name": "Spitting Cobra",
 		"sources": [ "Ultimate Wilderness" ],
@@ -3159,7 +3159,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
-	"squid,_giant": {
+	"squid_giant": {
 		"name": "Squid, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -3176,7 +3176,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities [ink cloud](umr/ink_cloud) (20-ft. radius)."
 		]
 	},
-	"giant_squid": { "copyof": "squid,_giant" },
+	"giant_squid": { "copyof": "squid_giant" },
 	"stag": {
 		"name": "Stag",
 		"sources": [ "Bestiary 4" ],
@@ -3211,7 +3211,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack sting (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Qualities blindsense 30 ft.."
 		]
 	},
-	"swan,_trumpeter": {
+	"swan_trumpeter": {
 		"name": "Swan, Trumpeter",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3228,7 +3228,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
-	"trumpeter_swan": { "copyof": "swan,_trumpeter" },
+	"trumpeter_swan": { "copyof": "swan_trumpeter" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
@@ -3246,7 +3246,7 @@
 			"**4th-Level Advancement:** Ability Scores Dex +4, Con +2, Wis +2; Bonus Feat(s) Overwhelm."
 		]
 	},
-	"termite,_giant": {
+	"termite_giant": {
 		"name": "Termite, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -3263,7 +3263,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8 plus 1d6 acid); Ability Scores Str +4, Dex -2, Con +2; Special Attacks gnaw (bite attack ignores hardness of 5 or less)."
 		]
 	},
-	"giant_termite": { "copyof": "termite,_giant" },
+	"giant_termite": { "copyof": "termite_giant" },
 	"therizinosaurus": {
 		"name": "Therizinosaurus",
 		"sources": [ "Bestiary 5" ],
@@ -3313,7 +3313,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities constrict (1d6), grab."
 		]
 	},
-	"tortoise,_giant": {
+	"tortoise_giant": {
 		"name": "Tortoise, Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3330,7 +3330,7 @@
 			"**7th-Level Advancement:** Size Large; AC +8 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities [Great Fortitude](feat/great_fortitude) (Bonus Feat)."
 		]
 	},
-	"giant_tortoise": { "copyof": "tortoise,_giant" },
+	"giant_tortoise": { "copyof": "tortoise_giant" },
 	"troodon": {
 		"name": "Troodon",
 		"sources": [ "Bestiary 5" ],
@@ -3347,7 +3347,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex +4, Con +4."
 		]
 	},
-	"turtle,_giant_snapping": {
+	"turtle_giant_snapping": {
 		"name": "Turtle, Giant Snapping",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3364,7 +3364,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab."
 		]
 	},
-	"giant_snapping_turtle": { "copyof": "turtle,_giant_snapping" },
+	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping" },
 	"uintatherium": {
 		"name": "Uintatherium",
 		"sources": [ "Bestiary 5" ],
@@ -3381,7 +3381,7 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
-	"vulture,_giant": {
+	"vulture_giant": {
 		"name": "Vulture, Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3398,7 +3398,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
-	"giant_vulture": { "copyof": "vulture,_giant" },
+	"giant_vulture": { "copyof": "vulture_giant" },
 	"walrus": {
 		"name": "Walrus",
 		"sources": [ "Bestiary 4" ],
@@ -3421,7 +3421,7 @@
 		"description": [
 			"## Warcat of Rull",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/warcat_of_rull)",
 			"",
@@ -3432,7 +3432,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
 		]
 	},
-	"wasp,_giant": {
+	"wasp_giant": {
 		"name": "Wasp, Giant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -3449,8 +3449,8 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack sting (1d8 plus poison); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
-	"giant_wasp": { "copyof": "wasp,_giant" },
-	"weasel,_giant": {
+	"giant_wasp": { "copyof": "wasp_giant" },
+	"weasel_giant": {
 		"name": "Weasel, Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3467,8 +3467,8 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"giant_weasel": { "copyof": "weasel,_giant" },
-	"whiptail_centipede,_giant": {
+	"giant_weasel": { "copyof": "weasel_giant" },
+	"whiptail_centipede_giant": {
 		"name": "Whiptail Centipede, Giant",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -3485,14 +3485,14 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8 plus poison), tail slap (1d2 nonlethal plus trip, no Strength bonus on damage); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
-	"giant_whiptail_centipede": { "copyof": "whiptail_centipede,_giant" },
+	"giant_whiptail_centipede": { "copyof": "whiptail_centipede_giant" },
 	"whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Whisperfall Vulture",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 55](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**Companion Type** Animal  ",
 			"[Monster Entry](monster/whisperfall_vulture)",
 			"",

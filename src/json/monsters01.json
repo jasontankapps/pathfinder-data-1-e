@@ -1064,7 +1064,7 @@
 			"Deeply religious, adlets worship the power and cruelty of nature, seeing divinity in the lash of the blizzard's wind, the ferocity of the polar bear, and the immensity of the towering iceberg. Many become oracles or druids, but all adlets know their place in the natural world. One in every dozen adlets is a shaman: an adlet with the advanced creature template and the ability to summon a greater ice elemental or 1d4+1 large ice elementals and commune with nature once per day each as spell-like abilities. An adlet is 6 feet tall and weighs 250 pounds."
 		]
 	},
-	"aeon,_agnoia": {
+	"aeon_agnoia": {
 		"name": "Aeon, Agnoia",
 		"sources": [
 			"Concordance of Rivals",
@@ -1147,8 +1147,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"agnoia": { "copyof": "aeon,_agnoia" },
-	"aeon,_akhana": {
+	"agnoia": { "copyof": "aeon_agnoia" },
+	"aeon_akhana": {
 		"name": "Aeon, Akhana",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1211,8 +1211,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"akhana": { "copyof": "aeon,_akhana" },
-	"aeon,_bythos": {
+	"akhana": { "copyof": "aeon_akhana" },
+	"aeon_bythos": {
 		"name": "Aeon, Bythos",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1279,8 +1279,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"bythos": { "copyof": "aeon,_bythos" },
-	"aeon,_lipika": {
+	"bythos": { "copyof": "aeon_bythos" },
+	"aeon_lipika": {
 		"name": "Aeon, Lipika",
 		"sources": [
 			"Bestiary 5",
@@ -1359,8 +1359,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"lipika": { "copyof": "aeon,_lipika" },
-	"aeon,_othaos": {
+	"lipika": { "copyof": "aeon_lipika" },
+	"aeon_othaos": {
 		"name": "Aeon, Othaos",
 		"sources": [
 			"Bestiary 5",
@@ -1425,8 +1425,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"othaos": { "copyof": "aeon,_othaos" },
-	"aeon,_paracletus": {
+	"othaos": { "copyof": "aeon_othaos" },
+	"aeon_paracletus": {
 		"name": "Aeon, Paracletus",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1494,8 +1494,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"paracletus": { "copyof": "aeon,_paracletus" },
-	"aeon,_pleroma": {
+	"paracletus": { "copyof": "aeon_paracletus" },
+	"aeon_pleroma": {
 		"name": "Aeon, Pleroma",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1579,8 +1579,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"pleroma": { "copyof": "aeon,_pleroma" },
-	"aeon,_synesis": {
+	"pleroma": { "copyof": "aeon_pleroma" },
+	"aeon_synesis": {
 		"name": "Aeon, Synesis",
 		"sources": [
 			"Occult Bestiary",
@@ -1647,8 +1647,8 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"synesis": { "copyof": "aeon,_synesis" },
-	"aeon,_theletos": {
+	"synesis": { "copyof": "aeon_synesis" },
+	"aeon_theletos": {
 		"name": "Aeon, Theletos",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1711,7 +1711,7 @@
 			"**Family:** [Aeon](family/aeon)"
 		]
 	},
-	"theletos": { "copyof": "aeon,_theletos" },
+	"theletos": { "copyof": "aeon_theletos" },
 	"aerial_servant": {
 		"name": "Aerial Servant",
 		"sources": [ "Bestiary 5" ],
@@ -1770,7 +1770,7 @@
 			"Those who call aerial servants must be careful to assign them tasks that are possible for them to complete, as the temperamental elementals occasionally track down and attack their callers if they fail at their assigned tasks."
 		]
 	},
-	"agathion,_avoral": {
+	"agathion_avoral": {
 		"name": "Agathion, Avoral",
 		"sources": [
 			"Bestiary 2",
@@ -1783,7 +1783,7 @@
 			"",
 			"### Avoral, CR 9",
 			"",
-			"**Source** [Bestiary 2 pg. 16](source/bestiary_2), [Andoran, Spirit of Liberty pg. 21](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Bestiary 2 pg. 16](source/bestiary_2), [Andoran, Spirit of Liberty pg. 21](source/andoran_spirit_of_liberty)  ",
 			"**XP** 6,400  ",
 			"NG Medium outsider (agathion, extraplanar, good)  ",
 			"**Init** +6; **Senses** darkvision 60 ft., detect magic, low-light vision, see invisibility, true seeing; Perception +23  ",
@@ -1835,8 +1835,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"avoral": { "copyof": "agathion,_avoral" },
-	"agathion,_bishop_agathion": {
+	"avoral": { "copyof": "agathion_avoral" },
+	"agathion_bishop_agathion": {
 		"name": "Agathion, Bishop Agathion",
 		"sources": [
 			"Pathfinder #61: Shards of Sin",
@@ -1917,8 +1917,8 @@
 			"Although few known bishop agathions remain on Golarion for any length of time, some cultures revere their arrival as an omen of fortune and luck. Those seeing a bishop agathion-and being entrusted with its diplomatic knowledge-consider the encounter to be the greatest honor one can receive. Therefore, groups of eager adventurers have set sail from Varisia over the years, hoping to reap the rewards of encountering one of these strange creatures. These seekers are inevitably disappointed. Bishops appear to only those with whom they have business-or whose evil they witness and wish to stop."
 		]
 	},
-	"bishop_agathion": { "copyof": "agathion,_bishop_agathion" },
-	"agathion,_cervapral": {
+	"bishop_agathion": { "copyof": "agathion_bishop_agathion" },
+	"agathion_cervapral": {
 		"name": "Agathion, Cervapral",
 		"sources": [
 			"Andoran, Birthplace of Freedom",
@@ -1931,7 +1931,7 @@
 			"",
 			"### Cervapral, CR 5",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 50](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 50](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 1,600  ",
 			"NG Medium outsider (agathion, extraplanar, good)  ",
 			"**Init** +4; **Senses** darkvision 60 ft., enchantment sense, scent; Perception +13",
@@ -1990,8 +1990,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"cervapral": { "copyof": "agathion,_cervapral" },
-	"agathion,_cervinal": {
+	"cervapral": { "copyof": "agathion_cervapral" },
+	"agathion_cervinal": {
 		"name": "Agathion, Cervinal",
 		"sources": [
 			"Bestiary 5",
@@ -2059,8 +2059,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"cervinal": { "copyof": "agathion,_cervinal" },
-	"agathion,_cetaceal": {
+	"cervinal": { "copyof": "agathion_cervinal" },
+	"agathion_cetaceal": {
 		"name": "Agathion, Cetaceal",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2127,8 +2127,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"cetaceal": { "copyof": "agathion,_cetaceal" },
-	"agathion,_chelonidal": {
+	"cetaceal": { "copyof": "agathion_cetaceal" },
+	"agathion_chelonidal": {
 		"name": "Agathion, Chelonidal",
 		"sources": [
 			"Pathfinder #121: The Lost Outpost",
@@ -2218,8 +2218,8 @@
 			"While chelonidals defend those who cannot defend themselves, they are at their strongest when they stand alongside those with the strength and will to fight. A single chelonidal can bolster a mortal legion, keeping the troops fighting until reinforcements arrive. In greater numbers, chelonidals form a phalanx, trusting in allies to clean up any foe that makes it past their guard. On those rare occasions when the agathions must march to war, chelonidals form the core of their armies. Led by [cervinal](monster/cervinal) knights and supported by soaring [avorals](monster/avoral), a chelonidal legion is a force potent enough to make any fiendish combatants think twice."
 		]
 	},
-	"chelonidal": { "copyof": "agathion,_chelonidal" },
-	"agathion,_draconal": {
+	"chelonidal": { "copyof": "agathion_chelonidal" },
+	"agathion_draconal": {
 		"name": "Agathion, Draconal",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2316,8 +2316,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"draconal": { "copyof": "agathion,_draconal" },
-	"agathion,_leonal": {
+	"draconal": { "copyof": "agathion_draconal" },
+	"agathion_leonal": {
 		"name": "Agathion, Leonal",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2383,8 +2383,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"leonal": { "copyof": "agathion,_leonal" },
-	"agathion,_muldnal": {
+	"leonal": { "copyof": "agathion_leonal" },
+	"agathion_muldnal": {
 		"name": "Agathion, Muldnal",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
@@ -2480,8 +2480,8 @@
 			"Elder (+2 CR): A muldnal elder commands tremendous respect among its kind. It gains the advanced and giant creature simple templates, gains blindsight instead of tremorsense, and can cast spiked pit as a spell-like ability once per day."
 		]
 	},
-	"muldnal": { "copyof": "agathion,_muldnal" },
-	"agathion,_mustelidal": {
+	"muldnal": { "copyof": "agathion_muldnal" },
+	"agathion_mustelidal": {
 		"name": "Agathion, Mustelidal",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
@@ -2568,8 +2568,8 @@
 			"Mustelidals are among the more powerful outsiders that can be called with greater planar ally. Although they do not need to eat, they enjoy the taste of honey, and each 8-ounce jar included in the material components of the spell counts as 200 gp worth of offerings. A mustelidal will eagerly accept the task of watching over a worthy person, halving the payment requested, though such tasks require a specific time frame and cannot be open-ended. Mustelidal protectors are often willing to lay down their lives to ensure the people in their care survive whatever dangers prompted them to employ the agathions' services in the first place. Particularly zealous mustelidals have been known to check in on their former charges from time to time, even years after the terms of their original agreement ended, offering their services again. While they require a new agreement to serve the mortal again, they can be very persuasive, and former charges who find themselves in perpetual danger may employ the same mustelidal a dozen or more times over the course of their lives, so long as the threats that the agathions are defending against present suitable challenges."
 		]
 	},
-	"mustelidal": { "copyof": "agathion,_mustelidal" },
-	"agathion,_procyal": {
+	"mustelidal": { "copyof": "agathion_mustelidal" },
+	"agathion_procyal": {
 		"name": "Agathion, Procyal",
 		"sources": [
 			"Pathfinder #99: Dance of the Damned",
@@ -2660,8 +2660,8 @@
 			"On the Material Plane, procyals are rarely wholly trusted. Since procyals love to chasten the powerful and to play pranks on the highand- mighty, few talented creatures are willing to enter into long-term alliances with them. Individuals in the lower classes are frequent exceptions. They tend to welcome procyals with open arms. For here among the poor and downtrodden, where society exists in its most imperfect state, nearly every action that a procyal takes has a positive and lasting effect."
 		]
 	},
-	"procyal": { "copyof": "agathion,_procyal" },
-	"agathion,_reptial": {
+	"procyal": { "copyof": "agathion_procyal" },
+	"agathion_reptial": {
 		"name": "Agathion, Reptial",
 		"sources": [
 			"Bestiary 5",
@@ -2725,8 +2725,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"reptial": { "copyof": "agathion,_reptial" },
-	"agathion,_silvanshee": {
+	"reptial": { "copyof": "agathion_reptial" },
+	"agathion_silvanshee": {
 		"name": "Agathion, Silvanshee",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2793,8 +2793,8 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"silvanshee": { "copyof": "agathion,_silvanshee" },
-	"agathion,_vulpinal": {
+	"silvanshee": { "copyof": "agathion_silvanshee" },
+	"agathion_vulpinal": {
 		"name": "Agathion, Vulpinal",
 		"sources": [
 			"Bestiary 2",
@@ -2861,7 +2861,7 @@
 			"**Family:** [Agathion](family/agathion)"
 		]
 	},
-	"vulpinal": { "copyof": "agathion,_vulpinal" },
+	"vulpinal": { "copyof": "agathion_vulpinal" },
 	"agrawgh": {
 		"name": "Agrawgh",
 		"sources": [ "Planes of Power" ],
@@ -3384,7 +3384,7 @@
 			"An akhlut is 22 feet long and weighs 8,000 pounds."
 		]
 	},
-	"alchemical_ooze_swarm,_choleric_ooze_swarm": {
+	"alchemical_ooze_swarm_choleric_ooze_swarm": {
 		"name": "Alchemical Ooze Swarm, Choleric Ooze Swarm",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
@@ -3438,8 +3438,8 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"choleric_ooze_swarm": { "copyof": "alchemical_ooze_swarm,_choleric_ooze_swarm" },
-	"alchemical_ooze_swarm,_melancholic_ooze_swarm": {
+	"choleric_ooze_swarm": { "copyof": "alchemical_ooze_swarm_choleric_ooze_swarm" },
+	"alchemical_ooze_swarm_melancholic_ooze_swarm": {
 		"name": "Alchemical Ooze Swarm, Melancholic Ooze Swarm",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
@@ -3491,8 +3491,8 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"melancholic_ooze_swarm": { "copyof": "alchemical_ooze_swarm,_melancholic_ooze_swarm" },
-	"alchemical_ooze_swarm,_phlegmatic_ooze_swarm": {
+	"melancholic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_melancholic_ooze_swarm" },
+	"alchemical_ooze_swarm_phlegmatic_ooze_swarm": {
 		"name": "Alchemical Ooze Swarm, Phlegmatic Ooze Swarm",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
@@ -3544,8 +3544,8 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"phlegmatic_ooze_swarm": { "copyof": "alchemical_ooze_swarm,_phlegmatic_ooze_swarm" },
-	"alchemical_ooze_swarm,_sanguine_ooze_swarm": {
+	"phlegmatic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_phlegmatic_ooze_swarm" },
+	"alchemical_ooze_swarm_sanguine_ooze_swarm": {
 		"name": "Alchemical Ooze Swarm, Sanguine Ooze Swarm",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
@@ -3599,8 +3599,8 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"sanguine_ooze_swarm": { "copyof": "alchemical_ooze_swarm,_sanguine_ooze_swarm" },
-	"alghollthu,_aboleth": {
+	"sanguine_ooze_swarm": { "copyof": "alchemical_ooze_swarm_sanguine_ooze_swarm" },
+	"alghollthu_aboleth": {
 		"name": "Alghollthu, Aboleth",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3661,9 +3661,9 @@
 		]
 	},
 	"aboleth": {
-		"copyof": "alghollthu,_aboleth"
+		"copyof": "alghollthu_aboleth"
 	},
-	"alghollthu,_enisysian": {
+	"alghollthu_enisysian": {
 		"name": "Alghollthu, Enisysian",
 		"sources": [
 			"Pathfinder #124: City in the Deep",
@@ -3746,9 +3746,9 @@
 		]
 	},
 	"enisysian": {
-		"copyof": "alghollthu,_enisysian"
+		"copyof": "alghollthu_enisysian"
 	},
-	"alghollthu,_omnipath": {
+	"alghollthu_omnipath": {
 		"name": "Alghollthu, Omnipath",
 		"sources": [
 			"Occult Bestiary",
@@ -3841,9 +3841,9 @@
 		]
 	},
 	"omnipath": {
-		"copyof": "alghollthu,_omnipath"
+		"copyof": "alghollthu_omnipath"
 	},
-	"alghollthu,_plizeazoth": {
+	"alghollthu_plizeazoth": {
 		"name": "Alghollthu, Plizeazoth",
 		"sources": [
 			"Pathfinder #125: Tower of the Drowned Dead",
@@ -3929,9 +3929,9 @@
 		]
 	},
 	"plizeazoth": {
-		"copyof": "alghollthu,_plizeazoth"
+		"copyof": "alghollthu_plizeazoth"
 	},
-	"alghollthu,_thalassic_architect": {
+	"alghollthu_thalassic_architect": {
 		"name": "Alghollthu, Thalassic Architect",
 		"sources": [
 			"Pathfinder #121: The Lost Outpost",
@@ -4015,8 +4015,8 @@
 			"The aboleths have grown accustomed to their alien and cyclopean undersea cities, and skum with mundane implements have limited usefulness without direction. Thus, alghollthus rely on uldraaghus to oversee the creation of new structures. A typical construction crew is led by a thalassic architect assisted by standard aboleths, who direct the workers. When the architecture becomes too complex for skum to build efficiently, the uldraaghu completes the structure itself."
 		]
 	},
-	"thalassic_architect": { "copyof": "alghollthu,_thalassic_architect" },
-	"alghollthu,_veiled_master": {
+	"thalassic_architect": { "copyof": "alghollthu_thalassic_architect" },
+	"alghollthu_veiled_master": {
 		"name": "Alghollthu, Veiled Master",
 		"sources": [
 			"Bestiary 6",
@@ -4110,7 +4110,7 @@
 			"**Family:** [Alghollthu](family/alghollthu)"
 		]
 	},
-	"veiled_master": { "copyof": "alghollthu,_veiled_master" },
+	"veiled_master": { "copyof": "alghollthu_veiled_master" },
 	"allip": {
 		"name": "Allip",
 		"sources": [
@@ -4699,7 +4699,7 @@
 			"Though it is generally agreed that ammuts migrated to Golarion from another plane long ago, many scholars disagree on the exact planar origin. Some scholars claim that ammuts are perhaps descended from a race of devils, while others claim the lineage stems from the divs. The most logical association of a fiendish origin is rooted in daemonkind. That ammuts are connected with souls and have the ability to utterly consume them certainly lends to this hypothesis."
 		]
 	},
-	"amoeba,_amoeba_swarm": {
+	"amoeba_amoeba_swarm": {
 		"name": "Amoeba, Amoeba Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4748,8 +4748,8 @@
 			"When an amoeba swarm is found in the vicinity of a giant amoeba, the two oozes ignore each other. A giant amoeba in the space of an amoeba swarm takes no damage from the swarm's attacks and does not run the risk of becoming distracted as a result of being in the swarm."
 		]
 	},
-	"amoeba_swarm": { "copyof": "amoeba,_amoeba_swarm" },
-	"amoeba,_giant_amoeba": {
+	"amoeba_swarm": { "copyof": "amoeba_amoeba_swarm" },
+	"amoeba_giant_amoeba": {
 		"name": "Amoeba, Giant Amoeba",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4796,7 +4796,7 @@
 			"A giant amoeba is a shapeless mass of living, liquid protoplasm. Though naturally translucent with darker interior spots, its surface is slightly sticky and tends to collect dirt and other debris from its environment; therefore, a moving giant amoeba looks like muddy water. A weaker cousin of creatures such as the gray ooze and black pudding, a giant amoeba is actually a mutated version of a harmless creature too small to be seen by the naked eye, grown dangerously large in size. Although happy to prey on creatures smaller than it, the giant amoeba's constant hunger often drives it to attack larger prey, such as humanoids."
 		]
 	},
-	"giant_amoeba": { "copyof": "amoeba,_giant_amoeba" },
+	"giant_amoeba": { "copyof": "amoeba_giant_amoeba" },
 	"amphiptere": {
 		"name": "Amphiptere",
 		"sources": [ "Bestiary 5" ],
@@ -5145,7 +5145,7 @@
 		]
 	},
 	"angazhani": { "copyof": "angazhani_high_girallon" },
-	"angel,_astral_deva": {
+	"angel_astral_deva": {
 		"name": "Angel, Astral Deva",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5205,8 +5205,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"astral_deva": { "copyof": "angel,_astral_deva" },
-	"angel,_balisse": {
+	"astral_deva": { "copyof": "angel_astral_deva" },
+	"angel_balisse": {
 		"name": "Angel, Balisse",
 		"sources": [
 			"Bestiary 5",
@@ -5273,8 +5273,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"balisse": { "copyof": "angel,_balisse" },
-	"angel,_cassisian": {
+	"balisse": { "copyof": "angel_balisse" },
+	"angel_cassisian": {
 		"name": "Angel, Cassisian",
 		"sources": [
 			"Bestiary 2",
@@ -5342,8 +5342,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"cassisian": { "copyof": "angel,_cassisian" },
-	"angel,_choral": {
+	"cassisian": { "copyof": "angel_cassisian" },
+	"angel_choral": {
 		"name": "Angel, Choral",
 		"sources": [
 			"Bestiary 5",
@@ -5410,8 +5410,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"choral": { "copyof": "angel,_choral" },
-	"angel,_dapsara": {
+	"choral": { "copyof": "angel_choral" },
+	"angel_dapsara": {
 		"name": "Angel, Dapsara",
 		"sources": [
 			"Inner Sea Gods",
@@ -5484,8 +5484,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"dapsara": { "copyof": "angel,_dapsara" },
-	"angel,_empyrean": {
+	"dapsara": { "copyof": "angel_dapsara" },
+	"angel_empyrean": {
 		"name": "Angel, Empyrean",
 		"sources": [
 			"Bestiary 5",
@@ -5584,8 +5584,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"empyrean": { "copyof": "angel,_empyrean" },
-	"angel,_erelim": {
+	"empyrean": { "copyof": "angel_empyrean" },
+	"angel_erelim": {
 		"name": "Angel, Erelim",
 		"sources": [
 			"Pathfinder #104: Wrath of Thrune",
@@ -5675,8 +5675,8 @@
 			"Erelims can be called with planar ally, and the payment they require depends on the boldness of the request. These angels belittle any tasks that don't test their mettle or call for incredible heroism, and demand to be presented with extravagant weapons or for large sums to be donated to an appropriate church. Conversely, they exuberantly agree to requests that put them in direct conflict with powerful evil beings, and often ask no more of the callers than to fight alongside them as equals. Erelims do not accept obviously suicidal tasks, but sometimes vastly underestimate the threat mortal dangers can pose."
 		]
 	},
-	"erelim": { "copyof": "angel,_erelim" },
-	"angel,_iophanite": {
+	"erelim": { "copyof": "angel_erelim" },
+	"angel_iophanite": {
 		"name": "Angel, Iophanite",
 		"sources": [
 			"Inner Sea Gods",
@@ -5739,8 +5739,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"iophanite": { "copyof": "angel,_iophanite" },
-	"angel,_kuribu": {
+	"iophanite": { "copyof": "angel_iophanite" },
+	"angel_kuribu": {
 		"name": "Angel, Kuribu",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
@@ -5828,8 +5828,8 @@
 			"The payment requested by a kuribu called with lesser planar ally is often a donation that helps to rebuild or refurbish a church or other holy site. As a kuribu considers these places to be very important to the appropriate deity, the angel will halve any payment required if asked to guard such a location. A few kuribus even accept long-term, open-ended requests to protect a piece of sacred ground from a worthy caller. A small number of cathedrals on the Material Plane are home to kuribus selected for such a service decades ago, and whose original callers have long since passed away."
 		]
 	},
-	"kuribu": { "copyof": "angel,_kuribu" },
-	"angel,_monadic_deva": {
+	"kuribu": { "copyof": "angel_kuribu" },
+	"angel_monadic_deva": {
 		"name": "Angel, Monadic Deva",
 		"sources": [
 			"Bestiary 2",
@@ -5895,8 +5895,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"monadic_deva": { "copyof": "angel,_monadic_deva" },
-	"angel,_movanic_deva": {
+	"monadic_deva": { "copyof": "angel_monadic_deva" },
+	"angel_movanic_deva": {
 		"name": "Angel, Movanic Deva",
 		"sources": [
 			"Bestiary 2",
@@ -5959,8 +5959,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"movanic_deva": { "copyof": "angel,_movanic_deva" },
-	"angel,_ninkonda": {
+	"movanic_deva": { "copyof": "angel_movanic_deva" },
+	"angel_ninkonda": {
 		"name": "Angel, Ninkonda",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
@@ -6046,5 +6046,5 @@
 			"Outsiders do not reproduce sexually, and have existences that transcend the understanding of mortals. Some types of outsiders, especially angels, are genderless in their natural states. While some angels may choose to adopt a gender, whether it is one reflected in the real world or otherwise, most do not. A genderless creature has no gender entry on the race and class line of their stat block, and is referred to with the singular \"they\" in running text and ability descriptions."
 		]
 	},
-	"ninkonda": { "copyof": "angel,_ninkonda" }
+	"ninkonda": { "copyof": "angel_ninkonda" }
 }

@@ -1,5 +1,5 @@
 {
-	"gremlin,_drexin": {
+	"gremlin_drexin": {
 		"name": "Gremlin, Drexin",
 		"sources": [
 			"Pathfinder #109: In Search of Sanity",
@@ -49,7 +49,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Trap Savant (Ex)** A drexin can craft magical traps as if it had the Craft Wondrous Item feat.",
+			"**Trap Savant (Ex)** A drexin can craft magical traps as if it had the [Craft Wondrous Item](feat/craft_wondrous_item) feat.",
 			"",
 			"#### Description",
 			"",
@@ -82,8 +82,8 @@
 			"Drexins are proud gremlins and do not typically worship deities or acknowledge any force greater than themselves. Contrary to their nature, however, some drexins pay homage to a being reverently named \"The Taker.\" This entity urges drexins to increase their own mental abilities by stealing the power of others, usually through a gruesome ritual in which the gremlin ingests portions of the brain of a murdered spellcaster or psychic. Drexins who follow The Taker typically dispatch their victims via traps, poison, or strangulation while those unfortunate souls sleep. While The Taker is not a deity and cannot grant spells to clerics, drexin oracles and shamans serve as the being's prophets and emissaries among drexin populations. Whether The Taker is an aspect of another deity, a powerful but mortal being with nefarious plans, or the creation of the gremlins' wild imaginations remains unknown."
 		]
 	},
-	"drexin": { "copyof": "gremlin,_drexin" },
-	"gremlin,_erinat": {
+	"drexin": { "copyof": "gremlin_drexin" },
+	"gremlin_erinat": {
 		"name": "Gremlin, Erinat",
 		"sources": [
 			"Andoran, Birthplace of Freedom",
@@ -96,7 +96,7 @@
 			"",
 			"### Erinat, CR 2",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 56](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 56](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 600  ",
 			"CE Tiny fey  ",
 			"**Init** +3; **Senses** low-light vision; Perception +5  ",
@@ -148,8 +148,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"erinat": { "copyof": "gremlin,_erinat" },
-	"gremlin,_fuath": {
+	"erinat": { "copyof": "gremlin_erinat" },
+	"gremlin_fuath": {
 		"name": "Gremlin, Fuath",
 		"sources": [
 			"Bestiary 3",
@@ -217,8 +217,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"fuath": { "copyof": "gremlin,_fuath" },
-	"gremlin,_grimple": {
+	"fuath": { "copyof": "gremlin_fuath" },
+	"gremlin_grimple": {
 		"name": "Gremlin, Grimple",
 		"sources": [
 			"Bestiary 4",
@@ -287,8 +287,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"grimple": { "copyof": "gremlin,_grimple" },
-	"gremlin,_haniver": {
+	"grimple": { "copyof": "gremlin_grimple" },
+	"gremlin_haniver": {
 		"name": "Gremlin, Haniver",
 		"sources": [
 			"Bestiary 4",
@@ -356,8 +356,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"haniver": { "copyof": "gremlin,_haniver" },
-	"gremlin,_hobkins": {
+	"haniver": { "copyof": "gremlin_haniver" },
+	"gremlin_hobkins": {
 		"name": "Gremlin, Hobkins",
 		"sources": [
 			"Bestiary 5",
@@ -432,8 +432,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"hobkins": { "copyof": "gremlin,_hobkins" },
-	"gremlin,_jinkin": {
+	"hobkins": { "copyof": "gremlin_hobkins" },
+	"gremlin_jinkin": {
 		"name": "Gremlin, Jinkin",
 		"sources": [
 			"Bestiary 2",
@@ -502,8 +502,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"jinkin": { "copyof": "gremlin,_jinkin" },
-	"gremlin,_monaciello": {
+	"jinkin": { "copyof": "gremlin_jinkin" },
+	"gremlin_monaciello": {
 		"name": "Gremlin, Monaciello",
 		"sources": [
 			"Bestiary 4",
@@ -569,8 +569,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"monaciello": { "copyof": "gremlin,_monaciello" },
-	"gremlin,_nuglub": {
+	"monaciello": { "copyof": "gremlin_monaciello" },
+	"gremlin_nuglub": {
 		"name": "Gremlin, Nuglub",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -633,8 +633,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"nuglub": { "copyof": "gremlin,_nuglub" },
-	"gremlin,_nuno": {
+	"nuglub": { "copyof": "gremlin_nuglub" },
+	"gremlin_nuno": {
 		"name": "Gremlin, Nuno",
 		"sources": [
 			"Bestiary 5",
@@ -702,8 +702,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"nuno": { "copyof": "gremlin,_nuno" },
-	"gremlin,_pugwampi": {
+	"nuno": { "copyof": "gremlin_nuno" },
+	"gremlin_pugwampi": {
 		"name": "Gremlin, Pugwampi",
 		"sources": [
 			"Bestiary 2",
@@ -768,8 +768,8 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"pugwampi": { "copyof": "gremlin,_pugwampi" },
-	"gremlin,_vexgit": {
+	"pugwampi": { "copyof": "gremlin_pugwampi" },
+	"gremlin_vexgit": {
 		"name": "Gremlin, Vexgit",
 		"sources": [
 			"Bestiary 2",
@@ -834,7 +834,7 @@
 			"**Family:** [Gremlin](family/gremlin)"
 		]
 	},
-	"vexgit": { "copyof": "gremlin,_vexgit" },
+	"vexgit": { "copyof": "gremlin_vexgit" },
 	"grick": {
 		"name": "Grick",
 		"sources": [ "Bestiary 2" ],
@@ -1137,10 +1137,10 @@
 			"",
 			"Grim reapers are so feared that even most outsiders give them a wide berth. This suits the reapers well, as that means less interference with the harvest of doomed souls. A grim reaper stands approximately 6-1/2 feet tall and weighs about 40 pounds.",
 			"",
-			"See also: [Reaper, Grim Reaper](monster/reaper,_grim_reaper)"
+			"See also: [Reaper, Grim Reaper](monster/reaper_grim_reaper)"
 		]
 	},
-	"grim_reaper,_lesser_death": {
+	"grim_reaper_lesser_death": {
 		"name": "Grim Reaper, Lesser Death",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -1204,7 +1204,7 @@
 			"See also: [Minor reaper](monster/minor_reaper)"
 		]
 	},
-	"lesser_death": { "copyof": "grim_reaper,_lesser_death" },
+	"lesser_death": { "copyof": "grim_reaper_lesser_death" },
 	"grimslake": {
 		"name": "Grimslake",
 		"sources": [
@@ -2106,7 +2106,7 @@
 			"Creating a hag eye ooze requires 2 weeks. This time is reduced if the brewer is working cooperatively. For each additional member of a coven involved in the process, the creation time is lessened by 2 days, to a minimum creation period of 3 days. During this period, various nutrients and ingredients must be added to the cauldron in which the ooze is brewed. As the ingredients are added the hag must consult strange texts and foul recipes to assure proper creation. If she misses a step or poorly measures a reagent, the necessary arcane energies to create the hag eye ooze do not properly bind to the creature's nascent form. If successful, she then begins a 24-hour ritual, during which the cauldron holding the brewing ooze is bombarded with spells. This ritual and spellcasting culminates in the addition of a hag eye- preferably from the hag creator. If the ritual is successful, the hag eye ooze animates fully formed and able to serve as a minion. The hag eye ooze is under the control of the creator, but in cases where a coven takes part in creating the ooze, control goes to the hag that supplied the hag eye."
 		]
 	},
-	"hag_eye_ooze,_coven_ooze": {
+	"hag_eye_ooze_coven_ooze": {
 		"name": "Hag Eye Ooze, Coven Ooze",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
@@ -2166,8 +2166,8 @@
 			"Coven oozes are generally 10 feet to a side and weigh roughly 1,500 pounds, although larger specimens have been encountered. When a coven ooze comes across another creature with the ooze subtype, it attempts to engulf and consume it. For every 10 HD of ooze creatures that a coven ooze consumes, its size increases by one step, to a maximum size of Gargantuan. If a coven ooze ever consumes a hag eye ooze, the creator of the hag eye ooze-if a hag-must succeed at a DC 25 Will save or have her connection to the hag eye ooze severed."
 		]
 	},
-	"coven_ooze": { "copyof": "hag_eye_ooze,_coven_ooze" },
-	"hag,_annis_hag": {
+	"coven_ooze": { "copyof": "hag_eye_ooze_coven_ooze" },
+	"hag_annis_hag": {
 		"name": "Hag, Annis Hag",
 		"sources": [
 			"Bestiary 3",
@@ -2242,8 +2242,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"annis_hag": { "copyof": "hag,_annis_hag" },
-	"hag,_ash_hag": {
+	"annis_hag": { "copyof": "hag_annis_hag" },
+	"hag_ash_hag": {
 		"name": "Hag, Ash Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2257,7 +2257,7 @@
 			"",
 			"### Ash Hag, CR 5",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 57](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 57](source/cheliax_the_infernal_empire)  ",
 			"**XP** 1,600  ",
 			"LE Medium monstrous humanoid  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +14",
@@ -2324,8 +2324,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"ash_hag": { "copyof": "hag,_ash_hag" },
-	"hag,_blood_hag": {
+	"ash_hag": { "copyof": "hag_ash_hag" },
+	"hag_blood_hag": {
 		"name": "Hag, Blood Hag",
 		"sources": [
 			"Bestiary 4",
@@ -2411,8 +2411,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"blood_hag": { "copyof": "hag,_blood_hag" },
-	"hag,_dreamthief_hag": {
+	"blood_hag": { "copyof": "hag_blood_hag" },
+	"hag_dreamthief_hag": {
 		"name": "Hag, Dreamthief Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2493,8 +2493,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"dreamthief_hag": { "copyof": "hag,_dreamthief_hag" },
-	"hag,_green_hag": {
+	"dreamthief_hag": { "copyof": "hag_dreamthief_hag" },
+	"hag_green_hag": {
 		"name": "Hag, Green Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2580,8 +2580,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"green_hag": { "copyof": "hag,_green_hag" },
-	"hag,_moon_hag": {
+	"green_hag": { "copyof": "hag_green_hag" },
+	"hag_moon_hag": {
 		"name": "Hag, Moon Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2660,8 +2660,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"moon_hag": { "copyof": "hag,_moon_hag" },
-	"hag,_mute_hag": {
+	"moon_hag": { "copyof": "hag_moon_hag" },
+	"hag_mute_hag": {
 		"name": "Hag, Mute Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2741,8 +2741,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"mute_hag": { "copyof": "hag,_mute_hag" },
-	"hag,_night_hag": {
+	"mute_hag": { "copyof": "hag_mute_hag" },
+	"hag_night_hag": {
 		"name": "Hag, Night Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2820,8 +2820,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"night_hag": { "copyof": "hag,_night_hag" },
-	"hag,_sea_hag": {
+	"night_hag": { "copyof": "hag_night_hag" },
+	"hag_sea_hag": {
 		"name": "Hag, Sea Hag",
 		"sources": [
 			"Blood of the Coven",
@@ -2898,8 +2898,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"sea_hag": { "copyof": "hag,_sea_hag" },
-	"hag,_storm_hag": {
+	"sea_hag": { "copyof": "hag_sea_hag" },
+	"hag_storm_hag": {
 		"name": "Hag, Storm Hag",
 		"sources": [
 			"Bestiary 5",
@@ -2984,8 +2984,8 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"storm_hag": { "copyof": "hag,_storm_hag" },
-	"hag,_winter_hag": {
+	"storm_hag": { "copyof": "hag_storm_hag" },
+	"hag_winter_hag": {
 		"name": "Hag, Winter Hag",
 		"sources": [
 			"Bestiary 4",
@@ -3071,7 +3071,7 @@
 			"**Family:** [Hag](family/hag)"
 		]
 	},
-	"winter_hag": { "copyof": "hag,_winter_hag" },
+	"winter_hag": { "copyof": "hag_winter_hag" },
 	"hallowed_lynx": {
 		"name": "Hallowed Lynx",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
@@ -3478,7 +3478,7 @@
 			"Harpies appear wildly different in different lands. Some seem like an amalgam of vultures and women, while others bear the regal markings of hawks or falcons in their feathers. Rare clutches of harpies in isolated and tropical parts of the world even have colorful feathers akin to parrots."
 		]
 	},
-	"havero,_havero_tentacle": {
+	"havero_havero_tentacle": {
 		"name": "Havero, Havero Tentacle",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
@@ -3516,7 +3516,7 @@
 			"The word \"havero\" has its roots in ancient Thassilonian, roughly translating into \"smothering arms.\" The creature itself was first described in notes and theories postulated by ancient students of the stars and delvers into dark lore. Horrifically, haveros are not the mere imaginings of those sages who chronicle the heavens. They are entities of deepest blackness, and on terrible occasions a lone havero has been drawn to Golarion, putting all the races of the world into reach of its endless, ruinous arms."
 		]
 	},
-	"havero_tentacle": { "copyof": "havero,_havero_tentacle" },
+	"havero_tentacle": { "copyof": "havero_havero_tentacle" },
 	"heart_thief": {
 		"name": "Heart Thief",
 		"sources": [ "Seers of the Drowned City" ],
@@ -3766,7 +3766,7 @@
 			"Hell hounds are particularly favored by fire giants, as the creatures are immune to fire and share the fire giant's sense of cruelty when it comes to handling intruders. Only when a fire giant goes too far toward treating a relatively intelligent hell hound like a pet do such alliances begin to falter."
 		]
 	},
-	"hell_hound,_nessian_warhound": {
+	"hell_hound_nessian_warhound": {
 		"name": "Hell Hound, Nessian Warhound",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3817,7 +3817,7 @@
 			"They are fearsome, snarling horrors in combat."
 		]
 	},
-	"nessian_warhound": { "copyof": "hell_hound,_nessian_warhound" },
+	"nessian_warhound": { "copyof": "hell_hound_nessian_warhound" },
 	"hellcat": {
 		"name": "Hellcat",
 		"sources": [ "Bestiary 2" ],
@@ -3888,7 +3888,7 @@
 			"",
 			"### Hellfire Ignis, CR 3",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 62](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 62](source/cheliax_the_infernal_empire)  ",
 			"**XP** 800  ",
 			"NE Small fey (fire)  ",
 			"**Init** +5; **Senses** low-light vision; Perception +8",
@@ -4002,7 +4002,7 @@
 			"Though intelligent, these swarms are often difficult to understand and reason with. A hellwasp swarm can speak in a fashion with its myriad droning wings. The chatter is often little more than repetitive mantras of insults and the voicing of the twisted and base desires of the swarm. A hellwasp swarm has little use for reason, diplomacy, or discourse in other circumstances, for its desires are as savage as its home plane."
 		]
 	},
-	"herd_animal,_antelope": {
+	"herd_animal_antelope": {
 		"name": "Herd Animal, Antelope",
 		"sources": [
 			"Bestiary 3",
@@ -4057,8 +4057,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"antelope": { "copyof": "herd_animal,_antelope" },
-	"herd_animal,_aurochs": {
+	"antelope": { "copyof": "herd_animal_antelope" },
+	"herd_animal_aurochs": {
 		"name": "Herd Animal, Aurochs",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4110,8 +4110,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"aurochs": { "copyof": "herd_animal,_aurochs" },
-	"herd_animal,_bison": {
+	"aurochs": { "copyof": "herd_animal_aurochs" },
+	"herd_animal_bison": {
 		"name": "Herd Animal, Bison",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4163,8 +4163,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"bison": { "copyof": "herd_animal,_bison" },
-	"herd_animal,_camel": {
+	"bison": { "copyof": "herd_animal_bison" },
+	"herd_animal_camel": {
 		"name": "Herd Animal, Camel",
 		"sources": [
 			"Bestiary 2",
@@ -4217,8 +4217,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"camel": { "copyof": "herd_animal,_camel" },
-	"herd_animal,_elk": {
+	"camel": { "copyof": "herd_animal_camel" },
+	"herd_animal_elk": {
 		"name": "Herd Animal, Elk",
 		"sources": [
 			"Bestiary 3",
@@ -4270,8 +4270,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"elk": { "copyof": "herd_animal,_elk" },
-	"herd_animal,_giraffe": {
+	"elk": { "copyof": "herd_animal_elk" },
+	"herd_animal_giraffe": {
 		"name": "Herd Animal, Giraffe",
 		"sources": [
 			"Bestiary 4",
@@ -4327,8 +4327,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"giraffe": { "copyof": "herd_animal,_giraffe" },
-	"herd_animal,_ram": {
+	"giraffe": { "copyof": "herd_animal_giraffe" },
+	"herd_animal_ram": {
 		"name": "Herd Animal, Ram",
 		"sources": [
 			"Bestiary 2",
@@ -4380,8 +4380,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"ram": { "copyof": "herd_animal,_ram" },
-	"herd_animal,_river_elk": {
+	"ram": { "copyof": "herd_animal_ram" },
+	"herd_animal_river_elk": {
 		"name": "Herd Animal, River Elk",
 		"sources": [
 			"Pathfinder #31: Stolen Land",
@@ -4439,8 +4439,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"river_elk": { "copyof": "herd_animal,_river_elk" },
-	"herd_animal,_stag": {
+	"river_elk": { "copyof": "herd_animal_river_elk" },
+	"herd_animal_stag": {
 		"name": "Herd Animal, Stag",
 		"sources": [
 			"Bestiary 4",
@@ -4491,8 +4491,8 @@
 			"**Family:** [Herd Animal](family/herd_animal)"
 		]
 	},
-	"stag": { "copyof": "herd_animal,_stag" },
-	"herecite,_herecite_of_asmodeus": {
+	"stag": { "copyof": "herd_animal_stag" },
+	"herecite_herecite_of_asmodeus": {
 		"name": "Herecite, Herecite of Asmodeus",
 		"sources": [
 			"Pathfinder #100: A Song of Silver",
@@ -4575,7 +4575,7 @@
 			"Herecites, once created, typically remain as guardians by the temple responsible for their forced conversion. In some cases, a lone herecite may wander from the site of its creation, especially if it loses its creator, but once a group of herecites forms a cabal, its members remain bound to that area for months, years, or even centuries-if they leave the area, the cabal is broken, and a new ritual must be performed in order to reaffirm their blasphemous faith. They have very little interest in their new lives save for the constant offering of blasphemous prayers to their new deity; these prayers often consist of warped versions of sacred chants and songs devoted to their prior faith."
 		]
 	},
-	"herecite_of_asmodeus": { "copyof": "herecite,_herecite_of_asmodeus" },
+	"herecite_of_asmodeus": { "copyof": "herecite_herecite_of_asmodeus" },
 	"herne": {
 		"name": "Herne",
 		"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
@@ -4832,7 +4832,7 @@
 			"Though hippopotamuses spend most of their lives in water, adults cannot swim and are not buoyant, instead propelling themselves by pushing off the bottom in great leaps. When submerged, they surface every 3 to 5 minutes to breathe and can even do so automatically while sleeping without waking. They have the unique ability to hold their heads partially above the water and send out a cry that travels through both water and air, alerting all nearby hippopotamuses whether submerged or on land."
 		]
 	},
-	"hippopotamus,_behemoth_hippopotamus": {
+	"hippopotamus_behemoth_hippopotamus": {
 		"name": "Hippopotamus, Behemoth Hippopotamus",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4880,7 +4880,7 @@
 			"The behemoth hippopotamus is a true monster. Standing taller than an elephant, this animal has few enemies in the natural world-even dinosaurs and dire crocodiles avoid fights with them. Making them even more dangerous is the fact that they are practically carnivores-while not above eating plant matter, they devour carrion or foolish creatures that come too close."
 		]
 	},
-	"behemoth_hippopotamus": { "copyof": "hippopotamus,_behemoth_hippopotamus" },
+	"behemoth_hippopotamus": { "copyof": "hippopotamus_behemoth_hippopotamus" },
 	"hiracapath": {
 		"name": "Hiracapath",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
@@ -5024,7 +5024,7 @@
 			"Hive mind beetle swarms' intellects focus primarily on food and weather. They can develop friendships with creatures who point them toward food sources, and may return to their new friends to inform them about approaching storms and other meteorological phenomena. Friendly swarms may even inform familiar creatures about other predators in the area, or assist in locating people or treasures (though the ravenous insects may just as readily eat the subject of their search). Hive mind beetle swarms are even capable of religious thought, considering thunderstorms to be messages from a divine being."
 		]
 	},
-	"hive,_hive_brute": {
+	"hive_hive_brute": {
 		"name": "Hive, Hive Brute",
 		"sources": [
 			"Nidal, Land of Shadows",
@@ -5037,7 +5037,7 @@
 			"",
 			"### Hive Brute, CR 8",
 			"",
-			"**Source** [Nidal, Land of Shadows pg. 56](source/nidal,_land_of_shadows)  ",
+			"**Source** [Nidal, Land of Shadows pg. 56](source/nidal_land_of_shadows)  ",
 			"**XP** 4,800  ",
 			"NE Large aberration (Hive)  ",
 			"**Init** +6; **Senses** blindsense 60 ft., blindsight 10 ft., hive mind; Perception +14",
@@ -5084,8 +5084,8 @@
 			"**Family:** [Hive](family/hive)"
 		]
 	},
-	"hive_brute": { "copyof": "hive,_hive_brute" },
-	"hive,_hive_larva_swarm": {
+	"hive_brute": { "copyof": "hive_hive_brute" },
+	"hive_hive_larva_swarm": {
 		"name": "Hive, Hive Larva Swarm",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -5143,8 +5143,8 @@
 			"**Family:** [Hive](family/hive)"
 		]
 	},
-	"hive_larva_swarm": { "copyof": "hive,_hive_larva_swarm" },
-	"hive,_hive_queen": {
+	"hive_larva_swarm": { "copyof": "hive_hive_larva_swarm" },
+	"hive_hive_queen": {
 		"name": "Hive, Hive Queen",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -5203,8 +5203,8 @@
 			"**Family:** [Hive](family/hive)"
 		]
 	},
-	"hive_queen": { "copyof": "hive,_hive_queen" },
-	"hive,_hive_warrior": {
+	"hive_queen": { "copyof": "hive_hive_queen" },
+	"hive_hive_warrior": {
 		"name": "Hive, Hive Warrior",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -5260,7 +5260,7 @@
 			"**Family:** [Hive](family/hive)"
 		]
 	},
-	"hive_warrior": { "copyof": "hive,_hive_warrior" },
+	"hive_warrior": { "copyof": "hive_hive_warrior" },
 	"hivemind_rat_swarm": {
 		"name": "Hivemind Rat Swarm",
 		"sources": [ "Bestiary 6" ],
@@ -5451,7 +5451,7 @@
 			"A hobgoblin stands 5 feet tall and weighs 160 pounds."
 		]
 	},
-	"hobgoblin,_hobgoblin_battle_priest": {
+	"hobgoblin_hobgoblin_battle_priest": {
 		"name": "Hobgoblin, Hobgoblin Battle Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5516,8 +5516,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"hobgoblin_battle_priest": { "copyof": "hobgoblin,_hobgoblin_battle_priest" },
-	"hobgoblin,_hobgoblin_battlefield_zealot": {
+	"hobgoblin_battle_priest": { "copyof": "hobgoblin_hobgoblin_battle_priest" },
+	"hobgoblin_hobgoblin_battlefield_zealot": {
 		"name": "Hobgoblin, Hobgoblin Battlefield Zealot",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5572,8 +5572,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"hobgoblin_battlefield_zealot": { "copyof": "hobgoblin,_hobgoblin_battlefield_zealot" },
-	"hobgoblin,_hobgoblin_bombardier": {
+	"hobgoblin_battlefield_zealot": { "copyof": "hobgoblin_hobgoblin_battlefield_zealot" },
+	"hobgoblin_hobgoblin_bombardier": {
 		"name": "Hobgoblin, Hobgoblin Bombardier",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5633,8 +5633,8 @@
 			"These alchemists focus their race's penchant for fire into more productive and efficient means of destruction than mere torches or bonfires. Instead, they hone the craft of concocting bombs, mutagens, and extracts. Though they possess the means of enhancing their physical prowess, many bombardiers forgo imbibing their mutagens prior to battle, believing that increasing one's weaknesses, even for potential gain in other areas, is a tactical mistake. When the situation calls for it, however, they drink mutagens to increase their physical stamina or ranged accuracy, preferring to decrease their perception and influence before compromising their mental faculties."
 		]
 	},
-	"hobgoblin_bombardier": { "copyof": "hobgoblin,_hobgoblin_bombardier" },
-	"hobgoblin,_hobgoblin_commander": {
+	"hobgoblin_bombardier": { "copyof": "hobgoblin_hobgoblin_bombardier" },
+	"hobgoblin_hobgoblin_commander": {
 		"name": "Hobgoblin, Hobgoblin Commander",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5708,8 +5708,8 @@
 			"**Gear** leather lamellar barding"
 		]
 	},
-	"hobgoblin_commander": { "copyof": "hobgoblin,_hobgoblin_commander" },
-	"hobgoblin,_hobgoblin_forerunner": {
+	"hobgoblin_commander": { "copyof": "hobgoblin_hobgoblin_commander" },
+	"hobgoblin_hobgoblin_forerunner": {
 		"name": "Hobgoblin, Hobgoblin Forerunner",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5758,8 +5758,8 @@
 			"Hobgoblin forerunners are masters of mounted combat, and lead the charge at the front of hobgoblin armies. They sometimes use [yzobus](monster/yzobu) as mounts."
 		]
 	},
-	"hobgoblin_forerunner": { "copyof": "hobgoblin,_hobgoblin_forerunner" },
-	"hobgoblin,_hobgoblin_lieutenant": {
+	"hobgoblin_forerunner": { "copyof": "hobgoblin_hobgoblin_forerunner" },
+	"hobgoblin_hobgoblin_lieutenant": {
 		"name": "Hobgoblin, Hobgoblin Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5809,8 +5809,8 @@
 			"In addition to leading squadrons, hobgoblin lieutenants are assigned elite missions that call for stealth-particularly scouting missions and sabotage."
 		]
 	},
-	"hobgoblin_lieutenant": { "copyof": "hobgoblin,_hobgoblin_lieutenant" },
-	"hobgoblin,_hobgoblin_paragon": {
+	"hobgoblin_lieutenant": { "copyof": "hobgoblin_hobgoblin_lieutenant" },
+	"hobgoblin_hobgoblin_paragon": {
 		"name": "Hobgoblin, Hobgoblin Paragon",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5865,8 +5865,8 @@
 			"Many hobgoblin paragons join specialized teams of fellow hobgoblins within larger armies, though they live isolated lives, apart from their regimented kin, rather than feeling a true camaraderie. A large number of them instead travel the world, participating in tournaments of martial skill, from gladiatorial arenas to competitions in distant monasteries practicing foreign techniques. Others pursue more mercenary endeavors, selling their talents to the highest bidder so long as their contract involves dishing out pain to the weak or the unworthy. Whether as lone bodyguards of corrupt merchants or politicians, or high-ranking enforcers of the criminal underworld, a hobgoblin paragon willing to serve a well-paying master has no trouble finding employment wherever she might seek it."
 		]
 	},
-	"hobgoblin_paragon": { "copyof": "hobgoblin,_hobgoblin_paragon" },
-	"hobgoblin,_hobgoblin_sergeant": {
+	"hobgoblin_paragon": { "copyof": "hobgoblin_hobgoblin_paragon" },
+	"hobgoblin_hobgoblin_sergeant": {
 		"name": "Hobgoblin, Hobgoblin Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -5914,7 +5914,7 @@
 			"Sergeants are versatile warriors; they're capable of engaging in battle up close or at range, and smart and tough enough to lead the army's rank-and-file troops."
 		]
 	},
-	"hobgoblin_sergeant": { "copyof": "hobgoblin,_hobgoblin_sergeant" },
+	"hobgoblin_sergeant": { "copyof": "hobgoblin_hobgoblin_sergeant" },
 	"hodag": {
 		"name": "Hodag",
 		"sources": [
@@ -6136,7 +6136,7 @@
 			"While the first hollow serpents were supposedly created from scales shed by beasts favored by the Serpent King himself, and those unholy snakeskins can even shed their own lesser offspring over time, serpentfolk priests can also create their own lesser hollow serpents. A lesser hollow serpent created by a serpentfolk priest requires a more involved process. The priest must fill a clay pot with dirt taken from a serpentfolk grave, the skin and bones of a giant constrictor snake, an onyx gem worth at least 250 gp, and a sprinkling of unholy water. Thereafter, a 15th-level caster must cast create undead on the skin stuffed with the other assembled reagents."
 		]
 	},
-	"hollow_serpent,_lesser_hollow_serpent": {
+	"hollow_serpent_lesser_hollow_serpent": {
 		"name": "Hollow Serpent, Lesser Hollow Serpent",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
@@ -6186,7 +6186,7 @@
 			"While the first hollow serpents were supposedly created from scales shed by beasts favored by the Serpent King himself, and those unholy snakeskins can even shed their own lesser offspring over time, serpentfolk priests can also create their own lesser hollow serpents. A lesser hollow serpent created by a serpentfolk priest requires a more involved process. The priest must fill a clay pot with dirt taken from a serpentfolk grave, the skin and bones of a giant constrictor snake, an onyx gem worth at least 250 gp, and a sprinkling of unholy water. Thereafter, a 15th-level caster must cast create undead on the skin stuffed with the other assembled reagents."
 		]
 	},
-	"lesser_hollow_serpent": { "copyof": "hollow_serpent,_lesser_hollow_serpent" },
+	"lesser_hollow_serpent": { "copyof": "hollow_serpent_lesser_hollow_serpent" },
 	"homunculus": {
 		"name": "Homunculus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -6325,7 +6325,7 @@
 			"No one has seen a hooded harbinger's face and lived to describe it. If its hood is pulled back, the creature's head is seen to be completely swathed in the same filthy rags that cover its body. If it is helpless, the rags can be unraveled, but each layer only gives way to dozens of layers of the tattered yellow cloth. Eventually, a face is revealed, but it appears to be the face of the unraveler. If she is lucky, her memories are immediately wiped clean. If she is less fortunate or less able to forget, she is driven insane."
 		]
 	},
-	"hook_fly,_giant_hook_fly": {
+	"hook_fly_giant_hook_fly": {
 		"name": "Hook Fly, Giant Hook Fly",
 		"sources": [ "Gallows of Madness" ],
 		"description": [
@@ -6392,8 +6392,8 @@
 			"Giant hook fly matriarchs are typically found alone or with other non-matriarch hook flies in places where spilled blood is enormously abundant, such as on or near recent battlefields, at sites of mass tragedy, or the like. Although they tolerate other giant hook flies, particularly their own spawn, giant hook fly matriarchs are often quite territorial, and matriarchs in close proximity often squabble or even fight the death. However, in places where blood is so abundant that the matriarchs don't need to fight for resources, giant hook fly matriarchs sometimes coexist peacefully, regularly giving birth to enormous broods. The prospect of such a hook fly population explosion is terrifying to most sentient creatures, as it would ensure that no living creature could survive nearby for long."
 		]
 	},
-	"giant_hook_fly": { "copyof": "hook_fly,_giant_hook_fly" },
-	"hook_fly,_hook_fly_swarm": {
+	"giant_hook_fly": { "copyof": "hook_fly_giant_hook_fly" },
+	"hook_fly_hook_fly_swarm": {
 		"name": "Hook Fly, Hook Fly Swarm",
 		"sources": [ "Gallows of Madness" ],
 		"description": [
@@ -6460,7 +6460,7 @@
 			"Giant hook fly matriarchs are typically found alone or with other non-matriarch hook flies in places where spilled blood is enormously abundant, such as on or near recent battlefields, at sites of mass tragedy, or the like. Although they tolerate other giant hook flies, particularly their own spawn, giant hook fly matriarchs are often quite territorial, and matriarchs in close proximity often squabble or even fight the death. However, in places where blood is so abundant that the matriarchs don't need to fight for resources, giant hook fly matriarchs sometimes coexist peacefully, regularly giving birth to enormous broods. The prospect of such a hook fly population explosion is terrifying to most sentient creatures, as it would ensure that no living creature could survive nearby for long."
 		]
 	},
-	"hook_fly_swarm": { "copyof": "hook_fly,_hook_fly_swarm" },
+	"hook_fly_swarm": { "copyof": "hook_fly_hook_fly_swarm" },
 	"hookfang_worm": {
 		"name": "Hookfang Worm",
 		"sources": [ "Bestiary 6" ],
@@ -6636,7 +6636,7 @@
 			"The statistics presented above are for a typical pony. Tougher ponies with the advanced simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the Handle Animal skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat."
 		]
 	},
-	"horse,_pony": {
+	"horse_pony": {
 		"name": "Horse, Pony",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6685,5 +6685,5 @@
 			"The statistics presented above are for a typical pony. Tougher ponies with the advanced simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the Handle Animal skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat."
 		]
 	},
-	"pony": { "copyof": "horse,_pony" }
+	"pony": { "copyof": "horse_pony" }
 }

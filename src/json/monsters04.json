@@ -625,7 +625,7 @@
 			"Because they retain echoes of different souls from the bones they consume, bonewrought willows can be targets of spells that seek a corpse's knowledge such as [speak with dead](spell/speak_with_dead). Although a bonewrought willow's responses are often more fragmented than normal for such a spell, it responds to questions in a deep, hollow voice. Bonewrought willows do not speak except when responding to spells."
 		]
 	},
-	"bore_worm,_bore_worm_monarch": {
+	"bore_worm_bore_worm_monarch": {
 		"name": "Bore Worm, Bore Worm Monarch",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
@@ -688,8 +688,8 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest-and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"bore_worm_monarch": { "copyof": "bore_worm,_bore_worm_monarch" },
-	"bore_worm,_bore_worm_swarm": {
+	"bore_worm_monarch": { "copyof": "bore_worm_bore_worm_monarch" },
+	"bore_worm_bore_worm_swarm": {
 		"name": "Bore Worm, Bore Worm Swarm",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
@@ -754,8 +754,8 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest-and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"bore_worm_swarm": { "copyof": "bore_worm,_bore_worm_swarm" },
-	"bore_worm,_empress_bore_worm": {
+	"bore_worm_swarm": { "copyof": "bore_worm_bore_worm_swarm" },
+	"bore_worm_empress_bore_worm": {
 		"name": "Bore Worm, Empress Bore Worm",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
@@ -820,7 +820,7 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest-and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"empress_bore_worm": { "copyof": "bore_worm,_empress_bore_worm" },
+	"empress_bore_worm": { "copyof": "bore_worm_empress_bore_worm" },
 	"boruta": {
 		"name": "Boruta",
 		"sources": [ "Pathfinder #44: Trial of the Beast" ],
@@ -892,7 +892,7 @@
 			"Borutas generally stand about 7 feet tall and weigh just over 200 pounds."
 		]
 	},
-	"botfly,_botfly_swarm": {
+	"botfly_botfly_swarm": {
 		"name": "Botfly, Botfly Swarm",
 		"sources": [ "Heart of the Jungle" ],
 		"description": [
@@ -949,8 +949,8 @@
 			"Parasites such as botfly larvae cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; otherwise, no matter how many saving throws are made, the infestation continues to afflict the target. While a remove disease spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites."
 		]
 	},
-	"botfly_swarm": { "copyof": "botfly,_botfly_swarm" },
-	"botfly,_giant_botfly": {
+	"botfly_swarm": { "copyof": "botfly_botfly_swarm" },
+	"botfly_giant_botfly": {
 		"name": "Botfly, Giant Botfly",
 		"sources": [ "Heart of the Jungle" ],
 		"description": [
@@ -1003,7 +1003,7 @@
 			"Botflies are perhaps the most disgusting vermin native to the Expanse. Explorers tell sickening tales of removing maggots from living hosts-or worse, comrades eaten alive by larvae. Once a botfly finds a warm-blooded host, it uses its proboscis to insert eggs into the host's flesh. When the eggs hatch, the larvae feed upon the host until they mature into adult flies and exit."
 		]
 	},
-	"giant_botfly": { "copyof": "botfly,_giant_botfly" },
+	"giant_botfly": { "copyof": "botfly_giant_botfly" },
 	"brain_mole": {
 		"name": "Brain Mole",
 		"sources": [ "Bestiary 5" ],
@@ -1063,7 +1063,7 @@
 			"Spellcasters of 5th level or higher with an alignment within one step of neutral can gain a brain mole as a familiar by taking the Improved Familiar feat."
 		]
 	},
-	"brain_mole,_brain_mole_monarch": {
+	"brain_mole_brain_mole_monarch": {
 		"name": "Brain Mole, Brain Mole Monarch",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -1126,7 +1126,7 @@
 			"Brain moles who gorge themselves on psychic energy occasionally find their bodies wracked by magically infused tumors that vastly enhance their intellects and psychic spellcasting but condemn the moles to slow deaths. These individuals, called brain mole monarchs, connect to their fellow brain moles in a psychic hive mind. Most use their newfound mental abilities to attempt to secure a legacy or to provide for their nests once they pass on, and their mad plots become increasingly eccentric and aggressive as the end nears."
 		]
 	},
-	"brain_mole_monarch": { "copyof": "brain_mole,_brain_mole_monarch" },
+	"brain_mole_monarch": { "copyof": "brain_mole_brain_mole_monarch" },
 	"brain_ooze": {
 		"name": "Brain Ooze",
 		"sources": [ "Bestiary 3" ],
@@ -1704,7 +1704,7 @@
 			"Goblins, hobgoblins, and bugbears, despite having superficial similarities, each represent a different face of evil. Hobgoblins are ordered and methodical in their evil, forming vast armies, warbands, and despotic nations. Goblins are the primal evil, seeking only cruelty and petty victimization as they can find it, be that among their own kind or against their neighbors. Yet the evil personified by the bugbear may be the most terrifying, for they actively seek to inflict pain and suffering in the most destructive ways possible. When a hobgoblin kills, it's because of tradition and order. When a goblin kills, it's for fun. But when a bugbear holds its blade, it kills only when it can be assured that the murder will cause maximum pain and suffering to those its weapon does not touch; to a bugbear, the true goal of murder is to strike not at the victim, but at those who held the victim dear."
 		]
 	},
-	"bugbear,_bugbear_ambusher": {
+	"bugbear_bugbear_ambusher": {
 		"name": "Bugbear, Bugbear Ambusher",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1757,8 +1757,8 @@
 			"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
 		]
 	},
-	"bugbear_ambusher": { "copyof": "bugbear,_bugbear_ambusher" },
-	"bugbear,_bugbear_bloodmage": {
+	"bugbear_ambusher": { "copyof": "bugbear_bugbear_ambusher" },
+	"bugbear_bugbear_bloodmage": {
 		"name": "Bugbear, Bugbear Bloodmage",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1822,8 +1822,8 @@
 			"Arcane spellcasters among bugbears are typically sorcerers-few bugbears have enough interest or patience to follow arcane paths such as wizardry that require study or control. Bugbears call those with natural magical talent bloodmages, and treat their spellcasting ability the same as any skill-if it's useful for hurting, it's worth knowing. A typical bloodmage is interested in only spells that cause destruction and pain, plus a few supplemental spells to help her defend herself. Almost no bloodmages learn to create magic items."
 		]
 	},
-	"bugbear_bloodmage": { "copyof": "bugbear,_bugbear_bloodmage" },
-	"bugbear,_bugbear_cultist": {
+	"bugbear_bloodmage": { "copyof": "bugbear_bugbear_bloodmage" },
+	"bugbear_bugbear_cultist": {
 		"name": "Bugbear, Bugbear Cultist",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1881,8 +1881,8 @@
 			"Bugbears worship in divergent, sometimes contradictory ways, and no one would call their religion \"organized.\" Most of them simply utter occasional thanks to any demon lords whose names they happen to know. A cultist who comes along with a slightly formalized religious spiel and the ability to cast potent spells can sometimes convince other bugbears to follow him into a religious fervor. Cultists revere gods of battle, particularly demon lords. Their rituals vary wildly, and often involve violent blood sacrifices. A small number of especially conceited cultists consider themselves true prophets or living gods."
 		]
 	},
-	"bugbear_cultist": { "copyof": "bugbear,_bugbear_cultist" },
-	"bugbear,_bugbear_flesh_glutton": {
+	"bugbear_cultist": { "copyof": "bugbear_bugbear_cultist" },
+	"bugbear_bugbear_flesh_glutton": {
 		"name": "Bugbear, Bugbear Flesh Glutton",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1936,8 +1936,8 @@
 			"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
 		]
 	},
-	"bugbear_flesh_glutton": { "copyof": "bugbear,_bugbear_flesh_glutton" },
-	"bugbear,_bugbear_gnasher": {
+	"bugbear_flesh_glutton": { "copyof": "bugbear_bugbear_flesh_glutton" },
+	"bugbear_bugbear_gnasher": {
 		"name": "Bugbear, Bugbear Gnasher",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1991,8 +1991,8 @@
 			"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
 		]
 	},
-	"bugbear_gnasher": { "copyof": "bugbear,_bugbear_gnasher" },
-	"bugbear,_bugbear_lurker": {
+	"bugbear_gnasher": { "copyof": "bugbear_bugbear_gnasher" },
+	"bugbear_bugbear_lurker": {
 		"name": "Bugbear, Bugbear Lurker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2045,8 +2045,8 @@
 			"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
 		]
 	},
-	"bugbear_lurker": { "copyof": "bugbear,_bugbear_lurker" },
-	"bugbear,_bugbear_shadow_sneak": {
+	"bugbear_lurker": { "copyof": "bugbear_bugbear_lurker" },
+	"bugbear_bugbear_shadow_sneak": {
 		"name": "Bugbear, Bugbear Shadow Sneak",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2102,8 +2102,8 @@
 			"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
 		]
 	},
-	"bugbear_shadow_sneak": { "copyof": "bugbear,_bugbear_shadow_sneak" },
-	"bugbear,_bugbear_stalker": {
+	"bugbear_shadow_sneak": { "copyof": "bugbear_bugbear_shadow_sneak" },
+	"bugbear_bugbear_stalker": {
 		"name": "Bugbear, Bugbear Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2156,8 +2156,8 @@
 			"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
 		]
 	},
-	"bugbear_stalker": { "copyof": "bugbear,_bugbear_stalker" },
-	"bugbear,_bugbear_tyrant": {
+	"bugbear_stalker": { "copyof": "bugbear_bugbear_stalker" },
+	"bugbear_bugbear_tyrant": {
 		"name": "Bugbear, Bugbear Tyrant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2220,7 +2220,7 @@
 			"The tyrant doesn't reserve his violence for enemies of the bugbear race. It doesn't take much for him to turn on his underlings and slice them up for fun, especially if he's growing bored."
 		]
 	},
-	"bugbear_tyrant": { "copyof": "bugbear,_bugbear_tyrant" },
+	"bugbear_tyrant": { "copyof": "bugbear_bugbear_tyrant" },
 	"buggane": {
 		"name": "Buggane",
 		"sources": [ "Bestiary 4" ],
@@ -2290,7 +2290,7 @@
 			"",
 			"### Bulabar, CR 1",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 58](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 58](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 400  ",
 			"LN Tiny fey  ",
 			"**Init** +1; **Senses** low-light vision; Perception +4",
@@ -2530,7 +2530,7 @@
 			"",
 			"### Burning Child, CR 10",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 58](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 58](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 9,600  ",
 			"CN Small undead (fire)  ",
 			"**Init** +7; Senses Perception +17  ",
@@ -2801,7 +2801,7 @@
 			"",
 			"**Cold Healing (Ex)** Calathgars are healed by cold. Anytime a calathgar is subjected to cold damage, it regains 1 hit point (regardless of the amount of cold damage dealt). When in areas of severe cold (such as arctic regions or near brown mold), a calathgar gains fast healing 1.",
 			"",
-			"**Mold Mulch (Ex)** Upon being reduced to 0 hit points, a calathgar withers and swiftly decays, transforming into a 5-foot patch of [brown mold](rule/slimes,_molds,_and_fungi). If a calathgar is killed by fire, the mold immediately grows into a 10-foot patch. If it is killed in a space already occupied by brown mold, that mold patch doubles in size just as though fire had been brought near. The area within 30 feet of brown mold is cold enough to activate a calathgar's cold healing and the persistent effect of its seed spray. Brown mold deals 3d6 points of nonlethal cold damage to all creatures within 5 feet of it.",
+			"**Mold Mulch (Ex)** Upon being reduced to 0 hit points, a calathgar withers and swiftly decays, transforming into a 5-foot patch of [brown mold](rule/slimes_molds_and_fungi). If a calathgar is killed by fire, the mold immediately grows into a 10-foot patch. If it is killed in a space already occupied by brown mold, that mold patch doubles in size just as though fire had been brought near. The area within 30 feet of brown mold is cold enough to activate a calathgar's cold healing and the persistent effect of its seed spray. Brown mold deals 3d6 points of nonlethal cold damage to all creatures within 5 feet of it.",
 			"",
 			"**Seed Spray (Ex)** Once every 1d4 rounds, up to 3 times per day, a calathgar can expel a blast of thorny, frozen seeds in a 15-foot cone. All creatures in this area take 4d6 points of cold damage (Reflex DC 15 for half). In frigid climes-areas where the temperature is 40 degrees or colder-these seeds cling to those they strike, dealing an additional 1d6 points of cold damage on the following round. The save DC is Constitution-based.",
 			"",
@@ -3258,7 +3258,7 @@
 			"",
 			"### Candlestone Courtier, CR 12",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 52](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 52](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 19,200  ",
 			"NE Medium fey  ",
 			"**Init** +9; **Senses** low-light vision, see in darkness; Perception +25",
@@ -3393,7 +3393,7 @@
 			"",
 			"### Capacitor Ooze, CR 11",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 48](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 48](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 12,800  ",
 			"N Medium ooze  ",
 			"**Init** -5; **Senses** blindsight 120 ft.; Perception -5  ",
@@ -3892,7 +3892,7 @@
 			"",
 			"### Cassomir Stray, CR 4",
 			"",
-			"**Source** [Taldor, the First Empire pg. 57](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 57](source/taldor_the_first_empire)  ",
 			"**XP** 1,200  ",
 			"NE Small aberration  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +10",
@@ -4002,7 +4002,7 @@
 			"A 7th-level spellcaster with the Improved Familiar feat can gain a cat sith as a familiar. Cat siths are heavier than most housecats, weighing between 25 and 30 pounds. A cat sith is nearly 2 feet long from its nose to the base of its tail."
 		]
 	},
-	"cat,_cheetah": {
+	"cat_cheetah": {
 		"name": "Cat, Cheetah",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4052,8 +4052,8 @@
 			"An adult cheetah is 4-1/2 feet long and weighs 140 pounds."
 		]
 	},
-	"cheetah": { "copyof": "cat,_cheetah" },
-	"cat,_leopard": {
+	"cheetah": { "copyof": "cat_cheetah" },
+	"cat_leopard": {
 		"name": "Cat, Leopard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4100,8 +4100,8 @@
 			"Leopards eat almost any animal they can run down and catch, preferring Small prey but capable of downing Large herbivores or surviving on rodents, birds, and insects. Healthy leopards are generally not aggressive toward humanoids, and if they aren't hungry and don't feel threatened, it is possible to approach closely without a hostile reaction. Yet a leopard that settles in an area bordered by humanoid civilization can easily and swiftly become a dangerous predator."
 		]
 	},
-	"leopard": { "copyof": "cat,_leopard" },
-	"caterpillar,_blood_caterpillar": {
+	"leopard": { "copyof": "cat_leopard" },
+	"caterpillar_blood_caterpillar": {
 		"name": "Caterpillar, Blood Caterpillar",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4154,8 +4154,8 @@
 			"Blood caterpillars are among the largest of giant caterpillars. These massive vermin draw sustenance from rotting meat in the same way many butterflies eat rotting fruit. Behind their mandibles are spinnerets that allow them to manipulate silk, which the caterpillars can discharge to spin webs and immobilize their prey. Their venom weakens the muscles of creatures exposed to it, aiding the caterpillars in restraining and devouring even large, strong, and agile prey."
 		]
 	},
-	"blood_caterpillar": { "copyof": "caterpillar,_blood_caterpillar" },
-	"caterpillar,_horn_caterpillar": {
+	"blood_caterpillar": { "copyof": "caterpillar_blood_caterpillar" },
+	"caterpillar_horn_caterpillar": {
 		"name": "Caterpillar, Horn Caterpillar",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4209,7 +4209,7 @@
 			"Horn caterpillars feed on the hooves and horns of dead ungulates, which they usually scavenge from corpses. Their sharp mandibles allow them to effortlessly shear through tendon and bone."
 		]
 	},
-	"horn_caterpillar": { "copyof": "caterpillar,_horn_caterpillar" },
+	"horn_caterpillar": { "copyof": "caterpillar_horn_caterpillar" },
 	"catfolk": {
 		"name": "Catfolk",
 		"sources": [ "Bestiary 3" ],
@@ -4406,7 +4406,7 @@
 			"A caulborn is literally a creature of the mind. Its body is self-sustaining, and it exists solely to record and catalogue new thoughts. While they are not evil, caulborn have little interest in alliances or friendship with other races."
 		]
 	},
-	"caulborn,_caulborn_thoughtkeeper": {
+	"caulborn_caulborn_thoughtkeeper": {
 		"name": "Caulborn, Caulborn Thoughtkeeper",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -4468,8 +4468,8 @@
 			"On Golarion, caulborn thoughtkeepers are most reliably found deep beneath Kaer Maga in the city of Xavorax, communing with Anamnesis, the hive's resident chrestomath."
 		]
 	},
-	"caulborn_thoughtkeeper": { "copyof": "caulborn,_caulborn_thoughtkeeper" },
-	"caulborn,_chrestomath": {
+	"caulborn_thoughtkeeper": { "copyof": "caulborn_caulborn_thoughtkeeper" },
+	"caulborn_chrestomath": {
 		"name": "Caulborn, Chrestomath",
 		"sources": [ "Pathfinder #63: The Asylum Stone" ],
 		"description": [
@@ -4550,7 +4550,7 @@
 			"While parasitic by nature, caulborn are not necessarily predatory, and aren't above trading for the sustenance they need. When they do so, it's often as prophets, a role in which chrestomaths are singularly important. Left with nothing but godlike memories and an ability to analyze information, chrestomaths are often able to extrapolate from trends and make logical connections that result in uncannily accurate predictions about future events."
 		]
 	},
-	"chrestomath": { "copyof": "caulborn,_chrestomath" },
+	"chrestomath": { "copyof": "caulborn_chrestomath" },
 	"cauldron_bloom": {
 		"name": "Cauldron Bloom",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
@@ -5037,7 +5037,7 @@
 			"Aloof with other races and at odds even with their own kind, the centaurs are an old race only slowly coming to accept the modern world. While the majority of centaurs still live in tribes roaming vast plains or the fringes of eldritch forests, many have abandoned the isolationist ways of their ancestors to walk among the more cosmopolitan cities of the world. Often such free-spirited centaurs are considered outcasts and are shunned by their own tribes, making the decision to leave a heavy one. In some rare cases, however, whole tribes under progressive leaders have come to trade or make alliances with other humanoid communities-typically elves, but sometimes gnomes, and rarely humans or dwarves. Many races remain wary of centaurs, though, largely due to legends of territorial beastmen and the regular, violent encounters the centaurs have with stubborn settlers and expansionist countries."
 		]
 	},
-	"centaur,_centaur_charger": {
+	"centaur_centaur_charger": {
 		"name": "Centaur, Centaur Charger",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -5090,8 +5090,8 @@
 			"These warriors also serve their tribes as advisors. While they lack the skills to effectively lead in peacetime, they may assume control temporarily and without question when outside threats press into centaur lands."
 		]
 	},
-	"centaur_charger": { "copyof": "centaur,_centaur_charger" },
-	"centaur,_centaur_forager": {
+	"centaur_charger": { "copyof": "centaur_centaur_charger" },
+	"centaur_centaur_forager": {
 		"name": "Centaur, Centaur Forager",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -5146,8 +5146,8 @@
 			"When travelers respectfully petition centaurs for safe passage through their territory and convince them that no alternative route is available, a tribe may reluctantly grant the strangers' request. However, in exchange for permission, centaurs often demand a toll in the form of a task or favor performed on the tribe's behalf. They most often ask for metal tools and magic that their divine-leaning society can't produce reliably, but may instead request that adventurers destroy a local threat. Even with tribal approval to enter centaur lands, outsiders can expect their every step to be watched by the tribe's foragers' whether the interlopers can see their centaur observers or not."
 		]
 	},
-	"centaur_forager": { "copyof": "centaur,_centaur_forager" },
-	"centaur,_centaur_greenspeaker": {
+	"centaur_forager": { "copyof": "centaur_centaur_forager" },
+	"centaur_centaur_greenspeaker": {
 		"name": "Centaur, Centaur Greenspeaker",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -5201,8 +5201,8 @@
 			"Centaur greenspeakers who cultivate the fields of the First Pasture are known as \"Sowers of the Ash.\" Centaur clans trust these holy preachers to tend to the sacred meadows, where a kaleidoscope of wild flowers blooms from spring to the fading days of autumn. Centaurs use the blossoms as central decorations for their celebrations and ceremonies, and greenspeakers weave the remaining flowers into fragrant mantles that signal their rank in society; the more ornate a greenspeaker's mantle, the more experienced and venerated he is."
 		]
 	},
-	"centaur_greenspeaker": { "copyof": "centaur,_centaur_greenspeaker" },
-	"centaur,_centaur_outcast": {
+	"centaur_greenspeaker": { "copyof": "centaur_centaur_greenspeaker" },
+	"centaur_centaur_outcast": {
 		"name": "Centaur, Centaur Outcast",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -5258,7 +5258,7 @@
 			"Outcasts' insatiable need for new experiences frequently overtakes them, and they rarely call one place home, or one group of people friends, for very long. Instead, they plod forever forward, challenging themselves with new languages, cultures, spells, and the constant frustration of humanoid stairs. Outcasts hold no ill will toward their former kin, though they consider traditional centaurs narrow-minded country cousins, ignorant of the outside world's seemingly infinite expanse."
 		]
 	},
-	"centaur_outcast": { "copyof": "centaur,_centaur_outcast" },
+	"centaur_outcast": { "copyof": "centaur_centaur_outcast" },
 	"centianima": {
 		"name": "Centianima",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
@@ -5356,7 +5356,7 @@
 			"**Symbiotic (CR +1):** These centianimas have formed a close symbiotic relationship with the vermin that feed on the rotting flesh in their lairs. Three times per day, the centianima can vomit up a spider swarm as a standard action. This swarm attacks the nearest living creature, but is otherwise not controlled by the centianima."
 		]
 	},
-	"centipede,_centipede_swarm": {
+	"centipede_centipede_swarm": {
 		"name": "Centipede, Centipede Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5418,8 +5418,8 @@
 			"| Titan centipede | 9 | Colossal | 10d8 |"
 		]
 	},
-	"centipede_swarm": { "copyof": "centipede,_centipede_swarm" },
-	"centipede,_giant_centipede": {
+	"centipede_swarm": { "copyof": "centipede_centipede_swarm" },
+	"centipede_giant_centipede": {
 		"name": "Centipede, Giant Centipede",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5480,8 +5480,8 @@
 			"| Titan centipede | 9 | Colossal | 10d8 |"
 		]
 	},
-	"giant_centipede": { "copyof": "centipede,_giant_centipede" },
-	"centipede,_giant_whiptail_centipede": {
+	"giant_centipede": { "copyof": "centipede_giant_centipede" },
+	"centipede_giant_whiptail_centipede": {
 		"name": "Centipede, Giant Whiptail Centipede",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5533,8 +5533,8 @@
 			"Whiptail centipedes are carrion eaters, though corpses large enough to satiate them are a rarity. Corpses of Huge or larger creatures left to rot often attract whiptail centipedes, who viciously defend their bounty against any who would intrude upon their lairs."
 		]
 	},
-	"giant_whiptail_centipede": { "copyof": "centipede,_giant_whiptail_centipede" },
-	"centipede,_titan_centipede": {
+	"giant_whiptail_centipede": { "copyof": "centipede_giant_whiptail_centipede" },
+	"centipede_titan_centipede": {
 		"name": "Centipede, Titan Centipede",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5585,7 +5585,7 @@
 			"The largest of their kind, titan centipedes are thankfully also the rarest. They attack other living creatures fearlessly, and require constant sustenance to nourish their vast bulk. Humanoids are in most danger from titan centipedes when mounted rather than afoot-a good-sized horse makes a much more satisfying meal to the centipede than a few bites of human. Titan centipedes are solitary by nature and because of the demands of their appetite, though when food is plentiful, multiple centipedes sometimes lurk in the same area."
 		]
 	},
-	"titan_centipede": { "copyof": "centipede,_titan_centipede" },
+	"titan_centipede": { "copyof": "centipede_titan_centipede" },
 	"cephalophore": {
 		"name": "Cephalophore",
 		"sources": [
@@ -5792,7 +5792,7 @@
 			"",
 			"### Cerberus Worm, CR 14",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 58](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 58](source/cheliax_the_infernal_empire)  ",
 			"**XP** 38,400  ",
 			"N Gargantuan magical beast (aquatic)  ",
 			"**Init** +5; **Senses** all-around vision, darkvision 120 ft., low-light vision; Perception +9",
@@ -6152,7 +6152,7 @@
 			"A typical cerynitis measures 10 feet long from head to tail and weighs 350 pounds."
 		]
 	},
-	"cetacean,_blue_whale": {
+	"cetacean_blue_whale": {
 		"name": "Cetacean, Blue Whale",
 		"sources": [
 			"Pathfinder #59: The Price of Infamy",
@@ -6210,8 +6210,8 @@
 			"The imposing blue whale is one of the largest animals in the sea, though it is generally docile toward anything it doesn't perceive as a threat. A filter-feeder, the blue whale does not look at humans or ships as potential meals, instead preferring to eat millions of tiny invertebrates known as krill, which it sucks through its baleen in massive gulps. The most dangerous thing about a blue whale, other than its sheer size, is its powerful tail, which can capsize boats and kill humanoids. These enormous mammals can be found in all of Golarion's oceans and seas. An adult blue whale is 100 feet long and weighs 200 tons."
 		]
 	},
-	"blue_whale": { "copyof": "cetacean,_blue_whale" },
-	"cetacean,_crimson_whale": {
+	"blue_whale": { "copyof": "cetacean_blue_whale" },
+	"cetacean_crimson_whale": {
 		"name": "Cetacean, Crimson Whale",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
 		"description": [
@@ -6264,8 +6264,8 @@
 			"While many cetaceans are docile, the crimson whale is an aggressive hunter that evolved to quickly kill even the largest and most powerful of prey. It sports a full set of deadly teeth that average between 1 and 2 feet in length, and its powerful bite can tear through flesh and crush bone. A typical adult crimson whale is 45 feet long and weighs 30 tons."
 		]
 	},
-	"crimson_whale": { "copyof": "cetacean,_crimson_whale" },
-	"cetacean,_narwhal": {
+	"crimson_whale": { "copyof": "cetacean_crimson_whale" },
+	"cetacean_narwhal": {
 		"name": "Cetacean, Narwhal",
 		"sources": [
 			"Pathfinder #59: The Price of Infamy",
@@ -6321,7 +6321,7 @@
 			"The narwhal is a skilled hunter in arctic waters, and has been known to dive deeper than even much larger cetaceans both in open water and beneath thick sheets of waterborne ice. Male narwhals possess a single, 6-footlong tusk extending from just above the mouth that serves to impress females during mating season, though in times of need the tusks may be used to break through thick ice or even in self-defense. A typical narwhal is 14 feet long (not including the tusk) and weighs 3,200 pounds."
 		]
 	},
-	"narwhal": { "copyof": "cetacean,_narwhal" },
+	"narwhal": { "copyof": "cetacean_narwhal" },
 	"cetus": {
 		"name": "Cetus",
 		"sources": [ "Bestiary 5" ],
@@ -6713,7 +6713,7 @@
 		]
 	},
 	"charau_ka": { "copyof": "charau-ka" },
-	"charau-ka,_deadfall_tracker": {
+	"charau-ka_deadfall_tracker": {
 		"name": "Charau-ka, Deadfall Tracker",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6765,9 +6765,9 @@
 			"These charau-ka sometimes fall upon travelers simply to loot them, gathering supplies they need to build ingenious contraptions. Anyone who picks up the trail of a deadfall tracker is sure to come upon a devious trap before long. The secrets of trap construction and placement are kept by the elders of the tribe, who carefully detail where to place the devices in the jungle to maximize their disruptive potential."
 		]
 	},
-	"deadfall_tracker": { "copyof": "charau-ka,_deadfall_tracker" },
-	"charau_ka_deadfall_tracker": { "copyof": "charau-ka,_deadfall_tracker" },
-	"charau-ka,_devotee_of_the_ravener_king": {
+	"deadfall_tracker": { "copyof": "charau-ka_deadfall_tracker" },
+	"charau_ka_deadfall_tracker": { "copyof": "charau-ka_deadfall_tracker" },
+	"charau-ka_devotee_of_the_ravener_king": {
 		"name": "Charau-ka, Devotee of the Ravener King",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6831,6 +6831,6 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"devotee_of_the_ravener_king": { "copyof": "charau-ka,_devotee_of_the_ravener_king" },
-	"charau_kadevotee_of_the_ravener_king": { "copyof": "charau-ka,_devotee_of_the_ravener_king" }
+	"devotee_of_the_ravener_king": { "copyof": "charau-ka_devotee_of_the_ravener_king" },
+	"charau_kadevotee_of_the_ravener_king": { "copyof": "charau-ka_devotee_of_the_ravener_king" }
 }

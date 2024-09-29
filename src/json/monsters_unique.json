@@ -360,7 +360,7 @@
 			"The blade has two abilities only Arazni can use. If she hurls Harlot's Kiss using the hand of the apprentice ability, it can perform a full attack against a single target rather than a single attack, instantly returning to Arazni at the end of her turn. However, she can't use hand of the apprentice on the rapier while it's dancing. If Arazni expends one use of mythic power when commanding the weapon to dance, the weapon's attacks use her caster level as the base attack bonus (effectively gaining a +10 bonus on attack rolls) for as long as it dances."
 		]
 	},
-	"archdevil,_baalzebul": {
+	"archdevil_baalzebul": {
 		"name": "Archdevil, Baalzebul",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -443,8 +443,8 @@
 			"[^M]: Baalzebul can use this ability's mythic version in his infernal realm."
 		]
 	},
-	"baalzebul": { "copyof": "archdevil,_baalzebul" },
-	"archdevil,_barbatos": {
+	"baalzebul": { "copyof": "archdevil_baalzebul" },
+	"archdevil_barbatos": {
 		"name": "Archdevil, Barbatos",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -522,8 +522,8 @@
 			"[^M]: Barbatos can use this ability's mythic version in his realm"
 		]
 	},
-	"barbatos": { "copyof": "archdevil,_barbatos" },
-	"archdevil,_belial": {
+	"barbatos": { "copyof": "archdevil_barbatos" },
+	"archdevil_belial": {
 		"name": "Archdevil, Belial",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -607,8 +607,8 @@
 			"[^M]: Belial can use this ability's mythic version in their realm."
 		]
 	},
-	"belial": { "copyof": "archdevil,_belial" },
-	"archdevil,_dispater": {
+	"belial": { "copyof": "archdevil_belial" },
+	"archdevil_dispater": {
 		"name": "Archdevil, Dispater",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -685,8 +685,8 @@
 			"[^M]: Dispater can use this ability's mythic version in his realm."
 		]
 	},
-	"dispater": { "copyof": "archdevil,_dispater" },
-	"archdevil,_geryon": {
+	"dispater": { "copyof": "archdevil_dispater" },
+	"archdevil_geryon": {
 		"name": "Archdevil, Geryon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -769,8 +769,8 @@
 			"[^M]: Geryon can use this ability's mythic version in its realm."
 		]
 	},
-	"geryon": { "copyof": "archdevil,_geryon" },
-	"archdevil,_mammon": {
+	"geryon": { "copyof": "archdevil_geryon" },
+	"archdevil_mammon": {
 		"name": "Archdevil, Mammon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -847,8 +847,8 @@
 			"[^M]: Mammon can use this ability's mythic version in his realm."
 		]
 	},
-	"mammon": { "copyof": "archdevil,_mammon" },
-	"archdevil,_mephistopheles": {
+	"mammon": { "copyof": "archdevil_mammon" },
+	"archdevil_mephistopheles": {
 		"name": "Archdevil, Mephistopheles",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -925,8 +925,8 @@
 			"[^M]: Mephistopheles can use this ability's mythic version in his realm."
 		]
 	},
-	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
-	"archdevil,_moloch": {
+	"mephistopheles": { "copyof": "archdevil_mephistopheles" },
+	"archdevil_moloch": {
 		"name": "Archdevil, Moloch",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1009,7 +1009,7 @@
 			"[^M]: Moloch can use this ability's mythic version in his realm"
 		]
 	},
-	"moloch": { "copyof": "archdevil,_moloch" },
+	"moloch": { "copyof": "archdevil_moloch" },
 	"aridus": {
 		"name": "Aridus, the Desert's Howl",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -1194,7 +1194,7 @@
 			"Around campfires and in front of hearths on cold winter nights, wise grandmothers and favored uncles recite countless tales of a stern and powerful woman. Some know her as the Old Crone, others as Old Knobby Legs. She's often called the Queen of the Witches, but those who are wise call her Dear Grandmother. She is Baba Yaga, and on Golarion, she has an oppressive and violent legacy. But, on other worlds, the foolhardy and the brave seek her for wisdom and magic."
 		]
 	},
-	"baba_yaga's_rider,_black_rider": {
+	"baba_yaga's_rider_black_rider": {
 		"name": "Baba Yaga's Rider, Black Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1259,8 +1259,8 @@
 			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
-	"black_rider": { "copyof": "baba_yaga's_rider,_black_rider" },
-	"baba_yaga's_rider,_red_rider": {
+	"black_rider": { "copyof": "baba_yaga's_rider_black_rider" },
+	"baba_yaga's_rider_red_rider": {
 		"name": "Baba Yaga's Rider, Red Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1324,8 +1324,8 @@
 			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
-	"red_rider": { "copyof": "baba_yaga's_rider,_red_rider" },
-	"baba_yaga's_rider,_white_rider": {
+	"red_rider": { "copyof": "baba_yaga's_rider_red_rider" },
+	"baba_yaga's_rider_white_rider": {
 		"name": "Baba Yaga's Rider, White Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1391,7 +1391,7 @@
 			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
 		]
 	},
-	"white_rider": { "copyof": "baba_yaga's_rider,_white_rider" },
+	"white_rider": { "copyof": "baba_yaga's_rider_white_rider" },
 	"balravnus": {
 		"name": "Balravnus, Lord of the Deep Pools",
 		"sources": [ "Demons Revisited" ],
@@ -1460,7 +1460,7 @@
 			"",
 			"### Bee-Man of Bellis, CR 9",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 51](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 51](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 6,400  ",
 			"NE Medium aberration  ",
 			"**Init** +6; **Senses** darkvision 60 ft., scent; Perception +18",
@@ -1794,7 +1794,7 @@
 			"Among the other celestial servitors of Milani, Courage Heart is beloved as a comrade and leader. She often gathers teams of like-minded celestials to ambush and slay devils, undead, and minions of Zon-Kuthon, then retires with these comrades to Milani's realm in Elysium to tell stories of each other's bravery and virtue."
 		]
 	},
-	"daemonic_harbinger,_braismois": {
+	"daemonic_harbinger_braismois": {
 		"name": "Daemonic Harbinger, Braismois",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
@@ -1804,7 +1804,7 @@
 			"",
 			"### Braismois, CR 22",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 58](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 58](source/druma_profit_and_prophecy)  ",
 			"**XP** 614,400  ",
 			"NE Medium outsider (daemon, evil, extraplanar)  ",
 			"**Init** +15; **Senses** darkvision 60 ft., [true seeing](spell/true_seeing); Perception +38  ",
@@ -1874,7 +1874,7 @@
 			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](faith/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the would-be enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](faith/charon) as the Horseman of Death."
 		]
 	},
-	"braismois": { "copyof": "daemonic_harbinger,_braismois" },
+	"braismois": { "copyof": "daemonic_harbinger_braismois" },
 	"dancing_hut_of_baba_yaga": {
 		"name": "Dancing Hut of Baba Yaga",
 		"sources": [
@@ -1934,7 +1934,7 @@
 			"A rustic hut stands here, its timber walls hung with bundles of drying herbs and etched with eerie symbols. From beneath its splintering wooden porch extends a pair of legs, like those of a fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors."
 		]
 	},
-	"demon_lord,_baphomet": {
+	"demon_lord_baphomet": {
 		"name": "Demon Lord, Baphomet",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
@@ -2020,8 +2020,8 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"baphomet": { "copyof": "demon_lord,_baphomet" },
-	"demon_lord,_dagon": {
+	"baphomet": { "copyof": "demon_lord_baphomet" },
+	"demon_lord_dagon": {
 		"name": "Demon Lord, Dagon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2100,8 +2100,8 @@
 			"[^M]: Dagon can use the mythic version of this ability in his realm."
 		]
 	},
-	"dagon": { "copyof": "demon_lord,_dagon" },
-	"demon_lord,_deskari": {
+	"dagon": { "copyof": "demon_lord_dagon" },
+	"demon_lord_deskari": {
 		"name": "Demon Lord, Deskari",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
@@ -2187,8 +2187,8 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"deskari": { "copyof": "demon_lord,_deskari" },
-	"demon_lord,_kostchtchie": {
+	"deskari": { "copyof": "demon_lord_deskari" },
+	"demon_lord_kostchtchie": {
 		"name": "Demon Lord, Kostchtchie",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2273,8 +2273,8 @@
 			"[^M]: Kostchtchie can use the mythic version of this ability in his realm."
 		]
 	},
-	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
-	"demon_lord,_nocticula": {
+	"kostchtchie": { "copyof": "demon_lord_kostchtchie" },
+	"demon_lord_nocticula": {
 		"name": "Demon Lord, Nocticula",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
@@ -2360,8 +2360,8 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"nocticula": { "copyof": "demon_lord,_nocticula" },
-	"demon_lord,_pazuzu": {
+	"nocticula": { "copyof": "demon_lord_nocticula" },
+	"demon_lord_pazuzu": {
 		"name": "Demon Lord, Pazuzu",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2444,8 +2444,8 @@
 			"[^M]: Pazuzu can use the mythic version of this ability in his realm."
 		]
 	},
-	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
-	"demon_lord,_shax": {
+	"pazuzu": { "copyof": "demon_lord_pazuzu" },
+	"demon_lord_shax": {
 		"name": "Demon Lord, Shax",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
@@ -2532,8 +2532,8 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"shax": { "copyof": "demon_lord,_shax" },
-	"demon_lord,_sifkesh": {
+	"shax": { "copyof": "demon_lord_shax" },
+	"demon_lord_sifkesh": {
 		"name": "Demon Lord, Sifkesh",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
@@ -2619,8 +2619,8 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"sifkesh": { "copyof": "demon_lord,_sifkesh" },
-	"demon_lord,_xoveron": {
+	"sifkesh": { "copyof": "demon_lord_sifkesh" },
+	"demon_lord_xoveron": {
 		"name": "Demon Lord, Xoveron",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
@@ -2703,7 +2703,7 @@
 			"**Family:** [Demon Lord](family/demon_lord)"
 		]
 	},
-	"xoveron": { "copyof": "demon_lord,_xoveron" },
+	"xoveron": { "copyof": "demon_lord_xoveron" },
 	"emperor_of_scales": {
 		"name": "Emperor of Scales",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
@@ -2775,7 +2775,7 @@
 			"The Emperor of Scales does not speak, but it can communicate telepathically. Snakes and serpents of all kinds and sizes flock to the Emperor of Scales, who can enslave them to his will. The Emperor of Scales appears as a giant snake's head about 20 feet long, and weighs close to 5 tons. His serpentine tendrils extend another 15 feet behind and around his head."
 		]
 	},
-	"empyreal_lord,_arshea": {
+	"empyreal_lord_arshea": {
 		"name": "Empyreal Lord, Arshea",
 		"sources": [
 			"Bestiary 6",
@@ -2860,8 +2860,8 @@
 			"[^M]: Arshea can use the mythic version of this ability in certain conditions (see Nomadic below)."
 		]
 	},
-	"arshea": { "copyof": "empyreal_lord,_arshea" },
-	"empyreal_lord,_ashava": {
+	"arshea": { "copyof": "empyreal_lord_arshea" },
+	"empyreal_lord_ashava": {
 		"name": "Empyreal Lord, Ashava",
 		"sources": [
 			"Pathfinder #134: It Came from Hollow Mountain",
@@ -2949,8 +2949,8 @@
 			"[^M]: Ashava can use this ability's mythic version in her realm."
 		]
 	},
-	"ashava": { "copyof": "empyreal_lord,_ashava" },
-	"empyreal_lord,_black_butterfly": {
+	"ashava": { "copyof": "empyreal_lord_ashava" },
+	"empyreal_lord_black_butterfly": {
 		"name": "Empyreal Lord, Black Butterfly",
 		"sources": [
 			"Bestiary 6",
@@ -3039,8 +3039,8 @@
 			"[^M]: Black Butterfly can use this ability's mythic version in her realm."
 		]
 	},
-	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
-	"empyreal_lord,_cernunnos": {
+	"black_butterfly": { "copyof": "empyreal_lord_black_butterfly" },
+	"empyreal_lord_cernunnos": {
 		"name": "Empyreal Lord, Cernunnos",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3143,8 +3143,8 @@
 			"[^M]: Cernunnos can use the mythic version of this ability in his realm."
 		]
 	},
-	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
-	"empyreal_lord,_korada": {
+	"cernunnos": { "copyof": "empyreal_lord_cernunnos" },
+	"empyreal_lord_korada": {
 		"name": "Empyreal Lord, Korada",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3233,8 +3233,8 @@
 			"[^M]: Korada can use the mythic version of this ability in his realm."
 		]
 	},
-	"korada": { "copyof": "empyreal_lord,_korada" },
-	"empyreal_lord,_ragathiel": {
+	"korada": { "copyof": "empyreal_lord_korada" },
+	"empyreal_lord_ragathiel": {
 		"name": "Empyreal Lord, Ragathiel",
 		"sources": [
 			"Bestiary 6",
@@ -3322,8 +3322,8 @@
 			"[^M]: Ragathiel can use this ability's mythic version in his realm."
 		]
 	},
-	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
-	"empyreal_lord,_vildeis": {
+	"ragathiel": { "copyof": "empyreal_lord_ragathiel" },
+	"empyreal_lord_vildeis": {
 		"name": "Empyreal Lord, Vildeis",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3411,7 +3411,7 @@
 			"[^M]: Vildeis can use the mythic version of this ability in her realm.  "
 		]
 	},
-	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
+	"vildeis": { "copyof": "empyreal_lord_vildeis" },
 	"erotundee": {
 		"name": "Erotundee, Keeper of the Risen Light",
 		"sources": [ "Demons Revisited" ],
@@ -3698,7 +3698,7 @@
 			"Ghristah enjoys teaching other troglodytes the basics of hunting and stalking prey. Because of her wandering nature, she rarely spends much time with a given tribe, but she has perfected working with other troglodytes, making optimal use of their unrefined tactics. When confronted by hostile intruders, Ghristah is not above recruiting local troglodytes and reptiles to work with her in overcoming these foes. She may stalk her prey for months at a time, striking at inopportune moments or using her magic at range to confound foes already caught up with other threats."
 		]
 	},
-	"great_old_one,_atlach-nacha": {
+	"great_old_one_atlach-nacha": {
 		"name": "Great Old One, Atlach-Nacha",
 		"sources": [
 			"Pathfinder #112: The Whisper Out of Time",
@@ -3791,6 +3791,6 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"atlach-nacha": { "copyof": "great_old_one,_atlach-nacha" },
-	"atlach_nacha": { "copyof": "great_old_one,_atlach-nacha" }
+	"atlach-nacha": { "copyof": "great_old_one_atlach-nacha" },
+	"atlach_nacha": { "copyof": "great_old_one_atlach-nacha" }
 }

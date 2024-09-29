@@ -544,7 +544,7 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		],
 		"siblings": [
@@ -575,7 +575,7 @@
 			"",
 			"In order for you to secure a reliable contact, you must establish and maintain the contact's trust. A new contact won't typically reveal the full extent of his abilities or covert affiliations. For example, your childhood friend might have close ties with a political organization, thieves' guild, or street gang, but may keep this information secret to protect himself and you. At some point, the friend reveals this connection and becomes a contact for you. As the contact's trust increases, he becomes more willing to perform or secure various services for you, provided those services remain within his means.",
 			"",
-			"Trust is measured on a scale of 1 to 5, with 1 being the least amount of trust and 5 representing the highest. You build trust through successful interactions between you and your contact. As these interactions accrue, the level of Trust increases (see [Gaining, Cultivating, and Losing Contacts](rule/gaining,_cultivating,_and_losing_contacts)). A contact can have different Trust scores for different PCs in the same adventuring party-a city guard could have a high Trust score for a paladin PC he's known for a while and a low Trust score for a wizard PC who is new to town. For some contacts, the Trust score declines if they haven't heard from you in a while, but rebuilding Trust to its earlier level is faster than starting from scratch.",
+			"Trust is measured on a scale of 1 to 5, with 1 being the least amount of trust and 5 representing the highest. You build trust through successful interactions between you and your contact. As these interactions accrue, the level of Trust increases (see [Gaining, Cultivating, and Losing Contacts](rule/gaining_cultivating_and_losing_contacts)). A contact can have different Trust scores for different PCs in the same adventuring party-a city guard could have a high Trust score for a paladin PC he's known for a while and a low Trust score for a wizard PC who is new to town. For some contacts, the Trust score declines if they haven't heard from you in a while, but rebuilding Trust to its earlier level is faster than starting from scratch.",
 			"",
 			"The different trust levels are as follows.",
 			"",
@@ -598,7 +598,7 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		]
 	},
@@ -642,7 +642,7 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		]
 	},
@@ -684,11 +684,11 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		]
 	},
-	"gaining,_cultivating,_and_losing_contacts": {
+	"gaining_cultivating_and_losing_contacts": {
 		"name": "Gaining, Cultivating, and Losing Contacts",
 		"subtitle": "Campaign Systems, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -724,7 +724,7 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		]
 	},
@@ -796,7 +796,7 @@
 			"trust",
 			"risk",
 			"negotiation_checks",
-			"gaining,_cultivating,_and_losing_contacts",
+			"gaining_cultivating_and_losing_contacts",
 			"types_of_contacts"
 		]
 	},
@@ -1696,10 +1696,10 @@
 		"subtopics": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		],
 		"siblings": [
 			"tracking_travel",
@@ -1732,10 +1732,10 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
 	"blight_any": {
@@ -1756,13 +1756,13 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
-	"deadly_gas_desert,_marsh": {
+	"deadly_gas_desert_marsh": {
 		"name": "Deadly Gas (Desert, Marsh)",
 		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -1784,13 +1784,13 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
-	"dust_devil_desert,_hill,_plain": {
+	"dust_devil_desert_hill_plain": {
 		"name": "Dust Devil (Desert, Hill, Plain)",
 		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -1808,13 +1808,13 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
-	"grass_fire_hill,_plain": {
+	"grass_fire_hill_plain": {
 		"name": "Grass Fire (Hill, Plain)",
 		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -1832,13 +1832,13 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
-	"volcanic_tremor_hill,_mountain": {
+	"volcanic_tremor_hill_mountain": {
 		"name": "Volcanic Tremor (Hill, Mountain)",
 		"subtitle": "Exploration, Gamemastering",
 		"sources": [ "Ultimate Campaign" ],
@@ -1856,10 +1856,10 @@
 		"siblings": [
 			"bad_weather_any",
 			"blight_any",
-			"deadly_gas_desert,_marsh",
-			"dust_devil_desert,_hill,_plain",
-			"grass_fire_hill,_plain",
-			"volcanic_tremor_hill,_mountain"
+			"deadly_gas_desert_marsh",
+			"dust_devil_desert_hill_plain",
+			"grass_fire_hill_plain",
+			"volcanic_tremor_hill_mountain"
 		]
 	},
 	"exploration_rewards": {
@@ -3623,7 +3623,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		],
 		"siblings": [
 			"alignments",
@@ -3708,7 +3708,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"sphere_of_influence": {
@@ -3752,7 +3752,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"prestige_points": {
@@ -3777,7 +3777,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"awards": {
@@ -3813,7 +3813,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"fame_1": {
@@ -4054,7 +4054,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"shared_fame": {
@@ -4078,10 +4078,10 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
-	"alter_egos,_aliases,_and_secret_identities": {
+	"alter_egos_aliases_and_secret_identities": {
 		"name": "Alter Egos, Aliases, and Secret Identities",
 		"subtitle": "Gamemastering",
 		"tags": "fame",
@@ -4107,7 +4107,7 @@
 			"awards",
 			"disrepute_and_infamy",
 			"shared_fame",
-			"alter_egos,_aliases,_and_secret_identities"
+			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"retirement": {

@@ -146,7 +146,7 @@
 			"These statistics are for an extinction wave device designed to target command and control centers. Smaller and larger extinction wave devices exist. For example, a portable wave extinction device delivers a 1,000-foot-radius effect and weighs 50 pounds."
 		]
 	},
-	"memory_facet_aggression,_ego,_inhibitor": {
+	"memory_facet_aggression_ego_inhibitor": {
 		"name": "Memory facet (aggression, ego, inhibitor)",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
@@ -167,10 +167,7 @@
 			"**Inhibitor Facet:** An inhibitor facet is unusual among memory facets in that it isn't intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI's Charisma by 4 and imposes a -4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack."
 		]
 	},
-	"memory_facet_aggression_ego_inhibitor": {
-		"copyof": "memory_facet_aggression,_ego,_inhibitor"
-	},
-	"memory_facet_compassion,_ingenuity": {
+	"memory_facet_compassion_ingenuity": {
 		"name": "Memory facet (compassion, ingenuity)",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -192,10 +189,7 @@
 			"**Ingenuity Facet:** An ingenuity facet grants an AI insight into the construction and maintenance of technological items and robot maintenance. This facet grants a +4 bonus on Disable Device checks, as well as the Craft Technological Arms and Armor and Craft Technological Item feats. While the AI controls a robot, this facet given the AI the ability to repair 3d8+15 points of damage to any robot it can touch (including itself) as a full-round action at will, but only once per day for any given robot."
 		]
 	},
-	"memory_facet_compassion_ingenuity": {
-		"copyof": "memory_facet_compassion,_ingenuity"
-	},
-	"memory_facet_creativity,_cruelty,_instinct,_intuition,_logic,_psyche": {
+	"memory_facet_creativity_cruelty_instinct_intuition_logic_psyche": {
 		"name": "Memory facet (creativity, cruelty, instinct, intuition, logic, psyche)",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -225,10 +219,7 @@
 			"**Psyche Facet:** A psyche facet bolsters a robot's sense of self and enhances its ability to resist peril and danger. It grants a +3 resistance bonus on all saving throws. In addition, once per day the AI can restore a destroyed robot to activity, as memory of function, using the AI's CR as the effective caster level."
 		]
 	},
-	"memory_facet_creativity_cruelty_instinct_intuition_logic_psyche": {
-		"copyof": "memory_facet_creativity,_cruelty,_instinct,_intuition,_logic,_psyche"
-	},
-	"memory_facet_discipline,_entropy,_guile": {
+	"memory_facet_discipline_entropy_guile": {
 		"name": "Memory facet (discipline, entropy, guile)",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -251,9 +242,6 @@
 			"",
 			"**Guile Facet:** This facet augments the AI's skills at deception and trickery. The facet grants a +4 bonus on Bluff checks. When the AI attempts a Sense Motive check to see through a Bluff, it rolls twice and takes the higher result. Finally, while the AI is controlling a robot, it gains [Improved Feint](feat/improved_feint) and [Greater Feint](feat/greater_feint) as bonus feats; it does not need to meet the prerequisites for those feats."
 		]
-	},
-	"memory_facet_discipline_entropy_guile": {
-		"copyof": "memory_facet_discipline,_entropy,_guile"
 	},
 	"power_relay": {
 		"name": "Power Relay",

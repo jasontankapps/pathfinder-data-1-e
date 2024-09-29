@@ -1162,7 +1162,7 @@
 			"**Location:** Immune."
 		]
 	},
-	"umra916.html": {
+	"psychopomp_usher_traits": {
 		"name": "Psychopomp Usher Traits",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
@@ -1199,7 +1199,7 @@
 			"**Location:** Special Attacks (damage is listed in Ranged attack entry)."
 		]
 	},
-	"umraff4.html": {
+	"spells": {
 		"name": "Spells",
 		"sources": [ "Bestiary 5" ],
 		"description": [

@@ -1,5 +1,5 @@
 {
-	"great_old_one,_bokrug": {
+	"great_old_one_bokrug": {
 		"name": "Great Old One, Bokrug",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -84,8 +84,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"bokrug": { "copyof": "great_old_one,_bokrug" },
-	"great_old_one,_cthulhu": {
+	"bokrug": { "copyof": "great_old_one_bokrug" },
+	"great_old_one_cthulhu": {
 		"name": "Great Old One, Cthulhu",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -166,8 +166,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"cthulhu": { "copyof": "great_old_one,_cthulhu" },
-	"great_old_one,_ghatanothoa": {
+	"cthulhu": { "copyof": "great_old_one_cthulhu" },
+	"great_old_one_ghatanothoa": {
 		"name": "Great Old One, Ghatanothoa",
 		"sources": [
 			"Pathfinder #114: Black Stars Beckon",
@@ -247,8 +247,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"ghatanothoa": { "copyof": "great_old_one,_ghatanothoa" },
-	"great_old_one,_hastur": {
+	"ghatanothoa": { "copyof": "great_old_one_ghatanothoa" },
+	"great_old_one_hastur": {
 		"name": "Great Old One, Hastur",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -327,8 +327,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"hastur": { "copyof": "great_old_one,_hastur" },
-	"great_old_one,_ithaqua": {
+	"hastur": { "copyof": "great_old_one_hastur" },
+	"great_old_one_ithaqua": {
 		"name": "Great Old One, Ithaqua",
 		"sources": [
 			"Pathfinder #109: In Search of Sanity",
@@ -420,8 +420,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"ithaqua": { "copyof": "great_old_one,_ithaqua" },
-	"great_old_one,_mhar": {
+	"ithaqua": { "copyof": "great_old_one_ithaqua" },
+	"great_old_one_mhar": {
 		"name": "Great Old One, Mhar",
 		"sources": [
 			"Pathfinder #138: Rise of New Thassilon",
@@ -502,8 +502,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"mhar": { "copyof": "great_old_one,_mhar" },
-	"great_old_one,_mordiggian": {
+	"mhar": { "copyof": "great_old_one_mhar" },
+	"great_old_one_mordiggian": {
 		"name": "Great Old One, Mordiggian",
 		"sources": [
 			"Pathfinder #110: The Thrushmoor Terror",
@@ -589,8 +589,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"mordiggian": { "copyof": "great_old_one,_mordiggian" },
-	"great_old_one,_rhan-tegoth": {
+	"mordiggian": { "copyof": "great_old_one_mordiggian" },
+	"great_old_one_rhan-tegoth": {
 		"name": "Great Old One, Rhan-Tegoth",
 		"sources": [
 			"Bestiary 6",
@@ -676,9 +676,9 @@
 			"[^M]: mythic spell"
 		]
 	},
-	"rhan-tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
-	"rhan_tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
-	"great_old_one,_tawil_at'umr": {
+	"rhan-tegoth": { "copyof": "great_old_one_rhan-tegoth" },
+	"rhan_tegoth": { "copyof": "great_old_one_rhan-tegoth" },
+	"great_old_one_tawil_at'umr": {
 		"name": "Great Old One, Tawil At'umr",
 		"sources": [
 			"Bestiary 6",
@@ -766,8 +766,8 @@
 			"[^M]: mythic spell"
 		]
 	},
-	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
-	"great_old_one,_tsathoggua": {
+	"tawil_at'umr": { "copyof": "great_old_one_tawil_at'umr" },
+	"great_old_one_tsathoggua": {
 		"name": "Great Old One, Tsathoggua",
 		"sources": [
 			"Pathfinder #111: Dreams of the Yellow King",
@@ -866,8 +866,8 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"tsathoggua": { "copyof": "great_old_one,_tsathoggua" },
-	"great_old_one,_xhamen-dor": {
+	"tsathoggua": { "copyof": "great_old_one_tsathoggua" },
+	"great_old_one_xhamen-dor": {
 		"name": "Great Old One, Xhamen-Dor",
 		"sources": [
 			"Pathfinder #113: What Grows Within",
@@ -953,9 +953,9 @@
 			"**Family:** [Great Old One](family/great_old_one)"
 		]
 	},
-	"xhamen-dor": { "copyof": "great_old_one,_xhamen-dor" },
-	"xhamen_dor": { "copyof": "great_old_one,_xhamen-dor" },
-	"great_old_one,_yig": {
+	"xhamen-dor": { "copyof": "great_old_one_xhamen-dor" },
+	"xhamen_dor": { "copyof": "great_old_one_xhamen-dor" },
+	"great_old_one_yig": {
 		"name": "Great Old One, Yig",
 		"sources": [
 			"Bestiary 6",
@@ -1039,7 +1039,7 @@
 			"[^M]: mythic spell"
 		]
 	},
-	"yig": { "copyof": "great_old_one,_yig" },
+	"yig": { "copyof": "great_old_one_yig" },
 	"grendler_red-chains": {
 		"name": "Grendler Red-Chains",
 		"sources": [ "Fey Revisited" ],
@@ -1085,7 +1085,7 @@
 		]
 	},
 	"grendler_red_chains": { "copyof": "grendler_red-chains" },
-	"herald,_arcanotheign": {
+	"herald_arcanotheign": {
 		"name": "Herald, Arcanotheign",
 		"sources": [
 			"Inner Sea Gods",
@@ -1156,8 +1156,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"arcanotheign": { "copyof": "herald,_arcanotheign" },
-	"herald,_basileus": {
+	"arcanotheign": { "copyof": "herald_arcanotheign" },
+	"herald_basileus": {
 		"name": "Herald, Basileus",
 		"sources": [
 			"Inner Sea Gods",
@@ -1223,8 +1223,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"basileus": { "copyof": "herald,_basileus" },
-	"herald,_end's_voice": {
+	"basileus": { "copyof": "herald_basileus" },
+	"herald_end's_voice": {
 		"name": "Herald, End's Voice",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -1307,8 +1307,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"end's_voice": { "copyof": "herald,_end's_voice" },
-	"herald,_gravedragger": {
+	"end's_voice": { "copyof": "herald_end's_voice" },
+	"herald_gravedragger": {
 		"name": "Herald, Gravedragger",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
@@ -1394,8 +1394,8 @@
 			"The herald sometimes associates with various daemons who help him effect these structured accidents, particularly hydrodaemons (death by drowning), leukodaemons (death by plague), meladaemons (death by starvation and thirst), and crucidaemons (death by traps). In the mortal world, Gravedragger has a fondness for pugwampis and trickster fey, especially bogeymen, and has been known to guide their efforts or even transport them over long distances to save them from extermination or help them to find new victims. He sometimes sneaks into a city in his Grinjack form carrying a sack of pugwampis and releases them upon an unsuspecting urban population, cackling glee as he watches the aftermath."
 		]
 	},
-	"gravedragger": { "copyof": "herald,_gravedragger" },
-	"herald,_great_elder_iuu": {
+	"gravedragger": { "copyof": "herald_gravedragger" },
+	"herald_great_elder_iuu": {
 		"name": "Herald, Great Elder Iuu",
 		"sources": [
 			"Pathfinder #93: Forge of the Giant God",
@@ -1488,8 +1488,8 @@
 			"When he visits the mortal world, Iuu typically travels with other stone giants; it's very rare that he's encountered alone. Usually, his companions are members of the tribe he came to the Material Plane to help. However, in rare cases, the giants who accompany him are his \"proud children\"-worthy petitioners temporarily given mortal bodies in the form of fiendish stone giants. These companions give Iuu many hands to accomplish tasks that, even with his great strength and knowledge, would be difficult to handle alone."
 		]
 	},
-	"great_elder_iuu": { "copyof": "herald,_great_elder_iuu" },
-	"herald,_hand_of_the_inheritor": {
+	"great_elder_iuu": { "copyof": "herald_great_elder_iuu" },
+	"herald_hand_of_the_inheritor": {
 		"name": "Herald, Hand of the Inheritor",
 		"sources": [
 			"Inner Sea Gods",
@@ -1553,8 +1553,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"hand_of_the_inheritor": { "copyof": "herald,_hand_of_the_inheritor" },
-	"herald,_latten_mechanism": {
+	"hand_of_the_inheritor": { "copyof": "herald_hand_of_the_inheritor" },
+	"herald_latten_mechanism": {
 		"name": "Herald, Latten Mechanism",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -1645,8 +1645,8 @@
 			"Among the servitors of Brigh, Latten Mechanism is admired for its crafting skills and devotion to all artificial creatures. Some servitors who become melancholy and long to become true flesh beings seek counsel from the herald, hoping to gain a better appreciation of their mechanical bodies and the uniqueness of their souls."
 		]
 	},
-	"latten_mechanism": { "copyof": "herald,_latten_mechanism" },
-	"herald,_mother's_maw": {
+	"latten_mechanism": { "copyof": "herald_latten_mechanism" },
+	"herald_mother's_maw": {
 		"name": "Herald, Mother's Maw",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
@@ -1722,8 +1722,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"mother's_maw": { "copyof": "herald,_mother's_maw" },
-	"herald,_personification_of_fury": {
+	"mother's_maw": { "copyof": "herald_mother's_maw" },
+	"herald_personification_of_fury": {
 		"name": "Herald, Personification of Fury",
 		"sources": [
 			"Inner Sea Gods",
@@ -1796,8 +1796,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"personification_of_fury": { "copyof": "herald,_personification_of_fury" },
-	"herald,_steward_of_the_skein": {
+	"personification_of_fury": { "copyof": "herald_personification_of_fury" },
+	"herald_steward_of_the_skein": {
 		"name": "Herald, Steward of the Skein",
 		"sources": [
 			"Inner Sea Gods",
@@ -1863,8 +1863,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"steward_of_the_skein": { "copyof": "herald,_steward_of_the_skein" },
-	"herald,_sunlord_thalachos": {
+	"steward_of_the_skein": { "copyof": "herald_steward_of_the_skein" },
+	"herald_sunlord_thalachos": {
 		"name": "Herald, Sunlord Thalachos",
 		"sources": [
 			"Inner Sea Gods",
@@ -1932,8 +1932,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"sunlord_thalachos": { "copyof": "herald,_sunlord_thalachos" },
-	"herald,_tarrasque": {
+	"sunlord_thalachos": { "copyof": "herald_sunlord_thalachos" },
+	"herald_tarrasque": {
 		"name": "Herald, Tarrasque",
 		"sources": [
 			"Inner Sea Gods",
@@ -2001,8 +2001,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"tarrasque": { "copyof": "herald,_tarrasque" },
-	"herald,_thais": {
+	"tarrasque": { "copyof": "herald_tarrasque" },
+	"herald_thais": {
 		"name": "Herald, Thais",
 		"sources": [
 			"Inner Sea Gods",
@@ -2071,8 +2071,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"thais": { "copyof": "herald,_thais" },
-	"herald,_the_first_blade": {
+	"thais": { "copyof": "herald_thais" },
+	"herald_the_first_blade": {
 		"name": "Herald, The First Blade",
 		"sources": [
 			"Inner Sea Gods",
@@ -2147,8 +2147,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_first_blade": { "copyof": "herald,_the_first_blade" },
-	"herald,_the_grand_defender": {
+	"the_first_blade": { "copyof": "herald_the_first_blade" },
+	"herald_the_grand_defender": {
 		"name": "Herald, The Grand Defender",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2212,8 +2212,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_grand_defender": { "copyof": "herald,_the_grand_defender" },
-	"herald,_the_grim_white_stag": {
+	"the_grand_defender": { "copyof": "herald_the_grand_defender" },
+	"herald_the_grim_white_stag": {
 		"name": "Herald, The Grim White Stag",
 		"sources": [
 			"Inner Sea Gods",
@@ -2282,8 +2282,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_grim_white_stag": { "copyof": "herald,_the_grim_white_stag" },
-	"herald,_the_menotherian": {
+	"the_grim_white_stag": { "copyof": "herald_the_grim_white_stag" },
+	"herald_the_menotherian": {
 		"name": "Herald, The Menotherian",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2349,9 +2349,9 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_menotherian": { "copyof": "herald,_the_menotherian" },
-	"menotherian": { "copyof": "herald,_the_menotherian" },
-	"herald,_the_old_man": {
+	"the_menotherian": { "copyof": "herald_the_menotherian" },
+	"menotherian": { "copyof": "herald_the_menotherian" },
+	"herald_the_old_man": {
 		"name": "Herald, The Old Man",
 		"sources": [
 			"Inner Sea Gods",
@@ -2416,8 +2416,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_old_man": { "copyof": "herald,_the_old_man" },
-	"herald,_the_spirit_of_adoration": {
+	"the_old_man": { "copyof": "herald_the_old_man" },
+	"herald_the_spirit_of_adoration": {
 		"name": "Herald, The Spirit of Adoration",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2482,8 +2482,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_spirit_of_adoration": { "copyof": "herald,_the_spirit_of_adoration" },
-	"herald,_the_stabbing_beast": {
+	"the_spirit_of_adoration": { "copyof": "herald_the_spirit_of_adoration" },
+	"herald_the_stabbing_beast": {
 		"name": "Herald, The Stabbing Beast",
 		"sources": [
 			"Inner Sea Gods",
@@ -2553,8 +2553,8 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"the_stabbing_beast": { "copyof": "herald,_the_stabbing_beast" },
-	"horsemen_of_the_apocalypse,_apollyon": {
+	"the_stabbing_beast": { "copyof": "herald_the_stabbing_beast" },
+	"horsemen_of_the_apocalypse_apollyon": {
 		"name": "Horsemen of the Apocalypse, Apollyon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2633,8 +2633,8 @@
 			"[^M]: Apollyon can use this ability's mythic version in his realm."
 		]
 	},
-	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
-	"horsemen_of_the_apocalypse,_charon": {
+	"apollyon": { "copyof": "horsemen_of_the_apocalypse_apollyon" },
+	"horsemen_of_the_apocalypse_charon": {
 		"name": "Horsemen of the Apocalypse, Charon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2720,8 +2720,8 @@
 			"[^M]: Charon can use this ability's mythic version in his realm"
 		]
 	},
-	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
-	"horsemen_of_the_apocalypse,_szuriel": {
+	"charon": { "copyof": "horsemen_of_the_apocalypse_charon" },
+	"horsemen_of_the_apocalypse_szuriel": {
 		"name": "Horsemen of the Apocalypse, Szuriel",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2799,8 +2799,8 @@
 			"[^M]: Szuriel can use this ability's mythic version in her realm."
 		]
 	},
-	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
-	"horsemen_of_the_apocalypse,_trelmarixian": {
+	"szuriel": { "copyof": "horsemen_of_the_apocalypse_szuriel" },
+	"horsemen_of_the_apocalypse_trelmarixian": {
 		"name": "Horsemen of the Apocalypse, Trelmarixian",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2880,7 +2880,7 @@
 			"[^M]: Trelmarixian can use this ability's mythic version in his realm."
 		]
 	},
-	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
+	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse_trelmarixian" },
 	"ilzunae": {
 		"name": "Ilzunae, the Gloom Widow",
 		"sources": [ "Demons Revisited" ],
@@ -3019,7 +3019,7 @@
 			"The details for the Winter's Heart artifact can be found [here](magic-artifact/winter's_heart)."
 		]
 	},
-	"kaiju,_agyra": {
+	"kaiju_agyra": {
 		"name": "Kaiju, Agyra",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3096,8 +3096,8 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"agyra": { "copyof": "kaiju,_agyra" },
-	"kaiju,_bezravnis": {
+	"agyra": { "copyof": "kaiju_agyra" },
+	"kaiju_bezravnis": {
 		"name": "Kaiju, Bezravnis",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3166,8 +3166,8 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"bezravnis": { "copyof": "kaiju,_bezravnis" },
-	"kaiju,_mogaru": {
+	"bezravnis": { "copyof": "kaiju_bezravnis" },
+	"kaiju_mogaru": {
 		"name": "Kaiju, Mogaru",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3240,9 +3240,9 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"mogaru": { "copyof": "kaiju,_mogaru" },
-	"king_mogaru": { "copyof": "kaiju,_mogaru" },
-	"kaiju,_varklops": {
+	"mogaru": { "copyof": "kaiju_mogaru" },
+	"king_mogaru": { "copyof": "kaiju_mogaru" },
+	"kaiju_varklops": {
 		"name": "Kaiju, Varklops",
 		"sources": [
 			"Bestiary 6",
@@ -3321,8 +3321,8 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"varklops": { "copyof": "kaiju,_varklops" },
-	"kaiju,_vorgozen": {
+	"varklops": { "copyof": "kaiju_varklops" },
+	"kaiju_vorgozen": {
 		"name": "Kaiju, Vorgozen",
 		"sources": [
 			"Bestiary 6",
@@ -3403,8 +3403,8 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"vorgozen": { "copyof": "kaiju,_vorgozen" },
-	"kaiju,_yarthoon": {
+	"vorgozen": { "copyof": "kaiju_vorgozen" },
+	"kaiju_yarthoon": {
 		"name": "Kaiju, Yarthoon",
 		"sources": [
 			"Bestiary 6",
@@ -3482,7 +3482,7 @@
 			"**Family:** [Kaiju](family/kaiju)"
 		]
 	},
-	"yarthoon": { "copyof": "kaiju,_yarthoon" },
+	"yarthoon": { "copyof": "kaiju_yarthoon" },
 	"kallas_devil": {
 		"name": "Kallas Devil",
 		"sources": [ "Fey Revisited" ],
@@ -3818,7 +3818,7 @@
 			"Kurshu has no compunction about killing something that defies her or appears to be withholding information or objects she wants (if she has to, she can compel answers from its corpse using limited wish to duplicate speak with dead). She feels her pseudo-mortality at all times and fears death, and is likely to flee any encounter in which she feels outmatched."
 		]
 	},
-	"kyton_demagogue,_inkariax": {
+	"kyton_demagogue_inkariax": {
 		"name": "Kyton Demagogue, Inkariax",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
@@ -3900,5 +3900,5 @@
 			"**Family:** [Kyton Demagogue](family/kyton_demagogue)"
 		]
 	},
-	"inkariax": { "copyof": "kyton_demagogue,_inkariax" }
+	"inkariax": { "copyof": "kyton_demagogue_inkariax" }
 }

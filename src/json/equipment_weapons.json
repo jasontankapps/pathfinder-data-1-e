@@ -395,7 +395,7 @@
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
 		]
 	},
-	"bolt,_acid": {
+	"bolt_acid": {
 		"name": "Bolt, acid",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -417,9 +417,9 @@
 		]
 	},
 	"acid_bolt": {
-		"copyof": "bolt,_acid"
+		"copyof": "bolt_acid"
 	},
-	"bolt,_alchemical_fire": {
+	"bolt_alchemical_fire": {
 		"name": "Bolt, alchemical fire",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -438,9 +438,9 @@
 		]
 	},
 	"alchemical_fire_bolt": {
-		"copyof": "bolt,_alchemical_fire"
+		"copyof": "bolt_alchemical_fire"
 	},
-	"bolt,_liquid_ice": {
+	"bolt_liquid_ice": {
 		"name": "Bolt, liquid ice",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -459,9 +459,9 @@
 		]
 	},
 	"liquid_ice_bolt": {
-		"copyof": "bolt,_liquid_ice"
+		"copyof": "bolt_liquid_ice"
 	},
-	"bolt,_poison": {
+	"bolt_poison": {
 		"name": "Bolt, poison",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -480,7 +480,7 @@
 		]
 	},
 	"poison_bolt": {
-		"copyof": "bolt,_poison"
+		"copyof": "bolt_poison"
 	},
 	"bone_burn": {
 		"name": "Bone Burn",
@@ -876,7 +876,7 @@
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
 		]
 	},
-	"firework_firecracker,_spirit": {
+	"firework_firecracker_spirit": {
 		"name": "Firework (firecracker, spirit)",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
@@ -892,7 +892,7 @@
 		]
 	},
 	"spirit_firework_firecracker": {
-		"copyof": "firework_firecracker,_spirit"
+		"copyof": "firework_firecracker_spirit"
 	},
 	"firework_flame_fountain": {
 		"name": "Firework (flame fountain)",
@@ -1661,7 +1661,7 @@
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
-			"This pungent concoction can be thrown as a splash weapon to trigger unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where the spore dehiscent lands must succeed at a DC 14 Fortitude save or immediately activate any of its effects based on spores or pollen, treating itself as the target or center of the effect. Fungal hazards like [russet mold](monster/vegepygmy) or [yellow mold](rule/slimes,_molds,_and_fungi) are activated automatically with no saving throw. Plant creatures or hazards in squares adjacent to the square of impact must each succeed at a DC 10 Fortitude save or suffer the same effect. Once the effect is triggered, the creature or hazard cannot activate the effect again for 1d4 rounds or until the effect could normally be used again, whichever is longer."
+			"This pungent concoction can be thrown as a splash weapon to trigger unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where the spore dehiscent lands must succeed at a DC 14 Fortitude save or immediately activate any of its effects based on spores or pollen, treating itself as the target or center of the effect. Fungal hazards like [russet mold](monster/vegepygmy) or [yellow mold](rule/slimes_molds_and_fungi) are activated automatically with no saving throw. Plant creatures or hazards in squares adjacent to the square of impact must each succeed at a DC 10 Fortitude save or suffer the same effect. Once the effect is triggered, the creature or hazard cannot activate the effect again for 1d4 rounds or until the effect could normally be used again, whichever is longer."
 		]
 	},
 	"stench-gas_bladder": {
@@ -1865,7 +1865,7 @@
 			"This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like a injury poison (save Fort DC 14; frequency 1/round for 6 rounds; cure 2 saves), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect."
 		]
 	},
-	"arrow,_iron-tipped_distance": {
+	"arrow_iron-tipped_distance": {
 		"name": "Arrow, iron-tipped distance",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -1881,7 +1881,7 @@
 		]
 	},
 	"arrow_iron_tipped_distance": {
-		"copyof": "arrow,_iron-tipped_distance"
+		"copyof": "arrow_iron-tipped_distance"
 	},
 	"arrow": {
 		"name": "Arrow",
@@ -2001,7 +2001,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		]
 	},
-	"bolts,_heartstake": {
+	"bolts_heartstake": {
 		"name": "Bolts, heartstake",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2016,10 +2016,7 @@
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		]
 	},
-	"bolts_heartstake": {
-		"copyof": "bolts,_heartstake"
-	},
-	"bullets,_groaning": {
+	"bullets_groaning": {
 		"name": "Bullets, groaning",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
@@ -2033,9 +2030,6 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		]
-	},
-	"bullets_groaning": {
-		"copyof": "bullets,_groaning"
 	},
 	"crossbow_bolts": {
 		"name": "Crossbow bolts",
@@ -2848,7 +2842,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Axes"
 		]
 	},
-	"kumade,_collapsible": {
+	"kumade_collapsible": {
 		"name": "Kumade, collapsible",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2862,9 +2856,6 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**[Weapon Group](ability/weapon_groups)** Axes"
 		]
-	},
-	"kumade_collapsible": {
-		"copyof": "kumade,_collapsible"
 	},
 	"lantern_staff": {
 		"name": "Lantern staff",
@@ -3324,7 +3315,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Monk"
 		]
 	},
-	"katar,_tri-bladed": {
+	"katar_tri-bladed": {
 		"name": "Katar, tri-bladed",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -3344,7 +3335,7 @@
 		]
 	},
 	"tri_bladed_katar": {
-		"copyof": "katar,_tri-bladed"
+		"copyof": "katar_tri-bladed"
 	},
 	"kerambit": {
 		"name": "Kerambit",
@@ -3533,7 +3524,7 @@
 		],
 		"description": [
 			"## Starknife",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [PRPG Core Rulebook pg. 142](source/prpg_core_rulebook), [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [PRPG Core Rulebook pg. 142](source/prpg_core_rulebook), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
 			"",
 			"From a central metal ring, four tapering metal blades extend from this weapon like points on a compass rose. By gripping the crossbar that runs through the weapon's open middle, a wielder can strike with it as a deadly melee weapon. Alternatively, by gripping it by the outer rim, a starknife's light, aerodynamic design allows it to be thrown short distances in a manner similar to a chakram.",
 			"",
@@ -3557,7 +3548,7 @@
 			"**Category** Light; **Proficiency** Martial"
 		]
 	},
-	"tailblade,_ratfolk": {
+	"tailblade_ratfolk": {
 		"name": "Tailblade, ratfolk",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -3570,9 +3561,6 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
 		]
-	},
-	"tailblade_ratfolk": {
-		"copyof": "tailblade,_ratfolk"
 	},
 	"throwing_axe": {
 		"name": "Throwing axe",
@@ -3696,7 +3684,7 @@
 			"**Category** One-Handed; **Proficiency** Martial"
 		]
 	},
-	"combat_scabbard,_sharpened": {
+	"combat_scabbard_sharpened": {
 		"name": "Combat scabbard, sharpened",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
@@ -3711,7 +3699,7 @@
 		]
 	},
 	"sharpened_combat_scabbard": {
-		"copyof": "combat_scabbard,_sharpened"
+		"copyof": "combat_scabbard_sharpened"
 	},
 	"cutlass": {
 		"name": "Cutlass",
@@ -3966,7 +3954,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
 		]
 	},
-	"terbutje,_steel": {
+	"terbutje_steel": {
 		"name": "Terbutje, steel",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
@@ -3981,7 +3969,7 @@
 		]
 	},
 	"steel_terbutje": {
-		"copyof": "terbutje,_steel"
+		"copyof": "terbutje_steel"
 	},
 	"trident": {
 		"name": "Trident",
@@ -4089,7 +4077,7 @@
 		],
 		"description": [
 			"## Earth breaker",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory), [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
 			"",
 			"The crude metal of this massive hammer's head ends in multiple blunt spikes that help concentrate the force of a powerful swing down into a smaller, more focused area, allowing it to smash through armor with greater ease. Due to the tremendous size and weight of its head, an earth breaker is poorly balanced, and requires two hands to properly lift and control.",
 			"",
@@ -4932,7 +4920,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown"
 		]
 	},
-	"axe-gauntlet,_dwarven_light": {
+	"axe-gauntlet_dwarven_light": {
 		"name": "Axe-gauntlet, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -4948,9 +4936,9 @@
 		]
 	},
 	"dwarven_light_axe_gauntlet": {
-		"copyof": "axe-gauntlet,_dwarven_light"
+		"copyof": "axe-gauntlet_dwarven_light"
 	},
-	"axe-gauntlet,_dwarven_heavy": {
+	"axe-gauntlet_dwarven_heavy": {
 		"name": "Axe-gauntlet, dwarven heavy",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -4966,14 +4954,14 @@
 		]
 	},
 	"dwarven_heavy_axe_gauntlet": {
-		"copyof": "axe-gauntlet,_dwarven_heavy"
+		"copyof": "axe-gauntlet_dwarven_heavy"
 	},
 	"barbazu_beard": {
 		"name": "Barbazu beard",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
 			"## Barbazu beard",
-			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 27](source/cheliax_empire_of_devils)",
 			"",
 			"Popular in Egorian but rarely seen elsewhere, a barbazu beard is an intimidating helm with a full facemask wrought to look like a snarling barbazu's head. Extending from the chin area of the face guard is a razor-sharp blade much like an actual barbazu's beard, usually 8 inches long but sometimes longer. A barbazu beard can be used as an off-hand weapon that requires no hands to use; thus, a warrior could combine use of a barbazu beard with a two-handed weapon. It otherwise follows all rules for using an off-hand weapon. Attacking with a barbazu beard provokes an attack of opportunity. Because it is so close to the wearer's face, using a barbazu beard against creatures harmful to touch (such as fire elementals and acidic oozes) has the same risks as using a natural weapon or unarmed strike against these creatures.",
 			"",
@@ -5165,7 +5153,7 @@
 	"halfling_rope_shot": {
 		"copyof": "halfling_rope-shot"
 	},
-	"helmet,_dwarven_boulder": {
+	"helmet_dwarven_boulder": {
 		"name": "Helmet, dwarven boulder",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -5180,7 +5168,7 @@
 		]
 	},
 	"dwarven_boulder_helmet": {
-		"copyof": "helmet,_dwarven_boulder"
+		"copyof": "helmet_dwarven_boulder"
 	},
 	"kama": {
 		"name": "Kama",
@@ -5289,7 +5277,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
 		]
 	},
-	"razor,_drow": {
+	"razor_drow": {
 		"name": "Razor, drow",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -5305,7 +5293,7 @@
 		]
 	},
 	"drow_razor": {
-		"copyof": "razor,_drow"
+		"copyof": "razor_drow"
 	},
 	"rope_gauntlet": {
 		"name": "Rope gauntlet",
@@ -5777,7 +5765,7 @@
 	"nine_section_whip": {
 		"copyof": "nine-section_whip"
 	},
-	"ram_hammer,_dwarven": {
+	"ram_hammer_dwarven": {
 		"name": "Ram hammer, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -5793,7 +5781,7 @@
 		]
 	},
 	"dwarven_ram_hammer": {
-		"copyof": "ram_hammer,_dwarven"
+		"copyof": "ram_hammer_dwarven"
 	},
 	"rhoka_sword": {
 		"name": "Rhoka sword",
@@ -6030,7 +6018,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		]
 	},
-	"battle_ladder,_gnome": {
+	"battle_ladder_gnome": {
 		"name": "Battle ladder, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -6049,7 +6037,7 @@
 		]
 	},
 	"gnome_battle_ladder": {
-		"copyof": "battle_ladder,_gnome"
+		"copyof": "battle_ladder_gnome"
 	},
 	"bladed_scarf": {
 		"name": "Bladed scarf",
@@ -6063,7 +6051,7 @@
 		],
 		"description": [
 			"## Bladed scarf",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
 			"",
 			"Knowing that seductive performances can bring out the worst in watchers, some Varisians craft rows of razor-sharp blades into their scarves. The skill required in using such scarves effectively and not revealing their deadly nature makes them exotic weapons. If you are proficient with a bladed scarf, you deal 1d4 points of slashing damage to any creature that makes a successful grapple check against you while you wield the scarf. You can use the [Weapon Finesse](feat/weapon_finesse) feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with a bladed scarf sized for you, even though it isn't a light weapon.",
 			"",
@@ -6197,7 +6185,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Double; Flails"
 		]
 	},
-	"dorn-dergar,_dwarven": {
+	"dorn-dergar_dwarven": {
 		"name": "Dorn-dergar, dwarven",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -6216,7 +6204,7 @@
 		]
 	},
 	"dwarven_dorn_dergar": {
-		"copyof": "dorn-dergar,_dwarven"
+		"copyof": "dorn-dergar_dwarven"
 	},
 	"double_spear": {
 		"name": "Double spear",
@@ -6404,7 +6392,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		]
 	},
-	"giant-sticker,_dwarven": {
+	"giant-sticker_dwarven": {
 		"name": "Giant-sticker, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -6420,7 +6408,7 @@
 		]
 	},
 	"dwarven_giant_sticker": {
-		"copyof": "giant-sticker,_dwarven"
+		"copyof": "giant-sticker_dwarven"
 	},
 	"gnome_hooked_hammer": {
 		"name": "Gnome hooked hammer",
@@ -6476,7 +6464,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		]
 	},
-	"katana,_double_walking_stick": {
+	"katana_double_walking_stick": {
 		"name": "Katana, double walking stick",
 		"sources": [
 			"Ultimate Equipment",
@@ -6493,9 +6481,6 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](ability/weapon_groups)** Double"
 		]
-	},
-	"katana_double_walking_stick": {
-		"copyof": "katana,_double_walking_stick"
 	},
 	"kusarigama": {
 		"name": "Kusarigama",
@@ -6533,7 +6518,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
 		]
 	},
-	"longaxe,_dwarven": {
+	"longaxe_dwarven": {
 		"name": "Longaxe, dwarven",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -6548,9 +6533,9 @@
 		]
 	},
 	"dwarven_longaxe": {
-		"copyof": "longaxe,_dwarven"
+		"copyof": "longaxe_dwarven"
 	},
-	"longhammer,_dwarven": {
+	"longhammer_dwarven": {
 		"name": "Longhammer, dwarven",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -6565,7 +6550,7 @@
 		]
 	},
 	"dwarven_longhammer": {
-		"copyof": "longhammer,_dwarven"
+		"copyof": "longhammer_dwarven"
 	},
 	"mancatcher": {
 		"name": "Mancatcher",
@@ -6639,7 +6624,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Spears"
 		]
 	},
-	"piston_maul,_gnome": {
+	"piston_maul_gnome": {
 		"name": "Piston maul, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -6658,9 +6643,9 @@
 		]
 	},
 	"gnome_piston_maul": {
-		"copyof": "piston_maul,_gnome"
+		"copyof": "piston_maul_gnome"
 	},
-	"ripsaw_glaive,_gnome": {
+	"ripsaw_glaive_gnome": {
 		"name": "Ripsaw glaive, gnome",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -6679,7 +6664,7 @@
 		]
 	},
 	"gnome_ripsaw_glaive": {
-		"copyof": "ripsaw_glaive,_gnome"
+		"copyof": "ripsaw_glaive_gnome"
 	},
 	"seven-branched_sword": {
 		"name": "Seven-branched sword",
@@ -6702,7 +6687,7 @@
 	"seven_branched_sword": {
 		"copyof": "seven-branched_sword"
 	},
-	"sphinx_hammer,_dwarven": {
+	"sphinx_hammer_dwarven": {
 		"name": "Sphinx hammer, dwarven",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -6718,7 +6703,7 @@
 		]
 	},
 	"dwarven_sphinx_hammer": {
-		"copyof": "sphinx_hammer,_dwarven"
+		"copyof": "sphinx_hammer_dwarven"
 	},
 	"spiked_chain": {
 		"name": "Spiked chain",
@@ -6779,7 +6764,7 @@
 		],
 		"description": [
 			"## Totem spear",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 35](source/pathfinder_#10_a_history_of_ashes)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 35](source/pathfinder_#10_a_history_of_ashes)",
 			"",
 			"Favored by the Shoanti of the Sklar-Quah, totem spears combine deadly weapons with the mournful music of Varisia's displaced natives. The shovel-like heads of these broad spears are decorated with variously oriented hollows. In addition to its use as a weapon, a totem spear can be played using the Perform (wind instrument) skill.",
 			"",
@@ -7055,7 +7040,7 @@
 			"**Category** Ranged; **Proficiency** Exotic"
 		]
 	},
-	"hornbow,_orc": {
+	"hornbow_orc": {
 		"name": "Hornbow, orc",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -7071,7 +7056,7 @@
 		]
 	},
 	"orc_hornbow": {
-		"copyof": "hornbow,_orc"
+		"copyof": "hornbow_orc"
 	},
 	"horse_bow": {
 		"name": "Horse bow",
@@ -7191,7 +7176,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Thrown"
 		]
 	},
-	"pelletbow,_dwarven_heavy": {
+	"pelletbow_dwarven_heavy": {
 		"name": "Pelletbow, dwarven heavy",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -7209,9 +7194,9 @@
 		]
 	},
 	"dwarven_heavy_pelletbow": {
-		"copyof": "pelletbow,_dwarven_heavy"
+		"copyof": "pelletbow_dwarven_heavy"
 	},
-	"pelletbow,_dwarven_light": {
+	"pelletbow_dwarven_light": {
 		"name": "Pelletbow, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -7229,7 +7214,7 @@
 		]
 	},
 	"dwarven_light_pelletbow": {
-		"copyof": "pelletbow,_dwarven_light"
+		"copyof": "pelletbow_dwarven_light"
 	},
 	"repeating_hand_crossbow": {
 		"name": "Repeating hand crossbow",
@@ -7319,7 +7304,7 @@
 		],
 		"description": [
 			"## Shoanti bolas",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia,_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
 			"",
 			"This spiked bolas functions as a standard bolas, but deals lethal damage rather than nonlethal damage.",
 			"",
@@ -7459,7 +7444,7 @@
 			"**Category** Light; **Proficiency** Special"
 		]
 	},
-	"kobold_tail,_long_lash": {
+	"kobold_tail_long_lash": {
 		"name": "Kobold tail, long lash",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -7497,39 +7482,39 @@
 		]
 	},
 	"long_lash_kobold_tail": {
-		"copyof": "kobold_tail,_long_lash"
+		"copyof": "kobold_tail_long_lash"
 	},
-	"kobold_tail,_pounder": {
+	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"pounder_kobold_tail": {
-		"copyof": "kobold_tail,_pounder"
+		"copyof": "kobold_tail_pounder"
 	},
-	"kobold_tail,_razored": {
+	"kobold_tail_razored": {
 		"name": "Kobold tail, razored",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"razored_kobold_tail": {
-		"copyof": "kobold_tail,_razored"
+		"copyof": "kobold_tail_razored"
 	},
-	"kobold_tail,_spiked": {
+	"kobold_tail_spiked": {
 		"name": "Kobold tail, spiked",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"spiked_kobold_tail": {
-		"copyof": "kobold_tail,_spiked"
+		"copyof": "kobold_tail_spiked"
 	},
-	"kobold_tail,_sweeper": {
+	"kobold_tail_sweeper": {
 		"name": "Kobold tail, sweeper",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"sweeper_kobold_tail": {
-		"copyof": "kobold_tail,_sweeper"
+		"copyof": "kobold_tail_sweeper"
 	},
 	"breech-loader": {
 		"name": "Breech-loader",
@@ -8198,16 +8183,13 @@
 		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragon's_breath"
 	},
-	"alchemical_cartridge_paper,_bullet_or_pellet": {
+	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"name": "Alchemical cartridge (paper, bullet or pellet)",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
 		"copyof": "alchemical_cartridge_dragon's_breath"
-	},
-	"alchemical_cartridge_paper_bullet_or_pellet": {
-		"copyof": "alchemical_cartridge_paper,_bullet_or_pellet"
 	},
 	"alchemical_cartridge_repellent": {
 		"name": "Alchemical cartridge (repellent)",
@@ -8256,7 +8238,7 @@
 		],
 		"copyof": "black_powder_dose"
 	},
-	"bullet,_adamantine": {
+	"bullet_adamantine": {
 		"name": "Bullet, adamantine",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -8270,9 +8252,9 @@
 		]
 	},
 	"adamantine_bullet": {
-		"copyof": "bullet,_adamantine"
+		"copyof": "bullet_adamantine"
 	},
-	"bullet,_screaming": {
+	"bullet_screaming": {
 		"name": "Bullet, screaming",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
@@ -8286,7 +8268,7 @@
 		]
 	},
 	"screaming_bullet": {
-		"copyof": "bullet,_screaming"
+		"copyof": "bullet_screaming"
 	},
 	"dragoon_cartridge": {
 		"name": "Dragoon Cartridge",
@@ -8322,7 +8304,7 @@
 			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound."
 		]
 	},
-	"firearm_bullet,_silver": {
+	"firearm_bullet_silver": {
 		"name": "Firearm bullet, silver",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -8338,7 +8320,7 @@
 		]
 	},
 	"silver_firearm_bullet": {
-		"copyof": "firearm_bullet,_silver"
+		"copyof": "firearm_bullet_silver"
 	},
 	"gunsmith's_kit": {
 		"name": "Gunsmith's kit",

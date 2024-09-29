@@ -65,7 +65,7 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"rakshasa,_amanusya": {
+	"rakshasa_amanusya": {
 		"name": "Rakshasa, Amanusya",
 		"sources": [
 			"Occult Bestiary",
@@ -134,8 +134,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"amanusya": { "copyof": "rakshasa,_amanusya" },
-	"rakshasa,_avatarana": {
+	"amanusya": { "copyof": "rakshasa_amanusya" },
+	"rakshasa_avatarana": {
 		"name": "Rakshasa, Avatarana",
 		"sources": [
 			"Occult Bestiary",
@@ -202,8 +202,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"avatarana": { "copyof": "rakshasa,_avatarana" },
-	"rakshasa,_dandasuka": {
+	"avatarana": { "copyof": "rakshasa_avatarana" },
+	"rakshasa_dandasuka": {
 		"name": "Rakshasa, Dandasuka",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -270,8 +270,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"dandasuka": { "copyof": "rakshasa,_dandasuka" },
-	"rakshasa,_marai": {
+	"dandasuka": { "copyof": "rakshasa_dandasuka" },
+	"rakshasa_marai": {
 		"name": "Rakshasa, Marai",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -345,8 +345,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"marai": { "copyof": "rakshasa,_marai" },
-	"rakshasa,_orsatka": {
+	"marai": { "copyof": "rakshasa_marai" },
+	"rakshasa_orsatka": {
 		"name": "Rakshasa, Orsatka",
 		"sources": [
 			"Book of the Damned",
@@ -412,8 +412,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"orsatka": { "copyof": "rakshasa,_orsatka" },
-	"rakshasa,_rakshasa_maharaja": {
+	"orsatka": { "copyof": "rakshasa_orsatka" },
+	"rakshasa_rakshasa_maharaja": {
 		"name": "Rakshasa, Rakshasa Maharaja",
 		"sources": [
 			"Bestiary 3",
@@ -505,8 +505,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"rakshasa_maharaja": { "copyof": "rakshasa,_rakshasa_maharaja" },
-	"rakshasa,_raktavarna": {
+	"rakshasa_maharaja": { "copyof": "rakshasa_rakshasa_maharaja" },
+	"rakshasa_raktavarna": {
 		"name": "Rakshasa, Raktavarna",
 		"sources": [
 			"Bestiary 3",
@@ -575,8 +575,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"raktavarna": { "copyof": "rakshasa,_raktavarna" },
-	"rakshasa,_tataka": {
+	"raktavarna": { "copyof": "rakshasa_raktavarna" },
+	"rakshasa_tataka": {
 		"name": "Rakshasa, Tataka",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -647,8 +647,8 @@
 			"**Family:** [Rakshasa](family/rakshasa)"
 		]
 	},
-	"tataka": { "copyof": "rakshasa,_tataka" },
-	"rakshasa,_zalyakavat": {
+	"tataka": { "copyof": "rakshasa_tataka" },
+	"rakshasa_zalyakavat": {
 		"name": "Rakshasa, Zalyakavat",
 		"sources": [
 			"Pathfinder #130: City in the Lion's Eye",
@@ -737,7 +737,7 @@
 			"Zalyakavats rarely interact with other types of rakshasas. When convenient or unavoidable, they might serve maharajas or rakshasa immortals as warriors or bodyguards, but a zalyakavat remains forever preoccupied with its desire for melee combat and is thus an unreliable soldier. On rare occasions, zalyakavats gather to participate in prearranged contests of arms. Zalyakavats almost never fight each other in these events, instead coercing or tricking unfortunate mortals into their hidden arenas to serve as opponents. From plush divans surrounding the arena, zalyakavats watch each other take turns fighting the unlucky souls as entertainment."
 		]
 	},
-	"zalyakavat": { "copyof": "rakshasa,_zalyakavat" },
+	"zalyakavat": { "copyof": "rakshasa_zalyakavat" },
 	"ratfolk": {
 		"name": "Ratfolk",
 		"sources": [ "Bestiary 3" ],
@@ -812,7 +812,7 @@
 			"**Languages:** Ratfolk begin play speaking Common. Ratfolk with high intelligence can choose from any of the following bonus languages: Aklo, Draconic, Dwarven, Gnoll, Gnome, Goblin, Halfling, Orc, and Undercommon."
 		]
 	},
-	"ratfolk,_ratfolk_bravo": {
+	"ratfolk_ratfolk_bravo": {
 		"name": "Ratfolk, Ratfolk Bravo",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -861,8 +861,8 @@
 			"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals."
 		]
 	},
-	"ratfolk_bravo": { "copyof": "ratfolk,_ratfolk_bravo" },
-	"ratfolk,_ratfolk_caravan_guard": {
+	"ratfolk_bravo": { "copyof": "ratfolk_ratfolk_bravo" },
+	"ratfolk_ratfolk_caravan_guard": {
 		"name": "Ratfolk, Ratfolk Caravan Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -910,8 +910,8 @@
 			"Many nomadic ratfolk take on jobs that require travel."
 		]
 	},
-	"ratfolk_caravan_guard": { "copyof": "ratfolk,_ratfolk_caravan_guard" },
-	"ratfolk,_ratfolk_chemist": {
+	"ratfolk_caravan_guard": { "copyof": "ratfolk_ratfolk_caravan_guard" },
+	"ratfolk_ratfolk_chemist": {
 		"name": "Ratfolk, Ratfolk Chemist",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -969,8 +969,8 @@
 			"Ratfolk chemists are treasured members of ratfolk colonies. Not only do they provide the warren with excellent defensive capability, but their alchemical creations are valuable merchandise to sell or trade."
 		]
 	},
-	"ratfolk_chemist": { "copyof": "ratfolk,_ratfolk_chemist" },
-	"ratfolk,_ratfolk_elder": {
+	"ratfolk_chemist": { "copyof": "ratfolk_ratfolk_chemist" },
+	"ratfolk_ratfolk_elder": {
 		"name": "Ratfolk, Ratfolk Elder",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1037,8 +1037,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"ratfolk_elder": { "copyof": "ratfolk,_ratfolk_elder" },
-	"ratfolk,_ratfolk_expedition_leader": {
+	"ratfolk_elder": { "copyof": "ratfolk_ratfolk_elder" },
+	"ratfolk_ratfolk_expedition_leader": {
 		"name": "Ratfolk, Ratfolk Expedition Leader",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1086,8 +1086,8 @@
 			"Many nomadic ratfolk take on jobs that require travel."
 		]
 	},
-	"ratfolk_expedition_leader": { "copyof": "ratfolk,_ratfolk_expedition_leader" },
-	"ratfolk,_ratfolk_sage": {
+	"ratfolk_expedition_leader": { "copyof": "ratfolk_ratfolk_expedition_leader" },
+	"ratfolk_ratfolk_sage": {
 		"name": "Ratfolk, Ratfolk Sage",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1150,8 +1150,8 @@
 			"Magic is most useful to the warren when it provides insight, so diviners are held in high regard. Though the ratfolk sage prepares some offensive spells in case of attack-it's always good to be ready for danger-such things can be duplicated with alchemy and weaponry."
 		]
 	},
-	"ratfolk_sage": { "copyof": "ratfolk,_ratfolk_sage" },
-	"ratfolk,_ratfolk_tinkerer": {
+	"ratfolk_sage": { "copyof": "ratfolk_ratfolk_sage" },
+	"ratfolk_ratfolk_tinkerer": {
 		"name": "Ratfolk, Ratfolk Tinkerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1205,8 +1205,8 @@
 			"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses."
 		]
 	},
-	"ratfolk_tinkerer": { "copyof": "ratfolk,_ratfolk_tinkerer" },
-	"ratfolk,_ratfolk_troubleshooter": {
+	"ratfolk_tinkerer": { "copyof": "ratfolk_ratfolk_tinkerer" },
+	"ratfolk_ratfolk_troubleshooter": {
 		"name": "Ratfolk, Ratfolk Troubleshooter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1259,8 +1259,8 @@
 			"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses."
 		]
 	},
-	"ratfolk_troubleshooter": { "copyof": "ratfolk,_ratfolk_troubleshooter" },
-	"ratfolk,_ratfolk_warden": {
+	"ratfolk_troubleshooter": { "copyof": "ratfolk_ratfolk_troubleshooter" },
+	"ratfolk_ratfolk_warden": {
 		"name": "Ratfolk, Ratfolk Warden",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1313,7 +1313,7 @@
 			"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals."
 		]
 	},
-	"ratfolk_warden": { "copyof": "ratfolk,_ratfolk_warden" },
+	"ratfolk_warden": { "copyof": "ratfolk_ratfolk_warden" },
 	"rawhead": {
 		"name": "Rawhead",
 		"sources": [ "Bestiary 6" ],
@@ -1380,7 +1380,7 @@
 			"A rawhead stands almost 7 feet tall and weighs 200 pounds."
 		]
 	},
-	"ray,_manta_ray": {
+	"ray_manta_ray": {
 		"name": "Ray, Manta Ray",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1427,8 +1427,8 @@
 			"The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template."
 		]
 	},
-	"manta_ray": { "copyof": "ray,_manta_ray" },
-	"ray,_stingray": {
+	"manta_ray": { "copyof": "ray_manta_ray" },
+	"ray_stingray": {
 		"name": "Ray, Stingray",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1478,7 +1478,7 @@
 			"The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template."
 		]
 	},
-	"stingray": { "copyof": "ray,_stingray" },
+	"stingray": { "copyof": "ray_stingray" },
 	"red_reaver": {
 		"name": "Red Reaver",
 		"sources": [
@@ -1613,7 +1613,7 @@
 			"",
 			"### Redkind, CR 2",
 			"",
-			"**Source** [Taldor, the First Empire pg. 62](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 62](source/taldor_the_first_empire)  ",
 			"**XP** 600  ",
 			"NE Small fey  ",
 			"**Init** +4; **Senses** low-light vision; Perception +7  ",
@@ -1737,7 +1737,7 @@
 			"",
 			"### Remacera, CR 6",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 63](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 63](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 2,400  ",
 			"CN Large fey  ",
 			"**Init** +5; **Senses** low-light vision; Perception +14",
@@ -2082,7 +2082,7 @@
 			"The rhinoceros feeds on leafy plants, branches, and even thorny shrubs. Its thick hide is a mottled gray color, and it can run surprisingly fast for a beast of its size. The rhinoceros is notoriously short-tempered and prone to attacking anything it perceives as approaching too closely (generally within a distance of 80 feet-the distance of a single charge-for most rhinos)."
 		]
 	},
-	"rhinoceros,_woolly_rhinoceros": {
+	"rhinoceros_woolly_rhinoceros": {
 		"name": "Rhinoceros, Woolly Rhinoceros",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2128,7 +2128,7 @@
 			"The woolly rhinoceros is an herbivore, though unlike its non-woolly cousin it grazes for food rather than browsing on larger plants. The woolly rhino is legendary for its foul temper, and its size and huge horn give it a ferocious bravery. Any threat (real or perceived) to the rhino or its herd is met with loud bellows and the stomping of feet. Often, those who unwittingly anger a woolly rhino have no time to amend the intrusion before the beast attacks."
 		]
 	},
-	"woolly_rhinoceros": { "copyof": "rhinoceros,_woolly_rhinoceros" },
+	"woolly_rhinoceros": { "copyof": "rhinoceros_woolly_rhinoceros" },
 	"rhu-chalik": {
 		"name": "Rhu-chalik",
 		"sources": [
@@ -2308,7 +2308,7 @@
 			"The most populous of the Nesmian Plains' half-dozen species of ibex, ringhorns are sturdy herbivores that populate the gullies, scrublands, and foothills of central Avistan. Surefooted to the extreme, ringhorns prance across sheer, rocky walls and over rough scree to avoid predators and migrate to new feeding grounds. Ringhorns are sexually dimorphic, with females growing up to 150 pounds and 4 feet tall at the shoulder, while males are slightly shorter but bulkier. They mate in the spring and bear a single calf in late summer, when their vast herds dominate entire valleys for months before they break apart into smaller groups and retreat into the mountains and canyons to wait out the winter."
 		]
 	},
-	"robot,_annihilator_robot": {
+	"robot_annihilator_robot": {
 		"name": "Robot, Annihilator Robot",
 		"sources": [
 			"Bestiary 5",
@@ -2373,8 +2373,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"annihilator_robot": { "copyof": "robot,_annihilator_robot" },
-	"robot,_arachnid_robot": {
+	"annihilator_robot": { "copyof": "robot_annihilator_robot" },
+	"robot_arachnid_robot": {
 		"name": "Robot, Arachnid Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
@@ -2388,7 +2388,7 @@
 			"",
 			"### Arachnid Robot, CR 1/2",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 56](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 56](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 200  ",
 			"N Small construct (robot)  ",
 			"**Init** +1; **Senses** darkvision 60 ft., low-light vision; Perception +5",
@@ -2438,8 +2438,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"arachnid_robot": { "copyof": "robot,_arachnid_robot" },
-	"robot,_collector_robot": {
+	"arachnid_robot": { "copyof": "robot_arachnid_robot" },
+	"robot_collector_robot": {
 		"name": "Robot, Collector Robot",
 		"sources": [
 			"Pathfinder #85: Fires of Creation",
@@ -2527,8 +2527,8 @@
 			"Trapper Robots (CR +1): Some robots cover a wider range of territory by deploying traps rather than hunting creatures individually. Designed to capture specimens for retrieval and sedation, they have gravity-based snares which function similar to the snare spell. They can deploy up to five of these devices and remain linked to them via tracker chips and an integrated chipfinder. When a snare is sprung, it sends an alert to the trapper robot, which then hurries to retrieve its quarry."
 		]
 	},
-	"collector_robot": { "copyof": "robot,_collector_robot" },
-	"robot,_director_robot": {
+	"collector_robot": { "copyof": "robot_collector_robot" },
+	"robot_director_robot": {
 		"name": "Robot, Director Robot",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
@@ -2621,8 +2621,8 @@
 			"Tightly guarded reports held by the Technic League claim that a rogue director robot maintains a hidden lair somewhere in central Numeria. The robot has taken over a splintered section of Divinity that contains a technological laboratory, and the reports claim that it's building its own army of robotic followers."
 		]
 	},
-	"director_robot": { "copyof": "robot,_director_robot" },
-	"robot,_evaluator_robot": {
+	"director_robot": { "copyof": "robot_director_robot" },
+	"robot_evaluator_robot": {
 		"name": "Robot, Evaluator Robot",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
@@ -2710,8 +2710,8 @@
 			"Crafts that split from Divinity during its crash and fell to other parts of Numeria contained two other known evaluator robots. A tribe of Ghost Wolves destroyed one of these evaluators-designed to resemble a horned, red-skinned fiend-when it appeared before the Kellid barbarians in the Sellen Hills. The robot fought with wicked claws, and after it was destroyed, it exploded in a blast that killed dozens of the barbarians. The other evaluator, reportedly appearing as a six-armed, three-faced woman with bronze skin, was spotted briefly by griffon riders at Castle Urion before it headed south into the River Kingdoms, and hasn't been seen since."
 		]
 	},
-	"evaluator_robot": { "copyof": "robot,_evaluator_robot" },
-	"robot,_gearsman_robot": {
+	"evaluator_robot": { "copyof": "robot_evaluator_robot" },
+	"robot_gearsman_robot": {
 		"name": "Robot, Gearsman Robot",
 		"sources": [
 			"Bestiary 5",
@@ -2775,8 +2775,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"gearsman_robot": { "copyof": "robot,_gearsman_robot" },
-	"robot,_gladiator_robot": {
+	"gearsman_robot": { "copyof": "robot_gearsman_robot" },
+	"robot_gladiator_robot": {
 		"name": "Robot, Gladiator Robot",
 		"sources": [
 			"Construct Handbook",
@@ -2870,8 +2870,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"gladiator_robot": { "copyof": "robot,_gladiator_robot" },
-	"robot,_juggernaut_robot": {
+	"gladiator_robot": { "copyof": "robot_gladiator_robot" },
+	"robot_juggernaut_robot": {
 		"name": "Robot, Juggernaut Robot",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
@@ -2963,8 +2963,8 @@
 			"Specimen One: Unearthed deep beneath Silver Mount, this juggernaut was found inert within a colossal chamber. The debased arcanists of the Technic League disassembled the dormant hulk and catalogued its every wire, circuit, and cog. When they finished, they began the long, arduous process of reassembly. Unfortunately, their efforts were only partially successful. Now, only the juggernaut's massive robotic head remains \"alive,\" forever calculating how it might escape from this pathetic existence amid a labyrinth of frayed wires, pitted alien alloys, and strange flickering bulbs."
 		]
 	},
-	"juggernaut_robot": { "copyof": "robot,_juggernaut_robot" },
-	"robot,_mannequin_robot": {
+	"juggernaut_robot": { "copyof": "robot_juggernaut_robot" },
+	"robot_mannequin_robot": {
 		"name": "Robot, Mannequin Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
@@ -2978,7 +2978,7 @@
 			"",
 			"### Mannequin Robot, CR 2",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 57](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 57](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 600  ",
 			"N Medium construct (robot)  ",
 			"**Init** +1; **Senses** darkvision 60 ft., low-light vision; Perception +6",
@@ -3038,8 +3038,8 @@
 			"Target: Designed as an active target for weapons practice, a target model has +2 Dexterity, a 10-foot increase to speed, hardness 5, and [Dodge](feat/dodge) in place of Alertness. Reducing a target model below half its maximum hit points causes it to shut down for 10 minutes."
 		]
 	},
-	"mannequin_robot": { "copyof": "robot,_mannequin_robot" },
-	"robot,_myrmidon_robot": {
+	"mannequin_robot": { "copyof": "robot_mannequin_robot" },
+	"robot_myrmidon_robot": {
 		"name": "Robot, Myrmidon Robot",
 		"sources": [
 			"Bestiary 5",
@@ -3106,8 +3106,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"myrmidon_robot": { "copyof": "robot,_myrmidon_robot" },
-	"robot,_observer_robot": {
+	"myrmidon_robot": { "copyof": "robot_myrmidon_robot" },
+	"robot_observer_robot": {
 		"name": "Robot, Observer Robot",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -3178,8 +3178,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"observer_robot": { "copyof": "robot,_observer_robot" },
-	"robot,_observer_robot_swarm": {
+	"observer_robot": { "copyof": "robot_observer_robot" },
+	"robot_observer_robot_swarm": {
 		"name": "Robot, Observer Robot Swarm",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
@@ -3243,8 +3243,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"observer_robot_swarm": { "copyof": "robot,_observer_robot_swarm" },
-	"robot,_octopod_mechanic_drone": {
+	"observer_robot_swarm": { "copyof": "robot_observer_robot_swarm" },
+	"robot_octopod_mechanic_drone": {
 		"name": "Robot, Octopod Mechanic Drone",
 		"sources": [
 			"Construct Handbook",
@@ -3318,8 +3318,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"octopod_mechanic_drone": { "copyof": "robot,_octopod_mechanic_drone" },
-	"robot,_reclamation_robot": {
+	"octopod_mechanic_drone": { "copyof": "robot_octopod_mechanic_drone" },
+	"robot_reclamation_robot": {
 		"name": "Robot, Reclamation Robot",
 		"sources": [
 			"Pathfinder #88: Valley of the Brain Collectors",
@@ -3416,8 +3416,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"reclamation_robot": { "copyof": "robot,_reclamation_robot" },
-	"robot,_repair_robot": {
+	"reclamation_robot": { "copyof": "robot_reclamation_robot" },
+	"robot_repair_robot": {
 		"name": "Robot, Repair Robot",
 		"sources": [
 			"Construct Handbook",
@@ -3485,8 +3485,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"repair_robot": { "copyof": "robot,_repair_robot" },
-	"robot,_scrapyard_robot": {
+	"repair_robot": { "copyof": "robot_repair_robot" },
+	"robot_scrapyard_robot": {
 		"name": "Robot, Scrapyard Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
@@ -3500,7 +3500,7 @@
 			"",
 			"### Scrapyard Robot, CR 3",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 58](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 58](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 800  ",
 			"N Medium construct (robot)  ",
 			"**Init** -1; **Senses** darkvision 60 ft., low-light vision; Perception +5",
@@ -3557,8 +3557,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"scrapyard_robot": { "copyof": "robot,_scrapyard_robot" },
-	"robot,_surgeon_robot": {
+	"scrapyard_robot": { "copyof": "robot_scrapyard_robot" },
+	"robot_surgeon_robot": {
 		"name": "Robot, Surgeon Robot",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
@@ -3648,8 +3648,8 @@
 			"These robots are most commonly encountered in Silver Mount, among the Technic League compound in Starfall, or hidden away inside other ruins of Divinity's crash where they once were stationed to provide medical care. However, rogue surgeon robots may also be found in dungeons or caves that they've transformed into their own macabre operating rooms filled with all manner of strange and alien technological devices. On rare occasions, these beings form pacts with other intelligent creatures, bartering their services as surgeons in return for both materials and test subjects. Lacking any sort of conscience or ethical code, surgeon robots make excellent torturers and executioners."
 		]
 	},
-	"surgeon_robot": { "copyof": "robot,_surgeon_robot" },
-	"robot,_terraformer_robot": {
+	"surgeon_robot": { "copyof": "robot_surgeon_robot" },
+	"robot_terraformer_robot": {
 		"name": "Robot, Terraformer Robot",
 		"sources": [
 			"Bestiary 5",
@@ -3714,8 +3714,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"terraformer_robot": { "copyof": "robot,_terraformer_robot" },
-	"robot,_thought_harvester_robot": {
+	"terraformer_robot": { "copyof": "robot_terraformer_robot" },
+	"robot_thought_harvester_robot": {
 		"name": "Robot, Thought Harvester Robot",
 		"sources": [
 			"Pathfinder #87: The Choking Tower",
@@ -3794,8 +3794,8 @@
 			"These robots show little individual personality as they go about their work of harvesting memories. Unlike other robots, which are generally content to stand perfectly motionless when not in use, thought harvesters tend to fidget, scanning for danger and waving their syringetipped tendrils in the air. A thought harvester cannot itself access any of the thoughts stored within the crystalline spheres, though it does retain some general idea of the memories it has previously collected. To the thought harvester, these memories are simply cargo to be recovered and brought back to its superiors."
 		]
 	},
-	"thought_harvester_robot": { "copyof": "robot,_thought_harvester_robot" },
-	"robot,_torturer_robot": {
+	"thought_harvester_robot": { "copyof": "robot_thought_harvester_robot" },
+	"robot_torturer_robot": {
 		"name": "Robot, Torturer Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
@@ -3809,7 +3809,7 @@
 			"",
 			"### Torturer Robot, CR 8",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 59](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 59](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 4,800  ",
 			"N Small construct (robot)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., low-light vision; Perception +19",
@@ -3862,8 +3862,8 @@
 			"**Family:** [Robot](family/robot)"
 		]
 	},
-	"torturer_robot": { "copyof": "robot,_torturer_robot" },
-	"robot,_warden_robot": {
+	"torturer_robot": { "copyof": "robot_torturer_robot" },
+	"robot_warden_robot": {
 		"name": "Robot, Warden Robot",
 		"sources": [
 			"Pathfinder #87: The Choking Tower",
@@ -3958,7 +3958,7 @@
 			"Silent Sentinel (CR 9): Explorers investigating ruins in the Felldales of western Numeria have reported encountering a unique version of the warden robot that can generate fields that cancel sound rather than induce nausea, earning it the name \"Silent Sentinel.\" This aura has the effect of a silence spell with a 30-foot radius centered on the warden, but the effect can't be dispelled or countered by magic. Instead of sonic disruptors, Silent Sentinel is equipped with integrated lasers that deal 2d8 points of fire damage. Based on recent reports from near the First Blade's Path, this specialized warden doesn't keep to just the Felldales."
 		]
 	},
-	"warden_robot": { "copyof": "robot,_warden_robot" },
+	"warden_robot": { "copyof": "robot_warden_robot" },
 	"roc": {
 		"name": "Roc",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4200,7 +4200,7 @@
 			"",
 			"### Roofgarden, CR 7",
 			"",
-			"**Source** [Taldor, the First Empire pg. 63](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 63](source/taldor_the_first_empire)  ",
 			"**XP** 3,200  ",
 			"N Medium plant  ",
 			"**Init** +3; **Senses** low-light vision, tremorsense 30 ft.; Perception +10",
@@ -4480,7 +4480,7 @@
 			"Roselings are often found in Shelyn's divine realm. A roseling's petal color reflects its personality: pink roselings are gentle, red roselings are passionate, white roselings are shy, yellow roselings are gregarious, and the rare blue roselings are transcendent and often more powerful than their kin, having class levels or the advanced creature template."
 		]
 	},
-	"rot_grub,_giant_rot_grub": {
+	"rot_grub_giant_rot_grub": {
 		"name": "Rot Grub, Giant Rot Grub",
 		"sources": [
 			"Bestiary 3",
@@ -4537,8 +4537,8 @@
 			"**Family:** [Rot Grub](family/rot_grub)"
 		]
 	},
-	"giant_rot_grub": { "copyof": "rot_grub,_giant_rot_grub" },
-	"rot_grub,_rot_grub_swarm": {
+	"giant_rot_grub": { "copyof": "rot_grub_giant_rot_grub" },
+	"rot_grub_rot_grub_swarm": {
 		"name": "Rot Grub, Rot Grub Swarm",
 		"sources": [
 			"Bestiary 3",
@@ -4596,7 +4596,7 @@
 			"**Family:** [Rot Grub](family/rot_grub)"
 		]
 	},
-	"rot_grub_swarm": { "copyof": "rot_grub,_rot_grub_swarm" },
+	"rot_grub_swarm": { "copyof": "rot_grub_rot_grub_swarm" },
 	"rougarou": {
 		"name": "Rougarou",
 		"sources": [ "Bestiary 6" ],
@@ -4705,7 +4705,7 @@
 			"A typical adult rukh stands nearly 35 feet tall and has a wingspan of more than 60 feet. Most are scrawny due to hunger. Coupled with their lightweight bones for easier flying, they rarely top 800 pounds. Juvenile rukhs usually stand about 10 feet tall, with a relatively small wingspan of nearly 18 feet, and weigh about 200 pounds."
 		]
 	},
-	"rukh,_juvenile_rukh": {
+	"rukh_juvenile_rukh": {
 		"name": "Rukh, Juvenile Rukh",
 		"sources": [
 			"Bestiary 4",
@@ -4753,7 +4753,7 @@
 			"A typical adult rukh stands nearly 35 feet tall with a wingspawn of over 60 feet. Although often starving, they can weigh upward of 800 pounds. Juvenile rukhs usually stand about 10 feet tall, with a relatively small wingspan of near 18 feet. Most weigh about 200 pounds."
 		]
 	},
-	"juvenile_rukh": { "copyof": "rukh,_juvenile_rukh" },
+	"juvenile_rukh": { "copyof": "rukh_juvenile_rukh" },
 	"rune_guardian": {
 		"name": "Rune Guardian",
 		"sources": [ "The Godsmouth Heresy" ],
@@ -5222,7 +5222,7 @@
 			"After sprouting, it takes 4 years before the infant saguaroi can uproot itself and move about, and decades more to reach maturity. Some saguarois have lived for hundreds of years, and these old cactusfolk often sprout additional limbs or strange twisting growths stretching out from their cylindrical torsos. Usually these additional limbs and growths are non-functional, but significantly advanced saguarois have been known to learn how to use them as if they were their primary arms and legs."
 		]
 	},
-	"sahkil,_esipil": {
+	"sahkil_esipil": {
 		"name": "Sahkil, Esipil",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5288,8 +5288,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"esipil": { "copyof": "sahkil,_esipil" },
-	"sahkil,_ichkoh": {
+	"esipil": { "copyof": "sahkil_esipil" },
+	"sahkil_ichkoh": {
 		"name": "Sahkil, Ichkoh",
 		"sources": [
 			"Bestiary 6",
@@ -5355,8 +5355,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"ichkoh": { "copyof": "sahkil,_ichkoh" },
-	"sahkil,_kimenhul": {
+	"ichkoh": { "copyof": "sahkil_ichkoh" },
+	"sahkil_kimenhul": {
 		"name": "Sahkil, Kimenhul",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5436,8 +5436,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"kimenhul": { "copyof": "sahkil,_kimenhul" },
-	"sahkil,_nucol": {
+	"kimenhul": { "copyof": "sahkil_kimenhul" },
+	"sahkil_nucol": {
 		"name": "Sahkil, Nucol",
 		"sources": [
 			"Book of the Damned",
@@ -5505,8 +5505,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"nucol": { "copyof": "sahkil,_nucol" },
-	"sahkil,_pakalchi": {
+	"nucol": { "copyof": "sahkil_nucol" },
+	"sahkil_pakalchi": {
 		"name": "Sahkil, Pakalchi",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5576,8 +5576,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"pakalchi": { "copyof": "sahkil,_pakalchi" },
-	"sahkil,_qolok": {
+	"pakalchi": { "copyof": "sahkil_pakalchi" },
+	"sahkil_qolok": {
 		"name": "Sahkil, Qolok",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5641,8 +5641,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"qolok": { "copyof": "sahkil,_qolok" },
-	"sahkil,_wihsaak": {
+	"qolok": { "copyof": "sahkil_qolok" },
+	"sahkil_wihsaak": {
 		"name": "Sahkil, Wihsaak",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5705,8 +5705,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"wihsaak": { "copyof": "sahkil,_wihsaak" },
-	"sahkil,_ximtal": {
+	"wihsaak": { "copyof": "sahkil_wihsaak" },
+	"sahkil_ximtal": {
 		"name": "Sahkil, Ximtal",
 		"sources": [
 			"Bestiary 6",
@@ -5798,8 +5798,8 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"ximtal": { "copyof": "sahkil,_ximtal" },
-	"sahkil,_zohanil": {
+	"ximtal": { "copyof": "sahkil_ximtal" },
+	"sahkil_zohanil": {
 		"name": "Sahkil, Zohanil",
 		"sources": [
 			"Bestiary 6",
@@ -5863,7 +5863,7 @@
 			"**Family:** [Sahkil](family/sahkil)"
 		]
 	},
-	"zohanil": { "copyof": "sahkil,_zohanil" },
+	"zohanil": { "copyof": "sahkil_zohanil" },
 	"sahuagin": {
 		"name": "Sahuagin",
 		"sources": [
@@ -5945,7 +5945,7 @@
 			"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		]
 	},
-	"sahuagin_mutant,_four-armed_mutant": {
+	"sahuagin_mutant_four-armed_mutant": {
 		"name": "Sahuagin Mutant, Four-Armed Mutant",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -6018,9 +6018,9 @@
 			"Spined Sahuagin: Covered in hundreds of needlelike spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain [Defensive Combat Training](feat/defensive_combat_training) as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]
 	},
-	"four-armed_mutant": { "copyof": "sahuagin_mutant,_four-armed_mutant" },
-	"sahuagin_mutant_four_armed_mutant": { "copyof": "sahuagin_mutant,_four-armed_mutant" },
-	"sahuagin_mutant,_malenti": {
+	"four-armed_mutant": { "copyof": "sahuagin_mutant_four-armed_mutant" },
+	"sahuagin_mutant_four_armed_mutant": { "copyof": "sahuagin_mutant_four-armed_mutant" },
+	"sahuagin_mutant_malenti": {
 		"name": "Sahuagin Mutant, Malenti",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -6093,8 +6093,8 @@
 			"Spined Sahuagin: Covered in hundreds of needlelike spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain [Defensive Combat Training](feat/defensive_combat_training) as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]
 	},
-	"malenti": { "copyof": "sahuagin_mutant,_malenti" },
-	"sahuagin,_sahuagin_baron": {
+	"malenti": { "copyof": "sahuagin_mutant_malenti" },
+	"sahuagin_sahuagin_baron": {
 		"name": "Sahuagin, Sahuagin Baron",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6149,8 +6149,8 @@
 			"Powerful warriors occupy the top ranks of sahuagin society."
 		]
 	},
-	"sahuagin_baron": { "copyof": "sahuagin,_sahuagin_baron" },
-	"sahuagin,_sahuagin_brute": {
+	"sahuagin_baron": { "copyof": "sahuagin_sahuagin_baron" },
+	"sahuagin_sahuagin_brute": {
 		"name": "Sahuagin, Sahuagin Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6199,8 +6199,8 @@
 			"These sahuagin revel in their rage and blood frenzy."
 		]
 	},
-	"sahuagin_brute": { "copyof": "sahuagin,_sahuagin_brute" },
-	"sahuagin,_sahuagin_champion": {
+	"sahuagin_brute": { "copyof": "sahuagin_sahuagin_brute" },
+	"sahuagin_sahuagin_champion": {
 		"name": "Sahuagin, Sahuagin Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6254,8 +6254,8 @@
 			"These sahuagin revel in their rage and blood frenzy."
 		]
 	},
-	"sahuagin_champion": { "copyof": "sahuagin,_sahuagin_champion" },
-	"sahuagin,_sahuagin_deep_racer": {
+	"sahuagin_champion": { "copyof": "sahuagin_sahuagin_champion" },
+	"sahuagin_sahuagin_deep_racer": {
 		"name": "Sahuagin, Sahuagin Deep Racer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6308,8 +6308,8 @@
 			"Shark speakers prefer the company of vicious fish over other sahuagin."
 		]
 	},
-	"sahuagin_deep_racer": { "copyof": "sahuagin,_sahuagin_deep_racer" },
-	"sahuagin,_sahuagin_high_priestess": {
+	"sahuagin_deep_racer": { "copyof": "sahuagin_sahuagin_deep_racer" },
+	"sahuagin_sahuagin_high_priestess": {
 		"name": "Sahuagin, Sahuagin High Priestess",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6367,8 +6367,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"sahuagin_high_priestess": { "copyof": "sahuagin,_sahuagin_high_priestess" },
-	"sahuagin,_sahuagin_infiltrator": {
+	"sahuagin_high_priestess": { "copyof": "sahuagin_sahuagin_high_priestess" },
+	"sahuagin_sahuagin_infiltrator": {
 		"name": "Sahuagin, Sahuagin Infiltrator",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6422,8 +6422,8 @@
 			"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
 		]
 	},
-	"sahuagin_infiltrator": { "copyof": "sahuagin,_sahuagin_infiltrator" },
-	"sahuagin,_sahuagin_lieutenant": {
+	"sahuagin_infiltrator": { "copyof": "sahuagin_sahuagin_infiltrator" },
+	"sahuagin_sahuagin_lieutenant": {
 		"name": "Sahuagin, Sahuagin Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6473,8 +6473,8 @@
 			"Powerful warriors occupy the top ranks of sahuagin society."
 		]
 	},
-	"sahuagin_lieutenant": { "copyof": "sahuagin,_sahuagin_lieutenant" },
-	"sahuagin,_sahuagin_prince": {
+	"sahuagin_lieutenant": { "copyof": "sahuagin_sahuagin_lieutenant" },
+	"sahuagin_sahuagin_prince": {
 		"name": "Sahuagin, Sahuagin Prince",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6549,8 +6549,8 @@
 			"**SQ** link"
 		]
 	},
-	"sahuagin_prince": { "copyof": "sahuagin,_sahuagin_prince" },
-	"sahuagin,_sahuagin_scout": {
+	"sahuagin_prince": { "copyof": "sahuagin_sahuagin_prince" },
+	"sahuagin_sahuagin_scout": {
 		"name": "Sahuagin, Sahuagin Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6604,8 +6604,8 @@
 			"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
 		]
 	},
-	"sahuagin_scout": { "copyof": "sahuagin,_sahuagin_scout" },
-	"sahuagin,_sahuagin_shark_sentry": {
+	"sahuagin_scout": { "copyof": "sahuagin_sahuagin_scout" },
+	"sahuagin_sahuagin_shark_sentry": {
 		"name": "Sahuagin, Sahuagin Shark Sentry",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6661,8 +6661,8 @@
 			"Shark speakers prefer the company of vicious fish over other sahuagin."
 		]
 	},
-	"sahuagin_shark_sentry": { "copyof": "sahuagin,_sahuagin_shark_sentry" },
-	"sahuagin,_sahuagin_underpriestess": {
+	"sahuagin_shark_sentry": { "copyof": "sahuagin_sahuagin_shark_sentry" },
+	"sahuagin_sahuagin_underpriestess": {
 		"name": "Sahuagin, Sahuagin Underpriestess",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6719,7 +6719,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"sahuagin_underpriestess": { "copyof": "sahuagin,_sahuagin_underpriestess" },
+	"sahuagin_underpriestess": { "copyof": "sahuagin_sahuagin_underpriestess" },
 	"salamander": {
 		"name": "Salamander",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -6850,7 +6850,7 @@
 			"**Languages:** Samsarans begin play speaking Common and Samsaran. Those with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		]
 	},
-	"samsaran,_reborn_samsaran": {
+	"samsaran_reborn_samsaran": {
 		"name": "Samsaran, Reborn Samsaran",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -6922,7 +6922,7 @@
 			"**Languages:** Reborn samsarans begin play speaking Common and Samsaran. Those reborn samsarans with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		]
 	},
-	"reborn_samsaran": { "copyof": "samsaran,_reborn_samsaran" },
+	"reborn_samsaran": { "copyof": "samsaran_reborn_samsaran" },
 	"sandman": {
 		"name": "Sandman",
 		"sources": [ "Bestiary 2" ],
@@ -6996,7 +6996,7 @@
 			"",
 			"### Sangoi, CR 7",
 			"",
-			"**Source** [Bestiary 5 pg. 219](source/bestiary_5), [Pathfinder #69: Maiden, Mother, Crone pg. 88](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Bestiary 5 pg. 219](source/bestiary_5), [Pathfinder #69: Maiden, Mother, Crone pg. 88](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**XP** 3,200  ",
 			"NE Small fey  ",
 			"**Init** +10; **Senses** hear heartbeat, low-light vision; Perception +15",

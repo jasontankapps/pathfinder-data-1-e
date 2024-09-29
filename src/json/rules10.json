@@ -1984,7 +1984,7 @@
 			"horror_rules"
 		],
 		"subtopics": [
-			"sanity_score,_edge,_and_thresholds",
+			"sanity_score_edge_and_thresholds",
 			"effects_of_sanity_damage",
 			"reducing_sanity_damage"
 		],
@@ -2001,7 +2001,7 @@
 			"running_horror_adventures"
 		]
 	},
-	"sanity_score,_edge,_and_thresholds": {
+	"sanity_score_edge_and_thresholds": {
 		"name": "Sanity Score, Edge, and Thresholds",
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
@@ -2026,7 +2026,7 @@
 			"sanity"
 		],
 		"siblings": [
-			"sanity_score,_edge,_and_thresholds",
+			"sanity_score_edge_and_thresholds",
 			"effects_of_sanity_damage",
 			"reducing_sanity_damage"
 		]
@@ -2066,7 +2066,7 @@
 			"sanity"
 		],
 		"siblings": [
-			"sanity_score,_edge,_and_thresholds",
+			"sanity_score_edge_and_thresholds",
 			"effects_of_sanity_damage",
 			"reducing_sanity_damage"
 		]
@@ -2092,7 +2092,7 @@
 			"sanity"
 		],
 		"siblings": [
-			"sanity_score,_edge,_and_thresholds",
+			"sanity_score_edge_and_thresholds",
 			"effects_of_sanity_damage",
 			"reducing_sanity_damage"
 		]
@@ -4105,7 +4105,7 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		],
 		"siblings": [
 			"horror_versus_heroism",
@@ -4138,7 +4138,7 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		]
 	},
 	"choose_the_terror": {
@@ -4161,7 +4161,7 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		]
 	},
 	"spread_the_terror": {
@@ -4186,7 +4186,7 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		]
 	},
 	"fear_from_the_unexpected": {
@@ -4217,10 +4217,10 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		]
 	},
-	"horrible_success,_terrible_rewards": {
+	"horrible_success_terrible_rewards": {
 		"name": "Horrible Success, Terrible Rewards",
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
@@ -4246,7 +4246,7 @@
 			"choose_the_terror",
 			"spread_the_terror",
 			"fear_from_the_unexpected",
-			"horrible_success,_terrible_rewards"
+			"horrible_success_terrible_rewards"
 		]
 	},
 	"horror_storytelling": {

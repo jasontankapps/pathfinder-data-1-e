@@ -166,7 +166,7 @@
 			"This swarm of silver-scaled fish thrashes feverishly, the dozens of swiftly moving creatures within seeming restless and bloodthirsty."
 		]
 	},
-	"piranha_swarm,_megapiranha_swarm": {
+	"piranha_swarm_megapiranha_swarm": {
 		"name": "Piranha Swarm, Megapiranha Swarm",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
@@ -217,7 +217,7 @@
 			"Shoals of piranhas are voracious feeders, capable of stripping the flesh from the bones of large animals with astonishing speed. These fish have garnered a well-earned reputation in regions where they thrive, but while they are native to tropical rivers, many species of piranha are incredibly hearty. Collectors of exotic pets sometimes ship tanks of these carnivorous fish home, and some unscrupulous owners even put the fish to work disposing of unwanted bodies. When the authorities draw near, panicked criminals sometimes dump the fish into nearby rivers, inadvertently unleashing schools in waters woefully unprepared for their ravenous introduction!"
 		]
 	},
-	"megapiranha_swarm": { "copyof": "piranha_swarm,_megapiranha_swarm" },
+	"megapiranha_swarm": { "copyof": "piranha_swarm_megapiranha_swarm" },
 	"pixie": {
 		"name": "Pixie",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -913,7 +913,7 @@
 			"A typical popobala is 5 feet tall with a 12 foot wingspan. It weighs only 100 pounds."
 		]
 	},
-	"poppet,_poppet,_small": {
+	"poppet_poppet_small": {
 		"name": "Poppet, Poppet, Small",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -961,8 +961,8 @@
 			"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 18; **Cost** 500 gp"
 		]
 	},
-	"small_poppet": { "copyof": "poppet,_poppet,_small" },
-	"poppet,_poppet,_tiny": {
+	"small_poppet": { "copyof": "poppet_poppet_small" },
+	"poppet_poppet_tiny": {
 		"name": "Poppet, Poppet, Tiny",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -1013,7 +1013,7 @@
 			"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 15; **Cost** 160 gp"
 		]
 	},
-	"tiny_poppet": { "copyof": "poppet,_poppet,_tiny" },
+	"tiny_poppet": { "copyof": "poppet_poppet_tiny" },
 	"porcupine": {
 		"name": "Porcupine",
 		"sources": [ "Bestiary 3" ],
@@ -1063,7 +1063,7 @@
 			"Porcupines are omnivorous mammals that often climb trees in search of food. The spines on their back provide camouflage as well as protection from natural predators-typically other small mammals. Though primarily nocturnal, porcupines do occasionally graze during the day, eating the twigs, roots, and stems of bushes, coniferous trees, and other flora. Porcupine quills normally lie flat against the creature's body, but stand stiffly on end when the porcupine feels threatened."
 		]
 	},
-	"porcupine,_giant_porcupine": {
+	"porcupine_giant_porcupine": {
 		"name": "Porcupine, Giant Porcupine",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1112,8 +1112,8 @@
 			"More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spearlike quills, makes the giant porcupine a dangerous foe."
 		]
 	},
-	"giant_porcupine": { "copyof": "porcupine,_giant_porcupine" },
-	"primeval_sea_creature,_kronosaurus": {
+	"giant_porcupine": { "copyof": "porcupine_giant_porcupine" },
+	"primeval_sea_creature_kronosaurus": {
 		"name": "Primeval Sea Creature, Kronosaurus",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
@@ -1161,8 +1161,8 @@
 			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
-	"kronosaurus": { "copyof": "primeval_sea_creature,_kronosaurus" },
-	"primeval_sea_creature,_nothosaur": {
+	"kronosaurus": { "copyof": "primeval_sea_creature_kronosaurus" },
+	"primeval_sea_creature_nothosaur": {
 		"name": "Primeval Sea Creature, Nothosaur",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
@@ -1214,8 +1214,8 @@
 			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
-	"nothosaur": { "copyof": "primeval_sea_creature,_nothosaur" },
-	"primeval_sea_creature,_zeuglodon": {
+	"nothosaur": { "copyof": "primeval_sea_creature_nothosaur" },
+	"primeval_sea_creature_zeuglodon": {
 		"name": "Primeval Sea Creature, Zeuglodon",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
@@ -1270,8 +1270,8 @@
 			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
 		]
 	},
-	"zeuglodon": { "copyof": "primeval_sea_creature,_zeuglodon" },
-	"protean,_akizendri": {
+	"zeuglodon": { "copyof": "primeval_sea_creature_zeuglodon" },
+	"protean_akizendri": {
 		"name": "Protean, Akizendri",
 		"sources": [
 			"Concordance of Rivals",
@@ -1334,8 +1334,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"akizendri": { "copyof": "protean,_akizendri" },
-	"protean,_azuretzi": {
+	"akizendri": { "copyof": "protean_akizendri" },
+	"protean_azuretzi": {
 		"name": "Protean, Azuretzi",
 		"sources": [
 			"Bestiary 6",
@@ -1402,8 +1402,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"azuretzi": { "copyof": "protean,_azuretzi" },
-	"protean,_hegessik": {
+	"azuretzi": { "copyof": "protean_azuretzi" },
+	"protean_hegessik": {
 		"name": "Protean, Hegessik",
 		"sources": [
 			"Bestiary 6",
@@ -1474,8 +1474,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"hegessik": { "copyof": "protean,_hegessik" },
-	"protean,_ibshaunet": {
+	"hegessik": { "copyof": "protean_hegessik" },
+	"protean_ibshaunet": {
 		"name": "Protean, Ibshaunet",
 		"sources": [
 			"Concordance of Rivals",
@@ -1540,8 +1540,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"ibshaunet": { "copyof": "protean,_ibshaunet" },
-	"protean,_illureshi": {
+	"ibshaunet": { "copyof": "protean_ibshaunet" },
+	"protean_illureshi": {
 		"name": "Protean, Illureshi",
 		"sources": [
 			"Concordance of Rivals",
@@ -1613,8 +1613,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"illureshi": { "copyof": "protean,_illureshi" },
-	"protean,_imentesh": {
+	"illureshi": { "copyof": "protean_illureshi" },
+	"protean_imentesh": {
 		"name": "Protean, Imentesh",
 		"sources": [
 			"Bestiary 2",
@@ -1679,8 +1679,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"imentesh": { "copyof": "protean,_imentesh" },
-	"protean,_izfiitar": {
+	"imentesh": { "copyof": "protean_imentesh" },
+	"protean_izfiitar": {
 		"name": "Protean, Izfiitar",
 		"sources": [
 			"Bestiary 6",
@@ -1785,8 +1785,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"izfiitar": { "copyof": "protean,_izfiitar" },
-	"protean,_keketar": {
+	"izfiitar": { "copyof": "protean_izfiitar" },
+	"protean_keketar": {
 		"name": "Protean, Keketar",
 		"sources": [
 			"Bestiary 2",
@@ -1854,8 +1854,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"keketar": { "copyof": "protean,_keketar" },
-	"protean,_naunet": {
+	"keketar": { "copyof": "protean_keketar" },
+	"protean_naunet": {
 		"name": "Protean, Naunet",
 		"sources": [
 			"Bestiary 2",
@@ -1923,8 +1923,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"naunet": { "copyof": "protean,_naunet" },
-	"protean,_oshageros": {
+	"naunet": { "copyof": "protean_naunet" },
+	"protean_oshageros": {
 		"name": "Protean, Oshageros",
 		"sources": [
 			"Bestiary 6",
@@ -1990,8 +1990,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"oshageros": { "copyof": "protean,_oshageros" },
-	"protean,_ourdivar": {
+	"oshageros": { "copyof": "protean_oshageros" },
+	"protean_ourdivar": {
 		"name": "Protean, Ourdivar",
 		"sources": [
 			"Bestiary 6",
@@ -2070,8 +2070,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"ourdivar": { "copyof": "protean,_ourdivar" },
-	"protean,_pelagastr": {
+	"ourdivar": { "copyof": "protean_ourdivar" },
+	"protean_pelagastr": {
 		"name": "Protean, Pelagastr",
 		"sources": [
 			"Bestiary 6",
@@ -2140,8 +2140,8 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"pelagastr": { "copyof": "protean,_pelagastr" },
-	"protean,_voidworm": {
+	"pelagastr": { "copyof": "protean_pelagastr" },
+	"protean_voidworm": {
 		"name": "Protean, Voidworm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2204,7 +2204,7 @@
 			"**Family:** [Protean](family/protean)"
 		]
 	},
-	"voidworm": { "copyof": "protean,_voidworm" },
+	"voidworm": { "copyof": "protean_voidworm" },
 	"proto-shoggoth": {
 		"name": "Proto-Shoggoth",
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
@@ -2273,7 +2273,7 @@
 		]
 	},
 	"proto_shoggoth": { "copyof": "proto-shoggoth" },
-	"proto-shoggoth,_proto-shoggoth_synctium": {
+	"proto-shoggoth_proto-shoggoth_synctium": {
 		"name": "Proto-Shoggoth, Proto-Shoggoth Synctium",
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
@@ -2339,8 +2339,8 @@
 			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests."
 		]
 	},
-	"proto-shoggoth_synctium": { "copyof": "proto-shoggoth,_proto-shoggoth_synctium" },
-	"proto_shoggoth_synctium": { "copyof": "proto-shoggoth,_proto-shoggoth_synctium" },
+	"proto-shoggoth_synctium": { "copyof": "proto-shoggoth_proto-shoggoth_synctium" },
+	"proto_shoggoth_synctium": { "copyof": "proto-shoggoth_proto-shoggoth_synctium" },
 	"pseudodragon": {
 		"name": "Pseudodragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2818,7 +2818,7 @@
 			"Psychic stalkers are the undead minds of psychic spellcasters who suffered unexpectedly violent deaths. Such minds are sometimes powerful enough to persist even after their bodies' destruction, transforming into incorporeal creatures composed entirely of thought, yet they retain no true memories or abilities from their former existence. Knowing only that they are missing a vital part of their being, psychic stalkers are ruled by the envious desire to take control of new bodies."
 		]
 	},
-	"psychopomp,_ahmuuth": {
+	"psychopomp_ahmuuth": {
 		"name": "Psychopomp, Ahmuuth",
 		"sources": [
 			"Inner Sea Gods",
@@ -2883,8 +2883,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"ahmuuth": { "copyof": "psychopomp,_ahmuuth" },
-	"psychopomp,_algea": {
+	"ahmuuth": { "copyof": "psychopomp_ahmuuth" },
+	"psychopomp_algea": {
 		"name": "Psychopomp, Algea",
 		"sources": [
 			"Bestiary 6",
@@ -2952,8 +2952,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"algea": { "copyof": "psychopomp,_algea" },
-	"psychopomp,_calaca": {
+	"algea": { "copyof": "psychopomp_algea" },
+	"psychopomp_calaca": {
 		"name": "Psychopomp, Calaca",
 		"sources": [
 			"Pathfinder #143: Borne by the Sun's Grace",
@@ -3036,8 +3036,8 @@
 			"When not performing their core duty consoling the aggrieved, calacas accompany other psychopomps on missions to the Material Plane, either as heralds or to provide support. A calaca typically reports its success or failures to a [nosoi](monster/nosoi), who scribbles details of the calaca's latest encounter with a mortal. When a [morrigna](monster/morrigna) has been given a target for assassination, several calacas may be sent in advance to soften the morrigna's prey before the attack. Calacas can also be found in the backs of the ranks of [vanth](monster/vanth) forces, maintaining the pace of the psychopomps' march with their haunting battle dirges. Truly, wherever there are psychopomps, the somber songs of the calaca are never far behind."
 		]
 	},
-	"calaca": { "copyof": "psychopomp,_calaca" },
-	"psychopomp,_catrina": {
+	"calaca": { "copyof": "psychopomp_calaca" },
+	"psychopomp_catrina": {
 		"name": "Psychopomp, Catrina",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3105,8 +3105,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"catrina": { "copyof": "psychopomp,_catrina" },
-	"psychopomp,_ember_weaver": {
+	"catrina": { "copyof": "psychopomp_catrina" },
+	"psychopomp_ember_weaver": {
 		"name": "Psychopomp, Ember Weaver",
 		"sources": [
 			"Monster Summoner's Handbook",
@@ -3171,8 +3171,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"ember_weaver": { "copyof": "psychopomp,_ember_weaver" },
-	"psychopomp,_esobok": {
+	"ember_weaver": { "copyof": "psychopomp_ember_weaver" },
+	"psychopomp_esobok": {
 		"name": "Psychopomp, Esobok",
 		"sources": [
 			"Bestiary 6",
@@ -3239,8 +3239,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"esobok": { "copyof": "psychopomp,_esobok" },
-	"psychopomp,_fulgati": {
+	"esobok": { "copyof": "psychopomp_esobok" },
+	"psychopomp_fulgati": {
 		"name": "Psychopomp, Fulgati",
 		"sources": [
 			"Concordance of Rivals",
@@ -3307,7 +3307,7 @@
 			"",
 			"#### Description",
 			"",
-			"The monolithic outsiders known as fulgatis reap not souls but entire cultures. They tread upon the land when a civilization that has reached the end of days must be wiped away for new things to grow from its corpse. Their arrival heralds the end of cities, nations, and even entire species. They are simpleminded, loyal, and utterly devoid of the compassion that defines so many other psychopomps-terrible things created and directed with terrible purpose. Legends claim that Pharasma bore these creatures herself, rather than forging them from once-mortal souls, lending some clarity to the usher Atropos's title as the \"Last Sister.\"",
+			"The monolithic outsiders known as fulgatis reap not souls but entire cultures. They tread upon the land when a civilization that has reached the end of days and must be wiped away for new things to grow from its corpse. Their arrival heralds the end of cities, nations, and even entire species. They are simpleminded, loyal, and utterly devoid of the compassion that defines so many other psychopomps-terrible things created and directed with terrible purpose. Legends claim that Pharasma bore these creatures herself, rather than forging them from once-mortal souls, lending some clarity to the usher Atropos's title as the \"Last Sister.\"",
 			"",
 			"Clad in iron masks resembling rams and bulls, fulgatis serve as little more than beasts of burden. While most psychopomps are artisans in death, honing and crafting it with purpose and applying it only when needed, fulgatis are fonts. Death itself pumps through their veins and unravels creations where they step, leaving the ground fallow so immediate survivors of their attacks have no chance to rebuild. While intelligent enough to speak and read, they lack the intellect and forceful personalities of most powerful outsiders, instead serving as the penultimate enforcers of the Boneyard's will-second only to Pharasma herself.",
 			"",
@@ -3326,8 +3326,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"fulgati": { "copyof": "psychopomp,_fulgati" },
-	"psychopomp,_kere": {
+	"fulgati": { "copyof": "psychopomp_fulgati" },
+	"psychopomp_kere": {
 		"name": "Psychopomp, Kere",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -3419,8 +3419,8 @@
 			"For all of the ambiance and grim reputations cultivated by keres, their primary objective upon the Material Plane is to preemptively thwart the deeds of necromancers and undead. To this end they terrorize grave robbers, harry the work of dark cultists, and openly attack the unliving. Any undead beings who enter or manifest in a cemetery under a kere's care find the weight of eternity crushing down upon them, making the most common sorts easy prey for these sentinel psychopomps. In some cases, though, more powerful undead might find ways to undermine a kere's defenses, or even drive her off. Such desperate keres have been known to grudgingly seek out aid, typically from the church of Pharasma or fringe-dwelling magic-users, in countering the taint of undeath."
 		]
 	},
-	"kere": { "copyof": "psychopomp,_kere" },
-	"psychopomp,_memitim": {
+	"kere": { "copyof": "psychopomp_kere" },
+	"psychopomp_memitim": {
 		"name": "Psychopomp, Memitim",
 		"sources": [
 			"Bestiary 6",
@@ -3483,8 +3483,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"memitim": { "copyof": "psychopomp,_memitim" },
-	"psychopomp,_morbai": {
+	"memitim": { "copyof": "psychopomp_memitim" },
+	"psychopomp_morbai": {
 		"name": "Psychopomp, Morbai",
 		"sources": [
 			"Concordance of Rivals",
@@ -3548,8 +3548,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"morbai": { "copyof": "psychopomp,_morbai" },
-	"psychopomp,_morrigna": {
+	"morbai": { "copyof": "psychopomp_morbai" },
+	"psychopomp_morrigna": {
 		"name": "Psychopomp, Morrigna",
 		"sources": [
 			"Bestiary 4",
@@ -3623,8 +3623,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"morrigna": { "copyof": "psychopomp,_morrigna" },
-	"psychopomp,_nosoi": {
+	"morrigna": { "copyof": "psychopomp_morrigna" },
+	"psychopomp_nosoi": {
 		"name": "Psychopomp, Nosoi",
 		"sources": [
 			"Bestiary 4",
@@ -3692,8 +3692,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"nosoi": { "copyof": "psychopomp,_nosoi" },
-	"psychopomp,_olethros": {
+	"nosoi": { "copyof": "psychopomp_nosoi" },
+	"psychopomp_olethros": {
 		"name": "Psychopomp, Olethros",
 		"sources": [
 			"Bestiary 6",
@@ -3778,8 +3778,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"olethros": { "copyof": "psychopomp,_olethros" },
-	"psychopomp,_shoki": {
+	"olethros": { "copyof": "psychopomp_olethros" },
+	"psychopomp_shoki": {
 		"name": "Psychopomp, Shoki",
 		"sources": [
 			"Bestiary 6",
@@ -3841,8 +3841,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"shoki": { "copyof": "psychopomp,_shoki" },
-	"psychopomp,_vanth": {
+	"shoki": { "copyof": "psychopomp_shoki" },
+	"psychopomp_vanth": {
 		"name": "Psychopomp, Vanth",
 		"sources": [
 			"Bestiary 4",
@@ -3910,8 +3910,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"vanth": { "copyof": "psychopomp,_vanth" },
-	"psychopomp,_viduus": {
+	"vanth": { "copyof": "psychopomp_vanth" },
+	"psychopomp_viduus": {
 		"name": "Psychopomp, Viduus",
 		"sources": [
 			"Bestiary 6",
@@ -3975,8 +3975,8 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"viduus": { "copyof": "psychopomp,_viduus" },
-	"psychopomp,_yamaraj": {
+	"viduus": { "copyof": "psychopomp_viduus" },
+	"psychopomp_yamaraj": {
 		"name": "Psychopomp, Yamaraj",
 		"sources": [
 			"Bestiary 4",
@@ -4058,7 +4058,7 @@
 			"**Family:** [Psychopomp](family/psychopomp)"
 		]
 	},
-	"yamaraj": { "copyof": "psychopomp,_yamaraj" },
+	"yamaraj": { "copyof": "psychopomp_yamaraj" },
 	"pukwudgie": {
 		"name": "Pukwudgie",
 		"sources": [ "Bestiary 3" ],
@@ -4541,7 +4541,7 @@
 			"Qallupilluks may craft hovels or lodges from stone or coral on the seabed. A few craft semi-permanent homes in the submerged recesses of icebergs. They often know fragments of ancient and obscure natural secrets."
 		]
 	},
-	"qlippoth,_augnagar": {
+	"qlippoth_augnagar": {
 		"name": "Qlippoth, Augnagar",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4603,8 +4603,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"augnagar": { "copyof": "qlippoth,_augnagar" },
-	"qlippoth,_behimiron": {
+	"augnagar": { "copyof": "qlippoth_augnagar" },
+	"qlippoth_behimiron": {
 		"name": "Qlippoth, Behimiron",
 		"sources": [
 			"Bestiary 6",
@@ -4675,8 +4675,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"behimiron": { "copyof": "qlippoth,_behimiron" },
-	"qlippoth,_cataboligne": {
+	"behimiron": { "copyof": "qlippoth_behimiron" },
+	"qlippoth_cataboligne": {
 		"name": "Qlippoth, Cataboligne",
 		"sources": [
 			"Bestiary 6",
@@ -4747,8 +4747,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"cataboligne": { "copyof": "qlippoth,_cataboligne" },
-	"qlippoth,_chernobue": {
+	"cataboligne": { "copyof": "qlippoth_cataboligne" },
+	"qlippoth_chernobue": {
 		"name": "Qlippoth, Chernobue",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4815,8 +4815,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"chernobue": { "copyof": "qlippoth,_chernobue" },
-	"qlippoth,_cythnigot": {
+	"chernobue": { "copyof": "qlippoth_chernobue" },
+	"qlippoth_cythnigot": {
 		"name": "Qlippoth, Cythnigot",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4880,8 +4880,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"cythnigot": { "copyof": "qlippoth,_cythnigot" },
-	"qlippoth,_deinochos": {
+	"cythnigot": { "copyof": "qlippoth_cythnigot" },
+	"qlippoth_deinochos": {
 		"name": "Qlippoth, Deinochos",
 		"sources": [
 			"Book of the Damned",
@@ -4950,8 +4950,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"deinochos": { "copyof": "qlippoth,_deinochos" },
-	"qlippoth,_gongorinan": {
+	"deinochos": { "copyof": "qlippoth_deinochos" },
+	"qlippoth_gongorinan": {
 		"name": "Qlippoth, Gongorinan",
 		"sources": [
 			"Bestiary 6",
@@ -5039,8 +5039,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"gongorinan": { "copyof": "qlippoth,_gongorinan" },
-	"qlippoth,_gorgoros": {
+	"gongorinan": { "copyof": "qlippoth_gongorinan" },
+	"qlippoth_gorgoros": {
 		"name": "Qlippoth, Gorgoros",
 		"sources": [
 			"Bestiary 6",
@@ -5109,8 +5109,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"gorgoros": { "copyof": "qlippoth,_gorgoros" },
-	"qlippoth,_hydraggon": {
+	"gorgoros": { "copyof": "qlippoth_gorgoros" },
+	"qlippoth_hydraggon": {
 		"name": "Qlippoth, Hydraggon",
 		"sources": [
 			"Bestiary 6",
@@ -5177,8 +5177,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"hydraggon": { "copyof": "qlippoth,_hydraggon" },
-	"qlippoth,_iathavos": {
+	"hydraggon": { "copyof": "qlippoth_hydraggon" },
+	"qlippoth_iathavos": {
 		"name": "Qlippoth, Iathavos",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5256,8 +5256,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"iathavos": { "copyof": "qlippoth,_iathavos" },
-	"qlippoth,_nyogoth": {
+	"iathavos": { "copyof": "qlippoth_iathavos" },
+	"qlippoth_nyogoth": {
 		"name": "Qlippoth, Nyogoth",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5321,8 +5321,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"nyogoth": { "copyof": "qlippoth,_nyogoth" },
-	"qlippoth,_shoggti": {
+	"nyogoth": { "copyof": "qlippoth_nyogoth" },
+	"qlippoth_shoggti": {
 		"name": "Qlippoth, Shoggti",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5387,8 +5387,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"shoggti": { "copyof": "qlippoth,_shoggti" },
-	"qlippoth,_thognorok": {
+	"shoggti": { "copyof": "qlippoth_shoggti" },
+	"qlippoth_thognorok": {
 		"name": "Qlippoth, Thognorok",
 		"sources": [
 			"Inner Sea Gods",
@@ -5456,8 +5456,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"thognorok": { "copyof": "qlippoth,_thognorok" },
-	"qlippoth,_thulgant": {
+	"thognorok": { "copyof": "qlippoth_thognorok" },
+	"qlippoth_thulgant": {
 		"name": "Qlippoth, Thulgant",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5526,8 +5526,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"thulgant": { "copyof": "qlippoth,_thulgant" },
-	"qlippoth,_utukku": {
+	"thulgant": { "copyof": "qlippoth_thulgant" },
+	"qlippoth_utukku": {
 		"name": "Qlippoth, Utukku",
 		"sources": [
 			"Bestiary 6",
@@ -5595,8 +5595,8 @@
 			"**Family:** [Qlippoth](family/qlippoth)"
 		]
 	},
-	"utukku": { "copyof": "qlippoth,_utukku" },
-	"qlippoth,_vexenion": {
+	"utukku": { "copyof": "qlippoth_utukku" },
+	"qlippoth_vexenion": {
 		"name": "Qlippoth, Vexenion",
 		"sources": [
 			"Pathfinder #134: It Came from Hollow Mountain",
@@ -5682,7 +5682,7 @@
 			"Vexenions are often confused with [nyogoths](monster/nyogoth), in whose company they are sometimes found. However, vexenions are more intelligent and better able to set up ambushes and traps for unsuspecting prey. Fortunately for nyogoths, they are among the only creatures in the Great Beyond that vexenions find unpalatable."
 		]
 	},
-	"vexenion": { "copyof": "qlippoth,_vexenion" },
+	"vexenion": { "copyof": "qlippoth_vexenion" },
 	"quickling": {
 		"name": "Quickling",
 		"sources": [ "Bestiary 2" ],
@@ -5813,7 +5813,7 @@
 			"",
 			"### Rabisu, CR 11",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 62](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 62](source/qadira_jewel_of_the_east)  ",
 			"**XP** 12,800  ",
 			"CE Medium fey  ",
 			"**Init** +7; **Senses** low-light vision, scent, see in darkness; Perception +22",
@@ -5947,7 +5947,7 @@
 			"",
 			"### Ragewight, CR 6",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 58](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 58](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 2,400  ",
 			"CE Medium undead  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +15",
@@ -6259,7 +6259,7 @@
 			"A rat king is approximately 3 feet across and weighs 15 pounds."
 		]
 	},
-	"rat,_dire_rat": {
+	"rat_dire_rat": {
 		"name": "Rat, Dire Rat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6308,8 +6308,8 @@
 			"Dire rats grow up to 2 feet long and weigh up to 25 pounds. They are common menaces in dungeons and city sewers alike."
 		]
 	},
-	"dire_rat": { "copyof": "rat,_dire_rat" },
-	"rat,_rat_swarm": {
+	"dire_rat": { "copyof": "rat_dire_rat" },
+	"rat_rat_swarm": {
 		"name": "Rat, Rat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6362,7 +6362,7 @@
 			"Rat swarms surround and attack any warm-blooded prey in their path."
 		]
 	},
-	"rat_swarm": { "copyof": "rat,_rat_swarm" },
+	"rat_swarm": { "copyof": "rat_rat_swarm" },
 	"ratling": {
 		"name": "Ratling",
 		"sources": [
@@ -6536,7 +6536,7 @@
 			"Razormouths most often reside in mountainous areas or large canyons with steep cliffs. While most creatures would find such areas difficult to traverse, razormouths are especially mobile, being choice climbers that are able to leap from cliff faces to outcrops with singular alacrity. This exceptional mobility, along with a devastating pair of long, serrated fangs, make the fearsome razormouths unparalleled hunters, and few survive getting too close to their fangs."
 		]
 	},
-	"reaper,_grim_reaper": {
+	"reaper_grim_reaper": {
 		"name": "Reaper, Grim Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
@@ -6615,7 +6615,7 @@
 			"See also: [Grim Reaper](monster/grim_reaper)"
 		]
 	},
-	"reaper,_minor_reaper": {
+	"reaper_minor_reaper": {
 		"name": "Reaper, Minor Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
@@ -6665,7 +6665,7 @@
 			"",
 			"This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.",
 			"",
-			"Known by many names throughout nearly all cultures, [grim reapers](monster/reaper,_grim_reaper) are the personifications of death and all the pain and fear associated with that state. They are universally feared by the living as harbingers of destruction and masters of all that has already passed from life. These hooded beings travel through the planes with the sole intent of bringing about the end of life, slaying with a deliberateness inscrutable to all but themselves.",
+			"Known by many names throughout nearly all cultures, [grim reapers](monster/reaper_grim_reaper) are the personifications of death and all the pain and fear associated with that state. They are universally feared by the living as harbingers of destruction and masters of all that has already passed from life. These hooded beings travel through the planes with the sole intent of bringing about the end of life, slaying with a deliberateness inscrutable to all but themselves.",
 			"",
 			"While grim reapers are the most feared of their kind, they are not alone. The towering, ghostlike grim reapers are served by minor reapers, corporeal servitors that enact their master's dreadful will and meet out death's unrelenting touch. A grim reaper is 15 feet tall and, as an incorporeal creature, has no physical weight except for its equipment. Minor reapers stand 7 feet tall and weigh approximately 70 pounds.",
 			"",
@@ -6688,5 +6688,5 @@
 			"See also: [Lesser Death](monster/lesser_death)"
 		]
 	},
-	"minor_reaper": { "copyof": "reaper,_minor_reaper" }
+	"minor_reaper": { "copyof": "reaper_minor_reaper" }
 }

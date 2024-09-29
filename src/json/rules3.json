@@ -3254,7 +3254,7 @@
 			"",
 			"A dueling counter is an immediate action that does not provoke attacks of opportunity. To attempt a dueling counter, the countering duelist must expend a spell or a spell slot of a level equal to or higher than that of the spell being cast. Note that characters who cast spells spontaneously (such as bards and sorcerers) must choose what exact spell they are using to counterspell in addition to the slot being used. The countering duelist must then make a caster level check against a DC of 15 + the spell's caster level. Unlike when using a true counterspell action (which requires a readied action), even expending an exact copy of the spell being cast does not guarantee success. The caster attempting the counterspell receives a bonus or penalty on her check depending upon the level of the spell slot expended and the exact spell used, as noted in Table 2-3. If the check is successful, the spell is countered-it is negated and the spell is lost. If not, the spell happens as normal and the duelist attempting to counter the spell takes a -2 penalty on any saving throws made against the spell's effect.",
 			"",
-			"Alternatively, a spellcaster can use [dispel magic](spell/dispel_magic) or [dispel magic, greater](spell/dispel_magic,_greater) as a dueling counter. When a dueling spellcaster does so, she does not need to identify the spell being cast, can counter a spell of any level, and must succeed at a caster level check against a DC of 11 + the spell's caster level. When [dispel magic](spell/dispel_magic) is used as a dueling counter, it is not modified by any of the circumstances in Table 2-3.",
+			"Alternatively, a spellcaster can use [dispel magic](spell/dispel_magic) or [dispel magic, greater](spell/dispel_magic_greater) as a dueling counter. When a dueling spellcaster does so, she does not need to identify the spell being cast, can counter a spell of any level, and must succeed at a caster level check against a DC of 11 + the spell's caster level. When [dispel magic](spell/dispel_magic) is used as a dueling counter, it is not modified by any of the circumstances in Table 2-3.",
 			"",
 			"Because readying to counterspell is its own action, a participant can choose to ready to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents or someone with access to [Quicken Spell](feat/quicken_spell) or other abilities that allow casting two spells in the same round.",
 			"",
@@ -3342,7 +3342,7 @@
 		],
 		"subtopics": [
 			"clerics_and_oracles",
-			"wizards,_sorcerers,_and_summoners"
+			"wizards_sorcerers_and_summoners"
 		],
 		"siblings": [
 			"calling_outsiders",
@@ -3370,10 +3370,10 @@
 		],
 		"siblings": [
 			"clerics_and_oracles",
-			"wizards,_sorcerers,_and_summoners"
+			"wizards_sorcerers_and_summoners"
 		]
 	},
-	"wizards,_sorcerers,_and_summoners": {
+	"wizards_sorcerers_and_summoners": {
 		"name": "Wizards, Sorcerers, and Summoners",
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
@@ -3396,7 +3396,7 @@
 		],
 		"siblings": [
 			"clerics_and_oracles",
-			"wizards,_sorcerers,_and_summoners"
+			"wizards_sorcerers_and_summoners"
 		]
 	},
 	"true_names": {
@@ -5597,7 +5597,7 @@
 			"",
 			"**Secondary Effect:** Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt by a secondary effect is instead Constitution damage.",
 			"",
-			"**Removing Radiation Effects:** All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. [Ability damage and drain](rule/ability_score_damage,_penalty,_and_drain) caused by radiation damage can be healed normally",
+			"**Removing Radiation Effects:** All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. [Ability damage and drain](rule/ability_score_damage_penalty_and_drain) caused by radiation damage can be healed normally",
 			"",
 			"| Radiation Level | Fort DC | Initial Effect | Secondary Effect |",
 			"| --- | --- | --- | --- |",

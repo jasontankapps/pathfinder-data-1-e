@@ -238,13 +238,13 @@
 			"If a given spell has more than one level depending on which character class is casting it, use the level appropriate to the caster to determine whether lesser globe of invulnerability stops it."
 		]
 	},
-	"globe_of_invulnerability,_lesser": {
+	"globe_of_invulnerability_lesser": {
 		"name": "Globe of Invulnerability, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "globe_of_invulnerability"
 	},
 	"lesser_globe_of_invulnerability": {
-		"copyof": "globe_of_invulnerability,_lesser"
+		"copyof": "globe_of_invulnerability_lesser"
 	},
 	"globe_of_tranquil_water": {
 		"name": "Globe of Tranquil Water",
@@ -394,13 +394,13 @@
 			"*Material Component:* You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 400 gp."
 		]
 	},
-	"glyph_of_warding,_greater": {
+	"glyph_of_warding_greater": {
 		"name": "Glyph of Warding, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "glyph_of_warding"
 	},
 	"greater_glyph_of_warding": {
-		"copyof": "glyph_of_warding,_greater"
+		"copyof": "glyph_of_warding_greater"
 	},
 	"golden_guise": {
 		"name": "Golden Guise",
@@ -907,13 +907,13 @@
 			"This spell functions like grease, except as noted here. When you use this spell to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each part of which must be within the spell's range. When you use this spell to create a greasy coating on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces with a single casting of this spell."
 		]
 	},
-	"grease,_greater": {
+	"grease_greater": {
 		"name": "Grease, Greater",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"copyof": "grease"
 	},
 	"greater_grease": {
-		"copyof": "grease,_greater"
+		"copyof": "grease_greater"
 	},
 	"green_caress": {
 		"name": "Green Caress",
@@ -1078,15 +1078,15 @@
 			"This spell teleports the suit of armor you are wearing off of your body and onto an ally within range; the target must be the same size and general shape as you. This armor appears on the target's body fully formed and properly donned, granting the creature the immediate benefit of its protection. If the target of guardian armor was already wearing armor, the armor wearing it is removed from the target's body and falls undamaged into an adjacent square."
 		]
 	},
-	"guardian_monument,_greater": {
+	"guardian_monument_greater": {
 		"name": "Guardian Monument, Greater",
 		"sources": [ "Arcane Anthology" ],
 		"copyof": "lesser_guardian_monument"
 	},
 	"greater_guardian_monument": {
-		"copyof": "guardian_monument,_greater"
+		"copyof": "guardian_monument_greater"
 	},
-	"guardian_monument,_lesser": {
+	"guardian_monument_lesser": {
 		"name": "Guardian Monument, Lesser",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -1132,7 +1132,7 @@
 		]
 	},
 	"lesser_guardian_monument": {
-		"copyof": "guardian_monument,_lesser"
+		"copyof": "guardian_monument_lesser"
 	},
 	"guardian_of_faith": {
 		"name": "Guardian of Faith",
@@ -1551,13 +1551,13 @@
 			"This spell functions like halfling vengeance, except that it affects multiple creatures."
 		]
 	},
-	"halfling_vengeance,_mass": {
+	"halfling_vengeance_mass": {
 		"name": "Halfling Vengeance, Mass",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"copyof": "halfling_vengeance"
 	},
 	"mass_halfling_vengeance": {
-		"copyof": "halfling_vengeance,_mass"
+		"copyof": "halfling_vengeance_mass"
 	},
 	"hallow": {
 		"name": "Hallow",
@@ -1963,13 +1963,13 @@
 			"A single creature can be under the effects of only one harrowing or greater harrowing at a time. If the subject is targeted with a second harrowing or greater harrowing spell while a previous harrowing or greater harrowing is still affecting him, the new spell automatically fails for that subject."
 		]
 	},
-	"harrowing,_greater": {
+	"harrowing_greater": {
 		"name": "Harrowing, Greater",
 		"sources": [ "The Harrow Handbook" ],
 		"copyof": "harrowing"
 	},
 	"greater_harrowing": {
-		"copyof": "harrowing,_greater"
+		"copyof": "harrowing_greater"
 	},
 	"harvest_knowledge": {
 		"name": "Harvest Knowledge",
@@ -2294,13 +2294,13 @@
 			"This spell functions like heal, but it affects only the paladin's special mount (typically a horse)."
 		]
 	},
-	"heal,_mass": {
+	"heal_mass": {
 		"name": "Heal, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "heal"
 	},
 	"mass_heal": {
-		"copyof": "heal,_mass"
+		"copyof": "heal_mass"
 	},
 	"healing_flames": {
 		"name": "Healing Flames",
@@ -2556,7 +2556,7 @@
 		"description": [
 			"## Heatstroke",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava_the_lost_colony)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 3, druid 3, hunter 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -2945,13 +2945,13 @@
 			"This spell functions like heroic fortune, except as noted above."
 		]
 	},
-	"heroic_fortune,_mass": {
+	"heroic_fortune_mass": {
 		"name": "Heroic Fortune, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "heroic_fortune"
 	},
 	"mass_heroic_fortune": {
-		"copyof": "heroic_fortune,_mass"
+		"copyof": "heroic_fortune_mass"
 	},
 	"heroic_invocation": {
 		"name": "Heroic Invocation",
@@ -3076,13 +3076,13 @@
 			"Attempts to identify greater hollow heroism with a skill check incorrectly identify it as greater heroism."
 		]
 	},
-	"heroism,_greater": {
+	"heroism_greater": {
 		"name": "Heroism, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "heroism"
 	},
 	"greater_heroism": {
-		"copyof": "heroism,_greater"
+		"copyof": "heroism_greater"
 	},
 	"hero's_defiance": {
 		"name": "Hero's Defiance",
@@ -3154,13 +3154,13 @@
 			"Read magic allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check."
 		]
 	},
-	"hex_glyph,_greater": {
+	"hex_glyph_greater": {
 		"name": "Hex Glyph, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "hex_glyph"
 	},
 	"greater_hex_glyph": {
-		"copyof": "hex_glyph,_greater"
+		"copyof": "hex_glyph_greater"
 	},
 	"hex_vulnerability": {
 		"name": "Hex Vulnerability",
@@ -3495,13 +3495,13 @@
 			"This spell functions as hide from undead, except the spell does not immediately end if a warded creature attempts to turn or command undead, channels positive energy, touches an undead creature, or attacks any creature. Instead, when the warded creature takes one of these actions, an intelligent undead creature can attempt another Will saving throw to negate the effects of the spell."
 		]
 	},
-	"hide_from_undead,_greater": {
+	"hide_from_undead_greater": {
 		"name": "Hide from Undead, Greater",
 		"sources": [ "People of the Wastes" ],
 		"copyof": "hide_from_undead"
 	},
 	"greater_hide_from_undead": {
-		"copyof": "hide_from_undead,_greater"
+		"copyof": "hide_from_undead_greater"
 	},
 	"hide_weapon": {
 		"name": "Hide Weapon",
@@ -3690,13 +3690,13 @@
 			"This spell functions like hold person, except that it affects multiple creatures and holds any living creature that fails its Will save."
 		]
 	},
-	"hold_monster,_mass": {
+	"hold_monster_mass": {
 		"name": "Hold Monster, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "hold_monster"
 	},
 	"mass_hold_monster": {
-		"copyof": "hold_monster,_mass"
+		"copyof": "hold_monster_mass"
 	},
 	"hold_person": {
 		"name": "Hold Person",
@@ -3726,7 +3726,7 @@
 			"",
 			"### Hold Fey",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world_realm_of_the_fey)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 3, bard 2, cleric 2, inquisitor 2, oracle 2, sorcerer 3, warpriest 2, witch 2, wizard 3",
 			"",
 			"#### Casting",
@@ -3763,13 +3763,13 @@
 			"This spell functions like hold person, except as noted above."
 		]
 	},
-	"hold_person,_mass": {
+	"hold_person_mass": {
 		"name": "Hold Person, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "hold_person"
 	},
 	"mass_hold_person": {
-		"copyof": "hold_person,_mass"
+		"copyof": "hold_person_mass"
 	},
 	"hold_portal": {
 		"name": "Hold Portal",
@@ -3835,13 +3835,13 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "heroism"
 	},
-	"hollow_heroism,_greater": {
+	"hollow_heroism_greater": {
 		"name": "Hollow Heroism, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "heroism"
 	},
 	"greater_hollow_heroism": {
-		"copyof": "hollow_heroism,_greater"
+		"copyof": "hollow_heroism_greater"
 	},
 	"holy_aura": {
 		"name": "Holy Aura",
@@ -4342,13 +4342,13 @@
 			"This spell functions like hostile juxtaposition, except you can target one creature for every four caster levels you have or you can target a single creature that is larger than you are. You can switch places with each target only once while the effect lasts. Once you have used it to teleport and switch places with each affected target, the spell is discharged."
 		]
 	},
-	"hostile_juxtaposition,_greater": {
+	"hostile_juxtaposition_greater": {
 		"name": "Hostile Juxtaposition, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "hostile_juxtaposition"
 	},
 	"greater_hostile_juxtaposition": {
-		"copyof": "hostile_juxtaposition,_greater"
+		"copyof": "hostile_juxtaposition_greater"
 	},
 	"hostile_levitation": {
 		"name": "Hostile Levitation",
@@ -4443,13 +4443,13 @@
 			"This spell functions like human potential, except it affects multiple creatures. Each target can choose a different ability score to be enhanced by this spell."
 		]
 	},
-	"human_potential,_mass": {
+	"human_potential_mass": {
 		"name": "Human Potential, Mass",
 		"sources": [ "Arcane Anthology" ],
 		"copyof": "human_potential"
 	},
 	"mass_human_potential": {
-		"copyof": "human_potential,_mass"
+		"copyof": "human_potential_mass"
 	},
 	"hunger_for_flesh": {
 		"name": "Hunger for Flesh",
@@ -4495,13 +4495,13 @@
 			"This spell functions like hunger for flesh, except that it affects multiple targets. When forced to feed by the spell, affected creatures attack creatures not affected by this spell if there are any such appropriate creatures nearby, but otherwise they attack other affected creatures."
 		]
 	},
-	"hunger_for_flesh,_mass": {
+	"hunger_for_flesh_mass": {
 		"name": "Hunger for Flesh, Mass",
 		"sources": [ "Horror Adventures" ],
 		"copyof": "hunger_for_flesh"
 	},
 	"mass_hunger_for_flesh": {
-		"copyof": "hunger_for_flesh,_mass"
+		"copyof": "hunger_for_flesh_mass"
 	},
 	"hungry_darkness": {
 		"name": "Hungry Darkness",
@@ -4964,13 +4964,13 @@
 			"This functions as hypnotism, except it affects 2 Hit Die of creatures per caster level you have. You can make up to five requests (instead of a single request) to each creature affected by the spell, and the requests can be as long and as complicated as you desire (though they still must be reasonable)."
 		]
 	},
-	"hypnotism,_greater": {
+	"hypnotism_greater": {
 		"name": "Hypnotism, Greater",
 		"sources": [ "Blood of the Beast" ],
 		"copyof": "hypnotism"
 	},
 	"greater_hypnotism": {
-		"copyof": "hypnotism,_greater"
+		"copyof": "hypnotism_greater"
 	},
 	"ice_armor": {
 		"name": "Ice Armor",
@@ -5210,13 +5210,13 @@
 			"This spell functions as icy prison, except as noted above."
 		]
 	},
-	"icy_prison,_mass": {
+	"icy_prison_mass": {
 		"name": "Icy Prison, Mass",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "icy_prison"
 	},
 	"mass_icy_prison": {
-		"copyof": "icy_prison,_mass"
+		"copyof": "icy_prison_mass"
 	},
 	"id_insinuation_1": {
 		"name": "Id Insinuation I",
@@ -5480,13 +5480,13 @@
 			"This spell functions as illusion of treachery except that it also conceals your own actions (as illusion of calm) and renders invisible all spell effects and ranged attacks originating from you until they reach the attack's target (this doesn't cause the attack's target to be unable to avoid the attack, as they still see the attack originating from the spell's target)."
 		]
 	},
-	"illusion_of_treachery,_greater": {
+	"illusion_of_treachery_greater": {
 		"name": "Illusion of Treachery, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "illusion_of_treachery"
 	},
 	"greater_illusion_of_treachery": {
-		"copyof": "illusion_of_treachery,_greater"
+		"copyof": "illusion_of_treachery_greater"
 	},
 	"illusory_crowd": {
 		"name": "Illusory Crowd",
@@ -6259,7 +6259,7 @@
 			"As per infernal healing, except the target gains fast healing 4 and the target detects as an evil cleric."
 		]
 	},
-	"infernal_healing,_greater": {
+	"infernal_healing_greater": {
 		"name": "Infernal Healing, Greater",
 		"sources": [
 			"Hell's Vengeance Player's Guide",
@@ -6270,7 +6270,7 @@
 		"copyof": "infernal_healing"
 	},
 	"greater_infernal_healing": {
-		"copyof": "infernal_healing,_greater"
+		"copyof": "infernal_healing_greater"
 	},
 	"inflict_critical_wounds": {
 		"name": "Inflict Critical Wounds",
@@ -6324,13 +6324,13 @@
 			"This spell functions like mass inflict light wounds, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40)."
 		]
 	},
-	"inflict_critical_wounds,_mass": {
+	"inflict_critical_wounds_mass": {
 		"name": "Inflict Critical Wounds, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_critical_wounds"
 	},
 	"mass_inflict_critical_wounds": {
-		"copyof": "inflict_critical_wounds,_mass"
+		"copyof": "inflict_critical_wounds_mass"
 	},
 	"inflict_light_wounds": {
 		"name": "Inflict Light Wounds",
@@ -6388,13 +6388,13 @@
 			"Like other inflict spells, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells."
 		]
 	},
-	"inflict_light_wounds,_mass": {
+	"inflict_light_wounds_mass": {
 		"name": "Inflict Light Wounds, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_light_wounds"
 	},
 	"mass_inflict_light_wounds": {
-		"copyof": "inflict_light_wounds,_mass"
+		"copyof": "inflict_light_wounds_mass"
 	},
 	"inflict_moderate_wounds": {
 		"name": "Inflict Moderate Wounds",
@@ -6448,13 +6448,13 @@
 			"This spell functions like mass inflict light wounds, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30)."
 		]
 	},
-	"inflict_moderate_wounds,_mass": {
+	"inflict_moderate_wounds_mass": {
 		"name": "Inflict Moderate Wounds, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_moderate_wounds"
 	},
 	"mass_inflict_moderate_wounds": {
-		"copyof": "inflict_moderate_wounds,_mass"
+		"copyof": "inflict_moderate_wounds_mass"
 	},
 	"inflict_pain": {
 		"name": "Inflict Pain",
@@ -6480,7 +6480,7 @@
 			"You telepathically wrack the target's mind and body with agonizing pain that imposes a -4 penalty on attack rolls, skill checks, and ability checks. A successful Will save reduces the duration to 1 round."
 		]
 	},
-	"inflict_pain,_mass": {
+	"inflict_pain_mass": {
 		"name": "Inflict Pain, Mass",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -6505,7 +6505,7 @@
 		]
 	},
 	"mass_inflict_pain": {
-		"copyof": "inflict_pain,_mass"
+		"copyof": "inflict_pain_mass"
 	},
 	"inflict_serious_wounds": {
 		"name": "Inflict Serious Wounds",
@@ -6559,13 +6559,13 @@
 			"This spell functions like mass inflict light wounds, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35)."
 		]
 	},
-	"inflict_serious_wounds,_mass": {
+	"inflict_serious_wounds_mass": {
 		"name": "Inflict Serious Wounds, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_serious_wounds"
 	},
 	"mass_inflict_serious_wounds": {
-		"copyof": "inflict_serious_wounds,_mass"
+		"copyof": "inflict_serious_wounds_mass"
 	},
 	"influence_wild_magic": {
 		"name": "Influence Wild Magic",
@@ -6958,13 +6958,13 @@
 			"As insect spies, but you can also borrow the senses of the summoned insects. As a move action, you can choose to receive sensory input from one of the insects, seeing what it sees and hearing what it hears. While doing so, you are treated as being blind and deaf. You can change to another insect, or return to your own senses, with another move action."
 		]
 	},
-	"insect_spies,_greater": {
+	"insect_spies_greater": {
 		"name": "Insect Spies, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "insect_spies"
 	},
 	"greater_insect_spies": {
-		"copyof": "insect_spies,_greater"
+		"copyof": "insect_spies_greater"
 	},
 	"inspiring_recovery": {
 		"name": "Inspiring Recovery",
@@ -7204,13 +7204,13 @@
 			"This spell functions as instant summons, except that you can target multiple objects. You must use a separate sapphire worth 1,000 gp for each one. For each item you target, you can touch a creature, granting that creature the ability to speak the special word for that item (each item has its own special word) while crushing the matched gem to call the item to hand. Only you or the touched creature can activate the gem or see the arcane mark upon it."
 		]
 	},
-	"instant_summons,_greater": {
+	"instant_summons_greater": {
 		"name": "Instant Summons, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "instant_summons"
 	},
 	"greater_instant_summons": {
-		"copyof": "instant_summons,_greater"
+		"copyof": "instant_summons_greater"
 	},
 	"instant_weapon": {
 		"name": "Instant Weapon",
@@ -7495,13 +7495,13 @@
 			"This spell functions as interrogation, except you may ask one question per caster level and the spell deals damage equal to 1d8 points plus your Wisdom bonus if the target doesn't answer a question."
 		]
 	},
-	"interrogation,_greater": {
+	"interrogation_greater": {
 		"name": "Interrogation, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "interrogation"
 	},
 	"greater_interrogation": {
-		"copyof": "interrogation,_greater"
+		"copyof": "interrogation_greater"
 	},
 	"inveigle_monster": {
 		"name": "Inveigle Monster",
@@ -7621,13 +7621,13 @@
 			"This spell works as invigorate, except that it affects multiple creatures."
 		]
 	},
-	"invigorate,_mass": {
+	"invigorate_mass": {
 		"name": "Invigorate, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "invigorate"
 	},
 	"mass_invigorate": {
-		"copyof": "invigorate,_mass"
+		"copyof": "invigorate_mass"
 	},
 	"invigorating_poison": {
 		"name": "Invigorating Poison",
@@ -7843,21 +7843,21 @@
 			"This functions as per invisibility bubble, but the spell affects the areas of each target creature, regardless of the creature's size. The effect moves with the group and is broken when anyone in the group attacks. Individuals in separate bubbles can't see each other. The spell is broken for any individual who moves more than 180 feet from the nearest member of the group. If only two individuals are affected, the one moving away from the other one loses its invisibility. If both are moving away from each other simultaneously, they both become visible when the distance between them exceeds 180 feet."
 		]
 	},
-	"invisibility_bubble,_giant": {
+	"invisibility_bubble_giant": {
 		"name": "Invisibility Bubble, Giant",
 		"sources": [ "Aquatic Adventures" ],
 		"copyof": "invisibility_bubble"
 	},
 	"giant_invisibility_bubble": {
-		"copyof": "invisibility_bubble,_giant"
+		"copyof": "invisibility_bubble_giant"
 	},
-	"invisibility_bubble,_mass": {
+	"invisibility_bubble_mass": {
 		"name": "Invisibility Bubble, Mass",
 		"sources": [ "Aquatic Adventures" ],
 		"copyof": "invisibility_bubble"
 	},
 	"mass_invisibility_bubble": {
-		"copyof": "invisibility_bubble,_mass"
+		"copyof": "invisibility_bubble_mass"
 	},
 	"invisibility_purge": {
 		"name": "Invisibility Purge",
@@ -7910,20 +7910,20 @@
 			"Those affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves. If the spell recipient attacks, the invisibility sphere ends."
 		]
 	},
-	"invisibility,_greater": {
+	"invisibility_greater": {
 		"name": "Invisibility, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "invisibility"
 	},
 	"greater_invisibility": {
-		"copyof": "invisibility,_greater"
+		"copyof": "invisibility_greater"
 	},
-	"invisibility,_mass": {
+	"invisibility_mass": {
 		"name": "Invisibility, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "invisibility"
 	},
 	"mass_invisibility": {
-		"copyof": "invisibility,_mass"
+		"copyof": "invisibility_mass"
 	}
 }

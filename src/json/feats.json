@@ -807,7 +807,7 @@
 			"**Source** [People of the Wastes pg. 26](source/people_of_the_wastes)",
 			"",
 			"Your magical creations reject those you oppose.  ",
-			"**Prerequisites:** Craft Magic Arms and Armor or Craft Wondrous Item.  ",
+			"**Prerequisites:** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) or [Craft Wondrous Item](feat/craft_wondrous_item).  ",
 			"**Benefit:** When you craft a magic weapon, magic armor, a magic shield, or a wondrous item, you can infuse it with a bit of your convictions. Creatures that are more than one alignment step away from you are sickened while using or wearing this item. An item that has been infused with your alignment can never have an opposing special ability added to it later (for example, a longsword infused with your lawful good alignment cannot later gain the anarchic weapon special ability). Infusing the item with your alignment in this way increases the items total construction cost by 10%."
 		]
 	},
@@ -2173,7 +2173,7 @@
 			"**Special:** If you have the scaled skin racial trait, you instead gain resistance 5 to two of the following energy types that you don't have resistance to already: cold, electricity, and fire."
 		]
 	},
-	"armor_proficiency,_heavy": {
+	"armor_proficiency_heavy": {
 		"name": "Armor Proficiency, Heavy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2189,9 +2189,9 @@
 		]
 	},
 	"heavy_armor_proficiency": {
-		"copyof": "armor_proficiency,_heavy"
+		"copyof": "armor_proficiency_heavy"
 	},
-	"armor_proficiency,_light": {
+	"armor_proficiency_light": {
 		"name": "Armor Proficiency, Light",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2206,9 +2206,9 @@
 		]
 	},
 	"light_armor_proficiency": {
-		"copyof": "armor_proficiency,_light"
+		"copyof": "armor_proficiency_light"
 	},
-	"armor_proficiency,_medium": {
+	"armor_proficiency_medium": {
 		"name": "Armor Proficiency, Medium",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2224,7 +2224,7 @@
 		]
 	},
 	"medium_armor_proficiency": {
-		"copyof": "armor_proficiency,_medium"
+		"copyof": "armor_proficiency_medium"
 	},
 	"armor_trick": {
 		"name": "Armor Trick",
@@ -3549,7 +3549,7 @@
 		"description": [
 			"## Belier's Bite (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"Your unarmed strikes cause your opponent to bleed.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
@@ -3822,7 +3822,7 @@
 		"description": [
 			"## Black Marketeer",
 			"",
-			"**Source** [Osirion, Land of the Pharaohs pg. 28](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Osirion, Land of the Pharaohs pg. 28](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You have many contacts and a keen eye for hidden opportunities in the marketplace.  ",
 			"**Prerequisites:** Appraise 1 rank, Diplomacy 1 rank, Knowledge (local) 1 rank.  ",
@@ -6508,7 +6508,7 @@
 		"description": [
 			"## Chainbreaker (Achievement)",
 			"",
-			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran,_spirit_of_liberty)",
+			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran_spirit_of_liberty)",
 			"",
 			"Nothing rouses your fury and makes you more deadly in battle than the sight of slaves cowering before their masters.  ",
 			"**Prerequisites:** Over the course of at least five different occasions, free a cumulative total of 50+ sentient beings held in unjust captivity.  ",

@@ -475,7 +475,7 @@
 		"description": [
 			"## Planar Guide",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world_realm_of_the_fey)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 5,400 gp; **Weight** 1/2 lb.",
 			"",
@@ -607,7 +607,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self, eagle's splendor; **Cost** 2,750 gp"
 		]
 	},
-	"seishinru,_spirit_elixir": {
+	"seishinru_spirit_elixir": {
 		"name": "Seishinru, Spirit Elixir",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
@@ -623,9 +623,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), breath of life, brilliant inspiration; **Cost** 2,750 gp"
 		]
-	},
-	"seishinru_spirit_elixir": {
-		"copyof": "seishinru,_spirit_elixir"
 	},
 	"wind_fan": {
 		"name": "Wind Fan",
@@ -782,7 +779,7 @@
 		"description": [
 			"## Figurines of Wondrous Power",
 			"",
-			"**Source** [Ultimate Equipment pg. 297](source/ultimate_equipment), [PRPG Core Rulebook pg. 513](source/prpg_core_rulebook), [Aquatic Adventures pg. 62](source/aquatic_adventures), [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_#34_blood_for_blood), [Legacy of Fire Player's Guide pg. 26](source/legacy_of_fire_player's_guide), [Pathfinder #122: Into the Shattered Continent pg. 33](source/pathfinder_#122_into_the_shattered_continent), [Seers of the Drowned City pg. 54](source/seers_of_the_drowned_city), [Advanced Race Guide pg. 166](source/advanced_race_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran,_spirit_of_liberty), [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook), [Ultimate Equipment pg. 297](source/ultimate_equipment), [Ultimate Combat pg. 143](source/ultimate_combat), [Advanced Class Guide pg. 236](source/advanced_class_guide), [Animal Archive pg. 27](source/animal_archive), [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_#70_the_frozen_stars), [Mythic Adventures pg. 151](source/mythic_adventures)  ",
+			"**Source** [Ultimate Equipment pg. 297](source/ultimate_equipment), [PRPG Core Rulebook pg. 513](source/prpg_core_rulebook), [Aquatic Adventures pg. 62](source/aquatic_adventures), [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_#34_blood_for_blood), [Legacy of Fire Player's Guide pg. 26](source/legacy_of_fire_player's_guide), [Pathfinder #122: Into the Shattered Continent pg. 33](source/pathfinder_#122_into_the_shattered_continent), [Seers of the Drowned City pg. 54](source/seers_of_the_drowned_city), [Advanced Race Guide pg. 166](source/advanced_race_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty), [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook), [Ultimate Equipment pg. 297](source/ultimate_equipment), [Ultimate Combat pg. 143](source/ultimate_combat), [Advanced Class Guide pg. 236](source/advanced_class_guide), [Animal Archive pg. 27](source/animal_archive), [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_#70_the_frozen_stars), [Mythic Adventures pg. 151](source/mythic_adventures)  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven), 9,100 gp (Serpentine Eagle), 9,100 gp (Serpentine Owl), 10,000 gp (Bronze Griffon), 10,000 gp (Ebony Fly), 10,000 gp (Hematite Courgar), 10,000 gp (Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon); **Weight** 1 lb.",
 			"",
@@ -1307,7 +1304,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divine favor, the creator must be a halfling; **Cost** 3,000 gp"
 		]
 	},
-	"time_bomb,_greater": {
+	"time_bomb_greater": {
 		"name": "Time Bomb, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -1325,7 +1322,7 @@
 		]
 	},
 	"greater_time_bomb": {
-		"copyof": "time_bomb,_greater"
+		"copyof": "time_bomb_greater"
 	},
 	"ioun_memory_node_type_1": {
 		"name": "Ioun Memory Node (Type I)",
@@ -1541,7 +1538,7 @@
 		"description": [
 			"## Expedition Pavilion",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 28](source/sargava_the_lost_colony)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 6,400 gp; **Weight** 10 lbs.",
 			"",
@@ -1949,7 +1946,7 @@
 		"description": [
 			"## Costume Bureau",
 			"",
-			"**Source** [Ultimate Intrigue pg. 245](source/ultimate_intrigue), [Taldor, Echoes of Glory pg. 26](source/taldor,_echoes_of_glory)  ",
+			"**Source** [Ultimate Intrigue pg. 245](source/ultimate_intrigue), [Taldor, Echoes of Glory pg. 26](source/taldor_echoes_of_glory)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 7,000 gp; **Weight** 175 lbs.",
 			"",
@@ -2054,7 +2051,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Scribe Scroll, read magic; **Cost** 3,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Scribe Scroll](feat/scribe_scroll), read magic; **Cost** 3,500 gp"
 		]
 	},
 	"vial_of_efficacious_medicine": {
@@ -2189,7 +2186,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell, cauldron hex; **Cost** 3,750 gp"
+			"**Requirements** [Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Reach Spell, cauldron hex; **Cost** 3,750 gp"
 		]
 	},
 	"elven_still_elf": {
@@ -2210,7 +2207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Brew Potion, [Craft Wondrous Item](feat/craft_wondrous_item), universal formula, creator must be an elf; **Cost** 3,750 gp"
+			"**Requirements** [Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), universal formula, creator must be an elf; **Cost** 3,750 gp"
 		]
 	},
 	"elven_still": {
@@ -2434,7 +2431,7 @@
 		"description": [
 			"## Scarab of Khepri",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 25](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 25](source/osirion_land_of_the_pharaohs)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 7,800 gp; **Weight** -;",
 			"",
@@ -2862,7 +2859,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dispel magic, light; **Cost** 4,000 gp"
 		]
 	},
-	"wayfinder,_vanishing": {
+	"wayfinder_vanishing": {
 		"name": "Wayfinder, Vanishing",
 		"sources": [
 			"Adventurer's Guide",
@@ -2881,9 +2878,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), invisibility, light; **Cost** 4,000 gp"
 		]
-	},
-	"wayfinder_vanishing": {
-		"copyof": "wayfinder,_vanishing"
 	},
 	"werewhistle": {
 		"name": "Werewhistle",
@@ -3077,7 +3071,7 @@
 			"**Aura** moderate divination and transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 8,850 gp; **Weight** 3 lbs.",
 			"",
-			"Crafted from cattail wicker, rendered magically immune to fire, and blackened by years of use, blackwick cauldrons are but one variety of a number of similar items. Designed to aid in the crafting of potions and admixtures, a blackwick cauldron grants a +5 competence bonus on Craft (alchemy) checks and a +5 bonus on Spellcraft checks to create magic potions with the Brew Potion feat. Additionally, a cauldron allows a user to craft multiple potions at a faster rate than normal. The user can craft a single potion with a value of 300 gp or less in 2 hours and can make any combination of potions totaling 1,200 gp or less in value in a single day.",
+			"Crafted from cattail wicker, rendered magically immune to fire, and blackened by years of use, blackwick cauldrons are but one variety of a number of similar items. Designed to aid in the crafting of potions and admixtures, a blackwick cauldron grants a +5 competence bonus on Craft (alchemy) checks and a +5 bonus on Spellcraft checks to create magic potions with the [Brew Potion](feat/brew_potion) feat. Additionally, a cauldron allows a user to craft multiple potions at a faster rate than normal. The user can craft a single potion with a value of 300 gp or less in 2 hours and can make any combination of potions totaling 1,200 gp or less in value in a single day.",
 			"",
 			"In addition to its crafting uses, a blackwick cauldron can cast identify once per day on an item placed inside of it.",
 			"",
@@ -4713,7 +4707,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](spell/sending); **Cost** 6,100 gp"
 		]
 	},
-	"assassin's_sight,_greater": {
+	"assassin's_sight_greater": {
 		"name": "Assassin's Sight, Greater",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
@@ -4731,7 +4725,7 @@
 		]
 	},
 	"greater_assassin's_sight": {
-		"copyof": "assassin's_sight,_greater"
+		"copyof": "assassin's_sight_greater"
 	},
 	"jungle_seeker's_monocle": {
 		"name": "Jungle Seeker's Monocle",
@@ -5811,7 +5805,7 @@
 		"description": [
 			"## Fey Map",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 13](source/the_first_world_realm_of_the_fey)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 16,200 gp; **Weight** -;",
 			"",

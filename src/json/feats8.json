@@ -45,7 +45,7 @@
 		"description": [
 			"## Taldan Conscript",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor,_echoes_of_glory)",
+			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor_echoes_of_glory)",
 			"",
 			"Your constant training in service to your lord has improved your martial prowess with some weapons.  ",
 			"**Prerequisites:** Taldan serf in service to a lord.  ",
@@ -80,7 +80,7 @@
 		"description": [
 			"## Taldan Squire",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor,_echoes_of_glory)",
+			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor_echoes_of_glory)",
 			"",
 			"You spent time as a squire to a Taldan knight and understand how to fight alongside him.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient in a martial weapon.  ",
@@ -107,7 +107,7 @@
 		"description": [
 			"## Talmandor's Lifting (Achievement)",
 			"",
-			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran,_spirit_of_liberty)",
+			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran_spirit_of_liberty)",
 			"",
 			"You felt the powerful wings of Talmandor surround you when you risked death from a fall, and somehow a tiny spark of his essence remains connected to your soul.  ",
 			"**Prerequisites:** Take at least 10d6 falling damage on three different occasions and survive.  ",
@@ -748,7 +748,7 @@
 		"description": [
 			"## Thanatopic Spell (Metamagic)",
 			"",
-			"**Source** [Ultimate Magic pg. 157](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Ultimate Magic pg. 157](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion_land_of_the_pharaohs)",
 			"",
 			"Your spells can pierce wards against negative energy and even affect undead targets.  ",
 			"**Prerequisites:** Knowledge (religion) 6 ranks, [Spell Focus (necromancy)](feat/spell_focus).  ",
@@ -894,7 +894,7 @@
 		"description": [
 			"## Threnodic Spell (Metamagic)",
 			"",
-			"**Source** [Ultimate Magic pg. 157](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Ultimate Magic pg. 157](source/ultimate_magic), [Osirion, Land of the Pharaohs pg. 27](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You can convert mind-affecting magic to necromantic power capable of controlling undead.  ",
 			"**Prerequisites:** Knowledge (religion) 6 ranks, [Spell Focus (necromancy)](feat/spell_focus).  ",
@@ -1048,7 +1048,7 @@
 		"description": [
 			"## Thunder and Fang (Combat)",
 			"",
-			"**Source** [Varisia, Birthplace of Legends pg. 10](source/varisia,_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 28](source/pathfinder_#10_a_history_of_ashes)",
+			"**Source** [Varisia, Birthplace of Legends pg. 10](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 28](source/pathfinder_#10_a_history_of_ashes)",
 			"",
 			"You have mastered the ancient Shoanti Thunder and Fang fighting style, allowing you to fight with increased effectiveness when wielding an earth breaker and klar.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip), [Tripping Staff](feat/tripping_staff), [Weapon Focus (quarterstaff)](feat/weapon_focus), [Weapon Specialization (quarterstaff)](feat/weapon_specialization), base attack bonus +12.  ",
@@ -2393,7 +2393,7 @@
 		"description": [
 			"## Twilight Tattoo",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 31](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 31](source/andoran_birthplace_of_freedom)",
 			"",
 			"You have a special tattoo that identifies you as a Twilight Talon when you speak a designated command word.  ",
 			"**Prerequisites:** Wis 13, affiliated with the Twilight Talons.  ",
@@ -3479,7 +3479,7 @@
 		"description": [
 			"## Unspoken Bond (Teamwork)",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 19](source/druma,_profit_and_prophecy)",
+			"**Source** [Druma, Profit and Prophecy pg. 19](source/druma_profit_and_prophecy)",
 			"",
 			"You've gained the ability to read your most trusted companions' nonverbal acts.  ",
 			"**Prerequisites:** Bluff 4 ranks, Sense Motive 4 ranks.  ",
@@ -3655,7 +3655,7 @@
 		"description": [
 			"## Urban Forager",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor,_echoes_of_glory)",
+			"**Source** [Taldor, Echoes of Glory pg. 29](source/taldor_echoes_of_glory)",
 			"",
 			"You are skilled at keeping yourself and others safe in the alleys, sewers, and underbellies of cities.  ",
 			"**Prerequisites:** Knowledge (local) 4 ranks, Survival 4 ranks, Track.  ",

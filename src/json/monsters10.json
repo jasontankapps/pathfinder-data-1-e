@@ -296,7 +296,7 @@
 			"",
 			"### Fading Fox, CR 2",
 			"",
-			"**Source** [Taldor, the First Empire pg. 60](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 60](source/taldor_the_first_empire)  ",
 			"**XP** 600  ",
 			"N Tiny animal  ",
 			"**Init** +5; **Senses** low-light vision, scent; Perception +10",
@@ -533,7 +533,7 @@
 			"When a righteous crusader is denied the path to the afterlife in death, its spirit can rise as one of the fallen- undead driven to enact a crusade against all life in a frustrated corruption of their beliefs. The undead creature's fall in battle remains the greatest disappointment vexing its soul. Driven by hatred and shame, the fallen wander battlefields and wildlands in constant search of someone to end their misery by performing last rites."
 		]
 	},
-	"familiar,_archaeopteryx": {
+	"familiar_archaeopteryx": {
 		"name": "Familiar, Archaeopteryx",
 		"sources": [
 			"Bestiary 4",
@@ -586,8 +586,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"archaeopteryx": { "copyof": "familiar,_archaeopteryx" },
-	"familiar,_arctic_hare": {
+	"archaeopteryx": { "copyof": "familiar_archaeopteryx" },
+	"familiar_arctic_hare": {
 		"name": "Familiar, Arctic Hare",
 		"sources": [
 			"Ultimate Wilderness",
@@ -638,8 +638,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"arctic_hare": { "copyof": "familiar,_arctic_hare" },
-	"familiar,_arctic_tern": {
+	"arctic_hare": { "copyof": "familiar_arctic_hare" },
+	"familiar_arctic_tern": {
 		"name": "Familiar, Arctic Tern",
 		"sources": [
 			"Ultimate Wilderness",
@@ -692,8 +692,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"arctic_tern": { "copyof": "familiar,_arctic_tern" },
-	"familiar,_armadillo": {
+	"arctic_tern": { "copyof": "familiar_arctic_tern" },
+	"familiar_armadillo": {
 		"name": "Familiar, Armadillo",
 		"sources": [
 			"Ultimate Wilderness",
@@ -754,8 +754,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"armadillo": { "copyof": "familiar,_armadillo" },
-	"familiar,_bat": {
+	"armadillo": { "copyof": "familiar_armadillo" },
+	"familiar_bat": {
 		"name": "Familiar, Bat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -800,8 +800,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"bat": { "copyof": "familiar,_bat" },
-	"familiar,_blue-ringed_octopus": {
+	"bat": { "copyof": "familiar_bat" },
+	"familiar_blue-ringed_octopus": {
 		"name": "Familiar, Blue-Ringed Octopus",
 		"sources": [
 			"Ultimate Magic",
@@ -859,9 +859,9 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"blue-ringed_octopus": { "copyof": "familiar,_blue-ringed_octopus" },
-	"blue_ringed_octopus": { "copyof": "familiar,_blue-ringed_octopus" },
-	"familiar,_butterfly_moth": {
+	"blue-ringed_octopus": { "copyof": "familiar_blue-ringed_octopus" },
+	"blue_ringed_octopus": { "copyof": "familiar_blue-ringed_octopus" },
+	"familiar_butterfly_moth": {
 		"name": "Familiar, Butterfly/Moth",
 		"sources": [
 			"Ultimate Wilderness",
@@ -910,10 +910,10 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"butterfly": { "copyof": "familiar,_butterfly_moth" },
-	"butterfly_or_moth": { "copyof": "familiar,_butterfly_moth" },
-	"moth": { "copyof": "familiar,_butterfly_moth" },
-	"familiar,_cat": {
+	"butterfly": { "copyof": "familiar_butterfly_moth" },
+	"butterfly_or_moth": { "copyof": "familiar_butterfly_moth" },
+	"moth": { "copyof": "familiar_butterfly_moth" },
+	"familiar_cat": {
 		"name": "Familiar, Cat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -958,8 +958,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"cat": { "copyof": "familiar,_cat" },
-	"familiar,_chicken": {
+	"cat": { "copyof": "familiar_cat" },
+	"familiar_chicken": {
 		"name": "Familiar, Chicken",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1019,8 +1019,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"chicken": { "copyof": "familiar,_chicken" },
-	"familiar,_cockroach": {
+	"chicken": { "copyof": "familiar_chicken" },
+	"familiar_cockroach": {
 		"name": "Familiar, Cockroach",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1072,8 +1072,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"cockroach": { "copyof": "familiar,_cockroach" },
-	"familiar,_creeper_ivy": {
+	"cockroach": { "copyof": "familiar_cockroach" },
+	"familiar_creeper_ivy": {
 		"name": "Familiar, Creeper Ivy",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1124,8 +1124,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"creeper_ivy": { "copyof": "familiar,_creeper_ivy" },
-	"familiar,_dodo": {
+	"creeper_ivy": { "copyof": "familiar_creeper_ivy" },
+	"familiar_dodo": {
 		"name": "Familiar, Dodo",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1176,8 +1176,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"dodo": { "copyof": "familiar,_dodo" },
-	"familiar,_donkey_rat": {
+	"dodo": { "copyof": "familiar_dodo" },
+	"familiar_donkey_rat": {
 		"name": "Familiar, Donkey Rat",
 		"sources": [
 			"Ultimate Magic",
@@ -1224,9 +1224,9 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"donkey_rat": { "copyof": "familiar,_donkey_rat" },
-	"capybara": { "copyof": "familiar,_donkey_rat" },
-	"familiar,_dwarf_caiman": {
+	"donkey_rat": { "copyof": "familiar_donkey_rat" },
+	"capybara": { "copyof": "familiar_donkey_rat" },
+	"familiar_dwarf_caiman": {
 		"name": "Familiar, Dwarf Caiman",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1280,8 +1280,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"dwarf_caiman": { "copyof": "familiar,_dwarf_caiman" },
-	"familiar,_dweomer_cap": {
+	"dwarf_caiman": { "copyof": "familiar_dwarf_caiman" },
+	"familiar_dweomer_cap": {
 		"name": "Familiar, Dweomer Cap",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1339,8 +1339,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"dweomer_cap": { "copyof": "familiar,_dweomer_cap" },
-	"familiar,_fire_salamander": {
+	"dweomer_cap": { "copyof": "familiar_dweomer_cap" },
+	"familiar_fire_salamander": {
 		"name": "Familiar, Fire Salamander",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1397,8 +1397,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"fire_salamander": { "copyof": "familiar,_fire_salamander" },
-	"familiar,_flowering_lattice": {
+	"fire_salamander": { "copyof": "familiar_fire_salamander" },
+	"familiar_flowering_lattice": {
 		"name": "Familiar, Flowering Lattice",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1455,8 +1455,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"flowering_lattice": { "copyof": "familiar,_flowering_lattice" },
-	"familiar,_flying_fox": {
+	"flowering_lattice": { "copyof": "familiar_flowering_lattice" },
+	"familiar_flying_fox": {
 		"name": "Familiar, Flying Fox",
 		"sources": [
 			"Bestiary 5",
@@ -1504,8 +1504,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"flying_fox": { "copyof": "familiar,_flying_fox" },
-	"familiar,_flying_squirrel": {
+	"flying_fox": { "copyof": "familiar_flying_fox" },
+	"familiar_flying_squirrel": {
 		"name": "Familiar, Flying Squirrel",
 		"sources": [
 			"Bestiary 3",
@@ -1558,8 +1558,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"flying_squirrel": { "copyof": "familiar,_flying_squirrel" },
-	"familiar,_fox": {
+	"flying_squirrel": { "copyof": "familiar_flying_squirrel" },
+	"familiar_fox": {
 		"name": "Familiar, Fox",
 		"sources": [
 			"Bestiary 3",
@@ -1608,8 +1608,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"fox": { "copyof": "familiar,_fox" },
-	"familiar,_giant_isopod": {
+	"fox": { "copyof": "familiar_fox" },
+	"familiar_giant_isopod": {
 		"name": "Familiar, Giant Isopod",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1664,8 +1664,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"giant_isopod": { "copyof": "familiar,_giant_isopod" },
-	"familiar,_giant_tardigrade": {
+	"giant_isopod": { "copyof": "familiar_giant_isopod" },
+	"familiar_giant_tardigrade": {
 		"name": "Familiar, Giant Tardigrade",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1720,8 +1720,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"giant_tardigrade": { "copyof": "familiar,_giant_tardigrade" },
-	"familiar,_goat": {
+	"giant_tardigrade": { "copyof": "familiar_giant_tardigrade" },
+	"familiar_goat": {
 		"name": "Familiar, Goat",
 		"sources": [
 			"Bestiary 3",
@@ -1769,8 +1769,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"goat": { "copyof": "familiar,_goat" },
-	"familiar,_hawk": {
+	"goat": { "copyof": "familiar_goat" },
+	"familiar_hawk": {
 		"name": "Familiar, Hawk",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1815,9 +1815,9 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"hawk": { "copyof": "familiar,_hawk" },
-	"falcon": { "copyof": "familiar,_hawk" },
-	"familiar,_hedgehog": {
+	"hawk": { "copyof": "familiar_hawk" },
+	"falcon": { "copyof": "familiar_hawk" },
+	"familiar_hedgehog": {
 		"name": "Familiar, Hedgehog",
 		"sources": [
 			"Ultimate Magic",
@@ -1868,8 +1868,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"hedgehog": { "copyof": "familiar,_hedgehog" },
-	"familiar,_horned_lizard": {
+	"hedgehog": { "copyof": "familiar_hedgehog" },
+	"familiar_horned_lizard": {
 		"name": "Familiar, Horned Lizard",
 		"sources": [
 			"Ultimate Wilderness",
@@ -1929,8 +1929,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"horned_lizard": { "copyof": "familiar,_horned_lizard" },
-	"familiar,_house_centipede": {
+	"horned_lizard": { "copyof": "familiar_horned_lizard" },
+	"familiar_house_centipede": {
 		"name": "Familiar, House Centipede",
 		"sources": [
 			"Ultimate Magic",
@@ -1984,8 +1984,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"house_centipede": { "copyof": "familiar,_house_centipede" },
-	"familiar,_ioun_wyrd": {
+	"house_centipede": { "copyof": "familiar_house_centipede" },
+	"familiar_ioun_wyrd": {
 		"name": "Familiar, Ioun Wyrd",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2055,8 +2055,8 @@
 			"**Requirements** Craft Construct, animate object, lesser geas; Skill Knowledge (arcana) DC 15; **Cost** 1,000 gp plus ioun stone"
 		]
 	},
-	"ioun_wyrd": { "copyof": "familiar,_ioun_wyrd" },
-	"familiar,_jerboa": {
+	"ioun_wyrd": { "copyof": "familiar_ioun_wyrd" },
+	"familiar_jerboa": {
 		"name": "Familiar, Jerboa",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2108,8 +2108,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"jerboa": { "copyof": "familiar,_jerboa" },
-	"familiar,_kakapo": {
+	"jerboa": { "copyof": "familiar_jerboa" },
+	"familiar_kakapo": {
 		"name": "Familiar, Kakapo",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2166,8 +2166,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"kakapo": { "copyof": "familiar,_kakapo" },
-	"familiar,_king_crab": {
+	"kakapo": { "copyof": "familiar_kakapo" },
+	"familiar_king_crab": {
 		"name": "Familiar, King Crab",
 		"sources": [
 			"Ultimate Magic",
@@ -2221,8 +2221,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"king_crab": { "copyof": "familiar,_king_crab" },
-	"familiar,_koala": {
+	"king_crab": { "copyof": "familiar_king_crab" },
+	"familiar_koala": {
 		"name": "Familiar, Koala",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2274,8 +2274,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"koala": { "copyof": "familiar,_koala" },
-	"familiar,_lamprey": {
+	"koala": { "copyof": "familiar_koala" },
+	"familiar_lamprey": {
 		"name": "Familiar, Lamprey",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2328,8 +2328,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"lamprey": { "copyof": "familiar,_lamprey" },
-	"familiar,_lemming": {
+	"lamprey": { "copyof": "familiar_lamprey" },
+	"familiar_lemming": {
 		"name": "Familiar, Lemming",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2382,8 +2382,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"lemming": { "copyof": "familiar,_lemming" },
-	"familiar,_leopard_slug": {
+	"lemming": { "copyof": "familiar_lemming" },
+	"familiar_leopard_slug": {
 		"name": "Familiar, Leopard Slug",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2442,8 +2442,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"leopard_slug": { "copyof": "familiar,_leopard_slug" },
-	"familiar,_lizard": {
+	"leopard_slug": { "copyof": "familiar_leopard_slug" },
+	"familiar_lizard": {
 		"name": "Familiar, Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2488,8 +2488,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"lizard": { "copyof": "familiar,_lizard" },
-	"familiar,_margay_cat": {
+	"lizard": { "copyof": "familiar_lizard" },
+	"familiar_margay_cat": {
 		"name": "Familiar, Margay Cat",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2542,8 +2542,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"margay_cat": { "copyof": "familiar,_margay_cat" },
-	"familiar,_meerkat": {
+	"margay_cat": { "copyof": "familiar_margay_cat" },
+	"familiar_meerkat": {
 		"name": "Familiar, Meerkat",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2603,8 +2603,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"meerkat": { "copyof": "familiar,_meerkat" },
-	"familiar,_mole_uw": {
+	"meerkat": { "copyof": "familiar_meerkat" },
+	"familiar_mole_uw": {
 		"name": "Familiar, Mole (UW)",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2657,8 +2657,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"mole_uw": { "copyof": "familiar,_mole_uw" },
-	"familiar,_mole_ff": {
+	"mole_uw": { "copyof": "familiar_mole_uw" },
+	"familiar_mole_ff": {
 		"name": "Familiar, Mole (FF)",
 		"sources": [
 			"Familiar Folio",
@@ -2709,8 +2709,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"mole_ff": { "copyof": "familiar,_mole_ff" },
-	"familiar,_monkey": {
+	"mole_ff": { "copyof": "familiar_mole_ff" },
+	"familiar_monkey": {
 		"name": "Familiar, Monkey",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2755,8 +2755,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"monkey": { "copyof": "familiar,_monkey" },
-	"familiar,_otter": {
+	"monkey": { "copyof": "familiar_monkey" },
+	"familiar_otter": {
 		"name": "Familiar, Otter",
 		"sources": [
 			"Bestiary 3",
@@ -2804,8 +2804,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"otter": { "copyof": "familiar,_otter" },
-	"familiar,_owl": {
+	"otter": { "copyof": "familiar_otter" },
+	"familiar_owl": {
 		"name": "Familiar, Owl",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2850,8 +2850,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"owl": { "copyof": "familiar,_owl" },
-	"familiar,_peafowl": {
+	"owl": { "copyof": "familiar_owl" },
+	"familiar_peafowl": {
 		"name": "Familiar, Peafowl",
 		"sources": [
 			"Familiar Folio",
@@ -2910,10 +2910,10 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"peafowl": { "copyof": "familiar,_peafowl" },
-	"familiar,_peacock": { "copyof": "familiar,_peafowl" },
-	"peacock": { "copyof": "familiar,_peacock" },
-	"familiar,_penguin": {
+	"peafowl": { "copyof": "familiar_peafowl" },
+	"familiar_peacock": { "copyof": "familiar_peafowl" },
+	"peacock": { "copyof": "familiar_peacock" },
+	"familiar_penguin": {
 		"name": "Familiar, Penguin",
 		"sources": [
 			"Ultimate Wilderness",
@@ -2971,8 +2971,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"penguin": { "copyof": "familiar,_penguin" },
-	"familiar,_petrifern": {
+	"penguin": { "copyof": "familiar_penguin" },
+	"familiar_petrifern": {
 		"name": "Familiar, Petrifern",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3032,8 +3032,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"petrifern": { "copyof": "familiar,_petrifern" },
-	"familiar,_pig": {
+	"petrifern": { "copyof": "familiar_petrifern" },
+	"familiar_pig": {
 		"name": "Familiar, Pig",
 		"sources": [
 			"Bestiary 3",
@@ -3081,8 +3081,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"pig": { "copyof": "familiar,_pig" },
-	"familiar,_platypus": {
+	"pig": { "copyof": "familiar_pig" },
+	"familiar_platypus": {
 		"name": "Familiar, Platypus",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3145,8 +3145,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"platypus": { "copyof": "familiar,_platypus" },
-	"familiar,_popoto_dolphin": {
+	"platypus": { "copyof": "familiar_platypus" },
+	"familiar_popoto_dolphin": {
 		"name": "Familiar, Popoto Dolphin",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3196,8 +3196,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"popoto_dolphin": { "copyof": "familiar,_popoto_dolphin" },
-	"familiar,_ptarmigan": {
+	"popoto_dolphin": { "copyof": "familiar_popoto_dolphin" },
+	"familiar_ptarmigan": {
 		"name": "Familiar, Ptarmigan",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3250,8 +3250,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"ptarmigan": { "copyof": "familiar,_ptarmigan" },
-	"familiar,_pufferfish": {
+	"ptarmigan": { "copyof": "familiar_ptarmigan" },
+	"familiar_pufferfish": {
 		"name": "Familiar, Pufferfish",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3311,8 +3311,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"pufferfish": { "copyof": "familiar,_pufferfish" },
-	"familiar,_puffin": {
+	"pufferfish": { "copyof": "familiar_pufferfish" },
+	"familiar_puffin": {
 		"name": "Familiar, Puffin",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3365,8 +3365,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"puffin": { "copyof": "familiar,_puffin" },
-	"familiar,_rabbit": {
+	"puffin": { "copyof": "familiar_puffin" },
+	"familiar_rabbit": {
 		"name": "Familiar, Rabbit",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3419,8 +3419,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"rabbit": { "copyof": "familiar,_rabbit" },
-	"familiar,_raccoon": {
+	"rabbit": { "copyof": "familiar_rabbit" },
+	"familiar_raccoon": {
 		"name": "Familiar, Raccoon",
 		"sources": [
 			"Bestiary 3",
@@ -3468,8 +3468,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"raccoon": { "copyof": "familiar,_raccoon" },
-	"familiar,_rat": {
+	"raccoon": { "copyof": "familiar_raccoon" },
+	"familiar_rat": {
 		"name": "Familiar, Rat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3514,8 +3514,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"rat": { "copyof": "familiar,_rat" },
-	"familiar,_raven": {
+	"rat": { "copyof": "familiar_rat" },
+	"familiar_raven": {
 		"name": "Familiar, Raven",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3560,8 +3560,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"raven": { "copyof": "familiar,_raven" },
-	"familiar,_ravenous_tumbleweed": {
+	"raven": { "copyof": "familiar_raven" },
+	"familiar_ravenous_tumbleweed": {
 		"name": "Familiar, Ravenous Tumbleweed",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3618,8 +3618,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"ravenous_tumbleweed": { "copyof": "familiar,_ravenous_tumbleweed" },
-	"familiar,_razor_fern": {
+	"ravenous_tumbleweed": { "copyof": "familiar_ravenous_tumbleweed" },
+	"familiar_razor_fern": {
 		"name": "Familiar, Razor Fern",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3675,8 +3675,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"razor_fern": { "copyof": "familiar,_razor_fern" },
-	"familiar,_red_panda": {
+	"razor_fern": { "copyof": "familiar_razor_fern" },
+	"familiar_red_panda": {
 		"name": "Familiar, Red Panda",
 		"sources": [
 			"Bestiary 5",
@@ -3724,8 +3724,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"red_panda": { "copyof": "familiar,_red_panda" },
-	"familiar,_rhamphorhynchus": {
+	"red_panda": { "copyof": "familiar_red_panda" },
+	"familiar_rhamphorhynchus": {
 		"name": "Familiar, Rhamphorhynchus",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3782,8 +3782,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"rhamphorhynchus": { "copyof": "familiar,_rhamphorhynchus" },
-	"familiar,_sawleg_locust": {
+	"rhamphorhynchus": { "copyof": "familiar_rhamphorhynchus" },
+	"familiar_sawleg_locust": {
 		"name": "Familiar, Sawleg Locust",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3841,8 +3841,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"sawleg_locust": { "copyof": "familiar,_sawleg_locust" },
-	"familiar,_seal": {
+	"sawleg_locust": { "copyof": "familiar_sawleg_locust" },
+	"familiar_seal": {
 		"name": "Familiar, Seal",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3894,8 +3894,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"seal": { "copyof": "familiar,_seal" },
-	"familiar,_shimmerwing_dragonfly": {
+	"seal": { "copyof": "familiar_seal" },
+	"familiar_shimmerwing_dragonfly": {
 		"name": "Familiar, Shimmerwing Dragonfly",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3946,8 +3946,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"shimmerwing_dragonfly": { "copyof": "familiar,_shimmerwing_dragonfly" },
-	"familiar,_sloth": {
+	"shimmerwing_dragonfly": { "copyof": "familiar_shimmerwing_dragonfly" },
+	"familiar_sloth": {
 		"name": "Familiar, Sloth",
 		"sources": [
 			"Bestiary 4",
@@ -3995,8 +3995,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"sloth": { "copyof": "familiar,_sloth" },
-	"familiar,_spiny_starfish": {
+	"sloth": { "copyof": "familiar_sloth" },
+	"familiar_spiny_starfish": {
 		"name": "Familiar, Spiny Starfish",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4054,8 +4054,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"spiny_starfish": { "copyof": "familiar,_spiny_starfish" },
-	"familiar,_squirrel": {
+	"spiny_starfish": { "copyof": "familiar_spiny_starfish" },
+	"familiar_squirrel": {
 		"name": "Familiar, Squirrel",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4108,8 +4108,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"squirrel": { "copyof": "familiar,_squirrel" },
-	"familiar,_suture_vine": {
+	"squirrel": { "copyof": "familiar_squirrel" },
+	"familiar_suture_vine": {
 		"name": "Familiar, Suture Vine",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4169,8 +4169,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"suture_vine": { "copyof": "familiar,_suture_vine" },
-	"familiar,_tarsier": {
+	"suture_vine": { "copyof": "familiar_suture_vine" },
+	"familiar_tarsier": {
 		"name": "Familiar, Tarsier",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4227,8 +4227,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"tarsier": { "copyof": "familiar,_tarsier" },
-	"familiar,_thrush": {
+	"tarsier": { "copyof": "familiar_tarsier" },
+	"familiar_thrush": {
 		"name": "Familiar, Thrush",
 		"sources": [
 			"Ultimate Magic",
@@ -4276,8 +4276,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"thrush": { "copyof": "familiar,_thrush" },
-	"familiar,_toad": {
+	"thrush": { "copyof": "familiar_thrush" },
+	"familiar_toad": {
 		"name": "Familiar, Toad",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4321,8 +4321,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"toad": { "copyof": "familiar,_toad" },
-	"familiar,_trilobite": {
+	"toad": { "copyof": "familiar_toad" },
+	"familiar_trilobite": {
 		"name": "Familiar, Trilobite",
 		"sources": [
 			"Bestiary 5",
@@ -4376,8 +4376,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"trilobite": { "copyof": "familiar,_trilobite" },
-	"familiar,_tuatara": {
+	"trilobite": { "copyof": "familiar_trilobite" },
+	"familiar_tuatara": {
 		"name": "Familiar, Tuatara",
 		"sources": [
 			"Bestiary 4",
@@ -4424,8 +4424,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"tuatara": { "copyof": "familiar,_tuatara" },
-	"familiar,_vampire_squid": {
+	"tuatara": { "copyof": "familiar_tuatara" },
+	"familiar_vampire_squid": {
 		"name": "Familiar, Vampire Squid",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4487,8 +4487,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"vampire_squid": { "copyof": "familiar,_vampire_squid" },
-	"familiar,_viper": {
+	"vampire_squid": { "copyof": "familiar_vampire_squid" },
+	"familiar_viper": {
 		"name": "Familiar, Viper",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4537,8 +4537,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"viper": { "copyof": "familiar,_viper" },
-	"familiar,_wallaby": {
+	"viper": { "copyof": "familiar_viper" },
+	"familiar_wallaby": {
 		"name": "Familiar, Wallaby",
 		"sources": [
 			"Ultimate Wilderness",
@@ -4590,8 +4590,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"wallaby": { "copyof": "familiar,_wallaby" },
-	"familiar,_weasel": {
+	"wallaby": { "copyof": "familiar_wallaby" },
+	"familiar_weasel": {
 		"name": "Familiar, Weasel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4640,7 +4640,7 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"weasel": { "copyof": "familiar,_weasel" },
+	"weasel": { "copyof": "familiar_weasel" },
 	"fantionette": {
 		"name": "Fantionette",
 		"sources": [ "Pathfinder #127: Crownfall" ],
@@ -5055,7 +5055,7 @@
 			"",
 			"### Fellsig, CR 3",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 55](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 55](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 800  ",
 			"NE Medium undead (fire)  ",
 			"**Init** +0; **Senses** darkvision 60 ft., tremorsense 30 ft.; Perception +9",
@@ -5548,7 +5548,7 @@
 			"The stats above are for a [wolverine](monster/wolverine) with the [fey animal](template/fey_animal) template."
 		]
 	},
-	"fiend-bred_animal,_chelish_hell-bred_dog": {
+	"fiend-bred_animal_chelish_hell-bred_dog": {
 		"name": "Fiend-Bred Animal, Chelish Hell-Bred Dog",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
@@ -5604,9 +5604,9 @@
 			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
-	"chelish_hell-bred_dog": { "copyof": "fiend-bred_animal,_chelish_hell-bred_dog" },
-	"chelish_hell_bred_dog": { "copyof": "fiend-bred_animal,_chelish_hell-bred_dog" },
-	"fiend-bred_animal,_quillcat": {
+	"chelish_hell-bred_dog": { "copyof": "fiend-bred_animal_chelish_hell-bred_dog" },
+	"chelish_hell_bred_dog": { "copyof": "fiend-bred_animal_chelish_hell-bred_dog" },
+	"fiend-bred_animal_quillcat": {
 		"name": "Fiend-Bred Animal, Quillcat",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
@@ -5665,8 +5665,8 @@
 			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
-	"quillcat": { "copyof": "fiend-bred_animal,_quillcat" },
-	"fiend-bred_animal,_stygian_hot-blooded_horse": {
+	"quillcat": { "copyof": "fiend-bred_animal_quillcat" },
+	"fiend-bred_animal_stygian_hot-blooded_horse": {
 		"name": "Fiend-Bred Animal, Stygian Hot-Blooded Horse",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
@@ -5727,8 +5727,8 @@
 			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
 		]
 	},
-	"stygian_hot-blooded_horse": { "copyof": "fiend-bred_animal,_stygian_hot-blooded_horse" },
-	"stygian_hot_blooded_horse": { "copyof": "fiend-bred_animal,_stygian_hot-blooded_horse" },
+	"stygian_hot-blooded_horse": { "copyof": "fiend-bred_animal_stygian_hot-blooded_horse" },
+	"stygian_hot_blooded_horse": { "copyof": "fiend-bred_animal_stygian_hot-blooded_horse" },
 	"firbolg": {
 		"name": "Firbolg",
 		"sources": [ "Bestiary 5" ],
@@ -5852,7 +5852,7 @@
 			"Though most at home in the searing heat of their native plane, fire whales can survive and even flourish on other planes. On the Material Plane, fire whales splash in the molten hearts of volcanoes, skim through the clouds, or cavort through deep ocean trenches as the whim strikes them. Their inner fires boil water, protecting them from the freezing cold of the ocean depths. The heat of their bodies even melts stone, allowing them to burrow through rock after a fashion."
 		]
 	},
-	"fish,_dunkleosteus": {
+	"fish_dunkleosteus": {
 		"name": "Fish, Dunkleosteus",
 		"sources": [
 			"Bestiary 6",
@@ -5905,8 +5905,8 @@
 			"A dunkleosteus is a massive fish with a bony head, armor plating, and a beak-like maw capable of creating a vortex that siphons in its prey. Despite growing to over 30 feet in length and weighing 8,000 pounds, dunkleosteuses are agile swimmers. These voracious predators think nothing of swimming into estuaries where the brine of the sea extends, lying in wait under piers or in the shallows along shorelines, patiently watching for a chance to lunge up and snap their jaws around unsuspecting prey that has come to the water's edge to fish or swim."
 		]
 	},
-	"dunkleosteus": { "copyof": "fish,_dunkleosteus" },
-	"fish,_giant_blowfish": {
+	"dunkleosteus": { "copyof": "fish_dunkleosteus" },
+	"fish_giant_blowfish": {
 		"name": "Fish, Giant Blowfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -5960,8 +5960,8 @@
 			"These gigantic cousins of common blowfish, covered in poisonous spearlike quills, can reach up to 10 feet in size, and nearly double that when fully inflated."
 		]
 	},
-	"giant_blowfish": { "copyof": "fish,_giant_blowfish" },
-	"fish,_swordfish": {
+	"giant_blowfish": { "copyof": "fish_giant_blowfish" },
+	"fish_swordfish": {
 		"name": "Fish, Swordfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -6011,8 +6011,8 @@
 			"Swordfish are among the fastest and most efficient predators in the sea, and can grow to lengths of almost 15 feet and weigh up to 1,500 pounds."
 		]
 	},
-	"swordfish": { "copyof": "fish,_swordfish" },
-	"fish,_tiger_fish": {
+	"swordfish": { "copyof": "fish_swordfish" },
+	"fish_tiger_fish": {
 		"name": "Fish, Tiger Fish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -6061,8 +6061,8 @@
 			"Tiger fish roam tropical waterways, their long, streamlined bodies built for speed. They can grow to lengths of up to 6 feet and weigh as much as 150 pounds."
 		]
 	},
-	"tiger_fish": { "copyof": "fish,_tiger_fish" },
-	"fish,_varisian_hagfish": {
+	"tiger_fish": { "copyof": "fish_tiger_fish" },
+	"fish_varisian_hagfish": {
 		"name": "Fish, Varisian Hagfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -6111,7 +6111,7 @@
 			"These cousins to normal hagfish most commonly appear in the Varisian Gulf. They can reach lengths of 4 feet and weigh up to 15 pounds."
 		]
 	},
-	"varisian_hagfish": { "copyof": "fish,_varisian_hagfish" },
+	"varisian_hagfish": { "copyof": "fish_varisian_hagfish" },
 	"flail_snail": {
 		"name": "Flail Snail",
 		"sources": [
@@ -6181,7 +6181,7 @@
 			"Flail snails are intelligent gastropods that subsist on fungus, mold, and vermin, though they may attack larger creatures in self-defense. Known for their magic-warping shells and club-like tentacles, flail snails roam slowly through subterranean caverns writing great epics in their slime trails."
 		]
 	},
-	"flea,_giant_flea": {
+	"flea_giant_flea": {
 		"name": "Flea, Giant Flea",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6235,8 +6235,8 @@
 			"A witch can take a giant flea as a familiar. Like all vermin, a giant flea gains 1 point of Intelligence when it becomes a familiar. A giant flea familiar grants its master a +3 bonus on Fortitude saves against disease."
 		]
 	},
-	"giant_flea": { "copyof": "flea,_giant_flea" },
-	"flea,_mammoth_flea": {
+	"giant_flea": { "copyof": "flea_giant_flea" },
+	"flea_mammoth_flea": {
 		"name": "Flea, Mammoth Flea",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6288,7 +6288,7 @@
 			"Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar."
 		]
 	},
-	"mammoth_flea": { "copyof": "flea,_mammoth_flea" },
+	"mammoth_flea": { "copyof": "flea_mammoth_flea" },
 	"fleshdreg": {
 		"name": "Fleshdreg",
 		"sources": [
@@ -6408,7 +6408,7 @@
 			"Fleshdreg swarms form from scraps and leftovers of malformed fleshdregs and incomplete sinspawn. These foul, misshapen creatures pour out of runewells by the hundreds, seeking sinful flesh to destroy. Little more than pests, these swarms attack indiscriminately. Some malfunctioning runewells and other fleshvats produce nothing more these days than swarm upon swarm of these pests."
 		]
 	},
-	"fleshwarp,_drider": {
+	"fleshwarp_drider": {
 		"name": "Fleshwarp, Drider",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -6482,8 +6482,8 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"drider": { "copyof": "fleshwarp,_drider" },
-	"fleshwarp,_ghonhatine": {
+	"drider": { "copyof": "fleshwarp_drider" },
+	"fleshwarp_ghonhatine": {
 		"name": "Fleshwarp, Ghonhatine",
 		"sources": [
 			"Bestiary 4",
@@ -6548,8 +6548,8 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"ghonhatine": { "copyof": "fleshwarp,_ghonhatine" },
-	"fleshwarp,_grothlut": {
+	"ghonhatine": { "copyof": "fleshwarp_ghonhatine" },
+	"fleshwarp_grothlut": {
 		"name": "Fleshwarp, Grothlut",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6609,8 +6609,8 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"grothlut": { "copyof": "fleshwarp,_grothlut" },
-	"fleshwarp,_halsora": {
+	"grothlut": { "copyof": "fleshwarp_grothlut" },
+	"fleshwarp_halsora": {
 		"name": "Fleshwarp, Halsora",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -6667,8 +6667,8 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"halsora": { "copyof": "fleshwarp,_halsora" },
-	"fleshwarp,_irnakurse": {
+	"halsora": { "copyof": "fleshwarp_halsora" },
+	"fleshwarp_irnakurse": {
 		"name": "Fleshwarp, Irnakurse",
 		"sources": [
 			"Bestiary 4",
@@ -6730,8 +6730,8 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"irnakurse": { "copyof": "fleshwarp,_irnakurse" },
-	"fleshwarp,_oronci": {
+	"irnakurse": { "copyof": "fleshwarp_irnakurse" },
+	"fleshwarp_oronci": {
 		"name": "Fleshwarp, Oronci",
 		"sources": [
 			"Inner Sea Bestiary",
@@ -6798,7 +6798,7 @@
 			"**Family:** [Fleshwarp](family/fleshwarp)"
 		]
 	},
-	"oronci": { "copyof": "fleshwarp,_oronci" },
+	"oronci": { "copyof": "fleshwarp_oronci" },
 	"flotsam_terror": {
 		"name": "Flotsam Terror",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
@@ -7218,7 +7218,7 @@
 			"A forlarren stands 6 feet tall and weighs about 160 pounds. In theory, these creatures can live for hundreds of years, but most perish through violence before they turn 10."
 		]
 	},
-	"formian,_formian_myrmarch": {
+	"formian_formian_myrmarch": {
 		"name": "Formian, Formian Myrmarch",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7288,8 +7288,8 @@
 			"**Family:** [Formian](family/formian)"
 		]
 	},
-	"formian_myrmarch": { "copyof": "formian,_formian_myrmarch" },
-	"formian,_formian_queen": {
+	"formian_myrmarch": { "copyof": "formian_formian_myrmarch" },
+	"formian_formian_queen": {
 		"name": "Formian, Formian Queen",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7350,8 +7350,8 @@
 			"**Family:** [Formian](family/formian)"
 		]
 	},
-	"formian_queen": { "copyof": "formian,_formian_queen" },
-	"formian,_formian_taskmaster": {
+	"formian_queen": { "copyof": "formian_formian_queen" },
+	"formian_formian_taskmaster": {
 		"name": "Formian, Formian Taskmaster",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7423,8 +7423,8 @@
 			"**Family:** [Formian](family/formian)"
 		]
 	},
-	"formian_taskmaster": { "copyof": "formian,_formian_taskmaster" },
-	"formian,_formian_warrior": {
+	"formian_taskmaster": { "copyof": "formian_formian_taskmaster" },
+	"formian_formian_warrior": {
 		"name": "Formian, Formian Warrior",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7491,8 +7491,8 @@
 			"**Family:** [Formian](family/formian)"
 		]
 	},
-	"formian_warrior": { "copyof": "formian,_formian_warrior" },
-	"formian,_formian_worker": {
+	"formian_warrior": { "copyof": "formian_formian_warrior" },
+	"formian_formian_worker": {
 		"name": "Formian, Formian Worker",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -7553,7 +7553,7 @@
 			"**Family:** [Formian](family/formian)"
 		]
 	},
-	"formian_worker": { "copyof": "formian,_formian_worker" },
+	"formian_worker": { "copyof": "formian_formian_worker" },
 	"formless_spawn": {
 		"name": "Formless Spawn",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
@@ -7632,7 +7632,7 @@
 			"This memorable creature first made its appearance as an unnamed antagonist in Clark Ashton Smith's short story, \"The Tale of Satampra Zeiros,\" wherein a pair of would-be thieves run afoul of the monster in a lost jungle city while searching for treasure said to be held within a temple devoted to Tsathoggua."
 		]
 	},
-	"forsaken_legion,_forsaken_arbalester": {
+	"forsaken_legion_forsaken_arbalester": {
 		"name": "Forsaken Legion, Forsaken Arbalester",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
@@ -7684,8 +7684,8 @@
 			"These soldiers were once specialists who operated a variety of ranged weapons, including ancient Jistkan siege weapons. The unholy power of the forsaken legion allows these arbalesters to fire ghostly bolts supernaturally quickly without sacrificing accuracy."
 		]
 	},
-	"forsaken_arbalester": { "copyof": "forsaken_legion,_forsaken_arbalester" },
-	"forsaken_legion,_forsaken_defender": {
+	"forsaken_arbalester": { "copyof": "forsaken_legion_forsaken_arbalester" },
+	"forsaken_legion_forsaken_defender": {
 		"name": "Forsaken Legion, Forsaken Defender",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
@@ -7738,8 +7738,8 @@
 			"Long ago, these defense specialists planned and supervised the construction of field fortifications for the Jistka Imperium. Now powered by unholy energies, they can create impromptu defenses in the blink of an eye."
 		]
 	},
-	"forsaken_defender": { "copyof": "forsaken_legion,_forsaken_defender" },
-	"forsaken_legion,_forsaken_foot_soldier": {
+	"forsaken_defender": { "copyof": "forsaken_legion_forsaken_defender" },
+	"forsaken_legion_forsaken_foot_soldier": {
 		"name": "Forsaken Legion, Forsaken Foot Soldier",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
@@ -7791,7 +7791,7 @@
 			"The greatest strength of the rank-and-file soldiers of the Jistka Imperium was their ability to work as a cohesive unit in stressful situations. Now powered by unholy energies, these legionnaires' loyalty transcends even death. Wherever groupings of forsaken legionnaires are found, there is always a solid number of foot soldiers, which still serve as the elite backbone of Jistkan companies even though they have long been forgotten."
 		]
 	},
-	"forsaken_foot_soldier": { "copyof": "forsaken_legion,_forsaken_foot_soldier" },
+	"forsaken_foot_soldier": { "copyof": "forsaken_legion_forsaken_foot_soldier" },
 	"fossegrim": {
 		"name": "Fossegrim",
 		"sources": [ "Bestiary 4" ],
@@ -7977,7 +7977,7 @@
 			"Occasionally, the desire to cause fear and misery survives even when a bugbear dies. Such a creature can detach part of its vile nature to create frightening spiritual traps in the form of haunts. Whenever possible, a frightful haunter learns about a group before building haunts to terrify it, and customizes the haunts' effects based on its victims' fears and weaknesses. If a frightful haunter is forced to confront a group directly, it attempts to create a stronghold of damaging haunts, attacking only when the group neutralizes one of the haunts, and then fleeing to another prepared location."
 		]
 	},
-	"frog,_frog_father": {
+	"frog_frog_father": {
 		"name": "Frog, Frog Father",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -8027,8 +8027,8 @@
 			"Frog fathers devour entire hives of monstrous vermin and any livestock that stray too close to their marshes, but happily gulp down any prey that crosses their paths. Their long, sticky tongues allow them to capture and restrain prey while they determine whether they want to consume it. A frog father's chosen prey has little chance of escaping, as the frog's powerful throat muscles allow it to swallow even large creatures rapidly."
 		]
 	},
-	"frog_father": { "copyof": "frog,_frog_father" },
-	"frog,_giant_frog": {
+	"frog_father": { "copyof": "frog_frog_father" },
+	"frog_giant_frog": {
 		"name": "Frog, Giant Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -8078,8 +8078,8 @@
 			"Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds."
 		]
 	},
-	"giant_frog": { "copyof": "frog,_giant_frog" },
-	"frog,_goliath_frog": {
+	"giant_frog": { "copyof": "frog_giant_frog" },
+	"frog_goliath_frog": {
 		"name": "Frog, Goliath Frog",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -8129,8 +8129,8 @@
 			"These hulking frogs haunt warm marshlands and river shallows where thick undergrowth can conceal them. They are dangerous, aggressive predators that gorge themselves on smaller creatures or team up to bring down larger prey. They often climb to the low branches of ancient, mossy trees, picking off prey from the wetland's floor before their existence is even suspected."
 		]
 	},
-	"goliath_frog": { "copyof": "frog,_goliath_frog" },
-	"frog,_poison_frog": {
+	"goliath_frog": { "copyof": "frog_goliath_frog" },
+	"frog_poison_frog": {
 		"name": "Frog, Poison Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -8181,7 +8181,7 @@
 			"You can make a larger poison frog either by applying the giant simple template or by giving a normal giant frog a poison frog's venomous bite."
 		]
 	},
-	"poison_frog": { "copyof": "frog,_poison_frog" },
+	"poison_frog": { "copyof": "frog_poison_frog" },
 	"froghemoth": {
 		"name": "Froghemoth",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -8374,7 +8374,7 @@
 			"An adult frost worm measures 35 feet long and weighs 8,000 pounds."
 		]
 	},
-	"frostfallen_creature,_frostfallen_mammoth": {
+	"frostfallen_creature_frostfallen_mammoth": {
 		"name": "Frostfallen Creature, Frostfallen Mammoth",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
@@ -8442,7 +8442,7 @@
 			"A magic-user can create any form of frostfallen creature by casting animate dead upon the corpse to be animated and providing an amount of ice of equal weight, plus two blue topazes or turquoises worth at least 100 gp each. The creator can only create a number of Hit Dice of frostfallen creatures equal to the amount allowed by animate dead. Frostfallen creatures count against the number of Hit Dice of skeletons and zombies that can be created using animate dead."
 		]
 	},
-	"frostfallen_mammoth": { "copyof": "frostfallen_creature,_frostfallen_mammoth" },
+	"frostfallen_mammoth": { "copyof": "frostfallen_creature_frostfallen_mammoth" },
 	"fuldrex": {
 		"name": "Fuldrex",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],

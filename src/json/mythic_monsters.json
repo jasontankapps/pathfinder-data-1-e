@@ -573,7 +573,7 @@
 			"A mythic cockatrice is infused with stone, perhaps because of some aspect of its aging process, or its body has absorbed minerals from countless stony foes, or its incessant grooming has slowly petrified its own flesh. Even more aggressive and territorial than non-mythic kin, a mythic cockatrice recklessly attacks anything that intrudes on its territory."
 		]
 	},
-	"colossus,_flesh_colossus_mythic": {
+	"colossus_flesh_colossus_mythic": {
 		"name": "Colossus, Flesh Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -642,8 +642,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; **Cost** 70,000 gp"
 		]
 	},
-	"flesh_colossus_mythic": { "copyof": "colossus,_flesh_colossus_mythic" },
-	"colossus,_iron_colossus_mythic": {
+	"flesh_colossus_mythic": { "copyof": "colossus_flesh_colossus_mythic" },
+	"colossus_iron_colossus_mythic": {
 		"name": "Colossus, Iron Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -721,8 +721,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		]
 	},
-	"iron_colossus_mythic": { "copyof": "colossus,_iron_colossus_mythic" },
-	"colossus,_sphinx_colossus_mythic": {
+	"iron_colossus_mythic": { "copyof": "colossus_iron_colossus_mythic" },
+	"colossus_sphinx_colossus_mythic": {
 		"name": "Colossus, Sphinx Colossus",
 		"sources": [
 			"Bestiary 5",
@@ -735,7 +735,7 @@
 			"",
 			"### Mythic Sphinx Colossus CR 14/MR 4  ",
 			"",
-			"**Source** [Bestiary 5 pg. 58](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 56](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Bestiary 5 pg. 58](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 56](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 38,400  ",
 			"N Gargantuan construct (colossus, mythic)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., low-light vision, tremorsense 120 ft., x-ray vision; Perception +16  ",
@@ -797,8 +797,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		]
 	},
-	"sphinx_colossus_mythic": { "copyof": "colossus,_sphinx_colossus_mythic" },
-	"colossus,_stone_colossus_mythic": {
+	"sphinx_colossus_mythic": { "copyof": "colossus_sphinx_colossus_mythic" },
+	"colossus_stone_colossus_mythic": {
 		"name": "Colossus, Stone Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -874,8 +874,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp"
 		]
 	},
-	"stone_colossus_mythic": { "copyof": "colossus,_stone_colossus_mythic" },
-	"colossus,_wood_colossus_mythic": {
+	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
+	"colossus_wood_colossus_mythic": {
 		"name": "Colossus, Wood Colossus",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -942,8 +942,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp"
 		]
 	},
-	"wood_colossus_mythic": { "copyof": "colossus,_wood_colossus_mythic" },
-	"cyclops,_great_cyclops_mythic": {
+	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
+	"cyclops_great_cyclops_mythic": {
 		"name": "Cyclops, Great Cyclops",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1004,8 +1004,8 @@
 			"Mythic great cyclopes are the first and oldest of their kind to succumb to visions of rage and destruction. Said to be the lost offspring of gods of lightning and the forge, they wield power over earth and energy, using it to blast open humanoid defenses so they can pluck out the tasty morsels within."
 		]
 	},
-	"great_cyclops_mythic": { "copyof": "cyclops,_great_cyclops_mythic" },
-	"demon,_marilith_mythic": {
+	"great_cyclops_mythic": { "copyof": "cyclops_great_cyclops_mythic" },
+	"demon_marilith_mythic": {
 		"name": "Demon, Marilith",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1068,8 +1068,8 @@
 			"A mythic marilith is a queen of chaos and evil, controlling a large territory in the Abyss and commanding a legion of demons."
 		]
 	},
-	"marilith_mythic": { "copyof": "demon,_marilith_mythic" },
-	"demon,_nalfeshnee_mythic": {
+	"marilith_mythic": { "copyof": "demon_marilith_mythic" },
+	"demon_nalfeshnee_mythic": {
 		"name": "Demon, Nalfeshnee",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1131,8 +1131,8 @@
 			"A mythic nalfeshnee gains its power by tricking or forcing other mythic beings to imbue it. It hoards its many valuable secrets as a dragon hoards gold."
 		]
 	},
-	"nalfeshnee_mythic": { "copyof": "demon,_nalfeshnee_mythic" },
-	"demon,_vrock_mythic": {
+	"nalfeshnee_mythic": { "copyof": "demon_nalfeshnee_mythic" },
+	"demon_vrock_mythic": {
 		"name": "Demon, Vrock",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1191,7 +1191,7 @@
 			"A mythic vrock is a violent creature of unrestrained rage that takes out its anger on anything weaker than itself."
 		]
 	},
-	"vrock_mythic": { "copyof": "demon,_vrock_mythic" },
+	"vrock_mythic": { "copyof": "demon_vrock_mythic" },
 	"devastator_mythic": {
 		"name": "Devastator",
 		"sources": [
@@ -1254,7 +1254,7 @@
 			"In an unholy act of twisted, demonic humor, devastators derive their power from the souls of good outsiders."
 		]
 	},
-	"devil,_bone_devil_mythic": {
+	"devil_bone_devil_mythic": {
 		"name": "Devil, Bone Devil",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1316,8 +1316,8 @@
 			"Forged from the souls of the first heretics and blasphemers, mythic devils have an ancient legacy of torture and using secrets to lure mortal diabolists into temptation. A mythic bone devil leads Hell's inquisitors in the efforts to root out disobedience among other devils. The authority it wields is even more powerful than its formidable magic, and it commands respect and fear from even pit fiends and dukes of Hell."
 		]
 	},
-	"bone_devil_mythic": { "copyof": "devil,_bone_devil_mythic" },
-	"devil,_ice_devil_mythic": {
+	"bone_devil_mythic": { "copyof": "devil_bone_devil_mythic" },
+	"devil_ice_devil_mythic": {
 		"name": "Devil, Ice Devil",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1382,8 +1382,8 @@
 			"A mythic ice devil is a master of strategy, able to adapt to the nature of its opponents and turn its enemy's attacks back at them. Its lean form and upright posture sets it apart from the stockier non-mythic ice devils."
 		]
 	},
-	"ice_devil_mythic": { "copyof": "devil,_ice_devil_mythic" },
-	"dragon_black,_mature_adult_black_dragon_mythic": {
+	"ice_devil_mythic": { "copyof": "devil_ice_devil_mythic" },
+	"dragon_black_mature_adult_black_dragon_mythic": {
 		"name": "Dragon (Black), Mature Adult Black Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1441,8 +1441,8 @@
 			"**Family:** [Black Dragon](family/black_dragon)"
 		]
 	},
-	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black,_mature_adult_black_dragon_mythic" },
-	"dragon_blue,_mature_adult_blue_dragon_mythic": {
+	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
+	"dragon_blue_mature_adult_blue_dragon_mythic": {
 		"name": "Dragon (Blue), Mature Adult Blue Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1500,8 +1500,8 @@
 			"**Family:** [Blue Dragon](family/blue_dragon)"
 		]
 	},
-	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue,_mature_adult_blue_dragon_mythic" },
-	"dragon_green,_very_old_green_dragon_mythic": {
+	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
+	"dragon_green_very_old_green_dragon_mythic": {
 		"name": "Dragon (Green), Very Old Green Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1562,8 +1562,8 @@
 			"**Family:** [Green Dragon](family/green_dragon)"
 		]
 	},
-	"very_old_green_dragon_mythic": { "copyof": "dragon_green,_very_old_green_dragon_mythic" },
-	"dragon_red,_wyrm_red_dragon_mythic": {
+	"very_old_green_dragon_mythic": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
+	"dragon_red_wyrm_red_dragon_mythic": {
 		"name": "Dragon (Red), Wyrm Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1636,9 +1636,9 @@
 			"[^M]: Mythic spell"
 		]
 	},
-	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
-	"wyrm_red_dragon": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
-	"dragon_red,_young_red_dragon_mythic": {
+	"wyrm_red_dragon_mythic": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
+	"dragon_red_young_red_dragon_mythic": {
 		"name": "Dragon (Red), Young Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1700,8 +1700,8 @@
 			"**Family:** [Red Dragon](family/red_dragon)"
 		]
 	},
-	"young_red_dragon_mythic": { "copyof": "dragon_red,_young_red_dragon_mythic" },
-	"dragon_white,_juvenile_white_dragon_mythic": {
+	"young_red_dragon_mythic": { "copyof": "dragon_red_young_red_dragon_mythic" },
+	"dragon_white_juvenile_white_dragon_mythic": {
 		"name": "Dragon (White), Juvenile White Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1755,7 +1755,7 @@
 			"**Family:** [White Dragon](family/white_dragon)"
 		]
 	},
-	"juvenile_white_dragon_mythic": { "copyof": "dragon_white,_juvenile_white_dragon_mythic" },
+	"juvenile_white_dragon_mythic": { "copyof": "dragon_white_juvenile_white_dragon_mythic" },
 	"drakainia": {
 		"name": "Drakainia",
 		"sources": [ "Bestiary 4" ],
@@ -1851,7 +1851,7 @@
 			"| 100 | Favored Spawn (Su) Favored spawn are those a drakainia has marked as successful or quasi-successful mutations. These powerful spawn gain a +4 luck bonus on all saving throws, a +4 increase to natural armor, a +4 inherent bonus to two ability scores, and 1 mythic rank. |"
 		]
 	},
-	"elemental_air,_elder_air_elemental_mythic": {
+	"elemental_air_elder_air_elemental_mythic": {
 		"name": "Elemental (Air), Elder Air Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1909,8 +1909,8 @@
 			"A mythic elder air elemental is pure fury and strength, capable of throwing wooden splinters through stone walls and tearing creatures apart with fists of solid wind. Its greatest speed is within its empty core, able to suffocate enemies in moments."
 		]
 	},
-	"elder_air_elemental_mythic": { "copyof": "elemental_air,_elder_air_elemental_mythic" },
-	"elemental_earth,_elder_earth_elemental_mythic": {
+	"elder_air_elemental_mythic": { "copyof": "elemental_air_elder_air_elemental_mythic" },
+	"elemental_earth_elder_earth_elemental_mythic": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1971,8 +1971,8 @@
 			"Infused with the power and wisdom of the deepest, oldest stone, a mythic elder earth elemental is a rocky bulwark against progress and change. They use innate magic and their very bodies to block enemy advances and preserve treasures of the earth."
 		]
 	},
-	"elder_earth_elemental_mythic": { "copyof": "elemental_earth,_elder_earth_elemental_mythic" },
-	"elemental_fire,_elder_fire_elemental_mythic": {
+	"elder_earth_elemental_mythic": { "copyof": "elemental_earth_elder_earth_elemental_mythic" },
+	"elemental_fire_elder_fire_elemental_mythic": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2035,8 +2035,8 @@
 			"A mythic elder fire elemental is a living fragment of the original fires at the heart of its home plane. Having learned the patience of a slow burn, it lacks both the recklessness of younger fire elementals and the urge to inspire fear in the hearts of flammable mortals. It enjoys using smoke to scatter opponents so it can chase them down and set them alight."
 		]
 	},
-	"elder_fire_elemental_mythic": { "copyof": "elemental_fire,_elder_fire_elemental_mythic" },
-	"elemental_water,_elder_water_elemental_mythic": {
+	"elder_fire_elemental_mythic": { "copyof": "elemental_fire_elder_fire_elemental_mythic" },
+	"elemental_water_elder_water_elemental_mythic": {
 		"name": "Elemental (Water), Elder Water Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2096,7 +2096,7 @@
 			"A mythic water elemental comes from the unknowable depths of its home plane, predating the current civilizations and gods. A witness to ancient and bizarre acts of life-creation, it is unconcerned about the interests of mortal creatures."
 		]
 	},
-	"elder_water_elemental_mythic": { "copyof": "elemental_water,_elder_water_elemental_mythic" },
+	"elder_water_elemental_mythic": { "copyof": "elemental_water_elder_water_elemental_mythic" },
 	"elohim_mythic": {
 		"name": "Elohim",
 		"sources": [ "Bestiary 4" ],
@@ -2288,7 +2288,7 @@
 			"An aquatic mythic gargoyle is nearly identical to a mythic gargoyle, but usually has an electricity breath weapon instead of acid. Some have the ability to possess coral or wood statues instead of stone."
 		]
 	},
-	"giant,_fire_giant_mythic": {
+	"giant_fire_giant_mythic": {
 		"name": "Giant, Fire Giant",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2347,8 +2347,8 @@
 			"A mythic fire giant burns like the heart of a volcano. Wielding weapons of flame and ash, it brands enemies with its fury and strength."
 		]
 	},
-	"fire_giant_mythic": { "copyof": "giant,_fire_giant_mythic" },
-	"giant,_hill_giant_mythic": {
+	"fire_giant_mythic": { "copyof": "giant_fire_giant_mythic" },
+	"giant_hill_giant_mythic": {
 		"name": "Giant, Hill Giant",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2406,7 +2406,7 @@
 			"A mythic hill giant is a relic from an earlier age, smarter than its degenerate kin and gifted with magic of stone and earth. Some seek to rule, creating tribes with their non-mythic kin and using smaller beings as serfs. Others prefer lives of solitude, intolerant of all other creatures."
 		]
 	},
-	"hill_giant_mythic": { "copyof": "giant,_hill_giant_mythic" },
+	"hill_giant_mythic": { "copyof": "giant_hill_giant_mythic" },
 	"glaistig_mythic": {
 		"name": "Glaistig",
 		"sources": [ "Bestiary 5" ],
@@ -2484,7 +2484,7 @@
 			"Among some of the most prevalent cautionary tales involving glaistigs is that they sometimes lure young children deep into their wilderness homes, kidnapping them and even replacing them with some form of fey impostor. In truth, these fey enjoy the innocence, honesty, and playfulness of children, and usually keep them only to chat and dance with for a short while before sending them home unharmed."
 		]
 	},
-	"golem,_flesh_golem_mythic": {
+	"golem_flesh_golem_mythic": {
 		"name": "Golem, Flesh Golem",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -2545,7 +2545,7 @@
 			"A mythic flesh golem retains an unnatural level of electrical energy from the process that created it. This grants it limited intelligence, extra strength, and the ability to shock its opponents."
 		]
 	},
-	"flesh_golem_mythic": { "copyof": "golem,_flesh_golem_mythic" },
+	"flesh_golem_mythic": { "copyof": "golem_flesh_golem_mythic" },
 	"graeae_mythic": {
 		"name": "Graeae",
 		"sources": [ "Bestiary 4" ],
@@ -2806,7 +2806,7 @@
 			"",
 			"### Mythic Grogrisant CR 16/MR 6  ",
 			"",
-			"**Source** [Taldor, the First Empire pg. 59](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 59](source/taldor_the_first_empire)  ",
 			"**XP** 76,800  ",
 			"N Huge magical beast (mythic)  ",
 			"**Init** +12; **Senses** darkvision 120 ft., low-light vision, scent; Perception +21  ",
@@ -2995,7 +2995,7 @@
 			"A mythic hell hound is a prince among the wolves of Hell, feral but still subservient to the archdevils. Allowed to run wild, they are the original creatures from which the \"tamer\" common hell hounds were made."
 		]
 	},
-	"hell_hound,_nessian_warhound_mythic": {
+	"hell_hound_nessian_warhound_mythic": {
 		"name": "Hell Hound, Nessian Warhound",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -3046,7 +3046,7 @@
 			"A mythic hell hound is a prince among the wolves of Hell, feral but still subservient to the archdevils. Allowed to run wild, they are the original creatures from which the \"tamer\" common hell hounds were made."
 		]
 	},
-	"nessian_warhound_mythic": { "copyof": "hell_hound,_nessian_warhound_mythic" },
+	"nessian_warhound_mythic": { "copyof": "hell_hound_nessian_warhound_mythic" },
 	"human_skeleton_mythic": {
 		"name": "Human Skeleton",
 		"sources": [ "Mythic Adventures" ],
@@ -3508,7 +3508,7 @@
 			"[^M]: Mythic spell"
 		]
 	},
-	"manasaputra,_solar_pitri_agnishvatta_mythic": {
+	"manasaputra_solar_pitri_agnishvatta_mythic": {
 		"name": "Manasaputra, Solar Pitri (Agnishvatta)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -3586,9 +3586,9 @@
 			"[^M]: mythic spell-like ability"
 		]
 	},
-	"agnishvatta_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
-	"solar_pitri_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
-	"solar_pitri": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
+	"agnishvatta_mythic": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
+	"solar_pitri_mythic": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
+	"solar_pitri": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
 	"manticore_mythic": {
 		"name": "Manticore",
 		"sources": [ "Mythic Adventures" ],
@@ -4125,7 +4125,7 @@
 			"A mythic phoenix is appointed by the gods to watch over the birth, death, and renewal of significant things-such as heroes, religions, or even entire worlds. It uses its powers to destroy evils that would interfere with the great cycle."
 		]
 	},
-	"plague_swarm,_bat_plague_swarm_mythic": {
+	"plague_swarm_bat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Bat Plague Swarm",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4178,8 +4178,8 @@
 			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
-	"bat_plague_swarm_mythic": { "copyof": "plague_swarm,_bat_plague_swarm_mythic" },
-	"plague_swarm,_locust_plague_swarm_mythic": {
+	"bat_plague_swarm_mythic": { "copyof": "plague_swarm_bat_plague_swarm_mythic" },
+	"plague_swarm_locust_plague_swarm_mythic": {
 		"name": "Plague Swarm, Locust Plague Swarm",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4234,8 +4234,8 @@
 			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
-	"locust_plague_swarm_mythic": { "copyof": "plague_swarm,_locust_plague_swarm_mythic" },
-	"plague_swarm,_rat_plague_swarm_mythic": {
+	"locust_plague_swarm_mythic": { "copyof": "plague_swarm_locust_plague_swarm_mythic" },
+	"plague_swarm_rat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Rat Plague Swarm",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4294,7 +4294,7 @@
 			"**Family:** [Plague Swarm](family/plague_swarm)"
 		]
 	},
-	"rat_plague_swarm_mythic": { "copyof": "plague_swarm,_rat_plague_swarm_mythic" },
+	"rat_plague_swarm_mythic": { "copyof": "plague_swarm_rat_plague_swarm_mythic" },
 	"portunus_mythic": {
 		"name": "Portunus",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
@@ -4593,7 +4593,7 @@
 			"A mythic sphinx is often given a task by a deity, such as watching over a city, testing a great mortal hero, or guarding an artifact. She is gifted with magic to compel obedience and curse those who would defy her commands or interfere with her task."
 		]
 	},
-	"titan,_danava_mythic": {
+	"titan_danava_mythic": {
 		"name": "Titan, Danava",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4672,9 +4672,9 @@
 			"Yin and Yang (Ex): The danava pillar is connected to the Positive and Negative Energy Planes and the transmigration of souls. Both positive and negative energy heal the pillar (whether channeled to heal or to harm), and it can channel positive and negative energy at will once per round each as a free action. The channeled energy's effect is as a 20th-level cleric's. The danava pillar gains Selective Channeling as a bonus feat. Finally, a creature reduced to 0 hit points or below by any of the danava pillar's attacks is instantly reincarnated into its next life. Unlike the spell reincarnate, this transforms the creature into an infant with no class levels and little or no memory of its former life. Restoring the original creature from its new incarnation requires a miracle, a wish, or similar magic, and as doing so simultaneously eliminates the new incarnation, it could have profound moral or ethical implications for the restorer."
 		]
 	},
-	"danava_mythic": { "copyof": "titan,_danava_mythic" },
-	"danava": { "copyof": "titan,_danava_mythic" },
-	"titan,_fomorian_titan_mythic": {
+	"danava_mythic": { "copyof": "titan_danava_mythic" },
+	"danava": { "copyof": "titan_danava_mythic" },
+	"titan_fomorian_titan_mythic": {
 		"name": "Titan, Fomorian Titan",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -4734,8 +4734,8 @@
 			"Fomorian titans were the first titans created by the gods. In their pride, the titans intruded on the domain of their masters and created life of their own, so they too might be worshiped. The gods were forced to battle their creations, and though they won, they could not bring themselves to destroy the fomorians, and instead shackled the titans in armor that hid their beauty and imprisoned them in secret prisons across the multiverse."
 		]
 	},
-	"fomorian_titan_mythic": { "copyof": "titan,_fomorian_titan_mythic" },
-	"fomorian_titan": { "copyof": "titan,_fomorian_titan_mythic" },
+	"fomorian_titan_mythic": { "copyof": "titan_fomorian_titan_mythic" },
+	"fomorian_titan": { "copyof": "titan_fomorian_titan_mythic" },
 	"treant_mythic": {
 		"name": "Treant",
 		"sources": [ "Mythic Adventures" ],
@@ -5257,7 +5257,7 @@
 			"Some mythic wyverns are closely related to one specific type of chromatic dragon. These lose their energy resistances and the power lift ability, but gain the energy immunity and breath weapon of the appropriate chromatic dragon (80 foot line or 40 foot cone, DC 17, 8d6 energy damage, 1d4 rounds)."
 		]
 	},
-	"xiomorn,_vault_builder_mythic": {
+	"xiomorn_vault_builder_mythic": {
 		"name": "Xiomorn, Vault Builder",
 		"sources": [
 			"Planar Adventures",
@@ -5333,6 +5333,5 @@
 			"Xiomorns comprise two castes: the four-legged mythic Vault Builders and the two-legged non-mythic [Vault Keepers](monster/vault_keeper). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
-	"xiomorn_vault_builder_mythic": { "copyof": "xiomorn,_vault_builder_mythic" },
-	"vault_builder": { "copyof": "xiomorn,_vault_builder_mythic" }
+	"vault_builder": { "copyof": "xiomorn_vault_builder_mythic" }
 }

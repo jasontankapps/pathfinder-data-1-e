@@ -994,7 +994,7 @@
 			"The octopus is a cunning animal capable of using complex tactics to get food."
 		]
 	},
-	"octopus,_giant_octopus": {
+	"octopus_giant_octopus": {
 		"name": "Octopus, Giant Octopus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1044,7 +1044,7 @@
 			"The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles."
 		]
 	},
-	"giant_octopus": { "copyof": "octopus,_giant_octopus" },
+	"giant_octopus": { "copyof": "octopus_giant_octopus" },
 	"ogre": {
 		"name": "Ogre",
 		"sources": [
@@ -1156,7 +1156,7 @@
 			"| Stoneblood | Rock catching, rock throwing (1d8, 120 ft.) |"
 		]
 	},
-	"ogre,_ogre_boss": {
+	"ogre_ogre_boss": {
 		"name": "Ogre, Ogre Boss",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1209,8 +1209,8 @@
 			"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction."
 		]
 	},
-	"ogre_boss": { "copyof": "ogre,_ogre_boss" },
-	"ogre,_ogre_brute": {
+	"ogre_boss": { "copyof": "ogre_ogre_boss" },
+	"ogre_ogre_brute": {
 		"name": "Ogre, Ogre Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1264,8 +1264,8 @@
 			"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction."
 		]
 	},
-	"ogre_brute": { "copyof": "ogre,_ogre_brute" },
-	"ogre,_ogre_destroyer": {
+	"ogre_brute": { "copyof": "ogre_ogre_brute" },
+	"ogre_ogre_destroyer": {
 		"name": "Ogre, Ogre Destroyer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1337,8 +1337,8 @@
 			"**Skills** Perception +12"
 		]
 	},
-	"ogre_destroyer": { "copyof": "ogre,_ogre_destroyer" },
-	"ogre,_ogre_glutton": {
+	"ogre_destroyer": { "copyof": "ogre_ogre_destroyer" },
+	"ogre_ogre_glutton": {
 		"name": "Ogre, Ogre Glutton",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1391,8 +1391,8 @@
 			"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates."
 		]
 	},
-	"ogre_glutton": { "copyof": "ogre,_ogre_glutton" },
-	"ogre,_ogre_hunter": {
+	"ogre_glutton": { "copyof": "ogre_ogre_glutton" },
+	"ogre_ogre_hunter": {
 		"name": "Ogre, Ogre Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1465,8 +1465,8 @@
 			"**SQ** tricks (attack, come, defend, fetch, guard, heel, stay, track)"
 		]
 	},
-	"ogre_hunter": { "copyof": "ogre,_ogre_hunter" },
-	"ogre,_ogre_king": {
+	"ogre_hunter": { "copyof": "ogre_ogre_hunter" },
+	"ogre_ogre_king": {
 		"name": "Ogre, Ogre King",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1529,8 +1529,8 @@
 			"Few ogres live long enough to amass great power-which makes an army commanded by a powerful ogre king or queen a terrifying force to behold."
 		]
 	},
-	"ogre_king": { "copyof": "ogre,_ogre_king" },
-	"ogre,_ogre_mancatcher": {
+	"ogre_king": { "copyof": "ogre_ogre_king" },
+	"ogre_ogre_mancatcher": {
 		"name": "Ogre, Ogre Mancatcher",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1580,8 +1580,8 @@
 			"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates."
 		]
 	},
-	"ogre_mancatcher": { "copyof": "ogre,_ogre_mancatcher" },
-	"ogre,_ogre_priest": {
+	"ogre_mancatcher": { "copyof": "ogre_ogre_mancatcher" },
+	"ogre_ogre_priest": {
 		"name": "Ogre, Ogre Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1637,8 +1637,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"ogre_priest": { "copyof": "ogre,_ogre_priest" },
-	"ogre,_ogre_stalker": {
+	"ogre_priest": { "copyof": "ogre_ogre_priest" },
+	"ogre_ogre_stalker": {
 		"name": "Ogre, Ogre Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1688,7 +1688,7 @@
 			"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power."
 		]
 	},
-	"ogre_stalker": { "copyof": "ogre,_ogre_stalker" },
+	"ogre_stalker": { "copyof": "ogre_ogre_stalker" },
 	"ohancanu": {
 		"name": "Ohancanu",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
@@ -1916,7 +1916,7 @@
 			"Wild Portal: In the rarest cases, one side of an oneirogen's portal is locked within its body, but the other wildly lashes through the planes of existence, connecting to a different reality every round. In the case of such creatures, roll 1d12 at the beginning of the oneirogen's turn. Its veil of mists ability randomly corresponds to the Dimension of Dreams, the four elemental planes, the two energy planes, Abaddon, the Abyss, Elysium, Hell, and the Shadow Plane."
 		]
 	},
-	"oni,_atamahuta": {
+	"oni_atamahuta": {
 		"name": "Oni, Atamahuta",
 		"sources": [
 			"Pathfinder #51: The Hungry Storm",
@@ -1996,8 +1996,8 @@
 			"Atamahuta are typically distrustful of other oni, as they see them as potential threats to their power, and thus only rarely ally themselves with other such beings. Occasionally, however, such alliances can prove to be mutually beneficial, and so atamahuta team up with weaker oni such as yamabushi tengus or kuwa, so that they can reap the rewards of such a coalition while still retaining the most power. More intelligent or powerful oni recognize atamahuta for their oblivious nature and will often manipulate the beings for their strength, tricking the ettin-shaped oni into thinking they are dominant in the friendship until the more powerful oni has used the atamahuta for their intended purpose, at which point the beings are swiftly discarded."
 		]
 	},
-	"atamahuta": { "copyof": "oni,_atamahuta" },
-	"oni,_earth_yai": {
+	"atamahuta": { "copyof": "oni_atamahuta" },
+	"oni_earth_yai": {
 		"name": "Oni, Earth Yai",
 		"sources": [
 			"Pathfinder #53: Tide of Honor",
@@ -2085,8 +2085,8 @@
 			"Just as stone giants develop a variety of special abilities related to their age, so too do earth yai grow in power as their years mount upon them. Known as daifus, such earth yai have Charisma scores of at least 20 and can use the following spell-like abilities once per day: stoneskin, summon monster XI (earth elementals only), wall of stone. Most earth yai daifus are sorcerers or oracles with abilities tied to the earth or destruction. Earth yai daifus add +1 to their CRs."
 		]
 	},
-	"earth_yai": { "copyof": "oni,_earth_yai" },
-	"oni,_fire_yai": {
+	"earth_yai": { "copyof": "oni_earth_yai" },
+	"oni_fire_yai": {
 		"name": "Oni, Fire Yai",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2154,8 +2154,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"fire_yai": { "copyof": "oni,_fire_yai" },
-	"oni,_ice_yai": {
+	"fire_yai": { "copyof": "oni_fire_yai" },
+	"oni_ice_yai": {
 		"name": "Oni, Ice Yai",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2221,8 +2221,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"ice_yai": { "copyof": "oni,_ice_yai" },
-	"oni,_ja_noi": {
+	"ice_yai": { "copyof": "oni_ice_yai" },
+	"oni_ja_noi": {
 		"name": "Oni, Ja Noi",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
@@ -2301,8 +2301,8 @@
 			"In extremely rare cases, when they have no campaigns to wage and no humanoid enemies to battle, ja noi simply disappear into the wilderness to fight the mightiest creatures they can find. Laying waste to big game such as bulettes and owlbears can distract a ja noi between large-scale battles, but it doesn't take long before the natural warrior quickly feels the lust for battle surge within it once again. Given too much time between skirmishes, a ja noi might turn its violent attention toward its followers, slaughtering entire hobgoblin tribes out of frustration and madness. Canny hobgoblins in service to a bloodthirsty ja noi are wise to find opposing groups for the oni to battle, that the resulting conflict might temporarily sate the ja noi's incessant desire for war."
 		]
 	},
-	"ja_noi": { "copyof": "oni,_ja_noi" },
-	"oni,_kigyo": {
+	"ja_noi": { "copyof": "oni_ja_noi" },
+	"oni_kigyo": {
 		"name": "Oni, Kigyo",
 		"sources": [
 			"Pathfinder #124: City in the Deep",
@@ -2382,8 +2382,8 @@
 			"Like all oni, kigyos are filled with hatred, especially for their uncorrupted kami counterparts. Kigyos see [suijins](monster/suijin) in particular as contemptible, and they are known to form elaborate hunting parties to seek out the benevolent nature spirits and destroy them and the untainted waters they protect. These raiding bands constitute the few large groups of kigyos on Golarion, and they can present deadly threats to those who encounter them, be they kami or other creatures. The oni fight tactically in tandem, half of the kigyos using their grasping eddy abilities to hold their foes in place while the other half surround and stab at them with their tridents. Even when encountered alone, a kigyo presents a formidable challenge to even the most adept underwater fighters, as it can hold an entire party in one of its powerful whirlpools, reducing its foes' ability to conduct their own group fighting tactics."
 		]
 	},
-	"kigyo": { "copyof": "oni,_kigyo" },
-	"oni,_kuwa": {
+	"kigyo": { "copyof": "oni_kigyo" },
+	"oni_kuwa": {
 		"name": "Oni, Kuwa",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2440,8 +2440,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"kuwa": { "copyof": "oni,_kuwa" },
-	"oni,_najikai": {
+	"kuwa": { "copyof": "oni_kuwa" },
+	"oni_najikai": {
 		"name": "Oni, Najikai",
 		"sources": [
 			"Book of the Damned",
@@ -2509,8 +2509,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"najikai": { "copyof": "oni,_najikai" },
-	"oni,_nogitsune": {
+	"najikai": { "copyof": "oni_najikai" },
+	"oni_nogitsune": {
 		"name": "Oni, Nogitsune",
 		"sources": [
 			"Pathfinder #50: Night of Frozen Shadows",
@@ -2592,8 +2592,8 @@
 			"Nogitsune prefer to lead solitary lives and be in command of their own foul fates. Thus, most avoid associating with more powerful creatures, other oni, or even other nogitsune. Those honorable samurai and good ninja who have fought and killed nogitsune recount seeing a conflicted and turbulent anger within the creatures, as if the once-righteous kitsune within a nogitsune constantly battles to reassert control. Although there is no record of such a reversal occurring, many believe that these malevolent oni drown themselves in death and bloodshed in order to extinguish the last vestiges of the creatures they were before."
 		]
 	},
-	"nogitsune": { "copyof": "oni,_nogitsune" },
-	"oni,_ogre_mage": {
+	"nogitsune": { "copyof": "oni_nogitsune" },
+	"oni_ogre_mage": {
 		"name": "Oni, Ogre Mage",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -2651,8 +2651,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"ogre_mage": { "copyof": "oni,_ogre_mage" },
-	"oni,_spirit_oni": {
+	"ogre_mage": { "copyof": "oni_ogre_mage" },
+	"oni_spirit_oni": {
 		"name": "Oni, Spirit Oni",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2718,8 +2718,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"spirit_oni": { "copyof": "oni,_spirit_oni" },
-	"oni,_void_yai": {
+	"spirit_oni": { "copyof": "oni_spirit_oni" },
+	"oni_void_yai": {
 		"name": "Oni, Void Yai",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2800,8 +2800,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"void_yai": { "copyof": "oni,_void_yai" },
-	"oni,_water_yai": {
+	"void_yai": { "copyof": "oni_void_yai" },
+	"oni_water_yai": {
 		"name": "Oni, Water Yai",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2864,8 +2864,8 @@
 			"**Family:** [Oni](family/oni)"
 		]
 	},
-	"water_yai": { "copyof": "oni,_water_yai" },
-	"oni,_wind_yai": {
+	"water_yai": { "copyof": "oni_water_yai" },
+	"oni_wind_yai": {
 		"name": "Oni, Wind Yai",
 		"sources": [
 			"Pathfinder #54: The Empty Throne",
@@ -2945,8 +2945,8 @@
 			"Wind yai also take great pleasure in dominating cloud giants, perhaps even more so than bards, as they revere cloud giants' heavenly melodies above all others. Rather than apprehend these giants one by one, however, wind yai seek to dominate entire tribes of such beings, using their powers over the skies to trick particularly superstitious groups into thinking the oni are earthbound demigods or celestial messengers sent from on high. Groups of wind yai can be an even fiercer force, gathering entire legions of cloud giants under their command and leading them in aerial campaigns against helpless creatures on land. Evil cloud giants tend to make the best soldiers for wind yai leaders, though if the oni can manage to sway good-aligned cloud giants under their banner, the subsequent wars they wage are all the more satisfying."
 		]
 	},
-	"wind_yai": { "copyof": "oni,_wind_yai" },
-	"oni,_yamabushi_tengu": {
+	"wind_yai": { "copyof": "oni_wind_yai" },
+	"oni_yamabushi_tengu": {
 		"name": "Oni, Yamabushi Tengu",
 		"sources": [
 			"Pathfinder #49: The Brinewall Legacy",
@@ -3026,7 +3026,7 @@
 			"Most yamabushi tengus, though, find greatest comfort dwelling among thieves' guilds-particularly among those populated by tengus, in which case a yamabushi tengu appears in its natural form, using its wings as an obvious badge of superiority over its flightless tengu kin. Among thieves of other races (such as humans), a yamabushi tengu prefers to stay in its humanoid form. However, when a yamabushi tengu assumes the form of anything other than a tengu, its true nature is difficult for it to hide, for invariably the shapechanged oni's nose remains quite prodigious, usually to an almost comical degree. Strangely enough, however, yamabushi tengus generally don't think of their unusual noses as flaws in their magical disguises. A yamabushi tengu can also retain its wings when using its change shape ability, and these pinions, as well as its beaklike nose, are a sure way to tell a disguised yamabushi tengu apart from others."
 		]
 	},
-	"yamabushi_tengu": { "copyof": "oni,_yamabushi_tengu" },
+	"yamabushi_tengu": { "copyof": "oni_yamabushi_tengu" },
 	"onkushu": {
 		"name": "Onkushu",
 		"sources": [ "Planes of Power" ],
@@ -3427,7 +3427,7 @@
 			"An adult male orc is roughly 6 feet tall and 210 pounds. Orcs and humans interbreed frequently, though this is almost always the result of raids and slave-taking rather than consensual unions. Many orc tribes purposefully breed for half-orcs and raise them as their own, as the smarter progeny make excellent strategists and leaders for their tribes."
 		]
 	},
-	"orc,_gorthek": {
+	"orc_gorthek": {
 		"name": "Orc, Gorthek",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3484,8 +3484,8 @@
 			"An orc who takes the Beast Rider feat can choose a gorthek as an animal companion or mount."
 		]
 	},
-	"gorthek": { "copyof": "orc,_gorthek" },
-	"orc,_gorthek_rider": {
+	"gorthek": { "copyof": "orc_gorthek" },
+	"orc_gorthek_rider": {
 		"name": "Orc, Gorthek Rider",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3533,8 +3533,8 @@
 			"Any orc warband needs skilled members such as scouts or gorthek riders to make first contact with the enemy."
 		]
 	},
-	"gorthek_rider": { "copyof": "orc,_gorthek_rider" },
-	"orc,_orc_chieftain": {
+	"gorthek_rider": { "copyof": "orc_gorthek_rider" },
+	"orc_orc_chieftain": {
 		"name": "Orc, Orc Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3582,8 +3582,8 @@
 			"Leadership of an orc tribe or horde falls not to the smartest or most canny, but to the strongest."
 		]
 	},
-	"orc_chieftain": { "copyof": "orc,_orc_chieftain" },
-	"orc,_orc_lieutenant": {
+	"orc_chieftain": { "copyof": "orc_orc_chieftain" },
+	"orc_orc_lieutenant": {
 		"name": "Orc, Orc Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3631,8 +3631,8 @@
 			"The leaders of small orc warbands aren't much smarter or more cunning than the rank-and-file orc warriors they lead-but just a small advantage in strength is enough to let them take the best shares of treasure and slaves and lord their dominance over their fellow orcs. Orc commanders enforce discipline through intimidation and are not afraid to lead underlings to their deaths."
 		]
 	},
-	"orc_lieutenant": { "copyof": "orc,_orc_lieutenant" },
-	"orc,_orc_mystic": {
+	"orc_lieutenant": { "copyof": "orc_orc_lieutenant" },
+	"orc_orc_mystic": {
 		"name": "Orc, Orc Mystic",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3696,8 +3696,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"orc_mystic": { "copyof": "orc,_orc_mystic" },
-	"orc,_orc_scout": {
+	"orc_mystic": { "copyof": "orc_orc_mystic" },
+	"orc_orc_scout": {
 		"name": "Orc, Orc Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3747,8 +3747,8 @@
 			"Any orc warband needs skilled members such as scouts or gorthek riders to make first contact with the enemy."
 		]
 	},
-	"orc_scout": { "copyof": "orc,_orc_scout" },
-	"orc,_orc_sergeant": {
+	"orc_scout": { "copyof": "orc_orc_scout" },
+	"orc_orc_sergeant": {
 		"name": "Orc, Orc Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3800,8 +3800,8 @@
 			"The leaders of small orc warbands aren't much smarter or more cunning than the rank-and-file orc warriors they lead-but just a small advantage in strength is enough to let them take the best shares of treasure and slaves and lord their dominance over their fellow orcs. Orc commanders enforce discipline through intimidation and are not afraid to lead underlings to their deaths."
 		]
 	},
-	"orc_sergeant": { "copyof": "orc,_orc_sergeant" },
-	"orc,_orc_thug": {
+	"orc_sergeant": { "copyof": "orc_orc_sergeant" },
+	"orc_orc_thug": {
 		"name": "Orc, Orc Thug",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3849,8 +3849,8 @@
 			"The rare clever or artistic orcs may use their skills to bolster comrades-or to better compete with brutish tribemates."
 		]
 	},
-	"orc_thug": { "copyof": "orc,_orc_thug" },
-	"orc,_orc_war_drummer": {
+	"orc_thug": { "copyof": "orc_orc_thug" },
+	"orc_orc_war_drummer": {
 		"name": "Orc, Orc War Drummer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3898,8 +3898,8 @@
 			"The rare clever or artistic orcs may use their skills to bolster comrades-or to better compete with brutish tribemates."
 		]
 	},
-	"orc_war_drummer": { "copyof": "orc,_orc_war_drummer" },
-	"orc,_orc_warlord": {
+	"orc_war_drummer": { "copyof": "orc_orc_war_drummer" },
+	"orc_orc_warlord": {
 		"name": "Orc, Orc Warlord",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3951,8 +3951,8 @@
 			"Leadership of an orc tribe or horde falls not to the smartest or most canny, but to the strongest."
 		]
 	},
-	"orc_warlord": { "copyof": "orc,_orc_warlord" },
-	"orc,_orc_witch_doctor": {
+	"orc_warlord": { "copyof": "orc_orc_warlord" },
+	"orc_orc_witch_doctor": {
 		"name": "Orc, Orc Witch Doctor",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4017,7 +4017,7 @@
 			"Because most orc tribes hold divine magic in high regard, many witch doctors learn to practice a small amount of divine magic in addition to their arcane magic-or at least pretend their spells come from the gods. Feuds between mystics and witch doctors create conflict within many tribes, and most orcs side with the mystics. Often, these feuds turn into duels for supremacy."
 		]
 	},
-	"orc_witch_doctor": { "copyof": "orc,_orc_witch_doctor" },
+	"orc_witch_doctor": { "copyof": "orc_orc_witch_doctor" },
 	"oread": {
 		"name": "Oread",
 		"sources": [ "Bestiary 2" ],
@@ -4209,7 +4209,7 @@
 			"Most orshevals stand about 4 feet tall and weigh about 700 pounds."
 		]
 	},
-	"ossumental,_ossumental_air": {
+	"ossumental_ossumental_air": {
 		"name": "Ossumental, Ossumental (Air)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -4269,9 +4269,9 @@
 			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
-	"ossumental_air": { "copyof": "ossumental,_ossumental_air" },
-	"air_ossumental": { "copyof": "ossumental,_ossumental_air" },
-	"ossumental,_ossumental_earth": {
+	"ossumental_air": { "copyof": "ossumental_ossumental_air" },
+	"air_ossumental": { "copyof": "ossumental_ossumental_air" },
+	"ossumental_ossumental_earth": {
 		"name": "Ossumental, Ossumental (Earth)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -4333,9 +4333,9 @@
 			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
-	"ossumental_earth": { "copyof": "ossumental,_ossumental_earth" },
-	"earth_ossumental": { "copyof": "ossumental,_ossumental_earth" },
-	"ossumental,_ossumental_fire": {
+	"ossumental_earth": { "copyof": "ossumental_ossumental_earth" },
+	"earth_ossumental": { "copyof": "ossumental_ossumental_earth" },
+	"ossumental_ossumental_fire": {
 		"name": "Ossumental, Ossumental (Fire)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -4398,9 +4398,9 @@
 			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
-	"ossumental_fire": { "copyof": "ossumental,_ossumental_fire" },
-	"fire_ossumental": { "copyof": "ossumental,_ossumental_fire" },
-	"ossumental,_ossumental_water": {
+	"ossumental_fire": { "copyof": "ossumental_ossumental_fire" },
+	"fire_ossumental": { "copyof": "ossumental_ossumental_fire" },
+	"ossumental_ossumental_water": {
 		"name": "Ossumental, Ossumental (Water)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -4460,8 +4460,8 @@
 			"**Family:** [Ossumental](family/ossumental)"
 		]
 	},
-	"ossumental_water": { "copyof": "ossumental,_ossumental_water" },
-	"water_ossumental": { "copyof": "ossumental,_ossumental_water" },
+	"ossumental_water": { "copyof": "ossumental_ossumental_water" },
+	"water_ossumental": { "copyof": "ossumental_ossumental_water" },
 	"ostovite": {
 		"name": "Ostovite",
 		"sources": [ "Bestiary 5" ],
@@ -4528,7 +4528,7 @@
 			"",
 			"### Ostrich, CR 1",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 400  ",
 			"N Medium animal  ",
 			"**Init** +2; **Senses** low-light vision; Perception +8",
@@ -4773,7 +4773,7 @@
 			"Though most of an owb's form measures only 3-1/2 feet tall, it typically floats so its head is level with that of a Medium humanoid. Deceptively light, an owb weighs only 20 pounds."
 		]
 	},
-	"owb,_owb_prophet": {
+	"owb_owb_prophet": {
 		"name": "Owb, Owb Prophet",
 		"sources": [ "Cradle of Night" ],
 		"description": [
@@ -4859,8 +4859,8 @@
 			"**Thalaphyrr Martyr-Minder (LE Forsaken of failed heroics, imprisonment, and squandered time):** Thalaphyrr guarded the prisons where the Forsaken kept their would-be usurpers and destroyers. Creatures within 30 feet of Thalaphyrr's owb prophets cannot benefit from morale bonuses. In addition, his owb prophets can use [slow](spell/slow) at will as a spell-like ability. Thalaphyrr's symbol is a pair of hands grasping a set of prison bars, and his favored weapon is the spear."
 		]
 	},
-	"owb_prophet": { "copyof": "owb,_owb_prophet" },
-	"owl,_giant_owl": {
+	"owb_prophet": { "copyof": "owb_owb_prophet" },
+	"owl_giant_owl": {
 		"name": "Owl, Giant Owl",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4915,8 +4915,8 @@
 			"The noble giant owl roosts in the tallest trees or in high caves near its forest home. No mere animals, giant owls pride themselves as intellectuals and keen judges of character. Little passes a giant owl's notice in its home forest. What it doesn't observe directly, it learns from its wide network of animal informants. Giant owls view themselves more as watchers than participants, rarely interfering in the affairs of others barring a threat to their homes. Giant owls stand 18 feet tall and have 30-foot wingspans, yet they rarely weigh over 600 pounds."
 		]
 	},
-	"giant_owl": { "copyof": "owl,_giant_owl" },
-	"owl,_great_horned_owl": {
+	"giant_owl": { "copyof": "owl_giant_owl" },
+	"owl_great_horned_owl": {
 		"name": "Owl, Great Horned Owl",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4962,7 +4962,7 @@
 			"Great horned owls primarily hunt at night, locating prey through their excellent hearing. Their diet consists of rodents supplemented by smaller birds and rabbits."
 		]
 	},
-	"great_horned_owl": { "copyof": "owl,_great_horned_owl" },
+	"great_horned_owl": { "copyof": "owl_great_horned_owl" },
 	"owlbear": {
 		"name": "Owlbear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -6137,7 +6137,7 @@
 			"A peuchen measures around 12 feet long and 1 foot in diameter at its thickest point, with a wingspan of 8 feet; it weighs nearly 250 pounds."
 		]
 	},
-	"phantom_armor,_giant_phantom_armor": {
+	"phantom_armor_giant_phantom_armor": {
 		"name": "Phantom Armor, Giant Phantom Armor",
 		"sources": [
 			"Bestiary 4",
@@ -6194,8 +6194,8 @@
 			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
-	"giant_phantom_armor": { "copyof": "phantom_armor,_giant_phantom_armor" },
-	"phantom_armor,_guardian_phantom_armor": {
+	"giant_phantom_armor": { "copyof": "phantom_armor_giant_phantom_armor" },
+	"phantom_armor_guardian_phantom_armor": {
 		"name": "Phantom Armor, Guardian Phantom Armor",
 		"sources": [
 			"Bestiary 4",
@@ -6251,8 +6251,8 @@
 			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
-	"guardian_phantom_armor": { "copyof": "phantom_armor,_guardian_phantom_armor" },
-	"phantom_armor,_hollow_helm": {
+	"guardian_phantom_armor": { "copyof": "phantom_armor_guardian_phantom_armor" },
+	"phantom_armor_hollow_helm": {
 		"name": "Phantom Armor, Hollow Helm",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
@@ -6316,8 +6316,8 @@
 			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
-	"hollow_helm": { "copyof": "phantom_armor,_hollow_helm" },
-	"phantom_armor,_phantom_lancer": {
+	"hollow_helm": { "copyof": "phantom_armor_hollow_helm" },
+	"phantom_armor_phantom_lancer": {
 		"name": "Phantom Armor, Phantom Lancer",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
@@ -6379,7 +6379,7 @@
 			"**Family:** [Phantom Armor](family/phantom_armor)"
 		]
 	},
-	"phantom_lancer": { "copyof": "phantom_armor,_phantom_lancer" },
+	"phantom_lancer": { "copyof": "phantom_armor_phantom_lancer" },
 	"phantom_fungus": {
 		"name": "Phantom Fungus",
 		"sources": [ "Bestiary 3" ],
@@ -6450,7 +6450,7 @@
 			"",
 			"### Pharaonic Guardian, CR 11",
 			"",
-			"**Source** [Bestiary 5 pg. 191](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 60](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Bestiary 5 pg. 191](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 60](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 12,800  ",
 			"LE Large undead (incorporeal)  ",
 			"**Init** +7; **Senses** darkvision 60 ft.; Perception +21",

@@ -314,7 +314,7 @@
 			"In addition to their constant frolicking, satyrs often act as guardians of the creatures in their forest homes, and any who manage to turn the satyr's lust to wrath are likely to find themselves facing down dangerous animals surrounding the faun. Still, while satyrs tend to value their own amusement well above the rights of others, they bear no ill will toward those they seduce. Children born from such encounters are always full-blooded satyrs, and are generally spirited away by their riotous kin soon after birth."
 		]
 	},
-	"satyr,_blackwood_satyr": {
+	"satyr_blackwood_satyr": {
 		"name": "Satyr, Blackwood Satyr",
 		"sources": [ "Fey Revisited" ],
 		"description": [
@@ -368,7 +368,7 @@
 			"Blackwood satyrs are an especially infamous breed of fey indigenous to the Verduran Forest, which straddles the borders of Andoran, Taldor, and Galt. They are well known throughout southeastern Avistan for exuding the pleasantly sweet aroma of blackwood tar, from which they gain their name. Though the human population surrounding the Verduran Forest seldom ventures deep into the fey wood for anything other than logging, the blackwood satyrs seem to take perverse pleasure in waylaying noble lords and ladies during their passage down the heavily traveled Sellen River, playing songs from the river's bank to lure vessels closer and enthrall all aboard."
 		]
 	},
-	"blackwood_satyr": { "copyof": "satyr,_blackwood_satyr" },
+	"blackwood_satyr": { "copyof": "satyr_blackwood_satyr" },
 	"saumen_kar": {
 		"name": "Saumen Kar",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
@@ -520,7 +520,7 @@
 			"",
 			"### Sawdust Slough, CR 4",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom pg. 59](source/andoran,_birthplace_of_freedom)  ",
+			"**Source** [Andoran, Birthplace of Freedom pg. 59](source/andoran_birthplace_of_freedom)  ",
 			"**XP** 1,200  ",
 			"N Large plant  ",
 			"**Init** -1; **Senses** low-light vision, tremorsense 60 ft.; Perception -5  ",
@@ -1090,7 +1090,7 @@
 			"An average scitalis is between 14 and 18 feet long and weighs approximately 2,500 pounds."
 		]
 	},
-	"scorpion,_black_scorpion": {
+	"scorpion_black_scorpion": {
 		"name": "Scorpion, Black Scorpion",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1142,8 +1142,8 @@
 			"The immense black scorpion is one of the largest desert predators. Capable of stinging with blinding speed, this creature is constantly on the hunt."
 		]
 	},
-	"black_scorpion": { "copyof": "scorpion,_black_scorpion" },
-	"scorpion,_cave_scorpion": {
+	"black_scorpion": { "copyof": "scorpion_black_scorpion" },
+	"scorpion_cave_scorpion": {
 		"name": "Scorpion, Cave Scorpion",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1192,8 +1192,8 @@
 			"The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers."
 		]
 	},
-	"cave_scorpion": { "copyof": "scorpion,_cave_scorpion" },
-	"scorpion,_deadfall_scorpion": {
+	"cave_scorpion": { "copyof": "scorpion_cave_scorpion" },
+	"scorpion_deadfall_scorpion": {
 		"name": "Scorpion, Deadfall Scorpion",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1246,8 +1246,8 @@
 			"The enormous deadfall scorpion is disturbingly stealthy for a creature of its size. So named for the creatures' habit of making their lairs amid the hollows created by deadfalls of old trees, deadfall scorpions adorn their already camouflaged carapaces with moss and old branches, then lie in wait to ambush prey when it draws near. They prefer to drag their prey back to their hidden deadfall lairs to eat, and thus incidental treasure can often be found within such a den. A deadfall scorpion is 24 feet long and weighs 10,000 pounds."
 		]
 	},
-	"deadfall_scorpion": { "copyof": "scorpion,_deadfall_scorpion" },
-	"scorpion,_ghost_scorpion": {
+	"deadfall_scorpion": { "copyof": "scorpion_deadfall_scorpion" },
+	"scorpion_ghost_scorpion": {
 		"name": "Scorpion, Ghost Scorpion",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1296,8 +1296,8 @@
 			"So named for their eerie, translucent carapaces, ghost scorpions are nocturnal desert hunters. A ghost scorpion's body is 3 feet long with a 3-foot long tail, and it weighs 45 pounds."
 		]
 	},
-	"ghost_scorpion": { "copyof": "scorpion,_ghost_scorpion" },
-	"scorpion,_giant_emperor_scorpion": {
+	"ghost_scorpion": { "copyof": "scorpion_ghost_scorpion" },
+	"scorpion_giant_emperor_scorpion": {
 		"name": "Scorpion, Giant Emperor Scorpion",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -1349,8 +1349,8 @@
 			"A giant emperor scorpion is an ambush predator, burying itself in soil or sand until prey approaches."
 		]
 	},
-	"giant_emperor_scorpion": { "copyof": "scorpion,_giant_emperor_scorpion" },
-	"scorpion,_giant_scorpion": {
+	"giant_emperor_scorpion": { "copyof": "scorpion_giant_emperor_scorpion" },
+	"scorpion_giant_scorpion": {
 		"name": "Scorpion, Giant Scorpion",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1421,8 +1421,8 @@
 			"| Black scorpion | 15 | Colossal | 22d8 |"
 		]
 	},
-	"giant_scorpion": { "copyof": "scorpion,_giant_scorpion" },
-	"scorpion,_greensting_scorpion": {
+	"giant_scorpion": { "copyof": "scorpion_giant_scorpion" },
+	"scorpion_greensting_scorpion": {
 		"name": "Scorpion, Greensting Scorpion",
 		"sources": [
 			"Bestiary 4",
@@ -1478,7 +1478,7 @@
 			"A greensting scorpion familiar grants a +4 bonus on Initiative checks so long as the familiar is within 1 mile of the spellcaster. A greensting scorpion familiar loses the mindless trait and has an Intelligence score appropriate for its master's level."
 		]
 	},
-	"greensting_scorpion": { "copyof": "scorpion,_greensting_scorpion" },
+	"greensting_scorpion": { "copyof": "scorpion_greensting_scorpion" },
 	"scrapshell": {
 		"name": "Scrapshell",
 		"sources": [ "Seers of the Drowned City" ],
@@ -2109,7 +2109,7 @@
 			"The average sea snake is 4 feet long from tail to head and weighs 10 pounds."
 		]
 	},
-	"sea_snake,_giant_sea_snake": {
+	"sea_snake_giant_sea_snake": {
 		"name": "Sea Snake, Giant Sea Snake",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
@@ -2162,8 +2162,8 @@
 			"Giant sea snakes typically reach up to 30 feet in length and weigh 500 pounds."
 		]
 	},
-	"giant_sea_snake": { "copyof": "sea_snake,_giant_sea_snake" },
-	"sea_urchin,_giant,_black_spot": {
+	"giant_sea_snake": { "copyof": "sea_snake_giant_sea_snake" },
+	"sea_urchin_giant_black_spot": {
 		"name": "Sea Urchin, Giant, Black Spot",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -2228,8 +2228,8 @@
 			"A black spot urchin is typically several feet in diameter, but is mostly made of its long spines and so weighs only a few pounds."
 		]
 	},
-	"black_spot": { "copyof": "sea_urchin,_giant,_black_spot" },
-	"sea_urchin,_giant,_glass_urchin": {
+	"black_spot": { "copyof": "sea_urchin_giant_black_spot" },
+	"sea_urchin_giant_glass_urchin": {
 		"name": "Sea Urchin, Giant, Glass Urchin",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
@@ -2300,8 +2300,8 @@
 			"Sea Urchin Venom: Spines-injury; save Fort 11; frequency 1/minute for 6 minutes; effect victim is sickened for 1 minute; cure 1 save."
 		]
 	},
-	"glass_urchin": { "copyof": "sea_urchin,_giant,_glass_urchin" },
-	"sea_urchin,_giant,_great_diadem_urchin": {
+	"glass_urchin": { "copyof": "sea_urchin_giant_glass_urchin" },
+	"sea_urchin_giant_great_diadem_urchin": {
 		"name": "Sea Urchin, Giant, Great Diadem Urchin",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -2355,8 +2355,8 @@
 			"Enormous and brilliantly colored diadem urchins are often sought after by terrestrial collectors or aquatic creatures seeking to simultaneously decorate and defend their throne rooms, yet such beasts are never truly trainable, and attack anyone who comes close."
 		]
 	},
-	"great_diadem_urchin": { "copyof": "sea_urchin,_giant,_great_diadem_urchin" },
-	"sea_urchin,_giant,_hunter_urchin": {
+	"great_diadem_urchin": { "copyof": "sea_urchin_giant_great_diadem_urchin" },
+	"sea_urchin_giant_hunter_urchin": {
 		"name": "Sea Urchin, Giant, Hunter Urchin",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -2430,8 +2430,8 @@
 			"Sea Urchin Venom: Spines-injury; save Fort 11; frequency 1/minute for 6 minutes; effect victim is sickened for 1 minute; cure 1 save."
 		]
 	},
-	"hunter_urchin": { "copyof": "sea_urchin,_giant,_hunter_urchin" },
-	"sea_urchin,_giant,_ravenous_urchin_swarm": {
+	"hunter_urchin": { "copyof": "sea_urchin_giant_hunter_urchin" },
+	"sea_urchin_giant_ravenous_urchin_swarm": {
 		"name": "Sea Urchin, Giant, Ravenous Urchin Swarm",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
@@ -2503,8 +2503,8 @@
 			"Sea Urchin Venom: Spines-injury; save Fort 11; frequency 1/minute for 6 minutes; effect victim is sickened for 1 minute; cure 1 save."
 		]
 	},
-	"ravenous_urchin_swarm": { "copyof": "sea_urchin,_giant,_ravenous_urchin_swarm" },
-	"sea_urchin,_giant,_spear_urchin": {
+	"ravenous_urchin_swarm": { "copyof": "sea_urchin_giant_ravenous_urchin_swarm" },
+	"sea_urchin_giant_spear_urchin": {
 		"name": "Sea Urchin, Giant, Spear Urchin",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -2579,8 +2579,8 @@
 			"Sea Urchin Venom: Spines-injury; save Fort 11; frequency 1/minute for 6 minutes; effect victim is sickened for 1 minute; cure 1 save."
 		]
 	},
-	"spear_urchin": { "copyof": "sea_urchin,_giant,_spear_urchin" },
-	"sea_worm,_king_ragworm": {
+	"spear_urchin": { "copyof": "sea_urchin_giant_spear_urchin" },
+	"sea_worm_king_ragworm": {
 		"name": "Sea Worm, King Ragworm",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
@@ -2636,8 +2636,8 @@
 			"The giant king ragworm, found in the far depths of the ocean, is among the largest of the sea worms. It creates a slime-lined burrow in the ocean floor, where it resides most of the time."
 		]
 	},
-	"king_ragworm": { "copyof": "sea_worm,_king_ragworm" },
-	"seahorse,_giant_seahorse": {
+	"king_ragworm": { "copyof": "sea_worm_king_ragworm" },
+	"seahorse_giant_seahorse": {
 		"name": "Seahorse, Giant Seahorse",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2689,8 +2689,8 @@
 			"A giant seahorse is considered a quadruped for the purpose of carrying capacity. A light load for a giant seahorse is up to 500 pounds, a medium load is 1,000 pounds, and a heavy load is 1,600 pounds. It can drag 8,000 pounds."
 		]
 	},
-	"giant_seahorse": { "copyof": "seahorse,_giant_seahorse" },
-	"seahorse,_killer_seahorse": {
+	"giant_seahorse": { "copyof": "seahorse_giant_seahorse" },
+	"seahorse_killer_seahorse": {
 		"name": "Seahorse, Killer Seahorse",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -2741,7 +2741,7 @@
 			"A light load for a killer seahorse is up to 2,500 pounds, a medium load is 4,900 pounds, and a heavy load is 7,400 pounds. A killer seahorse can drag 36,800 pounds."
 		]
 	},
-	"killer_seahorse": { "copyof": "seahorse,_killer_seahorse" },
+	"killer_seahorse": { "copyof": "seahorse_killer_seahorse" },
 	"seaweed_siren": {
 		"name": "Seaweed Siren",
 		"sources": [
@@ -3072,7 +3072,7 @@
 			"An adult seps is 30 feet long and weighs 1,500 pounds."
 		]
 	},
-	"seps,_juvenile_seps": {
+	"seps_juvenile_seps": {
 		"name": "Seps, Juvenile Seps",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3116,7 +3116,7 @@
 			"Sepses are born live. A hatchling soon grows up to 7 feet long and weighs 10 pounds."
 		]
 	},
-	"juvenile_seps": { "copyof": "seps,_juvenile_seps" },
+	"juvenile_seps": { "copyof": "seps_juvenile_seps" },
 	"serpentfolk": {
 		"name": "Serpentfolk",
 		"sources": [
@@ -3193,7 +3193,7 @@
 			"- They have the following ability score modifiers: Str +10, Dex +2, Con +8, Int -6 (minimum 3), Wis +2, Cha -4. A typical degenerate serpentfolk's ability scores are Str 20, Dex 13, Con 19, Int 4, Wis 13, Cha 6."
 		]
 	},
-	"serpentfolk,_serpentfolk_bone_prophet": {
+	"serpentfolk_serpentfolk_bone_prophet": {
 		"name": "Serpentfolk, Serpentfolk Bone Prophet",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3255,8 +3255,8 @@
 			"The serpentfolk bone prophet uses its powers to control slaves and convert the dead into mindless minions. It constantly hears the otherworldly whispers of the skeletal head of its god and relays those cryptic words to its mage colleagues."
 		]
 	},
-	"serpentfolk_bone_prophet": { "copyof": "serpentfolk,_serpentfolk_bone_prophet" },
-	"serpentfolk,_serpentfolk_high_priest": {
+	"serpentfolk_bone_prophet": { "copyof": "serpentfolk_serpentfolk_bone_prophet" },
+	"serpentfolk_serpentfolk_high_priest": {
 		"name": "Serpentfolk, Serpentfolk High Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3325,8 +3325,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"serpentfolk_high_priest": { "copyof": "serpentfolk,_serpentfolk_high_priest" },
-	"serpentfolk,_serpentfolk_hunter": {
+	"serpentfolk_high_priest": { "copyof": "serpentfolk_serpentfolk_high_priest" },
+	"serpentfolk_serpentfolk_hunter": {
 		"name": "Serpentfolk, Serpentfolk Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3383,8 +3383,8 @@
 			"Despite the fact that the serpentfolk live underground, serpentfolk hunters usually train to work against a specific enemy rather than in a specific terrain. This allows them to do their job equally well when defending their cavern-cities against encroaching adventures as when making precise raids into aboveground communities. A single purecaste serpentfolk might have several different hunters working for him that all specialize in different favored enemies to maximize versatility, or he might have an entire squad trained as a unit from birth to fight a particular hated breed of surface-dwelling foe."
 		]
 	},
-	"serpentfolk_hunter": { "copyof": "serpentfolk,_serpentfolk_hunter" },
-	"serpentfolk,_serpentfolk_illusionist": {
+	"serpentfolk_hunter": { "copyof": "serpentfolk_serpentfolk_hunter" },
+	"serpentfolk_serpentfolk_illusionist": {
 		"name": "Serpentfolk, Serpentfolk Illusionist",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3447,8 +3447,8 @@
 			"A serpentfolk illusionist has greatly enhanced its racial gifts for deception with decades of intensive arcane study. On the surface world, it is often the leader of a group of serpentfolk or a cult of lesser reptilian humanoids."
 		]
 	},
-	"serpentfolk_illusionist": { "copyof": "serpentfolk,_serpentfolk_illusionist" },
-	"serpentfolk,_serpentfolk_reclaimer": {
+	"serpentfolk_illusionist": { "copyof": "serpentfolk_serpentfolk_illusionist" },
+	"serpentfolk_serpentfolk_reclaimer": {
 		"name": "Serpentfolk, Serpentfolk Reclaimer",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -3512,8 +3512,8 @@
 			"Serpentfolk reclaimers stand 6 feet tall and weigh 120 pounds."
 		]
 	},
-	"serpentfolk_reclaimer": { "copyof": "serpentfolk,_serpentfolk_reclaimer" },
-	"serpentfolk,_serpentfolk_spellblade": {
+	"serpentfolk_reclaimer": { "copyof": "serpentfolk_serpentfolk_reclaimer" },
+	"serpentfolk_serpentfolk_spellblade": {
 		"name": "Serpentfolk, Serpentfolk Spellblade",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3577,8 +3577,8 @@
 			"Spellblades mix the brute power of degenerate serpentfolk with the skill and magic of purecastes. An enigma even among their own kind, spellblades are respected by all."
 		]
 	},
-	"serpentfolk_spellblade": { "copyof": "serpentfolk,_serpentfolk_spellblade" },
-	"serpentfolk,_serpentfolk_spy": {
+	"serpentfolk_spellblade": { "copyof": "serpentfolk_serpentfolk_spellblade" },
+	"serpentfolk_serpentfolk_spy": {
 		"name": "Serpentfolk, Serpentfolk Spy",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3636,7 +3636,7 @@
 			"A serpentfolk spy monitors activity in surface settlements, noting authority figures, defenses, and those who could be bribed or coerced into serving the serpentfolk empire. While most serpentfolk spies describe their professions in terms of analyzing weaknesses and preparing for the eventual large-scale assault on the surface world, the truth is that many spies (and their masters) have immediate goals in mind. Spies often stake out powerful priests and arcanists, posing as fellow scholars or simple servitors, in order to gain access to knowledge and arcane lore not readily available in their subterranean caverns. Given their long life spans and reptilian patience, these individuals may infiltrate an organization and stay implanted there for years, waiting for a choice artifact or tome to present itself. Once it does, the spy absconds with the relic and retreats back to the serpentfolk city of its paymasters-killing any warmbloods who stand in its way."
 		]
 	},
-	"serpentfolk_spy": { "copyof": "serpentfolk,_serpentfolk_spy" },
+	"serpentfolk_spy": { "copyof": "serpentfolk_serpentfolk_spy" },
 	"serpopard": {
 		"name": "Serpopard",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
@@ -3933,7 +3933,7 @@
 			"Seugathi are spawned by the hundreds by a single neothelid that has performed rituals to impregnate itself. As part of the strange process of being spawned in such rituals, the seugathi assimilates an extensive list of missions from its parent-once the seugathi completes these missions, it perishes. No single seugathi knows the purpose of these commands, but they trust that their neothelid masters have a reason for sending them on these diverse and usually cruel missions. A seugathi is 14 feet long and weighs 650 pounds."
 		]
 	},
-	"seugathi,_seugathi_savant": {
+	"seugathi_seugathi_savant": {
 		"name": "Seugathi, Seugathi Savant",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -3995,7 +3995,7 @@
 			"Worm-like monstrosities engorged on the thoughts of prophets and mystics, seugathi savants differ from their lesser kin in their immense size and their inherent talent for psychic magic. Like all seugathi, savants are driven by mental compulsions instilled by their neothelid masters. However, they perceive more of their masters' eons-spanning schemes than most other seugathi, and the neothelids grant them greater flexibility in achieving these goals. Seugathi savants dismiss ordinary seugathi as unworthy drones and largely ignore them, while seugathi revere savants as wiser, older siblings-much to the irritation of the savants. A seugathi savant measures 35 feet long and weighs 7,000 pounds."
 		]
 	},
-	"seugathi_savant": { "copyof": "seugathi,_seugathi_savant" },
+	"seugathi_savant": { "copyof": "seugathi_seugathi_savant" },
 	"sha": {
 		"name": "Sha",
 		"sources": [
@@ -4271,7 +4271,7 @@
 			"A typical shadow collector stands over 3 feet tall and weighs 40 pounds."
 		]
 	},
-	"shadow_creature,_shadow_roper": {
+	"shadow_creature_shadow_roper": {
 		"name": "Shadow Creature, Shadow Roper",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -4329,7 +4329,7 @@
 			"Shadow creatures on the Material Plane will produce offspring, giving rise to shadow creature enclaves in dark corners of the world. Stranger still, a burgeoning ecology of shadow creatures that forms a colony on the Material Plane seems to create a small blighted realm of shadow where they dwell. As such, areas grow more and more overcast. Shadows become unnaturally deeper, darker, and more cloying until the land itself seems to assume the landscape and terrain of the Shadow Plane. As part of this transformation process, one of the more intelligent shadow creatures in the area becomes a shadow lord-a dread agent of shadow that controls powerful shadow abilities and works to expand its alien domain."
 		]
 	},
-	"shadow_roper": { "copyof": "shadow_creature,_shadow_roper" },
+	"shadow_roper": { "copyof": "shadow_creature_shadow_roper" },
 	"shadow_fern": {
 		"name": "Shadow Fern",
 		"sources": [ "Nidal, Land of Shadows" ],
@@ -4340,7 +4340,7 @@
 			"",
 			"### Shadow Fern, CR 4",
 			"",
-			"**Source** [Nidal, Land of Shadows pg. 62](source/nidal,_land_of_shadows)  ",
+			"**Source** [Nidal, Land of Shadows pg. 62](source/nidal_land_of_shadows)  ",
 			"**XP** 1,200  ",
 			"N Medium plant  ",
 			"**Init** +1; **Senses** low-light vision, see in darkness; Perception +2",
@@ -4446,7 +4446,7 @@
 			"Larger shadow mastiffs exist-creatures the size of horses or even bigger. These creatures have different shapes, looking less like dogs and more like larger creatures such as lions, dinosaurs, or even dragons. Such creatures have additional racial Hit Dice, and could even have extra abilities such as flight or breath weapons."
 		]
 	},
-	"shadow,_greater_shadow": {
+	"shadow_greater_shadow": {
 		"name": "Shadow, Greater Shadow",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4496,7 +4496,7 @@
 			"Greater shadows are those undead shadows that have come to be particularly infused with negative energy, such as those that have spent vast lengths of time in areas of the Plane of Shadow awash in negative energy, or those that have drained the lives of thousands of victims. These undead monsters are often found with a small band of normal shadows, which typically treat a greater shadow as a leader to rally behind."
 		]
 	},
-	"greater_shadow": { "copyof": "shadow,_greater_shadow" },
+	"greater_shadow": { "copyof": "shadow_greater_shadow" },
 	"shadowgarm": {
 		"name": "Shadowgarm",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
@@ -4984,7 +4984,7 @@
 			"Great White Shark (CR 4): One of the most notorious maneaters of the sea, the truly immense great white shark is an advanced giant shark."
 		]
 	},
-	"shark,_angustiden": {
+	"shark_angustiden": {
 		"name": "Shark, Angustiden",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
@@ -5034,8 +5034,8 @@
 			"The angustiden is a gargantuan hunter of the deep sea. The size and ferocity of this behemoth are matched only by those of the megalodon, and it counts even the great white shark among its prey. Its foot-long, dense, and jagged teeth tear through anything they choose to clamp down on, and very few creatures manage to leave such an embrace with all of their body parts."
 		]
 	},
-	"angustiden": { "copyof": "shark,_angustiden" },
-	"shark,_bull_shark": {
+	"angustiden": { "copyof": "shark_angustiden" },
+	"shark_bull_shark": {
 		"name": "Shark, Bull Shark",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -5081,8 +5081,8 @@
 			"A bull shark is over 7 feet long and weighs roughly 250 pounds. Female bull sharks are slightly larger than males."
 		]
 	},
-	"bull_shark": { "copyof": "shark,_bull_shark" },
-	"shark,_dire_shark_megalodon": {
+	"bull_shark": { "copyof": "shark_bull_shark" },
+	"shark_dire_shark_megalodon": {
 		"name": "Shark, Dire Shark (Megalodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5128,9 +5128,9 @@
 			"The true nightmare of the sea is the megalodon, a shark that represents the pinnacle of this species' evolution. Horrifying in its immense size and ruinous appetite, the megalodon is certainly the beast behind many legends of enormous fish who swallow ships whole. A megalodon is 60 feet long and weighs 100,000 pounds."
 		]
 	},
-	"dire_shark_megalodon": { "copyof": "shark,_dire_shark_megalodon" },
-	"dire_shark": { "copyof": "shark,_dire_shark_megalodon" },
-	"shark,_great_white_shark": {
+	"dire_shark_megalodon": { "copyof": "shark_dire_shark_megalodon" },
+	"dire_shark": { "copyof": "shark_dire_shark_megalodon" },
+	"shark_great_white_shark": {
 		"name": "Shark, Great White Shark",
 		"sources": [
 			"Bestiary 4",
@@ -5183,8 +5183,8 @@
 			"An adult great white shark is 20 feet long and weighs 5,000 pounds."
 		]
 	},
-	"great_white_shark": { "copyof": "shark,_great_white_shark" },
-	"shark,_hammerhead_shark": {
+	"great_white_shark": { "copyof": "shark_great_white_shark" },
+	"shark_hammerhead_shark": {
 		"name": "Shark, Hammerhead Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
@@ -5229,8 +5229,8 @@
 			"Hammerheads' heads give them a wider field of vision and allow them to pin prey to the seafloor before devouring it."
 		]
 	},
-	"hammerhead_shark": { "copyof": "shark,_hammerhead_shark" },
-	"shark,_helicoprion": {
+	"hammerhead_shark": { "copyof": "shark_hammerhead_shark" },
+	"shark_helicoprion": {
 		"name": "Shark, Helicoprion",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
@@ -5280,8 +5280,8 @@
 			"The helicoprion is a bizarre beast to behold. The remarkable physiology of its mouth allows it to flick out its bottom jaw, unrolling the whorl of teeth and snaring prey along its length. As its powerful muscles roll its jaw, the prey becomes trapped in a spiral of ragged, brutal incisors. Once it has captured a hearty meal, the helicoprion retreats in a thickening cloud of its victim's blood to patiently await the slowing of struggles and the imminent demise of its dinner."
 		]
 	},
-	"helicoprion": { "copyof": "shark,_helicoprion" },
-	"shark,_jigsaw_shark": {
+	"helicoprion": { "copyof": "shark_helicoprion" },
+	"shark_jigsaw_shark": {
 		"name": "Shark, Jigsaw Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
@@ -5326,7 +5326,7 @@
 			"The fact that these sharks dwell in shallow coastal waters places them in direct contact with those making a living from the sea. It's not uncommon to hear stories of jigsaw sharks leaping from the water and taking out dockworkers or fishermen in small boats. Their patchwork coloration of browns and blue-grays partly inspires their name."
 		]
 	},
-	"jigsaw_shark": { "copyof": "shark,_jigsaw_shark" },
+	"jigsaw_shark": { "copyof": "shark_jigsaw_shark" },
 	"shasalqu": {
 		"name": "Shasalqu",
 		"sources": [
@@ -5796,7 +5796,7 @@
 			"Bottled Shipyard CR 7 XP 3,600 LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks) Caster Level 10th Notice Perception DC 20 (to spot ethereal crew) hp 31; Weakness tricked by Diplomacy; Trigger proximity; Reset 1 day Effect The haunt settles in areas with enough ships in bottles to animate a small fleet. When the area of a bottled shipyard is entered, the haunt animates a ship in a bottle (using the stats on the facing page) each round for as many rounds as there are ships in bottles to animate (usually 1d6+1). Although any ship in a bottle that the haunt animates can be attacked and destroyed as a creature, only positive energy used against the constructs damages the haunt. Destruction A model ship animated by the haunt but not destroyed must be caught, brought to a large body of water, and released to sail the seas."
 		]
 	},
-	"ship_in_a_bottle,_bottled_armada": {
+	"ship_in_a_bottle_bottled_armada": {
 		"name": "Ship in a Bottle, Bottled Armada",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
@@ -5880,7 +5880,7 @@
 			"Bottled Shipyard CR 7 XP 3,600 LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks) Caster Level 10th Notice Perception DC 20 (to spot ethereal crew) hp 31; Weakness tricked by Diplomacy; Trigger proximity; Reset 1 day Effect The haunt settles in areas with enough ships in bottles to animate a small fleet. When the area of a bottled shipyard is entered, the haunt animates a ship in a bottle (using the stats on the facing page) each round for as many rounds as there are ships in bottles to animate (usually 1d6+1). Although any ship in a bottle that the haunt animates can be attacked and destroyed as a creature, only positive energy used against the constructs damages the haunt. Destruction A model ship animated by the haunt but not destroyed must be caught, brought to a large body of water, and released to sail the seas."
 		]
 	},
-	"bottled_armada": { "copyof": "ship_in_a_bottle,_bottled_armada" },
+	"bottled_armada": { "copyof": "ship_in_a_bottle_bottled_armada" },
 	"ship_sentinel": {
 		"name": "Ship Sentinel",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -6058,7 +6058,7 @@
 			"",
 			"### Shissah, CR 4",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 63](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 63](source/qadira_jewel_of_the_east)  ",
 			"**XP** 1,200  ",
 			"N Large animal  ",
 			"**Init** +5; **Senses** desert senses, low-light vision, scent; Perception +8 (+12 in deserts)",
@@ -6421,7 +6421,7 @@
 			"",
 			"### Shriezyx, CR 4",
 			"",
-			"**Source** [Bestiary 4 pg. 244](source/bestiary_4), [Dungeons of Golarion pg. 31](source/dungeons_of_golarion), [Magnimar, City of Monuments pg. 60](source/magnimar,_city_of_monuments)  ",
+			"**Source** [Bestiary 4 pg. 244](source/bestiary_4), [Dungeons of Golarion pg. 31](source/dungeons_of_golarion), [Magnimar, City of Monuments pg. 60](source/magnimar_city_of_monuments)  ",
 			"**XP** 1,200  ",
 			"CE Medium aberration  ",
 			"**Init** +7; **Senses** darkvision 60 ft., tremorsense 60 ft.; Perception +12",
@@ -6471,7 +6471,7 @@
 			"Shriezyx can reproduce with their own kind or lay unfertilized eggs that hatch into identical copies of their parent. Eggs remain viable for years, hatching after exposure to water, fresh air, or consistent warmth. A typical shriezyx is 3 feet tall and weighs 300 pounds."
 		]
 	},
-	"shriezyx,_shriezyx_queen": {
+	"shriezyx_shriezyx_queen": {
 		"name": "Shriezyx, Shriezyx Queen",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
@@ -6551,7 +6551,7 @@
 			"A queen that does interact with members of another species-whether they're allies of fallen Bakrakhan (normally demons, giants, or [sinspawn](monster/sinspawn)) or members of modern societies now living in or near the shriezyx's ruined lair-is likely to be quite verbose. After centuries of loneliness, most queens are overwhelmed by the idea of conversing with an intellectual equal, and they see such opportunities as a rare chances to implement long-delayed plans. Humanoids often find such conversations off-putting, both because the shriezyx are such horrific works of arcane mutation and because few adventurers would ever expect to encounter chatty monstrosities when exploring millennia-old ruins."
 		]
 	},
-	"shriezyx_queen": { "copyof": "shriezyx,_shriezyx_queen" },
+	"shriezyx_queen": { "copyof": "shriezyx_shriezyx_queen" },
 	"shrike_worm": {
 		"name": "Shrike Worm",
 		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
@@ -6765,7 +6765,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"siktempora,_misery_siktempora": {
+	"siktempora_misery_siktempora": {
 		"name": "Siktempora, Misery Siktempora",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"description": [
@@ -6853,7 +6853,7 @@
 			"Other types of siktemporas exist, but they are rare outside of the depths of the Dimension of Time and are almost always encountered when obscure spells or ancient rituals conjure them to other planes."
 		]
 	},
-	"misery_siktempora": { "copyof": "siktempora,_misery_siktempora" },
+	"misery_siktempora": { "copyof": "siktempora_misery_siktempora" },
 	"waldgeist": {
 		"name": "Waldgeist",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],

@@ -245,7 +245,7 @@
 			"A dragonne measures between 10 and 12 feet long and weighs up to 1,200 pounds."
 		]
 	},
-	"drake,_desert_drake": {
+	"drake_desert_drake": {
 		"name": "Drake, Desert Drake",
 		"sources": [
 			"Bestiary 3",
@@ -311,8 +311,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"desert_drake": { "copyof": "drake,_desert_drake" },
-	"drake,_ether_drake": {
+	"desert_drake": { "copyof": "drake_desert_drake" },
+	"drake_ether_drake": {
 		"name": "Drake, Ether Drake",
 		"sources": [
 			"Bestiary 5",
@@ -378,8 +378,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"ether_drake": { "copyof": "drake,_ether_drake" },
-	"drake,_flame_drake": {
+	"ether_drake": { "copyof": "drake_ether_drake" },
+	"drake_flame_drake": {
 		"name": "Drake, Flame Drake",
 		"sources": [
 			"Bestiary 2",
@@ -443,8 +443,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"flame_drake": { "copyof": "drake,_flame_drake" },
-	"drake,_forest_drake": {
+	"flame_drake": { "copyof": "drake_flame_drake" },
+	"drake_forest_drake": {
 		"name": "Drake, Forest Drake",
 		"sources": [
 			"Bestiary 2",
@@ -512,8 +512,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"forest_drake": { "copyof": "drake,_forest_drake" },
-	"drake,_frost_drake": {
+	"forest_drake": { "copyof": "drake_forest_drake" },
+	"drake_frost_drake": {
 		"name": "Drake, Frost Drake",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -577,8 +577,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"frost_drake": { "copyof": "drake,_frost_drake" },
-	"drake,_jungle_drake": {
+	"frost_drake": { "copyof": "drake_frost_drake" },
+	"drake_jungle_drake": {
 		"name": "Drake, Jungle Drake",
 		"sources": [
 			"Bestiary 5",
@@ -646,8 +646,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"jungle_drake": { "copyof": "drake,_jungle_drake" },
-	"drake,_lava_drake": {
+	"jungle_drake": { "copyof": "drake_jungle_drake" },
+	"drake_lava_drake": {
 		"name": "Drake, Lava Drake",
 		"sources": [
 			"Bestiary 4",
@@ -712,8 +712,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"lava_drake": { "copyof": "drake,_lava_drake" },
-	"drake,_mist_drake": {
+	"lava_drake": { "copyof": "drake_lava_drake" },
+	"drake_mist_drake": {
 		"name": "Drake, Mist Drake",
 		"sources": [
 			"Bestiary 4",
@@ -781,8 +781,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"mist_drake": { "copyof": "drake,_mist_drake" },
-	"drake,_rift_drake": {
+	"mist_drake": { "copyof": "drake_mist_drake" },
+	"drake_rift_drake": {
 		"name": "Drake, Rift Drake",
 		"sources": [
 			"Bestiary 3",
@@ -848,8 +848,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"rift_drake": { "copyof": "drake,_rift_drake" },
-	"drake,_river_drake": {
+	"rift_drake": { "copyof": "drake_rift_drake" },
+	"drake_river_drake": {
 		"name": "Drake, River Drake",
 		"sources": [
 			"Bestiary 3",
@@ -916,8 +916,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"river_drake": { "copyof": "drake,_river_drake" },
-	"drake,_sea_drake": {
+	"river_drake": { "copyof": "drake_river_drake" },
+	"drake_sea_drake": {
 		"name": "Drake, Sea Drake",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -980,8 +980,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"sea_drake": { "copyof": "drake,_sea_drake" },
-	"drake,_shadow_drake": {
+	"sea_drake": { "copyof": "drake_sea_drake" },
+	"drake_shadow_drake": {
 		"name": "Drake, Shadow Drake",
 		"sources": [
 			"Bestiary 4",
@@ -1048,8 +1048,8 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"shadow_drake": { "copyof": "drake,_shadow_drake" },
-	"drake,_spire_drake": {
+	"shadow_drake": { "copyof": "drake_shadow_drake" },
+	"drake_spire_drake": {
 		"name": "Drake, Spire Drake",
 		"sources": [
 			"Bestiary 4",
@@ -1117,7 +1117,7 @@
 			"**Family:** [Drake](family/drake)"
 		]
 	},
-	"spire_drake": { "copyof": "drake,_spire_drake" },
+	"spire_drake": { "copyof": "drake_spire_drake" },
 	"draugr": {
 		"name": "Draugr",
 		"sources": [ "Bestiary 2" ],
@@ -1440,7 +1440,7 @@
 			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape."
 		]
 	},
-	"drow,_drow_demonic_champion": {
+	"drow_drow_demonic_champion": {
 		"name": "Drow, Drow Demonic Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1504,8 +1504,8 @@
 			"A demonic champion has been tested by the powers of the Abyss and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil-something she is happy to prove. Demonic champions enjoy many creature comforts within drow society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle."
 		]
 	},
-	"drow_demonic_champion": { "copyof": "drow,_drow_demonic_champion" },
-	"drow,_drow_house_captain": {
+	"drow_demonic_champion": { "copyof": "drow_drow_demonic_champion" },
+	"drow_drow_house_captain": {
 		"name": "Drow, Drow House Captain",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1557,8 +1557,8 @@
 			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
 		]
 	},
-	"drow_house_captain": { "copyof": "drow,_drow_house_captain" },
-	"drow,_drow_house_guard": {
+	"drow_house_captain": { "copyof": "drow_drow_house_captain" },
+	"drow_drow_house_guard": {
 		"name": "Drow, Drow House Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1613,8 +1613,8 @@
 			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
 		]
 	},
-	"drow_house_guard": { "copyof": "drow,_drow_house_guard" },
-	"drow,_drow_master_scout": {
+	"drow_house_guard": { "copyof": "drow_drow_house_guard" },
+	"drow_drow_master_scout": {
 		"name": "Drow, Drow Master Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1670,8 +1670,8 @@
 			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
 		]
 	},
-	"drow_master_scout": { "copyof": "drow,_drow_master_scout" },
-	"drow,_drow_matron": {
+	"drow_master_scout": { "copyof": "drow_drow_master_scout" },
+	"drow_drow_matron": {
 		"name": "Drow, Drow Matron",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1740,8 +1740,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_matron": { "copyof": "drow,_drow_matron" },
-	"drow,_drow_noble": {
+	"drow_matron": { "copyof": "drow_drow_matron" },
+	"drow_drow_noble": {
 		"name": "Drow, Drow Noble",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1808,8 +1808,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_noble": { "copyof": "drow,_drow_noble" },
-	"drow,_drow_poisoner": {
+	"drow_noble": { "copyof": "drow_drow_noble" },
+	"drow_drow_poisoner": {
 		"name": "Drow, Drow Poisoner",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1871,8 +1871,8 @@
 			"This drow makes use of deadly venoms and alchemy."
 		]
 	},
-	"drow_poisoner": { "copyof": "drow,_drow_poisoner" },
-	"drow,_drow_priest": {
+	"drow_poisoner": { "copyof": "drow_drow_poisoner" },
+	"drow_drow_priest": {
 		"name": "Drow, Drow Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1941,8 +1941,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_priest": { "copyof": "drow,_drow_priest" },
-	"drow,_drow_scout": {
+	"drow_priest": { "copyof": "drow_drow_priest" },
+	"drow_drow_scout": {
 		"name": "Drow, Drow Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1994,7 +1994,7 @@
 			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
 		]
 	},
-	"drow_scout": { "copyof": "drow,_drow_scout" },
+	"drow_scout": { "copyof": "drow_drow_scout" },
 	"dryad": {
 		"name": "Dryad",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2117,7 +2117,7 @@
 			"In combat, duergar fire crossbows from a distance, then shift to the warhammer after a few rounds. If outnumbered, or given sufficient threat (and space), a duergar will use its enlarge person ability and begin lashing out at its enemies."
 		]
 	},
-	"duergar,_duergar_anvil": {
+	"duergar_duergar_anvil": {
 		"name": "Duergar, Duergar Anvil",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2165,8 +2165,8 @@
 			"Martial mystics expunge corruption from duergar society."
 		]
 	},
-	"duergar_anvil": { "copyof": "duergar,_duergar_anvil" },
-	"duergar,_duergar_bombardier": {
+	"duergar_anvil": { "copyof": "duergar_duergar_anvil" },
+	"duergar_duergar_bombardier": {
 		"name": "Duergar, Duergar Bombardier",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2226,8 +2226,8 @@
 			"Though the military and slavers are loath to employ these unpredictable duergar, bombardiers can be very effective when subtlety is not required. Though most bombardiers wouldn't hurt their own kind-the bonds of kin and law are too strong-they often inadvertently kill potential slaves instead of capturing them."
 		]
 	},
-	"duergar_bombardier": { "copyof": "duergar,_duergar_bombardier" },
-	"duergar,_duergar_captain": {
+	"duergar_bombardier": { "copyof": "duergar_duergar_bombardier" },
+	"duergar_duergar_captain": {
 		"name": "Duergar, Duergar Captain",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2277,8 +2277,8 @@
 			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
 		]
 	},
-	"duergar_captain": { "copyof": "duergar,_duergar_captain" },
-	"duergar,_duergar_hammer": {
+	"duergar_captain": { "copyof": "duergar_duergar_captain" },
+	"duergar_duergar_hammer": {
 		"name": "Duergar, Duergar Hammer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2328,8 +2328,8 @@
 			"Martial mystics expunge corruption from duergar society."
 		]
 	},
-	"duergar_hammer": { "copyof": "duergar,_duergar_hammer" },
-	"duergar,_duergar_high_priest": {
+	"duergar_hammer": { "copyof": "duergar_duergar_hammer" },
+	"duergar_duergar_high_priest": {
 		"name": "Duergar, Duergar High Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2400,8 +2400,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"duergar_high_priest": { "copyof": "duergar,_duergar_high_priest" },
-	"duergar,_duergar_lieutenant": {
+	"duergar_high_priest": { "copyof": "duergar_duergar_high_priest" },
+	"duergar_duergar_lieutenant": {
 		"name": "Duergar, Duergar Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2458,8 +2458,8 @@
 			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
 		]
 	},
-	"duergar_lieutenant": { "copyof": "duergar,_duergar_lieutenant" },
-	"duergar,_duergar_sergeant": {
+	"duergar_lieutenant": { "copyof": "duergar_duergar_lieutenant" },
+	"duergar_duergar_sergeant": {
 		"name": "Duergar, Duergar Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2508,8 +2508,8 @@
 			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
 		]
 	},
-	"duergar_sergeant": { "copyof": "duergar,_duergar_sergeant" },
-	"duergar,_duergar_sharpshooter": {
+	"duergar_sergeant": { "copyof": "duergar_duergar_sergeant" },
+	"duergar_duergar_sharpshooter": {
 		"name": "Duergar, Duergar Sharpshooter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2559,8 +2559,8 @@
 			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
 		]
 	},
-	"duergar_sharpshooter": { "copyof": "duergar,_duergar_sharpshooter" },
-	"duergar,_duergar_slaver": {
+	"duergar_sharpshooter": { "copyof": "duergar_duergar_sharpshooter" },
+	"duergar_duergar_slaver": {
 		"name": "Duergar, Duergar Slaver",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2610,8 +2610,8 @@
 			"Duergar rogues primarily capture and discipline slaves."
 		]
 	},
-	"duergar_slaver": { "copyof": "duergar,_duergar_slaver" },
-	"duergar,_duergar_taskmaster": {
+	"duergar_slaver": { "copyof": "duergar_duergar_slaver" },
+	"duergar_duergar_taskmaster": {
 		"name": "Duergar, Duergar Taskmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2664,8 +2664,8 @@
 			"Duergar rogues primarily capture and discipline slaves."
 		]
 	},
-	"duergar_taskmaster": { "copyof": "duergar,_duergar_taskmaster" },
-	"duergar,_duergar_tyrant": {
+	"duergar_taskmaster": { "copyof": "duergar_duergar_taskmaster" },
+	"duergar_duergar_tyrant": {
 		"name": "Duergar, Duergar Tyrant",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -2728,7 +2728,7 @@
 			"Spell Resistance: A duergar tyrant has spell resistance equal to 11 + her character level."
 		]
 	},
-	"duergar_tyrant": { "copyof": "duergar,_duergar_tyrant" },
+	"duergar_tyrant": { "copyof": "duergar_duergar_tyrant" },
 	"dullahan": {
 		"name": "Dullahan",
 		"sources": [ "Bestiary 2" ],
@@ -3098,7 +3098,7 @@
 			"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the Improved Familiar feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar."
 		]
 	},
-	"dweomercat,_dweomercat_cub": {
+	"dweomercat_dweomercat_cub": {
 		"name": "Dweomercat, Dweomercat Cub",
 		"sources": [ "Pathfinder #36: Sound of a Thousand Screams" ],
 		"description": [
@@ -3158,7 +3158,7 @@
 			"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the Improved Familiar feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar."
 		]
 	},
-	"dweomercat_cub": { "copyof": "dweomercat,_dweomercat_cub" },
+	"dweomercat_cub": { "copyof": "dweomercat_dweomercat_cub" },
 	"dwiergeth": {
 		"name": "Dwiergeth",
 		"sources": [
@@ -3329,7 +3329,7 @@
 			"Eagles generally weigh between 8 and 15 pounds, with a wingspan of up to 7 feet, depending on the species."
 		]
 	},
-	"eagle,_giant_eagle": {
+	"eagle_giant_eagle": {
 		"name": "Eagle, Giant Eagle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3378,7 +3378,7 @@
 			"Giant eagles are far more than animals-they possess a supernatural intellect and view themselves as guardians and protectors of their mountain territories. They form lasting friendships with those who respect them and their mountaintop domains."
 		]
 	},
-	"giant_eagle": { "copyof": "eagle,_giant_eagle" },
+	"giant_eagle": { "copyof": "eagle_giant_eagle" },
 	"eaisge": {
 		"name": "Eaisge",
 		"sources": [ "Ire of the Storm" ],
@@ -3609,7 +3609,7 @@
 			"An ecorche stands approximately 8-1/2 feet tall and weighs upward of 600 pounds."
 		]
 	},
-	"eel,_electric_eel": {
+	"eel_electric_eel": {
 		"name": "Eel, Electric Eel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3658,8 +3658,8 @@
 			"The electric eel is a curious fish that breathes air instead of water, yet certainly its most unusual characteristic is its ability to generate powerful jolts of electricity. An electric eel is 6 feet long and weighs 45 pounds."
 		]
 	},
-	"electric_eel": { "copyof": "eel,_electric_eel" },
-	"eel,_giant_moray_eel": {
+	"electric_eel": { "copyof": "eel_electric_eel" },
+	"eel_giant_moray_eel": {
 		"name": "Eel, Giant Moray Eel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3709,7 +3709,7 @@
 			"The moray eel is a ferocious predator, capable of holding prey in its primary jaws while a smaller set of jaws inside its throat chews away bite-sized portions."
 		]
 	},
-	"giant_moray_eel": { "copyof": "eel,_giant_moray_eel" },
+	"giant_moray_eel": { "copyof": "eel_giant_moray_eel" },
 	"egophage": {
 		"name": "Egophage",
 		"sources": [ "Occult Bestiary" ],
@@ -3868,7 +3868,7 @@
 			"**Psychic Magic:** For every 2 Hit Dice the egregore master possesses above 13, it adds one spell to those it can cast using psychic magic, and its maximum PE increases by an amount equal to the spell's level. An egregore master can choose a spell from any spell list, but it can't choose a spell with a level equal to more than half its Hit Dice. Egregore masters typically choose spells that enhance the powers of their cult minds or protect their members. It is very rare for an egregore master to choose offensive spells."
 		]
 	},
-	"eidolon,_unfettered": {
+	"eidolon_unfettered": {
 		"name": "Eidolon, Unfettered",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3982,7 +3982,7 @@
 			"The standard eidolon starts as Medium-sized, but Small eidolons are also possible. Compared to a Medium eidolon, a Small eidolon gains +2 to its Dexterity, -4 to its Strength, and -2 to its Constitution. It also gains a +1 size bonus to its AC and on attack rolls, a -1 size penalty on its CMB and to its CMD score, and a +4 size bonus on Stealth skill checks. If it can fly, it gains a +2 size bonus on Fly skill checks. Reduce the damage of all of its attacks by one step."
 		]
 	},
-	"unfettered_eidolon": { "copyof": "eidolon,_unfettered" },
+	"unfettered_eidolon": { "copyof": "eidolon_unfettered" },
 	"einherji": {
 		"name": "Einherji",
 		"sources": [ "Bestiary 4" ],
@@ -4059,7 +4059,7 @@
 			"",
 			"### Ekekeh, CR 4",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 60](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 60](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 1,200  ",
 			"NG Large fey (aquatic)  ",
 			"**Init** +7; **Senses** darkvision 60 ft., lifesense, low-light vision; Perception +9",
@@ -4254,7 +4254,7 @@
 			"An elder wyrm is 100 feet long and weighs 25,000 pounds."
 		]
 	},
-	"elemental_aether,_elder_aether_elemental": {
+	"elemental_aether_elder_aether_elemental": {
 		"name": "Elemental (Aether), Elder Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4302,8 +4302,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"elder_aether_elemental": { "copyof": "elemental_aether,_elder_aether_elemental" },
-	"elemental_aether,_greater_aether_elemental": {
+	"elder_aether_elemental": { "copyof": "elemental_aether_elder_aether_elemental" },
+	"elemental_aether_greater_aether_elemental": {
 		"name": "Elemental (Aether), Greater Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4351,8 +4351,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"greater_aether_elemental": { "copyof": "elemental_aether,_greater_aether_elemental" },
-	"elemental_aether,_huge_aether_elemental": {
+	"greater_aether_elemental": { "copyof": "elemental_aether_greater_aether_elemental" },
+	"elemental_aether_huge_aether_elemental": {
 		"name": "Elemental (Aether), Huge Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4400,8 +4400,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"huge_aether_elemental": { "copyof": "elemental_aether,_huge_aether_elemental" },
-	"elemental_aether,_large_aether_elemental": {
+	"huge_aether_elemental": { "copyof": "elemental_aether_huge_aether_elemental" },
+	"elemental_aether_large_aether_elemental": {
 		"name": "Elemental (Aether), Large Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4449,8 +4449,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"large_aether_elemental": { "copyof": "elemental_aether,_large_aether_elemental" },
-	"elemental_aether,_medium_aether_elemental": {
+	"large_aether_elemental": { "copyof": "elemental_aether_large_aether_elemental" },
+	"elemental_aether_medium_aether_elemental": {
 		"name": "Elemental (Aether), Medium Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4497,8 +4497,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"medium_aether_elemental": { "copyof": "elemental_aether,_medium_aether_elemental" },
-	"elemental_aether,_small_aether_elemental": {
+	"medium_aether_elemental": { "copyof": "elemental_aether_medium_aether_elemental" },
+	"elemental_aether_small_aether_elemental": {
 		"name": "Elemental (Aether), Small Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4547,8 +4547,8 @@
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
-	"small_aether_elemental": { "copyof": "elemental_aether,_small_aether_elemental" },
-	"elemental_air,_elder_air_elemental": {
+	"small_aether_elemental": { "copyof": "elemental_aether_small_aether_elemental" },
+	"elemental_air_elder_air_elemental": {
 		"name": "Elemental (Air), Elder Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4595,8 +4595,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"elder_air_elemental": { "copyof": "elemental_air,_elder_air_elemental" },
-	"elemental_air,_greater_air_elemental": {
+	"elder_air_elemental": { "copyof": "elemental_air_elder_air_elemental" },
+	"elemental_air_greater_air_elemental": {
 		"name": "Elemental (Air), Greater Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4643,8 +4643,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"greater_air_elemental": { "copyof": "elemental_air,_greater_air_elemental" },
-	"elemental_air,_huge_air_elemental": {
+	"greater_air_elemental": { "copyof": "elemental_air_greater_air_elemental" },
+	"elemental_air_huge_air_elemental": {
 		"name": "Elemental (Air), Huge Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4691,8 +4691,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"huge_air_elemental": { "copyof": "elemental_air,_huge_air_elemental" },
-	"elemental_air,_large_air_elemental": {
+	"huge_air_elemental": { "copyof": "elemental_air_huge_air_elemental" },
+	"elemental_air_large_air_elemental": {
 		"name": "Elemental (Air), Large Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4739,8 +4739,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"large_air_elemental": { "copyof": "elemental_air,_large_air_elemental" },
-	"elemental_air,_medium_air_elemental": {
+	"large_air_elemental": { "copyof": "elemental_air_large_air_elemental" },
+	"elemental_air_medium_air_elemental": {
 		"name": "Elemental (Air), Medium Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4786,8 +4786,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"medium_air_elemental": { "copyof": "elemental_air,_medium_air_elemental" },
-	"elemental_air,_small_air_elemental": {
+	"medium_air_elemental": { "copyof": "elemental_air_medium_air_elemental" },
+	"elemental_air_small_air_elemental": {
 		"name": "Elemental (Air), Small Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4835,8 +4835,8 @@
 			"**Family:** [Air Elemental](family/air_elemental)"
 		]
 	},
-	"small_air_elemental": { "copyof": "elemental_air,_small_air_elemental" },
-	"elemental_earth,_elder_earth_elemental": {
+	"small_air_elemental": { "copyof": "elemental_air_small_air_elemental" },
+	"elemental_earth_elder_earth_elemental": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4883,8 +4883,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"elder_earth_elemental": { "copyof": "elemental_earth,_elder_earth_elemental" },
-	"elemental_earth,_greater_earth_elemental": {
+	"elder_earth_elemental": { "copyof": "elemental_earth_elder_earth_elemental" },
+	"elemental_earth_greater_earth_elemental": {
 		"name": "Elemental (Earth), Greater Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4931,8 +4931,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"greater_earth_elemental": { "copyof": "elemental_earth,_greater_earth_elemental" },
-	"elemental_earth,_huge_earth_elemental": {
+	"greater_earth_elemental": { "copyof": "elemental_earth_greater_earth_elemental" },
+	"elemental_earth_huge_earth_elemental": {
 		"name": "Elemental (Earth), Huge Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4979,8 +4979,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"huge_earth_elemental": { "copyof": "elemental_earth,_huge_earth_elemental" },
-	"elemental_earth,_large_earth_elemental": {
+	"huge_earth_elemental": { "copyof": "elemental_earth_huge_earth_elemental" },
+	"elemental_earth_large_earth_elemental": {
 		"name": "Elemental (Earth), Large Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5027,8 +5027,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"large_earth_elemental": { "copyof": "elemental_earth,_large_earth_elemental" },
-	"elemental_earth,_medium_earth_elemental": {
+	"large_earth_elemental": { "copyof": "elemental_earth_large_earth_elemental" },
+	"elemental_earth_medium_earth_elemental": {
 		"name": "Elemental (Earth), Medium Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5074,8 +5074,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"medium_earth_elemental": { "copyof": "elemental_earth,_medium_earth_elemental" },
-	"elemental_earth,_small_earth_elemental": {
+	"medium_earth_elemental": { "copyof": "elemental_earth_medium_earth_elemental" },
+	"elemental_earth_small_earth_elemental": {
 		"name": "Elemental (Earth), Small Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5123,8 +5123,8 @@
 			"**Family:** [Earth Elemental](family/earth_elemental)"
 		]
 	},
-	"small_earth_elemental": { "copyof": "elemental_earth,_small_earth_elemental" },
-	"elemental_fire,_elder_fire_elemental": {
+	"small_earth_elemental": { "copyof": "elemental_earth_small_earth_elemental" },
+	"elemental_fire_elder_fire_elemental": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5172,8 +5172,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"elder_fire_elemental": { "copyof": "elemental_fire,_elder_fire_elemental" },
-	"elemental_fire,_greater_fire_elemental": {
+	"elder_fire_elemental": { "copyof": "elemental_fire_elder_fire_elemental" },
+	"elemental_fire_greater_fire_elemental": {
 		"name": "Elemental (Fire), Greater Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5221,8 +5221,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"greater_fire_elemental": { "copyof": "elemental_fire,_greater_fire_elemental" },
-	"elemental_fire,_huge_fire_elemental": {
+	"greater_fire_elemental": { "copyof": "elemental_fire_greater_fire_elemental" },
+	"elemental_fire_huge_fire_elemental": {
 		"name": "Elemental (Fire), Huge Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5270,8 +5270,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"huge_fire_elemental": { "copyof": "elemental_fire,_huge_fire_elemental" },
-	"elemental_fire,_large_fire_elemental": {
+	"huge_fire_elemental": { "copyof": "elemental_fire_huge_fire_elemental" },
+	"elemental_fire_large_fire_elemental": {
 		"name": "Elemental (Fire), Large Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5319,8 +5319,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"large_fire_elemental": { "copyof": "elemental_fire,_large_fire_elemental" },
-	"elemental_fire,_medium_fire_elemental": {
+	"large_fire_elemental": { "copyof": "elemental_fire_large_fire_elemental" },
+	"elemental_fire_medium_fire_elemental": {
 		"name": "Elemental (Fire), Medium Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5367,8 +5367,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"medium_fire_elemental": { "copyof": "elemental_fire,_medium_fire_elemental" },
-	"elemental_fire,_small_fire_elemental": {
+	"medium_fire_elemental": { "copyof": "elemental_fire_medium_fire_elemental" },
+	"elemental_fire_small_fire_elemental": {
 		"name": "Elemental (Fire), Small Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5417,8 +5417,8 @@
 			"**Family:** [Fire Elemental](family/fire_elemental)"
 		]
 	},
-	"small_fire_elemental": { "copyof": "elemental_fire,_small_fire_elemental" },
-	"elemental_ice,_elder_ice_elemental": {
+	"small_fire_elemental": { "copyof": "elemental_fire_small_fire_elemental" },
+	"elemental_ice_elder_ice_elemental": {
 		"name": "Elemental (Ice), Elder Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5467,8 +5467,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"elder_ice_elemental": { "copyof": "elemental_ice,_elder_ice_elemental" },
-	"elemental_ice,_greater_ice_elemental": {
+	"elder_ice_elemental": { "copyof": "elemental_ice_elder_ice_elemental" },
+	"elemental_ice_greater_ice_elemental": {
 		"name": "Elemental (Ice), Greater Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5517,8 +5517,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"greater_ice_elemental": { "copyof": "elemental_ice,_greater_ice_elemental" },
-	"elemental_ice,_huge_ice_elemental": {
+	"greater_ice_elemental": { "copyof": "elemental_ice_greater_ice_elemental" },
+	"elemental_ice_huge_ice_elemental": {
 		"name": "Elemental (Ice), Huge Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5567,8 +5567,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"huge_ice_elemental": { "copyof": "elemental_ice,_huge_ice_elemental" },
-	"elemental_ice,_large_ice_elemental": {
+	"huge_ice_elemental": { "copyof": "elemental_ice_huge_ice_elemental" },
+	"elemental_ice_large_ice_elemental": {
 		"name": "Elemental (Ice), Large Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5617,8 +5617,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"large_ice_elemental": { "copyof": "elemental_ice,_large_ice_elemental" },
-	"elemental_ice,_medium_ice_elemental": {
+	"large_ice_elemental": { "copyof": "elemental_ice_large_ice_elemental" },
+	"elemental_ice_medium_ice_elemental": {
 		"name": "Elemental (Ice), Medium Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5666,8 +5666,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"medium_ice_elemental": { "copyof": "elemental_ice,_medium_ice_elemental" },
-	"elemental_ice,_small_ice_elemental": {
+	"medium_ice_elemental": { "copyof": "elemental_ice_medium_ice_elemental" },
+	"elemental_ice_small_ice_elemental": {
 		"name": "Elemental (Ice), Small Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5717,8 +5717,8 @@
 			"**Family:** [Ice Elemental](family/ice_elemental)"
 		]
 	},
-	"small_ice_elemental": { "copyof": "elemental_ice,_small_ice_elemental" },
-	"elemental_lightning,_elder_lightning_elemental": {
+	"small_ice_elemental": { "copyof": "elemental_ice_small_ice_elemental" },
+	"elemental_lightning_elder_lightning_elemental": {
 		"name": "Elemental (Lightning), Elder Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5765,8 +5765,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"elder_lightning_elemental": { "copyof": "elemental_lightning,_elder_lightning_elemental" },
-	"elemental_lightning,_greater_lightning_elemental": {
+	"elder_lightning_elemental": { "copyof": "elemental_lightning_elder_lightning_elemental" },
+	"elemental_lightning_greater_lightning_elemental": {
 		"name": "Elemental (Lightning), Greater Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5813,8 +5813,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"greater_lightning_elemental": { "copyof": "elemental_lightning,_greater_lightning_elemental" },
-	"elemental_lightning,_huge_lightning_elemental": {
+	"greater_lightning_elemental": { "copyof": "elemental_lightning_greater_lightning_elemental" },
+	"elemental_lightning_huge_lightning_elemental": {
 		"name": "Elemental (Lightning), Huge Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5861,8 +5861,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"huge_lightning_elemental": { "copyof": "elemental_lightning,_huge_lightning_elemental" },
-	"elemental_lightning,_large_lightning_elemental": {
+	"huge_lightning_elemental": { "copyof": "elemental_lightning_huge_lightning_elemental" },
+	"elemental_lightning_large_lightning_elemental": {
 		"name": "Elemental (Lightning), Large Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5909,8 +5909,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"large_lightning_elemental": { "copyof": "elemental_lightning,_large_lightning_elemental" },
-	"elemental_lightning,_medium_lightning_elemental": {
+	"large_lightning_elemental": { "copyof": "elemental_lightning_large_lightning_elemental" },
+	"elemental_lightning_medium_lightning_elemental": {
 		"name": "Elemental (Lightning), Medium Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5956,8 +5956,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"medium_lightning_elemental": { "copyof": "elemental_lightning,_medium_lightning_elemental" },
-	"elemental_lightning,_small_lightning_elemental": {
+	"medium_lightning_elemental": { "copyof": "elemental_lightning_medium_lightning_elemental" },
+	"elemental_lightning_small_lightning_elemental": {
 		"name": "Elemental (Lightning), Small Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6005,8 +6005,8 @@
 			"**Family:** [Lightning Elemental](family/lightning_elemental)"
 		]
 	},
-	"small_lightning_elemental": { "copyof": "elemental_lightning,_small_lightning_elemental" },
-	"elemental_magma,_elder_magma_elemental": {
+	"small_lightning_elemental": { "copyof": "elemental_lightning_small_lightning_elemental" },
+	"elemental_magma_elder_magma_elemental": {
 		"name": "Elemental (Magma), Elder Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6055,8 +6055,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"elder_magma_elemental": { "copyof": "elemental_magma,_elder_magma_elemental" },
-	"elemental_magma,_greater_magma_elemental": {
+	"elder_magma_elemental": { "copyof": "elemental_magma_elder_magma_elemental" },
+	"elemental_magma_greater_magma_elemental": {
 		"name": "Elemental (Magma), Greater Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6105,8 +6105,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"greater_magma_elemental": { "copyof": "elemental_magma,_greater_magma_elemental" },
-	"elemental_magma,_huge_magma_elemental": {
+	"greater_magma_elemental": { "copyof": "elemental_magma_greater_magma_elemental" },
+	"elemental_magma_huge_magma_elemental": {
 		"name": "Elemental (Magma), Huge Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6155,8 +6155,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"huge_magma_elemental": { "copyof": "elemental_magma,_huge_magma_elemental" },
-	"elemental_magma,_large_magma_elemental": {
+	"huge_magma_elemental": { "copyof": "elemental_magma_huge_magma_elemental" },
+	"elemental_magma_large_magma_elemental": {
 		"name": "Elemental (Magma), Large Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6205,8 +6205,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"large_magma_elemental": { "copyof": "elemental_magma,_large_magma_elemental" },
-	"elemental_magma,_medium_magma_elemental": {
+	"large_magma_elemental": { "copyof": "elemental_magma_large_magma_elemental" },
+	"elemental_magma_medium_magma_elemental": {
 		"name": "Elemental (Magma), Medium Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6254,8 +6254,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"medium_magma_elemental": { "copyof": "elemental_magma,_medium_magma_elemental" },
-	"elemental_magma,_small_magma_elemental": {
+	"medium_magma_elemental": { "copyof": "elemental_magma_medium_magma_elemental" },
+	"elemental_magma_small_magma_elemental": {
 		"name": "Elemental (Magma), Small Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6305,8 +6305,8 @@
 			"**Family:** [Magma Elemental](family/magma_elemental)"
 		]
 	},
-	"small_magma_elemental": { "copyof": "elemental_magma,_small_magma_elemental" },
-	"elemental_mud,_elder_mud_elemental": {
+	"small_magma_elemental": { "copyof": "elemental_magma_small_magma_elemental" },
+	"elemental_mud_elder_mud_elemental": {
 		"name": "Elemental (Mud), Elder Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6353,8 +6353,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"elder_mud_elemental": { "copyof": "elemental_mud,_elder_mud_elemental" },
-	"elemental_mud,_greater_mud_elemental": {
+	"elder_mud_elemental": { "copyof": "elemental_mud_elder_mud_elemental" },
+	"elemental_mud_greater_mud_elemental": {
 		"name": "Elemental (Mud), Greater Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6401,8 +6401,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"greater_mud_elemental": { "copyof": "elemental_mud,_greater_mud_elemental" },
-	"elemental_mud,_huge_mud_elemental": {
+	"greater_mud_elemental": { "copyof": "elemental_mud_greater_mud_elemental" },
+	"elemental_mud_huge_mud_elemental": {
 		"name": "Elemental (Mud), Huge Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6449,8 +6449,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"huge_mud_elemental": { "copyof": "elemental_mud,_huge_mud_elemental" },
-	"elemental_mud,_large_mud_elemental": {
+	"huge_mud_elemental": { "copyof": "elemental_mud_huge_mud_elemental" },
+	"elemental_mud_large_mud_elemental": {
 		"name": "Elemental (Mud), Large Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6497,8 +6497,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"large_mud_elemental": { "copyof": "elemental_mud,_large_mud_elemental" },
-	"elemental_mud,_medium_mud_elemental": {
+	"large_mud_elemental": { "copyof": "elemental_mud_large_mud_elemental" },
+	"elemental_mud_medium_mud_elemental": {
 		"name": "Elemental (Mud), Medium Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6544,8 +6544,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"medium_mud_elemental": { "copyof": "elemental_mud,_medium_mud_elemental" },
-	"elemental_mud,_small_mud_elemental": {
+	"medium_mud_elemental": { "copyof": "elemental_mud_medium_mud_elemental" },
+	"elemental_mud_small_mud_elemental": {
 		"name": "Elemental (Mud), Small Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6593,8 +6593,8 @@
 			"**Family:** [Mud Elemental](family/mud_elemental)"
 		]
 	},
-	"small_mud_elemental": { "copyof": "elemental_mud,_small_mud_elemental" },
-	"elemental_water,_elder_water_elemental": {
+	"small_mud_elemental": { "copyof": "elemental_mud_small_mud_elemental" },
+	"elemental_water_elder_water_elemental": {
 		"name": "Elemental (Water), Elder Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6641,8 +6641,8 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"elder_water_elemental": { "copyof": "elemental_water,_elder_water_elemental" },
-	"elemental_water,_greater_water_elemental": {
+	"elder_water_elemental": { "copyof": "elemental_water_elder_water_elemental" },
+	"elemental_water_greater_water_elemental": {
 		"name": "Elemental (Water), Greater Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6689,8 +6689,8 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"greater_water_elemental": { "copyof": "elemental_water,_greater_water_elemental" },
-	"elemental_water,_huge_water_elemental": {
+	"greater_water_elemental": { "copyof": "elemental_water_greater_water_elemental" },
+	"elemental_water_huge_water_elemental": {
 		"name": "Elemental (Water), Huge Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6737,8 +6737,8 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"huge_water_elemental": { "copyof": "elemental_water,_huge_water_elemental" },
-	"elemental_water,_large_water_elemental": {
+	"huge_water_elemental": { "copyof": "elemental_water_huge_water_elemental" },
+	"elemental_water_large_water_elemental": {
 		"name": "Elemental (Water), Large Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6785,8 +6785,8 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"large_water_elemental": { "copyof": "elemental_water,_large_water_elemental" },
-	"elemental_water,_medium_water_elemental": {
+	"large_water_elemental": { "copyof": "elemental_water_large_water_elemental" },
+	"elemental_water_medium_water_elemental": {
 		"name": "Elemental (Water), Medium Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6832,8 +6832,8 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"medium_water_elemental": { "copyof": "elemental_water,_medium_water_elemental" },
-	"elemental_water,_small_water_elemental": {
+	"medium_water_elemental": { "copyof": "elemental_water_medium_water_elemental" },
+	"elemental_water_small_water_elemental": {
 		"name": "Elemental (Water), Small Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6881,7 +6881,7 @@
 			"**Family:** [Water Elemental](family/water_elemental)"
 		]
 	},
-	"small_water_elemental": { "copyof": "elemental_water,_small_water_elemental" },
+	"small_water_elemental": { "copyof": "elemental_water_small_water_elemental" },
 	"elephant": {
 		"name": "Elephant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -6928,7 +6928,7 @@
 			"These large land animals, majestically wandering the plains in tightly knit family herds, are symbols of wisdom and strength. Having few natural predators, elephants are sometimes hunted for their ivory tusks. These tusks often become jewelry, statuettes, and trinkets for the wealthy."
 		]
 	},
-	"elephant,_mastodon": {
+	"elephant_mastodon": {
 		"name": "Elephant, Mastodon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6974,8 +6974,8 @@
 			"The great mastodons are primeval cousins of elephants. Their large tusks dwarf those of regular elephants, jutting outward and then curving back toward one another at the tips. Shaggy woolly mammoths are a mastodon variant adapted to cold environments, but have the same statistics."
 		]
 	},
-	"mastodon": { "copyof": "elephant,_mastodon" },
-	"mammoth": { "copyof": "elephant,_mastodon" },
+	"mastodon": { "copyof": "elephant_mastodon" },
+	"mammoth": { "copyof": "elephant_mastodon" },
 	"embalming_bear": {
 		"name": "Embalming Bear",
 		"sources": [ "Tears at Bitter Manor" ],
@@ -7192,7 +7192,7 @@
 			"",
 			"### Emperor Stag, CR 3",
 			"",
-			"**Source** [Taldor, the First Empire pg. 61](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 61](source/taldor_the_first_empire)  ",
 			"**XP** 800  ",
 			"N Medium animal  ",
 			"**Init** +4; **Senses** low-light vision, scent; Perception +10",
@@ -7544,7 +7544,7 @@
 			"",
 			"### Escorite, CR 8",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 61](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 61](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 4,800  ",
 			"CE Large fey  ",
 			"**Init** +8; **Senses** low-light vision, see in darkness; Perception +21  ",
@@ -7598,7 +7598,7 @@
 			"The average escorite has a wingspan of 15 feet and weighs 800 pounds."
 		]
 	},
-	"estuarine_worm,_estuarine_worm_ahket_form": {
+	"estuarine_worm_estuarine_worm_ahket_form": {
 		"name": "Estuarine Worm, Estuarine Worm (Ahket Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
@@ -7670,8 +7670,8 @@
 			"Several cults in Osirion keep estuarine worms as sacred beasts in their secret temples. Worshipers of both Lamashtu and Rovagug believe it was their respective god who birthed these worms. Members of the Old Cults revere estuarine worms for their connection to the star Alboras and the Great Old One who supposedly dwells there. The cultists seek out the worms during the season of shemu, when the worms are less violent and more tractable. A combination of brute force and magic are necessary to find, exhume, and contain these elusive creatures. In captivity, estuarine worms can be made to change form regardless of the season through the application or exclusion of water. The high priests of these cults also know certain spells that can trigger an immediate change. The cultists connect to their god through the worms, offering sacrifices to them and reading omens in their violent squirming. The worms serve as guards against intruders, and can also be used as weapons against the cult's enemies."
 		]
 	},
-	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm,_estuarine_worm_ahket_form" },
-	"estuarine_worm,_estuarine_worm_shemu_form": {
+	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm_estuarine_worm_ahket_form" },
+	"estuarine_worm_estuarine_worm_shemu_form": {
 		"name": "Estuarine Worm, Estuarine Worm (Shemu Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
@@ -7743,7 +7743,7 @@
 			"Several cults in Osirion keep estuarine worms as sacred beasts in their secret temples. Worshipers of both Lamashtu and Rovagug believe it was their respective god who birthed these worms. Members of the Old Cults revere estuarine worms for their connection to the star Alboras and the Great Old One who supposedly dwells there. The cultists seek out the worms during the season of shemu, when the worms are less violent and more tractable. A combination of brute force and magic are necessary to find, exhume, and contain these elusive creatures. In captivity, estuarine worms can be made to change form regardless of the season through the application or exclusion of water. The high priests of these cults also know certain spells that can trigger an immediate change. The cultists connect to their god through the worms, offering sacrifices to them and reading omens in their violent squirming. The worms serve as guards against intruders, and can also be used as weapons against the cult's enemies."
 		]
 	},
-	"estuarine_worm_shemu_form": { "copyof": "estuarine_worm,_estuarine_worm_shemu_form" },
+	"estuarine_worm_shemu_form": { "copyof": "estuarine_worm_estuarine_worm_shemu_form" },
 	"etheroot": {
 		"name": "Etheroot",
 		"sources": [ "Planar Adventures" ],
@@ -8081,7 +8081,7 @@
 			"A euryale is 7 feet tall and weighs 460 pounds."
 		]
 	},
-	"eurypterid,_bluetip_eurypterid": {
+	"eurypterid_bluetip_eurypterid": {
 		"name": "Eurypterid, Bluetip Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
@@ -8131,8 +8131,8 @@
 			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
 		]
 	},
-	"bluetip_eurypterid": { "copyof": "eurypterid,_bluetip_eurypterid" },
-	"eurypterid,_common_eurypterid": {
+	"bluetip_eurypterid": { "copyof": "eurypterid_bluetip_eurypterid" },
+	"eurypterid_common_eurypterid": {
 		"name": "Eurypterid, Common Eurypterid",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -8184,9 +8184,9 @@
 			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
 		]
 	},
-	"common_eurypterid": { "copyof": "eurypterid,_common_eurypterid" },
-	"eurypterid": { "copyof": "eurypterid,_common_eurypterid" },
-	"eurypterid,_ochre_eurypterid": {
+	"common_eurypterid": { "copyof": "eurypterid_common_eurypterid" },
+	"eurypterid": { "copyof": "eurypterid_common_eurypterid" },
+	"eurypterid_ochre_eurypterid": {
 		"name": "Eurypterid, Ochre Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
@@ -8237,8 +8237,8 @@
 			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
 		]
 	},
-	"ochre_eurypterid": { "copyof": "eurypterid,_ochre_eurypterid" },
-	"eurypterid,_spiny_eurypterid": {
+	"ochre_eurypterid": { "copyof": "eurypterid_ochre_eurypterid" },
+	"eurypterid_spiny_eurypterid": {
 		"name": "Eurypterid, Spiny Eurypterid",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -8293,8 +8293,8 @@
 			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
 		]
 	},
-	"spiny_eurypterid": { "copyof": "eurypterid,_spiny_eurypterid" },
-	"eurypterid,_spitting_eurypterid": {
+	"spiny_eurypterid": { "copyof": "eurypterid_spiny_eurypterid" },
+	"eurypterid_spitting_eurypterid": {
 		"name": "Eurypterid, Spitting Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
@@ -8346,7 +8346,7 @@
 			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
 		]
 	},
-	"spitting_eurypterid": { "copyof": "eurypterid,_spitting_eurypterid" },
+	"spitting_eurypterid": { "copyof": "eurypterid_spitting_eurypterid" },
 	"exiled_shade": {
 		"name": "Exiled Shade",
 		"sources": [ "Bestiary 6" ],

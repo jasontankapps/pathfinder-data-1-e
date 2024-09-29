@@ -416,7 +416,7 @@
 			"A typical warsworn weighs several tons and can reach a height of up to 25 feet. A newly formed one is much smaller, but quickly consumes nearby corpses from a battlefield or mass grave and swells to its full size. It is always hungry for more dying bodies. It prefers to absorb warriors and soldiers, but willingly consumes any suitable humanoid. Its constant grinding motion breaks its component parts, giving it plenty of scrap to hurl at distant foes."
 		]
 	},
-	"wasp,_giant_wasp": {
+	"wasp_giant_wasp": {
 		"name": "Wasp, Giant Wasp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -467,8 +467,8 @@
 			"Giant wasps attack when hungry or threatened, stinging their prey to death. They take dead or incapacitated opponents back to their lairs as food for their unhatched young-the experience of lying in a wasp nest, paralyzed while its grubs feed, is one of nature's cruelest inventions. Even when part of a nest, giant wasps tend toward solitary hunting, and it's rare to see more than one at a time."
 		]
 	},
-	"giant_wasp": { "copyof": "wasp,_giant_wasp" },
-	"wasp,_ground_wasp_swarm": {
+	"giant_wasp": { "copyof": "wasp_giant_wasp" },
+	"wasp_ground_wasp_swarm": {
 		"name": "Wasp, Ground Wasp Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
@@ -520,8 +520,8 @@
 			"Many varieties of ground wasps are parasitic, and attack large creatures as a means of reproduction, as well as in defense. Ground wasps have a paralytic poison, and once a victim has sustained dozens of stings, its body goes limp. Once its prey is incapacitated, a ground wasp swarm descends on the still-living creature and lays hundreds of eggs just beneath its skin. Some ground wasps swarm for food in a similar fashion. Mature ground wasps don't eat much flesh themselves, but they often take down prey so they can retrieve food for their growing larvae."
 		]
 	},
-	"ground_wasp_swarm": { "copyof": "wasp,_ground_wasp_swarm" },
-	"wasp,_wasp_swarm": {
+	"ground_wasp_swarm": { "copyof": "wasp_ground_wasp_swarm" },
+	"wasp_wasp_swarm": {
 		"name": "Wasp, Wasp Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -574,7 +574,7 @@
 			"Wasp swarms surround and attack any living prey in their paths, and are swift to seek out new prey once their anger is aroused. An enraged wasp swarm often loses track of its hive or the original source of its anger, and presented with a constant series of new targets to swarm and sting, a swarm can continue its rampage nonstop until it is destroyed or dispersed."
 		]
 	},
-	"wasp_swarm": { "copyof": "wasp,_wasp_swarm" },
+	"wasp_swarm": { "copyof": "wasp_wasp_swarm" },
 	"watcher": {
 		"name": "Watcher",
 		"sources": [ "Planar Adventures" ],
@@ -822,7 +822,7 @@
 			"Water striders are aquatic insects that skate across the surface of still water. Their bodies are long and narrow, with an individual measuring less than 1 inch in length. The body and legs of a water strider are covered with a layer of water-repelling hairs, making it possible for the strider to resist the surface tension of the water. The insect stands on its front and rear legs, and pushes against the water surface with its middle legs to propel itself forward. Water striders are also excellent jumpers, launching themselves distances of up to 5 feet. Any movement on land is limited to jumping. Swarms of particularly vicious water striders commonly gather at the edges of bodies of water, attacking anything that disturbs the surface of their pools."
 		]
 	},
-	"water_strider,_giant_water_strider": {
+	"water_strider_giant_water_strider": {
 		"name": "Water Strider, Giant Water Strider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -876,8 +876,8 @@
 			"Carrying more than a light load (200 pounds) prevents a giant water strider from using its water skating ability."
 		]
 	},
-	"giant_water_strider": { "copyof": "water_strider,_giant_water_strider" },
-	"water_strider,_nymph_water_strider": {
+	"giant_water_strider": { "copyof": "water_strider_giant_water_strider" },
+	"water_strider_nymph_water_strider": {
 		"name": "Water Strider, Nymph Water Strider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -926,7 +926,7 @@
 			"A nymph water strider isn't suitable as a mount for any Large or smaller creature."
 		]
 	},
-	"nymph_water_strider": { "copyof": "water_strider,_nymph_water_strider" },
+	"nymph_water_strider": { "copyof": "water_strider_nymph_water_strider" },
 	"water_wraith": {
 		"name": "Water Wraith",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -1055,7 +1055,7 @@
 			"**Languages:** Wayangs begin play speaking Common and Wayang. Those with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Draconic, Goblin, and Infernal."
 		]
 	},
-	"weasel,_dire_weasel": {
+	"weasel_dire_weasel": {
 		"name": "Weasel, Dire Weasel",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -1106,8 +1106,8 @@
 			"Measuring 12 feet long, a dire weasel stands 4 feet tall at the shoulder and weighs around 900 pounds."
 		]
 	},
-	"dire_weasel": { "copyof": "weasel,_dire_weasel" },
-	"weasel,_giant_weasel": {
+	"dire_weasel": { "copyof": "weasel_dire_weasel" },
+	"weasel_giant_weasel": {
 		"name": "Weasel, Giant Weasel",
 		"sources": [
 			"Bestiary 4",
@@ -1158,7 +1158,7 @@
 			"Giant weasels are often trained to serve as guards and mounts by various Small humanoids. Adult giant weasels can grow to be 5 feet long, stand as high as 2-1/2 feet tall at the shoulder, and weigh up to 150 pounds."
 		]
 	},
-	"giant_weasel": { "copyof": "weasel,_giant_weasel" },
+	"giant_weasel": { "copyof": "weasel_giant_weasel" },
 	"weaverworm": {
 		"name": "Weaverworm",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
@@ -1400,7 +1400,7 @@
 			"Whales are frequently hunted for their meat and the valuable oil in their blubber. Baleen whales have no teeth and attack with a tail slap; toothed whales like sperm whales instead attack with a bite. Whale companions are smaller species-rules for such companions are the same as those for [orcas](druidcompanion/orca)."
 		]
 	},
-	"whale,_great_white_whale": {
+	"whale_great_white_whale": {
 		"name": "Whale, Great White Whale",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1451,7 +1451,7 @@
 			"Legendary in size and temper, great white whales are far more aggressive than their smaller kin."
 		]
 	},
-	"great_white_whale": { "copyof": "whale,_great_white_whale" },
+	"great_white_whale": { "copyof": "whale_great_white_whale" },
 	"whaler_jellyfish": {
 		"name": "Whaler Jellyfish",
 		"sources": [ "Bestiary 6" ],
@@ -1918,7 +1918,7 @@
 			"A wikkawak is covered in a thick pelt of insulating white fur, and its beady eyes are a dead white color. A typical wikkawak stands just over 7 feet tall and weighs around 450 pounds."
 		]
 	},
-	"wild_hunt,_wild_hunt_archer": {
+	"wild_hunt_wild_hunt_archer": {
 		"name": "Wild Hunt, Wild Hunt Archer",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1982,8 +1982,8 @@
 			"**Family:** [Wild Hunt](family/wild_hunt)"
 		]
 	},
-	"wild_hunt_archer": { "copyof": "wild_hunt,_wild_hunt_archer" },
-	"wild_hunt,_wild_hunt_horse": {
+	"wild_hunt_archer": { "copyof": "wild_hunt_wild_hunt_archer" },
+	"wild_hunt_wild_hunt_horse": {
 		"name": "Wild Hunt, Wild Hunt Horse",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2048,8 +2048,8 @@
 			"**Family:** [Wild Hunt](family/wild_hunt)"
 		]
 	},
-	"wild_hunt_horse": { "copyof": "wild_hunt,_wild_hunt_horse" },
-	"wild_hunt,_wild_hunt_hound": {
+	"wild_hunt_horse": { "copyof": "wild_hunt_wild_hunt_horse" },
+	"wild_hunt_wild_hunt_hound": {
 		"name": "Wild Hunt, Wild Hunt Hound",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2115,8 +2115,8 @@
 			"**Family:** [Wild Hunt](family/wild_hunt)"
 		]
 	},
-	"wild_hunt_hound": { "copyof": "wild_hunt,_wild_hunt_hound" },
-	"wild_hunt,_wild_hunt_monarch": {
+	"wild_hunt_hound": { "copyof": "wild_hunt_wild_hunt_hound" },
+	"wild_hunt_wild_hunt_monarch": {
 		"name": "Wild Hunt, Wild Hunt Monarch",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2201,8 +2201,8 @@
 			"**Family:** [Wild Hunt](family/wild_hunt)"
 		]
 	},
-	"wild_hunt_monarch": { "copyof": "wild_hunt,_wild_hunt_monarch" },
-	"wild_hunt,_wild_hunt_scout": {
+	"wild_hunt_monarch": { "copyof": "wild_hunt_wild_hunt_monarch" },
+	"wild_hunt_wild_hunt_scout": {
 		"name": "Wild Hunt, Wild Hunt Scout",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -2265,7 +2265,7 @@
 			"**Family:** [Wild Hunt](family/wild_hunt)"
 		]
 	},
-	"wild_hunt_scout": { "copyof": "wild_hunt,_wild_hunt_scout" },
+	"wild_hunt_scout": { "copyof": "wild_hunt_wild_hunt_scout" },
 	"will-o'-wisp": {
 		"name": "Will-o'-Wisp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2522,7 +2522,7 @@
 			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely."
 		]
 	},
-	"witchcrow,_greater_witchcrow": {
+	"witchcrow_greater_witchcrow": {
 		"name": "Witchcrow, Greater Witchcrow",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
@@ -2594,7 +2594,7 @@
 			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely."
 		]
 	},
-	"greater_witchcrow": { "copyof": "witchcrow,_greater_witchcrow" },
+	"greater_witchcrow": { "copyof": "witchcrow_greater_witchcrow" },
 	"witchfire": {
 		"name": "Witchfire",
 		"sources": [
@@ -2656,7 +2656,7 @@
 			"",
 			"### Witchfire Covens",
 			"",
-			"Witchfires occasionally join or subjugate existing hag covens (see info under [green hag](monster/hag,_green_hag)). A hag coven that includes a witchfire gains the following additional coven spell-like abilities: 3/day-blight, create undead, fire storm (DC 21), nightmare (DC 18), waves of exhaustion (DC 20). All abilities function at CL 9th, and save DCs are based on a Charisma score of 16. The use of these abilities functions identically to other coven abilities. Such covens must have at least one living hag, as covens of three witchfires gain no coven-related abilities."
+			"Witchfires occasionally join or subjugate existing hag covens (see info under [green hag](monster/hag_green_hag)). A hag coven that includes a witchfire gains the following additional coven spell-like abilities: 3/day-blight, create undead, fire storm (DC 21), nightmare (DC 18), waves of exhaustion (DC 20). All abilities function at CL 9th, and save DCs are based on a Charisma score of 16. The use of these abilities functions identically to other coven abilities. Such covens must have at least one living hag, as covens of three witchfires gain no coven-related abilities."
 		]
 	},
 	"witchwyrd": {
@@ -2833,7 +2833,7 @@
 			"Wandering alone or in packs, wolves sit at the top of the food chain. Ferociously territorial and exceptionally wide-ranging in their hunting, wolf packs cover broad areas. A wolf's wide paws contain slight webbing between the toes that assists in moving over snow, and its fur is a thick, water-resistant coat ranging in color from gray to brown and even black in some species. Its paws contain scent glands that mark the ground as it travels, assisting in navigation as well as broadcasting its whereabouts to fellow pack members. Generally, a wolf stands from 2-1/2 to 3 feet tall at the shoulder and weighs between 45 and 150 pounds, with females being slightly smaller."
 		]
 	},
-	"wolf,_dire_wolf": {
+	"wolf_dire_wolf": {
 		"name": "Wolf, Dire Wolf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2878,8 +2878,8 @@
 			"An enormous version of a normal wolf, dire wolves represent the wolf in its most primal form. These creatures follow the same basic behaviors of regular wolves, but are much more aggressive. Dire wolves often serve giants as hunting companions and vicious guard animals. Some ferocious humanoids and woodsmen use trained dire wolves as mounts. Darker than normal wolves, dire wolves' coats tend toward blacks and deep mottled grays. An adult dire wolf is typically about 9 feet long and weighs roughly 800 pounds."
 		]
 	},
-	"dire_wolf": { "copyof": "wolf,_dire_wolf" },
-	"wolf,_timber_wolf": {
+	"dire_wolf": { "copyof": "wolf_dire_wolf" },
+	"wolf_timber_wolf": {
 		"name": "Wolf, Timber Wolf",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
@@ -2929,7 +2929,7 @@
 			"The power and majesty of timber wolves inspire many sentient races. For civilized folk, the wolf has come to embody a primitive evil, often playing the role of a villain in fairy tales. This has earned the animal an undeserved reputation for aggression. Among northern peoples, the wolf symbolizes strength and prowess in battle. Many tribes revere wolf totems, and some even claim in their folklore to be originally descended from wolves."
 		]
 	},
-	"timber_wolf": { "copyof": "wolf,_timber_wolf" },
+	"timber_wolf": { "copyof": "wolf_timber_wolf" },
 	"wolf-in-sheep's-clothing": {
 		"name": "Wolf-in-Sheep's-Clothing",
 		"sources": [
@@ -3055,7 +3055,7 @@
 			"Wollipeds are known to use spitting as a form of communication, as well as a method of defense. Most wollipeds only spit at one another, typically in the course of their tusk-clashing shows of dominance, but when threatened, they can launch a nauseating wad of partially digested food at their attackers to sicken and distract them."
 		]
 	},
-	"wolliped,_wolliped_combat_trained": {
+	"wolliped_wolliped_combat_trained": {
 		"name": "Wolliped, Wolliped (Combat Trained)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
@@ -3133,8 +3133,8 @@
 			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
-	"wolliped_combat_trained": { "copyof": "wolliped,_wolliped_combat_trained" },
-	"wolliped,_wolliped_domesticated_or_wild": {
+	"wolliped_combat_trained": { "copyof": "wolliped_wolliped_combat_trained" },
+	"wolliped_wolliped_domesticated_or_wild": {
 		"name": "Wolliped, Wolliped (Domesticated or Wild)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
@@ -3211,7 +3211,7 @@
 			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
-	"wolliped_domesticated_or_wild": { "copyof": "wolliped,_wolliped_domesticated_or_wild" },
+	"wolliped_domesticated_or_wild": { "copyof": "wolliped_wolliped_domesticated_or_wild" },
 	"wolpertinger": {
 		"name": "Wolpertinger",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
@@ -3327,7 +3327,7 @@
 			"Armed with powerful jaws, strong legs, and a thick hide, wolverines are remarkably strong for their size. They are reckless in battle and throw themselves at their foes, clawing and biting furiously."
 		]
 	},
-	"wolverine,_dire_wolverine": {
+	"wolverine_dire_wolverine": {
 		"name": "Wolverine, Dire Wolverine",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3377,7 +3377,7 @@
 			"Dire wolverines tend to be even more territorial than their smaller wolverine cousins, and they defend to the death the areas where they choose to live, often selecting humanoid-settled regions as their own and then fearlessly tearing the settlements apart. Dire wolverines grow to about 12 feet in length and can weigh as much as 2,000 pounds."
 		]
 	},
-	"dire_wolverine": { "copyof": "wolverine,_dire_wolverine" },
+	"dire_wolverine": { "copyof": "wolverine_dire_wolverine" },
 	"worg": {
 		"name": "Worg",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3425,7 +3425,7 @@
 			"Worgs hunt in packs, running down and surrounding their prey like common wolves, but their intelligence and ability to speak make them better at coordinating their attacks. They sometimes use one packmate as a decoy, pretending to be a humanoid calling for help in order to lure intelligent prey into an ambush. Worgs that travel with goblins often allow them to ride on their backs, but in such situations it is usually the worg that is the master, not the rider."
 		]
 	},
-	"worg,_winter_wolf": {
+	"worg_winter_wolf": {
 		"name": "Worg, Winter Wolf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3476,8 +3476,8 @@
 			"A typical winter wolf is 8 feet long, stands 4-1/2 feet tall at the shoulder, and weighs about 450 pounds. Winter wolves will often ally themselves with frost giants, hill giants, and other large humanoids, serving entire tribes of giants as both scouts and guards."
 		]
 	},
-	"winter_wolf": { "copyof": "worg,_winter_wolf" },
-	"worm_that_walks,_locust_variant": {
+	"winter_wolf": { "copyof": "worg_winter_wolf" },
+	"worm_that_walks_locust_variant": {
 		"name": "Worm That Walks, Locust Variant",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
@@ -3539,7 +3539,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"locust_variant": { "copyof": "worm_that_walks,_locust_variant" },
+	"locust_variant": { "copyof": "worm_that_walks_locust_variant" },
 	"woundwyrm": {
 		"name": "Woundwyrm",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -4063,7 +4063,7 @@
 			"**Languages:** Wyrwoods speak Common. A wyrwood with a high Intelligence score can choose from the following: Draconic, Dwarven, Elven, Gnome, Goblin, or Orc."
 		]
 	},
-	"wysp,_aether_wysp": {
+	"wysp_aether_wysp": {
 		"name": "Wysp, Aether Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4118,8 +4118,8 @@
 			"**Family:** [Wysp](family/wysp)"
 		]
 	},
-	"aether_wysp": { "copyof": "wysp,_aether_wysp" },
-	"wysp,_air_wysp": {
+	"aether_wysp": { "copyof": "wysp_aether_wysp" },
+	"wysp_air_wysp": {
 		"name": "Wysp, Air Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4170,8 +4170,8 @@
 			"**Family:** [Wysp](family/wysp)"
 		]
 	},
-	"air_wysp": { "copyof": "wysp,_air_wysp" },
-	"wysp,_earth_wysp": {
+	"air_wysp": { "copyof": "wysp_air_wysp" },
+	"wysp_earth_wysp": {
 		"name": "Wysp, Earth Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4222,8 +4222,8 @@
 			"**Family:** [Wysp](family/wysp)"
 		]
 	},
-	"earth_wysp": { "copyof": "wysp,_earth_wysp" },
-	"wysp,_fire_wysp": {
+	"earth_wysp": { "copyof": "wysp_earth_wysp" },
+	"wysp_fire_wysp": {
 		"name": "Wysp, Fire Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4276,8 +4276,8 @@
 			"**Family:** [Wysp](family/wysp)"
 		]
 	},
-	"fire_wysp": { "copyof": "wysp,_fire_wysp" },
-	"wysp,_water_wysp": {
+	"fire_wysp": { "copyof": "wysp_fire_wysp" },
+	"wysp_water_wysp": {
 		"name": "Wysp, Water Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4333,7 +4333,7 @@
 			"**Family:** [Wysp](family/wysp)"
 		]
 	},
-	"water_wysp": { "copyof": "wysp,_water_wysp" },
+	"water_wysp": { "copyof": "wysp_water_wysp" },
 	"wyvaran": {
 		"name": "Wyvaran",
 		"sources": [ "Bestiary 4" ],
@@ -4756,7 +4756,7 @@
 			"Xills are the scourge of the Ethereal Plane, conquering everything in their paths with only one purpose: to perpetuate their race at the expense of others. All xills are female and capable of fertilizing their own eggs, but require living hosts to incubate these eggs, which they inject into paralyzed victims by means of a grotesque ovipositor normally kept retracted behind their mandibles. Evil and alien, the plane-shifting xills possess impressive intelligence and a totalitarian, militaristic culture all their own. Though they see most other life forms as incubators, they particularly prize phase spiders for this purpose."
 		]
 	},
-	"xill,_xill_matriarch": {
+	"xill_xill_matriarch": {
 		"name": "Xill, Xill Matriarch",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -4812,8 +4812,8 @@
 			"Xill matriarchs are paragons of their kind, having undergone a ritualistic metamorphosis involving the consumption of brain matter from xill egg hosts. The matriarchs possess powerful mental abilities, which they use to protect the young of their race."
 		]
 	},
-	"xill_matriarch": { "copyof": "xill,_xill_matriarch" },
-	"xiomorn,_vault_keeper": {
+	"xill_matriarch": { "copyof": "xill_xill_matriarch" },
+	"xiomorn_vault_keeper": {
 		"name": "Xiomorn, Vault Keeper",
 		"sources": [
 			"Planar Adventures",
@@ -4878,7 +4878,7 @@
 			"Xiomorns comprise two castes: the four-legged mythic [Vault Builders](monster/vault_builder) and the two-legged non-mythic Vault Keepers. Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
-	"vault_keeper": { "copyof": "xiomorn,_vault_keeper" },
+	"vault_keeper": { "copyof": "xiomorn_vault_keeper" },
 	"xocothian": {
 		"name": "Xocothian",
 		"sources": [ "Inner Sea Gods" ],
@@ -6339,7 +6339,7 @@
 			"",
 			"### Zealot Wraith, CR 7",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 63](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 63](source/cheliax_the_infernal_empire)  ",
 			"**XP** 3,200  ",
 			"NE Medium undead (incorporeal)  ",
 			"**Init** +8; **Senses** darkvision 60 ft.; Perception +16",
@@ -6553,7 +6553,7 @@
 			"",
 			"### Zhen Worm, CR 1/2",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 63](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 63](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 200  ",
 			"N Medium vermin  ",
 			"**Init** -1; **Senses** tremorsense 60 ft.; Perception +0",
@@ -6616,7 +6616,7 @@
 			"",
 			"### Zhyen, CR 1/2",
 			"",
-			"**Source** [Qadira, Gateway to the East pg. 30](source/qadira,_gateway_to_the_east)  ",
+			"**Source** [Qadira, Gateway to the East pg. 30](source/qadira_gateway_to_the_east)  ",
 			"**XP** 200  ",
 			"N Tiny outsider (air, earth, fire, or water)  ",
 			"**Init** +0; **Senses** darkvision 60 ft.; Perception +6",

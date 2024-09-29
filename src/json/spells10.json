@@ -32,7 +32,7 @@
 		"description": [
 			"## Suppress Charms and Compulsions",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 2, bard 2, cleric 2, mesmerist 2, oracle 2, paladin 2, psychic 2, shaman 2, skald 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -1257,13 +1257,13 @@
 			"You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1d4 rounds. On a successful save, a creature is instead sickened for 1 round."
 		]
 	},
-	"synaptic_pulse,_greater": {
+	"synaptic_pulse_greater": {
 		"name": "Synaptic Pulse, Greater",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "synaptic_pulse"
 	},
 	"greater_synaptic_pulse": {
-		"copyof": "synaptic_pulse,_greater"
+		"copyof": "synaptic_pulse_greater"
 	},
 	"synaptic_scramble": {
 		"name": "Synaptic Scramble",
@@ -1344,13 +1344,13 @@
 			"This spell functions like synesthesia, except as noted above."
 		]
 	},
-	"synesthesia,_mass": {
+	"synesthesia_mass": {
 		"name": "Synesthesia, Mass",
 		"sources": [ "Occult Adventures" ],
 		"copyof": "synesthesia"
 	},
 	"mass_synesthesia": {
-		"copyof": "synesthesia,_mass"
+		"copyof": "synesthesia_mass"
 	},
 	"tactical_acumen": {
 		"name": "Tactical Acumen",
@@ -2377,13 +2377,13 @@
 			"The Pathfinders of the Grand Lodge make use of permanent teleport traps in several key locations, trapping would-be intruders in a small wing of jail cells. At least one crypt of the Whispering Tyrant makes use of the spell as well, trapping grave robbers in coffin-sized stone cysts, there to die a slow and agonizing death from thirst and starvation."
 		]
 	},
-	"teleport,_greater": {
+	"teleport_greater": {
 		"name": "Teleport, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "teleport"
 	},
 	"greater_teleport": {
-		"copyof": "teleport,_greater"
+		"copyof": "teleport_greater"
 	},
 	"teleportation_circle": {
 		"name": "Teleportation Circle",
@@ -3317,13 +3317,13 @@
 			"This spell functions as thunderstomp, except as noted, and it affects all creatures in the area, regardless of size. When you attempt the combat maneuver check, apply its result to each creature within the area."
 		]
 	},
-	"thunderstomp,_greater": {
+	"thunderstomp_greater": {
 		"name": "Thunderstomp, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "thunderstomp"
 	},
 	"greater_thunderstomp": {
-		"copyof": "thunderstomp,_greater"
+		"copyof": "thunderstomp_greater"
 	},
 	"tidal_surge": {
 		"name": "Tidal Surge",
@@ -3594,7 +3594,7 @@
 		"description": [
 			"## Tomb Legion",
 			"",
-			"**Source** [Faction Guide pg. 61](source/faction_guide), [Osirion, Land of the Pharaohs pg. 27](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Faction Guide pg. 61](source/faction_guide), [Osirion, Land of the Pharaohs pg. 27](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** arcanist 8, cleric 8, oracle 8, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -3662,13 +3662,13 @@
 			"This spell functions like tongues, except you divide the duration in 10-minute intervals among the creatures touched."
 		]
 	},
-	"tongues,_communal": {
+	"tongues_communal": {
 		"name": "Tongues, Communal",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "tongues"
 	},
 	"communal_tongues": {
-		"copyof": "tongues,_communal"
+		"copyof": "tongues_communal"
 	},
 	"torpid_reanimation": {
 		"name": "Torpid Reanimation",
@@ -5429,7 +5429,7 @@
 		"description": [
 			"## Twine Double",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax_empire_of_devils)  ",
 			"**School** [illusion](spelldef/illusion) ([shadow](spelldef/shadow_subschool)); **Level** arcanist 3, redmantisassassin 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",

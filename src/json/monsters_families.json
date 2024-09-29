@@ -875,8 +875,8 @@
 			"- [Handmaiden Devil (Gylou)](monster/gylou)",
 			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul)",
 			"- [Horned Devil (Cornugon)](monster/cornugon)",
-			"- [Host Devil, Greater (Magaav)](monster/host_devil,_greater_magaav)",
-			"- [Host Devil, Lesser (Gaav)](monster/host_devil,_lesser_gaav)",
+			"- [Host Devil, Greater (Magaav)](monster/host_devil_greater_magaav)",
+			"- [Host Devil, Lesser (Gaav)](monster/host_devil_lesser_gaav)",
 			"- [Ice Devil (Gelugon)](monster/gelugon)",
 			"- [Immolation Devil (Puragaus)](monster/puragaus)",
 			"- [Imp](monster/imp)",
@@ -1562,7 +1562,7 @@
 	"imperial_dragon": {
 		"copyof": "dragon_imperial"
 	},
-	"dragon_imperial,_forest": {
+	"dragon_imperial_forest": {
 		"name": "Dragon (Imperial, Forest)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
@@ -1606,9 +1606,9 @@
 		]
 	},
 	"forest_dragon": {
-		"copyof": "dragon_imperial,_forest"
+		"copyof": "dragon_imperial_forest"
 	},
-	"dragon_imperial,_sea": {
+	"dragon_imperial_sea": {
 		"name": "Dragon (Imperial, Sea)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
@@ -1650,9 +1650,9 @@
 		]
 	},
 	"sea_dragon": {
-		"copyof": "dragon_imperial,_sea"
+		"copyof": "dragon_imperial_sea"
 	},
-	"dragon_imperial,_sky": {
+	"dragon_imperial_sky": {
 		"name": "Dragon (Imperial, Sky)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
@@ -1696,9 +1696,9 @@
 		]
 	},
 	"sky_dragon": {
-		"copyof": "dragon_imperial,_sky"
+		"copyof": "dragon_imperial_sky"
 	},
-	"dragon_imperial,_sovereign": {
+	"dragon_imperial_sovereign": {
 		"name": "Dragon (Imperial, Sovereign)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
@@ -1740,9 +1740,9 @@
 		]
 	},
 	"sovereign_dragon": {
-		"copyof": "dragon_imperial,_sovereign"
+		"copyof": "dragon_imperial_sovereign"
 	},
-	"dragon_imperial,_underworld": {
+	"dragon_imperial_underworld": {
 		"name": "Dragon (Imperial, Underworld)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
@@ -1782,7 +1782,7 @@
 		]
 	},
 	"underworld_dragon": {
-		"copyof": "dragon_imperial,_underworld"
+		"copyof": "dragon_imperial_underworld"
 	},
 	"dragon_outer": {
 		"name": "Dragon (Outer)",
@@ -1801,7 +1801,7 @@
 	"outer_dragon": {
 		"copyof": "dragon_outer"
 	},
-	"dragon_outer,_lunar": {
+	"dragon_outer_lunar": {
 		"name": "Dragon (Outer, Lunar)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
@@ -1845,9 +1845,9 @@
 		]
 	},
 	"lunar_dragon": {
-		"copyof": "dragon_outer,_lunar"
+		"copyof": "dragon_outer_lunar"
 	},
-	"dragon_outer,_solar": {
+	"dragon_outer_solar": {
 		"name": "Dragon (Outer, Solar)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
@@ -1889,9 +1889,9 @@
 		]
 	},
 	"solar_dragon": {
-		"copyof": "dragon_outer,_solar"
+		"copyof": "dragon_outer_solar"
 	},
-	"dragon_outer,_time": {
+	"dragon_outer_time": {
 		"name": "Dragon (Outer, Time)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
@@ -1935,9 +1935,9 @@
 		]
 	},
 	"time_dragon": {
-		"copyof": "dragon_outer,_time"
+		"copyof": "dragon_outer_time"
 	},
-	"dragon_outer,_void": {
+	"dragon_outer_void": {
 		"name": "Dragon (Outer, Void)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
@@ -1979,9 +1979,9 @@
 		]
 	},
 	"void_dragon": {
-		"copyof": "dragon_outer,_void"
+		"copyof": "dragon_outer_void"
 	},
-	"dragon_outer,_vortex": {
+	"dragon_outer_vortex": {
 		"name": "Dragon (Outer, Vortex)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
@@ -2023,7 +2023,7 @@
 		]
 	},
 	"vortex_dragon": {
-		"copyof": "dragon_outer,_vortex"
+		"copyof": "dragon_outer_vortex"
 	},
 	"dragon_planar": {
 		"name": "Dragon (Planar)",
@@ -2045,7 +2045,7 @@
 	"planar_dragon": {
 		"copyof": "dragon_planar"
 	},
-	"dragon_planar,_apocalypse": {
+	"dragon_planar_apocalypse": {
 		"name": "Dragon (Planar, Apocalypse)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
@@ -2064,9 +2064,9 @@
 		]
 	},
 	"apocalypse_dragon": {
-		"copyof": "dragon_planar,_apocalypse"
+		"copyof": "dragon_planar_apocalypse"
 	},
-	"dragon_planar,_bliss": {
+	"dragon_planar_bliss": {
 		"name": "Dragon (Planar, Bliss)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
@@ -2085,9 +2085,9 @@
 		]
 	},
 	"bliss_dragon": {
-		"copyof": "dragon_planar,_bliss"
+		"copyof": "dragon_planar_bliss"
 	},
-	"dragon_planar,_crypt": {
+	"dragon_planar_crypt": {
 		"name": "Dragon (Planar, Crypt)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
@@ -2106,9 +2106,9 @@
 		]
 	},
 	"crypt_dragon": {
-		"copyof": "dragon_planar,_crypt"
+		"copyof": "dragon_planar_crypt"
 	},
-	"dragon_planar,_edict": {
+	"dragon_planar_edict": {
 		"name": "Dragon (Planar, Edict)",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"members": [
@@ -2220,9 +2220,9 @@
 		]
 	},
 	"edict_dragon": {
-		"copyof": "dragon_planar,_edict"
+		"copyof": "dragon_planar_edict"
 	},
-	"dragon_planar,_havoc": {
+	"dragon_planar_havoc": {
 		"name": "Dragon (Planar, Havoc)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
@@ -2241,9 +2241,9 @@
 		]
 	},
 	"havoc_dragon": {
-		"copyof": "dragon_planar,_havoc"
+		"copyof": "dragon_planar_havoc"
 	},
-	"dragon_planar,_infernal": {
+	"dragon_planar_infernal": {
 		"name": "Dragon (Planar, Infernal)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
@@ -2262,9 +2262,9 @@
 		]
 	},
 	"infernal_dragon": {
-		"copyof": "dragon_planar,_infernal"
+		"copyof": "dragon_planar_infernal"
 	},
-	"dragon_planar,_paradise": {
+	"dragon_planar_paradise": {
 		"name": "Dragon (Planar, Paradise)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
@@ -2283,9 +2283,9 @@
 		]
 	},
 	"paradise_dragon": {
-		"copyof": "dragon_planar,_paradise"
+		"copyof": "dragon_planar_paradise"
 	},
-	"dragon_planar,_rift": {
+	"dragon_planar_rift": {
 		"name": "Dragon (Planar, Rift)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
@@ -2304,9 +2304,9 @@
 		]
 	},
 	"rift_dragon": {
-		"copyof": "dragon_planar,_rift"
+		"copyof": "dragon_planar_rift"
 	},
-	"dragon_planar,_tumult": {
+	"dragon_planar_tumult": {
 		"name": "Dragon (Planar, Tumult)",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"members": [
@@ -2325,7 +2325,7 @@
 		]
 	},
 	"tumult_dragon": {
-		"copyof": "dragon_planar,_tumult"
+		"copyof": "dragon_planar_tumult"
 	},
 	"dragon_primal": {
 		"name": "Dragon (Primal)",
@@ -2344,7 +2344,7 @@
 	"primal_dragon": {
 		"copyof": "dragon_primal"
 	},
-	"dragon_primal,_brine": {
+	"dragon_primal_brine": {
 		"name": "Dragon (Primal, Brine)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
@@ -2384,9 +2384,9 @@
 		]
 	},
 	"brine_dragon": {
-		"copyof": "dragon_primal,_brine"
+		"copyof": "dragon_primal_brine"
 	},
-	"dragon_primal,_cloud": {
+	"dragon_primal_cloud": {
 		"name": "Dragon (Primal, Cloud)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
@@ -2428,9 +2428,9 @@
 		]
 	},
 	"cloud_dragon": {
-		"copyof": "dragon_primal,_cloud"
+		"copyof": "dragon_primal_cloud"
 	},
-	"dragon_primal,_crystal": {
+	"dragon_primal_crystal": {
 		"name": "Dragon (Primal, Crystal)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
@@ -2472,9 +2472,9 @@
 		]
 	},
 	"crystal_dragon": {
-		"copyof": "dragon_primal,_crystal"
+		"copyof": "dragon_primal_crystal"
 	},
-	"dragon_primal,_magma": {
+	"dragon_primal_magma": {
 		"name": "Dragon (Primal, Magma)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
@@ -2514,9 +2514,9 @@
 		]
 	},
 	"magma_dragon": {
-		"copyof": "dragon_primal,_magma"
+		"copyof": "dragon_primal_magma"
 	},
-	"dragon_primal,_umbral": {
+	"dragon_primal_umbral": {
 		"name": "Dragon (Primal, Umbral)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
@@ -2562,7 +2562,7 @@
 		]
 	},
 	"umbral_dragon": {
-		"copyof": "dragon_primal,_umbral"
+		"copyof": "dragon_primal_umbral"
 	},
 	"dragon_red": {
 		"name": "Dragon (Red)",
@@ -4456,6 +4456,7 @@
 			"",
 			"- [Atropos the Last Sister](faith/atropos)",
 			"- [Barzahk the Passage](faith/barzahk)",
+			"    - [Barzahk, Psychopomp Usher](monster/barzahk)",
 			"- [Ceyannan the Shepherd](faith/ceyannan)",
 			"- [Dammar the Denied](faith/dammar)",
 			"- [Imot the Symbol of Doom](faith/imot)",

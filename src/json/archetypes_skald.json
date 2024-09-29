@@ -112,7 +112,7 @@
 			"",
 			"**Deadly Rhythm (Ex):** At 1st level, during his raging song, a Belkzen war drummer can draw clubs and greatclubs as a free action as if he had the [Quick Draw](feat/quick_draw) feat. At 3rd level, the war drummer gains a +1 bonus on damage rolls for attacks made with clubs or greatclubs. At 7th level and every 4 levels thereafter, this bonus increases by 1 (to a maximum of +5). At 6th level, the war drummer gains [Improved Critical](feat/improved_critical) with the club or the greatclub as a bonus feat. This ability replaces Scribe Scroll.",
 			"",
-			"**Weapon Master (Ex):** At 7th level, a war drummer gains Craft Magic Arms and Armor as a bonus feat. This ability replaces lore master.",
+			"**Weapon Master (Ex):** At 7th level, a war drummer gains [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) as a bonus feat. This ability replaces lore master.",
 			"",
 			"**Raging Song (Su):** A war drummer gains access to the following raging song.",
 			"",
@@ -441,7 +441,7 @@
 		"description": [
 			"## Sunsinger",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira,_jewel_of_the_east)  ",
+			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira_jewel_of_the_east)  ",
 			"Qadiran sunsingers are particularly religious skalds of Sarenrae who call down their goddess's glory to fill soldiers with fire.",
 			"",
 			"**Alignment:** A sunsinger skald must be lawful good, neutral good, or neutral, and must worship Sarenrae.",

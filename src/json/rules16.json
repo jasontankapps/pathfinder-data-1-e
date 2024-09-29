@@ -3514,7 +3514,7 @@
 		"subtopics": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3566,7 +3566,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3591,14 +3591,14 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
 			"armor_piece_descriptions"
 		]
 	},
-	"masterwork,_special_material,_and_magic_armor": {
+	"masterwork_special_material_and_magic_armor": {
 		"name": "Masterwork, Special Material, and Magic Armor",
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
@@ -3629,7 +3629,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3657,7 +3657,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"piecemeal_armor",
-			"masterwork,_special_material,_and_magic_armor"
+			"masterwork_special_material_and_magic_armor"
 		],
 		"siblings": [
 			"adamantine",
@@ -3677,7 +3677,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"piecemeal_armor",
-			"masterwork,_special_material,_and_magic_armor"
+			"masterwork_special_material_and_magic_armor"
 		],
 		"siblings": [
 			"adamantine",
@@ -3710,7 +3710,7 @@
 		"parent_topics": [
 			"optional_rules_systems",
 			"piecemeal_armor",
-			"masterwork,_special_material,_and_magic_armor"
+			"masterwork_special_material_and_magic_armor"
 		],
 		"siblings": [
 			"adamantine",
@@ -3755,7 +3755,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3777,7 +3777,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3799,7 +3799,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -3826,7 +3826,7 @@
 		"siblings": [
 			"armor_pieces_and_armor_suits",
 			"armor_pieces_and_proficiency",
-			"masterwork,_special_material,_and_magic_armor",
+			"masterwork_special_material_and_magic_armor",
 			"getting_into_and_out_of_armor_pieces",
 			"armor_pieces_for_unusual_creatures",
 			"armor_and_armor_piece_hit_points_and_hardness",
@@ -4130,7 +4130,7 @@
 		"name": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
 			"",
 			"This article introduces relics: magic items that grow in power the more they are used in the pursuit of a specific cause. Each relic was once a typical magic item that played a central role in a massively important event, increasing dramatically in potency as it drew power from its shaping of fate. Relics occupy a space somewhere between normal magic items and artifacts. Unlike most magic items, relics can't be crafted. Unlike artifacts, however, they can be destroyed normally. Eventually, these extra-powerful items are misplaced, forgotten, or ignored, and their power wanes as a result-though it is not entirely lost.",
 			"",
@@ -4163,7 +4163,7 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
 			"",
 			"As she adventures, the wielder of a relic might achieve great deeds, called triumphs, tied to the item's associated cause, which she can apply to the relic to increase its power. Each volume of the War for the Crown Adventure Path indicates which deeds qualify as a triumph for the relics of old Taldor. Each PC involved in achieving a triumph can apply that triumph to up to one of her carried relics, unlocking the next set of abilities for that item.",
 			"",
@@ -4187,7 +4187,7 @@
 		"name": "Relics In Your Own Campaign",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
 			"",
 			"To implement relics in your own game, you can use the Taldan items presented here, adjusting their themes and details as necessary. Alternatively, you can adapt [scaling items from Pathfinder RPG Pathfinder Unchained](rule/scaling_items) or create your own items to suit your needs.",
 			"",
@@ -4210,7 +4210,7 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_#128_songbird,_scion,_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_#128_songbird_scion_saboteur)",
 			"",
 			"Relics work much like [scaling items](rule/scaling_items), with the exceptions that they don't cost a share of your treasure and they scale up due to story events rather than at certain levels. This makes it easy to adapt the scaling items from that book to use as relics, either to replace ones listed here that don't suit your group in War for the Crown or to use in a different campaign. Doing so requires the following adjustments, in addition to adding thematic background elements to the items to tie them to the triumphs of your game.",
 			"",

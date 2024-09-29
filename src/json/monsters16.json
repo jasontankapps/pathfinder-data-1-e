@@ -520,7 +520,7 @@
 			"After battles waged by warring armies or mercenary bands, lich newts often swarm the rotting corpses, feasting on the softening flesh and hunting the various insects attracted by the carrion. As a result, many Nirmathi believe the newts to be bad omens, a legacy of Tar-Baphon, or otherwise associated with necromancy. Lich newt familiars are popular with wizards and witches who care more about the creatures' reputation than their true nature as bottom-feeders and scavengers. An arcane caster who selects a lich newt as his familiar gains a +2 bonus on Fortitude saves against disease and poison."
 		]
 	},
-	"lich,_demilich": {
+	"lich_demilich": {
 		"name": "Lich, Demilich",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -608,8 +608,8 @@
 			"Under exceptional conditions, a lich's full consciousness survives its transformation into a demilich, or a lich's wandering intellect manages to return to its jeweled skull. Such creatures are awakened demiliches, and combine the powers and near-invulnerability of a demilich with the mind and spellcasting prowess of a lich. An awakened demilich has the full spellcasting abilities of the lich it was before, and gains Eschew Materials and Still Spell as bonus feats. Awakened liches keep their original lich Hit Dice, and any mental attributes that are higher than the demilich's minimums. They otherwise have all the special abilities and defenses of a demilich except torpor, and no abilities of the original lich beyond spellcasting and mental attributes. An awakened demilich has a CR of 16, or the CR of the original lich + 3, whichever is higher."
 		]
 	},
-	"demilich": { "copyof": "lich,_demilich" },
-	"lich,_forsaken_lich": {
+	"demilich": { "copyof": "lich_demilich" },
+	"lich_forsaken_lich": {
 		"name": "Lich, Forsaken Lich",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
@@ -669,7 +669,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"forsaken_lich": { "copyof": "lich,_forsaken_lich" },
+	"forsaken_lich": { "copyof": "lich_forsaken_lich" },
 	"liminal_sprite": {
 		"name": "Liminal Sprite",
 		"sources": [ "Bestiary 5" ],
@@ -734,7 +734,7 @@
 			"Liminal sprites stand 1 to 1-1/2 feet tall, and their mothlike wings stretch to a similar distance. Liminal sprites follow the local fashions of their city, modeling their clothes after those worn by nobles and celebrities."
 		]
 	},
-	"linnorm,_cairn_linnorm": {
+	"linnorm_cairn_linnorm": {
 		"name": "Linnorm, Cairn Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -794,8 +794,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"cairn_linnorm": { "copyof": "linnorm,_cairn_linnorm" },
-	"linnorm,_crag_linnorm": {
+	"cairn_linnorm": { "copyof": "linnorm_cairn_linnorm" },
+	"linnorm_crag_linnorm": {
 		"name": "Linnorm, Crag Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -860,8 +860,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"crag_linnorm": { "copyof": "linnorm,_crag_linnorm" },
-	"linnorm,_fjord_linnorm": {
+	"crag_linnorm": { "copyof": "linnorm_crag_linnorm" },
+	"linnorm_fjord_linnorm": {
 		"name": "Linnorm, Fjord Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -924,8 +924,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"fjord_linnorm": { "copyof": "linnorm,_fjord_linnorm" },
-	"linnorm,_gare_linnorm": {
+	"fjord_linnorm": { "copyof": "linnorm_fjord_linnorm" },
+	"linnorm_gare_linnorm": {
 		"name": "Linnorm, Gare Linnorm",
 		"sources": [
 			"Pathfinder #50: Night of Frozen Shadows",
@@ -1007,8 +1007,8 @@
 			"Despite their fearsome reputations, gare linnorms are sometimes hunted by the brave or the foolhardy. In the Lands of the Linnorm Kings, would-be kings who kill a gare linnorm are afforded extra prestige, as such combat often requires fighting the beast both on land and on or beneath the surface of the water. Frost giants are also known to hunt gare linnorms, but invariably target hatchlings or the very young, raising the captive dragons as powerful sentries and loyal companions that are often more dangerous than the giant's entire clan."
 		]
 	},
-	"gare_linnorm": { "copyof": "linnorm,_gare_linnorm" },
-	"linnorm,_ice_linnorm": {
+	"gare_linnorm": { "copyof": "linnorm_gare_linnorm" },
+	"linnorm_ice_linnorm": {
 		"name": "Linnorm, Ice Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -1075,8 +1075,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"ice_linnorm": { "copyof": "linnorm,_ice_linnorm" },
-	"linnorm,_sea_linnorm": {
+	"ice_linnorm": { "copyof": "linnorm_ice_linnorm" },
+	"linnorm_sea_linnorm": {
 		"name": "Linnorm, Sea Linnorm",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
@@ -1154,8 +1154,8 @@
 			"Few mortals know of the existence of sea linnorms, let alone hunt these ancient creatures. The sole recorded instance of a successfully slain sea linnorm was by the Linnorm King Elgar Fahrstad. As the king crossed the Arcadian Ocean on his way to the mystical paradise of Valenhall, Fahrstad is said to have leapt without uttering a word from the side of his longship into the depths of the ocean. For 3 days and 3 nights, his entourage waited. On daybreak of the fourth day, Elgar Fahrstad emerged from the sea, accompanied by a ride of eight valkyries and the severed head of a sea linnorm. A half-dozen skalds departed the expedition, forsaking the paradise of Valenhall so they could return to the Lands of the Linnorm Kings and retell the final journey of King Fahrstad."
 		]
 	},
-	"sea_linnorm": { "copyof": "linnorm,_sea_linnorm" },
-	"linnorm,_taiga_linnorm": {
+	"sea_linnorm": { "copyof": "linnorm_sea_linnorm" },
+	"linnorm_taiga_linnorm": {
 		"name": "Linnorm, Taiga Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1219,8 +1219,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"taiga_linnorm": { "copyof": "linnorm,_taiga_linnorm" },
-	"linnorm,_tarn_linnorm": {
+	"taiga_linnorm": { "copyof": "linnorm_taiga_linnorm" },
+	"linnorm_tarn_linnorm": {
 		"name": "Linnorm, Tarn Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -1290,8 +1290,8 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"tarn_linnorm": { "copyof": "linnorm,_tarn_linnorm" },
-	"linnorm,_tor_linnorm": {
+	"tarn_linnorm": { "copyof": "linnorm_tarn_linnorm" },
+	"linnorm_tor_linnorm": {
 		"name": "Linnorm, Tor Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1354,7 +1354,7 @@
 			"**Family:** [Linnorm](family/linnorm)"
 		]
 	},
-	"tor_linnorm": { "copyof": "linnorm,_tor_linnorm" },
+	"tor_linnorm": { "copyof": "linnorm_tor_linnorm" },
 	"lion": {
 		"name": "Lion",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1405,7 +1405,7 @@
 			"Lions prefer plains but can adapt to living in shallow caves as long as there's a large and stable supply of prey to keep them fed."
 		]
 	},
-	"lion,_dire_lion_spotted_lion": {
+	"lion_dire_lion_spotted_lion": {
 		"name": "Lion, Dire Lion (Spotted Lion)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1451,8 +1451,8 @@
 			"Dire lions, known locally as spotted lions or cave lions, are immense predators that can grow up to 15 feet long and weigh up to 3,500 pounds. Although they are merely animals, these large creatures seem to take an almost sadistic glee in playing with and tormenting their prey before eventually devouring it. As a result, many tribes view dire lions as the spawn of evil gods, and hunt them down as soon as their presence in a region becomes obvious."
 		]
 	},
-	"spotted_lion": { "copyof": "lion,_dire_lion_spotted_lion" },
-	"dire_lion": { "copyof": "lion,_dire_lion_spotted_lion" },
+	"spotted_lion": { "copyof": "lion_dire_lion_spotted_lion" },
+	"dire_lion": { "copyof": "lion_dire_lion_spotted_lion" },
 	"litanu": {
 		"name": "Litanu",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
@@ -1796,7 +1796,7 @@
 			"",
 			"### Living Mirage, CR 9",
 			"",
-			"**Source** [Bestiary 5 pg. 159](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 58](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Bestiary 5 pg. 159](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 58](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 6,400  ",
 			"N Gargantuan ooze  ",
 			"**Init** +0; Senses Perception -5",
@@ -1938,7 +1938,7 @@
 			"In the annals of recorded history, ancient texts mentioning living runes always seem to do so in relation to the forgotten goddess Lissala, leading scholars to believe that either the creatures served worshipers of the deity in some way, or were rewarded as gifts to particularly devout supplicants. Some even speculate that Lissala herself is responsible for the creation of living runes. Others conjecture that living runes have always been, and are among the universe's eldest creatures, having escaped from the lips of some primordial god when the first words of creation were uttered. Evidence seems to dispute both these claims-the creatures are known to spring up from the scribbled text and graffiti of magic-soured ruins or untriggered symbol spells long left to rot. Whatever the truth, these haughty creatures do not discuss their origins."
 		]
 	},
-	"living_sandstorm,_living_sandstorm_humanoid": {
+	"living_sandstorm_living_sandstorm_humanoid": {
 		"name": "Living Sandstorm, Living Sandstorm (Humanoid)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -2006,8 +2006,8 @@
 			"Due to their intrepidness, they readily answer callings to serve summoners so they can visit new places and spread their sand far and wide. If they see an opportunity to do so, they may break free of their calling and explore the wider Material Plane, where they favor desert climes and their nearby regions, and where they are known to contribute to rapid desertification. When marooned on the Material Plane, they are generally restless until they find a way back to the Plane of Earth, but if they know of a route home, they instead explore the nearby area, wandering farther and farther until they lose interest in filling that world with sand and long to move on to a new one."
 		]
 	},
-	"living_sandstorm_humanoid": { "copyof": "living_sandstorm,_living_sandstorm_humanoid" },
-	"living_sandstorm,_living_sandstorm_sandstorm": {
+	"living_sandstorm_humanoid": { "copyof": "living_sandstorm_living_sandstorm_humanoid" },
+	"living_sandstorm_living_sandstorm_sandstorm": {
 		"name": "Living Sandstorm, Living Sandstorm (Sandstorm)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -2078,7 +2078,7 @@
 			"Due to their intrepidness, they readily answer callings to serve summoners so they can visit new places and spread their sand far and wide. If they see an opportunity to do so, they may break free of their calling and explore the wider Material Plane, where they favor desert climes and their nearby regions, and where they are known to contribute to rapid desertification. When marooned on the Material Plane, they are generally restless until they find a way back to the Plane of Earth, but if they know of a route home, they instead explore the nearby area, wandering farther and farther until they lose interest in filling that world with sand and long to move on to a new one."
 		]
 	},
-	"living_sandstorm_sandstorm": { "copyof": "living_sandstorm,_living_sandstorm_sandstorm" },
+	"living_sandstorm_sandstorm": { "copyof": "living_sandstorm_living_sandstorm_sandstorm" },
 	"living_topiary": {
 		"name": "Living Topiary",
 		"sources": [
@@ -2212,7 +2212,7 @@
 			"**Requirements** Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp"
 		]
 	},
-	"lizard,_giant_chameleon": {
+	"lizard_giant_chameleon": {
 		"name": "Lizard, Giant Chameleon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2262,8 +2262,8 @@
 			"These large lizards have the ability to shift the pigments in their skin to match their surroundings. A giant chameleon is typically 11 feet long and weighs 160 pounds."
 		]
 	},
-	"giant_chameleon": { "copyof": "lizard,_giant_chameleon" },
-	"lizard,_giant_gecko": {
+	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
+	"lizard_giant_gecko": {
 		"name": "Lizard, Giant Gecko",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -2309,8 +2309,8 @@
 			"Smaller humanoids (in particular, goblins) can even use the creatures as mounts, taking advantage of their superior climbing skills to attack from seemingly impossible positions and angles. A giant gecko measures 8 feet from nose to tail and weighs 120 pounds. Coloration among giant geckos can vary wildly, though most are some shade of green."
 		]
 	},
-	"giant_gecko": { "copyof": "lizard,_giant_gecko" },
-	"lizard,_giant_frilled_lizard": {
+	"giant_gecko": { "copyof": "lizard_giant_gecko" },
+	"lizard_giant_frilled_lizard": {
 		"name": "Lizard, Giant Frilled Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2360,8 +2360,8 @@
 			"This lizard is a true behemoth-an apex predator found in tropical regions. Many species of giant lizard exist-other species lack this lizard's intimidating charge special ability but might have other special attacks like grab, trip, constrict (with a bite), or pounce."
 		]
 	},
-	"giant_frilled_lizard": { "copyof": "lizard,_giant_frilled_lizard" },
-	"lizard,_monitor_lizard": {
+	"giant_frilled_lizard": { "copyof": "lizard_giant_frilled_lizard" },
+	"lizard_monitor_lizard": {
 		"name": "Lizard, Monitor Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2409,7 +2409,7 @@
 			"Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds."
 		]
 	},
-	"monitor_lizard": { "copyof": "lizard,_monitor_lizard" },
+	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
 	"lizardfolk": {
 		"name": "Lizardfolk",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2467,7 +2467,7 @@
 			"The lizardfolk presented here dwell in a swampy environment. Lizardfolk tribes can exist in other environments as well, but they lose their swim speed and instead gain a climb speed of 15 feet."
 		]
 	},
-	"lizardfolk,_lizard_scion": {
+	"lizardfolk_lizard_scion": {
 		"name": "Lizardfolk, Lizard Scion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2528,8 +2528,8 @@
 			"Lizard scions average 10 feet in height and 500 pounds, though this can vary by tribe and age. Unlike boggard priest-kings, lizard scions are never fat, but rather hugely muscled specimens with excellent reflexes."
 		]
 	},
-	"lizard_scion": { "copyof": "lizardfolk,_lizard_scion" },
-	"lizardfolk,_lizardfolk_berserker": {
+	"lizard_scion": { "copyof": "lizardfolk_lizard_scion" },
+	"lizardfolk_lizardfolk_berserker": {
 		"name": "Lizardfolk, Lizardfolk Berserker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2581,8 +2581,8 @@
 			"Some warriors enter war-trances to increase their prowess."
 		]
 	},
-	"lizardfolk_berserker": { "copyof": "lizardfolk,_lizardfolk_berserker" },
-	"lizardfolk,_lizardfolk_champion": {
+	"lizardfolk_berserker": { "copyof": "lizardfolk_lizardfolk_berserker" },
+	"lizardfolk_lizardfolk_champion": {
 		"name": "Lizardfolk, Lizardfolk Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2652,8 +2652,8 @@
 			"**SQ** devotion, tricks (attack [all creatures], come, defend, down, guard, heal, seek, stay, work)"
 		]
 	},
-	"lizardfolk_champion": { "copyof": "lizardfolk,_lizardfolk_champion" },
-	"lizardfolk,_lizardfolk_clutch_mother": {
+	"lizardfolk_champion": { "copyof": "lizardfolk_lizardfolk_champion" },
+	"lizardfolk_lizardfolk_clutch_mother": {
 		"name": "Lizardfolk, Lizardfolk Clutch Mother",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2717,8 +2717,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"lizardfolk_clutch_mother": { "copyof": "lizardfolk,_lizardfolk_clutch_mother" },
-	"lizardfolk,_lizardfolk_rattler": {
+	"lizardfolk_clutch_mother": { "copyof": "lizardfolk_lizardfolk_clutch_mother" },
+	"lizardfolk_lizardfolk_rattler": {
 		"name": "Lizardfolk, Lizardfolk Rattler",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2768,8 +2768,8 @@
 			"Lizardfolk rattlers are often tribal elders, but when youths show a propensity for bardic magic or a particular passion for the old stories and shamanistic rituals, a tribe's existing rattlers might choose to take them in and train them as the rattlers of the next generation. This practice is crucial, as it can take most of a lifetime to learn all the stories, and a tribe never wants to risk losing ties to their history because of the sudden death of the tribe's rattler to old age or in battle."
 		]
 	},
-	"lizardfolk_rattler": { "copyof": "lizardfolk,_lizardfolk_rattler" },
-	"lizardfolk,_lizardfolk_sorcerer": {
+	"lizardfolk_rattler": { "copyof": "lizardfolk_lizardfolk_rattler" },
+	"lizardfolk_lizardfolk_sorcerer": {
 		"name": "Lizardfolk, Lizardfolk Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2829,8 +2829,8 @@
 			"Lizardfolk sorcerers can have any bloodline, but most claim (rightly or not) that their magic is the result of ancient interbreeding with majestic dragons. With the blood of dragons coursing through her veins, the sorcerer is respected and feared by members of her tribe. They could see her as an omen-of good or ill-and might send her away to live on the outskirts of tribal land if she can't quickly learn to control her powers. Nevertheless, though the sorcerer might stand apart from the rest of her tribe, she almost always comes to her kin's defense in their times of need."
 		]
 	},
-	"lizardfolk_sorcerer": { "copyof": "lizardfolk,_lizardfolk_sorcerer" },
-	"lizardfolk,_lizardfolk_stalker": {
+	"lizardfolk_sorcerer": { "copyof": "lizardfolk_lizardfolk_sorcerer" },
+	"lizardfolk_lizardfolk_stalker": {
 		"name": "Lizardfolk, Lizardfolk Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2880,8 +2880,8 @@
 			"Submerged in shallow water or hidden in tangles of rushes, lizardfolk rangers give away their position only once it is too late for their prey to do anything about it."
 		]
 	},
-	"lizardfolk_stalker": { "copyof": "lizardfolk,_lizardfolk_stalker" },
-	"lizardfolk,_lizardfolk_swamp_lurker": {
+	"lizardfolk_stalker": { "copyof": "lizardfolk_lizardfolk_stalker" },
+	"lizardfolk_lizardfolk_swamp_lurker": {
 		"name": "Lizardfolk, Lizardfolk Swamp Lurker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2927,8 +2927,8 @@
 			"Submerged in shallow water or hidden in tangles of rushes, lizardfolk rangers give away their position only once it is too late for their prey to do anything about it."
 		]
 	},
-	"lizardfolk_swamp_lurker": { "copyof": "lizardfolk,_lizardfolk_swamp_lurker" },
-	"lizardfolk,_lizardfolk_vanguard": {
+	"lizardfolk_swamp_lurker": { "copyof": "lizardfolk_lizardfolk_swamp_lurker" },
+	"lizardfolk_lizardfolk_vanguard": {
 		"name": "Lizardfolk, Lizardfolk Vanguard",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2979,7 +2979,7 @@
 			"Some warriors enter war-trances to increase their prowess."
 		]
 	},
-	"lizardfolk_vanguard": { "copyof": "lizardfolk,_lizardfolk_vanguard" },
+	"lizardfolk_vanguard": { "copyof": "lizardfolk_lizardfolk_vanguard" },
 	"llama": {
 		"name": "Llama",
 		"sources": [ "Animal Archive" ],
@@ -3139,7 +3139,7 @@
 			"Locathah stand roughly as tall as humans, yet their fins jut out, giving them an imposing stature. Lean and strong, locathahs weigh roughly 160 pounds."
 		]
 	},
-	"locust,_giant_locust": {
+	"locust_giant_locust": {
 		"name": "Locust, Giant Locust",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3196,8 +3196,8 @@
 			"A mature giant locust measures just over 4 feet long and weighs 50 pounds."
 		]
 	},
-	"giant_locust": { "copyof": "locust,_giant_locust" },
-	"locust,_locust_swarm": {
+	"giant_locust": { "copyof": "locust_giant_locust" },
+	"locust_locust_swarm": {
 		"name": "Locust, Locust Swarm",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -3249,8 +3249,8 @@
 			"The largest swarms, known as plagues, can include billions of locusts and cover hundreds of square miles. Locusts in these swarms are larger and more aggressive than common ones, making the swarm a true danger to everything edible in their path and even to inedible objects as well."
 		]
 	},
-	"locust_swarm": { "copyof": "locust,_locust_swarm" },
-	"locust,_plague_locust_swarm": {
+	"locust_swarm": { "copyof": "locust_locust_swarm" },
+	"locust_plague_locust_swarm": {
 		"name": "Locust, Plague Locust Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
@@ -3306,7 +3306,7 @@
 			"Plague locust swarms in other regions are considered to be the work of the demon lord Deskari, especially those found in the northern reaches of Avistan."
 		]
 	},
-	"plague_locust_swarm": { "copyof": "locust,_plague_locust_swarm" },
+	"plague_locust_swarm": { "copyof": "locust_plague_locust_swarm" },
 	"lorelei": {
 		"name": "Lorelei",
 		"sources": [
@@ -3702,7 +3702,7 @@
 			"A lurker in light is 3 feet tall, but weighs only 20 pounds."
 		]
 	},
-	"lurking_ray,_executioner's_hood": {
+	"lurking_ray_executioner's_hood": {
 		"name": "Lurking Ray, Executioner's Hood",
 		"sources": [
 			"Bestiary 4",
@@ -3763,8 +3763,8 @@
 			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
-	"executioner's_hood": { "copyof": "lurking_ray,_executioner's_hood" },
-	"lurking_ray,_lurker_above": {
+	"executioner's_hood": { "copyof": "lurking_ray_executioner's_hood" },
+	"lurking_ray_lurker_above": {
 		"name": "Lurking Ray, Lurker Above",
 		"sources": [
 			"Bestiary 4",
@@ -3823,8 +3823,8 @@
 			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
-	"lurker_above": { "copyof": "lurking_ray,_lurker_above" },
-	"lurking_ray,_trapper": {
+	"lurker_above": { "copyof": "lurking_ray_lurker_above" },
+	"lurking_ray_trapper": {
 		"name": "Lurking Ray, Trapper",
 		"sources": [
 			"Bestiary 4",
@@ -3880,7 +3880,7 @@
 			"**Family:** [Lurking Ray](family/lurking_ray)"
 		]
 	},
-	"trapper": { "copyof": "lurking_ray,_trapper" },
+	"trapper": { "copyof": "lurking_ray_trapper" },
 	"lusca": {
 		"name": "Lusca",
 		"sources": [
@@ -4517,7 +4517,7 @@
 			"As they fly through the night, manananggals make a ticking or clicking sound, leading some villagers to call the creatures \"tik-tiks.\" Once separated, a manananggal's mobile torso has a 6-foot wingspan."
 		]
 	},
-	"manasaputra,_maharishi_manu": {
+	"manasaputra_maharishi_manu": {
 		"name": "Manasaputra, Maharishi Manu",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4581,8 +4581,8 @@
 			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
-	"maharishi_manu": { "copyof": "manasaputra,_maharishi_manu" },
-	"manasaputra,_manu": {
+	"maharishi_manu": { "copyof": "manasaputra_maharishi_manu" },
+	"manasaputra_manu": {
 		"name": "Manasaputra, Manu",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4644,8 +4644,8 @@
 			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
-	"manu": { "copyof": "manasaputra,_manu" },
-	"manasaputra,_rishi_manu": {
+	"manu": { "copyof": "manasaputra_manu" },
+	"manasaputra_rishi_manu": {
 		"name": "Manasaputra, Rishi Manu",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4708,8 +4708,8 @@
 			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
-	"rishi_manu": { "copyof": "manasaputra,_rishi_manu" },
-	"manasaputra,_twilight_pitri_barhisad": {
+	"rishi_manu": { "copyof": "manasaputra_rishi_manu" },
+	"manasaputra_twilight_pitri_barhisad": {
 		"name": "Manasaputra, Twilight Pitri (Barhisad)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4792,8 +4792,8 @@
 			"**Family:** [Manasaputra](family/manasaputra)"
 		]
 	},
-	"barhisad": { "copyof": "manasaputra,_twilight_pitri_barhisad" },
-	"twilight_pitri": { "copyof": "manasaputra,_twilight_pitri_barhisad" },
+	"barhisad": { "copyof": "manasaputra_twilight_pitri_barhisad" },
+	"twilight_pitri": { "copyof": "manasaputra_twilight_pitri_barhisad" },
 	"mandragora": {
 		"name": "Mandragora",
 		"sources": [
@@ -4985,7 +4985,7 @@
 			"| Chimera | Chimera with spiked tail and spikes special attack |"
 		]
 	},
-	"mantis,_deadly_mantis": {
+	"mantis_deadly_mantis": {
 		"name": "Mantis, Deadly Mantis",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
@@ -5037,8 +5037,8 @@
 			"The legendary deadly mantis stalks the deepest jungles of Mediogalti Island and the Mwangi Expanse. Tales about this lethal predator preying upon such mammoth creatures as drakes and giants frighten even the bravest hunters. Deadly mantises are sacred to the followers of Achaekek, the Mantis God, who keep the massive beasts well fed, and bring them sacrificial victims and livestock. Followers of Achaekek have also been known to serve as protectors of the dens of deadly mantises. Though creatures of this size and power obviously need no guardians, the devout followers guard their lairs and prevent adventurers from slaying the mighty insects. The typical deadly mantis stands 40 feet tall, 60 feet long, and weighs several tons."
 		]
 	},
-	"deadly_mantis": { "copyof": "mantis,_deadly_mantis" },
-	"mantis,_giant_mantis": {
+	"deadly_mantis": { "copyof": "mantis_deadly_mantis" },
+	"mantis_giant_mantis": {
 		"name": "Mantis, Giant Mantis",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5096,7 +5096,7 @@
 			"The giant mantis presented here stands 7 feet tall and 15 feet long, and weighs 650 pounds. Larger giant mantises exist in the deepest, darkest forests of the world, where they might prey upon things as mighty as giants or dragons. Known by various names, such as the drake-eating mantis, the treebender mantis, or simply the deadly mantis, these immense behemoths average more than 60 feet in height and have a terrifying habit of destroying entire villages or towns in order to satiate their ravenous appetites. A deadly mantis is a giant mantis advanced to Colossal size, 16 Hit Dice, and CR 14."
 		]
 	},
-	"giant_mantis": { "copyof": "mantis,_giant_mantis" },
+	"giant_mantis": { "copyof": "mantis_giant_mantis" },
 	"mapinguari": {
 		"name": "Mapinguari",
 		"sources": [ "Bestiary 6" ],
@@ -5371,7 +5371,7 @@
 			"All known medusas are female. Rarely, a medusa may decide to keep a male humanoid as a mate, usually with the help of elixirs of love or similar magic, and is always careful to not petrify her prisoner-at least until she grows tired of his company."
 		]
 	},
-	"medusa,_eygreas": {
+	"medusa_eygreas": {
 		"name": "Medusa, Eygreas",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -5427,8 +5427,8 @@
 			"Now, the brazen medusa stalks the Thassilonian ruins that dot the southern Mushfens, seeking some sort of artifact or piece of history that will once again give meaning to her life, all the while butchering any she comes across with little regard to their motives or means. Though her memory is mostly shattered, her skill at hunting remains sharp, and she seeks solace from the chaos of her mind by stalking her prey and feasting on their corpses. Still, though she does not remember why, the sight of the toady people of the swamp enrages her to no end, and the only thing that will stop Eygreas from pursuing her current target is the opportunity to hunt a boggard instead."
 		]
 	},
-	"eygreas": { "copyof": "medusa,_eygreas" },
-	"megafauna,_archelon": {
+	"eygreas": { "copyof": "medusa_eygreas" },
+	"megafauna_archelon": {
 		"name": "Megafauna, Archelon",
 		"sources": [
 			"Bestiary 3",
@@ -5484,8 +5484,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"archelon": { "copyof": "megafauna,_archelon" },
-	"megafauna,_arsinoitherium": {
+	"archelon": { "copyof": "megafauna_archelon" },
+	"megafauna_arsinoitherium": {
 		"name": "Megafauna, Arsinoitherium",
 		"sources": [
 			"Bestiary 2",
@@ -5536,8 +5536,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"arsinoitherium": { "copyof": "megafauna,_arsinoitherium" },
-	"megafauna,_baluchitherium": {
+	"arsinoitherium": { "copyof": "megafauna_arsinoitherium" },
+	"megafauna_baluchitherium": {
 		"name": "Megafauna, Baluchitherium",
 		"sources": [
 			"Bestiary 3",
@@ -5590,8 +5590,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"baluchitherium": { "copyof": "megafauna,_baluchitherium" },
-	"megafauna,_basilosaurus": {
+	"baluchitherium": { "copyof": "megafauna_baluchitherium" },
+	"megafauna_basilosaurus": {
 		"name": "Megafauna, Basilosaurus",
 		"sources": [
 			"Bestiary 3",
@@ -5647,8 +5647,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"basilosaurus": { "copyof": "megafauna,_basilosaurus" },
-	"megafauna,_brontotherium": {
+	"basilosaurus": { "copyof": "megafauna_basilosaurus" },
+	"megafauna_brontotherium": {
 		"name": "Megafauna, Brontotherium",
 		"sources": [
 			"Bestiary 6",
@@ -5699,8 +5699,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"brontotherium": { "copyof": "megafauna,_brontotherium" },
-	"megafauna,_chalicotherium": {
+	"brontotherium": { "copyof": "megafauna_brontotherium" },
+	"megafauna_chalicotherium": {
 		"name": "Megafauna, Chalicotherium",
 		"sources": [
 			"Bestiary 5",
@@ -5755,8 +5755,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"chalicotherium": { "copyof": "megafauna,_chalicotherium" },
-	"megafauna,_deinotherium": {
+	"chalicotherium": { "copyof": "megafauna_chalicotherium" },
+	"megafauna_deinotherium": {
 		"name": "Megafauna, Deinotherium",
 		"sources": [
 			"Bestiary 6",
@@ -5814,8 +5814,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"deinotherium": { "copyof": "megafauna,_deinotherium" },
-	"megafauna,_elasmotherium": {
+	"deinotherium": { "copyof": "megafauna_deinotherium" },
+	"megafauna_elasmotherium": {
 		"name": "Megafauna, Elasmotherium",
 		"sources": [
 			"Bestiary 6",
@@ -5872,8 +5872,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"elasmotherium": { "copyof": "megafauna,_elasmotherium" },
-	"megafauna,_embolotherium": {
+	"elasmotherium": { "copyof": "megafauna_elasmotherium" },
+	"megafauna_embolotherium": {
 		"name": "Megafauna, Embolotherium",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
@@ -5927,8 +5927,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"embolotherium": { "copyof": "megafauna,_embolotherium" },
-	"megafauna,_glyptodon": {
+	"embolotherium": { "copyof": "megafauna_embolotherium" },
+	"megafauna_glyptodon": {
 		"name": "Megafauna, Glyptodon",
 		"sources": [
 			"Bestiary 2",
@@ -5978,8 +5978,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"glyptodon": { "copyof": "megafauna,_glyptodon" },
-	"megafauna,_kaprosuchus": {
+	"glyptodon": { "copyof": "megafauna_glyptodon" },
+	"megafauna_kaprosuchus": {
 		"name": "Megafauna, Kaprosuchus",
 		"sources": [
 			"Bestiary 5",
@@ -6034,8 +6034,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"kaprosuchus": { "copyof": "megafauna,_kaprosuchus" },
-	"megafauna,_megalania": {
+	"kaprosuchus": { "copyof": "megafauna_kaprosuchus" },
+	"megafauna_megalania": {
 		"name": "Megafauna, Megalania",
 		"sources": [
 			"Bestiary 3",
@@ -6092,8 +6092,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"megalania": { "copyof": "megafauna,_megalania" },
-	"megafauna,_megaloceros": {
+	"megalania": { "copyof": "megafauna_megalania" },
+	"megafauna_megaloceros": {
 		"name": "Megafauna, Megaloceros",
 		"sources": [
 			"Bestiary 2",
@@ -6145,8 +6145,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"megaloceros": { "copyof": "megafauna,_megaloceros" },
-	"megafauna,_megatherium": {
+	"megaloceros": { "copyof": "megafauna_megaloceros" },
+	"megafauna_megatherium": {
 		"name": "Megafauna, Megatherium",
 		"sources": [
 			"Bestiary 2",
@@ -6197,8 +6197,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"megatherium": { "copyof": "megafauna,_megatherium" },
-	"megafauna,_moa": {
+	"megatherium": { "copyof": "megafauna_megatherium" },
+	"megafauna_moa": {
 		"name": "Megafauna, Moa",
 		"sources": [
 			"Bestiary 5",
@@ -6250,8 +6250,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"moa": { "copyof": "megafauna,_moa" },
-	"megafauna,_titanoboa": {
+	"moa": { "copyof": "megafauna_moa" },
+	"megafauna_titanoboa": {
 		"name": "Megafauna, Titanoboa",
 		"sources": [
 			"Bestiary 6",
@@ -6304,8 +6304,8 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"titanoboa": { "copyof": "megafauna,_titanoboa" },
-	"megafauna,_uintatherium": {
+	"titanoboa": { "copyof": "megafauna_titanoboa" },
+	"megafauna_uintatherium": {
 		"name": "Megafauna, Uintatherium",
 		"sources": [
 			"Bestiary 5",
@@ -6359,7 +6359,7 @@
 			"**Family:** [Megafauna](family/megafauna)"
 		]
 	},
-	"uintatherium": { "copyof": "megafauna,_uintatherium" },
+	"uintatherium": { "copyof": "megafauna_uintatherium" },
 	"melacage": {
 		"name": "Melacage",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
@@ -6872,7 +6872,7 @@
 			"After a merlucent rears an indeterminate number of young, a strange new instinct takes over its mind, calling it down into the deepest ocean trenches. These elders form large colonies-sometimes a hundred strong-around thermal vents on the ocean floor. Here, they rear massive schools of jellyfish and cultivate farms of tube worms in vast, swirling formations. Elder merlucents show little interest in eating their livestock, but aggressively defend their colonies against intruders. They become especially aggressive toward deep merfolk, with whom they fight constantly for control of the richest vents. Rather than implanting their young into captive merfolk, merlucents instead hurl their unfortunate enemies into the sea floor's boiling fissures, cooking them alive."
 		]
 	},
-	"merrow,_freshwater_merrow": {
+	"merrow_freshwater_merrow": {
 		"name": "Merrow, Freshwater Merrow",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6924,8 +6924,8 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
-	"freshwater_merrow": { "copyof": "merrow,_freshwater_merrow" },
-	"merrow,_saltwater_merrow": {
+	"freshwater_merrow": { "copyof": "merrow_freshwater_merrow" },
+	"merrow_saltwater_merrow": {
 		"name": "Merrow, Saltwater Merrow",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6975,7 +6975,7 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
-	"saltwater_merrow": { "copyof": "merrow,_saltwater_merrow" },
+	"saltwater_merrow": { "copyof": "merrow_saltwater_merrow" },
 	"mezlan": {
 		"name": "Mezlan",
 		"sources": [

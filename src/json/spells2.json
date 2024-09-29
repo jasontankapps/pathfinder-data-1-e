@@ -106,13 +106,13 @@
 			"This spell functions like blessing of luck and resolve, except that it affects multiple creatures."
 		]
 	},
-	"blessing_of_luck_and_resolve,_mass": {
+	"blessing_of_luck_and_resolve_mass": {
 		"name": "Blessing of Luck and Resolve, Mass",
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "blessing_of_luck_and_resolve"
 	},
 	"mass_blessing_of_luck_and_resolve": {
-		"copyof": "blessing_of_luck_and_resolve,_mass"
+		"copyof": "blessing_of_luck_and_resolve_mass"
 	},
 	"blessing_of_the_mole": {
 		"name": "Blessing of the Mole",
@@ -1293,7 +1293,7 @@
 		"description": [
 			"## Boneshatter",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 26](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 26](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, cleric 5, oracle 5, sorcerer 4, warpriest 5, wizard 4",
 			"",
 			"### Casting",
@@ -1692,13 +1692,13 @@
 			"A brand of tracking can be hidden by clothing or temporarily removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed, or 1 day later otherwise). The effects of a brand of tracking continue to function even when hidden or scraped away. A brand of tracking cannot be dispelled, but it can be permanently removed by any means that removes a [mark of justice](spell/mark_of_justice)."
 		]
 	},
-	"brand,_greater": {
+	"brand_greater": {
 		"name": "Brand, Greater",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "brand"
 	},
 	"greater_brand": {
-		"copyof": "brand,_greater"
+		"copyof": "brand_greater"
 	},
 	"break": {
 		"name": "Break",
@@ -1794,13 +1794,13 @@
 			"*Augmented (7th):* If you expend two uses of mythic power, you can apply a removed enchantment, transmutation, or curse to the creature that originally cast it. The creature must be a valid target of the spell and on the same plane as you, and it gets a saving throw at the effect's original DC."
 		]
 	},
-	"break,_greater": {
+	"break_greater": {
 		"name": "Break, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "break"
 	},
 	"greater_break": {
-		"copyof": "break,_greater"
+		"copyof": "break_greater"
 	},
 	"breath_of_life": {
 		"name": "Breath of Life",
@@ -2110,13 +2110,13 @@
 			"This spell functions like bull's strength, except that it affects multiple creatures."
 		]
 	},
-	"bull's_strength,_mass": {
+	"bull's_strength_mass": {
 		"name": "Bull's Strength, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "bull's_strength"
 	},
 	"mass_bull's_strength": {
-		"copyof": "bull's_strength,_mass"
+		"copyof": "bull's_strength_mass"
 	},
 	"bungle": {
 		"name": "Bungle",
@@ -2254,7 +2254,7 @@
 		"description": [
 			"## Burning Disarm",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 22](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 22](source/cheliax_empire_of_devils)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 1, cleric 1, druid 1, hunter 1, oracle 1, redmantisassassin 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -2717,13 +2717,13 @@
 			"This spell functions as cacophonous call, except that it affects multiple creatures."
 		]
 	},
-	"cacophonous_call,_mass": {
+	"cacophonous_call_mass": {
 		"name": "Cacophonous Call, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "cacophonous_call"
 	},
 	"mass_cacophonous_call": {
-		"copyof": "cacophonous_call,_mass"
+		"copyof": "cacophonous_call_mass"
 	},
 	"caging_bomb_admixture": {
 		"name": "Caging Bomb Admixture",
@@ -3145,7 +3145,7 @@
 			"This spell functions as callback, except as noted above."
 		]
 	},
-	"callback,_greater": {
+	"callback_greater": {
 		"name": "Callback, Greater",
 		"sources": [
 			"Ultimate Wilderness",
@@ -3154,7 +3154,7 @@
 		"copyof": "callback"
 	},
 	"greater_callback": {
-		"copyof": "callback,_greater"
+		"copyof": "callback_greater"
 	},
 	"calm_air": {
 		"name": "Calm Air",
@@ -3294,7 +3294,7 @@
 		"description": [
 			"## Canopic Conversion",
 			"",
-			"**Source** [Faction Guide pg. 60](source/faction_guide), [Osirion, Land of the Pharaohs pg. 26](source/osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Faction Guide pg. 60](source/faction_guide), [Osirion, Land of the Pharaohs pg. 26](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy) [[death](spelldef/death), [evil](spelldef/evil)]; **Level** arcanist 9, cleric 9, oracle 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -3516,13 +3516,13 @@
 			"This spell functions as castigate, except it affects many creatures."
 		]
 	},
-	"castigate,_mass": {
+	"castigate_mass": {
 		"name": "Castigate, Mass",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "castigate"
 	},
 	"mass_castigate": {
-		"copyof": "castigate,_mass"
+		"copyof": "castigate_mass"
 	},
 	"catatonia": {
 		"name": "Catatonia",
@@ -3595,13 +3595,13 @@
 			"This spell functions like cat's grace, except it affects multiple creatures."
 		]
 	},
-	"cat's_grace,_mass": {
+	"cat's_grace_mass": {
 		"name": "Cat's Grace, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "cat's_grace"
 	},
 	"mass_cat's_grace": {
-		"copyof": "cat's_grace,_mass"
+		"copyof": "cat's_grace_mass"
 	},
 	"cause_fear": {
 		"name": "Cause Fear",
@@ -3801,7 +3801,7 @@
 			"You anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target's alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally."
 		]
 	},
-	"celestial_healing,_greater": {
+	"celestial_healing_greater": {
 		"name": "Celestial Healing, Greater",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -3826,7 +3826,7 @@
 		]
 	},
 	"greater_celestial_healing": {
-		"copyof": "celestial_healing,_greater"
+		"copyof": "celestial_healing_greater"
 	},
 	"ceremony": {
 		"name": "Ceremony",
@@ -4283,13 +4283,13 @@
 			"This spell functions as chameleon stride, except it confers its bonuses upon all allies within 10 feet of you at the time the spell is cast. Those affected by this spell are able to see each other and themselves as if they were unaffected by the spell. If an affected creature moves out of the area, it loses the benefit of the spell. Creatures that move into the area after the spell is cast do not gain its benefit."
 		]
 	},
-	"chameleon_stride,_greater": {
+	"chameleon_stride_greater": {
 		"name": "Chameleon Stride, Greater",
 		"sources": [ "Advanced Class Guide" ],
 		"copyof": "chameleon_stride"
 	},
 	"greater_chameleon_stride": {
-		"copyof": "chameleon_stride,_greater"
+		"copyof": "chameleon_stride_greater"
 	},
 	"champion's_bout": {
 		"name": "Champion's Bout",
@@ -4582,13 +4582,13 @@
 			"This spell functions like charm monster, except that mass charm monster affects a number of creatures whose combined HD do not exceed twice your level, or at least one creature regardless of HD. If there are more potential targets than you can affect, you choose them one at a time until you must choose a creature with too many HD to affect."
 		]
 	},
-	"charm_monster,_mass": {
+	"charm_monster_mass": {
 		"name": "Charm Monster, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "charm_monster"
 	},
 	"mass_charm_monster": {
-		"copyof": "charm_monster,_mass"
+		"copyof": "charm_monster_mass"
 	},
 	"charm_person": {
 		"name": "Charm Person",
@@ -4621,7 +4621,7 @@
 			"",
 			"### Charm Fey",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 12](source/the_first_world_realm_of_the_fey)  ",
 			"**School** [enchantment](spelldef/enchantment) ([charm](spelldef/charm)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 1, bard 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"#### Casting",
@@ -4658,13 +4658,13 @@
 			"This spell functions like charm person, except that mass charm person affects a number of humanoid creatures whose combined Hit Dice don't exceed twice your level. If there are more potential targets than you can affect, you choose them one at a time until you reach the limit of HD you can affect. If you cast mass charm person on only one creature, you ignore the spell's HD limit."
 		]
 	},
-	"charm_person,_mass": {
+	"charm_person_mass": {
 		"name": "Charm Person, Mass",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "charm_person"
 	},
 	"mass_charm_person": {
-		"copyof": "charm_person,_mass"
+		"copyof": "charm_person_mass"
 	},
 	"charnel_house": {
 		"name": "Charnel House",
@@ -4981,13 +4981,13 @@
 			"Any creature donning this mask is transformed into a flawless imitation of the spell's target, as if affected by claim identity , and reverts to its natural form upon removing the mask. Any damage dealt to the mask immediately ends this spell."
 		]
 	},
-	"claim_identity,_greater": {
+	"claim_identity_greater": {
 		"name": "Claim Identity, Greater",
 		"sources": [ "Spymaster's Handbook" ],
 		"copyof": "claim_identity"
 	},
 	"greater_claim_identity": {
-		"copyof": "claim_identity,_greater"
+		"copyof": "claim_identity_greater"
 	},
 	"clairaudience_clairvoyance": {
 		"name": "Clairaudience/Clairvoyance",
@@ -5812,13 +5812,13 @@
 			"Your commands are not telepathic. The undead creature must be able to hear you."
 		]
 	},
-	"command,_greater": {
+	"command_greater": {
 		"name": "Command, Greater",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "command"
 	},
 	"greater_command": {
-		"copyof": "command,_greater"
+		"copyof": "command_greater"
 	},
 	"commune": {
 		"name": "Commune",
@@ -6410,13 +6410,13 @@
 			"This spell causes a single creature to become confused for 1 round."
 		]
 	},
-	"confusion,_lesser": {
+	"confusion_lesser": {
 		"name": "Confusion, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "confusion"
 	},
 	"lesser_confusion": {
-		"copyof": "confusion,_lesser"
+		"copyof": "confusion_lesser"
 	},
 	"conjuration_foil": {
 		"name": "Conjuration Foil",
@@ -6896,13 +6896,13 @@
 			"This spell functions as contagion, except the victim cannot overcome the disease without magic-making the required number of saves does not cure it. The DC to remove the disease with magic is equal to the save DC + 5."
 		]
 	},
-	"contagion,_greater": {
+	"contagion_greater": {
 		"name": "Contagion, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "contagion"
 	},
 	"greater_contagion": {
-		"copyof": "contagion,_greater"
+		"copyof": "contagion_greater"
 	},
 	"contagious_flame": {
 		"name": "Contagious Flame",
@@ -7854,15 +7854,15 @@
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_create_demiplane"
 	},
-	"create_demiplane,_greater": {
+	"create_demiplane_greater": {
 		"name": "Create Demiplane, Greater",
 		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_create_demiplane"
 	},
 	"greater_create_demiplane": {
-		"copyof": "create_demiplane,_greater"
+		"copyof": "create_demiplane_greater"
 	},
-	"create_demiplane,_lesser": {
+	"create_demiplane_lesser": {
 		"name": "Create Demiplane, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -7965,7 +7965,7 @@
 		]
 	},
 	"lesser_create_demiplane": {
-		"copyof": "create_demiplane,_lesser"
+		"copyof": "create_demiplane_lesser"
 	},
 	"create_drug": {
 		"name": "Create Drug",

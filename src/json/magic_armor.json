@@ -1452,7 +1452,7 @@
 		"description": [
 			"## Icelink Chainmail",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden,_mother,_crone)",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden_mother_crone)",
 			"",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** armor; **Price** 15,100 gp; **Weight** 20 lbs.",
@@ -1502,7 +1502,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), rope trick; **Price** 9,700 gp"
 		]
 	},
-	"coat_of_shells_gillmen,_merfolk": {
+	"coat_of_shells_gillmen_merfolk": {
 		"name": "Coat of Shells (Gillmen, Merfolk)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -1524,7 +1524,7 @@
 		]
 	},
 	"coat_of_shells": {
-		"copyof": "coat_of_shells_gillmen,_merfolk"
+		"copyof": "coat_of_shells_gillmen_merfolk"
 	},
 	"elven_vengeance": {
 		"name": "Elven Vengeance",
@@ -1642,7 +1642,7 @@
 		"description": [
 			"## Abrogalian Corset",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 20](source/cheliax_empire_of_devils)  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** armor; **Price** 17,175 gp; **Weight** 10 lbs.",
 			"",
@@ -2747,7 +2747,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form_of_the_dragon_1), freedom of movement, major curse; **Price** 22,300 gp"
 		]
 	},
-	"hallowed_chain,_greater_varisian": {
+	"hallowed_chain_greater_varisian": {
 		"name": "Hallowed Chain, Greater (Varisian)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -2767,7 +2767,7 @@
 		]
 	},
 	"greater_hallowed_chain": {
-		"copyof": "hallowed_chain,_greater_varisian"
+		"copyof": "hallowed_chain_greater_varisian"
 	},
 	"hamatula_hide": {
 		"name": "Hamatula Hide",
@@ -2906,7 +2906,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast_shape_3); **Price** 29,115 gp"
 		]
 	},
-	"giant-hide_armor_stone,_fire,_or_frost_giant": {
+	"giant-hide_armor_stone_fire_or_frost_giant": {
 		"name": "Giant-Hide Armor (stone, fire, or frost giant)",
 		"sources": [
 			"Ultimate Equipment",
@@ -2929,7 +2929,7 @@
 		]
 	},
 	"giant_hide_armor_stone_fire_or_frost_giant": {
-		"copyof": "giant-hide_armor_stone,_fire,_or_frost_giant"
+		"copyof": "giant-hide_armor_stone_fire_or_frost_giant"
 	},
 	"giant-hide_armor_troll": {
 		"name": "Giant-Hide Armor (troll)",
@@ -3376,7 +3376,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Scribe Scroll, creator must be at least 6th level; **Price** 1,653 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll), creator must be at least 6th level; **Price** 1,653 gp"
 		]
 	},
 	"bronze_whisperer's_shield": {
@@ -3654,7 +3654,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, light; **Price** 4,975 gp"
 		]
 	},
-	"caster's_shield,_greater": {
+	"caster's_shield_greater": {
 		"name": "Caster's Shield, Greater",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3668,11 +3668,11 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Scribe Scroll; **Price** 5,153 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll); **Price** 5,153 gp"
 		]
 	},
 	"greater_caster's_shield": {
-		"copyof": "caster's_shield,_greater"
+		"copyof": "caster's_shield_greater"
 	},
 	"gunner's_buckler": {
 		"name": "Gunner's Buckler",
@@ -4039,7 +4039,7 @@
 		"description": [
 			"## Mwangi Spirit Shield",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava_the_lost_colony)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** shield; **Price** 19,393 gp; **Weight** 5 lbs.",
 			"",
@@ -4425,7 +4425,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Scribe Scroll, creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp",
+			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll), creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp",
 			"",
 			"### Statistics",
 			"",

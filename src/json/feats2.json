@@ -563,7 +563,7 @@
 		"description": [
 			"## Client",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira,_jewel_of_the_east)",
+			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira_jewel_of_the_east)",
 			"",
 			"A client or client family is usually a supplier or local merchant who enjoys the patronage of a merchant house.  ",
 			"**Prerequisites:** The character must own a business that can supply a single type of good worth 10 gp or more in bulk to a Keleshite merchant house, or a business that can donate a unique rare good (an antique, an object of archeological interest, an artwork, or a magical weapon) of the patron's choice at least once per month.  ",
@@ -842,7 +842,7 @@
 		"description": [
 			"## Colleague",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira,_jewel_of_the_east)",
+			"**Source** [Qadira, Jewel of the East pg. 16](source/qadira_jewel_of_the_east)",
 			"",
 			"A colleague controls a significant business or trading area, or otherwise wields significant influence within a house's network.  ",
 			"**Prerequisites:** The character must be of character level 4th and must have been a client for at least 1 year, during which the character must have changed the attitudes of any contacts from the house to helpful and maintained them at that level. The character must also present the merchant house with a unique gift of great value. This need not be monetary in nature-it may be, for example, reclaiming an ancestral sword thought lost or introducing a member of the house to someone who becomes her spouse.  ",
@@ -1235,7 +1235,7 @@
 		"description": [
 			"## Conceal Scent",
 			"",
-			"**Source** [Osirion, Land of the Pharaohs pg. 28](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Osirion, Land of the Pharaohs pg. 28](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You have learned the essential tricks of disguising your odor and keeping creatures from locating you by your scent.  ",
 			"**Prerequisites:** Hide 3 ranks, Survival 3 ranks.  ",
@@ -1807,7 +1807,7 @@
 		"description": [
 			"## Cornugon Shield (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"You can use your spiked chain as both armor and weapon.  ",
 			"**Prerequisites:** Dex 15, [Weapon Focus (spiked chain)](feat/weapon_focus).  ",
@@ -1820,7 +1820,7 @@
 		"description": [
 			"## Cornugon Smash (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"Your terrible attacks strike fear into your enemies.  ",
 			"**Prerequisites:** [Power Attack](feat/power_attack), Intimidate 6 ranks.  ",
@@ -1833,7 +1833,7 @@
 		"description": [
 			"## Cornugon Stun (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"You are able to make stunning attacks with special monk weapons.  ",
 			"**Prerequisites:** [Stunning Fist](feat/stunning_fist).  ",
@@ -1847,7 +1847,7 @@
 		"description": [
 			"## Cornugon Trip (Combat)",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax,_empire_of_devils)",
+			"**Source** [Cheliax, Empire of Devils pg. 26](source/cheliax_empire_of_devils)",
 			"",
 			"You can throw your spiked chain to make trip attacks.  ",
 			"**Prerequisites:** Dex 15, [Improved Trip](feat/improved_trip), [Weapon Focus (spiked chain).](feat/weapon_focus).  ",
@@ -2254,7 +2254,7 @@
 			"",
 			"Some construct builders learn their art by creating poppets.  ",
 			"**Prerequisites:** Caster level 1st.  ",
-			"**Benefit:** You can craft poppets and add augmentations to existing poppets that you control. You are treated as having both Craft Arms and Armor and Craft Wondrous Item for the purpose of fulfilling the prerequisites for Craft Construct."
+			"**Benefit:** You can craft poppets and add augmentations to existing poppets that you control. You are treated as having both [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) for the purpose of fulfilling the prerequisites for Craft Construct."
 		]
 	},
 	"craft_robot": {
@@ -3742,7 +3742,7 @@
 		"description": [
 			"## Deadly Dealer",
 			"",
-			"**Source** [The Harrow Handbook pg. 15](source/the_harrow_handbook), [Varisia, Birthplace of Legends pg. 10](source/varisia,_birthplace_of_legends)",
+			"**Source** [The Harrow Handbook pg. 15](source/the_harrow_handbook), [Varisia, Birthplace of Legends pg. 10](source/varisia_birthplace_of_legends)",
 			"",
 			"Your skill with handling a deck and your arcane talents allow you to turn mundane cards into weapons.  ",
 			"**Prerequisites:** [Arcane Strike](feat/arcane_strike), Sleight of Hand 5 ranks.  ",
@@ -4545,7 +4545,7 @@
 			"",
 			"Your studies into demonic anatomy and physiology allow you to graft their immortal tissues onto mortal flesh.  ",
 			"**Prerequisites:** [Demonologist](feat/demonologist), Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.  ",
-			"**Benefit:** You gain a +2 bonus on Heal checks regarding evil outsiders or creatures that already have a demonic graft. In addition, you can create demonic implants as if you had the Craft Wondrous Item feat, using your ranks in Heal as your caster level. The DC to create the item still increases for any necessary spell requirements."
+			"**Benefit:** You gain a +2 bonus on Heal checks regarding evil outsiders or creatures that already have a demonic graft. In addition, you can create demonic implants as if you had the [Craft Wondrous Item](feat/craft_wondrous_item) feat, using your ranks in Heal as your caster level. The DC to create the item still increases for any necessary spell requirements."
 		]
 	},
 	"demon_hunter": {
@@ -4780,7 +4780,7 @@
 		"description": [
 			"## Dervish Dance (Combat)",
 			"",
-			"**Source** [Inner Sea World Guide pg. 286](source/inner_sea_world_guide), [Qadira, Gateway to the East pg. 23](source/qadira,_gateway_to_the_east)",
+			"**Source** [Inner Sea World Guide pg. 286](source/inner_sea_world_guide), [Qadira, Gateway to the East pg. 23](source/qadira_gateway_to_the_east)",
 			"",
 			"You have learned to turn your speed into power, even with a heavier blade.  ",
 			"**Prerequisites:** Dexterity 13, [Weapon Finesse](feat/weapon_finesse), Perform (dance) 2 ranks, proficient with scimitar.  ",
@@ -5022,7 +5022,7 @@
 		"description": [
 			"## Devil's Foe (Achievement)",
 			"",
-			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran,_spirit_of_liberty)",
+			"**Source** [Andoran, Spirit of Liberty pg. 13](source/andoran_spirit_of_liberty)",
 			"",
 			"Once you were just another helpless victim, but now even the deepest pits of Hell ring with the lamentations of your adversaries.  ",
 			"**Prerequisites:** Face 10 different devils in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them.  ",
@@ -5440,7 +5440,7 @@
 			"",
 			"You can take apart and reassemble magic items.  ",
 			"**Prerequisites:** Any item creation feat, Aspis Consortium 20 TPA.  ",
-			"**Benefit:** You can break a magic item down into component pieces. These pieces are nonmagical and may have little resemblance to the original item other than being of the same material (a magical sword may be three recognizable metal pieces or simply a collection of metal scraps). Disassembling a magic item takes 1 hour per 1,000 gp of the item's price and requires you to concentrate as if crafting an item. You can only use this feat on items your item creation feat would let you craft (for example, if you have Craft Wondrous Item, you can disassemble wondrous items but not magic weapons or armor).",
+			"**Benefit:** You can break a magic item down into component pieces. These pieces are nonmagical and may have little resemblance to the original item other than being of the same material (a magical sword may be three recognizable metal pieces or simply a collection of metal scraps). Disassembling a magic item takes 1 hour per 1,000 gp of the item's price and requires you to concentrate as if crafting an item. You can only use this feat on items your item creation feat would let you craft (for example, if you have [Craft Wondrous Item](feat/craft_wondrous_item), you can disassemble wondrous items but not magic weapons or armor).",
 			"",
 			"You may reassemble a dismantled item as long as all the pieces are present; this takes the same amount of time as taking it apart did. There is a 10% chance the reconstruction fails and the item is permanently destroyed."
 		]
@@ -6486,7 +6486,7 @@
 		],
 		"has_mythic_version": true
 	},
-	"dog_killer,_horse_hunter": {
+	"dog_killer_horse_hunter": {
 		"name": "Dog Killer, Horse Hunter",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
@@ -6498,9 +6498,6 @@
 			"**Prerequisites:** Goblin, Handle Animal 1 rank.  ",
 			"**Benefit:** You gain a +2 morale bonus on all attack and damage rolls made against dogs and horses (including doglike and horse-like targets such a nightmares or worgs). Additionally, you gain a +2 bonus on rolls to confirm critical hits against these foes."
 		]
-	},
-	"dog_killer_horse_hunter": {
-		"copyof": "dog_killer,_horse_hunter"
 	},
 	"dog-sniff-hate": {
 		"name": "Dog-Sniff-Hate",

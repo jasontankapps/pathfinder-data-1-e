@@ -584,7 +584,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), beast form I, neutralize poison, [summon nature's ally II](spell/summon_nature's_ally_2); **Cost** 4,500 gp"
 		]
 	},
-	"channel-thieving_belt,_greater": {
+	"channel-thieving_belt_greater": {
 		"name": "Channel-Thieving Belt, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -602,7 +602,7 @@
 		]
 	},
 	"greater_channel_thieving_belt": {
-		"copyof": "channel-thieving_belt,_greater"
+		"copyof": "channel-thieving_belt_greater"
 	},
 	"monkey_belt": {
 		"name": "Monkey Belt",
@@ -790,7 +790,7 @@
 		"description": [
 			"## War-Kilt of Sarenrae",
 			"",
-			"**Source** [Qadira, Gateway to the East pg. 23](source/qadira,_gateway_to_the_east)  ",
+			"**Source** [Qadira, Gateway to the East pg. 23](source/qadira_gateway_to_the_east)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** waist; **Price** 13,000 gp; **Weight** 5 lbs.",
 			"",
@@ -3664,7 +3664,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), hide from undead, see invisibility; **Cost** 13,000 gp"
 		]
 	},
-	"coat_of_the_undercity,_greater": {
+	"coat_of_the_undercity_greater": {
 		"name": "Coat of the Undercity, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -3686,7 +3686,7 @@
 		]
 	},
 	"greater_coat_of_the_undercity": {
-		"copyof": "coat_of_the_undercity,_greater"
+		"copyof": "coat_of_the_undercity_greater"
 	},
 	"mantle_of_immortality": {
 		"name": "Mantle of Immortality",
@@ -5718,7 +5718,7 @@
 		"description": [
 			"## Jungle Boots",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava,_the_lost_colony)  ",
+			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava_the_lost_colony)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** feet; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
@@ -6335,7 +6335,7 @@
 		"description": [
 			"## Boots of the Winter Jarl",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 60](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 60](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** feet; **Price** 20,000 gp; **Weight** -;",
 			"",

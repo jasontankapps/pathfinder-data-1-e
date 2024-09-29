@@ -799,7 +799,7 @@
 		"description": [
 			"## Jaguar Pounce (Combat)",
 			"",
-			"**Source** [Ultimate Wilderness pg. 115](source/ultimate_wilderness), [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony)",
+			"**Source** [Ultimate Wilderness pg. 115](source/ultimate_wilderness), [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony)",
 			"",
 			"Your ambushes are especially lethal.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
@@ -2150,7 +2150,7 @@
 		"description": [
 			"## Legionnaire's Inspiration",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 29](source/andoran,_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 29](source/andoran_birthplace_of_freedom)",
 			"",
 			"You inspire your comrades to stand against impossible odds.  ",
 			"**Prerequisites:** Affiliated with the Golden Legion.  ",
@@ -2835,7 +2835,7 @@
 		"description": [
 			"## Lost in the Crowd",
 			"",
-			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion,_land_of_the_pharaohs)",
+			"**Source** [Osirion, Land of the Pharaohs pg. 29](source/osirion_land_of_the_pharaohs)",
 			"",
 			"You are used to dealing with the teeming masses in the markets, and are capable of disappearing into them at a moment's notice.  ",
 			"**Benefit:** You gain a +2 circumstance bonus to Hide checks in urban areas; this bonus increases to +4 in crowds. You gain a +1 dodge bonus to AC when threatened by 2 or more enemies."
@@ -3997,8 +3997,8 @@
 			"",
 			"Your superior crafting skills allow you to create simple magic items.  ",
 			"**Prerequisites:** 5 ranks in any Craft or Profession skill.  ",
-			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the Craft Magic Arms and Armor and Craft Wondrous Item feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Magic Items). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
-			"**Normal:** Only spellcasters can qualify for the Craft Magic Arms and Armor and Craft Wondrous Item feats."
+			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Magic Items). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
+			"**Normal:** Only spellcasters can qualify for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) feats."
 		]
 	},
 	"master_delver": {
@@ -5026,7 +5026,7 @@
 		"description": [
 			"## Monkey Lunge (Combat)",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava,_the_lost_colony)",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony)",
 			"",
 			"You can quickly recover from your lunges, helping you to avoid counterattacks.  ",
 			"**Prerequisites:** [Lunge](feat/lunge), Acrobatics 1 rank.  ",
@@ -5478,7 +5478,7 @@
 		"description": [
 			"## Mounted Blade",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide), [Qadira, Gateway to the East pg. 9](source/qadira,_gateway_to_the_east), [Qadira, Jewel of the East pg. 15](source/qadira,_jewel_of_the_east)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide), [Qadira, Gateway to the East pg. 9](source/qadira_gateway_to_the_east), [Qadira, Jewel of the East pg. 15](source/qadira_jewel_of_the_east)",
 			"",
 			"You can use the momentum of your mount to carry your weapon through one foe and into another.  ",
 			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), Ride 3 ranks.  ",
@@ -6051,7 +6051,7 @@
 		"description": [
 			"## Natural Jouster (Combat)",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 91](source/pathfinder_#69_maiden,_mother,_crone)",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 91](source/pathfinder_#69_maiden_mother_crone)",
 			"",
 			"Nearly all svathurims have the following feat, which is common among tauric creatures.  ",
 			"**Prerequisites:** Centaur (or any tauric creature at the GM's discretion)  ",
@@ -6381,7 +6381,7 @@
 			">As long as you have at least 1 stamina point in your stamina pool, you can dazzle or sicken the opponent with a dirty trick combat maneuver instead of blinding it."
 		]
 	},
-	"never_conquered,_forever_feared": {
+	"never_conquered_forever_feared": {
 		"name": "Never Conquered, Forever Feared",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
@@ -6395,9 +6395,6 @@
 			"**Goal:** You must individually slay an appropriate number of significant foes in succession, without retreating or withdrawing from a fight.  ",
 			"**Completion Benefit:** You can display your imposing presence as a free action when you take an offensive action, such as an attack or a charge. Opponents within 30 feet of you must succeed at a Will save or become shaken for 3d6 rounds. The DC of this save is equal to 10 + 1/2 your character level + your Charisma modifier. This ability does not cause opponents that are already shaken to become frightened, and opponents with more Hit Dice than your character level are immune to the effect. This is a mind-affecting fear effect."
 		]
-	},
-	"never_conquered_forever_feared": {
-		"copyof": "never_conquered,_forever_feared"
 	},
 	"new_thassilonian_magic": {
 		"name": "New Thassilonian Magic",

@@ -1,5 +1,5 @@
 {
-	"charau-ka,_jungle_trickster": {
+	"charau-ka_jungle_trickster": {
 		"name": "Charau-ka, Jungle Trickster",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -53,9 +53,9 @@
 			"Some tricksters act as the eyes and ears of Usaro, but many serve as thieves-gathering magic and wealth to sate Ruthazek-or as saboteurs undermining enemies of the state or arranging bloody massacres for Angazhan's glory. They pose as guides or playful apes to lead adventurers and travelers into the jungles' many hazards."
 		]
 	},
-	"jungle_trickster": { "copyof": "charau-ka,_jungle_trickster" },
-	"charau_ka_jungle_trickster": { "copyof": "charau-ka,_jungle_trickster" },
-	"charau-ka,_simian_sharpshooter": {
+	"jungle_trickster": { "copyof": "charau-ka_jungle_trickster" },
+	"charau_ka_jungle_trickster": { "copyof": "charau-ka_jungle_trickster" },
+	"charau-ka_simian_sharpshooter": {
 		"name": "Charau-ka, Simian Sharpshooter",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -106,8 +106,8 @@
 			"Rather than confronting foes directly, sharpshooters take aim from above, disappearing into the wilderness long before victims can muster a counterattack. They show no remorse and chase wounded targets through the jungle for miles with relentless determination. Priests of Angazhan instilled a strong sense of survival in these sharpshooters, who show surprising restraint for charau-ka. The telltale frenzy of their kin surfaces only when enemies draw close to these gunslingers, and several have broken their muskets bludgeoning foes to death, only to suffer horrible reprimands for their carelessness. Those who keep their rage tempered travel far beyond the borders of the Gorilla King's realm, searching Golarion for anything their sovereign requires. Loyal to the very core, these charau-ka never reveal what they seek until it lies within their sights."
 		]
 	},
-	"simian_sharpshooter": { "copyof": "charau-ka,_simian_sharpshooter" },
-	"charau_ka_simian_sharpshooter": { "copyof": "charau-ka,_simian_sharpshooter" },
+	"simian_sharpshooter": { "copyof": "charau-ka_simian_sharpshooter" },
+	"charau_ka_simian_sharpshooter": { "copyof": "charau-ka_simian_sharpshooter" },
 	"charda": {
 		"name": "Charda",
 		"sources": [
@@ -448,7 +448,7 @@
 			"An obscure text written by a Darklands alchemist includes a formula to make a substance that can be combined with the blood of a chelarac. The text claims that if the alchemist mixes this substance with the chelarac's blood and drinks the resulting concoction, the drinker is able to access a wealth of memories that were siphoned and stored in the monster's mind."
 		]
 	},
-	"chelarac,_chelarac_broodling": {
+	"chelarac_chelarac_broodling": {
 		"name": "Chelarac, Chelarac Broodling",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
@@ -501,7 +501,7 @@
 			"An obscure text written by a Darklands alchemist includes a formula to make a substance that can be combined with the blood of a chelarac. The text claims that if the alchemist mixes this substance with the chelarac's blood and drinks the resulting concoction, the drinker is able to access a wealth of memories that were siphoned and stored in the monster's mind."
 		]
 	},
-	"chelarac_broodling": { "copyof": "chelarac,_chelarac_broodling" },
+	"chelarac_broodling": { "copyof": "chelarac_chelarac_broodling" },
 	"chemosit": {
 		"name": "Chemosit",
 		"sources": [ "Pathfinder #38: Racing to Ruin" ],
@@ -749,7 +749,7 @@
 			"Chimeras prefer meat but can subsist on vegetable matter if necessary (although being forced to do so generally leaves the beasts more ill-tempered than usual). Their flight means they can pick and choose their prey, and they usually hunt a large area in search of easy food. They are too stupid and belligerent to acquire followers, though sometimes a tribe of kobolds might give them offerings. Conversely, they are just intelligent and stubborn enough that they make poor pets, and only a significantly more powerful creature can keep them submissive. They may form equal partnerships with a respectful humanoid or similar creature, and even consent to be used as a mount. A pride of chimeras is very leonine in its hierarchy, with a dominant male leading the group and most of the hunting done by the females. A solitary chimera may be a young male or a female with cubs nearby."
 		]
 	},
-	"chimera,_legendary_chimera": {
+	"chimera_legendary_chimera": {
 		"name": "Chimera, Legendary Chimera",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -794,7 +794,7 @@
 			"Legendary chimeras rarely breed, and when they do their offspring inevitably echo their unfinished forms' chimeras with the heads of other beasts, or lacking wings or other limbs, the mark of both their pride and their shame. Such creatures can remain in good health for well over a millennium, and thus, while they are only a little smarter than their common brethren, these illustrious beasts can live to see whole civilizations rise and fall, and possess an innate melancholy and dire wisdom few humanoids can fathom. And indeed, even if humanoids could, the legendary chimeras rarely humor beings they regard as inferior to themselves."
 		]
 	},
-	"legendary_chimera": { "copyof": "chimera,_legendary_chimera" },
+	"legendary_chimera": { "copyof": "chimera_legendary_chimera" },
 	"chitikin": {
 		"name": "Chitikin",
 		"sources": [ "Pathfinder #130: City in the Lion's Eye" ],
@@ -1080,7 +1080,7 @@
 			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a [terrifying draught](magic-wondrous/chon_chon_elixir) with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long."
 		]
 	},
-	"chon_chon,_chon_chon_swarm": {
+	"chon_chon_chon_chon_swarm": {
 		"name": "Chon Chon, Chon Chon Swarm",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
 		"description": [
@@ -1151,7 +1151,7 @@
 			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a [terrifying draught](magic-wondrous/chon_chon_elixir) with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long."
 		]
 	},
-	"chon_chon_swarm": { "copyof": "chon_chon,_chon_chon_swarm" },
+	"chon_chon_swarm": { "copyof": "chon_chon_chon_chon_swarm" },
 	"choxani": {
 		"name": "Choxani",
 		"sources": [ "The First World, Realm of the Fey" ],
@@ -1162,7 +1162,7 @@
 			"",
 			"### Choxani, CR 3",
 			"",
-			"**Source** [The First World, Realm of the Fey pg. 59](source/the_first_world,_realm_of_the_fey)  ",
+			"**Source** [The First World, Realm of the Fey pg. 59](source/the_first_world_realm_of_the_fey)  ",
 			"**XP** 800  ",
 			"CN Medium fey  ",
 			"**Init** +2; **Senses** low-light vision; Perception +10",
@@ -1477,7 +1477,7 @@
 			"A typical chuul is 8 feet tall and weighs 650 pounds."
 		]
 	},
-	"chuul,_chuul,_lesser": {
+	"chuul_chuul_lesser": {
 		"name": "Chuul, Chuul, Lesser",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
@@ -1551,8 +1551,8 @@
 			"Sand Chuuls: Rarest of all chuul breeds, sand chuuls inhabit parched wastelands and deserts, and were intended to serve as the shock troops of a land invasion force following Earthfall. When the aboleths' plans failed to come to fruition, these specially engineered chuuls were largely forgotten. Now native to blasted regions of Casmaron and southern Garund, sand chuuls lack the aquatic subtype, the amphibious special quality, and a swim speed. Instead, a sand chuul has a burrow speed of 30 feet and tremorsense out to a distance of 30 feet."
 		]
 	},
-	"lesser_chuul": { "copyof": "chuul,_chuul,_lesser" },
-	"chuul,_larval_chuul": {
+	"lesser_chuul": { "copyof": "chuul_chuul_lesser" },
+	"chuul_larval_chuul": {
 		"name": "Chuul, Larval Chuul",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
@@ -1624,7 +1624,7 @@
 			"Sand Chuuls: Rarest of all chuul breeds, sand chuuls inhabit parched wastelands and deserts, and were intended to serve as the shock troops of a land invasion force following Earthfall. When the aboleths' plans failed to come to fruition, these specially engineered chuuls were largely forgotten. Now native to blasted regions of Casmaron and southern Garund, sand chuuls lack the aquatic subtype, the amphibious special quality, and a swim speed. Instead, a sand chuul has a burrow speed of 30 feet and tremorsense out to a distance of 30 feet."
 		]
 	},
-	"larval_chuul": { "copyof": "chuul,_larval_chuul" },
+	"larval_chuul": { "copyof": "chuul_larval_chuul" },
 	"chyzaedu": {
 		"name": "Chyzaedu",
 		"sources": [ "Occult Bestiary" ],
@@ -1706,7 +1706,7 @@
 			"Chyzaedu measure of 60 feet in length on average and weigh approximately 5,000 pounds."
 		]
 	},
-	"cicada,_cicada_swarm": {
+	"cicada_cicada_swarm": {
 		"name": "Cicada, Cicada Swarm",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
@@ -1756,8 +1756,8 @@
 			"At times, particularly during warm months, mundane cicadas amass in roiling, buzzing clouds. When they swarm, cicadas can strip vegetation from trees in seconds."
 		]
 	},
-	"cicada_swarm": { "copyof": "cicada,_cicada_swarm" },
-	"cicada,_giant_cicada": {
+	"cicada_swarm": { "copyof": "cicada_cicada_swarm" },
+	"cicada_giant_cicada": {
 		"name": "Cicada, Giant Cicada",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
@@ -1810,7 +1810,7 @@
 			"Giant cicadas are nearly 3 feet long and weigh up to 20 pounds."
 		]
 	},
-	"giant_cicada": { "copyof": "cicada,_giant_cicada" },
+	"giant_cicada": { "copyof": "cicada_giant_cicada" },
 	"cinderghost": {
 		"name": "Cinderghost",
 		"sources": [ "Planes of Power" ],
@@ -2076,7 +2076,7 @@
 			"A cloaker's motives are hidden and confusing, and they distrust even their own kind. Their strange shape allows them to disguise themselves as a variety of cloaks, tapestries, and other mundane objects, and stories linger of cloakers that ally with other creatures, hitching a ride on their backs and aiding in their ally's protection for their own inscrutable reasons. A rare few are priests of ancient gods, leading cults of cloakers and skum to undertake all manner of hideous rites and working toward singularly sinister goals."
 		]
 	},
-	"clockwork,_clockwork_angel": {
+	"clockwork_clockwork_angel": {
 		"name": "Clockwork, Clockwork Angel",
 		"sources": [
 			"Bestiary 6",
@@ -2148,8 +2148,8 @@
 			"**Requirements** Craft Construct, fly, geas/quest, and greater magic weapon, creator must be at least caster level 16th; Skill Craft (clockwork) DC 25; **Cost** 107,500 gp plus the items listed separately above"
 		]
 	},
-	"clockwork_angel": { "copyof": "clockwork,_clockwork_angel" },
-	"clockwork,_clockwork_assassin": {
+	"clockwork_angel": { "copyof": "clockwork_clockwork_angel" },
+	"clockwork_clockwork_assassin": {
 		"name": "Clockwork, Clockwork Assassin",
 		"sources": [
 			"Bestiary 6",
@@ -2222,8 +2222,8 @@
 			"**Requirements** Craft Construct, gaseous form, geas/quest, keen edge, and major creation, creator must be at least caster level 16th; Skill Craft (clockwork) DC 20; **Cost** 81,000 gp"
 		]
 	},
-	"clockwork_assassin": { "copyof": "clockwork,_clockwork_assassin" },
-	"clockwork,_clockwork_dragon": {
+	"clockwork_assassin": { "copyof": "clockwork_clockwork_assassin" },
+	"clockwork_clockwork_dragon": {
 		"name": "Clockwork, Clockwork Dragon",
 		"sources": [
 			"Bestiary 4",
@@ -2315,8 +2315,8 @@
 			"**Requirements** Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp"
 		]
 	},
-	"clockwork_dragon": { "copyof": "clockwork,_clockwork_dragon" },
-	"clockwork,_clockwork_excavator": {
+	"clockwork_dragon": { "copyof": "clockwork_clockwork_dragon" },
+	"clockwork_clockwork_excavator": {
 		"name": "Clockwork, Clockwork Excavator",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
@@ -2406,8 +2406,8 @@
 			"**Requirements** Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp"
 		]
 	},
-	"clockwork_excavator": { "copyof": "clockwork,_clockwork_excavator" },
-	"clockwork,_clockwork_familiar": {
+	"clockwork_excavator": { "copyof": "clockwork_clockwork_excavator" },
+	"clockwork_clockwork_familiar": {
 		"name": "Clockwork, Clockwork Familiar",
 		"sources": [
 			"Bestiary 5",
@@ -2480,8 +2480,8 @@
 			"**Requirements** Craft Construct, geas/quest, make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 7,500 gp"
 		]
 	},
-	"clockwork_familiar": { "copyof": "clockwork,_clockwork_familiar" },
-	"clockwork,_clockwork_fiend": {
+	"clockwork_familiar": { "copyof": "clockwork_clockwork_familiar" },
+	"clockwork_clockwork_fiend": {
 		"name": "Clockwork, Clockwork Fiend",
 		"sources": [
 			"Bestiary 6",
@@ -2555,8 +2555,8 @@
 			"**Requirements** Craft Construct, delayed blast fireball, fire shield, geas/quest, and rage, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 150,000 gp"
 		]
 	},
-	"clockwork_fiend": { "copyof": "clockwork,_clockwork_fiend" },
-	"clockwork,_clockwork_goblin": {
+	"clockwork_fiend": { "copyof": "clockwork_clockwork_fiend" },
+	"clockwork_clockwork_goblin": {
 		"name": "Clockwork, Clockwork Goblin",
 		"sources": [
 			"Construct Handbook",
@@ -2625,8 +2625,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [burning hands](spell/burning_hands), [geas/quest](spell/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp"
 		]
 	},
-	"clockwork_goblin": { "copyof": "clockwork,_clockwork_goblin" },
-	"clockwork,_clockwork_goliath": {
+	"clockwork_goblin": { "copyof": "clockwork_clockwork_goblin" },
+	"clockwork_clockwork_goliath": {
 		"name": "Clockwork, Clockwork Goliath",
 		"sources": [
 			"Bestiary 3",
@@ -2696,8 +2696,8 @@
 			"**Requirements** Craft Construct, [Gunsmithing](feat/gunsmithing), animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp"
 		]
 	},
-	"clockwork_goliath": { "copyof": "clockwork,_clockwork_goliath" },
-	"clockwork,_clockwork_guardian": {
+	"clockwork_goliath": { "copyof": "clockwork_clockwork_goliath" },
+	"clockwork_clockwork_guardian": {
 		"name": "Clockwork, Clockwork Guardian",
 		"sources": [
 			"Bestiary 6",
@@ -2765,8 +2765,8 @@
 			"**Requirements** Craft Construct, Shield Proficiency, geas/quest, fabricate, and wall of iron, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 26,000 gp"
 		]
 	},
-	"clockwork_guardian": { "copyof": "clockwork,_clockwork_guardian" },
-	"clockwork,_clockwork_gunslinger": {
+	"clockwork_guardian": { "copyof": "clockwork_clockwork_guardian" },
+	"clockwork_clockwork_gunslinger": {
 		"name": "Clockwork, Clockwork Gunslinger",
 		"sources": [
 			"Construct Handbook",
@@ -2838,8 +2838,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [Exotic Weapon Proficiency (pistol)](feat/exotic_weapon_proficiency), [haste](spell/haste), [geas/quest](spell/geas_quest), [slow](spell/slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp"
 		]
 	},
-	"clockwork_gunslinger": { "copyof": "clockwork,_clockwork_gunslinger" },
-	"clockwork,_clockwork_hound": {
+	"clockwork_gunslinger": { "copyof": "clockwork_clockwork_gunslinger" },
+	"clockwork_clockwork_hound": {
 		"name": "Clockwork, Clockwork Hound",
 		"sources": [
 			"Bestiary 6",
@@ -2913,8 +2913,8 @@
 			"**Requirements** Craft Construct, expeditious retreat, geas/quest, and secret chest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 15,375 gp"
 		]
 	},
-	"clockwork_hound": { "copyof": "clockwork,_clockwork_hound" },
-	"clockwork,_clockwork_leviathan": {
+	"clockwork_hound": { "copyof": "clockwork_clockwork_hound" },
+	"clockwork_clockwork_leviathan": {
 		"name": "Clockwork, Clockwork Leviathan",
 		"sources": [
 			"Bestiary 3",
@@ -2988,8 +2988,8 @@
 			"**Requirements** Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp"
 		]
 	},
-	"clockwork_leviathan": { "copyof": "clockwork,_clockwork_leviathan" },
-	"clockwork,_clockwork_mage": {
+	"clockwork_leviathan": { "copyof": "clockwork_clockwork_leviathan" },
+	"clockwork_clockwork_mage": {
 		"name": "Clockwork, Clockwork Mage",
 		"sources": [
 			"Bestiary 4",
@@ -3064,8 +3064,8 @@
 			"**Requirements** Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp"
 		]
 	},
-	"clockwork_mage": { "copyof": "clockwork,_clockwork_mage" },
-	"clockwork,_clockwork_nautiloid": {
+	"clockwork_mage": { "copyof": "clockwork_clockwork_mage" },
+	"clockwork_clockwork_nautiloid": {
 		"name": "Clockwork, Clockwork Nautiloid",
 		"sources": [
 			"Pathfinder #125: Tower of the Drowned Dead",
@@ -3164,8 +3164,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [true seeing](spell/true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp"
 		]
 	},
-	"clockwork_nautiloid": { "copyof": "clockwork,_clockwork_nautiloid" },
-	"clockwork,_clockwork_overseer": {
+	"clockwork_nautiloid": { "copyof": "clockwork_clockwork_nautiloid" },
+	"clockwork_clockwork_overseer": {
 		"name": "Clockwork, Clockwork Overseer",
 		"sources": [
 			"Pathfinder #123: The Flooded Cathedral",
@@ -3258,8 +3258,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest) and [haste](spell/haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp"
 		]
 	},
-	"clockwork_overseer": { "copyof": "clockwork,_clockwork_overseer" },
-	"clockwork,_clockwork_priest": {
+	"clockwork_overseer": { "copyof": "clockwork_clockwork_overseer" },
+	"clockwork_clockwork_priest": {
 		"name": "Clockwork, Clockwork Priest",
 		"sources": [
 			"Construct Handbook",
@@ -3330,8 +3330,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
 		]
 	},
-	"clockwork_priest": { "copyof": "clockwork,_clockwork_priest" },
-	"clockwork,_clockwork_servant": {
+	"clockwork_priest": { "copyof": "clockwork_clockwork_priest" },
+	"clockwork_clockwork_servant": {
 		"name": "Clockwork, Clockwork Servant",
 		"sources": [
 			"Bestiary 3",
@@ -3401,8 +3401,8 @@
 			"**Requirements** Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)"
 		]
 	},
-	"clockwork_servant": { "copyof": "clockwork,_clockwork_servant" },
-	"clockwork,_clockwork_snail": {
+	"clockwork_servant": { "copyof": "clockwork_clockwork_servant" },
+	"clockwork_clockwork_snail": {
 		"name": "Clockwork, Clockwork Snail",
 		"sources": [
 			"Wardens of the Reborn Forge",
@@ -3472,8 +3472,8 @@
 			"**Requirements** Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp"
 		]
 	},
-	"clockwork_snail": { "copyof": "clockwork,_clockwork_snail" },
-	"clockwork,_clockwork_soldier": {
+	"clockwork_snail": { "copyof": "clockwork_clockwork_snail" },
+	"clockwork_clockwork_soldier": {
 		"name": "Clockwork, Clockwork Soldier",
 		"sources": [
 			"Bestiary 3",
@@ -3545,8 +3545,8 @@
 			"**Requirements** Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp"
 		]
 	},
-	"clockwork_soldier": { "copyof": "clockwork,_clockwork_soldier" },
-	"clockwork,_clockwork_songbird": {
+	"clockwork_soldier": { "copyof": "clockwork_clockwork_soldier" },
+	"clockwork_clockwork_songbird": {
 		"name": "Clockwork, Clockwork Songbird",
 		"sources": [
 			"Construct Handbook",
@@ -3618,8 +3618,8 @@
 			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [ghost sound](spell/ghost_sound), [haste](spell/haste), [heroism](spell/heroism), [sleep](spell/sleep), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
 		]
 	},
-	"clockwork_songbird": { "copyof": "clockwork,_clockwork_songbird" },
-	"clockwork,_clockwork_spy": {
+	"clockwork_songbird": { "copyof": "clockwork_clockwork_songbird" },
+	"clockwork_clockwork_spy": {
 		"name": "Clockwork, Clockwork Spy",
 		"sources": [
 			"Bestiary 3",
@@ -3688,8 +3688,8 @@
 			"**Requirements** Craft Construct, geas/quest and ghost sound, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 750 gp"
 		]
 	},
-	"clockwork_spy": { "copyof": "clockwork,_clockwork_spy" },
-	"clockwork,_clockwork_steed": {
+	"clockwork_spy": { "copyof": "clockwork_clockwork_spy" },
+	"clockwork_clockwork_steed": {
 		"name": "Clockwork, Clockwork Steed",
 		"sources": [
 			"Bestiary 4",
@@ -3761,8 +3761,8 @@
 			"**Requirements** Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)"
 		]
 	},
-	"clockwork_steed": { "copyof": "clockwork,_clockwork_steed" },
-	"clockwork,_clockwork_vivisectionist": {
+	"clockwork_steed": { "copyof": "clockwork_clockwork_steed" },
+	"clockwork_clockwork_vivisectionist": {
 		"name": "Clockwork, Clockwork Vivisectionist",
 		"sources": [
 			"Pathfinder #112: The Whisper Out of Time",
@@ -3849,8 +3849,8 @@
 			"**Requirements** Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp"
 		]
 	},
-	"clockwork_vivisectionist": { "copyof": "clockwork,_clockwork_vivisectionist" },
-	"clockwork,_mechanical_efreeti": {
+	"clockwork_vivisectionist": { "copyof": "clockwork_clockwork_vivisectionist" },
+	"clockwork_mechanical_efreeti": {
 		"name": "Clockwork, Mechanical Efreeti",
 		"sources": [
 			"Tombs of Golarion",
@@ -3920,8 +3920,8 @@
 			"**Mechanical Shaitan:** A mechanical shaitan loses the burn ability, but gains an additional slam attack and a +4 bonus to Strength. Creation of a mechanical shaitan requires stone shape in place of fireball."
 		]
 	},
-	"mechanical_efreeti": { "copyof": "clockwork,_mechanical_efreeti" },
-	"clockwork,_toy_golem": {
+	"mechanical_efreeti": { "copyof": "clockwork_mechanical_efreeti" },
+	"clockwork_toy_golem": {
 		"name": "Clockwork, Toy Golem",
 		"sources": [
 			"Tombs of Golarion",
@@ -3983,7 +3983,7 @@
 			"**Requirements** Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp"
 		]
 	},
-	"toy_golem": { "copyof": "clockwork,_toy_golem" },
+	"toy_golem": { "copyof": "clockwork_toy_golem" },
 	"cockatrice": {
 		"name": "Cockatrice",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4036,7 +4036,7 @@
 			"The cockatrice's strange ability to turn other creatures to stone is the creature's greatest defense, and a cockatrice lair is invariably littered with petrified remnants of foes. In an ironic twist of fate, however, weasels and ferrets-the creatures most likely to slip into cockatrices' nests and consume their eggs-appear to be completely immune to the effect. For unknown reasons, cockatrices are both terrified of and enraged by conventional roosters, and are equally likely to flee or attack when confronted by one."
 		]
 	},
-	"cockroach,_cockroach_swarm": {
+	"cockroach_cockroach_swarm": {
 		"name": "Cockroach, Cockroach Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4084,8 +4084,8 @@
 			"Swarms of flesh-eating cockroaches are extremely virulent pests. Normally carnivorous scavengers, these vermin quickly transform into aggressive hunters when amassed in great numbers, actively seeking out territory and food and gravitating to locations that readily provide both, such as dumps, graveyards, sewers, swamps, and other foul areas filled with rotting waste. Although a flesh-eating cockroach swarm prefers to feed on rot and carrion, these ravenous creatures do not balk at attacking living creatures as large as an elephant if given a chance."
 		]
 	},
-	"cockroach_swarm": { "copyof": "cockroach,_cockroach_swarm" },
-	"cockroach,_giant_cockroach": {
+	"cockroach_swarm": { "copyof": "cockroach_cockroach_swarm" },
+	"cockroach_giant_cockroach": {
 		"name": "Cockroach, Giant Cockroach",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4141,7 +4141,7 @@
 			"A number of species of giant cockroach exist, as summarized on the table above. Most of these variants have additional abilities, such as poison stings."
 		]
 	},
-	"giant_cockroach": { "copyof": "cockroach,_giant_cockroach" },
+	"giant_cockroach": { "copyof": "cockroach_giant_cockroach" },
 	"coffin_anemone": {
 		"name": "Coffin Anemone",
 		"sources": [ "Bestiary 6" ],
@@ -4604,7 +4604,7 @@
 			"A typical contemplative weighs roughly 100 pounds and measures 4 feet in diameter, though it prefers to float at the eye level of whomever it's talking to. When it speaks inside another creature's head, its voice is monotone and seems to come from everywhere at once, and when multiple contemplatives are encountered, they almost always use the pronoun \"we\" rather than the individual \"I.\""
 		]
 	},
-	"contemplative,_enlightened_contemplative": {
+	"contemplative_enlightened_contemplative": {
 		"name": "Contemplative, Enlightened Contemplative",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
@@ -4667,7 +4667,7 @@
 			"Now in direct control of their own evolutionary progress, most contemplatives choose to advance methodically and scientifically. Yet a small subset engaged in daring research into occultism and the Esoteric Planes favor a more reckless approach. The most impressive discoveries of these self-styled \"enlightened\" individuals allow them to transcend the material world's limitations for brief periods of time, much to the chagrin of more conservative contemplatives, who prefer to pursue less radical methods than their peers."
 		]
 	},
-	"enlightened_contemplative": { "copyof": "contemplative,_enlightened_contemplative" },
+	"enlightened_contemplative": { "copyof": "contemplative_enlightened_contemplative" },
 	"copsewight": {
 		"name": "Copsewight",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -4989,7 +4989,7 @@
 			"Planar Swamp Cordulegaster: The memory-stealing waters of the Styx become diluted once they trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling in these marshes have a weaker effect-those bitten must succeed at a DC 13 Will save or become confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas those residing in the Plaguemere are immune to disease."
 		]
 	},
-	"cordulegaster,_elder_cordulegaster": {
+	"cordulegaster_elder_cordulegaster": {
 		"name": "Cordulegaster, Elder Cordulegaster",
 		"sources": [ "Pathfinder #98: Turn of the Torrent" ],
 		"description": [
@@ -5075,7 +5075,7 @@
 			"Planar Swamp Cordulegaster: The memory-stealing waters of the Styx become diluted once they trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling in these marshes have a weaker effect-those bitten must succeed at a DC 13 Will save or become confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas those residing in the Plaguemere are immune to disease."
 		]
 	},
-	"elder_cordulegaster": { "copyof": "cordulegaster,_elder_cordulegaster" },
+	"elder_cordulegaster": { "copyof": "cordulegaster_elder_cordulegaster" },
 	"corpse_lotus": {
 		"name": "Corpse Lotus",
 		"sources": [
@@ -5272,7 +5272,7 @@
 			"A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast planar ally to conjure that specific couatl without expending the typical payment of gold or other valuables-provided the the couatl approves of the service asked for by the spellcaster."
 		]
 	},
-	"couatl,_auwaz_couatl": {
+	"couatl_auwaz_couatl": {
 		"name": "Couatl, Auwaz Couatl",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
@@ -5348,8 +5348,8 @@
 			"Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are more than happy to comfort distressed children and guide them home. In particularly dire situations, or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the child on its back and fly it to safety. An auwaz couatl typically has a different approach with children who have run away from home; the auwaz couatl takes time to speak with the child and learn her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow into adventurers and travel the world years later."
 		]
 	},
-	"auwaz_couatl": { "copyof": "couatl,_auwaz_couatl" },
-	"couatl,_chicome": {
+	"auwaz_couatl": { "copyof": "couatl_auwaz_couatl" },
+	"couatl_chicome": {
 		"name": "Couatl, Chicome",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
@@ -5438,9 +5438,9 @@
 			"Though they may serve a range of lawful and good deities, chicomes are typically agents of those gods with an aspect of nature or life, such as [Erastil](faith/erastil) or Cihua Couatl, or empyreal lords like [Cernunnos](faith/cernunnos) or [Valani](faith/valani). Some chicomes may even serve neutral-aligned deities such as [Gozreh](faith/gozreh) or [Feronia](faith/feronia). Chicomes never serve deities, no matter how noble, whose portfolio includes the destruction of nature or the spread of civilization, such as [Torag](faith/torag). Many chicomes serve no deities at all and are dedicated only to the primordial forces of nature."
 		]
 	},
-	"chicome": { "copyof": "couatl,_chicome" },
-	"chicome_couatl": { "copyof": "couatl,_chicome" },
-	"couatl,_lord_sun-warrior": {
+	"chicome": { "copyof": "couatl_chicome" },
+	"chicome_couatl": { "copyof": "couatl_chicome" },
+	"couatl_lord_sun-warrior": {
 		"name": "Couatl, Lord Sun-Warrior",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
@@ -5503,9 +5503,9 @@
 			"Lord Sun-Warrior acts independently of any deity, though he maintains positive relations with all of the good-aligned ones. His agenda is complex, but involves fostering the development of peaceful cultures and nations throughout many different worlds, and the discouragement or outright destruction of evil ones. In this he frequently recruits adventurers and other agents, dispatching them on quests that may not immediately make sense, and providing them with guidance and assistance as he is able. He is aided in his efforts by his champion, Jua Mfuasi (LG male human paladin of Iomedae 10), who was once a necromancer known as the Corpse-King until he was killed and returned to life by Sun-Warrior, after which he renounced his evil ways and abandoned arcane magic to become a paladin."
 		]
 	},
-	"lord_sun-warrior": { "copyof": "couatl,_lord_sun-warrior" },
-	"lord_sun_warrior": { "copyof": "couatl,_lord_sun-warrior" },
-	"couatl,_mix_couatl": {
+	"lord_sun-warrior": { "copyof": "couatl_lord_sun-warrior" },
+	"lord_sun_warrior": { "copyof": "couatl_lord_sun-warrior" },
+	"couatl_mix_couatl": {
 		"name": "Couatl, Mix Couatl",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
@@ -5589,8 +5589,8 @@
 			"Mix couatls commonly return to the sites of settlements they have helped nurture over the span of multiple generations-each new generation hears tales of beautiful flying serpents made of stars and considers it a great blessing to see this creature once more. Only on rare occasions does a mix couatl abandon a settlement. This usually happens when the mix couatl recognizes that its attempts to improve the settlement may actually be harmful, whether due to a potential loss of important traditions or when the possibility of growth could expose the settlement to great dangers from the outside world."
 		]
 	},
-	"mix_couatl": { "copyof": "couatl,_mix_couatl" },
-	"couatl,_tletli": {
+	"mix_couatl": { "copyof": "couatl_mix_couatl" },
+	"couatl_tletli": {
 		"name": "Couatl, Tletli",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
@@ -5675,8 +5675,8 @@
 			"If and when a tletli is called upon to obliterate an irredeemable region, the couatl enlists mortals to aid its efforts, typically in the form of envoys and delegates who extend a final chance for redemption to the sinners in question. A tletli's prerogative, however, is punishment, not mercy, and woe be unto any who cavort with the wrong kind of company at the wrong time in a tletli's presence. If there are genuine innocents within a group or settlement on which the tletli has set its sights, the couatl may send an emissary, such as a charmed person, to forewarn the pure of heart, but it otherwise does not hesitate to incinerate the entire locale. Their deific masters understand tletlis' unrivaled propensity for holy retribution all too well, and they typically send other couatls or celestials like angels to accompany the tletlis in case there are a number of individuals in a settlement that should be evacuated or protected during the razing."
 		]
 	},
-	"tletli": { "copyof": "couatl,_tletli" },
-	"couatl,_xiuh_couatl": {
+	"tletli": { "copyof": "couatl_tletli" },
+	"couatl_xiuh_couatl": {
 		"name": "Couatl, Xiuh Couatl",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
@@ -5764,8 +5764,8 @@
 			"Though they tend to rely on their own visions and divinations to seek out evil, xiuh couatls are sometimes called on by the gods to tackle given tasks. Sarenrae, in particular, makes the most of use of all types of couatls, but xiuh couatls can be called upon by Desna, Shelyn, or, in Arcadia, Kazutal, goddess of community, liberty, and safety. As usual, xiuh couatls first attempt to redeem the creatures they are tasked with destroying, but follow with violent retribution if required. Gods may also assign xiuh couatls to aid individuals who require assistance in times of adversity. These individuals are gifted weapons by their divine patrons, and may never know they actually wield xiuh couatls, even after their tasks have been completed."
 		]
 	},
-	"xiuh_couatl": { "copyof": "couatl,_xiuh_couatl" },
-	"crab,_crab_swarm": {
+	"xiuh_couatl": { "copyof": "couatl_xiuh_couatl" },
+	"crab_crab_swarm": {
 		"name": "Crab, Crab Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5811,8 +5811,8 @@
 			"Crab swarms contain over a thousand normal-sized crabs that rush over their victims, plucking flesh with thousands of pinching claws. Some fishermen claim tides and phases of the moon cause these creatures to swarm as they do."
 		]
 	},
-	"crab_swarm": { "copyof": "crab,_crab_swarm" },
-	"crab,_giant_crab": {
+	"crab_swarm": { "copyof": "crab_crab_swarm" },
+	"crab_giant_crab": {
 		"name": "Crab, Giant Crab",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5873,8 +5873,8 @@
 			"| Shipwrecker crab | 13 | Colossal | 14d8 |"
 		]
 	},
-	"giant_crab": { "copyof": "crab,_giant_crab" },
-	"crab,_shark-eating_crab": {
+	"giant_crab": { "copyof": "crab_giant_crab" },
+	"crab_shark-eating_crab": {
 		"name": "Crab, Shark-Eating Crab",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5927,9 +5927,9 @@
 			"The typical shark-eating crab stands 16 feet tall and weighs just over 4,000 pounds."
 		]
 	},
-	"shark-eating_crab": { "copyof": "crab,_shark-eating_crab" },
-	"shark_eating_crab": { "copyof": "crab,_shark-eating_crab" },
-	"crab,_shipwrecker_crab": {
+	"shark-eating_crab": { "copyof": "crab_shark-eating_crab" },
+	"shark_eating_crab": { "copyof": "crab_shark-eating_crab" },
+	"crab_shipwrecker_crab": {
 		"name": "Crab, Shipwrecker Crab",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5984,7 +5984,7 @@
 			"A shipwrecker crab measures 50 feet across, with two long arms capable of extending a further 30 feet each, and weighs 6 tons."
 		]
 	},
-	"shipwrecker_crab": { "copyof": "crab,_shipwrecker_crab" },
+	"shipwrecker_crab": { "copyof": "crab_shipwrecker_crab" },
 	"crackling_skull_swarm": {
 		"name": "Crackling Skull Swarm",
 		"sources": [ "Pathfinder #141: Last Watch" ],
@@ -6092,7 +6092,7 @@
 			"When not commanded to kill, the crawling hand remains still and can be handled and transported safely. Typically, owners carry them about in small, velvet-lined boxes. Crawling hands can also be placed as guardians and programmed with contingency commands, such as to hunt down and slay an individual who performs a specific task like violating a shrine, opening a warded door, or breaking the seal of a casket."
 		]
 	},
-	"crawling_hand,_giant_crawling_hand": {
+	"crawling_hand_giant_crawling_hand": {
 		"name": "Crawling Hand, Giant Crawling Hand",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -6147,7 +6147,7 @@
 			"When not commanded to kill, the crawling hand remains still and can be handled and transported safely. Typically, owners carry them about in small, velvet-lined boxes. Crawling hands can also be placed as guardians and programmed with contingency commands, such as to hunt down and slay an individual who performs a specific task like violating a shrine, opening a warded door, or breaking the seal of a casket."
 		]
 	},
-	"giant_crawling_hand": { "copyof": "crawling_hand,_giant_crawling_hand" },
+	"giant_crawling_hand": { "copyof": "crawling_hand_giant_crawling_hand" },
 	"crimson_jellyfish": {
 		"name": "Crimson Jellyfish",
 		"sources": [ "Bestiary 6" ],
@@ -6258,7 +6258,7 @@
 			"The typical crocodile is 14 feet long and weighs 1,400 pounds, but larger species exist. You can use these statistics for similar creatures, such as alligators."
 		]
 	},
-	"crocodile,_dire_crocodile": {
+	"crocodile_dire_crocodile": {
 		"name": "Crocodile, Dire Crocodile",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6305,8 +6305,8 @@
 			"The immense sarcosuchus, or dire crocodile, is an enormous predator capable of catching and eating prey as large as the largest dinosaurs."
 		]
 	},
-	"dire_crocodile": { "copyof": "crocodile,_dire_crocodile" },
-	"crocodile,_hetkoshu": {
+	"dire_crocodile": { "copyof": "crocodile_dire_crocodile" },
+	"crocodile_hetkoshu": {
 		"name": "Crocodile, Hetkoshu",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
@@ -6316,7 +6316,7 @@
 			"",
 			"### Hetkoshu, CR 12",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 54](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 54](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 19,200  ",
 			"N Gargantuan animal  ",
 			"**Init** +4; **Senses** low-light vision; Perception +15",
@@ -6363,8 +6363,8 @@
 			"Hetkoshus average 30 feet in length and weigh nearly 45,000 pounds."
 		]
 	},
-	"hetkoshu": { "copyof": "crocodile,_hetkoshu" },
-	"crocodilians,_deinosuchus": {
+	"hetkoshu": { "copyof": "crocodile_hetkoshu" },
+	"crocodilians_deinosuchus": {
 		"name": "Crocodilians, Deinosuchus",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
@@ -6419,8 +6419,8 @@
 			"In combat, the deinosuchus grinds its prey between its powerful jaws, knocking back other foes with its formidable tail while it snaps bones and tears the flesh of its captured meal."
 		]
 	},
-	"deinosuchus": { "copyof": "crocodilians,_deinosuchus" },
-	"crocodilians,_marine_crocodile": {
+	"deinosuchus": { "copyof": "crocodilians_deinosuchus" },
+	"crocodilians_marine_crocodile": {
 		"name": "Crocodilians, Marine Crocodile",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
@@ -6475,8 +6475,8 @@
 			"Marine crocodiles generally remain in warm, shallow oceans and seas. They spend most of their time at sea hunting fish, sea mammals, aquatic humanoids, and monstrous humanoids like merfolk, sahuagin, and locathahs. Only when breeding and laying eggs do marine crocodiles venture onto land (where they are slow and clumsy), before returning to the sea."
 		]
 	},
-	"marine_crocodile": { "copyof": "crocodilians,_marine_crocodile" },
-	"crocodilians,_saltwater_crocodile": {
+	"marine_crocodile": { "copyof": "crocodilians_marine_crocodile" },
+	"crocodilians_saltwater_crocodile": {
 		"name": "Crocodilians, Saltwater Crocodile",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
@@ -6531,5 +6531,5 @@
 			"Native to tropical saltwater estuaries and the freshwater rivers that feed them, saltwater crocodiles are among the largest form of non-primordial crocodilian on Golarion. Adult saltwater crocodiles can reach lengths upward of 20 feet and weights of over 2,000 pounds, and are typically more lethargic than their smaller kin, spending their days sunning themselves on land or in shallow water and hunting at night."
 		]
 	},
-	"saltwater_crocodile": { "copyof": "crocodilians,_saltwater_crocodile" }
+	"saltwater_crocodile": { "copyof": "crocodilians_saltwater_crocodile" }
 }

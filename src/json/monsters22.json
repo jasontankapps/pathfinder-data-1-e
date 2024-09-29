@@ -679,7 +679,7 @@
 			"**Effect** Atk +10 melee (2d6); multiple targets (all targets in a 10-ft.-square area); affected squares are treated as dense rubble"
 		]
 	},
-	"skeleton,_armored_ogre_skeleton": {
+	"skeleton_armored_ogre_skeleton": {
 		"name": "Skeleton, Armored Ogre Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
@@ -720,8 +720,8 @@
 			"Armored skeletons are normal skeletons given heavier varieties of armor and weapons to serve as elite troops in undead armies."
 		]
 	},
-	"armored_ogre_skeleton": { "copyof": "skeleton,_armored_ogre_skeleton" },
-	"skeleton,_four-armed_mudra_skeleton": {
+	"armored_ogre_skeleton": { "copyof": "skeleton_armored_ogre_skeleton" },
+	"skeleton_four-armed_mudra_skeleton": {
 		"name": "Skeleton, Four-Armed Mudra Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
@@ -763,9 +763,9 @@
 			"Sometimes called \"whirlwind skeletons,\" a mudra skeleton's Dexterity increases by +4 (instead of +2), and it gains Multiweapon Fighting and Weapon Finesse as bonus feats."
 		]
 	},
-	"four-armed_mudra_skeleton": { "copyof": "skeleton,_four-armed_mudra_skeleton" },
-	"four_armed_mudra_skeleton": { "copyof": "skeleton,_four-armed_mudra_skeleton" },
-	"skeleton,_multiplying_t-rex_skeleton": {
+	"four-armed_mudra_skeleton": { "copyof": "skeleton_four-armed_mudra_skeleton" },
+	"four_armed_mudra_skeleton": { "copyof": "skeleton_four-armed_mudra_skeleton" },
+	"skeleton_multiplying_t-rex_skeleton": {
 		"name": "Skeleton, Multiplying T-Rex Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
@@ -812,9 +812,9 @@
 			"A multiplying skeleton reassembles itself into smaller skeletons when it is destroyed. As these smaller skeletons are themselves destroyed, they continue to multiply into even more skeletons. Once the skeleton's Hit Dice can no longer be halved or the resulting skeletons would be Tiny or smaller, the skeletons are finally destroyed. Multiplying skeletons can be created using animate dead, but they count as twice their normal number of Hit Dice per casting."
 		]
 	},
-	"multiplying_t-rex_skeleton": { "copyof": "skeleton,_multiplying_t-rex_skeleton" },
-	"multiplying_trex_skeleton": { "copyof": "skeleton,_multiplying_t-rex_skeleton" },
-	"skeleton,_skeletal_mage": {
+	"multiplying_t-rex_skeleton": { "copyof": "skeleton_multiplying_t-rex_skeleton" },
+	"multiplying_trex_skeleton": { "copyof": "skeleton_multiplying_t-rex_skeleton" },
+	"skeleton_skeletal_mage": {
 		"name": "Skeleton, Skeletal Mage",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
@@ -872,8 +872,8 @@
 			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant skeletal champions gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead-they only arise under rare conditions or through ancient, esoteric rituals."
 		]
 	},
-	"skeletal_mage": { "copyof": "skeleton,_skeletal_mage" },
-	"skeleton,_skeletal_mount": {
+	"skeletal_mage": { "copyof": "skeleton_skeletal_mage" },
+	"skeleton_skeletal_mount": {
 		"name": "Skeleton, Skeletal Mount",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
@@ -915,7 +915,7 @@
 			"Skeletal mounts are normal skeletons made from combat-trained heavy horses. They often serve as mounts for necromancers or skeletal champions."
 		]
 	},
-	"skeletal_mount": { "copyof": "skeleton,_skeletal_mount" },
+	"skeletal_mount": { "copyof": "skeleton_skeletal_mount" },
 	"skeltercat": {
 		"name": "Skeltercat",
 		"sources": [ "Pathfinder #92: The Hill Giant's Pledge" ],
@@ -1577,7 +1577,7 @@
 			"These small mammals are well known to humanoids and forest creatures alike, with their distinctive black-and-white-striped markings and infamous scent glands. Creatures like big cats or wolves that normally would make a meal of such a small creature give skunks plenty of space, for they have learned well that the combination of black and white on a skunk's back equates to a hideously overpowering stench."
 		]
 	},
-	"skunk,_giant_skunk": {
+	"skunk_giant_skunk": {
 		"name": "Skunk, Giant Skunk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -1628,7 +1628,7 @@
 			"Much larger than their passive cousins, giant skunks are an aggressive lot. Having a greater bulk to maintain, giant skunks feed on creatures beyond just grubs and insects, often hunting small mammals and reptiles by night in addition to giant versions of insects. While giant skunks are dangerous to nearby settlements, farmers find a positive aspect in their presence, valuing the creatures' taste for giant insects and other more dangerous vermin."
 		]
 	},
-	"giant_skunk": { "copyof": "skunk,_giant_skunk" },
+	"giant_skunk": { "copyof": "skunk_giant_skunk" },
 	"skvader": {
 		"name": "Skvader",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
@@ -2166,7 +2166,7 @@
 			"",
 			"### Smokeshade, CR 2",
 			"",
-			"**Source** [Nidal, Land of Shadows pg. 64](source/nidal,_land_of_shadows)  ",
+			"**Source** [Nidal, Land of Shadows pg. 64](source/nidal_land_of_shadows)  ",
 			"**XP** 600  ",
 			"NE Tiny aberration (extraplanar, incorporeal)  ",
 			"**Init** +6; **Senses** darkvision 60 ft.; Perception +8",
@@ -2264,7 +2264,7 @@
 			"While all snake swarms are dangerous, swarms made up of venomous snakes are typically the most lethal. Snake swarms of both types can generally be encountered in the same regions, dwelling in ruins or wilderness alike."
 		]
 	},
-	"snake_swarm,_venomous_snake_swarm": {
+	"snake_swarm_venomous_snake_swarm": {
 		"name": "Snake Swarm, Venomous Snake Swarm",
 		"sources": [
 			"Bestiary 3",
@@ -2318,8 +2318,8 @@
 			"While all snake swarms are dangerous, swarms made up of venomous snakes are typically the most lethal. Snake swarms of both types can generally be encountered in the same regions, dwelling in ruins or wilderness alike."
 		]
 	},
-	"venomous_snake_swarm": { "copyof": "snake_swarm,_venomous_snake_swarm" },
-	"snake,_asp": {
+	"venomous_snake_swarm": { "copyof": "snake_swarm_venomous_snake_swarm" },
+	"snake_asp": {
 		"name": "Snake, Asp",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
@@ -2329,7 +2329,7 @@
 			"",
 			"### Asp, CR 2",
 			"",
-			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Osirion, Legacy of the Pharaohs pg. 55](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 600  ",
 			"N Medium animal  ",
 			"**Init** +6; **Senses** low-light vision, scent; Perception +10",
@@ -2368,8 +2368,8 @@
 			"An asp is a type of cobra native to Osirion and northern Garund. It ranges from 4 to 6 feet in length and has brownish scales with dark mottling."
 		]
 	},
-	"asp": { "copyof": "snake,_asp" },
-	"snake,_constrictor_snake": {
+	"asp": { "copyof": "snake_asp" },
+	"snake_constrictor_snake": {
 		"name": "Snake, Constrictor Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2416,8 +2416,8 @@
 			"The constrictor snake presented here is a relatively small one. You can create stats for a larger maneater like an anaconda by applying the advanced and giant simple templates, or by advancing the stats above to a 7 HD Large snake (CR 5), or even a 14 HD Huge snake (CR 10)."
 		]
 	},
-	"constrictor_snake": { "copyof": "snake,_constrictor_snake" },
-	"snake,_emperor_cobra": {
+	"constrictor_snake": { "copyof": "snake_constrictor_snake" },
+	"snake_emperor_cobra": {
 		"name": "Snake, Emperor Cobra",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2466,8 +2466,8 @@
 			"Infamous among travelers for its deadly poisonous bite, the emperor cobra is a foul-tempered snake typically encountered in bogs. The snake's scales are generally a dark green, with a pale green or even ivory underbelly. Its eyes are bright red and lack the distinctive serpentine slit most snake eyes possess. Emperor cobras are often trained to serve as guardians in temples. They are 16 feet long and weigh 200 pounds."
 		]
 	},
-	"emperor_cobra": { "copyof": "snake,_emperor_cobra" },
-	"snake,_giant_anaconda": {
+	"emperor_cobra": { "copyof": "snake_emperor_cobra" },
+	"snake_giant_anaconda": {
 		"name": "Snake, Giant Anaconda",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2513,8 +2513,8 @@
 			"Of the multitude of slithering predators that infest jungles, forests, and swamps, few inspire such terror as the giant anaconda. Incredibly strong, fearless hunters, these creatures are capable of taking down and eating elephants, dinosaurs, and giants. Their olive green and black mottled scales afford them exceptional camouflage in the murky waters they call home. A giant anaconda can grow to a length of 60 feet."
 		]
 	},
-	"giant_anaconda": { "copyof": "snake,_giant_anaconda" },
-	"snake,_venomous_snake": {
+	"giant_anaconda": { "copyof": "snake_giant_anaconda" },
+	"snake_venomous_snake": {
 		"name": "Snake, Venomous Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2564,7 +2564,7 @@
 			"Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above."
 		]
 	},
-	"venomous_snake": { "copyof": "snake,_venomous_snake" },
+	"venomous_snake": { "copyof": "snake_venomous_snake" },
 	"snallygaster": {
 		"name": "Snallygaster",
 		"sources": [
@@ -2680,7 +2680,7 @@
 			"Smaller snarks, like the one presented here, make affectionate pets, but are known for stealing small objects and treats from their owners to line a variety of nests and secret stashes they maintain. An arcane caster who selects a snark as a familiar gains a +3 bonus on Stealth checks, though snark familiars are vanishingly rare beyond the First World."
 		]
 	},
-	"solifugid,_albino_cave_solifugid": {
+	"solifugid_albino_cave_solifugid": {
 		"name": "Solifugid, Albino Cave Solifugid",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2725,8 +2725,8 @@
 			"The six-legged albino cave solifugid is well known for its aggressive hunting patterns. It has a legspan of 5 feet, and weighs 100 pounds."
 		]
 	},
-	"albino_cave_solifugid": { "copyof": "solifugid,_albino_cave_solifugid" },
-	"solifugid,_giant_solifugid": {
+	"albino_cave_solifugid": { "copyof": "solifugid_albino_cave_solifugid" },
+	"solifugid_giant_solifugid": {
 		"name": "Solifugid, Giant Solifugid",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2781,7 +2781,7 @@
 			"| Duneshaker solifugid | 18 | Colossal | 20 |"
 		]
 	},
-	"giant_solifugid": { "copyof": "solifugid,_giant_solifugid" },
+	"giant_solifugid": { "copyof": "solifugid_giant_solifugid" },
 	"somalcygot": {
 		"name": "Somalcygot",
 		"sources": [
@@ -3843,7 +3843,7 @@
 			"The unnatural and corruptive transformations a fallen victim undergoes as it turns into a Spellscar fext render its body hard and especially resilient to the magical energies of most spellcasters. In a peculiar twist, the same corruptive energy that causes spells to bounce off of Spellscar fexts' hides also strangely renders them susceptible to glass and glass-based weapons. Talented gunsmiths from Alkenstar have managed to craft glass bullets for rifle-wielding adventurers and monster hunters for the purpose of eradicating Spellscar fexts."
 		]
 	},
-	"sphinx,_androsphinx": {
+	"sphinx_androsphinx": {
 		"name": "Sphinx, Androsphinx",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3911,8 +3911,8 @@
 			"**Family:** [Sphinx](family/sphinx)"
 		]
 	},
-	"androsphinx": { "copyof": "sphinx,_androsphinx" },
-	"sphinx,_criosphinx": {
+	"androsphinx": { "copyof": "sphinx_androsphinx" },
+	"sphinx_criosphinx": {
 		"name": "Sphinx, Criosphinx",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3973,8 +3973,8 @@
 			"**Family:** [Sphinx](family/sphinx)"
 		]
 	},
-	"criosphinx": { "copyof": "sphinx,_criosphinx" },
-	"sphinx,_cynosphinx": {
+	"criosphinx": { "copyof": "sphinx_criosphinx" },
+	"sphinx_cynosphinx": {
 		"name": "Sphinx, Cynosphinx",
 		"sources": [
 			"Pathfinder #82: Secrets of the Sphinx",
@@ -4059,8 +4059,8 @@
 			"Although they have the physical ability to carry a rider, cynosphinxes cannot be trained as mounts. They are intelligent beings who choose for themselves whether to accept a rider. A worthy rider is usually a powerful undead creature of evil alignment with whom the cynosphinx has an obsession, or who has promised eldritch secrets in return for service. Often, a creature petitioning a cynosphinx for this arrangement must provide such knowledge regularly for the cynosphinx to continue to grant its consent as a steed. A cynosphinx is considered a special cohort, not a normal mount."
 		]
 	},
-	"cynosphinx": { "copyof": "sphinx,_cynosphinx" },
-	"sphinx,_elder_sphinx": {
+	"cynosphinx": { "copyof": "sphinx_cynosphinx" },
+	"sphinx_elder_sphinx": {
 		"name": "Sphinx, Elder Sphinx",
 		"sources": [
 			"Pathfinder #83: The Slave Trenches of Hakotep",
@@ -4139,8 +4139,8 @@
 			"Elder sphinxes have little to no contact with other sphinxes. This only occurs when a younger, less powerful sphinx seeks out one of these magnificent specimens to plead for lost knowledge. When elder sphinxes do come into contact with one another, it is always a meeting of great purpose, typically on a matter of such importance that it requires them to share their ancient wisdom and unfathomable lore."
 		]
 	},
-	"elder_sphinx": { "copyof": "sphinx,_elder_sphinx" },
-	"sphinx,_gynosphinx": {
+	"elder_sphinx": { "copyof": "sphinx_elder_sphinx" },
+	"sphinx_gynosphinx": {
 		"name": "Sphinx, Gynosphinx",
 		"sources": [
 			"Pathfinder RPG Bestiary",
@@ -4201,8 +4201,8 @@
 			"**Family:** [Sphinx](family/sphinx)"
 		]
 	},
-	"gynosphinx": { "copyof": "sphinx,_gynosphinx" },
-	"sphinx,_hieracosphinx": {
+	"gynosphinx": { "copyof": "sphinx_gynosphinx" },
+	"sphinx_hieracosphinx": {
 		"name": "Sphinx, Hieracosphinx",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4260,7 +4260,7 @@
 			"**Family:** [Sphinx](family/sphinx)"
 		]
 	},
-	"hieracosphinx": { "copyof": "sphinx,_hieracosphinx" },
+	"hieracosphinx": { "copyof": "sphinx_hieracosphinx" },
 	"spider_eater": {
 		"name": "Spider Eater",
 		"sources": [ "Bestiary 3" ],
@@ -4323,7 +4323,7 @@
 			"A spider eater measures roughly 14 feet long and stands 6 feet tall. The creature has a wingspan just over 20 feet and weighs almost 2,000 pounds."
 		]
 	},
-	"spider,_drain_spider": {
+	"spider_drain_spider": {
 		"name": "Spider, Drain Spider",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
@@ -4379,8 +4379,8 @@
 			"A variant of the drain spider, known as the shingle spider, exists in Korvosa as well. Shingle spiders dwell in the upper reaches of the city, particularly enjoying the chimneys and gutters of abandoned buildings as a place to make their nests. Shingle spiders retain the drain spider's water skating ability, although they rarely have the opportunity to use it."
 		]
 	},
-	"drain_spider": { "copyof": "spider,_drain_spider" },
-	"spider,_dream_spider": {
+	"drain_spider": { "copyof": "spider_drain_spider" },
+	"spider_dream_spider": {
 		"name": "Spider, Dream Spider",
 		"sources": [
 			"Curse of the Crimson Throne",
@@ -4434,8 +4434,8 @@
 			"Transplants from the Mwangi Expanse (where these spiders can grow to truly enormous proportions), dream spiders have become a significant but valuable infestation in Korvosa's Shingles, for the venom of one of these spiders can be distilled into the popular but dangerous drug known as [shiver](drug/shiver)."
 		]
 	},
-	"dream_spider": { "copyof": "spider,_dream_spider" },
-	"spider,_giant_black_widow": {
+	"dream_spider": { "copyof": "spider_dream_spider" },
+	"spider_giant_black_widow": {
 		"name": "Spider, Giant Black Widow",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4488,8 +4488,8 @@
 			"Females of this species are larger than males. Males are identical to the typical giant spider."
 		]
 	},
-	"giant_black_widow": { "copyof": "spider,_giant_black_widow" },
-	"spider,_giant_crab_spider": {
+	"giant_black_widow": { "copyof": "spider_giant_black_widow" },
+	"spider_giant_crab_spider": {
 		"name": "Spider, Giant Crab Spider",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4537,8 +4537,8 @@
 			"Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical adult halfling."
 		]
 	},
-	"giant_crab_spider": { "copyof": "spider,_giant_crab_spider" },
-	"spider,_giant_spider": {
+	"giant_crab_spider": { "copyof": "spider_giant_crab_spider" },
+	"spider_giant_spider": {
 		"name": "Spider, Giant Spider",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4598,8 +4598,8 @@
 			"| Goliath spider | 11 | Colossal | 14d8 |"
 		]
 	},
-	"giant_spider": { "copyof": "spider,_giant_spider" },
-	"spider,_giant_tarantula": {
+	"giant_spider": { "copyof": "spider_giant_spider" },
+	"spider_giant_tarantula": {
 		"name": "Spider, Giant Tarantula",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -4651,8 +4651,8 @@
 			"No description provided."
 		]
 	},
-	"giant_tarantula": { "copyof": "spider,_giant_tarantula" },
-	"spider,_goliath_spider": {
+	"giant_tarantula": { "copyof": "spider_giant_tarantula" },
+	"spider_goliath_spider": {
 		"name": "Spider, Goliath Spider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -4704,8 +4704,8 @@
 			"Goliath spiders are giant hunting spiders that most often prey on large creatures such as giant scorpions, snakes, and younger dragons, but sometimes catch and paralyze smaller prey to eat later. Camouflaged by their hairs and coloration, they prowl atop the forest canopy, dropping upon unsuspecting creatures. Females often cannibalize their mates."
 		]
 	},
-	"goliath_spider": { "copyof": "spider,_goliath_spider" },
-	"spider,_moon_spider": {
+	"goliath_spider": { "copyof": "spider_goliath_spider" },
+	"spider_moon_spider": {
 		"name": "Spider, Moon Spider",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
@@ -4769,8 +4769,8 @@
 			"Moon spiders do not speak any humanoid language, but communicate with each other in clicks and taps of their legs on the ground, and they can understand simple concepts in Common (which is useful when they're listening to prey)."
 		]
 	},
-	"moon_spider": { "copyof": "spider,_moon_spider" },
-	"spider,_ogre_spider": {
+	"moon_spider": { "copyof": "spider_moon_spider" },
+	"spider_ogre_spider": {
 		"name": "Spider, Ogre Spider",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4821,8 +4821,8 @@
 			"Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect."
 		]
 	},
-	"ogre_spider": { "copyof": "spider,_ogre_spider" },
-	"spider,_scarlet_spider": {
+	"ogre_spider": { "copyof": "spider_ogre_spider" },
+	"spider_scarlet_spider": {
 		"name": "Spider, Scarlet Spider",
 		"sources": [
 			"Ultimate Magic",
@@ -4876,8 +4876,8 @@
 			"**Family:** [Familiar](family/familiar)"
 		]
 	},
-	"scarlet_spider": { "copyof": "spider,_scarlet_spider" },
-	"spider,_spider_swarm": {
+	"scarlet_spider": { "copyof": "spider_scarlet_spider" },
+	"spider_spider_swarm": {
 		"name": "Spider, Spider Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4927,7 +4927,7 @@
 			"The sight of a carpet of swarming spiders is unsettling indeed-particularly when the swarm is made up of spiders each the size of a gold coin and possessing blade-like mandibles capable of lacerating flesh with sickening ease. A swarm of spiders is a colonial mass of arachnids that relies on overwhelming much larger prey with sheer numbers rather than catching smaller snacks. While spider swarms spin webs, these webs are incapable of catching larger prey and typically serve the swarm as a lair rather than a method of capturing dinner."
 		]
 	},
-	"spider_swarm": { "copyof": "spider,_spider_swarm" },
+	"spider_swarm": { "copyof": "spider_spider_swarm" },
 	"spirit_of_adoration": {
 		"name": "Spirit of Adoration",
 		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
@@ -5129,7 +5129,7 @@
 			"Capable of spreading and colonizing with disturbing speed, a spore stalker and its kin can quickly overrun an area. Fortunately, a spore stalker's life span is relatively short; a typical spore stalker perishes of natural causes in only a few weeks. Spore stalkers are often used by [mi-go](monster/mi-go) or agents of the Dominion of the Black as biological weapons against unsuspecting citizens of newly discovered planets."
 		]
 	},
-	"spriggan,_spriggan_large_size": {
+	"spriggan_spriggan_large_size": {
 		"name": "Spriggan, Spriggan (Large Size)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5182,9 +5182,9 @@
 			"Spriggans resemble ugly gnomes with an alien, feral appearance. Many are gaunt and haggard. When magically enlarged, they look the same except much more hale and muscular."
 		]
 	},
-	"spriggan_large_size": { "copyof": "spriggan,_spriggan_large_size" },
-	"large_spriggan": { "copyof": "spriggan,_spriggan_large_size" },
-	"spriggan,_spriggan_normal_size": {
+	"spriggan_large_size": { "copyof": "spriggan_spriggan_large_size" },
+	"large_spriggan": { "copyof": "spriggan_spriggan_large_size" },
+	"spriggan_spriggan_normal_size": {
 		"name": "Spriggan, Spriggan (Normal Size)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5244,8 +5244,8 @@
 			"Spriggans resemble ugly gnomes with an alien, feral appearance. Many are gaunt and haggard. When magically enlarged, they look the same except much more hale and muscular."
 		]
 	},
-	"spriggan_normal_size": { "copyof": "spriggan,_spriggan_normal_size" },
-	"normal_spriggan": { "copyof": "spriggan,_spriggan_normal_size" },
+	"spriggan_normal_size": { "copyof": "spriggan_spriggan_normal_size" },
+	"normal_spriggan": { "copyof": "spriggan_spriggan_normal_size" },
 	"spring-heeled_jack": {
 		"name": "Spring-Heeled Jack",
 		"sources": [
@@ -5374,7 +5374,7 @@
 			"While sprites themselves are relatively uncultured and savage in nature, they do have a healthy curiosity for all things magical in nature. They are particularly drawn to sites of great but latent magical power, such as the ruins of ancient temples. This curiosity makes them unusually receptive to roles as familiars as well. A 5th-level chaotic neutral spellcaster with the Improved Familiar feat can gain a sprite as a familiar."
 		]
 	},
-	"sprite,_sprite_swarm": {
+	"sprite_sprite_swarm": {
 		"name": "Sprite, Sprite Swarm",
 		"sources": [ "Fey Revisited" ],
 		"description": [
@@ -5436,7 +5436,7 @@
 			"In some parts of Golarion where sprites are known to exist, those accused of crimes or other unacceptable behavior are sentenced to face a sprite swarm so that nature itself can judge them. If a sprite swarm forms to drive one of the accused away, he is guilty; if not, he is innocent. Most of those sent forth never return, having run afoul of the sprites' protective instincts, but occasionally the sprites allow someone they deem not a threat to live-quite independently of their actual guilt or innocence."
 		]
 	},
-	"sprite_swarm": { "copyof": "sprite,_sprite_swarm" },
+	"sprite_swarm": { "copyof": "sprite_sprite_swarm" },
 	"squid": {
 		"name": "Squid",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -5488,7 +5488,7 @@
 			"Squids are aggressive predators that fear little and are more than willing to attack prey larger than themselves."
 		]
 	},
-	"squid,_giant_squid": {
+	"squid_giant_squid": {
 		"name": "Squid, Giant Squid",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5535,7 +5535,7 @@
 			"The giant squid is a legendary beast capable of feeding on humans with ease. Hunger has been known to drive these normally deep-dwelling creatures up to the ocean surface where anything they encounter is potential prey. A giant squid is 45 feet long and weighs 1,500 pounds."
 		]
 	},
-	"giant_squid": { "copyof": "squid,_giant_squid" },
+	"giant_squid": { "copyof": "squid_giant_squid" },
 	"star_monarch": {
 		"name": "Star Monarch",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -6150,7 +6150,7 @@
 			"On average, strix stand just over 6 feet tall, with males and females being roughly the same size. Sharply pointed ears, pupilless eyes, and slitted nostrils distinguish the race, though their 12-foot wingspans prove most distinctive. An adult strix weighs around 170 pounds. Most strix live to be about 40 years old, with the eldest reaching ages of up to 60."
 		]
 	},
-	"strix,_itaraak_champion": {
+	"strix_itaraak_champion": {
 		"name": "Strix, Itaraak Champion",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6200,8 +6200,8 @@
 			"These warriors run many civil matters that are outside the rokoa's spiritual authority with a gruff and haphazard democracy, with tribe members' votes weighted by the resources they provide the group. Only the rokoa herself can override these group decisions, and even then only for a time. Unfortunately, the itaraak's inflamed animosity and general bitterness often push them to make ill-advised raids on otherwise peaceful settlements, bringing down a disproportionate response from Chelish forces."
 		]
 	},
-	"itaraak_champion": { "copyof": "strix,_itaraak_champion" },
-	"strix,_strix_infiltrator": {
+	"itaraak_champion": { "copyof": "strix_itaraak_champion" },
+	"strix_strix_infiltrator": {
 		"name": "Strix, Strix Infiltrator",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6252,8 +6252,8 @@
 			"Hearing the droning voices of humanity, seeing their featherless, leathery flesh, and dealing with their smell wears on any strix, but being unable to stretch one's wings and take flight when instinct calls for it is a chronic torture infiltrators must endure. Despite this discomfort, these quiet spies understand that of all the campaigns launched against the human settlements that encroach upon their territory, none is more important to maintaining the strix way of life than theirs. Posing as a friend and sometimes more to their despised foes, infiltrators keep a close and personal eye on their neighbors and position themselves for success in espionage and sabotage. The occasional assassination mission provides a small reward for their pain."
 		]
 	},
-	"strix_infiltrator": { "copyof": "strix,_strix_infiltrator" },
-	"strix,_strix_rokoa": {
+	"strix_infiltrator": { "copyof": "strix_strix_infiltrator" },
+	"strix_strix_rokoa": {
 		"name": "Strix, Strix Rokoa",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6313,8 +6313,8 @@
 			"A rokoa is the spiritual leader of a strix tribe. Her duties include deciphering portents, performing funeral rites, tending to the bones of the deceased, and recalling the names of fallen heroes. She is considered the spiritual mother of the tribe."
 		]
 	},
-	"strix_rokoa": { "copyof": "strix,_strix_rokoa" },
-	"strix,_strix_voyager": {
+	"strix_rokoa": { "copyof": "strix_strix_rokoa" },
+	"strix_strix_voyager": {
 		"name": "Strix, Strix Voyager",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -6366,7 +6366,7 @@
 			"Oddities found high atop the spire nests of Ciricskree, these masked visitors bring hope to the fading itarii-the Strix word for their race-of Devil's Perch. While welcomed as family, voyagers are not born amid their clutches, claiming instead to have flown across the western ocean. Draped in the mysterious regalia of the ancients, the newcomers supposedly hail from the Island of the Gods, a place of legend known only to the oldest rokoa. They entertain and inspire the curious locals who crowd around the roost with tales of their mythical homeland and promises of a return to glory. Most voyagers' tales describe strix ancestors sitting as equals beside a lost race of men and powerful elves, but then facing a mysterious exile on the winds of a green storm. The validity of their claims is open to debate, but the fact remains that the strix cannot account for the location of the bones of these visitors' ancestors."
 		]
 	},
-	"strix_voyager": { "copyof": "strix,_strix_voyager" },
+	"strix_voyager": { "copyof": "strix_strix_voyager" },
 	"sturzstromer": {
 		"name": "Sturzstromer",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
@@ -6528,7 +6528,7 @@
 			"| Painite | 1,750 gp | Erupts in a 8d6 fireball dealing acid damage if thrown. |"
 		]
 	},
-	"stymphalide,_giant_stymphalidies": {
+	"stymphalide_giant_stymphalidies": {
 		"name": "Stymphalide, Giant Stymphalidies",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"description": [
@@ -6587,8 +6587,8 @@
 			"Most stymphalides stand approximately 2-1/2 feet tall and weigh little more than 40 pounds. Although mean-tempered and territorial, lone stymphalides prove relatively harmless, thus traveling in swarms of several dozen, relying on strength of numbers to bring down large or dangerous prey. Many tales also tell of enormous breeds of these monstrous birds, powerful enough to prey upon wyverns. These giant stymphalides are said to grow up to 13 feet tall and weigh over 250 pounds, with wingspans reaching upward of 25 feet. Such gigantic stymphalides are rarely seen, preferring to lurk upon desolate cliffs or even amid harsh extraplanar realms."
 		]
 	},
-	"giant_stymphalidies": { "copyof": "stymphalide,_giant_stymphalidies" },
-	"stymphalide,_stymphalides_swarm": {
+	"giant_stymphalidies": { "copyof": "stymphalide_giant_stymphalidies" },
+	"stymphalide_stymphalides_swarm": {
 		"name": "Stymphalide, Stymphalides Swarm",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"description": [
@@ -6644,7 +6644,7 @@
 			"Most stymphalides stand approximately 2-1/2 feet tall and weigh little more than 40 pounds. Although mean-tempered and territorial, lone stymphalides prove relatively harmless, thus traveling in swarms of several dozen, relying on strength of numbers to bring down large or dangerous prey. Many tales also tell of enormous breeds of these monstrous birds, powerful enough to prey upon wyverns. These giant stymphalides are said to grow up to 13 feet tall and weigh over 250 pounds, with wingspans reaching upward of 25 feet. Such gigantic stymphalides are rarely seen, preferring to lurk upon desolate cliffs or even amid harsh extraplanar realms."
 		]
 	},
-	"stymphalides_swarm": { "copyof": "stymphalide,_stymphalides_swarm" },
+	"stymphalides_swarm": { "copyof": "stymphalide_stymphalides_swarm" },
 	"stymphalidies": {
 		"name": "Stymphalidies",
 		"sources": [ "Bestiary 3" ],
@@ -6779,7 +6779,7 @@
 			"",
 			"### Suli, CR 1/2",
 			"",
-			"**Source** [Bestiary 3 pg. 258](source/bestiary_3), [Qadira, Gateway to the East pg. 28](source/qadira,_gateway_to_the_east)  ",
+			"**Source** [Bestiary 3 pg. 258](source/bestiary_3), [Qadira, Gateway to the East pg. 28](source/qadira_gateway_to_the_east)  ",
 			"**XP** 200  ",
 			"Suli ranger 1  ",
 			"N Medium outsider (native)  ",

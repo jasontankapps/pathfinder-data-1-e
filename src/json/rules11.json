@@ -1503,23 +1503,23 @@
 			"",
 			">**Drizzle:** Drizzle reduces visibility to three-quarters of the normal range, imposing a -2 penalty on Perception checks. It automatically extinguishes tiny unprotected flames (candles and the like, but not torches).",
 			">",
-			">**Fog, Heavy:** Heavy fog obscures all vision beyond 5 feet, including darkvision. Creatures 5 feet away have concealment. Heavy fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Heavy fog occurs only when there is no or light wind.",
+			">**Fog Heavy:** Heavy fog obscures all vision beyond 5 feet, including darkvision. Creatures 5 feet away have concealment. Heavy fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Heavy fog occurs only when there is no or light wind.",
 			">",
-			">**Fog, Light:** Light fog reduces visibility to three-quarters of the normal ranges, resulting in a -2 penalty on Perception checks and a -2 penalty on ranged attacks. Light fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Light fog occurs only when there is no or light wind.",
+			">**Fog Light:** Light fog reduces visibility to three-quarters of the normal ranges, resulting in a -2 penalty on Perception checks and a -2 penalty on ranged attacks. Light fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Light fog occurs only when there is no or light wind.",
 			">",
-			">**Fog, Medium:** Medium fog reduces visibility ranges by half, resulting in a -4 penalty on Perception checks and a -4 penalty on ranged attacks. Medium fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Medium fog occurs only when there is no or light wind.",
+			">**Fog Medium:** Medium fog reduces visibility ranges by half, resulting in a -4 penalty on Perception checks and a -4 penalty on ranged attacks. Medium fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Medium fog occurs only when there is no or light wind.",
 			">",
 			">**Rain:** Rain reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. Rain automatically extinguishes unprotected flames (candles, torches, and the like) and imposes a -4 penalty on ranged attacks.",
 			">",
-			">**Rain, Heavy:** Heavy rain reduces visibility to one-quarter of the normal range, resulting in a -6 penalty on Perception checks. Heavy rain automatically extinguishes unprotected flames and imposes a -6 penalty on ranged attacks.",
+			">**Rain Heavy:** Heavy rain reduces visibility to one-quarter of the normal range, resulting in a -6 penalty on Perception checks. Heavy rain automatically extinguishes unprotected flames and imposes a -6 penalty on ranged attacks.",
 			">",
 			">**Sleet:** Essentially frozen rain, sleet has the same effect as light snow, but any accumulation typically doesn't last longer than 1-2 hours after the storm.",
 			">",
-			">**Snow, Heavy:** Heavy snow reduces visibility ranges to one-quarter of the normal range, resulting in a -6 penalty on Perception checks. It extinguishes unprotected flames and imposes a -6 penalty on ranged attacks. Heavy snow impedes movement even before it begins to stick. Moving into a square during a heavy snowstorm requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of heavy snow leaves 1d4 inches of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, 2 extra squares of movement are required to enter a snow-filled square instead. A heavy snowstorm has a 10% chance of generating [thundersnow](rule/severe_events) and has a 40% chance of becoming a blizzard if the wind speed is severe or stronger.",
+			">**Snow Heavy:** Heavy snow reduces visibility ranges to one-quarter of the normal range, resulting in a -6 penalty on Perception checks. It extinguishes unprotected flames and imposes a -6 penalty on ranged attacks. Heavy snow impedes movement even before it begins to stick. Moving into a square during a heavy snowstorm requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of heavy snow leaves 1d4 inches of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, 2 extra squares of movement are required to enter a snow-filled square instead. A heavy snowstorm has a 10% chance of generating [thundersnow](rule/severe_events) and has a 40% chance of becoming a blizzard if the wind speed is severe or stronger.",
 			">",
-			">**Snow, Light:** Light snow reduces visibility to three-quarters of the normal range, resulting in a -2 penalty on Perception checks. Light snow has a 75% chance each hour of extinguishing unprotected flames and imposes a -2 penalty on ranged attacks. Light snow does not impede movement unless it continues for 2 or more hours, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every 2 hours of light snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.",
+			">**Snow Light:** Light snow reduces visibility to three-quarters of the normal range, resulting in a -2 penalty on Perception checks. Light snow has a 75% chance each hour of extinguishing unprotected flames and imposes a -2 penalty on ranged attacks. Light snow does not impede movement unless it continues for 2 or more hours, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every 2 hours of light snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.",
 			">",
-			">**Snow, Medium:** Medium snow reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. Medium snow extinguishes unprotected flames and imposes a -4 penalty on ranged attacks. Medium snow does not impede movement unless it continues for 1 hour, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of medium snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.",
+			">**Snow Medium:** Medium snow reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. Medium snow extinguishes unprotected flames and imposes a -4 penalty on ranged attacks. Medium snow does not impede movement unless it continues for 1 hour, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of medium snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.",
 			">",
 			">**Thunderstorm:** Thunderstorms feature [powerful winds](rule/winds) and heavy rain. To determine the type of wind associated with the thunderstorm, roll on Table 4-27: Thunderstorm Winds.",
 			">",
@@ -1890,7 +1890,7 @@
 			"",
 			"**Animal Companions** [alligator](druidcompanion/alligator), [archelon](druidcompanion/archelon), [crocodile](druidcompanion/crocodile), [dimetrodon](druidcompanion/dimetrodon), [elasmosaurus](druidcompanion/elasmosaurus), [frog father](druidcompanion/frog_father), [giant chameleon](druidcompanion/giant_chameleon), [giant frilled lizard](druidcompanion/giant_frilled_lizard), [giant frog](druidcompanion/frog), [giant gecko](druidcompanion/giant_gecko), [giant salamander](druidcompanion/giant_salamander), [giant snapping turtle](druidcompanion/giant_snapping_turtle), [glyptodon](druidcompanion/glyptodon), [goliath frog](druidcompanion/goliath_frog), [kaprosuchus](druidcompanion/kaprosuchus), [megalania](druidcompanion/megalania), [monitor lizard](druidcompanion/monitor_lizard), [prionosuchus](druidcompanion/prionosuchus), [tortoise](druidcompanion/giant_tortoise)",
 			"",
-			"**Familiars** [dwarf caiman](monster/dwarf_caiman), [fire salamander](monster/fire_salamander), [horned lizard](monster/horned_lizard), [lizard](monster/lizard), [marine iguana](monster/familiar,_dwarf_caiman) (uses dwarf caiman stats), [snapping turtle](monster/snapping_turtle), [toad](monster/toad), [tuatara](monster/tuatara), [turtle](monster/turtle)",
+			"**Familiars** [dwarf caiman](monster/dwarf_caiman), [fire salamander](monster/fire_salamander), [horned lizard](monster/horned_lizard), [lizard](monster/lizard), [marine iguana](monster/familiar_dwarf_caiman) (uses dwarf caiman stats), [snapping turtle](monster/snapping_turtle), [toad](monster/toad), [tuatara](monster/tuatara), [turtle](monster/turtle)",
 			"",
 			"### Quadruped (Other)",
 			"",
@@ -3440,10 +3440,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		],
 		"siblings": [
 			"types_of_dungeons",
@@ -3506,10 +3506,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
 	"floors": {
@@ -3558,10 +3558,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
 	"doors": {
@@ -3646,13 +3646,13 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
-	"walls,_doors,_and_detect_spells": {
+	"walls_doors_and_detect_spells": {
 		"name": "Walls, Doors, and Detect Spells",
 		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3670,10 +3670,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
 	"stairs": {
@@ -3694,10 +3694,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
 	"cave-ins_and_collapses_cr_8": {
@@ -3726,13 +3726,13 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
-	"slimes,_molds,_and_fungi": {
+	"slimes_molds_and_fungi": {
 		"name": "Slimes, Molds, and Fungi",
 		"tags": "brown mold green slime shrieker yellow mold russet mold phosphorescent fungus",
 		"subtitle": "Dungeons",
@@ -3767,10 +3767,10 @@
 			"walls",
 			"floors",
 			"doors",
-			"walls,_doors,_and_detect_spells",
+			"walls_doors_and_detect_spells",
 			"stairs",
 			"cave-ins_and_collapses_cr_8",
-			"slimes,_molds,_and_fungi"
+			"slimes_molds_and_fungi"
 		]
 	},
 	"traps": {
@@ -5531,7 +5531,7 @@
 		],
 		"parent_topics": [ "environment" ],
 		"subtopics": [
-			"rain,_snow,_sleet,_and_hail",
+			"rain_snow_sleet_and_hail",
 			"storms",
 			"fog",
 			"winds"
@@ -5546,7 +5546,7 @@
 			"environmental_rules"
 		]
 	},
-	"rain,_snow,_sleet,_and_hail": {
+	"rain_snow_sleet_and_hail": {
 		"name": "Rain, Snow, Sleet, and Hail",
 		"subtitle": "Weather",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -5572,7 +5572,7 @@
 			"weather"
 		],
 		"siblings": [
-			"rain,_snow,_sleet,_and_hail",
+			"rain_snow_sleet_and_hail",
 			"storms",
 			"fog",
 			"winds"
@@ -5608,7 +5608,7 @@
 			"weather"
 		],
 		"siblings": [
-			"rain,_snow,_sleet,_and_hail",
+			"rain_snow_sleet_and_hail",
 			"storms",
 			"fog",
 			"winds"
@@ -5628,7 +5628,7 @@
 			"weather"
 		],
 		"siblings": [
-			"rain,_snow,_sleet,_and_hail",
+			"rain_snow_sleet_and_hail",
 			"storms",
 			"fog",
 			"winds"
@@ -5662,7 +5662,7 @@
 			"weather"
 		],
 		"siblings": [
-			"rain,_snow,_sleet,_and_hail",
+			"rain_snow_sleet_and_hail",
 			"storms",
 			"fog",
 			"winds"

@@ -1,5 +1,5 @@
 {
-	"azata,_veranallia": {
+	"azata_veranallia": {
 		"name": "Azata, Veranallia",
 		"sources": [
 			"Bestiary 6",
@@ -99,8 +99,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"veranallia": { "copyof": "azata,_veranallia" },
-	"azata,_yamah": {
+	"veranallia": { "copyof": "azata_veranallia" },
+	"azata_yamah": {
 		"name": "Azata, Yamah",
 		"sources": [
 			"Bestiary 6",
@@ -114,7 +114,7 @@
 			"",
 			"### Yamah, CR 5",
 			"",
-			"**Source** [Bestiary 6 pg. 36](source/bestiary_6), [Magnimar, City of Monuments pg. 63](source/magnimar,_city_of_monuments)  ",
+			"**Source** [Bestiary 6 pg. 36](source/bestiary_6), [Magnimar, City of Monuments pg. 63](source/magnimar_city_of_monuments)  ",
 			"**XP** 1,600  ",
 			"CG Medium outsider (azata, chaotic, extraplanar, good)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., detect evil, detect magic; low-light vision, Perception +12",
@@ -169,7 +169,7 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"yamah": { "copyof": "azata,_yamah" },
+	"yamah": { "copyof": "azata_yamah" },
 	"azer": {
 		"name": "Azer",
 		"sources": [ "Bestiary 2" ],
@@ -235,7 +235,7 @@
 			"",
 			"### Azgenzak, CR 8",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 82](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 82](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**XP** 4,800  ",
 			"NE Large aberration (aquatic)  ",
 			"**Init** +3; **Senses** all-around vision, darkvision 60 ft., low-light vision; Perception +20  ",
@@ -416,7 +416,7 @@
 			"",
 			"### Bacallia, CR 1",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 62](source/druma_profit_and_prophecy)  ",
 			"**XP** 400  ",
 			"N Medium animal  ",
 			"**Init** +1; **Senses** low-light vision; Perception +5  ",
@@ -510,7 +510,7 @@
 			"A typical badger has dark brownish-gray fur highlighted with white markings, such as bands or striped masks about the eyes. These markings are distinct and vary by species. While generally friendly, if threatened or otherwise provoked, badgers can become fierce combatants. Once engaged with an opponent, they typically fight until slain. In combat, they fight with their sharp, needle-like teeth and long, curved claws, which they otherwise use for digging."
 		]
 	},
-	"badger,_dire_badger": {
+	"badger_dire_badger": {
 		"name": "Badger, Dire Badger",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -560,7 +560,7 @@
 			"Dire badgers stand 4 feet tall at the shoulder, and weigh 500 pounds."
 		]
 	},
-	"dire_badger": { "copyof": "badger,_dire_badger" },
+	"dire_badger": { "copyof": "badger_dire_badger" },
 	"baetriov": {
 		"name": "Baetriov",
 		"sources": [ "Taldor, the First Empire" ],
@@ -571,7 +571,7 @@
 			"",
 			"### Baetriov, CR 8",
 			"",
-			"**Source** [Taldor, the First Empire pg. 56](source/taldor,_the_first_empire)  ",
+			"**Source** [Taldor, the First Empire pg. 56](source/taldor_the_first_empire)  ",
 			"**XP** 4,800  ",
 			"LE Medium undead  ",
 			"**Init** +8; **Senses** darkvision 60 ft.; Perception +15  ",
@@ -731,7 +731,7 @@
 			"",
 			"The sack has other special qualities while in the bagman's possession. The weight of creatures in the sack do not count against the bagman's carrying capacity, and the bagman can fit up to two Small creatures or one Medium creature in the sack at a time. If used by any creature other than the bagman that owns it, this container functions as a mundane sack. If a bagman's sack is lost or destroyed, it can craft a new sack with proper materials and a week of work.",
 			"",
-			"**Fat Extractor (Su)** A bagman can use the fat of intelligent humanoid creatures to create potions of infernal healing and potions of youthful appearance as if it had the Brew Potion feat. These potions are created at caster level 3rd, and the fat from one humanoid creature of any size is enough to make a single potion. Creating each potion takes 2 hours, and requires the bagman to flense the fat from its victims' flesh with its claws, place the fat in a cauldron over an open fire, and mix it with whatever free ingredients are at hand. Unlike brewing a potion normally, creating these potions has no cost. A bagman can carry only four potions created in this way at a time, even if another bagman made them, but it can sell or give away an unlimited number of potions. Knowingly consuming one of these potions is an evil act.",
+			"**Fat Extractor (Su)** A bagman can use the fat of intelligent humanoid creatures to create potions of infernal healing and potions of youthful appearance as if it had the [Brew Potion](feat/brew_potion) feat. These potions are created at caster level 3rd, and the fat from one humanoid creature of any size is enough to make a single potion. Creating each potion takes 2 hours, and requires the bagman to flense the fat from its victims' flesh with its claws, place the fat in a cauldron over an open fire, and mix it with whatever free ingredients are at hand. Unlike brewing a potion normally, creating these potions has no cost. A bagman can carry only four potions created in this way at a time, even if another bagman made them, but it can sell or give away an unlimited number of potions. Knowingly consuming one of these potions is an evil act.",
 			"",
 			"**Find Children (Ex)** A bagman has the scent ability, but only with respect to humanoid children. Thus, it could sniff out a human child's hiding place, but not the child's parents.",
 			"",
@@ -1291,7 +1291,7 @@
 			"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule."
 		]
 	},
-	"barghest,_greater_barghest": {
+	"barghest_greater_barghest": {
 		"name": "Barghest, Greater Barghest",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1335,7 +1335,7 @@
 			"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule."
 		]
 	},
-	"greater_barghest": { "copyof": "barghest,_greater_barghest" },
+	"greater_barghest": { "copyof": "barghest_greater_barghest" },
 	"barometz": {
 		"name": "Barometz",
 		"sources": [ "Bestiary 4" ],
@@ -1660,7 +1660,7 @@
 			"For unknown reasons, weasels and ferrets are immune to the basilisk's stare, and sometimes sneak into basilisk lairs while a parent is hunting in order to consume its young. Some legends suggest that a basilisk's blood can transmute common stones into other material, but this is likely a case of witnesses misinterpreting the magical restoration of previously petrified creatures or body parts."
 		]
 	},
-	"bat,_bat_swarm": {
+	"bat_bat_swarm": {
 		"name": "Bat, Bat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1712,8 +1712,8 @@
 			"Bat swarms dwell in large caves, ruins, or even city sewers-anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs."
 		]
 	},
-	"bat_swarm": { "copyof": "bat,_bat_swarm" },
-	"bat,_dire_bat": {
+	"bat_swarm": { "copyof": "bat_bat_swarm" },
+	"bat_dire_bat": {
 		"name": "Bat, Dire Bat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1760,8 +1760,8 @@
 			"The dire bat generally doesn't shelter in groups larger than eight, often living a solitary life. A dire bat prefers feeding on livestock and herd animals."
 		]
 	},
-	"dire_bat": { "copyof": "bat,_dire_bat" },
-	"bat,_mobat": {
+	"dire_bat": { "copyof": "bat_dire_bat" },
+	"bat_mobat": {
 		"name": "Bat, Mobat",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1814,8 +1814,8 @@
 			"Mobats' fur varies in coloration, from deep auburn to almost black, and their skin is black. A mobat's wingspan is 15 feet across, and it weighs 250 pounds."
 		]
 	},
-	"mobat": { "copyof": "bat,_mobat" },
-	"bat,_skaveling": {
+	"mobat": { "copyof": "bat_mobat" },
+	"bat_skaveling": {
 		"name": "Bat, Skaveling",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1869,8 +1869,8 @@
 			"Known in some circles as ghoul bats, skavelings are the hideous result of necromantic manipulation by urdefhans, who create them from mobats specially raised on diets of fungus and humanoid flesh. Upon reaching maturity, urdefhans ritually slay the bats using necrotic poisons, then raise the corpses to serve as mounts and guardians."
 		]
 	},
-	"skaveling": { "copyof": "bat,_skaveling" },
-	"bat,_sootwing_bat": {
+	"skaveling": { "copyof": "bat_skaveling" },
+	"bat_sootwing_bat": {
 		"name": "Bat, Sootwing Bat",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -1921,7 +1921,7 @@
 			"Ghoul spellcasters use these smaller cousins to skavelings as familiars. An evil spellcaster can gain a sootwing bat as a familiar at 5th level by taking the Improved Familiar feat. A sootwing bat familiar grants its master a +1 bonus to channel resistance (if the master has any)."
 		]
 	},
-	"sootwing_bat": { "copyof": "bat,_sootwing_bat" },
+	"sootwing_bat": { "copyof": "bat_sootwing_bat" },
 	"baykok": {
 		"name": "Baykok",
 		"sources": [ "Bestiary 3" ],
@@ -1980,7 +1980,7 @@
 			"Unlike many undead who feed on and hate all living things, a baykok seeks always to prove its mastery of the hunt. Though thoroughly wicked, baykoks often ignore all but the most powerful-looking foe in a group, only picking off lesser creatures if they dare to get between the baykok and its true prey. When it finally lays low its quarry, the baykok swoops down on the victim to devour the creature's soul in an attempt to make sure the creature never returns to seek revenge."
 		]
 	},
-	"bear,_dire_bear_cave_bear": {
+	"bear_dire_bear_cave_bear": {
 		"name": "Bear, Dire Bear (Cave Bear)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2027,9 +2027,9 @@
 			"Unlike most bears, a dire bear is short-tempered and swift to anger when confronted with intruders in its territory. Like a grizzly, a dire bear attempts to subdue or kill with its claws. However, a dire bear is far more likely (and willing) to begin biting a grabbed foe."
 		]
 	},
-	"cave_bear": { "copyof": "bear,_dire_bear_cave_bear" },
-	"dire_bear": { "copyof": "bear,_dire_bear_cave_bear" },
-	"bear,_dire_polar_bear": {
+	"cave_bear": { "copyof": "bear_dire_bear_cave_bear" },
+	"dire_bear": { "copyof": "bear_dire_bear_cave_bear" },
+	"bear_dire_polar_bear": {
 		"name": "Bear, Dire Polar Bear",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -2074,8 +2074,8 @@
 			"Dire polar bears, kin to cave bears, are larger and more aggressive than cave bears and normal polar bears alike. These short-tempered animals tend to avoid settled regions, but sometimes venture dangerously close to them while hunting, potentially resulting in bloody massacres."
 		]
 	},
-	"dire_polar_bear": { "copyof": "bear,_dire_polar_bear" },
-	"bear,_grizzly_bear": {
+	"dire_polar_bear": { "copyof": "bear_dire_polar_bear" },
+	"bear_grizzly_bear": {
 		"name": "Bear, Grizzly Bear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2124,8 +2124,8 @@
 			"To generate stats for a smaller bear (like a black bear), you can apply the young simple template to the grizzly bear's stat block. To generate stats for a larger grizzly or a polar bear, apply the advanced simple template to the grizzly's stats."
 		]
 	},
-	"grizzly_bear": { "copyof": "bear,_grizzly_bear" },
-	"bear,_polar_bear": {
+	"grizzly_bear": { "copyof": "bear_grizzly_bear" },
+	"bear_polar_bear": {
 		"name": "Bear, Polar Bear",
 		"sources": [
 			"Bestiary 5",
@@ -2177,7 +2177,7 @@
 			"Polar bears live an average of 15 to 20 years, but arctic peoples have known individual bears to live as long as 40 years, often assuming legendary status in local lore. An adult male polar bear can weigh 800 to 1,200 pounds, with females weighing 350 to 650 pounds."
 		]
 	},
-	"polar_bear": { "copyof": "bear,_polar_bear" },
+	"polar_bear": { "copyof": "bear_polar_bear" },
 	"bebilith": {
 		"name": "Bebilith",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2238,7 +2238,7 @@
 			"Far more intelligent than its verminous shape would suggest, it is perhaps a blessing that the bebilith is such a focused and devoted hunter of demons, for had these dangerous outsiders more of a mind to conquer and expand empires, their ability to plane shift would make them a menace indeed. Although, as an outsider, the bebilith has no biological need to eat, it does enjoy the sensation of chewing on demonic flesh."
 		]
 	},
-	"bee,_giant_bee": {
+	"bee_giant_bee": {
 		"name": "Bee, Giant Bee",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2295,8 +2295,8 @@
 			"These bulky and aggressive giant bees have the advanced creature simple template. Their venom is deadly, and deals Constitution damage rather than Strength damage."
 		]
 	},
-	"giant_bee": { "copyof": "bee,_giant_bee" },
-	"bee,_giant_queen_bee": {
+	"giant_bee": { "copyof": "bee_giant_bee" },
+	"bee_giant_queen_bee": {
 		"name": "Bee, Giant Queen Bee",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2352,8 +2352,8 @@
 			"Royal jelly has remarkable effects on other creatures if eaten. A pound of royal jelly provides enough nourishment for a full day, and grants a +4 resistance bonus on all saving throws against disease for the next 24 hours. If a creature sleeps enough to heal damage within 24 hours of eating at least a pound of royal jelly, it heals twice the hit points and ability damage as it otherwise would. A typical bee hive contains 2d6 pounds of royal jelly-a single pound sells for 100 gp."
 		]
 	},
-	"giant_queen_bee": { "copyof": "bee,_giant_queen_bee" },
-	"beetle,_dark_spitter_beetle": {
+	"giant_queen_bee": { "copyof": "bee_giant_queen_bee" },
+	"beetle_dark_spitter_beetle": {
 		"name": "Beetle, Dark Spitter Beetle",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2399,8 +2399,8 @@
 			"Spitter beetles are used as mounts by duergar explorers."
 		]
 	},
-	"dark_spitter_beetle": { "copyof": "beetle,_dark_spitter_beetle" },
-	"beetle,_fire_beetle": {
+	"dark_spitter_beetle": { "copyof": "beetle_dark_spitter_beetle" },
+	"beetle_fire_beetle": {
 		"name": "Beetle, Fire Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2455,8 +2455,8 @@
 			"Flash Beetle (CR 1/2): A flash beetle is an advanced fire beetle that can create a bright flash of light once an hour. When a flash beetle does so, all creatures in a 10-foot burst must make a DC 12 Fortitude save or be dazzled for 1d3 rounds. The save DC is Constitution-based."
 		]
 	},
-	"fire_beetle": { "copyof": "beetle,_fire_beetle" },
-	"beetle,_giant_stag_beetle": {
+	"fire_beetle": { "copyof": "beetle_fire_beetle" },
+	"beetle_giant_stag_beetle": {
 		"name": "Beetle, Giant Stag Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2508,8 +2508,8 @@
 			"Goliath Beetle (CR 8): The immense goliath beetle is a Huge stag beetle with 12 HD and the trample special ability."
 		]
 	},
-	"giant_stag_beetle": { "copyof": "beetle,_giant_stag_beetle" },
-	"beetle,_goliath_stag_beetle": {
+	"giant_stag_beetle": { "copyof": "beetle_giant_stag_beetle" },
+	"beetle_goliath_stag_beetle": {
 		"name": "Beetle, Goliath Stag Beetle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2557,8 +2557,8 @@
 			"A goliath stag beetle is 25 feet long and weighs 8,000 pounds."
 		]
 	},
-	"goliath_stag_beetle": { "copyof": "beetle,_goliath_stag_beetle" },
-	"beetle,_juggernaut_beetle": {
+	"goliath_stag_beetle": { "copyof": "beetle_goliath_stag_beetle" },
+	"beetle_juggernaut_beetle": {
 		"name": "Beetle, Juggernaut Beetle",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2610,8 +2610,8 @@
 			"One duergar steers a juggernaut while two riders attack."
 		]
 	},
-	"juggernaut_beetle": { "copyof": "beetle,_juggernaut_beetle" },
-	"beetle,_scarab_beetle": {
+	"juggernaut_beetle": { "copyof": "beetle_juggernaut_beetle" },
+	"beetle_scarab_beetle": {
 		"name": "Beetle, Scarab Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
@@ -2660,8 +2660,8 @@
 			"In Osirion, these massive beetles are a threat to ancient tombs as they chew their way through the interred. Some say scarab beetles' connection with the dead gives them powers greater than those of normal beetles, but any evidence of this has yet to been proven true. Merchants claim powdered scarab is an essential element in magic that protects against death effects."
 		]
 	},
-	"scarab_beetle": { "copyof": "beetle,_scarab_beetle" },
-	"beetle,_slicer_beetle": {
+	"scarab_beetle": { "copyof": "beetle_scarab_beetle" },
+	"beetle_slicer_beetle": {
 		"name": "Beetle, Slicer Beetle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2712,8 +2712,8 @@
 			"The slicer beetle sports specialized mouthparts that scissor apart flesh for easier consumption. Each side of its horizontally closing mandibles fits into the other with barely a hair's breadth to spare. These creatures prefer to dwell in compact caves or warrens. A typical slicer beetle measures 10 feet long and weighs 800 pounds."
 		]
 	},
-	"slicer_beetle": { "copyof": "beetle,_slicer_beetle" },
-	"beetle,_stalk_beetle": {
+	"slicer_beetle": { "copyof": "beetle_slicer_beetle" },
+	"beetle_stalk_beetle": {
 		"name": "Beetle, Stalk Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
@@ -2762,7 +2762,7 @@
 			"Stalk beetles are a plague in Rahadoum, scouring the land like giant locusts, and eating any and all vegetation they encounter."
 		]
 	},
-	"stalk_beetle": { "copyof": "beetle,_stalk_beetle" },
+	"stalk_beetle": { "copyof": "beetle_stalk_beetle" },
 	"beheaded": {
 		"name": "Beheaded",
 		"sources": [ "Bestiary 4" ],
@@ -2828,7 +2828,7 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"beheaded,_flaming_skull": {
+	"beheaded_flaming_skull": {
 		"name": "Beheaded, Flaming Skull",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
@@ -2897,8 +2897,8 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"flaming_skull": { "copyof": "beheaded,_flaming_skull" },
-	"beheaded,_giant_beheaded": {
+	"flaming_skull": { "copyof": "beheaded_flaming_skull" },
+	"beheaded_giant_beheaded": {
 		"name": "Beheaded, Giant Beheaded",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
@@ -2968,8 +2968,8 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"giant_beheaded": { "copyof": "beheaded,_giant_beheaded" },
-	"beheaded,_medusa_head": {
+	"giant_beheaded": { "copyof": "beheaded_giant_beheaded" },
+	"beheaded_medusa_head": {
 		"name": "Beheaded, Medusa Head",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
@@ -3043,8 +3043,8 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"medusa_head": { "copyof": "beheaded,_medusa_head" },
-	"beheaded,_severed_head": {
+	"medusa_head": { "copyof": "beheaded_medusa_head" },
+	"beheaded_severed_head": {
 		"name": "Beheaded, Severed Head",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
@@ -3112,8 +3112,8 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"severed_head": { "copyof": "beheaded,_severed_head" },
-	"beheaded,_skull_swarm": {
+	"severed_head": { "copyof": "beheaded_severed_head" },
+	"beheaded_skull_swarm": {
 		"name": "Beheaded, Skull Swarm",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
@@ -3184,8 +3184,8 @@
 			"**Family:** [Beheaded](family/beheaded)"
 		]
 	},
-	"skull_swarm": { "copyof": "beheaded,_skull_swarm" },
-	"behemoth,_ravener": {
+	"skull_swarm": { "copyof": "beheaded_skull_swarm" },
+	"behemoth_ravener": {
 		"name": "Behemoth, Ravener",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
@@ -3261,8 +3261,8 @@
 			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
-	"ravener": { "copyof": "behemoth,_ravener" },
-	"behemoth,_tempest_behemoth": {
+	"ravener": { "copyof": "behemoth_ravener" },
+	"behemoth_tempest_behemoth": {
 		"name": "Behemoth, Tempest Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3327,8 +3327,8 @@
 			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
-	"tempest_behemoth": { "copyof": "behemoth,_tempest_behemoth" },
-	"behemoth,_thalassic_behemoth": {
+	"tempest_behemoth": { "copyof": "behemoth_tempest_behemoth" },
+	"behemoth_thalassic_behemoth": {
 		"name": "Behemoth, Thalassic Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3390,8 +3390,8 @@
 			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
-	"thalassic_behemoth": { "copyof": "behemoth,_thalassic_behemoth" },
-	"behemoth,_thunder_behemoth": {
+	"thalassic_behemoth": { "copyof": "behemoth_thalassic_behemoth" },
+	"behemoth_thunder_behemoth": {
 		"name": "Behemoth, Thunder Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3454,7 +3454,7 @@
 			"**Family:** [Behemoth](family/behemoth)"
 		]
 	},
-	"thunder_behemoth": { "copyof": "behemoth,_thunder_behemoth" },
+	"thunder_behemoth": { "copyof": "behemoth_thunder_behemoth" },
 	"behir": {
 		"name": "Behir",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3626,7 +3626,7 @@
 			"Belostomatids are ambush predators. They hide amid floating snags and piles of debris in still and slow-moving waters, seamlessly blending in with their surroundings despite their size. With a powerful surge forward, a belostomatid grabs its prey, thrusts its rostrum deep into the prey's body, and begins pumping a paralyzing digestive enzyme into its prey, dissolving it from the inside out."
 		]
 	},
-	"benaioh,_benaioh_clay_vessel": {
+	"benaioh_benaioh_clay_vessel": {
 		"name": "Benaioh, Benaioh (Clay Vessel)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
@@ -3702,8 +3702,8 @@
 			"While the practice of making benaiohs is most closely associated with the religious practices of ancient tribes of giants, tales and rumors of similar practices persist among primitive humanoids in the lower depths of the Darklands. In accounts of this practice, the flesh-devouring worm ceremony serves as a punishment or torture, but the end result is similar-the creation of guardians. These stories go on to describe guardians with powerful abilities."
 		]
 	},
-	"benaioh_clay_vessel": { "copyof": "benaioh,_benaioh_clay_vessel" },
-	"benaioh,_benaioh_ooze_form": {
+	"benaioh_clay_vessel": { "copyof": "benaioh_benaioh_clay_vessel" },
+	"benaioh_benaioh_ooze_form": {
 		"name": "Benaioh, Benaioh (Ooze Form)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
@@ -3773,7 +3773,7 @@
 			"While the practice of making benaiohs is most closely associated with the religious practices of ancient tribes of giants, tales and rumors of similar practices persist among primitive humanoids in the lower depths of the Darklands. In accounts of this practice, the flesh-devouring worm ceremony serves as a punishment or torture, but the end result is similar-the creation of guardians. These stories go on to describe guardians with powerful abilities."
 		]
 	},
-	"benaioh_ooze_form": { "copyof": "benaioh,_benaioh_ooze_form" },
+	"benaioh_ooze_form": { "copyof": "benaioh_benaioh_ooze_form" },
 	"berbalang": {
 		"name": "Berbalang",
 		"sources": [ "Bestiary 3" ],
@@ -4407,7 +4407,7 @@
 			"**Lightning Shadow:** These undead are created through terrible lightning storms, such as those manifested by call lightning storm and storm of vengeance. The claws, cloud, and death burst of a lightning shadow deal electricity damage instead of fire damage. The cloud of a lightning shadow does not grant concealment, but anyone who strikes a lightning shadow with a metal weapon takes 1d6 points of electricity damage."
 		]
 	},
-	"blight,_cave_blight": {
+	"blight_cave_blight": {
 		"name": "Blight, Cave Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4468,8 +4468,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"cave_blight": { "copyof": "blight,_cave_blight" },
-	"blight,_desert_blight": {
+	"cave_blight": { "copyof": "blight_cave_blight" },
+	"blight_desert_blight": {
 		"name": "Blight, Desert Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4530,8 +4530,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"desert_blight": { "copyof": "blight,_desert_blight" },
-	"blight,_forest_blight": {
+	"desert_blight": { "copyof": "blight_desert_blight" },
+	"blight_forest_blight": {
 		"name": "Blight, Forest Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4592,8 +4592,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"forest_blight": { "copyof": "blight,_forest_blight" },
-	"blight,_mountain_blight": {
+	"forest_blight": { "copyof": "blight_forest_blight" },
+	"blight_mountain_blight": {
 		"name": "Blight, Mountain Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4656,8 +4656,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"mountain_blight": { "copyof": "blight,_mountain_blight" },
-	"blight,_sewer_blight": {
+	"mountain_blight": { "copyof": "blight_mountain_blight" },
+	"blight_sewer_blight": {
 		"name": "Blight, Sewer Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4721,8 +4721,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"sewer_blight": { "copyof": "blight,_sewer_blight" },
-	"blight,_swamp_blight": {
+	"sewer_blight": { "copyof": "blight_sewer_blight" },
+	"blight_swamp_blight": {
 		"name": "Blight, Swamp Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4786,8 +4786,8 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"swamp_blight": { "copyof": "blight,_swamp_blight" },
-	"blight,_tundra_blight": {
+	"swamp_blight": { "copyof": "blight_swamp_blight" },
+	"blight_tundra_blight": {
 		"name": "Blight, Tundra Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -4853,7 +4853,7 @@
 			"**Family:** [Blight](family/blight)"
 		]
 	},
-	"tundra_blight": { "copyof": "blight,_tundra_blight" },
+	"tundra_blight": { "copyof": "blight_tundra_blight" },
 	"blightspawn": {
 		"name": "Blightspawn",
 		"sources": [ "Bestiary 5" ],
@@ -5500,7 +5500,7 @@
 			"",
 			"### Bloodbrush, CR 2",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 47](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 47](source/numeria_land_of_fallen_stars)  ",
 			"**XP** 600  ",
 			"N Small plant  ",
 			"**Init** +0; **Senses** low-light vision; Perception +0",
@@ -5807,7 +5807,7 @@
 			"A boar is four feet long and weighs 200 pounds."
 		]
 	},
-	"boar,_bristle_boar": {
+	"boar_bristle_boar": {
 		"name": "Boar, Bristle Boar",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
@@ -5817,7 +5817,7 @@
 			"",
 			"### Bristle Boar, CR 3",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 56](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 56](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 800  ",
 			"N Medium animal  ",
 			"**Init** +0; **Senses** low-light vision; Perception +6",
@@ -5864,8 +5864,8 @@
 			"A boar is four feet long and weighs 200 pounds."
 		]
 	},
-	"bristle_boar": { "copyof": "boar,_bristle_boar" },
-	"boar,_dire_boar_daeodon": {
+	"bristle_boar": { "copyof": "boar_bristle_boar" },
+	"boar_dire_boar_daeodon": {
 		"name": "Boar, Dire Boar (Daeodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5910,8 +5910,8 @@
 			"Whereas the boar is ill-tempered and generally unfriendly, the towering daeodon (known as the dire boar to most commoners and hunters) is legitimately hateful and violent. Although omnivorous like its smaller kin, the daeodon prefers to feed on flesh, and its razor-sharp tusks and keen eyesight make it particularly well suited as a predator. While the daeodon is primarily a scavenger, it isn't averse to attacking smaller creatures it encounters while searching for easier meals, or those who stumble unwittingly into its territory. Particularly brave or skilled orcs are fond of using daeodons as mounts, and orc cavalry mounted on dire boars make for a fearsome force indeed. A typical adult daeodon is 10 feet long and 7 feet tall at the shoulder. It weighs approximately 2,000 pounds."
 		]
 	},
-	"daeodon": { "copyof": "boar,_dire_boar_daeodon" },
-	"dire_boar": { "copyof": "boar,_dire_boar_daeodon" },
+	"daeodon": { "copyof": "boar_dire_boar_daeodon" },
+	"dire_boar": { "copyof": "boar_dire_boar_daeodon" },
 	"bodak": {
 		"name": "Bodak",
 		"sources": [
@@ -6252,7 +6252,7 @@
 			"Though often hunched over, boggards stand 5 feet tall and weigh close to 200 pounds. These creatures live for 50 years, though the harsh swamps and infighting usually cut these years short."
 		]
 	},
-	"boggard,_boggard_abyssal_warrior": {
+	"boggard_boggard_abyssal_warrior": {
 		"name": "Boggard, Boggard Abyssal Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6305,8 +6305,8 @@
 			"A few boggards serve their tribes in specialized roles."
 		]
 	},
-	"boggard_abyssal_warrior": { "copyof": "boggard,_boggard_abyssal_warrior" },
-	"boggard,_boggard_brute": {
+	"boggard_abyssal_warrior": { "copyof": "boggard_boggard_abyssal_warrior" },
+	"boggard_boggard_brute": {
 		"name": "Boggard, Boggard Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6356,8 +6356,8 @@
 			"Boggard brutes may be armed with primitive-looking weapons, yet their terrifying strength makes them as deadly as any knight in armor."
 		]
 	},
-	"boggard_brute": { "copyof": "boggard,_boggard_brute" },
-	"boggard,_boggard_champion": {
+	"boggard_brute": { "copyof": "boggard_boggard_brute" },
+	"boggard_boggard_champion": {
 		"name": "Boggard, Boggard Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6408,8 +6408,8 @@
 			"Most boggard champions forsake tactics in favor of mayhem. In magic-deficient tribes, champions are often second only to priest-kings in status."
 		]
 	},
-	"boggard_champion": { "copyof": "boggard,_boggard_champion" },
-	"boggard,_boggard_farcroaker": {
+	"boggard_champion": { "copyof": "boggard_boggard_champion" },
+	"boggard_boggard_farcroaker": {
 		"name": "Boggard, Boggard Farcroaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6458,8 +6458,8 @@
 			"A few boggards serve their tribes in specialized roles."
 		]
 	},
-	"boggard_farcroaker": { "copyof": "boggard,_boggard_farcroaker" },
-	"boggard,_boggard_hunter": {
+	"boggard_farcroaker": { "copyof": "boggard_boggard_farcroaker" },
+	"boggard_boggard_hunter": {
 		"name": "Boggard, Boggard Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6505,8 +6505,8 @@
 			"Boggard rangers stalk silently through the swamps."
 		]
 	},
-	"boggard_hunter": { "copyof": "boggard,_boggard_hunter" },
-	"boggard,_boggard_priest-king": {
+	"boggard_hunter": { "copyof": "boggard_boggard_hunter" },
+	"boggard_boggard_priest-king": {
 		"name": "Boggard, Boggard Priest-King",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6570,9 +6570,9 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"boggard_priest-king": { "copyof": "boggard,_boggard_priest-king" },
-	"boggard_priest_king": { "copyof": "boggard,_boggard_priest-king" },
-	"boggard,_boggard_prophet": {
+	"boggard_priest-king": { "copyof": "boggard_boggard_priest-king" },
+	"boggard_priest_king": { "copyof": "boggard_boggard_priest-king" },
+	"boggard_boggard_prophet": {
 		"name": "Boggard, Boggard Prophet",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6624,8 +6624,8 @@
 			"These casters are often the children of the priest-king."
 		]
 	},
-	"boggard_prophet": { "copyof": "boggard,_boggard_prophet" },
-	"boggard,_boggard_savage": {
+	"boggard_prophet": { "copyof": "boggard_boggard_prophet" },
+	"boggard_boggard_savage": {
 		"name": "Boggard, Boggard Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6676,8 +6676,8 @@
 			"Boggard barbarians are terrifying and unpredictable."
 		]
 	},
-	"boggard_savage": { "copyof": "boggard,_boggard_savage" },
-	"boggard,_boggard_scarred_one": {
+	"boggard_savage": { "copyof": "boggard_boggard_savage" },
+	"boggard_boggard_scarred_one": {
 		"name": "Boggard, Boggard Scarred One",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6728,8 +6728,8 @@
 			"Boggard barbarians are terrifying and unpredictable."
 		]
 	},
-	"boggard_scarred_one": { "copyof": "boggard,_boggard_scarred_one" },
-	"boggard,_boggard_stalker": {
+	"boggard_scarred_one": { "copyof": "boggard_boggard_scarred_one" },
+	"boggard_boggard_stalker": {
 		"name": "Boggard, Boggard Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6777,8 +6777,8 @@
 			"Boggard rangers stalk silently through the swamps."
 		]
 	},
-	"boggard_stalker": { "copyof": "boggard,_boggard_stalker" },
-	"boggard,_boggard_swampseer": {
+	"boggard_stalker": { "copyof": "boggard_boggard_stalker" },
+	"boggard_boggard_swampseer": {
 		"name": "Boggard, Boggard Swampseer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -6830,7 +6830,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"boggard_swampseer": { "copyof": "boggard,_boggard_swampseer" },
+	"boggard_swampseer": { "copyof": "boggard_boggard_swampseer" },
 	"boggart": {
 		"name": "Boggart",
 		"sources": [
@@ -6894,7 +6894,7 @@
 			"A typical boggart stands 3 feet tall and weighs 70 pounds."
 		]
 	},
-	"war_beast_of_belkzen,_bull_of_zagresh": {
+	"war_beast_of_belkzen_bull_of_zagresh": {
 		"name": "War Beast of Belkzen, Bull of Zagresh",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
@@ -6904,7 +6904,7 @@
 			"",
 			"### Bull of Zagresh, CR 7",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 63](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 63](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 3,200  ",
 			"N Huge animal  ",
 			"**Init** +1; **Senses** low-light vision; Perception +8",
@@ -6940,8 +6940,8 @@
 			"These enormous bovines are 15 feet tall, measure nearly 30 feet from horns to tail, and weigh approximately 16 tons. Bred for war and violence by the Murdered Child orc tribe, they are used in ravine fights-bloodsports in blocked-off gorges or gullies that pit the might and ferocity of orcs against various wild beasts. Aggressive and trained for combat, bulls of Zagresh respond to most threats by charging anything that stands and goring whatever is left. Skilled Murdered Child beast drovers oversee bulls of Zagresh in warfare, driving the mighty cattle into enemy formations to break the front line or crush foot archers and other lightly armored targets."
 		]
 	},
-	"bull_of_zagresh": { "copyof": "war_beast_of_belkzen,_bull_of_zagresh" },
-	"war_beast_of_belkzen,_warcat_of_rull": {
+	"bull_of_zagresh": { "copyof": "war_beast_of_belkzen_bull_of_zagresh" },
+	"war_beast_of_belkzen_warcat_of_rull": {
 		"name": "War Beast of Belkzen, Warcat of Rull",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
@@ -6951,7 +6951,7 @@
 			"",
 			"### Warcat of Rull, CR 13",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 63](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 63](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 25,600  ",
 			"N Huge animal  ",
 			"**Init** +4; **Senses** low-light vision, scent; Perception +7",
@@ -6987,5 +6987,5 @@
 			"Warcats of Rull are massive creatures with the shapes and habits of great cats but the armored skin of armadillos. Weighing 4,000 pounds and stretching 25 feet from nose to the base of its tail, a warcat of Rull is a dangerous predator with a large territory. Wild warcats of Rull hunt alone or with a single mate, and have been known to take down prey ranging from megafauna to giants and even young dragons. The Ice Tooth orc clan catches warcats of Rull as cubs and trains them to serve the clan. These beasts often act as mounts for the clan's champions, who ride them into battle against warriors from the Realm of the Mammoth Lords."
 		]
 	},
-	"warcat_of_rull": { "copyof": "war_beast_of_belkzen,_warcat_of_rull" }
+	"warcat_of_rull": { "copyof": "war_beast_of_belkzen_warcat_of_rull" }
 }

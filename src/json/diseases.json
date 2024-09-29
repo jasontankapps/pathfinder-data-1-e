@@ -82,7 +82,7 @@
 		"description": [
 			"## Coward's Mark",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
 			"**Type** contact or inhaled; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Initial Effect** 1d2 Dexterity damage and 1d2 Wisdom damage. If the victim fails two saving throws 2 days in a row (not counting the initial save), he develops a secondary effect, or the existing secondary effect worsens. Curing the affliction immediately removes all accumulated secondary effects.  ",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Bluespit",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 23](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 23](source/numeria_land_of_fallen_stars)  ",
 			"**Type** inhaled; **Fortitude Save* DC 14  ",
 			"**Onset** 1 hour; **Frequency** 1/day  ",
 			"**Effect** 1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while infected with bluespit begins to [suffocate](rule/suffocation). Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Dvezda Plague",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 71](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 71](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**Type** ingested or inhaled; **Fortitude Save* DC 16  ",
 			"**Onset** 1d4 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1 Dex damage  ",
@@ -404,7 +404,7 @@
 		"description": [
 			"## Final Rest",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
 			"**Type** inhaled; **Fortitude Save* DC 16  ",
 			"**Onset** 1 week; **Frequency** 1/day  ",
 			"**Effect** 1d2 Charisma damage; while any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects.  ",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Shattermind",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria,_land_of_fallen_stars)  ",
+			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
 			"**Type** contact; **Fortitude Save* DC 17  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Wis (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a [type of insanity](rule/sanity_and_madness). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.  ",

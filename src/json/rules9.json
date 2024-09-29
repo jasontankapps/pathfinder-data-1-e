@@ -4792,7 +4792,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		],
 		"siblings": [
 			"intrigue_systems",
@@ -4834,7 +4834,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"building_a_pursuit": {
@@ -4864,7 +4864,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"direct_pursuits": {
@@ -4937,7 +4937,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"direct_pursuits_and_tracking": {
@@ -5118,7 +5118,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"pursuit_advantages": {
@@ -5149,7 +5149,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"sample_advantages": {
@@ -5214,7 +5214,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"individual_tactics": {
@@ -5277,7 +5277,7 @@
 			"group_tactics"
 		]
 	},
-	"damage,_fatigue,_and_exhaustion": {
+	"damage_fatigue_and_exhaustion": {
 		"name": "Damage, Fatigue, and Exhaustion",
 		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
@@ -5308,7 +5308,7 @@
 			"terrain_tiles",
 			"pursuit_advantages",
 			"pursuit_tactics",
-			"damage,_fatigue,_and_exhaustion"
+			"damage_fatigue_and_exhaustion"
 		]
 	},
 	"research": {

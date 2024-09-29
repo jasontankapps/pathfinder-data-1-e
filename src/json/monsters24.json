@@ -12,7 +12,7 @@
 			"",
 			"### Svathurim, CR 11",
 			"",
-			"**Source** [Monster Codex pg. 76](source/monster_codex), [Pathfinder #69: Maiden, Mother, Crone pg. 90](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Monster Codex pg. 76](source/monster_codex), [Pathfinder #69: Maiden, Mother, Crone pg. 90](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**XP** 12,800  ",
 			"CE Huge monstrous humanoid (cold)  ",
 			"**Init** +3; **Senses** darkvision 60 ft.; Perception +19",
@@ -127,7 +127,7 @@
 			"",
 			"### Swamp Barracuda, CR 2",
 			"",
-			"**Source** [Magnimar, City of Monuments pg. 61](source/magnimar,_city_of_monuments), [Pathfinder #13: Shadow in the Sky pg. 86](source/pathfinder_#13_shadow_in_the_sky)  ",
+			"**Source** [Magnimar, City of Monuments pg. 61](source/magnimar_city_of_monuments), [Pathfinder #13: Shadow in the Sky pg. 86](source/pathfinder_#13_shadow_in_the_sky)  ",
 			"**XP** 600  ",
 			"N Medium animal (aquatic)  ",
 			"**Init** +6; **Senses** keen scent, low-light vision; Perception +9",
@@ -284,7 +284,7 @@
 			"Swan maidens are fey shapechangers who vow to protect unspoiled wilds from the encroachment of civilization or evil. They live in small flocks along secluded lakeshores. Because stealing a swan maiden's cloak robs her of her shapechanging ability, most maidens avoid humanoids and take up armor and weapons to defend themselves."
 		]
 	},
-	"swan,_trumpeter_swan": {
+	"swan_trumpeter_swan": {
 		"name": "Swan, Trumpeter Swan",
 		"sources": [ "Bestiary 4" ],
 		"description": [
@@ -328,7 +328,7 @@
 			"Swans are large and aggressive waterfowl. The average adult trumpeter swan is 5 feet long and weighs around 25 pounds."
 		]
 	},
-	"trumpeter_swan": { "copyof": "swan,_trumpeter_swan" },
+	"trumpeter_swan": { "copyof": "swan_trumpeter_swan" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
@@ -815,7 +815,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 25; **Cost** 55,000 gp"
 		]
 	},
-	"troop,_barrier_breaker_troop": {
+	"troop_barrier_breaker_troop": {
 		"name": "Troop, Barrier Breaker Troop",
 		"sources": [
 			"Pathfinder #141: Last Watch",
@@ -880,8 +880,8 @@
 			"**Family:** [Troop](family/troop)"
 		]
 	},
-	"barrier_breaker_troop": { "copyof": "troop,_barrier_breaker_troop" },
-	"troop,_cultist_troop": {
+	"barrier_breaker_troop": { "copyof": "troop_barrier_breaker_troop" },
+	"troop_cultist_troop": {
 		"name": "Troop, Cultist Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -946,8 +946,8 @@
 			"**Family:** [Troop](family/troop)"
 		]
 	},
-	"cultist_troop": { "copyof": "troop,_cultist_troop" },
-	"troop,_goblin_troop": {
+	"cultist_troop": { "copyof": "troop_cultist_troop" },
+	"troop_goblin_troop": {
 		"name": "Troop, Goblin Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1001,8 +1001,8 @@
 			"**Family:** [Troop](family/troop)"
 		]
 	},
-	"goblin_troop": { "copyof": "troop,_goblin_troop" },
-	"troop,_outlaw_troop": {
+	"goblin_troop": { "copyof": "troop_goblin_troop" },
+	"troop_outlaw_troop": {
 		"name": "Troop, Outlaw Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
@@ -1056,8 +1056,8 @@
 			"**Family:** [Troop](family/troop)"
 		]
 	},
-	"outlaw_troop": { "copyof": "troop,_outlaw_troop" },
-	"troop,_sodden_drauger_troop": {
+	"outlaw_troop": { "copyof": "troop_outlaw_troop" },
+	"troop_sodden_drauger_troop": {
 		"name": "Troop, Sodden Drauger Troop",
 		"sources": [
 			"Pathfinder #141: Last Watch",
@@ -1124,8 +1124,8 @@
 			"**Family:** [Troop](family/troop)"
 		]
 	},
-	"sodden_drauger_troop": { "copyof": "troop,_sodden_drauger_troop" },
-	"troops,_dottari_troop": {
+	"sodden_drauger_troop": { "copyof": "troop_sodden_drauger_troop" },
+	"troops_dottari_troop": {
 		"name": "Troops, Dottari Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
@@ -1176,8 +1176,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"dottari_troop": { "copyof": "troops,_dottari_troop" },
-	"troops,_glorious_reclamation": {
+	"dottari_troop": { "copyof": "troops_dottari_troop" },
+	"troops_glorious_reclamation": {
 		"name": "Troops, Glorious Reclamation",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
@@ -1266,8 +1266,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"glorious_reclamation": { "copyof": "troops,_glorious_reclamation" },
-	"troops,_hobgoblin_phalanx_troop": {
+	"glorious_reclamation": { "copyof": "troops_glorious_reclamation" },
+	"troops_hobgoblin_phalanx_troop": {
 		"name": "Troops, Hobgoblin Phalanx Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
@@ -1326,8 +1326,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"hobgoblin_phalanx_troop": { "copyof": "troops,_hobgoblin_phalanx_troop" },
-	"troops,_hound_archon_troop": {
+	"hobgoblin_phalanx_troop": { "copyof": "troops_hobgoblin_phalanx_troop" },
+	"troops_hound_archon_troop": {
 		"name": "Troops, Hound Archon Troop",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
@@ -1383,8 +1383,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"hound_archon_troop": { "copyof": "troops,_hound_archon_troop" },
-	"troops,_inquisitor_troop": {
+	"hound_archon_troop": { "copyof": "troops_hound_archon_troop" },
+	"troops_inquisitor_troop": {
 		"name": "Troops, Inquisitor Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
@@ -1438,8 +1438,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"inquisitor_troop": { "copyof": "troops,_inquisitor_troop" },
-	"troops,_ironfang_magehunter_troop": {
+	"inquisitor_troop": { "copyof": "troops_inquisitor_troop" },
+	"troops_ironfang_magehunter_troop": {
 		"name": "Troops, Ironfang Magehunter Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
@@ -1502,8 +1502,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"ironfang_magehunter_troop": { "copyof": "troops,_ironfang_magehunter_troop" },
-	"troops,_ironfang_siege_alchemist_troop": {
+	"ironfang_magehunter_troop": { "copyof": "troops_ironfang_magehunter_troop" },
+	"troops_ironfang_siege_alchemist_troop": {
 		"name": "Troops, Ironfang Siege Alchemist Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
@@ -1565,8 +1565,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"ironfang_siege_alchemist_troop": { "copyof": "troops,_ironfang_siege_alchemist_troop" },
-	"troops,_ironfang_yzobu_rider_troop": {
+	"ironfang_siege_alchemist_troop": { "copyof": "troops_ironfang_siege_alchemist_troop" },
+	"troops_ironfang_yzobu_rider_troop": {
 		"name": "Troops, Ironfang Yzobu Rider Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
@@ -1630,8 +1630,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"ironfang_yzobu_rider_troop": { "copyof": "troops,_ironfang_yzobu_rider_troop" },
-	"troops,_morlock_swarmer_troop": {
+	"ironfang_yzobu_rider_troop": { "copyof": "troops_ironfang_yzobu_rider_troop" },
+	"troops_morlock_swarmer_troop": {
 		"name": "Troops, Morlock Swarmer Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
@@ -1692,8 +1692,8 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"morlock_swarmer_troop": { "copyof": "troops,_morlock_swarmer_troop" },
-	"troops,_warmaze_disciples_troop": {
+	"morlock_swarmer_troop": { "copyof": "troops_morlock_swarmer_troop" },
+	"troops_warmaze_disciples_troop": {
 		"name": "Troops, Warmaze Disciples Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
@@ -1754,7 +1754,7 @@
 			"**Family:** [Troops](family/troops)"
 		]
 	},
-	"warmaze_disciples_troop": { "copyof": "troops,_warmaze_disciples_troop" },
+	"warmaze_disciples_troop": { "copyof": "troops_warmaze_disciples_troop" },
 	"trox": {
 		"name": "Trox",
 		"sources": [ "Bestiary 4" ],
@@ -2172,7 +2172,7 @@
 			"Turtles are slow-moving reptiles with hard shells that they can retreat into when threatened. Many turtles have flippers and are better suited for swimming than walking. These statistics can also be used for tortoises, which have feet instead of flippers and live in arid regions."
 		]
 	},
-	"turtle,_giant_snapping_turtle": {
+	"turtle_giant_snapping_turtle": {
 		"name": "Turtle, Giant Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2223,8 +2223,8 @@
 			"Giant snapping turtles typically grow to diameters of about 35 feet and weigh 20,000 pounds."
 		]
 	},
-	"giant_snapping_turtle": { "copyof": "turtle,_giant_snapping_turtle" },
-	"turtle,_snapping_turtle": {
+	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping_turtle" },
+	"turtle_snapping_turtle": {
 		"name": "Turtle, Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2274,7 +2274,7 @@
 			"Snapping turtles are water-dwelling reptiles known for their propensity to bite anyone they deem threatening. Adult snapping turtles are usually about 1-1/2 feet in diameter. A spellcaster who can acquire a familiar can choose a snapping turtle as a familiar. A snapping turtle familiar grants its master a +2 bonus on all Fortitude saves."
 		]
 	},
-	"snapping_turtle": { "copyof": "turtle,_snapping_turtle" },
+	"snapping_turtle": { "copyof": "turtle_snapping_turtle" },
 	"turul": {
 		"name": "Turul",
 		"sources": [ "Bestiary 5" ],
@@ -2627,7 +2627,7 @@
 			"A tzitzimitl is 50 feet tall."
 		]
 	},
-	"ubashki,_ubashki_lynx": {
+	"ubashki_ubashki_lynx": {
 		"name": "Ubashki, Ubashki Lynx",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
@@ -2681,8 +2681,8 @@
 			"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations."
 		]
 	},
-	"ubashki_lynx": { "copyof": "ubashki,_ubashki_lynx" },
-	"ubashki,_ubashki_swarm": {
+	"ubashki_lynx": { "copyof": "ubashki_ubashki_lynx" },
+	"ubashki_ubashki_swarm": {
 		"name": "Ubashki, Ubashki Swarm",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
@@ -2735,7 +2735,7 @@
 			"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations."
 		]
 	},
-	"ubashki_swarm": { "copyof": "ubashki,_ubashki_swarm" },
+	"ubashki_swarm": { "copyof": "ubashki_ubashki_swarm" },
 	"ugash-iram": {
 		"name": "Ugash-Iram",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -3066,7 +3066,7 @@
 			"Umdhlebis can live for up to 50 years."
 		]
 	},
-	"undead_pirate,_draugr_captain": {
+	"undead_pirate_draugr_captain": {
 		"name": "Undead Pirate, Draugr Captain",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
@@ -3115,8 +3115,8 @@
 			"While most draugr captains were the masters of their ships in life, exceptions have been known to exist, particularly among lowly crew drudges who derived the most power from their transition to undeath. Such gifted individuals are usually seen by their fellow undead crew members as the rightful captains of the ghost ships they have come to command."
 		]
 	},
-	"draugr_captain": { "copyof": "undead_pirate,_draugr_captain" },
-	"undead_pirate,_draugr_pirate": {
+	"draugr_captain": { "copyof": "undead_pirate_draugr_captain" },
+	"undead_pirate_draugr_pirate": {
 		"name": "Undead Pirate, Draugr Pirate",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
@@ -3181,8 +3181,8 @@
 			"Many ghost ships take the form of a haunt, usually triggered by a ship sailing at night into an oceanic region hexed by some maritime tragedy or particularly terrible event. The most common effects of these haunts are fear-related, though some of these ocean-bound terror-traps inflict various curses upon victims, such as rotting diseases, premature aging, or permanent physical debilitations. Some haunts are known to place a powerful geas on those ships that run afoul of them, requiring that their crews complete some task before being freed of a dreadful blight. Destruction of these haunts is often extremely difficult, as the bodies of the restless spirits that perpetuate such curses usually lie at the bottom of the sea or have drifted ashore on remote islands. Some sea haunts are tied to a specific date denoting the anniversary of a tragedy near a particular point in the ocean, and thus may not reset for an entire year. Such commemorative haunts tend to be more feared and dangerous to mariners, especially since the bodies or treasures such haunts are anchored to are sometimes dragged by the tides far from where the original event that triggered the haunt occurred."
 		]
 	},
-	"draugr_pirate": { "copyof": "undead_pirate,_draugr_pirate" },
-	"undead_pirate,_ghost_captain": {
+	"draugr_pirate": { "copyof": "undead_pirate_draugr_pirate" },
+	"undead_pirate_ghost_captain": {
 		"name": "Undead Pirate, Ghost Captain",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
@@ -3229,7 +3229,7 @@
 			"Sometimes, pirate captains' dedication to looting and pillaging drives them to continue such heinous crimes even after death. Such vile leaders inevitably remain at sea, where they command ghost ships crewed by dreadful draugr, who recognize ghost pirates as powerful undead spirits perhaps most capable of captaining crews of undead."
 		]
 	},
-	"ghost_captain": { "copyof": "undead_pirate,_ghost_captain" },
+	"ghost_captain": { "copyof": "undead_pirate_ghost_captain" },
 	"undigested": {
 		"name": "Undigested",
 		"sources": [
@@ -3280,7 +3280,7 @@
 			"Undigested are the animate slurry of the indigestible parts of a humanoid creature. They come into being when a giant beast that swallowed its prey alive is slain by unspeakable necromantic arts. A primal shard of the beast's sentience is ripped from it during the agonizing moments of its death, animating the gelatinous humanoid remains within its stomach into an ooze-like undead creature which hungers to inflict its digestive fate upon others. If the beast was digesting multiple creatures, this phenomenon results in undigested swarms instead. Undigested-implacable ambush predators-slop, ooze, and undulate through the dark places of the world in search of sustenance."
 		]
 	},
-	"undigested,_undigested_swarm": {
+	"undigested_undigested_swarm": {
 		"name": "Undigested, Undigested Swarm",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -3332,7 +3332,7 @@
 			"Whereas individual undigested are more of a nuisance than a threat to adventurers, a swarm of such creatures can be dangerous to even experienced adventurers. An undigested swarm comprises hundreds of individual undigested. Driven by insatiable hunger, they fall upon and consume any living creatures crossing their path, surrounding the unfortunate victims and drenching them in acidic slime, digesting their still-living prey even before the screaming ends."
 		]
 	},
-	"undigested_swarm": { "copyof": "undigested,_undigested_swarm" },
+	"undigested_swarm": { "copyof": "undigested_undigested_swarm" },
 	"undine": {
 		"name": "Undine",
 		"sources": [ "Bestiary 2" ],
@@ -3615,7 +3615,7 @@
 			"",
 			"### Uraeus, CR 5",
 			"",
-			"**Source** [Bestiary 5 pg. 259](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 63](source/osirion,_legacy_of_the_pharaohs)  ",
+			"**Source** [Bestiary 5 pg. 259](source/bestiary_5), [Osirion, Legacy of the Pharaohs pg. 63](source/osirion_legacy_of_the_pharaohs)  ",
 			"**XP** 1,600  ",
 			"LG Medium magical beast  ",
 			"**Init** +7; **Senses** darkvision 60 ft., low-light vision, scent; Perception +16",
@@ -3811,7 +3811,7 @@
 			"**Abilities:** Increase from the base creature as follows: Dex +4, Con +2, Int +2, Wis +4, Cha +6."
 		]
 	},
-	"urdefhan,_half-fiend_scion": {
+	"urdefhan_half-fiend_scion": {
 		"name": "Urdefhan, Half-Fiend Scion",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -3869,9 +3869,9 @@
 			"Urdefhans never forget who created them, and they spend their lives awaiting the day they will be destroyed and returned to Abaddon for an eternity of torment. Their frequent interactions with daemons occasionally spawns reality-warping half-blood children who rise to positions of great power in urdefhan society-if they manage to survive."
 		]
 	},
-	"half-fiend_scion": { "copyof": "urdefhan,_half-fiend_scion" },
-	"half_fiend_scion": { "copyof": "urdefhan,_half-fiend_scion" },
-	"urdefhan,_orvian_necromancer": {
+	"half-fiend_scion": { "copyof": "urdefhan_half-fiend_scion" },
+	"half_fiend_scion": { "copyof": "urdefhan_half-fiend_scion" },
+	"urdefhan_orvian_necromancer": {
 		"name": "Urdefhan, Orvian Necromancer",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -3933,8 +3933,8 @@
 			"In their philosophy on life's futility, urdefhans see being raised as an undead as a suitable punishment for enemies since it wrenches their souls from the sweet oblivion that awaits them beyond and forces their continued suffering on the Material Plane. Necromancers flourish among urdefhans, serving as jailers, mercenaries, and labor contractors."
 		]
 	},
-	"orvian_necromancer": { "copyof": "urdefhan,_orvian_necromancer" },
-	"urdefhan,_sightless_sea_sailor": {
+	"orvian_necromancer": { "copyof": "urdefhan_orvian_necromancer" },
+	"urdefhan_sightless_sea_sailor": {
 		"name": "Urdefhan, Sightless Sea Sailor",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -3988,8 +3988,8 @@
 			"Thanks to their years spent on rolling decks and in tight quarters, urdefhan sailors are faster and more dexterous than the landlubber soldiers of their empire, and all the more vicious and desperate in battle for their lack of overwhelming reinforcements. Their vessels, which are freely traded between urdefhans whenever they find port, are floating sanctuaries of disease and torture and are chronically undersupplied. Crew members eat only by claiming the cargo and passengers aboard the enemy ships they raid; conveniently, to the urdefhans, everyone is an enemy. When these stolen supplies run dry, crew members readily devour the flesh of weaker shipmates to continue their grim voyages of theft, conquest, and slaughter."
 		]
 	},
-	"sightless_sea_sailor": { "copyof": "urdefhan,_sightless_sea_sailor" },
-	"urdefhan,_skaveling_rider": {
+	"sightless_sea_sailor": { "copyof": "urdefhan_sightless_sea_sailor" },
+	"urdefhan_skaveling_rider": {
 		"name": "Urdefhan, Skaveling Rider",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -4065,7 +4065,7 @@
 			"**Gear** leather barding, military saddle"
 		]
 	},
-	"skaveling_rider": { "copyof": "urdefhan,_skaveling_rider" },
+	"skaveling_rider": { "copyof": "urdefhan_skaveling_rider" },
 	"urhag": {
 		"name": "Urhag",
 		"sources": [ "Bestiary 6" ],
@@ -4251,7 +4251,7 @@
 			"Valkyries serve a variety of deities, though they are most often associated with the gods of war, conflict, valor, and courage. Although capable combatants in their own right, valkyries are almost always encountered mounted, typically on flying steeds such as dragon horses, pegasi, or sleipnirs."
 		]
 	},
-	"vampire_servant,_coffin_guard": {
+	"vampire_servant_coffin_guard": {
 		"name": "Vampire Servant, Coffin Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4304,8 +4304,8 @@
 			"**Family:** [Vampire Servant](family/vampire_servant)"
 		]
 	},
-	"coffin_guard": { "copyof": "vampire_servant,_coffin_guard" },
-	"vampire_servant,_weird_butler": {
+	"coffin_guard": { "copyof": "vampire_servant_coffin_guard" },
+	"vampire_servant_weird_butler": {
 		"name": "Vampire Servant, Weird Butler",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4357,8 +4357,8 @@
 			"**Family:** [Vampire Servant](family/vampire_servant)"
 		]
 	},
-	"weird_butler": { "copyof": "vampire_servant,_weird_butler" },
-	"vampire,_enlightened_vampire": {
+	"weird_butler": { "copyof": "vampire_servant_weird_butler" },
+	"vampire_enlightened_vampire": {
 		"name": "Vampire, Enlightened Vampire",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4409,8 +4409,8 @@
 			"An enlightened vampire spends his nights in meditation. He tries to live an ascetic's life, in search of purity and wholeness, even if his very nature requires him to harm others on a regular basis. Because of this, he lives in a state of suffering, seeking to atone for his nature while exploring the mysteries of enlightenment. This outlook on unlife doesn't stop him from killing his enemies. Whenever someone harms his spawn or one of his herd, an enlightened vampire responds with deliberate and decisive action."
 		]
 	},
-	"enlightened_vampire": { "copyof": "vampire,_enlightened_vampire" },
-	"vampire,_vampire_lord": {
+	"enlightened_vampire": { "copyof": "vampire_enlightened_vampire" },
+	"vampire_vampire_lord": {
 		"name": "Vampire, Vampire Lord",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4469,8 +4469,8 @@
 			"A vampire lord is a ruthless, calculating noble or other figure of authority that dominates her political landscape."
 		]
 	},
-	"vampire_lord": { "copyof": "vampire,_vampire_lord" },
-	"vampire,_vampire_savage": {
+	"vampire_lord": { "copyof": "vampire_vampire_lord" },
+	"vampire_vampire_savage": {
 		"name": "Vampire, Vampire Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4529,8 +4529,8 @@
 			"This sort of vampire often takes control of a violent tribe of orcs, gnolls, and similar creatures, driving them into a frenzy and demanding blood sacrifices from them to appease his appetite."
 		]
 	},
-	"vampire_savage": { "copyof": "vampire,_vampire_savage" },
-	"vampire,_vampire_seducer": {
+	"vampire_savage": { "copyof": "vampire_vampire_savage" },
+	"vampire_vampire_seducer": {
 		"name": "Vampire, Vampire Seducer",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4589,8 +4589,8 @@
 			"If the seducer's true nature is ever discovered, she has no qualms about abandoning the paramours she has acquired and relocating to a new city to begin her plots anew. Some seducers do this many times over the course of their long unlives, if only to stave off the eternal boredom that inevitably afflicts them all."
 		]
 	},
-	"vampire_seducer": { "copyof": "vampire,_vampire_seducer" },
-	"vampire,_vampire_warrior": {
+	"vampire_seducer": { "copyof": "vampire_vampire_seducer" },
+	"vampire_vampire_warrior": {
 		"name": "Vampire, Vampire Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4653,7 +4653,7 @@
 			"When this vishkanya was alive, she pursued the path of the samurai, but wasn't allowed to join their honorable ranks. Her restless spirit remained trapped in her flesh after death, and eventually she animated her own rotting body and sought out those who had wronged her."
 		]
 	},
-	"vampire_warrior": { "copyof": "vampire,_vampire_warrior" },
+	"vampire_warrior": { "copyof": "vampire_vampire_warrior" },
 	"vampiric_mist": {
 		"name": "Vampiric Mist",
 		"sources": [ "Bestiary 2" ],
@@ -4900,7 +4900,7 @@
 			"Perhaps the most unusual aspect of the veds is their enormous lung capacity, which they are able to use aggressively. These giants can expel air from their lungs in a mighty blast, extinguishing small fires and knocking prone any who stand before them. The veds then descend on their victims, pummeling their prey viciously with their simple but effective clubs."
 		]
 	},
-	"veela,_air_veela": {
+	"veela_air_veela": {
 		"name": "Veela, Air Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -4959,8 +4959,8 @@
 			"**Family:** [Veela](family/veela)"
 		]
 	},
-	"air_veela": { "copyof": "veela,_air_veela" },
-	"veela,_earth_veela": {
+	"air_veela": { "copyof": "veela_air_veela" },
+	"veela_earth_veela": {
 		"name": "Veela, Earth Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5019,8 +5019,8 @@
 			"**Family:** [Veela](family/veela)"
 		]
 	},
-	"earth_veela": { "copyof": "veela,_earth_veela" },
-	"veela,_fire_veela": {
+	"earth_veela": { "copyof": "veela_earth_veela" },
+	"veela_fire_veela": {
 		"name": "Veela, Fire Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5080,8 +5080,8 @@
 			"**Family:** [Veela](family/veela)"
 		]
 	},
-	"fire_veela": { "copyof": "veela,_fire_veela" },
-	"veela,_water_veela": {
+	"fire_veela": { "copyof": "veela_fire_veela" },
+	"veela_water_veela": {
 		"name": "Veela, Water Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5140,7 +5140,7 @@
 			"**Family:** [Veela](family/veela)"
 		]
 	},
-	"water_veela": { "copyof": "veela,_water_veela" },
+	"water_veela": { "copyof": "veela_water_veela" },
 	"vegepygmy": {
 		"name": "Vegepygmy",
 		"sources": [
@@ -5214,7 +5214,7 @@
 			"**Iron Mold (CR 6):** This rare variant of russet mold is susceptible to cold damage instead of acid. Vegepygmies created by this variant mold gain immunity to acid and cold, but also gain light sensitivity."
 		]
 	},
-	"vegepygmy,_thorny": {
+	"vegepygmy_thorny": {
 		"name": "Vegepygmy, Thorny",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
@@ -5263,7 +5263,7 @@
 			"Known by many as \"vegepygmy hounds,\" these masses of fungal matter dwarf their diminutive vegepygmy kin, but still maintain a strong sense of loyalty to them. Named for the vicious thorns that adorn their backs, thornies infect their prey with a weak paralytic toxin, making the prey susceptible to capture. Creatures infected by russet mold while thorny poison lingers in their systems have a small chance of producing thorny offspring."
 		]
 	},
-	"thorny": { "copyof": "vegepygmy,_thorny" },
+	"thorny": { "copyof": "vegepygmy_thorny" },
 	"veldenar": {
 		"name": "Veldenar",
 		"sources": [ "Planes of Power" ],
@@ -5563,7 +5563,7 @@
 			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
 	},
-	"verdurous_ooze,_greater_verduous_ooze": {
+	"verdurous_ooze_greater_verduous_ooze": {
 		"name": "Verdurous Ooze, Greater Verduous Ooze",
 		"sources": [ "Pathfinder #35: War of the River Kings" ],
 		"description": [
@@ -5620,7 +5620,7 @@
 			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
 	},
-	"greater_verdurous_ooze": { "copyof": "verdurous_ooze,_greater_verduous_ooze" },
+	"greater_verdurous_ooze": { "copyof": "verdurous_ooze_greater_verduous_ooze" },
 	"vescavor_queen": {
 		"name": "Vescavor Queen",
 		"sources": [
@@ -6785,7 +6785,7 @@
 			"Despite dining on carrion, vultures prefer their corpses newly dead rather than rotten. Some even hunt smaller prey when food is scarce."
 		]
 	},
-	"vulture,_giant_vulture": {
+	"vulture_giant_vulture": {
 		"name": "Vulture, Giant Vulture",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -6837,8 +6837,8 @@
 			"A giant vulture stands more than 13 feet tall, has a wingspan of over 30 feet, and weighs 500 to 600 pounds."
 		]
 	},
-	"giant_vulture": { "copyof": "vulture,_giant_vulture" },
-	"vulture,_whisperfall_vulture": {
+	"giant_vulture": { "copyof": "vulture_giant_vulture" },
+	"vulture_whisperfall_vulture": {
 		"name": "Vulture, Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
@@ -6848,7 +6848,7 @@
 			"",
 			"### Whisperfall Vulture, CR 1",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 56](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 56](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 400  ",
 			"N Small animal  ",
 			"**Init** +2; **Senses** low-light vision; Perception +13",
@@ -6886,7 +6886,7 @@
 			"A mature Whisperfall vulture has an 8-foot-long wingspan and weighs 50 pounds."
 		]
 	},
-	"whisperfall_vulture": { "copyof": "vulture,_whisperfall_vulture" },
+	"whisperfall_vulture": { "copyof": "vulture_whisperfall_vulture" },
 	"vydrarch": {
 		"name": "Vydrarch",
 		"sources": [ "Magnimar, City of Monuments" ],
@@ -6897,7 +6897,7 @@
 			"",
 			"### Vydrarch, CR 14",
 			"",
-			"**Source** [Magnimar, City of Monuments pg. 62](source/magnimar,_city_of_monuments)  ",
+			"**Source** [Magnimar, City of Monuments pg. 62](source/magnimar_city_of_monuments)  ",
 			"**XP** 38,400  ",
 			"CE Gargantuan magical beast  ",
 			"**Init** +3; **Senses** darkvision 60 ft., low-light vision; Perception +23",

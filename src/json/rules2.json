@@ -121,7 +121,7 @@
 					[ "54", [ "magic-wondrous/dust_of_disappearance", "Dust of disappearance" ], 3500 ],
 					[ "55", [ "magic-wondrous/lens_of_detection", "Lens of detection" ], 3500 ],
 					[ "56", [ "magic-wondrous/druid's_vestment", "Vestment, druid's" ], 3750 ],
-					[ "57", [ "magic-wondrous/figurine_of_wondrous_power_silver raven", "Figurine of wondrous power, silver raven" ], 3800 ],
+					[ "57", [ "magic-wondrous/figurine_of_wondrous_power_silver_raven", "Figurine of wondrous power, silver raven" ], 3800 ],
 					[ "58", [ "magic-wondrous/amulet_of_mighty_fists_1", "Amulet of mighty fists +1" ], 4000 ],
 					[ "59", [ "magic-wondrous/belt_of_giant_strength_2", "Belt of giant strength +2" ], 4000 ],
 					[ "60", [ "magic-wondrous/belt_of_incredible_dexterity_2", "Belt of incredible dexterity +2" ], 4000 ],
@@ -156,7 +156,7 @@
 					[ "89", [ "magic-wondrous/pipes_of_haunting", "Pipes of haunting" ], 6000 ],
 					[ "90", [ "magic-wondrous/gloves_of_swimming_and_climbing", "Gloves of swimming and climbing" ], 6250 ],
 					[ "91", [ "magic-wondrous/crown_of_blasting_minor", "Crown of blasting, minor" ], 6480 ],
-					[ "92", [ "magic-wondrous/horn_of_goodness/evil", "Horn of goodness/evil" ], 6500 ],
+					[ "92", [ "magic-wondrous/horn_of_goodness_evil", "Horn of goodness/evil" ], 6500 ],
 					[ "93", [ "magic-wondrous/robe_of_useful_items", "Robe of useful items" ], 7000 ],
 					[ "94", [ "magic-wondrous/folding_boat", "Boat, folding" ], 7200 ],
 					[ "95", [ "magic-wondrous/cloak_of_the_manta_ray", "Cloak of the manta ray" ], 7200 ],
@@ -249,7 +249,7 @@
 					[ "48", [ "magic-wondrous/bag_of_tricks_tan", "Bag of tricks, tan" ], 16000 ],
 					[ "49", [ "magic-wondrous/belt_of_giant_strength_4", "Belt of giant strength +4" ], 16000 ],
 					[ "50", [ "magic-wondrous/belt_of_incredible_dexterity_4", "Belt of incredible dexterity +4" ], 16000 ],
-					[ "51", [ "magic-wondrous/belt_of_might_constitution_4", "Belt of might constitution +4" ], 16000 ],
+					[ "51", [ "magic-wondrous/belt_of_mighty_constitution_4", "Belt of mighty constitution +4" ], 16000 ],
 					[ "52", [ "magic-wondrous/belt_of_physical_perfection_2", "Belt of physical perfection +2" ], 16000 ],
 					[ "53", [ "magic-wondrous/winged_boots", "Boots, winged" ], 16000 ],
 					[ "54", [ "magic-wondrous/bracers_of_armor_4", "Bracers of armor +4" ], 16000 ],
@@ -295,7 +295,7 @@
 					[ "94", [ "magic-wondrous/robe_of_scintillating_colors", "Robe of scintillating colors" ], 27000 ],
 					[ "95", [ "magic-wondrous/manual_of_bodily_health_1", "Manual of bodily health +1" ], 27500 ],
 					[ "96", [ "magic-wondrous/manual_of_gainful_exercise_1", "Manual of gainful exercise +1" ], 27500 ],
-					[ "97", [ "magic-wondrous/manual_of_quickness_in_action_1", "Manual of quickness in action +1" ], 27500 ],
+					[ "97", [ "magic-wondrous/manual_of_quickness_of_action_1", "Manual of quickness of action +1" ], 27500 ],
 					[ "98", [ "magic-wondrous/tome_of_clear_thought_1", "Tome of clear thought +1" ], 27500 ],
 					[ "99", [ "magic-wondrous/tome_of_leadership_and_influence_1", "Tome of leadership and influence +1" ], 27500 ],
 					[ "100", [ "magic-wondrous/tome_of_understanding_1", "Tome of understanding +1" ], 27500 ]
@@ -360,7 +360,7 @@
 					[ "25", [ "magic-wondrous/ring_gates", "Ring gates" ], 40000 ],
 					[ "26", [ "magic-wondrous/crystal_ball", "Crystal ball" ], 42000 ],
 					[ "27", [ "magic-wondrous/golem_manual_stone_guardian", "Golem manual, stone guardian" ], 44000 ],
-					[ "28", [ "magic-wondrous/strand_of_prayer_beads", "Strand of prayer beads" ], 45800 ],
+					[ "28", [ "magic-wondrous/strand_of_prayer_beads_standard", "Strand of prayer beads" ], 45800 ],
 					[ "29", [ "magic-wondrous/orb_of_storms", "Orb of storms" ], 48000 ],
 					[ "30", [ "magic-wondrous/boots_of_teleportation", "Boots of teleportation" ], 49000 ],
 					[ "31", [ "magic-wondrous/bracers_of_armor_7", "Bracers of armor +7" ], 49000 ],
@@ -375,7 +375,7 @@
 					[ "40", [ "magic-wondrous/instant_fortress", "Instant fortress" ], 55000 ],
 					[ "41", [ "magic-wondrous/manual_of_bodily_health_2", "Manual of bodily health +2" ], 55000 ],
 					[ "42", [ "magic-wondrous/manual_of_gainful_exercise_2", "Manual of gainful exercise +2" ], 55000 ],
-					[ "43", [ "magic-wondrous/manual_of_quickness_in_action_2", "Manual of quickness in action +2" ], 55000 ],
+					[ "43", [ "magic-wondrous/manual_of_quickness_of_action_2", "Manual of quickness of action +2" ], 55000 ],
 					[ "44", [ "magic-wondrous/tome_of_clear_thought_2", "Tome of clear thought +2" ], 55000 ],
 					[ "45", [ "magic-wondrous/tome_of_leadership_and_influence_2", "Tome of leadership and influence +2" ], 55000 ],
 					[ "46", [ "magic-wondrous/tome_of_understanding_2", "Tome of understanding +2" ], 55000 ],
@@ -401,7 +401,7 @@
 					[ "66", [ "magic-wondrous/well_of_many_worlds", "Well of many worlds" ], 82000 ],
 					[ "67", [ "magic-wondrous/manual_of_bodily_health_3", "Manual of bodily health +3" ], 82500 ],
 					[ "68", [ "magic-wondrous/manual_of_gainful_exercise_3", "Manual of gainful exercise +3" ], 82500 ],
-					[ "69", [ "magic-wondrous/manual_of_quickness_in_action_3", "Manual of quickness in action +3" ], 82500 ],
+					[ "69", [ "magic-wondrous/manual_of_quickness_of_action_3", "Manual of quickness of action +3" ], 82500 ],
 					[ "70", [ "magic-wondrous/tome_of_clear_thought_3", "Tome of clear thought +3" ], 82500 ],
 					[ "71", [ "magic-wondrous/tome_of_leadership_and_influence_3", "Tome of leadership and influence +3" ], 82500 ],
 					[ "72", [ "magic-wondrous/tome_of_understanding_3", "Tome of understanding +3" ], 82500 ],
@@ -414,7 +414,7 @@
 					[ "79", [ "magic-wondrous/amulet_of_mighty_fists_5", "Amulet of mighty fists +5" ], 100000 ],
 					[ "80", [ "magic-wondrous/manual_of_bodily_health_4", "Manual of bodily health +4" ], 110000 ],
 					[ "81", [ "magic-wondrous/manual_of_gainful_exercise_4", "Manual of gainful exercise +4" ], 110000 ],
-					[ "82", [ "magic-wondrous/manual_of_quickness_in_action_4", "Manual of quickness in action +4" ], 110000 ],
+					[ "82", [ "magic-wondrous/manual_of_quickness_of_action_4", "Manual of quickness of action +4" ], 110000 ],
 					[ "83", [ "magic-wondrous/tome_of_clear_thought_4", "Tome of clear thought +4" ], 110000 ],
 					[ "84", [ "magic-wondrous/tome_of_leadership_and_influence_4", "Tome of leadership and influence +4" ], 110000 ],
 					[ "85", [ "magic-wondrous/tome_of_understanding_4", "Tome of understanding +4" ], 110000 ],
@@ -423,7 +423,7 @@
 					[ "88", [ "magic-wondrous/helm_of_brilliance", "Helm of brilliance" ], 125000 ],
 					[ "89", [ "magic-wondrous/manual_of_bodily_health_5", "Manual of bodily health +5" ], 137500 ],
 					[ "90", [ "magic-wondrous/manual_of_gainful_exercise_5", "Manual of gainful exercise +5" ], 137500 ],
-					[ "91", [ "magic-wondrous/manual_of_quickness_in_action_5", "Manual of quickness in action +5" ], 137500 ],
+					[ "91", [ "magic-wondrous/manual_of_quickness_of_action_5", "Manual of quickness of action +5" ], 137500 ],
 					[ "92", [ "magic-wondrous/tome_of_clear_thought_5", "Tome of clear thought +5" ], 137500 ],
 					[ "93", [ "magic-wondrous/tome_of_leadership_and_influence_5", "Tome of leadership and influence +5" ], 137500 ],
 					[ "94", [ "magic-wondrous/tome_of_understanding_5", "Tome of understanding +5" ], 137500 ],
@@ -478,7 +478,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -929,7 +929,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -1093,7 +1093,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -1136,7 +1136,7 @@
 			"saving_throws_against_magic_item_powers",
 			"damaging_magic_items",
 			"repairing_magic_items",
-			"charges,_doses,_and_multiple_uses",
+			"charges_doses_and_multiple_uses",
 			"purchasing_magic_items",
 			"magic_item_descriptions",
 			"intelligent_items",
@@ -1260,7 +1260,7 @@
 			"",
 			"Crafting magic armor requires one day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Magic Arms and Armor.",
+			"*Item Creation Feat Required:* [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor).",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (armor)."
 		],
@@ -1303,7 +1303,7 @@
 			"",
 			"Crafting a magic weapon requires 1 day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Magic Arms and Armor.",
+			"*Item Creation Feat Required:* [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor).",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (bows) (for magic bows and arrows), or Craft (weapons) (for all other weapons)."
 		],
@@ -1339,20 +1339,26 @@
 			"",
 			"Material components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster's currently prepared spells, just as if it had been cast.) Brewing a potion requires 1 day.",
 			"",
-			"*Item Creation Feat Required:* Brew Potion.",
+			"*Item Creation Feat Required:* [Brew Potion](feat/brew_potion).",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (alchemy)",
 			"",
 			"### Potion Base Costs (By Brewer's Class)",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger&ast; |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 25 gp | 25 gp | 25 gp | - |",
 			"| 1st | 50 gp | 50 gp | 50 gp | 50 gp |",
 			"| 2nd | 300 gp | 400 gp | 400 gp | 400 gp |",
 			"| 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |",
 			"",
-			"&ast;Caster Level is equal to class level -3.",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger",
 			"",
 			"Prices assume that the ption was made at the minimum caster level. The cost to create a potion is half the base price."
 		],
@@ -1390,7 +1396,7 @@
 			"",
 			"Forging a ring requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* Forge Ring.",
+			"*Item Creation Feat Required:* [Forge Ring](feat/forge_ring).",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (jewelry)."
 		],
@@ -1428,7 +1434,7 @@
 			"",
 			"Crafting a rod requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Rod.",
+			"*Item Creation Feat Required:* [Craft Rod](feat/craft_rod).",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Craft (weapons)."
 		],
@@ -1466,13 +1472,13 @@
 			"",
 			"Scribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.",
 			"",
-			"*Item Creation Feat Required:* Scribe Scroll.",
+			"*Item Creation Feat Required:* [Scribe Scroll](feat/scribe_scroll).",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (calligraphy), or Profession (scribe).",
 			"",
 			"### Scroll Base Costs (By Scriber's Class)",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger&ast; |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 12 gp 5 sp | 12 gp 5 sp | 12 gp 5 sp | - |",
 			"| 1st | 25 gp | 25 gp | 25 gp | 25 gp |",
@@ -1485,7 +1491,13 @@
 			"| 8th | 3,000 gp | 3,200 gp | - | - |",
 			"| 9th | 3,825 gp | 4,050 gp | - | - |",
 			"",
-			"&ast; Caster level is equal to class level -3.",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger",
 			"",
 			"Prices assume that the scroll was made at the minimum caster level. The cost to create a scroll is half the base price."
 		],
@@ -1563,13 +1575,13 @@
 			"",
 			"Crafting a wand requires 1 day per each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* Craft Wand.",
+			"*Item Creation Feat Required:* [Craft Wand](feat/craft_wand).",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter).",
 			"",
 			"### Wand Base Costs (By Crafter's Class)",
 			"",
-			"| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger&ast; |",
+			"| Spell Level | Full Casters | Spontaneous Full Casters | Two-Thirds Casters | Delayed Casters |",
 			"| --- | --- | --- | --- | --- |",
 			"| 0 | 375 gp | 375 gp | 375 gp | - |",
 			"| 1st | 750 gp | 750 gp | 750 gp | 750 gp |",
@@ -1577,7 +1589,13 @@
 			"| 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |",
 			"| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |",
 			"",
-			"&ast; Caster level is equal to class level -3.",
+			"**Full Casters:** Cleric, Druid, Shaman, Witch, Wizard",
+			"",
+			"**Spontaneous Full Casters:** Arcanist, Sorcerer, Oracle, Psychic",
+			"",
+			"**Two-Thirds Casters:** Alchemist, Bard, Hunter, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Skald, Spiritualist, Summoner, Unchained Summoner, Warpriest",
+			"",
+			"**Delayed Casters:** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger",
 			"",
 			"Prices assume that the wand was made at the minimum caster level. The cost to create a wand is half the base price"
 		],
@@ -3966,7 +3984,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -4073,7 +4091,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -4196,7 +4214,7 @@
 			"",
 			"**Exception:** Extra damage dice over and above a weapon's normal damage are never multiplied.",
 			"",
-			"**Ability Damage:** Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). [Rules covering ability damage are found here](rule/ability_score_damage,_penalty,_and_drain)."
+			"**Ability Damage:** Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). [Rules covering ability damage are found here](rule/ability_score_damage_penalty_and_drain)."
 		],
 		"parent_topics": [
 			"combat",
@@ -4404,7 +4422,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -4531,7 +4549,7 @@
 			"",
 			"**Increased Critical Multiplier:** Some weapons deal better than double damage on a critical hit.",
 			"",
-			"**Spells and Critical Hits:** A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes [ability damage or drain](rule/ability_score_damage,_penalty,_and_drain), the damage or drain is doubled on a critical hit."
+			"**Spells and Critical Hits:** A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes [ability damage or drain](rule/ability_score_damage_penalty_and_drain), the damage or drain is doubled on a critical hit."
 		],
 		"parent_topics": [
 			"combat",
@@ -5174,7 +5192,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -5293,7 +5311,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 190](source/prpg_core_rulebook)",
 			"",
-			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking [ability damage](rule/ability_score_damage,_penalty,_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
+			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking [ability damage](rule/ability_score_damage_penalty_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
 			"Certain types of powerful magic, such as [raise dead](spell/raise_dead) and [resurrection](spell/resurrection), can restore life to a dead character."
 		],
@@ -5365,7 +5383,7 @@
 			"",
 			"**Healing Limits:** You can never recover more hit points than you lost. Magical healing won't raise your current hit points higher than your full normal hit point total.",
 			"",
-			"**Healing Ability Damage:** Temporary [ability damage](rule/ability_score_damage,_penalty,_and_drain) returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
+			"**Healing Ability Damage:** Temporary [ability damage](rule/ability_score_damage_penalty_and_drain) returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
 		],
 		"parent_topics": [
 			"combat",
@@ -5448,7 +5466,7 @@
 			"nonlethal_damage"
 		]
 	},
-	"movement,_position,_and_distance": {
+	"movement_position_and_distance": {
 		"name": "Movement, Position, and Distance",
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -5470,7 +5488,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -5511,7 +5529,7 @@
 		],
 		"parent_topics": [
 			"combat",
-			"movement,_position,_and_distance"
+			"movement_position_and_distance"
 		],
 		"siblings": [
 			"tactical_movement_2",
@@ -5538,7 +5556,7 @@
 		],
 		"parent_topics": [
 			"combat",
-			"movement,_position,_and_distance"
+			"movement_position_and_distance"
 		],
 		"siblings": [
 			"tactical_movement_2",
@@ -5577,7 +5595,7 @@
 		],
 		"parent_topics": [
 			"combat",
-			"movement,_position,_and_distance"
+			"movement_position_and_distance"
 		],
 		"siblings": [
 			"tactical_movement_2",
@@ -5618,7 +5636,7 @@
 		],
 		"parent_topics": [
 			"combat",
-			"movement,_position,_and_distance"
+			"movement_position_and_distance"
 		],
 		"siblings": [
 			"tactical_movement_2",
@@ -5647,7 +5665,7 @@
 		],
 		"parent_topics": [
 			"combat",
-			"movement,_position,_and_distance"
+			"movement_position_and_distance"
 		],
 		"siblings": [
 			"tactical_movement_2",
@@ -5701,7 +5719,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -5768,7 +5786,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -5936,7 +5954,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -6523,7 +6541,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -6604,7 +6622,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -6742,7 +6760,7 @@
 		"subtitle": "Bleed Damage, Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause [ability damage or even ability drain](rule/ability_score_damage,_penalty,_and_drain). Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
+			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause [ability damage or even ability drain](rule/ability_score_damage_penalty_and_drain). Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
 		],
 		"parent_topics": [
 			"combat",
@@ -7220,7 +7238,7 @@
 		"parent_topics": [ "combat" ],
 		"subtopics": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7243,7 +7261,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
@@ -7281,7 +7299,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7300,7 +7318,7 @@
 			"spell_resistance_2"
 		]
 	},
-	"ability_score_damage,_penalty,_and_drain": {
+	"ability_score_damage_penalty_and_drain": {
 		"name": "Ability Score Damage, Penalty, and Drain",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -7332,7 +7350,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7375,7 +7393,7 @@
 			"",
 			"Afflictions without a frequency occur only once, immediately upon contraction (or after the onset time if one is listed).",
 			"",
-			"**Effect:** This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause [ability damage](rule/ability_score_damage,_penalty,_and_drain) or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
+			"**Effect:** This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause [ability damage](rule/ability_score_damage_penalty_and_drain) or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
 			"",
 			"**Cure:** This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as neutralize poison and remove curse. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",
@@ -7393,7 +7411,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7429,16 +7447,16 @@
 			"| [Curse of the Ages](/curse/curse_of_the_ages) | Will DC 17 |",
 			"| [Cursed Earth](/curse/cursed_earth) | Will DC 23 |",
 			"| [Endless Night](/curse/endless_night) | Will DC 22 |",
-			"| [Haunting, Major](/curse/haunting,_major) | Will DC 17 |",
-			"| [Haunting, Minor](/curse/haunting,_minor) | Will DC 13 |",
+			"| [Haunting, Major](/curse/haunting_major) | Will DC 17 |",
+			"| [Haunting, Minor](/curse/haunting_minor) | Will DC 13 |",
 			"| [Hunt of the Ankou](/curse/hunt_of_the_ankou) | Will DC 22 |",
 			"| [Hunt of the Bogeyman](/curse/hunt_of_the_bogeyman) | Will DC 19 |",
 			"| [Jealous Structure](/curse/jealous_structure) | Will DC 19 |",
 			"| [Mummy Rot](/curse/mummy_rot) | Fortitude DC 16 |",
-			"| [Perilous Demesne, Grand](/curse/perilous_demesne,_grand) | Will DC 22 |",
-			"| [Perilous Demesne, Greater](/curse/perilous_demesne,_greater) | Will DC 19 |",
-			"| [Perilous Demesne, Major](/curse/perilous_demesne,_major) | Will DC 16 |",
-			"| [Perilous Demesne, Minor](/curse/perilous_demesne,_minor) | Will DC 13 |",
+			"| [Perilous Demesne, Grand](/curse/perilous_demesne_grand) | Will DC 22 |",
+			"| [Perilous Demesne, Greater](/curse/perilous_demesne_greater) | Will DC 19 |",
+			"| [Perilous Demesne, Major](/curse/perilous_demesne_major) | Will DC 16 |",
+			"| [Perilous Demesne, Minor](/curse/perilous_demesne_minor) | Will DC 13 |",
 			"| [Sealed Fate](/curse/sealed_fate) | Will DC 23 |",
 			"| [Shattered Self](/curse/shattered_self) | Will DC 20 |",
 			"| [Tormenting Visions](/curse/tormenting_visions) | Will DC 15 |",
@@ -7614,7 +7632,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7647,7 +7665,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7694,7 +7712,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7753,7 +7771,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7786,7 +7804,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7824,7 +7842,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7863,7 +7881,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7896,7 +7914,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7933,7 +7951,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -7974,7 +7992,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8055,7 +8073,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8088,7 +8106,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8125,7 +8143,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8170,7 +8188,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8219,7 +8237,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage,_penalty,_and_drain",
+			"ability_score_damage_penalty_and_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -8314,7 +8332,7 @@
 			"combat_statistics",
 			"actions_in_combat",
 			"injury_and_death",
-			"movement,_position,_and_distance",
+			"movement_position_and_distance",
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",

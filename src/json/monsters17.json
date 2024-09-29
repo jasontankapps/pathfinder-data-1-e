@@ -413,7 +413,7 @@
 			"Minotaurs are relatively straightforward combatants, using their horns to horribly gore the nearest living creature when combat begins."
 		]
 	},
-	"minotaur,_labyrinth_guardian": {
+	"minotaur_labyrinth_guardian": {
 		"name": "Minotaur, Labyrinth Guardian",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -466,8 +466,8 @@
 			"In life, guardians stood vigil over catacombs, dungeons, or lost cities, and were unique not for their combat prowess, but rather for their endless devotion to their duty and foul gods. This loyalty, coupled with vile rituals whispered by their patrons, bound the guardians' souls to the iron of their armor and resurrected them as twisted, ageless defenders. The same sense of commitment that enabled the guardians' transformation also shackles them to their labyrinthine territories. This stunts the guardians' dreams of expansion, limiting them to steadily adding on to their sprawling, confusing complexes. Over time, the legend of an ancient labyrinth guardian often exceeds that of the maze's original treasure."
 		]
 	},
-	"labyrinth_guardian": { "copyof": "minotaur,_labyrinth_guardian" },
-	"minotaur,_labyrinth_minotaur": {
+	"labyrinth_guardian": { "copyof": "minotaur_labyrinth_guardian" },
+	"minotaur_labyrinth_minotaur": {
 		"name": "Minotaur, Labyrinth Minotaur",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
@@ -546,8 +546,8 @@
 			"Labyrinth minotaurs are rarely encountered outside of the Ivory Labyrinth, and therefore have little interaction with other races beyond visitors to their master's realm. Labyrinth minotaurs display grudging respect for glabrezu and vilsteth demons and undisguised contempt for mortal minotaurs and cultists of Baphomet. Their arrogance precludes true camaraderie with anyone other than those of their own kind."
 		]
 	},
-	"labyrinth_minotaur": { "copyof": "minotaur,_labyrinth_minotaur" },
-	"minotaur,_minotaur_marauder": {
+	"labyrinth_minotaur": { "copyof": "minotaur_labyrinth_minotaur" },
+	"minotaur_minotaur_marauder": {
 		"name": "Minotaur, Minotaur Marauder",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -603,8 +603,8 @@
 			"These minotaurs show an uncharacteristic kindness to beasts of the field, sometimes training goats, dogs, or bulls to serve them as pets and guardians."
 		]
 	},
-	"minotaur_marauder": { "copyof": "minotaur,_minotaur_marauder" },
-	"minotaur,_prophet_of_baphomet": {
+	"minotaur_marauder": { "copyof": "minotaur_minotaur_marauder" },
+	"minotaur_prophet_of_baphomet": {
 		"name": "Minotaur, Prophet of Baphomet",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -667,8 +667,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"prophet_of_baphomet": { "copyof": "minotaur,_prophet_of_baphomet" },
-	"minotaur,_tangle_tender": {
+	"prophet_of_baphomet": { "copyof": "minotaur_prophet_of_baphomet" },
+	"minotaur_tangle_tender": {
 		"name": "Minotaur, Tangle Tender",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -718,7 +718,7 @@
 			"Weaker than many of their brutish kin, tangle tenders instead apply their racial cunning and understanding of complex systems to mechanical devices, constructing ingenious traps that whittle away those lost in the labyrinths with little or no direct danger to themselves. They build and reset traps, alter or conceal carefully whatever trails their victims attempt to leave, and strike from the shadows only once their victims are desperate, exhausted, and at each others' throats. Their tactics aren't motivated by cowardice; rather, these cruel creators love to inflict misery by outwitting their enemies rather than out-muscling them. Tangle tenders belong to the maze; they are intimately familiar with every twist and turn, and are keen to introduce interlopers to each in turn. Among minotaur tribes, tangle tenders hold a strange position, both necessary and loathed. They never shy away from bragging about their genius, and their kin recognize the value of a tangle tender's devices for trapping prey. But minotaurs respect strength, courage, and aggression first and foremost, and these clever rogues excel at none of those qualities-most thus see these trapsmiths as socially stunted, needlessly sadistic (even by minotaur standards), and physically weak to the point of embarrassment. Few voice these opinions, however, as those who do frequently face tragic accidents deep within the maze."
 		]
 	},
-	"tangle_tender": { "copyof": "minotaur,_tangle_tender" },
+	"tangle_tender": { "copyof": "minotaur_tangle_tender" },
 	"mire_nettle": {
 		"name": "Mire Nettle",
 		"sources": [ "Bestiary 6" ],
@@ -1267,7 +1267,7 @@
 			"**Mohrg-mother (+1 CR):** Perhaps among the most perverse category of mohrg arises when the executed murderer is also pregnant with child. The unborn, undead infants of these nightmarish monsters cling to the exposed entrails of the mohrg, but do not grant any additional powers. All mohrg-mothers always have the [advanced](template/advanced) creature simple template. Once per day, a mohrg-mother can choose to animate a recently slain victim as another mohrg instead of as a fast zombie."
 		]
 	},
-	"moit_of_shub-niggurath,_spawning_canker": {
+	"moit_of_shub-niggurath_spawning_canker": {
 		"name": "Moit of Shub-Niggurath, Spawning Canker",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
 		"description": [
@@ -1332,8 +1332,8 @@
 			"After a slugspawn has reached a host's brain, it proves to be a beneficial parasite-at least initially. A slugspawn's host benefits from complete immunity to mind-affecting effects, as the slugspawn's presence confuses and devours such magic. This benefit doesn't last for long, though, as after a variable period (typically lasting 2d6 days in humanoids, though sometimes more or less in other creature types) the slugspawn matures into a spawning canker, a new stage in its lifecycle that begins with it violently devouring its host's brain, erupting from its skull, and taking over the beheaded host body-a nearinstantaneous process that immediately kills the host. The result is a new creature, a spawning canker garbed in its former host's skin. If the host is killed before the slugspawn fully matures, the parasite undergoes a rapid, emergency maturation, taking control of the host body as if it had fully matured-though such spawning cankers rarely prove as long-lived as their fully matured brethren."
 		]
 	},
-	"spawning_canker": { "copyof": "moit_of_shub-niggurath,_spawning_canker" },
-	"moit_of_shub_niggurath": { "copyof": "moit_of_shub-niggurath,_spawning_canker" },
+	"spawning_canker": { "copyof": "moit_of_shub-niggurath_spawning_canker" },
+	"moit_of_shub_niggurath": { "copyof": "moit_of_shub-niggurath_spawning_canker" },
 	"mokele-mbembe": {
 		"name": "Mokele-Mbembe",
 		"sources": [
@@ -1441,9 +1441,9 @@
 			"",
 			"**Mold Symbiosis (Ex)** A moldwretch forms bonds with mold hazards by spending time within their areas of effect. A moldwretch can bond with only one mold at a time, and the symbiotic bond forms only after the moldwretch spends 8 hours in contact with the hazard. A moldwretch is immune to fungal hazards. Three example mold symbiosis effects are detailed below.",
 			"",
-			"- [Brown mold](rule/slimes,_molds,_and_fungi): The moldwretch is immune to fire, and fire-based attacks restore a number of hit points to it equal to half the damage the attacks would normally deal. Its spores deal 2d6 points of cold damage.",
+			"- [Brown mold](rule/slimes_molds_and_fungi): The moldwretch is immune to fire, and fire-based attacks restore a number of hit points to it equal to half the damage the attacks would normally deal. Its spores deal 2d6 points of cold damage.",
 			"- Russet Mold: The moldwretch's spores expose targets to the effects of [russet mold](monster/vegepygmy).",
-			"- Yellow Mold: The moldwretch's spores expose targets to the effects of [yellow mold](rule/slimes,_molds,_and_fungi).",
+			"- Yellow Mold: The moldwretch's spores expose targets to the effects of [yellow mold](rule/slimes_molds_and_fungi).",
 			"",
 			"**Spores (Ex)** A moldwretch's tentacle and spore launch attacks expose their targets to the creature's spores, which have an effect linked to the moldwretch's mold symbiosis. A successful DC 19 Fortitude save negates the additional effect of a moldwretch's spores. The save DC is Constitution-based.",
 			"",
@@ -2008,7 +2008,7 @@
 			"Ancestor-Touched Morlock (CR +0): Occasionally, morlocks are born as conduits for the divine powers they serve. Believing themselves to be mouthpieces for their ancestors, such morlocks are actually the reincarnated souls of the very ancestors they worship. These ancestor-touched morlocks gain a +6 bonus to their Charisma scores and can cast cure light wounds or inflict light wounds (select one) three times per day as a spell-like ability (caster level equals the morlock's HD). Because of the awe and fear other morlocks have for these divine conduits, they lose their swarming racial ability."
 		]
 	},
-	"mortic,_angheuvore": {
+	"mortic_angheuvore": {
 		"name": "Mortic, Angheuvore",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
@@ -2074,8 +2074,8 @@
 			"**Family:** [Mortic](family/mortic)"
 		]
 	},
-	"angheuvore": { "copyof": "mortic,_angheuvore" },
-	"mortic,_etioling": {
+	"angheuvore": { "copyof": "mortic_angheuvore" },
+	"mortic_etioling": {
 		"name": "Mortic, Etioling",
 		"sources": [
 			"Pathfinder #142: Gardens of Gallowspire",
@@ -2160,8 +2160,8 @@
 			"Storms bring some measure of calm to the etioling's mind-as if the primordial energy within them were siphoned off by the more powerful forces swirling about- and the mortics can seem truly mad as they rejoice in dangerous weathers. Most are simply intoxicated by the terrible but awesome displays of nature, though a few become true servants of powerful weather-controlling outsiders or fey, striking grim bargains to bring suffering to others in exchange for control over their own unstable minds."
 		]
 	},
-	"etioling": { "copyof": "mortic,_etioling" },
-	"mortic,_gurgist": {
+	"etioling": { "copyof": "mortic_etioling" },
+	"mortic_gurgist": {
 		"name": "Mortic, Gurgist",
 		"sources": [
 			"Pathfinder #140: Eulogy for Roslar's Coffer",
@@ -2244,8 +2244,8 @@
 			"Gurgist communities tend to be standoffish but not actively hostile to others in the area. In wilder areas, such as in the depths of the Mwangi Expanse or near the Crown of the World, gurgists are sometimes even accepted as neighbors by local human communities-not necessarily comfortable or friendly, but as allies against more dangerous forces."
 		]
 	},
-	"gurgist": { "copyof": "mortic,_gurgist" },
-	"mortic,_jitterbone": {
+	"gurgist": { "copyof": "mortic_gurgist" },
+	"mortic_jitterbone": {
 		"name": "Mortic, Jitterbone",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
@@ -2309,8 +2309,8 @@
 			"**Family:** [Mortic](family/mortic)"
 		]
 	},
-	"jitterbone": { "copyof": "mortic,_jitterbone" },
-	"mortic,_lifeleecher": {
+	"jitterbone": { "copyof": "mortic_jitterbone" },
+	"mortic_lifeleecher": {
 		"name": "Mortic, Lifeleecher",
 		"sources": [
 			"Pathfinder #141: Last Watch",
@@ -2394,8 +2394,8 @@
 			"Lifeleecher mortics who live apart from orc settlements fare far worse than their half-orc cousins in similar communities. Something about their mannerisms, especially their dead eyes, is off-putting to non-orcs. Add to that their proclivity for cannibalism, and lifeleecher mortics find they do not assimilate well outside of gladiatorial pens or spectacle sideshows, and the public quickly drives them out into the wild when they discover the lifeleecher mortic's questionable heritage and unsavory diet. This suits most lifeleecher mortics just fine, as outside of orc lands they gravitate towards loner lifestyles as explorers, big-game hunters, and practitioners of guerrilla warfare."
 		]
 	},
-	"lifeleecher": { "copyof": "mortic,_lifeleecher" },
-	"mortic,_relictner": {
+	"lifeleecher": { "copyof": "mortic_lifeleecher" },
+	"mortic_relictner": {
 		"name": "Mortic, Relictner",
 		"sources": [
 			"Pathfinder #143: Borne by the Sun's Grace",
@@ -2482,8 +2482,8 @@
 			"Of course, creating traps that never get triggered is boring, so relictners routinely lure visitors to their ruinous homes. Particularly duplicitous relictners have even been known to hire adventuring parties as unwitting meat for their grinders, finding these capable targets a satisfying test for their skills."
 		]
 	},
-	"relictner": { "copyof": "mortic,_relictner" },
-	"mosquito,_giant_mosquito": {
+	"relictner": { "copyof": "mortic_relictner" },
+	"mosquito_giant_mosquito": {
 		"name": "Mosquito, Giant Mosquito",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2534,8 +2534,8 @@
 			"Giant mosquitoes grow to 6 feet in length, and weigh up to 150 pounds. Variant species of giant mosquitoes exist, although not in the great diversity seen in many other giant vermin. The most common variant is the smaller goblin mosquito (a giant mosquito with the young creature template), but stories of Large jungle mosquitoes (giant mosquitoes with the advanced and giant simple templates) are not unheard of."
 		]
 	},
-	"giant_mosquito": { "copyof": "mosquito,_giant_mosquito" },
-	"mosquito,_mosquito_swarm": {
+	"giant_mosquito": { "copyof": "mosquito_giant_mosquito" },
+	"mosquito_mosquito_swarm": {
 		"name": "Mosquito, Mosquito Swarm",
 		"sources": [
 			"Bestiary 2",
@@ -2586,7 +2586,7 @@
 			"Giant mosquitoes grow to 6 feet in length, and weigh up to 150 pounds. Variant species of giant mosquitoes exist, although not in the great diversity seen in many other giant vermin. The most common variant is the smaller goblin mosquito (a giant mosquito with the young creature template), but stories of Large jungle mosquitoes (giant mosquitoes with the advanced and giant simple templates) are not unheard of."
 		]
 	},
-	"mosquito_swarm": { "copyof": "mosquito,_mosquito_swarm" },
+	"mosquito_swarm": { "copyof": "mosquito_mosquito_swarm" },
 	"mosslord": {
 		"name": "Mosslord",
 		"sources": [ "Bestiary 6" ],
@@ -2643,7 +2643,7 @@
 			"",
 			"**Sheets of Moss (Su)** Once every 1d4 rounds as a move action, a mosslord can cover a 20-foot-square area in a thick blanket of toxic moss at a range of up to 90 feet. Living creatures in the area are automatically entangled and sickened and must succeed at a DC 30 Fortitude save or take 1d4 points of Constitution damage per round until the moss dissipates or is destroyed. The moss has 25 hit points per 5-foot square, but can only be damaged by cold or effects that specifically target plants (such as blight) or deal additional damage to plants (such as horrid wilting). Otherwise, the sheets of moss wither away automatically after 1d4+4 rounds. The sickened effect and Constitution damage are poison effects. The save DC is Constitution-based.",
 			"",
-			"**Yellow Mold Blast (Su)** As a standard action, a mosslord can swiftly extrude a puffball and hurl it up to 60 feet. Upon impact, the puffball bursts into an unusually thick and potent cloud of [yellow mold](rule/slimes,_molds,_and_fungi) spores. This cloud of spores fills a 10-foot-radius area, obscuring vision as if it were a fog cloud and affecting all creatures within the area with yellow mold, except the Fortitude save to resist the mold's poisonous effects is DC 30. A creature that takes Constitution damage from these thick spores is also nauseated for 1 round. The cloud of spores persists for 1d4 rounds, after which it automatically dissipates. Creatures with greensight can see through these clouds of spores with ease. The save DC is Constitution-based.",
+			"**Yellow Mold Blast (Su)** As a standard action, a mosslord can swiftly extrude a puffball and hurl it up to 60 feet. Upon impact, the puffball bursts into an unusually thick and potent cloud of [yellow mold](rule/slimes_molds_and_fungi) spores. This cloud of spores fills a 10-foot-radius area, obscuring vision as if it were a fog cloud and affecting all creatures within the area with yellow mold, except the Fortitude save to resist the mold's poisonous effects is DC 30. A creature that takes Constitution damage from these thick spores is also nauseated for 1 round. The cloud of spores persists for 1d4 rounds, after which it automatically dissipates. Creatures with greensight can see through these clouds of spores with ease. The save DC is Constitution-based.",
 			"",
 			"#### Description",
 			"",
@@ -2719,7 +2719,7 @@
 			"Mothmen stand almost 7 feet tall and weigh 100 pounds."
 		]
 	},
-	"mothman,_mothman_elder": {
+	"mothman_mothman_elder": {
 		"name": "Mothman, Mothman Elder",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
@@ -2778,7 +2778,7 @@
 			"A mothman elder is 8 feet tall and weighs 150 pounds."
 		]
 	},
-	"mothman_elder": { "copyof": "mothman,_mothman_elder" },
+	"mothman_elder": { "copyof": "mothman_mothman_elder" },
 	"mu_spore": {
 		"name": "Mu Spore",
 		"sources": [ "Bestiary 2" ],
@@ -3527,7 +3527,7 @@
 			"Nachzehrers hate and are uncommonly terrified of creatures that bear coins, which they assume are payment for a coming planar ally. Though nachzehrers can fight against coin-bearing individuals freely, placing a coin in a nachzehrer's mouth paralyzes it as much as a stake in the heart incapacitates a true vampire. Savvy adventurers can fully destroy a nachzehrer incapacitated in this way by going through the same grisly ritual they'd use to kill a child of the night. Those clever enough to lure a nachzehrer into helplessness find that this is the easiest way to dispatch the creatures. Tragically, though, all but the most discerning adventurers and scholars tend to mistake nachzehrers for their more common vampiric kin, and attempt to destroy them as they would true vampires, without using coins-always to disastrous results."
 		]
 	},
-	"naga,_dark_naga": {
+	"naga_dark_naga": {
 		"name": "Naga, Dark Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3595,8 +3595,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"dark_naga": { "copyof": "naga,_dark_naga" },
-	"naga,_deep_naga": {
+	"dark_naga": { "copyof": "naga_dark_naga" },
+	"naga_deep_naga": {
 		"name": "Naga, Deep Naga",
 		"sources": [
 			"Pathfinder #118: Siege of Stone",
@@ -3681,8 +3681,8 @@
 			"Deep nagas are very particular about and protective of their lairs. They exert a substantial effort to find one that suits their needs, so they don't give them up without a fight. Unless the source of magic depletes or they are driven out by a more powerful deep naga, they rarely abandon their lairs. However, if a deep naga learns of an even more potent magical site, she might try to conquer this new lair for herself. Deep nagas do not usually care what tribes that serve them do, as long as the offerings keep coming, but they might push the tribes to conquer a superior place for a lair."
 		]
 	},
-	"deep_naga": { "copyof": "naga,_deep_naga" },
-	"naga,_dream_naga": {
+	"deep_naga": { "copyof": "naga_deep_naga" },
+	"naga_dream_naga": {
 		"name": "Naga, Dream Naga",
 		"sources": [
 			"Bestiary 6",
@@ -3747,8 +3747,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"dream_naga": { "copyof": "naga,_dream_naga" },
-	"naga,_guardian_naga": {
+	"dream_naga": { "copyof": "naga_dream_naga" },
+	"naga_guardian_naga": {
 		"name": "Naga, Guardian Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3813,8 +3813,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"guardian_naga": { "copyof": "naga,_guardian_naga" },
-	"naga,_lunar_naga": {
+	"guardian_naga": { "copyof": "naga_guardian_naga" },
+	"naga_lunar_naga": {
 		"name": "Naga, Lunar Naga",
 		"sources": [
 			"Bestiary 3",
@@ -3882,8 +3882,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"lunar_naga": { "copyof": "naga,_lunar_naga" },
-	"naga,_royal_naga": {
+	"lunar_naga": { "copyof": "naga_lunar_naga" },
+	"naga_royal_naga": {
 		"name": "Naga, Royal Naga",
 		"sources": [
 			"Bestiary 3",
@@ -3955,8 +3955,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"royal_naga": { "copyof": "naga,_royal_naga" },
-	"naga,_slime_naga": {
+	"royal_naga": { "copyof": "naga_royal_naga" },
+	"naga_slime_naga": {
 		"name": "Naga, Slime Naga",
 		"sources": [
 			"Bestiary 6",
@@ -4024,8 +4024,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"slime_naga": { "copyof": "naga,_slime_naga" },
-	"naga,_spirit_naga": {
+	"slime_naga": { "copyof": "naga_slime_naga" },
+	"naga_spirit_naga": {
 		"name": "Naga, Spirit Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4093,8 +4093,8 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"spirit_naga": { "copyof": "naga,_spirit_naga" },
-	"naga,_water_naga": {
+	"spirit_naga": { "copyof": "naga_spirit_naga" },
+	"naga_water_naga": {
 		"name": "Naga, Water Naga",
 		"sources": [
 			"Bestiary 3",
@@ -4162,7 +4162,7 @@
 			"**Family:** [Naga](family/naga)"
 		]
 	},
-	"water_naga": { "copyof": "naga,_water_naga" },
+	"water_naga": { "copyof": "naga_water_naga" },
 	"nagaji": {
 		"name": "Nagaji",
 		"sources": [ "Bestiary 4" ],
@@ -5412,7 +5412,7 @@
 			"The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use plane shift to invade other realities."
 		]
 	},
-	"nightmare,_cauchemar": {
+	"nightmare_cauchemar": {
 		"name": "Nightmare, Cauchemar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5463,8 +5463,8 @@
 			"The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use plane shift to invade other realities."
 		]
 	},
-	"cauchemar": { "copyof": "nightmare,_cauchemar" },
-	"nightshade,_nightcrawler": {
+	"cauchemar": { "copyof": "nightmare_cauchemar" },
+	"nightshade_nightcrawler": {
 		"name": "Nightshade, Nightcrawler",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5531,8 +5531,8 @@
 			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
-	"nightcrawler": { "copyof": "nightshade,_nightcrawler" },
-	"nightshade,_nightprowler": {
+	"nightcrawler": { "copyof": "nightshade_nightcrawler" },
+	"nightshade_nightprowler": {
 		"name": "Nightshade, Nightprowler",
 		"sources": [
 			"Pathfinder #102: Breaking the Bones of Hell",
@@ -5618,8 +5618,8 @@
 			"Ultimately, the common goal of all nightshades is nothing less than the desecration of all that is pure, and the death of all that lives. Mortals in the grip of madness rant of the coming night when nightshades great and small will march to rid all the planes once and for all of the curse of life. Nightprowlers will be the outriders in that terrible army, the mad ones warn, bringing undead allies with them into that final fray. It is easy to ignore these fevered prophecies or label them the ramblings of the insane. But in the baleful dark, when all lights have been extinguished save for a pair of red eyes, the potential truth in those words is undeniable."
 		]
 	},
-	"nightprowler": { "copyof": "nightshade,_nightprowler" },
-	"nightshade,_nightwalker": {
+	"nightprowler": { "copyof": "nightshade_nightprowler" },
+	"nightshade_nightwalker": {
 		"name": "Nightshade, Nightwalker",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5686,8 +5686,8 @@
 			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
-	"nightwalker": { "copyof": "nightshade,_nightwalker" },
-	"nightshade,_nightwave": {
+	"nightwalker": { "copyof": "nightshade_nightwalker" },
+	"nightshade_nightwave": {
 		"name": "Nightshade, Nightwave",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5752,8 +5752,8 @@
 			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
-	"nightwave": { "copyof": "nightshade,_nightwave" },
-	"nightshade,_nightwing": {
+	"nightwave": { "copyof": "nightshade_nightwave" },
+	"nightshade_nightwing": {
 		"name": "Nightshade, Nightwing",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -5818,7 +5818,7 @@
 			"**Family:** [Nightshade](family/nightshade)"
 		]
 	},
-	"nightwing": { "copyof": "nightshade,_nightwing" },
+	"nightwing": { "copyof": "nightshade_nightwing" },
 	"nihiloi": {
 		"name": "Nihiloi",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
@@ -6070,7 +6070,7 @@
 			"Ningyos measure approximately 2 to 2-1/2 feet long from head to tail, and weigh 6 to 9 pounds."
 		]
 	},
-	"ningyo,_undead_ningyo": {
+	"ningyo_undead_ningyo": {
 		"name": "Ningyo, Undead Ningyo",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
@@ -6133,7 +6133,7 @@
 			"Ningyos measure approximately 2 to 2-1/2 feet long from head to tail, and weigh 6 to 9 pounds."
 		]
 	},
-	"undead_ningyo": { "copyof": "ningyo,_undead_ningyo" },
+	"undead_ningyo": { "copyof": "ningyo_undead_ningyo" },
 	"nirento": {
 		"name": "Nirento",
 		"sources": [ "Isles of the Shackles" ],
@@ -6187,7 +6187,7 @@
 			"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton."
 		]
 	},
-	"nirento,_elder_nirento": {
+	"nirento_elder_nirento": {
 		"name": "Nirento, Elder Nirento",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
@@ -6234,7 +6234,7 @@
 			"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton."
 		]
 	},
-	"elder_nirento": { "copyof": "nirento,_elder_nirento" },
+	"elder_nirento": { "copyof": "nirento_elder_nirento" },
 	"nisid": {
 		"name": "Nisid",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],

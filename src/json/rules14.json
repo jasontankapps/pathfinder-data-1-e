@@ -8913,7 +8913,7 @@
 		"subtopics": [
 			"loyalties",
 			"classes",
-			"creatures,_spells,_and_effects"
+			"creatures_spells_and_effects"
 		],
 		"siblings": [
 			"alignment_pu",
@@ -8960,7 +8960,7 @@
 		"siblings": [
 			"loyalties",
 			"classes",
-			"creatures,_spells,_and_effects"
+			"creatures_spells_and_effects"
 		]
 	},
 	"classes": {
@@ -8992,10 +8992,10 @@
 		"siblings": [
 			"loyalties",
 			"classes",
-			"creatures,_spells,_and_effects"
+			"creatures_spells_and_effects"
 		]
 	},
-	"creatures,_spells,_and_effects": {
+	"creatures_spells_and_effects": {
 		"name": "Creatures, Spells, and Effects",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -9022,7 +9022,7 @@
 		"siblings": [
 			"loyalties",
 			"classes",
-			"creatures,_spells,_and_effects"
+			"creatures_spells_and_effects"
 		]
 	},
 	"removing_iterative_attacks": {
@@ -9546,7 +9546,7 @@
 			"",
 			"**Combat:** In a combat encounter, the PCs are faced with a foe or foes that bar progress-in order to complete the encounter, the PCs must defeat the foes in combat. A combat encounter can be with a single opponent or a group of foes. In most dungeons, combat encounters are the rule.",
 			"",
-			"**Hazard/Obstacle:** This kind of encounter presents the characters with a dangerous condition they need to navigate in order to proceed. A room filled with [yellow mold](rule/slimes,_molds,_and_fungi), a chasm with a rotten rope bridge, a pool of lava, an unstable chamber with a crumbling ceiling, or even something as simple as a barricaded door can serve as a hazard or obstacle. Generally, a hazard or obstacle is an encounter that is solved not through combat but through a combination of skill checks, saving throws, attack rolls, and the application of magic spells.",
+			"**Hazard/Obstacle:** This kind of encounter presents the characters with a dangerous condition they need to navigate in order to proceed. A room filled with [yellow mold](rule/slimes_molds_and_fungi), a chasm with a rotten rope bridge, a pool of lava, an unstable chamber with a crumbling ceiling, or even something as simple as a barricaded door can serve as a hazard or obstacle. Generally, a hazard or obstacle is an encounter that is solved not through combat but through a combination of skill checks, saving throws, attack rolls, and the application of magic spells.",
 			"",
 			"**Puzzle:** A puzzle encounter presents the players, not the characters, with a challenge. These can be riddles, shifting tiles, mazes, word puzzles, or anything else that must be solved by brain power, logic, or experimentation. Often a puzzle encounter can be enhanced by giving the players a handout or prop that lets them directly manipulate or study the puzzle. A puzzle generally can't be solved with die rolls, but if your group gets stuck on a puzzle, you should consider letting them make appropriate skill checks to learn clues (or even the solution) from you.",
 			"",

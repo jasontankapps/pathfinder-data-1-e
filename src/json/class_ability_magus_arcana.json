@@ -64,7 +64,7 @@
 			"**Arcane Redoubt (Su)** ([Ultimate Combat pg. 54](source/ultimate_combat)): As a swift action, the magus can expend 1 point from his arcane pool to treat his shield bonus to AC (including any enhancement bonus) as a bonus to touch AC until the beginning of his next turn."
 		]
 	},
-	"arcane_redoubt,_greater": {
+	"arcane_redoubt_greater": {
 		"name": "Arcane Redoubt, Greater",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -277,21 +277,21 @@
 			"**Pool Strike (Su)** ([Ultimate Magic pg. 12](source/ultimate_magic)): The magus can expend 1 point from his arcane pool as a standard action to charge his free hand with energy. He can make a melee touch attack with that hand as a free action as part of activating this ability. If the touch attack hits, it releases the charge and deals 2d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). He can use this ability with the spellstrike class feature. If he misses with this attack, he can hold the charge for up to 1 minute before it dissipates. At 6th level, and every three levels thereafter, the amount of damage dealt by this attack increases by 1d6."
 		]
 	},
-	"pool_strike,_arcing": {
+	"pool_strike_arcing": {
 		"name": "Pool Strike, Arcing",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Pool Strike, Arcing (Su)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus can expend 1 additional point from his arcane pool when using the pool strike arcana. If his attack hits, the magus can target a number of enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as a free action. Those struck take the same energy damage as the primary target of the pool strike, including increased damage on a critical hit. The magus must be at least 12th level and must have the pool strike magus arcana before selecting this magus arcana."
 		]
 	},
-	"pool_strike,_clinging": {
+	"pool_strike_clinging": {
 		"name": "Pool Strike, Clinging",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"**Pool Strike, Clinging (Su)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus can expend 1 additional point from his arcane pool when making a pool strike. A single target of his pool strike takes energy damage as normal from the pool strike and also takes half this amount of damage at the beginning of its turn on the following round. The magus must be at least 9th level and must have the pool strike magus arcana before selecting this magus arcana."
 		]
 	},
-	"pool_strike,_thunderous": {
+	"pool_strike_thunderous": {
 		"name": "Pool Strike, Thunderous",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -414,7 +414,7 @@
 		"name": "Spell-Scars",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
-			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the [Spell Mastery](feat/spell_mastery) feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the Scribe Scroll feat)."
+			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the [Spell Mastery](feat/spell_mastery) feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the [Scribe Scroll](feat/scribe_scroll) feat)."
 		]
 	},
 	"still_magic": {

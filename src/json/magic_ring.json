@@ -904,7 +904,7 @@
 		"description": [
 			"## Ring of Return",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 9](source/qadira,_jewel_of_the_east), [Ultimate Equipment pg. 173](source/ultimate_equipment)  ",
+			"**Source** [Qadira, Jewel of the East pg. 9](source/qadira_jewel_of_the_east), [Ultimate Equipment pg. 173](source/ultimate_equipment)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -2643,7 +2643,7 @@
 		"description": [
 			"## Ring of Terrible Cost",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax_empire_of_devils)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3087,7 +3087,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_inner_fortitude_minor"
 	},
-	"rings_of_bondage,_greater": {
+	"rings_of_bondage_greater": {
 		"name": "Rings of Bondage, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -3107,7 +3107,7 @@
 		]
 	},
 	"greater_rings_of_bondage": {
-		"copyof": "rings_of_bondage,_greater"
+		"copyof": "rings_of_bondage_greater"
 	},
 	"ring_of_energy_resistance_greater": {
 		"name": "Ring of Energy Resistance (greater)",

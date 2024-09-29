@@ -570,7 +570,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), light, [magic circle against chaos](spell/magic_circle_against_chaos), [magic circle against evil](spell/magic_circle_against_evil), [magic circle against good](spell/magic_circle_against_good), [magic circle against law](spell/magic_circle_against_law); **Cost** 9,000 gp"
 		]
 	},
-	"wayfinder,_ebon": {
+	"wayfinder_ebon": {
 		"name": "Wayfinder, Ebon",
 		"sources": [
 			"Adventurer's Guide",
@@ -591,9 +591,6 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkness, darkvision; **Cost** 9,000 gp"
 		]
-	},
-	"wayfinder_ebon": {
-		"copyof": "wayfinder,_ebon"
 	},
 	"woodlands'_ingress": {
 		"name": "Woodlands' Ingress",
@@ -971,7 +968,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), banishment; **Cost** 10,000 gp"
 		]
 	},
-	"monster_almanac,_greater": {
+	"monster_almanac_greater": {
 		"name": "Monster Almanac, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -993,7 +990,7 @@
 		]
 	},
 	"greater_monster_almanac": {
-		"copyof": "monster_almanac,_greater"
+		"copyof": "monster_almanac_greater"
 	},
 	"necromancer's_athame": {
 		"name": "Necromancer's Athame",
@@ -1170,7 +1167,7 @@
 		"description": [
 			"## Cookbook of Arcane Augmentation",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 60](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 60](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 21,500 gp; **Weight** 5 lbs.",
 			"",
@@ -2624,7 +2621,7 @@
 		"description": [
 			"## Verdict of the Nether Court",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax_empire_of_devils)  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** weapon; **Price** 32,000 gp; **Weight** 2 lbs.",
 			"",

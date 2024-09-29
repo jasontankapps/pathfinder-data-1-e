@@ -80,7 +80,7 @@
 		"description": [
 			"## Talon Sword",
 			"",
-			"**Source** [Andoran, Spirit of Liberty pg. 26](source/andoran,_spirit_of_liberty)  ",
+			"**Source** [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty)  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** normal (19,515 gp), talonstrike (38,715 gp); **Weight** 6 lbs.",
 			"",
@@ -299,7 +299,7 @@
 		"description": [
 			"## Hellcaller's Edge",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax_empire_of_devils)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** weapon; **Price** 20,350 gp; **Weight** 8 lbs.",
 			"",
@@ -908,7 +908,7 @@
 		"description": [
 			"## Frost-Thunder Hammer",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 24,524 gp; **Weight** 10 lbs.",
 			"",
@@ -2733,7 +2733,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion, [summon monster VII](spell/summon_monster_7); **Price** 26,218 gp"
 		]
 	},
-	"rythius,_the_kyton_scourge": {
+	"rythius_the_kyton_scourge": {
 		"name": "Rythius, the Kyton Scourge",
 		"sources": [ "Champions of Purity" ],
 		"description": [
@@ -2751,9 +2751,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, holy smite, creator must be good; **Price** 26,650 gp"
 		]
-	},
-	"rythius_the_kyton_scourge": {
-		"copyof": "rythius,_the_kyton_scourge"
 	},
 	"farspear": {
 		"name": "Farspear",
@@ -3183,7 +3180,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), consecrate, holy smite, plane shift, creator must be good; **Price** 33,533 gp"
 		]
 	},
-	"karusetsu,_the_cutting_light": {
+	"karusetsu_the_cutting_light": {
 		"name": "Karusetsu, the Cutting Light",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
@@ -3199,9 +3196,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mage's sword, searing light; **Price** 33,930 gp"
 		]
-	},
-	"karusetsu_the_cutting_light": {
-		"copyof": "karusetsu,_the_cutting_light"
 	},
 	"seaspike": {
 		"name": "Seaspike",
@@ -3338,7 +3332,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, greater arcane sight, keen edge, limited wish; **Price** 37,815 gp"
 		]
 	},
-	"murderer's_machete,_greater": {
+	"murderer's_machete_greater": {
 		"name": "Murderer's Machete, Greater",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -3356,7 +3350,7 @@
 		]
 	},
 	"greater_murderer's_machete": {
-		"copyof": "murderer's_machete,_greater"
+		"copyof": "murderer's_machete_greater"
 	},
 	"spider's_fang": {
 		"name": "Spider's Fang",
@@ -3471,7 +3465,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, [summon monster I](spell/summon_monster_1); **Price** 45,000 gp"
 		]
 	},
-	"ikarikurusai,_the_raging_cyclone": {
+	"ikarikurusai_the_raging_cyclone": {
 		"name": "Ikarikurusai, the Raging Cyclone",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
@@ -3487,9 +3481,6 @@
 			"",
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning or lightning bolt, chain lightning, resist energy; **Price** 45,308 gp"
 		]
-	},
-	"ikarikurusai_the_raging_cyclone": {
-		"copyof": "ikarikurusai,_the_raging_cyclone"
 	},
 	"boneshaking_cleaver": {
 		"name": "Boneshaking Cleaver",
@@ -3930,7 +3921,7 @@
 			"**Slot** none; **CL** 6th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation",
 			"",
-			"The hilt of this +1 adamantine scimitar has a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the Templars of the Five Winds during their struggle against the genie binder Kinroth, in the hands of a mighty warrior this blade can cut through spell and shackle alike. After the Templars defeated the efreeti Jhavhul in 4300 ar, their [djinni](monster/genie,_djinni) leader, Nefeshti, passed the blade to a group of worthy adventurers, though what happened to the blade afterward has been lost to history.",
+			"The hilt of this +1 adamantine scimitar has a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the Templars of the Five Winds during their struggle against the genie binder Kinroth, in the hands of a mighty warrior this blade can cut through spell and shackle alike. After the Templars defeated the efreeti Jhavhul in 4300 ar, their [djinni](monster/genie_djinni) leader, Nefeshti, passed the blade to a group of worthy adventurers, though what happened to the blade afterward has been lost to history.",
 			"",
 			"When the wielder of the scimitar of deliverance hits a target with a melee attack, as a free action she can attempt to identify any abjuration spells currently effecting the target as if she had studied it for 3 rounds using [detect magic](spell/detect_magic).",
 			"",
@@ -4079,7 +4070,7 @@
 			"**Communication** not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)"
 		]
 	},
-	"abat-ne,_the_blackstone_mace": {
+	"abat-ne_the_blackstone_mace": {
 		"name": "Abat-Ne, the Blackstone Mace",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
@@ -4108,7 +4099,7 @@
 		]
 	},
 	"abat_ne_the_blackstone_mace": {
-		"copyof": "abat-ne,_the_blackstone_mace"
+		"copyof": "abat-ne_the_blackstone_mace"
 	},
 	"hammer_of_enemies": {
 		"name": "Hammer of Enemies",

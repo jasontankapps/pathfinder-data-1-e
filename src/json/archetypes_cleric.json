@@ -180,7 +180,7 @@
 			"",
 			"**Verbal Instruction (Ex):** At 3rd level, a cloistered cleric can use the aid another action to assist an ally within 30 feet on a skill or ability check. The ally must be able to hear and understand the cleric's instructions. For every three class levels beyond 3rd, the cloistered cleric can instruct one additional ally. If all allies are not engaged in the same task, using this ability is a full-round action rather than a standard action.",
 			"",
-			"**Scribe Scroll (Su):** At 4th level, a cloistered cleric gains Scribe Scroll as a bonus feat."
+			"**Scribe Scroll (Su):** At 4th level, a cloistered cleric gains [Scribe Scroll](feat/scribe_scroll) as a bonus feat."
 		]
 	},
 	"crashing_wave": {
@@ -344,7 +344,7 @@
 			"",
 			"**Bonded Holy Symbol (Su):** At 3rd level, an ecclesitheurge forms a powerful bond with a holy symbol of his deity, which functions identically to a wizard's bonded object except it can be used to cast cleric and domain spells (instead of wizard spells) and the ecclesitheurge can grant his bonded holy symbol only magic abilities appropriate for a holy symbol or a neck slot item.",
 			"",
-			"As with a wizard's bonded item, an ecclesitheurge can add additional magic abilities to his bonded holy symbol as if he had the required item creation feat (typically Craft Wondrous Item), provided he meets the feat's level prerequisites. For example, an ecclesitheurge with a bonded holy symbol who wants to add a wondrous amulet ability, like amulet of natural armor, to his bonded holy symbol must be at least 3rd level to do so. The magic properties of a bonded holy symbol, including any magic abilities the ecclesitheurge added to the object, function for only the ecclesitheurge. If a bonded holy symbol's owner dies or the item is replaced, the object loses all enhancements the ecclesitheurge added using this ability.",
+			"As with a wizard's bonded item, an ecclesitheurge can add additional magic abilities to his bonded holy symbol as if he had the required item creation feat (typically [Craft Wondrous Item](feat/craft_wondrous_item)), provided he meets the feat's level prerequisites. For example, an ecclesitheurge with a bonded holy symbol who wants to add a wondrous amulet ability, like amulet of natural armor, to his bonded holy symbol must be at least 3rd level to do so. The magic properties of a bonded holy symbol, including any magic abilities the ecclesitheurge added to the object, function for only the ecclesitheurge. If a bonded holy symbol's owner dies or the item is replaced, the object loses all enhancements the ecclesitheurge added using this ability.",
 			"",
 			"This ability replaces the increase to channel energy gained at 3rd level."
 		]
@@ -498,7 +498,7 @@
 			">",
 			">*Tracer:* For as long as the rune lasts, the cleric may sense its location at will as a standard action, as if using locate object.",
 			"",
-			"**Craft Magic Arms and Armor:** The forgemaster gains this as a bonus feat at 3rd level.",
+			"**Craft Magic Arms and Armor:** The forgemaster [gains this](feat/craft_magic_arms_and_armor) as a bonus feat at 3rd level.",
 			"",
 			"**Master Smith (Ex):** At 5th level, a forgemaster can craft mundane metal items quickly, using half their gp value to determine progress, and can craft magical metal items in half the normal amount of time."
 		]

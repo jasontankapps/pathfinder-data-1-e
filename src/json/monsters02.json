@@ -1,5 +1,5 @@
 {
-	"angel,_planetar": {
+	"angel_planetar": {
 		"name": "Angel, Planetar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -69,8 +69,8 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"planetar": { "copyof": "angel,_planetar" },
-	"angel,_solar": {
+	"planetar": { "copyof": "angel_planetar" },
+	"angel_solar": {
 		"name": "Angel, Solar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -157,7 +157,7 @@
 			"**Family:** [Angel](family/angel)"
 		]
 	},
-	"solar": { "copyof": "angel,_solar" },
+	"solar": { "copyof": "angel_solar" },
 	"angelic_guardian": {
 		"name": "Angelic Guardian",
 		"sources": [ "Magnimar, City of Monuments" ],
@@ -168,7 +168,7 @@
 			"",
 			"### Angelic Guardian, CR 5",
 			"",
-			"**Source** [Magnimar, City of Monuments pg. 52](source/magnimar,_city_of_monuments)  ",
+			"**Source** [Magnimar, City of Monuments pg. 52](source/magnimar_city_of_monuments)  ",
 			"**XP** 1,600  ",
 			"N Medium construct  ",
 			"**Init** +2; **Senses** darkvision 60 ft., low-light vision; Perception +0",
@@ -320,7 +320,7 @@
 			"",
 			"### Animate Aria, CR 9",
 			"",
-			"**Source** [Cheliax, the Infernal Empire pg. 56](source/cheliax,_the_infernal_empire)  ",
+			"**Source** [Cheliax, the Infernal Empire pg. 56](source/cheliax_the_infernal_empire)  ",
 			"**XP** 6,400  ",
 			"N Large construct  ",
 			"**Init** +4; **Senses** blindsight 90 ft., darkvision 60 ft., low-light vision; Perception +0  ",
@@ -849,7 +849,7 @@
 			"",
 			"### Ankhrav, CR 9",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 57](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 57](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 6,400  ",
 			"N Huge magical beast  ",
 			"**Init** +4; **Senses** darkvision 60 ft., low-light vision; Perception +13",
@@ -956,7 +956,7 @@
 			"Ankous are assassins for powerful fey nobles, sent to kill, terrify, and torture. They never speak, only telepathically whisper their lord's verdict to victims. A typical ankou is 10 feet tall and has an 8-foot wingspan, but weighs less than 100 pounds."
 		]
 	},
-	"ant_lion,_giant_adult_ant_lion": {
+	"ant_lion_giant_adult_ant_lion": {
 		"name": "Ant Lion, Giant Adult Ant Lion",
 		"sources": [
 			"Bestiary 3",
@@ -1004,8 +1004,8 @@
 			"When a giant ant lion reaches maturity, it creates a cocoon of sand and dirt around itself. Over the course of a month, the ant lion undergoes a dramatic metamorphosis-when it emerges, its body has become elongated and thin and it has gained a set of enormous, lacy wings. Depending on the region, giant adult ant lions are often called giant lacewings, giant damselflies, or giant spindleflies, but regardless of their regional name, they remain ravenous and deadly, replacing the sand trap cunning of their larval form with swift flight and greater battlefield mobility."
 		]
 	},
-	"giant_adult_ant_lion": { "copyof": "ant_lion,_giant_adult_ant_lion" },
-	"ant_lion,_giant_ant_lion": {
+	"giant_adult_ant_lion": { "copyof": "ant_lion_giant_adult_ant_lion" },
+	"ant_lion_giant_ant_lion": {
 		"name": "Ant Lion, Giant Ant Lion",
 		"sources": [
 			"Bestiary 3",
@@ -1057,8 +1057,8 @@
 			"Perils of the desert depths, giant ant lions construct traps from the shifting sands. These beasts lurk at the base of these pits, half buried and patiently awaiting unwary prey."
 		]
 	},
-	"giant_ant_lion": { "copyof": "ant_lion,_giant_ant_lion" },
-	"ant,_army_ant_swarm": {
+	"giant_ant_lion": { "copyof": "ant_lion_giant_ant_lion" },
+	"ant_army_ant_swarm": {
 		"name": "Ant, Army Ant Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1110,8 +1110,8 @@
 			"The notoriety of the army ant swarm is well earned. Constantly on the march, a hive of army ants is capable of eating anything that gets in the way of its unabating swath of destruction and ruin."
 		]
 	},
-	"army_ant_swarm": { "copyof": "ant,_army_ant_swarm" },
-	"ant,_giant_ant": {
+	"army_ant_swarm": { "copyof": "ant_army_ant_swarm" },
+	"ant_giant_ant": {
 		"name": "Ant, Giant Ant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1168,8 +1168,8 @@
 			"Queen (+2 CR) The queen of a nest is an immense, bloated creature. She gains the advanced and the giant simple templates, but drops her speed to 10 feet and loses her climb speed entirely."
 		]
 	},
-	"giant_ant": { "copyof": "ant,_giant_ant" },
-	"ant,_knight_ant": {
+	"giant_ant": { "copyof": "ant_giant_ant" },
+	"ant_knight_ant": {
 		"name": "Ant, Knight Ant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -1224,8 +1224,8 @@
 			"A knight ant is 10 feet long and weighs approximately 1,100 pounds. Its head is 7 feet across, and the flanges on the sides make it appear slightly concave."
 		]
 	},
-	"knight_ant": { "copyof": "ant,_knight_ant" },
-	"ant,_megapon_ant": {
+	"knight_ant": { "copyof": "ant_knight_ant" },
+	"ant_megapon_ant": {
 		"name": "Ant, Megapon Ant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -1280,7 +1280,7 @@
 			"A knight ant is 10 feet long and weighs approximately 1,100 pounds. Its head is 7 feet across, and the flanges on the sides make it appear slightly concave."
 		]
 	},
-	"megapon_ant": { "copyof": "ant,_megapon_ant" },
+	"megapon_ant": { "copyof": "ant_megapon_ant" },
 	"aoandon": {
 		"name": "Aoandon",
 		"sources": [ "Bestiary 4" ],
@@ -1401,7 +1401,7 @@
 			"In its true form, an apallie weighs about 40 pounds and stands about 3 feet tall."
 		]
 	},
-	"ape,_dire_ape_gigantopithecus": {
+	"ape_dire_ape_gigantopithecus": {
 		"name": "Ape, Dire Ape (Gigantopithecus)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1449,9 +1449,9 @@
 			"A dire ape makes no displays of toughness or warnings before it attacks-it simply leaps into action with little or no provocation, tearing at its opponents with claws and teeth. If a dire ape is stymied by a heavily armored foe, it attempts to grapple its foe, pin it to the ground, and rend it."
 		]
 	},
-	"gigantopithecus": { "copyof": "ape,_dire_ape_gigantopithecus" },
-	"dire_ape": { "copyof": "ape,_dire_ape_gigantopithecus" },
-	"ape,_gorilla": {
+	"gigantopithecus": { "copyof": "ape_dire_ape_gigantopithecus" },
+	"dire_ape": { "copyof": "ape_dire_ape_gigantopithecus" },
+	"ape_gorilla": {
 		"name": "Ape, Gorilla",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1498,8 +1498,8 @@
 			"Gorillas typically make a large show of force before actually attacking, thumping their chests with their palms, stamping their feet, and roaring loudly. Any opponents who refuse to flee after this display are attacked. Troops of apes fight together in a frenzy, tearing opponents to pieces with their hands and teeth."
 		]
 	},
-	"gorilla": { "copyof": "ape,_gorilla" },
-	"ape,_megaprimatus": {
+	"gorilla": { "copyof": "ape_gorilla" },
+	"ape_megaprimatus": {
 		"name": "Ape, Megaprimatus",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -1557,7 +1557,7 @@
 			"Its tendency to overlook smaller creatures can lead to a megaprimatus's downfall, because it is woefully underprepared to deal with the ingenuity of humanoids, whose implements of war are powerful enough to bring down a creature even as mighty as a megaprimatus."
 		]
 	},
-	"megaprimatus": { "copyof": "ape,_megaprimatus" },
+	"megaprimatus": { "copyof": "ape_megaprimatus" },
 	"aphorite": {
 		"name": "Aphorite",
 		"sources": [ "Planar Adventures" ],
@@ -1838,7 +1838,7 @@
 			"Skilled spellcasters, araneas try to avoid physical combat and use their webs and spells when they can. Rather than kill their enemies, araneas often subdue opponents and hold them for ransom."
 		]
 	},
-	"archon_swarm,_mote_archon_swarm": {
+	"archon_swarm_mote_archon_swarm": {
 		"name": "Archon Swarm, Mote Archon Swarm",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
@@ -1920,8 +1920,8 @@
 			"Mote archon swarms enjoy the company of other celestials dedicated to healing. They particularly admire brijidines and sometimes follow these fiery azatas with exuberant devotion. Eventually, a mote archon swarm's adoration gives way to irritation over an azata's flighty recklessness, however, so the swarm returns to the more serious business of tending to the sick or wounded."
 		]
 	},
-	"mote_archon_swarm": { "copyof": "archon_swarm,_mote_archon_swarm" },
-	"archon,_bastion_archon": {
+	"mote_archon_swarm": { "copyof": "archon_swarm_mote_archon_swarm" },
+	"archon_bastion_archon": {
 		"name": "Archon, Bastion Archon",
 		"sources": [
 			"Planar Adventures",
@@ -2018,8 +2018,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"bastion_archon": { "copyof": "archon,_bastion_archon" },
-	"archon,_codex_archon": {
+	"bastion_archon": { "copyof": "archon_bastion_archon" },
+	"archon_codex_archon": {
 		"name": "Archon, Codex Archon",
 		"sources": [
 			"Monster Summoner's Handbook",
@@ -2088,8 +2088,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"codex_archon": { "copyof": "archon,_codex_archon" },
-	"archon,_exscinder": {
+	"codex_archon": { "copyof": "archon_codex_archon" },
+	"archon_exscinder": {
 		"name": "Archon, Exscinder",
 		"sources": [
 			"Bestiary 5",
@@ -2154,8 +2154,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"exscinder": { "copyof": "archon,_exscinder" },
-	"archon,_gate_archon": {
+	"exscinder": { "copyof": "archon_exscinder" },
+	"archon_gate_archon": {
 		"name": "Archon, Gate Archon",
 		"sources": [
 			"Bestiary 5",
@@ -2230,8 +2230,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"gate_archon": { "copyof": "archon,_gate_archon" },
-	"archon,_hammer_archon": {
+	"gate_archon": { "copyof": "archon_gate_archon" },
+	"archon_hammer_archon": {
 		"name": "Archon, Hammer Archon",
 		"sources": [
 			"Pathfinder #107: Scourge of the Godclaw",
@@ -2318,8 +2318,8 @@
 			"Many hammer archons share a particular hatred for mariliths. These demons can possess a martial prowess equal to that of hammer archons, and are usually at the command of fiendish armies. A marilith's many bladed weapons can bypass a hammer archon's damage reduction and immunities, so hammer archons seek to sunder them before they can cause too much damage. A battle between a hammer archon and a marilith is an awe-inspiring sight to behold, as the two titans struggle to gain advantage over each other."
 		]
 	},
-	"hammer_archon": { "copyof": "archon,_hammer_archon" },
-	"archon,_harbinger_archon": {
+	"hammer_archon": { "copyof": "archon_hammer_archon" },
+	"archon_harbinger_archon": {
 		"name": "Archon, Harbinger Archon",
 		"sources": [
 			"Bestiary 3",
@@ -2394,8 +2394,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"harbinger_archon": { "copyof": "archon,_harbinger_archon" },
-	"archon,_hound_archon": {
+	"harbinger_archon": { "copyof": "archon_harbinger_archon" },
+	"archon_hound_archon": {
 		"name": "Archon, Hound Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2455,8 +2455,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"hound_archon": { "copyof": "archon,_hound_archon" },
-	"archon,_lantern_archon": {
+	"hound_archon": { "copyof": "archon_hound_archon" },
+	"archon_lantern_archon": {
 		"name": "Archon, Lantern Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -2518,8 +2518,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"lantern_archon": { "copyof": "archon,_lantern_archon" },
-	"archon,_legion_archon": {
+	"lantern_archon": { "copyof": "archon_lantern_archon" },
+	"archon_legion_archon": {
 		"name": "Archon, Legion Archon",
 		"sources": [
 			"Bestiary 3",
@@ -2588,8 +2588,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"legion_archon": { "copyof": "archon,_legion_archon" },
-	"archon,_preceptor_archon": {
+	"legion_archon": { "copyof": "archon_legion_archon" },
+	"archon_preceptor_archon": {
 		"name": "Archon, Preceptor Archon",
 		"sources": [
 			"Heaven Unleashed",
@@ -2653,8 +2653,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"preceptor_archon": { "copyof": "archon,_preceptor_archon" },
-	"archon,_shield_archon": {
+	"preceptor_archon": { "copyof": "archon_preceptor_archon" },
+	"archon_shield_archon": {
 		"name": "Archon, Shield Archon",
 		"sources": [
 			"Bestiary 2",
@@ -2721,8 +2721,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"shield_archon": { "copyof": "archon,_shield_archon" },
-	"archon,_spyglass_archon": {
+	"shield_archon": { "copyof": "archon_shield_archon" },
+	"archon_spyglass_archon": {
 		"name": "Archon, Spyglass Archon",
 		"sources": [
 			"Chronicle of the Righteous",
@@ -2792,8 +2792,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"spyglass_archon": { "copyof": "archon,_spyglass_archon" },
-	"archon,_stag_archon": {
+	"spyglass_archon": { "copyof": "archon_spyglass_archon" },
+	"archon_stag_archon": {
 		"name": "Archon, Stag Archon",
 		"sources": [
 			"Inner Sea Gods",
@@ -2856,8 +2856,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"stag_archon": { "copyof": "archon,_stag_archon" },
-	"archon,_star_archon": {
+	"stag_archon": { "copyof": "archon_stag_archon" },
+	"archon_star_archon": {
 		"name": "Archon, Star Archon",
 		"sources": [
 			"Bestiary 2",
@@ -2932,8 +2932,8 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"star_archon": { "copyof": "archon,_star_archon" },
-	"archon,_trumpet_archon": {
+	"star_archon": { "copyof": "archon_star_archon" },
+	"archon_trumpet_archon": {
 		"name": "Archon, Trumpet Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3003,7 +3003,7 @@
 			"**Family:** [Archon](family/archon)"
 		]
 	},
-	"trumpet_archon": { "copyof": "archon,_trumpet_archon" },
+	"trumpet_archon": { "copyof": "archon_trumpet_archon" },
 	"ardoc_moilant": {
 		"name": "Ardoc Moilant",
 		"sources": [ "Pathfinder #135: Runeplague" ],
@@ -3446,7 +3446,7 @@
 			"An aspidochelone appears to be a huge whale with an extraordinarily thick, rock-like hide. From tail to snout, the creature generally measures more than 500 feet in length, and weighs upward of 100,000 tons. Few ever see an aspidochelone for what it actually is, however, having only glimpsed the pitted and uneven skin of its topside. As seabirds and other creatures come to rest upon the hibernating creature, they carry with them plant seeds and dirt. Over time, the accumulated plants and wildlife gives an aspidochelone the appearance of a small, densely inhabited island."
 		]
 	},
-	"assassin_bug,_giant_assassin_bug": {
+	"assassin_bug_giant_assassin_bug": {
 		"name": "Assassin Bug, Giant Assassin Bug",
 		"sources": [
 			"Bestiary 5",
@@ -3502,8 +3502,8 @@
 			"Giant assassin bugs lay eggs in shallow caves or the crevices between rocks, preferably where food is readily available for the hatching young. An adult giant assassin bug is typically 4 feet long and weighs 65 pounds, though the larger varieties grow to a length of 6 feet and weigh around 150 pounds."
 		]
 	},
-	"giant_assassin_bug": { "copyof": "assassin_bug,_giant_assassin_bug" },
-	"assassin_bug,_great_assassin_bug": {
+	"giant_assassin_bug": { "copyof": "assassin_bug_giant_assassin_bug" },
+	"assassin_bug_great_assassin_bug": {
 		"name": "Assassin Bug, Great Assassin Bug",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -3556,7 +3556,7 @@
 			"Giant assassin bugs lay eggs in places shaded from the sun at all times, such as shallow caves or the crevices between rocks, preferably in a place where food is readily available for the hatching young. The soft-bodied young that hatch resemble their mature counterparts in all ways but size, and are fully ready to hunt the moment they emerge, though they typically seek much smaller prey. An adult assassin bug is typically 4 feet long, and weighs 65 pounds."
 		]
 	},
-	"great_assassin_bug": { "copyof": "assassin_bug,_great_assassin_bug" },
+	"great_assassin_bug": { "copyof": "assassin_bug_great_assassin_bug" },
 	"assassin_vine": {
 		"name": "Assassin Vine",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3746,7 +3746,7 @@
 			"An astral leviathan is approximately 70 feet long and weighs 60 tons."
 		]
 	},
-	"asura,_adhukait": {
+	"asura_adhukait": {
 		"name": "Asura, Adhukait",
 		"sources": [
 			"Bestiary 3",
@@ -3815,8 +3815,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"adhukait": { "copyof": "asura,_adhukait" },
-	"asura,_aghasura": {
+	"adhukait": { "copyof": "asura_adhukait" },
+	"asura_aghasura": {
 		"name": "Asura, Aghasura",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3883,8 +3883,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"aghasura": { "copyof": "asura,_aghasura" },
-	"asura,_asurendra": {
+	"aghasura": { "copyof": "asura_aghasura" },
+	"asura_asurendra": {
 		"name": "Asura, Asurendra",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -3966,8 +3966,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"asurendra": { "copyof": "asura,_asurendra" },
-	"asura,_hishandura": {
+	"asurendra": { "copyof": "asura_asurendra" },
+	"asura_hishandura": {
 		"name": "Asura, Hishandura",
 		"sources": [
 			"Pathfinder #136: Temple of the Peacock Spirit",
@@ -4053,8 +4053,8 @@
 			"Hishanduras distrust any beings placed above others, and distance themselves from asura ranas, whom they see as hypocrites. Hishanduras who honor asura ranas do so because they see truths in their violent teachings, not because they consider the ranas as lords to be slavishly obeyed. These hishanduras favor violent and vindictive patrons such as [Chugarra](faith/chugarra), the Guru of Butchers; [Chupurvagasti](faith/chupurvagasti), Lady of Poison Mist; and [Zurapadyn](faith/zurapadyn), the Beast Who Waits in Smoke."
 		]
 	},
-	"hishandura": { "copyof": "asura,_hishandura" },
-	"asura,_japalisura": {
+	"hishandura": { "copyof": "asura_hishandura" },
+	"asura_japalisura": {
 		"name": "Asura, Japalisura",
 		"sources": [
 			"Pathfinder #136: Temple of the Peacock Spirit",
@@ -4134,8 +4134,8 @@
 			"More often, a japalisura maintains a small cult to communicate its oracular guidance. A japalisura accepts only the most devout followers into such coteries. With such humanoid puppets, the asura can dispense divinations telepathically without having to show itself. These cults take myriad forms but typically operate outside of large population centers to avoid too much scrutiny. The japalisura Zalmiac poses as the Varisian harrower Madame Vhelanosz, virtually never leaving the wagon from which she interprets her cards. Her pernicious prophecies have incited scores of murders-especially against Desnans and Pharasmins, whom she goads into killing each other-and her loyal cohort of ex-Sczarni assistants ensure nobody asks too many of the wrong questions."
 		]
 	},
-	"japalisura": { "copyof": "asura,_japalisura" },
-	"asura,_nikaramsa": {
+	"japalisura": { "copyof": "asura_japalisura" },
+	"asura_nikaramsa": {
 		"name": "Asura, Nikaramsa",
 		"sources": [
 			"Book of the Damned",
@@ -4201,8 +4201,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"nikaramsa": { "copyof": "asura,_nikaramsa" },
-	"asura,_tripurasura": {
+	"nikaramsa": { "copyof": "asura_nikaramsa" },
+	"asura_tripurasura": {
 		"name": "Asura, Tripurasura",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4268,8 +4268,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"tripurasura": { "copyof": "asura,_tripurasura" },
-	"asura,_upasunda": {
+	"tripurasura": { "copyof": "asura_tripurasura" },
+	"asura_upasunda": {
 		"name": "Asura, Upasunda",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -4333,8 +4333,8 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"upasunda": { "copyof": "asura,_upasunda" },
-	"asura,_vayuphak": {
+	"upasunda": { "copyof": "asura_upasunda" },
+	"asura_vayuphak": {
 		"name": "Asura, Vayuphak",
 		"sources": [
 			"Occult Bestiary",
@@ -4399,7 +4399,7 @@
 			"**Family:** [Asura](family/asura)"
 		]
 	},
-	"vayuphak": { "copyof": "asura,_vayuphak" },
+	"vayuphak": { "copyof": "asura_vayuphak" },
 	"ataxian": {
 		"name": "Ataxian",
 		"sources": [ "Inner Sea Gods" ],
@@ -4720,7 +4720,7 @@
 			"",
 			"### Aurosrath, CR 5",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 56](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 56](source/druma_profit_and_prophecy)  ",
 			"**XP** 1,600  ",
 			"NE Large undead  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +11",
@@ -4828,7 +4828,7 @@
 			"An aurumvorax drags its prey back to its lair to consume at its leisure, and its bone-midden often contains valuable belongings from past kills. Uneaten precious metals, discarded gems, and well-chewed metal items can also be found in its warrens. Despite its metallic coloration, an aurumvorax is not vulnerable to attacks that target metal, such as heat metal or the touch of a rust monster-in fact, aurumvoraxes easily kill and eat rust monsters, and some dwarf clans use aurumvorax pets to protect their storehouses against them."
 		]
 	},
-	"automaton,_champion_automaton": {
+	"automaton_champion_automaton": {
 		"name": "Automaton, Champion Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -4905,8 +4905,8 @@
 			"**Family:** [Automaton](family/automaton)"
 		]
 	},
-	"champion_automaton": { "copyof": "automaton,_champion_automaton" },
-	"automaton,_familiar_automaton": {
+	"champion_automaton": { "copyof": "automaton_champion_automaton" },
+	"automaton_familiar_automaton": {
 		"name": "Automaton, Familiar Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -4983,8 +4983,8 @@
 			"**Family:** [Automaton](family/automaton)"
 		]
 	},
-	"familiar_automaton": { "copyof": "automaton,_familiar_automaton" },
-	"automaton,_master_automaton": {
+	"familiar_automaton": { "copyof": "automaton_familiar_automaton" },
+	"automaton_master_automaton": {
 		"name": "Automaton, Master Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -5064,8 +5064,8 @@
 			"**Family:** [Automaton](family/automaton)"
 		]
 	},
-	"master_automaton": { "copyof": "automaton,_master_automaton" },
-	"automaton,_sharpshooter_automaton": {
+	"master_automaton": { "copyof": "automaton_master_automaton" },
+	"automaton_sharpshooter_automaton": {
 		"name": "Automaton, Sharpshooter Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -5146,8 +5146,8 @@
 			"**Family:** [Automaton](family/automaton)"
 		]
 	},
-	"sharpshooter_automaton": { "copyof": "automaton,_sharpshooter_automaton" },
-	"automaton,_stalker_automaton": {
+	"sharpshooter_automaton": { "copyof": "automaton_sharpshooter_automaton" },
+	"automaton_stalker_automaton": {
 		"name": "Automaton, Stalker Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -5230,7 +5230,7 @@
 			"**Family:** [Automaton](family/automaton)"
 		]
 	},
-	"stalker_automaton": { "copyof": "automaton,_stalker_automaton" },
+	"stalker_automaton": { "copyof": "automaton_stalker_automaton" },
 	"avernus_razorback": {
 		"name": "Avernus Razorback",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
@@ -5522,7 +5522,7 @@
 			"Axiomite society is broken into three divisions, each with its own duty and purpose. One devotes itself to the construction and maintenance of inevitables, another to the expansion and construction of their capital city, and the third to continuing the exploration and calculation of the laws and constants that underlie all of reality. Their leader is a gestalt mind formed by the greatest individuals of their race, forming when needed and then dispersing into its component axiomites to put the god-mind's plans into action."
 		]
 	},
-	"azata,_bralani": {
+	"azata_bralani": {
 		"name": "Azata, Bralani",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5583,8 +5583,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"bralani": { "copyof": "azata,_bralani" },
-	"azata,_brijidine": {
+	"bralani": { "copyof": "azata_bralani" },
+	"azata_brijidine": {
 		"name": "Azata, Brijidine",
 		"sources": [
 			"Bestiary 2",
@@ -5657,8 +5657,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"brijidine": { "copyof": "azata,_brijidine" },
-	"azata,_gancanagh": {
+	"brijidine": { "copyof": "azata_brijidine" },
+	"azata_gancanagh": {
 		"name": "Azata, Gancanagh",
 		"sources": [
 			"Bestiary 5",
@@ -5726,8 +5726,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"gancanagh": { "copyof": "azata,_gancanagh" },
-	"azata,_ghaele": {
+	"gancanagh": { "copyof": "azata_gancanagh" },
+	"azata_ghaele": {
 		"name": "Azata, Ghaele",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5803,8 +5803,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"ghaele": { "copyof": "azata,_ghaele" },
-	"azata,_lillend": {
+	"ghaele": { "copyof": "azata_ghaele" },
+	"azata_lillend": {
 		"name": "Azata, Lillend",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -5870,8 +5870,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"lillend": { "copyof": "azata,_lillend" },
-	"azata,_lyrakien": {
+	"lillend": { "copyof": "azata_lillend" },
+	"azata_lyrakien": {
 		"name": "Azata, Lyrakien",
 		"sources": [
 			"Bestiary 2",
@@ -5939,8 +5939,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"lyrakien": { "copyof": "azata,_lyrakien" },
-	"azata,_nualidu": {
+	"lyrakien": { "copyof": "azata_lyrakien" },
+	"azata_nualidu": {
 		"name": "Azata, Nualidu",
 		"sources": [
 			"Pathfinder #105: The Inferno Gate",
@@ -6028,8 +6028,8 @@
 			"A nualidu can be called with lesser planar ally, although it is very difficult to call the same nualidu more than once. The azatas prefer tasks that contribute in some way to the protection or cleaning of a body of water, and generally accept payment with gems or valuable stones that have been eroded by flowing water into unique and organic shapes. They also demand at least a token amount of respect from their callers, and most nualidus require their callers to treat them politely and to memorize, if not directly use, at least a handful of their myriad titles."
 		]
 	},
-	"nualidu": { "copyof": "azata,_nualidu" },
-	"azata,_prydanu": {
+	"nualidu": { "copyof": "azata_nualidu" },
+	"azata_prydanu": {
 		"name": "Azata, Prydanu",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
@@ -6118,8 +6118,8 @@
 			"When not battling against tyranny, prydanus enjoy studying emancipated societies to view the daily life of mortals left to make their own choices. They chronicle these thoughts and observations in journals, which they then share with other celestials in Elysium."
 		]
 	},
-	"prydanu": { "copyof": "azata,_prydanu" },
-	"azata,_raelis": {
+	"prydanu": { "copyof": "azata_prydanu" },
+	"azata_raelis": {
 		"name": "Azata, Raelis",
 		"sources": [
 			"Bestiary 5",
@@ -6193,8 +6193,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"raelis": { "copyof": "azata,_raelis" },
-	"azata,_thyrlien": {
+	"raelis": { "copyof": "azata_raelis" },
+	"azata_thyrlien": {
 		"name": "Azata, Thyrlien",
 		"sources": [
 			"Inner Sea Gods",
@@ -6259,8 +6259,8 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"thyrlien": { "copyof": "azata,_thyrlien" },
-	"azata,_uinuja": {
+	"thyrlien": { "copyof": "azata_thyrlien" },
+	"azata_uinuja": {
 		"name": "Azata, Uinuja",
 		"sources": [
 			"Bestiary 6",
@@ -6332,5 +6332,5 @@
 			"**Family:** [Azata](family/azata)"
 		]
 	},
-	"uinuja": { "copyof": "azata,_uinuja" }
+	"uinuja": { "copyof": "azata_uinuja" }
 }

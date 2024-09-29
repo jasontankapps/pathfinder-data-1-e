@@ -1190,7 +1190,7 @@
 			"",
 			"The oozemaster can throw an ooze toxin as a ranged touch attack with a range increment of 10 feet, or he can apply the toxin to a weapon as if it were an injury poison. The toxin deals 1d6 points of acid damage plus an additional 1d6 points of acid damage per 3 Hit Dice the ooze had. If the ooze had any additional effects conveyed by its slam attack other than grab (such as a [gelatinous cube's paralysis ability](monster/gelatinous_cube)), the oozemaster can also apply these qualities to this attack. The save DC for additional abilities produced by this attack is 10 + half the alchemist's level + the alchemist's Intelligence modifier.",
 			"",
-			"This ability replaces Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites.",
+			"This ability replaces Brew Potion, though an oozemaster can still select [Brew Potion](feat/brew_potion) without meeting the feat's prerequisites.",
 			"",
 			"**Ooze Resistance:** At 2nd level, an oozemaster becomes especially resistant to the abilities of his chosen foes. He gains a +2 bonus on saving throws against the extraordinary and supernatural abilities of oozes. This bonus increases by +1 at 5th level and every 3 levels thereafter, to a maximum of +8 at 20th level.",
 			"",

@@ -45,7 +45,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		]
 	},
-	"ganji_doll,_greater": {
+	"ganji_doll_greater": {
 		"name": "Ganji Doll, Greater",
 		"sources": [
 			"Pathfinder #39: The City of Seven Spears",
@@ -76,7 +76,7 @@
 		]
 	},
 	"greater_ganji_doll": {
-		"copyof": "ganji_doll,_greater"
+		"copyof": "ganji_doll_greater"
 	},
 	"laubo_powder": {
 		"name": "Laubo Powder",

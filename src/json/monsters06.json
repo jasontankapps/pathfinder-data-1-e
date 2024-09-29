@@ -633,7 +633,7 @@
 			"Ancient records, the oral traditions of other giantish races, and the scattered accounts of tribal natives of the southern jungles speak of much larger, more primal \"great cyclopes,\" imposing titans with shaggy legs and a massive horn above an inquisitive eye. These creatures are thought to have been either the leaders or the war beasts of the ancient race, and modern cyclopes honor them as elusive, destructive living gods."
 		]
 	},
-	"cyclops,_cyclops_grand-eye": {
+	"cyclops_cyclops_grand-eye": {
 		"name": "Cyclops, Cyclops Grand-Eye",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -688,9 +688,9 @@
 			"Despite their inherent divinatory gift, few cyclopes embrace the path of the grand-eye. A dedicated minority-respected and even revered by their brethren-retain some semblance of their peoples' grandeur. Though still cursed with great rages and ravenous hunger, grand-eyes temper those primal urges with spiritual wisdom and historical insight. Most live apart from their kind, advising only occasionally, for fear that other cyclopes' terrible impulses will drag them down as well. The grand-eyes are legendary prophets, and sometimes meddle in other races' affairs by offering prophecy, spells, and magical goods."
 		]
 	},
-	"cyclops_grand-eye": { "copyof": "cyclops,_cyclops_grand-eye" },
-	"cyclops_grand_eye": { "copyof": "cyclops,_cyclops_grand-eye" },
-	"cyclops,_cyclops_lorekeeper": {
+	"cyclops_grand-eye": { "copyof": "cyclops_cyclops_grand-eye" },
+	"cyclops_grand_eye": { "copyof": "cyclops_cyclops_grand-eye" },
+	"cyclops_cyclops_lorekeeper": {
 		"name": "Cyclops, Cyclops Lorekeeper",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -749,8 +749,8 @@
 			"These studied cyclopes are the closest thing the race has to true adventurers, raiding ancient ruins for lore, and even infiltrating the lands of younger races to plumb their libraries. Many attract like-minded cohorts, though more often their power attracts less civilized cyclopes hoping for leadership and protection against the human usurpers."
 		]
 	},
-	"cyclops_lorekeeper": { "copyof": "cyclops,_cyclops_lorekeeper" },
-	"cyclops,_cyclops_manhunter": {
+	"cyclops_lorekeeper": { "copyof": "cyclops_cyclops_lorekeeper" },
+	"cyclops_cyclops_manhunter": {
 		"name": "Cyclops, Cyclops Manhunter",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -804,8 +804,8 @@
 			"While humanoids are their favored prey, manhunters delight in tracking all manner of creatures and wearing their skulls, skins, and shiny belongings as trophies. They rarely use stealth, instead openly pursuing their victims over great distances. In a proper hunt, exhaustion is as likely to fell a manhunter's prey as her axe."
 		]
 	},
-	"cyclops_manhunter": { "copyof": "cyclops,_cyclops_manhunter" },
-	"cyclops,_cyclops_smasher": {
+	"cyclops_manhunter": { "copyof": "cyclops_cyclops_manhunter" },
+	"cyclops_cyclops_smasher": {
 		"name": "Cyclops, Cyclops Smasher",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
@@ -861,8 +861,8 @@
 			"These one-eyed barbarians engage strangers with some degree of tactics and insight born of their prophetic talent. They tame mastodons and other massive beasts as mounts, and are skilled at leaving false trails that lead pursuers into an ambush. The smashers' favorite tactic is to battle indoors or among ruins and destroy supports until the structure collapses around them, trusting their phenomenal strength to save them from destruction."
 		]
 	},
-	"cyclops_smasher": { "copyof": "cyclops,_cyclops_smasher" },
-	"cyclops,_great_cyclops": {
+	"cyclops_smasher": { "copyof": "cyclops_cyclops_smasher" },
+	"cyclops_great_cyclops": {
 		"name": "Cyclops, Great Cyclops",
 		"sources": [
 			"Bestiary 3",
@@ -922,8 +922,8 @@
 			"The average great cyclops stands approximately 30 feet tall and weighs upward of 4 tons, though individuals of significantly greater size are known."
 		]
 	},
-	"great_cyclops": { "copyof": "cyclops,_great_cyclops" },
-	"cyclops,_kabandha": {
+	"great_cyclops": { "copyof": "cyclops_great_cyclops" },
+	"cyclops_kabandha": {
 		"name": "Cyclops, Kabandha",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -987,8 +987,8 @@
 			"To reproduce, these giants lay single, rock-like eggs that require great heat to mature. The eggs hatch quickly, releasing young that reach full size within a year. Though a cold environment doesn't harm their eggs, it does cause the eggs to enter stasis until properly tended."
 		]
 	},
-	"kabandha": { "copyof": "cyclops,_kabandha" },
-	"cyclops,_oracular_cyclops": {
+	"kabandha": { "copyof": "cyclops_kabandha" },
+	"cyclops_oracular_cyclops": {
 		"name": "Cyclops, Oracular Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
@@ -1045,8 +1045,8 @@
 			"A cyclops oracle retains more of the powers of foresight than most of its kin. In addition to a cyclops's typical flash of insight ability, an oracular cyclops can share its gift with others, granting them a boon on a future challenge. While often smaller than others of its kind, an oracular cyclops gains the ability to foresee danger coming its way. The statistics above depict a cyclops who is served by a cult of worshippers, and is therefore in good health. Other oracular cyclopes are sometimes kept as chained prisoners, at the mercy of their captors."
 		]
 	},
-	"oracular_cyclops": { "copyof": "cyclops,_oracular_cyclops" },
-	"cyclops,_savage_great_cyclops": {
+	"oracular_cyclops": { "copyof": "cyclops_oracular_cyclops" },
+	"cyclops_savage_great_cyclops": {
 		"name": "Cyclops, Savage Great Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
@@ -1104,7 +1104,7 @@
 			"In the jungles of the south, great cyclopes roam. Some brutes are especially dangerous, raining down furious blows with their huge greatclubs, and stunning and smashing foes in a blood-red rage. The roaring cries of savage great cyclopes can be heard echoing through the jungles as a warning for all other creatures to flee before its wrath."
 		]
 	},
-	"savage_great_cyclops": { "copyof": "cyclops,_savage_great_cyclops" },
+	"savage_great_cyclops": { "copyof": "cyclops_savage_great_cyclops" },
 	"cynosoma": {
 		"name": "Cynosoma",
 		"sources": [ "Planar Adventures" ],
@@ -1423,7 +1423,7 @@
 		]
 	},
 	"d_ziriak": { "copyof": "d'ziriak" },
-	"daemon,_acrididaemon": {
+	"daemon_acrididaemon": {
 		"name": "Daemon, Acrididaemon",
 		"sources": [
 			"Feast of Dust",
@@ -1492,8 +1492,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"acrididaemon": { "copyof": "daemon,_acrididaemon" },
-	"daemon,_astradaemon": {
+	"acrididaemon": { "copyof": "daemon_acrididaemon" },
+	"daemon_astradaemon": {
 		"name": "Daemon, Astradaemon",
 		"sources": [
 			"Bestiary 2",
@@ -1558,8 +1558,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"astradaemon": { "copyof": "daemon,_astradaemon" },
-	"daemon,_bibliodaemon": {
+	"astradaemon": { "copyof": "daemon_astradaemon" },
+	"daemon_bibliodaemon": {
 		"name": "Daemon, Bibliodaemon",
 		"sources": [
 			"Druma, Profit and Prophecy",
@@ -1572,7 +1572,7 @@
 			"",
 			"### Bibliodaemon, CR 8",
 			"",
-			"**Source** [Druma, Profit and Prophecy pg. 57](source/druma,_profit_and_prophecy)  ",
+			"**Source** [Druma, Profit and Prophecy pg. 57](source/druma_profit_and_prophecy)  ",
 			"**XP** 4,800  ",
 			"NE Medium outsider (daemon, evil, extraplanar)  ",
 			"**Init** +3; **Senses** darkvision 60 ft., [detect thoughts](spell/detect_thoughts); Perception +15",
@@ -1622,8 +1622,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"bibliodaemon": { "copyof": "daemon,_bibliodaemon" },
-	"daemon,_cacodaemon": {
+	"bibliodaemon": { "copyof": "daemon_bibliodaemon" },
+	"daemon_cacodaemon": {
 		"name": "Daemon, Cacodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1687,8 +1687,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"cacodaemon": { "copyof": "daemon,_cacodaemon" },
-	"daemon,_ceustodaemon": {
+	"cacodaemon": { "copyof": "daemon_cacodaemon" },
+	"daemon_ceustodaemon": {
 		"name": "Daemon, Ceustodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1754,8 +1754,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"ceustodaemon": { "copyof": "daemon,_ceustodaemon" },
-	"daemon,_crucidaemon": {
+	"ceustodaemon": { "copyof": "daemon_ceustodaemon" },
+	"daemon_crucidaemon": {
 		"name": "Daemon, Crucidaemon",
 		"sources": [
 			"Bestiary 3",
@@ -1821,8 +1821,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"crucidaemon": { "copyof": "daemon,_crucidaemon" },
-	"daemon,_derghodaemon": {
+	"crucidaemon": { "copyof": "daemon_crucidaemon" },
+	"daemon_derghodaemon": {
 		"name": "Daemon, Derghodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -1887,8 +1887,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"derghodaemon": { "copyof": "daemon,_derghodaemon" },
-	"daemon,_erodaemon": {
+	"derghodaemon": { "copyof": "daemon_derghodaemon" },
+	"daemon_erodaemon": {
 		"name": "Daemon, Erodaemon",
 		"sources": [
 			"Bestiary 6",
@@ -1954,8 +1954,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"erodaemon": { "copyof": "daemon,_erodaemon" },
-	"daemon,_genthodaemon": {
+	"erodaemon": { "copyof": "daemon_erodaemon" },
+	"daemon_genthodaemon": {
 		"name": "Daemon, Genthodaemon",
 		"sources": [
 			"Pathfinder #71: Rasputin Must Die!",
@@ -2044,8 +2044,8 @@
 			"On the Material Plane, genthodaemons sometimes serve daemonic cults that are unworthy of a greater daemon's attention or lacking the power to summon a more powerful creature. As their magic is suitable for war and destruction, they have limited use to mortal cultists not intent on violence."
 		]
 	},
-	"genthodaemon": { "copyof": "daemon,_genthodaemon" },
-	"daemon,_hydrodaemon": {
+	"genthodaemon": { "copyof": "daemon_genthodaemon" },
+	"daemon_hydrodaemon": {
 		"name": "Daemon, Hydrodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2110,8 +2110,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"hydrodaemon": { "copyof": "daemon,_hydrodaemon" },
-	"daemon,_lacridaemon": {
+	"hydrodaemon": { "copyof": "daemon_hydrodaemon" },
+	"daemon_lacridaemon": {
 		"name": "Daemon, Lacridaemon",
 		"sources": [
 			"Bestiary 6",
@@ -2181,8 +2181,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"lacridaemon": { "copyof": "daemon,_lacridaemon" },
-	"daemon,_lapsudaemon": {
+	"lacridaemon": { "copyof": "daemon_lacridaemon" },
+	"daemon_lapsudaemon": {
 		"name": "Daemon, Lapsudaemon",
 		"sources": [
 			"Pathfinder #106: For Queen and Empire",
@@ -2270,8 +2270,8 @@
 			"Lapsudaemons are intelligent and cruel, but their plight allows them little opportunity to focus on studies or more advanced machinations. As such, they focus almost exclusively on tasks assigned by more powerful daemons. They frequently serve immortal harbingers such as Uaransaph or Geon, evil deities like Zyphus, or the Four Horsemen as assassins or insane heralds of an imminent military force. Where legends speak of a storm of falling daemons dropping mortals from the sky, they also speak of the ruin of entire city-states shortly thereafter."
 		]
 	},
-	"lapsudaemon": { "copyof": "daemon,_lapsudaemon" },
-	"daemon,_leukodaemon": {
+	"lapsudaemon": { "copyof": "daemon_lapsudaemon" },
+	"daemon_leukodaemon": {
 		"name": "Daemon, Leukodaemon",
 		"sources": [
 			"Bestiary 2",
@@ -2340,8 +2340,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"leukodaemon": { "copyof": "daemon,_leukodaemon" },
-	"daemon,_meladaemon": {
+	"leukodaemon": { "copyof": "daemon_leukodaemon" },
+	"daemon_meladaemon": {
 		"name": "Daemon, Meladaemon",
 		"sources": [
 			"Bestiary 2",
@@ -2409,8 +2409,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"meladaemon": { "copyof": "daemon,_meladaemon" },
-	"daemon,_nixudaemon": {
+	"meladaemon": { "copyof": "daemon_meladaemon" },
+	"daemon_nixudaemon": {
 		"name": "Daemon, Nixudaemon",
 		"sources": [
 			"Pathfinder #96: Shadow of the Storm Tyrant",
@@ -2493,8 +2493,8 @@
 			"While their industrious natures and affinities for mortal business make them useful to each of the Four Horsemen, most of nixudaemons serve Szuriel, Trelmarixian, and the daemonic harbingers that scheme below them. The Horseman of War uses them as morale officers-a most effective paradox during the heat of battle. She also maintains special units of indentured prisoners under nixudaemon care, always breaking her promise to send her weary combatants home after a costly battle. The Horseman of Famine offers mere crumbs for sustenance to his legions of soldiers and slaves. He takes delight in using pet nixudaemons to drive his legions past their limits, accelerating their spiritual and physical starvation."
 		]
 	},
-	"nixudaemon": { "copyof": "daemon,_nixudaemon" },
-	"daemon,_obcisidaemon": {
+	"nixudaemon": { "copyof": "daemon_nixudaemon" },
+	"daemon_obcisidaemon": {
 		"name": "Daemon, Obcisidaemon",
 		"sources": [
 			"Bestiary 6",
@@ -2579,8 +2579,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"obcisidaemon": { "copyof": "daemon,_obcisidaemon" },
-	"daemon,_olethrodaemon": {
+	"obcisidaemon": { "copyof": "daemon_obcisidaemon" },
+	"daemon_olethrodaemon": {
 		"name": "Daemon, Olethrodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2663,8 +2663,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"olethrodaemon": { "copyof": "daemon,_olethrodaemon" },
-	"daemon,_phasmadaemon": {
+	"olethrodaemon": { "copyof": "daemon_olethrodaemon" },
+	"daemon_phasmadaemon": {
 		"name": "Daemon, Phasmadaemon",
 		"sources": [
 			"Bestiary 6",
@@ -2731,8 +2731,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"phasmadaemon": { "copyof": "daemon,_phasmadaemon" },
-	"daemon,_piscodaemon": {
+	"phasmadaemon": { "copyof": "daemon_phasmadaemon" },
+	"daemon_piscodaemon": {
 		"name": "Daemon, Piscodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2797,8 +2797,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"piscodaemon": { "copyof": "daemon,_piscodaemon" },
-	"daemon,_purrodaemon": {
+	"piscodaemon": { "copyof": "daemon_piscodaemon" },
+	"daemon_purrodaemon": {
 		"name": "Daemon, Purrodaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -2858,8 +2858,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"purrodaemon": { "copyof": "daemon,_purrodaemon" },
-	"daemon,_sangudaemon": {
+	"purrodaemon": { "copyof": "daemon_purrodaemon" },
+	"daemon_sangudaemon": {
 		"name": "Daemon, Sangudaemon",
 		"sources": [
 			"Bestiary 6",
@@ -2928,8 +2928,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"sangudaemon": { "copyof": "daemon,_sangudaemon" },
-	"daemon,_sepsidaemon": {
+	"sangudaemon": { "copyof": "daemon_sangudaemon" },
+	"daemon_sepsidaemon": {
 		"name": "Daemon, Sepsidaemon",
 		"sources": [
 			"Book of the Damned",
@@ -2993,8 +2993,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"sepsidaemon": { "copyof": "daemon,_sepsidaemon" },
-	"daemon,_suspiridaemon": {
+	"sepsidaemon": { "copyof": "daemon_sepsidaemon" },
+	"daemon_suspiridaemon": {
 		"name": "Daemon, Suspiridaemon",
 		"sources": [
 			"Bestiary 6",
@@ -3066,8 +3066,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"suspiridaemon": { "copyof": "daemon,_suspiridaemon" },
-	"daemon,_temerdaemon": {
+	"suspiridaemon": { "copyof": "daemon_suspiridaemon" },
+	"daemon_temerdaemon": {
 		"name": "Daemon, Temerdaemon",
 		"sources": [
 			"Bestiary 6",
@@ -3137,8 +3137,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"temerdaemon": { "copyof": "daemon,_temerdaemon" },
-	"daemon,_thanadaemon": {
+	"temerdaemon": { "copyof": "daemon_temerdaemon" },
+	"daemon_thanadaemon": {
 		"name": "Daemon, Thanadaemon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
@@ -3200,8 +3200,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"thanadaemon": { "copyof": "daemon,_thanadaemon" },
-	"daemon,_venedaemon": {
+	"thanadaemon": { "copyof": "daemon_thanadaemon" },
+	"daemon_venedaemon": {
 		"name": "Daemon, Venedaemon",
 		"sources": [
 			"Bestiary 6",
@@ -3274,8 +3274,8 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"venedaemon": { "copyof": "daemon,_venedaemon" },
-	"daemon,_vulnudaemon": {
+	"venedaemon": { "copyof": "daemon_venedaemon" },
+	"daemon_vulnudaemon": {
 		"name": "Daemon, Vulnudaemon",
 		"sources": [
 			"Bestiary 3",
@@ -3342,7 +3342,7 @@
 			"**Family:** [Daemon](family/daemon)"
 		]
 	},
-	"vulnudaemon": { "copyof": "daemon,_vulnudaemon" },
+	"vulnudaemon": { "copyof": "daemon_vulnudaemon" },
 	"dahzagan": {
 		"name": "Dahzagan",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -3353,7 +3353,7 @@
 			"",
 			"### Dahzagan, CR 6",
 			"",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 59](source/belkzen,_hold_of_the_orc_hordes)  ",
+			"**Source** [Belkzen, Hold of the Orc Hordes pg. 59](source/belkzen_hold_of_the_orc_hordes)  ",
 			"**XP** 2,400  ",
 			"CE Large outsider (chaotic, evil, extraplanar)  ",
 			"**Init** +2; **Senses** darkvision 60 ft., deathwatch, scent; Perception +14",
@@ -3652,7 +3652,7 @@
 			"Danthiennes stand just 10 inches tall and weigh only a few pounds, despite their plump forms."
 		]
 	},
-	"dark_folk,_caligni": {
+	"dark_folk_caligni": {
 		"name": "Dark Folk, Caligni",
 		"sources": [
 			"Bestiary 5",
@@ -3721,8 +3721,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"caligni": { "copyof": "dark_folk,_caligni" },
-	"dark_folk,_dark_caller": {
+	"caligni": { "copyof": "dark_folk_caligni" },
+	"dark_folk_dark_caller": {
 		"name": "Dark Folk, Dark Caller",
 		"sources": [
 			"Bestiary 4",
@@ -3792,8 +3792,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_caller": { "copyof": "dark_folk,_dark_caller" },
-	"dark_folk,_dark_champion": {
+	"dark_caller": { "copyof": "dark_folk_dark_caller" },
+	"dark_folk_dark_champion": {
 		"name": "Dark Folk, Dark Champion",
 		"sources": [
 			"Cradle of Night",
@@ -3856,8 +3856,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_champion": { "copyof": "dark_folk,_dark_champion" },
-	"dark_folk,_dark_creeper": {
+	"dark_champion": { "copyof": "dark_folk_dark_champion" },
+	"dark_folk_dark_creeper": {
 		"name": "Dark Folk, Dark Creeper",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3923,8 +3923,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_creeper": { "copyof": "dark_folk,_dark_creeper" },
-	"dark_folk,_dark_dancer": {
+	"dark_creeper": { "copyof": "dark_folk_dark_creeper" },
+	"dark_folk_dark_dancer": {
 		"name": "Dark Folk, Dark Dancer",
 		"sources": [
 			"Bestiary 4",
@@ -3987,8 +3987,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_dancer": { "copyof": "dark_folk,_dark_dancer" },
-	"dark_folk,_dark_empath": {
+	"dark_dancer": { "copyof": "dark_folk_dark_dancer" },
+	"dark_folk_dark_empath": {
 		"name": "Dark Folk, Dark Empath",
 		"sources": [
 			"Occult Bestiary",
@@ -4055,8 +4055,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_empath": { "copyof": "dark_folk,_dark_empath" },
-	"dark_folk,_dark_slayer": {
+	"dark_empath": { "copyof": "dark_folk_dark_empath" },
+	"dark_folk_dark_slayer": {
 		"name": "Dark Folk, Dark Slayer",
 		"sources": [
 			"Bestiary 2",
@@ -4125,8 +4125,8 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_slayer": { "copyof": "dark_folk,_dark_slayer" },
-	"dark_folk,_dark_stalker": {
+	"dark_slayer": { "copyof": "dark_folk_dark_slayer" },
+	"dark_folk_dark_stalker": {
 		"name": "Dark Folk, Dark Stalker",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4192,7 +4192,7 @@
 			"**Family:** [Dark Folk](family/dark_folk)"
 		]
 	},
-	"dark_stalker": { "copyof": "dark_folk,_dark_stalker" },
+	"dark_stalker": { "copyof": "dark_folk_dark_stalker" },
 	"dark_young_of_shub-niggurath": {
 		"name": "Dark Young of Shub-Niggurath",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
@@ -4702,7 +4702,7 @@
 			"A death worm is 15 feet long and weighs 1,200 pounds-although rumors of much larger death worms persist."
 		]
 	},
-	"death_worm,_death_worm_leviathan": {
+	"death_worm_death_worm_leviathan": {
 		"name": "Death Worm, Death Worm Leviathan",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
@@ -4761,7 +4761,7 @@
 			"Sometimes a pregnant death worm lays an especially promising egg among her brood, about twice as large as the others and with a nigh-impenetrable, brownspeckled shell. This egg requires even more warmth than the others in its clutch, and upon emerging the worm would rather devour its brethren than the meal left by its parent. Such rare specimens grow up to become death worm leviathans, and those few who have heard of the fell beasts know to fear them as well as to hold them in awe. Death worm leviathans possess powers nearly identical to those of their smaller kin, albeit at a much deadlier scale. In addition, their massive girth makes it even easier for them to consume prey both large and small, and a single leviathan might consume an entire desert village before its terrible hunger is sated."
 		]
 	},
-	"death_worm_leviathan": { "copyof": "death_worm,_death_worm_leviathan" },
+	"death_worm_leviathan": { "copyof": "death_worm_death_worm_leviathan" },
 	"deathsnatcher": {
 		"name": "Deathsnatcher",
 		"sources": [ "Bestiary 6" ],
@@ -5134,7 +5134,7 @@
 			"A deep one typically stands about 7 feet tall, but its hunched gait and lumbering stance can make it appear shorter when it shambles ashore. An average deep one weighs 300 pounds."
 		]
 	},
-	"deep_one,_deep_one_hybrid": {
+	"deep_one_deep_one_hybrid": {
 		"name": "Deep One, Deep One Hybrid",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5198,8 +5198,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"deep_one_hybrid": { "copyof": "deep_one,_deep_one_hybrid" },
-	"deep_one,_elder_deep_one": {
+	"deep_one_hybrid": { "copyof": "deep_one_deep_one_hybrid" },
+	"deep_one_elder_deep_one": {
 		"name": "Deep One, Elder Deep One",
 		"sources": [ "Bestiary 5" ],
 		"description": [
@@ -5271,7 +5271,7 @@
 			"A few deep ones never stop growing over the eons of their endless lives. Many elder deep ones claim the names of monsters or gods for their own-Mother Hydra and Father Dagon being two of the more legendary of their kind. Elder deep ones ascend to the status of near-gods in deep one society, towering over their kin and ruling their sunken cities. Just as they are worshiped, so do the elder deep ones worship the Great Old Ones and Outer Gods themselves."
 		]
 	},
-	"elder_deep_one": { "copyof": "deep_one,_elder_deep_one" },
+	"elder_deep_one": { "copyof": "deep_one_elder_deep_one" },
 	"deep_sea_serpent": {
 		"name": "Deep Sea Serpent",
 		"sources": [ "Bestiary 3" ],
@@ -5577,7 +5577,7 @@
 			"Whatever the truth, any two delvers are remarkably similar, with only slight differences in coloration and size to tell them apart. The only exceptions to this rule are those delvers pushed to madness by their metallic intoxication. These berserk delvers gain either the ability to rage as a 1st-level barbarian once per day or the continual effects of a confusion spell, and sometimes both. The duration of this madness depends upon the delver's level of intoxication, as adjudicated by the GM."
 		]
 	},
-	"demodand,_gristly_demodand": {
+	"demodand_gristly_demodand": {
 		"name": "Demodand, Gristly Demodand",
 		"sources": [
 			"Bestiary 5",
@@ -5643,8 +5643,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"gristly_demodand": { "copyof": "demodand,_gristly_demodand" },
-	"demodand,_shaggy_demodand": {
+	"gristly_demodand": { "copyof": "demodand_gristly_demodand" },
+	"demodand_shaggy_demodand": {
 		"name": "Demodand, Shaggy Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5701,8 +5701,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"shaggy_demodand": { "copyof": "demodand,_shaggy_demodand" },
-	"demodand,_slimy_demodand": {
+	"shaggy_demodand": { "copyof": "demodand_shaggy_demodand" },
+	"demodand_slimy_demodand": {
 		"name": "Demodand, Slimy Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5766,8 +5766,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"slimy_demodand": { "copyof": "demodand,_slimy_demodand" },
-	"demodand,_squamous_demodand": {
+	"slimy_demodand": { "copyof": "demodand_slimy_demodand" },
+	"demodand_squamous_demodand": {
 		"name": "Demodand, Squamous Demodand",
 		"sources": [
 			"Book of the Damned",
@@ -5838,8 +5838,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"squamous_demodand": { "copyof": "demodand,_squamous_demodand" },
-	"demodand,_stringy_demodand": {
+	"squamous_demodand": { "copyof": "demodand_squamous_demodand" },
+	"demodand_stringy_demodand": {
 		"name": "Demodand, Stringy Demodand",
 		"sources": [
 			"Bestiary 5",
@@ -5906,8 +5906,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"stringy_demodand": { "copyof": "demodand,_stringy_demodand" },
-	"demodand,_tarry_demodand": {
+	"stringy_demodand": { "copyof": "demodand_stringy_demodand" },
+	"demodand_tarry_demodand": {
 		"name": "Demodand, Tarry Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
@@ -5967,8 +5967,8 @@
 			"**Family:** [Demodand](family/demodand)"
 		]
 	},
-	"tarry_demodand": { "copyof": "demodand,_tarry_demodand" },
-	"demon,_abrikandilu": {
+	"tarry_demodand": { "copyof": "demodand_tarry_demodand" },
+	"demon_abrikandilu": {
 		"name": "Demon, Abrikandilu",
 		"sources": [
 			"Bestiary 5",
@@ -6038,8 +6038,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"abrikandilu": { "copyof": "demon,_abrikandilu" },
-	"demon,_andrazku": {
+	"abrikandilu": { "copyof": "demon_abrikandilu" },
+	"demon_andrazku": {
 		"name": "Demon, Andrazku",
 		"sources": [
 			"Pathfinder #69: Maiden, Mother, Crone",
@@ -6052,7 +6052,7 @@
 			"",
 			"### Andrazku, CR 5",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 84](source/pathfinder_#69_maiden,_mother,_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 84](source/pathfinder_#69_maiden_mother_crone)  ",
 			"**XP** 1,600  ",
 			"CE Medium outsider (chaotic, cold, demon, evil, extraplanar)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., scent; Perception +12",
@@ -6128,8 +6128,8 @@
 			"Andrazkus are receptive to flattery about their size and strength. They like offers of weapons and strengthenhancing items as payment for their services. They can be assigned to guard, hunt, or retrieve; any Charisma check attempted as part a spell to convince an andrazku to undertake a mission other than these kinds of tasks takes a -2 penalty. A female summoner has a -10 penalty on all Charisma checks made to bargain unless the caster acts inferior and unworthy of the demon's aid."
 		]
 	},
-	"andrazku": { "copyof": "demon,_andrazku" },
-	"demon,_babau": {
+	"andrazku": { "copyof": "demon_andrazku" },
+	"demon_babau": {
 		"name": "Demon, Babau",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6191,8 +6191,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"babau": { "copyof": "demon,_babau" },
-	"demon,_balor": {
+	"babau": { "copyof": "demon_babau" },
+	"demon_balor": {
 		"name": "Demon, Balor",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6280,8 +6280,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"balor": { "copyof": "demon,_balor" },
-	"demon,_brimorak": {
+	"balor": { "copyof": "demon_balor" },
+	"demon_brimorak": {
 		"name": "Demon, Brimorak",
 		"sources": [
 			"Bestiary 6",
@@ -6350,8 +6350,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"brimorak": { "copyof": "demon,_brimorak" },
-	"demon,_cambion": {
+	"brimorak": { "copyof": "demon_brimorak" },
+	"demon_cambion": {
 		"name": "Demon, Cambion",
 		"sources": [
 			"Bestiary 5",
@@ -6424,8 +6424,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"cambion": { "copyof": "demon,_cambion" },
-	"demon,_coloxus": {
+	"cambion": { "copyof": "demon_cambion" },
+	"demon_coloxus": {
 		"name": "Demon, Coloxus",
 		"sources": [
 			"Bestiary 3",
@@ -6494,8 +6494,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"coloxus": { "copyof": "demon,_coloxus" },
-	"demon,_derakni": {
+	"coloxus": { "copyof": "demon_coloxus" },
+	"demon_derakni": {
 		"name": "Demon, Derakni",
 		"sources": [
 			"The Worldwound",
@@ -6562,8 +6562,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"derakni": { "copyof": "demon,_derakni" },
-	"demon,_dretch": {
+	"derakni": { "copyof": "demon_derakni" },
+	"demon_dretch": {
 		"name": "Demon, Dretch",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -6619,8 +6619,8 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"dretch": { "copyof": "demon,_dretch" },
-	"demon,_gallu": {
+	"dretch": { "copyof": "demon_dretch" },
+	"demon_gallu": {
 		"name": "Demon, Gallu",
 		"sources": [
 			"The Worldwound",
@@ -6695,7 +6695,7 @@
 			"**Family:** [Demon](family/demon)"
 		]
 	},
-	"gallu": { "copyof": "demon,_gallu" },
+	"gallu": { "copyof": "demon_gallu" },
 	"zygomind": {
 		"name": "Zygomind",
 		"sources": [ "Bestiary 5" ],

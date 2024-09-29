@@ -716,7 +716,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		],
 		"siblings": [
 			"starting_a_campaign",
@@ -785,7 +785,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"step_3_skills": {
@@ -832,7 +832,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"step_4_feats": {
@@ -879,7 +879,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"step_5_class_features": {
@@ -906,7 +906,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"step_6_gear": {
@@ -969,7 +969,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"step_7_details": {
@@ -994,10 +994,10 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
-	"example_kiramor,_the_forest_shadow": {
+	"example_kiramor_the_forest_shadow": {
 		"name": "Example: Kiramor, the Forest Shadow",
 		"subtitle": "Creating NPCs",
 		"tags": "Gamemastering",
@@ -1050,7 +1050,7 @@
 			"step_5_class_features",
 			"step_6_gear",
 			"step_7_details",
-			"example_kiramor,_the_forest_shadow"
+			"example_kiramor_the_forest_shadow"
 		]
 	},
 	"gamemastery_guide": {
@@ -3898,7 +3898,7 @@
 		"subtopics": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		],
@@ -3935,7 +3935,7 @@
 		"siblings": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		]
@@ -3967,12 +3967,12 @@
 		"siblings": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		]
 	},
-	"solo_monsters_vs._groups_of_monsters": {
+	"solo_monsters_vs_groups_of_monsters": {
 		"name": "Solo Monsters vs. Groups of Monsters",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -3993,7 +3993,7 @@
 		"siblings": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		]
@@ -4019,7 +4019,7 @@
 		"siblings": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		]
@@ -4049,7 +4049,7 @@
 		"siblings": [
 			"play_to_the_pcs'_strengths",
 			"high-_and_low-cr_encounters",
-			"solo_monsters_vs._groups_of_monsters",
+			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
 			"don't_stymie_the_pcs"
 		]
@@ -4383,7 +4383,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4470,7 +4470,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4507,7 +4507,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4552,7 +4552,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4593,7 +4593,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4622,11 +4622,11 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
-	"converting_content_from_3.5_or_other_systems": {
+	"converting_content_from_35_or_other_systems": {
 		"name": "Converting Content from 3.5 or Other Systems",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
@@ -4657,7 +4657,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},
@@ -4682,7 +4682,7 @@
 			"tpks",
 			"overpowered_pcs",
 			"personalizing_published_adventures",
-			"converting_content_from_3.5_or_other_systems",
+			"converting_content_from_35_or_other_systems",
 			"words_every_game_master_should_known"
 		]
 	},

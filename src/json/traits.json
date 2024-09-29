@@ -3526,7 +3526,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"broken,_not_beaten": {
+	"broken_not_beaten": {
 		"name": "Broken, Not Beaten",
 		"sources": [ "Agents of Evil" ],
 		"description": [
@@ -3537,9 +3537,6 @@
 			"You automatically stabilize when reduced below 0 hit points. Once per day when brought below 0 hit points, you can accept 1 point of damage to regain consciousness for 1 round, though you remain staggered and only able to take a single move or standard action."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
-	},
-	"broken_not_beaten": {
-		"copyof": "broken,_not_beaten"
 	},
 	"bruising_intellect": {
 		"name": "Bruising Intellect",
@@ -7932,7 +7929,7 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"empty_heart,_full_heart": {
+	"empty_heart_full_heart": {
 		"name": "Empty Heart, Full Heart",
 		"sources": [
 			"Inner Sea Gods",
@@ -7947,9 +7944,6 @@
 			"Because of the aching strength of your forbidden love, you gain a +1 trait bonus on saving throws against charm effects, and targets of your charm spells take a -1 penalty on their saving throws."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
-	},
-	"empty_heart_full_heart": {
-		"copyof": "empty_heart,_full_heart"
 	},
 	"empty_mask": {
 		"name": "Empty Mask",
