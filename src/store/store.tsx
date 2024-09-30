@@ -1,10 +1,12 @@
 import type { Action, ThunkAction } from '@reduxjs/toolkit';
 import { configureStore } from '@reduxjs/toolkit';
 import scrollReducer from './scrollSlice';
+import historyReducer from './historySlice';
 
 export const store = configureStore({
 	reducer: {
-		scroll: scrollReducer
+		scroll: scrollReducer,
+		history: historyReducer
 	}
 });
 

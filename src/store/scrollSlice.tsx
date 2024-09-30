@@ -27,10 +27,10 @@ export const scrollSlice = createSlice({
 			return newState;
 		}
 	}
-})
+});
 
 // Export the generated action creators for use in components
-export const { setPosition } = scrollSlice.actions
+export const { setPosition } = scrollSlice.actions;
 
 // Export the slice reducer for use in the store configuration
-export default scrollSlice.reducer
+export default scrollSlice.reducer;

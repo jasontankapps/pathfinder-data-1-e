@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from '../components/Link';
 import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
 import { HierarchyArray, Table } from '../types';

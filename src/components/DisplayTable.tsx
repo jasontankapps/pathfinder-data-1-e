@@ -2,9 +2,10 @@ import { AnchorHTMLAttributes, ClassAttributes, FC, PropsWithChildren, useCallba
 import { IonIcon, IonRippleEffect } from '@ionic/react';
 import { caretDown, caretUp, ellipse } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
+import Link from './Link';
 
 type TriggerSortFunc = (index: number, descending: boolean) => boolean;
 

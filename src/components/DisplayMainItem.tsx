@@ -1,11 +1,13 @@
 import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes, ReactNode } from 'react';
-import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { HashLink } from 'react-router-hash-link';
 import remarkGfm from 'remark-gfm'
-import DisplayTable from './DisplayTable';
-import { Table } from '../types';
 import { IonItem, IonItemDivider, IonLabel, IonRippleEffect } from '@ionic/react';
+import { Table } from '../types';
+import { goTo } from '../store/historySlice';
+import { useAppDispatch } from '../store/hooks';
+import Link from './Link';
+import DisplayTable from './DisplayTable';
 
 export interface DisplayMainItemProps {
 	description: (string | string[])[]
@@ -136,8 +138,9 @@ const getElementAndUrl = (input: string): [ReactNode, string] => {
 
 const h2 = (props: MDpProps) => {
 	const input = props.children;
+	const dispatch = useAppDispatch();
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked" routerLink={url} routerDirection="forward">{element}</IonItem>
+	return <IonItem className="mainItem linked" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
 };
 
 const h22 = (props: MDpProps) => {
@@ -149,14 +152,16 @@ const h22 = (props: MDpProps) => {
 
 const h3 = (props: MDpProps) => {
 	const input = props.children;
+	const dispatch = useAppDispatch();
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked indented" routerLink={url} routerDirection="forward">{element}</IonItem>
+	return <IonItem className="mainItem linked indented" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
 };
 
 const h6 = (props: MDpProps) => {
 	const input = props.children;
+	const dispatch = useAppDispatch();
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
-	return <IonItem className="mainItem linked reversed" routerLink={url} routerDirection="forward">{element}</IonItem>
+	return <IonItem className="mainItem linked reversed" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
 };
 
 const hr = () => {

@@ -1,9 +1,9 @@
 import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes } from 'react';
-import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
-import { IonRippleEffect } from '@ionic/react';
 import { HashLink } from 'react-router-hash-link';
+import { IonRippleEffect } from '@ionic/react';
+import Link from './Link';
 import DisplayTable from './DisplayTable';
 import { DisplayItemProps, Table } from '../types';
 

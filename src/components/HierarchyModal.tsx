@@ -13,6 +13,8 @@ import {
 	IonToolbar
 } from '@ionic/react';
 import { closeCircle } from 'ionicons/icons';
+import { goTo } from '../store/historySlice';
+import { useAppDispatch } from '../store/hooks';
 import '../pages/Page.css';
 
 type LinkPair = [ string, string ];
@@ -27,6 +29,7 @@ const HierarchyModal: React.FC<PageProps> = (props) => {
 
 	const { hierarchy, isOpen, setIsOpen } = props;
 	const close = useCallback(() => setIsOpen(false), [setIsOpen]);
+	const dispatch = useAppDispatch();
 
 	return (
 		<IonModal isOpen={isOpen} onIonModalDidDismiss={close}>
@@ -43,12 +46,16 @@ const HierarchyModal: React.FC<PageProps> = (props) => {
 					{
 						hierarchy.map((pair, i) => {
 							const key = `parents/${i}`;
+							const goto = "/" + pair[1];
 							return <IonItem
 								key={key + "/empty"}
-								routerLink={"/" + pair[1]}
+								routerLink={goto}
 								routerDirection="forward"
 								className={`linked ${i ? ` indent${i}` : ""}`}
-								onClick={close}
+								onClick={() => {
+									close();
+									dispatch(goTo(goto));
+								}}
 							><IonLabel>{`${i + 1}. ${pair[0]}`}</IonLabel></IonItem>;
 						})
 					}

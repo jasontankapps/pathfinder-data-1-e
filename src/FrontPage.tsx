@@ -1,9 +1,9 @@
 import { IonContent, IonList, IonPage } from '@ionic/react';
-import { Link } from 'react-router-dom';
 import { isId, isMain } from './components/mainAssertions';
 import DisplayMainItem from './components/DisplayMainItem';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
+import Link from './components/Link';
 import main from './json/main.json';
 import './pages/Page.css';
 

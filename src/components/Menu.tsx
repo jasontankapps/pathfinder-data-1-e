@@ -10,6 +10,8 @@ import {
 } from '@ionic/react';
 import { alertCircle, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'react-router-dom';
+import { useAppDispatch } from '../store/hooks';
+import { goTo } from '../store/historySlice';
 import './Menu.css';
 
 interface AppPage {
@@ -111,6 +113,7 @@ const appPages: AppPage[] = [
 
 const Menu: React.FC = () => {
 	const location = useLocation();
+	const dispatch = useAppDispatch();
 
 	return (
 		<IonMenu contentId="main" type="overlay">
@@ -139,7 +142,7 @@ const Menu: React.FC = () => {
 						}
 						return (
 							<IonMenuToggle key={index} autoHide={false}>
-								<IonItem className={cn} routerLink={url} routerDirection="none" lines="none" detail={false}>
+								<IonItem onClick={() => dispatch(goTo(url!)) } className={cn} routerLink={url} routerDirection="none" lines="none" detail={false}>
 									<IonIcon aria-hidden="true" slot="start" src={icon} />
 									<IonLabel>{title}</IonLabel>
 								</IonItem>

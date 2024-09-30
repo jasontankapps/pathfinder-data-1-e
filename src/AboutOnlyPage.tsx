@@ -1,7 +1,7 @@
 import { IonContent, IonPage } from '@ionic/react';
-import { Link } from 'react-router-dom';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
+import Link from './components/Link';
 import './pages/Page.css';
 
 const AboutOnlyPage: React.FC = () => {

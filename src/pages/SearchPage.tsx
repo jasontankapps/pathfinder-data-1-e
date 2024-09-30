@@ -1,6 +1,5 @@
 import { FC, SetStateAction, Dispatch, PropsWithChildren, useState, useTransition } from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
-import { Link } from 'react-router-dom';
 import { FixedSizeList } from 'react-window';
 import Fuse, { FuseResult } from 'fuse.js';
 import {
@@ -27,6 +26,7 @@ import { RangeStartToEndMinusOne } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SearchHelpModal from '../components/SearchHelpModal';
+import Link from '../components/Link';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import './Page.css';
@@ -120,7 +120,7 @@ const SearchItem = ({index, style, data}: SearchResultItem) => {
 	const {t, p, l} = d[refIndex]; // t = type, p = prefix, l = link
 	return (
 		<div style={style} className="searchResult ion-activatable">
-			<Link to={`${prefixes[p]}/${l}`}>
+			<Link to={`/${prefixes[p]}/${l}`}>
 				<h3>{fuseIndex[refIndex].name}</h3>
 				<h4>{types[t]}</h4>
 			</Link>

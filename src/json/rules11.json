@@ -1481,6 +1481,7 @@
 	"precipitation": {
 		"name": "Precipitation",
 		"subtitle": "Weather, Wilderness",
+		"tags": "drizzle rain thunderstorm snow fog sleet",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 167](source/ultimate_wilderness)",
@@ -1754,6 +1755,7 @@
 	"severe_events": {
 		"name": "Severe Events",
 		"subtitle": "Weather, Wilderness",
+		"tags": "blizzard haboob hail hurricane sandstorm thunderstorm thundersnow tornado wildfire",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 171](source/ultimate_wilderness)",
