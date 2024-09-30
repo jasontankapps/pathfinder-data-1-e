@@ -6,6 +6,8 @@ import { useHistory } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
+import { useAppDispatch } from '../store/hooks';
+import { goTo } from '../store/historySlice';
 
 type TriggerSortFunc = (index: number, descending: boolean) => boolean;
 
@@ -94,11 +96,11 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	const onClick = useCallback(() => {
 		const isDescending = sorter(index, !descending);
 		setDescending(isDescending);
-	}, [index, sorter]);
+	}, [index, sorter, descending]);
 	if(sortable) {
 		return (
-			<th className="ion-activatable">
-				<div className="sortable" onClick={onClick}>
+			<th className="ion-activatable sortable" onClick={onClick}>
+				<div>
 					<IonRippleEffect />
 					<Markdown components={components}>{children}</Markdown>
 					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
@@ -185,11 +187,12 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 
 const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	const history = useHistory();
+	const dispatch = useAppDispatch();
 	// datum will be either [ linkString, text ] or [ sortString, linkString, text ]
 	const [ one, two, three ] = Array.isArray(datum) ? datum : [ "", `MISSING LINK: ${datum}` ];
 	const link = three ? two : one;
 	const output = three || two;
-	const click = useCallback(() => history.push(`/${link}`), []);
+	const click = useCallback(() => { history.push(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, history]);
 	return (
 		<td className="ion-activatable cell-link" onClick={click}>
 			{output}

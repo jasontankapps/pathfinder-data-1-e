@@ -50,7 +50,7 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	}, [storedPos, pageId]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
-	}, [pageId]);
+	}, [pageId, dispatch]);
 
 	return (
 		<IonPage>

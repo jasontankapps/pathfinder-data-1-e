@@ -204,21 +204,23 @@ table thead tr {
 	position: sticky;
 	top: 0;
 }
-table thead tr th div.sortable {
+table thead tr th.sortable {
+	cursor: pointer;
+}
+table thead tr th.sortable div {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-	cursor: pointer;
 }
-table thead tr th div.sortable ion-icon {
+table thead tr th.sortable div ion-icon {
 	padding-inline-start: 0.5rem;
 	flex-shrink: 0;
 }
-table thead tr th div.sortable ion-icon.sortNil {
+table thead tr th.sortable div ion-icon.sortNil {
 	color: var(--ion-color-step-250);
 }
-table thead tr th div.sortable ion-icon.sortArrow {
+table thead tr th.sortable div ion-icon.sortArrow {
 	color: var(--ion-color-secondary);
 }
 

@@ -50,7 +50,7 @@ const appPages: AppPage[] = [
 		title: "Classes",
 		url: "/main/classes",
 		icon: "/icons/robe.svg",
-		prefix: "class prestigeclass npcclass sidekick arechetype ability"
+		prefix: "class prestigeclass npcclass sidekick archetype ability"
 	},
 	{
 		title: "Skills",
@@ -74,7 +74,7 @@ const appPages: AppPage[] = [
 		title: "Equipment",
 		url: "/main/equipment",
 		icon: "/icons/battle-gear.svg",
-		prefix: "equipment"
+		prefix: "equipment tech"
 	},
 	{
 		title: "Magic Items",
@@ -130,7 +130,7 @@ const Menu: React.FC = () => {
 						if(loc === url) {
 							cn = "selected";
 						} else if (prefix) {
-							const m = loc.match(/^\/(?:main\/)?([^_/]+?)(?:\/|s?_)/);
+							const m = loc.match(/^(?:\/(?!main)|\/main\/)([^-_/]+?)(?:\/|s?_|s?-)/);
 							if(m) {
 								const rx = new RegExp(`\\b${m[1]}\\b`);
 								if(prefix.match(rx)) {

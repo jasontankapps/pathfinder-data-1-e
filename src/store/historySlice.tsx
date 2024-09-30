@@ -29,7 +29,6 @@ export const historySlice = createSlice({
 				previous: [state.current, ...state.previous],
 				next: []
 			};
-			console.log("Went to:", newState.current);
 			return newState;
 		},
 		goBack: (state) => {
@@ -42,7 +41,6 @@ export const historySlice = createSlice({
 				previous,
 				next: [state.current, ...state.next]
 			}
-			console.log("Back:", newState.current);
 			return newState;
 		},
 		goForward: (state) => {
@@ -55,7 +53,6 @@ export const historySlice = createSlice({
 				previous: [state.current, ...state.previous],
 				next
 			}
-			console.log("Forward:", newState.current);
 			return newState;
 		}
 	}
