@@ -30,6 +30,7 @@ div.subtopics ul {
 }
 div.subtopics li {
 	margin-block: 0.5em;
+	font-size: 0.875rem;
 }
 div.subtopics li a:link,
 div.subtopics li a:visited,

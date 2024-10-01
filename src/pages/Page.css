@@ -1,8 +1,19 @@
 /* Main */
 
 li {
-	font-size: 0.875rem;
-	line-height: 1.25rem;
+	font-size: 1rem;
+	line-height: 1.35rem;
+}
+li + li {
+	margin-block-start: 0.5rem;
+}
+
+div.highlight em strong,
+div.highlight i b,
+div.highlight strong em,
+div.highlight b i {
+	color: var(--ion-color-tertiary);
+	font-style: normal;
 }
 
 ion-content {

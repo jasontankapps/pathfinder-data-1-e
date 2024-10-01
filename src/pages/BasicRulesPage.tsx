@@ -53,7 +53,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	return (
 		<BasicPage title={title} sources={sources} pageId={pageId}>
 			<HierarchyRulesInset extraHierarchy={extraHierarchy} />
-			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn} />
+			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn ? cn + " highlight" : "highlight"} />
 			{subtopics.length > 0 ?  (
 				<div className="subtopics">
 					<header>Subtopics:</header>
