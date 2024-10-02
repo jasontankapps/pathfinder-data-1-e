@@ -48,12 +48,12 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 }) => {
 	const [previous, next] = prevNext || nulls;
 
-	const className = "prevNext" + (next && !previous ? " nextOnly" : "");
+	const prevNextClass = "prevNext" + (next && !previous ? " nextOnly" : "");
 
 	return (
 		<BasicPage title={title} sources={sources} pageId={pageId}>
 			<HierarchyRulesInset extraHierarchy={extraHierarchy} />
-			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn ? cn + " highlight" : "highlight"} />
+			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn ? cn + " highlight" : "highlight"} prefix={pageId} />
 			{subtopics.length > 0 ?  (
 				<div className="subtopics">
 					<header>Subtopics:</header>
@@ -65,7 +65,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 				</div>
 			) : <></>}
 			{prevNext ? (
-				<div className={className}>
+				<div className={prevNextClass}>
 					{previous ?
 						<div className="prev">
 							<Link to={"/rule/" + previous[1]}>

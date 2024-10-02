@@ -22,7 +22,7 @@ const MasterpiecePage: React.FC = () => {
 
 	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, masterpieces);
 
-	return <BasicPage pageId={"masterpiece/" + id} title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage pageId={"masterpiece--" + id} title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
 };
 
 export default MasterpiecePage;

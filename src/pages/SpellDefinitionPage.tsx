@@ -23,7 +23,7 @@ const SpellDefPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"spell-def/" + id}
+		pageId={"spell-def--" + id}
 	/>;
 };
 

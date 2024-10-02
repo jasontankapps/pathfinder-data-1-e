@@ -19,7 +19,7 @@ const MonsterTemplateGroup1Page: React.FC<MonsterProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), templates);
 
-	return <BasicPage pageId={"template/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"template--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default MonsterTemplateGroup1Page;

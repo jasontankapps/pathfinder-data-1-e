@@ -35,7 +35,7 @@ const MediumSpiritPage: React.FC = () => {
 	const m = path.match(/outsiderspirit/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
 
-	const pageId = (m ? "spirit/" : "outsiderspirit/") + id;
+	const pageId = (m ? "spirit--" : "outsiderspirit--") + id;
 
 	return <BasicPage
 		title={title}

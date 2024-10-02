@@ -23,7 +23,7 @@ const EquipmentPoisonPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"equipment-poison/" + id}
+		pageId={"equipment-poison--" + id}
 	/>;
 };
 

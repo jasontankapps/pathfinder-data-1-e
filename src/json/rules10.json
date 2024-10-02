@@ -192,7 +192,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"pacing": {
@@ -798,7 +799,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"setting_the_scene_2": {

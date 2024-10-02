@@ -28,7 +28,7 @@ const BlessingPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"blessing/" + id}
+		pageId={"blessing--" + id}
 	/>;
 };
 

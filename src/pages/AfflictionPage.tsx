@@ -46,7 +46,7 @@ const AfflictionPage: React.FC = () => {
 
 	const type: Affliction = m ? m[1] as Affliction : "curse";
 
-	const pageId = `${type}/${id}`;
+	const pageId = `${type}--${id}`;
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getByType(id, type);
 

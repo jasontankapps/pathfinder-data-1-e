@@ -28,7 +28,7 @@ const ShamanSpiritPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"shaman-spirit/" + id}
+		pageId={"shaman-spirit--" + id}
 	/>;
 };
 

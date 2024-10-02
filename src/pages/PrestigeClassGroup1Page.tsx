@@ -27,9 +27,11 @@ const PrestigeClassGroup1Page: React.FC<ClassProps> = ({id}) => {
 		sources
 	} = (prestige_classes[(id as keyof Data) || "not_found"] as JsonDataPropsClass);
 
+	const pageId = "prestigeclass--" + id;
+
 	return (
-		<BasicPage pageId={"prestigeclass/" + id} title={title} hierarchy={hierarchy} sources={sources}>
-			<DisplayItem markdown={markdown} />
+		<BasicPage pageId={pageId} title={title} hierarchy={hierarchy} sources={sources}>
+			<DisplayItem markdown={markdown} prefix={pageId} />
 		</BasicPage>
 	);
 };

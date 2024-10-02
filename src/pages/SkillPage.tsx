@@ -23,7 +23,7 @@ const SkillPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"skill/" + id}
+		pageId={"skill--" + id}
 	/>;
 };
 

@@ -24,7 +24,7 @@ const EquipmentSiegeEnginePage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"equipment-siegeengines/" + id}
+		pageId={"equipment-siegeengines--" + id}
 	/>;
 };
 

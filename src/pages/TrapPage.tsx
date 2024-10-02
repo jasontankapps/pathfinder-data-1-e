@@ -29,7 +29,7 @@ const TrapPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"trap/" + id}
+		pageId={"trap--" + id}
 	/>;
 };
 

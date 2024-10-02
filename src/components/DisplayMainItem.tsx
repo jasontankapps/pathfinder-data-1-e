@@ -13,6 +13,7 @@ export interface DisplayMainItemProps {
 	description: (string | string[])[]
 	tables?: Table[]
 	singleTable?: boolean
+	prefixId: string
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -45,7 +46,7 @@ h1, h2, h3, h6, hr
 
 const plugins = [remarkGfm];
 
-const doLink = (props: MDaProps) => {
+const doLink = (props: MDaProps, prefix: string) => {
 	const { href = "", children, id, "aria-label": ariaLabel } = props;
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
@@ -56,14 +57,18 @@ const doLink = (props: MDaProps) => {
 		// Trying to make create the ID property that the footnote link will be pointing at,
 		//   since the plugin apparently doesn't do that automatically...
 		const scrollWithOffset = (el: HTMLElement) => {
-			const w = document.getElementsByTagName("ion-content");
+			// `el` is the element being scrolled TO
+			let w = el.parentElement;
+			while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
+				w = w.parentElement;
+			}
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 			const yOffset = id ? 0 : -80;
 			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			const element = [...w].pop();
-			element && element.scrollByPoint(0, yCoordinate + yOffset, 500);
+			//[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
+			w && (w as HTMLIonContentElement).scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
-		return <HashLink aria-label={ariaLabel} id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
+		return <HashLink aria-label={ariaLabel} id={id && (prefix + id)} scroll={scrollWithOffset} to={"#" + prefix + href.slice(1)}>{children}</HashLink>
 	}
 	return <Link to={"/" + href} id={id} aria-label={ariaLabel}>{children}</Link>
 };
@@ -76,6 +81,12 @@ const table = (props: MDtProps) => {
 const td = (props: MDpProps) => {
 	// for IonRippleEffect
 	return <td className="ion-activatable">{props.children}</td>;
+};
+
+const li = (props: MDpProps, prefix: string) => {
+	// for Footnotes
+	const { id, children } = props;
+	return <li id={id && (prefix + id)}>{children}</li>;
 };
 
 const p = (props: MDpProps, tables: Table[]) => {
@@ -168,9 +179,10 @@ const hr = () => {
 	return <IonItemDivider className="mainItem divider"></IonItemDivider>
 };
 
-const makeComponents = (tables: Table[]) => {
+const makeComponents = (tables: Table[], id: string) => {
 	return {
-		a: doLink,
+		a: (props: MDaProps) => doLink(props, id),
+		li: (props: MDpProps) => li(props, id),
 		p: (props: MDpProps) => p(props, tables),
 		h1,
 		h2,
@@ -180,9 +192,10 @@ const makeComponents = (tables: Table[]) => {
 		td
 	};
 };
-const makeBasicComponents = (tables: Table[]) => {
+const makeBasicComponents = (tables: Table[], id: string) => {
 	return {
-		a: doLink,
+		a: (props: MDaProps) => doLink(props, id),
+		li: (props: MDpProps) => li(props, id),
 		p: (props: MDpProps) => p(props, tables),
 		td,
 		table,
@@ -190,9 +203,9 @@ const makeBasicComponents = (tables: Table[]) => {
 	};
 };
 
-const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], singleTable }) => {
-	const components = useMemo(() => makeComponents(tables), [tables]);
-	const basicComponents = useMemo(() => makeBasicComponents(tables), [tables]);
+const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], singleTable, prefixId }) => {
+	const components = useMemo(() => makeComponents(tables, prefixId), [tables, prefixId]);
+	const basicComponents = useMemo(() => makeBasicComponents(tables, prefixId), [tables, prefixId]);
 	const baseClass = "mainItem" + (singleTable ? " singleTable" : "");
 	return description.map((line, i) => {
 		if(typeof line === "string") {

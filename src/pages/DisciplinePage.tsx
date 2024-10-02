@@ -28,7 +28,7 @@ const DiscliplinePage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"discipline/" + id}
+		pageId={"discipline--" + id}
 	/>;
 };
 

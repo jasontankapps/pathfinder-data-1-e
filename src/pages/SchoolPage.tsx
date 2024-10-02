@@ -28,7 +28,7 @@ const SchoolPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"school/" + id}
+		pageId={"school--" + id}
 	/>;
 };
 

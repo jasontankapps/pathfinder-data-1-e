@@ -30,7 +30,7 @@ const DrugPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"drug/" + id}
+		pageId={"drug--" + id}
 	/>;
 };
 

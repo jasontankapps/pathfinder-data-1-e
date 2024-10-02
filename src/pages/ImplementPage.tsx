@@ -28,7 +28,7 @@ const ImplementPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"implement/" + id}
+		pageId={"implement--" + id}
 	/>;
 };
 

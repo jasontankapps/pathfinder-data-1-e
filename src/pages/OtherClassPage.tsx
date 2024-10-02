@@ -34,14 +34,16 @@ const OtherClassPage: React.FC = () => {
 		sources
 	} = (classes[solidId] as JsonDataPropsClass);
 
+	const pageId = "otherclasses--" + id;
+
 	return (
 		<BasicPage
 			title={title}
 			hierarchy={hierarchy}
 			sources={sources}
-			pageId={"otherclasses/" + id}
+			pageId={pageId}
 		>
-			<DisplayItem markdown={markdown} />
+			<DisplayItem markdown={markdown} prefix={pageId} />
 		</BasicPage>
 	);
 };

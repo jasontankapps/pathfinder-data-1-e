@@ -28,7 +28,7 @@ const OathPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"oath/" + id}
+		pageId={"oath--" + id}
 	/>;
 };
 

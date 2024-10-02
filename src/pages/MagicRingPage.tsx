@@ -23,7 +23,7 @@ const MagicPage: React.FC = () => {
 		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magic-ring/" + id}
+		pageId={"magic-ring--" + id}
 	/>;
 };
 

@@ -22,7 +22,7 @@ const ClassGroup1Page: React.FC<ClassProps> = ({id}) => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"class-ability/" + id}
+		pageId={"class-ability--" + id}
 	/>;
 
 };

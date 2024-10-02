@@ -40,7 +40,7 @@ const RagePowerPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"ragepower/" + id}
+		pageId={"ragepower--" + id}
 	/>;
 };
 

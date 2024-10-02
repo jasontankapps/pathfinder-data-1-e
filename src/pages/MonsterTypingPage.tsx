@@ -31,7 +31,7 @@ const MonsterTypingPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"monster-typing/" + id}
+		pageId={"monster-typing--" + id}
 	/>;
 };
 

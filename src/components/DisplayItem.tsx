@@ -13,7 +13,7 @@ type MDtProps = ClassAttributes<HTMLTableElement> & HTMLAttributes<HTMLTableElem
 
 const plugins = [remarkGfm];
 
-const doLink = (props: MDaProps) => {
+const doLink = (props: MDaProps, prefix: string) => {
 	const { href = "", children, id, "aria-label": ariaLabel } = props;
 	if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
@@ -21,15 +21,27 @@ const doLink = (props: MDaProps) => {
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		const scrollWithOffset = (el: HTMLElement) => {
-			const w = document.getElementsByTagName("ion-content");
+			// `el` is the element being scrolled TO
+			let w = el.parentElement;
+			while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
+				w = w.parentElement;
+			}
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 			const yOffset = id ? 0 : -80;
 			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
+			//[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
+			w && (w as HTMLIonContentElement).scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
-		return <HashLink aria-label={ariaLabel} id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
+//		console.log(id, href);
+		return <HashLink aria-label={ariaLabel} id={id && (prefix + id)} scroll={scrollWithOffset} to={"#" + prefix + href.slice(1)}>{children}</HashLink>
 	}
 	return <Link to={"/" + href} id={id} aria-label={ariaLabel}>{children}</Link>
+};
+
+const li = (props: MDpProps, prefix: string) => {
+	// for Footnotes
+	const { id, children } = props;
+	return <li id={id && (prefix + id)}>{children}</li>;
 };
 
 const p = (props: MDpProps, tables: Table[]) => {
@@ -63,9 +75,10 @@ const h2 = (props: MDpProps) => {
 	return <h2>{props.children}</h2>;
 };
 
-const makeComponents = (tables: Table[]) => {
+const makeComponents = (tables: Table[], id: string) => {
 	return {
-		a: doLink,
+		a: (props: MDaProps) => doLink(props, id),
+		li: (props: MDpProps) => li(props, id),
 		p: (props: MDpProps) => p(props, tables),
 		td,
 		table,
@@ -73,9 +86,10 @@ const makeComponents = (tables: Table[]) => {
 	};
 };
 
-const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], className }) => {
+const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], className, prefix }) => {
+	const id = (prefix || "p" + String(Math.floor(Math.random() * 100000))) + "-";
 	const contents = Array.isArray(markdown) ? markdown.join("\n") : markdown;
-	const components = useMemo(() => makeComponents(tables), [tables]);
+	const components = useMemo(() => makeComponents(tables, id), [tables]);
 	return (
 		<div className={className}>
 			<Markdown

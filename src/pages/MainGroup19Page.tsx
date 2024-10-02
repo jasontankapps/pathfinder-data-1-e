@@ -14,7 +14,7 @@ const MainGroup19Page: React.FC<MainPageProps> = ({ id }) => {
 	isMain(data);
 	const { title, description, tables, previous: hierarchy, sources, singleTable } = data;
 
-	return <BasicMainPage pageId={"main/" + id} title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} singleTable={singleTable} />;
+	return <BasicMainPage pageId={"main--" + id} title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} singleTable={singleTable} />;
 };
 
 export default MainGroup19Page;

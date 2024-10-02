@@ -28,7 +28,7 @@ const ArcanaPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"magusarcana/" + id}
+		pageId={"magusarcana--" + id}
 	/>;
 };
 

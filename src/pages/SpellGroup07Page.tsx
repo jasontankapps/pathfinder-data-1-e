@@ -16,7 +16,7 @@ const SpellGroup7Page: React.FC<SpellProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
 
-	return <BasicPage pageId={"spell/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"spell--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default SpellGroup7Page;

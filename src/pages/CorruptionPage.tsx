@@ -28,7 +28,7 @@ const CorruptionPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"corruption/" + id}
+		pageId={"corruption--" + id}
 	/>;
 };
 

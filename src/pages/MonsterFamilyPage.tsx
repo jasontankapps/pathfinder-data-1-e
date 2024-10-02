@@ -67,7 +67,7 @@ const MonsterFamilyPage: React.FC = () => {
 		/* tables={tables} */
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"monster-family/" + id}
+		pageId={"monster-family--" + id}
 	/>;
 };
 

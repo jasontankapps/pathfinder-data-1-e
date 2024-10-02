@@ -28,7 +28,7 @@ const CursePage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"oraclecurse/" + id}
+		pageId={"oraclecurse--" + id}
 	/>;
 };
 

@@ -36,7 +36,7 @@ const ArchetypeGroup2Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
 	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
 
-	const pageId = `archetype-${parent}/${id}`;
+	const pageId = `archetype-${parent}--${id}`;
 
 	return <BasicPage
 		title={n}

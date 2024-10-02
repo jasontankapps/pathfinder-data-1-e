@@ -29,7 +29,7 @@ const OrderPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"order/" + id}
+		pageId={"order--" + id}
 	/>;
 };
 

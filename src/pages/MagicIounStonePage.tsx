@@ -28,7 +28,7 @@ const MagicPage: React.FC = () => {
 		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magic-ioun/" + id}
+		pageId={"magic-ioun--" + id}
 	/>;
 };
 

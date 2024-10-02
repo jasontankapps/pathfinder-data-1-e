@@ -30,7 +30,7 @@ const HauntPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"haunt/" + id}
+		pageId={"haunt--" + id}
 	/>;
 };
 

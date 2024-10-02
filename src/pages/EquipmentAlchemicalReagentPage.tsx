@@ -23,7 +23,7 @@ const EquipmentAlchemicalReagentPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"equipment-alchemicalreagent/" + id}
+		pageId={"equipment-alchemicalreagent--" + id}
 	/>;
 };
 

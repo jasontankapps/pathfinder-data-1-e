@@ -27,7 +27,7 @@ const UMRPage: React.FC = () => {
 		/* tables={tables} */
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"umr/" + id}
+		pageId={"umr--" + id}
 	/>;
 };
 

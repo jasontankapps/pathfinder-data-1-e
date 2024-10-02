@@ -28,7 +28,7 @@ const AspectPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"shifteraspect/" + id}
+		pageId={"shifteraspect--" + id}
 	/>;
 };
 

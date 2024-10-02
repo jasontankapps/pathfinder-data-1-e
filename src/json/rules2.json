@@ -12,7 +12,7 @@
 			"",
 			"***Activation:*** Usually use-activated or command word, but details vary from item to item.",
 			"",
-			"***Special Qualities:*** Roll d%. An 01 result indicates the wondrous item is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see Intelligent Items later in this chapter).",
+			"***Special Qualities:*** Roll d%. An 01 result indicates the wondrous item is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. [Intelligent items](rule/intelligent_items) have extra abilities and sometimes extraordinary powers and special purposes.",
 			"",
 			"Wondrous items with charges can never be intelligent."
 		],
@@ -525,21 +525,23 @@
 			"",
 			"Any item with intelligence has an alignment (see Table 15-21). Note that intelligent weapons already have alignments, either stated or by implication. If you're generating a random intelligent weapon, that weapon's alignment must fit with any alignment-oriented special abilities it has.",
 			"",
-			"Any character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one negative level if he or she so much as picks up the item. Although this negative level never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by restoration spells). This negative level is cumulative with any other penalties the item might place on inappropriate wielders. Items with Ego scores (see below) of 20 to 29 bestow two negative levels. Items with Ego scores of 30 or higher bestow three negative levels.",
+			"Any character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one negative level if he or she so much as picks up the item. Although this negative level never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by restoration spells). This negative level is cumulative with any other penalties the item might place on inappropriate wielders. Items with [Ego scores](rule/item_ego) of 20 to 29 bestow two negative levels. Items with Ego scores of 30 or higher bestow three negative levels.",
+			"",
+			"### Table 15-21",
 			"",
 			"| d% | Alignment of Item |",
 			"| --- | --- |",
 			"| 01-10 | Chaotic good |",
-			"| 11-20 | Chaotic neutral&ast; |",
+			"| 11-20 | Chaotic neutral[^1] |",
 			"| 21-35 | Chaotic evil |",
-			"| 36-45 | Neutral evil&ast; |",
+			"| 36-45 | Neutral evil[^1] |",
 			"| 46-55 | Lawful evil |",
 			"| 56-70 | Lawful good |",
-			"| 71-80 | Lawful neutral&ast; |",
-			"| 81-90 | Neutral good&ast; |",
+			"| 71-80 | Lawful neutral[^1] |",
+			"| 81-90 | Neutral good[^1] |",
 			"| 91-100 | Neutral |",
 			"",
-			"&ast; The item can also be used by any character whose alignment corresponds to the non-neutral portion of the item's alignment."
+			"[^1]: The item can also be used by any character whose alignment corresponds to the non-neutral portion of the item's alignment."
 		],
 		"parent_topics": [
 			"items",
@@ -567,6 +569,8 @@
 			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
 			"",
 			"Intelligent magic items possess all three mental ability scores: Intelligence, Wisdom, and Charisma. Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. Table 15-22 shows the cost to increase one of the item's ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a 15 Intelligence, 12 Wisdom, and 10 Charisma would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).",
+			"",
+			"### Table 15-22",
 			"",
 			"| Score Base | Price Modifier | Ego Modifier |",
 			"| --- | --- | --- |",
@@ -648,6 +652,8 @@
 			"",
 			"***Read Magic (Sp):*** An intelligent magic item with this ability can read magical writings and scrolls as if through read magic. This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.",
 			"",
+			"### Table 15-23",
+			"",
 			"| Ability Base | Price Modifier | Ego Modifier |",
 			"| --- | --- | --- |",
 			"| Empathy | - | - |",
@@ -696,11 +702,11 @@
 			"| 11-20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |",
 			"| 21-25 | Item can use magic aura on itself at will | +2,000 gp | +1 |",
 			"| 26-35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |",
-			"| 36-45 | Item has 5 ranks in one skill&ast; | +2,500 gp | +1 |",
+			"| 36-45 | Item has 5 ranks in one skill[^1] | +2,500 gp | +1 |",
 			"| 46-50 | Item can sprout limbs and move with a speed of 10 feet | +5,000 gp | +1 |",
 			"| 51-55 | Item can cast a 3rd-level spell 1/day | +6,000 gp | +1 |",
 			"| 56-60 | Item can cast a 2nd-level spell 3/day | +7,200 gp | +1 |",
-			"| 61-70 | Item has 10 ranks in one skill&ast; | +10,000 gp | +2 |",
+			"| 61-70 | Item has 10 ranks in one skill[^1] | +10,000 gp | +2 |",
 			"| 71-75 | Item can change shape into one other form of the same size | +10,000 gp | +2 |",
 			"| 76-80 | Item can fly, as per the spell, at a speed of 30 feet | +10,000 gp | +2 |",
 			"| 81-85 | Item can cast a 4th-level spell 1/day | +11,200 gp | +2 |",
@@ -708,7 +714,7 @@
 			"| 91-95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |",
 			"| 96-100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |",
 			"",
-			"&ast; Intelligent items can only possess Intelligence-, Wisdom-, or Charisma-based skills, unless they also possess some form of ability to move."
+			"[^1]: Intelligent items can only possess Intelligence-, Wisdom-, or Charisma-based skills, unless they also possess some form of ability to move."
 		],
 		"parent_topics": [
 			"items",
@@ -735,7 +741,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
 			"",
-			"Some intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of \"defeat/slay arcane spellcasters\" doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards' cabal to ruin, as well as end the rule of a sorcererqueen in a nearby land. Likewise, a purpose of \"defend elves\" doesn't mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of \"defeat/slay all\" isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.",
+			"Some intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of \"defeat/slay arcane spellcasters\" doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards' cabal to ruin, as well as end the rule of a sorcerer-queen in a nearby land. Likewise, a purpose of \"defend elves\" doesn't mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of \"defeat/slay all\" isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.",
 			"",
 			"Table 15-25 has a number of sample purposes that a magic item might possess. If the wielder specifically ignores or goes against an intelligent item's special purpose, the item gains a +4 bonus to its Ego until the wielder cooperates. This is in addition to the +2 Ego bonus gained by items with a special purpose.",
 			"",
@@ -743,7 +749,7 @@
 			"",
 			"| d% | Purpose | Ego Modifier |",
 			"| --- | --- | --- |",
-			"| 01-20 | Defeat/slay diametrically opposed alignment&ast; | +2 |",
+			"| 01-20 | Defeat/slay diametrically opposed alignment[^1] | +2 |",
 			"| 21-30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |",
 			"| 31-40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |",
 			"| 41-50 | Defeat/slay non-spellcasters | +2 |",
@@ -755,7 +761,7 @@
 			"| 91-95 | Defeat/slay all (other than the item and the wielder) | +2 |",
 			"| 96-100 | Choose one | +2 |",
 			"",
-			"&ast; The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE)."
+			"[^1]: The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE)."
 		],
 		"parent_topics": [
 			"items",
@@ -782,7 +788,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
 			"",
-			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see Items Against Characters). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
+			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see [Items Against Characters](rule/items_against_characters)). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
 			"",
 			"### Table 15-26",
 			"",
@@ -1360,7 +1366,7 @@
 			"",
 			"***Delayed Casters:*** (Caster level is equal to class level -3) Antipaladin, Bloodrager, Medium, Paladin, Ranger",
 			"",
-			"Prices assume that the ption was made at the minimum caster level. The cost to create a potion is half the base price."
+			"Prices assume that the potion was made at the minimum caster level. The cost to create a potion is half the base price."
 		],
 		"parent_topics": [
 			"items",
@@ -1758,8 +1764,7 @@
 			"vehicles"
 		],
 		"subtopics": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -1778,7 +1783,7 @@
 			"air_vehicles"
 		]
 	},
-	"drivers": {
+	"drivers_and_occupants": {
 		"name": "Drivers and Occupants",
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
@@ -1797,35 +1802,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
-			"propulsion_and_driving_checks",
-			"vehicle_size_and_space",
-			"vehicle_facing_and_movement",
-			"driving_vehicles",
-			"optional_rule_wide_turns",
-			"vehicles_in_combat",
-			"propulsion_devices",
-			"driving_devices"
-		]
-	},
-	"occupants": {
-		"name": "Occupants",
-		"subtitle": "Vehicles",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 171](source/ultimate_combat)",
-			"",
-			"Drivers, riders, any crew, and creatures that serve as propulsion for a vehicle are all considered occupants. All occupants except for crew members and creatures used for propulsion can take actions and threaten areas as regular creatures. Crew members can take no actions nor threaten areas-their actions and concentration are all consumed by the act of providing propulsion or upkeep for the vehicle."
-		],
-		"parent_topics": [
-			"items",
-			"vehicles",
-			"full_vehicle_rules"
-		],
-		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -1867,17 +1844,17 @@
 			"",
 			"***Muscle:*** From a chariot to a slave ship filled with captive rowers, moving a vehicle powered by muscle is all about getting a creature or creatures to push, pull, or otherwise propel the vehicle. Based on the type and intelligence of the creatures moving the vehicle, checks for driving muscle-propelled vehicles can use a diverse number of skills, including, but not limited to, Diplomacy, Handle Animal, Intimidate, and Profession (driver).",
 			"",
-			"***Muscle-propelled vehicles come in two forms:*** pulled and pushed.",
+			"Muscle-propelled vehicles come in two forms: pulled and pushed.",
 			"",
-			"***Pulled:*** This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either Handle Animal or Profession (driver) is used for the driving check (driver's choice). Intelligent creatures must be convinced with a Diplomacy check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an Intimidate check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.",
-			"",
-			"A creature can pull a number of vehicle squares equal to the number of squares in the creature's space to a top speed equal to twice the creature's speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet.",
-			"",
-			"***Pushed:*** Pushed vehicles are the exact opposite of pulled vehicles-vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be Diplomacy, Intimidate, or Handle Animal, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.",
-			"",
-			"For intelligent creatures, use Diplomacy if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the Diplomacy driving check by 5 if the creatures providing the propulsion are friendly. Intimidate is used for intelligent creatures with an attitude of unfriendly or hostile. Handle Animal is used if the creatures providing the propulsion are not intelligent.",
-			"",
-			"A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.",
+			">***Pulled:*** This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either Handle Animal or Profession (driver) is used for the driving check (driver's choice). Intelligent creatures must be convinced with a Diplomacy check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an Intimidate check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.",
+			">",
+			">A creature can pull a number of vehicle squares equal to the number of squares in the creature's space to a top speed equal to twice the creature's speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet.",
+			">",
+			">***Pushed:*** Pushed vehicles are the exact opposite of pulled vehicles-vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be Diplomacy, Intimidate, or Handle Animal, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.",
+			">",
+			">For intelligent creatures, use Diplomacy if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the Diplomacy driving check by 5 if the creatures providing the propulsion are friendly. Intimidate is used for intelligent creatures with an attitude of unfriendly or hostile. Handle Animal is used if the creatures providing the propulsion are not intelligent.",
+			">",
+			">A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.",
 			"",
 			"The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing-see the sample vehicle statistics for examples.",
 			"",
@@ -1889,8 +1866,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -1928,8 +1904,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -1960,8 +1935,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -2008,8 +1982,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -2041,8 +2014,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -2067,8 +2039,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -2438,8 +2409,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -2474,8 +2444,7 @@
 			"full_vehicle_rules"
 		],
 		"siblings": [
-			"drivers",
-			"occupants",
+			"drivers_and_occupants",
 			"propulsion_and_driving_checks",
 			"vehicle_size_and_space",
 			"vehicle_facing_and_movement",
@@ -3534,10 +3503,10 @@
 			"",
 			"| Speed | 15 feet | 20 feet | 30 feet | 40 feet |",
 			"| --- | --- | --- | --- | --- |",
-			"| One Round (Tactical)&ast; Walk | 15 ft. | 20 ft. | 30 ft. | 40 ft. |",
-			"| One Round (Tactical)&ast; Hustle | 30 ft. | 40 ft. | 60 ft. | 80 ft. |",
-			"| One Round (Tactical)&ast; Run (&times;3) | 45 ft. | 60 ft. | 90 ft. | 120 ft. |",
-			"| One Round (Tactical)&ast; Run (&times;4) | 60 ft. | 80 ft. | 120 ft. | 160 ft. |",
+			"| One Round (Tactical)[^1] Walk | 15 ft. | 20 ft. | 30 ft. | 40 ft. |",
+			"| One Round (Tactical)[^1] Hustle | 30 ft. | 40 ft. | 60 ft. | 80 ft. |",
+			"| One Round (Tactical)[^1] Run (&times;3) | 45 ft. | 60 ft. | 90 ft. | 120 ft. |",
+			"| One Round (Tactical)[^1] Run (&times;4) | 60 ft. | 80 ft. | 120 ft. | 160 ft. |",
 			"| One Minute (Local) Walk | 150 ft. | 200 ft. | 300 ft. | 400 ft. |",
 			"| One Minute (Local) Hustle | 300 ft. | 400 ft. | 600 ft. | 800 ft. |",
 			"| One Minute (Local) Run (&times;3) | 450 ft. | 600 ft. | 900 ft. | 1,200 ft. |",
@@ -3549,7 +3518,7 @@
 			"| One Day (Overland) Hustle | - | - | - | - |",
 			"| One Day (Overland) Run | - | - | - | - |",
 			"",
-			"&ast; Tactical Movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet."
+			"[^1]: Tactical Movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet."
 		],
 		"parent_topics": [ "exploration" ],
 		"subtopics": [
@@ -3584,11 +3553,11 @@
 			"| Condition | Additional Movement Cost |",
 			"| --- | --- |",
 			"| Difficult Terrain | &times;2 |",
-			"| Obstacle&ast; | &times;2 |",
+			"| Obstacle[^1] | &times;2 |",
 			"| Poor Visibility | &times;2 |",
 			"| Impassable | - |",
 			"",
-			"&ast; May require a skill check"
+			"[^1]: May require a skill check"
 		],
 		"parent_topics": [
 			"exploration",
@@ -3611,7 +3580,7 @@
 			"",
 			"***Walk:*** A character can walk without a problem on the local scale.",
 			"",
-			"***Hustle:*** A character can hustle without a problem on the local scale. See Overland Movement, below, for movement measured in miles per hour.",
+			"***Hustle:*** A character can hustle without a problem on the local scale. See Overland Movement (next topic) for movement measured in miles per hour.",
 			"",
 			"***Run:*** A character can run for a number of rounds equal to his Constitution score on the local scale without needing to rest. See [here](rule/run) for rules covering extended periods of running."
 		],
@@ -3713,7 +3682,9 @@
 			"",
 			"When the speeds of the two concerned characters are equal, there's a simple way to resolve a chase: If one creature is pursuing another, both are moving at the same speed, and the chase continues for at least a few rounds, have them make opposed Dexterity checks to see who is the faster over those rounds. If the creature being chased wins, it escapes. If the pursuer wins, it catches the fleeing creature.",
 			"",
-			"Sometimes a chase occurs overland and could last all day, with the two sides only occasionally getting glimpses of each other at a distance. In the case of a long chase, an opposed Constitution check made by all parties determines which can keep pace the longest. If the creature being chased rolls the highest, it gets away. If not, the chaser runs down its prey, outlasting it with stamina."
+			"Sometimes a chase occurs overland and could last all day, with the two sides only occasionally getting glimpses of each other at a distance. In the case of a long chase, an opposed Constitution check made by all parties determines which can keep pace the longest. If the creature being chased rolls the highest, it gets away. If not, the chaser runs down its prey, outlasting it with stamina.",
+			"",
+			"*Also see: [Chases (Gamemastery)](rule/chases)*"
 		],
 		"parent_topics": [
 			"exploration",
@@ -3734,11 +3705,11 @@
 			"",
 			"Dwarves and half-orcs have darkvision, but other races need light to see by. See Table 7-10 for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).",
 			"",
-			"In an area of bright light, all characters can see clearly. Some creatures, such as those with light sensitivity and light blindness, take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
+			"In an area of ***bright light*** all characters can see clearly. Some creatures, such as those with [light sensitivity](umr/light_sensitivity) and [light blindness](umr/light_blindness), take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
 			"",
-			"Normal light functions just like bright light, but characters with light sensitivity and light blindness do not take penalties. Areas of normal light include underneath a forest canopy during the day, within 20 feet of a torch, and inside the area of a light spell.",
+			"***Normal light*** functions just like bright light, but characters with light sensitivity and light blindness do not take penalties. Areas of normal light include underneath a forest canopy during the day, within 20 feet of a torch, and inside the area of a light spell.",
 			"",
-			"In an area of dim light, a character can see somewhat. Creatures within this area have concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness. A creature within an area of dim light can make a Stealth check to conceal itself. Areas of dim light include outside at night with a moon in the sky, bright starlight, and the area between 20 and 40 feet from a torch.",
+			"In an area of ***dim light*** a character can see somewhat. Creatures within this area have concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness. A creature within an area of dim light can make a Stealth check to conceal itself. Areas of dim light include outside at night with a moon in the sky, bright starlight, and the area between 20 and 40 feet from a torch.",
 			"",
 			"In areas of darkness, creatures without darkvision are effectively blinded. In addition to the obvious effects, a blinded creature has a 50% miss chance in combat (all opponents have total concealment), loses any Dexterity bonus to AC, takes a -2 penalty to AC, and takes a -4 penalty on Perception checks that rely on sight and most Strength- and Dexterity-based skill checks. Areas of darkness include an unlit dungeon chamber, most caverns, and outside on a cloudy, moonless night.",
 			"",
@@ -3853,7 +3824,7 @@
 			"",
 			"### Table 7-12: Common Armor, Weapon, and Shield Hardness and Hit Points",
 			"",
-			"| Weapon or Shield | Hardness[^1] | Hit Points[^2][^3] |",
+			"| Weapon or Shield | Hardness[^1] | Hit Points[^2] |",
 			"| --- | --- | --- |",
 			"| Light blade | 10 | 2 |",
 			"| One-handed blade | 10 | 5 |",
@@ -3864,7 +3835,7 @@
 			"| One-handed hafted weapon | 5 | 5 |",
 			"| Two-handed hafted weapon | 5 | 10 |",
 			"| Projectile weapon | 5 | 5 |",
-			"| Armor | Special[^4] | armor bonus &times; 5 |",
+			"| Armor | Special[^3] | armor bonus &times; 5 |",
 			"| Buckler | 10 | 5 |",
 			"| Light wooden shield | 5 | 7 |",
 			"| Heavy wooden shield | 5 | 15 |",
@@ -3905,9 +3876,8 @@
 			"| Iron door (2 in. thick) | 10 | 60 | 28 |",
 			"",
 			"[^1]: Add +2 for each +1 enhancement bonus of magic items.",
-			"[^2]: The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.",
-			"[^3]: Add 10 hp for each +1 enhancement bonus of magic items.",
-			"[^4]: Varies by material; see Table 7-13: Substance Hardness and Hit Points."
+			"[^2]: The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium. Add 10 hp for each +1 enhancement bonus of magic items.",
+			"[^3]: Varies by material; see Table 7-13: Substance Hardness and Hit Points."
 		],
 		"parent_topics": [
 			"exploration",
@@ -3952,7 +3922,7 @@
 			"| Hold portal | +5 |",
 			"| Arcane lock | +10 |",
 			"",
-			"&ast;If both apply, use the larger number."
+			"&ast; If both apply, use the larger number."
 		],
 		"parent_topics": [
 			"exploration",
@@ -5703,7 +5673,7 @@
 			"",
 			"### Table 8-4: Creature Size and Scale",
 			"",
-			"| Creature Size | Space&ast; | Natural Reach&ast; |",
+			"| Creature Size | Space[^1] | Natural Reach[^1] |",
 			"| --- | --- | --- |",
 			"| Fine | 1/2 ft. | 0 |",
 			"| Diminutive | 1 ft. | 0 |",
@@ -5719,7 +5689,7 @@
 			"| Colossal (tall) | 30 ft. | 30 ft. |",
 			"| Colossal (long) | 30 ft. | 20 ft. |",
 			"",
-			"&ast; These values are typical for creatures of the indicated size. Some exceptions exist."
+			"[^1]: These values are typical for creatures of the indicated size. Some exceptions exist."
 		],
 		"parent_topics": [ "combat" ],
 		"siblings": [
@@ -7768,10 +7738,10 @@
 			"| DR Type | Weapon Enhancement Bonus Equivalent |",
 			"| --- | --- |",
 			"| Cold Iron/Silver | +3 |",
-			"| Adamantine&ast; | +4 |",
+			"| Adamantine[^1] | +4 |",
 			"| Alignment-based | +5 |",
 			"",
-			"&ast; Note that this does not give the ability to ignore hardness, like an actual adamantine weapon does"
+			"[^1]: Note that this does not give the ability to ignore hardness, like an actual adamantine weapon does"
 		],
 		"parent_topics": [
 			"combat",

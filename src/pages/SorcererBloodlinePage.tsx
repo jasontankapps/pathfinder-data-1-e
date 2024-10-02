@@ -28,7 +28,7 @@ const SorcererBloodlinePage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"sorcerer-bloodline/" + id}
+		pageId={"sorcerer-bloodline--" + id}
 	/>;
 };
 

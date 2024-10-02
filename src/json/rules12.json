@@ -7,7 +7,10 @@
 			"",
 			"When skills come into conflict with each other, it can lead to extremely complex interactions, often well beyond the scope of the short skill descriptions in the Pathfinder RPG Core Rulebook. The following section offers detailed advice on the most common skill clashes that involve difficult adjudications, as well as clarifications of skills where the Core Rulebook provides little guidance. The advice in this section is holistic, and GMs are encouraged to read each description in full to gain the best grasp of the nuances of each skill. Additionally, this section offers an optional variant system for opposed skill checks that reduces randomness and the potential for many rolls."
 		],
-		"parent_topics": [ "skills" ],
+		"parent_topics": [
+			"gamemastering",
+			"mastering_intrigue"
+		],
 		"subtopics": [
 			"bluff",
 			"diplomacy",
@@ -18,8 +21,16 @@
 			"replacing_opposed_rolls"
 		],
 		"siblings": [
-			"acquiring_skills",
-			"skill_descriptions",
+			"intrigue_systems",
+			"influence",
+			"heists",
+			"leadership",
+			"nemeses",
+			"pursuit",
+			"research",
+			"spells_of_intrigue",
+			"social_conflicts",
+			"verbal_duels",
 			"skills_in_conflict"
 		]
 	},
@@ -33,7 +44,8 @@
 			"The Bluff skill is an extremely versatile, though sometimes misunderstood, social skill. Unlike Diplomacy and Intimidate, which can directly push their target toward a course of action, Bluff feeds the target misinformation. A skilled user of the Bluff skill needs to understand how the target's mind works, in order to deliver just the right misinformation to achieve the desired results. The disadvantage is that such manipulation is less predictable and more difficult to pull off, but the advantage is that the target is not aware that he is being manipulated, whereas even the most successful Diplomacy or Intimidate attempt leaves the target realizing who has convinced him to take action. This section includes clarifications and details on several different ways to use Bluff-and on several things that don't work."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"subtopics": [
@@ -84,7 +96,8 @@
 			"***Lies upon Lies:*** The aftermath of a Bluff becomes even more complicated if someone else attempts to make a contradictory lie, either in the same scene as the original prevarication or afterwards. If the bluffing characters are present together, it might be a good time to have them enter a verbal duel, with the target as the audience. However, this isn't possible when the second Bluff attempt happens after the first deceiving character is gone but before the target discovers the ruse. In this case, the second bluffing character has an advantage. She might be able to show proof that the first character was lying in order to build up the credibility of her own lie. If the second bluffing character beats the target's Sense Motive, but does not debunk the original lie or beat the first bluffing character's original Bluff check, then the target will likely be confused and unlikely to act on either piece of information. Or, the target might conclude that the second bluffer believes what she said but is misinformed."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict",
 			"bluff"
 		],
@@ -111,7 +124,8 @@
 			"***Maintaining a Disguise:*** When maintaining a disguise, the Bluff skill isn't necessary to correctly portray things such as mannerisms or facial expressions, but it will almost certainly come up when the disguised character makes statements in his assumed persona as he talks about events he didn't actually experience. Of course, a well-prepared character has thoroughly researched his disguise, so he is unlikely to take any penalties to his Bluff attempts."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict",
 			"bluff"
 		],
@@ -151,7 +165,8 @@
 			"In this case, and in other instances of requests made to unfriendly or hostile characters, the GM should consider only allowing such requests that are couched in such a way that they seem to be in the target's best interests. An unfriendly or hostile character certainly isn't going to be doing the would-be diplomat any favors, but that doesn't mean they will ignore an idea that is better for them than facing the consequences of the combat. Even if adversaries agree to a brief cease-fire to listen to the diplomat's terms, they won't let their guard down. Generally, they will also require the side calling for the cease-fire to make a show of their intentions by laying down or sheathing their weapons, dropping spell component pouches, or the like, while attempting Sense Motive checks to determine if the cease-fire is a ruse. Creatures that feel themselves to be at an advantage in the combat by virtue of a short-duration spell or other effect that would expire during a cease-fire almost never agree to a cease-fire, as it isn't in their best interest to do so."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [
@@ -184,7 +199,8 @@
 			"***Simulacrum and Disguise:*** The caster of the simulacrum spell uses the Disguise skill to shape the form created. However, it is important to note that the Sense Motive check to detect a simulacrum is very easy at the level that simulacrum becomes available, so unless the simulacrum has a high Bluff modifier, it is still challenging to use a simulacrum as an impostor for long."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [
@@ -213,7 +229,8 @@
 			"***Explaining Negative Consequences:*** Sometimes a character wants to calmly explain negative consequences to someone in a way that merely relies on logic, not fear. This is particularly important when attempting to convince someone immune to fear, such as a paladin or vampire, to back down in the face of negative consequences. This is different than improving a creature's attitude or making a request (particularly since a character might try it with an unfriendly creature), so it doesn't fall under Diplomacy. One good way to handle this is to use the rules for [influence](rule/influence) or verbal duels instead, since those both allow for logic and knowledge to help impact the situation. If only a skill check is possible, consider allowing an Intimidate check that doesn't apply any modifiers tied to frightening the target (such as the [Intimidating Prowess](feat/intimidating_prowess) feat, size modifiers, an [inquisitor's stern gaze](class/inquisitor), and so on) and then having the result not be a fear effect."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [
@@ -252,7 +269,8 @@
 			"***Observing:*** The final state is when the perceiving character is able to directly observe the sneaking character with a precise sense, such as vision. This is generally the result when the perceiving character rolls higher on its opposed Perception check than the sneaking character's Stealth result while also having line of sight to the sneaking character and the ability to see through any sort of invisibility or other tricks the sneaking character might be using."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [
@@ -283,7 +301,8 @@
 			"***Sense Motive Is Not Mind Reading:*** Though Sense Motive can help ferret out lies and gain hunches about odd situations, it doesn't let a character read opponents' minds and know exactly what they're thinking or planning. It is a verification tool that works well in conjunction with other skills, rather than a skill that allows a character to ascertain information."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [
@@ -315,7 +334,8 @@
 			"***The Odds:*** This variant increases the odds of success dramatically for highly skilled characters. For instance, if the hunter in the example above has a modifier on Stealth checks at least 9 higher than the orcs' Perception modifiers, in the default system, she would have a 50% chance of succeeding. But with this variant, her chance increases to 85%. When the character has less of an advantage against her adversaries, this variant still increases the rate of success dramatically with many adversaries, and it decreases the rate slightly with a few determined adversaries. For instance, with the default system, if the hunter's Stealth matched the orcs' Perception, she would have essentially a 0% chance of sneaking past the 50 orcs. With this variant, her chance is 1 in 8. However, if the other 48 orcs weren't present, her chance of sneaking past just the two sentries in the default system is roughly 1 in 4, whereas with this variant, it is 1 in 8, since only the determined adversaries make their own rolls and thus affect her odds."
 		],
 		"parent_topics": [
-			"skills",
+			"gamemastering",
+			"mastering_intrigue",
 			"skills_in_conflict"
 		],
 		"siblings": [

@@ -24,8 +24,7 @@
 		"name": "Skills",
 		"subtopics": [
 			"acquiring_skills",
-			"skill_descriptions",
-			"skills_in_conflict"
+			"skill_descriptions"
 		],
 		"description": [
 			"These topics cover how skills work in the Pathfinder game."
@@ -3017,7 +3016,6 @@
 		"parent_topics": [ "basics" ],
 		"subtopics": [
 			"generating_ability_scores",
-			"abilities_and_spellcasters",
 			"the_abilities",
 			"carrying_capacity"
 		],
@@ -3086,7 +3084,6 @@
 		"subtopics": [ "determine_bonuses" ],
 		"siblings": [
 			"generating_ability_scores",
-			"abilities_and_spellcasters",
 			"the_abilities",
 			"carrying_capacity"
 		]
@@ -3138,32 +3135,17 @@
 		],
 		"siblings": [ "determine_bonuses" ]
 	},
-	"abilities_and_spellcasters": {
-		"name": "Abilities and Spellcasters",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 16](source/prpg_core_rulebook)",
-			"",
-			"The ability that governs [bonus spells](rule/determine_bonuses) depends on what type of spellcaster your character is: Intelligence for alchemists, arcanists, investigators, magi, occultists, psychics, witches, and wizards; Wisdom for clerics, druids, hunters, inquisitors, oracles, rangers, shamans, spiritualists, and warpriests; and Charisma for bards, bloodragers, mediums, mesmerists, paladins, skalds, sorcerers, and summoners. In addition to having a high ability score, a spellcaster must be of a high enough class level to be able to cast spells or use spell slots of a given spell level."
-		],
-		"parent_topics": [
-			"basics",
-			"ability_scores"
-		],
-		"siblings": [
-			"generating_ability_scores",
-			"abilities_and_spellcasters",
-			"the_abilities",
-			"carrying_capacity"
-		]
-	},
 	"the_abilities": {
 		"name": "The Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 16](source/prpg_core_rulebook)",
 			"",
-			"Each ability partially describes your character and affects some of his actions."
+			"Each ability partially describes your character and affects some of his actions.",
+			"",
+			"### Abilities and Spellcasting",
+			"",
+			"The ability that governs [bonus spells](rule/determine_bonuses) depends on what type of spellcaster your character is: **Intelligence** for alchemists, arcanists, investigators, magi, occultists, psychics, witches, and wizards; **Wisdom** for clerics, druids, hunters, inquisitors, oracles, rangers, shamans, spiritualists, and warpriests; and **Charisma** for bards, bloodragers, mediums, mesmerists, paladins, skalds, sorcerers, and summoners. In addition to having a high ability score, a spellcaster must be of a high enough class level to be able to cast spells or use spell slots of a given spell level."
 		],
 		"parent_topics": [
 			"basics",
@@ -3179,7 +3161,6 @@
 		],
 		"siblings": [
 			"generating_ability_scores",
-			"abilities_and_spellcasters",
 			"the_abilities",
 			"carrying_capacity"
 		]
@@ -3361,7 +3342,7 @@
 		]
 	},
 	"carrying_capacity": {
-		"name": "Carrying Capacity",
+		"name": "Carrying Capacity and Encumbrance",
 		"subtitle": "Strength",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -3386,8 +3367,6 @@
 			"***Bigger and Smaller Creatures:*** The figures on Table 7-4 are for Medium bipedal creatures. A larger bipedal creature can carry more weight depending on its size category, as follows: Large &times;2, Huge &times;4, Gargantuan &times;8, Colossal &times;16. A smaller creature can carry less weight depending on its size category, as follows: Small &times;3/4, Tiny &times;1/2, Diminutive &times;1/4, Fine &times;1/8.",
 			"",
 			"Quadrupeds can carry heavier loads than bipeds can. Multiply the values corresponding to the creature's Strength score from Table 7-4 by the appropriate modifier, as follows: Fine &times;1/4, Diminutive &times;1/2, Tiny &times;3/4, Small &times;1, Medium &times;1-1/2, Large &times;3, Huge &times;6, Gargantuan &times;12, Colossal &times;24.",
-			"",
-			"***Tremendous Strength:*** For Strength scores not shown on Table 7-4, find the Strength score between 20 and 29 that has the same number in the \"ones\" digit as the creature's Strength score does and multiply the numbers in that row by 4 for every 10 points the creature's Strength is above the score for that row.",
 			"",
 			"### Table 7-4: Carrying Capacity",
 			"",
@@ -3423,6 +3402,8 @@
 			"| 28 | 400 lbs. or less | 401-800 lbs. | 801-1,200 lbs. |",
 			"| 29 | 466 lbs. or less | 467-933 lbs. | 934-1,400 lbs. |",
 			"| +10 | &times;4 | &times;4 | &times;4 |",
+			"",
+			"***Tremendous Strength:*** For Strength scores not shown on Table 7-4, find the Strength score between 20 and 29 that has the same number in the \"ones\" digit as the creature's Strength score does and multiply the numbers in that row by 4 for every 10 points the creature's Strength is above the score for that row.",
 			"",
 			"### Table 7-5: Encumbrance Effects",
 			"",
@@ -3460,7 +3441,6 @@
 		],
 		"siblings": [
 			"generating_ability_scores",
-			"abilities_and_spellcasters",
 			"the_abilities",
 			"carrying_capacity"
 		]
@@ -3574,7 +3554,7 @@
 			"",
 			"**Source** [Advanced Player's Guide pg. 8](source/advanced_player's_guide)",
 			"",
-			"The final section for each racial discussion describes alternative benefits for members of that race taking certain classes as a favored class. The normal benefit of having a favored class is simple and effective: your character gains one extra hit point or one extra skill rank each time she gains a level in that class (or in either of two classes, if she is a half-elf). The alternate favored class abilities listed here may not have as broad an appeal as the standard choices. They are designed to reflect flavorful options that might be less useful in general but prove handy in the right situations or for a character with the right focus. Most of them play off racial archetypes, like a half-orc's toughness and proclivity for breaking things or elven grace and finesse.",
+			"The final section for each racial description describes alternative benefits for members of that race taking certain classes as a favored class. The normal benefit of having a favored class is simple and effective: your character gains one extra hit point or one extra skill rank each time she gains a level in that class (or in either of two classes, if she is a half-elf). The alternate favored class abilities listed here may not have as broad an appeal as the standard choices. They are designed to reflect flavorful options that might be less useful in general but prove handy in the right situations or for a character with the right focus. Most of them play off racial archetypes, like a half-orc's toughness and proclivity for breaking things or elven grace and finesse.",
 			"",
 			"In most cases, these benefits are gained on a level-by-level basis: your character gains the specified incremental benefit each time she gains a level. Unless otherwise noted, these benefits always stack with themselves. For example, a human with paladin as a favored class may choose to gain 1 point of energy resistance each time she gains a level; choosing this benefit twice increases this resistance bonus to 2, 10 times raises it to 10, and so on.",
 			"",
@@ -3783,45 +3763,10 @@
 			"",
 			"| Class | Skill Ranks per Level |",
 			"| --- | --- |",
-			"| Alchemist | 4 + Int modifier |",
-			"| Antipaladin | 2 + Int modifier |",
-			"| Arcanist | 2 + Int modifier |",
-			"| Barbarian[^U] | 4 + Int modifier |",
-			"| Bard | 6 + Int modifier |",
-			"| Bloodrager | 4 + Int modifier |",
-			"| Brawler | 2 + Int modifier |",
-			"| Cavalier | 4 + Int modifier |",
-			"| Cleric | 2 + Int modifier |",
-			"| Druid | 4 + Int modifier |",
-			"| Fighter | 2 + Int modifier |",
-			"| Gunslinger | 4 + Int modifier |",
-			"| Hunter | 6 + Int modifier |",
-			"| Inquisitor | 6 + Int modifier |",
-			"| Kineticist | 4 + Int modifier |",
-			"| Magus | 2 + Int modifier |",
-			"| Medium | 4 + Int modifier |",
-			"| Mesmerist | 6 + Int modifier |",
-			"| Monk[^U] | 4 + Int modifier |",
-			"| Ninja | 8 + Int modifier |",
-			"| Oracle | 4 + Int modifier |",
-			"| Occultist | 4 + Int modifier |",
-			"| Paladin | 2 + Int modifier |",
-			"| Psychic | 2 + Int modifier |",
-			"| Ranger | 6 + Int modifier |",
-			"| Rogue[^U] | 8 + Int modifier |",
-			"| Samurai | 4 + Int modifier |",
-			"| Shaman | 4 + Int modifier |",
-			"| Shifter | 4 + Int modifier |",
-			"| Skald | 4 + Int modifier |",
-			"| Slayer | 6 + Int modifier |",
-			"| Sorcerer | 2 + Int modifier |",
-			"| Spiritualist | 4 + Int modifier |",
-			"| Summoner[^U] | 2 + Int modifier |",
-			"| Swashbuckler | 4 + Int modifier |",
-			"| Vigilante | 6 + Int modifier |",
-			"| Warpriest | 2 + Int modifier |",
-			"| Witch | 2 + Int modifier |",
-			"| Wizard | 2 + Int modifier |",
+			"| Antipaladin, Arcanist, Brawler, Cleric, Fighter, Magus, Paladin, Psychic, Sorcerer, Summoner[^U], Warpriest, Witch, Wizard | 2 + Int modifier |",
+			"| Alchemist, Barbarian[^U], Bloodrager, Cavalier, Druid, Gunslinger, Kineticist, Medium, Monk[^U], Oracle, Occultist, Samurai, Shaman, Shifter, Skald, Spiritualist, Swashbuckler | 4 + Int modifier |",
+			"| Bard, Hunter, Inquisitor, Mesmerist, Ranger, Slayer, Vigilante | 6 + Int modifier |",
+			"| Ninja, Rogue[^U] | 8 + Int modifier |",
 			"",
 			"[^U]: The Unchained version of this class has the same skill points."
 		],
@@ -3833,8 +3778,7 @@
 		],
 		"siblings": [
 			"acquiring_skills",
-			"skill_descriptions",
-			"skills_in_conflict"
+			"skill_descriptions"
 		]
 	},
 	"skill_checks": {
@@ -4008,8 +3952,7 @@
 		"parent_topics": [ "skills" ],
 		"siblings": [
 			"acquiring_skills",
-			"skill_descriptions",
-			"skills_in_conflict"
+			"skill_descriptions"
 		]
 	},
 	"equipment": {
@@ -4047,53 +3990,12 @@
 			"",
 			"| Class | Starting Wealth | Average |",
 			"| --- | --- | --- |",
-			"| Barbarian | 3d6 &times; 10 gp | 105 gp |",
-			"| Bard | 3d6 &times; 10 gp | 105 gp |",
-			"| Cleric | 4d6 &times; 10 gp | 140 gp |",
-			"| Druid | 2d6 &times; 10 gp | 70 gp |",
-			"| Fighter | 5d6 &times; 10 gp | 175 gp |",
-			"| Monk | 3d6 &times; 10 gp | 35 gp |",
-			"| Paladin | 5d6 &times; 10 gp | 175 gp |",
-			"| Ranger | 5d6 &times; 10 gp | 175 gp |",
-			"| Rouge | 4d6 &times; 10 gp | 140 gp |",
-			"| Sorcerer | 2d6 &times; 10 gp | 70 gp |",
-			"| Wizard | 2d6 &times; 10 gp | 70 gp |",
+			"| Arcanist, Druid, Psychic, Sorcerer, Spiritualist, Summoner[^U], Wizard | 2d6 &times; 10 gp | 70 gp |",
+			"| Alchemist, Barbarian[^U], Bard, Bloodrager, Brawler, Investigator, Mesmerist, Monk[^U], Oracle, Shaman, Shifter, Skald, Witch | 3d6 &times; 10 gp | 105 gp |",
+			"| Cleric, Hunter, Inquisitor, Magus, Medium, Ninja, Occultist, Rouge[^U] | 4d6 &times; 10 gp | 140 gp |",
+			"| Antipaladin, Cavalier, Gunslinger, Fighter, Paladin, Ranger, Samurai, Slayer, Swashbuckler, Vigilante, Warpriest | 5d6 &times; 10 gp | 175 gp |",
 			"",
-			"### More Classes",
-			"",
-			"| Class | Starting Wealth | Average |",
-			"| --- | --- | --- |",
-			"| Alchemist | 3d6 &times; 10 gp | 105 gp |",
-			"| Antipaladin | 5d6 &times; 10 gp | 175 gp |",
-			"| Arcanist | 2d6 &times; 10 gp | 70 gp |",
-			"| Unchained Barbarian | 3d6 &times; 10 gp | 105 gp |",
-			"| Bloodrager | 3d6 &times; 10 gp | 105 gp |",
-			"| Brawler | 3d6 &times; 10 gp | 105 gp |",
-			"| Cavalier | 5d6 &times; 10 gp | 175 gp |",
-			"| Gunslinger | 5d6 &times; 10 gp | 175 gp |",
-			"| Hunter | 4d6 &times; 10 gp | 140 gp |",
-			"| Inquisitor | 4d6 &times; 10 gp | 140 gp |",
-			"| Investigator | 3d6 &times; 10 gp | 105 gp |",
-			"| Magus | 4d6 &times; 10 gp | 140 gp |",
-			"| Medium | 4d6 &times; 10 gp | 140 gp |",
-			"| Mesmerist | 3d6 &times; 10 gp | 105 gp |",
-			"| Ninja | 4d6 &times; 10 gp | 140 gp |",
-			"| Occultist | 4d6 &times; 10 gp | 140 gp |",
-			"| Oracle | 3d6 &times; 10 gp | 105 gp |",
-			"| Psychic | 2d6 &times; 10 gp | 70 gp |",
-			"| Unchained Rogue | 4d6 &times; 10 gp | 140 gp |",
-			"| Samurai | 5d6 &times; 10 gp | 175 gp |",
-			"| Shaman | 3d6 &times; 10 gp | 105 gp |",
-			"| Shifter | 3d6 &times; 10 gp | 105 gp |",
-			"| Skald | 3d6 &times; 10 gp | 105 gp |",
-			"| Slayer | 5d6 &times; 10 gp | 175 gp |",
-			"| Spiritualist | 2d6 &times; 10 gp | 70 gp |",
-			"| Summoner | 2d6 &times; 10 gp | 70 gp |",
-			"| Unchained Summoner | 2d6 &times; 10 gp | 70 gp |",
-			"| Swashbuckler | 5d6 &times; 10 gp | 175 gp |",
-			"| Vigilante | 5d6 &times; 10 gp | 175 gp |",
-			"| Warpriest | 5d6 &times; 10 gp | 175 gp |",
-			"| Witch | 3d6 &times; 10 gp | 105 gp |"
+			"[^U]: The Unchained version of this class has the same starting gold."
 		],
 		"parent_topics": [
 			"items",
@@ -5109,6 +5011,8 @@
 			"| 90-91 | 61-63 | 61-63 | Specific shield (below) | - |",
 			"| 92-100 | 64-100 | 64-100 | Special ability (below) and roll again | - |",
 			"",
+			"*Also see: [Random Armor and Shields (Gamemastery)](rule/random_armor_and_shields)*",
+			"",
 			"### Table 15-6: Specific Armors",
 			"",
 			"| Minor | Medium | Major | Specific Armor | Market Price |",
@@ -5267,6 +5171,8 @@
 			"| 86-90 | 63-68 | 50-63 | Specifc weapon (below) | - |",
 			"| 92-100 | 69-100 | 64-100 | Special ability (below) and roll again | - |",
 			"",
+			"*Also see: [Random Weapons (Gamemastery)](rule/random_weapons)*",
+			"",
 			"### Table 15-9: Melee Weapon Special Abilities",
 			"",
 			"| Minor | Medium | Major | Special Ability | Base Price Modifier[^1] |",
@@ -5383,6 +5289,8 @@
 			"| 21-60 | 01-20 | - | 1st | 1st |",
 			"| 61-100 | 21-60 | 01-20 | 2nd | 3rd |",
 			"| - | 61-100 | 21-100 | 3rd | 5th |",
+			"",
+			"*Also see: [Random Potions and Oils (Gamemastery)](rule/random_potions_and_oils)*",
 			"",
 			"### Potion Costs",
 			"",
@@ -5604,7 +5512,10 @@
 			"",
 			"To have any chance of activating a scroll spell, the scroll user must meet the following requirements.",
 			"",
-			"- The spell must be of the correct type (arcane or divine). Arcane spellcasters (wizards, sorcerers, and bards) can only use scrolls containing arcane spells, and divine spellcasters (clerics, druids, paladins, and rangers) can only use scrolls containing divine spells. (The type of scroll a character creates is also determined by his class.)",
+			"- The spell must be of the correct type (arcane, divine, or psychic).",
+			"    - Arcane spellcasters (alchemists, arcanists, bards, bloodragers, investigators, magi, skalds, sorcerers, summoner, witches, wizards) can only create and use scrolls containing arcane spells.",
+			"    - Divine spellcasters (antipaladins, clerics, druids, hunters, inquisitors, oracles, paladins, rangers, shamans, warpriests) can only create and use scrolls containing divine spells.",
+			"    - Psychic spellcasters (mediums, mesmerists, occultists, psychics, spiritualists) can only create and use scrolls containing psychic spells.",
 			"- The user must have the spell on her class list.",
 			"- The user must have the requisite ability score.",
 			"",
@@ -5638,6 +5549,8 @@
 			"| - | - | 71-85 | 7 | 13th |",
 			"| - | - | 86-95 | 8 | 15th |",
 			"| - | - | 96-100 | 9 | 17th |",
+			"",
+			"*Also see: [Random Scrolls (Gamemastery)](rule/random_scrolls)*",
 			"",
 			"### Scroll Costs",
 			"",
@@ -5705,29 +5618,42 @@
 			"",
 			"### Table 15-16: Staves",
 			"",
-			"| Medium | Major | Staff | Market Price |",
-			"| --- | --- | --- | --- |",
-			"| 01-15 | 01-03 | Charming | 17,600 gp |",
-			"| 16-30 | 04-09 | Fire | 18,950 gp |",
-			"| 31-40 | 10-11 | Swarming insects | 22,800 gp |",
-			"| 41-55 | 12-13 | Size alteration | 26,150 gp |",
-			"| 56-75 | 14-19 | Healing | 29,600 gp |",
-			"| 76-90 | 20-24 | Frost | 41,400 gp |",
-			"| 91-95 | 25-31 | Illumination | 51,500 gp |",
-			"| 96-100 | 32-38 | Defense | 62,000 gp |",
-			"| &mdash; | 39-45 | Abjuration | 82,000 gp |",
-			"| &mdash; | 46-50 | Conjuration | 82,000 gp |",
-			"| &mdash; | 51-55 | Divination | 82,000 gp |",
-			"| &mdash; | 56-60 | Enchantment | 82,000 gp |",
-			"| &mdash; | 61-65 | Evocation | 82,000 gp |",
-			"| &mdash; | 66-70 | Illusion | 82,000 gp |",
-			"| &mdash; | 71-75 | Necromancy | 82,000 gp |",
-			"| &mdash; | 76-80 | Transmutation | 82,000 gp |",
-			"| &mdash; | 81-85 | Earth and stone | 85,800 gp |",
-			"| &mdash; | 86-90 | Woodlands | 100,400 gp |",
-			"| &mdash; | 91-95 | Life | 109,400 gp |",
-			"| &mdash; | 96-98 | Passage | 206,900 gp |",
-			"| &mdash; | 99-100 | Power | 235,000 gp |"
+			"{table0}"
+		],
+		"tables": [
+			{
+				"id": "random staves pfrpg table",
+				"headers": [ "Medium", "Major", "Staff", "Market Price" ],
+				"types": [ 0, 0, 0, "gp" ],
+				"data": [
+					[ "01-15", "01-03", [ "magic-staff/staff_of_charming", "Charming" ], 17600 ],
+					[ "16-30", "04-09", [ "magic-staff/staff_of_fire", "Fire" ], 18950 ],
+					[ "31-40", "10-11", [ "magic-staff/staff_of_swarming_insects", "Swarming insects" ], 22800 ],
+					[ "41-55", "12-13", [ "magic-staff/staff_of_size_alteration", "Size alteration" ], 26150 ],
+					[ "56-75", "14-19", [ "magic-staff/staff_of_healing", "Healing" ], 29600 ],
+					[ "76-90", "20-24", [ "magic-staff/staff_of_frost", "Frost" ], 41400 ],
+					[ "91-95", "25-31", [ "magic-staff/staff_of_illumination", "Illumination" ], 51500 ],
+					[ "96-100", "32-38", [ "magic-staff/staff_of_defense", "Defense" ], 62000 ],
+					[ null, "39-45", [ "magic-staff/staff_of_abjuration", "Abjuration" ], 82000 ],
+					[ null, "46-50", [ "magic-staff/staff_of_conjuration", "Conjuration" ], 82000 ],
+					[ null, "51-55", [ "magic-staff/staff_of_divination", "Divination" ], 82000 ],
+					[ null, "56-60", [ "magic-staff/staff_of_enchantment", "Enchantment" ], 82000 ],
+					[ null, "61-65", [ "magic-staff/staff_of_evocation", "Evocation" ], 82000 ],
+					[ null, "66-70", [ "magic-staff/staff_of_illusion", "Illusion" ], 82000 ],
+					[ null, "71-75", [ "magic-staff/staff_of_necromancy", "Necromancy" ], 82000 ],
+					[ null, "76-80", [ "magic-staff/staff_of_transmutation", "Transmutation" ], 82000 ],
+					[ null, "81-85", [ "magic-staff/staff_of_earth_and_stone", "Earth and stone" ], 85800 ],
+					[ null, "86-90", [ "magic-staff/staff_of_the_woodlands", "Woodlands" ], 100400 ],
+					[ null, "91-95", [ "magic-staff/staff_of_life", "Life" ], 109400 ],
+					[ null, "96-98", [ "magic-staff/staff_of_passage", "Passage" ], 206900 ],
+					[ null, "99-100", [ "magic-staff/staff_of_power", "Power" ], 235000 ]		
+				],
+				"initialColumn": 0,
+				"className": "allcenter",
+				"ripples": [2],
+				"nullValue": "&mdash;",
+				"sortable": false
+			}
 		],
 		"parent_topics": [
 			"items",
@@ -5771,6 +5697,8 @@
 			"| 61-100 | 01-606 | - | 2nd | 3rd |",
 			"| - | 61-100 | 01-60 | 3rd | 5th |",
 			"| - | - | 61-100 | 4th | 7th |",
+			"",
+			"*Also see: [Random Wands (Gamemastery)](rule/random_wands)*",
 			"",
 			"### Wand Costs",
 			"",

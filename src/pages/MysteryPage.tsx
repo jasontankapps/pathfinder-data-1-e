@@ -28,7 +28,7 @@ const MysteryPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"mystery/" + id}
+		pageId={"mystery--" + id}
 	/>;
 };
 

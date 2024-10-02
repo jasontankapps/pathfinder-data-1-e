@@ -72,7 +72,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					<SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />
 				}
 				<div className="basicContent simple">
-					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} /> : children}
+					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} prefix={pageId} /> : children}
 				</div>
 			</IonContent>
 			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />

@@ -1502,7 +1502,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		],
 		"siblings":  [
 			"basics_from_the_core_rulebook",
@@ -1561,7 +1562,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"intrigue_elements": {
@@ -1900,7 +1902,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"individual_influence": {
@@ -3361,7 +3364,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"what_is_different": {
@@ -3941,7 +3945,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"leadership_modifiers": {
@@ -4333,7 +4338,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"provoking_a_nemesis": {
@@ -4804,7 +4810,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"the_core_mechanic": {
@@ -5343,7 +5350,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"using_a_library": {
@@ -5688,7 +5696,8 @@
 			"research",
 			"spells_of_intrigue",
 			"social_conflicts",
-			"verbal_duels"
+			"verbal_duels",
+			"skills_in_conflict"
 		]
 	},
 	"low-level_play_1-6": {

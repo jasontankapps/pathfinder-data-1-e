@@ -16,7 +16,7 @@ const FeatGroup4Page: React.FC<FeatProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), feats);
 
-	return <BasicPage pageId={"feat/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"feat--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default FeatGroup4Page;

@@ -16,7 +16,7 @@ const TraitGroup3Page: React.FC<TraitProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), traits);
 
-	return <BasicPage pageId={"trait/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"trait--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default TraitGroup3Page;

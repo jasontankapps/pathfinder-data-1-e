@@ -23,7 +23,7 @@ const FrontPage: React.FC = () => {
 			<IonContent>
 				<div className="main basicContent ion-hide-lg-up">
 					<IonList lines="full">
-						<DisplayMainItem description={description} />
+						<DisplayMainItem description={description} prefixId="main--frontPage" />
 					</IonList>
 				</div>
 				<div className="ion-hide-lg-down basicContent simple">

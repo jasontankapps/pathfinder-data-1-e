@@ -51,7 +51,11 @@ div.prevNext {
 div.prevNext.nextOnly {
 	justify-content: end;
 }
+div.prevNext div.prev {
+	margin-inline-end: 0.125rem;
+}
 div.prevNext div.next {
+	margin-inline-start: 0.125rem;
 	text-align: end;
 }
 div.prevNext a:link,

@@ -59,7 +59,7 @@ const BasicMainPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				{hideSources ? <></> : <SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />}
 				<div className="main basicContent">
 					<IonList lines="full">
-						{description ? <DisplayMainItem description={description} tables={tables} singleTable={singleTable} /> : children}
+						{description ? <DisplayMainItem prefixId={pageId} description={description} tables={tables} singleTable={singleTable} /> : children}
 					</IonList>
 				</div>
 			</IonContent>

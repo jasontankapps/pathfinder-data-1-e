@@ -57,7 +57,7 @@ const KineticPage: React.FC = () => {
 		/* tables={tables} */
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"kinetic/" + id}
+		pageId={"kinetic--" + id}
 	/>;
 };
 

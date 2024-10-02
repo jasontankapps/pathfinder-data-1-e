@@ -28,7 +28,7 @@ const CompanionPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"companion/" + id}
+		pageId={"companion--" + id}
 	/>;
 };
 

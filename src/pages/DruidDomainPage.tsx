@@ -28,7 +28,7 @@ const DruidDomainPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"druiddomain/" + id}
+		pageId={"druiddomain--" + id}
 	/>;
 };
 

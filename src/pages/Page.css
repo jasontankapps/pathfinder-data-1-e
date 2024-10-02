@@ -7,6 +7,9 @@ li {
 li + li {
 	margin-block-start: 0.5rem;
 }
+section.footnotes li {
+	font-size: 0.875rem;
+}
 
 div.highlight em strong,
 div.highlight i b,

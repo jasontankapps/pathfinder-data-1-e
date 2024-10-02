@@ -28,7 +28,7 @@ const DomainPage: React.FC = () => {
 		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"clericdomain/" + id}
+		pageId={"clericdomain--" + id}
 	/>;
 };
 

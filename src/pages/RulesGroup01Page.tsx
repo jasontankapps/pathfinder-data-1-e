@@ -61,7 +61,7 @@ const RulesGroup1Page: React.FC<{id: string}> = ({id}) => {
 
 	return (
 		<BasicRulesPage
-			pageId={"rules/" + id}
+			pageId={"rules--" + id}
 			title={n}
 			sources={sources}
 			extraHierarchy={h}

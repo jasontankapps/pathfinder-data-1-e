@@ -42,6 +42,7 @@ export interface DisplayItemProps {
 	markdown: string | string[]
 	tables?: Table[]
 	className?: string
+	prefix?: string
 }
 
 export interface SourceProps {

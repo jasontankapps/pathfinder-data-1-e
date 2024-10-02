@@ -16,7 +16,7 @@ const MonsterGroup16Page: React.FC<MonsterProps> = ({id}) => {
 
 	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
 
-	return <BasicPage pageId={"monster/" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage pageId={"monster--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
 };
 
 export default MonsterGroup16Page;
