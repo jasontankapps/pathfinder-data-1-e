@@ -37,7 +37,9 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
-setupIonicReact();
+setupIonicReact({
+	hardwareBackButton: false
+});
 
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ArcanaPage = lazy(() => import("./pages/ArcanaPage"));

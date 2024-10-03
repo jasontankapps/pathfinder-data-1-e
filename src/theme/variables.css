@@ -129,6 +129,8 @@ http://ionicframework.com/docs/theming/ */
   --ion-background-color: #fff;
   --ion-background-color-rgb: 255,255,255;
 
+  --background-faint: #0003;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -200,6 +202,9 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    --background-faint: #fff3;
+
   }
 
   /*

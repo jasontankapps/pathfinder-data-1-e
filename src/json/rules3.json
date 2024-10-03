@@ -10,7 +10,7 @@
 			"This section presents an anachronistic collection of hand-held black powder weapons. Most of them are singleshot muzzle-loaders with highly inefficient triggering mechanisms-traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -44,7 +44,7 @@
 			"***Guns Everywhere:*** Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed in this chapter. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"firearms"
 		],
@@ -107,7 +107,7 @@
 			"***Deflecting and Snatching Bullets:*** The [Deflect Arrows](feat/deflect_arrows) feat and the [Snatch Arrows](feat/snatch_arrows) feat can be used to deflect bullets, but not pellets shot from a scatter weapon. Neither of these feats can be used to deflect siege firearm attacks."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"firearms"
 		],
@@ -142,7 +142,7 @@
 			"[Firearms and gear can be found here.](main/equipment_firearms)"
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"firearms"
 		],
@@ -161,7 +161,7 @@
 			"There is no form of combat more civilized than the duel. Be it with steel or spells, duels are used to settle disputes in situations where a chaotic melee would be disruptive or even illegal. Although duels are often considered honorable, this does not necessarily make them any less deadly. Duels often permit combatants to engage in more even fights than the fracas of the battlefield, allowing the true skill, power, and wit of each to determine the victor."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -198,7 +198,7 @@
 			"- In the case of duels exclusively among warriors, additional rules typically prohibit the use of poison or even entire types of attacks (such as prohibiting ranged attacks, or requiring the use of firearms). In addition, most such duels prohibit the use of magic that affects other participants, although spells that enhance the caster are sometimes allowed."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -230,7 +230,7 @@
 			"In addition to his normal actions, each participant in a duel may use one of a number of special immediate actions, available only to characters participating in a duel. They may take dueling counters, dueling dodges, dueling parries, or dueling resolve actions, each of which is described below."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -269,7 +269,7 @@
 			"| Spell is the same as the spell being countered | +10 |"
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -297,7 +297,7 @@
 			"Once the attack is resolved, the creature that attempted a dueling dodge takes a -2 penalty to his AC and on all Reflex saving throws until the start of his next turn (even if the duel ends)."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -325,7 +325,7 @@
 			"This dueling parry only applies to one attack. Other attacks made by the same attacker are resolved normally. If the attack is a hit and a critical threat, but would be parried by the duelist, it is still a hit, but no confirmation roll is made and damage is rolled normally."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -353,7 +353,7 @@
 			"If, by the end of the character's next turn, the spell or effect ends or he is brought to above 0 hit points, he is fatigued, but otherwise suffers no ill effect. A character can only use this ability once per duel."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -374,10 +374,10 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 152](source/ultimate_combat)",
 			"",
-			"If you are using the duel rules within a performance combat, successfully performing a dueling counter, dueling dodge, or dueling resolve all allow the combatant to make a performance combat check as a free action. Since the dueling counter, dueling dodge, and dueling resolve action are all immediate actions, and are usually not done on the character's turn, this means that the combatant using one of these dueling actions must spend a victory point to make the performance combat check (not an action)."
+			"If you are using the duel rules within a [performance combat](rule/performance_combat), successfully performing a dueling counter, dueling dodge, or dueling resolve all allow the combatant to make a performance combat check as a free action. Since the dueling counter, dueling dodge, and dueling resolve action are all immediate actions, and are usually not done on the character's turn, this means that the combatant using one of these dueling actions must spend a victory point to make the performance combat check (not an action)."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -407,7 +407,7 @@
 			"Regardless of the conditions, most duels are serious affairs, with each side putting pride, honor, treasure, and even their lives on the line to win the day. While villains might try to cheat the rules and exploit every advantage, nobler duelists see the competition as a chance to prove their superiority on the field of battle using only their skills and wits, rather than chance or superior numbers."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"duels"
 		],
@@ -433,7 +433,7 @@
 			"The following rules for performance combat allow you as the GM to run an encounter, or even a series of combat encounters, in which the combatants must not only win the battle, but also win over the crowd."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -470,7 +470,7 @@
 			"***Toward a Goal:*** Often these are elaborate affairs that may reproduce a historical battle, or just pit combatants against terrain and challenges that feature a variety of hazards and traps. These types of battles can be races (maybe mixing them with [the rules for vehicular combat](rule/vehicles_in_combat)), or may present capture-the-flag-like objectives, but all test the ability of the combatants to achieve a predetermined goal."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -513,7 +513,7 @@
 			"If the crowd is helpful toward one side of the combat and a member of that side succeeds at a performance combat check, that side gains a victory point."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -536,7 +536,7 @@
 			"The first thing a GM must do in a performance combat is determine the crowd's starting attitude. Typically a crowd starts out with an indifferent attitude toward each side, but it could start with an attitude that's a step higher or lower based on other circumstances. Favored champions of a fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or criminals may start at a lower attitude step. If you are running a series of combats, a crowd may start with a higher or lower starting attitude based on a combatant's or a group of combatants' performance in the last bout, which is determined by the number of victory points the individual or group has (see the Serialized Performance Combats section)."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -582,7 +582,7 @@
 			"Succeeding at a performance combat check improves the attitude of the crowd by one step. Unlike skill checks, a roll of a natural 20 on a performance combat check always succeeds. Failing the check either leaves the attitude unchanged or, if the check fails by 5 or more, causes the attitude of the crowd to decrease by one step. The DC of the check is determined by the crowd's current attitude, with a number of adjustments to the DC granted by the circumstances of the performance combat. If the crowd's current attitude is helpful, a successful check grants the favored side 1 victory point."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -656,7 +656,7 @@
 			"[^1]: This is the DC to gain a victory point. The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -685,7 +685,7 @@
 			"The following are the standard triggers for making a performance combat check. The triggers are organized by the action type required to attempt or to make the performance combat check."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -730,7 +730,7 @@
 			"***Multiple Hits:*** If a combatant has more than one attack on her turn and hits an opponent with at least two of those attacks, she can make a performance combat check as a swift action. She gains a +2 bonus on this performance combat check for every attack she hits with beyond the second."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -762,7 +762,7 @@
 			"***Vanquish Opponent:*** Whenever a combatant reduces a creature to 0 or fewer hit points, he can make a performance combat check as a free or immediate action."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -792,7 +792,7 @@
 			"***Withdraw:*** Whenever a combatant uses the withdraw action, she must make a performance combat check as a free action. She takes a -5 penalty on the check, and success does not shift the crowd's attitude, but failure shifts it one step lower."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -824,7 +824,7 @@
 			"***Splitting Up Victory Points:*** Sometimes, in the case of team performance combat, the lineup of a performance combat team may change. If this occurs, it may be important to split up any victory points the team has gained. Victory points should be split as evenly as possible among the combatants within a team, with the remainder going to combatants in any way the team chooses (but with no individual player receiving more than 1 point from the remainder). For instance, if a team is made up of four combatants, but at the end of a bout there are 6 victory points, all four combatants gain at least 1 victory point, and two members of the team each receive 1 additional point, as chosen by the members of the team in any way the members deem fair."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -848,7 +848,7 @@
 			"When the performance combat is concluded, the side with the highest attitude wins over the crowd. In the case of a tie, use victory points to determine the winner. If the bout is still a tie, that performance combat is a tie."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -875,7 +875,7 @@
 			"If a side of the performance combat starts with at least 1 victory point per member of the side, the crowd's attitude starts as friendly toward that side instead of indifferent. If the side has at least 3 victory points per member, the crowd starts as helpful instead of indifferent."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -900,12 +900,12 @@
 			"[The basic rules for siege engines from the Core Rulebook are found here](rule/siege_engines). The following new options for siege engines both supplement and expand upon those rules. If the rules ever appear to be in conflict, use the rules below."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat"
 		],
 		"subtopics": [
 			"siege_engine_rules",
-			"siege_weapon_description",
+			"siege_engine_qualities",
 			"structure_hardness_and_hit_points"
 		],
 		"siblings": [
@@ -963,17 +963,13 @@
 			"| Colossal | 8 hours | 12 |"
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
-		"subtopics": [
-			"siege_engine_qualities",
-			"ranged_siege_engines"
-		],
 		"siblings": [
 			"siege_engine_rules",
-			"siege_weapon_description",
+			"siege_engine_qualities",
 			"structure_hardness_and_hit_points"
 		]
 	},
@@ -983,11 +979,11 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 159](source/ultimate_combat)",
 			"",
-			"The following are the various entries on the equipment tables for siege engines (given in the column headings on Tables 3-13 and 3-15). While ranged siege engines use most of these entries, close-assault siege engines only use some of them.",
+			"The following are the various entries on the [equipment tables for siege engines.](main/equipment_siegeengines) While ranged siege engines use most of these entries, close-assault siege engines only use some of them.",
 			"",
 			"***Cost:*** This value is the siege engine's cost in gold pieces (gp). The cost includes gear needed to work the engine as well as gear for upkeep. Typical ammunition costs and weights are given in siege weapon description.",
 			"",
-			"***Damage:*** This column gives the damage typically dealt by the engine. If the engine has a special mode of attack or damage, this space is marked by the words \"see description.\" If the siege engine does not deal any damage, but rather is a tool for getting close to or over fortifications, this entry features a dash (-). Some ranged siege engines can be loaded with special ammunition that affects or overrides the weapon's typical damage or range.",
+			"***Damage:*** This column gives the damage typically dealt by the engine. If the engine has a special mode of attack or damage, this space is marked by the words \"see description.\" If the siege engine does not deal any damage, but rather is a tool for getting close to or over fortifications, this entry features a dash (&mdash;). Some ranged siege engines can be loaded with special ammunition that affects or overrides the weapon's typical damage or range.",
 			"",
 			"As large and imprecise weapons, siege engines do not deal sneak attack damage or any other kind of precision damage.",
 			"",
@@ -1003,24 +999,9 @@
 			"",
 			"***Load:*** This column gives the number of full-round actions (or move actions if the crew leader has the [Master Siege Engineer](feat/master_siege_engineer) feat) required to load a siege engine.",
 			"",
-			"***Speed:*** This is how fast the siege engine can be moved with move actions made by its entire crew."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"siege_engines_uc",
-			"siege_engine_rules"
-		],
-		"siblings": [
-			"siege_engine_qualities",
-			"ranged_siege_engines"
-		]
-	},
-	"ranged_siege_engines": {
-		"name": "Ranged Siege Engines",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 159](source/ultimate_combat)",
+			"***Speed:*** This is how fast the siege engine can be moved with move actions made by its entire crew.",
+			"",
+			"### Ranged Siege Engines",
 			"",
 			"Ranged siege engines assault structures and people from a distance, by propelling ammunition in some fashion. Siege engines hurl massive projectiles in one of two ways: direct fire or indirect fire. Both take a number of actions to load or aim, and the basic rules are described below.",
 			"",
@@ -1047,78 +1028,25 @@
 			"| No line of sight to target square | -6 |",
 			"| Successive shots (crew can see where most recent miss landed) | Cumulative +2 per previous miss (maximum +10) |",
 			"| Successive shots (crew can't see where most recent miss landed, but observer is providing feedback) | Cumulative +1 per previous miss (maximum +5) |",
-			"| Successive shots after hit | +10 |"
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"siege_engines_uc",
-			"siege_engine_rules"
-		],
-		"siblings": [
-			"siege_engine_qualities",
-			"ranged_siege_engines"
-		]
-	},
-	"siege_weapon_description": {
-		"name": "Siege Weapon Description",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 160](source/ultimate_combat)",
+			"| Successive shots after hit | +10 |",
 			"",
-			"The following are siege weapon descriptions."
+			"### Close-Assault Siege Engines",
+			"",
+			"While most siege engines attack at range, some are used up close to directly undermine defenses, batter through them, or otherwise bypass them. Some close assault weapons are not even weapons at all, but instead provide means for assault forces to protect themselves or circumvent fortifications without destroying them.",
+			"",
+			"### Ammunition",
+			"",
+			"Ammunition can be used either in select types of indirect-fire siege engines, or with cannons. The ammunition description specifies which types of siege engines use the special ammunition. The costs and weights presented are for individual uses of special ammunition."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
-		"subtopics": [
-			"special_siege_engine_ammunition",
-			"close_assault_siege_engines"
-		],
 		"siblings": [
 			"siege_engine_rules",
-			"siege_weapon_description",
+			"siege_engine_qualities",
 			"structure_hardness_and_hit_points"
-		]
-	},
-	"special_siege_engine_ammunition": {
-		"name": "Special Siege Engine Ammunition",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 163](source/ultimate_combat)",
-			"",
-			"The following kinds of ammunition can be used either in select types of indirect-fire siege engines, or with cannons. The ammunition description specifies which types of siege engines use the special ammunition. The costs and weights on Table 3-14 are for individual uses of special ammunition."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"siege_engines_uc",
-			"siege_weapon_description"
-		],
-		"siblings": [
-			"special_siege_engine_ammunition",
-			"close_assault_siege_engines"
-		]
-	},
-	"close_assault_siege_engines": {
-		"name": "Close Assault Siege Engines",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"**Source** [Ultimate Combat pg. 165](source/ultimate_combat)",
-			"",
-			"While most siege engines attack at range, some are used up close to directly undermine defenses, batter through them, or otherwise bypass them. Some close assault weapons are not even weapons at all, but instead provide means for assault forces to protect themselves or circumvent fortifications without destroying them."
-		],
-		"parent_topics": [
-			"combat",
-			"mastering_combat",
-			"siege_engines_uc",
-			"siege_weapon_description"
-		],
-		"siblings": [
-			"special_siege_engine_ammunition",
-			"close_assault_siege_engines"
 		]
 	},
 	"structure_hardness_and_hit_points": {
@@ -1132,7 +1060,7 @@
 			"When any of these structures gain the broken condition, their hardness is halved, along with any other effects of the broken condition."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
@@ -1143,7 +1071,7 @@
 		],
 		"siblings": [
 			"siege_engine_rules",
-			"siege_weapon_description",
+			"siege_engine_qualities",
 			"structure_hardness_and_hit_points"
 		]
 	},
@@ -1171,7 +1099,7 @@
 			"| Adamantine | 20 | 560 hp | 1,260 hp | 4,480 hp | 15,120 hp |"
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -1208,7 +1136,7 @@
 			"*Note:* The Break DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Gargantuan doors increase the DC by 10, and Colossal doors increase the DC by 15. [Arcane lock](spell/arcane_lock) increases the DC by 10."
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -1243,7 +1171,7 @@
 			"| Adamantine | 20 | 120 |"
 		],
 		"parent_topics": [
-			"combat",
+			"gamemastering",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -5763,7 +5691,7 @@
 			"Compare: [Planar Magic Traits](rule/magic_traits), [Unchained Wild Magic](rule/wild_magic)"
 		],
 		"parent_topics": [ "gamemastering" ],
-		"siblings":  [
+		"siblings": [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
@@ -5771,6 +5699,7 @@
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
+			"mastering_combat",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",
@@ -5791,7 +5720,7 @@
 			"fighting_underwater",
 			"underwater_hazards_and_features"
 		],
-		"siblings":  [
+		"siblings": [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
@@ -5799,6 +5728,7 @@
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
+			"mastering_combat",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",

@@ -3968,8 +3968,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"the_combat_round": {
@@ -3997,6 +3996,7 @@
 	"initiative": {
 		"name": "Initiative",
 		"subtitle": "Combat",
+		"tags": "flat-footed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -4022,6 +4022,7 @@
 	"surprise": {
 		"name": "Surprise",
 		"subtitle": "Combat",
+		"tags": "surprise round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
@@ -4075,8 +4076,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"attack_roll": {
@@ -4088,7 +4088,7 @@
 			"",
 			"An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target's Armor Class, you hit and deal damage.",
 			"",
-			"***Automatic Misses and Hits:*** A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat-a possible critical hit (see the attack action).",
+			"***Automatic Misses and Hits:*** A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat-a possible critical hit (see [the attack action](rule/attack)).",
 			"",
 			"Your attack bonus with a melee weapon is the following:",
 			"",
@@ -4115,13 +4115,14 @@
 	"armor_class": {
 		"name": "Armor Class",
 		"subtitle": "Combat",
+		"tags": "dexterity bonus enhancement bonus deflection bonus natural armor bonus dodge bonus size modifier incorporeal touch attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
 			"",
 			"Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:",
 			"",
-			"10 + armor bonus + shield bonus + Dexterity modifier + other modifiers",
+			">10 + armor bonus + shield bonus + Dexterity modifier + other modifiers",
 			"",
 			"Note that armor limits your Dexterity bonus, so if you're wearing armor, you might not be able to apply your whole Dexterity bonus to your AC.",
 			"",
@@ -4137,9 +4138,7 @@
 			"",
 			"***Dodge Bonuses:*** Dodge bonuses represent actively avoiding blows. Any situation that denies you your Dexterity bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a Dexterity bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.",
 			"",
-			"***Size Modifier:*** You receive a bonus or penalty to your AC based on your size. See Table 8-1.",
-			"",
-			"***Touch Attacks:*** Some attacks completely disregard armor, including shields and natural armor-the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, Dexterity modifier, and deflection bonus (if any) apply normally. Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as [mage armor](spell/mage_armor) and [bracers of armor](magic-wondrous/bracers_of_armor_1).",
+			"***Size Modifier:*** You receive a bonus or penalty to your AC based on your size.",
 			"",
 			"### Table 8-1: Size Modifiers",
 			"",
@@ -4153,7 +4152,11 @@
 			"| Small | +1 |",
 			"| Tiny | +2 |",
 			"| Diminutive | +4 |",
-			"| Fine | +8 |"
+			"| Fine | +8 |",
+			"",
+			"***Touch Attacks:*** Some attacks completely disregard armor, including shields and natural armor-the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, Dexterity modifier, and deflection bonus (if any) apply normally.",
+			"",
+			"Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as [mage armor](spell/mage_armor) and [bracers of armor](magic-wondrous/bracers_of_armor_1)."
 		],
 		"parent_topics": [
 			"combat",
@@ -4188,7 +4191,7 @@
 			"",
 			"***Multiplying Damage:*** Sometimes you multiply damage by some factor, such as on a critical hit. Roll the damage (with all modifiers) multiple times and total the results.",
 			"",
-			"***Note:*** When you multiply damage more than once, each multiplier works off the original, unmultiplied damage. So if you are asked to double the damage twice, the end result is three times the normal damage.",
+			"**Note:** When you multiply damage more than once, each multiplier works off the original, unmultiplied damage. So if you are asked to double the damage twice, the end result is three times the normal damage.",
 			"",
 			"***Exception:*** Extra damage dice over and above a weapon's normal damage are never multiplied.",
 			"",
@@ -4372,27 +4375,27 @@
 			"",
 			"In some situations (such as in a surprise round), you may be limited to taking only a single move action or standard action.",
 			"",
-			"*Standard Action:* A standard action allows you to do something, most commonly to make an attack or cast a spell. See [this table](rule/standard_actions) for other standard actions.",
+			"***Standard Action:*** A standard action allows you to do something, most commonly to make an attack or cast a spell. See [this table](rule/standard_actions) for other standard actions.",
 			"",
-			"*Move Action:* A move action allows you to move up to your speed or perform an action that takes a similar amount of time. See [this table](rule/move_actions) for other move actions.",
+			"***Move Action:*** A move action allows you to move up to your speed or perform an action that takes a similar amount of time. See [this table](rule/move_actions) for other move actions.",
 			"",
 			"You can take a move action in place of a standard action. If you move no actual distance in a round (commonly because you have swapped your move action for one or more equivalent actions), you can take one 5-foot step either before, during, or after the action.",
 			"",
-			"*Full-Round Action:* A full-round action consumes all your effort during a round. The only movement you can take during a full-round action is a 5-foot step before, during, or after the action. You can also perform free actions and swift actions (see below). See [this table](rule/full-round_actions) for a list of full-round actions.",
+			"***Full-Round Action:*** A full-round action consumes all your effort during a round. The only movement you can take during a full-round action is a 5-foot step before, during, or after the action. You can also perform free actions and swift actions (see below). See [this table](rule/full-round_actions) for a list of full-round actions.",
 			"",
 			"Some full-round actions do not allow you to take a 5-foot step.",
 			"",
 			"Some full-round actions can be taken as standard actions, but only in situations when you are limited to performing only a standard action during your round. The descriptions of specific actions detail which actions allow this option.",
 			"",
-			"*Free Action:* Free actions consume a very small amount of time and effort. You can perform one or more free actions while taking another action normally. However, there are reasonable limits on what you can really do for free, as decided by the GM.",
+			"***Free Action:*** Free actions consume a very small amount of time and effort. You can perform one or more free actions while taking another action normally. However, there are reasonable limits on what you can really do for free, as decided by the GM.",
 			"",
-			"*Swift Action:* A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform only a single swift action per turn.",
+			"***Swift Action:*** A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform only a single swift action per turn.",
 			"",
-			"*Immediate Action:* An immediate action is very similar to a swift action, but can be performed at any time-even if it's not your turn.",
+			"***Immediate Action:*** An immediate action is very similar to a swift action, but can be performed at any time-even if it's not your turn.",
 			"",
-			"*Not an Action:* Some activities are so minor that they are not even considered free actions. They literally don't take any time at all to do and are considered an inherent part of doing something else, such as nocking an arrow as part of an attack with a bow.",
+			"***Not an Action:*** Some activities are so minor that they are not even considered free actions. They literally don't take any time at all to do and are considered an inherent part of doing something else, such as nocking an arrow as part of an attack with a bow.",
 			"",
-			"*Restricted Activity:* In some situations, you may be unable to take a full round's worth of actions. In such cases, you are restricted to taking only a single standard action or a single move action (plus free and swift actions as normal). You can't take a full-round action (though you can start or complete a full-round action by using a standard action; see below)."
+			"***Restricted Activity:*** In some situations, you may be unable to take a full round's worth of actions. In such cases, you are restricted to taking only a single standard action or a single move action (plus free and swift actions as normal). You can't take a full-round action (though you can start or complete a full-round action by using a standard action; see below)."
 		],
 		"parent_topics": [ "combat" ],
 		"siblings": [
@@ -4406,8 +4409,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		],
 		"subtopics": [
 			"standard_actions",
@@ -4521,7 +4523,7 @@
 			"",
 			"A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.",
 			"",
-			"***Exception:*** Precision damage (such as from a rogue's sneak attack class feature) and additional damage dice from weapon special abilities (such as flaming) are not multiplied when you score a critical hit.",
+			"***Exception:*** Precision damage (such as from a rogue's sneak attack class feature) and additional damage dice from weapon special abilities (such as [flaming](magic-enhancement/flaming)) are not multiplied when you score a critical hit.",
 			"",
 			"***Increased Threat Range:*** Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.",
 			"",
@@ -4550,7 +4552,7 @@
 			"",
 			"Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.",
 			"",
-			"***Spell Completion Items:*** [Activating a spell completion](rule/using_items) item is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.",
+			"***Spell Completion Items:*** [Activating a spell completion item](rule/using_items) is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.",
 			"",
 			"***Spell Trigger, Command Word, or Use-Activated Items:*** Activating any of these kinds of items does not require concentration and does not provoke attacks of opportunity."
 		],
@@ -4569,13 +4571,14 @@
 	},
 	"cast_a_spell": {
 		"name": "Cast a Spell",
+		"tags": "holding the charge ranged touch spells concentration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 183](source/prpg_core_rulebook)",
 			"",
 			"Most spells require 1 standard action to cast. You can cast such a spell either before or after you take a move action.",
 			"",
-			"***Note:*** You retain your Dexterity bonus to AC while casting.",
+			"**Note:** You retain your Dexterity bonus to AC while casting.",
 			"",
 			"***Spell Components:*** To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a silence spell, you can't cast such a spell. A spellcaster who has been deafened has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.",
 			"",
@@ -4896,9 +4899,9 @@
 			"",
 			"If you get multiple attacks because your [base attack bonus](rule/common_terms) is high enough, you must make the attacks in order from highest bonus to lowest. If you are using two weapons, you can strike with either weapon first. If you are using a double weapon, you can strike with either part of the weapon first.",
 			"",
-			"*Deciding between an Attack or a Full Attack:* After your first attack, you can decide to take a move action instead of making your remaining attacks, depending on how the first attack turns out and assuming you have not already taken a move action this round. If you've already taken a 5-foot step, you can't use your move action to move any distance, but you could still use a different kind of move action.",
+			"***Deciding between an Attack or a Full Attack:*** After your first attack, you can decide to take a move action instead of making your remaining attacks, depending on how the first attack turns out and assuming you have not already taken a move action this round. If you've already taken a 5-foot step, you can't use your move action to move any distance, but you could still use a different kind of move action.",
 			"",
-			"*Fighting Defensively as a Full-Round Action:* You can choose to fight defensively when taking a full-attack action. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn."
+			"***Fighting Defensively as a Full-Round Action:*** You can choose to fight defensively when taking a full-attack action. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn."
 		],
 		"parent_topics": [
 			"combat",
@@ -4928,7 +4931,7 @@
 			"",
 			"This action is otherwise identical to the cast a spell action described under Standard Actions.",
 			"",
-			"***Casting a Metamagic Spell:*** Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a metamagic feat) than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the [Quicken Spell](feat/quicken_spell) feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
+			"***Casting a Metamagic Spell:*** Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a [metamagic feat](main/feats_metamagic) than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the [Quicken Spell](feat/quicken_spell) feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
 			"",
 			"Clerics and druids must take more time to spontaneously cast a metamagic version of a cure, inflict, or summon spell. Spontaneously casting a metamagic version of a spell with a casting time of 1 standard action is a full-round action, and spells with longer casting times take an extra full-round action to cast."
 		],
@@ -5176,8 +5179,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		],
 		"subtopics": [
 			"loss_of_hit_points",
@@ -5233,11 +5235,11 @@
 			"",
 			"When your current hit point total drops to exactly 0, you are disabled.",
 			"",
-			"You gain the staggered condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at -1 hit points and dying.",
+			"You gain the [staggered condition](rule/awareness_conditions) and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at -1 hit points and dying.",
 			"",
 			"Healing that raises your hit points above 0 makes you fully functional again, just as if you'd never been reduced to 0 or fewer hit points.",
 			"",
-			"You can also become disabled when recovering from dying. In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see Stable Characters and Recovery)."
+			"You can also become [disabled](rule/dying_conditions) when recovering from dying. In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see [Stable Characters and Recovery](rule/stable_characters_and_recovery))."
 		],
 		"parent_topics": [
 			"combat",
@@ -5447,38 +5449,7 @@
 	"movement_position_and_distance": {
 		"name": "Movement, Position, and Distance",
 		"subtitle": "Combat",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
-			"",
-			"Miniatures are on the 30mm scale-a miniature of a 6-foot-tall man is approximately 30mm tall. A square on the battle grid is 1 inch across, representing a 5-foot-by-5-foot area."
-		],
-		"parent_topics": [ "combat" ],
-		"subtopics": [
-			"tactical_movement_2",
-			"measuring_distance",
-			"moving_through_a_square",
-			"terrain_and_obstacles",
-			"special_movement_rules"
-		],
-		"siblings": [
-			"how_combat_works",
-			"combat_statistics",
-			"actions_in_combat",
-			"injury_and_death",
-			"movement_position_and_distance",
-			"big_and_little_creatures_in_combat",
-			"combat_modifiers",
-			"special_attacks",
-			"special_initiative_actions",
-			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
-		]
-	},
-	"tactical_movement_2": {
-		"name": "Tactical Movement",
-		"subtitle": "Combat",
+		"tags": "tactical movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
@@ -5505,16 +5476,25 @@
 			"| Dwarf | 20 ft. (4 squares) | 20 ft. (4 squares) |",
 			"| Gnome, halfling | 20 ft. (4 squares) | 15 ft. (3 squares) |"
 		],
-		"parent_topics": [
-			"combat",
-			"movement_position_and_distance"
-		],
-		"siblings": [
-			"tactical_movement_2",
+		"parent_topics": [ "combat" ],
+		"subtopics": [
 			"measuring_distance",
 			"moving_through_a_square",
 			"terrain_and_obstacles",
 			"special_movement_rules"
+		],
+		"siblings": [
+			"how_combat_works",
+			"combat_statistics",
+			"actions_in_combat",
+			"injury_and_death",
+			"movement_position_and_distance",
+			"big_and_little_creatures_in_combat",
+			"combat_modifiers",
+			"special_attacks",
+			"special_initiative_actions",
+			"conditions",
+			"special_abilities_2"
 		]
 	},
 	"measuring_distance": {
@@ -5537,7 +5517,6 @@
 			"movement_position_and_distance"
 		],
 		"siblings": [
-			"tactical_movement_2",
 			"measuring_distance",
 			"moving_through_a_square",
 			"terrain_and_obstacles",
@@ -5561,7 +5540,7 @@
 			"",
 			"***Overrun:*** During your movement, you can attempt to [move through a square](rule/overrun) occupied by an opponent.",
 			"",
-			"***Tumbling:*** A trained character can attempt to use Acrobatics to move through a square occupied by an opponent (see the Acrobatics skill).",
+			"***Tumbling:*** A trained character can attempt to use [Acrobatics](skill/acrobatics) to move through a square occupied by an opponent.",
 			"",
 			"***Very Small Creature:*** A Fine, Diminutive, or Tiny creature can move into or through an occupied square. The creature provokes attacks of opportunity when doing so.",
 			"",
@@ -5576,7 +5555,6 @@
 			"movement_position_and_distance"
 		],
 		"siblings": [
-			"tactical_movement_2",
 			"measuring_distance",
 			"moving_through_a_square",
 			"terrain_and_obstacles",
@@ -5617,7 +5595,6 @@
 			"movement_position_and_distance"
 		],
 		"siblings": [
-			"tactical_movement_2",
 			"measuring_distance",
 			"moving_through_a_square",
 			"terrain_and_obstacles",
@@ -5646,7 +5623,6 @@
 			"movement_position_and_distance"
 		],
 		"siblings": [
-			"tactical_movement_2",
 			"measuring_distance",
 			"moving_through_a_square",
 			"terrain_and_obstacles",
@@ -5703,8 +5679,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"combat_modifiers": {
@@ -5770,13 +5745,13 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"cover": {
 		"name": "Cover",
 		"subtitle": "Combat",
+		"tags": "soft cover partial cover total cover improved cover",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 195](source/prpg_core_rulebook)",
@@ -5881,6 +5856,7 @@
 	"helpless_defenders": {
 		"name": "Helpless Defenders",
 		"subtitle": "Combat",
+		"tags": "coup de grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
@@ -5938,8 +5914,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"aid_another_2": {
@@ -6016,7 +5991,7 @@
 			"",
 			"***Combat Maneuver Bonus:*** Each character and creature has a Combat Maneuver Bonus (or CMB) that represents its skill at performing combat maneuvers. A creature's CMB is determined using the following formula:",
 			"",
-			"CMB = Base attack bonus + Strength modifier + special size modifier",
+			">CMB = Base attack bonus + Strength modifier + special size modifier",
 			"",
 			"Creatures that are size Tiny or smaller use their Dexterity modifier in place of their Strength modifier to determine their CMB. The special size modifier for a creature's Combat Maneuver Bonus is as follows: Fine -8, Diminutive -4, Tiny -2, Small -1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMB when performing specific maneuvers.",
 			"",
@@ -6026,9 +6001,21 @@
 			"",
 			"***Combat Maneuver Defense:*** Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature's CMD is determined using the following formula:",
 			"",
-			"CMD = 10 + Base attack bonus + Strength modifier + Dexterity modifier + special size modifier",
+			">CMD = 10 + Base attack bonus + Strength modifier + Dexterity modifier + special size modifier",
 			"",
-			"The special size modifier for a creature's Combat Maneuver Defense is as follows: Fine -8, Diminutive -4, Tiny -2, Small -1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to AC to its CMD. Any penalties to a creature's AC also apply to its CMD. A flat-footed creature does not add its Dexterity bonus to its CMD.",
+			"| Size | Special Size Modifier |",
+			"| --- | --- |",
+			"| Fine | -8 |",
+			"| Diminutive | -4 |",
+			"| Tiny | -2 |",
+			"| Small | -1 |",
+			"| Medium | +0 |",
+			"| Large | +1 |",
+			"| Huge | +2 |",
+			"| Gargantuan | +4 |",
+			"| Colossal | +8 |",
+			"",
+			"Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to AC to its CMD. Any penalties to a creature's AC also apply to its CMD. A flat-footed creature does not add its Dexterity bonus to its CMD.",
 			"",
 			"***Determine Success:*** If your attack roll equals or exceeds the CMD of the target, your maneuver is a success and has the listed effect. Some maneuvers, such as bull rush, have varying levels of success depending on how much your attack roll exceeds the target's CMD. Rolling a natural 20 while attempting a combat maneuver is always a success (except when attempting to escape from bonds), while rolling a natural 1 is always a failure."
 		],
@@ -6403,7 +6390,7 @@
 			"",
 			"These rules cover being mounted on a horse in combat but can also be applied to more unusual steeds, such as a griffon or dragon.",
 			"",
-			"***Mounts in Combat:*** Horses, ponies, and riding dogs can serve readily as combat steeds. Mounts that do not possess combat training (see the Handle Animal skill) are frightened by combat. If you don't dismount, you must make a DC 20 Ride check each round as a move action to control such a mount. If you succeed, you can perform a standard action after the move action. If you fail, the move action becomes a full-round action, and you can't do anything else until your next turn.",
+			"***Mounts in Combat:*** Horses, ponies, and riding dogs can serve readily as combat steeds. Mounts that do not possess combat training (see [Handle Animal](skill/handle_animal)) are frightened by combat. If you don't dismount, you must make a DC 20 [Ride](skill/ride) check each round as a move action to control such a mount. If you succeed, you can perform a standard action after the move action. If you fail, the move action becomes a full-round action, and you can't do anything else until your next turn.",
 			"",
 			"Your mount acts on your initiative count as you direct it. You move at its speed, but the mount uses its action to move. A horse (not a pony) is a Large creature and thus takes up a space 10 feet (2 squares) across. For simplicity, assume that you share your mount's space during combat.",
 			"",
@@ -6411,7 +6398,7 @@
 			"",
 			"When you attack a creature smaller than your mount that is on foot, you get the +1 bonus on melee attacks for being on higher ground. If your mount moves more than 5 feet, you can only make a single melee attack. Essentially, you have to wait until the mount gets to your enemy before attacking, so you can't make a full attack. Even at your mount's full speed, you don't take any penalty on melee attacks while mounted.",
 			"",
-			"If your mount charges, you also take the AC penalty associated with a charge. If you make an attack at the end of the charge, you receive the bonus gained from the charge. When charging on horseback, you deal double damage with a lance (see Charge).",
+			"If your mount charges, you also take the AC penalty associated with a charge. If you make an attack at the end of the charge, you receive the bonus gained from the charge. When charging on horseback, you deal double damage with a lance (see [Charge](rule/charge)).",
 			"",
 			"You can use ranged weapons while your mount is taking a double move, but at a -4 penalty on the attack roll. You can use ranged weapons while your mount is running (quadruple speed) at a -8 penalty. In either case, you make the attack roll when your mount has completed half its movement. You can make a full attack with a ranged weapon while your mount is moving. Likewise, you can take move actions normally.",
 			"",
@@ -6525,8 +6512,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"delay": {
@@ -6606,8 +6592,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		],
 		"subtopics": [
 			"awareness_conditions",
@@ -7226,7 +7211,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7245,8 +7229,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		]
 	},
 	"ability_score_bonuses": {
@@ -7287,7 +7270,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7338,7 +7320,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7375,7 +7356,7 @@
 			"",
 			"***Cure:*** This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as neutralize poison and remove curse. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",
-			"***Example:*** Valeros has been exposed to the red ache disease. He failed a DC 15 Fortitude save to avoid contracting it, so after the onset period of 1d3 days has passed, he must make another DC 15 Fortitude save to avoid taking 1d6 points of Strength damage. From this point onward, he must make a DC 15 Fortitude save each day (according to the disease's frequency) to avoid further Strength damage. If, on two consecutive days, he makes his Fortitude saves, he is cured of the disease and any damage it caused begins to heal as normal."
+			"***Example:*** Valeros has been exposed to the [red ache](disease/red_ache) disease. He failed a DC 15 Fortitude save to avoid contracting it, so after the onset period of 1d3 days has passed, he must make another DC 15 Fortitude save to avoid taking 1d6 points of Strength damage. From this point onward, he must make a DC 15 Fortitude save each day (according to the disease's frequency) to avoid further Strength damage. If, on two consecutive days, he makes his Fortitude saves, he is cured of the disease and any damage it caused begins to heal as normal."
 		],
 		"parent_topics": [
 			"combat",
@@ -7399,7 +7380,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7416,32 +7396,7 @@
 			"",
 			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as remove curse and break enchantment. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
 			"",
-			"| Curse | Saving Throw |",
-			"| --- | --- |",
-			"| [Baleful Polymorph Spell](/curse/baleful_polymorph_spell) | Fortitude DC 17 |",
-			"| [Bestow Curse Trap](/curse/bestow_curse_trap) | Will DC 14 |",
-			"| [Blasted Vitality](/curse/blasted_vitality) | Fortitude DC 19 |",
-			"| [Curse of Bestial Dreams](/curse/curse_of_bestial_dreams) | Will DC 20 |",
-			"| [Curse of the Ages](/curse/curse_of_the_ages) | Will DC 17 |",
-			"| [Cursed Earth](/curse/cursed_earth) | Will DC 23 |",
-			"| [Endless Night](/curse/endless_night) | Will DC 22 |",
-			"| [Haunting, Major](/curse/haunting_major) | Will DC 17 |",
-			"| [Haunting, Minor](/curse/haunting_minor) | Will DC 13 |",
-			"| [Hunt of the Ankou](/curse/hunt_of_the_ankou) | Will DC 22 |",
-			"| [Hunt of the Bogeyman](/curse/hunt_of_the_bogeyman) | Will DC 19 |",
-			"| [Jealous Structure](/curse/jealous_structure) | Will DC 19 |",
-			"| [Mummy Rot](/curse/mummy_rot) | Fortitude DC 16 |",
-			"| [Perilous Demesne, Grand](/curse/perilous_demesne_grand) | Will DC 22 |",
-			"| [Perilous Demesne, Greater](/curse/perilous_demesne_greater) | Will DC 19 |",
-			"| [Perilous Demesne, Major](/curse/perilous_demesne_major) | Will DC 16 |",
-			"| [Perilous Demesne, Minor](/curse/perilous_demesne_minor) | Will DC 13 |",
-			"| [Sealed Fate](/curse/sealed_fate) | Will DC 23 |",
-			"| [Shattered Self](/curse/shattered_self) | Will DC 20 |",
-			"| [Tormenting Visions](/curse/tormenting_visions) | Will DC 15 |",
-			"| [Unluck](/curse/unluck) | Will DC 20 |",
-			"| [Unseasonable Weather](/curse/unseasonable_weather) | Will DC 23 |",
-			"| [Weeping Wound](/curse/weeping_wound) | Fortitude DC 14 |",
-			"| [Werewolf Lycanthropy](/curse/werewolf_lycanthropy) | Fortitude DC 15 |"
+			"{tabel0}"
 		],
 		"parent_topics": [
 			"combat",
@@ -7453,6 +7408,42 @@
 			"diseases",
 			"infestations",
 			"poison"
+		],
+		"tables": [
+			{
+				"id": "rules curses table",
+				"headers": [ "Curse", "Saving Throw" ],
+				"types": [ 0, 0 ],
+				"ripples": [0],
+				"data": [
+					[ [ "curse/baleful_polymorph_spell", "Baleful Polymorph Spell" ], "Fortitude DC 17" ],
+					[ [ "curse/bestow_curse_trap", "Bestow Curse Trap" ], "Will DC 14" ],
+					[ [ "curse/blasted_vitality", "Blasted Vitality" ], "Fortitude DC 19" ],
+					[ [ "curse/curse_of_bestial_dreams", "Curse of Bestial Dreams" ], "Will DC 20" ],
+					[ [ "curse/curse_of_the_ages", "Curse of the Ages" ], "Will DC 17" ],
+					[ [ "curse/cursed_earth", "Cursed Earth" ], "Will DC 23" ],
+					[ [ "curse/endless_night", "Endless Night" ], "Will DC 22" ],
+					[ [ "curse/haunting_major", "Haunting, Major" ], "Will DC 17" ],
+					[ [ "curse/haunting_minor", "Haunting, Minor" ], "Will DC 13" ],
+					[ [ "curse/hunt_of_the_ankou", "Hunt of the Ankou" ], "Will DC 22" ],
+					[ [ "curse/hunt_of_the_bogeyman", "Hunt of the Bogeyman" ], "Will DC 19" ],
+					[ [ "curse/jealous_structure", "Jealous Structure" ], "Will DC 19" ],
+					[ [ "curse/mummy_rot", "Mummy Rot" ], "Fortitude DC 16" ],
+					[ [ "curse/perilous_demesne_grand", "Perilous Demesne, Grand" ], "Will DC 22" ],
+					[ [ "curse/perilous_demesne_greater", "Perilous Demesne, Greater" ], "Will DC 19" ],
+					[ [ "curse/perilous_demesne_major", "Perilous Demesne, Major" ], "Will DC 16" ],
+					[ [ "curse/perilous_demesne_minor", "Perilous Demesne, Minor" ], "Will DC 13" ],
+					[ [ "curse/sealed_fate", "Sealed Fate" ], "Will DC 23" ],
+					[ [ "curse/shattered_self", "Shattered Self" ], "Will DC 20" ],
+					[ [ "curse/tormenting_visions", "Tormenting Visions" ], "Will DC 15" ],
+					[ [ "curse/unluck", "Unluck" ], "Will DC 20" ],
+					[ [ "curse/unseasonable_weather", "Unseasonable Weather" ], "Will DC 23" ],
+					[ [ "curse/weeping_wound", "Weeping Wound" ], "Fortitude DC 14" ],
+					[ [ "curse/werewolf_lycanthropy", "Werewolf Lycanthropy" ], "Fortitude DC 15" ]		
+				],
+				"initialColumn": 0,
+				"className": "allcenter"
+			}
 		]
 	},
 	"diseases": {
@@ -7463,56 +7454,7 @@
 			"",
 			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as remove disease.",
 			"",
-			"| Disease | Saving Throw |",
-			"| --- | --- |",
-			"| [Pallid Gift](/disease/pallid_gift) | DC 10+ (see description) |",
-			"| [Bonecrusher (Dengue)](/disease/bonecrusher_dengue) | DC 12 |",
-			"| [Filth Fever](/disease/filth_fever) | DC 12 |",
-			"| [Fungal Flu](/disease/fungal_flu) | DC 12 |",
-			"| [Leprosy](/disease/leprosy) | DC 12 (negates; DC 20 to avoid effects) |",
-			"| [Mindfire](/disease/mindfire) | DC 12 |",
-			"| [Coward's Mark](/disease/coward's_mark) | DC 13 |",
-			"| [Ghoul Fever](/disease/ghoul_fever) | DC 13 |",
-			"| [Green Haze](/disease/green_haze) | DC 13 |",
-			"| [Shakes](/disease/shakes) | DC 13 |",
-			"| [Bluespit](/disease/bluespit) | DC 14 |",
-			"| [Brainworms](/disease/brainworms) | DC 14 |",
-			"| [Devil Chills](/disease/devil_chills) | DC 14 |",
-			"| [Rabies](/disease/rabies) | DC 14 |",
-			"| [Sleeping Sickness](/disease/sleeping_sickness) | DC 14 |",
-			"| [Slimy Doom](/disease/slimy_doom) | DC 14 |",
-			"| [Tetanus](/disease/tetanus) | DC 14 |",
-			"| [Glacier Plague](/disease/glacier_plague) | DC 15 |",
-			"| [Greenscale](/disease/greenscale) | DC 15 |",
-			"| [Moxix's Delectation](/disease/moxix's_delectation) | DC 15 |",
-			"| [Red Ache](/disease/red_ache) | DC 15 |",
-			"| [Spellscar Fever](/disease/spellscar_fever) | DC 15 (+1 per previous save) |",
-			"| [The Tainted Plague](/disease/the_tainted_plague) | DC 15 (see description) |",
-			"| [Blinding Sickness](/disease/blinding_sickness) | DC 16 |",
-			"| [Blood Veil](/disease/blood_veil) | DC 16 |",
-			"| [Bonechill](/disease/bonechill) | DC 16 |",
-			"| [Boot Soup](/disease/boot_soup) | DC 16 |",
-			"| [Cackle Fever](/disease/cackle_fever) | DC 16 |",
-			"| [Dvezda Plague](/disease/dvezda_plague) | DC 16 |",
-			"| [Dysentary](/disease/dysentary) | DC 16 |",
-			"| [Final Rest](/disease/final_rest) | DC 16 |",
-			"| [Pulsing Puffs](/disease/pulsing_puffs) | DC 16 |",
-			"| [The Scales](/disease/the_scales) | DC 16 |",
-			"| [Bubonic Plague](/disease/bubonic_plague) | DC 17 |",
-			"| [Chillbane Fever](/disease/chillbane_fever) | DC 17 |",
-			"| [Firegut](/disease/firegut) | DC 17 |",
-			"| [Shattermind](/disease/shattermind) | DC 17 |",
-			"| [Demon Fever](/disease/demon_fever) | DC 18 |",
-			"| [Demonplague](/disease/demonplague) | DC 18 |",
-			"| [Malaria (Jungle Fever)](/disease/malaria_jungle_fever) | DC 18 |",
-			"| [Red Drip](/disease/red_drip) | DC 18 |",
-			"| [Eidite sickness](/disease/eidite_sickness) | DC 20 |",
-			"| [Ergia](/disease/ergia) | DC 20 |",
-			"| [Scarlet Leprosy](/disease/scarlet_leprosy) | DC 20 |",
-			"| [Vorel's Phage](/disease/vorel's_phage) | DC 20 |",
-			"| [Blightburn Sickness](/disease/blightburn_sickness) | DC 22 |",
-			"| [Crypt Fever](/disease/crypt_fever) | DC 22 |",
-			"| [Daemonic Wasting](/disease/daemonic_wasting) | DC 23 |"
+			"{table0}"
 		],
 		"parent_topics": [
 			"combat",
@@ -7524,6 +7466,66 @@
 			"diseases",
 			"infestations",
 			"poison"
+		],
+		"tables": [
+			{
+				"id": "rules curses table",
+				"headers": [ "Disease", "Saving Throw" ],
+				"types": [ 0, 0 ],
+				"ripples": [0],
+				"data": [
+					[ [ "disease/pallid_gift", "Pallid Gift" ], "DC 10+ (see description)" ],
+					[ [ "disease/bonecrusher_dengue", "Bonecrusher (Dengue)" ], "DC 12" ],
+					[ [ "disease/filth_fever", "Filth Fever" ], "DC 12" ],
+					[ [ "disease/fungal_flu", "Fungal Flu" ], "DC 12" ],
+					[ [ "disease/leprosy", "Leprosy" ], "DC 12 (negates; DC 20 to avoid effects)" ],
+					[ [ "disease/mindfire", "Mindfire" ], "DC 12" ],
+					[ [ "disease/coward's_mark", "Coward's Mark" ], "DC 13" ],
+					[ [ "disease/ghoul_fever", "Ghoul Fever" ], "DC 13" ],
+					[ [ "disease/green_haze", "Green Haze" ], "DC 13" ],
+					[ [ "disease/shakes", "Shakes" ], "DC 13" ],
+					[ [ "disease/bluespit", "Bluespit" ], "DC 14" ],
+					[ [ "disease/brainworms", "Brainworms" ], "DC 14" ],
+					[ [ "disease/devil_chills", "Devil Chills" ], "DC 14" ],
+					[ [ "disease/rabies", "Rabies" ], "DC 14" ],
+					[ [ "disease/sleeping_sickness", "Sleeping Sickness" ], "DC 14" ],
+					[ [ "disease/slimy_doom", "Slimy Doom" ], "DC 14" ],
+					[ [ "disease/tetanus", "Tetanus" ], "DC 14" ],
+					[ [ "disease/glacier_plague", "Glacier Plague" ], "DC 15" ],
+					[ [ "disease/greenscale", "Greenscale" ], "DC 15" ],
+					[ [ "disease/moxix's_delectation", "Moxix's Delectation" ], "DC 15" ],
+					[ [ "disease/red_ache", "Red Ache" ], "DC 15" ],
+					[ [ "disease/spellscar_fever", "Spellscar Fever" ], "DC 15 (+1 per previous save)" ],
+					[ [ "disease/the_tainted_plague", "The Tainted Plague" ], "DC 15 (see description)" ],
+					[ [ "disease/blinding_sickness", "Blinding Sickness" ], "DC 16" ],
+					[ [ "disease/blood_veil", "Blood Veil" ], "DC 16" ],
+					[ [ "disease/bonechill", "Bonechill" ], "DC 16" ],
+					[ [ "disease/boot_soup", "Boot Soup" ], "DC 16" ],
+					[ [ "disease/cackle_fever", "Cackle Fever" ], "DC 16" ],
+					[ [ "disease/dvezda_plague", "Dvezda Plague" ], "DC 16" ],
+					[ [ "disease/dysentary", "Dysentary" ], "DC 16" ],
+					[ [ "disease/final_rest", "Final Rest" ], "DC 16" ],
+					[ [ "disease/pulsing_puffs", "Pulsing Puffs" ], "DC 16" ],
+					[ [ "disease/the_scales", "The Scales" ], "DC 16" ],
+					[ [ "disease/bubonic_plague", "Bubonic Plague" ], "DC 17" ],
+					[ [ "disease/chillbane_fever", "Chillbane Fever" ], "DC 17" ],
+					[ [ "disease/firegut", "Firegut" ], "DC 17" ],
+					[ [ "disease/shattermind", "Shattermind" ], "DC 17" ],
+					[ [ "disease/demon_fever", "Demon Fever" ], "DC 18" ],
+					[ [ "disease/demonplague", "Demonplague" ], "DC 18" ],
+					[ [ "disease/malaria_jungle_fever", "Malaria (Jungle Fever)" ], "DC 18" ],
+					[ [ "disease/red_drip", "Red Drip" ], "DC 18" ],
+					[ [ "disease/eidite_sickness", "Eidite sickness" ], "DC 20" ],
+					[ [ "disease/ergia", "Ergia" ], "DC 20" ],
+					[ [ "disease/scarlet_leprosy", "Scarlet Leprosy" ], "DC 20" ],
+					[ [ "disease/vorel's_phage", "Vorel's Phage" ], "DC 20" ],
+					[ [ "disease/blightburn_sickness", "Blightburn Sickness" ], "DC 22" ],
+					[ [ "disease/crypt_fever", "Crypt Fever" ], "DC 22" ],
+					[ [ "disease/daemonic_wasting", "Daemonic Wasting" ], "DC 23" ]
+				],
+				"initialColumn": 0,
+				"className": "allcenter"
+			}
 		]
 	},
 	"infestations": {
@@ -7537,13 +7539,7 @@
 			"",
 			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a [remove disease](spell/remove_disease) spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict [androids](race/android) despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
 			"",
-			"| Infestation | Fortitude DC | Description |",
-			"| --- | --- | --- |",
-			"| [Ear Seekers](/infestation/ear_seekers) | 15 | Ear seekers are tiny, pale-colored worms that dwell in rotting wood or other organic detritus. |",
-			"| [Fractal Etch](/infestation/fractal_etch) | 15 | The nanites behind this affliction scrub away the folds of the brain |",
-			"| [Rot Grubs](/infestation/rot_grubs) | 17 | Rot grubs are nauseating parasites that feed on flesh and nest in corpses. |",
-			"| [Soldier's Peace](/infestation/soldier's_peace) | 15 | These nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts. |",
-			"| [Thought Crawlers](/infestation/thought_crawlers) | 16 | These parasitic worms live in cerebrospinal fluid, causing an escalating progression of debilitating neurological symptoms. |"
+			"{table0}"
 		],
 		"parent_topics": [
 			"combat",
@@ -7555,6 +7551,23 @@
 			"diseases",
 			"infestations",
 			"poison"
+		],
+		"tables": [
+			{
+				"id": "rules curses table",
+				"headers": [ "Curse", "Fortitude DC", "Description" ],
+				"types": [ 0, 0, 0 ],
+				"ripples": [0],
+				"data": [
+					[ [ "infestation/ear_seekers", "Ear Seekers" ], "15", "Ear seekers are tiny, pale-colored worms that dwell in rotting wood or other organic detritus." ],
+					[ [ "infestation/fractal_etch", "Fractal Etch" ], "15", "The nanites behind this affliction scrub away the folds of the brain" ],
+					[ [ "infestation/rot_grubs", "Rot Grubs" ], "17", "Rot grubs are nauseating parasites that feed on flesh and nest in corpses." ],
+					[ [ "infestation/soldier's_peace", "Soldier's Peace" ], "15", "These nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts." ],
+					[ [ "infestation/thought_crawlers", "Thought Crawlers" ], "16", "These parasitic worms live in cerebrospinal fluid, causing an escalating progression of debilitating neurological symptoms." ]
+				],
+				"initialColumn": 0,
+				"className": "allcenter"
+			}
 		]
 	},
 	"poison": {
@@ -7565,7 +7578,13 @@
 			"",
 			"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 			"",
-			"Contact poisons are contracted the moment someone touches the poison with his bare skin. Such poisons can be used as injury poisons. Contact poisons usually have an onset time of 1 minute and a frequency of 1 minute. Ingested poisons are contracted when a creature eats or drinks the poison. Ingested poisons usually have an onset time of 10 minutes and a frequency of 1 minute. Injury poisons are primarily contracted through the attacks of certain creatures and through weapons coated in the toxin. Injury poisons do not usually have an onset time and have a frequency of 1 round. Inhaled poisons are contracted the moment a creature enters an area containing such poisons. Most inhaled poisons fill a volume equal to a 10-foot cube per dose. Creatures can attempt to [hold their breaths](rule/suffocation) while inside to avoid inhaling the toxin. Creatures holding their breaths receive a 50% chance of not having to make a Fortitude save each round. Note that a character that would normally suffocate while attempting to hold its breath instead begins to breathe normally again.",
+			"***Contact poisons*** are contracted the moment someone touches the poison with his bare skin. Such poisons can be used as injury poisons. Contact poisons usually have an onset time of 1 minute and a frequency of 1 minute.",
+			"",
+			"***Ingested poisons*** are contracted when a creature eats or drinks the poison. Ingested poisons usually have an onset time of 10 minutes and a frequency of 1 minute.",
+			"",
+			"***Injury poisons*** are primarily contracted through the attacks of certain creatures and through weapons coated in the toxin. Injury poisons do not usually have an onset time and have a frequency of 1 round.",
+			"",
+			"***Inhaled poisons*** are contracted the moment a creature enters an area containing such poisons. Most inhaled poisons fill a volume equal to a 10-foot cube per dose. Creatures can attempt to [hold their breaths](rule/suffocation) while inside to avoid inhaling the toxin. Creatures holding their breaths receive a 50% chance of not having to make a Fortitude save each round. Note that a character that would normally suffocate while attempting to hold its breath instead begins to breathe normally again.",
 			"",
 			"Unlike other afflictions, multiple doses of the same poison stack. Poisons delivered by injury and contact cannot inflict more than one dose of poison at a time, but inhaled and ingested poisons can inflict multiple doses at once. Each additional dose extends the total duration of the poison (as noted under frequency) by half its total duration. In addition, each dose of poison increases the DC to resist the poison by +2. This increase is cumulative. Multiple doses do not alter the cure conditions of the poison, and meeting these conditions ends the affliction for all the doses. For example, a character is bit three times in the same round by a trio of Medium monstrous spiders, injecting him with three doses of Medium spider venom. The unfortunate character must make a DC 18 Fortitude save for the next 8 rounds. Fortunately, just one successful save cures the character of all three doses of the poison.",
 			"",
@@ -7573,7 +7592,7 @@
 			"",
 			"Poisons can be made using Craft (alchemy). The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a Craft skill check while making a poison exposes the crafter to the poison. Crafters with the poison use class feature do not risk poisoning themselves when using Craft to make poison.",
 			"",
-			"[Find a list of poisons here.](main/equipment_poisons)"
+			"[Poisons are listed here.](main/equipment_poisons)"
 		],
 		"parent_topics": [
 			"combat",
@@ -7593,7 +7612,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook)",
 			"",
-			"Some creatures possess blindsight, the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and concealment (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
+			"Some creatures possess ***blindsight,*** the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and concealment (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
 			"",
 			"- Blindsight never allows a creature to distinguish color or visual contrast. A creature cannot read with blindsight.",
 			"- Blindsight does not subject a creature to gaze attacks (even though darkvision does).",
@@ -7620,7 +7639,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7653,7 +7671,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7670,7 +7687,7 @@
 			"",
 			"Many abilities and spells can cloud the minds of characters and monsters, leaving them unable to tell friend from foe-or worse yet, deceiving them into thinking that their former friends are now their worst enemies. Two general types of enchantments affect characters and creatures: charms and compulsions.",
 			"",
-			"Charming another creature gives the charming character the ability to befriend and suggest courses of action to his minion, but the servitude is not absolute or mindless. Charms of this type include the various charm spells and some monster abilities. Essentially, a charmed character retains free will but makes choices according to a skewed view of the world.",
+			"***Charming*** another creature gives the charming character the ability to befriend and suggest courses of action to his minion, but the servitude is not absolute or mindless. Charms of this type include the various charm spells and some monster abilities. Essentially, a charmed character retains free will but makes choices according to a skewed view of the world.",
 			"",
 			"- A charmed creature doesn't gain any magical ability to understand his new friend's language.",
 			"- A charmed character retains his original alignment and allegiances, generally with the exception that he now regards the charming creature as a dear friend and will give great weight to his suggestions and directions.",
@@ -7680,7 +7697,7 @@
 			"- If the charming creature commands his minion to do something that the influenced character would be violently opposed to, the subject may attempt a new saving throw to break free of the influence altogether.",
 			"- A charmed character who is openly attacked by the creature who charmed him or by that creature's apparent allies is automatically freed of the spell or effect.",
 			"",
-			"Compulsion is a different matter altogether. A compulsion overrides the subject's free will in some way or simply changes the way the subject's mind works. A charm makes the subject a friend of the caster; a compulsion makes the subject obey the caster.",
+			"***Compulsion*** is a different matter altogether. A compulsion overrides the subject's free will in some way or simply changes the way the subject's mind works. A charm makes the subject a friend of the caster; a compulsion makes the subject obey the caster.",
 			"",
 			"Regardless of whether a character is charmed or compelled, he does not volunteer information or tactics that his master doesn't ask for."
 		],
@@ -7700,7 +7717,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7741,7 +7757,7 @@
 			"| Adamantine[^1] | +4 |",
 			"| Alignment-based | +5 |",
 			"",
-			"[^1]: Note that this does not give the ability to ignore hardness, like an actual adamantine weapon does"
+			"[^1]: Note that this does not give the ability to ignore hardness, like an actual [adamantine](equip-material/adamantine) weapon does"
 		],
 		"parent_topics": [
 			"combat",
@@ -7759,7 +7775,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7792,7 +7807,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7830,7 +7844,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7851,7 +7864,7 @@
 			"",
 			"A creature with temporary negative levels receives a new saving throw to remove the negative level each day. The DC of this save is the same as the effect that caused the negative levels.",
 			"",
-			"Some abilities and spells (such as raise dead) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like restoration. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like raise dead and resurrection without also receiving a restoration spell, cast the round after it is restored to life."
+			"Some abilities and spells (such as [raise dead](spell/raise_dead)) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like [restoration](spell/restoration). Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like raise dead and resurrection without also receiving a restoration spell, cast the round after it is restored to life."
 		],
 		"parent_topics": [
 			"combat",
@@ -7869,7 +7882,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7879,45 +7891,15 @@
 		]
 	},
 	"energy_immunity_and_vulnerability": {
-		"name": "Energy Immunity and Vulnerability",
+		"name": "Energy Immunity, Vulnerability, and Resistance",
+		"tags": "energy resistance energy vulnerability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 563](source/prpg_core_rulebook)",
 			"",
-			"A creature with energy immunity never takes damage from that energy type. Vulnerability means the creature takes half again as much (+50%) damage as normal from that energy type, regardless of whether a saving throw is allowed or if the save is a success or failure."
-		],
-		"parent_topics": [
-			"combat",
-			"special_abilities_2"
-		],
-		"siblings": [
-			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
-			"afflictions",
-			"blindsight_and_blindsense",
-			"channel_resistance",
-			"charm_and_compulsion",
-			"damage_reduction",
-			"darkvision",
-			"death_attacks",
-			"energy_drain_and_negative_levels",
-			"energy_immunity_and_vulnerability",
-			"energy_resistance",
-			"fear",
-			"invisibility",
-			"low-light_vision",
-			"paralysis",
-			"scent",
-			"spell_resistance_2"
-		]
-	},
-	"energy_resistance": {
-		"name": "Energy Resistance",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 563](source/prpg_core_rulebook)",
+			"A creature with ***energy immunity*** never takes damage from that energy type. ***Vulnerability*** means the creature takes half again as much (+50%) damage as normal from that energy type, regardless of whether a saving throw is allowed or if the save is a success or failure.",
 			"",
-			"A creature with resistance to energy has the ability (usually extraordinary) to ignore some damage of a certain type per attack, but it does not have total immunity.",
+			"A creature with ***energy resistance*** has the ability (usually extraordinary) to ignore some damage of a certain type per attack, but it does not have total immunity.",
 			"",
 			"Each resistance ability is defined by what energy type it resists and how many points of damage are resisted. It doesn't matter whether the damage has a mundane or magical source.",
 			"",
@@ -7939,7 +7921,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -7980,7 +7961,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8029,11 +8009,11 @@
 			"",
 			"An invisible creature in the water displaces water, revealing its location. The invisible creature, however, is still hard to see and benefits from concealment.",
 			"",
-			"A creature with the scent ability can detect an invisible creature as it would a visible one.",
+			"A creature with the [scent](umr/scent) ability can detect an invisible creature as it would a visible one.",
 			"",
 			"A creature with the [Blind-Fight](feat/blind-fight) feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
 			"",
-			"A creature with blindsight can attack (and otherwise interact with) creatures regardless of invisibility.",
+			"A creature with [blindsight](rule/blindsight_and_blindsense) can attack (and otherwise interact with) creatures regardless of invisibility.",
 			"",
 			"An invisible burning torch still gives off light, as does an invisible object with a light or similar spell cast upon it.",
 			"",
@@ -8061,7 +8041,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8094,7 +8073,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8131,7 +8109,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8176,7 +8153,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8225,7 +8201,6 @@
 			"death_attacks",
 			"energy_drain_and_negative_levels",
 			"energy_immunity_and_vulnerability",
-			"energy_resistance",
 			"fear",
 			"invisibility",
 			"low-light_vision",
@@ -8296,9 +8271,9 @@
 			"",
 			"Combat is more than just knowing how to swing a sword without cutting yourself. To some, it is a means to an end, a regrettable necessity when all other options have failed, and a tool that is to be set down the moment it's not absolutely needed. To others, it is a panacea and a way of life-a means of solving any problem, and of proving one's worth by standing tall against one's fellows and the harsh denizens of an uncaring universe. In the hands of a skilled warrior, a sword is no longer simply a sharpened length of steel, and even a club is more than just a broken branch. These objects become instruments of a serious and sometimes brutal art, one whose practitioners are every bit as skilled in their artistry as the greatest bards. Many such acolytes of battle might say that theirs is the only art worth pursuing, as it's the sole one by which the artist not only inspires respect, but commands it. Combat is civilization's oldest trade and form of expression, and no matter how far we've come since the first days of stones and sticks, it continues to shape the events that define us. A civilized society may claim to abhor bloodshed, but it's that same bloodshed-or its threat-that watches over us and gives us the freedom to maintain such ideals.",
 			"",
-			"While the Pathfinder RPG Core Rulebook presents a robust system capable of simulating most combat, as well as a wide selection of weapons and armor types common to most European-influenced fantasy settings, this chapter provides new options for GMs and players alike to add depth to the standard combat rules, as well as introduces a wealth of new weapons with historical ties to those lands that would have seemed strange and exotic to residents of Medieval Europe."
+			"While the Pathfinder RPG Core Rulebook presents a robust system capable of simulating most combat, as well as a wide selection of weapons and armor types common to most European-influenced fantasy settings, this section provides new options for GMs and players alike to add depth to the standard combat rules, as well as introduces a wealth of new weapons with historical ties to those lands that would have seemed strange and exotic to residents of Medieval Europe."
 		],
-		"parent_topics": [ "combat" ],
+		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
 			"firearms",
 			"duels",
@@ -8306,18 +8281,20 @@
 			"siege_engines_uc"
 		],
 		"siblings": [
-			"how_combat_works",
-			"combat_statistics",
-			"actions_in_combat",
-			"injury_and_death",
-			"movement_position_and_distance",
-			"big_and_little_creatures_in_combat",
-			"combat_modifiers",
-			"special_attacks",
-			"special_initiative_actions",
-			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"bestiary",
+			"race_builder",
+			"campaign_systems",
+			"aquatic_adventures_aa",
+			"occult_rules",
+			"mastering_combat",
+			"mastering_intrigue",
+			"horror_rules",
+			"infernal_contracts",
+			"mastering_the_wild",
+			"planar_adventures",
+			"primal_magic"
 		]
 	}
 }

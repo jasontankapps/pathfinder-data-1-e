@@ -51,6 +51,10 @@ div.prevNext {
 div.prevNext.nextOnly {
 	justify-content: end;
 }
+div.prevNext div.prev,
+div.prevNext div.next {
+	background-color: var(--background-faint);
+}
 div.prevNext div.prev {
 	margin-inline-end: 0.125rem;
 }

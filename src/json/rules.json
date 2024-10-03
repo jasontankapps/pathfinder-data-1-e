@@ -66,8 +66,7 @@
 			"special_attacks",
 			"special_initiative_actions",
 			"conditions",
-			"special_abilities_2",
-			"mastering_combat"
+			"special_abilities_2"
 		],
 		"description": [
 			"These topics provide an overview of combat in the Pathfinder game."
@@ -94,6 +93,7 @@
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
+			"mastering_combat",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",

@@ -5798,7 +5798,7 @@
 			"",
 			"The following events are examples of the sort of random encounters a GM can add to the downtime system. Rolling for events occurs during the [Event phase](rule/event_phase).",
 			"",
-			"The first set of events consists of events that could happen to any kind of building-bad weather, a fire, a famous visitor, and so on. Following those generic events are specific events keyed to certain types of buildings-an Inn has different events than a Military Academy or Smithy. This section concludes with events for several kinds of organizations. Not every building and organization has its own event table-the GM should use the [Generic Building Events table](rule/generic_building_events) or take inspiration from this section to make tables for other buildings and organizations.",
+			"The first set of events consists of events that could happen to any kind of building-bad weather, a fire, a famous visitor, and so on. Following those generic events are specific events keyed to certain types of buildings-an Inn has different events than a Military Academy or Smithy. This section concludes with events for several kinds of organizations. Not every building and organization has its own event table-the GM should use the Generic Building Events table or take inspiration from this section to make tables for other buildings and organizations.",
 			"",
 			"If you don't own any buildings or organizations in a settlement, the GM can use these event tables to create events for buildings you are in or near. For example, the GM can use the [Tavern Events table](rule/tavern_events) to generate an event while you are at a tavern. The event descriptions assume that you are the owner, so the GM should adjust the outcome if you are merely present for an event.",
 			"",
@@ -5812,27 +5812,6 @@
 		],
 		"subtopics": [
 			"generic_building_events",
-			"alchemist_events",
-			"bardic_college_events",
-			"caster's_tower_events",
-			"castle_events",
-			"dance_hall_events",
-			"guildhall_events",
-			"herbalist_events",
-			"house_events",
-			"inn_events",
-			"library_events",
-			"magic_shop_events",
-			"magical_academy_events",
-			"menagerie_events",
-			"military_academy_events",
-			"monastery_events",
-			"shop_events",
-			"smithy_events",
-			"stable_events",
-			"tavern_events",
-			"temple_events",
-			"theater_events",
 			"organization_events"
 		],
 		"siblings": [
@@ -5904,6 +5883,9 @@
 		],
 		"siblings": [
 			"generic_building_events",
+			"organization_events"
+		],
+		"subtopics": [
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -5924,8 +5906,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"alchemist_events": {
@@ -5971,10 +5952,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -5995,8 +5976,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"bardic_college_events": {
@@ -6010,7 +5990,7 @@
 			"| --- | --- |",
 			"| 01-10 | Visiting master |",
 			"| 11-25 | Prodigy |",
-			"| 26-30 | Roll of the [Magical Academy Events](rule/magical_academy_events) table |",
+			"| 26-30 | Roll on the [Magical Academy Events](rule/magical_academy_events) table |",
 			"| 31-50 | Supply shortage |",
 			"| 51-60 | Hazardous stage |",
 			"| 61-70 | Stolen instrument |",
@@ -6040,10 +6020,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6064,8 +6044,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"caster's_tower_events": {
@@ -6097,10 +6076,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6121,8 +6100,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"castle_events": {
@@ -6156,10 +6134,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6180,8 +6158,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"dance_hall_events": {
@@ -6218,10 +6195,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6242,8 +6219,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"guildhall_events": {
@@ -6277,10 +6253,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6301,8 +6277,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"herbalist_events": {
@@ -6334,10 +6309,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6358,8 +6333,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"house_events": {
@@ -6394,10 +6368,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6418,8 +6392,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"inn_events": {
@@ -6451,10 +6424,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6475,8 +6448,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"library_events": {
@@ -6513,10 +6485,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6537,8 +6509,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"magic_shop_events": {
@@ -6568,10 +6539,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6592,8 +6563,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"magical_academy_events": {
@@ -6631,10 +6601,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6655,8 +6625,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"menagerie_events": {
@@ -6690,10 +6659,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6714,8 +6683,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"military_academy_events": {
@@ -6750,10 +6718,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6774,8 +6742,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"monastery_events": {
@@ -6813,10 +6780,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6837,8 +6804,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"shop_events": {
@@ -6875,10 +6841,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6899,8 +6865,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"smithy_events": {
@@ -6941,10 +6906,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -6965,8 +6930,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"stable_events": {
@@ -7003,10 +6967,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -7027,8 +6991,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"tavern_events": {
@@ -7065,10 +7028,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -7089,8 +7052,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"temple_events": {
@@ -7128,10 +7090,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -7152,8 +7114,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"theater_events": {
@@ -7193,10 +7154,10 @@
 		"parent_topics": [
 			"exploration",
 			"downtime",
-			"downtime_events"
+			"downtime_events",
+			"generic_building_events"
 		],
 		"siblings": [
-			"generic_building_events",
 			"alchemist_events",
 			"bardic_college_events",
 			"caster's_tower_events",
@@ -7217,8 +7178,7 @@
 			"stable_events",
 			"tavern_events",
 			"temple_events",
-			"theater_events",
-			"organization_events"
+			"theater_events"
 		]
 	},
 	"organization_events": {
@@ -7243,27 +7203,6 @@
 		],
 		"siblings": [
 			"generic_building_events",
-			"alchemist_events",
-			"bardic_college_events",
-			"caster's_tower_events",
-			"castle_events",
-			"dance_hall_events",
-			"guildhall_events",
-			"herbalist_events",
-			"house_events",
-			"inn_events",
-			"library_events",
-			"magic_shop_events",
-			"magical_academy_events",
-			"menagerie_events",
-			"military_academy_events",
-			"monastery_events",
-			"shop_events",
-			"smithy_events",
-			"stable_events",
-			"tavern_events",
-			"temple_events",
-			"theater_events",
 			"organization_events"
 		]
 	},
@@ -7500,7 +7439,7 @@
 			"young_characters",
 			"affiliations"
 		],
-		"siblings":  [
+		"siblings": [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
@@ -7508,6 +7447,7 @@
 			"campaign_systems",
 			"aquatic_adventures_aa",
 			"occult_rules",
+			"mastering_combat",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",
