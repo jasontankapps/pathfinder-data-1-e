@@ -2263,7 +2263,7 @@
 			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the [size of the settlement](rule/settlement_population_ranges) (see the Sinister Reputation table below). If the check succeeds, you can attempt an Intimidate check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
 			"**Special:** This feat's benefits always apply to a vigilante's area of renown, and he can choose whether the reputation and benefits apply to his social identity, vigilante identity, or both. You can always apply this feat's benefits to followers and cohorts gained from Leadership or similar abilities.",
 			"",
-			"**Sinister Reputation**",
+			"### Sinister Reputation Table",
 			"",
 			"| Settlement Size | DC |",
 			"| --- | --- |",
@@ -7017,7 +7017,7 @@
 			"",
 			"You were trained from youth to infiltrate and ambush aboveground settlements.  ",
 			"**Prerequisites:** Drow, spell-like abilities drow racial trait.  ",
-			"**Benefit:** You can use fear the sun and ignoble form (see below) each once per day as a spell-like ability. Your caster level is equal to your character level."
+			"**Benefit:** You can use [fear the sun](spell/fear_the_sun) and [ignoble form](spell/ignoble_form) each once per day as a spell-like ability. Your caster level is equal to your character level."
 		]
 	},
 	"surface_survivor": {

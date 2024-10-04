@@ -155,7 +155,7 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the Harvest Parts feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
+			"This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the [Harvest Parts](feat/harvest_parts) feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
 		]
 	},
 	"poison_tattoo": {
@@ -332,9 +332,9 @@
 			"",
 			"Consecrated to one of Golarion's many deities, this intricately etched case contains numerous candles, stands, scented herbs, dishes, silks, small cups, containers, and similar ceremonial tools all bearing colors and iconography sacred to the associated deity. The sturdy container features a padded interior with numerous straps and compartments so that the items within aren't damaged in transport. The altar's surface prominently features a deity's holy symbol, and it's sturdy enough that it can support up to 300 pounds of weight, enough to serve as a makeshift pulpit.",
 			"",
-			"Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type (see below).",
+			"Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type.",
 			"",
-			"In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies (see below). The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus-the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
+			"In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus-the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
 			"",
 			"A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials-preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar."
 		]
@@ -364,7 +364,7 @@
 			"**Price** 125 gp; **Weight** 9 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a bell tripwire trap (see above). When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
+			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a [bell tripwire trap](equipment-misc/bell_tripwire_trap). When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
 			"",
 			"**Portable Bolt Trap - CR 1/2**  ",
 			"**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20  ",
@@ -1011,7 +1011,7 @@
 			"**Price** 400 gp; **Weight** 12 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a haunt detector (see above), but with greater accuracy-a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
+			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a [haunt detector](equipment-misc/haunt_detector), but with greater accuracy-a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
 		]
 	},
 	"quieting_needles": {
@@ -1057,7 +1057,7 @@
 			"**Price** 2 gp; **Weight** 3 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats (see the Bestiary)."
+			"Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats."
 		]
 	},
 	"raccoon": {
@@ -2224,7 +2224,7 @@
 			"**Price** 290 gp; **Weight** 12 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical spirit planchette set (see Pathfinder Adventure Path #43: The Haunting of Harrowstone 19, or treat as a board game worth 25 gp), 10 candles, 10 candlesticks, one entertainer's outfit, one harrow deck, one magnet, 10 sticks of incense, one scroll of augury, and two scrolls of prestidigitation."
+			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical spirit planchette set (treat as a board game worth 25 gp), 10 candles, 10 candlesticks, one entertainer's outfit, one harrow deck, one magnet, 10 sticks of incense, one scroll of augury, and two scrolls of prestidigitation."
 		]
 	},
 	"second-story_harness": {
@@ -2568,7 +2568,7 @@
 			"**Price** varies; **Weight** varies  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the Craft Shoddy Item feat (see above) in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
+			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the [Craft Shoddy Item](feat/craft_shoddy_item) feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
 			"",
 			"Any shoddy item has its hardness reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account). Items other than weapons and armor have a 10% chance to gain the broken condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful Craft checks and gp expenditure to fix the initial flaws. Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.",
 			"",
@@ -3926,7 +3926,7 @@
 			"**Price** 140 gp; **Weight** 12-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a book of letters, a disguise kit, a hollow-heeled boot (see above), ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
+			"This kit includes a book of letters, a disguise kit, a [hollow-heeled boot](equipment-misc/hollow-heeled_boot), ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
 		]
 	},
 	"spycatcher's_kit": {
@@ -3938,7 +3938,7 @@
 			"**Price** 260 gp; **Weight** 7-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes an antidote kit, a cryptography book (see above), litmus strips (5), and a portrait book."
+			"This kit includes an antidote kit, a cryptography book, litmus strips (5), and a portrait book."
 		]
 	},
 	"spyglass_masterwork": {
@@ -4023,7 +4023,7 @@
 			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
 			"**Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)",
 			"",
-			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats (see the Bestiary).",
+			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.",
 			"",
 			"**Flying squirrel:** These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars."
 		]
@@ -7400,7 +7400,7 @@
 			"**Price** 24 gp; **Weight** 1,000 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows. Yaks have the same statistics as bison (see the Bestiary)."
+			"These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows. Yaks have the same statistics as bison."
 		]
 	},
 	"yenchaburian_hybrid": {

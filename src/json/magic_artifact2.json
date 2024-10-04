@@ -181,7 +181,7 @@
 			"**Int** 15, Wis 13, Cha 10  ",
 			"**Communication** read languages, speech (Azlanti, Elven, Thassilonian)  ",
 			"**Powers** [detect thoughts](spell/detect_thoughts) 3/day, [modify memory](spell/modify_memory) 1/day  ",
-			"**Dedicated Powers** consume magic (see below)  ",
+			"**Dedicated Powers** consume magic (see above)  ",
 			"**Special Purpose** defeat arcane spellcasters"
 		]
 	},
@@ -1073,7 +1073,7 @@
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
-			"No record of where Kamaria found this potent artifact exists, although many believe she discovered it while exploring a remote corner of the nightmare realm of Leng. The Gem of Dreams can be used once per month to absorb the dreaming mind of any sleeping creature it is in contact with-this ability must be activated as a full-round action. The sleeping creature can resist this doom by making a DC 20 Will save-with a success, he is afflicted by a nightmare spell (CL 20th) but is otherwise unharmed. If he fails the save, his dreaming mind is stolen, warped, and then siphoned back into his body in the space of an hour. If the victim is awakened before this process completes, his body twists and transforms into a creature known as a dream eater (see above), at which point only wish or miracle (or the destruction of the Gem of Dreams) can restore him to his true form. At the point the transformation occurs, the creature that activated the gem's power ceases to age for a month. By using the gem every month (and creating more and more dream eaters), a person can effectively become immortal in this manner. While this is technically nothing more than a beneficial side effect, it is this power that has generated the majority of the gem's legendary fame.",
+			"No record of where Kamaria found this potent artifact exists, although many believe she discovered it while exploring a remote corner of the nightmare realm of Leng. The Gem of Dreams can be used once per month to absorb the dreaming mind of any sleeping creature it is in contact with-this ability must be activated as a full-round action. The sleeping creature can resist this doom by making a DC 20 Will save-with a success, he is afflicted by a nightmare spell (CL 20th) but is otherwise unharmed. If he fails the save, his dreaming mind is stolen, warped, and then siphoned back into his body in the space of an hour. If the victim is awakened before this process completes, his body twists and transforms into a creature known as a [dream eater](template/dream_eater), at which point only wish or miracle (or the destruction of the Gem of Dreams) can restore him to his true form. At the point the transformation occurs, the creature that activated the gem's power ceases to age for a month. By using the gem every month (and creating more and more dream eaters), a person can effectively become immortal in this manner. While this is technically nothing more than a beneficial side effect, it is this power that has generated the majority of the gem's legendary fame.",
 			"",
 			"### Destruction",
 			"",
@@ -2534,7 +2534,7 @@
 			"**Aura** overwhelming conjuration; **CL** 23rd  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
 			"",
-			"This innocuous-looking scrap is nothing less than the physical manifestation of a man-made demiplane known as Kakishon, and the rune covering the scroll is in fact a representation of the plane's several island regions. To open the gate, one must unfurl the scroll and speak the names Aliskiren, Isles of Night, Ismaizade, Kakishon, Khandelwal, Khosravi, and Serpent Isles, each time touching the section of the rune corresponding to the named island group. Once, this process allowed the user to choose where to appear within the realm, but the scroll is now damaged, and upon activation, all creatures within 50 feet with line of effect to the scroll must make a DC 40 Reflex save. Those who fail are sucked into the scroll and bodily transported to one of the waypoints within the demiplane of Kakishon (see map). At the same instant creatures enter the plane, any being that previously entered the plane involuntarily may choose to depart, being expelled from the scroll back to the Material Plane. Once inside Kakishon, escape can prove difficult, requiring those trapped within to wait for others to enter, for the casting of a spell similar to plane shift, or for the discovery of one of the foundations of Kakishon's reality, all of which transport the subjects back to the Material Plane to a point within 10 feet of the Scroll of Kakishon.",
+			"This innocuous-looking scrap is nothing less than the physical manifestation of a man-made demiplane known as Kakishon, and the rune covering the scroll is in fact a representation of the plane's several island regions. To open the gate, one must unfurl the scroll and speak the names Aliskiren, Isles of Night, Ismaizade, Kakishon, Khandelwal, Khosravi, and Serpent Isles, each time touching the section of the rune corresponding to the named island group. Once, this process allowed the user to choose where to appear within the realm, but the scroll is now damaged, and upon activation, all creatures within 50 feet with line of effect to the scroll must make a DC 40 Reflex save. Those who fail are sucked into the scroll and bodily transported to one of the waypoints within the demiplane of Kakishon. At the same instant creatures enter the plane, any being that previously entered the plane involuntarily may choose to depart, being expelled from the scroll back to the Material Plane. Once inside Kakishon, escape can prove difficult, requiring those trapped within to wait for others to enter, for the casting of a spell similar to plane shift, or for the discovery of one of the foundations of Kakishon's reality, all of which transport the subjects back to the Material Plane to a point within 10 feet of the Scroll of Kakishon.",
 			"",
 			"### Destruction",
 			"",
@@ -3174,7 +3174,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy below), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
 		]
 	},
 	"sword_of_gluttony_ungarato": {
@@ -3243,7 +3243,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy below), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
 		]
 	},
 	"sword_of_lust_asheia": {
@@ -3278,7 +3278,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Dedicated Powers** If the sword is active (see below), it can cast [create food and water](spell/create_food_and_water), [endure elements](spell/endure_elements), and [cure serious wounds](spell/cure_serious_wounds) 3 times per day each."
+			"**Dedicated Powers** If the sword is active (see above), it can cast [create food and water](spell/create_food_and_water), [endure elements](spell/endure_elements), and [cure serious wounds](spell/cure_serious_wounds) 3 times per day each."
 		]
 	},
 	"sword_of_pride_baraket": {
@@ -3308,7 +3308,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy below), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
 		]
 	},
 	"sword_of_sloth_shin_tari": {
@@ -3355,7 +3355,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy below), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
 		]
 	},
 	"sword_of_wrath_garvok": {

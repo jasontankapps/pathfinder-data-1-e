@@ -1126,7 +1126,7 @@
 			"**Price** 670 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one spiritbane spike (see above), and a wooden holy symbol."
+			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one [spiritbane spike](equipment-misc/spiritbane_spike), and a wooden holy symbol."
 		]
 	},
 	"ghost_ink": {
@@ -5564,7 +5564,7 @@
 			"**Price** 15 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A smaller version of the bullseye lantern, a miner's lantern provides normal light in a 30- foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of oil. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand."
+			"A smaller version of the bullseye lantern, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of oil. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand."
 		]
 	},
 	"miner's_pick": {
@@ -6699,7 +6699,7 @@
 			"**Price** 55 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a city map (see above), and fashionable accessories (see above)."
+			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a [city map](equipment-misc/city_map), and [fashionable accessories](equipment-misc/fashionable_accessories)."
 		]
 	},
 	"out_of_towner's_kit": {
@@ -6952,7 +6952,7 @@
 			"**Price** 50 gp; **Weight** 4 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ravens (see the Bestiary)."
+			"These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ravens."
 		]
 	},
 	"patchwork_cloak": {

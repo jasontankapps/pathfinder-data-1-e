@@ -1208,19 +1208,20 @@
 			"**Prerequisites:** Kineticist level 1st, elemental focus class feature.  ",
 			"**Benefit:** For each kineticist element to which you have access, you treat all spells associated with that element (see below) as utility wild talents of the listed level, which you can select as normal. Each has a burn cost of 1 unless otherwise noted, and any non-permanent, non-instantaneous effects end when your burn is removed. Using this wild talent is considered psychic spellcasting (except for the purpose of prerequisites), and you must provide emotion and thought components, as well as material components where appropriate. In addition, some spells are restricted to certain races. Your caster level for a spell is equal to your kineticist level, and the save DC for any spell is equal to 10 + the listed level of the spell + your Constitution modifier. At the GM's discretion, other appropriate spells can be added to each element's list.",
 			"",
-			"Aether: Etheric shards (5th), instant armor (2nd), kinetic reverberation (2nd), protective spirit (3rd), telekinetic charge (4th; 2 burn).",
+			"**Aether:** Etheric shards (5th), instant armor (2nd), kinetic reverberation (2nd), protective spirit (3rd), telekinetic charge (4th; 2 burn).",
 			"",
-			"Air: Air step (2nd), body capacitance (1st), cloak of winds (3rd), cloud shape (4th; self only), gaseous form (3rd), wind walk (6th).",
+			"**Air:** Air step (2nd), body capacitance (1st), cloak of winds (3rd), cloud shape (4th; self only), gaseous form (3rd), wind walk (6th).",
 			"",
-			"Earth: Expeditious excavation (2nd; 0 burn), groundswell (2nd), imprisonment (9th), rampart (7th), slowing mud (4th), statue (7th; 0 burn; self only), stone shield (1st).",
+			"**Earth:** Expeditious excavation (2nd; 0 burn), groundswell (2nd), imprisonment (9th), rampart (7th), slowing mud (4th), statue (7th; 0 burn; self only), stone shield (1st).",
 			"",
-			"Fire: Blessing of the salamander (5th; self only), boiling blood (2nd), death candle (2nd), fury of the sun (2nd; 0 burn), hypnotic pattern (2nd), hypnotism (2nd; 0 burn), invigorate (1st).",
+			"**Fire:** Blessing of the salamander (5th; self only), boiling blood (2nd), death candle (2nd), fury of the sun (2nd; 0 burn), hypnotic pattern (2nd), hypnotism (2nd; 0 burn), invigorate (1st).",
 			"",
-			"Void: Animate dead (3rd), command undead (2nd), death ward (4th), halt undead (3rd), life channel (1st; 0 burn; self only), mind blank (8th; self only), unliving rage (3rd).",
+			"**Void:** Animate dead (3rd), command undead (2nd), death ward (4th), halt undead (3rd), life channel (1st; 0 burn; self only), mind blank (8th; self only), unliving rage (3rd).",
 			"",
-			"Water: Fluid form (6th), ride the waves (4th), silent image (2nd; 0 burn), sleet storm (3rd), water breathing (3rd).",
+			"**Water:** Fluid form (6th), ride the waves (4th), silent image (2nd; 0 burn), sleet storm (3rd), water breathing (3rd).",
 			"",
-			"Wood: Command plants (4th), fairy ring retreat (7th; ends 1 hour after your burn is removed), goodberry (1st), grove of respite (4th), lesser restoration (2nd), ward of the season (3rd).  ",
+			"**Wood:** Command plants (4th), fairy ring retreat (7th; ends 1 hour after your burn is removed), goodberry (1st), grove of respite (4th), lesser restoration (2nd), ward of the season (3rd).",
+			"",
 			"**Special:** Kineticists with the air affinity, earth affinity, fire affinity, or water affinity racial traits or the air, earth, fire, or water subtypes can select spells of the appropriate element as if they had this feat. Caligni and dhampir kineticists can select spells of the void element as if they had this feat. Gathlain and ghoran kineticists can select spells of the wood element as if they had this feat. Such a character must still have access to the appropriate element to select spells this way. At the GM's discretion, this benefit can be expanded to other races."
 		]
 	},
@@ -3858,7 +3859,7 @@
 			"",
 			"You can use your mask as an additional focus for your arcane spells, enhancing their power.  ",
 			"**Prerequisites:** [Extend Spell](feat/extend_spell), [Nameless One](feat/nameless_one), ability to cast 3rd-level arcane spells.  ",
-			"**Benefit:** While you're benefiting from the Nameless One feat (see below), the mask you wear to gain the benefits of that feat satisfies the focus component of any spell you cast that requires a mask (such as mask from divination). In addition, once per day you can apply the Extend Spell metamagic feat to an arcane spell without increasing the spell's level by adding your mask as a focus component. When Extend Spell is applied in this manner, its increase to duration applies only to effects that target you; other creatures use the spell's normal duration. For example, if you use this ability with the haste spell, the spell's effects last twice as long for you, but not for any other creature that you target with the spell."
+			"**Benefit:** While you're benefiting from the Nameless One feat, the mask you wear to gain the benefits of that feat satisfies the focus component of any spell you cast that requires a mask (such as mask from divination). In addition, once per day you can apply the Extend Spell metamagic feat to an arcane spell without increasing the spell's level by adding your mask as a focus component. When Extend Spell is applied in this manner, its increase to duration applies only to effects that target you; other creatures use the spell's normal duration. For example, if you use this ability with the haste spell, the spell's effects last twice as long for you, but not for any other creature that you target with the spell."
 		]
 	},
 	"mask_of_virtue": {
@@ -3997,7 +3998,7 @@
 			"",
 			"Your superior crafting skills allow you to create simple magic items.  ",
 			"**Prerequisites:** 5 ranks in any Craft or Profession skill.  ",
-			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Magic Items). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
+			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the [magic item creation rules](rule/magic_item_creation)). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
 			"**Normal:** Only spellcasters can qualify for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [Craft Wondrous Item](feat/craft_wondrous_item) feats."
 		]
 	},

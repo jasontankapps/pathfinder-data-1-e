@@ -322,9 +322,9 @@
 			"",
 			"**Performance Strike (Sp):** At 8th level, as a swift action, a deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level). This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the deadly courtesan archetype: finesse rogue, stand up (Core Rulebook); charmer, coax information, fast fingers, honeyed words ; convincing lie, deft palm.",
+			"**Rogue Talents:** The following rogue talents complement the deadly courtesan archetype: finesse rogue, stand up; charmer, coax information, fast fingers, honeyed words; convincing lie, deft palm.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the deadly courtesan archetype: slippery mind (Core Rulebook); master of disguise ; rumormonger, unwitting ally."
+			"**Advanced Talents:** The following advanced rogue talents complement the deadly courtesan archetype: slippery mind; master of disguise; rumormonger, unwitting ally."
 		]
 	},
 	"desert_raider": {
@@ -472,9 +472,9 @@
 			"",
 			"This ability replaces evasion and the rogue talents gained at 4th, 8th, 12th, and 16th levels.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the earthshadow archetype: extra earthcraft (see below), favored terrain, fortified position (see below), major magic, minor magic, resiliency, and trap spotter.",
+			"**Rogue Talents:** The following rogue talents complement the earthshadow archetype: extra earthcraft, favored terrain, fortified position, major magic, minor magic, resiliency, and trap spotter.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the earthshadow archetype: against the wall (see below), dispelling attack, hide in plain sight, slippery mind, and stony skin (see below)."
+			"**Advanced Talents:** The following advanced rogue talents complement the earthshadow archetype: against the wall, dispelling attack, hide in plain sight, slippery mind, and stony skin."
 		]
 	},
 	"eldritch_raider": {
@@ -500,9 +500,9 @@
 			"",
 			"**Minor Eldritch Magic (Sp):** The eldritch raider gains the ability to cast a 2nd-level spell from the sorcerer/wizard spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 12 to select this talent. The eldritch raider must have the major magic and minor magic rogue talents before choosing this talent.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the eldritch raider archetype: major magic, minor magic, quick disable, trap spotter (Core Rulebook); fast picks ; black market connections, esoteric scholar, ninja trick (slow metabolism, wall climber).",
+			"**Rogue Talents:** The following rogue talents complement the eldritch raider archetype: major magic, minor magic, quick disable, trap spotter; fast picks; black market connections, esoteric scholar, ninja trick (slow metabolism, wall climber).",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the eldritch raider archetype: dispelling attack, improved evasion, slippery mind (Core Rulebook); major eldritch magic, minor eldritch magic; thoughtful reexamination ; familiar, hard to fool."
+			"**Advanced Talents:** The following advanced rogue talents complement the eldritch raider archetype: dispelling attack, improved evasion, slippery mind; major eldritch magic, minor eldritch magic; thoughtful reexamination; familiar, hard to fool."
 		]
 	},
 	"eldritch_scoundrel": {
@@ -834,9 +834,9 @@
 			"",
 			"**Kitsune's Charm (Sp):** At 3rd level, a kitsune trickster can use charm person once per day as a spell-like ability (caster level equal to her rogue level - 2). At 6th level, and every three levels thereafter, the kitsune trickster gains an additional daily use of this ability. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the kitsune trickster archetype: major magic, minor magic (Core Rulebook); false friend, obfuscate story, steal the story (see below); charmer, coax information, honeyed words ; convincing lie.",
+			"**Rogue Talents:** The following rogue talents complement the kitsune trickster archetype: major magic, minor magic; false friend, obfuscate story, steal the story; charmer, coax information, honeyed words; convincing lie.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the kitsune trickster archetype: skill mastery, slippery mind (Core Rulebook); master of disguise ; rumormonger."
+			"**Advanced Talents:** The following advanced rogue talents complement the kitsune trickster archetype: skill mastery, slippery mind; master of disguise ; rumormonger."
 		]
 	},
 	"knife_master": {
@@ -1419,7 +1419,7 @@
 			"",
 			"**Underhanded Maneuvers (Ex):** At 1st level, when she could normally make a sneak attack, a slayer may instead make a dirty trick or steal combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 &times; her number of sneak attack dice for a steal combat maneuver. This ability replaces trapfinding.",
 			"",
-			"**Bonus Feats:** At 2nd level, a skulking slayer can select the Surprise Follow-Through feat (see below) in place of a rogue talent. At 10th level, she can select the Improved Surprise Follow-Through feat (if she already has Surprise Follow-Through) in place of an advanced rogue talent.",
+			"**Bonus Feats:** At 2nd level, a skulking slayer can select the [Surprise Follow-Through](feat/surprise_follow-through) feat in place of a rogue talent. At 10th level, she can select the [Improved Surprise Follow-Through](feat/improved_surprise_follow-through) feat (if she already has Surprise Follow-Through) in place of an advanced rogue talent.",
 			"",
 			"**Bold Strike (Ex):** At 3rd level, when a skulking slayer charges and makes a sneak attack with a two-handed weapon, she rolls d8s instead of d6s for her sneak attack damage. This ability replaces trap sense +1 and +4.",
 			"",

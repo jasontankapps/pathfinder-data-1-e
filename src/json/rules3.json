@@ -1548,7 +1548,7 @@
 			"",
 			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
 			"",
-			"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or cannot hear what the caster of a language- dependant spell says, the spell fails.",
+			"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or cannot hear what the caster of a language-dependant spell says, the spell fails.",
 			"",
 			"A mind-affecting spell works only against creatures with an Intelligence score of 1 or higher."
 		],
@@ -2342,7 +2342,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 219](source/prpg_core_rulebook)",
 			"",
-			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see Arcane Magical Writings, above). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
+			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see [Arcane Magical Writing](rule/arcane_magical_writing)). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
 		],
 		"parent_topics": [
 			"magic",
@@ -2368,7 +2368,7 @@
 			"",
 			"***Spells Gained at a New Level:*** Wizards perform a certain amount of spell research between adventures. Each time a character attains a new wizard level, he gains two spells of his choice to add to his spellbook. The two free spells must be of spell levels he can cast.",
 			"",
-			"***Spells Copied from Another's Spellbook or a Scroll:*** A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see Arcane Magical Writings). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see Writing a New Spell into a Spellbook). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
+			"***Spells Copied from Another's Spellbook or a Scroll:*** A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see [Arcane Magical Writing](rule/arcane_magical_writing)). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see Writing a New Spell into a Spellbook). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
 			"",
 			"If the check fails, the wizard cannot understand or copy the spell. He cannot attempt to learn or copy that spell again until one week has passed. If the spell was from a scroll, a failed Spellcraft check does not cause the spell to vanish.",
 			"",
@@ -2590,7 +2590,7 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 221](source/prpg_core_rulebook)",
 			"",
-			"Divine spells can be written and deciphered like arcane spells (see Arcane Magical Writings). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
+			"Divine spells can be written and deciphered like arcane spells (see [Arcane Magical Writing](rule/arcane_magical_writing)). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
 		],
 		"parent_topics": [
 			"magic",

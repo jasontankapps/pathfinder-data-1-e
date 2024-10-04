@@ -365,7 +365,7 @@
 			"",
 			"You may be small, but your remarks cut others down to size.  ",
 			"**Prerequisites:** Cha 13, Small size or smaller.  ",
-			"**Benefit:** You can demoralize opponents using Bluff rather than Intimidate (see the Intimidate skill description for details) and take no skill check penalty for being smaller than your target."
+			"**Benefit:** You can demoralize opponents using Bluff rather than Intimidate (see the [Intimidate](skill/intimidate) skill description for details) and take no skill check penalty for being smaller than your target."
 		]
 	},
 	"tavern_regular": {
@@ -4316,7 +4316,7 @@
 			"| Has a tendency toward long periods of inactivity | -1 |",
 			"| Restricts minions from looting, pillaging, or pursing other spoils of war | -1 |",
 			"",
-			"[^C]: Cumulative per incident of compassion shown. This penalty is incurred even if you show mercy to avoid killing or punishing more than 20% of your minions during a given character level (see the footnote in the following table).",
+			"[^C]: Cumulative per incident of compassion shown. This penalty is incurred even if you show mercy to avoid killing or punishing more than 20% of your minions during a given character level.",
 			"[^B]: Cumulative to a maximum bonus of +1 per character level. If you punish or kill more than 20% of your minions during a given character level, this bonus becomes a penalty instead. When you gain a new level, any bonus or penalty from punishing or killing minions resets to 0."
 		]
 	},

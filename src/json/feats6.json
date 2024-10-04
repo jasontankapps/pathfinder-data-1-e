@@ -3896,7 +3896,7 @@
 			"",
 			"You can draw weapons faster than most.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the Sleight of Hand skill) as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow). Alchemical items, potions, scrolls, and wands cannot be drawn quickly using this feat.  ",
+			"**Benefit:** You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the [Sleight of Hand](skill/sleight_of_hand) skill) as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow). Alchemical items, potions, scrolls, and wands cannot be drawn quickly using this feat.  ",
 			"**Normal:** Without this feat, you may draw a weapon as a move action, or (if your base attack bonus is +1 or higher) as a free action as part of movement. Without this feat, you can draw a hidden weapon as a standard action.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -6113,7 +6113,7 @@
 			"**Source** [PRPG Core Rulebook pg. 132](source/prpg_core_rulebook)",
 			"",
 			"You are swift of foot.  ",
-			"**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see the Acrobatics skill description), you gain a +4 bonus on your Acrobatics check. While running, you retain your Dexterity bonus to your Armor Class.  ",
+			"**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see the [Acrobatics](skill/acrobatics) skill description), you gain a +4 bonus on your Acrobatics check. While running, you retain your Dexterity bonus to your Armor Class.  ",
 			"**Normal:** You move four times your speed while running (if wearing medium, light, or no armor and carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a heavy load), and you lose your Dexterity bonus to AC.",
 			"",
 			"### Mythic Run",
@@ -6913,7 +6913,7 @@
 			"",
 			"You can create magic scrolls.  ",
 			"**Prerequisites:** Caster level 1st.  ",
-			"**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the magic item creation rules in Magic Items for more information."
+			"**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the [magic item creation rules](rule/magic_item_creation) for more information."
 		]
 	},
 	"scribe_spell_equation": {

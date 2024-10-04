@@ -777,7 +777,7 @@
 			"**Aura** strong conjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Deck of Harrowed Tales is a unique Harrow deck linked to the Harrowed Realm, a fantastical demiplane populated by whimsical and nefarious manifestations of characters from a Harrow deck's illustrations (see the sidebar for more details on this realm). Once per day, at a mental command from its wielder, the Deck of Harrowed Tales can create a swirling vortex to the Harrowed Realm, as per the spell gate. This ability does not function while the deck is in the Harrowed Realm, requiring those within to find another method of escape.",
+			"The Deck of Harrowed Tales is a unique Harrow deck linked to the Harrowed Realm, a fantastical demiplane populated by whimsical and nefarious manifestations of characters from a Harrow deck's illustrations. Once per day, at a mental command from its wielder, the Deck of Harrowed Tales can create a swirling vortex to the Harrowed Realm, as per the spell gate. This ability does not function while the deck is in the Harrowed Realm, requiring those within to find another method of escape.",
 			"",
 			"### Destruction",
 			"",
@@ -2229,7 +2229,7 @@
 			"",
 			"If the parasitic soul is excised from a victim, it returns to the phylactery and attempts to infect the next creature to open the box. The parasitic soul can only infect one creature at a time. While a creature is infected by a parasitic soul, the phylactery the soul is bound to has no dangerous properties and cannot infect other creatures.",
 			"",
-			"The invasive nature of phylacteries of the failed has spawned the creation of several other pernicious magic items, such as the disease-spreading death's head coffer (see Pathfinder Adventure Path #8).",
+			"The invasive nature of phylacteries of the failed has spawned the creation of several other pernicious magic items, such as the disease-spreading [death's head coffer](magic-wondrous/death's_head_coffer).",
 			"",
 			"Parasitic Soul Curse and disease; save Will DC 30; frequency 1/day; effect 1d6 Intelligence damage; cure a parasitic soul can only be cured by casting both a spell that prevents the target from being mentally controlled (like protection from evil) and remove curse.",
 			"",
@@ -3500,7 +3500,7 @@
 			"**Aura** stong abjuration; **CL** 18th  ",
 			"**Slot** none; **Price** -; **Weight** 2,000 lbs.",
 			"",
-			"This huge, ornate throne, carved from white marble and inlaid with flickering, smoking, multicolored spirals of serpentstone, is uncomfortably tall and thin for most humans, as it is designed to seat a high priest of the serpentfolk. While seated upon the throne, a divine caster who worships Ydersius may use a spell slot or exchange any prepared divine spell (including domain spells) of 3rd level or higher to cast dispel magic. Once per day, a divine caster of sufficient level may instead cast greater dispel magic in place of a spell of 6th level or higher. This ability is in most other ways identical to the spontaneous casting of clerics and druids (see the Pathfinder RPG Core Rulebook), but may also be employed by antipaladins, inquisitors, oracles, or other divine casters faithful to Ydersius. The throne bestows one permanent negative level on any creature that sits upon it, other than divine casters who worship Ydersius. This negative level remains as long as the non-sentient or heretical creature sits upon the throne and disappears when the throne is vacated. This negative level cannot be overcome in any way (including by restoration spells) while the throne is occupied.",
+			"This huge, ornate throne, carved from white marble and inlaid with flickering, smoking, multicolored spirals of serpentstone, is uncomfortably tall and thin for most humans, as it is designed to seat a high priest of the serpentfolk. While seated upon the throne, a divine caster who worships Ydersius may use a spell slot or exchange any prepared divine spell (including domain spells) of 3rd level or higher to cast dispel magic. Once per day, a divine caster of sufficient level may instead cast greater dispel magic in place of a spell of 6th level or higher. This ability is in most other ways identical to the spontaneous casting of clerics and druids, but may also be employed by antipaladins, inquisitors, oracles, or other divine casters faithful to Ydersius. The throne bestows one permanent negative level on any creature that sits upon it, other than divine casters who worship Ydersius. This negative level remains as long as the non-sentient or heretical creature sits upon the throne and disappears when the throne is vacated. This negative level cannot be overcome in any way (including by restoration spells) while the throne is occupied.",
 			"",
 			"### Destruction",
 			"",
@@ -3957,7 +3957,7 @@
 			"",
 			"Hand-painted images decorate this harrow deck, and the cards frames are gilded in silver so that they sparkle and flash under lighting. Despite the worn condition of the card backs, the images on the faces are so vibrant they seem to move when viewed out of the corner of the eye. The deck handles with surprising ease, almost shuffling itself. A bent, torn, or lost card always seems to mend itself or reappear when no one is looking.",
 			"",
-			"These features are subtle manifestations of the spirit that haunts the cards. In life, Zellara lived by this deck, and in death, she has become the deck. Although this magical harrow deck wasn't created using the standard method for creating magic items, it should nonetheless be treated as an intelligent magic item. Zellara can sense the world around the deck via sight and sound, and she can communicate with anyone who holds the deck via empathy. She can create a [major image](spell/major_image) once per day, often doing so to generate an image of herself manipulating the cards-in this manner, she can carry on conversations with other creatures in Common or Varisian. She can also cast [identify](spell/identify) for anyone who holds one of the cards of the deck to his forehead (a move action) up to three times per day.",
+			"These features are subtle manifestations of the spirit that haunts the cards. In life, Zellara lived by this deck, and in death, she has become the deck. Although this magical harrow deck wasn't created using the standard method for creating magic items, it should nonetheless be treated as an intelligent magic item. Zellara can sense the world around the deck via sight and sound, and she can communicate with anyone who holds the deck via [empathy](rule/senses_and_communication). She can create a [major image](spell/major_image) once per day, often doing so to generate an image of herself manipulating the cards-in this manner, she can carry on conversations with other creatures in Common or Varisian. She can also cast [identify](spell/identify) for anyone who holds one of the cards of the deck to his forehead (a move action) up to three times per day.",
 			"",
 			"Zellara's harrow deck has a special purpose as well: to defend and protect the city of Korvosa, her home in life and in death. In order to attain this purpose, she can periodically perform powerful harrow readings for those she has chosen as Korvosa's defenders-the PCs. These harrowings grant those who benefit from them a number of Harrow Points that can be used to manipulate fate and chance.",
 			"",
@@ -3968,7 +3968,7 @@
 			"**Alignment** CG; **Ego** 8  ",
 			"**Senses** 60 ft.  ",
 			"**Int** 10, Wis 13, Cha 13  ",
-			"**Communication** empathy (see below)"
+			"**Communication** empathy (see above)"
 		]
 	},
 	"agrimmosh": {

@@ -846,7 +846,7 @@
 			"",
 			"A colleague controls a significant business or trading area, or otherwise wields significant influence within a house's network.  ",
 			"**Prerequisites:** The character must be of character level 4th and must have been a client for at least 1 year, during which the character must have changed the attitudes of any contacts from the house to helpful and maintained them at that level. The character must also present the merchant house with a unique gift of great value. This need not be monetary in nature-it may be, for example, reclaiming an ancestral sword thought lost or introducing a member of the house to someone who becomes her spouse.  ",
-			"**Benefit:** Once per month, a colleague can choose one of the following: 1,000 gp, the services of four house guards (see Client above) for 24 hours, the services of a house emissary (see Client above), or the services of a house lawyer (who pays bail and advises the colleague if she is arrested or charged with a crime). Upon the character's elevation to the status of colleague, the house commissions a custom crafted magical item worth up to 4,500 gp as a gift."
+			"**Benefit:** Once per month, a colleague can choose one of the following: 1,000 gp, the services of four house guards (see [Client](feat/client)) for 24 hours, the services of a house emissary (see Client), or the services of a house lawyer (who pays bail and advises the colleague if she is arrested or charged with a crime). Upon the character's elevation to the status of colleague, the house commissions a custom crafted magical item worth up to 4,500 gp as a gift."
 		]
 	},
 	"collective_recollection": {
@@ -1161,17 +1161,17 @@
 			"**Prerequisites:** Handle Animal 1 rank, own a figurine of wondrous power.  ",
 			"**Benefit:** You may select the creature summoned by your figurine of wondrous power as an animal companion or familiar, or as appropriate. The figurine has the standard abilities of a familiar or animal companion of its type, plus additional abilities related to its figurine type (see below). The main advantage of this is that if your familiar or companion is killed in creature form, it merely reverts to statue form and can be used again later. The following standard figurines are available as animal companions (C) or familiars (F).",
 			"",
-			"Ebony Fly (C): You must have the Vermin Heart feat to select this creature as an animal companion. It is treated as a horse animal companion, and at 8th level it gains a fly speed of 120 feet (average maneuverability).",
+			"**Ebony Fly (C):** You must have the Vermin Heart feat to select this creature as an animal companion. It is treated as a horse animal companion, and at 8th level it gains a fly speed of 120 feet (average maneuverability).",
 			"",
-			"Golden Lions (C): When you select a golden lion as an animal companion, one of the pair becomes your companion and the other retains its standard figurine abilities.",
+			"**Golden Lions (C):** When you select a golden lion as an animal companion, one of the pair becomes your companion and the other retains its standard figurine abilities.",
 			"",
-			"Ivory Goats (C): When selecting an ivory goat as an animal companion, you select one of the three goats in the set (traveling, travail, or terror) as your companion; the others remain standard figurines. All three goats are treated as horse companions. The goat of traveling never suffers from fatigue or exhaustion from extended travel. The goat of travail has 2 horn attacks (1d8 + Str bonus) in addition to a horse's normal attacks. The goat of terror has the fear aura and magical weapon horns as described in its figurine entry.",
+			"**Ivory Goats (C):** When selecting an ivory goat as an animal companion, you select one of the three goats in the set (traveling, travail, or terror) as your companion; the others remain standard figurines. All three goats are treated as horse companions. The goat of traveling never suffers from fatigue or exhaustion from extended travel. The goat of travail has 2 horn attacks (1d8 + Str bonus) in addition to a horse's normal attacks. The goat of terror has the fear aura and magical weapon horns as described in its figurine entry.",
 			"",
-			"Marble Elephant (C): The elephant is treated as an elephant companion.",
+			"**Marble Elephant (C):** The elephant is treated as an elephant companion.",
 			"",
-			"Serpentine Owl (C, F): The owl is treated as a bird animal companion or an owl familiar, but only in its Small horned owl form. In its giant owl form, it is merely a creature, not an animal companion or familiar. After three uses of its giant owl form, the figurine loses that transformation ability forever but still functions normally in its horned owl form as an animal companion or familiar.",
+			"**Serpentine Owl (C, F):** The owl is treated as a bird animal companion or an owl familiar, but only in its Small horned owl form. In its giant owl form, it is merely a creature, not an animal companion or familiar. After three uses of its giant owl form, the figurine loses that transformation ability forever but still functions normally in its horned owl form as an animal companion or familiar.",
 			"",
-			"Silver Raven (C, F): The raven is treated as a bird animal companion or a raven familiar. It retains its metallic appearance and animal messenger ability (though this is redundant for an intelligent familiar) but not its hardness when in animal form.",
+			"**Silver Raven (C, F):** The raven is treated as a bird animal companion or a raven familiar. It retains its metallic appearance and animal messenger ability (though this is redundant for an intelligent familiar) but not its hardness when in animal form.",
 			"",
 			"While the figurine is active, you and the active figurine gain all the normal benefits of having a companion creature; for example, a wizard with a silver raven familiar gains a +3 bonus on Appraise checks, the raven can speak one language, and so on. While the figure is inactive, you gain none of these benefits but are not otherwise hampered by its inert state (as if the creature were out of range but not dead). The usable duration of the companion figurine doubles; for example, an ebony fly is normally usable up to three times per week for up to 12 hours per use, but as a companion creature you may use it up to six times per week for up to 12 hours per use. The figurine is still a magic item and is subject to effects like antimagic field and dispel magic that affect magic items; it uses its caster level or your own, whichever is greater."
 		]
@@ -2196,7 +2196,7 @@
 			"",
 			"You can create magic armor, shields, and weapons.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Magic Items for more information.",
+			"**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the [magic item creation rules](rule/magic_item_creation) for more information.",
 			"",
 			"The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.",
 			"",
@@ -2213,7 +2213,7 @@
 			"",
 			"You can use alchemy to create dangerous ooze creatures.  ",
 			"**Prerequisites:** [Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Craft (alchemy) 3 ranks, caster level 5th.  ",
-			"**Benefit:** You can create living oozes as though they were magical items. Creating an ooze creature takes 1 day for each 500 gp in its construction cost. To create an ooze, you must have access to an oozing vat (see below), you must use up raw materials worth the construction cost of the ooze, and you must succeed at a Craft (alchemy) check (DC 10 + 2 &times; the ooze's CR). A failed check ruins the materials used, while a check that fails by 5 or more also results in an ooze that attacks its creator for 1d4 rounds before dissipating into useless waste material. A newly created ooze has average hit points for its Hit Dice. Oozes created with this feat are mindless and uncontrolled, and even normally intelligent oozes like slithering trackers that are created this way have no Intelligence score-nor any loyalty to their creator.",
+			"**Benefit:** You can create living oozes as though they were magical items. Creating an ooze creature takes 1 day for each 500 gp in its construction cost. To create an ooze, you must have access to an [oozing vat](oozing_vat_gargantuan), you must use up raw materials worth the construction cost of the ooze, and you must succeed at a Craft (alchemy) check (DC 10 + 2 &times; the ooze's CR). A failed check ruins the materials used, while a check that fails by 5 or more also results in an ooze that attacks its creator for 1d4 rounds before dissipating into useless waste material. A newly created ooze has average hit points for its Hit Dice. Oozes created with this feat are mindless and uncontrolled, and even normally intelligent oozes like slithering trackers that are created this way have no Intelligence score-nor any loyalty to their creator.",
 			"",
 			"While ooze creatures cannot normally be purchased in traditional marketplaces, GMs who wish to include such an option in their games-perhaps with oozes sold as black market commodities' need only double the construction cost of a specific ooze creature in order to figure out a fair market price.",
 			"",
@@ -2281,7 +2281,7 @@
 			"",
 			"You can create magic rods.  ",
 			"**Prerequisites:** Caster level 9th.  ",
-			"**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information."
+			"**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the [magic item creation rules](rule/magic_item_creation) for more information."
 		]
 	},
 	"craft_shadow_piercing": {
@@ -2322,7 +2322,7 @@
 			"",
 			"**Price** varies; **Weight** varies",
 			"",
-			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the Craft Shoddy Item feat (see above) in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
+			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the [Craft Shoddy Item](feat/craft_shoddy_item) feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
 			"",
 			"Any shoddy item has its hardness reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account). Items other than weapons and armor have a 10% chance to gain the broken condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful Craft checks and gp expenditure to fix the initial flaws. Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.",
 			"",
@@ -2339,7 +2339,7 @@
 			"",
 			"You can create magic staves.  ",
 			"**Prerequisites:** Caster level 11th.  ",
-			"**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the magic item creation rules in Magic Items for more information."
+			"**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the [magic item creation rules](rule/magic_item_creation) for more information."
 		]
 	},
 	"craft_technological_arms_and_armor": {
@@ -2382,7 +2382,7 @@
 			"",
 			"You can create magic wands.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the magic item creation rules in Magic Items for more information."
+			"**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the [magic item creation rules](rule/magic_item_creation) for more information."
 		]
 	},
 	"craft_wondrous_item": {
@@ -2395,7 +2395,7 @@
 			"",
 			"You can create wondrous items, a type of magic item.  ",
 			"**Prerequisites:** Caster level 3rd.  ",
-			"**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information.",
+			"**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the [magic item creation rules](rule/magic_item_creation) for more information.",
 			"",
 			"You can also mend a broken wondrous item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item."
 		]
