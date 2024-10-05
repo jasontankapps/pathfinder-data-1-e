@@ -3505,7 +3505,7 @@
 			"",
 			"The process of advancing a character works in much the same way as generating a character, except that your ability scores, race, and previous choices concerning class, skills, and feats cannot be changed. Adding a level generally gives you new abilities, additional skill points to spend, more hit points, possibly a permanent +1 increase to one ability score of your choice, or an additional feat (see [Table 3-1](rule/character_advancement)). Over time, as your character rises to higher levels, he becomes a truly powerful force in the game world, capable of ruling nations or bringing them to their knees.",
 			"",
-			"When adding new levels of an existing class or adding levels of a new class (see Multiclassing, below), make sure to take the following steps in order. First, select your new class level. You must be able to qualify for this level before any of the following adjustments are made. Second, apply any ability score increases due to gaining a level. Third, integrate all of the level's class abilities and then roll for additional hit points. Finally, add new skills and feats. For more information on when you gain new feats and ability score increases, see Table 3-1."
+			"When adding new levels of an existing class or adding levels of a new class (see [Multiclassing](rule/multiclassing)), make sure to take the following steps in order. First, select your new class level. You must be able to qualify for this level before any of the following adjustments are made. Second, apply any ability score increases due to gaining a level. Third, integrate all of the level's class abilities and then roll for additional hit points. Finally, add new skills and feats. For more information on when you gain new feats and ability score increases, see Table 3-1."
 		],
 		"parent_topics": [
 			"basics",
@@ -4712,7 +4712,7 @@
 			"",
 			"A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them-even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.",
 			"",
-			"Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the broken condition, and might not function properly (see the Appendix)."
+			"Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the [broken condition](rule/broken_and_fragile), and might not function properly."
 		],
 		"parent_topics": [
 			"items",
@@ -5426,7 +5426,7 @@
 			"",
 			"***Activation:*** Details relating to rod use vary from item to item. Unless noted otherwise, you must be holding a rod to use its abilities. See the individual descriptions for specifics.",
 			"",
-			"***Special Qualities:*** Roll d%. A 01 result indicates the rod is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32- 100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see Intelligent Items later in this chapter).",
+			"***Special Qualities:*** Roll d%. A 01 result indicates the rod is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32- 100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](rule/intelligent_items)).",
 			"",
 			"Rods with charges can never be intelligent.",
 			"",

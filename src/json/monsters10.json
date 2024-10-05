@@ -5239,7 +5239,7 @@
 			"",
 			"Feranths prefer to carve their lairs out of hillsides where they can monitor the passage of potential prey, but they sometimes dig dens deep underground to protect themselves from ambush by rival feranths. It is most common for a feranth to construct its home underground when other feranths threaten its territory, but females of the species also dig underground lairs when they are ready to lay and hatch their eggs. Thus, the presence of an underground feranth lair is a sign of greater danger: either the nearby area is infested with other feranths, or the den belongs to a ferocious feranth mother.",
 			"",
-			"Crafty Kellid tribes have learned some tricks, such as the use of earplugs or silencing magic, to counteract the beasts' advantages. They also bait feranths into traps or enclosed canyons using livestock or other large animals. The Kellids use these tactics not only to fight these alien beasts, but also to capture them-a few captive feranths have even been trained for warfare by various tribes. Powerful alchemical concoctions are mixed and fed to a captive feranth, as it is necessary to cloud the creature's mind to tame it. In this state, the feranth becomes docile and seemingly forgets how to burrow, making it easy for the tribe to keep its prized beast nearby. Once the feranth's mind is clouded, blinders can be attached to limit the creature's field of vision, allowing a brave barbarian rider to guide it in battle. When the time comes for the feranth to fight, a second concoction is fed to the beast to give it a burst of energy, sending it into a rampage.",
+			"Crafty Kellid tribes have learned some tricks, such as the use of earplugs or silencing magic, to counteract the beasts' advantages. They also bait feranths into traps or enclosed canyons using livestock or other large animals. The Kellids use these tactics not only to fight these alien beasts, but also to capture them-a few captive feranths have even been trained for combat by various tribes. Powerful alchemical concoctions are mixed and fed to a captive feranth, as it is necessary to cloud the creature's mind to tame it. In this state, the feranth becomes docile and seemingly forgets how to burrow, making it easy for the tribe to keep its prized beast nearby. Once the feranth's mind is clouded, blinders can be attached to limit the creature's field of vision, allowing a brave barbarian rider to guide it in battle. When the time comes for the feranth to fight, a second concoction is fed to the beast to give it a burst of energy, sending it into a rampage.",
 			"",
 			"The Red Dog tribe in Numeria's Sellen Hills was renowned for many years for its control of a feranth, a feat that its leaders parleyed into an alliance between a number of nearby tribes. This alliance-and the entire Red Dog tribe-ended abruptly when the captive feranth eventually developed a tolerance to the alchemical concoctions used to keep it docile."
 		]
@@ -5710,7 +5710,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Docile (Ex)** Unless specifically trained for combat (see the Handle Animal skill), a stygian hot-blooded horse's hooves are treated as secondary attacks.",
+			"**Docile (Ex)** Unless specifically trained for combat (see the [Handle Animal](skill/handle_animal) skill), a stygian hot-blooded horse's hooves are treated as secondary attacks.",
 			"",
 			"**Shifting Trot (Ex)** When taking the withdraw action, a stygian hot-blooded horse treats the first 2 squares it leaves as not threatened by any opponent it can see.",
 			"",
@@ -6271,7 +6271,7 @@
 			"**Base Atk** +3; **CMB** +6; **CMD** 19  ",
 			"**Feats** [Dodge](feat/dodge)  ",
 			"**Skills** Acrobatics +0 (+20 when jumping); **Racial Modifiers** +20 Acrobatics when jumping  ",
-			"**SQ** uncanny leap (see giant flea)",
+			"**SQ** uncanny leap (see [giant flea](monster/giant_flea))",
 			"",
 			"#### Ecology",
 			"",

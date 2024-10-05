@@ -2289,7 +2289,7 @@
 			"",
 			"**Protective Aura (Su)** Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the draconal. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals draconal's HD). (The defensive benefits from the circle are not included in a draconal's stat block.)",
 			"",
-			"**Spells (Sp)** Draconals cast spells as 17th-level clerics. Like clerics, they have access to two domains, selecting from the following list: Air, Good, Nobility, Weather, and two additional domain options based on their color (see facing page). The majority of draconals choose Good and Nobility as their domains (as represented by this stat block). Draconals have a domain spell slot at each spell level but do not gain the granted powers of their chosen domains, nor do they gain access to other cleric abilities.",
+			"**Spells (Sp)** Draconals cast spells as 17th-level clerics. Like clerics, they have access to two domains, selecting from the following list: Air, Good, Nobility, Weather, and two additional domain options based on their color (see below). The majority of draconals choose Good and Nobility as their domains (as represented by this stat block). Draconals have a domain spell slot at each spell level but do not gain the granted powers of their chosen domains, nor do they gain access to other cleric abilities.",
 			"",
 			"#### Description",
 			"",
@@ -3313,7 +3313,7 @@
 			"",
 			"A humanoid killed by void death becomes a void zombie. A void zombie is a fast zombie that gains a secondary \"tongue\" attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.",
 			"",
-			"Blood Drain (Ex) If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches."
+			"**Blood Drain (Ex)** If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches."
 		]
 	},
 	"akhlut": {

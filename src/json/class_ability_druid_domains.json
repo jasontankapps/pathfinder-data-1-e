@@ -424,7 +424,7 @@
 			"**Domain Spells:** 1st-[ant haul](spell/ant_haul), 2nd-[summon swarm](spell/summon_swarm), 3rd-[vermin shape I](spell/vermin_shape_i), 4th-[vermin shape II](spell/vermin_shape_ii), 5th-[insect plague](spell/insect_plague), 6th-[swarm skin](spell/swarm_skin), 7th-[creeping doom](spell/creeping_doom), 8th-[verminous transformation](spell/verminous_transformation), 9th-[summon nature's ally IX](spell/summon_nature's_ally_9) (1d3 purple worms only)."
 		]
 	},
-	"_vulture": {
+	"vulture": {
 		"name": "Vulture",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [

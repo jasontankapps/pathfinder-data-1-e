@@ -4288,7 +4288,7 @@
 			"**Base Atk** +8; **CMB** +31; **CMD** 39 (43 vs. trip)  ",
 			"**Feats** [Critical Focus](feat/critical_focus), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Improved Critical (bite)](feat/improved_critical), [Improved Great Fortitude](feat/improved_great_fortitude), [Power Attack](feat/power_attack)  ",
 			"**Skills** Perception +14 (+10 for sound-based checks); **Racial Modifiers** -4 Perception for sound-based checks  ",
-			"**SQ** buoyant, shell, slow and steady (see giant tortoise)",
+			"**SQ** buoyant, shell, slow and steady (see [giant tortoise](monster/giant_tortoise))",
 			"",
 			"#### Ecology",
 			"",

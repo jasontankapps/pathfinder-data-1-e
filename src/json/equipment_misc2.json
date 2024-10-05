@@ -2737,11 +2737,11 @@
 			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)",
 			"",
-			"This Large quadruped is used as a mount and pack animal. Horses can be trained for war but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.",
+			"This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.",
 			"",
 			"**Heavy Horse:** These horses are often used as portage animals, pulling significant loads across great distances.",
 			"",
-			"**Heavy Horse (Combat Trained):** Heavy warhorses are bred and trained for war. They are often are outfitted with heavy barding, but fight just as fiercely even without the armor.",
+			"**Heavy Horse (Combat Trained):** Heavy warhorses are bred and trained for combat. They are often are outfitted with heavy barding, but fight just as fiercely even without the armor.",
 			"",
 			"**Light Horse:** These horses can be ridden, but often serve as porters or carriage horses.",
 			"",
@@ -2749,7 +2749,7 @@
 			"",
 			"Pony: These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.",
 			"",
-			"**Pony (Combat Trained):** Ponies can be trained for war just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
+			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
 		]
 	},
 	"horse_heavy_combat_trained": {

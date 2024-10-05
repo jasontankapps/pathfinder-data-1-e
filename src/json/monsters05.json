@@ -4318,7 +4318,7 @@
 			"",
 			"A creature whose Constitution score is drained to 0 by a colour out of space's feed attack immediately dies, crumbling into a mass of desiccated tissue. ",
 			"",
-			"A creature whose Charisma score is drained to 0 by a colour out of space's feed attack gains the colour-blighted simple template (see the facing page). Every time a colour successfully feeds on a creature, it gains 1 growth point. A colour out of space can never have more than 100 growth points-it can expend 100 growth points after spending 24 hours concentrating on its growth, and in so doing gains 1 permanent Hit Die.",
+			"A creature whose Charisma score is drained to 0 by a colour out of space's feed attack gains the [colour-blighted](template/colour-blighted) simple template. Every time a colour successfully feeds on a creature, it gains 1 growth point. A colour out of space can never have more than 100 growth points-it can expend 100 growth points after spending 24 hours concentrating on its growth, and in so doing gains 1 permanent Hit Die.",
 			"",
 			"**Susceptible to Force Effects (Ex)** A colour out of space takes half again as much damage (+50%) from force effects, and takes a -4 penalty on all saving throws to resist force effects. A colour out of space can't damage force effects with its disintegrating touch. Its aura of lassitude and feed ability is blocked if the colour is completely entrapped by force effects (such as by a windowless cell version of forcecage or a telekinetic sphere).",
 			"",
@@ -4980,13 +4980,13 @@
 			"",
 			"Because cordulegasters' range extends across multiple planes, many subpopulations have adapted to the strange, warped conditions of their environments.",
 			"",
-			"Borderlands Cordulegaster: Populations in the expanse of the Styx that runs along the borders of the Maelstrom are subject to the whirling chaos just beyond. As a result, cordulegasters found in the borderlands have anatomies in a state of constant flux, giving them the following ability.",
+			"**Borderlands Cordulegaster:** Populations in the expanse of the Styx that runs along the borders of the Maelstrom are subject to the whirling chaos just beyond. As a result, cordulegasters found in the borderlands have anatomies in a state of constant flux, giving them the following ability.",
 			"",
-			"Amorphous Anatomy (Ex): The cordulegaster's vital organs constantly shift and change shape, granting it a 50% chance to ignore additional damage caused by critical hits and sneak attacks, and rendering it immune to polymorph effects. Borderlands cordulegasters automatically recover from physical blindness or deafness after 1 round by growing new sensory organs to replace the compromised ones.",
+			"**Amorphous Anatomy (Ex):** The cordulegaster's vital organs constantly shift and change shape, granting it a 50% chance to ignore additional damage caused by critical hits and sneak attacks, and rendering it immune to polymorph effects. Borderlands cordulegasters automatically recover from physical blindness or deafness after 1 round by growing new sensory organs to replace the compromised ones.",
 			"",
-			"Elder Cordulegaster: Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons (see below).",
+			"**[Elder Cordulegaster](monster/elder_cordulegaster):** Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons.",
 			"",
-			"Planar Swamp Cordulegaster: The memory-stealing waters of the Styx become diluted once they trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling in these marshes have a weaker effect-those bitten must succeed at a DC 13 Will save or become confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas those residing in the Plaguemere are immune to disease."
+			"**Planar Swamp Cordulegaster:** The memory-stealing waters of the Styx become diluted once they trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling in these marshes have a weaker effect-those bitten must succeed at a DC 13 Will save or become confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas those residing in the Plaguemere are immune to disease."
 		]
 	},
 	"cordulegaster_elder_cordulegaster": {
@@ -5054,25 +5054,7 @@
 			"",
 			"Jagged russet plates cover the cordulegaster's body, camouflaging the creature by mimicking natural rock formations found in Abadd0n's waterways. Serrated edges line its protective chitin and run down the creature's back, making it dangerous to grab or hold (and sparing it from larger predators). These serrated edges allow its lashing tail to open deep, jagged wounds with every blow. A typical cordulegaster can grow up to 12 feet long and 7 feet tall at the head, and can weigh as much as 2,000 pounds.",
 			"",
-			"### Ecology",
-			"",
-			"The precise origins of the cordulegaster remain unclear. Some believe Charon created these monstrosities to patrol the shorelines of the Styx and prevent trespassers from crossing without paying his tolls. Others suggest Trelmarixian the Black, Horseman of Famine, twisted and tortured souls to form the ravenous cordulegasters within the dark and sinister laboratories of the Weeping Tower and released them into the Bile Sluice. Whatever their origins, cordulegasters have since spread throughout the Styx river system and into adjoining Outer Planes.",
-			"",
-			"### Habitat",
-			"",
-			"Cordulegasters primarily inhabit the River Styx and its connected bodies of water, which extend through Abaddon, Axis, Hell, and the borderlands of the Maelstrom. While not true daemons, they are native to Abaddon and make up an important part of the plane's environment, filling the role of large ambush predators, much like crocodiles do on Golarion. Outside the River Styx, cordulegasters are most often found in shallow, slow-moving waters and swamps, especially Abaddon's Bile Sluice and Plaguemere. Though the swamps of Stygia in Hell are devoid of daemons, many of these twisted beasts find purchase and thrive there. Cordulegasters are often found serving more powerful outsiders, particularly hydrodaemons and piscodaemons, and assist the daemons in harvesting souls.",
-			"",
-			"### Variants",
-			"",
-			"Because cordulegasters' range extends across multiple planes, many subpopulations have adapted to the strange, warped conditions of their environments.",
-			"",
-			"Borderlands Cordulegaster: Populations in the expanse of the Styx that runs along the borders of the Maelstrom are subject to the whirling chaos just beyond. As a result, cordulegasters found in the borderlands have anatomies in a state of constant flux, giving them the following ability.",
-			"",
-			"Amorphous Anatomy (Ex): The cordulegaster's vital organs constantly shift and change shape, granting it a 50% chance to ignore additional damage caused by critical hits and sneak attacks, and rendering it immune to polymorph effects. Borderlands cordulegasters automatically recover from physical blindness or deafness after 1 round by growing new sensory organs to replace the compromised ones.",
-			"",
-			"Elder Cordulegaster: Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons (see below).",
-			"",
-			"Planar Swamp Cordulegaster: The memory-stealing waters of the Styx become diluted once they trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling in these marshes have a weaker effect-those bitten must succeed at a DC 13 Will save or become confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas those residing in the Plaguemere are immune to disease."
+			"Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons: Elder Cordulegasters."
 		]
 	},
 	"elder_cordulegaster": { "copyof": "cordulegaster_elder_cordulegaster" },

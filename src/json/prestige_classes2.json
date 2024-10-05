@@ -67,7 +67,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** An evangelist is proficient with all simple weapons and light armor. An evangelist also gains weapon proficiency with her chosen deity's favored weapon.",
 			"",
-			"**Obedience (Ex):** In order to maintain the abilities granted by this prestige class, including all abilities gained from aligned class (see below), an evangelist must perform a daily obedience to her chosen deity (see the deity's page for more information).",
+			"**Obedience (Ex):** In order to maintain the abilities granted by this prestige class, including all abilities gained from aligned class (see below), an evangelist must perform a daily obedience to her chosen deity (see the [deity](main/faiths) for more information).",
 			"",
 			"**Skilled:** Evangelists possess a range of skills across multiple disciplines. At 1st level, an evangelist selects two skills to add to her class skill list. Once selected, these class skills can't be changed.",
 			"",
@@ -859,7 +859,7 @@
 			"",
 			"*Morality (Sp):* The Hellknight signifer can determine whether the target is chaotic, evil, good, or lawful, as well as the strength of its aura as if he had studied it for 3 rounds using [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), and [detect law](spell/detect_law).",
 			"",
-			"*Scrutiny (Su):* The Hellknight signifer can discern whether the target has spell-like abilities or spellcasting abilities; whether any spellcasting abilities are arcane, divine, or psychic; and the strength (see detect magic) of the most powerful spell or spell-like ability the target currently has available.",
+			"*Scrutiny (Su):* The Hellknight signifer can discern whether the target has spell-like abilities or spellcasting abilities; whether any spellcasting abilities are arcane, divine, or psychic; and the strength (see [detect magic](spell/detect_magic)) of the most powerful spell or spell-like ability the target currently has available.",
 			"",
 			"*Veracity (Sp):* The Hellknight signifer can observe the target as if using true seeing. A Hellknight signifer must be 7th level to select this ability.",
 			"",
@@ -2238,7 +2238,7 @@
 			"",
 			"**Disguise (Ex):** When in her mutagenic form, the chymist can temporarily change her appearance to her normal form and still retain most of the abilities of her mutagenic form. As a standard action, she may make a Will saving throw (DC 20) to assume the appearance of her normal form for one minute. Each additional minute beyond the first requires a new saving throw with a +1 increase to the DC. Failure means the chymist assumes her normal form (as if ending the use of mutagenic form) or reverts fully to her mutagenic form. At any time while using this ability, the chymist can resume her normal form as a standard action or relax her will and revert to her mutagenic form as a free action. Once this ability ends, the chymist cannot use it again until 10 minutes have passed. Obvious physical changes in mutagenic form such as draconic mutagen, feral mutagen, and growth mutagen do not work while the chymist is disguised in her normal form. Time spent disguised counts toward the chymist's time in her mutagenic form.",
 			"",
-			"**Draconic Mutagen (Su):** When the chymist assumes her mutagenic form, she gains dragon-like features-scaly skin, reptilian eyes, and so on, resembling a half-dragon. The chymist chooses one dragon type (see the draconic bloodline) when selecting this advanced mutagen; once selected, this choice cannot be changed and determines her draconic resistances and breath weapon type. The chymist gains resistance 20 to the dragon's energy type. The chymist's breath weapon deals 8d8 points of energy damage (Reflex half, DC 10 + the chymist's class level + the chymist's Intelligence modifier); she may use her breath weapon once per transformation into her mutagenic form. The character must have an effective alchemist level (alchemist level plus master chymist levels) of at least 16, must know the form of the dragon I extract, and must have the feral mutagen discovery or advanced mutagen to select this ability.",
+			"**Draconic Mutagen (Su):** When the chymist assumes her mutagenic form, she gains dragon-like features-scaly skin, reptilian eyes, and so on, resembling a half-dragon. The chymist chooses one dragon type (see the [draconic](sorcererbloodline/draconic) bloodline) when selecting this advanced mutagen; once selected, this choice cannot be changed and determines her draconic resistances and breath weapon type. The chymist gains resistance 20 to the dragon's energy type. The chymist's breath weapon deals 8d8 points of energy damage (Reflex half, DC 10 + the chymist's class level + the chymist's Intelligence modifier); she may use her breath weapon once per transformation into her mutagenic form. The character must have an effective alchemist level (alchemist level plus master chymist levels) of at least 16, must know the form of the dragon I extract, and must have the feral mutagen discovery or advanced mutagen to select this ability.",
 			"",
 			"**Dual Mind (Ex):** The chymist's alter ego gives her a +2 bonus on Will saving throws in her normal and mutagenic forms. If she is affected by an enchantment spell or effect and fails her saving throw, she can attempt it again 1 round later at the same DC; if she succeeds, she is free of the effect (as if she had made her original save) and immediately changes to her mutagenic form or back to her normal form. If she has no more uses of the mutate ability remaining for the day, she cannot use dual mind. The character must have an effective alchemist level (alchemist level plus master chymist levels) of at least 10 to select this ability.",
 			"",
@@ -2485,7 +2485,7 @@
 			"",
 			"### Ex-Mystery Cultists",
 			"",
-			"A mystery cultist whose alignment becomes any nongood, or who goes against the will of her patron, loses all class features of this prestige class, including all spellcasting ability enhanced by this class (even if that spellcasting ability comes from a class that normally does not rely on the approval of a divine patron). She cannot thereafter gain levels as a mystery cultist until she atones for her deeds (see the atonement spell description). This is the only route a mystery cultist can take to switch to a different celestial patron-the atonement must come from a worshiper of the new empyreal lord."
+			"A mystery cultist whose alignment becomes any nongood, or who goes against the will of her patron, loses all class features of this prestige class, including all spellcasting ability enhanced by this class (even if that spellcasting ability comes from a class that normally does not rely on the approval of a divine patron). She cannot thereafter gain levels as a mystery cultist until she atones for her deeds (see the [atonement](spell/atonement) spell description). This is the only route a mystery cultist can take to switch to a different celestial patron-the atonement must come from a worshiper of the new empyreal lord."
 		]
 	},
 	"mystic_theurge": {

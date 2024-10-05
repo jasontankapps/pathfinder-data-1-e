@@ -1032,15 +1032,15 @@
 			"",
 			"Though no bandersnatch is ordinary, some are rarer than others. The most famous is the frumious bandersnatch, brimming with rage so fierce it burns. Variant bandersnatches may combine two or more of the abilities below.",
 			"",
-			"Confounding Bandersnatch (+1 CR): Confounding bandersnatches drip infectious madness from their quills and claws. Poison (Ex) Claws and quills-injury; save Fort DC 29; frequency 1/minute for 6 minutes; effect confused for 1 minute; cure 2 consecutive saves. The save DC is Constitution-based.",
+			"**Confounding Bandersnatch (+1 CR):** Confounding bandersnatches drip infectious madness from their quills and claws. Poison (Ex) Claws and quills-injury; save Fort DC 29; frequency 1/minute for 6 minutes; effect confused for 1 minute; cure 2 consecutive saves. The save DC is Constitution-based.",
 			"",
-			"Frumious Bandersnatch (+2 CR): A frumious bandersnatch seethes with barely repressed rage and anger. If it misses with its bite attack or falls below half of its hit points, it succumbs to such uncontrollable fury that it bursts into flame. While engulfed in these flames, a frumious bandersnatch is affected as by a haste spell (this effect cannot be dispelled) and causes an additional 2d6 points of fire damage with each of its melee attacks and its quill defense ability. The fury lasts for 5 rounds, after which the bandersnatch cannot enter a fury again for another 5 rounds. A frumious bandersnatch has fire resistance 30.",
+			"**Frumious Bandersnatch (+2 CR):** A frumious bandersnatch seethes with barely repressed rage and anger. If it misses with its bite attack or falls below half of its hit points, it succumbs to such uncontrollable fury that it bursts into flame. While engulfed in these flames, a frumious bandersnatch is affected as by a haste spell (this effect cannot be dispelled) and causes an additional 2d6 points of fire damage with each of its melee attacks and its quill defense ability. The fury lasts for 5 rounds, after which the bandersnatch cannot enter a fury again for another 5 rounds. A frumious bandersnatch has fire resistance 30.",
 			"",
-			"Lesser Bandersnatch (-4 CR): Smaller or younger bandersnatches are still fearsome predators in their own right. A lesser bandersnatch is Huge, with 4 fewer Hit Dice than a typical bandersnatch. Reduce its physical ability scores by 4 each and its Wisdom and Charisma by 2 each. A lesser bandersnatch lacks quick recovery and deals 1d8+4 points of damage with its quill defense and pain abilities. Lesser bandersnatches never have any additional variant powers.",
+			"**Lesser Bandersnatch (-4 CR):** Smaller or younger bandersnatches are still fearsome predators in their own right. A lesser bandersnatch is Huge, with 4 fewer Hit Dice than a typical bandersnatch. Reduce its physical ability scores by 4 each and its Wisdom and Charisma by 2 each. A lesser bandersnatch lacks quick recovery and deals 1d8+4 points of damage with its quill defense and pain abilities. Lesser bandersnatches never have any additional variant powers.",
 			"",
-			"Magicbane Bandersnatch (+3 CR): These bandersnatches radiate an antimagic aura in a 20-foot radius. Should the aura be brought down, it returns automatically as a free action on the bandersnatch's next turn. Magicbane bandersnatches lack gaze and quick recovery.",
+			"**Magicbane Bandersnatch (+3 CR):** These bandersnatches radiate an antimagic aura in a 20-foot radius. Should the aura be brought down, it returns automatically as a free action on the bandersnatch's next turn. Magicbane bandersnatches lack gaze and quick recovery.",
 			"",
-			"Primal Bandersnatch (+2 CR): Primal bandersnatches have kept their ties to the ancient world of the fey. They have the extraplanar subtype, SR equal to 11 plus their CR, DR 10/cold iron, and the advanced creature simple template."
+			"**Primal Bandersnatch (+2 CR):** Primal bandersnatches have kept their ties to the ancient world of the fey. They have the extraplanar subtype, SR equal to 11 plus their CR, DR 10/cold iron, and the advanced creature simple template."
 		]
 	},
 	"banelight": {
@@ -1860,7 +1860,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Disease (Su)** Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight (see ghouls).",
+			"**Disease (Su)** Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight (see [ghouls](monster/ghoul)).",
 			"",
 			"**Screech (Su)** Once per day as a standard action, a skaveling can screech as a mobat, save that those who are affected are stunned for 1d3 rounds unless they make a DC 16 Fortitude save. The save DC is Charisma-based.",
 			"",
@@ -3673,7 +3673,7 @@
 			"",
 			"**Disease (Ex)** While a benaioh is immune to disease, it carries a contagion with which it both infects other creatures and propagates itself. Any creature struck by the benaioh's spray slime ability is exposed to this disease.",
 			"",
-			"Wormrot: Contact; save Fort DC 20; onset 1 minute; frequency 1/day; effect sickened plus 1d3 Con damage; cure 2 consecutive saves. The save DC is Constitution-based. A creature that dies of wormrot transforms into a benaioh over the course of the next 24 hours.",
+			"*Wormrot:* Contact; save Fort DC 20; onset 1 minute; frequency 1/day; effect sickened plus 1d3 Con damage; cure 2 consecutive saves. The save DC is Constitution-based. A creature that dies of wormrot transforms into a benaioh over the course of the next 24 hours.",
 			"",
 			"**Spray Slime (Ex)** Once every 1d4 rounds (but no more than 6 times per day), a benaioh in its clay shell can force a stream of itself in a 20-foot line of worm-laden slime from one of the clay shell's orifices. The putrescent sludge deals 3d6 points of acid damage and exposes the target to wormrot.",
 			"",
@@ -5597,7 +5597,7 @@
 			"",
 			"**Disease (Ex)** Bloodhaze mosquitoes are bearers of a terrifying and deadly disease common to the jungle, known to most locals as sleeping sickness.",
 			"",
-			"Sleeping Sickness: Swarm-injury; save Fort DC 17; onset 1d2 days; frequency 1 day; effect 1d4 Wisdom damage and target is fatigued, cure 2 consecutive saves or arsenic (see [here](disease/sleeping_sickness) for more details).",
+			"*Sleeping Sickness:* Swarm-injury; save Fort DC 17; onset 1d2 days; frequency 1 day; effect 1d4 Wisdom damage and target is fatigued, cure 2 consecutive saves or arsenic (see [here](disease/sleeping_sickness) for more details).",
 			"",
 			"#### Description",
 			"",
@@ -5609,7 +5609,7 @@
 			"",
 			"Endemic throughout the Sodden Lands and the Mwangi Expanse, the parasitic affliction known as \"sleeping sickness\" is spread when flying insects inject tiny parasites into their unsuspecting victim's bloodstream, thus inducing fever, headache, joint pain, swelling of glands in the back and neck, and most notably fatigue. The disease gradually infects the brain, causing confusion, reduced coordination, difficulty keeping track of time, and insomnia.",
 			"",
-			"While exceedingly dangerous, even when administered by a practiced healer, the best cure for this disease is dosing the patient with the poison arsenic. If the patient survives, there's a cumulative 30% chance per dose that the disease is immediately cured.",
+			"While exceedingly dangerous, even when administered by a practiced healer, the best cure for this disease is dosing the patient with the poison [arsenic](equipment-poison/arsenic). If the patient survives, there's a cumulative 30% chance per dose that the disease is immediately cured.",
 			"",
 			"*Sleeping Sickness* **Type** disease (parasite), injury; **Save** Fortitude DC 14 Onset 1d2 days; **Frequency** 1/day Effect 1d4 Wis damage and target is fatigued; **Cure** 2 consecutive saves or arsenic (see text)"
 		]

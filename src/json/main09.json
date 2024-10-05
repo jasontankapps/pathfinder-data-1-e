@@ -3371,6 +3371,7 @@
 					[ [ "template/aqueous", "Aqueous" ], [0.1, "+0 or +1"], [1, "X"], [2, ""], [1, "X"], [1.2, "X&ast;&ast;"] ],
 					[ [ "template/barbarian", "Barbarian" ], [2.3, "+2 or +3"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ [ "template/bard", "Bard" ], [1.2, "+1 or +2"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
+					[ [ "template/bestial_creature", "Bestial Creature" ], [0, "+0"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ [ "template/blighted_fey", "Blighted Fey" ], [2, "+2"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ [ "template/boreal_creature", "Boreal Creature" ], [1, "+1"], [2, ""], [1, "X"], [2, ""], [1, "X"] ],
 					[ [ "template/broken_soul", "Broken Soul" ], [2, "+2"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
